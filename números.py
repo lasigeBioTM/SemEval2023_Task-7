@@ -48,3 +48,25 @@ with open('Training_data/Training_data/Clinical trial json/NCT02953860.json') as
 #falta ainda buscar 500mg [(500,'mg')]
 "ANC >1000/uL and platelets >75,000/uL at screening visit"
 "Total bilirubin < 1.5 times upper limit of normal (ULN) at the screening visit unless an alternate nonmalignant etiology exists (eg, Gilbert's disease)"
+
+
+#exemplo resultados
+
+"""
+line:            Fulvestrant with Enzalutamide: 500mg of Fulvestrant will be given IM on days 1, 15, 28, then every 4 weeks as per standard of care (SOC) and 160mg of Enzalutamide will be given PO daily. Patients will receive a tumor biopsy at the start of treatment and 4 weeks after the start of treatment, with an optional 3rd biopsy at the end treatment.,
+
+words:  [(1.0, 'days'), (1.0, 'then')]
+
+line:            Fulvestrant with Enzalutamide: 500mg of Fulvestrant will be given IM on days 1, 15, 28, then every 4 weeks as per standard of care (SOC) and 160mg of Enzalutamide will be given PO daily. Patients will receive a tumor biopsy at the start of treatment and 4 weeks after the start of treatment, with an optional 3rd biopsy at the end treatment.,
+
+words:  [(15.0, 'days'), (15.0, 'then')]
+
+line:            Fulvestrant with Enzalutamide: 500mg of Fulvestrant will be given IM on days 1, 15, 28, then every 4 weeks as per standard of care (SOC) and 160mg of Enzalutamide will be given PO daily. Patients will receive a tumor biopsy at the start of treatment and 4 weeks after the start of treatment, with an optional 3rd biopsy at the end treatment.,
+
+words:  [(28.0, 'days'), (28.0, 'then')]
+
+line:            Fulvestrant with Enzalutamide: 500mg of Fulvestrant will be given IM on days 1, 15, 28, then every 4 weeks as per standard of care (SOC) and 160mg of Enzalutamide will be given PO daily. Patients will receive a tumor biopsy at the start of treatment and 4 weeks after the start of treatment, with an optional 3rd biopsy at the end treatment.,
+
+words:  [(4.0, 'every'), (4.0, 'weeks')]
+
+"""
