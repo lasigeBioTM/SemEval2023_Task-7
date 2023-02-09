@@ -1,0 +1,154 @@
+INTERVENTION 1:	Intervention	0
+BKM120 100mg + Fulvestrant	Intervention	1
+bkm120	CHEBI:71954	0-6
+fulvestrant	CHEBI:31638	15-26
+BKM120 100 mg per day and fulvestrant given until progression or as described in the protocol.	Intervention	2
+bkm120	CHEBI:71954	0-6
+day	UO:0000033	18-21
+fulvestrant	CHEBI:31638	26-37
+INTERVENTION 2:	Intervention	3
+Placebo + Fulvestrant	Intervention	4
+fulvestrant	CHEBI:31638	10-21
+BKM120 matching placebo daily and fulvestrant given until progression or as described in the protocol.	Intervention	5
+bkm120	CHEBI:71954	0-6
+fulvestrant	CHEBI:31638	34-45
+Key Inclusion Criteria:	Eligibility	0
+Locally advanced or metastatic breast cancer	Eligibility	1
+breast cancer	DOID:1612	31-44
+HER2-negative and hormone receptor-positive status (common breast cancer classification tests)	Eligibility	2
+hormone	CHEBI:24621	18-25
+breast cancer	DOID:1612	59-72
+Postmenopausal woman	Eligibility	3
+A tumor sample must be shipped to a Novartis designated laboratory for identification of biomarkers (PI3K activation status)	Eligibility	4
+activation	BAO:0000087	106-116
+Progression or recurrence of breast cancer while on or after aromatase inhibitor treatment	Eligibility	5
+breast cancer	DOID:1612	29-42
+inhibitor	CHEBI:35222	71-80
+Measurable disease or non measurable disease bone lesions in the absence of measurable disease as per RECIST 1.1	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	37-44
+disease	DOID:4,OGMS:0000031	87-94
+Adequate bone marrow and organ function defined by laboratory values	Eligibility	7
+bone marrow	UBERON:0002371	9-20
+organ	UBERON:0000062	25-30
+function	BAO:0003117,BFO:0000034	31-39
+Key Exclusion Criteria:	Eligibility	8
+Previous treatment with PI3K inhibitors, AKT inhibitors, mTOR inhibitor or fulvestrant	Eligibility	9
+mtor inhibitor	CHEBI:68481	57-71
+fulvestrant	CHEBI:31638	75-86
+More than one prior chemotherapy line for metastatic disease	Eligibility	10
+disease	DOID:4,OGMS:0000031	53-60
+Symptomatic brain metastases	Eligibility	11
+brain	UBERON:0000955	12-17
+Increasing or chronic treatment (> 5 days) with corticosteroids or another immunosuppressive agent	Eligibility	12
+chronic	HP:0011010	14-21
+immunosuppressive agent	CHEBI:35705	75-98
+Active heart (cardiac) disease as defined in the protocol	Eligibility	13
+active	PATO:0002354	0-6
+heart	UBERON:0000948	7-12
+disease	DOID:4,OGMS:0000031	23-30
+Certain scores on an anxiety and depression mood questionnaires	Eligibility	14
+anxiety	HP:0000739,DOID:2030	21-28
+depression	HP:0000716	33-43
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS) Based on Local Investigator Assessment - Full Analysis Set (FAS) in Full Population, Main Study Cohort and PI3K Unknown Cohort	Results	1
+Progression Free Survival (PFS) is defined as the time from date of randomization to the date of first radiologically documented progression or death due to any cause. If a patient did not progress or die at the time of the analysis data cut-off or start of new antineoplastic therapy, PFS was censored at the date of the last adequate tumor assessment before the earliest of the cut-off date or the start date of additional anti-neoplastic therapy. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria RECIST v1.1, as 20% increase in the sum of diameter of all measured target lesions, taking as reference the smallest sum of diameter of all target lesions recorded at or after baseline and/or unequivocal progression of the non-target lesions and/or appearance of a new lesion. In addition to the relative increase of 20%, the sum must demonstrate an absolute increase of at least 5 mm.	Results	2
+time	PATO:0000165	50-54
+time	PATO:0000165	212-216
+death	OAE:0000632	144-149
+patient	HADO:0000008,OAE:0001817	173-180
+increase	BAO:0001251	553-561
+increase	BAO:0001251	838-846
+increase	BAO:0001251	892-900
+diameter	PATO:0001334	576-584
+diameter	PATO:0001334	657-665
+target	BAO:0003064	601-607
+target	BAO:0003064	673-679
+target	BAO:0003064	760-766
+Time frame: Date of randomization to the date of first documented tumor progression or death from any cause, whichever occurs first, reported between day of first patient randomized up to approximately 4 years	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	87-92
+day	UO:0000033	150-153
+patient	HADO:0000008,OAE:0001817	163-170
+Results 1:	Results	4
+Arm/Group Title: BKM120 100mg + Fulvestrant	Results	5
+bkm120	CHEBI:71954	17-23
+fulvestrant	CHEBI:31638	32-43
+Arm/Group Description: BKM120 100 mg per day and fulvestrant given until progression or as described in the protocol.	Results	6
+bkm120	CHEBI:71954	23-29
+day	UO:0000033	41-44
+fulvestrant	CHEBI:31638	49-60
+Overall Number of Participants Analyzed: 576	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  FAS-Full population: 576 participants	Results	9
+6.9        (6.8 to 7.8)	Results	10
+FAS-Main cohort: 427 participants	Results	11
+6.8        (5.0 to 7.0)	Results	12
+FAS-PI3K pathway activated: 188 participants	Results	13
+activated	BAO:0003072	17-26
+6.8        (4.9 to 7.1)	Results	14
+FAS-PI3K pathway non-activated: 239 participants	Results	15
+6.9        (4.6 to 7.2)	Results	16
+FAS-PI3K pathway unknown: 149 participants	Results	17
+8.7        (7.0 to 12.4)	Results	18
+Results 2:	Results	19
+Arm/Group Title: Placebo + Fulvestrant	Results	20
+fulvestrant	CHEBI:31638	27-38
+Arm/Group Description: BKM120 matching placebo daily and fulvestrant given until progression or as described in the protocol.	Results	21
+bkm120	CHEBI:71954	23-29
+fulvestrant	CHEBI:31638	57-68
+Overall Number of Participants Analyzed: 571	Results	22
+Median (95% Confidence Interval)	Results	23
+median	BAO:0002174	0-6
+Unit of Measure: Months  FAS-Full population: 571 participants	Results	24
+5.0        (4.0 to 5.2)	Results	25
+FAS-Main cohort: 424 participants	Results	26
+4.5        (3.3 to 5.0)	Results	27
+FAS-PI3K pathway activated: 184 participants	Results	28
+activated	BAO:0003072	17-26
+4.0        (3.1 to 5.2)	Results	29
+FAS-PI3K pathway non-activated: 240 participants	Results	30
+4.6        (3.3 to 5.1)	Results	31
+FAS-PI3K pathway unknown: 147 participants	Results	32
+6.8        (5.0 to 8.4)	Results	33
+Adverse Events 1:	Adverse Events	0
+Total: 146/573 (25.48%)	Adverse Events	1
+Anaemia 4/573 (0.70%)	Adverse Events	2
+Disseminated intravascular coagulation 0/573 (0.00%)	Adverse Events	3
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Neutropenia 1/573 (0.17%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/573 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome 1/573 (0.17%)	Adverse Events	6
+acute coronary syndrome	HP:0033678	0-23
+Angina pectoris 1/573 (0.17%)	Adverse Events	7
+angina pectoris	HP:0001681	0-15
+Atrial fibrillation 2/573 (0.35%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter 0/573 (0.00%)	Adverse Events	9
+atrial flutter	HP:0004749	0-14
+Cardiac arrest 1/573 (0.17%)	Adverse Events	10
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 0/573 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 101/570 (17.72%)	Adverse Events	13
+Anaemia 3/570 (0.53%)	Adverse Events	14
+Disseminated intravascular coagulation 1/570 (0.18%)	Adverse Events	15
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Neutropenia 1/570 (0.18%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/570 (0.18%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome 0/570 (0.00%)	Adverse Events	18
+acute coronary syndrome	HP:0033678	0-23
+Angina pectoris 1/570 (0.18%)	Adverse Events	19
+angina pectoris	HP:0001681	0-15
+Atrial fibrillation 0/570 (0.00%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter 1/570 (0.18%)	Adverse Events	21
+atrial flutter	HP:0004749	0-14
+Cardiac arrest 0/570 (0.00%)	Adverse Events	22
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 1/570 (0.18%)	Adverse Events	23

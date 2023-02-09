@@ -1,0 +1,239 @@
+INTERVENTION 1:	Intervention	0
+Diagnostic FES: Average FES SUVmean >1.5, no Negative Sites	Intervention	1
+Patients undergo [^18F] FES PET scan. Patients also undergo standard clinical fludeoxyglucose F 18 (FDG)-PET or FDG-PET/CT scan up to 14 days prior to [^18F] FES PET scan.	Intervention	2
+f	UO:0000195	21-22
+f	UO:0000195	24-25
+f	UO:0000195	78-79
+f	UO:0000195	94-95
+f	UO:0000195	100-101
+f	UO:0000195	112-113
+f	UO:0000195	155-156
+f	UO:0000195	158-159
+Patients begin clinically indicated endocrine therapy.	Intervention	3
+Patients are followed-up to determine response on the therapy for 6 months using clinical exams, tumor marker assays, conventional imaging and standard clinical FDG PET/CT.	Intervention	4
+This group represents patients who had positive FES uptake at all disease sites on the baseline diagnostic FES PET scan.	Intervention	5
+group	CHEBI:24433	5-10
+uptake	GO:0098739,BAO:0001256	52-58
+disease	DOID:4,OGMS:0000031	66-73
+laboratory biomarker analysis: Correlative studies	Intervention	6
+biomarker	CHEBI:59163	11-20
+INTERVENTION 2:	Intervention	7
+Diagnostic FES: Patients With FES Negative Sites of Disease	Intervention	8
+disease	DOID:4,OGMS:0000031	52-59
+Patients undergo [^18F] FES PET scan. Patients also undergo standard clinical fludeoxyglucose F 18 (FDG)-PET or FDG-PET/CT scan up to 14 days prior to [^18F] FES PET scan.	Intervention	9
+f	UO:0000195	21-22
+f	UO:0000195	24-25
+f	UO:0000195	78-79
+f	UO:0000195	94-95
+f	UO:0000195	100-101
+f	UO:0000195	112-113
+f	UO:0000195	155-156
+f	UO:0000195	158-159
+Patients begin clinically indicated endocrine therapy.	Intervention	10
+Patients are followed-up to determine response on the therapy for 6 months using clinical exams, tumor marker assays, conventional imaging and standard clinical FDG PET/CT.	Intervention	11
+This group represents patients who had some or all disease sites negative for FES uptake on the baseline diagnostic FES PET scan.	Intervention	12
+group	CHEBI:24433	5-10
+disease	DOID:4,OGMS:0000031	51-58
+uptake	GO:0098739,BAO:0001256	82-88
+Inclusion Criteria:	Eligibility	0
+Patients will have pathologically confirmed invasive breast cancer with clinical, radiographic and/or pathologic evidence of stage IV disease; patients must have tissue blocks available from biopsy of at least one site of metastatic disease and/or from diagnosis of their primary breast cancer	Eligibility	1
+breast cancer	DOID:1612	53-66
+breast cancer	DOID:1612	280-293
+disease	DOID:4,OGMS:0000031	134-141
+disease	DOID:4,OGMS:0000031	233-240
+tissue	UBERON:0000479	162-168
+site	BFO:0000029	214-218
+Disease may be measurable (by Response Evaluation Criteria in Solid Tumors [RECIST] criteria) or non-measurable but must be present in at least one non-liver site and imageable on FDG PET scan; in patients with non-measurable disease by RECIST criteria, one of the following may be used to assess and follow disease: MUC-1 antigen level (either cancer antigen [CA] 27.29 or carcinoembryonic antigen [CEA]) > 2 x upper limit of normal (ULN), Circulating tumor cell assay > 5, or FDG-PET SUV > 2.5 in purely lytic lesions; elevated tumor markers alone are insufficient	Eligibility	2
+disease	DOID:4,OGMS:0000031	0-7
+disease	DOID:4,OGMS:0000031	226-233
+disease	DOID:4,OGMS:0000031	308-315
+present	PATO:0000467	124-131
+site	BFO:0000029	158-162
+antigen	CHEBI:59132	323-330
+antigen	CHEBI:59132	352-359
+antigen	CHEBI:59132	391-398
+cancer	DOID:162	345-351
+x	LABO:0000148	410-411
+No prior endocrine therapy for breast cancer or	Eligibility	3
+breast cancer	DOID:1612	31-44
+Off adjuvant endocrine therapy for > 6 months or	Eligibility	4
+adjuvant	CHEBI:60809	4-12
+Greater than 2 years of a single adjuvant endocrine therapy at the time of first recurrence and plan to change to alternate endocrine therapy; use of tamoxifen must be discontinued 6-8 weeks prior to entrance into the study	Eligibility	5
+adjuvant	CHEBI:60809	33-41
+time	PATO:0000165	67-71
+tamoxifen	CHEBI:41774	150-159
+Prior chemotherapy regimens in the adjuvant or neoadjuvant setting are allowed	Eligibility	6
+adjuvant	CHEBI:60809	35-43
+adjuvant	CHEBI:60809	50-58
+Women treated with adjuvant LHRH (luteinizing hormone-releasing hormone) analog are eligible	Eligibility	7
+adjuvant	CHEBI:60809	19-27
+hormone	CHEBI:24621	46-53
+hormone	CHEBI:24621	64-71
+Be assessed for menopausal status; for study purposes, postmenopausal is defined as:	Eligibility	8
+A prior documented bilateral oophorectomy, or	Eligibility	9
+bilateral	HP:0012832	19-28
+A history of at least 12 months without spontaneous menstrual bleeding, or	Eligibility	10
+history	BFO:0000182	2-9
+Age 60 or older with a prior hysterectomy without oophorectomy, or	Eligibility	11
+age	PATO:0000011	0-3
+Age less than 60 with a prior hysterectomy without oophorectomy (or in whom the status of the ovaries is unknown), with a documented follicle stimulating hormone (FSH) level demonstrating confirmatory elevation in the postmenopausal range for the lab	Eligibility	12
+age	PATO:0000011	0-3
+follicle stimulating hormone	CHEBI:81569	133-161
+range	LABO:0000114	233-238
+Premenopausal patients must have a baseline FSH, and estradiol levels to determine menopausal status; measures will be repeated at 3-6 months to confirm menopausal status	Eligibility	13
+estradiol	CHEBI:23965	53-62
+Patients must be positive for estrogen receptor (ER) and may or may not be positive for progesterone receptor (PgR) by IHC in the primary tumor and/or metastatic site; the pathology report for assay of ER will be reviewed by one of the investigators prior to enrollment, the study pathologist will review the pathology report if necessary for determination of study eligibility	Eligibility	14
+estrogen	CHEBI:50114,BAO:0000760	30-38
+receptor	BAO:0000281	39-47
+receptor	BAO:0000281	101-109
+progesterone	CHEBI:17026	88-100
+site	BFO:0000029	162-166
+Tumor HER2/neu expression must be determined prior to study enrollment; assessment may be by fluorescence in situ hybridization (FISH) assay or by immunohistochemistry (ICC); if determination is intermediate by ICC, FISH must be performed	Eligibility	15
+immunohistochemistry	BAO:0000415	147-167
+Life expectancy > 16 weeks	Eligibility	16
+Eastern Cooperative Oncology Group (ECOG) performance status =< 2 (Karnofsky >= 60%)	Eligibility	17
+group	CHEBI:24433	29-34
+Absolute neutrophil count (ANC) >= 1,000	Eligibility	18
+Platelet count >= 50,000	Eligibility	19
+platelet count	CMO:0000029	0-14
+Hemoglobin within normal limits (WNL) for the institution	Eligibility	20
+hemoglobin	CHEBI:35143	0-10
+Serum creatinine =< 1.5 x institutional ULN (IULN) and estimated creatinine clearance > 50 mL/min using the Cockroft-Gault formula	Eligibility	21
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	65-75
+x	LABO:0000148	24-25
+creatinine clearance	CMO:0000765	65-85
+Bilirubin =< 1.5 x ULN	Eligibility	22
+x	LABO:0000148	17-18
+Serum glutamic oxaloacetic transaminase (SGOT)/ serum glutamic pyruvate transaminase (SGPT) =< 1.5 x ULN	Eligibility	23
+pyruvate	CHEBI:15361	63-71
+x	LABO:0000148	16-17
+x	LABO:0000148	99-100
+Alkaline phosphatase =< 2.5 x ULN	Eligibility	24
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	28-29
+Patients must be planning a course of endocrine therapy with one of the following: tamoxifen +/- ovarian suppression, aromatase inhibitor +/- fulvestrant (with ovarian suppression in pre-menopausal patients) or fulvestrant alone	Eligibility	25
+tamoxifen	CHEBI:41774	83-92
+inhibitor	CHEBI:35222	128-137
+fulvestrant	CHEBI:31638	142-153
+fulvestrant	CHEBI:31638	211-222
+After entry into the study, patients are expected to be followed for at least 6 months after the injection of [^18F] FES	Eligibility	26
+Have a negative pregnancy test within 7 days prior to registration if of childbearing potential	Eligibility	27
+No other prior malignancy is allowed except for the following: adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, or any other cancer from which the patient has been disease-free for 5 years	Eligibility	28
+skin cancer	DOID:4159	110-121
+cervical cancer	DOID:4362	131-146
+cancer	DOID:162	115-121
+cancer	DOID:162	140-146
+cancer	DOID:162	161-167
+patient	HADO:0000008,OAE:0001817	183-190
+Be informed of the investigational nature of this study and provide written informed consent in accordance with institutional and federal guidelines prior to study-specific screening procedures	Eligibility	29
+Women of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately	Eligibility	30
+duration	PATO:0001309	165-173
+Exclusion Criteria:	Eligibility	31
+Patients with a history of prior endocrine therapy for metastatic disease are NOT eligible; adjuvant endocrine therapy for < 2 years total or discontinued less than 6 months before first disease recurrence also excludes the patient	Eligibility	32
+history	BFO:0000182	16-23
+disease	DOID:4,OGMS:0000031	66-73
+disease	DOID:4,OGMS:0000031	187-194
+adjuvant	CHEBI:60809	92-100
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	224-231
+Patients with disease in the liver only are NOT eligible for the study	Eligibility	33
+disease	DOID:4,OGMS:0000031	14-21
+liver	UBERON:0002107	29-34
+Patients who are HER2/neu positive disease and planning to undergo HER2-directed therapy (trastuzumab or lapatinib) are NOT eligible for the study	Eligibility	34
+disease	DOID:4,OGMS:0000031	35-42
+lapatinib	CHEBI:49603	105-114
+Pregnant or lactating; women of childbearing potential with either a positive or no pregnancy test at baseline are excluded	Eligibility	35
+excluded	HP:0040285	115-123
+Visceral crisis characterized by rapidly progressive hepatic or lymphangitic lung metastases	Eligibility	36
+rapidly progressive	HP:0003678	33-52
+lung	UBERON:0002048	77-81
+History of uncontrolled seizures, central nervous system disorders, or psychiatric disability judged by the investigator to be clinically significant, precluding informed consent	Eligibility	37
+history	BFO:0000182	0-7
+central nervous system	UBERON:0001017	34-56
+Any other life-threatening illness (e.g., serious, uncontrolled concurrent infection or clinically significant cardiac disease - congestive heart failure, symptomatic coronary artery disease, cardiac arrhythmia not well controlled with medication)	Eligibility	38
+disease	DOID:4,OGMS:0000031	119-126
+disease	DOID:4,OGMS:0000031	183-190
+congestive heart failure	HP:0001635,DOID:6000	129-153
+coronary artery disease	DOID:3393	167-190
+arrhythmia	HP:0011675	200-210
+Unwillingness to give informed consent	Eligibility	39
+Medically unstable as judged by the patient's physician	Eligibility	40
+patient	HADO:0000008,OAE:0001817	36-43
+Psychological, familial, sociological, or geographical conditions which do not permit compliance with the study protocol	Eligibility	41
+Patients with known allergic or hypersensitivity reactions to previously administered radiopharmaceuticals; patients with significant drug or other allergies or autoimmune diseases may be enrolled at the investigator's discretion	Eligibility	42
+hypersensitivity	GO:0002524,DOID:1205	32-48
+drug	CHEBI:23888	134-138
+Patient weight greater than 400 lbs (exceeds weight limit for tomograph table)	Eligibility	43
+patient	HADO:0000008,OAE:0001817	0-7
+Uncontrolled diabetes mellitus (fasting glucose > 200 mg/dL)	Eligibility	44
+diabetes mellitus	HP:0000819,DOID:9351	13-30
+glucose	CHEBI:4167,BAO:0000924	40-47
+Adult patients who require monitored anesthesia for PET scanning	Eligibility	45
+adult	EFO:0001272	0-5
+Outcome Measurement:	Results	0
+Best Overall Response	Results	1
+Patients were expected to start endocrine therapy within 2 weeks of the FES PET scan. Response assessment was evaluated at 3 and 6 months. For patients with at least one site of measurable disease [per response evaluation criteria in solid tumors (RECIST, version 1.1)], size-based response criteria were used to assess response.	Results	2
+site	BFO:0000029	170-174
+disease	DOID:4,OGMS:0000031	189-196
+For patients without disease evaluable by RECIST 1.1, largely patients with bone-dominant metastatic breast cancer, serial FDG PET scanning was used to determine response. A decline in the FDG PET SUV (standard uptake value) of 30% or more was considered as response and an increase of 20% or more was considered to be progressive disease (PD).	Results	3
+disease	DOID:4,OGMS:0000031	21-28
+disease	DOID:4,OGMS:0000031	331-338
+breast cancer	DOID:1612	101-114
+uptake	GO:0098739,BAO:0001256	211-217
+increase	BAO:0001251	274-282
+progressive	HP:0003676	319-330
+The initial (baseline) FES uptake was compared to clinical benefit (PD versus other outcome at 6 months).	Results	4
+uptake	GO:0098739,BAO:0001256	27-33
+Time frame: Up to 6 months	Results	5
+time	PATO:0000165	0-4
+Results 1:	Results	6
+Arm/Group Title: Diagnostic FES: Average FES SUVmean >1.5, no Negative Sites	Results	7
+Arm/Group Description: Patients undergo [^18F] FES PET scan. Patients also undergo standard clinical fludeoxyglucose F 18 (FDG)-PET or FDG-PET/CT scan up to 14 days prior to [^18F] FES PET scan.	Results	8
+f	UO:0000195	44-45
+f	UO:0000195	47-48
+f	UO:0000195	101-102
+f	UO:0000195	117-118
+f	UO:0000195	123-124
+f	UO:0000195	135-136
+f	UO:0000195	178-179
+f	UO:0000195	181-182
+Patients begin clinically indicated endocrine therapy.	Results	9
+Patients are followed-up to determine response on the therapy for 6 months using clinical exams, tumor marker assays, conventional imaging and standard clinical FDG PET/CT.	Results	10
+This group represents patients who had positive FES uptake at all disease sites on the baseline diagnostic FES PET scan.	Results	11
+group	CHEBI:24433	5-10
+uptake	GO:0098739,BAO:0001256	52-58
+disease	DOID:4,OGMS:0000031	66-73
+laboratory biomarker analysis: Correlative studies	Results	12
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 13	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: patients with progressive disease  5	Results	15
+progressive	HP:0003676	31-42
+disease	DOID:4,OGMS:0000031	43-50
+Results 2:	Results	16
+Arm/Group Title: Diagnostic FES: Patients With FES Negative Sites of Disease	Results	17
+disease	DOID:4,OGMS:0000031	69-76
+Arm/Group Description: Patients undergo [^18F] FES PET scan. Patients also undergo standard clinical fludeoxyglucose F 18 (FDG)-PET or FDG-PET/CT scan up to 14 days prior to [^18F] FES PET scan.	Results	18
+f	UO:0000195	44-45
+f	UO:0000195	47-48
+f	UO:0000195	101-102
+f	UO:0000195	117-118
+f	UO:0000195	123-124
+f	UO:0000195	135-136
+f	UO:0000195	178-179
+f	UO:0000195	181-182
+Patients begin clinically indicated endocrine therapy.	Results	19
+Patients are followed-up to determine response on the therapy for 6 months using clinical exams, tumor marker assays, conventional imaging and standard clinical FDG PET/CT.	Results	20
+This group represents patients who had some or all disease sites negative for FES uptake on the baseline diagnostic FES PET scan.	Results	21
+group	CHEBI:24433	5-10
+disease	DOID:4,OGMS:0000031	51-58
+uptake	GO:0098739,BAO:0001256	82-88
+Overall Number of Participants Analyzed: 3	Results	22
+Measure Type: Number	Results	23
+Unit of Measure: patients with progressive disease  2	Results	24
+progressive	HP:0003676	31-42
+disease	DOID:4,OGMS:0000031	43-50
+Adverse Events 1:	Adverse Events	0
+Total: 0/20 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

@@ -1,0 +1,148 @@
+INTERVENTION 1:	Intervention	0
+Selinexor Treatment	Intervention	1
+Ten patients were treated with oral selinexor 60 mg twice per week (on days 1 and 3) on a schedule of 3 weeks on and 1 week off, each four-week cycle.	Intervention	2
+week	UO:0000034	62-66
+week	UO:0000034	104-108
+week	UO:0000034	119-123
+week	UO:0000034	139-143
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed triple negative breast cancer (TNBC), defined as negative immunohistochemical staining for estrogen and progesterone receptors (  5% of nuclei positive by IHC) and receptor tyrosine-protein kinase erbB-2 (HER2) negative (IHC 0-1+ or HER2-neu negative according to American Society of Clinical Oncology; College of American Pathologists (ASCO-CAP) HER2 Test Guideline Recommendations)	Eligibility	1
+breast cancer	DOID:1612	41-54
+estrogen	CHEBI:50114,BAO:0000760	116-124
+progesterone	CHEBI:17026	129-141
+receptor	BAO:0000281	142-150
+receptor	BAO:0000281	189-197
+kinase	BAO:0000294	215-221
+Written informed consent in accordance with federal, local, and institutional guidelines	Eligibility	2
+Body surface area 1.4 m^2	Eligibility	3
+area	PATO:0001323	13-17
+Age 18 years	Eligibility	4
+age	PATO:0000011	0-3
+Estimated life expectancy of >3 months at study entry	Eligibility	5
+TNBC must be either locally recurrent or metastatic. Locally recurrent disease must not be amenable to surgical resection or radiation with curative intent.	Eligibility	6
+recurrent	HP:0031796	28-37
+recurrent	HP:0031796	61-70
+disease	DOID:4,OGMS:0000031	71-78
+Measurable disease by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1	Eligibility	7
+disease	DOID:4,OGMS:0000031	11-18
+Documented disease progression at study entry	Eligibility	8
+disease	DOID:4,OGMS:0000031	11-18
+Must have received at least 1 chemotherapy regimens in the setting of metastatic disease	Eligibility	9
+disease	DOID:4,OGMS:0000031	81-88
+Eastern Cooperative Oncology Group (ECOG) performance status of 2	Eligibility	10
+group	CHEBI:24433	29-34
+Adequate hematological function: Absolute neutrophil count (ANC) > 1500/mm^3, platelets count >100,000mm^3	Eligibility	11
+function	BAO:0003117,BFO:0000034	23-31
+Adequate hepatic function within 14 days prior to Cycle 1 Day 1 (C1D1): total bilirubin <2 times the upper limit of normal (ULN) (except patients with Gilbert's syndrome who must have a total bilirubin of < 3 times ULN) and aspartate aminotransferase (AST), alanine aminotransferase (ALT) 2.5 x ULN. In the case of known (radiological and/or biopsy documented) liver metastasis, AST/ALT 5.0 times ULN is acceptable.	Eligibility	12
+function	BAO:0003117,BFO:0000034	17-25
+day	UO:0000033	36-39
+day	UO:0000033	58-61
+syndrome	DOID:225	161-169
+aspartate	CHEBI:29995	224-233
+alanine	CHEBI:16449	258-265
+x	LABO:0000148	131-132
+x	LABO:0000148	293-294
+liver	UBERON:0002107	361-366
+Amylase and lipase  1.5 x ULN	Eligibility	13
+x	LABO:0000148	24-25
+Adequate renal function within 14 days prior to C1D1: estimated creatinine clearance of  30 mL/min	Eligibility	14
+function	BAO:0003117,BFO:0000034	15-23
+creatinine clearance	CMO:0000765	64-84
+Women of child-bearing potential (WOCBP) must agree to use dual methods of contraception and have a negative serum pregnancy test at screening, and male participants must use an effective barrier method of contraception if sexually active with a female of child-bearing potential. For both male and female participants, effective methods of contraception must be used throughout the study and for 3 months following the last dose. To be considered of non-childbearing potential, postmenopausal women must be amenorrheic for at least 12 months naturally (not in the setting of post chemotherapy) or participants must be surgically sterile.	Eligibility	15
+male	CHEBI:30780,PATO:0000384	148-152
+male	CHEBI:30780,PATO:0000384	248-252
+male	CHEBI:30780,PATO:0000384	290-294
+male	CHEBI:30780,PATO:0000384	301-305
+active	PATO:0002354	232-238
+female	PATO:0000383	246-252
+female	PATO:0000383	299-305
+Must have received prior anthracycline and taxane therapy unless clinically contraindicated	Eligibility	16
+anthracycline	CHEBI:48120	25-38
+taxane	CHEBI:36064	43-49
+Exclusion Criteria:	Eligibility	17
+Significant medical illness that in the investigator's opinion cannot be adequately controlled with appropriate therapy or would compromise the participant's ability to tolerate this therapy	Eligibility	18
+Women who are pregnant or lactating	Eligibility	19
+Radiation, chemotherapy, or immunotherapy or any other approved anticancer therapy 2 weeks prior to cycle 1 day 1	Eligibility	20
+day	UO:0000033	108-111
+Major surgery within 4 weeks before Day 1	Eligibility	21
+surgery	OAE:0000067	6-13
+day	UO:0000033	36-39
+Unstable cardiovascular function: Electrocardiogram (ECG) abnormalities requiring treatment, or congestive heart failure (CHF) of New York Hearth Association (NYHA) Class 3; myocardial infarction (MI) within 3 months	Eligibility	22
+function	BAO:0003117,BFO:0000034	24-32
+congestive heart failure	HP:0001635,DOID:6000	96-120
+myocardial infarction	HP:0001658,DOID:5844	174-195
+Uncontrolled infection requiring parenteral antibiotics, antivirals, or antifungals within one week prior to first dose. Potential participants with controlled infection or on prophylactic antibiotics are permitted in the study.	Eligibility	23
+week	UO:0000034	95-99
+Known history of HIV	Eligibility	24
+history	BFO:0000182	6-13
+Known active hepatitis A, B, or C infection that requires treatment	Eligibility	25
+active	PATO:0002354	6-12
+hepatitis a	DOID:12549	13-24
+Any underlying condition that would significantly interfere with the absorption of an oral medication	Eligibility	26
+condition	PDRO:0000129	15-24
+Grade >2 peripheral neuropathy at baseline (within 14 days prior to cycle 1 day 1)	Eligibility	27
+peripheral neuropathy	HP:0009830,DOID:870	9-30
+day	UO:0000033	54-57
+day	UO:0000033	76-79
+Participation in an investigational anti-cancer study within 3 weeks prior to Cycle 1 Day 1	Eligibility	28
+day	UO:0000033	86-89
+Coagulation problems and active major bleeding within 4 weeks prior to C1D1 (peptic ulcer, epistaxis, spontaneous bleeding)	Eligibility	29
+coagulation	GO:0050817	0-11
+active	PATO:0002354	25-31
+peptic ulcer	HP:0004398	77-89
+epistaxis	HP:0000421	91-100
+Active central nervous system (CNS) malignancy. Asymptomatic small lesions are not considered active. Treated lesions may be considered inactive if they are stable for at least 3 months.	Eligibility	30
+active	PATO:0002354	0-6
+active	PATO:0002354	94-100
+active	PATO:0002354	138-144
+central nervous system	UBERON:0001017	7-29
+inactive	PATO:0002355	136-144
+stable	HP:0031915	157-163
+Radiation, chemotherapy, or immunotherapy or any other anticancer therapy  2 weeks prior to Cycle 1 Day 1 or radio-immunotherapy  4 weeks prior to Cycle 1 Day 1	Eligibility	31
+day	UO:0000033	100-103
+day	UO:0000033	155-158
+Have not recovered to Grade  1 or to their baseline from clinically significant adverse effects	Eligibility	32
+Outcome Measurement:	Results	0
+Clinical Benefit Rate	Results	1
+rate	BAO:0080019	17-21
+Complete Response (CR) + Partial Response (PR) + Stable Disease (SD)  12 weeks of selinexor in patients with triple negative breast cancer (TNBC), according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1. CR: Disappearance of all target lesions; PR: At least a 30% decrease in the sum of the diameter (LD) of target lesions, taking as reference the baseline sum LD; Progressive Disease (PD): At least a 20% increase in the sum of the LD of target lesions, taking as reference the smallest sum LD recorded since the treatment started or the appearance of one or more new lesions; SD: Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum LD since the treatment started.	Results	2
+stable	HP:0031915	49-55
+disease	DOID:4,OGMS:0000031	56-63
+disease	DOID:4,OGMS:0000031	400-407
+breast cancer	DOID:1612	125-138
+target	BAO:0003064	252-258
+target	BAO:0003064	331-337
+target	BAO:0003064	462-468
+diameter	PATO:0001334	314-322
+progressive	HP:0003676	388-399
+increase	BAO:0001251	429-437
+increase	BAO:0001251	667-675
+Time frame: Up to 10 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Selinexor Treatment	Results	5
+Arm/Group Description: Ten patients were treated with oral selinexor 60 mg twice per week (on days 1 and 3) on a schedule of 3 weeks on and 1 week off, each four-week cycle.	Results	6
+week	UO:0000034	85-89
+week	UO:0000034	127-131
+week	UO:0000034	142-146
+week	UO:0000034	162-166
+Overall Number of Participants Analyzed: 10	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Complete Response: 0   0.0%	Results	9
+Partial Response: 0   0.0%	Results	10
+Stable Disease: 3  30.0%	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 7  70.0%	Results	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Adverse Events 1:	Adverse Events	0
+Total: 3/10 (30.00%)	Adverse Events	1
+Sinus tachycardia * 1/10 (10.00%)	Adverse Events	2
+sinus tachycardia	HP:0011703	0-17
+Blurred vision * 1/10 (10.00%)	Adverse Events	3
+blurred vision	HP:0000622	0-14
+Memory impairment * 1/10 (10.00%)	Adverse Events	4
+memory impairment	HP:0002354	0-17
+Dyspnea * 2/10 (20.00%)	Adverse Events	5
+dyspnea	HP:0002094	0-7

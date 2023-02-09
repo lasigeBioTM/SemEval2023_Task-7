@@ -1,0 +1,191 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Erlotinib Hydrochloride, Bevacizumab)	Intervention	1
+erlotinib hydrochloride	CHEBI:53509	11-34
+Patients receive erlotinib hydrochloride PO QD on days 1-21 and bevacizumab IV over 30-90 minutes on day 1. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+erlotinib hydrochloride	CHEBI:53509	17-40
+day	UO:0000033	50-53
+day	UO:0000033	101-104
+day	UO:0000033	132-135
+disease	DOID:4,OGMS:0000031	155-162
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed carcinoma of the breast with metastatic (stage IV) disease that is currently stable or progressing after therapy	Eligibility	1
+carcinoma	HP:0030731,DOID:305	61-70
+breast	UBERON:0000310	78-84
+disease	DOID:4,OGMS:0000031	112-119
+stable	HP:0031915	138-144
+Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >= 20 mm with conventional techniques or as >= 10 mm with spiral computed tomography (CT) scan	Eligibility	2
+disease	DOID:4,OGMS:0000031	30-37
+diameter	PATO:0001334	137-145
+tomography	BAO:0002525	239-249
+ct	BAO:0002125	251-253
+Patients must have either stable disease or disease progression on or after therapy with one or two conventional chemotherapy regimens for the treatment of metastatic (stage IV) breast cancer	Eligibility	3
+stable	HP:0031915	26-32
+disease	DOID:4,OGMS:0000031	33-40
+disease	DOID:4,OGMS:0000031	44-51
+breast cancer	DOID:1612	178-191
+Prior treatment with high-dose chemotherapy and autologous stem cell/bone marrow transplantation is allowed, and is considered one prior regimen when administered for metastatic disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	178-185
+There is no restriction for the number of prior hormonal therapies or immunotherapies	Eligibility	5
+If human epidermal growth factor receptor 2 (Her2)/neu-positive (defined as 3+ by immunohistochemistry [IHC] or positive by fluorescence in situ hybridization [FISH]), prior therapy with trastuzumab required	Eligibility	6
+growth factor	BAO:0002024	19-32
+receptor	BAO:0000281	33-41
+immunohistochemistry	BAO:0000415	82-102
+Any number of prior regimens of chemotherapy and/or hormonal therapy are allowed in the adjuvant setting, and do not count towards prior therapy when determining eligibility for this trial	Eligibility	7
+adjuvant	CHEBI:60809	88-96
+Eastern Cooperative Oncology Group (ECOG) performance status =< 2 (Karnofsky >= 60%)	Eligibility	8
+group	CHEBI:24433	29-34
+Life expectancy of greater than 3 months	Eligibility	9
+Leukocytes >= 3,000/ul	Eligibility	10
+Absolute neutrophil count >= 1,000/ul	Eligibility	11
+Platelets >= 75,000/ul	Eligibility	12
+Total bilirubin within normal institutional limits	Eligibility	13
+Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT])/alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase [SGPT[) =< 2.5 X institutional upper limit of normal	Eligibility	14
+aspartate	CHEBI:29995	0-9
+glutamate	CHEBI:14321,BAO:0000926	120-129
+pyruvate	CHEBI:15361	130-138
+x	LABO:0000148	50-51
+x	LABO:0000148	167-168
+Creatinine within normal institutional limits OR creatinine clearance >= 60 mL/min for patients with creatinine levels outside institutional normal using the Cockcroft-Gault formula	Eligibility	15
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	49-59
+creatinine	CHEBI:16737	101-111
+creatinine clearance	CMO:0000765	49-69
+Women of childbearing potential must agree to use adequate contraception (barrier method of birth control) prior to study entry and for the duration of study participation; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately	Eligibility	16
+duration	PATO:0001309	140-148
+Patients must have breast cancer tissue available as either paraffin blocks or unstained slides for planned correlative science sub study	Eligibility	17
+breast cancer	DOID:1612	19-32
+tissue	UBERON:0000479	33-39
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	18
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	19
+Patients who have had chemotherapy, radiotherapy immunotherapy or investigational therapy within 3 weeks prior to starting treatment (6 weeks for nitrosoureas or mitomycin C), or hormonal therapy within 2 weeks prior to starting treatment	Eligibility	20
+radiotherapy	OAE:0000235	36-48
+mitomycin c	CHEBI:27504	162-173
+Patients may not be receiving any other investigational agents	Eligibility	21
+History or evidence upon physical examination of central nervous system (CNS) disease (e.g., primary brain tumor, seizures not controlled with standard medical therapy, any brain metastases, or history of stroke); all subjects must have a baseline CT or magnetic resonance imaging (MRI) of the head	Eligibility	22
+history	BFO:0000182	0-7
+history	BFO:0000182	194-201
+physical examination	OAE:0004232	25-45
+central nervous system	UBERON:0001017	49-71
+disease	DOID:4,OGMS:0000031	78-85
+brain	UBERON:0000955	101-106
+brain	UBERON:0000955	173-178
+stroke	HP:0001297,DOID:6713	205-211
+ct	BAO:0002125	223-225
+ct	BAO:0002125	248-250
+head	UBERON:0000033	294-298
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to OSI-774 or bevacizumab	Eligibility	23
+history	BFO:0000182	0-7
+Prior treatment with kinase insert domain receptor (KDR) inhibitors (e.g. vascular endothelial growth factor [VEGF] Trap, Su5416, Su6668, ZD6474, PTK757, IMC-1CII)	Eligibility	24
+kinase	BAO:0000294	21-27
+receptor	BAO:0000281	42-50
+growth factor	BAO:0002024	95-108
+Prior treatment with EGFR targeting therapies (e.g. ZD1839 or C225)	Eligibility	25
+Major surgery, open biopsy or significant traumatic injury occurring within 28 days prior to treatment; this does not apply to indwelling catheters, which require an interval of at least 24 hours between placement of the catheter and treatment with bevacizumab	Eligibility	26
+surgery	OAE:0000067	6-13
+Current or recent (within 10 days prior to treatment) use of full-dose oral or parenteral anticoagulants or thrombolytic agents (except as required to maintain patency of preexisting, permanent indwelling IV catheters; for subjects receiving warfarin, international normalized ratio [INR] should be < 1.5)	Eligibility	27
+warfarin	CHEBI:10033	242-250
+ratio	UO:0000190	277-282
+Chronic daily treatment with aspirin (> 325 mg/day) or nonsteroidal anti-inflammatory medications known to inhibit the platelet function (e.g. cyclooxygenase [COX]-1 inhibitors)	Eligibility	28
+chronic	HP:0011010	0-7
+function	BAO:0003117,BFO:0000034	128-136
+Presence of bleeding diathesis or coagulopathy	Eligibility	29
+Cumulative anthracycline and anthracenedione exposure as follows: doxorubicin > 450 mg/m^2; epirubicin > 700 mg/m^2; liposomal doxorubicin > 550 mg/m^2; mitoxantrone > 140 mg/m^2	Eligibility	30
+anthracycline	CHEBI:48120	11-24
+doxorubicin	CHEBI:28748,BAO:0000639	66-77
+doxorubicin	CHEBI:28748,BAO:0000639	127-138
+mitoxantrone	CHEBI:50729	153-165
+Proteinuria at baseline; subjects unexpectedly discovered to have >= 1+ proteinuria should undergo a 24-hour urine collection, which must be an adequate collection and must demonstrate =< 500 mg protein/ 24 hours to allow participation in the study	Eligibility	31
+proteinuria	HP:0000093,DOID:576	0-11
+proteinuria	HP:0000093,DOID:576	72-83
+urine	UBERON:0001088	109-114
+Cardiac ejection fraction (multigated acquisition scan [MUGA] or echocardiogram) less than the local institution lower limit of normal	Eligibility	32
+ejection fraction	CMO:0000180	8-25
+Abnormalities of the cornea based on history (e.g., dry eye syndrome, Sjögren's syndrome), congenital abnormality (e.g., Fuch's dystrophy), abnormal slit-lamp examination using a vital dye (e.g., fluorescein, Bengal-Rose), and/or an abnormal corneal sensitivity test (Schirmer test or similar tear production test)	Eligibility	33
+cornea	UBERON:0000964	21-27
+cornea	UBERON:0000964	242-248
+history	BFO:0000182	37-44
+dry eye syndrome	DOID:10140	52-68
+syndrome	DOID:225	60-68
+syndrome	DOID:225	80-88
+dye	CHEBI:37958	185-188
+fluorescein	BAO:0001216	196-207
+Serious, non-healing wound, ulcer, or bone fracture	Eligibility	34
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+Clinically significant cardiovascular disease (e.g., uncontrolled hypertension, myocardial infarction, unstable angina), New York Heart Association (NYHA) grade II or greater congestive heart failure, serious cardiac arrhythmia requiring medication, or grade II or greater peripheral vascular disease within 1 year prior to day 0	Eligibility	35
+disease	DOID:4,OGMS:0000031	38-45
+disease	DOID:4,OGMS:0000031	293-300
+hypertension	HP:0000822,DOID:10763	66-78
+myocardial infarction	HP:0001658,DOID:5844	80-101
+heart	UBERON:0000948	130-135
+heart	UBERON:0000948	186-191
+congestive heart failure	HP:0001635,DOID:6000	175-199
+arrhythmia	HP:0011675	217-227
+peripheral vascular disease	DOID:341	273-300
+year	UO:0000036	310-314
+day	UO:0000033	324-327
+Gastrointestinal tract disease resulting in an inability to take oral medication or a requirement for IV alimentation, or prior surgical procedures affecting absorption	Eligibility	36
+disease	DOID:4,OGMS:0000031	23-30
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	37
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Pregnant women are excluded from this study; breastfeeding should be discontinued if the mother is treated with OSI-774	Eligibility	38
+excluded	HP:0040285	19-27
+Human immunodeficiency virus (HIV)-positive patients receiving combination anti-retroviral therapy are excluded from the study	Eligibility	39
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+excluded	HP:0040285	103-111
+Patients with recent (within 6 months) arterial thrombotic events, including transient ischemic attack (TIA), cerebrovascular accident (CVA), unstable angina, myocardial infarction (MI), or clinically significant peripheral artery disease	Eligibility	40
+transient ischemic attack	HP:0002326,DOID:224	77-102
+myocardial infarction	HP:0001658,DOID:5844	159-180
+peripheral artery disease	DOID:0050830	213-238
+Outcome Measurement:	Results	0
+Level of EGFR Expression	Results	1
+Estimated at the end of the trial Immunoreactivity will be evaluated qualitatively with regard to intensity as follows: Measured on a scale, ranging from 0-3+ 0=negative (no immunoreactivity)	Results	2
+intensity	PATO:0000049	98-107
+1+ - 3+ = positive:	Results	3
+faint immunoreactivity (weak staining)	Results	4
+intense immunoreactivity (strong staining) Immunohistochemical studies will be performed on the tumor specimen to correlate the anti-tumor efficacy of OSI-774 and bevacizumab with pre-treatment molecular characteristics.	Results	5
+efficacy	BAO:0000656	139-147
+Time frame: Up to 12 years	Results	6
+time	PATO:0000165	0-4
+Results 1:	Results	7
+Arm/Group Title: Treatment (Erlotinib Hydrochloride, Bevacizumab)	Results	8
+erlotinib hydrochloride	CHEBI:53509	28-51
+Arm/Group Description: Patients receive erlotinib hydrochloride PO QD on days 1-21 and bevacizumab IV over 30-90 minutes on day 1. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Results	9
+erlotinib hydrochloride	CHEBI:53509	40-63
+day	UO:0000033	73-76
+day	UO:0000033	124-127
+day	UO:0000033	155-158
+disease	DOID:4,OGMS:0000031	178-185
+Overall Number of Participants Analyzed: 38	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: participants  EGFR 0: 24	Results	12
+EGFR 1+: 8	Results	13
+EGFR 2+: 4	Results	14
+EGFR 3+: 0	Results	15
+Insufficient tumor tissue: 2	Results	16
+tissue	UBERON:0000479	19-25
+Adverse Events 1:	Adverse Events	0
+Total: 6/38 (15.79%)	Adverse Events	1
+Diarrhea 1/38 (2.63%)	Adverse Events	2
+diarrhea	HP:0002014,DOID:13250	0-8
+General disorders and administration site conditions-other, specify 2/38 (5.26%)	Adverse Events	3
+site	BFO:0000029	37-41
+Pain, other 1/38 (2.63%)	Adverse Events	4
+pain	HP:0012531	0-4
+Dehydration 1/38 (2.63%)	Adverse Events	5
+dehydration	HP:0001944	0-11
+Peripheral motor neuropathy 1/38 (2.63%)	Adverse Events	6
+peripheral	HP:0030646	0-10
+neuropathy	DOID:870	17-27
+Dyspnea 1/38 (2.63%)	Adverse Events	7
+dyspnea	HP:0002094	0-7
+Pleural effusion 1/38 (2.63%)	Adverse Events	8
+pleural effusion	HP:0002202	0-16
+Skin ulceration 1/38 (2.63%)	Adverse Events	9
+Thrombosis 1/38 (2.63%)	Adverse Events	10
+thrombosis	DOID:0060903	0-10

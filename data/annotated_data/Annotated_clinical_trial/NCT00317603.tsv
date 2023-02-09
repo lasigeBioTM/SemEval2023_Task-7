@@ -1,0 +1,95 @@
+INTERVENTION 1:	Intervention	0
+Vaccine	Intervention	1
+vaccine	VO:0000001	0-7
+Vaccinations will be administered on days 1,8,15 and every two weeks thereafter until the supply of vaccine has been exhausted or the patient is removed from study. As indicated in 5.2.5, vaccine cell dosage will be approximately 1x10 7 , 4x10 6 ,	Intervention	2
+vaccine	VO:0000001	100-107
+vaccine	VO:0000001	188-195
+patient	HADO:0000008,OAE:0001817	134-141
+1x10 6 , or 1x10 5 depending on the final cell yield.	Intervention	3
+Autologous, Lethally Irradiated Breast Cancer Cells: Vaccine will be administered on days 1, 8, 15, 29 and then every 2 weeks until the supply of vaccine runs out	Intervention	4
+breast cancer	DOID:1612	32-45
+vaccine	VO:0000001	53-60
+vaccine	VO:0000001	146-153
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed Stage IV breast cancer	Eligibility	1
+breast cancer	DOID:1612	34-47
+Prior banked malignant effusion or significant malignant effusion for tumor harvest or surgically-accessible tumor nodule of at least 2cm in greatest diameter by physical exam, magnetic resonance imaging (MRI) or computed tomography (CT) scan	Eligibility	2
+diameter	PATO:0001334	150-158
+tomography	BAO:0002525	222-232
+ct	BAO:0002125	234-236
+Must have received at least one prior regimen of chemotherapy for metastatic disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	77-84
+Patients with HER2 positive tumors must have received at least one prior trastuzumab-based therapy in the metastatic setting, and may not receive trastuzumab therapy and vaccine treatment concurrently	Eligibility	4
+vaccine	VO:0000001	170-177
+Patients may receive concurrent bisphosphonate therapy and/or erythropoetin therapy at any point while on study	Eligibility	5
+ECOG performance status 0 or 1	Eligibility	6
+Estimated life expectancy of greater than or equal to 6 months	Eligibility	7
+18 years of age or older	Eligibility	8
+age	PATO:0000011	12-15
+Greater than 4 weeks from immunotherapy, or systemic glucocorticoid therapy	Eligibility	9
+glucocorticoid	CHEBI:24261	53-67
+Adequate recovery from drug-related toxicities from prior systemic therapies	Eligibility	10
+Adequate recovery from recent surgery and radiation therapy	Eligibility	11
+surgery	OAE:0000067	30-37
+Greater than 6 months since bone marrow or peripheral blood stem cell transplant	Eligibility	12
+bone marrow	UBERON:0002371	28-39
+peripheral	HP:0030646	43-53
+blood	UBERON:0000178	54-59
+stem cell transplant	OAE:0001532	60-80
+Exclusion Criteria:	Eligibility	13
+Urgent need for cytotoxic chemotherapy, radiotherapy, or surgery in the next 60 days	Eligibility	14
+radiotherapy	OAE:0000235	40-52
+surgery	OAE:0000067	57-64
+Uncontrolled active infection or illness	Eligibility	15
+active	PATO:0002354	13-19
+Psychiatric illness/social situation that would limit study compliance	Eligibility	16
+Pregnant or nursing mothers	Eligibility	17
+Evidence of HIV infection	Eligibility	18
+Previous participation in an adenovirus-based trial	Eligibility	19
+Concurrent invasive malignancy	Eligibility	20
+Outcome Measurement:	Results	0
+Minimum Number of Vaccine Doses Created Using Participant Tumor Sample	Results	1
+vaccine	VO:0000001	18-25
+Tumor samples were obtained via malignant effusion or a surgically accessible tumor nodule of 2 cm in greatest diameter. Tumor cells were processed to single cell suspension and transduced with adenoviral vector encoding human Granulocyte-macrophage colony-stimulating factor (GM-CSF). Then, the cells washed extensively and irradiated with 10,000 cGy. Over the next 14 days, sterility cultures were tested for endotoxin and mycoplasma contamination. Individual vaccine cell dose and number varied depending on the final cell yield from vaccine production. The minimal dose was 1 x 10^5 cells and the maximal dose was 1 x 10^7 cells.	Results	2
+diameter	PATO:0001334	111-119
+suspension	BAO:0002104	163-173
+vaccine	VO:0000001	462-469
+vaccine	VO:0000001	537-544
+x	LABO:0000148	310-311
+x	LABO:0000148	364-365
+x	LABO:0000148	417-418
+x	LABO:0000148	580-581
+x	LABO:0000148	603-604
+x	LABO:0000148	620-621
+Time frame: Vaccine doses created and banked soon after registration, up to 8 days.	Results	3
+time	PATO:0000165	0-4
+vaccine	VO:0000001	12-19
+Results 1:	Results	4
+Arm/Group Title: Vaccine	Results	5
+vaccine	VO:0000001	17-24
+Arm/Group Description: Vaccinations will be administered on days 1,8,15 and every two weeks thereafter until the supply of vaccine has been exhausted or the patient is removed from study. As indicated in 5.2.5, vaccine cell dosage will be approximately 1x10 7 , 4x10 6 ,	Results	6
+vaccine	VO:0000001	123-130
+vaccine	VO:0000001	211-218
+patient	HADO:0000008,OAE:0001817	157-164
+1x10 6 , or 1x10 5 depending on the final cell yield.	Results	7
+Autologous, Lethally Irradiated Breast Cancer Cells: Vaccine will be administered on days 1, 8, 15, 29 and then every 2 weeks until the supply of vaccine runs out	Results	8
+breast cancer	DOID:1612	32-45
+vaccine	VO:0000001	53-60
+vaccine	VO:0000001	146-153
+Overall Number of Participants Analyzed: 12	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: doses  6	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 3/12 (25.00%)	Adverse Events	1
+Hemoglobin 1/12 (8.33%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Alkaline phosphatase 1/12 (8.33%)	Adverse Events	3
+phosphatase	GO:0016791,BAO:0000295	9-20
+Dehydration 1/12 (8.33%)	Adverse Events	4
+dehydration	HP:0001944	0-11
+Syncope 2/12 (16.67%)	Adverse Events	5
+syncope	HP:0001279	0-7
+Dyspnea 1/12 (8.33%)	Adverse Events	6
+dyspnea	HP:0002094	0-7
+Hypotension 1/12 (8.33%)	Adverse Events	7
+hypotension	HP:0002615	0-11

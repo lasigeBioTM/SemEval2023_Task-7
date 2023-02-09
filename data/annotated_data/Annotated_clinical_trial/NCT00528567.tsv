@@ -1,0 +1,102 @@
+INTERVENTION 1:	Intervention	0
+Bevacizumab and Chemotherapy	Intervention	1
+Participants randomized to receive bevacizumab and chemotherapy	Intervention	2
+INTERVENTION 2:	Intervention	3
+Chemotherapy	Intervention	4
+Participants randomized to receive chemotherapy alone	Intervention	5
+Inclusion Criteria:	Eligibility	0
+adult patients, >=18 years of age;	Eligibility	1
+adult	EFO:0001272	0-5
+age	PATO:0000011	30-33
+operable primary invasive breast cancer;	Eligibility	2
+breast cancer	DOID:1612	26-39
+completed definitive loco-regional surgery;	Eligibility	3
+surgery	OAE:0000067	35-42
+primary tumor centrally confirmed as triple negative.	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+locally advanced breast cancers;	Eligibility	6
+breast	UBERON:0000310	17-23
+previous breast cancer history;	Eligibility	7
+breast cancer	DOID:1612	9-22
+history	BFO:0000182	23-30
+clinically significant cardiovascular disease.	Eligibility	8
+disease	DOID:4,OGMS:0000031	38-45
+Outcome Measurement:	Results	0
+Time to Invasive Disease-free Survival (IDFS) Event	Results	1
+time	PATO:0000165	0-4
+IDFS, was a composite endpoint defined as the time from randomization until the date of the first occurrence of one of the following events: Ipsilateral invasive breast cancer recurrence (same breast); Ipsilateral (same side of body) local regional invasive breast cancer recurrence (axilla, regional lymph nodes, chest wall, and/or skin); Distant recurrence (evidence of breast cancer in any anatomic site);Death attributable to any cause; Contralateral (opposite side of the body) invasive breast cancer or Second primary non-breast invasive cancer.	Results	2
+time	PATO:0000165	46-50
+breast cancer	DOID:1612	162-175
+breast cancer	DOID:1612	258-271
+breast cancer	DOID:1612	372-385
+breast cancer	DOID:1612	492-505
+breast	UBERON:0000310	162-168
+breast	UBERON:0000310	193-199
+breast	UBERON:0000310	258-264
+breast	UBERON:0000310	372-378
+breast	UBERON:0000310	492-498
+breast	UBERON:0000310	528-534
+lymph	UBERON:0002391	301-306
+chest	UBERON:0001443	314-319
+site	BFO:0000029	17-21
+site	BFO:0000029	402-406
+site	BFO:0000029	460-464
+death	OAE:0000632	408-413
+second	UO:0000010	509-515
+cancer	DOID:162	169-175
+cancer	DOID:162	265-271
+cancer	DOID:162	379-385
+cancer	DOID:162	499-505
+cancer	DOID:162	544-550
+Time frame: Event driven (until data cutoff: 29 February 2012: up to 49 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Bevacizumab and Chemotherapy	Results	5
+Arm/Group Description: Participants randomized to receive bevacizumab and chemotherapy	Results	6
+Overall Number of Participants Analyzed: 1301	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  NA  [1]    (NA to NA)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Chemotherapy	Results	11
+Arm/Group Description: Participants randomized to receive chemotherapy alone	Results	12
+Overall Number of Participants Analyzed: 1290	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  NA  [1]    (NA to NA)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 379/1288 (29.43%)	Adverse Events	1
+Febrile neutropenia  84/1288 (6.52%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia  69/1288 (5.36%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia  8/1288 (0.62%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Anaemia  1/1288 (0.08%)	Adverse Events	5
+Thrombocytopenia  4/1288 (0.31%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia  1/1288 (0.08%)	Adverse Events	7
+pancytopenia	HP:0001876,DOID:12450	0-12
+Febrile bone marrow aplasia  1/1288 (0.08%)	Adverse Events	8
+bone marrow	UBERON:0002371	8-19
+Atrial fibrillation  4/1288 (0.31%)	Adverse Events	9
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive  6/1288 (0.47%)	Adverse Events	10
+Adverse Events 2:	Adverse Events	11
+Total: 250/1271 (19.67%)	Adverse Events	12
+Febrile neutropenia  59/1271 (4.64%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia  38/1271 (2.99%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia  1/1271 (0.08%)	Adverse Events	15
+leukopenia	HP:0001882,DOID:615	0-10
+Anaemia  3/1271 (0.24%)	Adverse Events	16
+Thrombocytopenia  0/1271 (0.00%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia  1/1271 (0.08%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Febrile bone marrow aplasia  0/1271 (0.00%)	Adverse Events	19
+bone marrow	UBERON:0002371	8-19
+Atrial fibrillation  2/1271 (0.16%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive  0/1271 (0.00%)	Adverse Events	21

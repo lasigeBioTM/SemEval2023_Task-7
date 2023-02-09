@@ -1,0 +1,65 @@
+INTERVENTION 1:	Intervention	0
+Mammography FFDM and DBT	Intervention	1
+Subjects underwent 2D breast imaging with full-field digital mammography (FFDM) followed by 3D breast imaging with digital breast tomosynthesis (DBT).	Intervention	2
+breast	UBERON:0000310	22-28
+breast	UBERON:0000310	95-101
+breast	UBERON:0000310	123-129
+Digital Breast Tomosynthesis: 3D imaging of the breast using Digital Breast Tomosynthesis (DBT) device	Intervention	3
+breast	UBERON:0000310	8-14
+breast	UBERON:0000310	48-54
+breast	UBERON:0000310	69-75
+Full-Field Digital Mammogram: 2D imaging of the breast using Full-Field Digital Mammography (FFDM) device	Intervention	4
+breast	UBERON:0000310	48-54
+Inclusion Criteria:	Eligibility	0
+Women aged 30 years or older (  30 years old);	Eligibility	1
+Asymptomatic women scheduled for screening mammography or have completed a screening mammogram within the past 30 days;	Eligibility	2
+Mammography completed on a General Electric (GE) GE FFDM system (with craniocaudal (CC) and mediolateral oblique (MLO) views) at the site or another clinical facility;	Eligibility	3
+site	BFO:0000029	133-137
+Are able and willing to comply with study procedures;	Eligibility	4
+Have signed and dated the informed consent form;	Eligibility	5
+Are either surgically sterile or postmenopausal or, if of childbearing potential, the possibility of pregnancy is remote based on a documented negative patient history and, optionally, a negative urine pregnancy test (if subject requests one).	Eligibility	6
+patient	HADO:0000008,OAE:0001817	152-159
+history	BFO:0000182	160-167
+urine	UBERON:0001088	196-201
+Exclusion Criteria:	Eligibility	7
+Have been previously included in this study;	Eligibility	8
+Have a history of breast cancer and are in active treatment. However, subjects with a prior lumpectomy (> 5 years prior) who receive only routine screening mammography views can be included;	Eligibility	9
+history	BFO:0000182	7-14
+breast cancer	DOID:1612	18-31
+active	PATO:0002354	43-49
+Have breasts too large to be adequately positioned on 24 x 31 centimeter (cm) FFDM digital receptor without anatomical cut off during either FFDM or DBT examination;	Eligibility	10
+x	LABO:0000148	57-58
+x	LABO:0000148	154-155
+centimeter	UO:0000015	62-72
+receptor	BAO:0000281	91-99
+Have participated in (within the prior 30 days) another trial of an investigational product expected to interfere with study procedures or outcomes;	Eligibility	11
+product	BAO:0003067	84-91
+Have breast implant(s);	Eligibility	12
+breast	UBERON:0000310	5-11
+Have reconstructed breast(s).	Eligibility	13
+breast	UBERON:0000310	19-25
+Outcome Measurement:	Results	0
+Number of Participants With Imaging Data Collected	Results	1
+Collect breast image data using two (2) methods: Digital Breast Tomosynthesis (DBT) and Full Field Digital Mammography (FFDM) from asymptomatic women undergoing screening mammography.	Results	2
+breast	UBERON:0000310	8-14
+breast	UBERON:0000310	57-63
+Time frame: within 30 days of enrollment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Mammography FFDM and DBT	Results	5
+Arm/Group Description: Subjects underwent 2D breast imaging with full-field digital mammography (FFDM) followed by 3D breast imaging with digital breast tomosynthesis (DBT).	Results	6
+breast	UBERON:0000310	45-51
+breast	UBERON:0000310	118-124
+breast	UBERON:0000310	146-152
+Digital Breast Tomosynthesis: 3D imaging of the breast using Digital Breast Tomosynthesis (DBT) device	Results	7
+breast	UBERON:0000310	8-14
+breast	UBERON:0000310	48-54
+breast	UBERON:0000310	69-75
+Full-Field Digital Mammogram: 2D imaging of the breast using Full-Field Digital Mammography (FFDM) device	Results	8
+breast	UBERON:0000310	48-54
+Overall Number of Participants Analyzed: 250	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  Participants with images collected by both methods: 249  99.6%	Results	11
+Participants with image collected by one method: 1   0.4%	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 0/250 (0.00%)	Adverse Events	1

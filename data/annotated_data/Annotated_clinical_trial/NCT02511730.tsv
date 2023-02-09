@@ -1,0 +1,57 @@
+INTERVENTION 1:	Intervention	0
+FFDM Plus DBT	Intervention	1
+Breast Images with FFDM and DBT	Intervention	2
+breast	UBERON:0000310	0-6
+FFDM Plus DBT: Fujifilm Aspire Cristalle System	Intervention	3
+INTERVENTION 2:	Intervention	4
+FFDM	Intervention	5
+Breast Images with FFDM alone	Intervention	6
+breast	UBERON:0000310	0-6
+FFDM: Fujifilm Aspire Cristalle System	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Female subjects participating in FMSU004A protocol with known clinical status	Eligibility	1
+female	PATO:0000383	0-6
+Exclusion Criteria:	Eligibility	2
+Subjects with unknown clinical status not participating in FMSU004A protocol.	Eligibility	3
+Outcome Measurement:	Results	0
+Compare Per Subject Area Under Curve (AUC): FFDM Only vs DBT Plus FFDM	Results	1
+area	PATO:0001323	20-24
+auc	BAO:0002120	38-41
+Breast AUC performance metrics to determine if FFDM plus DBT improved cancer detection rate, requiring correct lesion localization. Statistician to estimate AUCs for each reader in each review condition (FFDM read in conjunction with FFDM plus DBT read) based on their Probability of Malignancy (POM) scores. POM scores will require correct lesion localization, such that in a case with cancer if the reader recorded one or more findings in the case but none of them are determined by the truther to match the location(s) of any proven malignancies, a POM score of 0 will be assigned to the case. Statistician to provide graphical representations of each reader's ROC curve for each review condition. For each reader the difference between the AUC for the FFDM read in conjunction with the FFDM plus DBT will be presented. Statistician to perform MRMC comparison of AUC's between FFDM read in conjunction with FFDM plus DBT using the MRMC method of Dorfman, Berbaum & Metz (1992).	Results	2
+breast	UBERON:0000310	0-6
+auc	BAO:0002120	7-10
+auc	BAO:0002120	157-160
+auc	BAO:0002120	744-747
+auc	BAO:0002120	866-869
+cancer	DOID:162	70-76
+cancer	DOID:162	387-393
+rate	BAO:0080019	87-91
+localization	GO:0051179	118-130
+localization	GO:0051179	348-360
+condition	PDRO:0000129	193-202
+condition	PDRO:0000129	690-699
+Time frame: 1 month	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	14-19
+Results 1:	Results	4
+Arm/Group Title: FFDM Plus DBT	Results	5
+Arm/Group Description: Breast Images with FFDM and DBT	Results	6
+breast	UBERON:0000310	23-29
+FFDM Plus DBT: Fujifilm Aspire Cristalle System	Results	7
+Overall Number of Participants Analyzed: 100	Results	8
+Mean (Standard Error)	Results	9
+mean	BAO:0002173	0-4
+Unit of Measure: Probability  100         (0.812)	Results	10
+Results 2:	Results	11
+Arm/Group Title: FFDM	Results	12
+Arm/Group Description: Breast Images with FFDM alone	Results	13
+breast	UBERON:0000310	23-29
+FFDM: Fujifilm Aspire Cristalle System	Results	14
+Overall Number of Participants Analyzed: 100	Results	15
+Mean (Standard Error)	Results	16
+mean	BAO:0002173	0-4
+Unit of Measure: Probability  100         (0.780)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/100 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/100 (0.00%)	Adverse Events	3

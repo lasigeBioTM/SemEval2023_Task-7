@@ -1,0 +1,131 @@
+INTERVENTION 1:	Intervention	0
+Green Tea Extract	Intervention	1
+extract	BAO:0003070	10-17
+Green tea extract (GTE) supplement: Two green tea extract capsules twice daily after breakfast and dinner for one year. GTE was a decaffeinated green tea extract, and each capsule contained a total of 328.8 ± 28.9 mg catechins including 210.7 ± 11.0 mg of EGCG.	Intervention	2
+extract	BAO:0003070	10-17
+extract	BAO:0003070	50-57
+extract	BAO:0003070	154-161
+year	UO:0000036	114-118
+capsule	GO:0042603	58-65
+capsule	GO:0042603	172-179
+INTERVENTION 2:	Intervention	3
+Sugar Pill	Intervention	4
+Placebo: Two placebo capsules twice daily after breakfast and dinner for one year. Placebo capsules contained maltodextrin, cellulose, and magnesium stearate.	Intervention	5
+year	UO:0000036	77-81
+maltodextrin	CHEBI:25140	110-122
+Inclusion Criteria:	Eligibility	0
+Signed informed consent	Eligibility	1
+Healthy postmenopausal women aged 50-70 years	Eligibility	2
+healthy	HP:0032322	0-7
+"Heterogeneously dense" (51-75% glandular) or "extremely dense" (>75%glandular) breasts	Eligibility	3
+Willing to avoid consumption of green tea for 1 year	Eligibility	4
+year	UO:0000036	48-52
+Exclusion Criteria:	Eligibility	5
+Positive serological markers of hepatitis B or hepatitis C infections	Eligibility	6
+hepatitis b	DOID:2043	32-43
+hepatitis c	DOID:1883	47-58
+Elevated levels of liver enzymes	Eligibility	7
+liver	UBERON:0002107	19-24
+Recent (within 6 mo) or current hormone or hormone modification therapy, including systemic hormone replacement therapy, SERMS and aromatase inhibitors	Eligibility	8
+hormone	CHEBI:24621	32-39
+hormone	CHEBI:24621	43-50
+hormone	CHEBI:24621	92-99
+Current smoker of cigarettes or other tobacco products	Eligibility	9
+BMI <19 or >40 kg/m2	Eligibility	10
+Weight change > 10 lbs during the previous year	Eligibility	11
+year	UO:0000036	43-47
+History of breast cancer or proliferative breast disease	Eligibility	12
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	11-24
+breast disease	DOID:3463	42-56
+Regular consumption of > 7 alcoholic drinks/wk	Eligibility	13
+Regular consumption of green tea (>1 cup/wk)	Eligibility	14
+Recent (within 6 mo) or current use of chemopreventive agents such as tamoxifen, raloxifene or aromatase inhibitors	Eligibility	15
+tamoxifen	CHEBI:41774	70-79
+raloxifene	CHEBI:8772	81-91
+Participation in any weight loss or weight gain studies	Eligibility	16
+weight loss	HP:0001824	21-32
+Currently taking Methotrexate or Enbrel	Eligibility	17
+methotrexate	CHEBI:44185	17-29
+History of ovarian cancer	Eligibility	18
+history	BFO:0000182	0-7
+ovarian cancer	DOID:2394	11-25
+Any form of cancer in the last 5 years	Eligibility	19
+cancer	DOID:162	12-18
+Presence of implants	Eligibility	20
+Outcome Measurement:	Results	0
+Mammographic Density	Results	1
+Percent mammographic density was measured on digital images using a computer-assisted and quantitative method.	Results	2
+percent	UO:0000187	0-7
+Time frame: Baseline and month 12	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	25-30
+Results 1:	Results	4
+Arm/Group Title: Green Tea Extract	Results	5
+extract	BAO:0003070	27-34
+Arm/Group Description: Green tea extract (GTE) supplement: Two green tea extract capsules twice daily after breakfast and dinner for one year. GTE was a decaffeinated green tea extract, and each capsule contained a total of 328.8   28.9 mg catechins including 210.7   11.0 mg of EGCG.	Results	6
+extract	BAO:0003070	33-40
+extract	BAO:0003070	73-80
+extract	BAO:0003070	177-184
+year	UO:0000036	137-141
+capsule	GO:0042603	81-88
+capsule	GO:0042603	195-202
+Overall Number of Participants Analyzed: 462	Results	7
+Geometric Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	10-14
+Unit of Measure: Percent  Percent mammographic density at baseline: 22.71        (21.39 to 24.10)	Results	9
+percent	UO:0000187	17-24
+percent	UO:0000187	26-33
+Percent mammographic density at month 12: 22.09        (20.77 to 23.50)	Results	10
+percent	UO:0000187	0-7
+month	UO:0000035	32-37
+Results 2:	Results	11
+Arm/Group Title: Sugar Pill	Results	12
+Arm/Group Description: Placebo: Two placebo capsules twice daily after breakfast and dinner for one year. Placebo capsules contained maltodextrin, cellulose, and magnesium stearate.	Results	13
+year	UO:0000036	100-104
+maltodextrin	CHEBI:25140	133-145
+Overall Number of Participants Analyzed: 470	Results	14
+Geometric Mean (95% Confidence Interval)	Results	15
+mean	BAO:0002173	10-14
+Unit of Measure: Percent  Percent mammographic density at baseline: 21.84        (20.59 to 23.17)	Results	16
+percent	UO:0000187	17-24
+percent	UO:0000187	26-33
+Percent mammographic density at month 12: 21.13        (19.88 to 22.47)	Results	17
+percent	UO:0000187	0-7
+month	UO:0000035	32-37
+Adverse Events 1:	Adverse Events	0
+Total: 12/538 (2.23%)	Adverse Events	1
+Hypertension 0/538 (0.00%)	Adverse Events	2
+hypertension	HP:0000822,DOID:10763	0-12
+Acoustic Neuroma 1/538 (0.19%)	Adverse Events	3
+acoustic neuroma	DOID:12689	0-16
+Diarrhea 0/538 (0.00%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Colitis 1/538 (0.19%)	Adverse Events	5
+colitis	HP:0002583,DOID:0060180	0-7
+Elevated ALT or AST enzyme 7/538 (1.30%)	Adverse Events	6
+enzyme	BAO:0000279	20-26
+Diagnosis of Uterine Cancer 0/538 (0.00%)	Adverse Events	7
+uterine cancer	DOID:363	13-27
+Motorcycle accident 0/538 (0.00%)	Adverse Events	8
+Fall 0/538 (0.00%)	Adverse Events	9
+Surgery 3/538 (0.56%)	Adverse Events	10
+surgery	OAE:0000067	0-7
+Adverse Events 2:	Adverse Events	11
+Total: 8/537 (1.49%)	Adverse Events	12
+Hypertension 1/537 (0.19%)	Adverse Events	13
+hypertension	HP:0000822,DOID:10763	0-12
+Acoustic Neuroma 0/537 (0.00%)	Adverse Events	14
+acoustic neuroma	DOID:12689	0-16
+Diarrhea 1/537 (0.19%)	Adverse Events	15
+diarrhea	HP:0002014,DOID:13250	0-8
+Colitis 0/537 (0.00%)	Adverse Events	16
+colitis	HP:0002583,DOID:0060180	0-7
+Elevated ALT or AST enzyme 0/537 (0.00%)	Adverse Events	17
+enzyme	BAO:0000279	20-26
+Diagnosis of Uterine Cancer 2/537 (0.37%)	Adverse Events	18
+uterine cancer	DOID:363	13-27
+Motorcycle accident 1/537 (0.19%)	Adverse Events	19
+Fall 1/537 (0.19%)	Adverse Events	20
+Surgery 2/537 (0.37%)	Adverse Events	21
+surgery	OAE:0000067	0-7

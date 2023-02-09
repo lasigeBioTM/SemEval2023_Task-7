@@ -1,0 +1,147 @@
+INTERVENTION 1:	Intervention	0
+Ginkgo Biloba	Intervention	1
+Ginkgo Biloba: Patients will take 120 mg per day (60 mg BID)	Intervention	2
+day	UO:0000033	45-48
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Placebo: Patients will take 1 tablet BID	Intervention	5
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Newly diagnosed breast cancer	Eligibility	1
+breast cancer	DOID:1612	16-29
+Planned standard doses of adjuvant chemotherapy with or without a taxane	Eligibility	2
+adjuvant	CHEBI:60809	26-34
+taxane	CHEBI:36064	66-72
+PATIENT CHARACTERISTICS:	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	4
+age	PATO:0000011	0-3
+18 and over	Eligibility	5
+Sex	Eligibility	6
+Female	Eligibility	7
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	8
+Any status	Eligibility	9
+Performance status	Eligibility	10
+Eastern Cooperative Oncology Group (ECOG) 0-1	Eligibility	11
+group	CHEBI:24433	29-34
+Life expectancy	Eligibility	12
+At least 6 months	Eligibility	13
+Hematopoietic	Eligibility	14
+No bleeding diathesis	Eligibility	15
+Hepatic	Eligibility	16
+serum glutamate oxaloacetate transaminase (SGOT) no greater than 1.5 times upper limit of normal (ULN)	Eligibility	17
+glutamate	CHEBI:14321,BAO:0000926	6-15
+Alkaline phosphatase no greater than 1.5 times ULN	Eligibility	18
+phosphatase	GO:0016791,BAO:0000295	9-20
+Renal	Eligibility	19
+Creatinine no greater than 1.5 times ULN	Eligibility	20
+creatinine	CHEBI:16737	0-10
+Cardiovascular	Eligibility	21
+No arterial vascular disease	Eligibility	22
+vascular disease	DOID:178	12-28
+Other	Eligibility	23
+Able to complete questionnaires alone or with assistance	Eligibility	24
+No diabetes	Eligibility	25
+No dementia	Eligibility	26
+dementia	HP:0000726,DOID:1307	3-11
+No diagnosis of a psychiatric disorder within the past 5 years that would preclude study compliance	Eligibility	27
+disorder	OGMS:0000045	30-38
+No other significant comorbidity	Eligibility	28
+No known allergy to ginkgo biloba	Eligibility	29
+allergy	HP:0012393	9-16
+Not pregnant or nursing	Eligibility	30
+Negative pregnancy test	Eligibility	31
+Fertile patients must use effective contraception	Eligibility	32
+PRIOR CONCURRENT THERAPY:	Eligibility	33
+Biologic therapy	Eligibility	34
+No concurrent stem cell transplantation	Eligibility	35
+Chemotherapy	Eligibility	36
+No concurrent high-dose chemotherapy	Eligibility	37
+Other	Eligibility	38
+More than 6 months since prior EGb761	Eligibility	39
+No concurrent antithrombotic therapy (e.g., daily aspirin or anticoagulants)	Eligibility	40
+Anticoagulants used for central or peripheral line maintenance (i.e., warfarin 1 mg/day or heparin flushes) allowed	Eligibility	41
+central	HP:0030645	24-31
+peripheral	HP:0030646	35-45
+warfarin	CHEBI:10033	70-78
+heparin	CHEBI:28304	91-98
+No concurrent dose-intensive regimens	Eligibility	42
+No concurrent aspirin or aspirin-like medicines (e.g., indomethacin, ibuprofen, or some antihistamines or heparin or warfarin [except as used above])	Eligibility	43
+ibuprofen	CHEBI:132922	69-78
+heparin	CHEBI:28304	106-113
+warfarin	CHEBI:10033	117-125
+No concurrent regimen expected to cause thrombocytopenia	Eligibility	44
+thrombocytopenia	HP:0001873,DOID:1588	40-56
+No concurrent trazodone, monoamine oxidase inhibitors, or thiazide diuretics (e.g., chlorothiazide, hydrochlorothiazide, indapamide, or metolazone)	Eligibility	45
+trazodone	CHEBI:9654	14-23
+monoamine	CHEBI:63534	25-34
+thiazide	CHEBI:50264	58-66
+thiazide	CHEBI:50264	90-98
+thiazide	CHEBI:50264	111-119
+chlorothiazide	CHEBI:3640	84-98
+chlorothiazide	CHEBI:3640	105-119
+hydrochlorothiazide	CHEBI:5778	100-119
+indapamide	CHEBI:5893	121-131
+metolazone	CHEBI:64354	136-146
+Outcome Measurement:	Results	0
+The Level of Cognitive Dysfunction as Measured by the High Sensitivity Cognitive Screen (HSCS) Overall Score.	Results	1
+The primary analysis involved compiling each subscale score for the HSCS into area under the curve (AUC) scores for the data points from baseline to the 12 month data point. HSCS instrument contains questions regarding Memory (0-39), Language (0-30), Visual-motor (0-10), Spatial (0-8), Attention and Concentration (0-25), Self-Regulation and Planning (0-6) on a varying scales. Total is calculated by summing afore mentioned subscales, values of Total ranged from 0 to 125. Lower scores are better.	Results	2
+area	PATO:0001323	78-82
+auc	BAO:0002120	100-103
+month	UO:0000035	156-161
+instrument	BAO:0003118	179-189
+memory	GO:0007613	219-225
+Time frame: Baseline, 12 months after starting Chemotherapy.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ginkgo Biloba	Results	5
+Arm/Group Description: Ginkgo Biloba: Patients will take 120 mg per day (60 mg BID)	Results	6
+day	UO:0000033	68-71
+Overall Number of Participants Analyzed: 107	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale*months  Memory: 12.2         (9.18)	Results	9
+memory	GO:0007613	42-48
+Language: 3.9         (6.84)	Results	10
+Visual-motor: 1.1         (1.29)	Results	11
+Spatial: 1.4         (0.92)	Results	12
+Attention/concentration: 2.2         (3.59)	Results	13
+Self-regulation: 2.4         (2.14)	Results	14
+Total: 20.7         (19.59)	Results	15
+Results 2:	Results	16
+Arm/Group Title: Placebo	Results	17
+Arm/Group Description: Placebo: Patients will take 1 tablet BID	Results	18
+Overall Number of Participants Analyzed: 103	Results	19
+Mean (Standard Deviation)	Results	20
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale*months  Memory: 12.6         (9.16)	Results	21
+memory	GO:0007613	42-48
+Language: 2.6         (2.72)	Results	22
+Visual-motor: 0.7         (0.84)	Results	23
+Spatial: 1.3         (0.92)	Results	24
+Attention/concentration: 1.8         (2.16)	Results	25
+Self-regulation: 2.0         (2.10)	Results	26
+Total: 18.0         (12.26)	Results	27
+Adverse Events 1:	Adverse Events	0
+Total: 4/104 (3.85%)	Adverse Events	1
+Febrile neutropenia 0/104 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Infection with grade 3 or 4 neutropenia 1/104 (0.96%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	28-39
+Leukocyte count decreased 1/104 (0.96%)	Adverse Events	4
+Neutrophil count decreased 4/104 (3.85%)	Adverse Events	5
+Platelet count decreased 1/104 (0.96%)	Adverse Events	6
+platelet count	CMO:0000029	0-14
+Adverse Events 2:	Adverse Events	7
+Total: 3/101 (2.97%)	Adverse Events	8
+Febrile neutropenia 1/101 (0.99%)	Adverse Events	9
+neutropenia	HP:0001875,DOID:1227	8-19
+Infection with grade 3 or 4 neutropenia 0/101 (0.00%)	Adverse Events	10
+neutropenia	HP:0001875,DOID:1227	28-39
+Leukocyte count decreased 2/101 (1.98%)	Adverse Events	11
+Neutrophil count decreased 2/101 (1.98%)	Adverse Events	12
+Platelet count decreased 0/101 (0.00%)	Adverse Events	13
+platelet count	CMO:0000029	0-14

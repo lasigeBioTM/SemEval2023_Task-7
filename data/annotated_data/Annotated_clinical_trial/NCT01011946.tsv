@@ -1,0 +1,61 @@
+INTERVENTION 1:	Intervention	0
+Positron Emission Mammography	Intervention	1
+positron	CHEBI:30225	0-8
+Positron Emission Mammography: Patients will receive bilateral (both sides) breast and axillary PEM scans, bilateral mammography, DCE-MRI, US of the breast and axilla (the side of the affected breast), and ultrasound guided biopsy of axillary lymph node if suspicious. Various PEM views will be performed on both your breast and axilla (underarm).	Intervention	2
+positron	CHEBI:30225	0-8
+bilateral	HP:0012832	53-62
+bilateral	HP:0012832	107-116
+breast	UBERON:0000310	76-82
+breast	UBERON:0000310	149-155
+breast	UBERON:0000310	193-199
+breast	UBERON:0000310	318-324
+affected	HP:0032320	184-192
+lymph	UBERON:0002391	243-248
+Inclusion Criteria:	Eligibility	0
+Women 18-75 years old with newly diagnosed breast cancer who are considered candidates for breast conserving surgery (i.e. lumpectomy).	Eligibility	1
+breast cancer	DOID:1612	43-56
+breast	UBERON:0000310	43-49
+breast	UBERON:0000310	91-97
+surgery	OAE:0000067	109-116
+Exclusion Criteria:	Eligibility	2
+Children (<18 years old)	Eligibility	3
+Pregnant or Lactating women	Eligibility	4
+Diabetic patients (Type I or II)	Eligibility	5
+Patients who are scheduled for a sentinel node procedure using radioactive Tc-99m within 24 hours of PEM	Eligibility	6
+Patients who have NOT undergone a standard of care bilateral breast MRI at UC.	Eligibility	7
+bilateral	HP:0012832	51-60
+breast	UBERON:0000310	61-67
+Outcome Measurement:	Results	0
+Sensitivity and Specificity of FDG Positron Emission Mammography (PEM) in Identifying Axillary Lymph Node (ALN) Metastases From Breast Cancer	Results	1
+positron	CHEBI:30225	35-43
+lymph	UBERON:0002391	95-100
+breast cancer	DOID:1612	128-141
+Based on FDG Positron Emission Mammography (PEM) image, a breast region was classified as "normal" or "abnormal". Lymph Node (LN) sampling and histopathology determined true positives and true negatives.	Results	2
+positron	CHEBI:30225	13-21
+breast	UBERON:0000310	58-64
+lymph	UBERON:0002391	114-119
+ln	BAO:0002171	126-128
+Time frame: PEM was performed prior to surgery and LN sampling immediately following surgery	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	39-46
+surgery	OAE:0000067	85-92
+ln	BAO:0002171	51-53
+Results 1:	Results	4
+Arm/Group Title: Positron Emission Mammography	Results	5
+positron	CHEBI:30225	17-25
+Arm/Group Description: Positron Emission Mammography: Patients will receive bilateral (both sides) breast and axillary PEM scans, bilateral mammography, DCE-MRI, US of the breast and axilla (the side of the affected breast), and ultrasound guided biopsy of axillary lymph node if suspicious. Various PEM views will be performed on both your breast and axilla (underarm).	Results	6
+positron	CHEBI:30225	23-31
+bilateral	HP:0012832	76-85
+bilateral	HP:0012832	130-139
+breast	UBERON:0000310	99-105
+breast	UBERON:0000310	172-178
+breast	UBERON:0000310	216-222
+breast	UBERON:0000310	341-347
+affected	HP:0032320	207-215
+lymph	UBERON:0002391	266-271
+Overall Number of Participants Analyzed: 33	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of subjects  Sensitivity: 83.3        (51.6 to 97.9)	Results	9
+Specificity: 52.0        (31.3 to 72.2)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/36 (0.00%)	Adverse Events	1

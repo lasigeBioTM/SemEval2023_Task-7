@@ -1,0 +1,124 @@
+INTERVENTION 1:	Intervention	0
+Herceptin + Taxotere + Xeloda	Intervention	1
+taxotere	CHEBI:46058	12-20
+Participants received triple therapy with Herceptin, Taxotere, and Xeloda until disease progression, unmanageable toxicity, or withdrawal. Herceptin and Taxotere were given via IV infusion on Day 1 of each 21-day cycle. The first dose of Herceptin was a loading dose of 8 mg/kg in Cycle 1, and a maintenance dose of 6 mg/kg was given from Cycle 2 through the end of treatment. The dose of Taxotere was 75 mg/m^2, with adjustments allowed only for toxicity. Xeloda was given orally as 950 mg/m^2 twice a day on Days 1 to 14 of each 21-day cycle, with adjustments allowed only for toxicity.	Intervention	2
+taxotere	CHEBI:46058	53-61
+taxotere	CHEBI:46058	153-161
+taxotere	CHEBI:46058	389-397
+disease	DOID:4,OGMS:0000031	80-87
+day	UO:0000033	192-195
+day	UO:0000033	209-212
+day	UO:0000033	503-506
+day	UO:0000033	510-513
+day	UO:0000033	534-537
+INTERVENTION 2:	Intervention	3
+Herceptin + Taxotere	Intervention	4
+taxotere	CHEBI:46058	12-20
+Participants received dual therapy with Herceptin and Taxotere until disease progression, unmanageable toxicity, or withdrawal. Treatments were given via IV infusion on Day 1 of each 21-day cycle. The first dose of Herceptin was a loading dose of 8 mg/kg in Cycle 1, and a maintenance dose of 6 mg/kg was given from Cycle 2 through the end of treatment. The dose of Taxotere was 100 mg/m^2, with adjustments allowed only for toxicity.	Intervention	5
+taxotere	CHEBI:46058	54-62
+taxotere	CHEBI:46058	366-374
+disease	DOID:4,OGMS:0000031	69-76
+day	UO:0000033	169-172
+day	UO:0000033	186-189
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed, HER2-positive advanced and/or metastatic breast cancer not amenable to curative therapy	Eligibility	1
+breast cancer	DOID:1612	67-80
+At least one measurable lesion according to RECIST	Eligibility	2
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	3
+group	CHEBI:24433	29-34
+Baseline left ventricular ejection fraction (LVEF) at least 50%	Eligibility	4
+left	HP:0012835	9-13
+ejection fraction	CMO:0000180	26-43
+Exclusion Criteria:	Eligibility	5
+Pregnant, lactating, or women of childbearing potential who are not surgically sterile or not willing to use adequate contraceptive methods	Eligibility	6
+Previous treatment with Herceptin or other anti-HER therapies, or any previous chemotherapy for advanced or metastatic disease	Eligibility	7
+disease	DOID:4,OGMS:0000031	119-126
+Past medical history significant for any cardiac or central nervous system (CNS) disorders	Eligibility	8
+past medical history	HP:0032443	0-20
+central nervous system	UBERON:0001017	52-74
+Poor hematologic, renal, or hepatic function	Eligibility	9
+function	BAO:0003117,BFO:0000034	36-44
+Chronic corticosteroid therapy	Eligibility	10
+chronic	HP:0011010	0-7
+corticosteroid	CHEBI:50858	8-22
+Outcome Measurement:	Results	0
+Percentage of Participants With a Best Overall Response of Complete Response (CR) or Partial Response (PR) According to Response Evaluation Criteria in Solid Tumors (RECIST)	Results	1
+Tumor response was assessed by RECIST during the study. CR was defined as disappearance of all target and non-target lesions and normalization of tumor marker levels. PR was defined as greater than or equal to (  ) 30 percent (%) decrease in sum of longest diameter (LD) of target lesions in reference to Baseline sum LD. Response was to be confirmed 4 weeks after the initial assessment of CR or PR. The percentage of participants with a best overall response for CR or PR was reported. The exact 95% confidence interval (CI) for one-sample binomial was determined using the Pearson-Clopper method.	Results	2
+target	BAO:0003064	95-101
+target	BAO:0003064	110-116
+target	BAO:0003064	274-280
+percent	UO:0000187	218-225
+percent	UO:0000187	405-412
+diameter	PATO:0001334	257-265
+Time frame: Tumor assessments at Baseline, then every 6 weeks until Cycle 8 (cycle length of 21 days), then every 12 weeks until progressive disease and/or one year after enrollment; thereafter according to routine clinical practice (up to 66 months overall)	Results	3
+time	PATO:0000165	0-4
+length	PATO:0000122	83-89
+progressive	HP:0003676	129-140
+disease	DOID:4,OGMS:0000031	141-148
+year	UO:0000036	160-164
+Results 1:	Results	4
+Arm/Group Title: Herceptin + Taxotere + Xeloda	Results	5
+taxotere	CHEBI:46058	29-37
+Arm/Group Description: Participants received triple therapy with Herceptin, Taxotere, and Xeloda until disease progression, unmanageable toxicity, or withdrawal. Herceptin and Taxotere were given via IV infusion on Day 1 of each 21-day cycle. The first dose of Herceptin was a loading dose of 8 mg/kg in Cycle 1, and a maintenance dose of 6 mg/kg was given from Cycle 2 through the end of treatment. The dose of Taxotere was 75 mg/m^2, with adjustments allowed only for toxicity. Xeloda was given orally as 950 mg/m^2 twice a day on Days 1 to 14 of each 21-day cycle, with adjustments allowed only for toxicity.	Results	6
+taxotere	CHEBI:46058	76-84
+taxotere	CHEBI:46058	176-184
+taxotere	CHEBI:46058	412-420
+disease	DOID:4,OGMS:0000031	103-110
+day	UO:0000033	215-218
+day	UO:0000033	232-235
+day	UO:0000033	526-529
+day	UO:0000033	533-536
+day	UO:0000033	557-560
+Overall Number of Participants Analyzed: 112	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  70.5        (61.18 to 78.77)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Herceptin + Taxotere	Results	11
+taxotere	CHEBI:46058	29-37
+Arm/Group Description: Participants received dual therapy with Herceptin and Taxotere until disease progression, unmanageable toxicity, or withdrawal. Treatments were given via IV infusion on Day 1 of each 21-day cycle. The first dose of Herceptin was a loading dose of 8 mg/kg in Cycle 1, and a maintenance dose of 6 mg/kg was given from Cycle 2 through the end of treatment. The dose of Taxotere was 100 mg/m^2, with adjustments allowed only for toxicity.	Results	12
+taxotere	CHEBI:46058	77-85
+taxotere	CHEBI:46058	389-397
+disease	DOID:4,OGMS:0000031	92-99
+day	UO:0000033	192-195
+day	UO:0000033	209-212
+Overall Number of Participants Analyzed: 110	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  72.7        (63.41 to 80.78)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 52/112 (46.43%)	Adverse Events	1
+Febrile neutropenia * 16/112 (14.29%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 7/112 (6.25%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia * 1/112 (0.89%)	Adverse Events	4
+Cardiac failure * 1/112 (0.89%)	Adverse Events	5
+Coronary artery disease * 1/112 (0.89%)	Adverse Events	6
+coronary artery disease	DOID:3393	0-23
+Left ventricular dysfunction * 1/112 (0.89%)	Adverse Events	7
+left	HP:0012835	0-4
+Pericardial effusion * 0/112 (0.00%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Hyperthyroidism * 1/112 (0.89%)	Adverse Events	9
+hyperthyroidism	HP:0000836,DOID:7998	0-15
+Diarrhoea * 5/112 (4.46%)	Adverse Events	10
+Vomiting * 3/112 (2.68%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Adverse Events 2:	Adverse Events	12
+Total: 51/110 (46.36%)	Adverse Events	13
+Febrile neutropenia * 26/110 (23.64%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 7/110 (6.36%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia * 1/110 (0.91%)	Adverse Events	16
+Cardiac failure * 0/110 (0.00%)	Adverse Events	17
+Coronary artery disease * 0/110 (0.00%)	Adverse Events	18
+coronary artery disease	DOID:3393	0-23
+Left ventricular dysfunction * 0/110 (0.00%)	Adverse Events	19
+left	HP:0012835	0-4
+Pericardial effusion * 1/110 (0.91%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Hyperthyroidism * 0/110 (0.00%)	Adverse Events	21
+hyperthyroidism	HP:0000836,DOID:7998	0-15
+Diarrhoea * 0/110 (0.00%)	Adverse Events	22
+Vomiting * 1/110 (0.91%)	Adverse Events	23
+vomiting	HP:0002013	0-8

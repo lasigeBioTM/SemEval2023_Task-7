@@ -1,0 +1,292 @@
+INTERVENTION 1:	Intervention	0
+Lapatinib 1500 mg	Intervention	1
+lapatinib	CHEBI:49603	0-9
+Participants received lapatinib 1500 milligrams (mg) orally once daily. Treatment was continued for a maximum of 12 months or until disease recurrence or development of a second primary cancer, withdrawal from study treatment due to unacceptable toxicity, or consent withdrawal.	Intervention	2
+lapatinib	CHEBI:49603	22-31
+disease	DOID:4,OGMS:0000031	132-139
+second	UO:0000010	171-177
+cancer	DOID:162	186-192
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Participants received matching placebo orally once daily. Treatment was continued for a maximum of 12 months or until disease recurrence or development of a second primary cancer, withdrawal from study treatment due to unacceptable toxicity, or consent withdrawal.	Intervention	5
+disease	DOID:4,OGMS:0000031	118-125
+second	UO:0000010	157-163
+cancer	DOID:162	172-178
+Inclusion Criteria:	Eligibility	0
+Have histologically or cytologically confirmed ErbB2-overexpressing invasive carcinoma (TX or T1-4) of the breast at the time of the initial diagnosis and have undergone adequate excision of tumor;	Eligibility	1
+carcinoma	HP:0030731,DOID:305	77-86
+breast	UBERON:0000310	107-113
+time	PATO:0000165	121-125
+Had tumors that overexpress ErbB2 defined as 3+ by IHC or c-erbB2 gene amplification by FISH (ErbB2 expression/amplification must be documented prior to study entry; however, a tumor tissue sample must be sent to a central laboratory for subsequent re-analysis of ErbB2 status);	Eligibility	2
+gene	BAO:0000582	66-70
+tissue	UBERON:0000479	183-189
+central	HP:0030645	215-222
+Have Stage I through Stage IIIc disease according to the American Joint Committee on Cancer (6th edition) staging criteria for breast cancer and meet one of the following criteria:	Eligibility	3
+disease	DOID:4,OGMS:0000031	32-39
+cancer	DOID:162	85-91
+cancer	DOID:162	134-140
+breast cancer	DOID:1612	127-140
+node-positive disease defined as: one positive lymph node by sentinel node biopsy OR at least 1 positive lymph node found among at least 6 axillary nodes examined on axillary node dissection OR status post axillary radiotherapy for sterilization if clinically evaluated as cN1 or cN2 (if sentinel node biopsy is positive, subject may either undergo an axillary node dissection or radiotherapy to the axilla).	Eligibility	4
+disease	DOID:4,OGMS:0000031	14-21
+lymph	UBERON:0002391	47-52
+lymph	UBERON:0002391	105-110
+radiotherapy	OAE:0000235	215-227
+radiotherapy	OAE:0000235	380-392
+node-positive disease evaluated as: ipsilateral axillary lymph nodes cN0-2 by clinical evaluation and axillary lymph nodes pNX, pN0(i+), or pN1-3 by pathological evaluation [patients with pN3 (Stage IIIc disease) must be disease free following completion of neoadjuvant or adjuvant chemotherapy for at least 12 months and must not have been lost to follow up].	Eligibility	5
+disease	DOID:4,OGMS:0000031	14-21
+disease	DOID:4,OGMS:0000031	204-211
+disease	DOID:4,OGMS:0000031	221-228
+lymph	UBERON:0002391	57-62
+lymph	UBERON:0002391	111-116
+adjuvant	CHEBI:60809	261-269
+adjuvant	CHEBI:60809	273-281
+OR node-negative disease defined as: negative sentinel node biopsy OR no positive lymph nodes found among at least 6 axillary nodes examined on axillary node dissection OR status post axillary radiotherapy for sterilization if clinically evaluated as cN0.	Eligibility	6
+disease	DOID:4,OGMS:0000031	17-24
+lymph	UBERON:0002391	82-87
+radiotherapy	OAE:0000235	193-205
+node-negative disease categorized as: high-risk disease (tumor >2.0 cm if ER and/or progesterone receptor (PgR) positive disease is present or tumor >1.0 cm if ER and PgR negative disease) OR intermediate-risk disease (tumor 1.0-2.0 cm and ER and/or PgR positive disease).	Eligibility	7
+disease	DOID:4,OGMS:0000031	14-21
+disease	DOID:4,OGMS:0000031	48-55
+disease	DOID:4,OGMS:0000031	121-128
+disease	DOID:4,OGMS:0000031	180-187
+disease	DOID:4,OGMS:0000031	210-217
+disease	DOID:4,OGMS:0000031	263-270
+progesterone	CHEBI:17026	84-96
+receptor	BAO:0000281	97-105
+present	PATO:0000467	132-139
+Women with synchronous bilateral invasive breast cancer or synchronous DCIS of either the contralateral or ipsilateral breast at the time of the initial diagnosis are also eligible;	Eligibility	8
+bilateral	HP:0012832	23-32
+breast cancer	DOID:1612	42-55
+breast	UBERON:0000310	42-48
+breast	UBERON:0000310	119-125
+time	PATO:0000165	133-137
+Have undergone either mastectomy OR lumpectomy;	Eligibility	9
+Have received and completed treatment with a neoadjuvant or adjuvant chemotherapy regimen containing either an anthracycline or a taxane; or any cyclophosphamide, methotrexate and 5-fluorouracil (CMF) regimen;	Eligibility	10
+adjuvant	CHEBI:60809	48-56
+adjuvant	CHEBI:60809	60-68
+anthracycline	CHEBI:48120	111-124
+taxane	CHEBI:36064	130-136
+cyclophosphamide	CHEBI:4026	145-161
+methotrexate	CHEBI:44185	163-175
+5-fluorouracil	CHEBI:46345	180-194
+May continue to receive endocrine therapy while taking study medication, if endocrine therapy was initiated as either adjuvant therapy for treatment of the initial diagnosis of invasive breast cancer or for ovarian function suppression; however, endocrine therapy may not be initiated while taking study medication. Endocrine therapy agents may be switched while participating in this study (e.g., stop tamoxifen and start letrozole);	Eligibility	11
+adjuvant	CHEBI:60809	118-126
+breast cancer	DOID:1612	186-199
+function	BAO:0003117,BFO:0000034	215-223
+tamoxifen	CHEBI:41774	403-412
+letrozole	CHEBI:6413	423-432
+May have received prior radiotherapy as treatment for primary tumor; however, is not required for study entry;	Eligibility	12
+radiotherapy	OAE:0000235	24-36
+May continue to receive radiotherapy while taking study medication, if radiotherapy was initiated as adjuvant therapy for treatment of the initial diagnosis of invasive breast cancer;	Eligibility	13
+radiotherapy	OAE:0000235	24-36
+radiotherapy	OAE:0000235	71-83
+adjuvant	CHEBI:60809	101-109
+breast cancer	DOID:1612	169-182
+May continue to receive bisphosphonates only for treatment of documented osteoporosis, but not as treatment or prophylaxis of bone metastases;	Eligibility	14
+osteoporosis	HP:0000939,DOID:11476	73-85
+All women eligible for adjuvant treatment with trastuzumab, including those diagnosed and treated within the last six months, must be considered for such treatment prior to being offered participation in this study. Participation in this study will be allowed only if the physician and patient have considered and discussed at length the advantages of trastuzumab, but have mutually decided against initiating trastuzumab therapy.	Eligibility	15
+adjuvant	CHEBI:60809	23-31
+patient	HADO:0000008,OAE:0001817	286-293
+length	PATO:0000122	327-333
+Have clinical and radiologic assessments that are negative for local or regional recurrence of disease or metastatic disease at the time of study entry;	Eligibility	16
+disease	DOID:4,OGMS:0000031	95-102
+disease	DOID:4,OGMS:0000031	117-124
+time	PATO:0000165	132-136
+if signs or symptoms suggestive of either recurrence of disease or metastatic disease are present, the appropriate radiological imaging must be performed	Eligibility	17
+disease	DOID:4,OGMS:0000031	56-63
+disease	DOID:4,OGMS:0000031	78-85
+present	PATO:0000467	90-97
+if the following laboratory results are present, the appropriate radiological imaging must be performed:	Eligibility	18
+present	PATO:0000467	40-47
+for AST/ALT 2×ULN or ALP 2×ULN (not in the bone fraction), an abdominal CT or MRI must be done	Eligibility	19
+ct	BAO:0002125	51-53
+ct	BAO:0002125	72-74
+for ALP  2×ULN in the bone fraction, a bone scan must be done; a confirmatory x-ray, CT scan or MRI scan or biopsy is required if the results of the bone scan are inconclusive	Eligibility	20
+ct	BAO:0002125	30-32
+ct	BAO:0002125	85-87
+Have a unilateral/bilateral mammogram within 12 months prior to study entry;	Eligibility	21
+Have an analysis of both ER and PgR on the primary tumor prior to study entry;	Eligibility	22
+Have a cardiac ejection fraction within institutional range of normal as measured by either echocardiogram or multigated acquisition scans;	Eligibility	23
+ejection fraction	CMO:0000180	15-32
+range	LABO:0000114	54-59
+Have an Eastern Cooperative Oncology Group Performance Status of 0 to 1;	Eligibility	24
+group	CHEBI:24433	37-42
+Women with a history of non-breast malignancies are eligible if they have been disease-free for at least 5 years and are deemed by the investigator to be at low risk for recurrence. Women with the following cancers are eligible if diagnosed and treated within the past 5 years: cervical carcinoma in situ, melanoma in situ, and basal cell or squamous cell carcinoma of the skin;	Eligibility	25
+history	BFO:0000182	13-20
+carcinoma	HP:0030731,DOID:305	287-296
+carcinoma	HP:0030731,DOID:305	356-365
+melanoma	HP:0002861,DOID:1909	306-314
+squamous cell carcinoma of the skin	HP:0006739	342-377
+Are able to swallow and retain oral medication;	Eligibility	26
+Have a paraffin-embedded tissue block from an archived tumor tissue from the primary tumor or twenty (20) slides of paraffin-embedded tissue available for biomarker analysis;	Eligibility	27
+tissue	UBERON:0000479	25-31
+tissue	UBERON:0000479	61-67
+tissue	UBERON:0000479	134-140
+biomarker	CHEBI:59163	155-164
+Have adequate organ function defined as: absolute neutrophil count 1.5× 10^9/L; hemoglobin 9 g/dL; platelets 75 × 10^9/L; albumin 2.5 g/dL; serum bilirubin 1.25 ×ULN; aspartate aminotransferase and alanine aminotransferase 3 × ULN and serum creatinine 2.0 mg/dL or calculated creatinine clearance 40 mL/min	Eligibility	28
+organ	UBERON:0000062	14-19
+function	BAO:0003117,BFO:0000034	20-28
+hemoglobin	CHEBI:35143	80-90
+aspartate	CHEBI:29995	167-176
+alanine	CHEBI:16449	198-205
+creatinine	CHEBI:16737	241-251
+creatinine	CHEBI:16737	276-286
+creatinine clearance	CMO:0000765	276-296
+Have signed the informed consent form (ICF);	Eligibility	29
+Women of child-bearing potential must have a negative serum pregnancy test at screening and agree to complete abstinence from intercourse or consistent and correct use of an acceptable methods of birth control from 2 weeks prior to administration of the first dose of study medication until 28 days after the final dose of study medication:	Eligibility	30
+Exclusion Criteria:	Eligibility	31
+Have clinical and radiologic evidence of local or regional recurrence of disease or metastatic disease at the time of study entry;	Eligibility	32
+disease	DOID:4,OGMS:0000031	73-80
+disease	DOID:4,OGMS:0000031	95-102
+time	PATO:0000165	110-114
+Had metachronous invasive breast cancer (breast cancers diagnosed at different times);	Eligibility	33
+breast cancer	DOID:1612	26-39
+breast cancer	DOID:1612	41-54
+breast	UBERON:0000310	26-32
+breast	UBERON:0000310	41-47
+Have a prior history of other breast cancer malignancies, including DCIS;	Eligibility	34
+history	BFO:0000182	13-20
+breast cancer	DOID:1612	30-43
+Are unable to provide archived tumor tissue samples for assay;	Eligibility	35
+tissue	UBERON:0000479	37-43
+Had prior therapy with an ErbB1 and/or ErbB2 inhibitor; women who experienced a hypersensitivity or allergic reaction to trastuzumab during the first infusion and were unable to complete this infusion are eligible;	Eligibility	36
+inhibitor	CHEBI:35222	45-54
+hypersensitivity	GO:0002524,DOID:1205	80-96
+Receive concurrent anti-cancer therapy (chemotherapy, immunotherapy, and biologic therapy) while taking study medication;	Eligibility	37
+Have unresolved or unstable, serious toxicity from prior administration of another investigational drug and/or of prior cancer treatment;	Eligibility	38
+drug	CHEBI:23888	99-103
+cancer	DOID:162	120-126
+Have malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel. Women with ulcerative colitis are also excluded;	Eligibility	39
+malabsorption	HP:0002024	5-18
+syndrome	DOID:225	19-27
+disease	DOID:4,OGMS:0000031	29-36
+function	BAO:0003117,BFO:0000034	78-86
+stomach	UBERON:0000945	108-115
+ulcerative colitis	HP:0100279,DOID:8577	143-161
+excluded	HP:0040285	171-179
+Have a concurrent disease or condition that would make the woman inappropriate for study participation, or any serious medical disorder that would interfere with the woman's safety;	Eligibility	40
+disease	DOID:4,OGMS:0000031	18-25
+condition	PDRO:0000129	29-38
+disorder	OGMS:0000045	127-135
+Have an active or uncontrolled infection;	Eligibility	41
+active	PATO:0002354	8-14
+Have dementia, altered mental status, or any psychiatric condition that would prohibit the understanding or rendering of informed consent;	Eligibility	42
+dementia	HP:0000726,DOID:1307	5-13
+condition	PDRO:0000129	57-66
+Have a known history of uncontrolled or symptomatic angina, arrhythmias, or CHF;	Eligibility	43
+history	BFO:0000182	13-20
+Are pregnant or breastfeeding;	Eligibility	44
+Receive concurrent treatment with an investigational agent; women, who are in follow-up in another clinical trial where the primary endpoint has been met and the interval between assessments is 12 months and radiological imaging is not required at these assessments, are eligible;	Eligibility	45
+Receive concurrent treatment with a selected list of strong inducers and inhibitors of CYP3A4;	Eligibility	46
+Used an investigational drug within 30 days or 5 half-lives, whichever is longer, preceding the first dose of study medication;	Eligibility	47
+drug	CHEBI:23888	24-28
+Have a known immediate or delayed hypersensitivity reaction or idiosyncrasy to drugs chemically related to lapatinib or excipients;	Eligibility	48
+hypersensitivity	GO:0002524,DOID:1205	34-50
+lapatinib	CHEBI:49603	107-116
+Outcome Measurement:	Results	0
+Number of Participants (Par.) With Any Recurrence of the Initial Disease, Second Primary Cancer, Contralateral Breast Cancer, or Death (Disease-free Survival [DFS])	Results	1
+disease	DOID:4,OGMS:0000031	65-72
+disease	DOID:4,OGMS:0000031	136-143
+second	UO:0000010	74-80
+cancer	DOID:162	89-95
+cancer	DOID:162	118-124
+breast cancer	DOID:1612	111-124
+death	OAE:0000632	129-134
+DFS=interval between the date of randomization and the date of the first occurrence of an objective disease recurrence, a second primary cancer, or death from any cause. The date of the event is the earliest date of the occurrence of any of the following: local recurrence (LR) following mastectomy; LR in ipsilateral breast following lumpectomy; regional recurrence; distant recurrence; contralateral breast cancer, including ductal carcinoma in situ; other second primary cancer (excluding squamous or basal cell carcinoma of the skin, melanoma in situ, carcinoma in situ of the cervix, or lobular carcinoma in situ of the breast); death from any cause without a prior event. Par. who started additional anti-cancer adjuvant therapy prior to the recurrence of their disease were to be censored. Par. who did not withdraw from the study and did not experience a specified event or death were to be censored (follow-up ongoing) at the last visit date available at which progression was assessed.	Results	2
+disease	DOID:4,OGMS:0000031	100-107
+disease	DOID:4,OGMS:0000031	768-775
+second	UO:0000010	122-128
+second	UO:0000010	459-465
+cancer	DOID:162	137-143
+cancer	DOID:162	409-415
+cancer	DOID:162	474-480
+cancer	DOID:162	711-717
+death	OAE:0000632	148-153
+death	OAE:0000632	634-639
+death	OAE:0000632	882-887
+breast	UBERON:0000310	318-324
+breast	UBERON:0000310	402-408
+breast	UBERON:0000310	625-631
+breast cancer	DOID:1612	402-415
+ductal carcinoma in situ	HP:0030075,DOID:0060074	427-451
+basal cell carcinoma	HP:0002671,DOID:2513	504-524
+melanoma	HP:0002861,DOID:1909	538-546
+carcinoma	HP:0030731,DOID:305	434-443
+carcinoma	HP:0030731,DOID:305	515-524
+carcinoma	HP:0030731,DOID:305	556-565
+carcinoma	HP:0030731,DOID:305	600-609
+lobular carcinoma in situ	HP:0030076,DOID:3010	592-617
+adjuvant	CHEBI:60809	718-726
+Time frame: From randomization until date of the first occurrence of an objective disease recurrence, a second primary cancer, or death from any cause (assessed up to 6 years; 1 year of treatment, 5 years of follow-up [median of 5.3 years for final analysis])	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	82-89
+second	UO:0000010	104-110
+cancer	DOID:162	119-125
+death	OAE:0000632	130-135
+year	UO:0000036	169-173
+year	UO:0000036	178-182
+year	UO:0000036	199-203
+year	UO:0000036	233-237
+median	BAO:0002174	219-225
+Results 1:	Results	4
+Arm/Group Title: Lapatinib 1500 mg	Results	5
+lapatinib	CHEBI:49603	17-26
+Arm/Group Description: Participants received lapatinib 1500 milligrams (mg) orally once daily. Treatment was continued for a maximum of 12 months or until disease recurrence or development of a second primary cancer, withdrawal from study treatment due to unacceptable toxicity, or consent withdrawal.	Results	6
+lapatinib	CHEBI:49603	45-54
+disease	DOID:4,OGMS:0000031	155-162
+second	UO:0000010	194-200
+cancer	DOID:162	209-215
+Overall Number of Participants Analyzed: 1571	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  Any recurrence or death: 252	Results	9
+death	OAE:0000632	49-54
+Censored, New Anti-cancer Agent/Radiotherapy: 1	Results	10
+Censored, Follow-up Ended: 1318	Results	11
+Results 2:	Results	12
+Arm/Group Title: Placebo	Results	13
+Arm/Group Description: Participants received matching placebo orally once daily. Treatment was continued for a maximum of 12 months or until disease recurrence or development of a second primary cancer, withdrawal from study treatment due to unacceptable toxicity, or consent withdrawal.	Results	14
+disease	DOID:4,OGMS:0000031	141-148
+second	UO:0000010	180-186
+cancer	DOID:162	195-201
+Overall Number of Participants Analyzed: 1576	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: Participants  Any recurrence or death: 290	Results	17
+death	OAE:0000632	49-54
+Censored, New Anti-cancer Agent/Radiotherapy: 1	Results	18
+Censored, Follow-up Ended: 1285	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 99/1573 (6.29%)	Adverse Events	1
+Neutropenia 2/1573 (0.13%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Left ventricular dysfunction 3/1573 (0.19%)	Adverse Events	3
+left	HP:0012835	0-4
+Cardiac failure 0/1573 (0.00%)	Adverse Events	4
+Myocardial infarction 2/1573 (0.13%)	Adverse Events	5
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Acute myocardial infarction 0/1573 (0.00%)	Adverse Events	6
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 0/1573 (0.00%)	Adverse Events	7
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrioventricular block first degree 1/1573 (0.06%)	Adverse Events	8
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Myocardial ischaemia 0/1573 (0.00%)	Adverse Events	9
+Pericardial effusion 1/1573 (0.06%)	Adverse Events	10
+pericardial effusion	HP:0001698,DOID:118	0-20
+Adverse Events 2:	Adverse Events	11
+Total: 78/1574 (4.96%)	Adverse Events	12
+Neutropenia 0/1574 (0.00%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	0-11
+Left ventricular dysfunction 1/1574 (0.06%)	Adverse Events	14
+left	HP:0012835	0-4
+Cardiac failure 3/1574 (0.19%)	Adverse Events	15
+Myocardial infarction 0/1574 (0.00%)	Adverse Events	16
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Acute myocardial infarction 1/1574 (0.06%)	Adverse Events	17
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 1/1574 (0.06%)	Adverse Events	18
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrioventricular block first degree 0/1574 (0.00%)	Adverse Events	19
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Myocardial ischaemia 1/1574 (0.06%)	Adverse Events	20
+Pericardial effusion 0/1574 (0.00%)	Adverse Events	21
+pericardial effusion	HP:0001698,DOID:118	0-20

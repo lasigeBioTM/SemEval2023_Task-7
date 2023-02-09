@@ -1,0 +1,114 @@
+INTERVENTION 1:	Intervention	0
+Carotuximab (TRC105) Plus Capecitabine	Intervention	1
+capecitabine	CHEBI:31348	26-38
+All patients received TRC105 + capecitabine TRC105: IV (7.5 or 10 mg/kg weekly) Capecitabine: oral (1,000 mg/m2 BID)	Intervention	2
+capecitabine	CHEBI:31348	31-43
+capecitabine	CHEBI:31348	80-92
+Inclusion Criteria:	Eligibility	0
+Histologically proven advanced solid cancer for which curative therapy is not available (Part 1 only)	Eligibility	1
+cancer	DOID:162	37-43
+Histologically proven metastatic Her-2-negative breast cancer (Part 2 only)	Eligibility	2
+breast cancer	DOID:1612	48-61
+Measurable disease by RECIST 1.1 criteria (Part 2 only)	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+Willing and able to consent for self to participate in study	Eligibility	4
+Progressive or recurrent disease after prior systemic chemotherapy regimen	Eligibility	5
+progressive	HP:0003676	0-11
+recurrent	HP:0031796	15-24
+disease	DOID:4,OGMS:0000031	25-32
+Age  18 years	Eligibility	6
+age	PATO:0000011	0-3
+ECOG performance status of 0 or 1	Eligibility	7
+Resolution of all acute toxic effects of prior therapy to NCI CTCAE Grade  1 or baseline (except alopecia)	Eligibility	8
+acute	HP:0011009,PATO:0000389	18-23
+alopecia	HP:0001596,DOID:987	97-105
+Adequate organ function	Eligibility	9
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	10
+Prior treatment with more than one systemic chemotherapy regimen for metastatic disease.	Eligibility	11
+disease	DOID:4,OGMS:0000031	80-87
+Prior treatment with TRC105	Eligibility	12
+History of hypersensitivity reaction to antimetabolite therapy	Eligibility	13
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+antimetabolite	CHEBI:35221	40-54
+Receipt of an investigational agent within 28 days of starting study treatment	Eligibility	14
+Prior surgery (including open biopsy), radiation therapy or systemic therapy within 28 days of starting study treatment	Eligibility	15
+surgery	OAE:0000067	6-13
+Minor surgical procedures within 14 days prior to first dose of TRC105	Eligibility	16
+History of brain metastasis, spinal cord compression, or carcinomatous meningitis, or new evidence of brain or leptomeningeal disease	Eligibility	17
+history	BFO:0000182	0-7
+brain	UBERON:0000955	11-16
+brain	UBERON:0000955	102-107
+spinal cord compression	HP:0002176	29-52
+meningitis	HP:0001287,DOID:9471	71-81
+disease	DOID:4,OGMS:0000031	126-133
+Angina, MI, symptomatic congestive heart failure, cerebrovascular accident, transient ischemic attack, arterial embolism, pulmonary embolism, DVT, PTCA or CABG within the past 6 months	Eligibility	18
+congestive heart failure	HP:0001635,DOID:6000	24-48
+transient ischemic attack	HP:0002326,DOID:224	76-101
+pulmonary embolism	HP:0002204,DOID:9477	122-140
+Uncontrolled chronic hypertension defined as systolic > 140 or diastolic > 90 despite optimal therapy	Eligibility	19
+chronic	HP:0011010	13-20
+hypertension	HP:0000822,DOID:10763	21-33
+Past medical history of acquired or inherited coagulopathy including patients with known hereditary hemorrhagic telangiectasia	Eligibility	20
+past medical history	HP:0032443	0-20
+hereditary hemorrhagic telangiectasia	DOID:1270	89-126
+Thrombolytic or anticoagulant use (except to maintain i.v. catheters) within 10 days prior to first dose with TRC105	Eligibility	21
+anticoagulant	CHEBI:50249	16-29
+Cardiac dysrhythmias of NCI CTCAE Grade  2 within the last month	Eligibility	22
+month	UO:0000035	59-64
+Hemorrhage within 28 days of starting study treatment	Eligibility	23
+Unhealed wounds within 28 days of starting study treatment	Eligibility	24
+History of peptic ulcer disease or gastritis within the past 6 months, unless treated for the condition and complete resolution has been documented by esophagogastroduodenoscopy (EGD) within 28 days of starting study treatment	Eligibility	25
+history	BFO:0000182	0-7
+peptic ulcer disease	DOID:750	11-31
+gastritis	HP:0005263,DOID:4029	35-44
+condition	PDRO:0000129	94-103
+Known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness	Eligibility	26
+immunodeficiency	HP:0002721	12-28
+immunodeficiency	HP:0002721	53-69
+virus	BAO:0000232	29-34
+acquired immunodeficiency syndrome	DOID:635	44-78
+Known active viral or nonviral hepatitis	Eligibility	27
+active	PATO:0002354	6-12
+hepatitis	HP:0012115,DOID:2237	31-40
+History of hypersensitivity reaction to human or mouse antibody products	Eligibility	28
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+antibody	GO:0042571,BAO:0000502	55-63
+Lung cancer with central chest lesions	Eligibility	29
+lung cancer	DOID:1324	0-11
+central	HP:0030645	17-24
+chest	UBERON:0001443	25-30
+Pregnancy or breastfeeding	Eligibility	30
+Outcome Measurement:	Results	0
+Determine Maximum Tolerated Dose of TRC105 in Combination With Capecitabine	Results	1
+capecitabine	CHEBI:31348	63-75
+Assess safety and dose limiting toxicity by dose cohort and coding all terms utilized MedDRA version 14.1.	Results	2
+Time frame: 1.5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Carotuximab (TRC105) Plus Capecitabine	Results	5
+capecitabine	CHEBI:31348	43-55
+Arm/Group Description: All patients received TRC105 + capecitabine TRC105: IV (7.5 or 10 mg/kg weekly) Capecitabine: oral (1,000 mg/m2 BID)	Results	6
+capecitabine	CHEBI:31348	54-66
+capecitabine	CHEBI:31348	103-115
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Patients with DLT at 7.5 mg/kg: 0   0.0%	Results	9
+Patients without DLT at 7.5 mg/kg: 3  50.0%	Results	10
+Patients with DLT at 10 mg/kg: 0   0.0%	Results	11
+Patients without DLT at 10 mg/kg: 3  50.0%	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 6/19 (31.58%)	Adverse Events	1
+Febrile neutropenia  [1]1/19 (5.26%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Fatigue  [1]1/19 (5.26%)	Adverse Events	3
+fatigue	HP:0012378	0-7
+Pyrexia  [1]1/19 (5.26%)	Adverse Events	4
+Fracture  [1]1/19 (5.26%)	Adverse Events	5
+Hip Fracture  [1]1/19 (5.26%)	Adverse Events	6
+hip	UBERON:0001464	0-3
+Headache  [2]1/19 (5.26%)	Adverse Events	7
+headache	HP:0002315	0-8

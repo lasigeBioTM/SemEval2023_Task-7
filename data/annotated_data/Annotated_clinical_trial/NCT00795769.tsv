@@ -1,0 +1,62 @@
+INTERVENTION 1:	Intervention	0
+Ondansetron Therapy	Intervention	1
+ondansetron	CHEBI:7773	0-11
+Patients receive 16mg ondansetron IV once 30-60 minutes before undergoing autologous peripheral blood stem cell transplantation.	Intervention	2
+ondansetron	CHEBI:7773	22-33
+peripheral	HP:0030646	85-95
+blood	UBERON:0000178	96-101
+ondansetron: Given IV	Intervention	3
+ondansetron	CHEBI:7773	0-11
+survey administration: Correlative studies	Intervention	4
+management of therapy complications: Ondansetron IV	Intervention	5
+ondansetron	CHEBI:7773	37-48
+Inclusion	Eligibility	0
+Autologous PBSC transplant patient	Eligibility	1
+patient	HADO:0000008,OAE:0001817	27-34
+English-speaking	Eligibility	2
+Planned cryopreserved PBSC infusion at the SCCA outpatient clinic	Eligibility	3
+Exclusion	Eligibility	4
+History of prior autologous transplant	Eligibility	5
+history	BFO:0000182	0-7
+Non-English-speaking	Eligibility	6
+Planned cryopreserved PBSC infusion at the UWMC inpatient unit	Eligibility	7
+Infusion of cryopreserved PBSC that are thawed and washed to remove DMSO prior to infusion	Eligibility	8
+dmso	CHEBI:28262,BAO:0000118	68-72
+Allergy or adverse reaction to ondansetron	Eligibility	9
+allergy	HP:0012393	0-7
+ondansetron	CHEBI:7773	31-42
+Outcome Measurement:	Results	0
+Reduction in Rates of Nausea or Vomiting After Ondansetron (Compared to FHCRC Historical Rates)	Results	1
+nausea	HP:0002018	22-28
+vomiting	HP:0002013	32-40
+ondansetron	CHEBI:7773	47-58
+Nausea Multinational Association of Supportive Care in Cancer Antiemesis Tool™ (MAT). Increased MAT scores represent worse outcome (score 0-10). Vomiting represented as present or absent.	Results	2
+nausea	HP:0002018	0-6
+cancer	DOID:162	55-61
+vomiting	HP:0002013	145-153
+present	PATO:0000467	109-116
+present	PATO:0000467	156-163
+present	PATO:0000467	169-176
+absent	PATO:0000462	180-186
+Time frame: Baseline up to 120 minutes	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ondansetron Therapy	Results	5
+ondansetron	CHEBI:7773	17-28
+Arm/Group Description: Patients receive 16mg ondansetron IV once 30-60 minutes before undergoing autologous peripheral blood stem cell transplantation.	Results	6
+ondansetron	CHEBI:7773	45-56
+peripheral	HP:0030646	108-118
+blood	UBERON:0000178	119-124
+ondansetron: Given IV	Results	7
+ondansetron	CHEBI:7773	0-11
+survey administration: Correlative studies	Results	8
+management of therapy complications: Ondansetron IV	Results	9
+ondansetron	CHEBI:7773	37-48
+Overall Number of Participants Analyzed: 49	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  MAT score >2 on arrival and pre-ondansetron: 23  46.9%	Results	12
+Baseline MAT score >2 prior to first ASCT infusion: 9  18.4%	Results	13
+MAT score increases >2 by end of infusion: 12  24.5%	Results	14
+Number of patients that vomited: 9  18.4%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/49 (0.00%)	Adverse Events	1

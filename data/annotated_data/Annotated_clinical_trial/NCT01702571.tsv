@@ -1,0 +1,150 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab Emtansine (All Participants)	Intervention	1
+This cohort (Cohort 1) enrolled all participants with HER2 positive, unresectable, LABC or mBC who had received prior anti-HER2 and chemotherapy treatment and had progressed on or after the most recent treatment for LABC or mBC, or within 6 months of completing adjuvant therapy. Participants received trastuzumab emtansine every 3 weeks until unacceptable toxicity, withdrawal of consent, or disease progression.	Intervention	2
+adjuvant	CHEBI:60809	262-270
+disease	DOID:4,OGMS:0000031	393-400
+INTERVENTION 2:	Intervention	3
+Trastuzumab Emtansine (Asian Participants)	Intervention	4
+This cohort (Cohort 2) enrolled Asian race participants with HER2-positive, unresectable, LABC or mBC who had received prior anti-HER2 and chemotherapy treatment and had progressed on or after the most recent treatment for LABC or mBC, or within 6 months of completing adjuvant therapy. Participants received trastuzumab emtansine every 3 weeks until unacceptable toxicity, withdrawal of consent, or disease progression.	Intervention	5
+adjuvant	CHEBI:60809	269-277
+disease	DOID:4,OGMS:0000031	400-407
+Inclusion Criteria:	Eligibility	0
+HER2-positive disease determined locally	Eligibility	1
+disease	DOID:4,OGMS:0000031	14-21
+Histologically or cytologically confirmed invasive breast cancer	Eligibility	2
+breast cancer	DOID:1612	51-64
+Prior treatment for breast cancer in the adjuvant, unresectable, locally advanced or metastatic setting must include both chemotherapy, alone or in combination with another agent, and an anti-HER2 agent, alone or in combination with another agent	Eligibility	3
+breast cancer	DOID:1612	20-33
+adjuvant	CHEBI:60809	41-49
+Documented progression of incurable, unresectable, LABC, or mBC, defined by the investigator: progression must occur during or after most recent treatment for LABC/mBC or within 6 months of completing adjuvant therapy	Eligibility	4
+adjuvant	CHEBI:60809	201-209
+Measurable and/or non-measurable disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	33-40
+Left ventricular ejection fraction (LVEF) >/=50% by either echocardiogram (ECHO) or multiple-gated acquisition scan (MUGA)	Eligibility	6
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Eastern Cooperative Oncology Group (ECOG) performance status of 0,1 or 2	Eligibility	7
+group	CHEBI:24433	29-34
+Adequate organ function	Eligibility	8
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Use of highly effective contraception as defined by the protocol	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+History of treatment with trastuzumab emtansine	Eligibility	11
+history	BFO:0000182	0-7
+Prior enrollment into a clinical study containing trastuzumab emtansine regardless of having received trastuzumab emtansine or not	Eligibility	12
+Peripheral neuropathy of Grade >/= 3 per National Cancer Institute (NCI) common terminology criteria for adverse events (CTCAE) v 4.0	Eligibility	13
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+cancer	DOID:162	50-56
+History of other malignancy within the previous 5 years, except for appropriately treated carcinoma in situ of the cervix, non-melanoma skin carcinoma, Stage 1 uterine cancer, synchronous or previously diagnosed HER2-positive breast cancer	Eligibility	14
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	90-99
+carcinoma	HP:0030731,DOID:305	141-150
+skin carcinoma	DOID:3451	136-150
+uterine cancer	DOID:363	160-174
+breast cancer	DOID:1612	226-239
+History of receiving any anti-cancer drug/biologic or investigational treatment within 21 days prior to first study treatment except hormone therapy, which can be given up to 7 days prior to first study treatment; recovery of treatment-related toxicity consistent with other eligibility criteria	Eligibility	15
+history	BFO:0000182	0-7
+hormone	CHEBI:24621	133-140
+History of exposure to cumulative doses of anthracyclines	Eligibility	16
+history	BFO:0000182	0-7
+History of radiation therapy within 14 days of first study treatment. The participant must have recovered from any resulting acute toxicity (to Grade </=1) prior to first study treatment.	Eligibility	17
+history	BFO:0000182	0-7
+acute	HP:0011009,PATO:0000389	125-130
+Metastatic central nervous system (CNS) disease only	Eligibility	18
+central nervous system	UBERON:0001017	11-33
+disease	DOID:4,OGMS:0000031	40-47
+Brain metastases which are symptomatic	Eligibility	19
+brain	UBERON:0000955	0-5
+History of a decrease in LVEF to less than (<) 40% or symptomatic congestive heart failure (CHF) with previous trastuzumab treatment	Eligibility	20
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	66-90
+History of symptomatic CHF (New York Heart Association [NYHA] Classes II-IV) or serious cardiac arrhythmia requiring treatment	Eligibility	21
+history	BFO:0000182	0-7
+heart	UBERON:0000948	37-42
+arrhythmia	HP:0011675	96-106
+History of myocardial infarction or unstable angina within 6 months of first study treatment	Eligibility	22
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+Current dyspnea at rest due to complications of advanced malignancy or requirement for continuous oxygen therapy	Eligibility	23
+dyspnea	HP:0002094	8-15
+Current severe, uncontrolled systemic disease (clinically significant cardiovascular, pulmonary, or metabolic disease)	Eligibility	24
+severe	HP:0012828	8-14
+disease	DOID:4,OGMS:0000031	38-45
+disease	DOID:4,OGMS:0000031	110-117
+Pregnancy or lactation	Eligibility	25
+lactation	GO:0007595	13-22
+Currently known active infection with human immunodeficiency virus (HIV), hepatitis B virus, or hepatitis C virus	Eligibility	26
+active	PATO:0002354	16-22
+immunodeficiency	HP:0002721	44-60
+virus	BAO:0000232	61-66
+virus	BAO:0000232	86-91
+virus	BAO:0000232	108-113
+hepatitis b	DOID:2043	74-85
+hepatitis c	DOID:1883	96-107
+History of intolerance (such as Grade 3-4 infusion reaction) or hypersensitivity to trastuzumab or murine proteins or any component of the product	Eligibility	27
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	64-80
+product	BAO:0003067	139-146
+Outcome Measurement:	Results	0
+Percentage of Participants With Adverse Events of Primary Interest (AEPIs)	Results	1
+The AEPIs in this study were defined as the following: adverse events (AEs) Grade >/= 3, specifically, hepatic events, allergic reactions, thrombocytopenia and hemorrhage events, all Grade >/= 3 AEs related to trastuzumab emtansine and pneumonitis events of all grades.	Results	2
+thrombocytopenia	HP:0001873,DOID:1588	139-155
+Time frame: Baseline up to approximately 7 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab Emtansine (All Participants)	Results	5
+Arm/Group Description: This cohort (Cohort 1) enrolled all participants with HER2 positive, unresectable, LABC or mBC who had received prior anti-HER2 and chemotherapy treatment and had progressed on or after the most recent treatment for LABC or mBC, or within 6 months of completing adjuvant therapy. Participants received trastuzumab emtansine every 3 weeks until unacceptable toxicity, withdrawal of consent, or disease progression.	Results	6
+adjuvant	CHEBI:60809	285-293
+disease	DOID:4,OGMS:0000031	416-423
+Overall Number of Participants Analyzed: 2002	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  23.1        (21.2 to 25.0)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab Emtansine (Asian Participants)	Results	11
+Arm/Group Description: This cohort (Cohort 2) enrolled Asian race participants with HER2-positive, unresectable, LABC or mBC who had received prior anti-HER2 and chemotherapy treatment and had progressed on or after the most recent treatment for LABC or mBC, or within 6 months of completing adjuvant therapy. Participants received trastuzumab emtansine every 3 weeks until unacceptable toxicity, withdrawal of consent, or disease progression.	Results	12
+adjuvant	CHEBI:60809	292-300
+disease	DOID:4,OGMS:0000031	423-430
+Overall Number of Participants Analyzed: 181	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of Participants  51.4        (43.9 to 58.9)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 427/2002 (21.33%)	Adverse Events	1
+ANAEMIA 13/2002 (0.65%)	Adverse Events	2
+BONE MARROW FAILURE 1/2002 (0.05%)	Adverse Events	3
+bone marrow	UBERON:0002371	0-11
+DISSEMINATED INTRAVASCULAR COAGULATION 1/2002 (0.05%)	Adverse Events	4
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+FEBRILE NEUTROPENIA 1/2002 (0.05%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+THROMBOCYTOPENIA 11/2002 (0.55%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ACUTE CORONARY SYNDROME 3/2002 (0.15%)	Adverse Events	7
+acute coronary syndrome	HP:0033678	0-23
+ANGINA PECTORIS 1/2002 (0.05%)	Adverse Events	8
+angina pectoris	HP:0001681	0-15
+CARDIAC ARREST 1/2002 (0.05%)	Adverse Events	9
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+CARDIAC FAILURE 1/2002 (0.05%)	Adverse Events	10
+CARDIAC TAMPONADE 1/2002 (0.05%)	Adverse Events	11
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Adverse Events 2:	Adverse Events	12
+Total: 36/181 (19.89%)	Adverse Events	13
+ANAEMIA 0/181 (0.00%)	Adverse Events	14
+BONE MARROW FAILURE 0/181 (0.00%)	Adverse Events	15
+bone marrow	UBERON:0002371	0-11
+DISSEMINATED INTRAVASCULAR COAGULATION 0/181 (0.00%)	Adverse Events	16
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+FEBRILE NEUTROPENIA 0/181 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+THROMBOCYTOPENIA 10/181 (5.52%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ACUTE CORONARY SYNDROME 1/181 (0.55%)	Adverse Events	19
+acute coronary syndrome	HP:0033678	0-23
+ANGINA PECTORIS 0/181 (0.00%)	Adverse Events	20
+angina pectoris	HP:0001681	0-15
+CARDIAC ARREST 0/181 (0.00%)	Adverse Events	21
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+CARDIAC FAILURE 0/181 (0.00%)	Adverse Events	22
+CARDIAC TAMPONADE 0/181 (0.00%)	Adverse Events	23
+cardiac tamponade	HP:0033415,DOID:115	0-17

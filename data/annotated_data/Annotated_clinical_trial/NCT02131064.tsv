@@ -1,0 +1,145 @@
+INTERVENTION 1:	Intervention	0
+TCH + P	Intervention	1
+p	CHEBI:17802,BAO:0002175	6-7
+Participants received pertuzumab 840 milligrams (mg) (loading dose) and 420 mg (maintenance dose) intravenous (IV) infusion, trastuzumab 8 milligrams per kilogram (mg/kg) (loading dose) and 6 mg/kg (maintenance dose) IV infusion, docetaxel 75 milligrams per square meter (mg/m^2) IV infusion and carboplatin at a dose to achieve an area under the curve (AUC) of 6 milligrams per milliliter* minute (mg/mL*min) IV infusion every 3 weeks (q3w) for 6 cycles in neoadjuvant period. Participants received pertuzumab 840 mg (loading dose) and 420 mg (maintenance dose) IV infusion followed by trastuzumab 8 mg/kg (loading dose) and 6 mg/kg (maintenance dose) IV infusion q3w for rest of the cycles (12 cycles) in adjuvant period (up to a total of 18 cycles).	Intervention	2
+meter	UO:0000008	265-270
+carboplatin	CHEBI:31355	296-307
+area	PATO:0001323	332-336
+auc	BAO:0002120	354-357
+minute	UO:0000031	391-397
+adjuvant	CHEBI:60809	461-469
+adjuvant	CHEBI:60809	707-715
+INTERVENTION 2:	Intervention	3
+T-DM1 + P	Intervention	4
+p	CHEBI:17802,BAO:0002175	8-9
+Participants received pertuzumab 840 mg (loading dose) and 420 mg (maintenance dose) IV infusion followed by trastuzumab emtansine 3.6 mg/kg IV infusion q3w for a total of 18 cycles (6 cycles of neoadjuvant period and 12 cycles of adjuvant period).	Intervention	5
+adjuvant	CHEBI:60809	198-206
+adjuvant	CHEBI:60809	231-239
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed invasive breast cancer with a primary tumor size of greater than (>) 2 cm	Eligibility	1
+breast cancer	DOID:1612	34-47
+size	PATO:0000117	69-73
+HER2-positive breast cancer	Eligibility	2
+breast cancer	DOID:1612	14-27
+Participants with multifocal tumors (more than one tumor confined to the same quadrant as the primary tumor) are eligible provided all discrete lesions are sampled and centrally confirmed as HER2 positive	Eligibility	3
+multifocal	HP:0030651	18-28
+Stage at presentation: cT2-cT4, cN0-cN3, cM0, according to American Joint Committee on Cancer (AJCC) staging system	Eligibility	4
+cancer	DOID:162	87-93
+Known hormone receptor status of the primary tumor	Eligibility	5
+hormone	CHEBI:24621	6-13
+receptor	BAO:0000281	14-22
+Participant agreement to undergo mastectomy or breast-conserving surgery after neoadjuvant therapy	Eligibility	6
+surgery	OAE:0000067	65-72
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	7
+group	CHEBI:24433	29-34
+Baseline Left Ventricular Ejection Fraction (LVEF) >/= 55 percent (%) measured by echocardiogram (ECHO) or multiple-gated acquisition (MUGA)	Eligibility	8
+left	HP:0012835	9-13
+ejection fraction	CMO:0000180	26-43
+percent	UO:0000187	58-65
+Effective contraception as defined by protocol	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+Stage IV (metastatic) breast cancer	Eligibility	11
+breast cancer	DOID:1612	22-35
+Participants who have received prior anti-cancer therapy for breast cancer except those participants with a history of breast lobular carcinoma in situ (LCIS) that was surgically managed or ductal carcinoma in situ (DCIS) treated exclusively with mastectomy. In case of prior history of LCIS/DCIS, >5 years must have passed from surgery until diagnosis of current breast cancer	Eligibility	12
+breast cancer	DOID:1612	61-74
+breast cancer	DOID:1612	364-377
+history	BFO:0000182	108-115
+history	BFO:0000182	276-283
+breast lobular carcinoma	DOID:0050938	119-143
+lobular carcinoma in situ	HP:0030076,DOID:3010	126-151
+ductal carcinoma in situ	HP:0030075,DOID:0060074	190-214
+surgery	OAE:0000067	329-336
+Participants with multicentric (multiple tumors involving more than 1 quadrant) or bilateral breast cancer	Eligibility	13
+bilateral breast cancer	DOID:6741	83-106
+Participants who have undergone incisional and/or excisional biopsy of primary tumor and/or axillary lymph nodes	Eligibility	14
+lymph	UBERON:0002391	101-106
+Axillary lymph node dissection or positive sentinel lymph node prior to start of neoadjuvant therapy	Eligibility	15
+lymph	UBERON:0002391	9-14
+lymph	UBERON:0002391	52-57
+History of concurrent or previously non-breast malignancies except for appropriately treated (1) non-melanoma skin cancer and (2) in situ carcinomas, including cervix, colon, and skin. A participant with previous invasive non-breast cancer is eligible provided he/she has been disease-free >/= 5 years	Eligibility	16
+history	BFO:0000182	0-7
+skin cancer	DOID:4159	110-121
+colon	UBERON:0001155	168-173
+cancer	DOID:162	115-121
+cancer	DOID:162	233-239
+Treatment with any investigational drug within 28 days prior to randomization	Eligibility	17
+drug	CHEBI:23888	35-39
+Current National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) version (v) 4.0	Eligibility	18
+cancer	DOID:162	17-23
+Any significant concurrent medical or surgical conditions or findings that would jeopardize the participant's safety or ability to complete the study	Eligibility	19
+Current pregnancy or breastfeeding	Eligibility	20
+Outcome Measurement:	Results	0
+Percentage of Participants With Total Pathological Complete Response (tpCR) Assessed Based on Tumor Samples	Results	1
+tpCR was assessed by local pathology review on samples taken at surgery following completion of neoadjuvant therapy. tpCR was defined as the absence of any residual invasive cancer on hematoxylin and eosin evaluation of the resected breast specimen and all sampled ipsilateral lymph nodes ( that is [i.e.], ypT0/is, ypN0 in the American Joint Committee on Cancer [AJCC] staging system, 7th edition). Percentage of participants with tpCR was reported.	Results	2
+surgery	OAE:0000067	64-71
+cancer	DOID:162	174-180
+cancer	DOID:162	356-362
+breast	UBERON:0000310	233-239
+lymph	UBERON:0002391	277-282
+Time frame: Pre-surgery (within 6 weeks after neoadjuvant therapy; up to approximately 6 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: TCH + P	Results	5
+p	CHEBI:17802,BAO:0002175	8-9
+p	CHEBI:17802,BAO:0002175	23-24
+Arm/Group Description: Participants received pertuzumab 840 milligrams (mg) (loading dose) and 420 mg (maintenance dose) intravenous (IV) infusion, trastuzumab 8 milligrams per kilogram (mg/kg) (loading dose) and 6 mg/kg (maintenance dose) IV infusion, docetaxel 75 milligrams per square meter (mg/m^2) IV infusion and carboplatin at a dose to achieve an area under the curve (AUC) of 6 milligrams per milliliter* minute (mg/mL*min) IV infusion every 3 weeks (q3w) for 6 cycles in neoadjuvant period. Participants received pertuzumab 840 mg (loading dose) and 420 mg (maintenance dose) IV infusion followed by trastuzumab 8 mg/kg (loading dose) and 6 mg/kg (maintenance dose) IV infusion q3w for rest of the cycles (12 cycles) in adjuvant period (up to a total of 18 cycles).	Results	6
+meter	UO:0000008	288-293
+carboplatin	CHEBI:31355	319-330
+area	PATO:0001323	355-359
+auc	BAO:0002120	377-380
+minute	UO:0000031	414-420
+adjuvant	CHEBI:60809	484-492
+adjuvant	CHEBI:60809	730-738
+Overall Number of Participants Analyzed: 221	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  56.1        (49.29 to 62.76)	Results	9
+Results 2:	Results	10
+Arm/Group Title: T-DM1 + P	Results	11
+p	CHEBI:17802,BAO:0002175	8-9
+p	CHEBI:17802,BAO:0002175	25-26
+Arm/Group Description: Participants received pertuzumab 840 mg (loading dose) and 420 mg (maintenance dose) IV infusion followed by trastuzumab emtansine 3.6 mg/kg IV infusion q3w for a total of 18 cycles (6 cycles of neoadjuvant period and 12 cycles of adjuvant period).	Results	12
+adjuvant	CHEBI:60809	221-229
+adjuvant	CHEBI:60809	254-262
+Overall Number of Participants Analyzed: 223	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of Participants  44.4        (37.76 to 51.18)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 70/219 (31.96%)	Adverse Events	1
+Anaemia * 0/219 (0.00%)	Adverse Events	2
+Febrile neutropenia * 26/219 (11.87%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 7/219 (3.20%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 1/219 (0.46%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure * 2/219 (0.91%)	Adverse Events	6
+Sinus tachycardia * 1/219 (0.46%)	Adverse Events	7
+sinus tachycardia	HP:0011703	0-17
+Left ventricular dysfunction * 2/219 (0.91%)	Adverse Events	8
+left	HP:0012835	0-4
+Abdominal pain * 1/219 (0.46%)	Adverse Events	9
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper * 1/219 (0.46%)	Adverse Events	10
+abdominal pain	HP:0002027	0-14
+Colitis * 3/219 (1.37%)	Adverse Events	11
+colitis	HP:0002583,DOID:0060180	0-7
+Adverse Events 2:	Adverse Events	12
+Total: 30/223 (13.45%)	Adverse Events	13
+Anaemia * 3/223 (1.35%)	Adverse Events	14
+Febrile neutropenia * 3/223 (1.35%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/223 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 1/223 (0.45%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure * 1/223 (0.45%)	Adverse Events	18
+Sinus tachycardia * 0/223 (0.00%)	Adverse Events	19
+sinus tachycardia	HP:0011703	0-17
+Left ventricular dysfunction * 0/223 (0.00%)	Adverse Events	20
+left	HP:0012835	0-4
+Abdominal pain * 0/223 (0.00%)	Adverse Events	21
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper * 0/223 (0.00%)	Adverse Events	22
+abdominal pain	HP:0002027	0-14
+Colitis * 0/223 (0.00%)	Adverse Events	23
+colitis	HP:0002583,DOID:0060180	0-7

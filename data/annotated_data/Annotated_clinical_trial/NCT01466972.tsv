@@ -1,0 +1,208 @@
+INTERVENTION 1:	Intervention	0
+Pazopanib in Combination With a NSAI	Intervention	1
+pazopanib	CHEBI:71219	0-9
+Non-randomized, open label	Intervention	2
+label	CHEBI:35209,label	21-26
+Pazopanib: Oral, 800mg tablet daily per cycle	Intervention	3
+pazopanib	CHEBI:71219	0-9
+Inclusion Criteria:	Eligibility	0
+Subjects must provide written informed consent prior to performance of study specific procedures or assessments, and must be willing to comply with treatment and follow up.	Eligibility	1
+- Procedures conducted as a part of routine clinical management of the subject (e.g., blood count, imaging study) and obtained prior to signed informed consent may be utilized for Screening or Baseline purposes provided these tests are obtained as specified in the protocol).	Eligibility	2
+part of	BAO:0090002,BFO:0000050	28-35
+blood	UBERON:0000178	86-91
+Subjects must have measurable or evaluable disease. Disease sites that are evaluable for progression but not measurable per RECIST guidelines include:	Eligibility	3
+disease	DOID:4,OGMS:0000031	43-50
+disease	DOID:4,OGMS:0000031	52-59
+Bone lesions	Eligibility	4
+Previously irradiated lesions	Eligibility	5
+Cutaneous manifestations (non-discreet lesions only)	Eligibility	6
+Age  18 years.	Eligibility	7
+age	PATO:0000011	0-3
+Postmenopausal women defined by one of the criteria:	Eligibility	8
+No spontaneous menses for at least 12 months if the subject is  50 years old;	Eligibility	9
+Amenorrheic for at least 12 months if the subject is < 50 years old, with serum estradiol within the institutional postmenopausal range;	Eligibility	10
+estradiol	CHEBI:23965	80-89
+range	LABO:0000114	130-135
+Bilateral oophorectomy;	Eligibility	11
+bilateral	HP:0012832	0-9
+If prior hysterectomy but intact ovaries, must be  55 years old, or have serum estradiol within the postmenopausal range;	Eligibility	12
+estradiol	CHEBI:23965	79-88
+range	LABO:0000114	115-120
+If premenopausal, must be on a GnRH agonist (leuprolide or goserelin) with serum estradiol levels within the institutional postmenopausal range.	Eligibility	13
+agonist	CHEBI:48705	36-43
+leuprolide	CHEBI:6427	45-55
+goserelin	CHEBI:5523	59-68
+estradiol	CHEBI:23965	81-90
+range	LABO:0000114	138-143
+Eastern Cooperative Oncology Group (ECOG) performance status (PS)  2.	Eligibility	14
+group	CHEBI:24433	29-34
+Histologically or cytologically confirmed estrogen receptor (ER) and/or progesterone receptor (PgR) positive carcinoma of the breast with unresectable, locally advanced and/or metastatic (AJCC Stage IV) disease.	Eligibility	15
+estrogen	CHEBI:50114,BAO:0000760	42-50
+receptor	BAO:0000281	51-59
+receptor	BAO:0000281	85-93
+progesterone	CHEBI:17026	72-84
+carcinoma	HP:0030731,DOID:305	109-118
+breast	UBERON:0000310	126-132
+disease	DOID:4,OGMS:0000031	203-210
+Subjects must have received prior hormonal therapy for the treatment of breast cancer as follows:	Eligibility	16
+breast cancer	DOID:1612	72-85
+Progression must be documented while taking a nonsteroidal aromatase inhibitor including anastrozole or letrozole.	Eligibility	17
+inhibitor	CHEBI:35222	69-78
+anastrozole	CHEBI:2704	89-100
+letrozole	CHEBI:6413	104-113
+No more than 2 prior hormonal therapies for metastatic disease.	Eligibility	18
+disease	DOID:4,OGMS:0000031	55-62
+If hormonal therapy was administered in the adjuvant setting, subjects must have received therapy for at least 6 months prior to developing metastatic disease.	Eligibility	19
+adjuvant	CHEBI:60809	44-52
+disease	DOID:4,OGMS:0000031	151-158
+Note: A regimen of sequential tamoxifen/AI in the adjuvant setting is considered to be one therapy	Eligibility	20
+adjuvant	CHEBI:60809	50-58
+- If hormonal therapy was administered in the metastatic setting, subjects must have received therapy for at least 3 months prior to progression	Eligibility	21
+Subjects whose tumors overexpress ErbB2 are eligible provided that they have progressed following therapy which included trastuzumab and/or lapatinib.	Eligibility	22
+lapatinib	CHEBI:49603	140-149
+Note for prior lapatinib: Subjects must have completed therapy with lapatinib at least 7 days prior to the first dose of study drug.	Eligibility	23
+lapatinib	CHEBI:49603	15-24
+lapatinib	CHEBI:49603	68-77
+drug	CHEBI:23888	127-131
+Note for prior trastuzumab: Subjects who received Q3 weekly, Q2 weekly or Q1 weekly must have completed therapy with trastuzumab at least 3 weeks, 2 weeks or 1 week, respectively, prior to the first dose of study drug.	Eligibility	24
+week	UO:0000034	53-57
+week	UO:0000034	64-68
+week	UO:0000034	77-81
+week	UO:0000034	140-144
+week	UO:0000034	149-153
+week	UO:0000034	160-164
+drug	CHEBI:23888	213-217
+Adequate hematologic and hepatic function as defined in Protocol Table 1	Eligibility	25
+function	BAO:0003117,BFO:0000034	33-41
+Subjects must have discontinued hormone replacement therapy (HRT) (e.g., conjugated estrogens tablets, USP or premarin), at least 28 days prior to receiving the first dose of randomized therapy.	Eligibility	26
+hormone	CHEBI:24621	32-39
+Radiotherapy prior to initiation of therapy is allowed to a limited area (e.g., palliative treatment for painful bone metastases), if it is not the sole site of disease. Subjects must have completed treatment at least one week prior to starting study drugs, and must have recovered from all treatment-related toxicities.	Eligibility	27
+radiotherapy	OAE:0000235	0-12
+area	PATO:0001323	68-72
+site	BFO:0000029	153-157
+disease	DOID:4,OGMS:0000031	161-168
+week	UO:0000034	222-226
+Bisphosphonate or RANK ligand inhibitor therapy for bone metastases is allowed. Prophylactic use of bisphosphonates in subjects without bone disease, except for the treatment of osteoporosis, is not permitted;	Eligibility	28
+ligand	CHEBI:52214,GO:0005488	23-29
+inhibitor	CHEBI:35222	30-39
+bone disease	DOID:0080001	136-148
+osteoporosis	HP:0000939,DOID:11476	178-190
+Ability to swallow and retain oral medication.	Eligibility	29
+Exclusion Criteria:	Eligibility	30
+Prior use of pazopanib	Eligibility	31
+pazopanib	CHEBI:71219	13-22
+Premenopausal levels of estradiol, or ongoing menses (see definitions of menopause above).	Eligibility	32
+estradiol	CHEBI:23965	24-33
+menopause	GO:0042697	73-82
+Known central nervous system (CNS) metastases or leptomeningeal carcinomatosis. Screening with CNS imaging studies (computed tomography [CT] or magnetic resonance imaging [MRI]) is required only if the subject has clinical findings suggestive of CNS metastasis.	Eligibility	33
+central nervous system	UBERON:0001017	6-28
+tomography	BAO:0002525	125-135
+ct	BAO:0002125	137-139
+ct	BAO:0002125	207-209
+History of another active malignancy. Note: Subjects who have had another malignancy and have been disease-free for 5 years, or subjects with a history of completely resected non-melanomatous skin carcinoma or successfully treated in situ carcinoma are eligible.	Eligibility	34
+history	BFO:0000182	0-7
+history	BFO:0000182	144-151
+active	PATO:0002354	19-25
+skin carcinoma	DOID:3451	192-206
+in situ carcinoma	DOID:8719	231-248
+Clinically significant gastrointestinal abnormalities which might interfere with oral dosing, including, but not limited to:	Eligibility	35
+Malabsorption syndrome	Eligibility	36
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+Major resection of the stomach or small bowel that could affect the absorption of study drug	Eligibility	37
+stomach	UBERON:0000945	23-30
+drug	CHEBI:23888	88-92
+Inflammatory bowel disease	Eligibility	38
+inflammatory bowel disease	DOID:0050589	0-26
+Ulcerative colitis, or other gastrointestinal conditions with increased risk of perforation	Eligibility	39
+ulcerative colitis	HP:0100279,DOID:8577	0-18
+History of abdominal fistula, gastrointestinal perforation, or intra abdominal abscess within 28 days prior to beginning study treatment	Eligibility	40
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+Presence of uncontrolled infection.	Eligibility	41
+Prolongation of corrected QT interval (QTc) >480msecs.	Eligibility	42
+qt interval	CMO:0000235	26-37
+History of any one or more of the following cardiovascular conditions within the past 6 months:	Eligibility	43
+history	BFO:0000182	0-7
+Angioplasty or stenting	Eligibility	44
+Myocardial infarction	Eligibility	45
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Unstable angina	Eligibility	46
+Coronary artery by-pass graft surgery	Eligibility	47
+coronary artery	UBERON:0001621	0-15
+surgery	OAE:0000067	30-37
+Symptomatic peripheral vascular disease	Eligibility	48
+peripheral vascular disease	DOID:341	12-39
+Class II, III or IV congestive heart failure, as defined by the New York Heart Association (NYHA).	Eligibility	49
+congestive heart failure	HP:0001635,DOID:6000	20-44
+heart	UBERON:0000948	31-36
+heart	UBERON:0000948	73-78
+Use of an investigational agent, including an investigational anti-cancer agent, within 14 days prior to the first dose of study drug.	Eligibility	50
+drug	CHEBI:23888	129-133
+Prior use of an investigational drug that targets VEGF or VEGF receptors.	Eligibility	51
+drug	CHEBI:23888	32-36
+Any ongoing toxicity from prior anti-cancer therapy that is > Grade 1 and/or that is progressing in severity.	Eligibility	52
+severity	HP:0012824	100-108
+Poorly controlled hypertension (defined as systolic blood pressure (SBP) of 140mmHg or diastolic blood pressure (DBP) of  90mmHg).	Eligibility	53
+hypertension	HP:0000822,DOID:10763	18-30
+systolic blood pressure	CMO:0000004	43-66
+diastolic blood pressure	CMO:0000005	87-111
+Note: Initiation or adjustment of antihypertensive medication(s) is permitted prior to study entry. Blood pressure must be re-assessed prior to start of study therapy. The mean SBP/DBP values must be <140/90mmHg (OR 150/90mmHg, if this criterion is approved by Safety Review Team) in order for a subject to be eligible for the study.	Eligibility	54
+blood	UBERON:0000178	100-105
+mean	BAO:0002173	172-176
+History of cerebrovascular accident (CVA), pulmonary embolism or untreated deep venous thrombosis (DVT) within the past 6 months.	Eligibility	55
+history	BFO:0000182	0-7
+pulmonary embolism	HP:0002204,DOID:9477	43-61
+deep venous thrombosis	HP:0002625	75-97
+Note: Subjects with recent DVT who have been treated with therapeutic anti-coagulant agents for at least 6 weeks are eligible.	Eligibility	56
+Major surgery or trauma within 28 days prior to first dose of study drug and/or presence of any non-healing wound, fracture, or ulcer not related to cancer (procedures such as catheter placement not considered to be major).	Eligibility	57
+surgery	OAE:0000067	6-13
+drug	CHEBI:23888	68-72
+ulcer	OAE:0004372	128-133
+cancer	DOID:162	149-155
+Evidence of active bleeding or bleeding diathesis.	Eligibility	58
+active	PATO:0002354	12-18
+Any serious and/or unstable pre-existing medical, psychiatric, or other condition that could interfere with subject's safety, provision of informed consent, or compliance to study procedures	Eligibility	59
+condition	PDRO:0000129	72-81
+Outcome Measurement:	Results	0
+Number of Participants With Clinical Benefit (CB)	Results	1
+For the purpose of this study, participants who obtained a complete response (CR), partial response (PR), or stable disease (SD) at 12 weeks per Response Evaluation Criteria in Solid Tumors (RECIST) guidelines version 1.1 were defined as having a clinical benefit from the treatment. An overall response rate of 20% was considered to be clinically meaningful. All participants who take at least two weeks of study drug and the non-steroidal aromatase inhibitor were evaluated for toxicity and efficacy	Results	2
+stable	HP:0031915	109-115
+disease	DOID:4,OGMS:0000031	116-123
+rate	BAO:0080019	304-308
+drug	CHEBI:23888	414-418
+inhibitor	CHEBI:35222	451-460
+efficacy	BAO:0000656	493-501
+Time frame: 12 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Pazopanib in Combination With a NSAI	Results	5
+pazopanib	CHEBI:71219	17-26
+Arm/Group Description: Non-randomized, open label	Results	6
+label	CHEBI:35209,label	44-49
+Pazopanib: Oral, 800mg tablet daily per cycle	Results	7
+pazopanib	CHEBI:71219	0-9
+Overall Number of Participants Analyzed: 28	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  13  46.4%	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 8/30 (26.67%)	Adverse Events	1
+Heart Failure 1/30 (3.33%)	Adverse Events	2
+heart	UBERON:0000948	0-5
+Vertigo 1/30 (3.33%)	Adverse Events	3
+vertigo	HP:0002321	0-7
+Small intestinal obstruction 1/30 (3.33%)	Adverse Events	4
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Fever 1/30 (3.33%)	Adverse Events	5
+fever	HP:0001945	0-5
+Aspartate aminotransferase increased 1/30 (3.33%)	Adverse Events	6
+aspartate	CHEBI:29995	0-9
+Alanine aminotransferase increased 1/30 (3.33%)	Adverse Events	7
+alanine	CHEBI:16449	0-7
+Back Pain 1/30 (3.33%)	Adverse Events	8
+back pain	HP:0003418	0-9
+Pleural effusion 1/30 (3.33%)	Adverse Events	9
+pleural effusion	HP:0002202	0-16
+Rash maculo-papular 1/30 (3.33%)	Adverse Events	10
+Hypotension 1/30 (3.33%)	Adverse Events	11
+hypotension	HP:0002615	0-11

@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Exemestane	Intervention	1
+exemestane	CHEBI:4953	0-10
+Participants diagnosed with breast cancer who remained disease-free after previously receiving 2 to 3 years of tamoxifen 20 milligram (mg) or 30 mg tablet-in-capsule orally once daily as per standard medical practice, received exemestane (Aromasin) 25 mg tablet-in-capsule orally once daily for the remainder of 5-year period.	Intervention	2
+breast cancer	DOID:1612	28-41
+tamoxifen	CHEBI:41774	111-120
+exemestane	CHEBI:4953	227-237
+INTERVENTION 2:	Intervention	3
+Tamoxifen	Intervention	4
+tamoxifen	CHEBI:41774	0-9
+Participants diagnosed with breast cancer who remained disease-free after previously receiving 2 to 3 years of tamoxifen 20 mg or 30 mg tablet-in-capsule orally once daily as per standard medical practice, received the same dose of tamoxifen tablet-in-capsule orally once daily for the remainder of 5-year period.	Intervention	5
+breast cancer	DOID:1612	28-41
+tamoxifen	CHEBI:41774	111-120
+tamoxifen	CHEBI:41774	232-241
+Inclusion Criteria:	Eligibility	0
+postmenopausal women with histologically or cytologically confirmed primary breast adenocarcinoma, receiving tamoxifen and have been treated with tamoxifen continuously for between 2 and 3 years and one month, and still free of disease	Eligibility	1
+breast adenocarcinoma	DOID:3458	76-97
+tamoxifen	CHEBI:41774	109-118
+tamoxifen	CHEBI:41774	146-155
+month	UO:0000035	203-208
+disease	DOID:4,OGMS:0000031	228-235
+Exclusion Criteria:	Eligibility	2
+unresectable breast cancer	Eligibility	3
+breast cancer	DOID:1612	13-26
+ER negative primary tumor	Eligibility	4
+Outcome Measurement:	Results	0
+Disease-Free Survival (DFS) at Month 36 Post-Randomization: Main Study	Results	1
+month	UO:0000035	31-36
+DFS defined as time from randomization to earliest documentation of breast cancer relapse or death from any cause. DFS at Month 36 post-randomization was defined as probability of participants alive and disease-free at 36 months after the randomization. Participants withdrawn from the study for any reason in the absence of relapse were censored at the date they were last seen. Relapse was categorized as follows: loco-regional: ipsilateral breast or axillary nodal relapse; distant: distant relapse, including supraclavicular nodes; second primary breast cancer: contralateral breast cancer, excluding ductal carcinoma in situ.	Results	2
+time	PATO:0000165	15-19
+breast cancer	DOID:1612	68-81
+breast cancer	DOID:1612	551-564
+breast cancer	DOID:1612	580-593
+death	OAE:0000632	93-98
+month	UO:0000035	122-127
+month	UO:0000035	222-227
+breast	UBERON:0000310	68-74
+breast	UBERON:0000310	443-449
+breast	UBERON:0000310	551-557
+breast	UBERON:0000310	580-586
+second	UO:0000010	536-542
+ductal carcinoma in situ	HP:0030075,DOID:0060074	605-629
+Time frame: Baseline up to Month 36	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	27-32
+Results 1:	Results	4
+Arm/Group Title: Exemestane	Results	5
+exemestane	CHEBI:4953	17-27
+Arm/Group Description: Participants diagnosed with breast cancer who remained disease-free after previously receiving 2 to 3 years of tamoxifen 20 milligram (mg) or 30 mg tablet-in-capsule orally once daily as per standard medical practice, received exemestane (Aromasin) 25 mg tablet-in-capsule orally once daily for the remainder of 5-year period.	Results	6
+breast cancer	DOID:1612	51-64
+tamoxifen	CHEBI:41774	134-143
+exemestane	CHEBI:4953	250-260
+Overall Number of Participants Analyzed: 2352	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: probability of DFS  0.90        (0.89 to 0.92)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Tamoxifen	Results	11
+tamoxifen	CHEBI:41774	17-26
+Arm/Group Description: Participants diagnosed with breast cancer who remained disease-free after previously receiving 2 to 3 years of tamoxifen 20 mg or 30 mg tablet-in-capsule orally once daily as per standard medical practice, received the same dose of tamoxifen tablet-in-capsule orally once daily for the remainder of 5-year period.	Results	12
+breast cancer	DOID:1612	51-64
+tamoxifen	CHEBI:41774	134-143
+tamoxifen	CHEBI:41774	255-264
+Overall Number of Participants Analyzed: 2372	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: probability of DFS  0.86        (0.85 to 0.88)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 383/2320 (16.51%)	Adverse Events	1
+Anaemia * 2/2320 (0.09%)	Adverse Events	2
+Disseminated intravascular coagulation * 1/2320 (0.04%)	Adverse Events	3
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Granulocytopenia * 0/2320 (0.00%)	Adverse Events	4
+granulocytopenia	HP:0001913,DOID:12987	0-16
+Hypofibrinogenaemia * 0/2320 (0.00%)	Adverse Events	5
+Iron deficiency anaemia * 1/2320 (0.04%)	Adverse Events	6
+Lymphadenitis * 1/2320 (0.04%)	Adverse Events	7
+lymphadenitis	HP:0002840,DOID:1602	0-13
+Lymphadenopathy * 0/2320 (0.00%)	Adverse Events	8
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia * 1/2320 (0.04%)	Adverse Events	9
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction * 5/2320 (0.22%)	Adverse Events	10
+acute myocardial infarction	DOID:9408	0-27
+Adverse Events 2:	Adverse Events	11
+Total: 439/2338 (18.78%)	Adverse Events	12
+Anaemia * 4/2338 (0.17%)	Adverse Events	13
+Disseminated intravascular coagulation * 0/2338 (0.00%)	Adverse Events	14
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Granulocytopenia * 1/2338 (0.04%)	Adverse Events	15
+granulocytopenia	HP:0001913,DOID:12987	0-16
+Hypofibrinogenaemia * 1/2338 (0.04%)	Adverse Events	16
+Iron deficiency anaemia * 0/2338 (0.00%)	Adverse Events	17
+Lymphadenitis * 0/2338 (0.00%)	Adverse Events	18
+lymphadenitis	HP:0002840,DOID:1602	0-13
+Lymphadenopathy * 1/2338 (0.04%)	Adverse Events	19
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia * 5/2338 (0.21%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction * 0/2338 (0.00%)	Adverse Events	21
+acute myocardial infarction	DOID:9408	0-27

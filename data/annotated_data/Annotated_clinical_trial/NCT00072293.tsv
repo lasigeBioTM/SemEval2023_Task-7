@@ -1,0 +1,144 @@
+INTERVENTION 1:	Intervention	0
+Axillary Dissection	Intervention	1
+Patients undergo surgical resection of the primary tumor with axillary lymph node dissection following sentinel lymph node assessment.	Intervention	2
+lymph	UBERON:0002391	71-76
+lymph	UBERON:0002391	112-117
+Axillary lymph node dissection: Axillary lymph node dissection	Intervention	3
+lymph	UBERON:0002391	9-14
+lymph	UBERON:0002391	41-46
+INTERVENTION 2:	Intervention	4
+No Axillary Dissection	Intervention	5
+Patients undergo surgical resection of the primary tumor with no axillary lymph node dissection following sentinel lymph node assessment.	Intervention	6
+lymph	UBERON:0002391	74-79
+lymph	UBERON:0002391	115-120
+No axillary lymph node dissection: Therapeutic conventional surgery	Intervention	7
+lymph	UBERON:0002391	12-17
+surgery	OAE:0000067	60-67
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Clinical, mammographic, ultrasonographic, or pathologic diagnosis of unicentric and unifocal breast carcinoma	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	93-109
+Largest tumor lesion  5 cm	Eligibility	2
+Palpable or nonpalpable breast lesion	Eligibility	3
+breast	UBERON:0000310	24-30
+Preoperative radioactive occult lesion localization, hook wire, or other method of localization required for nonpalpable lesions	Eligibility	4
+localization	GO:0051179	39-51
+localization	GO:0051179	83-95
+Prior (preoperative) or planned (intraoperative) sentinel node biopsy required	Eligibility	5
+At least 1 micrometastatic (i.e., no greater than 2 mm) sentinel lymph node with no extracapsular extension	Eligibility	6
+lymph	UBERON:0002391	65-70
+No clinical evidence of distant metastases	Eligibility	7
+No suspicious manifestation of metastases that cannot be ruled out by x-ray, MRI, or CT scan, including the following:	Eligibility	8
+ct	BAO:0002125	85-87
+Skeletal pain of unknown cause	Eligibility	9
+pain	HP:0012531	9-13
+Elevated alkaline phosphatase	Eligibility	10
+phosphatase	GO:0016791,BAO:0000295	18-29
+Bone scan showing hot spots	Eligibility	11
+No palpable axillary lymph node(s)	Eligibility	12
+lymph	UBERON:0002391	21-26
+No Paget's disease without invasive cancer	Eligibility	13
+disease	DOID:4,OGMS:0000031	11-18
+cancer	DOID:162	36-42
+Hormone receptor status:	Eligibility	14
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen receptor and progesterone receptor known	Eligibility	15
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	35-43
+progesterone	CHEBI:17026	22-34
+PATIENT CHARACTERISTICS:	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	17
+age	PATO:0000011	0-3
+Any age	Eligibility	18
+age	PATO:0000011	4-7
+Sex	Eligibility	19
+Female	Eligibility	20
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	21
+Any status	Eligibility	22
+Performance status	Eligibility	23
+Not specified	Eligibility	24
+Life expectancy	Eligibility	25
+Not specified	Eligibility	26
+Hematopoietic	Eligibility	27
+Not specified	Eligibility	28
+Hepatic	Eligibility	29
+See Disease Characteristics	Eligibility	30
+disease	DOID:4,OGMS:0000031	4-11
+Renal	Eligibility	31
+Not specified	Eligibility	32
+Other	Eligibility	33
+Not pregnant or nursing	Eligibility	34
+No other prior or concurrent malignancy except the following:	Eligibility	35
+Adequately treated basal cell or squamous cell skin cancer	Eligibility	36
+skin cancer	DOID:4159	47-58
+Adequately treated carcinoma in situ of the cervix	Eligibility	37
+carcinoma	HP:0030731,DOID:305	19-28
+Adequately treated in situ melanoma	Eligibility	38
+melanoma	HP:0002861,DOID:1909	27-35
+Contralateral or ipsilateral carcinoma in situ of the breast	Eligibility	39
+carcinoma	HP:0030731,DOID:305	29-38
+breast	UBERON:0000310	54-60
+No psychiatric, addictive, or other disorder that may compromise ability to give informed consent	Eligibility	40
+disorder	OGMS:0000045	36-44
+Geographically accessible for follow-up	Eligibility	41
+PRIOR CONCURRENT THERAPY:	Eligibility	42
+Biologic therapy	Eligibility	43
+Not specified	Eligibility	44
+Chemotherapy	Eligibility	45
+Not specified	Eligibility	46
+Endocrine therapy	Eligibility	47
+Not specified	Eligibility	48
+Radiotherapy	Eligibility	49
+radiotherapy	OAE:0000235	0-12
+Not specified	Eligibility	50
+Surgery	Eligibility	51
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	52
+disease	DOID:4,OGMS:0000031	4-11
+Other	Eligibility	53
+No prior systemic therapy for breast cancer	Eligibility	54
+breast cancer	DOID:1612	30-43
+More than 1 year since prior chemopreventive agent	Eligibility	55
+year	UO:0000036	12-16
+Outcome Measurement:	Results	0
+5-year Disease-Free Survival	Results	1
+Estimated percentage of patients alive and disease-free at 5 years from randomization, where disease-free survival is defined as the time from randomization to first evidence of invasive relapse at any site, second primary tumor (contralateral or non-breast) or death.	Results	2
+time	PATO:0000165	133-137
+site	BFO:0000029	202-206
+second	UO:0000010	208-214
+death	OAE:0000632	262-267
+Time frame: 5-year estimate reported after a median follow-up of 60 months	Results	3
+time	PATO:0000165	0-4
+median	BAO:0002174	45-51
+Results 1:	Results	4
+Arm/Group Title: Axillary Dissection	Results	5
+Arm/Group Description: Patients undergo surgical resection of the primary tumor with axillary lymph node dissection following sentinel lymph node assessment.	Results	6
+lymph	UBERON:0002391	94-99
+lymph	UBERON:0002391	135-140
+Axillary lymph node dissection: Axillary lymph node dissection	Results	7
+lymph	UBERON:0002391	9-14
+lymph	UBERON:0002391	41-46
+Overall Number of Participants Analyzed: 464	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  84.4	Results	10
+Results 2:	Results	11
+Arm/Group Title: No Axillary Dissection	Results	12
+Arm/Group Description: Patients undergo surgical resection of the primary tumor with no axillary lymph node dissection following sentinel lymph node assessment.	Results	13
+lymph	UBERON:0002391	97-102
+lymph	UBERON:0002391	138-143
+No axillary lymph node dissection: Therapeutic conventional surgery	Results	14
+lymph	UBERON:0002391	12-17
+surgery	OAE:0000067	60-67
+Overall Number of Participants Analyzed: 467	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of participants  87.8	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 1/447 (0.22%)	Adverse Events	1
+Post-operative infection (L.axilla) 1/447 (0.22%)	Adverse Events	2
+Adverse Events 2:	Adverse Events	3
+Total: 0/453 (0.00%)	Adverse Events	4
+Post-operative infection (L.axilla) 0/453 (0.00%)	Adverse Events	5

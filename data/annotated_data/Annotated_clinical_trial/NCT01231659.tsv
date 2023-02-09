@@ -1,0 +1,85 @@
+INTERVENTION 1:	Intervention	0
+Everolimus + Letrozole	Intervention	1
+everolimus	CHEBI:68478	0-10
+letrozole	CHEBI:6413	13-22
+All patients received 2 tablets (5 mg each) of Everolimus (a total of 10 mg) + 1 tablet of Letrozole (2.5 mg) daily until disease progression or as described in the protocol.	Intervention	2
+everolimus	CHEBI:68478	47-57
+letrozole	CHEBI:6413	91-100
+disease	DOID:4,OGMS:0000031	122-129
+Inclusion Criteria:	Eligibility	0
+Postmenopausal women with estrogen receptor positive locally advanced or metastatic breast cancer after documented recurrence or progression on Tamoxifen, Anastrozole or Examestane.	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	26-34
+receptor	BAO:0000281	35-43
+breast cancer	DOID:1612	84-97
+tamoxifen	CHEBI:41774	144-153
+anastrozole	CHEBI:2704	155-166
+Refractory disease to hormonal therapy is defined as:	Eligibility	2
+refractory	HP:0031375	0-10
+disease	DOID:4,OGMS:0000031	11-18
+Recurrence while on, or within 12 month of end of, adjuvant treatment with Tamoxifen , Anastrozole, or Exemestane.	Eligibility	3
+month	UO:0000035	34-39
+adjuvant	CHEBI:60809	51-59
+tamoxifen	CHEBI:41774	75-84
+anastrozole	CHEBI:2704	87-98
+exemestane	CHEBI:4953	103-113
+Recurrence while on, or within 24 month of end of, adjuvant treatment with Letrozole.	Eligibility	4
+month	UO:0000035	34-39
+adjuvant	CHEBI:60809	51-59
+letrozole	CHEBI:6413	75-84
+Progression while on Tamoxifen, Anastrozole or Exemestane treatment for locally advanced or metastatic breast cancer.	Eligibility	5
+tamoxifen	CHEBI:41774	21-30
+anastrozole	CHEBI:2704	32-43
+exemestane	CHEBI:4953	47-57
+breast cancer	DOID:1612	103-116
+Exclusion Criteria:	Eligibility	6
+Prior use of chemotherapy and letrozole for Advanced Breast Cancer and mTOR inhibitors as the last anticancer treatment prior to study entry.	Eligibility	7
+letrozole	CHEBI:6413	30-39
+breast cancer	DOID:1612	53-66
+Patients must have radiological evidence of recurrence or progression on last therapy prior to study entry.	Eligibility	8
+Outcome Measurement:	Results	0
+Percentage of Participants With Overall Response Rate (ORR)	Results	1
+rate	BAO:0080019	49-53
+Overall Response Rate (ORR) was defined as the proportion of patients whose best overall response was either complete response (CR) or partial response (PR) according to RECIST 1.0 for target lesions and assessed by CT: Complete Response (CR), disappearance of all target lesions for a period of at least one month; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (ORR) = CR + PR. Only descriptive statistics.	Results	2
+rate	BAO:0080019	17-21
+target	BAO:0003064	185-191
+target	BAO:0003064	265-271
+target	BAO:0003064	392-398
+ct	BAO:0002125	216-218
+month	UO:0000035	309-314
+diameter	PATO:0001334	380-388
+Time frame: From the date of randomization until the date of the first documented disease progression or date of death from any cause whichever came first, assessed for approximately 15 months	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	82-89
+death	OAE:0000632	113-118
+Results 1:	Results	4
+Arm/Group Title: Everolimus + Letrozole	Results	5
+everolimus	CHEBI:68478	17-27
+letrozole	CHEBI:6413	30-39
+Arm/Group Description: All patients received 2 tablets (5 mg each) of Everolimus (a total of 10 mg) + 1 tablet of Letrozole (2.5 mg) daily until disease progression or as described in the protocol.	Results	6
+everolimus	CHEBI:68478	70-80
+letrozole	CHEBI:6413	114-123
+disease	DOID:4,OGMS:0000031	145-152
+Overall Number of Participants Analyzed: 43	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  37.2	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 26/72 (36.11%)	Adverse Events	1
+Anaemia 5/72 (6.94%)	Adverse Events	2
+Cardiac arrest 1/72 (1.39%)	Adverse Events	3
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure congestive 1/72 (1.39%)	Adverse Events	4
+Hypercalcaemia 1/72 (1.39%)	Adverse Events	5
+Nausea 1/72 (1.39%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Vomiting 3/72 (4.17%)	Adverse Events	7
+vomiting	HP:0002013	0-8
+Death 1/72 (1.39%)	Adverse Events	8
+death	OAE:0000632	0-5
+Disease progression 2/72 (2.78%)	Adverse Events	9
+disease	DOID:4,OGMS:0000031	0-7
+Infusion related reaction 1/72 (1.39%)	Adverse Events	10
+Pyrexia 3/72 (4.17%)	Adverse Events	11
+Cholecystitis 1/72 (1.39%)	Adverse Events	12
+cholecystitis	HP:0001082,DOID:1949	0-13
+Cellulitis 2/72 (2.78%)	Adverse Events	13
+cellulitis	HP:0100658,DOID:3488	0-10

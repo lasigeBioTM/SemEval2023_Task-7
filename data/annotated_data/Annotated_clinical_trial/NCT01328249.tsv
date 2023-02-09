@@ -1,0 +1,222 @@
+INTERVENTION 1:	Intervention	0
+Cohort 1: Eribulin Mesylate With Filgrastim as Needed	Intervention	1
+eribulin mesylate	CHEBI:70710	10-27
+Participants initially received doxorubicin (60 mg/m^2) plus cyclophosphamide (600 mg/m^2) intravenously (IV) on Day 1, of every 14-day cycle for 4 cycles. Eribulin mesylate was administered following the doxorubicin plus cyclophosphamide regimen at a dose of 1.4 mg/m^2 IV over 2 to 5 minutes on Days 1 and 8 of a 21-day cycle for 4 cycles (Cycles 5 to 8). In this Cohort growth factors, subcutaneous pegfilgrastim (6 mg) or filgrastim, could be used with eribulin therapy at the physician's discretion if neutropenia occurred that recovered to Grade 2.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	32-43
+doxorubicin	CHEBI:28748,BAO:0000639	205-216
+cyclophosphamide	CHEBI:4026	61-77
+cyclophosphamide	CHEBI:4026	222-238
+day	UO:0000033	113-116
+day	UO:0000033	132-135
+day	UO:0000033	297-300
+day	UO:0000033	318-321
+eribulin mesylate	CHEBI:70710	156-173
+growth	GO:0040007	373-379
+eribulin	CHEBI:63587	156-164
+eribulin	CHEBI:63587	457-465
+neutropenia	HP:0001875,DOID:1227	507-518
+INTERVENTION 2:	Intervention	3
+Cohort 2: Eribulin Mesylate With Prophylactic Filgrastim	Intervention	4
+eribulin mesylate	CHEBI:70710	10-27
+Participants initially received doxorubicin (60 mg/m^2) plus cyclophosphamide (600 mg/m^2) IV on Day 1, of every 14-day cycle for 4 cycles. Eribulin mesylate was administered following the doxorubicin plus cyclophosphamide regimen at a dose of 1.4 mg/m^2 IV over 2 to 5 minutes on Days 1 and 8 of a 21-day cycle for 4 cycles (Cycles 5 to 8). In this Cohort filgrastim was used with eribulin therapy at a dose of 300 micrograms for participants 60 kg or 480 micrograms for participants >60 kg, administered subcutaneously on Days 3 and 4 and Days 10 and 11 of each eribulin cycle.	Intervention	5
+doxorubicin	CHEBI:28748,BAO:0000639	32-43
+doxorubicin	CHEBI:28748,BAO:0000639	189-200
+cyclophosphamide	CHEBI:4026	61-77
+cyclophosphamide	CHEBI:4026	206-222
+day	UO:0000033	97-100
+day	UO:0000033	116-119
+day	UO:0000033	281-284
+day	UO:0000033	302-305
+day	UO:0000033	524-527
+day	UO:0000033	541-544
+eribulin mesylate	CHEBI:70710	140-157
+eribulin	CHEBI:63587	140-148
+eribulin	CHEBI:63587	382-390
+eribulin	CHEBI:63587	564-572
+Inclusion Criteria	Eligibility	0
+Male and female subjects aged greater than or equal to (>=) 18 years	Eligibility	1
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	11-15
+female	PATO:0000383	9-15
+Histologically confirmed Stage I to III invasive breast cancer. Subjects may have more than one synchronous primary breast tumor.	Eligibility	2
+breast cancer	DOID:1612	49-62
+breast	UBERON:0000310	49-55
+breast	UBERON:0000310	116-122
+HER-2 normal as determined by fluorescence in situ hybridization (FISH) or 0 or 1+ by immunohistochemistry (IHC) staining.	Eligibility	3
+immunohistochemistry	BAO:0000415	86-106
+Subject is a candidate for chemotherapy in the adjuvant setting. Adjuvant therapy must begin within 84 days of the final surgical procedure for breast cancer.	Eligibility	4
+adjuvant	CHEBI:60809	47-55
+adjuvant	CHEBI:60809	65-73
+breast cancer	DOID:1612	144-157
+Adequate cardiac function, defined by baseline LVEF >=50 percent (%) by Multiple Gated Acquisition (MUGA) scan or echocardiogram.	Eligibility	5
+function	BAO:0003117,BFO:0000034	17-25
+percent	UO:0000187	57-64
+ECOG performance status of 0 or 1.	Eligibility	6
+Adequate renal function as evidenced by serum creatinine less than or equal to (<=) 1.5 mg/dL or calculated creatinine clearance >=40 mL/min per the Cockcroft and Gault formula.	Eligibility	7
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	46-56
+creatinine	CHEBI:16737	108-118
+creatinine clearance	CMO:0000765	108-128
+Adequate bone marrow function as evidenced by ANC >=1.5 x 10^9/L, hemoglobin >=10.0 g/dL, and platelet count >=100 x 10^9/L.	Eligibility	8
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+x	LABO:0000148	56-57
+x	LABO:0000148	115-116
+hemoglobin	CHEBI:35143	66-76
+platelet count	CMO:0000029	94-108
+Adequate liver function as evidenced by bilirubin <=1.5 times the upper limits of normal (ULN) and alkaline phosphatase (AP), alanine aminotransferase (ALT), and aspartate aminotransferase (AST) <=3 x ULN.	Eligibility	9
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+phosphatase	GO:0016791,BAO:0000295	108-119
+alanine	CHEBI:16449	126-133
+aspartate	CHEBI:29995	162-171
+x	LABO:0000148	199-200
+Females of childbearing potential must have a negative urine or beta-human chorionic gonadotropin serum pregnancy test within 2 weeks prior to Cycle 1, Day 1. A urine pregnancy test should be repeated prior to chemotherapy if not conducted within 72 hours of start of treatment. Female subjects of childbearing potential must agree to be abstinent or to use a highly effective method of contraception (e.g., condom + spermicide, condom + diaphragm with spermicide, intrauterine device (IUD), or have a vasectomized partner) having started for at least one menstrual cycle prior to starting study drug and throughout the entire study period and for 30 days (longer if appropriate) after the last dose of study drug. Perimenopausal women must be amenorrheic for at least 12 months to be considered of nonchildbearing potential. Male subjects who are not abstinent or who have undergone a successful vasectomy, who are partners of women of childbearing potential must use, or their partners must use, a highly effective method of contraception (e.g., condom + spermicide, condom + diaphragm with spermicide, IUD) starting for at least one menstrual cycle prior to starting study drug and throughout the entire study period and for 30 days (longer if appropriate) after the last dose of study drug. Subjects with partners using hormonal contraceptives must also be using an additional approved method of contraception (as described previously).	Eligibility	10
+urine	UBERON:0001088	55-60
+urine	UBERON:0001088	161-166
+chorionic gonadotropin	CHEBI:81570	75-97
+day	UO:0000033	152-155
+day	UO:0000033	651-654
+day	UO:0000033	1231-1234
+female	PATO:0000383	0-6
+female	PATO:0000383	279-285
+diaphragm	UBERON:0001103	438-447
+diaphragm	UBERON:0001103	1078-1087
+menstrual cycle	GO:0044850	556-571
+menstrual cycle	GO:0044850	1136-1151
+drug	CHEBI:23888	596-600
+drug	CHEBI:23888	709-713
+drug	CHEBI:23888	1176-1180
+drug	CHEBI:23888	1289-1293
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	281-285
+male	CHEBI:30780,PATO:0000384	826-830
+Subjects willing and able to comply with the study protocol for the duration of the study and provide written informed consent prior to any study-specific screening procedures with the understanding that the subject may withdraw consent at any time without prejudice.	Eligibility	11
+duration	PATO:0001309	68-76
+time	PATO:0000165	244-248
+Exclusion Criteria	Eligibility	12
+Stage IV breast cancer.	Eligibility	13
+breast cancer	DOID:1612	9-22
+Prior chemotherapy, radiation therapy, immunotherapy, or biotherapy for current breast cancer.	Eligibility	14
+breast cancer	DOID:1612	80-93
+Nonmalignant systemic disease (cardiovascular, renal, hepatic, etc.) that would preclude any of the study therapy drugs.	Eligibility	15
+disease	DOID:4,OGMS:0000031	22-29
+Subjects with a concurrently active second malignancy other than adequately treated nonmelanoma skin cancers or in situ cervical cancer.	Eligibility	16
+active	PATO:0002354	29-35
+second	UO:0000010	36-42
+cervical cancer	DOID:4362	120-135
+Subjects with known positive human immunodeficiency virus (HIV) status.	Eligibility	17
+immunodeficiency	HP:0002721	35-51
+virus	BAO:0000232	52-57
+Pregnancy or breast feeding at the time of study enrollment. Eligible subjects of reproductive potential (both sexes) must agree to use adequate contraceptive methods during study therapy.	Eligibility	18
+breast	UBERON:0000310	13-19
+time	PATO:0000165	35-39
+Subjects with known allergy or hypersensitivity to doxorubicin, cyclophosphamide, or eribulin mesylate.	Eligibility	19
+allergy	HP:0012393	20-27
+hypersensitivity	GO:0002524,DOID:1205	31-47
+doxorubicin	CHEBI:28748,BAO:0000639	51-62
+cyclophosphamide	CHEBI:4026	64-80
+eribulin mesylate	CHEBI:70710	85-102
+Inability to comply with the study and/or follow-up procedures.	Eligibility	20
+Outcome Measurement:	Results	0
+Percentage of Participants With Feasibility	Results	1
+The regimen was considered feasible if the participant was able to complete the eribulin portion without dose delay or reduction. Dose delay was defined as a delay due to eribulin-related adverse event (AE) for more than 2 days for subsequent doses (cycles after the initiation of full dose of eribulin, except holidays, scheduling difficulties and nonclinical logistical issues). If a participant had more than 1 dose omission, delay or reduction due to eribulin-related AE, these events were collectively counted as one entity in the same participant. Participants were followed for approximately 3 years after the last dose of the study treatment. Feasibility rates were calculated with or without growth factor support. In both cohorts, the percentage of participants who completed the eribulin portion of the regimen without a dose omission, delay or reduction due to eribulin-related AE was estimated via the observed completion rate and an exact 90% confidence interval (CI) was constructed.	Results	2
+eribulin	CHEBI:63587	80-88
+eribulin	CHEBI:63587	171-179
+eribulin	CHEBI:63587	294-302
+eribulin	CHEBI:63587	455-463
+eribulin	CHEBI:63587	790-798
+eribulin	CHEBI:63587	873-881
+adverse event	OAE:0000001	188-201
+growth factor	BAO:0002024	701-714
+rate	BAO:0080019	663-667
+rate	BAO:0080019	935-939
+Time frame: From date of first dose, up to 3 years after the last dose of study treatment, or up to approximately 4 years 2 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cohort 1: Eribulin Mesylate With Filgrastim as Needed	Results	5
+eribulin mesylate	CHEBI:70710	27-44
+Arm/Group Description: Participants initially received doxorubicin (60 mg/m^2) plus cyclophosphamide (600 mg/m^2) intravenously (IV) on Day 1, of every 14-day cycle for 4 cycles. Eribulin mesylate was administered following the doxorubicin plus cyclophosphamide regimen at a dose of 1.4 mg/m^2 IV over 2 to 5 minutes on Days 1 and 8 of a 21-day cycle for 4 cycles (Cycles 5 to 8). In this Cohort growth factors, subcutaneous pegfilgrastim (6 mg) or filgrastim, could be used with eribulin therapy at the physician's discretion if neutropenia occurred that recovered to Grade   2.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	55-66
+doxorubicin	CHEBI:28748,BAO:0000639	228-239
+cyclophosphamide	CHEBI:4026	84-100
+cyclophosphamide	CHEBI:4026	245-261
+day	UO:0000033	136-139
+day	UO:0000033	155-158
+day	UO:0000033	320-323
+day	UO:0000033	341-344
+eribulin mesylate	CHEBI:70710	179-196
+growth	GO:0040007	396-402
+eribulin	CHEBI:63587	179-187
+eribulin	CHEBI:63587	480-488
+neutropenia	HP:0001875,DOID:1227	530-541
+Overall Number of Participants Analyzed: 54	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  70.4        (58.5 to 80.4)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort 2: Eribulin Mesylate With Prophylactic Filgrastim	Results	11
+eribulin mesylate	CHEBI:70710	27-44
+Arm/Group Description: Participants initially received doxorubicin (60 mg/m^2) plus cyclophosphamide (600 mg/m^2) IV on Day 1, of every 14-day cycle for 4 cycles. Eribulin mesylate was administered following the doxorubicin plus cyclophosphamide regimen at a dose of 1.4 mg/m^2 IV over 2 to 5 minutes on Days 1 and 8 of a 21-day cycle for 4 cycles (Cycles 5 to 8). In this Cohort filgrastim was used with eribulin therapy at a dose of 300 micrograms for participants   60 kg or 480 micrograms for participants >60 kg, administered subcutaneously on Days 3 and 4 and Days 10 and 11 of each eribulin cycle.	Results	12
+doxorubicin	CHEBI:28748,BAO:0000639	55-66
+doxorubicin	CHEBI:28748,BAO:0000639	212-223
+cyclophosphamide	CHEBI:4026	84-100
+cyclophosphamide	CHEBI:4026	229-245
+day	UO:0000033	120-123
+day	UO:0000033	139-142
+day	UO:0000033	304-307
+day	UO:0000033	325-328
+day	UO:0000033	549-552
+day	UO:0000033	566-569
+eribulin mesylate	CHEBI:70710	163-180
+eribulin	CHEBI:63587	163-171
+eribulin	CHEBI:63587	405-413
+eribulin	CHEBI:63587	589-597
+Overall Number of Participants Analyzed: 25	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of participants  60.0        (41.7 to 76.4)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 6/55 (10.91%)	Adverse Events	1
+Febrile neutropenia 2/55 (3.64%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Nausea 2/55 (3.64%)	Adverse Events	3
+nausea	HP:0002018	0-6
+Oesophagitis 2/55 (3.64%)	Adverse Events	4
+Vomiting 2/55 (3.64%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Mucosal inflammation 0/55 (0.00%)	Adverse Events	6
+Pyrexia 2/55 (3.64%)	Adverse Events	7
+Breast abscess 0/55 (0.00%)	Adverse Events	8
+breast abscess	DOID:0060323	0-14
+Catheter site cellulitis 0/55 (0.00%)	Adverse Events	9
+site	BFO:0000029	9-13
+cellulitis	HP:0100658,DOID:3488	14-24
+Genital herpes 1/55 (1.82%)	Adverse Events	10
+genital herpes	DOID:8704	0-14
+Lung infection 0/55 (0.00%)	Adverse Events	11
+lung	UBERON:0002048	0-4
+Upper respiratory tract infection 1/55 (1.82%)	Adverse Events	12
+upper respiratory tract	UBERON:0001557	0-23
+respiratory tract infection	HP:0011947	6-33
+Adverse Events 2:	Adverse Events	13
+Total: 4/26 (15.38%)	Adverse Events	14
+Febrile neutropenia 1/26 (3.85%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Nausea 0/26 (0.00%)	Adverse Events	16
+nausea	HP:0002018	0-6
+Oesophagitis 0/26 (0.00%)	Adverse Events	17
+Vomiting 0/26 (0.00%)	Adverse Events	18
+vomiting	HP:0002013	0-8
+Mucosal inflammation 1/26 (3.85%)	Adverse Events	19
+Pyrexia 1/26 (3.85%)	Adverse Events	20
+Breast abscess 1/26 (3.85%)	Adverse Events	21
+breast abscess	DOID:0060323	0-14
+Catheter site cellulitis 1/26 (3.85%)	Adverse Events	22
+site	BFO:0000029	9-13
+cellulitis	HP:0100658,DOID:3488	14-24
+Genital herpes 0/26 (0.00%)	Adverse Events	23
+genital herpes	DOID:8704	0-14
+Lung infection 1/26 (3.85%)	Adverse Events	24
+lung	UBERON:0002048	0-4
+Upper respiratory tract infection 0/26 (0.00%)	Adverse Events	25
+upper respiratory tract	UBERON:0001557	0-23
+respiratory tract infection	HP:0011947	6-33

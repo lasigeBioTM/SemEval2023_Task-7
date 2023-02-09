@@ -1,0 +1,165 @@
+INTERVENTION 1:	Intervention	0
+Zoledronic Acid	Intervention	1
+zoledronic acid	CHEBI:46557	0-15
+Zoledronic acid, vitamin D and calcium supplements.	Intervention	2
+zoledronic acid	CHEBI:46557	0-15
+vitamin d	CHEBI:27300	17-26
+calcium	CHEBI:22984,BAO:0000874	31-38
+INTERVENTION 2:	Intervention	3
+Zoledronic Acid + Radiopharmaceuticals	Intervention	4
+zoledronic acid	CHEBI:46557	0-15
+Zoledronic acid, vitamin D and calcium supplements, plus Sr-89 or Sm-153.	Intervention	5
+zoledronic acid	CHEBI:46557	0-15
+vitamin d	CHEBI:27300	17-26
+calcium	CHEBI:22984,BAO:0000874	31-38
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically proven diagnosis of solid tumor malignancy of lung, breast, or prostate prior to registration;	Eligibility	1
+lung	UBERON:0002048	78-82
+breast	UBERON:0000310	84-90
+Appropriate diagnosis for protocol entry, based upon the following minimum diagnostic workup:	Eligibility	2
+2.1 History/physical examination within 8 weeks prior to registration; 2.2 Bone scan within 4 weeks prior to registration; bone metastases must be visible on the scan. Other scanning modalities, such as magnetic resonance imaging (MRI), positron emission tomography (PET) 2.3 Dental evaluation according to the dental exam checklist (carried out by the investigator, the investigator's designee, or by a qualified dental professional [dental hygienist or dentist]), including history of dental surgery (e.g., extraction or implant) within 8 weeks prior to registration and recorded on the dental exam checklist; Note: If the patient has received prior oral bisphosphonate therapy and has had a prior dental evaluation within 8 weeks of registration, the evaluation should not be repeated.	Eligibility	3
+positron	CHEBI:30225	237-245
+tomography	BAO:0002525	255-265
+history	BFO:0000182	4-11
+history	BFO:0000182	476-483
+surgery	OAE:0000067	494-501
+patient	HADO:0000008,OAE:0001817	625-632
+2.4 Complete blood count (CBC)/differential within 2 weeks prior to registration, with adequate bone marrow function defined as follows:	Eligibility	4
+blood	UBERON:0000178	13-18
+bone marrow	UBERON:0002371	96-107
+function	BAO:0003117,BFO:0000034	108-116
+White blood cell count (WBC)  2400 cells/mm^3;	Eligibility	5
+white blood cell count	CMO:0000027	0-22
+Absolute neutrophil count (ANC)  1,800 cells/mm3;	Eligibility	6
+Platelets  60,000 cells/mm3;	Eligibility	7
+Hemoglobin  8.0 g/dl (Note: The use of transfusion or other intervention to achieve the required hemoglobin is permitted).	Eligibility	8
+hemoglobin	CHEBI:35143	0-10
+hemoglobin	CHEBI:35143	97-107
+2.5 Serum creatinine < 3 mg/dL (265 μmol/L) within 2 weeks prior to registration; 2.6 Total bilirubin < 2.5 mg/dL (43 μmol/L) within 2 weeks prior to registration; 2.7 Pregnancy test (urine dipstick or serum) for women of childbearing potential within 2 weeks prior to registration;	Eligibility	9
+creatinine	CHEBI:16737	10-20
+urine	UBERON:0001088	184-189
+18 years of age;	Eligibility	10
+age	PATO:0000011	12-15
+Zubrod performance status 0-2 for patients with breast or prostate primaries; Zubrod performance status 0-1 for patients with lung primaries;	Eligibility	11
+breast	UBERON:0000310	48-54
+lung	UBERON:0002048	126-130
+Patients receiving systemic chemotherapy or hormonal therapy are eligible for this study. See Sections 6.0 and 7.0 for further details. Note: All patients must complete external beam radiation therapy  14 days prior to registration. If patients have undergone CyberKnife treatment, treatment must be completed  14 days prior to registration.	Eligibility	12
+Patients may have received prior oral bisphosphonate therapy, such as Fosamax® or similar medications. Duration of bisphosphonate treatment prior to study entry must be documented, and all bisphosphonates other than the study drug must be discontinued prior to registration.	Eligibility	13
+duration	PATO:0001309	103-111
+drug	CHEBI:23888	226-230
+Women of childbearing potential and male participants must agree to practice an adequate means of birth control throughout their participation in the study.	Eligibility	14
+male	CHEBI:30780,PATO:0000384	36-40
+Patient must sign study specific informed consent prior to study entry.	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria	Eligibility	16
+Patients with brain metastases and/or spinal cord compression are excluded. Note: Patients with no evidence of disease in the brain after treatment for brain metastases are eligible.	Eligibility	17
+brain	UBERON:0000955	14-19
+brain	UBERON:0000955	126-131
+brain	UBERON:0000955	152-157
+spinal cord compression	HP:0002176	38-61
+excluded	HP:0040285	66-74
+disease	DOID:4,OGMS:0000031	111-118
+Patients with painful bone metastases are not permitted until these bone metastases are successfully treated (for example by external beam irradiation) prior to registration, and the patient has stable pain for at least 2 weeks after that treatment (Stable pain is defined for this study as a patient response of 1, 2, or 3 on Questions 4 and 5 of The Brief Pain Inventory (BPI).	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	183-190
+patient	HADO:0000008,OAE:0001817	293-300
+stable	HP:0031915	195-201
+stable	HP:0031915	250-256
+pain	HP:0012531	14-18
+pain	HP:0012531	202-206
+pain	HP:0012531	257-261
+pain	HP:0012531	358-362
+Prior treatment with Strontium-89 or Samarium-153 for bone metastases.	Eligibility	19
+Treatment for more than 6 months with IV bisphosphonates prior to study entry;	Eligibility	20
+Treatment with calcitonin, mithramycin, or gallium nitrate within 2 weeks prior to registration	Eligibility	21
+calcitonin	CHEBI:3306	15-25
+mithramycin	CHEBI:31856	27-38
+nitrate	CHEBI:17632	51-58
+Severe, active co-morbidity, defined as follows:	Eligibility	22
+severe	HP:0012828	0-6
+active	PATO:0002354	8-14
+6.1 Evidence in the six months prior to study entry of uncontrolled congestive heart failure, hypertension refractory to treatment, or symptomatic coronary artery disease; 6.2 Current, active dental problems within 4 weeks of registration, including infection of the teeth or jawbone (maxilla or mandible); dental or fixture trauma; current or prior diagnosis of osteonecrosis of the jaw (ONJ); exposed bone in the mouth; or slow healing after dental procedures; 6.3 Dental surgery (e.g., extractions, implants) within 6 weeks of study entry and while receiving study treatment; for patients who require dental surgery, there are no data to suggest whether discontinuation of bisphosphonate treatment reduces the risk of osteonecrosis of the jaw (ONJ) [see Section 7.2.4].	Eligibility	23
+congestive heart failure	HP:0001635,DOID:6000	68-92
+hypertension	HP:0000822,DOID:10763	94-106
+refractory	HP:0031375	107-117
+coronary artery disease	DOID:3393	147-170
+active	PATO:0002354	185-191
+osteonecrosis	DOID:10159	363-376
+osteonecrosis	DOID:10159	721-734
+mouth	UBERON:0000165	415-420
+surgery	OAE:0000067	474-481
+surgery	OAE:0000067	611-618
+6.4 Acquired Immune Deficiency Syndrome (AIDS) based upon current Center for Disease Control (CDC) definition; note, however, that HIV testing is not required for entry into this protocol. The need to exclude patients with AIDS from this protocol is necessary because the treatments involved in this protocol may be significantly immunosuppressive. Protocol-specific requirements may also exclude immuno-compromised patients.	Eligibility	24
+syndrome	DOID:225	31-39
+disease	DOID:4,OGMS:0000031	77-84
+Pregnant or lactating patients are excluded, as treatment may be harmful to embryos and/or nursing infants.	Eligibility	25
+excluded	HP:0040285	35-43
+Outcome Measurement:	Results	0
+Time to Development of a Malignant Skeletal-related Events (SRE)	Results	1
+time	PATO:0000165	0-4
+Median time to development of a malignant skeletal related event (SRE), which is defined as a pathological bone fracture, spinal cord compression, surgery to bone or radiation to bone is estimated using Kaplan-Meier method. The time of failure was measured from date of randomization to the date of a documented SRE. The analysis was planned to occur after 257 SRE have been observed, unless the criteria for early stopping are met.	Results	2
+median	BAO:0002174	0-6
+time	PATO:0000165	7-11
+time	PATO:0000165	228-232
+bone fracture	HP:0020110	107-120
+spinal cord compression	HP:0002176	122-145
+surgery	OAE:0000067	147-154
+Time frame: From randomization to last follow-up. Maximum follow-up at time of analysis was 80.1 months.	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	71-75
+Results 1:	Results	4
+Arm/Group Title: Zoledronic Acid	Results	5
+zoledronic acid	CHEBI:46557	17-32
+Arm/Group Description: Zoledronic acid, vitamin D and calcium supplements.	Results	6
+zoledronic acid	CHEBI:46557	23-38
+vitamin d	CHEBI:27300	40-49
+calcium	CHEBI:22984,BAO:0000874	54-61
+Overall Number of Participants Analyzed: 124	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  29.9        (25.8 to 37.4)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Zoledronic Acid + Radiopharmaceuticals	Results	11
+zoledronic acid	CHEBI:46557	17-32
+Arm/Group Description: Zoledronic acid, vitamin D and calcium supplements, plus Sr-89 or Sm-153.	Results	12
+zoledronic acid	CHEBI:46557	23-38
+vitamin d	CHEBI:27300	40-49
+calcium	CHEBI:22984,BAO:0000874	54-61
+Overall Number of Participants Analyzed: 124	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  27.4        (21.2 to 35.34)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 31/123 (25.20%)	Adverse Events	1
+Blood/bone marrow - Other: * 0/123 (0.00%)	Adverse Events	2
+Febrile neutropenia * 0/123 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Hemoglobin * 6/123 (4.88%)	Adverse Events	4
+hemoglobin	CHEBI:35143	0-10
+Atrial fibrillation * 1/123 (0.81%)	Adverse Events	5
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac General - Other: * 0/123 (0.00%)	Adverse Events	6
+Myocardial ischaemia * 0/123 (0.00%)	Adverse Events	7
+Pericardial effusion * 1/123 (0.81%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sick Sinus Syndrome * 1/123 (0.81%)	Adverse Events	9
+sick sinus syndrome	HP:0011704,DOID:13884	0-19
+Sinus bradycardia * 0/123 (0.00%)	Adverse Events	10
+sinus bradycardia	HP:0001688	0-17
+Adverse Events 2:	Adverse Events	11
+Total: 37/124 (29.84%)	Adverse Events	12
+Blood/bone marrow - Other: * 1/124 (0.81%)	Adverse Events	13
+Febrile neutropenia * 1/124 (0.81%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Hemoglobin * 10/124 (8.06%)	Adverse Events	15
+hemoglobin	CHEBI:35143	0-10
+Atrial fibrillation * 2/124 (1.61%)	Adverse Events	16
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac General - Other: * 1/124 (0.81%)	Adverse Events	17
+Myocardial ischaemia * 1/124 (0.81%)	Adverse Events	18
+Pericardial effusion * 0/124 (0.00%)	Adverse Events	19
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sick Sinus Syndrome * 0/124 (0.00%)	Adverse Events	20
+sick sinus syndrome	HP:0011704,DOID:13884	0-19
+Sinus bradycardia * 2/124 (1.61%)	Adverse Events	21
+sinus bradycardia	HP:0001688	0-17

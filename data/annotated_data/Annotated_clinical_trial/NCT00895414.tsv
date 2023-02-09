@@ -1,0 +1,93 @@
+INTERVENTION 1:	Intervention	0
+Doxorubicin Hydrochloride Alone	Intervention	1
+doxorubicin hydrochloride	CHEBI:31522	0-25
+Participants who received doxorubicin hydrochloride alone in either Cycle 1 or Cycle 2.	Intervention	2
+doxorubicin hydrochloride	CHEBI:31522	26-51
+INTERVENTION 2:	Intervention	3
+Doxorubicin Hydrochloride With Enalapril	Intervention	4
+doxorubicin hydrochloride	CHEBI:31522	0-25
+enalapril	CHEBI:4784	31-40
+Participants who received doxorubicin hydrochloride with enalapril in either Cycle 1 or Cycle 2.	Intervention	5
+doxorubicin hydrochloride	CHEBI:31522	26-51
+enalapril	CHEBI:4784	57-66
+Inclusion Criteria:	Eligibility	0
+Tissue diagnosis of a breast carcinoma	Eligibility	1
+tissue	UBERON:0000479	0-6
+breast carcinoma	HP:0003002,DOID:3459	22-38
+The oncologist must have prescribed doxorubicin as part of the planned chemotherapy regimen	Eligibility	2
+doxorubicin	CHEBI:28748,BAO:0000639	36-47
+part of	BAO:0090002,BFO:0000050	51-58
+Have acceptable organ function within 14 days of enrollment defined as:	Eligibility	3
+organ	UBERON:0000062	16-21
+function	BAO:0003117,BFO:0000034	22-30
+liver function: total bilirubin, AST and ALT within normal institutional limits	Eligibility	4
+liver	UBERON:0002107	0-5
+function	BAO:0003117,BFO:0000034	6-14
+kidney function: estimated Creatinine Clearance > 60 ml/min calculated creatinine clearance (for females) - formula: (140 - age) x weight x .85 divided by (sCr x 72)	Eligibility	5
+kidney	UBERON:0002113	0-6
+function	BAO:0003117,BFO:0000034	7-15
+creatinine clearance	CMO:0000765	27-47
+creatinine clearance	CMO:0000765	71-91
+age	PATO:0000011	124-127
+x	LABO:0000148	129-130
+x	LABO:0000148	138-139
+x	LABO:0000148	160-161
+At least 18 years old	Eligibility	6
+Patient must have given written informed consent indicating an understanding of the investigational nature of the study	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+Agrees not to consume grapefruit juice while on the study	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Known allergy to enalapril	Eligibility	10
+allergy	HP:0012393	6-13
+enalapril	CHEBI:4784	17-26
+Taking any known P450 cytochrome inducers or inhibitors	Eligibility	11
+cytochrome	CHEBI:4056,GO:0045158	22-32
+Taking any herbal supplements while on the study or the week prior to receiving doxorubicin	Eligibility	12
+week	UO:0000034	56-60
+doxorubicin	CHEBI:28748,BAO:0000639	80-91
+Taking an ace-inhibitor or angiotensin receptor blocker	Eligibility	13
+angiotensin	CHEBI:48433	27-38
+receptor	BAO:0000281	39-47
+Pregnant or lactating. Enalapril is Pregnancy Categories C (first trimester) and D (second and third trimesters)	Eligibility	14
+enalapril	CHEBI:4784	23-32
+second	UO:0000010	84-90
+Outcome Measurement:	Results	0
+Number of Patients With Doxorubicin Plasma Concentrations Demonstrating a Significant Increase or Decrease When Doxorubicin Was Given With Enalapril as Compared to When Doxorubicin Was Given Without Enalapril.	Results	1
+doxorubicin	CHEBI:28748,BAO:0000639	24-35
+doxorubicin	CHEBI:28748,BAO:0000639	112-123
+doxorubicin	CHEBI:28748,BAO:0000639	169-180
+increase	BAO:0001251	86-94
+enalapril	CHEBI:4784	139-148
+enalapril	CHEBI:4784	199-208
+Doxorubicin plasma concentration (DPC) is the primary pharmacokinetic (PK) measure of the exposure. Each patient will have serial PKs performed twice - once with enalapril and once without enalapril. A mean increase or decrease of more than 115 ng/ml in DPC will be considered significant.	Results	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+patient	HADO:0000008,OAE:0001817	105-112
+enalapril	CHEBI:4784	162-171
+enalapril	CHEBI:4784	189-198
+mean	BAO:0002173	202-206
+increase	BAO:0001251	207-215
+Time frame: Baseline, 0.5, 1.0, 2.0, 4.0, 24.0 and 48.0 hours after infusion of doxorubicin	Results	3
+time	PATO:0000165	0-4
+doxorubicin	CHEBI:28748,BAO:0000639	80-91
+Results 1:	Results	4
+Arm/Group Title: Doxorubicin Hydrochloride Alone	Results	5
+doxorubicin hydrochloride	CHEBI:31522	17-42
+Arm/Group Description: Participants who received doxorubicin hydrochloride alone in either Cycle 1 or Cycle 2.	Results	6
+doxorubicin hydrochloride	CHEBI:31522	49-74
+Overall Number of Participants Analyzed: 17	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Doxorubicin Hydrochloride With Enalapril	Results	11
+doxorubicin hydrochloride	CHEBI:31522	17-42
+enalapril	CHEBI:4784	48-57
+Arm/Group Description: Participants who received doxorubicin hydrochloride with enalapril in either Cycle 1 or Cycle 2.	Results	12
+doxorubicin hydrochloride	CHEBI:31522	49-74
+enalapril	CHEBI:4784	80-89
+Overall Number of Participants Analyzed: 17	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/8 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/9 (0.00%)	Adverse Events	3

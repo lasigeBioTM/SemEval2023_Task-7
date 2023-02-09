@@ -1,0 +1,167 @@
+INTERVENTION 1:	Intervention	0
+Group 2 (Basal) Standard Treatment	Intervention	1
+group	CHEBI:24433	0-5
+Epirubicin (E) 90 mg/ m2 intravenous (iv) in combination with Cyclophosphamide (C) 600 mg/ m2 iv every 21 days for 4 cycles, followed by docetaxel (D)100 mg/m2 iv every 21 days for 4 cycles.	Intervention	2
+m2	CHEBI:34827	22-24
+m2	CHEBI:34827	91-93
+m2	CHEBI:34827	157-159
+cyclophosphamide	CHEBI:4026	62-78
+INTERVENTION 2:	Intervention	3
+Group 2 (Basal) Selective Treatment	Intervention	4
+group	CHEBI:24433	0-5
+Epirubicin (E) 90 mg/ m2 intravenous (iv) in combination with Cyclophosphamide (C) 600 mg/ m2 iv every 21 days for 4 cycles, followed by docetaxel (D)100 mg/m2 iv and carboplatin (Cb) (area under the curve = 6 mg/mL) iv every 21 days for 4 cycles.	Intervention	5
+m2	CHEBI:34827	22-24
+m2	CHEBI:34827	91-93
+m2	CHEBI:34827	157-159
+cyclophosphamide	CHEBI:4026	62-78
+carboplatin	CHEBI:31355	167-178
+area	PATO:0001323	185-189
+Inclusion Criteria:	Eligibility	0
+Written informed consent.	Eligibility	1
+Breast cancer with histological diagnosis.	Eligibility	2
+breast cancer	DOID:1612	0-13
+Negative Human Epidermal Growth Factor Receptor 2 (HER2) tumours defined as immunohistochemistry (IHQ) 0,1+.	Eligibility	3
+growth factor	BAO:0002024	25-38
+receptor	BAO:0000281	39-47
+immunohistochemistry	BAO:0000415	76-96
+No evidence of suspicion of metastatic disease.	Eligibility	4
+disease	DOID:4,OGMS:0000031	39-46
+Age >= 18 years old.	Eligibility	5
+age	PATO:0000011	0-3
+Performance status (Karnofsky index) >= 80 (ECOG 0,1).	Eligibility	6
+Adequate cardiac function by ECG in the previous 12 weeks.	Eligibility	7
+function	BAO:0003117,BFO:0000034	17-25
+Hematology: neutrophils >= 1,5 x10^9/l; platelets >= 100 x10^9/l; hemoglobin >= 10 g/dl.	Eligibility	8
+hemoglobin	CHEBI:35143	66-76
+Adequate hepatic function: total bilirubin <= 1x Upper Normal Limit (UNL); Aspartate aminotransferase (AST) (SGOT) and Alanine aminotransferase (ALT) (SGPT) <= 2.5 x UNL; alkaline phosphatase <= 2.5 x UNL.	Eligibility	9
+function	BAO:0003117,BFO:0000034	17-25
+aspartate	CHEBI:29995	75-84
+alanine	CHEBI:16449	119-126
+x	LABO:0000148	47-48
+x	LABO:0000148	164-165
+x	LABO:0000148	199-200
+phosphatase	GO:0016791,BAO:0000295	180-191
+Adequate renal function: creatinine <= 1 x UNL; creatinine clearance >= 60 ml/min.	Eligibility	10
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	25-35
+creatinine	CHEBI:16737	48-58
+x	LABO:0000148	41-42
+creatinine clearance	CMO:0000765	48-68
+Patients able to comply with study treatment and follow-up.	Eligibility	11
+Negative pregnancy test in the previous 14 days.	Eligibility	12
+Exclusion Criteria:	Eligibility	13
+HER2 positive tumours (defined as IHQ 3+ or positive fluorescence in situ hybridization [FISH]).	Eligibility	14
+Prior systemic therapy for breast cancer (immunotherapy, hormonotherapy, chemotherapy).	Eligibility	15
+breast cancer	DOID:1612	27-40
+Prior treatment with anthracyclines or taxanes (paclitaxel, docetaxel) for any previous malignancy.	Eligibility	16
+paclitaxel	CHEBI:45863	48-58
+Prior radiotherapy for breast cancer.	Eligibility	17
+radiotherapy	OAE:0000235	6-18
+breast cancer	DOID:1612	23-36
+Bilateral invasive breast cancer.	Eligibility	18
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	19-32
+Pregnant or lactating women.	Eligibility	19
+Previous grade >= 2 motor or sensorial neurotoxicity (National Cancer Institute Common Toxicity Criteria [NCICTC]).	Eligibility	20
+cancer	DOID:162	63-69
+Other serious comorbidities: congestive heart failure or unstable angina; prior history of myocardial infarction in previous year; uncontrolled hypertension (HT); high risk arrhythmias; history of significant neurological or psychiatric disorders; uncontrolled active infection; active peptic ulcer; unstable diabetes mellitus; dyspnea at rest; or chronic therapy with oxygen.	Eligibility	21
+congestive heart failure	HP:0001635,DOID:6000	29-53
+history	BFO:0000182	80-87
+history	BFO:0000182	186-193
+myocardial infarction	HP:0001658,DOID:5844	91-112
+year	UO:0000036	125-129
+hypertension	HP:0000822,DOID:10763	144-156
+active	PATO:0002354	261-267
+active	PATO:0002354	279-285
+peptic ulcer	HP:0004398	286-298
+diabetes mellitus	HP:0000819,DOID:9351	309-326
+dyspnea	HP:0002094	328-335
+chronic	HP:0011010	348-355
+Previous or current history of neoplasms different from breast cancer, except for skin carcinoma, cervical in situ carcinoma, or any other tumor curatively treated and without recurrence in the last 10 years; ductal in situ carcinoma in the same breast; lobular in situ carcinoma.	Eligibility	22
+history	BFO:0000182	20-27
+breast cancer	DOID:1612	56-69
+skin carcinoma	DOID:3451	82-96
+in situ carcinoma	DOID:8719	107-124
+in situ carcinoma	DOID:8719	216-233
+in situ carcinoma	DOID:8719	262-279
+breast	UBERON:0000310	56-62
+breast	UBERON:0000310	246-252
+Chronic treatment with corticosteroids.	Eligibility	23
+chronic	HP:0011010	0-7
+Contraindications for administration of corticosteroids.	Eligibility	24
+Concomitant treatment with other therapy for cancer.	Eligibility	25
+cancer	DOID:162	45-51
+Males.	Eligibility	26
+Outcome Measurement:	Results	0
+Pathological Response for Basal Group 2	Results	1
+group	CHEBI:24433	32-37
+This primary outcome only applies for the basal group 2 as per protocol. The pathological response in luminal group 1 was not pre-specified even as a Secondary Outcome. Pathological response was assessed after surgery, according to the Miller & Payne criteria, which stratifies the responses based on the proportion of remaining tumor and post-chemotherapy changes, evaluating separately the response in breast and axilla. Grades 1-4 are categorised as a partial pathological response (pPR) and grade 5 was a complete pathological response (cPR).	Results	2
+group	CHEBI:24433	48-53
+group	CHEBI:24433	110-115
+surgery	OAE:0000067	210-217
+breast	UBERON:0000310	404-410
+Time frame: Up to 24 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Group 2 (Basal) Standard Treatment	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Epirubicin (E) 90 mg/ m2 intravenous (iv) in combination with Cyclophosphamide (C) 600 mg/ m2 iv every 21 days for 4 cycles, followed by docetaxel (D)100 mg/m2 iv every 21 days for 4 cycles.	Results	6
+m2	CHEBI:34827	45-47
+m2	CHEBI:34827	114-116
+m2	CHEBI:34827	180-182
+cyclophosphamide	CHEBI:4026	85-101
+Overall Number of Participants Analyzed: 46	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Grade 5: 16  34.8%	Results	9
+Grade 4: 5  10.9%	Results	10
+Grade 3: 11  23.9%	Results	11
+Grade 2: 8  17.4%	Results	12
+Grade 1: 5  10.9%	Results	13
+Not available: 1   2.2%	Results	14
+Results 2:	Results	15
+Arm/Group Title: Group 2 (Basal) Selective Treatment	Results	16
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Epirubicin (E) 90 mg/ m2 intravenous (iv) in combination with Cyclophosphamide (C) 600 mg/ m2 iv every 21 days for 4 cycles, followed by docetaxel (D)100 mg/m2 iv and carboplatin (Cb) (area under the curve = 6 mg/mL) iv every 21 days for 4 cycles.	Results	17
+m2	CHEBI:34827	45-47
+m2	CHEBI:34827	114-116
+m2	CHEBI:34827	180-182
+cyclophosphamide	CHEBI:4026	85-101
+carboplatin	CHEBI:31355	190-201
+area	PATO:0001323	208-212
+Overall Number of Participants Analyzed: 47	Results	18
+Measure Type: Count of Participants	Results	19
+Unit of Measure: Participants  Grade 5: 14  29.8%	Results	20
+Grade 4: 11  23.4%	Results	21
+Grade 3: 8  17.0%	Results	22
+Grade 2: 9  19.1%	Results	23
+Grade 1: 4   8.5%	Results	24
+Not available: 1   2.1%	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 5/45 (11.11%)	Adverse Events	1
+Neutrophils/granulocytes (ANC/AGC) *  [1]0/45 (0.00%)	Adverse Events	2
+Neutrophils/granulocytes (ANC/AGC) *  [2]0/45 (0.00%)	Adverse Events	3
+Diabetes decompensation * 0/45 (0.00%)	Adverse Events	4
+Diarrhea *  [2]0/45 (0.00%)	Adverse Events	5
+diarrhea	HP:0002014,DOID:13250	0-8
+Mucositis/stomatitis and Vomiting *  [3]0/45 (0.00%)	Adverse Events	6
+vomiting	HP:0002013	25-33
+Pancreatitis *  [4]1/45 (2.22%)	Adverse Events	7
+pancreatitis	HP:0001733,DOID:4989	0-12
+Febrile neutropenia *  [2]3/45 (6.67%)	Adverse Events	8
+neutropenia	HP:0001875,DOID:1227	8-19
+Adverse Events 2:	Adverse Events	9
+Total: 0/46 (0.00%)	Adverse Events	10
+Neutrophils/granulocytes (ANC/AGC) *  [1]0/46 (0.00%)	Adverse Events	11
+Neutrophils/granulocytes (ANC/AGC) *  [2]0/46 (0.00%)	Adverse Events	12
+Diabetes decompensation * 0/46 (0.00%)	Adverse Events	13
+Diarrhea *  [2]0/46 (0.00%)	Adverse Events	14
+diarrhea	HP:0002014,DOID:13250	0-8
+Mucositis/stomatitis and Vomiting *  [3]0/46 (0.00%)	Adverse Events	15
+vomiting	HP:0002013	25-33
+Pancreatitis *  [4]0/46 (0.00%)	Adverse Events	16
+pancreatitis	HP:0001733,DOID:4989	0-12
+Febrile neutropenia *  [2]0/46 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Infection pulmonary/ Upper airway NOS *  [5]0/46 (0.00%)	Adverse Events	18

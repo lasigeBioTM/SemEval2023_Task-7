@@ -1,0 +1,208 @@
+INTERVENTION 1:	Intervention	0
+Eribulin Mesylate 1.4 mg/m^2	Intervention	1
+eribulin mesylate	CHEBI:70710	0-17
+Eribulin mesylate 1.4 mg/m^2 intravenous (IV) infusion given over 2-5 minutes on Days 1 and 8 every 21 days.	Intervention	2
+eribulin mesylate	CHEBI:70710	0-17
+INTERVENTION 2:	Intervention	3
+Capecitabine 2.5 g/m^2/Day	Intervention	4
+capecitabine	CHEBI:31348	0-12
+Capecitabine : Capecitabine 2.5 g/m^2/day administered orally twice daily in two equal doses on Days 1 to 14 every 21 days.	Intervention	5
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	15-27
+Inclusion Criteria:	Eligibility	0
+Female patients with histologically or cytologically confirmed carcinoma of the breast. Every effort should be made to ensure that paraffin embedded tissue or slides from the diagnostic biopsy or surgical specimen are available for confirmation of diagnosis.	Eligibility	1
+female	PATO:0000383	0-6
+carcinoma	HP:0030731,DOID:305	63-72
+breast	UBERON:0000310	80-86
+tissue	UBERON:0000479	149-155
+Patients with locally advanced or metastatic disease who have received up to three prior chemotherapy regimens, and no more than two prior regimens for advanced and/or metastatic disease.	Eligibility	2
+disease	DOID:4,OGMS:0000031	45-52
+disease	DOID:4,OGMS:0000031	179-186
+Regimens must have included an anthracycline (e.g., doxorubicin, epirubicin) and a taxane (e.g., paclitaxel, docetaxel), either in combination or in separate regimens.	Eligibility	3
+anthracycline	CHEBI:48120	31-44
+doxorubicin	CHEBI:28748,BAO:0000639	52-63
+taxane	CHEBI:36064	83-89
+paclitaxel	CHEBI:45863	97-107
+Patients with known human epidermal growth factor 2 (HER2/neu) over-expressing tumors may additionally have been treated with trastuzumab in centers where this treatment is available.	Eligibility	4
+growth factor	BAO:0002024	36-49
+Patients with known estrogen and/or progesterone receptor-expressing tumors may have additionally been treated with hormonal therapy.	Eligibility	5
+estrogen	CHEBI:50114,BAO:0000760	20-28
+progesterone	CHEBI:17026	36-48
+Resolution of all chemotherapy or radiation-related toxicities to Grade 1 severity or lower, except for stable sensory neuropathy <= Grade 2 and alopecia.	Eligibility	6
+severity	HP:0012824	74-82
+stable	HP:0031915	104-110
+sensory neuropathy	HP:0000763,DOID:2491	111-129
+alopecia	HP:0001596,DOID:987	145-153
+Age >= 18 years.	Eligibility	7
+age	PATO:0000011	0-3
+Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1 or 2.	Eligibility	8
+group	CHEBI:24433	29-34
+Life expectancy of >= 3 months.	Eligibility	9
+Adequate renal function as evidenced by serum creatinine <1.5 mg/dL or calculated creatinine clearance > 50 mL/minute (min) per the Cockcroft and Gault formula.	Eligibility	10
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	46-56
+creatinine	CHEBI:16737	82-92
+creatinine clearance	CMO:0000765	82-102
+Adequate bone marrow function as evidenced by absolute neutrophil count (ANC) >= 1.5 x 10^9/L, hemoglobin >= 10.0 g/dL (a hemoglobin < 10.0 g/dL acceptable if it is corrected by growth factor or transfusion), and platelet count >= 100 x 10^9/L.	Eligibility	11
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+x	LABO:0000148	85-86
+x	LABO:0000148	235-236
+hemoglobin	CHEBI:35143	95-105
+hemoglobin	CHEBI:35143	122-132
+growth factor	BAO:0002024	178-191
+platelet count	CMO:0000029	213-227
+Adequate liver function as evidenced by bilirubin <= 1.5 times the upper limits of normal (ULN) and alkaline phosphatase, alanine transaminase (ALT), and aspartate transaminase (AST) <= 3 x ULN (in the case of liver metastases <= 5 x ULN), or in case of bone metastases, liver specific alkaline phosphatase <= 3 x ULN.	Eligibility	12
+liver	UBERON:0002107	9-14
+liver	UBERON:0002107	210-215
+liver	UBERON:0002107	271-276
+function	BAO:0003117,BFO:0000034	15-23
+phosphatase	GO:0016791,BAO:0000295	109-120
+phosphatase	GO:0016791,BAO:0000295	295-306
+alanine	CHEBI:16449	122-129
+aspartate	CHEBI:29995	154-163
+x	LABO:0000148	188-189
+x	LABO:0000148	232-233
+x	LABO:0000148	312-313
+Patients willing and able to complete the EORTC (European Organization for Research on the Treatment of Cancer) quality of life questionnaire (QLQ-C30 with breast cancer module QLQ-BR23) and to record their pain level on the Visual Analog Scale (VAS).	Eligibility	13
+cancer	DOID:162	104-110
+cancer	DOID:162	163-169
+quality	BAO:0002928,BFO:0000019	112-119
+breast cancer	DOID:1612	156-169
+pain	HP:0012531	207-211
+Patients willing and able to comply with the study protocol for the duration of the study.	Eligibility	14
+duration	PATO:0001309	68-76
+Written informed consent prior to any study-specific screening procedures with the understanding that the patient may withdraw consent at any time without prejudice.	Eligibility	15
+patient	HADO:0000008,OAE:0001817	106-113
+time	PATO:0000165	142-146
+Exclusion Criteria:	Eligibility	16
+Patients who have received more than three prior chemotherapy regimens for their disease, including adjuvant therapies, or patients who have received more than two prior chemotherapy regimens for advanced disease (other therapies are allowed e.g., anti-estrogens, trastuzumab and radiotherapy).	Eligibility	17
+disease	DOID:4,OGMS:0000031	81-88
+disease	DOID:4,OGMS:0000031	205-212
+adjuvant	CHEBI:60809	100-108
+radiotherapy	OAE:0000235	280-292
+Patients who have received capecitabine as a prior therapy for their disease.	Eligibility	18
+capecitabine	CHEBI:31348	27-39
+disease	DOID:4,OGMS:0000031	69-76
+Patients who have received chemotherapy, radiation, or biological therapy within two weeks, or hormonal therapy, within one week before study treatment start, or any investigational drug within four weeks before study treatment start.	Eligibility	19
+week	UO:0000034	85-89
+week	UO:0000034	124-128
+week	UO:0000034	199-203
+drug	CHEBI:23888	182-186
+Radiation therapy encompassing > 30% of marrow.	Eligibility	20
+Prior treatment with mitomycin C or nitrosourea.	Eligibility	21
+mitomycin c	CHEBI:27504	21-32
+Pulmonary lymphangitic involvement that results in pulmonary dysfunction requiring active treatment, including the use of oxygen.	Eligibility	22
+active	PATO:0002354	83-89
+Patients with brain or subdural metastases are not eligible, unless they have completed local therapy and have discontinued the use of corticosteroids for this indication for at least 4 weeks before starting treatment with study treatment. Any symptoms attributed to brain metastases must be stable for at least 4 weeks before starting study treatment; radiographic stability should be determined by comparing a contrast-enhanced Computed Tomography Scan (CT) or Magnetic Resonance Imaging (MRI) brain scan performed during screening to a prior scan performed at least 4 weeks earlier.	Eligibility	23
+brain	UBERON:0000955	14-19
+brain	UBERON:0000955	267-272
+brain	UBERON:0000955	496-501
+stable	HP:0031915	292-298
+tomography	BAO:0002525	439-449
+ct	BAO:0002125	456-458
+Patients with meningeal carcinomatosis.	Eligibility	24
+Patients who are receiving anti-coagulant therapy with warfarin or related compounds, other than for line patency, and cannot be changed to heparin-based therapy, are not eligible. If a patient is to continue on mini-dose warfarin, then the prothrombin time (PT)/international normalized ratio (INR) must be closely monitored.	Eligibility	25
+warfarin	CHEBI:10033	55-63
+warfarin	CHEBI:10033	222-230
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	186-193
+prothrombin time	CMO:0000211	241-257
+ratio	UO:0000190	288-293
+Women who are pregnant or breast-feeding; women of childbearing potential with either a positive pregnancy test at screening or no pregnancy test; women of childbearing potential unless (1) surgically sterile or (2) using adequate measures of contraception (considered to be two methods of contraception, one of which must be a barrier method, e.g. condom, diaphragm or cervical cap). Perimenopausal women must be amenorrheic for at least 12 months to be considered of non-childbearing potential.	Eligibility	26
+diaphragm	UBERON:0001103	357-366
+Severe/uncontrolled intercurrent illness/infection.	Eligibility	27
+Significant cardiovascular impairment (history of congestive heart failure > New York Heart Association [NYHA] Grade II, unstable angina or myocardial infarction within the past six months, or serious cardiac arrhythmia).	Eligibility	28
+history	BFO:0000182	39-46
+congestive heart failure	HP:0001635,DOID:6000	50-74
+heart	UBERON:0000948	61-66
+heart	UBERON:0000948	86-91
+myocardial infarction	HP:0001658,DOID:5844	140-161
+arrhythmia	HP:0011675	209-219
+Patients with organ allografts requiring immunosuppression.	Eligibility	29
+organ	UBERON:0000062	14-19
+Patients with known positive human immunodeficiency virus (HIV) status.	Eligibility	30
+immunodeficiency	HP:0002721	35-51
+virus	BAO:0000232	52-57
+Patients who have had a prior malignancy, other than carcinoma in situ of the cervix, or non-melanoma skin cancer, unless the prior malignancy was diagnosed and definitively treated >= 5 years previously with no subsequent evidence of recurrence.	Eligibility	31
+carcinoma	HP:0030731,DOID:305	53-62
+skin cancer	DOID:4159	102-113
+Patients with pre-existing neuropathy > Grade 2.	Eligibility	32
+neuropathy	DOID:870	27-37
+Patients with a hypersensitivity to halichondrin B and/or halichondrin B chemical derivative.	Eligibility	33
+hypersensitivity	GO:0002524,DOID:1205	16-32
+halichondrin b	CHEBI:80731	36-50
+halichondrin b	CHEBI:80731	58-72
+Patients who participated in a prior E7389 clinical trial.	Eligibility	34
+Patients with other significant disease or disorders that, in the Investigator's opinion, would exclude the patient from the study.	Eligibility	35
+disease	DOID:4,OGMS:0000031	32-39
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	108-115
+Outcome Measurement:	Results	0
+Overall Survival (OS)	Results	1
+OS was measured from the date of randomization until the date of death from any cause, or the last date the participant was known to be alive. Participants who were lost to follow-up or who were alive at the date of data cutoff were censored. The censoring rules for OS were as follows: 1) if the participant was still alive at data cutoff, the date of data cutoff was considered the end date, and 2) if the participant was lost to follow-up before data cutoff, the date they were last known to be alive was considered the end date. Participants who survived past the end of the study were counted as in the full study period. If death occurred after data cutoff, the end date was to be censored at the time of data cutoff.	Results	2
+death	OAE:0000632	65-70
+death	OAE:0000632	630-635
+time	PATO:0000165	703-707
+Time frame: From date of randomization until date of death from any cause, assessed up to data cutoff date of 12 Mar 2012, or up to approximately 6 years	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	53-58
+Results 1:	Results	4
+Arm/Group Title: Eribulin Mesylate 1.4 mg/m^2	Results	5
+eribulin mesylate	CHEBI:70710	17-34
+Arm/Group Description: Eribulin mesylate 1.4 mg/m^2 intravenous (IV) infusion given over 2-5 minutes on Days 1 and 8 every 21 days.	Results	6
+eribulin mesylate	CHEBI:70710	23-40
+Overall Number of Participants Analyzed: 554	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: days  484        (462 to 536)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Capecitabine 2.5 g/m^2/Day	Results	11
+capecitabine	CHEBI:31348	17-29
+Arm/Group Description: Capecitabine : Capecitabine 2.5 g/m^2/day administered orally twice daily in two equal doses on Days 1 to 14 every 21 days.	Results	12
+capecitabine	CHEBI:31348	23-35
+capecitabine	CHEBI:31348	38-50
+Overall Number of Participants Analyzed: 548	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: days  440        (400 to 487)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 95/544 (17.46%)	Adverse Events	1
+Neutropenia 10/544 (1.84%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile Neutropenia 7/544 (1.29%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 4/544 (0.74%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Anaemia 3/544 (0.55%)	Adverse Events	5
+Pancytopenia 1/544 (0.18%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/544 (0.00%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiopulmonary Failure 1/544 (0.18%)	Adverse Events	8
+Myocardial Infarction 1/544 (0.18%)	Adverse Events	9
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericardial Effusion 1/544 (0.18%)	Adverse Events	10
+pericardial effusion	HP:0001698,DOID:118	0-20
+Angina Pectoris 1/544 (0.18%)	Adverse Events	11
+angina pectoris	HP:0001681	0-15
+Adverse Events 2:	Adverse Events	12
+Total: 115/546 (21.06%)	Adverse Events	13
+Neutropenia 1/546 (0.18%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile Neutropenia 4/546 (0.73%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/546 (0.00%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Anaemia 0/546 (0.00%)	Adverse Events	17
+Pancytopenia 1/546 (0.18%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 1/546 (0.18%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiopulmonary Failure 1/546 (0.18%)	Adverse Events	20
+Myocardial Infarction 1/546 (0.18%)	Adverse Events	21
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericardial Effusion 1/546 (0.18%)	Adverse Events	22
+pericardial effusion	HP:0001698,DOID:118	0-20
+Angina Pectoris 0/546 (0.00%)	Adverse Events	23
+angina pectoris	HP:0001681	0-15

@@ -1,0 +1,85 @@
+INTERVENTION 1:	Intervention	0
+Chemotherapy With GM-CSF	Intervention	1
+Doxorubicin and Cyclophosphamide (AC) with Granulocyte-macrophage colony-stimulating factor (GM-CSF) (days 4-13) Followed by Weekly Carboplatin/Nab- Paclitaxel	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	16-32
+paclitaxel	CHEBI:45863	149-159
+Inclusion Criteria:	Eligibility	0
+Patients must be women with a histologically confirmed diagnosis of breast cancer that is more than 2 cm and/or lymph node positive. Histologic confirmation shall be by either core needle biopsy or incisional biopsy. Punch biopsy is allowed if invasive breast cancer is documented.	Eligibility	1
+breast cancer	DOID:1612	68-81
+breast cancer	DOID:1612	253-266
+lymph	UBERON:0002391	112-117
+Patients must meet one of the criteria defined below (indicate one):	Eligibility	2
+Selected Stage IIB (T3, N0, M0) or IIIA (T3, N1-2, M0) disease judged primarily unresectable by an experienced breast surgeon; or otherwise deemed - appropriate candidates for neoadjuvant treatment.	Eligibility	3
+disease	DOID:4,OGMS:0000031	55-62
+breast	UBERON:0000310	111-117
+Stage IIIB (T4, Any N, M0) or (Any T, N3, M0) disease.	Eligibility	4
+t	CHEBI:36371,BAO:0001260	1-2
+t	CHEBI:36371,BAO:0001260	12-13
+t	CHEBI:36371,BAO:0001260	35-36
+disease	DOID:4,OGMS:0000031	46-53
+Physical examination, chest x-ray and any x-rays or scans needed for tumor assessment must be performed within 90 days prior to registration.	Eligibility	5
+physical examination	OAE:0004232	0-20
+chest	UBERON:0001443	22-27
+All patients must have a multiple gated acquisition (MUGA) scan or echocardiogram scan performed within 90 days prior to registration and left ventricular ejection fraction (LVEF) percentage must be greater than the institutional lower limit of normal.	Eligibility	6
+left	HP:0012835	138-142
+ejection fraction	CMO:0000180	155-172
+Patients must have a serum creatinine and bilirubin  the institutional upper limit of normal, and an serum glutamate oxaloacetate transaminase (SGOT) or serum glutamate pyruvate transaminase (SGPT)  2x the institutional upper limit of normal. These tests must have been performed within 90 days prior to registration.	Eligibility	7
+creatinine	CHEBI:16737	27-37
+glutamate	CHEBI:14321,BAO:0000926	107-116
+glutamate	CHEBI:14321,BAO:0000926	159-168
+pyruvate	CHEBI:15361	169-177
+Patients must have an absolute neutrophil count (ANC) of  1,500/μl and a platelet count of  100,000/μl. These tests must have been performed within 90 days prior to registration.	Eligibility	8
+platelet count	CMO:0000029	73-87
+Patients must have a performance status of 0-2 by Zubrod criteria	Eligibility	9
+In calculating days of tests and measurements, the day a test or measurement is done is considered Day 0. Therefore, if a test is done on a Monday, the Monday four weeks later would be considered Day 28. This allows for efficient patient scheduling without exceeding the guidelines. If Day 28 or 42 falls on a weekend or holiday, the limit may be extended to the next working day.	Eligibility	10
+day	UO:0000033	15-18
+day	UO:0000033	51-54
+day	UO:0000033	99-102
+day	UO:0000033	143-146
+day	UO:0000033	155-158
+day	UO:0000033	196-199
+day	UO:0000033	286-289
+day	UO:0000033	325-328
+day	UO:0000033	376-379
+patient	HADO:0000008,OAE:0001817	230-237
+falls	HP:0002527	299-304
+All patients must be informed of the investigational nature of this study and must sign and give written informed consent in accordance with institutional and federal guidelines.	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+Patients with the clinical diagnosis of congestive heart failure or angina pectoris are NOT eligible.	Eligibility	13
+congestive heart failure	HP:0001635,DOID:6000	40-64
+angina pectoris	HP:0001681	68-83
+Pregnant or nursing women may not participate due to the possibility of fetal harm or of harm to nursing infants from this treatment regimen. Women of reproductive potential may not participate unless they have agreed to use an effective contraceptive method. A urine pregnancy test is required for women of childbearing potential.	Eligibility	14
+urine	UBERON:0001088	262-267
+Outcome Measurement:	Results	0
+Overall Clinical Response to the Dose Dense Regimen	Results	1
+Measure clinical response rates in patients with breast cancer more than 2 cm and/or lymph node positive breast cancer treated with 2- 4 cycles of biweekly doxorubicin, cyclophosphamide with GMCSF (day 4-13) followed by weekly carboplatin/nab-paclitaxel given for 3 weeks, followed by 1 week of rest, for a total of 9-12 doses. (Her-2 positive patients, in addition, will receive Trastuzumab weekly (12-16 doses) and Her-2 negative patients will receive Bevacizumab (6-8 doses) q 2 weeks).	Results	2
+breast cancer	DOID:1612	49-62
+breast cancer	DOID:1612	105-118
+lymph	UBERON:0002391	85-90
+doxorubicin	CHEBI:28748,BAO:0000639	156-167
+cyclophosphamide	CHEBI:4026	169-185
+day	UO:0000033	198-201
+week	UO:0000034	149-153
+week	UO:0000034	220-224
+week	UO:0000034	266-270
+week	UO:0000034	287-291
+week	UO:0000034	392-396
+week	UO:0000034	482-486
+Time frame: 3 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Chemotherapy With GM-CSF	Results	5
+Arm/Group Description: Doxorubicin and Cyclophosphamide (AC) with Granulocyte-macrophage colony-stimulating factor (GM-CSF) (days 4-13) Followed by Weekly Carboplatin/Nab- Paclitaxel	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+cyclophosphamide	CHEBI:4026	39-55
+paclitaxel	CHEBI:45863	172-182
+Overall Number of Participants Analyzed: 43	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  43 100.0%	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 4/43 (9.30%)	Adverse Events	1
+Cardio Vascular Disease *1/43 (2.33%)	Adverse Events	2
+vascular disease	DOID:178	7-23
+Neutropenic fever  3/43 (6.98%)	Adverse Events	3
+fever	HP:0001945	12-17

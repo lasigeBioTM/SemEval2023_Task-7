@@ -1,0 +1,121 @@
+INTERVENTION 1:	Intervention	0
+Everolimus + Exemestane	Intervention	1
+everolimus	CHEBI:68478	0-10
+exemestane	CHEBI:4953	13-23
+Everolimus 10 mg daily in combination with exemestane 25 mg daily	Intervention	2
+everolimus	CHEBI:68478	0-10
+exemestane	CHEBI:4953	43-53
+INTERVENTION 2:	Intervention	3
+Placebo + Exemestane	Intervention	4
+exemestane	CHEBI:4953	10-20
+Placebo of everolimus in combination with exemestane 25 mg daily	Intervention	5
+everolimus	CHEBI:68478	11-21
+exemestane	CHEBI:4953	42-52
+Inclusion Criteria:	Eligibility	0
+Adult women ( 18 years of age) with metastatic or locally advanced breast cancer not amenable to curative treatment by surgery or radiotherapy.	Eligibility	1
+adult	EFO:0001272	0-5
+age	PATO:0000011	26-29
+breast cancer	DOID:1612	67-80
+surgery	OAE:0000067	119-126
+radiotherapy	OAE:0000235	130-142
+Histological or cytological confirmation of estrogen-receptor positive (ER+) breast cancer	Eligibility	2
+breast cancer	DOID:1612	77-90
+Postmenopausal women.	Eligibility	3
+Disease refractory to non steroidal aromatase inhibitors (NSAI),	Eligibility	4
+disease	DOID:4,OGMS:0000031	0-7
+refractory	HP:0031375	8-18
+Radiological or clinical evidence of recurrence or progression on or after the last systemic therapy prior to randomization.	Eligibility	5
+Patients must have at least one lesion that can be accurately measured or bone lesions in the absence of measurable disease as defined above.	Eligibility	6
+disease	DOID:4,OGMS:0000031	116-123
+Exclusion Criteria:	Eligibility	7
+HER2-overexpressing patients	Eligibility	8
+Patients with only non-measurable lesions other than bone metastasis (e.g. pleural effusion, ascites etc.).	Eligibility	9
+pleural effusion	HP:0002202	75-91
+ascites	HP:0001541	93-100
+Patients who received more than one chemotherapy line for Advanced Breast Cancer.	Eligibility	10
+breast cancer	DOID:1612	67-80
+Previous treatment with exemestane or mTOR inhibitors.	Eligibility	11
+exemestane	CHEBI:4953	24-34
+Known hypersensitivity to mTOR inhibitors, e.g. sirolimus (rapamycin).	Eligibility	12
+hypersensitivity	GO:0002524,DOID:1205	6-22
+sirolimus	CHEBI:9168	48-57
+Radiotherapy within four weeks prior to randomization	Eligibility	13
+radiotherapy	OAE:0000235	0-12
+Currently receiving hormone replacement therapy,	Eligibility	14
+hormone	CHEBI:24621	20-27
+Other protocol-defined inclusion/exclusion criteria may apply	Eligibility	15
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS) Based on Local Radiology Review of Tumor Assessments.	Results	1
+Progression-free survival, the primary endpoint in this study, is defined as the time from the date of randomization to the date of first documented radiological progression or death due to any cause. Disease progression was based on the tumor assessment by the local radiologist or investigator using RECIST 1.0 criteria. If a patient did not progress or known to have died at the date of the analysis cut-off or start of another antineoplastic therapy, the PFS date was censored to the date of last adequate tumor assessment prior to cut-off date or start of antineoplastic therapy. For patients with lytic or mixed (lytic+sclerotic) bone lesions, the following is considered progression: appearance of 1 new lytic lesions in bone; the appearance of  new lesions outside of bone and unequivocal progression of existing bone lesions.	Results	2
+time	PATO:0000165	81-85
+death	OAE:0000632	177-182
+disease	DOID:4,OGMS:0000031	201-208
+patient	HADO:0000008,OAE:0001817	328-335
+patient	HADO:0000008,OAE:0001817	589-596
+mixed	BAO:0002107	612-617
+Time frame: date of randomization to the date of first documented tumor progression or death from any cause, whichever occurs first, reported between day of first patient randomized up to about 19 months	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	87-92
+day	UO:0000033	150-153
+patient	HADO:0000008,OAE:0001817	163-170
+Results 1:	Results	4
+Arm/Group Title: Everolimus + Exemestane	Results	5
+everolimus	CHEBI:68478	17-27
+exemestane	CHEBI:4953	30-40
+Arm/Group Description: Everolimus 10 mg daily in combination with exemestane 25 mg daily	Results	6
+everolimus	CHEBI:68478	23-33
+exemestane	CHEBI:4953	66-76
+Overall Number of Participants Analyzed: 485	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  6.93        (6.44 to 8.05)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo + Exemestane	Results	11
+exemestane	CHEBI:4953	27-37
+Arm/Group Description: Placebo of everolimus in combination with exemestane 25 mg daily	Results	12
+everolimus	CHEBI:68478	34-44
+exemestane	CHEBI:4953	65-75
+Overall Number of Participants Analyzed: 239	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  2.83        (2.76 to 4.14)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 158/482 (32.78%)	Adverse Events	1
+Anaemia 7/482 (1.45%)	Adverse Events	2
+Disseminated intravascular coagulation 1/482 (0.21%)	Adverse Events	3
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Lymphadenopathy 0/482 (0.00%)	Adverse Events	4
+lymphadenopathy	HP:0002716	0-15
+Neutropenia 0/482 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 2/482 (0.41%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia 28/482 (1.66%)	Adverse Events	7
+Disseminated intravascular coagulation 21/482 (0.21%)	Adverse Events	8
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 21/482 (0.21%)	Adverse Events	9
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphadenopathy 20/482 (0.00%)	Adverse Events	10
+lymphadenopathy	HP:0002716	0-15
+Neutropenia 20/482 (0.00%)	Adverse Events	11
+neutropenia	HP:0001875,DOID:1227	0-11
+Adverse Events 2:	Adverse Events	12
+Total: 37/238 (15.55%)	Adverse Events	13
+Anaemia 2/238 (0.84%)	Adverse Events	14
+Disseminated intravascular coagulation 0/238 (0.00%)	Adverse Events	15
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Lymphadenopathy 1/238 (0.42%)	Adverse Events	16
+lymphadenopathy	HP:0002716	0-15
+Neutropenia 1/238 (0.42%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/238 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia 22/238 (0.84%)	Adverse Events	19
+Disseminated intravascular coagulation 20/238 (0.00%)	Adverse Events	20
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 21/238 (0.42%)	Adverse Events	21
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphadenopathy 21/238 (0.42%)	Adverse Events	22
+lymphadenopathy	HP:0002716	0-15
+Neutropenia 21/238 (0.42%)	Adverse Events	23
+neutropenia	HP:0001875,DOID:1227	0-11

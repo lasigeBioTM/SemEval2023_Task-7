@@ -1,0 +1,101 @@
+INTERVENTION 1:	Intervention	0
+Exemestane + Celecoxib	Intervention	1
+exemestane	CHEBI:4953	0-10
+celecoxib	CHEBI:41423	13-22
+Exemestane + celecoxib (16 weeks) vs. Baseline	Intervention	2
+exemestane	CHEBI:4953	0-10
+celecoxib	CHEBI:41423	13-22
+INTERVENTION 2:	Intervention	3
+Exemestane	Intervention	4
+exemestane	CHEBI:4953	0-10
+Exemestane (8 weeks) vs. Baseline	Intervention	5
+exemestane	CHEBI:4953	0-10
+Inclusion Criteria:	Eligibility	0
+Must be female with histologically confirmed breast cancer	Eligibility	1
+female	PATO:0000383	8-14
+breast cancer	DOID:1612	45-58
+Stage II-IV disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	12-19
+ER and/or PR positive	Eligibility	3
+ECOG Performance Status 0-1	Eligibility	4
+Tumor must be present following core needle biopsy as determined by physical exam or radiographic evaluation.	Eligibility	5
+present	PATO:0000467	14-21
+Postmenopausal	Eligibility	6
+No prior treatment for current breast cancer. No other active malignancy is allowed.Adequately treated basal cell, squamous cell skin cancer, in situ cervical cancer, or any other cancer from which the patient has been disease-free for 5 years is permitted. Biphosphonates and palliative radiation for bone metastasis is permitted while on study.	Eligibility	7
+breast cancer	DOID:1612	31-44
+active	PATO:0002354	55-61
+skin cancer	DOID:4159	129-140
+cervical cancer	DOID:4362	150-165
+cancer	DOID:162	38-44
+cancer	DOID:162	134-140
+cancer	DOID:162	159-165
+cancer	DOID:162	180-186
+patient	HADO:0000008,OAE:0001817	202-209
+Hormone replacement therapy must be discontinued. It is not permitted during the time on study.	Eligibility	8
+hormone	CHEBI:24621	0-7
+time	PATO:0000165	81-85
+Exclusion Criteria:	Eligibility	9
+Known history of aspirin or NSAID induced asthma, urticaria or allergic reactions; or allergy to sulfonamides severe enough in nature to require emergency room treatment or hospitalization.	Eligibility	10
+history	BFO:0000182	6-13
+asthma	HP:0002099,DOID:2841	42-48
+urticaria	HP:0001025,DOID:1555	50-59
+allergy	HP:0012393	86-93
+severe	HP:0012828	110-116
+History of myocardial infarction or other thrombotic events.	Eligibility	11
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+Inflammatory breast cancer (edema or ulceration of the skin of the breast).	Eligibility	12
+breast cancer	DOID:1612	13-26
+edema	HP:0000969	28-33
+breast	UBERON:0000310	13-19
+breast	UBERON:0000310	67-73
+Significant renal dysfunction (serum creatinine > 1.5 x upper limit of normal).	Eligibility	13
+creatinine	CHEBI:16737	37-47
+x	LABO:0000148	54-55
+Significant hepatic dysfunction (serum bilirubin > 1.5 x upper limit of normal or AST, ALT > 3 x upper limit of normal)	Eligibility	14
+x	LABO:0000148	55-56
+x	LABO:0000148	95-96
+ANC <1.5, platelets <100,000 K/uL, and hemoglobin < 9 g/dL.	Eligibility	15
+hemoglobin	CHEBI:35143	39-49
+Use of other COX-2 inhibitors such as rofecoxib (Vioxx®, aspirin, trisalicylate (Trilisate®), is not permitted during the time on study. No washout period is required. Baby aspirin, 81 mg po daily, is permitted.	Eligibility	16
+rofecoxib	CHEBI:8887	38-47
+time	PATO:0000165	122-126
+Use of NSAID's such as ibuprofen (Advil® or Motrin®), naproxyn (Aleve® Naprosyn®, or Anaprox®), etodolac (Lodine®), oxaprozin (Daypro®), difusanil (Dolobid®), nabumetone (Relafin®), or tolmetin (Tolectin®) is not permitted during the time on study.	Eligibility	17
+ibuprofen	CHEBI:132922	23-32
+etodolac	CHEBI:4909	96-104
+oxaprozin	CHEBI:7822	116-125
+nabumetone	CHEBI:76252	159-169
+tolmetin	CHEBI:71941	185-193
+time	PATO:0000165	234-238
+Outcome Measurement:	Results	0
+Number of Patients With Decreased Gene Expression of CYP19 in Breast Cancer by Adding COX-2 Inhibitor to Exemestane	Results	1
+gene expression	GO:0010467	34-49
+breast cancer	DOID:1612	62-75
+inhibitor	CHEBI:35222	92-101
+exemestane	CHEBI:4953	105-115
+Collected from postmenopausal women that receive neoadjuvant exemestane.	Results	2
+exemestane	CHEBI:4953	61-71
+Time frame: up to 16 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Exemestane + Celecoxib	Results	5
+exemestane	CHEBI:4953	17-27
+celecoxib	CHEBI:41423	30-39
+Arm/Group Description: Exemestane + celecoxib (16 weeks) vs. Baseline	Results	6
+exemestane	CHEBI:4953	23-33
+celecoxib	CHEBI:41423	36-45
+Overall Number of Participants Analyzed: 14	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: patients  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Exemestane	Results	11
+exemestane	CHEBI:4953	17-27
+Arm/Group Description: Exemestane (8 weeks) vs. Baseline	Results	12
+exemestane	CHEBI:4953	23-33
+Overall Number of Participants Analyzed: 9	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: patients  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/22 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

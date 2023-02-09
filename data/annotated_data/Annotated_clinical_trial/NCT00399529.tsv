@@ -1,0 +1,219 @@
+INTERVENTION 1:	Intervention	0
+Allo GM-CSF-secreting Vaccine, Trastuzumab, Cyclophosphamide	Intervention	1
+vaccine	VO:0000001	22-29
+cyclophosphamide	CHEBI:4026	44-60
+Allogeneic GM-CSF-secreting breast cancer vaccine : the vaccine containing a mixture of two GM-CSF-secreting allogeneic breast cancer cell lines (two parts 2T47D-V and one part 3SKBR3-7 mixed in a fixed dose of 5 X 10^8 cells for each patient and each vaccination cycle) given intradermally every 4-6 weeks for 3 cycles and then a 4th dose given 6-8 months after beginning the study.	Intervention	2
+breast cancer	DOID:1612	28-41
+breast cancer	DOID:1612	120-133
+vaccine	VO:0000001	42-49
+vaccine	VO:0000001	56-63
+mixture	CHEBI:60004	77-84
+mixed	BAO:0002107	186-191
+x	LABO:0000148	79-80
+x	LABO:0000148	188-189
+x	LABO:0000148	199-200
+x	LABO:0000148	213-214
+patient	HADO:0000008,OAE:0001817	235-242
+vaccination	VO:0000002	252-263
+Cyclophosphamide : 300 mg/m^2 given intravenously every 4-6 weeks for 3 cycles and then once 6-8 months after beginning the study	Intervention	3
+cyclophosphamide	CHEBI:4026	0-16
+Trastuzumab : An initial loading dose of 4 mg/kg for participants beginning treatment with Trastuzumab, otherwise 2 mg/kg given every week intravenously	Intervention	4
+week	UO:0000034	134-138
+Inclusion Criteria:	Eligibility	0
+Patients with histologically confirmed HER-2/neu-overexpressing adenocarcinoma of the breast; this is defined as HER-2+ by immunohistochemistry (IHC) 3+ staining or Fluorescence In-Situ Hybridization (FISH). Prior adjuvant Trastuzumab therapy is permitted. Patients must not be eligible for therapy of known curative potential for metastatic breast cancer if it is identified during the course of the study.	Eligibility	1
+adenocarcinoma	DOID:299	64-78
+breast	UBERON:0000310	86-92
+breast	UBERON:0000310	342-348
+immunohistochemistry	BAO:0000415	123-143
+adjuvant	CHEBI:60809	214-222
+breast cancer	DOID:1612	342-355
+Patients may have measurable or evaluable disease.	Eligibility	2
+disease	DOID:4,OGMS:0000031	42-49
+Stable central nervous system (CNS) disease that has been adequately treated and is not under active treatment allowed.	Eligibility	3
+stable	HP:0031915	0-6
+central nervous system	UBERON:0001017	7-29
+disease	DOID:4,OGMS:0000031	36-43
+active	PATO:0002354	94-100
+Age 18 years or older.	Eligibility	4
+age	PATO:0000011	0-3
+Able to give informed consent.	Eligibility	5
+Patients with an Eastern Cooperative Oncology Group (ECOG) performance score of 0 or 1.	Eligibility	6
+group	CHEBI:24433	46-51
+No systemic oral steroids administered within 28 days prior to initiating treatment on protocol. Topical, ocular, and nasal steroids are allowed, as are those applied to mucus membranes.	Eligibility	7
+mucus	GO:0070701,UBERON:0000912	170-175
+No prior or currently active autoimmune disease requiring management with systemic immunosuppression. This includes inflammatory bowel disease, systemic vasculitis, scleroderma, psoriasis, multiple sclerosis, hemolytic anemia or immune-mediated thrombocytopenia, rheumatoid arthritis, systemic lupus erythematosus, Sjogren's syndrome, sarcoidosis, or other rheumatologic disease. Asthma or chronic obstructive pulmonary disease that does not require daily systemic corticosteroids is acceptable.	Eligibility	8
+active	PATO:0002354	22-28
+autoimmune disease	DOID:417	29-47
+inflammatory bowel disease	DOID:0050589	116-142
+vasculitis	HP:0002633,DOID:865	153-163
+scleroderma	HP:0100324,DOID:419,DOID:418	165-176
+psoriasis	DOID:8893	178-187
+multiple sclerosis	DOID:2377	189-207
+hemolytic anemia	HP:0001878,DOID:583	209-225
+thrombocytopenia	HP:0001873,DOID:1588	245-261
+rheumatoid arthritis	HP:0001370,DOID:7148	263-283
+systemic lupus erythematosus	HP:0002725,DOID:9074	285-313
+syndrome	DOID:225	325-333
+sarcoidosis	DOID:11335	335-346
+disease	DOID:4,OGMS:0000031	40-47
+disease	DOID:4,OGMS:0000031	135-142
+disease	DOID:4,OGMS:0000031	371-378
+disease	DOID:4,OGMS:0000031	420-427
+asthma	HP:0002099,DOID:2841	380-386
+chronic obstructive pulmonary disease	DOID:3083	390-427
+Not pregnant, and on appropriate birth control if of child-bearing potential.	Eligibility	9
+No history of other malignancies within the prior five years (excluding a history of carcinoma in situ of the cervix, superficial non-melanoma skin cancer, and superficial bladder cancer).	Eligibility	10
+history	BFO:0000182	3-10
+history	BFO:0000182	74-81
+carcinoma	HP:0030731,DOID:305	85-94
+skin cancer	DOID:4159	143-154
+cancer	DOID:162	148-154
+cancer	DOID:162	180-186
+Adequate bone marrow reserve with absolute neutrophil count (ANC) > 1000 and platelets > 100,000.	Eligibility	11
+bone marrow	UBERON:0002371	9-20
+Adequate renal function with serum creatinine < 2.0.	Eligibility	12
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	35-45
+Adequate hepatic reserve with serum bilirubin < 2.0, aspartate transaminase (AST) and alanine aminotransferase (ALT) < 2X the upper limit of normal, and alkaline phosphatase < 5X the upper limit of normal. Serum bilirubin > 2.0 is acceptable in the setting of known Gilbert's syndrome.	Eligibility	13
+aspartate	CHEBI:29995	53-62
+alanine	CHEBI:16449	86-93
+phosphatase	GO:0016791,BAO:0000295	162-173
+syndrome	DOID:225	276-284
+Adequate cardiac reserve with a cardiac ejection fraction within the lower limit of facility normal by MUGA, or 45% by echocardiogram.	Eligibility	14
+ejection fraction	CMO:0000180	40-57
+No active major medical or psychosocial problems that could be complicated by study participation.	Eligibility	15
+active	PATO:0002354	3-9
+HIV negative.	Eligibility	16
+Exclusion Criteria:	Eligibility	17
+No histologic documentation of breast adenocarcinoma.	Eligibility	18
+breast adenocarcinoma	DOID:3458	31-52
+Breast adenocarcinoma that is not amplified for HER-2/neu gene expression by at least 2-fold by FISH analysis, or that is less than IHC 3+ when FISH negative.	Eligibility	19
+breast adenocarcinoma	DOID:3458	0-21
+gene expression	GO:0010467	58-73
+Cardiac dysfunction documented by an ejection fraction less than the lower limit of the facility normal by multi-gated acquisition (MUGA) scan, or 45% by echocardiogram.	Eligibility	20
+ejection fraction	CMO:0000180	37-54
+Symptomatic intrinsic lung disease or extensive tumor involvement of the lungs resulting in dyspnea at rest.	Eligibility	21
+lung disease	DOID:850	22-34
+dyspnea	HP:0002094	92-99
+History of autoimmune disease as detailed above.	Eligibility	22
+history	BFO:0000182	0-7
+autoimmune disease	DOID:417	11-29
+Systemic oral corticosteroid treatment within 28 days prior to initiating treatment on study.	Eligibility	23
+corticosteroid	CHEBI:50858	14-28
+Uncontrolled medical problems.	Eligibility	24
+Evidence of active acute or chronic infection.	Eligibility	25
+active	PATO:0002354	12-18
+acute	HP:0011009,PATO:0000389	19-24
+chronic infection	HP:0031035	28-45
+Chemotherapy, radiation therapy, or biologic therapy (except Trastuzumab) within 28 days prior to initiating treatment on study. Hormonal therapy and supportive therapy with bisphosphonates will be allowed.	Eligibility	26
+Participation in an investigational new drug trial within 28 days prior to initiating treatment on study.	Eligibility	27
+drug	CHEBI:23888	40-44
+Pregnant or breast feeding.	Eligibility	28
+breast	UBERON:0000310	12-18
+Hepatic, renal, or bone marrow dysfunction as detailed above.	Eligibility	29
+bone marrow	UBERON:0002371	19-30
+Concurrent malignancy or history of other malignancy within the last five years except as noted above.	Eligibility	30
+history	BFO:0000182	25-32
+Corn allergy.	Eligibility	31
+allergy	HP:0012393	5-12
+Known severe hypersensitivity to Trastuzumab (excluding mild to moderate infusion reactions that are easily managed and do not recur).	Eligibility	32
+severe	HP:0012828	6-12
+hypersensitivity	GO:0002524,DOID:1205	13-29
+mild	HP:0012825	56-60
+moderate	HP:0012826	64-72
+Outcome Measurement:	Results	0
+Number of Participants With Adverse Events	Results	1
+Safety is measured as the number of patients that experienced adverse events related to study drug.	Results	2
+drug	CHEBI:23888	94-98
+Time frame: From first dose through 30 days after last dose of study drug, up to 9 months	Results	3
+time	PATO:0000165	0-4
+drug	CHEBI:23888	69-73
+Results 1:	Results	4
+Arm/Group Title: Allo GM-CSF-secreting Vaccine, Trastuzumab, Cyclophosphamide	Results	5
+vaccine	VO:0000001	39-46
+cyclophosphamide	CHEBI:4026	61-77
+Arm/Group Description: Allogeneic GM-CSF-secreting breast cancer vaccine : the vaccine containing a mixture of two GM-CSF-secreting allogeneic breast cancer cell lines (two parts 2T47D-V and one part 3SKBR3-7 mixed in a fixed dose of 5 X 10^8 cells for each patient and each vaccination cycle) given intradermally every 4-6 weeks for 3 cycles and then a 4th dose given 6-8 months after beginning the study.	Results	6
+breast cancer	DOID:1612	51-64
+breast cancer	DOID:1612	143-156
+vaccine	VO:0000001	65-72
+vaccine	VO:0000001	79-86
+mixture	CHEBI:60004	100-107
+mixed	BAO:0002107	209-214
+x	LABO:0000148	102-103
+x	LABO:0000148	211-212
+x	LABO:0000148	222-223
+x	LABO:0000148	236-237
+patient	HADO:0000008,OAE:0001817	258-265
+vaccination	VO:0000002	275-286
+Cyclophosphamide : 300 mg/m^2 given intravenously every 4-6 weeks for 3 cycles and then once 6-8 months after beginning the study	Results	7
+cyclophosphamide	CHEBI:4026	0-16
+Trastuzumab : An initial loading dose of 4 mg/kg for participants beginning treatment with Trastuzumab, otherwise 2 mg/kg given every week intravenously	Results	8
+week	UO:0000034	134-138
+Overall Number of Participants Analyzed: 20	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  Fatigue: 8  40.0%	Results	11
+fatigue	HP:0012378	31-38
+Urticaria: 7  35.0%	Results	12
+urticaria	HP:0001025,DOID:1555	0-9
+Pruritus: 6  30.0%	Results	13
+pruritus	HP:0000989,GO:0160025	0-8
+Fever: 5  25.0%	Results	14
+fever	HP:0001945	0-5
+Flu-like symptoms: 4  20.0%	Results	15
+Lymphadenopathy: 4  20.0%	Results	16
+lymphadenopathy	HP:0002716	0-15
+Abdominal pain: 3  15.0%	Results	17
+abdominal pain	HP:0002027	0-14
+Rash: 3  15.0%	Results	18
+Malaise: 3  15.0%	Results	19
+malaise	HP:0033834	0-7
+Chills: 3  15.0%	Results	20
+chills	HP:0025143	0-6
+Dizziness: 2  10.0%	Results	21
+Anorexia: 1   5.0%	Results	22
+anorexia	HP:0002039	0-8
+Erythema: 1   5.0%	Results	23
+erythema	HP:0010783	0-8
+Headache: 1   5.0%	Results	24
+headache	HP:0002315	0-8
+Nausea: 1   5.0%	Results	25
+nausea	HP:0002018	0-6
+Arm pain: 1   5.0%	Results	26
+pain	HP:0012531	4-8
+Cancer site pain: 1   5.0%	Results	27
+cancer	DOID:162	0-6
+site	BFO:0000029	7-11
+pain	HP:0012531	12-16
+Leg pain: 1   5.0%	Results	28
+leg	UBERON:0000978	0-3
+pain	HP:0012531	4-8
+Groin tightness: 1   5.0%	Results	29
+Erythema at vaccine sites: 20 100.0%	Results	30
+erythema	HP:0010783	0-8
+vaccine	VO:0000001	12-19
+Pruritus at vaccine sites: 20 100.0%	Results	31
+pruritus	HP:0000989,GO:0160025	0-8
+vaccine	VO:0000001	12-19
+Induration at vaccine sites: 20 100.0%	Results	32
+vaccine	VO:0000001	14-21
+Pain at vaccine sties: 17  85.0%	Results	33
+pain	HP:0012531	0-4
+vaccine	VO:0000001	8-15
+Rash at vaccine sites: 7  35.0%	Results	34
+vaccine	VO:0000001	8-15
+Blister at vaccine sites: 5  25.0%	Results	35
+vaccine	VO:0000001	11-18
+Hyperpigmentation at vaccine sites: 4  20.0%	Results	36
+vaccine	VO:0000001	21-28
+Bruising at vaccine sites: 3  15.0%	Results	37
+vaccine	VO:0000001	12-19
+Edema at vaccine sites: 2  10.0%	Results	38
+edema	HP:0000969	0-5
+vaccine	VO:0000001	9-16
+Vaccine site flare: 2  10.0%	Results	39
+vaccine	VO:0000001	0-7
+site	BFO:0000029	8-12
+Adverse Events 1:	Adverse Events	0
+Total: 1/20 (5.00%)	Adverse Events	1
+Urticaria *1/20 (5.00%)	Adverse Events	2
+urticaria	HP:0001025,DOID:1555	0-9

@@ -1,0 +1,121 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Cabergoline)	Intervention	1
+cabergoline	CHEBI:3286	11-22
+Patients receive cabergoline oral (PO) twice weekly for weeks 1-4. Courses repeat every 4 weeks in the absence of disease progression or unacceptable toxicity.	Intervention	2
+cabergoline	CHEBI:3286	17-28
+disease	DOID:4,OGMS:0000031	114-121
+cabergoline: Given orally	Intervention	3
+cabergoline	CHEBI:3286	0-11
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically confirmed metastatic breast cancer; tissue (a minimum of 3 slides) from the most recent biopsy is required for review and confirmation of eligibility; NOTE: material should ideally be from the metastatic disease, however material from the primary tumor is acceptable if that is all that is available	Eligibility	1
+breast cancer	DOID:1612	55-68
+tissue	UBERON:0000479	70-76
+disease	DOID:4,OGMS:0000031	238-245
+Patients must have stage IV breast cancer	Eligibility	2
+breast cancer	DOID:1612	28-41
+Patients must have tumors (primary or metastatic) that stain positively for the prolactin receptor	Eligibility	3
+prolactin	CHEBI:81580,GO:0005148	80-89
+receptor	BAO:0000281	90-98
+Patients may have measurable or evaluable disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	42-49
+Measurable disease is defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as > 20 mm with conventional techniques or as > 10 mm with spiral CT scan	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+diameter	PATO:0001334	120-128
+ct	BAO:0002125	211-213
+Evaluable disease is disease that does not meet the criteria for measurable disease; examples would include patients with effusions or bone-only disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	21-28
+disease	DOID:4,OGMS:0000031	76-83
+disease	DOID:4,OGMS:0000031	145-152
+Women of childbearing potential must commit to the use of effective barrier (non-hormonal) contraception while on study	Eligibility	7
+Patients must have a life expectancy of greater than 12 weeks	Eligibility	8
+Patients must have an Eastern Cooperative Oncology Group (ECOG) performance status =< 2	Eligibility	9
+group	CHEBI:24433	51-56
+Patients may have had a prior diagnosis of cancer if it has been > 5 years since their last treatment	Eligibility	10
+cancer	DOID:162	43-49
+Leukocytes >= 3,000/uL (microliter)	Eligibility	11
+Absolute neutrophil count >= 1,500/uL	Eligibility	12
+Platelets >= 100,000/uL	Eligibility	13
+Child Pugh score =< 10	Eligibility	14
+Patients must be able to swallow and retain oral medication	Eligibility	15
+All patients must have given signed, informed consent prior to registration on study	Eligibility	16
+Exclusion Criteria:	Eligibility	17
+Women who are pregnant or lactating are not eligible for study treatment	Eligibility	18
+Patients who are undergoing concomitant radiotherapy are NOT eligible for participation	Eligibility	19
+radiotherapy	OAE:0000235	40-52
+Patients who are receiving any other investigational agents or concurrent anticancer therapy are NOT eligible for participation; previous systemic treatment is allowed with a 2 week washout period prior to registration	Eligibility	20
+week	UO:0000034	177-181
+Patients who are taking any herbal (alternative) medicines are NOT eligible for participation; patients must be off any such medications by the time of registration	Eligibility	21
+time	PATO:0000165	144-148
+Patients who are receiving concomitant D2-antagonists (such as phenothiazines, butyrophenones, thioxanthenes, or metoclopramide) are NOT eligible for participation; patients must be off any such medications by the time of registration	Eligibility	22
+phenothiazines	CHEBI:38093	63-77
+thioxanthenes	CHEBI:50930	95-108
+metoclopramide	CHEBI:107736	113-127
+time	PATO:0000165	214-218
+Patients with known brain metastases are NOT eligible for participation	Eligibility	23
+brain	UBERON:0000955	20-25
+Patients with any of the following conditions or complications are NOT eligible for participation:	Eligibility	24
+Uncontrolled hypertension	Eligibility	25
+hypertension	HP:0000822,DOID:10763	13-25
+Known hypersensitivity to ergot derivatives	Eligibility	26
+hypersensitivity	GO:0002524,DOID:1205	6-22
+History of cardiac valvular disorders, as suggested by anatomical evidence of valvulopathy of any valve (to be determined by pre-treatment evaluation including echocardiographic demonstration of valve leaflet thickening, valve restriction, or mixed valve restriction-stenosis)	Eligibility	27
+history	BFO:0000182	0-7
+valve	UBERON:0003978	98-103
+valve	UBERON:0003978	195-200
+valve	UBERON:0003978	221-226
+valve	UBERON:0003978	249-254
+mixed	BAO:0002107	243-248
+History of pulmonary, pericardial, cardiac valvular, or retroperitoneal fibrotic disorders	Eligibility	28
+history	BFO:0000182	0-7
+Gastrointestinal (GI) tract disease resulting in an inability to take oral medication	Eligibility	29
+disease	DOID:4,OGMS:0000031	28-35
+Malabsorption syndrome	Eligibility	30
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+Require intravenous (IV) alimentation	Eligibility	31
+History of prior surgical procedures affecting absorption	Eligibility	32
+history	BFO:0000182	0-7
+Uncontrolled inflammatory GI disease (e.g., Crohn's, ulcerative colitis)	Eligibility	33
+disease	DOID:4,OGMS:0000031	29-36
+ulcerative colitis	HP:0100279,DOID:8577	53-71
+Outcome Measurement:	Results	0
+Overall Response Rate (ORR) at 2 Months	Results	1
+rate	BAO:0080019	17-21
+Overall Response Rate (ORR) is defined as the number of patients that achieved Complete Response (CR) or Partial Response (PR) and will be assessed after 8 weeks (2 cycles) of therapy using CT scan images and RECIST guidelines.	Results	2
+rate	BAO:0080019	17-21
+ct	BAO:0002125	190-192
+Complete Response (CR): Disappearance of all target lesions. Partial Response (PR): At least a 30% decrease in the sum of the longest diameter (LD) of target lesions, taking as reference the baseline sum of LD.	Results	3
+target	BAO:0003064	45-51
+target	BAO:0003064	151-157
+diameter	PATO:0001334	134-142
+Progressive Disease (PD): At least a 20% increase in the sum o the LD of target lesions, taking as reference the smallest sum of LD recorded since the treatment started or the appearance of one or more new lesions.	Results	4
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+increase	BAO:0001251	41-49
+target	BAO:0003064	73-79
+Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum of LD since the treatment started	Results	5
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+increase	BAO:0001251	83-91
+Time frame: After 8 weeks (2 cycles) of treament	Results	6
+time	PATO:0000165	0-4
+Results 1:	Results	7
+Arm/Group Title: Treatment (Cabergoline)	Results	8
+cabergoline	CHEBI:3286	28-39
+Arm/Group Description: Patients receive cabergoline oral (PO) twice weekly for weeks 1-4. Courses repeat every 4 weeks in the absence of disease progression or unacceptable toxicity.	Results	9
+cabergoline	CHEBI:3286	40-51
+disease	DOID:4,OGMS:0000031	137-144
+cabergoline: Given orally	Results	10
+cabergoline	CHEBI:3286	0-11
+Overall Number of Participants Analyzed: 18	Results	11
+Measure Type: Count of Participants	Results	12
+Unit of Measure: Participants  0   0.0%	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 4/20 (20.00%)	Adverse Events	1
+Death NOS 1/20 (5.00%)	Adverse Events	2
+death	OAE:0000632	0-5
+Pain 1/20 (5.00%)	Adverse Events	3
+pain	HP:0012531	0-4
+Dyspnea 2/20 (10.00%)	Adverse Events	4
+dyspnea	HP:0002094	0-7

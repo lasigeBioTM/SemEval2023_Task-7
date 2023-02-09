@@ -1,0 +1,158 @@
+INTERVENTION 1:	Intervention	0
+D+C and Taxane Naive	Intervention	1
+taxane	CHEBI:36064	8-14
+Doxil, Carboplatin and Taxane naive	Intervention	2
+carboplatin	CHEBI:31355	7-18
+taxane	CHEBI:36064	23-29
+INTERVENTION 2:	Intervention	3
+D+C and Taxane Pretreated	Intervention	4
+taxane	CHEBI:36064	8-14
+Doxil, Carboplatin and Taxane pretreated	Intervention	5
+carboplatin	CHEBI:31355	7-18
+taxane	CHEBI:36064	23-29
+Inclusion Criteria:	Eligibility	0
+Has metastatic breast cancer with documented HER2- or HER2+ (IHC3+ or FISH+) disease	Eligibility	1
+breast cancer	DOID:1612	15-28
+disease	DOID:4,OGMS:0000031	77-84
+Has measurable MBC, with at least 1 measurable lesion per RECIST criteria (see Section 10). Irradiated lesions cannot be used to assess response but can be used to assess progression.	Eligibility	2
+Has had no prior treatment with Doxil or carboplatin; may have had adjuvant Herceptin if treatment was completed more than 1 year prior to study	Eligibility	3
+carboplatin	CHEBI:31355	41-52
+adjuvant	CHEBI:60809	67-75
+year	UO:0000036	125-129
+Has had no adjuvant chemotherapy within 1 year prior to study, but may have received prior anthracyclines as adjuvant chemotherapy	Eligibility	4
+adjuvant	CHEBI:60809	11-19
+adjuvant	CHEBI:60809	109-117
+year	UO:0000036	42-46
+For taxane-pretreated patients (adjuvant or metastatic), has had no more than 1 prior chemotherapy regimen for MBC	Eligibility	5
+adjuvant	CHEBI:60809	32-40
+For taxane-naïve patients, has had no prior chemotherapy for MBC	Eligibility	6
+Has had cumulative doses of < 300 mg/m2 prior doxorubicin or < 450 mg/m2 prior epirubicin	Eligibility	7
+doxorubicin	CHEBI:28748,BAO:0000639	46-57
+Has normal cardiac function as evidenced by a LVEF within institutional normal limits by multiple gated acquisition (MUGA) scan. An echocardiogram (ECHO) may be used if MUGA is not available, but the same test must be used throughout the study to evaluate LVEF.	Eligibility	8
+function	BAO:0003117,BFO:0000034	19-27
+Has an ECOG Performance Status (PS) 0-2 (see Appendix I)	Eligibility	9
+Is a male or female greater than or equal to 18 years of age	Eligibility	10
+male	CHEBI:30780,PATO:0000384	5-9
+male	CHEBI:30780,PATO:0000384	15-19
+female	PATO:0000383	13-19
+age	PATO:0000011	57-60
+Laboratory Values - Please refer to protocol section 4.2 for specific laboratory values.	Eligibility	11
+Has a negative serum pregnancy test within 7 days prior to registration (woman of childbearing potential [WOCBP; not surgically sterilized and between menarche and 1 year postmenopause])	Eligibility	12
+menarche	GO:0042696	151-159
+year	UO:0000036	166-170
+If fertile, patient (male or female) has agreed to use an acceptable method of birth control (eg, abstinence, intrauterine device, oral contraceptives, barrier device with spermicide or surgical sterilization) to avoid pregnancy for the duration of the study and for a period of 3 months thereafter.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	12-19
+male	CHEBI:30780,PATO:0000384	21-25
+male	CHEBI:30780,PATO:0000384	31-35
+female	PATO:0000383	29-35
+duration	PATO:0001309	237-245
+Has signed a Patient Informed Consent Form	Eligibility	14
+patient	HADO:0000008,OAE:0001817	13-20
+Has signed a Patient Authorization Form (HIPAA Form)	Eligibility	15
+patient	HADO:0000008,OAE:0001817	13-20
+Has a life expectancy of > 3 months	Eligibility	16
+Exclusion Criteria:	Eligibility	17
+Has had a myocardial infarction (MI) within 6 months of trial enrollment, or has New York Heart Association (NYHA; see Appendix IV) Class II or greater heart failure, uncontrolled angina, severe uncontrolled ventricular arrhythmias, clinically significant pericardial disease, or electrocardiographic evidence of acute ischemic or active conduction system abnormalities	Eligibility	18
+myocardial infarction	HP:0001658,DOID:5844	10-31
+heart	UBERON:0000948	90-95
+heart	UBERON:0000948	152-157
+severe	HP:0012828	188-194
+disease	DOID:4,OGMS:0000031	268-275
+acute	HP:0011009,PATO:0000389	313-318
+active	PATO:0002354	331-337
+Has a history of hypersensitivity reactions attributed to a conventional formulation of doxorubicin HCL or the components of Doxil	Eligibility	19
+history	BFO:0000182	6-13
+hypersensitivity	GO:0002524,DOID:1205	17-33
+doxorubicin	CHEBI:28748,BAO:0000639	88-99
+Has evaluable only disease; eg, bone only, pleural, peritoneal only disease	Eligibility	20
+disease	DOID:4,OGMS:0000031	19-26
+disease	DOID:4,OGMS:0000031	68-75
+Is receiving concurrent immunotherapy, hormonal therapy, or radiation therapy. Patients receiving immunosuppressant therapy for autoimmune disease may enroll on the trial after a drug washout period of 2 weeks.	Eligibility	21
+autoimmune disease	DOID:417	128-146
+drug	CHEBI:23888	179-183
+Is receiving concurrent investigational therapy or has received such therapy within 30 days	Eligibility	22
+Has evidence of brain metastases requiring steroids and/or radiation or any documented leptomeningeal disease	Eligibility	23
+brain	UBERON:0000955	16-21
+disease	DOID:4,OGMS:0000031	102-109
+Has a serious uncontrolled intercurrent medical or psychiatric illness, including serious infection or history of uncontrolled seizures, CNS disorders deemed by the Treating Physician to be clinically significant, precluding informed consent	Eligibility	24
+history	BFO:0000182	103-110
+Has a history of other malignancy within the last 5 years (except cured basal cell carcinoma of skin and carcinoma in situ of uterine cervix), which could affect the diagnosis or assessment of any of the study drugs	Eligibility	25
+history	BFO:0000182	6-13
+basal cell carcinoma	HP:0002671,DOID:2513	72-92
+carcinoma	HP:0030731,DOID:305	83-92
+carcinoma	HP:0030731,DOID:305	105-114
+uterine cervix	UBERON:0000002	126-140
+Is a pregnant or lactating woman	Eligibility	26
+Is unable to comply with requirements of study	Eligibility	27
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR)	Results	1
+rate	BAO:0080019	19-23
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Objective response (OR) = CR + PR.	Results	2
+target	BAO:0003064	76-82
+target	BAO:0003064	157-163
+target	BAO:0003064	249-255
+diameter	PATO:0001334	237-245
+Time frame: From date of randomization until the date of first documented progression or date of intolerable toxicity, whichever came first, assessed up to 54 months.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: D+C and Taxane Naive	Results	5
+taxane	CHEBI:36064	25-31
+Arm/Group Description: Doxil, Carboplatin and Taxane naive	Results	6
+carboplatin	CHEBI:31355	30-41
+taxane	CHEBI:36064	46-52
+Overall Number of Participants Analyzed: 39	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  30.8        (17.0 to 47.6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: D+C and Taxane Pretreated	Results	11
+taxane	CHEBI:36064	25-31
+Arm/Group Description: Doxil, Carboplatin and Taxane pretreated	Results	12
+carboplatin	CHEBI:31355	30-41
+taxane	CHEBI:36064	46-52
+Overall Number of Participants Analyzed: 42	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  31.0        (17.6 to 47.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 8/83 (9.64%)	Adverse Events	1
+ANEMIA 1/83 (1.20%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+PANCYTOPENIA 1/83 (1.20%)	Adverse Events	3
+pancytopenia	HP:0001876,DOID:12450	0-12
+THROMBOCYTOPENIA 2/83 (2.41%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ANOREXIA 1/83 (1.20%)	Adverse Events	5
+anorexia	HP:0002039	0-8
+DEHYDRATION 2/83 (2.41%)	Adverse Events	6
+dehydration	HP:0001944	0-11
+NAUSEA AND VOMITING 0/83 (0.00%)	Adverse Events	7
+nausea and vomiting	HP:0002017	0-19
+VOMITING 1/83 (1.20%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+RENAL FAILURE ACUTE 1/83 (1.20%)	Adverse Events	9
+acute	HP:0011009,PATO:0000389	14-19
+URINARY TRACT INFECTION 1/83 (1.20%)	Adverse Events	10
+urinary tract infection	DOID:0080784	0-23
+PNEUMONIA 0/83 (0.00%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	0-9
+Adverse Events 2:	Adverse Events	12
+Total: 3/46 (6.52%)	Adverse Events	13
+ANEMIA 0/46 (0.00%)	Adverse Events	14
+anemia	HP:0001903,DOID:2355	0-6
+PANCYTOPENIA 0/46 (0.00%)	Adverse Events	15
+pancytopenia	HP:0001876,DOID:12450	0-12
+THROMBOCYTOPENIA 0/46 (0.00%)	Adverse Events	16
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ANOREXIA 0/46 (0.00%)	Adverse Events	17
+anorexia	HP:0002039	0-8
+DEHYDRATION 0/46 (0.00%)	Adverse Events	18
+dehydration	HP:0001944	0-11
+NAUSEA AND VOMITING 2/46 (4.35%)	Adverse Events	19
+nausea and vomiting	HP:0002017	0-19
+VOMITING 1/46 (2.17%)	Adverse Events	20
+vomiting	HP:0002013	0-8
+RENAL FAILURE ACUTE 0/46 (0.00%)	Adverse Events	21
+acute	HP:0011009,PATO:0000389	14-19
+URINARY TRACT INFECTION 0/46 (0.00%)	Adverse Events	22
+urinary tract infection	DOID:0080784	0-23
+PNEUMONIA 1/46 (2.17%)	Adverse Events	23
+pneumonia	HP:0002090,DOID:552	0-9

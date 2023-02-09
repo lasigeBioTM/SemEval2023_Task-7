@@ -1,0 +1,164 @@
+INTERVENTION 1:	Intervention	0
+Treatment Schedule (Weekly)	Intervention	1
+Arm C, Docetaxel and Gemcitabine (Weekly):	Intervention	2
+gemcitabine	CHEBI:175901	21-32
+Docetaxel: 30 mg/m², 30-60 min IV infusion on Days 1, 8, and 15 to be given 30 minutes prior to Gemcitabine, repeated every 28 days (weekly) for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Intervention	3
+gemcitabine	CHEBI:175901	96-107
+Gemcitabine: 800 mg/m², 30 min IV infusion on Days 1, 8, and 15 repeated every 28 days for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Intervention	4
+gemcitabine	CHEBI:175901	0-11
+Arm D, Paclitaxel and Gemcitabine (Weekly):	Intervention	5
+paclitaxel	CHEBI:45863	7-17
+gemcitabine	CHEBI:175901	22-33
+Paclitaxel: 80 mg/m², IV infusion over approximately 1 hour, Days 1, 8, and 15, followed by Gemcitabine, repeated every 28 days (weekly) for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Intervention	6
+paclitaxel	CHEBI:45863	0-10
+hour	UO:0000032	55-59
+gemcitabine	CHEBI:175901	92-103
+Gemcitabine: 800 mg/m², 30 min IV infusion on Days 1, 8, and 15 repeated every 28 days for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Intervention	7
+gemcitabine	CHEBI:175901	0-11
+INTERVENTION 2:	Intervention	8
+Treatment Schedule (3 Weekly)	Intervention	9
+Arm A, Docetaxel and Gemcitabine (3 Weekly):	Intervention	10
+gemcitabine	CHEBI:175901	21-32
+Docetaxel: 75 mg/m², 60 min IV infusion on Day 1 only, to be given 30 min prior to Gemcitabine, repeated every 21 days (tri-weekly) for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Intervention	11
+day	UO:0000033	43-46
+day	UO:0000033	114-117
+gemcitabine	CHEBI:175901	83-94
+Gemcitabine: 1000 mg/m², 30 min IV infusion on Days 1 and 8, repeated every 21 days for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Intervention	12
+gemcitabine	CHEBI:175901	0-11
+Arm B, Paclitaxel and Gemcitabine (3 Weekly):	Intervention	13
+paclitaxel	CHEBI:45863	7-17
+gemcitabine	CHEBI:175901	22-33
+Paclitaxel: 175 mg/m², IV infusion over approximately 3 hours followed by Gemcitabine, repeated every 21 days (tri-weekly) for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Intervention	14
+paclitaxel	CHEBI:45863	0-10
+gemcitabine	CHEBI:175901	74-85
+Gemcitabine: 1250 mg/m², 30 min IV infusion on Days 1 and 8, repeated every 21 days for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Intervention	15
+gemcitabine	CHEBI:175901	0-11
+Inclusion Criteria:	Eligibility	0
+Histologic diagnosis of metastatic breast cancer (MBC).	Eligibility	1
+breast cancer	DOID:1612	35-48
+Prior neoadjuvant or adjuvant taxanes regimen is allowed if 12 months since completion of the regimen.	Eligibility	2
+adjuvant	CHEBI:60809	9-17
+adjuvant	CHEBI:60809	21-29
+Relapsing after receiving one adjuvant/neoadjuvant chemotherapy containing an anthracycline if not clinically contraindicated.	Eligibility	3
+anthracycline	CHEBI:48120	78-91
+Patients with measurable disease.	Eligibility	4
+disease	DOID:4,OGMS:0000031	25-32
+Previous hormonal therapy for adjuvant setting or metastatic disease.	Eligibility	5
+adjuvant	CHEBI:60809	30-38
+disease	DOID:4,OGMS:0000031	61-68
+Exclusion Criteria:	Eligibility	6
+Previous chemotherapy for MBC	Eligibility	7
+Previous chemotherapy with gemcitabine in any setting of disease	Eligibility	8
+gemcitabine	CHEBI:175901	27-38
+disease	DOID:4,OGMS:0000031	57-64
+Patient candidable to treatment with trastuzumab.	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+Outcome Measurement:	Results	0
+Time to Progressive Disease (TTPD) by Treatment Schedule	Results	1
+time	PATO:0000165	0-4
+progressive	HP:0003676	8-19
+disease	DOID:4,OGMS:0000031	20-27
+TTPD is defined as the time from the day of treatment to first observation of documented disease progression or death due to any cause, whichever comes first. TTPD was censored at the time of last follow-up for patients who were still alive without progression. Tumor response was assessed in cancer patients by using Response Evaluation Criteria in Solid Tumors (RECIST), which define when cancer patients improve ("respond"), stay the same ("stabilize"), or worsen ("progression") during treatments. Progressive Disease is a 20% increase in sum of longest diameter of target lesions.	Results	2
+time	PATO:0000165	23-27
+time	PATO:0000165	184-188
+day	UO:0000033	37-40
+disease	DOID:4,OGMS:0000031	89-96
+disease	DOID:4,OGMS:0000031	514-521
+death	OAE:0000632	112-117
+cancer	DOID:162	293-299
+cancer	DOID:162	391-397
+progressive	HP:0003676	502-513
+increase	BAO:0001251	531-539
+diameter	PATO:0001334	558-566
+target	BAO:0003064	570-576
+Time frame: Baseline up to 49.84 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment Schedule (Weekly)	Results	5
+Arm/Group Description: Arm C, Docetaxel and Gemcitabine (Weekly):	Results	6
+gemcitabine	CHEBI:175901	44-55
+Docetaxel: 30 mg/m , 30-60 min IV infusion on Days 1, 8, and 15 to be given 30 minutes prior to Gemcitabine, repeated every 28 days (weekly) for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Results	7
+gemcitabine	CHEBI:175901	96-107
+Gemcitabine: 800 mg/m , 30 min IV infusion on Days 1, 8, and 15 repeated every 28 days for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Results	8
+gemcitabine	CHEBI:175901	0-11
+Arm D, Paclitaxel and Gemcitabine (Weekly):	Results	9
+paclitaxel	CHEBI:45863	7-17
+gemcitabine	CHEBI:175901	22-33
+Paclitaxel: 80 mg/m , IV infusion over approximately 1 hour, Days 1, 8, and 15, followed by Gemcitabine, repeated every 28 days (weekly) for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Results	10
+paclitaxel	CHEBI:45863	0-10
+hour	UO:0000032	55-59
+gemcitabine	CHEBI:175901	92-103
+Gemcitabine: 800 mg/m , 30 min IV infusion on Days 1, 8, and 15 repeated every 28 days for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Results	11
+gemcitabine	CHEBI:175901	0-11
+Overall Number of Participants Analyzed: 117	Results	12
+Median (95% Confidence Interval)	Results	13
+median	BAO:0002174	0-6
+Unit of Measure: months  8.33        (6.19 to 10.16)	Results	14
+Results 2:	Results	15
+Arm/Group Title: Treatment Schedule (3 Weekly)	Results	16
+Arm/Group Description: Arm A, Docetaxel and Gemcitabine (3 Weekly):	Results	17
+gemcitabine	CHEBI:175901	44-55
+Docetaxel: 75 mg/m , 60 min IV infusion on Day 1 only, to be given 30 min prior to Gemcitabine, repeated every 21 days (tri-weekly) for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Results	18
+day	UO:0000033	43-46
+day	UO:0000033	114-117
+gemcitabine	CHEBI:175901	83-94
+Gemcitabine: 1000 mg/m , 30 min IV infusion on Days 1 and 8, repeated every 21 days for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Results	19
+gemcitabine	CHEBI:175901	0-11
+Arm B, Paclitaxel and Gemcitabine (3 Weekly):	Results	20
+paclitaxel	CHEBI:45863	7-17
+gemcitabine	CHEBI:175901	22-33
+Paclitaxel: 175 mg/m , IV infusion over approximately 3 hours followed by Gemcitabine, repeated every 21 days (tri-weekly) for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Results	21
+paclitaxel	CHEBI:45863	0-10
+gemcitabine	CHEBI:175901	74-85
+Gemcitabine: 1250 mg/m , 30 min IV infusion on Days 1 and 8, repeated every 21 days for 10 cycles for CRs or PRs; 6 cycles for SD; or until PD.	Results	22
+gemcitabine	CHEBI:175901	0-11
+Overall Number of Participants Analyzed: 124	Results	23
+Median (95% Confidence Interval)	Results	24
+median	BAO:0002174	0-6
+Unit of Measure: months  7.51        (5.93 to 8.33)	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 9/59 (15.25%)	Adverse Events	1
+Anaemia 0/59 (0.00%)	Adverse Events	2
+Febrile neutropenia 1/59 (1.69%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 4/59 (6.78%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/59 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure 0/59 (0.00%)	Adverse Events	6
+Pericardial effusion 0/59 (0.00%)	Adverse Events	7
+pericardial effusion	HP:0001698,DOID:118	0-20
+Diarrhoea 2/59 (3.39%)	Adverse Events	8
+Intestinal obstruction 0/59 (0.00%)	Adverse Events	9
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea 1/59 (1.69%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Vomiting 1/59 (1.69%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Asthenia 0/59 (0.00%)	Adverse Events	12
+asthenia	HP:0025406	0-8
+Fatigue 1/59 (1.69%)	Adverse Events	13
+fatigue	HP:0012378	0-7
+Adverse Events 2:	Adverse Events	14
+Total: 10/62 (16.13%)	Adverse Events	15
+Anaemia 1/62 (1.61%)	Adverse Events	16
+Febrile neutropenia 0/62 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/62 (1.61%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/62 (1.61%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure 1/62 (1.61%)	Adverse Events	20
+Pericardial effusion 1/62 (1.61%)	Adverse Events	21
+pericardial effusion	HP:0001698,DOID:118	0-20
+Diarrhoea 0/62 (0.00%)	Adverse Events	22
+Intestinal obstruction 0/62 (0.00%)	Adverse Events	23
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea 0/62 (0.00%)	Adverse Events	24
+nausea	HP:0002018	0-6
+Vomiting 0/62 (0.00%)	Adverse Events	25
+vomiting	HP:0002013	0-8
+Asthenia 0/62 (0.00%)	Adverse Events	26
+asthenia	HP:0025406	0-8
+Fatigue 0/62 (0.00%)	Adverse Events	27
+fatigue	HP:0012378	0-7

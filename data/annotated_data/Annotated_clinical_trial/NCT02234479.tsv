@@ -1,0 +1,138 @@
+INTERVENTION 1:	Intervention	0
+Hydrophor (Group A)	Intervention	1
+group	CHEBI:24433	11-16
+Group A (current standard of care): Patients will be instructed (by nurses and with printed study materials) to apply a thin layer of the Hydrophor daily, starting at the onset of radiation therapy (RT) and continuing until 2 weeks after the final RT session or until the RT site is healed (whichever is first). Hydrophor application should include the entire treatment area, including the axillae and shoulder/back area in patients treated with modified radical mastectomy. To avoid possible build-up effects, patients should not apply the Hydrophor within 4 hours of receiving RT. Patients should wash the application area daily with perfume-free soap and tap water. Patients will be asked to refrain from using other topical agents in the irradiated area.	Intervention	2
+group	CHEBI:24433	0-5
+onset	HP:0003674	171-176
+site	BFO:0000029	275-279
+application	CHEBI:33232,BAO:0110001	322-333
+application	CHEBI:33232,BAO:0110001	608-619
+area	PATO:0001323	370-374
+area	PATO:0001323	416-420
+area	PATO:0001323	620-624
+area	PATO:0001323	753-757
+radical	CHEBI:26519	455-462
+water	CHEBI:15377	662-667
+Hydrophor (Group A): Rehydrates dry, chapped or chafed skin	Intervention	3
+group	CHEBI:24433	11-16
+May be used alone as a skin lubricant or protectant	Intervention	4
+INTERVENTION 2:	Intervention	5
+MediHoney (Group B)	Intervention	6
+group	CHEBI:24433	11-16
+Group B (study target): Patients will be instructed (by nurses and with printed study materials) to apply a thin layer of the Medihoney daily, starting at the onset of RT and continuing until 2 weeks after the final RT session or until the RT site is healed (whichever is first). Medihoney application should include the entire treatment area, including the axillae and shoulder/back area in patients treated with modified radical mastectomy. To avoid possible build-up effects, patients should not apply the Medihoney within 4 hours of receiving RT. Patients should wash the application area daily with perfume-free soap and tap water. Patients will be asked to refrain from using other topical agents in the irradiated area.	Intervention	7
+group	CHEBI:24433	0-5
+target	BAO:0003064	15-21
+onset	HP:0003674	159-164
+site	BFO:0000029	243-247
+application	CHEBI:33232,BAO:0110001	290-301
+application	CHEBI:33232,BAO:0110001	576-587
+area	PATO:0001323	338-342
+area	PATO:0001323	384-388
+area	PATO:0001323	588-592
+area	PATO:0001323	721-725
+radical	CHEBI:26519	423-430
+water	CHEBI:15377	630-635
+MediHoney (Group B): It helps the body's natural healing processes in three key ways which have been shown to have healing benefits:	Intervention	8
+group	CHEBI:24433	11-16
+Maintain a balanced environment for healing.	Intervention	9
+Aids in reducing dermatitis.	Intervention	10
+dermatitis	DOID:2723	17-27
+Reduce affected area pH.2-3	Intervention	11
+affected	HP:0032320	7-15
+area	PATO:0001323	16-20
+Inclusion Criteria:	Eligibility	0
+Breast cancer treated with either lumpectomy or mastectomy (with or without reconstruction).	Eligibility	1
+breast cancer	DOID:1612	0-13
+The patient must be female.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	4-11
+female	PATO:0000383	20-26
+Radiation therapy planned to whole breast/chestwall area (can include lymph node radiation; conventional 3D radiation, IMRT/IGRT, and hypofractionation are all allowed).	Eligibility	3
+area	PATO:0001323	52-56
+lymph	UBERON:0002391	70-75
+Age  18 years old.	Eligibility	4
+age	PATO:0000011	0-3
+Exclusion Criteria:	Eligibility	5
+Previous radiation therapy to chest area that would result in overlapping radiation fields.	Eligibility	6
+chest	UBERON:0001443	30-35
+area	PATO:0001323	36-40
+result	BAO:0000179	52-58
+Wound care issues.	Eligibility	7
+Patients undergoing concurrent cytotoxic chemotherapy and radiation therapy (concurrent Herceptin and/or tamoxifen/aromatase inhibitors and RT is allowed).	Eligibility	8
+Patients receiving HDR (savi or mammosite) brachytherapy treatments.	Eligibility	9
+Patients with an allergy and/or sensitivity to Hydrophor, honey, and/or Medihoney.	Eligibility	10
+allergy	HP:0012393	17-24
+Immunocompromised status.	Eligibility	11
+Age < 18 years old.	Eligibility	12
+age	PATO:0000011	0-3
+Outcome Measurement:	Results	0
+Number of Participants Whom Received Medihoney Treatment and Were Analyzed Weekly for Skin Changes While Undergoing Radiation Therapy	Results	1
+The aim of this study is to compare the effects of Medihoney and Hydrophor on radiation dermatitis reactions in a group of women undergoing radiation therapy for breast cancer. It is hoped that the outcome of this pilot study will provide evidence supporting the use of Medihoney in preventing and treating radiation dermatitis as well as sufficient preliminary data to expand this study to larger, federally funded research (R01) looking at the beneficial aspects of Medihoney across a spectrum of radiation dermatitis and mucositis in several disease settings.	Results	2
+dermatitis	DOID:2723	88-98
+dermatitis	DOID:2723	317-327
+dermatitis	DOID:2723	509-519
+group	CHEBI:24433	114-119
+breast cancer	DOID:1612	162-175
+mucositis	DOID:0080178	524-533
+disease	DOID:4,OGMS:0000031	545-552
+Time frame: 12 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Hydrophor (Group A)	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	28-33
+Arm/Group Description: Group A (current standard of care): Patients will be instructed (by nurses and with printed study materials) to apply a thin layer of the Hydrophor daily, starting at the onset of radiation therapy (RT) and continuing until 2 weeks after the final RT session or until the RT site is healed (whichever is first). Hydrophor application should include the entire treatment area, including the axillae and shoulder/back area in patients treated with modified radical mastectomy. To avoid possible build-up effects, patients should not apply the Hydrophor within 4 hours of receiving RT. Patients should wash the application area daily with perfume-free soap and tap water. Patients will be asked to refrain from using other topical agents in the irradiated area.	Results	6
+group	CHEBI:24433	4-9
+group	CHEBI:24433	23-28
+onset	HP:0003674	194-199
+site	BFO:0000029	298-302
+application	CHEBI:33232,BAO:0110001	345-356
+application	CHEBI:33232,BAO:0110001	631-642
+area	PATO:0001323	393-397
+area	PATO:0001323	439-443
+area	PATO:0001323	643-647
+area	PATO:0001323	776-780
+radical	CHEBI:26519	478-485
+water	CHEBI:15377	685-690
+Hydrophor (Group A): Rehydrates dry, chapped or chafed skin	Results	7
+group	CHEBI:24433	11-16
+May be used alone as a skin lubricant or protectant	Results	8
+Overall Number of Participants Analyzed: 16	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: participants  radiation dermatitis: 15	Results	11
+dermatitis	DOID:2723	41-51
+hyperpigmentation: 15	Results	12
+Results 2:	Results	13
+Arm/Group Title: MediHoney (Group B)	Results	14
+group	CHEBI:24433	4-9
+group	CHEBI:24433	28-33
+Arm/Group Description: Group B (study target): Patients will be instructed (by nurses and with printed study materials) to apply a thin layer of the Medihoney daily, starting at the onset of RT and continuing until 2 weeks after the final RT session or until the RT site is healed (whichever is first). Medihoney application should include the entire treatment area, including the axillae and shoulder/back area in patients treated with modified radical mastectomy. To avoid possible build-up effects, patients should not apply the Medihoney within 4 hours of receiving RT. Patients should wash the application area daily with perfume-free soap and tap water. Patients will be asked to refrain from using other topical agents in the irradiated area.	Results	15
+group	CHEBI:24433	4-9
+group	CHEBI:24433	23-28
+target	BAO:0003064	38-44
+onset	HP:0003674	182-187
+site	BFO:0000029	266-270
+application	CHEBI:33232,BAO:0110001	313-324
+application	CHEBI:33232,BAO:0110001	599-610
+area	PATO:0001323	361-365
+area	PATO:0001323	407-411
+area	PATO:0001323	611-615
+area	PATO:0001323	744-748
+radical	CHEBI:26519	446-453
+water	CHEBI:15377	653-658
+MediHoney (Group B): It helps the body's natural healing processes in three key ways which have been shown to have healing benefits:	Results	16
+group	CHEBI:24433	11-16
+Maintain a balanced environment for healing.	Results	17
+Aids in reducing dermatitis.	Results	18
+dermatitis	DOID:2723	17-27
+Reduce affected area pH.2-3	Results	19
+affected	HP:0032320	7-15
+area	PATO:0001323	16-20
+Overall Number of Participants Analyzed: 18	Results	20
+Measure Type: Number	Results	21
+Unit of Measure: participants  radiation dermatitis: 15	Results	22
+dermatitis	DOID:2723	41-51
+hyperpigmentation: 15	Results	23
+Adverse Events 1:	Adverse Events	0
+Total: 0/16 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

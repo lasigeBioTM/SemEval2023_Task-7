@@ -1,0 +1,59 @@
+INTERVENTION 1:	Intervention	0
+Diagnostic (Indocyanine Green, 99mTc-labeled Radiotracer)	Intervention	1
+indocyanine green	CHEBI:31696	12-29
+Participants receive technetium Tc-99m sulfur colloid injection and undergo lymphoscintigraphy according to clinical practice. Prior to surgery, participants also receive indocyanine green solution subdermally close to the tumor or into subareolar region of the breast skin. Participants then undergo Axillary Lymph Node Biopsy and surgery.	Intervention	2
+surgery	OAE:0000067	136-143
+surgery	OAE:0000067	332-339
+indocyanine green	CHEBI:31696	171-188
+solution	CHEBI:75958	189-197
+breast	UBERON:0000310	262-268
+lymph	UBERON:0002391	76-81
+lymph	UBERON:0002391	310-315
+Inclusion Criteria:	Eligibility	0
+Participants with a confirmed diagnosis of clinical stage 1 or 2 breast cancer	Eligibility	1
+breast cancer	DOID:1612	65-78
+Participants who are undergoing breast cancer surgery with lumpectomy or mastectomy	Eligibility	2
+breast cancer	DOID:1612	32-45
+surgery	OAE:0000067	46-53
+Participants with planned axillary sentinel node biopsy procedure	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Participants with cancer > 3 cm	Eligibility	5
+cancer	DOID:162	18-24
+Participants with clinically positive nodes	Eligibility	6
+Participants with prior surgery for breast cancer in the index breast	Eligibility	7
+surgery	OAE:0000067	24-31
+breast cancer	DOID:1612	36-49
+breast	UBERON:0000310	36-42
+breast	UBERON:0000310	63-69
+Participants who have had bilateral breast surgeries	Eligibility	8
+bilateral	HP:0012832	26-35
+breast	UBERON:0000310	36-42
+Thyroid dysfunction	Eligibility	9
+Hypersensitivity to iodine	Eligibility	10
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Hepatic insufficiency	Eligibility	11
+Renal insufficiency	Eligibility	12
+renal insufficiency	HP:0000083	0-19
+Outcome Measurement:	Results	0
+Proportion of Sentinel Lymph Nodes (SLNs) Flagged by the Two Methods	Results	1
+lymph	UBERON:0002391	23-28
+Let A be the number of Tc-positive and ICG-positive sentinel nodes (SNs) detected, B be the number of Tc-positive and ICG-negative SNs detected, and C be the number of Tc-negative and ICG-positive SNs detected. The total number (N) of SNs detected is therefore N = (A + B + C); the proportion of SNs detected by the Tc method (PTc) is (A + B)/N; and the proportion of SNs detected by the ICG method (PICG) is (A + C)/N. Differences in the proportions of SLNs flagged will be compared using a two-sided 95% confidence interval.	Results	2
+Time frame: Baseline	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Diagnostic (Indocyanine Green, 99mTc-labeled Radiotracer)	Results	5
+indocyanine green	CHEBI:31696	29-46
+Arm/Group Description: Participants receive technetium Tc-99m sulfur colloid injection and undergo lymphoscintigraphy according to clinical practice. Prior to surgery, participants also receive indocyanine green solution subdermally close to the tumor or into subareolar region of the breast skin. Participants then undergo Axillary Lymph Node Biopsy and surgery.	Results	6
+surgery	OAE:0000067	159-166
+surgery	OAE:0000067	355-362
+indocyanine green	CHEBI:31696	194-211
+solution	CHEBI:75958	212-220
+breast	UBERON:0000310	285-291
+lymph	UBERON:0002391	99-104
+lymph	UBERON:0002391	333-338
+Overall Number of Participants Analyzed: 92	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: proportion of nodes  Proportion of SNs (PTc) detected by Tc method: 0.86	Results	9
+Proportion of SNs (PICG) detected by ICG method: 0.95	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/102 (0.00%)	Adverse Events	1

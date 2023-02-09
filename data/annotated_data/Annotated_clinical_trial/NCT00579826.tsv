@@ -1,0 +1,98 @@
+INTERVENTION 1:	Intervention	0
+Letrozole	Intervention	1
+letrozole	CHEBI:6413	0-9
+Letrozole, 2.5 mg daily for 6 months	Intervention	2
+letrozole	CHEBI:6413	0-9
+Letrozole: Letrozole 2.5 mg tablet daily. Then optional open label letrozole for another 6 months.	Intervention	3
+letrozole	CHEBI:6413	0-9
+letrozole	CHEBI:6413	11-20
+letrozole	CHEBI:6413	67-76
+label	CHEBI:35209,label	61-66
+INTERVENTION 2:	Intervention	4
+Placebo	Intervention	5
+Placebo, daily for 6 months	Intervention	6
+Placebo: Placebo tablet daily for 6 months then optional open label letrozole for 6 months.	Intervention	7
+label	CHEBI:35209,label	62-67
+letrozole	CHEBI:6413	68-77
+Inclusion Criteria:	Eligibility	0
+Post-menopausal women at high risk for development of breast cancer	Eligibility	1
+breast cancer	DOID:1612	54-67
+On a stable dose of hormone replacement therapy	Eligibility	2
+stable	HP:0031915	5-11
+hormone	CHEBI:24621	20-27
+have cytomorphologic evidence of hyperplasia +/- atypia and Ki-67 expression >1.5% in benign breast epithelial cells acquired by RPFNA	Eligibility	3
+breast	UBERON:0000310	93-99
+Serum level of 25-OH vitamin D of at least 30 ng/ml prior to study entry	Eligibility	4
+vitamin d	CHEBI:27300	21-30
+Willing to have a repeat random periareolar fine needle aspiration (RPFNA) and mammogram at 6 months and 12 months (if participating in the open label portion of the study) following initiation of study drug	Eligibility	5
+aspiration	HP:0002835	56-66
+label	CHEBI:35209,label	145-150
+drug	CHEBI:23888	203-207
+Exclusion Criteria:	Eligibility	6
+Prior history of osteoporosis or osteoporotic fracture.	Eligibility	7
+history	BFO:0000182	6-13
+osteoporosis	HP:0000939,DOID:11476	17-29
+Prior history of invasive breast cancer or other invasive cancer within five years from date of study entry.	Eligibility	8
+history	BFO:0000182	6-13
+breast cancer	DOID:1612	26-39
+cancer	DOID:162	33-39
+cancer	DOID:162	58-64
+Current and chronic use of cyclooxygenase-2 (COX-2) specific inhibitors or NSAIDs	Eligibility	9
+chronic	HP:0011010	12-19
+Receiving treatment for rheumatoid arthritis or fibromyalgia	Eligibility	10
+rheumatoid arthritis	HP:0001370,DOID:7148	24-44
+fibromyalgia	DOID:631	48-60
+Current history of poorly controlled migraines or perimenopausal symptoms	Eligibility	11
+history	BFO:0000182	8-15
+Currently receiving other investigational agents.	Eligibility	12
+Receipt of more than 6 months of an aromatase inhibitor (anastrozole, exemestane, letrozole, etc.) at any time in the past.	Eligibility	13
+inhibitor	CHEBI:35222	46-55
+anastrozole	CHEBI:2704	57-68
+exemestane	CHEBI:4953	70-80
+letrozole	CHEBI:6413	82-91
+time	PATO:0000165	106-110
+Outcome Measurement:	Results	0
+Change in Proliferation Rate (Ki-67 by Immunocytochemistry) From Baseline to 6 Months	Results	1
+rate	BAO:0080019	24-28
+immunocytochemistry	BAO:0000416	39-58
+Change in proliferation rate (percent positively stained cells for Ki-67 antigen by immunocytochemistry) in benign breast epithelial cells acquired by random periareolar fine needle aspiration from women at high risk for the development of breast cancer.	Results	2
+rate	BAO:0080019	24-28
+percent	UO:0000187	30-37
+antigen	CHEBI:59132	73-80
+immunocytochemistry	BAO:0000416	84-103
+breast	UBERON:0000310	115-121
+breast	UBERON:0000310	240-246
+aspiration	HP:0002835	182-192
+breast cancer	DOID:1612	240-253
+Time frame: Baseline to 6 Months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Letrozole	Results	5
+letrozole	CHEBI:6413	17-26
+Arm/Group Description: Letrozole, 2.5 mg daily for 6 months	Results	6
+letrozole	CHEBI:6413	23-32
+Letrozole: Letrozole 2.5 mg tablet daily. Then optional open label letrozole for another 6 months.	Results	7
+letrozole	CHEBI:6413	0-9
+letrozole	CHEBI:6413	11-20
+letrozole	CHEBI:6413	67-76
+label	CHEBI:35209,label	61-66
+Overall Number of Participants Analyzed: 28	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of cells stained positive  -1.5         (2.8)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Placebo	Results	12
+Arm/Group Description: Placebo, daily for 6 months	Results	13
+Placebo: Placebo tablet daily for 6 months then optional open label letrozole for 6 months.	Results	14
+label	CHEBI:35209,label	62-67
+letrozole	CHEBI:6413	68-77
+Overall Number of Participants Analyzed: 25	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of cells stained positive  -1.1         (3.9)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/29 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

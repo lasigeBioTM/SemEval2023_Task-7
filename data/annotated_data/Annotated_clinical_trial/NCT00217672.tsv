@@ -1,0 +1,142 @@
+INTERVENTION 1:	Intervention	0
+Docetaxel + Bevacizumab	Intervention	1
+docetaxel: 75 mg/m2 IV q3 weeks. Bevacizumab: 15mg/kg IV q3 weeks. Subjects continue on dosing until they experience unacceptable toxicity, disease progression, or withdrawal of patient consent.	Intervention	2
+disease	DOID:4,OGMS:0000031	140-147
+patient	HADO:0000008,OAE:0001817	178-185
+Inclusion Criteria	Eligibility	0
+Female 18 and over	Eligibility	1
+female	PATO:0000383	0-6
+Histologically or cytologically confirmed adenocarcinoma of the breast at first diagnosis	Eligibility	2
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+Stage IV disease, with at least one measurable lesion according to the RECIST criteria.	Eligibility	3
+disease	DOID:4,OGMS:0000031	9-16
+HER2-negative disease, by fluorescence in situ hybridization	Eligibility	4
+disease	DOID:4,OGMS:0000031	14-21
+ECOG performance status 0-1	Eligibility	5
+Life expectancy of at least 24 weeks	Eligibility	6
+No prior chemotherapy for metastatic breast cancer (prior endocrine therapy is permitted).	Eligibility	7
+breast cancer	DOID:1612	37-50
+Prior adjuvant chemotherapy is permitted. If patients received a taxane in the adjuvant setting, at least 12 months must have elapsed since the completion of adjuvant therapy.	Eligibility	8
+adjuvant	CHEBI:60809	6-14
+adjuvant	CHEBI:60809	79-87
+adjuvant	CHEBI:60809	158-166
+taxane	CHEBI:36064	65-71
+At least 4 weeks since prior surgery, radiotherapy, endocrine therapy, or experimental drug therapy, with complete recovery from the effects of these interventions	Eligibility	9
+surgery	OAE:0000067	29-36
+radiotherapy	OAE:0000235	38-50
+drug	CHEBI:23888	87-91
+If female of childbearing potential, pregnancy test is negative and willing to use effective contraception while on treatment for at least 3 months thereafter.	Eligibility	10
+female	PATO:0000383	3-9
+Patient is accessible and willing to comply with treatment and follow-up.	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+Patient is willing to provide written informed consent prior to the performance of any study-related procedures.	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+Required laboratory values	Eligibility	13
+Absolute neutrophil count  1,500/mm^3	Eligibility	14
+Platelet count  100,000/mm^3	Eligibility	15
+platelet count	CMO:0000029	0-14
+Hemoglobin  9.0 g/dL	Eligibility	16
+hemoglobin	CHEBI:35143	0-10
+Creatinine  2.0 mg/dL	Eligibility	17
+creatinine	CHEBI:16737	0-10
+Total bilirubin < 1.0 x upper limit of normal (ULN) (patients with documents Gilbert's syndrome are eligible).	Eligibility	18
+x	LABO:0000148	22-23
+syndrome	DOID:225	87-95
+Alkaline phosphatase (AP) normal AND Angiotensin Aspartate Aminotransferase (AST) or Alanine Aminotransferase (ALT)  2.5 times upper limit of normal (ULN) or AP  2.5 times ULN AND AST or ALT  1.5 times ULN or AP  5 times ULN AND AST or ALT normal.	Eligibility	19
+phosphatase	GO:0016791,BAO:0000295	9-20
+angiotensin	CHEBI:48433	37-48
+aspartate	CHEBI:29995	49-58
+alanine	CHEBI:16449	85-92
+Exclusion Criteria	Eligibility	20
+Prior chemotherapy for metastatic breast cancer	Eligibility	21
+breast cancer	DOID:1612	34-47
+Prior treatment with an anti-angiogenic agent	Eligibility	22
+Concurrent therapy with any other non-protocol anti-cancer therapy	Eligibility	23
+Current or prior history of central nervous system or brain metastases	Eligibility	24
+history	BFO:0000182	17-24
+central nervous system	UBERON:0001017	28-50
+brain	UBERON:0000955	54-59
+Presence of neuropathy > grade 2 (NCI- Common Toxicity Criteria (CTC) version 3.0) at baseline	Eligibility	25
+neuropathy	DOID:870	12-22
+Presence of any non-healing wound, fracture, or ulcer, or the presence of clinically significant (> grade 2) peripheral vascular disease	Eligibility	26
+ulcer	OAE:0004372	48-53
+peripheral vascular disease	DOID:341	109-136
+History of any other malignancy within the past 5 years, with the exception of non-melanoma skin cancer or carcinoma-in-situ of the cervix	Eligibility	27
+history	BFO:0000182	0-7
+skin cancer	DOID:4159	92-103
+Clinically significant cardiovascular disease (e.g., uncontrolled hypertension [BP > 150/100]), myocardial infarction or stroke within the past 6 months, unstable angina, New York Heart Association (NYHA) Grade II or greater congestive heart failure, or serious cardiac arrhythmia requiring medication	Eligibility	28
+disease	DOID:4,OGMS:0000031	38-45
+hypertension	HP:0000822,DOID:10763	66-78
+myocardial infarction	HP:0001658,DOID:5844	96-117
+stroke	HP:0001297,DOID:6713	121-127
+heart	UBERON:0000948	180-185
+heart	UBERON:0000948	236-241
+congestive heart failure	HP:0001635,DOID:6000	225-249
+arrhythmia	HP:0011675	270-280
+Active peptic ulcer disease, inflammatory bowel disease, or other gastrointestinal condition increasing the risk of perforation; history of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 28 days prior to beginning therapy	Eligibility	29
+active peptic ulcer disease	DOID:749	0-27
+inflammatory bowel disease	DOID:0050589	29-55
+condition	PDRO:0000129	83-92
+history	BFO:0000182	129-136
+abscess	HP:0025615	208-215
+Active, uncontrolled infection requiring parenteral antimicrobials	Eligibility	30
+active	PATO:0002354	0-6
+The presence of any other medical or psychiatric disorder that, in the opinion of the treating physician, would contraindicate the use of the drugs in this protocol or place the subject at undue risk for treatment complications.	Eligibility	31
+disorder	OGMS:0000045	49-57
+Inability to comply with the study protocol or follow-up procedures	Eligibility	32
+Pregnancy or lactation	Eligibility	33
+lactation	GO:0007595	13-22
+A history of a severe hypersensitivity reaction to Bevacizumab, or Docetaxel or other drugs formulated with polysorbate 80.	Eligibility	34
+history	BFO:0000182	2-9
+severe	HP:0012828	15-21
+hypersensitivity	GO:0002524,DOID:1205	22-38
+polysorbate 80	CHEBI:53426	108-122
+Evidence of bleeding diathesis or coagulopathy	Eligibility	35
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to beginning therapy, or anticipation of the need for a major surgical procedure during the course of the study; minor surgical procedure, fine needle aspiration or core biopsy within 7 days prior to beginning therapy	Eligibility	36
+aspiration	HP:0002835	243-253
+Proteinuria at baseline or clinically significant impairment of renal function. Subjects unexpectedly discovered to have > 1+ proteinuria at baseline should undergo a 24 hour urine collection, which must be an adequate collection and must demonstrate <1 gm of protein/24 hour to allow participation in the study.	Eligibility	37
+proteinuria	HP:0000093,DOID:576	0-11
+proteinuria	HP:0000093,DOID:576	126-137
+function	BAO:0003117,BFO:0000034	70-78
+hour	UO:0000032	170-174
+hour	UO:0000032	271-275
+urine	UBERON:0001088	175-180
+Outcome Measurement:	Results	0
+Antitumor Activity Based on Time to Tumor Progression (TTP).	Results	1
+time	PATO:0000165	28-32
+ttp	CHEBI:63550	55-58
+[Not Specified]	Results	2
+Time frame: From randomization until tumor progression	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Docetaxel + Bevacizumab	Results	5
+Arm/Group Description: docetaxel: 75 mg/m2 IV q3 weeks. Bevacizumab: 15mg/kg IV q3 weeks. Subjects continue on dosing until they experience unacceptable toxicity, disease progression, or withdrawal of patient consent.	Results	6
+disease	DOID:4,OGMS:0000031	163-170
+patient	HADO:0000008,OAE:0001817	201-208
+Overall Number of Participants Analyzed: 67	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  9.3        (8.2 to 12.4)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 13/74 (17.57%)	Adverse Events	1
+neutropenia 1/74 (1.35%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+left ventricular dysfunction 1/74 (1.35%)	Adverse Events	3
+left	HP:0012835	0-4
+fistula enterovesical 1/74 (1.35%)	Adverse Events	4
+constipation and hypokalemia 1/74 (1.35%)	Adverse Events	5
+constipation	HP:0002019,DOID:2089	0-12
+hypokalemia	HP:0002900,DOID:4500	17-28
+nausea, vomiting and burning abdominal pain 2/74 (2.70%)	Adverse Events	6
+nausea	HP:0002018	0-6
+vomiting	HP:0002013	8-16
+abdominal pain	HP:0002027	29-43
+Infection 1/74 (1.35%)	Adverse Events	7
+febrile neutropenia 3/74 (4.05%)	Adverse Events	8
+neutropenia	HP:0001875,DOID:1227	8-19
+speech impairment 1/74 (1.35%)	Adverse Events	9
+dyspnea, pain 1/74 (1.35%)	Adverse Events	10
+dyspnea	HP:0002094	0-7
+pain	HP:0012531	9-13
+hemorrhage/bleeding 2/74 (2.70%)	Adverse Events	11

@@ -1,0 +1,130 @@
+INTERVENTION 1:	Intervention	0
+Arm I (SRS)	Intervention	1
+Patients undergo stereotactic radiosurgery (SRS) received 24 Gy in a single fraction if lesions were less than 2.0cm or 20 Gy if lesions were 2 to 2.9 cm in maximum diameter.	Intervention	2
+diameter	PATO:0001334	165-173
+INTERVENTION 2:	Intervention	3
+Arm II (SRS+WBRT)	Intervention	4
+Patients undergo stereotactic radiosurgery (SRS) plus whole-brain radiotherapy (WBRT) received 22 Gy in a single fraction if lesions were less than 2.0cm or 18 Gy if lesions were 2 to 2.9 cm in maximum diameter.>	Intervention	5
+radiotherapy	OAE:0000235	66-78
+diameter	PATO:0001334	202-210
+> Patients randomly assigned to SRS plus WBRT received 30 GY in 12 fractions of 2.5-Gy WBRT delivered 5 days a week. Whole brain radiotherapy began within 14 days of SRS.	Intervention	6
+week	UO:0000034	111-115
+brain	UBERON:0000955	123-128
+radiotherapy	OAE:0000235	129-141
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Diagnosis of cerebral metastases meeting the following criteria:	Eligibility	1
+One to three presumed brain metastases	Eligibility	2
+brain	UBERON:0000955	22-27
+Metastases must be from a histologically confirmed extracerebral site (e.g., lung, breast, prostate)	Eligibility	3
+site	BFO:0000029	65-69
+lung	UBERON:0002048	77-81
+breast	UBERON:0000310	83-89
+Histologic confirmation may have been from the primary tumor site, from another metastatic site (e.g., osseous metastasis, adrenal metastasis), or from the metastatic brain lesion(s)	Eligibility	4
+site	BFO:0000029	61-65
+site	BFO:0000029	91-95
+brain	UBERON:0000955	167-172
+Each lesion must measure less than 3.0 cm by contrast MRI of the brain performed within the past 21 days	Eligibility	5
+brain	UBERON:0000955	65-70
+Lesions must not be within 5 mm of the optic chiasm or within the brainstem	Eligibility	6
+brainstem	UBERON:0002298	66-75
+Eligibility for treatment with gamma knife or linear accelerator-based radiosurgery confirmed by a radiation oncologist	Eligibility	7
+No primary germ cell tumor, small cell carcinoma, or lymphoma	Eligibility	8
+small cell carcinoma	DOID:0050685	28-48
+lymphoma	HP:0002665,DOID:0060058	53-61
+No leptomeningeal metastases	Eligibility	9
+Hormone receptor status not specified	Eligibility	10
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+Male or female	Eligibility	12
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	13
+ECOG performance status 0-2	Eligibility	14
+Not pregnant	Eligibility	15
+Negative pregnancy test	Eligibility	16
+Fertile patients must use effective contraception	Eligibility	17
+Male patients must continue to use contraception for 3 months after the completion of radiotherapy	Eligibility	18
+male	CHEBI:30780,PATO:0000384	0-4
+radiotherapy	OAE:0000235	86-98
+No pacemaker or other MRI-incompatible metal in the body	Eligibility	19
+No known allergy to gadolinium	Eligibility	20
+allergy	HP:0012393	9-16
+PRIOR CONCURRENT THERAPY:	Eligibility	21
+More than 7 days since prior and no concurrent chemotherapy	Eligibility	22
+No prior cranial radiotherapy	Eligibility	23
+radiotherapy	OAE:0000235	17-29
+No prior resection of cerebral metastases	Eligibility	24
+Concurrent hormonal agents, steroids, and/or anticonvulsants allowed	Eligibility	25
+Outcome Measurement:	Results	0
+Neurocognitive Progression as Measured by the Number of Participants With Cognitive Deterioration by 3 Months	Results	1
+The primary endpoint was cognitive deterioration (progression), defined as a decline of greater than 1 SD from baseline on at least 1 of 7 cognitive tests (all tests are standardized based on published norms and transformed so that higher values represent improved cognition) at the 3-month post-SRS evaluation. The number of participants who experienced cognitive deterioration by 3 months is reported for each arm below. For primary analysis of the 3-month cognitive deterioration endpoint, the Fisher exact 2-group binomial test was used to compare the proportion of evaluable patients with 3-month cognitive deterioration between the 2 groups.	Results	2
+cognition	GO:0050890	265-274
+Time frame: 3 months post radiosurgery	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I (SRS)	Results	5
+Arm/Group Description: Patients undergo stereotactic radiosurgery (SRS) received 24 Gy in a single fraction if lesions were less than 2.0cm or 20 Gy if lesions were 2 to 2.9 cm in maximum diameter.	Results	6
+diameter	PATO:0001334	188-196
+Overall Number of Participants Analyzed: 63	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  40  63.5%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm II (SRS+WBRT)	Results	11
+Arm/Group Description: Patients undergo stereotactic radiosurgery (SRS) plus whole-brain radiotherapy (WBRT) received 22 Gy in a single fraction if lesions were less than 2.0cm or 18 Gy if lesions were 2 to 2.9 cm in maximum diameter.>	Results	12
+radiotherapy	OAE:0000235	89-101
+diameter	PATO:0001334	225-233
+> Patients randomly assigned to SRS plus WBRT received 30 GY in 12 fractions of 2.5-Gy WBRT delivered 5 days a week. Whole brain radiotherapy began within 14 days of SRS.	Results	13
+week	UO:0000034	111-115
+brain	UBERON:0000955	123-128
+radiotherapy	OAE:0000235	129-141
+Overall Number of Participants Analyzed: 48	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  44  91.7%	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 8/68 (11.76%)	Adverse Events	1
+Hearing loss 0/68 (0.00%)	Adverse Events	2
+Nausea 1/68 (1.47%)	Adverse Events	3
+nausea	HP:0002018	0-6
+Vomiting 1/68 (1.47%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Death 0/68 (0.00%)	Adverse Events	5
+death	OAE:0000632	0-5
+Disease progression 3/68 (4.41%)	Adverse Events	6
+disease	DOID:4,OGMS:0000031	0-7
+Fatigue 1/68 (1.47%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+Bladder infection 1/68 (1.47%)	Adverse Events	8
+Bronchitis 0/68 (0.00%)	Adverse Events	9
+bronchitis	HP:0012387,DOID:6132	0-10
+Encephalitis infection 0/68 (0.00%)	Adverse Events	10
+encephalitis	DOID:9588	0-12
+Alanine aminotransferase increased 0/68 (0.00%)	Adverse Events	11
+alanine	CHEBI:16449	0-7
+Alkaline phosphatase increased 0/68 (0.00%)	Adverse Events	12
+phosphatase	GO:0016791,BAO:0000295	9-20
+Adverse Events 2:	Adverse Events	13
+Total: 11/64 (17.19%)	Adverse Events	14
+Hearing loss 1/64 (1.56%)	Adverse Events	15
+Nausea 0/64 (0.00%)	Adverse Events	16
+nausea	HP:0002018	0-6
+Vomiting 0/64 (0.00%)	Adverse Events	17
+vomiting	HP:0002013	0-8
+Death 3/64 (4.69%)	Adverse Events	18
+death	OAE:0000632	0-5
+Disease progression 2/64 (3.13%)	Adverse Events	19
+disease	DOID:4,OGMS:0000031	0-7
+Fatigue 0/64 (0.00%)	Adverse Events	20
+fatigue	HP:0012378	0-7
+Bladder infection 0/64 (0.00%)	Adverse Events	21
+Bronchitis 1/64 (1.56%)	Adverse Events	22
+bronchitis	HP:0012387,DOID:6132	0-10
+Encephalitis infection 1/64 (1.56%)	Adverse Events	23
+encephalitis	DOID:9588	0-12
+Alanine aminotransferase increased 1/64 (1.56%)	Adverse Events	24
+alanine	CHEBI:16449	0-7
+Alkaline phosphatase increased 1/64 (1.56%)	Adverse Events	25
+phosphatase	GO:0016791,BAO:0000295	9-20

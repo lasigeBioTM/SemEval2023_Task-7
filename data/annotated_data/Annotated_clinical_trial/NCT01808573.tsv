@@ -1,0 +1,137 @@
+INTERVENTION 1:	Intervention	0
+Neratinib Plus Capecitabine	Intervention	1
+neratinib	CHEBI:61397	0-9
+capecitabine	CHEBI:31348	15-27
+neratinib 240 mg orally, once daily with food, continuously in 21 day cycles, and capecitabine 1500 mg/m^2 daily in 2 evenly divided doses, orally with water within 30 minutes after a meal, taken on days 1 to 14 of each 21 day cycle.	Intervention	2
+neratinib	CHEBI:61397	0-9
+food	CHEBI:33290	41-45
+day	UO:0000033	66-69
+day	UO:0000033	199-202
+day	UO:0000033	223-226
+capecitabine	CHEBI:31348	82-94
+water	CHEBI:15377	152-157
+INTERVENTION 2:	Intervention	3
+Lapatinib Plus Capecitabine	Intervention	4
+lapatinib	CHEBI:49603	0-9
+capecitabine	CHEBI:31348	15-27
+lapatinib 1250 mg orally, once daily, continuously in 21 day cycles, and capecitabine 2000 mg/m^2 daily in 2 evenly divided doses, orally with water within 30 minutes after a meal, taken on days 1 to 14 of each 21 day cycle.	Intervention	5
+lapatinib	CHEBI:49603	0-9
+day	UO:0000033	57-60
+day	UO:0000033	190-193
+day	UO:0000033	214-217
+capecitabine	CHEBI:31348	73-85
+water	CHEBI:15377	143-148
+Inclusion Criteria:	Eligibility	0
+Aged 18 years at signing of informed consent.	Eligibility	1
+Histologically confirmed MBC, current stage IV.	Eligibility	2
+Documented HER2 overexpression or gene-amplified tumor immunohistochemistry 3+ or 2+, with confirmatory fluorescence in situ hybridization (FISH) +.	Eligibility	3
+immunohistochemistry	BAO:0000415	55-75
+Prior treatment with at least two (2) HER2-directed regimens for metastatic breast cancer.	Eligibility	4
+breast cancer	DOID:1612	76-89
+Exclusion Criteria:	Eligibility	5
+Received previous therapy with capecitabine, neratinib, lapatinib, or any other HER2 directed tyrosine kinase inhibitor.	Eligibility	6
+capecitabine	CHEBI:31348	31-43
+neratinib	CHEBI:61397	45-54
+lapatinib	CHEBI:49603	56-65
+tyrosine kinase inhibitor	CHEBI:38637	94-119
+Note: There are additional inclusion and exclusion criteria. The study center will determine if you meet all of the criteria.	Eligibility	7
+Outcome Measurement:	Results	0
+Centrally Assessed Progression Free Survival	Results	1
+Progression Free Survival (PFS), Measured in Months, for Randomized Subjects of the Central Assessment. The time interval from the date of randomization until the first date on which recurrence, progression (per Response Evaluation Criteria in Solid Tumors Criteria (RECIST) v1.1), or death due to any cause, is documented. For subjects without recurrence, progression or death, it is censored at the last valid tumor assessment. Progression is defined using Response Evaluation Criteria in Solid Tumors Criteria (RECIST v1.1), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions. Here, the time to event was reported as the restricted mean survival time. The restricted mean survival time was defined as the area under the curve of the survival function up to 24 months.	Results	2
+central	HP:0030645	84-91
+time	PATO:0000165	108-112
+time	PATO:0000165	693-697
+time	PATO:0000165	752-756
+time	PATO:0000165	787-791
+death	OAE:0000632	285-290
+death	OAE:0000632	372-377
+increase	BAO:0001251	537-545
+increase	BAO:0001251	616-624
+diameter	PATO:0001334	572-580
+target	BAO:0003064	584-590
+target	BAO:0003064	634-640
+mean	BAO:0002173	738-742
+mean	BAO:0002173	773-777
+area	PATO:0001323	811-815
+function	BAO:0003117,BFO:0000034	848-856
+Time frame: From randomization date to recurrence, progression or death, assessed up to 38 months. The result is based on primary analysis data cut.	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	66-71
+result	BAO:0000179	103-109
+Results 1:	Results	4
+Arm/Group Title: Neratinib Plus Capecitabine	Results	5
+neratinib	CHEBI:61397	17-26
+capecitabine	CHEBI:31348	32-44
+Arm/Group Description: neratinib 240 mg orally, once daily with food, continuously in 21 day cycles, and capecitabine 1500 mg/m^2 daily in 2 evenly divided doses, orally with water within 30 minutes after a meal, taken on days 1 to 14 of each 21 day cycle.	Results	6
+neratinib	CHEBI:61397	23-32
+food	CHEBI:33290	64-68
+day	UO:0000033	89-92
+day	UO:0000033	222-225
+day	UO:0000033	246-249
+capecitabine	CHEBI:31348	105-117
+water	CHEBI:15377	175-180
+Overall Number of Participants Analyzed: 307	Results	7
+Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: months  8.8        (7.8 to 9.8)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Lapatinib Plus Capecitabine	Results	11
+lapatinib	CHEBI:49603	17-26
+capecitabine	CHEBI:31348	32-44
+Arm/Group Description: lapatinib 1250 mg orally, once daily, continuously in 21 day cycles, and capecitabine 2000 mg/m^2 daily in 2 evenly divided doses, orally with water within 30 minutes after a meal, taken on days 1 to 14 of each 21 day cycle.	Results	12
+lapatinib	CHEBI:49603	23-32
+day	UO:0000033	80-83
+day	UO:0000033	213-216
+day	UO:0000033	237-240
+capecitabine	CHEBI:31348	96-108
+water	CHEBI:15377	166-171
+Overall Number of Participants Analyzed: 314	Results	13
+Mean (95% Confidence Interval)	Results	14
+mean	BAO:0002173	0-4
+Unit of Measure: months  6.6        (5.9 to 7.4)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 103/303 (33.99%)	Adverse Events	1
+Anaemia 1/303 (0.33%)	Adverse Events	2
+Febrile neutropenia 1/303 (0.33%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/303 (0.33%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Acute myocardial infarction 0/303 (0.00%)	Adverse Events	5
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 1/303 (0.33%)	Adverse Events	6
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 0/303 (0.00%)	Adverse Events	7
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac tamponade 1/303 (0.33%)	Adverse Events	8
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Cardiomyopathy 1/303 (0.33%)	Adverse Events	9
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Palpitations 2/303 (0.66%)	Adverse Events	10
+palpitations	HP:0001962	0-12
+Pericardial effusion 1/303 (0.33%)	Adverse Events	11
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia 0/303 (0.00%)	Adverse Events	12
+tachycardia	HP:0001649	0-11
+Adverse Events 2:	Adverse Events	13
+Total: 93/311 (29.90%)	Adverse Events	14
+Anaemia 2/311 (0.64%)	Adverse Events	15
+Febrile neutropenia 3/311 (0.96%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 0/311 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Acute myocardial infarction 1/311 (0.32%)	Adverse Events	18
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 0/311 (0.00%)	Adverse Events	19
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 1/311 (0.32%)	Adverse Events	20
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac tamponade 1/311 (0.32%)	Adverse Events	21
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Cardiomyopathy 0/311 (0.00%)	Adverse Events	22
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Palpitations 0/311 (0.00%)	Adverse Events	23
+palpitations	HP:0001962	0-12
+Pericardial effusion 1/311 (0.32%)	Adverse Events	24
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia 1/311 (0.32%)	Adverse Events	25
+tachycardia	HP:0001649	0-11

@@ -1,0 +1,93 @@
+INTERVENTION 1:	Intervention	0
+Intervention	Intervention	1
+Systemic Therapy	Intervention	2
+ABI-007 : ABI-007 175 mg/m2 D1 q 14 days x 6 cycles	Intervention	3
+x	LABO:0000148	41-42
+Epirubicin : Epirubicin 50 mg/m2 D1 q 14 days x 6 cycles	Intervention	4
+x	LABO:0000148	46-47
+Gemcitabine : Gemcitabine 2000 mg/m2 IV D1 q 14 days x 6 cycles	Intervention	5
+gemcitabine	CHEBI:175901	0-11
+gemcitabine	CHEBI:175901	14-25
+x	LABO:0000148	53-54
+Inclusion Criteria:	Eligibility	0
+To be included in this study, you must meet the following criteria:	Eligibility	1
+Locally advanced/inflammatory adenocarcinoma of the breast	Eligibility	2
+adenocarcinoma	DOID:299	30-44
+breast	UBERON:0000310	52-58
+18 years of age or older	Eligibility	3
+age	PATO:0000011	12-15
+Normal heart function	Eligibility	4
+heart	UBERON:0000948	7-12
+function	BAO:0003117,BFO:0000034	13-21
+Able to perform activities of daily living with minimal assistance	Eligibility	5
+No prior chemotherapy for breast cancer	Eligibility	6
+breast cancer	DOID:1612	26-39
+Adequate bone marrow, liver and kidney function	Eligibility	7
+bone marrow	UBERON:0002371	9-20
+liver	UBERON:0002107	22-27
+kidney	UBERON:0002113	32-38
+function	BAO:0003117,BFO:0000034	39-47
+No evidence or history of significant cardiovascular abnormalities	Eligibility	8
+history	BFO:0000182	15-22
+Sentinel node or axillary dissection	Eligibility	9
+Sign an informed consent form	Eligibility	10
+Exclusion Criteria:	Eligibility	11
+You cannot participate in this study if any of the following apply to you:	Eligibility	12
+Pregnant or breast feeding	Eligibility	13
+breast	UBERON:0000310	12-18
+History of heart disease with congestive heart failure	Eligibility	14
+history	BFO:0000182	0-7
+heart disease	DOID:114	11-24
+congestive heart failure	HP:0001635,DOID:6000	30-54
+Heart attack within the previous 6 months	Eligibility	15
+heart	UBERON:0000948	0-5
+Prior chemotherapy or hormone therapy for breast cancer	Eligibility	16
+hormone	CHEBI:24621	22-29
+breast cancer	DOID:1612	42-55
+History of active uncontrolled infection	Eligibility	17
+history	BFO:0000182	0-7
+active	PATO:0002354	11-17
+Please note: There are additional inclusion/exclusion criteria. The study center will determine if you meet all of the criteria. If you do not qualify for the trial, study personnel will explain the reasons. If you do qualify, study personnel will explain the trial in detail and answer any questions you may have.	Eligibility	18
+Outcome Measurement:	Results	0
+Pathologic Complete Response	Results	1
+For the purpose of this study, a pathologic complete response (pCR) was defined as no evidence of residual invasive tumor in the breast (pT0) and axillary lymph nodes (pN0), gross or microscopic, in the sample removed at the time of surgical resection. Residual ductal or lobular carcinoma in situ was not considered in pCR assessments. Percentage of participants who experienced pCR is reported.	Results	2
+breast	UBERON:0000310	129-135
+lymph	UBERON:0002391	155-160
+time	PATO:0000165	225-229
+lobular carcinoma in situ	HP:0030076,DOID:3010	272-297
+Time frame: 18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Intervention	Results	5
+Arm/Group Description: Systemic Therapy	Results	6
+ABI-007 : ABI-007 175 mg/m2 D1 q 14 days x 6 cycles	Results	7
+x	LABO:0000148	41-42
+Epirubicin : Epirubicin 50 mg/m2 D1 q 14 days x 6 cycles	Results	8
+x	LABO:0000148	46-47
+Gemcitabine : Gemcitabine 2000 mg/m2 IV D1 q 14 days x 6 cycles	Results	9
+gemcitabine	CHEBI:175901	0-11
+gemcitabine	CHEBI:175901	14-25
+x	LABO:0000148	53-54
+Overall Number of Participants Analyzed: 116	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  23  19.8%	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 22/123 (17.89%)	Adverse Events	1
+Cardiac Ischemia/Infarction  [1]1/123 (0.81%)	Adverse Events	2
+Pain - Chest 2/123 (1.63%)	Adverse Events	3
+pain	HP:0012531	0-4
+chest	UBERON:0001443	7-12
+Dehydration 2/123 (1.63%)	Adverse Events	4
+dehydration	HP:0001944	0-11
+Death  [2]1/123 (0.81%)	Adverse Events	5
+death	OAE:0000632	0-5
+Weakness 1/123 (0.81%)	Adverse Events	6
+Pain - Liver 1/123 (0.81%)	Adverse Events	7
+pain	HP:0012531	0-4
+liver	UBERON:0002107	7-12
+Infection - Skin  [3]3/123 (2.44%)	Adverse Events	8
+Infection - Gastrointestinal  [4]1/123 (0.81%)	Adverse Events	9
+Infection - Vein  [5]2/123 (1.63%)	Adverse Events	10
+vein	UBERON:0001638	12-16
+Infection - Pneumonia 1/123 (0.81%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	12-21

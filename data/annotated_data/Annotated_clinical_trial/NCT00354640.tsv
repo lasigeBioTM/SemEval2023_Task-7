@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+Anastrozole and Simvastatin	Intervention	1
+anastrozole	CHEBI:2704	0-11
+simvastatin	CHEBI:9150	16-27
+adjuvant therapy : laboratory analysis	Intervention	2
+adjuvant	CHEBI:60809	0-8
+pharmacological study : laboratory analysis	Intervention	3
+simvastatin : 40 milligram tablet PO QD for 14 days	Intervention	4
+simvastatin	CHEBI:9150	0-11
+anastrozole : 1 milligram tablet PO QD for 14 days	Intervention	5
+anastrozole	CHEBI:2704	0-11
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Meets any of the following criteria:	Eligibility	1
+History of invasive breast cancer	Eligibility	2
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	20-33
+History of ductal carcinoma in situ	Eligibility	3
+history	BFO:0000182	0-7
+ductal carcinoma in situ	HP:0030075,DOID:0060074	11-35
+At high risk for breast cancer, defined as being on anastrozole for chemoprevention of breast cancer	Eligibility	4
+breast cancer	DOID:1612	17-30
+breast cancer	DOID:1612	87-100
+anastrozole	CHEBI:2704	52-63
+Receiving anastrozole for  30 days as adjuvant breast cancer treatment or for prevention of breast cancer	Eligibility	5
+anastrozole	CHEBI:2704	10-21
+adjuvant	CHEBI:60809	38-46
+breast cancer	DOID:1612	47-60
+breast cancer	DOID:1612	92-105
+No active breast cancer with known metastatic involvement	Eligibility	6
+active	PATO:0002354	3-9
+breast cancer	DOID:1612	10-23
+Hormone receptor status not specified	Eligibility	7
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Female	Eligibility	9
+female	PATO:0000383	0-6
+Postmenopausal	Eligibility	10
+ECOG performance status 0-2	Eligibility	11
+AST and ALT  3 times upper limit of normal	Eligibility	12
+Creatinine clearance  30 mL/min	Eligibility	13
+creatinine clearance	CMO:0000765	0-20
+No active liver disease	Eligibility	14
+active	PATO:0002354	3-9
+liver disease	DOID:409	10-23
+No prior hypersensitivity to any HMG-CoA reductase inhibitor or any of its components	Eligibility	15
+hypersensitivity	GO:0002524,DOID:1205	9-25
+inhibitor	CHEBI:35222	51-60
+No daily alcohol use of > 3 standard drinks/day	Eligibility	16
+alcohol	CHEBI:16236	9-16
+A standard drink is defined as 10 g of alcohol, which is equivalent to 285 mL of beer, 530 mL of light beer, 100 mL of wine, or 30 mL of liquor	Eligibility	17
+alcohol	CHEBI:16236	39-46
+PRIOR CONCURRENT THERAPY:	Eligibility	18
+See Disease Characteristics	Eligibility	19
+disease	DOID:4,OGMS:0000031	4-11
+No cholesterol-lowering drug, including a statin, within the past 3 months	Eligibility	20
+drug	CHEBI:23888	24-28
+statin	CHEBI:87631	42-48
+No selective estrogen receptor modulator (SERM) within the past 3 months	Eligibility	21
+estrogen receptor modulator	CHEBI:50739	13-40
+No other hormone therapy within the past 3 months	Eligibility	22
+hormone	CHEBI:24621	9-16
+No prior estrogen and/or progesterone hormone replacement therapy that lasted for  5 years	Eligibility	23
+estrogen	CHEBI:50114,BAO:0000760	9-17
+progesterone	CHEBI:17026	25-37
+hormone	CHEBI:24621	38-45
+Vaginal estrogen preparations allowed	Eligibility	24
+estrogen	CHEBI:50114,BAO:0000760	8-16
+No other concurrent statin or cholesterol-lowering drug	Eligibility	25
+statin	CHEBI:87631	20-26
+drug	CHEBI:23888	51-55
+No other concurrent SERM	Eligibility	26
+No other concurrent hormone therapy	Eligibility	27
+hormone	CHEBI:24621	20-27
+No other concurrent investigational drugs	Eligibility	28
+No concurrent CYP3A4 inhibitors, including itraconazole, ketoconazole, erythromycin, clarithromycin, telithromycin, HIV protease inhibitors, nefazodone, or cyclosporine	Eligibility	29
+itraconazole	CHEBI:6076	43-55
+ketoconazole	CHEBI:47519,BAO:0000796	57-69
+erythromycin	CHEBI:42355	71-83
+clarithromycin	CHEBI:3732	85-99
+telithromycin	CHEBI:29688	101-114
+protease	BAO:0000652	120-128
+nefazodone	CHEBI:7494	141-151
+No concurrent chemotherapy or biological agents	Eligibility	30
+No concurrent daily grapefruit juice > 8 oz/day	Eligibility	31
+No other concurrent anticancer agents or therapies	Eligibility	32
+Outcome Measurement:	Results	0
+Change in Blood Concentrations	Results	1
+blood	UBERON:0000178	10-15
+The change in blood concentrations of anastrozole at baseline and 14 days was measured.	Results	2
+blood	UBERON:0000178	14-19
+anastrozole	CHEBI:2704	38-49
+Time frame: Baseline and 14 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Anastrozole and Simvastatin	Results	5
+anastrozole	CHEBI:2704	17-28
+simvastatin	CHEBI:9150	33-44
+Arm/Group Description: adjuvant therapy : laboratory analysis	Results	6
+adjuvant	CHEBI:60809	23-31
+pharmacological study : laboratory analysis	Results	7
+simvastatin : 40 milligram tablet PO QD for 14 days	Results	8
+simvastatin	CHEBI:9150	0-11
+anastrozole : 1 milligram tablet PO QD for 14 days	Results	9
+anastrozole	CHEBI:2704	0-11
+Overall Number of Participants Analyzed: 9	Results	10
+Median (Full Range)	Results	11
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: ng/ml  Anastrozole concentration: 4.2        (-6.2 to 22.1)	Results	12
+anastrozole	CHEBI:2704	24-35
+Hydroxyanastrozole concentration: -0.03        (-0.14 to 0.08)	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 0/11 (0.00%)	Adverse Events	1

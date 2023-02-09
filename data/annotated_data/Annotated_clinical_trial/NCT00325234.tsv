@@ -1,0 +1,190 @@
+INTERVENTION 1:	Intervention	0
+Pemetrexed/Carboplatin	Intervention	1
+Pemetrexed 600 mg/m^2 was administered intravenously over approximately 10 minutes on Day 1. Carboplatin was given over approximately 30 minutes on Day 1 beginning after the end of the Pemetrexed infusion, consistent with a target of AUC 5.0. The cycle of treatment was 21 days.	Intervention	2
+pemetrexed	CHEBI:63616	0-10
+pemetrexed	CHEBI:63616	185-195
+day	UO:0000033	86-89
+day	UO:0000033	148-151
+day	UO:0000033	273-276
+carboplatin	CHEBI:31355	93-104
+target	BAO:0003064	224-230
+auc	BAO:0002120	234-237
+INTERVENTION 2:	Intervention	3
+Gemcitabine/Vinorelbine	Intervention	4
+Vinorelbine 30 mg/m^2 was given over approximately 6-10 minutes on Day 1 and Day 8. Gemcitabine 1200 mg/m^2 will be given over approximately 30 minutes on Day 1 and Day 8 beginning after the end of the Vinorelbine infusion. The cycle of treatment was 21 days.	Intervention	5
+vinorelbine	CHEBI:480999	0-11
+vinorelbine	CHEBI:480999	202-213
+day	UO:0000033	67-70
+day	UO:0000033	77-80
+day	UO:0000033	155-158
+day	UO:0000033	165-168
+day	UO:0000033	254-257
+gemcitabine	CHEBI:175901	84-95
+Inclusion Criteria:	Eligibility	0
+Females with histologic or cytologic diagnosis of advanced breast cancer. Lesions should not be amenable to surgery or radiation of curative intent.	Eligibility	1
+breast cancer	DOID:1612	59-72
+surgery	OAE:0000067	108-115
+Performance status of 0 to 2 on the Eastern Cooperative Oncology Group (ECOG) performance status scale.	Eligibility	2
+group	CHEBI:24433	65-70
+One prior chemotherapy containing anthracyclines as (neo)adjuvant or palliative 1st-line treatment.	Eligibility	3
+adjuvant	CHEBI:60809	57-65
+One prior chemotherapy containing taxanes as (neo) adjuvant or palliative 1st-line treatment.	Eligibility	4
+adjuvant	CHEBI:60809	51-59
+Prior radiation therapy is allowed to less than 25% of the bone marrow. Participants must have recovered from the toxic effects of the treatment prior to study enrollment (except for alopecia). Prior radiotherapy must be completed 30 days before study entry. Lesions that have been radiated cannot be included as sites of measurable disease unless clear tumor progression has been documented in these lesions since the end of radiation therapy.	Eligibility	5
+bone marrow	UBERON:0002371	59-70
+alopecia	HP:0001596,DOID:987	183-191
+radiotherapy	OAE:0000235	200-212
+disease	DOID:4,OGMS:0000031	333-340
+At least one uni-dimensionally measurable lesion meeting Response Evaluation Criteria in Solid Tumors (RECIST) criteria. Positron emission tomography [PET] scans and ultrasounds may not be used.	Eligibility	6
+positron	CHEBI:30225	121-129
+tomography	BAO:0002525	139-149
+Antitumoral hormonal treatment must be discontinued prior to enrollment.	Eligibility	7
+Estimated life expectancy of at least 3 months.	Eligibility	8
+Participant compliance and geographic proximity that allow adequate follow-up.	Eligibility	9
+Adequate organ function	Eligibility	10
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Female participants of childbearing potential must test negative for pregnancy within 7 days of enrollment based on a urine and/or serum pregnancy test and agree to use a reliable method of birth control during and for 6 months following the last dose of study drug.	Eligibility	11
+female	PATO:0000383	0-6
+urine	UBERON:0001088	118-123
+drug	CHEBI:23888	261-265
+Participants must sign an informed consent document.	Eligibility	12
+document	IAO:0000310	43-51
+Female participants must be at least 18 years of age.	Eligibility	13
+female	PATO:0000383	0-6
+age	PATO:0000011	49-52
+Exclusion Criteria:	Eligibility	14
+Have received treatment within the last 30 days with a drug that has not received regulatory approval for any indication at the time of study entry.	Eligibility	15
+drug	CHEBI:23888	55-59
+time	PATO:0000165	128-132
+Have previously completed or withdrawn from this study or any other study investigating Pemetrexed, Gemcitabine, Carboplatin or Vinorelbine	Eligibility	16
+pemetrexed	CHEBI:63616	88-98
+gemcitabine	CHEBI:175901	100-111
+carboplatin	CHEBI:31355	113-124
+vinorelbine	CHEBI:480999	128-139
+Have received more than one line of chemotherapy in Metastatic Breast Cancer. Participants having received more than one combination of anthracycline plus taxane.	Eligibility	17
+breast cancer	DOID:1612	63-76
+anthracycline	CHEBI:48120	136-149
+taxane	CHEBI:36064	155-161
+Are pregnant or breast-feeding.	Eligibility	18
+Have serious concomitant systemic disorders (e.g., active infection) that, in the opinion of the investigator, would compromise the safety of the participant or compromise the participant's ability to complete the study.	Eligibility	19
+active	PATO:0002354	51-57
+Have a prior malignancy other than breast cancer, carcinoma in situ of the cervix, or nonmelanoma skin cancer, unless that prior malignancy was diagnosed and definitively treated at least 5 years previously with no subsequent evidence of recurrence.	Eligibility	20
+breast cancer	DOID:1612	35-48
+carcinoma	HP:0030731,DOID:305	50-59
+skin cancer	DOID:4159	98-109
+Are unable to interrupt aspirin or other nonsteroidal anti-inflammatory agents for a 5-day period (8-day period for long-acting agents such as piroxicam), unless the Creatinine Clearance is greater than or equal to 80 ml/min.	Eligibility	21
+piroxicam	CHEBI:8249	143-152
+creatinine clearance	CMO:0000765	166-186
+Have central nervous system (CNS) metastases.	Eligibility	22
+central nervous system	UBERON:0001017	5-27
+Have clinically relevant (by physical exam) third-space fluid collections (for example, ascites or pleural effusions) that cannot be controlled by drainage or other procedures prior to study entry.	Eligibility	23
+ascites	HP:0001541	88-95
+Are unable or unwilling to take folic acid, vitamin B12 supplementation, or dexamethasone.	Eligibility	24
+folic acid	CHEBI:27470	32-42
+vitamin b12	CHEBI:176843	44-55
+dexamethasone	CHEBI:41879	76-89
+Concurrent administration of any other antitumor therapy.	Eligibility	25
+Outcome Measurement:	Results	0
+Tumor Response Rate	Results	1
+rate	BAO:0080019	15-19
+Participants with best overall response determined from complete response (CR) or partial response (PR) according to Response Criteria in Solid Tumors (RECIST) criteria. For CR or PR, best response must be confirmed. A second assessment performed at 28 days. Two determinations of CR before progression required for rate to=CR. Evaluations include: CR=Disappearance of lesions. PR=  30% size decrease of lesions. Progressive Disease (PD)=  20% size increase of lesions. Stable Disease (SD)=Not enough shrinkage for PR nor enough increase for PD. Overall Response Rate=PR+CR/Qualified Participants*100.	Results	2
+second	UO:0000010	219-225
+rate	BAO:0080019	316-320
+rate	BAO:0080019	563-567
+size	PATO:0000117	387-391
+size	PATO:0000117	444-448
+progressive	HP:0003676	413-424
+disease	DOID:4,OGMS:0000031	425-432
+disease	DOID:4,OGMS:0000031	477-484
+increase	BAO:0001251	449-457
+increase	BAO:0001251	529-537
+stable	HP:0031915	470-476
+Time frame: Baseline up to 30 days of follow-up after 21 cycles of treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Pemetrexed/Carboplatin	Results	5
+Arm/Group Description: Pemetrexed 600 mg/m^2 was administered intravenously over approximately 10 minutes on Day 1. Carboplatin was given over approximately 30 minutes on Day 1 beginning after the end of the Pemetrexed infusion, consistent with a target of AUC 5.0. The cycle of treatment was 21 days.	Results	6
+pemetrexed	CHEBI:63616	23-33
+pemetrexed	CHEBI:63616	208-218
+day	UO:0000033	109-112
+day	UO:0000033	171-174
+day	UO:0000033	296-299
+carboplatin	CHEBI:31355	116-127
+target	BAO:0003064	247-253
+auc	BAO:0002120	257-260
+Overall Number of Participants Analyzed: 64	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  Overall Response: 26.6        (16.3 to 39.1)	Results	9
+Complete Response: 0.0        (0.0 to 5.6)	Results	10
+Partial Response: 26.6        (16.3 to 39.1)	Results	11
+Stable Disease: 35.9        (24.3 to 48.9)	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 26.6        (16.3 to 39.1)	Results	13
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Unknown: 10.9        (4.5 to 21.2)	Results	14
+Results 2:	Results	15
+Arm/Group Title: Gemcitabine/Vinorelbine	Results	16
+Arm/Group Description: Vinorelbine 30 mg/m^2 was given over approximately 6-10 minutes on Day 1 and Day 8. Gemcitabine 1200 mg/m^2 will be given over approximately 30 minutes on Day 1 and Day 8 beginning after the end of the Vinorelbine infusion. The cycle of treatment was 21 days.	Results	17
+vinorelbine	CHEBI:480999	23-34
+vinorelbine	CHEBI:480999	225-236
+day	UO:0000033	90-93
+day	UO:0000033	100-103
+day	UO:0000033	178-181
+day	UO:0000033	188-191
+day	UO:0000033	277-280
+gemcitabine	CHEBI:175901	107-118
+Overall Number of Participants Analyzed: 61	Results	18
+Measure Type: Number	Results	19
+Unit of Measure: percentage of participants  Overall Response: 29.5        (18.5 to 42.6)	Results	20
+Complete Response: 3.3        (0.4 to 11.3)	Results	21
+Partial Response: 26.2        (15.8 to 39.1)	Results	22
+Stable Disease: 34.4        (22.7 to 47.7)	Results	23
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 27.9        (17.1 to 40.8)	Results	24
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Unknown: 8.2        (2.7 to 18.1)	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 18/65 (27.69%)	Adverse Events	1
+Anaemia 5/65 (7.69%)	Adverse Events	2
+Febrile neutropenia 1/65 (1.54%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukocytosis 0/65 (0.00%)	Adverse Events	4
+leukocytosis	HP:0001974	0-12
+Neutropenia 4/65 (6.15%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 6/65 (9.23%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure congestive 0/65 (0.00%)	Adverse Events	7
+Epigastric discomfort 0/65 (0.00%)	Adverse Events	8
+Nausea 1/65 (1.54%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Vomiting 3/65 (4.62%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Condition aggravated 0/65 (0.00%)	Adverse Events	11
+condition	PDRO:0000129	0-9
+Medical device complication 0/65 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 22/66 (33.33%)	Adverse Events	14
+Anaemia 1/66 (1.52%)	Adverse Events	15
+Febrile neutropenia 2/66 (3.03%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukocytosis 1/66 (1.52%)	Adverse Events	17
+leukocytosis	HP:0001974	0-12
+Neutropenia 2/66 (3.03%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/66 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure congestive 1/66 (1.52%)	Adverse Events	20
+Epigastric discomfort 1/66 (1.52%)	Adverse Events	21
+Nausea 0/66 (0.00%)	Adverse Events	22
+nausea	HP:0002018	0-6
+Vomiting 1/66 (1.52%)	Adverse Events	23
+vomiting	HP:0002013	0-8
+Condition aggravated 1/66 (1.52%)	Adverse Events	24
+condition	PDRO:0000129	0-9
+Medical device complication 1/66 (1.52%)	Adverse Events	25

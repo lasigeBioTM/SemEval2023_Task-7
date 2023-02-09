@@ -1,0 +1,167 @@
+INTERVENTION 1:	Intervention	0
+Riluzole Arm	Intervention	1
+riluzole	CHEBI:8863	0-8
+Participants took a daily oral dose of 100 mg of riluzole (50 mg two times per day) for 8 weeks. Participants were instructed to take the study medication on an empty stomach (1 hour before or 2 hours after meals).	Intervention	2
+riluzole	CHEBI:8863	49-57
+day	UO:0000033	79-82
+stomach	UBERON:0000945	167-174
+hour	UO:0000032	178-182
+hour	UO:0000032	195-199
+INTERVENTION 2:	Intervention	3
+Placebo Arm	Intervention	4
+Participants took a daily oral dose of 100 mg of a placebo that appears identical to riluzole (50 mg two times per day), for 8 weeks. Participants will be instructed to take the study medication on an empty stomach (1 hour before or 2 hours after meals).	Intervention	5
+riluzole	CHEBI:8863	85-93
+day	UO:0000033	115-118
+stomach	UBERON:0000945	207-214
+hour	UO:0000032	218-222
+hour	UO:0000032	235-239
+Inclusion Criteria:	Eligibility	0
+Must have completed surgery for Stage I-III breast cancer (lumpectomy or mastectomy) with or without neoadjuvant or adjuvant chemotherapy and with or without radiation.	Eligibility	1
+surgery	OAE:0000067	20-27
+breast cancer	DOID:1612	44-57
+adjuvant	CHEBI:60809	104-112
+adjuvant	CHEBI:60809	116-124
+Must be 1-5 years post-treatment for breast cancer	Eligibility	2
+breast cancer	DOID:1612	37-50
+Must have a plasma c-reactive protein (CRP) level of >3mg/L	Eligibility	3
+protein	CHEBI:36080,BAO:0000175	30-37
+Must have a score of 4 (out of 10 points, 0 being no fatigue and 10 being severe, incapacitating fatigue) on a Single Item Screening Scale for Fatigue	Eligibility	4
+fatigue	HP:0012378	53-60
+fatigue	HP:0012378	97-104
+fatigue	HP:0012378	143-150
+severe	HP:0012828	74-80
+Exclusion Criteria:	Eligibility	5
+Presence of a medical condition that might represent a risk for riluzole treatment, including history of allergic reaction to riluzole and evidence of liver disease	Eligibility	6
+condition	PDRO:0000129	22-31
+riluzole	CHEBI:8863	64-72
+riluzole	CHEBI:8863	126-134
+history	BFO:0000182	94-101
+liver disease	DOID:409	151-164
+Presence of a medical condition that might potentially confound the relationship among CNS glutamate, inflammation and behavior/cognition, including autoimmune or inflammatory disorders, chronic infectious diseases (e.g. HIV, hepatitis B or C), pregnancy, neurologic disorders (including a history of serious head trauma or seizures), liver disease (as manifested as an elevation in liver transaminases) and uncontrolled cardiovascular, metabolic, pulmonary or renal disease (as determined by medical history and laboratory testing)	Eligibility	7
+condition	PDRO:0000129	22-31
+glutamate	CHEBI:14321,BAO:0000926	91-100
+chronic	HP:0011010	187-194
+hepatitis b	DOID:2043	226-237
+history	BFO:0000182	290-297
+history	BFO:0000182	501-508
+head	UBERON:0000033	309-313
+liver disease	DOID:409	335-348
+liver	UBERON:0002107	335-340
+liver	UBERON:0002107	383-388
+disease	DOID:4,OGMS:0000031	206-213
+disease	DOID:4,OGMS:0000031	341-348
+disease	DOID:4,OGMS:0000031	467-474
+Current or past history of schizophrenia	Eligibility	8
+history	BFO:0000182	16-23
+schizophrenia	HP:0100753,DOID:5419	27-40
+Individuals with bipolar disorder who have experienced a manic episode within 6 months of study entry, or at the discretion of the study doctor	Eligibility	9
+bipolar disorder	DOID:3312	17-33
+Individuals receiving antidepressants, mood stabilizers, antipsychotic medications or benzodiazepines or drugs known to affect the immune system (e.g. glucocorticoids, methotrexate), or at the discretion of the study doctor	Eligibility	10
+immune system	UBERON:0002405	131-144
+methotrexate	CHEBI:44185	168-180
+Individuals exhibiting signs of infection at the screening visit will be rescheduled to screen when symptoms have resolved	Eligibility	11
+Outcome Measurement:	Results	0
+Central Nervous System (CNS) Glutamate Measured by Magnetic Resonance Spectroscopy (MRS)	Results	1
+central nervous system	UBERON:0001017	0-22
+glutamate	CHEBI:14321,BAO:0000926	29-38
+Magnetic resonance spectroscopy (MRS) is a specialized technique associated with magnetic resonance imaging (MRI). MRS is a non-invasive way to obtain biochemical information about the tissues of the human body. Participants underwent single voxel (3-dimensional volume X pixel) MRS to measure CNS glutamate before and after 1 and 8 weeks of riluzole or placebo treatment. Voxels were placed in the right and left basal ganglia and the dorsal anterior cingulate cortex (dACC), well known targets of inflammatory cytokines on the brain, and cytokine effects on these brain regions have been associated with symptoms of fatigue and cognitive dysfunction as well as reduced motivation. MRS has shown that chronic exposure to the inflammatory cytokine interferon (IFN)-alpha leads to increased CNS glutamate (as reflected by the glutamate/creatine (Glu/Cr) ratio) which correlated with symptoms of fatigue and cognitive dysfunction.	Results	2
+volume	PATO:0000918	263-269
+x	LABO:0000148	244-245
+x	LABO:0000148	270-271
+x	LABO:0000148	274-275
+x	LABO:0000148	375-376
+x	LABO:0000148	467-468
+x	LABO:0000148	711-712
+glutamate	CHEBI:14321,BAO:0000926	298-307
+glutamate	CHEBI:14321,BAO:0000926	794-803
+glutamate	CHEBI:14321,BAO:0000926	825-834
+riluzole	CHEBI:8863	342-350
+right	HP:0012834	399-404
+left	HP:0012835	409-413
+cortex	UBERON:0001851	462-468
+brain	UBERON:0000955	529-534
+brain	UBERON:0000955	566-571
+cytokine	BAO:0002023	512-520
+cytokine	BAO:0002023	540-548
+cytokine	BAO:0002023	739-747
+fatigue	HP:0012378	618-625
+fatigue	HP:0012378	894-901
+chronic	HP:0011010	702-709
+ratio	UO:0000190	853-858
+Time frame: Baseline, Week 1, Week 8	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	22-26
+week	UO:0000034	30-34
+Results 1:	Results	4
+Arm/Group Title: Riluzole Arm	Results	5
+riluzole	CHEBI:8863	17-25
+Arm/Group Description: Participants took a daily oral dose of 100 mg of riluzole (50 mg two times per day) for 8 weeks. Participants were instructed to take the study medication on an empty stomach (1 hour before or 2 hours after meals).	Results	6
+riluzole	CHEBI:8863	72-80
+day	UO:0000033	102-105
+stomach	UBERON:0000945	190-197
+hour	UO:0000032	201-205
+hour	UO:0000032	218-222
+Overall Number of Participants Analyzed: 15	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Glu/Cr  Baseline dorsal anterior cingulate cortex (dACC): 1.26         (0.09)	Results	9
+cortex	UBERON:0001851	60-66
+Week 1 dACC: 1.26         (1.26)	Results	10
+week	UO:0000034	0-4
+Week 8 dACC: 1.27         (0.12)	Results	11
+week	UO:0000034	0-4
+Baseline left basal ganglia: 0.85         (0.09)	Results	12
+left	HP:0012835	9-13
+Week 1 left basal ganglia: 0.93         (0.16)	Results	13
+week	UO:0000034	0-4
+left	HP:0012835	7-11
+Week 8 left basal ganglia: 0.96         (0.2)	Results	14
+week	UO:0000034	0-4
+left	HP:0012835	7-11
+Baseline right basal ganglia: 0.9         (0.09)	Results	15
+right	HP:0012834	9-14
+Week 1 right basal ganglia: 0.9         (0.08)	Results	16
+week	UO:0000034	0-4
+right	HP:0012834	7-12
+Week 8 right basal ganglia: 0.93         (0.13)	Results	17
+week	UO:0000034	0-4
+right	HP:0012834	7-12
+Results 2:	Results	18
+Arm/Group Title: Placebo Arm	Results	19
+Arm/Group Description: Participants took a daily oral dose of 100 mg of a placebo that appears identical to riluzole (50 mg two times per day), for 8 weeks. Participants will be instructed to take the study medication on an empty stomach (1 hour before or 2 hours after meals).	Results	20
+riluzole	CHEBI:8863	108-116
+day	UO:0000033	138-141
+stomach	UBERON:0000945	230-237
+hour	UO:0000032	241-245
+hour	UO:0000032	258-262
+Overall Number of Participants Analyzed: 15	Results	21
+Mean (Standard Deviation)	Results	22
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Glu/Cr  Baseline dorsal anterior cingulate cortex (dACC): 1.2         (0.15)	Results	23
+cortex	UBERON:0001851	60-66
+Week 1 dACC: 1.27         (0.12)	Results	24
+week	UO:0000034	0-4
+Week 8 dACC: 1.27         (0.07)	Results	25
+week	UO:0000034	0-4
+Baseline left basal ganglia: 0.91         (0.12)	Results	26
+left	HP:0012835	9-13
+Week 1 left basal ganglia: 0.96         (0.13)	Results	27
+week	UO:0000034	0-4
+left	HP:0012835	7-11
+Week 8 left basal ganglia: 0.98         (0.11)	Results	28
+week	UO:0000034	0-4
+left	HP:0012835	7-11
+Baseline right basal ganglia: 0.92         (0.14)	Results	29
+right	HP:0012834	9-14
+Week 1 right basal ganglia: 0.89         (0.11)	Results	30
+week	UO:0000034	0-4
+right	HP:0012834	7-12
+Week 8 right basal ganglia: 0.93         (0.1)	Results	31
+week	UO:0000034	0-4
+right	HP:0012834	7-12
+Adverse Events 1:	Adverse Events	0
+Total: 0/15 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

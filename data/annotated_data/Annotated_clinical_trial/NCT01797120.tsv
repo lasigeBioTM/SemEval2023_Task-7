@@ -1,0 +1,298 @@
+INTERVENTION 1:	Intervention	0
+Fulvestrant & Everolimus	Intervention	1
+fulvestrant	CHEBI:31638	0-11
+everolimus	CHEBI:68478	14-24
+Fulvestrant Day 1 & 15 of Cycle 1, then Day 1 of all subsequent cycles (every 28 days for 12 cycles) plus everolimus daily x 12 cycles.	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	12-15
+day	UO:0000033	40-43
+day	UO:0000033	81-84
+everolimus	CHEBI:68478	106-116
+x	LABO:0000148	123-124
+Fulvestrant: Fulvestrant 500 mg Day 1 & 15 of Cycle 1, then 500 mg Day 1 of all subsequent cycles (every 28 days for 12 cycles).	Intervention	3
+fulvestrant	CHEBI:31638	0-11
+fulvestrant	CHEBI:31638	13-24
+day	UO:0000033	32-35
+day	UO:0000033	67-70
+day	UO:0000033	108-111
+If no evidence of disease progression after 12 cycles, unblind and continue same dose and schedule until progression or unacceptable toxicity.	Intervention	4
+disease	DOID:4,OGMS:0000031	18-25
+Everolimus: Everolimus 10 mg (2 tablets) daily x 12 cycles.	Intervention	5
+everolimus	CHEBI:68478	0-10
+everolimus	CHEBI:68478	12-22
+x	LABO:0000148	47-48
+If no evidence of disease progression after 12 cycles, unblind and continue same dose and schedule until progression or unacceptable toxicity.	Intervention	6
+disease	DOID:4,OGMS:0000031	18-25
+INTERVENTION 2:	Intervention	7
+Fulvestrant & Placebo	Intervention	8
+fulvestrant	CHEBI:31638	0-11
+Fulvestrant Day 1 & 15 of Cycle 1, then Day 1 of all subsequent cycles (every 28 days for 12 cycles) plus placebo daily x 12 cycles.	Intervention	9
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	12-15
+day	UO:0000033	40-43
+day	UO:0000033	81-84
+x	LABO:0000148	120-121
+Fulvestrant: Fulvestrant 500 mg Day 1 & 15 of Cycle 1, then 500 mg Day 1 of all subsequent cycles (every 28 days for 12 cycles).	Intervention	10
+fulvestrant	CHEBI:31638	0-11
+fulvestrant	CHEBI:31638	13-24
+day	UO:0000033	32-35
+day	UO:0000033	67-70
+day	UO:0000033	108-111
+If no evidence of disease progression after 12 cycles, unblind and continue same dose and schedule until progression or unacceptable toxicity.	Intervention	11
+disease	DOID:4,OGMS:0000031	18-25
+Placebo: Placebo for Everolimus (2 tablets) daily x 12 cycles. Placebo manufactured to mimic everolimus tablet.	Intervention	12
+everolimus	CHEBI:68478	21-31
+everolimus	CHEBI:68478	93-103
+x	LABO:0000148	50-51
+Inclusion Criteria:	Eligibility	0
+Signed informed consent.	Eligibility	1
+18 years.	Eligibility	2
+ECOG Performance Status 0 or 1.	Eligibility	3
+Histologically or cytologically confirmed adenocarcinoma of the breast.	Eligibility	4
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+Stage IV disease or inoperable locally advanced disease.	Eligibility	5
+disease	DOID:4,OGMS:0000031	9-16
+disease	DOID:4,OGMS:0000031	48-55
+ER and/or PR-positive disease. Tumors must be HER-2/neu negative or equivocal.	Eligibility	6
+disease	DOID:4,OGMS:0000031	22-29
+Aromatase Inhibitor (AI) resistant, defined as:	Eligibility	7
+inhibitor	CHEBI:35222	10-19
+relapsed while receiving adjuvant therapy with an AI or,	Eligibility	8
+adjuvant	CHEBI:60809	25-33
+progressive disease while receiving an AI for metastatic disease	Eligibility	9
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+disease	DOID:4,OGMS:0000031	57-64
+Received one prior cycle of fulvestrant within 28 days of randomization are eligible.	Eligibility	10
+fulvestrant	CHEBI:31638	28-39
+2 prior doses of fulvestrant are not eligible	Eligibility	11
+fulvestrant	CHEBI:31638	17-28
+Must be female and postmenopausal.	Eligibility	12
+female	PATO:0000383	8-14
+May have received 1 prior systemic chemotherapy regimen for metastatic disease.	Eligibility	13
+disease	DOID:4,OGMS:0000031	71-78
+Adequate organ function:	Eligibility	14
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Whole Blood Cells (WBC) 3.0 x 10⁹/L, Absolute neutrophil count (ANC) 1.5 x 10⁹/L and platelet count 100 x 10⁹/L	Eligibility	15
+blood	UBERON:0000178	6-11
+x	LABO:0000148	28-29
+x	LABO:0000148	73-74
+x	LABO:0000148	104-105
+platelet count	CMO:0000029	85-99
+hemoglobin 9 g/dL	Eligibility	16
+hemoglobin	CHEBI:35143	0-10
+serum bilirubin 1.5 X ULN (Upper Limit of Normal)	Eligibility	17
+x	LABO:0000148	20-21
+Aspartate Aminotransferase (AST) or Alanine Aminotransferase (ALT) 2.5 X ULN (  5 x ULN in patients with liver metastases)	Eligibility	18
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	36-43
+x	LABO:0000148	71-72
+x	LABO:0000148	82-83
+liver	UBERON:0002107	105-110
+serum creatinine 1.5 X ULN	Eligibility	19
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	21-22
+serum albumin 3 g/dL	Eligibility	20
+serum albumin	BAO:0002066	0-13
+fasting serum cholesterol 300 mg/dL OR 7.75 mmol/L AND fasting triglycerides 2.5 x ULN.	Eligibility	21
+cholesterol	CHEBI:16113	14-25
+x	LABO:0000148	81-82
+Prothrombin time (PT) with international normalized ratio (INR) 1.5	Eligibility	22
+prothrombin time	CMO:0000211	0-16
+ratio	UO:0000190	52-57
+May have measurable disease, non-measurable disease, or both.	Eligibility	23
+disease	DOID:4,OGMS:0000031	20-27
+disease	DOID:4,OGMS:0000031	44-51
+Basal cell or squamous cell carcinoma of the skin or carcinoma in situ of the cervix within the past five years treated with curative intent. History of prior malignancy are eligible if disease-free for >3 years.	Eligibility	24
+squamous cell carcinoma of the skin	HP:0006739	14-49
+carcinoma	HP:0030731,DOID:305	28-37
+carcinoma	HP:0030731,DOID:305	53-62
+history	BFO:0000182	142-149
+Exclusion Criteria:	Eligibility	25
+Major surgery or significant traumatic injury within 4 weeks of randomization or patients that may require major surgery during the course of the study.	Eligibility	26
+surgery	OAE:0000067	6-13
+surgery	OAE:0000067	113-120
+Investigational agents within 4 weeks of randomization.	Eligibility	27
+Anticancer treatment within 4 weeks of randomization, with the following exceptions:	Eligibility	28
+Bisphosphonates or Zometa for bone metastases	Eligibility	29
+a GnRH analog is permitted if the patient had progressive disease on a GnRH (Gonadotropin-Releasing Hormone) analog plus a SERM (Selective Estrogen Receptor Modulators) or an AI; the GnRH analog may continue but the SERM or AI must be discontinued.	Eligibility	30
+patient	HADO:0000008,OAE:0001817	34-41
+progressive	HP:0003676	46-57
+disease	DOID:4,OGMS:0000031	58-65
+hormone	CHEBI:24621	100-107
+estrogen	CHEBI:50114,BAO:0000760	139-147
+receptor	BAO:0000281	148-156
+Prior treatment with an mTOR inhibitor.	Eligibility	31
+mtor inhibitor	CHEBI:68481	24-38
+Receiving chronic, systemic treatment with corticosteroids or another immunosuppressive agent  5 mg prednisone or equivalent daily.	Eligibility	32
+chronic	HP:0011010	10-17
+immunosuppressive agent	CHEBI:35705	70-93
+prednisone	CHEBI:8382	100-110
+Receive immunization with attenuated live vaccines within one week of randomization or during the study period.	Eligibility	33
+week	UO:0000034	62-66
+Current or a prior history of brain metastases or leptomeningeal disease. Must not have rapidly progressive, life-threatening metastases.	Eligibility	34
+history	BFO:0000182	19-26
+brain	UBERON:0000955	30-35
+disease	DOID:4,OGMS:0000031	65-72
+rapidly progressive	HP:0003678	88-107
+Known hypersensitivity/history of allergic reactions attributed to compounds of similar chemical or biologic composition to everolimus or fulvestrant.	Eligibility	35
+everolimus	CHEBI:68478	124-134
+fulvestrant	CHEBI:31638	138-149
+Congenital or acquired immune deficiency at increased risk of infection.	Eligibility	36
+Impairment of gastrointestinal function/disease that may significantly alter the absorption of everolimus.	Eligibility	37
+everolimus	CHEBI:68478	95-105
+Active, bleeding diathesis.	Eligibility	38
+active	PATO:0002354	0-6
+History of any condition or uncontrolled intercurrent illness that in the opinion of the local investigator might interfere with or limit the patient's ability to comply with the protocol or pose additional or unacceptable risk to the patient.	Eligibility	39
+history	BFO:0000182	0-7
+condition	PDRO:0000129	15-24
+patient	HADO:0000008,OAE:0001817	142-149
+patient	HADO:0000008,OAE:0001817	235-242
+Severe and/or uncontrolled medical conditions or other conditions that could affect their participation in the study such as:	Eligibility	40
+severe	HP:0012828	0-6
+Symptomatic congestive heart failure of New York Heart Association Class III or IV	Eligibility	41
+congestive heart failure	HP:0001635,DOID:6000	12-36
+heart	UBERON:0000948	23-28
+heart	UBERON:0000948	49-54
+Unstable angina pectoris, myocardial infarction within 6 months of randomization, serious uncontrolled cardiac arrhythmia or any other clinically significant cardiac disease	Eligibility	42
+angina pectoris	HP:0001681	9-24
+myocardial infarction	HP:0001658,DOID:5844	26-47
+arrhythmia	HP:0011675	111-121
+disease	DOID:4,OGMS:0000031	166-173
+History of symptomatic pulmonary disease or non-malignant pulmonary disease requiring treatment.	Eligibility	43
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	33-40
+disease	DOID:4,OGMS:0000031	68-75
+Uncontrolled diabetes as defined by fasting serum glucose >1.5 x ULN	Eligibility	44
+glucose	CHEBI:4167,BAO:0000924	50-57
+x	LABO:0000148	63-64
+Active (acute or chronic) or uncontrolled severe infections	Eligibility	45
+active	PATO:0002354	0-6
+acute	HP:0011009,PATO:0000389	8-13
+chronic	HP:0011010	17-24
+severe	HP:0012828	42-48
+Liver disease such as cirrhosis or severe hepatic impairment (Child-Pugh Class C).	Eligibility	46
+liver disease	DOID:409	0-13
+cirrhosis	HP:0001394	22-31
+severe	HP:0012828	35-41
+Note: Detailed assessment of Hepatitis B/C medical history and risk factors must be done at screening.	Eligibility	47
+hepatitis	HP:0012115,DOID:2237	29-38
+history	BFO:0000182	51-58
+Outcome Measurement:	Results	0
+Progression-free Survival	Results	1
+Progression-free survival documented by Physical Exam, CT Scan or MRI in post-menopausal patients with hormone-receptor positive metastatic breast cancer that is resistant to aromatase inhibitor therapy treated with fulvestrant and everolimus compared to fulvestrant alone from randomization to documented disease progression or death. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.	Results	2
+ct	BAO:0002125	55-57
+breast cancer	DOID:1612	140-153
+inhibitor	CHEBI:35222	185-194
+fulvestrant	CHEBI:31638	216-227
+fulvestrant	CHEBI:31638	255-266
+everolimus	CHEBI:68478	232-242
+disease	DOID:4,OGMS:0000031	306-313
+death	OAE:0000632	329-334
+increase	BAO:0001251	443-451
+increase	BAO:0001251	522-530
+diameter	PATO:0001334	478-486
+target	BAO:0003064	490-496
+target	BAO:0003064	540-546
+Time frame: Every 3 months until progression or up to 3 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Fulvestrant & Everolimus	Results	5
+fulvestrant	CHEBI:31638	17-28
+everolimus	CHEBI:68478	31-41
+Arm/Group Description: Fulvestrant Day 1 & 15 of Cycle 1, then Day 1 of all subsequent cycles (every 28 days for 12 cycles) plus everolimus daily x 12 cycles.	Results	6
+fulvestrant	CHEBI:31638	23-34
+day	UO:0000033	35-38
+day	UO:0000033	63-66
+day	UO:0000033	104-107
+everolimus	CHEBI:68478	129-139
+x	LABO:0000148	146-147
+Fulvestrant: Fulvestrant 500 mg Day 1 & 15 of Cycle 1, then 500 mg Day 1 of all subsequent cycles (every 28 days for 12 cycles).	Results	7
+fulvestrant	CHEBI:31638	0-11
+fulvestrant	CHEBI:31638	13-24
+day	UO:0000033	32-35
+day	UO:0000033	67-70
+day	UO:0000033	108-111
+If no evidence of disease progression after 12 cycles, unblind and continue same dose and schedule until progression or unacceptable toxicity.	Results	8
+disease	DOID:4,OGMS:0000031	18-25
+Everolimus: Everolimus 10 mg (2 tablets) daily x 12 cycles.	Results	9
+everolimus	CHEBI:68478	0-10
+everolimus	CHEBI:68478	12-22
+x	LABO:0000148	47-48
+If no evidence of disease progression after 12 cycles, unblind and continue same dose and schedule until progression or unacceptable toxicity.	Results	10
+disease	DOID:4,OGMS:0000031	18-25
+Overall Number of Participants Analyzed: 66	Results	11
+Median (95% Confidence Interval)	Results	12
+median	BAO:0002174	0-6
+Unit of Measure: months  10.3        (7.6 to 13.8)	Results	13
+Results 2:	Results	14
+Arm/Group Title: Fulvestrant & Placebo	Results	15
+fulvestrant	CHEBI:31638	17-28
+Arm/Group Description: Fulvestrant Day 1 & 15 of Cycle 1, then Day 1 of all subsequent cycles (every 28 days for 12 cycles) plus placebo daily x 12 cycles.	Results	16
+fulvestrant	CHEBI:31638	23-34
+day	UO:0000033	35-38
+day	UO:0000033	63-66
+day	UO:0000033	104-107
+x	LABO:0000148	143-144
+Fulvestrant: Fulvestrant 500 mg Day 1 & 15 of Cycle 1, then 500 mg Day 1 of all subsequent cycles (every 28 days for 12 cycles).	Results	17
+fulvestrant	CHEBI:31638	0-11
+fulvestrant	CHEBI:31638	13-24
+day	UO:0000033	32-35
+day	UO:0000033	67-70
+day	UO:0000033	108-111
+If no evidence of disease progression after 12 cycles, unblind and continue same dose and schedule until progression or unacceptable toxicity.	Results	18
+disease	DOID:4,OGMS:0000031	18-25
+Placebo: Placebo for Everolimus (2 tablets) daily x 12 cycles. Placebo manufactured to mimic everolimus tablet.	Results	19
+everolimus	CHEBI:68478	21-31
+everolimus	CHEBI:68478	93-103
+x	LABO:0000148	50-51
+Overall Number of Participants Analyzed: 65	Results	20
+Median (95% Confidence Interval)	Results	21
+median	BAO:0002174	0-6
+Unit of Measure: months  5.1        (3.0 to 8.0)	Results	22
+Adverse Events 1:	Adverse Events	0
+Total: 31/64 (48.44%)	Adverse Events	1
+Anemia 2/64 (3.13%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Lymphocytopenia 2/64 (3.13%)	Adverse Events	3
+Hypertension 2/64 (3.13%)	Adverse Events	4
+hypertension	HP:0000822,DOID:10763	0-12
+Neutropenia 2/64 (3.13%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/64 (1.56%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Thromboembolic Event 1/64 (1.56%)	Adverse Events	7
+Oral mucositis 7/64 (10.94%)	Adverse Events	8
+mucositis	DOID:0080178	5-14
+Diarrhea 2/64 (3.13%)	Adverse Events	9
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 4/64 (6.25%)	Adverse Events	10
+fatigue	HP:0012378	0-7
+Elevated AST 2/64 (3.13%)	Adverse Events	11
+Elevated ALT 1/64 (1.56%)	Adverse Events	12
+Esophageal Candidiasis 1/64 (1.56%)	Adverse Events	13
+esophageal candidiasis	DOID:13146	0-22
+Adverse Events 2:	Adverse Events	14
+Total: 5/65 (7.69%)	Adverse Events	15
+Anemia 1/65 (1.54%)	Adverse Events	16
+anemia	HP:0001903,DOID:2355	0-6
+Lymphocytopenia 0/65 (0.00%)	Adverse Events	17
+Hypertension 0/65 (0.00%)	Adverse Events	18
+hypertension	HP:0000822,DOID:10763	0-12
+Neutropenia 0/65 (0.00%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/65 (0.00%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Thromboembolic Event 0/65 (0.00%)	Adverse Events	21
+Oral mucositis 0/65 (0.00%)	Adverse Events	22
+mucositis	DOID:0080178	5-14
+Diarrhea 1/65 (1.54%)	Adverse Events	23
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 3/65 (4.62%)	Adverse Events	24
+fatigue	HP:0012378	0-7
+Elevated AST 1/65 (1.54%)	Adverse Events	25
+Elevated ALT 0/65 (0.00%)	Adverse Events	26
+Esophageal Candidiasis 0/65 (0.00%)	Adverse Events	27
+esophageal candidiasis	DOID:13146	0-22

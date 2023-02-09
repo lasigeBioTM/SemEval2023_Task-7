@@ -1,0 +1,238 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab + Lapatinib	Intervention	1
+lapatinib	CHEBI:49603	14-23
+Participants received Lapatinib 1000 milligram (mg) tablets orally daily 1 hour before or after breakfast along with Trastuzumab infusion at a loading dose of 4 milligrams/kilogram (mg/kg) body weight intravenously (IV) over 90 minutes on Day 1, followed by 2 mg/kg IV over 30 minutes weekly, in a 4 week cycle.	Intervention	2
+lapatinib	CHEBI:49603	22-31
+hour	UO:0000032	75-79
+body weight	CMO:0000012	189-200
+day	UO:0000033	239-242
+week	UO:0000034	285-289
+week	UO:0000034	300-304
+INTERVENTION 2:	Intervention	3
+Lapatinib	Intervention	4
+lapatinib	CHEBI:49603	0-9
+Participants received Lapatinib 1500 mg tablets orally daily 1 hour before or after breakfast.	Intervention	5
+lapatinib	CHEBI:49603	22-31
+hour	UO:0000032	63-67
+Inclusion Criteria:	Eligibility	0
+Signed informed consent.	Eligibility	1
+Female 18 years. Women of childbearing potential must have a negative serum pregnancy test at screening and must use an approved contraceptive method, if appropriate (for example, intrauterine device [IUD], birth control pills, or barrier device) beginning 2 weeks before the first dose of investigational product and for 28 days after the final dose of investigational product.	Eligibility	2
+female	PATO:0000383	0-6
+product	BAO:0003067	306-313
+product	BAO:0003067	370-377
+Metastatic breast cancer, histologically/cytologically confirmed. If the disease is restricted to a solitary lesion, its neoplastic nature must be confirmed by cytology or histology.	Eligibility	3
+breast cancer	DOID:1612	11-24
+disease	DOID:4,OGMS:0000031	73-80
+histology	NCIT:C16681	172-181
+Subjects must have stage IV breast cancer whereby their disease has progressed in either the adjuvant or metastatic setting. Prior therapies must include, but are not limited to:	Eligibility	4
+breast cancer	DOID:1612	28-41
+disease	DOID:4,OGMS:0000031	56-63
+adjuvant	CHEBI:60809	93-101
+Taxane-containing regimen for at least 4 cycles, or 2 cycles provided disease progression occurred while on taxane.	Eligibility	5
+disease	DOID:4,OGMS:0000031	70-77
+taxane	CHEBI:36064	0-6
+taxane	CHEBI:36064	108-114
+Anthracycline-containing regimen for at least 4 cycles, or 2 cycles provided disease progression occurred while on anthracycline.	Eligibility	6
+disease	DOID:4,OGMS:0000031	77-84
+anthracycline	CHEBI:48120	0-13
+anthracycline	CHEBI:48120	115-128
+Subjects must have documented progression following at least ONE trastuzumab plus cytotoxic chemotherapy or anti-hormonal regimen in the metastatic setting.	Eligibility	7
+Note: The most recent treatment must have contained trastuzumab, either alone or in combination with other therapy in the metastatic setting, and subjects must have progressed while on this regimen. Progression is defined as either new lesions or a 20% increase in the sum of longest diameter (LD) on the progression radiologic scan.	Eligibility	8
+increase	BAO:0001251	253-261
+diameter	PATO:0001334	284-292
+Subjects must have archived tumor tissue available for testing.	Eligibility	9
+tissue	UBERON:0000479	34-40
+Documented amplification of the ErbB2 gene by fluorescence in situ hybridization (FISH) or documented overexpression of the ErbB2 protein by IHC in primary or metastatic tumor tissue. The IHC or FISH amplification may be documented by a local or central laboratory for randomization into the study. Subjects may be randomized on the basis of ErbB2 positivity by IHC 3+ overexpression or FISH amplification.	Eligibility	10
+gene	BAO:0000582	38-42
+protein	CHEBI:36080,BAO:0000175	130-137
+tissue	UBERON:0000479	176-182
+central	HP:0030645	246-253
+Lesion eligibility is as follows:	Eligibility	11
+at least one measurable lesion(s) according to Response Evaluation Criteria in Solid Tumors [RECIST; Therasse, 2000], or	Eligibility	12
+bone-only disease.	Eligibility	13
+disease	DOID:4,OGMS:0000031	10-17
+Note: Tumor lesions which are situated in a previously irradiated field, and have well-defined margins which are located in soft tissue will be defined as measurable disease.	Eligibility	14
+tissue	UBERON:0000479	129-135
+disease	DOID:4,OGMS:0000031	166-173
+Subjects with stable CNS metastases defined as asymptomatic and off systemic steroids and anticonvulsants for at least 1 month. Treatment with prophylactic anticonvulsants is permitted, unless listed within the Prohibited Medications (Section 8.2).	Eligibility	15
+stable	HP:0031915	14-20
+month	UO:0000035	121-126
+Radiotherapy if received within 2 weeks prior to initiation of investigational product to a limited area (e.g., palliative treatment for painful disease) other than the sole site of measurable disease is allowed; however, subject must have completed treatment and recovered from all treatment-related toxicities prior to administration of the first dose of investigational product.	Eligibility	16
+radiotherapy	OAE:0000235	0-12
+product	BAO:0003067	79-86
+product	BAO:0003067	373-380
+area	PATO:0001323	100-104
+disease	DOID:4,OGMS:0000031	145-152
+disease	DOID:4,OGMS:0000031	193-200
+site	BFO:0000029	174-178
+With the single exception of prior trastuzumab treatment, all prior chemotherapy, immunotherapy, biologic therapy, or surgery (except for minor surgical procedures) must be discontinued at least 3 weeks prior to the first dose of investigational product. Subjects must have recovered or stabilized sufficiently from treatment-related toxicities prior to administration of the first dose of investigational product.	Eligibility	17
+surgery	OAE:0000067	118-125
+product	BAO:0003067	246-253
+product	BAO:0003067	406-413
+Bisphosphonate therapy for bone metastases is allowed; however, treatment must be initiated prior to the first dose of investigational product. Prophylactic use of bisphosphonates is permitted only for the treatment of osteoporosis.	Eligibility	18
+product	BAO:0003067	135-142
+osteoporosis	HP:0000939,DOID:11476	219-231
+ECOG Performance Status of 0 to 2.	Eligibility	19
+Able to swallow and retain oral medication.	Eligibility	20
+Cardiac ejection fraction within institutional range of normal as measured by echocardiogram. MUGA scans will be accepted in cases where an echocardiogram cannot be performed or is inconclusive. Same modality used at baseline must be used for repeat assessments throughout study.	Eligibility	21
+ejection fraction	CMO:0000180	8-25
+range	LABO:0000114	47-52
+Subject must have adequate organ function as defined in Table 1 :	Eligibility	22
+organ	UBERON:0000062	27-32
+function	BAO:0003117,BFO:0000034	33-41
+Table 1 (Definitions for Adequate Hematologic and Hepatic Function)	Eligibility	23
+function	BAO:0003117,BFO:0000034	58-66
+SYSTEM (LABORATORY VALUES)	Eligibility	24
+Hematologic:	Eligibility	25
+ANC (absolute neutrophil count) ( 1x10^9/ L)	Eligibility	26
+Hemoglobin ( 9 g / dL)	Eligibility	27
+hemoglobin	CHEBI:35143	0-10
+Platelets (  75x10^9/ L)	Eligibility	28
+Hepatic	Eligibility	29
+Albumin ( 2.5 g / dL)	Eligibility	30
+Serum bilirubin ( 2 mg / dL)	Eligibility	31
+AST and ALT ( 3 x ULN without liver metastases) ( 5 xULN if documented liver metastases)	Eligibility	32
+x	LABO:0000148	16-17
+x	LABO:0000148	52-53
+liver	UBERON:0002107	30-35
+liver	UBERON:0002107	71-76
+Renal	Eligibility	33
+Serum Creatinine (  1.5 mg / dL)	Eligibility	34
+creatinine	CHEBI:16737	6-16
+OR -	Eligibility	35
+Calculated Creatinine Clearance1 (  40 mL / min)	Eligibility	36
+creatinine	CHEBI:16737	11-21
+Calculated by the Cockcroft and Gault Method.	Eligibility	37
+Subjects may continue anti-estrogen therapy only if treatment was initiated at least 1 month prior to the first dose of investigational product (IP). After randomization, no anti-hormonal therapy may be initiated.	Eligibility	38
+anti-estrogen	CHEBI:50751	22-35
+month	UO:0000035	87-92
+product	BAO:0003067	136-143
+Exclusion Criteria:	Eligibility	39
+Pregnant or lactating females.	Eligibility	40
+Prior therapy with an ErbB1 and/or ErbB2 inhibitor other than trastuzumab.	Eligibility	41
+inhibitor	CHEBI:35222	41-50
+Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel. Subjects with ulcerative colitis are also excluded.	Eligibility	42
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+disease	DOID:4,OGMS:0000031	24-31
+function	BAO:0003117,BFO:0000034	73-81
+stomach	UBERON:0000945	103-110
+ulcerative colitis	HP:0100279,DOID:8577	141-159
+excluded	HP:0040285	169-177
+History of other malignancy. However, subjects who have been disease-free for 5 years, or subjects with a history of completely resected non-melanoma skin cancer or successfully treated in situ carcinoma are eligible.	Eligibility	43
+history	BFO:0000182	0-7
+history	BFO:0000182	106-113
+skin cancer	DOID:4159	150-161
+in situ carcinoma	DOID:8719	186-203
+Concurrent disease or condition that would make the subject inappropriate for study participation or any serious medical disorder that would interfere with the subject's safety.	Eligibility	44
+disease	DOID:4,OGMS:0000031	11-18
+condition	PDRO:0000129	22-31
+disorder	OGMS:0000045	121-129
+Unresolved or unstable, serious toxicity from prior administration of another investigational drug and/or of prior cancer treatment.	Eligibility	45
+drug	CHEBI:23888	94-98
+cancer	DOID:162	115-121
+Active or uncontrolled infection.	Eligibility	46
+active	PATO:0002354	0-6
+Dementia, altered mental status, or any psychiatric condition that would prohibit the understanding or rendering of informed consent.	Eligibility	47
+dementia	HP:0000726,DOID:1307	0-8
+condition	PDRO:0000129	52-61
+Known history of uncontrolled or symptomatic angina, arrhythmias, or congestive heart failure.	Eligibility	48
+history	BFO:0000182	6-13
+congestive heart failure	HP:0001635,DOID:6000	69-93
+Known history or clinical evidence of leptomeningeal carcinomatosis.	Eligibility	49
+history	BFO:0000182	6-13
+Concurrent cancer therapy (chemotherapy, radiation therapy, immunotherapy, biologic therapy).	Eligibility	50
+cancer	DOID:162	11-17
+Concurrent treatment with an investigational agent or participation in another clinical trial.	Eligibility	51
+Used an investigational drug within 3 weeks or 5 half-lives, whichever is longer, preceding the first dose of investigational product.	Eligibility	52
+drug	CHEBI:23888	24-28
+product	BAO:0003067	126-133
+Known immediate or delayed hypersensitivity reaction or idiosyncrasy to drugs chemically related to trastuzumab or lapatinib or their excipients.	Eligibility	53
+hypersensitivity	GO:0002524,DOID:1205	27-43
+lapatinib	CHEBI:49603	115-124
+Have current active hepatic or biliary disease (with exception of patients with Gilbert's syndrome, asymptomatic gallstones, liver metastases or stable chronic liver disease per investigator assessment).	Eligibility	54
+active	PATO:0002354	13-19
+disease	DOID:4,OGMS:0000031	39-46
+disease	DOID:4,OGMS:0000031	166-173
+syndrome	DOID:225	90-98
+liver	UBERON:0002107	125-130
+liver	UBERON:0002107	160-165
+stable	HP:0031915	145-151
+chronic	HP:0011010	152-159
+liver disease	DOID:409	160-173
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+PFS was defined as the time from randomization until the first documented sign of disease progression or death due to any cause.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	82-89
+death	OAE:0000632	105-110
+Time frame: Baseline to disease progression or death due to any cause or 30 days after last dose (up to 216 weeks)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	24-31
+death	OAE:0000632	47-52
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab + Lapatinib	Results	5
+lapatinib	CHEBI:49603	31-40
+Arm/Group Description: Participants received Lapatinib 1000 milligram (mg) tablets orally daily 1 hour before or after breakfast along with Trastuzumab infusion at a loading dose of 4 milligrams/kilogram (mg/kg) body weight intravenously (IV) over 90 minutes on Day 1, followed by 2 mg/kg IV over 30 minutes weekly, in a 4 week cycle.	Results	6
+lapatinib	CHEBI:49603	45-54
+hour	UO:0000032	98-102
+body weight	CMO:0000012	212-223
+day	UO:0000033	262-265
+week	UO:0000034	308-312
+week	UO:0000034	323-327
+Overall Number of Participants Analyzed: 146	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: weeks  12.0        (8.1 to 16.0)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Lapatinib	Results	11
+lapatinib	CHEBI:49603	17-26
+Arm/Group Description: Participants received Lapatinib 1500 mg tablets orally daily 1 hour before or after breakfast.	Results	12
+lapatinib	CHEBI:49603	45-54
+hour	UO:0000032	86-90
+Overall Number of Participants Analyzed: 145	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: weeks  8.1        (7.6 to 9.0)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 40/149 (26.85%)	Adverse Events	1
+Febrile neutropenia * 2/149 (1.34%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia * 1/149 (0.67%)	Adverse Events	3
+Thrombocytopenia * 1/149 (0.67%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Left ventricular dysfunction * 1/149 (0.67%)	Adverse Events	5
+left	HP:0012835	0-4
+Cardiac failure * 1/149 (0.67%)	Adverse Events	6
+Myocardial infarction * 1/149 (0.67%)	Adverse Events	7
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericardial effusion * 0/149 (0.00%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Vertigo * 1/149 (0.67%)	Adverse Events	9
+vertigo	HP:0002321	0-7
+Diarrhoea * 2/149 (1.34%)	Adverse Events	10
+Vomiting * 3/149 (2.01%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Nausea * 2/149 (1.34%)	Adverse Events	12
+nausea	HP:0002018	0-6
+Adverse Events 2:	Adverse Events	13
+Total: 24/146 (16.44%)	Adverse Events	14
+Febrile neutropenia * 0/146 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia * 0/146 (0.00%)	Adverse Events	16
+Thrombocytopenia * 0/146 (0.00%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Left ventricular dysfunction * 2/146 (1.37%)	Adverse Events	18
+left	HP:0012835	0-4
+Cardiac failure * 0/146 (0.00%)	Adverse Events	19
+Myocardial infarction * 0/146 (0.00%)	Adverse Events	20
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericardial effusion * 1/146 (0.68%)	Adverse Events	21
+pericardial effusion	HP:0001698,DOID:118	0-20
+Vertigo * 0/146 (0.00%)	Adverse Events	22
+vertigo	HP:0002321	0-7
+Diarrhoea * 3/146 (2.05%)	Adverse Events	23
+Vomiting * 2/146 (1.37%)	Adverse Events	24
+vomiting	HP:0002013	0-8
+Nausea * 2/146 (1.37%)	Adverse Events	25
+nausea	HP:0002018	0-6

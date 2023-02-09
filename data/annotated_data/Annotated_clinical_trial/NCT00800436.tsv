@@ -1,0 +1,89 @@
+INTERVENTION 1:	Intervention	0
+Part 1: Cohort 1	Intervention	1
+Healthy male participants received Herceptin 6 mg/kg IV on Day 1.	Intervention	2
+healthy	HP:0032322	0-7
+male	CHEBI:30780,PATO:0000384	8-12
+day	UO:0000033	59-62
+INTERVENTION 2:	Intervention	3
+Part 1: Cohort 2	Intervention	4
+Female participants with HER2-positive breast cancer received Herceptin 6 mg/kg IV on Day 1.	Intervention	5
+female	PATO:0000383	0-6
+breast cancer	DOID:1612	39-52
+day	UO:0000033	86-89
+Inclusion Criteria:	Eligibility	0
+Healthy Participants (Part 1 only)	Eligibility	1
+healthy	HP:0032322	0-7
+Males 18 to 45 to years of age	Eligibility	2
+age	PATO:0000011	27-30
+Baseline left ventricular ejection fraction (LVEF) greater than (>) 60 percent (%)	Eligibility	3
+left	HP:0012835	9-13
+ejection fraction	CMO:0000180	26-43
+percent	UO:0000187	71-78
+HER2-Positive Females (Parts 1 and 2)	Eligibility	4
+Females greater than or equal to (  ) 18 years of age	Eligibility	5
+age	PATO:0000011	50-53
+Eastern Cooperative Oncology Group (ECOG) performance status of 0	Eligibility	6
+group	CHEBI:24433	29-34
+Previous non-metastatic operable primary invasive HER2-positive breast cancer	Eligibility	7
+breast cancer	DOID:1612	64-77
+Baseline LVEF >55%	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Healthy Participants (Part 1 only)	Eligibility	10
+healthy	HP:0032322	0-7
+Clinically significant abnormalities in laboratory test results or electrocardiogram	Eligibility	11
+laboratory test	OGMS:0000056	40-55
+History of significant allergies, gastrointestinal, renal, hepatic, cardiovascular, or pulmonary disease	Eligibility	12
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	97-104
+History of hypersensitivity or allergic reaction, spontaneous or following drug administration	Eligibility	13
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+drug administration	OAE:0000011	75-94
+History of cardiac conditions	Eligibility	14
+history	BFO:0000182	0-7
+HER2-Positive Females (Parts 1 and 2)	Eligibility	15
+Metastatic disease	Eligibility	16
+disease	DOID:4,OGMS:0000031	11-18
+Concurrent other malignancy requiring therapy of any modality which may interfere with PK investigations or result in unexpected toxicity	Eligibility	17
+result	BAO:0000179	108-114
+Use of Herceptin in previous 5 months	Eligibility	18
+Serious cardiac illness	Eligibility	19
+Outcome Measurement:	Results	0
+Area Under the Concentration-Time Curve Extrapolated to Infinity (AUCinf) of Trastuzumab	Results	1
+area	PATO:0001323	0-4
+AUCinf represents the area under the concentration-time curve of trastuzumab in serum over the time interval from 0 extrapolated to infinity. Values for AUCinf of trastuzumab were derived by non-compartmental analysis across all pharmacokinetic (PK) collections and expressed in days by micrograms per milliliter (daysμg/mL).	Results	2
+area	PATO:0001323	22-26
+time	PATO:0000165	51-55
+time	PATO:0000165	95-99
+Time frame: Predose (0 hours) and postdose from start of 1.5-hour infusion (1.5 and 3 hours for IV) (6, 8, 12 hours for SC) on Day 1; on Days 2, 3, 5, 8, 15, 22, 43, 85; additionally on Day 10 for SC and Day 35 for IV; and 5 months postdose (up to 5 months overall)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	127-130
+day	UO:0000033	137-140
+day	UO:0000033	186-189
+day	UO:0000033	204-207
+Results 1:	Results	4
+Arm/Group Title: Part 1: Cohort 1	Results	5
+Arm/Group Description: Healthy male participants received Herceptin 6 mg/kg IV on Day 1.	Results	6
+healthy	HP:0032322	23-30
+male	CHEBI:30780,PATO:0000384	31-35
+day	UO:0000033	82-85
+Overall Number of Participants Analyzed: 6	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: daysμg/mL  1610         (303)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Part 1: Cohort 2	Results	11
+Arm/Group Description: Female participants with HER2-positive breast cancer received Herceptin 6 mg/kg IV on Day 1.	Results	12
+female	PATO:0000383	23-29
+breast cancer	DOID:1612	62-75
+day	UO:0000033	109-112
+Overall Number of Participants Analyzed: 6	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: daysμg/mL  1800         (250)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/6 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/6 (0.00%)	Adverse Events	3

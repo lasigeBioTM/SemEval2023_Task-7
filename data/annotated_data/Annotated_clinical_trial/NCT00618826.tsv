@@ -1,0 +1,129 @@
+INTERVENTION 1:	Intervention	0
+Treatment	Intervention	1
+Paclitaxel / Gemcitabine	Intervention	2
+paclitaxel	CHEBI:45863	0-10
+gemcitabine	CHEBI:175901	13-24
+Inclusion Criteria:	Eligibility	0
+Patient must be 18 years of age or older with histologically confirmed breast cancer and clinical evidence of metastatic disease.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+age	PATO:0000011	28-31
+breast cancer	DOID:1612	71-84
+disease	DOID:4,OGMS:0000031	121-128
+Patients must have measurable or non-measurable disease. X-rays, scans or physical examinations used to assess measurable disease must be performed within 28 days prior to registration. X-rays, scans or physical examinations to assess non-measurable disease must be completed within 42 days prior to registration. Patients with effusions or ascites as the only sites of disease are ineligible.	Eligibility	2
+disease	DOID:4,OGMS:0000031	48-55
+disease	DOID:4,OGMS:0000031	122-129
+disease	DOID:4,OGMS:0000031	250-257
+disease	DOID:4,OGMS:0000031	370-377
+ascites	HP:0001541	341-348
+Patients must meet the following requirements regarding prior and concurrent chemotherapy:Patients must not have received prior chemotherapy regimens for metastatic breast cancer. Patients may have received adjuvant/neoadjuvant chemotherapy, for a total of 3 prior regimens.	Eligibility	3
+breast cancer	DOID:1612	165-178
+Prior therapy with paclitaxel or docetaxel is allowed in the adjuvant or neoadjuvant setting, if given > 6 months prior to registration.	Eligibility	4
+paclitaxel	CHEBI:45863	19-29
+adjuvant	CHEBI:60809	61-69
+adjuvant	CHEBI:60809	76-84
+Patients must have >14 days delay between the conclusion of any radiation and the start of gemcitabine, provided the acute effects of radiation treatment have resolved.	Eligibility	5
+gemcitabine	CHEBI:175901	91-102
+acute	HP:0011009,PATO:0000389	117-122
+Patients may have received any number of exogenous hormonal therapies and/or trastuzumab in the adjuvant, neoadjuvant or metastatic setting. Last dose of prior hormonal therapy at least 14 days prior to registration.	Eligibility	6
+adjuvant	CHEBI:60809	96-104
+adjuvant	CHEBI:60809	109-117
+Patients may receive concomitant bisphosphonate therapy for bone metastasis.	Eligibility	7
+Patients must have recovered from any prior surgery. Two weeks must have elapsed from the time of any minor surgery and 4 weeks of any major surgery.	Eligibility	8
+surgery	OAE:0000067	44-51
+surgery	OAE:0000067	108-115
+surgery	OAE:0000067	141-148
+time	PATO:0000165	90-94
+Patients must have adequate bone marrow reserve as evidenced by the following: ANC > 1500/mcL, platelets > 100, 000/mcL, and hemoglobin > 9.0 gm/dL. These results must be obtained within 28 days prior to registration.	Eligibility	9
+bone marrow	UBERON:0002371	28-39
+hemoglobin	CHEBI:35143	125-135
+Patients must have serum creatinine < 1.5 mg/dL, obtained within 28 days prior to registration.	Eligibility	10
+creatinine	CHEBI:16737	25-35
+Urine Protein: creatinine ratio  1.0 at screening.	Eligibility	11
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	15-25
+ratio	UO:0000190	26-31
+Patients must have adequate liver function.	Eligibility	12
+liver	UBERON:0002107	28-33
+function	BAO:0003117,BFO:0000034	34-42
+Patients must have a Zubrod performance status of 0-1.	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Patients must not have tumors that carry HER-2 gene amplifications as determined by (i) fluorescence in situ hybridization (FISH) or (ii) overexpression of HER-2 protein 3+ level assessed by immunohistochemistry; or may have tumors that carry HER=2 gene amplification and have had disease progression while on trastuzumab. Patients who have previously been treated with trastuzumab must be off treatment at least 28 days prior to registration.	Eligibility	15
+gene	BAO:0000582	47-51
+gene	BAO:0000582	249-253
+protein	CHEBI:36080,BAO:0000175	162-169
+immunohistochemistry	BAO:0000415	191-211
+disease	DOID:4,OGMS:0000031	281-288
+Patients must not have CNS metastasis, leptomeningeal disease or lymphatic pulmonary metastases.	Eligibility	16
+disease	DOID:4,OGMS:0000031	54-61
+Patients must not have had prior therapy with gemcitabine or bevacizumab.	Eligibility	17
+gemcitabine	CHEBI:175901	46-57
+Patient must not have major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to start of treatment, anticipation of need for major surgical procedure during the course of the study.	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+Patients must not have received radiation to > 50% of the marrow-bearing bone.	Eligibility	19
+Patients must not have a history of significant symptomatic cardiac disease or left ventricular ejection fraction (LVEF) < 50% of the institutional lower limit of normal (ILLN). An isotope cardiac scan (MUGA) and ECG must be obtained within 28 days.	Eligibility	20
+history	BFO:0000182	25-32
+disease	DOID:4,OGMS:0000031	68-75
+left	HP:0012835	79-83
+ejection fraction	CMO:0000180	96-113
+Patients with uncontrolled hypertension are NOT eligible (BP>150/100).	Eligibility	21
+hypertension	HP:0000822,DOID:10763	27-39
+Patients must not have pr-existing clinically significant (Grade 2 or greater per CTCAE Version 3.0 motor or sensory neuropathy except for abnormalities due to cancer.	Eligibility	22
+sensory neuropathy	HP:0000763,DOID:2491	109-127
+cancer	DOID:162	160-166
+Patients known to be HIV positive.	Eligibility	23
+Patients must not be nursing or pregnant. Men and women of reproductive potential must agree to use an effective contraceptive method.	Eligibility	24
+No other prior malignancy is allowed except for the following: adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, adequately treated Stage I or Stage II cancer from which the patient has been disease free for 5 years.	Eligibility	25
+skin cancer	DOID:4159	110-121
+cervical cancer	DOID:4362	131-146
+cancer	DOID:162	115-121
+cancer	DOID:162	140-146
+cancer	DOID:162	187-193
+patient	HADO:0000008,OAE:0001817	209-216
+disease	DOID:4,OGMS:0000031	226-233
+Patients must not have had a Stroke or Myocardial Infarction in the past 6 months. Patients with unstable agina, significant peripheral vascular disease, history of abdominal fistula, gastrointestinal perforation or intra-abdominal abscess within the last 6 months should be excluded.	Eligibility	26
+stroke	HP:0001297,DOID:6713	29-35
+myocardial infarction	HP:0001658,DOID:5844	39-60
+peripheral vascular disease	DOID:341	125-152
+history	BFO:0000182	154-161
+abscess	HP:0025615	232-239
+excluded	HP:0040285	275-283
+Outcome Measurement:	Results	0
+Progression-free Survival	Results	1
+Time from study entry to disease progression or death	Results	2
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	25-32
+death	OAE:0000632	48-53
+Time frame: maximum 50 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment	Results	5
+Arm/Group Description: Paclitaxel / Gemcitabine	Results	6
+paclitaxel	CHEBI:45863	23-33
+gemcitabine	CHEBI:175901	36-47
+Overall Number of Participants Analyzed: 13	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  43        (7 to 45)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 10/14 (71.43%)	Adverse Events	1
+Hemoglobin 2/14 (14.29%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Lymphopenia 1/14 (7.14%)	Adverse Events	3
+lymphopenia	HP:0001888,DOID:614	0-11
+Cardiac ischemia/infarction 1/14 (7.14%)	Adverse Events	4
+Hypertension 2/14 (14.29%)	Adverse Events	5
+hypertension	HP:0000822,DOID:10763	0-12
+Hypotension 1/14 (7.14%)	Adverse Events	6
+hypotension	HP:0002615	0-11
+Constipation 1/14 (7.14%)	Adverse Events	7
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea 1/14 (7.14%)	Adverse Events	8
+diarrhea	HP:0002014,DOID:13250	0-8
+Heartburn/dyspepsia 1/14 (7.14%)	Adverse Events	9
+Fatigue (asthenia, lethargy, malaise) 2/14 (14.29%)	Adverse Events	10
+fatigue	HP:0012378	0-7
+asthenia	HP:0025406	9-17
+lethargy	HP:0001254	19-27
+malaise	HP:0033834	29-36
+Rigors/chills 1/14 (7.14%)	Adverse Events	11

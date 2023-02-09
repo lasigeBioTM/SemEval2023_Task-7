@@ -1,0 +1,106 @@
+INTERVENTION 1:	Intervention	0
+Group 2 (RS 11-25)	Intervention	1
+group	CHEBI:24433	0-5
+Patients with an intermediate RS (11-25) were assigned to Group 2. The subject was then randomized to treatment Arm 1, neoadjuvant hormonal therapy, or treatment Arm 2, neoadjuvant chemotherapy.	Intervention	2
+group	CHEBI:24433	58-63
+Inclusion Criteria:	Eligibility	0
+The treating surgeon must determine that breast conservation therapy (BCT) would be made more feasible by reducing tumor size using neoadjuvant systemic therapy	Eligibility	1
+breast	UBERON:0000310	41-47
+size	PATO:0000117	121-125
+The patient must have signed and dated an institutional review board (IRB) approved consent form that conforms to federal and institutional guidelines	Eligibility	2
+patient	HADO:0000008,OAE:0001817	4-11
+The patient must be female	Eligibility	3
+patient	HADO:0000008,OAE:0001817	4-11
+female	PATO:0000383	20-26
+The patient must be greater than or equal to 18 years old	Eligibility	4
+patient	HADO:0000008,OAE:0001817	4-11
+The patient must have an Eastern Cooperative Oncology Group Score (ECOG) performance status of 0 or 1	Eligibility	5
+patient	HADO:0000008,OAE:0001817	4-11
+group	CHEBI:24433	54-59
+The diagnosis of invasive carcinoma of the breast must have been made by core needle biopsy	Eligibility	6
+carcinoma	HP:0030731,DOID:305	26-35
+breast	UBERON:0000310	43-49
+The primary breast tumor must be >= 2 cm by physical exam or imaging	Eligibility	7
+breast	UBERON:0000310	12-18
+Ipsilateral axillary lymph nodes must be evaluated by imaging (MRI or ultrasound) within 6 weeks prior to randomization; If indicated for abnormal lymph nodes, fine needle aspirate (FNA) or core biopsy must be performed.	Eligibility	8
+lymph	UBERON:0002391	21-26
+lymph	UBERON:0002391	147-152
+The tumor must have been determined to be HER2-negative as follows:	Eligibility	9
+Fluorescent in situ hybridization (FISH)-negative (defined by ratio of HER2 to Chromosome 17 centromere (CEP17) must be < 2.2) or, if a ratio was not performed, the HER2 gene copy number must be < 4 per nucleus; or	Eligibility	10
+ratio	UO:0000190	62-67
+ratio	UO:0000190	136-141
+chromosome	GO:0005694	79-89
+gene	BAO:0000582	170-174
+nucleus	CHEBI:33252,GO:0005634	203-210
+Chromogenic in situ hybridization (CISH) is performed, the result must indicate a HER2 gene copy number of < 6 per nucleus; or	Eligibility	11
+result	BAO:0000179	59-65
+gene	BAO:0000582	87-91
+nucleus	CHEBI:33252,GO:0005634	115-122
+Immunohistochemistry (IHC) 0-1+; or	Eligibility	12
+immunohistochemistry	BAO:0000415	0-20
+IHC 2+ and FISH-negative or CISH-negative	Eligibility	13
+The tumor must have been determined to be ER+ and/or progesterone positive (PgR+) defined as > 10% tumor staining by immunohistochemistry	Eligibility	14
+progesterone	CHEBI:17026	53-65
+immunohistochemistry	BAO:0000415	117-137
+The patient must have been evaluated by a treating physician, reviewed and discussed by the multi-disciplinary breast team, and considered to be a candidate for chemotherapy	Eligibility	15
+patient	HADO:0000008,OAE:0001817	4-11
+breast	UBERON:0000310	111-117
+Exclusion Criteria:	Eligibility	16
+FNA alone to diagnose the primary tumor	Eligibility	17
+Excisional biopsy or lumpectomy performed prior to randomization	Eligibility	18
+Surgical axillary staging procedure or sentinel node (SN) biopsy performed prior to registration	Eligibility	19
+Tumors clinically staged as including inflammatory breast cancer	Eligibility	20
+breast cancer	DOID:1612	51-64
+Ipsilateral cN2b or cN3 disease (patients with cN1 or cN2a disease are eligible)	Eligibility	21
+disease	DOID:4,OGMS:0000031	24-31
+disease	DOID:4,OGMS:0000031	59-66
+Definitive clinical or radiologic evidence of metastatic disease (Note: chest imaging [mandatory for all patients] and other imaging [if required] must have been performed within 6 weeks prior to randomization)	Eligibility	22
+disease	DOID:4,OGMS:0000031	57-64
+chest	UBERON:0001443	72-77
+Synchronous or metachronous contralateral invasive breast cancer; (patients with synchronous and/or metachronous contralateral ductal carcinoma in situ (DCIS) or lobular carcinoma in situ (LCIS) are eligible)	Eligibility	23
+breast cancer	DOID:1612	51-64
+ductal carcinoma in situ	HP:0030075,DOID:0060074	127-151
+lobular carcinoma in situ	HP:0030076,DOID:3010	162-187
+HER2 test result of IHC 3+, regardless of FISH results, if performed	Eligibility	24
+result	BAO:0000179	10-16
+result	BAO:0000179	47-53
+Any history of ipsilateral invasive breast cancer or ipsilateral DCIS if treated with radiation therapy (RT); (patients with synchronous or metachronous ipsilateral LCIS are eligible)	Eligibility	25
+history	BFO:0000182	4-11
+breast cancer	DOID:1612	36-49
+History of non-breast malignancies, except for in situ cancers treated only by local excision and basal cell and squamous cell carcinomas of the skin, within 5 years prior to randomization	Eligibility	26
+history	BFO:0000182	0-7
+Treatment including RT, chemotherapy, and/or targeted therapy for the currently diagnosed breast cancer prior to registration	Eligibility	27
+breast cancer	DOID:1612	90-103
+Cardiac disease (history of and/or active disease) that would preclude the use of chemotherapy	Eligibility	28
+disease	DOID:4,OGMS:0000031	8-15
+disease	DOID:4,OGMS:0000031	42-49
+history	BFO:0000182	17-24
+active	PATO:0002354	35-41
+Pregnancy or lactation at the time of randomization; (Note: pregnancy testing must be performed within 2 weeks prior to randomization for women of childbearing potential)	Eligibility	29
+lactation	GO:0007595	13-22
+time	PATO:0000165	30-34
+Other non-malignant systemic disease that would preclude the patient from receiving study treatment or would prevent required follow-up	Eligibility	30
+disease	DOID:4,OGMS:0000031	29-36
+patient	HADO:0000008,OAE:0001817	61-68
+Psychiatric or addictive disorders or other conditions that, in the opinion of the investigator, would preclude the patient from meeting the study requirements	Eligibility	31
+patient	HADO:0000008,OAE:0001817	116-123
+Use of any investigational product within 30 days prior to registration	Eligibility	32
+product	BAO:0003067	27-34
+Outcome Measurement:	Results	0
+The Proportion of Patients With RS 11-25 Who Refused the Assigned Treatment	Results	1
+The primary purpose of this trial is to determine the feasibility of carrying out a large multi-center trial with a similar design. Feasibility, in terms of less than 1/3 of patients with intermediate (11-25) Recurrence Score (RS) who refused the assigned treatment (Group 2) or refused randomization between hormonal (Arm 1) or chemotherapy (Arm 2). The confidence interval will be 95%. The proportion (and 95% confidence interval) of patients with RS 11-25 who refuse the assigned treatment will be calculated.	Results	2
+group	CHEBI:24433	267-272
+Time frame: Up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Group 2 (RS 11-25)	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Patients with an intermediate RS (11-25) were assigned to Group 2. The subject was then randomized to treatment Arm 1, neoadjuvant hormonal therapy, or treatment Arm 2, neoadjuvant chemotherapy.	Results	6
+group	CHEBI:24433	4-9
+group	CHEBI:24433	81-86
+Overall Number of Participants Analyzed: 33	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: proportion of participants  0.15        (0.051 to 0.319)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1

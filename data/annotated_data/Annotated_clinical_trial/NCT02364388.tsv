@@ -1,0 +1,37 @@
+INTERVENTION 1:	Intervention	0
+MAESTRO	Intervention	1
+Baseline	Intervention	2
+Inclusion Criteria	Eligibility	0
+Female	Eligibility	1
+female	PATO:0000383	0-6
+18 years of age or older	Eligibility	2
+age	PATO:0000011	12-15
+Have an undiagnosed suspicious finding which may include more than one solid or complex cystic suspicious mass, classified by CDU as BI-RADS 4a or 4b within 3 weeks of their baseline Imagio Scan	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Have a condition or impediment that could interfere with the intended field of view (within one probe length or 4 cm of the mass), (i.e., breast implants within the previous 12 months, or tattoos)	Eligibility	5
+condition	PDRO:0000129	7-16
+probe	CHEBI:50406	96-101
+length	PATO:0000122	102-108
+breast	UBERON:0000310	138-144
+Pregnant or lactating	Eligibility	6
+Patient has received chemotherapy for any type of cancer within 90 days from date of screening CDU	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+cancer	DOID:162	50-56
+Outcome Measurement:	Results	0
+OA/US Specificity (Downgrade (%) for BI-RADS 4A & 4B) of Benign Masses	Results	1
+Outcome is the percentage of benign masses correctly downgraded by (OA/US) ultrasonography from a suspicious abnormality (4A or 4B) to benign or probably benign (BI-RADS 2 or 3). BI-RADS is the Breast Imaging Reporting and Data System established the American College of Radiology. BI-RADS scores range from 0 to 6, with increase in score indicating an increase in the probability of malignancy. A BI-RADS score of 4 or more indicates the need for biopsy. Specificity is reported with a 96% confidence interval using a normal approximation.	Results	2
+breast	UBERON:0000310	194-200
+range	LABO:0000114	297-302
+increase	BAO:0001251	321-329
+increase	BAO:0001251	353-361
+Time frame: CDU images and decision to biopsy to be done at Screening. OA/US imaging to be done within 10 days of Screening. Biopsy to be done within 30 days of Screening.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: MAESTRO	Results	5
+Arm/Group Description: Baseline	Results	6
+Overall Number of Participants Analyzed: 143	Results	7
+Overall Number of Units Analyzed	Results	8
+Type of Units Analyzed: Masses  Mean (96% Confidence Interval)Unit of Measure: percentage of masses: 41.1        (33.1 to 49.6)	Results	9
+mean	BAO:0002173	32-36
+Adverse Events 1:	Adverse Events	0
+Total: 0/217 (0.00%)	Adverse Events	1

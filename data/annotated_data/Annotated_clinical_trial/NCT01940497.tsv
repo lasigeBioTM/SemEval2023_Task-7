@@ -1,0 +1,170 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab (Vial): Adjuvant	Intervention	1
+vial	BAO:0000577	13-17
+adjuvant	CHEBI:60809	20-28
+Participants received trastuzumab 600 mg subcutaneously using a vial every 3 weeks (1 cycle) for 1 year (4 cycles in combination with adjuvant chemotherapy [consisting of doxorubicin, paclitaxel or docetaxel] and 14 cycles administered alone).	Intervention	2
+vial	BAO:0000577	64-68
+year	UO:0000036	99-103
+adjuvant	CHEBI:60809	134-142
+doxorubicin	CHEBI:28748,BAO:0000639	171-182
+paclitaxel	CHEBI:45863	184-194
+INTERVENTION 2:	Intervention	3
+Trastuzumab (Vial): Neoadjuvant	Intervention	4
+vial	BAO:0000577	13-17
+Participants received trastuzumab 600 mg subcutaneously using a vial every 3 weeks (1 cycle) for 1 year (4 cycles in combination with neoadjuvant chemotherapy [consisting of doxorubicin, paclitaxel or docetaxel] and 14 cycles administered alone).	Intervention	5
+vial	BAO:0000577	64-68
+year	UO:0000036	99-103
+doxorubicin	CHEBI:28748,BAO:0000639	174-185
+paclitaxel	CHEBI:45863	187-197
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed non-metastatic primary invasive adenocarcinoma of the breast. Stage of disease: T1-4 (T describes size of tumour from 1 to 4), N0-3 (N describes nearby lymph nodes), M0 (M describes distant metastasis)	Eligibility	1
+adenocarcinoma	DOID:299	57-71
+breast	UBERON:0000310	79-85
+disease	DOID:4,OGMS:0000031	96-103
+t	CHEBI:36371,BAO:0001260	3-4
+t	CHEBI:36371,BAO:0001260	31-32
+t	CHEBI:36371,BAO:0001260	34-35
+t	CHEBI:36371,BAO:0001260	36-37
+t	CHEBI:36371,BAO:0001260	75-76
+t	CHEBI:36371,BAO:0001260	84-85
+t	CHEBI:36371,BAO:0001260	88-89
+t	CHEBI:36371,BAO:0001260	105-106
+t	CHEBI:36371,BAO:0001260	111-112
+t	CHEBI:36371,BAO:0001260	131-132
+t	CHEBI:36371,BAO:0001260	145-146
+t	CHEBI:36371,BAO:0001260	210-211
+t	CHEBI:36371,BAO:0001260	213-214
+t	CHEBI:36371,BAO:0001260	217-218
+t	CHEBI:36371,BAO:0001260	220-221
+size	PATO:0000117	123-127
+lymph	UBERON:0002391	177-182
+HER2-positive disease immunohistochemistry (IHC) 3+ or in situ hybridization (ISH) positive	Eligibility	2
+disease	DOID:4,OGMS:0000031	14-21
+immunohistochemistry	BAO:0000415	22-42
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1	Eligibility	3
+group	CHEBI:24433	29-34
+Left ventricular ejection fraction (LVEF) of greater than or equal to (>=) 55 percent (%) measured by echocardiography (ECHO) or multiple gated acquisition (MUGA) scan prior to first dose of trastuzumab SC	Eligibility	4
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+percent	UO:0000187	78-85
+Intact skin at site of SC injection on the thigh	Eligibility	5
+site	BFO:0000029	15-19
+Exclusion Criteria:	Eligibility	6
+History of other malignancy, except for participants with curatively treated carcinoma in situ of the cervix or basal cell carcinoma and participants with other curatively treated malignancies, other than breast cancer, who have been disease-free for at least 5 years	Eligibility	7
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	77-86
+carcinoma	HP:0030731,DOID:305	123-132
+basal cell carcinoma	HP:0002671,DOID:2513	112-132
+breast cancer	DOID:1612	205-218
+Severe dyspnea at rest or requiring supplementary oxygen therapy	Eligibility	8
+severe	HP:0012828	0-6
+dyspnea	HP:0002094	7-14
+Concurrent serious diseases that may interfere with planned treatment, including severe pulmonary conditions/illness	Eligibility	9
+severe	HP:0012828	81-87
+Serious cardiac illness or medical conditions that would preclude the use of trastuzumab, specifically: history of documented congestive heart failure (CHF), high-risk uncontrolled arrhythmias, angina pectoris requiring medication, clinically significant valvular disease, evidence of transmural infarction on electrocardiogram (ECG), diagnosed poorly controlled hypertension	Eligibility	10
+history	BFO:0000182	104-111
+congestive heart failure	HP:0001635,DOID:6000	126-150
+angina pectoris	HP:0001681	194-209
+disease	DOID:4,OGMS:0000031	264-271
+hypertension	HP:0000822,DOID:10763	363-375
+Known infection with human immunodeficiency virus (HIV), active hepatitis B virus (HBV) or hepatitis C virus (HCV)	Eligibility	11
+immunodeficiency	HP:0002721	27-43
+virus	BAO:0000232	44-49
+virus	BAO:0000232	76-81
+virus	BAO:0000232	103-108
+active	PATO:0002354	57-63
+hepatitis b	DOID:2043	64-75
+hepatitis c	DOID:1883	91-102
+Pregnant or lactating women	Eligibility	12
+Concurrent enrolment in another clinical trial using an investigational anti-cancer treatment, including hormonal therapy, bisphosphonate therapy and immunotherapy, within 28 days prior to the first dose of study treatment	Eligibility	13
+Known hypersensitivity to trastuzumab, murine proteins, to any of the excipients of Herceptin including hyaluronidase, or the adhesive of the SC device (for Cohort B), or a history of severe allergic or immunological reactions, for example, difficulty to control asthma	Eligibility	14
+hypersensitivity	GO:0002524,DOID:1205	6-22
+history	BFO:0000182	173-180
+severe	HP:0012828	184-190
+asthma	HP:0002099,DOID:2841	263-269
+Inadequate bone marrow, hepatic or renal function	Eligibility	15
+bone marrow	UBERON:0002371	11-22
+function	BAO:0003117,BFO:0000034	41-49
+Hormonal treatment concomitant with chemotherapy (allowed in adjuvant phase with adjuvant trastuzumab SC)	Eligibility	16
+adjuvant	CHEBI:60809	61-69
+adjuvant	CHEBI:60809	81-89
+Pre-existing motor or sensory neuropathy of Grade greater than (>) 1	Eligibility	17
+sensory neuropathy	HP:0000763,DOID:2491	22-40
+Synchronous bilateral invasive breast cancer	Eligibility	18
+bilateral	HP:0012832	12-21
+breast cancer	DOID:1612	31-44
+Outcome Measurement:	Results	0
+Percentage of Participants With Treatment-Emergent Adverse Events (TEAEs)	Results	1
+An AE was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. TEAEs were the AEs occurring from starting on the day of or after first administration of trastuzumab and within 28 days after last dose of trastuzumab. Data for this outcome measure were analyzed and reported by adjuvant versus neoadjuvant chemotherapy groups within each treatment arm.	Results	2
+drug	CHEBI:23888	78-82
+day	UO:0000033	187-190
+day	UO:0000033	253-256
+adjuvant	CHEBI:60809	350-358
+adjuvant	CHEBI:60809	369-377
+Time frame: Day 1 up to 28 days after last dose of trastuzumab (up to approximately 1 year)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	12-15
+day	UO:0000033	27-30
+year	UO:0000036	86-90
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab (Vial): Adjuvant	Results	5
+vial	BAO:0000577	30-34
+adjuvant	CHEBI:60809	37-45
+Arm/Group Description: Participants received trastuzumab 600 mg subcutaneously using a vial every 3 weeks (1 cycle) for 1 year (4 cycles in combination with adjuvant chemotherapy [consisting of doxorubicin, paclitaxel or docetaxel] and 14 cycles administered alone).	Results	6
+vial	BAO:0000577	87-91
+year	UO:0000036	122-126
+adjuvant	CHEBI:60809	157-165
+doxorubicin	CHEBI:28748,BAO:0000639	194-205
+paclitaxel	CHEBI:45863	207-217
+Overall Number of Participants Analyzed: 95	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  98.9	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab (Vial): Neoadjuvant	Results	11
+vial	BAO:0000577	30-34
+Arm/Group Description: Participants received trastuzumab 600 mg subcutaneously using a vial every 3 weeks (1 cycle) for 1 year (4 cycles in combination with neoadjuvant chemotherapy [consisting of doxorubicin, paclitaxel or docetaxel] and 14 cycles administered alone).	Results	12
+vial	BAO:0000577	87-91
+year	UO:0000036	122-126
+doxorubicin	CHEBI:28748,BAO:0000639	197-208
+paclitaxel	CHEBI:45863	210-220
+Overall Number of Participants Analyzed: 20	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of Participants  100.0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 5/95 (5.26%)	Adverse Events	1
+Febrile neutropenia 0/95 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 0/95 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Atrial fibrillation 0/95 (0.00%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Pleuropericarditis 0/95 (0.00%)	Adverse Events	5
+Vomiting 0/95 (0.00%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Pryexia 0/95 (0.00%)	Adverse Events	7
+Anaphylactic shock 1/95 (1.05%)	Adverse Events	8
+anaphylactic shock	HP:0100845	0-18
+Gastroenteritis 0/95 (0.00%)	Adverse Events	9
+gastroenteritis	DOID:2326	0-15
+Fibula fracture 1/95 (1.05%)	Adverse Events	10
+Tibia fracture 1/95 (1.05%)	Adverse Events	11
+Intervertebral disc protrusion 0/95 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 3/20 (15.00%)	Adverse Events	14
+Febrile neutropenia 0/20 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 0/20 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Atrial fibrillation 1/20 (5.00%)	Adverse Events	17
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Pleuropericarditis 1/20 (5.00%)	Adverse Events	18
+Vomiting 0/20 (0.00%)	Adverse Events	19
+vomiting	HP:0002013	0-8
+Pryexia 0/20 (0.00%)	Adverse Events	20
+Anaphylactic shock 0/20 (0.00%)	Adverse Events	21
+anaphylactic shock	HP:0100845	0-18
+Gastroenteritis 1/20 (5.00%)	Adverse Events	22
+gastroenteritis	DOID:2326	0-15
+Fibula fracture 0/20 (0.00%)	Adverse Events	23
+Tibia fracture 0/20 (0.00%)	Adverse Events	24
+Intervertebral disc protrusion 1/20 (5.00%)	Adverse Events	25

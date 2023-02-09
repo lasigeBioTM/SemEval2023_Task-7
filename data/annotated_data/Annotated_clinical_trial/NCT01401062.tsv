@@ -1,0 +1,162 @@
+INTERVENTION 1:	Intervention	0
+Arm 1 (Fresolimumab 1 mg/kg)	Intervention	1
+Fresolimumab is administered intravenously (i.v.) at a dose of 1 mg/kg on day 1 of weeks 0, 3, 6, 9 & 12 and radiation administered at 7.5 Gy/fraction in 3 fractions during weeks 1 (to lesion 1) and 7 (to lesion 2).	Intervention	2
+day	UO:0000033	74-77
+Fresolimumab	Intervention	3
+Radiation Therapy	Intervention	4
+INTERVENTION 2:	Intervention	5
+Arm 2 (Fresolimumab 10 mg/kg)	Intervention	6
+Fresolimumab is administered intravenously (i.v.) at a dose of 10 mg/kg on day 1 of weeks 0, 3, 6, 9 & 12 and radiation administered at 7.5 Gy/fraction in 3 fractions during weeks 1 (to lesion 1) and 7 (to lesion 2).	Intervention	7
+day	UO:0000033	75-78
+Fresolimumab	Intervention	8
+Radiation Therapy	Intervention	9
+Inclusion Criteria:	Eligibility	0
+Biopsy-proven breast cancer, metastatic (persistent or recurrent).	Eligibility	1
+breast cancer	DOID:1612	14-27
+recurrent	HP:0031796	55-64
+Failed 1 line of therapy (endocrine or chemotherapy) for metastatic disease.	Eligibility	2
+disease	DOID:4,OGMS:0000031	68-75
+Min. 3 distinct metastatic sites, at least one measurable lesion which is at least 1 cm or larger in largest diameter.	Eligibility	3
+diameter	PATO:0001334	109-117
+Must be 4 weeks since all of the following treatments (recovered from toxicity of prior treatment to Grade 1, excluding alopecia):	Eligibility	4
+alopecia	HP:0001596,DOID:987	120-128
+major surgery;	Eligibility	5
+surgery	OAE:0000067	6-13
+radiotherapy;	Eligibility	6
+radiotherapy	OAE:0000235	0-12
+chemotherapy (  6 weeks since therapy if a nitrosourea, mitomycin, or monoclonal antibodies such as bevacizumab);	Eligibility	7
+mitomycin	CHEBI:25357	56-65
+monoclonal	BAO:0000503	70-80
+immunotherapy;	Eligibility	8
+biotherapy/targeted therapies.	Eligibility	9
+>18 years of age.	Eligibility	10
+age	PATO:0000011	13-16
+Life expectancy >6 months.	Eligibility	11
+Eastern Cooperative Oncology Group (ECOG) status 0 or 1.	Eligibility	12
+group	CHEBI:24433	29-34
+Adequate organ function including:	Eligibility	13
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Hemoglobin 10.0g/dL, absolute neutrophil count (ANC) 1,500/mm3, and platelets 100,000/mm3.	Eligibility	14
+hemoglobin	CHEBI:35143	0-10
+Hepatic: Serum total bilirubin 1.5x upper limit of normal (ULN) (Patients with Gilbert's Disease may be included if total bilirubin is 3.0mg/dL), alanine aminotransferase (ALT), and aspartate aminotransferase (AST) 2.5xULN. If patient has known liver metastases, ALT and/or AST 5xULN are allowed.	Eligibility	15
+disease	DOID:4,OGMS:0000031	89-96
+alanine	CHEBI:16449	146-153
+aspartate	CHEBI:29995	182-191
+patient	HADO:0000008,OAE:0001817	65-72
+patient	HADO:0000008,OAE:0001817	227-234
+liver	UBERON:0002107	245-250
+Renal: creatinine clearance 60mL/min.	Eligibility	16
+creatinine clearance	CMO:0000765	7-27
+Prothrombin (PT) and partial thromboplastin times (PTT) <ULN.	Eligibility	17
+prothrombin	CHEBI:8583	0-11
+Negative for hepatitis viruses B and C unless consistent with prior vaccination or prior infection with full recovery.	Eligibility	18
+hepatitis	HP:0012115,DOID:2237	13-22
+vaccination	VO:0000002	68-79
+Patients of childbearing potential must agree to use effective contraception while on study, and for 3 months after last treatment.	Eligibility	19
+Understand and sign written informed consent document. No consent by durable power of attorney.	Eligibility	20
+document	IAO:0000310	45-53
+Exclusion Criteria:	Eligibility	21
+Second malignancy - unless following curative intent therapy, has been disease free for 2 years with probability of recurrence <5%. Curatively treated early-stage squamous cell carcinoma of the skin, basal cell carcinoma of the skin, or cervical intraepithelial neoplasia (CIN) are allowed.	Eligibility	22
+second	UO:0000010	0-6
+disease	DOID:4,OGMS:0000031	71-78
+squamous cell carcinoma of the skin	HP:0006739	163-198
+basal cell carcinoma	HP:0002671,DOID:2513	200-220
+cervical intraepithelial neoplasia	HP:0032242	237-271
+Concurrent cancer therapy.	Eligibility	23
+cancer	DOID:162	11-17
+Uncontrolled central nervous system (CNS) metastases, meningeal carcinomatosis, malignant seizures, or disease that causes or threatens neurologic compromise (e.g. unstable vertebral metastases).	Eligibility	24
+central nervous system	UBERON:0001017	13-35
+disease	DOID:4,OGMS:0000031	103-110
+History of ascites or pleural effusions, unless successfully treated.	Eligibility	25
+history	BFO:0000182	0-7
+ascites	HP:0001541	11-18
+Organ transplant, including allogeneic bone marrow transplant.	Eligibility	26
+organ	UBERON:0000062	0-5
+bone marrow	UBERON:0002371	39-50
+Immunosuppressive therapy including:	Eligibility	27
+Systemic corticosteroid therapy, including replacement therapy for hypoadrenalism. Inhaled or topical corticosteroids are allowed (if therapy is <5 days and is limited to systemic steroids as antiemetics);	Eligibility	28
+corticosteroid	CHEBI:50858	9-23
+corticosteroid	CHEBI:50858	102-116
+Cyclosporine A, tacrolimus, or sirolimus.	Eligibility	29
+sirolimus	CHEBI:9168	31-40
+Investigational agents within 4 weeks prior to study enrollment (  6 weeks if treatment was long-acting agent such as monoclonal antibody).	Eligibility	30
+monoclonal	BAO:0000503	118-128
+antibody	GO:0042571,BAO:0000502	129-137
+Significant or uncontrolled medical illness, e.g. congestive heart failure (CHF), myocardial infarction, symptomatic coronary artery disease, significant ventricular arrhythmias within the last 6 months, or significant pulmonary dysfunction. Patients with remote history of asthma or active mild asthma may participate.	Eligibility	31
+congestive heart failure	HP:0001635,DOID:6000	50-74
+myocardial infarction	HP:0001658,DOID:5844	82-103
+coronary artery disease	DOID:3393	117-140
+history	BFO:0000182	263-270
+asthma	HP:0002099,DOID:2841	274-280
+asthma	HP:0002099,DOID:2841	296-302
+active	PATO:0002354	284-290
+mild	HP:0012825	291-295
+Active infection, including unexplained fever (>38.5°C).	Eligibility	32
+active	PATO:0002354	0-6
+fever	HP:0001945	40-45
+Systemic autoimmune disease (e.g. systemic lupus erythematosus, active rheumatoid arthritis).	Eligibility	33
+autoimmune disease	DOID:417	9-27
+systemic lupus erythematosus	HP:0002725,DOID:9074	34-62
+active	PATO:0002354	64-70
+rheumatoid arthritis	HP:0001370,DOID:7148	71-91
+Known allergy to any component of GC1008.	Eligibility	34
+allergy	HP:0012393	6-13
+Active thrombophlebitis, thromboembolism, hypercoagulability states, bleeding, or anti-coagulation therapy (including anti platelet agents i.e. aspirin, clopidogrel, ticlopidine, dipyridamole, other agents inducing long-acting platelet dysfunction). Patients with history of deep venous thrombosis are allowed if treated, completely resolved, and no treatment for >4months.	Eligibility	35
+active	PATO:0002354	0-6
+thrombophlebitis	HP:0004418,DOID:3875	7-23
+thromboembolism	HP:0001907	25-40
+hypercoagulability	HP:0100724	42-60
+clopidogrel	CHEBI:37941	153-164
+ticlopidine	CHEBI:9588	166-177
+dipyridamole	CHEBI:4653	179-191
+history	BFO:0000182	264-271
+deep venous thrombosis	HP:0002625	275-297
+Calcium >11.0mg/dL (2.75mmol/L) unresponsive or uncontrolled in response to standard therapy (e.g. bisphosphonates).	Eligibility	36
+calcium	CHEBI:22984,BAO:0000874	0-7
+Patients who, in the opinion of the Investigator, have significant medical or psychosocial problems, including, but not limited to:	Eligibility	37
+Other serious non-malignancy-associated conditions that may be expected to limit life expectancy or significantly increase the risk of SAEs;	Eligibility	38
+increase	BAO:0001251	114-122
+Conditions, psychiatric, substance abuse, or other, that, in the opinion of the Investigator, would preclude informed consent, consistent follow-up, or compliance with any aspect of the study;	Eligibility	39
+substance abuse	DOID:302	25-40
+Pregnant or nursing women.	Eligibility	40
+Outcome Measurement:	Results	0
+Abscopal Response Rate	Results	1
+rate	BAO:0080019	18-22
+Defined as the percentage of patients who have responses (complete or partial) outside the irradiated lesions. The abscopal response is assessed at 15 weeks, and confirmed minimum 4 weeks later. The abscopal response is evaluated based on immune-related response criteria (irRC) (Wolchok et al, 2009).	Results	2
+Time frame: up to 20 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1 (Fresolimumab 1 mg/kg)	Results	5
+Arm/Group Description: Fresolimumab is administered intravenously (i.v.) at a dose of 1 mg/kg on day 1 of weeks 0, 3, 6, 9 & 12 and radiation administered at 7.5 Gy/fraction in 3 fractions during weeks 1 (to lesion 1) and 7 (to lesion 2).	Results	6
+day	UO:0000033	97-100
+Fresolimumab	Results	7
+Radiation Therapy	Results	8
+Overall Number of Participants Analyzed: 11	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  11 100.0%	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm 2 (Fresolimumab 10 mg/kg)	Results	13
+Arm/Group Description: Fresolimumab is administered intravenously (i.v.) at a dose of 10 mg/kg on day 1 of weeks 0, 3, 6, 9 & 12 and radiation administered at 7.5 Gy/fraction in 3 fractions during weeks 1 (to lesion 1) and 7 (to lesion 2).	Results	14
+day	UO:0000033	98-101
+Fresolimumab	Results	15
+Radiation Therapy	Results	16
+Overall Number of Participants Analyzed: 12	Results	17
+Measure Type: Count of Participants	Results	18
+Unit of Measure: Participants  12 100.0%	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 3/11 (27.27%)	Adverse Events	1
+atrial fibrillation2/11 (18.18%)	Adverse Events	2
+Hypercalcemia1/11 (9.09%)	Adverse Events	3
+Dyspnea0/11 (0.00%)	Adverse Events	4
+Disease progression2/11 (18.18%)	Adverse Events	5
+disease	DOID:4,OGMS:0000031	0-7
+Cord compression1/11 (9.09%)	Adverse Events	6
+Adverse Events 2:	Adverse Events	7
+Total: 3/12 (25.00%)	Adverse Events	8
+atrial fibrillation0/12 (0.00%)	Adverse Events	9
+Hypercalcemia1/12 (8.33%)	Adverse Events	10
+Dyspnea1/12 (8.33%)	Adverse Events	11
+Disease progression2/12 (16.67%)	Adverse Events	12
+disease	DOID:4,OGMS:0000031	0-7
+Cord compression0/12 (0.00%)	Adverse Events	13

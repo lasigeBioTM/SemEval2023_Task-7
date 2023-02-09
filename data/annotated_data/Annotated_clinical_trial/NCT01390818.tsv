@@ -1,0 +1,171 @@
+INTERVENTION 1:	Intervention	0
+Pimasertib (MSC1936369B) 15mg and SAR245409 30mg Once Daily	Intervention	1
+Pimasertib (MSC1936369B) capsule was administered at a single oral dose of 15 milligram (mg) along with single oral dose of 30 mg SAR245409 capsule on Day 1 of 21 days cycle until disease progression, intolerable toxicity, Investigator's decision to discontinue treatment, or withdrawal of consent by the subject (DE cohort).	Intervention	2
+capsule	GO:0042603	25-32
+capsule	GO:0042603	140-147
+day	UO:0000033	151-154
+day	UO:0000033	163-166
+disease	DOID:4,OGMS:0000031	180-187
+INTERVENTION 2:	Intervention	3
+Pimasertib (MSC1936369B) 30mg and SAR245409 30mg Once Daily	Intervention	4
+Pimasertib (MSC1936369B) capsule was administered at a single oral dose of 30 mg along with single oral dose of 30 mg SAR245409 capsule on Day 1 of 21 days cycle until disease progression, intolerable toxicity, Investigator's decision to discontinue treatment, or withdrawal of consent by the subject (DE cohort).	Intervention	5
+capsule	GO:0042603	25-32
+capsule	GO:0042603	128-135
+day	UO:0000033	139-142
+day	UO:0000033	151-154
+disease	DOID:4,OGMS:0000031	168-175
+Inclusion Criteria:	Eligibility	0
+Subject with advanced solid tumors for which there is no approved therapy:	Eligibility	1
+Advanced solid tumor with diagnosed alteration in one or more of the following genes (PTEN, BRAF, KRAS, NRAS, PI3KCA, ErbB1, ErbB2, MET, RET, c-KIT, GNAQ, GNA11 and/or	Eligibility	2
+A histologically or cytologically confirmed diagnosis of one of the following solid tumors: pancreatic, thyroid, colorectal, non-small cell lung, endometrial, renal, breast, ovarian carcinoma and melanoma	Eligibility	3
+lung	UBERON:0002048	140-144
+breast	UBERON:0000310	166-172
+ovarian carcinoma	HP:0025318,DOID:4001	174-191
+melanoma	HP:0002861,DOID:1909	196-204
+Subject with archived tumor tissue available for transfer to the Sponsor	Eligibility	4
+tissue	UBERON:0000479	28-34
+Subject enrolled at lower dose level cohorts and MTD expansion cohorts must have tumor available for biopsy and agree to pre-treatment and on-treatment tumor biopsies	Eligibility	5
+mtd	BAO:0001248	49-52
+Subject has measurable or evaluable disease by response evaluation criteria in solid tumors (RECIST) v1.1	Eligibility	6
+disease	DOID:4,OGMS:0000031	36-43
+Subject is aged greater than or equal to (>=) 18 years	Eligibility	7
+Subjects enrolled in disease specific expansion cohorts must fulfill all the inclusion/exclusion criteria listed above with the following restriction to the Inclusion Criterion number 1:	Eligibility	8
+disease	DOID:4,OGMS:0000031	21-28
+Relapsed or refractory Kirsten rat sarcoma viral oncogene homolog (KRAS) or neuroblastoma RAS viral oncogene homolog (NRAS) mutated metastatic non-small cell lung cancer (NSCLC) with no approved therapies, or	Eligibility	9
+refractory	HP:0031375	12-22
+sarcoma	HP:0100242,DOID:1115	35-42
+neuroblastoma	HP:0003006,DOID:769	76-89
+mutated	BAO:0000643	124-131
+lung cancer	DOID:1324	158-169
+Relapsed or refractory metastatic triple negative breast cancer defined as estrogen, progesterone and HER2 negative carcinoma of the breast with no approved therapies, or	Eligibility	10
+refractory	HP:0031375	12-22
+breast cancer	DOID:1612	50-63
+estrogen	CHEBI:50114,BAO:0000760	75-83
+progesterone	CHEBI:17026	85-97
+carcinoma	HP:0030731,DOID:305	116-125
+breast	UBERON:0000310	50-56
+breast	UBERON:0000310	133-139
+Relapsed or refractory metastatic colorectal cancer (CRC) with dual KRAS and PIK3CA mutation with no approved therapies, or	Eligibility	11
+refractory	HP:0031375	12-22
+colorectal cancer	DOID:9256	34-51
+BRAF V600E/K mutated unresectable or metastatic melanoma after progression on B-Raf proto-oncogene, serine/threonine kinase (BRAF) inhibitors	Eligibility	12
+mutated	BAO:0000643	13-20
+melanoma	HP:0002861,DOID:1909	48-56
+kinase	BAO:0000294	117-123
+Other protocol-defined inclusion criteria could apply	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Subject has been previously treated with a PI3K inhibitor or a MEK inhibitor and taken off treatment due to treatment related adverse events	Eligibility	15
+inhibitor	CHEBI:35222	48-57
+inhibitor	CHEBI:35222	67-76
+Subject has received:	Eligibility	16
+Chemotherapy, immunotherapy, hormonal therapy, biologic therapy, or any other anti-cancer therapy within 28 days of trial drug treatment	Eligibility	17
+drug	CHEBI:23888	122-126
+Any investigational agent within 28 days of trial drug treatment	Eligibility	18
+drug	CHEBI:23888	50-54
+Extensive prior radiotherapy on more than 30% bone marrow reserves, or prior bone marrow/stem cell transplantation	Eligibility	19
+radiotherapy	OAE:0000235	16-28
+bone marrow	UBERON:0002371	46-57
+bone marrow	UBERON:0002371	77-88
+Subject has not recovered from toxicity due to prior therapy	Eligibility	20
+Subject has poor organ and marrow function as defined in the protocol	Eligibility	21
+organ	UBERON:0000062	17-22
+function	BAO:0003117,BFO:0000034	34-42
+Subject has a history of central nervous system metastases, unless subject has been previously treated for CNS metastases	Eligibility	22
+history	BFO:0000182	14-21
+central nervous system	UBERON:0001017	25-47
+Subject has a history of difficulty swallowing, malabsorption or other chronic gastrointestinal disease	Eligibility	23
+history	BFO:0000182	14-21
+malabsorption	HP:0002024	48-61
+chronic	HP:0011010	71-78
+disease	DOID:4,OGMS:0000031	96-103
+Subject has a history of recent major surgery or trauma within the last 28 days.	Eligibility	24
+history	BFO:0000182	14-21
+surgery	OAE:0000067	38-45
+Subject has participated in another clinical trial within the past 30 days	Eligibility	25
+Other protocol-defined exclusion criteria could apply	Eligibility	26
+Outcome Measurement:	Results	0
+Number of Subjects With Dose Limiting Toxicities (DLT)	Results	1
+DLT was defined as any of the following toxicities experienced during the first cycle of treatment at any dose level (DL) and judged not to be related to the underlying disease or any concomitant medication by the Investigator and/or the Sponsor: A treatment emergent adverse event (TEAE) of potential clinical significance such that further dose escalation (DE) would have exposed subjects to unacceptable risk. Any Grade greater than or equal to (>=) 3 non-hematological toxicity, except for: Grade 3 diarrhea, nausea and vomiting with a duration less than or equal to (<=) 48 hours despite adequate supportive care and Alopecia. Grade 4 neutropenia of > 5 days duration or febrile neutropenia. Grade 3 thrombocytopenia with bleeding or Grade 4 thrombocytopenia. Any treatment interruption > 2 weeks due to AEs not related to the underlying disease or concomitant medication at any dose level and any severe, life-threatening impairing daily functions complication or abnormality.	Results	2
+disease	DOID:4,OGMS:0000031	169-176
+disease	DOID:4,OGMS:0000031	843-850
+adverse event	OAE:0000001	268-281
+diarrhea	HP:0002014,DOID:13250	503-511
+nausea and vomiting	HP:0002017	513-532
+duration	PATO:0001309	540-548
+duration	PATO:0001309	664-672
+alopecia	HP:0001596,DOID:987	622-630
+neutropenia	HP:0001875,DOID:1227	640-651
+neutropenia	HP:0001875,DOID:1227	684-695
+thrombocytopenia	HP:0001873,DOID:1588	705-721
+thrombocytopenia	HP:0001873,DOID:1588	747-763
+severe	HP:0012828	903-909
+Time frame: Day 1 up to Day 16 in cycle 1	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	12-15
+day	UO:0000033	24-27
+Results 1:	Results	4
+Arm/Group Title: Pimasertib (MSC1936369B) 15mg and SAR245409 30mg Once Daily	Results	5
+Arm/Group Description: Pimasertib (MSC1936369B) capsule was administered at a single oral dose of 15 milligram (mg) along with single oral dose of 30 mg SAR245409 capsule on Day 1 of 21 days cycle until disease progression, intolerable toxicity, Investigator's decision to discontinue treatment, or withdrawal of consent by the subject (DE cohort).	Results	6
+capsule	GO:0042603	48-55
+capsule	GO:0042603	163-170
+day	UO:0000033	174-177
+day	UO:0000033	186-189
+disease	DOID:4,OGMS:0000031	203-210
+Overall Number of Participants Analyzed: 3	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: subjects  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Pimasertib (MSC1936369B) 30mg and SAR245409 30mg Once Daily	Results	11
+Arm/Group Description: Pimasertib (MSC1936369B) capsule was administered at a single oral dose of 30 mg along with single oral dose of 30 mg SAR245409 capsule on Day 1 of 21 days cycle until disease progression, intolerable toxicity, Investigator's decision to discontinue treatment, or withdrawal of consent by the subject (DE cohort).	Results	12
+capsule	GO:0042603	48-55
+capsule	GO:0042603	151-158
+day	UO:0000033	162-165
+day	UO:0000033	174-177
+disease	DOID:4,OGMS:0000031	191-198
+Overall Number of Participants Analyzed: 3	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: subjects  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/3 (33.33%)	Adverse Events	1
+FEBRILE NEUTROPENIA * 0/3 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+LEUKOPENIA * 0/3 (0.00%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+ANAEMIA * 0/3 (0.00%)	Adverse Events	4
+THROMBOCYTOPENIA * 0/3 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ATRIAL FLUTTER * 0/3 (0.00%)	Adverse Events	6
+atrial flutter	HP:0004749	0-14
+ATRIAL FIBRILLATION * 0/3 (0.00%)	Adverse Events	7
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+BRADYCARDIA * 0/3 (0.00%)	Adverse Events	8
+bradycardia	HP:0001662	0-11
+CARDIO-RESPIRATORY ARREST * 0/3 (0.00%)	Adverse Events	9
+RIGHT VENTRICULAR DYSFUNCTION * 0/3 (0.00%)	Adverse Events	10
+right	HP:0012834	0-5
+NAUSEA * 0/3 (0.00%)	Adverse Events	11
+nausea	HP:0002018	0-6
+VOMITING * 0/3 (0.00%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+Adverse Events 2:	Adverse Events	13
+Total: 0/3 (0.00%)	Adverse Events	14
+FEBRILE NEUTROPENIA * 0/3 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+LEUKOPENIA * 0/3 (0.00%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+ANAEMIA * 0/3 (0.00%)	Adverse Events	17
+THROMBOCYTOPENIA * 0/3 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ATRIAL FLUTTER * 0/3 (0.00%)	Adverse Events	19
+atrial flutter	HP:0004749	0-14
+ATRIAL FIBRILLATION * 0/3 (0.00%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+BRADYCARDIA * 0/3 (0.00%)	Adverse Events	21
+bradycardia	HP:0001662	0-11
+CARDIO-RESPIRATORY ARREST * 0/3 (0.00%)	Adverse Events	22
+RIGHT VENTRICULAR DYSFUNCTION * 0/3 (0.00%)	Adverse Events	23
+right	HP:0012834	0-5
+NAUSEA * 0/3 (0.00%)	Adverse Events	24
+nausea	HP:0002018	0-6
+VOMITING * 0/3 (0.00%)	Adverse Events	25
+vomiting	HP:0002013	0-8

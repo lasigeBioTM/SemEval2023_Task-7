@@ -1,0 +1,64 @@
+INTERVENTION 1:	Intervention	0
+Multicomponent Intervention	Intervention	1
+1.) A one-page paper-pencil agenda setting checklist completed immediately before a regularly scheduled medical oncology visit to elicit and align patient and companion perspectives regarding issues to discuss with the provider, and to stimulate discussion about the role of the companion in the visit, 2.) facilitated registration for the patient portal (for patient and family member, as desired by the patient), and 3.) education (as relevant) on access to doctor's electronic visit notes.	Intervention	2
+patient	HADO:0000008,OAE:0001817	147-154
+patient	HADO:0000008,OAE:0001817	340-347
+patient	HADO:0000008,OAE:0001817	360-367
+patient	HADO:0000008,OAE:0001817	405-412
+role of	RO:0000081	267-274
+INTERVENTION 2:	Intervention	3
+Usual Care	Intervention	4
+Care as usual with the medical oncologist.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Medical oncology patient: Established patient of participating medical oncologist greater than 18 years of age, have a diagnosis of early stage or advanced breast cancer, are receiving active systemic therapy (in the form of IV adjuvant systemic therapy if early stage), are English speaking, able to provide informed consent themselves, and identify a family member who they would like to include in their care.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	17-24
+patient	HADO:0000008,OAE:0001817	38-45
+age	PATO:0000011	107-110
+age	PATO:0000011	140-143
+age	PATO:0000011	265-268
+breast cancer	DOID:1612	156-169
+active	PATO:0002354	185-191
+adjuvant	CHEBI:60809	228-236
+Care partner: Family member (e.g. spouse, adult child, parent, adult sibling or other relative) or unpaid friend who regularly accompanies patient to medical oncology visits.	Eligibility	2
+adult	EFO:0001272	42-47
+adult	EFO:0001272	63-68
+patient	HADO:0000008,OAE:0001817	139-146
+Medical oncology provider: Practicing medical oncology provider at a participating clinic who provides care to patients with breast cancer.	Eligibility	3
+breast cancer	DOID:1612	125-138
+Exclusion Criteria:	Eligibility	4
+Medical oncology patients: Younger than 18 years, pregnant, not being treated for breast cancer, do not attend medical oncology visits with family member or unpaid friend or unwilling for their family member or unpaid friend to be contacted.	Eligibility	5
+breast cancer	DOID:1612	82-95
+Care partner: Paid non-family member who accompanies patient to visits.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	53-60
+Outcome Measurement:	Results	0
+Between-group Differences in Patient Complete Illness Understanding at 9-months	Results	1
+patient	HADO:0000008,OAE:0001817	29-36
+Illness understanding was measured by 4 questions regarding knowledge that is considered to be essential to making informed treatment decisions in serious illness, including: 1.) understanding of illness, 2.) knowledge of disease status, 3.) awareness of disease state, and 4.) expectation of duration of life. We summed responses to each item (coded 1 or 0 to reflect the presence or absence of understanding), yielding a score ranging from 0 to 4. Participants with perfect scores reflecting complete illness understanding (4 of 4 correct responses) were compared to all others.	Results	2
+disease	DOID:4,OGMS:0000031	222-229
+disease	DOID:4,OGMS:0000031	255-262
+duration	PATO:0001309	293-301
+Time frame: 9 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Multicomponent Intervention	Results	5
+Arm/Group Description: 1.) A one-page paper-pencil agenda setting checklist completed immediately before a regularly scheduled medical oncology visit to elicit and align patient and companion perspectives regarding issues to discuss with the provider, and to stimulate discussion about the role of the companion in the visit, 2.) facilitated registration for the patient portal (for patient and family member, as desired by the patient), and 3.) education (as relevant) on access to doctor's electronic visit notes.	Results	6
+patient	HADO:0000008,OAE:0001817	170-177
+patient	HADO:0000008,OAE:0001817	363-370
+patient	HADO:0000008,OAE:0001817	383-390
+patient	HADO:0000008,OAE:0001817	428-435
+role of	RO:0000081	290-297
+Overall Number of Participants Analyzed: 63	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Complete Illness Understanding at 9-Months: 42  66.7%	Results	9
+Not Complete Illness Understanding at 9-Months: 21  33.3%	Results	10
+Results 2:	Results	11
+Arm/Group Title: Usual Care	Results	12
+Arm/Group Description: Care as usual with the medical oncologist.	Results	13
+Overall Number of Participants Analyzed: 55	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  Complete Illness Understanding at 9-Months: 38  69.1%	Results	16
+Not Complete Illness Understanding at 9-Months: 17  30.9%	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/69 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/63 (0.00%)	Adverse Events	3

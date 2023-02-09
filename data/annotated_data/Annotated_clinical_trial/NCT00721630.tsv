@@ -1,0 +1,180 @@
+INTERVENTION 1:	Intervention	0
+Capecitabine + Lapatinib	Intervention	1
+capecitabine	CHEBI:31348	0-12
+lapatinib	CHEBI:49603	15-24
+The regimen consists of capecitabine 2,000mg twice daily for 7 days followed by a 7-day rest in combination with lapatinib 1,250mg orally daily.	Intervention	2
+capecitabine	CHEBI:31348	24-36
+lapatinib	CHEBI:49603	113-122
+capecitabine, lapatinib: Capecitabine 2,000mg twice daily for 7 days followed by a 7-day rest in combination with lapatinib 1,250mg orally daily. Cycle length is 28 days (+/- 2 days).Toxicity assessment will occur q2 weeks for the first 4 weeks, then q4 weeks(+/- 2 days). Radiographic response assessment will take place q12 weeks (+/- 1 week). LVEF assessment will be repeated q12 weeks (+/- 1 week).	Intervention	3
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	25-37
+lapatinib	CHEBI:49603	14-23
+lapatinib	CHEBI:49603	114-123
+length	PATO:0000122	152-158
+week	UO:0000034	217-221
+week	UO:0000034	239-243
+week	UO:0000034	254-258
+week	UO:0000034	326-330
+week	UO:0000034	339-343
+week	UO:0000034	383-387
+week	UO:0000034	396-400
+Inclusion Criteria:	Eligibility	0
+Patients with a diagnosis of invasive adenocarcinoma of the breast confirmed by histology or cytology at MSKCC.	Eligibility	1
+adenocarcinoma	DOID:299	38-52
+breast	UBERON:0000310	60-66
+histology	NCIT:C16681	80-89
+Clinical evidence of metastatic breast cancer.	Eligibility	2
+breast cancer	DOID:1612	32-45
+HER2 overexpression and/or amplification as determined by immunohistochemistry (3+) or FISH (  2.0).	Eligibility	3
+immunohistochemistry	BAO:0000415	58-78
+Progressive disease following treatment with trastuzumab for metastatic breast cancer or as adjuvant therapy (either single-agent or combination therapy)	Eligibility	4
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+breast cancer	DOID:1612	72-85
+adjuvant	CHEBI:60809	92-100
+Prior therapy inclusion:	Eligibility	5
+No more than two prior chemotherapy regimens allowed for advanced stage disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	72-79
+No prior fluoropyrimidine in the metastatic setting. Adjuvant fluoropyrimidine is permitted if >6 months prior to treatment on study.	Eligibility	7
+adjuvant	CHEBI:60809	53-61
+No restriction for prior hormonal therapy. No concurrent use of endocrine therapy is permitted.	Eligibility	8
+No more than 450mg/m2 cumulative dose of prior doxorubicin	Eligibility	9
+doxorubicin	CHEBI:28748,BAO:0000639	47-58
+At least 3 weeks since prior chemotherapy or radiation therapy	Eligibility	10
+Age  or = to 18. Because no dosing or adverse event data are currently available on the use of lapatinib in patients <18 years of age, children are excluded from this study.	Eligibility	11
+age	PATO:0000011	0-3
+age	PATO:0000011	130-133
+adverse event	OAE:0000001	38-51
+lapatinib	CHEBI:49603	95-104
+excluded	HP:0040285	148-156
+Patients must be willing to discontinue sex hormonal therapy e.g., birth control pills, ovarian hormonal replacement therapy, etc., prior to enrollment. Women of childbearing potential must be willing to consent to using effective contraception while on treatment and for a reasonable period thereafter.	Eligibility	12
+Negative HCG pregnancy test for premenopausal women of reproductive capacity and for women less than 12 months after the menopause.	Eligibility	13
+menopause	GO:0042697	121-130
+Asymptomatic, central nervous system metastases are permitted if patients remain clinically stable after discontinuation of corticosteroids and anticonvulsants.	Eligibility	14
+central nervous system	UBERON:0001017	14-36
+stable	HP:0031915	92-98
+ECOG performance status < or = to 2	Eligibility	15
+Life expectancy of greater than 12 weeks	Eligibility	16
+Patients must have normal organ and marrow function as defined below:	Eligibility	17
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+leukocytes  or = to 3,000/μL	Eligibility	18
+absolute neutrophil count  or = 1,500/μL	Eligibility	19
+platelets  or = 100,000/μL	Eligibility	20
+total bilirubin within normal institutional limits AST (SGOT)/ALT(SGPT)  or = 2.5x institutional upper limit of normal serum creatinine within normal institutional limits	Eligibility	21
+creatinine	CHEBI:16737	125-135
+Cardiac ejection fraction at or above the lower limit of normal of 50% as measured by multigated radionuclide angiography (MUGA) scan. If LVEF is greater than 70%, and ECHO should be performed as well. Baseline and on treatment scans should be performed using the same modality and preferably at the same institution.	Eligibility	22
+ejection fraction	CMO:0000180	8-25
+Ability to understand and the willingness to sign a written informed. consent document.	Eligibility	23
+document	IAO:0000310	78-86
+Able to swallow and retain oral medication.	Eligibility	24
+Exclusion Criteria:	Eligibility	25
+Patients may not be receiving any concurrent anticancer therapy or investigational agents with the intention of treating breast cancer.	Eligibility	26
+breast cancer	DOID:1612	121-134
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to lapatinib or capecitabine.	Eligibility	27
+history	BFO:0000182	0-7
+lapatinib	CHEBI:49603	101-110
+capecitabine	CHEBI:31348	114-126
+Known DPD deficiency.	Eligibility	28
+Uncontrolled inter-current illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, myocardial infarction within 6 months of study entry, uncontrolled cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	29
+active	PATO:0002354	77-83
+congestive heart failure	HP:0001635,DOID:6000	107-131
+angina pectoris	HP:0001681	142-157
+myocardial infarction	HP:0001658,DOID:5844	159-180
+arrhythmia	HP:0011675	234-244
+Pregnant women are excluded from this study because lapatinib is member of the 4- anilinoquinazoline class of kinase inhibitors with the potential for teratogenic or abortifacient effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with lapatinib, breastfeeding should be discontinued if the mother is treated with lapatinib.	Eligibility	30
+excluded	HP:0040285	19-27
+lapatinib	CHEBI:49603	52-61
+lapatinib	CHEBI:49603	316-325
+lapatinib	CHEBI:49603	394-403
+member of	RO:0002350	65-74
+kinase	BAO:0000294	110-116
+abortifacient	CHEBI:50691	166-179
+HIV-positive patients receiving combination anti-retroviral therapy are excluded from the study because of possible pharmacokinetic interactions with lapatinib. Appropriate studies will be undertaken in patients receiving combination anti-retroviral therapy when indicated.	Eligibility	31
+excluded	HP:0040285	72-80
+lapatinib	CHEBI:49603	150-159
+Patients with GI tract disease resulting in an inability to take oral medication, malabsorption syndrome, a requirement for IV alimentation, prior surgical procedures affecting absorption,uncontrolled inflammatory GI disease (e.g., Crohn's, ulcerative colitis).	Eligibility	32
+disease	DOID:4,OGMS:0000031	23-30
+disease	DOID:4,OGMS:0000031	217-224
+malabsorption	HP:0002024	82-95
+syndrome	DOID:225	96-104
+ulcerative colitis	HP:0100279,DOID:8577	241-259
+Concomitant requirement for medication classified as CYP3A4 inducers or inhibitors:	Eligibility	33
+Medications that inhibit or induce CYP3A4 are prohibited. Eligibility of patients receiving medications or substances known to affect, or with the potential to affect the activity or pharmacokinetics of lapatinib will be determined following review of their use by the Principal Investigator.	Eligibility	34
+lapatinib	CHEBI:49603	203-212
+Renal function as measured by creatinine clearance < 30ml/min	Eligibility	35
+function	BAO:0003117,BFO:0000034	6-14
+creatinine clearance	CMO:0000765	30-50
+Patients are permitted to participate in other non-therapeutic clinical trials while receiving treatment on this study (ie, experimental imaging, minor procedures necessary for tissue acquisition on study)	Eligibility	36
+tissue	UBERON:0000479	177-183
+Outcome Measurement:	Results	0
+Estimate Efficacy of Capecitabine 7/7 in Combination With Lapatinib in Patients With HER2 Overexpressed/Amplified, Trastuzumab-refractory, Metastatic Breast Cancer as Determined by Overall Response Rate (Complete Response (CR) + Partial Response (PR))	Results	1
+efficacy	BAO:0000656	9-17
+capecitabine	CHEBI:31348	21-33
+lapatinib	CHEBI:49603	58-67
+breast cancer	DOID:1612	150-163
+rate	BAO:0080019	198-202
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR	Results	2
+target	BAO:0003064	76-82
+target	BAO:0003064	157-163
+target	BAO:0003064	249-255
+diameter	PATO:0001334	237-245
+Time frame: 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Capecitabine + Lapatinib	Results	5
+capecitabine	CHEBI:31348	17-29
+lapatinib	CHEBI:49603	32-41
+Arm/Group Description: The regimen consists of capecitabine 2,000mg twice daily for 7 days followed by a 7-day rest in combination with lapatinib 1,250mg orally daily.	Results	6
+capecitabine	CHEBI:31348	47-59
+lapatinib	CHEBI:49603	136-145
+capecitabine, lapatinib: Capecitabine 2,000mg twice daily for 7 days followed by a 7-day rest in combination with lapatinib 1,250mg orally daily. Cycle length is 28 days (+/- 2 days).Toxicity assessment will occur q2 weeks for the first 4 weeks, then q4 weeks(+/- 2 days). Radiographic response assessment will take place q12 weeks (+/- 1 week). LVEF assessment will be repeated q12 weeks (+/- 1 week).	Results	7
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	25-37
+lapatinib	CHEBI:49603	14-23
+lapatinib	CHEBI:49603	114-123
+length	PATO:0000122	152-158
+week	UO:0000034	217-221
+week	UO:0000034	239-243
+week	UO:0000034	254-258
+week	UO:0000034	326-330
+week	UO:0000034	339-343
+week	UO:0000034	383-387
+week	UO:0000034	396-400
+Overall Number of Participants Analyzed: 23	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  Partial Response: 5  21.7%	Results	10
+Stable Disease >/= 6 months: 6  26.1%	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Stable disease <6 months: 11  47.8%	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progression of disease: 1   4.3%	Results	13
+disease	DOID:4,OGMS:0000031	15-22
+Adverse Events 1:	Adverse Events	0
+Total: 9/23 (39.13%)	Adverse Events	1
+Anemia  1/23 (4.35%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Diarrhea  1/23 (4.35%)	Adverse Events	3
+diarrhea	HP:0002014,DOID:13250	0-8
+Nausea  1/23 (4.35%)	Adverse Events	4
+nausea	HP:0002018	0-6
+Fracture  1/23 (4.35%)	Adverse Events	5
+ALT  1/23 (4.35%)	Adverse Events	6
+AST  1/23 (4.35%)	Adverse Events	7
+INR  1/23 (4.35%)	Adverse Events	8
+PTT  1/23 (4.35%)	Adverse Events	9
+Glucose, high  1/23 (4.35%)	Adverse Events	10
+glucose	CHEBI:4167,BAO:0000924	0-7
+Limb Pain  1/23 (4.35%)	Adverse Events	11
+limb pain	HP:0009763	0-9
+Ataxia  2/23 (8.70%)	Adverse Events	12
+ataxia	HP:0001251	0-6
+Neurology - Other  1/23 (4.35%)	Adverse Events	13
+Seizure  1/23 (4.35%)	Adverse Events	14
+seizure	HP:0001250	0-7
+Syncope  1/23 (4.35%)	Adverse Events	15
+syncope	HP:0001279	0-7
+Confusion  1/23 (4.35%)	Adverse Events	16
+confusion	HP:0001289	0-9

@@ -1,0 +1,206 @@
+INTERVENTION 1:	Intervention	0
+6-Mercaptopurine and Methotrexate (6MP/MTX)	Intervention	1
+methotrexate	CHEBI:44185	21-33
+6-Mercaptopurine: 6MP 75mg/m2 body surface area, administered orally (PO) once a day (od) in the morning 1 hour after eating, on a continuous schedule. One cycle is 28 days. Treatment is given continuously until disease progression.	Intervention	2
+area	PATO:0001323	43-47
+day	UO:0000033	81-84
+day	UO:0000033	168-171
+hour	UO:0000032	107-111
+disease	DOID:4,OGMS:0000031	212-219
+Methotrexate: Methotrexate 20mg/m2 will be taken orally, once a week, in the morning. One cycle is 28 days. Treatment is given continuously until disease progression.	Intervention	3
+methotrexate	CHEBI:44185	0-12
+methotrexate	CHEBI:44185	14-26
+week	UO:0000034	64-68
+disease	DOID:4,OGMS:0000031	146-153
+Update: These original doses were reduced following an Urgent Safety Measure in August 2012 due to a large proportion of patients requiring a dose reduction or treatment delay due to incidences of myelo-suppression.	Intervention	4
+The reduced doses were 55mg/m2 of 6MP orally once a day, and 15mg/m2 of Methotrexate orally once a week.	Intervention	5
+day	UO:0000033	52-55
+methotrexate	CHEBI:44185	72-84
+week	UO:0000034	99-103
+Inclusion Criteria:	Eligibility	0
+Patients with proven BRCA1 or BRCA2 mutations and after appropriate exposure to standard treatment, as defined by:	Eligibility	1
+Breast Cancer	Eligibility	2
+breast cancer	DOID:1612	0-13
+Patients with initially histologically or cytologically proven locally advanced or metastatic breast cancer who may have received up to 3 previous lines of chemotherapy in the locally advanced or metastatic breast cancer setting.	Eligibility	3
+breast cancer	DOID:1612	94-107
+breast cancer	DOID:1612	207-220
+Patients must have previously had a taxane and an anthracycline in either the adjuvant or metastatic setting, provided that these were not contraindicated.	Eligibility	4
+taxane	CHEBI:36064	36-42
+anthracycline	CHEBI:48120	50-63
+adjuvant	CHEBI:60809	78-86
+Patients with hormone responsive disease should have had at least 1 line of hormone therapy for metastatic disease.	Eligibility	5
+hormone	CHEBI:24621	14-21
+hormone	CHEBI:24621	76-83
+disease	DOID:4,OGMS:0000031	33-40
+disease	DOID:4,OGMS:0000031	107-114
+Prior treatment with a poly-Adenosine diphosphate (ADP) ribose polymerase (PARP) inhibitor is permissible.	Eligibility	6
+adp	CHEBI:16761	51-54
+ribose	CHEBI:47013	56-62
+inhibitor	CHEBI:35222	81-90
+OR Ovarian Cancer	Eligibility	7
+ovarian cancer	DOID:2394	3-17
+Patients with initially histologically or cytologically proven ovarian cancer.	Eligibility	8
+ovarian cancer	DOID:2394	63-77
+Patients must have disease that is platinum resistant or in whom further platinum based therapy is inappropriate.	Eligibility	9
+disease	DOID:4,OGMS:0000031	19-26
+platinum	CHEBI:33364	35-43
+platinum	CHEBI:33364	73-81
+Prior treatment with a PARP inhibitor is permissible.	Eligibility	10
+inhibitor	CHEBI:35222	28-37
+Patients must have measurable disease on computerized tomography (CT) or Magnetic resonance imaging (MRI) scan as defined by Response Evaluation Criteria In Solid Tumors (RECIST) criteria.	Eligibility	11
+disease	DOID:4,OGMS:0000031	30-37
+tomography	BAO:0002525	54-64
+ct	BAO:0002125	66-68
+Age 18 years.	Eligibility	12
+age	PATO:0000011	0-3
+Eastern Cooperative Oncology Group (ECOG) performance score of 0-2.	Eligibility	13
+group	CHEBI:24433	29-34
+Life expectancy >12 weeks.	Eligibility	14
+Written informed consent.	Eligibility	15
+Patient willing and able to comply with all protocol requirements.	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+No prior anti-cancer treatment in previous 4 weeks, other than palliative radiotherapy (RT).	Eligibility	17
+radiotherapy	OAE:0000235	74-86
+Haematological and biochemical indices within the ranges shown below.	Eligibility	18
+Laboratory Test Value required	Eligibility	19
+laboratory test	OGMS:0000056	0-15
+Haemoglobin (Hb) > 10g/dL	Eligibility	20
+White Blood Count (WBC) > 3x109/L	Eligibility	21
+blood	UBERON:0000178	6-11
+Platelet count > 100,000/μL	Eligibility	22
+platelet count	CMO:0000029	0-14
+Absolute Neutrophil count > 1.5x109/L;	Eligibility	23
+Serum bilirubin  2 x Upper limit normal (ULN)	Eligibility	24
+x	LABO:0000148	19-20
+Aspartate aminotransferase (AST) (serum glutamic-oxaloacetic transaminase (SGOT)) and alanine aminotransferase (ALT) or ALT  5 x ULN (liver metastasis)	Eligibility	25
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	86-93
+x	LABO:0000148	50-51
+x	LABO:0000148	127-128
+liver	UBERON:0002107	134-139
+or  3 x ULN (no liver metastasis)	Eligibility	26
+x	LABO:0000148	6-7
+liver	UBERON:0002107	16-21
+Alkaline phosphatase  5 x ULN	Eligibility	27
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	24-25
+Serum creatinine  1.5 x ULN	Eligibility	28
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	22-23
+Ascites and pleural effusions must be drained prior to therapy.	Eligibility	29
+ascites	HP:0001541	0-7
+Exclusion Criteria:	Eligibility	30
+Patients with any of the following contra-indications to thiopurines (6MP or 6TG) or methotrexate:	Eligibility	31
+methotrexate	CHEBI:44185	85-97
+family history of severe liver failure;	Eligibility	32
+family history	HP:0032316	0-14
+severe	HP:0012828	18-24
+liver	UBERON:0002107	25-30
+alcoholism;	Eligibility	33
+alcoholism	HP:0030955,DOID:0050741	0-10
+porphyria;	Eligibility	34
+porphyria	DOID:13268	0-9
+diffuse infiltrative pulmonary or pericardial disease;	Eligibility	35
+diffuse	HP:0020034	0-7
+disease	DOID:4,OGMS:0000031	46-53
+known hypersensitivity to either trial agent.	Eligibility	36
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Patients found to have a Low/Low genotype on thiopurine methyltransferase (TPMT) testing will be excluded.	Eligibility	37
+thiopurine	CHEBI:35666	45-55
+excluded	HP:0040285	97-105
+Pregnant or breast-feeding women or women of childbearing potential unless highly effective methods of contraception are used.	Eligibility	38
+Other active malignancy, with the exception of adequately treated in situ carcinoma of the cervix uteri and basal or squamous cell carcinoma of the skin.	Eligibility	39
+active	PATO:0002354	6-12
+in situ carcinoma	DOID:8719	66-83
+squamous cell carcinoma of the skin	HP:0006739	117-152
+Patients known or tested to be serologically positive for Hepatitis B, Hepatitis C or human immunodeficiency virus (HIV).	Eligibility	40
+hepatitis b	DOID:2043	58-69
+hepatitis c	DOID:1883	71-82
+immunodeficiency	HP:0002721	92-108
+virus	BAO:0000232	109-114
+Patients with active central nervous system (CNS) lesions are excluded (i.e., those with radiographically unstable, symptomatic lesions). However, patients treated with stereotactic therapy or surgery and/or whole brain radiotherapy are eligible if the patient remains without evidence of disease progression in brain  3 months prior to registration date . They must also be off corticosteroid therapy for  3 weeks prior to registration date.	Eligibility	41
+active	PATO:0002354	14-20
+central nervous system	UBERON:0001017	21-43
+excluded	HP:0040285	62-70
+surgery	OAE:0000067	193-200
+brain	UBERON:0000955	214-219
+brain	UBERON:0000955	312-317
+radiotherapy	OAE:0000235	220-232
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	147-154
+patient	HADO:0000008,OAE:0001817	253-260
+disease	DOID:4,OGMS:0000031	289-296
+corticosteroid	CHEBI:50858	379-393
+Patients who have received anticancer agent(s) or an investigational agent within 28 days prior to study drug administration.	Eligibility	42
+drug administration	OAE:0000011	105-124
+Subjects who have not recovered to within one grade level (not to exceed grade 2) of their baseline following a significant adverse event or toxicity attributed to previous anticancer treatment are excluded.	Eligibility	43
+adverse event	OAE:0000001	124-137
+excluded	HP:0040285	198-206
+Outcome Measurement:	Results	0
+Objective Response Rate to 6-mercaptopurine and Methotrexate (6MP/MTX) in This Patient Population.	Results	1
+rate	BAO:0080019	19-23
+methotrexate	CHEBI:44185	48-60
+patient	HADO:0000008,OAE:0001817	79-86
+1st stage: If less than 3/30 evaluable patients respond at 8 weeks the trial will be stopped for futility. If 3 or more out of 30 evaluable patients respond then a further 35 patients will be recruited (2nd stage) - this was met.	Results	2
+The proportion of patients responding to treatment (complete response, partial response or stable disease) at the second stage will be presented per Response Evaluation Criteria In Solid Tumours (RECIST) criteria version 1.1 measured radiologically with computerised tomography (CT) and/or magnetic resonance imaging (MRI); the same method is used at baseline and at follow-up: Complete Response (CR): Disappearance of all target lesions. Partial Response (PR): At least a 30% decrease in the sum of diameters of target lesions. Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD. Patients who yield progressive disease (PD) are classed as non-responders.	Results	3
+stable	HP:0031915	91-97
+stable	HP:0031915	529-535
+disease	DOID:4,OGMS:0000031	98-105
+disease	DOID:4,OGMS:0000031	536-543
+disease	DOID:4,OGMS:0000031	671-678
+second	UO:0000010	114-120
+tomography	BAO:0002525	267-277
+ct	BAO:0002125	279-281
+target	BAO:0003064	423-429
+target	BAO:0003064	513-519
+increase	BAO:0001251	612-620
+progressive	HP:0003676	659-670
+Time frame: 8 weeks after start of treatment	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: 6-Mercaptopurine and Methotrexate (6MP/MTX)	Results	6
+methotrexate	CHEBI:44185	38-50
+Arm/Group Description: 6-Mercaptopurine: 6MP 75mg/m2 body surface area, administered orally (PO) once a day (od) in the morning 1 hour after eating, on a continuous schedule. One cycle is 28 days. Treatment is given continuously until disease progression.	Results	7
+area	PATO:0001323	66-70
+day	UO:0000033	104-107
+day	UO:0000033	191-194
+hour	UO:0000032	130-134
+disease	DOID:4,OGMS:0000031	235-242
+Methotrexate: Methotrexate 20mg/m2 will be taken orally, once a week, in the morning. One cycle is 28 days. Treatment is given continuously until disease progression.	Results	8
+methotrexate	CHEBI:44185	0-12
+methotrexate	CHEBI:44185	14-26
+week	UO:0000034	64-68
+disease	DOID:4,OGMS:0000031	146-153
+Update: These original doses were reduced following an Urgent Safety Measure in August 2012 due to a large proportion of patients requiring a dose reduction or treatment delay due to incidences of myelo-suppression.	Results	9
+The reduced doses were 55mg/m2 of 6MP orally once a day, and 15mg/m2 of Methotrexate orally once a week.	Results	10
+day	UO:0000033	52-55
+methotrexate	CHEBI:44185	72-84
+week	UO:0000034	99-103
+Overall Number of Participants Analyzed: 67	Results	11
+Measure Type: Count of Participants	Results	12
+Unit of Measure: Participants  22  32.8%	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 33/67 (49.25%)	Adverse Events	1
+Pancytopenia 1/67 (1.49%)	Adverse Events	2
+pancytopenia	HP:0001876,DOID:12450	0-12
+Febrile neutropenia 1/67 (1.49%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Palpitations 1/67 (1.49%)	Adverse Events	4
+palpitations	HP:0001962	0-12
+Abdominal pain 5/67 (7.46%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Ascites 1/67 (1.49%)	Adverse Events	6
+ascites	HP:0001541	0-7
+Colonic obstruction 1/67 (1.49%)	Adverse Events	7
+Constipation 1/67 (1.49%)	Adverse Events	8
+constipation	HP:0002019,DOID:2089	0-12
+Nausea 1/67 (1.49%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Pancreatitis 1/67 (1.49%)	Adverse Events	10
+pancreatitis	HP:0001733,DOID:4989	0-12
+Small intestinal obstruction 1/67 (1.49%)	Adverse Events	11
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Vomiting 2/67 (2.99%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+Fever 2/67 (2.99%)	Adverse Events	13
+fever	HP:0001945	0-5

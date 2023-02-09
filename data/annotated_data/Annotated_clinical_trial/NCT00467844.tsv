@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+GTx-024 1 mg	Intervention	1
+[Not Specified]	Intervention	2
+INTERVENTION 2:	Intervention	3
+GTx-024 3 mg	Intervention	4
+[Not Specified]	Intervention	5
+Inclusion Criteria:	Eligibility	0
+To be eligible for participation in this study, subjects must meet all of the following criteria:	Eligibility	1
+have been diagnosed with Stage 2, 3 or 4 non-small cell lung cancer or Stage 2, 3 or 4 colorectal cancer or non-hodgkin's lymphoma or chronic lymphocytic leukemia or Stage 3 or 4 breast cancer.	Eligibility	2
+lung cancer	DOID:1324	56-67
+colorectal cancer	DOID:9256	87-104
+lymphoma	HP:0002665,DOID:0060058	122-130
+chronic lymphocytic leukemia	DOID:1040	134-162
+breast cancer	DOID:1612	179-192
+be prior to initiation of or between cycles of chemotherapy.	Eligibility	3
+have experienced greater than or equal to 2% weight loss from the highest patient reported weight in the 6 months prior to screening for Protocol G200502 (Wt = body weight)	Eligibility	4
+weight loss	HP:0001824	45-56
+patient	HADO:0000008,OAE:0001817	74-81
+body weight	CMO:0000012	160-171
+% weight loss = (Wt at screening - highest Wt in last 6 months) / highest Wt in last 6 months x 100%	Eligibility	5
+weight loss	HP:0001824	2-13
+x	LABO:0000148	94-95
+If surgery is part of the cancer treatment, screening for this study should be conducted at least 2 weeks (14 days) after surgery.	Eligibility	6
+surgery	OAE:0000067	3-10
+surgery	OAE:0000067	122-129
+part of	BAO:0090002,BFO:0000050	14-21
+cancer	DOID:162	26-32
+have a life expectancy of >6 months	Eligibility	7
+FEMALES - be clinically confirmed as postmenopausal	Eligibility	8
+MALES - over 45 years of age	Eligibility	9
+age	PATO:0000011	25-28
+ECOG score 1	Eligibility	10
+Exclusion Criteria:	Eligibility	11
+Subjects with any of the following will NOT be eligible for enrollment in this study:	Eligibility	12
+history of active/uncontrolled congestive heart failure, chronic hepatitis, hepatic cirrhosis, or HIV infection	Eligibility	13
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	31-55
+chronic hepatitis	HP:0200123,DOID:2237	57-74
+cirrhosis	HP:0001394	84-93
+Cardiovascular: No uncontrolled hypertension	Eligibility	14
+hypertension	HP:0000822,DOID:10763	32-44
+Positive screen for Hepatitis B consisting of HBsAg (Hepatitis B Surface Antigen), anti-HCV (Hepatitis C Antibody), hepatitis A antibody IgM, or HIV	Eligibility	15
+hepatitis b	DOID:2043	20-31
+hepatitis b	DOID:2043	53-64
+antigen	CHEBI:59132	73-80
+hepatitis c	DOID:1883	93-104
+antibody	GO:0042571,BAO:0000502	105-113
+antibody	GO:0042571,BAO:0000502	128-136
+hepatitis a	DOID:12549	116-127
+igm	BAO:0002612	137-140
+Currently taking testosterone, OXANDRIN® (oxandrolone), testosterone-like agents (such as DHEA, androstenedione, and other androgenic compounds, including herbals), or antiandrogens (Please note that previous therapy with testosterone and testosterone-like agents is acceptable with a 30 day wash-out. However, if the previous testosterone therapy was a long-term depot, within the past 6 months, the site should call the medical monitor for this study to determine appropriate washout period.)	Eligibility	16
+testosterone	CHEBI:17347	17-29
+testosterone	CHEBI:17347	56-68
+testosterone	CHEBI:17347	222-234
+testosterone	CHEBI:17347	239-251
+testosterone	CHEBI:17347	327-339
+oxandrolone	CHEBI:7820	42-53
+day	UO:0000033	288-291
+site	BFO:0000029	401-405
+Currently taking megestrol acetate (MEGACE®), dronabinol (MARINOL®), or any prescription medication intended to increase appetite or treat unintentional weight loss	Eligibility	17
+megestrol acetate	CHEBI:6723	17-34
+increase	BAO:0001251	112-120
+weight loss	HP:0001824	153-164
+Outcome Measurement:	Results	0
+The Efficacy of GTx-024 on Total Body Lean Mass.	Results	1
+efficacy	BAO:0000656	4-12
+Change in total body lean mass as measured by dual energy x-ray absorptiometry (DEXA)from baseline to 4 months.	Results	2
+Time frame: Baseline to Four Months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: GTx-024 1 mg	Results	5
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 32	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: kg  1.55        (-2.06 to 12.64)	Results	9
+Results 2:	Results	10
+Arm/Group Title: GTx-024 3 mg	Results	11
+Arm/Group Description: [Not Specified]	Results	12
+Overall Number of Participants Analyzed: 34	Results	13
+Median (Full Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: kg  0.98        (-4.84 to 11.54)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 14/53 (26.42%)	Adverse Events	1
+Anaemia 3/53 (5.66%)	Adverse Events	2
+Febrile Neutropenia 2/53 (3.77%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/53 (1.89%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/53 (0.00%)	Adverse Events	5
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/53 (0.00%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial Fibrillation 1/53 (1.89%)	Adverse Events	7
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Myocardial infarction 1/53 (1.89%)	Adverse Events	8
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Diarrhoea 1/53 (1.89%)	Adverse Events	9
+Dysphagia 0/53 (0.00%)	Adverse Events	10
+dysphagia	HP:0002015	0-9
+gastric ulcer perforation 0/53 (0.00%)	Adverse Events	11
+gastric ulcer	HP:0002592,DOID:10808	0-13
+lower gastrointestinal haemorrhage 0/53 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 15/54 (27.78%)	Adverse Events	14
+Anaemia 0/54 (0.00%)	Adverse Events	15
+Febrile Neutropenia 0/54 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/54 (1.85%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/54 (0.00%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 1/54 (1.85%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial Fibrillation 0/54 (0.00%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Myocardial infarction 0/54 (0.00%)	Adverse Events	21
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Diarrhoea 0/54 (0.00%)	Adverse Events	22
+Dysphagia 0/54 (0.00%)	Adverse Events	23
+dysphagia	HP:0002015	0-9
+gastric ulcer perforation 0/54 (0.00%)	Adverse Events	24
+gastric ulcer	HP:0002592,DOID:10808	0-13
+lower gastrointestinal haemorrhage 1/54 (1.85%)	Adverse Events	25

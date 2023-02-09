@@ -1,0 +1,243 @@
+INTERVENTION 1:	Intervention	0
+Lymphodepleting Conditioning Foll/by Infusion of Anti-NY ESO1 Murine TCR-Gene Engineered Lymphocytes	Intervention	1
+engineered	BAO:0002057	78-88
+Non-myeloablative, lymphodepleting preparative regimen of cyclophosphamide and fludarabine + anti-ESO murine T-cell receptor (TCR) transduced peripheral blood lymphocytes (PBL) + high-dose aldesleukin	Intervention	2
+cyclophosphamide	CHEBI:4026	58-74
+receptor	BAO:0000281	116-124
+peripheral	HP:0030646	142-152
+blood	UBERON:0000178	153-158
+Anti-NY ESO-1 mTCR PBL: Day 0: Cells will be infused intravenously (IV) on the Patient Care Unit over 20-30 minutes.	Intervention	3
+day	UO:0000033	24-27
+patient	HADO:0000008,OAE:0001817	79-86
+Cyclophosphamide: Days -7 and -6: Cyclophosphamide 60 mg/kg/day X 2 days intravenously (IV) in 250 mL dextrose 5% in water (D5W) infused simultaneously with mesna 15 mg/kg/day over 1 hour x 2 days.	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	34-50
+x	LABO:0000148	64-65
+x	LABO:0000148	104-105
+x	LABO:0000148	188-189
+water	CHEBI:15377	117-122
+mesna	CHEBI:31824	157-162
+hour	UO:0000032	183-187
+Fludarabine: Days -7 to -3: Fludarabine 25 mg /m^2/day intravenous piggy back (IVPB) daily over 30 minutes for 5 days.	Intervention	5
+Aldesleukin: Aldesleukin 720,000 IU/kg intravenously (IV) (based on total body weight) over 15 minutes every 8 hours beginning within 24 hours of cell infusion and continuing for up to 5 days (maximum 15 doses).	Intervention	6
+body weight	CMO:0000012	74-85
+INCLUSION CRITERIA - PATIENTS WITH SOLID TUMOR CANCERS AND MELANOMA:	Eligibility	0
+melanoma	HP:0002861,DOID:1909	59-67
+Measurable (per Response Evaluation Criteria in Solid Tumors (RECIST) v1.0 criteria) metastatic cancer or locally advanced refractory/recurrent malignancy including melanoma that expresses ESO as assessed by one of the following methods: reverse transcription polymerase chain reaction (RT-PCR) on tumor tissue, immunohistochemistry of resected tissue, or serum antibody reactive with ESO.	Eligibility	1
+cancer	DOID:162	96-102
+melanoma	HP:0002861,DOID:1909	165-173
+reverse transcription	GO:0001171	238-259
+polymerase chain reaction	BAO:0002080	260-285
+tissue	UBERON:0000479	304-310
+tissue	UBERON:0000479	345-351
+immunohistochemistry	BAO:0000415	312-332
+antibody	GO:0042571,BAO:0000502	362-370
+Confirmation of diagnosis of metastatic cancer including melanoma by the National Cancer Institute (NCI) Laboratory of Pathology.	Eligibility	2
+cancer	DOID:162	40-46
+cancer	DOID:162	82-88
+melanoma	HP:0002861,DOID:1909	57-65
+Patients must have previously received first-line standard therapy (or effective salvage chemotherapy regimens) for metastatic disease, if known to be effective for that disease, and have been either non-responders (progressive disease) or have recurred.	Eligibility	3
+disease	DOID:4,OGMS:0000031	127-134
+disease	DOID:4,OGMS:0000031	170-177
+disease	DOID:4,OGMS:0000031	228-235
+progressive	HP:0003676	216-227
+Patients with 3 or fewer brain metastases that are less than 1 cm in diameter and asymptomatic are eligible. Lesions that have been treated with stereotactic radiosurgery must be clinically stable for 1 month after treatment for the patient to be eligible. Patients with surgically resected brain metastases are eligible.	Eligibility	4
+brain	UBERON:0000955	25-30
+brain	UBERON:0000955	291-296
+diameter	PATO:0001334	69-77
+stable	HP:0031915	190-196
+month	UO:0000035	203-208
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	233-240
+patient	HADO:0000008,OAE:0001817	257-264
+More than four weeks must have elapsed since any prior systemic therapy at the time the patient receives the preparative regimen, and patient's toxicities must have recovered to a grade 1 or less (except for toxicities such as alopecia or vitiligo).	Eligibility	5
+time	PATO:0000165	79-83
+patient	HADO:0000008,OAE:0001817	88-95
+patient	HADO:0000008,OAE:0001817	134-141
+alopecia	HP:0001596,DOID:987	227-235
+vitiligo	HP:0001045,DOID:12306	239-247
+Note: Patients may have undergone minor surgical procedures within the past three weeks, as long as all toxicities have recovered to grade 1 or less.	Eligibility	6
+Note: Patients who have previously received ipilimumab and have documented gastrointestinal (GI) toxicity must have a normal colonoscopy with normal colonic biopsies.	Eligibility	7
+INCLUSION CRITERIA - PATIENTS WITH MALIGNANT MENINGIOMA:	Eligibility	8
+meningioma	HP:0002858,DOID:3565	45-55
+- Histologically proven recurrent meningioma or aggressive meningioma.	Eligibility	9
+recurrent	HP:0031796	24-33
+meningioma	HP:0002858,DOID:3565	34-44
+meningioma	HP:0002858,DOID:3565	59-69
+Note: Confirmation of ESO expression and pathology is not required in patients with definitive radiologic evidence of meningioma who are unresectable, and in whom radiation therapy without biopsy is the standard treatment.	Eligibility	10
+meningioma	HP:0002858,DOID:3565	118-128
+Recurrent disease/progression after receiving all standard treatments, which must include the following:	Eligibility	11
+recurrent	HP:0031796	0-9
+Surgical resection, if possible.	Eligibility	12
+Definitive radiation therapy for unresectable meningioma, or for recurrent meningioma after resection.	Eligibility	13
+meningioma	HP:0002858,DOID:3565	46-56
+meningioma	HP:0002858,DOID:3565	75-85
+recurrent	HP:0031796	65-74
+At least 4 weeks post-surgery, and must be at least 3 months post-radiation therapy, with resolution of related toxicities.	Eligibility	14
+Measurable disease on magnetic resonance imaging (MRI) scan.	Eligibility	15
+disease	DOID:4,OGMS:0000031	11-18
+No history of intracranial hemorrhage.	Eligibility	16
+history	BFO:0000182	3-10
+intracranial hemorrhage	HP:0002170	14-37
+Patients with a history of neurofibromatosis (NF) may have other stable central nervous system (CNS) tumors, such as schwannoma, acoustic neuroma, or ependymoma only if those lesions have been stable for the past 6 months.	Eligibility	17
+history	BFO:0000182	16-23
+neurofibromatosis	DOID:8712	27-44
+stable	HP:0031915	65-71
+stable	HP:0031915	193-199
+central nervous system	UBERON:0001017	72-94
+schwannoma	HP:0100008,DOID:3192	117-127
+acoustic neuroma	DOID:12689	129-145
+ependymoma	HP:0002888	150-160
+Patients must be on stable dose of steroids for at least 5 days prior to baseline imaging.	Eligibility	18
+stable	HP:0031915	20-26
+INCLUSION CRITERIA - ALL PATIENTS:	Eligibility	19
+Age greater than or equal to 15 years and less than or equal to 70 years.	Eligibility	20
+age	PATO:0000011	0-3
+Patient, or their parent(s)/legal guardian(s) (if the patient is < 18 years of age), is able to understand and willing to sign a written informed consent. Written assent will be obtained for participants under the age of 18 as appropriate.	Eligibility	21
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	54-61
+age	PATO:0000011	79-82
+age	PATO:0000011	214-217
+All participants greater than or equal to 18 years of age must be willing to sign a durable power of attorney.	Eligibility	22
+age	PATO:0000011	54-57
+Clinical performance status of Eastern Cooperative Oncology Group (ECOG) 0 or 1.	Eligibility	23
+group	CHEBI:24433	60-65
+Patients aged 15-17 years weigh greater than or equal to 50 kg.	Eligibility	24
+Human leukocyte antigen serotype within the HLA-A serotype group (HLA-A*0201) positive.	Eligibility	25
+antigen	CHEBI:59132	16-23
+group	CHEBI:24433	59-64
+Patients of both genders must be willing to practice birth control from the time of enrollment on this study and for four months after treatment.	Eligibility	26
+time	PATO:0000165	76-80
+Women of child-bearing potential must have a negative pregnancy test because of the potentially dangerous effects of the treatment on the fetus.	Eligibility	27
+Serology	Eligibility	28
+Seronegative for human immunodeficiency virus (HIV) antibody. (The experimental treatment being evaluated in this protocol depends on an intact immune system. Patients who are HIV seropositive may have decreased immune-competence and thus may be less responsive to the experimental treatment and more susceptible to its toxicities.)	Eligibility	29
+immunodeficiency	HP:0002721	23-39
+virus	BAO:0000232	40-45
+antibody	GO:0042571,BAO:0000502	52-60
+immune system	UBERON:0002405	144-157
+Seronegative for hepatitis B antigen, and seronegative for hepatitis C antibody. If hepatitis C antibody test is positive, then patient must be tested for the presence of antigen by RT-PCR and be Hepatitis C Virus Ribonucleic acid(HCV RNA) negative.	Eligibility	30
+hepatitis b	DOID:2043	17-28
+antigen	CHEBI:59132	29-36
+antigen	CHEBI:59132	171-178
+hepatitis c	DOID:1883	59-70
+hepatitis c	DOID:1883	84-95
+hepatitis c	DOID:1883	196-207
+antibody	GO:0042571,BAO:0000502	71-79
+antibody	GO:0042571,BAO:0000502	96-104
+patient	HADO:0000008,OAE:0001817	128-135
+virus	BAO:0000232	208-213
+ribonucleic acid	CHEBI:33697	214-230
+rna	BAO:0000270	235-238
+Hematology	Eligibility	31
+Absolute neutrophil count (ANC) greater than 1000/mm(3) without the support of filgrastim	Eligibility	32
+White blood cells (WBC) greater than or equal to 3000/mm(3)	Eligibility	33
+blood	UBERON:0000178	6-11
+Platelet count greater than or equal to 100,000/mm(3)	Eligibility	34
+platelet count	CMO:0000029	0-14
+Hemoglobin greater than 8.0 g/dl. Subjects may be transfused to reach this cut-off.	Eligibility	35
+hemoglobin	CHEBI:35143	0-10
+Chemistry:	Eligibility	36
+Serum alanine aminotransferase (ALT)/aspartate aminotransferase (AST) less than or equal to 2.5 times the upper limit of normal	Eligibility	37
+alanine	CHEBI:16449	6-13
+Serum creatinine less than or equal to 1.6 mg/dl	Eligibility	38
+creatinine	CHEBI:16737	6-16
+Total bilirubin less than or equal to 1.5 mg/dl, except in patients with Gilbert's Syndrome who must have a total bilirubin less than 3.0 mg/dl.	Eligibility	39
+syndrome	DOID:225	83-91
+Subjects must be co-enrolled in protocol 03-C-0277.	Eligibility	40
+EXCLUSION CRITERIA:	Eligibility	41
+Women of child-bearing potential who are pregnant or breastfeeding because of the potentially dangerous effects of the treatment on the fetus or infant.	Eligibility	42
+Any form of primary immunodeficiency (such as Severe Combined Immunodeficiency Disease).	Eligibility	43
+immunodeficiency	HP:0002721	20-36
+immunodeficiency	HP:0002721	62-78
+severe combined immunodeficiency	HP:0004430,DOID:627	46-78
+disease	DOID:4,OGMS:0000031	79-86
+Active systemic infections requiring anti-infective treatment, coagulation disorders, or any other active or uncompensated major medical illnesses.	Eligibility	44
+active	PATO:0002354	0-6
+active	PATO:0002354	99-105
+coagulation	GO:0050817	63-74
+Concurrent opportunistic infections (The experimental treatment being evaluated in this protocol depends on an intact immune system. Patients who have decreased immune competence may be less responsive to the experimental treatment and more susceptible to its toxicities).	Eligibility	45
+immune system	UBERON:0002405	118-131
+Concurrent systemic steroid therapy.	Eligibility	46
+steroid	CHEBI:35341	20-27
+History of severe immediate hypersensitivity reaction to cyclophosphamide, fludarabine, or aldesleukin.	Eligibility	47
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+hypersensitivity	GO:0002524,DOID:1205	28-44
+cyclophosphamide	CHEBI:4026	57-73
+History of coronary revascularization or ischemic symptoms.	Eligibility	48
+history	BFO:0000182	0-7
+Documented Left Ventricular Ejection Fraction (LVEF) less than or equal to 45% tested in patients:	Eligibility	49
+left	HP:0012835	11-15
+ejection fraction	CMO:0000180	28-45
+Age greater than or equal to 65 years	Eligibility	50
+age	PATO:0000011	0-3
+With clinically significant atrial and/or ventricular arrhythmias, including but not limited to: atrial fibrillation, ventricular tachycardia, second- or third-degree heart block or have a history of ischemic heart disease and/or chest pain.	Eligibility	51
+atrial fibrillation	HP:0005110,DOID:0060224	97-116
+ventricular tachycardia	HP:0004756	118-141
+heart block	HP:0012722	167-178
+history	BFO:0000182	189-196
+heart disease	DOID:114	209-222
+chest pain	HP:0100749	230-240
+Documented forced expiratory volume 1 (FEV1) less than or equal to 60% predicted tested in patients with:	Eligibility	52
+forced expiratory volume	CMO:0000254	11-35
+A prolonged history of cigarette smoking (greater than or equal to 20 pack-year smoking history, with cessation within the past two years).	Eligibility	53
+prolonged	HP:0025297	2-11
+history	BFO:0000182	12-19
+history	BFO:0000182	88-95
+Symptoms of respiratory dysfunction.	Eligibility	54
+Patients who are receiving any other investigational agents.	Eligibility	55
+Outcome Measurement:	Results	0
+Percentage of Participants With a Response	Results	1
+Percentage of patients who have a clinical response (complete response or partial response) to treatment (objective tumor regression). Response was determined entirely by radiographic imaging using the Response Evaluation Criteria in Solid Tumors (RECIST) v1.0 to compare target lesions in centimeters. Complete Response is defined as disappearance of all target lesions. Partial Response is defined as at least a 30% decrease in the sum of the longest diameter (LD) of target lesions taking as reference the baseline sum LD.	Results	2
+target	BAO:0003064	272-278
+target	BAO:0003064	356-362
+target	BAO:0003064	470-476
+diameter	PATO:0001334	453-461
+Time frame: 6 and 12 weeks after cell infusion, then every 3 months x3, then every 6 months x 2, then per principal investigator (PI) discretion, up to five years or disease progression.	Results	3
+time	PATO:0000165	0-4
+x	LABO:0000148	68-69
+x	LABO:0000148	92-93
+disease	DOID:4,OGMS:0000031	166-173
+Results 1:	Results	4
+Arm/Group Title: Lymphodepleting Conditioning Foll/by Infusion of Anti-NY ESO1 Murine TCR-Gene Engineered Lymphocytes	Results	5
+engineered	BAO:0002057	95-105
+Arm/Group Description: Non-myeloablative, lymphodepleting preparative regimen of cyclophosphamide and fludarabine + anti-ESO murine T-cell receptor (TCR) transduced peripheral blood lymphocytes (PBL) + high-dose aldesleukin	Results	6
+cyclophosphamide	CHEBI:4026	81-97
+receptor	BAO:0000281	139-147
+peripheral	HP:0030646	165-175
+blood	UBERON:0000178	176-181
+Anti-NY ESO-1 mTCR PBL: Day 0: Cells will be infused intravenously (IV) on the Patient Care Unit over 20-30 minutes.	Results	7
+day	UO:0000033	24-27
+patient	HADO:0000008,OAE:0001817	79-86
+Cyclophosphamide: Days -7 and -6: Cyclophosphamide 60 mg/kg/day X 2 days intravenously (IV) in 250 mL dextrose 5% in water (D5W) infused simultaneously with mesna 15 mg/kg/day over 1 hour x 2 days.	Results	8
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	34-50
+x	LABO:0000148	64-65
+x	LABO:0000148	104-105
+x	LABO:0000148	188-189
+water	CHEBI:15377	117-122
+mesna	CHEBI:31824	157-162
+hour	UO:0000032	183-187
+Fludarabine: Days -7 to -3: Fludarabine 25 mg /m^2/day intravenous piggy back (IVPB) daily over 30 minutes for 5 days.	Results	9
+Aldesleukin: Aldesleukin 720,000 IU/kg intravenously (IV) (based on total body weight) over 15 minutes every 8 hours beginning within 24 hours of cell infusion and continuing for up to 5 days (maximum 15 doses).	Results	10
+body weight	CMO:0000012	74-85
+Overall Number of Participants Analyzed: 10	Results	11
+Measure Type: Number	Results	12
+Unit of Measure: percentage of participants  Complete Response: 10	Results	13
+Partial Response: 50	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 4/11 (36.36%)	Adverse Events	1
+Blood bilirubin increased 1/11 (9.09%)	Adverse Events	2
+blood	UBERON:0000178	0-5
+Febrile neutropenia  [1]1/11 (9.09%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Ejection fraction decreased 1/11 (9.09%)	Adverse Events	4
+ejection fraction	CMO:0000180	0-17
+Supraventricular and nodal arrhythmia::Sinus tachycardia 1/11 (9.09%)	Adverse Events	5
+arrhythmia	HP:0011675	27-37
+tachycardia	HP:0001649	45-56
+Sepsis 1/11 (9.09%)	Adverse Events	6
+sepsis	HP:0100806	0-6
+Lymphocyte count decreased 1/11 (9.09%)	Adverse Events	7
+Neutrophil count decreased 1/11 (9.09%)	Adverse Events	8
+Neutrophils/granulocytes (ANC/AGC) 1/11 (9.09%)	Adverse Events	9

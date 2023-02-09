@@ -1,0 +1,84 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab + 2nd Line Chemotherapy	Intervention	1
+Eligible participants were administered trastuzumab 6 mg/kg of body weight (except in Israel, where the dose was 2 mg/kg body weight), IV infusion, every three weeks until disease progression, unacceptable toxicities, or withdrawal from study in combination with second line chemotherapy.	Intervention	2
+body weight	CMO:0000012	63-74
+body weight	CMO:0000012	121-132
+disease	DOID:4,OGMS:0000031	172-179
+second	UO:0000010	263-269
+Inclusion Criteria:	Eligibility	0
+female patients, >= 18 years of age;	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	32-35
+metastatic breast cancer;	Eligibility	2
+breast cancer	DOID:1612	11-24
+HER2 overexpression (IHC 3+ and/or FISH positive);	Eligibility	3
+disease progression during or after previous 1st line chemotherapy + Herceptin;	Eligibility	4
+disease	DOID:4,OGMS:0000031	0-7
+scheduled to receive 2nd line chemotherapy.	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+concurrent immunotherapy or hormonal therapy;	Eligibility	7
+anthracyclines as part of previous 1st line chemotherapy or planned 2nd line chemotherapy;	Eligibility	8
+part of	BAO:0090002,BFO:0000050	18-25
+cardiac toxicity during previous 1st line chemotherapy + Herceptin;	Eligibility	9
+history of other malignancy within last 5 years.	Eligibility	10
+history	BFO:0000182	0-7
+Outcome Measurement:	Results	0
+Median Time to Disease Progression	Results	1
+median	BAO:0002174	0-6
+time	PATO:0000165	7-11
+disease	DOID:4,OGMS:0000031	15-22
+Time to disease progression (TTP) in days was defined as the time from enrollment to objective disease progression (all categories other than objective disease progression was set to be censored including death before progression). Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a nontarget lesion, or the appearance of new lesions. Tumor assessments were performed using computer tomography or magnetic resonance imaging. TTP as assessed by investigator, along with a recalculation done by computer algorithm is presented below. Median time was not assessed for 'Only Chemotherapy' group as randomization of participants was not feasible considering Trastuzumab widespread use in routine clinical practice.	Results	2
+time	PATO:0000165	0-4
+time	PATO:0000165	61-65
+time	PATO:0000165	688-692
+disease	DOID:4,OGMS:0000031	8-15
+disease	DOID:4,OGMS:0000031	95-102
+disease	DOID:4,OGMS:0000031	152-159
+ttp	CHEBI:63550	29-32
+ttp	CHEBI:63550	574-577
+death	OAE:0000632	205-210
+increase	BAO:0001251	339-347
+increase	BAO:0001251	418-426
+diameter	PATO:0001334	374-382
+target	BAO:0003064	386-392
+target	BAO:0003064	435-441
+tomography	BAO:0002525	532-542
+median	BAO:0002174	681-687
+group	CHEBI:24433	734-739
+Time frame: Up to 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab + 2nd Line Chemotherapy	Results	5
+Arm/Group Description: Eligible participants were administered trastuzumab 6 mg/kg of body weight (except in Israel, where the dose was 2 mg/kg body weight), IV infusion, every three weeks until disease progression, unacceptable toxicities, or withdrawal from study in combination with second line chemotherapy.	Results	6
+body weight	CMO:0000012	86-97
+body weight	CMO:0000012	144-155
+disease	DOID:4,OGMS:0000031	195-202
+second	UO:0000010	286-292
+Overall Number of Participants Analyzed: 73	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Days  By Computer (n = 65): 171        (136 to 322)	Results	9
+By Investigator (n = 73): 171        (136 to 265)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 20/93 (21.51%)	Adverse Events	1
+Granulocytosis 1/93 (1.08%)	Adverse Events	2
+granulocytosis	HP:0032310	0-14
+Leukopenia 2/93 (2.15%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Angina pectoris 0/93 (0.00%)	Adverse Events	4
+angina pectoris	HP:0001681	0-15
+Atrial fibrillation 1/93 (1.08%)	Adverse Events	5
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiopulmonary failure 2/93 (2.15%)	Adverse Events	6
+Retinal detachment 1/93 (1.08%)	Adverse Events	7
+retinal detachment	HP:0000541,DOID:5327	0-18
+Diarrhoea 3/93 (3.23%)	Adverse Events	8
+Nausea 1/93 (1.08%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Vomiting 1/93 (1.08%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Chest pain 1/93 (1.08%)	Adverse Events	11
+chest pain	HP:0100749	0-10
+Death 0/93 (0.00%)	Adverse Events	12
+death	OAE:0000632	0-5
+Pyrexia 1/93 (1.08%)	Adverse Events	13

@@ -1,0 +1,145 @@
+INTERVENTION 1:	Intervention	0
+Cohort A	Intervention	1
+Ribociclib (250 mg daily), everolimus (2.5 mg daily) and exemestane (25 mg daily) taken orally for 28 days. If no DLTs occurred, progressed to Cohort B	Intervention	2
+everolimus	CHEBI:68478	27-37
+exemestane	CHEBI:4953	57-67
+INTERVENTION 2:	Intervention	3
+Cohort B	Intervention	4
+Ribociclib (300 mg daily), everolimus (2.5 mg daily) and exemestane (25 mg daily) taken orally	Intervention	5
+everolimus	CHEBI:68478	27-37
+exemestane	CHEBI:4953	57-67
+Inclusion Criteria:	Eligibility	0
+Adult men and women	Eligibility	1
+adult	EFO:0001272	0-5
+Patient has a confirmed diagnosis of estrogen-receptor positive and/or progesterone receptor positive breast cancer by local laboratory and has HER2-negative breast cancer	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+progesterone	CHEBI:17026	71-83
+receptor	BAO:0000281	46-54
+receptor	BAO:0000281	84-92
+breast cancer	DOID:1612	102-115
+breast cancer	DOID:1612	158-171
+Patient must have either measurable disease by RECIST 1.1 or bone lesions in absence of measurable disease.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+disease	DOID:4,OGMS:0000031	36-43
+disease	DOID:4,OGMS:0000031	99-106
+ECOG Performance Status 0 - 1	Eligibility	4
+Disease refractory to either, AI, tamoxifen or fulvestrant	Eligibility	5
+disease	DOID:4,OGMS:0000031	0-7
+refractory	HP:0031375	8-18
+tamoxifen	CHEBI:41774	34-43
+fulvestrant	CHEBI:31638	47-58
+Previously treated on any CDK 4/6 inhibitor.	Eligibility	6
+inhibitor	CHEBI:35222	34-43
+Patient has adequate bone marrow and organ function.	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+bone marrow	UBERON:0002371	21-32
+organ	UBERON:0000062	37-42
+function	BAO:0003117,BFO:0000034	43-51
+Exclusion Criteria:	Eligibility	8
+Patient with symptomatic visceral disease or any disease burden that makes the patient ineligible for endocrine therapy per the investigator's best judgment.	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	79-86
+disease	DOID:4,OGMS:0000031	34-41
+disease	DOID:4,OGMS:0000031	49-56
+Patient has received more than one line of chemotherapy for advanced disease.	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+disease	DOID:4,OGMS:0000031	69-76
+Previous treatment with mTOR inhibitors, or exemestane for advanced disease.	Eligibility	11
+exemestane	CHEBI:4953	44-54
+disease	DOID:4,OGMS:0000031	68-75
+Progressed on more than one CDK 4/6 inhibitor	Eligibility	12
+inhibitor	CHEBI:35222	36-45
+Patient with CNS involvement unless they are at least 4 weeks from prior therapy completion.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+Clinically significant, uncontrolled heart disease and/or recent cardiac events.	Eligibility	14
+heart disease	DOID:114	37-50
+Outcome Measurement:	Results	0
+Participants With Dose Limiting Toxicities by Preferred Term in Cycle 1 (28 Days) - in Phase I	Results	1
+A dose-limiting toxicity (DLT) is defined as an adverse event or abnormal laboratory value assessed as having a reasonably possible relationship to the study medication(s) and is unrelated to disease, disease progression, inter-current illness, or concomitant medications that occurs within the first 28 days of treatment (cycle 1) and meets any of the criteria defined in the protocol. National Cancer Institute Common Terminology Criteria for Adverse events (NCI CTCAE) version 4.03 will be used for all grading.	Results	2
+adverse event	OAE:0000001	48-61
+adverse event	OAE:0000001	445-458
+disease	DOID:4,OGMS:0000031	192-199
+disease	DOID:4,OGMS:0000031	201-208
+cancer	DOID:162	396-402
+Time frame: Baseline up to 28 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cohort A	Results	5
+Arm/Group Description: Ribociclib (250 mg daily), everolimus (2.5 mg daily) and exemestane (25 mg daily) taken orally for 28 days. If no DLTs occurred, progressed to Cohort B	Results	6
+everolimus	CHEBI:68478	50-60
+exemestane	CHEBI:4953	80-90
+Overall Number of Participants Analyzed: 8	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Febrile neutropenia Grade 3: 1  12.5%	Results	9
+neutropenia	HP:0001875,DOID:1227	39-50
+Neutropenia Grade 4: 0   0.0%	Results	10
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia Grade 4: 0   0.0%	Results	11
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac tamponade Grade 4: 1  12.5%	Results	12
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Diarrhea Grade 3: 1  12.5%	Results	13
+diarrhea	HP:0002014,DOID:13250	0-8
+Hyperglycemia Grade 4: 0   0.0%	Results	14
+hyperglycemia	HP:0003074,DOID:4195	0-13
+Results 2:	Results	15
+Arm/Group Title: Cohort B	Results	16
+Arm/Group Description: Ribociclib (300 mg daily), everolimus (2.5 mg daily) and exemestane (25 mg daily) taken orally	Results	17
+everolimus	CHEBI:68478	50-60
+exemestane	CHEBI:4953	80-90
+Overall Number of Participants Analyzed: 10	Results	18
+Measure Type: Count of Participants	Results	19
+Unit of Measure: Participants  Febrile neutropenia Grade 3: 1  10.0%	Results	20
+neutropenia	HP:0001875,DOID:1227	39-50
+Neutropenia Grade 4: 1  10.0%	Results	21
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia Grade 4: 1  10.0%	Results	22
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac tamponade Grade 4: 0   0.0%	Results	23
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Diarrhea Grade 3: 0   0.0%	Results	24
+diarrhea	HP:0002014,DOID:13250	0-8
+Hyperglycemia Grade 4: 0   0.0%	Results	25
+hyperglycemia	HP:0003074,DOID:4195	0-13
+Adverse Events 1:	Adverse Events	0
+Total: 3/8 (37.50%)	Adverse Events	1
+Anaemia 0/8 (0.00%)	Adverse Events	2
+Febrile neutropenia 1/8 (12.50%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 2/8 (25.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Acute coronary syndrome 0/8 (0.00%)	Adverse Events	5
+acute coronary syndrome	HP:0033678	0-23
+Atrial fibrillation 0/8 (0.00%)	Adverse Events	6
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 0/8 (0.00%)	Adverse Events	7
+Cardiac tamponade 1/8 (12.50%)	Adverse Events	8
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Abdominal pain 1/8 (12.50%)	Adverse Events	9
+abdominal pain	HP:0002027	0-14
+Diarrhoea 1/8 (12.50%)	Adverse Events	10
+Intestinal obstruction 0/8 (0.00%)	Adverse Events	11
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea 0/8 (0.00%)	Adverse Events	12
+nausea	HP:0002018	0-6
+Adverse Events 2:	Adverse Events	13
+Total: 3/10 (30.00%)	Adverse Events	14
+Anaemia 0/10 (0.00%)	Adverse Events	15
+Febrile neutropenia 0/10 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 0/10 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Acute coronary syndrome 0/10 (0.00%)	Adverse Events	18
+acute coronary syndrome	HP:0033678	0-23
+Atrial fibrillation 0/10 (0.00%)	Adverse Events	19
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 0/10 (0.00%)	Adverse Events	20
+Cardiac tamponade 0/10 (0.00%)	Adverse Events	21
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Abdominal pain 0/10 (0.00%)	Adverse Events	22
+abdominal pain	HP:0002027	0-14
+Diarrhoea 0/10 (0.00%)	Adverse Events	23
+Intestinal obstruction 1/10 (10.00%)	Adverse Events	24
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea 0/10 (0.00%)	Adverse Events	25
+nausea	HP:0002018	0-6

@@ -1,0 +1,71 @@
+INTERVENTION 1:	Intervention	0
+Sentinel Lymph Node Biopsy	Intervention	1
+lymph	UBERON:0002391	9-14
+[Not Specified]	Intervention	2
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed breast cancer	Eligibility	1
+breast cancer	DOID:1612	25-38
+Stage I or II disease (T1-T2, N0, M0/MX disease)	Eligibility	2
+disease	DOID:4,OGMS:0000031	14-21
+disease	DOID:4,OGMS:0000031	40-47
+No chest wall invasion by tumor (T3 disease)	Eligibility	3
+chest	UBERON:0001443	3-8
+disease	DOID:4,OGMS:0000031	36-43
+Medially or centrally located lesion	Eligibility	4
+No multicentric disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	16-23
+Multifocal disease allowed	Eligibility	6
+multifocal	HP:0030651	0-10
+disease	DOID:4,OGMS:0000031	11-18
+No clinically positive axillary nodes	Eligibility	7
+No enlarged internal mammary nodes by CT scan	Eligibility	8
+ct	BAO:0002125	38-40
+Hormone receptor status not specified	Eligibility	9
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+Male or female	Eligibility	11
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	12
+American Society of Anesthesiologists (ASA) physical status classification 1-2	Eligibility	13
+Not pregnant or nursing	Eligibility	14
+Negative pregnancy test	Eligibility	15
+No other concurrent known, invasive malignancy	Eligibility	16
+No known chronic pulmonary disease	Eligibility	17
+chronic	HP:0011010	9-16
+disease	DOID:4,OGMS:0000031	27-34
+No known allergy to methylene blue or isosulfan blue	Eligibility	18
+allergy	HP:0012393	9-16
+methylene blue	CHEBI:6872	20-34
+PRIOR CONCURRENT THERAPY:	Eligibility	19
+No prior thoracic or cardiac surgery	Eligibility	20
+surgery	OAE:0000067	29-36
+No prior ipsilateral chest tube placement	Eligibility	21
+chest	UBERON:0001443	21-26
+tube	BAO:0010014,UBERON:0000025	27-31
+Contralateral chest tube placement allowed	Eligibility	22
+chest	UBERON:0001443	14-19
+tube	BAO:0010014,UBERON:0000025	20-24
+No prior neoadjuvant chemotherapy	Eligibility	23
+No prior radiotherapy to the mediastinum	Eligibility	24
+radiotherapy	OAE:0000235	9-21
+Outcome Measurement:	Results	0
+Success Rate in Removing Sentinel Lymph Nodes by Thoracoscopy	Results	1
+rate	BAO:0080019	8-12
+lymph	UBERON:0002391	34-39
+[Not Specified]	Results	2
+Time frame: 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Sentinel Lymph Node Biopsy	Results	5
+lymph	UBERON:0002391	26-31
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 34	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  31	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/34 (0.00%)	Adverse Events	1

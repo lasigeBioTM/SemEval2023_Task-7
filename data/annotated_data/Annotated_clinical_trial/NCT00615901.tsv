@@ -1,0 +1,152 @@
+INTERVENTION 1:	Intervention	0
+Cohort A (CMF at 14 Day Intervals)	Intervention	1
+day	UO:0000033	20-23
+This is a pilot study using 8 cycles of CMF (cyclophosphamide 600 mg/m2, methotrexate 40 mg/m2, and fluorouracil 600 mg/m2), at 14 day intervals supported by PEG-filgrastim for a cohort of 38 patients. A safety analysis will then be performed.	Intervention	2
+cyclophosphamide	CHEBI:4026	45-61
+methotrexate	CHEBI:44185	73-85
+day	UO:0000033	131-134
+cyclophosphamide, methotrexate, fluorouracil, PEG-filgrastim: C (cyclophosphamide) 600 mg/m2 M (methotrexate) 40 mg/m2 F (fluorouracil) 600 mg/m2 P (PEG-filgrastim ) 6 mg. Eight doses of CMF q 14 days with PEG-filgrastim administered approximately 24 hours after chemotherapy. Day 14, is also considered day 1 of the next cycle.	Intervention	3
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	65-81
+methotrexate	CHEBI:44185	18-30
+methotrexate	CHEBI:44185	96-108
+f	UO:0000195	32-33
+f	UO:0000195	50-51
+f	UO:0000195	119-120
+f	UO:0000195	122-123
+f	UO:0000195	153-154
+f	UO:0000195	185-186
+f	UO:0000195	189-190
+f	UO:0000195	210-211
+f	UO:0000195	258-259
+f	UO:0000195	311-312
+p	CHEBI:17802,BAO:0002175	5-6
+p	CHEBI:17802,BAO:0002175	9-10
+p	CHEBI:17802,BAO:0002175	46-47
+p	CHEBI:17802,BAO:0002175	70-71
+p	CHEBI:17802,BAO:0002175	74-75
+p	CHEBI:17802,BAO:0002175	146-147
+p	CHEBI:17802,BAO:0002175	149-150
+p	CHEBI:17802,BAO:0002175	206-207
+p	CHEBI:17802,BAO:0002175	235-236
+p	CHEBI:17802,BAO:0002175	236-237
+p	CHEBI:17802,BAO:0002175	273-274
+day	UO:0000033	196-199
+day	UO:0000033	277-280
+day	UO:0000033	304-307
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically confirmed adenocarcinoma of the breast confirmed at MSKCC within 3 months of enrollment. Patients with inflammatory breast cancer are not eligible for the study. Pathology will be assessed in the standard fashion. Results of HER-2/neu, estrogen receptor, and progesterone receptor are required for study entry.	Eligibility	1
+adenocarcinoma	DOID:299	44-58
+breast	UBERON:0000310	66-72
+breast	UBERON:0000310	150-156
+breast cancer	DOID:1612	150-163
+estrogen	CHEBI:50114,BAO:0000760	270-278
+receptor	BAO:0000281	279-287
+receptor	BAO:0000281	306-314
+progesterone	CHEBI:17026	293-305
+The patient cannot be Her-2/neu over-expressing either by immunohistochemistry or FISH as per hospital laboratory standard whether institutional or outside laboratory.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	4-11
+immunohistochemistry	BAO:0000415	58-78
+Patients must be > than or equal to 18 years of age	Eligibility	3
+age	PATO:0000011	48-51
+Patients must have a Karnofsky score of > than or equal to 80	Eligibility	4
+Patients may have received hormonal therapy for the purpose of chemoprevention but must be willing to discontinue at least 24 hours prior to enrollment and while participating in this trial.	Eligibility	5
+Patients will have completed their definitive breast surgery (mastectomy or breast conserving surgery)	Eligibility	6
+breast	UBERON:0000310	46-52
+breast	UBERON:0000310	76-82
+surgery	OAE:0000067	53-60
+surgery	OAE:0000067	94-101
+Patients must be ready to begin therapy within 84 days from the final surgical procedure required to treat their primary tumor	Eligibility	7
+Patients must be stage I-II	Eligibility	8
+Absolute neutrophil count (ANC) > than or equal to 1500/µL and platelet count > than or equal to 100,000/µL	Eligibility	9
+platelet count	CMO:0000029	63-77
+Total bilirubin must be < than or equal to 1.1 mg/dL or within normal institutional limits if outside MSKCC. Transaminases (SGOT/AST and/or SGPT/ALT) may be up to < than or equal to 92.5 U/L or < than or equal to 2.5 x institutional upper limit of normal (ULN) if alkaline phosphatase is < than or equal to ULN, or alkaline phosphatase may be up to 4 x ULN if transaminases are < than or equal to ULN.	Eligibility	10
+x	LABO:0000148	217-218
+x	LABO:0000148	351-352
+phosphatase	GO:0016791,BAO:0000295	273-284
+phosphatase	GO:0016791,BAO:0000295	324-335
+Serum creatinine must be within 0.6-1.3 mg/dL or within normal institutional limits if outside MSKCC.	Eligibility	11
+creatinine	CHEBI:16737	6-16
+Patients must be willing to discontinue sex hormonal therapy e.g., birth control pills, ovarian hormonal replacement therapy, etc., prior to enrollment. Women of childbearing potential must be willing to consent to using effective contraception while on treatment and for a reasonable period thereafter.	Eligibility	12
+Patients must give written, informed consent indicating their understanding and willingness to participate in the study.	Eligibility	13
+Brachytherapy after lumpectomy is permitted.	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Stage III-IV breast cancer	Eligibility	16
+breast cancer	DOID:1612	13-26
+Prior chemotherapy or radiation therapy is excluded except for brachytherapy.Radiation for patients on this protocol will be given, if indicated, after the completion of chemotherapy.	Eligibility	17
+excluded	HP:0040285	43-51
+Pregnant or lactating patients	Eligibility	18
+Patients with a concurrently active second malignancy, other than adequately treated non-melanoma skin cancers or in situ cervical cancer. Patients with other non-mammary malignancies must have been disease-free for at least five years.	Eligibility	19
+active	PATO:0002354	29-35
+second	UO:0000010	36-42
+cervical cancer	DOID:4362	122-137
+Patients with unstable angina, congestive heart failure, current use of digitalis, betablockers, or calcium blockers for therapy of congestive heart failure, arrhythmia requiring medical therapy, or with a history of a myocardial infarction within 12 months.	Eligibility	20
+congestive heart failure	HP:0001635,DOID:6000	31-55
+congestive heart failure	HP:0001635,DOID:6000	132-156
+calcium	CHEBI:22984,BAO:0000874	100-107
+arrhythmia	HP:0011675	158-168
+history	BFO:0000182	206-213
+myocardial infarction	HP:0001658,DOID:5844	219-240
+Patients with a psychiatric illness that would prevent them from understanding the nature of the investigational therapy and complying with protocol requirements.	Eligibility	21
+Patients with concurrent medical conditions, which, in the judgment of the investigator, would make them inappropriate candidates for study enrollment	Eligibility	22
+Patients with active, unresolved infections	Eligibility	23
+active	PATO:0002354	14-20
+Patients that have known sensitivity to E. coli derived proteins, PEG-filgrastim, filgrastim, or any component products.	Eligibility	24
+Patients must be Her 2/neu non-over-expressing.	Eligibility	25
+Outcome Measurement:	Results	0
+The Number of Patients Who Completed 8 Cycles.	Results	1
+the study regimen is deemed feasible and tolerable for patients with ANC > 1.5 on day 1 of treatment for all 8 cycles and absence of grade 3 or higher non-hematologic toxicity, excluding alopecia, nausea/vomiting and bone pain We will also evaluate the total number of days needed to complete all 8 cycles.	Results	2
+day	UO:0000033	82-85
+day	UO:0000033	269-272
+alopecia	HP:0001596,DOID:987	187-195
+bone pain	HP:0002653	217-226
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cohort A (CMF at 14 Day Intervals)	Results	5
+day	UO:0000033	37-40
+Arm/Group Description: This is a pilot study using 8 cycles of CMF (cyclophosphamide 600 mg/m2, methotrexate 40 mg/m2, and fluorouracil 600 mg/m2), at 14 day intervals supported by PEG-filgrastim for a cohort of 38 patients. A safety analysis will then be performed.	Results	6
+cyclophosphamide	CHEBI:4026	68-84
+methotrexate	CHEBI:44185	96-108
+day	UO:0000033	154-157
+cyclophosphamide, methotrexate, fluorouracil, PEG-filgrastim: C (cyclophosphamide) 600 mg/m2 M (methotrexate) 40 mg/m2 F (fluorouracil) 600 mg/m2 P (PEG-filgrastim ) 6 mg. Eight doses of CMF q 14 days with PEG-filgrastim administered approximately 24 hours after chemotherapy. Day 14, is also considered day 1 of the next cycle.	Results	7
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	65-81
+methotrexate	CHEBI:44185	18-30
+methotrexate	CHEBI:44185	96-108
+f	UO:0000195	32-33
+f	UO:0000195	50-51
+f	UO:0000195	119-120
+f	UO:0000195	122-123
+f	UO:0000195	153-154
+f	UO:0000195	185-186
+f	UO:0000195	189-190
+f	UO:0000195	210-211
+f	UO:0000195	258-259
+f	UO:0000195	311-312
+p	CHEBI:17802,BAO:0002175	5-6
+p	CHEBI:17802,BAO:0002175	9-10
+p	CHEBI:17802,BAO:0002175	46-47
+p	CHEBI:17802,BAO:0002175	70-71
+p	CHEBI:17802,BAO:0002175	74-75
+p	CHEBI:17802,BAO:0002175	146-147
+p	CHEBI:17802,BAO:0002175	149-150
+p	CHEBI:17802,BAO:0002175	206-207
+p	CHEBI:17802,BAO:0002175	235-236
+p	CHEBI:17802,BAO:0002175	236-237
+p	CHEBI:17802,BAO:0002175	273-274
+day	UO:0000033	196-199
+day	UO:0000033	277-280
+day	UO:0000033	304-307
+Overall Number of Participants Analyzed: 29	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  29	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 2/38 (5.26%)	Adverse Events	1
+Febrile neutropenia 0/38 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Abdominal pain 1/38 (2.63%)	Adverse Events	3
+abdominal pain	HP:0002027	0-14
+Skin infection 0/38 (0.00%)	Adverse Events	4
+Seizure 1/38 (2.63%)	Adverse Events	5
+seizure	HP:0001250	0-7

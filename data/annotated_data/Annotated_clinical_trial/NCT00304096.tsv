@@ -1,0 +1,149 @@
+INTERVENTION 1:	Intervention	0
+Stratum 1: Received Hormonal Therapy	Intervention	1
+Participants received hormonal therapy	Intervention	2
+INTERVENTION 2:	Intervention	3
+Stratum 2: Had Not Received Hormonal Therapy	Intervention	4
+Participants had not received hormonal therapy	Intervention	5
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+Stage III or IV disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	16-23
+Primary or recurrent disease	Eligibility	3
+recurrent	HP:0031796	11-20
+disease	DOID:4,OGMS:0000031	21-28
+Invasive lobular carcinoma allowed	Eligibility	4
+invasive lobular carcinoma	DOID:3457	0-26
+HLA-A1, -A2, -A3, or -A31 positive	Eligibility	5
+Underwent and recovered from prior primary therapy	Eligibility	6
+Patients with no clinical or radiological evidence of disease who had a previous diagnosis of stage III or IV breast cancer must have undergone prior antineoplastic therapy including, but not limited to, surgery, chemotherapy, and radiotherapy within the past 36 months	Eligibility	7
+disease	DOID:4,OGMS:0000031	54-61
+breast cancer	DOID:1612	110-123
+surgery	OAE:0000067	204-211
+radiotherapy	OAE:0000235	231-243
+Must have at least one undissected axillary and/or inguinal lymph node basin	Eligibility	8
+lymph	UBERON:0002391	60-65
+No history of brain metastases	Eligibility	9
+history	BFO:0000182	3-10
+brain	UBERON:0000955	14-19
+Hormone receptor status	Eligibility	10
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen receptor-positive or -negative tumor	Eligibility	11
+estrogen	CHEBI:50114,BAO:0000760	0-8
+PATIENT CHARACTERISTICS:	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+ECOG performance status of 0 or 1	Eligibility	13
+Body weight > 110 lbs (without clothes)	Eligibility	14
+body weight	CMO:0000012	0-11
+Male or female	Eligibility	15
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	16
+Absolute neutrophil count > 1000/mm^3	Eligibility	17
+Platelet count > 100,000/mm^3	Eligibility	18
+platelet count	CMO:0000029	0-14
+Hemoglobin > 9 g/dL	Eligibility	19
+hemoglobin	CHEBI:35143	0-10
+Hemoglobin A1c < 7%	Eligibility	20
+hemoglobin	CHEBI:35143	0-10
+AST and ALT  2.5 x upper limit of normal (ULN)	Eligibility	21
+x	LABO:0000148	17-18
+Bilirubin  2.5 x ULN	Eligibility	22
+x	LABO:0000148	15-16
+Alkaline phosphatase  2.5 x ULN	Eligibility	23
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	26-27
+Creatinine  1.5 x ULN	Eligibility	24
+creatinine	CHEBI:16737	0-10
+x	LABO:0000148	16-17
+HIV negative	Eligibility	25
+Hepatitis C negative	Eligibility	26
+hepatitis c	DOID:1883	0-11
+Not pregnant or nursing	Eligibility	27
+Negative pregnancy test	Eligibility	28
+Fertile patients must use effective contraception	Eligibility	29
+No known or suspected allergies to any component of the vaccine	Eligibility	30
+vaccine	VO:0000001	56-63
+No active infection requiring antibiotics	Eligibility	31
+active	PATO:0002354	3-9
+No New York Heart Association class III or IV heart disease	Eligibility	32
+heart	UBERON:0000948	12-17
+heart	UBERON:0000948	46-51
+heart disease	DOID:114	46-59
+No autoimmune disorders requiring cytotoxic or immunosuppressive therapy or autoimmune disorders with visceral involvement, except the following:	Eligibility	33
+Laboratory evidence of autoimmune disease (e.g., positive ANA titer) without symptoms	Eligibility	34
+autoimmune disease	DOID:417	23-41
+Clinical evidence of vitiligo	Eligibility	35
+vitiligo	HP:0001045,DOID:12306	21-29
+Other forms of depigmenting illness	Eligibility	36
+Mild arthritis requiring nonsteroidal antiinflammatory drugs	Eligibility	37
+mild	HP:0012825	0-4
+arthritis	HP:0001369,DOID:848	5-14
+No medical contraindication or potential problem that would preclude study participation	Eligibility	38
+contraindication	OAE:0000055	11-27
+PRIOR CONCURRENT THERAPY:	Eligibility	39
+More than 4 weeks since prior surgery	Eligibility	40
+surgery	OAE:0000067	30-37
+More than 4 weeks since prior and no concurrent chemotherapy and radiotherapy	Eligibility	41
+radiotherapy	OAE:0000235	65-77
+More than 4 weeks since prior and no concurrent allergy desensitization injections	Eligibility	42
+allergy	HP:0012393	48-55
+More than 4 weeks since prior parenteral, oral, or inhaled corticosteroids	Eligibility	43
+No concurrent inhaled steroids (e.g., Advair® or triamcinolone acetonide)	Eligibility	44
+triamcinolone acetonide	CHEBI:71418	49-72
+Prior or concurrent topical corticosteroids allowed	Eligibility	45
+More than 4 weeks since prior and no concurrent growth factors (e.g., epoetin alfa, darbepoetin alfa, or pegfilgrastim)	Eligibility	46
+growth	GO:0040007	48-54
+More than 4 weeks since prior and no concurrent other investigational medication	Eligibility	47
+More than 4 weeks since prior and no concurrent other agents with putative immunomodulating activity except for non-steroidal anti-inflammatory agents	Eligibility	48
+Prior and concurrent hormonal therapy (e.g., tamoxifen, raloxifene, toremifene, fulvestrant, letrozole, anastrozole, or exemestane) allowed	Eligibility	49
+tamoxifen	CHEBI:41774	45-54
+raloxifene	CHEBI:8772	56-66
+toremifene	CHEBI:9635	68-78
+fulvestrant	CHEBI:31638	80-91
+letrozole	CHEBI:6413	93-102
+anastrozole	CHEBI:2704	104-115
+exemestane	CHEBI:4953	120-130
+No prior vaccination with any synthetic peptides in this protocol	Eligibility	50
+vaccination	VO:0000002	9-20
+synthetic	BAO:0003073	30-39
+Vaccines for infectious disease (e.g., influenza) allowed, provided they are administered  2 weeks prior to or  2 weeks after study vaccine	Eligibility	51
+disease	DOID:4,OGMS:0000031	24-31
+influenza	DOID:8469	39-48
+vaccine	VO:0000001	0-7
+vaccine	VO:0000001	132-139
+Short term therapy for acute conditions not related to breast cancer allowed	Eligibility	52
+acute	HP:0011009,PATO:0000389	23-28
+breast cancer	DOID:1612	55-68
+No concurrent illegal drugs	Eligibility	53
+Outcome Measurement:	Results	0
+The Number of Participants Who Experienced Dose-limiting Adverse Events	Results	1
+Safety of the 9-peptide mixture if fewer than 33% of patients experience a dose-limiting toxicity	Results	2
+mixture	CHEBI:60004	24-31
+Time frame: 30 days post administration of last vaccine	Results	3
+time	PATO:0000165	0-4
+vaccine	VO:0000001	48-55
+Results 1:	Results	4
+Arm/Group Title: Stratum 1: Received Hormonal Therapy	Results	5
+Arm/Group Description: Participants received hormonal therapy	Results	6
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  1	Results	9
+Results 2:	Results	10
+Arm/Group Title: Stratum 2: Had Not Received Hormonal Therapy	Results	11
+Arm/Group Description: Participants had not received hormonal therapy	Results	12
+Overall Number of Participants Analyzed: 5	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/6 (16.67%)	Adverse Events	1
+Fever  [1]1/6 (16.67%)	Adverse Events	2
+fever	HP:0001945	0-5
+Adverse Events 2:	Adverse Events	3
+Total: 0/5 (0.00%)	Adverse Events	4
+Fever  [1]0/5 (0.00%)	Adverse Events	5
+fever	HP:0001945	0-5

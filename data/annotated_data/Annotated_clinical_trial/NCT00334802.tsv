@@ -1,0 +1,119 @@
+INTERVENTION 1:	Intervention	0
+Dose Level 1	Intervention	1
+Gemcitabine: 1000 mg/m2, intravenous (IV), day 1 and day 8 x 2 cycles Paclitaxcel: 175 mg/m2, intravenous (IV), every 21 days x 2 cycles	Intervention	2
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	43-46
+day	UO:0000033	53-56
+day	UO:0000033	121-124
+x	LABO:0000148	59-60
+x	LABO:0000148	77-78
+x	LABO:0000148	126-127
+INTERVENTION 2:	Intervention	3
+Dose Level 2	Intervention	4
+Gemcitabine: 1250 mg/m2, intravenous (IV), day 1 and day 8 x 2 cycles Paclitaxcel: 175 mg/m2, intravenous (IV), every 21 days x 2 cycles	Intervention	5
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	43-46
+day	UO:0000033	53-56
+day	UO:0000033	121-124
+x	LABO:0000148	59-60
+x	LABO:0000148	77-78
+x	LABO:0000148	126-127
+Inclusion Criteria:	Eligibility	0
+Histologically and/or cytologically confirmed breast cancer	Eligibility	1
+breast cancer	DOID:1612	46-59
+Received adjuvant/neo-adjuvant chemotherapy for breast cancer with anthracycline regimen	Eligibility	2
+breast cancer	DOID:1612	48-61
+anthracycline	CHEBI:48120	67-80
+To have at least one measurable region	Eligibility	3
+Eastern Cooperative Oncology Group (ECOG) Performance Status: 0-1	Eligibility	4
+group	CHEBI:24433	29-34
+To have adequate organ function (bone marrow, liver and renal function)	Eligibility	5
+organ	UBERON:0000062	17-22
+function	BAO:0003117,BFO:0000034	23-31
+function	BAO:0003117,BFO:0000034	62-70
+bone marrow	UBERON:0002371	33-44
+liver	UBERON:0002107	46-51
+Exclusion Criteria:	Eligibility	6
+To have interstitial pneumonia or pulmonary fibrosis	Eligibility	7
+pneumonia	HP:0002090,DOID:552	21-30
+pulmonary fibrosis	HP:0002206,DOID:3770	34-52
+To have inflammatory breast cancer	Eligibility	8
+breast cancer	DOID:1612	21-34
+Within 28 days after the latest chemotherapy or radiotherapy, 14 days after the latest hormonal/immunotherapy or 7 days after surgery	Eligibility	9
+radiotherapy	OAE:0000235	48-60
+surgery	OAE:0000067	126-133
+To have brain metastases with symptoms	Eligibility	10
+brain	UBERON:0000955	8-13
+To have severe complication (cardiac infarction, infection, drug hypersensitivity or diabetes)	Eligibility	11
+severe	HP:0012828	8-14
+drug	CHEBI:23888	60-64
+hypersensitivity	GO:0002524,DOID:1205	65-81
+Outcome Measurement:	Results	0
+Tumor Response	Results	1
+Best response recorded from the start of treatment until disease progression/recurrence using Response Evaluation Criteria In Solid Tumors (RECIST) criteria that defines when participants improve ("respond"), stay the same ("stable"), or worsen ("progression") during treatment. Responders are patients with complete response or partial response.	Results	2
+disease	DOID:4,OGMS:0000031	57-64
+stable	HP:0031915	225-231
+Time frame: baseline to measured progressive disease	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	33-44
+disease	DOID:4,OGMS:0000031	45-52
+Results 1:	Results	4
+Arm/Group Title: Dose Level 1	Results	5
+Arm/Group Description: Gemcitabine: 1000 mg/m2, intravenous (IV), day 1 and day 8 x 2 cycles Paclitaxcel: 175 mg/m2, intravenous (IV), every 21 days x 2 cycles	Results	6
+gemcitabine	CHEBI:175901	23-34
+day	UO:0000033	66-69
+day	UO:0000033	76-79
+day	UO:0000033	144-147
+x	LABO:0000148	82-83
+x	LABO:0000148	100-101
+x	LABO:0000148	149-150
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Complete Response: 0	Results	9
+Partial Response: 3	Results	10
+Stable Disease: 1	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 1	Results	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not Evaluable: 1	Results	13
+Results 2:	Results	14
+Arm/Group Title: Dose Level 2	Results	15
+Arm/Group Description: Gemcitabine: 1250 mg/m2, intravenous (IV), day 1 and day 8 x 2 cycles Paclitaxcel: 175 mg/m2, intravenous (IV), every 21 days x 2 cycles	Results	16
+gemcitabine	CHEBI:175901	23-34
+day	UO:0000033	66-69
+day	UO:0000033	76-79
+day	UO:0000033	144-147
+x	LABO:0000148	82-83
+x	LABO:0000148	100-101
+x	LABO:0000148	149-150
+Overall Number of Participants Analyzed: 56	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: participants  Complete Response: 0	Results	19
+Partial Response: 25	Results	20
+Stable Disease: 17	Results	21
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 11	Results	22
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not Evaluable: 3	Results	23
+Adverse Events 1:	Adverse Events	0
+Total: 1	Adverse Events	1
+Pneumonia 0/6 (0.00%)	Adverse Events	2
+pneumonia	HP:0002090,DOID:552	0-9
+Haemoglobin decreased 1/6 (16.67%)	Adverse Events	3
+Anorexia 0/6 (0.00%)	Adverse Events	4
+anorexia	HP:0002039	0-8
+Panic disorder 0/6 (0.00%)	Adverse Events	5
+panic disorder	DOID:594	0-14
+Adverse Events 2:	Adverse Events	6
+Total: 3	Adverse Events	7
+Pneumonia 1/56 (1.79%)	Adverse Events	8
+pneumonia	HP:0002090,DOID:552	0-9
+Haemoglobin decreased 0/56 (0.00%)	Adverse Events	9
+Anorexia 1/56 (1.79%)	Adverse Events	10
+anorexia	HP:0002039	0-8
+Panic disorder 1/56 (1.79%)	Adverse Events	11
+panic disorder	DOID:594	0-14

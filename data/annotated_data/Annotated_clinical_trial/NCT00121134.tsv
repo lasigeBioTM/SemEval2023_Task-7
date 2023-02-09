@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+Group A- Bevacizumab Alone	Intervention	1
+group	CHEBI:24433	0-5
+Bevacizumab 15 mg/kg every 3 wks for 1 year	Intervention	2
+year	UO:0000036	39-43
+INTERVENTION 2:	Intervention	3
+Group B-Bevacizumab+Cyclophosphamide+Methotrexate	Intervention	4
+group	CHEBI:24433	0-5
+Bevacizumab 15 mg/kg every 3 weeks for 1 year +Cyclophosphamide 50 mg orally daily for 6 months +methotrexate 2.5mg orally on day 1-2 each week for 6 months.	Intervention	5
+year	UO:0000036	41-45
+day	UO:0000033	126-129
+week	UO:0000034	29-33
+week	UO:0000034	139-143
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed invasive breast cancer, preoperative stages II-III per AJCC 6th edition, based on baseline evaluation by clinical examination and/or breast imaging	Eligibility	1
+breast cancer	DOID:1612	51-64
+breast	UBERON:0000310	51-57
+breast	UBERON:0000310	175-181
+Patients must have completed preoperative (neoadjuvant) chemotherapy with a standard chemotherapy regimen. No more chemotherapy should be planned.	Eligibility	2
+Patients must have completed definitive resection of primary tumor with adequate excision of gross disease.	Eligibility	3
+disease	DOID:4,OGMS:0000031	99-106
+For patients receiving adjuvant radiation therapy, treatment must be completed prior to initiation of protocol therapy.	Eligibility	4
+adjuvant	CHEBI:60809	23-31
+Patients must have the presence of significant residual invasive disease on pathologic review following their preoperative chemotherapy.	Eligibility	5
+disease	DOID:4,OGMS:0000031	65-72
+LVEF > institutional limits of normal after preoperative chemotherapy, as assessed by ECHO or nuclear medicine gated study, within 30 days prior to initiating protocol-based treatment.	Eligibility	6
+ECOG performance status 0-1	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Inadequate organ function, as measured by laboratory assessment after preoperative chemotherapy and within 14 days of beginning protocol-based treatment	Eligibility	9
+organ	UBERON:0000062	11-16
+function	BAO:0003117,BFO:0000034	17-25
+Patients with metastatic disease are ineligible.	Eligibility	10
+disease	DOID:4,OGMS:0000031	25-32
+Known HIV infection	Eligibility	11
+Patients may not be pregnant, expect to become pregnant, plan to conceive a child while on study, or breastfeeding	Eligibility	12
+Uncontrolled intercurrent illness	Eligibility	13
+Non-healing wounds or major surgical procedures (such as breast surgery) other than that for venous access device or diagnostic study are not permitted within 28 day prior to enrollment	Eligibility	14
+breast	UBERON:0000310	57-63
+surgery	OAE:0000067	64-71
+day	UO:0000033	162-165
+History of abdominal fistula, GI perforation, intra-abdominal abscess, or serious, non-healing wound, ulcer, or bone fracture within 6 months prior to initiating bevacizumab	Eligibility	15
+history	BFO:0000182	0-7
+abscess	HP:0025615	62-69
+ulcer	OAE:0004372	102-107
+bone fracture	HP:0020110	112-125
+Patients with any history of arterial thromboembolic events, including transient ischemic attack (TIA), cerebrovascular event (CVA), unstable angina, or myocardial infarction (MI) within the past 6 months. Patients with clinically significant peripheral arterial disease should also be excluded	Eligibility	16
+history	BFO:0000182	18-25
+transient ischemic attack	HP:0002326,DOID:224	71-96
+myocardial infarction	HP:0001658,DOID:5844	153-174
+peripheral	HP:0030646	243-253
+disease	DOID:4,OGMS:0000031	263-270
+excluded	HP:0040285	286-294
+History of bleeding diathesis or coagulopathy	Eligibility	17
+history	BFO:0000182	0-7
+History of grade 3 or 4 allergic reactions to compounds of similar chemical or biologic composition to cyclophosphamide (such as other alkylating agents) or methotrexate (such as other antimetabolites)	Eligibility	18
+history	BFO:0000182	0-7
+cyclophosphamide	CHEBI:4026	103-119
+methotrexate	CHEBI:44185	157-169
+Prior history of malignancy treated without curative intent, excluding nonmelanomatous skin cancer	Eligibility	19
+history	BFO:0000182	6-13
+skin cancer	DOID:4159	87-98
+Patients with large or rapidly accumulating pleural or abdominal effusions	Eligibility	20
+Current use of anticoagulants is allowed as long as patients have been on a stable dose for more than two weeks with stable INR	Eligibility	21
+stable	HP:0031915	76-82
+stable	HP:0031915	117-123
+Chronic therapy with full dose aspirin (< 325 mg/day) or standard non-steroidal anti-inflammatory agents is allowed	Eligibility	22
+chronic	HP:0011010	0-7
+Patients may not receive other investigational agents while on study	Eligibility	23
+Outcome Measurement:	Results	0
+The Completion Rate of 1 Year of Bevacizumab Therapy for All Four Cohorts	Results	1
+rate	BAO:0080019	15-19
+year	UO:0000036	25-29
+[Not Specified]	Results	2
+Time frame: 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: Group A- Bevacizumab Alone	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Bevacizumab 15 mg/kg every 3 wks for 1 year	Results	6
+year	UO:0000036	62-66
+Overall Number of Participants Analyzed: 40	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  60	Results	9
+Results 2:	Results	10
+Arm/Group Title: Group B-Bevacizumab+Cyclophosphamide+Methotrexate	Results	11
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Bevacizumab 15 mg/kg every 3 weeks for 1 year +Cyclophosphamide 50 mg orally daily for 6 months +methotrexate 2.5mg orally on day 1-2 each week for 6 months.	Results	12
+year	UO:0000036	64-68
+day	UO:0000033	149-152
+week	UO:0000034	52-56
+week	UO:0000034	162-166
+Overall Number of Participants Analyzed: 41	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  58	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/40 (2.50%)	Adverse Events	1
+Hypertension 0/40 (0.00%)	Adverse Events	2
+hypertension	HP:0000822,DOID:10763	0-12
+Lower GI bleed 1/40 (2.50%)	Adverse Events	3
+Death 0/40 (0.00%)	Adverse Events	4
+death	OAE:0000632	0-5
+Headache 0/40 (0.00%)	Adverse Events	5
+headache	HP:0002315	0-8
+Dyspnea 0/40 (0.00%)	Adverse Events	6
+dyspnea	HP:0002094	0-7
+Sinusitis 0/40 (0.00%)	Adverse Events	7
+sinusitis	HP:0000246,DOID:0050127	0-9
+Wound Dehiscence 0/40 (0.00%)	Adverse Events	8
+dehiscence	GO:0009900	6-16
+Adverse Events 2:	Adverse Events	9
+Total: 3/41 (7.32%)	Adverse Events	10
+Hypertension 1/41 (2.44%)	Adverse Events	11
+hypertension	HP:0000822,DOID:10763	0-12
+Lower GI bleed 0/41 (0.00%)	Adverse Events	12
+Death 0/41 (0.00%)	Adverse Events	13
+death	OAE:0000632	0-5
+Headache 0/41 (0.00%)	Adverse Events	14
+headache	HP:0002315	0-8
+Dyspnea 0/41 (0.00%)	Adverse Events	15
+dyspnea	HP:0002094	0-7
+Sinusitis 1/41 (2.44%)	Adverse Events	16
+sinusitis	HP:0000246,DOID:0050127	0-9
+Wound Dehiscence 1/41 (2.44%)	Adverse Events	17
+dehiscence	GO:0009900	6-16

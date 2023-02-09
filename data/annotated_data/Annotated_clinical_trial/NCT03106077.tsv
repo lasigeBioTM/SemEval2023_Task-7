@@ -1,0 +1,212 @@
+INTERVENTION 1:	Intervention	0
+Cohort A: Advanced Triple-Negative Breast Cancer (TNBC)	Intervention	1
+breast cancer	DOID:1612	35-48
+6 mg/kg IMGN853 IV Q3W	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	1
+group	CHEBI:24433	29-34
+Confirmed invasive triple-negative breast cancer defined as estrogen receptor (ER) < 10%; progesterone receptor (PR) < 10% by immunohistochemistry (IHC) and HER2 0-1+ by IHC or 2+, fluorescence in situ hybridization (FISH) < 2, gene copy number < 4	Eligibility	2
+breast cancer	DOID:1612	35-48
+estrogen	CHEBI:50114,BAO:0000760	60-68
+receptor	BAO:0000281	69-77
+receptor	BAO:0000281	103-111
+progesterone	CHEBI:17026	90-102
+immunohistochemistry	BAO:0000415	126-146
+gene	BAO:0000582	228-232
+(For Cohort A) - Archived tissue available at pre-screening to confirm FR alpha+ breast cancer	Eligibility	3
+tissue	UBERON:0000479	26-32
+breast cancer	DOID:1612	81-94
+(For Cohort A) Archived tissue available pre-screening to confirm FR alpha+ breast cancer. (For Cohort B) Confirmed FRalpha+ breast cancer defined as low FRalpha expression: >= 25% of cells having >= 1+ expression	Eligibility	4
+tissue	UBERON:0000479	24-30
+breast cancer	DOID:1612	76-89
+breast cancer	DOID:1612	125-138
+(For Cohort A) Measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST). (For cohort B) Clinical or radiologic primary tumor size of at least 1.5 cm prior to enrollment onto protocol 2014-0185 (ARTEMIS). Primary tumor of at least 1.0 cm or evidence of continued lymph node involvement by imaging (ultrasound or magnetic resonance imaging [MRI]) after adriamycin-based neoadjuvant therapy	Eligibility	5
+disease	DOID:4,OGMS:0000031	26-33
+size	PATO:0000117	145-149
+lymph	UBERON:0002391	282-287
+(For cohort B): Primary tumor sample collected before NACT started (on ARTEMIS) and underwent molecular testing for integral biomarkers including immunohistochemical assessment of FRalpha	Eligibility	6
+(For cohort A): No limit on prior therapies for metastatic disease. (Relapse of disease within 6 months of adjuvant or neoadjuvant chemotherapy is considered 1 line of therapy for metastatic disease). (For cohort B): received at least one dose of an anthracycline-based NACT. Patients are eligible if therapy was discontinued due to disease progression or therapy intolerance. Patients with disease progression on anthracycline-based therapy should be evaluated by the surgical team. If the patient is deemed inoperable at the time of evaluation, the patient may continue to undergo protocol therapy with a goal of reduction in tumor size to become operable. If the patient is deemed at high risk of becoming inoperable by the surgical team based upon tumor size or location, the patient will be considered ineligible for study and will be recommended to go to surgery	Eligibility	7
+disease	DOID:4,OGMS:0000031	59-66
+disease	DOID:4,OGMS:0000031	80-87
+disease	DOID:4,OGMS:0000031	191-198
+disease	DOID:4,OGMS:0000031	333-340
+disease	DOID:4,OGMS:0000031	391-398
+adjuvant	CHEBI:60809	107-115
+adjuvant	CHEBI:60809	122-130
+patient	HADO:0000008,OAE:0001817	276-283
+patient	HADO:0000008,OAE:0001817	377-384
+patient	HADO:0000008,OAE:0001817	491-498
+patient	HADO:0000008,OAE:0001817	551-558
+patient	HADO:0000008,OAE:0001817	666-673
+patient	HADO:0000008,OAE:0001817	780-787
+time	PATO:0000165	527-531
+size	PATO:0000117	634-638
+size	PATO:0000117	758-762
+surgery	OAE:0000067	861-868
+(For cohort B): Primary tumor size of at least 1.0 cm by imaging (ultrasound or MRI) or evidence of continued lymph node involvement by imaging (ultrasound or MRI) after adriamycin-based neoadjuvant therapy	Eligibility	8
+size	PATO:0000117	30-34
+lymph	UBERON:0002391	110-115
+(For cohort B): Baseline multigated acquisition (MUGA) or echocardiogram showing left ventricular ejection fraction (LVEF) >= 50% within 6 weeks prior to initiation of NACT	Eligibility	9
+left	HP:0012835	81-85
+ejection fraction	CMO:0000180	98-115
+(For both cohorts A and B): Absolute neutrophil count (ANC) >= 1.5 x 10^9/L	Eligibility	10
+x	LABO:0000148	67-68
+(For both cohorts A and B): Platelets >= 100 x 10^9/L	Eligibility	11
+x	LABO:0000148	45-46
+(For both cohorts A and B): Hemoglobin (Hb) > 9 G/dL	Eligibility	12
+hemoglobin	CHEBI:35143	28-38
+(For both cohorts A and B): Total serum bilirubin =< 2.0 mg/dL	Eligibility	13
+(For both cohorts A and B): Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) =< 2.5 x upper limit of normal (ULN) (=< 5 x ULN in patients with liver metastases)	Eligibility	14
+alanine	CHEBI:16449	28-35
+aspartate	CHEBI:29995	63-72
+x	LABO:0000148	103-104
+x	LABO:0000148	139-140
+liver	UBERON:0002107	162-167
+(For both cohorts A and B): International normalized ratio (INR) =< 2	Eligibility	15
+ratio	UO:0000190	53-58
+(For both cohorts A and B): Serum creatinine =< 1.5 x ULN	Eligibility	16
+creatinine	CHEBI:16737	34-44
+x	LABO:0000148	52-53
+(For both cohorts A and B): Serum albumin > 2	Eligibility	17
+serum albumin	BAO:0002066	28-41
+Signed informed consent obtained prior to any screening procedures	Eligibility	18
+(For cohort A only): Time from prior therapy: a. Systemic anti-neoplastic therapy: five half-lives or four weeks, whichever is shorter. Hormonal therapy is not considered anti-neoplastic therapy. b. Radiotherapy: wide-field radiotherapy (e.g. > 30% of marrow-bearing bones) completed at least four weeks, or focal radiation completed at least two weeks, prior to starting study treatment	Eligibility	19
+time	PATO:0000165	21-25
+radiotherapy	OAE:0000235	199-211
+radiotherapy	OAE:0000235	224-236
+focal	HP:0030650	308-313
+(For cohort B only): Patients must have at least 3 and no more than 5 weeks between anthracycline-based therapy and start of treatment with mirvetuximab soravtansine	Eligibility	20
+(For both cohorts A and B): Patients must have resolution of toxic effect(s) of the most recent prior chemotherapy to grade 1 or less (except alopecia)	Eligibility	21
+alopecia	HP:0001596,DOID:987	142-150
+(For both cohorts A and B): Women of child-hearing potential (WCBP) must have a negative pregnancy test within 3 days prior to the first dose of study treatment	Eligibility	22
+Exclusion Criteria:	Eligibility	23
+Pregnant or lactating women	Eligibility	24
+Patients with a history of non-compliance to medical regimens or who are considered potentially unreliable or will not be able to complete the entire study	Eligibility	25
+history	BFO:0000182	16-23
+(For Cohort B only): Presence of metastatic disease or prior radiation therapy of the primary breast carcinoma or axillary lymph nodes	Eligibility	26
+disease	DOID:4,OGMS:0000031	44-51
+breast carcinoma	HP:0003002,DOID:3459	94-110
+lymph	UBERON:0002391	123-128
+Women of child-bearing potential (WCBP), defined as all women capable of becoming pregnant, won't use highly effective methods of contraception during the study and 12 weeks after. Highly effective contraception methods include combination of any two of the following:	Eligibility	27
+Placement of an intrauterine device (IUD) or intrauterine system (IUS)	Eligibility	28
+Barrier methods of contraception: condom or occlusive cap (diaphragm or cervical/vault caps) with spermicidal foam/gel/film/cream/vaginal suppository	Eligibility	29
+diaphragm	UBERON:0001103	59-68
+Total abstinence or	Eligibility	30
+Male/female sterilization	Eligibility	31
+Women are considered post-menopausal and not of child-bearing potential if they have had 12 months of natural (spontaneous) amenorrhea with an appropriate clinical profile, or have had surgical bilateral oophorectomy (with or without hysterectomy) or tubal ligation at least six weeks prior to study entry. In the case of oophorectomy alone, only when the reproductive status of the woman has been confirmed by follow up hormone level assessment is she considered not of childbearing potential	Eligibility	32
+amenorrhea	HP:0000141,DOID:13938	124-134
+bilateral	HP:0012832	194-203
+hormone	CHEBI:24621	421-428
+Male patients whose sexual partner(s) are WCBP who are not willing to use adequate contraception, during the study and for 12 weeks after the end of treatment	Eligibility	33
+male	CHEBI:30780,PATO:0000384	0-4
+Patients with > grade 1 peripheral neuropathy	Eligibility	34
+peripheral neuropathy	HP:0009830,DOID:870	24-45
+Active or chronic corneal disorder, including but not limited to the following: Sjogren's syndrome, Fuchs corneal dystrophy (requiring treatment), history of corneal transplantation, active herpetic keratitis, and also active ocular conditions requiring on-going treatment/monitoring such as wet age-related macular degeneration requiring intravitreal injections, active diabetic retinopathy with macular edema, presence of papilledema, and acquired monocular vision	Eligibility	35
+active	PATO:0002354	0-6
+active	PATO:0002354	183-189
+active	PATO:0002354	219-225
+active	PATO:0002354	364-370
+chronic	HP:0011010	10-17
+disorder	OGMS:0000045	26-34
+syndrome	DOID:225	90-98
+corneal dystrophy	HP:0001131,DOID:2566	106-123
+history	BFO:0000182	147-154
+keratitis	HP:0000491,DOID:4677	199-208
+macular degeneration	HP:0000608,DOID:4448	308-328
+diabetic retinopathy	DOID:8947	371-391
+macular edema	HP:0040049,DOID:4449	397-410
+papilledema	HP:0001085,DOID:146	424-435
+Serious concurrent illness or clinically-relevant active infection, including, but not limited to the following:	Eligibility	36
+active	PATO:0002354	50-56
+Known active hepatitis B or C	Eligibility	37
+active	PATO:0002354	6-12
+hepatitis b	DOID:2043	13-24
+Known human immunodeficiency virus (HIV) infection	Eligibility	38
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+Varicella-zoster virus (shingles)	Eligibility	39
+virus	BAO:0000232	17-22
+Cytomegalovirus infection	Eligibility	40
+Any other known concurrent infectious disease, requiring IV antibiotics within 2 weeks of study enrollment	Eligibility	41
+disease	DOID:4,OGMS:0000031	38-45
+Clinically-significant cardiac disease:	Eligibility	42
+disease	DOID:4,OGMS:0000031	31-38
+Recent myocardial infarction (=< 6 months prior to day 1)	Eligibility	43
+myocardial infarction	HP:0001658,DOID:5844	7-28
+day	UO:0000033	51-54
+Unstable angina pectoris	Eligibility	44
+angina pectoris	HP:0001681	9-24
+Uncontrolled congestive heart failure (New York Heart Association > class II)	Eligibility	45
+congestive heart failure	HP:0001635,DOID:6000	13-37
+heart	UBERON:0000948	24-29
+heart	UBERON:0000948	48-53
+Uncontrolled hypertension (>= Common Terminology Criteria for Adverse Events [CTCAE] version [v]4.03 grade 3)	Eligibility	46
+hypertension	HP:0000822,DOID:10763	13-25
+Prior history of hypertensive crisis or hypertensive encephalopathy	Eligibility	47
+history	BFO:0000182	6-13
+hypertensive crisis	HP:0100735	17-36
+hypertensive encephalopathy	DOID:9427	40-67
+Uncontrolled cardiac arrhythmias	Eligibility	48
+Clinically-significant vascular disease (e.g. aortic aneurysm, or dissecting aneurysm)	Eligibility	49
+vascular disease	DOID:178	23-39
+aortic aneurysm	HP:0004942,DOID:3627	46-61
+Severe aortic stenosis	Eligibility	50
+severe	HP:0012828	0-6
+Clinically significant peripheral vascular disease	Eligibility	51
+peripheral vascular disease	DOID:341	23-50
+>= Grade 3 cardiac toxicity following prior chemotherapy	Eligibility	52
+Corrected QT interval (QTc) > 470 for females and > 450 for males	Eligibility	53
+qt interval	CMO:0000235	10-21
+History of neurological conditions that would confound assessment of treatment-emergent neuropathy	Eligibility	54
+history	BFO:0000182	0-7
+neuropathy	DOID:870	88-98
+History of hemorrhagic or ischemic stroke within the last 6 months	Eligibility	55
+history	BFO:0000182	0-7
+ischemic stroke	HP:0002140	26-41
+History of cirrhotic liver disease	Eligibility	56
+history	BFO:0000182	0-7
+liver disease	DOID:409	21-34
+Previous clinical diagnosis of non-infectious pneumonitis or non-infectious interstitial lung disease	Eligibility	57
+interstitial lung disease	DOID:3082	76-101
+Prior hypersensitivity to monoclonal antibodies	Eligibility	58
+hypersensitivity	GO:0002524,DOID:1205	6-22
+monoclonal	BAO:0000503	26-36
+Patients who have a history of another primary malignancy, with the exceptions of: non-melanoma skin cancer, and carcinoma in situ of the cervix, uteri, or breast from which the patient has been disease free for >= 3 years	Eligibility	59
+history	BFO:0000182	20-27
+skin cancer	DOID:4159	96-107
+carcinoma	HP:0030731,DOID:305	113-122
+breast	UBERON:0000310	156-162
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	178-185
+disease	DOID:4,OGMS:0000031	195-202
+Carcinomatous meningitis, untreated central nervous system (CNS) disease or symptomatic CNS metastasis. Patients with previously treated CNS metastasis (excluding carcinomatous meningitis) may participate if they are stable (without evidence of progression by imaging, using identical imaging modality at each assessment, for at least 4 weeks prior to first dose of study treatment), have no evidence of new or emerging CNS metastasis, and are not using steroids for at least 7 days prior to first dose of study treatment	Eligibility	60
+meningitis	HP:0001287,DOID:9471	14-24
+meningitis	HP:0001287,DOID:9471	177-187
+central nervous system	UBERON:0001017	36-58
+disease	DOID:4,OGMS:0000031	65-72
+stable	HP:0031915	217-223
+History or evidence of thrombotic or hemorrhagic disorders within 6 months before first study treatment	Eligibility	61
+history	BFO:0000182	0-7
+Required used of folate-containing supplements (e.g. folate deficiency)	Eligibility	62
+Outcome Measurement:	Results	0
+Number of Metastatic Participants With Radiographic Response	Results	1
+Determine if Mirvetuximab Soravtansine as a Single Agent is Likely to Induce Response in at Least 20% of Patients With Metastatic Folate Receptor (FR) Alpha+ Triple Negative Breast Cancer (TNBC). Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	2
+receptor	BAO:0000281	137-145
+breast cancer	DOID:1612	174-187
+target	BAO:0003064	272-278
+target	BAO:0003064	353-359
+target	BAO:0003064	445-451
+diameter	PATO:0001334	433-441
+Time frame: From the registration to the study until disease progression or death from any cause, whichever occurred first, assessed up to 2 years	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	53-60
+death	OAE:0000632	76-81
+Results 1:	Results	4
+Arm/Group Title: Cohort A: Advanced Triple-Negative Breast Cancer (TNBC)	Results	5
+breast cancer	DOID:1612	52-65
+Arm/Group Description: 6 mg/kg IMGN853 IV Q3W	Results	6
+Overall Number of Participants Analyzed: 2	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  0   0.0%	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/2 (0.00%)	Adverse Events	1

@@ -1,0 +1,143 @@
+INTERVENTION 1:	Intervention	0
+Intervention	Intervention	1
+100 mg/m2 of intravenous (IV) nab paclitaxel weekly (i.e., on Days 1, 8, and 15 of each 3 week treatment cycle) in combination with 600 mg/m2 of IV cyclophosphamide once every 3 weeks for 4 cycles (i.e., a total treatment period of 12 weeks [84 days]). Patients with fluorescence in situ hybridization (FISH) HER2+ or IHC3+ breast cancer will also receive treatment with trastuzumab in addition to the nab paclitaxel / cyclophosphamide combination therapy. Maintenance therapy with trastuzumab will continue (for the HER2+ patients who are receiving trastuzumab) after the 12-week treatment period with combination nab paclitaxel/cyclophosphamide/trastuzumab. The total treatment time for trastuzumab will be 52 weeks rather than only 12 weeks.	Intervention	2
+paclitaxel	CHEBI:45863	34-44
+paclitaxel	CHEBI:45863	406-416
+paclitaxel	CHEBI:45863	619-629
+week	UO:0000034	45-49
+week	UO:0000034	90-94
+week	UO:0000034	178-182
+week	UO:0000034	235-239
+week	UO:0000034	576-580
+week	UO:0000034	712-716
+week	UO:0000034	738-742
+cyclophosphamide	CHEBI:4026	148-164
+cyclophosphamide	CHEBI:4026	419-435
+cyclophosphamide	CHEBI:4026	630-646
+breast cancer	DOID:1612	324-337
+time	PATO:0000165	680-684
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed invasive adenocarcinoma of the breast or inflammatory breast cancer, with an interval between definitive breast surgery and study registration of <60 days.	Eligibility	1
+adenocarcinoma	DOID:299	34-48
+breast	UBERON:0000310	56-62
+breast	UBERON:0000310	79-85
+breast	UBERON:0000310	130-136
+breast cancer	DOID:1612	79-92
+surgery	OAE:0000067	137-144
+Definitive surgical treatment must be either mastectomy or breast-conserving therapy with axillary lymph node dissection for operable breast cancer (pT1 4 [including inflammatory breast cancer], pN0 3, and M0). Margins of resected specimen from definitive surgery must be histologically free of invasive adenocarcinoma and ductal carcinoma in situ (DCIS). Lobular carcinoma in-situ does not count as a positive margin.	Eligibility	2
+lymph	UBERON:0002391	99-104
+breast cancer	DOID:1612	134-147
+breast cancer	DOID:1612	179-192
+surgery	OAE:0000067	256-263
+adenocarcinoma	DOID:299	304-318
+ductal carcinoma in situ	HP:0030075,DOID:0060074	323-347
+carcinoma	HP:0030731,DOID:305	309-318
+carcinoma	HP:0030731,DOID:305	330-339
+carcinoma	HP:0030731,DOID:305	364-373
+Patients with 1 axillary lymph node containing metastatic adenocarcinoma measuring >0.2 mm, OR lymph node-negative patients with high-risk features	Eligibility	3
+lymph	UBERON:0002391	25-30
+lymph	UBERON:0002391	95-100
+adenocarcinoma	DOID:299	58-72
+Patients with HER2/neu positive or negative tumors (HER2 positivity must be documented by FISH positivity or IHC 3+).	Eligibility	4
+Patients who are to receive trastuzumab must have normal cardiac function (MUGA [cardiac ejection fraction >50%, or greater than or equal to the institutional lower limit of normal], or echocardiogram [ECHO] within institutional normal limits).	Eligibility	5
+function	BAO:0003117,BFO:0000034	65-73
+ejection fraction	CMO:0000180	89-106
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) 2.	Eligibility	6
+group	CHEBI:24433	29-34
+Patients who are either chemotherapy naïve, or who have received prior chemotherapy >5 years ago.	Eligibility	7
+Patients with previous invasive cancers (including breast cancer) eligible only if treated >5 years prior to entering this study, and show no evidence of recurrent disease.	Eligibility	8
+breast cancer	DOID:1612	51-64
+recurrent	HP:0031796	154-163
+disease	DOID:4,OGMS:0000031	164-171
+Adequate bone marrow function	Eligibility	9
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Adequate liver function,	Eligibility	10
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Adequate renal function,	Eligibility	11
+function	BAO:0003117,BFO:0000034	15-23
+Patients of childbearing potential must use an effective method of contraception that is acceptable to their study physician from the time of signing informed consent until at least 3 months after the last dose of protocol treatment, and must have a negative pre study serum pregnancy test.	Eligibility	12
+time	PATO:0000165	134-138
+Pre-existing peripheral neuropathy must be less than or equal to grade 1 by National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) v3.0 criteria.	Eligibility	13
+peripheral neuropathy	HP:0009830,DOID:870	13-34
+cancer	DOID:162	85-91
+MammoSite® brachytherapy radiation accepted when performed immediately following surgery and prior to receiving chemotherapy.	Eligibility	14
+surgery	OAE:0000067	81-88
+Patients with bilateral, synchronous breast cancer, provided that one primary tumor meets the inclusion criteria.	Eligibility	15
+bilateral	HP:0012832	14-23
+breast cancer	DOID:1612	37-50
+Exclusion Criteria:	Eligibility	16
+Patients who are pregnant or breastfeeding.	Eligibility	17
+M1 metastatic disease.	Eligibility	18
+m1	CHEBI:34826	0-2
+disease	DOID:4,OGMS:0000031	14-21
+Patients requiring neoadjuvant chemotherapy.	Eligibility	19
+Life expectancy of greater than 6 months.	Eligibility	20
+History of cardiac disease, with a New York Heart Association (NYHA) Class II or greater CHF	Eligibility	21
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	19-26
+heart	UBERON:0000948	44-49
+Myocardial infarction (MI) or unstable angina in the past 12 months prior to Day 1 of treatment, serious arrhythmias requiring medication for treatment, any history of stroke or transient ischemic attack at any time, clinically significant peripheral vascular disease, or evidence of a bleeding diathesis or coagulopathy.	Eligibility	22
+myocardial infarction	HP:0001658,DOID:5844	0-21
+day	UO:0000033	77-80
+history	BFO:0000182	157-164
+stroke	HP:0001297,DOID:6713	168-174
+transient ischemic attack	HP:0002326,DOID:224	178-203
+time	PATO:0000165	211-215
+peripheral vascular disease	DOID:341	240-267
+Any investigational agent within 30 days of receiving the first dose of study drug.	Eligibility	23
+drug	CHEBI:23888	78-82
+Treatment with prior trastuzumab or bevacizumab therapy.	Eligibility	24
+Concurrent treatment with any other anti-cancer therapy is not permitted.	Eligibility	25
+History of significant psychiatric disorders.	Eligibility	26
+history	BFO:0000182	0-7
+History of active, uncontrolled infection.	Eligibility	27
+history	BFO:0000182	0-7
+active	PATO:0002354	11-17
+A serious, non-healing wound, ulcer, or bone fracture.	Eligibility	28
+ulcer	OAE:0004372	30-35
+bone fracture	HP:0020110	40-53
+Any other diseases, metabolic dysfunction, findings from a physical examination, or clinical laboratory test results that give reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug, that may affect the interpretation of the results or that renders the patient at high risk from treatment complications.	Eligibility	29
+physical examination	OAE:0004232	59-79
+clinical laboratory test	OAE:0000077	84-108
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	153-160
+condition	PDRO:0000129	164-173
+drug	CHEBI:23888	225-229
+patient	HADO:0000008,OAE:0001817	301-308
+Outcome Measurement:	Results	0
+Number of Participants Who Remained Alive Without Evidence of Recurrence as a Measure of Tolerability of Adjuvant Nab Paclitaxel	Results	1
+adjuvant	CHEBI:60809	105-113
+paclitaxel	CHEBI:45863	118-128
+[Not Specified]	Results	2
+Time frame: 18 Months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Intervention	Results	5
+Arm/Group Description: 100 mg/m2 of intravenous (IV) nab paclitaxel weekly (i.e., on Days 1, 8, and 15 of each 3 week treatment cycle) in combination with 600 mg/m2 of IV cyclophosphamide once every 3 weeks for 4 cycles (i.e., a total treatment period of 12 weeks [84 days]). Patients with fluorescence in situ hybridization (FISH) HER2+ or IHC3+ breast cancer will also receive treatment with trastuzumab in addition to the nab paclitaxel / cyclophosphamide combination therapy. Maintenance therapy with trastuzumab will continue (for the HER2+ patients who are receiving trastuzumab) after the 12-week treatment period with combination nab paclitaxel/cyclophosphamide/trastuzumab. The total treatment time for trastuzumab will be 52 weeks rather than only 12 weeks.	Results	6
+paclitaxel	CHEBI:45863	57-67
+paclitaxel	CHEBI:45863	429-439
+paclitaxel	CHEBI:45863	642-652
+week	UO:0000034	68-72
+week	UO:0000034	113-117
+week	UO:0000034	201-205
+week	UO:0000034	258-262
+week	UO:0000034	599-603
+week	UO:0000034	735-739
+week	UO:0000034	761-765
+cyclophosphamide	CHEBI:4026	171-187
+cyclophosphamide	CHEBI:4026	442-458
+cyclophosphamide	CHEBI:4026	653-669
+breast cancer	DOID:1612	347-360
+time	PATO:0000165	703-707
+Overall Number of Participants Analyzed: 63	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  63 100.0%	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 4/63 (6.35%)	Adverse Events	1
+Hemorrhage - GI 1/63 (1.59%)	Adverse Events	2
+Vomiting 1/63 (1.59%)	Adverse Events	3
+vomiting	HP:0002013	0-8
+Fracture  [1]1/63 (1.59%)	Adverse Events	4
+Mental Status 1/63 (1.59%)	Adverse Events	5

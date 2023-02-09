@@ -1,0 +1,132 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone + Capecitabine	Intervention	1
+ixabepilone	CHEBI:63605	0-11
+capecitabine	CHEBI:31348	14-26
+Ixabepilone in combination with capecitabine (combination group): Ixabepilone 40 mg/m2 administered as a 3-hour intravenous (IV) infusion on Day 1 of each cycle only, plus oral capecitabine 1000 mg/m2 twice a day (BID) (2000 mg/m2 daily dose) x 14 days, followed by 1 week of rest.	Intervention	2
+ixabepilone	CHEBI:63605	0-11
+ixabepilone	CHEBI:63605	66-77
+capecitabine	CHEBI:31348	32-44
+capecitabine	CHEBI:31348	177-189
+group	CHEBI:24433	58-63
+day	UO:0000033	141-144
+day	UO:0000033	209-212
+day	UO:0000033	248-251
+x	LABO:0000148	1-2
+x	LABO:0000148	67-68
+x	LABO:0000148	243-244
+week	UO:0000034	268-272
+INTERVENTION 2:	Intervention	3
+Capecitabine	Intervention	4
+capecitabine	CHEBI:31348	0-12
+Capecitabine alone: Capecitabine 1250 mg/m2 BID (2500 mg/m2 daily dose) x 14 days, followed by 1 week of rest.	Intervention	5
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	20-32
+x	LABO:0000148	72-73
+week	UO:0000034	97-101
+Patients must have received prior treatment which included both an anthracycline (i.e., doxorubicin or epirubicin) and a taxane (i.e., paclitaxel or docetaxel).	Eligibility	0
+anthracycline	CHEBI:48120	67-80
+doxorubicin	CHEBI:28748,BAO:0000639	88-99
+taxane	CHEBI:36064	121-127
+paclitaxel	CHEBI:45863	135-145
+Patients must have received no more than two prior chemotherapy regimens. Patients who have not received treatment for metastatic disease must have relapsed within one year.	Eligibility	1
+disease	DOID:4,OGMS:0000031	130-137
+year	UO:0000036	168-172
+Patients may not have any history of brain and/or leptomeningeal metastases.	Eligibility	2
+history	BFO:0000182	26-33
+brain	UBERON:0000955	37-42
+Patients may not have Grade 2 or worse neuropathy at the time of study entry.	Eligibility	3
+neuropathy	DOID:870	39-49
+time	PATO:0000165	57-61
+Patients may not have had prior treatment with any epothilones and/or capecitabine (i.e. Xeloda)	Eligibility	4
+capecitabine	CHEBI:31348	70-82
+Outcome Measurement:	Results	0
+Overall Survival (OS)	Results	1
+Overall survival was defined as the time in months from randomization until the date of death. For those patients who had not died, survival duration was censored at the last date the patient was known to be alive. Median OS with 95% CI estimated using the Kaplan-Meier Product Limit Method.	Results	2
+time	PATO:0000165	36-40
+death	OAE:0000632	88-93
+duration	PATO:0001309	141-149
+patient	HADO:0000008,OAE:0001817	105-112
+patient	HADO:0000008,OAE:0001817	184-191
+median	BAO:0002174	215-221
+product	BAO:0003067	270-277
+Time frame: from date of randomization until death	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	45-50
+Results 1:	Results	4
+Arm/Group Title: Ixabepilone + Capecitabine	Results	5
+ixabepilone	CHEBI:63605	17-28
+capecitabine	CHEBI:31348	31-43
+Arm/Group Description: Ixabepilone in combination with capecitabine (combination group): Ixabepilone 40 mg/m2 administered as a 3-hour intravenous (IV) infusion on Day 1 of each cycle only, plus oral capecitabine 1000 mg/m2 twice a day (BID) (2000 mg/m2 daily dose) x 14 days, followed by 1 week of rest.	Results	6
+ixabepilone	CHEBI:63605	23-34
+ixabepilone	CHEBI:63605	89-100
+capecitabine	CHEBI:31348	55-67
+capecitabine	CHEBI:31348	200-212
+group	CHEBI:24433	4-9
+group	CHEBI:24433	81-86
+day	UO:0000033	164-167
+day	UO:0000033	232-235
+day	UO:0000033	271-274
+x	LABO:0000148	24-25
+x	LABO:0000148	90-91
+x	LABO:0000148	266-267
+week	UO:0000034	291-295
+Overall Number of Participants Analyzed: 609	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  16.39        (14.95 to 17.91)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Capecitabine	Results	11
+capecitabine	CHEBI:31348	17-29
+Arm/Group Description: Capecitabine alone: Capecitabine 1250 mg/m2 BID (2500 mg/m2 daily dose) x 14 days, followed by 1 week of rest.	Results	12
+capecitabine	CHEBI:31348	23-35
+capecitabine	CHEBI:31348	43-55
+x	LABO:0000148	95-96
+week	UO:0000034	120-124
+Overall Number of Participants Analyzed: 612	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  15.64        (13.86 to 17.02)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 192/603 (31.84%)	Adverse Events	1
+ANAEMIA 5/603 (0.83%)	Adverse Events	2
+LEUKOPENIA 1/603 (0.17%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 8/603 (1.33%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+LYMPH NODE PAIN 0/603 (0.00%)	Adverse Events	5
+lymph	UBERON:0002391	0-5
+pain	HP:0012531	11-15
+THROMBOCYTOPENIA 3/603 (0.50%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+FEBRILE NEUTROPENIA 5/603 (0.83%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	8-19
+PERICARDITIS 1/603 (0.17%)	Adverse Events	8
+pericarditis	HP:0001701,DOID:1787	0-12
+ANGINA UNSTABLE 0/603 (0.00%)	Adverse Events	9
+CARDIAC FAILURE 0/603 (0.00%)	Adverse Events	10
+SINUS TACHYCARDIA 0/603 (0.00%)	Adverse Events	11
+sinus tachycardia	HP:0011703	0-17
+ATRIAL FIBRILLATION 2/603 (0.33%)	Adverse Events	12
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Adverse Events 2:	Adverse Events	13
+Total: 205/595 (34.45%)	Adverse Events	14
+ANAEMIA 7/595 (1.18%)	Adverse Events	15
+LEUKOPENIA 8/595 (1.34%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 18/595 (3.03%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+LYMPH NODE PAIN 1/595 (0.17%)	Adverse Events	18
+lymph	UBERON:0002391	0-5
+pain	HP:0012531	11-15
+THROMBOCYTOPENIA 4/595 (0.67%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+FEBRILE NEUTROPENIA 34/595 (5.71%)	Adverse Events	20
+neutropenia	HP:0001875,DOID:1227	8-19
+PERICARDITIS 0/595 (0.00%)	Adverse Events	21
+pericarditis	HP:0001701,DOID:1787	0-12
+ANGINA UNSTABLE 1/595 (0.17%)	Adverse Events	22
+CARDIAC FAILURE 1/595 (0.17%)	Adverse Events	23
+SINUS TACHYCARDIA 2/595 (0.34%)	Adverse Events	24
+sinus tachycardia	HP:0011703	0-17
+ATRIAL FIBRILLATION 0/595 (0.00%)	Adverse Events	25
+atrial fibrillation	HP:0005110,DOID:0060224	0-19

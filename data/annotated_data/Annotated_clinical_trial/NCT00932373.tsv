@@ -1,0 +1,142 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab-MCC-DM1 0.3 mg/kg Every 3 Weeks	Intervention	1
+Trastuzumab-MCC-DM1 0.3 mg/kg administered intravenously (IV) once every 3 weeks	Intervention	2
+INTERVENTION 2:	Intervention	3
+Trastuzumab-MCC-DM1 0.6 mg/kg Every 3 Weeks	Intervention	4
+Trastuzumab-MCC-DM1 0.6 mg/kg administered intravenously (IV) once every 3 weeks	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Histologically documented, incurable, locally advanced or metastatic breast cancer	Eligibility	1
+breast cancer	DOID:1612	69-82
+Evaluable or measurable HER2-positive disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	38-45
+History of progression during or within 60 days after treatment with any prior trastuzumab-containing chemotherapy regimen for HER2-positive breast cancer	Eligibility	3
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	141-154
+Previous treatment with chemotherapy for MBC	Eligibility	4
+Granulocyte count  1,500/μL, platelet count  100,000/μL, and hemoglobin  9 g/dL	Eligibility	5
+platelet count	CMO:0000029	29-43
+hemoglobin	CHEBI:35143	61-71
+Serum bilirubin  1.5 mg/dL; AST, ALT, and alkaline phosphatase  2.5 × upper limit of normal (ULN) except for: Patients with hepatic metastases: ALT and AST  5 × ULN Patients with hepatic and/or bone metastases: alkaline phosphatase  5 × ULN	Eligibility	6
+phosphatase	GO:0016791,BAO:0000295	51-62
+phosphatase	GO:0016791,BAO:0000295	220-231
+Serum creatinine  1.5 mg/dL or creatinine clearance of  60 mL/min based on a 24-hour urine collection	Eligibility	7
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	31-41
+creatinine clearance	CMO:0000765	31-51
+urine	UBERON:0001088	85-90
+Eastern Cooperative Oncology Group (ECOG) Performance Status of 0, 1, or 2	Eligibility	8
+group	CHEBI:24433	29-34
+Women of childbearing potential and men must agree to use an effective method of birth control (e.g., hormonal, barrier) while receiving study treatment	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+History of significant cardiac disease, unstable angina, CHF, myocardial infarction, or ventricular arrhythmia requiring medication	Eligibility	11
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	31-38
+myocardial infarction	HP:0001658,DOID:5844	62-83
+ventricular arrhythmia	HP:0004308	88-110
+History of Grade  3 hypersensitivity reaction to trastuzumab	Eligibility	12
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	20-36
+History of any toxicity to trastuzumab that resulted in trastuzumab being permanently discontinued	Eligibility	13
+history	BFO:0000182	0-7
+Symptomatic brain metastases or any radiation or surgery for brain metastases within 3 months of first study treatment	Eligibility	14
+brain	UBERON:0000955	12-17
+brain	UBERON:0000955	61-66
+surgery	OAE:0000067	49-56
+Require supplemental oxygen for daily activities	Eligibility	15
+Grade  2 peripheral neuropathy	Eligibility	16
+peripheral neuropathy	HP:0009830,DOID:870	9-30
+Bisphosphonate therapy for symptomatic hypercalcemia	Eligibility	17
+hypercalcemia	HP:0003072,DOID:12678	39-52
+Any chemotherapy, hormonal therapy, radiotherapy, immunotherapy, or biologic therapy for the treatment of breast cancer within 4 weeks of first study treatment	Eligibility	18
+radiotherapy	OAE:0000235	36-48
+breast cancer	DOID:1612	106-119
+Any experimental therapy within 4 weeks of first study treatment	Eligibility	19
+Any major surgical procedure within 4 weeks of first study treatment	Eligibility	20
+History of clinically symptomatic liver disease, including viral or other hepatitis, current or history of alcoholism, or cirrhosis	Eligibility	21
+history	BFO:0000182	0-7
+history	BFO:0000182	96-103
+liver disease	DOID:409	34-47
+hepatitis	HP:0012115,DOID:2237	74-83
+alcoholism	HP:0030955,DOID:0050741	107-117
+cirrhosis	HP:0001394	122-131
+Pregnancy or lactation	Eligibility	22
+lactation	GO:0007595	13-22
+Cardiac troponin I  0.2 ng/mL	Eligibility	23
+Ejection fraction < 50% or below the lower limit of normal determined by echocardiogram or MUGA scan	Eligibility	24
+ejection fraction	CMO:0000180	0-17
+Prior cumulative doxorubicin dose of > 360 mg/m2 or equivalent	Eligibility	25
+doxorubicin	CHEBI:28748,BAO:0000639	17-28
+Outcome Measurement:	Results	0
+Percentage of Participants With Adverse Events (AE), Serious Adverse Events (SAE), AEs With Grade >=3, and AEs Related To Treatment	Results	1
+The time frame for AEs is study treatment initiation until 30 days after last administration of study treatment or at the time of initiation of another anti-cancer therapy, which ever occurs first.	Results	2
+time	PATO:0000165	4-8
+time	PATO:0000165	122-126
+The time frame for SAEs is study treatment initiation until 90 days after last administration of study treatment or at the time of initiation of another anti-cancer therapy, which ever occurs first.	Results	3
+time	PATO:0000165	4-8
+time	PATO:0000165	123-127
+Time frame: Study treatment initiation until 30 or 90 days after last administration of study treatment	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Trastuzumab-MCC-DM1 0.3 mg/kg Every 3 Weeks	Results	6
+Arm/Group Description: Trastuzumab-MCC-DM1 0.3 mg/kg administered intravenously (IV) once every 3 weeks	Results	7
+Overall Number of Participants Analyzed: 3	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  At least 1 AE: 100	Results	10
+AEs with Grade >=3: 33.3	Results	11
+At least 1 SAE: 33.3	Results	12
+AEs related to treatment: 66.7	Results	13
+Results 2:	Results	14
+Arm/Group Title: Trastuzumab-MCC-DM1 0.6 mg/kg Every 3 Weeks	Results	15
+Arm/Group Description: Trastuzumab-MCC-DM1 0.6 mg/kg administered intravenously (IV) once every 3 weeks	Results	16
+Overall Number of Participants Analyzed: 1	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: percentage of participants  At least 1 AE: 100	Results	19
+AEs with Grade >=3: 100	Results	20
+At least 1 SAE: 100	Results	21
+AEs related to treatment: 100	Results	22
+Adverse Events 1:	Adverse Events	0
+Total: 1/3 (33.33%)	Adverse Events	1
+Pain 0/3 (0.00%)	Adverse Events	2
+pain	HP:0012531	0-4
+Cellulitis 0/3 (0.00%)	Adverse Events	3
+cellulitis	HP:0100658,DOID:3488	0-10
+Influenza 0/3 (0.00%)	Adverse Events	4
+influenza	DOID:8469	0-9
+Osteomyelitis 0/3 (0.00%)	Adverse Events	5
+osteomyelitis	HP:0002754,DOID:1019	0-13
+Pneumonia 0/3 (0.00%)	Adverse Events	6
+pneumonia	HP:0002090,DOID:552	0-9
+Humerus Fracture 0/3 (0.00%)	Adverse Events	7
+Brain Oedema 0/3 (0.00%)	Adverse Events	8
+brain	UBERON:0000955	0-5
+Cerebral Haemorrhage 0/3 (0.00%)	Adverse Events	9
+Convulsion 0/3 (0.00%)	Adverse Events	10
+Dysarthria 0/3 (0.00%)	Adverse Events	11
+dysarthria	HP:0001260	0-10
+Hepatic Encephalopathy 0/3 (0.00%)	Adverse Events	12
+hepatic encephalopathy	HP:0002480,DOID:13413	0-22
+Confusional State 0/3 (0.00%)	Adverse Events	13
+Dyspnoea 1/3 (33.33%)	Adverse Events	14
+Adverse Events 2:	Adverse Events	15
+Total: 1/1 (100.00%)	Adverse Events	16
+Pain 0/1 (0.00%)	Adverse Events	17
+pain	HP:0012531	0-4
+Cellulitis 0/1 (0.00%)	Adverse Events	18
+cellulitis	HP:0100658,DOID:3488	0-10
+Influenza 0/1 (0.00%)	Adverse Events	19
+influenza	DOID:8469	0-9
+Osteomyelitis 0/1 (0.00%)	Adverse Events	20
+osteomyelitis	HP:0002754,DOID:1019	0-13
+Pneumonia 0/1 (0.00%)	Adverse Events	21
+pneumonia	HP:0002090,DOID:552	0-9
+Humerus Fracture 0/1 (0.00%)	Adverse Events	22
+Brain Oedema 0/1 (0.00%)	Adverse Events	23
+brain	UBERON:0000955	0-5
+Cerebral Haemorrhage 0/1 (0.00%)	Adverse Events	24
+Convulsion 0/1 (0.00%)	Adverse Events	25
+Dysarthria 0/1 (0.00%)	Adverse Events	26
+dysarthria	HP:0001260	0-10
+Hepatic Encephalopathy 0/1 (0.00%)	Adverse Events	27
+hepatic encephalopathy	HP:0002480,DOID:13413	0-22
+Confusional State 0/1 (0.00%)	Adverse Events	28
+Dyspnoea 0/1 (0.00%)	Adverse Events	29

@@ -1,0 +1,143 @@
+INTERVENTION 1:	Intervention	0
+Cohort 1 (Safety Analysis Set)	Intervention	1
+Subjects received MBV twice weekly by subcutaneous injection at a starting dose of 250 EU (dose level 1), with intrasubject dose escalations for each subsequent administration in the absence of a DLT until the desired pyrogenic effect was observed.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Cohort 2 (Safety Analysis Set)	Intervention	4
+Subjects received MBV twice weekly by intralesional (preferred) or subcutaneous (if intralesional not possible) injection at the fixed dose (60,800 EU [dose level 6]) that was determined to be the pyrogenic dose level in Cohort 1.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed metastatic melanoma, head and neck cancer, transitional cell carcinoma, sarcoma, gastrointestinal stroma tumor (GIST) or prostate cancer.	Eligibility	1
+melanoma	HP:0002861,DOID:1909	36-44
+head and neck cancer	DOID:11934	46-66
+transitional cell carcinoma	DOID:2671	68-95
+sarcoma	HP:0100242,DOID:1115	97-104
+gastrointestinal stroma tumor	HP:0100723	106-135
+prostate cancer	HP:0012125,DOID:10283	146-161
+Tumor expression of NY-ESO-1 by reverse transcriptase and polymerase chain reaction (RT-PCR) analysis, preferably, or immunohistochemistry.	Eligibility	2
+polymerase chain reaction	BAO:0002080	58-83
+immunohistochemistry	BAO:0000415	118-138
+Expected survival of at least 6 months.	Eligibility	3
+Karnofsky performance status  70%.	Eligibility	4
+Fully recovered from surgery.	Eligibility	5
+surgery	OAE:0000067	21-28
+Declined, intolerated or completed standard therapy defined as follows for each tumor entity:	Eligibility	6
+Melanoma - resistance or intolerance to dacarbazine.	Eligibility	7
+melanoma	HP:0002861,DOID:1909	0-8
+dacarbazine	CHEBI:4305	40-51
+Sarcoma - resistance or intolerance to anthracyclines and to one platinum-containing chemotherapy regimen, no indication for irradiation.	Eligibility	8
+sarcoma	HP:0100242,DOID:1115	0-7
+GIST - failure or intolerance of imatinib and sunitinib.	Eligibility	9
+imatinib	CHEBI:45783	33-41
+sunitinib	CHEBI:38940	46-55
+Head and neck cancer - no indication for irradiation, resistance or intolerance to platinum-containing chemotherapy.	Eligibility	10
+head and neck cancer	DOID:11934	0-20
+Transitional cell carcinoma - resistance or intolerance to cisplatin combined with gemcitabine.	Eligibility	11
+transitional cell carcinoma	DOID:2671	0-27
+cisplatin	CHEBI:27899	59-68
+gemcitabine	CHEBI:175901	83-94
+Prostate cancer- failure of antihormonal treatment and resistance or intolerance to docetaxel.	Eligibility	12
+Ovarian carcinoma - failure of standard chemotherapy consisting of a platinum agent combined with a taxane and of an anthracycline.	Eligibility	13
+ovarian carcinoma	HP:0025318,DOID:4001	0-17
+platinum	CHEBI:33364	69-77
+taxane	CHEBI:36064	100-106
+anthracycline	CHEBI:48120	117-130
+Esophageal cancer - failure of standard chemotherapy consisting of a platinum agent.	Eligibility	14
+esophageal cancer	DOID:5041	0-17
+platinum	CHEBI:33364	69-77
+Breast cancer- failure or intolerance of standard first-, second- and third-line chemotherapy consisting of a taxane and anthracycline. No indication or resistance to standard antihormonal treatment. No indication or resistance to human epidermal growth factor receptor (HER)-2-neu targeted therapy. No indication or resistance to irradiation and/or surgery.	Eligibility	15
+breast	UBERON:0000310	0-6
+taxane	CHEBI:36064	110-116
+anthracycline	CHEBI:48120	121-134
+growth factor	BAO:0002024	247-260
+receptor	BAO:0000281	261-269
+surgery	OAE:0000067	350-357
+Within the last 2 weeks prior to study day 1, vital laboratory parameters must have been within the normal range, except for the following laboratory parameters, which must have been within the ranges specified:	Eligibility	16
+day	UO:0000033	39-42
+range	LABO:0000114	107-112
+range	LABO:0000114	194-199
+Absolute neutrophil count (ANC):  1,000/mm3	Eligibility	17
+Platelet count:  75,000/mm3	Eligibility	18
+platelet count	CMO:0000029	0-14
+Alanine aminotransferase (ALT):  5 x upper limit of normal (ULN)	Eligibility	19
+alanine	CHEBI:16449	0-7
+x	LABO:0000148	35-36
+Aspartate aminotransferase (AST):  5 x ULN	Eligibility	20
+aspartate	CHEBI:29995	0-9
+x	LABO:0000148	37-38
+Total bilirubin:  2.5 x ULN	Eligibility	21
+x	LABO:0000148	22-23
+Creatinine:  2 mg/dL	Eligibility	22
+creatinine	CHEBI:16737	0-10
+Age  18 years.	Eligibility	23
+age	PATO:0000011	0-3
+Able and willing to give written informed consent.	Eligibility	24
+Exclusion Criteria:	Eligibility	25
+Clinically significant heart disease (New York Heart Association Class III or IV).	Eligibility	26
+heart disease	DOID:114	23-36
+heart	UBERON:0000948	23-28
+heart	UBERON:0000948	47-52
+Other serious illnesses, e.g., serious infections requiring antibiotics or bleeding disorders.	Eligibility	27
+Subjects with serious intercurrent illness requiring hospitalization.	Eligibility	28
+Known human immunodeficiency virus positivity.	Eligibility	29
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+Chemotherapy, radiation therapy or immunotherapy within 4 weeks prior to first dose of study agent (6 weeks for nitrosoureas).	Eligibility	30
+Known autoimmune disease (rheumatoid arthritis, systemic lupus erythematosus), as these conditions might have interfered with the evaluation of the induced immune response. Subjects with vitiligo or melanoma-associated hypopigmentation were not excluded.	Eligibility	31
+autoimmune disease	DOID:417	6-24
+rheumatoid arthritis	HP:0001370,DOID:7148	26-46
+systemic lupus erythematosus	HP:0002725,DOID:9074	48-76
+immune response	GO:0006955	156-171
+vitiligo	HP:0001045,DOID:12306	187-195
+excluded	HP:0040285	245-253
+Chronic use of immunosuppressive drugs such as systemic corticosteroids.	Eligibility	32
+chronic	HP:0011010	0-7
+Other malignancy within 3 years prior to entry into the study, except for treated non-melanoma skin cancer and cervical carcinoma in situ.	Eligibility	33
+skin cancer	DOID:4159	95-106
+carcinoma	HP:0030731,DOID:305	120-129
+Mental impairment that may have compromised the ability to give informed consent and comply with the requirements of the study.	Eligibility	34
+Lack of availability for immunological and clinical follow-up assessments.	Eligibility	35
+Participation in any other clinical trial involving another investigational agent within 4 weeks prior to first dosing of study agent.	Eligibility	36
+Pregnancy or breastfeeding.	Eligibility	37
+Women of childbearing potential: Refusal or inability to use effective means of contraception.	Eligibility	38
+Outcome Measurement:	Results	0
+Number of Participants With Treatment-emergent Adverse Events (TEAEs)	Results	1
+Analysis of treatment-emergent adverse events (TEAEs) reported from clinical laboratory tests, physical examinations, and vital signs from pre-treatment through 4 weeks after the last dose of study treatment.	Results	2
+Time frame: Up to 3 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cohort 1 (Safety Analysis Set)	Results	5
+Arm/Group Description: Subjects received MBV twice weekly by subcutaneous injection at a starting dose of 250 EU (dose level 1), with intrasubject dose escalations for each subsequent administration in the absence of a DLT until the desired pyrogenic effect was observed.	Results	6
+Overall Number of Participants Analyzed: 13	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Any TEAE: 13	Results	9
+Grade 3 TEAE: 3	Results	10
+Grade 4 TEAE: 0	Results	11
+Grade 5 TEAE (Death): 1	Results	12
+death	OAE:0000632	14-19
+Treatment-related TEAE: 9	Results	13
+SAE: 1	Results	14
+TEAE leading to withdrawal: 0	Results	15
+Results 2:	Results	16
+Arm/Group Title: Cohort 2 (Safety Analysis Set)	Results	17
+Arm/Group Description: Subjects received MBV twice weekly by intralesional (preferred) or subcutaneous (if intralesional not possible) injection at the fixed dose (60,800 EU [dose level 6]) that was determined to be the pyrogenic dose level in Cohort 1.	Results	18
+Overall Number of Participants Analyzed: 4	Results	19
+Measure Type: Number	Results	20
+Unit of Measure: participants  Any TEAE: 4	Results	21
+Grade 3 TEAE: 2	Results	22
+Grade 4 TEAE: 0	Results	23
+Grade 5 TEAE (Death): 0	Results	24
+death	OAE:0000632	14-19
+Treatment-related TEAE: 3	Results	25
+SAE: 1	Results	26
+TEAE leading to withdrawal: 0	Results	27
+Adverse Events 1:	Adverse Events	0
+Total: 1/13 (7.69%)	Adverse Events	1
+Rapid disease progression  [1]1/13 (7.69%)	Adverse Events	2
+disease	DOID:4,OGMS:0000031	6-13
+Increased pleural effusion  [2]0/13 (0.00%)	Adverse Events	3
+pleural effusion	HP:0002202	10-26
+Adverse Events 2:	Adverse Events	4
+Total: 1/4 (25.00%)	Adverse Events	5
+Rapid disease progression  [1]0/4 (0.00%)	Adverse Events	6
+disease	DOID:4,OGMS:0000031	6-13
+Increased pleural effusion  [2]1/4 (25.00%)	Adverse Events	7
+pleural effusion	HP:0002202	10-26

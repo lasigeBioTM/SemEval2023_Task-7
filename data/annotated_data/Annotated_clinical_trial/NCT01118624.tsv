@@ -1,0 +1,122 @@
+INTERVENTION 1:	Intervention	0
+Pralatrexate	Intervention	1
+pralatrexate	CHEBI:71223	0-12
+Study drug 190 mg/m^2 for 2 to 4 weeks.	Intervention	2
+drug	CHEBI:23888	6-10
+Inclusion Criteria:	Eligibility	0
+HER-2 negative advanced or metastatic breast cancer	Eligibility	1
+breast cancer	DOID:1612	38-51
+Disease has become worse after at least 1 prior chemotherapy regimen for advanced or metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	0-7
+disease	DOID:4,OGMS:0000031	96-103
+Advanced or metastatic disease resistant to both a taxane and an anthracycline-containing chemotherapy regimen, or resistant to taxanes and for whom further anthracycline therapy is not indicated	Eligibility	3
+disease	DOID:4,OGMS:0000031	23-30
+taxane	CHEBI:36064	51-57
+taxane	CHEBI:36064	128-134
+anthracycline	CHEBI:48120	65-78
+anthracycline	CHEBI:48120	157-170
+Patients with controlled brain metastases must have finished receiving radiation therapy and if on corticosteroids, be on a stable or tapering dose of  10 mg/day of prednisone or equivalent for at least 28 days prior to study entry	Eligibility	4
+brain	UBERON:0000955	25-30
+stable	HP:0031915	124-130
+prednisone	CHEBI:8382	165-175
+Measurable disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+Female 18 years of age or older	Eligibility	6
+female	PATO:0000383	0-6
+age	PATO:0000011	19-22
+Performance status less than or equal to 2	Eligibility	7
+Life expectancy of more than 3 months	Eligibility	8
+Blood, liver and kidney laboratory test results that meet protocol requirements	Eligibility	9
+blood	UBERON:0000178	0-5
+liver	UBERON:0002107	7-12
+kidney	UBERON:0002113	17-23
+laboratory test	OGMS:0000056	24-39
+Patients must have a negative serum pregnancy test within 14 days before enrollment and agree to use medically acceptable and effective birth control from enrollment until at least 30 days after the last dose of pralatrexate. Patients who are postmenopausal for at least 1 year (more than 12 months since last menses) or are surgically sterilized do not require this test.	Eligibility	10
+pralatrexate	CHEBI:71223	212-224
+year	UO:0000036	273-277
+Willing to attend visits for repeat dosing and follow up	Eligibility	11
+Give written informed consent	Eligibility	12
+Exclusion Criteria:	Eligibility	13
+Patients with only bone metastasis	Eligibility	14
+Patients with a single metastatic site without histological proof that the lesion is metastatic breast cancer	Eligibility	15
+site	BFO:0000029	34-38
+breast cancer	DOID:1612	96-109
+Patients with inflammatory breast cancer	Eligibility	16
+breast cancer	DOID:1612	27-40
+Treatment with systemic chemotherapy, hormone therapy, radiation therapy, or other investigational therapy within 3 weeks (6 weeks for nitrosoureas, mitomycin C) prior to enrollment, except for the following:	Eligibility	17
+hormone	CHEBI:24621	38-45
+mitomycin c	CHEBI:27504	149-160
+Bisphosphonates, if ongoing	Eligibility	18
+Prior treatment with methotrexate	Eligibility	19
+methotrexate	CHEBI:44185	21-33
+Prior treatment with anti-angiogenics within 6 months prior to enrollment	Eligibility	20
+Have received more than 2 prior chemotherapy regimens (more than 3 if one of the treatments was neoadjuvant or adjuvant chemotherapy)	Eligibility	21
+adjuvant	CHEBI:60809	99-107
+adjuvant	CHEBI:60809	111-119
+Have previously received pralatrexate	Eligibility	22
+pralatrexate	CHEBI:71223	25-37
+Have received more than the allowed maximum total dose of anthracycline	Eligibility	23
+anthracycline	CHEBI:48120	58-71
+Prior radiation therapy on more than 30% of bone marrow reserve or prior bone marrow/stem cell transplantation	Eligibility	24
+bone marrow	UBERON:0002371	44-55
+bone marrow	UBERON:0002371	73-84
+Congestive heart failure Class III/IV	Eligibility	25
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Uncontrolled hypertension (high blood pressure)	Eligibility	26
+hypertension	HP:0000822,DOID:10763	13-25
+blood	UBERON:0000178	32-37
+Active infection or any serious medical condition, which would impair the ability of the patient to receive protocol treatment	Eligibility	27
+active	PATO:0002354	0-6
+condition	PDRO:0000129	40-49
+patient	HADO:0000008,OAE:0001817	89-96
+Females who are pregnant or breastfeeding	Eligibility	28
+Major surgery within 14 days of enrollment	Eligibility	29
+surgery	OAE:0000067	6-13
+Another active cancer in addition to advanced or metastatic breast cancer, except well treated in situ cervical cancer and basal cell skin cancer	Eligibility	30
+active	PATO:0002354	8-14
+cancer	DOID:162	15-21
+cancer	DOID:162	67-73
+cancer	DOID:162	112-118
+cancer	DOID:162	139-145
+breast cancer	DOID:1612	60-73
+cervical cancer	DOID:4362	103-118
+skin cancer	DOID:4159	134-145
+Dementia or other altered mental status that would prevent the patient from understanding and giving informed consent or limit her ability to follow the study requirements	Eligibility	31
+dementia	HP:0000726,DOID:1307	0-8
+patient	HADO:0000008,OAE:0001817	63-70
+Patients who are human immunodeficiency virus (HIV)-positive and have a CD4 count of less than 100 mm3 or detectable viral load within past 3 months and is receiving anti-retroviral therapy	Eligibility	32
+immunodeficiency	HP:0002721	23-39
+virus	BAO:0000232	40-45
+Patients with hepatitis B virus (HBV) or hepatitis C virus (HCV) who have a detectable viral load or immunological evidence of chronic active disease or receiving/requiring antiviral therapy	Eligibility	33
+hepatitis b	DOID:2043	14-25
+virus	BAO:0000232	26-31
+virus	BAO:0000232	53-58
+hepatitis c	DOID:1883	41-52
+chronic	HP:0011010	127-134
+active	PATO:0002354	135-141
+disease	DOID:4,OGMS:0000031	142-149
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR)	Results	1
+rate	BAO:0080019	19-23
+Tumor response evaluation was performed using RECIST 1.0 using CT/MRI. Proportion of patients achieving a CR or PR is considered in the overall response.	Results	2
+Time frame: Assessed at the end of each even-numbered cycle (every 8 weeks), or per standard of care but no less than 4 weeks and nor more than every 12 weeks (+/- 1 week) if treatment has ended.	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	69-73
+week	UO:0000034	120-124
+week	UO:0000034	153-157
+week	UO:0000034	166-170
+Results 1:	Results	4
+Arm/Group Title: Pralatrexate	Results	5
+pralatrexate	CHEBI:71223	17-29
+Arm/Group Description: Study drug 190 mg/m^2 for 2 to 4 weeks.	Results	6
+drug	CHEBI:23888	29-33
+Overall Number of Participants Analyzed: 22	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  1	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 6/22 (27.27%)	Adverse Events	1
+THROMBOCYTOPENIA 2/22 (9.09%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+MUCOSAL INFLAMMATION 2/22 (9.09%)	Adverse Events	3
+PLEURAL EFFUSION 2/22 (9.09%)	Adverse Events	4
+pleural effusion	HP:0002202	0-16

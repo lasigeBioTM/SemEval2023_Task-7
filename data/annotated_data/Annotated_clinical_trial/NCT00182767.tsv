@@ -1,0 +1,173 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone 24mg/m2 and Doxorubicin 30mg/m2: Level 1	Intervention	1
+ixabepilone	CHEBI:63605	0-11
+doxorubicin	CHEBI:28748,BAO:0000639	24-35
+Ixabepilone IV over 3 hours and pegylated liposomal doxorubicin hydrochloride IV over 30-60 minutes on day 1 every 21 days	Intervention	2
+ixabepilone	CHEBI:63605	0-11
+doxorubicin hydrochloride	CHEBI:31522	52-77
+day	UO:0000033	103-106
+day	UO:0000033	118-121
+ixabepilone: Given IV	Intervention	3
+ixabepilone	CHEBI:63605	0-11
+pegylated liposomal doxorubicin hydrochloride: Given IV	Intervention	4
+doxorubicin hydrochloride	CHEBI:31522	20-45
+INTERVENTION 2:	Intervention	5
+Ixabepilone 32mg/m2 and Doxorubicin 30mg/m2: Level 2	Intervention	6
+ixabepilone	CHEBI:63605	0-11
+doxorubicin	CHEBI:28748,BAO:0000639	24-35
+Ixabepilone IV over 3 hours and pegylated liposomal doxorubicin hydrochloride IV over 30-60 minutes on day 1 every 21 days	Intervention	7
+ixabepilone	CHEBI:63605	0-11
+doxorubicin hydrochloride	CHEBI:31522	52-77
+day	UO:0000033	103-106
+day	UO:0000033	118-121
+ixabepilone: Given IV	Intervention	8
+ixabepilone	CHEBI:63605	0-11
+pegylated liposomal doxorubicin hydrochloride: Given IV	Intervention	9
+doxorubicin hydrochloride	CHEBI:31522	20-45
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed diagnosis of 1 of the following: advanced ovarian epithelial, primary peritoneal cavity, or fallopian tube cancer (phase I and II) or metastatic breast cancer (phase I only).	Eligibility	1
+peritoneal cavity	UBERON:0001179	112-129
+fallopian tube cancer	DOID:1964	134-155
+breast cancer	DOID:1612	187-200
+Platinum- and taxane-resistant disease, defined as a disease-free interval of < 6 months after completion of platinum- and taxane-based chemotherapy. Disease progression during the regimen (phase II) or previously treated with >= 2 prior regimens for metastatic breast cancer, including 1 taxane-based regimen in the adjuvant or metastatic setting (phase I).	Eligibility	2
+disease	DOID:4,OGMS:0000031	31-38
+disease	DOID:4,OGMS:0000031	53-60
+disease	DOID:4,OGMS:0000031	150-157
+breast cancer	DOID:1612	262-275
+adjuvant	CHEBI:60809	317-325
+Meets 1 of the following criteria: Previously treated with a standard course of taxane- and platinum-based chemotherapy for ovarian epithelial, primary peritoneal cavity, or fallopian tube cancer, that is platinum-refractory or -sensitive disease (phase I );	Eligibility	3
+peritoneal cavity	UBERON:0001179	152-169
+fallopian tube cancer	DOID:1964	174-195
+disease	DOID:4,OGMS:0000031	239-246
+Measurable or evaluable disease, meeting 1 of the following criteria: unidimensionally measurable lesion, known disease and CA 125 > 50 U/mL on 2 occasions >= 1 week apart or known disease and CA 27-29, CA 15-3, or CA 125 > 50 U/mL on 2 occasions >= 1 week apart (for breast cancer patients)	Eligibility	4
+disease	DOID:4,OGMS:0000031	24-31
+disease	DOID:4,OGMS:0000031	112-119
+disease	DOID:4,OGMS:0000031	181-188
+week	UO:0000034	161-165
+week	UO:0000034	252-256
+breast cancer	DOID:1612	268-281
+ECOG 0-2 or Karnofsky 60-100%	Eligibility	5
+At least 3 weeks since prior chemotherapy (6 weeks for nitrosoureas or mitomycin) and recovered.	Eligibility	6
+mitomycin	CHEBI:25357	71-80
+At least 1 week since prior chemotherapy if given on a daily or weekly schedule and recovered.	Eligibility	7
+week	UO:0000034	11-15
+week	UO:0000034	64-68
+At least 3 weeks since prior radiotherapy and recovered.	Eligibility	8
+radiotherapy	OAE:0000235	29-41
+Recovered for more than 4 weeks from all adverse events related to prior agents.	Eligibility	9
+Normal organ function including:	Eligibility	10
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	13-21
+Normal bilirubin	Eligibility	11
+WBC >= 3,000/mm3	Eligibility	12
+Absolute neutrophil count >= 1,500/mm3	Eligibility	13
+Platelet count >= 100,000/mm3	Eligibility	14
+platelet count	CMO:0000029	0-14
+AST and ALT =< 2.5 times upper limit of normal (ULN)	Eligibility	15
+Creatinine =< 1.5 times ULN or Creatinine clearance  60 mL/min	Eligibility	16
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	31-41
+creatinine clearance	CMO:0000765	31-51
+Exclusion criteria:	Eligibility	17
+No other concurrent investigational agents.	Eligibility	18
+No concurrent combination antiretroviral therapy for HIV-positive patients.	Eligibility	19
+No other concurrent anticancer therapy.	Eligibility	20
+Has received a previous chemotherapy regimen for this cancer that included drugs such as docetaxel or paclitaxel.	Eligibility	21
+cancer	DOID:162	54-60
+paclitaxel	CHEBI:45863	102-112
+Life expectancy of more than 3 months	Eligibility	22
+No symptomatic congestive heart failure	Eligibility	23
+congestive heart failure	HP:0001635,DOID:6000	15-39
+No unstable angina pectoris	Eligibility	24
+angina pectoris	HP:0001681	12-27
+No cardiac arrhythmia	Eligibility	25
+arrhythmia	HP:0011675	11-21
+Not pregnant or nursing	Eligibility	26
+Fertile patients must use effective contraception	Eligibility	27
+No history of allergic reaction attributed to compounds of similar chemical or biological composition to Cremophor® or study drugs	Eligibility	28
+history	BFO:0000182	3-10
+No neuropathy >= grade 2	Eligibility	29
+neuropathy	DOID:870	3-13
+No ongoing or active infection	Eligibility	30
+active	PATO:0002354	14-20
+No psychiatric illness or social situation that would preclude study compliance.	Eligibility	31
+No other uncontrolled illness.	Eligibility	32
+No active brain metastases, including any of the following: evidence of cerebral edema by CT scan or MRI, evidence of disease progression on prior imaging studies, requirement for steroids or clinical symptoms of brain metastasis.	Eligibility	33
+active	PATO:0002354	3-9
+brain	UBERON:0000955	10-15
+brain	UBERON:0000955	213-218
+cerebral edema	HP:0002181	72-86
+ct	BAO:0002125	4-6
+ct	BAO:0002125	90-92
+disease	DOID:4,OGMS:0000031	118-125
+Outcome Measurement:	Results	0
+Incidence of Dose-limiting Toxicity (DLT), Graded Using the National Cancer Institute (NCI) Common Toxicity Criteria (CTC) Version 4.0 (Phase I)	Results	1
+cancer	DOID:162	69-75
+Dose-Limiting Toxicities are assessed according to the National Cancer Institute's Common Terminology Criteria for Adverse Events classification and usually encompasses all grade 3 or higher toxicities	Results	2
+cancer	DOID:162	64-70
+Time frame: 28 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ixabepilone 24mg/m2 and Doxorubicin 30mg/m2: Level 1	Results	5
+ixabepilone	CHEBI:63605	17-28
+doxorubicin	CHEBI:28748,BAO:0000639	41-52
+Arm/Group Description: Ixabepilone IV over 3 hours and pegylated liposomal doxorubicin hydrochloride IV over 30-60 minutes on day 1 every 21 days	Results	6
+ixabepilone	CHEBI:63605	23-34
+doxorubicin hydrochloride	CHEBI:31522	75-100
+day	UO:0000033	126-129
+day	UO:0000033	141-144
+ixabepilone: Given IV	Results	7
+ixabepilone	CHEBI:63605	0-11
+pegylated liposomal doxorubicin hydrochloride: Given IV	Results	8
+doxorubicin hydrochloride	CHEBI:31522	20-45
+Overall Number of Participants Analyzed: 6	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: participants  1	Results	11
+Results 2:	Results	12
+Arm/Group Title: Ixabepilone 32mg/m2 and Doxorubicin 30mg/m2: Level 2	Results	13
+ixabepilone	CHEBI:63605	17-28
+doxorubicin	CHEBI:28748,BAO:0000639	41-52
+Arm/Group Description: Ixabepilone IV over 3 hours and pegylated liposomal doxorubicin hydrochloride IV over 30-60 minutes on day 1 every 21 days	Results	14
+ixabepilone	CHEBI:63605	23-34
+doxorubicin hydrochloride	CHEBI:31522	75-100
+day	UO:0000033	126-129
+day	UO:0000033	141-144
+ixabepilone: Given IV	Results	15
+ixabepilone	CHEBI:63605	0-11
+pegylated liposomal doxorubicin hydrochloride: Given IV	Results	16
+doxorubicin hydrochloride	CHEBI:31522	20-45
+Overall Number of Participants Analyzed: 6	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: participants  1	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 6/6 (100.00%)	Adverse Events	1
+Anemia1/6 (16.67%)	Adverse Events	2
+Constipation1/6 (16.67%)	Adverse Events	3
+Mucositis1/6 (16.67%)	Adverse Events	4
+Vomiting0/6 (0.00%)	Adverse Events	5
+Dehydration0/6 (0.00%)	Adverse Events	6
+Abdominal pain0/6 (0.00%)	Adverse Events	7
+Small intestinal obstruction0/6 (0.00%)	Adverse Events	8
+Nausea0/6 (0.00%)	Adverse Events	9
+Ascites0/6 (0.00%)	Adverse Events	10
+Diarrhea0/6 (0.00%)	Adverse Events	11
+Fatigue0/6 (0.00%)	Adverse Events	12
+Death NOS1/6 (16.67%)	Adverse Events	13
+death	OAE:0000632	0-5
+Infection with grade 3 or 4 neutrophils0/6 (0.00%)	Adverse Events	14
+Adverse Events 2:	Adverse Events	15
+Total: 6/6 (100.00%)	Adverse Events	16
+Anemia0/6 (0.00%)	Adverse Events	17
+Constipation0/6 (0.00%)	Adverse Events	18
+Mucositis2/6 (33.33%)	Adverse Events	19
+Vomiting1/6 (16.67%)	Adverse Events	20
+Dehydration1/6 (16.67%)	Adverse Events	21
+Abdominal pain0/6 (0.00%)	Adverse Events	22
+Small intestinal obstruction0/6 (0.00%)	Adverse Events	23
+Nausea0/6 (0.00%)	Adverse Events	24
+Ascites0/6 (0.00%)	Adverse Events	25
+Diarrhea0/6 (0.00%)	Adverse Events	26
+Fatigue0/6 (0.00%)	Adverse Events	27
+Death NOS0/6 (0.00%)	Adverse Events	28
+death	OAE:0000632	0-5
+Infection with grade 3 or 4 neutrophils1/6 (16.67%)	Adverse Events	29

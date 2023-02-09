@@ -1,0 +1,212 @@
+INTERVENTION 1:	Intervention	0
+Arm A (Genistein)	Intervention	1
+genistein	CHEBI:74224	7-16
+Patients receive oral genistein once daily for up to 6 months.	Intervention	2
+genistein	CHEBI:74224	22-31
+INTERVENTION 2:	Intervention	3
+Arm B (Placebo)	Intervention	4
+Patients receive oral placebo once daily for up to 6 months.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+No known soy intolerance	Eligibility	1
+At increased risk of developing breast cancer in >= 1 previously unaffected breast, as defined by any of the following:	Eligibility	2
+breast cancer	DOID:1612	32-45
+unaffected	HP:0032321	65-75
+breast	UBERON:0000310	32-38
+breast	UBERON:0000310	76-82
+Estimated 5-year risk of developing breast cancer using the Gail model, as defined by 1 of the following:	Eligibility	3
+breast cancer	DOID:1612	36-49
+Gail score >= 1.66%	Eligibility	4
+Gail score >= 0.1% for women age 20-29 years	Eligibility	5
+age	PATO:0000011	29-32
+Gail score >= 1.0% for women age 30-39 years	Eligibility	6
+age	PATO:0000011	29-32
+Estimated 5-year risk of developing breast cancer using the Claus model:	Eligibility	7
+breast cancer	DOID:1612	36-49
+Claus score >= 1.66%	Eligibility	8
+Claus score >= 0.1% for women age 20-29 years	Eligibility	9
+age	PATO:0000011	30-33
+Claus score >= 1.0% for women age 30-39 years	Eligibility	10
+age	PATO:0000011	30-33
+Prior diagnosis of unilateral in situ or invasive breast cancer OR history of atypical hyperplasia, BRCA 1 and/or BRCA 2 positivity	Eligibility	11
+unilateral	HP:0012833	19-29
+breast cancer	DOID:1612	50-63
+history	BFO:0000182	67-74
+History of lobular carcinoma in situ	Eligibility	12
+history	BFO:0000182	0-7
+lobular carcinoma in situ	HP:0030076,DOID:3010	11-36
+No evidence of breast cancer, as determined by a negative mammogram within the past 6 months and a history and physical	Eligibility	13
+breast cancer	DOID:1612	15-28
+history	BFO:0000182	99-106
+No previously diagnosed breast cancer unless all systemic therapy (including endocrine therapy) was completed at least 1 year ago	Eligibility	14
+breast cancer	DOID:1612	24-37
+year	UO:0000036	121-125
+Pre- or postmenopausal	Eligibility	15
+ECOG performance status 0-1	Eligibility	16
+Hemoglobin > 10.0 g/dL	Eligibility	17
+hemoglobin	CHEBI:35143	0-10
+Platelet count > 100,000/mm^3	Eligibility	18
+platelet count	CMO:0000029	0-14
+Absolute neutrophil count > 1,000/mm^3	Eligibility	19
+Creatinine < 2.0 mg/dL	Eligibility	20
+creatinine	CHEBI:16737	0-10
+SGPT < 82 U/L	Eligibility	21
+SGOT < 68 U/L	Eligibility	22
+Bilirubin < 3 mg/dL* [Note: * Patients with a higher level of bilirubin due to a familial metabolism may be eligible at the discretion of the investigator]	Eligibility	23
+Life expectancy > 2 years	Eligibility	24
+Not pregnant or nursing	Eligibility	25
+Negative pregnancy test	Eligibility	26
+Fertile patients must use effective barrier contraception	Eligibility	27
+Must be willing to keep a dietary diary	Eligibility	28
+No venous thrombosis within the past year	Eligibility	29
+venous thrombosis	HP:0004936	3-20
+year	UO:0000036	37-41
+No unrecognized or poorly controlled thyroid disease	Eligibility	30
+disease	DOID:4,OGMS:0000031	45-52
+No other cancer within the past 5 years except nonmelanomatous skin cancer or noninvasive cervical cancer	Eligibility	31
+cancer	DOID:162	9-15
+cancer	DOID:162	68-74
+cancer	DOID:162	99-105
+skin cancer	DOID:4159	63-74
+cervical cancer	DOID:4362	90-105
+No other medical condition that, in the opinion of the investigator, would jeopardize either the patient or the integrity of the data obtained	Eligibility	32
+condition	PDRO:0000129	17-26
+patient	HADO:0000008,OAE:0001817	97-104
+None of the following for >= 2 weeks before the first random fine needle aspiration and during study participation:	Eligibility	33
+aspiration	HP:0002835	73-83
+Oral contraceptives	Eligibility	34
+Soy supplements	Eligibility	35
+High soy-containing foods	Eligibility	36
+Fish oil supplements	Eligibility	37
+Multivitamins	Eligibility	38
+Vitamins C and E	Eligibility	39
+Daily aspirin or nonsteroidal	Eligibility	40
+Anti-inflammatory drugs	Eligibility	41
+No other concurrent investigational agents	Eligibility	42
+No concurrent warfarin or other blood thinners	Eligibility	43
+warfarin	CHEBI:10033	14-22
+blood	UBERON:0000178	32-37
+Female patient	Eligibility	44
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+Exclusion Criteria:	Eligibility	45
+Women previously diagnosed with breast cancer will not be eligible unless all systemic therapy (including endocrine therapy) was completed at least one year previously	Eligibility	46
+breast cancer	DOID:1612	32-45
+year	UO:0000036	152-156
+Currently pregnant, or planning to become pregnant during the study period	Eligibility	47
+History of venous thrombosis within past year	Eligibility	48
+history	BFO:0000182	0-7
+venous thrombosis	HP:0004936	11-28
+year	UO:0000036	41-45
+Medical conditions, which, in the opinion of the investigators would jeopardize either the patient or the integrity of the data obtained	Eligibility	49
+patient	HADO:0000008,OAE:0001817	91-98
+History of other cancer within the past five years, excluding non-melanomatous skin cancer, and non-invasive cervical cancer	Eligibility	50
+history	BFO:0000182	0-7
+cancer	DOID:162	17-23
+cancer	DOID:162	84-90
+cancer	DOID:162	118-124
+skin cancer	DOID:4159	79-90
+cervical cancer	DOID:4362	109-124
+Known soy intolerance	Eligibility	51
+Unrecognized or uncontrolled thyroid disease, subjects may be on synthroid, but thyroid function must be in normal range or the patient's physician must document that the patient's thyroid is controlled.	Eligibility	52
+disease	DOID:4,OGMS:0000031	37-44
+function	BAO:0003117,BFO:0000034	88-96
+range	LABO:0000114	115-120
+patient	HADO:0000008,OAE:0001817	128-135
+patient	HADO:0000008,OAE:0001817	171-178
+document	IAO:0000310	153-161
+Currently receiving any other investigational agents	Eligibility	53
+Currently on coumadin, or other blood thinners	Eligibility	54
+blood	UBERON:0000178	32-37
+History of breast augmentation implants.	Eligibility	55
+history	BFO:0000182	0-7
+breast	UBERON:0000310	11-17
+Rusults from patients who have <4000 epithelial cells in either the first or the second random Fine-needle aspiration (rFNA) will not be included in the study.	Eligibility	56
+second	UO:0000010	81-87
+aspiration	HP:0002835	107-117
+Outcome Measurement:	Results	0
+Change in Breast Epithelial Cell Proliferation as Measured by Ki-67 Labeling	Results	1
+breast	UBERON:0000310	10-16
+epithelial cell proliferation	GO:0050673	17-46
+Breast epithelial tissue samples are used to measure the expression of the cell proliferation marker Ki-67, by counting the percentage of positive MIB-1 immunostained cells, denoted the Ki-67 labeling index. Mean change in the Ki-67 labeling index is assessed from baseline to 6 month follow up.	Results	2
+breast	UBERON:0000310	0-6
+tissue	UBERON:0000479	18-24
+mean	BAO:0002173	208-212
+month	UO:0000035	279-284
+Time frame: 6 months - baseline	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A (Genistein)	Results	5
+genistein	CHEBI:74224	24-33
+Arm/Group Description: Patients receive oral genistein once daily for up to 6 months.	Results	6
+genistein	CHEBI:74224	45-54
+Overall Number of Participants Analyzed: 49	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Ki-67 labeling index  Postmenopausal with ER- Cancer: 4 participants	Results	9
+cancer	DOID:162	63-69
+.325         (.343)	Results	10
+Postmenopausal with ER+ Cancer: 2 participants	Results	11
+cancer	DOID:162	24-30
+-.418         (.191)	Results	12
+Postmenopausal Without Cancer: 14 participants	Results	13
+cancer	DOID:162	23-29
+-.092         (.525)	Results	14
+Premonopausal with ER- Cancer: 2 participants	Results	15
+cancer	DOID:162	23-29
+-.335         (.930)	Results	16
+Premenopausal with ER+ Cancer: 4 participants	Results	17
+cancer	DOID:162	23-29
+-.387         (.806)	Results	18
+Premenopausal without cancer: 23 participants	Results	19
+cancer	DOID:162	22-28
+1.171         (2.922)	Results	20
+Results 2:	Results	21
+Arm/Group Title: Arm B (Placebo)	Results	22
+Arm/Group Description: Patients receive oral placebo once daily for up to 6 months.	Results	23
+Overall Number of Participants Analyzed: 49	Results	24
+Mean (Standard Deviation)	Results	25
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Ki-67 labeling index  Postmenopausal with ER- Cancer: 2 participants	Results	26
+cancer	DOID:162	63-69
+.289         (.541)	Results	27
+Postmenopausal with ER+ Cancer: 5 participants	Results	28
+cancer	DOID:162	24-30
+-.461         (.458)	Results	29
+Postmenopausal Without Cancer: 15 participants	Results	30
+cancer	DOID:162	23-29
+-.122         (.735)	Results	31
+Premonopausal with ER- Cancer: 2 participants	Results	32
+cancer	DOID:162	23-29
+.873         (.786)	Results	33
+Premenopausal with ER+ Cancer: 4 participants	Results	34
+cancer	DOID:162	23-29
+-.204         (1.329)	Results	35
+Premenopausal without cancer: 21 participants	Results	36
+cancer	DOID:162	22-28
+0.557         (1.546)	Results	37
+Adverse Events 1:	Adverse Events	0
+Total: 6/62 (9.68%)	Adverse Events	1
+Musculoskeletal * 1/62 (1.61%)	Adverse Events	2
+Mood Alteration: Depression * 1/62 (1.61%)	Adverse Events	3
+depression	HP:0000716	17-27
+renal - Other * 1/62 (1.61%)	Adverse Events	4
+Obstruction, GU: Uterus * 1/62 (1.61%)	Adverse Events	5
+uterus	UBERON:0000995	17-23
+Sexual * 0/62 (0.00%)	Adverse Events	6
+Pulmonary/Upper Respiratory: Dyspnea * 1/62 (1.61%)	Adverse Events	7
+dyspnea	HP:0002094	29-36
+Ulceration * 1/62 (1.61%)	Adverse Events	8
+Adverse Events 2:	Adverse Events	9
+Total: 1/64 (1.56%)	Adverse Events	10
+Musculoskeletal * 0/64 (0.00%)	Adverse Events	11
+Mood Alteration: Depression * 0/64 (0.00%)	Adverse Events	12
+depression	HP:0000716	17-27
+renal - Other * 0/64 (0.00%)	Adverse Events	13
+Obstruction, GU: Uterus * 0/64 (0.00%)	Adverse Events	14
+uterus	UBERON:0000995	17-23
+Sexual * 1/64 (1.56%)	Adverse Events	15
+Pulmonary/Upper Respiratory: Dyspnea * 0/64 (0.00%)	Adverse Events	16
+dyspnea	HP:0002094	29-36
+Ulceration * 0/64 (0.00%)	Adverse Events	17

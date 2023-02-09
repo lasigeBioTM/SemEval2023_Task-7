@@ -1,0 +1,288 @@
+INTERVENTION 1:	Intervention	0
+Doxorubicin + Cyclophosphamide Followed by Docetaxel (AC -> T)	Intervention	1
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	14-30
+t	CHEBI:36371,BAO:0001260	47-48
+t	CHEBI:36371,BAO:0001260	60-61
+AC x 4: Doxorubicin 60 mg/m² as an IV bolus in combination with cyclophosphamide 600 mg/m² as IV followed by docetaxel 100 mg/m² as 1 hour IV infusion on day 1 every 3 weeks for 4 cycles.	Intervention	2
+x	LABO:0000148	3-4
+x	LABO:0000148	10-11
+x	LABO:0000148	115-116
+doxorubicin	CHEBI:28748,BAO:0000639	8-19
+cyclophosphamide	CHEBI:4026	64-80
+hour	UO:0000032	134-138
+day	UO:0000033	154-157
+INTERVENTION 2:	Intervention	3
+Docetaxel + Doxorubicin and Cyclophosphamide (TAC)	Intervention	4
+doxorubicin	CHEBI:28748,BAO:0000639	12-23
+cyclophosphamide	CHEBI:4026	28-44
+TAC x 6 : Docetaxel 75 mg/m² as 1 hour IV infusion on day 1 every 3 weeks in combination with doxorubicin 50 mg/m² as an IV bolus and cyclophosphamide 500 mg/m2 as IV on day 1 every 3 weeks. Sequence of administration is as follows: doxorubicin followed by cyclophosphamide followed by docetaxel.	Intervention	5
+x	LABO:0000148	4-5
+x	LABO:0000148	16-17
+x	LABO:0000148	96-97
+x	LABO:0000148	235-236
+x	LABO:0000148	292-293
+hour	UO:0000032	34-38
+day	UO:0000033	54-57
+day	UO:0000033	170-173
+doxorubicin	CHEBI:28748,BAO:0000639	94-105
+doxorubicin	CHEBI:28748,BAO:0000639	233-244
+cyclophosphamide	CHEBI:4026	134-150
+cyclophosphamide	CHEBI:4026	257-273
+Inclusion Criteria :	Eligibility	0
+Histologically proven breast cancer. Interval between definitive surgery that includes axillary lymph node dissection and registration is less than or equal to 60 days. A central pathology review may be performed post randomization for confirmation of diagnosis and molecular studies.	Eligibility	1
+breast cancer	DOID:1612	22-35
+surgery	OAE:0000067	65-72
+lymph	UBERON:0002391	96-101
+central	HP:0030645	171-178
+Definitive surgical treatment must be either mastectomy, or breast conserving surgery with axillary lymph node dissection for operable breast cancer (T1-3, Clinical N0-1, M0). Margins of resected specimen from definitive surgery must be histologically free of invasive adenocarcinoma and Ductal Carcinoma In Situ (DCIS). Lobular carcinoma in-situ does not count as a positive margin.	Eligibility	2
+breast	UBERON:0000310	60-66
+breast	UBERON:0000310	135-141
+surgery	OAE:0000067	78-85
+surgery	OAE:0000067	221-228
+lymph	UBERON:0002391	100-105
+breast cancer	DOID:1612	135-148
+adenocarcinoma	DOID:299	269-283
+ductal carcinoma in situ	HP:0030075,DOID:0060074	288-312
+carcinoma	HP:0030731,DOID:305	274-283
+carcinoma	HP:0030731,DOID:305	295-304
+carcinoma	HP:0030731,DOID:305	329-338
+Histologic examination of the tumor: Invasive adenocarcinoma with at least one axillary lymph node (pN1) showing evidence of tumor among a minimum of six resected lymph nodes.	Eligibility	3
+adenocarcinoma	DOID:299	46-60
+lymph	UBERON:0002391	88-93
+lymph	UBERON:0002391	163-168
+Tumor must show negative HER2 neu proto-oncogene overexpression by FISH (Fluorescence In Situ Hybridization). Confirmation of non overexpression will be centrally assessed by authorized BCIRG (Breast Cancer International Research Group) laboratories prior to randomization.	Eligibility	4
+breast cancer	DOID:1612	193-206
+group	CHEBI:24433	230-235
+Estrogen and/or progesterone receptor analysis performed on the primary tumor prior to randomization. Results must be known at the time of randomization.(Note: Patients whose tumor is estrogen receptor negative with progesterone receptor status unknown or undetermined, must have the progesterone receptor assayed in order to determine hormonal receptor status. Patients whose tumor is progesterone receptor negative with estrogen receptor status unknown or undetermined, must have the estrogen receptor assayed in order to determine hormonal receptor status).	Eligibility	5
+estrogen	CHEBI:50114,BAO:0000760	0-8
+estrogen	CHEBI:50114,BAO:0000760	184-192
+estrogen	CHEBI:50114,BAO:0000760	422-430
+estrogen	CHEBI:50114,BAO:0000760	486-494
+progesterone	CHEBI:17026	16-28
+progesterone	CHEBI:17026	216-228
+progesterone	CHEBI:17026	284-296
+progesterone	CHEBI:17026	386-398
+receptor	BAO:0000281	29-37
+receptor	BAO:0000281	193-201
+receptor	BAO:0000281	229-237
+receptor	BAO:0000281	297-305
+receptor	BAO:0000281	345-353
+receptor	BAO:0000281	399-407
+receptor	BAO:0000281	431-439
+receptor	BAO:0000281	495-503
+receptor	BAO:0000281	543-551
+time	PATO:0000165	131-135
+Karnofsky Performance status index > 80%.	Eligibility	6
+Normal cardiac function must be confirmed by LVEF (Lef Ventricular Ejection Fraction) i.e. MUGA (Multi Gated Acquisition) scan or echocardiography and ECG within 3 months prior to registration. LVEF result must be above or equal to the lower limit of normal for the institution. The ECG results must be within normal limits or show no significant abnormalities.	Eligibility	7
+function	BAO:0003117,BFO:0000034	15-23
+ejection fraction	CMO:0000180	67-84
+result	BAO:0000179	199-205
+result	BAO:0000179	287-293
+Laboratory requirements: (within 14 days prior to registration)	Eligibility	8
+Hematology:	Eligibility	9
+Neutrophils > or = 2.0 x 10^9/L	Eligibility	10
+x	LABO:0000148	23-24
+Platelets > or = 100 x 10^9/L	Eligibility	11
+x	LABO:0000148	21-22
+Hemoglobin > or = 10 g/dL	Eligibility	12
+hemoglobin	CHEBI:35143	0-10
+Hepatic function:	Eligibility	13
+function	BAO:0003117,BFO:0000034	8-16
+Total bilirubin < or = 1 UNL (Upper Normal Limit)	Eligibility	14
+ASAT (Aspartate Amino Transferase) and ALAT (Alanine Amino Transferase) < or = 2.5 UNL	Eligibility	15
+aspartate	CHEBI:29995	6-15
+transferase	BAO:0000292	22-33
+transferase	BAO:0000292	59-70
+alanine	CHEBI:16449	45-52
+Alkaline phosphatase < or = 5 UNL	Eligibility	16
+phosphatase	GO:0016791,BAO:0000295	9-20
+Patients with ASAT and/or ALAT > 1.5 x UNL associated with alkaline phosphatase > 2.5 x UNL are not eligible for the study.	Eligibility	17
+x	LABO:0000148	37-38
+x	LABO:0000148	86-87
+phosphatase	GO:0016791,BAO:0000295	68-79
+Renal function:	Eligibility	18
+function	BAO:0003117,BFO:0000034	6-14
+Creatinine < or = 175 µmol/L (2 mg/dL);	Eligibility	19
+creatinine	CHEBI:16737	0-10
+If limit reached, the calculated creatinine clearance should be > or = 60mL/min.	Eligibility	20
+creatinine clearance	CMO:0000765	33-53
+Complete staging work-up within 3 months prior to registration. All patients will have contralateral mammography, chest X-ray (Posteroanterior and lateral) and/or CT scan and/or MRI (Magnetic Resonance Imaging), abdominal ultrasound and/or CT scan (computerized tomography) and/or MRI, and bone scan. In case of positive bone scan, bone X-ray is mandatory to rule out the possibility of non-metastatic hot spots. Other tests may be performed as clinically indicated.	Eligibility	21
+chest	UBERON:0001443	114-119
+lateral	HP:0025275	93-100
+lateral	HP:0025275	147-154
+ct	BAO:0002125	163-165
+ct	BAO:0002125	240-242
+tomography	BAO:0002525	262-272
+Negative pregnancy test (urine or serum) within 7 days prior to registration for all women of childbearing potential.	Eligibility	22
+urine	UBERON:0001088	25-30
+Exclusion Criteria :	Eligibility	23
+Prior systemic anticancer therapy for breast cancer (immunotherapy, hormonotherapy, genetherapy , chemotherapy).	Eligibility	24
+breast cancer	DOID:1612	38-51
+Prior anthracycline therapy or taxoids (paclitaxel, docetaxel) for any malignancy.	Eligibility	25
+anthracycline	CHEBI:48120	6-19
+paclitaxel	CHEBI:45863	40-50
+Prior radiation therapy for breast cancer.	Eligibility	26
+breast cancer	DOID:1612	28-41
+Bilateral invasive breast cancer.	Eligibility	27
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	19-32
+Pregnant, or lactating patients. Patients of childbearing potential must implement adequate non-hormonal contraceptive measures during study treatment (chemotherapy and tamoxifen therapy) and must have negative urine or serum pregnancy test within 7 days prior to registration.	Eligibility	28
+tamoxifen	CHEBI:41774	169-178
+urine	UBERON:0001088	211-216
+Any T4 or N2 or known N3 or M1 breast cancer.	Eligibility	29
+m1	CHEBI:34826	28-30
+breast cancer	DOID:1612	31-44
+Pre-existing motor or sensory neurotoxicity of a severity > grade 2 by NCI-CTC (National Cancer Institute - Common Toxicity Criteria), version 2.0.	Eligibility	30
+severity	HP:0012824	49-57
+cancer	DOID:162	89-95
+Other serious illness or medical condition:	Eligibility	31
+condition	PDRO:0000129	33-42
+congestive heart failure or unstable angina pectoris, previous history of myocardial infarction within 1 year from study entry, uncontrolled hypertension or high-risk uncontrolled arrhythmias	Eligibility	32
+congestive heart failure	HP:0001635,DOID:6000	0-24
+angina pectoris	HP:0001681	37-52
+history	BFO:0000182	63-70
+myocardial infarction	HP:0001658,DOID:5844	74-95
+year	UO:0000036	105-109
+hypertension	HP:0000822,DOID:10763	141-153
+history of significant neurologic or psychiatric disorders including psychotic disorders, dementia or seizures that would prohibit the understanding and giving of informed consent	Eligibility	33
+history	BFO:0000182	0-7
+dementia	HP:0000726,DOID:1307	90-98
+active uncontrolled infection	Eligibility	34
+active	PATO:0002354	0-6
+active peptic ulcer, unstable diabetes mellitus	Eligibility	35
+active	PATO:0002354	0-6
+peptic ulcer	HP:0004398	7-19
+diabetes mellitus	HP:0000819,DOID:9351	30-47
+Past or current history of neoplasm other than breast carcinoma, except for:	Eligibility	36
+history	BFO:0000182	16-23
+neoplasm	HP:0002664,DOID:14566	27-35
+breast carcinoma	HP:0003002,DOID:3459	47-63
+curatively treated non-melanoma skin cancer	Eligibility	37
+skin cancer	DOID:4159	32-43
+carcinoma in situ of the cervix	Eligibility	38
+carcinoma	HP:0030731,DOID:305	0-9
+other cancer curatively treated and with no evidence of disease for at least 10 years	Eligibility	39
+cancer	DOID:162	6-12
+disease	DOID:4,OGMS:0000031	56-63
+ipsilateral ductal carcinoma in-situ (DCIS) of the breast	Eligibility	40
+carcinoma	HP:0030731,DOID:305	19-28
+breast	UBERON:0000310	51-57
+lobular carcinoma in-situ (LCIS) of the breast	Eligibility	41
+carcinoma	HP:0030731,DOID:305	8-17
+breast	UBERON:0000310	40-46
+Chronic treatment with corticosteroids unless initiated > 6 months prior to study entry and at low dose (< 20 mg methylprednisolone or equivalent).	Eligibility	42
+chronic	HP:0011010	0-7
+Concurrent treatment with ovarian hormonal replacement therapy. Prior treatment should be stopped before study entry.	Eligibility	43
+Definite contraindications for the use of corticosteroids.	Eligibility	44
+Concurrent treatment with other experimental drugs. Participation in another clinical trial with any investigational not marketed drug within 30 days prior to study entry.	Eligibility	45
+drug	CHEBI:23888	45-49
+drug	CHEBI:23888	130-134
+Concurrent treatment with any other anti-cancer therapy.	Eligibility	46
+Current therapy with any hormonal agent such as raloxifene, tamoxifen or other selective estrogen receptor modulators (SERMs), either for osteoporosis or prevention. Patients must have discontinued these agents prior to randomization.	Eligibility	47
+raloxifene	CHEBI:8772	48-58
+tamoxifen	CHEBI:41774	60-69
+estrogen	CHEBI:50114,BAO:0000760	89-97
+receptor	BAO:0000281	98-106
+osteoporosis	HP:0000939,DOID:11476	138-150
+The above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial.	Eligibility	48
+patient	HADO:0000008,OAE:0001817	82-89
+Outcome Measurement:	Results	0
+Local, Regional or Metastatic Relapse, or Second Primary Cancer, or Death From Any Cause (Disease-Free Survival)	Results	1
+second	UO:0000010	42-48
+cancer	DOID:162	57-63
+death	OAE:0000632	68-73
+The primary event is the local, regional or metastatic relapse or the date of second primary cancer or death from any cause (whichever occurs first). The primary efficacy analysis is performed on the time from randomization to this primary event. The Measured Values table below presents the numbers of patients with the event at the end of the study period.	Results	2
+second	UO:0000010	78-84
+cancer	DOID:162	93-99
+death	OAE:0000632	103-108
+efficacy	BAO:0000656	162-170
+time	PATO:0000165	200-204
+Time frame: Median follow-up 65 months	Results	3
+time	PATO:0000165	0-4
+median	BAO:0002174	12-18
+Results 1:	Results	4
+Arm/Group Title: Doxorubicin + Cyclophosphamide Followed by Docetaxel (AC -> T)	Results	5
+doxorubicin	CHEBI:28748,BAO:0000639	17-28
+cyclophosphamide	CHEBI:4026	31-47
+t	CHEBI:36371,BAO:0001260	10-11
+t	CHEBI:36371,BAO:0001260	12-13
+t	CHEBI:36371,BAO:0001260	64-65
+t	CHEBI:36371,BAO:0001260	77-78
+Arm/Group Description: AC x 4: Doxorubicin 60 mg/m  as an IV bolus in combination with cyclophosphamide 600 mg/m  as IV followed by docetaxel 100 mg/m  as 1 hour IV infusion on day 1 every 3 weeks for 4 cycles.	Results	6
+x	LABO:0000148	26-27
+x	LABO:0000148	33-34
+x	LABO:0000148	138-139
+doxorubicin	CHEBI:28748,BAO:0000639	31-42
+cyclophosphamide	CHEBI:4026	87-103
+hour	UO:0000032	157-161
+day	UO:0000033	177-180
+Overall Number of Participants Analyzed: 1649	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  356	Results	9
+Results 2:	Results	10
+Arm/Group Title: Docetaxel + Doxorubicin and Cyclophosphamide (TAC)	Results	11
+doxorubicin	CHEBI:28748,BAO:0000639	29-40
+cyclophosphamide	CHEBI:4026	45-61
+Arm/Group Description: TAC x 6 : Docetaxel 75 mg/m  as 1 hour IV infusion on day 1 every 3 weeks in combination with doxorubicin 50 mg/m  as an IV bolus and cyclophosphamide 500 mg/m2 as IV on day 1 every 3 weeks. Sequence of administration is as follows: doxorubicin followed by cyclophosphamide followed by docetaxel.	Results	12
+x	LABO:0000148	27-28
+x	LABO:0000148	39-40
+x	LABO:0000148	119-120
+x	LABO:0000148	258-259
+x	LABO:0000148	315-316
+hour	UO:0000032	57-61
+day	UO:0000033	77-80
+day	UO:0000033	193-196
+doxorubicin	CHEBI:28748,BAO:0000639	117-128
+doxorubicin	CHEBI:28748,BAO:0000639	256-267
+cyclophosphamide	CHEBI:4026	157-173
+cyclophosphamide	CHEBI:4026	280-296
+Overall Number of Participants Analyzed: 1649	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Participants  352	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 331/1634 (20.26%)	Adverse Events	1
+Anemia 3/1634 (0.18%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Coagulation disorders 1/1634 (0.06%)	Adverse Events	3
+coagulation	GO:0050817	0-11
+Hemorrhage Vaginal 1/1634 (0.06%)	Adverse Events	4
+Leukopenia 18/1634 (1.10%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Lymphadenopathy 0/1634 (0.00%)	Adverse Events	6
+lymphadenopathy	HP:0002716	0-15
+Lymphedema 0/1634 (0.00%)	Adverse Events	7
+lymphedema	HP:0001004,DOID:4977	0-10
+Pancytopenia 0/1634 (0.00%)	Adverse Events	8
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/1634 (0.00%)	Adverse Events	9
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Arrhythmia 3/1634 (0.18%)	Adverse Events	10
+arrhythmia	HP:0011675	0-10
+Arrhythmia Ventricular 0/1634 (0.00%)	Adverse Events	11
+arrhythmia	HP:0011675	0-10
+Cardiomyopathy 1/1634 (0.06%)	Adverse Events	12
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Adverse Events 2:	Adverse Events	13
+Total: 520/1635 (31.80%)	Adverse Events	14
+Anemia 5/1635 (0.31%)	Adverse Events	15
+anemia	HP:0001903,DOID:2355	0-6
+Coagulation disorders 0/1635 (0.00%)	Adverse Events	16
+coagulation	GO:0050817	0-11
+Hemorrhage Vaginal 0/1635 (0.00%)	Adverse Events	17
+Leukopenia 56/1635 (3.43%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Lymphadenopathy 1/1635 (0.06%)	Adverse Events	19
+lymphadenopathy	HP:0002716	0-15
+Lymphedema 2/1635 (0.12%)	Adverse Events	20
+lymphedema	HP:0001004,DOID:4977	0-10
+Pancytopenia 1/1635 (0.06%)	Adverse Events	21
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 1/1635 (0.06%)	Adverse Events	22
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Arrhythmia 3/1635 (0.18%)	Adverse Events	23
+arrhythmia	HP:0011675	0-10
+Arrhythmia Ventricular 1/1635 (0.06%)	Adverse Events	24
+arrhythmia	HP:0011675	0-10
+Cardiomyopathy 0/1635 (0.00%)	Adverse Events	25
+cardiomyopathy	HP:0001638,DOID:0050700	0-14

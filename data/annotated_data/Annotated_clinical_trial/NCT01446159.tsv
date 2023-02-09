@@ -1,0 +1,157 @@
+INTERVENTION 1:	Intervention	0
+MEDI-573 10 mg/kg + Aromatase Inhibitor (AI)	Intervention	1
+inhibitor	CHEBI:35222	30-39
+Participants enrolled in Phase 1b of the study and received intravenous infusion of MEDI-573 10 mg/kg on Day 1 of each 21-day cycle and AI of the investigator's choice (letrozole, anastrozole, or exemestane) orally once daily until unacceptable toxicity, documentation of disease progression, or withdrawal for other reasons.	Intervention	2
+day	UO:0000033	105-108
+day	UO:0000033	122-125
+letrozole	CHEBI:6413	169-178
+anastrozole	CHEBI:2704	180-191
+exemestane	CHEBI:4953	196-206
+disease	DOID:4,OGMS:0000031	272-279
+INTERVENTION 2:	Intervention	3
+MEDI-573 30 mg/kg + AI	Intervention	4
+Participants enrolled in Phase 1 b of the study and received intravenous infusion of MEDI-573 30 mg/kg on Day 1 of each 21-day cycle and AI (letrozole, anastrozole, or exemestane) orally once daily until unacceptable toxicity, documentation of disease progression, or withdrawal for other reasons.	Intervention	5
+day	UO:0000033	106-109
+day	UO:0000033	123-126
+letrozole	CHEBI:6413	141-150
+anastrozole	CHEBI:2704	152-163
+exemestane	CHEBI:4953	168-178
+disease	DOID:4,OGMS:0000031	244-251
+Inclusion Criteria:	Eligibility	0
+Histologically-confirmed MBC not deemed amenable to curative surgery or curative radiation therapy	Eligibility	1
+surgery	OAE:0000067	61-68
+Tumors are positive for ER, PgR, or both	Eligibility	2
+Tumors must be negative for HER2 (by FISH, CISH or IHC)	Eligibility	3
+Female gender and age  18 years at time of study entry	Eligibility	4
+female	PATO:0000383	0-6
+age	PATO:0000011	18-21
+time	PATO:0000165	35-39
+Postmenopausal	Eligibility	5
+Karnofsky Performance Status  70	Eligibility	6
+Life expectancy of  6 months	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Subjects who received prior chemotherapy, hormonal therapy, immunotherapy or biologic therapy for advanced or metastatic disease with the following exceptions:	Eligibility	9
+disease	DOID:4,OGMS:0000031	121-128
+Prior adjuvant therapy with an AI and/or tamoxifen is allowed, provided treatment ended at least 2 weeks prior to the first dose of MEDI-573	Eligibility	10
+adjuvant	CHEBI:60809	6-14
+tamoxifen	CHEBI:41774	41-50
+Prior neoadjuvant and/or adjuvant chemotherapy for breast cancer is allowed	Eligibility	11
+adjuvant	CHEBI:60809	9-17
+adjuvant	CHEBI:60809	25-33
+breast cancer	DOID:1612	51-64
+Extensive symptomatic visceral disease including hepatic involvement and pulmonary lymphangitic spread of tumor, or disease that is considered by the investigator to be rapidly progressing or life threatening (eg, subjects who are intended for chemotherapy)	Eligibility	12
+disease	DOID:4,OGMS:0000031	31-38
+disease	DOID:4,OGMS:0000031	116-123
+Active brain metastases with the exception of subject has been treated and are asymptomatic and there has been no evidence of CNS progression for at least 4 weeks of first dose of MEDI-573	Eligibility	13
+active	PATO:0002354	0-6
+brain	UBERON:0000955	7-12
+Evidence of ongoing spinal cord compression or leptomeningeal carcinomatosis	Eligibility	14
+spinal cord compression	HP:0002176	20-43
+Unresolved toxicities from prior therapy with the exception of alopecia that have not resolved to  Grade 1 at the time of starting study treatment	Eligibility	15
+alopecia	HP:0001596,DOID:987	63-71
+time	PATO:0000165	114-118
+Previous treatment with agents that target the IGF receptor	Eligibility	16
+target	BAO:0003064	36-42
+receptor	BAO:0000281	51-59
+History of allergy or reaction attributed to compounds of chemical or biologic composition similar to those of MEDI-573 or AI	Eligibility	17
+history	BFO:0000182	0-7
+allergy	HP:0012393	11-18
+History of another invasive malignancy within 5 years except for curatively resected nonmelanoma skin cancer or carcinoma in situ of the cervix	Eligibility	18
+history	BFO:0000182	0-7
+skin cancer	DOID:4159	97-108
+carcinoma	HP:0030731,DOID:305	112-121
+Poorly controlled diabetes mellitus	Eligibility	19
+diabetes mellitus	HP:0000819,DOID:9351	18-35
+Outcome Measurement:	Results	0
+Phase 1b and Phase 2: Number of Participants With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)	Results	1
+An Adverse Event (AE) is any unfavourable and unintended sign, symptoms, or diseases temporally associated with use of study drug, whether or not considered related to study drug. A serious adverse event (SAE) is an AE that results in death, initial or prolonged inpatient hospitalization, life-threatening, persistent or significant disability/incapacity, congenital anomaly/birth defect, or an important medical event. TEAEs and TESAEs are defined as AEs and SAEs present at baseline that worsened in intensity after administration of study drug, or events absent at baseline that emerged after administration of study drug, up to 60 days after the last study drug or until the participants started another anticancer therapy, whichever occurs first (approximately 8 years).	Results	2
+adverse event	OAE:0000001	3-16
+adverse event	OAE:0000001	190-203
+drug	CHEBI:23888	125-129
+drug	CHEBI:23888	174-178
+drug	CHEBI:23888	543-547
+drug	CHEBI:23888	621-625
+drug	CHEBI:23888	662-666
+serious adverse event	OAE:0000631	182-203
+death	OAE:0000632	235-240
+prolonged	HP:0025297	253-262
+present	PATO:0000467	466-473
+intensity	PATO:0000049	503-512
+absent	PATO:0000462	559-565
+Time frame: From the start of study treatment (Day 1) through 60 days after the last dose of treatment or until the participants started another anticancer therapy, whichever occurs first (approximately 8 years)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	47-50
+day	UO:0000033	65-68
+Results 1:	Results	4
+Arm/Group Title: MEDI-573 10 mg/kg + Aromatase Inhibitor (AI)	Results	5
+inhibitor	CHEBI:35222	47-56
+Arm/Group Description: Participants enrolled in Phase 1b of the study and received intravenous infusion of MEDI-573 10 mg/kg on Day 1 of each 21-day cycle and AI of the investigator's choice (letrozole, anastrozole, or exemestane) orally once daily until unacceptable toxicity, documentation of disease progression, or withdrawal for other reasons.	Results	6
+day	UO:0000033	128-131
+day	UO:0000033	145-148
+letrozole	CHEBI:6413	192-201
+anastrozole	CHEBI:2704	203-214
+exemestane	CHEBI:4953	219-229
+disease	DOID:4,OGMS:0000031	295-302
+Overall Number of Participants Analyzed: 3	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Any TEAEs: 3 100.0%	Results	9
+Any TESAEs: 2  66.7%	Results	10
+Results 2:	Results	11
+Arm/Group Title: MEDI-573 30 mg/kg + AI	Results	12
+Arm/Group Description: Participants enrolled in Phase 1 b of the study and received intravenous infusion of MEDI-573 30 mg/kg on Day 1 of each 21-day cycle and AI (letrozole, anastrozole, or exemestane) orally once daily until unacceptable toxicity, documentation of disease progression, or withdrawal for other reasons.	Results	13
+day	UO:0000033	129-132
+day	UO:0000033	146-149
+letrozole	CHEBI:6413	164-173
+anastrozole	CHEBI:2704	175-186
+exemestane	CHEBI:4953	191-201
+disease	DOID:4,OGMS:0000031	267-274
+Overall Number of Participants Analyzed: 3	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  Any TEAEs: 3 100.0%	Results	16
+Any TESAEs: 0   0.0%	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 2/3 (66.67%)	Adverse Events	1
+Febrile neutropenia 1/3 (33.33%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial flutter 0/3 (0.00%)	Adverse Events	3
+atrial flutter	HP:0004749	0-14
+Atrial fibrillation 0/3 (0.00%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 0/3 (0.00%)	Adverse Events	5
+Sinus bradycardia 1/3 (33.33%)	Adverse Events	6
+sinus bradycardia	HP:0001688	0-17
+Supraventricular tachycardia 0/3 (0.00%)	Adverse Events	7
+supraventricular tachycardia	HP:0004755	0-28
+Abdominal pain upper 0/3 (0.00%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Dysphagia 0/3 (0.00%)	Adverse Events	9
+dysphagia	HP:0002015	0-9
+Intestinal mass 0/3 (0.00%)	Adverse Events	10
+Pancreatitis acute 0/3 (0.00%)	Adverse Events	11
+pancreatitis	HP:0001733,DOID:4989	0-12
+acute	HP:0011009,PATO:0000389	13-18
+Small intestinal obstruction 0/3 (0.00%)	Adverse Events	12
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Adverse Events 2:	Adverse Events	13
+Total: 0/3 (0.00%)	Adverse Events	14
+Febrile neutropenia 0/3 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial flutter 0/3 (0.00%)	Adverse Events	16
+atrial flutter	HP:0004749	0-14
+Atrial fibrillation 0/3 (0.00%)	Adverse Events	17
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 0/3 (0.00%)	Adverse Events	18
+Sinus bradycardia 0/3 (0.00%)	Adverse Events	19
+sinus bradycardia	HP:0001688	0-17
+Supraventricular tachycardia 0/3 (0.00%)	Adverse Events	20
+supraventricular tachycardia	HP:0004755	0-28
+Abdominal pain upper 0/3 (0.00%)	Adverse Events	21
+abdominal pain	HP:0002027	0-14
+Dysphagia 0/3 (0.00%)	Adverse Events	22
+dysphagia	HP:0002015	0-9
+Intestinal mass 0/3 (0.00%)	Adverse Events	23
+Pancreatitis acute 0/3 (0.00%)	Adverse Events	24
+pancreatitis	HP:0001733,DOID:4989	0-12
+acute	HP:0011009,PATO:0000389	13-18
+Small intestinal obstruction 0/3 (0.00%)	Adverse Events	25
+intestinal obstruction	HP:0005214,DOID:8437	6-28

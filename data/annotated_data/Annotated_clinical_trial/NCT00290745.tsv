@@ -1,0 +1,106 @@
+INTERVENTION 1:	Intervention	0
+Tamoxifen or Letrozole	Intervention	1
+tamoxifen	CHEBI:41774	0-9
+letrozole	CHEBI:6413	13-22
+tamoxifen or letrozole work in treating women with ductal carcinoma in situ	Intervention	2
+tamoxifen	CHEBI:41774	0-9
+letrozole	CHEBI:6413	13-22
+ductal carcinoma in situ	HP:0030075,DOID:0060074	51-75
+letrozole	Intervention	3
+letrozole	CHEBI:6413	0-9
+tamoxifen citrate	Intervention	4
+tamoxifen citrate	CHEBI:9397	0-17
+conventional surgery	Intervention	5
+surgery	OAE:0000067	13-20
+neoadjuvant therapy	Intervention	6
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Diagnosis of ductal carcinoma in situ (DCIS) on core biopsy	Eligibility	1
+ductal carcinoma in situ	HP:0030075,DOID:0060074	13-37
+No evidence of contralateral breast disease or palpable masses on breast examination	Eligibility	2
+breast disease	DOID:3463	29-43
+breast	UBERON:0000310	29-35
+breast	UBERON:0000310	66-72
+No presence or suspicion of invasive cancer, including contralateral invasive cancer, on core biopsy and MRI	Eligibility	3
+cancer	DOID:162	37-43
+cancer	DOID:162	78-84
+No documented ipsilateral axillary adenopathy	Eligibility	4
+Planning to undergo lumpectomy or mastectomy	Eligibility	5
+Estrogen receptor (ER)-positive tumor by immunohistochemistry	Eligibility	6
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+immunohistochemistry	BAO:0000415	41-61
+PATIENT CHARACTERISTICS:	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+Female patient	Eligibility	8
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+Premenopausal or postmenopausal	Eligibility	9
+Postmenopausal is defined by any of the following:	Eligibility	10
+No spontaneous menses for >= 1 year	Eligibility	11
+year	UO:0000036	31-35
+Bilateral oophorectomy	Eligibility	12
+bilateral	HP:0012832	0-9
+Radiation castration and amenorrheic for >= 3 months	Eligibility	13
+Follicle-stimulating hormone (FSH) > 20 IU/L AND off all hormonal therapy (e.g., hormone replacement therapy or birth control pills) for >= 1 month	Eligibility	14
+hormone	CHEBI:24621	21-28
+hormone	CHEBI:24621	81-88
+month	UO:0000035	142-147
+Not pregnant or nursing	Eligibility	15
+Negative pregnancy test	Eligibility	16
+Fertile patients must use effective contraception	Eligibility	17
+No co-morbidities contraindicating the use of tamoxifen, including any of the following:	Eligibility	18
+tamoxifen	CHEBI:41774	46-55
+Prior history of thrombotic events	Eligibility	19
+history	BFO:0000182	6-13
+History of hypercoagulable state	Eligibility	20
+history	BFO:0000182	0-7
+History of endometrial hyperplasia	Eligibility	21
+history	BFO:0000182	0-7
+endometrial hyperplasia	DOID:0080365	11-34
+Abnormal vaginal bleeding	Eligibility	22
+No history of contrast dye-related allergies/reactions	Eligibility	23
+history	BFO:0000182	3-10
+No history of metal-containing prostheses or implants	Eligibility	24
+history	BFO:0000182	3-10
+PRIOR CONCURRENT THERAPY:	Eligibility	25
+See Disease Characteristics	Eligibility	26
+disease	DOID:4,OGMS:0000031	4-11
+Outcome Measurement:	Results	0
+Median Change in 6-month Tumor Volume Compared to Baseline Using Mammography	Results	1
+median	BAO:0002174	0-6
+volume	PATO:0000918	31-37
+Change in size of Ductal Carcinoma in situ (DCIS) for participants on hormonal therapy, as determined by mammography are determined by (1) largest diameter of tumor, as visualized on mammography (2) extent of disease on mammography (3) quantification of mammographically-detected change from baseline to 6-month and used to generate the change in tumor volume of mammographic extent of disease from baseline. Since values were not normally distributed, the median change was calculated, and Wilcoxon sign rank tests were used to evaluate the significance of these changes	Results	2
+size	PATO:0000117	10-14
+ductal carcinoma in situ	HP:0030075,DOID:0060074	18-42
+diameter	PATO:0001334	147-155
+disease	DOID:4,OGMS:0000031	209-216
+disease	DOID:4,OGMS:0000031	386-393
+volume	PATO:0000918	353-359
+distributed	PATO:0001566	440-451
+median	BAO:0002174	457-463
+Time frame: Baseline and 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Tamoxifen or Letrozole	Results	5
+tamoxifen	CHEBI:41774	17-26
+letrozole	CHEBI:6413	30-39
+Arm/Group Description: tamoxifen or letrozole work in treating women with ductal carcinoma in situ	Results	6
+tamoxifen	CHEBI:41774	23-32
+letrozole	CHEBI:6413	36-45
+ductal carcinoma in situ	HP:0030075,DOID:0060074	74-98
+letrozole	Results	7
+letrozole	CHEBI:6413	0-9
+tamoxifen citrate	Results	8
+tamoxifen citrate	CHEBI:9397	0-17
+conventional surgery	Results	9
+surgery	OAE:0000067	13-20
+neoadjuvant therapy	Results	10
+Overall Number of Participants Analyzed: 54	Results	11
+Median (Inter-Quartile Range)	Results	12
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: change in tumor volume (mm)  -5.0        (-10.4 to 0.4)	Results	13
+volume	PATO:0000918	33-39
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1

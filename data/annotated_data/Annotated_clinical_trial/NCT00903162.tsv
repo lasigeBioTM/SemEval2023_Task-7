@@ -1,0 +1,102 @@
+INTERVENTION 1:	Intervention	0
+Letrozole-Leuprolide	Intervention	1
+Patients will receive 2.5mg oral letrozole daily and either 7.5mg monthly of Leuprolide IM or 22.5mg every three months of Leuprolide IM. Zoledronic acid 4mg IV every 6 months x 4 will also be offered optionally.	Intervention	2
+letrozole	CHEBI:6413	33-42
+leuprolide	CHEBI:6427	77-87
+leuprolide	CHEBI:6427	123-133
+zoledronic acid	CHEBI:46557	138-153
+x	LABO:0000148	176-177
+leuprolide: Given intramuscularly beginning on day 1 and then either 7.5 mg every month or 22.5 mg every 3 months for two years	Intervention	3
+leuprolide	CHEBI:6427	0-10
+day	UO:0000033	47-50
+month	UO:0000035	82-87
+month	UO:0000035	107-112
+letrozole: Taken orally once a day 6-8 weeks after initial leuprolide administration	Intervention	4
+letrozole	CHEBI:6413	0-9
+day	UO:0000033	31-34
+leuprolide	CHEBI:6427	59-69
+zoledronic acid: If desired, given intravenously every 6 months for a total of 4 injections (optional)	Intervention	5
+zoledronic acid	CHEBI:46557	0-15
+Inclusion Criteria:	Eligibility	0
+Women 18 years of age or older	Eligibility	1
+age	PATO:0000011	18-21
+History of invasive ER+ or PR+ breast cancer treated with at least 4.5 years of tamoxifen	Eligibility	2
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	31-44
+tamoxifen	CHEBI:41774	80-89
+No current evidence of recurrent invasive disease or metastatic disease. Patients may have a history of bilateral breast cancer	Eligibility	3
+recurrent	HP:0031796	23-32
+disease	DOID:4,OGMS:0000031	42-49
+disease	DOID:4,OGMS:0000031	64-71
+history	BFO:0000182	93-100
+bilateral breast cancer	DOID:6741	104-127
+Premenopausal (estradiol level in premenopausal range, >20pg/ml, within the prior 28 days)	Eligibility	4
+estradiol	CHEBI:23965	15-24
+range	LABO:0000114	48-53
+Liver function tests and creatinine <2.5 times the upper limit of normal within the 28 days prior to enrollment	Eligibility	5
+liver	UBERON:0002107	0-5
+function	BAO:0003117,BFO:0000034	6-14
+creatinine	CHEBI:16737	25-35
+ECOG Performance Status 0-1	Eligibility	6
+Must agree to use non-hormonal contraception (condoms, diaphragm, IUD, sterilization, abstinence, etc) and no other hormonal therapy during trial and until 3 months after letrozole is stopped	Eligibility	7
+diaphragm	UBERON:0001103	55-64
+letrozole	CHEBI:6413	171-180
+Negative pregnancy test within 14 days prior to enrollment	Eligibility	8
+Patient must be able to speak, read and write in English	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	10
+Previous treatment with an oral or IV bisphosphonate in the prior two years	Eligibility	11
+History of cancer other than breast cancer within 5 years excluding basal/squamous cell skin carcinoma in situ of the cervix	Eligibility	12
+history	BFO:0000182	0-7
+cancer	DOID:162	11-17
+cancer	DOID:162	36-42
+breast cancer	DOID:1612	29-42
+skin carcinoma in situ	DOID:8687	88-110
+Women with evidence of current local recurrence or metastatic breast cancer	Eligibility	13
+breast cancer	DOID:1612	62-75
+Pregnant women	Eligibility	14
+Nursing women	Eligibility	15
+Women who are currently taking tamoxifen and are unwilling to stop this medication	Eligibility	16
+tamoxifen	CHEBI:41774	31-40
+Women with a known deleterious BRCA 1 or BRCA 2 mutation	Eligibility	17
+Outcome Measurement:	Results	0
+Tolerability at One Year of Ovarian Function Suppression (OFS) Using Leuprolide and Letrozole.	Results	1
+year	UO:0000036	20-24
+function	BAO:0003117,BFO:0000034	36-44
+leuprolide	CHEBI:6427	69-79
+letrozole	CHEBI:6413	84-93
+The tolerability at one year of ovarian function suppression (OFS) using leuprolide and letrozole in this patient population. Specifically, the number of patients who discontinued treatment prior to one year due to toxicity.	Results	2
+year	UO:0000036	24-28
+year	UO:0000036	203-207
+function	BAO:0003117,BFO:0000034	40-48
+leuprolide	CHEBI:6427	73-83
+letrozole	CHEBI:6413	88-97
+patient	HADO:0000008,OAE:0001817	106-113
+patient	HADO:0000008,OAE:0001817	154-161
+Time frame: 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: Letrozole-Leuprolide	Results	5
+Arm/Group Description: Patients will receive 2.5mg oral letrozole daily and either 7.5mg monthly of Leuprolide IM or 22.5mg every three months of Leuprolide IM. Zoledronic acid 4mg IV every 6 months x 4 will also be offered optionally.	Results	6
+letrozole	CHEBI:6413	56-65
+leuprolide	CHEBI:6427	100-110
+leuprolide	CHEBI:6427	146-156
+zoledronic acid	CHEBI:46557	161-176
+x	LABO:0000148	199-200
+leuprolide: Given intramuscularly beginning on day 1 and then either 7.5 mg every month or 22.5 mg every 3 months for two years	Results	7
+leuprolide	CHEBI:6427	0-10
+day	UO:0000033	47-50
+month	UO:0000035	82-87
+month	UO:0000035	107-112
+letrozole: Taken orally once a day 6-8 weeks after initial leuprolide administration	Results	8
+letrozole	CHEBI:6413	0-9
+day	UO:0000033	31-34
+leuprolide	CHEBI:6427	59-69
+zoledronic acid: If desired, given intravenously every 6 months for a total of 4 injections (optional)	Results	9
+zoledronic acid	CHEBI:46557	0-15
+Overall Number of Participants Analyzed: 16	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: participants  4	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 0/17 (0.00%)	Adverse Events	1

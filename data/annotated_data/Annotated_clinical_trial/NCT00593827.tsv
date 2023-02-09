@@ -1,0 +1,122 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone 16 mg/m^2	Intervention	1
+ixabepilone	CHEBI:63605	0-11
+ixabepilone 16 mg/m^2 weekly for 3 weeks followed by 1 week rest	Intervention	2
+ixabepilone	CHEBI:63605	0-11
+week	UO:0000034	22-26
+week	UO:0000034	35-39
+week	UO:0000034	55-59
+INTERVENTION 2:	Intervention	3
+Ixabepilone 40 mg/m^2	Intervention	4
+ixabepilone	CHEBI:63605	0-11
+ixabepilone 40 mg/m^2 every 3 weeks	Intervention	5
+ixabepilone	CHEBI:63605	0-11
+Inclusion Criteria:	Eligibility	0
+Has MBC that is measurable by RECIST or has nonmeasurable disease with serum CA27.29 (or CA15.3)  50	Eligibility	1
+disease	DOID:4,OGMS:0000031	58-65
+Has Human Epidermal Growth Factor Receptor 2 (HER2) negative breast cancer	Eligibility	2
+growth factor	BAO:0002024	20-33
+receptor	BAO:0000281	34-42
+breast cancer	DOID:1612	61-74
+Prior chemotherapy is permitted with no limit on the number of prior regimens	Eligibility	3
+Two weeks or more have elapsed since last chemotherapy or radiation treatment	Eligibility	4
+Has an Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) of 0-2	Eligibility	5
+group	CHEBI:24433	36-41
+Is female,  18 yrs of age	Eligibility	6
+female	PATO:0000383	3-9
+age	PATO:0000011	22-25
+Protocol defined appropriate laboratory values	Eligibility	7
+Negative pregnancy test within 7 calendar days prior to registration	Eligibility	8
+Has signed a patient informed consent	Eligibility	9
+patient	HADO:0000008,OAE:0001817	13-20
+Exclusion Criteria:	Eligibility	10
+Had prior treatment with ixabepilone or other epothilones	Eligibility	11
+ixabepilone	CHEBI:63605	25-36
+Has HER2+ disease	Eligibility	12
+disease	DOID:4,OGMS:0000031	10-17
+Has a known, prior, severe (National Cancer Institute Common Terminology Criteria Adverse Events [NCI CTCAE] Grade 3-4) history of hypersensitivity reaction to a drug formulated in Cremophor ® EL (polyoxyethylated castor oil)	Eligibility	13
+severe	HP:0012828	20-26
+cancer	DOID:162	37-43
+history	BFO:0000182	120-127
+hypersensitivity	GO:0002524,DOID:1205	131-147
+drug	CHEBI:23888	162-166
+castor oil	CHEBI:140618	214-224
+Is receiving concurrent immunotherapy, hormonal therapy or radiation therapy	Eligibility	14
+Is receiving concurrent investigational therapy or has received such therapy within the past 30 days	Eligibility	15
+Has peripheral neuropathy > Grade 1	Eligibility	16
+peripheral neuropathy	HP:0009830,DOID:870	4-25
+Has evidence of central nervous system (CNS) involvement requiring radiation or steroid treatment. Participants with stable brain metastases who are off steroids at least 2 weeks are eligible	Eligibility	17
+central nervous system	UBERON:0001017	16-38
+steroid	CHEBI:35341	80-87
+steroid	CHEBI:35341	153-160
+stable	HP:0031915	117-123
+brain	UBERON:0000955	124-129
+Is pregnant or breast feeding	Eligibility	18
+breast	UBERON:0000310	15-21
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS) at 6 Months (6-month PFS Rate): Proportion of Participants Progression Free at 6 Months	Results	1
+rate	BAO:0080019	57-61
+PFS at 6 months was defined as proportion of participants who neither progressed nor died before 6 months. Computed using Kaplan-Meier estimates.	Results	2
+Time frame: From the date of randomization to 6-months on study	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ixabepilone 16 mg/m^2	Results	5
+ixabepilone	CHEBI:63605	17-28
+Arm/Group Description: ixabepilone 16 mg/m^2 weekly for 3 weeks followed by 1 week rest	Results	6
+ixabepilone	CHEBI:63605	23-34
+week	UO:0000034	45-49
+week	UO:0000034	58-62
+week	UO:0000034	78-82
+Overall Number of Participants Analyzed: 85	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  28.6        (18.9 to 38.9)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Ixabepilone 40 mg/m^2	Results	11
+ixabepilone	CHEBI:63605	17-28
+Arm/Group Description: ixabepilone 40 mg/m^2 every 3 weeks	Results	12
+ixabepilone	CHEBI:63605	23-34
+Overall Number of Participants Analyzed: 91	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of Participants  42.7        (31.5 to 53.5)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 25/82 (30.49%)	Adverse Events	1
+neutropenia 1/82 (1.22%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+anemia 1/82 (1.22%)	Adverse Events	3
+anemia	HP:0001903,DOID:2355	0-6
+thrombocytopenia 1/82 (1.22%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+febrile neutropenia 0/82 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+tachycardia 3/82 (3.66%)	Adverse Events	6
+tachycardia	HP:0001649	0-11
+fibrillation atrial 0/82 (0.00%)	Adverse Events	7
+supraventricular tachycardia 1/82 (1.22%)	Adverse Events	8
+supraventricular tachycardia	HP:0004755	0-28
+ventricular tachycardia 1/82 (1.22%)	Adverse Events	9
+ventricular tachycardia	HP:0004756	0-23
+angina attack 0/82 (0.00%)	Adverse Events	10
+congestive heart failure 0/82 (0.00%)	Adverse Events	11
+congestive heart failure	HP:0001635,DOID:6000	0-24
+flutter atrial 0/82 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 30/89 (33.71%)	Adverse Events	14
+neutropenia 5/89 (5.62%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+anemia 1/89 (1.12%)	Adverse Events	16
+anemia	HP:0001903,DOID:2355	0-6
+thrombocytopenia 1/89 (1.12%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+febrile neutropenia 2/89 (2.25%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	8-19
+tachycardia 1/89 (1.12%)	Adverse Events	19
+tachycardia	HP:0001649	0-11
+fibrillation atrial 1/89 (1.12%)	Adverse Events	20
+supraventricular tachycardia 0/89 (0.00%)	Adverse Events	21
+supraventricular tachycardia	HP:0004755	0-28
+ventricular tachycardia 0/89 (0.00%)	Adverse Events	22
+ventricular tachycardia	HP:0004756	0-23
+angina attack 1/89 (1.12%)	Adverse Events	23
+congestive heart failure 1/89 (1.12%)	Adverse Events	24
+congestive heart failure	HP:0001635,DOID:6000	0-24
+flutter atrial 1/89 (1.12%)	Adverse Events	25

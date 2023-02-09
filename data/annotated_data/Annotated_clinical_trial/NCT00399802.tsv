@@ -1,0 +1,60 @@
+INTERVENTION 1:	Intervention	0
+Single IV Infusion of ZA 4 mg	Intervention	1
+Participants received a single IV infusion of ZA 4 mg at the start of treatment and a once-daily odanacatib matching placebo tablet for 4 weeks.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Once-daily Odanacatib 5 mg	Intervention	4
+Participants received a once-daily odanacatib 5 mg tablet for 4 weeks and a single IV infusion of ZA matching placebo at the start of treatment.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Patient has histologically or cytologically-confirmed breast cancer	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	54-67
+Patient has documented skeletal metastases	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	3
+Patient is undergoing current oral bisphosphonate therapy, or has a history of oral bisphosphonate use within 6 months of entry into study	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+history	BFO:0000182	68-75
+Outcome Measurement:	Results	0
+Percentage Change From Baseline in Urinary N-telopeptide of Type I Collagen (u-NTx) at Week 4	Results	1
+collagen	CHEBI:3815	67-75
+week	UO:0000034	87-91
+u-NTx is a biochemical index of bone resorption. Participants provided urine specimens on Day 1 (baseline) and at Week 4 for measurement of u-NTx.	Results	2
+bone resorption	GO:0045453	32-47
+urine	UBERON:0001088	71-76
+day	UO:0000033	90-93
+week	UO:0000034	114-118
+Time frame: Baseline and Week 4	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	25-29
+Results 1:	Results	4
+Arm/Group Title: Single IV Infusion of ZA 4 mg	Results	5
+Arm/Group Description: Participants received a single IV infusion of ZA 4 mg at the start of treatment and a once-daily odanacatib matching placebo tablet for 4 weeks.	Results	6
+Overall Number of Participants Analyzed: 14	Results	7
+Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: Percentage change  -73        (-80 to -62)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Once-daily Odanacatib 5 mg	Results	11
+Arm/Group Description: Participants received a once-daily odanacatib 5 mg tablet for 4 weeks and a single IV infusion of ZA matching placebo at the start of treatment.	Results	12
+Overall Number of Participants Analyzed: 27	Results	13
+Mean (95% Confidence Interval)	Results	14
+mean	BAO:0002173	0-4
+Unit of Measure: Percentage change  -77        (-82 to -71)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 2/14 (14.29%)	Adverse Events	1
+Febrile neutropenia 0/14 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Ascites 0/14 (0.00%)	Adverse Events	3
+ascites	HP:0001541	0-7
+Breast cancer metastatic 1/14 (7.14%)	Adverse Events	4
+breast cancer	DOID:1612	0-13
+Metastases to bone 1/14 (7.14%)	Adverse Events	5
+Adverse Events 2:	Adverse Events	6
+Total: 4/29 (13.79%)	Adverse Events	7
+Febrile neutropenia 1/29 (3.45%)	Adverse Events	8
+neutropenia	HP:0001875,DOID:1227	8-19
+Ascites 1/29 (3.45%)	Adverse Events	9
+ascites	HP:0001541	0-7
+Breast cancer metastatic 0/29 (0.00%)	Adverse Events	10
+breast cancer	DOID:1612	0-13
+Metastases to bone 2/29 (6.90%)	Adverse Events	11

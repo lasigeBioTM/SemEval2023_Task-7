@@ -1,0 +1,83 @@
+INTERVENTION 1:	Intervention	0
+Arm 1: Yoga Intervention	Intervention	1
+Yoga Intervention	Intervention	2
+Yoga: Yoga sessions	Intervention	3
+INTERVENTION 2:	Intervention	4
+Arm 2: Educational Wellness Group	Intervention	5
+group	CHEBI:24433	28-33
+Educational Wellness Group	Intervention	6
+group	CHEBI:24433	21-26
+Education: Educational Wellness Group	Intervention	7
+group	CHEBI:24433	32-37
+Inclusion Criteria:	Eligibility	0
+Women will be eligible if they are:	Eligibility	1
+Scheduled to begin chemotherapy treatment within 3 weeks of study registration, or able to start Yoga/Wellness sessions prior to second chemotherapy treatment.	Eligibility	2
+second	UO:0000010	129-135
+18 years of age.	Eligibility	3
+age	PATO:0000011	12-15
+Physically able to attend yoga classes (simply meaning that they can physically make it to the intervention session and are able to sit on a chair or lie on the floor) (ECOG Performance Status rating 0-2; Zubrod et al., 1960).	Eligibility	4
+Diagnosed with breast cancer Stages I-III.	Eligibility	5
+breast cancer	DOID:1612	15-28
+Chemotherapy is anticipated to continue during the 10 weeks of the study intervention.	Eligibility	6
+2-8 weeks post-completion of breast surgery (unless receiving neoadjuvant chemotherapy).	Eligibility	7
+breast	UBERON:0000310	29-35
+surgery	OAE:0000067	36-43
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	8
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	9
+Have practiced yoga on a regular basis (at least once a week) within the past 4 weeks to recruit women who are not already regularly practicing yoga. Given that the benefits of yoga are likely more immediate than long-term, however, we will enroll women who have previously had a yoga practice.	Eligibility	10
+week	UO:0000034	56-60
+week	UO:0000034	80-84
+Are being treated with surgery and/or radiation therapy and/or hormonal treatment only and/or Herceptin therapy only (no chemotherapy).	Eligibility	11
+surgery	OAE:0000067	23-30
+Anticipate undergoing surgery related to their breast cancer or receipt of radiation therapy during the study period.	Eligibility	12
+surgery	OAE:0000067	22-29
+breast cancer	DOID:1612	47-60
+Have regularly engaged in moderate (activity that makes you breathe somewhat harder than normal; may include carrying light loads, bicycling at a regular pace, fast walking, tennis, easy swimming, or popular or folk dancing) or vigorous (activity that causes heavy breathing, sweating, rapid fatigue; it can only be sustained for very short periods of time, like running or swimming strongly) physical activity at least 3-5 days per week (on average) within the past 4 weeks.	Eligibility	13
+moderate	HP:0012826	26-34
+swimming	GO:0036268	187-195
+swimming	GO:0036268	374-382
+fatigue	HP:0012378	292-299
+time	PATO:0000165	352-356
+week	UO:0000034	433-437
+week	UO:0000034	469-473
+Pregnant women will not be excluded from this study because the study intervention(s) pose no risk of potential for teratogenic or abortifacient effects. In fact, gentle yoga practice is quite safe for pregnant women and poses can be slightly modified, if needed. The anticipated number of pregnant women eligible to enroll is minimal.	Eligibility	14
+excluded	HP:0040285	27-35
+abortifacient	CHEBI:50691	131-144
+Outcome Measurement:	Results	0
+Retention	Results	1
+Proportion of participants completing the 10 week study	Results	2
+week	UO:0000034	45-49
+Time frame: 10 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1: Yoga Intervention	Results	5
+Arm/Group Description: Yoga Intervention	Results	6
+Yoga: Yoga sessions	Results	7
+Overall Number of Participants Analyzed: 22	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  82        (60 to 95)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm 2: Educational Wellness Group	Results	12
+group	CHEBI:24433	4-9
+group	CHEBI:24433	45-50
+Arm/Group Description: Educational Wellness Group	Results	13
+group	CHEBI:24433	4-9
+group	CHEBI:24433	44-49
+Education: Educational Wellness Group	Results	14
+group	CHEBI:24433	32-37
+Overall Number of Participants Analyzed: 18	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of participants  89        (65 to 99)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 1/21 (4.76%)	Adverse Events	1
+Febrile Neutropenia 0/21 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Heart Failure 1/21 (4.76%)	Adverse Events	3
+heart	UBERON:0000948	0-5
+Adverse Events 2:	Adverse Events	4
+Total: 1/17 (5.88%)	Adverse Events	5
+Febrile Neutropenia 1/17 (5.88%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	8-19
+Heart Failure 0/17 (0.00%)	Adverse Events	7
+heart	UBERON:0000948	0-5

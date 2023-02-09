@@ -1,0 +1,154 @@
+INTERVENTION 1:	Intervention	0
+Acupuncture	Intervention	1
+acupuncture	OAE:0002430	0-11
+Patients in the acupuncture group will receive acupuncture treatment twice weekly for six consecutive weeks.	Intervention	2
+acupuncture	OAE:0002430	16-27
+acupuncture	OAE:0002430	47-58
+group	CHEBI:24433	28-33
+Acupuncture: Each treatment will be 30 minutes in duration. Patients will receive two acupuncture treatments each week for six consecutive weeks. Patients will be advised to continue their standard lymphedema treatments such as exercise or use of compression garments if these were in use prior to clinical trial participation.	Intervention	3
+acupuncture	OAE:0002430	0-11
+acupuncture	OAE:0002430	86-97
+duration	PATO:0001309	50-58
+week	UO:0000034	114-118
+week	UO:0000034	139-143
+lymphedema	HP:0001004,DOID:4977	198-208
+INTERVENTION 2:	Intervention	4
+Wait-list	Intervention	5
+Patients in the wait-list control group will cross over and receive acupuncture twice weekly for 6 consecutive weeks.	Intervention	6
+group	CHEBI:24433	34-39
+acupuncture	OAE:0002430	68-79
+Wait-list: For participants in the wait-list control group, follow-up objective and subjective assessments of lymphedema will be performed after approximately 6 weeks on the wait-list, before onset of acupuncture treatment, following 6 weeks of acupuncture treatment and about 3 months after completion of treatment. BMI will be measured at the same timepoints.	Intervention	7
+group	CHEBI:24433	53-58
+lymphedema	HP:0001004,DOID:4977	110-120
+onset	HP:0003674	192-197
+acupuncture	OAE:0002430	201-212
+acupuncture	OAE:0002430	245-256
+Inclusion Criteria:	Eligibility	0
+Women age 18 or older	Eligibility	1
+age	PATO:0000011	6-9
+Lymphedema in an arm as a result of surgery, chemotherapy, and/or radiation therapy for breast cancer per breast surgeon or medical oncologist	Eligibility	2
+lymphedema	HP:0001004,DOID:4977	0-10
+result	BAO:0000179	26-32
+surgery	OAE:0000067	36-43
+breast cancer	DOID:1612	88-101
+breast	UBERON:0000310	88-94
+breast	UBERON:0000310	106-112
+Patients must have received a clinical diagnosis of lymphedema for at least 6 months and no more than 5 years. This timeframe allows ample time for any surgically related non lymphedema swelling to subside by 6 months post-surgery, while a cap of 5 years will capture the broadest range of cases, and has been used as a timeframe in several studies including our pilot study.	Eligibility	3
+lymphedema	HP:0001004,DOID:4977	52-62
+lymphedema	HP:0001004,DOID:4977	175-185
+time	PATO:0000165	116-120
+time	PATO:0000165	139-143
+time	PATO:0000165	320-324
+range	LABO:0000114	281-286
+The affected arm must be >2cm larger than the unaffected arm. Differences of 2 cm or more between the affected and unaffected arm are considered by experts to be clinically significant. Each affected arm will be measured in two areas: upper arm and forearm.	Eligibility	4
+affected	HP:0032320	4-12
+affected	HP:0032320	48-56
+affected	HP:0032320	102-110
+affected	HP:0032320	117-125
+affected	HP:0032320	191-199
+unaffected	HP:0032321	46-56
+unaffected	HP:0032321	115-125
+The larger of the two measures-upper arm or forearm- will be used for analysis.	Eligibility	5
+Classified as International Society of Lymphology (ISL) stage II or higher as determined by an MSKCC Certified Lymphedema Therapist (CLT).	Eligibility	6
+lymphedema	HP:0001004,DOID:4977	111-121
+Exclusion Criteria:	Eligibility	7
+Bilateral lymphedema	Eligibility	8
+bilateral	HP:0012832	0-9
+lymphedema	HP:0001004,DOID:4977	10-20
+Previous acupuncture treatment for lymphedema	Eligibility	9
+acupuncture	OAE:0002430	9-20
+lymphedema	HP:0001004,DOID:4977	35-45
+Concurrent diuretic use	Eligibility	10
+diuretic	CHEBI:35498	11-19
+History of primary (congenital) lymphedema	Eligibility	11
+history	BFO:0000182	0-7
+lymphedema	HP:0001004,DOID:4977	32-42
+Pregnant or planning to become pregnant during the course of the study	Eligibility	12
+Has an implanted electronically charged medical device	Eligibility	13
+Outcome Measurement:	Results	0
+Lymphedema as Measured at Baseline and at 6 Weeks	Results	1
+lymphedema	HP:0001004,DOID:4977	0-10
+Changes in lymphedema between groups, as measured by mean arm circumference assessed at baseline and after 6 weeks from baseline.	Results	2
+lymphedema	HP:0001004,DOID:4977	11-21
+mean	BAO:0002173	53-57
+Time frame: 6 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Acupuncture	Results	5
+acupuncture	OAE:0002430	17-28
+Arm/Group Description: Patients in the acupuncture group will receive acupuncture treatment twice weekly for six consecutive weeks.	Results	6
+acupuncture	OAE:0002430	39-50
+acupuncture	OAE:0002430	70-81
+group	CHEBI:24433	4-9
+group	CHEBI:24433	51-56
+Acupuncture: Each treatment will be 30 minutes in duration. Patients will receive two acupuncture treatments each week for six consecutive weeks. Patients will be advised to continue their standard lymphedema treatments such as exercise or use of compression garments if these were in use prior to clinical trial participation.	Results	7
+acupuncture	OAE:0002430	0-11
+acupuncture	OAE:0002430	86-97
+duration	PATO:0001309	50-58
+week	UO:0000034	114-118
+week	UO:0000034	139-143
+lymphedema	HP:0001004,DOID:4977	198-208
+Overall Number of Participants Analyzed: 40	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: cm  Baseline: 4.74         (2.23)	Results	10
+6 weeks: 4.29         (2.67)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Wait-list	Results	13
+Arm/Group Description: Patients in the wait-list control group will cross over and receive acupuncture twice weekly for 6 consecutive weeks.	Results	14
+group	CHEBI:24433	4-9
+group	CHEBI:24433	57-62
+acupuncture	OAE:0002430	91-102
+Wait-list: For participants in the wait-list control group, follow-up objective and subjective assessments of lymphedema will be performed after approximately 6 weeks on the wait-list, before onset of acupuncture treatment, following 6 weeks of acupuncture treatment and about 3 months after completion of treatment. BMI will be measured at the same timepoints.	Results	15
+group	CHEBI:24433	53-58
+lymphedema	HP:0001004,DOID:4977	110-120
+onset	HP:0003674	192-197
+acupuncture	OAE:0002430	201-212
+acupuncture	OAE:0002430	245-256
+Overall Number of Participants Analyzed: 42	Results	16
+Mean (Standard Deviation)	Results	17
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: cm  Baseline: 4.82         (2.32)	Results	18
+6 weeks: 4.76         (2.68)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 12/40 (30.00%)	Adverse Events	1
+Anemia  2/40 (5.00%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Supraventricular tachycardia  1/40 (2.50%)	Adverse Events	3
+supraventricular tachycardia	HP:0004755	0-28
+Gastric Hemorrhage  1/40 (2.50%)	Adverse Events	4
+Abdominal pain  0/40 (0.00%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Constipation  0/40 (0.00%)	Adverse Events	6
+constipation	HP:0002019,DOID:2089	0-12
+Nausea  0/40 (0.00%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Vomiting  0/40 (0.00%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Gen disorders & admin site conditions Other, spec  1/40 (2.50%)	Adverse Events	9
+site	BFO:0000029	22-26
+Neutrophil count decreased  1/40 (2.50%)	Adverse Events	10
+Platelet count decreased  1/40 (2.50%)	Adverse Events	11
+platelet count	CMO:0000029	0-14
+Adverse Events 2:	Adverse Events	12
+Total: 7/42 (16.67%)	Adverse Events	13
+Anemia  0/42 (0.00%)	Adverse Events	14
+anemia	HP:0001903,DOID:2355	0-6
+Supraventricular tachycardia  0/42 (0.00%)	Adverse Events	15
+supraventricular tachycardia	HP:0004755	0-28
+Gastric Hemorrhage  0/42 (0.00%)	Adverse Events	16
+Abdominal pain  1/42 (2.38%)	Adverse Events	17
+abdominal pain	HP:0002027	0-14
+Constipation  1/42 (2.38%)	Adverse Events	18
+constipation	HP:0002019,DOID:2089	0-12
+Nausea  1/42 (2.38%)	Adverse Events	19
+nausea	HP:0002018	0-6
+Vomiting  1/42 (2.38%)	Adverse Events	20
+vomiting	HP:0002013	0-8
+Gen disorders & admin site conditions Other, spec  0/42 (0.00%)	Adverse Events	21
+site	BFO:0000029	22-26
+Neutrophil count decreased  0/42 (0.00%)	Adverse Events	22
+Platelet count decreased  0/42 (0.00%)	Adverse Events	23
+platelet count	CMO:0000029	0-14

@@ -1,0 +1,138 @@
+INTERVENTION 1:	Intervention	0
+Standard Chemotherapy	Intervention	1
+Patients receive cyclophosphamide-containing chemotherapy alone.	Intervention	2
+cyclophosphamide: Part of planned chemotherapy regimen	Intervention	3
+cyclophosphamide	CHEBI:4026	0-16
+part of	BAO:0090002,BFO:0000050	18-25
+INTERVENTION 2:	Intervention	4
+Chemotherapy Plus Goserelin	Intervention	5
+goserelin	CHEBI:5523	18-27
+Patients receive goserelin subcutaneously once every 4 weeks beginning 1 week before start of cyclophosphamide-containing chemotherapy. Treatment continues until completion of chemotherapy in the absence of disease progression or unacceptable toxicity.	Intervention	6
+goserelin	CHEBI:5523	17-26
+week	UO:0000034	55-59
+week	UO:0000034	73-77
+disease	DOID:4,OGMS:0000031	207-214
+cyclophosphamide: Part of planned chemotherapy regimen	Intervention	7
+cyclophosphamide	CHEBI:4026	0-16
+part of	BAO:0090002,BFO:0000050	18-25
+goserelin acetate: Given subcutaneously	Intervention	8
+goserelin	CHEBI:5523	0-9
+acetate	CHEBI:47622	10-17
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed invasive breast cancer	Eligibility	1
+breast cancer	DOID:1612	34-47
+Stage I-IIIA	Eligibility	2
+Operable disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	9-16
+Bilateral synchronous invasive breast cancer allowed provided primary tumors were diagnosed no more than 1 month apart and both tumors are hormone receptor negative	Eligibility	4
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	31-44
+month	UO:0000035	107-112
+hormone	CHEBI:24621	139-146
+receptor	BAO:0000281	147-155
+Must be planning to receive 3-8 months of a preoperative or postoperative chemotherapy regimen containing alkylating agents (anthracyclines or non-anthracyclines), meeting 1 of the following criteria:	Eligibility	5
+3-month/4-course anthracycline-based regimen	Eligibility	6
+6- to 8-month/course anthracycline-based regimen	Eligibility	7
+6- to 8-month/course non-anthracycline-based regimen	Eligibility	8
+Hormone receptor status:	Eligibility	9
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen receptor negative	Eligibility	10
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+Progesterone receptor negative	Eligibility	11
+progesterone	CHEBI:17026	0-12
+receptor	BAO:0000281	13-21
+PATIENT CHARACTERISTICS:	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	13
+age	PATO:0000011	0-3
+18 to 49	Eligibility	14
+Sex	Eligibility	15
+Female	Eligibility	16
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	17
+Premenopausal	Eligibility	18
+Performance status	Eligibility	19
+Zubrod 0-2	Eligibility	20
+Life expectancy	Eligibility	21
+Not specified	Eligibility	22
+Hematopoietic	Eligibility	23
+Not specified	Eligibility	24
+Hepatic	Eligibility	25
+Not specified	Eligibility	26
+Renal	Eligibility	27
+Not specified	Eligibility	28
+Other	Eligibility	29
+Not pregnant or nursing	Eligibility	30
+Fertile patients must use effective barrier contraception	Eligibility	31
+No other prior malignancy except adequately treated basal cell or squamous cell skin cancer or any in situ cancer from which the patient has been disease-free for at least 5 years after treatment with curative intent	Eligibility	32
+skin cancer	DOID:4159	80-91
+cancer	DOID:162	85-91
+cancer	DOID:162	107-113
+patient	HADO:0000008,OAE:0001817	129-136
+PRIOR CONCURRENT THERAPY:	Eligibility	33
+Biologic therapy	Eligibility	34
+Not specified	Eligibility	35
+Chemotherapy	Eligibility	36
+See Disease Characteristics	Eligibility	37
+disease	DOID:4,OGMS:0000031	4-11
+No prior cytotoxic chemotherapy	Eligibility	38
+Endocrine therapy	Eligibility	39
+No other concurrent hormonal therapy	Eligibility	40
+Radiotherapy	Eligibility	41
+radiotherapy	OAE:0000235	0-12
+Concurrent radiotherapy to the breast, chest wall, or lymph nodes allowed	Eligibility	42
+radiotherapy	OAE:0000235	11-23
+breast	UBERON:0000310	31-37
+chest	UBERON:0001443	39-44
+lymph	UBERON:0002391	54-59
+Surgery	Eligibility	43
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	44
+disease	DOID:4,OGMS:0000031	4-11
+Other	Eligibility	45
+Concurrent participation in other therapeutic clinical trials, including SWOG-S0221, allowed	Eligibility	46
+Outcome Measurement:	Results	0
+Rate of Premature Ovarian Failure at 2 Years	Results	1
+rate	BAO:0080019	0-4
+premature ovarian failure	DOID:5426	8-33
+Ovarian failure at two years is defined as amenorrhea (absence of menstrual bleeding) for the preceding six months AND the presence of follicle-stimulating hormone (FSH) in the post-menopausal range.	Results	2
+amenorrhea	HP:0000141,DOID:13938	43-53
+hormone	CHEBI:24621	156-163
+range	LABO:0000114	193-198
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Standard Chemotherapy	Results	5
+Arm/Group Description: Patients receive cyclophosphamide-containing chemotherapy alone.	Results	6
+cyclophosphamide: Part of planned chemotherapy regimen	Results	7
+cyclophosphamide	CHEBI:4026	0-16
+part of	BAO:0090002,BFO:0000050	18-25
+Overall Number of Participants Analyzed: 69	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  15  21.7%	Results	10
+Results 2:	Results	11
+Arm/Group Title: Chemotherapy Plus Goserelin	Results	12
+goserelin	CHEBI:5523	35-44
+Arm/Group Description: Patients receive goserelin subcutaneously once every 4 weeks beginning 1 week before start of cyclophosphamide-containing chemotherapy. Treatment continues until completion of chemotherapy in the absence of disease progression or unacceptable toxicity.	Results	13
+goserelin	CHEBI:5523	40-49
+week	UO:0000034	78-82
+week	UO:0000034	96-100
+disease	DOID:4,OGMS:0000031	230-237
+cyclophosphamide: Part of planned chemotherapy regimen	Results	14
+cyclophosphamide	CHEBI:4026	0-16
+part of	BAO:0090002,BFO:0000050	18-25
+goserelin acetate: Given subcutaneously	Results	15
+goserelin	CHEBI:5523	0-9
+acetate	CHEBI:47622	10-17
+Overall Number of Participants Analyzed: 66	Results	16
+Measure Type: Count of Participants	Results	17
+Unit of Measure: Participants  5   7.6%	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 0/111 (0.00%)	Adverse Events	1
+Thrombosis/thrombus/embolism 0/111 (0.00%)	Adverse Events	2
+Adverse Events 2:	Adverse Events	3
+Total: 1/103 (0.97%)	Adverse Events	4
+Thrombosis/thrombus/embolism 1/103 (0.97%)	Adverse Events	5

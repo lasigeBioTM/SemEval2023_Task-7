@@ -1,0 +1,108 @@
+INTERVENTION 1:	Intervention	0
+T+P Concomitant Anthracycline-based Chemotherapy	Intervention	1
+5-Fluorouracil, epirubicin with cyclophosphamide (FEC), trastuzumab and pertuzumab every three weeks for three cycles, followed by docetaxel, trastuzumab and pertuzumab every three weeks, for three cycles as neoadjuvant therapy. Trastuzumab every three weeks from Cycle 7 up to Cycle 17 as adjuvant therapy post-surgery.	Intervention	2
+5-fluorouracil	CHEBI:46345	0-14
+cyclophosphamide	CHEBI:4026	32-48
+adjuvant	CHEBI:60809	211-219
+adjuvant	CHEBI:60809	290-298
+INTERVENTION 2:	Intervention	3
+T+P Sequential Anthracycline-based Chemotherapy	Intervention	4
+FEC every three weeks for three cycles, followed by docetaxel, trastuzumab and pertuzumab every three weeks, for three cycles as neoadjuvant therapy. Trastuzumab every three weeks from Cycle 7 up to Cycle 21 as adjuvant therapy post-surgery.	Intervention	5
+adjuvant	CHEBI:60809	132-140
+adjuvant	CHEBI:60809	211-219
+Inclusion Criteria:	Eligibility	0
+female participants, age >/=18 years	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	21-24
+advanced, inflammatory or early stage unilateral invasive breast cancer	Eligibility	2
+unilateral	HP:0012833	38-48
+breast cancer	DOID:1612	58-71
+HER2-positive breast cancer	Eligibility	3
+breast cancer	DOID:1612	14-27
+baseline left ventricular ejection fraction (LVEF) >/=55%	Eligibility	4
+left	HP:0012835	9-13
+ejection fraction	CMO:0000180	26-43
+Exclusion Criteria:	Eligibility	5
+metastatic disease (Stage IV) or bilateral breast cancer	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+bilateral breast cancer	DOID:6741	33-56
+previous anticancer therapy or radiotherapy for any malignancy	Eligibility	7
+radiotherapy	OAE:0000235	31-43
+other malignancy, except for carcinoma in situ of the cervix, or basal cell carcinoma	Eligibility	8
+carcinoma	HP:0030731,DOID:305	29-38
+carcinoma	HP:0030731,DOID:305	76-85
+basal cell carcinoma	HP:0002671,DOID:2513	65-85
+clinically relevant cardiovascular disease	Eligibility	9
+disease	DOID:4,OGMS:0000031	35-42
+current chronic treatment with corticosteroids of >10mg methylprednisolone or equivalent	Eligibility	10
+chronic	HP:0011010	8-15
+Outcome Measurement:	Results	0
+Safety: Percentage of Participants With Symptomatic Cardiac Events as Assessed by the Investigator	Results	1
+Left ventricular systolic dysfunction (LVSD) as assessed by the Investigator, including Grade 3, 4 or 5 symptomatic LVSD with symptomatic cardiac events.	Results	2
+left ventricular systolic dysfunction	HP:0025169	0-37
+Time frame: From baseline up to approximately 3.5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: T+P Concomitant Anthracycline-based Chemotherapy	Results	5
+Arm/Group Description: 5-Fluorouracil, epirubicin with cyclophosphamide (FEC), trastuzumab and pertuzumab every three weeks for three cycles, followed by docetaxel, trastuzumab and pertuzumab every three weeks, for three cycles as neoadjuvant therapy. Trastuzumab every three weeks from Cycle 7 up to Cycle 17 as adjuvant therapy post-surgery.	Results	6
+5-fluorouracil	CHEBI:46345	23-37
+cyclophosphamide	CHEBI:4026	55-71
+adjuvant	CHEBI:60809	234-242
+adjuvant	CHEBI:60809	313-321
+Overall Number of Participants Analyzed: 72	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: T+P Sequential Anthracycline-based Chemotherapy	Results	11
+Arm/Group Description: FEC every three weeks for three cycles, followed by docetaxel, trastuzumab and pertuzumab every three weeks, for three cycles as neoadjuvant therapy. Trastuzumab every three weeks from Cycle 7 up to Cycle 21 as adjuvant therapy post-surgery.	Results	12
+adjuvant	CHEBI:60809	155-163
+adjuvant	CHEBI:60809	234-242
+Overall Number of Participants Analyzed: 75	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  2.7	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 23/72 (31.94%)	Adverse Events	1
+Febrile Neutropenia 10/72 (13.89%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 2/72 (2.78%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia 2/72 (2.78%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia 0/72 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Left ventricular dysfunction 1/72 (1.39%)	Adverse Events	6
+left	HP:0012835	0-4
+Cardiovascular disorder 0/72 (0.00%)	Adverse Events	7
+disorder	OGMS:0000045	15-23
+Conduction disorder 0/72 (0.00%)	Adverse Events	8
+disorder	OGMS:0000045	11-19
+Diarrhoea 1/72 (1.39%)	Adverse Events	9
+Vomiting 0/72 (0.00%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Nausea 0/72 (0.00%)	Adverse Events	11
+nausea	HP:0002018	0-6
+Small intestinal obstruction 0/72 (0.00%)	Adverse Events	12
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Adverse Events 2:	Adverse Events	13
+Total: 18/75 (24.00%)	Adverse Events	14
+Febrile Neutropenia 4/75 (5.33%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 3/75 (4.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia 0/75 (0.00%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia 0/75 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Left ventricular dysfunction 3/75 (4.00%)	Adverse Events	19
+left	HP:0012835	0-4
+Cardiovascular disorder 0/75 (0.00%)	Adverse Events	20
+disorder	OGMS:0000045	15-23
+Conduction disorder 0/75 (0.00%)	Adverse Events	21
+disorder	OGMS:0000045	11-19
+Diarrhoea 3/75 (4.00%)	Adverse Events	22
+Vomiting 2/75 (2.67%)	Adverse Events	23
+vomiting	HP:0002013	0-8
+Nausea 1/75 (1.33%)	Adverse Events	24
+nausea	HP:0002018	0-6
+Small intestinal obstruction 0/75 (0.00%)	Adverse Events	25
+intestinal obstruction	HP:0005214,DOID:8437	6-28

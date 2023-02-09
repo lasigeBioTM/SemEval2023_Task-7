@@ -1,0 +1,92 @@
+INTERVENTION 1:	Intervention	0
+Sunitinib + Docetaxel + Trastuzumab	Intervention	1
+sunitinib	CHEBI:38940	0-9
+Sunitinib 37.5 milligram (mg) capsule orally once daily continuously starting from Day 2 up to Day 15 in each cycle, in schedule 2/1 (2 week on treatment, 1 week off treatment) along with docetaxel 75 milligram/square meter (mg/m^2) intravenous infusion over 1 hour on Day 1 of each cycle and trastuzumab either weekly: loading dose of 4 milligram/kilogram (mg/kg) intravenous infusion over 90 minutes on Day 1 followed by weekly maintenance doses of 2 mg/kg intravenous infusion over 30 minutes; or every 3 weeks: loading dose of 8 mg/kg intravenous infusion over 90 minutes on Day 1 followed by maintenance doses of 6 mg/kg intravenous infusion over 90 minutes every 3 weeks. Cycle length was 3 weeks.	Intervention	2
+sunitinib	CHEBI:38940	0-9
+capsule	GO:0042603	30-37
+day	UO:0000033	83-86
+day	UO:0000033	95-98
+day	UO:0000033	269-272
+day	UO:0000033	405-408
+day	UO:0000033	579-582
+week	UO:0000034	136-140
+week	UO:0000034	157-161
+week	UO:0000034	312-316
+week	UO:0000034	423-427
+week	UO:0000034	508-512
+week	UO:0000034	671-675
+week	UO:0000034	697-701
+meter	UO:0000008	218-223
+hour	UO:0000032	261-265
+length	PATO:0000122	684-690
+Inclusion Criteria:	Eligibility	0
+Breast cancer with evidence of unresectable, locally recurrent, or metastatic disease.	Eligibility	1
+breast cancer	DOID:1612	0-13
+recurrent	HP:0031796	53-62
+disease	DOID:4,OGMS:0000031	78-85
+Tumors over-expressing Her-2	Eligibility	2
+Candidate for treatment with docetaxel/trastuzumab	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Histology of inflammatory carcinoma	Eligibility	5
+histology	NCIT:C16681	0-9
+carcinoma	HP:0030731,DOID:305	26-35
+AST and/or ALT >1.5 x ULN concomitant with ALP >2.5 x ULN	Eligibility	6
+x	LABO:0000148	20-21
+x	LABO:0000148	52-53
+Outcome Measurement:	Results	0
+Number of Participants With Treatment-Emergent Adverse Events (AEs) or Serious Adverse Events (SAEs)	Results	1
+An AE was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. A SAE was an AE resulting in any of following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent are events between first dose of study drug and up to 28 days after last dose that were absent before treatment or that worsened relative to pretreatment state.	Results	2
+drug	CHEBI:23888	78-82
+drug	CHEBI:23888	473-477
+death	OAE:0000632	236-241
+prolonged	HP:0025297	254-263
+absent	PATO:0000462	522-528
+Time frame: From screening until 28 days post last dose of study drug	Results	3
+time	PATO:0000165	0-4
+drug	CHEBI:23888	65-69
+Results 1:	Results	4
+Arm/Group Title: Sunitinib + Docetaxel + Trastuzumab	Results	5
+sunitinib	CHEBI:38940	17-26
+Arm/Group Description: Sunitinib 37.5 milligram (mg) capsule orally once daily continuously starting from Day 2 up to Day 15 in each cycle, in schedule 2/1 (2 week on treatment, 1 week off treatment) along with docetaxel 75 milligram/square meter (mg/m^2) intravenous infusion over 1 hour on Day 1 of each cycle and trastuzumab either weekly: loading dose of 4 milligram/kilogram (mg/kg) intravenous infusion over 90 minutes on Day 1 followed by weekly maintenance doses of 2 mg/kg intravenous infusion over 30 minutes; or every 3 weeks: loading dose of 8 mg/kg intravenous infusion over 90 minutes on Day 1 followed by maintenance doses of 6 mg/kg intravenous infusion over 90 minutes every 3 weeks. Cycle length was 3 weeks.	Results	6
+sunitinib	CHEBI:38940	23-32
+capsule	GO:0042603	53-60
+day	UO:0000033	106-109
+day	UO:0000033	118-121
+day	UO:0000033	292-295
+day	UO:0000033	428-431
+day	UO:0000033	602-605
+week	UO:0000034	159-163
+week	UO:0000034	180-184
+week	UO:0000034	335-339
+week	UO:0000034	446-450
+week	UO:0000034	531-535
+week	UO:0000034	694-698
+week	UO:0000034	720-724
+meter	UO:0000008	241-246
+hour	UO:0000032	284-288
+length	PATO:0000122	707-713
+Overall Number of Participants Analyzed: 25	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  AEs: 24	Results	9
+SAEs: 11	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 11/25 (44.00%)	Adverse Events	1
+Febrile neutropenia * 4/25 (16.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 3/25 (12.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Diarrhoea * 1/25 (4.00%)	Adverse Events	4
+Intestinal perforation * 1/25 (4.00%)	Adverse Events	5
+intestinal perforation	HP:0031368,DOID:2074	0-22
+Rectal haemorrhage * 1/25 (4.00%)	Adverse Events	6
+Stomatitis * 1/25 (4.00%)	Adverse Events	7
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting * 1/25 (4.00%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Fatigue * 1/25 (4.00%)	Adverse Events	9
+fatigue	HP:0012378	0-7
+Multi-organ failure * 1/25 (4.00%)	Adverse Events	10
+Erysipelas * 1/25 (4.00%)	Adverse Events	11
+erysipelas	HP:0001055,DOID:11330	0-10
+Pseudomembranous colitis * 1/25 (4.00%)	Adverse Events	12
+colitis	HP:0002583,DOID:0060180	17-24

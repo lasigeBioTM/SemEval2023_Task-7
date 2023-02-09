@@ -1,0 +1,134 @@
+INTERVENTION 1:	Intervention	0
+Arm A: 5 Days/Week Schedule	Intervention	1
+CUDC-101: CUDC-101 administered as a 1 hour intravenous infusion at the maximum tolerated dose of 275 mg/m2 consecutively for 5 days on each 14 day cycle.	Intervention	2
+hour	UO:0000032	39-43
+day	UO:0000033	128-131
+day	UO:0000033	144-147
+INTERVENTION 2:	Intervention	3
+Arm B: 3 Days/Week Schedule	Intervention	4
+CUDC-101: CUDC-101 administered as a 1 hour intravenous infusion at the maximum tolerated dose of 275 mg/m2 on Monday, Wednesday, Friday for three consecutive weeks of each 28 day cycle.	Intervention	5
+hour	UO:0000032	39-43
+day	UO:0000033	114-117
+day	UO:0000033	125-128
+day	UO:0000033	133-136
+day	UO:0000033	176-179
+Inclusion Criteria:	Eligibility	0
+Subjects with histopathologically confirmed diagnosis of advanced breast, gastric, head and neck, liver and non-small cell lung cancer.	Eligibility	1
+breast	UBERON:0000310	66-72
+head	UBERON:0000033	83-87
+neck	GO:0044326,UBERON:0000974	92-96
+liver	UBERON:0002107	98-103
+lung cancer	DOID:1324	123-134
+For subjects with non-small cell lung cancer only:	Eligibility	2
+lung cancer	DOID:1324	33-44
+Most recent treatment must be erlotinib and subjects must have had a radiographic partial or complete response to treatment as defined by RECIST criteria and should be currently progressing after the documented response.	Eligibility	3
+erlotinib	CHEBI:114785	30-39
+A documented mutation in EGFR exons 19 or 21	Eligibility	4
+Subjects must have no further standard of care options or have refused standard therapy	Eligibility	5
+Measurable or evaluable disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	24-31
+Age  18 years	Eligibility	7
+age	PATO:0000011	0-3
+ECOG performance < 2	Eligibility	8
+Life expectancy  3 months	Eligibility	9
+If female, neither pregnant or lactating	Eligibility	10
+female	PATO:0000383	3-9
+If of child bearing potential, must use adequate birth control	Eligibility	11
+Absolute neutrophil count  1,500/µL; platelets  100,000/µL;	Eligibility	12
+Creatinine  1.5x upper limit of normal (ULN) or calculated creatinine clearance  60mL/min/1.73m2	Eligibility	13
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	59-69
+creatinine clearance	CMO:0000765	59-79
+Total bilirubin  1.5x ULN; AST/ALT  2.5x ULN. In subjects with documented liver metastases, the AST/ALT may be  5x ULN	Eligibility	14
+liver	UBERON:0002107	74-79
+Prothrombin time 1.5x ULN, unless receiving therapeutic anticoagulation	Eligibility	15
+prothrombin time	CMO:0000211	0-16
+Serum magnesium and potassium within normal limits (may use supplements to achieve normal values)	Eligibility	16
+Subjects with brain metastases are eligible if controlled on a stable dose  10mg prednisone/day or its equivalent dose of steroids	Eligibility	17
+brain	UBERON:0000955	14-19
+stable	HP:0031915	63-69
+Able to render informed consent and to follow protocol requirements.	Eligibility	18
+Exclusion Criteria:	Eligibility	19
+Anticancer therapy within 4 weeks of study entry.	Eligibility	20
+Use of investigational agent(s) within 30 days of study entry	Eligibility	21
+History of cardiac disease with a New York Heart Association (NYHA) Class II or greater congestive heart failure (CHF), myocardial infarction (MI) or unstable angina in the past 6 months prior to Day 1 of treatment, serious arrhythmias requiring medication for treatment.	Eligibility	22
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	19-26
+heart	UBERON:0000948	43-48
+heart	UBERON:0000948	99-104
+congestive heart failure	HP:0001635,DOID:6000	88-112
+myocardial infarction	HP:0001658,DOID:5844	120-141
+day	UO:0000033	196-199
+Known infection with human immunodeficiency virus (HIV), hepatitis B or hepatitis C. Subjects with liver cancer and hepatitis may be eligible.	Eligibility	23
+immunodeficiency	HP:0002721	27-43
+virus	BAO:0000232	44-49
+hepatitis b	DOID:2043	57-68
+hepatitis	HP:0012115,DOID:2237	57-66
+hepatitis	HP:0012115,DOID:2237	72-81
+hepatitis	HP:0012115,DOID:2237	116-125
+liver cancer	DOID:3571	99-111
+Outcome Measurement:	Results	0
+Number of Participants With Adverse Events	Results	1
+Safety and tolerability will be assessed in the two treatment arms and the incidence of adverse events will be compared.	Results	2
+Time frame: 12-15 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A: 5 Days/Week Schedule	Results	5
+Arm/Group Description: CUDC-101: CUDC-101 administered as a 1 hour intravenous infusion at the maximum tolerated dose of 275 mg/m2 consecutively for 5 days on each 14 day cycle.	Results	6
+hour	UO:0000032	62-66
+day	UO:0000033	151-154
+day	UO:0000033	167-170
+Overall Number of Participants Analyzed: 23	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  23	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm B: 3 Days/Week Schedule	Results	11
+Arm/Group Description: CUDC-101: CUDC-101 administered as a 1 hour intravenous infusion at the maximum tolerated dose of 275 mg/m2 on Monday, Wednesday, Friday for three consecutive weeks of each 28 day cycle.	Results	12
+hour	UO:0000032	62-66
+day	UO:0000033	137-140
+day	UO:0000033	148-151
+day	UO:0000033	156-159
+day	UO:0000033	199-202
+Overall Number of Participants Analyzed: 23	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  23	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 12/23 (52.17%)	Adverse Events	1
+Anaemia  0/23 (0.00%)	Adverse Events	2
+Neutropenia  1/23 (4.35%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Blood creatinine increased  1/23 (4.35%)	Adverse Events	4
+blood	UBERON:0000178	0-5
+creatinine	CHEBI:16737	6-16
+Supraventricular tacycardia  1/23 (4.35%)	Adverse Events	5
+Abdominal Pain  1/23 (4.35%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Oesophageal varices haemorrhage  0/23 (0.00%)	Adverse Events	7
+Pancreatitis  0/23 (0.00%)	Adverse Events	8
+pancreatitis	HP:0001733,DOID:4989	0-12
+Small intestinal obstruction  0/23 (0.00%)	Adverse Events	9
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Disease progression  5/23 (21.74%)	Adverse Events	10
+disease	DOID:4,OGMS:0000031	0-7
+Non-cardiac chest pain  1/23 (4.35%)	Adverse Events	11
+chest pain	HP:0100749	12-22
+Adverse Events 2:	Adverse Events	12
+Total: 9/23 (39.13%)	Adverse Events	13
+Anaemia  1/23 (4.35%)	Adverse Events	14
+Neutropenia  0/23 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Blood creatinine increased  0/23 (0.00%)	Adverse Events	16
+blood	UBERON:0000178	0-5
+creatinine	CHEBI:16737	6-16
+Supraventricular tacycardia  0/23 (0.00%)	Adverse Events	17
+Abdominal Pain  1/23 (4.35%)	Adverse Events	18
+abdominal pain	HP:0002027	0-14
+Oesophageal varices haemorrhage  1/23 (4.35%)	Adverse Events	19
+Pancreatitis  1/23 (4.35%)	Adverse Events	20
+pancreatitis	HP:0001733,DOID:4989	0-12
+Small intestinal obstruction  1/23 (4.35%)	Adverse Events	21
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Disease progression  3/23 (13.04%)	Adverse Events	22
+disease	DOID:4,OGMS:0000031	0-7
+Non-cardiac chest pain  0/23 (0.00%)	Adverse Events	23
+chest pain	HP:0100749	12-22

@@ -1,0 +1,220 @@
+INTERVENTION 1:	Intervention	0
+Arm A : iv Vinflunine Plus Capecitabine	Intervention	1
+vinflunine	CHEBI:90241	11-21
+capecitabine	CHEBI:31348	27-39
+Vinflunine dose 280 mg/m² on day 1 of each cycle every 3 weeks, Capecitabine 825 mg/m² twice daily orally for 14 consecutive days beginning on day 1 of each cycle followed by 1 week of rest.	Intervention	2
+vinflunine	CHEBI:90241	0-10
+day	UO:0000033	29-32
+day	UO:0000033	125-128
+day	UO:0000033	143-146
+capecitabine	CHEBI:31348	64-76
+week	UO:0000034	57-61
+week	UO:0000034	177-181
+vinflunine: intraveinous administration day 1 once every 3 weeks, 280 mg/m²	Intervention	3
+vinflunine	CHEBI:90241	0-10
+day	UO:0000033	40-43
+Capecitabine: Arm A : 1650 mg/m² Arm B : 2500 mg/m²	Intervention	4
+capecitabine	CHEBI:31348	0-12
+INTERVENTION 2:	Intervention	5
+Arm B : Capecitabine	Intervention	6
+capecitabine	CHEBI:31348	8-20
+1250 mg/m² twice daily orally for 14 consecutive days beginning on day 1 of each cycle followed by 1 week of rest	Intervention	7
+day	UO:0000033	49-52
+day	UO:0000033	67-70
+week	UO:0000034	101-105
+Capecitabine: Arm A : 1650 mg/m² Arm B : 2500 mg/m²	Intervention	8
+capecitabine	CHEBI:31348	0-12
+INCLUSION CRITERIA:	Eligibility	0
+Written informed consent	Eligibility	1
+Histologically or cytologically confirmed Her-2 negative carcinoma of the breast	Eligibility	2
+carcinoma	HP:0030731,DOID:305	57-66
+breast	UBERON:0000310	74-80
+Documented locally recurrent or metastatic disease not amenable to curative surgery or radiotherapy	Eligibility	3
+recurrent	HP:0031796	19-28
+disease	DOID:4,OGMS:0000031	43-50
+surgery	OAE:0000067	76-83
+radiotherapy	OAE:0000235	87-99
+One, two or three prior chemotherapy regimens including those administered in the neoadjuvant or adjuvant setting. At least one of the regimens must have been given for the treatment of advanced disease.	Eligibility	4
+adjuvant	CHEBI:60809	85-93
+adjuvant	CHEBI:60809	97-105
+disease	DOID:4,OGMS:0000031	195-202
+Prior treatment must have included both an anthracycline and a taxane. minimum cumulative dose of 180 mg/m² of doxorubicin or of 300 mg/m² of epirubicin	Eligibility	5
+anthracycline	CHEBI:48120	43-56
+taxane	CHEBI:36064	63-69
+doxorubicin	CHEBI:28748,BAO:0000639	111-122
+Documented progression on or within 12 months of the most recent chemotherapy.	Eligibility	6
+Prior hormone therapy is allowed	Eligibility	7
+hormone	CHEBI:24621	6-13
+Prior radiation therapy is allowed to less than 30% of the bone marrow	Eligibility	8
+bone marrow	UBERON:0002371	59-70
+LMeasurable or non measurable disease defined according to RECIST V1.1	Eligibility	9
+disease	DOID:4,OGMS:0000031	30-37
+Adequate recovery from recent surgery	Eligibility	10
+surgery	OAE:0000067	30-37
+Estimated life expectancy superior or equal of 12 weeks	Eligibility	11
+KPS equal or superior to 70%	Eligibility	12
+Age equal or superior to 21 years and < 80 years	Eligibility	13
+age	PATO:0000011	0-3
+ANC) equal or superior to 1.5 x 109/L, platelet count equal or superior to 100 x109/L and haemoglobin > 10 g/dL.	Eligibility	14
+x	LABO:0000148	30-31
+x	LABO:0000148	79-80
+platelet count	CMO:0000029	39-53
+Bilirubin inferior or equal to 1.5 x upper limit of normal (ULN), AST and ALT inferior or equal to 2.5 x ULN or inferior or equal to 5 x ULN in the case of liver metastases, alkaline phosphatase inferior or equal to 5 x ULN.	Eligibility	15
+x	LABO:0000148	35-36
+x	LABO:0000148	103-104
+x	LABO:0000148	135-136
+x	LABO:0000148	218-219
+liver	UBERON:0002107	156-161
+phosphatase	GO:0016791,BAO:0000295	183-194
+Calculated creatinine clearance superior or equal to 50 mL/min	Eligibility	16
+creatinine clearance	CMO:0000765	11-31
+Normal ECG	Eligibility	17
+Patients on coumadin or warfarin must be on stable doses and INR inferior or equal to 3	Eligibility	18
+warfarin	CHEBI:10033	24-32
+stable	HP:0031915	44-50
+Women of childbearing potential must be using a medically accepted method of contraception. Women of childbearing potential must have a negative serum or urine pregnancy test within 72 hours prior to first treatment administration.	Eligibility	19
+urine	UBERON:0001088	154-159
+Absence of any psychological, familial, sociological or geographical condition potentially hampering compliance with the study protocol and follow-up schedule; those conditions should be assessed with the patient before registration in the trial.	Eligibility	20
+condition	PDRO:0000129	69-78
+condition	PDRO:0000129	166-175
+patient	HADO:0000008,OAE:0001817	205-212
+EXCLUSION CRITERIA	Eligibility	21
+Known or with clinical evidence of brain metastasis or leptomeningeal involvement.	Eligibility	22
+brain	UBERON:0000955	35-40
+Pulmonary lymphangitis or symptomatic pleural effusion (grade > 2) that results in pulmonary dysfunction requiring active treatment.	Eligibility	23
+lymphangitis	DOID:9317	10-22
+pleural effusion	HP:0002202	38-54
+active	PATO:0002354	115-121
+Patients having received any other experimental drug or chemotherapy within 30 days	Eligibility	24
+drug	CHEBI:23888	48-52
+History of second primary malignancy, except: bilateral breast carcinoma, in situ carcinoma of the cervix, adequately treated non melanomatous carcinoma of the skin, and other malignancy treated at least 5 years previously with no evidence of recurrence	Eligibility	25
+history	BFO:0000182	0-7
+second	UO:0000010	11-17
+bilateral	HP:0012832	46-55
+breast carcinoma	HP:0003002,DOID:3459	56-72
+in situ carcinoma	DOID:8719	74-91
+carcinoma	HP:0030731,DOID:305	63-72
+carcinoma	HP:0030731,DOID:305	82-91
+carcinoma	HP:0030731,DOID:305	143-152
+Pre-existing motor/sensory peripheral neuropathy of CTCAE version 3.0 grade >1	Eligibility	26
+peripheral neuropathy	HP:0009830,DOID:870	27-48
+Patients having received > 3 regimens of chemotherapy	Eligibility	27
+Prior therapy with capecitabine and/or vinca-alkaloids	Eligibility	28
+capecitabine	CHEBI:31348	19-31
+History of severe hypersensitivity to vinca alkaloids and/or to fluoropyrimidine or any contra indication to any of the study drugs	Eligibility	29
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+hypersensitivity	GO:0002524,DOID:1205	18-34
+Known or suspected DPD	Eligibility	30
+Pregnant or lactating; With positive pregnancy test at inclusion	Eligibility	31
+Female of childbearing potential who is unwilling or unable to use a medically accepted method to avoid pregnancy during the 2 months preceding the start of study treatment, throughout the study period and at least 3 months following the last dose of study treatment	Eligibility	32
+female	PATO:0000383	0-6
+Known history of HIV infection	Eligibility	33
+history	BFO:0000182	6-13
+Inability to take and/or absorb oral medication	Eligibility	34
+Any serious, concurrent uncontrolled medical disorder especially uncontrolled hypercalcaemia, congestive heart failure, uncontrolled high-risk hypertension, arrhythmia, angina pectoris or previous history of myocardial infarction within 6 months prior to randomisation.	Eligibility	35
+disorder	OGMS:0000045	45-53
+congestive heart failure	HP:0001635,DOID:6000	94-118
+hypertension	HP:0000822,DOID:10763	143-155
+arrhythmia	HP:0011675	157-167
+angina pectoris	HP:0001681	169-184
+history	BFO:0000182	197-204
+myocardial infarction	HP:0001658,DOID:5844	208-229
+Prior BMT or autologous stem cell infusion following high-dose chemotherapy.	Eligibility	36
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS)	Results	1
+The primary endpoint for the trial is progression-free survival calculated from the date of randomisation until the date of progression or the date of death whatever the cause of death. Patient who does not progressed will be censored at the date of last tumour assessment or the date of last contact of a follow-up showing no progression.	Results	2
+death	OAE:0000632	151-156
+death	OAE:0000632	179-184
+patient	HADO:0000008,OAE:0001817	186-193
+Time frame: progression date will be assessed evey 6 weeks starting from the randomization date until first documented progression or date of death from any cause whichever came first assessed up to 3 years	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	142-147
+Results 1:	Results	4
+Arm/Group Title: Arm A : iv Vinflunine Plus Capecitabine	Results	5
+vinflunine	CHEBI:90241	28-38
+capecitabine	CHEBI:31348	44-56
+Arm/Group Description: Vinflunine dose 280 mg/m  on day 1 of each cycle every 3 weeks, Capecitabine 825 mg/m  twice daily orally for 14 consecutive days beginning on day 1 of each cycle followed by 1 week of rest.	Results	6
+vinflunine	CHEBI:90241	23-33
+day	UO:0000033	52-55
+day	UO:0000033	148-151
+day	UO:0000033	166-169
+capecitabine	CHEBI:31348	87-99
+week	UO:0000034	80-84
+week	UO:0000034	200-204
+vinflunine: intraveinous administration day 1 once every 3 weeks, 280 mg/m	Results	7
+vinflunine	CHEBI:90241	0-10
+day	UO:0000033	40-43
+Capecitabine: Arm A : 1650 mg/m  Arm B : 2500 mg/m	Results	8
+capecitabine	CHEBI:31348	0-12
+Overall Number of Participants Analyzed: 56	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  Number of events (Participants): 42  75.0%	Results	11
+Number of censored observations (Participants): 14  25.0%	Results	12
+Results 2:	Results	13
+Arm/Group Title: Arm B : Capecitabine	Results	14
+capecitabine	CHEBI:31348	25-37
+Arm/Group Description: 1250 mg/m  twice daily orally for 14 consecutive days beginning on day 1 of each cycle followed by 1 week of rest	Results	15
+day	UO:0000033	72-75
+day	UO:0000033	90-93
+week	UO:0000034	124-128
+Capecitabine: Arm A : 1650 mg/m  Arm B : 2500 mg/m	Results	16
+capecitabine	CHEBI:31348	0-12
+Overall Number of Participants Analyzed: 56	Results	17
+Measure Type: Count of Participants	Results	18
+Unit of Measure: Participants  Number of events (Participants): 46  82.1%	Results	19
+Number of censored observations (Participants): 10  17.9%	Results	20
+Adverse Events 1:	Adverse Events	0
+Total: 15/56 (26.79%)	Adverse Events	1
+Febrile neutropenia 2/56 (3.57%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 1/56 (1.79%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/56 (1.79%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/56 (1.79%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia 0/56 (0.00%)	Adverse Events	6
+Abdominal Pain 2/56 (3.57%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Ileus 2/56 (3.57%)	Adverse Events	8
+ileus	HP:0002595,DOID:8440	0-5
+Intestinal obstruction 1/56 (1.79%)	Adverse Events	9
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Mouth ulceration 1/56 (1.79%)	Adverse Events	10
+mouth	UBERON:0000165	0-5
+Fatigue 1/56 (1.79%)	Adverse Events	11
+fatigue	HP:0012378	0-7
+Pain 1/56 (1.79%)	Adverse Events	12
+pain	HP:0012531	0-4
+Chest discomfort 0/56 (0.00%)	Adverse Events	13
+chest	UBERON:0001443	0-5
+Death 1/56 (1.79%)	Adverse Events	14
+death	OAE:0000632	0-5
+Adverse Events 2:	Adverse Events	15
+Total: 7/55 (12.73%)	Adverse Events	16
+Febrile neutropenia 0/55 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/55 (0.00%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/55 (0.00%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/55 (0.00%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia 1/55 (1.82%)	Adverse Events	21
+Abdominal Pain 0/55 (0.00%)	Adverse Events	22
+abdominal pain	HP:0002027	0-14
+Ileus 0/55 (0.00%)	Adverse Events	23
+ileus	HP:0002595,DOID:8440	0-5
+Intestinal obstruction 0/55 (0.00%)	Adverse Events	24
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Mouth ulceration 0/55 (0.00%)	Adverse Events	25
+mouth	UBERON:0000165	0-5
+Fatigue 0/55 (0.00%)	Adverse Events	26
+fatigue	HP:0012378	0-7
+Pain 0/55 (0.00%)	Adverse Events	27
+pain	HP:0012531	0-4
+Chest discomfort 1/55 (1.82%)	Adverse Events	28
+chest	UBERON:0001443	0-5
+Death 0/55 (0.00%)	Adverse Events	29
+death	OAE:0000632	0-5

@@ -1,0 +1,191 @@
+INTERVENTION 1:	Intervention	0
+Ridaforolimus + Dalotuzumab + Exemestane	Intervention	1
+ridaforolimus	CHEBI:82677	0-13
+exemestane	CHEBI:4953	30-40
+Participants received ridaforolimus 10 mg orally (PO) every 5 days (QD x 5) plus dalotuzumab 10 mg/kg intravenously (IV) every week (QW) plus exemestane 25 mg PO every day (QD) in 28-day cycles until documented disease progression or unacceptable toxicity.	Intervention	2
+ridaforolimus	CHEBI:82677	22-35
+x	LABO:0000148	71-72
+x	LABO:0000148	143-144
+x	LABO:0000148	249-250
+week	UO:0000034	127-131
+exemestane	CHEBI:4953	142-152
+day	UO:0000033	62-65
+day	UO:0000033	168-171
+day	UO:0000033	183-186
+disease	DOID:4,OGMS:0000031	211-218
+INTERVENTION 2:	Intervention	3
+Ridaforolimus + Exemestane	Intervention	4
+ridaforolimus	CHEBI:82677	0-13
+exemestane	CHEBI:4953	16-26
+Participants received ridaforolimus 30 mg PO QD x 5 plus exemestane 25 mg PO QD treatment in 28-day cycles until documented disease progression or unacceptable toxicity.	Intervention	5
+ridaforolimus	CHEBI:82677	22-35
+x	LABO:0000148	48-49
+x	LABO:0000148	58-59
+x	LABO:0000148	162-163
+exemestane	CHEBI:4953	57-67
+disease	DOID:4,OGMS:0000031	124-131
+Inclusion Criteria:	Eligibility	0
+Females with a histologically confirmed diagnosis of breast cancer that is metastatic or locally advanced (locally advanced tumors must not be amenable to	Eligibility	1
+breast cancer	DOID:1612	53-66
+surgery or radiation therapy with curative intent) with the following pathological characteristics determined locally: estrogen receptor positive and Human Epidermal Growth Factor Receptor 2 (HER-2) negative, and Ki67 (a tumor marker)  15% determined by the central study laboratory	Eligibility	2
+surgery	OAE:0000067	0-7
+estrogen	CHEBI:50114,BAO:0000760	119-127
+receptor	BAO:0000281	128-136
+receptor	BAO:0000281	180-188
+growth factor	BAO:0002024	166-179
+central	HP:0030645	258-265
+Post-menopausal	Eligibility	3
+With advanced breast cancer whose disease was refractory to previous letrozole or anastrozole	Eligibility	4
+breast cancer	DOID:1612	14-27
+disease	DOID:4,OGMS:0000031	34-41
+refractory	HP:0031375	46-56
+letrozole	CHEBI:6413	69-78
+anastrozole	CHEBI:2704	82-93
+Has at least one confirmed measurable metastatic lesion	Eligibility	5
+Has a performance status  1 on the Eastern Cooperative Oncology Group (ECOG) performance scale	Eligibility	6
+group	CHEBI:24433	64-69
+Has a life expectancy of at least 3 months	Eligibility	7
+Adequate organ function	Eligibility	8
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	9
+Is receiving any other concurrent systemic tumor therapy, including	Eligibility	10
+hormonal agents and HER-2 inhibitors	Eligibility	11
+Previously received rapamycin or rapamycin analogs, including	Eligibility	12
+ridaforolimus, temsirolimus, or everolimus	Eligibility	13
+ridaforolimus	CHEBI:82677	0-13
+temsirolimus	CHEBI:79699	15-27
+everolimus	CHEBI:68478	32-42
+Received prior treatment with Insulin-like Growth Factor 1 Receptor (IGF-1R) inhibitors, Phosphatidylinositol 3-Kinase (PI3K) inhibitors, or	Eligibility	14
+growth factor	BAO:0002024	43-56
+receptor	BAO:0000281	59-67
+phosphatidylinositol	CHEBI:28874	89-109
+other experimental agents that target PI3K, Protein Kinase B (AKT), or Mammalian Target of Rapamycin (mTOR) pathway	Eligibility	15
+target	BAO:0003064	31-37
+target	BAO:0003064	81-87
+protein	CHEBI:36080,BAO:0000175	44-51
+kinase	BAO:0000294	52-58
+mammalian	BAO:0000362	71-80
+Is receiving chronic corticosteroids administered at doses greater than	Eligibility	16
+chronic	HP:0011010	13-20
+those used for normal replacement therapy	Eligibility	17
+Has active brain metastasis or leptomeningeal carcinomatosis; patients	Eligibility	18
+active	PATO:0002354	4-10
+brain	UBERON:0000955	11-16
+with adequately treated brain metastases are eligible if they meet certain criteria	Eligibility	19
+brain	UBERON:0000955	24-29
+Known allergy to macrolide antibiotics	Eligibility	20
+allergy	HP:0012393	6-13
+macrolide	CHEBI:25106	17-26
+Has an active infection requiring antibiotics	Eligibility	21
+active	PATO:0002354	7-13
+Significant or uncontrolled cardiovascular disease	Eligibility	22
+disease	DOID:4,OGMS:0000031	43-50
+Poorly controlled Type 1 or 2 diabetes	Eligibility	23
+Is known to be Human Immunodeficiency Virus (HIV) positive	Eligibility	24
+immunodeficiency	HP:0002721	21-37
+virus	BAO:0000232	38-43
+Has a known history of active hepatitis B or C. Healthy carriers of hepatitis B are not allowed on this study	Eligibility	25
+history	BFO:0000182	12-19
+active	PATO:0002354	23-29
+hepatitis b	DOID:2043	30-41
+hepatitis b	DOID:2043	68-79
+healthy	HP:0032322	48-55
+Outcome Measurement:	Results	0
+1. Progression-free Survival (PFS) According to Response Criteria in Solid Tumors Version 1.1 (RECIST 1.1) Based on Blinded Independent Central Review (BICR)	Results	1
+central	HP:0030645	136-143
+PFS was defined as the time from randomization to progressive disease, or death, whichever occurs first. Response was assessed according to RECIST 1.1 by BICR. According to RECIST 1.1, progressive disease (PD) was defined as a 20% relative increase in the sum of diameters (SOD) of target lesions, taking as reference the nadir SOD and an absolute increase of >5 mm in the SOD, or the appearance of new lesions. PFS was analyzed using the Kaplan-Meier method and median PFS (95% confidence interval [CI]) in weeks was reported for each treatment arm. Per protocol, participants remained on assigned treatment until disease progression. Participants who discontinued study treatment for reasons other than disease progression continued to be assessed by imaging until objective documentation of progression. All participants (including participants who discontinued study treatment) were followed for survival until investigator notification to discontinue.	Results	2
+time	PATO:0000165	23-27
+progressive	HP:0003676	50-61
+progressive	HP:0003676	185-196
+disease	DOID:4,OGMS:0000031	62-69
+disease	DOID:4,OGMS:0000031	197-204
+disease	DOID:4,OGMS:0000031	615-622
+disease	DOID:4,OGMS:0000031	705-712
+death	OAE:0000632	74-79
+increase	BAO:0001251	240-248
+increase	BAO:0001251	348-356
+target	BAO:0003064	282-288
+median	BAO:0002174	463-469
+Time frame: From Day 1 through last post-study efficacy follow-up (up to ~19 months)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	17-20
+efficacy	BAO:0000656	47-55
+Results 1:	Results	4
+Arm/Group Title: Ridaforolimus + Dalotuzumab + Exemestane	Results	5
+ridaforolimus	CHEBI:82677	17-30
+exemestane	CHEBI:4953	47-57
+Arm/Group Description: Participants received ridaforolimus 10 mg orally (PO) every 5 days (QD x 5) plus dalotuzumab 10 mg/kg intravenously (IV) every week (QW) plus exemestane 25 mg PO every day (QD) in 28-day cycles until documented disease progression or unacceptable toxicity.	Results	6
+ridaforolimus	CHEBI:82677	45-58
+x	LABO:0000148	94-95
+x	LABO:0000148	166-167
+x	LABO:0000148	272-273
+week	UO:0000034	150-154
+exemestane	CHEBI:4953	165-175
+day	UO:0000033	85-88
+day	UO:0000033	191-194
+day	UO:0000033	206-209
+disease	DOID:4,OGMS:0000031	234-241
+Overall Number of Participants Analyzed: 40	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Weeks  23.29        (8.71 to 38.43)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Ridaforolimus + Exemestane	Results	11
+ridaforolimus	CHEBI:82677	17-30
+exemestane	CHEBI:4953	33-43
+Arm/Group Description: Participants received ridaforolimus 30 mg PO QD x 5 plus exemestane 25 mg PO QD treatment in 28-day cycles until documented disease progression or unacceptable toxicity.	Results	12
+ridaforolimus	CHEBI:82677	45-58
+x	LABO:0000148	71-72
+x	LABO:0000148	81-82
+x	LABO:0000148	185-186
+exemestane	CHEBI:4953	80-90
+disease	DOID:4,OGMS:0000031	147-154
+Overall Number of Participants Analyzed: 40	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Weeks  31.86        (16.00 to 39.29)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 8/39 (20.51%)	Adverse Events	1
+Myocardial infarction 0/39 (0.00%)	Adverse Events	2
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Sinus tachycardia 0/39 (0.00%)	Adverse Events	3
+sinus tachycardia	HP:0011703	0-17
+Diarrhoea 1/39 (2.56%)	Adverse Events	4
+Haematochezia 0/39 (0.00%)	Adverse Events	5
+Vomiting 1/39 (2.56%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Asthenia 0/39 (0.00%)	Adverse Events	7
+asthenia	HP:0025406	0-8
+Disease progression 0/39 (0.00%)	Adverse Events	8
+disease	DOID:4,OGMS:0000031	0-7
+Jaundice cholestatic 0/39 (0.00%)	Adverse Events	9
+jaundice	HP:0000952	0-8
+Appendicitis 0/39 (0.00%)	Adverse Events	10
+appendicitis	DOID:8337	0-12
+Escherichia sepsis 1/39 (2.56%)	Adverse Events	11
+sepsis	HP:0100806	12-18
+Gastroenteritis 0/39 (0.00%)	Adverse Events	12
+gastroenteritis	DOID:2326	0-15
+Adverse Events 2:	Adverse Events	13
+Total: 17/40 (42.50%)	Adverse Events	14
+Myocardial infarction 1/40 (2.50%)	Adverse Events	15
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Sinus tachycardia 1/40 (2.50%)	Adverse Events	16
+sinus tachycardia	HP:0011703	0-17
+Diarrhoea 0/40 (0.00%)	Adverse Events	17
+Haematochezia 1/40 (2.50%)	Adverse Events	18
+Vomiting 1/40 (2.50%)	Adverse Events	19
+vomiting	HP:0002013	0-8
+Asthenia 1/40 (2.50%)	Adverse Events	20
+asthenia	HP:0025406	0-8
+Disease progression 1/40 (2.50%)	Adverse Events	21
+disease	DOID:4,OGMS:0000031	0-7
+Jaundice cholestatic 1/40 (2.50%)	Adverse Events	22
+jaundice	HP:0000952	0-8
+Appendicitis 1/40 (2.50%)	Adverse Events	23
+appendicitis	DOID:8337	0-12
+Escherichia sepsis 0/40 (0.00%)	Adverse Events	24
+sepsis	HP:0100806	12-18
+Gastroenteritis 1/40 (2.50%)	Adverse Events	25
+gastroenteritis	DOID:2326	0-15

@@ -1,0 +1,94 @@
+INTERVENTION 1:	Intervention	0
+Letrozole	Intervention	1
+letrozole	CHEBI:6413	0-9
+2.5 mg by mouth (p.o.) once daily	Intervention	2
+mouth	UBERON:0000165	10-15
+INTERVENTION 2:	Intervention	3
+Anastrozole	Intervention	4
+anastrozole	CHEBI:2704	0-11
+1 mg p.o. once daily	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Recent primary surgery for breast cancer	Eligibility	1
+surgery	OAE:0000067	15-22
+breast cancer	DOID:1612	27-40
+Early stage breast cancer	Eligibility	2
+breast cancer	DOID:1612	12-25
+Postmenopausal	Eligibility	3
+Hormone receptor positive	Eligibility	4
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Positive lymph node involvement	Eligibility	5
+lymph	UBERON:0002391	9-14
+Exclusion Criteria:	Eligibility	6
+Metastatic disease	Eligibility	7
+disease	DOID:4,OGMS:0000031	11-18
+Presence of contralateral breast cancer including DCIS	Eligibility	8
+breast cancer	DOID:1612	26-39
+Progression	Eligibility	9
+Other protocol-defined inclusion/exclusion criteria may apply.	Eligibility	10
+Outcome Measurement:	Results	0
+Disease Free Survival	Results	1
+disease	DOID:4,OGMS:0000031	0-7
+Disease-free survival was defined as the time from the date of randomization to the date of the first documentation of re-occurrence of invasive breast cancer in local, regional or distant sites, new invasive breast cancer in the contra-lateral breast, or death from any cause.	Results	2
+time	PATO:0000165	41-45
+breast cancer	DOID:1612	145-158
+breast cancer	DOID:1612	209-222
+breast	UBERON:0000310	145-151
+breast	UBERON:0000310	209-215
+breast	UBERON:0000310	245-251
+death	OAE:0000632	256-261
+Time frame: 84 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Letrozole	Results	5
+letrozole	CHEBI:6413	17-26
+Arm/Group Description: 2.5 mg by mouth (p.o.) once daily	Results	6
+mouth	UBERON:0000165	33-38
+Overall Number of Participants Analyzed: 2061	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  NA  [1]    (84.14 to NA)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Anastrozole	Results	11
+anastrozole	CHEBI:2704	17-28
+Arm/Group Description: 1 mg p.o. once daily	Results	12
+Overall Number of Participants Analyzed: 2075	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  NA  [1]    (NA to NA)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 486/2049 (23.72%)	Adverse Events	1
+Anaemia 4/2049 (0.20%)	Adverse Events	2
+Autoimmune haemolytic anaemia 0/2049 (0.00%)	Adverse Events	3
+Haemorrhagic anaemia 1/2049 (0.05%)	Adverse Events	4
+Lymphadenopathy 0/2049 (0.00%)	Adverse Events	5
+lymphadenopathy	HP:0002716	0-15
+Pancytopenia 0/2049 (0.00%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+Acute coronary syndrome 1/2049 (0.05%)	Adverse Events	7
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction 3/2049 (0.15%)	Adverse Events	8
+acute myocardial infarction	DOID:9408	0-27
+Adams-Stokes syndrome 1/2049 (0.05%)	Adverse Events	9
+syndrome	DOID:225	13-21
+Angina pectoris 8/2049 (0.39%)	Adverse Events	10
+angina pectoris	HP:0001681	0-15
+Angina unstable 1/2049 (0.05%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 520/2062 (25.22%)	Adverse Events	13
+Anaemia 3/2062 (0.15%)	Adverse Events	14
+Autoimmune haemolytic anaemia 1/2062 (0.05%)	Adverse Events	15
+Haemorrhagic anaemia 0/2062 (0.00%)	Adverse Events	16
+Lymphadenopathy 2/2062 (0.10%)	Adverse Events	17
+lymphadenopathy	HP:0002716	0-15
+Pancytopenia 1/2062 (0.05%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Acute coronary syndrome 1/2062 (0.05%)	Adverse Events	19
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction 4/2062 (0.19%)	Adverse Events	20
+acute myocardial infarction	DOID:9408	0-27
+Adams-Stokes syndrome 0/2062 (0.00%)	Adverse Events	21
+syndrome	DOID:225	13-21
+Angina pectoris 8/2062 (0.39%)	Adverse Events	22
+angina pectoris	HP:0001681	0-15
+Angina unstable 2/2062 (0.10%)	Adverse Events	23

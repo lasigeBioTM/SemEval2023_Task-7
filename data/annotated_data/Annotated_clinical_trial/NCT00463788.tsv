@@ -1,0 +1,117 @@
+INTERVENTION 1:	Intervention	0
+Cisplatin and Cetuximab	Intervention	1
+cisplatin	CHEBI:27899	0-9
+Cisplatin 75 milligram per square meter (mg/m^2) intravenous (IV) infusion administered on Day 1 until every 3 weeks with a maximum of 6 cycles and cetuximab initially 400 mg/m^2 followed by 250 mg/m^2 IV infusion weekly. Participants who demonstrated at least stable disease (SD) up to 6 cycles of cisplatin continued treatment with cetuximab only until progressive disease (PD) or occurrence of unacceptable toxicity.	Intervention	2
+cisplatin	CHEBI:27899	0-9
+cisplatin	CHEBI:27899	299-308
+meter	UO:0000008	34-39
+day	UO:0000033	91-94
+stable	HP:0031915	261-267
+disease	DOID:4,OGMS:0000031	268-275
+disease	DOID:4,OGMS:0000031	367-374
+progressive	HP:0003676	355-366
+INTERVENTION 2:	Intervention	3
+Cisplatin	Intervention	4
+cisplatin	CHEBI:27899	0-9
+Cisplatin 75 mg/m^2 IV infusion administered on Day 1 until every 3 weeks with a maximum of 6 cycles until the first occurrence of PD, unacceptable toxicity or withdrawal of consent.	Intervention	5
+cisplatin	CHEBI:27899	0-9
+day	UO:0000033	48-51
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed diagnosis of metastatic breast cancer (Stage IV)	Eligibility	1
+breast cancer	DOID:1612	49-62
+Estrogen Receptor [ER] negative, PgR negative and HER2 less than 3+ expression by immunohistochemistry (IHC)	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+immunohistochemistry	BAO:0000415	82-102
+No more than 1 prior chemotherapy received for treating this metastatic breast cancer	Eligibility	3
+breast cancer	DOID:1612	72-85
+No more than 1 prior anthracycline and/or taxane regimen (either adjuvant or metastatic setting)	Eligibility	4
+anthracycline	CHEBI:48120	21-34
+taxane	CHEBI:36064	42-48
+adjuvant	CHEBI:60809	65-73
+Other protocol-defined inclusion criteria may apply	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Prior platinum agent	Eligibility	7
+platinum	CHEBI:33364	6-14
+Prior mitomycin	Eligibility	8
+mitomycin	CHEBI:25357	6-15
+Known history of brain metastases	Eligibility	9
+history	BFO:0000182	6-13
+brain	UBERON:0000955	17-22
+Other protocol-defined exclusion criteria may apply	Eligibility	10
+Outcome Measurement:	Results	0
+Best Overall Response (BOR)	Results	1
+Percentage of participants with best overall (objective) response based assessment of confirmed complete response (CR) or confirmed partial response (PR) according to Response Evaluation Criteria in Solid Tumors (RECIST).	Results	2
+Time frame: Evaluations were performed every 6 weeks until progression reported between day of first participant randomized, 20 June 2007, until cut-off date, 31 July 2009	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	88-91
+Results 1:	Results	4
+Arm/Group Title: Cisplatin and Cetuximab	Results	5
+cisplatin	CHEBI:27899	17-26
+Arm/Group Description: Cisplatin 75 milligram per square meter (mg/m^2) intravenous (IV) infusion administered on Day 1 until every 3 weeks with a maximum of 6 cycles and cetuximab initially 400 mg/m^2 followed by 250 mg/m^2 IV infusion weekly. Participants who demonstrated at least stable disease (SD) up to 6 cycles of cisplatin continued treatment with cetuximab only until progressive disease (PD) or occurrence of unacceptable toxicity.	Results	6
+cisplatin	CHEBI:27899	23-32
+cisplatin	CHEBI:27899	322-331
+meter	UO:0000008	57-62
+day	UO:0000033	114-117
+stable	HP:0031915	284-290
+disease	DOID:4,OGMS:0000031	291-298
+disease	DOID:4,OGMS:0000031	390-397
+progressive	HP:0003676	378-389
+Overall Number of Participants Analyzed: 115	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  20.0        (13.1 to 28.5)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cisplatin	Results	11
+cisplatin	CHEBI:27899	17-26
+Arm/Group Description: Cisplatin 75 mg/m^2 IV infusion administered on Day 1 until every 3 weeks with a maximum of 6 cycles until the first occurrence of PD, unacceptable toxicity or withdrawal of consent.	Results	12
+cisplatin	CHEBI:27899	23-32
+day	UO:0000033	71-74
+Overall Number of Participants Analyzed: 58	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  10.3        (3.9 to 21.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 41/114 (35.96%)	Adverse Events	1
+Anaemia * 3/114 (2.63%)	Adverse Events	2
+Leukopenia * 1/114 (0.88%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia * 1/114 (0.88%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Tachycardia * 0/114 (0.00%)	Adverse Events	5
+tachycardia	HP:0001649	0-11
+Abdominal Distention * 1/114 (0.88%)	Adverse Events	6
+abdominal distention	HP:0003270	0-20
+Abdomial Pain * 1/114 (0.88%)	Adverse Events	7
+pain	HP:0012531	9-13
+Diarrhoea * 3/114 (2.63%)	Adverse Events	8
+Intestinal Obstruction * 0/114 (0.00%)	Adverse Events	9
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Melaena * 1/114 (0.88%)	Adverse Events	10
+Nausea * 2/114 (1.75%)	Adverse Events	11
+nausea	HP:0002018	0-6
+Vomiting * 1/114 (0.88%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+Asthenia * 2/114 (1.75%)	Adverse Events	13
+asthenia	HP:0025406	0-8
+Adverse Events 2:	Adverse Events	14
+Total: 13/57 (22.81%)	Adverse Events	15
+Anaemia * 0/57 (0.00%)	Adverse Events	16
+Leukopenia * 0/57 (0.00%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia * 0/57 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Tachycardia * 1/57 (1.75%)	Adverse Events	19
+tachycardia	HP:0001649	0-11
+Abdominal Distention * 0/57 (0.00%)	Adverse Events	20
+abdominal distention	HP:0003270	0-20
+Abdomial Pain * 0/57 (0.00%)	Adverse Events	21
+pain	HP:0012531	9-13
+Diarrhoea * 0/57 (0.00%)	Adverse Events	22
+Intestinal Obstruction * 1/57 (1.75%)	Adverse Events	23
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Melaena * 0/57 (0.00%)	Adverse Events	24
+Nausea * 0/57 (0.00%)	Adverse Events	25
+nausea	HP:0002018	0-6
+Vomiting * 1/57 (1.75%)	Adverse Events	26
+vomiting	HP:0002013	0-8
+Asthenia * 0/57 (0.00%)	Adverse Events	27
+asthenia	HP:0025406	0-8

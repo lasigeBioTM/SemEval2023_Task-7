@@ -1,0 +1,141 @@
+INTERVENTION 1:	Intervention	0
+Mometasone	Intervention	1
+mometasone	CHEBI:6970	0-10
+Patients apply 2.5 mL mometasone furoate cream once daily to the treatment area (breast or chest wall) for the duration of planned radiotherapy.	Intervention	2
+mometasone furoate	CHEBI:47564	22-40
+area	PATO:0001323	75-79
+breast	UBERON:0000310	81-87
+chest	UBERON:0001443	91-96
+duration	PATO:0001309	111-119
+radiotherapy	OAE:0000235	131-143
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Patients apply 2.5 mL of an identical-appearing placebo cream to the treatment area as in arm A.	Intervention	5
+area	PATO:0001323	79-83
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed diagnosis of primary invasive breast cancer or ductal carcinoma in situ	Eligibility	1
+breast cancer	DOID:1612	55-68
+ductal carcinoma in situ	HP:0030075,DOID:0060074	72-96
+Planning to undergo  5 weeks of continuous definitive or adjuvant external-beam radiotherapy to 1 of the following sites:	Eligibility	2
+adjuvant	CHEBI:60809	57-65
+radiotherapy	OAE:0000235	80-92
+Whole breast (as part of breast-conservation therapy)	Eligibility	3
+breast	UBERON:0000310	6-12
+breast	UBERON:0000310	25-31
+part of	BAO:0090002,BFO:0000050	17-24
+Chest wall (as part of post-mastectomy irradiation)	Eligibility	4
+chest	UBERON:0001443	0-5
+part of	BAO:0090002,BFO:0000050	15-22
+Treatment of regional lymph nodes (i.e., axillary, supraclavicular, or internal mammary) allowed	Eligibility	5
+lymph	UBERON:0002391	22-27
+Must meet the following criteria for planned radiotherapy:	Eligibility	6
+radiotherapy	OAE:0000235	45-57
+Planned total radiation dose  5,000 Gy and daily radiation dose between 1.75 and 2.12 Gy	Eligibility	7
+No planned split-course radiotherapy	Eligibility	8
+radiotherapy	OAE:0000235	24-36
+No partial breast treatment, defined as treatment of < 75% of the breast parenchyma	Eligibility	9
+breast	UBERON:0000310	11-17
+breast	UBERON:0000310	66-72
+parenchyma	UBERON:0000353	73-83
+Intensity-modulated radiotherapy planning and delivery, conventional radiotherapy, or 3-dimensional radiotherapy techniques allowed	Eligibility	10
+radiotherapy	OAE:0000235	20-32
+radiotherapy	OAE:0000235	69-81
+radiotherapy	OAE:0000235	100-112
+Must be entered on study within 7 days prior to beginning radiotherapy	Eligibility	11
+radiotherapy	OAE:0000235	58-70
+Must start study drug prior to receiving the third radiotherapy fraction	Eligibility	12
+drug	CHEBI:23888	17-21
+radiotherapy	OAE:0000235	51-63
+No preexisting skin breakdown within the planned radiotherapy field at the time of study entry	Eligibility	13
+radiotherapy	OAE:0000235	49-61
+time	PATO:0000165	75-79
+No bilateral breast cancer treatment	Eligibility	14
+bilateral breast cancer	DOID:6741	3-26
+No inflammatory carcinoma of the breast	Eligibility	15
+carcinoma	HP:0030731,DOID:305	16-25
+breast	UBERON:0000310	33-39
+Hormone receptor status not specified	Eligibility	16
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+Male or female	Eligibility	18
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	19
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2	Eligibility	20
+group	CHEBI:24433	29-34
+Not pregnant or nursing	Eligibility	21
+Negative pregnancy test	Eligibility	22
+Fertile patients must use effective contraception	Eligibility	23
+Able to complete questionnaires independently or with assistance	Eligibility	24
+No known allergy or hypersensitivity to mometasone furoate (Elocon® or generic cream), imidazolidinyl urea, or formaldehyde	Eligibility	25
+allergy	HP:0012393	9-16
+hypersensitivity	GO:0002524,DOID:1205	20-36
+mometasone furoate	CHEBI:47564	40-58
+urea	CHEBI:16199	102-106
+formaldehyde	CHEBI:16842	111-123
+PRIOR CONCURRENT THERAPY:	Eligibility	26
+See Disease Characteristics	Eligibility	27
+disease	DOID:4,OGMS:0000031	4-11
+No prior radiotherapy to the planned radiotherapy treatment area	Eligibility	28
+radiotherapy	OAE:0000235	9-21
+radiotherapy	OAE:0000235	37-49
+area	PATO:0001323	60-64
+No concurrent or planned leukotriene inhibitors, including the following:	Eligibility	29
+leukotriene	CHEBI:25029	25-36
+Zafirleukast	Eligibility	30
+Monteleukast	Eligibility	31
+Zileuton	Eligibility	32
+zileuton	CHEBI:10112	0-8
+No concurrent or planned use of any prescription or over-the-counter medications containing hydrocortisone or any other cortisone or steroid-containing preparations (systemic, local, or topical) including, but not limited to, the following creams or ointments:	Eligibility	33
+cortisone	CHEBI:16962	97-106
+cortisone	CHEBI:16962	120-129
+Cortaid®	Eligibility	34
+Cortizone 10®	Eligibility	35
+Tucks®	Eligibility	36
+Preparation H®	Eligibility	37
+No other concurrent topical agents (e.g., lotions, aloe vera) to radiotherapy field during study treatment	Eligibility	38
+radiotherapy	OAE:0000235	65-77
+Outcome Measurement:	Results	0
+Mean Maximum Grade of Radiation Dermatitis by Treatment Arm.	Results	1
+mean	BAO:0002173	0-4
+dermatitis	DOID:2723	32-42
+Maximum grade of radiation dermatitis as measured by the Common Terminology Criteria (CTCAE) for Adverse Events (AE), Version 3.0. Grade 1 (Mild AE), Grade 2 (Moderate AE), Grade 3 (Severe AE), Grade 4 (Life-threatening or disabling AE), Grade 5 (Death related to AE).	Results	2
+dermatitis	DOID:2723	27-37
+mild	HP:0012825	140-144
+moderate	HP:0012826	159-167
+severe	HP:0012828	182-188
+death	OAE:0000632	247-252
+Time frame: During Radiation Treatment, up to a maximum of 9 weeks.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Mometasone	Results	5
+mometasone	CHEBI:6970	17-27
+Arm/Group Description: Patients apply 2.5 mL mometasone furoate cream once daily to the treatment area (breast or chest wall) for the duration of planned radiotherapy.	Results	6
+mometasone furoate	CHEBI:47564	45-63
+area	PATO:0001323	98-102
+breast	UBERON:0000310	104-110
+chest	UBERON:0001443	114-119
+duration	PATO:0001309	134-142
+radiotherapy	OAE:0000235	154-166
+Overall Number of Participants Analyzed: 84	Results	7
+Mean (Full Range)	Results	8
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: Grade  1.2        (0.0 to 3.0)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo	Results	11
+Arm/Group Description: Patients apply 2.5 mL of an identical-appearing placebo cream to the treatment area as in arm A.	Results	12
+area	PATO:0001323	102-106
+Overall Number of Participants Analyzed: 82	Results	13
+Mean (Full Range)	Results	14
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: Grade  1.3        (0.0 to 3.0)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/84 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

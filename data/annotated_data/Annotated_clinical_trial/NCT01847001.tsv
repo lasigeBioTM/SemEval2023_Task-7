@@ -1,0 +1,108 @@
+INTERVENTION 1:	Intervention	0
+Propranolol + Neoadjuvant Chemotherapy	Intervention	1
+propranolol	CHEBI:8499	0-11
+Subjects will receive 2 types of chemotherapy regimens plus propranolol treatment.	Intervention	2
+propranolol	CHEBI:8499	60-71
+Regimen I, involves paclitaxel (may be substituted with nab-paclitaxel; maybe given with premedication), and	Intervention	3
+paclitaxel	CHEBI:45863	20-30
+paclitaxel	CHEBI:45863	60-70
+Regimen II involves doxorubicin (maybe given with anti-nausea therapy) and cyclophosphamide (maybe given with Pegfilgrastim).	Intervention	4
+doxorubicin	CHEBI:28748,BAO:0000639	20-31
+cyclophosphamide	CHEBI:4026	75-91
+If your tumor is HER2 positive, you will also receive trastuzumab and pertuzumab.	Intervention	5
+After you complete all chemotherapy plus propranolol treatment, you will then have surgery to remove the breast tumor.	Intervention	6
+propranolol	CHEBI:8499	41-52
+surgery	OAE:0000067	83-90
+breast	UBERON:0000310	105-111
+DOT imaging will be done at 4 additional time points, including beo.	Intervention	7
+time	PATO:0000165	41-45
+Propranolol: Propranolol starting dose is 20mg b.i.d.; propranolol dose is up-titrated to 40mg b.i.d. to 80 mg daily with chemotherapy depending on tolerability. Tolerability is assessed every 2 weeks.	Intervention	8
+propranolol	CHEBI:8499	0-11
+propranolol	CHEBI:8499	13-24
+propranolol	CHEBI:8499	55-66
+Inclusion Criteria:	Eligibility	0
+English or Spanish speaking women age 18	Eligibility	1
+age	PATO:0000011	34-37
+Heart Rate > 60 bpm	Eligibility	2
+heart rate	CMO:0000002	0-10
+Systolic Blood Pressure > 100 mm/Hg	Eligibility	3
+systolic blood pressure	CMO:0000004	0-23
+Deemed eligible to receive neoadjuvant chemotherapy with 12 cycles of weekly taxane therapy (paclitaxel 80mg/m2 or Abraxane 100 mg/m2 if there is a shortage of paclitaxel) followed by 4 cycles of Adriamycin (60mg/m2) and cyclophosphamide (600 mg/m2) given every 2 weeks with growth-factor support.	Eligibility	4
+taxane	CHEBI:36064	77-83
+paclitaxel	CHEBI:45863	93-103
+paclitaxel	CHEBI:45863	160-170
+cyclophosphamide	CHEBI:4026	221-237
+Echocardiogram (ECHO) or multiple-gated acquisition scan (MUGA) with ejection fraction > 50%.	Eligibility	5
+ejection fraction	CMO:0000180	69-86
+Patients with hormone receptor +/- and human epidermal growth factor receptor 2 protein (HER2) +/- breast cancer are eligible	Eligibility	6
+hormone	CHEBI:24621	14-21
+receptor	BAO:0000281	22-30
+receptor	BAO:0000281	69-77
+growth factor	BAO:0002024	55-68
+protein	CHEBI:36080,BAO:0000175	80-87
+breast cancer	DOID:1612	99-112
+If a patient has HER2-positive breast cancer, Herceptin and Perjeta will be given along with taxane therapy	Eligibility	7
+patient	HADO:0000008,OAE:0001817	5-12
+breast cancer	DOID:1612	31-44
+taxane	CHEBI:36064	93-99
+Any stage invasive breast cancer provided the primary breast tumor size is  1 cm	Eligibility	8
+breast cancer	DOID:1612	19-32
+breast	UBERON:0000310	19-25
+breast	UBERON:0000310	54-60
+size	PATO:0000117	67-71
+Agree to participate in research blood collection at 4 different time periods (20 ml = 4 teaspoons)	Eligibility	9
+blood	UBERON:0000178	33-38
+time	PATO:0000165	65-69
+Agree to the evaluation of already collected core biopsy, as well as surgical resection tissue, for predictive biomarkers. The biopsy prior to Taxol #1 is optional.	Eligibility	10
+tissue	UBERON:0000479	88-94
+Exclusion Criteria:	Eligibility	11
+Patients failing to meet the inclusion criteria	Eligibility	12
+Corrected QT interval (QTc) prolongation as defined by > 470 milliseconds on electrocardiogram (ECG)	Eligibility	13
+qt interval	CMO:0000235	10-21
+First-degree Atrioventricular (AV) block on ECG in which P-R interval lengthened > 200 milliseconds; Second Degree; or Third Degree	Eligibility	14
+second	UO:0000010	92-98
+second	UO:0000010	101-107
+On beta-blocker treatment. If discontinued, patients must have been off beta-blockers for at least 3 months.	Eligibility	15
+History of asthma, given concern for β-blockade in this population	Eligibility	16
+history	BFO:0000182	0-7
+asthma	HP:0002099,DOID:2841	11-17
+Outcome Measurement:	Results	0
+Mean Adherence to Propranolol	Results	1
+mean	BAO:0002173	0-4
+propranolol	CHEBI:8499	18-29
+Propranolol adherence was documented biweekly by pill counts and drug diary checks.	Results	2
+propranolol	CHEBI:8499	0-11
+drug	CHEBI:23888	65-69
+Time frame: Approximately 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Propranolol + Neoadjuvant Chemotherapy	Results	5
+propranolol	CHEBI:8499	17-28
+Arm/Group Description: Subjects will receive 2 types of chemotherapy regimens plus propranolol treatment.	Results	6
+propranolol	CHEBI:8499	83-94
+Regimen I, involves paclitaxel (may be substituted with nab-paclitaxel; maybe given with premedication), and	Results	7
+paclitaxel	CHEBI:45863	20-30
+paclitaxel	CHEBI:45863	60-70
+Regimen II involves doxorubicin (maybe given with anti-nausea therapy) and cyclophosphamide (maybe given with Pegfilgrastim).	Results	8
+doxorubicin	CHEBI:28748,BAO:0000639	20-31
+cyclophosphamide	CHEBI:4026	75-91
+If your tumor is HER2 positive, you will also receive trastuzumab and pertuzumab.	Results	9
+After you complete all chemotherapy plus propranolol treatment, you will then have surgery to remove the breast tumor.	Results	10
+propranolol	CHEBI:8499	41-52
+surgery	OAE:0000067	83-90
+breast	UBERON:0000310	105-111
+DOT imaging will be done at 4 additional time points, including beo.	Results	11
+time	PATO:0000165	41-45
+Propranolol: Propranolol starting dose is 20mg b.i.d.; propranolol dose is up-titrated to 40mg b.i.d. to 80 mg daily with chemotherapy depending on tolerability. Tolerability is assessed every 2 weeks.	Results	12
+propranolol	CHEBI:8499	0-11
+propranolol	CHEBI:8499	13-24
+propranolol	CHEBI:8499	55-66
+Overall Number of Participants Analyzed: 10	Results	13
+Mean (Full Range)	Results	14
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: Percentage of propanolol adherence  96        (89 to 100)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/10 (10.00%)	Adverse Events	1
+Colitis *  [1]1/10 (10.00%)	Adverse Events	2
+colitis	HP:0002583,DOID:0060180	0-7

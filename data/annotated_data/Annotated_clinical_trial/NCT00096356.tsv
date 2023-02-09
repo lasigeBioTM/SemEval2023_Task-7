@@ -1,0 +1,157 @@
+INTERVENTION 1:	Intervention	0
+Arm 1 - CoQ10 & Vitamin E	Intervention	1
+vitamin e	CHEBI:33234	16-25
+CoQ10 100mg capsule combined with Vitamin E 100 IU taken orally three times per day.	Intervention	2
+capsule	GO:0042603	12-19
+vitamin e	CHEBI:33234	34-43
+day	UO:0000033	80-83
+INTERVENTION 2:	Intervention	3
+Arm 2 - Placebo & Vitamin E	Intervention	4
+vitamin e	CHEBI:33234	18-27
+Placebo-Vitamin E 100 mg/day in 3 doses	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Signed consent	Eligibility	1
+Hg > 11g/dl; supportive measures (erythropoietin, transfusion, iron therapy) should be utilized to assist with maintaining Hgb levels	Eligibility	2
+erythropoietin	CHEBI:81579,GO:0005128	34-48
+Total cholesterol > 160mg/dL.	Eligibility	3
+cholesterol	CHEBI:16113	6-17
+Female with primary cancer diagnosis (breast)	Eligibility	4
+female	PATO:0000383	0-6
+cancer	DOID:162	20-26
+breast	UBERON:0000310	38-44
+Planned adjuvant chemotherapy (neoadjuvant chemotherapy is excluded)	Eligibility	5
+adjuvant	CHEBI:60809	8-16
+adjuvant	CHEBI:60809	34-42
+excluded	HP:0040285	59-67
+KPS > 60	Eligibility	6
+Bilirubin < 1.5 x ULN	Eligibility	7
+x	LABO:0000148	16-17
+SGOT < 2.5 x ULN	Eligibility	8
+x	LABO:0000148	11-12
+SGPT < 2.5 x ULN	Eligibility	9
+x	LABO:0000148	11-12
+Exclusion Criteria:	Eligibility	10
+Recent involuntary weight loss (> 5% of body weight in the past 3 months)	Eligibility	11
+weight loss	HP:0001824	19-30
+body weight	CMO:0000012	40-51
+Statin therapy - current or planned during study. Below is a list of some commonly used statin drugs.(Note: This is a helpful guide, not a complete list.)	Eligibility	12
+statin	CHEBI:87631	0-6
+statin	CHEBI:87631	88-94
+Atorvastatin (Lipitor)	Eligibility	13
+atorvastatin	CHEBI:39548	0-12
+Cerivastatin	Eligibility	14
+cerivastatin	CHEBI:3558	0-12
+Fluvastatin (Lescol)	Eligibility	15
+fluvastatin	CHEBI:38561	0-11
+Lovastatin (Mevacor, Altocor, Advicor)	Eligibility	16
+lovastatin	CHEBI:40303	0-10
+Mevastatin	Eligibility	17
+mevastatin	CHEBI:34848	0-10
+Pravastatin (Pravachol)	Eligibility	18
+pravastatin	CHEBI:63618	0-11
+Rosuvastatin	Eligibility	19
+rosuvastatin	CHEBI:38545	0-12
+Simvastatin (Zocor)	Eligibility	20
+simvastatin	CHEBI:9150	0-11
+Current or planned use of the following medications for fatigue	Eligibility	21
+fatigue	HP:0012378	56-63
+Corticosteroids (intermittent use as part of chemotherapy regimen is allowed)	Eligibility	22
+part of	BAO:0090002,BFO:0000050	37-44
+Amphetamines or other stimulants including methylphenidate (Ritalin)or modafinil (Provigil)	Eligibility	23
+amphetamines	CHEBI:35338	0-12
+methylphenidate	CHEBI:6887	43-58
+modafinil	CHEBI:31859	71-80
+Patients diagnosed with uncontrolled hypertension	Eligibility	24
+hypertension	HP:0000822,DOID:10763	37-49
+Breast cancer patients who are male	Eligibility	25
+breast cancer	DOID:1612	0-13
+male	CHEBI:30780,PATO:0000384	31-35
+Pregnant women are excluded from participation in this study. A Serum pregnancy test is required within 1 week of registration if the patient is a woman of childbearing potential.	Eligibility	26
+excluded	HP:0040285	19-27
+week	UO:0000034	106-110
+patient	HADO:0000008,OAE:0001817	134-141
+Anticoagulant therapy - current or planned during study (except for maintenance of catheter patency)	Eligibility	27
+anticoagulant	CHEBI:50249	0-13
+Patients with uncontrolled thyroid dysfunction	Eligibility	28
+Outcome Measurement:	Results	0
+Effects of Coenzyme Q10 on Fatigue (as Measured by POMS-F) 24 Weeks Following Randomization	Results	1
+coenzyme q10	CHEBI:46245	11-23
+fatigue	HP:0012378	27-34
+POMS-F is the Profile of Mood States - fatigue scale. It ranges from 0 to 28; higher values indicate greater fatigue.	Results	2
+fatigue	HP:0012378	39-46
+fatigue	HP:0012378	109-116
+Time frame: 24 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1 - CoQ10 & Vitamin E	Results	5
+vitamin e	CHEBI:33234	33-42
+Arm/Group Description: CoQ10 100mg capsule combined with Vitamin E 100 IU taken orally three times per day.	Results	6
+capsule	GO:0042603	35-42
+vitamin e	CHEBI:33234	57-66
+day	UO:0000033	103-106
+Overall Number of Participants Analyzed: 122	Results	7
+Least Squares Mean (Standard Error)	Results	8
+mean	BAO:0002173	14-18
+Unit of Measure: units on a scale  6.96         (0.71)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm 2 - Placebo & Vitamin E	Results	11
+vitamin e	CHEBI:33234	35-44
+Arm/Group Description: Placebo-Vitamin E 100 mg/day in 3 doses	Results	12
+Overall Number of Participants Analyzed: 114	Results	13
+Least Squares Mean (Standard Error)	Results	14
+mean	BAO:0002173	14-18
+Unit of Measure: units on a scale  8.33         (0.79)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 22/100 (22.00%)	Adverse Events	1
+ANC 11/100 (11.00%)	Adverse Events	2
+WBC 4/100 (4.00%)	Adverse Events	3
+anemia 1/100 (1.00%)	Adverse Events	4
+anemia	HP:0001903,DOID:2355	0-6
+hypotension 1/100 (1.00%)	Adverse Events	5
+hypotension	HP:0002615	0-11
+L vent sy d 0/100 (0.00%)	Adverse Events	6
+chest pain 0/100 (0.00%)	Adverse Events	7
+chest pain	HP:0100749	0-10
+constipation 1/100 (1.00%)	Adverse Events	8
+constipation	HP:0002019,DOID:2089	0-12
+diarrhea 3/100 (3.00%)	Adverse Events	9
+diarrhea	HP:0002014,DOID:13250	0-8
+ileus 1/100 (1.00%)	Adverse Events	10
+ileus	HP:0002595,DOID:8440	0-5
+vomiting 1/100 (1.00%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+abd pain 0/100 (0.00%)	Adverse Events	12
+pain	HP:0012531	4-8
+nausea 1/100 (1.00%)	Adverse Events	13
+nausea	HP:0002018	0-6
+allergic reaction 1/100 (1.00%)	Adverse Events	14
+fatigue 1/100 (1.00%)	Adverse Events	15
+fatigue	HP:0012378	0-7
+Adverse Events 2:	Adverse Events	16
+Total: 15/93 (16.13%)	Adverse Events	17
+ANC 4/93 (4.30%)	Adverse Events	18
+WBC 2/93 (2.15%)	Adverse Events	19
+anemia 0/93 (0.00%)	Adverse Events	20
+anemia	HP:0001903,DOID:2355	0-6
+hypotension 0/93 (0.00%)	Adverse Events	21
+hypotension	HP:0002615	0-11
+L vent sy d 1/93 (1.08%)	Adverse Events	22
+chest pain 1/93 (1.08%)	Adverse Events	23
+chest pain	HP:0100749	0-10
+constipation 1/93 (1.08%)	Adverse Events	24
+constipation	HP:0002019,DOID:2089	0-12
+diarrhea 2/93 (2.15%)	Adverse Events	25
+diarrhea	HP:0002014,DOID:13250	0-8
+ileus 0/93 (0.00%)	Adverse Events	26
+ileus	HP:0002595,DOID:8440	0-5
+vomiting 1/93 (1.08%)	Adverse Events	27
+vomiting	HP:0002013	0-8
+abd pain 1/93 (1.08%)	Adverse Events	28
+pain	HP:0012531	4-8
+nausea 3/93 (3.23%)	Adverse Events	29
+nausea	HP:0002018	0-6
+allergic reaction 0/93 (0.00%)	Adverse Events	30
+fatigue 3/93 (3.23%)	Adverse Events	31
+fatigue	HP:0012378	0-7
+fever 1/93 (1.08%)	Adverse Events	32
+fever	HP:0001945	0-5

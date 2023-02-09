@@ -1,0 +1,178 @@
+INTERVENTION 1:	Intervention	0
+ABI-007 300 mg/m^2 q3w	Intervention	1
+ABI-007 300 mg/m^2 administered once every third week (q3w).	Intervention	2
+week	UO:0000034	49-53
+INTERVENTION 2:	Intervention	3
+ABI-007 100 mg/m^2 Weekly	Intervention	4
+ABI-007 100 mg/m^2 once weekly for 3 weeks followed by 1 week of rest	Intervention	5
+week	UO:0000034	24-28
+week	UO:0000034	37-41
+week	UO:0000034	57-61
+Inclusion Criteria:	Eligibility	0
+Patients had to meet the following criteria to be eligible for the study:	Eligibility	1
+Pathologically confirmed adenocarcinoma of the breast.	Eligibility	2
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+No prior chemotherapy for metastatic breast cancer.	Eligibility	3
+breast cancer	DOID:1612	37-50
+Stage IV disease.	Eligibility	4
+disease	DOID:4,OGMS:0000031	9-16
+Measurable disease (must have been  2.0 cm, except for pulmonary lesions that were well documented on CT scan that were  1.0 cm).	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+ct	BAO:0002125	102-104
+At least 3 weeks since prior cytotoxic chemotherapy (patients should have recovered from all acute effects of such therapy.	Eligibility	6
+acute	HP:0011009,PATO:0000389	93-98
+At least 4 weeks since radiotherapy, with full recovery. The measurable disease was completely outside the radiation portal or there was radiologic or clinical exam proof of progressive disease within the radiation portal.	Eligibility	7
+radiotherapy	OAE:0000235	23-35
+disease	DOID:4,OGMS:0000031	72-79
+disease	DOID:4,OGMS:0000031	186-193
+progressive	HP:0003676	174-185
+At least 4 weeks since major surgery, with full recovery.	Eligibility	8
+surgery	OAE:0000067	29-36
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2.	Eligibility	9
+group	CHEBI:24433	29-34
+Age 18 years.	Eligibility	10
+age	PATO:0000011	0-3
+Patient had the following blood counts at Baseline:	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+blood	UBERON:0000178	26-31
+Absolute neutrophil count (ANC) 1.5*10^9 cells/L	Eligibility	12
+Platelets 100*10^9 cells/L	Eligibility	13
+Hemoglobin (Hgb) 9 g/dL.	Eligibility	14
+hemoglobin	CHEBI:35143	0-10
+Patient had the following baseline blood chemistry levels:	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+blood	UBERON:0000178	35-40
+Aspartate aminotransferase (AST [SGOT]), alanine aminotransferase (ALT [SGPT])  2.5x upper limit of normal (ULN) range	Eligibility	16
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	41-48
+range	LABO:0000114	113-118
+Total bilirubin normal	Eligibility	17
+Alkaline phosphatase 2.5x ULN (unless bone metastasis is present in the absence of liver metastasis)	Eligibility	18
+phosphatase	GO:0016791,BAO:0000295	9-20
+present	PATO:0000467	57-64
+liver	UBERON:0002107	83-88
+Creatinine 1.5 mg/dL.	Eligibility	19
+creatinine	CHEBI:16737	0-10
+Peripheral neuropathy Grade 0 or 1 by National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE).	Eligibility	20
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+cancer	DOID:162	47-53
+If female of childbearing potential, pregnancy test was negative (within 72 hours of the first dose of study drug).	Eligibility	21
+female	PATO:0000383	3-9
+drug	CHEBI:23888	109-113
+If fertile, the patient agreed to use an effective method to avoid pregnancy for the duration of the study.	Eligibility	22
+patient	HADO:0000008,OAE:0001817	16-23
+duration	PATO:0001309	85-93
+Informed consent had been obtained.	Eligibility	23
+Exclusion Criteria:	Eligibility	24
+Patients who met any of the following criteria were excluded from the study:	Eligibility	25
+excluded	HP:0040285	52-60
+Prior neo-adjuvant or adjuvant chemotherapy was allowed. No prior chemotherapy for metastatic disease was allowed. If a taxane was part of the adjuvant regimen, at least one year should have transpired since completion of taxane regimen.	Eligibility	26
+adjuvant	CHEBI:60809	10-18
+adjuvant	CHEBI:60809	22-30
+adjuvant	CHEBI:60809	143-151
+disease	DOID:4,OGMS:0000031	94-101
+taxane	CHEBI:36064	120-126
+taxane	CHEBI:36064	222-228
+part of	BAO:0090002,BFO:0000050	131-138
+year	UO:0000036	174-178
+Cumulative life-time dose of doxorubicin >360 mg/m^2. Doxorubicin was allowed as prior neo-adjuvant or adjuvant therapy but not for metastatic disease.	Eligibility	27
+doxorubicin	CHEBI:28748,BAO:0000639	29-40
+doxorubicin	CHEBI:28748,BAO:0000639	54-65
+adjuvant	CHEBI:60809	91-99
+adjuvant	CHEBI:60809	103-111
+disease	DOID:4,OGMS:0000031	143-150
+Concurrent immunotherapy or hormonal therapy for breast cancer.	Eligibility	28
+breast cancer	DOID:1612	49-62
+Parenchymal brain metastases, unless documented to be clinically and radiographically stable for at least 6 months after treatment.	Eligibility	29
+brain	UBERON:0000955	12-17
+stable	HP:0031915	86-92
+Serious intercurrent medical or psychiatric illness, including serious active infection.	Eligibility	30
+active	PATO:0002354	71-77
+History of class II-IV congestive heart failure.	Eligibility	31
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	23-47
+History of other malignancy within the last 5 years which could affect the diagnosis or assessment of breast cancer.	Eligibility	32
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	102-115
+Patients who had received an investigational drug within the previous 3 weeks.	Eligibility	33
+drug	CHEBI:23888	45-49
+Patient was enrolled in a different clinical study in which investigational procedures were performed or investigational therapies were administered. Also, a patient was not permitted enroll in such clinical trials while participating in this study.	Eligibility	34
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	158-165
+Pregnant or nursing women	Eligibility	35
+Patients with prior hypersensitivity to either Taxol or Taxotere.	Eligibility	36
+hypersensitivity	GO:0002524,DOID:1205	20-36
+taxotere	CHEBI:46058	56-64
+Outcome Measurement:	Results	0
+Percentage of Participants Showing an Overall Response As Assessed by the Independent Radiology Reader and by the Investigator	Results	1
+Percentage of participants who achieve an objective confirmed complete or partial overall response based on Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0. A complete response (CR) is the disappearance of all known disease and no new sites or disease related symptoms. A partial response (PR) is >= 30% decrease in the sum of the longest diameters of target lesion. PR was also recorded when all measurable disease has completely disappeared, but a non-measurable component (ie, ascites) is still present but not progressing. Overall response (ORR) = CR+PR.	Results	2
+disease	DOID:4,OGMS:0000031	234-241
+disease	DOID:4,OGMS:0000031	262-269
+disease	DOID:4,OGMS:0000031	426-433
+target	BAO:0003064	370-376
+ascites	HP:0001541	498-505
+present	PATO:0000467	516-523
+Time frame: Day 1 up to 95 weeks	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	12-15
+Results 1:	Results	4
+Arm/Group Title: ABI-007 300 mg/m^2 q3w	Results	5
+Arm/Group Description: ABI-007 300 mg/m^2 administered once every third week (q3w).	Results	6
+week	UO:0000034	72-76
+Overall Number of Participants Analyzed: 76	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  Independent reader assessed ORR: 37        (26.0 to 47.7)	Results	9
+Investigator assessed ORR: 46        (34.8 to 57.3)	Results	10
+Results 2:	Results	11
+Arm/Group Title: ABI-007 100 mg/m^2 Weekly	Results	12
+Arm/Group Description: ABI-007 100 mg/m^2 once weekly for 3 weeks followed by 1 week of rest	Results	13
+week	UO:0000034	47-51
+week	UO:0000034	60-64
+week	UO:0000034	80-84
+Overall Number of Participants Analyzed: 76	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: percentage of participants  Independent reader assessed ORR: 45        (33.6 to 55.9)	Results	16
+Investigator assessed ORR: 63        (52.3 to 74.0)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 14/76 (18.42%)	Adverse Events	1
+Neutropenia 10/76 (13.16%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile neutropenia 1/76 (1.32%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia 0/76 (0.00%)	Adverse Events	4
+Thrombocytopenia 0/76 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiopulmonary failure 0/76 (0.00%)	Adverse Events	6
+Optic ischaemic neuropathy 0/76 (0.00%)	Adverse Events	7
+neuropathy	DOID:870	16-26
+Bowel peristalsis increased 1/76 (1.32%)	Adverse Events	8
+peristalsis	GO:0030432	6-17
+Colitis 0/76 (0.00%)	Adverse Events	9
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea 0/76 (0.00%)	Adverse Events	10
+Gastritis 0/76 (0.00%)	Adverse Events	11
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea 0/76 (0.00%)	Adverse Events	12
+nausea	HP:0002018	0-6
+Adverse Events 2:	Adverse Events	13
+Total: 12/76 (15.79%)	Adverse Events	14
+Neutropenia 2/76 (2.63%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile neutropenia 1/76 (1.32%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia 0/76 (0.00%)	Adverse Events	17
+Thrombocytopenia 0/76 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiopulmonary failure 1/76 (1.32%)	Adverse Events	19
+Optic ischaemic neuropathy 1/76 (1.32%)	Adverse Events	20
+neuropathy	DOID:870	16-26
+Bowel peristalsis increased 0/76 (0.00%)	Adverse Events	21
+peristalsis	GO:0030432	6-17
+Colitis 1/76 (1.32%)	Adverse Events	22
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea 0/76 (0.00%)	Adverse Events	23
+Gastritis 0/76 (0.00%)	Adverse Events	24
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea 1/76 (1.32%)	Adverse Events	25
+nausea	HP:0002018	0-6

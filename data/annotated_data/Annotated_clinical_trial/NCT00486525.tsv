@@ -1,0 +1,111 @@
+INTERVENTION 1:	Intervention	0
+Arm I: Yoga Therapy	Intervention	1
+Patients participated in a Hatha yoga session over 90 minutes twice weekly for 12 weeks. Patients were also encouraged to practice yoga at home. Patients recorded their total home/class practice time in weekly logs.	Intervention	2
+home	CHEBI:75830	139-143
+home	CHEBI:75830	175-179
+time	PATO:0000165	195-199
+INTERVENTION 2:	Intervention	3
+Arm II: Wait-List	Intervention	4
+Wait-listed women were told to continue performing their usual activities, and to refrain from beginning any yoga practice. After their final assessment they were offered the yoga classes.	Intervention	5
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Stage 0-IIIA breast cancer survivor	Eligibility	1
+breast cancer	DOID:1612	13-26
+Completed cancer treatment within the past 36 months (except for tamoxifen/aromatase inhibitors)	Eligibility	2
+cancer	DOID:162	10-16
+At least 2 months since prior surgery, adjuvant therapy, or radiotherapy, whichever occurred last	Eligibility	3
+surgery	OAE:0000067	30-37
+adjuvant	CHEBI:60809	39-47
+radiotherapy	OAE:0000235	60-72
+Women who are not currently practicing yoga and have not participated in any of the following activities:	Eligibility	4
+Meditation, tai chi, or related activities	Eligibility	5
+Yoga or tai chi within the past 6 months	Eligibility	6
+Had classes for or practiced yoga for more than 3 months	Eligibility	7
+Women who typically engage in a total of 5 or more hours of vigorous physical activity per week are not eligible	Eligibility	8
+week	UO:0000034	91-95
+No inflammatory breast cancer	Eligibility	9
+breast cancer	DOID:1612	16-29
+PATIENT CHARACTERISTICS:	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+Inclusion criteria:	Eligibility	11
+Hemoglobin  10 g/dL (patients with a hemoglobin of < 10 g/dL may be retested in 6 weeks after treatment of anemia and allowed to participate in study if blood counts recovered)	Eligibility	12
+hemoglobin	CHEBI:35143	0-10
+hemoglobin	CHEBI:35143	37-47
+anemia	HP:0001903,DOID:2355	107-113
+blood	UBERON:0000178	153-158
+Physically able to fully participate in yoga intervention	Eligibility	13
+Exclusion criteria:	Eligibility	14
+Inability to comfortably get up and down from the floor 2-3 times in a session	Eligibility	15
+Breathing problems requiring use of oxygen	Eligibility	16
+Problems walking without a cane or walker assistance	Eligibility	17
+Prior knee or hip replacement with limited movement in the joint	Eligibility	18
+hip	UBERON:0001464	14-17
+Inability to comfortably lie on the stomach	Eligibility	19
+stomach	UBERON:0000945	36-43
+Alcohol, or drug abuse	Eligibility	20
+alcohol	CHEBI:16236	0-7
+drug	CHEBI:23888	12-16
+Diagnosis of any of the following conditions:	Eligibility	21
+Diabetes	Eligibility	22
+Chronic obstructive pulmonary disease	Eligibility	23
+chronic obstructive pulmonary disease	DOID:3083	0-37
+Uncontrolled hypertension	Eligibility	24
+hypertension	HP:0000822,DOID:10763	13-25
+Evidence of liver or kidney failure	Eligibility	25
+liver	UBERON:0002107	12-17
+kidney failure	DOID:1074	21-35
+Symptomatic ischemic heart disease	Eligibility	26
+heart disease	DOID:114	21-34
+Significant visual or auditory problems	Eligibility	27
+Mental disorder or cognitive impairment	Eligibility	28
+disorder	OGMS:0000045	7-15
+cognitive impairment	HP:0100543	19-39
+Notable serious cardiovascular history (e.g., prior life-threatening abnormal heart rhythms)	Eligibility	29
+history	BFO:0000182	31-38
+heart	UBERON:0000948	78-83
+Other medical conditions involving the immune system such as autoimmune and/or inflammatory diseases including rheumatoid arthritis and ulcerative colitis	Eligibility	30
+immune system	UBERON:0002405	39-52
+rheumatoid arthritis	HP:0001370,DOID:7148	111-131
+ulcerative colitis	HP:0100279,DOID:8577	136-154
+History of breast or any other cancer, except basal or squamous cell skin cancer	Eligibility	31
+history	BFO:0000182	0-7
+breast	UBERON:0000310	11-17
+cancer	DOID:162	31-37
+cancer	DOID:162	74-80
+skin cancer	DOID:4159	69-80
+PRIOR CONCURRENT THERAPY:	Eligibility	32
+See Disease Characteristics	Eligibility	33
+disease	DOID:4,OGMS:0000031	4-11
+No regular use of medications with major immunological consequences (e.g., steroids)	Eligibility	34
+Outcome Measurement:	Results	0
+Stimulated ln (TNF-a)	Results	1
+ln	BAO:0002171	11-13
+log-transformed Lipopolysaccharide (LPS) stimulated Tumor Necrosis Factor-alpha (TNF-alpha)	Results	2
+lipopolysaccharide	CHEBI:16412,BAO:0002016	16-34
+Time frame: Immediately post-treatment and 3 months post-treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I: Yoga Therapy	Results	5
+Arm/Group Description: Patients participated in a Hatha yoga session over 90 minutes twice weekly for 12 weeks. Patients were also encouraged to practice yoga at home. Patients recorded their total home/class practice time in weekly logs.	Results	6
+home	CHEBI:75830	162-166
+home	CHEBI:75830	198-202
+time	PATO:0000165	218-222
+Overall Number of Participants Analyzed: 92	Results	7
+Least Squares Mean (Standard Error)	Results	8
+mean	BAO:0002173	14-18
+Unit of Measure: ln (pg/mL)  Immediately post-treatment: 8.31         (0.041)	Results	9
+ln	BAO:0002171	17-19
+3 months post-treatment: 8.31         (0.042)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm II: Wait-List	Results	12
+Arm/Group Description: Wait-listed women were told to continue performing their usual activities, and to refrain from beginning any yoga practice. After their final assessment they were offered the yoga classes.	Results	13
+Overall Number of Participants Analyzed: 84	Results	14
+Least Squares Mean (Standard Error)	Results	15
+mean	BAO:0002173	14-18
+Unit of Measure: ln (pg/mL)  Immediately post-treatment: 8.39         (0.040)	Results	16
+ln	BAO:0002171	17-19
+3 months post-treatment: 8.44         (0.043)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/100 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/100 (0.00%)	Adverse Events	3

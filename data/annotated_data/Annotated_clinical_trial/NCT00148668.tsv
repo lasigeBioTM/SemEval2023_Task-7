@@ -1,0 +1,78 @@
+INTERVENTION 1:	Intervention	0
+Arm 1	Intervention	1
+Herceptin/navelbine	Intervention	2
+INTERVENTION 2:	Intervention	3
+Arm 2	Intervention	4
+Taxotere/carboplatin/herceptin	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Patients with stage II or III breast cancer	Eligibility	1
+breast cancer	DOID:1612	30-43
+HER-2 positive tumors	Eligibility	2
+Older than 18 years of age	Eligibility	3
+age	PATO:0000011	23-26
+Eastern Cooperative Oncology Group (ECOG) Performance Status of greater or equal to 1.	Eligibility	4
+group	CHEBI:24433	29-34
+ANC > 1,500/mm3	Eligibility	5
+Hemoglobin > 9gm/dl	Eligibility	6
+hemoglobin	CHEBI:35143	0-10
+Platelets > 100,000mm3	Eligibility	7
+Creatinine < 2mg/dl	Eligibility	8
+creatinine	CHEBI:16737	0-10
+Glucose < 200mg/dl	Eligibility	9
+glucose	CHEBI:4167,BAO:0000924	0-7
+Bilirubin < 1.5 x ULN	Eligibility	10
+x	LABO:0000148	16-17
+Exclusion Criteria:	Eligibility	11
+Previous treatment with herceptin, taxanes, doxorubicin or other anthracycline-type therapy, navelbine, or platinum-based therapy.	Eligibility	12
+doxorubicin	CHEBI:28748,BAO:0000639	44-55
+Pregnant or breast-feeding women	Eligibility	13
+Serious illness, or medical or psychiatric condition	Eligibility	14
+condition	PDRO:0000129	43-52
+Uncontrolled infections	Eligibility	15
+Active or severe cardiovascular or pulmonary disease	Eligibility	16
+active	PATO:0002354	0-6
+severe	HP:0012828	10-16
+disease	DOID:4,OGMS:0000031	45-52
+Patients with left ventricular ejection fraction < 50%	Eligibility	17
+left	HP:0012835	14-18
+ejection fraction	CMO:0000180	31-48
+Peripheral neuropathy of any etiology that exceeds grade 1	Eligibility	18
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Prior history of malignancy	Eligibility	19
+history	BFO:0000182	6-13
+Uncontrolled diabetes	Eligibility	20
+Outcome Measurement:	Results	0
+Pathological Complete Response After Preoperative Therapy With Herceptin/Navelbine Versus Taxotere/Carboplatin/Herceptin in Patients With HER-2 Positive Early Breast Cancer	Results	1
+breast cancer	DOID:1612	159-172
+Pathological Complete Response is defined as the complete disappearance of invasive tumor in the breast at the time of surgery	Results	2
+breast	UBERON:0000310	97-103
+time	PATO:0000165	111-115
+surgery	OAE:0000067	119-126
+Time frame: 12 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1	Results	5
+Arm/Group Description: Herceptin/navelbine	Results	6
+Overall Number of Participants Analyzed: 41	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  17	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm 2	Results	11
+Arm/Group Description: Taxotere/carboplatin/herceptin	Results	12
+Overall Number of Participants Analyzed: 39	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  31	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 5/41 (12.20%)	Adverse Events	1
+Neutropenia  4/41 (9.76%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile Neutropenia  0/41 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+SGPT (ALT)  1/41 (2.44%)	Adverse Events	4
+Adverse Events 2:	Adverse Events	5
+Total: 5/40 (12.50%)	Adverse Events	6
+Neutropenia  4/40 (10.00%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile Neutropenia  1/40 (2.50%)	Adverse Events	8
+neutropenia	HP:0001875,DOID:1227	8-19
+SGPT (ALT)  0/40 (0.00%)	Adverse Events	9

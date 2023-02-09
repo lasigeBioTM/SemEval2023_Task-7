@@ -1,0 +1,126 @@
+INTERVENTION 1:	Intervention	0
+Palbociclib With Adjuvant Endocrine Therapy	Intervention	1
+palbociclib	CHEBI:85993	0-11
+adjuvant	CHEBI:60809	17-25
+Palbociclib 125 mg PO qd 21 days on, 7 days off	Intervention	2
+palbociclib	CHEBI:85993	0-11
+Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd	Intervention	3
+tamoxifen	CHEBI:41774	19-28
+letrozole	CHEBI:6413	35-44
+anastrozole	CHEBI:2704	52-63
+exemestane	CHEBI:4953	72-82
+Inclusion Criteria:	Eligibility	0
+Participants must have histologically confirmed hormone receptor positive (HR+) HER2 negative stage II (except T2N0) or stage III invasive breast cancer. Evaluation for metastatic disease is not required in the absence of symptoms.	Eligibility	1
+hormone	CHEBI:24621	48-55
+receptor	BAO:0000281	56-64
+breast cancer	DOID:1612	139-152
+disease	DOID:4,OGMS:0000031	180-187
+Men and both pre- and postmenopausal women are eligible.	Eligibility	2
+Prior Treatment:	Eligibility	3
+Participants may have received (neo)adjuvant chemotherapy, but must be at least 30 days after last dose, with no more than grade 1 residual toxicity at time of screening.	Eligibility	4
+adjuvant	CHEBI:60809	36-44
+time	PATO:0000165	152-156
+Participants may have received adjuvant radiotherapy, but must be at least 30 days after last dose , with no more than grade 1 residual toxicity at the time of screening.	Eligibility	5
+adjuvant	CHEBI:60809	31-39
+radiotherapy	OAE:0000235	40-52
+time	PATO:0000165	152-156
+If most recent therapy was surgery, participants must be at least 30 days out from definitive surgery with no active wound healing complications.	Eligibility	6
+surgery	OAE:0000067	27-34
+surgery	OAE:0000067	94-101
+active	PATO:0002354	110-116
+wound healing	GO:0042060	117-130
+Participants must have demonstrated ability to tolerate endocrine therapy by prior successful completion of at least 1 month of tamoxifen or aromatase inhibitor (AI) therapy without significant adverse events, and in the opinion of the treating physician any ongoing toxicity does not preclude ability to continue on tamoxifen or AI for at least a projected 2 year continuous duration. Ongoing use of any endocrine therapy, including tamoxifen, letrozole, anastrozole, or exemestane, is allowed. Patients may enroll within 2 years of beginning endocrine therapy, as long as there is a plan for at least 2 more years of adjuvant endocrine therapy.	Eligibility	7
+month	UO:0000035	119-124
+tamoxifen	CHEBI:41774	128-137
+tamoxifen	CHEBI:41774	317-326
+tamoxifen	CHEBI:41774	434-443
+inhibitor	CHEBI:35222	151-160
+year	UO:0000036	360-364
+year	UO:0000036	525-529
+year	UO:0000036	610-614
+duration	PATO:0001309	376-384
+letrozole	CHEBI:6413	445-454
+anastrozole	CHEBI:2704	456-467
+exemestane	CHEBI:4953	472-482
+adjuvant	CHEBI:60809	619-627
+ECOG performance status 0-1	Eligibility	8
+Age 18 years.	Eligibility	9
+age	PATO:0000011	0-3
+Normal organ and marrow function	Eligibility	10
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	24-32
+Baseline QTc  480 ms	Eligibility	11
+The effects of palbociclib on the developing human fetus are unknown. Women who might become pregnant must use adequate contraception	Eligibility	12
+palbociclib	CHEBI:85993	15-26
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	13
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	14
+Concurrent therapy with other investigational agents.	Eligibility	15
+Prior therapy with any CDK4/6 inhibitor.	Eligibility	16
+inhibitor	CHEBI:35222	30-39
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to palbociclib.	Eligibility	17
+history	BFO:0000182	0-7
+palbociclib	CHEBI:85993	101-112
+Participants receiving any medications or substances that are strong inhibitors or inducers of CYP3A isoenzymes are ineligible.	Eligibility	18
+Current use of drugs that are known to prolong the QT interval	Eligibility	19
+qt interval	CMO:0000235	51-62
+Subjects with organ allograft requiring immunosuppression.	Eligibility	20
+organ	UBERON:0000062	14-19
+Uncontrolled intercurrent illness including, but not limited to ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	21
+active	PATO:0002354	75-81
+congestive heart failure	HP:0001635,DOID:6000	105-129
+angina pectoris	HP:0001681	140-155
+arrhythmia	HP:0011675	165-175
+Pregnant women are excluded from this study. Breastfeeding should be discontinued prior to entry onto the study.	Eligibility	22
+excluded	HP:0040285	19-27
+Individuals with a history of a different malignancy are ineligible except for the following circumstances. Individuals with a history of other malignancies are eligible if they have been disease-free for at least 5 years and are deemed by the investigator to be at low risk for recurrence of that malignancy. Individuals with the following cancers are eligible if diagnosed and treated within the past 5 years: ductal carcinoma in situ of the breast, cervical cancer in situ, and basal cell or squamous cell carcinoma of the skin.	Eligibility	23
+history	BFO:0000182	19-26
+history	BFO:0000182	127-134
+ductal carcinoma in situ	HP:0030075,DOID:0060074	412-436
+breast	UBERON:0000310	444-450
+cervical cancer	DOID:4362	452-467
+squamous cell carcinoma of the skin	HP:0006739	495-530
+No ongoing combination antiretroviral therapy	Eligibility	24
+Outcome Measurement:	Results	0
+2-Year Treatment Discontinuation Rate	Results	1
+rate	BAO:0080019	33-37
+The 2-year treatment discontinuation rate is the percentage of participants who do not complete the palbociclib treatment per protocol for reasons due to toxicity, withdrawal of consent to be treated, or other events related to tolerability in uncensored participants. Participants who discontinued palbociclib early for reasons that were not treatment-related were censored.	Results	2
+rate	BAO:0080019	37-41
+palbociclib	CHEBI:85993	100-111
+palbociclib	CHEBI:85993	299-310
+Time frame: Evaluate upon completion of palbociclib, up to 2 years of treatment completion.	Results	3
+time	PATO:0000165	0-4
+palbociclib	CHEBI:85993	40-51
+Results 1:	Results	4
+Arm/Group Title: Palbociclib With Adjuvant Endocrine Therapy	Results	5
+palbociclib	CHEBI:85993	17-28
+adjuvant	CHEBI:60809	34-42
+Arm/Group Description: Palbociclib 125 mg PO qd 21 days on, 7 days off	Results	6
+palbociclib	CHEBI:85993	23-34
+Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd	Results	7
+tamoxifen	CHEBI:41774	19-28
+letrozole	CHEBI:6413	35-44
+anastrozole	CHEBI:2704	52-63
+exemestane	CHEBI:4953	72-82
+Overall Number of Participants Analyzed: 152	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  31        (24 to 39)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 96/162 (59.26%)	Adverse Events	1
+Cardiac disorders - Other, specify 2/162 (1.23%)	Adverse Events	2
+Diarrhea 1/162 (0.62%)	Adverse Events	3
+diarrhea	HP:0002014,DOID:13250	0-8
+Mucositis oral 2/162 (1.23%)	Adverse Events	4
+mucositis	DOID:0080178	0-9
+Nausea 1/162 (0.62%)	Adverse Events	5
+nausea	HP:0002018	0-6
+Fatigue 6/162 (3.70%)	Adverse Events	6
+fatigue	HP:0012378	0-7
+Breast infection 2/162 (1.23%)	Adverse Events	7
+breast	UBERON:0000310	0-6
+Soft tissue infection 1/162 (0.62%)	Adverse Events	8
+tissue	UBERON:0000479	5-11
+Lymphocyte count decreased 2/162 (1.23%)	Adverse Events	9
+Neutrophil count decreased 78/162 (48.15%)	Adverse Events	10
+Hypertension 1/162 (0.62%)	Adverse Events	11
+hypertension	HP:0000822,DOID:10763	0-12

@@ -1,0 +1,235 @@
+INTERVENTION 1:	Intervention	0
+Dose Level 1	Intervention	1
+25 mg temsirolimus IV over 30 minutes on days 1, 8, 15, and 22	Intervention	2
+temsirolimus	CHEBI:79699	6-18
+3 mg/ks cixutumumab IV over 60 minutes on days 1, 8, 15, and 22 Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.	Intervention	3
+disease	DOID:4,OGMS:0000031	111-118
+INTERVENTION 2:	Intervention	4
+Dose Level -1	Intervention	5
+20 mg temsirolimus IV over 30 minutes on days 1, 8, 15, and 22	Intervention	6
+temsirolimus	CHEBI:79699	6-18
+3 mg/ks cixutumumab IV over 60 minutes on days 1, 8, 15, and 22	Intervention	7
+Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.	Intervention	8
+disease	DOID:4,OGMS:0000031	47-54
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed diagnosis of breast cancer with diagnosis of metastatic or locally recurrent disease (locally recurrent disease should be stage IV e.g. chest wall involvement)	Eligibility	1
+breast cancer	DOID:1612	38-51
+recurrent	HP:0031796	92-101
+recurrent	HP:0031796	119-128
+disease	DOID:4,OGMS:0000031	102-109
+disease	DOID:4,OGMS:0000031	129-136
+chest	UBERON:0001443	161-166
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0 or 1 (Karnofsky >= 80%)	Eligibility	2
+group	CHEBI:24433	29-34
+Life expectancy of > 12 weeks	Eligibility	3
+Capable of understanding investigational nature, potential risks and benefits of the study and able to provide written informed consent	Eligibility	4
+Negative serum pregnancy test =< 7 days of registration for women of childbearing potential:	Eligibility	5
+Women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) for the duration of study therapy and for 3 months after the last dose of IMC-A12 and CCI-779 (temsirolimus)	Eligibility	6
+duration	PATO:0001309	148-156
+temsirolimus	CHEBI:79699	235-247
+Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately	Eligibility	7
+Nursing women must be willing to discontinue nursing; NOTE: breastfeeding should be discontinued if the mother is treated with CCI-779 and IMC-A12	Eligibility	8
+Absolute neutrophil count >= 1,500/mcL	Eligibility	9
+Hemoglobin >= 8.5 g/dL	Eligibility	10
+hemoglobin	CHEBI:35143	0-10
+Platelets >= 100,000/mcL	Eligibility	11
+Total bilirubin =< 1.5 X institutional upper limit of normal (ULN)	Eligibility	12
+x	LABO:0000148	23-24
+Aspartate aminotransferase (AST)(serum glutamic oxaloacetic transaminase [SGOT]) and alanine aminotransferase (ALT)(serum glutamate pyruvate transaminase [SGPT]) =< 3 x institutional ULN (=< 5 X institutional ULN if liver function test [LFT] elevations due to liver metastases)	Eligibility	13
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	85-92
+glutamate	CHEBI:14321,BAO:0000926	122-131
+pyruvate	CHEBI:15361	132-140
+x	LABO:0000148	49-50
+x	LABO:0000148	167-168
+x	LABO:0000148	193-194
+liver	UBERON:0002107	216-221
+liver	UBERON:0002107	260-265
+function	BAO:0003117,BFO:0000034	222-230
+Creatinine =< 1.5 X institutional ULN OR creatinine clearance >= 60 mL/min/1.73^2 for patients with creatinine > institutional ULN	Eligibility	14
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	41-51
+creatinine	CHEBI:16737	100-110
+x	LABO:0000148	18-19
+creatinine clearance	CMO:0000765	41-61
+Fasting serum cholesterol =< 350 mg/dL (9.0 mmol/L)	Eligibility	15
+cholesterol	CHEBI:16113	14-25
+Fasting triglycerides =< 400 mg/dL (4.56 mmol/L)	Eligibility	16
+Albumin >= 3.4 mg/dL	Eligibility	17
+Fasting or non fasting serum glucose < 120 mg/dL	Eligibility	18
+glucose	CHEBI:4167,BAO:0000924	29-36
+Hemoglobin A1c (HbA1c) (for all patients with a history of diabetes mellitus) < 8%	Eligibility	19
+hemoglobin	CHEBI:35143	0-10
+history	BFO:0000182	48-55
+diabetes mellitus	HP:0000819,DOID:9351	59-76
+Phase I only: Any number of prior therapy regimens is allowed	Eligibility	20
+Phase II only: Measurable disease is required for the Phase II portion of the study; measurable disease is defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >= 20 mm with conventional techniques (computed tomography [CT], magnetic resonance imaging [MRI], x-ray) or as >= 10 mm with spiral CT scan	Eligibility	21
+disease	DOID:4,OGMS:0000031	26-33
+disease	DOID:4,OGMS:0000031	96-103
+diameter	PATO:0001334	205-213
+tomography	BAO:0002525	281-291
+ct	BAO:0002125	293-295
+ct	BAO:0002125	366-368
+Phase II only: =< two and at least one prior chemotherapy regimens in the setting of metastatic or locally recurrent (stage IV chest wall involvement) disease are required	Eligibility	22
+recurrent	HP:0031796	107-116
+chest	UBERON:0001443	127-132
+disease	DOID:4,OGMS:0000031	151-158
+Exclusion Criteria:	Eligibility	23
+Phase I patients only: Patients with base line diabetes requiring oral hypoglycemics or insulin	Eligibility	24
+base	CHEBI:22695	37-41
+insulin	CHEBI:145810	88-95
+Phase II patients only: Poorly controlled diabetes mellitus; NOTE: patients with a history of diabetes mellitus on oral hypoglycemics or insulin are allowed to participate, provided that their fasting blood glucose is < 120 mg/dL and that they are on a stable dietary or therapeutic regimen for this condition	Eligibility	25
+diabetes mellitus	HP:0000819,DOID:9351	42-59
+diabetes mellitus	HP:0000819,DOID:9351	94-111
+history	BFO:0000182	83-90
+insulin	CHEBI:145810	137-144
+blood	UBERON:0000178	201-206
+glucose	CHEBI:4167,BAO:0000924	207-214
+stable	HP:0031915	253-259
+condition	PDRO:0000129	300-309
+Any of the following:	Eligibility	26
+Pregnant women	Eligibility	27
+Nursing women	Eligibility	28
+Men or women of childbearing potential who are unwilling to employ adequate contraception (hormonal agents are not allowed and oral contraceptives are not acceptable for contraception)	Eligibility	29
+Receiving hormonal agents used for the treatment of breast cancer with the exception that premenopausal women who have been on a gonadotropin-releasing hormone (GnRH) agonist and subsequently progressed may, at the discretion of the treating physician, continue on the GnRH agonist	Eligibility	30
+breast cancer	DOID:1612	52-65
+hormone	CHEBI:24621	152-159
+agonist	CHEBI:48705	167-174
+agonist	CHEBI:48705	274-281
+Any of the following prior therapies:	Eligibility	31
+Systemic anti-cancer therapy =< 3 weeks prior to registration	Eligibility	32
+Radiation therapy =< 2 weeks prior to registration	Eligibility	33
+Prior invasive non-breast malignancy, except for adequately treated basal or squamous cell carcinoma of the skin or other cancer from which the patient has been disease free for >= 5 years	Eligibility	34
+squamous cell carcinoma of the skin	HP:0006739	77-112
+cancer	DOID:162	122-128
+patient	HADO:0000008,OAE:0001817	144-151
+disease	DOID:4,OGMS:0000031	161-168
+Known hypersensitivity reactions to macrolide antibiotics (such as erythromycin, clarithromycin, and azithromycin); allergic reactions attributed to compounds of similar chemical or biologic composition to IMC-A12, or temsirolimus	Eligibility	35
+hypersensitivity	GO:0002524,DOID:1205	6-22
+macrolide	CHEBI:25106	36-45
+erythromycin	CHEBI:42355	67-79
+clarithromycin	CHEBI:3732	81-95
+azithromycin	CHEBI:2955	101-113
+temsirolimus	CHEBI:79699	218-230
+Prior treatment with agents targeting the insulin-like growth factor-I receptor (IGF-IR)/insulin-like growth factors (IGFs) or phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha (PI3K)/v-akt murine thymoma viral oncogene homolog 1 (Akt)/mechanistic target of rapamycin (mTOR) pathway	Eligibility	36
+growth	GO:0040007	55-61
+growth	GO:0040007	102-108
+receptor	BAO:0000281	71-79
+thymoma	HP:0100522,DOID:3275	219-226
+target	BAO:0003064	28-34
+target	BAO:0003064	270-276
+Receiving any other investigational agents or herbal preparations	Eligibility	37
+Patients may not be taking oral corticosteroids except for replacement for adrenal insufficiency	Eligibility	38
+adrenal insufficiency	HP:0000846	75-96
+Uncontrolled brain metastases; Note: brain metastases are not permitted on study unless the metastases have been treated by surgery or radiotherapy, and the patient has been neurologically stable and off of steroids for >= 12 weeks	Eligibility	39
+brain	UBERON:0000955	13-18
+brain	UBERON:0000955	37-42
+surgery	OAE:0000067	124-131
+radiotherapy	OAE:0000235	135-147
+patient	HADO:0000008,OAE:0001817	157-164
+stable	HP:0031915	189-195
+Known human immunodeficiency virus (HIV)-positive patients who have cluster of differentiation (CD)4 counts below the normal range or who are on anti-retroviral therapy that may interfere with the metabolism of temsirolimus	Eligibility	40
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+cluster	CHEBI:33731	68-75
+range	LABO:0000114	125-130
+temsirolimus	CHEBI:79699	211-223
+Uncontrolled intercurrent illness including, but not limited to:	Eligibility	41
+Ongoing or active infection	Eligibility	42
+active	PATO:0002354	11-17
+Symptomatic congestive heart failure	Eligibility	43
+congestive heart failure	HP:0001635,DOID:6000	12-36
+Unstable angina pectoris	Eligibility	44
+angina pectoris	HP:0001681	9-24
+Uncontrolled symptomatic cardiac arrhythmia	Eligibility	45
+arrhythmia	HP:0011675	33-43
+Psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	46
+Receiving enzyme-inducing antiepileptic drugs (EIAEDs; e.g., phenytoin, carbamazepine, phenobarbital) or any other cytochrome P450, family 3, subfamily A, polypeptide 4 (CYP3A4) inducer such as rifampin or St. John's wort	Eligibility	47
+phenytoin	CHEBI:8107	61-70
+carbamazepine	CHEBI:3387	72-85
+phenobarbital	CHEBI:8069	87-100
+cytochrome p450	CHEBI:38559	115-130
+polypeptide	CHEBI:15841	155-166
+inducer	BAO:0003058	178-185
+Outcome Measurement:	Results	0
+Recommended Dose Level for Phase II Testing (RPTD) (Phase I)	Results	1
+The RPTD is defined as the highest dose level at which at most one of 6 patients develops a dose limiting toxicity (DLT) during the first course of treatment and the next highest dose level has 2 or more DLTs. The number of patients in each cohort reporting a DLT is reported.	Results	2
+Dose-limiting toxicities (DLTs) are defined as any of the following adverse events (AEs) that are related to study agent with an attribution of possible, probably, or definite and fulfilling one of the following criteria:	Results	3
+Any grade 4 hematologic toxicity	Results	4
+Hyperglycemia that cannot be stably controlled with diabetic medication	Results	5
+hyperglycemia	HP:0003074,DOID:4195	0-13
+Any grade 3 or 4 non-hematologic toxicity (except asymptomatic medically manageable laboratory abnormalities such as hyperlipidemia, hypophosphatemia, and hypokalemia)	Results	6
+hyperlipidemia	HP:0003077	117-131
+hypophosphatemia	HP:0002148,DOID:0050336	133-149
+hypokalemia	HP:0002900,DOID:4500	155-166
+Time frame: During first course	Results	7
+time	PATO:0000165	0-4
+Results 1:	Results	8
+Arm/Group Title: Dose Level 1	Results	9
+Arm/Group Description: 25 mg temsirolimus IV over 30 minutes on days 1, 8, 15, and 22	Results	10
+temsirolimus	CHEBI:79699	29-41
+3 mg/ks cixutumumab IV over 60 minutes on days 1, 8, 15, and 22 Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.	Results	11
+disease	DOID:4,OGMS:0000031	111-118
+Overall Number of Participants Analyzed: 3	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: DLTs  2	Results	14
+Results 2:	Results	15
+Arm/Group Title: Dose Level -1	Results	16
+Arm/Group Description: 20 mg temsirolimus IV over 30 minutes on days 1, 8, 15, and 22	Results	17
+temsirolimus	CHEBI:79699	29-41
+3 mg/ks cixutumumab IV over 60 minutes on days 1, 8, 15, and 22	Results	18
+Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.	Results	19
+disease	DOID:4,OGMS:0000031	47-54
+Overall Number of Participants Analyzed: 1	Results	20
+Measure Type: Number	Results	21
+Unit of Measure: DLTs  1	Results	22
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1
+Hemoglobin decreased 0/3 (0.00%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Mucositis oral 0/3 (0.00%)	Adverse Events	3
+mucositis	DOID:0080178	0-9
+Nausea 0/3 (0.00%)	Adverse Events	4
+nausea	HP:0002018	0-6
+Vomiting 0/3 (0.00%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Death 0/3 (0.00%)	Adverse Events	6
+death	OAE:0000632	0-5
+Edema limbs 0/3 (0.00%)	Adverse Events	7
+edema	HP:0000969	0-5
+Fatigue 0/3 (0.00%)	Adverse Events	8
+fatigue	HP:0012378	0-7
+Pain 0/3 (0.00%)	Adverse Events	9
+pain	HP:0012531	0-4
+Skin infection 0/3 (0.00%)	Adverse Events	10
+Alanine aminotransferase increased 0/3 (0.00%)	Adverse Events	11
+alanine	CHEBI:16449	0-7
+Alkaline phosphatase increased 0/3 (0.00%)	Adverse Events	12
+phosphatase	GO:0016791,BAO:0000295	9-20
+Creatinine increased 0/3 (0.00%)	Adverse Events	13
+creatinine	CHEBI:16737	0-10
+Adverse Events 2:	Adverse Events	14
+Total: 1/2 (50.00%)	Adverse Events	15
+Hemoglobin decreased 0/2 (0.00%)	Adverse Events	16
+hemoglobin	CHEBI:35143	0-10
+Mucositis oral 1/2 (50.00%)	Adverse Events	17
+mucositis	DOID:0080178	0-9
+Nausea 0/2 (0.00%)	Adverse Events	18
+nausea	HP:0002018	0-6
+Vomiting 0/2 (0.00%)	Adverse Events	19
+vomiting	HP:0002013	0-8
+Death 0/2 (0.00%)	Adverse Events	20
+death	OAE:0000632	0-5
+Edema limbs 0/2 (0.00%)	Adverse Events	21
+edema	HP:0000969	0-5
+Fatigue 1/2 (50.00%)	Adverse Events	22
+fatigue	HP:0012378	0-7
+Pain 1/2 (50.00%)	Adverse Events	23
+pain	HP:0012531	0-4
+Skin infection 0/2 (0.00%)	Adverse Events	24
+Alanine aminotransferase increased 0/2 (0.00%)	Adverse Events	25
+alanine	CHEBI:16449	0-7
+Alkaline phosphatase increased 0/2 (0.00%)	Adverse Events	26
+phosphatase	GO:0016791,BAO:0000295	9-20
+Creatinine increased 1/2 (50.00%)	Adverse Events	27
+creatinine	CHEBI:16737	0-10

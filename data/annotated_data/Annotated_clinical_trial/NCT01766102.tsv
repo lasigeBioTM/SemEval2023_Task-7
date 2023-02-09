@@ -1,0 +1,65 @@
+INTERVENTION 1:	Intervention	0
+Intra-operative Mammography	Intervention	1
+Intra-operative Specimen Mammography	Intervention	2
+Intra-operative Mammography: The patient's breast specimen will be imagine in the operating room in an intra-operative imaging device - Biovision SN #30042	Intervention	3
+patient	HADO:0000008,OAE:0001817	33-40
+breast	UBERON:0000310	43-49
+INTERVENTION 2:	Intervention	4
+Standard Mammography	Intervention	5
+Standard Specimen Mammography	Intervention	6
+Standard Mammography: There is not an added device associated with this arm.	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Newly diagnosed with a breast abnormality undergoing an excisional biopsy with wire localization or newly diagnosed with invasive breast cancer or ductal carcinoma undergoing a lumpectomy with wire localization	Eligibility	1
+breast	UBERON:0000310	23-29
+breast	UBERON:0000310	130-136
+localization	GO:0051179	84-96
+localization	GO:0051179	198-210
+breast cancer	DOID:1612	130-143
+carcinoma	HP:0030731,DOID:305	154-163
+Ability to understand and willingness to sign a written informed consent document	Eligibility	2
+document	IAO:0000310	73-81
+Exclusion Criteria:	Eligibility	3
+Recurrent breast cancer	Eligibility	4
+recurrent	HP:0031796	0-9
+breast cancer	DOID:1612	10-23
+Palpable masses not requiring wire localization	Eligibility	5
+localization	GO:0051179	35-47
+Outcome Measurement:	Results	0
+Comparison of Operative Time Savings	Results	1
+time	PATO:0000165	24-28
+To compare the overall operative time savings using intra-operative digital mammography compared with standard specimen mammography.	Results	2
+time	PATO:0000165	33-37
+Time frame: At the time of the procedure (approximately 1 week after randomization)	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	19-23
+week	UO:0000034	58-62
+Results 1:	Results	4
+Arm/Group Title: Intra-operative Mammography	Results	5
+Arm/Group Description: Intra-operative Specimen Mammography	Results	6
+Intra-operative Mammography: The patient's breast specimen will be imagine in the operating room in an intra-operative imaging device - Biovision SN #30042	Results	7
+patient	HADO:0000008,OAE:0001817	33-40
+breast	UBERON:0000310	43-49
+Overall Number of Participants Analyzed: 36	Results	8
+Median (Full Range)	Results	9
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: Minutes  Procedure Time: 48.5        (17 to 138)	Results	10
+time	PATO:0000165	36-40
+OR Time: 68        (29 to 180)	Results	11
+time	PATO:0000165	3-7
+Results 2:	Results	12
+Arm/Group Title: Standard Mammography	Results	13
+Arm/Group Description: Standard Specimen Mammography	Results	14
+Standard Mammography: There is not an added device associated with this arm.	Results	15
+Overall Number of Participants Analyzed: 36	Results	16
+Median (Full Range)	Results	17
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: Minutes  Procedure Time: 54        (17 to 140)	Results	18
+time	PATO:0000165	36-40
+OR Time: 74        (35 to 177)	Results	19
+time	PATO:0000165	3-7
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/0	Adverse Events	3

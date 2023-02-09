@@ -1,0 +1,112 @@
+INTERVENTION 1:	Intervention	0
+PF-05280014	Intervention	1
+Participants received a loading dose of 8 mg/kg of PF-05280014 on Cycle 1 Day 1. Subsequent infusions followed every 3 weeks with a dose of 6 mg/kg. Taxotere 75 mg/m2 and carboplatin AUC 6 were administered on Day 1 of each cycle.	Intervention	2
+day	UO:0000033	74-77
+day	UO:0000033	210-213
+taxotere	CHEBI:46058	149-157
+carboplatin	CHEBI:31355	171-182
+auc	BAO:0002120	183-186
+INTERVENTION 2:	Intervention	3
+Trastuzumab-EU	Intervention	4
+Participants received a loading dose of 8 mg/kg of trastuzumab-EU on Cycle 1 Day 1. Subsequent infusions followed every 3 weeks with a dose of 6 mg/kg. Taxotere 75 mg/m2 and carboplatin AUC 6 were administered on Day 1 of each cycle.	Intervention	5
+day	UO:0000033	77-80
+day	UO:0000033	213-216
+taxotere	CHEBI:46058	152-160
+carboplatin	CHEBI:31355	174-185
+auc	BAO:0002120	186-189
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed HER2 overexpressing invasive breast cancer.	Eligibility	1
+breast cancer	DOID:1612	54-67
+Plan for definitive surgical resection of breast tumor (i.e., lumpectomy or mastectomy, and sentinel node (SN) biopsy or axillary lymph node dissection (ALND).	Eligibility	2
+breast	UBERON:0000310	42-48
+lymph	UBERON:0002391	130-135
+Plan for neoadjuvant chemotherapy.	Eligibility	3
+Measurable disease in the breast after diagnostic biopsy, defined as longest diameter  2.0 cm.	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+breast	UBERON:0000310	26-32
+diameter	PATO:0001334	77-85
+Exclusion Criteria:	Eligibility	5
+Bilateral breast cancer.	Eligibility	6
+bilateral breast cancer	DOID:6741	0-23
+Inflammatory breast cancer.	Eligibility	7
+breast cancer	DOID:1612	13-26
+Presence of known distant metastases.	Eligibility	8
+Received prior treatment, including chemotherapy, endocrine therapy, biologic therapy, radiation or surgery with the exception of diagnostic biopsy for primary breast cancer.	Eligibility	9
+surgery	OAE:0000067	100-107
+breast cancer	DOID:1612	160-173
+Outcome Measurement:	Results	0
+Percentage of Participants With Steady State Drug Concentration Ctrough (Cycle 6 Pre-dose) >20 µg/mL at Cycle 5.	Results	1
+drug	CHEBI:23888	45-49
+The percentage of participants with Cycle 5 Ctrough (Cycle 6 pre-dose) >20 μg/mL in each treatment group, the denominator being the number of participants in the per protocol population for each treatment group.	Results	2
+group	CHEBI:24433	99-104
+group	CHEBI:24433	205-210
+Time frame: Cycle 5	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: PF-05280014	Results	5
+Arm/Group Description: Participants received a loading dose of 8 mg/kg of PF-05280014 on Cycle 1 Day 1. Subsequent infusions followed every 3 weeks with a dose of 6 mg/kg. Taxotere 75 mg/m2 and carboplatin AUC 6 were administered on Day 1 of each cycle.	Results	6
+day	UO:0000033	97-100
+day	UO:0000033	233-236
+taxotere	CHEBI:46058	172-180
+carboplatin	CHEBI:31355	194-205
+auc	BAO:0002120	206-209
+Overall Number of Participants Analyzed: 101	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  92.1        (85.0 to 96.5)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab-EU	Results	11
+Arm/Group Description: Participants received a loading dose of 8 mg/kg of trastuzumab-EU on Cycle 1 Day 1. Subsequent infusions followed every 3 weeks with a dose of 6 mg/kg. Taxotere 75 mg/m2 and carboplatin AUC 6 were administered on Day 1 of each cycle.	Results	12
+day	UO:0000033	100-103
+day	UO:0000033	236-239
+taxotere	CHEBI:46058	175-183
+carboplatin	CHEBI:31355	197-208
+auc	BAO:0002120	209-212
+Overall Number of Participants Analyzed: 89	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of participants  93.3        (85.9 to 97.5)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 7/113 (6.19%)	Adverse Events	1
+Febrile neutropenia 1/113 (0.88%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/113 (0.88%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 0/113 (0.00%)	Adverse Events	4
+Pancytopenia 1/113 (0.88%)	Adverse Events	5
+pancytopenia	HP:0001876,DOID:12450	0-12
+Proctitis 1/113 (0.88%)	Adverse Events	6
+proctitis	DOID:3127	0-9
+Device related sepsis 1/113 (0.88%)	Adverse Events	7
+sepsis	HP:0100806	15-21
+Gastrointestinal infection 0/113 (0.00%)	Adverse Events	8
+Injection site abscess 1/113 (0.88%)	Adverse Events	9
+injection site	VO:0000300	0-14
+abscess	HP:0025615	15-22
+Tooth infection 0/113 (0.00%)	Adverse Events	10
+Hip fracture 0/113 (0.00%)	Adverse Events	11
+hip	UBERON:0001464	0-3
+Blood creatinine increased 1/113 (0.88%)	Adverse Events	12
+blood	UBERON:0000178	0-5
+creatinine	CHEBI:16737	6-16
+Adverse Events 2:	Adverse Events	13
+Total: 6/112 (5.36%)	Adverse Events	14
+Febrile neutropenia 2/112 (1.79%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/112 (0.89%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 1/112 (0.89%)	Adverse Events	17
+Pancytopenia 0/112 (0.00%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Proctitis 0/112 (0.00%)	Adverse Events	19
+proctitis	DOID:3127	0-9
+Device related sepsis 0/112 (0.00%)	Adverse Events	20
+sepsis	HP:0100806	15-21
+Gastrointestinal infection 1/112 (0.89%)	Adverse Events	21
+Injection site abscess 0/112 (0.00%)	Adverse Events	22
+injection site	VO:0000300	0-14
+abscess	HP:0025615	15-22
+Tooth infection 1/112 (0.89%)	Adverse Events	23
+Hip fracture 1/112 (0.89%)	Adverse Events	24
+hip	UBERON:0001464	0-3
+Blood creatinine increased 0/112 (0.00%)	Adverse Events	25
+blood	UBERON:0000178	0-5
+creatinine	CHEBI:16737	6-16

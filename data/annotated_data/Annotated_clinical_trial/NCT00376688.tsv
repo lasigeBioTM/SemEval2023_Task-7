@@ -1,0 +1,154 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Temsirolimus)	Intervention	1
+temsirolimus	CHEBI:79699	11-23
+Patients receive temsirolimus IV over 30 minutes on days 1, 8, 15, and 22. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+temsirolimus	CHEBI:79699	17-29
+disease	DOID:4,OGMS:0000031	122-129
+Temsirolimus: Given IV	Intervention	3
+temsirolimus	CHEBI:79699	0-12
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed metastatic or recurrent breast cancer not amenable to local therapy (surgery and radiation) (histologic/cytologic confirmation of recurrence preferred, but not required)	Eligibility	1
+recurrent	HP:0031796	75-84
+breast cancer	DOID:1612	85-98
+surgery	OAE:0000067	130-137
+Either the primary or metastatic tumor must be positive for estrogen receptor (>= 1% by immunohistochemical staining) and/or progesterone receptor (>= 1% by immunohistochemical staining) and/or human epidermal growth factor receptor (HER2neu) (3+ immunohistochemical staining or fluorescence in situ hybridization [FISH] positive)	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	60-68
+receptor	BAO:0000281	69-77
+receptor	BAO:0000281	138-146
+receptor	BAO:0000281	224-232
+progesterone	CHEBI:17026	125-137
+growth factor	BAO:0002024	210-223
+Patients must have measurable disease; measurable disease is defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >= 20 mm with conventional techniques or as >= 10 mm with spiral computed tomography (CT) scan	Eligibility	3
+disease	DOID:4,OGMS:0000031	30-37
+disease	DOID:4,OGMS:0000031	50-57
+diameter	PATO:0001334	159-167
+tomography	BAO:0002525	261-271
+ct	BAO:0002125	273-275
+There are no limitations on the number of prior therapy regimens; however, patients who have had prior exposure to rapamycin or any other mechanistic target of rapamycin (mTOR) inhibitor are excluded from the trial	Eligibility	4
+target	BAO:0003064	150-156
+inhibitor	CHEBI:35222	177-186
+excluded	HP:0040285	191-199
+Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1	Eligibility	5
+group	CHEBI:24433	29-34
+Absolute neutrophil count >= 1,500/uL	Eligibility	6
+Platelets >= 100,000/uL	Eligibility	7
+Total bilirubin =< institutional upper limit of normal	Eligibility	8
+Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT])/alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase [SGPT]) =< 3 times institutional upper limit of normal	Eligibility	9
+aspartate	CHEBI:29995	0-9
+glutamate	CHEBI:14321,BAO:0000926	120-129
+pyruvate	CHEBI:15361	130-138
+Creatinine =< 2.0 x normal institutional upper limit of normal	Eligibility	10
+creatinine	CHEBI:16737	0-10
+x	LABO:0000148	18-19
+Cholesterol =< 350 mg/dL (fasting)	Eligibility	11
+cholesterol	CHEBI:16113	0-11
+Triglycerides =< 400 mg/dL (fasting)	Eligibility	12
+Albumin >= 3.3 mg/dL	Eligibility	13
+Women of child-bearing potential and men must agree to use adequate contraception (barrier method of birth control; abstinence) prior to study entry and for the duration of study participation; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately; women of child-bearing potential must have a negative pregnancy test prior to treatment on study; breastfeeding should be discontinued if the mother is treated with temsirolimus	Eligibility	14
+duration	PATO:0001309	161-169
+temsirolimus	CHEBI:79699	506-518
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	15
+document	IAO:0000310	77-85
+Tissue for correlative studies must be available and the subject must agree to use of tissue for these studies	Eligibility	16
+tissue	UBERON:0000479	0-6
+tissue	UBERON:0000479	86-92
+Exclusion Criteria:	Eligibility	17
+Patients must be off of hormonal agents used for the treatment of breast cancer for one week with the exception that premenopausal women who have been on a gonadotropin-releasing hormone (GnRH) agonist and subsequently progressed may, at the discretion of the treating physician, continue on the GnRH agonist	Eligibility	18
+breast cancer	DOID:1612	66-79
+week	UO:0000034	88-92
+hormone	CHEBI:24621	179-186
+agonist	CHEBI:48705	194-201
+agonist	CHEBI:48705	301-308
+Patients should have recovered from the adverse effects of prior chemotherapy; in general, this will mean that the patient would have been due or overdue for the next dose of the prior regimen: three weeks should have elapsed for a regimen administered once every three weeks, etc	Eligibility	19
+mean	BAO:0002173	101-105
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	115-122
+Radiotherapy should have been completed	Eligibility	20
+radiotherapy	OAE:0000235	0-12
+Three weeks should have elapsed since prior therapy with monoclonal antibodies	Eligibility	21
+monoclonal	BAO:0000503	57-67
+Patients may not be receiving any other investigational agents or herbal preparations; patients may not be taking corticosteroids except in low doses as replacement for adrenal insufficiency or for short -term (less than 5 days) use for other reasons	Eligibility	22
+adrenal insufficiency	HP:0000846	169-190
+Patients with known brain metastases are not permitted on study unless the metastases have been controlled by prior surgery or radiotherapy, and the patient has been neurologically stable and off of steroids for at least 4 weeks	Eligibility	23
+brain	UBERON:0000955	20-25
+surgery	OAE:0000067	116-123
+radiotherapy	OAE:0000235	127-139
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	149-156
+stable	HP:0031915	181-187
+Patients cannot be receiving enzyme-inducing antiepileptic drugs (enzyme-inducing antiepileptic drugs [EIAEDs]; e.g., phenytoin, carbamazepine, phenobarbital) nor any other CYP3A4 inducer such as rifampin or St. John's wort, as these may decrease temsirolimus levels; use of agents that potently inhibit CYP3A (and hence may raise temsirolimus levels), such as ketoconazole, is discouraged, but not specifically prohibited; CCI-779 can inhibit CYP2D6, and may decrease metabolism (and increase drug levels) of drugs that are substrates for CYP2D6, such as codeine; the appropriateness of use of such agents is left to physician discretion; if there is any doubt about eligibility based on concomitant medication, the study chair, Dr Fleming, should be contacted; all concomitant medications must be recorded	Eligibility	24
+phenytoin	CHEBI:8107	118-127
+carbamazepine	CHEBI:3387	129-142
+phenobarbital	CHEBI:8069	144-157
+inducer	BAO:0003058	180-187
+temsirolimus	CHEBI:79699	247-259
+temsirolimus	CHEBI:79699	331-343
+ketoconazole	CHEBI:47519,BAO:0000796	361-373
+increase	BAO:0001251	485-493
+drug	CHEBI:23888	59-63
+drug	CHEBI:23888	96-100
+drug	CHEBI:23888	494-498
+drug	CHEBI:23888	510-514
+codeine	CHEBI:16714	556-563
+left	HP:0012835	610-614
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, uncontrolled symptomatic cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	25
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	191-201
+Human immunodeficiency virus (HIV)-positive patients receiving combination anti-retroviral therapy are excluded from the study	Eligibility	26
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+excluded	HP:0040285	103-111
+Patients with known hypersensitivity reactions to macrolide antibiotics (such as erythromycin, clarithromycin, and azithromycin) are not eligible for this trial	Eligibility	27
+hypersensitivity	GO:0002524,DOID:1205	20-36
+macrolide	CHEBI:25106	50-59
+erythromycin	CHEBI:42355	81-93
+clarithromycin	CHEBI:3732	95-109
+azithromycin	CHEBI:2955	115-127
+Outcome Measurement:	Results	0
+Clinical Benefit Rate (Complete Response, Partial Response, or Stable Disease)	Results	1
+rate	BAO:0080019	17-21
+stable	HP:0031915	63-69
+disease	DOID:4,OGMS:0000031	70-77
+Response evaluation criteria in solid tumors (RECIST) criteria version 1.0 was used for response evaluation. Clinical benefit rate is defined as the proportion of subjects experiencing a complete response (CR), partial response (PR), or stable disease (SD) for at least 24 weeks.	Results	2
+rate	BAO:0080019	126-130
+stable	HP:0031915	237-243
+disease	DOID:4,OGMS:0000031	244-251
+Evaluation of target lesions: Complete Response (CR)-- Disappearance of all target lesions; Partial Response (PR)-- At least a 30% decrease in the sum of the LD of target lesions, taking as reference the baseline sum LD; Stable Disease (SD)-- Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum LD since the treatment started;	Results	3
+target	BAO:0003064	14-20
+target	BAO:0003064	76-82
+target	BAO:0003064	164-170
+stable	HP:0031915	221-227
+disease	DOID:4,OGMS:0000031	228-235
+increase	BAO:0001251	305-313
+Evaluation of non-target lesions: Complete Response (CR)-- Disappearance of all non-target lesions and normalization of tumor marker level; Incomplete Response/ Stable Disease (SD)-- Persistence of one or more non-target lesion(s) or/and maintenance of tumor marker level above the normal limits	Results	4
+stable	HP:0031915	161-167
+disease	DOID:4,OGMS:0000031	168-175
+Time frame: Up to 24 months	Results	5
+time	PATO:0000165	0-4
+Results 1:	Results	6
+Arm/Group Title: Treatment (Temsirolimus)	Results	7
+temsirolimus	CHEBI:79699	28-40
+Arm/Group Description: Patients receive temsirolimus IV over 30 minutes on days 1, 8, 15, and 22. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.	Results	8
+temsirolimus	CHEBI:79699	40-52
+disease	DOID:4,OGMS:0000031	145-152
+Temsirolimus: Given IV	Results	9
+temsirolimus	CHEBI:79699	0-12
+Overall Number of Participants Analyzed: 31	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: percentage of participants  9.7	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 9/31 (29.03%)	Adverse Events	1
+Abdominal pain *  [1]2/31 (6.45%)	Adverse Events	2
+abdominal pain	HP:0002027	0-14
+Nausea *  [2]2/31 (6.45%)	Adverse Events	3
+nausea	HP:0002018	0-6
+Vomiting *  [3]2/31 (6.45%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Death NOS *  [4]3/31 (9.68%)	Adverse Events	5
+death	OAE:0000632	0-5
+Platelet count decreased *  [5]2/31 (6.45%)	Adverse Events	6
+platelet count	CMO:0000029	0-14
+Dyspnea *  [6]5/31 (16.13%)	Adverse Events	7
+dyspnea	HP:0002094	0-7

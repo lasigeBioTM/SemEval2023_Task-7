@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+Topical Saline	Intervention	1
+Topical liquid lidocaine: active intervention drug numbs the hypersensitive mucosa of the vulvar vestibule	Intervention	2
+lidocaine	CHEBI:6456	15-24
+active	PATO:0002354	26-32
+drug	CHEBI:23888	46-50
+mucosa	UBERON:0000344	76-82
+Topical saline: saline applied to the vestibule mucosa will not reverse the local tenderness	Intervention	3
+mucosa	UBERON:0000344	48-54
+INTERVENTION 2:	Intervention	4
+Topical Liquid Lidocaine	Intervention	5
+lidocaine	CHEBI:6456	15-24
+Topical liquid lidocaine: active intervention drug numbs the hypersensitive mucosa of the vulvar vestibule	Intervention	6
+lidocaine	CHEBI:6456	15-24
+active	PATO:0002354	26-32
+drug	CHEBI:23888	46-50
+mucosa	UBERON:0000344	76-82
+Topical saline: saline applied to the vestibule mucosa will not reverse the local tenderness	Intervention	7
+mucosa	UBERON:0000344	48-54
+Eligibility Criteria	Eligibility	0
+Women aged 18 to 70 years old.	Eligibility	1
+Has a previous diagnosis of breast cancer (ductal or lobular carcinoma, invasive).	Eligibility	2
+breast cancer	DOID:1612	28-41
+carcinoma	HP:0030731,DOID:305	61-70
+1 year from diagnosis of breast cancer.	Eligibility	3
+year	UO:0000036	2-6
+breast cancer	DOID:1612	25-38
+Stable heterosexual partnership =/>5 years or by investigator discretion.	Eligibility	4
+stable	HP:0031915	0-6
+More than 6 months of consistent insertional pain with intercourse (may have stopped having intercourse due to this consistent experience of pain).	Eligibility	5
+pain	HP:0012531	45-49
+pain	HP:0012531	141-145
+Menopausal, demonstrated by at least one of the following:	Eligibility	6
+i. cessation of menses for 1 years ii. Bilateral oophorectomy iii. Follicle Stimulating Hormone (FSH) level >25 in women below age 50 with an ovary and scarred or absent uterus (acceptable FSH levels can be inferred if the woman's oncologist monitors FSH during aromatase inhibitor therapy).	Eligibility	7
+bilateral	HP:0012832	39-48
+follicle stimulating hormone	CHEBI:81569	67-95
+age	PATO:0000011	127-130
+ovary	UBERON:0000992	142-147
+absent	PATO:0000462	163-169
+uterus	UBERON:0000995	170-176
+inhibitor	CHEBI:35222	272-281
+Willingness to enter a study comparing a topical placebo liquid to topical liquid lidocaine.	Eligibility	8
+lidocaine	CHEBI:6456	82-91
+Willingness to evaluate the liquids by use of a tampon test as many as 4 times per month, and willingness to attempt intercourse if the tampon test indicates tolerable penetrative pain.	Eligibility	9
+month	UO:0000035	83-88
+pain	HP:0012531	180-184
+3.2 Exclusion Criteria	Eligibility	10
+Diagnosis of benign or malignant phyllodes tumor of the breast.	Eligibility	11
+breast	UBERON:0000310	56-62
+Consistently has pain in the pelvis or low abdomen during or after intercourse (deep dyspareunia).	Eligibility	12
+pain	HP:0012531	17-21
+abdomen	UBERON:0000916	43-50
+dyspareunia	HP:0030016	85-96
+Has developed shrinkage of the vaginal opening or vaginal length to the point of being too small to succeed in having vaginal penetration with the partner (will also be assessed at the clinical exam).	Eligibility	13
+length	PATO:0000122	58-64
+Partner has a problem of sexual dysfunction limiting his performance or making it inconsistent.	Eligibility	14
+sexual dysfunction	DOID:1876	25-43
+The potential subject or her partner has a serious current medical condition that might interrupt completion of a 6 month study.	Eligibility	15
+condition	PDRO:0000129	67-76
+month	UO:0000035	116-121
+Potential subject has been diagnosed by a physical therapist with significant pelvic floor muscle dysfunction causing pain (pelvic floor myalgia).	Eligibility	16
+pain	HP:0012531	118-122
+myalgia	HP:0003326	137-144
+Potential subject has used topical or systemic estrogen within the last 4 months.	Eligibility	17
+estrogen	CHEBI:50114,BAO:0000760	47-55
+Has continued tenderness of vestibule mucosa immediately after application of both test liquids.	Eligibility	18
+mucosa	UBERON:0000344	38-44
+application	CHEBI:33232,BAO:0110001	63-74
+Allergy to lidocaine or other numbing agents.	Eligibility	19
+allergy	HP:0012393	0-7
+lidocaine	CHEBI:6456	11-20
+Outcome Measurement:	Results	0
+Prevention of Entry Dyspareunia With Non-hormonal Therapy	Results	1
+dyspareunia	HP:0030016	20-31
+Mean intercourse pain reported by subjects using the Numerical Rating Scale pain ratings (range 0-10, 0 being "no pain" and 10 being "worst possible pain"). Testing was during weeks 0-4 (Phase II) (with blinded randomization for placebo vs active intervention medication) and testing was during weeks 5-12 (Phase III) (with open-label active medication for 8 weeks after completing the blinded 4 weeks). Subjects agreed to try penetration twice per week and score their pain using the Numerical Rating Scale pain ratings.The scores were averaged during each phase.	Results	2
+mean	BAO:0002173	0-4
+pain	HP:0012531	17-21
+pain	HP:0012531	76-80
+pain	HP:0012531	114-118
+pain	HP:0012531	149-153
+pain	HP:0012531	470-474
+pain	HP:0012531	508-512
+range	LABO:0000114	90-95
+active	PATO:0002354	240-246
+active	PATO:0002354	335-341
+week	UO:0000034	176-180
+week	UO:0000034	295-299
+week	UO:0000034	359-363
+week	UO:0000034	396-400
+week	UO:0000034	449-453
+Time frame: During Phase II (0-4 weeks) and during Phase III (5-12 weeks)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Topical Saline	Results	5
+Arm/Group Description: Topical liquid lidocaine: active intervention drug numbs the hypersensitive mucosa of the vulvar vestibule	Results	6
+lidocaine	CHEBI:6456	38-47
+active	PATO:0002354	49-55
+drug	CHEBI:23888	69-73
+mucosa	UBERON:0000344	99-105
+Topical saline: saline applied to the vestibule mucosa will not reverse the local tenderness	Results	7
+mucosa	UBERON:0000344	48-54
+Overall Number of Participants Analyzed: 21	Results	8
+Mean (Inter-Quartile Range)	Results	9
+mean	BAO:0002173	0-4
+range	LABO:0000114	21-26
+Unit of Measure: Units on a scale  Phase II: 5.3        (3 to 7)	Results	10
+Phase III: 0.57        (0.07 to 1.80)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Topical Liquid Lidocaine	Results	13
+lidocaine	CHEBI:6456	32-41
+Arm/Group Description: Topical liquid lidocaine: active intervention drug numbs the hypersensitive mucosa of the vulvar vestibule	Results	14
+lidocaine	CHEBI:6456	38-47
+active	PATO:0002354	49-55
+drug	CHEBI:23888	69-73
+mucosa	UBERON:0000344	99-105
+Topical saline: saline applied to the vestibule mucosa will not reverse the local tenderness	Results	15
+mucosa	UBERON:0000344	48-54
+Overall Number of Participants Analyzed: 22	Results	16
+Mean (Inter-Quartile Range)	Results	17
+mean	BAO:0002173	0-4
+range	LABO:0000114	21-26
+Unit of Measure: Units on a scale  Phase II: 1.04        (0.65 to 1.92)	Results	18
+Phase III: 0.45        (0 to 1.14)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/25 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/25 (0.00%)	Adverse Events	3

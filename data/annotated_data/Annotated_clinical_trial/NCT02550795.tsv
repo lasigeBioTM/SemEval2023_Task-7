@@ -1,0 +1,66 @@
+INTERVENTION 1:	Intervention	0
+Control	Intervention	1
+administration of 0.9% normal saline 10ml	Intervention	2
+Control: administration of normal saline	Intervention	3
+INTERVENTION 2:	Intervention	4
+Dexmedetomidine	Intervention	5
+dexmedetomidine	CHEBI:4466	0-15
+administration of 0.5ug/kg of dexmedetomidine (5ml)	Intervention	6
+dexmedetomidine	CHEBI:4466	30-45
+Dexmedetomidine: administration of dexmedetomidine only	Intervention	7
+dexmedetomidine	CHEBI:4466	0-15
+dexmedetomidine	CHEBI:4466	35-50
+Inclusion Criteria:	Eligibility	0
+ASA Physical status I or II female scheduled for breast conserving surgery of modified radical mastectomy.	Eligibility	1
+female	PATO:0000383	28-34
+breast	UBERON:0000310	49-55
+surgery	OAE:0000067	67-74
+radical	CHEBI:26519	87-94
+Exclusion Criteria:	Eligibility	2
+uncontrolled cardiovascular disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	28-35
+history of chronic pain	Eligibility	4
+history	BFO:0000182	0-7
+chronic pain	HP:0012532	11-23
+smoker	Eligibility	5
+previous history of steroid administraion	Eligibility	6
+history	BFO:0000182	9-16
+steroid	CHEBI:35341	20-27
+neoajuvant chemotherapy	Eligibility	7
+Outcome Measurement:	Results	0
+Postoperative Nausea (Numeric Rating Scale for Nausea)	Results	1
+nausea	HP:0002018	14-20
+nausea	HP:0002018	47-53
+Numeric rating scale for postoperative nausea (scores on a scale) (0-no symptoms; 10-worst symptoms imaginable). Ramosetron 0.3 mg was administered to patients with nausea >5 points on the numeric rating scale	Results	2
+nausea	HP:0002018	39-45
+nausea	HP:0002018	165-171
+ramosetron	CHEBI:135156	113-123
+Time frame: Changes from baseline in postoperative nausea at 30 min	Results	3
+time	PATO:0000165	0-4
+nausea	HP:0002018	51-57
+Results 1:	Results	4
+Arm/Group Title: Control	Results	5
+Arm/Group Description: administration of 0.9% normal saline 10ml	Results	6
+Control: administration of normal saline	Results	7
+Overall Number of Participants Analyzed: 50	Results	8
+Median (Inter-Quartile Range)	Results	9
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: scores on a scale  0        (0 to 0.25)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Dexmedetomidine	Results	12
+dexmedetomidine	CHEBI:4466	17-32
+Arm/Group Description: administration of 0.5ug/kg of dexmedetomidine (5ml)	Results	13
+dexmedetomidine	CHEBI:4466	53-68
+Dexmedetomidine: administration of dexmedetomidine only	Results	14
+dexmedetomidine	CHEBI:4466	0-15
+dexmedetomidine	CHEBI:4466	35-50
+Overall Number of Participants Analyzed: 49	Results	15
+Median (Inter-Quartile Range)	Results	16
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: scores on a scale  0        (0 to 0)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/50 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/50 (0.00%)	Adverse Events	3

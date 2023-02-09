@@ -1,0 +1,119 @@
+INTERVENTION 1:	Intervention	0
+Neratinib 240, Prior Trastuzumab	Intervention	1
+neratinib	CHEBI:61397	0-9
+Neratinib: 80mg capsules and 40mg coated tablets taken orally in prescribed dose of 240mg daily, as long as tolerated and disease does not worsen in participants with prior trastuzumab treatment.	Intervention	2
+neratinib	CHEBI:61397	0-9
+disease	DOID:4,OGMS:0000031	122-129
+INTERVENTION 2:	Intervention	3
+Neratinib 240, No Prior Trastuzumab	Intervention	4
+neratinib	CHEBI:61397	0-9
+Neratinib: 80mg capsules and 40mg coated tablets taken orally in prescribed dose of 240mg daily, as long as tolerated and disease does not worsen in participants with no prior trastuzumab treatment.	Intervention	5
+neratinib	CHEBI:61397	0-9
+disease	DOID:4,OGMS:0000031	122-129
+Inclusion Criteria:	Eligibility	0
+Pathologic diagnosis of breast cancer and current stage IIIB, IIIC, or IV	Eligibility	1
+breast cancer	DOID:1612	24-37
+Progression following at least 6 weeks of standard doses of Herceptin (Arm A only)	Eligibility	2
+Over-expression of HER2	Eligibility	3
+Tumor tissue available and adequate for analysis at screening	Eligibility	4
+tissue	UBERON:0000479	6-12
+At least one measurable lesion	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Prior treatment with Herceptin (Arm B only)	Eligibility	7
+More than 4 prior cytotoxic chemotherapy regimens	Eligibility	8
+Subjects with bone or skin as the only site of measurable disease	Eligibility	9
+site	BFO:0000029	39-43
+disease	DOID:4,OGMS:0000031	58-65
+Inadequate cardiac function	Eligibility	10
+function	BAO:0003117,BFO:0000034	19-27
+Major surgery, chemotherapy, radiotherapy, investigational agents or other cancer therapy within 1 week of treatment day 1	Eligibility	11
+surgery	OAE:0000067	6-13
+radiotherapy	OAE:0000235	29-41
+cancer	DOID:162	75-81
+week	UO:0000034	99-103
+day	UO:0000033	117-120
+Active central nervous system metastases	Eligibility	12
+active	PATO:0002354	0-6
+central nervous system	UBERON:0001017	7-29
+Pregnant or breastfeeding women	Eligibility	13
+Inability to swallow the HKI-272 capsules	Eligibility	14
+Outcome Measurement:	Results	0
+16-week Progression Free Survival	Results	1
+16 week progression-free survival (PFS) rate of neratinib in women with human epidermal growth factor receptor 2 (HER2) positive breast cancer, either with prior trastuzumab or no prior trastuzumab therapy, evaluated by independent assessment of tumor scans collected at baseline and then every 8 weeks.	Results	2
+week	UO:0000034	3-7
+week	UO:0000034	297-301
+rate	BAO:0080019	40-44
+neratinib	CHEBI:61397	48-57
+growth factor	BAO:0002024	88-101
+receptor	BAO:0000281	102-110
+breast cancer	DOID:1612	129-142
+Time frame: From first dose to 16 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Neratinib 240, Prior Trastuzumab	Results	5
+neratinib	CHEBI:61397	17-26
+Arm/Group Description: Neratinib: 80mg capsules and 40mg coated tablets taken orally in prescribed dose of 240mg daily, as long as tolerated and disease does not worsen in participants with prior trastuzumab treatment.	Results	6
+neratinib	CHEBI:61397	23-32
+disease	DOID:4,OGMS:0000031	145-152
+Overall Number of Participants Analyzed: 66	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  58.2        (45.3 to 71.2)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Neratinib 240, No Prior Trastuzumab	Results	11
+neratinib	CHEBI:61397	17-26
+Arm/Group Description: Neratinib: 80mg capsules and 40mg coated tablets taken orally in prescribed dose of 240mg daily, as long as tolerated and disease does not worsen in participants with no prior trastuzumab treatment.	Results	12
+neratinib	CHEBI:61397	23-32
+disease	DOID:4,OGMS:0000031	145-152
+Overall Number of Participants Analyzed: 70	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  77.8        (67.6 to 88.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 19/66 (28.79%)	Adverse Events	1
+Anaemia 0/66 (0.00%)	Adverse Events	2
+Atrioventricular block 0/66 (0.00%)	Adverse Events	3
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Bradycardia 0/66 (0.00%)	Adverse Events	4
+bradycardia	HP:0001662	0-11
+Diarrhoea 4/66 (6.06%)	Adverse Events	5
+Nausea 2/66 (3.03%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Vomiting 3/66 (4.55%)	Adverse Events	7
+vomiting	HP:0002013	0-8
+Asthenia 0/66 (0.00%)	Adverse Events	8
+asthenia	HP:0025406	0-8
+Fatigue 1/66 (1.52%)	Adverse Events	9
+fatigue	HP:0012378	0-7
+Malaise 0/66 (0.00%)	Adverse Events	10
+malaise	HP:0033834	0-7
+Pyrexia 0/66 (0.00%)	Adverse Events	11
+Disseminated tuberculosis 0/66 (0.00%)	Adverse Events	12
+tuberculosis	DOID:399	13-25
+Folliculitis 0/66 (0.00%)	Adverse Events	13
+folliculitis	HP:0025084,DOID:4409	0-12
+Hepatitis E 0/66 (0.00%)	Adverse Events	14
+hepatitis e	DOID:4411	0-11
+Adverse Events 2:	Adverse Events	15
+Total: 17/70 (24.29%)	Adverse Events	16
+Anaemia 1/70 (1.43%)	Adverse Events	17
+Atrioventricular block 1/70 (1.43%)	Adverse Events	18
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Bradycardia 1/70 (1.43%)	Adverse Events	19
+bradycardia	HP:0001662	0-11
+Diarrhoea 4/70 (5.71%)	Adverse Events	20
+Nausea 0/70 (0.00%)	Adverse Events	21
+nausea	HP:0002018	0-6
+Vomiting 6/70 (8.57%)	Adverse Events	22
+vomiting	HP:0002013	0-8
+Asthenia 1/70 (1.43%)	Adverse Events	23
+asthenia	HP:0025406	0-8
+Fatigue 0/70 (0.00%)	Adverse Events	24
+fatigue	HP:0012378	0-7
+Malaise 1/70 (1.43%)	Adverse Events	25
+malaise	HP:0033834	0-7
+Pyrexia 1/70 (1.43%)	Adverse Events	26
+Disseminated tuberculosis 1/70 (1.43%)	Adverse Events	27
+tuberculosis	DOID:399	13-25
+Folliculitis 1/70 (1.43%)	Adverse Events	28
+folliculitis	HP:0025084,DOID:4409	0-12
+Hepatitis E 1/70 (1.43%)	Adverse Events	29
+hepatitis e	DOID:4411	0-11

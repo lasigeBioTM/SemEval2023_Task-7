@@ -1,0 +1,175 @@
+INTERVENTION 1:	Intervention	0
+Vinflunine	Intervention	1
+vinflunine	CHEBI:90241	0-10
+Vinflunine 320 mg/m2 intravenously day 1 over 20 minutes repeated every 21 days	Intervention	2
+vinflunine	CHEBI:90241	0-10
+day	UO:0000033	35-38
+day	UO:0000033	75-78
+INTERVENTION 2:	Intervention	3
+Vinflunine/Trastuzumab	Intervention	4
+Vinflunine 280 mg/m2 every 21 days with trastuzumab administered with a loading dose of 8 mg/kg, followed by 6 mg/kg IV on day 1 of each subsequent cycle, repeated every 21 days. If no grade 3/4 adverse events were encountered after the first cycle of vinflunine/trastuzumab, the dose of vinflunine could be escalated to 320 mg/m2	Intervention	5
+vinflunine	CHEBI:90241	0-10
+vinflunine	CHEBI:90241	252-262
+vinflunine	CHEBI:90241	288-298
+day	UO:0000033	30-33
+day	UO:0000033	123-126
+day	UO:0000033	173-176
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed breast cancer with metastatic disease. Patients without pathologic or cytologic confirmation of metastatic disease should have unequivocal evidence of metastasis using the Response Evaluation Criteria in Solid Tumors (RECIST) criteria.	Eligibility	1
+breast cancer	DOID:1612	61-74
+disease	DOID:4,OGMS:0000031	91-98
+disease	DOID:4,OGMS:0000031	168-175
+The human epidermal growth factor receptor 2 (HER2) status of the tumor will be used to stratify patients. Tumors that are HER2 FISH+ will receive vinflunine and trastuzumab. Patients with tumors which are HER2 FISH negative or if the HER2 status is unknown/not performed will remain on study and will receive single agent vinflunine.	Eligibility	2
+growth factor	BAO:0002024	20-33
+receptor	BAO:0000281	34-42
+vinflunine	CHEBI:90241	147-157
+vinflunine	CHEBI:90241	323-333
+Patients must have measurable disease not directly irradiated as per RECIST criteria.	Eligibility	3
+disease	DOID:4,OGMS:0000031	30-37
+Measurable disease- is defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >20 mm with conventional techniques or as >10 mm with spiral CT scan.	Eligibility	4
+diameter	PATO:0001334	121-129
+ct	BAO:0002125	210-212
+Prior Therapy: Patients must not have received prior chemotherapy in the metastatic breast setting. Patients who have not received prior anthracyclines or taxanes should be considered for these agents. Patients may have received prior chemotherapy and/or hormonal therapy for early stage breast cancer. The chemotherapy regimen may have included an anthracycline and/or a taxane as long as it has been > 6 months since completion of the regimen. Adjuvant trastuzumab is allowed. Patients may have received prior radiation therapy in either the metastatic or early stage setting as long as <25% of the bone marrow has been treated. Prior radiation to the whole pelvis is not allowed. Radiation therapy must be completed at least 7 days prior to study registration, and all radiation related toxicities must be resolved to grade  1 before patient is eligible for study inclusion. Patients may have received any number of hormonal therapies in the neo-adjuvant, adjuvant or metastatic setting.	Eligibility	5
+breast	UBERON:0000310	84-90
+breast	UBERON:0000310	288-294
+breast cancer	DOID:1612	288-301
+anthracycline	CHEBI:48120	137-150
+anthracycline	CHEBI:48120	349-362
+taxane	CHEBI:36064	155-161
+taxane	CHEBI:36064	372-378
+adjuvant	CHEBI:60809	446-454
+adjuvant	CHEBI:60809	949-957
+adjuvant	CHEBI:60809	959-967
+bone marrow	UBERON:0002371	601-612
+patient	HADO:0000008,OAE:0001817	15-22
+patient	HADO:0000008,OAE:0001817	100-107
+patient	HADO:0000008,OAE:0001817	202-209
+patient	HADO:0000008,OAE:0001817	479-486
+patient	HADO:0000008,OAE:0001817	837-844
+patient	HADO:0000008,OAE:0001817	878-885
+Age >18 years.	Eligibility	6
+age	PATO:0000011	0-3
+Life expectancy of > 6 months.	Eligibility	7
+Eastern Cooperative Oncology Group (ECOG) performance status <2.	Eligibility	8
+group	CHEBI:24433	29-34
+Patients must have normal organ and marrow function. Laboratory tests should be completed within 14 days prior to starting study treatment. Only for patients who will be receiving trastuzumab, a left ventricular ejection fraction (LVEF) may be determined by either echocardiography or multigated acquisition (MUGA) scan, and should be obtained within 4 weeks prior to starting study treatment.	Eligibility	9
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+left	HP:0012835	195-199
+ejection fraction	CMO:0000180	212-229
+Fertility/reproduction. Patients must not be pregnant, expect to become pregnant or conceive a child from time of first signing study consent until at least 12 weeks after last dose of study treatment.	Eligibility	10
+time	PATO:0000165	106-110
+Exclusion Criteria	Eligibility	11
+Patients who have received prior vinca alkaloid chemotherapy are not eligible unless treatment was completed > 5 years ago.	Eligibility	12
+vinca alkaloid	CHEBI:27288	33-47
+Patients in which the HER2 status is unknown or is FISH negative will not receive trastuzumab but are eligible for treatment with single agent vinflunine.	Eligibility	13
+vinflunine	CHEBI:90241	143-153
+Patients that have received prior chemotherapy for metastatic breast cancer.	Eligibility	14
+breast cancer	DOID:1612	62-75
+Patients receiving trastuzumab must have received a cumulative dose of doxorubicin less than 360mg/m2, and/or an epirubicin cumulative dose less than 720mg/m2 for study entry.	Eligibility	15
+doxorubicin	CHEBI:28748,BAO:0000639	71-82
+Patients with known leptomeningeal carcinomatosis are excluded from this clinical trial	Eligibility	16
+excluded	HP:0040285	54-62
+History of grade 3 or 4 allergic reactions attributed to trastuzumab.	Eligibility	17
+history	BFO:0000182	0-7
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	18
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Pregnant women are excluded from this study	Eligibility	19
+excluded	HP:0040285	19-27
+History of other non-breast cancer malignancy except for carcinoma in situ of the cervix or non-melanoma skin cancer, or in patients with greater than a 5-year disease free interval from a prior malignancy.	Eligibility	20
+history	BFO:0000182	0-7
+cancer	DOID:162	28-34
+cancer	DOID:162	110-116
+carcinoma	HP:0030731,DOID:305	57-66
+skin cancer	DOID:4159	105-116
+disease	DOID:4,OGMS:0000031	160-167
+Patients who have received prior chemotherapy for early stage breast cancer with the completion of the regimen being < 6 months will not be eligible.	Eligibility	21
+breast cancer	DOID:1612	62-75
+Outcome Measurement:	Results	0
+Overall Response Rate (ORR), the Percentage of Patients Who Experience an Objective Benefit From Treatment	Results	1
+rate	BAO:0080019	17-21
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI or CT: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	2
+target	BAO:0003064	76-82
+target	BAO:0003064	163-169
+target	BAO:0003064	255-261
+ct	BAO:0002125	114-116
+diameter	PATO:0001334	243-251
+Time frame: 18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Vinflunine	Results	5
+vinflunine	CHEBI:90241	17-27
+Arm/Group Description: Vinflunine 320 mg/m2 intravenously day 1 over 20 minutes repeated every 21 days	Results	6
+vinflunine	CHEBI:90241	23-33
+day	UO:0000033	58-61
+day	UO:0000033	98-101
+Overall Number of Participants Analyzed: 11	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  9        (0.23 to 41.26)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Vinflunine/Trastuzumab	Results	11
+Arm/Group Description: Vinflunine 280 mg/m2 every 21 days with trastuzumab administered with a loading dose of 8 mg/kg, followed by 6 mg/kg IV on day 1 of each subsequent cycle, repeated every 21 days. If no grade 3/4 adverse events were encountered after the first cycle of vinflunine/trastuzumab, the dose of vinflunine could be escalated to 320 mg/m2	Results	12
+vinflunine	CHEBI:90241	23-33
+vinflunine	CHEBI:90241	275-285
+vinflunine	CHEBI:90241	311-321
+day	UO:0000033	53-56
+day	UO:0000033	146-149
+day	UO:0000033	196-199
+Overall Number of Participants Analyzed: 21	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  33        (14.59 to 56.97)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 5/11 (45.45%)	Adverse Events	1
+Diabetes insipidus  [1]1/11 (9.09%)	Adverse Events	2
+diabetes insipidus	HP:0000873,DOID:9409	0-18
+Nausea 0/11 (0.00%)	Adverse Events	3
+nausea	HP:0002018	0-6
+Ileus 1/11 (9.09%)	Adverse Events	4
+ileus	HP:0002595,DOID:8440	0-5
+Dehydration 1/11 (9.09%)	Adverse Events	5
+dehydration	HP:0001944	0-11
+Vomiting 0/11 (0.00%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Pain NOS  [2]2/11 (18.18%)	Adverse Events	7
+pain	HP:0012531	0-4
+Pain - abdomen 0/11 (0.00%)	Adverse Events	8
+pain	HP:0012531	0-4
+abdomen	UBERON:0000916	7-14
+Fracture  [3]0/11 (0.00%)	Adverse Events	9
+Progressive Disease 1/11 (9.09%)	Adverse Events	10
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+CNS Ischemia 1/11 (9.09%)	Adverse Events	11
+ischemia	DOID:326	4-12
+Respiratory Failure 0/11 (0.00%)	Adverse Events	12
+respiratory failure	HP:0002878,DOID:11162	0-19
+Hypoxia 1/11 (9.09%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 8/21 (38.10%)	Adverse Events	15
+Diabetes insipidus  [1]0/21 (0.00%)	Adverse Events	16
+diabetes insipidus	HP:0000873,DOID:9409	0-18
+Nausea 1/21 (4.76%)	Adverse Events	17
+nausea	HP:0002018	0-6
+Ileus 0/21 (0.00%)	Adverse Events	18
+ileus	HP:0002595,DOID:8440	0-5
+Dehydration 1/21 (4.76%)	Adverse Events	19
+dehydration	HP:0001944	0-11
+Vomiting 1/21 (4.76%)	Adverse Events	20
+vomiting	HP:0002013	0-8
+Pain NOS  [2]0/21 (0.00%)	Adverse Events	21
+pain	HP:0012531	0-4
+Pain - abdomen 1/21 (4.76%)	Adverse Events	22
+pain	HP:0012531	0-4
+abdomen	UBERON:0000916	7-14
+Fracture  [3]1/21 (4.76%)	Adverse Events	23
+Progressive Disease 1/21 (4.76%)	Adverse Events	24
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+CNS Ischemia 1/21 (4.76%)	Adverse Events	25
+ischemia	DOID:326	4-12
+Respiratory Failure 1/21 (4.76%)	Adverse Events	26
+respiratory failure	HP:0002878,DOID:11162	0-19
+Hypoxia 1/21 (4.76%)	Adverse Events	27

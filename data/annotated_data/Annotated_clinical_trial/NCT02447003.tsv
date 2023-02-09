@@ -1,0 +1,169 @@
+INTERVENTION 1:	Intervention	0
+Cohort A: Pembrolizumab	Intervention	1
+Participants in Cohort A previously received at least one prior systemic treatment for metastatic breast cancer. Participants were administered pembrolizumab 200 mg intravenously (IV) on Day 1 of each 3-week cycle (Q3W) for up to 35 cycles (up to ~2 years).	Intervention	2
+breast cancer	DOID:1612	98-111
+day	UO:0000033	187-190
+INTERVENTION 2:	Intervention	3
+Cohort B: Pembrolizumab	Intervention	4
+Participants in Cohort B previously received no prior systemic treatment for metastatic breast cancer AND had a programmed cell death-ligand 1 (PD-L1) positive tumor expression. Participants were administered pembrolizumab 200 mg IV on Day 1 of each 3-week cycle (Q3W) for up to 35 cycles (up to ~2 years).	Intervention	5
+breast cancer	DOID:1612	88-101
+day	UO:0000033	236-239
+Inclusion Criteria:	Eligibility	0
+For the purposes of this study, neoadjuvant and/or adjuvant chemotherapy regimens do not count as a prior line of therapy.	Eligibility	1
+adjuvant	CHEBI:60809	35-43
+adjuvant	CHEBI:60809	51-59
+For second line plus monotherapy (Parts 1 and 2):	Eligibility	2
+second	UO:0000010	4-10
+Has received at least one systemic treatment for metastatic breast cancer	Eligibility	3
+breast cancer	DOID:1612	60-73
+Has documented disease progression on or after the most recent therapy	Eligibility	4
+disease	DOID:4,OGMS:0000031	15-22
+Prior treatment must include an anthracycline and a taxane in the neoadjuvant, adjuvant, or metastatic setting	Eligibility	5
+anthracycline	CHEBI:48120	32-45
+taxane	CHEBI:36064	52-58
+adjuvant	CHEBI:60809	69-77
+adjuvant	CHEBI:60809	79-87
+For first line monotherapy (Part 1):	Eligibility	6
+Has received no prior systemic treatment for metastatic breast cancer	Eligibility	7
+breast cancer	DOID:1612	56-69
+Has PD-L1-positive mTNBC.	Eligibility	8
+For second line plus monotherapy (Part 2):	Eligibility	9
+second	UO:0000010	4-10
+- Has PD-L1 strong positive mTNBC	Eligibility	10
+For all parts:	Eligibility	11
+Has mTNBC confirmed by a central laboratory	Eligibility	12
+central	HP:0030645	25-32
+For biomarker analysis, adequate newly obtained core or excisional biopsy of a not-previously-irradiated metastatic tumor lesion (mandatory)	Eligibility	13
+biomarker	CHEBI:59163	4-13
+Has measurable metastatic disease	Eligibility	14
+disease	DOID:4,OGMS:0000031	26-33
+Has Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	15
+group	CHEBI:24433	33-38
+Female participants of childbearing potential should be willing to use 2 methods of birth control or be surgically sterile, or abstain from heterosexual activity for the course of the study through 120 days after the last dose of study treatment	Eligibility	16
+female	PATO:0000383	0-6
+Male participants should agree to use an adequate method of contraception starting with the first dose of study treatment through 120 days after the last dose of study treatment	Eligibility	17
+male	CHEBI:30780,PATO:0000384	0-4
+Has adequate organ function	Eligibility	18
+organ	UBERON:0000062	13-18
+function	BAO:0003117,BFO:0000034	19-27
+Exclusion Criteria:	Eligibility	19
+Is currently participating and receiving study treatment, or has participated in a study of an investigational agent and received study therapy or used an investigational device within 4 weeks prior to study Day 1	Eligibility	20
+day	UO:0000033	208-211
+Has received prior anti-cancer monoclonal antibody (mAb) therapy for direct anti-neoplastic treatment within 4 weeks prior to study Day 1	Eligibility	21
+monoclonal	BAO:0000503	31-41
+antibody	GO:0042571,BAO:0000502	42-50
+day	UO:0000033	132-135
+Has received prior chemotherapy, targeted small molecule therapy, or radiation therapy within at least 2 weeks prior to study Day 1	Eligibility	22
+small molecule	BAO:0000176	42-56
+day	UO:0000033	126-129
+Has not recovered (i.e.,  Grade 1 or at baseline) from adverse events due to agents administered within at least 2 weeks prior to study Day 1	Eligibility	23
+day	UO:0000033	136-139
+Has an active autoimmune disease requiring systemic treatment in past 2 years	Eligibility	24
+active	PATO:0002354	7-13
+autoimmune disease	DOID:417	14-32
+Has a diagnosis of immunodeficiency or receiving systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to the first dose of study treatment	Eligibility	25
+immunodeficiency	HP:0002721	19-35
+steroid	CHEBI:35341	58-65
+Has known additional malignancy that progressed or required active treatment within the last 5 years. Exceptions include basal cell carcinoma of the skin, squamous cell carcinoma of the skin that has undergone potentially curative therapy, or in situ cervical cancer	Eligibility	26
+active	PATO:0002354	60-66
+basal cell carcinoma	HP:0002671,DOID:2513	121-141
+squamous cell carcinoma of the skin	HP:0006739	155-190
+cervical cancer	DOID:4362	251-266
+Has radiographically-detectable central nervous system (CNS) metastases and/or carcinomatous meningitis	Eligibility	27
+central nervous system	UBERON:0001017	32-54
+meningitis	HP:0001287,DOID:9471	93-103
+Has a history of (non-infectious) pneumonitis that required steroids or current pneumonitis or a history of interstitial lung disease	Eligibility	28
+history	BFO:0000182	6-13
+history	BFO:0000182	97-104
+interstitial lung disease	DOID:3082	108-133
+Has an active infection requiring systemic therapy	Eligibility	29
+active	PATO:0002354	7-13
+Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the study	Eligibility	30
+substance abuse	DOID:302	25-40
+Is pregnant, breastfeeding, or expecting to conceive or father children within the projected duration of the study, starting with the screening visit through 120 days after the last dose of study treatment	Eligibility	31
+duration	PATO:0001309	93-101
+Has received prior therapy with an anti-programmed cell death protein-1 (anti-PD-1), anti-PD-L1, anti-PD-L2 agent or with an agent directed to another co-inhibitory T-cell receptor (e.g. cytotoxic T-lymphocyte-associated protein-4 [CTLA-4], OX-40, CD137) or has participated in Merck MK-3475 (pembrolizumab) study	Eligibility	32
+cell death	GO:0008219	51-61
+receptor	BAO:0000281	172-180
+Has a known history of human immunodeficiency virus (HIV)	Eligibility	33
+history	BFO:0000182	12-19
+immunodeficiency	HP:0002721	29-45
+virus	BAO:0000232	46-51
+Has known active Hepatitis B or C	Eligibility	34
+active	PATO:0002354	10-16
+hepatitis b	DOID:2043	17-28
+Has received a live vaccine within 30 days of planned start of study treatment	Eligibility	35
+vaccine	VO:0000001	20-27
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR) Per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1) by Central Imaging Vendor (CIV) in All Cohort A Participants	Results	1
+rate	BAO:0080019	19-23
+central	HP:0030645	107-114
+ORR was defined as the percentage of participants who had a Complete Response (CR: disappearance of all target lesions) or a Partial Response (PR: 30% decrease in sum of diameters [SOD] of target lesions) per RECIST 1.1 by CIV. ORR was estimated by Agresti-Coull (A-C) method. The percentage of participants who had CR or PR is reported here as the protocol-specified ORR, for the first pembrolizumab course, assessed from enrolment/treatment initiation and analyzed by Cohort, for all participants in Cohort A. Per protocol final ORR analysis in all Cohort A participants was done at the time of final statistical efficacy analysis, with a 10-November (Nov)-2017 cutoff. Per protocol ORR per RECIST 1.1 by CIV in all Cohort A participants was planned and conducted as a pre-specified primary outcome analysis. Per protocol ORR per RECIST 1.1 by CIV in all Cohort B participants was analyzed separately as a pre-specified secondary outcome analysis and reported later in the record.	Results	2
+target	BAO:0003064	104-110
+target	BAO:0003064	189-195
+time	PATO:0000165	589-593
+efficacy	BAO:0000656	615-623
+Time frame: Up to ~28 months (through pre-specified statistical analysis cut-off date of 10-Nov-2017)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cohort A: Pembrolizumab	Results	5
+Arm/Group Description: Participants in Cohort A previously received at least one prior systemic treatment for metastatic breast cancer. Participants were administered pembrolizumab 200 mg intravenously (IV) on Day 1 of each 3-week cycle (Q3W) for up to 35 cycles (up to ~2 years).	Results	6
+breast cancer	DOID:1612	121-134
+day	UO:0000033	210-213
+Overall Number of Participants Analyzed: 170	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  5.3        (2.7 to 9.9)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort B: Pembrolizumab	Results	11
+Arm/Group Description: Participants in Cohort B previously received no prior systemic treatment for metastatic breast cancer AND had a programmed cell death-ligand 1 (PD-L1) positive tumor expression. Participants were administered pembrolizumab 200 mg IV on Day 1 of each 3-week cycle (Q3W) for up to 35 cycles (up to ~2 years).	Results	12
+breast cancer	DOID:1612	111-124
+day	UO:0000033	259-262
+Overall Number of Participants Analyzed: 0	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of participants	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 46/170 (27.06%)	Adverse Events	1
+Anaemia 1/170 (0.59%)	Adverse Events	2
+Febrile neutropenia 1/170 (0.59%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac tamponade 1/170 (0.59%)	Adverse Events	4
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Myocarditis 1/170 (0.59%)	Adverse Events	5
+myocarditis	HP:0012819,DOID:820	0-11
+Pericardial effusion 2/170 (1.18%)	Adverse Events	6
+pericardial effusion	HP:0001698,DOID:118	0-20
+Pericarditis 1/170 (0.59%)	Adverse Events	7
+pericarditis	HP:0001701,DOID:1787	0-12
+Colitis 1/170 (0.59%)	Adverse Events	8
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 1/170 (0.59%)	Adverse Events	9
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 0/170 (0.00%)	Adverse Events	10
+Gastroenteritis eosinophilic 0/170 (0.00%)	Adverse Events	11
+gastroenteritis	DOID:2326	0-15
+Intestinal obstruction 0/170 (0.00%)	Adverse Events	12
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Adverse Events 2:	Adverse Events	13
+Total: 0/1 (0.00%)	Adverse Events	14
+Anaemia 0/1 (0.00%)	Adverse Events	15
+Febrile neutropenia 0/1 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac tamponade 0/1 (0.00%)	Adverse Events	17
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Myocarditis 0/1 (0.00%)	Adverse Events	18
+myocarditis	HP:0012819,DOID:820	0-11
+Pericardial effusion 0/1 (0.00%)	Adverse Events	19
+pericardial effusion	HP:0001698,DOID:118	0-20
+Pericarditis 0/1 (0.00%)	Adverse Events	20
+pericarditis	HP:0001701,DOID:1787	0-12
+Colitis 0/1 (0.00%)	Adverse Events	21
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 0/1 (0.00%)	Adverse Events	22
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 0/1 (0.00%)	Adverse Events	23
+Gastroenteritis eosinophilic 0/1 (0.00%)	Adverse Events	24
+gastroenteritis	DOID:2326	0-15
+Intestinal obstruction 0/1 (0.00%)	Adverse Events	25
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea 0/1 (0.00%)	Adverse Events	26
+nausea	HP:0002018	0-6

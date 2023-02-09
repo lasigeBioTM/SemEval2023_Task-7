@@ -1,0 +1,155 @@
+INTERVENTION 1:	Intervention	0
+Arm 1 Gemcitabine/Cisplatin/Trastuzumab	Intervention	1
+Gemcitabine 1000 mg/m2 iv over 30 minutes on days 1 and 8 Cisplatin 30 mg/m2 iv over 90 minutes on days 1 and 8 Trastuzumab 2 mg/kg iv over 30 minutes on days 1, 8 and 15 (if trastuzumab was not administered within the past 3 weeks, a loading dose of 4 mg/kg iv over 90 minutes will be given on the first day of cycle 1 only).	Intervention	2
+gemcitabine	CHEBI:175901	0-11
+cisplatin	CHEBI:27899	58-67
+day	UO:0000033	45-48
+day	UO:0000033	99-102
+day	UO:0000033	154-157
+day	UO:0000033	305-308
+Gemcitabine: 1000 mg/m2 IV over 30 minutes on Days 1 and 8.	Intervention	3
+gemcitabine	CHEBI:175901	0-11
+Trastuzumab: 2 mg/kg IV on days 1, 8 and 15. If Trastuzumab has not been administered within the 3 weeks before starting this treatment, the first dose of Trastuzumab given on Cycle 1, Day 1 will be 4 mg/kg followed by 2 mg/kg weekly.	Intervention	4
+day	UO:0000033	27-30
+day	UO:0000033	185-188
+Cisplatin: 30 mg/m2 IV on Day 1 and Day 8.	Intervention	5
+cisplatin	CHEBI:27899	0-9
+day	UO:0000033	26-29
+day	UO:0000033	36-39
+INTERVENTION 2:	Intervention	6
+Arm 2 Gemcitabine / Trastuzumab	Intervention	7
+gemcitabine	CHEBI:175901	6-17
+Gemcitabine 1000 mg/m2 iv over 30 minutes on days 1 and 8 Trastuzumab 2 mg/kg iv over 30 minutes on days 1, 8 and 15 (if trastuzumab was not administered within the past 3 weeks, a loading dose of 4 mg/kg iv over 90 minutes will be given on the first day of cycle 1 only).	Intervention	8
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	45-48
+day	UO:0000033	100-103
+day	UO:0000033	251-254
+Gemcitabine: 1000 mg/m2 IV over 30 minutes on Days 1 and 8.	Intervention	9
+gemcitabine	CHEBI:175901	0-11
+Trastuzumab: 2 mg/kg IV on days 1, 8 and 15. If Trastuzumab has not been administered within the 3 weeks before starting this treatment, the first dose of Trastuzumab given on Cycle 1, Day 1 will be 4 mg/kg followed by 2 mg/kg weekly.	Intervention	10
+day	UO:0000033	27-30
+day	UO:0000033	185-188
+Eligibility Criteria:	Eligibility	0
+Must have invasive metastatic breast cancer	Eligibility	1
+breast cancer	DOID:1612	30-43
+Tumor must be Her 2/neu 3+ by IHC (must be confirmed by Ohio State University pathology)or positive FISH	Eligibility	2
+Histological confirmation of invasive breast cancer either from the original diagnosis and/or diagnosis of metastatic disease.	Eligibility	3
+breast cancer	DOID:1612	38-51
+disease	DOID:4,OGMS:0000031	118-125
+Tumor must be detectable clinically or radiographically (a positive bone scan is allowed as the only site of disease). Unidimensional measurements must be obtained whenever possible). Bone marrow only disease is not eligible for enrollment on this study.	Eligibility	4
+site	BFO:0000029	101-105
+disease	DOID:4,OGMS:0000031	109-116
+disease	DOID:4,OGMS:0000031	201-208
+bone marrow	UBERON:0002371	184-195
+No evidence of congestive heart failure, symptoms of coronary artery disease, serious cardiac arrhythmias, or evidence of prior myocardial infarction on EKG or ECHO. Patients must have normal LV function and LVEF(left ventricular ejection fraction)> 50% as demonstrated by either echo or muga within the proceeding 4 weeks.	Eligibility	5
+congestive heart failure	HP:0001635,DOID:6000	15-39
+coronary artery disease	DOID:3393	53-76
+myocardial infarction	HP:0001658,DOID:5844	128-149
+function	BAO:0003117,BFO:0000034	195-203
+left	HP:0012835	213-217
+ejection fraction	CMO:0000180	230-247
+Must have adequate renal and hepatic function documented by a serum creatinine < 1.5 x the institutional upper limit of normal (ULN), serum bilirubin <1.5 x ULN and liver enzymes (AST, ALT, or alkaline phosphatase) < 2 x ULN (< 5 x ULN if hepatic metastasis) within 21 days prior to registration.	Eligibility	6
+function	BAO:0003117,BFO:0000034	37-45
+creatinine	CHEBI:16737	68-78
+x	LABO:0000148	85-86
+x	LABO:0000148	155-156
+x	LABO:0000148	219-220
+x	LABO:0000148	230-231
+liver	UBERON:0002107	165-170
+phosphatase	GO:0016791,BAO:0000295	202-213
+Patients must have an ANC (absolute neutrophil count) > 1.5, platelets > 100,000, Hemoglobin >9.0 within 21 days of registration.	Eligibility	7
+hemoglobin	CHEBI:35143	82-92
+If patients are on bisphosphonates at the time of registration, with a stable creatinine over the preceding 2 months, then they may continue bisphosphonates during the study.	Eligibility	8
+time	PATO:0000165	42-46
+stable	HP:0031915	71-77
+creatinine	CHEBI:16737	78-88
+No more than one prior Trastuzumab/chemotherapy or Trastuzumab/biotherapy combination for metastatic disease. Additional Trastuzumab therapy may have been given in the adjuvant setting. Prior hormonal therapy is allowed for either adjuvant or metastatic disease.	Eligibility	9
+disease	DOID:4,OGMS:0000031	101-108
+disease	DOID:4,OGMS:0000031	254-261
+adjuvant	CHEBI:60809	168-176
+adjuvant	CHEBI:60809	231-239
+Must be >3 weeks since administration of last chemotherapy prior to initiation of treatment on this trial. Prior trastuzumab may have been administered within one week of initiation of treatment on this trial if the last dose was 2 mg/kg. Any prior trastuzumab dosing greater than 2 mg/kg requires a 3 week washout period.	Eligibility	10
+week	UO:0000034	11-15
+week	UO:0000034	163-167
+week	UO:0000034	302-306
+Patients may have received prior cisplatin or carboplatin for metastatic disease.	Eligibility	11
+cisplatin	CHEBI:27899	33-42
+carboplatin	CHEBI:31355	46-57
+disease	DOID:4,OGMS:0000031	73-80
+No CNS(central nervous system)metastasis disease.	Eligibility	12
+central nervous system	UBERON:0001017	7-29
+disease	DOID:4,OGMS:0000031	41-48
+No active infection at time of registration.	Eligibility	13
+active	PATO:0002354	3-9
+time	PATO:0000165	23-27
+Pregnant or nursing women may not participate in trial.	Eligibility	14
+Patients must be informed of the investigational nature of this study and sign and give written informed consent in accordance with institutional and federal guidelines.	Eligibility	15
+ECOG (Eastern Cooperative Oncology Group)performance status < 2 at the time of registration.	Eligibility	16
+group	CHEBI:24433	35-40
+time	PATO:0000165	71-75
+Patients may participate in a non-treatment related protocol while participating in this study.	Eligibility	17
+No other active malignancy is allowed. Adequately treated basal cell, squamous cell skin cancer, in situ cervical cancer, adequately treated stage I or II cancer from which the patient is currently in complete remission, or any other cancer from which the patient has been disease-free for 5 years is allowed.	Eligibility	18
+active	PATO:0002354	9-15
+skin cancer	DOID:4159	84-95
+cervical cancer	DOID:4362	105-120
+cancer	DOID:162	89-95
+cancer	DOID:162	114-120
+cancer	DOID:162	155-161
+cancer	DOID:162	234-240
+patient	HADO:0000008,OAE:0001817	177-184
+patient	HADO:0000008,OAE:0001817	256-263
+Outcome Measurement:	Results	0
+Disease Progression	Results	1
+disease	DOID:4,OGMS:0000031	0-7
+Proportion of patients with metastatic breast cancer free of disease progression at 6 months following treatment	Results	2
+breast cancer	DOID:1612	39-52
+disease	DOID:4,OGMS:0000031	61-68
+Time frame: 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1 Gemcitabine/Cisplatin/Trastuzumab	Results	5
+Arm/Group Description: Gemcitabine 1000 mg/m2 iv over 30 minutes on days 1 and 8 Cisplatin 30 mg/m2 iv over 90 minutes on days 1 and 8 Trastuzumab 2 mg/kg iv over 30 minutes on days 1, 8 and 15 (if trastuzumab was not administered within the past 3 weeks, a loading dose of 4 mg/kg iv over 90 minutes will be given on the first day of cycle 1 only).	Results	6
+gemcitabine	CHEBI:175901	23-34
+cisplatin	CHEBI:27899	81-90
+day	UO:0000033	68-71
+day	UO:0000033	122-125
+day	UO:0000033	177-180
+day	UO:0000033	328-331
+Gemcitabine: 1000 mg/m2 IV over 30 minutes on Days 1 and 8.	Results	7
+gemcitabine	CHEBI:175901	0-11
+Trastuzumab: 2 mg/kg IV on days 1, 8 and 15. If Trastuzumab has not been administered within the 3 weeks before starting this treatment, the first dose of Trastuzumab given on Cycle 1, Day 1 will be 4 mg/kg followed by 2 mg/kg weekly.	Results	8
+day	UO:0000033	27-30
+day	UO:0000033	185-188
+Cisplatin: 30 mg/m2 IV on Day 1 and Day 8.	Results	9
+cisplatin	CHEBI:27899	0-9
+day	UO:0000033	26-29
+day	UO:0000033	36-39
+Overall Number of Participants Analyzed: 5	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  1  20.0%	Results	12
+Results 2:	Results	13
+Arm/Group Title: Arm 2 Gemcitabine / Trastuzumab	Results	14
+gemcitabine	CHEBI:175901	23-34
+Arm/Group Description: Gemcitabine 1000 mg/m2 iv over 30 minutes on days 1 and 8 Trastuzumab 2 mg/kg iv over 30 minutes on days 1, 8 and 15 (if trastuzumab was not administered within the past 3 weeks, a loading dose of 4 mg/kg iv over 90 minutes will be given on the first day of cycle 1 only).	Results	15
+gemcitabine	CHEBI:175901	23-34
+day	UO:0000033	68-71
+day	UO:0000033	123-126
+day	UO:0000033	274-277
+Gemcitabine: 1000 mg/m2 IV over 30 minutes on Days 1 and 8.	Results	16
+gemcitabine	CHEBI:175901	0-11
+Trastuzumab: 2 mg/kg IV on days 1, 8 and 15. If Trastuzumab has not been administered within the 3 weeks before starting this treatment, the first dose of Trastuzumab given on Cycle 1, Day 1 will be 4 mg/kg followed by 2 mg/kg weekly.	Results	17
+day	UO:0000033	27-30
+day	UO:0000033	185-188
+Overall Number of Participants Analyzed: 5	Results	18
+Measure Type: Count of Participants	Results	19
+Unit of Measure: Participants  0   0.0%	Results	20
+Adverse Events 1:	Adverse Events	0
+Total: 1/5 (20.00%)	Adverse Events	1
+Nausea/vomiting/diarrhea 1/5 (20.00%)	Adverse Events	2
+Pneumonia 1/5 (20.00%)	Adverse Events	3
+pneumonia	HP:0002090,DOID:552	0-9
+Adverse Events 2:	Adverse Events	4
+Total: 0/5 (0.00%)	Adverse Events	5
+Nausea/vomiting/diarrhea 0/5 (0.00%)	Adverse Events	6
+Pneumonia 0/5 (0.00%)	Adverse Events	7
+pneumonia	HP:0002090,DOID:552	0-9

@@ -1,0 +1,224 @@
+INTERVENTION 1:	Intervention	0
+Arm 1: EC -> D + Lapatinib	Intervention	1
+lapatinib	CHEBI:49603	17-26
+EC -> D + Lapatinib	Intervention	2
+lapatinib	CHEBI:49603	10-19
+Drugs plus Biological	Intervention	3
+Epirubicin + Cyclophosphamide (EC) each 21 days for 4 cycles -> Docetaxel (D) + lapatinib each 21 days for 4 cycles)	Intervention	4
+cyclophosphamide	CHEBI:4026	13-29
+lapatinib	CHEBI:49603	80-89
+INTERVENTION 2:	Intervention	5
+Arm 2: EC -> D + Trastuzumab	Intervention	6
+EC -> D + Trastuzumab	Intervention	7
+Drug plus Biological	Intervention	8
+drug	CHEBI:23888	0-4
+Epirubicin + Cyclophosphamide (EC) each 21 days for 4 cycles -> Docetaxel (D) + Trastuzumab each 21 days for 4 cycles	Intervention	9
+cyclophosphamide	CHEBI:4026	13-29
+Inclusion Criteria:	Eligibility	0
+Signature of the written informed consent.	Eligibility	1
+Histological documentation of breast cancer.	Eligibility	2
+breast cancer	DOID:1612	30-43
+Stage I (T1, N0M0), IIA (T2N0M0); IIB (T2N1M0, T3N0M0), IIIA (TXN2M0) and IIIB (T3N1M0, T4NXM0) primary resectable breast cancer or locally advanced breast cancer.	Eligibility	3
+breast cancer	DOID:1612	115-128
+breast cancer	DOID:1612	149-162
+HER2-positive breast cancer, defined as immunohistochemistry (IHQ) 3+ or positive FISH. When IHQ 2+ HER2 status must be assessed by FISH.	Eligibility	4
+breast cancer	DOID:1612	14-27
+immunohistochemistry	BAO:0000415	40-60
+The patient granted her consent for taking a biopsy before treatment	Eligibility	5
+patient	HADO:0000008,OAE:0001817	4-11
+The patient granted her consent for sending two tumor samples to central laboratory for molecular sub study.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	4-11
+central	HP:0030645	65-72
+Two weeks prior randomization pregnancy test negative for women of childbearing potential.	Eligibility	7
+Women of childbearing potential must use adequate contraceptive measures during participation into study. Oral, injectable or implant hormonal contraceptives measure are not permitted.	Eligibility	8
+A World Health Organization (WHO) performance status of 0 or 1 (Karnofsky  80)	Eligibility	9
+Age > 18 years.	Eligibility	10
+age	PATO:0000011	0-3
+Absence of metastases disease	Eligibility	11
+disease	DOID:4,OGMS:0000031	22-29
+Baseline Electrocardiography (EKG) 12 weeks prior to randomization. Baseline left ventricular ejection fraction (LVEF) value within limit of normal value for the institution or > 50% of basal value	Eligibility	12
+left	HP:0012835	77-81
+ejection fraction	CMO:0000180	94-111
+Normal laboratory test 2 weeks prior to randomization:	Eligibility	13
+laboratory test	OGMS:0000056	7-22
+Haematology values: Neutrophil count  1,5 x109/l; Platelets  100 x 109/l; Haemoglobin  10mg/dl Biochemistry values: serum total bilirubin  1 x Upper Limit of Normal (ULN); Aspartate aminotransferase (AST) (SGOT) and Alanine aminotransferase (ALT) (SGPT)  2,5 x ULN; alkaline phosphatase  5 x ULN. Patients which AST and/or ALT value are > 1,5 x ULN along with alkaline phosphatase value > 2,5 x ULN will be not included into the study.	Eligibility	14
+x	LABO:0000148	42-43
+x	LABO:0000148	65-66
+x	LABO:0000148	141-142
+x	LABO:0000148	259-260
+x	LABO:0000148	290-291
+x	LABO:0000148	343-344
+x	LABO:0000148	393-394
+aspartate	CHEBI:29995	172-181
+alanine	CHEBI:16449	216-223
+phosphatase	GO:0016791,BAO:0000295	275-286
+phosphatase	GO:0016791,BAO:0000295	369-380
+Renal function: serum creatinine  175 µmol/l (2 mg/dl). If the value is borderline, clearance creatinine must be  60 ml/min	Eligibility	15
+function	BAO:0003117,BFO:0000034	6-14
+creatinine	CHEBI:16737	22-32
+creatinine	CHEBI:16737	94-104
+borderline	HP:0012827	72-82
+12 weeks prior to randomization the following assessments and procedures must be fulfilled: Bilateral mammography; Magnetic resonance imaging (MRI) Breast and axillary; Chest X-Ray (posterioanterior and lateral); Abdominal ultrasound; Chest CT-Scan; Abdominal CT-Scan. Bone Scan (if applicable)	Eligibility	16
+bilateral	HP:0012832	92-101
+breast	UBERON:0000310	148-154
+chest	UBERON:0001443	169-174
+chest	UBERON:0001443	235-240
+lateral	HP:0025275	94-101
+lateral	HP:0025275	203-210
+Patients must be accessible for treatment and follow up	Eligibility	17
+Exclusion Criteria:	Eligibility	18
+Patients with lumpectomy, partial mastectomy, modified radical mastectomy are not allowed to include into study.	Eligibility	19
+radical	CHEBI:26519	55-62
+Prior Immunotherapy, hormonal therapy and chemotherapy for breast cancer is not allowed.	Eligibility	20
+breast cancer	DOID:1612	59-72
+Prior therapy with anthracycline and taxanes (paclitaxel and docetaxel) is not permitted for any neoplasia.	Eligibility	21
+anthracycline	CHEBI:48120	19-32
+paclitaxel	CHEBI:45863	46-56
+Prior radiotherapy for breast cancer.	Eligibility	22
+radiotherapy	OAE:0000235	6-18
+breast cancer	DOID:1612	23-36
+Bilateral invasive breast carcinoma	Eligibility	23
+bilateral	HP:0012832	0-9
+breast carcinoma	HP:0003002,DOID:3459	19-35
+Pregnant or nursing patients. Negative pregnant test (serum or urine) 14 days prior to randomization.	Eligibility	24
+urine	UBERON:0001088	63-68
+HER 2 negative breast cancer	Eligibility	25
+breast cancer	DOID:1612	15-28
+Patients of childbearing potential must be use adequate contraceptive measures during study treatment. No hormonal contraceptive measure is permitted.	Eligibility	26
+Any M1 breast cancer	Eligibility	27
+m1	CHEBI:34826	4-6
+breast cancer	DOID:1612	7-20
+Any motor or sensorial neurotoxicity grade  2 according to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) version 3.	Eligibility	28
+cancer	DOID:162	68-74
+Serious cardiac illness or medical conditions: Congestive heart failure, angina pectoris requiring specific treatment, myocardial infarction 1 year prior to enroll in the study; poorly controlled hypertension or high-risk uncontrolled arrhythmias.	Eligibility	29
+congestive heart failure	HP:0001635,DOID:6000	47-71
+angina pectoris	HP:0001681	73-88
+myocardial infarction	HP:0001658,DOID:5844	119-140
+year	UO:0000036	143-147
+hypertension	HP:0000822,DOID:10763	196-208
+History of significative neurological or psychiatric disease (psychotic, dementia or attack) what is unable to patient to grant her informed consent.	Eligibility	30
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	53-60
+dementia	HP:0000726,DOID:1307	73-81
+patient	HADO:0000008,OAE:0001817	111-118
+Uncontrolled severe Infection Uncontrolled diabetes mellitus, active peptic ulcer	Eligibility	31
+severe infection	HP:0032169	13-29
+diabetes mellitus	HP:0000819,DOID:9351	43-60
+active	PATO:0002354	62-68
+peptic ulcer	HP:0004398	69-81
+Current malignancy or previous malignancy other that breast cancer. Exception cell carcinoma of the skin no melanoma, carcinoma in situ of the cervix or any other cancer in the past 10 years.	Eligibility	32
+breast cancer	DOID:1612	53-66
+carcinoma	HP:0030731,DOID:305	83-92
+carcinoma	HP:0030731,DOID:305	118-127
+melanoma	HP:0002861,DOID:1909	108-116
+cancer	DOID:162	60-66
+cancer	DOID:162	163-169
+Long term treatment with corticoids except 6 months prior to inclusion in the study and low doses ( 20 mg methylprednisolone or equivalent)	Eligibility	33
+Corticoid use contraindication	Eligibility	34
+contraindication	OAE:0000055	14-30
+Concomitant hormonal replacement therapy. Previous treatment should be interrupted before inclusion into study.	Eligibility	35
+Cardiopathy what stops patient taking Docetaxel and Trastuzumab: myocardial infarction recorded; angina pectoris requiring specific treatment; any congestive heart failure recorded; arrhythmia grade 3 or 4 according to NCI CTCAE version 3; any relevant valvular disease; chest X ray which shows cardiomegaly or EKG which shows ventricular hypertrophy unless LVEF value has been  lower normal limit in the last 3 months.	Eligibility	36
+patient	HADO:0000008,OAE:0001817	23-30
+myocardial infarction	HP:0001658,DOID:5844	65-86
+angina pectoris	HP:0001681	97-112
+congestive heart failure	HP:0001635,DOID:6000	147-171
+arrhythmia	HP:0011675	182-192
+disease	DOID:4,OGMS:0000031	262-269
+chest	UBERON:0001443	271-276
+x	LABO:0000148	44-45
+x	LABO:0000148	277-278
+cardiomegaly	HP:0001640	295-307
+ventricular hypertrophy	HP:0001714	327-350
+Poorly controlled hypertension (systolic > 180 mm Hg or diastolic > 100 mm Hg). The patients with controlled hypertension under treatment can be included into study	Eligibility	37
+hypertension	HP:0000822,DOID:10763	18-30
+hypertension	HP:0000822,DOID:10763	109-121
+Patients under treatment of arrhythmia, angina or congestive heart failure with drug which modifies cardiac conduction (after digital, beta blocker or inhibitors calcium channel) are excluded. However if these drugs are took for arterial tension the patient can be included into study.	Eligibility	38
+arrhythmia	HP:0011675	28-38
+congestive heart failure	HP:0001635,DOID:6000	50-74
+drug	CHEBI:23888	80-84
+drug	CHEBI:23888	210-214
+cardiac conduction	GO:0061337	100-118
+calcium	CHEBI:22984,BAO:0000874	162-169
+excluded	HP:0040285	183-191
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	250-257
+The patient must interrupt concomitant treatment with hormonal therapy ej. raloxifene, tamoxifen and selective estrogen receptor modulators (SERM) prior to randomization.	Eligibility	39
+patient	HADO:0000008,OAE:0001817	4-11
+raloxifene	CHEBI:8772	75-85
+tamoxifen	CHEBI:41774	87-96
+estrogen	CHEBI:50114,BAO:0000760	111-119
+receptor	BAO:0000281	120-128
+Concomitant use of inhibitors and inductors of enzyme CYP3A4 complex (ketoconazole, itraconazole or grape juice; rifampicin, carbamazepin or fenitoin) are not permitted. Also, drug are substrate of enzyme CYP2C8 complex is not permitted along with lapatinib treatment.	Eligibility	40
+enzyme	BAO:0000279	47-53
+enzyme	BAO:0000279	198-204
+ketoconazole	CHEBI:47519,BAO:0000796	70-82
+itraconazole	CHEBI:6076	84-96
+rifampicin	CHEBI:71365	113-123
+drug	CHEBI:23888	176-180
+substrate	BAO:0003063	185-194
+lapatinib	CHEBI:49603	248-257
+Concurrent treatment with an investigational agent or participation in another therapeutic clinical trial within 30 days prior to randomization into study.	Eligibility	41
+Concomitant treatment with other anticancer therapy	Eligibility	42
+Hypersensitivity reaction to drugs trastuzumab, lapatinib or their excipients.	Eligibility	43
+hypersensitivity	GO:0002524,DOID:1205	0-16
+lapatinib	CHEBI:49603	48-57
+Male	Eligibility	44
+male	CHEBI:30780,PATO:0000384	0-4
+Outcome Measurement:	Results	0
+Complete Pathological Response (pCR) Rate in Breast and Axilla According to the Miller&Payne Criteria (G5-A and G5-D).	Results	1
+rate	BAO:0080019	37-41
+breast	UBERON:0000310	45-51
+Within 3-4 weeks after last docetaxel dose the surgery was performed to evaluate pathological response. According to the Miller&Payne Criteria, pCR in node-negative patients is a grade 5-A and in node-positive patients is a grade 5-D.	Results	2
+surgery	OAE:0000067	47-54
+Time frame: Up to 16 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1: EC -> D + Lapatinib	Results	5
+lapatinib	CHEBI:49603	34-43
+Arm/Group Description: EC -> D + Lapatinib	Results	6
+lapatinib	CHEBI:49603	33-42
+Drugs plus Biological	Results	7
+Epirubicin + Cyclophosphamide (EC) each 21 days for 4 cycles -> Docetaxel (D) + lapatinib each 21 days for 4 cycles)	Results	8
+cyclophosphamide	CHEBI:4026	13-29
+lapatinib	CHEBI:49603	80-89
+Overall Number of Participants Analyzed: 51	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: percentage of participants with pCR  23.5        (11.9 to 35.1)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm 2: EC -> D + Trastuzumab	Results	13
+Arm/Group Description: EC -> D + Trastuzumab	Results	14
+Drug plus Biological	Results	15
+drug	CHEBI:23888	0-4
+Epirubicin + Cyclophosphamide (EC) each 21 days for 4 cycles -> Docetaxel (D) + Trastuzumab each 21 days for 4 cycles	Results	16
+cyclophosphamide	CHEBI:4026	13-29
+Overall Number of Participants Analyzed: 48	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: percentage of participants with pCR  47.9        (33.8 to 62.0)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 11/52 (21.15%)	Adverse Events	1
+Neutrophils/granulocytes 3/52 (5.77%)	Adverse Events	2
+Diarrhea 2/52 (3.85%)	Adverse Events	3
+diarrhea	HP:0002014,DOID:13250	0-8
+Mucositis 1/52 (1.92%)	Adverse Events	4
+mucositis	DOID:0080178	0-9
+Fever 1/52 (1.92%)	Adverse Events	5
+fever	HP:0001945	0-5
+Infection 2/52 (3.85%)	Adverse Events	6
+Febrile Neutropenia 1/52 (1.92%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	8-19
+Dyspnea 1/52 (1.92%)	Adverse Events	8
+dyspnea	HP:0002094	0-7
+Adverse Events 2:	Adverse Events	9
+Total: 4/50 (8.00%)	Adverse Events	10
+Neutrophils/granulocytes 1/50 (2.00%)	Adverse Events	11
+Diarrhea 0/50 (0.00%)	Adverse Events	12
+diarrhea	HP:0002014,DOID:13250	0-8
+Mucositis 0/50 (0.00%)	Adverse Events	13
+mucositis	DOID:0080178	0-9
+Fever 1/50 (2.00%)	Adverse Events	14
+fever	HP:0001945	0-5
+Infection 1/50 (2.00%)	Adverse Events	15
+Febrile Neutropenia 1/50 (2.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Dyspnea 0/50 (0.00%)	Adverse Events	17
+dyspnea	HP:0002094	0-7

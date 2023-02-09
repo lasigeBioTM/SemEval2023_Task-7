@@ -1,0 +1,135 @@
+INTERVENTION 1:	Intervention	0
+Surgery and Chemotherapy	Intervention	1
+surgery	OAE:0000067	0-7
+Eligible patients had undergone surgery and chemotherapy for high risk breast cancer, defined as either a T3 or T4 primary tumor, or N2 by either clinical or pathological criteria.	Intervention	2
+surgery	OAE:0000067	32-39
+breast cancer	DOID:1612	71-84
+capecitabine	Intervention	3
+capecitabine	CHEBI:31348	0-12
+adjuvant therapy	Intervention	4
+adjuvant	CHEBI:60809	0-8
+radiation therapy	Intervention	5
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed invasive adenocarcinoma of the breast, meeting 1 of the following high-risk criteria:	Eligibility	1
+adenocarcinoma	DOID:299	51-65
+breast	UBERON:0000310	73-79
+T3 or T4 primary tumor	Eligibility	2
+4 or more involved axillary lymph nodes (N2 nodal stage)	Eligibility	3
+lymph	UBERON:0002391	28-33
+Completed surgical excision	Eligibility	4
+No immediate reconstruction with autologous flap reconstruction	Eligibility	5
+Patients having tissue expanders or implants placed prior to radiation may be enrolled at the physician's discretion	Eligibility	6
+tissue	UBERON:0000479	16-22
+No residual breast cancer	Eligibility	7
+breast cancer	DOID:1612	12-25
+Microscopically positive margins are allowed if a re-excision is not felt to be clinically justified	Eligibility	8
+Candidate for radiotherapy	Eligibility	9
+radiotherapy	OAE:0000235	14-26
+Must not require bilateral radiotherapy	Eligibility	10
+bilateral	HP:0012832	17-26
+radiotherapy	OAE:0000235	27-39
+No metastatic (stage IV) breast cancer by AJCC staging criteria	Eligibility	11
+breast cancer	DOID:1612	25-38
+Hormone receptor status not specified	Eligibility	12
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+No CNS disorders	Eligibility	13
+PATIENT CHARACTERISTICS:	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+Life expectancy  6 months	Eligibility	15
+Karnofsky performance status 70-100%	Eligibility	16
+Menopausal status not specified	Eligibility	17
+Ambulatory	Eligibility	18
+Hemoglobin > 9 g/dL	Eligibility	19
+hemoglobin	CHEBI:35143	0-10
+Platelet count > 100,000/mm³	Eligibility	20
+platelet count	CMO:0000029	0-14
+ANC > 1,500/mm³	Eligibility	21
+Serum AST, ALT, and alkaline phosphatase  2 times upper limit of normal (ULN)	Eligibility	22
+phosphatase	GO:0016791,BAO:0000295	29-40
+Total bilirubin normal	Eligibility	23
+Creatinine clearance > 50 mL/min	Eligibility	24
+creatinine clearance	CMO:0000765	0-20
+Negative pregnancy test	Eligibility	25
+Not pregnant or nursing	Eligibility	26
+Fertile patients must use effective contraception during study and for 30 days after the last study drug administration	Eligibility	27
+drug administration	OAE:0000011	100-119
+No serious, uncontrolled, concurrent infection(s)	Eligibility	28
+No diabetes with current or history of delayed wound healing or skin ulcers	Eligibility	29
+history	BFO:0000182	28-35
+wound healing	GO:0042060	47-60
+No autoimmune connective tissue disorder	Eligibility	30
+connective tissue	UBERON:0002384	14-31
+disorder	OGMS:0000045	32-40
+No prior unanticipated severe reaction to fluoropyrimidine therapy, known sensitivity to 5-fluorouracil, or known dihydropyrimidine dehydrogenase (DPD) deficiency	Eligibility	31
+severe	HP:0012828	23-29
+5-fluorouracil	CHEBI:46345	89-103
+No other carcinomas within the last five years except cured non-melanoma skin cancer and in-situ cervical cancer	Eligibility	32
+skin cancer	DOID:4159	73-84
+cervical cancer	DOID:4362	97-112
+No clinically significant cardiac disease (e.g., congestive heart failure, symptomatic coronary artery disease, or cardiac arrhythmias not well controlled with medication) or myocardial infarction within the last 12 months	Eligibility	33
+disease	DOID:4,OGMS:0000031	34-41
+disease	DOID:4,OGMS:0000031	103-110
+congestive heart failure	HP:0001635,DOID:6000	49-73
+coronary artery disease	DOID:3393	87-110
+myocardial infarction	HP:0001658,DOID:5844	175-196
+No other serious uncontrolled medical conditions that the investigator feels might compromise study participation, including any of the following:	Eligibility	34
+Uncontrolled seizures	Eligibility	35
+Psychiatric disability judged by the investigator to be clinically significant	Eligibility	36
+Physically intact upper gastrointestinal tract	Eligibility	37
+No malabsorption syndrome	Eligibility	38
+malabsorption	HP:0002024	3-16
+syndrome	DOID:225	17-25
+No uncompensated coagulopathy	Eligibility	39
+No patients whose breast size or body contour puts them at increased risk for skin desquamation from standard radiotherapy	Eligibility	40
+breast	UBERON:0000310	18-24
+size	PATO:0000117	25-29
+radiotherapy	OAE:0000235	110-122
+Able to read and speak English	Eligibility	41
+PRIOR CONCURRENT THERAPY:	Eligibility	42
+Fully recovered from surgery and chemotherapy with completely healed surgical wounds	Eligibility	43
+surgery	OAE:0000067	21-28
+At least 4 weeks since completion of prior chemotherapy regimen, excluding trastuzumab (Herceptin®)	Eligibility	44
+Concurrent trastuzumab allowed at the physician's discretion	Eligibility	45
+More than 4 weeks since prior participation in any investigational drug study	Eligibility	46
+drug	CHEBI:23888	67-71
+At least 4 weeks since prior and no concurrent sorivudine or brivudine	Eligibility	47
+sorivudine	CHEBI:32152	47-57
+More than 2 weeks since prior major surgery	Eligibility	48
+surgery	OAE:0000067	36-43
+No prior capecitabine	Eligibility	49
+capecitabine	CHEBI:31348	9-21
+No prior radiotherapy to the chest or ipsilateral lymphatics	Eligibility	50
+radiotherapy	OAE:0000235	9-21
+chest	UBERON:0001443	29-34
+No concurrent hormonal therapy during course of chemotherapy or radiation therapy	Eligibility	51
+No concurrent allopurinol or cimetidine	Eligibility	52
+allopurinol	CHEBI:40279	14-25
+cimetidine	CHEBI:3699	29-39
+Concurrent coumadin is allowed	Eligibility	53
+Outcome Measurement:	Results	0
+Overall Safety	Results	1
+Primarily Grade 1 and 2 toxicities attributable to capecitabine	Results	2
+capecitabine	CHEBI:31348	51-63
+Time frame: 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: Surgery and Chemotherapy	Results	5
+surgery	OAE:0000067	17-24
+Arm/Group Description: Eligible patients had undergone surgery and chemotherapy for high risk breast cancer, defined as either a T3 or T4 primary tumor, or N2 by either clinical or pathological criteria.	Results	6
+surgery	OAE:0000067	55-62
+breast cancer	DOID:1612	94-107
+capecitabine	Results	7
+capecitabine	CHEBI:31348	0-12
+adjuvant therapy	Results	8
+adjuvant	CHEBI:60809	0-8
+radiation therapy	Results	9
+Overall Number of Participants Analyzed: 28	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: percentage of participants  12.6	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 6/39 (15.38%)	Adverse Events	1
+Radiation Dermatitis  6/39 (15.38%)	Adverse Events	2
+dermatitis	DOID:2723	10-20

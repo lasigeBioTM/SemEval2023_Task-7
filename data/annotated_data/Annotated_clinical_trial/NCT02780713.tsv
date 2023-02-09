@@ -1,0 +1,157 @@
+INTERVENTION 1:	Intervention	0
+Treatment Period 1	Intervention	1
+Participants received AZD9496 - Variant A (100 mg).	Intervention	2
+INTERVENTION 2:	Intervention	3
+Treatment Period 2	Intervention	4
+Participants received AZD9496 - Reference (100 mg).	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Provision of signed and dated, written informed consent prior to any study specific procedures.	Eligibility	1
+Healthy male and/or female subjects aged 18 to 65 years with suitable veins for cannulation or repeated venipuncture.	Eligibility	2
+healthy	HP:0032322	0-7
+male	CHEBI:30780,PATO:0000384	8-12
+male	CHEBI:30780,PATO:0000384	22-26
+female	PATO:0000383	20-26
+Females must have a negative pregnancy test at screening and on admission to the unit, must not be lactating and must be of non-childbearing potential, confirmed at screening by fulfilling 1 of the following criteria: Post-menopausal defined as amenorrhea for at least 12 months or more following cessation of all exogenous hormonal treatments and FSH levels in the post-menopausal range (OR) Documentation of irreversible surgical sterilization by hysterectomy, bilateral oophorectomy or bilateral salpingectomy, but not tubal ligation	Eligibility	3
+amenorrhea	HP:0000141,DOID:13938	245-255
+range	LABO:0000114	382-387
+bilateral	HP:0012832	463-472
+bilateral	HP:0012832	489-498
+Male subjects aged 18 to 39 years must be vasectomized. Male subjects aged 40 to 65 years must either be vasectomized or have no intention of fathering a child for a period of 6 months after receiving the last dose of IMP.	Eligibility	4
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	56-60
+imp	CHEBI:17202	218-221
+Have a body mass index (BMI) between 18.0 and 32.0 kg/m2, inclusive, and weigh at least 50 kg and no more than 100 kg, inclusive.	Eligibility	5
+Values for AST, ALT, TBL, GGT and ALP must be at or below the upper limit of normal ranges at screening.	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+History of any clinically significant disease or disorder which, in the opinion of the investigator, may either put the subject at risk because of participation in the study, or influence the results or the subject's ability to participate in the study.	Eligibility	8
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	38-45
+disorder	OGMS:0000045	49-57
+History or presence of gastrointestinal (GI), hepatic or renal disease, or any other condition known to interfere with absorption, distribution, metabolism, or excretion of drugs.	Eligibility	9
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	63-70
+condition	PDRO:0000129	85-94
+excretion	GO:0007588	160-169
+Any clinically significant illness, medical/surgical procedure, or trauma within 4 weeks of the first administration of IMP.	Eligibility	10
+imp	CHEBI:17202	120-123
+Previous history of venous or arterial thromboembolism or thrombophilia.	Eligibility	11
+history	BFO:0000182	9-16
+thromboembolism	HP:0001907	39-54
+thrombophilia	DOID:2452	58-71
+History of endometrial polyps, endometrial cancer, atypical endometrial hyperplasia, or other endometrial disorders unless subjects have undergone total hysterectomy and there is no evidence of active disease (females only).	Eligibility	12
+history	BFO:0000182	0-7
+endometrial cancer	DOID:1380	31-49
+endometrial hyperplasia	DOID:0080365	60-83
+active	PATO:0002354	194-200
+disease	DOID:4,OGMS:0000031	201-208
+Any clinically significant abnormalities in clinical chemistry (other than Inclusion no.6), hematology, or urinalysis results at screening, as judged by the investigator.	Eligibility	13
+Any clinically significant abnormal findings in supine vital signs, after 10 minutes of supine rest, at screening and/or admission to the unit, defined as: (a) Systolic blood pressure < 90 mmHg or  150 mmHg (b) Diastolic blood pressure < 50 mmHg or  95 mmHg and (c) Heart rate < 45 or > 90 beats per minute	Eligibility	14
+systolic blood pressure	CMO:0000004	160-183
+diastolic blood pressure	CMO:0000005	211-235
+heart rate	CMO:0000002	266-276
+minute	UO:0000031	77-83
+minute	UO:0000031	300-306
+Any clinically important abnormalities in rhythm, conduction or morphology of the resting 12-lead ECG that, as judged by the investigator, that may interfere with the interpretation of QTc interval changes, including abnormal ST-T-wave morphology or pronounced left ventricular hypertrophy.	Eligibility	15
+morphology	PATO:0000051	64-74
+morphology	PATO:0000051	236-246
+qtc interval	CMO:0000269	185-197
+left ventricular hypertrophy	HP:0001712	261-289
+Prolonged QTcF > 460 ms for females and QTcF > 450 ms for males or family history of long QT syndrome.	Eligibility	16
+prolonged	HP:0025297	0-9
+family history	HP:0032316	67-81
+long qt syndrome	DOID:2843	85-101
+PR (PQ) interval shortening < 110 ms or evidence of ventricular pre-excitation).	Eligibility	17
+PR (PQ) interval prolongation > 240 ms, intermittent second (Wenckebach block while asleep is not exclusive) or third degree AV block.	Eligibility	18
+second	UO:0000010	53-59
+Persistent or intermittent complete bundle branch block with QRS > 120 ms or evidence of pronounced ventricular hypertrophy or pre-excitation.	Eligibility	19
+bundle branch block	HP:0011710	36-55
+ventricular hypertrophy	HP:0001714	100-123
+Any positive result on screening for serum hepatitis B surface antigen (HBsAg), hepatitis C antibody and human immunodeficiency virus (HIV) antibody.	Eligibility	20
+result	BAO:0000179	13-19
+hepatitis b	DOID:2043	43-54
+antigen	CHEBI:59132	63-70
+hepatitis c	DOID:1883	80-91
+antibody	GO:0042571,BAO:0000502	92-100
+antibody	GO:0042571,BAO:0000502	140-148
+immunodeficiency	HP:0002721	111-127
+virus	BAO:0000232	128-133
+Known or suspected history of drug abuse, as judged by the investigator.	Eligibility	21
+history	BFO:0000182	19-26
+drug	CHEBI:23888	30-34
+Current smokers or those who have smoked or used nicotine products within the 3 months prior to screening.	Eligibility	22
+nicotine	CHEBI:18723	49-57
+Known or suspected history of alcohol or drug abuse or excessive intake of alcohol, as judged by the investigator.	Eligibility	23
+history	BFO:0000182	19-26
+alcohol	CHEBI:16236	30-37
+alcohol	CHEBI:16236	75-82
+drug	CHEBI:23888	41-45
+Positive screen for drugs of abuse, alcohol or cotinine at screening or on each admission to the unit.	Eligibility	24
+alcohol	CHEBI:16236	36-43
+History of severe allergy/hypersensitivity or ongoing allergy/hypersensitivity, as judged by the investigator or history of hypersensitivity to drugs with a similar chemical structure or class to AZD9496.	Eligibility	25
+history	BFO:0000182	0-7
+history	BFO:0000182	113-120
+severe	HP:0012828	11-17
+hypersensitivity	GO:0002524,DOID:1205	26-42
+hypersensitivity	GO:0002524,DOID:1205	62-78
+hypersensitivity	GO:0002524,DOID:1205	124-140
+structure	PATO:0000141	174-183
+Excessive intake of caffeine/xanthine containing drinks or food (e.g., coffee, tea, chocolate), as judged by the investigator.	Eligibility	26
+food	CHEBI:33290	59-63
+Use of drugs with enzyme-inducing properties such as St John's Wort within 3 weeks prior to the first administration of IMP.	Eligibility	27
+imp	CHEBI:17202	120-123
+Use of any prescribed or non-prescribed medication including antacids, analgesics (other than paracetamol/acetaminophen), herbal remedies, megadose vitamins (intake of 20 to 600 times the recommended daily dose) and minerals during the 2 weeks prior to the first administration of IMP or longer if the medication has a long half-life Note: Hormonal replacement therapy is not allowed for females.	Eligibility	28
+imp	CHEBI:17202	281-284
+Plasma donation within 1 month of screening or any blood donation/loss more than 500 mL during the 3 months prior to screening	Eligibility	29
+month	UO:0000035	25-30
+month	UO:0000035	101-106
+blood	UBERON:0000178	51-56
+Has received another new chemical entity (defined as a compound which has not been approved for marketing) within 3 months of the first administration of IMP in this study. The period of exclusion is 3 months after the final dose from previous study or 1 month after the last visit of previous study, whichever is the longest. ote: Subjects consented and screened, but not dosed in this study or a previous phase I study, are not excluded.	Eligibility	30
+imp	CHEBI:17202	154-157
+month	UO:0000035	116-121
+month	UO:0000035	202-207
+month	UO:0000035	255-260
+excluded	HP:0040285	430-438
+Involvement of any AstraZeneca, PAREXEL or study site employee or their close relatives	Eligibility	31
+site	BFO:0000029	49-53
+Judgment by the investigator that the subject should not participate in the study if they have any ongoing or recent (i.e., during the screening period) minor medical complaints that may interfere with the interpretation of study data or are considered unlikely to comply with study procedures, restrictions and requirements.	Eligibility	32
+Subjects who are vegans or have medical dietary restrictions.	Eligibility	33
+Subjects who cannot communicate reliably with the investigator.	Eligibility	34
+Vulnerable subjects, e.g., kept in detention, protected adults under guardianship, trusteeship, or committed to an institution by governmental or juridical order.	Eligibility	35
+Outcome Measurement:	Results	0
+Pharmacokinetics: Maximum Plasma Concentration (Cmax) for AZD9496 and Its Metabolites at Each Treatment Period.	Results	1
+cmax	BAO:0002119	48-52
+To evaluate maximum observed plasma concentration (Cmax) for AZD9496 and its metabolites M3 and M5 following administration of different AZD9496 formulations and compare with a reference formulation.	Results	2
+cmax	BAO:0002119	51-55
+m3	CHEBI:51083	89-91
+Time frame: Regular Pharmacokinetic measurement Pre-dose, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 7, 8, 12, hours post-dose on Day 1, 24 and 36 hours post-dose (Day 2), 48 hours post-dose (Day 3), 72 hours post-dose (Day 4) of each treatment period	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	135-138
+day	UO:0000033	169-172
+day	UO:0000033	197-200
+day	UO:0000033	225-228
+Results 1:	Results	4
+Arm/Group Title: Treatment Period 1	Results	5
+Arm/Group Description: Participants received AZD9496 - Variant A (100 mg).	Results	6
+Overall Number of Participants Analyzed: 14	Results	7
+Geometric Mean (Geometric Coefficient of Variation)	Results	8
+mean	BAO:0002173	10-14
+coefficient of variation	BAO:0000531	26-50
+Unit of Measure: ng/mL  AZD9496: 64.85        (73.54%)	Results	9
+M3: 10.30        (98.93%)	Results	10
+m3	CHEBI:51083	0-2
+M5: 1.102        (85.27%)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Treatment Period 2	Results	13
+Arm/Group Description: Participants received AZD9496 - Reference (100 mg).	Results	14
+Overall Number of Participants Analyzed: 14	Results	15
+Geometric Mean (Geometric Coefficient of Variation)	Results	16
+mean	BAO:0002173	10-14
+coefficient of variation	BAO:0000531	26-50
+Unit of Measure: ng/mL  AZD9496: 381.0        (55.83%)	Results	17
+M3: 62.98        (76.91%)	Results	18
+m3	CHEBI:51083	0-2
+M5: 7.409        (75.18%)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/14 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

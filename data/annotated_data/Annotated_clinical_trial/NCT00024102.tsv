@@ -1,0 +1,144 @@
+INTERVENTION 1:	Intervention	0
+Standard Chemotherapy	Intervention	1
+Patient/Physician choice of:	Intervention	2
+CMF: cyclophosphamide (100 mg/m^2 orally days 1-14)+ MTX (40 mg/m^2 by IV days 1 and 8) + 5-FU (600 mg/m^2 by IV days 1 and 8) repeated every 28 days for 6 cycles OR	Intervention	3
+cyclophosphamide	CHEBI:4026	5-21
+AC: Cyclophosphamide (600 mg/m^2 by IV on day 1)+ doxorubicin (60 mg/m^2 by IV on day 1) repeated every 21 days for 4 cycles	Intervention	4
+cyclophosphamide	CHEBI:4026	4-20
+day	UO:0000033	42-45
+day	UO:0000033	82-85
+day	UO:0000033	107-110
+doxorubicin	CHEBI:28748,BAO:0000639	50-61
+INTERVENTION 2:	Intervention	5
+Capecitabine	Intervention	6
+capecitabine	CHEBI:31348	0-12
+Capecitabine (2000 mg/m^2 in 2 doses days 1-14) repeated every 21 days for 6 cycles.	Intervention	7
+capecitabine	CHEBI:31348	0-12
+Patients with operable, histologically confirmed adenocarcinoma of the female breast.	Eligibility	0
+adenocarcinoma	DOID:299	49-63
+female	PATO:0000383	71-77
+breast	UBERON:0000310	78-84
+TNM Stage per AJCC Cancer Staging Manual 6th edition:	Eligibility	1
+cancer	DOID:162	19-25
+T1-4 (Tumor size > 1 cm), N0, M0 or T1-4, N1-3, M0	Eligibility	2
+size	PATO:0000117	12-16
+Patients with bilateral, synchronous breast cancer are eligible as long as one primary tumor meets the criteria above.	Eligibility	3
+bilateral	HP:0012832	14-23
+breast cancer	DOID:1612	37-50
+Patients with HER2/neu positive, negative or unknown disease are eligible for this trial.	Eligibility	4
+disease	DOID:4,OGMS:0000031	53-60
+Patients whose tumors are HER2 positive by either immunohistochemistry 3+ staining or demonstrate gene amplification by FISH will be eligible to receive trastuzumab, as outlined in the protocol.	Eligibility	5
+immunohistochemistry	BAO:0000415	50-70
+gene	BAO:0000582	98-102
+Age 65 years or older	Eligibility	6
+age	PATO:0000011	0-3
+Performance status 0-2 (Common Toxicity Criteria).	Eligibility	7
+Prior treatment:	Eligibility	8
+Surgical resection -	Eligibility	9
+All tumor should be removed by either a modified radical mastectomy or a lumpectomy. Patients must be registered  84 days from mastectomy or within 84 days of axillary dissection if patient's most extensive breast surgery was a breast sparing procedure.	Eligibility	10
+radical	CHEBI:26519	49-56
+patient	HADO:0000008,OAE:0001817	85-92
+patient	HADO:0000008,OAE:0001817	182-189
+breast	UBERON:0000310	207-213
+breast	UBERON:0000310	228-234
+surgery	OAE:0000067	214-221
+Node dissection: Axillary node dissection is not required. Management of the axilla is at the discretion of the treating physician. There is no restriction on eligibility based on the number of nodes removed.	Eligibility	11
+Mastectomy: There should be no evidence of gross or microscopic invasive tumor at the surgical resection margins noted in the final surgery or pathology reports for patients who have had a modified radical mastectomy. Patients with close margins (tumor < 1 mm from margin) are eligible.	Eligibility	12
+surgery	OAE:0000067	132-139
+radical	CHEBI:26519	198-205
+Segmental mastectomy (lumpectomy): Although clear margins are preferable, DCIS or LCIS at the surgical resection margin will not render a patient who has undergone a segmental mastectomy ineligible for this study. Invasive tumor at the final resection margin will render a patient ineligible.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	138-145
+patient	HADO:0000008,OAE:0001817	273-280
+No prior chemotherapy for this malignancy.	Eligibility	14
+Patients with a history of hypersensitivity to 5-FU or known dihydropyrimidine dehydrogenase (DPD) deficiency are not eligible to participate.	Eligibility	15
+history	BFO:0000182	16-23
+hypersensitivity	GO:0002524,DOID:1205	27-43
+Patients may receive up to four weeks of tamoxifen therapy for this malignancy and still be eligible for study entry. Patients who received tamoxifen or raloxifene for purposes of chemoprevention (e.g., Breast Cancer Prevention Trial) or for other indications (including previous breast cancer) are eligible. Tamoxifen or raloxifene therapy should be discontinued before the patient is enrolled on this study.	Eligibility	16
+tamoxifen	CHEBI:41774	41-50
+tamoxifen	CHEBI:41774	140-149
+tamoxifen	CHEBI:41774	309-318
+raloxifene	CHEBI:8772	153-163
+raloxifene	CHEBI:8772	322-332
+breast cancer	DOID:1612	203-216
+breast cancer	DOID:1612	280-293
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	118-125
+patient	HADO:0000008,OAE:0001817	375-382
+Required Initial Laboratory Data:	Eligibility	17
+Granulocytes > 1,500/µl	Eligibility	18
+Platelet count 100,000/µl	Eligibility	19
+platelet count	CMO:0000029	0-14
+Calculated Creatinine Clearance > 30 mL/min	Eligibility	20
+creatinine clearance	CMO:0000765	11-31
+Total bilirubin  ULN	Eligibility	21
+Outcome Measurement:	Results	0
+Relapse-free Survival Rates at 2.4 Years	Results	1
+Percentage of participants who were alive and relapse-free at time of analysis were counted as "Alive without relapse" at 2.4 years. Participants who had a first local recurrence, first distant metastasis or death from any cause were counted as "relapse, first occurrence". These rates were estimated using the Kaplan Meier method	Results	2
+time	PATO:0000165	62-66
+death	OAE:0000632	208-213
+Time frame: randomization until date of first event, or date last known to be event free if no event was reported (up to 5 years)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Standard Chemotherapy	Results	5
+Arm/Group Description: Patient/Physician choice of:	Results	6
+CMF: cyclophosphamide (100 mg/m^2 orally days 1-14)+ MTX (40 mg/m^2 by IV days 1 and 8) + 5-FU (600 mg/m^2 by IV days 1 and 8) repeated every 28 days for 6 cycles OR	Results	7
+cyclophosphamide	CHEBI:4026	5-21
+AC: Cyclophosphamide (600 mg/m^2 by IV on day 1)+ doxorubicin (60 mg/m^2 by IV on day 1) repeated every 21 days for 4 cycles	Results	8
+cyclophosphamide	CHEBI:4026	4-20
+day	UO:0000033	42-45
+day	UO:0000033	82-85
+day	UO:0000033	107-110
+doxorubicin	CHEBI:28748,BAO:0000639	50-61
+Overall Number of Participants Analyzed: 326	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: percentage of participants  Relapse, first occurrence: 11	Results	11
+Alive without relapse: 89	Results	12
+Results 2:	Results	13
+Arm/Group Title: Capecitabine	Results	14
+capecitabine	CHEBI:31348	17-29
+Arm/Group Description: Capecitabine (2000 mg/m^2 in 2 doses days 1-14) repeated every 21 days for 6 cycles.	Results	15
+capecitabine	CHEBI:31348	23-35
+Overall Number of Participants Analyzed: 307	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: percentage of participants  Relapse, first occurrence: 20	Results	18
+Alive without relapse: 80	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 15/131 (11.45%)	Adverse Events	1
+Disseminated intravascular coagulation 1/131 (0.76%)	Adverse Events	2
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 5/131 (3.82%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Hemoglobin decreased 7/131 (5.34%)	Adverse Events	4
+hemoglobin	CHEBI:35143	0-10
+Lymphatics 1/131 (0.76%)	Adverse Events	5
+Transfusion: pRBCs 0/131 (0.00%)	Adverse Events	6
+Arrhythmia supraventricular 0/131 (0.00%)	Adverse Events	7
+arrhythmia	HP:0011675	0-10
+Cardiac disorder 1/131 (0.76%)	Adverse Events	8
+disorder	OGMS:0000045	8-16
+Edema 0/131 (0.00%)	Adverse Events	9
+edema	HP:0000969	0-5
+Left ventricular failure 0/131 (0.00%)	Adverse Events	10
+left	HP:0012835	0-4
+Myocardial ischemia 1/131 (0.76%)	Adverse Events	11
+ischemia	DOID:326	11-19
+Adverse Events 2:	Adverse Events	12
+Total: 17/181 (9.39%)	Adverse Events	13
+Disseminated intravascular coagulation 0/181 (0.00%)	Adverse Events	14
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 1/181 (0.55%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Hemoglobin decreased 13/181 (7.18%)	Adverse Events	16
+hemoglobin	CHEBI:35143	0-10
+Lymphatics 0/181 (0.00%)	Adverse Events	17
+Transfusion: pRBCs 1/181 (0.55%)	Adverse Events	18
+Arrhythmia supraventricular 1/181 (0.55%)	Adverse Events	19
+arrhythmia	HP:0011675	0-10
+Cardiac disorder 0/181 (0.00%)	Adverse Events	20
+disorder	OGMS:0000045	8-16
+Edema 0/181 (0.00%)	Adverse Events	21
+edema	HP:0000969	0-5
+Left ventricular failure 1/181 (0.55%)	Adverse Events	22
+left	HP:0012835	0-4
+Myocardial ischemia 0/181 (0.00%)	Adverse Events	23
+ischemia	DOID:326	11-19

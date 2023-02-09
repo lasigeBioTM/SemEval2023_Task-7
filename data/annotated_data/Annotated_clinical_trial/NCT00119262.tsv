@@ -1,0 +1,170 @@
+INTERVENTION 1:	Intervention	0
+Arm A (ddBAC > BT > B)	Intervention	1
+Dose dense bevacizumab, cyclophosphamide and doxorubicin, followed by paclitaxel and bevacizumab, followed by bevacizumab	Intervention	2
+cyclophosphamide	CHEBI:4026	24-40
+doxorubicin	CHEBI:28748,BAO:0000639	45-56
+paclitaxel	CHEBI:45863	70-80
+INTERVENTION 2:	Intervention	3
+Arm B (ddAC > BT > B)	Intervention	4
+Dose dense doxorubicin and cyclophosphamide, followed by paclitaxel and bevacizumab, followed by bevacizumab	Intervention	5
+doxorubicin	CHEBI:28748,BAO:0000639	11-22
+cyclophosphamide	CHEBI:4026	27-43
+paclitaxel	CHEBI:45863	57-67
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed adenocarcinoma of the breast with involvement of at least one axillary or internal mammary lymph node on routine histologic examination with hematoxylin and eosin staining; NOTE: patients with axillary or internal mammary node involvement only demonstrated by immunohistochemistry are not eligible	Eligibility	1
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+lymph	UBERON:0002391	116-121
+immunohistochemistry	BAO:0000415	285-305
+Patients must have completed definitive breast surgery including total mastectomy and axillary dissection (modified radical mastectomy), total mastectomy and sentinel node biopsy, lumpectomy and axillary dissection, or lumpectomy and sentinel node biopsy; NOTE: axillary dissection is strongly encouraged in patients with lymph node involvement identified on sentinel node biopsy	Eligibility	2
+breast	UBERON:0000310	40-46
+surgery	OAE:0000067	47-54
+radical	CHEBI:26519	116-123
+lymph	UBERON:0002391	322-327
+Margins of lumpectomy or mastectomy must be histologically free of invasive breast cancer and ductal carcinoma in situ (DCIS); patients with resection margins positive for lobular carcinoma in situ (LCIS) are eligible	Eligibility	3
+breast cancer	DOID:1612	76-89
+ductal carcinoma in situ	HP:0030075,DOID:0060074	94-118
+lobular carcinoma in situ	HP:0030076,DOID:3010	172-197
+(ARM A ONLY) Interval between last surgery for breast cancer (lumpectomy, mastectomy, sentinel node biopsy, axillary dissection or re-excision of lumpectomy margins) and D1 must be > 28 days and =< 84 days	Eligibility	4
+surgery	OAE:0000067	35-42
+breast cancer	DOID:1612	47-60
+ECOG performance status of 0-2	Eligibility	5
+Absolute neutrophil count >= 1000/mm^3	Eligibility	6
+Platelet count >= 100,000/mm^3	Eligibility	7
+platelet count	CMO:0000029	0-14
+Total bilirubin =< 1.5 mg/dL	Eligibility	8
+AST =< 2 upper limit of normal	Eligibility	9
+Serum creatinine =< 1.5 mg/dL	Eligibility	10
+creatinine	CHEBI:16737	6-16
+Urine protein: creatinine ratio < 1.0	Eligibility	11
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	15-25
+ratio	UO:0000190	26-31
+PT INR =< 1.5	Eligibility	12
+PTT =< 1.5 x normal	Eligibility	13
+x	LABO:0000148	11-12
+LVEF >= institutional limits of normal by MUGA or ECHO	Eligibility	14
+Prior to registration the investigator must specify if radiation is planned; patients who have undergone a lumpectomy must receive radiation; post-mastectomy radiation is at the investigator's discretion	Eligibility	15
+Patients with HER2+ (3+ by IHC or FISH+) breast cancer are not eligible and should be treated with a trastuzumab-based adjuvant therapy	Eligibility	16
+breast cancer	DOID:1612	41-54
+adjuvant	CHEBI:60809	119-127
+Patients with synchronous bilateral breast cancer (diagnosed within one month) are eligible if the higher TMN stage tumor meets the eligibility criteria for this trial	Eligibility	17
+bilateral breast cancer	DOID:6741	26-49
+month	UO:0000035	72-77
+Patients must not have clinical evidence of inflammatory disease or fixed axillary nodes (N2) at diagnosis	Eligibility	18
+disease	DOID:4,OGMS:0000031	57-64
+Patients must not have received prior cytotoxic chemotherapy, hormonal therapy or radiation for this breast cancer; prior treatment with an anthracycline, anthracenedione or taxane for any condition is not allowed; NOTE: prior use of tamoxifen for chemoprevention is allowed but must be discontinued at study entry; similarly prior raloxifene use is allowed but must be discontinued at study entry	Eligibility	19
+breast cancer	DOID:1612	101-114
+anthracycline	CHEBI:48120	140-153
+taxane	CHEBI:36064	174-180
+condition	PDRO:0000129	189-198
+tamoxifen	CHEBI:41774	234-243
+raloxifene	CHEBI:8772	332-342
+Patients must not have had a major surgical procedure within 4 weeks of entry; NOTE: non-operative biopsy or placement of a vascular access device is not considered a major surgery	Eligibility	20
+surgery	OAE:0000067	173-180
+Patients must not have clinically significant cardiovascular disease including:	Eligibility	21
+disease	DOID:4,OGMS:0000031	61-68
+New York Heart Association (NYHA) grade II or greater congestive heart failure	Eligibility	22
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	65-70
+congestive heart failure	HP:0001635,DOID:6000	54-78
+Grade II or greater peripheral vascular disease	Eligibility	23
+peripheral vascular disease	DOID:341	20-47
+Uncontrolled hypertension defined as SBP > 160 or DBP > 90	Eligibility	24
+hypertension	HP:0000822,DOID:10763	13-25
+Any prior history of cerebrovascular disease including TIA or stroke	Eligibility	25
+history	BFO:0000182	10-17
+cerebrovascular disease	DOID:6713	21-44
+stroke	HP:0001297,DOID:6713	62-68
+Patients must not require therapeutic anticoagulation; patients with a history of deep venous thrombosis or pulmonary embolism are not eligible; NOTE: prophylactic use of anticoagulants to maintain patency of a vascular assess device is permitted	Eligibility	26
+history	BFO:0000182	71-78
+deep venous thrombosis	HP:0002625	82-104
+pulmonary embolism	HP:0002204,DOID:9477	108-126
+Patients may not require regular use of aspirin (daily for >= 10 days at doses of > 325 mg/day) or regular therapeutic doses of other nonsteroidal anti-inflammatory agents known to inhibit platelet function; additionally, patients using any of the following drugs known to inhibit platelet function are not eligible: dipyridamole (Persantine), ticlopidine (Ticlid), clopidogrel (Plavix) and cilostazol (Pletal); NOTE: regular use of Cox-2 inhibitors is permitted; NOTE: low-dose aspirin is permitted	Eligibility	27
+function	BAO:0003117,BFO:0000034	198-206
+function	BAO:0003117,BFO:0000034	290-298
+dipyridamole	CHEBI:4653	317-329
+ticlopidine	CHEBI:9588	344-355
+clopidogrel	CHEBI:37941	366-377
+cilostazol	CHEBI:31401	391-401
+Patients must not have a non-healing wound or fracture; patients with an abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months are excluded	Eligibility	28
+abscess	HP:0025615	141-148
+excluded	HP:0040285	169-177
+Patients must not have hypersensitivity to paclitaxel or drugs using the vehicle Cremophor, Chinese hamster ovary cell products or other recombinant human antibodies	Eligibility	29
+hypersensitivity	GO:0002524,DOID:1205	23-39
+paclitaxel	CHEBI:45863	43-53
+ovary	UBERON:0000992	108-113
+Patients who have experienced myocardial infarction or unstable angina within 12 months are excluded	Eligibility	30
+myocardial infarction	HP:0001658,DOID:5844	30-51
+excluded	HP:0040285	92-100
+Patients who have had experienced an arterial thrombotic event within 12 months are excluded	Eligibility	31
+excluded	HP:0040285	84-92
+Patients must not have uncontrolled or clinical significant arrhythmia	Eligibility	32
+arrhythmia	HP:0011675	60-70
+Women must not be pregnant or breast-feeding due to the potential harmful effects of bevacizumab on the developing fetus; all females of childbearing potential must have a blood test or urine study within 2 weeks prior to registration to rule out pregnancy	Eligibility	33
+blood	UBERON:0000178	172-177
+urine	UBERON:0001088	186-191
+Women of childbearing potential and sexually active males are required to use an accepted and effective method of contraception while on study and for at least 3-4 months after the last dose of bevacizumab	Eligibility	34
+active	PATO:0002354	45-51
+Outcome Measurement:	Results	0
+Congestive Heart Failure Rate	Results	1
+congestive heart failure	HP:0001635,DOID:6000	0-24
+rate	BAO:0080019	25-29
+Clinical congestive heart failure includes patients with symptomatic decline in LVEF to at or below the lower limit of normal (LLN), or symptomatic diastolic dysfunction. 223 treated patients were included in the analysis.	Results	2
+congestive heart failure	HP:0001635,DOID:6000	9-33
+Time frame: assessed on day 1 of cycles 5, 9, 17 and 25, and at end of treatment, then every 3 months for <2 years and every 6 months for 2-3 years from study entry	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	24-27
+Results 1:	Results	4
+Arm/Group Title: Arm A (ddBAC > BT > B)	Results	5
+Arm/Group Description: Dose dense bevacizumab, cyclophosphamide and doxorubicin, followed by paclitaxel and bevacizumab, followed by bevacizumab	Results	6
+cyclophosphamide	CHEBI:4026	47-63
+doxorubicin	CHEBI:28748,BAO:0000639	68-79
+paclitaxel	CHEBI:45863	93-103
+Overall Number of Participants Analyzed: 103	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  2.9        (0.6 to 8.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm B (ddAC > BT > B)	Results	11
+Arm/Group Description: Dose dense doxorubicin and cyclophosphamide, followed by paclitaxel and bevacizumab, followed by bevacizumab	Results	12
+doxorubicin	CHEBI:28748,BAO:0000639	34-45
+cyclophosphamide	CHEBI:4026	50-66
+paclitaxel	CHEBI:45863	80-90
+Overall Number of Participants Analyzed: 120	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  2.5        (0.5 to 7.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 71/103 (68.93%)	Adverse Events	1
+Anemia 1/103 (0.97%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Hemolysis 1/103 (0.97%)	Adverse Events	3
+Febrile neutropenia 4/103 (3.88%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac-Ischemia 1/103 (0.97%)	Adverse Events	5
+Left ventricular diastolic dysfunction 1/103 (0.97%)	Adverse Events	6
+left ventricular diastolic dysfunction	HP:0025168	0-38
+Left ventricular systolic dysfunction 4/103 (3.88%)	Adverse Events	7
+left ventricular systolic dysfunction	HP:0025169	0-37
+Diarrhea w/o prior colostomy 2/103 (1.94%)	Adverse Events	8
+diarrhea	HP:0002014,DOID:13250	0-8
+Muco/stomatitis (symptom), oral cavity 3/103 (2.91%)	Adverse Events	9
+symptom	OGMS:0000020	17-24
+oral cavity	UBERON:0000167	27-38
+Adverse Events 2:	Adverse Events	10
+Total: 65/120 (54.17%)	Adverse Events	11
+Anemia 4/120 (3.33%)	Adverse Events	12
+anemia	HP:0001903,DOID:2355	0-6
+Hemolysis 0/120 (0.00%)	Adverse Events	13
+Febrile neutropenia 5/120 (4.17%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac-Ischemia 0/120 (0.00%)	Adverse Events	15
+Left ventricular diastolic dysfunction 2/120 (1.67%)	Adverse Events	16
+left ventricular diastolic dysfunction	HP:0025168	0-38
+Left ventricular systolic dysfunction 4/120 (3.33%)	Adverse Events	17
+left ventricular systolic dysfunction	HP:0025169	0-37
+Diarrhea w/o prior colostomy 0/120 (0.00%)	Adverse Events	18
+diarrhea	HP:0002014,DOID:13250	0-8
+Muco/stomatitis (symptom), oral cavity 3/120 (2.50%)	Adverse Events	19
+symptom	OGMS:0000020	17-24
+oral cavity	UBERON:0000167	27-38

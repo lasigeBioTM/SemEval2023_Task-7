@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Pregabalin150	Intervention	1
+Patients receive 150 mg of oral pregabalin twice daily for 6 weeks.	Intervention	2
+pregabalin	CHEBI:64356	32-42
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Patients receive oral placebo twice daily for 6 weeks.	Intervention	5
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Meeting 1 of the following criteria:	Eligibility	1
+History of breast cancer (currently without malignant disease)	Eligibility	2
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	11-24
+disease	DOID:4,OGMS:0000031	54-61
+No history of breast cancer, but patient wishes to avoid estrogen due to a perceived increased risk of breast cancer	Eligibility	3
+history	BFO:0000182	3-10
+breast cancer	DOID:1612	14-27
+breast cancer	DOID:1612	103-116
+patient	HADO:0000008,OAE:0001817	33-40
+estrogen	CHEBI:50114,BAO:0000760	57-65
+Bothersome hot flashes (defined by their occurrence  28 times per week and of sufficient severity to make the patient desire therapeutic intervention)	Eligibility	4
+hot flashes	HP:0031217	11-22
+week	UO:0000034	66-70
+severity	HP:0012824	89-97
+patient	HADO:0000008,OAE:0001817	110-117
+therapeutic intervention	OAE:0000094	125-149
+Presence of hot flashes for  1 month prior to study entry	Eligibility	5
+hot flashes	HP:0031217	12-23
+month	UO:0000035	31-36
+PATIENT CHARACTERISTICS:	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1	Eligibility	7
+group	CHEBI:24433	29-34
+Life expectancy  6 months	Eligibility	8
+Able to complete questionnaire(s) by themselves or with assistance	Eligibility	9
+Women of childbearing potential not eligible (per the judgment of the attending clinician)	Eligibility	10
+Serum creatinine  1.5 times upper limit of normal	Eligibility	11
+creatinine	CHEBI:16737	6-16
+PRIOR CONCURRENT THERAPY:	Eligibility	12
+No prior gabapentin or pregabalin	Eligibility	13
+gabapentin	CHEBI:42797	9-19
+pregabalin	CHEBI:64356	23-33
+More than 4 weeks since prior and no concurrent antineoplastic chemotherapy, androgens, estrogens, or progestational agents	Eligibility	14
+Vaginal estrogen is allowed if used for the past month and not planned to be discontinued	Eligibility	15
+estrogen	CHEBI:50114,BAO:0000760	8-16
+month	UO:0000035	49-54
+Concurrent adjuvant targeted therapy (i.e., lapatinib, trastuzumab [Herceptin®]) allowed in patients with no evidence of disease	Eligibility	16
+adjuvant	CHEBI:60809	11-19
+lapatinib	CHEBI:49603	44-53
+disease	DOID:4,OGMS:0000031	121-128
+Concurrent tamoxifen, raloxifene, or aromatase inhibitors on a constant dose for at least 4 weeks allowed provided the medication will not be stopped during the study period	Eligibility	17
+tamoxifen	CHEBI:41774	11-20
+raloxifene	CHEBI:8772	22-32
+No concurrent or planned use of other agents for hot flashes except for any of the following:	Eligibility	18
+hot flashes	HP:0031217	49-60
+Stable dose of vitamin E is allowed as long as agent was started > 30 days prior to study initiation and is to be continued throughout the study period	Eligibility	19
+stable	HP:0031915	0-6
+vitamin e	CHEBI:33234	15-24
+Soy is allowed, if it is planned to be continued at the same dose during the study period	Eligibility	20
+Stable dose of antidepressants is allowed as long as it was started > 30 days prior to study initiation and is to be continued at a stable dose throughout the study period	Eligibility	21
+stable	HP:0031915	0-6
+stable	HP:0031915	132-138
+Outcome Measurement:	Results	0
+Numerical Change From Baseline in Hot Flash Score at Treatment Week 6 (Positive Numbers to Represent Increases and Negative Numbers to Represent Decreases).	Results	1
+week	UO:0000034	63-67
+Hot flash activity will be analyzed in a number of ways. For the primary analysis, the numerical change-from-baseline to hot flash score after week 6 of treatment will be compared between the highest dose treatment arm and the placebo arm. A hot flash score is computed for each patient by assigning points (1=mild, 2=moderate, 3=severe, 4=very severe) to each hot flash based on patient-reported severity, adding the points for each day, and averaging across each week of the study. Abbreviations for the analysis population description: Eligible patients (EPs). Evaluable for primary (EFP). Off-study for adverse event (AE). Do not have 6 weeks of data (NODATA).	Results	2
+week	UO:0000034	143-147
+week	UO:0000034	465-469
+week	UO:0000034	641-645
+patient	HADO:0000008,OAE:0001817	279-286
+patient	HADO:0000008,OAE:0001817	380-387
+patient	HADO:0000008,OAE:0001817	548-555
+severe	HP:0012828	330-336
+severe	HP:0012828	345-351
+severity	HP:0012824	397-405
+day	UO:0000033	434-437
+adverse event	OAE:0000001	607-620
+Time frame: Baseline, after week 6 of treatment	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	28-32
+Results 1:	Results	4
+Arm/Group Title: Pregabalin150	Results	5
+Arm/Group Description: Patients receive 150 mg of oral pregabalin twice daily for 6 weeks.	Results	6
+pregabalin	CHEBI:64356	55-65
+Overall Number of Participants Analyzed: 56	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: units on a scale  -9.6        (-12.9 to -7.6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo	Results	11
+Arm/Group Description: Patients receive oral placebo twice daily for 6 weeks.	Results	12
+Overall Number of Participants Analyzed: 51	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: units on a scale  -6.1        (-7.9 to -2.9)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/63 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

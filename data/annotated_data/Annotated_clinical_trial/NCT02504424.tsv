@@ -1,0 +1,85 @@
+INTERVENTION 1:	Intervention	0
+AeroForm Tissue Expander	Intervention	1
+tissue	UBERON:0000479	9-15
+AeroForm Tissue Expansion inflation with carbon dioxide by remote control	Intervention	2
+tissue	UBERON:0000479	9-15
+carbon dioxide	CHEBI:16526	41-55
+AeroForm Tissue Expander: The AeroForm Tissue Expander is a breast tissue expander implanted following mastectomy and activated by remote control to release small doses of carbon dioxide from an internal reservoir to fill and inflate the expander.	Intervention	3
+tissue	UBERON:0000479	9-15
+tissue	UBERON:0000479	39-45
+tissue	UBERON:0000479	67-73
+breast	UBERON:0000310	60-66
+activated	BAO:0003072	118-127
+carbon dioxide	CHEBI:16526	172-186
+Inclusion Criteria:	Eligibility	0
+Subject is female between the ages of 18-70	Eligibility	1
+female	PATO:0000383	11-17
+Subject requires tissue expansion as part of breast reconstruction	Eligibility	2
+tissue	UBERON:0000479	17-23
+part of	BAO:0090002,BFO:0000050	37-44
+breast	UBERON:0000310	45-51
+Subject is able to provide written informed consent	Eligibility	3
+Subject is able and willing to comply with all of the study requirements	Eligibility	4
+Subject has the physical, perceptual and cognitive capacity to understand and manage the at home dosing regimen	Eligibility	5
+home	CHEBI:75830	92-96
+Exclusion Criteria:	Eligibility	6
+Subject's tissue integrity is unsuitable for tissue expansion	Eligibility	7
+tissue	UBERON:0000479	10-16
+tissue	UBERON:0000479	45-51
+Subject has residual gross malignancy at the intended expansion site	Eligibility	8
+site	BFO:0000029	64-68
+Subject has current or prior infection at the intended expansion site	Eligibility	9
+site	BFO:0000029	65-69
+Subject has a history of failed tissue expansion or breast reconstruction	Eligibility	10
+history	BFO:0000182	14-21
+tissue	UBERON:0000479	32-38
+breast	UBERON:0000310	52-58
+Subject has any co-morbid condition determined by the Investigator to place the subject at an increased risk of complications (e.g., severe collagen vascular disease, poorly managed diabetes)	Eligibility	11
+condition	PDRO:0000129	26-35
+severe	HP:0012828	133-139
+collagen	CHEBI:3815	140-148
+vascular disease	DOID:178	149-165
+Subject is taking any concomitant medications determined by the Investigator to place the subject at an increased risk of complications (e.g., Prednisone, Coumadin).	Eligibility	12
+prednisone	CHEBI:8382	143-153
+Outcome Measurement:	Results	0
+Number of Breasts With Successful Tissue Expansion With Exchange to a Permanent Breast Implant Unless Exchange is Precluded by a Non-device Related Event	Results	1
+tissue	UBERON:0000479	34-40
+breast	UBERON:0000310	10-16
+breast	UBERON:0000310	80-86
+The primary endpoint is analyzed per breast. Breasts in which the expander is removed and/or replaced due to a device related adverse event or a device malfunction are counted as failures.	Results	2
+breast	UBERON:0000310	37-43
+breast	UBERON:0000310	45-51
+adverse event	OAE:0000001	126-139
+Time frame: 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: AeroForm Tissue Expander	Results	5
+tissue	UBERON:0000479	26-32
+Arm/Group Description: AeroForm Tissue Expansion inflation with carbon dioxide by remote control	Results	6
+tissue	UBERON:0000479	32-38
+carbon dioxide	CHEBI:16526	64-78
+AeroForm Tissue Expander: The AeroForm Tissue Expander is a breast tissue expander implanted following mastectomy and activated by remote control to release small doses of carbon dioxide from an internal reservoir to fill and inflate the expander.	Results	7
+tissue	UBERON:0000479	9-15
+tissue	UBERON:0000479	39-45
+tissue	UBERON:0000479	67-73
+breast	UBERON:0000310	60-66
+activated	BAO:0003072	118-127
+carbon dioxide	CHEBI:16526	172-186
+Overall Number of Participants Analyzed: 48	Results	8
+Overall Number of Units Analyzed	Results	9
+Type of Units Analyzed: Breasts  Count of UnitsUnit of Measure: breasts: 80 100.0%	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 11/50 (22.00%)	Adverse Events	1
+neutropenic fever, weakness 1/50 (2.00%)	Adverse Events	2
+fever	HP:0001945	12-17
+urinary tract infection 1/50 (2.00%)	Adverse Events	3
+urinary tract infection	DOID:0080784	0-23
+cellulitis 4/50 (8.00%)	Adverse Events	4
+cellulitis	HP:0100658,DOID:3488	0-10
+wound dehiscence 1/50 (2.00%)	Adverse Events	5
+dehiscence	GO:0009900	6-16
+hematoma 1/50 (2.00%)	Adverse Events	6
+seroma 1/50 (2.00%)	Adverse Events	7
+inflammation (red breast syndrome) 2/50 (4.00%)	Adverse Events	8
+breast	UBERON:0000310	18-24
+syndrome	DOID:225	25-33

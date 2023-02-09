@@ -1,0 +1,172 @@
+INTERVENTION 1:	Intervention	0
+Anastrozole and ZD1839	Intervention	1
+anastrozole	CHEBI:2704	0-11
+[Not Specified]	Intervention	2
+INTERVENTION 2:	Intervention	3
+Fulvestrant and ZD1839	Intervention	4
+fulvestrant	CHEBI:31638	0-11
+[Not Specified]	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Patients must have estrogen and/or progesterone receptor positive histologically confirmed adenocarcinoma of the breast with measurable recurrent or metastatic carcinoma of the breast	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	19-27
+progesterone	CHEBI:17026	35-47
+receptor	BAO:0000281	48-56
+adenocarcinoma	DOID:299	91-105
+breast	UBERON:0000310	113-119
+breast	UBERON:0000310	177-183
+recurrent	HP:0031796	136-145
+carcinoma	HP:0030731,DOID:305	96-105
+carcinoma	HP:0030731,DOID:305	160-169
+Baseline measurements and evaluations of involved sites should be performed as close as possible to study entry, but must be within 4 weeks prior to randomization	Eligibility	2
+Patients with available tissue blocks from either the primary or metastatic site must submit the tissue for EGFR analysis	Eligibility	3
+tissue	UBERON:0000479	24-30
+tissue	UBERON:0000479	97-103
+site	BFO:0000029	76-80
+All patients must be postmenopausal females defined by:	Eligibility	4
+Prior bilateral oophorectomy or bilateral ovarian irradiation	Eligibility	5
+bilateral	HP:0012832	6-15
+bilateral	HP:0012832	32-41
+No menstrual period for 12 months or longer. If age 55 years or less and on tamoxifen within the prior 6 months, must have an estradiol level in the postmenopausal range	Eligibility	6
+age	PATO:0000011	48-51
+tamoxifen	CHEBI:41774	76-85
+estradiol	CHEBI:23965	126-135
+range	LABO:0000114	164-169
+Patients must not have had more than 2 prior chemotherapy regimens for metastatic disease and no chemotherapy within 3 weeks prior to randomization; no concurrent chemotherapy is allowed while on protocol therapy	Eligibility	7
+disease	DOID:4,OGMS:0000031	82-89
+Patients must not have prior hormonal therapy for metastatic disease; no prior therapy in the adjuvant setting with an estrogen receptor down-regulator (e.g. fulvestrant) or an aromatase inhibitor (e.g. anastrozole, letrozole, exemestane, aminoglutethamide); non-protocol concurrent hormonal therapy is not allowed	Eligibility	8
+disease	DOID:4,OGMS:0000031	61-68
+adjuvant	CHEBI:60809	94-102
+estrogen	CHEBI:50114,BAO:0000760	119-127
+receptor	BAO:0000281	128-136
+fulvestrant	CHEBI:31638	158-169
+inhibitor	CHEBI:35222	187-196
+anastrozole	CHEBI:2704	203-214
+letrozole	CHEBI:6413	216-225
+exemestane	CHEBI:4953	227-237
+Patients must not have had prior therapy with agents that target EGFR	Eligibility	9
+target	BAO:0003064	58-64
+Previous, but not concomitant, therapy with trastuzumab (Herceptin) is allowed; patients must not receive trastuzumab (Herceptin) within 3 weeks prior to randomization	Eligibility	10
+Patients must have ECOG performance status of 0, 1, or 2	Eligibility	11
+Neutrophils >= 1500/mm^3	Eligibility	12
+Platelets >= 100,000/mm^3	Eligibility	13
+Bilirubin =< 1.25 x upper limit of normal	Eligibility	14
+x	LABO:0000148	18-19
+SGPT (ALT) and SGOT (AST) =< 2.5 x upper limit of normal if no demonstrable liver metastases or =< 5 times upper limit of normal in the presence of liver metastases	Eligibility	15
+x	LABO:0000148	33-34
+liver	UBERON:0002107	76-81
+liver	UBERON:0002107	148-153
+Calculated creatinine clearance >= 30ml/min	Eligibility	16
+creatinine clearance	CMO:0000765	11-31
+INR, PT and PTT within normal range	Eligibility	17
+range	LABO:0000114	30-35
+Patients must not be receiving therapy with anticoagulants or have other contraindication to i.m. injections	Eligibility	18
+contraindication	OAE:0000055	73-89
+Patients must not have a history of central nervous system metastasis	Eligibility	19
+history	BFO:0000182	25-32
+central nervous system	UBERON:0001017	36-58
+Patients may receive concurrent radiation therapy to painful sites of boney disease or areas of impending fracture as long as the radiation therapy is initiated prior to study entry and sites of measurable disease outside the radiation therapy port are available to follow; patient who have received prior radiation therapy must have recovered from toxicity of the prior radiation therapy	Eligibility	20
+disease	DOID:4,OGMS:0000031	76-83
+disease	DOID:4,OGMS:0000031	206-213
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	274-281
+Patients must not take the following medications that may alter ZD1839 pharmacokinetics while enrolled in this trial: phenytoin, carbamazapine, phenobarbitol, rifampicin, and St. John's Wort, oxcarbazepine, rifapentine, modafinil, and griseofulvin	Eligibility	21
+phenytoin	CHEBI:8107	118-127
+rifampicin	CHEBI:71365	159-169
+oxcarbazepine	CHEBI:7824	192-205
+rifapentine	CHEBI:45304	207-218
+modafinil	CHEBI:31859	220-229
+griseofulvin	CHEBI:27779	235-247
+Patients age =< 55 years must not be receiving LHRH agonists or antagonists within 3 months prior to randomization	Eligibility	22
+age	PATO:0000011	9-12
+Patients who have an ocular inflammation or infection should be fully treated before entry into the trial; patients with a neuropathic keratopathy or diabetes or those with anterior basement membrane disease must be advised of the need for frequent opthalmalogic exams	Eligibility	23
+keratopathy	DOID:2283	135-146
+basement membrane	GO:0005604	182-199
+disease	DOID:4,OGMS:0000031	200-207
+frequent	HP:0040282	240-248
+Patients who continue to wear contact lenses must be advised that they have an increased risk of ocular events; the decision to wear contact lenses should be discussed with the patient's treating oncologist and ophthalmologist	Eligibility	24
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	177-184
+Patients must not suffer from medical or psychiatric conditions that would interfere with protocol compliance, the ability to provide informed consent, or assessment of response or anticipated toxicities	Eligibility	25
+Patients must be disease-free of prior invasive malignancies for > 5 years with the exception of curatively-treated basal cell or squamous cell carcinoma of the skin or carcinoma in situ of the cervix	Eligibility	26
+squamous cell carcinoma of the skin	HP:0006739	130-165
+carcinoma	HP:0030731,DOID:305	144-153
+carcinoma	HP:0030731,DOID:305	169-178
+Outcome Measurement:	Results	0
+Clinical Benefit Rate	Results	1
+rate	BAO:0080019	17-21
+Clinical benefit = complete response (CR), partial response (PR), or stable disease (SD) lasting for at least 6 months, assessed per Response Evaluation Criteria of Solid Tumor (RECIST).CR=disappearance of all target and non-target lesions. PR= disappearance of or at least 30% decrease in the sum of the longest diameters of target lesions, with non-progressive disease in non-target lesions. SD= sum of the longest diameters of target lesions decrease <30% or increase <20%, with non-progressive disease in non-target lesions. 141 eligible, treated patients were included.	Results	2
+stable	HP:0031915	69-75
+disease	DOID:4,OGMS:0000031	76-83
+disease	DOID:4,OGMS:0000031	363-370
+disease	DOID:4,OGMS:0000031	498-505
+target	BAO:0003064	210-216
+target	BAO:0003064	225-231
+target	BAO:0003064	326-332
+target	BAO:0003064	378-384
+target	BAO:0003064	430-436
+target	BAO:0003064	513-519
+increase	BAO:0001251	462-470
+Time frame: assessed every 3 cycles while on treatment, assessed every 3 months when follow up <2 years, every 6 months between 2-3 years,no specific requirements after 3 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Anastrozole and ZD1839	Results	5
+anastrozole	CHEBI:2704	17-28
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 72	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  44        (33 to 57)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Fulvestrant and ZD1839	Results	11
+fulvestrant	CHEBI:31638	17-28
+Arm/Group Description: [Not Specified]	Results	12
+Overall Number of Participants Analyzed: 69	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  41        (29 to 53)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 27/74 (36.49%)	Adverse Events	1
+Anemia 1/74 (1.35%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Sinus bradycardia 0/74 (0.00%)	Adverse Events	3
+sinus bradycardia	HP:0001688	0-17
+Dyspepsia 0/74 (0.00%)	Adverse Events	4
+dyspepsia	HP:0410281	0-9
+Dysphagia 1/74 (1.35%)	Adverse Events	5
+dysphagia	HP:0002015	0-9
+Gastritis 1/74 (1.35%)	Adverse Events	6
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea 3/74 (4.05%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Vomiting 2/74 (2.70%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Diarrhea w/o prior colostomy 4/74 (5.41%)	Adverse Events	9
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 2/74 (2.70%)	Adverse Events	10
+fatigue	HP:0012378	0-7
+AST increased 5/74 (6.76%)	Adverse Events	11
+ALT increased 3/74 (4.05%)	Adverse Events	12
+Infection w/o neutropenia 1/74 (1.35%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	14-25
+Adverse Events 2:	Adverse Events	14
+Total: 28/74 (37.84%)	Adverse Events	15
+Anemia 1/74 (1.35%)	Adverse Events	16
+anemia	HP:0001903,DOID:2355	0-6
+Sinus bradycardia 1/74 (1.35%)	Adverse Events	17
+sinus bradycardia	HP:0001688	0-17
+Dyspepsia 1/74 (1.35%)	Adverse Events	18
+dyspepsia	HP:0410281	0-9
+Dysphagia 0/74 (0.00%)	Adverse Events	19
+dysphagia	HP:0002015	0-9
+Gastritis 0/74 (0.00%)	Adverse Events	20
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea 3/74 (4.05%)	Adverse Events	21
+nausea	HP:0002018	0-6
+Vomiting 2/74 (2.70%)	Adverse Events	22
+vomiting	HP:0002013	0-8
+Diarrhea w/o prior colostomy 10/74 (13.51%)	Adverse Events	23
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 2/74 (2.70%)	Adverse Events	24
+fatigue	HP:0012378	0-7
+AST increased 6/74 (8.11%)	Adverse Events	25
+ALT increased 3/74 (4.05%)	Adverse Events	26
+Infection w/o neutropenia 3/74 (4.05%)	Adverse Events	27
+neutropenia	HP:0001875,DOID:1227	14-25

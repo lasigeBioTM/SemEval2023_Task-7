@@ -1,0 +1,120 @@
+INTERVENTION 1:	Intervention	0
+High-dose Chemotherapy	Intervention	1
+Carboplatin + Cyclophosphamide + Thiotepa	Intervention	2
+carboplatin	CHEBI:31355	0-11
+cyclophosphamide	CHEBI:4026	14-30
+thiotepa	CHEBI:9570	33-41
+Carboplatin : Target AUC of 20, then divided into 4 doses given by vein (IV) days -6, -5, -4, -3 prior to stem cell infusion.	Intervention	3
+carboplatin	CHEBI:31355	0-11
+target	BAO:0003064	14-20
+auc	BAO:0002120	21-24
+vein	UBERON:0001638	67-71
+Thiotepa : 120 mg/m^2 by vein days -6, -5, -4, -3 prior to stem cell infusion.	Intervention	4
+thiotepa	CHEBI:9570	0-8
+vein	UBERON:0001638	25-29
+Stem Cell Transplant : Stem Cell Transplant on Day 0.	Intervention	5
+stem cell transplant	OAE:0001532	0-20
+stem cell transplant	OAE:0001532	23-43
+day	UO:0000033	47-50
+Cyclophosphamide : 1.5 gm/m^2 by vein days -6, -5, -4, -3 prior to stem cell infusion.	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+vein	UBERON:0001638	33-37
+Inclusion Criteria:	Eligibility	0
+18 to 55 years old	Eligibility	1
+Metastatic breast carcinoma.	Eligibility	2
+breast carcinoma	HP:0003002,DOID:3459	11-27
+Histological confirmation of invasive breast carcinoma	Eligibility	3
+breast carcinoma	HP:0003002,DOID:3459	38-54
+Complete or partial response to pre-transplant standard-dose chemotherapy, or hormonal therapy. For bone disease, stable disease (SD) is allowed.	Eligibility	4
+bone disease	DOID:0080001	100-112
+stable	HP:0031915	114-120
+disease	DOID:4,OGMS:0000031	105-112
+disease	DOID:4,OGMS:0000031	121-128
+Patient must have tumor assessed for estrogen-receptor (ER) and progesterone-receptor (PR).	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+Persistent detectable or non-detectable CTCs by Veridex Technology after completion of standard therapy.	Eligibility	6
+Zubrod performance status 0 or 1.	Eligibility	7
+Patients must have adequate hematological parameters (White Blood Count/WBC >= 3,000/mm3; platelet count >= 100,000/mm3)	Eligibility	8
+blood	UBERON:0000178	60-65
+platelet count	CMO:0000029	90-104
+Adequate renal function (serum creatinine <= 1.5mg/dl)	Eligibility	9
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	31-41
+Adequate liver function (total bilirubin, serum glutamate pyruvate transaminase (SGPT) <= 2 times normal).	Eligibility	10
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+glutamate	CHEBI:14321,BAO:0000926	48-57
+pyruvate	CHEBI:15361	58-66
+Adequate cardiac function (Left ventricular ejection fraction (LVEF)>= 50%).	Eligibility	11
+function	BAO:0003117,BFO:0000034	17-25
+left	HP:0012835	27-31
+ejection fraction	CMO:0000180	44-61
+Adequate pulmonary function (Carbon Monoxide Diffusing Capacity (DLCO)>= 50% of predicted value).	Eligibility	12
+function	BAO:0003117,BFO:0000034	19-27
+carbon monoxide	CHEBI:17245	29-44
+Females of childbearing (women who are post-menopausal < 1 year, not surgically sterilized, or not abstinent) potential must use adequate contraception.	Eligibility	13
+year	UO:0000036	59-63
+Patients must sign an informed consent.	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Prior HDCT with Autologous hematopoietic stem cell transplantation (AHST) in adjuvant setting.	Eligibility	16
+adjuvant	CHEBI:60809	77-85
+History or presence of brain/leptomeningeal metastasis.	Eligibility	17
+history	BFO:0000182	0-7
+History of other malignancies except cured non-melanoma skin cancer or cured cervical carcinoma in situ.	Eligibility	18
+history	BFO:0000182	0-7
+skin cancer	DOID:4159	56-67
+carcinoma	HP:0030731,DOID:305	86-95
+Presence of other severe medical illnesses or conditions. Severe heart disease, (myocardial ischemia, myocardial infarction, etc.) Pulmonary disease (COPD, asthma,etc). Renal failure and hepatic failure.	Eligibility	19
+severe	HP:0012828	18-24
+severe	HP:0012828	58-64
+heart disease	DOID:114	65-78
+ischemia	DOID:326	92-100
+myocardial infarction	HP:0001658,DOID:5844	102-123
+disease	DOID:4,OGMS:0000031	71-78
+disease	DOID:4,OGMS:0000031	141-148
+asthma	HP:0002099,DOID:2841	156-162
+hepatic failure	HP:0001399	187-202
+Clinically significant active infections (patient requiring IV antibiotics, uncontrolled infections, or hospitalized due to infections).	Eligibility	20
+active	PATO:0002354	23-29
+patient	HADO:0000008,OAE:0001817	42-49
+HIV infection.	Eligibility	21
+Pregnant or lactating women.	Eligibility	22
+Medical, social or psychologic factors which would prevent the patient from receiving or cooperating with the full course of therapy or understanding the informed consent procedure.	Eligibility	23
+patient	HADO:0000008,OAE:0001817	63-70
+Outcome Measurement:	Results	0
+Number of Participants With Reduction in CTCs Following High-dose Chemotherapy With Purged Autologous Stem Cell Products	Results	1
+Number of circulating tumor cells (CTCs) measured at one month post autologous hematopoietic stem cell transplantation (AHST), considered both as longitudinal values and compared to the baseline number of CTCs.	Results	2
+month	UO:0000035	57-62
+Time frame: Baseline to 1 month post AHST	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	26-31
+Results 1:	Results	4
+Arm/Group Title: High-dose Chemotherapy	Results	5
+Arm/Group Description: Carboplatin + Cyclophosphamide + Thiotepa	Results	6
+carboplatin	CHEBI:31355	23-34
+cyclophosphamide	CHEBI:4026	37-53
+thiotepa	CHEBI:9570	56-64
+Carboplatin : Target AUC of 20, then divided into 4 doses given by vein (IV) days -6, -5, -4, -3 prior to stem cell infusion.	Results	7
+carboplatin	CHEBI:31355	0-11
+target	BAO:0003064	14-20
+auc	BAO:0002120	21-24
+vein	UBERON:0001638	67-71
+Thiotepa : 120 mg/m^2 by vein days -6, -5, -4, -3 prior to stem cell infusion.	Results	8
+thiotepa	CHEBI:9570	0-8
+vein	UBERON:0001638	25-29
+Stem Cell Transplant : Stem Cell Transplant on Day 0.	Results	9
+stem cell transplant	OAE:0001532	0-20
+stem cell transplant	OAE:0001532	23-43
+day	UO:0000033	47-50
+Cyclophosphamide : 1.5 gm/m^2 by vein days -6, -5, -4, -3 prior to stem cell infusion.	Results	10
+cyclophosphamide	CHEBI:4026	0-16
+vein	UBERON:0001638	33-37
+Overall Number of Participants Analyzed: 21	Results	11
+Measure Type: Number	Results	12
+Unit of Measure: participants  9	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 2/32 (6.25%)	Adverse Events	1
+Thrombocytopenia 1/32 (3.13%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Death 1/32 (3.13%)	Adverse Events	3
+death	OAE:0000632	0-5

@@ -1,0 +1,181 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab Emtansine	Intervention	1
+Participants received trastuzumab emtansine 3.6 mg/kg IV infusion over 30-90 minutes on Day 1 of each 21-day treatment cycle until PD (as assessed by the investigator), unmanageable toxicity, or study termination.	Intervention	2
+day	UO:0000033	88-91
+day	UO:0000033	105-108
+INTERVENTION 2:	Intervention	3
+Lapatinib + Capecitabine	Intervention	4
+lapatinib	CHEBI:49603	0-9
+capecitabine	CHEBI:31348	12-24
+Participants received lapatinib 1250 mg (five 250 mg tablets) orally once daily during each 21-day cycle + capecitabine 1000 mg/m^2 orally twice daily on Days 1-14 of each 21-day treatment cycle until PD (as assessed by the investigator), unmanageable toxicity, or study termination. Participants of this group were allowed to cross over to receive trastuzumab emtansine based on statistically significant OS benefit in favor of trastuzumab emtansine demonstrated in second interim analysis.	Intervention	5
+lapatinib	CHEBI:49603	22-31
+capecitabine	CHEBI:31348	107-119
+group	CHEBI:24433	305-310
+second	UO:0000010	467-473
+Inclusion Criteria:	Eligibility	0
+HER2 status must be prospectively, centrally tested and be HER2-positive based on central laboratory assay results	Eligibility	1
+central	HP:0030645	35-42
+central	HP:0030645	82-89
+Histologically or cytologically confirmed invasive breast cancer	Eligibility	2
+breast cancer	DOID:1612	51-64
+Prior treatment for breast cancer in the adjuvant, unresectable, locally advanced, or metastatic setting must include both a taxane, alone or in combination with another agent, and trastuzumab, alone or in combination with another agent	Eligibility	3
+breast cancer	DOID:1612	20-33
+adjuvant	CHEBI:60809	41-49
+taxane	CHEBI:36064	125-131
+Documented progression (which occur during or after most recent treatment or within 6 months after completing of adjuvant therapy) of incurable, unresectable, locally advanced or metastatic breast cancer, defined by the investigator	Eligibility	4
+adjuvant	CHEBI:60809	113-121
+breast cancer	DOID:1612	190-203
+Measurable and/or nonmeasurable disease; participants with central nervous system-only disease are excluded	Eligibility	5
+disease	DOID:4,OGMS:0000031	32-39
+disease	DOID:4,OGMS:0000031	87-94
+central	HP:0030645	59-66
+excluded	HP:0040285	99-107
+Cardiac ejection fraction greater than or equal to (>/=) 50 percent (%) by either echocardiogram or multi-gated acquisition scan	Eligibility	6
+ejection fraction	CMO:0000180	8-25
+percent	UO:0000187	60-67
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	7
+group	CHEBI:24433	29-34
+For women of childbearing potential and men with partners of childbearing potential, agreement to use a highly effective, non-hormonal form of contraception; contraception use should continue for the duration of the study treatment and for at least 6 months after the last dose of study treatment	Eligibility	8
+duration	PATO:0001309	200-208
+Exclusion Criteria:	Eligibility	9
+History of treatment with trastuzumab emtansine	Eligibility	10
+history	BFO:0000182	0-7
+Prior treatment with lapatinib or capecitabine	Eligibility	11
+lapatinib	CHEBI:49603	21-30
+capecitabine	CHEBI:31348	34-46
+Peripheral neuropathy of Grade >/= 3 per National Cancer Institute Common Terminology Criteria for Adverse Events (NCI-CTCAE), Version 3.0	Eligibility	12
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+cancer	DOID:162	50-56
+History of other malignancy within the last 5 years, except for appropriately treated carcinoma in situ of the cervix, non-melanoma skin carcinoma, Stage 1 uterine cancer, synchronous or previously diagnosed HER2-positive breast cancer, or cancers with a similar curative outcome as those mentioned above	Eligibility	13
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	86-95
+carcinoma	HP:0030731,DOID:305	137-146
+skin carcinoma	DOID:3451	132-146
+uterine cancer	DOID:363	156-170
+breast cancer	DOID:1612	222-235
+History of receiving any anti-cancer drug/biologic or investigational treatment within 21 days prior to randomization except hormone therapy, which could be given up to 7 days prior to randomization; recovery of treatment-related toxicity consistent with other eligibility criteria	Eligibility	14
+history	BFO:0000182	0-7
+hormone	CHEBI:24621	125-132
+History of radiation therapy within 14 days of randomization	Eligibility	15
+history	BFO:0000182	0-7
+Brain metastases that are untreated, symptomatic, or require therapy to control symptoms, as well as any history of radiation, surgery, or other therapy, including steroids, to control symptoms from brain metastases within 2 months (60 days) of randomization	Eligibility	16
+brain	UBERON:0000955	0-5
+brain	UBERON:0000955	199-204
+history	BFO:0000182	105-112
+surgery	OAE:0000067	127-134
+History of symptomatic congestive heart failure or serious cardiac arrhythmia requiring treatment	Eligibility	17
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	23-47
+arrhythmia	HP:0011675	67-77
+History of myocardial infarction or unstable angina within 6 months of randomization	Eligibility	18
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+Current dyspnea at rest due to complications of advanced malignancy or current requirement for continuous oxygen therapy	Eligibility	19
+dyspnea	HP:0002094	8-15
+Current severe, uncontrolled systemic disease (for example, clinically significant cardiovascular, pulmonary, or metabolic disease)	Eligibility	20
+severe	HP:0012828	8-14
+disease	DOID:4,OGMS:0000031	38-45
+disease	DOID:4,OGMS:0000031	123-130
+Pregnancy or lactation	Eligibility	21
+lactation	GO:0007595	13-22
+Current known active infection with human immunodeficiency virus (HIV), hepatitis B virus, or hepatitis C virus	Eligibility	22
+active	PATO:0002354	14-20
+immunodeficiency	HP:0002721	42-58
+virus	BAO:0000232	59-64
+virus	BAO:0000232	84-89
+virus	BAO:0000232	106-111
+hepatitis b	DOID:2043	72-83
+hepatitis c	DOID:1883	94-105
+Presence of conditions that could affect gastrointestinal absorption: Malabsorption syndrome, resection of the small bowel or stomach, and ulcerative colitis	Eligibility	23
+malabsorption	HP:0002024	70-83
+syndrome	DOID:225	84-92
+stomach	UBERON:0000945	126-133
+ulcerative colitis	HP:0100279,DOID:8577	139-157
+History of intolerance (such as Grade 3-4 infusion reaction) to trastuzumab	Eligibility	24
+history	BFO:0000182	0-7
+Known hypersensitivity to 5-fluorouracil or known dihydropyrimidine dehydrogenase deficiency	Eligibility	25
+hypersensitivity	GO:0002524,DOID:1205	6-22
+5-fluorouracil	CHEBI:46345	26-40
+dihydropyrimidine dehydrogenase deficiency	DOID:14218	50-92
+Current treatment with sorivudine or its chemically related analogs, such as brivudine	Eligibility	26
+sorivudine	CHEBI:32152	23-33
+Outcome Measurement:	Results	0
+Percentage of Participants With PD or Death as Assessed by an Independent Review Committee (IRC)	Results	1
+death	OAE:0000632	38-43
+PD was assessed by an IRC using modified Response Evaluation Criteria in Solid Tumors (RECIST). All measurable lesions up to a maximum of 5 per organ and 10 in total were identified as target lesions (TLs) and recorded at baseline. TLs should be selected on the basis of their size (those with the longest diameter) and their suitability for accurate repeated measurements either by imaging or clinically. A sum of the longest diameter for all TLs was calculated as baseline sum longest diameter (SLD). All other lesions (or sites of disease) should be identified as non-TLs and recorded at baseline. PD for TLs was defined as greater than or equal to (>/=) 20 percent (%) increase in SLD, taking as reference smallest SLD recorded since treatment started or appearance of 1 or more new lesions. PD for non-TLs was defined as appearance of 1 or more new lesions and/or unequivocal progression of existing non-TLs. Percentage of Participants with PD by IRC or death from any cause was reported.	Results	2
+organ	UBERON:0000062	144-149
+target	BAO:0003064	185-191
+size	PATO:0000117	277-281
+diameter	PATO:0001334	306-314
+diameter	PATO:0001334	427-435
+diameter	PATO:0001334	487-495
+disease	DOID:4,OGMS:0000031	534-541
+percent	UO:0000187	661-668
+percent	UO:0000187	914-921
+increase	BAO:0001251	673-681
+death	OAE:0000632	959-964
+Time frame: From the date of randomization through the data cut-off date of 14 Jan 2012 (up to 2 years, 11 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab Emtansine	Results	5
+Arm/Group Description: Participants received trastuzumab emtansine 3.6 mg/kg IV infusion over 30-90 minutes on Day 1 of each 21-day treatment cycle until PD (as assessed by the investigator), unmanageable toxicity, or study termination.	Results	6
+day	UO:0000033	111-114
+day	UO:0000033	128-131
+Overall Number of Participants Analyzed: 495	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  53.5	Results	9
+Results 2:	Results	10
+Arm/Group Title: Lapatinib + Capecitabine	Results	11
+lapatinib	CHEBI:49603	17-26
+capecitabine	CHEBI:31348	29-41
+Arm/Group Description: Participants received lapatinib 1250 mg (five 250 mg tablets) orally once daily during each 21-day cycle + capecitabine 1000 mg/m^2 orally twice daily on Days 1-14 of each 21-day treatment cycle until PD (as assessed by the investigator), unmanageable toxicity, or study termination. Participants of this group were allowed to cross over to receive trastuzumab emtansine based on statistically significant OS benefit in favor of trastuzumab emtansine demonstrated in second interim analysis.	Results	12
+lapatinib	CHEBI:49603	45-54
+capecitabine	CHEBI:31348	130-142
+group	CHEBI:24433	4-9
+group	CHEBI:24433	328-333
+second	UO:0000010	490-496
+Overall Number of Participants Analyzed: 496	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  61.3	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 92/490 (18.78%)	Adverse Events	1
+Anaemia * 1/490 (0.20%)	Adverse Events	2
+Anaemia of malignant disease * 0/490 (0.00%)	Adverse Events	3
+disease	DOID:4,OGMS:0000031	21-28
+Febrile neutropenia * 0/490 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/490 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 4/490 (0.82%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Angina pectoris * 0/490 (0.00%)	Adverse Events	7
+angina pectoris	HP:0001681	0-15
+Atrial fibrillation * 1/490 (0.20%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiomyopathy * 1/490 (0.20%)	Adverse Events	9
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Coronary artery disease * 0/490 (0.00%)	Adverse Events	10
+coronary artery disease	DOID:3393	0-23
+Pericardial effusion * 0/490 (0.00%)	Adverse Events	11
+pericardial effusion	HP:0001698,DOID:118	0-20
+Adverse Events 2:	Adverse Events	12
+Total: 99/488 (20.29%)	Adverse Events	13
+Anaemia * 1/488 (0.20%)	Adverse Events	14
+Anaemia of malignant disease * 1/488 (0.20%)	Adverse Events	15
+disease	DOID:4,OGMS:0000031	21-28
+Febrile neutropenia * 2/488 (0.41%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 1/488 (0.20%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 1/488 (0.20%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Angina pectoris * 1/488 (0.20%)	Adverse Events	19
+angina pectoris	HP:0001681	0-15
+Atrial fibrillation * 0/488 (0.00%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiomyopathy * 0/488 (0.00%)	Adverse Events	21
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Coronary artery disease * 1/488 (0.20%)	Adverse Events	22
+coronary artery disease	DOID:3393	0-23
+Pericardial effusion * 2/488 (0.41%)	Adverse Events	23
+pericardial effusion	HP:0001698,DOID:118	0-20

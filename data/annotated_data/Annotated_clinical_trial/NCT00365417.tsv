@@ -1,0 +1,231 @@
+INTERVENTION 1:	Intervention	0
+Neoadjuvant Study Treatment	Intervention	1
+Doxorubicin, cyclophosphamide, and bevacizumab followed by docetaxel and capecitabine	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	13-29
+capecitabine	CHEBI:31348	73-85
+Inclusion Criteria:	Eligibility	0
+Patients must be female.	Eligibility	1
+female	PATO:0000383	17-23
+The patient must be greater than/equal to 18 years old	Eligibility	2
+patient	HADO:0000008,OAE:0001817	4-11
+The diagnosis of invasive adenocarcinoma of the breast must have been made by core needle biopsy or limited incisional biopsy.	Eligibility	3
+adenocarcinoma	DOID:299	26-40
+breast	UBERON:0000310	48-54
+Patients must have clinical Stage IIIA, IIIB, or IIIC disease (American Joint Committee on Cancer [AJCC] staging criteria) with a primary breast tumor that is greater than/equal to 2.0 cm measured by clinical exam, unless the patient has inflammatory breast carcinoma, in which case measurable disease is not required.	Eligibility	4
+disease	DOID:4,OGMS:0000031	54-61
+disease	DOID:4,OGMS:0000031	294-301
+cancer	DOID:162	91-97
+breast	UBERON:0000310	138-144
+breast	UBERON:0000310	251-257
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	226-233
+inflammatory breast carcinoma	DOID:6263	238-267
+Patients must have the ability to swallow oral medication.	Eligibility	5
+The patient's Eastern Cooperative Oncology Group (ECOG) performance status must be 0 or 1.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	4-11
+group	CHEBI:24433	43-48
+At the time of study entry, blood counts must meet the following criteria:	Eligibility	7
+time	PATO:0000165	7-11
+blood	UBERON:0000178	28-33
+Absolute neutrophil count (ANC) must be greater than/equal to 1200/mm3.	Eligibility	8
+Platelet count must be greater than/equal to 100,000/mm^3.	Eligibility	9
+platelet count	CMO:0000029	0-14
+Hemoglobin must be greater than/equal to 10 g/dL.	Eligibility	10
+hemoglobin	CHEBI:35143	0-10
+The following criteria for evidence of adequate hepatic function must be met:	Eligibility	11
+function	BAO:0003117,BFO:0000034	56-64
+total bilirubin must be less than/equal to upper limit of normal (ULN) for the lab unless the patient has a grade 1 bilirubin elevation (greater than ULN to 1.5 x ULN) due to Gilbert's disease or similar syndrome involving slow conjugation of bilirubin; and	Eligibility	12
+patient	HADO:0000008,OAE:0001817	94-101
+x	LABO:0000148	161-162
+disease	DOID:4,OGMS:0000031	185-192
+syndrome	DOID:225	204-212
+alkaline phosphatase must be less than 2.5 x ULN for the lab; and	Eligibility	13
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	43-44
+aspartate aminotransferase (AST) must be less than/equal to 1.5 x ULN for the lab.	Eligibility	14
+aspartate	CHEBI:29995	0-9
+x	LABO:0000148	64-65
+Alkaline phosphatase and AST may not both be greater than the ULN. For example, if the alkaline phosphatase is greater than the ULN but less than/equal to 2.5 x ULN, then the AST must be less than/equal to the ULN. If the AST is greater than the ULN but less than/equal to 1.5 x ULN, then the alkaline phosphatase must be less than/equal to ULN.	Eligibility	15
+phosphatase	GO:0016791,BAO:0000295	9-20
+phosphatase	GO:0016791,BAO:0000295	96-107
+phosphatase	GO:0016791,BAO:0000295	302-313
+x	LABO:0000148	72-73
+x	LABO:0000148	159-160
+x	LABO:0000148	277-278
+Patients with either skeletal pain or alkaline phosphatase that is greater than ULN but less than/equal to 2.5 x ULN are eligible for inclusion in the study if a bone scan or positron emission tomography (PET) scan does not demonstrate metastatic disease. Patients with suspicious findings on bone scan or PET scan are eligible if suspicious findings are confirmed as benign by x-ray, magnetic resonance imaging (MRI), or biopsy.	Eligibility	16
+pain	HP:0012531	30-34
+phosphatase	GO:0016791,BAO:0000295	47-58
+x	LABO:0000148	111-112
+x	LABO:0000148	378-379
+positron	CHEBI:30225	175-183
+tomography	BAO:0002525	193-203
+disease	DOID:4,OGMS:0000031	247-254
+Patients with AST or alkaline phosphatase greater than ULN are eligible for inclusion in the study if liver imaging (computed tomography [CT], MRI, or PET scan) does not demonstrate metastatic disease and adequate hepatic function.	Eligibility	17
+phosphatase	GO:0016791,BAO:0000295	30-41
+liver	UBERON:0002107	102-107
+tomography	BAO:0002525	126-136
+ct	BAO:0002125	138-140
+ct	BAO:0002125	225-227
+disease	DOID:4,OGMS:0000031	193-200
+function	BAO:0003117,BFO:0000034	222-230
+The following criteria for evidence of adequate renal function must be met:	Eligibility	18
+function	BAO:0003117,BFO:0000034	54-62
+Serum creatinine less than/equal to ULN for the lab.	Eligibility	19
+creatinine	CHEBI:16737	6-16
+Calculated creatinine clearance must be greater than 50 mL/min.	Eligibility	20
+creatinine clearance	CMO:0000765	11-31
+Urine protein/creatinine (UPC) ratio must be less than 1.0.	Eligibility	21
+urine	UBERON:0001088	0-5
+upc	CHEBI:165829	26-29
+ratio	UO:0000190	31-36
+Patients must have their left ventricular ejection fraction (LVEF) assessed by multigated acquisition (MUGA) scan or echocardiogram within 3 months prior to study entry. The LVEF must be greater than/equal to the lower limit of normal (LLN) for the cardiac imaging facility performing the MUGA scan or echocardiogram. Note: If the cardiac imaging facility cannot provide a LLN, use 50% as the LLN value.	Eligibility	22
+left	HP:0012835	25-29
+ejection fraction	CMO:0000180	42-59
+Note: Since the pre-entry LVEF serves as the baseline for comparing subsequent LVEF assessments to determine if bevacizumab therapy can be continued following doxorubicin and cyclophosphamide (AC) and postoperatively, it is critical that this baseline study be an accurate assessment of the patient's LVEF. If the baseline LVEF is greater than 65%, the MUGA scan or echocardiogram must be repeated prior to study entry. The lower of the two LVEF values should be used as the baseline LVEF.	Eligibility	23
+doxorubicin	CHEBI:28748,BAO:0000639	159-170
+cyclophosphamide	CHEBI:4026	175-191
+patient	HADO:0000008,OAE:0001817	291-298
+Patients must have an electrocardiogram (EKG) within 3 months prior to study entry.	Eligibility	24
+Exclusion Criteria:	Eligibility	25
+Tumor determined to be strongly HER2-positive by immunohistochemistry (3+) or by fluorescent in situ hybridization (positive for gene amplification).	Eligibility	26
+immunohistochemistry	BAO:0000415	49-69
+gene	BAO:0000582	129-133
+Excisional biopsy for this primary tumor.	Eligibility	27
+Synchronous bilateral invasive breast cancer.	Eligibility	28
+bilateral	HP:0012832	12-21
+breast cancer	DOID:1612	31-44
+Surgical axillary staging procedure prior to study entry (Exceptions: 1) fine needle aspiration (FNA) of an axillary node is permitted for any patient, and 2) although not recommended, a sentinel lymph node biopsy for patients with clinically negative axillary nodes is permitted.)	Eligibility	29
+aspiration	HP:0002835	85-95
+patient	HADO:0000008,OAE:0001817	143-150
+patient	HADO:0000008,OAE:0001817	218-225
+lymph	UBERON:0002391	196-201
+History of any of the following cancers:	Eligibility	30
+history	BFO:0000182	0-7
+Ipsilateral breast cancer: invasive, ductal carcinoma in situ (DCIS) treated with any therapy other than excision	Eligibility	31
+breast cancer	DOID:1612	12-25
+ductal carcinoma in situ	HP:0030075,DOID:0060074	37-61
+Contralateral breast cancer: invasive within the past 5 years (Patients with history of DCIS or synchronous DCIS are eligible)	Eligibility	32
+breast cancer	DOID:1612	14-27
+history	BFO:0000182	77-84
+History of non-breast malignancies within the 5 years prior to study entry. Patients with the following cancers are eligible if diagnosed and treated within the previous 5 years: carcinoma in situ of the cervix, carcinoma in situ of the colon, melanoma in situ, and basal cell and squamous cell carcinoma of the skin.	Eligibility	33
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	179-188
+carcinoma	HP:0030731,DOID:305	212-221
+carcinoma	HP:0030731,DOID:305	295-304
+colon	UBERON:0001155	237-242
+melanoma	HP:0002861,DOID:1909	244-252
+squamous cell carcinoma of the skin	HP:0006739	281-316
+Prior therapy with anthracyclines, taxanes, capecitabine, or bevacizumab for any malignancy.	Eligibility	34
+capecitabine	CHEBI:31348	44-56
+Treatment including radiation therapy, chemotherapy, biotherapy, and/or hormonal therapy administered for the currently diagnosed breast cancer prior to study entry. The only exception is hormonal therapy, which may have been given for up to a total of 28 days anytime after diagnosis and before study entry. In such a case, hormonal therapy must stop at or before study entry and be re-started, if indicated, following chemotherapy.	Eligibility	35
+breast cancer	DOID:1612	130-143
+Any of the following cardiac conditions:	Eligibility	36
+angina pectoris that requires the use of anti-anginal medication;	Eligibility	37
+angina pectoris	HP:0001681	0-15
+history of documented congestive heart failure;	Eligibility	38
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	22-46
+serious cardiac arrhythmia requiring medication;	Eligibility	39
+arrhythmia	HP:0011675	16-26
+severe conduction abnormality;	Eligibility	40
+severe	HP:0012828	0-6
+valvular disease with documented cardiac function compromise; or	Eligibility	41
+disease	DOID:4,OGMS:0000031	9-16
+function	BAO:0003117,BFO:0000034	41-49
+uncontrolled hypertension defined as blood pressure greater than 150/90 on antihypertensive therapy. (Patients with hypertension that is well controlled on medication are eligible.)	Eligibility	42
+hypertension	HP:0000822,DOID:10763	13-25
+hypertension	HP:0000822,DOID:10763	116-128
+blood	UBERON:0000178	37-42
+History of myocardial infarction documented by elevated cardiac enzymes or persistent regional wall abnormalities on assessment of left ventricular (LV) function.	Eligibility	43
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+left	HP:0012835	131-135
+function	BAO:0003117,BFO:0000034	153-161
+History of transient ischemic attack (TIA) or cerebrovascular accident (CVA).	Eligibility	44
+history	BFO:0000182	0-7
+transient ischemic attack	HP:0002326,DOID:224	11-36
+History of other arterial thrombotic event within 12 months before study entry.	Eligibility	45
+history	BFO:0000182	0-7
+Symptomatic peripheral vascular disease.	Eligibility	46
+peripheral vascular disease	DOID:341	12-39
+Any significant bleeding within 6 months before study entry.	Eligibility	47
+Serious or non-healing wound, skin ulcers, or bone fracture.	Eligibility	48
+bone fracture	HP:0020110	46-59
+Gastroduodenal ulcer(s) determined by endoscopy to be active.	Eligibility	49
+ulcer	OAE:0004372	15-20
+active	PATO:0002354	54-60
+Invasive procedures defined as follows:	Eligibility	50
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to planned start of study therapy. (Note: Placement of a vascular access device is not considered a major surgical procedure.)	Eligibility	51
+Anticipation of need for major surgical procedures (other than the required breast surgery) during the course of the study.	Eligibility	52
+breast	UBERON:0000310	76-82
+surgery	OAE:0000067	83-90
+Known bleeding diathesis or coagulopathy. (Patients on warfarin with an in-range international normalized ratio [INR] [usually between 2 and 3] are eligible.)	Eligibility	53
+warfarin	CHEBI:10033	55-63
+ratio	UO:0000190	106-111
+Other nonmalignant systemic disease (cardiovascular, renal, hepatic, diabetes, etc.) that would preclude the patient from receiving study treatment or would prevent required follow-up.	Eligibility	54
+disease	DOID:4,OGMS:0000031	28-35
+patient	HADO:0000008,OAE:0001817	109-116
+Sensory/motor neuropathy greater than/equal to grade 2, as defined by the NCI's Common Terminology Criteria for Adverse Events Version 3.0 (CTCAE v3.0).	Eligibility	55
+neuropathy	DOID:870	14-24
+Conditions that would prohibit administration of corticosteroids.	Eligibility	56
+History of hypersensitivity reaction to drugs formulated with polysorbate 80.	Eligibility	57
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+polysorbate 80	CHEBI:53426	62-76
+Therapy with any hormonal agent such as raloxifene, tamoxifen, or other selective estrogen receptor modulator (SERM), either for osteoporosis or breast cancer prevention. Patients are eligible only if these medications are discontinued prior to study entry.	Eligibility	58
+raloxifene	CHEBI:8772	40-50
+tamoxifen	CHEBI:41774	52-61
+estrogen receptor modulator	CHEBI:50739	82-109
+osteoporosis	HP:0000939,DOID:11476	129-141
+breast cancer	DOID:1612	145-158
+Any sex hormonal therapy, e.g., birth control pills, ovarian hormonal replacement therapy, etc. These patients are eligible if this therapy is discontinued prior to study entry. (Women of reproductive potential must agree to use an effective non-hormonal method of contraception during study therapy and for at least 3 months after completion of bevacizumab.)	Eligibility	59
+Pregnancy or lactation at the time of study entry.	Eligibility	60
+lactation	GO:0007595	13-22
+time	PATO:0000165	30-34
+Use of any investigational agent within 4 weeks prior to enrollment in the study.	Eligibility	61
+Psychiatric or addictive disorders or other conditions that, in the opinion of the investigator, would preclude the patient from meeting the study requirements.	Eligibility	62
+patient	HADO:0000008,OAE:0001817	116-123
+Outcome Measurement:	Results	0
+Pathologic Complete Response (pCR) in the Breast	Results	1
+breast	UBERON:0000310	42-48
+Measured by no histologic evidence of invasive tumor cells in the surgical breast specimen	Results	2
+breast	UBERON:0000310	75-81
+Time frame: Approximately 7 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Neoadjuvant Study Treatment	Results	5
+Arm/Group Description: Doxorubicin, cyclophosphamide, and bevacizumab followed by docetaxel and capecitabine	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+cyclophosphamide	CHEBI:4026	36-52
+capecitabine	CHEBI:31348	96-108
+Overall Number of Participants Analyzed: 45	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  pCR in the breast: 4	Results	9
+breast	UBERON:0000310	42-48
+No pCR in the breast: 38	Results	10
+breast	UBERON:0000310	14-20
+No data available: 3	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 14/45 (31.11%)	Adverse Events	1
+Hemoglobin  1/45 (2.22%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Diarrhea  1/45 (2.22%)	Adverse Events	3
+diarrhea	HP:0002014,DOID:13250	0-8
+Esophagitis  1/45 (2.22%)	Adverse Events	4
+esophagitis	HP:0100633,DOID:11963	0-11
+Mucositis (clinical exam) - oral cavity  1/45 (2.22%)	Adverse Events	5
+mucositis	DOID:0080178	0-9
+oral cavity	UBERON:0000167	28-39
+Mucositis (functional/symptomatic) - esophagus  1/45 (2.22%)	Adverse Events	6
+mucositis	DOID:0080178	0-9
+esophagus	UBERON:0001043	37-46
+Mucositis (functional/symptomatic) - oral cavity  2/45 (4.44%)	Adverse Events	7
+mucositis	DOID:0080178	0-9
+oral cavity	UBERON:0000167	37-48
+Insomnia  1/45 (2.22%)	Adverse Events	8
+insomnia	HP:0100785	0-8
+Pain - abdominal NOS  2/45 (4.44%)	Adverse Events	9
+pain	HP:0012531	0-4
+Pain - back  1/45 (2.22%)	Adverse Events	10
+pain	HP:0012531	0-4

@@ -1,0 +1,201 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Ziv-afibercept)	Intervention	1
+Patients receive VEGF Trap IV over 1 hour on day 1. Courses repeat every 14 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+hour	UO:0000032	37-41
+day	UO:0000033	45-48
+day	UO:0000033	76-79
+disease	DOID:4,OGMS:0000031	99-106
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+Clinical evidence of metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	32-39
+No more than 2 prior chemotherapy regimens for metastatic disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	58-65
+Prior neoadjuvant or adjuvant chemotherapy allowed*	Eligibility	4
+adjuvant	CHEBI:60809	9-17
+adjuvant	CHEBI:60809	21-29
+At least 1 prior regimen (in any setting) must have included a taxane and/or an anthracycline	Eligibility	5
+taxane	CHEBI:36064	63-69
+anthracycline	CHEBI:48120	80-93
+Measurable disease, defined as  1 lesion whose longest diameter can be accurately measured per RECIST criteria	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+diameter	PATO:0001334	55-63
+No nonmeasurable disease, defined as all other lesions, including small lesions(longest diameter < 20 mm) and truly nonmeasurable lesions, including the following:	Eligibility	7
+disease	DOID:4,OGMS:0000031	17-24
+diameter	PATO:0001334	88-96
+Bone lesions	Eligibility	8
+Leptomeningeal disease	Eligibility	9
+disease	DOID:4,OGMS:0000031	15-22
+Ascites	Eligibility	10
+ascites	HP:0001541	0-7
+Pleural/pericardial effusion	Eligibility	11
+Inflammatory breast disease	Eligibility	12
+breast disease	DOID:3463	13-27
+Lymphangitis cutis/pulmonis	Eligibility	13
+lymphangitis	DOID:9317	0-12
+Abdominal masses that are not confirmed and followed by imaging techniques	Eligibility	14
+Cystic lesions	Eligibility	15
+Patients with HER2-positive tumors (3+ by immunohistochemistry or amplified by fluorescent in situ hybridization [FISH]) must have received  1 prior trastuzumab (Herceptin®)-containing regimen in either the adjuvant or metastatic setting, unless there was a contraindication	Eligibility	16
+immunohistochemistry	BAO:0000415	42-62
+adjuvant	CHEBI:60809	207-215
+contraindication	OAE:0000055	258-274
+No known CNS metastases	Eligibility	17
+No evidence of leptomeningeal involvement	Eligibility	18
+Hormone receptor status not specified	Eligibility	19
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Male or female	Eligibility	20
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	21
+ECOG performance status 0-1	Eligibility	22
+Life expectancy > 3 months	Eligibility	23
+WBC  3,000/mm³	Eligibility	24
+Absolute neutrophil count  1,500/mm³	Eligibility	25
+Platelet count  75,000/mm³	Eligibility	26
+platelet count	CMO:0000029	0-14
+Hemoglobin > 8.0 g/dL	Eligibility	27
+hemoglobin	CHEBI:35143	0-10
+Bilirubin  1.5 times upper limit of normal (ULN)	Eligibility	28
+Alkaline phosphatase  3 times ULN	Eligibility	29
+phosphatase	GO:0016791,BAO:0000295	9-20
+AST and ALT  2.5 times ULN	Eligibility	30
+Creatinine  1.5 times ULN	Eligibility	31
+creatinine	CHEBI:16737	0-10
+Urine protein:creatinine ratio < 1 OR urine protein < 500 mg by 24-hour urine collection	Eligibility	32
+urine	UBERON:0001088	0-5
+urine	UBERON:0001088	38-43
+urine	UBERON:0001088	72-77
+protein	CHEBI:36080,BAO:0000175	6-13
+protein	CHEBI:36080,BAO:0000175	44-51
+creatinine	CHEBI:16737	14-24
+ratio	UO:0000190	25-30
+Not pregnant or nursing	Eligibility	33
+Negative pregnancy test	Eligibility	34
+Fertile patients must use effective contraception during and for 6 months after completion of study treatment	Eligibility	35
+No significant traumatic injury within the past 4 weeks	Eligibility	36
+No history of allergy or hypersensitivity to Chinese hamster ovary cell products or other recombinant human antibodies, drug product excipients, or agents chemically or biologically similar to VEGF Trap	Eligibility	37
+history	BFO:0000182	3-10
+allergy	HP:0012393	14-21
+hypersensitivity	GO:0002524,DOID:1205	25-41
+ovary	UBERON:0000992	61-66
+drug	CHEBI:23888	120-124
+product	BAO:0003067	72-79
+product	BAO:0003067	125-132
+No abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within the past 28 days	Eligibility	38
+abscess	HP:0025615	71-78
+No nonhealing wound, fracture, or ulcer	Eligibility	39
+ulcer	OAE:0004372	34-39
+No stage III or IV invasive, nonbreast malignancy within the past 5 years	Eligibility	40
+No history of lung carcinoma of squamous cell type	Eligibility	41
+history	BFO:0000182	3-10
+lung carcinoma	DOID:3905	14-28
+No clinically significant cardiovascular disease, including any of the following:	Eligibility	42
+disease	DOID:4,OGMS:0000031	41-48
+Cerebrovascular accident or stroke within the past 6 months	Eligibility	43
+stroke	HP:0001297,DOID:6713	28-34
+Uncontrolled hypertension, defined as blood pressure (BP) > 150/100 mm Hg OR systolic BP > 180 mm Hg if diastolic blood pressure < 90 mm Hg on  2 separate occasions within the past 3 months	Eligibility	44
+hypertension	HP:0000822,DOID:10763	13-25
+blood	UBERON:0000178	38-43
+blood	UBERON:0000178	114-119
+diastolic blood pressure	CMO:0000005	104-128
+Myocardial infarction, coronary artery bypass graft, or unstable angina within the past 6 months	Eligibility	45
+myocardial infarction	HP:0001658,DOID:5844	0-21
+coronary artery	UBERON:0001621	23-38
+New York Heart Association class III or IV cardiovascular disease	Eligibility	46
+heart	UBERON:0000948	9-14
+disease	DOID:4,OGMS:0000031	58-65
+Serious cardiac arrhythmia requiring medication	Eligibility	47
+arrhythmia	HP:0011675	16-26
+Peripheral vascular disease  grade 2 within the past 6 months	Eligibility	48
+peripheral vascular disease	DOID:341	0-27
+Pulmonary embolism, deep vein thrombosis, or other thromboembolic event within the past 6 months	Eligibility	49
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+vein	UBERON:0001638	25-29
+thrombosis	DOID:0060903	30-40
+No evidence of bleeding diathesis or uncontrolled coagulopathy	Eligibility	50
+No active, unresolved infection	Eligibility	51
+active	PATO:0002354	3-9
+No serious concurrent medical condition that would preclude study participation	Eligibility	52
+condition	PDRO:0000129	30-39
+No other condition or circumstance that would preclude compliance with study requirements	Eligibility	53
+condition	PDRO:0000129	9-18
+See Disease Characteristics	Eligibility	54
+disease	DOID:4,OGMS:0000031	4-11
+Prior hormonal therapy in the neoadjuvant, adjuvant, or metastatic setting allowed	Eligibility	55
+adjuvant	CHEBI:60809	33-41
+adjuvant	CHEBI:60809	43-51
+No prior bevacizumab	Eligibility	56
+More than 4 weeks since prior chemotherapy, endocrine therapy, experimental drug therapy, or immunotherapy and recovered	Eligibility	57
+drug	CHEBI:23888	76-80
+More than 4 weeks since prior major surgery or open biopsy	Eligibility	58
+surgery	OAE:0000067	36-43
+More than 7 days since prior core biopsy	Eligibility	59
+More than 2 weeks since prior radiotherapy, except if to a nontarget lesion only	Eligibility	60
+radiotherapy	OAE:0000235	30-42
+Prior radiotherapy to a target lesion allowed only if there has been clear progression of the lesion since radiotherapy was completed	Eligibility	61
+radiotherapy	OAE:0000235	6-18
+radiotherapy	OAE:0000235	107-119
+target	BAO:0003064	24-30
+Prior single-dose palliative radiotherapy within the past 2 weeks allowed	Eligibility	62
+radiotherapy	OAE:0000235	29-41
+No concurrent major surgery	Eligibility	63
+surgery	OAE:0000067	20-27
+No concurrent trastuzumab	Eligibility	64
+Concurrent full-dose anticoagulants (e.g., warfarin) with PT INR > 1.5 allowed provided the following criteria are met:	Eligibility	65
+warfarin	CHEBI:10033	43-51
+INR in-range (usually between 2 and 3) on a stable dose of oral anticoagulant or on a stable dose of low molecular weight heparin	Eligibility	66
+stable	HP:0031915	44-50
+stable	HP:0031915	86-92
+anticoagulant	CHEBI:50249	64-77
+heparin	CHEBI:28304	122-129
+No active bleeding or pathological condition that carries a high risk of bleeding (e.g., tumor involving major vessels or known varices)	Eligibility	67
+active	PATO:0002354	3-9
+condition	PDRO:0000129	35-44
+No concurrent combination antiretroviral therapy for HIV-positive patients	Eligibility	68
+No concurrent participation in another investigational clinical trial	Eligibility	69
+No other concurrent chemotherapeutic agents, endocrine therapy, biologic agents, radiotherapy, or other nonprotocol antitumor therapy	Eligibility	70
+radiotherapy	OAE:0000235	81-93
+Outcome Measurement:	Results	0
+Proportion of Patients With Confirmed Tumor Response	Results	1
+Confirmed tumor response was defined as the total number of efficacy-evaluable patients who achieved a complete or partial response according to Response Evaluation Criteria in Solid Tumors (RECIST) criteria on 2 consecutive evaluations at least 8 weeks apart.	Results	2
+Time frame: Up to 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment (Ziv-afibercept)	Results	5
+Arm/Group Description: Patients receive VEGF Trap IV over 1 hour on day 1. Courses repeat every 14 days in the absence of disease progression or unacceptable toxicity.	Results	6
+hour	UO:0000032	60-64
+day	UO:0000033	68-71
+day	UO:0000033	99-102
+disease	DOID:4,OGMS:0000031	122-129
+Overall Number of Participants Analyzed: 21	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  Confirmed tumor partial response: 1	Results	9
+No Confirmed reponse: 20	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 10/21 (47.62%)	Adverse Events	1
+Left ventricular failure 2/21 (9.52%)	Adverse Events	2
+left	HP:0012835	0-4
+Sinus tachycardia 1/21 (4.76%)	Adverse Events	3
+sinus tachycardia	HP:0011703	0-17
+Abdominal pain 1/21 (4.76%)	Adverse Events	4
+abdominal pain	HP:0002027	0-14
+Disease progression 1/21 (4.76%)	Adverse Events	5
+disease	DOID:4,OGMS:0000031	0-7
+Platelet count decreased 1/21 (4.76%)	Adverse Events	6
+platelet count	CMO:0000029	0-14
+Anorexia 1/21 (4.76%)	Adverse Events	7
+anorexia	HP:0002039	0-8
+Headache 2/21 (9.52%)	Adverse Events	8
+headache	HP:0002315	0-8
+Ischemia cerebrovascular 1/21 (4.76%)	Adverse Events	9
+ischemia	DOID:326	0-8
+Proteinuria 1/21 (4.76%)	Adverse Events	10
+proteinuria	HP:0000093,DOID:576	0-11
+Dyspnea 2/21 (9.52%)	Adverse Events	11
+dyspnea	HP:0002094	0-7
+Hypertension 2/21 (9.52%)	Adverse Events	12
+hypertension	HP:0000822,DOID:10763	0-12

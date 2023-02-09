@@ -1,0 +1,163 @@
+INTERVENTION 1:	Intervention	0
+Phase Ib: Eribulin in Combination With PLX3397	Intervention	1
+eribulin	CHEBI:63587	10-18
+Phase Ib:	Intervention	2
+21 day treatment cycle: PLX3397 100-200 mg gelcaps, by mouth daily & Eribulin 1.4 mg/m2 intravenously, day 1 and 8	Intervention	3
+day	UO:0000033	3-6
+day	UO:0000033	103-106
+mouth	UBERON:0000165	55-60
+eribulin	CHEBI:63587	69-77
+Cohort 1: 600 mg/day	Intervention	4
+Cohort 2: 800 mg/day	Intervention	5
+Cohort 3: 1000 mg/day	Intervention	6
+Inclusion Criteria:	Eligibility	0
+Pathologically confirmed diagnosis of breast cancer with documented progressive disease.	Eligibility	1
+breast cancer	DOID:1612	38-51
+progressive	HP:0003676	68-79
+disease	DOID:4,OGMS:0000031	80-87
+Patients with stable brain metastases are eligible for this trial.	Eligibility	2
+stable	HP:0031915	14-20
+brain	UBERON:0000955	21-26
+At least one prior chemotherapy regimen for metastatic breast cancer. Prior treatment must be discontinued at least 2 weeks before treatment start.	Eligibility	3
+breast cancer	DOID:1612	55-68
+Concomitant therapy with bisphosphonates is allowed.	Eligibility	4
+Stable dose coumadin anticoagulation is allowed, providing that anticoagulation can be safely held to an International Normalized Ratio (INR) within normal range for the purpose of tumor biopsy. Low molecular weight heparin (LMWH is the preferred method of anticoagulation.	Eligibility	5
+stable	HP:0031915	0-6
+ratio	UO:0000190	130-135
+range	LABO:0000114	156-161
+heparin	CHEBI:28304	216-223
+Prothrombin time (PT)/International Normalized Ratio (INR) and partial thromboplastin time (PTT) within institutional normal limits within two weeks before initial biopsy.	Eligibility	6
+prothrombin time	CMO:0000211	0-16
+ratio	UO:0000190	47-52
+time	PATO:0000165	12-16
+time	PATO:0000165	86-90
+Measurable disease, as defined by RECIST guidelines or evaluable disease. Bone metastases must be evaluable.	Eligibility	7
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	65-72
+Disease amenable to core biopsy. Patients with pulmonary metastases as their only site of disease may enroll on this trial and will not undergo biopsy.	Eligibility	8
+disease	DOID:4,OGMS:0000031	0-7
+disease	DOID:4,OGMS:0000031	90-97
+site	BFO:0000029	82-86
+For Phase I: patients with human epidermal growth factor receptor 2 (HER2) overexpressing disease must have been previously treated with trastuzumab. Patients with HER2 overexpressing disease are not eligible for the Phase II trial.	Eligibility	9
+growth factor	BAO:0002024	43-56
+receptor	BAO:0000281	57-65
+disease	DOID:4,OGMS:0000031	90-97
+disease	DOID:4,OGMS:0000031	184-191
+Age eighteen years or older.	Eligibility	10
+age	PATO:0000011	0-3
+Eastern Cooperative Oncology Group (ECOG) performance status </= 2.	Eligibility	11
+group	CHEBI:24433	29-34
+Life expectancy of >/= 12 weeks.	Eligibility	12
+Patients with < grade 1 peripheral neuropathy are eligible for this trial.	Eligibility	13
+peripheral neuropathy	HP:0009830,DOID:870	24-45
+Adequate bone marrow reserve: Absolute Neutrophil Count (ANC) >/= 1000, platelets >/= 100,000.	Eligibility	14
+bone marrow	UBERON:0002371	9-20
+Adequate renal function: serum creatinine </= 1.5x upper limit of normal (ULN) OR calculated creatinine clearance  50 ml/min.	Eligibility	15
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	31-41
+creatinine	CHEBI:16737	93-103
+creatinine clearance	CMO:0000765	93-113
+Sodium, potassium, and chloride levels within institutional normal limits.	Eligibility	16
+chloride	CHEBI:17996	23-31
+Adequate hepatic function: aspartate aminotransferase (AST) and alanine aminotransferase (ALT) </= 2.5 x ULN, and total bilirubin </= 1.5x upper limit of normal. In patients with liver dysfunction due to hepatic metastases, AST and ALT are permitted to be </= 5 times the ULN.	Eligibility	17
+function	BAO:0003117,BFO:0000034	17-25
+function	BAO:0003117,BFO:0000034	188-196
+aspartate	CHEBI:29995	27-36
+alanine	CHEBI:16449	64-71
+x	LABO:0000148	103-104
+x	LABO:0000148	137-138
+liver	UBERON:0002107	179-184
+At baseline: Ejection fraction (EF)  50%, no evidence of QT prolongation, no history of congenital long QT syndrome, and no use of drugs known to increase the risk of Torsades de Point - patients may be eligible for study if the drug can be changed to another agent with less risk (such as changing from citalopram to an alternate antidepressant).	Eligibility	18
+ejection fraction	CMO:0000180	13-30
+history	BFO:0000182	77-84
+long qt syndrome	DOID:2843	99-115
+increase	BAO:0001251	146-154
+drug	CHEBI:23888	131-135
+drug	CHEBI:23888	229-233
+citalopram	CHEBI:3723	304-314
+antidepressant	CHEBI:35469	331-345
+Able to take oral medications and maintain hydration.	Eligibility	19
+Ability to give written informed consent and willingness to comply with the requirements of the protocol	Eligibility	20
+Women of child-bearing potential must agree to use an effective method of birth control during treatment and for six months after receiving their last dose of study drug	Eligibility	21
+drug	CHEBI:23888	165-169
+Specific inclusion criteria for Phase II	Eligibility	22
+Patients enrolling on the phase II portion of this trial must have ER, progesterone receptors (PR) and HER2 negative disease defined as less than 10% staining for ER and PR, and HER2 not amplified byFluorescent in situ hybridization (FISH), 0-1% by Immunohistochemistry (IHC), or 2+ by IHC and no evidence of amplification by FISH.	Eligibility	23
+progesterone	CHEBI:17026	71-83
+disease	DOID:4,OGMS:0000031	117-124
+immunohistochemistry	BAO:0000415	249-269
+Exclusion Criteria:	Eligibility	24
+Treatment with another chemotherapy or hormonal therapy within the past 2 weeks.	Eligibility	25
+Treatment with trastuzumab, bevacizumab or other targeted therapies within the past 2 weeks.	Eligibility	26
+Concurrent treatment with radiotherapy.	Eligibility	27
+radiotherapy	OAE:0000235	26-38
+Ongoing treatment with any other investigational therapy.	Eligibility	28
+Prior treatment with eribulin	Eligibility	29
+eribulin	CHEBI:63587	21-29
+Severe, concurrent illness including congestive heart failure, significant cardiac disease and uncontrolled hypertension, that would likely prevent the patient from being able to comply with the study protocol.	Eligibility	30
+severe	HP:0012828	0-6
+congestive heart failure	HP:0001635,DOID:6000	37-61
+disease	DOID:4,OGMS:0000031	83-90
+hypertension	HP:0000822,DOID:10763	108-120
+patient	HADO:0000008,OAE:0001817	152-159
+Inadequate bone marrow, renal, or hepatic function as defined above, or an active coagulopathy that precludes tissue biopsy.	Eligibility	31
+bone marrow	UBERON:0002371	11-22
+function	BAO:0003117,BFO:0000034	42-50
+active	PATO:0002354	75-81
+tissue	UBERON:0000479	110-116
+Pregnant or lactating women and women of child-bearing potential who are not using an effective method of birth control. Women of childbearing potential must undergo a serum pregnancy test within seven days of starting the study drug.	Eligibility	32
+drug	CHEBI:23888	229-233
+Outcome Measurement:	Results	0
+Maximum Tolerated Dose (MTD) of PLX3397 Given in Combination With Standard Dose Eribulin in Participants With Metastatic Breast Cancer (Phase 1b)	Results	1
+mtd	BAO:0001248	24-27
+eribulin	CHEBI:63587	80-88
+breast cancer	DOID:1612	121-134
+The MTD was determined using a standard dose-escalation schema with 3 to 6 participants per cohort (3+3 design) for participants enrolled in Phase 1b. The starting dose level of PLX3397 was 600 mg/day and was raised in successive cohorts up to a dose of 1000 mg/day. Participants in each Phase Ib cohort were followed for dose limiting toxicities (DLTs) within the first 21 days of combination therapy and had to receive at least 14 days of PLX3397 and 2 doses of eribulin during the first cycle in order to be considered evaluable for DLT (unless the missed doses were due to a DLT). A toxicity was considered a DLT if it was treatment related and met specific requirements for type of toxicity and severity assessed according to Common Terminology Criteria for Adverse Events (CTCAE) version 4. The MTD was defined as the lowest dose level at which 2 or more participants in a cohort experienced a DLT. The dose level just below the MTD was selected for Phase 2.	Results	2
+mtd	BAO:0001248	4-7
+mtd	BAO:0001248	801-804
+mtd	BAO:0001248	935-938
+eribulin	CHEBI:63587	464-472
+severity	HP:0012824	700-708
+Time frame: Up to Day 21	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	18-21
+Results 1:	Results	4
+Arm/Group Title: Phase Ib: Eribulin in Combination With PLX3397	Results	5
+eribulin	CHEBI:63587	27-35
+Arm/Group Description: Phase Ib:	Results	6
+21 day treatment cycle: PLX3397 100-200 mg gelcaps, by mouth daily & Eribulin 1.4 mg/m2 intravenously, day 1 and 8	Results	7
+day	UO:0000033	3-6
+day	UO:0000033	103-106
+mouth	UBERON:0000165	55-60
+eribulin	CHEBI:63587	69-77
+Cohort 1: 600 mg/day	Results	8
+Cohort 2: 800 mg/day	Results	9
+Cohort 3: 1000 mg/day	Results	10
+Overall Number of Participants Analyzed: 28	Results	11
+Measure Type: Number	Results	12
+Unit of Measure: miligrams per day  1,000	Results	13
+day	UO:0000033	31-34
+Adverse Events 1:	Adverse Events	0
+Total: 3/5 (60.00%)	Adverse Events	1
+Febrile neutropenia 3/5 (60.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation 0/5 (0.00%)	Adverse Events	3
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Myocardial Infarction 0/5 (0.00%)	Adverse Events	4
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Blurred Vision 0/5 (0.00%)	Adverse Events	5
+blurred vision	HP:0000622	0-14
+Dysphagia 0/5 (0.00%)	Adverse Events	6
+dysphagia	HP:0002015	0-9
+Fever 0/5 (0.00%)	Adverse Events	7
+fever	HP:0001945	0-5
+General disorders and administration site conditions - Other 0/5 (0.00%)	Adverse Events	8
+site	BFO:0000029	37-41
+Localized edema 0/5 (0.00%)	Adverse Events	9
+localized	HP:0012838,PATO:0000627	0-9
+edema	HP:0000969	10-15
+Non-cardiac chest pain 0/5 (0.00%)	Adverse Events	10
+chest pain	HP:0100749	12-22
+Pain 0/5 (0.00%)	Adverse Events	11
+pain	HP:0012531	0-4
+Sepsis 0/5 (0.00%)	Adverse Events	12
+sepsis	HP:0100806	0-6

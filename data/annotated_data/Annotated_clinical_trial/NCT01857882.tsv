@@ -1,0 +1,118 @@
+INTERVENTION 1:	Intervention	0
+Decision Support Workshop	Intervention	1
+The decision support workshop will be 2 hours in duration on the morning of the consultation and will be facilitated by a dedicated social worker from psycho-oncology.	Intervention	2
+duration	PATO:0001309	49-57
+Decision Support Workshop: Incorporates the key components of shared decision-making and decision support with the philosophy of delivering supportive care to cancer patients.	Intervention	3
+cancer	DOID:162	159-165
+Surgeon (30 mins): treatment options for breast reconstruction with indications/ contraindications, advantages / disadvantages, expected post-operative course, aesthetic result and complications with probabilities	Intervention	4
+breast	UBERON:0000310	41-47
+result	BAO:0000179	170-176
+Registered nurse (30 mins): preparing for surgery, postoperative recovery and how to navigate the health care system	Intervention	5
+surgery	OAE:0000067	42-49
+Social worker (30 mins): values clarification exercise	Intervention	6
+Breast reconstruction patient volunteer (30 mins) questions and answers about her personal experience	Intervention	7
+breast	UBERON:0000310	0-6
+patient	HADO:0000008,OAE:0001817	22-29
+INTERVENTION 2:	Intervention	8
+Standard Care	Intervention	9
+Routine pre-consultation education	Intervention	10
+Inclusion Criteria:	Eligibility	0
+Patient age: 18 - 79 years at the time of consultation	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+age	PATO:0000011	8-11
+time	PATO:0000165	34-38
+In situ or invasive biopsy confirmed breast adenocarcinoma	Eligibility	2
+breast adenocarcinoma	DOID:3458	37-58
+Considered for immediate or delayed breast reconstruction	Eligibility	3
+breast	UBERON:0000310	36-42
+First consultation for breast reconstruction	Eligibility	4
+breast	UBERON:0000310	23-29
+Exclusion Criteria:	Eligibility	5
+Chest wall or atypical breast malignancy (ex: angiosarcoma) or inflammatory adenocarcinoma of the breast	Eligibility	6
+chest	UBERON:0001443	0-5
+breast	UBERON:0000310	23-29
+breast	UBERON:0000310	98-104
+angiosarcoma	HP:0200058,DOID:0001816	46-58
+adenocarcinoma	DOID:299	76-90
+Completion any phase of reconstruction, or for revision reconstruction	Eligibility	7
+Patient cannot read or write in English.	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Cognitive impairment or uncontrolled psychiatric diagnosis	Eligibility	9
+cognitive impairment	HP:0100543	0-20
+Outcome Measurement:	Results	0
+Decision Self-efficacy Scale	Results	1
+Decision self-efficacy (DSE) scale is a prospectively designed instrument to evaluate patient self-confidence in decision-making, including shared decision-making. It has been validated among women facing treatment decisions for osteoporosis and used in cancer patients. Psychometric evaluation has shown high levels of internal consistency (Cronbach alpha 0.90). Decision self-efficacy is correlated with decision conflict subscales of feeling informed (r = 0.47) and supported (r = 0.45). This instrument has never been tested in the breast cancer or breast reconstruction population.	Results	2
+instrument	BAO:0003118	63-73
+instrument	BAO:0003118	496-506
+patient	HADO:0000008,OAE:0001817	86-93
+patient	HADO:0000008,OAE:0001817	261-268
+osteoporosis	HP:0000939,DOID:11476	229-241
+cancer	DOID:162	254-260
+cancer	DOID:162	543-549
+r	CHEBI:8735	41-42
+r	CHEBI:8735	67-68
+r	CHEBI:8735	143-144
+r	CHEBI:8735	206-207
+r	CHEBI:8735	227-228
+r	CHEBI:8735	236-237
+r	CHEBI:8735	259-260
+r	CHEBI:8735	280-281
+r	CHEBI:8735	324-325
+r	CHEBI:8735	343-344
+r	CHEBI:8735	392-393
+r	CHEBI:8735	393-394
+r	CHEBI:8735	449-450
+r	CHEBI:8735	455-456
+r	CHEBI:8735	474-475
+r	CHEBI:8735	480-481
+r	CHEBI:8735	500-501
+r	CHEBI:8735	515-516
+r	CHEBI:8735	537-538
+r	CHEBI:8735	548-549
+r	CHEBI:8735	551-552
+r	CHEBI:8735	554-555
+r	CHEBI:8735	560-561
+r	CHEBI:8735	567-568
+breast cancer	DOID:1612	536-549
+breast	UBERON:0000310	536-542
+breast	UBERON:0000310	553-559
+The total score is calculated by summing the 11 items, dividing by 11 and multiplying by 25. Scores range from 0 (extremely low self-efficacy) to 100 (extremely high self-efficacy).	Results	3
+range	LABO:0000114	100-105
+The mean and standard deviation (SD) were calculated at baseline and after the initial consultation. Change in score was defined as the difference in total score between baseline and after consultation.	Results	4
+mean	BAO:0002173	4-8
+standard deviation	BAO:0002176	13-31
+Time frame: Change from baseline decision self-efficacy at 1 week after surgical consultation	Results	5
+time	PATO:0000165	0-4
+week	UO:0000034	61-65
+Results 1:	Results	6
+Arm/Group Title: Decision Support Workshop	Results	7
+Arm/Group Description: The decision support workshop will be 2 hours in duration on the morning of the consultation and will be facilitated by a dedicated social worker from psycho-oncology.	Results	8
+duration	PATO:0001309	72-80
+Decision Support Workshop: Incorporates the key components of shared decision-making and decision support with the philosophy of delivering supportive care to cancer patients.	Results	9
+cancer	DOID:162	159-165
+Surgeon (30 mins): treatment options for breast reconstruction with indications/ contraindications, advantages / disadvantages, expected post-operative course, aesthetic result and complications with probabilities	Results	10
+breast	UBERON:0000310	41-47
+result	BAO:0000179	170-176
+Registered nurse (30 mins): preparing for surgery, postoperative recovery and how to navigate the health care system	Results	11
+surgery	OAE:0000067	42-49
+Social worker (30 mins): values clarification exercise	Results	12
+Breast reconstruction patient volunteer (30 mins) questions and answers about her personal experience	Results	13
+breast	UBERON:0000310	0-6
+patient	HADO:0000008,OAE:0001817	22-29
+Overall Number of Participants Analyzed: 20	Results	14
+Mean (Standard Deviation)	Results	15
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  5.7         (12.8)	Results	16
+Results 2:	Results	17
+Arm/Group Title: Standard Care	Results	18
+Arm/Group Description: Routine pre-consultation education	Results	19
+Overall Number of Participants Analyzed: 19	Results	20
+Mean (Standard Deviation)	Results	21
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  5.1         (9.8)	Results	22
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/0	Adverse Events	3

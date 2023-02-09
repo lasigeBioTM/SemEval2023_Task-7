@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Aprepitant	Intervention	1
+aprepitant	CHEBI:499361	0-10
+Loading dose of 125 mg capsule once a day for one day, then maintenance dose of 80 mg capsule daily through Day +4 of Bone Marrow Transplant	Intervention	2
+capsule	GO:0042603	23-30
+capsule	GO:0042603	86-93
+day	UO:0000033	38-41
+day	UO:0000033	50-53
+day	UO:0000033	108-111
+bone marrow	UBERON:0002371	118-129
+INTERVENTION 2:	Intervention	3
+Placebo (Sugar Pill)	Intervention	4
+Loading dose of 125 mg capsule once a day for one day, then maintenance dose of 80 mg capsule daily through Day +4 of Bone Marrow Transplant	Intervention	5
+capsule	GO:0042603	23-30
+capsule	GO:0042603	86-93
+day	UO:0000033	38-41
+day	UO:0000033	50-53
+day	UO:0000033	108-111
+bone marrow	UBERON:0002371	118-129
+Inclusion:	Eligibility	0
+18 years of age or greater	Eligibility	1
+age	PATO:0000011	12-15
+must be scheduled for an autologous or allogeneic bone marrow or peripheral stem cell transplant	Eligibility	2
+bone marrow	UBERON:0002371	50-61
+peripheral	HP:0030646	65-75
+stem cell transplant	OAE:0001532	76-96
+Eastern Cooperative Oncology Group(ECOG) performance status < or = 2	Eligibility	3
+group	CHEBI:24433	29-34
+patients must have signed informed consent	Eligibility	4
+must be able to swallow tablets and capsules	Eligibility	5
+must be receiving a cyclophosphamide containing regimen.	Eligibility	6
+cyclophosphamide	CHEBI:4026	20-36
+Exclusion:	Eligibility	7
+patient has known sensitivity to aprepitant, ondansetron, or dexamethasone	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+aprepitant	CHEBI:499361	33-43
+ondansetron	CHEBI:7773	45-56
+dexamethasone	CHEBI:41879	61-74
+patient has received another investigational drug in the past 30 days	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+drug	CHEBI:23888	45-49
+patient has had emesis or requires antiemetic agents in the 48 hours prior to beginning conditioning therapy	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+antiemetic	CHEBI:50919	35-45
+patient has taken neurokinin-1 antagonists for 14 days prior to enrollment	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+patient is pregnant, has a positive serum human chorionic gonadotropin(hCg) or is lactating	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+chorionic gonadotropin	CHEBI:81570	48-70
+patient has serum creatinine level > or = 2*ULN	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+serum creatinine level	CMO:0000057	12-34
+patient has severe hepatic insufficiency (Child-Pugh score >9)	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+severe	HP:0012828	12-18
+patient drinks > 5 drinks/day for the last year	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+year	UO:0000036	43-47
+patient with concurrent illness requiring systemic corticosteroid use other than planned dexamethasone during conditioning therapy	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+corticosteroid	CHEBI:50858	51-65
+dexamethasone	CHEBI:41879	89-102
+Outcome Measurement:	Results	0
+Number of Emesis Free Participants During the Study Period.	Results	1
+To compare the efficacy of aprepitant plus standard therapy to placebo plus standard therapy in control of nausea and vomiting during conditioning therapy for autologous or allogeneic hematopoietic stem cell transplantation (HSCT) as defined by the number of retch/emesis free days during the study period	Results	2
+efficacy	BAO:0000656	15-23
+aprepitant	CHEBI:499361	27-37
+nausea and vomiting	HP:0002017	107-126
+Time frame: Up to three weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Aprepitant	Results	5
+aprepitant	CHEBI:499361	17-27
+Arm/Group Description: Loading dose of 125 mg capsule once a day for one day, then maintenance dose of 80 mg capsule daily through Day +4 of Bone Marrow Transplant	Results	6
+capsule	GO:0042603	46-53
+capsule	GO:0042603	109-116
+day	UO:0000033	61-64
+day	UO:0000033	73-76
+day	UO:0000033	131-134
+bone marrow	UBERON:0002371	141-152
+Overall Number of Participants Analyzed: 20	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  13	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo (Sugar Pill)	Results	11
+Arm/Group Description: Loading dose of 125 mg capsule once a day for one day, then maintenance dose of 80 mg capsule daily through Day +4 of Bone Marrow Transplant	Results	12
+capsule	GO:0042603	46-53
+capsule	GO:0042603	109-116
+day	UO:0000033	61-64
+day	UO:0000033	73-76
+day	UO:0000033	131-134
+bone marrow	UBERON:0002371	141-152
+Overall Number of Participants Analyzed: 20	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Participants  5	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 2/20 (10.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/20 (0.00%)	Adverse Events	3

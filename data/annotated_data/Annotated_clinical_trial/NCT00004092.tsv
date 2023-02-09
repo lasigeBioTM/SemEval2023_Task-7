@@ -1,0 +1,201 @@
+INTERVENTION 1:	Intervention	0
+Arm I (ACT)	Intervention	1
+Patients receive 41.25 mg/m2 of doxorubicin IV over 24 hours on days -9 to -6, 100 mg/kg of cyclophosphamide IV over 2 hours on day -5, and 725 mg/m2 of paclitaxel IV over 24 hours on day -4. PBSC are reinfused on days -2 and 0. G-CSF at 5 ug/kg IV is administered beginning on day 0 and continuing until blood counts recover.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	32-43
+cyclophosphamide	CHEBI:4026	92-108
+day	UO:0000033	64-67
+day	UO:0000033	128-131
+day	UO:0000033	184-187
+day	UO:0000033	214-217
+day	UO:0000033	278-281
+paclitaxel	CHEBI:45863	153-163
+blood	UBERON:0000178	305-310
+filgrastim: Given IV or subcutaneously	Intervention	3
+cyclophosphamide: Given IV	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+doxorubicin hydrochloride: Given IV	Intervention	5
+doxorubicin hydrochloride	CHEBI:31522	0-25
+paclitaxel: Given IV	Intervention	6
+paclitaxel	CHEBI:45863	0-10
+peripheral blood stem cell transplantation: Patients receive autologous peripheral blood stem cells	Intervention	7
+peripheral	HP:0030646	0-10
+peripheral	HP:0030646	72-82
+blood	UBERON:0000178	11-16
+blood	UBERON:0000178	83-88
+INTERVENTION 2:	Intervention	8
+Arm II (STAMP V)	Intervention	9
+Patients receive cyclophosphamide 1.5 g/m2/day IV, carboplatin 200 mg/m2/day IV, and thiotepa 125 mg/m2/day IV over 24 hours on days -7 to -4. PBSC are reinfused on day -2 and 0 and G-CSF at 5ug/kg IV is administered as in arm I.	Intervention	10
+cyclophosphamide	CHEBI:4026	17-33
+carboplatin	CHEBI:31355	51-62
+thiotepa	CHEBI:9570	85-93
+day	UO:0000033	43-46
+day	UO:0000033	73-76
+day	UO:0000033	104-107
+day	UO:0000033	128-131
+day	UO:0000033	165-168
+filgrastim: Given IV or subcutaneously	Intervention	11
+carboplatin: Given IV	Intervention	12
+carboplatin	CHEBI:31355	0-11
+cyclophosphamide: Given IV	Intervention	13
+cyclophosphamide	CHEBI:4026	0-16
+thiotepa: Given IV	Intervention	14
+thiotepa	CHEBI:9570	0-8
+peripheral blood stem cell transplantation: Patients receive autologous peripheral blood stem cells	Intervention	15
+peripheral	HP:0030646	0-10
+peripheral	HP:0030646	72-82
+blood	UBERON:0000178	11-16
+blood	UBERON:0000178	83-88
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically proven high-risk primary breast cancer with less than 60% chance of progression-free survival of 3 years from diagnosis	Eligibility	1
+breast cancer	DOID:1612	40-53
+Stage II with at least 10 positive axillary nodes OR	Eligibility	2
+Stage IIIA or IIIB	Eligibility	3
+No histologically proven bone marrow metastasis	Eligibility	4
+bone marrow	UBERON:0002371	25-36
+No CNS metastasis	Eligibility	5
+Hormone receptor status:	Eligibility	6
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Hormone receptor status known	Eligibility	7
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Age:	Eligibility	9
+age	PATO:0000011	0-3
+Physiological age 60 or under	Eligibility	10
+age	PATO:0000011	14-17
+Menopausal status:	Eligibility	11
+Not specified	Eligibility	12
+Performance status:	Eligibility	13
+Karnofsky 80-100%	Eligibility	14
+Life expectancy:	Eligibility	15
+See Disease Characteristics	Eligibility	16
+disease	DOID:4,OGMS:0000031	4-11
+Hematopoietic:	Eligibility	17
+Neutrophil count at least 1,500/mm^3	Eligibility	18
+Platelet count at least 100,000/mm^3	Eligibility	19
+platelet count	CMO:0000029	0-14
+Hepatic:	Eligibility	20
+Bilirubin no greater than 1.5 mg/dL	Eligibility	21
+SGOT or SGPT no greater than 2 times upper limit of normal	Eligibility	22
+Hepatitis B antigen negative	Eligibility	23
+hepatitis b	DOID:2043	0-11
+antigen	CHEBI:59132	12-19
+Renal:	Eligibility	24
+Creatinine no greater than 1.2 mg/dL	Eligibility	25
+creatinine	CHEBI:16737	0-10
+Creatinine clearance at least 70 mL/min	Eligibility	26
+creatinine clearance	CMO:0000765	0-20
+No prior hemorrhagic cystitis	Eligibility	27
+hemorrhagic cystitis	DOID:0050859	9-29
+Cardiovascular:	Eligibility	28
+Ejection fraction at least 55% by MUGA	Eligibility	29
+ejection fraction	CMO:0000180	0-17
+No prior significant valvular heart disease or arrhythmia	Eligibility	30
+heart disease	DOID:114	30-43
+arrhythmia	HP:0011675	47-57
+Pulmonary:	Eligibility	31
+FEV_1 at least 60% of predicted	Eligibility	32
+pO_2 at least 85 mm Hg on room air	Eligibility	33
+pCO_2 at least 43 mm Hg on room air	Eligibility	34
+DLCO at least 60% lower limit of predicted	Eligibility	35
+Other:	Eligibility	36
+No other prior malignancy except squamous cell or basal cell skin cancer or stage I or carcinoma in situ of the cervix	Eligibility	37
+skin cancer	DOID:4159	61-72
+carcinoma	HP:0030731,DOID:305	87-96
+No CNS dysfunction that would preclude compliance	Eligibility	38
+HIV negative	Eligibility	39
+No sensitivity to E. coli-derived products	Eligibility	40
+Not pregnant	Eligibility	41
+Fertile patients must use effective contraception	Eligibility	42
+PRIOR CONCURRENT THERAPY:	Eligibility	43
+Biologic therapy:	Eligibility	44
+Not specified	Eligibility	45
+Chemotherapy:	Eligibility	46
+At least 4 weeks since prior chemotherapy	Eligibility	47
+No prior doxorubicin of total dose exceeding 240 mg/m^2	Eligibility	48
+doxorubicin	CHEBI:28748,BAO:0000639	9-20
+No prior paclitaxel of total dose of at least 750 mg/m^2	Eligibility	49
+paclitaxel	CHEBI:45863	9-19
+No more than 12 months since prior conventional-dose adjuvant chemotherapy	Eligibility	50
+adjuvant	CHEBI:60809	53-61
+Endocrine therapy:	Eligibility	51
+At least 4 weeks since prior hormonal therapy	Eligibility	52
+Radiotherapy:	Eligibility	53
+radiotherapy	OAE:0000235	0-12
+At least 4 weeks since prior radiotherapy	Eligibility	54
+radiotherapy	OAE:0000235	29-41
+No prior radiation to the left chest wall	Eligibility	55
+left	HP:0012835	26-30
+chest	UBERON:0001443	31-36
+Surgery:	Eligibility	56
+surgery	OAE:0000067	0-7
+Not specified	Eligibility	57
+Outcome Measurement:	Results	0
+Five-Year Relapse-free Survival	Results	1
+RFS events included death or disease recurrence. Patients who did not experience disease recurrence or death were censored at the date of last follow-up. Survival rates were estimates using the Kaplan-Meier method.	Results	2
+death	OAE:0000632	20-25
+death	OAE:0000632	103-108
+disease	DOID:4,OGMS:0000031	29-36
+disease	DOID:4,OGMS:0000031	81-88
+Time frame: Five years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I (ACT)	Results	5
+Arm/Group Description: Patients receive 41.25 mg/m2 of doxorubicin IV over 24 hours on days -9 to -6, 100 mg/kg of cyclophosphamide IV over 2 hours on day -5, and 725 mg/m2 of paclitaxel IV over 24 hours on day -4. PBSC are reinfused on days -2 and 0. G-CSF at 5 ug/kg IV is administered beginning on day 0 and continuing until blood counts recover.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	55-66
+cyclophosphamide	CHEBI:4026	115-131
+day	UO:0000033	87-90
+day	UO:0000033	151-154
+day	UO:0000033	207-210
+day	UO:0000033	237-240
+day	UO:0000033	301-304
+paclitaxel	CHEBI:45863	176-186
+blood	UBERON:0000178	328-333
+filgrastim: Given IV or subcutaneously	Results	7
+cyclophosphamide: Given IV	Results	8
+cyclophosphamide	CHEBI:4026	0-16
+doxorubicin hydrochloride: Given IV	Results	9
+doxorubicin hydrochloride	CHEBI:31522	0-25
+paclitaxel: Given IV	Results	10
+paclitaxel	CHEBI:45863	0-10
+peripheral blood stem cell transplantation: Patients receive autologous peripheral blood stem cells	Results	11
+peripheral	HP:0030646	0-10
+peripheral	HP:0030646	72-82
+blood	UBERON:0000178	11-16
+blood	UBERON:0000178	83-88
+Overall Number of Participants Analyzed: 21	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: percentage of participants  47        (24 to 67)	Results	14
+Results 2:	Results	15
+Arm/Group Title: Arm II (STAMP V)	Results	16
+Arm/Group Description: Patients receive cyclophosphamide 1.5 g/m2/day IV, carboplatin 200 mg/m2/day IV, and thiotepa 125 mg/m2/day IV over 24 hours on days -7 to -4. PBSC are reinfused on day -2 and 0 and G-CSF at 5ug/kg IV is administered as in arm I.	Results	17
+cyclophosphamide	CHEBI:4026	40-56
+carboplatin	CHEBI:31355	74-85
+thiotepa	CHEBI:9570	108-116
+day	UO:0000033	66-69
+day	UO:0000033	96-99
+day	UO:0000033	127-130
+day	UO:0000033	151-154
+day	UO:0000033	188-191
+filgrastim: Given IV or subcutaneously	Results	18
+carboplatin: Given IV	Results	19
+carboplatin	CHEBI:31355	0-11
+cyclophosphamide: Given IV	Results	20
+cyclophosphamide	CHEBI:4026	0-16
+thiotepa: Given IV	Results	21
+thiotepa	CHEBI:9570	0-8
+peripheral blood stem cell transplantation: Patients receive autologous peripheral blood stem cells	Results	22
+peripheral	HP:0030646	0-10
+peripheral	HP:0030646	72-82
+blood	UBERON:0000178	11-16
+blood	UBERON:0000178	83-88
+Overall Number of Participants Analyzed: 51	Results	23
+Measure Type: Number	Results	24
+Unit of Measure: percentage of participants  55        (41 to 68)	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 0/21 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

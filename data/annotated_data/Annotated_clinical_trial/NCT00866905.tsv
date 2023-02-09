@@ -1,0 +1,238 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone/Cyclophosphamide	Intervention	1
+Systemic Therapy followed by surgery and possible radiation therapy	Intervention	2
+surgery	OAE:0000067	29-36
+Inclusion Criteria:	Eligibility	0
+Female patients, age 18 years.	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	17-20
+Histologically confirmed invasive adenocarcinoma of the breast.	Eligibility	2
+adenocarcinoma	DOID:299	34-48
+breast	UBERON:0000310	56-62
+Primary palpable disease confined to a breast and axilla on	Eligibility	3
+disease	DOID:4,OGMS:0000031	17-24
+breast	UBERON:0000310	39-45
+physical examination. For patients without clinically suspicious	Eligibility	4
+physical examination	OAE:0004232	0-20
+axillary adenopathy, the primary tumor must be larger than 2 cm	Eligibility	5
+in diameter by physical exam or imaging studies (clinical T2-T3,	Eligibility	6
+diameter	PATO:0001334	3-11
+N0-N1, M0). For patients with clinically suspicious axillary	Eligibility	7
+adenopathy, the primary breast tumor can be any size (clinical	Eligibility	8
+breast	UBERON:0000310	24-30
+size	PATO:0000117	48-52
+T1-3, N1-2, M0). (T1N0M0 lesions are excluded.)	Eligibility	9
+excluded	HP:0040285	37-45
+Patients without clearly defined palpable breast mass or axillary	Eligibility	10
+breast mass	HP:0032408	42-53
+lymph nodes but radiographically measurable tumor masses are	Eligibility	11
+lymph	UBERON:0002391	0-5
+acceptable. Accepted procedures for measuring breast disease	Eligibility	12
+breast disease	DOID:3463	46-60
+are mammography, MRI, and breast ultrasound. This will need to	Eligibility	13
+breast	UBERON:0000310	26-32
+be re-evaluated after 3 cycles and prior to surgery.	Eligibility	14
+surgery	OAE:0000067	44-51
+Eastern Cooperative Oncology Group performance status (ECOG	Eligibility	15
+group	CHEBI:24433	29-34
+PS) 0-2.	Eligibility	16
+No metastatic disease, as documented by complete staging workup	Eligibility	17
+disease	DOID:4,OGMS:0000031	14-21
+6 weeks prior to initiation of study treatment.	Eligibility	18
+No previous treatment for breast cancer.	Eligibility	19
+breast cancer	DOID:1612	26-39
+HER2-negative tumor status. HER2-negative is defined as:	Eligibility	20
+Immunohistochemical (IHC) 0, IHC 1+ OR	Eligibility	21
+IHC 2+ or IHC 3+ must be confirmed as FISH (fluorescence in situ	Eligibility	22
+hybridization) negative (defined by ratio <2.2).	Eligibility	23
+ratio	UO:0000190	36-41
+Adequate hematologic function with:	Eligibility	24
+function	BAO:0003117,BFO:0000034	21-29
+Absolute neutrophil count (ANC) >1500/μL.	Eligibility	25
+Platelets 100,000/μL.	Eligibility	26
+Hemoglobin 10 g/dL.	Eligibility	27
+hemoglobin	CHEBI:35143	0-10
+Adequate hepatic function with:	Eligibility	28
+function	BAO:0003117,BFO:0000034	17-25
+Serum bilirubin  the institutional upper limit of normal (ULN).	Eligibility	29
+Aspartate aminotransferase (AST) 2.5 x institutional ULN.	Eligibility	30
+aspartate	CHEBI:29995	0-9
+x	LABO:0000148	37-38
+Alanine aminotransferase (ALT) 2.5 x institutional ULN.	Eligibility	31
+alanine	CHEBI:16449	0-7
+x	LABO:0000148	35-36
+Adequate renal function with serum creatinine 1.5 x ULN.	Eligibility	32
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	35-45
+x	LABO:0000148	50-51
+Estrogen and progesterone receptor status in the primary tumor	Eligibility	33
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	13-25
+receptor	BAO:0000281	26-34
+known or pending at the time of study registration.	Eligibility	34
+time	PATO:0000165	24-28
+Knowledge of the investigational nature of the study and ability to	Eligibility	35
+provide consent for study participation.	Eligibility	36
+For patients who had, or will have sentinel lymph node and/or	Eligibility	37
+lymph	UBERON:0002391	44-49
+axillary dissection prior to initiation of study treatment, completion	Eligibility	38
+at least 4 weeks prior to starting study treatment and well-healed	Eligibility	39
+wound	Eligibility	40
+Bilateral, synchronous breast cancer is allowed if one primary	Eligibility	41
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	23-36
+tumor meets the inclusion criteria.	Eligibility	42
+Sufficient archived breast tumor specimen available at baseline	Eligibility	43
+breast	UBERON:0000310	20-26
+for the Oncotype DX assay.	Eligibility	44
+-	Eligibility	45
+Exclusion Criteria:	Eligibility	46
+Inflammatory breast cancer.	Eligibility	47
+breast cancer	DOID:1612	13-26
+Peripheral neuropathy (motor or sensory)  grade 1 by the	Eligibility	48
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Common Terminology Criteria for Adverse Events version 3.0	Eligibility	49
+(CTCAE v 3.0).	Eligibility	50
+Prior radiation that included 30% of major bone marrow containing	Eligibility	51
+bone marrow	UBERON:0002371	43-54
+areas (pelvis, lumbar, spine).	Eligibility	52
+Chronic use of cytochrome P450 (CYP) 3A4 inhibitors and use of	Eligibility	53
+chronic	HP:0011010	0-7
+cytochrome p450	CHEBI:38559	15-30
+the following strong CYP3A4 inhibitors: ketoconazole,	Eligibility	54
+ketoconazole	CHEBI:47519,BAO:0000796	40-52
+itraconazole, clarithromycin, atazanavir, nefazodone, saquinavir,	Eligibility	55
+itraconazole	CHEBI:6076	0-12
+clarithromycin	CHEBI:3732	14-28
+atazanavir	CHEBI:37924	30-40
+nefazodone	CHEBI:7494	42-52
+saquinavir	CHEBI:63621	54-64
+telithromycin, ritonavir, amprenavir, indinavir, nelfinavir,	Eligibility	56
+telithromycin	CHEBI:29688	0-13
+ritonavir	CHEBI:45409	15-24
+amprenavir	CHEBI:40050	26-36
+indinavir	CHEBI:44032	38-47
+nelfinavir	CHEBI:7496	49-59
+delavirdine, and voriconazole. Use of these agents should be	Eligibility	57
+delavirdine	CHEBI:119573	0-11
+voriconazole	CHEBI:10023	17-29
+discontinued at least 72 hours prior to initiation of study treatment.	Eligibility	58
+Chemotherapy within 5 years of starting study treatment except	Eligibility	59
+for low doses of agents used for anti-inflammatory indications	Eligibility	60
+such as rheumatoid arthritis, psoriasis, and connective tissue	Eligibility	61
+rheumatoid arthritis	HP:0001370,DOID:7148	8-28
+psoriasis	DOID:8893	30-39
+connective tissue	UBERON:0002384	45-62
+disorders. Although such doses and schedules cannot result in	Eligibility	62
+result	BAO:0000179	52-58
+myelosuppression, patients must discontinue this therapy while	Eligibility	63
+they are receiving study treatment.	Eligibility	64
+Known or suspected hypersensitivity to Cremophor®EL	Eligibility	65
+hypersensitivity	GO:0002524,DOID:1205	19-35
+(polyoxyethylated castor oil) or a drug formulated in	Eligibility	66
+castor oil	CHEBI:140618	18-28
+drug	CHEBI:23888	35-39
+Cremophor®EL such as paclitaxel, or any other agent given in the	Eligibility	67
+paclitaxel	CHEBI:45863	21-31
+course of this study.	Eligibility	68
+Pregnancy or breast-feeding. A negative serum pregnancy test	Eligibility	69
+within 7 days prior to first study treatment (Day 1, Cycle 1) for all	Eligibility	70
+day	UO:0000033	9-12
+day	UO:0000033	46-49
+women of childbearing potential is required. Patients of	Eligibility	71
+childbearing potential must agree to use a birth control method	Eligibility	72
+that is approved by their study physician while receiving study	Eligibility	73
+treatment and for 3 weeks after their last dose of study treatment.	Eligibility	74
+Patients must agree to not breast-feed while receiving study	Eligibility	75
+treatment.	Eligibility	76
+Concurrent treatment with an ovarian hormonal replacement	Eligibility	77
+therapy or with hormonal agents such as raloxifene, tamoxifen or	Eligibility	78
+raloxifene	CHEBI:8772	40-50
+tamoxifen	CHEBI:41774	52-61
+other selective estrogen receptor modulator (SERM). Patients	Eligibility	79
+estrogen receptor modulator	CHEBI:50739	16-43
+must have discontinued use of such agents prior to beginning	Eligibility	80
+study treatment.	Eligibility	81
+History of malignancy treated with curative intent within the	Eligibility	82
+history	BFO:0000182	0-7
+previous 5 years with the exception of skin cancer, cervical	Eligibility	83
+skin cancer	DOID:4159	39-50
+carcinoma in situ, or follicular thyroid cancer. Patients with	Eligibility	84
+carcinoma	HP:0030731,DOID:305	0-9
+cancer	DOID:162	41-47
+previous invasive cancers (including breast cancer) are eligible if	Eligibility	85
+breast cancer	DOID:1612	37-50
+the treatment was completed more than 5 years prior to initiating	Eligibility	86
+current study treatment, and there is no evidence of recurrent	Eligibility	87
+recurrent	HP:0031796	53-62
+disease.	Eligibility	88
+disease	DOID:4,OGMS:0000031	0-7
+Uncontrolled intercurrent illness including (but not limited to)	Eligibility	89
+ongoing or active infection.	Eligibility	90
+active	PATO:0002354	11-17
+Chronic treatment with corticosteroid unless treatment was begun	Eligibility	91
+chronic	HP:0011010	0-7
+corticosteroid	CHEBI:50858	23-37
+>6 months prior to study treatment and is at a low dose (  20 mg	Eligibility	92
+methylprednisolone or equivalent).	Eligibility	93
+Use of any investigational agent within 30 days of administration	Eligibility	94
+of the first dose of study drug.	Eligibility	95
+drug	CHEBI:23888	27-31
+Requirement for radiation therapy concurrent with neoadjuvant	Eligibility	96
+study chemotherapy.	Eligibility	97
+Concurrent treatment with any anti-cancer therapy other than	Eligibility	98
+those agents used in this study.	Eligibility	99
+Inability or unwillingness to comply with study procedures	Eligibility	100
+including follow-up visits.	Eligibility	101
+Mental condition or psychiatric disorder that would prevent patient	Eligibility	102
+condition	PDRO:0000129	7-16
+disorder	OGMS:0000045	32-40
+patient	HADO:0000008,OAE:0001817	60-67
+comprehension of the nature, scope, and possible consequences	Eligibility	103
+of the study or that would limit compliance with study	Eligibility	104
+requirements.	Eligibility	105
+Any other disease(s), metabolic dysfunction, or findings from a	Eligibility	106
+disease	DOID:4,OGMS:0000031	10-17
+physical examination or clinical laboratory test result that would	Eligibility	107
+physical examination	OAE:0004232	0-20
+clinical laboratory test	OAE:0000077	24-48
+result	BAO:0000179	49-55
+cause reasonable suspicion of a disease or condition that	Eligibility	108
+disease	DOID:4,OGMS:0000031	32-39
+condition	PDRO:0000129	43-52
+contraindicates the use of study drugs, that may affect the	Eligibility	109
+interpretation of the results, or that renders the patient at high risk	Eligibility	110
+patient	HADO:0000008,OAE:0001817	51-58
+from treatment complications	Eligibility	111
+-	Eligibility	112
+Outcome Measurement:	Results	0
+Pathologic Complete Response Rate (pCR)	Results	1
+rate	BAO:0080019	29-33
+Pathologic complete response (pCR) rate will be determined by the pathologic evaluation of breast and lymph node samples collected at the time of surgery. pCR is defined as no residual disease in breast or lymph nodes in resected tissue samples.	Results	2
+rate	BAO:0080019	35-39
+breast	UBERON:0000310	91-97
+breast	UBERON:0000310	196-202
+lymph	UBERON:0002391	102-107
+lymph	UBERON:0002391	206-211
+time	PATO:0000165	138-142
+surgery	OAE:0000067	146-153
+disease	DOID:4,OGMS:0000031	185-192
+tissue	UBERON:0000479	230-236
+Time frame: 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ixabepilone/Cyclophosphamide	Results	5
+Arm/Group Description: Systemic Therapy followed by surgery and possible radiation therapy	Results	6
+surgery	OAE:0000067	52-59
+Overall Number of Participants Analyzed: 161	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  27	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 6/168 (3.57%)	Adverse Events	1
+FEBRILE NEUTROPENIA 3/168 (1.79%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+ENTERITIS 1/168 (0.60%)	Adverse Events	3
+PERIPHERAL NEUROPATHY 2/168 (1.19%)	Adverse Events	4
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+DEPRESSION 1/168 (0.60%)	Adverse Events	5
+depression	HP:0000716	0-10

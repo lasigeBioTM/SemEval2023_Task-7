@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Intraductal Arm	Intervention	1
+Participants received intraductal administration of dextrose or dextrose with pegylated liposomal doxorubicin hydrochloride (or PLD) prior to conventional surgery for breast cancer.	Intervention	2
+doxorubicin hydrochloride	CHEBI:31522	98-123
+surgery	OAE:0000067	155-162
+breast cancer	DOID:1612	167-180
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed infiltrating carcinoma of the breast meeting any of the following criteria:	Eligibility	1
+carcinoma	HP:0030731,DOID:305	38-47
+breast	UBERON:0000310	55-61
+T1-3, any N disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	12-19
+Proven ductal carcinoma in situ	Eligibility	3
+ductal carcinoma in situ	HP:0030075,DOID:0060074	7-31
+Unresected disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+Planned mastectomy as definitive surgical procedure	Eligibility	5
+Known or suspected metastatic disease allowed provided mastectomy is planned	Eligibility	6
+disease	DOID:4,OGMS:0000031	30-37
+Nonpalpable tumor allowed (e.g., initial T2-3 tumor that responded to preoperative therapy)	Eligibility	7
+No inflammatory breast cancer or other T4 features	Eligibility	8
+breast cancer	DOID:1612	16-29
+Successful baseline ductogram	Eligibility	9
+Baseline nipple aspiration procedure must identify a duct productive of nipple aspirate fluid	Eligibility	10
+aspiration	HP:0002835	16-26
+duct	UBERON:0000058	53-57
+duct	UBERON:0000058	61-65
+No severe nipple retraction	Eligibility	11
+severe	HP:0012828	3-9
+Hormone receptor status not specified	Eligibility	12
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+Female patients	Eligibility	14
+female	PATO:0000383	0-6
+Menopausal status not specified	Eligibility	15
+ECOG performance status 0-2	Eligibility	16
+Absolute neutrophil count 1,500/mm^3	Eligibility	17
+Platelet count  100,000/mm^3	Eligibility	18
+platelet count	CMO:0000029	0-14
+Hemoglobin  9.0 g/dL	Eligibility	19
+hemoglobin	CHEBI:35143	0-10
+Creatinine  2 times upper limit of normal (ULN)	Eligibility	20
+creatinine	CHEBI:16737	0-10
+Bilirubin  2 times ULN	Eligibility	21
+AST and ALT  2.5 times ULN	Eligibility	22
+Not pregnant or nursing	Eligibility	23
+Negative pregnancy test	Eligibility	24
+Fertile patients must use effective contraception	Eligibility	25
+No significant history of severe allergy to iodinated contrast material or debilitating anxiety that may not allow for a ductogram	Eligibility	26
+history	BFO:0000182	15-22
+severe	HP:0012828	26-32
+allergy	HP:0012393	33-40
+anxiety	HP:0000739,DOID:2030	88-95
+PRIOR CONCURRENT THERAPY:	Eligibility	27
+See Disease Characteristics	Eligibility	28
+disease	DOID:4,OGMS:0000031	4-11
+Prior preoperative chemotherapy, trastuzumab (Herceptin®), or hormonal therapy allowed provided it was completed 7-14 days prior to study treatment	Eligibility	29
+No prior radiation therapy, excisional biopsy, breast reduction, areolar surgery, or breast implant (present or past history of implant that was removed)	Eligibility	30
+breast	UBERON:0000310	47-53
+breast	UBERON:0000310	85-91
+surgery	OAE:0000067	73-80
+present	PATO:0000467	101-108
+history	BFO:0000182	117-124
+No other prior procedure that may have altered the breast ductal system in the ipsilateral breast	Eligibility	31
+breast	UBERON:0000310	51-57
+breast	UBERON:0000310	91-97
+No other concurrent chemotherapy, radiotherapy, endocrine therapy, or biologic agents for breast cancer	Eligibility	32
+radiotherapy	OAE:0000235	34-46
+breast cancer	DOID:1612	90-103
+No other concurrent investigational drugs	Eligibility	33
+Concurrent bisphosphonates allowed	Eligibility	34
+Outcome Measurement:	Results	0
+Maximum Tolerated Dose (MTD)	Results	1
+mtd	BAO:0001248	24-27
+Maximum tolerated dose (MTD) of administering pegylated liposomal doxorubicin (PLD) into one duct of women with breast cancer awaiting mastectomy. MTD reflects highest dose of drug that did not cause Dose Limiting Toxicity (DLT) in more than 30% of patients.	Results	2
+mtd	BAO:0001248	24-27
+mtd	BAO:0001248	147-150
+doxorubicin	CHEBI:28748,BAO:0000639	66-77
+duct	UBERON:0000058	93-97
+breast cancer	DOID:1612	112-125
+drug	CHEBI:23888	176-180
+Time frame: Until up to 30 days after PLD administration	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Intraductal Arm	Results	5
+Arm/Group Description: Participants received intraductal administration of dextrose or dextrose with pegylated liposomal doxorubicin hydrochloride (or PLD) prior to conventional surgery for breast cancer.	Results	6
+doxorubicin hydrochloride	CHEBI:31522	121-146
+surgery	OAE:0000067	178-185
+breast cancer	DOID:1612	190-203
+Overall Number of Participants Analyzed: 15	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: milligrams  10	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1
+Dermatology other (right areolar eschar)  [1]0/3 (0.00%)	Adverse Events	2
+right	HP:0012834	19-24

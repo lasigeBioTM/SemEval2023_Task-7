@@ -1,0 +1,132 @@
+INTERVENTION 1:	Intervention	0
+Arm I	Intervention	1
+Patients receive donepezil hydrochloride PO QD.	Intervention	2
+donepezil hydrochloride	CHEBI:4696	17-40
+donepezil hydrochloride: Given PO	Intervention	3
+donepezil hydrochloride	CHEBI:4696	0-23
+INTERVENTION 2:	Intervention	4
+Arm II	Intervention	5
+Patients receive placebo PO QD.	Intervention	6
+Placebo: Given PO	Intervention	7
+INCLUSION CRITERIA:	Eligibility	0
+Adults >18 years old.	Eligibility	1
+Female with history of invasive breast cancer	Eligibility	2
+female	PATO:0000383	0-6
+history	BFO:0000182	12-19
+breast cancer	DOID:1612	32-45
+Must have completed adjuvant chemotherapy between 1 and 5 years prior to registration	Eligibility	3
+adjuvant	CHEBI:60809	20-28
+Received at least 4 cycles of cytotoxic chemotherapy	Eligibility	4
+Documentation of prior chemotherapy	Eligibility	5
+Patients receiving ongoing hormonal therapy for breast cancer must be on the same hormonal agent for at least 3 months prior to study registration and continue for the duration of the study (9 months)	Eligibility	6
+breast cancer	DOID:1612	48-61
+duration	PATO:0001309	168-176
+Karnofsky Performance Status must be > 60 or ECOG 0-2.	Eligibility	7
+Use of psychotropic medications (anti-depressants, anxiolytics, sleeping aids, narcotics) is permitted. Patient will be asked to list any that have been taken within the last 3 days on the recent medication sheet.	Eligibility	8
+patient	HADO:0000008,OAE:0001817	104-111
+Patients must be able to give informed consent to participate in the study, including signing the consent form.	Eligibility	9
+Self-reported cognitive disruption (FACT-Cog Version 3 Perceived Cognitive Impairments sub-score of < 63)	Eligibility	10
+Negative serum pregnancy test within 10 days prior to registration for women of child-bearing potential.	Eligibility	11
+EXCLUSION CRITERIA:	Eligibility	12
+Evidence or suspected recurrent or metastatic disease	Eligibility	13
+recurrent	HP:0031796	22-31
+disease	DOID:4,OGMS:0000031	46-53
+History of dementia, Alzheimer's disease, multi-infarct dementia or CVA (history of transient ischemic attack (TIA is allowed)	Eligibility	14
+history	BFO:0000182	0-7
+history	BFO:0000182	73-80
+dementia	HP:0000726,DOID:1307	11-19
+dementia	HP:0000726,DOID:1307	56-64
+disease	DOID:4,OGMS:0000031	33-40
+transient ischemic attack	HP:0002326,DOID:224	84-109
+Current use of donepezil, galantamine, rivastigmine, tacrine, memantine, methylphenidate, dextroamphetamine, or any other specific cognition enhancing drugs.are not allowed. For patients who have used these medications they must not have used them within 4 weeks prior to registration.	Eligibility	15
+donepezil	CHEBI:53289	15-24
+rivastigmine	CHEBI:8874	39-51
+tacrine	CHEBI:187896	53-60
+memantine	CHEBI:64312	62-71
+methylphenidate	CHEBI:6887	73-88
+cognition	GO:0050890	131-140
+Patients may not currently be taking Ketoconazole or Quinidine	Eligibility	16
+ketoconazole	CHEBI:47519,BAO:0000796	37-49
+quinidine	CHEBI:28593,BAO:0000797	53-62
+Hypersensitivity to donepezil.	Eligibility	17
+hypersensitivity	GO:0002524,DOID:1205	0-16
+donepezil	CHEBI:53289	20-29
+Use of investigational medications within the last 30 days.	Eligibility	18
+Prior brain metastasis	Eligibility	19
+brain	UBERON:0000955	6-11
+Traumatic brain injury, multiple sclerosis or recent myocardial infarction	Eligibility	20
+brain	UBERON:0000955	10-15
+multiple sclerosis	DOID:2377	24-42
+myocardial infarction	HP:0001658,DOID:5844	53-74
+History of schizophrenia, psychosis or substance abuse	Eligibility	21
+history	BFO:0000182	0-7
+schizophrenia	HP:0100753,DOID:5419	11-24
+psychosis	HP:0000709	26-35
+substance abuse	DOID:302	39-54
+Untreated current severe depression. (Currently treated depression is permitted if treatment is stable.)	Eligibility	22
+severe	HP:0012828	18-24
+depression	HP:0000716	25-35
+depression	HP:0000716	56-66
+stable	HP:0031915	96-102
+Acute severe fatigue, chronic fatigue syndrome or fibromyalgia.	Eligibility	23
+acute	HP:0011009,PATO:0000389	0-5
+severe	HP:0012828	6-12
+fatigue	HP:0012378	13-20
+fatigue	HP:0012378	30-37
+chronic fatigue syndrome	DOID:8544	22-46
+fibromyalgia	DOID:631	50-62
+History of hepatic or renal dysfunction or disease	Eligibility	24
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	43-50
+Pregnant women are excluded from this study. The effects of donepezil on the developing human fetus at the recommended therapeutic dose are unknown. For this reason and because donepezil is known to be teratogenic, women of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her study physician immediately.	Eligibility	25
+excluded	HP:0040285	19-27
+donepezil	CHEBI:53289	60-69
+donepezil	CHEBI:53289	177-186
+duration	PATO:0001309	380-388
+It is unknown whether donepezil is excreted in breast milk, for this reason women who are currently breast-feeding are not eligible for this study.	Eligibility	26
+donepezil	CHEBI:53289	22-31
+breast	UBERON:0000310	47-53
+breast	UBERON:0000310	100-106
+Outcome Measurement:	Results	0
+Retention	Results	1
+Retention is the percentage of participants who stay in the study for 24 weeks.	Results	2
+Time frame: 24 Weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I	Results	5
+Arm/Group Description: Patients receive donepezil hydrochloride PO QD.	Results	6
+donepezil hydrochloride	CHEBI:4696	40-63
+donepezil hydrochloride: Given PO	Results	7
+donepezil hydrochloride	CHEBI:4696	0-23
+Overall Number of Participants Analyzed: 31	Results	8
+Mean (Standard Error)	Results	9
+mean	BAO:0002173	0-4
+Unit of Measure: percentage of participants  71.0         (8.3)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm II	Results	12
+Arm/Group Description: Patients receive placebo PO QD.	Results	13
+Placebo: Given PO	Results	14
+Overall Number of Participants Analyzed: 31	Results	15
+Mean (Standard Error)	Results	16
+mean	BAO:0002173	0-4
+Unit of Measure: percentage of participants  80.7         (7.2)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 2/28 (7.14%)	Adverse Events	1
+Insomnia 2/28 (7.14%)	Adverse Events	2
+insomnia	HP:0100785	0-8
+Pain: Chest Wall 0/28 (0.00%)	Adverse Events	3
+pain	HP:0012531	0-4
+chest	UBERON:0001443	6-11
+Muscle Cramps 0/28 (0.00%)	Adverse Events	4
+Headache 1/28 (3.57%)	Adverse Events	5
+headache	HP:0002315	0-8
+Adverse Events 2:	Adverse Events	6
+Total: 1/30 (3.33%)	Adverse Events	7
+Insomnia 0/30 (0.00%)	Adverse Events	8
+insomnia	HP:0100785	0-8
+Pain: Chest Wall 1/30 (3.33%)	Adverse Events	9
+pain	HP:0012531	0-4
+chest	UBERON:0001443	6-11
+Muscle Cramps 1/30 (3.33%)	Adverse Events	10
+Headache 0/30 (0.00%)	Adverse Events	11
+headache	HP:0002315	0-8

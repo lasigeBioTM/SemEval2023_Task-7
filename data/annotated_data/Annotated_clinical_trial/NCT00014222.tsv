@@ -1,0 +1,262 @@
+INTERVENTION 1:	Intervention	0
+Arm 1: CEF	Intervention	1
+6 cycles - q 28 days (6 months) - Cyclophosphamide 75 mg/m2 - po - Days 1-14 - Epirubicin 60 mg/m2 - IV - Days 1 and 8 - 5 Fluorouracil: 500mg/m2 - IV - Days 1 and 8 + Continuous Antibiotic Prophylaxis with Cotrimoxazole 960 mg (i.e.2x480 mg tablets) po-bid or Ciprofloxacin 500 mg - po-bid	Intervention	2
+cyclophosphamide	CHEBI:4026	34-50
+ciprofloxacin	CHEBI:100241	261-274
+cyclophosphamide: 75, 600 and 830 mg/m2	Intervention	3
+cyclophosphamide	CHEBI:4026	0-16
+epirubicin hydrochloride: 60 mg/m2	Intervention	4
+hydrochloride	CHEBI:36807	11-24
+fluorouracil: 500mg/m2	Intervention	5
+INTERVENTION 2:	Intervention	6
+Arm 2: EC/T	Intervention	7
+6 cycles - q 14 days (3 months) - Epirubicin 120 mg/m2 - IV - Day 1 - Cyclophosphamide 830 mg/m2 - IV - Day 1 - Filgrastim 5μg/kg/d - SC - Days 2 - 13 + Epoetin Alfa 40,000 IU - SC - once weekly (to begin within 1 week after start of protocol therapy as needed) 21 days from last administration of EC (EC/T) 4 cycles - q 21 days (3 months) - Adriamycin 60 mg/m2 - IV - Day 1 - Cyclophosphamide 600 mg/m2 - IV - Day 1 - 21 days from last administration of AC 4 cycles - q 21 days (3 months) - Paclitaxel 175 mg/m2 IV 3 hour infusion	Intervention	8
+day	UO:0000033	16-19
+day	UO:0000033	62-65
+day	UO:0000033	104-107
+day	UO:0000033	139-142
+day	UO:0000033	265-268
+day	UO:0000033	324-327
+day	UO:0000033	369-372
+day	UO:0000033	411-414
+day	UO:0000033	422-425
+day	UO:0000033	474-477
+cyclophosphamide	CHEBI:4026	70-86
+cyclophosphamide	CHEBI:4026	377-393
+week	UO:0000034	188-192
+week	UO:0000034	214-218
+paclitaxel	CHEBI:45863	492-502
+hour	UO:0000032	518-522
+epoetin alfa: 40,000 IU	Intervention	9
+filgrastim: 5 mg/kg/d - days 2-13	Intervention	10
+cyclophosphamide: 75, 600 and 830 mg/m2	Intervention	11
+cyclophosphamide	CHEBI:4026	0-16
+doxorubicin hydrochloride: 60 mg/m2	Intervention	12
+doxorubicin hydrochloride	CHEBI:31522	0-25
+paclitaxel: 175 mg/m2	Intervention	13
+paclitaxel	CHEBI:45863	0-10
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed adenocarcinoma of the breast that is potentially curable	Eligibility	1
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+T0-4 (dermal involvement on pathology assessment only), N0-2, M0	Eligibility	2
+No clinical T4 disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	15-22
+Previously treated with one of the following:	Eligibility	4
+Total mastectomy and level II axillary node dissection	Eligibility	5
+Partial mastectomy and level II axillary node dissection with planned breast radiotherapy after completion of adjuvant chemotherapy regimen*	Eligibility	6
+breast	UBERON:0000310	70-76
+radiotherapy	OAE:0000235	77-89
+adjuvant	CHEBI:60809	110-118
+Patients with a positive sentinel node biopsy must undergo level II axillary node dissection or sufficient nodal sampling	Eligibility	7
+If microscopic residual in situ or invasive disease is present at total or partial mastectomy margins, planned radiotherapy must also include a boost to the tumor bed	Eligibility	8
+disease	DOID:4,OGMS:0000031	44-51
+present	PATO:0000467	55-62
+radiotherapy	OAE:0000235	111-123
+No residual tumor in the axilla after dissection	Eligibility	9
+Axillary node positive	Eligibility	10
+Negative nodes allowed if the tumor is  1 cm and 1 or more of the following criteria defining high-risk node-negative disease are met:	Eligibility	11
+disease	DOID:4,OGMS:0000031	118-125
+Histological grade III or,	Eligibility	12
+Estrogen receptor negative or,	Eligibility	13
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+Lymphatic/vascular invasion	Eligibility	14
+Hormone receptor status:	Eligibility	15
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen receptor status known	Eligibility	16
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+PATIENT CHARACTERISTICS:	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+Age:	Eligibility	18
+age	PATO:0000011	0-3
+60 and under	Eligibility	19
+Sex:	Eligibility	20
+Female	Eligibility	21
+female	PATO:0000383	0-6
+Menopausal status:	Eligibility	22
+Pre- or postmenopausal	Eligibility	23
+Performance status:	Eligibility	24
+ECOG 0-2	Eligibility	25
+Life expectancy:	Eligibility	26
+At least 5 years	Eligibility	27
+Hematopoietic:	Eligibility	28
+WBC  3,000/mm^3	Eligibility	29
+Platelet count  100,000/mm^3	Eligibility	30
+platelet count	CMO:0000029	0-14
+Hepatic:	Eligibility	31
+Bilirubin  1.5 times upper limit of normal (ULN)	Eligibility	32
+Renal:	Eligibility	33
+Creatinine  1.5 times ULN	Eligibility	34
+creatinine	CHEBI:16737	0-10
+Cardiovascular:	Eligibility	35
+LVEF  limit of normal by MUGA or echocardiogram	Eligibility	36
+No arrhythmia requiring ongoing treatment	Eligibility	37
+arrhythmia	HP:0011675	3-13
+No congestive heart failure	Eligibility	38
+congestive heart failure	HP:0001635,DOID:6000	3-27
+No documented coronary artery disease	Eligibility	39
+coronary artery disease	DOID:3393	14-37
+Other:	Eligibility	40
+No other malignancy except:	Eligibility	41
+Adequately treated basal cell or squamous cell skin cancer or carcinoma in situ of the cervix	Eligibility	42
+skin cancer	DOID:4159	47-58
+carcinoma	HP:0030731,DOID:305	62-71
+Ductal or lobular carcinoma in situ that has been curatively treated by surgery alone	Eligibility	43
+lobular carcinoma in situ	HP:0030076,DOID:3010	10-35
+surgery	OAE:0000067	72-79
+Other prior malignancies (except breast cancer) curatively treated more than 5 years prior to study entry	Eligibility	44
+breast cancer	DOID:1612	33-46
+No serious underlying medical illness or psychiatric or addictive disorder that would preclude study compliance	Eligibility	45
+disorder	OGMS:0000045	66-74
+No known hypersensitivity to E. coli-derived products, mammalian-cell derived products, or any study agents	Eligibility	46
+hypersensitivity	GO:0002524,DOID:1205	9-25
+Not pregnant or nursing	Eligibility	47
+Negative pregnancy test	Eligibility	48
+Fertile patients must use effective non-hormonal contraception	Eligibility	49
+PRIOR CONCURRENT THERAPY:	Eligibility	50
+Biologic therapy:	Eligibility	51
+No prior immunotherapy for breast cancer	Eligibility	52
+breast cancer	DOID:1612	27-40
+No concurrent pegfilgrastim or darbepoetin alfa (Arm II)	Eligibility	53
+Allowed on arms 1 and 3 if medically necessary	Eligibility	54
+Chemotherapy:	Eligibility	55
+No prior chemotherapy for breast cancer	Eligibility	56
+breast cancer	DOID:1612	26-39
+Endocrine therapy:	Eligibility	57
+No prior hormonal therapy for breast cancer	Eligibility	58
+breast cancer	DOID:1612	30-43
+No concurrent hormone replacement therapy	Eligibility	59
+hormone	CHEBI:24621	14-21
+No concurrent selective estrogen-receptor modulators (e.g., raloxifene for the treatment or prevention of osteoporosis)	Eligibility	60
+raloxifene	CHEBI:8772	60-70
+osteoporosis	HP:0000939,DOID:11476	106-118
+No concurrent oral contraceptives (i.e., birth control pills)	Eligibility	61
+No other concurrent aromatase inhibitors	Eligibility	62
+Radiotherapy:	Eligibility	63
+radiotherapy	OAE:0000235	0-12
+See Disease Characteristics	Eligibility	64
+disease	DOID:4,OGMS:0000031	4-11
+No prior radiotherapy for breast cancer	Eligibility	65
+radiotherapy	OAE:0000235	9-21
+breast cancer	DOID:1612	26-39
+Surgery:	Eligibility	66
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	67
+disease	DOID:4,OGMS:0000031	4-11
+No more than 12 weeks since prior total or partial mastectomy (including re-excision of margins)	Eligibility	68
+Other:	Eligibility	69
+At least 30 days since prior investigational drugs	Eligibility	70
+No other concurrent investigational drugs	Eligibility	71
+Concurrent bisphosphonates for the treatment or prevention of osteoporosis allowed	Eligibility	72
+osteoporosis	HP:0000939,DOID:11476	62-74
+Outcome Measurement:	Results	0
+Disease Free Survival	Results	1
+disease	DOID:4,OGMS:0000031	0-7
+Disease free survival was defined as the time from randomization to the time of recurrence of the primary disease. Local or nodal recurrence and metastatic disease were considered a recurrence of the primary tumour. Patients who had contralateral breast cancer or a second primary malignancy, or died from some cause other than disease were censored as relapse-free at the time of death. Patients who had not relapsed were censored at longest follow-up or at non-breast cancer death. As required, adjudication was used to assess reports of recurrence.	Results	2
+disease	DOID:4,OGMS:0000031	0-7
+disease	DOID:4,OGMS:0000031	106-113
+disease	DOID:4,OGMS:0000031	156-163
+disease	DOID:4,OGMS:0000031	328-335
+time	PATO:0000165	41-45
+time	PATO:0000165	72-76
+time	PATO:0000165	373-377
+breast cancer	DOID:1612	247-260
+breast cancer	DOID:1612	463-476
+second	UO:0000010	266-272
+death	OAE:0000632	381-386
+death	OAE:0000632	477-482
+cancer	DOID:162	254-260
+cancer	DOID:162	470-476
+Time frame: 13 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1: CEF	Results	5
+Arm/Group Description: 6 cycles - q 28 days (6 months) - Cyclophosphamide 75 mg/m2 - po - Days 1-14 - Epirubicin 60 mg/m2 - IV - Days 1 and 8 - 5 Fluorouracil: 500mg/m2 - IV - Days 1 and 8 + Continuous Antibiotic Prophylaxis with Cotrimoxazole 960 mg (i.e.2x480 mg tablets) po-bid or Ciprofloxacin 500 mg - po-bid	Results	6
+cyclophosphamide	CHEBI:4026	57-73
+ciprofloxacin	CHEBI:100241	284-297
+cyclophosphamide: 75, 600 and 830 mg/m2	Results	7
+cyclophosphamide	CHEBI:4026	0-16
+epirubicin hydrochloride: 60 mg/m2	Results	8
+hydrochloride	CHEBI:36807	11-24
+fluorouracil: 500mg/m2	Results	9
+Overall Number of Participants Analyzed: 701	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  Disease Recurrence: 141  20.1%	Results	12
+disease	DOID:4,OGMS:0000031	31-38
+No recurrence: 560  79.9%	Results	13
+Results 2:	Results	14
+Arm/Group Title: Arm 2: EC/T	Results	15
+Arm/Group Description: 6 cycles - q 14 days (3 months) - Epirubicin 120 mg/m2 - IV - Day 1 - Cyclophosphamide 830 mg/m2 - IV - Day 1 - Filgrastim 5μg/kg/d - SC - Days 2 - 13 + Epoetin Alfa 40,000 IU - SC - once weekly (to begin within 1 week after start of protocol therapy as needed) 21 days from last administration of EC (EC/T) 4 cycles - q 21 days (3 months) - Adriamycin 60 mg/m2 - IV - Day 1 - Cyclophosphamide 600 mg/m2 - IV - Day 1 - 21 days from last administration of AC 4 cycles - q 21 days (3 months) - Paclitaxel 175 mg/m2 IV 3 hour infusion	Results	16
+day	UO:0000033	39-42
+day	UO:0000033	85-88
+day	UO:0000033	127-130
+day	UO:0000033	162-165
+day	UO:0000033	288-291
+day	UO:0000033	347-350
+day	UO:0000033	392-395
+day	UO:0000033	434-437
+day	UO:0000033	445-448
+day	UO:0000033	497-500
+cyclophosphamide	CHEBI:4026	93-109
+cyclophosphamide	CHEBI:4026	400-416
+week	UO:0000034	211-215
+week	UO:0000034	237-241
+paclitaxel	CHEBI:45863	515-525
+hour	UO:0000032	541-545
+epoetin alfa: 40,000 IU	Results	17
+filgrastim: 5 mg/kg/d - days 2-13	Results	18
+cyclophosphamide: 75, 600 and 830 mg/m2	Results	19
+cyclophosphamide	CHEBI:4026	0-16
+doxorubicin hydrochloride: 60 mg/m2	Results	20
+doxorubicin hydrochloride	CHEBI:31522	0-25
+paclitaxel: 175 mg/m2	Results	21
+paclitaxel	CHEBI:45863	0-10
+Overall Number of Participants Analyzed: 701	Results	22
+Measure Type: Count of Participants	Results	23
+Unit of Measure: Participants  Disease Recurrence: 135  19.3%	Results	24
+disease	DOID:4,OGMS:0000031	31-38
+No recurrence: 566  80.7%	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 83/680 (12.21%)	Adverse Events	1
+Hemoglobin 11/680 (1.62%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Transfusion: Platelets 0/680 (0.00%)	Adverse Events	3
+Transfusion: pRBCs 0/680 (0.00%)	Adverse Events	4
+Febrile neutropenia 49/680 (7.21%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+Edema 1/680 (0.15%)	Adverse Events	6
+edema	HP:0000969	0-5
+Ischemia/infarction 0/680 (0.00%)	Adverse Events	7
+Palpitations 0/680 (0.00%)	Adverse Events	8
+palpitations	HP:0001962	0-12
+Pericardial effusion 0/680 (0.00%)	Adverse Events	9
+pericardial effusion	HP:0001698,DOID:118	0-20
+Keratitis 1/680 (0.15%)	Adverse Events	10
+keratitis	HP:0000491,DOID:4677	0-9
+Double vision 1/680 (0.15%)	Adverse Events	11
+Colitis 1/680 (0.15%)	Adverse Events	12
+colitis	HP:0002583,DOID:0060180	0-7
+Adverse Events 2:	Adverse Events	13
+Total: 86/688 (12.50%)	Adverse Events	14
+Hemoglobin 15/688 (2.18%)	Adverse Events	15
+hemoglobin	CHEBI:35143	0-10
+Transfusion: Platelets 1/688 (0.15%)	Adverse Events	16
+Transfusion: pRBCs 1/688 (0.15%)	Adverse Events	17
+Febrile neutropenia 41/688 (5.96%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	8-19
+Edema 0/688 (0.00%)	Adverse Events	19
+edema	HP:0000969	0-5
+Ischemia/infarction 0/688 (0.00%)	Adverse Events	20
+Palpitations 1/688 (0.15%)	Adverse Events	21
+palpitations	HP:0001962	0-12
+Pericardial effusion 1/688 (0.15%)	Adverse Events	22
+pericardial effusion	HP:0001698,DOID:118	0-20
+Keratitis 0/688 (0.00%)	Adverse Events	23
+keratitis	HP:0000491,DOID:4677	0-9
+Double vision 0/688 (0.00%)	Adverse Events	24
+Colitis 0/688 (0.00%)	Adverse Events	25
+colitis	HP:0002583,DOID:0060180	0-7

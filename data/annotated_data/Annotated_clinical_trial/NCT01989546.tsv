@@ -1,0 +1,151 @@
+INTERVENTION 1:	Intervention	0
+Talazoparib (BMN 673)	Intervention	1
+Single-agent BMN 673 (talazoparib) dosed orally at 1 mg/day in 28-day cycles. This poly (ADP-ribose) polymerase (PARP) inhibitor has been shown to cause single-agent synthetic lethality in breast cancer 1 and breast cancer 2 (BRCA1/2)- and phosphatase and tensin homolog (PTEN)-deficient cell lines, and has potent antitumor activity in animal models of tumors harboring mutations in deoxyribonucleic acid (DNA) repair pathways.	Intervention	2
+inhibitor	CHEBI:35222	119-128
+synthetic	BAO:0003073	166-175
+breast cancer	DOID:1612	189-202
+breast cancer	DOID:1612	209-222
+phosphatase	GO:0016791,BAO:0000295	240-251
+deoxyribonucleic acid	CHEBI:16991	384-405
+dna	BAO:0000269	407-410
+INCLUSION CRITERIA:	Eligibility	0
+Adult patients with documented deleterious breast cancer 1 and breast cancer 2 (BRCA 1 or 2) mutations with histologically confirmed ovarian, primary peritoneal, breast, prostate, pancreas, gastric or other solid tumor whose disease has progressed following at least one standard therapy or who have no acceptable standard treatment options.	Eligibility	1
+adult	EFO:0001272	0-5
+breast cancer	DOID:1612	43-56
+breast cancer	DOID:1612	63-76
+breast	UBERON:0000310	43-49
+breast	UBERON:0000310	63-69
+breast	UBERON:0000310	162-168
+pancreas	UBERON:0001264	180-188
+disease	DOID:4,OGMS:0000031	225-232
+Patients with ovarian cancer should have one prior platinum-based	Eligibility	2
+ovarian cancer	DOID:2394	14-28
+chemotherapeutic regimen for management of primary disease containing carboplatin, cisplatin, or another organoplatinum compound. This initial treatment may have included intraperitoneal therapy, consolidation, biologic/targeted (noncytotoxic) agents or extended therapy administered after surgical or non-surgical	Eligibility	3
+disease	DOID:4,OGMS:0000031	51-58
+carboplatin	CHEBI:31355	70-81
+cisplatin	CHEBI:27899	83-92
+organoplatinum compound	CHEBI:51190	105-128
+assessment. Ovarian cancer patients with both platinum-sensitive and platinum resistant disease are eligible. Patients with platinum-refractory disease are NOT eligible.	Eligibility	4
+ovarian cancer	DOID:2394	12-26
+platinum	CHEBI:33364	46-54
+platinum	CHEBI:33364	69-77
+platinum	CHEBI:33364	124-132
+disease	DOID:4,OGMS:0000031	88-95
+disease	DOID:4,OGMS:0000031	144-151
+Patients with metastatic disease must have received at least one line of standard of care (SOC) treatment for metastatic disease prior to enrollment	Eligibility	5
+disease	DOID:4,OGMS:0000031	25-32
+disease	DOID:4,OGMS:0000031	121-128
+Age greater than or equal to 18 years of age.	Eligibility	6
+age	PATO:0000011	0-3
+age	PATO:0000011	41-44
+Eastern Cooperative Oncology Group (ECOG) performance status less than or equal to 2	Eligibility	7
+group	CHEBI:24433	29-34
+Life expectancy of greater than 3 months.	Eligibility	8
+Patients must have normal organ and marrow function as defined below:	Eligibility	9
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+leukocytes greater than or equal to 3,000/mcL	Eligibility	10
+absolute neutrophil count greater than or equal to 1,500/mcL	Eligibility	11
+platelets greater than or equal to 100,000/mcL	Eligibility	12
+total bilirubin less than or equal to 1.5 times institutional upper limit of normal	Eligibility	13
+Aspartate aminotransferase (AST) Serum glutamic-oxaloacetic transaminase (SGOT)/alanine aminotransferase (ALT) Serum glutamic pyruvic transaminase (SGPT) less than or equal to 3 times institutional upper limit of normal	Eligibility	14
+aspartate	CHEBI:29995	0-9
+creatinine less than or equal to 1.5 times institutional upper limit of normal	Eligibility	15
+creatinine	CHEBI:16737	0-10
+OR	Eligibility	16
+--creatinine clearance greater than or equal to 60 mL/min for patients with creatinine levels above institutional normal.	Eligibility	17
+creatinine clearance	CMO:0000765	2-22
+creatinine	CHEBI:16737	2-12
+creatinine	CHEBI:16737	76-86
+The effects of BMN 673 on the developing human fetus are unknown. For this reason and because PARP inhibitors are known to be teratogenic, women of childbearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, for the duration of study participation, and for 30 days after completing study treatment. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately. Men treated or enrolled on this protocol must also agree to use adequate contraception prior to the study, for the duration of study participation, and for 3 months after completion of BMN 673 administration.	Eligibility	18
+duration	PATO:0001309	308-316
+duration	PATO:0001309	675-683
+Patients must be able to swallow whole tablets or capsules. Nasogastric or G-tube administration is not allowed. Any gastrointestinal disease which would impair ability to swallow, retain, or absorb drug is not allowed.	Eligibility	19
+disease	DOID:4,OGMS:0000031	134-141
+drug	CHEBI:23888	199-203
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	20
+document	IAO:0000310	77-85
+Patients with human epidermal growth factor receptor 2 (HER2)-positive advanced breast cancer or ovarian cancer should have received at least two lines of systemic therapy in the advanced setting.	Eligibility	21
+growth factor	BAO:0002024	30-43
+receptor	BAO:0000281	44-52
+breast cancer	DOID:1612	80-93
+ovarian cancer	DOID:2394	97-111
+Patients with prostate cancer can continue to receive treatment with Gonadotropin-releasing hormone (GnRH) agonists while on study, as long as there is evidence of disease progression on therapy.	Eligibility	22
+prostate cancer	HP:0012125,DOID:10283	14-29
+hormone	CHEBI:24621	92-99
+disease	DOID:4,OGMS:0000031	164-171
+EXCLUSION CRITERIA:	Eligibility	23
+Patients who have had chemotherapy or radiotherapy within 4 weeks (6 weeks for nitrosoureas or mitomycin C) prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier. Patients who have had prior treatment with any PARP inhibitors are ineligible.	Eligibility	24
+radiotherapy	OAE:0000235	38-50
+mitomycin c	CHEBI:27504	95-106
+Patients who are receiving any other investigational agents.	Eligibility	25
+Patients with known active brain metastases or carcinomatous meningitis are excluded from this clinical trial. Patients whose brain metastatic disease status has remained stable for greater than or equal to 4 weeks following treatment of brain metastases are eligible to participate at the discretion of the principal investigator.	Eligibility	26
+active	PATO:0002354	20-26
+brain	UBERON:0000955	27-32
+brain	UBERON:0000955	126-131
+brain	UBERON:0000955	238-243
+meningitis	HP:0001287,DOID:9471	61-71
+excluded	HP:0040285	76-84
+disease	DOID:4,OGMS:0000031	143-150
+stable	HP:0031915	171-177
+Eligibility of subjects receiving any medications or substances with the potential to affect the activity or pharmacokinetics of BMN 673 will be determined following review by the principal investigator.	Eligibility	27
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	28
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Pregnant women are excluded from this study because the effects of the study drugs on the developing fetus are unknown.	Eligibility	29
+excluded	HP:0040285	19-27
+human immunodeficiency virus (HIV)-positive patients on combination antiretroviral therapy are ineligible because of the potential for pharmacokinetic interactions with BMN 673. In addition, these patients are at increased risk of lethal infections when treated with marrow suppressive therapy. Appropriate studies will be undertaken in patients receiving combination antiretroviral therapy when indicated.	Eligibility	30
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+Patients who require use of coumarin-derivative anticoagulants such as warfarin are excluded. Low molecular weight heparin is permitted for prophylactic or therapeutic use. Low-dose warfarin (less than or equal to 1 mg/day) is permitted.	Eligibility	31
+warfarin	CHEBI:10033	71-79
+warfarin	CHEBI:10033	182-190
+excluded	HP:0040285	84-92
+heparin	CHEBI:28304	115-122
+Women who are currently lactating	Eligibility	32
+Outcome Measurement:	Results	0
+Percent of Participants Who Achieve a Sustained Progressive Disease (PD) Response, Defined to be at Least 4% Nuclear Area Positive (NAP) γH2AX at the Day 8 Biopsy	Results	1
+percent	UO:0000187	0-7
+progressive	HP:0003676	48-59
+disease	DOID:4,OGMS:0000031	60-67
+area	PATO:0001323	117-121
+day	UO:0000033	150-153
+Evaluation of drug effect on deoxyribonuclecic acid (DNA) damage response will be performed using immunofluorescence assays to measure the DNA damage repair marker γH2A (the phosphorylated form of histone family member X, H2AX) in the nucleus of tumor cells obtained via core biopsy.	Results	2
+drug	CHEBI:23888	14-18
+acid	CHEBI:37527	47-51
+dna	BAO:0000269	53-56
+dna	BAO:0000269	139-142
+phosphorylated	PATO:0002220	174-188
+histone	CHEBI:15358	197-204
+x	LABO:0000148	32-33
+x	LABO:0000148	219-220
+x	LABO:0000148	225-226
+nucleus	CHEBI:33252,GO:0005634	235-242
+Time frame: Cycle 1, day 8	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	21-24
+Results 1:	Results	4
+Arm/Group Title: Talazoparib (BMN 673)	Results	5
+Arm/Group Description: Single-agent BMN 673 (talazoparib) dosed orally at 1 mg/day in 28-day cycles. This poly (ADP-ribose) polymerase (PARP) inhibitor has been shown to cause single-agent synthetic lethality in breast cancer 1 and breast cancer 2 (BRCA1/2)- and phosphatase and tensin homolog (PTEN)-deficient cell lines, and has potent antitumor activity in animal models of tumors harboring mutations in deoxyribonucleic acid (DNA) repair pathways.	Results	6
+inhibitor	CHEBI:35222	142-151
+synthetic	BAO:0003073	189-198
+breast cancer	DOID:1612	212-225
+breast cancer	DOID:1612	232-245
+phosphatase	GO:0016791,BAO:0000295	263-274
+deoxyribonucleic acid	CHEBI:16991	407-428
+dna	BAO:0000269	430-433
+Overall Number of Participants Analyzed: 9	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  44.4	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 3/9 (33.33%)	Adverse Events	1
+Anemia 3/9 (33.33%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Platelet count decreased 1/9 (11.11%)	Adverse Events	3
+platelet count	CMO:0000029	0-14
+Hypocalcemia 1/9 (11.11%)	Adverse Events	4
+hypocalcemia	HP:0002901	0-12
+Hypokalemia 1/9 (11.11%)	Adverse Events	5
+hypokalemia	HP:0002900,DOID:4500	0-11

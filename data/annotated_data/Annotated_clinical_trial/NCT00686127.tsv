@@ -1,0 +1,86 @@
+INTERVENTION 1:	Intervention	0
+Lidocaine Patch	Intervention	1
+lidocaine	CHEBI:6456	0-9
+Lidocaine patch 5% (Lidoderm®, Endo Pharmaceuticals Inc.): 1 patch was applied topically to the affected site(s) for 12 hours each day.	Intervention	2
+lidocaine	CHEBI:6456	0-9
+affected	HP:0032320	96-104
+site	BFO:0000029	105-109
+day	UO:0000033	131-134
+INTERVENTION 2:	Intervention	3
+Placebo Patch	Intervention	4
+Placebo patch: 1 patch was applied topically to the affected site(s) for 12 hours each day.	Intervention	5
+affected	HP:0032320	52-60
+site	BFO:0000029	61-65
+day	UO:0000033	87-90
+Inclusion Criteria:	Eligibility	0
+Adult women >18 years who develop neuropathic pain in the breast scar area and/or ipsilateral arm following breast cancer surgery	Eligibility	1
+adult	EFO:0001272	0-5
+pain	HP:0012531	46-50
+breast	UBERON:0000310	58-64
+breast	UBERON:0000310	108-114
+area	PATO:0001323	70-74
+breast cancer	DOID:1612	108-121
+surgery	OAE:0000067	122-129
+Has a healed incision(s)	Eligibility	2
+Has no recurrent disease in the painful area	Eligibility	3
+recurrent	HP:0031796	7-16
+disease	DOID:4,OGMS:0000031	17-24
+area	PATO:0001323	40-44
+Is able to read, write and understand English	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+Presence of another type of pain that is more severe than the neuropathic pain	Eligibility	6
+pain	HP:0012531	28-32
+pain	HP:0012531	74-78
+severe	HP:0012828	46-52
+Use of an opioid analgesic of greater than 60 mg codeine/day	Eligibility	7
+opioid analgesic	CHEBI:35482	10-26
+Is actively trying to become pregnant	Eligibility	8
+Has a medical contraindication to the use of lidocaine	Eligibility	9
+contraindication	OAE:0000055	14-30
+lidocaine	CHEBI:6456	45-54
+Has an allergy to lidocaine	Eligibility	10
+allergy	HP:0012393	7-14
+lidocaine	CHEBI:6456	18-27
+Is taking a coanalgesic for neuropathic pain.	Eligibility	11
+pain	HP:0012531	40-44
+Outcome Measurement:	Results	0
+Change in Pain Intensity on an 11-point Scale From Baseline to 12 Weeks	Results	1
+pain	HP:0012531	10-14
+intensity	PATO:0000049	15-24
+Patients scored their pain intensity in the breast and/or ipsilateral arm using a 0 to 10 numeric rating scale, ranging from no pain (0) to worst pain imaginable (10). The change in pain intensity was calculated from two time points as the later time point (12 weeks) minus the earlier time point (Baseline).	Results	2
+pain	HP:0012531	22-26
+pain	HP:0012531	128-132
+pain	HP:0012531	146-150
+pain	HP:0012531	182-186
+intensity	PATO:0000049	27-36
+intensity	PATO:0000049	187-196
+breast	UBERON:0000310	44-50
+time	PATO:0000165	221-225
+time	PATO:0000165	246-250
+time	PATO:0000165	286-290
+Time frame: Baseline, 12 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Lidocaine Patch	Results	5
+lidocaine	CHEBI:6456	17-26
+Arm/Group Description: Lidocaine patch 5% (Lidoderm  , Endo Pharmaceuticals Inc.): 1 patch was applied topically to the affected site(s) for 12 hours each day.	Results	6
+lidocaine	CHEBI:6456	23-32
+affected	HP:0032320	120-128
+site	BFO:0000029	129-133
+day	UO:0000033	155-158
+Overall Number of Participants Analyzed: 0	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: units on a scale	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo Patch	Results	11
+Arm/Group Description: Placebo patch: 1 patch was applied topically to the affected site(s) for 12 hours each day.	Results	12
+affected	HP:0032320	75-83
+site	BFO:0000029	84-88
+day	UO:0000033	110-113
+Overall Number of Participants Analyzed: 1	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: units on a scale  4	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/14 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/7 (0.00%)	Adverse Events	3

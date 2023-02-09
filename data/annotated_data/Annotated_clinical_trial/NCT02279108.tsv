@@ -1,0 +1,80 @@
+INTERVENTION 1:	Intervention	0
+Double Detection Indocyanine + Isotope	Intervention	1
+intradermal injection of 2.5 milligrams of indocyanine green and 20 MBq of technetium 99 before breast surgery	Intervention	2
+indocyanine green	CHEBI:31696	43-60
+breast	UBERON:0000310	96-102
+surgery	OAE:0000067	103-110
+indocyanine green: One injection, 2.5 milligrams per patient, intradermal use	Intervention	3
+indocyanine green	CHEBI:31696	0-17
+patient	HADO:0000008,OAE:0001817	53-60
+isotope: One injection, 20 MBq techntium99, intradermal use	Intervention	4
+INTERVENTION 2:	Intervention	5
+Isotope Detection Alone	Intervention	6
+intradermal injection of 20 MBq of technetium 99 before breast surgery	Intervention	7
+breast	UBERON:0000310	56-62
+surgery	OAE:0000067	63-70
+isotope: One injection, 20 MBq techntium99, intradermal use	Intervention	8
+Inclusion Criteria:	Eligibility	0
+Histologically proved infiltrating breast cancer (ductal, lobular carcinoma…) or a carcinoma in-situ with an elevated risk of micro-invasion. (High grade with necrosis, radiologically evaluated size more than 40mm, or immediate mastectomy…)	Eligibility	1
+breast cancer	DOID:1612	35-48
+carcinoma	HP:0030731,DOID:305	66-75
+carcinoma	HP:0030731,DOID:305	83-92
+size	PATO:0000117	194-198
+Unifocal or multifocal but in same quarter	Eligibility	2
+multifocal	HP:0030651	12-22
+Size < 5cm clinically palpable or not	Eligibility	3
+size	PATO:0000117	0-4
+Clinically or ultrasound axillary N0	Eligibility	4
+Isotopic sentinel node detection	Eligibility	5
+Adult patient	Eligibility	6
+adult	EFO:0001272	0-5
+patient	HADO:0000008,OAE:0001817	6-13
+Signed informed consent by patient or legally responsable authority	Eligibility	7
+patient	HADO:0000008,OAE:0001817	27-34
+Patient registered to a social security system	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+No surgical contra-indication	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+Mammary carcinoma recurrence	Eligibility	11
+carcinoma	HP:0030731,DOID:305	8-17
+Previous same side mammary reduction	Eligibility	12
+Previous lumpectomy	Eligibility	13
+Contra-indication to surgery	Eligibility	14
+surgery	OAE:0000067	21-28
+Pregnant or breast feeding patient	Eligibility	15
+breast	UBERON:0000310	12-18
+patient	HADO:0000008,OAE:0001817	27-34
+Denial of participation	Eligibility	16
+Outcome Measurement:	Results	0
+Number of Patients With Less Than Two Lymph Nodes Detected	Results	1
+lymph	UBERON:0002391	38-43
+Number of patients with less than two lymph nodes detected by indocyanine (ICG) + isotope versus isotope detection alone	Results	2
+lymph	UBERON:0002391	38-43
+Time frame: peroperative	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Double Detection Indocyanine + Isotope	Results	5
+Arm/Group Description: intradermal injection of 2.5 milligrams of indocyanine green and 20 MBq of technetium 99 before breast surgery	Results	6
+indocyanine green	CHEBI:31696	66-83
+breast	UBERON:0000310	119-125
+surgery	OAE:0000067	126-133
+indocyanine green: One injection, 2.5 milligrams per patient, intradermal use	Results	7
+indocyanine green	CHEBI:31696	0-17
+patient	HADO:0000008,OAE:0001817	53-60
+isotope: One injection, 20 MBq techntium99, intradermal use	Results	8
+Overall Number of Participants Analyzed: 50	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  22  44.0%	Results	11
+Results 2:	Results	12
+Arm/Group Title: Isotope Detection Alone	Results	13
+Arm/Group Description: intradermal injection of 20 MBq of technetium 99 before breast surgery	Results	14
+breast	UBERON:0000310	79-85
+surgery	OAE:0000067	86-93
+isotope: One injection, 20 MBq techntium99, intradermal use	Results	15
+Overall Number of Participants Analyzed: 49	Results	16
+Measure Type: Count of Participants	Results	17
+Unit of Measure: Participants  20  40.8%	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 0/50 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

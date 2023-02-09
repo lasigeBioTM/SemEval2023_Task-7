@@ -1,0 +1,136 @@
+INTERVENTION 1:	Intervention	0
+Paclitaxel+Placebo	Intervention	1
+Participants received paclitaxel 90 mg/m^2 IV on Days 1, 8 and 15 and placebo matched to bevacizumab IV infusion on Days 1 and 15 of a 28 day cycle until progressive disease, treatment limiting toxicity or death.	Intervention	2
+paclitaxel	CHEBI:45863	22-32
+day	UO:0000033	49-52
+day	UO:0000033	116-119
+day	UO:0000033	138-141
+progressive	HP:0003676	154-165
+disease	DOID:4,OGMS:0000031	166-173
+death	OAE:0000632	206-211
+INTERVENTION 2:	Intervention	3
+Paclitaxel+ Bevacizumab	Intervention	4
+Participants received paclitaxel 90 mg/m^2 IV on Days 1, 8 and 15 and bevacizumab IV 10 mg/kg on Days 1 and 15 of a 28 day cycle until progressive disease, treatment limiting toxicity or death.	Intervention	5
+paclitaxel	CHEBI:45863	22-32
+day	UO:0000033	49-52
+day	UO:0000033	97-100
+day	UO:0000033	119-122
+progressive	HP:0003676	135-146
+disease	DOID:4,OGMS:0000031	147-154
+death	OAE:0000632	187-192
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed, HER2-negative adenocarcinoma of the breast, with measurable or non-measurable locally recurrent or metastatic disease. Locally recurrent disease must not be amenable to resection with curative intent.	Eligibility	1
+adenocarcinoma	DOID:299	57-71
+breast	UBERON:0000310	79-85
+recurrent	HP:0031796	129-138
+recurrent	HP:0031796	170-179
+disease	DOID:4,OGMS:0000031	153-160
+disease	DOID:4,OGMS:0000031	180-187
+ECOG performance status of 0 or 1	Eligibility	2
+For women of childbearing potential, use of an acceptable and effective method of non-hormonal contraception	Eligibility	3
+For patients who have received recent radiotherapy, recovery prior to randomization from any significant acute toxicity, and radiation treatments have to be completed more than 3 weeks from randomization	Eligibility	4
+radiotherapy	OAE:0000235	38-50
+acute	HP:0011009,PATO:0000389	105-110
+Exclusion Criteria:	Eligibility	5
+Disease-Specific Exclusions:	Eligibility	6
+HER2-positive status	Eligibility	7
+Prior chemotherapy for locally recurrent or metastatic disease	Eligibility	8
+recurrent	HP:0031796	31-40
+disease	DOID:4,OGMS:0000031	55-62
+Prior hormonal therapy < 2 weeks prior to randomization	Eligibility	9
+Prior adjuvant or neo-adjuvant chemotherapy is allowed, provided its conclusion has been for at least 12 months prior to randomization	Eligibility	10
+adjuvant	CHEBI:60809	6-14
+adjuvant	CHEBI:60809	22-30
+Investigational therapy within 28 days of randomization	Eligibility	11
+General Medical Exclusions:	Eligibility	12
+Life expectancy of < 12 weeks	Eligibility	13
+Inadequate organ function	Eligibility	14
+organ	UBERON:0000062	11-16
+function	BAO:0003117,BFO:0000034	17-25
+Uncontrolled serious medical or psychiatric illness	Eligibility	15
+Active infection requiring intravenous (IV) antibiotics at screening	Eligibility	16
+active	PATO:0002354	0-6
+Pregnancy or lactation	Eligibility	17
+lactation	GO:0007595	13-22
+History of other malignancies within 5 years prior to screening, except for tumors with a negligible risk for metastasis or death	Eligibility	18
+history	BFO:0000182	0-7
+death	OAE:0000632	124-129
+Outcome Measurement:	Results	0
+Percentage of Participants With Progression or Death in Intent-to-Treat (ITT) Population	Results	1
+death	OAE:0000632	47-52
+Tumor assessment was performed as per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1) by investigator. Disease progression was defined as at least 20 percent (%) increase in the sum of diameters of target lesions compared to smallest sum of diameters on-study and absolute increase of at least 5 millimeter (mm), unequivocal progression of existing non-target lesions, or presence of new lesions.	Results	2
+disease	DOID:4,OGMS:0000031	126-133
+percent	UO:0000187	173-180
+increase	BAO:0001251	185-193
+increase	BAO:0001251	296-304
+target	BAO:0003064	221-227
+target	BAO:0003064	376-382
+millimeter	UO:0000016	319-329
+Time frame: Baseline, every 8 weeks until documented disease progression, death or clinical cut-off (up to 117.7 weeks)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	53-60
+death	OAE:0000632	74-79
+Results 1:	Results	4
+Arm/Group Title: Paclitaxel+Placebo	Results	5
+Arm/Group Description: Participants received paclitaxel 90 mg/m^2 IV on Days 1, 8 and 15 and placebo matched to bevacizumab IV infusion on Days 1 and 15 of a 28 day cycle until progressive disease, treatment limiting toxicity or death.	Results	6
+paclitaxel	CHEBI:45863	45-55
+day	UO:0000033	72-75
+day	UO:0000033	139-142
+day	UO:0000033	161-164
+progressive	HP:0003676	177-188
+disease	DOID:4,OGMS:0000031	189-196
+death	OAE:0000632	229-234
+Overall Number of Participants Analyzed: 242	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  69.4	Results	9
+Results 2:	Results	10
+Arm/Group Title: Paclitaxel+ Bevacizumab	Results	11
+Arm/Group Description: Participants received paclitaxel 90 mg/m^2 IV on Days 1, 8 and 15 and bevacizumab IV 10 mg/kg on Days 1 and 15 of a 28 day cycle until progressive disease, treatment limiting toxicity or death.	Results	12
+paclitaxel	CHEBI:45863	45-55
+day	UO:0000033	72-75
+day	UO:0000033	120-123
+day	UO:0000033	142-145
+progressive	HP:0003676	158-169
+disease	DOID:4,OGMS:0000031	170-177
+death	OAE:0000632	210-215
+Overall Number of Participants Analyzed: 239	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  63.6	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 45/233 (19.31%)	Adverse Events	1
+Anaemia * 2/233 (0.86%)	Adverse Events	2
+Febrile neutropenia * 0/233 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 1/233 (0.43%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 1/233 (0.43%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Atrial fibrillation * 1/233 (0.43%)	Adverse Events	6
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Left ventricular dysfunction * 0/233 (0.00%)	Adverse Events	7
+left	HP:0012835	0-4
+ACUTE CORONARY SYNDROME * 0/233 (0.00%)	Adverse Events	8
+acute coronary syndrome	HP:0033678	0-23
+CARDIAC FAILURE CONGESTIVE * 1/233 (0.43%)	Adverse Events	9
+Optic nerve disorder * 1/233 (0.43%)	Adverse Events	10
+nerve	UBERON:0001021	6-11
+disorder	OGMS:0000045	12-20
+Adverse Events 2:	Adverse Events	11
+Total: 66/238 (27.73%)	Adverse Events	12
+Anaemia * 1/238 (0.42%)	Adverse Events	13
+Febrile neutropenia * 4/238 (1.68%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 1/238 (0.42%)	Adverse Events	15
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 0/238 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Atrial fibrillation * 0/238 (0.00%)	Adverse Events	17
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Left ventricular dysfunction * 1/238 (0.42%)	Adverse Events	18
+left	HP:0012835	0-4
+ACUTE CORONARY SYNDROME * 1/238 (0.42%)	Adverse Events	19
+acute coronary syndrome	HP:0033678	0-23
+CARDIAC FAILURE CONGESTIVE * 0/238 (0.00%)	Adverse Events	20
+Optic nerve disorder * 0/238 (0.00%)	Adverse Events	21
+nerve	UBERON:0001021	6-11
+disorder	OGMS:0000045	12-20

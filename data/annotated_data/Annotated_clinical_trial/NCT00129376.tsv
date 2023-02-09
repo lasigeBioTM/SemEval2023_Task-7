@@ -1,0 +1,129 @@
+INTERVENTION 1:	Intervention	0
+Doxorubicin + Cyclophosphamide Followed Docetaxel	Intervention	1
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	14-30
+Patients received doxorubicin (60 mg/m2) and cyclophosphamide (600 mg/m2), both in a short intravenous infusion, every three weeks for four cycles (days 1, 22, 43 and 64). Three weeks later, docetaxel (36 mg/m2) was administered as a 30-min intravenous infusion, weekly for six weeks (days 85, 92, 99, 106, 113 and 120) followed by a 2-week resting period (8-week cycle). After that, patients received a second docetaxel cycle (infusions on days 141, 148, 155, 162, 169 and 176).	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	18-29
+cyclophosphamide	CHEBI:4026	45-61
+second	UO:0000010	404-410
+Inclusion Criteria:	Eligibility	0
+Written informed consent.	Eligibility	1
+Patients with breast cancer stages II and IIIA, with histological diagnoses as per true-cut or open biopsy.	Eligibility	2
+breast cancer	DOID:1612	14-27
+Negative extension study, including bilateral mammography, thoracic x-ray, computed tomography (CT)-scan or abdominal echography and bone scintigraphy.	Eligibility	3
+bilateral	HP:0012832	36-45
+tomography	BAO:0002525	84-94
+ct	BAO:0002125	96-98
+Analysis of hormone receptor status in primary tumour. It is highly recommended to obtain a tumour tissue sample before start of treatment, and after definitive surgery. These samples will be analysed centrally by Spanish Breast Cancer Research Group (GEICAM).	Eligibility	4
+hormone	CHEBI:24621	12-19
+receptor	BAO:0000281	20-28
+tissue	UBERON:0000479	99-105
+surgery	OAE:0000067	161-168
+breast cancer	DOID:1612	222-235
+group	CHEBI:24433	245-250
+Age >= 18 and <= 70 years old.	Eligibility	5
+age	PATO:0000011	0-3
+Performance status as per Karnofsky index >= 80.	Eligibility	6
+Minimum life expectancy of 6 months.	Eligibility	7
+Electrocardiogram (EKG) 12 weeks before registration to the study. If abnormalities are suspected, cardiac function must be assessed by left ventricular ejection fraction (LVEF).	Eligibility	8
+function	BAO:0003117,BFO:0000034	107-115
+left	HP:0012835	136-140
+ejection fraction	CMO:0000180	153-170
+Haematology: neutrophils >= 2.0 x10^9/l; platelets >= 100 x10^9/l; hemoglobin >=10 g/dl.	Eligibility	9
+hemoglobin	CHEBI:35143	67-77
+Hepatic function: total bilirubin <= 1 x upper normal limit (UNL); Aspartate aminotransferase (AST) (SGOT) and and Alanine aminotransferase (ALT) (SGPT) <= 2.5 x UNL; alkaline phosphatase <= 5 x UNL.	Eligibility	10
+function	BAO:0003117,BFO:0000034	8-16
+x	LABO:0000148	39-40
+x	LABO:0000148	160-161
+x	LABO:0000148	193-194
+aspartate	CHEBI:29995	67-76
+alanine	CHEBI:16449	115-122
+phosphatase	GO:0016791,BAO:0000295	176-187
+Renal function: creatinine <= 1.5 x UNL; creatinine clearance >= 60 ml/min.	Eligibility	11
+function	BAO:0003117,BFO:0000034	6-14
+creatinine	CHEBI:16737	16-26
+creatinine	CHEBI:16737	41-51
+x	LABO:0000148	34-35
+creatinine clearance	CMO:0000765	41-61
+Patients able to comply with study requirements.	Eligibility	12
+Negative pregnancy test.	Eligibility	13
+Adequate contraceptive method during the study and up to 3 months after definitive surgery.	Eligibility	14
+surgery	OAE:0000067	83-90
+Exclusion Criteria:	Eligibility	15
+Previous systemic therapy for breast cancer treatment.	Eligibility	16
+breast cancer	DOID:1612	30-43
+Previous treatments with anthracyclines or taxanes for any malignancy.	Eligibility	17
+Previous radiotherapy for breast cancer.	Eligibility	18
+radiotherapy	OAE:0000235	9-21
+breast cancer	DOID:1612	26-39
+Bilateral invasive breast cancer.	Eligibility	19
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	19-32
+Pregnant or lactating women.	Eligibility	20
+Previous motor or sensorial neurotoxicity grade >=2.	Eligibility	21
+Other serious pathologies: congestive heart failure or angina pectoris; history of myocardial infarction in the previous year; uncontrolled hypertension (HT) or high risk arrhythmias.	Eligibility	22
+congestive heart failure	HP:0001635,DOID:6000	27-51
+angina pectoris	HP:0001681	55-70
+history	BFO:0000182	72-79
+myocardial infarction	HP:0001658,DOID:5844	83-104
+year	UO:0000036	121-125
+hypertension	HP:0000822,DOID:10763	140-152
+History of neurological or psychiatric impairment, precluding patients from providing free informed consent.	Eligibility	23
+history	BFO:0000182	0-7
+Active infection.	Eligibility	24
+active	PATO:0002354	0-6
+Active peptic ulcer; unstable diabetes mellitus.	Eligibility	25
+active	PATO:0002354	0-6
+peptic ulcer	HP:0004398	7-19
+diabetes mellitus	HP:0000819,DOID:9351	30-47
+History of previous or current malignancies other than breast cancer, except for basal skin carcinoma, cervical in situ carcinoma, other tumour diagnosed and treated more than 10 years before, ductal carcinoma in situ (DCIS) or lobular carcinoma in situ (LCIS).	Eligibility	26
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	55-68
+skin carcinoma	DOID:3451	87-101
+in situ carcinoma	DOID:8719	112-129
+ductal carcinoma in situ	HP:0030075,DOID:0060074	193-217
+lobular carcinoma in situ	HP:0030076,DOID:3010	228-253
+Chronic treatment with corticoids unless the treatment started > 6 months before registration to the study, and low doses are administered.	Eligibility	27
+chronic	HP:0011010	0-7
+Substitutive hormonal therapy. This treatment must be interrupted before inclusion in the study.	Eligibility	28
+Concomitant treatment with other investigational products or administration in the 30 previous days.	Eligibility	29
+Males.	Eligibility	30
+Outcome Measurement:	Results	0
+Pathological Complete Response (pCR) Rate	Results	1
+rate	BAO:0080019	37-41
+Pathological complete response was defined by the Miller & Payne criteria. pCR was defined as no invasive cells identifiable in breast sections at surgery. Response was measured by physical exam and breast imaging before surgery and was evaluated according to the World Health Organization (WHO) criteria. Pathological response after surgery, was based on the proportion of remaining tumor and postchemotherapy changes, evaluating separately the response in the breast and in the axilla lymph nodes.	Results	2
+breast	UBERON:0000310	128-134
+breast	UBERON:0000310	199-205
+breast	UBERON:0000310	462-468
+surgery	OAE:0000067	147-154
+surgery	OAE:0000067	221-228
+surgery	OAE:0000067	334-341
+lymph	UBERON:0002391	487-492
+Time frame: Up to 29 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Doxorubicin + Cyclophosphamide Followed Docetaxel	Results	5
+doxorubicin	CHEBI:28748,BAO:0000639	17-28
+cyclophosphamide	CHEBI:4026	31-47
+Arm/Group Description: Patients received doxorubicin (60 mg/m2) and cyclophosphamide (600 mg/m2), both in a short intravenous infusion, every three weeks for four cycles (days 1, 22, 43 and 64). Three weeks later, docetaxel (36 mg/m2) was administered as a 30-min intravenous infusion, weekly for six weeks (days 85, 92, 99, 106, 113 and 120) followed by a 2-week resting period (8-week cycle). After that, patients received a second docetaxel cycle (infusions on days 141, 148, 155, 162, 169 and 176).	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	41-52
+cyclophosphamide	CHEBI:4026	68-84
+second	UO:0000010	427-433
+Overall Number of Participants Analyzed: 61	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  11  18.0%	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 12/63 (19.05%)	Adverse Events	1
+Febrile neutropenia *  [1]4/63 (6.35%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Congestive heart failure *  [2]1/63 (1.59%)	Adverse Events	3
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Cardiac-ischemia/infarction * 1/63 (1.59%)	Adverse Events	4
+Vomiting *  [1]1/63 (1.59%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Acute Pharyngitis * 1/63 (1.59%)	Adverse Events	6
+acute	HP:0011009,PATO:0000389	0-5
+pharyngitis	HP:0025439,DOID:2275	6-17
+Infection * 3/63 (4.76%)	Adverse Events	7
+Neutrophil count decreased *  [1]1/63 (1.59%)	Adverse Events	8
+Pneumonitis/pulmonary infiltrates *  [3]1/63 (1.59%)	Adverse Events	9

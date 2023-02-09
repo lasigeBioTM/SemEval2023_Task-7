@@ -1,0 +1,182 @@
+INTERVENTION 1:	Intervention	0
+Arm I Zoledronate	Intervention	1
+Patients receive zoledronate IV over 15 minutes once a month for 6 months and then once every 3 months for 2.5 years.	Intervention	2
+month	UO:0000035	55-60
+month	UO:0000035	67-72
+month	UO:0000035	96-101
+zoledronic acid: Given IV	Intervention	3
+zoledronic acid	CHEBI:46557	0-15
+INTERVENTION 2:	Intervention	4
+Arm II Clodronate	Intervention	5
+Patients receive oral clodronate once daily for 35 months.	Intervention	6
+clodronate disodium: Given orally	Intervention	7
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed primary adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	33-47
+breast	UBERON:0000310	55-61
+Stage I-III disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	12-19
+No evidence of metastatic disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	26-33
+Must have undergone lumpectomy or total mastectomy for primary disease within the past 12 weeks, or have completed chemotherapy within the past 8 weeks	Eligibility	4
+disease	DOID:4,OGMS:0000031	63-70
+Axillary evaluation per institutional standards	Eligibility	5
+Currently receiving or planning to receive standard adjuvant systemic therapy comprising chemotherapy, hormonal therapy, or combined chemotherapy/hormonal therapy for breast cancer	Eligibility	6
+adjuvant	CHEBI:60809	52-60
+breast cancer	DOID:1612	167-180
+Patients who are at low risk for disease recurrence and for whom adjuvant systemic therapy will not be prescribed are not eligible	Eligibility	7
+disease	DOID:4,OGMS:0000031	33-40
+adjuvant	CHEBI:60809	65-73
+Patients who receive biologic agents only or local radiotherapy only (without chemotherapy and/or hormone therapy) are not eligible	Eligibility	8
+radiotherapy	OAE:0000235	51-63
+hormone	CHEBI:24621	98-105
+Additional therapies are allowed including radiotherapy and biologic agents (e.g., trastuzumab [Herceptin^®], bevacizumab, or hematopoietic growth factors)	Eligibility	9
+radiotherapy	OAE:0000235	43-55
+growth	GO:0040007	140-146
+Neoadjuvant therapy or hormonal therapy alone is allowed provided study entry occurs  12 weeks after completion of surgery	Eligibility	10
+surgery	OAE:0000067	115-122
+Patients with skeletal pain are eligible provided bone scan and/or roentgenological exam are negative for metastatic disease	Eligibility	11
+pain	HP:0012531	23-27
+disease	DOID:4,OGMS:0000031	117-124
+Suspicious findings must be confirmed as benign by x-ray, MRI, or biopsy	Eligibility	12
+Hormone receptor status:	Eligibility	13
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	14
+PATIENT CHARACTERISTICS:	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	16
+age	PATO:0000011	0-3
+18 and over	Eligibility	17
+Sex	Eligibility	18
+Female	Eligibility	19
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	20
+Not specified	Eligibility	21
+Performance status	Eligibility	22
+Zubrod 0-2	Eligibility	23
+Life expectancy	Eligibility	24
+Not specified	Eligibility	25
+Hematopoietic	Eligibility	26
+Not specified	Eligibility	27
+Hepatic	Eligibility	28
+Not specified	Eligibility	29
+Renal	Eligibility	30
+Creatinine  2 times upper limit of normal	Eligibility	31
+creatinine	CHEBI:16737	0-10
+Creatinine clearance  30 mL/min	Eligibility	32
+creatinine clearance	CMO:0000765	0-20
+No renal failure	Eligibility	33
+Other	Eligibility	34
+Not pregnant or nursing	Eligibility	35
+Negative pregnancy test	Eligibility	36
+Fertile patients must use effective contraception	Eligibility	37
+No history of esophageal stricture or motility disorders	Eligibility	38
+history	BFO:0000182	3-10
+esophageal stricture	HP:0002043	14-34
+Gastroesophageal reflux disorder allowed	Eligibility	39
+gastroesophageal reflux	HP:0002020	0-23
+disorder	OGMS:0000045	24-32
+No other malignancy within the past 5 years except adequately treated basal cell or squamous cell skin cancer, carcinoma in situ of the cervix, or adequately treated stage I or II cancer in complete remission	Eligibility	40
+skin cancer	DOID:4159	98-109
+carcinoma	HP:0030731,DOID:305	111-120
+cancer	DOID:162	103-109
+cancer	DOID:162	180-186
+PRIOR CONCURRENT THERAPY:	Eligibility	41
+Biologic therapy	Eligibility	42
+Prior or concurrent hematopoietic growth factors allowed	Eligibility	43
+growth	GO:0040007	34-40
+HER-2-targeted therapies allowed	Eligibility	44
+Antiangiogenics allowed	Eligibility	45
+Chemotherapy	Eligibility	46
+See Disease Characteristics	Eligibility	47
+disease	DOID:4,OGMS:0000031	4-11
+Endocrine therapy	Eligibility	48
+See Disease Characteristics	Eligibility	49
+disease	DOID:4,OGMS:0000031	4-11
+Radiotherapy	Eligibility	50
+radiotherapy	OAE:0000235	0-12
+Concurrent radiotherapy to the breast, chest wall, or lymph node group allowed at the discretion of the treating physician	Eligibility	51
+radiotherapy	OAE:0000235	11-23
+breast	UBERON:0000310	31-37
+chest	UBERON:0001443	39-44
+lymph	UBERON:0002391	54-59
+group	CHEBI:24433	65-70
+Surgery	Eligibility	52
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	53
+disease	DOID:4,OGMS:0000031	4-11
+Other	Eligibility	54
+Prior neoadjuvant therapy allowed	Eligibility	55
+Prior bisphosphonates for bone density allowed	Eligibility	56
+No other concurrent bisphosphonates as adjuvant therapy or for treatment of osteoporosis	Eligibility	57
+adjuvant	CHEBI:60809	39-47
+osteoporosis	HP:0000939,DOID:11476	76-88
+No concurrent enrollment in clinical trials with bone density as an endpoint	Eligibility	58
+Concurrent enrollment on any other locoregional or systemic therapy breast cancer study (including cooperative group studies) allowed	Eligibility	59
+breast cancer	DOID:1612	68-81
+group	CHEBI:24433	111-116
+Outcome Measurement:	Results	0
+Disease-free Survival	Results	1
+Time from date of registration to date of first observation of recurrence or death due to any cause. Patients last known to be alive who have not experienced recurrence of disease are censored at their last contact date. The outcome for the disease-free survival will be presented as 5 year survival rate.	Results	2
+time	PATO:0000165	0-4
+death	OAE:0000632	77-82
+disease	DOID:4,OGMS:0000031	172-179
+disease	DOID:4,OGMS:0000031	241-248
+year	UO:0000036	286-290
+rate	BAO:0080019	300-304
+Time frame: Disease assessments are completed every 6 months for 5 years then annually for 5 years or until death or recurrence	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	12-19
+death	OAE:0000632	108-113
+Results 1:	Results	4
+Arm/Group Title: Arm I Zoledronate	Results	5
+Arm/Group Description: Patients receive zoledronate IV over 15 minutes once a month for 6 months and then once every 3 months for 2.5 years.	Results	6
+month	UO:0000035	78-83
+month	UO:0000035	90-95
+month	UO:0000035	119-124
+zoledronic acid: Given IV	Results	7
+zoledronic acid	CHEBI:46557	0-15
+Overall Number of Participants Analyzed: 2231	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of analyzed participants  88        (87 to 90)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm II Clodronate	Results	12
+Arm/Group Description: Patients receive oral clodronate once daily for 35 months.	Results	13
+clodronate disodium: Given orally	Results	14
+Overall Number of Participants Analyzed: 2235	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of analyzed participants  88        (86 to 89)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 21/2125 (0.99%)	Adverse Events	1
+Febrile neutropenia 0/2125 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Hemoglobin 0/2125 (0.00%)	Adverse Events	3
+hemoglobin	CHEBI:35143	0-10
+Cardiac General-Other 0/2125 (0.00%)	Adverse Events	4
+Cardiac-ischemia/infarction 1/2125 (0.05%)	Adverse Events	5
+Conduction abnorm/AV block - Sick sinus syndrome 0/2125 (0.00%)	Adverse Events	6
+sick sinus syndrome	HP:0011704,DOID:13884	29-48
+Left ventricular diastolic dysfunction 0/2125 (0.00%)	Adverse Events	7
+left ventricular diastolic dysfunction	HP:0025168	0-38
+Left ventricular systolic dysfunction 0/2125 (0.00%)	Adverse Events	8
+left ventricular systolic dysfunction	HP:0025169	0-37
+Pain - Cardiac/heart 0/2125 (0.00%)	Adverse Events	9
+pain	HP:0012531	0-4
+Adverse Events 2:	Adverse Events	10
+Total: 190/2186 (8.69%)	Adverse Events	11
+Febrile neutropenia 3/2186 (0.14%)	Adverse Events	12
+neutropenia	HP:0001875,DOID:1227	8-19
+Hemoglobin 3/2186 (0.14%)	Adverse Events	13
+hemoglobin	CHEBI:35143	0-10
+Cardiac General-Other 2/2186 (0.09%)	Adverse Events	14
+Cardiac-ischemia/infarction 1/2186 (0.05%)	Adverse Events	15
+Conduction abnorm/AV block - Sick sinus syndrome 1/2186 (0.05%)	Adverse Events	16
+sick sinus syndrome	HP:0011704,DOID:13884	29-48
+Left ventricular diastolic dysfunction 3/2186 (0.14%)	Adverse Events	17
+left ventricular diastolic dysfunction	HP:0025168	0-38
+Left ventricular systolic dysfunction 1/2186 (0.05%)	Adverse Events	18
+left ventricular systolic dysfunction	HP:0025169	0-37
+Pain - Cardiac/heart 3/2186 (0.14%)	Adverse Events	19
+pain	HP:0012531	0-4

@@ -1,0 +1,229 @@
+INTERVENTION 1:	Intervention	0
+BBT-I + Armodafinil	Intervention	1
+armodafinil	CHEBI:77590	8-19
+Two Brief Behavioral Therapy for Insomnia (BBT-I) sessions in person and additional brief BBT-I sessions over the phone.	Intervention	2
+insomnia	HP:0100785	33-41
+Armodafinil 150 mg/day by mouth.	Intervention	3
+armodafinil	CHEBI:77590	0-11
+mouth	UBERON:0000165	26-31
+BBT-I: Brief Behavioral Intervention for Insomnia (BBT-I): 2 sessions in person and additional brief sessions over the phone	Intervention	4
+insomnia	HP:0100785	41-49
+Armodafinil: 150 mg by mouth. Armodafinil is the enantiopure compound of the eugeroic modafinil (Provigil), containing only the (R)-(-)-enantiomer of the racemic modafinil.	Intervention	5
+armodafinil	CHEBI:77590	0-11
+armodafinil	CHEBI:77590	30-41
+mouth	UBERON:0000165	23-28
+eugeroic	CHEBI:77567	77-85
+modafinil	CHEBI:31859	2-11
+modafinil	CHEBI:31859	32-41
+modafinil	CHEBI:31859	86-95
+modafinil	CHEBI:31859	162-171
+r	CHEBI:8735	1-2
+r	CHEBI:8735	31-32
+r	CHEBI:8735	58-59
+r	CHEBI:8735	81-82
+r	CHEBI:8735	98-99
+r	CHEBI:8735	129-130
+r	CHEBI:8735	145-146
+r	CHEBI:8735	154-155
+INTERVENTION 2:	Intervention	6
+Behavioral Placebo + Armodafinil	Intervention	7
+armodafinil	CHEBI:77590	21-32
+Control behavioral intervention is a sleep hygiene handout completed by participant.	Intervention	8
+sleep	GO:0030431	37-42
+Armodafinil 150 mg/day by mouth.	Intervention	9
+armodafinil	CHEBI:77590	0-11
+mouth	UBERON:0000165	26-31
+Control: Control behavioral intervention is a sleep hygiene handout completed by participant.	Intervention	10
+sleep	GO:0030431	46-51
+Armodafinil: 150 mg by mouth. Armodafinil is the enantiopure compound of the eugeroic modafinil (Provigil), containing only the (R)-(-)-enantiomer of the racemic modafinil.	Intervention	11
+armodafinil	CHEBI:77590	0-11
+armodafinil	CHEBI:77590	30-41
+mouth	UBERON:0000165	23-28
+eugeroic	CHEBI:77567	77-85
+modafinil	CHEBI:31859	2-11
+modafinil	CHEBI:31859	32-41
+modafinil	CHEBI:31859	86-95
+modafinil	CHEBI:31859	162-171
+r	CHEBI:8735	1-2
+r	CHEBI:8735	31-32
+r	CHEBI:8735	58-59
+r	CHEBI:8735	81-82
+r	CHEBI:8735	98-99
+r	CHEBI:8735	129-130
+r	CHEBI:8735	145-146
+r	CHEBI:8735	154-155
+INCLUSION CRITERIA	Eligibility	0
+Be scheduled for cancer treatment with chemotherapy or biologics (prior chemotherapy and/or diagnosis of metastatic breast are allowed)	Eligibility	1
+cancer	DOID:162	17-23
+breast	UBERON:0000310	116-122
+Have at least 6 weeks of treatment remaining	Eligibility	2
+21 years old	Eligibility	3
+Able to understand written and spoken English	Eligibility	4
+Able to swallow medication (until amendment omitting armodafinil treatment)	Eligibility	5
+armodafinil	CHEBI:77590	53-64
+Score of 3+ on the Sleep Disruption Evaluation form, OR a score of 8+ on Insomnia Severity Index (ISI)	Eligibility	6
+sleep	GO:0030431	19-24
+insomnia	HP:0100785	73-81
+severity	HP:0012824	82-90
+EXCLUSION CRITERIA	Eligibility	7
+Prior treatment with armodafinil or modafinil (until amendment omitting armodafinil treatment)	Eligibility	8
+armodafinil	CHEBI:77590	21-32
+armodafinil	CHEBI:77590	72-83
+modafinil	CHEBI:31859	23-32
+modafinil	CHEBI:31859	36-45
+modafinil	CHEBI:31859	74-83
+Prior treatment with psycho-stimulant medication within the past 28 days (until amendment omitting armodafinil treatment)	Eligibility	9
+armodafinil	CHEBI:77590	99-110
+Prior treatment with antiseizure medications (until amendment omitting armodafinil treatment)	Eligibility	10
+armodafinil	CHEBI:77590	71-82
+Has continuously taken sleep medication daily for the last 28 days (until amendment omitting armodafinil treatment)	Eligibility	11
+sleep	GO:0030431	23-28
+armodafinil	CHEBI:77590	93-104
+History (self-reported) of unstable medical or psychiatric illness (within the last 5 years)	Eligibility	12
+history	BFO:0000182	0-7
+History of uncontrolled, cardiac disease, hypertension, severe headaches, glaucoma, or seizures (until amendment omitting armodafinil treatment)	Eligibility	13
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	33-40
+hypertension	HP:0000822,DOID:10763	42-54
+severe	HP:0012828	56-62
+glaucoma	HP:0000501,DOID:1686	74-82
+armodafinil	CHEBI:77590	122-133
+Pregnant or nursing	Eligibility	14
+History of substance abuse or meet criteria for current alcohol abuse or dependence	Eligibility	15
+history	BFO:0000182	0-7
+substance abuse	DOID:302	11-26
+alcohol	CHEBI:16236	56-63
+History (self-reported) of chronic, preexisting insomnia, sleep apnea, or restless leg syndrome (RLS)	Eligibility	16
+history	BFO:0000182	0-7
+chronic	HP:0011010	27-34
+insomnia	HP:0100785	48-56
+sleep apnea	HP:0010535,DOID:0050847	58-69
+leg	UBERON:0000978	83-86
+syndrome	DOID:225	87-95
+Severe hepatic impairment (until amendment omitting armodafinil treatment)	Eligibility	17
+severe	HP:0012828	0-6
+armodafinil	CHEBI:77590	52-63
+Outcome Measurement:	Results	0
+Insomnia Severity Index (ISI)	Results	1
+insomnia	HP:0100785	0-8
+severity	HP:0012824	9-17
+Insomnia Severity Index (ISI) survey questionnaire is a 7-question survey, with each question having 5 possible answers (none, mild, moderate, severe, or very severe), scored as 0, 1, 2, 3, or 4, respectively. The full range of ISI scores is from 0 to 28. Lower scores are considered good, better, or healthy, and increasingly higher scores are considered to indicate greater insomnia. Clinical interpretation is as follows.	Results	2
+insomnia	HP:0100785	0-8
+insomnia	HP:0100785	376-384
+severity	HP:0012824	9-17
+mild	HP:0012825	127-131
+moderate	HP:0012826	133-141
+severe	HP:0012828	143-149
+severe	HP:0012828	159-165
+range	LABO:0000114	219-224
+healthy	HP:0032322	301-308
+0 to 7 No clinically significant insomnia	Results	3
+insomnia	HP:0100785	33-41
+8 to14 Subthreshold insomnia	Results	4
+insomnia	HP:0100785	20-28
+15 to 21 Clinical insomnia (moderate severity)	Results	5
+insomnia	HP:0100785	18-26
+moderate	HP:0012826	28-36
+severity	HP:0012824	37-45
+22 to 28 Clinical insomnia (severe)	Results	6
+insomnia	HP:0100785	18-26
+severe	HP:0012828	28-34
+ISI survey was conducted at baseline, 3 weeks, 6 weeks, 10 weeks, and 32 weeks. The outcome is reported as the mean ISI score with standard deviation.	Results	7
+mean	BAO:0002173	111-115
+standard deviation	BAO:0002176	131-149
+Time frame: up to 32 Weeks	Results	8
+time	PATO:0000165	0-4
+Results 1:	Results	9
+Arm/Group Title: BBT-I + Armodafinil	Results	10
+armodafinil	CHEBI:77590	25-36
+Arm/Group Description: Two Brief Behavioral Therapy for Insomnia (BBT-I) sessions in person and additional brief BBT-I sessions over the phone.	Results	11
+insomnia	HP:0100785	56-64
+Armodafinil 150 mg/day by mouth.	Results	12
+armodafinil	CHEBI:77590	0-11
+mouth	UBERON:0000165	26-31
+BBT-I: Brief Behavioral Intervention for Insomnia (BBT-I): 2 sessions in person and additional brief sessions over the phone	Results	13
+insomnia	HP:0100785	41-49
+Armodafinil: 150 mg by mouth. Armodafinil is the enantiopure compound of the eugeroic modafinil (Provigil), containing only the (R)-(-)-enantiomer of the racemic modafinil.	Results	14
+armodafinil	CHEBI:77590	0-11
+armodafinil	CHEBI:77590	30-41
+mouth	UBERON:0000165	23-28
+eugeroic	CHEBI:77567	77-85
+modafinil	CHEBI:31859	2-11
+modafinil	CHEBI:31859	32-41
+modafinil	CHEBI:31859	86-95
+modafinil	CHEBI:31859	162-171
+r	CHEBI:8735	1-2
+r	CHEBI:8735	31-32
+r	CHEBI:8735	58-59
+r	CHEBI:8735	81-82
+r	CHEBI:8735	98-99
+r	CHEBI:8735	129-130
+r	CHEBI:8735	145-146
+r	CHEBI:8735	154-155
+Overall Number of Participants Analyzed: 9	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Baseline: 9 participants	Results	17
+16.3         (7.4)	Results	18
+3 Weeks: 2 participants	Results	19
+13.0         (7.1)	Results	20
+6 Weeks: 6 participants	Results	21
+9         (6.1)	Results	22
+10 Weeks: 4 participants	Results	23
+6.0         (3.6)	Results	24
+32 Weeks: 1 participants	Results	25
+3.0  [1]        (NA)	Results	26
+Results 2:	Results	27
+Arm/Group Title: Behavioral Placebo + Armodafinil	Results	28
+armodafinil	CHEBI:77590	38-49
+Arm/Group Description: Control behavioral intervention is a sleep hygiene handout completed by participant.	Results	29
+sleep	GO:0030431	60-65
+Armodafinil 150 mg/day by mouth.	Results	30
+armodafinil	CHEBI:77590	0-11
+mouth	UBERON:0000165	26-31
+Control: Control behavioral intervention is a sleep hygiene handout completed by participant.	Results	31
+sleep	GO:0030431	46-51
+Armodafinil: 150 mg by mouth. Armodafinil is the enantiopure compound of the eugeroic modafinil (Provigil), containing only the (R)-(-)-enantiomer of the racemic modafinil.	Results	32
+armodafinil	CHEBI:77590	0-11
+armodafinil	CHEBI:77590	30-41
+mouth	UBERON:0000165	23-28
+eugeroic	CHEBI:77567	77-85
+modafinil	CHEBI:31859	2-11
+modafinil	CHEBI:31859	32-41
+modafinil	CHEBI:31859	86-95
+modafinil	CHEBI:31859	162-171
+r	CHEBI:8735	1-2
+r	CHEBI:8735	31-32
+r	CHEBI:8735	58-59
+r	CHEBI:8735	81-82
+r	CHEBI:8735	98-99
+r	CHEBI:8735	129-130
+r	CHEBI:8735	145-146
+r	CHEBI:8735	154-155
+Overall Number of Participants Analyzed: 9	Results	33
+Mean (Standard Deviation)	Results	34
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Baseline: 9 participants	Results	35
+14.6         (6.3)	Results	36
+3 Weeks: 9 participants	Results	37
+10.8         (6.5)	Results	38
+6 Weeks: 9 participants	Results	39
+10         (6.9)	Results	40
+10 Weeks: 9 participants	Results	41
+8.3         (5.6)	Results	42
+32 Weeks: 9 participants	Results	43
+7.6         (4.4)	Results	44
+Adverse Events 1:	Adverse Events	0
+Total: 1/9 (11.11%)	Adverse Events	1
+Death, not otherwise specified 0/9 (0.00%)	Adverse Events	2
+death	OAE:0000632	0-5
+Pain, bone 1/9 (11.11%)	Adverse Events	3
+pain	HP:0012531	0-4
+Adverse Events 2:	Adverse Events	4
+Total: 1/9 (11.11%)	Adverse Events	5
+Death, not otherwise specified 1/9 (11.11%)	Adverse Events	6
+death	OAE:0000632	0-5
+Pain, bone 0/9 (0.00%)	Adverse Events	7
+pain	HP:0012531	0-4

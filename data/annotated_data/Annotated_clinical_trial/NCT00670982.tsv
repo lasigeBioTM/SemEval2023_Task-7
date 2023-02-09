@@ -1,0 +1,167 @@
+INTERVENTION 1:	Intervention	0
+First Line Treatment	Intervention	1
+Patients with no prior therapy for metastatic breast cancer will receive bevacizumab intravenously every 2 weeks and vinorelbine intravenously once per week, and trastuzumab intravenously once per week	Intervention	2
+breast cancer	DOID:1612	46-59
+vinorelbine	CHEBI:480999	117-128
+week	UO:0000034	107-111
+week	UO:0000034	152-156
+week	UO:0000034	197-201
+INTERVENTION 2:	Intervention	3
+Second Line Treatment	Intervention	4
+second	UO:0000010	0-6
+Patients with 1 prior line for metastatic breast cancer will receive bevacizumab intravenously every two weeks, vinorelbine intravenously once per week, and trastuzumab intravenously once per week.	Intervention	5
+breast cancer	DOID:1612	42-55
+vinorelbine	CHEBI:480999	112-123
+week	UO:0000034	105-109
+week	UO:0000034	147-151
+week	UO:0000034	192-196
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed invasive breast cancer, with metastatic disease.	Eligibility	1
+breast cancer	DOID:1612	51-64
+disease	DOID:4,OGMS:0000031	82-89
+HER2-positive tumor	Eligibility	2
+Measurable disease defined as at least one lesion that can be accurately measured in at least one dimension as 20mm or greater with conventional techniques or as 10mm or greater with spiral CT scan	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+ct	BAO:0002125	190-192
+18 years of age or older	Eligibility	4
+age	PATO:0000011	12-15
+Life expectancy of more than 12 weeks	Eligibility	5
+ECOG Performance Status of 0 or 1	Eligibility	6
+Normal organ and marrow function as outlined in the protocol	Eligibility	7
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	24-32
+Left ventricular ejection fraction 50% or greater as determined by RVG or echocardiogram within 30 days prior to initiation of protocol therapy	Eligibility	8
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Patients with stable or previously treated CNS metastases are eligible for study participation, provided there is no history of clinically significant CNS bleeding	Eligibility	9
+stable	HP:0031915	14-20
+history	BFO:0000182	117-124
+Men and women of child-bearing potential must agree to use adequate contraception prior to study entry and for the duration of study participation	Eligibility	10
+duration	PATO:0001309	115-123
+COHORT A:	Eligibility	11
+No prior chemotherapy for treatment of metastatic breast cancer	Eligibility	12
+breast cancer	DOID:1612	50-63
+May NOT have received prior treatment with trastuzumab for recurrent or metastatic breast cancer	Eligibility	13
+recurrent	HP:0031796	59-68
+breast cancer	DOID:1612	83-96
+No prior vinorelbine for treatment of breast cancer	Eligibility	14
+vinorelbine	CHEBI:480999	9-20
+breast cancer	DOID:1612	38-51
+No prior bevacizumab for treatment of breast cancer	Eligibility	15
+breast cancer	DOID:1612	38-51
+May have received prior radiation therapy and/or any number of lines of hormonal therapy	Eligibility	16
+Prior trastuzumab therapy in the adjuvant setting is also allowed, providing that relapse occured at least 12 months following the last dose	Eligibility	17
+adjuvant	CHEBI:60809	33-41
+Must have recovered from all reversible toxicities related to prior therapy and may not have any pre-existing treatment-related toxicities in excess of Grade 1. Patients must have stopped prior radiation therapy at least 7 days prior to beginning protocol treatment	Eligibility	18
+COHORT B:	Eligibility	19
+One prior line of chemotherapy for treatment of metastatic breast cancer or recurrence of breast cancer within 12 months of completion of adjuvant trastuzumab	Eligibility	20
+breast cancer	DOID:1612	59-72
+breast cancer	DOID:1612	90-103
+adjuvant	CHEBI:60809	138-146
+No prior vinorelbine for treatment of breast cancer	Eligibility	21
+vinorelbine	CHEBI:480999	9-20
+breast cancer	DOID:1612	38-51
+No prior bevacizumab for treatment of breast cancer	Eligibility	22
+breast cancer	DOID:1612	38-51
+May have received prior radiation therapy and/or any number of lines of hormonal therapy	Eligibility	23
+Must have recovered from all reversible toxicities related to prior therapy and may not have any pre-existing treatment-related toxicities in excess of Grade 1. Patients must have stopped prior radiation therapy at least 7 days prior to beginning protocol treatment	Eligibility	24
+Exclusion Criteria:	Eligibility	25
+Patients who have had chemotherapy within 14 days prior to entering the study, ot those who have not recovered adequately from adverse events due to agents administered earlier	Eligibility	26
+Concurrent radiation therapy	Eligibility	27
+History of Grade 3 or 4 allergic reactions attributed to compounds of similar chemical or biologic composition as the agents used in this study	Eligibility	28
+history	BFO:0000182	0-7
+Prior therapy with bevacizumab or vinorelbine	Eligibility	29
+vinorelbine	CHEBI:480999	34-45
+Current, recent (within 4 weeks of the first infusion of this study), or planned participation in an experimental drug study other than a Genentech-sponsored bevacizumab cancer study	Eligibility	30
+drug	CHEBI:23888	114-118
+cancer	DOID:162	170-176
+Inadequately controlled hypertension	Eligibility	31
+hypertension	HP:0000822,DOID:10763	24-36
+Prior history of hypertensive crisis of hypertensive encephalopathy	Eligibility	32
+history	BFO:0000182	6-13
+hypertensive crisis	HP:0100735	17-36
+hypertensive encephalopathy	DOID:9427	40-67
+NHYA Grade II or greater congestive heart failure	Eligibility	33
+congestive heart failure	HP:0001635,DOID:6000	25-49
+History of myocardial infarction of unstable angina within 6 months prior to study enrollment	Eligibility	34
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+History of stroke or transient ischemic attack within 6 months prior to study enrollment	Eligibility	35
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+transient ischemic attack	HP:0002326,DOID:224	21-46
+Progressive or untreated CNS metastases	Eligibility	36
+progressive	HP:0003676	0-11
+Significant vascular disease within 6 months prior to study enrollment	Eligibility	37
+vascular disease	DOID:178	12-28
+Symptomatic peripheral vascular disease	Eligibility	38
+peripheral vascular disease	DOID:341	12-39
+Evidence of bleeding diathesis or coagulopathy	Eligibility	39
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to study enrollment or anticipation of need for major surgical procedure during the course of the study	Eligibility	40
+Core biopsy or other minor surgical procedure, excluding placement of vascular access device, within 7 days prior to study enrollment	Eligibility	41
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to study enrollment	Eligibility	42
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+Serious non-healing wound, active ulcer, or untreated bone fracture	Eligibility	43
+active	PATO:0002354	27-33
+ulcer	OAE:0004372	34-39
+bone fracture	HP:0020110	54-67
+Proteinuria at screening	Eligibility	44
+proteinuria	HP:0000093,DOID:576	0-11
+Pregnant or lactating	Eligibility	45
+Current and ongoing treatment with full-dose warfarin or its equivalent	Eligibility	46
+warfarin	CHEBI:10033	45-53
+Outcome Measurement:	Results	0
+Proportion of Patients Alive and Without Progression of Disease at 1 Year From Start of Protocol-based Therapy.	Results	1
+disease	DOID:4,OGMS:0000031	56-63
+year	UO:0000036	69-73
+Percentage of patients on study without progression at one year after first treatment on study.The date of progression was defined as the earliest occurence of any of the following events: progressive disease by RECIST v1.0, date of initiation of new anticancer therapy, or death due to any cause. New anticancer therapy was defined as the addition or initiation of any new agent for treatment of cancer not including trastuzumab, vinorelbine or bevacizumab.	Results	2
+year	UO:0000036	59-63
+progressive	HP:0003676	189-200
+disease	DOID:4,OGMS:0000031	201-208
+death	OAE:0000632	274-279
+cancer	DOID:162	255-261
+cancer	DOID:162	306-312
+cancer	DOID:162	397-403
+vinorelbine	CHEBI:480999	431-442
+Time frame: 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: First Line Treatment	Results	5
+Arm/Group Description: Patients with no prior therapy for metastatic breast cancer will receive bevacizumab intravenously every 2 weeks and vinorelbine intravenously once per week, and trastuzumab intravenously once per week	Results	6
+breast cancer	DOID:1612	69-82
+vinorelbine	CHEBI:480999	140-151
+week	UO:0000034	130-134
+week	UO:0000034	175-179
+week	UO:0000034	220-224
+Overall Number of Participants Analyzed: 22	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  36        (17 to 59)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Second Line Treatment	Results	11
+second	UO:0000010	17-23
+Arm/Group Description: Patients with 1 prior line for metastatic breast cancer will receive bevacizumab intravenously every two weeks, vinorelbine intravenously once per week, and trastuzumab intravenously once per week.	Results	12
+breast cancer	DOID:1612	65-78
+vinorelbine	CHEBI:480999	135-146
+week	UO:0000034	128-132
+week	UO:0000034	170-174
+week	UO:0000034	215-219
+Overall Number of Participants Analyzed: 7	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  29        (4 to 71)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 9/29 (31.03%)	Adverse Events	1
+Neutropenia 5/29 (17.24%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Cataracts 1/29 (3.45%)	Adverse Events	3
+Abdominal Pain 1/29 (3.45%)	Adverse Events	4
+abdominal pain	HP:0002027	0-14
+Perforated Appendix 1/29 (3.45%)	Adverse Events	5
+Surgical Intervention 1/29 (3.45%)	Adverse Events	6
+Deep Vein Thrombosis 1/29 (3.45%)	Adverse Events	7
+vein	UBERON:0001638	5-9
+thrombosis	DOID:0060903	10-20
+Cerebrovascular Ischemia 1/29 (3.45%)	Adverse Events	8
+ischemia	DOID:326	16-24
+Adverse Events 2:	Adverse Events	9

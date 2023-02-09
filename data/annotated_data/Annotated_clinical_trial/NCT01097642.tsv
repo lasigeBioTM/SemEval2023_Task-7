@@ -1,0 +1,182 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone	Intervention	1
+ixabepilone	CHEBI:63605	0-11
+Brand name is Ixempra ®; it is an epothilone B analog used in combination with other chemotherapeutics against cancer.	Intervention	2
+epothilone b	CHEBI:31550	34-46
+cancer	DOID:162	111-117
+Ixabepilone: Ixabepilone will be given at 40mg/m^2 IV over 180 minutes on day 1 of each of four 21 day cycles.	Intervention	3
+ixabepilone	CHEBI:63605	0-11
+ixabepilone	CHEBI:63605	13-24
+day	UO:0000033	74-77
+day	UO:0000033	99-102
+INTERVENTION 2:	Intervention	4
+Ixabepilone Plus Cetuximab	Intervention	5
+ixabepilone	CHEBI:63605	0-11
+Cetuximab, brand name Erbitux, is an epidermal growth factor receptor (EGFR) inhibitor and monoclonal antibody used with Ixabepilone against cancer.	Intervention	6
+growth factor	BAO:0002024	47-60
+receptor	BAO:0000281	61-69
+inhibitor	CHEBI:35222	77-86
+monoclonal	BAO:0000503	91-101
+antibody	GO:0042571,BAO:0000502	102-110
+ixabepilone	CHEBI:63605	121-132
+cancer	DOID:162	141-147
+Cetuximab: Cetuximab will be given at 400mg/m^2 IV over 120 minutes for its initial loading dose on day 1 of the first of four 21 day cycles. It will then be administered on a weekly basis at 250 mg/m^2 IV over 60 minutes.	Intervention	7
+day	UO:0000033	100-103
+day	UO:0000033	130-133
+Ixabepilone: Ixabepilone will be given at 40mg/m^2 IV over 180 minutes on day 1 of each of four 21 day cycles.	Intervention	8
+ixabepilone	CHEBI:63605	0-11
+ixabepilone	CHEBI:63605	13-24
+day	UO:0000033	74-77
+day	UO:0000033	99-102
+Inclusion Criteria:	Eligibility	0
+Patients with histologic confirmation of invasive breast carcinoma.	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	50-66
+Patients must have intact primary tumor.	Eligibility	2
+Patients greater than or equal to 18 years.	Eligibility	3
+Patients should have T1N1-3M0 or T2-4 N0-3M0.	Eligibility	4
+Patients with bilateral breast cancer are eligible.	Eligibility	5
+bilateral breast cancer	DOID:6741	14-37
+Patients with second primary breast cancers are eligible.	Eligibility	6
+second	UO:0000010	14-20
+breast	UBERON:0000310	29-35
+Patients should have a Karnofsky performance scale of greater than or equal to 70%.	Eligibility	7
+Patients must have clinically measurable disease to be treated in the neoadjuvant setting.	Eligibility	8
+disease	DOID:4,OGMS:0000031	41-48
+Patients should have adequate bone marrow function, as defined by peripheral granulocyte count of greater than or equal to 1500/mm^3, and platelet count greater than or equal to 100000mm^3.	Eligibility	9
+bone marrow	UBERON:0002371	30-41
+function	BAO:0003117,BFO:0000034	42-50
+peripheral	HP:0030646	66-76
+platelet count	CMO:0000029	138-152
+Patients must have adequate liver function with a bilirubin within normal laboratory values. Alkaline phosphatase and transaminases (ALT and AST) may be up to 1.5 x upper limit of normal (ULN) of the institution.	Eligibility	10
+liver	UBERON:0002107	28-33
+function	BAO:0003117,BFO:0000034	34-42
+phosphatase	GO:0016791,BAO:0000295	102-113
+x	LABO:0000148	163-164
+Patients should have adequate renal function with creatinine levels within normal range.	Eligibility	11
+function	BAO:0003117,BFO:0000034	36-44
+creatinine	CHEBI:16737	50-60
+range	LABO:0000114	82-87
+Patients should have a normal left ventricular ejection fraction (LVEF) of greater than or equal to 50%.	Eligibility	12
+left	HP:0012835	30-34
+ejection fraction	CMO:0000180	47-64
+Negative serum or urine pregnancy test for a woman of childbearing potential (WOCBP).	Eligibility	13
+urine	UBERON:0001088	18-23
+WOCBP must use a reliable and appropriate contraceptive method during the study and six months after chemotherapy is completed. WOCBP are women who are not menopausal for 12 months or had no previous surgical sterilization.	Eligibility	14
+Patients must agree to have study biopsies.	Eligibility	15
+Patients must sign an informed consent indicating that they are aware of the investigational nature of the study, in keeping with institutional policy.	Eligibility	16
+Exclusion Criteria:	Eligibility	17
+Patients with a history of other invasive malignancies diagnosed and treated within the previous 5 years, except non-melanoma skin cancer and non-invasive cervical cancer.	Eligibility	18
+history	BFO:0000182	16-23
+skin cancer	DOID:4159	126-137
+cervical cancer	DOID:4362	155-170
+Her2Neu, ER and PR positive patients should be excluded.	Eligibility	19
+excluded	HP:0040285	47-55
+Patients with Inflammatory breast cancer (IBC) are excluded.	Eligibility	20
+breast cancer	DOID:1612	27-40
+excluded	HP:0040285	51-59
+Patients with an organ allograft or other history of immune compromise.	Eligibility	21
+organ	UBERON:0000062	17-22
+history	BFO:0000182	42-49
+Prior treatment with any investigational drug within the preceding 4 weeks.	Eligibility	22
+drug	CHEBI:23888	41-45
+Chronic treatment with systemic steroids or another immunosuppressive agent.	Eligibility	23
+chronic	HP:0011010	0-7
+immunosuppressive agent	CHEBI:35705	52-75
+A Known history of HIV seropositivity.	Eligibility	24
+history	BFO:0000182	8-15
+Patients with an active, bleeding diathesis or on oral anti-vitamin K medication (except low dose coumarin defined as 1 mg a day).	Eligibility	25
+active	PATO:0002354	17-23
+coumarin	CHEBI:28794	98-106
+day	UO:0000033	125-128
+Other concurrent and/or uncontrolled medical disease which could compromise participation in the study (i.e., uncontrolled diabetes, uncontrolled hypertension, severe infection, severe malnutrition, unstable angina, or congestive heart failure - New York Heart Association Class III or IV, ventricular arrhythmias, active ischemic heart disease, myocardial infarction within six months, chronic liver or renal disease, active upper GI tract ulceration).	Eligibility	26
+disease	DOID:4,OGMS:0000031	45-52
+disease	DOID:4,OGMS:0000031	337-344
+disease	DOID:4,OGMS:0000031	410-417
+hypertension	HP:0000822,DOID:10763	146-158
+severe infection	HP:0032169	160-176
+severe	HP:0012828	160-166
+severe	HP:0012828	178-184
+malnutrition	HP:0004395	185-197
+congestive heart failure	HP:0001635,DOID:6000	219-243
+heart	UBERON:0000948	230-235
+heart	UBERON:0000948	255-260
+heart	UBERON:0000948	331-336
+active	PATO:0002354	315-321
+active	PATO:0002354	419-425
+heart disease	DOID:114	331-344
+myocardial infarction	HP:0001658,DOID:5844	346-367
+chronic	HP:0011010	387-394
+liver	UBERON:0002107	395-400
+Patients with a pre-existing peripheral neuropathy.	Eligibility	27
+peripheral neuropathy	HP:0009830,DOID:870	29-50
+Outcome Measurement:	Results	0
+Complete Response Rate	Results	1
+rate	BAO:0080019	18-22
+The study's primary objective is to determine the pathologic complete response rate (pCR) (breast and axilla) of Ixabepilone versus Ixabepilone when combined with cetuximab in patients with invasive breast adenocarcinoma T1N1-N3M0 or T2-4 N0-3M0 disease who are triple negative and who are candidates for preoperative chemotherapy.	Results	2
+rate	BAO:0080019	79-83
+breast	UBERON:0000310	91-97
+breast	UBERON:0000310	199-205
+ixabepilone	CHEBI:63605	113-124
+ixabepilone	CHEBI:63605	132-143
+breast adenocarcinoma	DOID:3458	199-220
+disease	DOID:4,OGMS:0000031	246-253
+The criteria used: "Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.", or similar definition that is accurate and appropriate.	Results	3
+target	BAO:0003064	92-98
+target	BAO:0003064	173-179
+target	BAO:0003064	265-271
+diameter	PATO:0001334	253-261
+Time frame: one year after treatment	Results	4
+time	PATO:0000165	0-4
+year	UO:0000036	16-20
+Results 1:	Results	5
+Arm/Group Title: Ixabepilone	Results	6
+ixabepilone	CHEBI:63605	17-28
+Arm/Group Description: Brand name is Ixempra   ; it is an epothilone B analog used in combination with other chemotherapeutics against cancer.	Results	7
+epothilone b	CHEBI:31550	58-70
+cancer	DOID:162	135-141
+Ixabepilone: Ixabepilone will be given at 40mg/m^2 IV over 180 minutes on day 1 of each of four 21 day cycles.	Results	8
+ixabepilone	CHEBI:63605	0-11
+ixabepilone	CHEBI:63605	13-24
+day	UO:0000033	74-77
+day	UO:0000033	99-102
+Overall Number of Participants Analyzed: 15	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  2  13.3%	Results	11
+Results 2:	Results	12
+Arm/Group Title: Ixabepilone Plus Cetuximab	Results	13
+ixabepilone	CHEBI:63605	17-28
+Arm/Group Description: Cetuximab, brand name Erbitux, is an epidermal growth factor receptor (EGFR) inhibitor and monoclonal antibody used with Ixabepilone against cancer.	Results	14
+growth factor	BAO:0002024	70-83
+receptor	BAO:0000281	84-92
+inhibitor	CHEBI:35222	100-109
+monoclonal	BAO:0000503	114-124
+antibody	GO:0042571,BAO:0000502	125-133
+ixabepilone	CHEBI:63605	144-155
+cancer	DOID:162	164-170
+Cetuximab: Cetuximab will be given at 400mg/m^2 IV over 120 minutes for its initial loading dose on day 1 of the first of four 21 day cycles. It will then be administered on a weekly basis at 250 mg/m^2 IV over 60 minutes.	Results	15
+day	UO:0000033	100-103
+day	UO:0000033	130-133
+Ixabepilone: Ixabepilone will be given at 40mg/m^2 IV over 180 minutes on day 1 of each of four 21 day cycles.	Results	16
+ixabepilone	CHEBI:63605	0-11
+ixabepilone	CHEBI:63605	13-24
+day	UO:0000033	74-77
+day	UO:0000033	99-102
+Overall Number of Participants Analyzed: 25	Results	17
+Measure Type: Count of Participants	Results	18
+Unit of Measure: Participants  8  32.0%	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 2/15 (13.33%)	Adverse Events	1
+Neutropenia  0/15 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+GI Events  0/15 (0.00%)	Adverse Events	3
+Peripheral neuropathy  2/15 (13.33%)	Adverse Events	4
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Rash  0/15 (0.00%)	Adverse Events	5
+Adverse Events 2:	Adverse Events	6
+Total: 6/25 (24.00%)	Adverse Events	7
+Neutropenia  2/25 (8.00%)	Adverse Events	8
+neutropenia	HP:0001875,DOID:1227	0-11
+GI Events  1/25 (4.00%)	Adverse Events	9
+Peripheral neuropathy  2/25 (8.00%)	Adverse Events	10
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Rash  1/25 (4.00%)	Adverse Events	11

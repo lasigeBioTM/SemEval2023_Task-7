@@ -1,0 +1,105 @@
+INTERVENTION 1:	Intervention	0
+HylaCare	Intervention	1
+Each patient will be randomized blindly as to whether the study serum will be applied to the medial or lateral portion of the treated breast, using the nipple as the dividing line. The product and placebo will also be applied to the contra-lateral breast in the same fashion, as a further control. The study drug and placebo will be applied three times daily, but not within four hours prior to radiation treatment. Each patient will use both HA study cream and placebo.	Intervention	2
+patient	HADO:0000008,OAE:0001817	5-12
+patient	HADO:0000008,OAE:0001817	421-428
+lateral	HP:0025275	103-110
+lateral	HP:0025275	240-247
+breast	UBERON:0000310	134-140
+breast	UBERON:0000310	248-254
+product	BAO:0003067	185-192
+drug	CHEBI:23888	308-312
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Each patient will be randomized blindly as to whether the study serum will be applied to the medial or lateral portion of the treated breast, using the nipple as the dividing line. The product and placebo will also be applied to the contra-lateral breast in the same fashion, as a further control. The study drug and placebo will be applied three times daily, but not within four hours prior to radiation treatment. Each patient will use both HA study cream and placebo.	Intervention	5
+patient	HADO:0000008,OAE:0001817	5-12
+patient	HADO:0000008,OAE:0001817	421-428
+lateral	HP:0025275	103-110
+lateral	HP:0025275	240-247
+breast	UBERON:0000310	134-140
+breast	UBERON:0000310	248-254
+product	BAO:0003067	185-192
+drug	CHEBI:23888	308-312
+Inclusion Criteria:	Eligibility	0
+Female, age 18 or older	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	8-11
+Diagnosis of breast cancer	Eligibility	2
+breast cancer	DOID:1612	13-26
+Intact breast (not surgically absent)	Eligibility	3
+breast	UBERON:0000310	7-13
+absent	PATO:0000462	30-36
+Planned fractionated external beam radiotherapy to be delivered by opposing, tangential beams to 50.4 Gy in 28 fractions with a planned photon or electron boost of 10Gy in 5 fractions (for a total of 33 fractions)	Eligibility	4
+radiotherapy	OAE:0000235	35-47
+photon	CHEBI:30212	136-142
+electron	CHEBI:10545	146-154
+Ability to understand and comply with the requirements of this study	Eligibility	5
+Ability to give Informed Consent	Eligibility	6
+For sexually active females, patient agrees to use acceptable method of birth control	Eligibility	7
+active	PATO:0002354	13-19
+patient	HADO:0000008,OAE:0001817	29-36
+Exclusion Criteria:	Eligibility	8
+Women who are pregnant or lactating	Eligibility	9
+Use of concomitant skin care preparations at any of the treated or control portal areas to be observed	Eligibility	10
+Any infection or unhealed wound of the radiotherapy portal areas, or generalized dermatitis	Eligibility	11
+radiotherapy	OAE:0000235	39-51
+generalized	HP:0012837	69-80
+dermatitis	DOID:2723	81-91
+Severe renal failure creatinine > 3.0 within 6 months of study registration	Eligibility	12
+severe	HP:0012828	0-6
+creatinine	CHEBI:16737	21-31
+Allergic history, including anaphylaxis or severe allergies to products in study serum or placebo	Eligibility	13
+history	BFO:0000182	9-16
+severe	HP:0012828	43-49
+Planned relocation which would make follow-up visits impossible during the course of the study	Eligibility	14
+Collagen vascular disease such as Lupus, or scleroderma	Eligibility	15
+collagen	CHEBI:3815	0-8
+vascular disease	DOID:178	9-25
+scleroderma	HP:0100324,DOID:419,DOID:418	44-55
+Outcome Measurement:	Results	0
+Acute Skin Toxicity Per NCI-CTC v4.0	Results	1
+acute	HP:0011009,PATO:0000389	0-5
+NCI-CTC (National Cancer Institute-Common Terminology Criteria) version 4.0 was used to assessed acute skin toxicity grade by physician. Toxicity grade range from Grade 0 to Grade 5, with higher grade indicating worst skin toxicity.	Results	2
+cancer	DOID:162	18-24
+acute	HP:0011009,PATO:0000389	97-102
+range	LABO:0000114	152-157
+Time frame: Week 5 during radiation therapy	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	12-16
+Results 1:	Results	4
+Arm/Group Title: HylaCare	Results	5
+Arm/Group Description: Each patient will be randomized blindly as to whether the study serum will be applied to the medial or lateral portion of the treated breast, using the nipple as the dividing line. The product and placebo will also be applied to the contra-lateral breast in the same fashion, as a further control. The study drug and placebo will be applied three times daily, but not within four hours prior to radiation treatment. Each patient will use both HA study cream and placebo.	Results	6
+patient	HADO:0000008,OAE:0001817	28-35
+patient	HADO:0000008,OAE:0001817	444-451
+lateral	HP:0025275	126-133
+lateral	HP:0025275	263-270
+breast	UBERON:0000310	157-163
+breast	UBERON:0000310	271-277
+product	BAO:0003067	208-215
+drug	CHEBI:23888	331-335
+Overall Number of Participants Analyzed: 28	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Grade 0: 3  10.7%	Results	9
+Grade 1: 19  67.9%	Results	10
+Grade 2: 6  21.4%	Results	11
+Grade   3: 0   0.0%	Results	12
+Results 2:	Results	13
+Arm/Group Title: Placebo	Results	14
+Arm/Group Description: Each patient will be randomized blindly as to whether the study serum will be applied to the medial or lateral portion of the treated breast, using the nipple as the dividing line. The product and placebo will also be applied to the contra-lateral breast in the same fashion, as a further control. The study drug and placebo will be applied three times daily, but not within four hours prior to radiation treatment. Each patient will use both HA study cream and placebo.	Results	15
+patient	HADO:0000008,OAE:0001817	28-35
+patient	HADO:0000008,OAE:0001817	444-451
+lateral	HP:0025275	126-133
+lateral	HP:0025275	263-270
+breast	UBERON:0000310	157-163
+breast	UBERON:0000310	271-277
+product	BAO:0003067	208-215
+drug	CHEBI:23888	331-335
+Overall Number of Participants Analyzed: 28	Results	16
+Measure Type: Count of Participants	Results	17
+Unit of Measure: Participants  Grade 0: 3  10.7%	Results	18
+Grade 1: 18  64.3%	Results	19
+Grade 2: 7  25.0%	Results	20
+Grade   3: 0   0.0%	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 0/28 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

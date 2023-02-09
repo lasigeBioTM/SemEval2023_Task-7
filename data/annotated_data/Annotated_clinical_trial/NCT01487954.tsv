@@ -1,0 +1,123 @@
+INTERVENTION 1:	Intervention	0
+Arm I: Alkaline Water	Intervention	1
+water	CHEBI:15377	16-21
+Patients undergo external beam radiation therapy QD, 5 days a week for 6 weeks. Patients drink 8 ounces of alkaline water within 30 minutes immediately prior to and after undergoing radiation therapy.	Intervention	2
+week	UO:0000034	62-66
+week	UO:0000034	73-77
+water	CHEBI:15377	116-121
+alkaline water: Patients drink 8 ounces of alkaline water within 30 minutes immediately prior to and after undergoing radiation therapy.	Intervention	3
+water	CHEBI:15377	9-14
+water	CHEBI:15377	52-57
+external beam radiation therapy (EBRT): Patients undergo external beam radiation therapy QD, 5 days a week for 6 weeks.	Intervention	4
+week	UO:0000034	102-106
+week	UO:0000034	113-117
+INTERVENTION 2:	Intervention	5
+Arm II: Distilled Water	Intervention	6
+water	CHEBI:15377	18-23
+Patients undergo external beam radiation therapy as in arm I. Patients also drink 8 ounces of distilled water within 30 minutes immediately prior to and after undergoing radiation therapy	Intervention	7
+water	CHEBI:15377	104-109
+distilled water: Patients also drink 8 ounces of distilled water within 30 minutes immediately prior to and after undergoing radiation therapy.	Intervention	8
+water	CHEBI:15377	10-15
+water	CHEBI:15377	59-64
+external beam radiation therapy (EBRT): Patients undergo external beam radiation therapy QD, 5 days a week for 6 weeks.	Intervention	9
+week	UO:0000034	102-106
+week	UO:0000034	113-117
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed stage 0-IV breast cancer and have a treatment plan consisting of 62Gy (31 fractions) of total breast radiation therapy to be eligible; patients are eligible if they have received any number of prior chemotherapies; patients having received chemotherapy prior to radiation will be stratified among randomization groups during the second phase of this study	Eligibility	1
+breast cancer	DOID:1612	72-85
+breast	UBERON:0000310	72-78
+breast	UBERON:0000310	155-161
+second	UO:0000010	390-396
+Life expectancy of greater than 3 months	Eligibility	2
+Eastern Cooperative Oncology Group (ECOG) performance status =< 2 (Karnofsky >= 60%)	Eligibility	3
+group	CHEBI:24433	29-34
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	4
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	5
+Patients receiving any investigational chemotherapeutic agents during planned radiation or any prior breast or chest wall radiation treatments are excluded	Eligibility	6
+breast	UBERON:0000310	101-107
+chest	UBERON:0001443	111-116
+excluded	HP:0040285	147-155
+Patients receiving concurrent chemotherapy are excluded because of an increased relative risk of skin toxicity; patients taking daily proton-pump inhibitor or H2-blocker antacid medications are excluded because of predicted interference of alkaline water consumption and stomach pH; herceptin for the purposes of this clinical trial would be considered a chemotherapy, and as such, patients receiving herceptin chemotherapy during radiation would not be eligible for participation in this protocol	Eligibility	7
+excluded	HP:0040285	47-55
+excluded	HP:0040285	194-202
+inhibitor	CHEBI:35222	146-155
+antacid	CHEBI:65265	170-177
+water	CHEBI:15377	249-254
+stomach	UBERON:0000945	271-278
+ph	UO:0000196	279-281
+Patients with a history of any prior malignancy except non-melanoma skin cancer or carcinoma in-situ of the cervix not in remission for twelve months are excluded; patients with known brain metastases are excluded from this clinical trial because of their overall poor prognosis	Eligibility	8
+history	BFO:0000182	16-23
+skin cancer	DOID:4159	68-79
+carcinoma	HP:0030731,DOID:305	83-92
+excluded	HP:0040285	154-162
+excluded	HP:0040285	205-213
+brain	UBERON:0000955	184-189
+Pregnancy excludes female patients from this study because radiation is potentially teratogenic and abortifacient; screening beta-hcg levels and clinically-indicated diagnostic tests will be used to determine eligibility	Eligibility	9
+female	PATO:0000383	19-25
+abortifacient	CHEBI:50691	100-113
+Outcome Measurement:	Results	0
+Acute and Grade 2 or Higher Radiation-related Skin Toxicity as Assessed by Common Terminology Criteria for Adverse Events (CTCAE) Version 3.0	Results	1
+acute	HP:0011009,PATO:0000389	0-5
+Information will include the type, severity, time of onset and resolution of its onset, and its probable association with the study regimen. Frequency tables will be constructed to summarize observed incidents by severity and type of toxicity during weekly radiation treatment and 1 month after radiation treatment. Observed toxicity differences among the treatment arms may be reported in frequency tables.	Results	2
+severity	HP:0012824	35-43
+severity	HP:0012824	213-221
+time	PATO:0000165	45-49
+onset	HP:0003674	53-58
+onset	HP:0003674	81-86
+frequency	HP:0040279	141-150
+frequency	HP:0040279	390-399
+month	UO:0000035	283-288
+Time frame: at 1 month after treatment	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	17-22
+Results 1:	Results	4
+Arm/Group Title: Arm I: Alkaline Water	Results	5
+water	CHEBI:15377	33-38
+Arm/Group Description: Patients undergo external beam radiation therapy QD, 5 days a week for 6 weeks. Patients drink 8 ounces of alkaline water within 30 minutes immediately prior to and after undergoing radiation therapy.	Results	6
+week	UO:0000034	85-89
+week	UO:0000034	96-100
+water	CHEBI:15377	139-144
+alkaline water: Patients drink 8 ounces of alkaline water within 30 minutes immediately prior to and after undergoing radiation therapy.	Results	7
+water	CHEBI:15377	9-14
+water	CHEBI:15377	52-57
+external beam radiation therapy (EBRT): Patients undergo external beam radiation therapy QD, 5 days a week for 6 weeks.	Results	8
+week	UO:0000034	102-106
+week	UO:0000034	113-117
+Overall Number of Participants Analyzed: 29	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: percentage of participants  38	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm II: Distilled Water	Results	13
+water	CHEBI:15377	35-40
+Arm/Group Description: Patients undergo external beam radiation therapy as in arm I. Patients also drink 8 ounces of distilled water within 30 minutes immediately prior to and after undergoing radiation therapy	Results	14
+water	CHEBI:15377	127-132
+distilled water: Patients also drink 8 ounces of distilled water within 30 minutes immediately prior to and after undergoing radiation therapy.	Results	15
+water	CHEBI:15377	10-15
+water	CHEBI:15377	59-64
+external beam radiation therapy (EBRT): Patients undergo external beam radiation therapy QD, 5 days a week for 6 weeks.	Results	16
+week	UO:0000034	102-106
+week	UO:0000034	113-117
+Overall Number of Participants Analyzed: 16	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: percentage of participants  38	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 1/29 (3.45%)	Adverse Events	1
+Skin infection *  [1]0/29 (0.00%)	Adverse Events	2
+Alanine aminotransferase increased *  [2]1/29 (3.45%)	Adverse Events	3
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased *  [3]1/29 (3.45%)	Adverse Events	4
+aspartate	CHEBI:29995	0-9
+Chest wall pain *  [4]1/29 (3.45%)	Adverse Events	5
+chest	UBERON:0001443	0-5
+pain	HP:0012531	11-15
+Adverse Events 2:	Adverse Events	6
+Total: 1/16 (6.25%)	Adverse Events	7
+Skin infection *  [1]1/16 (6.25%)	Adverse Events	8
+Alanine aminotransferase increased *  [2]0/16 (0.00%)	Adverse Events	9
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased *  [3]0/16 (0.00%)	Adverse Events	10
+aspartate	CHEBI:29995	0-9
+Chest wall pain *  [4]0/16 (0.00%)	Adverse Events	11
+chest	UBERON:0001443	0-5
+pain	HP:0012531	11-15

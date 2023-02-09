@@ -1,0 +1,77 @@
+INTERVENTION 1:	Intervention	0
+Education Intervention	Intervention	1
+Participants attended 2-hr education sessions once a month, for 4 months. The overall goal of the sessions was to provide information that would reduce participants' uncertainty about their illness/treatment, to enhance coping in productive ways.	Intervention	2
+month	UO:0000035	53-58
+month	UO:0000035	66-71
+INTERVENTION 2:	Intervention	3
+Nutrition Education Intervention	Intervention	4
+Participants attended 2-hr nutrition education sessions, once a month for 4 months. Each session provided information/ encouragement on setting and attaining goals for healthy eating and on the benefits of thinking positively about dealing adaptively with problems and living a healthy lifestyle.	Intervention	5
+month	UO:0000035	64-69
+month	UO:0000035	76-81
+healthy	HP:0032322	168-175
+healthy	HP:0032322	278-285
+INCLUSION CRITERIA (Disease Characteristics):	Eligibility	0
+disease	DOID:4,OGMS:0000031	20-27
+Diagnosis of breast cancer	Eligibility	1
+breast cancer	DOID:1612	13-26
+Stage I or II disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	14-21
+No more than 10 positive lymph nodes	Eligibility	3
+lymph	UBERON:0002391	25-30
+First-time diagnosis	Eligibility	4
+Under the age of 50 at diagnosis	Eligibility	5
+age	PATO:0000011	10-13
+Finished active treatment within the past 2 months	Eligibility	6
+active	PATO:0002354	9-15
+English-speaking only	Eligibility	7
+Must live within 30 miles of Magee Women's Hospital, Pittsburgh, Pennsylvania	Eligibility	8
+INCLUSION CRITERIA (Patient Characteristics):	Eligibility	9
+patient	HADO:0000008,OAE:0001817	20-27
+Female patients only	Eligibility	10
+female	PATO:0000383	0-6
+Must be able to communicate	Eligibility	11
+EXCLUSION CRITERIA (Patient Characteristics):	Eligibility	12
+patient	HADO:0000008,OAE:0001817	20-27
+Other prior malignancies except skin cancer	Eligibility	13
+skin cancer	DOID:4159	32-43
+PRIOR CONCURRENT THERAPY:	Eligibility	14
+See Disease Characteristics	Eligibility	15
+disease	DOID:4,OGMS:0000031	4-11
+Outcome Measurement:	Results	0
+Depressive Symptoms (Measured With an Abbreviated 10-item CES-D) at Baseline, Post-intervention (4-months Post-intervention) and Final Follow-up (13-months Post-intervention).	Results	1
+Scores for the shortened form of the Center for Epidemiologic Studies Depression scale(CES-D) ranged from 0 (no depressive symptoms) to 24 (high levels of depressives symptoms) in the present sample.	Results	2
+shortened	PATO:0002364	15-24
+depression	HP:0000716	70-80
+present	PATO:0000467	184-191
+Time frame: Baseline, Post-intervention(4 months post-intervention) and Final Follow-up(13 months post-intervention).	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Education Intervention	Results	5
+Arm/Group Description: Participants attended 2-hr education sessions once a month, for 4 months. The overall goal of the sessions was to provide information that would reduce participants' uncertainty about their illness/treatment, to enhance coping in productive ways.	Results	6
+month	UO:0000035	76-81
+month	UO:0000035	89-94
+Overall Number of Participants Analyzed: 70	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Baseline: 5.83         (5.32)	Results	9
+Post-intervention: 5.65         (5.53)	Results	10
+Final follow-up: 5.07         (4.99)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Nutrition Education Intervention	Results	13
+Arm/Group Description: Participants attended 2-hr nutrition education sessions, once a month for 4 months. Each session provided information/ encouragement on setting and attaining goals for healthy eating and on the benefits of thinking positively about dealing adaptively with problems and living a healthy lifestyle.	Results	14
+month	UO:0000035	87-92
+month	UO:0000035	99-104
+healthy	HP:0032322	191-198
+healthy	HP:0032322	301-308
+Overall Number of Participants Analyzed: 78	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Baseline: 6.74         (5.94)	Results	17
+Post-intervention: 5.70         (5.45)	Results	18
+Final follow-up: 4.36         (4.49)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/83 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/85 (0.00%)	Adverse Events	3

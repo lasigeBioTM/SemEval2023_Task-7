@@ -1,0 +1,179 @@
+INTERVENTION 1:	Intervention	0
+Fentanyl Sublingual Spray	Intervention	1
+fentanyl	CHEBI:119915	0-8
+Participants received fentanyl sublingual spray 7 times randomly (out of 10 treatments total) to treat up to a maximum of 2 breakthrough pain episodes per day with a minimum separation of 2 hours between treatments. Patients received a dose of 100 to 1600 µg determined in the open-label dose titration period of the current study.	Intervention	2
+fentanyl	CHEBI:119915	22-30
+breakthrough pain	HP:0032149	124-141
+day	UO:0000033	155-158
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Participants received placebo 3 times randomly (out of 10 treatments total) to treat up to a maximum of 2 breakthrough pain episodes per day with a minimum separation of 2 hours between treatments. Patients received a dose of 100 to 1600 µg determined in the open-label dose titration period of the current study.	Intervention	5
+breakthrough pain	HP:0032149	106-123
+day	UO:0000033	137-140
+Inclusion Criteria:	Eligibility	0
+Male or female,  18 years of age.	Eligibility	1
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+age	PATO:0000011	29-32
+Diagnosis of cancer.	Eligibility	2
+cancer	DOID:162	13-19
+Opioid-tolerant. Subjects who were opioid tolerant were those taking  60 mg of oral morphine/day, at least 25 μg of transdermal fentanyl/hour, at least 30 mg of oxycodone daily, at least 8 mg of oral hydromorphone daily or an equianalgesic dose of another opioid for a week or longer for cancer-related pain.	Eligibility	3
+oxycodone	CHEBI:7852	161-170
+hydromorphone	CHEBI:5790	200-213
+week	UO:0000034	269-273
+pain	HP:0012531	303-307
+Experienced persistent pain related to the cancer or its treatment of moderate or lesser intensity in the 24 hours prior to assessment by a verbal rating scale at the Screening Visit.	Eligibility	4
+pain	HP:0012531	23-27
+cancer	DOID:162	43-49
+moderate	HP:0012826	70-78
+intensity	PATO:0000049	89-98
+Over the previous 7 days, subject experienced, on average, 1 to 4 breakthrough cancer pain episodes per day usually at least partially controlled by supplemental medication of at least 5 mg immediate-release morphine or an equivalent short-acting opioid (eg, oxycodone, hydrocodone, or codeine with acetaminophen).	Eligibility	5
+cancer	DOID:162	79-85
+pain	HP:0012531	86-90
+day	UO:0000033	20-23
+day	UO:0000033	104-107
+morphine	CHEBI:58097	208-216
+oxycodone	CHEBI:7852	259-268
+hydrocodone	CHEBI:5779	270-281
+codeine	CHEBI:16714	286-293
+Able to evaluate and record pain relief, assess medication performance at set times after dosing, record AEs, record each use of the study drug or supplemental medication in an electronic diary (a caregiver may have provided the subject the medication, help with the mechanics of handling the electronic diary but was not permitted to record any information in the electronic diary).	Eligibility	6
+pain	HP:0012531	28-32
+drug	CHEBI:23888	139-143
+Able and willing to give informed consent.	Eligibility	7
+Women of childbearing potential were to have a) a negative serum pregnancy test, b) not be breastfeeding and c) agree to practice a reliable form of contraception.	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Intolerance to opioids or fentanyl.	Eligibility	10
+fentanyl	CHEBI:119915	26-34
+Current use of commercially available oral short-acting fentanyl for breakthrough pain. Subjects previously on Actiq or Fentora were permitted to be enrolled if they had a 7 day washout.	Eligibility	11
+fentanyl	CHEBI:119915	56-64
+breakthrough pain	HP:0032149	69-86
+day	UO:0000033	174-177
+Rapidly increasing/uncontrolled pain.	Eligibility	12
+pain	HP:0012531	32-36
+A history of major organ system impairment or disease, that in the Investigator's or his/her designee's opinion could increase the risk associated with the use of opioids.	Eligibility	13
+history	BFO:0000182	2-9
+organ	UBERON:0000062	19-24
+disease	DOID:4,OGMS:0000031	46-53
+increase	BAO:0001251	118-126
+Uncontrolled hypertension (systolic blood pressure {SBP} > 180 mmHg or diastolic blood pressure [DBP] > 90 mmHg on 2 occasions  6 hours apart) despite antihypertensive therapy, or a history of hypertensive crisis within the past 2 years.	Eligibility	14
+hypertension	HP:0000822,DOID:10763	13-25
+systolic blood pressure	CMO:0000004	27-50
+diastolic blood pressure	CMO:0000005	71-95
+history	BFO:0000182	182-189
+hypertensive crisis	HP:0100735	193-212
+A recent history ( 2 years prior) of transient ischemic attacks, neural vascular disease, stroke, or cerebral aneurysms.	Eligibility	15
+history	BFO:0000182	9-16
+transient	HP:0025153	37-46
+vascular disease	DOID:178	72-88
+stroke	HP:0001297,DOID:6713	90-96
+Clinically uncontrolled sleep apnea.	Eligibility	16
+sleep apnea	HP:0010535,DOID:0050847	24-35
+Brain metastases with signs or symptoms of increased intracranial pressure.	Eligibility	17
+brain	UBERON:0000955	0-5
+increased intracranial pressure	HP:0002516	43-74
+Inability to assess pain or response to pain medications for any reason, including psychiatric disorder, concurrent medical disorder, or concomitant therapy.	Eligibility	18
+pain	HP:0012531	20-24
+pain	HP:0012531	40-44
+response to pain	GO:0048265	28-44
+disorder	OGMS:0000045	95-103
+disorder	OGMS:0000045	124-132
+Received investigational study product(s)  30 days prior to the Screening Visit.	Eligibility	19
+product	BAO:0003067	31-38
+Painful erythema, oedema or ulcers under the tongue.	Eligibility	20
+erythema	HP:0010783	8-16
+tongue	UBERON:0001723	45-51
+Use of monoamine oxidase (MAO) inhibitors within 14 days of the Screening Visit.	Eligibility	21
+monoamine	CHEBI:63534	7-16
+Outcome Measurement:	Results	0
+Summed Pain Intensity Differences (SPID) at 30 Minutes After Dosing (SPID30)	Results	1
+pain	HP:0012531	7-11
+intensity	PATO:0000049	12-21
+Pain intensity was assessed by the participant using a 0-100 mm visual analog scale where 0 represented "no pain" and 100 represented "worst possible pain" at 0 (baseline, beginning of the pain episode), 5, 10, 15, and 30 minutes after each dose of study medication during each breakthrough pain episode. The pain intensity difference was defined as the difference in pain intensity at the various time points versus time 0 (baseline). SPID30 was calculated as the time-weighted sum of the PID scores using the following formula: SPID30=(5*PID5)+(5*PID10)+(5*PID15)+(15*PID30). The minimum and maximum SPID30 scores were -3000 and 3000. A higher score indicates less pain.	Results	2
+pain	HP:0012531	0-4
+pain	HP:0012531	108-112
+pain	HP:0012531	150-154
+pain	HP:0012531	189-193
+pain	HP:0012531	291-295
+pain	HP:0012531	309-313
+pain	HP:0012531	368-372
+pain	HP:0012531	667-671
+intensity	PATO:0000049	5-14
+intensity	PATO:0000049	314-323
+intensity	PATO:0000049	373-382
+breakthrough pain	HP:0032149	278-295
+time	PATO:0000165	398-402
+time	PATO:0000165	417-421
+time	PATO:0000165	465-469
+Time frame: Baseline (time 0, beginning of each pain episode) through 30 minutes after dosing for each pain episode	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	22-26
+pain	HP:0012531	48-52
+pain	HP:0012531	103-107
+Results 1:	Results	4
+Arm/Group Title: Fentanyl Sublingual Spray	Results	5
+fentanyl	CHEBI:119915	17-25
+Arm/Group Description: Participants received fentanyl sublingual spray 7 times randomly (out of 10 treatments total) to treat up to a maximum of 2 breakthrough pain episodes per day with a minimum separation of 2 hours between treatments. Patients received a dose of 100 to 1600  g determined in the open-label dose titration period of the current study.	Results	6
+fentanyl	CHEBI:119915	45-53
+breakthrough pain	HP:0032149	147-164
+day	UO:0000033	178-181
+Overall Number of Participants Analyzed: 92	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Units on a scale  640.3         (458.8)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo	Results	11
+Arm/Group Description: Participants received placebo 3 times randomly (out of 10 treatments total) to treat up to a maximum of 2 breakthrough pain episodes per day with a minimum separation of 2 hours between treatments. Patients received a dose of 100 to 1600  g determined in the open-label dose titration period of the current study.	Results	12
+breakthrough pain	HP:0032149	129-146
+day	UO:0000033	160-163
+Overall Number of Participants Analyzed: 92	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Units on a scale  399.6         (391.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 7/130 (5.38%)	Adverse Events	1
+Leukopenia 1/130 (0.77%)	Adverse Events	2
+leukopenia	HP:0001882,DOID:615	0-10
+Tachycardia 0/130 (0.00%)	Adverse Events	3
+tachycardia	HP:0001649	0-11
+Abdominal pain 1/130 (0.77%)	Adverse Events	4
+abdominal pain	HP:0002027	0-14
+Nausea 1/130 (0.77%)	Adverse Events	5
+nausea	HP:0002018	0-6
+Vomiting 1/130 (0.77%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Cellulitis 1/130 (0.77%)	Adverse Events	7
+cellulitis	HP:0100658,DOID:3488	0-10
+Gastroenteritis Viral 0/130 (0.00%)	Adverse Events	8
+gastroenteritis	DOID:2326	0-15
+Hyponatraemia 1/130 (0.77%)	Adverse Events	9
+Fistula 1/130 (0.77%)	Adverse Events	10
+Lung cancer metastatic 1/130 (0.77%)	Adverse Events	11
+lung cancer	DOID:1324	0-11
+Malignant neoplasm progression 1/130 (0.77%)	Adverse Events	12
+neoplasm	HP:0002664,DOID:14566	10-18
+Adverse Events 2:	Adverse Events	13
+Total: 6/98 (6.12%)	Adverse Events	14
+Leukopenia 0/98 (0.00%)	Adverse Events	15
+leukopenia	HP:0001882,DOID:615	0-10
+Tachycardia 1/98 (1.02%)	Adverse Events	16
+tachycardia	HP:0001649	0-11
+Abdominal pain 1/98 (1.02%)	Adverse Events	17
+abdominal pain	HP:0002027	0-14
+Nausea 1/98 (1.02%)	Adverse Events	18
+nausea	HP:0002018	0-6
+Vomiting 1/98 (1.02%)	Adverse Events	19
+vomiting	HP:0002013	0-8
+Cellulitis 1/98 (1.02%)	Adverse Events	20
+cellulitis	HP:0100658,DOID:3488	0-10
+Gastroenteritis Viral 1/98 (1.02%)	Adverse Events	21
+gastroenteritis	DOID:2326	0-15
+Hyponatraemia 0/98 (0.00%)	Adverse Events	22
+Fistula 0/98 (0.00%)	Adverse Events	23
+Lung cancer metastatic 0/98 (0.00%)	Adverse Events	24
+lung cancer	DOID:1324	0-11
+Malignant neoplasm progression 1/98 (1.02%)	Adverse Events	25
+neoplasm	HP:0002664,DOID:14566	10-18
+Metastases to bone 0/98 (0.00%)	Adverse Events	26

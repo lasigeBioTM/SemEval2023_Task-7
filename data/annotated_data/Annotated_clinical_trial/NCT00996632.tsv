@@ -1,0 +1,49 @@
+INTERVENTION 1:	Intervention	0
+Ultrasonic	Intervention	1
+Patients were operated using an ultrasonic knife (Ultracision Ethicon TM)	Intervention	2
+tm	CHEBI:19226,BAO:0000581	70-72
+INTERVENTION 2:	Intervention	3
+Conventional	Intervention	4
+Patients were operated by a conventional diatherm knife	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Operable breast cancer	Eligibility	1
+breast cancer	DOID:1612	9-22
+Exclusion Criteria:	Eligibility	2
+Inoperable breast cancer	Eligibility	3
+breast cancer	DOID:1612	11-24
+BMI > 25	Eligibility	4
+Neoadiuvant radioterapy	Eligibility	5
+Carcinomastitis	Eligibility	6
+Previous phlebitis of omolateral arm	Eligibility	7
+phlebitis	DOID:864	9-18
+Collagen disease	Eligibility	8
+collagen disease	DOID:854	0-16
+Outcome Measurement:	Results	0
+Drainage Volume	Results	1
+volume	PATO:0000918	9-15
+volume in milliliters of axillary drainage	Results	2
+volume	PATO:0000918	0-6
+Time frame: discharge day	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	22-25
+Results 1:	Results	4
+Arm/Group Title: Ultrasonic	Results	5
+Arm/Group Description: Patients were operated using an ultrasonic knife (Ultracision Ethicon TM)	Results	6
+tm	CHEBI:19226,BAO:0000581	93-95
+Overall Number of Participants Analyzed: 38	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: milliliters  182.6         (267.1)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Conventional	Results	11
+Arm/Group Description: Patients were operated by a conventional diatherm knife	Results	12
+Overall Number of Participants Analyzed: 56	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: milliliters  525.2         (629.0)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/0	Adverse Events	3

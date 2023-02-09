@@ -1,0 +1,84 @@
+INTERVENTION 1:	Intervention	0
+Gemcitabine + Paclitaxel	Intervention	1
+gemcitabine	CHEBI:175901	0-11
+paclitaxel	CHEBI:45863	14-24
+Gemcitabine: 1250 mg/m2, intravenous (IV), day 1 and day 8 every 21 days until disease progression.	Intervention	2
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	43-46
+day	UO:0000033	53-56
+day	UO:0000033	68-71
+disease	DOID:4,OGMS:0000031	79-86
+Paclitaxel: 175 mg/m2, intravenous (IV), every 21 days until disease progression	Intervention	3
+paclitaxel	CHEBI:45863	0-10
+disease	DOID:4,OGMS:0000031	61-68
+Inclusion Criteria:	Eligibility	0
+Female patients of Chinese origin with histologically or cytologically proven diagnosis of breast cancer.	Eligibility	1
+female	PATO:0000383	0-6
+breast cancer	DOID:1612	91-104
+Unresectable, locally recurrent breast cancer or stage IV disease.	Eligibility	2
+recurrent	HP:0031796	22-31
+breast cancer	DOID:1612	32-45
+disease	DOID:4,OGMS:0000031	58-65
+Have at least one measurable lesion as defined by Response Evaluation Criteria In Solid Tumors (RECIST) criteria.	Eligibility	3
+Performance Status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) Scale	Eligibility	4
+group	CHEBI:24433	65-70
+Treatment with an anthracycline-based chemotherapy regimen in the adjuvant/neoadjuvant setting with subsequent disease relapse.	Eligibility	5
+disease	DOID:4,OGMS:0000031	111-118
+Exclusion Criteria:	Eligibility	6
+Prior chemotherapy for unresectable, locally advanced breast cancer or metastatic disease.	Eligibility	7
+breast cancer	DOID:1612	54-67
+disease	DOID:4,OGMS:0000031	82-89
+Concurrent administration of any other tumor therapy, including cytotoxic chemotherapy, hormonal therapy, and immunotherapy.	Eligibility	8
+Known or suspected brain metastasis or second primary malignancy that is clinically detectable at the time of consideration for study enrollment.	Eligibility	9
+brain	UBERON:0000955	19-24
+second	UO:0000010	39-45
+time	PATO:0000165	102-106
+Active infection or other serious condition.	Eligibility	10
+active	PATO:0002354	0-6
+condition	PDRO:0000129	34-43
+Pregnant or breastfeeding.	Eligibility	11
+Outcome Measurement:	Results	0
+Best Overall Tumor Response	Results	1
+Best response recorded from the start of treatment until disease progression/recurrence using Response Evaluation Criteria In Solid Tumors (RECIST) criteria that defines when participants improve ("respond"), stay the same ("stable"), or worsen ("progression") during treatment.	Results	2
+disease	DOID:4,OGMS:0000031	57-64
+stable	HP:0031915	225-231
+Time frame: baseline to measured progressive disease (tumor assessments were performed every 2 cycles during study therapy, or 3 months during post-therapy until disease progression, or up to 12 months after enrollment)	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	33-44
+disease	DOID:4,OGMS:0000031	45-52
+disease	DOID:4,OGMS:0000031	162-169
+Results 1:	Results	4
+Arm/Group Title: Gemcitabine + Paclitaxel	Results	5
+gemcitabine	CHEBI:175901	17-28
+paclitaxel	CHEBI:45863	31-41
+Arm/Group Description: Gemcitabine: 1250 mg/m2, intravenous (IV), day 1 and day 8 every 21 days until disease progression.	Results	6
+gemcitabine	CHEBI:175901	23-34
+day	UO:0000033	66-69
+day	UO:0000033	76-79
+day	UO:0000033	91-94
+disease	DOID:4,OGMS:0000031	102-109
+Paclitaxel: 175 mg/m2, intravenous (IV), every 21 days until disease progression	Results	7
+paclitaxel	CHEBI:45863	0-10
+disease	DOID:4,OGMS:0000031	61-68
+Overall Number of Participants Analyzed: 58	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  Complete Response (CR): 2	Results	10
+Partial Response (PR): 27	Results	11
+Stable Disease (SD): 20	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease (PD): 7	Results	13
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Early Death from Malignant Disease: 0	Results	14
+death	OAE:0000632	6-11
+disease	DOID:4,OGMS:0000031	27-34
+Death from Toxicity: 0	Results	15
+death	OAE:0000632	0-5
+Early Death from Other Causes: 0	Results	16
+death	OAE:0000632	6-11
+Unknown: 2	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 1	Adverse Events	1
+Femur fracture 1/60 (1.67%)	Adverse Events	2
+femur fracture	HP:0031846	0-14

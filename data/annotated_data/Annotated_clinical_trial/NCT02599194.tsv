@@ -1,0 +1,66 @@
+INTERVENTION 1:	Intervention	0
+18F-FSPG and 18F-FDG Intragroup Comparision	Intervention	1
+Participants sequentially receive radioimaging agents 18F-FSPG and 18F-FDG IV followed by PET/CT scan with 60 minutes.	Intervention	2
+18F-FSPG: Administered intravenously (IV)	Intervention	3
+18F-FDG: Administered intravenously (IV)	Intervention	4
+Inclusion Criteria:	Eligibility	0
+Written informed consent	Eligibility	1
+Able to complete a PET/CT scan without the use of sedation	Eligibility	2
+Females:	Eligibility	3
+Of childbearing potential must:	Eligibility	4
+Not be nursing	Eligibility	5
+Have a negative serum pregnancy test documented within 48 hours prior to administration of 18F FSPG PET/CT	Eligibility	6
+Not of childbearing potential must be:	Eligibility	7
+Physiologically postmenopausal (cessation of menses for more than 1 year)	Eligibility	8
+year	UO:0000036	68-72
+Surgically sterile (has had a documented bilateral oophorectomy and/or documented hysterectomy)	Eligibility	9
+bilateral	HP:0012832	41-50
+Histologically confirmed cancer that is advanced; metastatic; or otherwise not suitable for surgical resection with curative intent	Eligibility	10
+cancer	DOID:162	25-31
+Scheduled to begin therapy	Eligibility	11
+The time interval between 18F FSPG PET/CT and standard of care imaging (ie, 18F FDG PET/CT, diagnostic CT, or MRI) should be within 4 weeks (exceptions will be allowed for 6 weeks, if there are no other options)	Eligibility	12
+time	PATO:0000165	4-8
+ct	BAO:0002125	39-41
+ct	BAO:0002125	88-90
+ct	BAO:0002125	103-105
+Ideally, there should be no chemotherapy, radiotherapy, or immune/biologic therapy or biopsy between other imaging (PET/CTs, MRI, or diagnostic CTs) and 18F FSPG PET/CT scheduled or performed (exceptions by investigator discretion)	Eligibility	13
+radiotherapy	OAE:0000235	42-54
+No clinically relevant deviations in renal function (serum creatinine > grade 2 Common Terminology Criteria for Adverse Events [CTCAE] version 4.0); maximal interval between confirmation of renal function and injection of 18F FSPG is 1 week	Eligibility	14
+function	BAO:0003117,BFO:0000034	43-51
+function	BAO:0003117,BFO:0000034	196-204
+creatinine	CHEBI:16737	59-69
+week	UO:0000034	236-240
+Exclusion Criteria:	Eligibility	15
+Scheduled for surgery and/or another invasive procedure (except biopsy) within the time period of 1 month prior to 18F FSPG administration	Eligibility	16
+surgery	OAE:0000067	14-21
+time	PATO:0000165	83-87
+month	UO:0000035	100-105
+Known sensitivity to 18F FSPG or components of the preparation	Eligibility	17
+Investigator precludes participation for scientific reasons, for reasons of compliance, or for reasons of the patient's safety	Eligibility	18
+patient	HADO:0000008,OAE:0001817	110-117
+Outcome Measurement:	Results	0
+Change From Baseline in Standard Uptake Value Maximum (SUVmax) Post-treatment	Results	1
+uptake	GO:0098739,BAO:0001256	33-39
+Standard Uptake Values (SUVs) for the radiotracers labels 18F-FSPG and 18F-FDG were assessed in tumor tissues of study participants, before (baseline), and after therapeutic treatment. Time frame was specified by protocol as at baseline, and at the time of clinical assessments during individual patient regular medical care. The time of the post-treatment assessment was not otherwise explicitly defined but could be anytime within 2 years. The outcome is reported as the difference of means from baseline to post-treatment (a number without dispersion), for all lesions for which an SUVmax value was assessed. A negative result indicates less uptake of radiotracer suggesting a small volume of tumor.	Results	2
+uptake	GO:0098739,BAO:0001256	9-15
+uptake	GO:0098739,BAO:0001256	645-651
+time	PATO:0000165	185-189
+time	PATO:0000165	249-253
+time	PATO:0000165	330-334
+time	PATO:0000165	421-425
+patient	HADO:0000008,OAE:0001817	296-303
+result	BAO:0000179	623-629
+volume	PATO:0000918	686-692
+Time frame: Baseline and up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: 18F-FSPG and 18F-FDG Intragroup Comparision	Results	5
+Arm/Group Description: Participants sequentially receive radioimaging agents 18F-FSPG and 18F-FDG IV followed by PET/CT scan with 60 minutes.	Results	6
+18F-FSPG: Administered intravenously (IV)	Results	7
+18F-FDG: Administered intravenously (IV)	Results	8
+Overall Number of Participants Analyzed: 7	Results	9
+Overall Number of Units Analyzed	Results	10
+Type of Units Analyzed: Lesion locations assessed  Measure Type: NumberUnit of Measure: g/mL: 18F-FSPG: -1.69	Results	11
+18F-FDG: -0.64	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 0/7 (0.00%)	Adverse Events	1

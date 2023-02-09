@@ -1,0 +1,166 @@
+INTERVENTION 1:	Intervention	0
+All Patients	Intervention	1
+Patients undergo stem cell collection. Patients receive high-dose melphalan IV with or without trastuzumab (Herceptin®), one day later, patients undergo autologous peripheral blood stem cell (PBSC) transplantation, no more than 7 weeks later, patients proceed to course 2; OR Patients receive high-dose carboplatin, thiotepa, and cyclophosphamide IV continuously over 4 days followed by autologous PBSC transplantation. After recover from high-dose chemotherapy and autologous PBSC transplantation, patients with stage IIIB or IIIC disease undergo radiotherapy to the chest wall and lymph nodes. Patients with stage IV disease undergo radiotherapy using helical tomotherapy or standard radiotherapy to oligometastatic sites.	Intervention	2
+melphalan	CHEBI:28876	66-75
+day	UO:0000033	125-128
+day	UO:0000033	370-373
+peripheral	HP:0030646	164-174
+blood	UBERON:0000178	175-180
+carboplatin	CHEBI:31355	303-314
+thiotepa	CHEBI:9570	316-324
+cyclophosphamide	CHEBI:4026	330-346
+disease	DOID:4,OGMS:0000031	532-539
+disease	DOID:4,OGMS:0000031	619-626
+radiotherapy	OAE:0000235	548-560
+radiotherapy	OAE:0000235	635-647
+radiotherapy	OAE:0000235	686-698
+chest	UBERON:0001443	568-573
+lymph	UBERON:0002391	583-588
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed breast cancer, meeting 1 of the following stage criteria:	Eligibility	1
+breast cancer	DOID:1612	25-38
+Stage IIIB or IIIC disease, meeting both of the following criteria:	Eligibility	2
+disease	DOID:4,OGMS:0000031	19-26
+Must have received prior neoadjuvant or adjuvant therapy	Eligibility	3
+adjuvant	CHEBI:60809	28-36
+adjuvant	CHEBI:60809	40-48
+Must have undergone lumpectomy or mastectomy	Eligibility	4
+Stage IV disease, meeting all of the following criteria:	Eligibility	5
+disease	DOID:4,OGMS:0000031	9-16
+Only 1-3 organ sites with disease involvement after induction chemotherapy	Eligibility	6
+organ	UBERON:0000062	9-14
+disease	DOID:4,OGMS:0000031	26-33
+Achieved at least a partial response after induction chemotherapy	Eligibility	7
+No more than 3 lesions in the organ sites combined	Eligibility	8
+organ	UBERON:0000062	30-35
+Inflammatory breast cancer allowed	Eligibility	9
+breast cancer	DOID:1612	13-26
+Completed chemotherapy, surgery, or radiotherapy for breast cancer within the past 6 months	Eligibility	10
+surgery	OAE:0000067	24-31
+radiotherapy	OAE:0000235	36-48
+breast cancer	DOID:1612	53-66
+Hormone receptor status:	Eligibility	11
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	12
+PATIENT CHARACTERISTICS:	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	14
+age	PATO:0000011	0-3
+65 and under	Eligibility	15
+Sex	Eligibility	16
+Male or female	Eligibility	17
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status	Eligibility	18
+Not specified	Eligibility	19
+Performance status	Eligibility	20
+Karnofsky 80-100%	Eligibility	21
+Life expectancy	Eligibility	22
+Not specified	Eligibility	23
+Hematopoietic	Eligibility	24
+Absolute neutrophil count  1,000/mm^3	Eligibility	25
+Platelet count  100,000/mm^3	Eligibility	26
+platelet count	CMO:0000029	0-14
+Hepatic	Eligibility	27
+SGOT or SGPT  2 times upper limit of normal	Eligibility	28
+Bilirubin  1.5 mg/dL	Eligibility	29
+Renal	Eligibility	30
+Creatinine  1.2 mg/dL	Eligibility	31
+creatinine	CHEBI:16737	0-10
+Creatinine clearance  70 mL/min	Eligibility	32
+creatinine clearance	CMO:0000765	0-20
+Cardiovascular	Eligibility	33
+LVEF  55% by MUGA or echocardiogram	Eligibility	34
+Pulmonary	Eligibility	35
+FEV_1  60% of predicted	Eligibility	36
+DLCO  60% of the lower limit of predicted value	Eligibility	37
+Oxygen saturation > 92% on room air	Eligibility	38
+oxygen saturation	CMO:0001324	0-17
+Other	Eligibility	39
+Not pregnant or nursing	Eligibility	40
+Negative pregnancy test	Eligibility	41
+Fertile patients must use effective contraception	Eligibility	42
+No autoimmune disorders	Eligibility	43
+No immunosuppressive condition	Eligibility	44
+condition	PDRO:0000129	21-30
+No other malignancy within the past 5 years	Eligibility	45
+PRIOR CONCURRENT THERAPY:	Eligibility	46
+Biologic therapy	Eligibility	47
+No prior biologic therapy except trastuzumab (Herceptin®)	Eligibility	48
+Chemotherapy	Eligibility	49
+See Disease Characteristics	Eligibility	50
+disease	DOID:4,OGMS:0000031	4-11
+Endocrine therapy	Eligibility	51
+Not specified	Eligibility	52
+Radiotherapy	Eligibility	53
+radiotherapy	OAE:0000235	0-12
+See Disease Characteristics	Eligibility	54
+disease	DOID:4,OGMS:0000031	4-11
+No prior radiotherapy to adjacent or involved sites of disease that would preclude study radiotherapy	Eligibility	55
+radiotherapy	OAE:0000235	9-21
+radiotherapy	OAE:0000235	89-101
+disease	DOID:4,OGMS:0000031	55-62
+Surgery	Eligibility	56
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	57
+disease	DOID:4,OGMS:0000031	4-11
+Other	Eligibility	58
+No other concurrent anticancer therapy	Eligibility	59
+Outcome Measurement:	Results	0
+5-Year Relapse-free Survival Rate	Results	1
+rate	BAO:0080019	29-33
+Estimated using the product-limit method of Kaplan and Meier. Relapse defined as appearance of any new lesions during or after protocol treatment. Whenever possible, relapses should be documented histologically.	Results	2
+Time frame: From time of initial PBPC rescue until death or disease recurrence (disease progression for patients with stage IV disease), whichever came first, up to 5 years post treatment	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	17-21
+death	OAE:0000632	51-56
+disease	DOID:4,OGMS:0000031	60-67
+disease	DOID:4,OGMS:0000031	80-87
+disease	DOID:4,OGMS:0000031	127-134
+Results 1:	Results	4
+Arm/Group Title: All Patients	Results	5
+Arm/Group Description: Patients undergo stem cell collection. Patients receive high-dose melphalan IV with or without trastuzumab (Herceptin  ), one day later, patients undergo autologous peripheral blood stem cell (PBSC) transplantation, no more than 7 weeks later, patients proceed to course 2; OR Patients receive high-dose carboplatin, thiotepa, and cyclophosphamide IV continuously over 4 days followed by autologous PBSC transplantation. After recover from high-dose chemotherapy and autologous PBSC transplantation, patients with stage IIIB or IIIC disease undergo radiotherapy to the chest wall and lymph nodes. Patients with stage IV disease undergo radiotherapy using helical tomotherapy or standard radiotherapy to oligometastatic sites.	Results	6
+melphalan	CHEBI:28876	89-98
+day	UO:0000033	149-152
+day	UO:0000033	394-397
+peripheral	HP:0030646	188-198
+blood	UBERON:0000178	199-204
+carboplatin	CHEBI:31355	327-338
+thiotepa	CHEBI:9570	340-348
+cyclophosphamide	CHEBI:4026	354-370
+disease	DOID:4,OGMS:0000031	556-563
+disease	DOID:4,OGMS:0000031	643-650
+radiotherapy	OAE:0000235	572-584
+radiotherapy	OAE:0000235	659-671
+radiotherapy	OAE:0000235	710-722
+chest	UBERON:0001443	592-597
+lymph	UBERON:0002391	607-612
+Overall Number of Participants Analyzed: 27	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: percentage of participants  53        (23 to 77)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 24/32 (75.00%)	Adverse Events	1
+Disseminated intravascular coagulation * 1/32 (3.13%)	Adverse Events	2
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia * 1/32 (3.13%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Adrenal insufficiency * 1/32 (3.13%)	Adverse Events	4
+adrenal insufficiency	HP:0000846	0-21
+Endocrine disorder * 1/32 (3.13%)	Adverse Events	5
+disorder	OGMS:0000045	10-18
+Chills * 1/32 (3.13%)	Adverse Events	6
+chills	HP:0025143	0-6
+Fatigue * 1/32 (3.13%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+Fever * 1/32 (3.13%)	Adverse Events	8
+fever	HP:0001945	0-5
+Multi-organ failure * 1/32 (3.13%)	Adverse Events	9
+Hepatic failure * 1/32 (3.13%)	Adverse Events	10
+hepatic failure	HP:0001399	0-15
+Infection * 1/32 (3.13%)	Adverse Events	11
+Sepsis * 1/32 (3.13%)	Adverse Events	12
+sepsis	HP:0100806	0-6

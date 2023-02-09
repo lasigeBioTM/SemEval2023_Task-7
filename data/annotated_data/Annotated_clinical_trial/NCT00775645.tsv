@@ -1,0 +1,135 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Acetyl-L-carnitine Hydrochloride))	Intervention	1
+hydrochloride	CHEBI:36807	26-39
+Patients receive oral acetyl-L-carnitine hydrochloride 3 times daily for 24 weeks	Intervention	2
+hydrochloride	CHEBI:36807	41-54
+INTERVENTION 2:	Intervention	3
+Arm II (Placebo)	Intervention	4
+Patients receive oral placebo 3 times daily for 24 weeks	Intervention	5
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed primary invasive adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+Stage I-III disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	12-19
+No metastatic disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	14-21
+Must have undergone modified radical mastectomy or breast-sparing surgery	Eligibility	4
+radical	CHEBI:26519	29-36
+surgery	OAE:0000067	66-73
+Planning to receive one of the following standard taxane-based systemic chemotherapy regimens as adjuvant therapy for breast cancer:	Eligibility	5
+adjuvant	CHEBI:60809	97-105
+breast cancer	DOID:1612	118-131
+Paclitaxel 80 mg/m² weekly for 12 weeks	Eligibility	6
+paclitaxel	CHEBI:45863	0-10
+Paclitaxel 175 mg/m² every other week for 4 courses (8 weeks)	Eligibility	7
+paclitaxel	CHEBI:45863	0-10
+week	UO:0000034	33-37
+week	UO:0000034	55-59
+Paclitaxel 175 mg/m² every other week for 6 courses (12 weeks)	Eligibility	8
+paclitaxel	CHEBI:45863	0-10
+week	UO:0000034	33-37
+week	UO:0000034	56-60
+Docetaxel 75 mg/m² every 3 weeks for 4 courses (12 weeks)	Eligibility	9
+Docetaxel 75 mg/m² every 3 weeks for 6 courses (18 weeks)	Eligibility	10
+No history of neuropathy	Eligibility	11
+history	BFO:0000182	3-10
+neuropathy	DOID:870	14-24
+Hormone receptor status not specified	Eligibility	12
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+Menopausal status not specified	Eligibility	14
+Zubrod performance status 0-2	Eligibility	15
+Serum creatinine  2.5 times upper limit of normal	Eligibility	16
+creatinine	CHEBI:16737	6-16
+Not pregnant or nursing	Eligibility	17
+Fertile patients must use effective contraception	Eligibility	18
+Able to complete questionnaires in English or Spanish	Eligibility	19
+Willing to submit blood samples for DNA extraction, genotyping analysis, and nerve growth factor studies	Eligibility	20
+blood	UBERON:0000178	18-23
+dna	BAO:0000269	36-39
+nerve	UBERON:0001021	77-82
+growth factor	BAO:0002024	83-96
+No history of diabetes	Eligibility	21
+history	BFO:0000182	3-10
+No history of seizure disorder	Eligibility	22
+history	BFO:0000182	3-10
+seizure	HP:0001250	14-21
+disorder	OGMS:0000045	22-30
+No other malignancy within the past 5 years except adequately treated basal cell or squamous cell skin cancer, carcinoma in situ of the cervix, ductal carcinoma in situ, or adequately treated stage I or stage II malignancy from which the patient is currently in complete remission	Eligibility	23
+skin cancer	DOID:4159	98-109
+carcinoma	HP:0030731,DOID:305	111-120
+carcinoma	HP:0030731,DOID:305	151-160
+ductal carcinoma in situ	HP:0030075,DOID:0060074	144-168
+patient	HADO:0000008,OAE:0001817	238-245
+PRIOR CONCURRENT THERAPY:	Eligibility	24
+See Disease Characteristics	Eligibility	25
+disease	DOID:4,OGMS:0000031	4-11
+Recovered from prior breast surgery	Eligibility	26
+breast	UBERON:0000310	21-27
+surgery	OAE:0000067	28-35
+Prior neoadjuvant or adjuvant chemotherapy allowed	Eligibility	27
+adjuvant	CHEBI:60809	9-17
+adjuvant	CHEBI:60809	21-29
+No prior taxane therapy	Eligibility	28
+taxane	CHEBI:36064	9-15
+No prior biologic therapy for treatment of breast cancer	Eligibility	29
+breast cancer	DOID:1612	43-56
+No concurrent vitamin E, glutamine, gabapentin, nortriptyline, amitriptyline, or duloxetine hydrochloride	Eligibility	30
+vitamin e	CHEBI:33234	14-23
+glutamine	CHEBI:28300	25-34
+gabapentin	CHEBI:42797	36-46
+nortriptyline	CHEBI:7640	48-61
+amitriptyline	CHEBI:2666	63-76
+duloxetine hydrochloride	CHEBI:31526	81-105
+Multivitamins containing vitamin E allowed provided vitamin E dose is < 1,000 IU	Eligibility	31
+vitamin e	CHEBI:33234	25-34
+vitamin e	CHEBI:33234	52-61
+No concurrent anti-seizure medications	Eligibility	32
+Concurrent hormonal therapy allowed	Eligibility	33
+Concurrent biologic therapy allowed (e.g., Herceptin)	Eligibility	34
+Concurrent participation in another therapeutic clinical trial allowed	Eligibility	35
+Outcome Measurement:	Results	0
+12-week FACT-Taxane Neurotoxicity Model-adjusted Score in ALC and Placebo Groups	Results	1
+Compare whether treatment with acetyl-L-carnitine hydrochloride vs placebo prevents symptoms of neuropathy as measured by the 11-item neurotoxicity (NTX) component of the Functional Assesment of Cancer Therapy (FACT)-Taxane Questionnaire at 12 weeks after study registration in women with breast cancer undergoing adjuvant taxane-based chemotherapy. Linear regression model adjusted for baseline score, taxane regiment, and age. Lower scores indicate worse CIPN. Total possible range is 0 to 64. For more information on this subscale, please see http://www.facit.org/FACITOrg/Questionnaires	Results	2
+hydrochloride	CHEBI:36807	50-63
+neuropathy	DOID:870	96-106
+functional	BAO:0000010	171-181
+cancer	DOID:162	195-201
+cancer	DOID:162	296-302
+breast cancer	DOID:1612	289-302
+adjuvant	CHEBI:60809	314-322
+taxane	CHEBI:36064	217-223
+taxane	CHEBI:36064	323-329
+taxane	CHEBI:36064	403-409
+age	PATO:0000011	424-427
+range	LABO:0000114	478-483
+Time frame: 12 weeks post-registration	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I (Acetyl-L-carnitine Hydrochloride))	Results	5
+hydrochloride	CHEBI:36807	43-56
+Arm/Group Description: Patients receive oral acetyl-L-carnitine hydrochloride 3 times daily for 24 weeks	Results	6
+hydrochloride	CHEBI:36807	64-77
+Overall Number of Participants Analyzed: 191	Results	7
+Mean (Full Range)	Results	8
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: units on a scale  35.4        (34.1 to 36.7)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm II (Placebo)	Results	11
+Arm/Group Description: Patients receive oral placebo 3 times daily for 24 weeks	Results	12
+Overall Number of Participants Analyzed: 181	Results	13
+Mean (Full Range)	Results	14
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: units on a scale  36.3        (35 to 37.6)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/208 (0.48%)	Adverse Events	1
+Neutrophils/granulocytes (ANC/AGC) 1/208 (0.48%)	Adverse Events	2
+Adverse Events 2:	Adverse Events	3
+Total: 0/201 (0.00%)	Adverse Events	4
+Neutrophils/granulocytes (ANC/AGC) 0/201 (0.00%)	Adverse Events	5

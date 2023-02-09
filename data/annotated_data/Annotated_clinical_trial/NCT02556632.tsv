@@ -1,0 +1,188 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Curcumin-based Gel)	Intervention	1
+gel	BAO:0010018	22-25
+Patients apply curcumin-based gel topically TID approximately every 4-6 hours beginning on the first day of radiation therapy and continuing until 1 week after completion of radiation therapy.	Intervention	2
+gel	BAO:0010018	30-33
+day	UO:0000033	101-104
+week	UO:0000034	149-153
+Curcumin-based Gel: Applied topically	Intervention	3
+gel	BAO:0010018	15-18
+Laboratory Biomarker Analysis: Correlative studies	Intervention	4
+biomarker	CHEBI:59163	11-20
+Questionnaire Administration: Ancillary studies	Intervention	5
+INTERVENTION 2:	Intervention	6
+Arm II (HPR Plus)	Intervention	7
+Patients apply HPR Plus™ topically TID approximately every 4-6 hours beginning on the first day of radiation therapy and continuing until 1 week after completion of radiation therapy.	Intervention	8
+day	UO:0000033	92-95
+week	UO:0000034	140-144
+Dermatologic Complications Management: Apply HPR Plus topically	Intervention	9
+Laboratory Biomarker Analysis: Correlative studies	Intervention	10
+biomarker	CHEBI:59163	11-20
+Questionnaire Administration: Ancillary studies	Intervention	11
+Inclusion Criteria:	Eligibility	0
+Subjects with a diagnosis of non-inflammatory breast cancer or carcinoma in situ	Eligibility	1
+breast cancer	DOID:1612	46-59
+carcinoma	HP:0030731,DOID:305	63-72
+Subjects must be prescribed and scheduled for "conventional fractionated" RT without concurrent chemotherapy; bolus and intensity modulated radiation therapy (IMRT) are permitted; lymph node irradiation (i.e., internal mammary nodes, supraclavicular nodes, axillary nodes, etc) as part of their prescribed radiation therapy are permitted; conventional fractionated radiation therapy regimens eligible for study are described below:	Eligibility	2
+intensity	PATO:0000049	120-129
+lymph	UBERON:0002391	180-185
+part of	BAO:0090002,BFO:0000050	281-288
+Minimal (min) total dose: whole breast: 44 gray (Gy); breast boost: 10 Gy; tumor bed = whole breast +/- boost: 50.0 Gy; lymph nodes: 45 Gy	Eligibility	3
+breast	UBERON:0000310	32-38
+breast	UBERON:0000310	54-60
+breast	UBERON:0000310	93-99
+lymph	UBERON:0002391	120-125
+Maximal (max) total dose: whole breast: 50.4 Gy; breast boost: 20 Gy; tumor bed = whole breast +/- boost: 66.0 Gy; lymph nodes: 50.4 Gy	Eligibility	4
+breast	UBERON:0000310	32-38
+breast	UBERON:0000310	49-55
+breast	UBERON:0000310	88-94
+lymph	UBERON:0002391	115-120
+Min dose per fraction: whole breast: 1.8 Gy; breast boost: 2.0 Gy; tumor bed = whole breast +/- boost: 1.8 Gy; lymph nodes: 1.8 Gy	Eligibility	5
+breast	UBERON:0000310	29-35
+breast	UBERON:0000310	45-51
+breast	UBERON:0000310	85-91
+lymph	UBERON:0002391	111-116
+Max dose per fraction: whole breast: 2.0 Gy; breast boost: 2.0 Gy; tumor bed = whole breast +/- boost: 2.0 Gy; lymph nodes: 2.0 Gy	Eligibility	6
+breast	UBERON:0000310	29-35
+breast	UBERON:0000310	45-51
+breast	UBERON:0000310	85-91
+lymph	UBERON:0002391	111-116
+Min # of fractions: whole breast: 22 Gy; breast boost: 5 Gy; tumor bed = whole breast +/- boost: 25 Gy; lymph nodes: 25 Gy	Eligibility	7
+breast	UBERON:0000310	26-32
+breast	UBERON:0000310	41-47
+breast	UBERON:0000310	79-85
+lymph	UBERON:0002391	104-109
+Max # of fractions: whole breast: 28 Gy; breast boost: 10 Gy; tumor bed = whole breast +/- boost: 36 Gy; lymph nodes: 28 Gy	Eligibility	8
+breast	UBERON:0000310	26-32
+breast	UBERON:0000310	41-47
+breast	UBERON:0000310	80-86
+lymph	UBERON:0002391	105-110
+Min # of sessions: whole breast: 22 Gy; breast boost: 5 Gy; tumor bed = whole breast +/- boost: 25 Gy; lymph nodes: 25 Gy	Eligibility	9
+breast	UBERON:0000310	25-31
+breast	UBERON:0000310	40-46
+breast	UBERON:0000310	78-84
+lymph	UBERON:0002391	103-108
+Max # of sessions: whole breast: 28 Gy; breast boost: 10 Gy; tumor bed = whole breast +/- boost: 36 Gy; lymph nodes: 28 Gy	Eligibility	10
+breast	UBERON:0000310	25-31
+breast	UBERON:0000310	40-46
+breast	UBERON:0000310	79-85
+lymph	UBERON:0002391	104-109
+Subjects may or may not have had surgery (lumpectomy or mastectomy) prior to RT; (NOTE: surgery is not required for eligibility)	Eligibility	11
+surgery	OAE:0000067	33-40
+surgery	OAE:0000067	88-95
+Subjects may have had chemotherapy prior to radiation; a minimum of two weeks is required between end of chemotherapy and start of RT	Eligibility	12
+Subjects may be currently prescribed hormone treatment or Herceptin therapy	Eligibility	13
+hormone	CHEBI:24621	37-44
+Subjects must be able to read, speak, and understand English	Eligibility	14
+Subjects must have the ability to understand and the willingness to sign a written informed consent document	Eligibility	15
+document	IAO:0000310	100-108
+Subjects must agree to not use any other topical agents on skin in the radiation treatment area during the course of this trial; subjects should only use topical agents for the study (i.e., topical intervention or standard care agents) supplied by the study personnel and/or treating physician	Eligibility	16
+area	PATO:0001323	91-95
+Exclusion Criteria:	Eligibility	17
+Pregnant females are ineligible; all subjects of childbearing potential will be asked if they are pregnant or could be pregnant; the patient must respond "no" to continue with radiation and to participate in this clinical study	Eligibility	18
+patient	HADO:0000008,OAE:0001817	133-140
+Subjects with bilateral breast cancer are not eligible	Eligibility	19
+bilateral breast cancer	DOID:6741	14-37
+Subjects receiving the short-course fractionation radiation therapy (i.e., 16 sessions or 20 sessions at 2.4 to 2.6 Gy fractions per session, with or without boost)	Eligibility	20
+Subject is currently on anti-EGFR (human epidermal growth factor receptor) therapy, such as Iressa (gefitinib) or Erbitux (cetuximab, C225)	Eligibility	21
+growth factor	BAO:0002024	51-64
+receptor	BAO:0000281	65-73
+gefitinib	CHEBI:49668	100-109
+Previous radiation to the chest or breast	Eligibility	22
+chest	UBERON:0001443	26-31
+breast	UBERON:0000310	35-41
+Subjects with breast reconstruction prior to RT	Eligibility	23
+breast	UBERON:0000310	14-20
+Previous diagnosis of radiosensitivity disorder (i.e., ataxia telangiectasia)	Eligibility	24
+disorder	OGMS:0000045	39-47
+ataxia telangiectasia	DOID:12704	55-76
+Previous diagnosis of collagen vascular disorder or vasculitis	Eligibility	25
+collagen	CHEBI:3815	22-30
+disorder	OGMS:0000045	40-48
+vasculitis	HP:0002633,DOID:865	52-62
+Presence of unhealed surgical wounds in chest or breast region and/or breast infection	Eligibility	26
+chest	UBERON:0001443	40-45
+breast	UBERON:0000310	49-55
+breast	UBERON:0000310	70-76
+Current daily application of a prescribed topical product to the skin within the RT area for an unrelated skin condition that cannot be discontinued during the participation in this clinical trial	Eligibility	27
+application	CHEBI:33232,BAO:0110001	14-25
+product	BAO:0003067	50-57
+area	PATO:0001323	84-88
+condition	PDRO:0000129	111-120
+Presence of any active dermatological issues in radiation treatment area (i.e., fungal skin infection, dermatitis, psoriasis plaques, etc)	Eligibility	28
+active	PATO:0002354	16-22
+area	PATO:0001323	68-72
+dermatitis	DOID:2723	103-113
+psoriasis	DOID:8893	115-124
+Outcome Measurement:	Results	0
+Mean Radiation Dermatitis Severity (RDS) Score. Range: 0 (no Dermatitis) - 4 (Violaceous Erythema With Diffuse Desquamation Occurring in Sheets; Patchy Crusting; Superficial Ulceration)	Results	1
+mean	BAO:0002173	0-4
+dermatitis	DOID:2723	15-25
+dermatitis	DOID:2723	61-71
+severity	HP:0012824	26-34
+range	LABO:0000114	48-53
+erythema	HP:0010783	89-97
+diffuse	HP:0020034	103-110
+The mean 1 week post-RT RDS score for each arm will be compared using ANOVA to determine if the topical interventions reduce the severity of skin reactions at the end of RT.	Results	2
+mean	BAO:0002173	4-8
+week	UO:0000034	11-15
+severity	HP:0012824	129-137
+The RDS score ranges from 0-4 with higher scores indicating worse outcome.	Results	3
+Time frame: Baseline up to 1 week post radiation therapy	Results	4
+time	PATO:0000165	0-4
+week	UO:0000034	29-33
+Results 1:	Results	5
+Arm/Group Title: Arm I (Curcumin-based Gel)	Results	6
+gel	BAO:0010018	39-42
+Arm/Group Description: Patients apply curcumin-based gel topically TID approximately every 4-6 hours beginning on the first day of radiation therapy and continuing until 1 week after completion of radiation therapy.	Results	7
+gel	BAO:0010018	53-56
+day	UO:0000033	124-127
+week	UO:0000034	172-176
+Curcumin-based Gel: Applied topically	Results	8
+gel	BAO:0010018	15-18
+Laboratory Biomarker Analysis: Correlative studies	Results	9
+biomarker	CHEBI:59163	11-20
+Questionnaire Administration: Ancillary studies	Results	10
+Overall Number of Participants Analyzed: 59	Results	11
+Mean (Standard Deviation)	Results	12
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  2.68         (0.74)	Results	13
+Results 2:	Results	14
+Arm/Group Title: Arm II (HPR Plus)	Results	15
+Arm/Group Description: Patients apply HPR Plus™ topically TID approximately every 4-6 hours beginning on the first day of radiation therapy and continuing until 1 week after completion of radiation therapy.	Results	16
+day	UO:0000033	115-118
+week	UO:0000034	163-167
+Dermatologic Complications Management: Apply HPR Plus topically	Results	17
+Laboratory Biomarker Analysis: Correlative studies	Results	18
+biomarker	CHEBI:59163	11-20
+Questionnaire Administration: Ancillary studies	Results	19
+Overall Number of Participants Analyzed: 59	Results	20
+Mean (Standard Deviation)	Results	21
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  2.64         (0.74)	Results	22
+Adverse Events 1:	Adverse Events	0
+Total: 3/64 (4.69%)	Adverse Events	1
+Heart Failure * 0/64 (0.00%)	Adverse Events	2
+heart	UBERON:0000948	0-5
+Radiation Dermatitis * 3/64 (4.69%)	Adverse Events	3
+dermatitis	DOID:2723	10-20
+Headache * 0/64 (0.00%)	Adverse Events	4
+headache	HP:0002315	0-8
+Pleuritic pain * 0/64 (0.00%)	Adverse Events	5
+pain	HP:0012531	10-14
+Dermatitis * 1/64 (1.56%)	Adverse Events	6
+dermatitis	DOID:2723	0-10
+Adverse Events 2:	Adverse Events	7
+Total: 2/65 (3.08%)	Adverse Events	8
+Heart Failure * 1/65 (1.54%)	Adverse Events	9
+heart	UBERON:0000948	0-5
+Radiation Dermatitis * 1/65 (1.54%)	Adverse Events	10
+dermatitis	DOID:2723	10-20
+Headache * 0/65 (0.00%)	Adverse Events	11
+headache	HP:0002315	0-8
+Pleuritic pain * 1/65 (1.54%)	Adverse Events	12
+pain	HP:0012531	10-14
+Dermatitis * 0/65 (0.00%)	Adverse Events	13
+dermatitis	DOID:2723	0-10

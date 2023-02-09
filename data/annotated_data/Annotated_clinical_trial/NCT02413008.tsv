@@ -1,0 +1,170 @@
+INTERVENTION 1:	Intervention	0
+0.005% Estriol Vaginal Gel	Intervention	1
+estriol	CHEBI:27974	7-14
+gel	BAO:0010018	23-26
+Route: Vaginal. Administration by an applicator inserted deep inside the vagina Dose: 1 g of gel, containing 50 Mcg of estriol Dosage schedule: Weeks 1-3: single daily application Weeks 4-12: twice weekly administration	Intervention	2
+inserted	BAO:0000641	48-56
+vagina	UBERON:0000996	7-13
+vagina	UBERON:0000996	73-79
+gel	BAO:0010018	93-96
+estriol	CHEBI:27974	119-126
+application	CHEBI:33232,BAO:0110001	168-179
+INTERVENTION 2:	Intervention	3
+Placebo Vaginal Gel	Intervention	4
+gel	BAO:0010018	16-19
+Route: Vaginal. Administration by an applicator inserted deep inside the vagina Dose: 1 g of gel. Dosage schedule: Weeks 1-3: single daily application Weeks 4-12: twice weekly administration	Intervention	5
+inserted	BAO:0000641	48-56
+vagina	UBERON:0000996	7-13
+vagina	UBERON:0000996	73-79
+gel	BAO:0010018	93-96
+application	CHEBI:33232,BAO:0110001	139-150
+Placebo	Intervention	6
+Inclusion Criteria:	Eligibility	0
+Written informed consent prior to beginning specific protocol procedures.	Eligibility	1
+Patients must have histological confirmation of breast adenocarcinoma with stage I-IIIA, documented at a local pathology department.	Eligibility	2
+breast adenocarcinoma	DOID:3458	48-69
+The breast tumors must be estrogen-receptor positive and/or progesterone receptor positive (  1% of stained tumor cells by Immunohistochemistry (IHC) as determined by the local laboratory) with any Human Epidermal Growth Factor Receptor 2(HER2) status.	Eligibility	3
+breast	UBERON:0000310	4-10
+progesterone	CHEBI:17026	60-72
+receptor	BAO:0000281	35-43
+receptor	BAO:0000281	73-81
+receptor	BAO:0000281	228-236
+immunohistochemistry	BAO:0000415	123-143
+growth factor	BAO:0002024	214-227
+Postmenopausal status defined as: 12 months of spontaneous amenorrhea or 6 months of spontaneous amenorrhea with serum FSH levels > 40 Milli-international units per milliliter (mIU/ml) or 6 weeks postsurgical bilateral oophorectomy with or without hysterectomy.	Eligibility	4
+amenorrhea	HP:0000141,DOID:13938	59-69
+amenorrhea	HP:0000141,DOID:13938	97-107
+bilateral	HP:0012832	209-218
+Patient must be receiving the non-steroidal aromatase inhibitors anastrozole or letrozole as breast cancer treatment in the adjuvant setting for a minimum of 6 months.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+anastrozole	CHEBI:2704	65-76
+letrozole	CHEBI:6413	80-89
+breast cancer	DOID:1612	93-106
+adjuvant	CHEBI:60809	124-132
+Women suffering from moderate to severe vaginal dryness according to the FDA guidelines for drug development in postmenopausal women (Center for Drug Evaluation and Research, (CDER) Jan 2003). A moderate symptom will be considered if the symptom is present, bothersome and annoying, and a severe symptom will be considered if the symptom is present, bothersome and annoying, and interferes with the normal patient activity.	Eligibility	6
+moderate	HP:0012826	21-29
+moderate	HP:0012826	195-203
+severe	HP:0012828	33-39
+severe	HP:0012828	289-295
+vaginal dryness	HP:0031088	40-55
+drug	CHEBI:23888	92-96
+drug	CHEBI:23888	145-149
+symptom	OGMS:0000020	204-211
+symptom	OGMS:0000020	238-245
+symptom	OGMS:0000020	296-303
+symptom	OGMS:0000020	330-337
+present	PATO:0000467	249-256
+present	PATO:0000467	341-348
+patient	HADO:0000008,OAE:0001817	406-413
+Eastern Cooperative Oncology Group Performance Status (ECOG PS) of 0 or 1.	Eligibility	7
+group	CHEBI:24433	29-34
+Adequate bone marrow as defined by the following laboratory values:	Eligibility	8
+bone marrow	UBERON:0002371	9-20
+Absolute Neutrophil Count (ANC)  1.5 x 109/L.	Eligibility	9
+x	LABO:0000148	37-38
+Platelets (plt)  100 x 109/L.	Eligibility	10
+x	LABO:0000148	21-22
+Hemoglobin (Hgb)  10 g/dl.	Eligibility	11
+hemoglobin	CHEBI:35143	0-10
+Patient has adequate organ function as defined by the following laboratory values:	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+organ	UBERON:0000062	21-26
+function	BAO:0003117,BFO:0000034	27-35
+Serum creatinine  1.5 x Upper Limit of Normal (ULN).	Eligibility	13
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	22-23
+Bilirubin  1.5 × ULN.	Eligibility	14
+Alkaline phosphatase  2 × ULN.	Eligibility	15
+phosphatase	GO:0016791,BAO:0000295	9-20
+Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT)  2 × ULN.	Eligibility	16
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+Willingness and ability to comply with scheduled visits, treatment plan, laboratory tests and other study procedures.	Eligibility	17
+Exclusion Criteria:	Eligibility	18
+Stage IIIB-IV breast cancer or bilateral breast cancer.	Eligibility	19
+breast cancer	DOID:1612	14-27
+breast cancer	DOID:1612	41-54
+bilateral breast cancer	DOID:6741	31-54
+Treatment with any other current anti-tumoral therapy (chemotherapy, anti-Her2…etc) besides the NSAI. Pamidronate or Alendronate are permitted.	Eligibility	20
+pamidronate	CHEBI:7903	102-113
+Prior history of other malignancy within 5 years of study entry, aside from non-melanoma skin cancer or carcinoma-in-situ of the uterine cervix adequately treated.	Eligibility	21
+history	BFO:0000182	6-13
+skin cancer	DOID:4159	89-100
+uterine cervix	UBERON:0000002	129-143
+Postmenopausal uterine bleeding. Vaginal bleeding of unknown etiology.	Eligibility	22
+Patients with endometrial thickness equal to or greater than 4 mm measured by transvaginal ultrasound.	Eligibility	23
+Patients who have received any type of vulvovaginal treatment in the 15 days prior to the start of the study.	Eligibility	24
+Use of any hormone, natural (phytoestrogens) or herbal products for the treatment of menopausal symptoms within the last 3 months.	Eligibility	25
+hormone	CHEBI:24621	11-18
+Current or previous history of thromboembolic disease or coagulopathies.	Eligibility	26
+history	BFO:0000182	20-27
+disease	DOID:4,OGMS:0000031	46-53
+Severe cardiovascular or respiratory diseases in the previous 6 months.	Eligibility	27
+severe	HP:0012828	0-6
+Renal Impairment.	Eligibility	28
+Hepatitis B and/or hepatitis C carriers (unless with normal hepatic function).	Eligibility	29
+hepatitis b	DOID:2043	0-11
+hepatitis c	DOID:1883	19-30
+function	BAO:0003117,BFO:0000034	68-76
+Known human immunodeficiency virus infection.	Eligibility	30
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+Known hypersensitivity to NSAI.	Eligibility	31
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Other severe acute or chronic medical or psychiatric condition, or laboratory abnormality that would impart, in the judgment of the investigator, excess risk associated with study participation or study drug administration, or which, in the judgment of the investigator, would make the patient inappropriate for entry into this study.	Eligibility	32
+severe	HP:0012828	6-12
+acute	HP:0011009,PATO:0000389	13-18
+chronic	HP:0011010	22-29
+condition	PDRO:0000129	53-62
+drug administration	OAE:0000011	203-222
+patient	HADO:0000008,OAE:0001817	286-293
+Previous investigational treatment for any condition or participation in any clinical trial within 4 weeks of inclusion date.	Eligibility	33
+condition	PDRO:0000129	43-52
+Outcome Measurement:	Results	0
+Variation in Serum Levels of Follicle Stimulating Hormone (FSH)	Results	1
+follicle stimulating hormone	CHEBI:81569	29-57
+Change from Baseline (mean screening-baseline) to Week 12 in Serum Levels of Follicle Stimulating Hormone (FSH) compare to natural physiological variability (screening-baseline variation)	Results	2
+mean	BAO:0002173	22-26
+week	UO:0000034	50-54
+follicle stimulating hormone	CHEBI:81569	77-105
+Time frame: from baseline to 12 weeks of treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: 0.005% Estriol Vaginal Gel	Results	5
+estriol	CHEBI:27974	24-31
+gel	BAO:0010018	40-43
+Arm/Group Description: Route: Vaginal. Administration by an applicator inserted deep inside the vagina Dose: 1 g of gel, containing 50 Mcg of estriol Dosage schedule: Weeks 1-3: single daily application Weeks 4-12: twice weekly administration	Results	6
+inserted	BAO:0000641	71-79
+vagina	UBERON:0000996	30-36
+vagina	UBERON:0000996	96-102
+gel	BAO:0010018	116-119
+estriol	CHEBI:27974	142-149
+application	CHEBI:33232,BAO:0110001	191-202
+Overall Number of Participants Analyzed: 50	Results	7
+Median (Inter-Quartile Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: mIU/ml  -2.8        (-13.1 to 7.4)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo Vaginal Gel	Results	11
+gel	BAO:0010018	33-36
+Arm/Group Description: Route: Vaginal. Administration by an applicator inserted deep inside the vagina Dose: 1 g of gel. Dosage schedule: Weeks 1-3: single daily application Weeks 4-12: twice weekly administration	Results	12
+inserted	BAO:0000641	71-79
+vagina	UBERON:0000996	30-36
+vagina	UBERON:0000996	96-102
+gel	BAO:0010018	116-119
+application	CHEBI:33232,BAO:0110001	162-173
+Placebo	Results	13
+Overall Number of Participants Analyzed: 11	Results	14
+Median (Inter-Quartile Range)	Results	15
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: mIU/ml  1.4        (-5.4 to 15.7)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 1/50 (2.00%)	Adverse Events	1
+Lymphoma  [1]1/50 (2.00%)	Adverse Events	2
+lymphoma	HP:0002665,DOID:0060058	0-8
+Adverse Events 2:	Adverse Events	3
+Total: 0/11 (0.00%)	Adverse Events	4
+Lymphoma  [1]0/11 (0.00%)	Adverse Events	5
+lymphoma	HP:0002665,DOID:0060058	0-8

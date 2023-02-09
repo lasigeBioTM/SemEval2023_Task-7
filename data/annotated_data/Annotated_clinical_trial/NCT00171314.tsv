@@ -1,0 +1,120 @@
+INTERVENTION 1:	Intervention	0
+Upfront Zoledronic Acid	Intervention	1
+zoledronic acid	CHEBI:46557	8-23
+Zoledronic acid 4 mg Intravenous (IV) 15 minute infusion every 6 months for 5 years beginning on Day 1. All participants took Letrozole tablets 2.5 mg/day for 5 years beginning on Day 1.	Intervention	2
+zoledronic acid	CHEBI:46557	0-15
+minute	UO:0000031	41-47
+day	UO:0000033	97-100
+day	UO:0000033	151-154
+day	UO:0000033	180-183
+letrozole	CHEBI:6413	126-135
+INTERVENTION 2:	Intervention	3
+Delayed Zoledronic Acid	Intervention	4
+zoledronic acid	CHEBI:46557	8-23
+Zoledronic acid 4 mg Intravenous (IV) 15 minute infusion every 6 months beginning when one of the following occurred: BMD T-score <= -2.0 SD at either the lumbar spine or total hip, any clinical fracture unrelated to trauma or an asymptomatic fracture discovered at the Month 36 visit. All participants took Letrozole tablets 2.5 mg/day for 5 years beginning on Day 1.	Intervention	5
+zoledronic acid	CHEBI:46557	0-15
+minute	UO:0000031	41-47
+hip	UBERON:0001464	177-180
+month	UO:0000035	65-70
+month	UO:0000035	270-275
+letrozole	CHEBI:6413	308-317
+day	UO:0000033	333-336
+day	UO:0000033	362-365
+Inclusion Criteria:	Eligibility	0
+Stage I-IIIa breast cancer	Eligibility	1
+breast cancer	DOID:1612	13-26
+Postmenopausal	Eligibility	2
+Recent surgery for breast cancer	Eligibility	3
+surgery	OAE:0000067	7-14
+breast cancer	DOID:1612	19-32
+Exclusion Criteria:	Eligibility	4
+Metastatic disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+Invasive bilateral disease	Eligibility	6
+bilateral	HP:0012832	9-18
+disease	DOID:4,OGMS:0000031	19-26
+Clinical or radiological evidence of existing fracture in spine or hip	Eligibility	7
+hip	UBERON:0001464	67-70
+Other protocol-defined inclusion / exclusion criteria may apply.	Eligibility	8
+Outcome Measurement:	Results	0
+Percent Change in Lumbar Spine (L2-L4) BMD After 12 Months of Letrozole Therapy	Results	1
+percent change	BAO:0001252	0-14
+letrozole	CHEBI:6413	62-71
+Bone Mineral Density (BMD)is measured by dual energy x-ray absorptiometry (DXA).Percent Change = [(BMD at Visit - BMD at Baseline) / BMD at Baseline] * 100.	Results	2
+bone mineral density	CMO:0001226	0-20
+Time frame: From Baseline - 12 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Upfront Zoledronic Acid	Results	5
+zoledronic acid	CHEBI:46557	25-40
+Arm/Group Description: Zoledronic acid 4 mg Intravenous (IV) 15 minute infusion every 6 months for 5 years beginning on Day 1. All participants took Letrozole tablets 2.5 mg/day for 5 years beginning on Day 1.	Results	6
+zoledronic acid	CHEBI:46557	23-38
+minute	UO:0000031	64-70
+day	UO:0000033	120-123
+day	UO:0000033	174-177
+day	UO:0000033	203-206
+letrozole	CHEBI:6413	149-158
+Overall Number of Participants Analyzed: 254	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Percent Change  2.680         (2.8451)	Results	9
+percent change	BAO:0001252	17-31
+Results 2:	Results	10
+Arm/Group Title: Delayed Zoledronic Acid	Results	11
+zoledronic acid	CHEBI:46557	25-40
+Arm/Group Description: Zoledronic acid 4 mg Intravenous (IV) 15 minute infusion every 6 months beginning when one of the following occurred: BMD T-score <= -2.0 SD at either the lumbar spine or total hip, any clinical fracture unrelated to trauma or an asymptomatic fracture discovered at the Month 36 visit. All participants took Letrozole tablets 2.5 mg/day for 5 years beginning on Day 1.	Results	12
+zoledronic acid	CHEBI:46557	23-38
+minute	UO:0000031	64-70
+hip	UBERON:0001464	200-203
+month	UO:0000035	88-93
+month	UO:0000035	293-298
+letrozole	CHEBI:6413	331-340
+day	UO:0000033	356-359
+day	UO:0000033	385-388
+Overall Number of Participants Analyzed: 269	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Percent Change  -3.314         (3.9632)	Results	15
+percent change	BAO:0001252	17-31
+Adverse Events 1:	Adverse Events	0
+Total: 47/254 (18.50%)	Adverse Events	1
+Anaemia 1/254 (0.39%)	Adverse Events	2
+Febrile neutropenia 1/254 (0.39%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphadenopathy 1/254 (0.39%)	Adverse Events	4
+lymphadenopathy	HP:0002716	0-15
+Acute myocardial infarction 1/254 (0.39%)	Adverse Events	5
+acute myocardial infarction	DOID:9408	0-27
+Angina pectoris 0/254 (0.00%)	Adverse Events	6
+angina pectoris	HP:0001681	0-15
+Angina unstable 0/254 (0.00%)	Adverse Events	7
+Bundle branch block left 0/254 (0.00%)	Adverse Events	8
+bundle branch block	HP:0011710	0-19
+left	HP:0012835	20-24
+Cardiac failure 4/254 (1.57%)	Adverse Events	9
+Coronary artery disease 0/254 (0.00%)	Adverse Events	10
+coronary artery disease	DOID:3393	0-23
+Coronary artery stenosis 1/254 (0.39%)	Adverse Events	11
+coronary artery stenosis	HP:0005145	0-24
+Adverse Events 2:	Adverse Events	12
+Total: 56/269 (20.82%)	Adverse Events	13
+Anaemia 1/269 (0.37%)	Adverse Events	14
+Febrile neutropenia 0/269 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphadenopathy 0/269 (0.00%)	Adverse Events	16
+lymphadenopathy	HP:0002716	0-15
+Acute myocardial infarction 0/269 (0.00%)	Adverse Events	17
+acute myocardial infarction	DOID:9408	0-27
+Angina pectoris 3/269 (1.12%)	Adverse Events	18
+angina pectoris	HP:0001681	0-15
+Angina unstable 1/269 (0.37%)	Adverse Events	19
+Bundle branch block left 1/269 (0.37%)	Adverse Events	20
+bundle branch block	HP:0011710	0-19
+left	HP:0012835	20-24
+Cardiac failure 1/269 (0.37%)	Adverse Events	21
+Coronary artery disease 1/269 (0.37%)	Adverse Events	22
+coronary artery disease	DOID:3393	0-23
+Coronary artery stenosis 0/269 (0.00%)	Adverse Events	23
+coronary artery stenosis	HP:0005145	0-24

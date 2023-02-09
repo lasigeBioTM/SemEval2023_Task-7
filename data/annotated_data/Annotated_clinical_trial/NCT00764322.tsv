@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+Ultra-rapid Metabolizers	Intervention	1
+Those with the highest transformation of the CYP2D6 genotype to allelic activity	Intervention	2
+transformation of	RO:0002494	23-40
+INTERVENTION 2:	Intervention	3
+Extensive Metabolizers	Intervention	4
+Those with the most normal transformation of the CYP2D6 genotype to allelic activity	Intervention	5
+transformation of	RO:0002494	27-44
+Inclusion:	Eligibility	0
+Histologically confirmed invasive carcinoma of the breast or ductal breast carcinoma in situ Has been receiving tamoxifen citrate at a dose of 20 mg/day for at least 4 months either for the treatment of invasive or non-invasive carcinoma of the breast or for breast cancer recurrence prevention	Eligibility	1
+carcinoma	HP:0030731,DOID:305	34-43
+carcinoma	HP:0030731,DOID:305	75-84
+carcinoma	HP:0030731,DOID:305	228-237
+breast	UBERON:0000310	51-57
+breast	UBERON:0000310	68-74
+breast	UBERON:0000310	245-251
+breast	UBERON:0000310	259-265
+breast carcinoma in situ	DOID:8791	68-92
+tamoxifen citrate	CHEBI:9397	112-129
+breast cancer	DOID:1612	259-272
+Expected duration of tamoxifen citrate treatment at least 6 months Hormone receptor status not specified Concurrent participation in non-treatment studies allowed provided it will not interfere with participation in this study Menopausal status not specified Eastern Cooperative Oncology Group (ECOG) performance status 0-2 Life expectancy  6 months Absolute Neutrophil Count (ANC)  1.0 x 10^9/L Platelet count  100 x 10^9/L Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT)  2.5 times Upper Limit of Normal (ULN) Total bilirubin  2.5 times ULN Creatinine clearance  50 mL/min Fertile patients must use effective contraception	Eligibility	2
+duration	PATO:0001309	9-17
+tamoxifen citrate	CHEBI:9397	21-38
+hormone	CHEBI:24621	67-74
+receptor	BAO:0000281	75-83
+group	CHEBI:24433	288-293
+x	LABO:0000148	1-2
+x	LABO:0000148	25-26
+x	LABO:0000148	330-331
+x	LABO:0000148	387-388
+x	LABO:0000148	416-417
+platelet count	CMO:0000029	396-410
+aspartate	CHEBI:29995	425-434
+alanine	CHEBI:16449	462-469
+creatinine clearance	CMO:0000765	563-583
+PRIOR CONCURRENT THERAPY:	Eligibility	3
+No limitations to number of prior therapies	Eligibility	4
+No limitations for prior radiotherapy	Eligibility	5
+radiotherapy	OAE:0000235	25-37
+More than 14 days since prior and no other concurrent investigational agent	Eligibility	6
+Exclusion:	Eligibility	7
+Not pregnant or nursing No active, serious infection or medical or psychiatric illness likely to preclude study participation No psychiatric conditions that would preclude study compliance or informed consent No history of venous thromboembolism, transient ischemic attack, or cerebral vascular accident No history of allergic reaction to tamoxifen citrate or any of its reagents No concurrent coumadin	Eligibility	8
+active	PATO:0002354	27-33
+history	BFO:0000182	212-219
+history	BFO:0000182	307-314
+thromboembolism	HP:0001907	230-245
+transient ischemic attack	HP:0002326,DOID:224	247-272
+tamoxifen citrate	CHEBI:9397	339-356
+No concurrent medications known to inhibit CYP2D6, including any of the following:	Eligibility	9
+Amiodarone	Eligibility	10
+amiodarone	CHEBI:2663	0-10
+Haloperidol	Eligibility	11
+haloperidol	CHEBI:5613	0-11
+Indinavir	Eligibility	12
+indinavir	CHEBI:44032	0-9
+Ritonavir	Eligibility	13
+ritonavir	CHEBI:45409	0-9
+Quinidine	Eligibility	14
+quinidine	CHEBI:28593,BAO:0000797	0-9
+No concurrent selective serotonin reuptake inhibitors, except the following:	Eligibility	15
+serotonin	CHEBI:350546	24-33
+Venlafaxine	Eligibility	16
+venlafaxine	CHEBI:9943	0-11
+Citalopram	Eligibility	17
+citalopram	CHEBI:3723	0-10
+Outcome Measurement:	Results	0
+Endoxifen Concentrations in Participants Receiving Tamoxifen Citrate Dose of 20 mg or 40 mg Stratified by the Metabolizing CYP2D6 Genotypes	Results	1
+tamoxifen citrate	CHEBI:9397	51-68
+Measurements of plasma concentrations of the key active metabolite of tamoxifen, endoxifen, were measured at baseline and after 4 months of treatment; The most common CYP2D6 alleles have been grouped by functional activity classifications with descending activity: ultra-rapid (UM), extensive (EM), intermediate (IM) or poor (PM) metabolism. A given patient has two alleles, giving them 10 possible allelic combinations, or diplotypes (UM/UM, UM/EM, EM/EM, etc.). These diplotypes are collapsed into four phenotypes, UM, EM, IM or PM.	Results	2
+active	PATO:0002354	49-55
+metabolite	CHEBI:25212	56-66
+tamoxifen	CHEBI:41774	70-79
+functional	BAO:0000010	203-213
+patient	HADO:0000008,OAE:0001817	350-357
+Time frame: 4 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ultra-rapid Metabolizers	Results	5
+Arm/Group Description: Those with the highest transformation of the CYP2D6 genotype to allelic activity	Results	6
+transformation of	RO:0002494	46-63
+Overall Number of Participants Analyzed: 5	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ng/mL  Baseline endoxifen concentration: 5 participants	Results	9
+8.4         (4.59)	Results	10
+4-Month endoxifen concentration: 4 participants	Results	11
+15.35         (5.48)	Results	12
+Results 2:	Results	13
+Arm/Group Title: Extensive Metabolizers	Results	14
+Arm/Group Description: Those with the most normal transformation of the CYP2D6 genotype to allelic activity	Results	15
+transformation of	RO:0002494	50-67
+Overall Number of Participants Analyzed: 119	Results	16
+Mean (Standard Deviation)	Results	17
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ng/mL  Baseline endoxifen concentration: 119 participants	Results	18
+10.00         (6.00)	Results	19
+4-Month endoxifen concentration: 106 participants	Results	20
+9.30         (5.03)	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 0/161 (0.00%)	Adverse Events	1
+headache * 20/161 (0.00%)	Adverse Events	2
+headache	HP:0002315	0-8
+Mood alteration 2 [1]0/161 (0.00%)	Adverse Events	3
+Hemorrhage, GU 0/161 (0.00%)	Adverse Events	4
+thrombosis * 2 [2]0/161 (0.00%)	Adverse Events	5
+thrombosis	DOID:0060903	0-10
+Adverse Events 2:	Adverse Events	6
+Total: 3/290 (1.03%)	Adverse Events	7
+headache * 21/290 (0.34%)	Adverse Events	8
+headache	HP:0002315	0-8
+Mood alteration 2 [1]1/290 (0.34%)	Adverse Events	9
+Hemorrhage, GU 1/290 (0.34%)	Adverse Events	10
+thrombosis * 2 [2]1/290 (0.34%)	Adverse Events	11
+thrombosis	DOID:0060903	0-10

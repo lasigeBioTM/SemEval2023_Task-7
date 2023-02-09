@@ -1,0 +1,178 @@
+INTERVENTION 1:	Intervention	0
+Arm A1: 90 mg PF-05212384 + Docetaxel	Intervention	1
+Participants with castrate resistant prostate cancer (CRPC), advanced breast cancer (ABC), or non-small cell lung cancer (NSCLC) that were candidates to treatment with a docetaxel-based combination. Each treatment cycle was defined as 21 days. Participants received intravenous infusion of PF-05212384 90 mg once on Day -7 and Cycle 1 Day 2, and docetaxel 75 mg/m2 1-hour IV infusion once on Cycle 1 Day 1. On Day 1 for Cycles 2 and beyond, participants received docetaxel 75 mg/m2 1-hour IV infusion once followed by PF-05212384 90 mg once. The maximum duration of PF-05212384 treatment was 505 days and the maximum duration of docetaxel treatment was 445 days.	Intervention	2
+prostate cancer	HP:0012125,DOID:10283	37-52
+breast cancer	DOID:1612	70-83
+lung cancer	DOID:1324	109-120
+day	UO:0000033	238-241
+day	UO:0000033	316-319
+day	UO:0000033	335-338
+day	UO:0000033	400-403
+day	UO:0000033	410-413
+day	UO:0000033	596-599
+day	UO:0000033	657-660
+duration	PATO:0001309	554-562
+duration	PATO:0001309	617-625
+INTERVENTION 2:	Intervention	3
+Arm A2: 110 mg PF-05212384 + Docetaxel	Intervention	4
+Participants with CRPC, ABC, or NSCLC that were candidates to treatment with a docetaxel-based combination. Each treatment cycle was defined as 21 days. Participants received intravenous infusion of PF-05212384 110 mg once on Day -7 and Cycle 1 Day 2, and docetaxel 75 mg/m2 1-hour IV infusion once on Cycle 1 Day 1. On Day 1 for Cycles 2 and beyond, participants received docetaxel 75 mg/m2 1-hour IV infusion once followed by PF-05212384 110 mg once. The maximum duration of PF-05212384 treatment was 505 days and the maximum duration of docetaxel treatment was 445 days.	Intervention	5
+day	UO:0000033	147-150
+day	UO:0000033	226-229
+day	UO:0000033	245-248
+day	UO:0000033	310-313
+day	UO:0000033	320-323
+day	UO:0000033	507-510
+day	UO:0000033	568-571
+duration	PATO:0001309	465-473
+duration	PATO:0001309	528-536
+Inclusion Criteria:	Eligibility	0
+Cisplatin Combination Expansion:	Eligibility	1
+cisplatin	CHEBI:27899	0-9
+Arm 1:Patients with TNBC with no prior cytotoxic chemotherapy therapy in the metastatic setting; Arm 2: Patients with TNBC and one or two prior cytotoxic therapies in the metastatic setting.	Eligibility	2
+Arm A: castrate resistant prostate cancer, advanced breast cancer, or non-small cell lunch cancer that are candidates for treatment with a docetaxel-based combination.	Eligibility	3
+prostate cancer	HP:0012125,DOID:10283	26-41
+breast cancer	DOID:1612	52-65
+cancer	DOID:162	35-41
+cancer	DOID:162	59-65
+cancer	DOID:162	91-97
+Arm B: Urothelial transitional cell cancer, triple negative breast cancer, ovarian cancer or non small cell lunch cancer that are candidates for a cisplatin-based combination.	Eligibility	4
+cancer	DOID:162	36-42
+cancer	DOID:162	67-73
+cancer	DOID:162	83-89
+cancer	DOID:162	114-120
+breast cancer	DOID:1612	60-73
+ovarian cancer	DOID:2394	75-89
+Arm C: Her2+ breast cancer refractory to prior herceptin or lapatinib, her2+ esophagal-gastric cancer, head and neck squamous cell cancer, or non small cell lunch cancer that are candidates for treatment with a dacomitinib-based combination.	Eligibility	5
+breast cancer	DOID:1612	13-26
+refractory	HP:0031375	27-37
+lapatinib	CHEBI:49603	60-69
+cancer	DOID:162	20-26
+cancer	DOID:162	95-101
+cancer	DOID:162	131-137
+cancer	DOID:162	163-169
+head	UBERON:0000033	103-107
+neck	GO:0044326,UBERON:0000974	112-116
+Availability of archival tumor biopsy sample or willing to provide fresh biopsy if not available.	Eligibility	6
+Eastern Cooperative Oncology Group [ECOG] performance must be 0 or 1.	Eligibility	7
+group	CHEBI:24433	29-34
+Adequate bone marrow, renal and liver function.	Eligibility	8
+bone marrow	UBERON:0002371	9-20
+liver	UBERON:0002107	32-37
+function	BAO:0003117,BFO:0000034	38-46
+Exclusion Criteria:	Eligibility	9
+Prior therapy for Cisplatin Combination Expansion:	Eligibility	10
+cisplatin	CHEBI:27899	18-27
+Prior platinum (carboplatin or cisplatin) in either the adjuvant or metastatic setting;	Eligibility	11
+platinum	CHEBI:33364	6-14
+carboplatin	CHEBI:31355	16-27
+cisplatin	CHEBI:27899	31-40
+adjuvant	CHEBI:60809	56-64
+Prior radiation to >25% bone marrow as estimated by the Investigator.	Eligibility	12
+bone marrow	UBERON:0002371	24-35
+Patients with known symptomatic brain metastases.	Eligibility	13
+brain	UBERON:0000955	32-37
+Chemotherapy, radiotherapy, biologics or investigational agent within 4 weeks of the lead-in dose.	Eligibility	14
+radiotherapy	OAE:0000235	14-26
+Major surgery within 4 weeks of the baseline disease assessments.	Eligibility	15
+surgery	OAE:0000067	6-13
+disease	DOID:4,OGMS:0000031	45-52
+>2 prior regimens containing cytotoxic chemotherapy in the metastatic setting.	Eligibility	16
+Active bacterial, fungal or viral infection.	Eligibility	17
+active	PATO:0002354	0-6
+Uncontrolled or significant cardiovascular disease.	Eligibility	18
+disease	DOID:4,OGMS:0000031	43-50
+Outcome Measurement:	Results	0
+Number of Participants With Dose Limiting Toxicities (DLTs) - Arms A, B and C	Results	1
+DLT was defined as any of the following adverse events (AEs) attributable to the combination: (1) hematologic: grade 4 neutropenia lasting >7 days; febrile neutropenia; grade >=3 neutropenia with infection; grade 3 thrombocytopenia with bleeding; grade 4 thrombocytopenia; (2) non-hematologic: grade >=2 pneumonitis; grade>=3 toxicities, except pneumonitis, and excluding those that had not been maximally treated; persistent, intolerable toxicities which resulted in the failure to deliver at least 3 of the 4 doses of PF-05212384 for Arms A and B or at least 3 of the 4 doses of PF-05212384 and 75% of dacomitinib for Arm C during the first cycle; the persistent, intolerable toxicities which result in delay of the start of the second cycle by more than 2 weeks relative to the scheduled start; in an asymptomatic participant, the grade 3 QTc prolongation persists after correction of any reversible causes.	Results	2
+neutropenia	HP:0001875,DOID:1227	119-130
+neutropenia	HP:0001875,DOID:1227	156-167
+neutropenia	HP:0001875,DOID:1227	179-190
+thrombocytopenia	HP:0001873,DOID:1588	215-231
+thrombocytopenia	HP:0001873,DOID:1588	255-271
+dacomitinib	CHEBI:132268	604-615
+result	BAO:0000179	456-462
+result	BAO:0000179	695-701
+second	UO:0000010	731-737
+Time frame: Up to 21 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A1: 90 mg PF-05212384 + Docetaxel	Results	5
+Arm/Group Description: Participants with castrate resistant prostate cancer (CRPC), advanced breast cancer (ABC), or non-small cell lung cancer (NSCLC) that were candidates to treatment with a docetaxel-based combination. Each treatment cycle was defined as 21 days. Participants received intravenous infusion of PF-05212384 90 mg once on Day -7 and Cycle 1 Day 2, and docetaxel 75 mg/m2 1-hour IV infusion once on Cycle 1 Day 1. On Day 1 for Cycles 2 and beyond, participants received docetaxel 75 mg/m2 1-hour IV infusion once followed by PF-05212384 90 mg once. The maximum duration of PF-05212384 treatment was 505 days and the maximum duration of docetaxel treatment was 445 days.	Results	6
+prostate cancer	HP:0012125,DOID:10283	60-75
+breast cancer	DOID:1612	93-106
+lung cancer	DOID:1324	132-143
+day	UO:0000033	261-264
+day	UO:0000033	339-342
+day	UO:0000033	358-361
+day	UO:0000033	423-426
+day	UO:0000033	433-436
+day	UO:0000033	619-622
+day	UO:0000033	680-683
+duration	PATO:0001309	577-585
+duration	PATO:0001309	640-648
+Overall Number of Participants Analyzed: 4	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  With DLT: 0   0.0%	Results	9
+No DLT: 4 100.0%	Results	10
+Data missing: 0   0.0%	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm A2: 110 mg PF-05212384 + Docetaxel	Results	13
+Arm/Group Description: Participants with CRPC, ABC, or NSCLC that were candidates to treatment with a docetaxel-based combination. Each treatment cycle was defined as 21 days. Participants received intravenous infusion of PF-05212384 110 mg once on Day -7 and Cycle 1 Day 2, and docetaxel 75 mg/m2 1-hour IV infusion once on Cycle 1 Day 1. On Day 1 for Cycles 2 and beyond, participants received docetaxel 75 mg/m2 1-hour IV infusion once followed by PF-05212384 110 mg once. The maximum duration of PF-05212384 treatment was 505 days and the maximum duration of docetaxel treatment was 445 days.	Results	14
+day	UO:0000033	170-173
+day	UO:0000033	249-252
+day	UO:0000033	268-271
+day	UO:0000033	333-336
+day	UO:0000033	343-346
+day	UO:0000033	530-533
+day	UO:0000033	591-594
+duration	PATO:0001309	488-496
+duration	PATO:0001309	551-559
+Overall Number of Participants Analyzed: 3	Results	15
+Measure Type: Count of Participants	Results	16
+Unit of Measure: Participants  With DLT: 0   0.0%	Results	17
+No DLT: 3 100.0%	Results	18
+Data missing: 0   0.0%	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 2/4 (50.00%)	Adverse Events	1
+Febrile neutropenia * 0/4 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia * 0/4 (0.00%)	Adverse Events	3
+Vertigo * 0/4 (0.00%)	Adverse Events	4
+vertigo	HP:0002321	0-7
+Nausea * 0/4 (0.00%)	Adverse Events	5
+nausea	HP:0002018	0-6
+Stomatitis * 0/4 (0.00%)	Adverse Events	6
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting * 0/4 (0.00%)	Adverse Events	7
+vomiting	HP:0002013	0-8
+Upper gastrointestinal haemorrhage * 0/4 (0.00%)	Adverse Events	8
+Disease progression * 0/4 (0.00%)	Adverse Events	9
+disease	DOID:4,OGMS:0000031	0-7
+Mucosal inflammation * 0/4 (0.00%)	Adverse Events	10
+Fatigue * 0/4 (0.00%)	Adverse Events	11
+fatigue	HP:0012378	0-7
+Pyrexia * 0/4 (0.00%)	Adverse Events	12
+Gastroenteritis * 0/4 (0.00%)	Adverse Events	13
+gastroenteritis	DOID:2326	0-15
+Adverse Events 2:	Adverse Events	14
+Total: 2/5 (40.00%)	Adverse Events	15
+Febrile neutropenia * 2/5 (40.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia * 0/5 (0.00%)	Adverse Events	17
+Vertigo * 0/5 (0.00%)	Adverse Events	18
+vertigo	HP:0002321	0-7
+Nausea * 0/5 (0.00%)	Adverse Events	19
+nausea	HP:0002018	0-6
+Stomatitis * 0/5 (0.00%)	Adverse Events	20
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting * 0/5 (0.00%)	Adverse Events	21
+vomiting	HP:0002013	0-8
+Upper gastrointestinal haemorrhage * 0/5 (0.00%)	Adverse Events	22
+Disease progression * 1/5 (20.00%)	Adverse Events	23
+disease	DOID:4,OGMS:0000031	0-7
+Mucosal inflammation * 0/5 (0.00%)	Adverse Events	24
+Fatigue * 0/5 (0.00%)	Adverse Events	25
+fatigue	HP:0012378	0-7
+Pyrexia * 0/5 (0.00%)	Adverse Events	26
+Gastroenteritis * 0/5 (0.00%)	Adverse Events	27
+gastroenteritis	DOID:2326	0-15

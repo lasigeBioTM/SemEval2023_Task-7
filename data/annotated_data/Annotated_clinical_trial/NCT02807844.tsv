@@ -1,0 +1,136 @@
+INTERVENTION 1:	Intervention	0
+Ph Ib: MCS110 1 mg/kg Q3W + PDR001 100 mg Q3W	Intervention	1
+ph	UO:0000196	0-2
+Phase Ib: MCS110 1 mg/kg every 3 weeks (Q3W) + PDR001 100 mg Q3W	Intervention	2
+INTERVENTION 2:	Intervention	3
+Ph Ib: MCS110 3 mg/kg Q3W + PDR001 100 mg Q3W	Intervention	4
+ph	UO:0000196	0-2
+Phase Ib: MCS110 3 mg/kg Q3W + PDR001 100 mg Q3W	Intervention	5
+Main Inclusion Criteria:	Eligibility	0
+Signed informed consent prior to any procedures	Eligibility	1
+Phase Ib part: Adult patients with advanced melanoma, endometrial carcinoma, pancreatic or TNBC, with measurable or non-measurable disease who have progressed despite standard therapy or are intolerant of standard therapy, or for whom no standard therapy exists.	Eligibility	2
+adult	EFO:0001272	15-20
+melanoma	HP:0002861,DOID:1909	44-52
+endometrial carcinoma	HP:0012114,DOID:2871	54-75
+disease	DOID:4,OGMS:0000031	131-138
+Phase II part: Adult patients with advanced solid tumors who have received standard therapy (no more than 3 prior lines of treatment) or are intolerant of standard therapy, have progressed following their last prior therapy, and fit into one of the following groups:	Eligibility	3
+adult	EFO:0001272	15-20
+Group 1: TNBC who did not receive prior anti-PD-1/PD-L1 treatment	Eligibility	4
+group	CHEBI:24433	0-5
+Group 2: Pancreatic adenocarcinoma who did not receive prior anti-PD-1/PD-L1 treatment	Eligibility	5
+group	CHEBI:24433	0-5
+pancreatic adenocarcinoma	HP:0006725,DOID:4074	9-34
+Group 3: Endometrial carcinoma who did not receive prior anti-PD-1/PD-L1 treatment	Eligibility	6
+group	CHEBI:24433	0-5
+endometrial carcinoma	HP:0012114,DOID:2871	9-30
+Group 4: Melanoma who progressed on prior anti-PD-1/PD-L1 treatment.	Eligibility	7
+group	CHEBI:24433	0-5
+melanoma	HP:0002861,DOID:1909	9-17
+Main Exclusion Criteria:	Eligibility	8
+Patients with the following:	Eligibility	9
+Symptomatic central nervous system (CNS) metastases or those requiring local CNS-directed therapy.	Eligibility	10
+central nervous system	UBERON:0001017	12-34
+Abnormal liver, renal, or blood lab values.	Eligibility	11
+liver	UBERON:0002107	9-14
+blood	UBERON:0000178	26-31
+Impaired cardiac function or clinically significant cardiac disease.	Eligibility	12
+function	BAO:0003117,BFO:0000034	17-25
+disease	DOID:4,OGMS:0000031	60-67
+Active autoimmune disease or documented autoimmune disease within 3 years of screening.	Eligibility	13
+active	PATO:0002354	0-6
+autoimmune disease	DOID:417	7-25
+autoimmune disease	DOID:417	40-58
+Active infection requiring antibiotic therapy.	Eligibility	14
+active	PATO:0002354	0-6
+Known HIV, active hepatitis B or C virus.	Eligibility	15
+active	PATO:0002354	11-17
+hepatitis b	DOID:2043	18-29
+virus	BAO:0000232	35-40
+Concurrent malignant disease.	Eligibility	16
+disease	DOID:4,OGMS:0000031	21-28
+Patients who received systemic anticancer therapy, major surgery, or radiotherapy within 2 weeks of study treatment, or live vaccines within 4 weeks of study treatment.	Eligibility	17
+surgery	OAE:0000067	57-64
+radiotherapy	OAE:0000235	69-81
+Patients requiring chronic treatment with systemic steroid therapy or any immunosuppressive therapy.	Eligibility	18
+chronic	HP:0011010	19-26
+steroid	CHEBI:35341	51-58
+Patients who used hematopoietic colony-stimulating growth factors within 2 weeks of study treatment.	Eligibility	19
+growth	GO:0040007	51-57
+Outcome Measurement:	Results	0
+Phase Ib: Percentage of Participants With Adverse Events, as a Measure of Safety	Results	1
+Phase Ib: To characterize the safety and tolerability of MCS110 in combination with PDR001 in patients with advanced solid malignancies and to identify a recommended dose combination for Phase II.	Results	2
+Time frame: From start of treatment to a maximum timeframe of 116.4 weeks for phase Ib	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	49-53
+Results 1:	Results	4
+Arm/Group Title: Ph Ib: MCS110 1 mg/kg Q3W + PDR001 100 mg Q3W	Results	5
+ph	UO:0000196	17-19
+Arm/Group Description: Phase Ib: MCS110 1 mg/kg every 3 weeks (Q3W) + PDR001 100 mg Q3W	Results	6
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Adverse events (AEs) - all grades: 6 100.0%	Results	9
+Adverse events - Treatment-related - all grades: 6 100.0%	Results	10
+Serious Adverse Events (SAEs) - all grades: 3  50.0%	Results	11
+SAEs - Treatment-related - all grades: 0   0.0%	Results	12
+Fatal SAEs - all grades: 0   0.0%	Results	13
+Fatal SAEs - Treatment-related - all grades: 0   0.0%	Results	14
+AEs leading to discontinuation - all grades: 0   0.0%	Results	15
+AEs leading to discontinuation - Treatment-related - all grades: 0   0.0%	Results	16
+AEs leading to dose adjustment / interruption - all grades: 4  66.7%	Results	17
+AEs requiring additional therapy - all grades: 6 100.0%	Results	18
+Results 2:	Results	19
+Arm/Group Title: Ph Ib: MCS110 3 mg/kg Q3W + PDR001 100 mg Q3W	Results	20
+ph	UO:0000196	17-19
+Arm/Group Description: Phase Ib: MCS110 3 mg/kg Q3W + PDR001 100 mg Q3W	Results	21
+Overall Number of Participants Analyzed: 12	Results	22
+Measure Type: Count of Participants	Results	23
+Unit of Measure: Participants  Adverse events (AEs) - all grades: 12 100.0%	Results	24
+Adverse events - Treatment-related - all grades: 12 100.0%	Results	25
+Serious Adverse Events (SAEs) - all grades: 4  33.3%	Results	26
+SAEs - Treatment-related - all grades: 1   8.3%	Results	27
+Fatal SAEs - all grades: 0   0.0%	Results	28
+Fatal SAEs - Treatment-related - all grades: 0   0.0%	Results	29
+AEs leading to discontinuation - all grades: 0   0.0%	Results	30
+AEs leading to discontinuation - Treatment-related - all grades: 0   0.0%	Results	31
+AEs leading to dose adjustment / interruption - all grades: 4  33.3%	Results	32
+AEs requiring additional therapy - all grades: 12 100.0%	Results	33
+Adverse Events 1:	Adverse Events	0
+Total: 3/6 (50.00%)	Adverse Events	1
+Anaemia 0/6 (0.00%)	Adverse Events	2
+Abdominal pain 1/6 (16.67%)	Adverse Events	3
+abdominal pain	HP:0002027	0-14
+Ascites 0/6 (0.00%)	Adverse Events	4
+ascites	HP:0001541	0-7
+Constipation 0/6 (0.00%)	Adverse Events	5
+constipation	HP:0002019,DOID:2089	0-12
+Dyspepsia 1/6 (16.67%)	Adverse Events	6
+dyspepsia	HP:0410281	0-9
+Gastric haemorrhage 0/6 (0.00%)	Adverse Events	7
+Gastrointestinal haemorrhage 0/6 (0.00%)	Adverse Events	8
+Haemoperitoneum 0/6 (0.00%)	Adverse Events	9
+Intestinal obstruction 0/6 (0.00%)	Adverse Events	10
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Intestinal perforation 1/6 (16.67%)	Adverse Events	11
+intestinal perforation	HP:0031368,DOID:2074	0-22
+Large intestinal obstruction 1/6 (16.67%)	Adverse Events	12
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Adverse Events 2:	Adverse Events	13
+Total: 4/12 (33.33%)	Adverse Events	14
+Anaemia 0/12 (0.00%)	Adverse Events	15
+Abdominal pain 0/12 (0.00%)	Adverse Events	16
+abdominal pain	HP:0002027	0-14
+Ascites 0/12 (0.00%)	Adverse Events	17
+ascites	HP:0001541	0-7
+Constipation 0/12 (0.00%)	Adverse Events	18
+constipation	HP:0002019,DOID:2089	0-12
+Dyspepsia 0/12 (0.00%)	Adverse Events	19
+dyspepsia	HP:0410281	0-9
+Gastric haemorrhage 0/12 (0.00%)	Adverse Events	20
+Gastrointestinal haemorrhage 0/12 (0.00%)	Adverse Events	21
+Haemoperitoneum 0/12 (0.00%)	Adverse Events	22
+Intestinal obstruction 0/12 (0.00%)	Adverse Events	23
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Intestinal perforation 0/12 (0.00%)	Adverse Events	24
+intestinal perforation	HP:0031368,DOID:2074	0-22
+Large intestinal obstruction 0/12 (0.00%)	Adverse Events	25
+intestinal obstruction	HP:0005214,DOID:8437	6-28

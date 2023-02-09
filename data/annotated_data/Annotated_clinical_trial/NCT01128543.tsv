@@ -1,0 +1,168 @@
+INTERVENTION 1:	Intervention	0
+Lapatinib 1250 mg and Vinorelbine 20 mg/m^2	Intervention	1
+lapatinib	CHEBI:49603	0-9
+vinorelbine	CHEBI:480999	22-33
+Participants received 1250 milligram (mg) tablets lapatinib once a day and vinorelbine 20 mg/meters squared (m^2) intravenously on Day 1 and Day 8, and every 3 weeks.	Intervention	2
+lapatinib	CHEBI:49603	50-59
+day	UO:0000033	67-70
+day	UO:0000033	131-134
+day	UO:0000033	141-144
+vinorelbine	CHEBI:480999	75-86
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed adenocarcinoma of the breast.	Eligibility	1
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+Patients must be > 18 years of age	Eligibility	2
+age	PATO:0000011	31-34
+Metastatic breast cancer (stage IV) at primary diagnosis or at relapse after curative intent therapy.	Eligibility	3
+breast cancer	DOID:1612	11-24
+Laboratory confirmed HER2/neu overexpressing and/or amplified disease in the invasive component of the primary or metastatic lesion	Eligibility	4
+disease	DOID:4,OGMS:0000031	62-69
+Patients must have evidence of metastatic disease, but measurable disease is not mandatory.	Eligibility	5
+disease	DOID:4,OGMS:0000031	42-49
+disease	DOID:4,OGMS:0000031	66-73
+The patients may have received or not prior treatment with chemotherapeutic agents including taxanes, trastuzumab or anthracycline in the adjuvant or metastatic setting is permitted.	Eligibility	6
+anthracycline	CHEBI:48120	117-130
+adjuvant	CHEBI:60809	138-146
+Prior treatments with radiation therapy in the adjuvant and/or metastatic setting are permitted provided that at least 4 weeks have elapsed since the last fraction of radiation therapy and all treatment related adverse events are < grade 1 at the time of enrollment.	Eligibility	7
+adjuvant	CHEBI:60809	47-55
+time	PATO:0000165	247-251
+Prior radiation to a solitary metastatic lesion is permitted provided that progression post radiation has been documented.	Eligibility	8
+Patients must have life expectancy > 3 months.	Eligibility	9
+ECOG performance status 0, 1 or 2 (see Appendix II).	Eligibility	10
+Patients must have normal organ and marrow function measured within 14 days prior to enrollment as defined Table 1.	Eligibility	11
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+Left ventricular ejection fraction > 50% as demonstrated by MUGA scan/echocardiogram within 4 weeks prior to enrollment.	Eligibility	12
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Women of childbearing potential (WOCBP) must have a negative serum or urine pregnancy test (minimum sensitivity 25 IU/L or equivalent units of HCG) within 7 days prior to enrollment and must use an acceptable method of contraception for the duration of the study.	Eligibility	13
+urine	UBERON:0001088	70-75
+duration	PATO:0001309	241-249
+Female patients who are lactating should discontinue nursing prior to the first dose of investigational product and should refrain from nursing throughout the treatment period and for 14 days following the last dose of investigational product.	Eligibility	14
+female	PATO:0000383	0-6
+product	BAO:0003067	104-111
+product	BAO:0003067	235-242
+The patient must sign the consent form prior to enrollment.	Eligibility	15
+patient	HADO:0000008,OAE:0001817	4-11
+Patients must be accessible for treatment and follow-up.	Eligibility	16
+Exclusion Criteria:	Eligibility	17
+Patients with a history of other malignancies, except: adequately treated DCIS, adequately treated non-melanoma skin cancer, curatively treated in-situ cancer of the cervix, or other solid tumours (non-breast) curatively treated with no evidence of disease for > 5 years.	Eligibility	18
+history	BFO:0000182	16-23
+skin cancer	DOID:4159	112-123
+cancer	DOID:162	117-123
+cancer	DOID:162	152-158
+disease	DOID:4,OGMS:0000031	249-256
+Patients receiving ongoing anticancer treatment or other investigational anti-cancer agents for breast cancer or patients who have used an investigational drug within 30 days or 5 half-lives (if known), whichever is longer, preceding the date of enrollment.	Eligibility	19
+breast cancer	DOID:1612	96-109
+drug	CHEBI:23888	155-159
+Patients with symptomatic CNS metastases (including leptomeningeal involvement).	Eligibility	20
+Patients with only bone metastasis.	Eligibility	21
+Patients with serious cardiac illness or condition including, but not limited to:	Eligibility	22
+condition	PDRO:0000129	41-50
+history of documented congestive heart failure (CHF) or systolic dysfunction (LVEF<50%) high risk uncontrolled arrhythmias (ventricular tachycardia, high-grade AV-block, supraventricular arrhythmias which are not adequately rate-controlled) unstable angina pectoris requiring anti-anginal medication clinically significant valvular heart disease evidence of transmural infarction on ECG inadequately controlled hypertension (systolic blood pressure > 180 mmHg or diastolic blood pressure > 100 mmHg).	Eligibility	23
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	22-46
+ventricular tachycardia	HP:0004756	124-147
+angina pectoris	HP:0001681	250-265
+heart disease	DOID:114	332-345
+hypertension	HP:0000822,DOID:10763	411-423
+systolic blood pressure	CMO:0000004	425-448
+diastolic blood pressure	CMO:0000005	463-487
+New York Heart Association (NYHA) Class III or IV functional status (see Appendix X)	Eligibility	24
+heart	UBERON:0000948	9-14
+functional	BAO:0000010	50-60
+x	LABO:0000148	80-81
+x	LABO:0000148	82-83
+Patients who have received vinorelbine as a prior therapy in the metastatic and recurrent setting.	Eligibility	25
+vinorelbine	CHEBI:480999	27-38
+recurrent	HP:0031796	80-89
+Patients with serious illness or medical condition which would not permit the patient to be managed according to the protocol including, but not limited to:	Eligibility	26
+condition	PDRO:0000129	41-50
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	78-85
+History of significant neurologic or psychiatric disorder which would impair the ability to obtain consent or limit compliance with study requirements.	Eligibility	27
+history	BFO:0000182	0-7
+disorder	OGMS:0000045	49-57
+Active uncontrolled infection. Serious or non-healing wound, ulcer, or bone fracture.	Eligibility	28
+active	PATO:0002354	0-6
+ulcer	OAE:0004372	61-66
+bone fracture	HP:0020110	71-84
+Patients with GI tract disease resulting in an inability to take oral medication such as but not limited to malabsorption syndrome, a requirement for IV alimentation, prior surgical procedures affecting absorption (for example resection of stomach or small bowel) or uncontrolled inflammatory GI disease (e.g. Crohn's, ulcerative colitis).	Eligibility	29
+disease	DOID:4,OGMS:0000031	23-30
+disease	DOID:4,OGMS:0000031	296-303
+malabsorption	HP:0002024	108-121
+syndrome	DOID:225	122-130
+stomach	UBERON:0000945	240-247
+ulcerative colitis	HP:0100279,DOID:8577	319-337
+Patients receiving CYP3A4 inhibitors or inducers are not eligible unless it has been > 7 and > 14 days, respectively since the last dose of medication before the start of protocol treatment (see Appendix IX). For amiodarone in particular, dosing is prohibited for at least 6 months prior to the start of protocol treatment.	Eligibility	30
+amiodarone	CHEBI:2663	213-223
+Patients with history of allergic or hypersensitivity reactions to any study drug or their excipients or with a history of allergic reactions attributed to compounds with similar chemical composition to any of the study drugs.	Eligibility	31
+history	BFO:0000182	14-21
+history	BFO:0000182	112-119
+hypersensitivity	GO:0002524,DOID:1205	37-53
+drug	CHEBI:23888	77-81
+drug	CHEBI:23888	220-224
+Pregnant or lactation women	Eligibility	32
+lactation	GO:0007595	12-21
+Outcome Measurement:	Results	0
+Number of Participants (Par.) With Clinical Benefit (CB) at Week 12 and Week 24	Results	1
+week	UO:0000034	60-64
+week	UO:0000034	72-76
+Par. with CB are defined as those with complete response (CR), partial response (PR), or stable disease (SD) for >=12 or 24 weeks. Per Response Evaluation Criteria In Solid Tumors (RECIST), Version 1.1, CR is defined as the disappearance of all target lesions, PR is defined as a >=30% decrease in the sum of the longest diameter (LD) of target lesions, taking as a reference the baseline sum LD, and SD is defined as neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for progressive disease (PD), taking as a reference the smallest sum LD since the treatment started.	Results	2
+stable	HP:0031915	89-95
+disease	DOID:4,OGMS:0000031	96-103
+disease	DOID:4,OGMS:0000031	516-523
+target	BAO:0003064	245-251
+target	BAO:0003064	338-344
+diameter	PATO:0001334	321-329
+increase	BAO:0001251	480-488
+progressive	HP:0003676	504-515
+Time frame: Week 12 and Week 24	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	12-16
+week	UO:0000034	24-28
+Results 1:	Results	4
+Arm/Group Title: Lapatinib 1250 mg and Vinorelbine 20 mg/m^2	Results	5
+lapatinib	CHEBI:49603	17-26
+vinorelbine	CHEBI:480999	39-50
+Arm/Group Description: Participants received 1250 milligram (mg) tablets lapatinib once a day and vinorelbine 20 mg/meters squared (m^2) intravenously on Day 1 and Day 8, and every 3 weeks.	Results	6
+lapatinib	CHEBI:49603	73-82
+day	UO:0000033	90-93
+day	UO:0000033	154-157
+day	UO:0000033	164-167
+vinorelbine	CHEBI:480999	98-109
+Overall Number of Participants Analyzed: 25	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Week 12, CR: 0	Results	9
+week	UO:0000034	31-35
+Week 12, PR: 4	Results	10
+week	UO:0000034	0-4
+Week 12, SD: 12	Results	11
+week	UO:0000034	0-4
+Week 24, CR: 0	Results	12
+week	UO:0000034	0-4
+Week 24, PR: 4	Results	13
+week	UO:0000034	0-4
+Week 24, SD: 10	Results	14
+week	UO:0000034	0-4
+Adverse Events 1:	Adverse Events	0
+Total: 8/29 (27.59%)	Adverse Events	1
+Febrile neutropenia 1/29 (3.45%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphopenia 1/29 (3.45%)	Adverse Events	3
+lymphopenia	HP:0001888,DOID:614	0-11
+Lymphangitis 1/29 (3.45%)	Adverse Events	4
+lymphangitis	DOID:9317	0-12
+Vomiting 1/29 (3.45%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Abdominal epigastric pain 1/29 (3.45%)	Adverse Events	6
+epigastric pain	HP:0410019	10-25
+Diarrhea 3/29 (10.34%)	Adverse Events	7
+diarrhea	HP:0002014,DOID:13250	0-8
+Candida sepsis 1/29 (3.45%)	Adverse Events	8
+sepsis	HP:0100806	8-14
+Motor deficit 1/29 (3.45%)	Adverse Events	9
+Urinary infection 1/29 (3.45%)	Adverse Events	10
+Pneumonia 1/29 (3.45%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	0-9

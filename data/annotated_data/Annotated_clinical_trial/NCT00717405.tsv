@@ -1,0 +1,84 @@
+INTERVENTION 1:	Intervention	0
+Bevacizumab + Trastuzumab	Intervention	1
+Neoadjuvant treatment (Cycles 1-8, 3-week cycle): Participants received 15 mg/kg IV bevacizumab q3w for 8 cycles, 4 cycles of 500 mg/m^2 IV 5-fluorouracil, 100 mg/m^2 IV epirubicin, and 500 mg/m^2 IV cyclophosphamide, q3w, followed by 4 cycles of 100 mg/m^2 IV docetaxel q3w plus trastuzumab (loading dose of 8 mg/kg and then 6 mg/kg q3w). Participants underwent surgery (mastectomy) after neoadjuvant treatment, maintaining trastuzumab (6 mg/kg). Adjuvant treatment: Participants received radiotherapy 2-4 weeks after surgery and lasted for 4-6 weeks, 6 mg/kg IV trastuzumab q3w and 15 mg/kg IV bevacizumab q3w administered along with/after the radiotherapy (administered up to a cumulative [neoadjuvant + adjuvant] total of 18 injections each. Hormonal therapy (at investigator discretion) after the end of radiotherapy was administered for 5 years, if participant was hormone receptor positive.	Intervention	2
+5-fluorouracil	CHEBI:46345	140-154
+cyclophosphamide	CHEBI:4026	200-216
+surgery	OAE:0000067	363-370
+surgery	OAE:0000067	519-526
+adjuvant	CHEBI:60809	3-11
+adjuvant	CHEBI:60809	393-401
+adjuvant	CHEBI:60809	448-456
+adjuvant	CHEBI:60809	696-704
+adjuvant	CHEBI:60809	707-715
+radiotherapy	OAE:0000235	490-502
+radiotherapy	OAE:0000235	646-658
+radiotherapy	OAE:0000235	809-821
+hormone	CHEBI:24621	871-878
+receptor	BAO:0000281	879-887
+Inclusion Criteria:	Eligibility	0
+adult females, >=18 years of age;	Eligibility	1
+adult	EFO:0001272	0-5
+age	PATO:0000011	29-32
+inflammatory breast cancer;	Eligibility	2
+breast cancer	DOID:1612	13-26
+HER2-positive tumors;	Eligibility	3
+performance status 0-2.	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+metastases;	Eligibility	6
+previous treatment with chemotherapy, radiation therapy or hormone therapy for a breast tumor;	Eligibility	7
+hormone	CHEBI:24621	59-66
+breast	UBERON:0000310	81-87
+clinically significant cardiovascular disease, or history of thrombotic disorders.	Eligibility	8
+disease	DOID:4,OGMS:0000031	38-45
+history	BFO:0000182	50-57
+Outcome Measurement:	Results	0
+Percentage of Participants With a Pathological Complete Response (PCR) According to the Sataloff Classification	Results	1
+PCR was assessed at the time of definitive surgery according to Sataloff classification and centrally reviewed by an independent committee under blinded conditions. Pathological response was defined based on the therapeutic response at the primary tumor site and axillary lymph nodes. Primary tumor response criteria were as follows: T-A (Total / near total therapeutic effect), T-B (Subjectively greater than [>] 50 percent [%] therapeutic effect but less than [<] T-A), T-C (<50% therapeutic effect, but effect evident), T-D (No therapeutic effect). Axillary lymph node response: N-A (Evidence of therapeutic effect, no metastases), N-B (No therapeutic effect, no nodal metastases), N-C (Nodal metastasis but evident therapeutic effect), N-D (Nodal metastasis with no therapeutic effect). T-A and N-A or T-A and N-B responses were defined as PCR and all other tumor responses as non-responders. Participants with missing values were considered as non-responders.	Results	2
+time	PATO:0000165	24-28
+surgery	OAE:0000067	43-50
+site	BFO:0000029	254-258
+lymph	UBERON:0002391	272-277
+lymph	UBERON:0002391	561-566
+percent	UO:0000187	417-424
+Time frame: From baseline through Week 25 (Up to 6 months)	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	34-38
+Results 1:	Results	4
+Arm/Group Title: Bevacizumab + Trastuzumab	Results	5
+Arm/Group Description: Neoadjuvant treatment (Cycles 1-8, 3-week cycle): Participants received 15 mg/kg IV bevacizumab q3w for 8 cycles, 4 cycles of 500 mg/m^2 IV 5-fluorouracil, 100 mg/m^2 IV epirubicin, and 500 mg/m^2 IV cyclophosphamide, q3w, followed by 4 cycles of 100 mg/m^2 IV docetaxel q3w plus trastuzumab (loading dose of 8 mg/kg and then 6 mg/kg q3w). Participants underwent surgery (mastectomy) after neoadjuvant treatment, maintaining trastuzumab (6 mg/kg). Adjuvant treatment: Participants received radiotherapy 2-4 weeks after surgery and lasted for 4-6 weeks, 6 mg/kg IV trastuzumab q3w and 15 mg/kg IV bevacizumab q3w administered along with/after the radiotherapy (administered up to a cumulative [neoadjuvant + adjuvant] total of 18 injections each. Hormonal therapy (at investigator discretion) after the end of radiotherapy was administered for 5 years, if participant was hormone receptor positive.	Results	6
+5-fluorouracil	CHEBI:46345	163-177
+cyclophosphamide	CHEBI:4026	223-239
+surgery	OAE:0000067	386-393
+surgery	OAE:0000067	542-549
+adjuvant	CHEBI:60809	26-34
+adjuvant	CHEBI:60809	416-424
+adjuvant	CHEBI:60809	471-479
+adjuvant	CHEBI:60809	719-727
+adjuvant	CHEBI:60809	730-738
+radiotherapy	OAE:0000235	513-525
+radiotherapy	OAE:0000235	669-681
+radiotherapy	OAE:0000235	832-844
+hormone	CHEBI:24621	894-901
+receptor	BAO:0000281	902-910
+Overall Number of Participants Analyzed: 52	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  63.46        (49.41 to 77.51)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 20/52 (38.46%)	Adverse Events	1
+Febrile bone marrow aplasia * 5/52 (9.62%)	Adverse Events	2
+bone marrow	UBERON:0002371	8-19
+Febrile neutropenia * 6/52 (11.54%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 6/52 (11.54%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Atrial tachycardia * 1/52 (1.92%)	Adverse Events	5
+tachycardia	HP:0001649	7-18
+Vomiting * 1/52 (1.92%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Tooth loss * 1/52 (1.92%)	Adverse Events	7
+Hyperthermia * 1/52 (1.92%)	Adverse Events	8
+Malaise * 1/52 (1.92%)	Adverse Events	9
+malaise	HP:0033834	0-7
+Pyrexia * 1/52 (1.92%)	Adverse Events	10
+Impaired healing * 3/52 (5.77%)	Adverse Events	11
+Inflammation * 1/52 (1.92%)	Adverse Events	12

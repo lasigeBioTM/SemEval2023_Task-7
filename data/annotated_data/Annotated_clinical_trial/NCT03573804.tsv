@@ -1,0 +1,57 @@
+INTERVENTION 1:	Intervention	0
+Prone to Supine MRI Evaluated by Radiologist A	Intervention	1
+Radiologist A, number of participants successfully segmented	Intervention	2
+INTERVENTION 2:	Intervention	3
+Prone to Supine MRI Evaluated by Radiologist B	Intervention	4
+Radiologist B, number of participants successfully segmented	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Age > 18 years.	Eligibility	1
+age	PATO:0000011	0-3
+Female gender.	Eligibility	2
+female	PATO:0000383	0-6
+Histologic diagnosis of invasive breast cancer or ductal carcinoma in situ	Eligibility	3
+breast cancer	DOID:1612	33-46
+ductal carcinoma in situ	HP:0030075,DOID:0060074	50-74
+Tumor size at least 1 cm in diameter as visualized on mammogram or US.	Eligibility	4
+size	PATO:0000117	6-10
+diameter	PATO:0001334	28-36
+A diagnostic breast MRI is considered to be clinically indicated.	Eligibility	5
+breast	UBERON:0000310	13-19
+Ability to voluntarily provide informed consent to participate prior to any study-related assessments/procedures being conducted.	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Absolute contraindication to MRI, including presence of implanted electrical device (pacemaker or neurostimulator), aneurysm clip, or metallic foreign body in or near eyes.	Eligibility	8
+contraindication	OAE:0000055	9-25
+Severe claustrophobia.	Eligibility	9
+severe	HP:0012828	0-6
+claustrophobia	HP:0025253	7-21
+Contraindication to use of gadolinium-based intravenous contrast, including life- threatening allergy or compromised renal function (eGFR < 30 ml/min/1.73m2).	Eligibility	10
+contraindication	OAE:0000055	0-16
+allergy	HP:0012393	94-101
+function	BAO:0003117,BFO:0000034	123-131
+History of median sternotomy.	Eligibility	11
+history	BFO:0000182	0-7
+median	BAO:0002174	11-17
+Pregnancy. Patient attestation that they are not pregnant will be acceptable.	Eligibility	12
+patient	HADO:0000008,OAE:0001817	11-18
+Patients who have received neoadjuvant chemotherapy.	Eligibility	13
+Outcome Measurement:	Results	0
+Number of Successful Segmentation of Supine MRI Images	Results	1
+segmentation	GO:0035282	21-33
+Determine what number of cases that can be successfully segmented both from using post-contrast prone MRI images and also from using post contrast supine MRI images.	Results	2
+Time frame: 30 minutes	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Prone to Supine MRI Evaluated by Radiologist A	Results	5
+Arm/Group Description: Radiologist A, number of participants successfully segmented	Results	6
+Overall Number of Participants Analyzed: 62	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  54  87.1%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Prone to Supine MRI Evaluated by Radiologist B	Results	11
+Arm/Group Description: Radiologist B, number of participants successfully segmented	Results	12
+Overall Number of Participants Analyzed: 62	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  61  98.4%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/62 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

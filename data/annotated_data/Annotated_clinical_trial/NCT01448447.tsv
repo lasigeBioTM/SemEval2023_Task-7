@@ -1,0 +1,114 @@
+INTERVENTION 1:	Intervention	0
+Sole Method	Intervention	1
+patients will be treated with HDR brachytherapy using Mammosite ML as the sole method for radiation delivery after lumpectomy for breast cancer or DCIS	Intervention	2
+breast cancer	DOID:1612	130-143
+Mammosite ML: 34 Gy / 10 fractions (3.4 Gy per fraction) 2 fractions / day (separated by at least 6 hours) Delivered in 5 consecutive working days	Intervention	3
+day	UO:0000033	71-74
+day	UO:0000033	142-145
+INTERVENTION 2:	Intervention	4
+Boost	Intervention	5
+patients will be treated with HDR brachytherapy using Mammosite ML as a boost technique prior to standard external beam radiation after lumpectomy for breast cancer or DCIS	Intervention	6
+breast cancer	DOID:1612	151-164
+Mammosite ML: 5-10.2 Gy / 2-3 fractions (3.4 Gy per fraction) 2 fractions / day (separated by at least 6 hours) Delivered in 1-2 days Followed by whole breast radiation (25-28 daily tx)	Intervention	7
+day	UO:0000033	76-79
+day	UO:0000033	129-132
+breast	UBERON:0000310	152-158
+Inclusion Criteria:	Eligibility	0
+Women,age of at least 45 years	Eligibility	1
+age	PATO:0000011	6-9
+Zubrod performance status of 0-2	Eligibility	2
+AJCC Stage I-II (T1-T2, N0 M0) breast cancer	Eligibility	3
+breast cancer	DOID:1612	31-44
+Maximum tumor dimension < 3 cm	Eligibility	4
+Invasive ductal, medullary, papillary, tubular, colloid (mucinous) histologies	Eligibility	5
+Unifocal breast cancer	Eligibility	6
+breast cancer	DOID:1612	9-22
+Unilateral breast cancer (no synchronous or previous contralateral breast cancer)	Eligibility	7
+unilateral	HP:0012833	0-10
+breast cancer	DOID:1612	11-24
+breast cancer	DOID:1612	67-80
+Lumpectomy with negative surgical margins by at least 2 mm or re-excision specimen with negative surgical margins by at least 2 mm	Eligibility	8
+Ductal Carcinoma In-Situ	Eligibility	9
+carcinoma	HP:0030731,DOID:305	7-16
+Negative axillary lymph nodes for invasive breast cancer (sentinel node biopsy or standard level I-II dissection with > 6 nodes removed)	Eligibility	10
+lymph	UBERON:0002391	18-23
+breast cancer	DOID:1612	43-56
+Time interval from final breast surgery to brachytherapy loading less than 8 weeks	Eligibility	11
+time	PATO:0000165	0-4
+breast	UBERON:0000310	25-31
+surgery	OAE:0000067	32-39
+At least 2 mm of breast tissue between the skin and the MammoSite® balloon surface(prefer > 5 mm)	Eligibility	12
+breast	UBERON:0000310	17-23
+tissue	UBERON:0000479	24-30
+If chemotherapy is planned, it must begin no earlier that 2 weeks following completion of radiation therapy. If chemotherapy is first, a minimum of 2 weeks from the last cycle must elapse prior to the start of radiation therapy.	Eligibility	13
+Signed study-specific consent form	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Invasive lobular histology	Eligibility	16
+histology	NCIT:C16681	17-26
+Non-epithelial breast malignancies such as sarcoma or lymphoma	Eligibility	17
+breast	UBERON:0000310	15-21
+sarcoma	HP:0100242,DOID:1115	43-50
+lymphoma	HP:0002665,DOID:0060058	54-62
+Multifocal or multicentric invasive carcinoma	Eligibility	18
+multifocal	HP:0030651	0-10
+carcinoma	HP:0030731,DOID:305	36-45
+Extensive intraductal component (EIC)	Eligibility	19
+Paget's disease of the nipple	Eligibility	20
+disease	DOID:4,OGMS:0000031	8-15
+Skin involvement by tumor, regardless of tumor size	Eligibility	21
+size	PATO:0000117	47-51
+Positive axillary lymph nodes	Eligibility	22
+lymph	UBERON:0002391	18-23
+Distant metastases	Eligibility	23
+Collagen vascular disease (scleroderma)	Eligibility	24
+collagen	CHEBI:3815	0-8
+vascular disease	DOID:178	9-25
+scleroderma	HP:0100324,DOID:419,DOID:418	27-38
+Pregnant or lactating women, due to potential exposure of the fetus to RT and unknown effects of RT on lactating females (negative pregnancy test for women of child-bearing age)	Eligibility	25
+age	PATO:0000011	173-176
+Any previously treated or synchronous contralateral breast carcinoma	Eligibility	26
+breast carcinoma	HP:0003002,DOID:3459	52-68
+Patients with psychiatric or addictive disorder that would preclude obtaining informed Consent	Eligibility	27
+disorder	OGMS:0000045	39-47
+Men	Eligibility	28
+Outcome Measurement:	Results	0
+Ipsilateral Recurrence Rate	Results	1
+rate	BAO:0080019	23-27
+Local recurrence is defined as either invasive or non-invasive breast cancer recurrence within the target volume.	Results	2
+breast cancer	DOID:1612	63-76
+target	BAO:0003064	99-105
+volume	PATO:0000918	106-112
+Elsewhere recurrence is defined as either invasive or non-invasive breast cancer recurrence outside of the target volume.	Results	3
+breast cancer	DOID:1612	67-80
+target	BAO:0003064	107-113
+volume	PATO:0000918	114-120
+Local control rate will be evaluated by imaging techniques, physical exam and biopsy, if applicable.	Results	4
+rate	BAO:0080019	14-18
+Measured as a count of participants experiencing recurrence, i.e. each subject experiencing ipsilateral tumor recurrence within 5 years = 1, and each subject with no ipsilateral tumor recurrence within 5 years = 0	Results	5
+Time frame: 5 years	Results	6
+time	PATO:0000165	0-4
+Results 1:	Results	7
+Arm/Group Title: Sole Method	Results	8
+Arm/Group Description: patients will be treated with HDR brachytherapy using Mammosite ML as the sole method for radiation delivery after lumpectomy for breast cancer or DCIS	Results	9
+breast cancer	DOID:1612	153-166
+Mammosite ML: 34 Gy / 10 fractions (3.4 Gy per fraction) 2 fractions / day (separated by at least 6 hours) Delivered in 5 consecutive working days	Results	10
+day	UO:0000033	71-74
+day	UO:0000033	142-145
+Overall Number of Participants Analyzed: 9	Results	11
+Measure Type: Number	Results	12
+Unit of Measure: participants  0	Results	13
+Results 2:	Results	14
+Arm/Group Title: Boost	Results	15
+Arm/Group Description: patients will be treated with HDR brachytherapy using Mammosite ML as a boost technique prior to standard external beam radiation after lumpectomy for breast cancer or DCIS	Results	16
+breast cancer	DOID:1612	174-187
+Mammosite ML: 5-10.2 Gy / 2-3 fractions (3.4 Gy per fraction) 2 fractions / day (separated by at least 6 hours) Delivered in 1-2 days Followed by whole breast radiation (25-28 daily tx)	Results	17
+day	UO:0000033	76-79
+day	UO:0000033	129-132
+breast	UBERON:0000310	152-158
+Overall Number of Participants Analyzed: 0	Results	18
+Measure Type: Number	Results	19
+Unit of Measure: participants	Results	20
+Adverse Events 1:	Adverse Events	0
+Total: 0/20 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

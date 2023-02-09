@@ -1,0 +1,109 @@
+INTERVENTION 1:	Intervention	0
+AC Followed by Paclitaxel + Trastuzumab	Intervention	1
+paclitaxel	CHEBI:45863	15-25
+Doxorubicin and Cyclophosphamide (60/600 mg/m2) X 4 followed by Paclitaxel (175 mg/m2) X 4 every 2 weekly with pegfilgrastim (6mg on day 2) + Trastuzumab x 1 year.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	16-32
+x	LABO:0000148	2-3
+x	LABO:0000148	48-49
+x	LABO:0000148	71-72
+x	LABO:0000148	87-88
+x	LABO:0000148	154-155
+paclitaxel	CHEBI:45863	64-74
+day	UO:0000033	133-136
+year	UO:0000036	158-162
+Inclusion Criteria:	Eligibility	0
+adenocarcinoma breast cancer	Eligibility	1
+adenocarcinoma	DOID:299	0-14
+breast cancer	DOID:1612	15-28
+ECOG performance status of 0 or 1	Eligibility	2
+peripheral neuropathy less than or equal to 1	Eligibility	3
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+discontinued hormonal therapy as a chemoprevention while onstudy	Eligibility	4
+LVEF by MUGA > 55%?	Eligibility	5
+Absolute neutrophil count (ANC)> 1000/µL)	Eligibility	6
+platelet count > 100,000/µL)	Eligibility	7
+platelet count	CMO:0000029	0-14
+SGOT OR SGPT < 92.5 units/L	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Stage IV breast cancer	Eligibility	10
+breast cancer	DOID:1612	9-22
+any chemotherapy, radiation therapy, immunotherapy, or biotherapy for a CURRENT breast cancer	Eligibility	11
+breast cancer	DOID:1612	80-93
+pregnant or lactating patients	Eligibility	12
+active second malignancy, other than adequately treated non-melanoma skin cancers or in situ cervical cancer	Eligibility	13
+active	PATO:0002354	0-6
+second	UO:0000010	7-13
+cervical cancer	DOID:4362	93-108
+previous allergy/hypersensitivity to Doxorubicin, Cyclophosphamide, Paclitaxel, or other drugs formulated in Cremophor EL?	Eligibility	14
+doxorubicin	CHEBI:28748,BAO:0000639	37-48
+cyclophosphamide	CHEBI:4026	50-66
+paclitaxel	CHEBI:45863	68-78
+unstable angina, congestive heart failure, current use of digitalis, beta-blockers, or calcium blockers for therapy of congestive heart failure, arrhythmia requiring medical therapy, or a history of a myocardial infarction within 12 months	Eligibility	15
+congestive heart failure	HP:0001635,DOID:6000	17-41
+congestive heart failure	HP:0001635,DOID:6000	119-143
+calcium	CHEBI:22984,BAO:0000874	87-94
+arrhythmia	HP:0011675	145-155
+history	BFO:0000182	188-195
+myocardial infarction	HP:0001658,DOID:5844	201-222
+psychiatric illness that prevents her from understanding the nature of this study and complying with protocol requirements?	Eligibility	16
+active, unresolved infections	Eligibility	17
+active	PATO:0002354	0-6
+sensitivity to E. coli derived proteins	Eligibility	18
+prior chemotherapy with an anthracycline	Eligibility	19
+anthracycline	CHEBI:48120	27-40
+prior Herceptin therapy	Eligibility	20
+Outcome Measurement:	Results	0
+Cardiac Saftey	Results	1
+LVEF by Muga scan	Results	2
+Time frame: Baseline-18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: AC Followed by Paclitaxel + Trastuzumab	Results	5
+paclitaxel	CHEBI:45863	32-42
+Arm/Group Description: Doxorubicin and Cyclophosphamide (60/600 mg/m2) X 4 followed by Paclitaxel (175 mg/m2) X 4 every 2 weekly with pegfilgrastim (6mg on day 2) + Trastuzumab x 1 year.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+cyclophosphamide	CHEBI:4026	39-55
+x	LABO:0000148	25-26
+x	LABO:0000148	71-72
+x	LABO:0000148	94-95
+x	LABO:0000148	110-111
+x	LABO:0000148	177-178
+paclitaxel	CHEBI:45863	87-97
+day	UO:0000033	156-159
+year	UO:0000036	181-185
+Overall Number of Participants Analyzed: 70	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: percentage of LVEF  LVEF at Baseline: 68        (55 to 81)	Results	9
+LVEF at Month 2: 67        (58 to 79)	Results	10
+month	UO:0000035	8-13
+LVEF at Month 6 (67/70 pts): 66        (52 to 75)	Results	11
+month	UO:0000035	8-13
+LVEF at Month 9 (68/70 pts): 65        (50 to 75)	Results	12
+month	UO:0000035	8-13
+LVEF at Month 18 (48/70 pts): 66        (57 to 75)	Results	13
+month	UO:0000035	8-13
+Adverse Events 1:	Adverse Events	0
+Total: 19/70 (27.14%)	Adverse Events	1
+Febrile Neutropenia 24/70 (5.71%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Pericarditis 21/70 (1.43%)	Adverse Events	3
+pericarditis	HP:0001701,DOID:1787	0-12
+Sinus bradycardia 21/70 (1.43%)	Adverse Events	4
+sinus bradycardia	HP:0001688	0-17
+Abdominal Pain 2/70 (2.86%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Diarrhea 21/70 (1.43%)	Adverse Events	6
+diarrhea	HP:0002014,DOID:13250	0-8
+Lower gastrointestinal hemorrhage 21/70 (1.43%)	Adverse Events	7
+gastrointestinal hemorrhage	HP:0002239	6-33
+Nausea 21/70 (1.43%)	Adverse Events	8
+nausea	HP:0002018	0-6
+Non Cardiac-Chest pain 22/70 (2.86%)	Adverse Events	9
+pain	HP:0012531	18-22
+Fever 24/70 (5.71%)	Adverse Events	10
+fever	HP:0001945	0-5
+Skin infection 41/70 (1.43%)	Adverse Events	11
+Neutrophil count decreased 31/70 (1.43%)	Adverse Events	12

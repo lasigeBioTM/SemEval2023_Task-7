@@ -1,0 +1,168 @@
+INTERVENTION 1:	Intervention	0
+1mg/kg q2w	Intervention	1
+Phase I Dose escalation cohort patients who took PDR001 1 mg/kg q2w	Intervention	2
+INTERVENTION 2:	Intervention	3
+3mg/kg q2w	Intervention	4
+Phase I Dose escalation cohort patients who took PRD001 3 mg/kg q2w	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Written informed consent must have been obtained prior to any screening procedures	Eligibility	1
+Phase I part: Patients with advanced/metastatic solid tumors, with measurable or non-measurable disease as determined by RECIST version 1.1 (refer to Appendix 1), who have progressed despite standard therapy or are intolerant of standard therapy, or for whom no standard therapy exists.	Eligibility	2
+disease	DOID:4,OGMS:0000031	96-103
+Phase II part: Patients with advanced/metastatic solid tumors, with at least one measurable lesion as determined by RECIST version 1.1, who have progressed following their last prior therapy, and fit into one of the following groups:	Eligibility	3
+Group 1a and 1b: NSCLC:	Eligibility	4
+group	CHEBI:24433	0-5
+Patients with NSCLC must have had disease recurrence or progression during or after no more than one prior systemic chemotherapy regimen (platinum doublet-based) for advanced or metastatic disease. Prior maintenance therapy is allowed (e.g. pemetrexed, erlotinib, bevacizumab).	Eligibility	5
+disease	DOID:4,OGMS:0000031	34-41
+disease	DOID:4,OGMS:0000031	189-196
+platinum	CHEBI:33364	138-146
+pemetrexed	CHEBI:63616	241-251
+erlotinib	CHEBI:114785	253-262
+Only patients with EGFR mutation-negative tumor are eligible (defined as negative for exon 19 deletions and for the L858R mutation in EGFR at a minimum; however, if more extensive EGFR mutation testing has been performed, the tumor must not harbor any known activating EGFR mutations in Exons 18-21 in order to be considered EGFR mutation-negative). All patients must be tested for EGFR mutational status and, for ALK translocation status if no mutation is detected in EGFR. Patients with ALK translocation-positive NSCLC must have had disease progression following treatment with a corresponding inhibitor and no more than one systemic chemotherapy regimen (platinum doublet-based), in any sequence.	Eligibility	6
+disease	DOID:4,OGMS:0000031	536-543
+inhibitor	CHEBI:35222	597-606
+platinum	CHEBI:33364	659-667
+Group 2: Melanoma:	Eligibility	7
+group	CHEBI:24433	0-5
+melanoma	HP:0002861,DOID:1909	9-17
+All patients must have been tested for BRAF mutations. Patients with V600 mutation positive melanoma must have clinical or radiological evidence of disease progression during or after treatment with a BRAF inhibitor alone or in combination with other agents.	Eligibility	8
+melanoma	HP:0002861,DOID:1909	92-100
+disease	DOID:4,OGMS:0000031	148-155
+inhibitor	CHEBI:35222	206-215
+Group 3: Triple negatice breast cancer.	Eligibility	9
+group	CHEBI:24433	0-5
+breast cancer	DOID:1612	25-38
+Group 4: Anaplastic thyroid cancer	Eligibility	10
+group	CHEBI:24433	0-5
+cancer	DOID:162	28-34
+Patients are not required to have received or progressed on a prior therapy.	Eligibility	11
+Patients must not be at short term risk for life threatening complications (such as airway compromise or bleeding from locoregional or metastatic disease).	Eligibility	12
+disease	DOID:4,OGMS:0000031	146-153
+Chemoradiation and/or surgery should be considered prior to study entry for those patients with locally advanced disease if those therapies are considered to be in the best interest of the patient.	Eligibility	13
+surgery	OAE:0000067	22-29
+disease	DOID:4,OGMS:0000031	113-120
+patient	HADO:0000008,OAE:0001817	82-89
+patient	HADO:0000008,OAE:0001817	189-196
+ECOG Performance Status  1.	Eligibility	14
+Patients must have a site of disease amenable to biopsy, and be a candidate for tumor biopsy. Patient must be willing to undergo a new tumor biopsy at baseline or at molecular pre-screening if applicable, and during therapy on this study. For patients in the phase II part of the study, exceptions may be granted after documented discussion with Novartis. After a sufficient number of paired biopsies are collected, the decision may be taken to stop the collection of biopsies.	Eligibility	15
+site	BFO:0000029	21-25
+disease	DOID:4,OGMS:0000031	29-36
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	94-101
+patient	HADO:0000008,OAE:0001817	243-250
+part of	BAO:0090002,BFO:0000050	268-275
+Exclusion Criteria:	Eligibility	16
+History of severe hypersensitivity reactions to other mAbs	Eligibility	17
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+hypersensitivity	GO:0002524,DOID:1205	18-34
+Subjects with active, known or suspected autoimmune disease. Subjects with vitiligo, type I diabetes mellitus, residual hypothyroidism due to autoimmune condition only requiring hormone replacement, psoriasis not requiring systemic treatment, or conditions not expected to recur in the absence of an external trigger are permitted to enroll.	Eligibility	18
+active	PATO:0002354	14-20
+autoimmune disease	DOID:417	41-59
+vitiligo	HP:0001045,DOID:12306	75-83
+type i diabetes mellitus	HP:0100651	85-109
+hypothyroidism	HP:0000821,DOID:1459	120-134
+condition	PDRO:0000129	153-162
+condition	PDRO:0000129	246-255
+hormone	CHEBI:24621	178-185
+psoriasis	DOID:8893	199-208
+Active infection requiring systemic antibiotic therapy.	Eligibility	19
+active	PATO:0002354	0-6
+HIV infection.	Eligibility	20
+Active HBV or HCV infection.	Eligibility	21
+active	PATO:0002354	0-6
+Patients with ocular melanoma.	Eligibility	22
+ocular melanoma	DOID:1752	14-29
+Systemic anti-cancer therapy within 2 weeks of the first dose of study treatment. For cytotoxic agents that have major delayed toxicity, e.g. mitomycin C and nitrosoureas, 4 weeks washout period. For patients receiving anticancer immunotherapies such as CTLA-4 antagonists, 6 weeks is indicated as the washout period.	Eligibility	23
+mitomycin c	CHEBI:27504	142-153
+Prior PD-1- or PD-L1-directed therapy.	Eligibility	24
+Patients requiring chronic treatment with systemic steroid therapy, other than replacement-dose steroids in the setting of adrenal insufficiency. Topical, inhaled, nasal and ophthalmic steroids are not prohibited.	Eligibility	25
+chronic	HP:0011010	19-26
+steroid	CHEBI:35341	51-58
+steroid	CHEBI:35341	96-103
+steroid	CHEBI:35341	185-192
+adrenal insufficiency	HP:0000846	123-144
+Patients receiving systemic treatment with any immunosuppressive medication (other than steroids as described above).	Eligibility	26
+Use of any vaccines against infectious diseases (e.g. influenza, varicella, pneumococcus) within 4 weeks of initiation of study treatment.	Eligibility	27
+influenza	DOID:8469	54-63
+Presence of  CTCAE grade 2 toxicity (except alopecia, peripheral neuropathy and ototoxicity, which are excluded if  CTCAE grade 3) due to prior cancer therapy	Eligibility	28
+alopecia	HP:0001596,DOID:987	44-52
+peripheral neuropathy	HP:0009830,DOID:870	54-75
+excluded	HP:0040285	103-111
+cancer	DOID:162	144-150
+Outcome Measurement:	Results	0
+Phase l: The Exposure (AUC(0-336h)) After First Dose of Treatment at Cycle 3 (Each Cycle = 28 Days)	Results	1
+auc	BAO:0002120	23-26
+Estimated the recommended phase 2 dose (RP2D) and/or the maximum tolerated dose (MTD) for PDR001.	Results	2
+mtd	BAO:0001248	81-84
+AUC0-336h is the AUC from time zero to 336 hour post dose of a measurable concentration sampling time.	Results	3
+auc	BAO:0002120	0-3
+auc	BAO:0002120	17-20
+time	PATO:0000165	26-30
+time	PATO:0000165	97-101
+hour	UO:0000032	43-47
+Time frame: Predose, 1hour (h), 24h, 48h, 72h, 168h, 240h, 336h post dose (cycle 3)	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: 1mg/kg q2w	Results	6
+Arm/Group Description: Phase I Dose escalation cohort patients who took PDR001 1 mg/kg q2w	Results	7
+Overall Number of Participants Analyzed: 8	Results	8
+Geometric Mean (Geometric Coefficient of Variation)	Results	9
+mean	BAO:0002173	10-14
+coefficient of variation	BAO:0000531	26-50
+Unit of Measure: day*ug/mL  270        (52.5%)	Results	10
+day	UO:0000033	17-20
+Results 2:	Results	11
+Arm/Group Title: 3mg/kg q2w	Results	12
+Arm/Group Description: Phase I Dose escalation cohort patients who took PRD001 3 mg/kg q2w	Results	13
+Overall Number of Participants Analyzed: 4	Results	14
+Geometric Mean (Geometric Coefficient of Variation)	Results	15
+mean	BAO:0002173	10-14
+coefficient of variation	BAO:0000531	26-50
+Unit of Measure: day*ug/mL  1150        (51.1%)	Results	16
+day	UO:0000033	17-20
+Adverse Events 1:	Adverse Events	0
+Total: 9/16 (56.25%)	Adverse Events	1
+Anaemia 2/16 (12.50%)	Adverse Events	2
+Lymphadenopathy 0/16 (0.00%)	Adverse Events	3
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia 0/16 (0.00%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome 0/16 (0.00%)	Adverse Events	5
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction 0/16 (0.00%)	Adverse Events	6
+acute myocardial infarction	DOID:9408	0-27
+Arrhythmia 0/16 (0.00%)	Adverse Events	7
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 0/16 (0.00%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter 0/16 (0.00%)	Adverse Events	9
+atrial flutter	HP:0004749	0-14
+Cardiac arrest 0/16 (0.00%)	Adverse Events	10
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac tamponade 0/16 (0.00%)	Adverse Events	11
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Coronary artery stenosis 0/16 (0.00%)	Adverse Events	12
+coronary artery stenosis	HP:0005145	0-24
+Adverse Events 2:	Adverse Events	13
+Total: 7/15 (46.67%)	Adverse Events	14
+Anaemia 0/15 (0.00%)	Adverse Events	15
+Lymphadenopathy 0/15 (0.00%)	Adverse Events	16
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia 1/15 (6.67%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome 0/15 (0.00%)	Adverse Events	18
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction 0/15 (0.00%)	Adverse Events	19
+acute myocardial infarction	DOID:9408	0-27
+Arrhythmia 0/15 (0.00%)	Adverse Events	20
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 0/15 (0.00%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter 0/15 (0.00%)	Adverse Events	22
+atrial flutter	HP:0004749	0-14
+Cardiac arrest 0/15 (0.00%)	Adverse Events	23
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac tamponade 0/15 (0.00%)	Adverse Events	24
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Coronary artery stenosis 0/15 (0.00%)	Adverse Events	25
+coronary artery stenosis	HP:0005145	0-24

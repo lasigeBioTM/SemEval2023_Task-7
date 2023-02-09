@@ -1,0 +1,67 @@
+INTERVENTION 1:	Intervention	0
+Luminal A	Intervention	1
+Patients subtyped as Luminal A with DDFS determined 5 years after randomisation	Intervention	2
+INTERVENTION 2:	Intervention	3
+Combined Subtype	Intervention	4
+Patients subtyped as Luminal B, HER2 positive, triple negative with DDFS determined 5 years after randomisation	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Invasive breast cancer verified in a histological biopsy	Eligibility	1
+breast cancer	DOID:1612	9-22
+Age 65 or younger	Eligibility	2
+age	PATO:0000011	0-3
+Estrogen receptor (ER), PgR and HER2 expression have been determined	Eligibility	3
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+No distant metastases present (M0)	Eligibility	4
+present	PATO:0000467	22-29
+The patient provides a written informed consent for study participation	Eligibility	5
+patient	HADO:0000008,OAE:0001817	4-11
+The estimated risk of breast cancer recurrence is high (25% or higher within the first 5 years from the date of the diagnosis, over >35% within the first 10 years from the diagnosis)	Eligibility	6
+breast cancer	DOID:1612	22-35
+Exclusion Criteria:	Eligibility	7
+Patients with breast cancer with "a special histological type" (mucinous, papillary, medullary, or tubular type of breast cancer) when no metastases are present in the ipsilateral axillary lymph nodes	Eligibility	8
+breast cancer	DOID:1612	14-27
+breast cancer	DOID:1612	115-128
+present	PATO:0000467	153-160
+lymph	UBERON:0002391	189-194
+The WHO performance status is moderate/poor, Z >1	Eligibility	9
+The peripheral blood leukocyte count is less than 3.0 x 109/L, the blood granulocyte count is less than 1.5 x 109/L, or the blood thrombocyte count is less than 120 x 109/L	Eligibility	10
+peripheral	HP:0030646	4-14
+blood	UBERON:0000178	15-20
+blood	UBERON:0000178	67-72
+blood	UBERON:0000178	124-129
+x	LABO:0000148	54-55
+x	LABO:0000148	108-109
+x	LABO:0000148	165-166
+blood granulocyte count	CMO:0000111	67-90
+Any physical or mental disorder that is considered to prohibit administration of chemotherapy	Eligibility	11
+disorder	OGMS:0000045	23-31
+Cardiac failure; severe cardiac arrythmia requiring regular medication	Eligibility	12
+severe	HP:0012828	17-23
+Outcome Measurement:	Results	0
+5 Year Distant Disease Free Survival (DDFS) Assessed as Rate of Patients Without Distant Metastases in Subgroup Luminal A vs. Combined Subgroup (Luminal B, HER2 Positive, Triple Negative), Based on Subtyping With MammaTyper™	Results	1
+year	UO:0000036	2-6
+disease	DOID:4,OGMS:0000031	15-22
+rate	BAO:0080019	56-60
+Tumor material of breast cancer patients will be newly assessed by MammaTyper™ and 5 year DDFS will be calculated new according to new subgrouping (Luminal A vs. combined subgroup (Luminal B, HER2 positive, triple negative))	Results	2
+breast cancer	DOID:1612	18-31
+year	UO:0000036	85-89
+Time frame: 5 year from the date of patient randomisation	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+patient	HADO:0000008,OAE:0001817	36-43
+Results 1:	Results	4
+Arm/Group Title: Luminal A	Results	5
+Arm/Group Description: Patients subtyped as Luminal A with DDFS determined 5 years after randomisation	Results	6
+Overall Number of Participants Analyzed: 769	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of analyzed participants  92	Results	9
+Results 2:	Results	10
+Arm/Group Title: Combined Subtype	Results	11
+Arm/Group Description: Patients subtyped as Luminal B, HER2 positive, triple negative with DDFS determined 5 years after randomisation	Results	12
+Overall Number of Participants Analyzed: 769	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of analyzed participants  82	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

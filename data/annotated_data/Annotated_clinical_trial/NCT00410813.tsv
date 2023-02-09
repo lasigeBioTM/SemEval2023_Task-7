@@ -1,0 +1,260 @@
+INTERVENTION 1:	Intervention	0
+Dasatinib, 100 mg, Daily	Intervention	1
+Dasatinib, 100 mg PO daily until progression of disease	Intervention	2
+disease	DOID:4,OGMS:0000031	48-55
+INTERVENTION 2:	Intervention	3
+Dasatinib, 70 mg, Twice Daily	Intervention	4
+Dasatinib, 70 mg PO twice daily until progression of disease	Intervention	5
+disease	DOID:4,OGMS:0000031	53-60
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Diagnosis of breast carcinoma meeting the following criteria:	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	13-29
+Stage IV disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	9-16
+Bone metastasis-predominant disease, defined as the presence of  1 bone metastasis with or without nonbone (visceral or soft tissue) disease where the number of bone metastases is at least the number of measurable visceral target lesions	Eligibility	3
+disease	DOID:4,OGMS:0000031	28-35
+disease	DOID:4,OGMS:0000031	133-140
+tissue	UBERON:0000479	125-131
+target	BAO:0003064	223-229
+Visceral disease that does not cause a reduction in ECOG performance status allowed	Eligibility	4
+disease	DOID:4,OGMS:0000031	9-16
+Must meet 1 of the following criteria:	Eligibility	5
+Measurable disease within the past 28 days	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+Nonmeasurable disease with rising serum CA 15-3, CA 27-29, CEA, or CA-125 documented by 2 consecutive measurements taken  14 days apart with the most recent measurement being within the past 42 days	Eligibility	7
+disease	DOID:4,OGMS:0000031	14-21
+These measurements need not be consecutive, and the prior measurement could have been months to years prior to the current measurement if the marker is considered by the investigator to reflect disease progression	Eligibility	8
+disease	DOID:4,OGMS:0000031	194-201
+The second serum marker value must be greater than the institution's upper limit of normal and show  a 20% increase over the first measurement	Eligibility	9
+second	UO:0000010	4-10
+increase	BAO:0001251	107-115
+No symptomatic brain or CNS metastases	Eligibility	10
+brain	UBERON:0000955	15-20
+Prior CNS or brain metastasis allowed provided it was treated with radiotherapy  8 weeks ago	Eligibility	11
+brain	UBERON:0000955	13-18
+radiotherapy	OAE:0000235	67-79
+No pleural or pericardial effusion	Eligibility	12
+pericardial effusion	HP:0001698,DOID:118	14-34
+Hormone receptor status known	Eligibility	13
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen receptor- and/or progesterone receptor-positive disease must have progressed on  1 hormonal therapy in the metastatic setting	Eligibility	14
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	26-38
+disease	DOID:4,OGMS:0000031	57-64
+PATIENT CHARACTERISTICS:	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+Male or female	Eligibility	16
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	17
+Zubrod performance status 0-2	Eligibility	18
+QTc < 450 msec by EKG	Eligibility	19
+Ejection fraction  50% by MUGA or 2-dimensional echocardiogram with no significant abnormalities within the past 12 weeks for patients on trastuzumab	Eligibility	20
+ejection fraction	CMO:0000180	0-17
+No active infection requiring systemic therapy	Eligibility	21
+active	PATO:0002354	3-9
+No uncontrolled concurrent condition that would preclude the ability to take oral medication, including the following:	Eligibility	22
+condition	PDRO:0000129	27-36
+Nausea	Eligibility	23
+nausea	HP:0002018	0-6
+Vomiting	Eligibility	24
+vomiting	HP:0002013	0-8
+Diarrhea	Eligibility	25
+diarrhea	HP:0002014,DOID:13250	0-8
+Lack of physical integrity of the upper gastrointestinal tract	Eligibility	26
+Malabsorption syndrome	Eligibility	27
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+No clinically significant cardiac disease, including the following:	Eligibility	28
+disease	DOID:4,OGMS:0000031	34-41
+Congestive heart failure	Eligibility	29
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Symptomatic coronary artery disease	Eligibility	30
+coronary artery disease	DOID:3393	12-35
+Cardiac arrhythmias not well controlled	Eligibility	31
+Myocardial infarction within the past 12 months	Eligibility	32
+myocardial infarction	HP:0001658,DOID:5844	0-21
+No concurrent active malignancy	Eligibility	33
+active	PATO:0002354	14-20
+Prior malignancies allowed provided the patient is currently disease-free	Eligibility	34
+patient	HADO:0000008,OAE:0001817	40-47
+Not pregnant or nursing	Eligibility	35
+Fertile patients must use effective contraception during and for 3 months after completion of study therapy	Eligibility	36
+PRIOR CONCURRENT THERAPY:	Eligibility	37
+See Disease Characteristics	Eligibility	38
+disease	DOID:4,OGMS:0000031	4-11
+No prior RankL inhibitor therapy	Eligibility	39
+inhibitor	CHEBI:35222	15-24
+No more than 1 prior cytotoxic chemotherapy for metastatic disease	Eligibility	40
+disease	DOID:4,OGMS:0000031	59-66
+At least 3 weeks since prior chemotherapy and recovered	Eligibility	41
+At least 1 week since prior radiotherapy to non-CNS disease and recovered	Eligibility	42
+week	UO:0000034	11-15
+radiotherapy	OAE:0000235	28-40
+disease	DOID:4,OGMS:0000031	52-59
+At least 3 weeks since prior and no concurrent intravenous bisphosphates (e.g., zoledronate)	Eligibility	43
+At least 7 days since prior and no concurrent antiplatelet agents, including any of the following*:	Eligibility	44
+Anticoagulants (e.g., tirofiban, eptifibatide, ticlopidine)	Eligibility	45
+tirofiban	CHEBI:9605	22-31
+eptifibatide	CHEBI:291902	33-45
+ticlopidine	CHEBI:9588	47-58
+Aspirin or aspirin-containing combinations	Eligibility	46
+Dipyridamole	Eligibility	47
+dipyridamole	CHEBI:4653	0-12
+Epoprostenol	Eligibility	48
+Clopidogrel	Eligibility	49
+clopidogrel	CHEBI:37941	0-11
+Cilostazol	Eligibility	50
+cilostazol	CHEBI:31401	0-10
+Abciximab NOTE: *Nonsteroidal anti-inflammatory drugs and medically indicated platelet-inhibiting medication allowed	Eligibility	51
+At least 7 days since prior and no concurrent CYP3A4 inhibitors, including any of the following:	Eligibility	52
+HIV protease inhibitors (e.g., amprenavir, atazanavir, fosamprenavir, indinavir, nelfinavir, ritonavir)	Eligibility	53
+protease	BAO:0000652	4-12
+amprenavir	CHEBI:40050	31-41
+amprenavir	CHEBI:40050	58-68
+atazanavir	CHEBI:37924	43-53
+fosamprenavir	CHEBI:82941	55-68
+indinavir	CHEBI:44032	70-79
+nelfinavir	CHEBI:7496	81-91
+ritonavir	CHEBI:45409	93-102
+Select antibiotics (e.g., ciprofloxacin, clarithromycin, doxycycline, enoxacin, isoniazid, telithromycin)	Eligibility	54
+ciprofloxacin	CHEBI:100241	26-39
+clarithromycin	CHEBI:3732	41-55
+doxycycline	CHEBI:50845,BAO:0000759	57-68
+enoxacin	CHEBI:157175	70-78
+telithromycin	CHEBI:29688	91-104
+Azole antifungals (e.g., itraconazole, ketoconazole, miconazole, voriconazole)	Eligibility	55
+azole	CHEBI:68452	0-5
+azole	CHEBI:68452	32-37
+azole	CHEBI:68452	46-51
+azole	CHEBI:68452	58-63
+azole	CHEBI:68452	72-77
+itraconazole	CHEBI:6076	25-37
+ketoconazole	CHEBI:47519,BAO:0000796	39-51
+miconazole	CHEBI:6923	53-63
+voriconazole	CHEBI:10023	65-77
+Select anesthetics (e.g., ketamine, propofol)	Eligibility	56
+ketamine	CHEBI:6121	26-34
+propofol	CHEBI:44915	36-44
+Hypericum perforatum (St. John's wort)	Eligibility	57
+Nefazodone	Eligibility	58
+nefazodone	CHEBI:7494	0-10
+Nicardipine	Eligibility	59
+nicardipine	CHEBI:7550	0-11
+Diclofenac	Eligibility	60
+diclofenac	CHEBI:47381	0-10
+Quinidine	Eligibility	61
+quinidine	CHEBI:28593,BAO:0000797	0-9
+Imatinib mesylate	Eligibility	62
+imatinib	CHEBI:45783	0-8
+At least 7 days since prior and no concurrent medications that prolong the QTc interval, including any of the following:	Eligibility	63
+qtc interval	CMO:0000269	75-87
+Antiarrhythmic agents (e.g., quinidine, procainamide, disopyramide phosphate, amiodarone, sotalol hydrochloride, ibutilide, dofetilide)	Eligibility	64
+quinidine	CHEBI:28593,BAO:0000797	29-38
+procainamide	CHEBI:8428	40-52
+disopyramide phosphate	CHEBI:4658	54-76
+amiodarone	CHEBI:2663	78-88
+sotalol hydrochloride	CHEBI:9207	90-111
+ibutilide	CHEBI:5856	113-122
+dofetilide	CHEBI:4681	124-134
+Antipsychotic agents (e.g., chlorpromazine, mesoridazine, thioridazine, pimozide, haloperidol, droperidol)	Eligibility	65
+chlorpromazine	CHEBI:3647	28-42
+mesoridazine	CHEBI:6780	44-56
+thioridazine	CHEBI:9566	58-70
+pimozide	CHEBI:8212	72-80
+haloperidol	CHEBI:5613	82-93
+droperidol	CHEBI:4717	95-105
+Select antibiotics (e.g., erythromycin, clarithromycin, sparfloxacin, pentamidine)	Eligibility	66
+erythromycin	CHEBI:42355	26-38
+clarithromycin	CHEBI:3732	40-54
+sparfloxacin	CHEBI:9212	56-68
+pentamidine	CHEBI:45081	70-81
+Narcotic analgesics (e.g., levomethadyl, methadone, domperidone)	Eligibility	67
+methadone	CHEBI:6807	41-50
+domperidone	CHEBI:31515	52-63
+Calcium channel blockers (e.g., bepridil, lidoflazine)	Eligibility	68
+calcium	CHEBI:22984,BAO:0000874	0-7
+bepridil	CHEBI:3061	32-40
+Antimalarial agents (e.g., halofantrine, chloroquine)	Eligibility	69
+antimalarial	CHEBI:38068	0-12
+halofantrine	CHEBI:5612	27-39
+chloroquine	CHEBI:3638	41-52
+Parasympathomimetic agents (e.g., cisapride)	Eligibility	70
+cisapride	CHEBI:3720	34-43
+Arsenic trioxide	Eligibility	71
+No other concurrent antineoplastic therapy for breast cancer, including any of the following:	Eligibility	72
+breast cancer	DOID:1612	47-60
+Radiotherapy	Eligibility	73
+radiotherapy	OAE:0000235	0-12
+Chemotherapy	Eligibility	74
+Immunotherapy	Eligibility	75
+Biologic therapy	Eligibility	76
+Hormonal therapy	Eligibility	77
+Gene therapy	Eligibility	78
+gene	BAO:0000582	0-4
+No concurrent grapefruit juice consumption	Eligibility	79
+No concurrent short-acting antacid agents within 2 hours of dasatinib administration	Eligibility	80
+antacid	CHEBI:65265	27-34
+Concurrent trastuzumab (Herceptin®) therapy for HER-2 positive patients allowed provided patients have been on continuous trastuzumab for  12 weeks	Eligibility	81
+Outcome Measurement:	Results	0
+Progression-free Survival	Results	1
+RECIST progression defined as 20% increase in the sum of longest diameters of target measurable lesions over the smallest sum observed, unequivocal progression of non-measurable disease, the appearance of any new lesion/site, death due to disease without prior documentation of progression and without symptomatic deterioration, development of one or more new bone lesions from baseline, or symptomatic deterioration related to disease progression. Time from date of registration to date of first documentation of progression or symptomatic deterioration, or death due to any cause. Patients last known to be alive and progression-free are censored at last date of contact.	Results	2
+increase	BAO:0001251	34-42
+target	BAO:0003064	78-84
+disease	DOID:4,OGMS:0000031	178-185
+disease	DOID:4,OGMS:0000031	239-246
+disease	DOID:4,OGMS:0000031	428-435
+death	OAE:0000632	226-231
+death	OAE:0000632	559-564
+time	PATO:0000165	449-453
+Time frame: Up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Dasatinib, 100 mg, Daily	Results	5
+Arm/Group Description: Dasatinib, 100 mg PO daily until progression of disease	Results	6
+disease	DOID:4,OGMS:0000031	71-78
+Overall Number of Participants Analyzed: 41	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: weeks  10.3        (8.4 to 16.7)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Dasatinib, 70 mg, Twice Daily	Results	11
+Arm/Group Description: Dasatinib, 70 mg PO twice daily until progression of disease	Results	12
+disease	DOID:4,OGMS:0000031	76-83
+Overall Number of Participants Analyzed: 38	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: weeks  15.3        (8.7 to 20.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 6/41 (14.63%)	Adverse Events	1
+Left ventricular systolic dysfunction 0/41 (0.00%)	Adverse Events	2
+left ventricular systolic dysfunction	HP:0025169	0-37
+Constipation 0/41 (0.00%)	Adverse Events	3
+constipation	HP:0002019,DOID:2089	0-12
+Death not associated with CTCAE term - Death NOS 0/41 (0.00%)	Adverse Events	4
+death	OAE:0000632	0-5
+death	OAE:0000632	39-44
+Sudden death 0/41 (0.00%)	Adverse Events	5
+sudden death	HP:0001699	0-12
+Inf w/normal ANC or Gr 1-2 neutrophils - Skin 0/41 (0.00%)	Adverse Events	6
+Inf w/normal ANC or Gr 1-2 neutrophils - UTI 1/41 (2.44%)	Adverse Events	7
+Rash: dermatitis associated w/Chemoradiation 0/41 (0.00%)	Adverse Events	8
+dermatitis	DOID:2723	6-16
+Adverse Events 2:	Adverse Events	9
+Total: 12/38 (31.58%)	Adverse Events	10
+Left ventricular systolic dysfunction 1/38 (2.63%)	Adverse Events	11
+left ventricular systolic dysfunction	HP:0025169	0-37
+Constipation 1/38 (2.63%)	Adverse Events	12
+constipation	HP:0002019,DOID:2089	0-12
+Death not associated with CTCAE term - Death NOS 1/38 (2.63%)	Adverse Events	13
+death	OAE:0000632	0-5
+death	OAE:0000632	39-44
+Sudden death 1/38 (2.63%)	Adverse Events	14
+sudden death	HP:0001699	0-12
+Inf w/normal ANC or Gr 1-2 neutrophils - Skin 1/38 (2.63%)	Adverse Events	15
+Inf w/normal ANC or Gr 1-2 neutrophils - UTI 1/38 (2.63%)	Adverse Events	16
+Rash: dermatitis associated w/Chemoradiation 1/38 (2.63%)	Adverse Events	17
+dermatitis	DOID:2723	6-16

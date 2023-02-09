@@ -1,0 +1,186 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Enzyme Inhibitor Therapy)	Intervention	1
+enzyme inhibitor	CHEBI:23924	11-27
+Patients receive saracatinib PO on days 1-28. Treatment repeats every 28 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+saracatinib	CHEBI:47458	17-28
+disease	DOID:4,OGMS:0000031	96-103
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed carcinoma of the breast	Eligibility	1
+carcinoma	HP:0030731,DOID:305	42-51
+breast	UBERON:0000310	59-65
+Unresectable disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	13-20
+Locally advanced or metastatic (American Joint Committee on Cancer [AJCC] stage IV) disease	Eligibility	3
+cancer	DOID:162	60-66
+disease	DOID:4,OGMS:0000031	84-91
+Estrogen receptor-negative and progesterone receptor-negative breast cancer defined as < 10% expression by immunohistochemistry (IHC)	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	31-43
+breast cancer	DOID:1612	62-75
+immunohistochemistry	BAO:0000415	107-127
+Measurable disease, defined (per Response Evaluation Criteria in Solid Tumors [RECIST]) as  1 unidimensionally measurable lesion  20mm by conventional techniques or  10 mm by spiral computed tomography (CT) scan	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+tomography	BAO:0002525	191-201
+ct	BAO:0002125	203-205
+Measurable target lesions must not be in a previously irradiated field	Eligibility	6
+target	BAO:0003064	11-17
+Patients with locally advanced, unresectable disease must have progression of disease following no more than one first-line chemotherapy regimen	Eligibility	7
+disease	DOID:4,OGMS:0000031	45-52
+disease	DOID:4,OGMS:0000031	78-85
+Patients with evidence of recurrent disease during or within 6 months after adjuvant chemotherapy will be considered to have failed one line of chemotherapy for metastatic disease	Eligibility	8
+recurrent	HP:0031796	26-35
+disease	DOID:4,OGMS:0000031	36-43
+disease	DOID:4,OGMS:0000031	172-179
+adjuvant	CHEBI:60809	76-84
+Human epidermal growth factor receptor 2 (HER2)-positive patients, defined as immunohistochemistry (IHC) 3+ or fluorescence in situ hybridization (FISH) amplification > 2.1, must have received trastuzumab (Herceptin®) in either the adjuvant or metastatic setting and have had recurrence or progression of disease, respectively	Eligibility	9
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+immunohistochemistry	BAO:0000415	78-98
+adjuvant	CHEBI:60809	232-240
+disease	DOID:4,OGMS:0000031	305-312
+No known brain metastases	Eligibility	10
+brain	UBERON:0000955	9-14
+Male and female patients eligible	Eligibility	11
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	11-15
+female	PATO:0000383	9-15
+Menopausal status not specified	Eligibility	12
+Eastern Cooperative Oncology Group (ECOG) performance status (PS)  2 (Karnofsky PS 60-100%)	Eligibility	13
+group	CHEBI:24433	29-34
+Life expectancy > 3 months	Eligibility	14
+Absolute neutrophil count  1,500/mcL	Eligibility	15
+Platelet count  100,000/mcL	Eligibility	16
+platelet count	CMO:0000029	0-14
+Hemoglobin > 9 g/dL	Eligibility	17
+hemoglobin	CHEBI:35143	0-10
+Total bilirubin normal	Eligibility	18
+Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT])/alanine aminotransferase (ALT) (serum glutamic pyruvate transaminase [SGPT])  2.5 x institutional upper limit of normal	Eligibility	19
+aspartate	CHEBI:29995	0-9
+pyruvate	CHEBI:15361	129-137
+x	LABO:0000148	50-51
+x	LABO:0000148	164-165
+Creatinine normal OR creatinine clearance  60 mL/min	Eligibility	20
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	21-31
+creatinine clearance	CMO:0000765	21-41
+Urine protein creatinine (UPC) ratio must be  1.0	Eligibility	21
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	14-24
+upc	CHEBI:165829	26-29
+ratio	UO:0000190	31-36
+Patients with a UPC ratio > 1.0 must have a 24-hour urine protein < 1,000 mg to be eligible for study	Eligibility	22
+upc	CHEBI:165829	16-19
+ratio	UO:0000190	20-25
+urine	UBERON:0001088	52-57
+protein	CHEBI:36080,BAO:0000175	58-65
+Not pregnant or nursing	Eligibility	23
+Women of child-bearing potential and men must use adequate contraception (e.g., hormonal or barrier method of birth control or abstinence) prior to, during, and for 8 weeks after completion of study therapy	Eligibility	24
+Able to understand and willing to sign a written informed consent document	Eligibility	25
+document	IAO:0000310	66-74
+No history of allergic reactions attributed to compounds of similar chemical or biological composition to AZD0530	Eligibility	26
+history	BFO:0000182	3-10
+No QTc interval  500 msecs	Eligibility	27
+qtc interval	CMO:0000269	3-15
+No condition that impairs the ability to swallow AZD0530 tablets, including the following:	Eligibility	28
+condition	PDRO:0000129	3-12
+Gastrointestinal tract disease resulting in an inability to take oral medication or a requirement for IV alimentation	Eligibility	29
+disease	DOID:4,OGMS:0000031	23-30
+Prior surgical procedures affecting absorption	Eligibility	30
+Active peptic ulcer disease	Eligibility	31
+active peptic ulcer disease	DOID:749	0-27
+No intercurrent cardiac dysfunction including, but not limited to, any of the following:	Eligibility	32
+Symptomatic congestive heart failure	Eligibility	33
+congestive heart failure	HP:0001635,DOID:6000	12-36
+Unstable angina pectoris	Eligibility	34
+angina pectoris	HP:0001681	9-24
+Uncontrolled cardiac arrhythmia	Eligibility	35
+arrhythmia	HP:0011675	21-31
+History of myocardial infarction within 6 months of treatment	Eligibility	36
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+No uncontrolled intercurrent illness including, but not limited to, ongoing or active infection or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	37
+active	PATO:0002354	79-85
+No severe restrictive or obstructive lung disease according to baseline pulmonary function studies including any of the following pulmonary function test (PFT) parameters:	Eligibility	38
+severe	HP:0012828	3-9
+obstructive lung disease	DOID:2320	25-49
+function	BAO:0003117,BFO:0000034	82-90
+function	BAO:0003117,BFO:0000034	140-148
+Total lung capacity < 60%	Eligibility	39
+total lung capacity	CMO:0000380	0-19
+Forced vital capacity < 50%	Eligibility	40
+Forced expiratory volume in one second (FEV_1) < 50%	Eligibility	41
+forced expiratory volume	CMO:0000254	0-24
+second	UO:0000010	32-38
+Diffusion capacity of carbon monoxide (DLCO) < 50%	Eligibility	42
+carbon monoxide	CHEBI:17245	22-37
+Resting room air O_2 saturation < 92% or a decline in O_2 saturation > 4% with exercise	Eligibility	43
+Patients with metastatic disease may have received no more than 1 prior chemotherapy regimen	Eligibility	44
+disease	DOID:4,OGMS:0000031	25-32
+No unresolved toxicity  grade 3 from agents received more than 3 weeks earlier	Eligibility	45
+No chemotherapy, radiotherapy, or investigational therapy within 3 weeks (6 weeks for nitrosoureas or mitomycin C) prior to entering study	Eligibility	46
+radiotherapy	OAE:0000235	17-29
+mitomycin c	CHEBI:27504	102-113
+No luteinizing hormone-releasing hormone agonists within 4 weeks prior to study entry	Eligibility	47
+hormone	CHEBI:24621	15-22
+hormone	CHEBI:24621	33-40
+More than 7 days since prior and no concurrent use of specifically prohibited cytochrome P 450 3A4 (CYP3A4) agents	Eligibility	48
+cytochrome	CHEBI:4056,GO:0045158	78-88
+p	CHEBI:17802,BAO:0002175	23-24
+p	CHEBI:17802,BAO:0002175	55-56
+p	CHEBI:17802,BAO:0002175	67-68
+p	CHEBI:17802,BAO:0002175	89-90
+p	CHEBI:17802,BAO:0002175	102-103
+No concurrent megestrol acetate, even when prescribed for appetite stimulation	Eligibility	49
+megestrol acetate	CHEBI:6723	14-31
+stimulation	BAO:0000093	67-78
+No other concurrent investigational or commercial agents for the treatment of breast cancer	Eligibility	50
+breast cancer	DOID:1612	78-91
+No concurrent combination antiretroviral therapy for human immunodeficiency virus (HIV)-positive patients	Eligibility	51
+immunodeficiency	HP:0002721	59-75
+virus	BAO:0000232	76-81
+No concurrent megestrol acetate	Eligibility	52
+megestrol acetate	CHEBI:6723	14-31
+Outcome Measurement:	Results	0
+Disease Control Rate (DCR)	Results	1
+disease	DOID:4,OGMS:0000031	0-7
+rate	BAO:0080019	16-20
+DCR defined as complete response (CR), partial response (PR), stable disease (SD) > 24 weeks. Simon's two-stage optimal design was used to estimate the DCR of AZD0530 after 24 weeks of therapy since this design allowed for early termination of the study. Response and progression was evaluated in this study using the Response Evaluation Criteria in Solid Tumors (RECIST) Target lesions: Complete Response (CR): Disappearance of all target lesions Partial Response (PR): At least a 30% decrease in the sum of the longest diameter (LD) of target lesions, taking as reference the baseline sum LD Progressive Disease (PD): At least a 20% increase in the sum of the LD of target lesions, taking as reference the smallest sum LD recorded since the treatment started or the appearance of one or more new lesions Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum LD since the treatment started	Results	2
+stable	HP:0031915	62-68
+stable	HP:0031915	806-812
+disease	DOID:4,OGMS:0000031	69-76
+disease	DOID:4,OGMS:0000031	606-613
+disease	DOID:4,OGMS:0000031	813-820
+target	BAO:0003064	372-378
+target	BAO:0003064	433-439
+target	BAO:0003064	538-544
+target	BAO:0003064	668-674
+diameter	PATO:0001334	521-529
+progressive	HP:0003676	594-605
+increase	BAO:0001251	635-643
+increase	BAO:0001251	889-897
+Time frame: After 24 weeks of study therapy	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment (Enzyme Inhibitor Therapy)	Results	5
+enzyme inhibitor	CHEBI:23924	28-44
+Arm/Group Description: Patients receive saracatinib PO on days 1-28. Treatment repeats every 28 days in the absence of disease progression or unacceptable toxicity.	Results	6
+saracatinib	CHEBI:47458	40-51
+disease	DOID:4,OGMS:0000031	119-126
+Overall Number of Participants Analyzed: 9	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  0	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 3/9 (33.33%)	Adverse Events	1
+Hypoxia 1/9 (11.11%)	Adverse Events	2
+Fatigue (asthenia, lethargy, malaise) 1/9 (11.11%)	Adverse Events	3
+fatigue	HP:0012378	0-7
+asthenia	HP:0025406	9-17
+lethargy	HP:0001254	19-27
+malaise	HP:0033834	29-36
+Adrenal insufficiency 1/9 (11.11%)	Adverse Events	4
+adrenal insufficiency	HP:0000846	0-21
+Sodium, low (hyponatremia) 1/9 (11.11%)	Adverse Events	5
+hyponatremia	HP:0002902	13-25
+Elevated liver enzymes 1/9 (11.11%)	Adverse Events	6
+liver	UBERON:0002107	9-14

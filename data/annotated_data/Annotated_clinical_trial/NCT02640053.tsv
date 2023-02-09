@@ -1,0 +1,100 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Cryotherapy)	Intervention	1
+Patients receive topical cryotherapy for 15 minutes prior to each paclitaxel dose, during paclitaxel infusion and for 15 minutes following paclitaxel completion. Therapy repeats every week for a planned course of 12 weeks of adjuvant paclitaxel.	Intervention	2
+paclitaxel	CHEBI:45863	66-76
+paclitaxel	CHEBI:45863	90-100
+paclitaxel	CHEBI:45863	139-149
+paclitaxel	CHEBI:45863	234-244
+week	UO:0000034	184-188
+week	UO:0000034	216-220
+adjuvant	CHEBI:60809	225-233
+INTERVENTION 2:	Intervention	3
+Arm II (Control)	Intervention	4
+Patients receive the standard of care only (paclitaxel at a dose of 80 mg/m2 IV) every week for a planned course of 12 weeks.	Intervention	5
+paclitaxel	CHEBI:45863	44-54
+week	UO:0000034	87-91
+week	UO:0000034	119-123
+Inclusion Criteria:	Eligibility	0
+Ability to complete questionnaires by themselves or with assistance	Eligibility	1
+Planned paclitaxel at a dose of 80 mg/m^2 intravenously (I.V.) given, in the adjuvant breast cancer (postoperative or neo-adjuvant) setting, every week for a planned course of 12 weeks without any other concurrent cytotoxic chemotherapy (NOTE: trastuzumab and/or other antibody and/or small molecule treatment is allowed, except for poly adenosine diphosphate ribose polymerase [PARP] inhibitors), at the entering Academic and Community Cancer Research United (ACCRU) institution	Eligibility	2
+paclitaxel	CHEBI:45863	8-18
+adjuvant	CHEBI:60809	77-85
+adjuvant	CHEBI:60809	122-130
+breast cancer	DOID:1612	86-99
+week	UO:0000034	147-151
+week	UO:0000034	179-183
+antibody	GO:0042571,BAO:0000502	269-277
+small molecule	BAO:0000176	285-299
+adenosine diphosphate	BAO:0000775	338-359
+ribose	CHEBI:47013	360-366
+cancer	DOID:162	93-99
+cancer	DOID:162	437-443
+Life expectancy > 6 months	Eligibility	3
+Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1	Eligibility	4
+group	CHEBI:24433	29-34
+Patient has score of 0 or 1 on the neurotoxicity evaluation, as determined by the healthcare provider	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	6
+Previous diagnosis of diabetic neuropathy or peripheral neuropathy from any cause	Eligibility	7
+diabetic neuropathy	DOID:9743	22-41
+peripheral neuropathy	HP:0009830,DOID:870	45-66
+Diagnosis of fibromyalgia	Eligibility	8
+fibromyalgia	DOID:631	13-25
+Any prior exposure to neurotoxic chemotherapy	Eligibility	9
+History of Raynaud?s disease, cryoglobulinemia	Eligibility	10
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	21-28
+cryoglobulinemia	HP:0100778,DOID:2917	30-46
+Outcome Measurement:	Results	0
+Area Under the Curve (AUC) EORTC CIPN20 Sensory Neuropathy Subscale Adjusting for Baseline	Results	1
+area	PATO:0001323	0-4
+auc	BAO:0002120	22-25
+sensory neuropathy	HP:0000763,DOID:2491	40-58
+Average Area Under the Curve per assessment (aAUCpa) of EORTC Chemotherapy-Induced Peripheral Neuropathy Module (EORTC QLQ-CIPN20) Sensory Neuropathy Subscale adjusting for baseline. The EORTC CIPN20 scoring algorithm was used for the sensory (items 31-36, 39, 40 and 48) subscale scores on a 0-100 scale, with higher scores represent fewer symptoms (better QOL). The aAUCpa for the subscale is calculated as the average of each AUC between each sequential assessment from pre-treatment-initiation to the week-12 assessment then subtract the corresponding baseline Sensory Neuropathy subscale score, with positive scores represent symptoms has improved from baseline and negative scores represent symptoms has worsen from baseline.	Results	2
+area	PATO:0001323	8-12
+peripheral neuropathy	HP:0009830,DOID:870	83-104
+sensory neuropathy	HP:0000763,DOID:2491	131-149
+sensory neuropathy	HP:0000763,DOID:2491	565-583
+auc	BAO:0002120	46-49
+auc	BAO:0002120	369-372
+auc	BAO:0002120	429-432
+Time frame: Up to 12 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I (Cryotherapy)	Results	5
+Arm/Group Description: Patients receive topical cryotherapy for 15 minutes prior to each paclitaxel dose, during paclitaxel infusion and for 15 minutes following paclitaxel completion. Therapy repeats every week for a planned course of 12 weeks of adjuvant paclitaxel.	Results	6
+paclitaxel	CHEBI:45863	89-99
+paclitaxel	CHEBI:45863	113-123
+paclitaxel	CHEBI:45863	162-172
+paclitaxel	CHEBI:45863	257-267
+week	UO:0000034	207-211
+week	UO:0000034	239-243
+adjuvant	CHEBI:60809	248-256
+Overall Number of Participants Analyzed: 19	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: Average(subscale value*assessment)  -1.4        (-11.7 to 6.8)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm II (Control)	Results	11
+Arm/Group Description: Patients receive the standard of care only (paclitaxel at a dose of 80 mg/m2 IV) every week for a planned course of 12 weeks.	Results	12
+paclitaxel	CHEBI:45863	67-77
+week	UO:0000034	110-114
+week	UO:0000034	142-146
+Overall Number of Participants Analyzed: 20	Results	13
+Median (Full Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: Average(subscale value*assessment)  -4.4        (-57.1 to 16.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/21 (0.00%)	Adverse Events	1
+Lung infection 0/21 (0.00%)	Adverse Events	2
+lung	UBERON:0002048	0-4
+Respiratory failure 0/21 (0.00%)	Adverse Events	3
+respiratory failure	HP:0002878,DOID:11162	0-19
+Adverse Events 2:	Adverse Events	4
+Total: 1/21 (4.76%)	Adverse Events	5
+Lung infection 1/21 (4.76%)	Adverse Events	6
+lung	UBERON:0002048	0-4
+Respiratory failure 1/21 (4.76%)	Adverse Events	7
+respiratory failure	HP:0002878,DOID:11162	0-19

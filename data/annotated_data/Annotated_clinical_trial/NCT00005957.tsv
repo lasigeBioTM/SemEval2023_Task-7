@@ -1,0 +1,183 @@
+INTERVENTION 1:	Intervention	0
+Standard Breast Irradiation	Intervention	1
+breast	UBERON:0000310	9-15
+radiation therapy: Standard Breast Irradiation - A dose of 5000 cGy in 25 fractions at a rate of 200 cGy per day, 5 days a week for 5 weeks will be prescribed to the standard tangent fields.	Intervention	2
+breast	UBERON:0000310	28-34
+rate	BAO:0080019	89-93
+day	UO:0000033	109-112
+day	UO:0000033	116-119
+week	UO:0000034	123-127
+week	UO:0000034	134-138
+INTERVENTION 2:	Intervention	3
+Breast Radiation Plus Regional Radiation	Intervention	4
+breast	UBERON:0000310	0-6
+regional radiation therapy (to the ipsilateral supraclavicular, axillary and internal mammary nodes)	Intervention	5
+Breast Radiation plus Regional Radiation - A dose of 5000 cGy in 25 fractions at a rate of 200 cGy per day, 5 days a week for 5 weeks will be prescribed to the modified wide tangent fields.	Intervention	6
+breast	UBERON:0000310	0-6
+rate	BAO:0080019	83-87
+day	UO:0000033	103-106
+day	UO:0000033	110-113
+week	UO:0000034	117-121
+week	UO:0000034	128-132
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically proven invasive carcinoma of the breast	Eligibility	1
+carcinoma	HP:0030731,DOID:305	31-40
+breast	UBERON:0000310	48-54
+No evidence of T4, N2-3, or M1 disease prior to surgery	Eligibility	2
+m1	CHEBI:34826	28-30
+disease	DOID:4,OGMS:0000031	31-38
+surgery	OAE:0000067	48-55
+Node positive or high-risk node negative	Eligibility	3
+Prior breast-conserving therapy (BCT) (e.g., lumpectomy, partial mastectomy, or segmental mastectomy) and axillary node dissection or sentinel node biopsy required and must be a candidate for breast radiotherapy after BCT	Eligibility	4
+breast	UBERON:0000310	6-12
+breast	UBERON:0000310	192-198
+radiotherapy	OAE:0000235	199-211
+Normally patients should have microscopically clear resection margins and those with positive margins should undergo reexcision	Eligibility	5
+Patients with microscopically focally positive margins (defined as no greater than 3 times high power fields) are candidates for breast radiotherapy plus a boost to the lumpectomy site	Eligibility	6
+breast	UBERON:0000310	129-135
+radiotherapy	OAE:0000235	136-148
+site	BFO:0000029	180-184
+Patients with prior sentinel node dissection eligible if node negative, but still meet high-risk criteria	Eligibility	7
+If node positive, then a level I and II axillary dissection must be performed	Eligibility	8
+No evidence of residual disease in axilla after dissection	Eligibility	9
+disease	DOID:4,OGMS:0000031	24-31
+Must be treated with currently accepted adjuvant systemic chemotherapy and/or hormonal therapy	Eligibility	10
+adjuvant	CHEBI:60809	40-48
+High risk of regional and systemic recurrence due to one of the following:	Eligibility	11
+Pathologically positive axillary lymph nodes	Eligibility	12
+lymph	UBERON:0002391	33-38
+Pathologically negative axillary lymph nodes with one of the following:	Eligibility	13
+lymph	UBERON:0002391	33-38
+Primary tumor greater than 5 cm	Eligibility	14
+Primary tumor greater than 2 cm and less than 10 axillary lymph nodes excised and one of the following:	Eligibility	15
+lymph	UBERON:0002391	58-63
+Estrogen receptor negative	Eligibility	16
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+Skarf-Bloom-Richardson grade 3	Eligibility	17
+Lymphovascular invasion	Eligibility	18
+Hormone receptor status:	Eligibility	19
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen and progesterone receptor status known	Eligibility	20
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	13-25
+receptor	BAO:0000281	26-34
+PATIENT CHARACTERISTICS:	Eligibility	21
+patient	HADO:0000008,OAE:0001817	0-7
+Age:	Eligibility	22
+age	PATO:0000011	0-3
+16 and over	Eligibility	23
+Sex:	Eligibility	24
+Female	Eligibility	25
+female	PATO:0000383	0-6
+Menopausal status:	Eligibility	26
+Premenopausal or postmenopausal	Eligibility	27
+Performance status:	Eligibility	28
+ECOG 0-2	Eligibility	29
+Life expectancy:	Eligibility	30
+At least 5 years	Eligibility	31
+Hematopoietic:	Eligibility	32
+Not specified	Eligibility	33
+Hepatic:	Eligibility	34
+SGOT and/or SGPT no greater than 3 times upper limit of normal (ULN)*	Eligibility	35
+Alkaline phosphatase no greater than 3 times ULN* NOTE: * Patients with laboratory values greater than 3 times ULN may still be eligible if no metastatic disease by imaging examinations	Eligibility	36
+phosphatase	GO:0016791,BAO:0000295	9-20
+disease	DOID:4,OGMS:0000031	154-161
+Renal:	Eligibility	37
+No serious nonmalignant renal disease	Eligibility	38
+disease	DOID:4,OGMS:0000031	30-37
+Cardiovascular:	Eligibility	39
+No serious nonmalignant cardiovascular disease	Eligibility	40
+disease	DOID:4,OGMS:0000031	39-46
+Pulmonary:	Eligibility	41
+No serious nonmalignant pulmonary disease	Eligibility	42
+disease	DOID:4,OGMS:0000031	34-41
+Other:	Eligibility	43
+Not pregnant or nursing	Eligibility	44
+Fertile patients must use effective contraception	Eligibility	45
+No other serious nonmalignant disease (e.g., systemic lupus erythematosus or scleroderma) that would preclude definitive surgery or radiotherapy	Eligibility	46
+disease	DOID:4,OGMS:0000031	30-37
+systemic lupus erythematosus	HP:0002725,DOID:9074	45-73
+scleroderma	HP:0100324,DOID:419,DOID:418	77-88
+surgery	OAE:0000067	121-128
+radiotherapy	OAE:0000235	132-144
+No other malignancy except:	Eligibility	47
+Nonmelanomatous skin cancer	Eligibility	48
+skin cancer	DOID:4159	16-27
+Carcinoma in situ of the cervix or endometrium	Eligibility	49
+carcinoma	HP:0030731,DOID:305	0-9
+endometrium	UBERON:0001295	35-46
+Contralateral noninvasive breast cancer (unless prior radiotherapy to the contralateral breast)	Eligibility	50
+breast cancer	DOID:1612	26-39
+radiotherapy	OAE:0000235	54-66
+breast	UBERON:0000310	26-32
+breast	UBERON:0000310	88-94
+Invasive carcinoma of the cervix, endometrium, colon, thyroid, or melanoma that was curatively treated at least 5 years prior to study participation	Eligibility	51
+carcinoma	HP:0030731,DOID:305	9-18
+endometrium	UBERON:0001295	34-45
+colon	UBERON:0001155	47-52
+melanoma	HP:0002861,DOID:1909	66-74
+No psychiatric or addictive disorder that would preclude informed consent or study compliance	Eligibility	52
+disorder	OGMS:0000045	28-36
+PRIOR CONCURRENT THERAPY:	Eligibility	53
+Biologic therapy:	Eligibility	54
+Not specified	Eligibility	55
+Chemotherapy:	Eligibility	56
+See Disease Characteristics	Eligibility	57
+disease	DOID:4,OGMS:0000031	4-11
+Concurrent standard adjuvant chemotherapy allowed	Eligibility	58
+adjuvant	CHEBI:60809	20-28
+Endocrine therapy:	Eligibility	59
+See Disease Characteristics	Eligibility	60
+disease	DOID:4,OGMS:0000031	4-11
+Concurrent standard adjuvant hormonal therapy allowed	Eligibility	61
+adjuvant	CHEBI:60809	20-28
+Radiotherapy:	Eligibility	62
+radiotherapy	OAE:0000235	0-12
+See Disease Characteristics	Eligibility	63
+disease	DOID:4,OGMS:0000031	4-11
+Surgery:	Eligibility	64
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	65
+disease	DOID:4,OGMS:0000031	4-11
+Outcome Measurement:	Results	0
+Overall Survival	Results	1
+Duration of study	Results	2
+duration	PATO:0001309	0-8
+Time frame: 10 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Standard Breast Irradiation	Results	5
+breast	UBERON:0000310	26-32
+Arm/Group Description: radiation therapy: Standard Breast Irradiation - A dose of 5000 cGy in 25 fractions at a rate of 200 cGy per day, 5 days a week for 5 weeks will be prescribed to the standard tangent fields.	Results	6
+breast	UBERON:0000310	51-57
+rate	BAO:0080019	112-116
+day	UO:0000033	132-135
+day	UO:0000033	139-142
+week	UO:0000034	146-150
+week	UO:0000034	157-161
+Overall Number of Participants Analyzed: 916	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of alive at 10 years  82        (79 to 84)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Breast Radiation Plus Regional Radiation	Results	11
+breast	UBERON:0000310	17-23
+Arm/Group Description: regional radiation therapy (to the ipsilateral supraclavicular, axillary and internal mammary nodes)	Results	12
+Breast Radiation plus Regional Radiation - A dose of 5000 cGy in 25 fractions at a rate of 200 cGy per day, 5 days a week for 5 weeks will be prescribed to the modified wide tangent fields.	Results	13
+breast	UBERON:0000310	0-6
+rate	BAO:0080019	83-87
+day	UO:0000033	103-106
+day	UO:0000033	110-113
+week	UO:0000034	117-121
+week	UO:0000034	128-132
+Overall Number of Participants Analyzed: 916	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: percentage of alive at 10 years  83        (80 to 85)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 1/927 (0.11%)	Adverse Events	1
+Secondary Malignancy 1/927 (0.11%)	Adverse Events	2
+Adverse Events 2:	Adverse Events	3
+Total: 3/893 (0.34%)	Adverse Events	4
+Secondary Malignancy 3/893 (0.34%)	Adverse Events	5

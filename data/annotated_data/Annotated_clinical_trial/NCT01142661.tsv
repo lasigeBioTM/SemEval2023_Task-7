@@ -1,0 +1,147 @@
+INTERVENTION 1:	Intervention	0
+Eribulin Mesylate	Intervention	1
+eribulin mesylate	CHEBI:70710	0-17
+Eribulin Mesylate : Eribulin Mesylate: A dose of 1.4 mg/m^2 given intravenously on Day 1 and Day 8 of a 21 day cycle, continued until disease progression, unacceptable toxicity or death.	Intervention	2
+eribulin mesylate	CHEBI:70710	0-17
+eribulin mesylate	CHEBI:70710	20-37
+day	UO:0000033	83-86
+day	UO:0000033	93-96
+day	UO:0000033	107-110
+disease	DOID:4,OGMS:0000031	134-141
+death	OAE:0000632	180-185
+Inclusion Criteria	Eligibility	0
+In order to receive eribulin under this protocol, the subjects oncologist must have documented experience treating subjects with eribulin in a prior clinical study. Subjects who meet all of the following criteria will be included in the treatment protocol:	Eligibility	1
+eribulin	CHEBI:63587	20-28
+eribulin	CHEBI:63587	129-137
+Recurrent, locally advanced or metastatic breast cancer that has progressed on or after the last anti-cancer therapy.	Eligibility	2
+recurrent	HP:0031796	0-9
+breast cancer	DOID:1612	42-55
+Prior treatment with, ineligibility for, or commercial unavailability of each of the following therapies:	Eligibility	3
+Anthracyclines, taxanes, and capecitabine.	Eligibility	4
+capecitabine	CHEBI:31348	29-41
+Ixabepilone in countries where this agent is marketed.	Eligibility	5
+ixabepilone	CHEBI:63605	0-11
+Trastuzumab for Her-2 positive disease.	Eligibility	6
+disease	DOID:4,OGMS:0000031	31-38
+Hormonal therapy in hormone receptor-positive disease.	Eligibility	7
+hormone	CHEBI:24621	20-27
+disease	DOID:4,OGMS:0000031	46-53
+All other marketed therapies, eg, gemcitabine or vinorelbine, used for the treatment of advanced breast cancer.	Eligibility	8
+gemcitabine	CHEBI:175901	34-45
+vinorelbine	CHEBI:480999	49-60
+breast cancer	DOID:1612	97-110
+Eastern Cooperative Oncology Group (ECOG) performance status </= 2.	Eligibility	9
+group	CHEBI:24433	29-34
+Serum creatinine </= 2.0 mg/dL or creatinine clearance >/= 40 mL/min according to Cockcroft and Gault formula.	Eligibility	10
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	34-44
+creatinine clearance	CMO:0000765	34-54
+Absolute neutrophil count >/= 1.5 x 10^9/L, hemoglobin >/= 10 g/dL (can be corrected by growth factor or transfusion), and platelet count >/= 100 x 10^9/L.	Eligibility	11
+x	LABO:0000148	34-35
+x	LABO:0000148	146-147
+hemoglobin	CHEBI:35143	44-54
+growth factor	BAO:0002024	88-101
+platelet count	CMO:0000029	123-137
+Total bilirubin </= 1.5 x upper limit of normal (ULN). Alkaline phosphatase (AP), alanine aminotransferase, and aspartate aminotransferase </= 3 x ULN (</= 5 x ULN in case of liver metastases). In case AP is >3 x ULN (in absence of liver metastases) or >5 x ULN (in presence of liver metastases) AND subject also is known to have bone metastases, the liver specific AP must be separated from the total and used to assess the liver function instead of the total AP.	Eligibility	12
+x	LABO:0000148	24-25
+x	LABO:0000148	145-146
+x	LABO:0000148	158-159
+x	LABO:0000148	211-212
+x	LABO:0000148	256-257
+phosphatase	GO:0016791,BAO:0000295	64-75
+alanine	CHEBI:16449	82-89
+aspartate	CHEBI:29995	112-121
+liver	UBERON:0002107	175-180
+liver	UBERON:0002107	232-237
+liver	UBERON:0002107	278-283
+liver	UBERON:0002107	351-356
+liver	UBERON:0002107	425-430
+function	BAO:0003117,BFO:0000034	431-439
+Are willing and able to comply with all aspects of the treatment protocol.	Eligibility	13
+Provide written informed consent.	Eligibility	14
+Females, age >/= 18 years.	Eligibility	15
+age	PATO:0000011	9-12
+Female subjects of childbearing potential must agree to be abstinent or to use a highly effective methods of contraception (eg, condom + spermicide, condom + diaphragm with spermicide, intra-uterine device, or have a vasectomised partner) having started for at least one menstrual cycle prior to starting eribulin and throughout the entire treatment period and for 30 days (longer if appropriate) after the last dose of eribulin. Those women using hormonal contraceptives must also be using an additional approved method of contraception (as described previously). Perimenopausal women must be amenorrheic for at least 12 months to be considered of non-childbearing potential.	Eligibility	16
+female	PATO:0000383	0-6
+diaphragm	UBERON:0001103	158-167
+menstrual cycle	GO:0044850	271-286
+eribulin	CHEBI:63587	305-313
+eribulin	CHEBI:63587	420-428
+Exclusion Criteria Subjects who meet any of the following criteria will be excluded from participation in the treatment protocol:	Eligibility	17
+excluded	HP:0040285	75-83
+Eligible for any other eribulin study that is open in the same region.	Eligibility	18
+eribulin	CHEBI:63587	23-31
+Existing anti-cancer therapy-related toxicities of Grade >/= 2, except that alopecia and Grade 2 neuropathy are acceptable.	Eligibility	19
+alopecia	HP:0001596,DOID:987	76-84
+neuropathy	DOID:870	97-107
+History of congestive heart failure with New York Heart Association Classification >II, unstable angina, myocardial infarction within the past 6 months, serious cardiac arrhythmia.	Eligibility	20
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	11-35
+heart	UBERON:0000948	22-27
+heart	UBERON:0000948	50-55
+myocardial infarction	HP:0001658,DOID:5844	105-126
+arrhythmia	HP:0011675	169-179
+Electrocardiogram with QTc interval >/= 500 msec based upon Bazett's formula (QTcB).	Eligibility	21
+qtc interval	CMO:0000269	23-35
+The Investigator believes the subject to be medically unfit to receive eribulin or unsuitable for any other reason.	Eligibility	22
+eribulin	CHEBI:63587	71-79
+Females who are pregnant (positive B-hCG test) or breastfeeding.	Eligibility	23
+Subject with hypersensitivity to eribulin or any of the excipients.	Eligibility	24
+hypersensitivity	GO:0002524,DOID:1205	13-29
+eribulin	CHEBI:63587	33-41
+Subjects with brain or subdural metastases are not eligible, unless they have completed local therapy and have discontinued the use of corticosteroids for this indication for at least 4 weeks before starting treatment in this treatment protocol. Any signs (eg, radiologic) and/or symptoms of brain metastases must be stable for at least 4 weeks before starting the treatment protocol.	Eligibility	25
+brain	UBERON:0000955	14-19
+brain	UBERON:0000955	292-297
+stable	HP:0031915	317-323
+Any history of or concomitant medical condition that, in the opinion of the Investigator, would compromise the subject's ability to safely complete the treatment protocol.	Eligibility	26
+history	BFO:0000182	4-11
+condition	PDRO:0000129	38-47
+Subjects who are known to be human immunodeficiency virus positive because the neutropenia caused by the eribulin treatment may make such subjects particularly susceptible to infection.	Eligibility	27
+immunodeficiency	HP:0002721	35-51
+virus	BAO:0000232	52-57
+neutropenia	HP:0001875,DOID:1227	79-90
+eribulin	CHEBI:63587	105-113
+Subjects with meningeal carcinomatosis.	Eligibility	28
+Pulmonary lymphangitic involvement that results in pulmonary dysfunction requiring active treatment, including the use of oxygen.	Eligibility	29
+active	PATO:0002354	83-89
+Subjects who have received any of the following treatments within the specified period before the start of treatment:	Eligibility	30
+Any investigational drug, chemotherapy, radiation, or biological or targeted therapy within 2 weeks.	Eligibility	31
+drug	CHEBI:23888	20-24
+Hormonal therapy within 1 week.	Eligibility	32
+week	UO:0000034	26-30
+Outcome Measurement:	Results	0
+Safety	Results	1
+General safety will be assessed by monitoring and recording the number of patients with adverse events (serious and nonserious) for duration of treatment which continued until disease progression, unacceptable toxicity or death.	Results	2
+duration	PATO:0001309	132-140
+disease	DOID:4,OGMS:0000031	176-183
+death	OAE:0000632	222-227
+Time frame: For duration of treatment, an average of 5 months	Results	3
+time	PATO:0000165	0-4
+duration	PATO:0001309	16-24
+Results 1:	Results	4
+Arm/Group Title: Eribulin Mesylate	Results	5
+eribulin mesylate	CHEBI:70710	17-34
+Arm/Group Description: Eribulin Mesylate : Eribulin Mesylate: A dose of 1.4 mg/m^2 given intravenously on Day 1 and Day 8 of a 21 day cycle, continued until disease progression, unacceptable toxicity or death.	Results	6
+eribulin mesylate	CHEBI:70710	23-40
+eribulin mesylate	CHEBI:70710	43-60
+day	UO:0000033	106-109
+day	UO:0000033	116-119
+day	UO:0000033	130-133
+disease	DOID:4,OGMS:0000031	157-164
+death	OAE:0000632	203-208
+Overall Number of Participants Analyzed: 9	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  9	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 7/9 (77.78%)	Adverse Events	1
+Febrile Neutropenia1/9 (11.11%)	Adverse Events	2
+Neutropenia1/9 (11.11%)	Adverse Events	3
+Tachycardia1/9 (11.11%)	Adverse Events	4
+Hematemesis1/9 (11.11%)	Adverse Events	5
+Small Bowel Obstruction1/9 (11.11%)	Adverse Events	6
+Pneumonia1/9 (11.11%)	Adverse Events	7
+Hypokalemia1/9 (11.11%)	Adverse Events	8
+Alcohol Poisoning1/9 (11.11%)	Adverse Events	9
+alcohol	CHEBI:16236	0-7
+Progressive Disease4/9 (44.44%)	Adverse Events	10
+progressive	HP:0003676	0-11

@@ -1,0 +1,159 @@
+INTERVENTION 1:	Intervention	0
+Phase 1: MLN8237 10 mg	Intervention	1
+MLN8237 (alisertib) 10 milligram (mg), enteric-coated tablets, orally, twice daily for 7 days followed by 14 days of rest period in 21-day treatment cycles for a maximum of 24 months, or until progressive disease, unacceptable treatment-related toxicity, or initiation of a different anticancer therapy during Phase 1 portion of the study.	Intervention	2
+progressive	HP:0003676	193-204
+disease	DOID:4,OGMS:0000031	205-212
+INTERVENTION 2:	Intervention	3
+Phase 1: MLN8237 20 mg	Intervention	4
+MLN8237 (alisertib) 20 mg, enteric-coated tablets, orally, twice daily for 7 days followed by 14 days of rest period in 21-day treatment cycles for a maximum of 24 months, or until progressive disease, unacceptable treatment-related toxicity, or initiation of a different anticancer therapy during Phase 1 portion of the study.	Intervention	5
+progressive	HP:0003676	181-192
+disease	DOID:4,OGMS:0000031	193-200
+Inclusion Criteria:	Eligibility	0
+Each patient must meet all of the following inclusion criteria to be enrolled in the study:	Eligibility	1
+patient	HADO:0000008,OAE:0001817	5-12
+18 years or older	Eligibility	2
+Histologically or cytologically confirmed metastatic and/or advanced solid tumor (Phase 1 only)	Eligibility	3
+Phase 2 requires Non-small cell lung cancer (NSCLC); Small-cell lung cancer; Breast adenocarcinoma (female patients only); Squamous cell cancer of the head and neck (HNSCC); or Gastroesophageal adenocarcinoma	Eligibility	4
+lung cancer	DOID:1324	32-43
+lung cancer	DOID:1324	64-75
+breast adenocarcinoma	DOID:3458	77-98
+female	PATO:0000383	100-106
+cancer	DOID:162	37-43
+cancer	DOID:162	69-75
+cancer	DOID:162	137-143
+head	UBERON:0000033	151-155
+neck	GO:0044326,UBERON:0000974	160-164
+gastroesophageal adenocarcinoma	DOID:0080375	177-208
+Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1	Eligibility	5
+group	CHEBI:24433	29-34
+Female patients who are post menopausal, surgically sterile, or agree to practice 2 effective methods of contraception or abstain from heterosexual intercourse	Eligibility	6
+female	PATO:0000383	0-6
+Male patients who agree to practice effective barrier contraception or agree to abstain from heterosexual intercourse	Eligibility	7
+male	CHEBI:30780,PATO:0000384	0-4
+Voluntary written consent	Eligibility	8
+Wiling to comply with scheduled visits, treatment plan, laboratory tests and other trial procedures	Eligibility	9
+Measurable disease (Phase 2 only)	Eligibility	10
+disease	DOID:4,OGMS:0000031	11-18
+Exclusion Criteria:	Eligibility	11
+Patients meeting any of the following exclusion criteria are not to be enrolled in the study:	Eligibility	12
+Female patients who are pregnant or lactating	Eligibility	13
+female	PATO:0000383	0-6
+Serious medical or psychiatric illness that could interfere with protocol completion	Eligibility	14
+Receipt of more than 2 previous cytotoxic chemotherapeutic regimens (4 previous regimens for breast cancer). There is no limit on the number of prior noncytotoxic therapies	Eligibility	15
+breast cancer	DOID:1612	93-106
+Prior treatment with Aurora A-targeted agents, including MLN8237	Eligibility	16
+Prior treatment with high-dose chemotherapy	Eligibility	17
+Prior allogeneic bone marrow or other organ transplant	Eligibility	18
+bone marrow	UBERON:0002371	17-28
+organ	UBERON:0000062	38-43
+Antineoplastic therapy, radiation therapy or any experimental therapy 21 days prior to first dose of MLN8237	Eligibility	19
+Symptomatic brain metastasis	Eligibility	20
+brain	UBERON:0000955	12-17
+Radiotherapy to greater than 25% of bone marrow	Eligibility	21
+radiotherapy	OAE:0000235	0-12
+bone marrow	UBERON:0002371	36-47
+Diagnosis or treatment of another malignancy within 2 years preceding first dose of study drug except nonmelanoma skin cancer or in situ malignancy completely resected	Eligibility	22
+drug	CHEBI:23888	90-94
+skin cancer	DOID:4159	114-125
+Myocardial infarction within 6 months of enrollment	Eligibility	23
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Uncontrolled cardiovascular condition	Eligibility	24
+condition	PDRO:0000129	28-37
+Major surgery within 14 days of first dose of MLN8237	Eligibility	25
+surgery	OAE:0000067	6-13
+Active infection requiring systemic therapy, or other serious infection	Eligibility	26
+active	PATO:0002354	0-6
+Inability to swallow oral medication	Eligibility	27
+Known history of human immunodeficiency virus (HIV) infection, hepatitis B, or hepatitis C	Eligibility	28
+history	BFO:0000182	6-13
+immunodeficiency	HP:0002721	23-39
+virus	BAO:0000232	40-45
+hepatitis b	DOID:2043	63-74
+hepatitis c	DOID:1883	79-90
+Patients requiring full systemic anticoagulation	Eligibility	29
+History of uncontrolled sleep apnea syndrome	Eligibility	30
+history	BFO:0000182	0-7
+sleep apnea	HP:0010535,DOID:0050847	24-35
+syndrome	DOID:225	36-44
+Treatment with clinically significant enzyme inducers within 14 days prior to the first dose of MLN8237 and during the study	Eligibility	31
+enzyme	BAO:0000279	38-44
+Outcome Measurement:	Results	0
+Phase 1: Number of Participants With Dose-Limiting Toxicities (DLTs)	Results	1
+Toxicity according to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE), version 4.0. DLT defined as any of the following considered related to alisertib by investigator: Grade 4 neutropenia (absolute neutrophil count <500 cells/cubic meter [cells/mm^3]) for >7 days; Grade 4 neutropenia with coincident fever; Grade 4 thrombocytopenia (platelets <25,000 cells/mm3) for >7 days; Platelet count <10,000 cells/mm3; Grade 3 thrombocytopenia with clinically significant bleeding; Delay in initiation of the subsequent therapy cycle by >7 days due to treatment-related toxicity; >=Grade 3 nonhematological toxicity except >=Grade 3 nausea/emesis occurred in the absence of optimal antiemetic therapy; >=Grade 3 diarrhea occurred in the absence of optimal supportive therapy with loperamide/comparable antidiarrheal; Grade 3 fatigue for <1 week; Other Grade 3 nonhematological toxicity that could be safely, reliably controlled to <=Grade 2 with appropriate treatment.	Results	2
+cancer	DOID:162	31-37
+neutropenia	HP:0001875,DOID:1227	214-225
+neutropenia	HP:0001875,DOID:1227	311-322
+meter	UO:0000008	270-275
+fever	HP:0001945	339-344
+thrombocytopenia	HP:0001873,DOID:1588	354-370
+thrombocytopenia	HP:0001873,DOID:1588	456-472
+platelet count	CMO:0000029	414-428
+antiemetic	CHEBI:50919	711-721
+diarrhea	HP:0002014,DOID:13250	741-749
+diarrhea	HP:0002014,DOID:13250	835-843
+fatigue	HP:0012378	854-861
+week	UO:0000034	869-873
+Time frame: Phase 1: Cycle 1 Day 1 to Cycle 2 Day 21	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	29-32
+day	UO:0000033	46-49
+Results 1:	Results	4
+Arm/Group Title: Phase 1: MLN8237 10 mg	Results	5
+Arm/Group Description: MLN8237 (alisertib) 10 milligram (mg), enteric-coated tablets, orally, twice daily for 7 days followed by 14 days of rest period in 21-day treatment cycles for a maximum of 24 months, or until progressive disease, unacceptable treatment-related toxicity, or initiation of a different anticancer therapy during Phase 1 portion of the study.	Results	6
+progressive	HP:0003676	216-227
+disease	DOID:4,OGMS:0000031	228-235
+Overall Number of Participants Analyzed: 1	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Phase 1: MLN8237 20 mg	Results	11
+Arm/Group Description: MLN8237 (alisertib) 20 mg, enteric-coated tablets, orally, twice daily for 7 days followed by 14 days of rest period in 21-day treatment cycles for a maximum of 24 months, or until progressive disease, unacceptable treatment-related toxicity, or initiation of a different anticancer therapy during Phase 1 portion of the study.	Results	12
+progressive	HP:0003676	204-215
+disease	DOID:4,OGMS:0000031	216-223
+Overall Number of Participants Analyzed: 3	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 13/23 (56.52%)	Adverse Events	1
+Anaemia 2/23 (8.70%)	Adverse Events	2
+Febrile neutropenia 3/23 (13.04%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 2/23 (8.70%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia 1/23 (4.35%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia 1/23 (4.35%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia 0/23 (0.00%)	Adverse Events	7
+pancytopenia	HP:0001876,DOID:12450	0-12
+Atrial fibrillation 1/23 (4.35%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Myocardial ischaemia 0/23 (0.00%)	Adverse Events	9
+Pericardial effusion 0/23 (0.00%)	Adverse Events	10
+pericardial effusion	HP:0001698,DOID:118	0-20
+Inappropriate antidiuretic hormone secretion 0/23 (0.00%)	Adverse Events	11
+inappropriate antidiuretic hormone secretion	HP:0031218	0-44
+Keratitis 0/23 (0.00%)	Adverse Events	12
+keratitis	HP:0000491,DOID:4677	0-9
+Adverse Events 2:	Adverse Events	13
+Total: 1/1 (100.00%)	Adverse Events	14
+Anaemia 0/1 (0.00%)	Adverse Events	15
+Febrile neutropenia 0/1 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/1 (100.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia 1/1 (100.00%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia 0/1 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia 0/1 (0.00%)	Adverse Events	20
+pancytopenia	HP:0001876,DOID:12450	0-12
+Atrial fibrillation 0/1 (0.00%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Myocardial ischaemia 0/1 (0.00%)	Adverse Events	22
+Pericardial effusion 0/1 (0.00%)	Adverse Events	23
+pericardial effusion	HP:0001698,DOID:118	0-20
+Inappropriate antidiuretic hormone secretion 0/1 (0.00%)	Adverse Events	24
+inappropriate antidiuretic hormone secretion	HP:0031218	0-44
+Keratitis 0/1 (0.00%)	Adverse Events	25
+keratitis	HP:0000491,DOID:4677	0-9

@@ -1,0 +1,145 @@
+INTERVENTION 1:	Intervention	0
+Neoadjuvant Chemotherapy	Intervention	1
+Doxorubicin (Adriamycin) + cyclophosphamide (Cytoxan) with pegfilgrastim or filgrastim growth factor support every 2 weeks for 4 cycles, followed by docetaxel + lapatinib for four 21-day cycles, followed by surgery. Dexamethasone was administered twice-a-day for 3 days, starting 24 hours before the docetaxel infusions. After surgery +/- radiation, participants may receive trastuzumab (Herceptin) for a year.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	27-43
+growth factor	BAO:0002024	87-100
+lapatinib	CHEBI:49603	161-170
+surgery	OAE:0000067	207-214
+surgery	OAE:0000067	327-334
+dexamethasone	CHEBI:41879	216-229
+year	UO:0000036	405-409
+INCLUSION CRITERIA	Eligibility	0
+Female	Eligibility	1
+female	PATO:0000383	0-6
+Histologically-confirmed Her2neu positive breast cancer, by either Immunohistochemistry (IHC) 3+ or Fluorescence In Situ Hybridization (FISH)+	Eligibility	2
+breast cancer	DOID:1612	42-55
+immunohistochemistry	BAO:0000415	67-87
+Stage II/III breast cancer including any large primary tumor (> 2 cm), tumors of any size associated with skin or chest wall involvement, tumors of any size with axillary lymph node involvement, (T2-T4, N0-N2) and those with ipsilateral subclavicular or supraclavicular lymph nodes).	Eligibility	3
+breast cancer	DOID:1612	13-26
+size	PATO:0000117	85-89
+size	PATO:0000117	152-156
+chest	UBERON:0001443	114-119
+lymph	UBERON:0002391	171-176
+lymph	UBERON:0002391	270-275
+At least one bi-dimensional, measurable indicator lesion.	Eligibility	4
+indicator	CHEBI:47867	40-49
+Between 18 and 70 years of age	Eligibility	5
+age	PATO:0000011	27-30
+Eastern Cooperative Oncology Group (ECOG) performance status  2 / Karnofsky  60% at screening and on the first day of treatment.	Eligibility	6
+group	CHEBI:24433	29-34
+day	UO:0000033	111-114
+Informed consent must be obtained prior to registration.	Eligibility	7
+Cardiac ejection fraction within the institutional range of normal as measured by multigated acquisition (MUGA) or echocardiography (ECHO) scan.	Eligibility	8
+ejection fraction	CMO:0000180	8-25
+range	LABO:0000114	51-56
+Absolute neutrophil count > 1,500/mm³	Eligibility	9
+Hemoglobin > 8.0 g/dL	Eligibility	10
+hemoglobin	CHEBI:35143	0-10
+Platelet count > 100,000/mm³	Eligibility	11
+platelet count	CMO:0000029	0-14
+Creatinine within normal institutional limits	Eligibility	12
+creatinine	CHEBI:16737	0-10
+Total Bilirubin equal to or less than institutional upper limit of normal (ULN)	Eligibility	13
+Aspartate aminotransferase (AST); alanine aminotransferase (ALT); and alkaline phosphatase must be within the range allowing for eligibility. In determining eligibility the more abnormal of the two values (AST or ALT) should be used.	Eligibility	14
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	34-41
+phosphatase	GO:0016791,BAO:0000295	79-90
+range	LABO:0000114	110-115
+Eligibility of patients receiving medications or substances known to affect, or with the potential to affect the activity or pharmacokinetics of GW572016 will be determined following review of their use by the Principal Investigator	Eligibility	15
+Antacid use is prohibited 1 hour before and 1 hour after GW572016 dosing.	Eligibility	16
+antacid	CHEBI:65265	0-7
+hour	UO:0000032	28-32
+hour	UO:0000032	46-50
+All herbal (alternative) medicines are prohibited.	Eligibility	17
+Medications prohibited during the administration of lapatinib .	Eligibility	18
+lapatinib	CHEBI:49603	52-61
+Women of child-bearing potential must have negative pregnancy test and must agree to use adequate contraception (hormonal or barrier method of birth control or abstinence) prior to study entry and for the duration of study participation.	Eligibility	19
+duration	PATO:0001309	205-213
+Peripheral neuropathy: must be < grade 1	Eligibility	20
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Able to swallow and retain oral medication	Eligibility	21
+EXCLUSION CRITERIA	Eligibility	22
+Evidence of disease outside the breast or chest wall, except for ipsilateral axillary , supraclavicular, or infraclavicular lymph nodes.	Eligibility	23
+disease	DOID:4,OGMS:0000031	12-19
+breast	UBERON:0000310	32-38
+chest	UBERON:0001443	42-47
+lymph	UBERON:0002391	124-129
+Prior chemotherapy, immunotherapy, or hormonal therapy for breast cancer.	Eligibility	24
+breast cancer	DOID:1612	59-72
+More than 3 months between histologic diagnosis and registration on this study.	Eligibility	25
+History of other malignancy within the last 5years, except curatively treated basal cell carcinoma of the skin or carcinoma in situ of the cervix.	Eligibility	26
+history	BFO:0000182	0-7
+basal cell carcinoma	HP:0002671,DOID:2513	78-98
+carcinoma	HP:0030731,DOID:305	89-98
+carcinoma	HP:0030731,DOID:305	114-123
+Psychological, familial, sociological or geographical conditions which do not permit weekly medical follow-up and compliance with the study protocol. Those who are medically-unstable, including but not limited to active infection, acute hepatitis, deep vein thrombosis requiring anticoagulant therapy, gastrointestinal bleeding, uncontrolled hypercalcemia, uncontrolled diabetes, dementia, seizures, superior vena cava syndrome, and those whose circumstances do not permit completion of the study or the required follow-up.	Eligibility	27
+active	PATO:0002354	213-219
+acute hepatitis	HP:0200119,DOID:2237	231-246
+vein	UBERON:0001638	253-257
+thrombosis	DOID:0060903	258-268
+anticoagulant	CHEBI:50249	279-292
+hypercalcemia	HP:0003072,DOID:12678	342-355
+dementia	HP:0000726,DOID:1307	380-388
+vena cava	UBERON:0004087	409-418
+syndrome	DOID:225	419-427
+Congestive heart failure, abnormal left ventricular ejection fraction (LVEF), angina pectoris, uncontrolled cardiac arrhythmias, or other significant heart disease, or who have had a myocardial infarction within the past year.	Eligibility	28
+congestive heart failure	HP:0001635,DOID:6000	0-24
+left	HP:0012835	35-39
+ejection fraction	CMO:0000180	52-69
+angina pectoris	HP:0001681	78-93
+heart disease	DOID:114	150-163
+myocardial infarction	HP:0001658,DOID:5844	183-204
+year	UO:0000036	221-225
+Pregnant or lactating	Eligibility	29
+Of childbearing potential and not employing adequate contraception	Eligibility	30
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to GW572016.	Eligibility	31
+history	BFO:0000182	0-7
+HIV-positive and receiving combination anti-retroviral therapy are excluded from the study because of possible pharmacokinetic interactions with lapatinib. Appropriate studies will be undertaken in patients receiving combination anti-retroviral therapy when indicated.	Eligibility	32
+excluded	HP:0040285	67-75
+lapatinib	CHEBI:49603	145-154
+GI tract disease resulting in an inability to take oral medication, malabsorption syndrome, a requirement for IV alimentation, prior surgical procedures affecting absorption, uncontrolled inflammatory GI disease (e.g., Crohn's, ulcerative colitis).	Eligibility	33
+disease	DOID:4,OGMS:0000031	9-16
+disease	DOID:4,OGMS:0000031	204-211
+malabsorption	HP:0002024	68-81
+syndrome	DOID:225	82-90
+ulcerative colitis	HP:0100279,DOID:8577	228-246
+History of severe hypersensitivity reaction to taxotere or other drugs formulated with polysorbate 80.	Eligibility	34
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+hypersensitivity	GO:0002524,DOID:1205	18-34
+taxotere	CHEBI:46058	47-55
+polysorbate 80	CHEBI:53426	87-101
+Current active hepatic or biliary disease (with exception of patients with Gilberts syndrome, asymptomatic gallstones, or stable chronic liver disease per investigator assessment ).	Eligibility	35
+active	PATO:0002354	8-14
+disease	DOID:4,OGMS:0000031	34-41
+disease	DOID:4,OGMS:0000031	143-150
+syndrome	DOID:225	84-92
+stable	HP:0031915	122-128
+chronic	HP:0011010	129-136
+liver disease	DOID:409	137-150
+Outcome Measurement:	Results	0
+Percentage of Participants With Pathologic Complete Response (pCR)	Results	1
+Pathologic Complete Response (pCR) rate, assessed as no evidence of invasive disease in excised surgical specimens of breast and/or axilla, in participants who received at least 1 cycle of docetaxel and lapatinib and at least one follow-up evaluation.	Results	2
+rate	BAO:0080019	35-39
+disease	DOID:4,OGMS:0000031	77-84
+breast	UBERON:0000310	118-124
+lapatinib	CHEBI:49603	203-212
+Time frame: 12 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Neoadjuvant Chemotherapy	Results	5
+Arm/Group Description: Doxorubicin (Adriamycin) + cyclophosphamide (Cytoxan) with pegfilgrastim or filgrastim growth factor support every 2 weeks for 4 cycles, followed by docetaxel + lapatinib for four 21-day cycles, followed by surgery. Dexamethasone was administered twice-a-day for 3 days, starting 24 hours before the docetaxel infusions. After surgery +/- radiation, participants may receive trastuzumab (Herceptin) for a year.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+cyclophosphamide	CHEBI:4026	50-66
+growth factor	BAO:0002024	110-123
+lapatinib	CHEBI:49603	184-193
+surgery	OAE:0000067	230-237
+surgery	OAE:0000067	350-357
+dexamethasone	CHEBI:41879	239-252
+year	UO:0000036	428-432
+Overall Number of Participants Analyzed: 18	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  38.9	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/21 (0.00%)	Adverse Events	1

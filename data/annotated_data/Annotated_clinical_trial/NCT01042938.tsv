@@ -1,0 +1,109 @@
+INTERVENTION 1:	Intervention	0
+Curcumin C3 Complex	Intervention	1
+curcumin	CHEBI:3962	0-8
+Patients take 2.0 grams curcumin (four 500mg capsules) three times daily by mouth for prescribed course of radiation treatment (RT) (~4-7 weeks).	Intervention	2
+curcumin	CHEBI:3962	24-32
+mouth	UBERON:0000165	76-81
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Patients take 2.0 grams placebo (four 500mg capsules) three times daily by mouth for prescribed course of radiation treatment (RT)(~4-7 weeks).	Intervention	5
+mouth	UBERON:0000165	75-80
+Inclusion Criteria:	Eligibility	0
+Female with a diagnosis of, non-inflammatory breast adenocarcinoma and be referred for post-operative radiotherapy without concurrent chemotherapy.	Eligibility	1
+female	PATO:0000383	0-6
+breast adenocarcinoma	DOID:3458	45-66
+radiotherapy	OAE:0000235	102-114
+Participants must be at least 21 years of age.	Eligibility	2
+age	PATO:0000011	42-45
+Participants must not be pregnant.	Eligibility	3
+Participants can be from any racial or ethnic origin.	Eligibility	4
+Breast adenocarcinoma could have been treated by either lumpectomy or mastectomy with or without adjuvant or neoadjuvant chemotherapy or hormonal treatment.	Eligibility	5
+breast adenocarcinoma	DOID:3458	0-21
+adjuvant	CHEBI:60809	97-105
+adjuvant	CHEBI:60809	112-120
+Participants with in situ breast cancer are eligible.	Eligibility	6
+breast cancer	DOID:1612	26-39
+Participants who are prescribed concurrent hormone treatment with radiation treatment are eligible.	Eligibility	7
+hormone	CHEBI:24621	43-50
+Participants must be scheduled to receive five sessions of radiation therapy per week (1 session per day) for at least four weeks using standard (1.8-2.0 Gy per session)or Canadian (2.2-2.5 Gy per session)irradiation fractionation.	Eligibility	8
+week	UO:0000034	81-85
+week	UO:0000034	124-128
+day	UO:0000033	101-104
+A time period of three weeks must elapse after chemotherapy and surgery before beginning the study.	Eligibility	9
+time	PATO:0000165	2-6
+surgery	OAE:0000067	64-71
+The total dose prescribed to the whole breast should be 50 Gy or greater.	Eligibility	10
+breast	UBERON:0000310	39-45
+Participants must be able to understand English and able to complete assessment forms (all assessment forms are in English).	Eligibility	11
+Participants must be able to swallow medication.	Eligibility	12
+Topical skin agents, e.g., Aquaphor, Cetaphil, or other emollients, are allowed either PRN or prophylactically.	Eligibility	13
+Participant must give informed consent.	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Patients with bilateral breast cancer are not eligible.	Eligibility	16
+bilateral breast cancer	DOID:6741	14-37
+Patients who have had previous radiation therapy to the breast or chest are not eligible.	Eligibility	17
+breast	UBERON:0000310	56-62
+chest	UBERON:0001443	66-71
+Patients who are prescribed chemotherapy concurrently with radiation treatment are not eligible.	Eligibility	18
+Patients who will be receiving treatment with Herceptin (trastuzumab), anti-coagulants, or anti-human epidermal growth factor receptor (EGFR) drugs, e.g. Iressa (gefitinib), Erbitux (cetuximab, C225), concurrently with their radiation therapy are not eligible.	Eligibility	19
+growth factor	BAO:0002024	112-125
+receptor	BAO:0000281	126-134
+gefitinib	CHEBI:49668	162-171
+Patients cannot have had breast reconstructions, implants, and/or expanders.	Eligibility	20
+breast	UBERON:0000310	25-31
+Patients with known radiosensitivity syndromes (e.g., Ataxia-telangiectasia) are not eligible.	Eligibility	21
+Patients with collagen vascular disease, vasculitis, unhealed surgical sites, or breast infections are not eligible.	Eligibility	22
+collagen	CHEBI:3815	14-22
+vascular disease	DOID:178	23-39
+vasculitis	HP:0002633,DOID:865	41-51
+breast	UBERON:0000310	81-87
+Patients whose baseline blood tests meet the following criteria are not eligible: greater than or equal to Grade 2 change Hemoglobin (i.e., 25% decrease from baseline); greater than or equal to Grade 1 change in Platelets (i.e., less than 75,000/mm3); greater than or equal to Grade 2 change in PT and PTT(i.e., 1.5-2x upper level normal (ULN)); greater than or equal to Grade 1 change in AST, ALT (i.e., greater than 2.5x ULN); greater than or equal to Grade 1 change in Bilirubin (i.e., greater than 1.5x ULN); greater than or equal to Grade 1 change in Creatinine (i.e., greater than 2x ULN).	Eligibility	23
+blood	UBERON:0000178	24-29
+hemoglobin	CHEBI:35143	122-132
+creatinine	CHEBI:16737	556-566
+Outcome Measurement:	Results	0
+Severity of Dermatitis in Radiation Treatment Site in Breast Cancer Patients	Results	1
+severity	HP:0012824	0-8
+dermatitis	DOID:2723	12-22
+site	BFO:0000029	46-50
+breast cancer	DOID:1612	54-67
+The severity of radiation dermatitis was measured using the Radiation Dermatitis Severity (RDS)Scale which ranges from 0.0 to 4.0 with increments of 0.5. The RDS scale is a revised form of the NIH Common Toxicity Criteria to account for color and subtle texture changes in the skin. The worst dermatitis (i.e., highest RDS score) at the end of treatment was used for the primary analysis of severity of radiation dermatitis in each treatment group. Additionally, we performed repeated measure analyses to examine the severity of dermatitis over time in each arm.	Results	2
+severity	HP:0012824	4-12
+severity	HP:0012824	81-89
+severity	HP:0012824	391-399
+severity	HP:0012824	517-525
+dermatitis	DOID:2723	26-36
+dermatitis	DOID:2723	70-80
+dermatitis	DOID:2723	293-303
+dermatitis	DOID:2723	413-423
+dermatitis	DOID:2723	529-539
+color	PATO:0000014	237-242
+texture	PATO:0000150	254-261
+group	CHEBI:24433	442-447
+time	PATO:0000165	545-549
+Time frame: 4-7 weeks (prescribed course of radiation)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Curcumin C3 Complex	Results	5
+curcumin	CHEBI:3962	17-25
+Arm/Group Description: Patients take 2.0 grams curcumin (four 500mg capsules) three times daily by mouth for prescribed course of radiation treatment (RT) (~4-7 weeks).	Results	6
+curcumin	CHEBI:3962	47-55
+mouth	UBERON:0000165	99-104
+Overall Number of Participants Analyzed: 14	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  2.6         (0.994)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo	Results	11
+Arm/Group Description: Patients take 2.0 grams placebo (four 500mg capsules) three times daily by mouth for prescribed course of radiation treatment (RT)(~4-7 weeks).	Results	12
+mouth	UBERON:0000165	98-103
+Overall Number of Participants Analyzed: 16	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  3.4         (0.554)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/14 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/16 (0.00%)	Adverse Events	3

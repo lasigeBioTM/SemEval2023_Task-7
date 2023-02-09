@@ -1,0 +1,73 @@
+INTERVENTION 1:	Intervention	0
+Mammography Only	Intervention	1
+For this reporting arm, the interpretation and analysis was done with mammography only.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Gamma Imaging	Intervention	4
+For this reporting arm, the interpretation and analysis was done with gamma imaging only.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Past prior screening mammography (SM) interpreted as negative or benign (This screening must have been performed at Mayo Clinic Rochester, Minnesota).	Eligibility	1
+Past prior SM interpreted as heterogeneously dense or extremely dense (This screening must have been performed at Mayo Clinic Rochester, Minnesota).	Eligibility	2
+Women younger than 50 years who had not undergone prior mammography, as most of these women have dense breasts.	Eligibility	3
+Subjects had to have at least one of the following risk factors:	Eligibility	4
+Known mutation in breast cancer susceptibility gene 1 (BRCA1) or breast cancer susceptibility gene 2 (BRCA2)	Eligibility	5
+breast cancer	DOID:1612	18-31
+breast cancer	DOID:1612	65-78
+gene	BAO:0000582	47-51
+gene	BAO:0000582	94-98
+History of chest, mediastinal, or axillary irradiation	Eligibility	6
+history	BFO:0000182	0-7
+chest	UBERON:0001443	11-16
+Personal history of breast cancer	Eligibility	7
+history	BFO:0000182	9-16
+breast cancer	DOID:1612	20-33
+History of prior biopsy showing atypical ductal hyperplasia, atypical lobular hyperplasia, lobular carcinoma in situ, or atypical papilloma	Eligibility	8
+history	BFO:0000182	0-7
+lobular carcinoma in situ	HP:0030076,DOID:3010	91-116
+papilloma	HP:0012740,DOID:2615	130-139
+Gail or Claus model lifetime risk greater than or equal to 20%	Eligibility	9
+Gail model 5 year risk greater or equal to 2.5%	Eligibility	10
+year	UO:0000036	13-17
+Gail model 5 year risk greater or equal to 1.6%	Eligibility	11
+year	UO:0000036	13-17
+One first-degree relative with history of breast cancer	Eligibility	12
+history	BFO:0000182	31-38
+breast cancer	DOID:1612	42-55
+Two second-degree relatives with history of breast cancer	Eligibility	13
+history	BFO:0000182	33-40
+breast cancer	DOID:1612	44-57
+Exclusion Criteria:	Eligibility	14
+They are unable to understand and sign the consent form	Eligibility	15
+They are pregnant or lactating	Eligibility	16
+They are physically unable to sit upright and still for 40 minutes.	Eligibility	17
+They have self-reported signs or symptoms of breast cancer (palpable mass, bloody nipple discharge, axillary mass etc.).	Eligibility	18
+breast cancer	DOID:1612	45-58
+They have had needle biopsy within 3 months, or breast surgery within 1 year prior to the study.	Eligibility	19
+breast	UBERON:0000310	48-54
+surgery	OAE:0000067	55-62
+year	UO:0000036	72-76
+They are currently taking tamoxifen, evista (raloxifene), or an aromatase inhibitor for adjuvant therapy or chemoprevention.	Eligibility	20
+tamoxifen	CHEBI:41774	26-35
+raloxifene	CHEBI:8772	45-55
+inhibitor	CHEBI:35222	74-83
+adjuvant	CHEBI:60809	88-96
+Outcome Measurement:	Results	0
+Diagnostic Yield	Results	1
+Diagnostic yield is the likelihood that a test or procedure will provide the information needed to establish a diagnosis. In this case, it is the proportion of women with positive results of a screening test and positive results with the reference standard (verified cancer status).	Results	2
+cancer	DOID:162	267-273
+Time frame: 12 months after mammography and gamma imaging	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Mammography Only	Results	5
+Arm/Group Description: For this reporting arm, the interpretation and analysis was done with mammography only.	Results	6
+Overall Number of Participants Analyzed: 936	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: cancers per 1000 women screened  3.2        (1.1 to 9.4)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Gamma Imaging	Results	11
+Arm/Group Description: For this reporting arm, the interpretation and analysis was done with gamma imaging only.	Results	12
+Overall Number of Participants Analyzed: 936	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: cancers per 1000 women screened  9.6        (5.1 to 18.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/969 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

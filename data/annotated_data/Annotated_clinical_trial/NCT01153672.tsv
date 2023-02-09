@@ -1,0 +1,205 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Enzyme Inhibitor Therapy, AI Sensitization Therapy)	Intervention	1
+enzyme inhibitor	CHEBI:23924	11-27
+sensitization	GO:0046960	40-53
+Patients receive vorinostat PO QD for 2 weeks followed by AI therapy comprising anastrozole PO QD, letrozole PO QD, OR exemestane PO QD for 6 weeks. Courses repeat every 8 weeks in the absence of disease progression or unacceptable toxicity.	Intervention	2
+vorinostat	CHEBI:45716	17-27
+anastrozole	CHEBI:2704	80-91
+letrozole	CHEBI:6413	99-108
+exemestane	CHEBI:4953	119-129
+disease	DOID:4,OGMS:0000031	196-203
+vorinostat: Given PO	Intervention	3
+vorinostat	CHEBI:45716	0-10
+laboratory biomarker analysis: Correlative studies	Intervention	4
+biomarker	CHEBI:59163	11-20
+biopsy: Optional correlative studies	Intervention	5
+F-18 16 alpha-fluoroestradiol: Correlative studies	Intervention	6
+positron emission tomography: Correlative studies	Intervention	7
+positron	CHEBI:30225	0-8
+tomography	BAO:0002525	18-28
+anastrozole: Given PO	Intervention	8
+anastrozole	CHEBI:2704	0-11
+letrozole: Given PO	Intervention	9
+letrozole	CHEBI:6413	0-9
+exemestane: Given PO	Intervention	10
+exemestane	CHEBI:4953	0-10
+gene expression analysis: Correlative studies	Intervention	11
+gene expression	GO:0010467	0-15
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically proven diagnosis of breast cancer	Eligibility	1
+breast cancer	DOID:1612	52-65
+Stage IV disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	9-16
+Patient has previously derived clinical benefit from endocrine therapy, but is no longer deriving benefit to endocrine therapy in the opinion of the treating investigator; patients need to stop AI for at least one week prior to starting vorinostat treatment on this protocol	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	172-179
+week	UO:0000034	214-218
+vorinostat	CHEBI:45716	237-247
+At least one site of measurable disease, as defined by the modified Response Evaluation Criteria in Solid Tumors (RECIST) criteria	Eligibility	4
+site	BFO:0000029	13-17
+disease	DOID:4,OGMS:0000031	32-39
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2	Eligibility	5
+group	CHEBI:24433	29-34
+Female patient is post menopausal as defined by one of the following; free from menses for > 2 years, surgically sterilized ,FSH and Estradiol in post-menopausal range AND surgical absence of uterus OR chemotherapy induced amenorrhea lasting > 1 year OR currently on ovarian suppression	Eligibility	6
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+estradiol	CHEBI:23965	133-142
+range	LABO:0000114	162-167
+uterus	UBERON:0000995	192-198
+amenorrhea	HP:0000141,DOID:13938	223-233
+year	UO:0000036	95-99
+year	UO:0000036	246-250
+Female patient of childbearing potential has a negative urine or serum (beta-human chorionic gonadotropin [hCG]) pregnancy test within 14 days prior to receiving the first dose of vorinostat	Eligibility	7
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+urine	UBERON:0001088	56-61
+chorionic gonadotropin	CHEBI:81570	83-105
+vorinostat	CHEBI:45716	180-190
+Male patient agrees to use two barrier methods of contraception or abstain from intercourse for the duration of the study	Eligibility	8
+male	CHEBI:30780,PATO:0000384	0-4
+patient	HADO:0000008,OAE:0001817	5-12
+duration	PATO:0001309	100-108
+Absolute neutrophil count (ANC) >= 1,500/mcL	Eligibility	9
+Platelets >= 100,000/mcL	Eligibility	10
+Hemoglobin >= 9 g/dL	Eligibility	11
+hemoglobin	CHEBI:35143	0-10
+Prothrombin Time or international normalized ratio (INR) =< 1.5 x upper limit of normal (ULN) unless receiving therapeutic anticoagulation	Eligibility	12
+prothrombin time	CMO:0000211	0-16
+ratio	UO:0000190	45-50
+x	LABO:0000148	64-65
+Partial thromboplastin time (PTT) =< 1.2 times the ULN unless the patient is receiving therapeutic anticoagulation	Eligibility	13
+time	PATO:0000165	23-27
+time	PATO:0000165	41-45
+patient	HADO:0000008,OAE:0001817	66-73
+Potassium and magnesium levels within normal limits	Eligibility	14
+Calculated creatinine clearance >= 30 mL/min	Eligibility	15
+creatinine clearance	CMO:0000765	11-31
+Serum total bilirubin =< 1.5 X ULN	Eligibility	16
+x	LABO:0000148	29-30
+Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT]) and alanine aminotransferase (ALT) (serum glutamic pyruvic transaminase [SGPT]) =< 2.5 X ULN	Eligibility	17
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	86-93
+x	LABO:0000148	50-51
+x	LABO:0000148	169-170
+Alkaline Phosphatase =< 2.5 X ULN	Eligibility	18
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	28-29
+Patient, or the patient's legal representative, has voluntarily agreed to participate by giving written informed consent	Eligibility	19
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	16-23
+Patient has a life expectancy of at least 12 weeks in the opinion of the treating investigator	Eligibility	20
+patient	HADO:0000008,OAE:0001817	0-7
+Patient is willing to continue on same AI therapy	Eligibility	21
+patient	HADO:0000008,OAE:0001817	0-7
+Patient agrees to participate in imaging Protocol 7184 and is separately consented	Eligibility	22
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	23
+Patient has not derived clinical benefit from prior endocrine therapy	Eligibility	24
+patient	HADO:0000008,OAE:0001817	0-7
+Patient is currently participating or has participated in a study with an investigational compound or device within 30 days of initial dosing with study drug(s) other than the imaging protocol 7184	Eligibility	25
+patient	HADO:0000008,OAE:0001817	0-7
+drug	CHEBI:23888	153-157
+Patient has received an ER blocking therapy (selective estrogen receptor modulating [SERM] or downregulating [SERD] i.e. tamoxifen or fulvestrant) within the past 6 weeks	Eligibility	26
+patient	HADO:0000008,OAE:0001817	0-7
+estrogen	CHEBI:50114,BAO:0000760	55-63
+receptor	BAO:0000281	64-72
+tamoxifen	CHEBI:41774	121-130
+fulvestrant	CHEBI:31638	134-145
+Patient had prior treatment with an histone deacetylase (HDAC) inhibitor (e.g., romidespin [Depsipeptide], NSC-630176, MS 275, LAQ-824, belinostat [PXD-101], LBH589, MGCD0103, CRA024781, etc); patients who have received compounds with HDAC inhibitor-like activity, such as valproic acid, as anti-tumor therapy should not enroll in this study; patients who have received such compounds for other indications, e.g. valproic acid for epilepsy, may enroll after a 30-day washout period	Eligibility	27
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	193-200
+patient	HADO:0000008,OAE:0001817	343-350
+histone	CHEBI:15358	36-43
+inhibitor	CHEBI:35222	63-72
+inhibitor	CHEBI:35222	240-249
+depsipeptide	CHEBI:23643	92-104
+belinostat	CHEBI:61076	136-146
+valproic acid	CHEBI:39867	273-286
+valproic acid	CHEBI:39867	413-426
+epilepsy	DOID:1826	431-439
+Patient is on any systemic steroids that have not been stabilized to the equivalent of =<10 mg/day prednisone during the 30 days prior to the start of the study drugs	Eligibility	28
+patient	HADO:0000008,OAE:0001817	0-7
+prednisone	CHEBI:8382	99-109
+Patient has known hypersensitivity to the components of study drug or its analogs	Eligibility	29
+patient	HADO:0000008,OAE:0001817	0-7
+hypersensitivity	GO:0002524,DOID:1205	18-34
+drug	CHEBI:23888	62-66
+Patients with uncontrolled brain metastases	Eligibility	30
+brain	UBERON:0000955	27-32
+New York Heart Association (NYHA) Class III or IV congestive heart failure, myocardial infarction within the previous 6 months, corrected QT interval (QTc) > 0.47 seconds, or uncontrolled arrhythmia.	Eligibility	31
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	61-66
+congestive heart failure	HP:0001635,DOID:6000	50-74
+myocardial infarction	HP:0001658,DOID:5844	76-97
+qt interval	CMO:0000235	138-149
+arrhythmia	HP:0011675	188-198
+Type I Diabetes Mellitus; patients with Type II Diabetes Mellitus will be included as long as their glucose can be controlled to under 200 mg/dL	Eligibility	32
+type i diabetes mellitus	HP:0100651	0-24
+type ii diabetes mellitus	HP:0005978	40-65
+glucose	CHEBI:4167,BAO:0000924	100-107
+Patient is pregnant or breast feeding, or expecting to conceive or father children within the projected duration of the study	Eligibility	33
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	23-29
+duration	PATO:0001309	104-112
+Patient with a "currently active" second malignancy, other than non-melanoma skin cancer and carcinoma in situ of the cervix, should not be enrolled; patients are not considered to have a "currently active" malignancy if they have completed therapy for a prior malignancy, are disease free from prior malignancies for > 5 years or are considered by their physician to be at less than 30% risk of relapse	Eligibility	34
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	150-157
+active	PATO:0002354	26-32
+active	PATO:0002354	199-205
+second	UO:0000010	34-40
+skin cancer	DOID:4159	77-88
+carcinoma	HP:0030731,DOID:305	93-102
+disease	DOID:4,OGMS:0000031	277-284
+Patients with known active viral hepatitis	Eligibility	35
+active	PATO:0002354	20-26
+viral hepatitis	HP:0006562,DOID:1884	27-42
+Patient has a history or current evidence of any condition, therapy, or lab abnormality that might confound the results of the study, interfere with the patient's participation for the full duration of the study or is not in the best interest of the patient to participate	Eligibility	36
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	153-160
+patient	HADO:0000008,OAE:0001817	250-257
+history	BFO:0000182	14-21
+condition	PDRO:0000129	49-58
+duration	PATO:0001309	190-198
+Outcome Measurement:	Results	0
+Rate of Clinical Benefit According to RECIST	Results	1
+rate	BAO:0080019	0-4
+Conventional imaging (CT, bone scan) was performed at baseline and at week 8 and tumor response assessed by RECIST criteria	Results	2
+ct	BAO:0002125	22-24
+week	UO:0000034	70-74
+Time frame: Up to approximately 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment (Enzyme Inhibitor Therapy, AI Sensitization Therapy)	Results	5
+enzyme inhibitor	CHEBI:23924	28-44
+sensitization	GO:0046960	57-70
+Arm/Group Description: Patients receive vorinostat PO QD for 2 weeks followed by AI therapy comprising anastrozole PO QD, letrozole PO QD, OR exemestane PO QD for 6 weeks. Courses repeat every 8 weeks in the absence of disease progression or unacceptable toxicity.	Results	6
+vorinostat	CHEBI:45716	40-50
+anastrozole	CHEBI:2704	103-114
+letrozole	CHEBI:6413	122-131
+exemestane	CHEBI:4953	142-152
+disease	DOID:4,OGMS:0000031	219-226
+vorinostat: Given PO	Results	7
+vorinostat	CHEBI:45716	0-10
+laboratory biomarker analysis: Correlative studies	Results	8
+biomarker	CHEBI:59163	11-20
+biopsy: Optional correlative studies	Results	9
+F-18 16 alpha-fluoroestradiol: Correlative studies	Results	10
+positron emission tomography: Correlative studies	Results	11
+positron	CHEBI:30225	0-8
+tomography	BAO:0002525	18-28
+anastrozole: Given PO	Results	12
+anastrozole	CHEBI:2704	0-11
+letrozole: Given PO	Results	13
+letrozole	CHEBI:6413	0-9
+exemestane: Given PO	Results	14
+exemestane	CHEBI:4953	0-10
+gene expression analysis: Correlative studies	Results	15
+gene expression	GO:0010467	0-15
+Overall Number of Participants Analyzed: 8	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: percentage of evaluable participants  15        (12 to 65)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 2/8 (25.00%)	Adverse Events	1
+pancreatitis [1]1/8 (12.50%)	Adverse Events	2
+pancreatitis	HP:0001733,DOID:4989	0-12
+Flu-like symptoms [1]1/8 (12.50%)	Adverse Events	3

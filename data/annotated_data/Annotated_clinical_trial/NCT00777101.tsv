@@ -1,0 +1,129 @@
+INTERVENTION 1:	Intervention	0
+Neratinib	Intervention	1
+neratinib	CHEBI:61397	0-9
+Neratinib	Intervention	2
+neratinib	CHEBI:61397	0-9
+Neratinib: Tablets, 240mg once per day until disease progression or unacceptable toxicity	Intervention	3
+neratinib	CHEBI:61397	0-9
+day	UO:0000033	35-38
+disease	DOID:4,OGMS:0000031	45-52
+INTERVENTION 2:	Intervention	4
+Lapatinib+Capecitabine	Intervention	5
+Lapatinib plus Capecitabine	Intervention	6
+lapatinib	CHEBI:49603	0-9
+capecitabine	CHEBI:31348	15-27
+Lapatinib: Tablets 1250mg once per day until disease progression or unacceptable toxicity.	Intervention	7
+lapatinib	CHEBI:49603	0-9
+day	UO:0000033	35-38
+disease	DOID:4,OGMS:0000031	45-52
+Capecitabine: Tablets 2000mg/m2 given in two evenly divided daily doses for first 14 days of each 21 day cycle. Given until disease progression or unacceptable toxicity.	Intervention	8
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	85-88
+day	UO:0000033	101-104
+disease	DOID:4,OGMS:0000031	124-131
+Inclusion Criteria:	Eligibility	0
+Stage IIIB, IIIC, or IV erbB2 (HER2) positive breast cancer	Eligibility	1
+breast cancer	DOID:1612	46-59
+Prior use of Herceptin (trastuzumab), and a taxane	Eligibility	2
+taxane	CHEBI:36064	44-50
+Adequate cardiac and renal function	Eligibility	3
+function	BAO:0003117,BFO:0000034	27-35
+Exclusion Criteria:	Eligibility	4
+More than 2 prior Herceptin (trastuzumab) regimens or prior use of Xeloda (capecitabine) and / or Tykerb (lapatinib) [Tyverb]	Eligibility	5
+capecitabine	CHEBI:31348	75-87
+lapatinib	CHEBI:49603	106-115
+Bone as the only site of disease	Eligibility	6
+site	BFO:0000029	17-21
+disease	DOID:4,OGMS:0000031	25-32
+Active central nervous system metastases (subjects should be stable and off anticonvulsants and steroids)	Eligibility	7
+active	PATO:0002354	0-6
+central nervous system	UBERON:0001017	7-29
+stable	HP:0031915	61-67
+Significant gastrointestinal disorder with diarrhea as major symptom	Eligibility	8
+disorder	OGMS:0000045	29-37
+diarrhea	HP:0002014,DOID:13250	43-51
+symptom	OGMS:0000020	61-68
+Outcome Measurement:	Results	0
+Progression Free Survival	Results	1
+Progression Free Survival, Measured in Months, for Subjects Randomized. Investigator assessment. The time interval from the date of randomization until the earliest date of progression per Response Evaluation Criteria In Solid Tumors Criteria (RECIST) or death due to any cause. For subjects without death or progression, censorship was at the last valid tumor assessment.	Results	2
+time	PATO:0000165	101-105
+death	OAE:0000632	255-260
+death	OAE:0000632	300-305
+Time frame: From randomization date to progression or death, assessed up to 69 months	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	54-59
+Results 1:	Results	4
+Arm/Group Title: Neratinib	Results	5
+neratinib	CHEBI:61397	17-26
+Arm/Group Description: Neratinib	Results	6
+neratinib	CHEBI:61397	23-32
+Neratinib: Tablets, 240mg once per day until disease progression or unacceptable toxicity	Results	7
+neratinib	CHEBI:61397	0-9
+day	UO:0000033	35-38
+disease	DOID:4,OGMS:0000031	45-52
+Overall Number of Participants Analyzed: 117	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: months  4.53        (3.12 to 5.65)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Lapatinib+Capecitabine	Results	12
+Arm/Group Description: Lapatinib plus Capecitabine	Results	13
+lapatinib	CHEBI:49603	23-32
+capecitabine	CHEBI:31348	38-50
+Lapatinib: Tablets 1250mg once per day until disease progression or unacceptable toxicity.	Results	14
+lapatinib	CHEBI:49603	0-9
+day	UO:0000033	35-38
+disease	DOID:4,OGMS:0000031	45-52
+Capecitabine: Tablets 2000mg/m2 given in two evenly divided daily doses for first 14 days of each 21 day cycle. Given until disease progression or unacceptable toxicity.	Results	15
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	85-88
+day	UO:0000033	101-104
+disease	DOID:4,OGMS:0000031	124-131
+Overall Number of Participants Analyzed: 116	Results	16
+Median (95% Confidence Interval)	Results	17
+median	BAO:0002174	0-6
+Unit of Measure: months  6.83        (5.85 to 8.21)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 31/116 (26.72%)	Adverse Events	1
+Neutropenia 1/116 (0.86%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/116 (0.86%)	Adverse Events	3
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 1/116 (0.86%)	Adverse Events	4
+acute myocardial infarction	DOID:9408	0-27
+Myocardial infarction 0/116 (0.00%)	Adverse Events	5
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericardial effusion 0/116 (0.00%)	Adverse Events	6
+pericardial effusion	HP:0001698,DOID:118	0-20
+Abdominal pain 3/116 (2.59%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Ascites 1/116 (0.86%)	Adverse Events	8
+ascites	HP:0001541	0-7
+Diarrhoea 3/116 (2.59%)	Adverse Events	9
+Gingival bleeding 1/116 (0.86%)	Adverse Events	10
+gingival bleeding	HP:0000225	0-17
+Intestinal haemorrhage 1/116 (0.86%)	Adverse Events	11
+Nausea 2/116 (1.72%)	Adverse Events	12
+nausea	HP:0002018	0-6
+Adverse Events 2:	Adverse Events	13
+Total: 24/115 (20.87%)	Adverse Events	14
+Neutropenia 1/115 (0.87%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/115 (0.00%)	Adverse Events	16
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 0/115 (0.00%)	Adverse Events	17
+acute myocardial infarction	DOID:9408	0-27
+Myocardial infarction 1/115 (0.87%)	Adverse Events	18
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericardial effusion 1/115 (0.87%)	Adverse Events	19
+pericardial effusion	HP:0001698,DOID:118	0-20
+Abdominal pain 0/115 (0.00%)	Adverse Events	20
+abdominal pain	HP:0002027	0-14
+Ascites 0/115 (0.00%)	Adverse Events	21
+ascites	HP:0001541	0-7
+Diarrhoea 4/115 (3.48%)	Adverse Events	22
+Gingival bleeding 0/115 (0.00%)	Adverse Events	23
+gingival bleeding	HP:0000225	0-17
+Intestinal haemorrhage 0/115 (0.00%)	Adverse Events	24
+Nausea 3/115 (2.61%)	Adverse Events	25
+nausea	HP:0002018	0-6

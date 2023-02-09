@@ -1,0 +1,184 @@
+INTERVENTION 1:	Intervention	0
+BCD-022 (CJSC BIOCAD)	Intervention	1
+BCD-022 is a product code for trastuzumab biosimilar manufactured by CJSC BIOCAD, Russia. In this arm patients will receive 6 courses of treatment with BCD-022 in combination with paclitaxel. Patients will receive BCD-022 at a loading dose of 8 mg/kg (once), followed by maintenance dose of 6 mg/kg every 3 weeks (5 administrations), + paclitaxel 175 mg/m2 every 3 weeks as 3 hour intravenous infusion (6 administrations).	Intervention	2
+product	BAO:0003067	13-20
+paclitaxel	CHEBI:45863	180-190
+paclitaxel	CHEBI:45863	336-346
+hour	UO:0000032	376-380
+INTERVENTION 2:	Intervention	3
+Herceptin ® (F. Hoffmann-La Roche Ltd., Switzerland)	Intervention	4
+In this arm patients will receive 6 courses of treatment with Herceptin in combination with paclitaxel. Patients will receive Herceptin at a loading dose of 8 mg/kg (once), followed by maintenance dose of 6 mg/kg every 3 weeks (5 administrations), + paclitaxel 175 mg/m2 every 3 weeks as 3 hour intravenous infusion (6 administrations).	Intervention	5
+paclitaxel	CHEBI:45863	92-102
+paclitaxel	CHEBI:45863	250-260
+hour	UO:0000032	290-294
+Inclusion Criteria:	Eligibility	0
+Written informed consent and ability to follow the Protocol procedures;	Eligibility	1
+Age from 18 years to 75 years inclusive;	Eligibility	2
+age	PATO:0000011	0-3
+Female gender;	Eligibility	3
+female	PATO:0000383	0-6
+Histologically confirmed breast cancer (BC);	Eligibility	4
+breast cancer	DOID:1612	25-38
+Metastatic BC (stage IV according to TNM classification version 6);	Eligibility	5
+Grade 3+ HER2 overexpression confirmed by immunohistochemical (IHC) staining or grade 2+ HER2 overexpression accompanied by HER2 gene amplification confirmed by fluorescent hybridization in situ (FISH) ;	Eligibility	6
+gene	BAO:0000582	129-133
+Documented results of oestrogen and progesterone receptors expression analysis;	Eligibility	7
+progesterone	CHEBI:17026	36-48
+Eastern Cooperative Oncology Group (ECOG) status 0, 1 or 2, not increasing within 2 weeks prior to randomization;	Eligibility	8
+group	CHEBI:24433	29-34
+Life expectancy - 20 weeks or more from the moment of randomization;	Eligibility	9
+Presence of at least 1 tumour with a size not less than 1 cm (revealed with computed tomography (CT) slice thickness not more than 5 mm). Patients having bone metastasis as the only measurable tumour are not eligible for the trial;	Eligibility	10
+size	PATO:0000117	37-41
+tomography	BAO:0002525	85-95
+ct	BAO:0002125	97-99
+Patients of childbearing potential must implement reliable contraceptive measures during the study treatment, starting 4 weeks prior to inclusion into the trial and until 6 months after the last administration of the study drug.	Eligibility	11
+drug	CHEBI:23888	223-227
+Exclusion Criteria:	Eligibility	12
+Previous anticancer therapy for metastatic BC, including cytotoxic chemotherapy, or previous anticancer therapy with signal transduction inhibitors (e.g. lapatinib), biological drugs (e.g. trastuzumab, bevacizumab), experimental (not approved for BC therapy) anticancer drugs. Any previous hormonal therapy is allowed;	Eligibility	13
+signal transduction	GO:0007165	117-136
+lapatinib	CHEBI:49603	154-163
+Disease progression within 6 months after adjuvant and/or neoadjuvant anti BC therapy;	Eligibility	14
+disease	DOID:4,OGMS:0000031	0-7
+adjuvant	CHEBI:60809	42-50
+adjuvant	CHEBI:60809	61-69
+Surgery, radiation therapy, use of any experimental medications within 4 weeks (28 days) prior to randomization;	Eligibility	15
+surgery	OAE:0000067	0-7
+Hypersensitivity to paclitaxel and all medications containing polyoxyethylated castor oil, hypersensitivity to dexamethasone, diphenhydramine, ranitidine/cimetidine, recombinant murine proteins, contrast agents or excipients of study medications;	Eligibility	16
+hypersensitivity	GO:0002524,DOID:1205	0-16
+hypersensitivity	GO:0002524,DOID:1205	91-107
+paclitaxel	CHEBI:45863	20-30
+castor oil	CHEBI:140618	79-89
+dexamethasone	CHEBI:41879	111-124
+diphenhydramine	CHEBI:4636	126-141
+BC metastases in central nervous system, progressing or clinically manifested (e.g. cerebral oedema, spinal cord injury), with exception of non-progressing metastases not requiring treatment with glucocorticosteroids and/or anticonvulsants within 4 weeks prior to randomization;	Eligibility	17
+central nervous system	UBERON:0001017	17-39
+spinal cord	UBERON:0002240	101-112
+Cardiovascular system pathology (congestive heart failure (CHF) stage III-IV according to New York Heart Association (NYHA) classification, unstable angina pectoris, myocardial infarction) within 12 months prior to randomization;	Eligibility	18
+cardiovascular system	UBERON:0004535	0-21
+congestive heart failure	HP:0001635,DOID:6000	33-57
+heart	UBERON:0000948	44-49
+heart	UBERON:0000948	99-104
+angina pectoris	HP:0001681	149-164
+myocardial infarction	HP:0001658,DOID:5844	166-187
+Uncontrolled hypertension comprising all cases of arterial hypertension when no decrease in blood pressure could be achieved despite treatment with a combination of 3 antihypertensive drugs including one diuretic and non-medicamental correction methods (low salt diet, physical exercise);	Eligibility	19
+hypertension	HP:0000822,DOID:10763	13-25
+hypertension	HP:0000822,DOID:10763	59-71
+blood	UBERON:0000178	92-97
+diuretic	CHEBI:35498	204-212
+salt	CHEBI:24866	258-262
+Left ventricular ejection fraction <50% according to electrocardiography;	Eligibility	20
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Neutrophils 1500/mm3;	Eligibility	21
+Platelets 100 000/mm3;	Eligibility	22
+Hemoglobin 90 g/L;	Eligibility	23
+hemoglobin	CHEBI:35143	0-10
+Creatinine level  1.5 × upper limit of normal (ULN);	Eligibility	24
+creatinine	CHEBI:16737	0-10
+Bilirubin level  1.5 × ULN;	Eligibility	25
+Asparagine transferase (AST) and alanine transferase (ALT) levels  2.5 × ULN (5 × ULN for patients with liver metastases);	Eligibility	26
+asparagine	CHEBI:22653	0-10
+transferase	BAO:0000292	11-22
+transferase	BAO:0000292	41-52
+alanine	CHEBI:16449	33-40
+liver	UBERON:0002107	104-109
+Alkaline phosphatase level  5 × ULN;	Eligibility	27
+phosphatase	GO:0016791,BAO:0000295	9-20
+Pregnancy or lactation;	Eligibility	28
+lactation	GO:0007595	13-22
+Any other concomitant cancer including contralateral breast cancer revealed within 5 years prior to screening, except curatively treated intraductal carcinoma in situ, curatively treated cervical carcinoma in situ or curatively treated basal cell or squamous cell carcinoma;	Eligibility	29
+cancer	DOID:162	22-28
+cancer	DOID:162	60-66
+breast cancer	DOID:1612	53-66
+carcinoma	HP:0030731,DOID:305	149-158
+carcinoma	HP:0030731,DOID:305	196-205
+carcinoma	HP:0030731,DOID:305	264-273
+squamous cell carcinoma	HP:0002860,DOID:1749	250-273
+Conditions limiting patient's adherence to protocol requirements (dementia, neurologic or psychiatric disorders, drug addiction, alcoholism and others);	Eligibility	30
+patient	HADO:0000008,OAE:0001817	20-27
+dementia	HP:0000726,DOID:1307	66-74
+drug addiction	HP:0033511	113-127
+alcoholism	HP:0030955,DOID:0050741	129-139
+Stage II-IV neuropathy according to Common Terminology Criteria for Adverse Events (CTCAE) v.4.0;	Eligibility	31
+neuropathy	DOID:870	12-22
+Concomitant participation in other clinical trials, previous participation in other clinical trials within 30 days before entering into the trial, previous participation in the same trial;	Eligibility	32
+Acute or active chronic infections;	Eligibility	33
+acute	HP:0011009,PATO:0000389	0-5
+active	PATO:0002354	9-15
+chronic	HP:0011010	16-23
+Hepatitis C virus, hepatitis B virus, HIV or syphilis infections;	Eligibility	34
+hepatitis c	DOID:1883	0-11
+virus	BAO:0000232	12-17
+virus	BAO:0000232	31-36
+hepatitis b	DOID:2043	19-30
+syphilis	DOID:4166	45-53
+Obstacles in intravenous administration of study drugs	Eligibility	35
+Outcome Measurement:	Results	0
+Overall Response Rate	Results	1
+rate	BAO:0080019	17-21
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	2
+target	BAO:0003064	76-82
+target	BAO:0003064	157-163
+target	BAO:0003064	249-255
+diameter	PATO:0001334	237-245
+The response was assessed at the screening, after 3 therapy cycles and after 6 therapy cycles. If CT after 3 or 6 therapy cycles revealed the complete or partial response, a confirmatory CT scan was performed 4 weeks later. The best response during the study was assessed.	Results	3
+ct	BAO:0002125	98-100
+ct	BAO:0002125	187-189
+Time frame: Day 127	Results	4
+time	PATO:0000165	0-4
+day	UO:0000033	12-15
+Results 1:	Results	5
+Arm/Group Title: BCD-022 (CJSC BIOCAD)	Results	6
+Arm/Group Description: BCD-022 is a product code for trastuzumab biosimilar manufactured by CJSC BIOCAD, Russia. In this arm patients will receive 6 courses of treatment with BCD-022 in combination with paclitaxel. Patients will receive BCD-022 at a loading dose of 8 mg/kg (once), followed by maintenance dose of 6 mg/kg every 3 weeks (5 administrations), + paclitaxel 175 mg/m2 every 3 weeks as 3 hour intravenous infusion (6 administrations).	Results	7
+product	BAO:0003067	36-43
+paclitaxel	CHEBI:45863	203-213
+paclitaxel	CHEBI:45863	359-369
+hour	UO:0000032	399-403
+Overall Number of Participants Analyzed: 113	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  56  49.6%	Results	10
+Results 2:	Results	11
+Arm/Group Title: Herceptin    (F. Hoffmann-La Roche Ltd., Switzerland)	Results	12
+Arm/Group Description: In this arm patients will receive 6 courses of treatment with Herceptin in combination with paclitaxel. Patients will receive Herceptin at a loading dose of 8 mg/kg (once), followed by maintenance dose of 6 mg/kg every 3 weeks (5 administrations), + paclitaxel 175 mg/m2 every 3 weeks as 3 hour intravenous infusion (6 administrations).	Results	13
+paclitaxel	CHEBI:45863	115-125
+paclitaxel	CHEBI:45863	273-283
+hour	UO:0000032	313-317
+Overall Number of Participants Analyzed: 110	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  48  43.6%	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 8/113 (7.08%)	Adverse Events	1
+Febrile neutropenia [1]0/113 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Anemia with trombocytopenia  0/113 (0.00%)	Adverse Events	3
+anemia	HP:0001903,DOID:2355	0-6
+Neutropenia  1/113 (0.88%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Paroxism of atrial fibrillation  0/113 (0.00%)	Adverse Events	5
+atrial fibrillation	HP:0005110,DOID:0060224	12-31
+Ventricular extrasystolone RYAN-1  0/113 (0.00%)	Adverse Events	6
+Gastrointestinal hemorrhage  1/113 (0.88%)	Adverse Events	7
+gastrointestinal hemorrhage	HP:0002239	0-27
+Death for unknown reason  1/113 (0.88%)	Adverse Events	8
+death	OAE:0000632	0-5
+Diarrhea with vomiting and weakness  0/113 (0.00%)	Adverse Events	9
+diarrhea	HP:0002014,DOID:13250	0-8
+vomiting	HP:0002013	14-22
+Adverse Events 2:	Adverse Events	10
+Total: 13/110 (11.82%)	Adverse Events	11
+Febrile neutropenia [1]1/110 (0.91%)	Adverse Events	12
+neutropenia	HP:0001875,DOID:1227	8-19
+Anemia with trombocytopenia  1/110 (0.91%)	Adverse Events	13
+anemia	HP:0001903,DOID:2355	0-6
+Neutropenia  1/110 (0.91%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	0-11
+Paroxism of atrial fibrillation  2/110 (1.82%)	Adverse Events	15
+atrial fibrillation	HP:0005110,DOID:0060224	12-31
+Ventricular extrasystolone RYAN-1  1/110 (0.91%)	Adverse Events	16
+Gastrointestinal hemorrhage  0/110 (0.00%)	Adverse Events	17
+gastrointestinal hemorrhage	HP:0002239	0-27
+Death for unknown reason  1/110 (0.91%)	Adverse Events	18
+death	OAE:0000632	0-5
+Diarrhea with vomiting and weakness  1/110 (0.91%)	Adverse Events	19
+diarrhea	HP:0002014,DOID:13250	0-8
+vomiting	HP:0002013	14-22

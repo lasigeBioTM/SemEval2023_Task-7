@@ -1,0 +1,220 @@
+INTERVENTION 1:	Intervention	0
+Phase I: Dose Level 1 - Docetaxel 75 mg/m^2	Intervention	1
+Subjects receive gefitinib 250 mg orally daily, trastuzumab 6 mg/kg intravenously every 3 weeks (after an initial dose of 8 mg/kg with cycle 1), and docetaxel 75 mg/m^2 intravenously every 3 weeks.	Intervention	2
+gefitinib	CHEBI:49668	17-26
+INTERVENTION 2:	Intervention	3
+Phase I: Dose Level 2 - Docetaxel 60 mg/m^2	Intervention	4
+Subjects receive gefitinib 250 mg orally daily, trastuzumab 6 mg/kg intravenously every 3 weeks (after an initial dose of 8 mg/kg with cycle 1), and docetaxel 60 mg/m^2 intravenously every 3 weeks.	Intervention	5
+gefitinib	CHEBI:49668	17-26
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+Metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+HER-2/neu overexpression (3+ by immunohistochemistry OR 2+ by fluorescence in situ hybridization)	Eligibility	3
+immunohistochemistry	BAO:0000415	32-52
+Measurable or evaluable disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	24-31
+Hormone receptor status:	Eligibility	5
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	6
+PATIENT CHARACTERISTICS:	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	8
+age	PATO:0000011	0-3
+18 and over	Eligibility	9
+Sex	Eligibility	10
+Male or female	Eligibility	11
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status	Eligibility	12
+Not specified	Eligibility	13
+Performance status	Eligibility	14
+ECOG 0-2	Eligibility	15
+Life expectancy	Eligibility	16
+Not specified	Eligibility	17
+Hematopoietic	Eligibility	18
+Absolute granulocyte count  1,500/mm^3	Eligibility	19
+Platelet count  100,000/mm^3	Eligibility	20
+platelet count	CMO:0000029	0-14
+Hepatic	Eligibility	21
+AST and ALT < 2.5 times upper limit of normal (ULN) (5.0 times ULN in the presence of liver metastases)	Eligibility	22
+liver	UBERON:0002107	86-91
+Bilirubin < 1.5 times ULN	Eligibility	23
+No unstable or uncompensated hepatic disease	Eligibility	24
+disease	DOID:4,OGMS:0000031	37-44
+Renal	Eligibility	25
+Creatinine < 1.6 mg/dL	Eligibility	26
+creatinine	CHEBI:16737	0-10
+No unstable or uncompensated renal disease	Eligibility	27
+disease	DOID:4,OGMS:0000031	35-42
+Cardiovascular	Eligibility	28
+LVEF > 45% by echocardiogram or MUGA	Eligibility	29
+No prior New York Heart Association class I-IV heart disease	Eligibility	30
+heart	UBERON:0000948	18-23
+heart	UBERON:0000948	47-52
+heart disease	DOID:114	47-60
+No prolonged PR interval or atrioventricular block on ECG	Eligibility	31
+prolonged pr interval	HP:0012248	3-24
+atrioventricular block	HP:0001678,DOID:0050820	28-50
+No unstable or uncompensated cardiac disease	Eligibility	32
+disease	DOID:4,OGMS:0000031	37-44
+Pulmonary	Eligibility	33
+No unstable or uncompensated respiratory disease	Eligibility	34
+disease	DOID:4,OGMS:0000031	41-48
+No clinically active interstitial lung disease	Eligibility	35
+active	PATO:0002354	14-20
+interstitial lung disease	DOID:3082	21-46
+Patients who are asymptomatic and have chronic stable radiographic changes are allowed	Eligibility	36
+chronic	HP:0011010	39-46
+stable	HP:0031915	47-53
+Immunologic	Eligibility	37
+No autoimmune disorders	Eligibility	38
+No conditions of immunosuppression	Eligibility	39
+No severe hypersensitivity to taxane or gefitinib or any of its excipients	Eligibility	40
+severe	HP:0012828	3-9
+hypersensitivity	GO:0002524,DOID:1205	10-26
+taxane	CHEBI:36064	30-36
+gefitinib	CHEBI:49668	40-49
+Other	Eligibility	41
+Not pregnant or nursing	Eligibility	42
+Negative pregnancy test	Eligibility	43
+Fertile patients must use effective contraception	Eligibility	44
+No other prior or concurrent malignancy within the past 5 years except basal cell carcinoma or carcinoma in situ of the cervix	Eligibility	45
+basal cell carcinoma	HP:0002671,DOID:2513	71-91
+carcinoma	HP:0030731,DOID:305	82-91
+carcinoma	HP:0030731,DOID:305	95-104
+No other severe or uncontrolled systemic disease	Eligibility	46
+severe	HP:0012828	9-15
+disease	DOID:4,OGMS:0000031	41-48
+No other acute or chronic medical condition that would preclude study participation	Eligibility	47
+acute	HP:0011009,PATO:0000389	9-14
+chronic	HP:0011010	18-25
+condition	PDRO:0000129	34-43
+No other significant clinical disorder or laboratory finding that would preclude study participation	Eligibility	48
+disorder	OGMS:0000045	30-38
+laboratory finding	OGMS:0000018	42-60
+No psychiatric illness that would preclude study compliance	Eligibility	49
+PRIOR CONCURRENT THERAPY:	Eligibility	50
+Biologic therapy	Eligibility	51
+Prior adjuvant trastuzumab (Herceptin®) allowed if > 6 months elapsed before disease recurrence	Eligibility	52
+adjuvant	CHEBI:60809	6-14
+disease	DOID:4,OGMS:0000031	77-84
+No prior trastuzumab for metastatic breast cancer	Eligibility	53
+breast cancer	DOID:1612	36-49
+No prior monoclonal antibodies directed at the epidermal growth factor receptor (EGFR)	Eligibility	54
+monoclonal	BAO:0000503	9-19
+growth factor	BAO:0002024	57-70
+receptor	BAO:0000281	71-79
+Chemotherapy	Eligibility	55
+Prior adjuvant chemotherapy (or as first-line therapy for metastatic breast cancer) allowed	Eligibility	56
+adjuvant	CHEBI:60809	6-14
+breast cancer	DOID:1612	69-82
+Prior adjuvant taxane allowed if completed > 6 months before diagnosis of metastatic breast cancer	Eligibility	57
+adjuvant	CHEBI:60809	6-14
+taxane	CHEBI:36064	15-21
+breast cancer	DOID:1612	85-98
+No prior docetaxel for metastatic breast cancer	Eligibility	58
+breast cancer	DOID:1612	34-47
+Endocrine therapy	Eligibility	59
+Prior adjuvant hormonal therapy (or as first-line therapy for metastatic breast cancer) allowed	Eligibility	60
+adjuvant	CHEBI:60809	6-14
+breast cancer	DOID:1612	73-86
+No concurrent hormonal therapy	Eligibility	61
+Concurrent steroids allowed provided dose is stable	Eligibility	62
+stable	HP:0031915	45-51
+Radiotherapy	Eligibility	63
+radiotherapy	OAE:0000235	0-12
+Not specified	Eligibility	64
+Surgery	Eligibility	65
+surgery	OAE:0000067	0-7
+Fully recovered from prior oncologic or other major surgery	Eligibility	66
+surgery	OAE:0000067	52-59
+No concurrent surgery within 7 days of gefitinib administration	Eligibility	67
+surgery	OAE:0000067	14-21
+gefitinib	CHEBI:49668	39-48
+Other	Eligibility	68
+Recovered from prior anticancer therapy (alopecia allowed)	Eligibility	69
+alopecia	HP:0001596,DOID:987	41-49
+More than 30 days since prior non-approved drug or investigational agent	Eligibility	70
+drug	CHEBI:23888	43-47
+No other prior EGFR-directed therapy (i.e., tyrosine kinase inhibitors)	Eligibility	71
+tyrosine	CHEBI:18186	44-52
+kinase	BAO:0000294	53-59
+No concurrent use of any of the following medications:	Eligibility	72
+Phenytoin	Eligibility	73
+phenytoin	CHEBI:8107	0-9
+Carbamazepine	Eligibility	74
+carbamazepine	CHEBI:3387	0-13
+Barbiturates	Eligibility	75
+barbiturates	CHEBI:22693	0-12
+Rifampin	Eligibility	76
+Hypericum perforatum (St. John's wort)	Eligibility	77
+No other concurrent anticancer therapy	Eligibility	78
+No concurrent cardioprotective drugs	Eligibility	79
+No concurrent oral retinoids	Eligibility	80
+Concurrent participation in the City of Hope indium-labeled trastuzumab imaging study allowed	Eligibility	81
+Outcome Measurement:	Results	0
+Number of Participants With at Least One Dose Limiting Toxicity in Phase I	Results	1
+Dose Limiting Toxicity (DLT) defined as any treatment-related grade 3 or greater except for hematological toxicities which must be grade 4. Interstitial Lung Disease (ILD) related to treatment should be considered as a DLT regardless of the grade.	Results	2
+interstitial lung disease	DOID:3082	140-165
+Time frame: 4 weeks from start of treatment, up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase I: Dose Level 1 - Docetaxel 75 mg/m^2	Results	5
+Arm/Group Description: Subjects receive gefitinib 250 mg orally daily, trastuzumab 6 mg/kg intravenously every 3 weeks (after an initial dose of 8 mg/kg with cycle 1), and docetaxel 75 mg/m^2 intravenously every 3 weeks.	Results	6
+gefitinib	CHEBI:49668	40-49
+Overall Number of Participants Analyzed: 2	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants with DLTs  2	Results	9
+Results 2:	Results	10
+Arm/Group Title: Phase I: Dose Level 2 - Docetaxel 60 mg/m^2	Results	11
+Arm/Group Description: Subjects receive gefitinib 250 mg orally daily, trastuzumab 6 mg/kg intravenously every 3 weeks (after an initial dose of 8 mg/kg with cycle 1), and docetaxel 60 mg/m^2 intravenously every 3 weeks.	Results	12
+gefitinib	CHEBI:49668	40-49
+Overall Number of Participants Analyzed: 7	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants with DLTs  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 2/2 (100.00%)	Adverse Events	1
+Febrile neutropenia * 2/2 (100.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Haemorrhage NOS * 0/2 (0.00%)	Adverse Events	3
+Abdominal pain * 0/2 (0.00%)	Adverse Events	4
+abdominal pain	HP:0002027	0-14
+Diarrhea * 0/2 (0.00%)	Adverse Events	5
+diarrhea	HP:0002014,DOID:13250	0-8
+Melaena * 0/2 (0.00%)	Adverse Events	6
+Mucositis oral * 0/2 (0.00%)	Adverse Events	7
+mucositis	DOID:0080178	0-9
+Nausea * 0/2 (0.00%)	Adverse Events	8
+nausea	HP:0002018	0-6
+Vomiting * 0/2 (0.00%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Catheter related infection * 0/2 (0.00%)	Adverse Events	10
+Infection NOS * 0/2 (0.00%)	Adverse Events	11
+Leukopenia * 1/2 (50.00%)	Adverse Events	12
+leukopenia	HP:0001882,DOID:615	0-10
+Adverse Events 2:	Adverse Events	13
+Total: 7/29 (24.14%)	Adverse Events	14
+Febrile neutropenia * 1/29 (3.45%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Haemorrhage NOS * 1/29 (3.45%)	Adverse Events	16
+Abdominal pain * 1/29 (3.45%)	Adverse Events	17
+abdominal pain	HP:0002027	0-14
+Diarrhea * 2/29 (6.90%)	Adverse Events	18
+diarrhea	HP:0002014,DOID:13250	0-8
+Melaena * 1/29 (3.45%)	Adverse Events	19
+Mucositis oral * 1/29 (3.45%)	Adverse Events	20
+mucositis	DOID:0080178	0-9
+Nausea * 1/29 (3.45%)	Adverse Events	21
+nausea	HP:0002018	0-6
+Vomiting * 1/29 (3.45%)	Adverse Events	22
+vomiting	HP:0002013	0-8
+Catheter related infection * 1/29 (3.45%)	Adverse Events	23
+Infection NOS * 2/29 (6.90%)	Adverse Events	24
+Leukopenia * 0/29 (0.00%)	Adverse Events	25
+leukopenia	HP:0001882,DOID:615	0-10

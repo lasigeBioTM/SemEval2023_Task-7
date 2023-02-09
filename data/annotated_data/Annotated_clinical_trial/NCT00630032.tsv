@@ -1,0 +1,231 @@
+INTERVENTION 1:	Intervention	0
+Docetaxel	Intervention	1
+3 cycles of FEC100 (F and C, each at 500 mg/m², E 100 mg/m², every 3 weeks) followed by 3 cycles of D (100 mg/m² every 3 weeks)	Intervention	2
+f	UO:0000195	10-11
+f	UO:0000195	12-13
+f	UO:0000195	20-21
+f	UO:0000195	76-77
+f	UO:0000195	98-99
+Cyclophosphamide: 500 mg/m² every 3 weeks Docetaxel: 100 mg/m² every 3 weeks Epirubicin hydrochloride: 100 mg/m² every 3 weeks Fluorouracil: 500 mg/m² every 3 weeks	Intervention	3
+cyclophosphamide	CHEBI:4026	0-16
+hydrochloride	CHEBI:36807	88-101
+INTERVENTION 2:	Intervention	4
+Ixabepilone	Intervention	5
+ixabepilone	CHEBI:63605	0-11
+3 cycles of FEC100 (F and C, each at 500 mg/m², E 100 mg/m², every 3 weeks) followed by 3 cycles of Ixabepilone (40 mg/m² every 3 weeks);	Intervention	6
+f	UO:0000195	10-11
+f	UO:0000195	12-13
+f	UO:0000195	20-21
+f	UO:0000195	76-77
+f	UO:0000195	98-99
+ixabepilone	CHEBI:63605	100-111
+Cyclophosphamide: 500 mg/m² every 3 weeks Epirubicin hydrochloride: 100 mg/m² every 3 weeks Fluorouracil: 500 mg/m² every 3 weeks Ixabepilone: 40 mg/m² every 3 weeks	Intervention	7
+cyclophosphamide	CHEBI:4026	0-16
+hydrochloride	CHEBI:36807	53-66
+ixabepilone	CHEBI:63605	130-141
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Inclusion criteria:	Eligibility	1
+Histologically proven invasive unilateral breast cancer (regardless of the type)	Eligibility	2
+unilateral	HP:0012833	31-41
+breast cancer	DOID:1612	42-55
+Initial clinical condition compatible with complete initial resection	Eligibility	3
+condition	PDRO:0000129	17-26
+No residual macro or microscopic tumor after surgical excision	Eligibility	4
+Node-positive disease (i.e., positive sentinel node or positive axillary clearance) (N+) or node-negative disease (-) meeting the following criteria :	Eligibility	5
+disease	DOID:4,OGMS:0000031	14-21
+disease	DOID:4,OGMS:0000031	106-113
+Stage II or III disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	16-23
+pT >20 mm (T1-4)	Eligibility	7
+Patients must meet 1 of the following hormone-receptor criteria:	Eligibility	8
+Node-positive patients: triple-negative* tumor (HER2 negative, estrogen-receptor [ER] negative, and progesterone receptor [PR] negative) OR double-negative (HER2 negative, PR negative, and ER+)	Eligibility	9
+progesterone	CHEBI:17026	100-112
+receptor	BAO:0000281	72-80
+receptor	BAO:0000281	113-121
+Node-negative patients: triple-negative* tumor only	Eligibility	10
+NOTE: *Hormone-receptor negativity is defined as ER <10% and PR <10% by IHC and HER2 negativity is defined as IHC 0-1+ OR IHC 2+ and FISH or CISH negative	Eligibility	11
+Must be able to begin chemotherapy no later than day 49 after the initial surgery	Eligibility	12
+day	UO:0000033	49-52
+surgery	OAE:0000067	74-81
+Exclusion criteria:	Eligibility	13
+Clinically or radiologically detectable metastases (M0)	Eligibility	14
+Bilateral breast cancer or contralateral ductal carcinoma in situ	Eligibility	15
+bilateral breast cancer	DOID:6741	0-23
+ductal carcinoma in situ	HP:0030075,DOID:0060074	41-65
+Any metastatic impairment, including homolateral subclavicular node involvement, regardless of its type	Eligibility	16
+Any tumor T4a (cutaneous invasion, deep adherence, inflammatory breast cancer)	Eligibility	17
+breast cancer	DOID:1612	64-77
+HER 2 overexpression defined as IHC 3+ OR IHC 2+ and FISH or CISH positive	Eligibility	18
+Any clinically or radiologically suspect and non-explored damage to the contralateral breast	Eligibility	19
+breast	UBERON:0000310	86-92
+PATIENT CHARACTERISTICS:	Eligibility	20
+patient	HADO:0000008,OAE:0001817	0-7
+Inclusion criteria:	Eligibility	21
+Female	Eligibility	22
+female	PATO:0000383	0-6
+Pre- or postmenopausal	Eligibility	23
+ECOG performance status 0-1	Eligibility	24
+Peripheral neuropathy grade 1	Eligibility	25
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Neutrophil count 2,000/mm³	Eligibility	26
+Platelet count 100,000/mm³	Eligibility	27
+platelet count	CMO:0000029	0-14
+Hemoglobin >9 g/dL	Eligibility	28
+hemoglobin	CHEBI:35143	0-10
+AST and ALT 1.5 times upper limit of normal (ULN)	Eligibility	29
+Alkaline phosphatase 2.5 times ULN	Eligibility	30
+phosphatase	GO:0016791,BAO:0000295	9-20
+Total bilirubin 1.0 times ULN	Eligibility	31
+Serum creatinine 1.5 times ULN	Eligibility	32
+creatinine	CHEBI:16737	6-16
+LVEF 50% by MUGA scan or echocardiography	Eligibility	33
+Not pregnant or nursing	Eligibility	34
+Negative pregnancy test	Eligibility	35
+Fertile patients must use effective contraception during and for up to 8 weeks after completion of study treatment	Eligibility	36
+Exclusion criteria:	Eligibility	37
+Previous cancer (except cutaneous baso-cellular epithelioma or uterine peripheral epithelioma) in the preceding 5 years, including invasive contralateral breast cancer	Eligibility	38
+cancer	DOID:162	9-15
+cancer	DOID:162	161-167
+peripheral	HP:0030646	71-81
+breast cancer	DOID:1612	154-167
+Patients with any other concurrent severe and/or uncontrolled medical disease or infection that could compromise participation in the study	Eligibility	39
+severe	HP:0012828	35-41
+disease	DOID:4,OGMS:0000031	70-77
+Clinically significant cardiovascular disease within the past 6 months including any of the following:	Eligibility	40
+disease	DOID:4,OGMS:0000031	38-45
+Unstable angina	Eligibility	41
+Congestive heart failure	Eligibility	42
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Uncontrolled hypertension (i.e., blood pressure >150/90 mm Hg)	Eligibility	43
+hypertension	HP:0000822,DOID:10763	13-25
+blood	UBERON:0000178	33-38
+Myocardial infarction	Eligibility	44
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Cerebral vascular accidents	Eligibility	45
+Known prior severe hypersensitivity reactions to agents containing Cremophor EL	Eligibility	46
+severe	HP:0012828	12-18
+hypersensitivity	GO:0002524,DOID:1205	19-35
+Patients with any psychological, familial, sociological, or geographical condition potentially hampering compliance with the study protocol and follow-up schedule	Eligibility	47
+condition	PDRO:0000129	73-82
+Patients deprived of liberty or placed under the authority of a tutor	Eligibility	48
+PRIOR CONCURRENT THERAPY:	Eligibility	49
+At least 2 weeks since prior minor surgery (excluding breast biopsy) and adequately recovered	Eligibility	50
+surgery	OAE:0000067	35-42
+breast	UBERON:0000310	54-60
+At least 3 weeks since prior major surgery and adequately recovered	Eligibility	51
+surgery	OAE:0000067	35-42
+No prior chemotherapy, hormonal therapy, or radiotherapy	Eligibility	52
+radiotherapy	OAE:0000235	44-56
+More than 72 hours since prior and no concurrent treatment with any of the following strong inhibitors of CYP3A4:	Eligibility	53
+Amiodarone	Eligibility	54
+amiodarone	CHEBI:2663	0-10
+Clarithromycin	Eligibility	55
+clarithromycin	CHEBI:3732	0-14
+Amprenavir	Eligibility	56
+amprenavir	CHEBI:40050	0-10
+Delavirdine	Eligibility	57
+delavirdine	CHEBI:119573	0-11
+Voriconazole	Eligibility	58
+voriconazole	CHEBI:10023	0-12
+Erythromycin	Eligibility	59
+erythromycin	CHEBI:42355	0-12
+Fluconazole	Eligibility	60
+fluconazole	CHEBI:46081	0-11
+Itraconazole	Eligibility	61
+itraconazole	CHEBI:6076	0-12
+Ketoconazole	Eligibility	62
+ketoconazole	CHEBI:47519,BAO:0000796	0-12
+Indinavir	Eligibility	63
+indinavir	CHEBI:44032	0-9
+Nelfinavir	Eligibility	64
+nelfinavir	CHEBI:7496	0-10
+Ritonavir	Eligibility	65
+ritonavir	CHEBI:45409	0-9
+Saquinavir	Eligibility	66
+saquinavir	CHEBI:63621	0-10
+No concurrent participation in another therapeutic trial involving an experimental drug	Eligibility	67
+drug	CHEBI:23888	83-87
+Outcome Measurement:	Results	0
+Percentage of Participants With Disease-free Survival (DFS)	Results	1
+DFS is defined as the interval between the date of randomization and the date of breast cancer relapse (local, regional or distant) or the date of invasive contralateral breast cancer or death from any cause, whichever occurs first	Results	2
+breast cancer	DOID:1612	81-94
+breast cancer	DOID:1612	170-183
+death	OAE:0000632	187-192
+Time frame: At 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Docetaxel	Results	5
+Arm/Group Description: 3 cycles of FEC100 (F and C, each at 500 mg/m , E 100 mg/m , every 3 weeks) followed by 3 cycles of D (100 mg/m  every 3 weeks)	Results	6
+f	UO:0000195	33-34
+f	UO:0000195	35-36
+f	UO:0000195	43-44
+f	UO:0000195	99-100
+f	UO:0000195	121-122
+Cyclophosphamide: 500 mg/m  every 3 weeks Docetaxel: 100 mg/m  every 3 weeks Epirubicin hydrochloride: 100 mg/m  every 3 weeks Fluorouracil: 500 mg/m  every 3 weeks	Results	7
+cyclophosphamide	CHEBI:4026	0-16
+hydrochloride	CHEBI:36807	88-101
+Overall Number of Participants Analyzed: 398	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: Percentage of participants  78.97        (74.53 to 82.73)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Ixabepilone	Results	12
+ixabepilone	CHEBI:63605	17-28
+Arm/Group Description: 3 cycles of FEC100 (F and C, each at 500 mg/m , E 100 mg/m , every 3 weeks) followed by 3 cycles of Ixabepilone (40 mg/m  every 3 weeks);	Results	13
+f	UO:0000195	33-34
+f	UO:0000195	35-36
+f	UO:0000195	43-44
+f	UO:0000195	99-100
+f	UO:0000195	121-122
+ixabepilone	CHEBI:63605	123-134
+Cyclophosphamide: 500 mg/m  every 3 weeks Epirubicin hydrochloride: 100 mg/m  every 3 weeks Fluorouracil: 500 mg/m  every 3 weeks Ixabepilone: 40 mg/m  every 3 weeks	Results	14
+cyclophosphamide	CHEBI:4026	0-16
+hydrochloride	CHEBI:36807	53-66
+ixabepilone	CHEBI:63605	130-141
+Overall Number of Participants Analyzed: 364	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: Percentage of participants  83.37        (79.06 to 86.87)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 207/398 (52.01%)	Adverse Events	1
+Anemia 1/398 (0.25%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Aplasia bone marrow 1/398 (0.25%)	Adverse Events	3
+bone marrow	UBERON:0002371	8-19
+Febrile aplasia 1/398 (0.25%)	Adverse Events	4
+Febrile neutropenia 56/398 (14.07%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphocele 0/398 (0.00%)	Adverse Events	6
+lymphocele	DOID:4347	0-10
+Neutropenia 141/398 (35.43%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	0-11
+Auricular fibrillation 1/398 (0.25%)	Adverse Events	8
+Non ST segment elevation acute coronary syndrome 0/398 (0.00%)	Adverse Events	9
+st segment elevation	HP:0012251	4-24
+acute coronary syndrome	HP:0033678	25-48
+Tachycardia 1/398 (0.25%)	Adverse Events	10
+tachycardia	HP:0001649	0-11
+Ear disorder 0/398 (0.00%)	Adverse Events	11
+ear	UBERON:0001690	0-3
+disorder	OGMS:0000045	4-12
+Adverse Events 2:	Adverse Events	12
+Total: 158/364 (43.41%)	Adverse Events	13
+Anemia 2/364 (0.55%)	Adverse Events	14
+anemia	HP:0001903,DOID:2355	0-6
+Aplasia bone marrow 1/364 (0.27%)	Adverse Events	15
+bone marrow	UBERON:0002371	8-19
+Febrile aplasia 4/364 (1.10%)	Adverse Events	16
+Febrile neutropenia 27/364 (7.42%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphocele 1/364 (0.27%)	Adverse Events	18
+lymphocele	DOID:4347	0-10
+Neutropenia 95/364 (26.10%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Auricular fibrillation 0/364 (0.00%)	Adverse Events	20
+Non ST segment elevation acute coronary syndrome 1/364 (0.27%)	Adverse Events	21
+st segment elevation	HP:0012251	4-24
+acute coronary syndrome	HP:0033678	25-48
+Tachycardia 1/364 (0.27%)	Adverse Events	22
+tachycardia	HP:0001649	0-11
+Ear disorder 1/364 (0.27%)	Adverse Events	23
+ear	UBERON:0001690	0-3
+disorder	OGMS:0000045	4-12

@@ -1,0 +1,60 @@
+INTERVENTION 1:	Intervention	0
+Partial Breast Irradiation	Intervention	1
+breast	UBERON:0000310	8-14
+Partial Breast Irradiation using 40 Gy in 10 fractions over 2 weeks	Intervention	2
+breast	UBERON:0000310	8-14
+External Beam Partial-Breast Irradiation: 40 Gy in ten daily fractions over two weeks	Intervention	3
+Inclusion Criteria:	Eligibility	0
+Unicentric Stage I invasive ductal breast cancer or Grade I or II DCIS measuring less than or equal to 2cm on pathology and/or mammography	Eligibility	1
+breast cancer	DOID:1612	35-48
+Histologically negative tumor margin 2 mm or more from any inked edges, or no tumor in a re-excision specimen or final shaved specimen	Eligibility	2
+Clips must be placed in the lumpectomy cavity at the time of final excision in order to aid in the delineation of the tumor cavity at the time of simulation and radiation delivery	Eligibility	3
+time	PATO:0000165	53-57
+time	PATO:0000165	138-142
+Exclusion Criteria:	Eligibility	4
+No distant metastasis	Eligibility	5
+Not pregnant or breastfeeding	Eligibility	6
+No diffuse suspicious microcalcifications	Eligibility	7
+diffuse	HP:0020034	3-10
+No prior radiation therapy to the ipsilateral or contralateral breast or thorax	Eligibility	8
+breast	UBERON:0000310	63-69
+No histologic evidence of lymphovascular invasion (LVI)	Eligibility	9
+No histologic evidence of EIC	Eligibility	10
+No history of cosmetic or reconstructive breast surgery	Eligibility	11
+history	BFO:0000182	3-10
+cosmetic	CHEBI:64857	14-22
+breast	UBERON:0000310	41-47
+surgery	OAE:0000067	48-55
+No psychiatric illness that would prevent the patient from giving informed consent	Eligibility	12
+patient	HADO:0000008,OAE:0001817	46-53
+No medical conditions that, in the opinion of the treating physician would make this protocol unreasonably hazardous for the patient	Eligibility	13
+patient	HADO:0000008,OAE:0001817	125-132
+No other currently active second malignancy other than non-melanoma skin cancers	Eligibility	14
+active	PATO:0002354	19-25
+second	UO:0000010	26-32
+Outcome Measurement:	Results	0
+Safety of External-beam PBI Utilizing 40Gy in Ten Daily Fractions Over Two Weeks	Results	1
+The safety of external-beam PBI in selected stages 0 and I female breast cancer patients utilizing 40 Gy in ten daily fractions over two weeks. The study will be deemed too toxic if >10% of enrolled patients have at least one of the following outcomes within 24 months of completion of PBI.	Results	2
+female breast cancer	DOID:0050671	59-79
+Grade 3 or 4 skin/subcutaneous or pulmonary toxicity.	Results	3
+The development of clinical fat necrosis.	Results	4
+The development of rib fracture on the ipsilateral treated side, detected either clinically and/or radiographically.	Results	5
+The data is shown as the number of participants that experienced each of the specific toxicities.	Results	6
+Time frame: 2 years	Results	7
+time	PATO:0000165	0-4
+Results 1:	Results	8
+Arm/Group Title: Partial Breast Irradiation	Results	9
+breast	UBERON:0000310	25-31
+Arm/Group Description: Partial Breast Irradiation using 40 Gy in 10 fractions over 2 weeks	Results	10
+breast	UBERON:0000310	31-37
+External Beam Partial-Breast Irradiation: 40 Gy in ten daily fractions over two weeks	Results	11
+Overall Number of Participants Analyzed: 53	Results	12
+Measure Type: Count of Participants	Results	13
+Unit of Measure: Participants  Grade 3 or 4 Skin/ Subcutaneous toxicity: 0   0.0%	Results	14
+Grade 3 or 4 Pulmonary Toxicity: 0   0.0%	Results	15
+Fat Necrosis: 0   0.0%	Results	16
+Rib fractures on ipsilateral treated side: 0   0.0%	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 2/53 (3.77%)	Adverse Events	1
+Seroma 1/53 (1.89%)	Adverse Events	2
+Skin Infection  [1]1/53 (1.89%)	Adverse Events	3

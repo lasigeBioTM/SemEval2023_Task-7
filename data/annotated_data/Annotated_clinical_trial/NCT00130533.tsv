@@ -1,0 +1,202 @@
+INTERVENTION 1:	Intervention	0
+Xeloda (Capecitabine)	Intervention	1
+capecitabine	CHEBI:31348	8-20
+1000 mgrs/m2 twice a day, tablets, 8 cycles	Intervention	2
+day	UO:0000033	21-24
+Capecitabine	Intervention	3
+capecitabine	CHEBI:31348	0-12
+INTERVENTION 2:	Intervention	4
+Observation	Intervention	5
+Observation. No intervention.	Intervention	6
+Inclusion Criteria:	Eligibility	0
+Written informed consent.	Eligibility	1
+Histological diagnoses of operable invasive adenocarcinoma of the breast (T1-T3). Tumours must be HER2 negative. Time window between end of adjuvant chemotherapy and study randomization must be less than 8 weeks. In patients receiving adjuvant radiotherapy, time window allowed between last session and randomisation is 4 weeks.	Eligibility	2
+adenocarcinoma	DOID:299	44-58
+breast	UBERON:0000310	66-72
+time	PATO:0000165	113-117
+time	PATO:0000165	258-262
+adjuvant	CHEBI:60809	140-148
+adjuvant	CHEBI:60809	235-243
+radiotherapy	OAE:0000235	244-256
+Surgery must consist of mastectomy or conservative surgery with axillary lymph node dissection. Margins free of disease and ductal carcinoma in-situ (DCIS) are required. Lobular carcinoma is not considered a positive margin.	Eligibility	3
+surgery	OAE:0000067	0-7
+surgery	OAE:0000067	51-58
+lymph	UBERON:0002391	73-78
+disease	DOID:4,OGMS:0000031	112-119
+carcinoma	HP:0030731,DOID:305	131-140
+carcinoma	HP:0030731,DOID:305	178-187
+Node negative patients with tumour size > 2 cm.	Eligibility	4
+size	PATO:0000117	35-39
+Positive axillary lymph nodes defined as at least 1 out of 6 nodes with presence of disease. If sentinel node technique is used, sentinel node can be the only node affected. Patients belonging to the following classifications are eligible: pN1a (Metastases in 1-3 axillary lymph nodes, at least one metastasis greater than 2.0 mm), pN2a (Metastases in 4-9 axillary lymph nodes (at least one tumor deposit greater than 2 mm)), pN3a (Metastases in 10 or more axillary lymph nodes [at least one tumor deposit greater than 2 mm]; or metastases to the infraclavicular [level III axillary lymph] nodes).	Eligibility	5
+lymph	UBERON:0002391	18-23
+lymph	UBERON:0002391	273-278
+lymph	UBERON:0002391	365-370
+lymph	UBERON:0002391	466-471
+lymph	UBERON:0002391	583-588
+disease	DOID:4,OGMS:0000031	84-91
+affected	HP:0032320	164-172
+Status of hormone receptors in primary tumour. Negative results must be available before the end of adjuvant chemotherapy.	Eligibility	6
+hormone	CHEBI:24621	10-17
+adjuvant	CHEBI:60809	100-108
+Patients must not present evidence of metastatic disease.	Eligibility	7
+present	PATO:0000467	18-25
+disease	DOID:4,OGMS:0000031	49-56
+Negative status of HER2 in primary tumour, known before randomization.	Eligibility	8
+Adjuvant chemotherapy consisting of a minimum of 6 courses with anthracyclines and/or taxanes.	Eligibility	9
+adjuvant	CHEBI:60809	0-8
+Age >= 18 and <= 70 years old.	Eligibility	10
+age	PATO:0000011	0-3
+Performance status (Karnofsky index) >= 80.	Eligibility	11
+Laboratory results (within 14 days prior to randomization):	Eligibility	12
+Hematology:	Eligibility	13
+neutrophils >= 1.5 x 10e9/l;	Eligibility	14
+x	LABO:0000148	19-20
+platelets >= 100x 10e9/l;	Eligibility	15
+hemoglobin >= 10 mg/dl	Eligibility	16
+hemoglobin	CHEBI:35143	0-10
+Hepatic function:	Eligibility	17
+function	BAO:0003117,BFO:0000034	8-16
+total bilirubin <= 1 upper normal limit (UNL);	Eligibility	18
+Aspartate aminotransferase (AST or SGOT) and Alanine aminotransferase (ALT or SGPT) <= 2.5 UNL;	Eligibility	19
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	45-52
+alkaline phosphatase <= 2.5 UNL.	Eligibility	20
+phosphatase	GO:0016791,BAO:0000295	9-20
+If values of SGOT and SGPT > 1.5 UNL are associated to alkaline phosphatase > 2.5 UNL, patient is not eligible.	Eligibility	21
+phosphatase	GO:0016791,BAO:0000295	64-75
+patient	HADO:0000008,OAE:0001817	87-94
+Renal Function:	Eligibility	22
+function	BAO:0003117,BFO:0000034	6-14
+creatinine <= 175 µmol/l (2 mg/dl).	Eligibility	23
+creatinine	CHEBI:16737	0-10
+creatinine clearance >= 60 ml/min.	Eligibility	24
+creatinine clearance	CMO:0000765	0-20
+Pharmacogenetics:	Eligibility	25
+one blood sample is needed for single nucleotide polymorphism (SNP) assessment.	Eligibility	26
+blood	UBERON:0000178	4-9
+nucleotide	CHEBI:36976,BAO:0002010	38-48
+Patients able to comply with treatment and study follow-up.	Eligibility	27
+Negative pregnancy test done in the 14 previous days to randomization.	Eligibility	28
+Exclusion Criteria:	Eligibility	29
+Prior therapy with anthracyclines or taxanes (paclitaxel or docetaxel) for any malignancy.	Eligibility	30
+paclitaxel	CHEBI:45863	46-56
+Pregnant or lactating women. Adequate contraceptive methods must be used during chemotherapy and hormone therapy treatments. Negative pregnancy test in the 14 previous days to randomization.	Eligibility	31
+hormone	CHEBI:24621	97-104
+Bilateral invasive breast cancer.	Eligibility	32
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	19-32
+Any T4 or M1 tumour.	Eligibility	33
+m1	CHEBI:34826	10-12
+Axillary lymph nodes: patients belonging to the following classifications are excluded: pN1b (Metastases in internal mammary nodes with micrometastases or macrometastases detected by sentinel lymph node biopsy but not clinically detected), pN1c (Metastases in 1-3 axillary lymph nodes and in internal mammary lymph nodes with micrometastases or macrometastases detected by sentinel lymph node biopsy but not clinically detected), pN2b (Metastases in clinically detected internal mammary lymph nodes in the absence of axillary lymph node metastases), pN3b (Metastases in clinically detected ipsilateral internal mammary lymph nodes in the presence of one or more positive axillary lymph nodes; or in more than three axillary lymph nodes and in internal mammary lymph nodes with micrometastases or macrometastases detected by sentinel lymph node biopsy but not clinically detected), pN3c (Metastases in ipsilateral supraclavicular lymph nodes).	Eligibility	34
+lymph	UBERON:0002391	9-14
+lymph	UBERON:0002391	192-197
+lymph	UBERON:0002391	273-278
+lymph	UBERON:0002391	309-314
+lymph	UBERON:0002391	382-387
+lymph	UBERON:0002391	487-492
+lymph	UBERON:0002391	526-531
+lymph	UBERON:0002391	619-624
+lymph	UBERON:0002391	680-685
+lymph	UBERON:0002391	724-729
+lymph	UBERON:0002391	760-765
+lymph	UBERON:0002391	833-838
+lymph	UBERON:0002391	929-934
+excluded	HP:0040285	78-86
+Any other serious medical pathology, such as congestive heart failure, unstable angina, history of myocardial infarction during the previous year, uncontrolled hypertension or high risk arrhythmias.	Eligibility	35
+congestive heart failure	HP:0001635,DOID:6000	45-69
+history	BFO:0000182	88-95
+myocardial infarction	HP:0001658,DOID:5844	99-120
+year	UO:0000036	141-145
+hypertension	HP:0000822,DOID:10763	160-172
+History of neurological or psychiatric disorders, which could preclude the patients to free informed consent.	Eligibility	36
+history	BFO:0000182	0-7
+Active uncontrolled infection.	Eligibility	37
+active	PATO:0002354	0-6
+Active peptic ulcer, unstable diabetes mellitus.	Eligibility	38
+active	PATO:0002354	0-6
+peptic ulcer	HP:0004398	7-19
+diabetes mellitus	HP:0000819,DOID:9351	30-47
+Previous or current history of neoplasms different to breast cancer, except for skin carcinoma, cervical in situ carcinoma, or any other tumour curatively treated and without recurrence in the last 10 years; ductal in situ carcinoma in the same breast; lobular in situ carcinoma.	Eligibility	39
+history	BFO:0000182	20-27
+breast cancer	DOID:1612	54-67
+skin carcinoma	DOID:3451	80-94
+in situ carcinoma	DOID:8719	105-122
+in situ carcinoma	DOID:8719	215-232
+in situ carcinoma	DOID:8719	261-278
+breast	UBERON:0000310	54-60
+breast	UBERON:0000310	245-251
+History of hypersensitivity to capecitabine, fluorouracil.	Eligibility	40
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+capecitabine	CHEBI:31348	31-43
+Patients lacking physical integrity of upper gastrointestinal tract or with history of bad absorption syndrome.	Eligibility	41
+history	BFO:0000182	76-83
+syndrome	DOID:225	102-110
+History of dihydropyrimidine dehydrogenase (DPD) deficiency.	Eligibility	42
+history	BFO:0000182	0-7
+Anticoagulant treatment with coumadin anticoagulants.	Eligibility	43
+anticoagulant	CHEBI:50249	0-13
+anticoagulant	CHEBI:50249	38-51
+Current treatment with sorivudine or its chemical family.	Eligibility	44
+sorivudine	CHEBI:32152	23-33
+Concomitant treatment with other investigational products. Participation in other clinical trials with a non-marketed drug in the 30 previous days before randomization.	Eligibility	45
+drug	CHEBI:23888	118-122
+Concomitant treatment with other therapy for cancer.	Eligibility	46
+cancer	DOID:162	45-51
+Males.	Eligibility	47
+Outcome Measurement:	Results	0
+Disease Free Survival (DFS) Events	Results	1
+disease	DOID:4,OGMS:0000031	0-7
+DFS was measured from the date of randomization assignment in the intent to treat (ITT) population to loco-regional or distant recurrence, second primary malignancy or death date, whichever occurred first.	Results	2
+second	UO:0000010	139-145
+death	OAE:0000632	168-173
+Time frame: 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Xeloda (Capecitabine)	Results	5
+capecitabine	CHEBI:31348	25-37
+Arm/Group Description: 1000 mgrs/m2 twice a day, tablets, 8 cycles	Results	6
+day	UO:0000033	44-47
+Capecitabine	Results	7
+capecitabine	CHEBI:31348	0-12
+Overall Number of Participants Analyzed: 448	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  105  23.4%	Results	10
+Results 2:	Results	11
+Arm/Group Title: Observation	Results	12
+Arm/Group Description: Observation. No intervention.	Results	13
+Overall Number of Participants Analyzed: 428	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  120  28.0%	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 23/436 (5.28%)	Adverse Events	1
+Neutropenia G 3; Leucopenia G2 1/436 (0.23%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Hyperbilirrubinemia  [1]1/436 (0.23%)	Adverse Events	3
+Supraventricular arrhythmia NOS  [2]1/436 (0.23%)	Adverse Events	4
+supraventricular arrhythmia	HP:0005115	0-27
+Heart failure  [2]0/436 (0.00%)	Adverse Events	5
+heart	UBERON:0000948	0-5
+Infarction and cardiac arrest 0/436 (0.00%)	Adverse Events	6
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	15-29
+Ischemia cardiac/Infarction  [3]1/436 (0.23%)	Adverse Events	7
+ischemia	DOID:326	0-8
+Coronary vasospam  [3]1/436 (0.23%)	Adverse Events	8
+Gastroenteritis and renal insuficience 1/436 (0.23%)	Adverse Events	9
+gastroenteritis	DOID:2326	0-15
+Adverse Events 2:	Adverse Events	10
+Total: 6/425 (1.41%)	Adverse Events	11
+Neutropenia G 3; Leucopenia G2 0/425 (0.00%)	Adverse Events	12
+neutropenia	HP:0001875,DOID:1227	0-11
+Hyperbilirrubinemia  [1]0/425 (0.00%)	Adverse Events	13
+Supraventricular arrhythmia NOS  [2]0/425 (0.00%)	Adverse Events	14
+supraventricular arrhythmia	HP:0005115	0-27
+Heart failure  [2]1/425 (0.24%)	Adverse Events	15
+heart	UBERON:0000948	0-5
+Infarction and cardiac arrest 1/425 (0.24%)	Adverse Events	16
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	15-29
+Ischemia cardiac/Infarction  [3]0/425 (0.00%)	Adverse Events	17
+ischemia	DOID:326	0-8
+Coronary vasospam  [3]0/425 (0.00%)	Adverse Events	18
+Gastroenteritis and renal insuficience 0/425 (0.00%)	Adverse Events	19
+gastroenteritis	DOID:2326	0-15

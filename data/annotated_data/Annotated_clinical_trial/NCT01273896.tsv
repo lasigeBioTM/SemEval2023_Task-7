@@ -1,0 +1,165 @@
+INTERVENTION 1:	Intervention	0
+STA-9090	Intervention	1
+This will be a monotherapy, open-label phase 2 study of STA-9090 in patients who have metastatic breast cancer.	Intervention	2
+breast cancer	DOID:1612	97-110
+STA-9090: All patients will receive 200 mg/m2 of STA-9090 once weekly by a 1-hour IV infusion for three consecutive weeks followed by a 1 week dose-free interval. Subjects tolerating therapy may continue on study until disease progression.	Intervention	3
+week	UO:0000034	63-67
+week	UO:0000034	116-120
+week	UO:0000034	138-142
+disease	DOID:4,OGMS:0000031	219-226
+Inclusion Criteria:	Eligibility	0
+Male and Female patients must be at least 18 years of age	Eligibility	1
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	11-15
+female	PATO:0000383	9-15
+age	PATO:0000011	54-57
+Pathologically confirmed diagnosis of breast cancer	Eligibility	2
+breast cancer	DOID:1612	38-51
+Metastatic or advanced stage breast cancer	Eligibility	3
+breast cancer	DOID:1612	29-42
+Prior treatment with at least one and no more than three lines of biologic and/or chemotherapy for metastatic breast cancer (excluding hormonal therapy)	Eligibility	4
+breast cancer	DOID:1612	110-123
+Patients with HER2+ disease must have received prior treatment with Trastuzumab	Eligibility	5
+disease	DOID:4,OGMS:0000031	20-27
+Patients with ER and/or PR+ disease must have received prior treatment with hormonal therapy	Eligibility	6
+disease	DOID:4,OGMS:0000031	28-35
+Off cytotoxic chemotherapy or biologic therapy (excluding Hormonal therapy)  3 weeks	Eligibility	7
+Measurable disease by RECIST 1.1	Eligibility	8
+disease	DOID:4,OGMS:0000031	11-18
+Central nervous system metastases are permitted if treated and radiographically and clinically stable for at least 4 weeks prior to first dose of STA-9090	Eligibility	9
+central nervous system	UBERON:0001017	0-22
+stable	HP:0031915	95-101
+Eastern Cooperative Oncology Group (ECOG) Performance Status 0 or 1	Eligibility	10
+group	CHEBI:24433	29-34
+Life expectancy of at least 3 months	Eligibility	11
+Adequate hematologic function as defined by:	Eligibility	12
+function	BAO:0003117,BFO:0000034	21-29
+Absolute neutrophil count 1,500 cells/μL	Eligibility	13
+Platelets 100,000/μL	Eligibility	14
+Hemoglobin  9.0g/dL	Eligibility	15
+hemoglobin	CHEBI:35143	0-10
+Adequate hepatic function as defined by:	Eligibility	16
+function	BAO:0003117,BFO:0000034	17-25
+Serum bilirubin  1.5 X upper limit of normal (ULN);	Eligibility	17
+x	LABO:0000148	21-22
+Adequate renal function as defined by a serum creatinine  1.5 x ULN	Eligibility	18
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	46-56
+x	LABO:0000148	62-63
+AST, ALT, and alkaline phosphatase  3 × ULN except for:	Eligibility	19
+phosphatase	GO:0016791,BAO:0000295	23-34
+Patients with hepatic metastases: ALT and AST  5 × ULN	Eligibility	20
+Patients with hepatic and/or bone metastases: alkaline phosphatase  5 × ULN	Eligibility	21
+phosphatase	GO:0016791,BAO:0000295	55-66
+Patients with Gilbert's disease: serum bilirubin < 5 mg/dL	Eligibility	22
+disease	DOID:4,OGMS:0000031	24-31
+Willingness and ability to comply with scheduled visits, treatment plans, laboratory tests, and other study procedures	Eligibility	23
+Female subjects of childbearing potential and males must agree to use adequate contraception (e.g., hormonal or barrier method of birth control; abstinence) for the duration of study treatment	Eligibility	24
+female	PATO:0000383	0-6
+duration	PATO:0001309	165-173
+Female subjects of childbearing age must have a negative serum pregnancy test at study entry.	Eligibility	25
+female	PATO:0000383	0-6
+age	PATO:0000011	32-35
+Exclusion Criteria:	Eligibility	26
+Surgery, radiotherapy, or lesion ablative procedure to the only area of measurable disease	Eligibility	27
+surgery	OAE:0000067	0-7
+radiotherapy	OAE:0000235	9-21
+area	PATO:0001323	64-68
+disease	DOID:4,OGMS:0000031	83-90
+Major surgery within 4 weeks prior to first dose of STA-9090	Eligibility	28
+surgery	OAE:0000067	6-13
+Poor peripheral venous access for study drug administration. Study drug administration via indwelling catheters allowed only if the catheter is made of silicone material.	Eligibility	29
+peripheral	HP:0030646	5-15
+drug administration	OAE:0000011	40-59
+drug administration	OAE:0000011	67-86
+History of severe (grade 3 or 4) allergic or hypersensitivity reactions to excipients (e.g., Polyethylene glycol [PEG] 300 and Polysorbate 80)	Eligibility	30
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+hypersensitivity	GO:0002524,DOID:1205	45-61
+glycol	CHEBI:13643	106-112
+polysorbate 80	CHEBI:53426	127-141
+Baseline QTc > 470 msec	Eligibility	31
+Ventricular ejection fraction (EF) <50% at baseline	Eligibility	32
+ejection fraction	CMO:0000180	12-29
+Treatment with chronic immunosuppressants (e.g., cyclosporine following transplantation)	Eligibility	33
+chronic	HP:0011010	15-22
+Women who are pregnant or lactating	Eligibility	34
+Uncontrolled intercurrent illness including, but not limited to, human immunodeficiency virus (HIV)-positive subjects receiving combination antiretroviral therapy, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, ventricular arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	35
+immunodeficiency	HP:0002721	71-87
+virus	BAO:0000232	88-93
+active	PATO:0002354	175-181
+congestive heart failure	HP:0001635,DOID:6000	205-229
+angina pectoris	HP:0001681	240-255
+ventricular arrhythmia	HP:0004308	257-279
+Other medications, or severe acute/chronic medical or psychiatric condition, or laboratory abnormality that may increase the risk associated with study participation or study drug administration, or may interfere with the interpretation of study results in the judgment of the investigator	Eligibility	36
+severe	HP:0012828	22-28
+condition	PDRO:0000129	66-75
+increase	BAO:0001251	112-120
+drug administration	OAE:0000011	175-194
+Seizure disorder or requirement for seizure medication	Eligibility	37
+seizure	HP:0001250	0-7
+seizure	HP:0001250	36-43
+disorder	OGMS:0000045	8-16
+Prior treatment with an HSP90 inhibitor	Eligibility	38
+hsp90 inhibitor	CHEBI:63962	24-39
+persistent adverse events of prior therapies that are > 1 grade 1 in severity	Eligibility	39
+severity	HP:0012824	69-77
+history of or current coronary artery disease, myocardial infarction, angina pectoris, angioplasty or coronary bypass surgery	Eligibility	40
+history	BFO:0000182	0-7
+coronary artery disease	DOID:3393	22-45
+myocardial infarction	HP:0001658,DOID:5844	47-68
+angina pectoris	HP:0001681	70-85
+surgery	OAE:0000067	118-125
+history of or current uncontrolled dysrhythmias, or requirement for antiarrhythmic medications, or Grade 2 or greater left bundle branch block	Eligibility	41
+history	BFO:0000182	0-7
+left bundle branch block	HP:0011713	118-142
+New York Heart Association class II/III/IV congestive heart failure with a history of dyspnea, orthopnea, or edema that requires current treatment with angiotensin converting enzyme inhibitors, angiotensin II receptor blockers, beta blockers or diuretics	Eligibility	42
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	54-59
+congestive heart failure	HP:0001635,DOID:6000	43-67
+history	BFO:0000182	75-82
+dyspnea	HP:0002094	86-93
+orthopnea	HP:0012764	95-104
+edema	HP:0000969	109-114
+angiotensin	CHEBI:48433	152-163
+angiotensin	CHEBI:48433	194-205
+enzyme	BAO:0000279	175-181
+angiotensin ii	CHEBI:48432,BAO:0000848	194-208
+receptor	BAO:0000281	209-217
+Outcome Measurement:	Results	0
+Overall Response Rate	Results	1
+rate	BAO:0080019	17-21
+To determine the overall response rate using RECIST v 1.1 criteria, defined as PR +CR.using RECIST v 1.1 criteria, defined as Partial response + complete response	Results	2
+rate	BAO:0080019	34-38
+Time frame: Radiological imaging studies to evaluate tumor status will be repeated during the rest week (Days 22 to 28) of every third cycle	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	99-103
+Results 1:	Results	4
+Arm/Group Title: STA-9090	Results	5
+Arm/Group Description: This will be a monotherapy, open-label phase 2 study of STA-9090 in patients who have metastatic breast cancer.	Results	6
+breast cancer	DOID:1612	120-133
+STA-9090: All patients will receive 200 mg/m2 of STA-9090 once weekly by a 1-hour IV infusion for three consecutive weeks followed by a 1 week dose-free interval. Subjects tolerating therapy may continue on study until disease progression.	Results	7
+week	UO:0000034	63-67
+week	UO:0000034	116-120
+week	UO:0000034	138-142
+disease	DOID:4,OGMS:0000031	219-226
+Overall Number of Participants Analyzed: 20	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  20	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 6/22 (27.27%)	Adverse Events	1
+Cardiac General, other1/22 (4.55%)	Adverse Events	2
+Pain - Abdomen NOS1/22 (4.55%)	Adverse Events	3
+pain	HP:0012531	0-4
+abdomen	UBERON:0000916	7-14
+Death not assoc w CTCAE term- Death NOS1/22 (4.55%)	Adverse Events	4
+death	OAE:0000632	0-5
+death	OAE:0000632	30-35
+Death not assoc w CTCAE term-Disease prog NOS1/22 (4.55%)	Adverse Events	5
+death	OAE:0000632	0-5
+Liver dysfunction/failure1/22 (4.55%)	Adverse Events	6
+liver	UBERON:0002107	0-5
+Sodium, low (hyponatremia)1/22 (4.55%)	Adverse Events	7
+hyponatremia	HP:0002902	13-25
+Dyspnea (shortness of breath)2/22 (9.09%)	Adverse Events	8
+dyspnea	HP:0002094	0-7

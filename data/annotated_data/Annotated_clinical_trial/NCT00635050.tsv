@@ -1,0 +1,187 @@
+INTERVENTION 1:	Intervention	0
+Doxil, Paclitaxel, Cyclophosphamide + Avastin	Intervention	1
+paclitaxel	CHEBI:45863	7-17
+cyclophosphamide	CHEBI:4026	19-35
+Two stage phase II single arm trial to evaluate the pathologic complete response rate to sequential dose dense chemotherapy using Doxil, paclitaxel and cyclophosphamide with concurrent Avastin in patients with advanced invasive breast cancer.	Intervention	2
+rate	BAO:0080019	81-85
+paclitaxel	CHEBI:45863	137-147
+cyclophosphamide	CHEBI:4026	152-168
+breast cancer	DOID:1612	228-241
+Regimen A: Doxil 25 mg/M2 iv and Avastin 10 mg/kg iv every 2 weeks x 3, then paclitaxel 175 mg/M2 i.v. and Avastin 10 mg/kg iv every 2 weeks x 3, then cyclophosphamide 600 mg/M2 i.v. and Avastin 10 mg/kg iv every 2 weeks x 3 . Patients who experience <pCR to primary chemotherapy will receive an additional year of Avastin 15 mg/kg iv every 3 weeks, beginning 6-8 weeks after operation.	Intervention	3
+x	LABO:0000148	13-14
+x	LABO:0000148	67-68
+x	LABO:0000148	84-85
+x	LABO:0000148	141-142
+x	LABO:0000148	221-222
+x	LABO:0000148	241-242
+paclitaxel	CHEBI:45863	77-87
+cyclophosphamide	CHEBI:4026	151-167
+year	UO:0000036	307-311
+Regimen B: Identical to Regimen A except that the Doxil dose was 30 mg/M2 iv every 2 weeks x 3.	Intervention	4
+x	LABO:0000148	35-36
+x	LABO:0000148	52-53
+x	LABO:0000148	91-92
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed, measurable, invasive breast carcinoma T >2cm, Nany, M0.	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	47-63
+Patients with node-negative, ER or PR-positive tumors 4 cm in size whose tumors are low risk (defined as a score of 0-17) on an Oncotype DX profile are not eligible.	Eligibility	2
+size	PATO:0000117	62-66
+19 years of age or greater	Eligibility	3
+age	PATO:0000011	12-15
+Known ER, PR and HER-2 status (FISH assay to be done on specimens with 2+ or 3+ immunohistochemical staining for HER-2): patients with gene amplification on FISH study will be considered to be HER-2 positive. Patients for this study must be FISH negative if immunohistochemical stain is 2+ or 3+ positive; patients with negative, 0 or 1+ immunohistochemical stain for HER-2 are eligible.	Eligibility	4
+gene	BAO:0000582	135-139
+Known axillary nodal status: aspiration cytology or biopsy	Eligibility	5
+aspiration	HP:0002835	29-39
+Documented menopausal status premenopausal (having menstrual periods or FSH <35) or postmenopausal (  12 months since last menstrual period with intact uterus and at least one ovary or FSH 35 or previous bilateral oophorectomy	Eligibility	6
+uterus	UBERON:0000995	152-158
+ovary	UBERON:0000992	176-181
+bilateral	HP:0012832	204-213
+Non-pregnant if premenopausal (negative serum or urine pregnancy test within 7 days of starting chemotherapy) and not breast feeding	Eligibility	7
+urine	UBERON:0001088	49-54
+breast	UBERON:0000310	118-124
+Patients with reproductive potential must use an adequate contraceptive method (e.g., abstinence, intrauterine device, barrier device with spermicide or surgical sterilization) during treatment and for three months after completing treatment.	Eligibility	8
+Life expectancy of less than 12 weeks	Eligibility	9
+Current, recent (within 4 weeks of the first infusion of this study), or planned participation in an experimental drug study other than a Genentech-sponsored Avastin cancer study	Eligibility	10
+drug	CHEBI:23888	114-118
+cancer	DOID:162	166-172
+Pregnant or lactating women.	Eligibility	11
+History of cardiac disease, with New York Heart Association Grade II or greater or clinical evidence of congestive heart failure.	Eligibility	12
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	19-26
+heart	UBERON:0000948	42-47
+heart	UBERON:0000948	115-120
+congestive heart failure	HP:0001635,DOID:6000	104-128
+Serious comorbid medical conditions which would impair the ability to receive chemotherapy on time	Eligibility	13
+time	PATO:0000165	94-98
+Previous invasive cancer within the last 5 years	Eligibility	14
+cancer	DOID:162	18-24
+Altered mental status or dementia which would interfere with understanding of informed consent and ability to comply with study and follow-up procedures.	Eligibility	15
+dementia	HP:0000726,DOID:1307	25-33
+Hypersensitivity to Doxil, doxorubicin, cyclophosphamide, cremophore (contained in teniposide, cyclosporine, and vitamin K), or to any component of Avastin	Eligibility	16
+hypersensitivity	GO:0002524,DOID:1205	0-16
+doxorubicin	CHEBI:28748,BAO:0000639	27-38
+cyclophosphamide	CHEBI:4026	40-56
+teniposide	CHEBI:75988	83-93
+vitamin k	CHEBI:28384	113-122
+Inadequately controlled hypertension (defined as blood pressure of >150/100 mmHg on antihypertensive medication)	Eligibility	17
+hypertension	HP:0000822,DOID:10763	24-36
+blood	UBERON:0000178	49-54
+Unstable angina pectoris	Eligibility	18
+angina pectoris	HP:0001681	9-24
+History of myocardial infarction or unstable angina within 12 months prior to beginning therapy	Eligibility	19
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+History of stroke or TIA at any time	Eligibility	20
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+time	PATO:0000165	32-36
+Clinically significant vascular (e.g., aortic aneurysm requiring surgical repair or recent peripheral arterial thrombosis, aortic dissection) or peripheral vascular disease with 6 months prior to beginning therapy	Eligibility	21
+aortic aneurysm	HP:0004942,DOID:3627	39-54
+peripheral	HP:0030646	91-101
+peripheral	HP:0030646	145-155
+arterial thrombosis	HP:0004420	102-121
+aortic dissection	HP:0002647,DOID:0080685	123-140
+peripheral vascular disease	DOID:341	145-172
+History of hemoptysis (greater than or equal to 1/2 teaspoon of bright red blood per episode) within 1 month prior to beginning therapy	Eligibility	22
+history	BFO:0000182	0-7
+hemoptysis	HP:0002105	11-21
+blood	UBERON:0000178	75-80
+month	UO:0000035	103-108
+Evidence of bleeding diathesis or significant coagulopathy (in the absence of therapeutic anticoagulation)	Eligibility	23
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to beginning therapy or anticipation of need for major surgical procedure during the course of the study	Eligibility	24
+Patients must have a 2-d echocardiogram indicating an ejection fraction of > 50% within 42 days prior to first dose of study drug. The method used at baseline must be used for later monitoring.	Eligibility	25
+ejection fraction	CMO:0000180	54-71
+drug	CHEBI:23888	125-129
+No distant metastases on bone scan and on CT scans of chest and abdomen (no metastasis on optional PET scan is an acceptable alternative; if PET scan is done for any reason it must show no evidence of distant metastasis). Baseline PET scan is recommended but not required for all patients.	Eligibility	26
+ct	BAO:0002125	42-44
+chest	UBERON:0001443	54-59
+abdomen	UBERON:0000916	64-71
+No CNS metastasis	Eligibility	27
+Hbg 9 gm, platelets 100,000, granulocytes 1000, total or direct bilirubin 1.2, creatinine 2.0 and urine protein:creatinine ratio <1.0	Eligibility	28
+creatinine	CHEBI:16737	79-89
+creatinine	CHEBI:16737	112-122
+urine	UBERON:0001088	98-103
+protein	CHEBI:36080,BAO:0000175	104-111
+ratio	UO:0000190	123-128
+No prior chemotherapy or radiotherapy and 4 weeks of prior antiestrogen or aromatase inhibitor therapy	Eligibility	29
+radiotherapy	OAE:0000235	25-37
+inhibitor	CHEBI:35222	85-94
+No concomitant hormone replacement (i.e. estrogen or progestin) therapy	Eligibility	30
+hormone	CHEBI:24621	15-22
+estrogen	CHEBI:50114,BAO:0000760	41-49
+progestin	CHEBI:59826	53-62
+PS less than or equal to one	Eligibility	31
+Exclusion Criteria:	Eligibility	32
+Minor surgical procedure (excluding placement of a vascular access device) such as fine needle aspiration or core needle biopsy within 7 days of beginning therapy	Eligibility	33
+aspiration	HP:0002835	95-105
+Urine protein:creatinine ratio 1.0 at initial screening	Eligibility	34
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	14-24
+ratio	UO:0000190	25-30
+Known hypersensitivity to any component of Avastin	Eligibility	35
+hypersensitivity	GO:0002524,DOID:1205	6-22
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months of beginning therapy	Eligibility	36
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+Serious, non-healing wound, active ulcer, or untreated bone fracture	Eligibility	37
+active	PATO:0002354	28-34
+ulcer	OAE:0004372	35-40
+bone fracture	HP:0020110	55-68
+Any prior history of hypertensive crisis or hypertensive encephalopathy	Eligibility	38
+history	BFO:0000182	10-17
+hypertensive crisis	HP:0100735	21-40
+hypertensive encephalopathy	DOID:9427	44-71
+Known CNS metastasis, except for treated brain metastasis. Treated brain metastases are defined as having no evidence of progression or hemorrhage after treatment and no ongoing requirement for dexamethasone, as ascertained by clinical examination and brain imaging (MRI or CT) during the screening period. Anticonvulsants (stable dose) are allowed. Treatment for brain metastases may include whole brain radiotherapy (WBRT), radiosurgery (RS; Gamma Knife, LINAC, or equivalent) or a combination as deemed appropriate by the treating physician. Patients with CNS metastases treated by neurosurgical resection or brain biopsy performed within 3 months prior to Day 1 will be excluded.	Eligibility	39
+brain	UBERON:0000955	41-46
+brain	UBERON:0000955	67-72
+brain	UBERON:0000955	252-257
+brain	UBERON:0000955	364-369
+brain	UBERON:0000955	399-404
+brain	UBERON:0000955	612-617
+dexamethasone	CHEBI:41879	194-207
+ct	BAO:0002125	274-276
+ct	BAO:0002125	603-605
+stable	HP:0031915	324-330
+radiotherapy	OAE:0000235	405-417
+day	UO:0000033	660-663
+excluded	HP:0040285	674-682
+Outcome Measurement:	Results	0
+Rate of Achievement of Pathological Complete Response (pCR)	Results	1
+rate	BAO:0080019	0-4
+Results of the pathologic evaluation of the surgical specimen(s) from operation (segmental or total mastectomy) will be used to report the overall complete pathological response rate. Criteria used were those described by Kaufmann et al, Journal of Clinical Oncology 2003; 21(13):2600-2608. The definition of pCR used from this source was absence of invasive cancer in both resected breast tissue and in resected axillary nodes.	Results	2
+rate	BAO:0080019	178-182
+cancer	DOID:162	359-365
+breast	UBERON:0000310	383-389
+tissue	UBERON:0000479	390-396
+Time frame: After completion of at least 8 of the 9 chemotherapy doses and operation.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Doxil, Paclitaxel, Cyclophosphamide + Avastin	Results	5
+paclitaxel	CHEBI:45863	24-34
+cyclophosphamide	CHEBI:4026	36-52
+Arm/Group Description: Two stage phase II single arm trial to evaluate the pathologic complete response rate to sequential dose dense chemotherapy using Doxil, paclitaxel and cyclophosphamide with concurrent Avastin in patients with advanced invasive breast cancer.	Results	6
+rate	BAO:0080019	104-108
+paclitaxel	CHEBI:45863	160-170
+cyclophosphamide	CHEBI:4026	175-191
+breast cancer	DOID:1612	251-264
+Regimen A: Doxil 25 mg/M2 iv and Avastin 10 mg/kg iv every 2 weeks x 3, then paclitaxel 175 mg/M2 i.v. and Avastin 10 mg/kg iv every 2 weeks x 3, then cyclophosphamide 600 mg/M2 i.v. and Avastin 10 mg/kg iv every 2 weeks x 3 . Patients who experience <pCR to primary chemotherapy will receive an additional year of Avastin 15 mg/kg iv every 3 weeks, beginning 6-8 weeks after operation.	Results	7
+x	LABO:0000148	13-14
+x	LABO:0000148	67-68
+x	LABO:0000148	84-85
+x	LABO:0000148	141-142
+x	LABO:0000148	221-222
+x	LABO:0000148	241-242
+paclitaxel	CHEBI:45863	77-87
+cyclophosphamide	CHEBI:4026	151-167
+year	UO:0000036	307-311
+Regimen B: Identical to Regimen A except that the Doxil dose was 30 mg/M2 iv every 2 weeks x 3.	Results	8
+x	LABO:0000148	35-36
+x	LABO:0000148	52-53
+x	LABO:0000148	91-92
+Overall Number of Participants Analyzed: 32	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: pathology specimens from participants  9	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 1/32 (3.13%)	Adverse Events	1
+hospitalization [1]1/32 (3.13%)	Adverse Events	2

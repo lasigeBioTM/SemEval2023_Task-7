@@ -1,0 +1,194 @@
+INTERVENTION 1:	Intervention	0
+Tx (Chemo, MoAb, and Enzyme Inhibitor)	Intervention	1
+enzyme inhibitor	CHEBI:23924	21-37
+INDUCTION THERAPY: Patients receive paclitaxel albumin-stabilized nanoparticle formulation IV on days 1, 8, and 15 and bevacizumab IV over 30-90 minutes on days 1 and 15. Treatment repeats every 28 days for 6 courses in the absence of disease progression or unacceptable toxicity.	Intervention	2
+paclitaxel	CHEBI:45863	36-46
+nanoparticle	CHEBI:50803	66-78
+disease	DOID:4,OGMS:0000031	235-242
+MAINTENANCE THERAPY: Patients achieving complete response, partial response, or stable disease after completion of induction therapy will receive bevacizumab IV over 30-90 minutes once every 14 or 21 days and erlotinib hydrochloride PO QD in the absence of disease progression or unacceptable toxicity.	Intervention	3
+stable	HP:0031915	80-86
+disease	DOID:4,OGMS:0000031	87-94
+disease	DOID:4,OGMS:0000031	257-264
+erlotinib hydrochloride	CHEBI:53509	209-232
+paclitaxel albumin-stabilized nanoparticle formulation: Given IV	Intervention	4
+paclitaxel	CHEBI:45863	0-10
+nanoparticle	CHEBI:50803	30-42
+bevacizumab: Given IV	Intervention	5
+erlotinib hydrochloride: Given PO	Intervention	6
+erlotinib hydrochloride	CHEBI:53509	0-23
+Inclusion Criteria:	Eligibility	0
+Have histologically confirmed invasive breast cancer that is estrogen receptor (ER) negative (=< 10%), progesterone receptor (PR) negative (=< 10%) and human epidermal growth factor receptor 2 (HER2) normal (=< 10% of cells) by immunohistochemistry (IHC) or fluorescence in situ hybridization (FISH)	Eligibility	1
+breast cancer	DOID:1612	39-52
+estrogen	CHEBI:50114,BAO:0000760	61-69
+receptor	BAO:0000281	70-78
+receptor	BAO:0000281	116-124
+receptor	BAO:0000281	182-190
+progesterone	CHEBI:17026	103-115
+growth factor	BAO:0002024	168-181
+immunohistochemistry	BAO:0000415	228-248
+Be receiving first-line therapy for metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	47-54
+Measurable disease by Response Evaluation Criteria In Solid Tumors (RECIST) criteria; X-rays, scans or physical examinations used for tumor measurement must have been completed within 28 days prior to registration; X-rays, scans or other tests for assessment of non-measurable disease must have been performed within 42 days prior to registration	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	277-284
+tumor measurement	CMO:0000341	134-151
+OR non-measurable disease only, with rising serum cancer antigen (CA)15-3 or CA 27.29 or carcinoembryonic antigen (CEA) documented by two consecutive measurements taken at least 14 days apart with the most recent measurement being within 42 days prior to registration; the second CA 15-3 or CA 27.29 or CEA value must have at least a 20% increase over the first and for CA 15-3 or CA 27.29 be greater than or equal to 40 units/mL or for CEA be greater than or equal to 4 ng/mL	Eligibility	4
+disease	DOID:4,OGMS:0000031	18-25
+cancer	DOID:162	50-56
+antigen	CHEBI:59132	57-64
+antigen	CHEBI:59132	106-113
+second	UO:0000010	273-279
+increase	BAO:0001251	338-346
+Subjects with brain metastases as their first site of disease recurrence may be eligible if treated by definitive radiation (stereotactic radiosurgery or whole brain) with clinically controlled neurologic symptoms for a period of 21 days prior to study treatment	Eligibility	5
+brain	UBERON:0000955	14-19
+brain	UBERON:0000955	160-165
+site	BFO:0000029	46-50
+disease	DOID:4,OGMS:0000031	54-61
+Bilirubin =< 1.5 mg/dL	Eligibility	6
+Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) =< 2.5 X upper limit of normal, unless bone metastasis is present in the absence of liver metastasis	Eligibility	7
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+x	LABO:0000148	75-76
+present	PATO:0000467	126-133
+liver	UBERON:0002107	152-157
+Alkaline phosphatase =< 2.5 X upper limit of normal, unless bone metastasis is present in the absence of liver metastasis	Eligibility	8
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	28-29
+present	PATO:0000467	79-86
+liver	UBERON:0002107	105-110
+Platelets > 100,000 cells/mm^3	Eligibility	9
+Hemoglobin > 9.0 g/dL	Eligibility	10
+hemoglobin	CHEBI:35143	0-10
+Absolute neutrophil count (ANC) >= 1,500 cells/mm^3	Eligibility	11
+Creatinine =< 1.5 mg/dL is recommended; however, institutional norms are acceptable	Eligibility	12
+creatinine	CHEBI:16737	0-10
+If of childbearing potential must have a negative pregnancy test and use an effective method to avoid pregnancy for the duration of the trial and for at least 6 months after completion of study therapy	Eligibility	13
+duration	PATO:0001309	120-128
+Pre-existing peripheral neuropathy, if present, must be < grade 2 (per Common Terminology Criteria for Adverse Events [CTCAE] version 3.0)	Eligibility	14
+peripheral neuropathy	HP:0009830,DOID:870	13-34
+present	PATO:0000467	39-46
+Patients must be informed of the investigational nature of this study and must sign and give informed consent in accordance with institutional standards and federal guidelines	Eligibility	15
+Exclusion Criteria:	Eligibility	16
+Recurrent disease within 12 months after completion of adjuvant chemotherapy containing a weekly taxane	Eligibility	17
+recurrent	HP:0031796	0-9
+disease	DOID:4,OGMS:0000031	10-17
+adjuvant	CHEBI:60809	55-63
+taxane	CHEBI:36064	97-103
+Central nervous system (CNS) metastases that are symptomatic and/or requiring steroids	Eligibility	18
+central nervous system	UBERON:0001017	0-22
+Pre-existing nephritic syndrome	Eligibility	19
+syndrome	DOID:225	23-31
+Serious intercurrent medical or psychiatric illness including serious active infection	Eligibility	20
+active	PATO:0002354	70-76
+Inadequately controlled hypertension (defined as systolic blood pressure > 150 and/or diastolic blood pressure > 100 mmHg on antihypertensive medications)	Eligibility	21
+hypertension	HP:0000822,DOID:10763	24-36
+systolic blood pressure	CMO:0000004	49-72
+diastolic blood pressure	CMO:0000005	86-110
+Any prior history of hypertensive crisis or hypertensive encephalopathy	Eligibility	22
+history	BFO:0000182	10-17
+hypertensive crisis	HP:0100735	21-40
+hypertensive encephalopathy	DOID:9427	44-71
+New York Heart Association (NYHA) grade II or greater congestive heart failure	Eligibility	23
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	65-70
+congestive heart failure	HP:0001635,DOID:6000	54-78
+History of myocardial infarction or unstable angina within 6 months prior to study enrollment	Eligibility	24
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+History of stroke or transient ischemic attack within 6 months prior to study enrollment	Eligibility	25
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+transient ischemic attack	HP:0002326,DOID:224	21-46
+Significant vascular disease (e.g., aortic aneurysm, aortic dissection)	Eligibility	26
+vascular disease	DOID:178	12-28
+aortic aneurysm	HP:0004942,DOID:3627	36-51
+aortic dissection	HP:0002647,DOID:0080685	53-70
+Symptomatic peripheral vascular disease	Eligibility	27
+peripheral vascular disease	DOID:341	12-39
+Evidence of bleeding diathesis or coagulopathy	Eligibility	28
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to study enrollment or anticipation of need for major surgical procedure during the course of the study	Eligibility	29
+Core biopsy or other minor surgical procedure, excluding placement of a vascular access device, within 7 days prior to study enrollment	Eligibility	30
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to study enrollment	Eligibility	31
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+Serious, non-healing wound, ulcer, or bone fracture	Eligibility	32
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+Proteinuria at screening as demonstrated by either:	Eligibility	33
+proteinuria	HP:0000093,DOID:576	0-11
+Urine protein:creatinine (UPC) ratio >= 1.0 at screening OR	Eligibility	34
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	14-24
+upc	CHEBI:165829	26-29
+ratio	UO:0000190	31-36
+Urine dipstick for proteinuria > 2+ (patients discovered to have > 2+ proteinuria on dipstick urinalysis at baseline must have a UPC ratio done that is < 1.0 to be eligible; if the UPC ratio is >= 1.0 then the patient should undergo a 24-hour urine collection which must demonstrate =< 1 g of protein in 24 hours for the patient to be eligible)	Eligibility	35
+urine	UBERON:0001088	0-5
+urine	UBERON:0001088	243-248
+proteinuria	HP:0000093,DOID:576	19-30
+proteinuria	HP:0000093,DOID:576	70-81
+upc	CHEBI:165829	129-132
+upc	CHEBI:165829	181-184
+ratio	UO:0000190	133-138
+ratio	UO:0000190	185-190
+patient	HADO:0000008,OAE:0001817	37-44
+patient	HADO:0000008,OAE:0001817	210-217
+patient	HADO:0000008,OAE:0001817	321-328
+protein	CHEBI:36080,BAO:0000175	19-26
+protein	CHEBI:36080,BAO:0000175	70-77
+protein	CHEBI:36080,BAO:0000175	293-300
+Known hypersensitivity to any component of bevacizumab or to nab-paclitaxel (paclitaxel albumin-stabilized nanoparticle formulation)	Eligibility	36
+hypersensitivity	GO:0002524,DOID:1205	6-22
+paclitaxel	CHEBI:45863	65-75
+paclitaxel	CHEBI:45863	77-87
+nanoparticle	CHEBI:50803	107-119
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS)	Results	1
+Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions. Kaplan-Meier survival curves will be used. A 95% confidence interval for the median PFS will be calculated. A lower bound greater than 8 months would be strong evidence that Nab-Paclitaxel- bevacizumab induction therapy followed by bevacizumab-erlotinib hydrochloride maintenance therapy is superior to paclitaxel and bevacizumab. However, a median PFS of 13 months or greater (regardless of whether the 95% confidence interval for the median extends below 8 months) could also indicate promising results.	Results	2
+increase	BAO:0001251	107-115
+increase	BAO:0001251	186-194
+diameter	PATO:0001334	142-150
+target	BAO:0003064	154-160
+target	BAO:0003064	204-210
+median	BAO:0002174	330-336
+median	BAO:0002174	595-601
+median	BAO:0002174	689-695
+lower bound	LABO:0000120	363-374
+hydrochloride	CHEBI:36807	507-520
+paclitaxel	CHEBI:45863	431-441
+paclitaxel	CHEBI:45863	556-566
+Time frame: Time from date of registration to date of first documentation of progression or symptomatic deterioration or death due to any cause, assessed up to 8 years	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	12-16
+death	OAE:0000632	121-126
+Results 1:	Results	4
+Arm/Group Title: Tx (Chemo, MoAb, and Enzyme Inhibitor)	Results	5
+enzyme inhibitor	CHEBI:23924	38-54
+Arm/Group Description: INDUCTION THERAPY: Patients receive paclitaxel albumin-stabilized nanoparticle formulation IV on days 1, 8, and 15 and bevacizumab IV over 30-90 minutes on days 1 and 15. Treatment repeats every 28 days for 6 courses in the absence of disease progression or unacceptable toxicity.	Results	6
+paclitaxel	CHEBI:45863	59-69
+nanoparticle	CHEBI:50803	89-101
+disease	DOID:4,OGMS:0000031	258-265
+MAINTENANCE THERAPY: Patients achieving complete response, partial response, or stable disease after completion of induction therapy will receive bevacizumab IV over 30-90 minutes once every 14 or 21 days and erlotinib hydrochloride PO QD in the absence of disease progression or unacceptable toxicity.	Results	7
+stable	HP:0031915	80-86
+disease	DOID:4,OGMS:0000031	87-94
+disease	DOID:4,OGMS:0000031	257-264
+erlotinib hydrochloride	CHEBI:53509	209-232
+paclitaxel albumin-stabilized nanoparticle formulation: Given IV	Results	8
+paclitaxel	CHEBI:45863	0-10
+nanoparticle	CHEBI:50803	30-42
+bevacizumab: Given IV	Results	9
+erlotinib hydrochloride: Given PO	Results	10
+erlotinib hydrochloride	CHEBI:53509	0-23
+Overall Number of Participants Analyzed: 55	Results	11
+Median (95% Confidence Interval)	Results	12
+median	BAO:0002174	0-6
+Unit of Measure: Months  9.1        (7.2 to 11.1)	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 5/55 (9.09%)	Adverse Events	1
+Infection 2/55 (3.64%)	Adverse Events	2
+Pain * 1/55 (1.82%)	Adverse Events	3
+pain	HP:0012531	0-4
+Muscle Weakness * 1/55 (1.82%)	Adverse Events	4
+muscle weakness	HP:0001324	0-15
+Dyspnea 1/55 (1.82%)	Adverse Events	5
+dyspnea	HP:0002094	0-7

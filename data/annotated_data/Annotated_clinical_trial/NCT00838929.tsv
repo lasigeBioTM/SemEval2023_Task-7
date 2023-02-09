@@ -1,0 +1,272 @@
+INTERVENTION 1:	Intervention	0
+Vorinostat and Radiation - All Participants	Intervention	1
+vorinostat	CHEBI:45716	0-10
+Patients will be treated on a dose escalation model for vorinostat and concurrently receive radiation therapy.	Intervention	2
+vorinostat	CHEBI:45716	56-66
+Vorinostat : All doses given for 3 weeks	Intervention	3
+vorinostat	CHEBI:45716	0-10
+Dose level -2 - 50 mg PO qd (to be used in de-escalation if toxicity occurs) Dose level -1 - 100 mg PO qd (to be used in de-escalation if toxicity occurs) Dose level I - 200 mg PO qd (initial starting dose) Dose level II - 300 mg PO qd Dose level III - 400 mg PO qd	Intervention	4
+Radiation Therapy : Patients will take Vorinostat daily during radiation therapy, they will be recommended to swallow the capsule 60-90 minutes prior to estimate time of radiation.	Intervention	5
+vorinostat	CHEBI:45716	39-49
+capsule	GO:0042603	122-129
+time	PATO:0000165	162-166
+Inclusion Criteria:	Eligibility	0
+Patients requiring a 3 week course of fractionated whole brain radiation therapy for brain metastases.	Eligibility	1
+week	UO:0000034	23-27
+brain	UBERON:0000955	57-62
+brain	UBERON:0000955	85-90
+Age > or = 18	Eligibility	2
+age	PATO:0000011	0-3
+Histological or cytological diagnosis of a malignancy.	Eligibility	3
+Patients who have only 1-3 metastases are frequently treated with stereotactic radiation. Nonetheless, if the treating physician decides that whole brain radiotherapy is the appropriate treatment such patients would be eligible to enroll upon in the study.	Eligibility	4
+brain	UBERON:0000955	148-153
+radiotherapy	OAE:0000235	154-166
+Radiographic evidence of brain metastasis.	Eligibility	5
+brain	UBERON:0000955	25-30
+Measurable disease preferred but not required for eligibility	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+Patient must have performance status of < or = 2 on the ECOG Performance Scale.	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+Life expectancy of > or = 3 months	Eligibility	8
+Resolution of all acute toxic effects of prior chemotherapy or radiotherapy or surgical procedures to NCI CTCAE Version 3.0 grade < or = 1.	Eligibility	9
+acute	HP:0011009,PATO:0000389	18-23
+radiotherapy	OAE:0000235	63-75
+Adequate organ function as defined by the following criteria:	Eligibility	10
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Serum aspartate transaminase (AST; serum glutamic oxaloacetic transaminase [SGOT]) and serum alanine transaminase (ALT; serum glutamic pyruvic transaminase [SGPT]) < or = 2.5 x local laboratory upper limit of normal (ULN), or AST and ALT < or = 5 x ULN if liver function abnormalities are due to underlying malignancy	Eligibility	11
+aspartate	CHEBI:29995	6-15
+alanine	CHEBI:16449	93-100
+x	LABO:0000148	51-52
+x	LABO:0000148	175-176
+x	LABO:0000148	247-248
+liver	UBERON:0002107	256-261
+function	BAO:0003117,BFO:0000034	262-270
+Total serum bilirubin < or = 1.5 x ULN	Eligibility	12
+x	LABO:0000148	33-34
+Absolute neutrophil count (ANC) > or = 1500/µL	Eligibility	13
+Platelets > or = 100,000/µL	Eligibility	14
+Hemoglobin > or = 9.0 g/dL	Eligibility	15
+hemoglobin	CHEBI:35143	0-10
+Serum calcium < or = 12.0 mg/dL	Eligibility	16
+calcium	CHEBI:22984,BAO:0000874	6-13
+Serum creatinine < or = 1.5 x ULN	Eligibility	17
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	28-29
+Potassium level within normal limits.	Eligibility	18
+Magnesium level within normal limits.	Eligibility	19
+Female patient of childbearing potential has a negative serum pregnancy test β-hCG within 72 hours prior to receiving the first dose of Vorinostat .	Eligibility	20
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+vorinostat	CHEBI:45716	136-146
+Female patient is either post menopausal, free from menses for > or = 2 years, surgically sterilized, or willing to use 2 adequate barrier methods of contraception to prevent pregnancy, starting with Visit 1.	Eligibility	21
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+Male patient agrees to use an adequate method of contraception for the duration of the study.	Eligibility	22
+male	CHEBI:30780,PATO:0000384	0-4
+patient	HADO:0000008,OAE:0001817	5-12
+duration	PATO:0001309	71-79
+Ability to understand and the willingness to sign a written informed consent. A signed informed consent must be obtained prior to any study specific procedures.	Eligibility	23
+INR < 1.5 or a PT/PTT within normal limits. Patients receiving anti-coagulation treatment with an agent such as warfarin or heparin may be allowed to participate. For patients on warfarin, the INR should be measured prior to initiation of Vorinostat and monitored at least weekly, or as defined by the local standard of care, until INR is stable.	Eligibility	24
+warfarin	CHEBI:10033	112-120
+warfarin	CHEBI:10033	179-187
+heparin	CHEBI:28304	124-131
+vorinostat	CHEBI:45716	239-249
+stable	HP:0031915	339-345
+Patient is available for study related assessments, and management at the treating institution, for the duration of the study.	Eligibility	25
+patient	HADO:0000008,OAE:0001817	0-7
+duration	PATO:0001309	104-112
+Exclusion Criteria:	Eligibility	26
+Previous cranial irradiation (whether whole or partial brain, single fraction or multiple fractions) within the previous six months.	Eligibility	27
+brain	UBERON:0000955	55-60
+Patient who has had chemotherapy within 21 days, non-cranial radiotherapy within 10 days, or who has not recovered from adverse events due to agents administered more than 30 days earlier.	Eligibility	28
+patient	HADO:0000008,OAE:0001817	0-7
+radiotherapy	OAE:0000235	61-73
+Patient is currently participating or has participated in a study with an investigational compound or device within 14 days of initial dosing with study drug(s).	Eligibility	29
+patient	HADO:0000008,OAE:0001817	0-7
+drug	CHEBI:23888	153-157
+Patient has had prior treatment with an HDAC inhibitor (e.g., romidepsin (Depsipeptide), NSC-630176, MS 275, LAQ-824, belinostat (PXD-101), LBH589, MGCD0103, CRA024781, etc). Patients who have received compounds with HDAC inhibitor-like activity, such as valproic acid, as anti-tumor therapy should not enroll in this study. Patients who have received such compounds for other indications, e.g. valproic acid for epilepsy, may enroll after a 30-day washout period under neurological supervision.	Eligibility	30
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	175-182
+patient	HADO:0000008,OAE:0001817	325-332
+inhibitor	CHEBI:35222	45-54
+inhibitor	CHEBI:35222	222-231
+romidepsin	CHEBI:61080	62-72
+depsipeptide	CHEBI:23643	74-86
+belinostat	CHEBI:61076	118-128
+valproic acid	CHEBI:39867	255-268
+valproic acid	CHEBI:39867	395-408
+epilepsy	DOID:1826	413-421
+Patients with markedly elevated intracranial pressure.	Eligibility	31
+Cardiac disease: Congestive heart failure > class II NYHA. Patients must not have unstable angina (anginal symptoms at rest) or new onset angina (began within the last 3 months) or myocardial infarction within the past 6 months.	Eligibility	32
+disease	DOID:4,OGMS:0000031	8-15
+congestive heart failure	HP:0001635,DOID:6000	17-41
+onset	HP:0003674	132-137
+myocardial infarction	HP:0001658,DOID:5844	181-202
+Cardiac ventricular arrhythmias requiring anti-arrhythmic therapy.	Eligibility	33
+An extended QTc interval on baseline EKG examination. Normal values: male < 430ms, female <450 ms.	Eligibility	34
+qtc interval	CMO:0000269	12-24
+male	CHEBI:30780,PATO:0000384	69-73
+male	CHEBI:30780,PATO:0000384	85-89
+female	PATO:0000383	83-89
+Concomitant use of medications known to extend the QTc interval: Quinidine, Procainamide, Disopyramide, Dofetilide, Ibutilide, Sotalol, Amiodarone, Bepridil, Cisapride, Macrolides, Erythromycin, Clarithromycin, Fluoroquinolones, Sparfloxacin, Antiprotozoals, Pentamidine, Antimalarials, Halofantrine, Chloroquine, Phenothiazine neuroleptics, Thioridazine, Chlorpromazine, Mesoridazine, Butyrophenone neuroleptics, Droperidol, Haloperidol, Diphenylpiperidine neuroleptics, Pimozide, Arsenic trioxide, Methadone, Cesium, Licorice, Zhigancao	Eligibility	35
+qtc interval	CMO:0000269	51-63
+quinidine	CHEBI:28593,BAO:0000797	65-74
+procainamide	CHEBI:8428	76-88
+disopyramide	CHEBI:4657	90-102
+dofetilide	CHEBI:4681	104-114
+ibutilide	CHEBI:5856	116-125
+sotalol	CHEBI:63622	127-134
+amiodarone	CHEBI:2663	136-146
+bepridil	CHEBI:3061	148-156
+cisapride	CHEBI:3720	158-167
+erythromycin	CHEBI:42355	181-193
+clarithromycin	CHEBI:3732	195-209
+sparfloxacin	CHEBI:9212	229-241
+pentamidine	CHEBI:45081	259-270
+halofantrine	CHEBI:5612	287-299
+chloroquine	CHEBI:3638	301-312
+phenothiazine	CHEBI:37931	314-327
+thioridazine	CHEBI:9566	342-354
+chlorpromazine	CHEBI:3647	356-370
+mesoridazine	CHEBI:6780	372-384
+droperidol	CHEBI:4717	414-424
+haloperidol	CHEBI:5613	426-437
+pimozide	CHEBI:8212	472-480
+methadone	CHEBI:6807	500-509
+Uncontrolled hypertension defined as systolic blood pressure > 150 mmHg or diastolic pressure > 90 mmHg, despite optimal medical management.	Eligibility	36
+hypertension	HP:0000822,DOID:10763	13-25
+systolic blood pressure	CMO:0000004	37-60
+Known human immunodeficiency virus (HIV) infection or chronic Hepatitis B or C.	Eligibility	37
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+chronic hepatitis	HP:0200123,DOID:2237	54-71
+hepatitis b	DOID:2043	62-73
+Active clinically serious infection > CTCAE Grade 2	Eligibility	38
+active	PATO:0002354	0-6
+NCI CTCAE grade 3 hemorrhage within 4 weeks of starting the study treatment.	Eligibility	39
+Thrombolic or embolic events such as a cerebrovascular accident including transient ischemic attacks within the past 6 months.	Eligibility	40
+transient	HP:0025153	74-83
+Pulmonary hemorrhage/bleeding event > or = CTCAE Grade 2 within 4 weeks of first dose of study drug.	Eligibility	41
+drug	CHEBI:23888	95-99
+Serious non-healing wound, ulcer, or bone fracture.	Eligibility	42
+ulcer	OAE:0004372	27-32
+bone fracture	HP:0020110	37-50
+Evidence or history of bleeding diathesis or coagulopathy	Eligibility	43
+history	BFO:0000182	12-19
+Major surgery, open biopsy or significant traumatic injury within 4 weeks of first study drug.	Eligibility	44
+surgery	OAE:0000067	6-13
+drug	CHEBI:23888	89-93
+Use of St. John's Wort or rifampin (rifampicin).	Eligibility	45
+rifampicin	CHEBI:71365	36-46
+Any condition that impairs patient's ability to swallow whole pills.	Eligibility	46
+condition	PDRO:0000129	4-13
+patient	HADO:0000008,OAE:0001817	27-34
+Any malabsorption problem.	Eligibility	47
+malabsorption	HP:0002024	4-17
+Pregnancy or breastfeeding. Female subjects must be surgically sterile or be postmenopausal, or must agree to use effective contraception during the period of therapy. All female subjects with reproductive potential must have a negative pregnancy test (serum or urine) prior to enrollment. Male subjects must be surgically sterile or must agree to use effective contraception during the period of therapy. The definition of effective contraception will be based on the judgment of the principal investigator or a designated associate.	Eligibility	48
+female	PATO:0000383	28-34
+female	PATO:0000383	172-178
+urine	UBERON:0001088	262-267
+male	CHEBI:30780,PATO:0000384	30-34
+male	CHEBI:30780,PATO:0000384	174-178
+male	CHEBI:30780,PATO:0000384	290-294
+Other severe acute or chronic medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or study drug administration, or may interfere with the interpretation of study results, and in the judgment of the investigator would make the subject inappropriate for entry into this study.	Eligibility	49
+severe	HP:0012828	6-12
+acute	HP:0011009,PATO:0000389	13-18
+chronic	HP:0011010	22-29
+condition	PDRO:0000129	53-62
+increase	BAO:0001251	98-106
+drug administration	OAE:0000011	161-180
+Documented history of cranial hemorrhage	Eligibility	50
+history	BFO:0000182	11-18
+Patient has an active infection or has received intravenous antibiotics, antiviral, or antifungal agents within 2 weeks prior to the start of the study drug.	Eligibility	51
+patient	HADO:0000008,OAE:0001817	0-7
+active	PATO:0002354	15-21
+drug	CHEBI:23888	152-156
+Patient has uncontrolled inter-current illness or circumstances that could limit compliance with the study, including, but not limited to the following: active infection, acute or chronic graft versus host disease, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric conditions.	Eligibility	52
+patient	HADO:0000008,OAE:0001817	0-7
+active	PATO:0002354	153-159
+acute	HP:0011009,PATO:0000389	171-176
+chronic	HP:0011010	180-187
+disease	DOID:4,OGMS:0000031	206-213
+congestive heart failure	HP:0001635,DOID:6000	227-251
+angina pectoris	HP:0001681	262-277
+arrhythmia	HP:0011675	287-297
+Patient has a history or current evidence of any condition, therapy, or lab abnormality that might confound the results of the study, interfere with the patient's participation for the full duration of the study or is not in the best interest of the patient to participate.	Eligibility	53
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	153-160
+patient	HADO:0000008,OAE:0001817	250-257
+history	BFO:0000182	14-21
+condition	PDRO:0000129	49-58
+duration	PATO:0001309	190-198
+Patient has a history of a gastrointestinal surgery or other procedures that might, in the opinion of the investigator, interfere with the absorption or swallowing of the study drugs.	Eligibility	54
+patient	HADO:0000008,OAE:0001817	0-7
+history	BFO:0000182	14-21
+surgery	OAE:0000067	44-51
+Patient has known hypersensitivity to the components of study drug or its analogs.	Eligibility	55
+patient	HADO:0000008,OAE:0001817	0-7
+hypersensitivity	GO:0002524,DOID:1205	18-34
+drug	CHEBI:23888	62-66
+Patient has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial.	Eligibility	56
+patient	HADO:0000008,OAE:0001817	0-7
+substance abuse	DOID:302	33-48
+Patient is, at the time of signing informed consent, a regular user (including "recreational use") of any illicit drugs, substance abuse or had a recent history (within the last year) of drug or alcohol abuse.	Eligibility	57
+patient	HADO:0000008,OAE:0001817	0-7
+time	PATO:0000165	19-23
+substance abuse	DOID:302	121-136
+history	BFO:0000182	153-160
+year	UO:0000036	178-182
+drug	CHEBI:23888	114-118
+drug	CHEBI:23888	187-191
+alcohol	CHEBI:16236	195-202
+Patient is pregnant or breast feeding, or expecting to conceive or father children within the projected duration of the study.	Eligibility	58
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	23-29
+duration	PATO:0001309	104-112
+Outcome Measurement:	Results	0
+Maximum Tolerated Dose (MTD) and Recommended Phase II Dose (RP2D) of Vorinostat and Radiotherapy in Patients With Brain Metastases.	Results	1
+mtd	BAO:0001248	24-27
+vorinostat	CHEBI:45716	69-79
+radiotherapy	OAE:0000235	84-96
+brain	UBERON:0000955	114-119
+To determine the maximum tolerated dose (MTD) and recommended phase II dose (RP2D) of Vorinostat and radiotherapy in patients with brain metastases.	Results	2
+mtd	BAO:0001248	41-44
+vorinostat	CHEBI:45716	86-96
+radiotherapy	OAE:0000235	101-113
+brain	UBERON:0000955	131-136
+The maximum tolerated dose (MTD) will be one dose below the DLT occurring in at least 1 out of 3 subjects.	Results	3
+mtd	BAO:0001248	28-31
+Dose level -2: 50 mg PO qd (to be used in de-escalation if toxicity occurs) Dose level -1: 100 mg PO qd (to be used in de-escalation if toxicity occurs) Dose level I: 200 mg PO qd (initial starting dose) Dose level II: 300 mg PO qd Dose level III: 400 mg PO qd	Results	4
+Time frame: Weekly during treatment On Last day of treatment (30 days after last drug dose) Follow-up (every 3 months)	Results	5
+time	PATO:0000165	0-4
+day	UO:0000033	44-47
+day	UO:0000033	65-68
+drug	CHEBI:23888	81-85
+Results 1:	Results	6
+Arm/Group Title: Vorinostat and Radiation - All Participants	Results	7
+vorinostat	CHEBI:45716	17-27
+Arm/Group Description: Patients will be treated on a dose escalation model for vorinostat and concurrently receive radiation therapy.	Results	8
+vorinostat	CHEBI:45716	79-89
+Vorinostat : All doses given for 3 weeks	Results	9
+vorinostat	CHEBI:45716	0-10
+Dose level -2 - 50 mg PO qd (to be used in de-escalation if toxicity occurs) Dose level -1 - 100 mg PO qd (to be used in de-escalation if toxicity occurs) Dose level I - 200 mg PO qd (initial starting dose) Dose level II - 300 mg PO qd Dose level III - 400 mg PO qd	Results	10
+Radiation Therapy : Patients will take Vorinostat daily during radiation therapy, they will be recommended to swallow the capsule 60-90 minutes prior to estimate time of radiation.	Results	11
+vorinostat	CHEBI:45716	39-49
+capsule	GO:0042603	122-129
+time	PATO:0000165	162-166
+Overall Number of Participants Analyzed: 13	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: mg  300	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 1/3 (33.33%)	Adverse Events	1
+Increase in amylase  1/3 (33.33%)	Adverse Events	2
+increase	BAO:0001251	0-8
+Death [1]0/3 (0.00%)	Adverse Events	3
+death	OAE:0000632	0-5
+Renal failure *0/3 (0.00%)	Adverse Events	4
+Ulceration - Grade 30/3 (0.00%)	Adverse Events	5
+Pulmonary embolism  0/3 (0.00%)	Adverse Events	6
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+Hypotension  0/3 (0.00%)	Adverse Events	7
+hypotension	HP:0002615	0-11

@@ -1,0 +1,142 @@
+INTERVENTION 1:	Intervention	0
+Neratinib + Paclitaxel	Intervention	1
+neratinib	CHEBI:61397	0-9
+paclitaxel	CHEBI:45863	12-22
+Neratinib + Paclitaxel	Intervention	2
+neratinib	CHEBI:61397	0-9
+paclitaxel	CHEBI:45863	12-22
+Neratinib: Neratinib - 240 mg orally daily, administered once daily. Treatment will be administered until documented disease progression, symptomatic deterioration, unacceptable toxicity, death or withdrawal of consent.	Intervention	3
+neratinib	CHEBI:61397	0-9
+neratinib	CHEBI:61397	11-20
+disease	DOID:4,OGMS:0000031	117-124
+death	OAE:0000632	188-193
+Paclitaxel: Paclitaxel - 80 mg/m2 IV administered on days 1, 8, and 15 of a 28-day cycle. Treatment will be administered until documented disease progression, symptomatic deterioration, unacceptable toxicity, death or withdrawal of consent.	Intervention	4
+paclitaxel	CHEBI:45863	0-10
+paclitaxel	CHEBI:45863	12-22
+disease	DOID:4,OGMS:0000031	138-145
+death	OAE:0000632	209-214
+INTERVENTION 2:	Intervention	5
+Trastuzumab + Paclitaxel	Intervention	6
+paclitaxel	CHEBI:45863	14-24
+Trastuzumab + Paclitaxel	Intervention	7
+paclitaxel	CHEBI:45863	14-24
+Trastuzumab: Trastuzumab - 4 mg/kg IV initial loading dose followed by subsequent once weekly doses of 2 mg/kg IV. Treatment will be administered until documented disease progression, symptomatic deterioration, unacceptable toxicity, death or withdrawal of consent.	Intervention	8
+disease	DOID:4,OGMS:0000031	163-170
+death	OAE:0000632	234-239
+Paclitaxel: Paclitaxel - 80 mg/m2 IV administered on days 1, 8, and 15 of a 28-day cycle. Treatment will be administered until documented disease progression, symptomatic deterioration, unacceptable toxicity, death or withdrawal of consent.	Intervention	9
+paclitaxel	CHEBI:45863	0-10
+paclitaxel	CHEBI:45863	12-22
+disease	DOID:4,OGMS:0000031	138-145
+death	OAE:0000632	209-214
+Inclusion Criteria:	Eligibility	0
+ErbB-2 positive locally recurrent or metastatic breast cancer	Eligibility	1
+recurrent	HP:0031796	24-33
+breast cancer	DOID:1612	48-61
+Eastern Cooperative Oncology Group (ECOG) 0-2	Eligibility	2
+group	CHEBI:24433	29-34
+Measurable disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+Availability of tumor tissue for HER2 status confirmation	Eligibility	4
+tissue	UBERON:0000479	22-28
+Exclusion Criteria:	Eligibility	5
+Prior systemic anti-cancer therapy other than endocrine therapy for locally recurrent or metastatic disease	Eligibility	6
+recurrent	HP:0031796	76-85
+disease	DOID:4,OGMS:0000031	100-107
+Prior erbB-2 inhibitor other than trastuzumab or lapatinib in the neoadjuvant or adjuvant setting	Eligibility	7
+inhibitor	CHEBI:35222	13-22
+lapatinib	CHEBI:49603	49-58
+adjuvant	CHEBI:60809	69-77
+adjuvant	CHEBI:60809	81-89
+Progression/recurrence within 12 months after completion of adjuvant or neoadjuvant therapy	Eligibility	8
+adjuvant	CHEBI:60809	60-68
+adjuvant	CHEBI:60809	75-83
+History of heart disease	Eligibility	9
+history	BFO:0000182	0-7
+heart disease	DOID:114	11-24
+History of gastrointestinal disease	Eligibility	10
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	28-35
+Outcome Measurement:	Results	0
+Progression-Free Survival	Results	1
+Defined as the interval from the date of randomization until the first date on which recurrence or progression, or death due to any cause, is documented, censored at the last assessable evaluation or at the initiation of new anticancer therapy.	Results	2
+death	OAE:0000632	115-120
+Time frame: From randomization to disease progression or death, assessed up to 5.3 years	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	34-41
+death	OAE:0000632	57-62
+Results 1:	Results	4
+Arm/Group Title: Neratinib + Paclitaxel	Results	5
+neratinib	CHEBI:61397	17-26
+paclitaxel	CHEBI:45863	29-39
+Arm/Group Description: Neratinib + Paclitaxel	Results	6
+neratinib	CHEBI:61397	23-32
+paclitaxel	CHEBI:45863	35-45
+Neratinib: Neratinib - 240 mg orally daily, administered once daily. Treatment will be administered until documented disease progression, symptomatic deterioration, unacceptable toxicity, death or withdrawal of consent.	Results	7
+neratinib	CHEBI:61397	0-9
+neratinib	CHEBI:61397	11-20
+disease	DOID:4,OGMS:0000031	117-124
+death	OAE:0000632	188-193
+Paclitaxel: Paclitaxel - 80 mg/m2 IV administered on days 1, 8, and 15 of a 28-day cycle. Treatment will be administered until documented disease progression, symptomatic deterioration, unacceptable toxicity, death or withdrawal of consent.	Results	8
+paclitaxel	CHEBI:45863	0-10
+paclitaxel	CHEBI:45863	12-22
+disease	DOID:4,OGMS:0000031	138-145
+death	OAE:0000632	209-214
+Overall Number of Participants Analyzed: 242	Results	9
+Median (95% Confidence Interval)	Results	10
+median	BAO:0002174	0-6
+Unit of Measure: months  12.9        (11.1 to 14.9)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Trastuzumab + Paclitaxel	Results	13
+paclitaxel	CHEBI:45863	31-41
+Arm/Group Description: Trastuzumab + Paclitaxel	Results	14
+paclitaxel	CHEBI:45863	37-47
+Trastuzumab: Trastuzumab - 4 mg/kg IV initial loading dose followed by subsequent once weekly doses of 2 mg/kg IV. Treatment will be administered until documented disease progression, symptomatic deterioration, unacceptable toxicity, death or withdrawal of consent.	Results	15
+disease	DOID:4,OGMS:0000031	163-170
+death	OAE:0000632	234-239
+Paclitaxel: Paclitaxel - 80 mg/m2 IV administered on days 1, 8, and 15 of a 28-day cycle. Treatment will be administered until documented disease progression, symptomatic deterioration, unacceptable toxicity, death or withdrawal of consent.	Results	16
+paclitaxel	CHEBI:45863	0-10
+paclitaxel	CHEBI:45863	12-22
+disease	DOID:4,OGMS:0000031	138-145
+death	OAE:0000632	209-214
+Overall Number of Participants Analyzed: 237	Results	17
+Median (95% Confidence Interval)	Results	18
+median	BAO:0002174	0-6
+Unit of Measure: months  12.9        (11.1 to 14.8)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 67/240 (27.92%)	Adverse Events	1
+Anaemia 0/240 (0.00%)	Adverse Events	2
+Febrile neutropenia 1/240 (0.42%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 2/240 (0.83%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/240 (0.42%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/240 (0.00%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 0/240 (0.00%)	Adverse Events	7
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 2/240 (0.83%)	Adverse Events	8
+Cardiac tamponade 1/240 (0.42%)	Adverse Events	9
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Cardio-respiratory arrest 1/240 (0.42%)	Adverse Events	10
+Left ventricular dysfunction 0/240 (0.00%)	Adverse Events	11
+left	HP:0012835	0-4
+Adverse Events 2:	Adverse Events	12
+Total: 56/234 (23.93%)	Adverse Events	13
+Anaemia 1/234 (0.43%)	Adverse Events	14
+Febrile neutropenia 0/234 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/234 (0.00%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/234 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/234 (0.43%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 1/234 (0.43%)	Adverse Events	19
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 0/234 (0.00%)	Adverse Events	20
+Cardiac tamponade 0/234 (0.00%)	Adverse Events	21
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Cardio-respiratory arrest 0/234 (0.00%)	Adverse Events	22
+Left ventricular dysfunction 1/234 (0.43%)	Adverse Events	23
+left	HP:0012835	0-4

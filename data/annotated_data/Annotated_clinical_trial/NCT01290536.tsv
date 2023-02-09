@@ -1,0 +1,72 @@
+INTERVENTION 1:	Intervention	0
+Yttrium-90 Radioembolization	Intervention	1
+Selective internal radiation therapy using Yttrium-90 glass microspheres (TheraSphere)	Intervention	2
+glass	CHEBI:131189	54-59
+Inclusion Criteria:	Eligibility	0
+Diagnosis of metastatic colorectal, neuroendocrine, cholangiocarcinoma, melanoma, or breast malignancy with liver dominant disease. Diagnosis may be made by histo- or cyto-pathology, or by clinical and imaging criteria.	Eligibility	1
+cholangiocarcinoma	HP:0030153,DOID:4947	52-70
+melanoma	HP:0002861,DOID:1909	72-80
+breast	UBERON:0000310	85-91
+liver	UBERON:0002107	108-113
+disease	DOID:4,OGMS:0000031	123-130
+The cancer is unresectable.	Eligibility	2
+cancer	DOID:162	4-10
+All patients must be off all chemotherapeutic regimens for 30 days prior to and 30 days after TheraSphere treatment. Concurrent therapy with octreotide is permitted, when appropriate.	Eligibility	3
+octreotide	CHEBI:7726	141-151
+Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.	Eligibility	4
+group	CHEBI:24433	29-34
+Age 18 years or older.	Eligibility	5
+age	PATO:0000011	0-3
+Able to understand informed consent.	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Evidence of potential delivery of greater than 16.5 mCi (30 Gy absorbed dose) of radiation to the lungs on either:	Eligibility	8
+single TheraSphere administration; or	Eligibility	9
+cumulative delivery of radiation to the lungs greater than 50 Gy over multiple treatments.	Eligibility	10
+Evidence of any detectable Tc-99m macroaggregated albumin deposition in the stomach or duodenum, after application of established angiographic techniques to stop such deposition.	Eligibility	11
+stomach	UBERON:0000945	76-83
+duodenum	UBERON:0002114	87-95
+application	CHEBI:33232,BAO:0110001	103-114
+Previous radiation therapy to the lungs and/or to the upper abdomen	Eligibility	12
+abdomen	UBERON:0000916	60-67
+Pregnancy	Eligibility	13
+Symptomatic lung disease.	Eligibility	14
+lung disease	DOID:850	12-24
+Significant extrahepatic disease representing an imminent life-threatening outcome.	Eligibility	15
+disease	DOID:4,OGMS:0000031	25-32
+Active uncontrolled infection	Eligibility	16
+active	PATO:0002354	0-6
+Any pre-treatment laboratory findings within 30 days of treatment demonstrating:	Eligibility	17
+Aspartate or alanine aminotransferase level greater than 5 times upper normal limit.	Eligibility	18
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	13-20
+Serum bilirubin greater than 2 mg/dl	Eligibility	19
+Infiltrative tumor on imaging	Eligibility	20
+Tumor volume greater than 70% of liver volume	Eligibility	21
+volume	PATO:0000918	6-12
+volume	PATO:0000918	39-45
+liver volume	CMO:0001468	33-45
+Tumor volume greater than 50% of liver volume and serum albumin level less than 3 mg/dL	Eligibility	22
+volume	PATO:0000918	6-12
+volume	PATO:0000918	39-45
+liver volume	CMO:0001468	33-45
+serum albumin level	CMO:0000550	50-69
+Outcome Measurement:	Results	0
+Number of Participants With Adverse Events	Results	1
+Adverse effects of treatment with Yttrium-90 glass microspheres (TheraSphere) were collected prospectively for 6 months after each treatment administration.	Results	2
+glass	CHEBI:131189	45-50
+Time frame: 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Yttrium-90 Radioembolization	Results	5
+Arm/Group Description: Selective internal radiation therapy using Yttrium-90 glass microspheres (TheraSphere)	Results	6
+glass	CHEBI:131189	77-82
+Overall Number of Participants Analyzed: 42	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  42	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 3/42 (7.14%)	Adverse Events	1
+hospitalization for carcinoid crisis * [1]1/11 (9.09%)	Adverse Events	2
+Vomiting * [2]1/42 (2.38%)	Adverse Events	3
+vomiting	HP:0002013	0-8
+gastric ulcer [3]1/42 (2.38%)	Adverse Events	4
+gastric ulcer	HP:0002592,DOID:10808	0-13

@@ -1,0 +1,122 @@
+INTERVENTION 1:	Intervention	0
+Oxaliplatin/Trastuzumab	Intervention	1
+Patients with HER2 positive breast cancer received treatment with oxaliplatin 130 mg/m2 IV day 1 and trastuzumab 6 mg/kg (following 8 mg/kg loading dose during cycle 1). Cycles were repeated every 21 days. Oxaliplatin : Oxaliplatin will be administered at a dose of 130 mg/ m2 over 120 minutes on day 1 of each cycle, following standard antiemetic premedications. 21 day cycles. For the first cycle, trastuzumab will be administered before oxaliplatin; however for subsequent cycles, oxaliplatin will be infused prior to trastuzumab Trastuzumab : Trastuzumab will be administered as an 8 mg/kg loading dose by intravenous (IV) infusion over 90 minutes on day 1 of cycle 1. Subsequent doses will be administered as a 6 mg/kg IV dose over 30 minutes.	Intervention	2
+breast cancer	DOID:1612	28-41
+oxaliplatin	CHEBI:31941	66-77
+oxaliplatin	CHEBI:31941	206-217
+oxaliplatin	CHEBI:31941	220-231
+oxaliplatin	CHEBI:31941	440-451
+oxaliplatin	CHEBI:31941	484-495
+day	UO:0000033	91-94
+day	UO:0000033	200-203
+day	UO:0000033	297-300
+day	UO:0000033	367-370
+day	UO:0000033	655-658
+m2	CHEBI:34827	85-87
+m2	CHEBI:34827	274-276
+antiemetic	CHEBI:50919	337-347
+Inclusion Criteria:	Eligibility	0
+Females  18 years of age	Eligibility	1
+age	PATO:0000011	21-24
+Histologically confirmed breast cancer that is HER2/neu positive (3+ by IHC or FISH +) and evidence of metastatic disease. Tumor may be of any estrogen and progesterone receptor type	Eligibility	2
+breast cancer	DOID:1612	25-38
+disease	DOID:4,OGMS:0000031	114-121
+estrogen	CHEBI:50114,BAO:0000760	143-151
+progesterone	CHEBI:17026	156-168
+receptor	BAO:0000281	169-177
+Measurable disease by RECIST and an ECOG  2	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+Patients with known evidence of brain metastases are eligible if they are asymptomatic and have completed all therapy (surgery, radiotherapy, and/or steroids)	Eligibility	4
+brain	UBERON:0000955	32-37
+surgery	OAE:0000067	119-126
+radiotherapy	OAE:0000235	128-140
+Baseline LVEF value within the institutional normal range	Eligibility	5
+range	LABO:0000114	52-57
+Any number of prior hormonal therapy treatments in the adjuvant setting or for metastatic disease. A subject must have progressed on hormonal therapy and all hormonal therapy (including birth control pills) must be discontinued at study entry.	Eligibility	6
+adjuvant	CHEBI:60809	55-63
+disease	DOID:4,OGMS:0000031	90-97
+Prior chemotherapy in the adjuvant setting and up to one prior chemotherapy regimen for metastatic disease is allowed.	Eligibility	7
+adjuvant	CHEBI:60809	26-34
+disease	DOID:4,OGMS:0000031	99-106
+Patients may have received one prior trastuzumab/chemotherapy containing regimen or prior single agent trastuzumab.	Eligibility	8
+Prior radiation therapy in the adjuvant setting or for metastatic disease, provided it was not to the only site of evaluable disease.	Eligibility	9
+adjuvant	CHEBI:60809	31-39
+disease	DOID:4,OGMS:0000031	66-73
+disease	DOID:4,OGMS:0000031	125-132
+site	BFO:0000029	107-111
+All prior chemotherapy, trastuzumab and radiation therapy should be completed > 2 weeks before enrollment.	Eligibility	10
+Patients receiving bisphosphonate therapy are eligible. However, if bisphosphonate were started within < 2 months prior to enrollment, the bone lesions will not be evaluated for response and the patient must have another site of metastatic disease that is either measurable or evaluable for response.	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	195-202
+site	BFO:0000029	221-225
+disease	DOID:4,OGMS:0000031	240-247
+Patients must have recovered from toxicities due to prior therapy.	Eligibility	12
+Lab values in accordance with the protocol	Eligibility	13
+Patients must be nonpregnant and nonlactating. Patients of childbearing potential must implement an effective method of contraception during the study (birth control pills are not allowed).	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Bone only disease are ineligible	Eligibility	16
+disease	DOID:4,OGMS:0000031	10-17
+Patients who received more than 1 prior chemotherapy regimen for metastatic disease are ineligible.	Eligibility	17
+disease	DOID:4,OGMS:0000031	76-83
+Patients with a history of other cancers except curatively-treated carcinoma of the cervix in situ or non-melanomatous skin cancer.	Eligibility	18
+history	BFO:0000182	16-23
+carcinoma	HP:0030731,DOID:305	67-76
+skin cancer	DOID:4159	119-130
+Active serious infection or other underlying medical condition that would impair their ability to receive protocol treatment.	Eligibility	19
+active	PATO:0002354	0-6
+condition	PDRO:0000129	53-62
+Uncontrolled nervous system metastases	Eligibility	20
+nervous system	UBERON:0001016	13-27
+Dementia or significantly altered mental status that would interfere with proper consenting.	Eligibility	21
+dementia	HP:0000726,DOID:1307	0-8
+Receiving other investigational therapy.	Eligibility	22
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR), the Percentage of Patients Who Experience an Objective Benefit From Treatment	Results	1
+rate	BAO:0080019	19-23
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI or CT: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	2
+target	BAO:0003064	76-82
+target	BAO:0003064	163-169
+target	BAO:0003064	255-261
+ct	BAO:0002125	114-116
+diameter	PATO:0001334	243-251
+Time frame: 18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Oxaliplatin/Trastuzumab	Results	5
+Arm/Group Description: Patients with HER2 positive breast cancer received treatment with oxaliplatin 130 mg/m2 IV day 1 and trastuzumab 6 mg/kg (following 8 mg/kg loading dose during cycle 1). Cycles were repeated every 21 days. Oxaliplatin : Oxaliplatin will be administered at a dose of 130 mg/ m2 over 120 minutes on day 1 of each cycle, following standard antiemetic premedications. 21 day cycles. For the first cycle, trastuzumab will be administered before oxaliplatin; however for subsequent cycles, oxaliplatin will be infused prior to trastuzumab Trastuzumab : Trastuzumab will be administered as an 8 mg/kg loading dose by intravenous (IV) infusion over 90 minutes on day 1 of cycle 1. Subsequent doses will be administered as a 6 mg/kg IV dose over 30 minutes.	Results	6
+breast cancer	DOID:1612	51-64
+oxaliplatin	CHEBI:31941	89-100
+oxaliplatin	CHEBI:31941	229-240
+oxaliplatin	CHEBI:31941	243-254
+oxaliplatin	CHEBI:31941	463-474
+oxaliplatin	CHEBI:31941	507-518
+day	UO:0000033	114-117
+day	UO:0000033	223-226
+day	UO:0000033	320-323
+day	UO:0000033	390-393
+day	UO:0000033	678-681
+m2	CHEBI:34827	108-110
+m2	CHEBI:34827	297-299
+antiemetic	CHEBI:50919	360-370
+Overall Number of Participants Analyzed: 25	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  20        (4.3 to 35.7)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 7/25 (28.00%)	Adverse Events	1
+Perforated appendix 1/25 (4.00%)	Adverse Events	2
+Allergic reaction 1/25 (4.00%)	Adverse Events	3
+Pathologic fracture of let proximal humeral diaphysis 1/25 (4.00%)	Adverse Events	4
+pathologic fracture	HP:0002756	0-19
+proximal	HP:0012840	27-35
+Pathologic fracture of right proximal humeral diaphysis 1/25 (4.00%)	Adverse Events	5
+pathologic fracture	HP:0002756	0-19
+right	HP:0012834	23-28
+proximal	HP:0012840	29-37
+Respiratory failure secondary to metastatic disease 1/25 (4.00%)	Adverse Events	6
+respiratory failure	HP:0002878,DOID:11162	0-19
+disease	DOID:4,OGMS:0000031	44-51
+Breast cancer 1/25 (4.00%)	Adverse Events	7
+breast cancer	DOID:1612	0-13
+Progressive disease 1/25 (4.00%)	Adverse Events	8
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19

@@ -1,0 +1,174 @@
+INTERVENTION 1:	Intervention	0
+Transdermal Nicotine	Intervention	1
+nicotine	CHEBI:18723	12-20
+Nicotine will be delivered by a transdermal patch delivery system for topical application. Each patch will contain approximately 1.75mg nicotine/cm2, and releases 7, and 14mg of nicotine, respectively, over 24 hours. Patches will be applied for 16 hours per day. Participants will be titrated over the course of the 6-week treatment period in order to avoid initial side effects as follows:	Intervention	2
+nicotine	CHEBI:18723	0-8
+nicotine	CHEBI:18723	136-144
+nicotine	CHEBI:18723	178-186
+application	CHEBI:33232,BAO:0110001	78-89
+day	UO:0000033	258-261
+Week 1: ½ 7 mg patch per day, Week 2: 7 mg patch per day, Weeks 3-4: ¾ 14 mg patch per day, Weeks 5-6: 14 mg per day, Weeks 7-8: Treatment withdrawal	Intervention	3
+week	UO:0000034	0-4
+week	UO:0000034	30-34
+week	UO:0000034	58-62
+week	UO:0000034	92-96
+week	UO:0000034	118-122
+day	UO:0000033	25-28
+day	UO:0000033	53-56
+day	UO:0000033	87-90
+day	UO:0000033	113-116
+Transdermal nicotine: Nicotine patches are currently FDA approved for smoking cessation. Nicotine has effects that have been well studied for many years. Studies have shown that nicotine by itself does not appear by itself to be cancer causing. The use of the nicotine patch is not expected to increase risk of breast cancer recurrence.	Intervention	4
+nicotine	CHEBI:18723	12-20
+nicotine	CHEBI:18723	22-30
+nicotine	CHEBI:18723	89-97
+nicotine	CHEBI:18723	178-186
+nicotine	CHEBI:18723	260-268
+cancer	DOID:162	229-235
+cancer	DOID:162	318-324
+increase	BAO:0001251	294-302
+breast cancer	DOID:1612	311-324
+INTERVENTION 2:	Intervention	5
+Placebo	Intervention	6
+Matching transdermal placebo patches will be used. Participants will follow the same titration schedule as the transdermal nicotine arm.	Intervention	7
+nicotine	CHEBI:18723	123-131
+Week 1: ½ 7 mg patch per day, Week 2: 7 mg patch per day, Weeks 3-4: ¾ 14 mg patch per day, Weeks 5-6: 14 mg per day, Weeks 7-8: Treatment withdrawal	Intervention	8
+week	UO:0000034	0-4
+week	UO:0000034	30-34
+week	UO:0000034	58-62
+week	UO:0000034	92-96
+week	UO:0000034	118-122
+day	UO:0000033	25-28
+day	UO:0000033	53-56
+day	UO:0000033	87-90
+day	UO:0000033	113-116
+Placebo Transdermal Patch	Intervention	9
+Inclusion Criteria:	Eligibility	0
+All participants will:	Eligibility	1
+Be between 35 and 80 years of age,	Eligibility	2
+age	PATO:0000011	30-33
+Have been diagnosed with noninvasive or invasive (Stage 1, 2, or 3A) breast cancer,	Eligibility	3
+breast cancer	DOID:1612	69-82
+Have undergone treatment with systemic chemotherapy within the last 1-5 years,	Eligibility	4
+Endorse persistent CRCI subjective complaints,	Eligibility	5
+Be non-smokers (no nicotine use within the last 5 years),	Eligibility	6
+nicotine	CHEBI:18723	19-27
+Have no active cardiac, neurologic, or psychiatric illness, and	Eligibility	7
+active	PATO:0002354	8-14
+Fluent in and able to read English.	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Participants will be excluded for:	Eligibility	10
+excluded	HP:0040285	21-29
+Any active neurologic and/or psychiatric disease, history of significant head trauma followed by persistent neurologic deficits, or known structural brain abnormalities,	Eligibility	11
+active	PATO:0002354	4-10
+disease	DOID:4,OGMS:0000031	41-48
+history	BFO:0000182	50-57
+head	UBERON:0000033	73-77
+structural	BAO:0000370	138-148
+brain	UBERON:0000955	149-154
+Current major depression or another major psychiatric disorder as described in DSM-5 (use of CNS active medications (e.g. antidepressants) will be permitted, provided dosing has been stable for at least 3 months),	Eligibility	12
+depression	HP:0000716	14-24
+disorder	OGMS:0000045	54-62
+active	PATO:0002354	97-103
+stable	HP:0031915	183-189
+Any history of alcohol or substance abuse or dependence within the past 2 years (DSM-5 criteria),	Eligibility	13
+history	BFO:0000182	4-11
+alcohol	CHEBI:16236	15-22
+substance abuse	DOID:302	26-41
+Any significant systemic illness or unstable medical condition which could lead to difficulty complying with the protocol including:	Eligibility	14
+condition	PDRO:0000129	53-62
+History of myocardial infarction in the past year or unstable, severe cardiovascular disease including angina or CHF with symptoms at rest, or clinically significant abnormalities on the ECG	Eligibility	15
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+year	UO:0000036	45-49
+severe	HP:0012828	63-69
+disease	DOID:4,OGMS:0000031	85-92
+Clinically significant and/or unstable pulmonary, gastrointestinal, hepatic, or renal disease	Eligibility	16
+disease	DOID:4,OGMS:0000031	86-93
+Insulin-requiring diabetes or uncontrolled diabetes mellitus,	Eligibility	17
+diabetes mellitus	HP:0000819,DOID:9351	43-60
+Uncontrolled hypertension (systolic BP> 170 or diastolic BP> 100), 5. Use of any investigational drugs within 30 days or 5 half-lives, whichever is longer, prior to screening, and 6. Use of any drugs with pro-cholinergic properties (e.g. donepezil).	Eligibility	18
+hypertension	HP:0000822,DOID:10763	13-25
+donepezil	CHEBI:53289	238-247
+Outcome Measurement:	Results	0
+Change in the Functional Assessment of Cancer Therapy-Cognitive Function (FACT-Cog) PCI Scale	Results	1
+functional	BAO:0000010	14-24
+cancer	DOID:162	39-45
+function	BAO:0003117,BFO:0000034	14-22
+function	BAO:0003117,BFO:0000034	64-72
+The Functional Assessment of Cancer Therapy-Cognitive Function (FACT-Cog) scale will be used to monitor change in CRCI subjective complaints.	Results	2
+functional	BAO:0000010	4-14
+cancer	DOID:162	29-35
+function	BAO:0003117,BFO:0000034	4-12
+function	BAO:0003117,BFO:0000034	54-62
+This instrument has been used to monitor change in CRCI subjective complaints in previous studies and demonstrates good internal consistency, test-retest reliability, and discriminant and convergent validity. Specifically, the PCI subscale was used as the primary outcome measure.	Results	3
+instrument	BAO:0003118	5-15
+The FACT-Cog PCI consists of 20 items and has a minimum score of 0 and total possible score of 72. Higher scores indicate better cognitive functioning.	Results	4
+The PCI evaluates memory, concentration, mental acuity, verbal fluency, functional interference, and multitasking ability.	Results	5
+memory	GO:0007613	18-24
+functional	BAO:0000010	72-82
+Visit 3 is the 3-week visit, Visit 4 is the 6-week visit, and Visit 5 is the 8-week visit.	Results	6
+Change scores were calculated as follow	Results	7
+Time frame: Baseline to 8-Weeks	Results	8
+time	PATO:0000165	0-4
+Results 1:	Results	9
+Arm/Group Title: Transdermal Nicotine	Results	10
+nicotine	CHEBI:18723	29-37
+Arm/Group Description: Nicotine will be delivered by a transdermal patch delivery system for topical application. Each patch will contain approximately 1.75mg nicotine/cm2, and releases 7, and 14mg of nicotine, respectively, over 24 hours. Patches will be applied for 16 hours per day. Participants will be titrated over the course of the 6-week treatment period in order to avoid initial side effects as follows:	Results	11
+nicotine	CHEBI:18723	23-31
+nicotine	CHEBI:18723	159-167
+nicotine	CHEBI:18723	201-209
+application	CHEBI:33232,BAO:0110001	101-112
+day	UO:0000033	281-284
+Week 1:   7 mg patch per day, Week 2: 7 mg patch per day, Weeks 3-4:    14 mg patch per day, Weeks 5-6: 14 mg per day, Weeks 7-8: Treatment withdrawal	Results	12
+week	UO:0000034	0-4
+week	UO:0000034	30-34
+week	UO:0000034	58-62
+week	UO:0000034	93-97
+week	UO:0000034	119-123
+day	UO:0000033	25-28
+day	UO:0000033	53-56
+day	UO:0000033	88-91
+day	UO:0000033	114-117
+Transdermal nicotine: Nicotine patches are currently FDA approved for smoking cessation. Nicotine has effects that have been well studied for many years. Studies have shown that nicotine by itself does not appear by itself to be cancer causing. The use of the nicotine patch is not expected to increase risk of breast cancer recurrence.	Results	13
+nicotine	CHEBI:18723	12-20
+nicotine	CHEBI:18723	22-30
+nicotine	CHEBI:18723	89-97
+nicotine	CHEBI:18723	178-186
+nicotine	CHEBI:18723	260-268
+cancer	DOID:162	229-235
+cancer	DOID:162	318-324
+increase	BAO:0001251	294-302
+breast cancer	DOID:1612	311-324
+Overall Number of Participants Analyzed: 11	Results	14
+Mean (Standard Deviation)	Results	15
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Visit 3 PCI Change from Baseline Score (3-Weeks): 7.00         (12.01)	Results	16
+Visit 4 PCI Change from Baseline Score (6-Weeks): 16.80         (15.47)	Results	17
+Visit 5 PCI Change from Baseline Score (8-Weeks): 11.20         (14.40)	Results	18
+Results 2:	Results	19
+Arm/Group Title: Placebo	Results	20
+Arm/Group Description: Matching transdermal placebo patches will be used. Participants will follow the same titration schedule as the transdermal nicotine arm.	Results	21
+nicotine	CHEBI:18723	146-154
+Week 1:   7 mg patch per day, Week 2: 7 mg patch per day, Weeks 3-4:    14 mg patch per day, Weeks 5-6: 14 mg per day, Weeks 7-8: Treatment withdrawal	Results	22
+week	UO:0000034	0-4
+week	UO:0000034	30-34
+week	UO:0000034	58-62
+week	UO:0000034	93-97
+week	UO:0000034	119-123
+day	UO:0000033	25-28
+day	UO:0000033	53-56
+day	UO:0000033	88-91
+day	UO:0000033	114-117
+Placebo Transdermal Patch	Results	23
+Overall Number of Participants Analyzed: 11	Results	24
+Mean (Standard Deviation)	Results	25
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Visit 3 PCI Change from Baseline Score (3-Weeks): 11.55         (9.59)	Results	26
+Visit 4 PCI Change from Baseline Score (6-Weeks): 16.64         (7.58)	Results	27
+Visit 5 PCI Change from Baseline Score (8-Weeks): 16.55         (10.40)	Results	28
+Adverse Events 1:	Adverse Events	0
+Total: 0/11 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

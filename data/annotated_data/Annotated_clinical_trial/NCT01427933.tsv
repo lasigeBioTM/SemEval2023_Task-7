@@ -1,0 +1,209 @@
+INTERVENTION 1:	Intervention	0
+Ramucirumab and Eribulin	Intervention	1
+eribulin	CHEBI:63587	16-24
+Ramucirumab (IMC-1121B) 10 mg/kg administered by intravenous (IV) infusion on Day 1 of each 3-week cycle	Intervention	2
+day	UO:0000033	78-81
+Eribulin 1.4 mg/m² administered by IV bolus on Day 1 and Day 8 of each 3-week cycle	Intervention	3
+eribulin	CHEBI:63587	0-8
+day	UO:0000033	47-50
+day	UO:0000033	57-60
+INTERVENTION 2:	Intervention	4
+Eribulin Monotherapy	Intervention	5
+eribulin	CHEBI:63587	0-8
+Eribulin 1.4 mg/m² administered by IV bolus on Day 1 and Day 8 of each 3-week cycle	Intervention	6
+eribulin	CHEBI:63587	0-8
+day	UO:0000033	47-50
+day	UO:0000033	57-60
+Inclusion Criteria:	Eligibility	0
+Have histologically or cytologically confirmed invasive breast cancer which at the time of study entry is either locally recurrent disease not amenable to curative therapy or Stage IV disease (American Joint Committee on Cancer Staging Criteria for breast cancer)	Eligibility	1
+breast cancer	DOID:1612	56-69
+breast cancer	DOID:1612	249-262
+time	PATO:0000165	83-87
+recurrent	HP:0031796	121-130
+disease	DOID:4,OGMS:0000031	131-138
+disease	DOID:4,OGMS:0000031	184-191
+cancer	DOID:162	63-69
+cancer	DOID:162	221-227
+cancer	DOID:162	256-262
+Have measurable and/or nonmeasurable disease per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1)	Eligibility	2
+disease	DOID:4,OGMS:0000031	37-44
+Have received at least 2 but not more than 4 prior cytotoxic chemotherapy regimens in the locally recurrent or metastatic setting	Eligibility	3
+recurrent	HP:0031796	98-107
+Have received prior treatment with both anthracyclines and taxanes, either in the metastatic, adjuvant or neoadjuvant setting	Eligibility	4
+adjuvant	CHEBI:60809	94-102
+adjuvant	CHEBI:60809	109-117
+Have received Human Epidermal Growth Factor Receptor 2 (HER-2) directed treatment; or are not a candidate for HER-2-directed treatment if the patient has HER-2 positive disease	Eligibility	5
+growth factor	BAO:0002024	30-43
+receptor	BAO:0000281	44-52
+patient	HADO:0000008,OAE:0001817	142-149
+disease	DOID:4,OGMS:0000031	169-176
+Have completed any prior radiotherapy and/or hormonal therapy at least 1 week prior to randomization and have recovered from all clinically significant treatment-related toxicities	Eligibility	6
+radiotherapy	OAE:0000235	25-37
+week	UO:0000034	73-77
+Have an Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1	Eligibility	7
+group	CHEBI:24433	37-42
+Have left ventricular ejection fraction within normal limits	Eligibility	8
+left	HP:0012835	5-9
+ejection fraction	CMO:0000180	22-39
+Have discontinued all previous chemotherapy treatments for cancer at least 3 weeks prior to randomization and recovered from clinically significant toxic effects	Eligibility	9
+cancer	DOID:162	59-65
+Have resolution to Grade less than or equal to 1 [by the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI-CTCAE), Version 4.0] of all clinically significant toxicities of prior chemotherapy, surgery, radiotherapy, or hormonal therapy with the exception of peripheral neuropathy, which must have resolved to Grade less than or equal to 2	Eligibility	10
+cancer	DOID:162	66-72
+surgery	OAE:0000067	220-227
+radiotherapy	OAE:0000235	229-241
+peripheral neuropathy	HP:0009830,DOID:870	285-306
+Have adequate hematologic, hepatic, renal, and coagulation function	Eligibility	11
+coagulation	GO:0050817	47-58
+function	BAO:0003117,BFO:0000034	59-67
+Test negative for pregnancy	Eligibility	12
+Have a life expectancy of at least 3 months	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Have a concurrent active other malignancy other than adequately treated non-melanomatous skin cancer or other noninvasive or in situ neoplasms	Eligibility	15
+active	PATO:0002354	18-24
+skin cancer	DOID:4159	89-100
+Are currently enrolled in, or recently discontinued from, a clinical trial involving an investigational product, or concurrently enrolled in any other type of medical research judged not to be medically compatible with the study	Eligibility	16
+product	BAO:0003067	104-111
+Have received investigational therapy within 3 weeks prior to randomization	Eligibility	17
+Have received prior ramucirumab or eribulin	Eligibility	18
+eribulin	CHEBI:63587	35-43
+Have a known sensitivity to agents of similar biologic composition as ramucirumab, halichondrin B and/or halichondrin B chemical derivative	Eligibility	19
+halichondrin b	CHEBI:80731	83-97
+halichondrin b	CHEBI:80731	105-119
+Have received bevacizumab within 6 weeks prior to randomization	Eligibility	20
+Have uncontrolled or poorly controlled hypertension	Eligibility	21
+hypertension	HP:0000822,DOID:10763	39-51
+Have congenital prolonged QTc syndrome (or have a family history) or prolongation of QTc at baseline	Eligibility	22
+prolonged	HP:0025297	16-25
+syndrome	DOID:225	30-38
+family history	HP:0032316	50-64
+Have a history of additional risk factors for torsades de pointes within the last year prior to randomization	Eligibility	23
+history	BFO:0000182	7-14
+year	UO:0000036	82-86
+Have an implantable pacemaker or automatic implantable cardioverter defibrillator	Eligibility	24
+Have bradycardia	Eligibility	25
+bradycardia	HP:0001662	5-16
+Have an acute/subacute bowel obstruction or history of chronic diarrhea requiring ongoing medical intervention within 6 months prior to randomization	Eligibility	26
+history	BFO:0000182	44-51
+chronic diarrhea	HP:0002028	55-71
+medical intervention	OAE:0000002	90-110
+Have a history of uncontrolled hereditary or acquired bleeding or thrombotic disorders	Eligibility	27
+history	BFO:0000182	7-14
+Have experienced a Grade 3 or greater bleeding event within 3 months prior to randomization	Eligibility	28
+Have experienced any Grade 3 or greater arterial thromboembolic events within 6 months prior to randomization, or venous thromboembolic event within 3 months prior to randomization	Eligibility	29
+Have undergone major surgery within 4 weeks prior to randomization or subcutaneous venous access device placement within 7 days prior to randomization	Eligibility	30
+surgery	OAE:0000067	21-28
+Have a planned major surgery to be performed during the course of the trial	Eligibility	31
+surgery	OAE:0000067	21-28
+Have uncontrolled metabolic conditions	Eligibility	32
+Have an ongoing or active infection requiring parenteral antibiotic, antifungal, or antiviral therapy	Eligibility	33
+active	PATO:0002354	19-25
+Have known human immunodeficiency virus (HIV) infection or acquired immunodeficiency syndrome (AIDS)	Eligibility	34
+immunodeficiency	HP:0002721	17-33
+immunodeficiency	HP:0002721	68-84
+virus	BAO:0000232	34-39
+acquired immunodeficiency syndrome	DOID:635	59-93
+Have pulmonary lymphangitic involvement that results in pulmonary dysfunction requiring active treatment including the use of oxygen	Eligibility	35
+active	PATO:0002354	88-94
+Have received a prior allogeneic organ or tissue transplantation	Eligibility	36
+organ	UBERON:0000062	33-38
+tissue	UBERON:0000479	42-48
+Have had a serious nonhealing wound, ulcer, or bone fracture within 4 weeks prior to randomization	Eligibility	37
+ulcer	OAE:0004372	37-42
+bone fracture	HP:0020110	47-60
+Have known leptomeningeal metastases	Eligibility	38
+Have cirrhosis (Child-Pugh Level B or worse) or cirrhosis (any degree) and a history of hepatic encephalopathy or clinically meaningful ascites	Eligibility	39
+cirrhosis	HP:0001394	5-14
+cirrhosis	HP:0001394	48-57
+history	BFO:0000182	77-84
+hepatic encephalopathy	HP:0002480,DOID:13413	88-110
+ascites	HP:0001541	136-143
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+PFS was defined as time from date of randomization until the date of objectively determined progression defined by Response Evaluation Criteria in Solid Tumors (RECIST v1.1) criteria or death from any cause, whichever is first. Progressive disease (PD) defined as 20% increase in sum of diameter (SOD) of target lesion with the sum demonstrating an increase of 5 mm; appearance of 1 new lesions or unequivocal progression of non-target lesions. Participants with no baseline disease assessment were censored at randomization date, regardless of whether or not objectively determined PD or death was observed; participants not known to have died or to have objective progression as of data inclusion cutoff date were censored at last post baseline radiological assessment date or randomization date, if there was no post baseline radiological assessment.	Results	2
+time	PATO:0000165	19-23
+death	OAE:0000632	186-191
+death	OAE:0000632	589-594
+progressive	HP:0003676	228-239
+disease	DOID:4,OGMS:0000031	240-247
+disease	DOID:4,OGMS:0000031	475-482
+increase	BAO:0001251	268-276
+increase	BAO:0001251	349-357
+diameter	PATO:0001334	287-295
+target	BAO:0003064	305-311
+target	BAO:0003064	429-435
+Time frame: Start of treatment until documented disease progression or death from any cause up to 16.5 months	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	48-55
+death	OAE:0000632	71-76
+Results 1:	Results	4
+Arm/Group Title: Ramucirumab and Eribulin	Results	5
+eribulin	CHEBI:63587	33-41
+Arm/Group Description: Ramucirumab (IMC-1121B) 10 mg/kg administered by intravenous (IV) infusion on Day 1 of each 3-week cycle	Results	6
+day	UO:0000033	101-104
+Eribulin 1.4 mg/m  administered by IV bolus on Day 1 and Day 8 of each 3-week cycle	Results	7
+eribulin	CHEBI:63587	0-8
+day	UO:0000033	47-50
+day	UO:0000033	57-60
+Overall Number of Participants Analyzed: 71	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: months  4.4        (3.1 to 6.7)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Eribulin Monotherapy	Results	12
+eribulin	CHEBI:63587	17-25
+Arm/Group Description: Eribulin 1.4 mg/m  administered by IV bolus on Day 1 and Day 8 of each 3-week cycle	Results	13
+eribulin	CHEBI:63587	23-31
+day	UO:0000033	70-73
+day	UO:0000033	80-83
+Overall Number of Participants Analyzed: 70	Results	14
+Median (95% Confidence Interval)	Results	15
+median	BAO:0002174	0-6
+Unit of Measure: months  4.1        (3.2 to 5.6)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 26/69 (37.68%)	Adverse Events	1
+Anaemia 2/69 (2.90%)	Adverse Events	2
+Febrile neutropenia 3/69 (4.35%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 4/69 (5.80%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Cardiac arrest 1/69 (1.45%)	Adverse Events	5
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure congestive 1/69 (1.45%)	Adverse Events	6
+Cardiac tamponade 1/69 (1.45%)	Adverse Events	7
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Pericardial effusion 1/69 (1.45%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Abdominal pain 1/69 (1.45%)	Adverse Events	9
+abdominal pain	HP:0002027	0-14
+Ascites 2/69 (2.90%)	Adverse Events	10
+ascites	HP:0001541	0-7
+Colitis 1/69 (1.45%)	Adverse Events	11
+colitis	HP:0002583,DOID:0060180	0-7
+Gastritis 1/69 (1.45%)	Adverse Events	12
+gastritis	HP:0005263,DOID:4029	0-9
+Gastritis erosive 1/69 (1.45%)	Adverse Events	13
+gastritis	HP:0005263,DOID:4029	0-9
+Adverse Events 2:	Adverse Events	14
+Total: 12/65 (18.46%)	Adverse Events	15
+Anaemia 0/65 (0.00%)	Adverse Events	16
+Febrile neutropenia 1/65 (1.54%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/65 (1.54%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Cardiac arrest 0/65 (0.00%)	Adverse Events	19
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure congestive 0/65 (0.00%)	Adverse Events	20
+Cardiac tamponade 0/65 (0.00%)	Adverse Events	21
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Pericardial effusion 0/65 (0.00%)	Adverse Events	22
+pericardial effusion	HP:0001698,DOID:118	0-20
+Abdominal pain 2/65 (3.08%)	Adverse Events	23
+abdominal pain	HP:0002027	0-14
+Ascites 2/65 (3.08%)	Adverse Events	24
+ascites	HP:0001541	0-7
+Colitis 0/65 (0.00%)	Adverse Events	25
+colitis	HP:0002583,DOID:0060180	0-7
+Gastritis 0/65 (0.00%)	Adverse Events	26
+gastritis	HP:0005263,DOID:4029	0-9
+Gastritis erosive 0/65 (0.00%)	Adverse Events	27
+gastritis	HP:0005263,DOID:4029	0-9

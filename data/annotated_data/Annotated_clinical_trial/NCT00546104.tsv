@@ -1,0 +1,84 @@
+INTERVENTION 1:	Intervention	0
+Dasatinib	Intervention	1
+50mg-100mg po BID	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Measurable Stage IV or inoperable Stage III advanced breast cancer.	Eligibility	1
+breast cancer	DOID:1612	53-66
+There is no limit on the number of prior therapies.	Eligibility	2
+At least 3 weeks since prior chemotherapy, biological or hormonal therapy.	Eligibility	3
+At least 2 weeks since surgical biopsy.	Eligibility	4
+At least 3 weeks since major (open thoracic/abdominal/cardiac) surgery.	Eligibility	5
+surgery	OAE:0000067	63-70
+No central nervous system (CNS) metastases except solitary brain metastasis	Eligibility	6
+central nervous system	UBERON:0001017	3-25
+brain	UBERON:0000955	59-64
+No cardiac dysfunction	Eligibility	7
+left ventricular ejection fraction (LVEF)  50% as determined by multiple gated acquisition scan (MUGA)/echocardiogram	Eligibility	8
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Adequate blood counts	Eligibility	9
+blood	UBERON:0000178	9-14
+Normal liver and kidney function	Eligibility	10
+liver	UBERON:0002107	7-12
+kidney	UBERON:0002113	17-23
+function	BAO:0003117,BFO:0000034	24-32
+Negative serum pregnancy test.	Eligibility	11
+Able to provide informed consent	Eligibility	12
+Exclusion Criteria:	Eligibility	13
+Pregnant or breast feeding.	Eligibility	14
+breast	UBERON:0000310	12-18
+Prior treatment with dasatinib.	Eligibility	15
+Bone as the only site of disease.	Eligibility	16
+site	BFO:0000029	17-21
+disease	DOID:4,OGMS:0000031	25-32
+Significant gastrointestinal bleeding	Eligibility	17
+Septicemia, infection, acute hepatitis, hypokalemia, or hypomagnesemia	Eligibility	18
+acute hepatitis	HP:0200119,DOID:2237	23-38
+hypokalemia	HP:0002900,DOID:4500	40-51
+hypomagnesemia	HP:0002917	56-70
+Outcome Measurement:	Results	0
+Estimation of the Proportion of Progression-free Patients at 16 Wks.	Results	1
+Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or measurable increase in a non-target lesion, or the appearance of new lesions, or similar definition as appropriate.	Results	2
+increase	BAO:0001251	107-115
+increase	BAO:0001251	184-192
+diameter	PATO:0001334	142-150
+target	BAO:0003064	154-160
+target	BAO:0003064	202-208
+Proportion progression-free at 16 weeks.From first day of study related treatment with Dasatinib until the date of first documented progression or date of death from any cause, whichever came first.	Results	3
+day	UO:0000033	51-54
+death	OAE:0000632	155-160
+Time frame: 16 weeks	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Dasatinib	Results	6
+Arm/Group Description: 50mg-100mg po BID	Results	7
+Overall Number of Participants Analyzed: 31	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  0        (0 to 20)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 10/31 (32.26%)	Adverse Events	1
+Edema, limb 1/31 (3.23%)	Adverse Events	2
+edema	HP:0000969	0-5
+limb	UBERON:0002101	7-11
+Thrombosis1/31 (3.23%)	Adverse Events	3
+diarrhea1/31 (3.23%)	Adverse Events	4
+Pain 2/31 (6.45%)	Adverse Events	5
+pain	HP:0012531	0-4
+Pain, back1/31 (3.23%)	Adverse Events	6
+pain	HP:0012531	0-4
+Pain, extrimity limb 1/31 (3.23%)	Adverse Events	7
+pain	HP:0012531	0-4
+limb	UBERON:0002101	16-20
+Syncope 1/31 (3.23%)	Adverse Events	8
+syncope	HP:0001279	0-7
+Pain, chest/thorax1/31 (3.23%)	Adverse Events	9
+pain	HP:0012531	0-4
+hyponatremia 1/31 (3.23%)	Adverse Events	10
+hyponatremia	HP:0002902	0-12
+fever1/31 (3.23%)	Adverse Events	11
+AST 1/31 (3.23%)	Adverse Events	12
+infection1/31 (3.23%)	Adverse Events	13
+Anorexia 1/31 (3.23%)	Adverse Events	14
+anorexia	HP:0002039	0-8
+Dyspnea 2/31 (6.45%)	Adverse Events	15
+dyspnea	HP:0002094	0-7

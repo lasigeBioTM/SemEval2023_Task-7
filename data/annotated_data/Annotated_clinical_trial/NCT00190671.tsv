@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+Pemetrexed 600mg/m2	Intervention	1
+pemetrexed	CHEBI:63616	0-10
+Pemetrexed: 600 mg/m2, intravenous, every 21 days x 8 cycles Cyclophosphamide: 600 mg/m2, intravenous, every 21 days x 8 cycles	Intervention	2
+pemetrexed	CHEBI:63616	0-10
+x	LABO:0000148	7-8
+x	LABO:0000148	50-51
+x	LABO:0000148	117-118
+cyclophosphamide	CHEBI:4026	61-77
+INTERVENTION 2:	Intervention	3
+Pemetrexed 1800mg/m2	Intervention	4
+pemetrexed	CHEBI:63616	0-10
+Pemetrexed: 1800 mg/m2, intravenous, every 21 days x 8 cycles Cyclophosphamide: 600 mg/m2, intravenous, every 21 days x 8 cycles	Intervention	5
+pemetrexed	CHEBI:63616	0-10
+x	LABO:0000148	7-8
+x	LABO:0000148	51-52
+x	LABO:0000148	118-119
+cyclophosphamide	CHEBI:4026	62-78
+Inclusion Criteria: - You must be female and at least 18 years old. - You must have been diagnosed with breast cancer. - Your pre-study lab tests are within study requirements. - You must be willing to take folic acid and vitamin B12. Exclusion Criteria: - You are pregnant or breastfeeding. - You have another illness that your doctor thinks would make you unable to participate. - You are currently taking aspirin or aspirin-like medicine and are unable to stop for a few days during each cycle of therapy.	Eligibility	0
+female	PATO:0000383	34-40
+breast cancer	DOID:1612	104-117
+folic acid	CHEBI:27470	207-217
+vitamin b12	CHEBI:176843	222-233
+Outcome Measurement:	Results	0
+Best Tumor Response	Results	1
+Tumor response was assessed using radiological imaging, which was repeated every 6 weeks prior to every other cycle. Confirmation of response was to occur no less than 4 weeks (28 days) after the first evidence of response.	Results	2
+Time frame: baseline to measured progressive disease	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	33-44
+disease	DOID:4,OGMS:0000031	45-52
+Results 1:	Results	4
+Arm/Group Title: Pemetrexed 600mg/m2	Results	5
+pemetrexed	CHEBI:63616	17-27
+Arm/Group Description: Pemetrexed: 600 mg/m2, intravenous, every 21 days x 8 cycles Cyclophosphamide: 600 mg/m2, intravenous, every 21 days x 8 cycles	Results	6
+pemetrexed	CHEBI:63616	23-33
+x	LABO:0000148	30-31
+x	LABO:0000148	73-74
+x	LABO:0000148	140-141
+cyclophosphamide	CHEBI:4026	84-100
+Overall Number of Participants Analyzed: 42	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Complete Response: 0	Results	9
+Partial Response: 8	Results	10
+Stable Disease: 18	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 13	Results	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Unknown: 3	Results	13
+Not Assessed: 0	Results	14
+Results 2:	Results	15
+Arm/Group Title: Pemetrexed 1800mg/m2	Results	16
+pemetrexed	CHEBI:63616	17-27
+Arm/Group Description: Pemetrexed: 1800 mg/m2, intravenous, every 21 days x 8 cycles Cyclophosphamide: 600 mg/m2, intravenous, every 21 days x 8 cycles	Results	17
+pemetrexed	CHEBI:63616	23-33
+x	LABO:0000148	30-31
+x	LABO:0000148	74-75
+x	LABO:0000148	141-142
+cyclophosphamide	CHEBI:4026	85-101
+Overall Number of Participants Analyzed: 61	Results	18
+Measure Type: Number	Results	19
+Unit of Measure: participants  Complete Response: 0	Results	20
+Partial Response: 20	Results	21
+Stable Disease: 26	Results	22
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 8	Results	23
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Unknown: 5	Results	24
+Not Assessed: 2	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 6	Adverse Events	1
+Agranulocytosis 0/42 (0.00%)	Adverse Events	2
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Anaemia 2/42 (4.76%)	Adverse Events	3
+Febrile neutropenia 1/42 (2.38%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/42 (0.00%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/42 (2.38%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/42 (2.38%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardio-respiratory arrest 0/42 (0.00%)	Adverse Events	8
+Pericardial effusion 1/42 (2.38%)	Adverse Events	9
+pericardial effusion	HP:0001698,DOID:118	0-20
+Gastric ulcer haemorrhage 0/42 (0.00%)	Adverse Events	10
+gastric ulcer	HP:0002592,DOID:10808	0-13
+Melaena 0/42 (0.00%)	Adverse Events	11
+Fatigue 1/42 (2.38%)	Adverse Events	12
+fatigue	HP:0012378	0-7
+Multi-organ failure 0/42 (0.00%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 13	Adverse Events	15
+Agranulocytosis 1/61 (1.64%)	Adverse Events	16
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Anaemia 1/61 (1.64%)	Adverse Events	17
+Febrile neutropenia 0/61 (0.00%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 2/61 (3.28%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 2/61 (3.28%)	Adverse Events	20
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/61 (1.64%)	Adverse Events	21
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardio-respiratory arrest 1/61 (1.64%)	Adverse Events	22
+Pericardial effusion 0/61 (0.00%)	Adverse Events	23
+pericardial effusion	HP:0001698,DOID:118	0-20
+Gastric ulcer haemorrhage 1/61 (1.64%)	Adverse Events	24
+gastric ulcer	HP:0002592,DOID:10808	0-13
+Melaena 1/61 (1.64%)	Adverse Events	25
+Fatigue 1/61 (1.64%)	Adverse Events	26
+fatigue	HP:0012378	0-7
+Multi-organ failure 1/61 (1.64%)	Adverse Events	27

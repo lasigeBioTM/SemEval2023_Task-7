@@ -1,0 +1,88 @@
+INTERVENTION 1:	Intervention	0
+American Ginseng Root	Intervention	1
+four, 250mg tablets daily 5-14 days prior to surgery	Intervention	2
+surgery	OAE:0000067	45-52
+American Ginseng root: four, 250mg tablets daily 5-14 days prior to surgery	Intervention	3
+surgery	OAE:0000067	68-75
+Inclusion Criteria:	Eligibility	0
+Patients with cytologically confirmed breast cancer with biopsy showing invasive or non-invasive (DCIS) at least 1.0 cm greatest diameter on imaging	Eligibility	1
+breast cancer	DOID:1612	38-51
+diameter	PATO:0001334	129-137
+Surgical patients undergoing lumpectomy, subtotal or total mastectomy	Eligibility	2
+18 years of age or greater	Eligibility	3
+age	PATO:0000011	12-15
+female	Eligibility	4
+female	PATO:0000383	0-6
+available tissue blocks from diagnostic biopsy	Eligibility	5
+tissue	UBERON:0000479	10-16
+negative pregnancy test, medical history of surgical sterilization, or 1 year post menopausal	Eligibility	6
+history	BFO:0000182	33-40
+year	UO:0000036	73-77
+must be willing to forego surgery for minimum of 5 days	Eligibility	7
+surgery	OAE:0000067	26-33
+ability and willingness to sign written consent	Eligibility	8
+if hypertensive, on stable dose of medication at least 30 days	Eligibility	9
+stable	HP:0031915	20-26
+if diabetic, well controlled (HbA1C < 8.5 within past 60 days or documented FPG < 140 mg/dl for 3 consecutive days	Eligibility	10
+ECOG status < 2 or Karnofsky of 60% or greater	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+previous or current malignancy, excluding non-melanomic skin cancer	Eligibility	13
+skin cancer	DOID:4159	56-67
+evidence of distant metastatic disease	Eligibility	14
+disease	DOID:4,OGMS:0000031	31-38
+history of chemotherapy, biologic or radiotherapy with 6 months of biopsy	Eligibility	15
+history	BFO:0000182	0-7
+radiotherapy	OAE:0000235	37-49
+usage of herbal supplements or alternative medications not approved by the FDA within 1 week of starting study drug. LEAG or related ginseng products, and combination products containing ginseng, should be discontinued within 6 weeks of starting study drug	Eligibility	16
+week	UO:0000034	88-92
+week	UO:0000034	228-232
+drug	CHEBI:23888	111-115
+drug	CHEBI:23888	252-256
+history of allergic reactions attributed to compounds of similar chemical or biologic composition to LEAG	Eligibility	17
+history	BFO:0000182	0-7
+history of chronic inflammatory process, including, but not limited to, rheumatoid arthritis and lupus. This includes patients on concurrent systemic steroids or anti-inflammatory medications	Eligibility	18
+history	BFO:0000182	0-7
+chronic	HP:0011010	11-18
+process	BFO:0000015	32-39
+rheumatoid arthritis	HP:0001370,DOID:7148	72-92
+active bleeding or a pathological condition that carries a high risk of bleeding	Eligibility	19
+active	PATO:0002354	0-6
+condition	PDRO:0000129	34-43
+any swallowing dysfunction	Eligibility	20
+uncontrolled intercurrent illness	Eligibility	21
+poorly controlled diabetes (control indicated with HbA1c < 8.5 within past 60 days or documented fasting blood glucose < 140 mg/dl for three consecutive days)	Eligibility	22
+blood	UBERON:0000178	105-110
+glucose	CHEBI:4167,BAO:0000924	111-118
+known diabetics who have experienced episodes of symptomatic hypoglycemia in the last 6 months are also considered poorly controlled and will be excluded from study participation.	Eligibility	23
+hypoglycemia	HP:0001943,DOID:9993	61-73
+excluded	HP:0040285	145-153
+uncontrolled hypertension (SBP > 140 mmHg or DBP > 90 mmHG)	Eligibility	24
+hypertension	HP:0000822,DOID:10763	13-25
+pregnant or breast feeding women Women must be willing to use birth control throughout study duration.	Eligibility	25
+breast	UBERON:0000310	12-18
+duration	PATO:0001309	93-101
+current investigational medications or treatment with an investigational agent within 6 weeks prior to biopsy	Eligibility	26
+current coumadin therapy or who have been treated with coumadin within the 2 weeks prior to biopsy	Eligibility	27
+current monoamine oxidase inhibitors treatment	Eligibility	28
+monoamine	CHEBI:63534	8-17
+Outcome Measurement:	Results	0
+Adiponectin	Results	1
+adiponectin	CHEBI:81572	0-11
+Change from baseline to completion of treatment with LEAG.	Results	2
+Time frame: mean of 11.8 days	Results	3
+time	PATO:0000165	0-4
+mean	BAO:0002173	12-16
+Results 1:	Results	4
+Arm/Group Title: American Ginseng Root	Results	5
+Arm/Group Description: four, 250mg tablets daily 5-14 days prior to surgery	Results	6
+surgery	OAE:0000067	68-75
+American Ginseng root: four, 250mg tablets daily 5-14 days prior to surgery	Results	7
+surgery	OAE:0000067	68-75
+Overall Number of Participants Analyzed: 11	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: pg/ml  1308         (11,985)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 1/16 (6.25%)	Adverse Events	1
+hemorrhage/ bleeding * [1]1/16 (6.25%)	Adverse Events	2

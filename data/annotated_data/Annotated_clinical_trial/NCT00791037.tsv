@@ -1,0 +1,223 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Vaccine Therapy+ex Vivo-expanded T Cells)	Intervention	1
+vaccine	VO:0000001	11-18
+t	CHEBI:36371,BAO:0001260	0-1
+t	CHEBI:36371,BAO:0001260	4-5
+t	CHEBI:36371,BAO:0001260	8-9
+t	CHEBI:36371,BAO:0001260	19-20
+t	CHEBI:36371,BAO:0001260	44-45
+Patients receive HER2/neu peptide vaccine admixed with sargramostim (GM-CSF) ID on days 1, 8, and 15. Beginning 2 weeks later, patients undergo leukapheresis to isolate and collect peripheral blood mononuclear cells for T-cell expansion.	Intervention	2
+peptide	CHEBI:16670,BAO:0000325	26-33
+vaccine	VO:0000001	34-41
+peripheral	HP:0030646	181-191
+blood	UBERON:0000178	192-197
+Patients receive cyclophosphamide IV once on day -1 and autologous ex vivo-expanded HER2-specific T cell IV over 30 minutes on day 1. Treatment repeats every 7-10 days for up to three immunizations. Patients receive a booster HER2/neu peptide vaccine 1 month after the final T-cell infusion, followed by 2 additional booster vaccines at 2-month intervals.	Intervention	3
+cyclophosphamide	CHEBI:4026	17-33
+day	UO:0000033	45-48
+day	UO:0000033	127-130
+day	UO:0000033	163-166
+t	CHEBI:36371,BAO:0001260	2-3
+t	CHEBI:36371,BAO:0001260	6-7
+t	CHEBI:36371,BAO:0001260	58-59
+t	CHEBI:36371,BAO:0001260	98-99
+t	CHEBI:36371,BAO:0001260	120-121
+t	CHEBI:36371,BAO:0001260	134-135
+t	CHEBI:36371,BAO:0001260	138-139
+t	CHEBI:36371,BAO:0001260	142-143
+t	CHEBI:36371,BAO:0001260	149-150
+t	CHEBI:36371,BAO:0001260	175-176
+t	CHEBI:36371,BAO:0001260	178-179
+t	CHEBI:36371,BAO:0001260	192-193
+t	CHEBI:36371,BAO:0001260	201-202
+t	CHEBI:36371,BAO:0001260	205-206
+t	CHEBI:36371,BAO:0001260	222-223
+t	CHEBI:36371,BAO:0001260	238-239
+t	CHEBI:36371,BAO:0001260	256-257
+t	CHEBI:36371,BAO:0001260	261-262
+t	CHEBI:36371,BAO:0001260	265-266
+t	CHEBI:36371,BAO:0001260	275-276
+t	CHEBI:36371,BAO:0001260	310-311
+t	CHEBI:36371,BAO:0001260	321-322
+t	CHEBI:36371,BAO:0001260	335-336
+t	CHEBI:36371,BAO:0001260	342-343
+t	CHEBI:36371,BAO:0001260	347-348
+peptide	CHEBI:16670,BAO:0000325	235-242
+vaccine	VO:0000001	243-250
+vaccine	VO:0000001	325-332
+month	UO:0000035	253-258
+month	UO:0000035	339-344
+HER-2/neu peptide vaccine: Given ID	Intervention	4
+peptide	CHEBI:16670,BAO:0000325	10-17
+vaccine	VO:0000001	18-25
+leukapheresis: Undergo leukapheresis	Intervention	5
+ex vivo-expanded HER2-specific T cells: Given IV	Intervention	6
+t	CHEBI:36371,BAO:0001260	31-32
+cyclophosphamide: Given IV	Intervention	7
+cyclophosphamide	CHEBI:4026	0-16
+sargramostim: Given ID	Intervention	8
+laboratory biomarker analysis: Correlative study	Intervention	9
+biomarker	CHEBI:59163	11-20
+Inclusion Criteria:	Eligibility	0
+Patients with HER2+ Stage IV breast cancer that have been maximally treated and not achieved a complete remission	Eligibility	1
+breast cancer	DOID:1612	29-42
+Patients must have stable or slowly progressive disease state, measurable disease as:	Eligibility	2
+stable	HP:0031915	19-25
+slowly progressive	HP:0003677	29-47
+disease	DOID:4,OGMS:0000031	48-55
+disease	DOID:4,OGMS:0000031	74-81
+Extraskeletal disease that can be accurately measured >= 10 mm by standard imaging techniques that can include but not limited to computed tomography (CT), positron emission tomography (PET), PET/CT, magnetic resonance imaging (MRI);	Eligibility	3
+disease	DOID:4,OGMS:0000031	14-21
+tomography	BAO:0002525	139-149
+tomography	BAO:0002525	174-184
+ct	BAO:0002125	151-153
+ct	BAO:0002125	196-198
+positron	CHEBI:30225	156-164
+Skeletal or bone-only disease which is measurable by fludeoxyglucose (FDG) PET or PET/CT imaging will also be allowed	Eligibility	4
+disease	DOID:4,OGMS:0000031	22-29
+Patients can be currently receiving trastuzumab and/or lapatinib and/or hormonal therapy and/or bisphosphonate therapy	Eligibility	5
+lapatinib	CHEBI:49603	55-64
+HER2 overexpression in the primary tumor or metastasis by immunohistochemistry (IHC) of 2+ or 3+, or documented gene amplification by fluorescence in situ hybridization (FISH) analysis; if overexpression is 2+ by IHC, then patients must have HER2 gene amplification documented by FISH	Eligibility	6
+immunohistochemistry	BAO:0000415	58-78
+gene	BAO:0000582	112-116
+gene	BAO:0000582	247-251
+Subjects must have a Performance Status Score (Southwest Oncology Group [SWOG]/Zubrod Scale) = 0, 1 or 2	Eligibility	7
+group	CHEBI:24433	66-71
+Patients must be off all immunosuppressive treatments such as chemotherapy or systemic steroid therapy a minimum of 14 days prior to initiation of study (i.e. first vaccination)	Eligibility	8
+steroid	CHEBI:35341	87-94
+vaccination	VO:0000002	165-176
+Patients on trastuzumab and/or lapatinib must have a baseline left ventricular ejection fraction (LVEF) measured by multi gated acquisition scan (MUGA) or echocardiogram (ECHO) equal to or greater than the lower limit of normal for the facility within 90 days of eligibility determination	Eligibility	9
+lapatinib	CHEBI:49603	31-40
+left	HP:0012835	62-66
+ejection fraction	CMO:0000180	79-96
+Men and women of reproductive ability must agree to contraceptive use during the entire study period	Eligibility	10
+Patients must have an expected survival of 6 months	Eligibility	11
+White blood cell (WBC) >= 3000/mm^3	Eligibility	12
+blood	UBERON:0000178	6-11
+Absolute neutrophil count (ANC) >= 1000/mm^3	Eligibility	13
+Hemoglobin (Hgb) >= 10 mg/dl	Eligibility	14
+hemoglobin	CHEBI:35143	0-10
+Platelets >= 75,000/mm^3	Eligibility	15
+Serum creatinine =< 2.0 mg/dl or creatinine clearance > 60 ml/min	Eligibility	16
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	33-43
+creatinine clearance	CMO:0000765	33-53
+Total bilirubin =< 2.5 mg/dl	Eligibility	17
+Aspartate aminotransferase (AST)/serum glutamic oxaloacetic transaminase (SGOT) =< 3 times upper limit of normal (ULN)	Eligibility	18
+aspartate	CHEBI:29995	0-9
+Patients must be >= 18 years old	Eligibility	19
+Exclusion Criteria:	Eligibility	20
+Patients with any of the following cardiac conditions:	Eligibility	21
+Symptomatic restrictive cardiomyopathy;	Eligibility	22
+restrictive cardiomyopathy	HP:0001723,DOID:397	12-38
+Unstable angina within 4 months prior to enrollment;	Eligibility	23
+New York Heart Association functional class III-IV heart failure on active treatment	Eligibility	24
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	51-56
+functional	BAO:0000010	27-37
+active	PATO:0002354	68-74
+Patients with any contraindication to receiving rhuGM-CSF based products	Eligibility	25
+contraindication	OAE:0000055	18-34
+Patients with any clinically significant autoimmune disease uncontrolled with treatment	Eligibility	26
+autoimmune disease	DOID:417	41-59
+Patients with a history of brain metastases must have a stable head imaging study within 30 days of eligibility determination; specifically, patients with active brain metastases will not be eligible for study	Eligibility	27
+history	BFO:0000182	16-23
+brain	UBERON:0000955	27-32
+brain	UBERON:0000955	162-167
+stable	HP:0031915	56-62
+head	UBERON:0000033	63-67
+active	PATO:0002354	155-161
+Patients who are simultaneously enrolled in any other treatment study	Eligibility	28
+Pregnant or breast-feeding women	Eligibility	29
+Outcome Measurement:	Results	0
+Evaluate Toxicity of Infusing HER2-specific T Cells as Assessed by National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) v3.0	Results	1
+t	CHEBI:36371,BAO:0001260	6-7
+t	CHEBI:36371,BAO:0001260	9-10
+t	CHEBI:36371,BAO:0001260	15-16
+t	CHEBI:36371,BAO:0001260	44-45
+t	CHEBI:36371,BAO:0001260	69-70
+t	CHEBI:36371,BAO:0001260	86-87
+t	CHEBI:36371,BAO:0001260	88-89
+t	CHEBI:36371,BAO:0001260	90-91
+t	CHEBI:36371,BAO:0001260	106-107
+t	CHEBI:36371,BAO:0001260	121-122
+t	CHEBI:36371,BAO:0001260	143-144
+t	CHEBI:36371,BAO:0001260	148-149
+cancer	DOID:162	76-82
+Patients are monitored for the development of end organ damage by assessing adverse events with serum chemistries, liver function studies, complete blood counts, urine analysis and physical exams. All adverse events for all systems are graded on a scale of 1-5 and attribution is assigned. There are DLT criteria. DLT is defined as any incidence of Grade 3 hematologic and non-hematologic toxicity (excluding: fever, hypoxia, and urticaria) Thus, if a subject develops a Grade 3 toxicity (excluding those listed in Table 4) will be considered excessive toxicity and no further dose escalations will occur.	Results	2
+organ	UBERON:0000062	50-55
+liver	UBERON:0002107	115-120
+function	BAO:0003117,BFO:0000034	121-129
+blood	UBERON:0000178	148-153
+urine	UBERON:0001088	162-167
+fever	HP:0001945	410-415
+urticaria	HP:0001025,DOID:1555	430-439
+Time frame: Up to 4 months after first booster vaccine	Results	3
+time	PATO:0000165	0-4
+vaccine	VO:0000001	47-54
+Results 1:	Results	4
+Arm/Group Title: Treatment (Vaccine Therapy+ex Vivo-expanded T Cells)	Results	5
+vaccine	VO:0000001	28-35
+t	CHEBI:36371,BAO:0001260	10-11
+t	CHEBI:36371,BAO:0001260	12-13
+t	CHEBI:36371,BAO:0001260	17-18
+t	CHEBI:36371,BAO:0001260	21-22
+t	CHEBI:36371,BAO:0001260	25-26
+t	CHEBI:36371,BAO:0001260	36-37
+t	CHEBI:36371,BAO:0001260	61-62
+Arm/Group Description: Patients receive HER2/neu peptide vaccine admixed with sargramostim (GM-CSF) ID on days 1, 8, and 15. Beginning 2 weeks later, patients undergo leukapheresis to isolate and collect peripheral blood mononuclear cells for T-cell expansion.	Results	6
+peptide	CHEBI:16670,BAO:0000325	49-56
+vaccine	VO:0000001	57-64
+peripheral	HP:0030646	204-214
+blood	UBERON:0000178	215-220
+Patients receive cyclophosphamide IV once on day -1 and autologous ex vivo-expanded HER2-specific T cell IV over 30 minutes on day 1. Treatment repeats every 7-10 days for up to three immunizations. Patients receive a booster HER2/neu peptide vaccine 1 month after the final T-cell infusion, followed by 2 additional booster vaccines at 2-month intervals.	Results	7
+cyclophosphamide	CHEBI:4026	17-33
+day	UO:0000033	45-48
+day	UO:0000033	127-130
+day	UO:0000033	163-166
+t	CHEBI:36371,BAO:0001260	2-3
+t	CHEBI:36371,BAO:0001260	6-7
+t	CHEBI:36371,BAO:0001260	58-59
+t	CHEBI:36371,BAO:0001260	98-99
+t	CHEBI:36371,BAO:0001260	120-121
+t	CHEBI:36371,BAO:0001260	134-135
+t	CHEBI:36371,BAO:0001260	138-139
+t	CHEBI:36371,BAO:0001260	142-143
+t	CHEBI:36371,BAO:0001260	149-150
+t	CHEBI:36371,BAO:0001260	175-176
+t	CHEBI:36371,BAO:0001260	178-179
+t	CHEBI:36371,BAO:0001260	192-193
+t	CHEBI:36371,BAO:0001260	201-202
+t	CHEBI:36371,BAO:0001260	205-206
+t	CHEBI:36371,BAO:0001260	222-223
+t	CHEBI:36371,BAO:0001260	238-239
+t	CHEBI:36371,BAO:0001260	256-257
+t	CHEBI:36371,BAO:0001260	261-262
+t	CHEBI:36371,BAO:0001260	265-266
+t	CHEBI:36371,BAO:0001260	275-276
+t	CHEBI:36371,BAO:0001260	310-311
+t	CHEBI:36371,BAO:0001260	321-322
+t	CHEBI:36371,BAO:0001260	335-336
+t	CHEBI:36371,BAO:0001260	342-343
+t	CHEBI:36371,BAO:0001260	347-348
+peptide	CHEBI:16670,BAO:0000325	235-242
+vaccine	VO:0000001	243-250
+vaccine	VO:0000001	325-332
+month	UO:0000035	253-258
+month	UO:0000035	339-344
+HER-2/neu peptide vaccine: Given ID	Results	8
+peptide	CHEBI:16670,BAO:0000325	10-17
+vaccine	VO:0000001	18-25
+leukapheresis: Undergo leukapheresis	Results	9
+ex vivo-expanded HER2-specific T cells: Given IV	Results	10
+t	CHEBI:36371,BAO:0001260	31-32
+cyclophosphamide: Given IV	Results	11
+cyclophosphamide	CHEBI:4026	0-16
+sargramostim: Given ID	Results	12
+laboratory biomarker analysis: Correlative study	Results	13
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 19	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: participants  0	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 1/23 (4.35%)	Adverse Events	1
+Unrelated Pulmonary Embolus 1/23 (4.35%)	Adverse Events	2

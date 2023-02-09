@@ -1,0 +1,162 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab	Intervention	1
+trastuzumab: Trastuzumab (Herceptin®) IV over 30-90 minutes on day 1. Treatment repeats every 3 weeks for up to 52 weeks in the absence of disease progression or unacceptable toxicity.	Intervention	2
+day	UO:0000033	63-66
+disease	DOID:4,OGMS:0000031	139-146
+laboratory biomarker analysis: Blood is collected every 6 weeks during treatment. Samples are assessed for plasma cardiac markers (N-terminal brain natriuretic protein and troponin-I) and pro-inflammatory cytokines (interleukin-6 and tumor necrosis factor-α).	Intervention	3
+biomarker	CHEBI:59163	11-20
+blood	UBERON:0000178	31-36
+brain	UBERON:0000955	142-147
+protein	CHEBI:36080,BAO:0000175	160-167
+interleukin-6	BAO:0000204	216-229
+adjuvant therapy: Patients receive trastuzumab (Herceptin®) IV over 30-90 minutes on day 1. Treatment repeats every 3 weeks for up to 52 weeks in the absence of disease progression or unacceptable toxicity.	Intervention	4
+adjuvant	CHEBI:60809	0-8
+day	UO:0000033	85-88
+disease	DOID:4,OGMS:0000031	161-168
+quality-of-life assessment: Patients complete Quality of Life and Quality of Health and Comprehensive Geriatric assessments of functional, cognitive, and mental status changes at baseline, weeks 26, and 52.	Intervention	5
+quality	BAO:0002928,BFO:0000019	0-7
+quality	BAO:0002928,BFO:0000019	46-53
+quality	BAO:0002928,BFO:0000019	66-73
+functional	BAO:0000010	127-137
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+Immunohistochemical staining for Her2 protein of 3+ intensity or Her2 gene amplification of  2.0 by FISH testing.	Eligibility	2
+protein	CHEBI:36080,BAO:0000175	38-45
+intensity	PATO:0000049	52-61
+gene	BAO:0000582	70-74
+Life expectancy > 6 months	Eligibility	3
+ECOG performance status  2	Eligibility	4
+Node positive disease irrespective of tumor size	Eligibility	5
+disease	DOID:4,OGMS:0000031	14-21
+size	PATO:0000117	44-48
+Node negative disease:	Eligibility	6
+disease	DOID:4,OGMS:0000031	14-21
+TNM Stage (AJCC Cancer Staging Manual 6th edition) T1b-T4, N0-3, M0, irrespective of hormonal status	Eligibility	7
+cancer	DOID:162	16-22
+Baseline LVEF  lower limit of normal for a particular institution	Eligibility	8
+Complete surgical removal of invasive cancer by mastectomy or lumpectomy	Eligibility	9
+cancer	DOID:162	38-44
+Complete staging work-up with CT of chest, abdomen, and pelvis plus bone scan or alternatively with PET scan for stage II and higher disease, or as determined by symptoms for all other stages. Additional staging work-up as per symptoms.	Eligibility	10
+ct	BAO:0002125	30-32
+chest	UBERON:0001443	36-41
+abdomen	UBERON:0000916	43-50
+disease	DOID:4,OGMS:0000031	133-140
+Adequate bone marrow function as indicated by the following:	Eligibility	11
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+ANC >1000/µL	Eligibility	12
+Platelets 100,000/µL	Eligibility	13
+Hemoglobin >10 g/dL	Eligibility	14
+hemoglobin	CHEBI:35143	0-10
+Adequate liver function, as indicated by bilirubin 1.5 x upper limit of normal (ULN) Adequate renal function, as indicated by creatinine 1.5 x ULN	Eligibility	15
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+function	BAO:0003117,BFO:0000034	100-108
+x	LABO:0000148	55-56
+x	LABO:0000148	141-142
+creatinine	CHEBI:16737	126-136
+AST or ALT <2 x ULN unless related to primary disease.	Eligibility	16
+x	LABO:0000148	14-15
+disease	DOID:4,OGMS:0000031	46-53
+Signed informed consent	Eligibility	17
+Exclusion Criteria:	Eligibility	18
+Enrollment after more than 120 days from the last day of mastectomy or lumpectomy	Eligibility	19
+day	UO:0000033	31-34
+day	UO:0000033	50-53
+Patients able to tolerate and willing to receive chemotherapy	Eligibility	20
+Prior chemotherapy for current malignancy	Eligibility	21
+Prior herceptin therapy	Eligibility	22
+Active cardiac disease	Eligibility	23
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	15-22
+Myocardial infarction (asymptomatic changes on EKG suggestive of old MI is not an exclusion)	Eligibility	24
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Angina pectoris requiring anti-anginal treatment	Eligibility	25
+angina pectoris	HP:0001681	0-15
+Documented congestive heart failure (CHF)	Eligibility	26
+congestive heart failure	HP:0001635,DOID:6000	11-35
+Current use of any therapy specifically for CHF	Eligibility	27
+Cardiac arrhythmia requiring medication	Eligibility	28
+arrhythmia	HP:0011675	8-18
+Current uncontrolled hypertension (diastolic >100 mmHg or systolic > 200 mmHg)	Eligibility	29
+hypertension	HP:0000822,DOID:10763	21-33
+Clinically significant valvular abnormality (associated with New York Heart Association (NYHA) class II, III, or IV symptoms)	Eligibility	30
+heart	UBERON:0000948	70-75
+Clinically significant pericardial effusion (associated with New York Heart Association (NYHA) class II, III, or IV symptoms)	Eligibility	31
+pericardial effusion	HP:0001698,DOID:118	23-43
+heart	UBERON:0000948	70-75
+Past cardiac disease	Eligibility	32
+disease	DOID:4,OGMS:0000031	13-20
+Prior myocardial infarction (asymptomatic changes on EKG suggestive of old MI is not an exclusion)	Eligibility	33
+myocardial infarction	HP:0001658,DOID:5844	6-27
+Prior history of CHF	Eligibility	34
+history	BFO:0000182	6-13
+History of cardiomyopathy	Eligibility	35
+history	BFO:0000182	0-7
+cardiomyopathy	HP:0001638,DOID:0050700	11-25
+Other diseases and conditions	Eligibility	36
+Evidence of metastatic breast cancer (clinical or radiological evidence)	Eligibility	37
+breast cancer	DOID:1612	23-36
+Active infection	Eligibility	38
+active	PATO:0002354	0-6
+Concomitant malignancies or previous malignancies within the last 3 years, with the exception of adequately treated basal or squamous cell carcinoma of the skin or carcinoma in situ of the cervix.	Eligibility	39
+squamous cell carcinoma of the skin	HP:0006739	125-160
+carcinoma	HP:0030731,DOID:305	139-148
+carcinoma	HP:0030731,DOID:305	164-173
+Hypersensitivity to trastuzumab	Eligibility	40
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Outcome Measurement:	Results	0
+Percent of Participants Experiencing Cardiac Events at 1 Year	Results	1
+percent	UO:0000187	0-7
+year	UO:0000036	57-61
+Number of participants that experience cardiac events that include cardiac death due to congestive heart failure (CHF), Myocardial infarction (MI) or documented arrhythmia, death without definitive cause, or signs and symptoms of CHF as defined by New York Heart Association (NYHA) class III or IV symptoms.	Results	2
+death	OAE:0000632	75-80
+death	OAE:0000632	173-178
+congestive heart failure	HP:0001635,DOID:6000	88-112
+myocardial infarction	HP:0001658,DOID:5844	120-141
+arrhythmia	HP:0011675	161-171
+heart	UBERON:0000948	99-104
+heart	UBERON:0000948	257-262
+Time frame: At 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	17-21
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab	Results	5
+Arm/Group Description: trastuzumab: Trastuzumab (Herceptin  ) IV over 30-90 minutes on day 1. Treatment repeats every 3 weeks for up to 52 weeks in the absence of disease progression or unacceptable toxicity.	Results	6
+day	UO:0000033	87-90
+disease	DOID:4,OGMS:0000031	163-170
+laboratory biomarker analysis: Blood is collected every 6 weeks during treatment. Samples are assessed for plasma cardiac markers (N-terminal brain natriuretic protein and troponin-I) and pro-inflammatory cytokines (interleukin-6 and tumor necrosis factor-α).	Results	7
+biomarker	CHEBI:59163	11-20
+blood	UBERON:0000178	31-36
+brain	UBERON:0000955	142-147
+protein	CHEBI:36080,BAO:0000175	160-167
+interleukin-6	BAO:0000204	216-229
+adjuvant therapy: Patients receive trastuzumab (Herceptin  ) IV over 30-90 minutes on day 1. Treatment repeats every 3 weeks for up to 52 weeks in the absence of disease progression or unacceptable toxicity.	Results	8
+adjuvant	CHEBI:60809	0-8
+day	UO:0000033	86-89
+disease	DOID:4,OGMS:0000031	162-169
+quality-of-life assessment: Patients complete Quality of Life and Quality of Health and Comprehensive Geriatric assessments of functional, cognitive, and mental status changes at baseline, weeks 26, and 52.	Results	9
+quality	BAO:0002928,BFO:0000019	0-7
+quality	BAO:0002928,BFO:0000019	46-53
+quality	BAO:0002928,BFO:0000019	66-73
+functional	BAO:0000010	127-137
+Overall Number of Participants Analyzed: 55	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: percentage of participants  3.6        (0.09 to 13.8)	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 8/56 (14.29%)	Adverse Events	1
+Platelets * 1/56 (1.79%)	Adverse Events	2
+Heart failure * 1/56 (1.79%)	Adverse Events	3
+heart	UBERON:0000948	0-5
+Left ventricular systolic dysfunction * 1/56 (1.79%)	Adverse Events	4
+left ventricular systolic dysfunction	HP:0025169	0-37
+Dehydration * 1/56 (1.79%)	Adverse Events	5
+dehydration	HP:0001944	0-11
+Diarrhea * 1/56 (1.79%)	Adverse Events	6
+diarrhea	HP:0002014,DOID:13250	0-8
+Infection with normal ANC or Grade 1 or 2 neutrophils - Bladder (urinary) * 1/56 (1.79%)	Adverse Events	7
+Sodium, serum-low (hyponatremia) * 1/56 (1.79%)	Adverse Events	8
+hyponatremia	HP:0002902	19-31
+Fracture * 2/56 (3.57%)	Adverse Events	9

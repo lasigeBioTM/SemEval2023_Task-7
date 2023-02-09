@@ -1,0 +1,252 @@
+INTERVENTION 1:	Intervention	0
+Sorafenib (Nexavar, BAY43-9006) + Capecitabine	Intervention	1
+sorafenib	CHEBI:50924	0-9
+capecitabine	CHEBI:31348	34-46
+Sorafenib tablets were administered orally continuously at a total daily dose of 600 mg (200 mg in the morning, 400 mg in the evening) in a 3-week cycle. Capecitabine was administered orally at a total daily dose of 2,000 mg/m^2 (1,000 mg/m^2 twice daily, 12 hours apart). If tolerability criteria were met for a participant, capecitabine dose was escalated to 2,500 mg/m^2 total daily dose (1,250 mg/m^2 twice daily) and sorafenib dose to a total daily dose of 800 mg for that participant.	Intervention	2
+sorafenib	CHEBI:50924	0-9
+sorafenib	CHEBI:50924	422-431
+capecitabine	CHEBI:31348	154-166
+capecitabine	CHEBI:31348	326-338
+INTERVENTION 2:	Intervention	3
+Placebo + Capecitabine	Intervention	4
+capecitabine	CHEBI:31348	10-22
+Placebo tablets matching with sorafenib were administered orally continuously (1 tablet in the morning, 2 tablets in the evening) in a 3-week cycle. Capecitabine was administered orally at a total daily dose of 2,000 mg/m^2 (1,000 mg/m^2 twice daily, 12 hours apart). If tolerability criteria were met for a participant, capecitabine dose was escalated to 2,500 mg/m^2 total daily dose (1,250 mg/m^2 twice daily) and placebo dose to a total daily dose of 4 tablets (2 tablets twice daily) for that participant.	Intervention	5
+sorafenib	CHEBI:50924	30-39
+capecitabine	CHEBI:31348	149-161
+capecitabine	CHEBI:31348	321-333
+Inclusion Criteria:	Eligibility	0
+Age is >=18 years	Eligibility	1
+age	PATO:0000011	0-3
+Subject has histologically or cytologically confirmed HER2-negative adenocarcinoma of the breast. HER2 status should be determined by an accredited laboratory	Eligibility	2
+adenocarcinoma	DOID:299	68-82
+breast	UBERON:0000310	90-96
+Subject has locally advanced or metastatic disease; locally advanced disease must not be amenable to resection with curative intent. Must have measurable or non-measurable disease (according to RECIST [Response Evaluation Criteria for Solid Tumors] 1.1)	Eligibility	3
+disease	DOID:4,OGMS:0000031	43-50
+disease	DOID:4,OGMS:0000031	69-76
+disease	DOID:4,OGMS:0000031	172-179
+All computer tomography (CT; with contrast) and magnetic resonance imaging (MRI) used to document disease must have been done <= 4 weeks before randomization. Bone scans (if clinically indicated) must have been done <= 12 weeks prior to randomization	Eligibility	4
+tomography	BAO:0002525	13-23
+ct	BAO:0002125	25-27
+document	IAO:0000310	89-97
+disease	DOID:4,OGMS:0000031	98-105
+Subject must have received up to two prior chemotherapy regimens (adjuvant/neo-adjuvant treatments are considered one regimen), and no more than one prior regimen for advanced and/or metastatic disease. Chemotherapy regimens include both targeted and biologic therapy	Eligibility	5
+disease	DOID:4,OGMS:0000031	194-201
+Prior regimens must have included an anthracycline (eg, doxorubicin, epirubicin) and a taxane (eg, paclitaxel, docetaxel), either in combination or in separate regimens, in either the neo-adjuvant/adjuvant or the metastatic setting or both, as either monotherapy or as part of a combination with another agent. Sequential regimens will count as a single regimen; multiple neo-adjuvant / adjuvant regimens will count as a single regimen	Eligibility	6
+anthracycline	CHEBI:48120	37-50
+doxorubicin	CHEBI:28748,BAO:0000639	56-67
+taxane	CHEBI:36064	87-93
+paclitaxel	CHEBI:45863	99-109
+part of	BAO:0090002,BFO:0000050	269-276
+adjuvant	CHEBI:60809	188-196
+adjuvant	CHEBI:60809	197-205
+adjuvant	CHEBI:60809	376-384
+adjuvant	CHEBI:60809	387-395
+Subjects are either resistant to or have failed prior taxane and anthracycline OR Resistant to or have failed prior taxane AND for whom further anthracycline therapy is not indicated (for example, intolerance or cumulative doses of doxorubicin or doxorubicin equivalents [for example, epirubicin)	Eligibility	7
+taxane	CHEBI:36064	54-60
+taxane	CHEBI:36064	116-122
+anthracycline	CHEBI:48120	65-78
+anthracycline	CHEBI:48120	144-157
+doxorubicin	CHEBI:28748,BAO:0000639	232-243
+doxorubicin	CHEBI:28748,BAO:0000639	247-258
+Subjects who relapse beyond 12 months after the last taxane or anthracycline dose given in the adjuvant, neo-adjuvant, or metastatic setting are eligible. Further therapy with the agent(s) for a subsequent regimen must have been considered and ruled out, for example due to prior toxicity or intolerance, or based on the local standard of practice	Eligibility	8
+taxane	CHEBI:36064	53-59
+anthracycline	CHEBI:48120	63-76
+adjuvant	CHEBI:60809	95-103
+adjuvant	CHEBI:60809	109-117
+Prior experimental chemotherapy treatment is allowed, provided it is given in combination with at least one drug approved for the treatment of breast cancer (excluding drugs that target VEGF [Vascular Endothelial Growth Factor] or VEGFR [Vascular Endothelial Growth Factor Receptor], eg, bevacizumab, brivanib, sunitinib, vatalinib).	Eligibility	9
+drug	CHEBI:23888	108-112
+drug	CHEBI:23888	168-172
+breast cancer	DOID:1612	143-156
+target	BAO:0003064	179-185
+growth factor	BAO:0002024	213-226
+growth factor	BAO:0002024	259-272
+receptor	BAO:0000281	273-281
+brivanib	CHEBI:167686	301-309
+sunitinib	CHEBI:38940	311-320
+Prior hormonal therapy for locally advanced or metastatic breast cancer is allowed. Subjects who are refractory to hormonal therapy are allowed.	Eligibility	10
+breast cancer	DOID:1612	58-71
+refractory	HP:0031375	101-111
+Prior neo-adjuvant or adjuvant chemotherapy is allowed.	Eligibility	11
+adjuvant	CHEBI:60809	10-18
+adjuvant	CHEBI:60809	22-30
+Subject must have discontinued prior chemotherapy (including both targeted and biologic therapies), prior therapeutic radiation therapy, or prior hormonal therapy for locally advanced or metastatic disease >= 4 weeks (28 days) before randomization. Start of study treatment is allowed within less than 28 days of the prior therapy provided that 5 half-lives of the prior treatment drug(s) have elapsed	Eligibility	12
+disease	DOID:4,OGMS:0000031	198-205
+drug	CHEBI:23888	381-385
+ECOG (Eastern Cooperative Oncology Group) performance status 0 or 1	Eligibility	13
+group	CHEBI:24433	35-40
+Adequate bone marrow, liver and renal function within 7 days prior to randomization	Eligibility	14
+bone marrow	UBERON:0002371	9-20
+liver	UBERON:0002107	22-27
+function	BAO:0003117,BFO:0000034	38-46
+All acute toxic effects of any prior treatment have resolved to NCI-CTCAE (National Cancer Institute-Common Terminology Criteria for Adverse Events) v4.0 Grade 1 or less	Eligibility	15
+acute	HP:0011009,PATO:0000389	4-9
+cancer	DOID:162	84-90
+Women of childbearing potential must have a negative serum pregnancy test performed within 7 days prior to randomization	Eligibility	16
+Subjects (men and women) of childbearing potential must agree to use adequate contraception beginning at the signing of the ICF (Informed Consent Form) until at least 30 days after the last dose of study drug.	Eligibility	17
+drug	CHEBI:23888	204-208
+Subject must be able to swallow and retain oral medication	Eligibility	18
+Exclusion Criteria:	Eligibility	19
+HER2 positive breast cancer	Eligibility	20
+breast cancer	DOID:1612	14-27
+Unknown hormone receptor status (estrogen and progesterone receptor).	Eligibility	21
+hormone	CHEBI:24621	8-15
+receptor	BAO:0000281	16-24
+receptor	BAO:0000281	59-67
+estrogen	CHEBI:50114,BAO:0000760	33-41
+progesterone	CHEBI:17026	46-58
+Subjects with bilateral breast cancer or a history of two distinct breast cancers.	Eligibility	22
+bilateral breast cancer	DOID:6741	14-37
+history	BFO:0000182	43-50
+breast	UBERON:0000310	24-30
+breast	UBERON:0000310	67-73
+Subjects with inflammatory breast carcinoma.	Eligibility	23
+inflammatory breast carcinoma	DOID:6263	14-43
+Subjects who have received no prior taxane and anthracycline for the treatment of breast cancer (either in adjuvant, neo-adjuvant or metastatic setting).	Eligibility	24
+taxane	CHEBI:36064	36-42
+anthracycline	CHEBI:48120	47-60
+breast cancer	DOID:1612	82-95
+adjuvant	CHEBI:60809	107-115
+adjuvant	CHEBI:60809	121-129
+Prior use of sorafenib or capecitabine	Eligibility	25
+sorafenib	CHEBI:50924	13-22
+capecitabine	CHEBI:31348	26-38
+Subjects considered by the treating investigator to be appropriate candidates for hormonal therapy as current treatment for locally advanced/metastatic breast cancer	Eligibility	26
+breast cancer	DOID:1612	152-165
+Subjects with locally advanced disease who are considered by the treating investigator to be appropriate candidates for radiation therapy as current treatment for locally advanced breast cancer	Eligibility	27
+disease	DOID:4,OGMS:0000031	31-38
+breast cancer	DOID:1612	180-193
+Subjects with active brain metastases or leptomeningeal disease.	Eligibility	28
+active	PATO:0002354	14-20
+brain	UBERON:0000955	21-26
+disease	DOID:4,OGMS:0000031	56-63
+Subjects with seizure disorder requiring medication.	Eligibility	29
+seizure	HP:0001250	14-21
+disorder	OGMS:0000045	22-30
+Radiation to any lesions <= 4 weeks prior to randomization. Palliative radiation to bone metastasis for pain control is permitted with provisions	Eligibility	30
+pain	HP:0012531	104-108
+Major surgery, open biopsy, or significant traumatic injury <= 4 weeks	Eligibility	31
+surgery	OAE:0000067	6-13
+Evidence or history of bleeding diathesis or coagulopathy. Uncontrolled hypertension, active or clinically significant cardiac disease. Subject with thrombotic, embolic, venus or arterial events	Eligibility	32
+history	BFO:0000182	12-19
+hypertension	HP:0000822,DOID:10763	72-84
+active	PATO:0002354	86-92
+disease	DOID:4,OGMS:0000031	127-134
+Subjects with any hemorrhage/bleeding event of NCI-CTCAE v4.0 Grade 3 or higher within 4 weeks before randomization	Eligibility	33
+Subjects with an infection of NCI-CTCAE v4.0 > Grade 2	Eligibility	34
+Subjects with a history of human immunodeficiency virus infection or current chronic or active hepatitis B or C infection.	Eligibility	35
+history	BFO:0000182	16-23
+immunodeficiency	HP:0002721	33-49
+virus	BAO:0000232	50-55
+chronic	HP:0011010	77-84
+active	PATO:0002354	88-94
+hepatitis b	DOID:2043	95-106
+Subjects who have used strong CYP3A4 inducers (eg, phenytoin, carbamazepine, phenobarbital, St. John's Wort [Hypericum perforatum], dexamethasone at a dose of greater than 16 mg daily, or rifampin [rifampicin], and/or rifabutin) within 28 days before randomization.	Eligibility	36
+phenytoin	CHEBI:8107	51-60
+carbamazepine	CHEBI:3387	62-75
+phenobarbital	CHEBI:8069	77-90
+dexamethasone	CHEBI:41879	132-145
+rifampicin	CHEBI:71365	198-208
+rifabutin	CHEBI:45367	218-227
+Subjects with any previously untreated or concurrent cancer that is distinct in primary site or histology from breast cancer	Eligibility	37
+cancer	DOID:162	53-59
+cancer	DOID:162	118-124
+site	BFO:0000029	88-92
+histology	NCIT:C16681	96-105
+breast cancer	DOID:1612	111-124
+Subjects with a history DHPD (Dihydropyrimidine dehydrogenase) reaction to fluropyrimidine or history of known or suspected allergy or hypersensitivity to any of the study drugs	Eligibility	38
+history	BFO:0000182	16-23
+history	BFO:0000182	94-101
+allergy	HP:0012393	124-131
+hypersensitivity	GO:0002524,DOID:1205	135-151
+Presence of a non-healing wound, non-healing ulcer, or bone fracture	Eligibility	39
+ulcer	OAE:0004372	45-50
+bone fracture	HP:0020110	55-68
+Women pregnant or breast feeding	Eligibility	40
+breast	UBERON:0000310	18-24
+Any condition which, in the investigator's opinion, makes the subject unsuitable for trial participation	Eligibility	41
+condition	PDRO:0000129	4-13
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS) Assessed by the Independent Review Panel According to Response Evaluation Criteria for Solid Tumors (RECIST) 1.1	Results	1
+PFS was defined as the time from date of randomization to disease progression, radiological or death due to any cause, whichever occurs first. Per RECIST version 1.1, progressive disease was determined when there was at least 20% increase in the sum of diameters of the target lesions, taking as a reference the smallest sum on study (this included the baseline sum if that was the smallest sum on trial). In addition to a relative increase of 20%, the sum had demonstrated an absolute increase of at least 5 mm. Appearance of new lesions and unequivocal progression of existing non-target lesions was also interpreted as progressive disease. Participants without progression or death at the time of analysis were censored at their last date of evaluable tumor evaluation. Median and other 95% confidence intervals (CIs) computed using Kaplan-Meier estimates.	Results	2
+time	PATO:0000165	23-27
+time	PATO:0000165	692-696
+disease	DOID:4,OGMS:0000031	58-65
+disease	DOID:4,OGMS:0000031	179-186
+disease	DOID:4,OGMS:0000031	634-641
+death	OAE:0000632	95-100
+death	OAE:0000632	679-684
+progressive	HP:0003676	167-178
+progressive	HP:0003676	622-633
+increase	BAO:0001251	230-238
+increase	BAO:0001251	432-440
+increase	BAO:0001251	486-494
+target	BAO:0003064	270-276
+target	BAO:0003064	583-589
+median	BAO:0002174	773-779
+Time frame: From randomization of the first participant until approximately 3 years or until disease radiological progression	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	93-100
+Results 1:	Results	4
+Arm/Group Title: Sorafenib (Nexavar, BAY43-9006) + Capecitabine	Results	5
+sorafenib	CHEBI:50924	17-26
+capecitabine	CHEBI:31348	51-63
+Arm/Group Description: Sorafenib tablets were administered orally continuously at a total daily dose of 600 mg (200 mg in the morning, 400 mg in the evening) in a 3-week cycle. Capecitabine was administered orally at a total daily dose of 2,000 mg/m^2 (1,000 mg/m^2 twice daily, 12 hours apart). If tolerability criteria were met for a participant, capecitabine dose was escalated to 2,500 mg/m^2 total daily dose (1,250 mg/m^2 twice daily) and sorafenib dose to a total daily dose of 800 mg for that participant.	Results	6
+sorafenib	CHEBI:50924	23-32
+sorafenib	CHEBI:50924	445-454
+capecitabine	CHEBI:31348	177-189
+capecitabine	CHEBI:31348	349-361
+Overall Number of Participants Analyzed: 266	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: days  166        (131 to 206)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo + Capecitabine	Results	11
+capecitabine	CHEBI:31348	27-39
+Arm/Group Description: Placebo tablets matching with sorafenib were administered orally continuously (1 tablet in the morning, 2 tablets in the evening) in a 3-week cycle. Capecitabine was administered orally at a total daily dose of 2,000 mg/m^2 (1,000 mg/m^2 twice daily, 12 hours apart). If tolerability criteria were met for a participant, capecitabine dose was escalated to 2,500 mg/m^2 total daily dose (1,250 mg/m^2 twice daily) and placebo dose to a total daily dose of 4 tablets (2 tablets twice daily) for that participant.	Results	12
+sorafenib	CHEBI:50924	53-62
+capecitabine	CHEBI:31348	172-184
+capecitabine	CHEBI:31348	344-356
+Overall Number of Participants Analyzed: 271	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: days  165        (126 to 204)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 80/260 (30.77%)	Adverse Events	1
+Anaemia * 2/260 (0.77%)	Adverse Events	2
+Febrile neutropenia * 0/260 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 2/260 (0.77%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 0/260 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Bundle branch block right * 0/260 (0.00%)	Adverse Events	6
+bundle branch block	HP:0011710	0-19
+right	HP:0012834	20-25
+Pericardial effusion * 0/260 (0.00%)	Adverse Events	7
+pericardial effusion	HP:0001698,DOID:118	0-20
+Cardiopulmonary failure * 0/260 (0.00%)	Adverse Events	8
+Aplasia * 0/260 (0.00%)	Adverse Events	9
+Eye symptom * 1/260 (0.38%)	Adverse Events	10
+eye	UBERON:0000970	0-3
+symptom	OGMS:0000020	4-11
+Abdominal discomfort * 0/260 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 71/267 (26.59%)	Adverse Events	13
+Anaemia * 2/267 (0.75%)	Adverse Events	14
+Febrile neutropenia * 1/267 (0.37%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/267 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 1/267 (0.37%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Bundle branch block right * 1/267 (0.37%)	Adverse Events	18
+bundle branch block	HP:0011710	0-19
+right	HP:0012834	20-25
+Pericardial effusion * 5/267 (1.87%)	Adverse Events	19
+pericardial effusion	HP:0001698,DOID:118	0-20
+Cardiopulmonary failure * 1/267 (0.37%)	Adverse Events	20
+Aplasia * 1/267 (0.37%)	Adverse Events	21
+Eye symptom * 0/267 (0.00%)	Adverse Events	22
+eye	UBERON:0000970	0-3
+symptom	OGMS:0000020	4-11
+Abdominal discomfort * 1/267 (0.37%)	Adverse Events	23

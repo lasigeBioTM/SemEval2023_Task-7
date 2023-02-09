@@ -1,0 +1,159 @@
+INTERVENTION 1:	Intervention	0
+Arm I	Intervention	1
+Patients receive vaccination comprising p53-infected autologous dendritic cells subcutaneously (SC) 1 week after completion of doxorubicin and cyclophosphamide, 1 week after completion of paclitaxel (or after surgery for patients with stage III disease), and at 6 and 12 weeks after completion of radiotherapy (for a total of 4 vaccinations).	Intervention	2
+vaccination	VO:0000002	17-28
+vaccination	VO:0000002	328-339
+week	UO:0000034	102-106
+week	UO:0000034	163-167
+week	UO:0000034	271-275
+doxorubicin	CHEBI:28748,BAO:0000639	127-138
+cyclophosphamide	CHEBI:4026	143-159
+paclitaxel	CHEBI:45863	188-198
+surgery	OAE:0000067	209-216
+disease	DOID:4,OGMS:0000031	245-252
+radiotherapy	OAE:0000235	297-309
+autologous dendritic cell-adenovirus p53 vaccine: Given subcutaneously on one of two schedules	Intervention	3
+vaccine	VO:0000001	41-48
+INTERVENTION 2:	Intervention	4
+Arm II	Intervention	5
+Patients receive vaccination comprising p53-infected autologous dendritic cells SC at 6, 8, 10, and 12 weeks after completion of radiotherapy.	Intervention	6
+vaccination	VO:0000002	17-28
+radiotherapy	OAE:0000235	129-141
+autologous dendritic cell-adenovirus p53 vaccine: Given subcutaneously on one of two schedules	Intervention	7
+vaccine	VO:0000001	41-48
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed invasive breast cancer meeting the following criteria:	Eligibility	1
+breast cancer	DOID:1612	34-47
+Clinically locally advanced disease (stage III) with a primary tumor at least 4 cm by mammogram, ultrasound, or palpation AND/OR palpable axillary nodes larger than 1 cm	Eligibility	2
+disease	DOID:4,OGMS:0000031	28-35
+Planned neoadjuvant chemotherapy	Eligibility	3
+p53-overexpressing tumor by immunohistochemistry	Eligibility	4
+immunohistochemistry	BAO:0000415	28-48
+Delayed-type hypersensitivity to at least 1 of 3 standard antigens	Eligibility	5
+hypersensitivity	GO:0002524,DOID:1205	13-29
+Hormone receptor status:	Eligibility	6
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	7
+PATIENT CHARACTERISTICS:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	9
+age	PATO:0000011	0-3
+19 and over	Eligibility	10
+Sex	Eligibility	11
+Female	Eligibility	12
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	13
+Not specified	Eligibility	14
+Performance status	Eligibility	15
+ECOG 0-1	Eligibility	16
+Life expectancy	Eligibility	17
+Not specified	Eligibility	18
+Hematopoietic	Eligibility	19
+WBC > 4,000/mm^3	Eligibility	20
+Platelet count > 100,000/mm^3	Eligibility	21
+platelet count	CMO:0000029	0-14
+Hepatic	Eligibility	22
+Bilirubin < 2 times upper limit of normal (ULN)	Eligibility	23
+Hepatitis B surface antigen negative	Eligibility	24
+hepatitis b	DOID:2043	0-11
+antigen	CHEBI:59132	20-27
+Hepatitis C antibody negative	Eligibility	25
+hepatitis c	DOID:1883	0-11
+antibody	GO:0042571,BAO:0000502	12-20
+Renal	Eligibility	26
+Creatinine < 2 times ULN	Eligibility	27
+creatinine	CHEBI:16737	0-10
+Immunologic	Eligibility	28
+HIV negative	Eligibility	29
+No prior or concurrent autoimmune disorder	Eligibility	30
+disorder	OGMS:0000045	34-42
+Other	Eligibility	31
+Not pregnant or nursing	Eligibility	32
+Negative pregnancy test	Eligibility	33
+Fertile patients must use effective contraception during and for at least 6 months after study participation	Eligibility	34
+No other concurrent illness that would preclude study participation	Eligibility	35
+PRIOR CONCURRENT THERAPY:	Eligibility	36
+Biologic therapy	Eligibility	37
+Not specified	Eligibility	38
+Chemotherapy	Eligibility	39
+See Disease Characteristics	Eligibility	40
+disease	DOID:4,OGMS:0000031	4-11
+No prior chemotherapy	Eligibility	41
+Endocrine therapy	Eligibility	42
+Not specified	Eligibility	43
+Radiotherapy	Eligibility	44
+radiotherapy	OAE:0000235	0-12
+Not specified	Eligibility	45
+Surgery	Eligibility	46
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	47
+disease	DOID:4,OGMS:0000031	4-11
+Other	Eligibility	48
+No concurrent participation in another therapeutic clinical trial	Eligibility	49
+Outcome Measurement:	Results	0
+Number of Participants Who Experienced Toxicity to the Vaccine	Results	1
+vaccine	VO:0000001	55-62
+This outcome measure looks at the safety of the vaccine by documenting the number of grade 2, 3, or toxicities experienced by participants related to the vaccine.	Results	2
+vaccine	VO:0000001	48-55
+vaccine	VO:0000001	154-161
+Time frame: 1 week after each vaccine dose.	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	14-18
+vaccine	VO:0000001	30-37
+Results 1:	Results	4
+Arm/Group Title: Arm I	Results	5
+Arm/Group Description: Patients receive vaccination comprising p53-infected autologous dendritic cells subcutaneously (SC) 1 week after completion of doxorubicin and cyclophosphamide, 1 week after completion of paclitaxel (or after surgery for patients with stage III disease), and at 6 and 12 weeks after completion of radiotherapy (for a total of 4 vaccinations).	Results	6
+vaccination	VO:0000002	40-51
+vaccination	VO:0000002	351-362
+week	UO:0000034	125-129
+week	UO:0000034	186-190
+week	UO:0000034	294-298
+doxorubicin	CHEBI:28748,BAO:0000639	150-161
+cyclophosphamide	CHEBI:4026	166-182
+paclitaxel	CHEBI:45863	211-221
+surgery	OAE:0000067	232-239
+disease	DOID:4,OGMS:0000031	268-275
+radiotherapy	OAE:0000235	320-332
+autologous dendritic cell-adenovirus p53 vaccine: Given subcutaneously on one of two schedules	Results	7
+vaccine	VO:0000001	41-48
+Overall Number of Participants Analyzed: 11	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  0   0.0%	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm II	Results	12
+Arm/Group Description: Patients receive vaccination comprising p53-infected autologous dendritic cells SC at 6, 8, 10, and 12 weeks after completion of radiotherapy.	Results	13
+vaccination	VO:0000002	40-51
+radiotherapy	OAE:0000235	152-164
+autologous dendritic cell-adenovirus p53 vaccine: Given subcutaneously on one of two schedules	Results	14
+vaccine	VO:0000001	41-48
+Overall Number of Participants Analyzed: 12	Results	15
+Measure Type: Count of Participants	Results	16
+Unit of Measure: Participants  0   0.0%	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 5/11 (45.45%)	Adverse Events	1
+Nausea 1/11 (9.09%)	Adverse Events	2
+nausea	HP:0002018	0-6
+Vomiting 1/11 (9.09%)	Adverse Events	3
+vomiting	HP:0002013	0-8
+Fever 1/11 (9.09%)	Adverse Events	4
+fever	HP:0001945	0-5
+skin infection  [1]1/11 (9.09%)	Adverse Events	5
+Hip fracture 0/11 (0.00%)	Adverse Events	6
+hip	UBERON:0001464	0-3
+Confusion 1/11 (9.09%)	Adverse Events	7
+confusion	HP:0001289	0-9
+Adverse Events 2:	Adverse Events	8
+Total: 1/12 (8.33%)	Adverse Events	9
+Nausea 0/12 (0.00%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Vomiting 0/12 (0.00%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Fever 0/12 (0.00%)	Adverse Events	12
+fever	HP:0001945	0-5
+skin infection  [1]0/12 (0.00%)	Adverse Events	13
+Hip fracture 1/12 (8.33%)	Adverse Events	14
+hip	UBERON:0001464	0-3
+Confusion 0/12 (0.00%)	Adverse Events	15
+confusion	HP:0001289	0-9

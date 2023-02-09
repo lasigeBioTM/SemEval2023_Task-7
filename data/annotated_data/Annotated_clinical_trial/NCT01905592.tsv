@@ -1,0 +1,161 @@
+INTERVENTION 1:	Intervention	0
+Physician's Choice	Intervention	1
+Physician selection from 4 standard of care metastatic breast cancer chemotherapies (eribulin or vinorelbine or gemcitabine or capecitabine), until progression or unacceptable toxicity develops.	Intervention	2
+breast cancer	DOID:1612	55-68
+eribulin	CHEBI:63587	85-93
+vinorelbine	CHEBI:480999	97-108
+gemcitabine	CHEBI:175901	112-123
+capecitabine	CHEBI:31348	127-139
+INTERVENTION 2:	Intervention	3
+Niraparib	Intervention	4
+niraparib	CHEBI:176844	0-9
+Niraparib 300 mg (3x100 mg capsules) once daily until progression or unacceptable toxicity develops	Intervention	5
+niraparib	CHEBI:176844	0-9
+Inclusion Criteria:	Eligibility	0
+Germline BRCA1 or BRCA2 mutation; patients with unknown BRCA status who meet NCCN BRCA screening criteria will be screened for BRCA mutation.	Eligibility	1
+Histologically or cytologically confirmed HER2-negative metastatic or locally advanced disease that is not amenable to resection or radiation with curative intent.	Eligibility	2
+disease	DOID:4,OGMS:0000031	87-94
+Up to 2 prior cytotoxic regimens for advanced or metastatic breast cancer; patients with no prior cytotoxic regimens for advanced or metastatic disease will only be allowed if they relapsed during or within 12 months of (neo-) adjuvant cytotoxic therapy.	Eligibility	3
+breast cancer	DOID:1612	60-73
+disease	DOID:4,OGMS:0000031	144-151
+adjuvant	CHEBI:60809	227-235
+Prior therapy should have included a taxane and/or anthracycline (unless contraindication to those) in the neoadjuvant, adjuvant, or advanced/metastatic setting.	Eligibility	4
+taxane	CHEBI:36064	37-43
+anthracycline	CHEBI:48120	51-64
+contraindication	OAE:0000055	73-89
+adjuvant	CHEBI:60809	110-118
+adjuvant	CHEBI:60809	120-128
+a. Hormone receptor positive patients must also have hormone resistant disease; either relapsed while on adjuvant endocrine treatment, or within one year of completing adjuvant endocrine treatment, or progression on at least one line of endocrine treatment for advanced cancer.	Eligibility	5
+hormone	CHEBI:24621	3-10
+hormone	CHEBI:24621	53-60
+receptor	BAO:0000281	11-19
+disease	DOID:4,OGMS:0000031	71-78
+adjuvant	CHEBI:60809	105-113
+adjuvant	CHEBI:60809	168-176
+year	UO:0000036	149-153
+cancer	DOID:162	270-276
+ECOG performance status 0-2	Eligibility	6
+Adequate bone marrow, kidney and liver function	Eligibility	7
+bone marrow	UBERON:0002371	9-20
+kidney	UBERON:0002113	22-28
+liver	UBERON:0002107	33-38
+function	BAO:0003117,BFO:0000034	39-47
+Exclusion Criteria:	Eligibility	8
+Patients with platinum resistant cancer	Eligibility	9
+platinum	CHEBI:33364	14-22
+cancer	DOID:162	33-39
+Symptomatic uncontrolled brain metastases	Eligibility	10
+brain	UBERON:0000955	25-30
+Prior diagnosis of Stage IV ovarian cancer; Stage III ovarian cancer must have a 5-year disease-free interval; Stage II ovarian cancer must have a 2-year disease-free interval	Eligibility	11
+ovarian cancer	DOID:2394	28-42
+ovarian cancer	DOID:2394	54-68
+ovarian cancer	DOID:2394	120-134
+Known hypersensitivity to the components of niraparib	Eligibility	12
+hypersensitivity	GO:0002524,DOID:1205	6-22
+niraparib	CHEBI:176844	44-53
+Invasive cancer other than breast cancer within 2 years (except basal or squamous cell carcinoma of the skin that has been definitely treated)	Eligibility	13
+cancer	DOID:162	9-15
+cancer	DOID:162	34-40
+breast cancer	DOID:1612	27-40
+squamous cell carcinoma of the skin	HP:0006739	73-108
+Pregnant or breast feeding patients	Eligibility	14
+breast	UBERON:0000310	12-18
+Immunocompromised patients	Eligibility	15
+Known active Hepatitis B or C	Eligibility	16
+active	PATO:0002354	6-12
+hepatitis b	DOID:2043	13-24
+Prior treatment with a PARP inhibitor	Eligibility	17
+inhibitor	CHEBI:35222	28-37
+Known history of myelodysplastic syndrome (MDS).	Eligibility	18
+history	BFO:0000182	6-13
+myelodysplastic syndrome	DOID:0050908	17-41
+known and persistent (>4 weeks) >/= grade 3 toxicity or fatigue from prior cancer treatment.	Eligibility	19
+fatigue	HP:0012378	56-63
+cancer	DOID:162	75-81
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS) - Central Review Assessment	Results	1
+central	HP:0030645	34-41
+The primary objective of this study is to compare progression-free survival (PFS), as assessed by blinded central review, of patients with advanced/metastatic human epidermal growth factor receptor 2 (HER2)-negative gBRCAmut breast cancer when treated with niraparib as compared to those treated with physician's choice single agent chemotherapy standards (eribulin, vinorelbine, gemcitabine or capecitabine). PFS is defined as the date of randomization to the date of disease progression or death due to any cause, whichever occurs earlier as per Response evaluation criteria in solid tumors (RECIST) version 1.1 as determined by central review assessment.	Results	2
+central	HP:0030645	106-113
+central	HP:0030645	631-638
+growth factor	BAO:0002024	175-188
+receptor	BAO:0000281	189-197
+breast cancer	DOID:1612	225-238
+niraparib	CHEBI:176844	257-266
+eribulin	CHEBI:63587	357-365
+vinorelbine	CHEBI:480999	367-378
+gemcitabine	CHEBI:175901	380-391
+capecitabine	CHEBI:31348	395-407
+disease	DOID:4,OGMS:0000031	469-476
+death	OAE:0000632	492-497
+Time frame: From the date of randomization to the date of disease progression or death due to any cause, whichever occurs earlier, up to 4 years	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	58-65
+death	OAE:0000632	81-86
+Results 1:	Results	4
+Arm/Group Title: Physician's Choice	Results	5
+Arm/Group Description: Physician selection from 4 standard of care metastatic breast cancer chemotherapies (eribulin or vinorelbine or gemcitabine or capecitabine), until progression or unacceptable toxicity develops.	Results	6
+breast cancer	DOID:1612	78-91
+eribulin	CHEBI:63587	108-116
+vinorelbine	CHEBI:480999	120-131
+gemcitabine	CHEBI:175901	135-146
+capecitabine	CHEBI:31348	150-162
+Overall Number of Participants Analyzed: 71	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  3.1        (1.6 to 7.2)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Niraparib	Results	11
+niraparib	CHEBI:176844	17-26
+Arm/Group Description: Niraparib 300 mg (3x100 mg capsules) once daily until progression or unacceptable toxicity develops	Results	12
+niraparib	CHEBI:176844	23-32
+Overall Number of Participants Analyzed: 135	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  4.1        (2.9 to 4.5)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 4/65 (6.15%)	Adverse Events	1
+Thrombocytopenia * 0/65 (0.00%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia * 20/65 (0.00%)	Adverse Events	3
+Febrile neutropenia * 20/65 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 20/65 (0.00%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 20/65 (0.00%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Pericardial effusion * 20/65 (0.00%)	Adverse Events	7
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia * 20/65 (0.00%)	Adverse Events	8
+tachycardia	HP:0001649	0-11
+Nausea * 0/65 (0.00%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Vomiting * 21/65 (1.54%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Constipation * 20/65 (0.00%)	Adverse Events	11
+constipation	HP:0002019,DOID:2089	0-12
+Abdominal pain * 20/65 (0.00%)	Adverse Events	12
+abdominal pain	HP:0002027	0-14
+Adverse Events 2:	Adverse Events	13
+Total: 33/134 (24.63%)	Adverse Events	14
+Thrombocytopenia * 10/134 (7.46%)	Adverse Events	15
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia * 29/134 (6.72%)	Adverse Events	16
+Febrile neutropenia * 21/134 (0.75%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 21/134 (0.75%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 21/134 (0.75%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Pericardial effusion * 21/134 (0.75%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia * 21/134 (0.75%)	Adverse Events	21
+tachycardia	HP:0001649	0-11
+Nausea * 5/134 (3.73%)	Adverse Events	22
+nausea	HP:0002018	0-6
+Vomiting * 23/134 (2.24%)	Adverse Events	23
+vomiting	HP:0002013	0-8
+Constipation * 22/134 (1.49%)	Adverse Events	24
+constipation	HP:0002019,DOID:2089	0-12
+Abdominal pain * 21/134 (0.75%)	Adverse Events	25
+abdominal pain	HP:0002027	0-14

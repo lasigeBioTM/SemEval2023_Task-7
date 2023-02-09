@@ -1,0 +1,92 @@
+INTERVENTION 1:	Intervention	0
+Massage	Intervention	1
+Patients received 3 massage therapy visits from massage therapists in initial week with a duration of 15-45 minutes.NOTE: Intervention 'management of therapy complications' has not been included in any Arm/Group Descriptions.	Intervention	2
+week	UO:0000034	78-82
+duration	PATO:0001309	90-98
+Patients were intended to receive pain therapy, psychosocial assessment and care, and quality-of-life assessment	Intervention	3
+pain	HP:0012531	34-38
+management of therapy complications	Intervention	4
+massage therapy	Intervention	5
+pain therapy	Intervention	6
+pain	HP:0012531	0-4
+psychosocial assessment and care	Intervention	7
+quality-of-life assessment	Intervention	8
+INTERVENTION 2:	Intervention	9
+No-touch Control	Intervention	10
+Patients received 3 no-touch therapy visits from massage therapists who provided no-touch without healing intention.Patients were intended to receive pain therapy, psychosocial assessment and care, and quality-of-life assessment	Intervention	11
+pain	HP:0012531	150-154
+management of therapy complications	Intervention	12
+massage therapy	Intervention	13
+pain therapy	Intervention	14
+pain	HP:0012531	0-4
+psychosocial assessment and care	Intervention	15
+quality-of-life assessment	Intervention	16
+Inclusion criteria:	Eligibility	0
+Solid cancer with evidence of metastases	Eligibility	1
+cancer	DOID:162	6-12
+Receiving treatment at Beth Israel Deaconess Medical Center (BIDMC)	Eligibility	2
+Must reside  25 miles from BIDMC	Eligibility	3
+Exclusion criteria:	Eligibility	4
+Patient to sick to be interviewed	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+Absence of severe symptoms	Eligibility	6
+severe	HP:0012828	11-17
+Participating in another trial	Eligibility	7
+Language barrier	Eligibility	8
+MD does not provide permission	Eligibility	9
+Expired prior to consent process	Eligibility	10
+process	BFO:0000015	25-32
+Outcome Measurement:	Results	0
+Pain	Results	1
+pain	HP:0012531	0-4
+0=no pain to 10=most severe pain	Results	2
+pain	HP:0012531	5-9
+pain	HP:0012531	28-32
+severe	HP:0012828	21-27
+Time frame: From baseline to 1 week and from baseline to one month	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	31-35
+month	UO:0000035	61-66
+Results 1:	Results	4
+Arm/Group Title: Massage	Results	5
+Arm/Group Description: Patients received 3 massage therapy visits from massage therapists in initial week with a duration of 15-45 minutes.NOTE: Intervention 'management of therapy complications' has not been included in any Arm/Group Descriptions.	Results	6
+week	UO:0000034	101-105
+duration	PATO:0001309	113-121
+Patients were intended to receive pain therapy, psychosocial assessment and care, and quality-of-life assessment	Results	7
+pain	HP:0012531	34-38
+management of therapy complications	Results	8
+massage therapy	Results	9
+pain therapy	Results	10
+pain	HP:0012531	0-4
+psychosocial assessment and care	Results	11
+quality-of-life assessment	Results	12
+Overall Number of Participants Analyzed: 20	Results	13
+Median (Inter-Quartile Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: units on a scale  1 week: 0        (-2 to 1)	Results	15
+week	UO:0000034	37-41
+1 month: 0        (-1 to 0)	Results	16
+month	UO:0000035	2-7
+Results 2:	Results	17
+Arm/Group Title: No-touch Control	Results	18
+Arm/Group Description: Patients received 3 no-touch therapy visits from massage therapists who provided no-touch without healing intention.Patients were intended to receive pain therapy, psychosocial assessment and care, and quality-of-life assessment	Results	19
+pain	HP:0012531	173-177
+management of therapy complications	Results	20
+massage therapy	Results	21
+pain therapy	Results	22
+pain	HP:0012531	0-4
+psychosocial assessment and care	Results	23
+quality-of-life assessment	Results	24
+Overall Number of Participants Analyzed: 10	Results	25
+Median (Inter-Quartile Range)	Results	26
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: units on a scale  1 week: 0        (-1 to 2)	Results	27
+week	UO:0000034	37-41
+1 month: 0        (-1.5 to 0)	Results	28
+month	UO:0000035	2-7
+Adverse Events 1:	Adverse Events	0
+Total: 0/20 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/10 (0.00%)	Adverse Events	3

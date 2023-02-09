@@ -1,0 +1,123 @@
+INTERVENTION 1:	Intervention	0
+Placebo	Intervention	1
+Placebo as a 15-minute infusion every 3 months for a treatment period of 24 months (total of 8 infusions).	Intervention	2
+INTERVENTION 2:	Intervention	3
+Zometa	Intervention	4
+Zoledronic Acid 4mg as a 15-minute infusion every 3 months for a treatment period of 24 months (total of 8 infusions).	Intervention	5
+zoledronic acid	CHEBI:46557	0-15
+Inclusion Criteria:	Eligibility	0
+Female patients with histologically confirmed incident invasive breast cancer (T1-4) with positive hormone receptor status (ER and/or PgR positive) and no evidence of regional lymph node metastasis (N0) or distant metastasis (M0)	Eligibility	1
+female	PATO:0000383	0-6
+breast cancer	DOID:1612	64-77
+hormone	CHEBI:24621	99-106
+receptor	BAO:0000281	107-115
+lymph	UBERON:0002391	176-181
+Patient has undergone complete primary tumor resection and axillary lymph node dissection less than 90 days before start of study drug treatment.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+lymph	UBERON:0002391	68-73
+drug	CHEBI:23888	130-134
+Patient is premenopausal at diagnosis of breast cancer (spontaneous and regular menses with premenopausal estradiol levels (>10 ng/dL)	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	41-54
+estradiol	CHEBI:23965	106-115
+Patient receives adjuvant standard chemoendocrine or endocrine therapy	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+adjuvant	CHEBI:60809	17-25
+Bone density at study entry > -2.5 T-Score	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+History of treatment or disease affecting bone metabolism (e.g., Paget's disease, primary hyperparathyroidism), prior treatment with bisphosphonates or treatments for osteoporosis in addition to calcium and vitamin D	Eligibility	7
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	24-31
+disease	DOID:4,OGMS:0000031	73-80
+primary hyperparathyroidism	HP:0008200,DOID:11202	82-109
+osteoporosis	HP:0000939,DOID:11476	167-179
+calcium	CHEBI:22984,BAO:0000874	195-202
+vitamin d	CHEBI:27300	207-216
+Abnormal renal function	Eligibility	8
+function	BAO:0003117,BFO:0000034	15-23
+Current active dental problems including infection of the teeth or jawbone (maxilla or mandibular); dental or fixture trauma, or a current or prior diagnosis of osteonecrosis of the jaw (ONJ), of exposed bone in the mouth, or of slow healing after dental procedures, recent (within 6 weeks) or planned dental or jaw surgery (e.g. extraction, implants)	Eligibility	9
+active	PATO:0002354	8-14
+osteonecrosis	DOID:10159	161-174
+mouth	UBERON:0000165	216-221
+surgery	OAE:0000067	316-323
+Pregnancy or lactation	Eligibility	10
+lactation	GO:0007595	13-22
+Women of childbearing potential not applying a medically recognized form of contraception (i.e., oral contraceptives or implants, IUD, vaginal diaphragm or sponge, or condom with spermicide)	Eligibility	11
+diaphragm	UBERON:0001103	143-152
+Other protocol-defined inclusion/exclusion criteria may apply	Eligibility	12
+Outcome Measurement:	Results	0
+Change in Bone Mineral Density (BMD) Measured by Dual (Energy) X-ray Absorptiometry (DXA) at Lumbar Spine (L2-L4) From Baseline to Month 24	Results	1
+bone mineral density	CMO:0001226	10-30
+month	UO:0000035	131-136
+Bone mineral density (BMD) by DXA at lumbar spine (L2-L4); DXA assessments of the BMD at dual hips. (BMD). Two X-ray beams with different energy levels are aimed at the patient's bones. When soft tissue absorption is subtracted out, the BMD can be determined from the absorption of each beam by bone.	Results	2
+bone mineral density	CMO:0001226	0-20
+patient	HADO:0000008,OAE:0001817	169-176
+tissue	UBERON:0000479	196-202
+Time frame: baseline, month 24	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	22-27
+Results 1:	Results	4
+Arm/Group Title: Placebo	Results	5
+Arm/Group Description: Placebo as a 15-minute infusion every 3 months for a treatment period of 24 months (total of 8 infusions).	Results	6
+Overall Number of Participants Analyzed: 36	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Z-score  -0.075         (0.041)	Results	9
+z-score	BAO:0000432	17-24
+Results 2:	Results	10
+Arm/Group Title: Zometa	Results	11
+Arm/Group Description: Zoledronic Acid 4mg as a 15-minute infusion every 3 months for a treatment period of 24 months (total of 8 infusions).	Results	12
+zoledronic acid	CHEBI:46557	23-38
+Overall Number of Participants Analyzed: 34	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Z-score  0.037         (0.042)	Results	15
+z-score	BAO:0000432	17-24
+Adverse Events 1:	Adverse Events	0
+Total: 3/36 (8.33%)	Adverse Events	1
+VERTIGO 0/36 (0.00%)	Adverse Events	2
+vertigo	HP:0002321	0-7
+DENTAL CARIES 1/36 (2.78%)	Adverse Events	3
+dental caries	DOID:216	0-13
+GASTROINTESTINAL OEDEMA 1/36 (2.78%)	Adverse Events	4
+HAEMATOCHEZIA 0/36 (0.00%)	Adverse Events	5
+PANCREATITIS 1/36 (2.78%)	Adverse Events	6
+pancreatitis	HP:0001733,DOID:4989	0-12
+PYREXIA 1/36 (2.78%)	Adverse Events	7
+DRUG HYPERSENSITIVITY 0/36 (0.00%)	Adverse Events	8
+drug	CHEBI:23888	0-4
+hypersensitivity	GO:0002524,DOID:1205	5-21
+FEBRILE INFECTION 0/36 (0.00%)	Adverse Events	9
+SUBCUTANEOUS ABSCESS 1/36 (2.78%)	Adverse Events	10
+abscess	HP:0025615	13-20
+OSTEONECROSIS 0/36 (0.00%)	Adverse Events	11
+osteonecrosis	DOID:10159	0-13
+BREAST CANCER 1/36 (2.78%)	Adverse Events	12
+breast cancer	DOID:1612	0-13
+OSTEOMA 1/36 (2.78%)	Adverse Events	13
+osteoma	HP:0100246	0-7
+Adverse Events 2:	Adverse Events	14
+Total: 6/34 (17.65%)	Adverse Events	15
+VERTIGO 1/34 (2.94%)	Adverse Events	16
+vertigo	HP:0002321	0-7
+DENTAL CARIES 0/34 (0.00%)	Adverse Events	17
+dental caries	DOID:216	0-13
+GASTROINTESTINAL OEDEMA 0/34 (0.00%)	Adverse Events	18
+HAEMATOCHEZIA 1/34 (2.94%)	Adverse Events	19
+PANCREATITIS 0/34 (0.00%)	Adverse Events	20
+pancreatitis	HP:0001733,DOID:4989	0-12
+PYREXIA 0/34 (0.00%)	Adverse Events	21
+DRUG HYPERSENSITIVITY 1/34 (2.94%)	Adverse Events	22
+drug	CHEBI:23888	0-4
+hypersensitivity	GO:0002524,DOID:1205	5-21
+FEBRILE INFECTION 1/34 (2.94%)	Adverse Events	23
+SUBCUTANEOUS ABSCESS 0/34 (0.00%)	Adverse Events	24
+abscess	HP:0025615	13-20
+OSTEONECROSIS 1/34 (2.94%)	Adverse Events	25
+osteonecrosis	DOID:10159	0-13
+BREAST CANCER 1/34 (2.94%)	Adverse Events	26
+breast cancer	DOID:1612	0-13
+OSTEOMA 0/34 (0.00%)	Adverse Events	27
+osteoma	HP:0100246	0-7

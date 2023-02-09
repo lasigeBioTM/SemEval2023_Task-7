@@ -1,0 +1,126 @@
+INTERVENTION 1:	Intervention	0
+Paclitaxel Plus Bevacizumab (PB)	Intervention	1
+paclitaxel	CHEBI:45863	0-10
+paclitaxel 90 milligrams per meter squared (mg/m2) administered intravenously (IV) on days 1, 8, 15 every 28 days followed by bevacizumab 10 milligrams per kilogram (mg/kg) administered IV on days 1 and 15 every 28 days	Intervention	2
+paclitaxel	CHEBI:45863	0-10
+meter	UO:0000008	29-34
+INTERVENTION 2:	Intervention	3
+Paclitaxel Plus Bevacizumab Plus Gemcitabine (PB+G)	Intervention	4
+paclitaxel	CHEBI:45863	0-10
+gemcitabine	CHEBI:175901	33-44
+paclitaxel 90 milligrams per meter squared (mg/m2) administered intravenously (IV) on days 1, 8, 15 every 28 days followed by gemcitabine 1500 mg/m2 IV on days 1 and 15 every 28 days followed by bevacizumab 10 milligrams per kilogram (mg/kg) administered IV on days 1 and 15 every 28 days	Intervention	5
+paclitaxel	CHEBI:45863	0-10
+meter	UO:0000008	29-34
+gemcitabine	CHEBI:175901	126-137
+Inclusion Criteria:	Eligibility	0
+Females diagnosed with breast cancer and the cancer has spread to distant areas of the breast or organs.	Eligibility	1
+breast cancer	DOID:1612	23-36
+cancer	DOID:162	30-36
+cancer	DOID:162	45-51
+breast	UBERON:0000310	23-29
+breast	UBERON:0000310	87-93
+Must be able to measure the disease by specific medical parameters	Eligibility	2
+disease	DOID:4,OGMS:0000031	28-35
+May have received breast cancer treatment in the early stage of the disease	Eligibility	3
+breast cancer	DOID:1612	18-31
+disease	DOID:4,OGMS:0000031	68-75
+May be restricted in physically strenuous activity but able to carry out light work.	Eligibility	4
+Must have adequate organ function as seen in blood test results.	Eligibility	5
+organ	UBERON:0000062	19-24
+function	BAO:0003117,BFO:0000034	25-33
+blood	UBERON:0000178	45-50
+Exclusion	Eligibility	6
+Criteria:	Eligibility	7
+Cancer that has spread to the brain.	Eligibility	8
+cancer	DOID:162	0-6
+brain	UBERON:0000955	30-35
+Unstable heart problems	Eligibility	9
+heart	UBERON:0000948	9-14
+Unstable high blood pressure.	Eligibility	10
+blood	UBERON:0000178	14-19
+Breast cancer treatment after the disease has considered to spread to other areas or organs.	Eligibility	11
+breast cancer	DOID:1612	0-13
+disease	DOID:4,OGMS:0000031	34-41
+Unable to agree with the requirements of the study	Eligibility	12
+Outcome Measurement:	Results	0
+Overall Response Rate (ORR)	Results	1
+rate	BAO:0080019	17-21
+Response defined per Response Evaluation Criteria In Solid Tumors (RECIST) criteria: Complete Response (CR)=disappearance of all target lesions; Partial Response (PR)=30% decrease in sum of longest diameter of target lesions; Progressive Disease=20% increase in sum of longest diameter of target lesions; Stable Disease=small changes that do not meet above criteria. ORR was defined as the proportion of participants who achieved a best response of either CR or PR. ORR=number of participants with CR or PR/number of participants qualified for tumor response analysis (per-protocol population).	Results	2
+target	BAO:0003064	129-135
+target	BAO:0003064	210-216
+target	BAO:0003064	289-295
+diameter	PATO:0001334	198-206
+diameter	PATO:0001334	277-285
+progressive	HP:0003676	226-237
+increase	BAO:0001251	250-258
+stable	HP:0031915	305-311
+Time frame: baseline & every 2 cycles (approximately 8 weeks) of treatment to measured progressive disease (PD) & post-therapy until PD or other therapy initiated (up to 35 months)	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	87-98
+disease	DOID:4,OGMS:0000031	99-106
+Results 1:	Results	4
+Arm/Group Title: Paclitaxel Plus Bevacizumab (PB)	Results	5
+paclitaxel	CHEBI:45863	17-27
+Arm/Group Description: paclitaxel 90 milligrams per meter squared (mg/m2) administered intravenously (IV) on days 1, 8, 15 every 28 days followed by bevacizumab 10 milligrams per kilogram (mg/kg) administered IV on days 1 and 15 every 28 days	Results	6
+paclitaxel	CHEBI:45863	23-33
+meter	UO:0000008	52-57
+Overall Number of Participants Analyzed: 94	Results	7
+Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: proportion of responders  0.489        (0.385 to 0.595)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Paclitaxel Plus Bevacizumab Plus Gemcitabine (PB+G)	Results	11
+paclitaxel	CHEBI:45863	17-27
+gemcitabine	CHEBI:175901	50-61
+Arm/Group Description: paclitaxel 90 milligrams per meter squared (mg/m2) administered intravenously (IV) on days 1, 8, 15 every 28 days followed by gemcitabine 1500 mg/m2 IV on days 1 and 15 every 28 days followed by bevacizumab 10 milligrams per kilogram (mg/kg) administered IV on days 1 and 15 every 28 days	Results	12
+paclitaxel	CHEBI:45863	23-33
+meter	UO:0000008	52-57
+gemcitabine	CHEBI:175901	149-160
+Overall Number of Participants Analyzed: 92	Results	13
+Mean (95% Confidence Interval)	Results	14
+mean	BAO:0002173	0-4
+Unit of Measure: proportion of responders  0.587        (0.479 to 0.689)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 27/94 (28.72%)	Adverse Events	1
+Anaemia 2/94 (2.13%)	Adverse Events	2
+Febrile neutropenia 2/94 (2.13%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 1/94 (1.06%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/94 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/94 (1.06%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Arrhythmia 0/94 (0.00%)	Adverse Events	7
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 0/94 (0.00%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 0/94 (0.00%)	Adverse Events	9
+Cardiomyopathy 0/94 (0.00%)	Adverse Events	10
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Pericardial effusion 0/94 (0.00%)	Adverse Events	11
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia 0/94 (0.00%)	Adverse Events	12
+tachycardia	HP:0001649	0-11
+Adverse Events 2:	Adverse Events	13
+Total: 36/93 (38.71%)	Adverse Events	14
+Anaemia 2/93 (2.15%)	Adverse Events	15
+Febrile neutropenia 9/93 (9.68%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 3/93 (3.23%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 4/93 (4.30%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/93 (1.08%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Arrhythmia 1/93 (1.08%)	Adverse Events	20
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 1/93 (1.08%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 3/93 (3.23%)	Adverse Events	22
+Cardiomyopathy 2/93 (2.15%)	Adverse Events	23
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Pericardial effusion 1/93 (1.08%)	Adverse Events	24
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia 1/93 (1.08%)	Adverse Events	25
+tachycardia	HP:0001649	0-11

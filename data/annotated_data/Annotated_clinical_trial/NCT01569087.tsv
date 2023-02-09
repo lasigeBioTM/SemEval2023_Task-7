@@ -1,0 +1,101 @@
+INTERVENTION 1:	Intervention	0
+Empegfilgrastim 3 mg	Intervention	1
+Patients will receive a single administration of empegfilgrastim at a dose of 3 mg subcutaneously , 24 h after the chemotherapy	Intervention	2
+empegfilrastim: Empegfilgrastim is supplied as solution for injection 3 mg/ml. Empegfilgrastim is to be administered 24 h after the chemotherapy at dose of 3 or 6 mg.	Intervention	3
+solution	CHEBI:75958	47-55
+INTERVENTION 2:	Intervention	4
+Empegfilgrastim 6 mg	Intervention	5
+Patients will receive a single administration of empegfilgrastim at a dose of 6 mg subcutaneously, 24 h after the chemotherapy	Intervention	6
+empegfilrastim: Empegfilgrastim is supplied as solution for injection 3 mg/ml. Empegfilgrastim is to be administered 24 h after the chemotherapy at dose of 3 or 6 mg.	Intervention	7
+solution	CHEBI:75958	47-55
+Inclusion Criteria:	Eligibility	0
+Signed informed consent form;	Eligibility	1
+Histologically verified diagnosis of stage IIb/III/IV breast cancer;	Eligibility	2
+breast cancer	DOID:1612	54-67
+Age of 18-70 years inclusive;	Eligibility	3
+age	PATO:0000011	0-3
+If the patient had received the chemotherapy for breast cancer, it should be finished 30 days before the beginning of the study;	Eligibility	4
+patient	HADO:0000008,OAE:0001817	7-14
+breast cancer	DOID:1612	49-62
+ECOG Performance Status of 0, 1 or 2, not increasing within during 2 weeks before randomization;	Eligibility	5
+ANC level of 1500/μL and more at the beginning of the study	Eligibility	6
+Platelet count of 100 000/μL and more at the beginning of the study	Eligibility	7
+platelet count	CMO:0000029	0-14
+Hemoglobin level of 90 g/l and more	Eligibility	8
+hemoglobin	CHEBI:35143	0-10
+Creatinine level <1.5 mg/dl	Eligibility	9
+creatinine	CHEBI:16737	0-10
+Total bilirubin level <1.5 × the upper limit of normal (ULN)	Eligibility	10
+ALT and/or AST levels <2.5×ULN (5×ULN for patients with liver metastases);	Eligibility	11
+liver	UBERON:0002107	56-61
+Alkaline phosphatase <5×ULN;	Eligibility	12
+phosphatase	GO:0016791,BAO:0000295	9-20
+Left ventricular ejection fraction >50% and more;	Eligibility	13
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+If the patient had received adjuvant and/or neoadjuvant therapy, the cumulative dose of anthracyclines should not exceed 500 mg/m2 for doxorubicin or 500 mg/m2 for epirubicin;	Eligibility	14
+patient	HADO:0000008,OAE:0001817	7-14
+adjuvant	CHEBI:60809	28-36
+adjuvant	CHEBI:60809	47-55
+doxorubicin	CHEBI:28748,BAO:0000639	135-146
+Ability of the participant to follow the protocol requirements, according to the Investigator's opinion;	Eligibility	15
+Patients of childbearing potential must implement reliable contraceptive measures during the study treatment, starting 4 weeks prior randomization and for 6 months after the last administration of the study drug.	Eligibility	16
+drug	CHEBI:23888	207-211
+Exclusion Criteria:	Eligibility	17
+Patient has received two or more chemotherapy regimens for the metastatic breast cancer;	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	74-87
+Documented hypersensitivity to filgrastim, pegfilgrastim, docetaxel, doxorubicin, dexamethasone and/or its excipients, PEGylated drugs, recombinant proteins.	Eligibility	19
+hypersensitivity	GO:0002524,DOID:1205	11-27
+doxorubicin	CHEBI:28748,BAO:0000639	69-80
+dexamethasone	CHEBI:41879	82-95
+Pregnancy or breastfeeding;	Eligibility	20
+Systemic antibiotic therapy within 72 h prior empegfilgrastim/filgrastim administration;	Eligibility	21
+Concomitant radiotherapy (except selective radiotherapy of bone metastases);	Eligibility	22
+radiotherapy	OAE:0000235	12-24
+radiotherapy	OAE:0000235	43-55
+Surgery, radiotherapy (except selective radiotherapy of bone metastases), administration of any experimental drugs within 30 days prior randomization;	Eligibility	23
+surgery	OAE:0000067	0-7
+radiotherapy	OAE:0000235	9-21
+radiotherapy	OAE:0000235	40-52
+History of bone marrow/stem cell transplantation;	Eligibility	24
+history	BFO:0000182	0-7
+Conditions limiting the patient's ability to follow the protocol;	Eligibility	25
+patient	HADO:0000008,OAE:0001817	24-31
+CTCAE grade 2/4 neuropathy	Eligibility	26
+neuropathy	DOID:870	16-26
+HIV, HCV, HBV, T.Pallidum infection(s);	Eligibility	27
+Acute or active chronic infections.	Eligibility	28
+acute	HP:0011009,PATO:0000389	0-5
+active	PATO:0002354	9-15
+chronic	HP:0011010	16-23
+Outcome Measurement:	Results	0
+CTCAE Grade 3/4 Neutropenia Incidence	Results	1
+neutropenia	HP:0001875,DOID:1227	16-27
+[Not Specified]	Results	2
+Time frame: 21 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Empegfilgrastim 3 mg	Results	5
+Arm/Group Description: Patients will receive a single administration of empegfilgrastim at a dose of 3 mg subcutaneously , 24 h after the chemotherapy	Results	6
+empegfilrastim: Empegfilgrastim is supplied as solution for injection 3 mg/ml. Empegfilgrastim is to be administered 24 h after the chemotherapy at dose of 3 or 6 mg.	Results	7
+solution	CHEBI:75958	47-55
+Overall Number of Participants Analyzed: 21	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  18	Results	10
+Results 2:	Results	11
+Arm/Group Title: Empegfilgrastim 6 mg	Results	12
+Arm/Group Description: Patients will receive a single administration of empegfilgrastim at a dose of 6 mg subcutaneously, 24 h after the chemotherapy	Results	13
+empegfilrastim: Empegfilgrastim is supplied as solution for injection 3 mg/ml. Empegfilgrastim is to be administered 24 h after the chemotherapy at dose of 3 or 6 mg.	Results	14
+solution	CHEBI:75958	47-55
+Overall Number of Participants Analyzed: 20	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: participants  13	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/21 (0.00%)	Adverse Events	1
+neutropenia grade 4 0/21 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Adverse Events 2:	Adverse Events	3
+Total: 0/20 (0.00%)	Adverse Events	4
+neutropenia grade 4 0/20 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11

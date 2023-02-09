@@ -1,0 +1,237 @@
+INTERVENTION 1:	Intervention	0
+Herceptin© + Taxane	Intervention	1
+taxane	CHEBI:36064	13-19
+Part 1: Herceptin© (trastuzumab) intravenously+ paclitaxel 80 mg/m2 weekly intravenously or docetaxel 75 mg/m2 intravenously once every three weeks (investigators choice) for 8 cycles then evaluate for primary endpoint.	Intervention	2
+paclitaxel	CHEBI:45863	48-58
+Part 2: If SD or PR, CR at cycle 9 (week 24) proceed to Herceptin© (trastuzumab) alone once every 3 weeks until DP or subject withdrawal .	Intervention	3
+week	UO:0000034	36-40
+week	UO:0000034	100-104
+INTERVENTION 2:	Intervention	4
+MYL-1401O Trastuzumab + Taxane	Intervention	5
+taxane	CHEBI:36064	24-30
+Part 1:Myl 1401OTrastuzumab Intravenously + paclitaxel 80 mg/m2 weekly intravenously or docetaxel 75 mg/m2 intravenously once every three weeks (investigators choice) for 8 cycles then evaluate for primary endpoint.	Intervention	6
+paclitaxel	CHEBI:45863	44-54
+Part 2: If SD or PR, CR at cycle 9 (week 24) proceed to Myl 1401O( Mylan Trastuzumab) alone once every 3 weeks until DP or subject withdrawal.	Intervention	7
+week	UO:0000034	36-40
+week	UO:0000034	105-109
+Inclusion Criteria:	Eligibility	0
+Locally recurrent or MBC that is not amenable to curative surgery and/or radiation.	Eligibility	1
+recurrent	HP:0031796	8-17
+surgery	OAE:0000067	58-65
+Documentation of HER2 gene amplification by fluorescent in situ hybridization (FISH) (as defined by a ratio >2.0) or documentation of HER2-overexpression by immunohistochemistry (IHC) (defined as IHC3+, or IHC2+ with FISH confirmation) based on the sponsor-identified central laboratory prior to randomization. Archival tumor tissue samples can be used.	Eligibility	2
+gene	BAO:0000582	22-26
+ratio	UO:0000190	102-107
+immunohistochemistry	BAO:0000415	157-177
+central	HP:0030645	268-275
+tissue	UBERON:0000479	326-332
+Pathologically confirmed breast cancer with at least one measurable metastatic target lesion (based on RECIST criteria, version 1.1). Bone, central nervous system (CNS), and skin lesions, as well as lesions that were irradiated, biopsied or had any form of local intervention or surgical manipulation are only to be assessed as non-target lesions.	Eligibility	3
+breast cancer	DOID:1612	25-38
+target	BAO:0003064	79-85
+target	BAO:0003064	332-338
+central nervous system	UBERON:0001017	140-162
+Patients previously treated with trastuzumab or lapatinib in the adjuvant setting are allowed if metastatic disease was diagnosed at least one year after the last dose of treatment.	Eligibility	4
+lapatinib	CHEBI:49603	48-57
+adjuvant	CHEBI:60809	65-73
+disease	DOID:4,OGMS:0000031	108-115
+year	UO:0000036	143-147
+Prior treatment with hormonal agents or bisphosphonates/denosumab is allowed. Bisphosphonates/denosumab can be given simultaneously with study treatment but cannot start after randomization and is considered an indication of progressive disease (PD). Hormonal agents must be discontinued prior to beginning study therapy.	Eligibility	5
+progressive	HP:0003676	225-236
+disease	DOID:4,OGMS:0000031	237-244
+Eastern Cooperative Oncology Group performance status (ECOG PS) of 0 - 2	Eligibility	6
+group	CHEBI:24433	29-34
+Serum creatinine 1.5 x ULN (upper limit of normal),	Eligibility	7
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	21-22
+Total bilirubin 1.0 x ULN (>1.0 x ULN if documented Gilbert's disease),	Eligibility	8
+x	LABO:0000148	20-21
+x	LABO:0000148	32-33
+disease	DOID:4,OGMS:0000031	62-69
+Aspartate aminotransferase (AST) and/or alanine aminotransferase (ALT) 2.5 x ULN,	Eligibility	9
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	40-47
+x	LABO:0000148	75-76
+AST and/or ALT <1.5 x ULN if alkaline phosphatase >2.5 x ULN,	Eligibility	10
+x	LABO:0000148	20-21
+x	LABO:0000148	55-56
+phosphatase	GO:0016791,BAO:0000295	38-49
+Alkaline phosphatase >2.5 x ULN;if bone metastases present and no liver dysfunction present.	Eligibility	11
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	26-27
+present	PATO:0000467	51-58
+present	PATO:0000467	84-91
+liver	UBERON:0002107	66-71
+Left ventricular ejection fraction (LVEF) within institutional range of normal as measured by multiple gated acquisition scan or echocardiogram.	Eligibility	12
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+range	LABO:0000114	63-68
+Exclusion Criteria:	Eligibility	13
+Prior systemic therapy in the metastatic disease setting. This includes: chemotherapy, signal transduction inhibitors (e.g., lapatinib), HER2 targeted therapy (e.g., trastuzumab), or other investigational anticancer therapy.	Eligibility	14
+disease	DOID:4,OGMS:0000031	41-48
+signal transduction	GO:0007165	87-106
+lapatinib	CHEBI:49603	125-134
+Prior treatment with neoadjuvant or adjuvant anthracyclines with a cumulative dose of doxorubicin of >400 mg/m2, epirubicin dose >800 mg/m2.	Eligibility	15
+adjuvant	CHEBI:60809	24-32
+adjuvant	CHEBI:60809	36-44
+doxorubicin	CHEBI:28748,BAO:0000639	86-97
+Patients with bone or skin as the only site of disease. Patients with skin lesions measurable by CT scans or MRI as only site of measurable disease are allowed.	Eligibility	16
+site	BFO:0000029	39-43
+site	BFO:0000029	121-125
+disease	DOID:4,OGMS:0000031	47-54
+disease	DOID:4,OGMS:0000031	140-147
+ct	BAO:0002125	97-99
+Surgery or radiotherapy 2 weeks preceding Day 1. Target lesions have to be outside the irradiated fields and the patient has fully recovered from surgery or radiotherapy.	Eligibility	17
+surgery	OAE:0000067	0-7
+surgery	OAE:0000067	146-153
+radiotherapy	OAE:0000235	11-23
+radiotherapy	OAE:0000235	157-169
+day	UO:0000033	42-45
+target	BAO:0003064	49-55
+patient	HADO:0000008,OAE:0001817	113-120
+Presence of unstable angina or a history of congestive heart failure according to the New York Heart Association criteria, history of myocardial infarction <1 year from randomization, clinically significant valvular disease, serious cardiac arrhythmia requiring treatment, uncontrolled hypertension or known pulmonary hypertension.	Eligibility	18
+history	BFO:0000182	33-40
+history	BFO:0000182	123-130
+congestive heart failure	HP:0001635,DOID:6000	44-68
+heart	UBERON:0000948	55-60
+heart	UBERON:0000948	95-100
+myocardial infarction	HP:0001658,DOID:5844	134-155
+year	UO:0000036	159-163
+disease	DOID:4,OGMS:0000031	216-223
+arrhythmia	HP:0011675	241-251
+hypertension	HP:0000822,DOID:10763	286-298
+hypertension	HP:0000822,DOID:10763	318-330
+pulmonary hypertension	DOID:6432	308-330
+Peripheral sensory or motor neuropathy Grade 2 or higher according to the National Cancer Institute-Common Terminology Criteria (NCI-CTC) Version 4.03 [19].	Eligibility	19
+peripheral	HP:0030646	0-10
+neuropathy	DOID:870	28-38
+cancer	DOID:162	83-89
+Any other cancer, including contralateral breast cancer, within 5 years prior to screening with the exception of adequately treated ductal carcinoma in situ, adequately treated cervical carcinoma in situ, or adequately treated basal or squamous cell carcinoma of the skin.	Eligibility	20
+cancer	DOID:162	10-16
+cancer	DOID:162	49-55
+breast cancer	DOID:1612	42-55
+ductal carcinoma in situ	HP:0030075,DOID:0060074	132-156
+carcinoma	HP:0030731,DOID:305	139-148
+carcinoma	HP:0030731,DOID:305	186-195
+carcinoma	HP:0030731,DOID:305	250-259
+squamous cell carcinoma of the skin	HP:0006739	236-271
+Immunocompromized patients, including known seropositivity for human immunodeficiency virus, or current or chronic hepatitis B and/or hepatitis C infection (as detected by positive testing for hepatitis B surface antigen or antibody to hepatitis C virus with confirmatory testing).	Eligibility	21
+immunodeficiency	HP:0002721	69-85
+virus	BAO:0000232	86-91
+virus	BAO:0000232	248-253
+chronic hepatitis	HP:0200123,DOID:2237	107-124
+hepatitis b	DOID:2043	115-126
+hepatitis b	DOID:2043	193-204
+hepatitis c	DOID:1883	134-145
+hepatitis c	DOID:1883	236-247
+antigen	CHEBI:59132	213-220
+antibody	GO:0042571,BAO:0000502	224-232
+Complete listing of Inc/Excl. within protocol	Eligibility	22
+Outcome Measurement:	Results	0
+Primary Endpoint : Compare Best Overall Response Rate (ORR) (According to Response Evaluation Criteria in Solid Tumor [RECIST] 1.1 Criteria) at Week 24 of MYL-1401O Plus Taxane Versus Herceptin® Plus Taxane in the ITT1 Population	Results	1
+rate	BAO:0080019	49-53
+week	UO:0000034	144-148
+taxane	CHEBI:36064	170-176
+taxane	CHEBI:36064	200-206
+Tumor measurements were perform by centralized blinded reviewers using RECIST 1.1 criteria. Per RECIST 1.1: Complete Response (CR): Disappearance of all target lesions. Any pathological lymph node must have reduction in short axis to <10 mm.Partial Response (PR): >/= 30% decrease sum of the diameters of target lesions from baseline sum diameters.	Results	2
+target	BAO:0003064	153-159
+target	BAO:0003064	305-311
+lymph	UBERON:0002391	186-191
+Progressive Disease (PD): </= 20% increase in the sum of the diameters of target lesions, from the smallest sum on study with at least a 5 mm absolute increase in the sum of all lesions. The appearance of one or more new lesions* denotes disease progression.	Results	3
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+disease	DOID:4,OGMS:0000031	238-245
+increase	BAO:0001251	34-42
+increase	BAO:0001251	151-159
+target	BAO:0003064	74-80
+denotes	IAO:0000219	230-237
+Stable Disease (SD): Neither sufficient decrease or increase. Evaluation of Non-Target Lesions Complete Response (CR): Disappearance of all non-target lesions. Non-complete Response/Non-Progressive Disease: Persistence of one or more non-target lesions. Progressive Disease (PD): Substantial, unequivocal progression of existing non-target lesions.	Results	4
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+disease	DOID:4,OGMS:0000031	198-205
+disease	DOID:4,OGMS:0000031	266-273
+increase	BAO:0001251	52-60
+progressive	HP:0003676	186-197
+progressive	HP:0003676	254-265
+Time frame: from time of First treatment to week 24	Results	5
+time	PATO:0000165	0-4
+time	PATO:0000165	17-21
+week	UO:0000034	44-48
+Results 1:	Results	6
+Arm/Group Title: Herceptin  + Taxane	Results	7
+taxane	CHEBI:36064	30-36
+Arm/Group Description: Part 1: Herceptin  (trastuzumab) intravenously+ paclitaxel 80 mg/m2 weekly intravenously or docetaxel 75 mg/m2 intravenously once every three weeks (investigators choice) for 8 cycles then evaluate for primary endpoint.	Results	8
+paclitaxel	CHEBI:45863	71-81
+Part 2: If SD or PR, CR at cycle 9 (week 24) proceed to Herceptin  (trastuzumab) alone once every 3 weeks until DP or subject withdrawal .	Results	9
+week	UO:0000034	36-40
+week	UO:0000034	100-104
+Overall Number of Participants Analyzed: 228	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  Complete Response: 0   0.0%	Results	12
+Partial Response: 146  64.0%	Results	13
+Stable Disease: 49  21.5%	Results	14
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 20   8.8%	Results	15
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not Evaluable: 13   5.7%	Results	16
+Results 2:	Results	17
+Arm/Group Title: MYL-1401O Trastuzumab + Taxane	Results	18
+taxane	CHEBI:36064	41-47
+Arm/Group Description: Part 1:Myl 1401OTrastuzumab Intravenously + paclitaxel 80 mg/m2 weekly intravenously or docetaxel 75 mg/m2 intravenously once every three weeks (investigators choice) for 8 cycles then evaluate for primary endpoint.	Results	19
+paclitaxel	CHEBI:45863	67-77
+Part 2: If SD or PR, CR at cycle 9 (week 24) proceed to Myl 1401O( Mylan Trastuzumab) alone once every 3 weeks until DP or subject withdrawal.	Results	20
+week	UO:0000034	36-40
+week	UO:0000034	105-109
+Overall Number of Participants Analyzed: 230	Results	21
+Measure Type: Count of Participants	Results	22
+Unit of Measure: Participants  Complete Response: 3   1.3%	Results	23
+Partial Response: 157  68.3%	Results	24
+Stable Disease: 48  20.9%	Results	25
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 9   3.9%	Results	26
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not Evaluable: 13   5.7%	Results	27
+Adverse Events 1:	Adverse Events	0
+Total: 91/246 (36.99%)	Adverse Events	1
+Febrile Neutropenia 10/246 (4.07%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 12/246 (4.88%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 62/246 (25.20%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/246 (0.00%)	Adverse Events	5
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 1/246 (0.41%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute Myocardial Infarction 0/246 (0.00%)	Adverse Events	7
+acute myocardial infarction	DOID:9408	0-27
+Cardiac Failure 0/246 (0.00%)	Adverse Events	8
+Carditis 0/246 (0.00%)	Adverse Events	9
+Abdominal Pain 0/246 (0.00%)	Adverse Events	10
+abdominal pain	HP:0002027	0-14
+Anal Fissure 0/246 (0.00%)	Adverse Events	11
+anal fissure	HP:0012390,DOID:3128	0-12
+Diarrhoea 4/246 (1.63%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 97/247 (39.27%)	Adverse Events	14
+Febrile Neutropenia 11/247 (4.45%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 5/247 (2.02%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 68/247 (27.53%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 1/247 (0.40%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/247 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute Myocardial Infarction 1/247 (0.40%)	Adverse Events	20
+acute myocardial infarction	DOID:9408	0-27
+Cardiac Failure 2/247 (0.81%)	Adverse Events	21
+Carditis 1/247 (0.40%)	Adverse Events	22
+Abdominal Pain 1/247 (0.40%)	Adverse Events	23
+abdominal pain	HP:0002027	0-14
+Anal Fissure 1/247 (0.40%)	Adverse Events	24
+anal fissure	HP:0012390,DOID:3128	0-12
+Diarrhoea 3/247 (1.21%)	Adverse Events	25

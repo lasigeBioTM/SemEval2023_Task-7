@@ -1,0 +1,334 @@
+INTERVENTION 1:	Intervention	0
+Group 1: TAC X 6	Intervention	1
+group	CHEBI:24433	0-5
+x	LABO:0000148	13-14
+Doxorubicin, cyclophosphamide, and docetaxel.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	13-29
+Cyclophosphamide: Group 1: cyclophosphamide 500 mg/m2 IV every 21 days for 6 cycles	Intervention	3
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	27-43
+group	CHEBI:24433	18-23
+Group 2 and Group 3: cyclophosphamide 600 mg/m2 IV every 14 days for 4 cycles	Intervention	4
+group	CHEBI:24433	0-5
+group	CHEBI:24433	12-17
+cyclophosphamide	CHEBI:4026	21-37
+Docetaxel: 75 mg/m2 IV every 21 days for 6 cycles	Intervention	5
+Doxorubicin: Group 1: 50 mg/m2 IV every 21 days for 6 cycles	Intervention	6
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+group	CHEBI:24433	13-18
+Group 2 and Group 3: 60 mg/m2 IV every 14 days for 4 cycles	Intervention	7
+group	CHEBI:24433	0-5
+group	CHEBI:24433	12-17
+INTERVENTION 2:	Intervention	8
+Group 2: AC X 4 Then P X 4	Intervention	9
+group	CHEBI:24433	0-5
+x	LABO:0000148	12-13
+x	LABO:0000148	23-24
+p	CHEBI:17802,BAO:0002175	4-5
+p	CHEBI:17802,BAO:0002175	21-22
+Doxorubicin, cyclophosphamide, and paclitaxel	Intervention	10
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	13-29
+paclitaxel	CHEBI:45863	35-45
+Cyclophosphamide: Group 1: cyclophosphamide 500 mg/m2 IV every 21 days for 6 cycles	Intervention	11
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	27-43
+group	CHEBI:24433	18-23
+Group 2 and Group 3: cyclophosphamide 600 mg/m2 IV every 14 days for 4 cycles	Intervention	12
+group	CHEBI:24433	0-5
+group	CHEBI:24433	12-17
+cyclophosphamide	CHEBI:4026	21-37
+Paclitaxel: 175 mg/m2 IV every 14 days for 4 cycles	Intervention	13
+paclitaxel	CHEBI:45863	0-10
+Doxorubicin: Group 1: 50 mg/m2 IV every 21 days for 6 cycles	Intervention	14
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+group	CHEBI:24433	13-18
+Group 2 and Group 3: 60 mg/m2 IV every 14 days for 4 cycles	Intervention	15
+group	CHEBI:24433	0-5
+group	CHEBI:24433	12-17
+Inclusion Criteria:	Eligibility	0
+The patient must consent to participate in the study and must have signed an approved consent form conforming with federal and institutional guidelines.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	4-11
+The patient must have a life expectancy of at least 10 years and a Zubrod performance status of 0 or 1. (Comorbid conditions but not the diagnosis of breast cancer should be taken into consideration when determining life expectancy.)	Eligibility	2
+patient	HADO:0000008,OAE:0001817	4-11
+breast cancer	DOID:1612	150-163
+The interval between the last surgery for breast cancer staging or treatment and randomization must be no more than 84 days.	Eligibility	3
+surgery	OAE:0000067	30-37
+breast cancer	DOID:1612	42-55
+The tumor must be invasive carcinoma of the breast on histologic examination.	Eligibility	4
+carcinoma	HP:0030731,DOID:305	27-36
+breast	UBERON:0000310	44-50
+All of the following staging criteria must be met:	Eligibility	5
+By clinical and pathologic evaluation, primary tumor must be T1-3;	Eligibility	6
+By clinical evaluation, ipsilateral nodes must be cN0, cN1, or cN2a;	Eligibility	7
+By pathologic evaluation, ipsilateral nodes must be pN1 (pN1mi, pN1a, pN1b, pN1c), pN2a, pN3a, or pN3b (only if due to microscopic involvement of internal mammary node detected by sentinel lymph node dissection and with more than 3 positive axillary lymph nodes).	Eligibility	8
+lymph	UBERON:0002391	189-194
+lymph	UBERON:0002391	250-255
+Patients must have an estrogen receptor (ER) analysis performed on the primary tumor prior to randomization. If ER analysis is negative, then progesterone receptor (PgR) analysis must be performed. If ER analysis is positive, PgR analysis is desired, but not mandatory. ("Marginal" or "borderline" results [i.e., those not definitely negative] will be considered positive regardless of the methodology used.)	Eligibility	9
+estrogen	CHEBI:50114,BAO:0000760	22-30
+receptor	BAO:0000281	31-39
+receptor	BAO:0000281	155-163
+progesterone	CHEBI:17026	142-154
+borderline	HP:0012827	286-296
+Patients must have had either a lumpectomy or a total mastectomy. Patients must have completed one of the following procedures for evaluation of pathologic nodal status.	Eligibility	10
+Sentinel lymphadenectomy followed by removal of additional non-sentinel lymph nodes (This approach is strongly recommended.)	Eligibility	11
+lymph	UBERON:0002391	9-14
+lymph	UBERON:0002391	72-77
+Sentinel lymphadenectomy alone if one of the following criteria is met:	Eligibility	12
+Pathologic nodal staging based on sentinel lymphadenectomy is pN1mi or pN1b	Eligibility	13
+Surgeon elects not to remove additional non-sentinel nodes (This approach is strongly discouraged, but will not preclude participation in B-38.)	Eligibility	14
+Axillary lymphadenectomy without sentinel node isolation procedure.	Eligibility	15
+Patients must have no clinical or radiologic evidence of metastatic disease.	Eligibility	16
+disease	DOID:4,OGMS:0000031	68-75
+Patients with either skeletal pain or alkaline phosphatase that is greater than ULN but less than or equal to 2.5 x ULN are eligible for inclusion in the study if bone scans fail to demonstrate metastatic disease. Suspicious findings on bone scan must be confirmed as benign by x-ray, MRI, or biopsy.	Eligibility	17
+pain	HP:0012531	30-34
+phosphatase	GO:0016791,BAO:0000295	47-58
+x	LABO:0000148	114-115
+x	LABO:0000148	278-279
+disease	DOID:4,OGMS:0000031	205-212
+Patients with aspartate transaminase (AST) or alkaline phosphatase greater than ULN are eligible for inclusion in the study if liver imaging fails to demonstrate metastatic disease and the following requirements are met at the time of randomization.	Eligibility	18
+aspartate	CHEBI:29995	14-23
+phosphatase	GO:0016791,BAO:0000295	55-66
+liver	UBERON:0002107	127-132
+disease	DOID:4,OGMS:0000031	173-180
+time	PATO:0000165	227-231
+Postoperative absolute granulocyte count (AGC) must be greater than or equal to 1200/mm3.	Eligibility	19
+Postoperative platelet count must be greater than or equal to 100,000/mm3.	Eligibility	20
+platelet count	CMO:0000029	14-28
+The following criteria for postoperative evidence of adequate hepatic function must be met:	Eligibility	21
+function	BAO:0003117,BFO:0000034	70-78
+total bilirubin must be less than or equal to ULN for the lab unless the patient has a grade 1 bilirubin elevation (greater than ULN to 1.5 x ULN) due to Gilbert's disease or similar syndrome due to slow conjugation of bilirubin; and	Eligibility	22
+patient	HADO:0000008,OAE:0001817	73-80
+x	LABO:0000148	140-141
+disease	DOID:4,OGMS:0000031	164-171
+syndrome	DOID:225	183-191
+alkaline phosphatase must be less than or equal to 2.5 x ULN for the lab; and	Eligibility	23
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	55-56
+the AST must be less than or equal to 1.5 x ULN for the lab; and	Eligibility	24
+x	LABO:0000148	42-43
+alkaline phosphatase and AST cannot both be greater than ULN.	Eligibility	25
+phosphatase	GO:0016791,BAO:0000295	9-20
+Postoperative serum creatinine must be less than or equal to ULN.	Eligibility	26
+creatinine	CHEBI:16737	20-30
+At the time of randomization, the patient must have had the following: history and physical exam, EKG, and imaging of the chest within the past 3 months and bilateral mammogram within the past 6 months.	Eligibility	27
+time	PATO:0000165	7-11
+patient	HADO:0000008,OAE:0001817	34-41
+history	BFO:0000182	71-78
+chest	UBERON:0001443	122-127
+bilateral	HP:0012832	157-166
+Within 3 months prior to entry, the patient must have a baseline left ventricular ejection fraction (LVEF), measured by Multiple Gated Acquisition (MUGA) scan or echocardiogram, greater than or equal to lower limit of normal (LLN) for the facility performing the procedure and no evidence of regional wall abnormalities.	Eligibility	28
+patient	HADO:0000008,OAE:0001817	36-43
+left	HP:0012835	65-69
+ejection fraction	CMO:0000180	82-99
+Patients with a history of non-breast malignancies are eligible if they have been disease-free for 5 or more years prior to randomization and are deemed by their physician to be at low risk for recurrence. Patients with the following cancers are eligible if diagnosed and treated within the past 5 years: carcinoma in situ of the cervix, carcinoma in situ of the colon, melanoma in situ, and basal cell and squamous cell carcinoma of the skin.	Eligibility	29
+history	BFO:0000182	16-23
+carcinoma	HP:0030731,DOID:305	305-314
+carcinoma	HP:0030731,DOID:305	338-347
+carcinoma	HP:0030731,DOID:305	421-430
+colon	UBERON:0001155	363-368
+melanoma	HP:0002861,DOID:1909	370-378
+squamous cell carcinoma of the skin	HP:0006739	407-442
+Special conditions for eligibility of lumpectomy patients: radiation therapy and surgery. Patients treated by lumpectomy must meet all the eligibility criteria in addition to the following:	Eligibility	30
+surgery	OAE:0000067	81-88
+Generally, lumpectomy should be reserved for tumors less than 5 cm. However, at the investigator's discretion, patients treated with lumpectomy for tumors greater than or equal to 5 cm are eligible if eligibility criteria for lumpectomy are met.	Eligibility	31
+The margins of the resected specimen must be histologically free of invasive tumor and DCIS as determined by the local pathologist. In patients for whom pathologic examination demonstrates tumor present at the line of resection, additional operative procedures may be performed to obtain clear margins. This is permissible even if axillary evaluation has been completed. Patients in whom tumor is still present at the resected margin after re-excision(s) must undergo total mastectomy to be eligible. (Patients with margins positive for lobular carcinoma in situ (LCIS) are eligible without additional resection.)	Eligibility	32
+present	PATO:0000467	195-202
+present	PATO:0000467	403-410
+lobular carcinoma in situ	HP:0030076,DOID:3010	537-562
+Irradiation of regional lymph nodes is optional, but plans for radiation therapy must be declared by the investigator prior to randomization for stratification purposes.	Eligibility	33
+lymph	UBERON:0002391	24-29
+Special conditions for eligibility of mastectomy patients: radiation therapy o Postmastectomy chest wall and/or regional nodal irradiation is optional. Plans for radiation in mastectomy patients must be declared by the investigator prior to randomization for stratification purposes.	Eligibility	34
+chest	UBERON:0001443	94-99
+Ineligibility Criteria	Eligibility	35
+Male patients are not eligible for this study. Women with one or more of the following conditions or prior therapies are also ineligible for this study:	Eligibility	36
+male	CHEBI:30780,PATO:0000384	0-4
+Tumor that has been determined to be human epidermal growth factor receptor 2 (HER2)-positive by immunohistochemistry (3+) or by fluorescent in situ hybridization (positive for gene amplification).	Eligibility	37
+growth factor	BAO:0002024	53-66
+receptor	BAO:0000281	67-75
+immunohistochemistry	BAO:0000415	97-117
+gene	BAO:0000582	177-181
+Contralateral breast cancer (invasive or DCIS) or a mass or mammographic abnormality in the opposite breast suspicious for malignancy unless there is biopsy proof that the mass is not malignant.	Eligibility	38
+breast cancer	DOID:1612	14-27
+breast	UBERON:0000310	14-20
+breast	UBERON:0000310	101-107
+Primary tumor staged as T4 for any reason.	Eligibility	39
+Clinical nodal stages including cN2b and cN3 or pathologic nodal stages including pN0(i+), pN2b, pN3b with clinically apparent internal mammary nodes, or pN3c.	Eligibility	40
+Suspicious nodes in the contralateral axilla or suspicious supraclavicular nodes. Patients with these conditions are considered ineligible unless there is biopsy evidence that these are not involved with tumor.	Eligibility	41
+Prior history of breast cancer, including DCIS (patients with a history of LCIS are eligible).	Eligibility	42
+history	BFO:0000182	6-13
+history	BFO:0000182	64-71
+breast cancer	DOID:1612	17-30
+Treatment, including radiation therapy, chemotherapy, and/or hormonal therapy administered for the currently diagnosed breast cancer prior to randomization. One exception is hormonal therapy, which may have been given for up to a total of 28 days anytime after diagnosis and before study entry. In such a case, hormonal therapy must stop at or before randomization and be re-started, if indicated, following chemotherapy. A second exception is radiation therapy for patients enrolled in NSABP B-39 and assigned to partial breast irradiation (Group 2). These patients may have received RT prior to B-38 study entry.	Eligibility	43
+breast cancer	DOID:1612	119-132
+second	UO:0000010	424-430
+breast	UBERON:0000310	119-125
+breast	UBERON:0000310	522-528
+group	CHEBI:24433	542-547
+Prior therapy with anthracyclines or taxanes for any malignancy.	Eligibility	44
+Any sex hormonal therapy, e.g., birth control pills, ovarian hormonal replacement therapy, etc. (These patients are eligible if this therapy is discontinued prior to randomization.)	Eligibility	45
+Therapy with any hormonal agents such as raloxifene (Evista®), tamoxifen, or other selective estrogen-receptor modulators (SERMs), either for osteoporosis or breast cancer prevention. (Patients are eligible only if these medications are discontinued prior to randomization.	Eligibility	46
+raloxifene	CHEBI:8772	41-51
+tamoxifen	CHEBI:41774	63-72
+osteoporosis	HP:0000939,DOID:11476	142-154
+breast cancer	DOID:1612	158-171
+Cardiac disease that would preclude the use of anthracyclines. This includes:	Eligibility	47
+disease	DOID:4,OGMS:0000031	8-15
+history of myocardial infarction documented by elevated cardiac enzymes or regional wall abnormalities on assessment of left ventricular (LV) function;	Eligibility	48
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+left	HP:0012835	120-124
+function	BAO:0003117,BFO:0000034	142-150
+angina pectoris that requires the use of anti-anginal medication;	Eligibility	49
+angina pectoris	HP:0001681	0-15
+any history of documented congestive heart failure;	Eligibility	50
+history	BFO:0000182	4-11
+congestive heart failure	HP:0001635,DOID:6000	26-50
+serious cardiac arrhythmia requiring medication;	Eligibility	51
+arrhythmia	HP:0011675	16-26
+severe conduction abnormality;	Eligibility	52
+severe	HP:0012828	0-6
+valvular disease with documented cardiac function compromise; and	Eligibility	53
+disease	DOID:4,OGMS:0000031	9-16
+function	BAO:0003117,BFO:0000034	41-49
+uncontrolled hypertension defined as blood pressure greater than 160/100 on antihypertensive therapy.	Eligibility	54
+hypertension	HP:0000822,DOID:10763	13-25
+blood	UBERON:0000178	37-42
+Conditions that would prohibit administration of corticosteroids.	Eligibility	55
+Sensory/motor neuropathy greater than or equal to grade 2, as defined by the NCI's Common Terminology Criteria for Adverse Events Version 3.0.	Eligibility	56
+neuropathy	DOID:870	14-24
+Non-malignant systemic disease (cardiovascular, renal, hepatic, etc.) that would preclude a patient from receiving any of the treatment options or would prevent prolonged follow-up.	Eligibility	57
+disease	DOID:4,OGMS:0000031	23-30
+patient	HADO:0000008,OAE:0001817	92-99
+prolonged	HP:0025297	161-170
+History of hepatitis B or C.	Eligibility	58
+history	BFO:0000182	0-7
+hepatitis b	DOID:2043	11-22
+Pregnancy or lactation at the time of proposed randomization. Women of reproductive potential must agree to use an effective non-hormonal method of contraception.	Eligibility	59
+lactation	GO:0007595	13-22
+time	PATO:0000165	30-34
+Concurrent treatment with other investigational agents for the treatment of breast cancer.	Eligibility	60
+breast cancer	DOID:1612	76-89
+Psychiatric or addictive disorders or other conditions that, in the opinion of the investigator, would preclude the patient from meeting the study requirements.	Eligibility	61
+patient	HADO:0000008,OAE:0001817	116-123
+Special conditions for ineligibility of lumpectomy patients: radiation therapy and surgery	Eligibility	62
+surgery	OAE:0000067	83-90
+For patients treated by lumpectomy, whole breast irradiation is required.	Eligibility	63
+breast	UBERON:0000310	42-48
+The following patients will be ineligible:	Eligibility	64
+Patients with diffuse tumors (as demonstrated on mammography) treated with lumpectomy. (These patients are eligible if they undergo mastectomy.)	Eligibility	65
+diffuse	HP:0020034	14-21
+Patients treated with lumpectomy in whom there is another clinically dominant mass or mammographically suspicious abnormality within the ipsilateral breast remnant. Such a mass must be biopsied and demonstrated to be histologically benign prior to randomization or, if malignant, must be surgically removed with clear margins.	Eligibility	66
+breast	UBERON:0000310	149-155
+Patients in whom the margins of the resected specimen are involved with invasive tumor or DCIS.	Eligibility	67
+Outcome Measurement:	Results	0
+Disease-free Survival: Any Recurrence, Contralateral Breast Cancer, Second Primary Cancer, Death From Any Cause Prior to Recurrence or Second Primary Cancer	Results	1
+breast cancer	DOID:1612	53-66
+second	UO:0000010	68-74
+second	UO:0000010	135-141
+cancer	DOID:162	60-66
+cancer	DOID:162	83-89
+cancer	DOID:162	150-156
+death	OAE:0000632	91-96
+The percentage of patients alive and cancer-free.	Results	2
+Time frame: 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Group 1: TAC X 6	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+x	LABO:0000148	30-31
+Arm/Group Description: Doxorubicin, cyclophosphamide, and docetaxel.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+cyclophosphamide	CHEBI:4026	36-52
+Cyclophosphamide: Group 1: cyclophosphamide 500 mg/m2 IV every 21 days for 6 cycles	Results	7
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	27-43
+group	CHEBI:24433	18-23
+Group 2 and Group 3: cyclophosphamide 600 mg/m2 IV every 14 days for 4 cycles	Results	8
+group	CHEBI:24433	0-5
+group	CHEBI:24433	12-17
+cyclophosphamide	CHEBI:4026	21-37
+Docetaxel: 75 mg/m2 IV every 21 days for 6 cycles	Results	9
+Doxorubicin: Group 1: 50 mg/m2 IV every 21 days for 6 cycles	Results	10
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+group	CHEBI:24433	13-18
+Group 2 and Group 3: 60 mg/m2 IV every 14 days for 4 cycles	Results	11
+group	CHEBI:24433	0-5
+group	CHEBI:24433	12-17
+Overall Number of Participants Analyzed: 1610	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: percentage of patients  80.1        (78.0 to 82.0)	Results	14
+Results 2:	Results	15
+Arm/Group Title: Group 2: AC X 4 Then P X 4	Results	16
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+x	LABO:0000148	29-30
+x	LABO:0000148	40-41
+p	CHEBI:17802,BAO:0002175	8-9
+p	CHEBI:17802,BAO:0002175	21-22
+p	CHEBI:17802,BAO:0002175	38-39
+Arm/Group Description: Doxorubicin, cyclophosphamide, and paclitaxel	Results	17
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+cyclophosphamide	CHEBI:4026	36-52
+paclitaxel	CHEBI:45863	58-68
+Cyclophosphamide: Group 1: cyclophosphamide 500 mg/m2 IV every 21 days for 6 cycles	Results	18
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	27-43
+group	CHEBI:24433	18-23
+Group 2 and Group 3: cyclophosphamide 600 mg/m2 IV every 14 days for 4 cycles	Results	19
+group	CHEBI:24433	0-5
+group	CHEBI:24433	12-17
+cyclophosphamide	CHEBI:4026	21-37
+Paclitaxel: 175 mg/m2 IV every 14 days for 4 cycles	Results	20
+paclitaxel	CHEBI:45863	0-10
+Doxorubicin: Group 1: 50 mg/m2 IV every 21 days for 6 cycles	Results	21
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+group	CHEBI:24433	13-18
+Group 2 and Group 3: 60 mg/m2 IV every 14 days for 4 cycles	Results	22
+group	CHEBI:24433	0-5
+group	CHEBI:24433	12-17
+Overall Number of Participants Analyzed: 1618	Results	23
+Measure Type: Number	Results	24
+Unit of Measure: percentage of patients  82.2        (80.2 to 84.0)	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 277/1601 (17.30%)	Adverse Events	1
+Disseminated intravascular coagulation 1/1601 (0.06%)	Adverse Events	2
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 40/1601 (2.50%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation 2/1601 (0.12%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Pericardial effusion 1/1601 (0.06%)	Adverse Events	5
+pericardial effusion	HP:0001698,DOID:118	0-20
+Pericarditis 1/1601 (0.06%)	Adverse Events	6
+pericarditis	HP:0001701,DOID:1787	0-12
+Sinus tachycardia 2/1601 (0.12%)	Adverse Events	7
+sinus tachycardia	HP:0011703	0-17
+Supraventricular tachycardia 2/1601 (0.12%)	Adverse Events	8
+supraventricular tachycardia	HP:0004755	0-28
+Ventricular tachycardia 1/1601 (0.06%)	Adverse Events	9
+ventricular tachycardia	HP:0004756	0-23
+Glaucoma 1/1601 (0.06%)	Adverse Events	10
+glaucoma	HP:0000501,DOID:1686	0-8
+Adverse Events 2:	Adverse Events	11
+Total: 158/1612 (9.80%)	Adverse Events	12
+Disseminated intravascular coagulation 0/1612 (0.00%)	Adverse Events	13
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 45/1612 (2.79%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation 3/1612 (0.19%)	Adverse Events	15
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Pericardial effusion 0/1612 (0.00%)	Adverse Events	16
+pericardial effusion	HP:0001698,DOID:118	0-20
+Pericarditis 0/1612 (0.00%)	Adverse Events	17
+pericarditis	HP:0001701,DOID:1787	0-12
+Sinus tachycardia 0/1612 (0.00%)	Adverse Events	18
+sinus tachycardia	HP:0011703	0-17
+Supraventricular tachycardia 1/1612 (0.06%)	Adverse Events	19
+supraventricular tachycardia	HP:0004755	0-28
+Ventricular tachycardia 0/1612 (0.00%)	Adverse Events	20
+ventricular tachycardia	HP:0004756	0-23
+Glaucoma 0/1612 (0.00%)	Adverse Events	21
+glaucoma	HP:0000501,DOID:1686	0-8

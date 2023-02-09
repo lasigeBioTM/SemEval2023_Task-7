@@ -1,0 +1,129 @@
+INTERVENTION 1:	Intervention	0
+Flaxseed	Intervention	1
+Patients receive 1 Nutrigrad™ flaxseed bar containing 7.5 grams flaxseed, 410 mg lignans,once daily.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Patients Identical looking bar with same calorie and total fat content but without flaxseed or lignans once daily.	Intervention	5
+Bothersome hot flashes, defined by their occurrence  28 times per week and of sufficient severity to make the patient desire therapeutic intervention	Eligibility	0
+hot flashes	HP:0031217	11-22
+week	UO:0000034	66-70
+severity	HP:0012824	89-97
+patient	HADO:0000008,OAE:0001817	110-117
+therapeutic intervention	OAE:0000094	125-149
+Presence of hot flashes for  1 month	Eligibility	1
+hot flashes	HP:0031217	12-23
+month	UO:0000035	31-36
+Meets 1 of the following criteria:	Eligibility	2
+History of breast cancer or other cancer (currently without malignant disease)	Eligibility	3
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	11-24
+cancer	DOID:162	18-24
+cancer	DOID:162	34-40
+disease	DOID:4,OGMS:0000031	70-77
+No history of breast cancer and wishes to avoid estrogen due to a perceived increased risk of breast cancer	Eligibility	4
+history	BFO:0000182	3-10
+breast cancer	DOID:1612	14-27
+breast cancer	DOID:1612	94-107
+estrogen	CHEBI:50114,BAO:0000760	48-56
+Hormone receptor status not specified	Eligibility	5
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Postmenopausal as defined by 1 of the following*:	Eligibility	6
+NOTE: *Women with  1 ovary but without a uterus should be deemed postmenopausal by either age > 55 OR a combination of estrogen within a postmenopausal range (per local lab) and follicle-stimulating hormone > 40 mIU/mL	Eligibility	7
+ovary	UBERON:0000992	21-26
+uterus	UBERON:0000995	41-47
+age	PATO:0000011	90-93
+estrogen	CHEBI:50114,BAO:0000760	119-127
+range	LABO:0000114	152-157
+hormone	CHEBI:24621	199-206
+Absence of a period in the past 12 months	Eligibility	8
+Bilateral oophorectomy	Eligibility	9
+bilateral	HP:0012832	0-9
+ECOG performance status 0-1	Eligibility	10
+Life expectancy  6 months	Eligibility	11
+Able to complete questionnaire(s) alone or with assistance	Eligibility	12
+No diabetes requiring oral or injectable antihyperglycemics	Eligibility	13
+No hypotension	Eligibility	14
+hypotension	HP:0002615	3-14
+No history of allergic or other adverse reaction to flaxseed	Eligibility	15
+history	BFO:0000182	3-10
+No irritable bowel syndrome, colitis, Crohn disease, or any gastrointestinal condition where the patient should not consume and/or has an intolerance/allergies to seeds or nuts	Eligibility	16
+irritable bowel syndrome	DOID:9778	3-27
+colitis	HP:0002583,DOID:0060180	29-36
+disease	DOID:4,OGMS:0000031	44-51
+condition	PDRO:0000129	77-86
+patient	HADO:0000008,OAE:0001817	97-104
+At least 4 weeks since prior and no concurrent or planned androgens, estrogens, or progestational agents	Eligibility	17
+Tamoxifen, raloxifene, or aromatase inhibitors are allowed provided the patient has been on a constant dose for  4 weeks and is not expected to stop the medication during study treatment	Eligibility	18
+tamoxifen	CHEBI:41774	0-9
+raloxifene	CHEBI:8772	11-21
+patient	HADO:0000008,OAE:0001817	72-79
+At least 4 weeks since prior and no concurrent anti-cancer therapies of any kind	Eligibility	19
+Trastuzumab allowed	Eligibility	20
+No concurrent treatment with other anti-cancer therapies of any kind except for trastuzumab or endocrine therapies	Eligibility	21
+No concurrent ( 7 days prior to registration) or planned use of other agents for treating hot flashes (i.e., gabapentin, clonidine, antidepressants, estrogen treatment, megestrol acetate, or Bellergal)	Eligibility	22
+hot flashes	HP:0031217	90-101
+gabapentin	CHEBI:42797	109-119
+clonidine	CHEBI:46631	121-130
+estrogen	CHEBI:50114,BAO:0000760	149-157
+megestrol acetate	CHEBI:6723	169-186
+Stable dose of vitamin E (as a general vitamin supplement) allowed provided it is  800 IU/day, it was started > 30 days before study initiation, and is to be continued through study period	Eligibility	23
+stable	HP:0031915	0-6
+vitamin e	CHEBI:33234	15-24
+vitamin	CHEBI:33229	15-22
+vitamin	CHEBI:33229	39-46
+Patients who have been using antidepressants for mood and have been on a stable dose for over a month and meet the eligibility criteria for hot flash frequency and duration are eligible	Eligibility	24
+stable	HP:0031915	73-79
+month	UO:0000035	96-101
+frequency	HP:0040279	150-159
+duration	PATO:0001309	164-172
+No concurrent anticoagulants or anti-platelets (1 mg of Coumadin for central line patency allowed)	Eligibility	25
+central	HP:0030645	69-76
+Aspirin allowed ( 81 mg)	Eligibility	26
+No concurrent anti-hypertensives	Eligibility	27
+No other concurrent herbal supplements for any reason, including soy and soy supplements (i.e., powders, pills, or milk)	Eligibility	28
+Outcome Measurement:	Results	0
+To Evaluate the Efficacy of Flaxseed on Hot Flash Scores in Women as Measured by a Daily Prospective Hot Flash Diary.	Results	1
+efficacy	BAO:0000656	16-24
+The intra-patient difference in hot flash activity between baseline (study week 1) and treatment termination (study week 7) is the primary endpoint. The hot flash activity will be measured by the weekly average hot flash score which is a composite entity of both frequency and severity of hot flashes.	Results	2
+week	UO:0000034	75-79
+week	UO:0000034	116-120
+week	UO:0000034	196-200
+frequency	HP:0040279	263-272
+severity	HP:0012824	277-285
+hot flashes	HP:0031217	289-300
+The hot flash severities are graded from 1 to 4, ranging from mild, to moderate, to severe to very severe. The daily hot flash score is computed by multiplying the mean grade of severity by the frequency during every 24 hour period. Therefore, a score of zero is the lowest possible score and can be interpreted as having no hot flashes. The average daily hot flash score during the baseline week was compared to the average daily value during week 7.	Results	3
+mild	HP:0012825	62-66
+moderate	HP:0012826	71-79
+severe	HP:0012828	84-90
+severe	HP:0012828	99-105
+mean	BAO:0002173	164-168
+severity	HP:0012824	178-186
+frequency	HP:0040279	194-203
+hour	UO:0000032	220-224
+hot flashes	HP:0031217	325-336
+week	UO:0000034	392-396
+week	UO:0000034	444-448
+The primary method of analysis will be the independent sample t-test to examine the change of weekly average hot flash score from baseline to treatment termination between flaxseed and placebo arms.	Results	4
+Time frame: Baseline and 7 weeks	Results	5
+time	PATO:0000165	0-4
+Results 1:	Results	6
+Arm/Group Title: Flaxseed	Results	7
+Arm/Group Description: Patients receive 1 Nutrigrad™ flaxseed bar containing 7.5 grams flaxseed, 410 mg lignans,once daily.	Results	8
+Overall Number of Participants Analyzed: 69	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  -4.9         (6.41)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Placebo	Results	13
+Arm/Group Description: Patients Identical looking bar with same calorie and total fat content but without flaxseed or lignans once daily.	Results	14
+Overall Number of Participants Analyzed: 77	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  -3.5         (6.47)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/101 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

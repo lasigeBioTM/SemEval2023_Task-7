@@ -1,0 +1,130 @@
+INTERVENTION 1:	Intervention	0
+Arm A - Flaxseed & Active Anastrazole	Intervention	1
+active	PATO:0002354	19-25
+25 mg flaxseed per day and 1 mg anastrozole pill per day	Intervention	2
+day	UO:0000033	19-22
+day	UO:0000033	53-56
+anastrozole	CHEBI:2704	32-43
+Anastrozole: 1 mg per day	Intervention	3
+anastrozole	CHEBI:2704	0-11
+day	UO:0000033	22-25
+flaxseed: 25 g per day ground	Intervention	4
+day	UO:0000033	19-22
+INTERVENTION 2:	Intervention	5
+Arm B - Flaxseed	Intervention	6
+Flaxseed 25 mg per day and 1 placebo pill per day	Intervention	7
+day	UO:0000033	19-22
+day	UO:0000033	46-49
+flaxseed: 25 g per day ground	Intervention	8
+day	UO:0000033	19-22
+Inclusion Criteria:	Eligibility	0
+Age  18 and  85 years	Eligibility	1
+age	PATO:0000011	0-3
+Postmenopausal status defined as: no menstrual cycle in the past 12 months hysterectomy with bilateral oophorectomy hysterectomy with intact ovaries if age > 55 years	Eligibility	2
+menstrual cycle	GO:0044850	37-52
+bilateral	HP:0012832	93-102
+age	PATO:0000011	152-155
+Newly diagnosed with incident, primary, invasive, estrogen receptor positive clinical stage II or lower breast cancer	Eligibility	3
+estrogen	CHEBI:50114,BAO:0000760	50-58
+receptor	BAO:0000281	59-67
+breast cancer	DOID:1612	104-117
+ECOG performance status of 1 or less	Eligibility	4
+Willingness to comply with study guidelines and procedures	Eligibility	5
+Willingness and ability to provide informed consent	Eligibility	6
+Usual consumption of soy no more than 1 time per week and willingness to avoid whole soy foods or concentrated soy sources (soy milk, tofu, substitute meat products, meal replacement bars) during the intervention period	Eligibility	7
+time	PATO:0000165	40-44
+week	UO:0000034	49-53
+Willingness to avoid herbal and dietary supplements (not including vitamins), aspirin, and ibuprofen during the intervention period	Eligibility	8
+ibuprofen	CHEBI:132922	91-100
+No competing neoadjuvant or chemotherapy treatment	Eligibility	9
+Time between pre-surgical visit and surgery must be at least 2 weeks	Eligibility	10
+time	PATO:0000165	0-4
+surgery	OAE:0000067	36-43
+No chemotherapy in the past 12 months	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+Inability to read and write English	Eligibility	13
+Previous invasive breast cancer	Eligibility	14
+breast cancer	DOID:1612	18-31
+Insulin dependent Type I or II diabetes diagnosed by physician	Eligibility	15
+insulin	CHEBI:145810	0-7
+History of coagulopathy, thrombocytopenia, or bleeding disorder	Eligibility	16
+history	BFO:0000182	0-7
+thrombocytopenia	HP:0001873,DOID:1588	25-41
+disorder	OGMS:0000045	55-63
+Current (past 30 days) regular (at least once per week) use of reproductive hormone therapy, Tamoxifen, aromatase inhibitors, or other estrogen inhibitors, flaxseed, or antibiotics	Eligibility	17
+week	UO:0000034	50-54
+hormone	CHEBI:24621	76-83
+tamoxifen	CHEBI:41774	93-102
+estrogen	CHEBI:50114,BAO:0000760	135-143
+Current chemotherapy or neoadjuvant chemotherapy	Eligibility	18
+Allergies to flaxseed, nuts, or other seeds	Eligibility	19
+Renal dysfunction defined as creatinine > 1.5 mg/dl	Eligibility	20
+creatinine	CHEBI:16737	29-39
+History of Crohns' disease, ulcerative colitis, irritable bowel syndrome, celiac sprue, or other malabsorption syndrome, diverticulitis, diverticulosis, or other bowel diagnosis which, in the opinion of the breast surgeon, would contraindicate large doses of dietary fiber or would impair nutrient absorption	Eligibility	21
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	19-26
+ulcerative colitis	HP:0100279,DOID:8577	28-46
+irritable bowel syndrome	DOID:9778	48-72
+malabsorption	HP:0002024	97-110
+syndrome	DOID:225	64-72
+syndrome	DOID:225	111-119
+diverticulitis	DOID:7475	121-135
+breast	UBERON:0000310	207-213
+nutrient	CHEBI:33284	289-297
+Current, regular (more than once weekly) use of prescription blood-thinning agents including coumadin, heparin and heparin related drugs, clopidogrel bisulfate	Eligibility	22
+heparin	CHEBI:28304	103-110
+heparin	CHEBI:28304	115-122
+clopidogrel	CHEBI:37941	138-149
+Outcome Measurement:	Results	0
+Expression of Estrogen Receptor (ER-beta)	Results	1
+estrogen	CHEBI:50114,BAO:0000760	14-22
+receptor	BAO:0000281	23-31
+Mean percentage of cells expressing estrogen receptor (ER-beta)	Results	2
+mean	BAO:0002173	0-4
+estrogen	CHEBI:50114,BAO:0000760	36-44
+receptor	BAO:0000281	45-53
+Time frame: Biopsy/Week 1 and Surgical Resection/Week 2	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A - Flaxseed & Active Anastrazole	Results	5
+active	PATO:0002354	36-42
+Arm/Group Description: 25 mg flaxseed per day and 1 mg anastrozole pill per day	Results	6
+day	UO:0000033	42-45
+day	UO:0000033	76-79
+anastrozole	CHEBI:2704	55-66
+Anastrozole: 1 mg per day	Results	7
+anastrozole	CHEBI:2704	0-11
+day	UO:0000033	22-25
+flaxseed: 25 g per day ground	Results	8
+day	UO:0000033	19-22
+Overall Number of Participants Analyzed: 7	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of cells  Biopsy: 7 participants	Results	11
+67.1         (17.0)	Results	12
+Surgical resection: 7 participants	Results	13
+45.7         (28.8)	Results	14
+Results 2:	Results	15
+Arm/Group Title: Arm B - Flaxseed	Results	16
+Arm/Group Description: Flaxseed 25 mg per day and 1 placebo pill per day	Results	17
+day	UO:0000033	42-45
+day	UO:0000033	69-72
+flaxseed: 25 g per day ground	Results	18
+day	UO:0000033	19-22
+Overall Number of Participants Analyzed: 6	Results	19
+Mean (Standard Deviation)	Results	20
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of cells  Biopsy: 6 participants	Results	21
+63.3         (10.3)	Results	22
+Surgical resection: 6 participants	Results	23
+56.7         (23.4)	Results	24
+Adverse Events 1:	Adverse Events	0
+Total: 0/7 (0.00%)	Adverse Events	1
+Breast haematoma  0/7 (0.00%)	Adverse Events	2
+breast	UBERON:0000310	0-6
+Adverse Events 2:	Adverse Events	3
+Total: 0/7 (0.00%)	Adverse Events	4
+Breast haematoma  0/7 (0.00%)	Adverse Events	5
+breast	UBERON:0000310	0-6

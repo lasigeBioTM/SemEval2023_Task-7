@@ -1,0 +1,121 @@
+INTERVENTION 1:	Intervention	0
+Vorinostat +Trastuzumab	Intervention	1
+vorinostat	CHEBI:45716	0-10
+Trastuzumab: 6 mg/kg once on Day 1, infused over 90 minutes, every 3 weeks;	Intervention	2
+day	UO:0000033	29-32
+Vorinostat 200 mg of SAHA orally twice a day, daily for 14 days out of a 21-day cycle	Intervention	3
+vorinostat	CHEBI:45716	0-10
+day	UO:0000033	41-44
+day	UO:0000033	59-62
+day	UO:0000033	76-79
+Inclusion Criteria:	Eligibility	0
+Not pregnant or nursing	Eligibility	1
+Negative pregnancy test	Eligibility	2
+Fertile patients must use effective contraception	Eligibility	3
+No active or ongoing infection	Eligibility	4
+active	PATO:0002354	3-9
+No history of allergic reaction to compounds of similar chemical or biologic composition to vorinostat or other agents used in study	Eligibility	5
+history	BFO:0000182	3-10
+vorinostat	CHEBI:45716	92-102
+No psychiatric illness or social situation that would preclude study compliance	Eligibility	6
+No other uncontrolled illness	Eligibility	7
+More than 3 weeks since prior chemotherapy (6 weeks for nitrosoureas or mitomycin; 1 week for capecitabine) and recovered	Eligibility	8
+mitomycin	CHEBI:25357	72-81
+week	UO:0000034	12-16
+week	UO:0000034	46-50
+week	UO:0000034	85-89
+capecitabine	CHEBI:31348	94-106
+More than 3 weeks since prior radiotherapy and recovered	Eligibility	9
+radiotherapy	OAE:0000235	30-42
+Recovered from prior therapy	Eligibility	10
+At least 2 weeks since prior valproic acid	Eligibility	11
+valproic acid	CHEBI:39867	29-42
+More than 4 weeks since prior investigational agents	Eligibility	12
+More than 4 weeks since prior lapatinib ditosylate	Eligibility	13
+lapatinib	CHEBI:49603	30-39
+No concurrent combination antiretroviral therapy for HIV-positive patients	Eligibility	14
+Measurable disease, defined as >= 1 unidimensionally measurable lesion > 20 mm by conventional techniques or > 10 mm by spiral CT scan	Eligibility	15
+disease	DOID:4,OGMS:0000031	11-18
+ct	BAO:0002125	127-129
+No other concurrent investigational agents	Eligibility	16
+Concurrent bisphosphonates allowed provided therapy was initiated prior to study treatment	Eligibility	17
+No other concurrent anticancer therapy	Eligibility	18
+Recurrent or progressive disease while receiving prior trastuzumab (Herceptin) (with or without chemotherapy) OR relapsed within 3 months of last dose of prior adjuvant trastuzumab for metastatic disease	Eligibility	19
+recurrent	HP:0031796	0-9
+progressive	HP:0003676	13-24
+disease	DOID:4,OGMS:0000031	25-32
+disease	DOID:4,OGMS:0000031	196-203
+adjuvant	CHEBI:60809	160-168
+Histologically confirmed breast cancer	Eligibility	20
+breast cancer	DOID:1612	25-38
+Must overexpress HER-2 gene	Eligibility	21
+gene	BAO:0000582	23-27
+Metastatic or chest wall recurrent disease	Eligibility	22
+chest	UBERON:0001443	14-19
+recurrent	HP:0031796	25-34
+disease	DOID:4,OGMS:0000031	35-42
+Site of measurable disease must not have been irradiated (except chest wall recurrence treated with adjuvant radiation therapy)	Eligibility	23
+site	BFO:0000029	0-4
+disease	DOID:4,OGMS:0000031	19-26
+chest	UBERON:0001443	65-70
+adjuvant	CHEBI:60809	100-108
+No untreated brain metastases	Eligibility	24
+brain	UBERON:0000955	13-18
+Previously treated brain metastasis responsive to radiotherapy and/or surgery allowed provided the brain is not the sole site of measurable disease	Eligibility	25
+brain	UBERON:0000955	19-24
+brain	UBERON:0000955	99-104
+radiotherapy	OAE:0000235	50-62
+surgery	OAE:0000067	70-77
+site	BFO:0000029	121-125
+disease	DOID:4,OGMS:0000031	140-147
+ECOG 0-2	Eligibility	26
+Absolute neutrophil count >= 1,500/mm^3	Eligibility	27
+Platelet count >= 100,000/mm^3	Eligibility	28
+platelet count	CMO:0000029	0-14
+Hemoglobin >= 9 g/dL	Eligibility	29
+hemoglobin	CHEBI:35143	0-10
+AST and ALT =< 2 times upper limit of normal	Eligibility	30
+Bilirubin =< 1.5 mg/dL (3 mg/dL in the presence of Gilbert's disease provided direct bilirubin is normal)	Eligibility	31
+disease	DOID:4,OGMS:0000031	61-68
+Creatinine =< 1.5 mg/dL	Eligibility	32
+creatinine	CHEBI:16737	0-10
+LVEF normal by nuclear scan or echocardiogram	Eligibility	33
+No evidence of PR prolongation or AV block by EKG	Eligibility	34
+No symptomatic congestive heart failure	Eligibility	35
+congestive heart failure	HP:0001635,DOID:6000	15-39
+No unstable angina pectoris	Eligibility	36
+angina pectoris	HP:0001681	12-27
+No cardiac arrhythmia	Eligibility	37
+arrhythmia	HP:0011675	11-21
+Outcome Measurement:	Results	0
+Response Rate	Results	1
+rate	BAO:0080019	9-13
+Tumor response is assessed by Response Evaluation Criteria In Solid Tumors (RECIST) version 1.0. Response included complete response (CR) and partial response (PR). CR is defined as the disappearance of all target lesions. PR is defined as at least a 30% decrease in the sum of the longest diameters of target lesions, taking as reference the baseline sum longest diameter.	Results	2
+target	BAO:0003064	207-213
+target	BAO:0003064	303-309
+diameter	PATO:0001334	290-298
+diameter	PATO:0001334	364-372
+Time frame: Tumor assessment was obtained at baseline, after 6 weeks (week 6 = last week of Cycle 2), and after every 4 cycles of therapy	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	63-67
+week	UO:0000034	70-74
+week	UO:0000034	84-88
+Results 1:	Results	4
+Arm/Group Title: Vorinostat +Trastuzumab	Results	5
+vorinostat	CHEBI:45716	17-27
+Arm/Group Description: Trastuzumab: 6 mg/kg once on Day 1, infused over 90 minutes, every 3 weeks;	Results	6
+day	UO:0000033	52-55
+Vorinostat 200 mg of SAHA orally twice a day, daily for 14 days out of a 21-day cycle	Results	7
+vorinostat	CHEBI:45716	0-10
+day	UO:0000033	41-44
+day	UO:0000033	59-62
+day	UO:0000033	76-79
+Overall Number of Participants Analyzed: 10	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  0        (0 to 26)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 2/9 (22.22%)	Adverse Events	1
+Thrombocytopenia 2/9 (22.22%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Dyspnea 0/9 (0.00%)	Adverse Events	3
+dyspnea	HP:0002094	0-7

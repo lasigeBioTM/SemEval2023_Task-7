@@ -1,0 +1,98 @@
+INTERVENTION 1:	Intervention	0
+Group I (Topical Keratin)	Intervention	1
+group	CHEBI:24433	0-5
+Patients receive topical keratin topically at least BID until the end of radiation therapy (approximately 3-6 weeks).	Intervention	2
+Quality-of-Life Assessment: Ancillary studies	Intervention	3
+Topical Keratin: Given topically	Intervention	4
+INTERVENTION 2:	Intervention	5
+Group II (Standard of Care)	Intervention	6
+group	CHEBI:24433	0-5
+Patients receive standard of care as directed by radiation oncologist until the end of radiation therapy (approximately 3-6 weeks).	Intervention	7
+directed by	LABO:0000115	37-48
+Best Practice: Receive standard of care	Intervention	8
+Quality-of-Life Assessment: Ancillary studies	Intervention	9
+Inclusion Criteria:	Eligibility	0
+Diagnosis of breast cancer, received chemotherapy, and scheduled to receive 4 to 6 weeks of radiation therapy (radiation protocol of 42 Gy+)	Eligibility	1
+breast cancer	DOID:1612	13-26
+Area to be irradiated representing 1-10% of total body surface area (TBSA)	Eligibility	2
+area	PATO:0001323	0-4
+area	PATO:0001323	63-67
+Able and willing to sign protocol consent form	Eligibility	3
+Able and willing to document symptoms and treatment details as often as needed, not to exceed daily notes	Eligibility	4
+document	IAO:0000310	20-28
+Able and willing to have photographs of the affected area taken regularly	Eligibility	5
+affected	HP:0032320	44-52
+area	PATO:0001323	53-57
+Exclusion Criteria:	Eligibility	6
+Women who are pregnant, lactating/nursing or plan to become pregnant	Eligibility	7
+Previous radiation therapy to the area to be treated with radiation therapy	Eligibility	8
+area	PATO:0001323	34-38
+Receiving palliative radiation therapy	Eligibility	9
+Unhealed or infected surgical sites in the irradiation area	Eligibility	10
+area	PATO:0001323	55-59
+Patients undergoing cytotoxic chemotherapy or concurrent Herceptin as part of overall treatment plan (tamoxifen/aromatase inhibitor allowed)	Eligibility	11
+part of	BAO:0090002,BFO:0000050	70-77
+inhibitor	CHEBI:35222	122-131
+Use of oral corticosteroids or topical corticosteroids in the irradiation area	Eligibility	12
+area	PATO:0001323	74-78
+Use of Erbitux	Eligibility	13
+Autoimmune disease	Eligibility	14
+autoimmune disease	DOID:417	0-18
+Skin disease in target irradiation area	Eligibility	15
+skin disease	DOID:37	0-12
+target	BAO:0003064	16-22
+area	PATO:0001323	35-39
+Smoker	Eligibility	16
+Known allergy to the standard of care or ingredients in KeraStat Cream	Eligibility	17
+allergy	HP:0012393	6-13
+Outcome Measurement:	Results	0
+Incidence of Early Adverse Skin Reactions (EASRs)	Results	1
+The Modified ONS Criteria for Radiation-Induced Acute Skin Toxicity will be used for classification of EASRs related to the skin. Participants will report in a total of 7 visits any experience with Grade I (faint or dull erythema; dry desquamation or Grade II (tender or bright erythema, patchy, moist desquamation) acute radiation dermatitis using the RTOG (Radiation Therapy Oncology Group) grading system with Grade II considered the worse outcome. Comparative effectiveness will include the number or study participants in each arm that experience RTOG Grade I or Grade II radiation dermatitis and moist desquamation.	Results	2
+acute	HP:0011009,PATO:0000389	48-53
+acute	HP:0011009,PATO:0000389	316-321
+dull	HP:0025282	216-220
+erythema	HP:0010783	221-229
+erythema	HP:0010783	278-286
+tender	HP:0025283	261-267
+dermatitis	DOID:2723	332-342
+dermatitis	DOID:2723	587-597
+group	CHEBI:24433	386-391
+Time frame: Up to 4 weeks post-RT	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Group I (Topical Keratin)	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Patients receive topical keratin topically at least BID until the end of radiation therapy (approximately 3-6 weeks).	Results	6
+Quality-of-Life Assessment: Ancillary studies	Results	7
+Topical Keratin: Given topically	Results	8
+Overall Number of Participants Analyzed: 13	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  Grade I Acute Radiation Dermatitis: 13 100.0%	Results	11
+acute	HP:0011009,PATO:0000389	39-44
+dermatitis	DOID:2723	55-65
+Grade II Acute Radiation Dermatitis: 4  30.8%	Results	12
+acute	HP:0011009,PATO:0000389	9-14
+dermatitis	DOID:2723	25-35
+Moist Desquamation: 1   7.7%	Results	13
+Results 2:	Results	14
+Arm/Group Title: Group II (Standard of Care)	Results	15
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Patients receive standard of care as directed by radiation oncologist until the end of radiation therapy (approximately 3-6 weeks).	Results	16
+directed by	LABO:0000115	60-71
+Best Practice: Receive standard of care	Results	17
+Quality-of-Life Assessment: Ancillary studies	Results	18
+Overall Number of Participants Analyzed: 11	Results	19
+Measure Type: Count of Participants	Results	20
+Unit of Measure: Participants  Grade I Acute Radiation Dermatitis: 10  90.9%	Results	21
+acute	HP:0011009,PATO:0000389	39-44
+dermatitis	DOID:2723	55-65
+Grade II Acute Radiation Dermatitis: 6  54.5%	Results	22
+acute	HP:0011009,PATO:0000389	9-14
+dermatitis	DOID:2723	25-35
+Moist Desquamation: 0   0.0%	Results	23
+Adverse Events 1:	Adverse Events	0
+Total: 0/13 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/11 (0.00%)	Adverse Events	3

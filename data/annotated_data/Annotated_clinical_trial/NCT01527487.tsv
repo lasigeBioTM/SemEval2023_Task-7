@@ -1,0 +1,221 @@
+INTERVENTION 1:	Intervention	0
+Eribulin+Cyclophosphamide (ErC)	Intervention	1
+Eribulin (Er): 1.4mg/m^2 (Days 1 and 8 of each treatment cycle) by IV infusion	Intervention	2
+eribulin	CHEBI:63587	0-8
+Cyclophosphamide (C): 600 mg/m^2 IV (Day 1 of each treatment cycle) by IV infusion	Intervention	3
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	37-40
+INTERVENTION 2:	Intervention	4
+Docetaxel+Cyclophosphamide (TC)	Intervention	5
+Docetaxel (T): 75 mg/m^2 (Day 1 of each treatment cycle), by IV infusion	Intervention	6
+t	CHEBI:36371,BAO:0001260	4-5
+t	CHEBI:36371,BAO:0001260	11-12
+t	CHEBI:36371,BAO:0001260	40-41
+t	CHEBI:36371,BAO:0001260	44-45
+t	CHEBI:36371,BAO:0001260	48-49
+day	UO:0000033	26-29
+Cyclophosphamide (C): 600 mg/m^2 (Day 1 of each treatment cycle)	Intervention	7
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	34-37
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed invasive adenocarcinoma of the breast.	Eligibility	1
+adenocarcinoma	DOID:299	34-48
+breast	UBERON:0000310	56-62
+Primary palpable disease confined to the breast and axilla on physical examination (clinical Stage II or III disease). For patients without clinically suspicious axillary adenopathy, the primary must be >2 cm in diameter by physical examination or imaging studies (clinical T2-3, N0-2, M0). For patients with clinically suspicious axillary adenopathy, the primary breast tumor can be any size (clinical T1-3, N1-2, M0). Patients who have had axillary node dissection and have pN3a (i.e. 10 involved axillary nodes) are also eligible.	Eligibility	2
+disease	DOID:4,OGMS:0000031	17-24
+disease	DOID:4,OGMS:0000031	109-116
+breast	UBERON:0000310	41-47
+breast	UBERON:0000310	364-370
+physical examination	OAE:0004232	62-82
+physical examination	OAE:0004232	224-244
+diameter	PATO:0001334	212-220
+size	PATO:0000117	388-392
+Patients entering the trial after undergoing an axillary node dissection will be eligible if they meet other entry criteria.	Eligibility	3
+Estrogen receptor (ER) and progesterone receptor (PR) status in the primary tumor known or pending at the time of study registration.	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	40-48
+progesterone	CHEBI:17026	27-39
+time	PATO:0000165	106-110
+Resolution of all acute effects of surgical procedures to  grade 1. For patients who had or will have, a sentinel node and/or axillary node dissection, completion at least 1 week prior to the initiation of study treatment with a well-healed wound is required.	Eligibility	5
+acute	HP:0011009,PATO:0000389	18-23
+week	UO:0000034	174-178
+Bilateral, synchronous breast cancer is allowed if both primary tumors are HER2-negative and at least one meets the specified qualifying tumor or nodal inclusion criteria.	Eligibility	6
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	23-36
+Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) score of 0-2.	Eligibility	7
+group	CHEBI:24433	29-34
+Patients entering this study must be willing to provide release of tumor tissue collected at baseline during a diagnostic procedure if available, and at the time of future surgical procedure(s) for correlative testing. If tissue is not available, the patient will still be eligible for enrollment to the study.	Eligibility	8
+tissue	UBERON:0000479	73-79
+tissue	UBERON:0000479	222-228
+time	PATO:0000165	157-161
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	251-258
+No evidence of metastatic disease, as documented by complete staging workup 8 weeks prior to initiation of study treatment.	Eligibility	9
+disease	DOID:4,OGMS:0000031	26-33
+No prior treatment for this breast cancer with the exception of criterion #3.	Eligibility	10
+breast cancer	DOID:1612	28-41
+HER2-negative tumor status defined as:	Eligibility	11
+Immunohistochemical (IHC) 0-1+ or	Eligibility	12
+IHC 2+ or IHC 3+ confirmed as FISH (Fluorescence in situ hybridization) or SISH (Silver in situ hybridization) negative (defined by ratio <2.2)	Eligibility	13
+ratio	UO:0000190	132-137
+Adequate hematologic function defined as:	Eligibility	14
+function	BAO:0003117,BFO:0000034	21-29
+Absolute neutrophil count (ANC) 1500/μL	Eligibility	15
+Hemoglobin (Hgb) 10 g/dL	Eligibility	16
+hemoglobin	CHEBI:35143	0-10
+Platelets 100,000/uL	Eligibility	17
+Adequate liver function defined as:	Eligibility	18
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) 2.5 x the upper limit of normal (ULN)	Eligibility	19
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	35-44
+x	LABO:0000148	72-73
+Total bilirubin  the institutional ULN	Eligibility	20
+Adequate renal function defined as:	Eligibility	21
+function	BAO:0003117,BFO:0000034	15-23
+Serum creatinine 1.5 mg/dL x ULN OR calculated creatinine clearance 50 mL/min by the Cockcroft-Gault method:	Eligibility	22
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	47-57
+x	LABO:0000148	27-28
+creatinine clearance	CMO:0000765	47-67
+GRF =(140-age) x (weight/kg) x (0.85 if female) (72 x serum creatinine mg/dL)	Eligibility	23
+x	LABO:0000148	15-16
+x	LABO:0000148	29-30
+x	LABO:0000148	52-53
+female	PATO:0000383	40-46
+creatinine	CHEBI:16737	60-70
+Other laboratory testing:	Eligibility	24
+Serum magnesium  the institutional lower limit of normal (LLN)	Eligibility	25
+Serum potassium the institutional LLN	Eligibility	26
+Female and 18 years of age.	Eligibility	27
+female	PATO:0000383	0-6
+age	PATO:0000011	23-26
+Negative serum pregnancy test within <7 days prior to initial trial treatment.	Eligibility	28
+Female patients who are not of child-bearing potential, and female patients of child-bearing potential who agree to use adequate contraceptive measures that are approved by their study physician while receiving study treatment and continuing for 3 weeks after the last dose of study drug treatment, who are not breastfeeding, and who have a negative serum pregnancy test prior to start of dosing.	Eligibility	29
+female	PATO:0000383	0-6
+female	PATO:0000383	60-66
+drug	CHEBI:23888	283-287
+Willingness and ability to comply with trial and follow-up procedures.	Eligibility	30
+Ability to understand the nature of this trial and give written informed consent.	Eligibility	31
+Exclusion Criteria:	Eligibility	32
+Clinical T4 lesions, including inflammatory breast cancer. Clinical N3 involvement (e.g., ipsilateral, infraclavicular, supraclavicular, and internal mammary nodes).	Eligibility	33
+breast cancer	DOID:1612	44-57
+Peripheral neuropathy (motor or sensory) > grade 1 according to Common Terminology Criteria for Adverse Events version 4.0 (CTCAE v4.0).	Eligibility	34
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Patient has received radiotherapy for treatment of previous cancer that included 30% of major bone marrow containing areas (e.g., pelvis, lumbar, spine).	Eligibility	35
+patient	HADO:0000008,OAE:0001817	0-7
+radiotherapy	OAE:0000235	21-33
+cancer	DOID:162	60-66
+bone marrow	UBERON:0002371	94-105
+Known or suspected allergy or hypersensitivity to any of the study drugs (i.e., eribulin, cyclophosphamide, docetaxel) or known hypersensitivity to polysorbate 80.	Eligibility	36
+allergy	HP:0012393	19-26
+hypersensitivity	GO:0002524,DOID:1205	30-46
+hypersensitivity	GO:0002524,DOID:1205	128-144
+eribulin	CHEBI:63587	80-88
+cyclophosphamide	CHEBI:4026	90-106
+polysorbate 80	CHEBI:53426	148-162
+Patients with acute or chronic liver or renal disease or pancreatitis.	Eligibility	37
+acute	HP:0011009,PATO:0000389	14-19
+chronic	HP:0011010	23-30
+liver	UBERON:0002107	31-36
+disease	DOID:4,OGMS:0000031	46-53
+pancreatitis	HP:0001733,DOID:4989	57-69
+Known diagnosis of human immunodeficiency virus (HIV), Hepatitis B (HBV) or Hepatitis C (HCV).	Eligibility	38
+immunodeficiency	HP:0002721	25-41
+virus	BAO:0000232	42-47
+hepatitis b	DOID:2043	55-66
+hepatitis c	DOID:1883	76-87
+Concurrent treatment with an ovarian hormonal replacement therapy or with hormonal agents such as raloxifene, tamoxifen or other selective estrogen receptor modulator (SERM). Patients must have discontinued use of such agents prior to beginning study treatment. However, use of GNRH agonists for the purpose of fertility preservation or suppression of heavy menses is permitted (see Section 5.4.1).	Eligibility	39
+raloxifene	CHEBI:8772	98-108
+tamoxifen	CHEBI:41774	110-119
+estrogen receptor modulator	CHEBI:50739	139-166
+Patient has any of the following cardiac diseases currently or within the last 6 months:	Eligibility	40
+patient	HADO:0000008,OAE:0001817	0-7
+Left Ventricular Ejection Fraction (LVEF) <45% as determined by Multiple Gated acquisition (MUGA) scan or echocardiogram (ECHO)	Eligibility	41
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Heart rate-corrected QT interval (QTc) > 480 ms on screening electrocardiogram (ECG) (using Bazett's formula)	Eligibility	42
+heart	UBERON:0000948	0-5
+qt interval	CMO:0000235	21-32
+Unstable angina pectoris	Eligibility	43
+angina pectoris	HP:0001681	9-24
+Congestive heart failure (New York Heart Association [NYHA]  Grade 2	Eligibility	44
+congestive heart failure	HP:0001635,DOID:6000	0-24
+heart	UBERON:0000948	11-16
+heart	UBERON:0000948	35-40
+Acute myocardial infarction	Eligibility	45
+acute myocardial infarction	DOID:9408	0-27
+Conduction abnormality not controlled with pacemaker or medication	Eligibility	46
+Significant ventricular or supraventricular arrhythmias (Patients with chronic rate-controlled atrial fibrillation in the absence of other cardiac abnormalities are eligible).	Eligibility	47
+chronic	HP:0011010	71-78
+atrial fibrillation	HP:0005110,DOID:0060224	95-114
+Valvular disease with significant compromise in cardiac function	Eligibility	48
+disease	DOID:4,OGMS:0000031	9-16
+function	BAO:0003117,BFO:0000034	56-64
+Chronic use of drugs that cause QTc prolongation. Patients must discontinue use of these drugs 7 days prior to the start of study treatment.	Eligibility	49
+chronic	HP:0011010	0-7
+Presence of other active cancers, or history of treatment for invasive cancer 5 years. Patients with stage I cancer who have received definitive local treatment at least 3 years previously, and are considered unlikely to recur are eligible. All patients with previously treated in situ carcinoma (i.e. non-invasive) are eligible, as are patients with history of non-melanoma skin cancer.	Eligibility	50
+active	PATO:0002354	18-24
+history	BFO:0000182	37-44
+history	BFO:0000182	351-358
+cancer	DOID:162	25-31
+cancer	DOID:162	71-77
+cancer	DOID:162	109-115
+cancer	DOID:162	380-386
+in situ carcinoma	DOID:8719	278-295
+skin cancer	DOID:4159	375-386
+Patients may not receive any other investigational or anti-cancer treatments while participating in this trial.	Eligibility	51
+Psychological, familial, sociological, or geographical conditions that do not permit compliance with the protocol.	Eligibility	52
+Inability or unwillingness to comply with study and/or follow-up procedures outlined in the protocol.	Eligibility	53
+Outcome Measurement:	Results	0
+Pathologic Complete Response (pCR) Rate in Patients Treated With ErC for 6 Cycles Prior to Surgery	Results	1
+rate	BAO:0080019	35-39
+surgery	OAE:0000067	91-98
+One cycle = 21 days. Pathologic CR is defined as the absence of invasive tumor in the breast and lymph node tissue removed at the time of definitive surgery as judged by the local pathologist.	Results	2
+breast	UBERON:0000310	86-92
+lymph	UBERON:0002391	97-102
+tissue	UBERON:0000479	108-114
+time	PATO:0000165	130-134
+surgery	OAE:0000067	149-156
+Time frame: 18 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Eribulin+Cyclophosphamide (ErC)	Results	5
+Arm/Group Description: Eribulin (Er): 1.4mg/m^2 (Days 1 and 8 of each treatment cycle) by IV infusion	Results	6
+eribulin	CHEBI:63587	23-31
+Cyclophosphamide (C): 600 mg/m^2 IV (Day 1 of each treatment cycle) by IV infusion	Results	7
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	37-40
+Overall Number of Participants Analyzed: 39	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of surgical patients  18	Results	10
+Results 2:	Results	11
+Arm/Group Title: Docetaxel+Cyclophosphamide (TC)	Results	12
+Arm/Group Description: Docetaxel (T): 75 mg/m^2 (Day 1 of each treatment cycle), by IV infusion	Results	13
+t	CHEBI:36371,BAO:0001260	17-18
+t	CHEBI:36371,BAO:0001260	27-28
+t	CHEBI:36371,BAO:0001260	34-35
+t	CHEBI:36371,BAO:0001260	63-64
+t	CHEBI:36371,BAO:0001260	67-68
+t	CHEBI:36371,BAO:0001260	71-72
+day	UO:0000033	49-52
+Cyclophosphamide (C): 600 mg/m^2 (Day 1 of each treatment cycle)	Results	14
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	34-37
+Overall Number of Participants Analyzed: 20	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of surgical patients  10	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 4/54 (7.41%)	Adverse Events	1
+Febrile Neutropenia 3/54 (5.56%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Sepsis 1/54 (1.85%)	Adverse Events	3
+sepsis	HP:0100806	0-6
+Adverse Events 2:	Adverse Events	4
+Total: 2/22 (9.09%)	Adverse Events	5
+Febrile Neutropenia 1/22 (4.55%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	8-19
+Sepsis 1/22 (4.55%)	Adverse Events	7
+sepsis	HP:0100806	0-6

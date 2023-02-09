@@ -1,0 +1,187 @@
+INTERVENTION 1:	Intervention	0
+Letrozole	Intervention	1
+letrozole	CHEBI:6413	0-9
+2.5 mg once daily (q.d.)orally for 5 years	Intervention	2
+INTERVENTION 2:	Intervention	3
+Tam-Let	Intervention	4
+20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years.	Intervention	5
+tamoxifen	CHEBI:41774	6-15
+letrozole	CHEBI:6413	65-74
+Inclusion Criteria	Eligibility	0
+Female	Eligibility	1
+female	PATO:0000383	0-6
+Post-menopausal hormone status defined as:	Eligibility	2
+hormone	CHEBI:24621	16-23
+Patients with menostasis (amenorrhea) > 12 months or history of oophorectomy.	Eligibility	3
+amenorrhea	HP:0000141,DOID:13938	26-36
+history	BFO:0000182	53-60
+Patients  55 years with history of hysterectomy or having continued/renewed menstruation on cyclic hormone treatment.	Eligibility	4
+history	BFO:0000182	24-31
+menstruation	GO:0042703	76-88
+hormone	CHEBI:24621	99-106
+Patients of 50-54 years: Menopausal status was determined on the basis of follicle-stimulating hormone (FSH)/luteinizing hormone (LH) values.	Eligibility	5
+hormone	CHEBI:24621	95-102
+hormone	CHEBI:24621	121-128
+Histologically confirmed resected breast cancer and eligible for adjuvant endocrine therapy. As a minimum, patients had to have receptor-positive tumors, which were defined either as estrogen receptor (ER) and/or progesterone receptor (PgR)  10 fmol/mg cytosol protein; or  10% of the tumor cells positive by immunocytochemical evaluation.	Eligibility	6
+breast cancer	DOID:1612	34-47
+adjuvant	CHEBI:60809	65-73
+estrogen	CHEBI:50114,BAO:0000760	183-191
+receptor	BAO:0000281	128-136
+receptor	BAO:0000281	192-200
+receptor	BAO:0000281	226-234
+progesterone	CHEBI:17026	213-225
+cytosol	GO:0005829	253-260
+protein	CHEBI:36080,BAO:0000175	261-268
+Adequate bone marrow function (white blood cell count [WBC] > 3.0 x 109 /L, platelets  100.0 x 109 /L, and hemoglobin > 10 g/dL).	Eligibility	7
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+white blood cell count	CMO:0000027	31-53
+x	LABO:0000148	66-67
+x	LABO:0000148	93-94
+hemoglobin	CHEBI:35143	107-117
+Documented evidence of adequate renal function (creatinine < 180 µmol/L) and hepatic function (bilirubin < 30 µmol/L, alanine aminotransferase (ALT) < 1.5 x upper normal limit of the laboratory).	Eligibility	8
+function	BAO:0003117,BFO:0000034	38-46
+function	BAO:0003117,BFO:0000034	85-93
+creatinine	CHEBI:16737	48-58
+alanine	CHEBI:16449	118-125
+x	LABO:0000148	155-156
+Life expectancy of at least 24 months at the time of enrollment.	Eligibility	9
+time	PATO:0000165	45-49
+Written voluntary informed consent prior to initiation of any study procedure.	Eligibility	10
+Willingness to undergo all scheduled tests and examinations for evaluation of bone density and bone metabolism, and lipid profiles in addition to the standard assessments for monitoring their breast cancer status.	Eligibility	11
+lipid	CHEBI:18059,BAO:0000171	116-121
+breast cancer	DOID:1612	192-205
+Exclusion Criteria	Eligibility	12
+Patients with distant metastases as defined by the criteria of the Danish Breast Cancer Co-operative Group (DBCCOG).	Eligibility	13
+breast cancer	DOID:1612	74-87
+group	CHEBI:24433	101-106
+Pre-existing bone disease (e.g. osteomalacia, osteogenesis imperfecta, Paget's disease).	Eligibility	14
+bone disease	DOID:0080001	13-25
+osteomalacia	HP:0002749,DOID:10573	32-44
+osteogenesis imperfecta	DOID:12347	46-69
+disease	DOID:4,OGMS:0000031	18-25
+disease	DOID:4,OGMS:0000031	79-86
+Patients receiving bisphosphonates for more than 3 months before randomization.	Eligibility	15
+Chronic treatment with drugs known to interfere with bone metabolism, e.g.	Eligibility	16
+chronic	HP:0011010	0-7
+Anti-convulsants within the past year.	Eligibility	17
+year	UO:0000036	33-37
+Corticosteroids at doses greater than the equivalent of 5 mg/day prednisone for more than two weeks in the past 6 months (prior to randomization).	Eligibility	18
+prednisone	CHEBI:8382	65-75
+Any previous treatment with sodium fluoride at daily doses  5 mg/day for a period exceeding 1 month.	Eligibility	19
+sodium fluoride	CHEBI:28741	28-43
+month	UO:0000035	94-99
+Anabolic steroids in the past 12 months.	Eligibility	20
+Long term use of coumarin derivatives and heparin at the time of randomization.	Eligibility	21
+coumarin	CHEBI:28794	17-25
+heparin	CHEBI:28304	42-49
+time	PATO:0000165	57-61
+Metabolic diseases known to interfere with bone metabolism (e.g., Hyperparathyroidism, hypoparathyroidism, uncontrolled thyroid disease, Cushing's disease, vitamin D deficiency, malabsorption syndrome, etc.).	Eligibility	22
+hyperparathyroidism	HP:0000843,DOID:13543	66-85
+hypoparathyroidism	HP:0000829,DOID:11199	87-105
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	128-135
+disease	DOID:4,OGMS:0000031	147-154
+vitamin d	CHEBI:27300	156-165
+malabsorption	HP:0002024	178-191
+syndrome	DOID:225	192-200
+Treatment with lipid-lowering agents within the 3 months prior to randomization (this exclusion criterion did not apply to patients randomized in the United Kingdom).	Eligibility	23
+Patients receiving other anti-cancer treatment.	Eligibility	24
+Previous neoadjuvant / adjuvant chemotherapy and /or previous adjuvant endocrine therapy (e.g., anti-estrogens, AIs).	Eligibility	25
+adjuvant	CHEBI:60809	12-20
+adjuvant	CHEBI:60809	23-31
+adjuvant	CHEBI:60809	62-70
+History of previous or concomitant malignancy within the past 5 years other than adequately treated basal or squamous cell carcinoma of the skin or in situ carcinoma of the cervix. Patients who had a previous other malignancy must have been disease free for five years. Patients with endometrial cancer and/or invasive breast cancer at any time in their medical history were excluded. Patients with invasive bilateral breast cancer were excluded. Patients with vaginal discharge/ vaginal bleeding with evidence of malignancy were excluded.	Eligibility	26
+history	BFO:0000182	0-7
+history	BFO:0000182	362-369
+squamous cell carcinoma of the skin	HP:0006739	109-144
+in situ carcinoma	DOID:8719	148-165
+disease	DOID:4,OGMS:0000031	241-248
+endometrial cancer	DOID:1380	284-302
+breast cancer	DOID:1612	319-332
+breast cancer	DOID:1612	418-431
+time	PATO:0000165	340-344
+excluded	HP:0040285	375-383
+excluded	HP:0040285	437-445
+excluded	HP:0040285	530-538
+bilateral breast cancer	DOID:6741	408-431
+Any other non-malignant systemic diseases (cardiovascular, renal, hepatic, lung embolism, etc.) which would prevent prolonged follow-up.	Eligibility	27
+lung	UBERON:0002048	75-79
+prolonged	HP:0025297	116-125
+Outcome Measurement:	Results	0
+Percent Change From Baseline of Bone Mineral Density of the Lumbar Spine (L2-l4)	Results	1
+percent change	BAO:0001252	0-14
+bone mineral density	CMO:0001226	32-52
+Lumbar spine (L2-L4) BMD measurements by dual energy X-ray absorptiometry (DXA) were performed after surgery and within 2 weeks prior to randomization and repeated every 6 months for the first 2 years and annually thereafter until 5 years after enrollment. The primary scanning site was the lumbar spine (L2 to L4) and the secondary scanning site was the total hip. All DXA scans were evaluated by a central reader.	Results	2
+surgery	OAE:0000067	101-108
+site	BFO:0000029	278-282
+site	BFO:0000029	342-346
+hip	UBERON:0001464	361-364
+central	HP:0030645	400-407
+Time frame: Baseline, 24 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Letrozole	Results	5
+letrozole	CHEBI:6413	17-26
+Arm/Group Description: 2.5 mg once daily (q.d.)orally for 5 years	Results	6
+Overall Number of Participants Analyzed: 63	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: Percent Change  -4.63        (-14.21 to 4.32)	Results	9
+percent change	BAO:0001252	17-31
+Results 2:	Results	10
+Arm/Group Title: Tam-Let	Results	11
+Arm/Group Description: 20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years.	Results	12
+tamoxifen	CHEBI:41774	29-38
+letrozole	CHEBI:6413	88-97
+Overall Number of Participants Analyzed: 68	Results	13
+Median (Full Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: Percent Change  0.37        (-6.98 to 15.21)	Results	15
+percent change	BAO:0001252	17-31
+Adverse Events 1:	Adverse Events	0
+Total: 50/133 (37.59%)	Adverse Events	1
+Acute myocardial infarction 0/133 (0.00%)	Adverse Events	2
+acute myocardial infarction	DOID:9408	0-27
+Angina pectoris 1/133 (0.75%)	Adverse Events	3
+angina pectoris	HP:0001681	0-15
+Angina unstable 0/133 (0.00%)	Adverse Events	4
+Arrhythmia 1/133 (0.75%)	Adverse Events	5
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 2/133 (1.50%)	Adverse Events	6
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter 0/133 (0.00%)	Adverse Events	7
+atrial flutter	HP:0004749	0-14
+Bundle branch block left 1/133 (0.75%)	Adverse Events	8
+bundle branch block	HP:0011710	0-19
+left	HP:0012835	20-24
+Myocardial infarction 0/133 (0.00%)	Adverse Events	9
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericarditis 0/133 (0.00%)	Adverse Events	10
+pericarditis	HP:0001701,DOID:1787	0-12
+Sinus bradycardia 0/133 (0.00%)	Adverse Events	11
+sinus bradycardia	HP:0001688	0-17
+Adverse Events 2:	Adverse Events	12
+Total: 41/130 (31.54%)	Adverse Events	13
+Acute myocardial infarction 2/130 (1.54%)	Adverse Events	14
+acute myocardial infarction	DOID:9408	0-27
+Angina pectoris 1/130 (0.77%)	Adverse Events	15
+angina pectoris	HP:0001681	0-15
+Angina unstable 1/130 (0.77%)	Adverse Events	16
+Arrhythmia 0/130 (0.00%)	Adverse Events	17
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 2/130 (1.54%)	Adverse Events	18
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter 1/130 (0.77%)	Adverse Events	19
+atrial flutter	HP:0004749	0-14
+Bundle branch block left 0/130 (0.00%)	Adverse Events	20
+bundle branch block	HP:0011710	0-19
+left	HP:0012835	20-24
+Myocardial infarction 1/130 (0.77%)	Adverse Events	21
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericarditis 1/130 (0.77%)	Adverse Events	22
+pericarditis	HP:0001701,DOID:1787	0-12
+Sinus bradycardia 1/130 (0.77%)	Adverse Events	23
+sinus bradycardia	HP:0001688	0-17

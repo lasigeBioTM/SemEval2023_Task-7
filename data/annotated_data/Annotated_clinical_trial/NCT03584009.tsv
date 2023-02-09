@@ -1,0 +1,248 @@
+INTERVENTION 1:	Intervention	0
+Venetoclax + Fulvestrant	Intervention	1
+venetoclax	CHEBI:133021	0-10
+fulvestrant	CHEBI:31638	13-24
+Participants were administered Venetoclax 800mg orally QD and Fulvestrant 500mg IM on Day 1 and 15 of Cycle 1 and Day 1 of subsequent cycles (Cycle length = 28 days).	Intervention	2
+venetoclax	CHEBI:133021	31-41
+fulvestrant	CHEBI:31638	62-73
+day	UO:0000033	86-89
+day	UO:0000033	114-117
+day	UO:0000033	160-163
+length	PATO:0000122	148-154
+INTERVENTION 2:	Intervention	3
+Fulvestrant	Intervention	4
+fulvestrant	CHEBI:31638	0-11
+Participants were administered Fulvestrant 500mg only IM on Day 1 and 15 of Cycle 1 and Day 1 of subsequent cycles (Cycle length = 28 days).	Intervention	5
+fulvestrant	CHEBI:31638	31-42
+day	UO:0000033	60-63
+day	UO:0000033	88-91
+day	UO:0000033	134-137
+length	PATO:0000122	122-128
+Inclusion Criteria:	Eligibility	0
+Histological or cytological confirmation of estrogen receptor-positive (ER+) invasive carcinoma of the breast. ER+, HER2- negative invasive carcinoma of the breast with evaluable sample for BCL-2 IHC value at the time of screening. Participants who were originally diagnosed with HER2-positive breast cancer that converted to HER2-negative MBC are not eligible.	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	44-52
+carcinoma	HP:0030731,DOID:305	86-95
+carcinoma	HP:0030731,DOID:305	140-149
+breast	UBERON:0000310	103-109
+breast	UBERON:0000310	157-163
+breast	UBERON:0000310	294-300
+time	PATO:0000165	213-217
+breast cancer	DOID:1612	294-307
+Evidence of metastatic or locally advanced disease not amenable to surgical or local therapy with curative intent.	Eligibility	2
+disease	DOID:4,OGMS:0000031	43-50
+Be postmenopausal or pre- or perimenopausal women amenable to being treated with the luteinizing hormone-releasing hormone (LHRH) agonist goserelin.	Eligibility	3
+hormone	CHEBI:24621	97-104
+hormone	CHEBI:24621	115-122
+agonist	CHEBI:48705	130-137
+goserelin	CHEBI:5523	138-147
+Participants must not have received more than two prior lines of hormonal therapy in the locally advanced or metastatic setting. In addition, at least one line of treatment must be a CDK4/6i AND participants must have experienced disease recurrence or progression during or after CDK4/6i therapy, which must have been administered for a minimum of 8 weeks prior to progression.	Eligibility	4
+disease	DOID:4,OGMS:0000031	230-237
+Participants for whom endocrine therapy (e.g., fulvestrant) is recommended and treatment with cytotoxic chemotherapy is not indicated at the time of entry into the study, as per national or local treatment guidelines.	Eligibility	5
+fulvestrant	CHEBI:31638	47-58
+time	PATO:0000165	141-145
+Women of childbearing potential (i.e., not postmenopausal for at least 12 months or surgically sterile) must have had a negative serum pregnancy test result at screening, within 14 days prior to the first study drug administration.	Eligibility	6
+result	BAO:0000179	150-156
+drug administration	OAE:0000011	211-230
+For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use non-hormonal contraceptive methods with a failure rate of <1% per year during the treatment period and for up to 2 years after the last dose of study drug (or based on the local prescribing information for fulvestrant). Women must refrain from donating eggs during this same period.	Eligibility	7
+rate	BAO:0080019	164-168
+year	UO:0000036	180-184
+year	UO:0000036	229-233
+drug	CHEBI:23888	264-268
+fulvestrant	CHEBI:31638	320-331
+Willing to provide tumor biopsy sample.	Eligibility	8
+Had at least one measurable lesion via RECIST v1.1.	Eligibility	9
+Had an Eastern Cooperative Oncology Group (ECOG) Performance Score of 0-1.	Eligibility	10
+group	CHEBI:24433	36-41
+Had adequate organ and marrow function.	Eligibility	11
+organ	UBERON:0000062	13-18
+function	BAO:0003117,BFO:0000034	30-38
+Had a life expectancy > 3 months.	Eligibility	12
+To full fill the coagulation requirements for patient with or without therapeutic anticoagulation.	Eligibility	13
+coagulation	GO:0050817	17-28
+coagulation	GO:0050817	86-97
+patient	HADO:0000008,OAE:0001817	46-53
+Exclusion criteria:	Eligibility	14
+Prior treatment with fulvestrant or other selective estrogen receptor degraders (SERDs), venetoclax, or any agent whose mechanism of action is to inhibit BCL-2.	Eligibility	15
+fulvestrant	CHEBI:31638	21-32
+estrogen	CHEBI:50114,BAO:0000760	52-60
+receptor	BAO:0000281	61-69
+venetoclax	CHEBI:133021	89-99
+Pregnant, lactating, or intending to become pregnant during the study.	Eligibility	16
+Known untreated or active Central Nervous System (CNS) metastases (progressing or requiring anticonvulsants or corticosteroids for symptomatic control.	Eligibility	17
+active	PATO:0002354	19-25
+central nervous system	UBERON:0001017	26-48
+Prior chemotherapy in the locally advanced or metastatic setting regardless of the duration of the treatment.	Eligibility	18
+duration	PATO:0001309	83-91
+Any anti-cancer therapy received within 21 days of the first dose of study drug, including chemotherapy, radiotherapy, hormonal therapy, immunotherapy, antineoplastic vaccines, or other investigational therapy. (Radiotherapy with palliative intent to non-target sites is allowed).	Eligibility	19
+drug	CHEBI:23888	75-79
+radiotherapy	OAE:0000235	105-117
+radiotherapy	OAE:0000235	212-224
+Concurrent radiotherapy to any site or prior radiotherapy within 21 days of Cycle 1 Day 1 or previous radiotherapy to the target lesion sites (the sites that are to be followed for determination of a response) or prior radiotherapy to > 25% of bone marrow.	Eligibility	20
+radiotherapy	OAE:0000235	11-23
+radiotherapy	OAE:0000235	45-57
+radiotherapy	OAE:0000235	102-114
+radiotherapy	OAE:0000235	219-231
+site	BFO:0000029	31-35
+site	BFO:0000029	136-140
+site	BFO:0000029	147-151
+day	UO:0000033	68-71
+day	UO:0000033	84-87
+target	BAO:0003064	122-128
+bone marrow	UBERON:0002371	244-255
+Current severe, uncontrolled, systemic disease (e.g., clinically significant cardiovascular, pulmonary, metabolic or infectious disease.	Eligibility	21
+severe	HP:0012828	8-14
+disease	DOID:4,OGMS:0000031	39-46
+disease	DOID:4,OGMS:0000031	128-135
+Any major surgery within 28 days of the first dose of study drug or anticipation of the need for major surgery during the course of study treatment.	Eligibility	22
+surgery	OAE:0000067	10-17
+surgery	OAE:0000067	103-110
+drug	CHEBI:23888	60-64
+Consumption of one or more of the following within 3 days prior to the first dose of study drug: Grapefruit or grapefruit products; Seville oranges including marmalade containing Seville oranges; Star fruit (carambola).	Eligibility	23
+drug	CHEBI:23888	91-95
+Administration within 7 days prior first dose of study treatment of Steroid therapy for anti-neoplastic intent, Strong or moderate CYP3A inhibitors or Strong or moderate CYP3A inducers.	Eligibility	24
+steroid	CHEBI:35341	68-75
+moderate	HP:0012826	122-130
+moderate	HP:0012826	161-169
+Need for current chronic corticosteroid therapy (> 10 mg of prednisone per day or an equivalent dose of other anti-inflammatory corticosteroids).	Eligibility	25
+chronic	HP:0011010	17-24
+corticosteroid	CHEBI:50858	25-39
+corticosteroid	CHEBI:50858	128-142
+prednisone	CHEBI:8382	60-70
+day	UO:0000033	75-78
+Known infection with (human immunodeficiency virus) HIV or human T-cell leukemia virus 1.	Eligibility	26
+immunodeficiency	HP:0002721	28-44
+virus	BAO:0000232	45-50
+virus	BAO:0000232	81-86
+leukemia	HP:0001909,DOID:1240	72-80
+Known active bacterial, viral, fungal, mycobacterial, parasitic, or other infection (excluding fungal infections of nail beds) at study enrollment, or any major episode of infection requiring treatment with IV antibiotics or hospitalization (relating to the completion of the course of antibiotics) within 4 weeks prior to Cycle 1 Day).	Eligibility	27
+active	PATO:0002354	6-12
+nail	UBERON:0001705	116-120
+day	UO:0000033	331-334
+Positive test results for hepatitis B core antibody (HBcAb) or hepatitis C virus (HCV) antibody at screening. Participants who were positive for HCV antibody should have been negative for HCV by PCR to be eligible for study participation. Participants with a past or resolved hepatitis B virus (HBV) infection (defined as having a positive total HBcAb and negative hepatitis B surface antigen [HbsAg]) may be included if HBV DNA is undetectable. These participants should have been willing to undergo monthly DNA testing.	Eligibility	28
+hepatitis b	DOID:2043	26-37
+hepatitis b	DOID:2043	276-287
+hepatitis b	DOID:2043	365-376
+antibody	GO:0042571,BAO:0000502	43-51
+antibody	GO:0042571,BAO:0000502	87-95
+antibody	GO:0042571,BAO:0000502	149-157
+hepatitis c	DOID:1883	63-74
+virus	BAO:0000232	75-80
+virus	BAO:0000232	288-293
+antigen	CHEBI:59132	385-392
+dna	BAO:0000269	425-428
+dna	BAO:0000269	509-512
+Participants who had a positive HCV antibody test are eligible for the study if a PCR assay is negative for HCV RNA.	Eligibility	29
+antibody	GO:0042571,BAO:0000502	36-44
+rna	BAO:0000270	112-115
+History of other malignancies within the past 5 years except for treated skin basal cell carcinoma, squamous cell carcinoma, non-malignant melanoma <= 1.0 mm without ulceration, localized thyroid cancer, or cervical carcinoma in-situ.	Eligibility	30
+history	BFO:0000182	0-7
+basal cell carcinoma	HP:0002671,DOID:2513	78-98
+squamous cell carcinoma	HP:0002860,DOID:1749	100-123
+melanoma	HP:0002861,DOID:1909	139-147
+localized	HP:0012838,PATO:0000627	178-187
+cancer	DOID:162	196-202
+carcinoma	HP:0030731,DOID:305	89-98
+carcinoma	HP:0030731,DOID:305	114-123
+carcinoma	HP:0030731,DOID:305	216-225
+Administration of a live, attenuated vaccine within 4 weeks prior to initiation of study treatment or anticipation of need for such a vaccine during the study.	Eligibility	31
+vaccine	VO:0000001	37-44
+vaccine	VO:0000001	134-141
+Cardiopulmonary dysfunction.	Eligibility	32
+Other medical or psychiatric conditions that, in the opinion of the investigatory, may interfere with the participant's participation in the study.	Eligibility	33
+Inability or unwillingness to swallow pills or receive intramuscular (IM) injections.	Eligibility	34
+History of malabsorption syndrome or other condition that would interfere with enteral absorption.	Eligibility	35
+history	BFO:0000182	0-7
+malabsorption	HP:0002024	11-24
+syndrome	DOID:225	25-33
+condition	PDRO:0000129	43-52
+History of inflammatory bowel disease (e.g., Crohn's disease or ulcerative colitis) or active bowel inflammation (e.g., diverticulitis).	Eligibility	36
+history	BFO:0000182	0-7
+inflammatory bowel disease	DOID:0050589	11-37
+disease	DOID:4,OGMS:0000031	30-37
+disease	DOID:4,OGMS:0000031	53-60
+ulcerative colitis	HP:0100279,DOID:8577	64-82
+active	PATO:0002354	87-93
+diverticulitis	DOID:7475	120-134
+Concurrent hormone replacement therapy.	Eligibility	37
+hormone	CHEBI:24621	11-18
+Inability to comply with study and follow-up procedures.	Eligibility	38
+History or active cardiopulmonary dysfunction.	Eligibility	39
+history	BFO:0000182	0-7
+active	PATO:0002354	11-17
+Known hypersensitivity to any of the study medications (fulvestrant, venetoclax) or to any of the excipients.	Eligibility	40
+hypersensitivity	GO:0002524,DOID:1205	6-22
+fulvestrant	CHEBI:31638	56-67
+venetoclax	CHEBI:133021	69-79
+Outcome Measurement:	Results	0
+Clinical Benefit Defined as Complete Response (CR), Partial Response (PR) or Stable Disease (SD) Lasting >= 24 Weeks, as Determined by the Investigator According to RECIST v1.1	Results	1
+stable	HP:0031915	77-83
+disease	DOID:4,OGMS:0000031	84-91
+Clinical Benefit was defined as CR, PR, or SD lasting more than equal to 24 weeks from randomization in participants with measurable disease at baseline, as determined by the investigator according to Response Evaluation Criteria In Solid Tumors Criteria (RECIST) v1.1. Per RECIST v1.1 for target lesions assessed by CT or MRI: CR, Disappearance of all target lesions; PR, PR >= 30% decrease in the sum of diameters of target lesions (TL) taking as reference the baseline sum of diameters; SD, neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for Disease Progression (PD), PD>= 20% increase in the sum of diameters of TL taking as reference the smallest sum on study(Nadir). In addition to the relative increase of 20% sum must have demonstrate an absolute increase of at least 5mm.	Results	2
+disease	DOID:4,OGMS:0000031	133-140
+disease	DOID:4,OGMS:0000031	580-587
+target	BAO:0003064	290-296
+target	BAO:0003064	353-359
+target	BAO:0003064	419-425
+ct	BAO:0002125	317-319
+increase	BAO:0001251	556-564
+increase	BAO:0001251	615-623
+increase	BAO:0001251	736-744
+increase	BAO:0001251	790-798
+Time frame: Randomization through till 6 months after the last participant is enrolled into the study (up to approximately 23 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Venetoclax + Fulvestrant	Results	5
+venetoclax	CHEBI:133021	17-27
+fulvestrant	CHEBI:31638	30-41
+Arm/Group Description: Participants were administered Venetoclax 800mg orally QD and Fulvestrant 500mg IM on Day 1 and 15 of Cycle 1 and Day 1 of subsequent cycles (Cycle length = 28 days).	Results	6
+venetoclax	CHEBI:133021	54-64
+fulvestrant	CHEBI:31638	85-96
+day	UO:0000033	109-112
+day	UO:0000033	137-140
+day	UO:0000033	183-186
+length	PATO:0000122	171-177
+Overall Number of Participants Analyzed: 51	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  11.8        (4.44 to 23.87)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Fulvestrant	Results	11
+fulvestrant	CHEBI:31638	17-28
+Arm/Group Description: Participants were administered Fulvestrant 500mg only IM on Day 1 and 15 of Cycle 1 and Day 1 of subsequent cycles (Cycle length = 28 days).	Results	12
+fulvestrant	CHEBI:31638	54-65
+day	UO:0000033	83-86
+day	UO:0000033	111-114
+day	UO:0000033	157-160
+length	PATO:0000122	145-151
+Overall Number of Participants Analyzed: 51	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of Participants  13.7        (5.70 to 26.26)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 4/50 (8.00%)	Adverse Events	1
+Pyrexia 1/50 (2.00%)	Adverse Events	2
+Lower respiratory tract infection 1/50 (2.00%)	Adverse Events	3
+lower respiratory tract	UBERON:0001558	0-23
+respiratory tract infection	HP:0011947	6-33
+Urosepsis 1/50 (2.00%)	Adverse Events	4
+Ejection fraction decreased 1/50 (2.00%)	Adverse Events	5
+ejection fraction	CMO:0000180	0-17
+Flank pain 0/50 (0.00%)	Adverse Events	6
+flank pain	HP:0030157	0-10
+Bone pain 0/50 (0.00%)	Adverse Events	7
+bone pain	HP:0002653	0-9
+Pleural effusion 0/50 (0.00%)	Adverse Events	8
+pleural effusion	HP:0002202	0-16
+Adverse Events 2:	Adverse Events	9
+Total: 2/51 (3.92%)	Adverse Events	10
+Pyrexia 0/51 (0.00%)	Adverse Events	11
+Lower respiratory tract infection 0/51 (0.00%)	Adverse Events	12
+lower respiratory tract	UBERON:0001558	0-23
+respiratory tract infection	HP:0011947	6-33
+Urosepsis 0/51 (0.00%)	Adverse Events	13
+Ejection fraction decreased 0/51 (0.00%)	Adverse Events	14
+ejection fraction	CMO:0000180	0-17
+Flank pain 1/51 (1.96%)	Adverse Events	15
+flank pain	HP:0030157	0-10
+Bone pain 1/51 (1.96%)	Adverse Events	16
+bone pain	HP:0002653	0-9
+Pleural effusion 1/51 (1.96%)	Adverse Events	17
+pleural effusion	HP:0002202	0-16

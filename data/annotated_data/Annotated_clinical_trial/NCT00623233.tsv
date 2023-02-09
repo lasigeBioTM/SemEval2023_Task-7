@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Gemcitabine 2500 mg/m^2 + Bevacizumab 10 mg/kg	Intervention	1
+gemcitabine	CHEBI:175901	0-11
+Gemcitabine 2500 milligrams per square meter (mg/m^2) intravenous (IV) over 30 minutes given on Day 1 every 14 days (q 14 days) until disease progression (PD) or unacceptable toxicity.	Intervention	2
+gemcitabine	CHEBI:175901	0-11
+meter	UO:0000008	39-44
+day	UO:0000033	96-99
+day	UO:0000033	111-114
+day	UO:0000033	122-125
+disease	DOID:4,OGMS:0000031	134-141
+Bevacizumab 10 milligrams per kilogram (mg/kg) initially over 90 minutes given on Day 1 q 14 days until PD or unacceptable toxicity.	Intervention	3
+day	UO:0000033	82-85
+day	UO:0000033	93-96
+Inclusion Criteria:	Eligibility	0
+Must be female and greater than or equal to 18 yrs of age	Eligibility	1
+female	PATO:0000383	8-14
+age	PATO:0000011	54-57
+Participants must have confirmed cancer with measurable or evaluable, locally recurrent or metastatic disease.	Eligibility	2
+cancer	DOID:162	33-39
+recurrent	HP:0031796	78-87
+disease	DOID:4,OGMS:0000031	102-109
+Participants must have received a taxane as neo-adjuvant and/or adjuvant therapy	Eligibility	3
+taxane	CHEBI:36064	34-40
+adjuvant	CHEBI:60809	48-56
+adjuvant	CHEBI:60809	64-72
+Participants may have received prior hormone therapy for locally recurrent or metastatic disease	Eligibility	4
+hormone	CHEBI:24621	37-44
+recurrent	HP:0031796	65-74
+disease	DOID:4,OGMS:0000031	89-96
+Exclusion Criteria:	Eligibility	5
+Participants with breast cancer overexpressing Human Epidermal growth factor Receptor 2 (HER2) gene amplification	Eligibility	6
+breast cancer	DOID:1612	18-31
+growth factor	BAO:0002024	63-76
+receptor	BAO:0000281	77-85
+gene	BAO:0000582	95-99
+Prior chemotherapy or targeted therapy for metastatic breast cancer	Eligibility	7
+breast cancer	DOID:1612	54-67
+Prior treatment with gemcitabine, trastuzumab, lapatinib or bevacizumab in any setting	Eligibility	8
+gemcitabine	CHEBI:175901	21-32
+lapatinib	CHEBI:49603	47-56
+History of, or active brain mets	Eligibility	9
+history	BFO:0000182	0-7
+active	PATO:0002354	15-21
+brain	UBERON:0000955	22-27
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to treatment, or anticipation of need for major surgical procedure during course of study	Eligibility	10
+Prior history of high blood pressure crisis	Eligibility	11
+history	BFO:0000182	6-13
+blood	UBERON:0000178	22-27
+Have a serious, nonhealing wound, ulcer, or bone fracture	Eligibility	12
+ulcer	OAE:0004372	34-39
+bone fracture	HP:0020110	44-57
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS) Time	Results	1
+time	PATO:0000165	32-36
+PFS was measured from date of first dose to first date of progressive disease (PD) or death from any cause. For each participant who was not known to have died or to have had PD as of the data inclusion cut-off date for a particular analysis, PFS duration was censored for that analysis at the date of the participant's last progression-free tumor assessment before that cut-off date.	Results	2
+progressive	HP:0003676	58-69
+disease	DOID:4,OGMS:0000031	70-77
+death	OAE:0000632	86-91
+duration	PATO:0001309	247-255
+Time frame: Baseline to measured PD or death from any cause. Tumor assessments were performed every 8 weeks during therapy and every 2 months during post-therapy until documented PD (up to 34 months).	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	39-44
+Results 1:	Results	4
+Arm/Group Title: Gemcitabine 2500 mg/m^2 + Bevacizumab 10 mg/kg	Results	5
+gemcitabine	CHEBI:175901	17-28
+Arm/Group Description: Gemcitabine 2500 milligrams per square meter (mg/m^2) intravenous (IV) over 30 minutes given on Day 1 every 14 days (q 14 days) until disease progression (PD) or unacceptable toxicity.	Results	6
+gemcitabine	CHEBI:175901	23-34
+meter	UO:0000008	62-67
+day	UO:0000033	119-122
+day	UO:0000033	134-137
+day	UO:0000033	145-148
+disease	DOID:4,OGMS:0000031	157-164
+Bevacizumab 10 milligrams per kilogram (mg/kg) initially over 90 minutes given on Day 1 q 14 days until PD or unacceptable toxicity.	Results	7
+day	UO:0000033	82-85
+day	UO:0000033	93-96
+Overall Number of Participants Analyzed: 52	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: months  4.80        (3.42 to 7.56)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 18/52 (34.62%)	Adverse Events	1
+Anaemia 2/52 (3.85%)	Adverse Events	2
+Febrile Neutropenia 1/52 (1.92%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Haemolytic Uraemic Syndrome 1/52 (1.92%)	Adverse Events	4
+syndrome	DOID:225	19-27
+Leukopenia 1/52 (1.92%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/52 (1.92%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/52 (1.92%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac Failure Congestive 1/52 (1.92%)	Adverse Events	8
+Cardio-Respiratory Arrest 1/52 (1.92%)	Adverse Events	9
+Abdominal Pain 1/52 (1.92%)	Adverse Events	10
+abdominal pain	HP:0002027	0-14
+Constipation 1/52 (1.92%)	Adverse Events	11
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 1/52 (1.92%)	Adverse Events	12

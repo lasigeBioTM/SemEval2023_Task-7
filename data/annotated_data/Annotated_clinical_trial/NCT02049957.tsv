@@ -1,0 +1,320 @@
+INTERVENTION 1:	Intervention	0
+Phase 1 (Part 1): Sapanisertib 5 mg + Exemestane	Intervention	1
+exemestane	CHEBI:4953	38-48
+Sapanisertib 5 mg, unmilled active pharmaceutical ingredient (API) capsule, once daily in a 28-day cycle plus exemestane 25 mg, tablets, once daily in a 28-day cycle (Up to 12 cycles).	Intervention	2
+active	PATO:0002354	28-34
+pharmaceutical	CHEBI:52217	35-49
+capsule	GO:0042603	67-74
+exemestane	CHEBI:4953	110-120
+INTERVENTION 2:	Intervention	3
+Phase 1 (Part 1): Sapanisertib 5 mg + Fulvestrant	Intervention	4
+fulvestrant	CHEBI:31638	38-49
+Sapanisertib 5 mg, unmilled API capsule, once daily in a 28-day cycle plus fulvestrant 500 mg, injection, intramuscularly (IM), once on Day 1 of each cycle (Up to 57 cycles).	Intervention	5
+capsule	GO:0042603	32-39
+fulvestrant	CHEBI:31638	75-86
+day	UO:0000033	60-63
+day	UO:0000033	136-139
+Inclusion Criteria	Eligibility	0
+Each patient must meet all of the following inclusion criteria to be enrolled in the study:	Eligibility	1
+patient	HADO:0000008,OAE:0001817	5-12
+Phase 1b and Phase 2	Eligibility	2
+Advanced or metastatic breast cancer.	Eligibility	3
+breast cancer	DOID:1612	23-36
+Histological or cytological confirmation of ER+ status (defined as > 1% positive tumor cells), and histological or cytological confirmation of HER2-negative (HER2-) status by local laboratory testing using criteria in the American Society of Oncology (ASCO)/College of American Pathologists (CAP) Clinical Practice Guideline update.	Eligibility	4
+Female patients 18 years of age or older who are postmenopausal for at least 1 year before the Screening visit, where menopause is defined by: Age  55 years and 1 year or more of amenorrhea. Surgical menopause with bilateral oophorectomy	Eligibility	5
+female	PATO:0000383	0-6
+age	PATO:0000011	28-31
+age	PATO:0000011	143-146
+year	UO:0000036	19-23
+year	UO:0000036	79-83
+year	UO:0000036	151-155
+year	UO:0000036	163-167
+menopause	GO:0042697	118-127
+menopause	GO:0042697	200-209
+amenorrhea	HP:0000141,DOID:13938	179-189
+bilateral	HP:0012832	215-224
+Age < 55 years and 1 year or more of amenorrhea, with an estradiol assay < 20 pg/mL	Eligibility	6
+age	PATO:0000011	0-3
+year	UO:0000036	9-13
+year	UO:0000036	21-25
+amenorrhea	HP:0000141,DOID:13938	37-47
+estradiol	CHEBI:23965	57-66
+Note: Ovarian radiation or treatment with a luteinizing hormone-releasing hormone agonist (goserelin acetate or leuprolide acetate) is not permitted for induction of ovarian suppression.	Eligibility	7
+hormone agonist	CHEBI:51060	74-89
+goserelin	CHEBI:5523	91-100
+acetate	CHEBI:47622	101-108
+acetate	CHEBI:47622	123-130
+leuprolide acetate	CHEBI:63597	112-130
+Have a history of brain metastasis are eligible for the study provided that all the following criteria are met:	Eligibility	8
+history	BFO:0000182	7-14
+brain	UBERON:0000955	18-23
+Brain metastases which have been treated	Eligibility	9
+brain	UBERON:0000955	0-5
+No evidence of disease progression for  3 months or hemorrhage after treatment	Eligibility	10
+disease	DOID:4,OGMS:0000031	15-22
+Off-treatment with dexamethasone for 4 weeks before administration of the first dose of MLN0128	Eligibility	11
+dexamethasone	CHEBI:41879	19-32
+No ongoing requirement for dexamethasone or anti-epileptic drugs	Eligibility	12
+dexamethasone	CHEBI:41879	27-40
+Eastern Cooperative Oncology Group (ECOG) performance status 0 to 2.	Eligibility	13
+group	CHEBI:24433	29-34
+Clinical laboratory values as specified below within 4 weeks before the first dose of MLN0128:	Eligibility	14
+Bone marrow reserve consistent with absolute neutrophil count (ANC)  1.5 x 10^9/L; platelet count  100 x 10^9/L; hemoglobin  9 g/dL	Eligibility	15
+bone marrow	UBERON:0002371	0-11
+x	LABO:0000148	73-74
+x	LABO:0000148	103-104
+platelet count	CMO:0000029	83-97
+hemoglobin	CHEBI:35143	113-123
+Total bilirubin  1.5 x the upper limit of the normal range (ULN), aspartate aminotransferase (AST) and alanine aminotransferase (ALT)  2.5 x ULN ( 5 x ULN if liver metastases are present)	Eligibility	16
+x	LABO:0000148	21-22
+x	LABO:0000148	139-140
+x	LABO:0000148	149-150
+range	LABO:0000114	53-58
+aspartate	CHEBI:29995	66-75
+alanine	CHEBI:16449	103-110
+liver	UBERON:0002107	158-163
+present	PATO:0000467	179-186
+Creatinine clearance  50 mL/min based either on Cockcroft-Gault estimate or based on a 12- or 24-hour urine collection	Eligibility	17
+creatinine clearance	CMO:0000765	0-20
+urine	UBERON:0001088	102-107
+Fasting serum glucose  130 mg/dL and fasting triglycerides  300 mg/dL	Eligibility	18
+glucose	CHEBI:4167,BAO:0000924	14-21
+Left ventricular ejection fraction (LVEF) within 5 absolute percentage points of institutional standard of normal as measured by echocardiogram (ECHO) or multiple gated acquisition scan (MUGA) within 4 weeks before the first dose of MLN0128 (ie, if the institutional standard of normal is 50%, LVEF may be as low as 45% to be eligible for the study).	Eligibility	19
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Able to provide paraffin blocks or a minimum of 10 unstained slides of available archival tumor tissues (paraffin blocks are preferred). If archival tumor tissue is not available, a tumor biopsy may be performed before the patient begins treatment with MLN0128. If fewer than 10 slides are available or the tumor content/area requirements are not met, study eligibility will be determined upon discussion with the sponsor.	Eligibility	20
+tissue	UBERON:0000479	96-102
+tissue	UBERON:0000479	155-161
+patient	HADO:0000008,OAE:0001817	223-230
+Ability to swallow oral medications, willingness to perform mucositis prophylaxis, and suitable venous access for the study-required blood sampling.	Eligibility	21
+mucositis	DOID:0080178	60-69
+blood	UBERON:0000178	133-138
+Voluntary written consent must be given before the performance of any study related procedure not part of standard medical care, with the understanding that consent may be withdrawn by the patient at any time without prejudice to future medical care.	Eligibility	22
+part of	BAO:0090002,BFO:0000050	98-105
+patient	HADO:0000008,OAE:0001817	189-196
+time	PATO:0000165	204-208
+Phase 1b Only: In addition to the previously mentioned inclusion criteria, each patient must meet the following inclusion criterion to be enrolled in the phase 1b portion of the study:	Eligibility	23
+patient	HADO:0000008,OAE:0001817	80-87
+Patients may have SD or disease progression during their most recent treatment with exemestane or fulvestrant, or everolimus in combination with either exemestane (any country) or fulvestrant (US only). Exemestane or fulvestrant in combination with MLN0128 can also be initiated as a new line of therapy.	Eligibility	24
+disease	DOID:4,OGMS:0000031	24-31
+exemestane	CHEBI:4953	84-94
+exemestane	CHEBI:4953	152-162
+exemestane	CHEBI:4953	203-213
+fulvestrant	CHEBI:31638	98-109
+fulvestrant	CHEBI:31638	180-191
+fulvestrant	CHEBI:31638	217-228
+everolimus	CHEBI:68478	114-124
+Phase 2 Only: In addition to the previously mentioned inclusion criteria, each patient must meet all of the following inclusion criteria to be enrolled in the phase 2 portion of the study:	Eligibility	25
+patient	HADO:0000008,OAE:0001817	79-86
+Measurable disease defined as follows:	Eligibility	26
+disease	DOID:4,OGMS:0000031	11-18
+At least 1 extra-osseous lesion that can be accurately measured in at least 1 dimension. The lesion must measure  20 mm with conventional imaging techniques or  10 mm with spiral computed tomography (CT) or magnetic resonance imaging (MRI), or	Eligibility	27
+tomography	BAO:0002525	188-198
+ct	BAO:0002125	200-202
+Bone lesions (lytic or mixed [lytic plus sclerotic]) in the absence of measurable disease as defined above	Eligibility	28
+mixed	BAO:0002107	23-28
+disease	DOID:4,OGMS:0000031	82-89
+Patients must have had disease progression during treatment with everolimus in combination with either exemestane (any country) or fulvestrant (US only) (duration of treatment  4 weeks) and must have tolerated everolimus treatment in combination with exemestane (any country) or fulvestrant (US only) adequately according to the treating physician's judgment. Everolimus in combination with exemestane or fulvestrant is not required to be the most recent treatment before enrollment, but progression on the most recent anticancer therapy is required for enrollment.	Eligibility	29
+disease	DOID:4,OGMS:0000031	23-30
+everolimus	CHEBI:68478	65-75
+everolimus	CHEBI:68478	210-220
+everolimus	CHEBI:68478	360-370
+exemestane	CHEBI:4953	103-113
+exemestane	CHEBI:4953	251-261
+exemestane	CHEBI:4953	391-401
+fulvestrant	CHEBI:31638	131-142
+fulvestrant	CHEBI:31638	279-290
+fulvestrant	CHEBI:31638	405-416
+duration	PATO:0001309	154-162
+Exclusion Criteria	Eligibility	30
+Patients meeting any of the following exclusion criteria are not to be enrolled in the study:	Eligibility	31
+Phase 1b and Phase 2	Eligibility	32
+Prior anticancer therapy or other investigational therapy within 2 weeks before administration of the first dose of MLN0128 (except for exemestane or fulvestrant, which should be continued). Treatment with everolimus must be discontinued 2 weeks before administration of the first dose of MLN0128.	Eligibility	33
+exemestane	CHEBI:4953	136-146
+fulvestrant	CHEBI:31638	150-161
+everolimus	CHEBI:68478	206-216
+Chronic concomitant therapy with bisphosphonates or denosumab for the prevention of bone metastases. Concomitant treatment with bisphosphonates or denosumab is permitted for treatment of osteoporosis or management of existing bone metastases if initiated at least 4 weeks before administration of the first dose of MLN0128.	Eligibility	34
+chronic	HP:0011010	0-7
+osteoporosis	HP:0000939,DOID:11476	187-199
+Initiation of treatment with hematopoietic growth factors, transfusions of blood and blood products, or systemic corticosteroids (either IV or oral steroids, excluding inhalers) within 1 week before administration of the first dose of MLN0128 (patients already receiving erythropoietin on a chronic basis for  4 weeks are eligible).	Eligibility	35
+growth	GO:0040007	43-49
+blood	UBERON:0000178	75-80
+blood	UBERON:0000178	85-90
+week	UO:0000034	187-191
+week	UO:0000034	312-316
+erythropoietin	CHEBI:81579,GO:0005128	271-285
+chronic	HP:0011010	291-298
+Previous treatment with dual PI3K/mTOR inhibitors or TORC1/2 inhibitors.	Eligibility	36
+Manifestations of malabsorption due to prior gastrointestinal (GI) surgery, GI disease, or for an unknown reason that may alter the absorption of MLN0128.	Eligibility	37
+malabsorption	HP:0002024	18-31
+surgery	OAE:0000067	67-74
+disease	DOID:4,OGMS:0000031	79-86
+Poorly controlled diabetes mellitus defined as glycosylated hemoglobin (HbA1c) > 7%; patients with a history of transient glucose intolerance due to corticosteroid administration may be enrolled in this study if all other inclusion/exclusion criteria are met.	Eligibility	38
+diabetes mellitus	HP:0000819,DOID:9351	18-35
+glycosylated	BAO:0002560	47-59
+hemoglobin	CHEBI:35143	60-70
+history	BFO:0000182	101-108
+transient	HP:0025153	112-121
+glucose intolerance	HP:0001952,DOID:10603	122-141
+corticosteroid	CHEBI:50858	149-163
+Other clinically significant co-morbidities, such as uncontrolled pulmonary disease, active central nervous system disease, active infection, or any other condition that could compromise participation of the patient in the study.	Eligibility	39
+disease	DOID:4,OGMS:0000031	76-83
+disease	DOID:4,OGMS:0000031	115-122
+active	PATO:0002354	85-91
+active	PATO:0002354	124-130
+central nervous system disease	DOID:331	92-122
+condition	PDRO:0000129	155-164
+patient	HADO:0000008,OAE:0001817	208-215
+Known human immunodeficiency virus infection.	Eligibility	40
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+History of any of the following within the last 6 months before administration of the first dose of MLN0128:	Eligibility	41
+history	BFO:0000182	0-7
+Ischemic myocardial event, including angina requiring therapy and artery revascularization procedures	Eligibility	42
+artery	UBERON:0001637	66-72
+Ischemic cerebrovascular event, including transient ischemic attack and artery revascularization procedures	Eligibility	43
+transient ischemic attack	HP:0002326,DOID:224	42-67
+artery	UBERON:0001637	72-78
+Requirement for inotropic support (excluding digoxin) or serious (uncontrolled) cardiac arrhythmia (including atrial flutter/fibrillation, ventricular fibrillation, or ventricular tachycardia)	Eligibility	44
+digoxin	CHEBI:4551	45-52
+arrhythmia	HP:0011675	88-98
+ventricular fibrillation	HP:0001663	139-163
+ventricular tachycardia	HP:0004756	168-191
+Placement of a pacemaker for control of rhythm	Eligibility	45
+New York Heart Association Class III or IV heart failure	Eligibility	46
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	43-48
+Pulmonary embolism	Eligibility	47
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+Significant active cardiovascular or pulmonary disease before administration of the first dose of MLN0128, including:	Eligibility	48
+active	PATO:0002354	12-18
+disease	DOID:4,OGMS:0000031	47-54
+Uncontrolled hypertension (ie, systolic blood pressure > 180 mm Hg; diastolic blood pressure > 95 mm Hg)	Eligibility	49
+hypertension	HP:0000822,DOID:10763	13-25
+systolic blood pressure	CMO:0000004	31-54
+diastolic blood pressure	CMO:0000005	68-92
+Pulmonary hypertension	Eligibility	50
+pulmonary hypertension	DOID:6432	0-22
+Uncontrolled asthma or oxygen saturation < 90% by arterial blood gas analysis or pulse oximetry on room air	Eligibility	51
+asthma	HP:0002099,DOID:2841	13-19
+oxygen saturation	CMO:0001324	23-40
+blood	UBERON:0000178	59-64
+pulse	CMO:0000294	81-86
+Significant valvular disease; severe regurgitation or stenosis by imaging independent of symptom control with medical intervention; or history of valve replacement	Eligibility	52
+disease	DOID:4,OGMS:0000031	21-28
+severe	HP:0012828	30-36
+symptom	OGMS:0000020	89-96
+medical intervention	OAE:0000002	110-130
+history	BFO:0000182	135-142
+valve	UBERON:0003978	146-151
+Medically significant (symptomatic) bradycardia	Eligibility	53
+bradycardia	HP:0001662	36-47
+History of arrhythmia requiring an implantable cardiac defibrillator	Eligibility	54
+history	BFO:0000182	0-7
+arrhythmia	HP:0011675	11-21
+Baseline prolongation of the rate-corrected QT interval (QTc; eg, repeated demonstration of QTc interval > 480 ms, or history of congenital long QT syndrome, or torsades de pointes)	Eligibility	55
+qt interval	CMO:0000235	44-55
+qtc interval	CMO:0000269	92-104
+history	BFO:0000182	118-125
+long qt syndrome	DOID:2843	140-156
+Diagnosed or treated for another malignancy within 2 years before administration of the first dose of MLN0128 or previously diagnosed with another malignancy and have any evidence of residual disease. Patients with nonmelanoma skin cancer or carcinoma in situ of any type are not excluded if they have undergone complete resection.	Eligibility	56
+disease	DOID:4,OGMS:0000031	192-199
+skin cancer	DOID:4159	227-238
+carcinoma	HP:0030731,DOID:305	242-251
+excluded	HP:0040285	280-288
+Phase 1b Only: In addition to the previously mentioned exclusion criteria, patients meeting the following exclusion criterion are not to be enrolled in the phase 1b portion of the study:	Eligibility	57
+More than 3 prior chemotherapy regimens for locally advanced or metastatic disease.	Eligibility	58
+disease	DOID:4,OGMS:0000031	75-82
+Phase 2 Only: In addition to the previously mentioned exclusion criteria, patients meeting the following exclusion criterion are not to be enrolled in the phase 2 portion of the study:	Eligibility	59
+More than 1 prior chemotherapy regimen for locally advanced or metastatic disease.	Eligibility	60
+disease	DOID:4,OGMS:0000031	74-81
+Outcome Measurement:	Results	0
+Phase 1: Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)	Results	1
+An AE is defined as any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product whether or not it is related to the medicinal product. This includes any newly occurring event, or a previous condition that has increased in severity or frequency since the administration of study drug.	Results	2
+laboratory finding	OGMS:0000018	79-97
+symptom	OGMS:0000020	100-107
+disease	DOID:4,OGMS:0000031	112-119
+product	BAO:0003067	188-195
+product	BAO:0003067	242-249
+condition	PDRO:0000129	306-315
+severity	HP:0012824	338-346
+frequency	HP:0040279	350-359
+drug	CHEBI:23888	394-398
+A SAE is any untoward medical occurrence that at any dose results in death, is life-threatening, requires inpatient hospitalization or prolongation of an existing hospitalization, results in persistent or significant disability or incapacity, is a congenital anomaly/birth defect or is a medically important event. Relationship of each AE to study drug will be determined by the Investigator.	Results	3
+death	OAE:0000632	69-74
+drug	CHEBI:23888	348-352
+Time frame: First dose of study drug through 30 days after the last dose (Up to 52 months)	Results	4
+time	PATO:0000165	0-4
+drug	CHEBI:23888	32-36
+Results 1:	Results	5
+Arm/Group Title: Phase 1 (Part 1): Sapanisertib 5 mg + Exemestane	Results	6
+exemestane	CHEBI:4953	55-65
+Arm/Group Description: Sapanisertib 5 mg, unmilled active pharmaceutical ingredient (API) capsule, once daily in a 28-day cycle plus exemestane 25 mg, tablets, once daily in a 28-day cycle (Up to 12 cycles).	Results	7
+active	PATO:0002354	51-57
+pharmaceutical	CHEBI:52217	58-72
+capsule	GO:0042603	90-97
+exemestane	CHEBI:4953	133-143
+Overall Number of Participants Analyzed: 6	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  Any AE: 6 100.0%	Results	10
+SAEs: 1  16.7%	Results	11
+Results 2:	Results	12
+Arm/Group Title: Phase 1 (Part 1): Sapanisertib 5 mg + Fulvestrant	Results	13
+fulvestrant	CHEBI:31638	55-66
+Arm/Group Description: Sapanisertib 5 mg, unmilled API capsule, once daily in a 28-day cycle plus fulvestrant 500 mg, injection, intramuscularly (IM), once on Day 1 of each cycle (Up to 57 cycles).	Results	14
+capsule	GO:0042603	55-62
+fulvestrant	CHEBI:31638	98-109
+day	UO:0000033	83-86
+day	UO:0000033	159-162
+Overall Number of Participants Analyzed: 6	Results	15
+Measure Type: Count of Participants	Results	16
+Unit of Measure: Participants  Any AE: 6 100.0%	Results	17
+SAEs: 2  33.3%	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 1/6 (16.67%)	Adverse Events	1
+Angina pectoris 0/6 (0.00%)	Adverse Events	2
+angina pectoris	HP:0001681	0-15
+Pericardial effusion 0/6 (0.00%)	Adverse Events	3
+pericardial effusion	HP:0001698,DOID:118	0-20
+Diplopia 0/6 (0.00%)	Adverse Events	4
+diplopia	HP:0000651	0-8
+Abdominal pain 0/6 (0.00%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Colitis 0/6 (0.00%)	Adverse Events	6
+colitis	HP:0002583,DOID:0060180	0-7
+Gastritis 0/6 (0.00%)	Adverse Events	7
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea 0/6 (0.00%)	Adverse Events	8
+nausea	HP:0002018	0-6
+Vomiting 0/6 (0.00%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Fatigue 0/6 (0.00%)	Adverse Events	10
+fatigue	HP:0012378	0-7
+General physical health deterioration 0/6 (0.00%)	Adverse Events	11
+Generalised oedema 0/6 (0.00%)	Adverse Events	12
+Hepatic failure  [1]0/6 (0.00%)	Adverse Events	13
+hepatic failure	HP:0001399	0-15
+Adverse Events 2:	Adverse Events	14
+Total: 2/6 (33.33%)	Adverse Events	15
+Angina pectoris 0/6 (0.00%)	Adverse Events	16
+angina pectoris	HP:0001681	0-15
+Pericardial effusion 0/6 (0.00%)	Adverse Events	17
+pericardial effusion	HP:0001698,DOID:118	0-20
+Diplopia 0/6 (0.00%)	Adverse Events	18
+diplopia	HP:0000651	0-8
+Abdominal pain 0/6 (0.00%)	Adverse Events	19
+abdominal pain	HP:0002027	0-14
+Colitis 0/6 (0.00%)	Adverse Events	20
+colitis	HP:0002583,DOID:0060180	0-7
+Gastritis 0/6 (0.00%)	Adverse Events	21
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea 0/6 (0.00%)	Adverse Events	22
+nausea	HP:0002018	0-6
+Vomiting 0/6 (0.00%)	Adverse Events	23
+vomiting	HP:0002013	0-8
+Fatigue 0/6 (0.00%)	Adverse Events	24
+fatigue	HP:0012378	0-7
+General physical health deterioration 0/6 (0.00%)	Adverse Events	25
+Generalised oedema 0/6 (0.00%)	Adverse Events	26
+Hepatic failure  [1]0/6 (0.00%)	Adverse Events	27
+hepatic failure	HP:0001399	0-15

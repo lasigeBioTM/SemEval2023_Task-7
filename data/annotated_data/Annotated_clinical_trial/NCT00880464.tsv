@@ -1,0 +1,90 @@
+INTERVENTION 1:	Intervention	0
+Vaccine	Intervention	1
+vaccine	VO:0000001	0-7
+Biological/Vaccine: Autologous, Lethally Irradiated Breast Cancer Cells Vaccine will be administered on days 1, 8, 15, 29 and then every 2 weeks until the supply of vaccine runs out	Intervention	2
+breast cancer	DOID:1612	52-65
+vaccine	VO:0000001	11-18
+vaccine	VO:0000001	72-79
+vaccine	VO:0000001	165-172
+Autologous, Lethally Irradiated Breast Cancer Cells: Vaccination with autologous tumor cells engineered by adenoviral mediated gene transfer to secrete GM-CS	Intervention	3
+breast cancer	DOID:1612	32-45
+vaccination	VO:0000002	53-64
+engineered	BAO:0002057	93-103
+gene	BAO:0000582	127-131
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed invasive breast cancer, pre-operative stages II-III per AJCC 6th edition, based on baseline evaluation by clinical examination and/or breast imaging	Eligibility	1
+breast cancer	DOID:1612	51-64
+breast	UBERON:0000310	51-57
+breast	UBERON:0000310	176-182
+Cohort 1: At least 2cm of residual disease in sum of diameters by clinical or radiographic findings following their preoperative chemotherapy	Eligibility	2
+disease	DOID:4,OGMS:0000031	35-42
+Cohort 2: Patients who have not received preoperative chemotherapy must have at least 4cm of disease in the largest diameter by clinical or radiographic findings	Eligibility	3
+disease	DOID:4,OGMS:0000031	93-100
+diameter	PATO:0001334	116-124
+Prior therapy for Cohort 1 only: Must have completed preoperative (neoadjuvant) chemotherapy with either a standard regimen (containing an anthracycline and/or a taxane) or on a clinical trial	Eligibility	4
+anthracycline	CHEBI:48120	139-152
+taxane	CHEBI:36064	162-168
+HER2 positive tumors must have received at least one prior trastuzumab-based therapy, and may not receive concurrent trastuzumab therapy and vaccination	Eligibility	5
+vaccination	VO:0000002	141-152
+Must initiate hormonal therapy (if indicated), including ovarian suppression, at least 4 weeks prior to initiation of vaccinations	Eligibility	6
+Must have completed definitive resection of primary tumor with adequated excision of gross disease. Surgery should have occured more than 28 days but within 12 weeks prior to enrollment	Eligibility	7
+disease	DOID:4,OGMS:0000031	91-98
+surgery	OAE:0000067	100-107
+May receive concurrent hormonal therapy, such as tamoxifen, ovarian suppression, and aromatase inhibitors	Eligibility	8
+tamoxifen	CHEBI:41774	49-58
+Must have had prior banked tumor of sufficient cellular yield for vaccination	Eligibility	9
+vaccination	VO:0000002	66-77
+ECOG Performance Status 0 or 1	Eligibility	10
+18 years of age or older	Eligibility	11
+age	PATO:0000011	12-15
+Greater than 4 weeks from immunotherapy, or systemic glucocorticoid therapy	Eligibility	12
+glucocorticoid	CHEBI:24261	53-67
+Adequate recovery from recent surgery and radiation therapy	Eligibility	13
+surgery	OAE:0000067	30-37
+Exclusion Criteria:	Eligibility	14
+Uncontrolled active infection or illness	Eligibility	15
+active	PATO:0002354	13-19
+Other medical or psychiatric illness or social situation that would limit study compliance	Eligibility	16
+Pregnancy or nursing mothers	Eligibility	17
+Evidence of HIV infection	Eligibility	18
+Previous participation in an adenovirus-based trial	Eligibility	19
+Concurrent invasive malignancies	Eligibility	20
+Outcome Measurement:	Results	0
+Minimum Number of Vaccine Doses Created Using Participant Tumor Sample	Results	1
+vaccine	VO:0000001	18-25
+Tumor samples were obtained via malignant effusion or a surgically accessible tumor nodule of 2 cm in greatest diameter. Tumor cells were processed to single cell suspension and transduced with adenoviral vector encoding human Granulocyte-macrophage colony-stimulating factor (GM-CSF). Then, the cells washed extensively and irradiated with 10,000 cGy. Over the next 14 days, sterility cultures were tested for endotoxin and mycoplasma contamination. Individual vaccine cell dose and number varied depending on the final cell yield from vaccine production. For stage II-III patients, the minimal dose was 1 x 10^5 cells and the maximal dose was 4 x 10^6 cells. For metastatic patients, the minimal dose was 1 x 10^5 cells and the maximal dose was 1 x 10^7 cells.	Results	2
+diameter	PATO:0001334	111-119
+suspension	BAO:0002104	163-173
+vaccine	VO:0000001	462-469
+vaccine	VO:0000001	537-544
+x	LABO:0000148	310-311
+x	LABO:0000148	364-365
+x	LABO:0000148	417-418
+x	LABO:0000148	607-608
+x	LABO:0000148	630-631
+x	LABO:0000148	647-648
+x	LABO:0000148	709-710
+x	LABO:0000148	732-733
+x	LABO:0000148	749-750
+Time frame: 40 Months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Vaccine	Results	5
+vaccine	VO:0000001	17-24
+Arm/Group Description: Biological/Vaccine: Autologous, Lethally Irradiated Breast Cancer Cells Vaccine will be administered on days 1, 8, 15, 29 and then every 2 weeks until the supply of vaccine runs out	Results	6
+breast cancer	DOID:1612	75-88
+vaccine	VO:0000001	34-41
+vaccine	VO:0000001	95-102
+vaccine	VO:0000001	188-195
+Autologous, Lethally Irradiated Breast Cancer Cells: Vaccination with autologous tumor cells engineered by adenoviral mediated gene transfer to secrete GM-CS	Results	7
+breast cancer	DOID:1612	32-45
+vaccination	VO:0000002	53-64
+engineered	BAO:0002057	93-103
+gene	BAO:0000582	127-131
+Overall Number of Participants Analyzed: 7	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: doses  6	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 1/7 (14.29%)	Adverse Events	1
+Fatigue 1/7 (14.29%)	Adverse Events	2
+fatigue	HP:0012378	0-7

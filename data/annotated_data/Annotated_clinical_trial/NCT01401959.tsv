@@ -1,0 +1,212 @@
+INTERVENTION 1:	Intervention	0
+Cohort A: Triple-negative Breast Cancer Patients	Intervention	1
+breast cancer	DOID:1612	26-39
+Patients with triple-negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route.	Intervention	2
+breast cancer	DOID:1612	30-43
+surgery	OAE:0000067	127-134
+eribulin	CHEBI:63587	148-156
+INTERVENTION 2:	Intervention	3
+Cohort B: ER/PR Positive/HER2-negative Breast Cancer Patients	Intervention	4
+breast cancer	DOID:1612	39-52
+Patients with hormone receptor positive (ER and/or PR positive), HER negative breast cancer breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route.	Intervention	5
+hormone	CHEBI:24621	14-21
+receptor	BAO:0000281	22-30
+breast cancer	DOID:1612	78-91
+breast cancer	DOID:1612	92-105
+surgery	OAE:0000067	189-196
+eribulin	CHEBI:63587	210-218
+Inclusion Criteria:	Eligibility	0
+Female patients >=18 years-of-age.	Eligibility	1
+female	PATO:0000383	0-6
+Histologically confirmed breast cancer prior to surgery with the following staging criteria: T1-T3, T4a, T4b, N0-N2, N3a and M0 (T1N0M0 patients are excluded). Inflammatory disease is excluded.	Eligibility	2
+breast cancer	DOID:1612	25-38
+surgery	OAE:0000067	48-55
+excluded	HP:0040285	149-157
+excluded	HP:0040285	184-192
+disease	DOID:4,OGMS:0000031	173-180
+Previous treatment with a minimum of 4 cycles of neoadjuvant anthracycline and/or taxane containing chemotherapy (+trastuzumab in HER2-positive patients).	Eligibility	3
+anthracycline	CHEBI:48120	61-74
+taxane	CHEBI:36064	82-88
+Patients must be  21 days and  84 days from breast surgery and fully recovered. Patients may have had mastectomy or breast conservation surgery with axillary node dissection.	Eligibility	4
+breast	UBERON:0000310	44-50
+breast	UBERON:0000310	116-122
+surgery	OAE:0000067	51-58
+surgery	OAE:0000067	136-143
+Pathologic CR (pCR) not achieved following neoadjuvant treatment (i.e., residual invasive breast cancer (>5 mm) in the breast or presence of nodal disease at surgery [ypT0/T1a, N1-N3a, M0 or ypT1b-T4, N0-N3a, M0].	Eligibility	5
+breast cancer	DOID:1612	90-103
+breast	UBERON:0000310	90-96
+breast	UBERON:0000310	119-125
+disease	DOID:4,OGMS:0000031	147-154
+surgery	OAE:0000067	158-165
+Eastern Cooperative Oncology Group (ECOG) performance status score of 0-1.	Eligibility	6
+group	CHEBI:24433	29-34
+Recovery from any toxic effects of prior therapy to <=Grade 1 per the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE v4.0) except fatigue or alopecia.	Eligibility	7
+cancer	DOID:162	79-85
+fatigue	HP:0012378	167-174
+alopecia	HP:0001596,DOID:987	178-186
+Peripheral neuropathy Grade <=2 per NCI CTCAE v4.0 at trial entry.	Eligibility	8
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Normal left ventricular ejection fraction (LVEF), within the institutional limits of normal, as measured by echocardiography (ECHO) or multi-gated (MUGA) scan in patients to receive trastuzumab with eribulin (HER2-positive).	Eligibility	9
+left	HP:0012835	7-11
+ejection fraction	CMO:0000180	24-41
+eribulin	CHEBI:63587	199-207
+Adequate hematologic, hepatic, and renal function	Eligibility	10
+function	BAO:0003117,BFO:0000034	41-49
+Complete staging work-up to confirm localized disease should include computed tomography (CT) scans of the chest and abdomen/pelvis (abdomen/pelvis preferred; abdomen accepted), a CT scan of the head or MRI of the brain (if symptomatic), and either a positron emission tomography (PET) scan or a bone scan. (Note: a PET/CT is acceptable for baseline imaging in lieu of CT examinations or bone scan). Negative scans performed prior to the initiation of neoadjuvant therapy, or at any subsequent time, are acceptable and do not need to be repeated.	Eligibility	11
+localized	HP:0012838,PATO:0000627	36-45
+disease	DOID:4,OGMS:0000031	46-53
+tomography	BAO:0002525	78-88
+tomography	BAO:0002525	269-279
+ct	BAO:0002125	90-92
+ct	BAO:0002125	180-182
+ct	BAO:0002125	320-322
+ct	BAO:0002125	369-371
+chest	UBERON:0001443	107-112
+abdomen	UBERON:0000916	117-124
+abdomen	UBERON:0000916	133-140
+abdomen	UBERON:0000916	159-166
+head	UBERON:0000033	195-199
+brain	UBERON:0000955	214-219
+positron	CHEBI:30225	251-259
+time	PATO:0000165	494-498
+Female patients who are not of child-bearing potential and female patients of child-bearing potential who agree to use adequate contraceptive measures, who are not breastfeeding, and who have a negative serum pregnancy test performed within 7 days prior to start of trial treatment.	Eligibility	12
+female	PATO:0000383	0-6
+female	PATO:0000383	59-65
+Willingness and ability to comply with trial and follow-up procedures.	Eligibility	13
+Ability to understand the investigative nature of this trial and give written informed consent.	Eligibility	14
+Agree to delay in reconstruction in terms of implants placed in setting of expanders until chemotherapy is completed and the patient has recovered. Expansion of expanders may continue during trial treatment.	Eligibility	15
+patient	HADO:0000008,OAE:0001817	125-132
+Exclusion Criteria:	Eligibility	16
+Presence of other active cancers, or history of treatment for invasive cancer <3 years prior to trial entry (except thyroid, cervical cancer). Patients with Stage I cancer who have received definitive local treatment at least 3 years previously, and are considered unlikely to recur are eligible. All patients with previously treated in situ carcinoma (i.e., non-invasive) are eligible, as are patients with history of non-melanoma skin cancer.	Eligibility	17
+active	PATO:0002354	18-24
+history	BFO:0000182	37-44
+history	BFO:0000182	408-415
+cancer	DOID:162	25-31
+cancer	DOID:162	71-77
+cancer	DOID:162	134-140
+cancer	DOID:162	165-171
+cancer	DOID:162	437-443
+cervical cancer	DOID:4362	125-140
+in situ carcinoma	DOID:8719	334-351
+skin cancer	DOID:4159	432-443
+Radiotherapy prior to the start of study treatment.	Eligibility	18
+radiotherapy	OAE:0000235	0-12
+History or clinical evidence of central nervous system metastases or other metastatic disease.	Eligibility	19
+history	BFO:0000182	0-7
+central nervous system	UBERON:0001017	32-54
+disease	DOID:4,OGMS:0000031	86-93
+Non-healed surgical wound.	Eligibility	20
+Known or suspected allergy/hypersensitivity to eribulin.	Eligibility	21
+eribulin	CHEBI:63587	47-55
+Cardiac disease, including: congestive heart failure Class II-IV per New York Heart Association classification;cardiac ventricular arrhythmias requiring anti-arrhythmic therapy; unstable angina (anginal symptoms at rest) or new-onset angina (i.e., began within the last 3 months), or myocardial infarction within the past 6 months.	Eligibility	22
+disease	DOID:4,OGMS:0000031	8-15
+congestive heart failure	HP:0001635,DOID:6000	28-52
+heart	UBERON:0000948	39-44
+heart	UBERON:0000948	78-83
+myocardial infarction	HP:0001658,DOID:5844	284-305
+Chronic use of drugs that cause QTc prolongation.Patients must discontinue use of these drugs 7 days prior to the start of study treatment.	Eligibility	23
+chronic	HP:0011010	0-7
+Women who are pregnant or lactating. All females of child-bearing potential must have negative serum pregnancy test within 48 hours prior to trial treatment.	Eligibility	24
+Patients with known diagnosis of human immunodeficiency virus (HIV), hepatitis C virus, or acute or chronic hepatitis B infection.	Eligibility	25
+immunodeficiency	HP:0002721	39-55
+virus	BAO:0000232	56-61
+virus	BAO:0000232	81-86
+hepatitis c	DOID:1883	69-80
+acute	HP:0011009,PATO:0000389	91-96
+chronic hepatitis	HP:0200123,DOID:2237	100-117
+hepatitis b	DOID:2043	108-119
+Prolongation of heart rate-corrected QT interval (QTc) >480 msecs (using Bazett's formula).	Eligibility	26
+heart	UBERON:0000948	16-21
+qt interval	CMO:0000235	37-48
+Minor surgical procedures (with the exception of the placement of port-a-cath or other central venous access) performed less than 7 days prior to beginning protocol treatment.	Eligibility	27
+central	HP:0030645	87-94
+History of cerebrovascular accident including transient ischemic attack (TIA), or untreated deep venous thrombosis (DVT)/ pulmonary embolism (PE) within the past 6 months. Note: Patients with recent DVT/PE receiving treatment with a stable dose of therapeutic anti-coagulating agents are eligible.	Eligibility	28
+history	BFO:0000182	0-7
+transient ischemic attack	HP:0002326,DOID:224	46-71
+deep venous thrombosis	HP:0002625	92-114
+pulmonary embolism	HP:0002204,DOID:9477	122-140
+stable	HP:0031915	233-239
+Patients may not receive any other investigational or anti-cancer treatments while participating in this trial.	Eligibility	29
+History of any medical or psychiatric condition or laboratory abnormality that in the opinion of the investigator may increase the risks associated with the trial participation or investigational product(s) administration or may interfere with the interpretation of the results.	Eligibility	30
+history	BFO:0000182	0-7
+condition	PDRO:0000129	38-47
+increase	BAO:0001251	118-126
+product	BAO:0003067	196-203
+Inability or unwillingness to comply with trial and/or follow-up procedures outlined in the protocol.	Eligibility	31
+Outcome Measurement:	Results	0
+Percentage of Patients With a 2 Year Disease-Free Survival (DFS) as a Measure of Efficacy	Results	1
+year	UO:0000036	32-36
+efficacy	BAO:0000656	81-89
+The percentage of patients that are without evidence of disease recurrence at the 2 year timepoint, as measured from date of first protocol treatment date to first documented disease progression date or date of death from any cause, whichever comes first. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.	Results	2
+disease	DOID:4,OGMS:0000031	56-63
+disease	DOID:4,OGMS:0000031	175-182
+year	UO:0000036	84-88
+death	OAE:0000632	211-216
+increase	BAO:0001251	363-371
+increase	BAO:0001251	442-450
+diameter	PATO:0001334	398-406
+target	BAO:0003064	410-416
+target	BAO:0003064	460-466
+Time frame: Up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cohort A: Triple-negative Breast Cancer Patients	Results	5
+breast cancer	DOID:1612	43-56
+Arm/Group Description: Patients with triple-negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route.	Results	6
+breast cancer	DOID:1612	53-66
+surgery	OAE:0000067	150-157
+eribulin	CHEBI:63587	171-179
+Overall Number of Participants Analyzed: 53	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of patients  56        (42 to 69)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort B: ER/PR Positive/HER2-negative Breast Cancer Patients	Results	11
+breast cancer	DOID:1612	56-69
+Arm/Group Description: Patients with hormone receptor positive (ER and/or PR positive), HER negative breast cancer breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route.	Results	12
+hormone	CHEBI:24621	37-44
+receptor	BAO:0000281	45-53
+breast cancer	DOID:1612	101-114
+breast cancer	DOID:1612	115-128
+surgery	OAE:0000067	212-219
+eribulin	CHEBI:63587	233-241
+Overall Number of Participants Analyzed: 42	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of patients  83        (67 to 91)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 8/53 (15.09%)	Adverse Events	1
+Febrile neutropenia * 1/53 (1.89%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac failure congestive * 1/53 (1.89%)	Adverse Events	3
+Ventricular arrhythmia * 1/53 (1.89%)	Adverse Events	4
+ventricular arrhythmia	HP:0004308	0-22
+Cellulitis * 0/53 (0.00%)	Adverse Events	5
+cellulitis	HP:0100658,DOID:3488	0-10
+Mastitis * 1/53 (1.89%)	Adverse Events	6
+mastitis	DOID:10690	0-8
+Pneumonia * 1/53 (1.89%)	Adverse Events	7
+pneumonia	HP:0002090,DOID:552	0-9
+Sinusitis * 0/53 (0.00%)	Adverse Events	8
+sinusitis	HP:0000246,DOID:0050127	0-9
+Tracheobronchitis * 0/53 (0.00%)	Adverse Events	9
+Diabetes mellitus inadequate control * 0/53 (0.00%)	Adverse Events	10
+diabetes mellitus	HP:0000819,DOID:9351	0-17
+Hyperglycaemia * 1/53 (1.89%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 1/42 (2.38%)	Adverse Events	13
+Febrile neutropenia * 0/42 (0.00%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac failure congestive * 0/42 (0.00%)	Adverse Events	15
+Ventricular arrhythmia * 0/42 (0.00%)	Adverse Events	16
+ventricular arrhythmia	HP:0004308	0-22
+Cellulitis * 0/42 (0.00%)	Adverse Events	17
+cellulitis	HP:0100658,DOID:3488	0-10
+Mastitis * 0/42 (0.00%)	Adverse Events	18
+mastitis	DOID:10690	0-8
+Pneumonia * 0/42 (0.00%)	Adverse Events	19
+pneumonia	HP:0002090,DOID:552	0-9
+Sinusitis * 0/42 (0.00%)	Adverse Events	20
+sinusitis	HP:0000246,DOID:0050127	0-9
+Tracheobronchitis * 1/42 (2.38%)	Adverse Events	21
+Diabetes mellitus inadequate control * 0/42 (0.00%)	Adverse Events	22
+diabetes mellitus	HP:0000819,DOID:9351	0-17
+Hyperglycaemia * 0/42 (0.00%)	Adverse Events	23

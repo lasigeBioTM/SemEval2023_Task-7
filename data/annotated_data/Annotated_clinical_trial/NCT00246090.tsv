@@ -1,0 +1,148 @@
+INTERVENTION 1:	Intervention	0
+E7389 1.4 mg/m^2	Intervention	1
+E7389 1.4 mg/m^2 intravenous bolus given over 2-5 minutes on Days 1 and 8 every 21 days.	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Female patients with histologically or cytologically confirmed carcinoma of the breast. Every effort should be made to make paraffin embedded tissue or slides from the diagnostic biopsy or surgical specimen available for confirmation of diagnosis.	Eligibility	1
+female	PATO:0000383	0-6
+carcinoma	HP:0030731,DOID:305	63-72
+breast	UBERON:0000310	80-86
+tissue	UBERON:0000479	142-148
+Patients with locally advanced or metastatic disease who have received at least two (and not more than five) prior chemotherapeutic regimens for breast cancer, at least one of which was administered for treatment of locally advanced or metastatic disease.	Eligibility	2
+disease	DOID:4,OGMS:0000031	45-52
+disease	DOID:4,OGMS:0000031	247-254
+breast cancer	DOID:1612	145-158
+Prior therapy must be documented by the following criteria prior to entry onto study:	Eligibility	3
+Regimens must have included an anthracycline (eg, doxorubicin, epirubicin), a taxane (eg, paclitaxel, docetaxel) and capecitabine in any combination or order.	Eligibility	4
+anthracycline	CHEBI:48120	31-44
+doxorubicin	CHEBI:28748,BAO:0000639	50-61
+taxane	CHEBI:36064	78-84
+paclitaxel	CHEBI:45863	90-100
+capecitabine	CHEBI:31348	117-129
+One or two of these regimens may have been administered as adjuvant and/or neoadjuvant therapy.	Eligibility	5
+adjuvant	CHEBI:60809	59-67
+adjuvant	CHEBI:60809	78-86
+Patients with human epidermal growth factor receptor 2 (HER2/neu) over-expressing tumors must additionally have been treated with trastuzumab.	Eligibility	6
+growth factor	BAO:0002024	30-43
+receptor	BAO:0000281	44-52
+Patients with estrogen receptor-expressing tumors may have additionally been treated with estrogen-specific therapy.	Eligibility	7
+estrogen	CHEBI:50114,BAO:0000760	14-22
+estrogen	CHEBI:50114,BAO:0000760	90-98
+Prior hormonal therapy, biological therapy, (eg, trastuzumab, bevacizumab), or immunotherapy, is not to be counted as one of the 2 to 5 prior chemotherapy regimens allowed. However, hormonal therapy must be discontinued one week before administration of E7389, and biological therapy must be discontinued two weeks before E7389 administration.	Eligibility	8
+week	UO:0000034	224-228
+week	UO:0000034	309-313
+Patients who are being treated with bisphosphonates when they enter the study are allowed to continue the medication as long as the dosing does not change. In case a change in dosing is deemed necessary, the case needs to be discussed with the Sponsor.	Eligibility	9
+Progression on or within six months of the last regimen for advanced disease, documented by the following:	Eligibility	10
+disease	DOID:4,OGMS:0000031	69-76
+The dates of treatment, doses, outcome of therapy and the reason for discontinuation of prior anthracycline, taxane, capecitabine, and trastuzumab therapy must be provided.	Eligibility	11
+anthracycline	CHEBI:48120	94-107
+taxane	CHEBI:36064	109-115
+capecitabine	CHEBI:31348	117-129
+Prior to entry onto the study, information ensuring that the last therapy fulfills eligibility criteria is required, which includes progression while receiving this last prior chemotherapy regimen, or within six months of receiving that therapy.	Eligibility	12
+Chemotherapy medication administration sheets or other official medical/hospital records indicating type and dates of chemotherapy must be available for inspection, and one of the following as a reason for discontinuation of medication is required: radiographic evidence of progression, or doctor's office or hospitalization notes documenting radiologic progression, clinically documented increase in tumor burden, and/or increase in tumor-specific markers.	Eligibility	13
+increase	BAO:0001251	389-397
+increase	BAO:0001251	422-430
+Patients with measurable disease by Response Evaluation Criteria in Solid Tumors (RECIST) criteria, defined as at least one lesion that can be accurately measured in at least one diameter (at least 10 mm in longest diameter [LD] by spiral computer tomography [CT] scan), or at least 20 mm by standard techniques. If the only measurable lesion is a lymph node, it must measure at least 20 mm in LD. If a single lesion is identified as the target lesion, a biopsy or aspiration with cytological or histological confirmation of the diagnosis of breast carcinoma is required.	Eligibility	14
+disease	DOID:4,OGMS:0000031	25-32
+diameter	PATO:0001334	179-187
+diameter	PATO:0001334	215-223
+tomography	BAO:0002525	248-258
+ct	BAO:0002125	260-262
+lymph	UBERON:0002391	348-353
+target	BAO:0003064	438-444
+aspiration	HP:0002835	465-475
+breast carcinoma	HP:0003002,DOID:3459	542-558
+Resolution of all chemotherapy or radiation-related toxicities to less than Grade 2 severity, except for stable sensory neuropathy  Grade 2 and alopecia.	Eligibility	15
+severity	HP:0012824	84-92
+stable	HP:0031915	105-111
+sensory neuropathy	HP:0000763,DOID:2491	112-130
+alopecia	HP:0001596,DOID:987	144-152
+Age >= 18 years.	Eligibility	16
+age	PATO:0000011	0-3
+Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 to 2.	Eligibility	17
+group	CHEBI:24433	29-34
+Life expectancy of  3 months.	Eligibility	18
+Adequate renal function as evidenced by serum creatinine  2.0 mg/dL or calculated creatinine clearance  40 mL/minute (min) per the Cockcroft and Gault formula.	Eligibility	19
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	46-56
+creatinine	CHEBI:16737	82-92
+creatinine clearance	CMO:0000765	82-102
+Adequate bone marrow function as evidenced by absolute neutrophil count (ANC) 1.5 x 10^9/L hemoglobin  10.0 g/dL (acceptable if it is corrected by therapeutic intervention or transfusional support), and platelet count  100 x 10^9/L.	Eligibility	20
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+x	LABO:0000148	82-83
+x	LABO:0000148	223-224
+hemoglobin	CHEBI:35143	91-101
+therapeutic intervention	OAE:0000094	147-171
+platelet count	CMO:0000029	203-217
+Adequate liver function as evidenced by bilirubin  1.5 mg/dL and alkaline phosphatase, alanine transaminase (ALT), and aspartate transaminase (AST)  3 times the upper limits of normal (ULN) (in the case of liver metastases  5 x ULN), unless there are bone metastases, in which case liver specific alkaline phosphatase must be separated from the total and used to assess the liver function instead of the total alkaline phosphatase.	Eligibility	21
+liver	UBERON:0002107	9-14
+liver	UBERON:0002107	206-211
+liver	UBERON:0002107	282-287
+liver	UBERON:0002107	374-379
+function	BAO:0003117,BFO:0000034	15-23
+function	BAO:0003117,BFO:0000034	380-388
+phosphatase	GO:0016791,BAO:0000295	74-85
+phosphatase	GO:0016791,BAO:0000295	306-317
+phosphatase	GO:0016791,BAO:0000295	419-430
+alanine	CHEBI:16449	87-94
+aspartate	CHEBI:29995	119-128
+x	LABO:0000148	226-227
+Willing and able to complete the European Organization for Research on the Treatment of Cancer (EORTC) quality of life assessment, Analgesic Diary, and Pain Visual Analog Scale (VAS).	Eligibility	22
+cancer	DOID:162	88-94
+quality	BAO:0002928,BFO:0000019	103-110
+analgesic	CHEBI:35480	131-140
+pain	HP:0012531	152-156
+Willing and able to comply with the study protocol for the duration of the study.	Eligibility	23
+duration	PATO:0001309	59-67
+Written informed consent prior to any study-specific screening procedures with the understanding that the patient may withdraw consent at any time without prejudice.	Eligibility	24
+patient	HADO:0000008,OAE:0001817	106-113
+time	PATO:0000165	142-146
+Exclusion Criteria:	Eligibility	25
+Patients must not have received chemotherapy, radiation, or biologic therapy within two weeks, hormonal therapy within one week, or trastuzumab within three weeks, before E7389 treatment start.	Eligibility	26
+week	UO:0000034	88-92
+week	UO:0000034	123-127
+week	UO:0000034	157-161
+Patients must not have received radiation therapy encompassing > 30% of marrow (a lesion that has been irradiated cannot be used as a target lesion, unless it has progressed after the irradiation).	Eligibility	27
+target	BAO:0003064	134-140
+Patients must not have pre-existing neuropathy > Grade 2.	Eligibility	28
+neuropathy	DOID:870	36-46
+Patients must not have participated in a prior E7389 clinical trial.	Eligibility	29
+Outcome Measurement:	Results	0
+Objective Response Rate	Results	1
+rate	BAO:0080019	19-23
+Based on Response Evaluation Criteria in Solid Tumors (RECIST), consisting of complete response (CR) plus partial response (PR). Defined as the best response from the start of treatment until disease progression or recurrence. Lesions measured by computed tomography (CT) scan and magnetic resonance imaging (MRI). Objective response rate: complete response (CR-disappearance of all lesions)+ partial response (PR-30% decrease in lesion diameter), Progressive Disease (PD-20% increase in lesion diameter), stable disease (SD-neither shrinkage nor increase of lesions).	Results	2
+disease	DOID:4,OGMS:0000031	192-199
+disease	DOID:4,OGMS:0000031	460-467
+disease	DOID:4,OGMS:0000031	513-520
+tomography	BAO:0002525	256-266
+ct	BAO:0002125	268-270
+ct	BAO:0002125	319-321
+rate	BAO:0080019	334-338
+diameter	PATO:0001334	437-445
+diameter	PATO:0001334	495-503
+progressive	HP:0003676	448-459
+increase	BAO:0001251	476-484
+increase	BAO:0001251	547-555
+stable	HP:0031915	506-512
+Time frame: Every two cycles	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: E7389 1.4 mg/m^2	Results	5
+Arm/Group Description: E7389 1.4 mg/m^2 intravenous bolus given over 2-5 minutes on Days 1 and 8 every 21 days.	Results	6
+Overall Number of Participants Analyzed: 269	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  14.1	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 88/291 (30.24%)	Adverse Events	1
+Anemia3/291 (1.03%)	Adverse Events	2
+Febrile Neutropenia11/291 (3.78%)	Adverse Events	3
+Leukopenia1/291 (0.34%)	Adverse Events	4
+Neutropenia7/291 (2.41%)	Adverse Events	5
+Thrombocytopenia2/291 (0.69%)	Adverse Events	6
+Cardiac Arrest1/291 (0.34%)	Adverse Events	7
+Pericardial Effusion1/291 (0.34%)	Adverse Events	8
+Pericarditis1/291 (0.34%)	Adverse Events	9
+Tachycardia2/291 (0.69%)	Adverse Events	10
+Diplopia1/291 (0.34%)	Adverse Events	11
+Macular Hole1/291 (0.34%)	Adverse Events	12
+Abdominal Pain3/291 (1.03%)	Adverse Events	13

@@ -1,0 +1,267 @@
+INTERVENTION 1:	Intervention	0
+Dose Level 1 - 1 Injection - Total Dose 2 x 10^8 IU	Intervention	1
+x	LABO:0000148	42-43
+Participants received Modified Vaccinia Ankara (MVA)-brachyury-TRICOM vaccine administered subcutaneously as 1 injection (I injection = 2 x 10^8 IU) of study drug at monthly (28 days +/- 4 days) intervals for 3 months. Patients with stable disease may continue to receive vaccine for up to 6 monthly doses.	Intervention	2
+vaccinia	DOID:3298	31-39
+vaccine	VO:0000001	70-77
+vaccine	VO:0000001	272-279
+x	LABO:0000148	138-139
+drug	CHEBI:23888	158-162
+stable	HP:0031915	233-239
+disease	DOID:4,OGMS:0000031	240-247
+INTERVENTION 2:	Intervention	3
+Dose Level 2 - 2 Injections - Total Dose 4 x 10^8 IU	Intervention	4
+x	LABO:0000148	43-44
+Participants received Modified Vaccinia Ankara (MVA)-brachyury-TRICOM vaccine administered subcutaneously as 2 injections (I injection = 2 x 10^8 IU) of study drug at monthly (28 days +/- 4 days) intervals for 3 months. Patients with stable disease may continue to receive vaccine for up to 6 monthly doses.	Intervention	5
+vaccinia	DOID:3298	31-39
+vaccine	VO:0000001	70-77
+vaccine	VO:0000001	273-280
+x	LABO:0000148	139-140
+drug	CHEBI:23888	159-163
+stable	HP:0031915	234-240
+disease	DOID:4,OGMS:0000031	241-248
+INCLUSION CRITERIA:	Eligibility	0
+(All Subjects)	Eligibility	1
+Patients must have a metastatic or unresectable locally advanced malignant solid tumor, histologically confirmed by the Laboratory of Pathology, National Cancer Institute (NCI). In the case of chordoma, unresectable, locally recurrent, or metastatic tumors are acceptable for enrollment, given that this represents incurable disease. Efforts will be made, as much as possible, to enroll patients with tumor types with known increased expression of brachyury (such as lung, breast, ovarian, prostate, colorectal, pancreatic, or chordoma; other tumors may be included as data on the level of brachyury in those tumors becomes available).	Eligibility	2
+cancer	DOID:162	154-160
+chordoma	HP:0010762,DOID:3302	193-201
+chordoma	HP:0010762,DOID:3302	527-535
+recurrent	HP:0031796	225-234
+disease	DOID:4,OGMS:0000031	325-332
+lung	UBERON:0002048	467-471
+breast	UBERON:0000310	473-479
+Patients may have measurable or nonmeasurable but evaluable disease. Patients with surgically resected metastatic disease at high risk of relapse are also eligible.	Eligibility	3
+disease	DOID:4,OGMS:0000031	60-67
+disease	DOID:4,OGMS:0000031	114-121
+Prior therapy: Patients must have completed or had disease progression on at least one prior line of disease-appropriate therapy for metastatic disease, or not be candidates for therapy of proven efficacy for their disease.	Eligibility	4
+disease	DOID:4,OGMS:0000031	51-58
+disease	DOID:4,OGMS:0000031	101-108
+disease	DOID:4,OGMS:0000031	144-151
+disease	DOID:4,OGMS:0000031	215-222
+efficacy	BAO:0000656	196-204
+There should be a minimum of 4 weeks from any prior chemotherapy, immunotherapy and/or radiation, with the exception of hormonal therapy for prostate and breast cancers, human epidermal growth factor receptor 2 (HER2)-directed therapy for HER2+ breast cancer (3+ immunohistochemistry (IHC) or fluorescence in situ hybridization (FISH+), and erlotinib in epidermal growth factor receptor (EGFR)-mutated lung cancer in the expansion cohort as detailed in section. There should be a minimum of 6 weeks from any prior antibody therapies, (such as ipilimumab or anti-Programmed cell death protein 1 (PD1)/Programmed death-ligand 1 (PDL1) due to prolonged half-life.	Eligibility	5
+breast	UBERON:0000310	154-160
+breast	UBERON:0000310	245-251
+growth factor	BAO:0002024	186-199
+growth factor	BAO:0002024	364-377
+receptor	BAO:0000281	200-208
+receptor	BAO:0000281	378-386
+breast cancer	DOID:1612	154-167
+breast cancer	DOID:1612	245-258
+immunohistochemistry	BAO:0000415	263-283
+erlotinib	CHEBI:114785	341-350
+lung cancer	DOID:1324	402-413
+antibody	GO:0042571,BAO:0000502	514-522
+cell death	GO:0008219	573-583
+protein	CHEBI:36080,BAO:0000175	584-591
+prolonged	HP:0025297	640-649
+Patients must have recovered (grade 1 or baseline) from any clinically significant toxicity associated with prior therapy. Typically, this is 3-4 weeks for patients who most recently received cytotoxic therapy, except for the nitrosoureas and mitomycin C, for which 6 weeks is needed for recovery.	Eligibility	6
+mitomycin c	CHEBI:27504	243-254
+Age greater than or equal to 18 years. Because no dosing or adverse event data are currently available on the use of modified vaccinia Ankara (MVA)-brachyury-B7-1, ICAM-1 (Intercellular Adhesion Molecule 1), and LFA-3 (lymphocyte function-associated antigen 3) TRICOM vaccine in patients < 18 years of age, children are excluded from this study but will be eligible for future pediatric trials.	Eligibility	7
+age	PATO:0000011	0-3
+age	PATO:0000011	302-305
+adverse event	OAE:0000001	60-73
+vaccinia	DOID:3298	126-134
+adhesion	BAO:0000237	186-194
+molecule	CHEBI:25367	195-203
+antigen	CHEBI:59132	250-257
+vaccine	VO:0000001	268-275
+excluded	HP:0040285	320-328
+Eastern Cooperative Oncology Group (ECOG) performance status less than or equal to 1 (Karnofsky greater than or equal to 70%).	Eligibility	8
+group	CHEBI:24433	29-34
+Patients must have normal organ and marrow function as defined below:	Eligibility	9
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+Serum creatinine less than or equal to 1.5 x upper limit of normal OR creatinine clearance on a 24-h urine collection of greater than or equal to 50 mL/min.	Eligibility	10
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	70-80
+x	LABO:0000148	43-44
+creatinine clearance	CMO:0000765	70-90
+urine	UBERON:0001088	101-106
+Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) less than or equal to 3 x the upper limits of normal.	Eligibility	11
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	35-44
+x	LABO:0000148	92-93
+Total bilirubin less than or equal to 1.5 x upper limit of normal OR in patients with Gilbert's syndrome, a total bilirubin less than or equal to 3.0.	Eligibility	12
+x	LABO:0000148	42-43
+syndrome	DOID:225	96-104
+Hematological eligibility parameters (within 16 days of starting therapy):	Eligibility	13
+Granulocyte count greater than or equal to 1,500/mm^3	Eligibility	14
+Platelet count greater than or equal to 100,000/mm^3	Eligibility	15
+platelet count	CMO:0000029	0-14
+Patients must have baseline pulse oximetry > 90% on room air.	Eligibility	16
+pulse	CMO:0000294	28-33
+The effects of MVA-brachyury-TRICOM on the developing human fetus are unknown. For this reason, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation and for a period of 4 months after the last vaccination therapy. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately.	Eligibility	17
+duration	PATO:0001309	269-277
+vaccination	VO:0000002	345-356
+Patients with prostate cancer must continue to receive gonadotropin releasing hormone (GnRH) agonist therapy (unless orchiectomy has been done). If a patient has refused GnRH therapy, they may be enrolled on a dose level for which the safety has already been determined.	Eligibility	18
+prostate cancer	HP:0012125,DOID:10283	14-29
+hormone	CHEBI:24621	78-85
+agonist	CHEBI:48705	93-100
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	150-157
+Patients must be able to understand and be willing to sign a written informed consent document.	Eligibility	19
+document	IAO:0000310	86-94
+INCLUSION CRITERIA:	Eligibility	20
+(Expansion Phase Only)	Eligibility	21
+The following inclusion criteria apply specifically to patients being considered for the expansion phase of the protocol.	Eligibility	22
+Subjects with epidermal growth factor receptor (EGFR)-mutated lung cancer may continue erlotinib if they have been on the drug for greater than or equal to 3 months with stable disease or a response. Erlotinib may also be continued in the case of a progressing tumor after prior response (or > 6 months stable disease).	Eligibility	23
+growth factor	BAO:0002024	24-37
+receptor	BAO:0000281	38-46
+lung cancer	DOID:1324	62-73
+erlotinib	CHEBI:114785	87-96
+erlotinib	CHEBI:114785	200-209
+drug	CHEBI:23888	122-126
+stable	HP:0031915	170-176
+stable	HP:0031915	303-309
+disease	DOID:4,OGMS:0000031	177-184
+disease	DOID:4,OGMS:0000031	310-317
+Patients with Estrogen receptor positive (ER+) breast cancer being treated with hormonal therapy (selective estrogen receptor modulator or aromatase inhibitor) who have rising tumor markers as evidence of disease progression or metastatic disease on scans may continue on hormonal therapy while being treated with vaccine.	Eligibility	24
+estrogen	CHEBI:50114,BAO:0000760	14-22
+estrogen	CHEBI:50114,BAO:0000760	108-116
+receptor	BAO:0000281	23-31
+receptor	BAO:0000281	117-125
+breast cancer	DOID:1612	47-60
+estrogen receptor modulator	CHEBI:50739	108-135
+inhibitor	CHEBI:35222	149-158
+disease	DOID:4,OGMS:0000031	205-212
+disease	DOID:4,OGMS:0000031	239-246
+vaccine	VO:0000001	314-321
+Patients with Her2+ breast cancer receiving Her2-directed therapy (e.g. trastuzumab) may continue on that therapy when enrolling into a dose level for which safety has been established.	Eligibility	25
+breast cancer	DOID:1612	20-33
+Subjects with metastatic colorectal cancer may continue "maintenance" therapy with capecitabine and/or bevacizumab.	Eligibility	26
+colorectal cancer	DOID:9256	25-42
+capecitabine	CHEBI:31348	83-95
+EXCLUSION CRITERIA:	Eligibility	27
+Concurrent treatment for cancer, with specific exceptions noted in inclusion criteria.	Eligibility	28
+cancer	DOID:162	25-31
+Chronic hepatitis B or C infection, because potential immune impairment caused by these disorders may diminish the effectiveness of this immunologic therapy.	Eligibility	29
+chronic hepatitis	HP:0200123,DOID:2237	0-17
+hepatitis b	DOID:2043	8-19
+Any significant disease that, in the opinion of the investigator, may impair the patient's tolerance of study treatment.	Eligibility	30
+disease	DOID:4,OGMS:0000031	16-23
+patient	HADO:0000008,OAE:0001817	81-88
+Significant dementia, altered mental status, or any psychiatric condition that would prohibit the understanding or rendering of informed consent.	Eligibility	31
+dementia	HP:0000726,DOID:1307	12-20
+condition	PDRO:0000129	64-73
+Active autoimmune diseases requiring treatment or a history of autoimmune disease that might be stimulated by vaccine treatment. This requirement is due to the potential risks of exacerbating autoimmunity. However, patients with vitiligo or clinically stable autoimmune endocrine disease who are on appropriate replacement therapy (if such therapy is indicated) are eligible.	Eligibility	32
+active	PATO:0002354	0-6
+history	BFO:0000182	52-59
+autoimmune disease	DOID:417	7-25
+autoimmune disease	DOID:417	63-81
+vaccine	VO:0000001	110-117
+autoimmunity	HP:0002960	192-204
+vitiligo	HP:0001045,DOID:12306	229-237
+stable	HP:0031915	252-258
+disease	DOID:4,OGMS:0000031	18-25
+disease	DOID:4,OGMS:0000031	74-81
+disease	DOID:4,OGMS:0000031	280-287
+Concurrent use of systemic steroids, except for physiologic doses of systemic steroid replacement or local (topical, nasal, or inhaled) steroid use. Limited pharmacologic doses of systemic steroids (e.g., in patients with exacerbations of reactive airway disease or to prevent intravenous (I.V.) contrast allergic reaction or anaphylaxis in patients who have known contrast allergies) are allowed.	Eligibility	33
+steroid	CHEBI:35341	27-34
+steroid	CHEBI:35341	78-85
+steroid	CHEBI:35341	136-143
+steroid	CHEBI:35341	189-196
+disease	DOID:4,OGMS:0000031	255-262
+Patients who are receiving any other investigational agents within 28 days before start of study treatment.	Eligibility	34
+Patients with untreated central nervous system metastases or local treatment of brain metastases within the last 6 months. Patients with stable brain metastasis for 6 months post-intervention are eligible. Subjects with chordoma will be eligible regardless of site of disease if other eligibility criteria are met.	Eligibility	35
+central nervous system	UBERON:0001017	24-46
+brain	UBERON:0000955	80-85
+brain	UBERON:0000955	144-149
+stable	HP:0031915	137-143
+chordoma	HP:0010762,DOID:3302	220-228
+site	BFO:0000029	260-264
+disease	DOID:4,OGMS:0000031	268-275
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to MVA-brachyury-TRICOM or other agents used in study.	Eligibility	36
+history	BFO:0000182	0-7
+Serious or uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that, in the opinion of the investigator, would limit compliance with study requirements.	Eligibility	37
+active	PATO:0002354	87-93
+congestive heart failure	HP:0001635,DOID:6000	117-141
+angina pectoris	HP:0001681	152-167
+arrhythmia	HP:0011675	177-187
+Pregnant women are excluded from this study due to the unknown effects of the MVAbrachyury-TRICOM vaccine on the fetus or infant. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with MVA-brachyury-TRICOM, breastfeeding should be discontinued if the mother is treated with MVA-brachyury-TRICOM. These potential risks may also apply to other agents used in this study.	Eligibility	38
+excluded	HP:0040285	19-27
+vaccine	VO:0000001	98-105
+Human immunodeficiency viruses (HIV)-positive patients are ineligible because of the potential for decreased immune response to the vaccine.	Eligibility	39
+immunodeficiency	HP:0002721	6-22
+immune response	GO:0006955	109-124
+vaccine	VO:0000001	132-139
+Outcome Measurement:	Results	0
+Number of Participants With Serious and Non-serious Adverse Events Assessed by the Common Terminology Criteria for Adverse Events (CTCAE v4.0)	Results	1
+Here is the count of participants with serious and non-serious adverse events assessed by the Common Terminology Criteria for Adverse Events (CTCAE v4.0). A non-serious adverse event is any untoward medical occurrence. A serious adverse event is an adverse event or suspected adverse reaction that results in death, a life-threatening adverse drug experience, hospitalization, disruption of the ability to conduct normal life functions, congenital anomaly/birth defect or important medical events that jeopardize the patient or subject and may require medical or surgical intervention to prevent one of the previous outcomes mentioned.	Results	2
+non-serious adverse event	OAE:0000638	51-76
+non-serious adverse event	OAE:0000638	157-182
+serious adverse event	OAE:0000631	55-76
+serious adverse event	OAE:0000631	161-182
+serious adverse event	OAE:0000631	221-242
+adverse event	OAE:0000001	63-76
+adverse event	OAE:0000001	126-139
+adverse event	OAE:0000001	169-182
+adverse event	OAE:0000001	229-242
+adverse event	OAE:0000001	249-262
+death	OAE:0000632	309-314
+drug	CHEBI:23888	343-347
+patient	HADO:0000008,OAE:0001817	517-524
+Time frame: Date treatment consent signed to date off study, approximately 9 months and 6 days for DL1, 17 months and 3 days for DL2, and 23 months and 13 days for DL3.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Dose Level 1 - 1 Injection - Total Dose 2 x 10^8 IU	Results	5
+x	LABO:0000148	59-60
+Arm/Group Description: Participants received Modified Vaccinia Ankara (MVA)-brachyury-TRICOM vaccine administered subcutaneously as 1 injection (I injection = 2 x 10^8 IU) of study drug at monthly (28 days +/- 4 days) intervals for 3 months. Patients with stable disease may continue to receive vaccine for up to 6 monthly doses.	Results	6
+vaccinia	DOID:3298	54-62
+vaccine	VO:0000001	93-100
+vaccine	VO:0000001	295-302
+x	LABO:0000148	161-162
+drug	CHEBI:23888	181-185
+stable	HP:0031915	256-262
+disease	DOID:4,OGMS:0000031	263-270
+Overall Number of Participants Analyzed: 3	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  3 100.0%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Dose Level 2 - 2 Injections - Total Dose 4 x 10^8 IU	Results	11
+x	LABO:0000148	60-61
+Arm/Group Description: Participants received Modified Vaccinia Ankara (MVA)-brachyury-TRICOM vaccine administered subcutaneously as 2 injections (I injection = 2 x 10^8 IU) of study drug at monthly (28 days +/- 4 days) intervals for 3 months. Patients with stable disease may continue to receive vaccine for up to 6 monthly doses.	Results	12
+vaccinia	DOID:3298	54-62
+vaccine	VO:0000001	93-100
+vaccine	VO:0000001	296-303
+x	LABO:0000148	162-163
+drug	CHEBI:23888	182-186
+stable	HP:0031915	257-263
+disease	DOID:4,OGMS:0000031	264-271
+Overall Number of Participants Analyzed: 17	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  14  82.4%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 2/3 (66.67%)	Adverse Events	1
+Colonic obstruction 1/3 (33.33%)	Adverse Events	2
+Abdominal pain 0/3 (0.00%)	Adverse Events	3
+abdominal pain	HP:0002027	0-14
+Colitis 0/3 (0.00%)	Adverse Events	4
+colitis	HP:0002583,DOID:0060180	0-7
+Pain 0/3 (0.00%)	Adverse Events	5
+pain	HP:0012531	0-4
+Lung infection 0/3 (0.00%)	Adverse Events	6
+lung	UBERON:0002048	0-4
+Sepsis 0/3 (0.00%)	Adverse Events	7
+sepsis	HP:0100806	0-6
+Hip fracture 1/3 (33.33%)	Adverse Events	8
+hip	UBERON:0001464	0-3
+Hyponatremia 0/3 (0.00%)	Adverse Events	9
+hyponatremia	HP:0002902	0-12
+Adverse Events 2:	Adverse Events	10
+Total: 4/17 (23.53%)	Adverse Events	11
+Colonic obstruction 0/17 (0.00%)	Adverse Events	12
+Abdominal pain 1/17 (5.88%)	Adverse Events	13
+abdominal pain	HP:0002027	0-14
+Colitis 1/17 (5.88%)	Adverse Events	14
+colitis	HP:0002583,DOID:0060180	0-7
+Pain 0/17 (0.00%)	Adverse Events	15
+pain	HP:0012531	0-4
+Lung infection 1/17 (5.88%)	Adverse Events	16
+lung	UBERON:0002048	0-4
+Sepsis 0/17 (0.00%)	Adverse Events	17
+sepsis	HP:0100806	0-6
+Hip fracture 0/17 (0.00%)	Adverse Events	18
+hip	UBERON:0001464	0-3
+Hyponatremia 1/17 (5.88%)	Adverse Events	19
+hyponatremia	HP:0002902	0-12

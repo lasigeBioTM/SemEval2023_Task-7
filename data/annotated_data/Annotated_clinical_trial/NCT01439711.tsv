@@ -1,0 +1,138 @@
+INTERVENTION 1:	Intervention	0
+Letrozole + MRI	Intervention	1
+letrozole	CHEBI:6413	0-9
+Protocol Therapy will consist of 6 months of letrozole, administered orally at a dose of 2.5 mg/day. Patients will have a bilateral MRI for disease evaluation at months 3 and 6.	Intervention	2
+letrozole	CHEBI:6413	45-54
+bilateral	HP:0012832	122-131
+disease	DOID:4,OGMS:0000031	140-147
+Eligibility Criteria:	Eligibility	0
+Histologic documentation: Pathologic confirmation of ductal carcinoma in situ (DCIS) of the female breast without invasive cancer, with diagnosis rendered on core biopsy only, completed within 60 days before registration. Patients diagnosed with DCIS on the basis of surgical biopsy are not eligible for this study.	Eligibility	1
+ductal carcinoma in situ	HP:0030075,DOID:0060074	53-77
+female	PATO:0000383	92-98
+breast	UBERON:0000310	99-105
+cancer	DOID:162	123-129
+Patients with microinvasion on diagnostic core biopsy, defined as tumor  1 mm in greatest dimension, will be allowed to participate.	Eligibility	2
+All patients must have a clip placed, either at the time of the diagnostic biopsy or at the time of the baseline MRI prior to the start of treatment.	Eligibility	3
+time	PATO:0000165	52-56
+time	PATO:0000165	92-96
+Tissue samples: Patient has diagnostic tissue available for correlative studies.	Eligibility	4
+tissue	UBERON:0000479	0-6
+tissue	UBERON:0000479	39-45
+patient	HADO:0000008,OAE:0001817	16-23
+Clinical stage: Tis or T1mi N0, M0	Eligibility	5
+Hormone receptor status: DCIS must express estrogen and/or progesterone receptor, as determined by immunohistochemical methods on the diagnostic pathology sample, according to the local institution's standard protocol. Greater than or equal to 1% cells will be considered to be positive.	Eligibility	6
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+receptor	BAO:0000281	72-80
+estrogen	CHEBI:50114,BAO:0000760	43-51
+progesterone	CHEBI:17026	59-71
+Menopausal status: Patients must be postmenopausal defined as:	Eligibility	7
+Age  55 years and one year or more of amenorrhea	Eligibility	8
+age	PATO:0000011	0-3
+year	UO:0000036	8-12
+year	UO:0000036	22-26
+amenorrhea	HP:0000141,DOID:13938	38-48
+Age < 55 years and one year or more amenorrhea, with an estradiol assay < 20pg/ml	Eligibility	9
+age	PATO:0000011	0-3
+year	UO:0000036	9-13
+year	UO:0000036	23-27
+amenorrhea	HP:0000141,DOID:13938	36-46
+estradiol	CHEBI:23965	56-65
+Surgical menopause with bilateral oophorectomy (at least 28 days must elapse from surgery to time of study registration)	Eligibility	10
+menopause	GO:0042697	9-18
+bilateral	HP:0012832	24-33
+surgery	OAE:0000067	82-89
+time	PATO:0000165	93-97
+The use of GnRH analogs to achieve post menopausal status is not allowed.	Eligibility	11
+Prior treatment:	Eligibility	12
+No prior surgical excision in the index breast for current DCIS diagnosis of DCIS	Eligibility	13
+breast	UBERON:0000310	40-46
+Any exogenous hormone therapy must be completed 4 weeks prior to registration	Eligibility	14
+hormone	CHEBI:24621	14-21
+Any patients with a history of tamoxifen or raloxifene use within two years of current DCIS diagnosis are not eligible	Eligibility	15
+history	BFO:0000182	20-27
+tamoxifen	CHEBI:41774	31-40
+raloxifene	CHEBI:8772	44-54
+No prior neoadjuvant/adjuvant therapy for current DCIS diagnosis	Eligibility	16
+Contraindication to MRI: No contraindications to breast MRI	Eligibility	17
+contraindication	OAE:0000055	0-16
+contraindication	OAE:0000055	28-44
+breast	UBERON:0000310	49-55
+Measurable disease: Mammographic extent of calcifications must be accurately measurable in at least one dimension with each lesion  1 cm and  7 cm	Eligibility	18
+disease	DOID:4,OGMS:0000031	11-18
+DCIS must be visible on MRI based on central review.	Eligibility	19
+central	HP:0030645	37-44
+Patients with palpable DCIS or adenopathy are not eligible to participate.	Eligibility	20
+Patients with multifocal or bilateral disease are eligible.	Eligibility	21
+multifocal	HP:0030651	14-24
+bilateral	HP:0012832	28-37
+disease	DOID:4,OGMS:0000031	38-45
+History of osteoporosis: Women diagnosed with osteoporosis may participate in this trial provided they are receiving appropriate therapy or if they have declined therapy.	Eligibility	22
+history	BFO:0000182	0-7
+osteoporosis	HP:0000939,DOID:11476	11-23
+osteoporosis	HP:0000939,DOID:11476	46-58
+Age: Patients  18 years of age	Eligibility	23
+age	PATO:0000011	0-3
+age	PATO:0000011	27-30
+Performance Status: ECOG performance status 0 or 1	Eligibility	24
+Pregnancy/nursing status: Not pregnant or nursing	Eligibility	25
+Required Initial Laboratory Values:	Eligibility	26
+ANC  1,000/μL	Eligibility	27
+Platelet count  100,000/μL	Eligibility	28
+platelet count	CMO:0000029	0-14
+Serum creatinine  1.7 mg/dL	Eligibility	29
+creatinine	CHEBI:16737	6-16
+Bilirubin  2.0 mg/dL	Eligibility	30
+AST/ALT  2.5 times upper limit of normal	Eligibility	31
+Serum estradiol level assay < 20 pg/mL *Required for patients < 55 years of age and one year or more of amenorrhea	Eligibility	32
+serum estradiol level	CMO:0000564	0-21
+age	PATO:0000011	76-79
+year	UO:0000036	67-71
+year	UO:0000036	88-92
+amenorrhea	HP:0000141,DOID:13938	104-114
+Outcome Measurement:	Results	0
+Mean Total MRI Functional Tumor Volume (FTV) Change From Baseline to Month 3 (V3)	Results	1
+mean	BAO:0002173	0-4
+functional	BAO:0000010	15-25
+volume	PATO:0000918	32-38
+month	UO:0000035	69-74
+Mean total MRI FTV change from baseline to month 3 (V3): For patients with more than one measureable lesion on the MRI, the sum over all measureable lesions on the MRI was calculated at each time point. V3 was calculated by subtracting the total MRI FTV measured (i.e. the sum over all lesions present with MRI FTV measurements) at 3 months from the total MRI FTV measured at baseline. For V3 the raw change in the volume will be calculated for each patient and a mean and 95% confidence interval will be constructed using two-sided t-tests.	Results	2
+mean	BAO:0002173	0-4
+mean	BAO:0002173	464-468
+month	UO:0000035	43-48
+month	UO:0000035	334-339
+time	PATO:0000165	191-195
+present	PATO:0000467	294-301
+volume	PATO:0000918	415-421
+patient	HADO:0000008,OAE:0001817	61-68
+patient	HADO:0000008,OAE:0001817	450-457
+Time frame: up to 3 months from start of treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Letrozole + MRI	Results	5
+letrozole	CHEBI:6413	17-26
+Arm/Group Description: Protocol Therapy will consist of 6 months of letrozole, administered orally at a dose of 2.5 mg/day. Patients will have a bilateral MRI for disease evaluation at months 3 and 6.	Results	6
+letrozole	CHEBI:6413	68-77
+bilateral	HP:0012832	145-154
+disease	DOID:4,OGMS:0000031	163-170
+Overall Number of Participants Analyzed: 68	Results	7
+Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: cubic centimeters  -1.93        (-2.87 to -0.98)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 2/90 (2.22%)	Adverse Events	1
+Heart failure 1/90 (1.11%)	Adverse Events	2
+heart	UBERON:0000948	0-5
+Restrictive cardiomyopathy 1/90 (1.11%)	Adverse Events	3
+restrictive cardiomyopathy	HP:0001723,DOID:397	0-26
+Fever 1/90 (1.11%)	Adverse Events	4
+fever	HP:0001945	0-5
+Hypokalemia 1/90 (1.11%)	Adverse Events	5
+hypokalemia	HP:0002900,DOID:4500	0-11
+Arthralgia 1/90 (1.11%)	Adverse Events	6
+arthralgia	HP:0002829	0-10
+Myalgia 1/90 (1.11%)	Adverse Events	7
+myalgia	HP:0003326	0-7
+Neoplasms benign, malignant and unspecified (incl cysts and polyps) - Other, specify 1/90 (1.11%)	Adverse Events	8
+Hypertension 2/90 (2.22%)	Adverse Events	9
+hypertension	HP:0000822,DOID:10763	0-12

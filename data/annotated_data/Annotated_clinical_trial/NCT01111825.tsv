@@ -1,0 +1,248 @@
+INTERVENTION 1:	Intervention	0
+Phase 2 Triple -ve	Intervention	1
+Phase 2, Triple - Negative cohort	Intervention	2
+INTERVENTION 2:	Intervention	3
+Phase 2 HER2+	Intervention	4
+Phase 2, HER2 - Amplified (HER2-Positive) cohort	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Phase I HER2-amplified Cohort	Eligibility	1
+HER2 overexpression and/or amplification as determined by immunohistochemistry (3+) or fluorescence in situ hybridisation (FISH) (  2.0)	Eligibility	2
+immunohistochemistry	BAO:0000415	58-78
+Previously received trastuzumab as part of a regimen in the adjuvant or metastatic setting with evidence of progression. Washout period for trastuzumab of 14 days.	Eligibility	3
+part of	BAO:0090002,BFO:0000050	35-42
+adjuvant	CHEBI:60809	60-68
+May have previously received lapatinib as part of a regimen in the adjuvant or metastatic setting with evidence of progression of disease. Washout period for lapatinib of 14 days.	Eligibility	4
+lapatinib	CHEBI:49603	29-38
+lapatinib	CHEBI:49603	158-167
+part of	BAO:0090002,BFO:0000050	42-49
+adjuvant	CHEBI:60809	67-75
+disease	DOID:4,OGMS:0000031	130-137
+Radiographic progression of disease while on treatment with trastuzumab or lapatinib as defined by RECIST 1.1 criteria.	Eligibility	5
+disease	DOID:4,OGMS:0000031	28-35
+lapatinib	CHEBI:49603	75-84
+No restriction on prior chemotherapy regimens for advanced stage disease. No restriction for prior hormonal therapy. No concurrent use of endocrine therapy is permitted.	Eligibility	6
+disease	DOID:4,OGMS:0000031	65-72
+Phase II HER2-amplified Cohort	Eligibility	7
+HER2 overexpression and/or amplification as determined by immunohistochemistry (3+) or FISH (  2.0).	Eligibility	8
+immunohistochemistry	BAO:0000415	58-78
+Previously received trastuzumab as part of a regimen in the adjuvant or metastatic setting with evidence of progression. Washout period for trastuzumab of 14 days.	Eligibility	9
+part of	BAO:0090002,BFO:0000050	35-42
+adjuvant	CHEBI:60809	60-68
+May have previously received lapatinib as part of a regimen in the adjuvant or metastatic setting with evidence of progression of disease. Washout period for lapatinib of 14 days.	Eligibility	10
+lapatinib	CHEBI:49603	29-38
+lapatinib	CHEBI:49603	158-167
+part of	BAO:0090002,BFO:0000050	42-49
+adjuvant	CHEBI:60809	67-75
+disease	DOID:4,OGMS:0000031	130-137
+Radiographic progression of disease while on treatment with trastuzumab as defined by RECIST 1.1 criteria.	Eligibility	11
+disease	DOID:4,OGMS:0000031	28-35
+Prior therapy inclusion: no more than four prior chemotherapy regimens allowed for advanced stage disease. No restriction for prior hormonal therapy. No concurrent use of endocrine therapy is permitted.	Eligibility	12
+disease	DOID:4,OGMS:0000031	98-105
+Phase II Triple-negative Cohort - As of 2/10/12, this cohort is closed to accrual	Eligibility	13
+Invasive adenocarcinoma negative for estrogen receptor (<5%) and progesterone receptor (<5%) expression and a lack of HER2 overexpression and/or amplification as determined by immunohistochemistry (<3+) or FISH (<2.0).	Eligibility	14
+adenocarcinoma	DOID:299	9-23
+estrogen	CHEBI:50114,BAO:0000760	37-45
+receptor	BAO:0000281	46-54
+receptor	BAO:0000281	78-86
+progesterone	CHEBI:17026	65-77
+immunohistochemistry	BAO:0000415	176-196
+Prior therapy inclusion: no more than four prior chemotherapy regimens allowed for advanced stage disease. No restriction for prior hormonal therapy. No concurrent use of endocrine therapy is permitted.	Eligibility	15
+disease	DOID:4,OGMS:0000031	98-105
+Phase II HER2-Positive Cohort with dose escalation	Eligibility	16
+HER2 overexpression and/or amplification as determined by immunohistochemistry (IHC) (3+) or FISH (  2.0).	Eligibility	17
+immunohistochemistry	BAO:0000415	58-78
+Previously received trastuzumab as part of a regimen in the adjuvant or metastatic setting with evidence of progression. Washout period for trastuzumab of 14 days.	Eligibility	18
+part of	BAO:0090002,BFO:0000050	35-42
+adjuvant	CHEBI:60809	60-68
+May have previously received lapatinib as part of a regimen in the adjuvant or metastatic setting with evidence of progression of disease. Washout period for lapatinib of 14 days.	Eligibility	19
+lapatinib	CHEBI:49603	29-38
+lapatinib	CHEBI:49603	158-167
+part of	BAO:0090002,BFO:0000050	42-49
+adjuvant	CHEBI:60809	67-75
+disease	DOID:4,OGMS:0000031	130-137
+Radiographic progression of disease while on treatment with trastuzumab as defined by RECIST v 1.1.	Eligibility	20
+disease	DOID:4,OGMS:0000031	28-35
+Prior therapy inclusion: no restriction on prior chemotherapy regimens for advanced stage disease. No restriction for prior hormonal therapy. No concurrent use of endocrine therapy is permitted.	Eligibility	21
+disease	DOID:4,OGMS:0000031	90-97
+Inclusion Criteria for all subjects (HER2-Amplified and Triple-negative)	Eligibility	22
+Patients with a diagnosis of invasive adenocarcinoma of the breast confirmed by histology or cytology at MSKCC.	Eligibility	23
+adenocarcinoma	DOID:299	38-52
+breast	UBERON:0000310	60-66
+histology	NCIT:C16681	80-89
+Metastatic disease that is or has been pathologically documented.	Eligibility	24
+disease	DOID:4,OGMS:0000031	11-18
+At least one measurable metastatic lesion according to RECIST 1.1 criteria. Ascites, pleural effusions, and bone metastases are not considered measurable. Minimum indicator lesion size  10 mm by helical CT or  20 mm by conventional techniques.	Eligibility	25
+ascites	HP:0001541	76-83
+indicator	CHEBI:47867	163-172
+size	PATO:0000117	180-184
+ct	BAO:0002125	203-205
+Pathological nodes must be  15 mm by the short axis to be considered measurable.	Eligibility	26
+Age  18, as no dosing or adverse event data are currently available on the use of neratinib or temsirolimus in patients <18 years of age, children are excluded from this study.	Eligibility	27
+age	PATO:0000011	0-3
+age	PATO:0000011	133-136
+adverse event	OAE:0000001	25-38
+neratinib	CHEBI:61397	82-91
+temsirolimus	CHEBI:79699	95-107
+excluded	HP:0040285	151-159
+Patients must be willing to discontinue sex hormonal therapy, e.g., birth control pills, hormonal replacement therapy, prior to enrollment. Women of childbearing potential must consent to effective contraception while on treatment and for a period thereafter.	Eligibility	28
+Negative serum human chorionic gonadotropin pregnancy test for premenopausal women of reproductive capacity and for women less than 12 months after menopause.	Eligibility	29
+chorionic gonadotropin	CHEBI:81570	21-43
+menopause	GO:0042697	148-157
+Asymptomatic, central nervous system metastases are permitted if patients remain clinically stable after discontinuation of steroids and anticonvulsants for 3 months.	Eligibility	30
+central nervous system	UBERON:0001017	14-36
+stable	HP:0031915	92-98
+Eastern Cooperative Oncology Group (ECOG) performance status score of 2.	Eligibility	31
+group	CHEBI:24433	29-34
+Patients must have normal organ and marrow function: aspartate aminotransferase (AST), alanine aminotransferase (ALT) 2.5x institutional upper limit of normal except for patients with liver metastases. For patients with liver metastases, AST/ALT/Alkaline phosphatase 5.0x institutional upper limit of normal. Total bilirubin within institutional limits except for patients with liver metastases. For patients with liver metastases, total bilirubin 1.5x institutional upper limit of normal. Creatinine clearance within normal limits or  60 mL/min, prothrombin time and partial thromboplastin time 1.5x institutional upper limit of normal except for patients on Coumadin or low molecular weight heparin, leukocytes 3,000/μl, absolute neutrophil count 1,000/μl, and platelets 75,000/μl	Eligibility	32
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+aspartate	CHEBI:29995	53-62
+alanine	CHEBI:16449	87-94
+liver	UBERON:0002107	184-189
+liver	UBERON:0002107	220-225
+liver	UBERON:0002107	378-383
+liver	UBERON:0002107	414-419
+phosphatase	GO:0016791,BAO:0000295	255-266
+creatinine clearance	CMO:0000765	490-510
+prothrombin time	CMO:0000211	547-563
+time	PATO:0000165	559-563
+time	PATO:0000165	591-595
+heparin	CHEBI:28304	693-700
+Able to swallow and retain oral medication.	Eligibility	33
+The following criteria were removed for all patients in Protocol Amendment 10, and are only applicable to first 34 HER2+ patients in Phase 2 who are not subject to dose-escalation of temsirolimus:	Eligibility	34
+temsirolimus	CHEBI:79699	183-195
+Able and willing to consent for biopsy of metastatic breast cancer prior to treatment. Consent to preservation of frozen and fixed samples of tumor cores for evaluation. (HER2-amplified patients who have previously provided samples of metastatic breast cancer as part of institutional review board #06-163 will be exempt)	Eligibility	35
+breast cancer	DOID:1612	53-66
+breast cancer	DOID:1612	246-259
+part of	BAO:0090002,BFO:0000050	263-270
+Consent to evaluation of primary tumor biopsy specimen.	Eligibility	36
+Exclusion Criteria:	Eligibility	37
+Potential subjects will be excluded from enrollment into this study if they meet any of the following criteria:	Eligibility	38
+excluded	HP:0040285	27-35
+Patients receiving any concurrent anticancer therapy or investigational agents with the intention of treating breast cancer.	Eligibility	39
+breast cancer	DOID:1612	110-123
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to neratinib or temsirolimus.	Eligibility	40
+history	BFO:0000182	0-7
+neratinib	CHEBI:61397	101-110
+temsirolimus	CHEBI:79699	114-126
+Unable to consent to biopsy of metastatic disease or for whom a biopsy would be medically unsafe.	Eligibility	41
+disease	DOID:4,OGMS:0000031	42-49
+Women who are pregnant or breast feeding.	Eligibility	42
+breast	UBERON:0000310	26-32
+Life expectancy <3 months.	Eligibility	43
+Completion of previous chemotherapy regimen <3 weeks prior to the start of study treatment. Prior hormonal therapy must be discontinued prior to treatment start. Biologic therapy with bevacizumab for the treatment of metastatic disease must be discontinued 3 weeks from the start of protocol treatment.	Eligibility	44
+disease	DOID:4,OGMS:0000031	228-235
+Concurrent radiotherapy is not permitted for disease progression on treatment on protocol, but might be allowed for pre-existing non-target lesions with approval from the principal investigator of the trial.	Eligibility	45
+radiotherapy	OAE:0000235	11-23
+disease	DOID:4,OGMS:0000031	45-52
+Concurrent medical conditions which may increase the risk of toxicity, including ongoing or active infection, history of significant bleeding disorder unrelated to cancer (congenital bleeding disorders, acquired bleeding disorders within one year), HIV-positive or active hepatitis.	Eligibility	46
+increase	BAO:0001251	40-48
+active	PATO:0002354	92-98
+active	PATO:0002354	265-271
+history	BFO:0000182	110-117
+disorder	OGMS:0000045	142-150
+disorder	OGMS:0000045	192-200
+disorder	OGMS:0000045	221-229
+cancer	DOID:162	164-170
+year	UO:0000036	242-246
+hepatitis	HP:0012115,DOID:2237	272-281
+History of clinically significant or uncontrolled cardiac disease, including congestive heart failure, angina, myocardial infarction, arrhythmia, and left ventricular ejection fraction less than 50% measured by a multigated blood pool imaging of the heart (MUGA scan) or an echocardiogram (ECHO).	Eligibility	47
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	58-65
+congestive heart failure	HP:0001635,DOID:6000	77-101
+myocardial infarction	HP:0001658,DOID:5844	111-132
+arrhythmia	HP:0011675	134-144
+left	HP:0012835	150-154
+ejection fraction	CMO:0000180	167-184
+blood	UBERON:0000178	224-229
+heart	UBERON:0000948	88-93
+heart	UBERON:0000948	250-255
+QT corrected interval > 0.47 seconds.	Eligibility	48
+Patients with GI tract disease resulting in an inability to take oral medication, malabsorption syndrome, a requirement for IV alimentation, prior surgical procedures affecting absorption, or uncontrolled inflammatory GI disease.	Eligibility	49
+disease	DOID:4,OGMS:0000031	23-30
+disease	DOID:4,OGMS:0000031	221-228
+malabsorption	HP:0002024	82-95
+syndrome	DOID:225	96-104
+History of an invasive second primary malignancy diagnosed within the previous 3 years, except for stage I endometrial or cervical carcinoma or prostate carcinoma treated surgically, and non-melanoma skin cancer.	Eligibility	50
+history	BFO:0000182	0-7
+second	UO:0000010	23-29
+carcinoma	HP:0030731,DOID:305	131-140
+carcinoma	HP:0030731,DOID:305	153-162
+prostate carcinoma	DOID:10286	144-162
+skin cancer	DOID:4159	200-211
+History of uncontrolled seizures, central nervous system disorders or psychiatric disability judged by the investigator to be clinically significant, precluding informed consent, or interfering with compliance of oral drug intake.	Eligibility	51
+history	BFO:0000182	0-7
+central nervous system	UBERON:0001017	34-56
+drug	CHEBI:23888	218-222
+Unwillingness to give written informed consent, unwillingness to participate, or inability to comply with the protocol for the duration of the study. Willingness and ability to comply with scheduled visits, treatment plan, laboratory tests and other study procedures are necessary to participation in this clinical trial.	Eligibility	52
+duration	PATO:0001309	127-135
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR) (Phase II)	Results	1
+rate	BAO:0080019	19-23
+ORR is defined as proportion of subjects who achieved confirmed complete response (CR) or partial response (PR) per Response Evaluation Criteria In Solid Tumors Criteria (RECIST) v1.1: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	2
+target	BAO:0003064	230-236
+target	BAO:0003064	322-328
+diameter	PATO:0001334	310-318
+A complete or partial response must be confirmed no less than 4-weeks after the criteria for response are initially met.	Results	3
+Time frame: From enrollment date to first documented response, or last tumor assessment, assessed up to two years	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Phase 2 Triple -ve	Results	6
+Arm/Group Description: Phase 2, Triple - Negative cohort	Results	7
+Overall Number of Participants Analyzed: 6	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  0   0.0%	Results	10
+Results 2:	Results	11
+Arm/Group Title: Phase 2 HER2+	Results	12
+Arm/Group Description: Phase 2, HER2 - Amplified (HER2-Positive) cohort	Results	13
+Overall Number of Participants Analyzed: 37	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  5  13.5%	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 3/8 (37.50%)	Adverse Events	1
+Anaemia 0/8 (0.00%)	Adverse Events	2
+Febrile neutropenia 0/8 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Polycythaemia 0/8 (0.00%)	Adverse Events	4
+Acute coronary syndrome 0/8 (0.00%)	Adverse Events	5
+acute coronary syndrome	HP:0033678	0-23
+Vertigo 0/8 (0.00%)	Adverse Events	6
+vertigo	HP:0002321	0-7
+Eyelid oedema 1/8 (12.50%)	Adverse Events	7
+eyelid	UBERON:0001711	0-6
+Constipation 0/8 (0.00%)	Adverse Events	8
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 0/8 (0.00%)	Adverse Events	9
+Nausea 0/8 (0.00%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Stomatitis 0/8 (0.00%)	Adverse Events	11
+stomatitis	HP:0010280,DOID:9637	0-10
+Upper gastrointestinal haemorrhage 0/8 (0.00%)	Adverse Events	12
+Vomiting 0/8 (0.00%)	Adverse Events	13
+vomiting	HP:0002013	0-8
+Chest pain 0/8 (0.00%)	Adverse Events	14
+chest pain	HP:0100749	0-10
+Adverse Events 2:	Adverse Events	15
+Total: 2/6 (33.33%)	Adverse Events	16
+Anaemia 0/6 (0.00%)	Adverse Events	17
+Febrile neutropenia 0/6 (0.00%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	8-19
+Polycythaemia 0/6 (0.00%)	Adverse Events	19
+Acute coronary syndrome 0/6 (0.00%)	Adverse Events	20
+acute coronary syndrome	HP:0033678	0-23
+Vertigo 0/6 (0.00%)	Adverse Events	21
+vertigo	HP:0002321	0-7
+Eyelid oedema 0/6 (0.00%)	Adverse Events	22
+eyelid	UBERON:0001711	0-6
+Constipation 0/6 (0.00%)	Adverse Events	23
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 0/6 (0.00%)	Adverse Events	24
+Nausea 0/6 (0.00%)	Adverse Events	25
+nausea	HP:0002018	0-6
+Stomatitis 0/6 (0.00%)	Adverse Events	26
+stomatitis	HP:0010280,DOID:9637	0-10
+Upper gastrointestinal haemorrhage 0/6 (0.00%)	Adverse Events	27
+Vomiting 0/6 (0.00%)	Adverse Events	28
+vomiting	HP:0002013	0-8
+Chest pain 1/6 (16.67%)	Adverse Events	29
+chest pain	HP:0100749	0-10

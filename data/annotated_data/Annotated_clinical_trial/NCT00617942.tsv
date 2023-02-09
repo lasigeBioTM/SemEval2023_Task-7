@@ -1,0 +1,94 @@
+INTERVENTION 1:	Intervention	0
+Cohort 1	Intervention	1
+[Not Specified]	Intervention	2
+INTERVENTION 2:	Intervention	3
+Cohort 2	Intervention	4
+[Not Specified]	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Histologically documented adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	26-40
+breast	UBERON:0000310	48-54
+ANC > 1000 cells	Eligibility	2
+Female; age > 18; Zubrod PS 0-1	Eligibility	3
+female	PATO:0000383	0-6
+age	PATO:0000011	8-11
+Platelets > 100,000	Eligibility	4
+Stage IIA-IIIB disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	15-22
+Total bilirubin < or = ULN	Eligibility	6
+No evidence of metastatic disease Not pregnant or lactating	Eligibility	7
+disease	DOID:4,OGMS:0000031	26-33
+No prior systemic therapy for this breast cancer	Eligibility	8
+breast cancer	DOID:1612	35-48
+Serum Creatinine < 1.5 mg/dl or Creat Cl > 30 ml/min	Eligibility	9
+creatinine	CHEBI:16737	6-16
+cl	BAO:0002759	38-40
+Serum ALT < 2.5 x ULN	Eligibility	10
+x	LABO:0000148	16-17
+ER, PR and HER2 status required	Eligibility	11
+LVEF (MUGA/echo)WNL	Eligibility	12
+No baseline > 2 neuropathy	Eligibility	13
+neuropathy	DOID:870	16-26
+Hemoglobin > 9.0 gm/dl	Eligibility	14
+hemoglobin	CHEBI:35143	0-10
+HER2+, defined by IHC 3+ or FISH ratio > 2.0	Eligibility	15
+ratio	UO:0000190	33-38
+Outcome Measurement:	Results	0
+Number of Patients With Complete Pathologic Response Rate, Observed Following Treatment With q3week Carboplatin, Weekly Abraxane and Weekly Trastuzumab in Resectable and Unresectable LABC;	Results	1
+rate	BAO:0080019	53-57
+carboplatin	CHEBI:31355	100-111
+These numbers represent patients with a RCB score of zero (0). RCB stands for residual cancer burden.	Results	2
+cancer	DOID:162	87-93
+Time frame: 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: Cohort 1	Results	5
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 37	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  12	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort 2	Results	11
+Arm/Group Description: [Not Specified]	Results	12
+Overall Number of Participants Analyzed: 23	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  13	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 7/37 (18.92%)	Adverse Events	1
+gr 3port infection, 1/37 (2.70%)	Adverse Events	2
+flu 1/37 (2.70%)	Adverse Events	3
+Febrile Neutropenia 1/37 (2.70%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+gr 4 sepsis, intubated  [1]1/37 (2.70%)	Adverse Events	5
+sepsis	HP:0100806	5-11
+Diarrhea gr 2, Nausea gr 3, infection gr 3 1/37 (2.70%)	Adverse Events	6
+diarrhea	HP:0002014,DOID:13250	0-8
+nausea	HP:0002018	15-21
+infection normal ANC/viral grade 1 1/37 (2.70%)	Adverse Events	7
+Dehydration 3, Diarrhea 3, Vomit 3, HGB3, Nausea 3, K 3, Dyspnea 2 1/37 (2.70%)	Adverse Events	8
+dehydration	HP:0001944	0-11
+diarrhea	HP:0002014,DOID:13250	15-23
+nausea	HP:0002018	42-48
+dyspnea	HP:0002094	57-64
+gr 3cellulitis - breast 1/37 (2.70%)	Adverse Events	9
+breast	UBERON:0000310	17-23
+Adverse Events 2:	Adverse Events	10
+Total: 8/23 (34.78%)	Adverse Events	11
+gr 3port infection, 0/23 (0.00%)	Adverse Events	12
+flu 0/23 (0.00%)	Adverse Events	13
+Febrile Neutropenia 0/23 (0.00%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+gr 4 sepsis, intubated  [1]0/23 (0.00%)	Adverse Events	15
+sepsis	HP:0100806	5-11
+Diarrhea gr 2, Nausea gr 3, infection gr 3 0/23 (0.00%)	Adverse Events	16
+diarrhea	HP:0002014,DOID:13250	0-8
+nausea	HP:0002018	15-21
+infection normal ANC/viral grade 1 0/23 (0.00%)	Adverse Events	17
+Dehydration 3, Diarrhea 3, Vomit 3, HGB3, Nausea 3, K 3, Dyspnea 2 0/23 (0.00%)	Adverse Events	18
+dehydration	HP:0001944	0-11
+diarrhea	HP:0002014,DOID:13250	15-23
+nausea	HP:0002018	42-48
+dyspnea	HP:0002094	57-64
+gr 3cellulitis - breast 0/23 (0.00%)	Adverse Events	19
+breast	UBERON:0000310	17-23

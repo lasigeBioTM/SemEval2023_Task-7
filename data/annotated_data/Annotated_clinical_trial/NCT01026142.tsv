@@ -1,0 +1,140 @@
+INTERVENTION 1:	Intervention	0
+A: Capecitabine + Trastuzumab	Intervention	1
+capecitabine	CHEBI:31348	3-15
+Capecitabine [Xeloda]: 1250 mg/m2 po twice daily for 14 days every 3 weeks. Trastuzumab [Herceptin]: 8 mg/kg iv loading, then 6 mg/kg iv every 3 weeks.	Intervention	2
+capecitabine	CHEBI:31348	0-12
+INTERVENTION 2:	Intervention	3
+B: Capecitabine + Trastuzumab + Pertuzumab	Intervention	4
+capecitabine	CHEBI:31348	3-15
+Capecitabine [Xeloda]: 1000 mg/m2 po twice daily for 14 days every 3 weeks. Pertuzumab [Perjeta]: 840 mg iv loading, then 420 mg iv every 3 weeks. Trastuzumab [Herceptin]: 8 mg/kg iv loading, then 6 mg/kg iv every 3 weeks.	Intervention	5
+capecitabine	CHEBI:31348	0-12
+Inclusion Criteria:	Eligibility	0
+Adult female patients >/=18 years of age	Eligibility	1
+adult	EFO:0001272	0-5
+female	PATO:0000383	6-12
+age	PATO:0000011	37-40
+Metastatic HER2 positive breast cancer	Eligibility	2
+breast cancer	DOID:1612	25-38
+Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1	Eligibility	3
+group	CHEBI:24433	29-34
+Disease progression during or following trastuzumab-based therapy for 1st line metastatic breast cancer (trastuzumab must have been part of the last prior treatment regimen)	Eligibility	4
+disease	DOID:4,OGMS:0000031	0-7
+breast cancer	DOID:1612	90-103
+part of	BAO:0090002,BFO:0000050	132-139
+Prior treatment with taxane-containing regimen	Eligibility	5
+Left ventricular ejection fraction (LVEF) >/=50 percent	Eligibility	6
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+percent	UO:0000187	48-55
+For women of childbearing potential agreement to use highly effective non-hormonal form of contraception or two effective forms of non-hormonal contraception by patient and/or partner. Contraception must continue for duration of study treatment and for at least 6 months after last dose of study drug treatment	Eligibility	7
+patient	HADO:0000008,OAE:0001817	161-168
+duration	PATO:0001309	217-225
+drug	CHEBI:23888	296-300
+Exclusion Criteria:	Eligibility	8
+Prior treatment with pertuzumab or capecitabine	Eligibility	9
+capecitabine	CHEBI:31348	35-47
+Concurrent treatment with other experimental drug	Eligibility	10
+drug	CHEBI:23888	45-49
+Concurrent immunotherapy or anticancer hormonal therapy	Eligibility	11
+Serious concurrent disease (e.g. active infection, uncontrolled hypertension, cardiovascular disease)	Eligibility	12
+disease	DOID:4,OGMS:0000031	19-26
+disease	DOID:4,OGMS:0000031	93-100
+active	PATO:0002354	33-39
+hypertension	HP:0000822,DOID:10763	64-76
+Central nervous system (CNS) metastases, which are not well controlled	Eligibility	13
+central nervous system	UBERON:0001017	0-22
+History of exposure to anthracycline cumulative dose equivalent to 360mg/m2	Eligibility	14
+history	BFO:0000182	0-7
+anthracycline	CHEBI:48120	23-36
+History of congestive heart failure of any New York Heart Association criteria, or serious cardiac arrhythmia requiring treatment	Eligibility	15
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	11-35
+heart	UBERON:0000948	22-27
+heart	UBERON:0000948	52-57
+arrhythmia	HP:0011675	99-109
+History of myocardial infarction within 6 months prior to randomization	Eligibility	16
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+History of LVEF decline to below 50% during or after prior trastuzumab therapy or other cardiac toxicity during previous trastuzumab treatment that necessitated discontinuation of trastuzumab	Eligibility	17
+history	BFO:0000182	0-7
+History of another cancer which could affect compliance or result interpretation	Eligibility	18
+history	BFO:0000182	0-7
+cancer	DOID:162	19-25
+result	BAO:0000179	59-65
+Inadequate organ function	Eligibility	19
+organ	UBERON:0000062	11-16
+function	BAO:0003117,BFO:0000034	17-25
+Pregnant or breastfeeding women	Eligibility	20
+life expectancy < 12 weeks	Eligibility	21
+Outcome Measurement:	Results	0
+Progression Free Survival (Independent Assessment)	Results	1
+Progression Free Survival (PFS) was defined as the time from randomization to first documented disease progression (PD), as determined by an Independent Review Facility (IRF) using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0, or death from any cause, whichever occurred first. PD was defined as at least a 20% increase in the sum of the longest diameter (LD) of target lesions taking as reference the smallest sum LD recorded since the treatment started or the appearance of one or more new lesions; or the appearance of one or more new lesions and/or unequivocal progression of existing non-target lesions. IRF review of tumor assessment ceased after the primary PFS analysis. The primary endpoint was analyzed after approximately 337 IRF-assessed PFS events were observed.	Results	2
+time	PATO:0000165	51-55
+disease	DOID:4,OGMS:0000031	95-102
+death	OAE:0000632	251-256
+increase	BAO:0001251	332-340
+diameter	PATO:0001334	367-375
+target	BAO:0003064	384-390
+target	BAO:0003064	614-620
+Time frame: Tumor assessments every 9 weeks from randomization until Week 27, then every 12 weeks thereafter, until IRF-determined PD, initiation of alternative anticancer medication, or death (up to 5.5 years).	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	38-42
+week	UO:0000034	69-73
+week	UO:0000034	92-96
+death	OAE:0000632	187-192
+Results 1:	Results	4
+Arm/Group Title: A: Capecitabine + Trastuzumab	Results	5
+capecitabine	CHEBI:31348	20-32
+Arm/Group Description: Capecitabine [Xeloda]: 1250 mg/m2 po twice daily for 14 days every 3 weeks. Trastuzumab [Herceptin]: 8 mg/kg iv loading, then 6 mg/kg iv every 3 weeks.	Results	6
+capecitabine	CHEBI:31348	23-35
+Overall Number of Participants Analyzed: 224	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  9.0        (8 to 10)	Results	9
+Results 2:	Results	10
+Arm/Group Title: B: Capecitabine + Trastuzumab + Pertuzumab	Results	11
+capecitabine	CHEBI:31348	20-32
+Arm/Group Description: Capecitabine [Xeloda]: 1000 mg/m2 po twice daily for 14 days every 3 weeks. Pertuzumab [Perjeta]: 840 mg iv loading, then 420 mg iv every 3 weeks. Trastuzumab [Herceptin]: 8 mg/kg iv loading, then 6 mg/kg iv every 3 weeks.	Results	12
+capecitabine	CHEBI:31348	23-35
+Overall Number of Participants Analyzed: 228	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  11.1        (9 to 13)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 53/218 (24.31%)	Adverse Events	1
+Febrile Neutropenia 2/218 (0.92%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 2/218 (0.92%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 1/218 (0.46%)	Adverse Events	4
+Thrombocytopenia 1/218 (0.46%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia 0/218 (0.00%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+Left Ventricular Dysfunction 4/218 (1.83%)	Adverse Events	7
+left	HP:0012835	0-4
+Atrial Fibrillation 0/218 (0.00%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Angina Unstable 0/218 (0.00%)	Adverse Events	9
+Arteriospasm Coronary 1/218 (0.46%)	Adverse Events	10
+Cardiac Arrest 1/218 (0.46%)	Adverse Events	11
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Adverse Events 2:	Adverse Events	12
+Total: 58/228 (25.44%)	Adverse Events	13
+Febrile Neutropenia 1/228 (0.44%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/228 (0.44%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 0/228 (0.00%)	Adverse Events	16
+Thrombocytopenia 1/228 (0.44%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia 1/228 (0.44%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Left Ventricular Dysfunction 13/228 (5.70%)	Adverse Events	19
+left	HP:0012835	0-4
+Atrial Fibrillation 2/228 (0.88%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Angina Unstable 1/228 (0.44%)	Adverse Events	21
+Arteriospasm Coronary 0/228 (0.00%)	Adverse Events	22
+Cardiac Arrest 0/228 (0.00%)	Adverse Events	23
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14

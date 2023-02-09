@@ -1,0 +1,50 @@
+INTERVENTION 1:	Intervention	0
+A Mid-luteal Surgery	Intervention	1
+surgery	OAE:0000067	13-20
+[Not Specified]	Intervention	2
+INTERVENTION 2:	Intervention	3
+B Mid-follicular Surgery	Intervention	4
+surgery	OAE:0000067	17-24
+[Not Specified]	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Estrogen receptor or progesterone receptor positive breast cancer	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	34-42
+progesterone	CHEBI:17026	21-33
+breast cancer	DOID:1612	52-65
+Premenopausal with regular menstrual cycles	Eligibility	2
+Exclusion Criteria:	Eligibility	3
+Current oral contraceptives	Eligibility	4
+Outcome Measurement:	Results	0
+Overall Survival	Results	1
+Assess whether patients who undergo surgical oophorectomy in the history-estimated mid-luteal phase of their menstrual cycles survive longer than patients who undergo this surgery in the history-estimated mid-follicular phase of their menstrual cycles.	Results	2
+surgery	OAE:0000067	172-179
+Time frame: Up to 9 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: A Mid-luteal Surgery	Results	5
+surgery	OAE:0000067	30-37
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 115	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: years  2.14        (1.53 to 2.67)	Results	9
+Results 2:	Results	10
+Arm/Group Title: B Mid-follicular Surgery	Results	11
+surgery	OAE:0000067	34-41
+Arm/Group Description: [Not Specified]	Results	12
+Overall Number of Participants Analyzed: 119	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: years  2.00        (1.61 to 2.31)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/115 (0.00%)	Adverse Events	1
+Deep vein thrombosis * [1]0/115 (0.00%)	Adverse Events	2
+vein	UBERON:0001638	5-9
+thrombosis	DOID:0060903	10-20
+Adverse Events 2:	Adverse Events	3
+Total: 1/119 (0.84%)	Adverse Events	4
+Deep vein thrombosis * [1]1/119 (0.84%)	Adverse Events	5
+vein	UBERON:0001638	5-9
+thrombosis	DOID:0060903	10-20

@@ -1,0 +1,100 @@
+INTERVENTION 1:	Intervention	0
+Her2/Neu-amplified Tumor, 70 mg Twice Daily (BID) Dasatinib	Intervention	1
+Participants with a Human epidermal growth factor (Her2/neu)-amplified tumor type (defined as 3+ by immunohistochemistry [IHC] or positive by fluorescent or chromogenic in situ hybridization [FISH or CISH] regardless of estrogen receptor [ER]/progesterone receptor [PgR] status) received orally 70 mg of dasatinib twice daily (BID) for a total daily dose (TDD) of 140 mg.	Intervention	2
+growth factor	BAO:0002024	36-49
+immunohistochemistry	BAO:0000415	100-120
+estrogen	CHEBI:50114,BAO:0000760	220-228
+receptor	BAO:0000281	229-237
+receptor	BAO:0000281	256-264
+INTERVENTION 2:	Intervention	3
+Her2/Neu-amplified Tumor, 100 mg BID	Intervention	4
+Participants with a Human epidermal growth factor (Her2/neu)-amplified tumor type (defined as 3+ by immunohistochemistry [IHC] or positive by fluorescent or chromogenic in situ hybridization [FISH or CISH] regardless of estrogen receptor [ER]/progesterone receptor [PgR] status) received orally 100 mg of dasatinib twice daily (BID) for a total daily dose (TDD) of 200 mg.	Intervention	5
+growth factor	BAO:0002024	36-49
+immunohistochemistry	BAO:0000415	100-120
+estrogen	CHEBI:50114,BAO:0000760	220-228
+receptor	BAO:0000281	229-237
+receptor	BAO:0000281	256-264
+Inclusion Criteria:	Eligibility	0
+females, 18 or older	Eligibility	1
+recurrent, locally advanced, or metastatic breast cancer with expression of ER/PR receptor and/or overexpression of Her2/neu	Eligibility	2
+recurrent	HP:0031796	0-9
+breast cancer	DOID:1612	43-56
+receptor	BAO:0000281	82-90
+paraffin-embedded tissue block must be available	Eligibility	3
+tissue	UBERON:0000479	18-24
+measurable disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+prior chemotherapy with an anthracycline and/or a taxane (neoadjuvant, adjuvant, or metastatic setting)	Eligibility	5
+anthracycline	CHEBI:48120	27-40
+taxane	CHEBI:36064	50-56
+adjuvant	CHEBI:60809	61-69
+adjuvant	CHEBI:60809	71-79
+0, 1 or 2 chemotherapies in the metastatic setting	Eligibility	6
+adequate organ function	Eligibility	7
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	8
+Metastatic disease confined to bone only	Eligibility	9
+disease	DOID:4,OGMS:0000031	11-18
+Symptomatic central nervous system (CNS) metastasis	Eligibility	10
+central nervous system	UBERON:0001017	12-34
+Concurrent medical condition which may increase the risk of toxicity	Eligibility	11
+condition	PDRO:0000129	19-28
+increase	BAO:0001251	39-47
+Unable to take oral medication	Eligibility	12
+Outcome Measurement:	Results	0
+Number of Participants With Objective Response	Results	1
+Tumor response was assessed according RECIST criteria: PR=at least 30% reduction in the sum of the LD of all target lesions in reference to the baseline sum LD, CR=Disappearance of all non-target lesions. Objective tumor response was defined as a PR or CR.	Results	2
+target	BAO:0003064	109-115
+target	BAO:0003064	189-195
+Time frame: From day of first treatment through Week 25 or at time of discontinuation from study treatment.	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	62-66
+day	UO:0000033	17-20
+week	UO:0000034	48-52
+Results 1:	Results	4
+Arm/Group Title: Her2/Neu-amplified Tumor, 70 mg Twice Daily (BID) Dasatinib	Results	5
+Arm/Group Description: Participants with a Human epidermal growth factor (Her2/neu)-amplified tumor type (defined as 3+ by immunohistochemistry [IHC] or positive by fluorescent or chromogenic in situ hybridization [FISH or CISH] regardless of estrogen receptor [ER]/progesterone receptor [PgR] status) received orally 70 mg of dasatinib twice daily (BID) for a total daily dose (TDD) of 140 mg.	Results	6
+growth factor	BAO:0002024	59-72
+immunohistochemistry	BAO:0000415	123-143
+estrogen	CHEBI:50114,BAO:0000760	243-251
+receptor	BAO:0000281	252-260
+receptor	BAO:0000281	279-287
+Overall Number of Participants Analyzed: 15	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Her2/Neu-amplified Tumor, 100 mg BID	Results	11
+Arm/Group Description: Participants with a Human epidermal growth factor (Her2/neu)-amplified tumor type (defined as 3+ by immunohistochemistry [IHC] or positive by fluorescent or chromogenic in situ hybridization [FISH or CISH] regardless of estrogen receptor [ER]/progesterone receptor [PgR] status) received orally 100 mg of dasatinib twice daily (BID) for a total daily dose (TDD) of 200 mg.	Results	12
+growth factor	BAO:0002024	59-72
+immunohistochemistry	BAO:0000415	123-143
+estrogen	CHEBI:50114,BAO:0000760	243-251
+receptor	BAO:0000281	252-260
+receptor	BAO:0000281	279-287
+Overall Number of Participants Analyzed: 9	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  1	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 20/70 (28.57%)	Adverse Events	1
+NAUSEA 2/70 (2.86%)	Adverse Events	2
+nausea	HP:0002018	0-6
+VOMITING 1/70 (1.43%)	Adverse Events	3
+vomiting	HP:0002013	0-8
+DIARRHOEA 2/70 (2.86%)	Adverse Events	4
+ABDOMINAL PAIN 1/70 (1.43%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+ABDOMINAL PAIN LOWER 1/70 (1.43%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+FATIGUE 2/70 (2.86%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+PYREXIA 1/70 (1.43%)	Adverse Events	8
+OEDEMA PERIPHERAL 1/70 (1.43%)	Adverse Events	9
+peripheral	HP:0030646	7-17
+GENERAL PHYSICAL HEALTH DETERIORATION 3/70 (4.29%)	Adverse Events	10
+PNEUMONIA 1/70 (1.43%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	0-9
+SINUSITIS 1/70 (1.43%)	Adverse Events	12
+sinusitis	HP:0000246,DOID:0050127	0-9
+LOBAR PNEUMONIA 1/70 (1.43%)	Adverse Events	13
+pneumonia	HP:0002090,DOID:552	6-15
+Adverse Events 2:	Adverse Events	14

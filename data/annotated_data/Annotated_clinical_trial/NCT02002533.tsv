@@ -1,0 +1,70 @@
+INTERVENTION 1:	Intervention	0
+All Participants	Intervention	1
+All people that were enrolled in the study regardless of intervention assigned.	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Newly diagnosed breast cancer (stage I, II, III)	Eligibility	1
+breast cancer	DOID:1612	16-29
+Be receiving chemotherapy in either weekly, 2-week or 3-week cycles and have at least 6 weeks of chemotherapy treatment remaining; patients are eligible any time before chemotherapy cycle 3 if on a 2- or 3-week cycle, or cycle 4 if on a 1-week cycle; (Note: use of biologics [e.g., Herceptin (trastuzumab)] is permitted)	Eligibility	2
+time	PATO:0000165	157-161
+For patients on a weekly regimen, there should be at least 3 dosages of chemotherapy remaining	Eligibility	3
+For patients on either a 2 week or 3 week cycle, there should be at least 2 dosages of chemotherapy remaining	Eligibility	4
+week	UO:0000034	27-31
+week	UO:0000034	37-41
+Patients will not be dropped from the study if their chemotherapy is discontinued after they are enrolled	Eligibility	5
+Report sleep disturbance of 8 (sum total of all 7 items) or greater on the Insomnia Severity Index	Eligibility	6
+sleep disturbance	HP:0002360	7-24
+insomnia	HP:0100785	75-83
+severity	HP:0012824	84-92
+(Note: this measure will be repeated again at baseline assessment)	Eligibility	7
+Report sleep problems that began or got worse with the diagnosis of cancer or with chemotherapy; (did your sleep problems begin or get worse with the diagnosis of cancer or with chemotherapy?)	Eligibility	8
+sleep	GO:0030431	7-12
+sleep	GO:0030431	107-112
+cancer	DOID:162	68-74
+cancer	DOID:162	163-169
+Be able to speak and read English	Eligibility	9
+Patients can take sleep aids (e.g., hypnotics and sedatives) for insomnia if they use sleep aids as needed; patients taking sleep aids every night are excluded; use of melatonin every night is permitted and these patients are not excluded	Eligibility	10
+sleep	GO:0030431	18-23
+sleep	GO:0030431	86-91
+sleep	GO:0030431	124-129
+insomnia	HP:0100785	65-73
+excluded	HP:0040285	151-159
+excluded	HP:0040285	230-238
+melatonin	CHEBI:16796	168-177
+Be able and willing to wear an Actiwatch for the entire 24 hours of each day they are scheduled to wear it	Eligibility	11
+day	UO:0000033	73-76
+Exclusion Criteria:	Eligibility	12
+Have diagnosis of breast cancer stage IV	Eligibility	13
+breast cancer	DOID:1612	18-31
+Have sleep problems that began before diagnosis and have not changed since diagnosis	Eligibility	14
+sleep	GO:0030431	5-10
+Self-report or have a medical record of an unstable comorbid medical or psychiatric condition that would make it unsafe or impossible to adhere to the study protocol	Eligibility	15
+medical record	OMIABIS:0001026	22-36
+condition	PDRO:0000129	84-93
+Have a clinical diagnosis of sleep apnea or restless leg syndrome	Eligibility	16
+sleep apnea	HP:0010535,DOID:0050847	29-40
+leg	UBERON:0000978	53-56
+syndrome	DOID:225	57-65
+Be unable or unwilling to discontinue anxiolytic medication within 4 hours of intervention sessions	Eligibility	17
+Take medication for sleep (e.g., hypnotics and sedatives) every night; melatonin is permitted	Eligibility	18
+sleep	GO:0030431	20-25
+melatonin	CHEBI:16796	71-80
+Patients who are shift workers are excluded; shift worker is defined as someone who has irregular work and sleep hours (such as working a non-traditional schedule: e.g., 4pm-midnight or 10pm-6am; a rotating schedule e.g., alternating between day and night shifts, or starting work between 4am and 7am)	Eligibility	19
+excluded	HP:0040285	35-43
+sleep	GO:0030431	107-112
+day	UO:0000033	242-245
+Have an implanted device for heart failure (e.g., pacemaker, defibrillator, left ventricular assist device, etc.)	Eligibility	20
+heart	UBERON:0000948	29-34
+left	HP:0012835	76-80
+Outcome Measurement:	Results	0
+Percentage of Eligible Patients Consented	Results	1
+Will be evaluated by calculating the specific percentage (with 95% confidence interval) of the total number of participants approached that then consented and enrolled in the study.	Results	2
+Time frame: baseline	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: All Participants	Results	5
+Arm/Group Description: All people that were enrolled in the study regardless of intervention assigned.	Results	6
+Overall Number of Participants Analyzed: 92	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  77.17        (67.61 to 84.55)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/34 (0.00%)	Adverse Events	1

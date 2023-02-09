@@ -1,0 +1,62 @@
+INTERVENTION 1:	Intervention	0
+Ketorolac 30 mg	Intervention	1
+ketorolac	CHEBI:6129	0-9
+Active drug to be compared with placebo	Intervention	2
+active	PATO:0002354	0-6
+drug	CHEBI:23888	7-11
+Ketorolac 30 mg IV	Intervention	3
+ketorolac	CHEBI:6129	0-9
+INTERVENTION 2:	Intervention	4
+NaCl 0.9% 3mL	Intervention	5
+Ketorolac 30 mg IV	Intervention	6
+ketorolac	CHEBI:6129	0-9
+Inclusion Criteria:	Eligibility	0
+Written informed Consent age : 18-85 years weight: 50-100 kg Neutrophils / Lymphocytes ratio >4 and/or "triple negative" histological status and/or Positive lymph nodes	Eligibility	1
+age	PATO:0000011	25-28
+ratio	UO:0000190	87-92
+lymph	UBERON:0002391	75-80
+lymph	UBERON:0002391	157-162
+Exclusion Criteria:	Eligibility	2
+Previous cancer (behalf of basocellular skin cancer and in situ uterine cervix cancer) Non compliance or refusal of the protocol Positive Pregnancy test Childbearing or breastfeeding mothers Contra-indication for NSAIDs NSAIDs intake in the 5 days before randomisation NSAIDs use planned in the 30 days after randomisation Non curative surgery (T4 or M1 tumor classification )	Eligibility	3
+cancer	DOID:162	9-15
+cancer	DOID:162	45-51
+cancer	DOID:162	79-85
+skin cancer	DOID:4159	40-51
+uterine cervix	UBERON:0000002	64-78
+cervix cancer	HP:0030079,DOID:4362	72-85
+surgery	OAE:0000067	336-343
+m1	CHEBI:34826	351-353
+Outcome Measurement:	Results	0
+Recurrence-free Survival	Results	1
+2 years for the primary analysis + 3 additional years for secondary analysis (From date of randomization until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 5 years)	Results	2
+death	OAE:0000632	163-168
+Time frame: 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ketorolac 30 mg	Results	5
+ketorolac	CHEBI:6129	17-26
+Arm/Group Description: Active drug to be compared with placebo	Results	6
+active	PATO:0002354	23-29
+drug	CHEBI:23888	30-34
+Ketorolac 30 mg IV	Results	7
+ketorolac	CHEBI:6129	0-9
+Overall Number of Participants Analyzed: 96	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  80  83.3%	Results	10
+Results 2:	Results	11
+Arm/Group Title: NaCl 0.9% 3mL	Results	12
+Arm/Group Description: Ketorolac 30 mg IV	Results	13
+ketorolac	CHEBI:6129	23-32
+Overall Number of Participants Analyzed: 107	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  96  89.7%	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 8/96 (8.33%)	Adverse Events	1
+Hematoma requiring surgery  1/96 (1.04%)	Adverse Events	2
+surgery	OAE:0000067	19-26
+Any type (not bleeding related)  7/96 (7.29%)	Adverse Events	3
+Adverse Events 2:	Adverse Events	4
+Total: 7/107 (6.54%)	Adverse Events	5
+Hematoma requiring surgery  0/107 (0.00%)	Adverse Events	6
+surgery	OAE:0000067	19-26
+Any type (not bleeding related)  7/107 (6.54%)	Adverse Events	7

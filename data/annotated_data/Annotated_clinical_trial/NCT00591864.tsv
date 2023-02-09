@@ -1,0 +1,47 @@
+INTERVENTION 1:	Intervention	0
+Study Participants	Intervention	1
+There are no arms or subgroups in this study.	Intervention	2
+Inclusion Criteria:	Eligibility	0
+This study will include a population of women aged 25 or older who are scheduled for a breast MRI examination at MAYO CLINIC ROCHESTER.	Eligibility	1
+breast	UBERON:0000310	87-93
+Patients must not be lactating or pregnant.	Eligibility	2
+All women of child-bearing potential must have had a negative urine pregnancy test result within 2 days prior to the MBI study.	Eligibility	3
+urine	UBERON:0001088	62-67
+result	BAO:0000179	83-89
+women who are scheduled for a breast MRI examination for a clinical concern, problem solving or for further evaluation of invasive breast cancer (e.g. pre-operative staging of known breast cancer).	Eligibility	4
+breast	UBERON:0000310	30-36
+breast	UBERON:0000310	131-137
+breast	UBERON:0000310	182-188
+breast cancer	DOID:1612	131-144
+breast cancer	DOID:1612	182-195
+Exclusion Criteria:	Eligibility	5
+They are unable to understand and sign the consent form	Eligibility	6
+They are pregnant or lactating	Eligibility	7
+They are physically unable to sit upright and still for 40 minutes.	Eligibility	8
+The breast MRI is for screening purposes or to determine the status of breast augmentation.	Eligibility	9
+breast	UBERON:0000310	4-10
+breast	UBERON:0000310	71-77
+They have undergone breast surgery within the previous year	Eligibility	10
+breast	UBERON:0000310	20-26
+surgery	OAE:0000067	27-34
+year	UO:0000036	55-59
+Outcome Measurement:	Results	0
+Sensitivity on the Per Patient Level	Results	1
+patient	HADO:0000008,OAE:0001817	23-30
+Sensitivity is the number of women with breast cancer detected per number of women with breast cancer diagnosed by surgery or biopsy.	Results	2
+breast cancer	DOID:1612	40-53
+breast cancer	DOID:1612	88-101
+surgery	OAE:0000067	115-122
+Time frame: within 1 week of surgery or biopsy	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	21-25
+surgery	OAE:0000067	29-36
+Results 1:	Results	4
+Arm/Group Title: Study Participants	Results	5
+Arm/Group Description: There are no arms or subgroups in this study.	Results	6
+Overall Number of Participants Analyzed: 28	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Sensitivity by MBI: 25	Results	9
+Sensitivity by MRI: 27	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/89 (0.00%)	Adverse Events	1

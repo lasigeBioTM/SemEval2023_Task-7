@@ -1,0 +1,215 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Neoadjuvant Chemotherapy Before Surgery)	Intervention	1
+surgery	OAE:0000067	43-50
+Patients receive neoadjuvant chemotherapy comprising sunitinib malate PO once daily and paclitaxel IV over 1 hour once weekly for 8-12 weeks in the absence of disease progression or unacceptable toxicity. Beginning within 3 weeks of completion of sunitinib malate and paclitaxel, patients receive doxorubicin IV once weekly for 15 weeks, cyclophosphamide PO once daily for 15 weeks, and filgrastim SC on days 2-7 for 16 weeks in the absence of disease progression or unacceptable toxicity. Beginning 3-6 weeks after completion of chemotherapy, patients undergo surgery.	Intervention	2
+sunitinib	CHEBI:38940	53-62
+sunitinib	CHEBI:38940	247-256
+malate	CHEBI:15595	63-69
+malate	CHEBI:15595	257-263
+paclitaxel	CHEBI:45863	88-98
+paclitaxel	CHEBI:45863	268-278
+hour	UO:0000032	109-113
+disease	DOID:4,OGMS:0000031	159-166
+disease	DOID:4,OGMS:0000031	444-451
+doxorubicin	CHEBI:28748,BAO:0000639	297-308
+cyclophosphamide	CHEBI:4026	338-354
+surgery	OAE:0000067	561-568
+sunitinib malate: Given PO	Intervention	3
+sunitinib	CHEBI:38940	0-9
+malate	CHEBI:15595	10-16
+paclitaxel: Given IV	Intervention	4
+paclitaxel	CHEBI:45863	0-10
+doxorubicin hydrochloride: Given IV	Intervention	5
+doxorubicin hydrochloride	CHEBI:31522	0-25
+cyclophosphamide: Given PO	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+filgrastim: Given SC	Intervention	7
+therapeutic conventional surgery: Undergo surgery	Intervention	8
+surgery	OAE:0000067	25-32
+surgery	OAE:0000067	42-49
+laboratory biomarker analysis: Correlative studies	Intervention	9
+biomarker	CHEBI:59163	11-20
+flow cytometry: Correlative studies	Intervention	10
+flow cytometry	BAO:0000005	0-14
+Inclusion Criteria:	Eligibility	0
+Be informed of the investigational nature of the study and all pertinent aspects of the trial and must sign and give written consent in accordance with institutional and federal guidelines	Eligibility	1
+Have a histologically-confirmed diagnosis of breast cancer that is locally advanced or inflammatory; inflammatory breast cancer is defined as erythema and peau d'orange involving half or more of the breast with a histologic diagnosis of breast cancer; the finding of focal dermal lymphatic involvement on histology does not constitute inflammatory breast cancer	Eligibility	2
+breast cancer	DOID:1612	45-58
+breast cancer	DOID:1612	114-127
+breast cancer	DOID:1612	237-250
+breast cancer	DOID:1612	348-361
+erythema	HP:0010783	142-150
+peau d'orange	HP:0025533	155-168
+breast	UBERON:0000310	45-51
+breast	UBERON:0000310	114-120
+breast	UBERON:0000310	199-205
+breast	UBERON:0000310	237-243
+breast	UBERON:0000310	348-354
+focal	HP:0030650	267-272
+histology	NCIT:C16681	305-314
+Have selected stage IIB (T3, N0, M0) or IIIA (T3, N1-2, M0 or T0-2, N2, M0) disease judged primarily unresectable by an experienced breast surgeon or otherwise deemed appropriate candidates for neoadjuvant treatment or stage IIIB (T4, any N, M0) or stage IIIC (any T, N3, M0) disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	76-83
+disease	DOID:4,OGMS:0000031	276-283
+breast	UBERON:0000310	132-138
+t	CHEBI:36371,BAO:0001260	10-11
+t	CHEBI:36371,BAO:0001260	15-16
+t	CHEBI:36371,BAO:0001260	25-26
+t	CHEBI:36371,BAO:0001260	46-47
+t	CHEBI:36371,BAO:0001260	62-63
+t	CHEBI:36371,BAO:0001260	108-109
+t	CHEBI:36371,BAO:0001260	137-138
+t	CHEBI:36371,BAO:0001260	151-152
+t	CHEBI:36371,BAO:0001260	176-177
+t	CHEBI:36371,BAO:0001260	186-187
+t	CHEBI:36371,BAO:0001260	204-205
+t	CHEBI:36371,BAO:0001260	206-207
+t	CHEBI:36371,BAO:0001260	210-211
+t	CHEBI:36371,BAO:0001260	214-215
+t	CHEBI:36371,BAO:0001260	220-221
+t	CHEBI:36371,BAO:0001260	231-232
+t	CHEBI:36371,BAO:0001260	250-251
+t	CHEBI:36371,BAO:0001260	265-266
+Patients must have a performance status of 0-2 by Zubrod criteria	Eligibility	4
+Absolute neutrophil count (ANC) >= 1,500 cells/mm^3	Eligibility	5
+Platelet count >= 100,000 cells/mm^3	Eligibility	6
+platelet count	CMO:0000029	0-14
+Serum creatinine =< 1.5 x institutional upper limit of normal (IULN)	Eligibility	7
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	24-25
+Bilirubin =< 2.0	Eligibility	8
+Serum glutamic oxaloacetic transaminase (SGOT)/serum glutamic pyruvic transaminase (SGPT)/alkaline phosphatase =< 2.0 x IULN	Eligibility	9
+phosphatase	GO:0016791,BAO:0000295	99-110
+x	LABO:0000148	16-17
+x	LABO:0000148	118-119
+Have a multi gated acquisition scan (MUGA) or echocardiogram scan performed within 3 months prior to enrollment and have a left ventricular ejection fraction (LVEF) % greater than the institutional lower limit of normal	Eligibility	10
+left	HP:0012835	123-127
+ejection fraction	CMO:0000180	140-157
+Be willing and able to comply with scheduled visits, treatment plan, laboratory tests and other trial procedures	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+Have evidence of distant metastases	Eligibility	13
+Have tumors that overexpress human epidermal growth factor receptor 2 (HER2)/neu as evidenced by 3+ staining by immunohistochemistry or gene amplification by fluorescent in situ hybridization (FISH)	Eligibility	14
+growth factor	BAO:0002024	45-58
+receptor	BAO:0000281	59-67
+immunohistochemistry	BAO:0000415	112-132
+gene	BAO:0000582	136-140
+Have received any prior chemotherapy or hormonal therapy for breast cancer	Eligibility	15
+breast cancer	DOID:1612	61-74
+Have received prior radiation therapy or prior definitive surgery for breast cancer	Eligibility	16
+surgery	OAE:0000067	58-65
+breast cancer	DOID:1612	70-83
+Have a clinical diagnosis of congestive heart failure or angina pectoris or any of the following within the 6 months prior to study drug administration:, myocardial infarction, coronary/peripheral artery bypass graft, cerebrovascular accident or transient ischemic attack, or pulmonary embolism	Eligibility	17
+congestive heart failure	HP:0001635,DOID:6000	29-53
+angina pectoris	HP:0001681	57-72
+drug administration	OAE:0000011	132-151
+myocardial infarction	HP:0001658,DOID:5844	154-175
+artery	UBERON:0001637	197-203
+transient ischemic attack	HP:0002326,DOID:224	246-271
+pulmonary embolism	HP:0002204,DOID:9477	276-294
+Have ongoing cardiac dysrhythmias of National Cancer Institute (NCI) Common Toxicity Criteria for Adverse Events (CTCAE) version 3.0 grade >= 2	Eligibility	18
+cancer	DOID:162	46-52
+Have uncontrolled hypertension (>150/100 mm Hg despite optimal medical therapy)	Eligibility	19
+hypertension	HP:0000822,DOID:10763	18-30
+Have pre-existing thyroid abnormality with thyroid function that cannot be maintained in the normal range with medication	Eligibility	20
+function	BAO:0003117,BFO:0000034	51-59
+range	LABO:0000114	100-105
+Have a known, active infection	Eligibility	21
+active	PATO:0002354	14-20
+Have any prior malignancy except for adequately treated basal cell or squamous cell skin cancer, any in situ cancer, adequately treated stage I or II cancer from which the patient is currently in complete remission or any other cancer from which the patient has been disease-free for 5 years	Eligibility	22
+skin cancer	DOID:4159	84-95
+cancer	DOID:162	89-95
+cancer	DOID:162	109-115
+cancer	DOID:162	150-156
+cancer	DOID:162	228-234
+patient	HADO:0000008,OAE:0001817	172-179
+patient	HADO:0000008,OAE:0001817	250-257
+Human immunodeficiency virus (HIV) positive	Eligibility	23
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+Are receiving or planning to receive any concurrent anticancer therapy while receiving protocol treatment	Eligibility	24
+Are receiving or planning to receive concurrent treatment on another clinical trial (supportive care trials or non-treatment trials, e.g. quality of life (QOL) are allowed; participation in the companion imaging trial, dynamic contrast enhanced-magnetic resonance imaging (DCE-MRI) and fludeoxyglucose F 18 positron emission tomography (FDG PET) with Kinetic Analysis to Monitor Breast Cancer Response to Neoadjuvant Sunitinib and Metronomic Chemotherapy is also allowed)	Eligibility	25
+quality	BAO:0002928,BFO:0000019	138-145
+f	UO:0000195	147-148
+f	UO:0000195	151-152
+f	UO:0000195	286-287
+f	UO:0000195	302-303
+f	UO:0000195	337-338
+positron	CHEBI:30225	307-315
+tomography	BAO:0002525	325-335
+breast cancer	DOID:1612	379-392
+sunitinib	CHEBI:38940	417-426
+Be pregnant or breast feeding; female subjects must be surgically sterile or be postmenopausal, or must agree to use effective contraception during the period of therapy; all female subjects with reproductive potential must have a negative pregnancy test (serum or urine) prior to enrollment; male subjects must be surgically sterile or must agree to use effective contraception during the period of therapy; the definition of effective contraception will be based on the judgment of the principal investigator or a designated associate	Eligibility	26
+breast	UBERON:0000310	15-21
+female	PATO:0000383	31-37
+female	PATO:0000383	175-181
+urine	UBERON:0001088	265-270
+male	CHEBI:30780,PATO:0000384	33-37
+male	CHEBI:30780,PATO:0000384	177-181
+male	CHEBI:30780,PATO:0000384	293-297
+Have other severe acute or chronic medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or study drug administration, or may interfere with the interpretation of study results, and in the judgment of the investigator would make the subject inappropriate for entry into this study	Eligibility	27
+severe	HP:0012828	11-17
+acute	HP:0011009,PATO:0000389	18-23
+chronic	HP:0011010	27-34
+condition	PDRO:0000129	58-67
+increase	BAO:0001251	103-111
+drug administration	OAE:0000011	166-185
+Outcome Measurement:	Results	0
+Microscopic Pathologic CR (pCR) Rate	Results	1
+rate	BAO:0080019	32-36
+Defined as no evidence of microscopic invasive tumor present at primary tumor site in the surgical specimen and calculated with exact 90% binomial confidence interval.	Results	2
+present	PATO:0000467	53-60
+site	BFO:0000029	78-82
+Time frame: At the time of surgery	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	19-23
+surgery	OAE:0000067	27-34
+Results 1:	Results	4
+Arm/Group Title: Treatment (Neoadjuvant Chemotherapy Before Surgery)	Results	5
+surgery	OAE:0000067	60-67
+Arm/Group Description: Patients receive neoadjuvant chemotherapy comprising sunitinib malate PO once daily and paclitaxel IV over 1 hour once weekly for 8-12 weeks in the absence of disease progression or unacceptable toxicity. Beginning within 3 weeks of completion of sunitinib malate and paclitaxel, patients receive doxorubicin IV once weekly for 15 weeks, cyclophosphamide PO once daily for 15 weeks, and filgrastim SC on days 2-7 for 16 weeks in the absence of disease progression or unacceptable toxicity. Beginning 3-6 weeks after completion of chemotherapy, patients undergo surgery.	Results	6
+sunitinib	CHEBI:38940	76-85
+sunitinib	CHEBI:38940	270-279
+malate	CHEBI:15595	86-92
+malate	CHEBI:15595	280-286
+paclitaxel	CHEBI:45863	111-121
+paclitaxel	CHEBI:45863	291-301
+hour	UO:0000032	132-136
+disease	DOID:4,OGMS:0000031	182-189
+disease	DOID:4,OGMS:0000031	467-474
+doxorubicin	CHEBI:28748,BAO:0000639	320-331
+cyclophosphamide	CHEBI:4026	361-377
+surgery	OAE:0000067	584-591
+sunitinib malate: Given PO	Results	7
+sunitinib	CHEBI:38940	0-9
+malate	CHEBI:15595	10-16
+paclitaxel: Given IV	Results	8
+paclitaxel	CHEBI:45863	0-10
+doxorubicin hydrochloride: Given IV	Results	9
+doxorubicin hydrochloride	CHEBI:31522	0-25
+cyclophosphamide: Given PO	Results	10
+cyclophosphamide	CHEBI:4026	0-16
+filgrastim: Given SC	Results	11
+therapeutic conventional surgery: Undergo surgery	Results	12
+surgery	OAE:0000067	25-32
+surgery	OAE:0000067	42-49
+laboratory biomarker analysis: Correlative studies	Results	13
+biomarker	CHEBI:59163	11-20
+flow cytometry: Correlative studies	Results	14
+flow cytometry	BAO:0000005	0-14
+Overall Number of Participants Analyzed: 63	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percent of evaluable participants  27        (18 to 39)	Results	17
+percent	UO:0000187	17-24
+Adverse Events 1:	Adverse Events	0
+Total: 47/68 (69.12%)	Adverse Events	1
+Neutropenia (ANC)47/68 (69.12%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Leucopenia23/68 (33.82%)	Adverse Events	3
+Anemia15/68 (22.06%)	Adverse Events	4
+Diarrhea3/68 (4.41%)	Adverse Events	5
+Nausea1/68 (1.47%)	Adverse Events	6
+Fatigue3/68 (4.41%)	Adverse Events	7
+Pain2/68 (2.94%)	Adverse Events	8
+ALT elevation4/68 (5.88%)	Adverse Events	9
+Sensory Neuropathy3/68 (4.41%)	Adverse Events	10
+Mucositis7/68 (10.29%)	Adverse Events	11
+Rash1/68 (1.47%)	Adverse Events	12

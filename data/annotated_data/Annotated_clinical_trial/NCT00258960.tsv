@@ -1,0 +1,84 @@
+INTERVENTION 1:	Intervention	0
+Caelyx,Cyclophosphamide,Trastuzumab	Intervention	1
+cyclophosphamide	CHEBI:4026	7-23
+Caelyx (Liposomal Doxorubicin) 50 mg/m2 every 4 weeks for 6 cycles, Cyclophosphamide 600 mg/m2 every 4 weeks for 6 cycles, Trastuzumab weekly for 24 weeks, at dose of 2mg/kg (day 1 loading dose of 4mg/kg)	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	18-29
+cyclophosphamide	CHEBI:4026	68-84
+day	UO:0000033	175-178
+Liposomal Doxorubicin	Intervention	3
+doxorubicin	CHEBI:28748,BAO:0000639	10-21
+Cyclophosphamide	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+Trastuzumab	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Patients must sign an informed consent before of specific procedures of clinical trial.	Eligibility	1
+Patients with histologically confirmed breast cancer and overexpression of Her2neu.	Eligibility	2
+breast cancer	DOID:1612	39-52
+Age> 18 years.	Eligibility	3
+age	PATO:0000011	0-3
+Eastern Cooperative Oncology Group (ECOG) equal or < 2.	Eligibility	4
+group	CHEBI:24433	29-34
+Patients have not been treated previously with chemotherapy for metastatic disease.	Eligibility	5
+disease	DOID:4,OGMS:0000031	75-82
+Patients must have at least one measurable lesion according to RECIST criteria.	Eligibility	6
+Patients should have an adequate organ function to tolerate chemotherapy.	Eligibility	7
+organ	UBERON:0000062	33-38
+function	BAO:0003117,BFO:0000034	39-47
+Exclusion Criteria:	Eligibility	8
+Patients with hypersensitivity reactions to any of the medications of the clinical trial.	Eligibility	9
+hypersensitivity	GO:0002524,DOID:1205	14-30
+Patients who are pregnant or lactating are not eligible.	Eligibility	10
+Hepatic disease.	Eligibility	11
+disease	DOID:4,OGMS:0000031	8-15
+Not controlled active infection	Eligibility	12
+active	PATO:0002354	15-21
+Symptomatic metastatic brain cancer	Eligibility	13
+brain cancer	DOID:1319	23-35
+Previous adjuvant treatment with anthracyclines with a total accumulated dose > 300 mg/m2 (Doxorubicin) or > 600 mg/m2 (Epirubicin)	Eligibility	14
+adjuvant	CHEBI:60809	9-17
+doxorubicin	CHEBI:28748,BAO:0000639	91-102
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR)	Results	1
+rate	BAO:0080019	19-23
+ORR is the sum of the Complete Responses (CR) and Partial Responses (PR) according to the RECIST criteria, experienced for each patient during treatment (recorded from the start of the treatment until disease progression). Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by CT scan (computed tomography) or MRI (magnetic resonance imaging): Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response Rate (ORR) = CR + PR.	Results	2
+patient	HADO:0000008,OAE:0001817	128-135
+disease	DOID:4,OGMS:0000031	201-208
+target	BAO:0003064	299-305
+target	BAO:0003064	442-448
+target	BAO:0003064	534-540
+ct	BAO:0002125	330-332
+tomography	BAO:0002525	348-358
+diameter	PATO:0001334	522-530
+rate	BAO:0080019	567-571
+Time frame: Up to cycle 6 (24 weeks)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Caelyx,Cyclophosphamide,Trastuzumab	Results	5
+cyclophosphamide	CHEBI:4026	24-40
+Arm/Group Description: Caelyx (Liposomal Doxorubicin) 50 mg/m2 every 4 weeks for 6 cycles, Cyclophosphamide 600 mg/m2 every 4 weeks for 6 cycles, Trastuzumab weekly for 24 weeks, at dose of 2mg/kg (day 1 loading dose of 4mg/kg)	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	41-52
+cyclophosphamide	CHEBI:4026	91-107
+day	UO:0000033	198-201
+Liposomal Doxorubicin	Results	7
+doxorubicin	CHEBI:28748,BAO:0000639	10-21
+Cyclophosphamide	Results	8
+cyclophosphamide	CHEBI:4026	0-16
+Trastuzumab	Results	9
+Overall Number of Participants Analyzed: 48	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  33  68.8%	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 16/48 (33.33%)	Adverse Events	1
+Febrile neutropenia grade 3 3/48 (6.25%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia grade 3 1/48 (2.08%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Holocraneal cephalea 1/48 (2.08%)	Adverse Events	4
+Hypersensibility reaction grade 3 2/48 (4.17%)	Adverse Events	5
+Palmoplantar erythrodysesthesia grade 3, stomatitis grade 3 1/48 (2.08%)	Adverse Events	6
+stomatitis	HP:0010280,DOID:9637	41-51
+Neutropenia grade 4, fever grade 1, oral mucositis grade 3 1/48 (2.08%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	0-11
+fever	HP:0001945	21-26
+mucositis	DOID:0080178	41-50
+Catheter - related infection grade 3 1/48 (2.08%)	Adverse Events	8

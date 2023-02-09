@@ -1,0 +1,101 @@
+INTERVENTION 1:	Intervention	0
+HER2 Therapies, Cardiac Medications	Intervention	1
+Cardiac intervention - beta-blockers and ACE-inhibitors titrated to the maximum tolerated doses	Intervention	2
+Oncology intervention - patients will receive one of the three following HER2 targeted therapies at the discretion of the treating oncologist:	Intervention	3
+Trastuzumab: loading dose of 8 mg/kg IV, followed by a maintenance dose of 6 mg/kg every 3 weeks, or a loading dose of 4 mg/kg followed by a maintenance dose of 2 mg/kg every week.	Intervention	4
+week	UO:0000034	91-95
+week	UO:0000034	175-179
+Pertuzumab: loading dose of 840 mg IV, followed by 420 mg IV every 3 weeks, administered concomitantly with trastuzumab.	Intervention	5
+Ado trastuzumab emtansine (TDM1): 3.6mg/kg IV every three weeks.	Intervention	6
+Trastuzumab: HER2 therapy	Intervention	7
+Pertuzumab: HER2 therapy	Intervention	8
+Ado Trastuzumab Emtansine: HER2 therapy	Intervention	9
+Inclusion Criteria:	Eligibility	0
+Female or male patient diagnosed with stage I-IV breast cancer	Eligibility	1
+female	PATO:0000383	0-6
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	10-14
+patient	HADO:0000008,OAE:0001817	15-22
+breast cancer	DOID:1612	49-62
+HER2 positive breast cancer, defined by immunohistochemical staining for HER2 protein of 3+ intensity and/or amplification of the HER2 gene on fluorescence in situ hybridization (FISH)  2.0 on breast specimen or biopsy of a metastatic site	Eligibility	2
+breast cancer	DOID:1612	14-27
+protein	CHEBI:36080,BAO:0000175	78-85
+intensity	PATO:0000049	92-101
+gene	BAO:0000582	135-139
+breast	UBERON:0000310	14-20
+breast	UBERON:0000310	193-199
+site	BFO:0000029	235-239
+LVEF < 50% and  40% documented in echocardiogram done within the last 30 days	Eligibility	3
+HER2 therapy naïve or currently receiving non-lapatinib HER2 targeted therapy	Eligibility	4
+Patient receiving or planning to receive trastuzumab, trastuzumab with pertuzumab or ado-trastuzumab emtansine, for at least 3 months, alone or in combination with other systemic treatment or radiation	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+Age  18 years	Eligibility	6
+age	PATO:0000011	0-3
+Patient is willing and able to comply with protocol required assessments and procedures	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	8
+Previous hospitalization due to documented heart failure in the last 12 months	Eligibility	9
+heart	UBERON:0000948	43-48
+Current signs or symptoms of heart failure or ischemia	Eligibility	10
+heart	UBERON:0000948	29-34
+ischemia	DOID:326	46-54
+History of arrhythmia requiring pharmacological or electrical treatment	Eligibility	11
+history	BFO:0000182	0-7
+arrhythmia	HP:0011675	11-21
+Concomitant use of anthracyclines or use of anthracyclines in the last 50 days	Eligibility	12
+Pregnant or lactating patients. Patients of childbearing potential must implement contraceptive measures during study treatment and for 7 months after last dose of treatment drug and must have negative urine or serum pregnancy test within 7 days prior to registration.	Eligibility	13
+drug	CHEBI:23888	174-178
+urine	UBERON:0001088	202-207
+History of significant neurologic or psychiatric disorders including psychotic disorders or dementia that would prohibit the understanding and giving of informed consent.	Eligibility	14
+history	BFO:0000182	0-7
+dementia	HP:0000726,DOID:1307	92-100
+Outcome Measurement:	Results	0
+Percentage of Patients Who Complete Planned Oncologic Therapy Without the Development of a Cardiac Event or Asymptomatic Worsening of Cardiac Function.	Results	1
+function	BAO:0003117,BFO:0000034	142-150
+Cardiac events are defined as any of the following:	Results	2
+Presence of symptoms attributable to heart failure as confirmed by a cardiologist	Results	3
+heart	UBERON:0000948	37-42
+Cardiac arrhythmia requiring pharmacological or electrical treatment	Results	4
+arrhythmia	HP:0011675	8-18
+Myocardial infarction	Results	5
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Sudden cardiac death or death due to myocardial infarct, arrhythmia or heart failure	Results	6
+sudden cardiac death	HP:0001645	0-20
+death	OAE:0000632	15-20
+death	OAE:0000632	24-29
+arrhythmia	HP:0011675	57-67
+heart	UBERON:0000948	71-76
+Asymptomatic worsening of cardiac function defined as:	Results	7
+function	BAO:0003117,BFO:0000034	34-42
+- Asymptomatic decline in LVEF > 10% points from baseline and/or EF < 35% corroborated by a confirmatory echocardiogram in 2-4 weeks	Results	8
+Planned oncologic therapy is defined as:	Results	9
+In the adjuvant setting: completion of 1 year total of HER2 targeted therapy. If a patient already received part of the planned HER2 targeted therapy prior to enrollment in this trial, planned oncologic therapy will be achieved when a total of 1 year is completed.	Results	10
+adjuvant	CHEBI:60809	7-15
+year	UO:0000036	41-45
+year	UO:0000036	246-250
+patient	HADO:0000008,OAE:0001817	83-90
+part of	BAO:0090002,BFO:0000050	108-115
+In the metastatic setting: cessation of treating regimen due to progressive disease or non-cardiac toxicity or non-cardiac death.	Results	11
+progressive	HP:0003676	64-75
+disease	DOID:4,OGMS:0000031	76-83
+death	OAE:0000632	123-128
+Time frame: Up to 18 months.	Results	12
+time	PATO:0000165	0-4
+Results 1:	Results	13
+Arm/Group Title: HER2 Therapies, Cardiac Medications	Results	14
+Arm/Group Description: Cardiac intervention - beta-blockers and ACE-inhibitors titrated to the maximum tolerated doses	Results	15
+Oncology intervention - patients will receive one of the three following HER2 targeted therapies at the discretion of the treating oncologist:	Results	16
+Trastuzumab: loading dose of 8 mg/kg IV, followed by a maintenance dose of 6 mg/kg every 3 weeks, or a loading dose of 4 mg/kg followed by a maintenance dose of 2 mg/kg every week.	Results	17
+week	UO:0000034	91-95
+week	UO:0000034	175-179
+Pertuzumab: loading dose of 840 mg IV, followed by 420 mg IV every 3 weeks, administered concomitantly with trastuzumab.	Results	18
+Ado trastuzumab emtansine (TDM1): 3.6mg/kg IV every three weeks.	Results	19
+Trastuzumab: HER2 therapy	Results	20
+Pertuzumab: HER2 therapy	Results	21
+Ado Trastuzumab Emtansine: HER2 therapy	Results	22
+Overall Number of Participants Analyzed: 30	Results	23
+Measure Type: Count of Participants	Results	24
+Unit of Measure: Participants  27  90.0%	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 3/30 (10.00%)	Adverse Events	1
+Cardiac event 3/30 (10.00%)	Adverse Events	2

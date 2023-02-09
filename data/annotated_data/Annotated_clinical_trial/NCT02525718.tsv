@@ -1,0 +1,122 @@
+INTERVENTION 1:	Intervention	0
+Placebo	Intervention	1
+Subjects will be randomly selected to receive saline (placebo), administered to the breast area to cover the intercostal nerves supplying the breast tissue during surgery.	Intervention	2
+breast	UBERON:0000310	84-90
+breast	UBERON:0000310	142-148
+area	PATO:0001323	91-95
+tissue	UBERON:0000479	149-155
+surgery	OAE:0000067	163-170
+Saline: If randomized to this arm, subjects will receive an intraoperative injection of saline. (2.5 mg/ml)	Intervention	3
+INTERVENTION 2:	Intervention	4
+0.25 % Bupivacaine w/ Epinephrine & 4mg Dexamethasone	Intervention	5
+bupivacaine	CHEBI:3215	7-18
+dexamethasone	CHEBI:41879	40-53
+Subjects will be randomly selected to receive selective block with a local anesthetic solution containing 0.25 % bupivacaine (2.5 mg/ml) with 1:100,000 epinephrine and 4 mg dexamethasone. The injection will be performed in certain locations of the breast area to cover the intercostal nerves supplying the breast tissue.	Intervention	6
+solution	CHEBI:75958	86-94
+bupivacaine	CHEBI:3215	113-124
+dexamethasone	CHEBI:41879	173-186
+breast	UBERON:0000310	248-254
+breast	UBERON:0000310	306-312
+area	PATO:0001323	255-259
+tissue	UBERON:0000479	313-319
+Subjects will be randomly selected to receive the local anesthetic solution containing 0.25 % bupivacaine (2.5 mg/ml) with 1:100,000 epinephrine and 4 mg dexamethasoneadministered to the breast area to cover the intercostal nerves supplying the breast tissue during surgery.	Intervention	7
+solution	CHEBI:75958	67-75
+bupivacaine	CHEBI:3215	94-105
+breast	UBERON:0000310	187-193
+breast	UBERON:0000310	245-251
+area	PATO:0001323	194-198
+tissue	UBERON:0000479	252-258
+surgery	OAE:0000067	266-273
+0.25 % bupivacaine (2.5 mg/ml) w/ 1:100,000 epinephrine & 4 mg dexamethasone: If randomized to this arm, subjects will receive a selective block with a local anesthetic solution containing 0.25 % bupivacaine.	Intervention	8
+bupivacaine	CHEBI:3215	7-18
+bupivacaine	CHEBI:3215	196-207
+dexamethasone	CHEBI:41879	63-76
+solution	CHEBI:75958	169-177
+(2.5 mg/ml) with 1:100,000 epinephrine and 4 mg dexamethasone intraoperatively.	Intervention	9
+dexamethasone	CHEBI:41879	48-61
+Inclusion Criteria:	Eligibility	0
+Patients who undergo mastectomy surgery with immediate reconstruction involving insertion of a tissue expander performed by the principal investigator beginning from the time of study approval until study enrollment is complete.	Eligibility	1
+surgery	OAE:0000067	32-39
+tissue	UBERON:0000479	95-101
+time	PATO:0000165	170-174
+Exclusion Criteria:	Eligibility	2
+Patients under the age of 18, or over the age of 79	Eligibility	3
+age	PATO:0000011	19-22
+age	PATO:0000011	42-45
+Allergy to local anesthetics or corticosteroids	Eligibility	4
+allergy	HP:0012393	0-7
+Patients with history of chronic pain or with chronic use of opioid analgesics	Eligibility	5
+history	BFO:0000182	14-21
+chronic pain	HP:0012532	25-37
+chronic	HP:0011010	25-32
+chronic	HP:0011010	46-53
+Patients with history of lung disease or prior anterior thoracotomy or median sternotomy	Eligibility	6
+history	BFO:0000182	14-21
+lung disease	DOID:850	25-37
+median	BAO:0002174	71-77
+Outcome Measurement:	Results	0
+Quality of Recovery Score	Results	1
+quality	BAO:0002928,BFO:0000019	0-7
+The primary outcome measure is a well-validated and widely used survey measuring the quality of recovery from anesthesia entitled the "Global 40 Item Quality of Recovery" survey. This is a 40 question survey administered to patients to allow them to rate their quality of recovery along a number of different dimensions, including emotional state, physical comfort, psychological support, physical independence, and pain. The score ranges from 40 to 200, with 40 representing a very poor overall quality of recovery and 200 representing the best possible recovery. The following reference explains the Global 40 Item Quality of Recovery survey in detail:	Results	2
+quality	BAO:0002928,BFO:0000019	85-92
+quality	BAO:0002928,BFO:0000019	150-157
+quality	BAO:0002928,BFO:0000019	261-268
+quality	BAO:0002928,BFO:0000019	496-503
+quality	BAO:0002928,BFO:0000019	617-624
+rate	BAO:0080019	250-254
+pain	HP:0012531	416-420
+Myles, P.S., et al., Validity and reliability of a postoperative quality of recovery score: the QoR-40. Br J Anaesth, 2000. 84(1): p. 11-5.	Results	3
+quality	BAO:0002928,BFO:0000019	65-72
+PMID: 10740540	Results	4
+Time frame: 24 hours post-operatively	Results	5
+time	PATO:0000165	0-4
+Results 1:	Results	6
+Arm/Group Title: Placebo	Results	7
+Arm/Group Description: Subjects will be randomly selected to receive saline (placebo), administered to the breast area to cover the intercostal nerves supplying the breast tissue during surgery.	Results	8
+breast	UBERON:0000310	107-113
+breast	UBERON:0000310	165-171
+area	PATO:0001323	114-118
+tissue	UBERON:0000479	172-178
+surgery	OAE:0000067	186-193
+Saline: If randomized to this arm, subjects will receive an intraoperative injection of saline. (2.5 mg/ml)	Results	9
+Overall Number of Participants Analyzed: 22	Results	10
+Median (Inter-Quartile Range)	Results	11
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: score on a scale  165        (143 to 179)	Results	12
+Results 2:	Results	13
+Arm/Group Title: 0.25 % Bupivacaine w/ Epinephrine & 4mg Dexamethasone	Results	14
+bupivacaine	CHEBI:3215	24-35
+dexamethasone	CHEBI:41879	57-70
+Arm/Group Description: Subjects will be randomly selected to receive selective block with a local anesthetic solution containing 0.25 % bupivacaine (2.5 mg/ml) with 1:100,000 epinephrine and 4 mg dexamethasone. The injection will be performed in certain locations of the breast area to cover the intercostal nerves supplying the breast tissue.	Results	15
+solution	CHEBI:75958	109-117
+bupivacaine	CHEBI:3215	136-147
+dexamethasone	CHEBI:41879	196-209
+breast	UBERON:0000310	271-277
+breast	UBERON:0000310	329-335
+area	PATO:0001323	278-282
+tissue	UBERON:0000479	336-342
+Subjects will be randomly selected to receive the local anesthetic solution containing 0.25 % bupivacaine (2.5 mg/ml) with 1:100,000 epinephrine and 4 mg dexamethasoneadministered to the breast area to cover the intercostal nerves supplying the breast tissue during surgery.	Results	16
+solution	CHEBI:75958	67-75
+bupivacaine	CHEBI:3215	94-105
+breast	UBERON:0000310	187-193
+breast	UBERON:0000310	245-251
+area	PATO:0001323	194-198
+tissue	UBERON:0000479	252-258
+surgery	OAE:0000067	266-273
+0.25 % bupivacaine (2.5 mg/ml) w/ 1:100,000 epinephrine & 4 mg dexamethasone: If randomized to this arm, subjects will receive a selective block with a local anesthetic solution containing 0.25 % bupivacaine.	Results	17
+bupivacaine	CHEBI:3215	7-18
+bupivacaine	CHEBI:3215	196-207
+dexamethasone	CHEBI:41879	63-76
+solution	CHEBI:75958	169-177
+(2.5 mg/ml) with 1:100,000 epinephrine and 4 mg dexamethasone intraoperatively.	Results	18
+dexamethasone	CHEBI:41879	48-61
+Overall Number of Participants Analyzed: 23	Results	19
+Median (Inter-Quartile Range)	Results	20
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: score on a scale  169        (155 to 182)	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 0/22 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/23 (0.00%)	Adverse Events	3

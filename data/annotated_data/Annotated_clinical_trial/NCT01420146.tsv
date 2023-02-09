@@ -1,0 +1,78 @@
+INTERVENTION 1:	Intervention	0
+Zr89-trastuzumab PET/CT	Intervention	1
+Zr89-trastuzumab (trastuzumab labelled with zirconium 89) for PET/CT single arm	Intervention	2
+Inclusion criteria:	Eligibility	0
+All patients selected for this imaging study are patients scheduled to start trastuzumab-based therapy for advanced HER2 positive breast cancer (This includes trastuzumab alone, trastuzumab + chemotherapy, trastuzumab + endocrine therapy).	Eligibility	1
+breast cancer	DOID:1612	130-143
+Histologically confirmed HER 2 positive (defined as FISH amplification ratio more than 2.2) invasive carcinoma of the breast (primary tumor at diagnosis) with locally recurrent or metastatic disease.	Eligibility	2
+ratio	UO:0000190	71-76
+carcinoma	HP:0030731,DOID:305	101-110
+breast	UBERON:0000310	118-124
+recurrent	HP:0031796	167-176
+disease	DOID:4,OGMS:0000031	191-198
+Patients with FDG-PET positive metastatic lesions.	Eligibility	3
+Brain metastases are allowed provided they are controlled and they are not the sole site of metastatic disease.	Eligibility	4
+brain	UBERON:0000955	0-5
+site	BFO:0000029	84-88
+disease	DOID:4,OGMS:0000031	103-110
+Patient planned to have metastatic site biopsy for HER2 status control.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+site	BFO:0000029	35-39
+Age  18 years	Eligibility	6
+age	PATO:0000011	0-3
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0 to 1	Eligibility	7
+group	CHEBI:24433	29-34
+For women of childbearing potential a pregnancy test will be done and an agreement to use a highly-effective non hormonal form of contraception.	Eligibility	8
+Agreement from the patient to participate in this imaging study and if indicated agreement to biopsy one or two accessible lesions.	Eligibility	9
+patient	HADO:0000008,OAE:0001817	19-26
+Signed written informed consent (approved by the Ethics Committee) obtained prior to any study procedure	Eligibility	10
+Exclusion criteria:	Eligibility	11
+Current severe, uncontrolled systemic disease (e.g., clinically significant cardiovascular, pulmonary, or metabolic disease)	Eligibility	12
+severe	HP:0012828	8-14
+disease	DOID:4,OGMS:0000031	38-45
+disease	DOID:4,OGMS:0000031	116-123
+Pregnant or lactating women	Eligibility	13
+Current known infection with HIV, HBV, or HCV	Eligibility	14
+Known severe hypersensitivity to trastuzumab	Eligibility	15
+severe	HP:0012828	6-12
+hypersensitivity	GO:0002524,DOID:1205	13-29
+Assessed by the investigator to be unable or unwilling to comply with the requirements of the protocol	Eligibility	16
+Patients with bone only metastases are not eligible	Eligibility	17
+Psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	18
+Patients who received lapatinib within the 7 days prior to HER immunoPET/CT.	Eligibility	19
+lapatinib	CHEBI:49603	22-31
+Outcome Measurement:	Results	0
+Test the Diagnostic Accuracy of the HER2 Imaging Using the Labelled Monoclonal Antibody Trastuzumab by Correlating the HER2 PET/CT Imaging With the FDG-PET/CT and Molecular Characterization of Tumor Samples With Discordant Image Findings	Results	1
+monoclonal	BAO:0000503	68-78
+antibody	GO:0042571,BAO:0000502	79-87
+A visual 'patient-based' classification capturing the whole disease burden was developed by using a side-by-side display, comparing baseline FDG-PET/CT(showing all FDG-positive mets independent of their HER2-imaging status) & day4 HER2-PET/CT. Pts were grouped into 4 HER2-PET/CT patterns according to the proportion of FDG avid tumour load showing relevant 89Zr-T uptake. Pattern A: entire tumor load showed pertinent tracer uptake; B: dominant part of tumour load showed tracer uptake; C: minor part of tumor load showed tracer uptake; D: entire tumor load lacked tracer uptake. Patterns A+B='HER2-positive' & C+D='HER2-negative'. In the 20 pts: 4 pts were classified "A", 5"B", 1"C" & 10"D". This classification indicates substantial heterogeneity of 89Zr-T uptake within this so called 'HER2-positive' pt population. After dichotomization, 11(55%) pts were considered as HER2-PET/CT negative. Furthermore, HER2-PET/CT revealed intrapatient heterogeneity of tumour uptake(pts classified B or C).	Results	2
+disease	DOID:4,OGMS:0000031	60-67
+uptake	GO:0098739,BAO:0001256	365-371
+uptake	GO:0098739,BAO:0001256	426-432
+uptake	GO:0098739,BAO:0001256	480-486
+uptake	GO:0098739,BAO:0001256	530-536
+uptake	GO:0098739,BAO:0001256	573-579
+uptake	GO:0098739,BAO:0001256	761-767
+uptake	GO:0098739,BAO:0001256	968-974
+tracer	CHEBI:35204	419-425
+tracer	CHEBI:35204	473-479
+tracer	CHEBI:35204	523-529
+tracer	CHEBI:35204	566-572
+part of	BAO:0090002,BFO:0000050	446-453
+part of	BAO:0090002,BFO:0000050	497-504
+Time frame: 4 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Zr89-trastuzumab PET/CT	Results	5
+Arm/Group Description: Zr89-trastuzumab (trastuzumab labelled with zirconium 89) for PET/CT single arm	Results	6
+Overall Number of Participants Analyzed: 20	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Pattern A: 4  20.0%	Results	9
+Pattern B: 5  25.0%	Results	10
+Pattern C: 1   5.0%	Results	11
+Pattern D: 10  50.0%	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 1/20 (5.00%)	Adverse Events	1
+Nausea - Pyrexia - Myalgia [1]1/20 (5.00%)	Adverse Events	2
+nausea	HP:0002018	0-6
+myalgia	HP:0003326	19-26

@@ -1,0 +1,265 @@
+INTERVENTION 1:	Intervention	0
+Bevacizumab Plus Paclitaxel	Intervention	1
+paclitaxel	CHEBI:45863	17-27
+Bevacizumab 10 mg/kg intravenous (i.v.), days 1 and 15, every 4 weeks, Paclitaxel 90 mg/m2, days 1, 8 and 15, every 4 weeks	Intervention	2
+paclitaxel	CHEBI:45863	71-81
+INTERVENTION 2:	Intervention	3
+Bevacizumab Plus Capecitabine	Intervention	4
+capecitabine	CHEBI:31348	17-29
+Bevacizumab 15 mg/kg i.v., day 1, every 3 weeks, Capecitabine 1000 mg/m² twice-daily, days 1-14, every 3 weeks	Intervention	5
+day	UO:0000033	27-30
+day	UO:0000033	86-89
+capecitabine	CHEBI:31348	49-61
+Inclusion Criteria	Eligibility	0
+Written informed consent obtained prior to any study-specific procedure.	Eligibility	1
+Age 18 years.	Eligibility	2
+age	PATO:0000011	0-3
+Able to comply with the protocol.	Eligibility	3
+Histologically or cytologically confirmed, HER2-negative, adenocarcinoma of the breast with measurable or non-measurable locally recurrent or metastatic disease, who are candidates for chemotherapy. Locally recurrent disease must not be amenable to radiotherapy or resection with curative intent.	Eligibility	4
+adenocarcinoma	DOID:299	58-72
+breast	UBERON:0000310	80-86
+recurrent	HP:0031796	129-138
+recurrent	HP:0031796	207-216
+disease	DOID:4,OGMS:0000031	153-160
+disease	DOID:4,OGMS:0000031	217-224
+radiotherapy	OAE:0000235	249-261
+Eastern Cooperative Oncology Group (ECOG) performance Status (PS) of 0-2.	Eligibility	5
+group	CHEBI:24433	29-34
+Life expectancy more than 12 weeks.	Eligibility	6
+Prior (neo)adjuvant chemotherapy is allowed provided that the last dose of chemotherapy was more than 6 months prior to randomization. However, if (neo)adjuvant chemotherapy was:	Eligibility	7
+adjuvant	CHEBI:60809	11-19
+adjuvant	CHEBI:60809	152-160
+Taxane-based, patients are eligible only if they received their last taxane more than 12 months prior to randomization.	Eligibility	8
+taxane	CHEBI:36064	0-6
+taxane	CHEBI:36064	69-75
+Anthracycline-based, the maximum cumulative dose of prior anthracycline therapy must not exceed 360 mg/m2 for doxorubicin and 720 mg/m2 for epirubicin.	Eligibility	9
+anthracycline	CHEBI:48120	0-13
+anthracycline	CHEBI:48120	58-71
+doxorubicin	CHEBI:28748,BAO:0000639	110-121
+Prior adjuvant radiotherapy is allowed as part of the treatment of early breast cancer provided that last fraction of radiotherapy occurred at least 6 months prior to randomization. Radiotherapy administered solely for the relief of metastatic bone pain is allowed prior to study entry, providing that:	Eligibility	10
+adjuvant	CHEBI:60809	6-14
+radiotherapy	OAE:0000235	15-27
+radiotherapy	OAE:0000235	118-130
+radiotherapy	OAE:0000235	182-194
+part of	BAO:0090002,BFO:0000050	42-49
+breast cancer	DOID:1612	73-86
+bone pain	HP:0002653	244-253
+no more than 30% of marrow-bearing bone was irradiated	Eligibility	11
+the last fraction of radiotherapy was administered  3 weeks prior to randomization.	Eligibility	12
+radiotherapy	OAE:0000235	21-33
+Adequate left ventricular ejection function (LVEF) at baseline, defined as LVEF  50% by either echocardiogram or multigated acquisition scan (MUGA).	Eligibility	13
+left	HP:0012835	9-13
+function	BAO:0003117,BFO:0000034	35-43
+Adequate hematological function	Eligibility	14
+function	BAO:0003117,BFO:0000034	23-31
+Absolute neutrophil count (ANC)  1.5 x 109/L	Eligibility	15
+x	LABO:0000148	37-38
+Platelet count  100 x 109/L	Eligibility	16
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	20-21
+Hemoglobin  9 g/dL (may be transfused to maintain or exceed this level).	Eligibility	17
+hemoglobin	CHEBI:35143	0-10
+Adequate liver function	Eligibility	18
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Total bilirubin  1.25 x upper normal limit (ULN)	Eligibility	19
+x	LABO:0000148	22-23
+Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT) < 2.5 x ULN in patients without liver metastases; < 5.0 x ULN in patients with liver metastases.	Eligibility	20
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	34-41
+x	LABO:0000148	71-72
+x	LABO:0000148	121-122
+liver	UBERON:0002107	97-102
+liver	UBERON:0002107	144-149
+Adequate renal function	Eligibility	21
+function	BAO:0003117,BFO:0000034	15-23
+Serum creatinine  1.25 x ULN or calculated creatinine clearance  50 mL/min.	Eligibility	22
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	43-53
+x	LABO:0000148	23-24
+creatinine clearance	CMO:0000765	43-63
+Urine dipstick for proteinuria < +2. Patients discovered to have  +2 proteinuria on dipstick urinalysis at baseline should undergo a 24-hour urine collection and must demonstrate  1g of protein in 24 hours	Eligibility	23
+urine	UBERON:0001088	0-5
+urine	UBERON:0001088	141-146
+proteinuria	HP:0000093,DOID:576	19-30
+proteinuria	HP:0000093,DOID:576	69-80
+protein	CHEBI:36080,BAO:0000175	19-26
+protein	CHEBI:36080,BAO:0000175	69-76
+protein	CHEBI:36080,BAO:0000175	186-193
+The use of full-dose oral or parenteral anticoagulants is permitted as long as the patient has been on a stable level of anticoagulation for at least two weeks at the time of randomization	Eligibility	24
+patient	HADO:0000008,OAE:0001817	83-90
+stable	HP:0031915	105-111
+time	PATO:0000165	167-171
+Patients on heparin treatment should have a baseline activated partial thromboplastin time (aPTT) between 1.5 - 2.5 times ULN or patients value before starting heparin treatment	Eligibility	25
+heparin	CHEBI:28304	12-19
+heparin	CHEBI:28304	160-167
+activated partial thromboplastin time	CMO:0000210	53-90
+Patients on low molecular weight heparins (LMWH) should receive daily dose of 1.5 - 2 mg/kg (of enoxaparin) or appropriate doses of the correspondent anticoagulant, according to package insert	Eligibility	26
+heparins	CHEBI:24505	33-41
+anticoagulant	CHEBI:50249	150-163
+Patients on coumarin derivatives should have an international normalized ratio (INR) between 2.0 and 3.0 assessed at baseline in two consecutive measurements 1-4 days apart	Eligibility	27
+coumarin	CHEBI:28794	12-20
+ratio	UO:0000190	73-78
+Patients not receiving anticoagulant medication must have an INR  1.5 and aPTT  1.5 times ULN within 7 days prior to randomization	Eligibility	28
+anticoagulant	CHEBI:50249	23-36
+Exclusion Criteria	Eligibility	29
+Previous chemotherapy for metastatic or locally recurrent breast cancer.	Eligibility	30
+recurrent	HP:0031796	48-57
+breast cancer	DOID:1612	58-71
+Concomitant hormonal therapy for locally recurrent or metastatic disease. Note: previous hormonal therapy is allowed for adjuvant, locally recurrent or metastatic breast cancer, but must have been discontinued at least 3 weeks prior to randomization.	Eligibility	31
+recurrent	HP:0031796	41-50
+recurrent	HP:0031796	139-148
+disease	DOID:4,OGMS:0000031	65-72
+adjuvant	CHEBI:60809	121-129
+breast cancer	DOID:1612	163-176
+Previous radiotherapy for the treatment of metastatic disease (unless given for the relief of metastatic bone pain and with the precautions mentioned above).	Eligibility	32
+radiotherapy	OAE:0000235	9-21
+disease	DOID:4,OGMS:0000031	54-61
+bone pain	HP:0002653	105-114
+Other primary tumors within the last 5 years, except for adequately controlled limited basal cell carcinoma of the skin, or carcinoma in situ of the cervix.	Eligibility	33
+basal cell carcinoma	HP:0002671,DOID:2513	87-107
+carcinoma	HP:0030731,DOID:305	98-107
+carcinoma	HP:0030731,DOID:305	124-133
+Pre-existing peripheral neuropathy NCI CTCAE grade > 2 at randomization.	Eligibility	34
+peripheral neuropathy	HP:0009830,DOID:870	13-34
+Evidence of spinal cord compression or current evidence of central nervous system (CNS) metastases (even if previously treated). If suspected, the patient should be scanned by CT or magnetic resonance imaging (MRI) within 28 days prior to randomization to rule out spinal / CNS metastases.	Eligibility	35
+spinal cord compression	HP:0002176	12-35
+central nervous system	UBERON:0001017	59-81
+patient	HADO:0000008,OAE:0001817	147-154
+ct	BAO:0002125	137-139
+ct	BAO:0002125	176-178
+History or evidence upon physical/neurological examination of CNS disease unrelated to cancer, unless adequately treated with standard medical therapy (e.g. uncontrolled seizures).	Eligibility	36
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	66-73
+cancer	DOID:162	87-93
+Major surgical procedure, open biopsy or significant traumatic injury within 28 days prior to randomization, or anticipation of the need for major surgery during the course of the study treatment.	Eligibility	37
+surgery	OAE:0000067	147-154
+Minor surgical procedures, including insertion of an indwelling catheter, within 24 hours prior to randomization.	Eligibility	38
+Current or recent (within 10 days of first dose of bevacizumab) use of aspirin (> 325 mg/day) or clopidogrel (> 75 mg/day).	Eligibility	39
+clopidogrel	CHEBI:37941	97-108
+Chronic daily treatment with corticosteroids (dose of > 10 mg/day methylprednisolone equivalent) (excluding inhaled steroids).	Eligibility	40
+chronic	HP:0011010	0-7
+History or evidence of inherited bleeding diathesis or coagulopathy with the risk of bleeding.	Eligibility	41
+history	BFO:0000182	0-7
+Uncontrolled hypertension (systolic > 150 mmHg and/or diastolic > 100 mmHg).	Eligibility	42
+hypertension	HP:0000822,DOID:10763	13-25
+Clinically significant (i.e. active) cardiovascular disease, requiring medication during the study and might interfere with regularity of the study treatment, or not controlled by medication.	Eligibility	43
+active	PATO:0002354	29-35
+disease	DOID:4,OGMS:0000031	52-59
+Non-healing wound, active peptic ulcer or bone fracture.	Eligibility	44
+active	PATO:0002354	19-25
+peptic ulcer	HP:0004398	26-38
+bone fracture	HP:0020110	42-55
+History of abdominal fistula, or any grade 4 non-gastrointestinal fistula, gastrointestinal perforation or intra-abdominal abscess within 6 months of randomization.	Eligibility	45
+history	BFO:0000182	0-7
+abscess	HP:0025615	123-130
+Active infection requiring i.v. antibiotics at randomization.	Eligibility	46
+active	PATO:0002354	0-6
+Pregnant or lactating females. Serum pregnancy test to be assessed within 7 days prior to study treatment start, or within 14 days with a confirmatory urine pregnancy test within 7 days prior to study treatment start.	Eligibility	47
+urine	UBERON:0001088	151-156
+Women of childbearing potential (< 2 years after the last menstruation) not using effective, non-hormonal means of contraception (intrauterine contraceptive device, barrier method of contraception in conjunction with spermicidal jelly or surgically sterile) during the study and for a period of 6 months following the last administration of study drug.	Eligibility	48
+menstruation	GO:0042703	58-70
+drug	CHEBI:23888	347-351
+Men who do not agree to use effective contraception during the study and for a period of 6 months following the last administration of study drug.	Eligibility	49
+drug	CHEBI:23888	141-145
+Current or recent (within 28 days of randomization) treatment with another investigational drug or participation in another investigational study	Eligibility	50
+drug	CHEBI:23888	91-95
+Clinically significant malabsorption syndrome or inability to take oral medication.	Eligibility	51
+malabsorption	HP:0002024	23-36
+syndrome	DOID:225	37-45
+Psychiatric disability judged by the Investigator to be interfering with compliance for oral drug intake.	Eligibility	52
+drug	CHEBI:23888	93-97
+Requirement for concurrent use of the antiviral agent sorivudine or chemically related analogues, such as brivudine.	Eligibility	53
+antiviral agent	CHEBI:22587	38-53
+sorivudine	CHEBI:32152	54-64
+Evidence of any other disease, metabolic or psychological dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug, or that may affect patient compliance with study routines, or places the patient at high risk from treatment related complications.	Eligibility	54
+disease	DOID:4,OGMS:0000031	22-29
+disease	DOID:4,OGMS:0000031	165-172
+physical examination	OAE:0004232	71-91
+laboratory finding	OGMS:0000018	113-131
+condition	PDRO:0000129	176-185
+drug	CHEBI:23888	237-241
+patient	HADO:0000008,OAE:0001817	262-269
+patient	HADO:0000008,OAE:0001817	316-323
+Known Dihydropyrimidine Dehydrogenase (DPD) deficiency or prior unanticipated severe reaction to fluoropyrimidine therapy (with or without documented DPD deficiency)	Eligibility	55
+severe	HP:0012828	78-84
+Known hypersensitivity to any of the study drugs (including 5-FU) or excipients. Hypersensitivity to Chinese hamster ovary cell products or other recombinant human or humanized antibodies. History of hypersensitivity reactions with drugs formulated in Cremophor® EL (polyoxyethylated castor oil), or previous therapy with bevacizumab.	Eligibility	56
+hypersensitivity	GO:0002524,DOID:1205	6-22
+hypersensitivity	GO:0002524,DOID:1205	81-97
+hypersensitivity	GO:0002524,DOID:1205	200-216
+ovary	UBERON:0000992	117-122
+history	BFO:0000182	189-196
+castor oil	CHEBI:140618	284-294
+Outcome Measurement:	Results	0
+Overall Survival (PP Population)	Results	1
+Overall survival (OS) defined as time from randomization to date of death from any cause. Patients without recorded death were censored at the date the patient was last known to be alive. OS was analyzed at two looks, one interim look and the final analysis. Due to group sequential testing, the overall significance level alpha = 0.025 was spent on both looks according to Lan-DeMets spending method with O'Brien-Fleming-type boundaries. Alpha spent at Interim after 47% of information was 0.0010. Alpha spent at final analysis after 99% of information was 0.0250.	Results	2
+time	PATO:0000165	33-37
+death	OAE:0000632	68-73
+death	OAE:0000632	116-121
+patient	HADO:0000008,OAE:0001817	90-97
+patient	HADO:0000008,OAE:0001817	152-159
+group	CHEBI:24433	266-271
+Time frame: Time from the date of randomization to the date of death or date last known to be alive, assessed up to approximately 6 years	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	12-16
+death	OAE:0000632	63-68
+Results 1:	Results	4
+Arm/Group Title: Bevacizumab Plus Paclitaxel	Results	5
+paclitaxel	CHEBI:45863	34-44
+Arm/Group Description: Bevacizumab 10 mg/kg intravenous (i.v.), days 1 and 15, every 4 weeks, Paclitaxel 90 mg/m2, days 1, 8 and 15, every 4 weeks	Results	6
+paclitaxel	CHEBI:45863	94-104
+Overall Number of Participants Analyzed: 266	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  30.2        (25.6 to 32.6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Bevacizumab Plus Capecitabine	Results	11
+capecitabine	CHEBI:31348	34-46
+Arm/Group Description: Bevacizumab 15 mg/kg i.v., day 1, every 3 weeks, Capecitabine 1000 mg/m  twice-daily, days 1-14, every 3 weeks	Results	12
+day	UO:0000033	50-53
+day	UO:0000033	109-112
+capecitabine	CHEBI:31348	72-84
+Overall Number of Participants Analyzed: 265	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  26.1        (22.3 to 29.0)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 65/284 (22.89%)	Adverse Events	1
+Anaemia 0/284 (0.00%)	Adverse Events	2
+Febrile neutropenia 2/284 (0.70%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 1/284 (0.35%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/284 (0.35%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Acute coronary syndrome 0/284 (0.00%)	Adverse Events	6
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction 1/284 (0.35%)	Adverse Events	7
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 1/284 (0.35%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrioventricular block 1/284 (0.35%)	Adverse Events	9
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Atrioventricular block complete 0/284 (0.00%)	Adverse Events	10
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Cardio-respiratory arrest 0/284 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 68/277 (24.55%)	Adverse Events	13
+Anaemia 4/277 (1.44%)	Adverse Events	14
+Febrile neutropenia 1/277 (0.36%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 1/277 (0.36%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/277 (0.36%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Acute coronary syndrome 1/277 (0.36%)	Adverse Events	18
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction 0/277 (0.00%)	Adverse Events	19
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 0/277 (0.00%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrioventricular block 0/277 (0.00%)	Adverse Events	21
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Atrioventricular block complete 1/277 (0.36%)	Adverse Events	22
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Cardio-respiratory arrest 1/277 (0.36%)	Adverse Events	23

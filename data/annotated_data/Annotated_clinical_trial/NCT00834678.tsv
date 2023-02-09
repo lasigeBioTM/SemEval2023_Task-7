@@ -1,0 +1,136 @@
+INTERVENTION 1:	Intervention	0
+Bendamustine and Erlotinib	Intervention	1
+bendamustine	CHEBI:135515	0-12
+erlotinib	CHEBI:114785	17-26
+Participants in dose level I were administered 100 mg/m^2 IV of Bendamustine on days 1 and 2 and 100 mg PO of Erlotinib on days 5 - 21 of each 28 day cycle.	Intervention	2
+bendamustine	CHEBI:135515	64-76
+erlotinib	CHEBI:114785	110-119
+day	UO:0000033	80-83
+day	UO:0000033	123-126
+day	UO:0000033	146-149
+Participants in dose level II were administered 120 mg/m^2 IV of Bendamustine on days 1 and 2 and 150 mg PO of Erlotinib on days 5 - 21 of each 28 day cycle.	Intervention	3
+bendamustine	CHEBI:135515	65-77
+erlotinib	CHEBI:114785	111-120
+day	UO:0000033	81-84
+day	UO:0000033	124-127
+day	UO:0000033	147-150
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed breast cancer meeting 1 of the following criteria:	Eligibility	1
+breast cancer	DOID:1612	25-38
+Unresectable stage IIIB or IIIC disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	32-39
+Stage IV disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	9-16
+Must be negative for all of the following:	Eligibility	4
+Estrogen receptor (< 10%)	Eligibility	5
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+Progesterone receptor (<10%)	Eligibility	6
+progesterone	CHEBI:17026	0-12
+receptor	BAO:0000281	13-21
+HER-2 (negative FISH, IHC 0 - 1+, or IHC +2 with negative FISH)	Eligibility	7
+Measurable or evaluable disease	Eligibility	8
+disease	DOID:4,OGMS:0000031	24-31
+No symptomatic or progressive CNS (central nervous system) metastases	Eligibility	9
+progressive	HP:0003676	18-29
+central nervous system	UBERON:0001017	35-57
+Previously treated CNS metastases allowed provided all of the following criteria are met:	Eligibility	10
+At least 8 weeks since prior radiation to brain or CNS metastases	Eligibility	11
+brain	UBERON:0000955	42-47
+No concurrent steroids	Eligibility	12
+No leptomeningeal disease	Eligibility	13
+disease	DOID:4,OGMS:0000031	18-25
+PATIENT CHARACTERISTICS:	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+Menopausal status not specified	Eligibility	15
+ECOG (Eastern Cooperative Oncology Group) performance status 0-2	Eligibility	16
+group	CHEBI:24433	35-40
+Life expectancy  6 months	Eligibility	17
+WBC > 1,500/mm³	Eligibility	18
+Platelet count > 100,000/mm³	Eligibility	19
+platelet count	CMO:0000029	0-14
+Creatinine clearance > 40 mL/min	Eligibility	20
+creatinine clearance	CMO:0000765	0-20
+Normal electrolytes (i.e., Na, K, and Ca normal; minor deviations are allowed if they do not impact on patient safety in the clinical judgment of the treating physician)	Eligibility	21
+patient	HADO:0000008,OAE:0001817	103-110
+Bilirubin  1.5 times upper limit of normal (ULN)	Eligibility	22
+ALT and AST  2.5 times ULN ( 5 times ULN in the presence of documented liver metastases)	Eligibility	23
+liver	UBERON:0002107	71-76
+Alkaline phosphatase  2.5 times ULN ( 5 times ULN in the presence of liver or bone metastases)	Eligibility	24
+phosphatase	GO:0016791,BAO:0000295	9-20
+liver	UBERON:0002107	69-74
+Not pregnant or nursing	Eligibility	25
+Fertile patients must use effective barrier contraception	Eligibility	26
+No uncontrolled intercurrent illness	Eligibility	27
+No active infection requiring systemic therapy	Eligibility	28
+active	PATO:0002354	3-9
+Able to swallow oral medications and with no medical problems or prior surgeries that may interfere with the absorption of oral medications including the following:	Eligibility	29
+Uncontrolled nausea, vomiting, or diarrhea	Eligibility	30
+nausea	HP:0002018	13-19
+vomiting	HP:0002013	21-29
+diarrhea	HP:0002014,DOID:13250	34-42
+Lack of the physical integrity of the upper gastrointestinal tract	Eligibility	31
+Malabsorption syndrome	Eligibility	32
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+No known hypersensitivity to bendamustine hydrochloride, mannitol, or erlotinib hydrochloride	Eligibility	33
+hypersensitivity	GO:0002524,DOID:1205	9-25
+bendamustine	CHEBI:135515	29-41
+hydrochloride	CHEBI:36807	42-55
+hydrochloride	CHEBI:36807	80-93
+mannitol	CHEBI:16899	57-65
+erlotinib hydrochloride	CHEBI:53509	70-93
+No prior malignancy in the past 5 years except for adequately treated basal cell or squamous cell skin carcinoma, or adequately treated stage I-II cancer for which the patient is in complete remission	Eligibility	34
+skin carcinoma	DOID:3451	98-112
+cancer	DOID:162	147-153
+patient	HADO:0000008,OAE:0001817	168-175
+PRIOR CONCURRENT THERAPY:	Eligibility	35
+See Disease Characteristics	Eligibility	36
+disease	DOID:4,OGMS:0000031	4-11
+Prior adjuvant or neoadjuvant chemotherapy and 1 prior chemotherapy regimen in the metastatic setting allowed provided recovered from all acute toxicities	Eligibility	37
+adjuvant	CHEBI:60809	6-14
+adjuvant	CHEBI:60809	21-29
+acute	HP:0011009,PATO:0000389	138-143
+No prior bendamustine hydrochloride or EGFR-directed therapy	Eligibility	38
+bendamustine	CHEBI:135515	9-21
+hydrochloride	CHEBI:36807	22-35
+No other concurrent antineoplastic treatments, including radiotherapy, chemotherapy, biological therapy, hormonal therapy, immunotherapy, gene therapy, and surgery	Eligibility	39
+radiotherapy	OAE:0000235	57-69
+gene	BAO:0000582	138-142
+surgery	OAE:0000067	156-163
+Intravenous bisphosphonates allowed	Eligibility	40
+No concurrent antiretroviral therapy for HIV-positive patients	Eligibility	41
+No other concurrent investigational agents	Eligibility	42
+Outcome Measurement:	Results	0
+Maximum-tolerated Dose of Bendamustine Hydrochloride (Phase I)	Results	1
+bendamustine	CHEBI:135515	26-38
+hydrochloride	CHEBI:36807	39-52
+28 day cycle included intravenous bendamustine on days 1 and 2.	Results	2
+day	UO:0000033	3-6
+day	UO:0000033	50-53
+bendamustine	CHEBI:135515	34-46
+Time frame: Up to two years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Bendamustine and Erlotinib	Results	5
+bendamustine	CHEBI:135515	17-29
+erlotinib	CHEBI:114785	34-43
+Arm/Group Description: Participants in dose level I were administered 100 mg/m^2 IV of Bendamustine on days 1 and 2 and 100 mg PO of Erlotinib on days 5 - 21 of each 28 day cycle.	Results	6
+bendamustine	CHEBI:135515	87-99
+erlotinib	CHEBI:114785	133-142
+day	UO:0000033	103-106
+day	UO:0000033	146-149
+day	UO:0000033	169-172
+Participants in dose level II were administered 120 mg/m^2 IV of Bendamustine on days 1 and 2 and 150 mg PO of Erlotinib on days 5 - 21 of each 28 day cycle.	Results	7
+bendamustine	CHEBI:135515	65-77
+erlotinib	CHEBI:114785	111-120
+day	UO:0000033	81-84
+day	UO:0000033	124-127
+day	UO:0000033	147-150
+Overall Number of Participants Analyzed: 11	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: mg/m^2  120	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 3/11 (27.27%)	Adverse Events	1
+Infection 3/11 (27.27%)	Adverse Events	2

@@ -1,0 +1,120 @@
+INTERVENTION 1:	Intervention	0
+1250 mg/m^2 Capecitabine + Docetaxel	Intervention	1
+capecitabine	CHEBI:31348	12-24
+1250 mg/m^2 capecitabine (Xeloda®) orally twice a day on days 1 to 14 of each 3 week cycle, in combination with docetaxel (Taxotere®) 75 mg/m^2 intravenous on day 1 of each 3 week cycle.	Intervention	2
+capecitabine	CHEBI:31348	12-24
+day	UO:0000033	50-53
+day	UO:0000033	57-60
+day	UO:0000033	159-162
+week	UO:0000034	80-84
+week	UO:0000034	175-179
+INTERVENTION 2:	Intervention	3
+825 mg/m^2 Capecitabine + Docetaxel	Intervention	4
+capecitabine	CHEBI:31348	11-23
+825 mg/m^2 capecitabine orally twice a day on days 1 to 14 of each 3 week cycle, in combination with docetaxel 75 mg/m^2 intravenous on day 1 of each 3 week cycle.	Intervention	5
+capecitabine	CHEBI:31348	11-23
+day	UO:0000033	39-42
+day	UO:0000033	46-49
+day	UO:0000033	136-139
+week	UO:0000034	69-73
+week	UO:0000034	152-156
+Inclusion Criteria:	Eligibility	0
+women >=18 years of age;	Eligibility	1
+age	PATO:0000011	20-23
+>=1 target lesion;	Eligibility	2
+target	BAO:0003064	4-10
+locally advanced or metastatic breast cancer;	Eligibility	3
+breast cancer	DOID:1612	31-44
+demonstrated resistance to anthracycline;	Eligibility	4
+anthracycline	CHEBI:48120	27-40
+>=2 regimens of chemotherapy for advanced/metastatic disease.	Eligibility	5
+disease	DOID:4,OGMS:0000031	53-60
+Exclusion Criteria:	Eligibility	6
+previous treatment with Xeloda, continuous 5-fluorouracil infusion, or other oral fluoropyrimidines;	Eligibility	7
+5-fluorouracil	CHEBI:46345	43-57
+previous treatment with paclitaxel or docetaxel for advanced/metastatic disease.	Eligibility	8
+paclitaxel	CHEBI:45863	24-34
+disease	DOID:4,OGMS:0000031	72-79
+Outcome Measurement:	Results	0
+Time to Progression of Disease or Death	Results	1
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	23-30
+death	OAE:0000632	34-39
+Progression Free Survival was defined as the time from the date of randomization to the day of documented disease progression or death due to any cause.	Results	2
+time	PATO:0000165	45-49
+day	UO:0000033	88-91
+disease	DOID:4,OGMS:0000031	106-113
+death	OAE:0000632	129-134
+Time frame: Event driven (after 350 events). Median observation time was approximately 16 months.	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	64-68
+median	BAO:0002174	45-51
+Results 1:	Results	4
+Arm/Group Title: 1250 mg/m^2 Capecitabine + Docetaxel	Results	5
+capecitabine	CHEBI:31348	29-41
+Arm/Group Description: 1250 mg/m^2 capecitabine (Xeloda  ) orally twice a day on days 1 to 14 of each 3 week cycle, in combination with docetaxel (Taxotere  ) 75 mg/m^2 intravenous on day 1 of each 3 week cycle.	Results	6
+capecitabine	CHEBI:31348	35-47
+day	UO:0000033	74-77
+day	UO:0000033	81-84
+day	UO:0000033	184-187
+week	UO:0000034	104-108
+week	UO:0000034	200-204
+taxotere	CHEBI:46058	147-155
+Overall Number of Participants Analyzed: 230	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  7.9        (6.9 to 8.5)	Results	9
+Results 2:	Results	10
+Arm/Group Title: 825 mg/m^2 Capecitabine + Docetaxel	Results	11
+capecitabine	CHEBI:31348	28-40
+Arm/Group Description: 825 mg/m^2 capecitabine orally twice a day on days 1 to 14 of each 3 week cycle, in combination with docetaxel 75 mg/m^2 intravenous on day 1 of each 3 week cycle.	Results	12
+capecitabine	CHEBI:31348	34-46
+day	UO:0000033	62-65
+day	UO:0000033	69-72
+day	UO:0000033	159-162
+week	UO:0000034	92-96
+week	UO:0000034	175-179
+Overall Number of Participants Analyzed: 229	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  5.8        (4.9 to 7.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 41/217 (18.89%)	Adverse Events	1
+Febrile neutropenia 13/217 (5.99%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 6/217 (2.76%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia 2/217 (0.92%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Anaemia 0/217 (0.00%)	Adverse Events	5
+Atrial flutter 0/217 (0.00%)	Adverse Events	6
+atrial flutter	HP:0004749	0-14
+Cardiac failure 0/217 (0.00%)	Adverse Events	7
+Cardiogenic shock 1/217 (0.46%)	Adverse Events	8
+cardiogenic shock	HP:0030149	0-17
+Cardiopulmonary failure 0/217 (0.00%)	Adverse Events	9
+Stomatitis all 5/217 (2.30%)	Adverse Events	10
+stomatitis	HP:0010280,DOID:9637	0-10
+Diarrhoea 2/217 (0.92%)	Adverse Events	11
+Vomiting 2/217 (0.92%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+Adverse Events 2:	Adverse Events	13
+Total: 53/248 (21.37%)	Adverse Events	14
+Febrile neutropenia 14/248 (5.65%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 4/248 (1.61%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia 0/248 (0.00%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Anaemia 1/248 (0.40%)	Adverse Events	18
+Atrial flutter 1/248 (0.40%)	Adverse Events	19
+atrial flutter	HP:0004749	0-14
+Cardiac failure 1/248 (0.40%)	Adverse Events	20
+Cardiogenic shock 0/248 (0.00%)	Adverse Events	21
+cardiogenic shock	HP:0030149	0-17
+Cardiopulmonary failure 1/248 (0.40%)	Adverse Events	22
+Stomatitis all 0/248 (0.00%)	Adverse Events	23
+stomatitis	HP:0010280,DOID:9637	0-10
+Diarrhoea 2/248 (0.81%)	Adverse Events	24
+Vomiting 2/248 (0.81%)	Adverse Events	25
+vomiting	HP:0002013	0-8

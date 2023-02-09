@@ -1,0 +1,114 @@
+INTERVENTION 1:	Intervention	0
+Supportive Care (Fluocinonide Cream)	Intervention	1
+fluocinonide	CHEBI:5109	17-29
+This is a single-arm, single-stage, open-label phase II trial of topical fluocinonide 0.05% cream to improve vaginal symptoms.	Intervention	2
+fluocinonide	CHEBI:5109	73-85
+All subjects will receive topical fluocinonide 0.05% cream to apply twice daily for two weeks and then once daily for two weeks to the vagina. The duration of treatment will be 4 weeks.	Intervention	3
+fluocinonide	CHEBI:5109	34-46
+vagina	UBERON:0000996	135-141
+duration	PATO:0001309	147-155
+Inclusion Criteria:	Eligibility	0
+Adult women (both pre-menopausal and post-menopausal women are eligible) and with a history of breast cancer or with an increased risk for breast cancer on current treatment with tamoxifen or an aromatase inhibitor with the presence of vaginal dryness or dyspareunia of sufficient severity to make the subject patient desire therapeutic intervention	Eligibility	1
+adult	EFO:0001272	0-5
+history	BFO:0000182	84-91
+breast cancer	DOID:1612	95-108
+breast cancer	DOID:1612	139-152
+tamoxifen	CHEBI:41774	179-188
+inhibitor	CHEBI:35222	205-214
+vaginal dryness	HP:0031088	236-251
+dyspareunia	HP:0030016	255-266
+severity	HP:0012824	281-289
+patient	HADO:0000008,OAE:0001817	310-317
+therapeutic intervention	OAE:0000094	325-349
+Vaginal dryness or dyspareunia must be present for at least two months prior to study entry	Eligibility	2
+vaginal dryness	HP:0031088	0-15
+dyspareunia	HP:0030016	19-30
+present	PATO:0000467	39-46
+Subjects must be on current treatment with tamoxifen or an aromatase inhibitor for at least two months prior to study enrollment (defined as the date of consent) and should not be planning to discontinue treatment or to change dose or type of endocrine treatment during the duration of the study	Eligibility	3
+tamoxifen	CHEBI:41774	43-52
+inhibitor	CHEBI:35222	69-78
+duration	PATO:0001309	274-282
+Subjects must agree to not use any over-the-counter or prescription vaginal preparations (lubricants, creams, gels, ointments, solutions) during the four weeks of treatment with topical fluocinonide cream	Eligibility	4
+fluocinonide	CHEBI:5109	186-198
+Subjects must agree to not use any medications, products, or preparations known to contain estrogen during the four weeks of treatment with topical fluocinonide cream	Eligibility	5
+estrogen	CHEBI:50114,BAO:0000760	91-99
+fluocinonide	CHEBI:5109	148-160
+Eastern Cooperative Oncology Group (ECOG) performance status =< 2	Eligibility	6
+group	CHEBI:24433	29-34
+Subjects must have ability to read, comprehend, and complete patient questionnaires independently or with assistance	Eligibility	7
+patient	HADO:0000008,OAE:0001817	61-68
+Subjects must sign informed consent	Eligibility	8
+Subjects must agree to read patient instructions regarding use of barrier contraceptive devices while on treatment with fluocinonide cream in the informed consent	Eligibility	9
+patient	HADO:0000008,OAE:0001817	28-35
+fluocinonide	CHEBI:5109	120-132
+Exclusion Criteria:	Eligibility	10
+Use of any vaginal preparations within one week prior to study enrollment (exception: subjects currently using a vaginal preparation can enroll after discontinuing treatment for 7 days)	Eligibility	11
+week	UO:0000034	43-47
+Use of any estrogen containing medications, products, or preparations	Eligibility	12
+estrogen	CHEBI:50114,BAO:0000760	11-19
+Use of any systemic oral or parenteral steroid containing medications is not permitted; use of "High Daily Dose" inhaled/intranasal corticosteroids is not permitted; use inhaled/intranasal corticosteroid preparations at dosing levels less than "High Daily Dose" is permitted	Eligibility	13
+steroid	CHEBI:35341	39-46
+steroid	CHEBI:35341	139-146
+steroid	CHEBI:35341	196-203
+corticosteroid	CHEBI:50858	132-146
+corticosteroid	CHEBI:50858	189-203
+Current or past treatment with fluocinonide cream for vaginal dryness, itching, or dyspareunia	Eligibility	14
+fluocinonide	CHEBI:5109	31-43
+vaginal dryness	HP:0031088	54-69
+dyspareunia	HP:0030016	83-94
+Subject reported symptoms of vaginal infection with significant vaginal discharge or odor	Eligibility	15
+vaginal discharge	DOID:3767	64-81
+Known current vaginal infection	Eligibility	16
+Known vaginal pathology other than vaginal atrophy that could explain vaginal symptoms	Eligibility	17
+Known intolerance of topical steroid preparations	Eligibility	18
+steroid	CHEBI:35341	29-36
+Pregnant or lactating women (to be obtained via subject report only)	Eligibility	19
+Known diagnoses of diabetes mellitus, adrenal insufficiency (Addison's disease), or Cushing's syndrome	Eligibility	20
+diabetes mellitus	HP:0000819,DOID:9351	19-36
+adrenal insufficiency	HP:0000846	38-59
+disease	DOID:4,OGMS:0000031	71-78
+syndrome	DOID:225	94-102
+No prior chemotherapeutic treatment for any malignancy other than breast cancer	Eligibility	21
+breast cancer	DOID:1612	66-79
+Outcome Measurement:	Results	0
+Change in Symptom Scores of Vaginal Dryness	Results	1
+symptom	OGMS:0000020	10-17
+vaginal dryness	HP:0031088	28-43
+Change in symptom scores of vaginal dryness, itching, and dyspareunia will be evaluated by the Mayo/North Central Cancer Treatment Group (NCCTG) patient questionnaire which has patients grade how much vaginal dryness, vaginal itching, and vaginal discomfort during intercourse they are currently experiencing on an ordinal scale of zero to four (none, mild, moderate, severe, and very severe, respectively). Analyzed using Wilcoxon signed rank test with 2.5% significance level to account for two co-primary endpoints.	Results	2
+symptom	OGMS:0000020	10-17
+vaginal dryness	HP:0031088	28-43
+vaginal dryness	HP:0031088	201-216
+dyspareunia	HP:0030016	58-69
+central	HP:0030645	106-113
+cancer	DOID:162	114-120
+group	CHEBI:24433	131-136
+patient	HADO:0000008,OAE:0001817	145-152
+patient	HADO:0000008,OAE:0001817	177-184
+mild	HP:0012825	352-356
+moderate	HP:0012826	358-366
+severe	HP:0012828	368-374
+severe	HP:0012828	385-391
+Outcome measures median change in score from baseline to end of study. Scale is explained above for the scoring of symptoms at each time point. The median change (i.e. median difference) can range from -4 to +4; negative values indicate improved symptoms, zero no change, and positive values indicate worsened symptoms.	Results	3
+median	BAO:0002174	17-23
+median	BAO:0002174	148-154
+median	BAO:0002174	168-174
+time	PATO:0000165	132-136
+range	LABO:0000114	191-196
+Time frame: Baseline and 4 weeks	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Supportive Care (Fluocinonide Cream)	Results	6
+fluocinonide	CHEBI:5109	34-46
+Arm/Group Description: This is a single-arm, single-stage, open-label phase II trial of topical fluocinonide 0.05% cream to improve vaginal symptoms.	Results	7
+fluocinonide	CHEBI:5109	96-108
+All subjects will receive topical fluocinonide 0.05% cream to apply twice daily for two weeks and then once daily for two weeks to the vagina. The duration of treatment will be 4 weeks.	Results	8
+fluocinonide	CHEBI:5109	34-46
+vagina	UBERON:0000996	135-141
+duration	PATO:0001309	147-155
+Overall Number of Participants Analyzed: 34	Results	9
+Median (Inter-Quartile Range)	Results	10
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: units on a scale  -2        (-3 to -1)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 0/34 (0.00%)	Adverse Events	1

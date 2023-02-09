@@ -1,0 +1,91 @@
+INTERVENTION 1:	Intervention	0
+Lapatinib + Trastuzumab	Intervention	1
+lapatinib	CHEBI:49603	0-9
+All study participants received lapatinib 1000mg daily and trauzumab 4mg/kg loading dose and then 2mg/kg every week	Intervention	2
+lapatinib	CHEBI:49603	32-41
+week	UO:0000034	111-115
+Inclusion Criteria:	Eligibility	0
+All patients must be female.	Eligibility	1
+female	PATO:0000383	21-27
+Signed informed consent.	Eligibility	2
+Locally advanced breast cancers or primary breast cancers are eligible. Locally advanced cancers must be of clinical and/or radiologic size >3 cm, or >2 cm with clinical evidence of axillary nodal involvement. (If tumors are less than 3 cm, we will use radiologically measured tumor size to determine the minimal tumor size for eligibility and in assessing tumor size during follow-up).	Eligibility	3
+breast	UBERON:0000310	17-23
+breast	UBERON:0000310	43-49
+size	PATO:0000117	135-139
+size	PATO:0000117	283-287
+size	PATO:0000117	319-323
+size	PATO:0000117	363-367
+HER2 overexpressing tumors defined as HercepTest score of 3+, or > 10% cells moderately or strongly HER2 positive by other methods, or Allred semi-quantitative score of >5, or gene amplified.	Eligibility	4
+gene	BAO:0000582	176-180
+Negative serum pregnancy test (HCG) within 7 days of starting study, if of child-bearing potential.	Eligibility	5
+Kidney and liver function tests - all within 1.5 times the institution's upper limit of normal.	Eligibility	6
+kidney	UBERON:0002113	0-6
+liver	UBERON:0002107	11-16
+function	BAO:0003117,BFO:0000034	17-25
+Performance status (WHO scale) less than 2 and life expectancy more than 6 months.	Eligibility	7
+Age at least 18 years.	Eligibility	8
+age	PATO:0000011	0-3
+No brain or leptomeningeal disease.	Eligibility	9
+brain	UBERON:0000955	3-8
+disease	DOID:4,OGMS:0000031	27-34
+No previous or current malignancies at other sites within the last 5 years, with exception of adequately treated cone-biopsied in situ carcinoma of the cervix uteri and basal or squamous cell carcinoma of the skin.	Eligibility	10
+in situ carcinoma	DOID:8719	127-144
+squamous cell carcinoma of the skin	HP:0006739	178-213
+Note: The presence of pathological involvement of axillary nodes will be assessed and agreed upon by two investigators.	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+Pregnancy or unwillingness to use a reliable contraceptive method in women of child-bearing potential.	Eligibility	13
+Severe underlying chronic illness or disease.	Eligibility	14
+severe	HP:0012828	0-6
+chronic	HP:0011010	18-25
+disease	DOID:4,OGMS:0000031	37-44
+Cardiomyopathy or baseline LVEF less than 50%.	Eligibility	15
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Other investigational drugs while on study.	Eligibility	16
+Severe or uncontrolled hypertension, history of congestive heart failure or severe coronary arterial disease.	Eligibility	17
+severe	HP:0012828	0-6
+severe	HP:0012828	76-82
+hypertension	HP:0000822,DOID:10763	23-35
+history	BFO:0000182	37-44
+congestive heart failure	HP:0001635,DOID:6000	48-72
+disease	DOID:4,OGMS:0000031	101-108
+Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel. Subjects with ulcerative colitis are also excluded	Eligibility	18
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+disease	DOID:4,OGMS:0000031	24-31
+function	BAO:0003117,BFO:0000034	73-81
+stomach	UBERON:0000945	103-110
+ulcerative colitis	HP:0100279,DOID:8577	141-159
+excluded	HP:0040285	169-177
+Taking any lapatinib-prohibited medication within 7 days of first dose of study medications. (See Prohibited Medications List in protocol.)	Eligibility	19
+Outcome Measurement:	Results	0
+Pathologic Assessment After Study Treatment	Results	1
+Pathologic Assessment After 12 weeks of lapatinib and trastuzumab with or without endocrine therapy. Pathologic complete response: no invasive cancer in the residual breast. Near pathologic complete response: residual disease of less than 1 cm in breast.	Results	2
+lapatinib	CHEBI:49603	40-49
+cancer	DOID:162	143-149
+breast	UBERON:0000310	166-172
+breast	UBERON:0000310	247-253
+disease	DOID:4,OGMS:0000031	218-225
+Time frame: 12 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Lapatinib + Trastuzumab	Results	5
+lapatinib	CHEBI:49603	17-26
+Arm/Group Description: All study participants received lapatinib 1000mg daily and trauzumab 4mg/kg loading dose and then 2mg/kg every week	Results	6
+lapatinib	CHEBI:49603	55-64
+week	UO:0000034	134-138
+Overall Number of Participants Analyzed: 64	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Complete Pathologic Response: 18	Results	9
+Near Complete Pathologic Response: 16	Results	10
+Not Pathologic response: 30	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 2/65 (3.08%)	Adverse Events	1
+Cholecystitis  1/65 (1.54%)	Adverse Events	2
+cholecystitis	HP:0001082,DOID:1949	0-13
+Hepatobiliary/Pancreas  1/65 (1.54%)	Adverse Events	3
+ALT, SGPT (serum glutamic pyruvic transaminase)  1/65 (1.54%)	Adverse Events	4
+AST, SGOT(serum glutamic oxaloacetic transaminase)  2/65 (3.08%)	Adverse Events	5
+Alkaline phosphatase  1/65 (1.54%)	Adverse Events	6
+phosphatase	GO:0016791,BAO:0000295	9-20
+Bilirubin (hyperbilirubinemia)  1/65 (1.54%)	Adverse Events	7
+hyperbilirubinemia	HP:0002904,DOID:2741	11-29

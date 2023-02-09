@@ -1,0 +1,147 @@
+INTERVENTION 1:	Intervention	0
+Herceptin + NeuVax Vaccine	Intervention	1
+vaccine	VO:0000001	19-26
+Patients randomized to this arm will receive Herceptin every 3 weeks as monotherapy for 1 year; the first Herceptin infusion will be given no sooner than 3 weeks and no later than 12 weeks after completion of standard of care chemotherapy/radiotherapy. Herceptin will be dosed at the recommended initial loading dose of 8 mg/kg and at recommended maintenance doses of 6 mg/kg q3wk. Patients will receive vaccinations of NeuVax vaccine administered intradermally every 3 weeks for 6 total vaccinations, 30-120 minutes after completion of Herceptin infusion. The NeuVax vaccine series will begin immediately after completion of the third Herceptin infusion, but may be delayed to the fourth or fifth Herceptin infusion with prior approval from the PI. After completion of primary vaccine series, patients will receive NeuVax vaccine booster inoculations to be administered every 6 months x 4 for total treatment duration of 30 months.	Intervention	2
+year	UO:0000036	90-94
+vaccine	VO:0000001	427-434
+vaccine	VO:0000001	568-575
+vaccine	VO:0000001	778-785
+vaccine	VO:0000001	823-830
+x	LABO:0000148	425-426
+x	LABO:0000148	566-567
+x	LABO:0000148	821-822
+x	LABO:0000148	886-887
+duration	PATO:0001309	910-918
+INTERVENTION 2:	Intervention	3
+Herceptin + GM-CSF Only	Intervention	4
+Patients randomized to this arm will receive Herceptin every 3 weeks as monotherapy for 1 year. The first Herceptin infusion will be given no sooner than 3 weeks and no later than 12 weeks after completion of standard of care chemotherapy/radiotherapy. Herceptin will be dosed at the recommended initial loading dose of 8 mg/kg and at recommended maintenance doses of 6 mg/kg q3wk. Patients will receive inoculations of GM-CSF only (250mcg) administered intradermally every 3 weeks for 6 total inoculations, 30-120 minutes after completion of Herceptin infusion. The GM-CSF only inoculation series will begin immediately after completion of the third Herceptin infusion. After completion of six-inoculation primary vaccine series, patients will then receive a total of four GM-CSF only booster inoculations to be administered at 12, 18, 24, and 30 months from the date of the first Herceptin infusion.	Intervention	5
+year	UO:0000036	90-94
+vaccine	VO:0000001	715-722
+Patients will be included in the study based on the following criteria:	Eligibility	0
+Women 18 years or older	Eligibility	1
+Node-positive breast cancer (AJCC N1, N2, or N3)	Eligibility	2
+breast cancer	DOID:1612	14-27
+Node-negative breast cancer if negative for both estrogen (ER) and progesterone (PR) receptors and have received chemotherapy as standard of care	Eligibility	3
+breast cancer	DOID:1612	14-27
+estrogen	CHEBI:50114,BAO:0000760	49-57
+progesterone	CHEBI:17026	67-79
+Clinically cancer-free (no evidence of disease) after standard of care therapy (surgery, chemotherapy, radiation therapy as directed by NCCN guidelines). Hormonal therapy will continue per standard of care. Neoadjuvant chemotherapy is allowed.	Eligibility	4
+disease	DOID:4,OGMS:0000031	39-46
+surgery	OAE:0000067	80-87
+directed by	LABO:0000115	124-135
+Recovery from any toxicity(ies) associated with prior adjuvant therapy.	Eligibility	5
+adjuvant	CHEBI:60809	54-62
+HER2 expression of 1+ or 2+ by IHC. FISH or Dual-ISH testing must be performed on IHC 2+ tumors and shown to be non-amplified by FISH (  2.0) or by Dual-ISH (  2.0).	Eligibility	6
+HLA-A2, A3, A24, or A26 positive	Eligibility	7
+LVEF >50%, or an LVEF within the normal limits of the institution's specific testing (MUGA or Echo)	Eligibility	8
+ECOG 0,1	Eligibility	9
+Signed informed consent	Eligibility	10
+Adequate birth control (abstinence, hysterectomy, bilateral oophorectomy, bilateral tubal ligation, oral contraception, IUD, or use of condoms or diaphragms)	Eligibility	11
+bilateral	HP:0012832	50-59
+bilateral	HP:0012832	74-83
+Must start study treatment (receive first Herceptin infusion) 15between 3-12 weeks from completion of standard of care therapy.	Eligibility	12
+4.1.3 Exclusion Criteria	Eligibility	13
+Patients will be excluded from the study based on the following criteria:	Eligibility	14
+excluded	HP:0040285	17-25
+Node-negative breast cancer (AJCC N0 or N0(i+)) unless negative for both estrogen (ER) and progesterone (PR) receptors and has received chemotherapy as standard of care	Eligibility	15
+breast cancer	DOID:1612	14-27
+estrogen	CHEBI:50114,BAO:0000760	73-81
+progesterone	CHEBI:17026	91-103
+Clinical or radiographic evidence of distant or residual breast cancer	Eligibility	16
+breast cancer	DOID:1612	57-70
+HER2 negative (IHC 0) or HER2 3+ or FISHDual-ISH amplified (FISH >2.0); Dual-ISH >2.0	Eligibility	17
+HLA-A2, A3, A24, A26 negative	Eligibility	18
+History of prior Herceptin therapy	Eligibility	19
+history	BFO:0000182	0-7
+NYHA stage 3 or 4 cardiac disease	Eligibility	20
+disease	DOID:4,OGMS:0000031	26-33
+LVEF <50%, or less than the normal limits of the institution's specific testing (MUGA or Echo)	Eligibility	21
+Immune deficiency disease or HIV, HBV, HCV	Eligibility	22
+disease	DOID:4,OGMS:0000031	18-25
+Receiving immunosuppressive therapy including chemotherapy, chronic steroids, methotrexate, or other known immunosuppressive agents	Eligibility	23
+chronic	HP:0011010	60-67
+methotrexate	CHEBI:44185	78-90
+ECOG 2	Eligibility	24
+Tbili >1.8, creatinine>2, hemoglobin<10, platelets<50,000, WBC<2,000	Eligibility	25
+creatinine	CHEBI:16737	12-22
+hemoglobin	CHEBI:35143	26-36
+Pregnancy (assessed by urine HCG)	Eligibility	26
+urine	UBERON:0001088	23-28
+Breast feeding	Eligibility	27
+breast	UBERON:0000310	0-6
+Any active autoimmune disease requiring treatment, with the exception of vitiligo	Eligibility	28
+active	PATO:0002354	4-10
+autoimmune disease	DOID:417	11-29
+vitiligo	HP:0001045,DOID:12306	73-81
+Active pulmonary disease requiring medication to include multiple inhalers	Eligibility	29
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	17-24
+Involved in other experimental protocols (except with permission of the other study PI)	Eligibility	30
+Outcome Measurement:	Results	0
+Disease-free Survival (DFS)	Results	1
+Disease-free survival (DFS) for all patients regardless of randomization will be determined by patients' own physicians at the individual study sites during routine follow-up screening. This will occur every three months for the first 24 months after completion of primary therapies and every six months thereafter with clinical exam, and laboratory and radiographic surveillance. The primary objective of the study is disease-free survival (DFS) at 24 months.	Results	2
+Time frame: Disease-free survival at 24 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Herceptin + NeuVax Vaccine	Results	5
+vaccine	VO:0000001	36-43
+Arm/Group Description: Patients randomized to this arm will receive Herceptin every 3 weeks as monotherapy for 1 year; the first Herceptin infusion will be given no sooner than 3 weeks and no later than 12 weeks after completion of standard of care chemotherapy/radiotherapy. Herceptin will be dosed at the recommended initial loading dose of 8 mg/kg and at recommended maintenance doses of 6 mg/kg q3wk. Patients will receive vaccinations of NeuVax vaccine administered intradermally every 3 weeks for 6 total vaccinations, 30-120 minutes after completion of Herceptin infusion. The NeuVax vaccine series will begin immediately after completion of the third Herceptin infusion, but may be delayed to the fourth or fifth Herceptin infusion with prior approval from the PI. After completion of primary vaccine series, patients will receive NeuVax vaccine booster inoculations to be administered every 6 months x 4 for total treatment duration of 30 months.	Results	6
+year	UO:0000036	113-117
+vaccine	VO:0000001	450-457
+vaccine	VO:0000001	591-598
+vaccine	VO:0000001	801-808
+vaccine	VO:0000001	846-853
+x	LABO:0000148	448-449
+x	LABO:0000148	589-590
+x	LABO:0000148	844-845
+x	LABO:0000148	909-910
+duration	PATO:0001309	933-941
+Overall Number of Participants Analyzed: 136	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants who survived  89.8	Results	9
+Results 2:	Results	10
+Arm/Group Title: Herceptin + GM-CSF Only	Results	11
+Arm/Group Description: Patients randomized to this arm will receive Herceptin every 3 weeks as monotherapy for 1 year. The first Herceptin infusion will be given no sooner than 3 weeks and no later than 12 weeks after completion of standard of care chemotherapy/radiotherapy. Herceptin will be dosed at the recommended initial loading dose of 8 mg/kg and at recommended maintenance doses of 6 mg/kg q3wk. Patients will receive inoculations of GM-CSF only (250mcg) administered intradermally every 3 weeks for 6 total inoculations, 30-120 minutes after completion of Herceptin infusion. The GM-CSF only inoculation series will begin immediately after completion of the third Herceptin infusion. After completion of six-inoculation primary vaccine series, patients will then receive a total of four GM-CSF only booster inoculations to be administered at 12, 18, 24, and 30 months from the date of the first Herceptin infusion.	Results	12
+year	UO:0000036	113-117
+vaccine	VO:0000001	738-745
+Overall Number of Participants Analyzed: 139	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of participants who survived  83.8	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 14/136 (10.29%)	Adverse Events	1
+Anemia [1]1/136 (0.74%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Atrial fibrillation [1]0/136 (0.00%)	Adverse Events	3
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Heart failure [1]1/136 (0.74%)	Adverse Events	4
+heart	UBERON:0000948	0-5
+Sinus tachycardia [1]0/136 (0.00%)	Adverse Events	5
+sinus tachycardia	HP:0011703	0-17
+Colonic hemorrhage [1]1/136 (0.74%)	Adverse Events	6
+Esophageal obstruction [1]0/136 (0.00%)	Adverse Events	7
+esophageal obstruction	HP:0005240	0-22
+Pancreatitis [1]1/136 (0.74%)	Adverse Events	8
+pancreatitis	HP:0001733,DOID:4989	0-12
+Fever [1]1/136 (0.74%)	Adverse Events	9
+fever	HP:0001945	0-5
+Other, specify [1]0/136 (0.00%)	Adverse Events	10
+Allergic reaction [1]0/136 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 12/139 (8.63%)	Adverse Events	13
+Anemia [1]0/139 (0.00%)	Adverse Events	14
+anemia	HP:0001903,DOID:2355	0-6
+Atrial fibrillation [1]1/139 (0.72%)	Adverse Events	15
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Heart failure [1]1/139 (0.72%)	Adverse Events	16
+heart	UBERON:0000948	0-5
+Sinus tachycardia [1]1/139 (0.72%)	Adverse Events	17
+sinus tachycardia	HP:0011703	0-17
+Colonic hemorrhage [1]0/139 (0.00%)	Adverse Events	18
+Esophageal obstruction [1]1/139 (0.72%)	Adverse Events	19
+esophageal obstruction	HP:0005240	0-22
+Pancreatitis [1]0/139 (0.00%)	Adverse Events	20
+pancreatitis	HP:0001733,DOID:4989	0-12
+Fever [1]0/139 (0.00%)	Adverse Events	21
+fever	HP:0001945	0-5
+Other, specify [1]1/139 (0.72%)	Adverse Events	22
+Allergic reaction [1]1/139 (0.72%)	Adverse Events	23

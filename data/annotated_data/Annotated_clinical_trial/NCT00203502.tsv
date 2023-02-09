@@ -1,0 +1,148 @@
+INTERVENTION 1:	Intervention	0
+Intervention: Drug:Docetaxel + Cyclophosphamide + Avastin	Intervention	1
+drug	CHEBI:23888	14-18
+cyclophosphamide	CHEBI:4026	31-47
+Docetaxel 75mg/m2 + Cyclophosphamide 500 mg/m2	Intervention	2
+cyclophosphamide	CHEBI:4026	20-36
++ Avastin 15 mg/kg	Intervention	3
+Q 3 weeks X 4 cycles	Intervention	4
+x	LABO:0000148	10-11
+Bevacizumab/Avastin: IV 15mg/kg 21 days	Intervention	5
+Cyclophosphamide: 500mg per meter squared, IV every 21 days	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+meter	UO:0000008	28-33
+Doxorubicin: 60 mg per meter squared, IV every 21 days	Intervention	7
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+meter	UO:0000008	23-28
+Inclusion Criteria:	Eligibility	0
+The diagnosis of breast cancer established by biopsy.	Eligibility	1
+breast cancer	DOID:1612	17-30
+Normal kidney function	Eligibility	2
+kidney	UBERON:0002113	7-13
+function	BAO:0003117,BFO:0000034	14-22
+Normal LVEF evaluated by MUGA Scan	Eligibility	3
+>18 years of age	Eligibility	4
+age	PATO:0000011	13-16
+Good performance status defined by ECOG scale of 0 or 1	Eligibility	5
+Consent	Eligibility	6
+Women of childbearing potential must have a negative pregnancy test.	Eligibility	7
+Use of effective means of contraception in subjects of child-bearing potential while on treatment and for at least 3 months thereafter.	Eligibility	8
+Peripheral Neuropathy: must be < grade 1	Eligibility	9
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Hematologic (minimal values)	Eligibility	10
+Absolute neutrophil count >1,500/mm3	Eligibility	11
+Hemoglobin >8.0 g/dl	Eligibility	12
+hemoglobin	CHEBI:35143	0-10
+Platelet count >100,000/mm3	Eligibility	13
+platelet count	CMO:0000029	0-14
+Hepatic	Eligibility	14
+Total bilirubin <ULN	Eligibility	15
+AST, ALT, Alkaline Phosphatase must be within range	Eligibility	16
+phosphatase	GO:0016791,BAO:0000295	19-30
+range	LABO:0000114	46-51
+Exclusion Criteria:	Eligibility	17
+Patients with locally advanced breast cancer with skin ulcerations	Eligibility	18
+breast cancer	DOID:1612	31-44
+Stage IV breast cancer	Eligibility	19
+breast cancer	DOID:1612	9-22
+Inflammatory breast cancer	Eligibility	20
+breast cancer	DOID:1612	13-26
+Allergy to any component of the treatment regimen	Eligibility	21
+allergy	HP:0012393	0-7
+Women who are breast feeding	Eligibility	22
+breast	UBERON:0000310	14-20
+Pregnancy or refusal to use effective contraception	Eligibility	23
+Inability to comply with study and/or follow-up procedures.	Eligibility	24
+Current, recent, or planned participation in a experimental drug study	Eligibility	25
+drug	CHEBI:23888	60-64
+Blood pressure of >150/100 mmHg. Essential hypertension well controlled with anti hypertensives is not an exclusion criterion.	Eligibility	26
+blood	UBERON:0000178	0-5
+essential hypertension	DOID:10825	33-55
+unstable angina	Eligibility	27
+New York Heart Association Grade II or greater congestive heart failure	Eligibility	28
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	58-63
+congestive heart failure	HP:0001635,DOID:6000	47-71
+history of myocardial infarction within 6 months	Eligibility	29
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+history of stroke within 6 months	Eligibility	30
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+Clinical significant peripheral vascular disease	Eligibility	31
+peripheral vascular disease	DOID:341	21-48
+Evidence of bleeding diathesis or coagulopathy	Eligibility	32
+Presence of central nervous system or brain metastasis	Eligibility	33
+central nervous system	UBERON:0001017	12-34
+brain	UBERON:0000955	38-43
+major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to day 0	Eligibility	34
+day	UO:0000033	81-84
+day	UO:0000033	95-98
+Minor surgical procedure such as fine needle aspirations or core biopsy within 7 days prior to day 0	Eligibility	35
+day	UO:0000033	81-84
+day	UO:0000033	95-98
+Pregnant or lactating	Eligibility	36
+Urine protein: creatinine ratio >1.0 at screening	Eligibility	37
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	15-25
+ratio	UO:0000190	26-31
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to Day 0	Eligibility	38
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+day	UO:0000033	112-115
+Serious, non-healing wound, ulcer, or bone fracture	Eligibility	39
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+Outcome Measurement:	Results	0
+Percentage of Participants With Pathological Complete Response.	Results	1
+Pathological complete response was defined as the absence of residual invasive and in situ cancer on hematoxylin and eosin evaluation of the resected breast.	Results	2
+cancer	DOID:162	91-97
+breast	UBERON:0000310	150-156
+Time frame: Participants were assessed during surgery, an average of one hour	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	46-53
+hour	UO:0000032	73-77
+Results 1:	Results	4
+Arm/Group Title: Intervention: Drug:Docetaxel + Cyclophosphamide + Avastin	Results	5
+drug	CHEBI:23888	31-35
+cyclophosphamide	CHEBI:4026	48-64
+Arm/Group Description: Docetaxel 75mg/m2 + Cyclophosphamide 500 mg/m2	Results	6
+cyclophosphamide	CHEBI:4026	43-59
++ Avastin 15 mg/kg	Results	7
+Q 3 weeks X 4 cycles	Results	8
+x	LABO:0000148	10-11
+Bevacizumab/Avastin: IV 15mg/kg 21 days	Results	9
+Cyclophosphamide: 500mg per meter squared, IV every 21 days	Results	10
+cyclophosphamide	CHEBI:4026	0-16
+meter	UO:0000008	28-33
+Doxorubicin: 60 mg per meter squared, IV every 21 days	Results	11
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+meter	UO:0000008	23-28
+Overall Number of Participants Analyzed: 39	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: percentage of evaluable patients  41        (27.7 to 55.4)	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 39/39 (100.00%)	Adverse Events	1
+Febrile Neutropenia  1/39 (2.56%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Heart failure  1/39 (2.56%)	Adverse Events	3
+heart	UBERON:0000948	0-5
+Diarrhea  3/39 (7.69%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Nausea/vomiting  4/39 (10.26%)	Adverse Events	5
+Mucositis  3/39 (7.69%)	Adverse Events	6
+mucositis	DOID:0080178	0-9
+Fatigue  4/39 (10.26%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+infection  3/39 (7.69%)	Adverse Events	8
+Urinary tract infection  2/39 (5.13%)	Adverse Events	9
+urinary tract infection	DOID:0080784	0-23
+Musculoskeletal pain  6/39 (15.38%)	Adverse Events	10
+pain	HP:0012531	16-20
+Syncope  1/39 (2.56%)	Adverse Events	11
+syncope	HP:0001279	0-7
+Insomnia  3/39 (7.69%)	Adverse Events	12
+insomnia	HP:0100785	0-8
+Anxiety  2/39 (5.13%)	Adverse Events	13
+anxiety	HP:0000739,DOID:2030	0-7

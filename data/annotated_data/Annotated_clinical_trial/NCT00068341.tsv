@@ -1,0 +1,148 @@
+INTERVENTION 1:	Intervention	0
+Arm I: HER2+	Intervention	1
+(Pre-Op TCH)	Intervention	2
+INTERVENTION 2:	Intervention	3
+Arm II: HER2+	Intervention	4
+(Pre-Op TC, Post-Op Herceptin)	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Confirmed infiltrating adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	23-37
+breast	UBERON:0000310	45-51
+Primary breast cancer > 5cm, or skin/chest wall involvement, any N, without evidence of metastasis.	Eligibility	2
+breast cancer	DOID:1612	8-21
+No prior radiation to the involved breast	Eligibility	3
+breast	UBERON:0000310	35-41
+ECOG (Electrocochleography) performance status 0-2	Eligibility	4
+Age 18 years to 80 years	Eligibility	5
+age	PATO:0000011	0-3
+Absolute Neutrophil count > 1500 cell/μl, platelet count > 100000 cells/μl and hemoglobin > 9 g/dl	Eligibility	6
+platelet count	CMO:0000029	42-56
+hemoglobin	CHEBI:35143	79-89
+All liver function tests < upper limit of normal	Eligibility	7
+liver	UBERON:0002107	4-9
+function	BAO:0003117,BFO:0000034	10-18
+Serum creatinine < 2.0 mg/dl	Eligibility	8
+creatinine	CHEBI:16737	6-16
+Normal left ventricular ejection fraction (LVEF) as determined by MUGA (Multiple Gated Acquisition) scan or echocardiogram	Eligibility	9
+left	HP:0012835	7-11
+ejection fraction	CMO:0000180	24-41
+HER-2/neu status is determined by a FISH (Fluorescence in situ hybridization) test. [FISH (+) is HER-2/neu (+)]	Eligibility	10
+If female of childbearing potential, pregnancy test is negative	Eligibility	11
+female	PATO:0000383	3-9
+If premenopausal and not surgically sterilized, the patient agrees to use effective birth control method for the duration of the study	Eligibility	12
+patient	HADO:0000008,OAE:0001817	52-59
+duration	PATO:0001309	113-121
+Informed consent has been obtained	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Non-confirmed infiltrating adenocarcinoma breast cancer	Eligibility	15
+adenocarcinoma	DOID:299	27-41
+breast cancer	DOID:1612	42-55
+Evidence of metastasis	Eligibility	16
+Previous chemotherapy using the drugs proposed in this study, specifically Herceptin®, Taxotere®, and/or Carboplatin	Eligibility	17
+carboplatin	CHEBI:31355	105-116
+Prior radiation to the involved breast	Eligibility	18
+breast	UBERON:0000310	32-38
+Recent breast cancer drug therapy within last 5 years of any form	Eligibility	19
+breast cancer	DOID:1612	7-20
+drug	CHEBI:23888	21-25
+History of allergy to polysorbate or castor oil	Eligibility	20
+history	BFO:0000182	0-7
+allergy	HP:0012393	11-18
+polysorbate	CHEBI:53426	22-33
+castor oil	CHEBI:140618	37-47
+Ongoing active infection	Eligibility	21
+active	PATO:0002354	8-14
+Concurrent life-limiting disease with a life expectancy of less than one year	Eligibility	22
+disease	DOID:4,OGMS:0000031	25-32
+year	UO:0000036	73-77
+Past or current history of other malignancy within the past 5 years which could affect the diagnosis or assessment of breast cancer, except for curatively treated non-melanoma skin cancer and/or in situ carcinoma of the cervix	Eligibility	23
+history	BFO:0000182	16-23
+breast cancer	DOID:1612	118-131
+skin cancer	DOID:4159	176-187
+in situ carcinoma	DOID:8719	195-212
+Pregnancy, nursing, fertile women who do not use birth control device	Eligibility	24
+Inability to give informed consent	Eligibility	25
+Patients with pre-existing peripheral neuropathy > grade 2	Eligibility	26
+peripheral neuropathy	HP:0009830,DOID:870	27-48
+Outcome Measurement:	Results	0
+Evaluate the Objective Response Rate of Patients Treated With Taxotere/Carboplatin With or Without Herceptin Preoperatively.	Results	1
+rate	BAO:0080019	32-36
+Objective response rate of patients treated with Taxotere/carboplatin with or without Herceptin preoperatively. Objective response equals the combination of complete response (CR), partial response (PR) and marginal response (MR).	Results	2
+rate	BAO:0080019	19-23
+Tumor size was assessed by (1) physical examination, (2) mammography and (3) MRI. 5 response groups: complete response (CR), partial response (PR), marginal response (MR), stable disease (SD) & disease progression (DP). Pathologic response assigned into 2 groups: pCR and non-pCR. pCR-no evidence of residual invasive disease in specimen.	Results	3
+size	PATO:0000117	6-10
+physical examination	OAE:0004232	31-51
+stable	HP:0031915	172-178
+disease	DOID:4,OGMS:0000031	179-186
+disease	DOID:4,OGMS:0000031	194-201
+disease	DOID:4,OGMS:0000031	318-325
+Time frame: 5 years	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Arm I: HER2+	Results	6
+Arm/Group Description: (Pre-Op TCH)	Results	7
+Overall Number of Participants Analyzed: 15	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  DFS (Disease Free Survival): 13	Results	10
+disease	DOID:4,OGMS:0000031	36-43
+OS (overall survival): 13	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm II: HER2+	Results	13
+Arm/Group Description: (Pre-Op TC, Post-Op Herceptin)	Results	14
+Overall Number of Participants Analyzed: 14	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: participants  DFS (Disease Free Survival): 8	Results	17
+disease	DOID:4,OGMS:0000031	36-43
+OS (overall survival): 11	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 6/15 (40.00%)	Adverse Events	1
+diarrhea and dehydration * 0/15 (0.00%)	Adverse Events	2
+diarrhea	HP:0002014,DOID:13250	0-8
+dehydration	HP:0001944	13-24
+Severe Dehydration * 1/15 (6.67%)	Adverse Events	3
+severe	HP:0012828	0-6
+dehydration	HP:0001944	7-18
+hypokalemia * 1/15 (6.67%)	Adverse Events	4
+hypokalemia	HP:0002900,DOID:4500	0-11
+pain, swelling, mastectomy site cellulitis * 0/15 (0.00%)	Adverse Events	5
+pain	HP:0012531	0-4
+site	BFO:0000029	27-31
+cellulitis	HP:0100658,DOID:3488	32-42
+death progressive disease * 0/15 (0.00%)	Adverse Events	6
+death	OAE:0000632	0-5
+progressive	HP:0003676	6-17
+disease	DOID:4,OGMS:0000031	18-25
+divetricular abscess * 0/15 (0.00%)	Adverse Events	7
+abscess	HP:0025615	13-20
+fever * 1/15 (6.67%)	Adverse Events	8
+fever	HP:0001945	0-5
+febrile neutropenia * 3/15 (20.00%)	Adverse Events	9
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/15 (0.00%)	Adverse Events	10
+neutropenia	HP:0001875,DOID:1227	0-11
+Adverse Events 2:	Adverse Events	11
+Total: 4/14 (28.57%)	Adverse Events	12
+diarrhea and dehydration * 0/14 (0.00%)	Adverse Events	13
+diarrhea	HP:0002014,DOID:13250	0-8
+dehydration	HP:0001944	13-24
+Severe Dehydration * 0/14 (0.00%)	Adverse Events	14
+severe	HP:0012828	0-6
+dehydration	HP:0001944	7-18
+hypokalemia * 0/14 (0.00%)	Adverse Events	15
+hypokalemia	HP:0002900,DOID:4500	0-11
+pain, swelling, mastectomy site cellulitis * 0/14 (0.00%)	Adverse Events	16
+pain	HP:0012531	0-4
+site	BFO:0000029	27-31
+cellulitis	HP:0100658,DOID:3488	32-42
+death progressive disease * 1/14 (7.14%)	Adverse Events	17
+death	OAE:0000632	0-5
+progressive	HP:0003676	6-17
+disease	DOID:4,OGMS:0000031	18-25
+divetricular abscess * 0/14 (0.00%)	Adverse Events	18
+abscess	HP:0025615	13-20
+fever * 0/14 (0.00%)	Adverse Events	19
+fever	HP:0001945	0-5
+febrile neutropenia * 2/14 (14.29%)	Adverse Events	20
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/14 (0.00%)	Adverse Events	21
+neutropenia	HP:0001875,DOID:1227	0-11

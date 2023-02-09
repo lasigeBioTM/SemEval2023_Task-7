@@ -1,0 +1,87 @@
+INTERVENTION 1:	Intervention	0
+NIR/US (Neoadjuvant Chemotherapy Cohort)	Intervention	1
+Patients will have the NIR/US baseline scan performed before their first treatment. The desirable schedule will be >= 7 days after initial biopsy to avoid confounding effects from the biopsy related acute inflammatory response.	Intervention	2
+acute inflammatory response	GO:0002526	199-226
+In addition, patients will also have NIR/US performed at end of cycle 1, end of cycle 2, end of cycle 3, end of cycle 5 (only if treatment regimen changed), and prior to surgery.	Intervention	3
+surgery	OAE:0000067	170-177
+The number of NIR/US study visits may vary (5-6) depending on the patient's treatment regimen	Intervention	4
+patient	HADO:0000008,OAE:0001817	66-73
+INTERVENTION 2:	Intervention	5
+NIR/US (Neoadjuvant Endocrine Cohort)	Intervention	6
+Patients will have the NIR/US baseline scan performed before their first treatment. The desirable schedule will be >= 7 days after initial biopsy to avoid confounding effects from the biopsy related acute inflammatory response.	Intervention	7
+acute inflammatory response	GO:0002526	199-226
+In addition, patients will also have NIR/US performed at end of cycle 1, end of cycle 2, end of cycle 3, at time of treatment regimen change (only intended for those who have had a change in their regimen), and prior to surgery.	Intervention	8
+time	PATO:0000165	108-112
+surgery	OAE:0000067	220-227
+The number of NIR/US study visits may vary (5-6) depending on the patient's treatment regimen	Intervention	9
+patient	HADO:0000008,OAE:0001817	66-73
+Inclusion Criteria:	Eligibility	0
+Scheduled to receive neoadjuvant chemotherapy for the treatment of newly diagnosed, locally advanced breast cancer or scheduled to receive neoadjuvant endocrine therapy with the eventual goal of surgery of newly diagnosed clinical stage II-III ER+ HER2- breast cancer (for the endocrine therapy cohort)	Eligibility	1
+breast cancer	DOID:1612	101-114
+breast cancer	DOID:1612	254-267
+surgery	OAE:0000067	195-202
+At least 18 years of age	Eligibility	2
+age	PATO:0000011	21-24
+Female	Eligibility	3
+female	PATO:0000383	0-6
+Able to understand and willing to sign an IRB-approved written informed consent document	Eligibility	4
+document	IAO:0000310	80-88
+Exclusion Criteria:	Eligibility	5
+Pregnant and/or breastfeeding	Eligibility	6
+Prior history of breast cancer	Eligibility	7
+history	BFO:0000182	6-13
+breast cancer	DOID:1612	17-30
+Prior history of chest wall radiation	Eligibility	8
+history	BFO:0000182	6-13
+chest	UBERON:0001443	17-22
+Prior history of breast reconstruction, reduction, or augmentation	Eligibility	9
+history	BFO:0000182	6-13
+breast	UBERON:0000310	17-23
+Outcome Measurement:	Results	0
+Pathologic Response Based on Miller-Payne Grading System	Results	1
+In the Miller-Payne system, the pathologic response is divided into 5 grades based on comparison of tumor cellularity between pre-neoadjuvant core biopsy and definitive surgical specimen as:	Results	2
+grade 1: no change or some alteration to individual malignant cells but no reduction in overall cellularity (pNR)	Results	3
+grade 2: a minor loss of tumor cells but overall cellularity still high; up to 30% (pPR)	Results	4
+grade 3: between an estimated 30% and 90% reduction in tumor cells (pPR)	Results	5
+grade 4: a marked disappearance of tumor cells such that only small clusters or widely dispersed individual cells remain (almost pCR); more than 90% loss of tumor cells	Results	6
+grade 5: no malignant cells identifiable in sections from the site of the tumor; only vascular fibroelastonic stroma remains often containing macrophages (pCR) (however, ductal carcinoma in situ (DCIS) may be present)	Results	7
+site	BFO:0000029	62-66
+ductal carcinoma in situ	HP:0030075,DOID:0060074	170-194
+present	PATO:0000467	209-216
+Time frame: Up to 6 months	Results	8
+time	PATO:0000165	0-4
+Results 1:	Results	9
+Arm/Group Title: NIR/US (Neoadjuvant Chemotherapy Cohort)	Results	10
+Arm/Group Description: Patients will have the NIR/US baseline scan performed before their first treatment. The desirable schedule will be >= 7 days after initial biopsy to avoid confounding effects from the biopsy related acute inflammatory response.	Results	11
+acute inflammatory response	GO:0002526	222-249
+In addition, patients will also have NIR/US performed at end of cycle 1, end of cycle 2, end of cycle 3, end of cycle 5 (only if treatment regimen changed), and prior to surgery.	Results	12
+surgery	OAE:0000067	170-177
+The number of NIR/US study visits may vary (5-6) depending on the patient's treatment regimen	Results	13
+patient	HADO:0000008,OAE:0001817	66-73
+Overall Number of Participants Analyzed: 37	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  Grade 1: 4  10.8%	Results	16
+Grade 2: 3   8.1%	Results	17
+Grade 3: 8  21.6%	Results	18
+Grade 4: 3   8.1%	Results	19
+Grade 5: 19  51.4%	Results	20
+Results 2:	Results	21
+Arm/Group Title: NIR/US (Neoadjuvant Endocrine Cohort)	Results	22
+Arm/Group Description: Patients will have the NIR/US baseline scan performed before their first treatment. The desirable schedule will be >= 7 days after initial biopsy to avoid confounding effects from the biopsy related acute inflammatory response.	Results	23
+acute inflammatory response	GO:0002526	222-249
+In addition, patients will also have NIR/US performed at end of cycle 1, end of cycle 2, end of cycle 3, at time of treatment regimen change (only intended for those who have had a change in their regimen), and prior to surgery.	Results	24
+time	PATO:0000165	108-112
+surgery	OAE:0000067	220-227
+The number of NIR/US study visits may vary (5-6) depending on the patient's treatment regimen	Results	25
+patient	HADO:0000008,OAE:0001817	66-73
+Overall Number of Participants Analyzed: 1	Results	26
+Measure Type: Count of Participants	Results	27
+Unit of Measure: Participants  Grade 1: 1 100.0%	Results	28
+Grade 2: 0   0.0%	Results	29
+Grade 3: 0   0.0%	Results	30
+Grade 4: 0   0.0%	Results	31
+Grade 5: 0   0.0%	Results	32
+Adverse Events 1:	Adverse Events	0
+Total: 0/39 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/1 (0.00%)	Adverse Events	3

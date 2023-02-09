@@ -1,0 +1,133 @@
+INTERVENTION 1:	Intervention	0
+Eribulin Mesylate in Combination With Trastuzumab	Intervention	1
+eribulin mesylate	CHEBI:70710	0-17
+Eribulin Mesylate: Eribulin mesylate 1.4 mg/m^2 was administered as an intravenous (IV) infusion (over 2 to 5 minutes) on Days 1 and 8 of each 3-week cycle.	Intervention	2
+eribulin mesylate	CHEBI:70710	0-17
+eribulin mesylate	CHEBI:70710	19-36
+Trastuzumab 8 mg/kg was administered as in IV infusion over a 90-minute period on Day 1 of Cycle 1. Thereafter, trastuzumab 6 mg/kg was administered as an IV infusion over a 30-minute period on Day 1 of each subsequent 21-day cycle.	Intervention	3
+day	UO:0000033	82-85
+day	UO:0000033	194-197
+day	UO:0000033	222-225
+Key Inclusion criteria:	Eligibility	0
+Age 18 years or older	Eligibility	1
+age	PATO:0000011	0-3
+Histologically or cytologically proven adenocarcinoma of the breast	Eligibility	2
+adenocarcinoma	DOID:299	39-53
+breast	UBERON:0000310	61-67
+Subjects who have locally recurrent or metastatic disease with at least one measurable lesion	Eligibility	3
+recurrent	HP:0031796	26-35
+disease	DOID:4,OGMS:0000031	50-57
+HER2 positive as determined by score of 3 on immunohistochemistry (IHC) staining or gene amplification by fluorescence in situ hybridization (FISH).	Eligibility	4
+immunohistochemistry	BAO:0000415	45-65
+gene	BAO:0000582	84-88
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) score of 0, 1 or 2	Eligibility	5
+group	CHEBI:24433	29-34
+At least 12 months since prior neoadjuvant or adjuvant chemotherapy	Eligibility	6
+adjuvant	CHEBI:60809	34-42
+adjuvant	CHEBI:60809	46-54
+At least 2 weeks since prior radiotherapy, endocrine therapy, trastuzumab, or lapatinib, with complete recovery from the effects of these interventions	Eligibility	7
+radiotherapy	OAE:0000235	29-41
+lapatinib	CHEBI:49603	78-87
+Adequate renal function	Eligibility	8
+function	BAO:0003117,BFO:0000034	15-23
+Adequate bone marrow function	Eligibility	9
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Adequate liver function	Eligibility	10
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Adequate cardiac function	Eligibility	11
+function	BAO:0003117,BFO:0000034	17-25
+Key Exclusion criteria:	Eligibility	12
+Prior chemotherapy, biologic therapy, or investigational therapy for locally recurrent or metastatic HER2 breast cancer.	Eligibility	13
+recurrent	HP:0031796	77-86
+breast cancer	DOID:1612	106-119
+Subjects who have had a prior malignancy other than carcinoma in situ of the cervix, or nonmelanoma skin cancer	Eligibility	14
+carcinoma	HP:0030731,DOID:305	52-61
+skin cancer	DOID:4159	100-111
+Prior exposure to greater than 360 mg/m2 doxorubicin or liposomal doxorubicin, greater than 120 mg/m2 mitoxantrone, greater than 90 mg/m2 idarubicin, or greater than 720 mg/m2 epirubicin	Eligibility	15
+doxorubicin	CHEBI:28748,BAO:0000639	41-52
+doxorubicin	CHEBI:28748,BAO:0000639	66-77
+mitoxantrone	CHEBI:50729	102-114
+idarubicin	CHEBI:42068	138-148
+Inflammatory breast cancer	Eligibility	16
+breast cancer	DOID:1612	13-26
+Prior history of hypertensive crisis or hypertensive encephalopathy	Eligibility	17
+history	BFO:0000182	6-13
+hypertensive crisis	HP:0100735	17-36
+hypertensive encephalopathy	DOID:9427	40-67
+Clinically significant cardiovascular impairment	Eligibility	18
+Subjects with known central nervous system (CNS) disease are not eligible, except for those subjects with treated brain metastasis.	Eligibility	19
+central nervous system	UBERON:0001017	20-42
+disease	DOID:4,OGMS:0000031	49-56
+brain	UBERON:0000955	114-119
+Subjects with metastatic disease limited to bone are ineligible unless there is at least one lytic lesion with identifiable soft tissue components that can be evaluated by computed tomography (CT) or magnetic resonance imaging (MRI)	Eligibility	20
+disease	DOID:4,OGMS:0000031	25-32
+tissue	UBERON:0000479	129-135
+tomography	BAO:0002525	181-191
+ct	BAO:0002125	5-7
+ct	BAO:0002125	193-195
+Pulmonary lymphangitic involvement that results in pulmonary dysfunction requiring the use of oxygen	Eligibility	21
+History of bleeding diasthesis	Eligibility	22
+history	BFO:0000182	0-7
+Currently pregnant or breast-feeding.	Eligibility	23
+Subjects with preexisting Grade 3 or 4 neuropathy. Any peripheral neuropathy must recover to Grade less than or equal to 2 before enrollment	Eligibility	24
+neuropathy	DOID:870	39-49
+neuropathy	DOID:870	66-76
+peripheral neuropathy	HP:0009830,DOID:870	55-76
+Outcome Measurement:	Results	0
+Objective Response Rate	Results	1
+rate	BAO:0080019	19-23
+The Objective Response Rate (Complete Response plus Partial Response, (CR + PR)) was defined as the proportion of participants who have a best overall response of confirmed CR or PR based on Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 as assessed by the Investigator. Tumor assessment was by computed tomography (CT)/magnetic resonance imaging (MRI). To assess best response (CR, PR, stable disease (SD), progressive disease (PD), or not estimable (NE)), the Investigator selected up to five measurable target lesions (2 per organ). All other lesions were identified as nontarget lesions. Each participant's overall tumor burden at Baseline was compared with subsequent measurements of the target lesions. For participants with CR or PR, changes in tumor sizes had to be confirmed by repeat evaluations performed not fewer than four weeks after the initial response assessment.	Results	2
+rate	BAO:0080019	23-27
+tomography	BAO:0002525	323-333
+ct	BAO:0002125	8-10
+ct	BAO:0002125	335-337
+ct	BAO:0002125	498-500
+stable	HP:0031915	406-412
+disease	DOID:4,OGMS:0000031	413-420
+disease	DOID:4,OGMS:0000031	439-446
+progressive	HP:0003676	427-438
+target	BAO:0003064	525-531
+target	BAO:0003064	595-601
+target	BAO:0003064	712-718
+organ	UBERON:0000062	547-552
+Time frame: Baseline (within 28 days of first infusion of study drug); Treatment Phase (every 6 weeks during the first 6 cycles); Extension Phase (every 12 weeks) to PR or CR	Results	3
+time	PATO:0000165	0-4
+drug	CHEBI:23888	64-68
+Results 1:	Results	4
+Arm/Group Title: Eribulin Mesylate in Combination With Trastuzumab	Results	5
+eribulin mesylate	CHEBI:70710	17-34
+Arm/Group Description: Eribulin Mesylate: Eribulin mesylate 1.4 mg/m^2 was administered as an intravenous (IV) infusion (over 2 to 5 minutes) on Days 1 and 8 of each 3-week cycle.	Results	6
+eribulin mesylate	CHEBI:70710	23-40
+eribulin mesylate	CHEBI:70710	42-59
+Trastuzumab 8 mg/kg was administered as in IV infusion over a 90-minute period on Day 1 of Cycle 1. Thereafter, trastuzumab 6 mg/kg was administered as an IV infusion over a 30-minute period on Day 1 of each subsequent 21-day cycle.	Results	7
+day	UO:0000033	82-85
+day	UO:0000033	194-197
+day	UO:0000033	222-225
+Overall Number of Participants Analyzed: 52	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: Percentage of participants  71.2        (56.92 to 82.87)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 15/52 (28.85%)	Adverse Events	1
+Anaemia * 1/52 (1.92%)	Adverse Events	2
+Febrile neutropenia 24/52 (7.69%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 28/52 (15.38%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Cardiac failure chronic 21/52 (1.92%)	Adverse Events	5
+chronic	HP:0011010	16-23
+Vomiting 23/52 (5.77%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Diarrhoea 21/52 (1.92%)	Adverse Events	7
+Gastric ulcer 21/52 (1.92%)	Adverse Events	8
+gastric ulcer	HP:0002592,DOID:10808	0-13
+Gastritis 21/52 (1.92%)	Adverse Events	9
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea 21/52 (1.92%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Fatigue 21/52 (1.92%)	Adverse Events	11
+fatigue	HP:0012378	0-7
+Pyrexia 21/52 (1.92%)	Adverse Events	12
+Gastroenteritis 21/52 (1.92%)	Adverse Events	13
+gastroenteritis	DOID:2326	0-15

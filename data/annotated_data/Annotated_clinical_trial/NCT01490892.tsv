@@ -1,0 +1,89 @@
+INTERVENTION 1:	Intervention	0
+3D HI and SHI of UCA	Intervention	1
+Perflutren injection, suspension (IV)0.25 ml followed by 3D Harmonic imaging (HI) then (IV) 20 micro-l/kg followed by 3D subharmonic imaging (SHI)	Intervention	2
+suspension	BAO:0002104	22-32
+3D HI and SHI of UCA: Perflutren injection, suspension (IV)0.25 ml followed by 3D Harmonic imaging (HI) then (IV) 20 micro-l/kg followed by 3D subharmonic imaging (SHI)	Intervention	3
+suspension	BAO:0002104	44-54
+Inclusion Criteria:	Eligibility	0
+Be a female diagnosed by x-ray mammography (performed within 90 days prior to the study procedure) as having a solid breast mass or abnormal area without a mass.	Eligibility	1
+female	PATO:0000383	5-11
+breast mass	HP:0032408	117-128
+area	PATO:0001323	141-145
+Be scheduled for a biopsy (core / excisional / lumpectomy) of the mass or region of abnormality or for mastectomy within 30 days after this study procedure.	Eligibility	2
+Be at least 18 years of age.	Eligibility	3
+age	PATO:0000011	24-27
+Be medically stable.	Eligibility	4
+stable	HP:0031915	13-19
+If a female of child-bearing potential, must have a negative pregnancy test.	Eligibility	5
+female	PATO:0000383	5-11
+Have signed Informed Consent to participate in the study.	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Males	Eligibility	8
+Females who are pregnant or nursing.	Eligibility	9
+Patients whose breast lesion is unequivocally a cyst by unenhanced US.	Eligibility	10
+breast	UBERON:0000310	15-21
+Patients currently on chemotherapy or with other primary cancers requiring systemic treatment.	Eligibility	11
+Patients who are medically unstable, patients who are seriously or terminally ill, and patients whose clinical course is unpredictable. For example:	Eligibility	12
+clinical course	HP:0031797	102-117
+Patients on life support or in a critical care unit.	Eligibility	13
+Patients with unstable occlusive disease (eg, crescendo angina)	Eligibility	14
+disease	DOID:4,OGMS:0000031	33-40
+Patients with clinically unstable cardiac arrhythmias, such as recurrent ventricular tachycardia.	Eligibility	15
+recurrent	HP:0031796	63-72
+ventricular tachycardia	HP:0004756	73-96
+Patients with uncontrolled congestive heart failure (NYHA Class IV)	Eligibility	16
+congestive heart failure	HP:0001635,DOID:6000	27-51
+Patients with recent cerebral hemorrhage.	Eligibility	17
+cerebral hemorrhage	HP:0001342	21-40
+Patients with clinically significant and unstable renal and/or liver disease (eg, transplant recipients in rejection)	Eligibility	18
+liver disease	DOID:409	63-76
+Patients who have undergone surgery within 24 hours prior to the study sonographic examination.	Eligibility	19
+surgery	OAE:0000067	28-35
+Patients with known hypersensitivity to perflutren	Eligibility	20
+hypersensitivity	GO:0002524,DOID:1205	20-36
+Patients who have received any contrast medium (X-ray, MRI, CT, of US) in the 24 hours prior to the research US exam	Eligibility	21
+ct	BAO:0002125	60-62
+Patients with cardiac shunts.	Eligibility	22
+Patients with congenital heart defects.	Eligibility	23
+heart	UBERON:0000948	25-30
+Patients with severe emphysema, pulmonary vasculitis, or a history of pulmonary emboli.	Eligibility	24
+severe	HP:0012828	14-20
+emphysema	HP:0002097	21-30
+vasculitis	HP:0002633,DOID:865	42-52
+history	BFO:0000182	59-66
+Patients with confirmed or suspected liver lesions.	Eligibility	25
+liver	UBERON:0002107	37-42
+Patients with respiratory distress syndrome.	Eligibility	26
+respiratory distress	HP:0002098	14-34
+syndrome	DOID:225	35-43
+Patients who have had excisional biopsy/lumpectomy of the current area of interest within the past 6 weeks.	Eligibility	27
+area	PATO:0001323	66-70
+Outcome Measurement:	Results	0
+Number of Breast Cancer Lesions Characterized as Malignant or Benign With 3D SHI, Harmonic Imaging (HI) or Power Doppler Imaging (PDI)	Results	1
+breast cancer	DOID:1612	10-23
+Characterization of benign and malignant breast cancer lesions is compared by each imaging method which evaluates vascular activity. Imaging methods to be compared are 3D Subharmonic imaging (SHI) or pulse inversion harmonic imaging (HI), fundamental grayscale ultrasound (US) or power Doppler imaging (PDI). Data will be analyzed qualitatively.	Results	2
+breast cancer	DOID:1612	41-54
+imaging method	BAO:0000452	83-97
+imaging method	BAO:0000452	133-147
+pulse	CMO:0000294	200-205
+Time frame: 2 hours	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: 3D HI and SHI of UCA	Results	5
+Arm/Group Description: Perflutren injection, suspension (IV)0.25 ml followed by 3D Harmonic imaging (HI) then (IV) 20 micro-l/kg followed by 3D subharmonic imaging (SHI)	Results	6
+suspension	BAO:0002104	45-55
+3D HI and SHI of UCA: Perflutren injection, suspension (IV)0.25 ml followed by 3D Harmonic imaging (HI) then (IV) 20 micro-l/kg followed by 3D subharmonic imaging (SHI)	Results	7
+suspension	BAO:0002104	44-54
+Overall Number of Participants Analyzed: 219	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: lesions  Power Doppler Imaging (PDI) : Benign: 69	Results	10
+Power Doppler Imaging (PDI) : Malignant: 24	Results	11
+Power Doppler Imaging (PDI) : Not Characterized: 126	Results	12
+3D SHI : Benign: 58	Results	13
+3D SHI : Malignant: 25	Results	14
+3D SHI : Not Characterized: 136	Results	15
+Harmonic Imaging (HI) : Benign: 3	Results	16
+Harmonic Imaging (HI) : Malignant: 5	Results	17
+Harmonic Imaging (HI) : Not Characterized: 211	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 0/219 (0.00%)	Adverse Events	1

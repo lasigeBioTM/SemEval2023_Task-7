@@ -1,0 +1,157 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Pazopanib Hydrochloride)	Intervention	1
+pazopanib hydrochloride	CHEBI:71217	11-34
+Patients receive oral pazopanib once daily on days 1-28. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+pazopanib	CHEBI:71219	22-31
+disease	DOID:4,OGMS:0000031	104-111
+pazopanib hydrochloride: Given orally	Intervention	3
+pazopanib hydrochloride	CHEBI:71217	0-23
+pharmacological study: Correlative studies	Intervention	4
+laboratory biomarker analysis: Correlative studies	Intervention	5
+biomarker	CHEBI:59163	11-20
+Criteria:	Eligibility	0
+No prior bevacizumab	Eligibility	1
+Histologically or cytologically confirmed invasive breast carcinoma (recurrent or metastatic disease)	Eligibility	2
+breast carcinoma	HP:0003002,DOID:3459	51-67
+recurrent	HP:0031796	69-78
+disease	DOID:4,OGMS:0000031	93-100
+Measurable disease, defined as >= 1 unidimensionally measurable lesion >= 20 mm by conventional techniques or >= 10 mm by spiral CT scan	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+ct	BAO:0002125	129-131
+Patients who may still benefit from hormonal therapy are ineligible (patients with hormone receptor-positive breast cancer should have received appropriate sequential hormonal therapy for metastatic disease until disease progression)	Eligibility	4
+hormone	CHEBI:24621	83-90
+breast cancer	DOID:1612	109-122
+disease	DOID:4,OGMS:0000031	199-206
+disease	DOID:4,OGMS:0000031	213-220
+Patients with HER-2 positive disease who have not yet received trastuzumab (Herceptin®) to maximal benefit are ineligible (patients with disease progression during trastuzumab therapy are eligible)	Eligibility	5
+disease	DOID:4,OGMS:0000031	29-36
+disease	DOID:4,OGMS:0000031	137-144
+No known brain metastases	Eligibility	6
+brain	UBERON:0000955	9-14
+ECOG performance status (PS) 0-1 or Karnofsky PS 60-100%	Eligibility	7
+Life expectancy > 12 weeks	Eligibility	8
+Absolute neutrophil count >= 1,500/mm³	Eligibility	9
+Platelets >=100,000/mm³	Eligibility	10
+Total bilirubin normal (exception made for patients with known Gilbert's disease)	Eligibility	11
+disease	DOID:4,OGMS:0000031	73-80
+AST/ALT =< 2.5 times upper limit of normal (ULN)	Eligibility	12
+No proteinuria > +1 on two consecutive dipsticks taken >= 1 week apart	Eligibility	13
+proteinuria	HP:0000093,DOID:576	3-14
+week	UO:0000034	60-64
+PT/INR/PTT =< 1.2 times ULN	Eligibility	14
+No allergic reactions attributed to compounds of similar chemical or biologic composition to pazopanib or other study agents	Eligibility	15
+pazopanib	CHEBI:71219	93-102
+No QTc prolongation (defined as a QTc interval >= 500 msecs) or other significant ECG abnormalities	Eligibility	16
+qtc interval	CMO:0000269	34-46
+No condition (e.g., gastrointestinal tract disease resulting in an inability to take oral medication or a requirement for IV alimentation, or active peptic ulcer disease) that would impair ability to swallow and retain study drug	Eligibility	17
+condition	PDRO:0000129	3-12
+disease	DOID:4,OGMS:0000031	43-50
+disease	DOID:4,OGMS:0000031	162-169
+active peptic ulcer disease	DOID:749	142-169
+drug	CHEBI:23888	225-229
+No poorly controlled hypertension (systolic blood pressure [BP] >= 140 mm Hg or diastolic BP >= 90 mm Hg) Initiation or adjustment of BP medication is allowed prior to study entry provided that the average of 3 BP readings prior to study entry is < 140/90 mm Hg	Eligibility	18
+hypertension	HP:0000822,DOID:10763	21-33
+systolic blood pressure	CMO:0000004	35-58
+No serious or non-healing wound, ulcer, or bone fracture	Eligibility	19
+ulcer	OAE:0004372	33-38
+bone fracture	HP:0020110	43-56
+No abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within the last 4 weeks	Eligibility	20
+abscess	HP:0025615	71-78
+No cerebrovascular accident within the last 6 months	Eligibility	21
+No myocardial infarction, cardiac arrhythmia, hospital admission for unstable angina within the last 12 weeks	Eligibility	22
+myocardial infarction	HP:0001658,DOID:5844	3-24
+arrhythmia	HP:0011675	34-44
+No venous thrombosis within the last 12 weeks	Eligibility	23
+venous thrombosis	HP:0004936	3-20
+No NYHA class III-IV heart failure Patients with a history of class II heart failure may be considered eligible provided they are asymptomatic on treatment	Eligibility	24
+heart	UBERON:0000948	21-26
+heart	UBERON:0000948	71-76
+history	BFO:0000182	51-58
+No concurrent uncontrolled illness including, but not limited to, ongoing or active infection or psychiatric illness/social situations that would preclude study compliance	Eligibility	25
+active	PATO:0002354	77-83
+Not pregnant or nursing	Eligibility	26
+Negative pregnancy test	Eligibility	27
+Fertile patients must use effective contraception	Eligibility	28
+At least 4 weeks since prior chemotherapy (6 weeks for nitrosoureas or mitomycin C), radiotherapy, or surgery	Eligibility	29
+mitomycin c	CHEBI:27504	71-82
+radiotherapy	OAE:0000235	85-97
+surgery	OAE:0000067	102-109
+No cardiac angioplasty or stenting within the last 12 weeks	Eligibility	30
+No more than 1 prior chemotherapy regimen for recurrent disease	Eligibility	31
+recurrent	HP:0031796	46-55
+disease	DOID:4,OGMS:0000031	56-63
+No prior surgical procedures affecting absorption	Eligibility	32
+No CYP2C9 substrates during or for 1-2 weeks after completion of study treatment, including any of the following:	Eligibility	33
+Therapeutic warfarin Low molecular weight heparin or prophylactic low-dose warfarin are allowed	Eligibility	34
+warfarin	CHEBI:10033	12-20
+warfarin	CHEBI:10033	75-83
+heparin	CHEBI:28304	42-49
+No CYP2C9 substrates during or for 1-2 weeks after completion of study treatment, including any of the following:	Eligibility	35
+Erectile dysfunction agents: sildenafil, tadalafil, or vardenafil	Eligibility	36
+erectile dysfunction	HP:0100639,DOID:1875	0-20
+sildenafil	CHEBI:9139	29-39
+tadalafil	CHEBI:71940	41-50
+vardenafil	CHEBI:46295	55-65
+Antiarrhythmics: bepridil, flecainide, lidocaine, mexilitine, amiodarone, or quinidine	Eligibility	37
+bepridil	CHEBI:3061	17-25
+flecainide	CHEBI:75984	27-37
+lidocaine	CHEBI:6456	39-48
+amiodarone	CHEBI:2663	62-72
+quinidine	CHEBI:28593,BAO:0000797	77-86
+Immune modulators: cyclosporine, tacrolimus, or sirolimus	Eligibility	38
+sirolimus	CHEBI:9168	48-57
+Miscellaneous: theophylline, quetiapine, or risperidone	Eligibility	39
+theophylline	CHEBI:28177	15-27
+quetiapine	CHEBI:8707	29-39
+risperidone	CHEBI:8871	44-55
+No CYP2C9 substrates during or for 1-2 weeks after completion of study treatment, including any of the following:	Eligibility	40
+Oral hypoglycemics: glipizide, glyburide, or tolbutamide	Eligibility	41
+glipizide	CHEBI:5384	20-29
+glyburide	CHEBI:5441	31-40
+tolbutamide	CHEBI:27999	45-56
+Ergot derivatives: dihydroergotamine, ergonovine, ergotamine, or methylergonovine	Eligibility	42
+dihydroergotamine	CHEBI:4562	19-36
+ergotamine	CHEBI:64318	26-36
+ergotamine	CHEBI:64318	50-60
+Neuroleptics: pimozide	Eligibility	43
+pimozide	CHEBI:8212	14-22
+No concurrent combination antiretroviral therapy for HIV-positive patients	Eligibility	44
+No other concurrent investigational agents	Eligibility	45
+No other concurrent anticancer therapy	Eligibility	46
+WBC >= 3,000/mm³	Eligibility	47
+No more than 2 prior palliative systemic chemotherapy regimens for de novo metastatic disease	Eligibility	48
+disease	DOID:4,OGMS:0000031	86-93
+Creatinine normal OR creatinine clearance >= 60 mL/min	Eligibility	49
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	21-31
+creatinine clearance	CMO:0000765	21-41
+At least 3 months since prior trastuzumab	Eligibility	50
+Outcome Measurement:	Results	0
+Number of Participants With Partial and Complete Response.	Results	1
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by CT / MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR	Results	2
+target	BAO:0003064	76-82
+target	BAO:0003064	162-168
+target	BAO:0003064	254-260
+ct	BAO:0002125	107-109
+diameter	PATO:0001334	242-250
+Time frame: Up to 3 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment (Pazopanib Hydrochloride)	Results	5
+pazopanib hydrochloride	CHEBI:71217	28-51
+Arm/Group Description: Patients receive oral pazopanib once daily on days 1-28. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.	Results	6
+pazopanib	CHEBI:71219	45-54
+disease	DOID:4,OGMS:0000031	127-134
+pazopanib hydrochloride: Given orally	Results	7
+pazopanib hydrochloride	CHEBI:71217	0-23
+pharmacological study: Correlative studies	Results	8
+laboratory biomarker analysis: Correlative studies	Results	9
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 21	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: participant  1	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 1/21 (4.76%)	Adverse Events	1
+Intra abdominal hemorrhage  1/21 (4.76%)	Adverse Events	2
+Esophagitis  1/21 (4.76%)	Adverse Events	3
+esophagitis	HP:0100633,DOID:11963	0-11

@@ -1,0 +1,263 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab	Intervention	1
+Participants received trastuzumab alone (a loading dose of 4 milligrams [mg]/kilogram [kg] on Day 1, followed by a dose of 2 mg/kg on Day 1 of Week 2 and weekly thereafter). Participants were treated with trastuzumab in a 2-week run-in period. On Day 14, a second core needle biopsy was performed, followed by initiation of chemotherapy with 2 combination regimens of 4 cycles each (1 cycle=3 weeks): FEC75 (5-fluorouracil [5-FU] 500 mg/meters squared [m^2], epirubicin 75 mg/m^2, cyclophosphamide 500 mg/m^2 x 4 cycles on Day 1), then paclitaxel (80 mg/m^2 x 4 cycles on Day 1, Day 8, and Day 15) in combination with trastuzumab.	Intervention	2
+day	UO:0000033	94-97
+day	UO:0000033	134-137
+day	UO:0000033	247-250
+day	UO:0000033	523-526
+day	UO:0000033	572-575
+day	UO:0000033	579-582
+day	UO:0000033	590-593
+week	UO:0000034	143-147
+week	UO:0000034	154-158
+week	UO:0000034	224-228
+week	UO:0000034	393-397
+second	UO:0000010	257-263
+5-fluorouracil	CHEBI:46345	408-422
+cyclophosphamide	CHEBI:4026	481-497
+x	LABO:0000148	509-510
+x	LABO:0000148	543-544
+x	LABO:0000148	558-559
+paclitaxel	CHEBI:45863	536-546
+INTERVENTION 2:	Intervention	3
+Lapatinib	Intervention	4
+lapatinib	CHEBI:49603	0-9
+Participants received lapatinib alone (1250 mg orally [PO] once daily [QD]). Participants were treated with lapatinib in a 2-week run-in period. On Day 14, a second core needle biopsy was performed, followed by initiation of chemotherapy with 2 combination regimens of 4 cycles each (1 cycle=3 weeks): FEC75 (5-FU 500 mg/m^2, epirubicin 75 mg/m^2, cyclophosphamide 500 mg/m^2 x 4 cycles on Day 1), then paclitaxel (80 mg/m^2 x 4 cycles on Day 1, Day 8, and Day 15) in combination with lapatinib.	Intervention	5
+lapatinib	CHEBI:49603	22-31
+lapatinib	CHEBI:49603	108-117
+lapatinib	CHEBI:49603	485-494
+day	UO:0000033	148-151
+day	UO:0000033	390-393
+day	UO:0000033	439-442
+day	UO:0000033	446-449
+day	UO:0000033	457-460
+second	UO:0000010	158-164
+cyclophosphamide	CHEBI:4026	348-364
+x	LABO:0000148	376-377
+x	LABO:0000148	410-411
+x	LABO:0000148	425-426
+paclitaxel	CHEBI:45863	403-413
+Inclusion Criteria:	Eligibility	0
+Have signed an informed consent form (ICF) and a Patient Authorization Form (HIPAA).	Eligibility	1
+patient	HADO:0000008,OAE:0001817	49-56
+Have histologically or cytologically confirmed ErbB2- (HER2/neu-) overexpressing invasive breast cancer (T2-4, N0-2).	Eligibility	2
+breast cancer	DOID:1612	90-103
+ErbB2 overexpressing breast cancer, defined as one of the following definitions:	Eligibility	3
+breast cancer	DOID:1612	21-34
+3+ staining by immunohistochemistry (IHC),	Eligibility	4
+immunohistochemistry	BAO:0000415	15-35
+a fluorescent in situ hybridization (FISH) result of more than six HER2 gene copies per nucleus	Eligibility	5
+result	BAO:0000179	43-49
+gene	BAO:0000582	72-76
+nucleus	CHEBI:33252,GO:0005634	88-95
+a FISH ratio of more than 2.2.	Eligibility	6
+ratio	UO:0000190	7-12
+Have either measurable or evaluable disease.	Eligibility	7
+disease	DOID:4,OGMS:0000031	36-43
+Have an Eastern Cooperative Oncology Group (ECOG) performance status (PS) of 0-1 (Refer to Section 11.4).	Eligibility	8
+group	CHEBI:24433	37-42
+Have LVEF within the institutional range of normal as measured by either echocardiogram (ECHO) or MUGA scans. The same modality must be used consistently throughout the study.	Eligibility	9
+range	LABO:0000114	35-40
+Be deemed able to tolerate 8 cycles of preoperative chemotherapy, including 4 cycles with an anthracycline (epirubicin).	Eligibility	10
+anthracycline	CHEBI:48120	93-106
+Must be willing to undergo 2 mandatory core biopsies (4 passes each) after diagnosis to obtain tissue for biologic expression profiling. Any subject with clinically palpable residual disease may undergo an optional third biopsy to allow identification of presumed pathways of resistance to therapy. This information might be useful in providing the subject with options for other targeted therapies if definitive surgery confirms residual disease. Definitive local therapy with surgery and radiation therapy as indicated will be performed after completion of 12 weeks of paclitaxel-based chemotherapy.	Eligibility	11
+tissue	UBERON:0000479	95-101
+disease	DOID:4,OGMS:0000031	183-190
+disease	DOID:4,OGMS:0000031	439-446
+surgery	OAE:0000067	413-420
+surgery	OAE:0000067	478-485
+Are able to swallow and retain oral medication (intact pill).	Eligibility	12
+Are able to complete all screening assessments as outlined in the protocol.	Eligibility	13
+Have adequate organ function as defined in Table 4:	Eligibility	14
+organ	UBERON:0000062	14-19
+function	BAO:0003117,BFO:0000034	20-28
+Table 1 Baseline Laboratory Values	Eligibility	15
+Hematologic:	Eligibility	16
+ANC (absolute neutrophil count) >1.5 x 109/L hemoglobin >9 g/dL platelets >75 x 109/L	Eligibility	17
+x	LABO:0000148	37-38
+x	LABO:0000148	78-79
+hemoglobin	CHEBI:35143	45-55
+Hepatic:	Eligibility	18
+albumin >2.5 g/dL serum bilirubin <1.25 x ULN AST / ALT <3 x ULN if no documented liver metastases AST / ALT <3 x ULN with documented liver metastases	Eligibility	19
+x	LABO:0000148	40-41
+x	LABO:0000148	59-60
+x	LABO:0000148	112-113
+liver	UBERON:0002107	82-87
+liver	UBERON:0002107	134-139
+Renal:	Eligibility	20
+serum creatinine <2.0 mg/dL	Eligibility	21
+creatinine	CHEBI:16737	6-16
+OR - calculated creatinine clearance >40 mL/min	Eligibility	22
+creatinine clearance	CMO:0000765	16-36
+Are subjects aged >18 years with any menopausal status:	Eligibility	23
+Non-child-bearing potential (i.e., women with functioning ovaries who have a current documented tubal ligation or hysterectomy, or women who are postmenopausal)	Eligibility	24
+Child-bearing potential (i.e., women with functioning ovaries and no documented impairment of oviductal or uterine function that would cause sterility.) This category includes women with oligomenorrhea (severe), women who are perimenopausal, and young women who have begun to menstruate. These subjects must have a negative serum pregnancy test at screening and agree to one of the following:	Eligibility	25
+function	BAO:0003117,BFO:0000034	42-50
+function	BAO:0003117,BFO:0000034	115-123
+oligomenorrhea	HP:0000876	187-201
+severe	HP:0012828	203-209
+Complete abstinence from intercourse from 2 weeks prior to administration of the first dose of study medication until 28 days after the final dose of study medication; or Consistent and correct use of one of the following acceptable methods of birth control: male partner who is sterile prior to the female subject's entry into the study and is the sole sexual partner for that female subject; any intrauterine device (IUD) with a documented failure rate of less than 1% per year; oral contraceptives (either combined or progestogen only) where not contraindicated for this subject population or per local practice.; or barrier methods, including diaphragm or condom with a spermicide.	Eligibility	26
+male	CHEBI:30780,PATO:0000384	259-263
+male	CHEBI:30780,PATO:0000384	302-306
+male	CHEBI:30780,PATO:0000384	380-384
+female	PATO:0000383	300-306
+female	PATO:0000383	378-384
+rate	BAO:0080019	450-454
+year	UO:0000036	475-479
+progestogen	CHEBI:50745	521-532
+diaphragm	UBERON:0001103	647-656
+Please note that breast cancer subjects on this trial cannot receive injectable levonorgestrel or injectable progestogen due to the potential for an adverse effect of anti-hormonal therapies on chemotherapy administered for breast cancer [Albain, 2002]. Progestogen may also affect the proliferative rate of endocrine-responsive tumors.	Eligibility	27
+breast cancer	DOID:1612	17-30
+breast cancer	DOID:1612	224-237
+levonorgestrel	CHEBI:6443	80-94
+progestogen	CHEBI:50745	109-120
+progestogen	CHEBI:50745	254-265
+adverse effect	OAE:0001000	149-163
+rate	BAO:0080019	300-304
+Exclusion Criteria:	Eligibility	28
+Have received any prior chemotherapy.	Eligibility	29
+Had prior therapy with an ErbB1 and/or ErbB2 inhibitor.	Eligibility	30
+inhibitor	CHEBI:35222	45-54
+Are receiving concurrent anti-cancer therapy (chemotherapy, immunotherapy, and biologic therapy) while taking study medication.	Eligibility	31
+Have malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel. Women with ulcerative colitis are also excluded.	Eligibility	32
+malabsorption	HP:0002024	5-18
+syndrome	DOID:225	19-27
+disease	DOID:4,OGMS:0000031	29-36
+function	BAO:0003117,BFO:0000034	78-86
+stomach	UBERON:0000945	108-115
+ulcerative colitis	HP:0100279,DOID:8577	143-161
+excluded	HP:0040285	171-179
+Have a concurrent disease or condition that would make the woman inappropriate for study participation, or any serious medical disorder that would interfere with the woman's safety.	Eligibility	33
+disease	DOID:4,OGMS:0000031	18-25
+condition	PDRO:0000129	29-38
+disorder	OGMS:0000045	127-135
+Have an active or uncontrolled infection.	Eligibility	34
+active	PATO:0002354	8-14
+Have dementia, altered mental status, or any psychiatric condition that would prohibit the understanding or rendering of informed consent.	Eligibility	35
+dementia	HP:0000726,DOID:1307	5-13
+condition	PDRO:0000129	57-66
+Have active cardiac disease, defined as one or more of the following:	Eligibility	36
+active	PATO:0002354	5-11
+disease	DOID:4,OGMS:0000031	20-27
+History of uncontrolled or symptomatic angina History of arrhythmias requiring medications, or clinically significant Myocardial infarction <6 months from study entry Uncontrolled or symptomatic congestive heart failure Ejection fraction below the institutional normal limit Any other cardiac condition, which in the opinion of the treating physician, would make this protocol unreasonably hazardous for the patient	Eligibility	37
+history	BFO:0000182	0-7
+history	BFO:0000182	46-53
+myocardial infarction	HP:0001658,DOID:5844	118-139
+congestive heart failure	HP:0001635,DOID:6000	195-219
+ejection fraction	CMO:0000180	220-237
+condition	PDRO:0000129	293-302
+patient	HADO:0000008,OAE:0001817	408-415
+Are pregnant or breastfeeding.	Eligibility	38
+Have received concurrent treatment with an investigational agent or participate in another clinical trial.	Eligibility	39
+Have received concurrent treatment with prohibited medications (refer to Section 5.8.2 for details on prohibited medications).	Eligibility	40
+Have used an investigational drug within 30 days or 5 half-lives, whichever is longer, preceding the first dose of study medication.	Eligibility	41
+drug	CHEBI:23888	29-33
+Have a known immediate or delayed hypersensitivity reaction or idiosyncrasy to drugs chemically related to any of the agents used in this study or their excipients.	Eligibility	42
+hypersensitivity	GO:0002524,DOID:1205	34-50
+Are receiving therapeutic anti-coagulation therapy (i.e. warfarin, heparin).	Eligibility	43
+warfarin	CHEBI:10033	57-65
+heparin	CHEBI:28304	67-74
+Outcome Measurement:	Results	0
+Percentage of Participants With Overall Pathological Complete Response (pCR) After 26 Weeks of Therapy	Results	1
+A pCR in the breast was defined as no pathologic evidence of invasive disease (residual ductal carcinoma in situ [DCIS] or lobular carcinoma in situ [LCIS] was allowed). A pCR in the axillary lymph node(s) was defined as no evidence of breast cancer cells in the lymph node (including subcapsular sinus). Overall pCR was defined as the sum of pCR in the breast and pCR in the lymph nodes. 26 weeks of therapy comprised the 2-week run-in phase, 12 weeks of treatment with FEC, and 12 weeks of treatment with Paclitaxel.	Results	2
+breast	UBERON:0000310	13-19
+breast	UBERON:0000310	236-242
+breast	UBERON:0000310	354-360
+disease	DOID:4,OGMS:0000031	70-77
+ductal carcinoma in situ	HP:0030075,DOID:0060074	88-112
+lobular carcinoma in situ	HP:0030076,DOID:3010	123-148
+lymph	UBERON:0002391	192-197
+lymph	UBERON:0002391	263-268
+lymph	UBERON:0002391	376-381
+breast cancer	DOID:1612	236-249
+paclitaxel	CHEBI:45863	507-517
+Time frame: Week 26	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	12-16
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab	Results	5
+Arm/Group Description: Participants received trastuzumab alone (a loading dose of 4 milligrams [mg]/kilogram [kg] on Day 1, followed by a dose of 2 mg/kg on Day 1 of Week 2 and weekly thereafter). Participants were treated with trastuzumab in a 2-week run-in period. On Day 14, a second core needle biopsy was performed, followed by initiation of chemotherapy with 2 combination regimens of 4 cycles each (1 cycle=3 weeks): FEC75 (5-fluorouracil [5-FU] 500 mg/meters squared [m^2], epirubicin 75 mg/m^2, cyclophosphamide 500 mg/m^2 x 4 cycles on Day 1), then paclitaxel (80 mg/m^2 x 4 cycles on Day 1, Day 8, and Day 15) in combination with trastuzumab.	Results	6
+day	UO:0000033	117-120
+day	UO:0000033	157-160
+day	UO:0000033	270-273
+day	UO:0000033	546-549
+day	UO:0000033	595-598
+day	UO:0000033	602-605
+day	UO:0000033	613-616
+week	UO:0000034	166-170
+week	UO:0000034	177-181
+week	UO:0000034	247-251
+week	UO:0000034	416-420
+second	UO:0000010	280-286
+5-fluorouracil	CHEBI:46345	431-445
+cyclophosphamide	CHEBI:4026	504-520
+x	LABO:0000148	532-533
+x	LABO:0000148	566-567
+x	LABO:0000148	581-582
+paclitaxel	CHEBI:45863	559-569
+Overall Number of Participants Analyzed: 26	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  54.0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Lapatinib	Results	11
+lapatinib	CHEBI:49603	17-26
+Arm/Group Description: Participants received lapatinib alone (1250 mg orally [PO] once daily [QD]). Participants were treated with lapatinib in a 2-week run-in period. On Day 14, a second core needle biopsy was performed, followed by initiation of chemotherapy with 2 combination regimens of 4 cycles each (1 cycle=3 weeks): FEC75 (5-FU 500 mg/m^2, epirubicin 75 mg/m^2, cyclophosphamide 500 mg/m^2 x 4 cycles on Day 1), then paclitaxel (80 mg/m^2 x 4 cycles on Day 1, Day 8, and Day 15) in combination with lapatinib.	Results	12
+lapatinib	CHEBI:49603	45-54
+lapatinib	CHEBI:49603	131-140
+lapatinib	CHEBI:49603	508-517
+day	UO:0000033	171-174
+day	UO:0000033	413-416
+day	UO:0000033	462-465
+day	UO:0000033	469-472
+day	UO:0000033	480-483
+second	UO:0000010	181-187
+cyclophosphamide	CHEBI:4026	371-387
+x	LABO:0000148	399-400
+x	LABO:0000148	433-434
+x	LABO:0000148	448-449
+paclitaxel	CHEBI:45863	426-436
+Overall Number of Participants Analyzed: 29	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  45.0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 7/32 (21.88%)	Adverse Events	1
+Febrile nuetropenia 3/32 (9.38%)	Adverse Events	2
+Neutropenia 3/32 (9.38%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 1/32 (3.13%)	Adverse Events	4
+Diarrhoea 0/32 (0.00%)	Adverse Events	5
+Vomiting 0/32 (0.00%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Nausea 0/32 (0.00%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Stomatitis 0/32 (0.00%)	Adverse Events	8
+stomatitis	HP:0010280,DOID:9637	0-10
+Pyrexia 0/32 (0.00%)	Adverse Events	9
+Chest discomfort 0/32 (0.00%)	Adverse Events	10
+chest	UBERON:0001443	0-5
+Cellilitis 0/32 (0.00%)	Adverse Events	11
+Diverticulitis 0/32 (0.00%)	Adverse Events	12
+diverticulitis	DOID:7475	0-14
+Gastroenteritis 0/32 (0.00%)	Adverse Events	13
+gastroenteritis	DOID:2326	0-15
+Adverse Events 2:	Adverse Events	14
+Total: 7/34 (20.59%)	Adverse Events	15
+Febrile nuetropenia 0/34 (0.00%)	Adverse Events	16
+Neutropenia 0/34 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 0/34 (0.00%)	Adverse Events	18
+Diarrhoea 2/34 (5.88%)	Adverse Events	19
+Vomiting 1/34 (2.94%)	Adverse Events	20
+vomiting	HP:0002013	0-8
+Nausea 0/34 (0.00%)	Adverse Events	21
+nausea	HP:0002018	0-6
+Stomatitis 0/34 (0.00%)	Adverse Events	22
+stomatitis	HP:0010280,DOID:9637	0-10
+Pyrexia 3/34 (8.82%)	Adverse Events	23
+Chest discomfort 0/34 (0.00%)	Adverse Events	24
+chest	UBERON:0001443	0-5
+Cellilitis 1/34 (2.94%)	Adverse Events	25
+Diverticulitis 1/34 (2.94%)	Adverse Events	26
+diverticulitis	DOID:7475	0-14
+Gastroenteritis 0/34 (0.00%)	Adverse Events	27
+gastroenteritis	DOID:2326	0-15

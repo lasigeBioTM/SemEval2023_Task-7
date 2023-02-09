@@ -1,0 +1,59 @@
+INTERVENTION 1:	Intervention	0
+EF5 PET/CT Imaging	Intervention	1
+PET/CT Imaging	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Subjects with measurable brain metastases of at least 1 cm in any plane based on anatomic imaging.	Eligibility	1
+brain	UBERON:0000955	25-30
+Subjects with prior resection of brain metastases with progressions on brain MRI.	Eligibility	2
+brain	UBERON:0000955	33-38
+brain	UBERON:0000955	71-76
+Histologic confirmation of breast cancer.	Eligibility	3
+breast cancer	DOID:1612	27-40
+Age of study subject must be > 18 years.	Eligibility	4
+age	PATO:0000011	0-3
+ECOG Performance Status  2.	Eligibility	5
+Ability to undergo brain MR and PET imaging	Eligibility	6
+brain	UBERON:0000955	19-24
+Study subjects must have normal organ and marrow function as defined below:	Eligibility	7
+organ	UBERON:0000062	32-37
+function	BAO:0003117,BFO:0000034	49-57
+WBC >2,000/mmᶟ, platelets >90,000/mmᶟ, total bilirubin <2.0 mg/dl, creatinine <2.0 mg/dl.	Eligibility	8
+creatinine	CHEBI:16737	67-77
+The effects of EF5 on the developing human fetus are unknown. For this reason, women of childbearing potential must agree to use adequate contraception (hormonal or barrier method of birth control) prior to study entry and for the duration of study participation (1 month). Should a woman become pregnant pr suspect she is pregnant while participating in this study, she should inform her treating physician immediately. Women of childbearing potential will have a urine pregnancy test the day of the F18 -EF5 PET scan prior to the F18 -EF5 injection.	Eligibility	9
+duration	PATO:0001309	231-239
+month	UO:0000035	266-271
+urine	UBERON:0001088	465-470
+day	UO:0000033	490-493
+Ability to understand, participate and provide a documented signed informed consent.	Eligibility	10
+Subjects who are allergic to gadolinium will have MRI scans without gadolinium contrast.	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+History of allergic reactions attributed to Flagyl (metronidazole), which has a chemical structure similar to EF5.	Eligibility	13
+history	BFO:0000182	0-7
+metronidazole	CHEBI:6909	52-65
+structure	PATO:0000141	89-98
+Pregnant women are excluded because EF5 has an unknown risk for adverse events in fetuses and nursing infants secondary the administration of EF5 to the mother. Breastfeeding should be discontinued if EF5 is administered to the mother.	Eligibility	14
+excluded	HP:0040285	19-27
+Subject has any other condition or personal circumstance that, in the judgement of the investigator, might interfere with the collection of complete good quality data.	Eligibility	15
+condition	PDRO:0000129	22-31
+quality	BAO:0002928,BFO:0000019	154-161
+Subjects who are unable to provide informed consent.	Eligibility	16
+Patients with prior whole brain radiotherapy.	Eligibility	17
+brain	UBERON:0000955	26-31
+radiotherapy	OAE:0000235	32-44
+Patients with moderate to severe renal failure, defined as estimated GFR less than 30 ml/Lmin 1.73m²	Eligibility	18
+moderate	HP:0012826	14-22
+severe	HP:0012828	26-32
+Outcome Measurement:	Results	0
+Number of Participants With Adverse Events	Results	1
+[Not Specified]	Results	2
+Time frame: 2 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: EF5 PET/CT Imaging	Results	5
+Arm/Group Description: PET/CT Imaging	Results	6
+Overall Number of Participants Analyzed: 2	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  0   0.0%	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/2 (0.00%)	Adverse Events	1

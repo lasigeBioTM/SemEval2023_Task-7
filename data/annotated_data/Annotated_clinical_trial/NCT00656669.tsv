@@ -1,0 +1,93 @@
+INTERVENTION 1:	Intervention	0
+Sunitinib Monotherapy	Intervention	1
+sunitinib	CHEBI:38940	0-9
+Patients who completed the Sunitinib monotherapy segment	Intervention	2
+sunitinib	CHEBI:38940	27-36
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically-confirmed adenocarcinoma of the breast with operable or inoperable stage 1c (primary tumor > 1.0 cm), II or III disease.	Eligibility	1
+adenocarcinoma	DOID:299	44-58
+breast	UBERON:0000310	66-72
+disease	DOID:4,OGMS:0000031	146-153
+Measurable disease by physical examinations or diagnostic breast imaging (mammography, ultrasonography or MR).	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+breast	UBERON:0000310	58-64
+Pre-treatment core or incisional biopsy. Patients may not have had definitive primary surgery.	Eligibility	3
+surgery	OAE:0000067	86-93
+Male or female, 18 years of age or older.	Eligibility	4
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+age	PATO:0000011	28-31
+ECOG performance status 0 or 1.	Eligibility	5
+Adequate organ function as defined in the protocol.	Eligibility	6
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	7
+Prior radiation therapy, cytotoxic therapy or systemic therapy for breast cancer. Prior use of tamoxifen or raloxifene as chemoprevention is allowed but must be discontinued prior to study entry.	Eligibility	8
+breast cancer	DOID:1612	67-80
+tamoxifen	CHEBI:41774	95-104
+raloxifene	CHEBI:8772	108-118
+Metastatic (Stage IV) breast cancer	Eligibility	9
+breast cancer	DOID:1612	22-35
+Patients who have had only a pre-treatment fine needle aspiration (FNA) are excluded.	Eligibility	10
+aspiration	HP:0002835	55-65
+excluded	HP:0040285	76-84
+Current therapeutic treatment on another clinical trial with an investigational agent.	Eligibility	11
+Any of the following within the 6 months prior to starting study treatment: -myocardial infarction -severe/unstable angina -coronary/peripheral artery bypass graft -congestive heart failure -cerebrovascular accident including transient ischemic attack -pulmonary embolus	Eligibility	12
+artery	UBERON:0001637	144-150
+heart	UBERON:0000948	176-181
+transient ischemic attack	HP:0002326,DOID:224	226-251
+Ongoing cardiac dysrhythmias of NCI CTCAE grade >=2, atrial fibrillation of any grade, or QTc interval >450 msec for males or >470 msec for females.	Eligibility	13
+atrial fibrillation	HP:0005110,DOID:0060224	53-72
+qtc interval	CMO:0000269	90-102
+Hypertension that cannot be controlled by medications.	Eligibility	14
+hypertension	HP:0000822,DOID:10763	0-12
+Current treatment with therapeutic doses of any anti-coagulant. Prophylactic use of anticoagulants is allowed.	Eligibility	15
+Known human immunodeficiency virus (HIV) infection.	Eligibility	16
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+Pregnancy or breastfeeding. All female patients with reproductive potential must have a negative pregnancy test prior to first day of study medication.	Eligibility	17
+female	PATO:0000383	32-38
+day	UO:0000033	127-130
+Other severe acute or chronic medical or psychiatric condition, or laboratory abnormality that would impart, in the judgment of the investigator, excess risk associated with study participation or study drug administration, or which, in the judgment of the investigator, would make the patient inappropriate for entry into this study.	Eligibility	18
+severe	HP:0012828	6-12
+acute	HP:0011009,PATO:0000389	13-18
+chronic	HP:0011010	22-29
+condition	PDRO:0000129	53-62
+drug administration	OAE:0000011	203-222
+patient	HADO:0000008,OAE:0001817	286-293
+Outcome Measurement:	Results	0
+Change in Interstitial Fluid Pressure (IFP) Induced by Sunitinib Monotherapy	Results	1
+interstitial fluid	UBERON:0000913	10-28
+sunitinib	CHEBI:38940	55-64
+Participants had their tumor IFP measured at baseline, after sunitinib monotherapy (segment 1) and after sunitinib+paclitaxel (segment 2). This outcome measure is the difference of the mean value from the end of segment 1 (sunitinib monotherapy) and the mean baseline value.	Results	2
+sunitinib	CHEBI:38940	61-70
+sunitinib	CHEBI:38940	105-114
+sunitinib	CHEBI:38940	223-232
+mean	BAO:0002173	185-189
+mean	BAO:0002173	254-258
+Time frame: baseline through end of segment 1 (2 weeks)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Sunitinib Monotherapy	Results	5
+sunitinib	CHEBI:38940	17-26
+Arm/Group Description: Patients who completed the Sunitinib monotherapy segment	Results	6
+sunitinib	CHEBI:38940	50-59
+Overall Number of Participants Analyzed: 19	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: mm Hg  14.0         (12.4)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/23 (0.00%)	Adverse Events	1
+LEFT VENTRICULAR SYSTOLIC DYSFUNCTION *0/23 (0.00%)	Adverse Events	2
+left ventricular systolic dysfunction	HP:0025169	0-37
+NAUSEA *0/23 (0.00%)	Adverse Events	3
+nausea	HP:0002018	0-6
+VOMITING *0/23 (0.00%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+BILIRUBIN (HYPERBILIRUBINEMIA) *0/23 (0.00%)	Adverse Events	5
+hyperbilirubinemia	HP:0002904,DOID:2741	11-29
+INFECTION (DOCUMENTED CLINICALLY OR MICROBIOLOGICALLY) WITH GRADE 3 OR 4 NEUTROPHILS (ANC <1.0 X 10E *0/23 (0.00%)	Adverse Events	6
+x	LABO:0000148	95-96
+NEUTROPHILS/GRANULOCYTES (ANC/AGC) *0/23 (0.00%)	Adverse Events	7

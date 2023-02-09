@@ -1,0 +1,188 @@
+INTERVENTION 1:	Intervention	0
+Monotherapy: Alobresib 0.6 mg	Intervention	1
+Participants with advanced solid tumors and lymphomas who had failed or were intolerant to standard therapy, or for whom no standard therapy existed received alobresib tablets at a dose of 0.6 mg orally once daily on Study Day 1 through C1D28 of 28 days cycle to determine the MTD.	Intervention	2
+day	UO:0000033	223-226
+day	UO:0000033	249-252
+mtd	BAO:0001248	277-280
+INTERVENTION 2:	Intervention	3
+Monotherapy: Alobresib 1.4 mg	Intervention	4
+Participants with advanced solid tumors and lymphomas who had failed or were intolerant to standard therapy, or for whom no standard therapy existed received alobresib tablets at a dose of 1.4 mg orally once daily on Study Day 1 through C1D28 of 28 days cycle to determine the MTD.	Intervention	5
+day	UO:0000033	223-226
+day	UO:0000033	249-252
+mtd	BAO:0001248	277-280
+Key Inclusion Criteria:	Eligibility	0
+Group 1: Histologically or cytologically confirmed advanced malignant solid tumor or lymphoma (any subtype) that is refractory to or intolerant of standard therapy or for which no standard therapy is available	Eligibility	1
+group	CHEBI:24433	0-5
+lymphoma	HP:0002665,DOID:0060058	85-93
+refractory	HP:0031375	116-126
+Group 2: Post-menopausal women with advanced stage estrogen receptor positive breast cancer who are candidates for exemestane or fulvestrant	Eligibility	2
+group	CHEBI:24433	0-5
+estrogen	CHEBI:50114,BAO:0000760	51-59
+receptor	BAO:0000281	60-68
+breast cancer	DOID:1612	78-91
+exemestane	CHEBI:4953	115-125
+fulvestrant	CHEBI:31638	129-140
+Group 3: Individuals with lymphoma are limited to diffuse large B-cell lymphoma and peripheral T-cell lymphoma that are refractory to or intolerant of standard therapy or for which no standard therapy is available	Eligibility	3
+group	CHEBI:24433	0-5
+lymphoma	HP:0002665,DOID:0060058	26-34
+lymphoma	HP:0002665,DOID:0060058	71-79
+lymphoma	HP:0002665,DOID:0060058	102-110
+diffuse large b-cell lymphoma	DOID:0050745	50-79
+peripheral t-cell lymphoma	DOID:0050749	84-110
+refractory	HP:0031375	120-130
+Eastern Cooperative Oncology Group (ECOG) Performance Status of  1	Eligibility	4
+group	CHEBI:24433	29-34
+Adequate organ function defined as follows:	Eligibility	5
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Hematologic: Platelets  100 x 10^9/L; Hemoglobin  9.0 g/ dL; Absolute neutrophil count (ANC)  1.5 x 10^9/L (without platelet transfusion or any growth factors within previous 7 days of the hematologic laboratory values obtained at screening visit). Participants in the Group 3 lymphoma expansion may be enrolled with an ANC of  1.0 x 10^9 /L; Platelets  75 x 10^9 /L.	Eligibility	6
+x	LABO:0000148	28-29
+x	LABO:0000148	98-99
+x	LABO:0000148	287-288
+x	LABO:0000148	332-333
+x	LABO:0000148	357-358
+hemoglobin	CHEBI:35143	38-48
+growth	GO:0040007	144-150
+group	CHEBI:24433	269-274
+lymphoma	HP:0002665,DOID:0060058	277-285
+Hepatic: Aspartate transaminase (AST) / Alanine transaminase (ALT)  2.5 x upper limit of normal (ULN) (if liver metastases are present,  5 x ULN); Total or conjugated bilirubin  1.5 x ULN	Eligibility	7
+aspartate	CHEBI:29995	9-18
+alanine	CHEBI:16449	40-47
+x	LABO:0000148	72-73
+x	LABO:0000148	139-140
+x	LABO:0000148	182-183
+liver	UBERON:0002107	106-111
+present	PATO:0000467	127-134
+Renal: Serum creatinine  1.5 x ULN or creatinine clearance (CrCl)  60 ml/min as calculated by the cockcroft-gault method	Eligibility	8
+creatinine	CHEBI:16737	13-23
+creatinine	CHEBI:16737	38-48
+x	LABO:0000148	29-30
+creatinine clearance	CMO:0000765	38-58
+Coagulation: International Normalized Ratio (INR)  1.2	Eligibility	9
+coagulation	GO:0050817	0-11
+ratio	UO:0000190	38-43
+Key Exclusion Criteria:	Eligibility	10
+Known brain metastasis or leptomeningeal disease	Eligibility	11
+brain	UBERON:0000955	6-11
+disease	DOID:4,OGMS:0000031	41-48
+Myocardial infarction, symptomatic congestive heart failure (New York Heart Association Classification > Class II), unstable angina, or serious uncontrolled cardiac arrhythmia within the last 6 months of study Day 1	Eligibility	12
+myocardial infarction	HP:0001658,DOID:5844	0-21
+congestive heart failure	HP:0001635,DOID:6000	35-59
+heart	UBERON:0000948	46-51
+heart	UBERON:0000948	70-75
+arrhythmia	HP:0011675	165-175
+day	UO:0000033	210-213
+Major surgery, defined as any surgical procedure that involves general anesthesia and a significant incision (ie, larger than what is required for placement of central venous access, percutaneous feeding tube, or biopsy) within 28 days of first dose of study drug	Eligibility	13
+surgery	OAE:0000067	6-13
+central	HP:0030645	160-167
+tube	BAO:0010014,UBERON:0000025	204-208
+drug	CHEBI:23888	259-263
+History of long QT syndrome or whose corrected QT interval (QTc) measured (Fridericia method) at screening is prolonged (> 450 ms for males and > 470 ms for females). Individuals who screen-fail due to this criterion are not eligible to be re-screened	Eligibility	14
+history	BFO:0000182	0-7
+long qt syndrome	DOID:2843	11-27
+qt interval	CMO:0000235	47-58
+prolonged	HP:0025297	110-119
+Clinically significant bleeding within 28 days of study Day 1	Eligibility	15
+day	UO:0000033	42-45
+day	UO:0000033	56-59
+Known human immunodeficiency virus (HIV) infection	Eligibility	16
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+Hepatitis B surface antigen positive	Eligibility	17
+hepatitis b	DOID:2043	0-11
+antigen	CHEBI:59132	20-27
+Hepatitis C virus (HCV) antibody positive	Eligibility	18
+hepatitis c	DOID:1883	0-11
+virus	BAO:0000232	12-17
+antibody	GO:0042571,BAO:0000502	24-32
+No active anticoagulation within 7 days of study Day 1; including acetylsalicylic acid, low molecular weight heparin, or warfarin.	Eligibility	19
+active	PATO:0002354	3-9
+day	UO:0000033	35-38
+day	UO:0000033	49-52
+acetylsalicylic acid	CHEBI:15365	66-86
+heparin	CHEBI:28304	109-116
+warfarin	CHEBI:10033	121-129
+Note: Other protocol defined Inclusion/Exclusion criteria may apply.	Eligibility	20
+Outcome Measurement:	Results	0
+Number of Participants Experiencing Dose Limiting Toxicities (DLTs)	Results	1
+A DLT was a toxicity, considered possibly related to alobresib, and which occurred during DLT assessment window (Day 1 through Cycle 1 Day 28) in each cohort: Grade  4 neutropenia (absolute neutrophil count [ANC] < 500/mm^3); Grade 3 neutropenia (ANC< 1000/mm^3) with fever (a single temperature of > 38.3°C or a sustained temperature of  38°C for more than 1 hour [hr]); Grade  3 thrombocytopenia; Grade  2 bleeding; Grade  3 non hematologic toxicity, except Grade 3 nausea or emesis with maximum duration of 48 hrs on adequate medical therapy and Grade 3 diarrhea which persists for < 72 hrs in absence of maximal medical therapy; Grade  2 non hematologic treatment-emergent adverse event (TEAE) of potential clinical significance; treatment interruption  7 days due to unresolved toxicity; and any Grade 3 or 4 elevation in aspartate aminotransferase (AST) or alanine aminotransferase (ALT) associated with a Grade 2 elevation in bilirubin that is at least possibly related to alobresib.	Results	2
+day	UO:0000033	113-116
+day	UO:0000033	135-138
+day	UO:0000033	760-763
+neutropenia	HP:0001875,DOID:1227	168-179
+neutropenia	HP:0001875,DOID:1227	234-245
+fever	HP:0001945	268-273
+hour	UO:0000032	360-364
+thrombocytopenia	HP:0001873,DOID:1588	381-397
+nausea	HP:0002018	468-474
+duration	PATO:0001309	498-506
+diarrhea	HP:0002014,DOID:13250	557-565
+adverse event	OAE:0000001	677-690
+aspartate	CHEBI:29995	827-836
+alanine	CHEBI:16449	863-870
+Time frame: Baseline (Day 1) up to 28 days	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	22-25
+day	UO:0000033	38-41
+Results 1:	Results	4
+Arm/Group Title: Monotherapy: Alobresib 0.6 mg	Results	5
+Arm/Group Description: Participants with advanced solid tumors and lymphomas who had failed or were intolerant to standard therapy, or for whom no standard therapy existed received alobresib tablets at a dose of 0.6 mg orally once daily on Study Day 1 through C1D28 of 28 days cycle to determine the MTD.	Results	6
+day	UO:0000033	246-249
+day	UO:0000033	272-275
+mtd	BAO:0001248	300-303
+Overall Number of Participants Analyzed: 2	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Monotherapy: Alobresib 1.4 mg	Results	11
+Arm/Group Description: Participants with advanced solid tumors and lymphomas who had failed or were intolerant to standard therapy, or for whom no standard therapy existed received alobresib tablets at a dose of 1.4 mg orally once daily on Study Day 1 through C1D28 of 28 days cycle to determine the MTD.	Results	12
+day	UO:0000033	246-249
+day	UO:0000033	272-275
+mtd	BAO:0001248	300-303
+Overall Number of Participants Analyzed: 1	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/2 (50.00%)	Adverse Events	1
+Thrombocytopenia 0/2 (0.00%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrioventricular block complete 0/2 (0.00%)	Adverse Events	3
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Adrenal haemorrhage 0/2 (0.00%)	Adverse Events	4
+Constipation 0/2 (0.00%)	Adverse Events	5
+constipation	HP:0002019,DOID:2089	0-12
+Pain 0/2 (0.00%)	Adverse Events	6
+pain	HP:0012531	0-4
+Pyrexia 0/2 (0.00%)	Adverse Events	7
+Cholangitis 1/2 (50.00%)	Adverse Events	8
+cholangitis	HP:0030151,DOID:9446	0-11
+Pyelonephritis acute 0/2 (0.00%)	Adverse Events	9
+pyelonephritis	HP:0012330,DOID:11400	0-14
+acute	HP:0011009,PATO:0000389	15-20
+Sepsis 1/2 (50.00%)	Adverse Events	10
+sepsis	HP:0100806	0-6
+Deep vein thrombosis 0/2 (0.00%)	Adverse Events	11
+vein	UBERON:0001638	5-9
+thrombosis	DOID:0060903	10-20
+Adverse Events 2:	Adverse Events	12
+Total: 1/1 (100.00%)	Adverse Events	13
+Thrombocytopenia 1/1 (100.00%)	Adverse Events	14
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrioventricular block complete 0/1 (0.00%)	Adverse Events	15
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Adrenal haemorrhage 0/1 (0.00%)	Adverse Events	16
+Constipation 0/1 (0.00%)	Adverse Events	17
+constipation	HP:0002019,DOID:2089	0-12
+Pain 0/1 (0.00%)	Adverse Events	18
+pain	HP:0012531	0-4
+Pyrexia 1/1 (100.00%)	Adverse Events	19
+Cholangitis 0/1 (0.00%)	Adverse Events	20
+cholangitis	HP:0030151,DOID:9446	0-11
+Pyelonephritis acute 0/1 (0.00%)	Adverse Events	21
+pyelonephritis	HP:0012330,DOID:11400	0-14
+acute	HP:0011009,PATO:0000389	15-20
+Sepsis 0/1 (0.00%)	Adverse Events	22
+sepsis	HP:0100806	0-6
+Deep vein thrombosis 0/1 (0.00%)	Adverse Events	23
+vein	UBERON:0001638	5-9
+thrombosis	DOID:0060903	10-20

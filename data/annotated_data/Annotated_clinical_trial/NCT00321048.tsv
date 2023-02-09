@@ -1,0 +1,101 @@
+INTERVENTION 1:	Intervention	0
+Active Breathing Coordination	Intervention	1
+active	PATO:0002354	0-6
+Patients will receive radiation therapy at a dose of 180-200 cGy per fraction for 23-27 fractions to a total dose of 4600 - 4860 cGy. Additional radiation to the lumpectomy bed or mastectomy scar is at the discretion of the treating physician. The total dose to the tumor bed or mastectomy scar cannot exceed 6600cGy. Treatments will be given Monday through Friday.	Intervention	2
+Patients in this group were treated with Active Breathing Coordinator:	Intervention	3
+group	CHEBI:24433	17-22
+active	PATO:0002354	41-47
+A SPECT scan will be obtained at baseline and at 6 months follow to determine changes in cardiac perfusion	Intervention	4
+INTERVENTION 2:	Intervention	5
+No Active Breathing Coordination	Intervention	6
+active	PATO:0002354	3-9
+Patients will receive radiation therapy at a dose of 180-200 cGy per fraction for 23-27 fractions to a total dose of 4600 - 4860 cGy. Additional radiation to the lumpectomy bed or mastectomy scar is at the discretion of the treating physician. The total dose to the tumor bed or mastectomy scar cannot exceed 6600cGy. Treatments will be given Monday through Friday.	Intervention	7
+(Patient ARE NOT treated with ABC) A SPECT scan will be obtained at baseline and at 6 months follow to determine changes in cardiac perfusion	Intervention	8
+patient	HADO:0000008,OAE:0001817	1-8
+Inclusion Criteria:	Eligibility	0
+Patient must be 18 and older	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+Patients must have histologically confirmed (by routine H&E staining) invasive adenocarcinoma or Ductal Carcinoma In Situ of the left breast.	Eligibility	2
+adenocarcinoma	DOID:299	79-93
+ductal carcinoma in situ	HP:0030075,DOID:0060074	97-121
+left	HP:0012835	129-133
+breast	UBERON:0000310	134-140
+Patients must have undergone a segmental mastectomy (SM) or Mastectomy	Eligibility	3
+Patients must not have received prior radiation therapy to the breast at any time for any reason.	Eligibility	4
+breast	UBERON:0000310	63-69
+time	PATO:0000165	77-81
+Any patient with active local-regional disease prior to registration is not eligible.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	4-11
+active	PATO:0002354	17-23
+disease	DOID:4,OGMS:0000031	39-46
+Patients must not be pregnant due to the potential for fetal harm as a result of this treatment regimen. Women of child-bearing age will be given a serum pregnancy test prior to study entry to ensure they are not pregnant. Women of child-bearing potential must use effective non-hormonal contraception while undergoing radiation therapy.	Eligibility	6
+result	BAO:0000179	71-77
+age	PATO:0000011	128-131
+Patients must not have a serious medical or psychiatric illness which prevents informed consent or compliance with treatment.	Eligibility	7
+All patients must be informed of the investigational nature of this study and give written informed consent in accordance with institutional and federal guidelines.	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Patients requiring oxygen	Eligibility	10
+Sarcoma or Squamous Cell pathology	Eligibility	11
+sarcoma	HP:0100242,DOID:1115	0-7
+Right-sided breast cancers	Eligibility	12
+breast	UBERON:0000310	12-18
+Metastatic disease to the breast	Eligibility	13
+disease	DOID:4,OGMS:0000031	11-18
+breast	UBERON:0000310	26-32
+Outcome Measurement:	Results	0
+Efficacy of Active Breathing Coordinator (ABC) Device as Determined by the Mean Apical Perfusion Score	Results	1
+efficacy	BAO:0000656	0-8
+active	PATO:0002354	12-18
+mean	BAO:0002173	75-79
+apical	HP:0033820	80-86
+Efficacy of the ABC device in protecting the heart from radiation (XRT) damage in patients with L breast cancer is determined by the change in cardiac perfusion (mean apical perfusion score) as measured by SPECT between baseline and 6 month follow up. A score of 1 represents an equivocal or mild reduction in perfusion, 2 represents moderately reduced perfusion, 3 represents severely reduced perfusion, and 4 indicates absent perfusion.	Results	2
+efficacy	BAO:0000656	0-8
+heart	UBERON:0000948	45-50
+breast cancer	DOID:1612	98-111
+mean	BAO:0002173	162-166
+apical	HP:0033820	167-173
+month	UO:0000035	235-240
+mild	HP:0012825	292-296
+absent	PATO:0000462	421-427
+Time frame: 6 months post-radiation	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Active Breathing Coordination	Results	5
+active	PATO:0002354	17-23
+Arm/Group Description: Patients will receive radiation therapy at a dose of 180-200 cGy per fraction for 23-27 fractions to a total dose of 4600 - 4860 cGy. Additional radiation to the lumpectomy bed or mastectomy scar is at the discretion of the treating physician. The total dose to the tumor bed or mastectomy scar cannot exceed 6600cGy. Treatments will be given Monday through Friday.	Results	6
+Patients in this group were treated with Active Breathing Coordinator:	Results	7
+group	CHEBI:24433	17-22
+active	PATO:0002354	41-47
+A SPECT scan will be obtained at baseline and at 6 months follow to determine changes in cardiac perfusion	Results	8
+Overall Number of Participants Analyzed: 22	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Mean Perfusion Score  Mean Apical Perfusion Pre XRT: 1.2         (0.9)	Results	11
+mean	BAO:0002173	17-21
+mean	BAO:0002173	39-43
+apical	HP:0033820	44-50
+Mean Apical Perfusion Post XRT: 2.1         (1.5)	Results	12
+mean	BAO:0002173	0-4
+apical	HP:0033820	5-11
+Results 2:	Results	13
+Arm/Group Title: No Active Breathing Coordination	Results	14
+active	PATO:0002354	20-26
+Arm/Group Description: Patients will receive radiation therapy at a dose of 180-200 cGy per fraction for 23-27 fractions to a total dose of 4600 - 4860 cGy. Additional radiation to the lumpectomy bed or mastectomy scar is at the discretion of the treating physician. The total dose to the tumor bed or mastectomy scar cannot exceed 6600cGy. Treatments will be given Monday through Friday.	Results	15
+(Patient ARE NOT treated with ABC) A SPECT scan will be obtained at baseline and at 6 months follow to determine changes in cardiac perfusion	Results	16
+patient	HADO:0000008,OAE:0001817	1-8
+Overall Number of Participants Analyzed: 21	Results	17
+Mean (Standard Deviation)	Results	18
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Mean Perfusion Score  Mean Apical Perfusion Pre XRT: 2.0         (1.5)	Results	19
+mean	BAO:0002173	17-21
+mean	BAO:0002173	39-43
+apical	HP:0033820	44-50
+Mean Apical Perfusion Post XRT: 2.5         (1.6)	Results	20
+mean	BAO:0002173	0-4
+apical	HP:0033820	5-11
+Adverse Events 1:	Adverse Events	0
+Total: 0/22 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/21 (0.00%)	Adverse Events	3

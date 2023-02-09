@@ -1,0 +1,190 @@
+INTERVENTION 1:	Intervention	0
+Arm 1	Intervention	1
+Metastatic breast cancer	Intervention	2
+breast cancer	DOID:1612	11-24
+PD-0332991: Given orally, 125 mg QD on a 21-day	Intervention	3
+INTERVENTION 2:	Intervention	4
+Arm 2	Intervention	5
+Metastatic colorectal cancer that harbors the Kras or BRAF mutation	Intervention	6
+colorectal cancer	DOID:9256	11-28
+PD-0332991: Given orally, 125 mg QD on a 21-day	Intervention	7
+Inclusion Criteria:	Eligibility	0
+- Disease Characteristics:	Eligibility	1
+disease	DOID:4,OGMS:0000031	2-9
+All Subjects: All subjects treated under this protocol will have histologically documented cancer of one of the following types:	Eligibility	2
+cancer	DOID:162	91-97
+A. Metastatic breast cancer (7 triple negative, 23 ER+ after the first 15 patients are enrolled on the non-CCND1cohort; in addition 10 HER2+ for combination trastuzumab and PD0332991 therapy) up to 55 total enrollment slots B. Metastatic colorectal cancer that harbors the Kras or BRAF mutation (15-30 enrollment slots) C. Advanced or metastatic esophageal and/or gastric cancer (15-30 enrollment slots) D. Cisplatin-refractory, unresectable germ cell tumors (15-30 enrollment slots) E. Any tumor type if tissue tests positive for CCND1 amplification, CDK4/6 mutation, CCND2 amplification OR any other functional alteration at the G1/S checkpoint. (15-30 enrollment slots)	Eligibility	3
+breast cancer	DOID:1612	14-27
+colorectal cancer	DOID:9256	238-255
+cancer	DOID:162	21-27
+cancer	DOID:162	249-255
+cancer	DOID:162	372-378
+tissue	UBERON:0000479	505-511
+functional	BAO:0000010	602-612
+- Biopsy Requirements: For Subjects with accessible disease amenable to biopsy: A biopsy will be obtained pre-treatment and in during cycle 1 (while patient is receiving drug) for molecular markers of the cell cycle, and its inhibition.	Eligibility	4
+disease	DOID:4,OGMS:0000031	52-59
+patient	HADO:0000008,OAE:0001817	149-156
+drug	CHEBI:23888	170-174
+cell cycle	GO:0007049	205-215
+inhibition	BAO:0000091	225-235
+Subjects will be > 18 years old	Eligibility	5
+The subject has disease that is assessable by tumor marker, physical, or radiologic means.	Eligibility	6
+disease	DOID:4,OGMS:0000031	16-23
+The subject has an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.	Eligibility	7
+group	CHEBI:24433	48-53
+The subject has adequate organ function, defined as follows A. Bilirubin  1.5 x the upper limit of normal (ULN) B. Serum creatinine  1.5 x UNL or calculated creatinine clearance  60 mL/min, and C. For subjects without liver metastases: alanine aminotransferase (ALT) and aspartate aminotransferase (AST)  2.5 x ULN D. For subjects with liver metastases: alanine aminotransferase (ALT) and aspartate aminotransferase  5 x ULN	Eligibility	8
+organ	UBERON:0000062	25-30
+function	BAO:0003117,BFO:0000034	31-39
+x	LABO:0000148	78-79
+x	LABO:0000148	137-138
+x	LABO:0000148	309-310
+x	LABO:0000148	419-420
+creatinine	CHEBI:16737	121-131
+creatinine	CHEBI:16737	157-167
+creatinine clearance	CMO:0000765	157-177
+liver	UBERON:0002107	218-223
+liver	UBERON:0002107	336-341
+alanine	CHEBI:16449	236-243
+alanine	CHEBI:16449	354-361
+aspartate	CHEBI:29995	271-280
+aspartate	CHEBI:29995	389-398
+All tumors must test positive for Rb expression except:	Eligibility	9
+A. ER positive metastatic breast tumors (data now shows all to be Rb positive.) B. Any tumor type if tissue tests positive for CCND1 amplification, CDK4/6 mutation, CCND2 amplification OR any other functional alteration at the G1/S checkpoint.	Eligibility	10
+breast	UBERON:0000310	26-32
+tissue	UBERON:0000479	101-107
+functional	BAO:0000010	198-208
+- The subject has adequate marrow function, defined as follows: A. Absolute neutrophil count (ANC) >1500/mm3 B. Platelets >100,000/mm3, and C. Hemoglobin > 9 g/dL	Eligibility	11
+function	BAO:0003117,BFO:0000034	34-42
+hemoglobin	CHEBI:35143	143-153
+The subject is capable of understanding and complying with the protocol requirements and has signed the informed consent document.	Eligibility	12
+document	IAO:0000310	121-129
+Sexually active subjects (male and female) must use accepted methods of contraception during the course of the study and for 3 months after the last dose of protocol drug(s).	Eligibility	13
+active	PATO:0002354	9-15
+male	CHEBI:30780,PATO:0000384	26-30
+male	CHEBI:30780,PATO:0000384	37-41
+female	PATO:0000383	35-41
+drug	CHEBI:23888	166-170
+Female subjects of childbearing potential must have a negative pregnancy test at screening. Females of childbearing potential are defined as sexually mature women without prior hysterectomy or who have had any evidence of menses in the past 12 months.	Eligibility	14
+female	PATO:0000383	0-6
+female	PATO:0000383	92-98
+However, women who have been amenorrheic for 12 or more months are still considered to be of childbearing potential if the amenorrhea is possibly due to prior chemotherapy, antiestrogens, or ovarian suppression.	Eligibility	15
+amenorrhea	HP:0000141,DOID:13938	123-133
+Exclusion Criteria	Eligibility	16
+The subject has received cytotoxic chemotherapy (including investigational cytotoxic chemotherapy) within 3 weeks (or nitrosoureas or mitomycin C within 6 weeks) before the first dose of PD 0332991. . Patients with HER2-overexpressing tumors may receive trastuzumab up to the date of starting therapy, and may continue to receive trastuzumab while receiving PD0332991.	Eligibility	17
+mitomycin c	CHEBI:27504	134-145
+The subject has received any other type of investigational agent within 28 days before the first dose of study treatment.	Eligibility	18
+The subject has not recovered from clinically-meaningful toxicity due to prior therapy (i.e., back to baseline or Grade  1), with the exception of neurotoxicity and alopecia.	Eligibility	19
+alopecia	HP:0001596,DOID:987	165-173
+The subject has untreated or uncontrolled brain metastases or evidence of leptomeningeal involvement of disease unless the subject has a teratoma in which case s/he may be eligible if all other eligibility criteria are met	Eligibility	20
+brain	UBERON:0000955	42-47
+disease	DOID:4,OGMS:0000031	104-111
+teratoma	HP:0009792,DOID:3307	137-145
+The subject has uncontrolled intercurrent illness including, but not limited to:	Eligibility	21
+ongoing or active infection	Eligibility	22
+active	PATO:0002354	11-17
+diabetes mellitus	Eligibility	23
+diabetes mellitus	HP:0000819,DOID:9351	0-17
+hypertension	Eligibility	24
+hypertension	HP:0000822,DOID:10763	0-12
+symptomatic congestive heart failure, unstable angina pectoris, stroke or myocardial infarction within 3 months	Eligibility	25
+congestive heart failure	HP:0001635,DOID:6000	12-36
+angina pectoris	HP:0001681	47-62
+stroke	HP:0001297,DOID:6713	64-70
+myocardial infarction	HP:0001658,DOID:5844	74-95
+The subject has a baseline corrected QT interval (QTc) > 470 ms.	Eligibility	26
+qt interval	CMO:0000235	37-48
+The subject is pregnant or breastfeeding.	Eligibility	27
+The subject is known to be positive for the human immunodeficiency virus (HIV). Note:	Eligibility	28
+immunodeficiency	HP:0002721	50-66
+virus	BAO:0000232	67-72
+baseline HIV screening is not required	Eligibility	29
+- The subject is unable or unwilling to abide by the study protocol or cooperate fully with the investigator or designee.	Eligibility	30
+Outcome Measurement:	Results	0
+Response Rates	Results	1
+Response rates will be measured using the Response Evaluation Criteria in Solid Tumors (RECIST):	Results	2
+Complete Response (CR) - Disappearance of all target lesions Partial Response (PR) - 30% decrease in the sum of the longest diameter of the target lesions compared with baseline Progressive Disease (PD) - 20% increase in the sum of the longest diameter of the target lesions compared with the smallest sum of the longest diameter recorded since treatment started OR The appearance of 1 or more new lesions Stable Disease (SD) - Neither PR or PD Not Evaluable (NE)	Results	3
+target	BAO:0003064	46-52
+target	BAO:0003064	140-146
+target	BAO:0003064	260-266
+diameter	PATO:0001334	124-132
+diameter	PATO:0001334	244-252
+diameter	PATO:0001334	321-329
+progressive	HP:0003676	178-189
+disease	DOID:4,OGMS:0000031	190-197
+disease	DOID:4,OGMS:0000031	413-420
+increase	BAO:0001251	209-217
+stable	HP:0031915	406-412
+Time frame: 10 years	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Arm 1	Results	6
+Arm/Group Description: Metastatic breast cancer	Results	7
+breast cancer	DOID:1612	34-47
+PD-0332991: Given orally, 125 mg QD on a 21-day	Results	8
+Overall Number of Participants Analyzed: 63	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  partial response: 4   6.3%	Results	11
+stable disease: 32  50.8%	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+progressive disease: 25  39.7%	Results	13
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+not evaluable for response: 2   3.2%	Results	14
+Results 2:	Results	15
+Arm/Group Title: Arm 2	Results	16
+Arm/Group Description: Metastatic colorectal cancer that harbors the Kras or BRAF mutation	Results	17
+colorectal cancer	DOID:9256	34-51
+PD-0332991: Given orally, 125 mg QD on a 21-day	Results	18
+Overall Number of Participants Analyzed: 18	Results	19
+Measure Type: Count of Participants	Results	20
+Unit of Measure: Participants  partial response: 0   0.0%	Results	21
+stable disease: 6  33.3%	Results	22
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+progressive disease: 8  44.4%	Results	23
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+not evaluable for response: 4  22.2%	Results	24
+Adverse Events 1:	Adverse Events	0
+Total: 1/63 (1.59%)	Adverse Events	1
+anemia  1/63 (1.59%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+thromboembolic event  0/63 (0.00%)	Adverse Events	3
+bowel obstruction  0/63 (0.00%)	Adverse Events	4
+diarrhea  0/63 (0.00%)	Adverse Events	5
+diarrhea	HP:0002014,DOID:13250	0-8
+GI bleed  0/63 (0.00%)	Adverse Events	6
+mucositis  0/63 (0.00%)	Adverse Events	7
+mucositis	DOID:0080178	0-9
+fever  0/63 (0.00%)	Adverse Events	8
+fever	HP:0001945	0-5
+elevated alk phos  0/63 (0.00%)	Adverse Events	9
+elavated ALT  0/63 (0.00%)	Adverse Events	10
+elevated AST  0/63 (0.00%)	Adverse Events	11
+leukopenia  0/63 (0.00%)	Adverse Events	12
+leukopenia	HP:0001882,DOID:615	0-10
+lymphopenia  0/63 (0.00%)	Adverse Events	13
+lymphopenia	HP:0001888,DOID:614	0-11
+neutropenia  0/63 (0.00%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	0-11
+Adverse Events 2:	Adverse Events	15
+Total: 10/18 (55.56%)	Adverse Events	16
+anemia  0/18 (0.00%)	Adverse Events	17
+anemia	HP:0001903,DOID:2355	0-6
+thromboembolic event  2/18 (11.11%)	Adverse Events	18
+bowel obstruction  0/18 (0.00%)	Adverse Events	19
+diarrhea  1/18 (5.56%)	Adverse Events	20
+diarrhea	HP:0002014,DOID:13250	0-8
+GI bleed  0/18 (0.00%)	Adverse Events	21
+mucositis  0/18 (0.00%)	Adverse Events	22
+mucositis	DOID:0080178	0-9
+fever  1/18 (5.56%)	Adverse Events	23
+fever	HP:0001945	0-5
+elevated alk phos  2/18 (11.11%)	Adverse Events	24
+elavated ALT  2/18 (11.11%)	Adverse Events	25
+elevated AST  2/18 (11.11%)	Adverse Events	26
+leukopenia  5/18 (27.78%)	Adverse Events	27
+leukopenia	HP:0001882,DOID:615	0-10
+lymphopenia  0/18 (0.00%)	Adverse Events	28
+lymphopenia	HP:0001888,DOID:614	0-11

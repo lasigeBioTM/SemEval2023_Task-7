@@ -1,0 +1,231 @@
+INTERVENTION 1:	Intervention	0
+Group 0	Intervention	1
+group	CHEBI:24433	0-5
+Capecitabine - AM 1500mg; PM 1500 mg; total daily 3000 mg	Intervention	2
+capecitabine	CHEBI:31348	0-12
+INTERVENTION 2:	Intervention	3
+Group 1	Intervention	4
+group	CHEBI:24433	0-5
+Capecitabine - AM 1500 mg; PM 2000 mg; total daily 3500 mg	Intervention	5
+capecitabine	CHEBI:31348	0-12
+Inclusion Criteria:	Eligibility	0
+Patient (male or female) with diagnosis of invasive adenocarcinoma of the breast confirmed at MSKCC either by histology or cytology.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+male	CHEBI:30780,PATO:0000384	9-13
+male	CHEBI:30780,PATO:0000384	19-23
+female	PATO:0000383	17-23
+adenocarcinoma	DOID:299	52-66
+breast	UBERON:0000310	74-80
+histology	NCIT:C16681	110-119
+Clinical evidence of metastatic breast cancer, non-amenable to surgery or radiation therapy with curative intent.	Eligibility	2
+breast cancer	DOID:1612	32-45
+surgery	OAE:0000067	63-70
+Presence of at least one measurable metastatic lesion according to the RECIST criteria which has not been irradiated (i.e. newly arising lesions in previously irradiated areas are accepted). Ascites, pleural effusion, and bone metastases are not considered measurable. Minimum indicator lesion size: greater than or equal to 10 mm measured by spiral CT or greater than or equal to 20 mm measured by conventional techniques.	Eligibility	3
+ascites	HP:0001541	191-198
+pleural effusion	HP:0002202	200-216
+indicator	CHEBI:47867	277-286
+size	PATO:0000117	294-298
+ct	BAO:0002125	350-352
+Any number of prior endocrine or biologic therapies is permitted on this trial. In addition, patients may be untreated in the metastatic setting or have received any number of prior cytotoxic regimens. All previous chemotherapy must have been discontinued at least 3 weeks prior to study entry. All acute toxic effects (excluding alopecia or neurotoxicity) of any prior therapy must have resolved to NCI CTC (Version 3) Grade less than or equal to 1.	Eligibility	4
+acute	HP:0011009,PATO:0000389	299-304
+alopecia	HP:0001596,DOID:987	330-338
+Endocrine therapy with an aromatase inhibitor, SERM (ie, tamoxifen) or fulvestrant is permitted within 4 weeks of study entry, however concurrent therapy with these drugs is not acceptable.	Eligibility	5
+inhibitor	CHEBI:35222	36-45
+tamoxifen	CHEBI:41774	57-66
+fulvestrant	CHEBI:31638	71-82
+ECOG performance status of 0, 1 or 2.	Eligibility	6
+Patients must be either HER2-negative or HER2-positive and no longer a candidate for trastuzumab therapy. HER2-negative is defined as 0 or 1+ staining on immunohistochemistry or FISH negative for gene amplification. HER2-positive is defined as 3+ staining on immunohistochemistry or FISH positive for gene amplification.	Eligibility	7
+immunohistochemistry	BAO:0000415	154-174
+immunohistochemistry	BAO:0000415	259-279
+gene	BAO:0000582	196-200
+gene	BAO:0000582	301-305
+Age greater than or equal to 18 years old.	Eligibility	8
+age	PATO:0000011	0-3
+Baseline laboratory data within the following limits:	Eligibility	9
+Absolute neutrophil count (ANC) >1.5 x 10^9/L	Eligibility	10
+x	LABO:0000148	37-38
+Platelets > 100 x 10^9/L	Eligibility	11
+x	LABO:0000148	16-17
+Estimated creatinine clearance greater than or equal to 50 ml/min by - Cockcroft-Gault equation	Eligibility	12
+creatinine clearance	CMO:0000765	10-30
+Total serum bilirubin <1.5 x upper normal limit	Eligibility	13
+x	LABO:0000148	27-28
+ALT, AST < 2.5x upper normal limit (or <5x upper normal limit in the case of liver metastases)	Eligibility	14
+liver	UBERON:0002107	77-82
+Alkaline phosphatase < 2.5x upper normal limit (or >5x upper normal limit in the case of liver metastases or >10x upper normal limit in the case of bone disease)	Eligibility	15
+phosphatase	GO:0016791,BAO:0000295	9-20
+liver	UBERON:0002107	89-94
+bone disease	DOID:0080001	148-160
+Serum or urine pregnancy test for females of childbearing potential Negative within 14 days of starting treatment	Eligibility	16
+urine	UBERON:0001088	9-14
+Exclusion Criteria:	Eligibility	17
+Pregnant or nursing women may not participate. Patients of reproductive potential may not participate unless they have agreed to use an effective method of contraception and to continue contraception for 30 days from the date of the last study drug administration. Postmenopausal woman must be amenorrheic for at least 12 months to be considered of nonchildbearing potential.	Eligibility	18
+drug administration	OAE:0000011	244-263
+Life expectancy < 3 months.	Eligibility	19
+Serious, uncontrolled, concurrent infection.	Eligibility	20
+Any prior fluoropyrimidine therapy with the exception of adjuvant administration. Adjuvant fluoropyrimidine containing therapy must be completed at least 6 months prior to enrollment.	Eligibility	21
+adjuvant	CHEBI:60809	57-65
+adjuvant	CHEBI:60809	82-90
+Prior severe reaction to fluoropyrimidine therapy, or known hypersensitivity to 5-fluorouracil. A history of DPD deficiency will exclude patients from the trial.	Eligibility	22
+severe	HP:0012828	6-12
+hypersensitivity	GO:0002524,DOID:1205	60-76
+5-fluorouracil	CHEBI:46345	80-94
+history	BFO:0000182	98-105
+Completion of previous chemotherapy regimen <3 weeks prior to the start of study treatment.	Eligibility	23
+Prior adjuvant hormonal therapy is permitted. Use of an aromatase inhibitor, anti-estrogen or fulvestrant must be discontinued prior to treatment start.	Eligibility	24
+adjuvant	CHEBI:60809	6-14
+inhibitor	CHEBI:35222	66-75
+anti-estrogen	CHEBI:50751	77-90
+fulvestrant	CHEBI:31638	94-105
+Biologic therapy (eg, bevacizumab,trastuzumab) for the treatment of metastatic disease must be discontinued >3 weeks from the start of protocol treatment.	Eligibility	25
+disease	DOID:4,OGMS:0000031	79-86
+HER2-positive patients who are candidates for treatment with trastuzumab are excluded from this trial as the concurrent use of trastuzumab may confound study results.	Eligibility	26
+excluded	HP:0040285	77-85
+History of prior malignancy with the following exceptions: adequately treated basal cell or squamous cell carcinoma, in situ cervical cancer, adequately treated Stage I or II cancer from which the patient is currently in complete remission (with no evidence of disease) for more than five years.	Eligibility	27
+history	BFO:0000182	0-7
+squamous cell carcinoma	HP:0002860,DOID:1749	92-115
+cervical cancer	DOID:4362	125-140
+cancer	DOID:162	134-140
+cancer	DOID:162	175-181
+patient	HADO:0000008,OAE:0001817	197-204
+disease	DOID:4,OGMS:0000031	261-268
+Non-malignant systemic disease (cardiovascular, renal, hepatic etc) that would preclude any of the study therapy drugs. Specifically excluded are the following cardiac conditions:	Eligibility	28
+disease	DOID:4,OGMS:0000031	23-30
+excluded	HP:0040285	133-141
+Inadequately controlled hypertension (defined as blood pressure of >150/100 mmHg on antihypertensive medications)	Eligibility	29
+hypertension	HP:0000822,DOID:10763	24-36
+blood	UBERON:0000178	49-54
+Any prior history of hypertensive crisis or hypertensive encephalopathy	Eligibility	30
+history	BFO:0000182	10-17
+hypertensive crisis	HP:0100735	21-40
+hypertensive encephalopathy	DOID:9427	44-71
+New York Heart Association (NYHA) Class II or greater congestive heart failure	Eligibility	31
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	65-70
+congestive heart failure	HP:0001635,DOID:6000	54-78
+History of myocardial infarction or unstable angina within 6 months	Eligibility	32
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+History of stroke or transient ischemic attack within 6 months	Eligibility	33
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+transient ischemic attack	HP:0002326,DOID:224	21-46
+Significant vascular disease or symptomatic peripheral vascular disease	Eligibility	34
+vascular disease	DOID:178	12-28
+vascular disease	DOID:178	55-71
+peripheral vascular disease	DOID:341	44-71
+Capecitabine is contraindicated in patients with a creatinine clearance of <30 ml/min.Patients with a creatinine clearance less than 50 ml/minute by Cockroft and Gault Equation will be excluded from the trial.	Eligibility	35
+capecitabine	CHEBI:31348	0-12
+creatinine clearance	CMO:0000765	51-71
+creatinine clearance	CMO:0000765	102-122
+excluded	HP:0040285	185-193
+Patients with symptomatic CNS metastases that remain untreated by radiation therapy are excluded from this trial. The presence of asymptomatic brain metastases or brain metastases that have been previously irradiated are not grounds for trial exclusion for the phase I study however, these patients are excluded from the phase II portion of the trial.	Eligibility	36
+excluded	HP:0040285	88-96
+excluded	HP:0040285	303-311
+brain	UBERON:0000955	143-148
+brain	UBERON:0000955	163-168
+History of uncontrolled seizures, central nervous system disorders or psychiatric disability judged by the investigator to be clinically significant, precluding informed consent, or interfering with compliance of oral drug intake.	Eligibility	37
+history	BFO:0000182	0-7
+central nervous system	UBERON:0001017	34-56
+drug	CHEBI:23888	218-222
+Other severe, acute or chronic, medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or study drug administration or may interfere with the interpretation of study results. Any of the above criteria that in the judgment of the investigator would make the subject inappropriate for entry into this study.	Eligibility	38
+severe	HP:0012828	6-12
+acute	HP:0011009,PATO:0000389	14-19
+chronic	HP:0011010	23-30
+condition	PDRO:0000129	55-64
+increase	BAO:0001251	100-108
+drug administration	OAE:0000011	163-182
+Presence of uncontrolled gastrointestinal malabsorption syndrome.	Eligibility	39
+malabsorption	HP:0002024	42-55
+syndrome	DOID:225	56-64
+Concurrent use of oral warfarin anticoagulant therapy is not permitted due to serious drug interactions with capecitabine. Full dose anticoagulation with low molecular weight heparin or other (non-warfarin) anticoagulant is permitted.	Eligibility	40
+warfarin	CHEBI:10033	23-31
+warfarin	CHEBI:10033	197-205
+anticoagulant	CHEBI:50249	32-45
+anticoagulant	CHEBI:50249	207-220
+drug	CHEBI:23888	86-90
+capecitabine	CHEBI:31348	109-121
+heparin	CHEBI:28304	175-182
+Unwillingness to give written informed consent or unwillingness to participate or inability to comply with the protocol for the duration of the study. Willingness and ability to comply with scheduled visits, treatment plan, laboratory tests and other study procedures are necessary for participation in this clinical trial.	Eligibility	41
+duration	PATO:0001309	128-136
+Concurrent radiation therapy is not permitted during treatment on protocol.	Eligibility	42
+Outcome Measurement:	Results	0
+Overall Objective Response	Results	1
+This is defined as the percentage of patients who achieve either an objective complete or partial target lesion response that is confirmed based on the RECIST criteria.	Results	2
+target	BAO:0003064	98-104
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Group 0	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Capecitabine - AM 1500mg; PM 1500 mg; total daily 3000 mg	Results	6
+capecitabine	CHEBI:31348	23-35
+Overall Number of Participants Analyzed: 3	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Partial Response (PR): 0	Results	9
+Stable Disease (SD): 2	Results	10
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progression of Disease (POD): 1	Results	11
+disease	DOID:4,OGMS:0000031	15-22
+Results 2:	Results	12
+Arm/Group Title: Group 1	Results	13
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Capecitabine - AM 1500 mg; PM 2000 mg; total daily 3500 mg	Results	14
+capecitabine	CHEBI:31348	23-35
+Overall Number of Participants Analyzed: 3	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: participants  Partial Response (PR): 0	Results	17
+Stable Disease (SD): 1	Results	18
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progression of Disease (POD): 2	Results	19
+disease	DOID:4,OGMS:0000031	15-22
+Adverse Events 1:	Adverse Events	0
+Total: 2/4 (50.00%)	Adverse Events	1
+Atrial fibrillation 0/4 (0.00%)	Adverse Events	2
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Dehydration 1/4 (25.00%)	Adverse Events	3
+dehydration	HP:0001944	0-11
+Fatigue (asthenia, lethargy, malaise) 1/4 (25.00%)	Adverse Events	4
+fatigue	HP:0012378	0-7
+asthenia	HP:0025406	9-17
+lethargy	HP:0001254	19-27
+malaise	HP:0033834	29-36
+Pain - Back 1/4 (25.00%)	Adverse Events	5
+pain	HP:0012531	0-4
+Urinary tract infection 0/4 (0.00%)	Adverse Events	6
+urinary tract infection	DOID:0080784	0-23
+Dyspnea (shortness of breath) 0/4 (0.00%)	Adverse Events	7
+dyspnea	HP:0002094	0-7
+Pericardial effusion 0/4 (0.00%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Thrombosis 0/4 (0.00%)	Adverse Events	9
+thrombosis	DOID:0060903	0-10
+Skin infection 0/4 (0.00%)	Adverse Events	10
+Rash: hand-foot skin reaction 0/4 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 0/3 (0.00%)	Adverse Events	13
+Atrial fibrillation 0/3 (0.00%)	Adverse Events	14
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Dehydration 0/3 (0.00%)	Adverse Events	15
+dehydration	HP:0001944	0-11
+Fatigue (asthenia, lethargy, malaise) 0/3 (0.00%)	Adverse Events	16
+fatigue	HP:0012378	0-7
+asthenia	HP:0025406	9-17
+lethargy	HP:0001254	19-27
+malaise	HP:0033834	29-36
+Pain - Back 0/3 (0.00%)	Adverse Events	17
+pain	HP:0012531	0-4
+Urinary tract infection 0/3 (0.00%)	Adverse Events	18
+urinary tract infection	DOID:0080784	0-23
+Dyspnea (shortness of breath) 0/3 (0.00%)	Adverse Events	19
+dyspnea	HP:0002094	0-7
+Pericardial effusion 0/3 (0.00%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Thrombosis 0/3 (0.00%)	Adverse Events	21
+thrombosis	DOID:0060903	0-10
+Skin infection 0/3 (0.00%)	Adverse Events	22
+Rash: hand-foot skin reaction 0/3 (0.00%)	Adverse Events	23

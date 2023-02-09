@@ -1,0 +1,218 @@
+INTERVENTION 1:	Intervention	0
+Triple Negative	Intervention	1
+ER-/PR-/HER2- patients who received Ixabepilone 20 mg/m2 on Days 1 and 8 and Carboplatin AUC=2.5 on Days 1 and 8 of each 21-day cycle.	Intervention	2
+ixabepilone	CHEBI:63605	36-47
+carboplatin	CHEBI:31355	77-88
+INTERVENTION 2:	Intervention	3
+HR Positive	Intervention	4
+ER+/PR+/HER2-, or ER+/PR-/HER2-, or ER-/PR+/HER2- patients who received Ixabepilone 20 mg/m2 on Days 1 and 8 and Carboplatin AUC=2.5 on Days 1 and 8 of each 21-day cycle.	Intervention	5
+ixabepilone	CHEBI:63605	72-83
+carboplatin	CHEBI:31355	113-124
+Inclusion Criteria:	Eligibility	0
+Male or female patients will be eligible for inclusion in this study if they meet all of the following criteria:	Eligibility	1
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Has measurable metastatic and or locally unresectable breast cancer with documented HER2 negative (-) disease	Eligibility	2
+breast cancer	DOID:1612	54-67
+disease	DOID:4,OGMS:0000031	102-109
+Has at least 1 measurable lesion per RECIST criteria (lesions that can be accurately measured in at least 1 dimension (longest diameter (LD) to be recorded) as 20 mm with conventional techniques (CT, MRI, X-ray) or as 10 mm with spiral CT scan). Irradiated lesions cannot be used to assess response but can be used to assess progression.	Eligibility	3
+diameter	PATO:0001334	127-135
+ct	BAO:0002125	196-198
+ct	BAO:0002125	236-238
+Has received up to 2 (0 to 2) prior chemotherapy regimens for metastatic disease with the following conditions:	Eligibility	4
+disease	DOID:4,OGMS:0000031	73-80
+Has had no prior treatment with ixabepilone or platinum agents	Eligibility	5
+ixabepilone	CHEBI:63605	32-43
+platinum	CHEBI:33364	47-55
+Has had no adjuvant chemotherapy within the 6 months prior to study, but may have received prior anthracyclines and/or taxanes as adjuvant chemotherapy	Eligibility	6
+adjuvant	CHEBI:60809	11-19
+adjuvant	CHEBI:60809	130-138
+3 weeks or more have elapsed since last chemotherapy treatment and any related toxicities have resolved to <Grade 1; at least 30 days must have passed since any investigational product has been administered and associated toxicities must have resolved to <Grade 1 (if applicable).	Eligibility	7
+product	BAO:0003067	177-184
+Has an ECOG Performance Status (PS) 0-2	Eligibility	8
+Is 18 years of age	Eligibility	9
+age	PATO:0000011	15-18
+Has a life expectancy of at least 12 weeks	Eligibility	10
+Has laboratory values of:	Eligibility	11
+White blood cell (WBC) count 3000 x 106/L Absolute neutrophil count (ANC) 1500 x 106/L Hemoglobin 9 g/dL Total bilirubin 1x upper limit of normal (ULN) AST and ALT 2.5 x ULN Alkaline phosphatase 2.5 x ULN; up to 5xULN if elevation is due to bone disease Serum creatinine 1.5 mg/dL Calculated creatinine clearance >50 mL/min (based on Cockroft and Gault method [Appendix III]) Platelet count 100,000 x 106/L	Eligibility	12
+blood	UBERON:0000178	6-11
+x	LABO:0000148	34-35
+x	LABO:0000148	79-80
+x	LABO:0000148	122-123
+x	LABO:0000148	168-169
+x	LABO:0000148	199-200
+x	LABO:0000148	213-214
+x	LABO:0000148	368-369
+x	LABO:0000148	399-400
+hemoglobin	CHEBI:35143	87-97
+phosphatase	GO:0016791,BAO:0000295	183-194
+bone disease	DOID:0080001	241-253
+creatinine	CHEBI:16737	260-270
+creatinine	CHEBI:16737	292-302
+creatinine clearance	CMO:0000765	292-312
+platelet count	CMO:0000029	376-390
+If patient has had radiation therapy, it has been completed >3 weeks prior to the start of study treatment. NOTE: Previously irradiated lesions will not be evaluable. However, these patients will still be eligible.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	3-10
+patient	HADO:0000008,OAE:0001817	182-189
+Has a negative serum pregnancy test within 7 calendar days prior to registration (female patients of childbearing potential [not surgically sterilized and between menarche and 1 year postmenopause	Eligibility	14
+female	PATO:0000383	82-88
+menarche	GO:0042696	163-171
+year	UO:0000036	178-182
+If fertile, patient (male or female) has agreed to use an acceptable method of birth control to avoid pregnancy for the duration of the study and for a period of 3 months thereafter	Eligibility	15
+patient	HADO:0000008,OAE:0001817	12-19
+male	CHEBI:30780,PATO:0000384	21-25
+male	CHEBI:30780,PATO:0000384	31-35
+female	PATO:0000383	29-35
+duration	PATO:0001309	120-128
+Has signed the most recent Patient Informed Consent Form	Eligibility	16
+patient	HADO:0000008,OAE:0001817	27-34
+Has signed a Patient Authorization Form Note: Having tissue available is not an inclusion criterion in this study; however, available tissue will be collected (see Section 8) if possible.	Eligibility	17
+patient	HADO:0000008,OAE:0001817	13-20
+tissue	UBERON:0000479	53-59
+tissue	UBERON:0000479	134-140
+Exclusion Criteria:	Eligibility	18
+A patient will be excluded from this study if he or she meets any of the following criteria:	Eligibility	19
+patient	HADO:0000008,OAE:0001817	2-9
+excluded	HP:0040285	18-26
+Had prior treatment with ixabepilone or other epothilones	Eligibility	20
+ixabepilone	CHEBI:63605	25-36
+Had prior radiation to 30% of major bone marrow containing areas (pelvis, lumbar spine)	Eligibility	21
+bone marrow	UBERON:0002371	36-47
+Has ER+ and/or PR+ disease that has not progressed on hormone therapy, unless the patient has life-threatening or rapidly progressing visceral disease	Eligibility	22
+disease	DOID:4,OGMS:0000031	19-26
+disease	DOID:4,OGMS:0000031	143-150
+hormone	CHEBI:24621	54-61
+patient	HADO:0000008,OAE:0001817	82-89
+Has HER2+ disease (IHC staining of 3+ [uniform, intense membrane staining of >30% of invasive tumor cells]), a FISH result of more than 6 HER2 gene copies per nucleus or a FISH ratio (HER2 gene signals to chromosome 17 signals of >2.2)	Eligibility	23
+disease	DOID:4,OGMS:0000031	10-17
+membrane	GO:0016020	56-64
+result	BAO:0000179	116-122
+gene	BAO:0000582	143-147
+gene	BAO:0000582	189-193
+nucleus	CHEBI:33252,GO:0005634	159-166
+ratio	UO:0000190	177-182
+chromosome	GO:0005694	205-215
+Has only lytic bone disease or nonmeasurable disease only	Eligibility	24
+bone disease	DOID:0080001	15-27
+disease	DOID:4,OGMS:0000031	20-27
+disease	DOID:4,OGMS:0000031	45-52
+Has a known, prior, severe (NCI CTCAE Grade 3-4) history of hypersensitivity reaction to a drug formulated in Cremophor®EL (polyoxyethylated castor oil) or has history of severe allergic reactions to cisplatin or other platinum-containing compounds	Eligibility	25
+severe	HP:0012828	20-26
+severe	HP:0012828	171-177
+history	BFO:0000182	49-56
+history	BFO:0000182	160-167
+hypersensitivity	GO:0002524,DOID:1205	60-76
+drug	CHEBI:23888	91-95
+castor oil	CHEBI:140618	141-151
+cisplatin	CHEBI:27899	200-209
+Has been treated previously with a platinum-containing agent	Eligibility	26
+Is receiving concurrent immunotherapy, hormonal therapy, or radiation therapy. Washout periods for these prior therapies are specified in Section 5.	Eligibility	27
+Is receiving concurrent investigational therapy or has received such therapy within the 30 days prior to dosing Day 1	Eligibility	28
+day	UO:0000033	91-94
+day	UO:0000033	112-115
+Has neuropathy (motor or sensory) >Grade 1	Eligibility	29
+neuropathy	DOID:870	4-14
+Has evidence of CNS involvement requiring radiation or steroid treatment. Patients with stable brain metastases who are off steroids at least 2 weeks are eligible.	Eligibility	30
+steroid	CHEBI:35341	55-62
+steroid	CHEBI:35341	124-131
+stable	HP:0031915	88-94
+brain	UBERON:0000955	95-100
+Has a serious uncontrolled intercurrent medical or psychiatric illness, including serious infection	Eligibility	31
+Has clinically relevant coagulopathy either secondary to hepatic dysfunction or an underlying condition requiring therapeutic anticoagulation (specifically, A-fib, history of DVT). A daily aspirin or Plavix for CAD are permitted.	Eligibility	32
+condition	PDRO:0000129	94-103
+history	BFO:0000182	164-171
+Has a history of other malignancy within the last 5 years (except cured basal cell carcinoma of skin and carcinoma in situ of uterine cervix), which could affect the diagnosis or assessment of any of the study drugs	Eligibility	33
+history	BFO:0000182	6-13
+basal cell carcinoma	HP:0002671,DOID:2513	72-92
+carcinoma	HP:0030731,DOID:305	83-92
+carcinoma	HP:0030731,DOID:305	105-114
+uterine cervix	UBERON:0000002	126-140
+Is a pregnant or breast feeding woman	Eligibility	34
+breast	UBERON:0000310	17-23
+Is unable to comply with the requirements of the study	Eligibility	35
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR)	Results	1
+rate	BAO:0080019	19-23
+Evaluate the objective response rate calculated as CR+ PR in the population evaluable for response, as well as the 2 subgroups (hormone receptor positive [ER+/PR+/HER2-, ER+/PR-/HER2-, ER-/PR+/HER2-]) and ER-/PR-HER2-, separately).	Results	2
+rate	BAO:0080019	32-36
+rate	BAO:0080019	223-227
+hormone	CHEBI:24621	128-135
+receptor	BAO:0000281	136-144
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	3
+target	BAO:0003064	76-82
+target	BAO:0003064	157-163
+target	BAO:0003064	249-255
+diameter	PATO:0001334	237-245
+Time frame: 24 months	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Triple Negative	Results	6
+Arm/Group Description: ER-/PR-/HER2- patients who received Ixabepilone 20 mg/m2 on Days 1 and 8 and Carboplatin AUC=2.5 on Days 1 and 8 of each 21-day cycle.	Results	7
+ixabepilone	CHEBI:63605	59-70
+carboplatin	CHEBI:31355	100-111
+Overall Number of Participants Analyzed: 46	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  30.4        (17.7 to 45.8)	Results	10
+Results 2:	Results	11
+Arm/Group Title: HR Positive	Results	12
+Arm/Group Description: ER+/PR+/HER2-, or ER+/PR-/HER2-, or ER-/PR+/HER2- patients who received Ixabepilone 20 mg/m2 on Days 1 and 8 and Carboplatin AUC=2.5 on Days 1 and 8 of each 21-day cycle.	Results	13
+ixabepilone	CHEBI:63605	95-106
+carboplatin	CHEBI:31355	136-147
+Overall Number of Participants Analyzed: 53	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: percentage of participants  34        (21.5 to 48.3)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 10/48 (20.83%)	Adverse Events	1
+NEUTROPENIA 1/48 (2.08%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+THROMBOCYTOPENIA 0/48 (0.00%)	Adverse Events	3
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+VOLUME BLOOD DECREASED 1/48 (2.08%)	Adverse Events	4
+volume	PATO:0000918	0-6
+blood	UBERON:0000178	7-12
+FIBRILLATION ATRIAL 1/48 (2.08%)	Adverse Events	5
+HYPOTENSION 1/48 (2.08%)	Adverse Events	6
+hypotension	HP:0002615	0-11
+ABDOMINAL PAIN 1/48 (2.08%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+APPETITE DECREASED 0/48 (0.00%)	Adverse Events	8
+DEHYDRATION 4/48 (8.33%)	Adverse Events	9
+dehydration	HP:0001944	0-11
+DIARRHEA 4/48 (8.33%)	Adverse Events	10
+diarrhea	HP:0002014,DOID:13250	0-8
+NAUSEA 3/48 (6.25%)	Adverse Events	11
+nausea	HP:0002018	0-6
+VOMITING 2/48 (4.17%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+FEVER 1/48 (2.08%)	Adverse Events	13
+fever	HP:0001945	0-5
+RIGORS 0/48 (0.00%)	Adverse Events	14
+rigors	HP:0025145	0-6
+Adverse Events 2:	Adverse Events	15
+Total: 5/53 (9.43%)	Adverse Events	16
+NEUTROPENIA 1/53 (1.89%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+THROMBOCYTOPENIA 1/53 (1.89%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+VOLUME BLOOD DECREASED 0/53 (0.00%)	Adverse Events	19
+volume	PATO:0000918	0-6
+blood	UBERON:0000178	7-12
+FIBRILLATION ATRIAL 0/53 (0.00%)	Adverse Events	20
+HYPOTENSION 0/53 (0.00%)	Adverse Events	21
+hypotension	HP:0002615	0-11
+ABDOMINAL PAIN 0/53 (0.00%)	Adverse Events	22
+abdominal pain	HP:0002027	0-14
+APPETITE DECREASED 1/53 (1.89%)	Adverse Events	23
+DEHYDRATION 0/53 (0.00%)	Adverse Events	24
+dehydration	HP:0001944	0-11
+DIARRHEA 0/53 (0.00%)	Adverse Events	25
+diarrhea	HP:0002014,DOID:13250	0-8
+NAUSEA 1/53 (1.89%)	Adverse Events	26
+nausea	HP:0002018	0-6
+VOMITING 1/53 (1.89%)	Adverse Events	27
+vomiting	HP:0002013	0-8
+FEVER 1/53 (1.89%)	Adverse Events	28
+fever	HP:0001945	0-5
+RIGORS 1/53 (1.89%)	Adverse Events	29
+rigors	HP:0025145	0-6

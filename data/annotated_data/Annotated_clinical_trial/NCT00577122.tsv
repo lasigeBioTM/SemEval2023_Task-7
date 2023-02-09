@@ -1,0 +1,113 @@
+INTERVENTION 1:	Intervention	0
+Cohort I: MPA-Alone	Intervention	1
+Medroxyprogesterone progesterone acetate (MPA) will be administered orally as a single daily dose.	Intervention	2
+medroxyprogesterone	CHEBI:6715	0-19
+progesterone	CHEBI:17026	7-19
+progesterone	CHEBI:17026	20-32
+acetate	CHEBI:47622	33-40
+INTERVENTION 2:	Intervention	3
+Cohort 2: MPA+IdoCM	Intervention	4
+Medroxyprogesterone progesterone acetate (MPA) will be administered orally as a single daily dose.	Intervention	5
+medroxyprogesterone	CHEBI:6715	0-19
+progesterone	CHEBI:17026	7-19
+progesterone	CHEBI:17026	20-32
+acetate	CHEBI:47622	33-40
+Cyclophosphamide will be administered orally as a single daily dose. Methotrexate will be administered twice daily on days 1 and 2 of each week.	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+methotrexate	CHEBI:44185	69-81
+week	UO:0000034	139-143
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed adenocarcinoma of the breast with measurable locally recurrent or metastatic disease	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+recurrent	HP:0031796	95-104
+disease	DOID:4,OGMS:0000031	119-126
+Primary tumor must be ER negative and PR negative	Eligibility	2
+Patients must be post-menopausal	Eligibility	3
+Patients may have had up to 3 prior chemotherapy regimens for recurrent/metastatic disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	83-90
+Adequate organ function as evidenced by laboratory studies outlined in section 3.6 of the protocol	Eligibility	5
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Patients with treated, asymptomatic brain metastases are eligible provided chronic steroid therapy is not required	Eligibility	6
+brain	UBERON:0000955	36-41
+chronic	HP:0011010	75-82
+steroid	CHEBI:35341	83-90
+Exclusion Criteria:	Eligibility	7
+Patients must not have extensive pleural effusion or ascites	Eligibility	8
+pleural effusion	HP:0002202	33-49
+ascites	HP:0001541	53-60
+Patients must not have history of DVT or pulmonary embolism w/in past 12 mo	Eligibility	9
+history	BFO:0000182	23-30
+pulmonary embolism	HP:0002204,DOID:9477	41-59
+Patients must not have had chemotherapy or hormonal therapy within 2 weeks of study entry	Eligibility	10
+Patients must not have had radiation therapy within 1 week of study entry.	Eligibility	11
+week	UO:0000034	54-58
+Outcome Measurement:	Results	0
+Clinical Benefit Rate (CR + PR + SD > 6 Months).	Results	1
+rate	BAO:0080019	17-21
+To determine the clinical benefit rate (Complete Response + Partial Response + Stable Disease > 6 months) per Response Evaluation Criteria in Solid tumors (RECIST version 1.0). of MPA monotherapy and MPA + low dose oral cyclophosphamide and methotrexate (ldoCM) in patients with refractory hormone receptor negative metastatic breast cancer. This will show the percent of patients who had Clinical Benefit and the Exact 95% Confidence Interval.	Results	2
+rate	BAO:0080019	34-38
+stable	HP:0031915	79-85
+disease	DOID:4,OGMS:0000031	86-93
+cyclophosphamide	CHEBI:4026	220-236
+methotrexate	CHEBI:44185	241-253
+refractory	HP:0031375	279-289
+hormone	CHEBI:24621	290-297
+receptor	BAO:0000281	298-306
+breast cancer	DOID:1612	327-340
+percent	UO:0000187	361-368
+Time frame: baseline through end of study, up to 3 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cohort I: MPA-Alone	Results	5
+Arm/Group Description: Medroxyprogesterone progesterone acetate (MPA) will be administered orally as a single daily dose.	Results	6
+medroxyprogesterone	CHEBI:6715	23-42
+progesterone	CHEBI:17026	30-42
+progesterone	CHEBI:17026	43-55
+acetate	CHEBI:47622	56-63
+Overall Number of Participants Analyzed: 14	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percent of Participants  7.1        (0.2 to 33.9)	Results	9
+percent	UO:0000187	17-24
+Results 2:	Results	10
+Arm/Group Title: Cohort 2: MPA+IdoCM	Results	11
+Arm/Group Description: Medroxyprogesterone progesterone acetate (MPA) will be administered orally as a single daily dose.	Results	12
+medroxyprogesterone	CHEBI:6715	23-42
+progesterone	CHEBI:17026	30-42
+progesterone	CHEBI:17026	43-55
+acetate	CHEBI:47622	56-63
+Cyclophosphamide will be administered orally as a single daily dose. Methotrexate will be administered twice daily on days 1 and 2 of each week.	Results	13
+cyclophosphamide	CHEBI:4026	0-16
+methotrexate	CHEBI:44185	69-81
+week	UO:0000034	139-143
+Overall Number of Participants Analyzed: 16	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: Percent of Participants  6.3        (0.2 to 30.2)	Results	16
+percent	UO:0000187	17-24
+Adverse Events 1:	Adverse Events	0
+Total: 2/14 (14.29%)	Adverse Events	1
+DEHYDRATION *0/14 (0.00%)	Adverse Events	2
+dehydration	HP:0001944	0-11
+FRACTURE *1/14 (7.14%)	Adverse Events	3
+RENAL FAILURE *0/14 (0.00%)	Adverse Events	4
+DYSPNEA (SHORTNESS OF BREATH) *0/14 (0.00%)	Adverse Events	5
+dyspnea	HP:0002094	0-7
+ASPIRATION *0/14 (0.00%)	Adverse Events	6
+aspiration	HP:0002835	0-10
+HYPOXIA *0/14 (0.00%)	Adverse Events	7
+PNEUMOTHORAX *1/14 (7.14%)	Adverse Events	8
+pneumothorax	HP:0002107,DOID:1673	0-12
+Adverse Events 2:	Adverse Events	9
+Total: 2/16 (12.50%)	Adverse Events	10
+DEHYDRATION *1/16 (6.25%)	Adverse Events	11
+dehydration	HP:0001944	0-11
+FRACTURE *0/16 (0.00%)	Adverse Events	12
+RENAL FAILURE *1/16 (6.25%)	Adverse Events	13
+DYSPNEA (SHORTNESS OF BREATH) *2/16 (12.50%)	Adverse Events	14
+dyspnea	HP:0002094	0-7
+ASPIRATION *1/16 (6.25%)	Adverse Events	15
+aspiration	HP:0002835	0-10
+HYPOXIA *1/16 (6.25%)	Adverse Events	16
+PNEUMOTHORAX *0/16 (0.00%)	Adverse Events	17
+pneumothorax	HP:0002107,DOID:1673	0-12

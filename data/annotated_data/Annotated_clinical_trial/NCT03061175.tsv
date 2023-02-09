@@ -1,0 +1,88 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Web-Based CPM-DA)	Intervention	1
+Patients receive a website address, a secure username and password, and instructions for using the web-based CPM-DA.	Intervention	2
+Internet-Based Intervention: Receive web-based CPM-DA	Intervention	3
+Survey Administration: Ancillary studies	Intervention	4
+INTERVENTION 2:	Intervention	5
+Arm II (Usual Care)	Intervention	6
+Patients undergo usual care available to patients considering CPM and receive information from a medical oncologist about CPM.	Intervention	7
+Survey Administration: Ancillary studies	Intervention	8
+Inclusion Criteria:	Eligibility	0
+PHASE I: Has a first, primary diagnosis of unilateral stage 0, 1, 2, or 3a breast cancer (patients with bilateral breast cancer will be excluded from participation)	Eligibility	1
+unilateral	HP:0012833	43-53
+breast cancer	DOID:1612	75-88
+breast cancer	DOID:1612	114-127
+bilateral breast cancer	DOID:6741	104-127
+excluded	HP:0040285	136-144
+PHASE I: Speaks and reads English	Eligibility	2
+PHASE I: Women with sporadic cancers (WSC) (does not have hereditary breast/ovarian cancer syndrome [BReast CAncer gene (BRCA) carrier, strong family history]); if there is any uncertainty, the surgeon will use the Tyrer-Cuzick (Tyrer et al., 2004) risk model to calculate risk; the Tyrer-Cuzick model calculates a personal lifetime risk of breast cancer based on multiple factors; it has become the standard model because it incorporates not only factors such as estrogen exposure and first degree relatives, but also second degree relatives and paternal lineage; a lifetime risk of 20% or greater is considered high risk and would necessitate increased screening methods to the traditional annual mammogram; for this study, anyone with a lifetime risk up to 19% on the Tyrer-Cuzick model will be considered average risk for breast cancer; anyone with a lifetime risk of 20% or greater will be excluded from participation	Eligibility	3
+sporadic	HP:0003745	20-28
+cancer	DOID:162	29-35
+cancer	DOID:162	84-90
+cancer	DOID:162	108-114
+cancer	DOID:162	348-354
+cancer	DOID:162	833-839
+syndrome	DOID:225	91-99
+breast cancer	DOID:1612	101-114
+breast cancer	DOID:1612	341-354
+breast cancer	DOID:1612	826-839
+gene	BAO:0000582	115-119
+carrier	CHEBI:78059,GO:0005215,BAO:0002093	127-134
+family history	HP:0032316	143-157
+estrogen	CHEBI:50114,BAO:0000760	464-472
+second	UO:0000010	519-525
+excluded	HP:0040285	895-903
+PHASE I: Able to provide meaningful informed consent	Eligibility	4
+PHASE II: Completed initial surgical consult with breast cancer surgeon at Cancer Institute of New Jersey (CINJ)/Massachusetts General Hospital (MGH)/Memorial Sloan Kettering Cancer Center (MSKCC) and is considering CPM, regardless of the surgical treatment of their primary breast cancer (lumpectomy/mastectomy)	Eligibility	5
+breast cancer	DOID:1612	50-63
+breast cancer	DOID:1612	275-288
+cancer	DOID:162	57-63
+cancer	DOID:162	75-81
+cancer	DOID:162	175-181
+cancer	DOID:162	282-288
+PHASE II: Has home internet access	Eligibility	6
+home	CHEBI:75830	14-18
+PHASE II: Has a first, primary diagnosis of unilateral stage 0, 1, 2, or 3a breast cancer	Eligibility	7
+unilateral	HP:0012833	44-54
+breast cancer	DOID:1612	76-89
+PHASE II: Speaks and reads English	Eligibility	8
+PHASE II: WSC (does not have hereditary breast/ovarian cancer syndrome [BRCA carrier, strong family history]); if there is any uncertainty, the surgeon will use the Tyrer-Cuzick (Tyrer et al., 2004) risk model to calculate risk; for this study, anyone with a lifetime risk up to 19% on the Tyrer-Cuzick model will be considered average risk for breast cancer; anyone with a lifetime risk of 20% or greater will be excluded from participation	Eligibility	9
+cancer	DOID:162	55-61
+cancer	DOID:162	352-358
+syndrome	DOID:225	62-70
+carrier	CHEBI:78059,GO:0005215,BAO:0002093	77-84
+family history	HP:0032316	93-107
+breast cancer	DOID:1612	345-358
+excluded	HP:0040285	414-422
+PHASE II: Able to provide meaningful informed consent	Eligibility	10
+Outcome Measurement:	Results	0
+Contralateral Prophylactic Mastectomy (CPM) Knowledge Assessed by Surveys for CPM-DA Participants vs. UC Participants	Results	1
+CPM knowledge is a 10-item multiple-choice measure developed by author Kirsten and Smith. Scores range from 0-100% correct with a higher score equaling more correct knowledge items. Items assessed understanding of the definition of CPM, surgical recovery time and risks/side effects, whether or not CPM improves survival, and whether CPM reduced the risk for disease progression. Will characterize the data using standard methods (estimated marginal means, standard errors, and Cohen's d effect sizes) separately by study arm. At follow-up scores will be reported as the difference between the knowledge score at two time points- the baseline knowledge score and follow-up knowledge score for both the CPM-DA arm and the UC arm.	Results	2
+range	LABO:0000114	97-102
+time	PATO:0000165	255-259
+time	PATO:0000165	617-621
+disease	DOID:4,OGMS:0000031	359-366
+Time frame: 2-4 week follow up	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	16-20
+Results 1:	Results	4
+Arm/Group Title: Arm I (Web-Based CPM-DA)	Results	5
+Arm/Group Description: Patients receive a website address, a secure username and password, and instructions for using the web-based CPM-DA.	Results	6
+Internet-Based Intervention: Receive web-based CPM-DA	Results	7
+Survey Administration: Ancillary studies	Results	8
+Overall Number of Participants Analyzed: 39	Results	9
+Mean (Standard Error)	Results	10
+mean	BAO:0002173	0-4
+Unit of Measure: score on a scale  62.47         (3.40)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm II (Usual Care)	Results	13
+Arm/Group Description: Patients undergo usual care available to patients considering CPM and receive information from a medical oncologist about CPM.	Results	14
+Survey Administration: Ancillary studies	Results	15
+Overall Number of Participants Analyzed: 44	Results	16
+Mean (Standard Error)	Results	17
+mean	BAO:0002173	0-4
+Unit of Measure: score on a scale  51.33         (3.24)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 0/46 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

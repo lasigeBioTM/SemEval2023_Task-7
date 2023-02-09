@@ -1,0 +1,107 @@
+INTERVENTION 1:	Intervention	0
+Exemestane	Intervention	1
+exemestane	CHEBI:4953	0-10
+One tablet each of exemestane 25 mg and anastrozole placebo were orally administered once daily after a meal. The study treatment was continued until the disease progression or other discontinuation criteria were met.	Intervention	2
+exemestane	CHEBI:4953	19-29
+anastrozole	CHEBI:2704	40-51
+disease	DOID:4,OGMS:0000031	154-161
+INTERVENTION 2:	Intervention	3
+Anastrozole	Intervention	4
+anastrozole	CHEBI:2704	0-11
+One tablet each of anastrozole 1 mg and exemestane placebo were orally administered once daily after a meal. The study treatment was continued until the disease progression or other discontinuation criteria were met.	Intervention	5
+anastrozole	CHEBI:2704	19-30
+exemestane	CHEBI:4953	40-50
+disease	DOID:4,OGMS:0000031	153-160
+Inclusion Criteria:	Eligibility	0
+Have histologically or cytologically confirmed breast cancer at original diagnosis. At study entry, the patient must have metastatic progressive or locally recurrent inoperable breast cancer.	Eligibility	1
+breast cancer	DOID:1612	47-60
+breast cancer	DOID:1612	177-190
+patient	HADO:0000008,OAE:0001817	104-111
+progressive	HP:0003676	133-144
+recurrent	HP:0031796	156-165
+Exclusion Criteria:	Eligibility	2
+Having received any hormonal therapy (e.g., Tamoxifen, LHRH-agonists) ovariectomy or any chemotherapy for advanced/recurrent breast cancer	Eligibility	3
+tamoxifen	CHEBI:41774	44-53
+breast cancer	DOID:1612	125-138
+Outcome Measurement:	Results	0
+Time to Progression (TTP) - Expert Evaluation Committee Assessment	Results	1
+time	PATO:0000165	0-4
+ttp	CHEBI:63550	21-24
+Time in months from randomization to first documentation of objective tumor progression or death due to breast cancer, whichever comes first. Tumor progression was determined by the expert evaluation committee using RECIST version 1.0 as an at least a 20% increase in the sum of the longest diameters (SLD) of the target lesions compared to the smallest SLD since the study treatment started. For participants with bone metastasis only, at least 25% increase in the measurable lesion according to General Rules for Clinical and Pathological Study of Breast Cancer (The 14th edition).	Results	2
+time	PATO:0000165	0-4
+death	OAE:0000632	91-96
+breast cancer	DOID:1612	104-117
+breast cancer	DOID:1612	550-563
+increase	BAO:0001251	256-264
+increase	BAO:0001251	450-458
+target	BAO:0003064	314-320
+Time frame: Up to 2008 days of the treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Exemestane	Results	5
+exemestane	CHEBI:4953	17-27
+Arm/Group Description: One tablet each of exemestane 25 mg and anastrozole placebo were orally administered once daily after a meal. The study treatment was continued until the disease progression or other discontinuation criteria were met.	Results	6
+exemestane	CHEBI:4953	42-52
+anastrozole	CHEBI:2704	63-74
+disease	DOID:4,OGMS:0000031	177-184
+Overall Number of Participants Analyzed: 147	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  13.8        (10.8 to 16.5)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Anastrozole	Results	11
+anastrozole	CHEBI:2704	17-28
+Arm/Group Description: One tablet each of anastrozole 1 mg and exemestane placebo were orally administered once daily after a meal. The study treatment was continued until the disease progression or other discontinuation criteria were met.	Results	12
+anastrozole	CHEBI:2704	42-53
+exemestane	CHEBI:4953	63-73
+disease	DOID:4,OGMS:0000031	176-183
+Overall Number of Participants Analyzed: 145	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  11.1        (10.8 to 16.6)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 19/149 (12.75%)	Adverse Events	1
+Anaemia 0/149 (0.00%)	Adverse Events	2
+Acute myocardial infarction 1/149 (0.67%)	Adverse Events	3
+acute myocardial infarction	DOID:9408	0-27
+Pericardial effusion 1/149 (0.67%)	Adverse Events	4
+pericardial effusion	HP:0001698,DOID:118	0-20
+Prinzmetal angina 1/149 (0.67%)	Adverse Events	5
+prinzmetal angina	DOID:0111151	0-17
+Meniere's disease 0/149 (0.00%)	Adverse Events	6
+disease	DOID:4,OGMS:0000031	10-17
+Vertigo 0/149 (0.00%)	Adverse Events	7
+vertigo	HP:0002321	0-7
+Cataract 2/149 (1.34%)	Adverse Events	8
+cataract	HP:0000518,DOID:83	0-8
+Colitis ischaemic 1/149 (0.67%)	Adverse Events	9
+colitis	HP:0002583,DOID:0060180	0-7
+Nausea 0/149 (0.00%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Vomiting 0/149 (0.00%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Chest pain 1/149 (0.67%)	Adverse Events	12
+chest pain	HP:0100749	0-10
+Adverse Events 2:	Adverse Events	13
+Total: 19/149 (12.75%)	Adverse Events	14
+Anaemia 1/149 (0.67%)	Adverse Events	15
+Acute myocardial infarction 0/149 (0.00%)	Adverse Events	16
+acute myocardial infarction	DOID:9408	0-27
+Pericardial effusion 0/149 (0.00%)	Adverse Events	17
+pericardial effusion	HP:0001698,DOID:118	0-20
+Prinzmetal angina 0/149 (0.00%)	Adverse Events	18
+prinzmetal angina	DOID:0111151	0-17
+Meniere's disease 1/149 (0.67%)	Adverse Events	19
+disease	DOID:4,OGMS:0000031	10-17
+Vertigo 2/149 (1.34%)	Adverse Events	20
+vertigo	HP:0002321	0-7
+Cataract 1/149 (0.67%)	Adverse Events	21
+cataract	HP:0000518,DOID:83	0-8
+Colitis ischaemic 0/149 (0.00%)	Adverse Events	22
+colitis	HP:0002583,DOID:0060180	0-7
+Nausea 1/149 (0.67%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Vomiting 3/149 (2.01%)	Adverse Events	24
+vomiting	HP:0002013	0-8
+Chest pain 0/149 (0.00%)	Adverse Events	25
+chest pain	HP:0100749	0-10

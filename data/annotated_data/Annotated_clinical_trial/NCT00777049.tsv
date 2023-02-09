@@ -1,0 +1,266 @@
+INTERVENTION 1:	Intervention	0
+ER+ and/or PgR+ (Arm I)	Intervention	1
+Panobinostat - LBH589: hard gelatine capsule - 5mg and 20mg	Intervention	2
+panobinostat	CHEBI:85990	0-12
+capsule	GO:0042603	37-44
+INTERVENTION 2:	Intervention	3
+ER- and PgR- (Arm II)	Intervention	4
+Panobinostat - LBH589: hard gelatine capsule - 5mg and 20mg	Intervention	5
+panobinostat	CHEBI:85990	0-12
+capsule	GO:0042603	37-44
+Inclusion Criteria:	Eligibility	0
+Written informed consent obtained prior to any study-related procedures	Eligibility	1
+Women  18 years old	Eligibility	2
+Patients with an ECOG performance status of  2 assessed within 2 weeks (14 days) prior to registration	Eligibility	3
+Histologically or cytologically confirmed breast cancer with locally recurrent or radiological evidence of metastatic disease. Locally recurrent disease must not be amenable to resection with curative intent.	Eligibility	4
+breast cancer	DOID:1612	42-55
+recurrent	HP:0031796	69-78
+recurrent	HP:0031796	135-144
+disease	DOID:4,OGMS:0000031	118-125
+disease	DOID:4,OGMS:0000031	145-152
+Measurable disease per RECIST (Response Evaluation Criteria in Solid Tumor) guidelines	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+HER2-negative patients by local laboratory testing (IHC 0 or 1+ staining, IHC 2+ staining but in situ hybridization negative, or in situ hybridization negative).	Eligibility	6
+ER and PgR testing from a local laboratory is required prior to patient registration	Eligibility	7
+patient	HADO:0000008,OAE:0001817	64-71
+For Arm I: at least two lines of prior endocrine therapy (in adjuvant and/or metastatic settings) are required. Up to two prior cytotoxic chemotherapies are allowed in the metastatic setting (prior adjuvant and neoadjuvant chemotherapy is allowed).	Eligibility	8
+adjuvant	CHEBI:60809	61-69
+adjuvant	CHEBI:60809	198-206
+adjuvant	CHEBI:60809	214-222
+For Arm II: up to 2 prior cytotoxic chemotherapy regimens for treatment of metastatic or locally recurrent breast cancer are allowed.	Eligibility	9
+recurrent	HP:0031796	97-106
+breast cancer	DOID:1612	107-120
+Complete radiological tumor measurement within 4 weeks (28 days) prior to registration:	Eligibility	10
+tumor measurement	CMO:0000341	22-39
+Chest: CT scan with intravenous contrast if the contrast is not medically contraindicated or MRI	Eligibility	11
+chest	UBERON:0001443	0-5
+ct	BAO:0002125	7-9
+Abdomen: CT scan with intravenous or oral contrast if the contrast is not medically contraindicated or MRI	Eligibility	12
+abdomen	UBERON:0000916	0-7
+ct	BAO:0002125	9-11
+Brain: CT scan or MRI	Eligibility	13
+brain	UBERON:0000955	0-5
+ct	BAO:0002125	7-9
+Bone: Whole body Bone Scintigraphy	Eligibility	14
+Patients must meet the following laboratory criteria within 2 weeks (14 days) prior to registration:	Eligibility	15
+Hematology	Eligibility	16
+Neutrophil count of > 1200/mm3	Eligibility	17
+Platelet count of > 100,000/mm3	Eligibility	18
+platelet count	CMO:0000029	0-14
+Hemoglobin  90 g/L	Eligibility	19
+hemoglobin	CHEBI:35143	0-10
+Biochemistry	Eligibility	20
+AST/SGOT and ALT/SGPT  2.5 x upper limit of normal (ULN) or  5.0 x ULN if the transaminase elevation is due to disease involvement	Eligibility	21
+x	LABO:0000148	27-28
+x	LABO:0000148	65-66
+disease	DOID:4,OGMS:0000031	111-118
+Serum bilirubin  1.5 x ULN	Eligibility	22
+x	LABO:0000148	21-22
+Serum creatinine  1.5 x ULN or 24-hour creatinine clearance  50 mL/min	Eligibility	23
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	39-49
+x	LABO:0000148	22-23
+creatinine clearance	CMO:0000765	39-59
+Serum potassium, sodium, magnesium, phosphorus, and calcium within normal limits for the institution	Eligibility	24
+calcium	CHEBI:22984,BAO:0000874	52-59
+Serum albumin  LLN or 30g/L	Eligibility	25
+serum albumin	BAO:0002066	0-13
+Clinically euthyroid function (TSH and free T4). (Patients are permitted to receive thyroid hormone supplements to treat underlying hypothyroidism).	Eligibility	26
+function	BAO:0003117,BFO:0000034	21-29
+thyroid hormone	CHEBI:60311	84-99
+hypothyroidism	HP:0000821,DOID:1459	132-146
+LVEF assessment (2-D echocardiogram or MUGA scan) performed within 6 weeks prior to registration, showing a LVEF value > 50%	Eligibility	27
+Electrocardiogram performed within 1 week prior to registration (details about findings on the Electrocardiogram that are not acceptable for participating in the study are reported in the Exclusion criteria section)	Eligibility	28
+week	UO:0000034	37-41
+Women of childbearing potential (WOCBP) must have a negative serum pregnancy test within 7 days prior to registration and agree to appropriate method of pregnancy prevention.	Eligibility	29
+Patient should have an archival tumor sample available for confirmation of HER2, Estrogen and Progesterone status by the central lab.	Eligibility	30
+patient	HADO:0000008,OAE:0001817	0-7
+estrogen	CHEBI:50114,BAO:0000760	81-89
+progesterone	CHEBI:17026	94-106
+central	HP:0030645	121-128
+Exclusion Criteria:	Eligibility	31
+Prior HDAC, DAC, HSP90 inhibitors or valproic acid for the treatment of cancer	Eligibility	32
+valproic acid	CHEBI:39867	37-50
+cancer	DOID:162	72-78
+Patients who need valproic acid for any other medical condition during the study or within 5 days prior to first panobinostat treatment	Eligibility	33
+valproic acid	CHEBI:39867	18-31
+condition	PDRO:0000129	54-63
+panobinostat	CHEBI:85990	113-125
+Patients who have received prior systemic anti-cancer therapy (cytotoxic chemotherapy, endocrine therapy, targeted therapy, monoclonal antibody or biologic therapy) or investigational agent within the last 4 weeks prior to registration (6 weeks for nitrosoureas and mitomycin; 2 weeks for capecitabine)	Eligibility	34
+monoclonal	BAO:0000503	124-134
+antibody	GO:0042571,BAO:0000502	135-143
+mitomycin	CHEBI:25357	266-275
+capecitabine	CHEBI:31348	289-301
+Patients who have received prior radiotherapy to  25% of the bone marrow within the last 4 weeks prior to registration; local radiotherapy is allowed however all recently irradiated lesions should not be included in the measurable disease assessment.	Eligibility	35
+radiotherapy	OAE:0000235	33-45
+radiotherapy	OAE:0000235	126-138
+bone marrow	UBERON:0002371	61-72
+disease	DOID:4,OGMS:0000031	231-238
+Patients who have received prior investigational agents within the last 4 weeks prior to registration	Eligibility	36
+Patients with unresolved diarrhea CTCAE grade 1	Eligibility	37
+diarrhea	HP:0002014,DOID:13250	25-33
+Impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of oral panobinostat	Eligibility	38
+function	BAO:0003117,BFO:0000034	36-44
+disease	DOID:4,OGMS:0000031	51-58
+panobinostat	CHEBI:85990	111-123
+History of cardiac dysfunction including any one of the following:	Eligibility	39
+history	BFO:0000182	0-7
+Complete left bundle branch block or obligate use of a cardiac pacemaker or congenital long QT syndrome or history or presence of ventricular tachyarrhythmias or clinically significant resting bradycardia (<50 beats per minute) or QTcF > 450 msec on screening ECG or right bundle branch block and left anterior hemiblock (bifascicular block)	Eligibility	40
+left bundle branch block	HP:0011713	9-33
+obligate	HP:0040280	37-45
+long qt syndrome	DOID:2843	87-103
+history	BFO:0000182	107-114
+bradycardia	HP:0001662	193-204
+minute	UO:0000031	220-226
+right bundle branch block	HP:0011712,DOID:13209	267-292
+left	HP:0012835	9-13
+left	HP:0012835	297-301
+Presence of unstable atrial fibrillation (ventricular response rate >100 bpm). Patients with stable atrial fibrillation are allowed in the study provided they do not meet the other cardiac exclusion criteria	Eligibility	41
+atrial fibrillation	HP:0005110,DOID:0060224	21-40
+atrial fibrillation	HP:0005110,DOID:0060224	100-119
+rate	BAO:0080019	63-67
+stable	HP:0031915	14-20
+stable	HP:0031915	93-99
+Previous history angina pectoris or acute MI within 6 months of registration	Eligibility	42
+history	BFO:0000182	9-16
+angina pectoris	HP:0001681	17-32
+acute	HP:0011009,PATO:0000389	36-41
+Congestive Heart Failure (New York Heart Association functional classification III-IV)	Eligibility	43
+congestive heart failure	HP:0001635,DOID:6000	0-24
+heart	UBERON:0000948	11-16
+heart	UBERON:0000948	35-40
+functional	BAO:0000010	53-63
+History of unexplained syncope	Eligibility	44
+history	BFO:0000182	0-7
+syncope	HP:0001279	23-30
+Other clinically significant heart disease (e.g. cardiomyopathy, cardiac artery disease, uncontrolled hypertension, or history of poor compliance with an antihypertensive regimen)	Eligibility	45
+heart disease	DOID:114	29-42
+cardiomyopathy	HP:0001638,DOID:0050700	49-63
+artery disease	DOID:0050828	73-87
+hypertension	HP:0000822,DOID:10763	102-114
+history	BFO:0000182	119-126
+Family history of long QT syndrome, unexplained syncope or unexplained sudden death	Eligibility	46
+family history	HP:0032316	0-14
+long qt syndrome	DOID:2843	18-34
+syncope	HP:0001279	48-55
+sudden death	HP:0001699	71-83
+Acute or chronic liver or renal disease	Eligibility	47
+acute	HP:0011009,PATO:0000389	0-5
+chronic	HP:0011010	9-16
+liver	UBERON:0002107	17-22
+disease	DOID:4,OGMS:0000031	32-39
+Other concurrent severe and/or uncontrolled medical conditions (e.g., uncontrolled diabetes mellitus, active untreated or uncontrolled infection, chronic obstructive or chronic restrictive pulmonary disease including dyspnoea at rest from any cause) that could cause unacceptable safety risks or compromise compliance with the protocol	Eligibility	48
+severe	HP:0012828	17-23
+diabetes mellitus	HP:0000819,DOID:9351	83-100
+active	PATO:0002354	102-108
+chronic	HP:0011010	146-153
+chronic	HP:0011010	169-176
+disease	DOID:4,OGMS:0000031	199-206
+Concomitant use of drugs with a risk of causing torsades de pointes where such treatments cannot be discontinued or switched to a different medication prior to starting study drug	Eligibility	49
+drug	CHEBI:23888	19-23
+drug	CHEBI:23888	175-179
+Brain metastases, unless patient randomized on study at least 90 days from completion of brain radiotherapy and / or surgery without radiologic or functional evidence of progressive brain metastases, and off corticosteroids above the dose of 7.5 mg prednisone or equivalent; No concurrent radiotherapy for brain metastasis is allowed	Eligibility	50
+brain	UBERON:0000955	0-5
+brain	UBERON:0000955	89-94
+brain	UBERON:0000955	182-187
+brain	UBERON:0000955	306-311
+patient	HADO:0000008,OAE:0001817	25-32
+radiotherapy	OAE:0000235	95-107
+radiotherapy	OAE:0000235	289-301
+surgery	OAE:0000067	117-124
+functional	BAO:0000010	147-157
+progressive	HP:0003676	170-181
+prednisone	CHEBI:8382	249-259
+Clinically significant third space fluid accumulation	Eligibility	51
+Concurrent biphosphonates unless if initiated prior to study entry (at least 4 weeks before patient registration)	Eligibility	52
+patient	HADO:0000008,OAE:0001817	92-99
+Pregnant (i.e., positive beta-human chorionic gonadotropin test) or breast feeding patient	Eligibility	53
+chorionic gonadotropin	CHEBI:81570	36-58
+breast	UBERON:0000310	68-74
+patient	HADO:0000008,OAE:0001817	83-90
+Unable to swallow oral medications	Eligibility	54
+Not willing to use a double barrier method of non-hormonal birth control. Contraception must be used during the study and for 30 days after last dose of study treatment.	Eligibility	55
+Patients with any significant history of non-compliance to medical regimens or with inability to grant a reliable informed consent	Eligibility	56
+history	BFO:0000182	30-37
+Outcome Measurement:	Results	0
+Objective Response Rate (as Determined by Investigator): the Percentage of Patients Assigned to a Treatment Arm With a Confirmed Best Response of CR or PR.	Results	1
+rate	BAO:0080019	19-23
+The assessment of overall response (OR) is based on the response of target lesion, of non-target lesion, and on presence of new lesions (RECIST criteria version 1.0 using imaging techniques; as per investigator assessment).	Results	2
+target	BAO:0003064	68-74
+target	BAO:0003064	90-96
+Time frame: 6 years and 2 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: ER+ and/or PgR+ (Arm I)	Results	5
+Arm/Group Description: Panobinostat - LBH589: hard gelatine capsule - 5mg and 20mg	Results	6
+panobinostat	CHEBI:85990	23-35
+capsule	GO:0042603	60-67
+Overall Number of Participants Analyzed: 33	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Complete Response: 0	Results	9
+Partial Response: 1	Results	10
+Stable Disease / Incompete Response: 13	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 14	Results	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Missing: 5	Results	13
+Results 2:	Results	14
+Arm/Group Title: ER- and PgR- (Arm II)	Results	15
+Arm/Group Description: Panobinostat - LBH589: hard gelatine capsule - 5mg and 20mg	Results	16
+panobinostat	CHEBI:85990	23-35
+capsule	GO:0042603	60-67
+Overall Number of Participants Analyzed: 21	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: participants  Complete Response: 1	Results	19
+Partial Response: 0	Results	20
+Stable Disease / Incompete Response: 4	Results	21
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 14	Results	22
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Missing: 2	Results	23
+Adverse Events 1:	Adverse Events	0
+Total: 12/32 (37.50%)	Adverse Events	1
+Anaemia 0/32 (0.00%)	Adverse Events	2
+Neutropenia 1/32 (3.13%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 4/32 (12.50%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 1/32 (3.13%)	Adverse Events	5
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 1/32 (3.13%)	Adverse Events	6
+Myocardial ischaemia 1/32 (3.13%)	Adverse Events	7
+Abdominal discomfort 0/32 (0.00%)	Adverse Events	8
+Ascites 1/32 (3.13%)	Adverse Events	9
+ascites	HP:0001541	0-7
+Constipation 0/32 (0.00%)	Adverse Events	10
+constipation	HP:0002019,DOID:2089	0-12
+Rectal haemorrhage 1/32 (3.13%)	Adverse Events	11
+Vomiting 1/32 (3.13%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+Fatigue 1/32 (3.13%)	Adverse Events	13
+fatigue	HP:0012378	0-7
+Adverse Events 2:	Adverse Events	14
+Total: 8/20 (40.00%)	Adverse Events	15
+Anaemia 1/20 (5.00%)	Adverse Events	16
+Neutropenia 0/20 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/20 (5.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 0/20 (0.00%)	Adverse Events	19
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 0/20 (0.00%)	Adverse Events	20
+Myocardial ischaemia 0/20 (0.00%)	Adverse Events	21
+Abdominal discomfort 1/20 (5.00%)	Adverse Events	22
+Ascites 0/20 (0.00%)	Adverse Events	23
+ascites	HP:0001541	0-7
+Constipation 2/20 (10.00%)	Adverse Events	24
+constipation	HP:0002019,DOID:2089	0-12
+Rectal haemorrhage 0/20 (0.00%)	Adverse Events	25
+Vomiting 0/20 (0.00%)	Adverse Events	26
+vomiting	HP:0002013	0-8
+Fatigue 0/20 (0.00%)	Adverse Events	27
+fatigue	HP:0012378	0-7

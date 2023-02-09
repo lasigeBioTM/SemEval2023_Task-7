@@ -1,0 +1,304 @@
+INTERVENTION 1:	Intervention	0
+Sorafenib and Ixabepilone	Intervention	1
+sorafenib	CHEBI:50924	0-9
+ixabepilone	CHEBI:63605	14-25
+Oral targeted therapy and Systemic Chemotherapy	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Age  18 years.	Eligibility	1
+age	PATO:0000011	0-3
+Histologically or cytologically confirmed breast cancer diagnosis	Eligibility	2
+breast cancer	DOID:1612	42-55
+with metastatic disease. Patients without pathologic or cytologic	Eligibility	3
+disease	DOID:4,OGMS:0000031	16-23
+confirmation of metastatic disease should have unequivocal	Eligibility	4
+disease	DOID:4,OGMS:0000031	27-34
+evidence of metastasis.	Eligibility	5
+3. Measurable disease, as per RECIST criteria (Therasse et al.	Eligibility	6
+disease	DOID:4,OGMS:0000031	14-21
+2000). Measurable disease cannot be previously irradiated	Eligibility	7
+disease	DOID:4,OGMS:0000031	18-25
+unless progression was documented. Measurable disease is	Eligibility	8
+disease	DOID:4,OGMS:0000031	46-53
+defined as: at least one lesion that can be accurately measured in	Eligibility	9
+at least one dimension [longest diameter to be recorded] as	Eligibility	10
+diameter	PATO:0001334	32-40
+>20 mm with conventional techniques, or as >10 mm with spiral	Eligibility	11
+computed tomography (CT) scan. Disease must be measurable,	Eligibility	12
+tomography	BAO:0002525	9-19
+ct	BAO:0002125	21-23
+disease	DOID:4,OGMS:0000031	31-38
+i.e., bone-only disease or evaluable-only disease is not eligible.	Eligibility	13
+disease	DOID:4,OGMS:0000031	16-23
+disease	DOID:4,OGMS:0000031	42-49
+4. Patients with brain metastasis may participate if they:	Eligibility	14
+brain	UBERON:0000955	17-22
+have undergone appropriate treatment,	Eligibility	15
+are at least 1 month post-treatment,	Eligibility	16
+month	UO:0000035	15-20
+have no neurologic symptoms,	Eligibility	17
+are not on steroids,	Eligibility	18
+have a follow-up magnetic resonance imaging (MRI) scan that	Eligibility	19
+demonstrates no residual active lesions, and	Eligibility	20
+active	PATO:0002354	25-31
+have no new untreated lesions.	Eligibility	21
+5 The following prior therapies are allowed:	Eligibility	22
+No prior chemotherapy in the metastatic setting. However,	Eligibility	23
+patients must have received prior adjuvant or neo-adjuvant	Eligibility	24
+adjuvant	CHEBI:60809	34-42
+adjuvant	CHEBI:60809	50-58
+chemotherapy.	Eligibility	25
+Prior radiation therapy in either the metastatic or early-stage	Eligibility	26
+setting, as long as <25% of the bone marrow has been	Eligibility	27
+bone marrow	UBERON:0002371	32-43
+treated. Radiation therapy must be completed at least	Eligibility	28
+14 days prior to study registration, and all radiation-related	Eligibility	29
+toxicities must be resolved to  grade 1 before the patient is	Eligibility	30
+patient	HADO:0000008,OAE:0001817	51-58
+eligible for study inclusion.	Eligibility	31
+Any number of hormonal therapies in the neo-adjuvant,	Eligibility	32
+adjuvant, or metastatic setting is allowed. Patients must	Eligibility	33
+adjuvant	CHEBI:60809	0-8
+discontinue hormonal therapy at least 1 week prior to starting	Eligibility	34
+week	UO:0000034	40-44
+study treatment.	Eligibility	35
+Prior bevacizumab administered >4 weeks before initiation of	Eligibility	36
+study treatment is allowed.	Eligibility	37
+6 HER2-negative status. Documentation of HER2 results must be	Eligibility	38
+available at the time of study enrollment. HER2-negative is	Eligibility	39
+time	PATO:0000165	17-21
+defined as:	Eligibility	40
+Immunohistochemical (IHC) 0 or IHC 1+ OR	Eligibility	41
+Fluorescence in situ hybridization (FISH) negative (defined by	Eligibility	42
+FISH ratio <2.2) OR	Eligibility	43
+ratio	UO:0000190	5-10
+Silver in-situ hybridization (SISH) negative (defined by SISH	Eligibility	44
+ratio <2.2).	Eligibility	45
+ratio	UO:0000190	0-5
+Patients with an IHC 2+ will need to be validated as HER2-negative	Eligibility	46
+by FISH.	Eligibility	47
+7 An Eastern Cooperative Oncology Group (ECOG) performance	Eligibility	48
+group	CHEBI:24433	34-39
+status of < or = to 2.	Eligibility	49
+8. Normal bone marrow function as defined by:	Eligibility	50
+bone marrow	UBERON:0002371	10-21
+function	BAO:0003117,BFO:0000034	22-30
+absolute neutrophil count (ANC) >1,500/μL;	Eligibility	51
+platelets >100,000/μL;	Eligibility	52
+hemoglobin >9 g/dL.	Eligibility	53
+hemoglobin	CHEBI:35143	0-10
+9 Normal hepatic function as defined by:	Eligibility	54
+function	BAO:0003117,BFO:0000034	17-25
+total bilirubin within normal institutional limits;	Eligibility	55
+aspartate aminotransferase (AST) and alanine	Eligibility	56
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+aminotransferase (ALT) <2.5 × the institutional upper limit of	Eligibility	57
+normal (ULN) for patients without liver metastasis; <5.0 × ULN	Eligibility	58
+liver	UBERON:0002107	34-39
+for patients with liver metastasis.	Eligibility	59
+liver	UBERON:0002107	18-23
+10. Normal renal function as defined by creatinine <1.5 × ULN.	Eligibility	60
+function	BAO:0003117,BFO:0000034	17-25
+creatinine	CHEBI:16737	40-50
+11. Left ventricular ejection fraction (LVEF) within institutional limits of	Eligibility	61
+left	HP:0012835	4-8
+ejection fraction	CMO:0000180	21-38
+normal.	Eligibility	62
+12. International normalized ratio (INR) <1.5 or a prothrombin	Eligibility	63
+ratio	UO:0000190	29-34
+prothrombin	CHEBI:8583	51-62
+time/partial thromboplastin time (PT/PTT) within normal limits.	Eligibility	64
+time	PATO:0000165	0-4
+time	PATO:0000165	28-32
+Patients receiving anti-coagulation treatment with an agent such	Eligibility	65
+as warfarin or heparin may be allowed to participate. The INR	Eligibility	66
+warfarin	CHEBI:10033	3-11
+heparin	CHEBI:28304	15-22
+should be measured prior to initiation of sorafenib, and for	Eligibility	67
+sorafenib	CHEBI:50924	42-51
+patients on warfarin, INR should be monitored at least weekly	Eligibility	68
+warfarin	CHEBI:10033	12-20
+following initiation of protocol treatment, until the INR is stable and	Eligibility	69
+stable	HP:0031915	61-67
+therapeutic.	Eligibility	70
+13. Life expectancy of >6 months.	Eligibility	71
+14. For women of childbearing potential, negative serum pregnancy	Eligibility	72
+test within 7 days prior to starting treatment.	Eligibility	73
+15. For women of childbearing potential and men, agreement to use a	Eligibility	74
+method of contraception that is acceptable to their physician from	Eligibility	75
+time of first signing the informed consent and for the study	Eligibility	76
+time	PATO:0000165	0-4
+duration. Men should use adequate birth control for at least three	Eligibility	77
+duration	PATO:0001309	0-8
+months after the last administration of sorafenib. If a woman	Eligibility	78
+sorafenib	CHEBI:50924	40-49
+becomes pregnant or suspects she is pregnant while participating	Eligibility	79
+in this study, she must agree to inform her treating physician	Eligibility	80
+immediately. As applicable, patients must agree to discontinue	Eligibility	81
+breast-feeding until at least 3 weeks after their last dose of study	Eligibility	82
+drug.	Eligibility	83
+drug	CHEBI:23888	0-4
+16. Recovery to < grade 1 toxicity due to prior therapy.	Eligibility	84
+17. Ability to understand and willingness to sign a written informed	Eligibility	85
+consent document.	Eligibility	86
+document	IAO:0000310	8-16
+Exclusion Criteria	Eligibility	87
+More than one (>1) prior chemotherapy regimen.	Eligibility	88
+Treatment with chemotherapy, biologic agents, or targeted agents	Eligibility	89
+within the previous 4 weeks.	Eligibility	90
+Previous treatment with sorafenib or ixabepilone.	Eligibility	91
+sorafenib	CHEBI:50924	24-33
+ixabepilone	CHEBI:63605	37-48
+Women who are pregnant or breastfeeding.	Eligibility	92
+Neuropathy (motor or sensory) greater than grade 1.	Eligibility	93
+neuropathy	DOID:870	0-10
+Uncontrolled intercurrent illness including (but not limited to)	Eligibility	94
+ongoing or active infection >grade 2.	Eligibility	95
+active	PATO:0002354	11-17
+Known history of human immunodeficiency virus (HIV), Hepatitis	Eligibility	96
+history	BFO:0000182	6-13
+immunodeficiency	HP:0002721	23-39
+virus	BAO:0000232	40-45
+hepatitis	HP:0012115,DOID:2237	53-62
+B, or Hepatitis C infection.	Eligibility	97
+hepatitis c	DOID:1883	6-17
+History of other non-breast cancer malignancy treated with	Eligibility	98
+history	BFO:0000182	0-7
+cancer	DOID:162	28-34
+curative intent within the 5 years preceding study enrollment with	Eligibility	99
+the exception of carcinoma in situ of the cervix, non-melanoma	Eligibility	100
+carcinoma	HP:0030731,DOID:305	17-26
+skin cancer, or follicular thyroid cancer.	Eligibility	101
+skin cancer	DOID:4159	0-11
+cancer	DOID:162	5-11
+cancer	DOID:162	35-41
+Concurrent hormonal therapy, chemotherapy other than	Eligibility	102
+ixabepilone, or radiation treatments while on study as well as	Eligibility	103
+ixabepilone	CHEBI:63605	0-11
+treatment with other investigational agents while on study.	Eligibility	104
+Cardiac disease:	Eligibility	105
+disease	DOID:4,OGMS:0000031	8-15
+Congestive heart failure (CHF) greater than New York Heart Association	Eligibility	106
+congestive heart failure	HP:0001635,DOID:6000	0-24
+heart	UBERON:0000948	11-16
+heart	UBERON:0000948	53-58
+(NYHA) Class II (see Appendix B).	Eligibility	107
+Unstable angina (anginal symptoms at rest) or new onset angina	Eligibility	108
+onset	HP:0003674	50-55
+(i.e., began within the last 3 months).	Eligibility	109
+Myocardial infarction within the past 6 months.	Eligibility	110
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Cardiac ventricular arrhythmias requiring anti-arrhythmic therapy.	Eligibility	111
+Uncontrolled hypertension (systolic blood pressure >150 mmHg	Eligibility	112
+hypertension	HP:0000822,DOID:10763	13-25
+systolic blood pressure	CMO:0000004	27-50
+or diastolic pressure >100 mmHg despite optimal medical	Eligibility	113
+management).	Eligibility	114
+Thrombolic or embolic events such as cerebrovascular accident,	Eligibility	115
+including transient ischemic attacks, within the past 6 months.	Eligibility	116
+transient	HP:0025153	10-19
+Pulmonary hemorrhage or bleeding event  grade 2 within	Eligibility	117
+pulmonary hemorrhage	HP:0040223	0-20
+4 weeks of the first dose of study treatment, or any other	Eligibility	118
+hemorrhage or bleeding event  grade 3 within 4 weeks of the	Eligibility	119
+first dose of study treatment.	Eligibility	120
+14. Serious non-healing wound, ulcer, or bone fracture.	Eligibility	121
+ulcer	OAE:0004372	31-36
+bone fracture	HP:0020110	41-54
+15. Evidence or history of bleeding diathesis or coagulopathy.	Eligibility	122
+history	BFO:0000182	16-23
+16. Major surgery, open biopsy or significant traumatic injury within	Eligibility	123
+surgery	OAE:0000067	10-17
+4 weeks of the first dose of study drugs or anticipation of the need	Eligibility	124
+for major surgical procedure.	Eligibility	125
+17. Chronic use of CYP3A4 inducers and use of the following strong	Eligibility	126
+chronic	HP:0011010	4-11
+CYP3A4 inhibitors: ketoconazole, itraconazole, clarithromycin,	Eligibility	127
+ketoconazole	CHEBI:47519,BAO:0000796	19-31
+itraconazole	CHEBI:6076	33-45
+clarithromycin	CHEBI:3732	47-61
+atazanavir, nefazodone, saquinavir, telithromycin, ritonavir,	Eligibility	128
+atazanavir	CHEBI:37924	0-10
+nefazodone	CHEBI:7494	12-22
+saquinavir	CHEBI:63621	24-34
+telithromycin	CHEBI:29688	36-49
+ritonavir	CHEBI:45409	51-60
+amprenavir, indinavir, nelfinavir, delavirdine, and voriconazole.	Eligibility	129
+amprenavir	CHEBI:40050	0-10
+indinavir	CHEBI:44032	12-21
+nelfinavir	CHEBI:7496	23-33
+delavirdine	CHEBI:119573	35-46
+voriconazole	CHEBI:10023	52-64
+Use of these agents should be discontinued at least 72 hours	Eligibility	130
+prior to initiation of study treatment.	Eligibility	131
+18. Use of St. John's Wort or rifampin (rifampicin).	Eligibility	132
+rifampicin	CHEBI:71365	40-50
+19. Any condition that impairs patient's ability to swallow whole pills or	Eligibility	133
+condition	PDRO:0000129	8-17
+patient	HADO:0000008,OAE:0001817	31-38
+gastrointestinal (GI) tract disease that involves an inability to take	Eligibility	134
+disease	DOID:4,OGMS:0000031	28-35
+oral medication, malabsorption syndrome, a requirement for	Eligibility	135
+malabsorption	HP:0002024	17-30
+syndrome	DOID:225	31-39
+intravenous (IV) alimentation, prior surgical procedures affecting	Eligibility	136
+absorption, or uncontrolled inflammatory GI disease (e.g., Crohn's	Eligibility	137
+disease	DOID:4,OGMS:0000031	44-51
+disease or ulcerative colitis).	Eligibility	138
+disease	DOID:4,OGMS:0000031	0-7
+ulcerative colitis	HP:0100279,DOID:8577	11-29
+20. Psychiatric illness/social situations that would limit compliance	Eligibility	139
+with study requirements.	Eligibility	140
+21. Known or suspected allergy to sorafenib, Cremophor EL	Eligibility	141
+allergy	HP:0012393	23-30
+sorafenib	CHEBI:50924	34-43
+(polyoxyethylated castor oil) or a drug formulated in	Eligibility	142
+castor oil	CHEBI:140618	18-28
+drug	CHEBI:23888	35-39
+Cremophor EL such as paclitaxel or any other agent given in the	Eligibility	143
+paclitaxel	CHEBI:45863	21-31
+course of this trial.	Eligibility	144
+Exclusion Criteria:	Eligibility	145
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+Measured from Day 1 of study drug administration to disease progression as defined by Response Evaluation Criteria in Solid Tumors (RECIST) - progression is defined as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions	Results	2
+day	UO:0000033	14-17
+drug administration	OAE:0000011	29-48
+disease	DOID:4,OGMS:0000031	52-59
+increase	BAO:0001251	174-182
+increase	BAO:0001251	253-261
+diameter	PATO:0001334	209-217
+target	BAO:0003064	221-227
+target	BAO:0003064	271-277
+Time frame: every 9 weeks until treatment discontinuation or death on study	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	61-66
+Results 1:	Results	4
+Arm/Group Title: Sorafenib and Ixabepilone	Results	5
+sorafenib	CHEBI:50924	17-26
+ixabepilone	CHEBI:63605	31-42
+Arm/Group Description: Oral targeted therapy and Systemic Chemotherapy	Results	6
+Overall Number of Participants Analyzed: 76	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  4.8        (3.5 to 6.3)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 6/76 (7.89%)	Adverse Events	1
+ANEMIA 1/76 (1.32%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+DEATH 1/76 (1.32%)	Adverse Events	3
+death	OAE:0000632	0-5
+INFECTION 1/76 (1.32%)	Adverse Events	4
+WEIGHT LOSS 1/76 (1.32%)	Adverse Events	5
+weight loss	HP:0001824	0-11
+BACK PAIN 1/76 (1.32%)	Adverse Events	6
+back pain	HP:0003418	0-9
+ACUTE RENAL FAILURE 1/76 (1.32%)	Adverse Events	7
+acute	HP:0011009,PATO:0000389	0-5
+DYSPNEA 2/76 (2.63%)	Adverse Events	8
+dyspnea	HP:0002094	0-7
+PNEUMONIA 1/76 (1.32%)	Adverse Events	9
+pneumonia	HP:0002090,DOID:552	0-9
+PALMAR-PLANTAR ERYTHRODYSESTHESIA SYNDROME 1/76 (1.32%)	Adverse Events	10
+syndrome	DOID:225	34-42
+RASH 1/76 (1.32%)	Adverse Events	11

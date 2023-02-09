@@ -1,0 +1,132 @@
+INTERVENTION 1:	Intervention	0
+Palbociclib+Letrozole	Intervention	1
+Participants received palbociclib orally once daily at 125 mg for 21 days followed by 7 days off treatment for each 28-day cycle, and letrozole orally at 2.5 mg QD as a continuous daily dosing schedule. Participants continued to receive treatments with palbociclib+letrozole until disease progression, symptomatic deterioration, unacceptable toxicity, death, withdrawal of consent, or time of commercial availability of palbociclib, whichever occurred first.	Intervention	2
+palbociclib	CHEBI:85993	22-33
+palbociclib	CHEBI:85993	253-264
+palbociclib	CHEBI:85993	420-431
+letrozole	CHEBI:6413	134-143
+letrozole	CHEBI:6413	265-274
+disease	DOID:4,OGMS:0000031	281-288
+death	OAE:0000632	352-357
+time	PATO:0000165	385-389
+Inclusion Criteria:	Eligibility	0
+Adult women with proven diagnosis of advanced adenocarcinoma of the breast (locoregional recurrent or metastatic disease).	Eligibility	1
+adult	EFO:0001272	0-5
+adenocarcinoma	DOID:299	46-60
+breast	UBERON:0000310	68-74
+recurrent	HP:0031796	89-98
+disease	DOID:4,OGMS:0000031	113-120
+Women who are not of childbearing potential.	Eligibility	2
+ER-positive and/or Progesterone receptor (PgR)-positive tumor based on local laboratory results (test as per local practice).	Eligibility	3
+progesterone	CHEBI:17026	19-31
+receptor	BAO:0000281	32-40
+HER2-negative breast cancer based on local laboratory results (test as per local practice or local guidelines).	Eligibility	4
+breast cancer	DOID:1612	14-27
+Patients must be appropriate candidates for letrozole therapy.	Eligibility	5
+letrozole	CHEBI:6413	44-53
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2.	Eligibility	6
+group	CHEBI:24433	29-34
+Adequate bone marrow function.	Eligibility	7
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Adequate liver function	Eligibility	8
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Adequate renal function.	Eligibility	9
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	10
+Known hypersensitivity to letrozole, or any of its excipients, or to any palbociclib excipients.	Eligibility	11
+hypersensitivity	GO:0002524,DOID:1205	6-22
+letrozole	CHEBI:6413	26-35
+palbociclib	CHEBI:85993	73-84
+Current use of food or drugs known to be potent inhibitors or inducers of CYP3A4 isoenzymes within 7 days prior to study entry.	Eligibility	12
+food	CHEBI:33290	15-19
+Prior treatment with any CDK inhibitor.	Eligibility	13
+inhibitor	CHEBI:35222	29-38
+Previous participation in a palbociclib clinical study.	Eligibility	14
+palbociclib	CHEBI:85993	28-39
+Participation in other studies involving investigational drug(s) within 2 weeks prior to study entry and/or during study participation.	Eligibility	15
+drug	CHEBI:23888	57-61
+QTc >480 msec; history of QT syndrome, Brugada syndrome or known history of QTc prolongation, or Torsade de Pointes.	Eligibility	16
+history	BFO:0000182	15-22
+history	BFO:0000182	65-72
+syndrome	DOID:225	29-37
+syndrome	DOID:225	47-55
+brugada syndrome	DOID:0050451	39-55
+torsade de pointes	HP:0001664	97-115
+High cardiovascular risk, including, but not limited to recent myocardial infarction, severe/unstable angina and severe cardiac dysrhythmias in the past 6 months prior to enrollment.	Eligibility	17
+myocardial infarction	HP:0001658,DOID:5844	63-84
+severe	HP:0012828	86-92
+severe	HP:0012828	113-119
+Diagnosis of any second invasive malignancy within the last 3 years prior to enrollment. Note: patients with adequately treated basal cell or squamous cell skin cancer, a history of intraepithelial neoplasia or in situ disease (eg, carcinoma in situ of the cervix or melanoma in situ) may enter.	Eligibility	18
+second	UO:0000010	17-23
+skin cancer	DOID:4159	156-167
+history	BFO:0000182	171-178
+disease	DOID:4,OGMS:0000031	219-226
+carcinoma	HP:0030731,DOID:305	232-241
+melanoma	HP:0002861,DOID:1909	267-275
+Active uncontrolled or symptomatic brain metastases. Previously treated and clinically stable, brain metastases are permitted.	Eligibility	19
+active	PATO:0002354	0-6
+brain	UBERON:0000955	35-40
+brain	UBERON:0000955	95-100
+stable	HP:0031915	87-93
+Other severe acute or chronic medical or psychiatric conditions.	Eligibility	20
+severe	HP:0012828	6-12
+acute	HP:0011009,PATO:0000389	13-18
+chronic	HP:0011010	22-29
+Patients who are investigational site staff members directly involved in the conduct of the study and their family members, site staff members otherwise supervised by the investigator, or patients who are Pfizer employees directly involved in the conduct of the study.	Eligibility	21
+site	BFO:0000029	33-37
+site	BFO:0000029	124-128
+Outcome Measurement:	Results	0
+Number of Participants With All-causality Treatment-emergent Adverse Events (TEAEs)	Results	1
+An adverse event (AE) was any untoward medical occurrence in a clinical investigation participant administered a product; the event did not need to have a causal relationship with the treatment. All AEs reported after initiation of study drug treatment were considered as TEAE. AE severity was graded according to Common Terminology Criteria for AEs (CTCAE) version 4.03. Grade 1 AEs are mild AEs; Grade 2 AEs are moderate AEs; Grade 3 AEs are severe AEs, Grade 4 AEs are life-threatening consequences and Grade 5 AEs are deaths related to AEs. Each AE was counted once for the participant in the most severe severity.	Results	2
+adverse event	OAE:0000001	3-16
+product	BAO:0003067	113-120
+drug	CHEBI:23888	238-242
+severity	HP:0012824	281-289
+severity	HP:0012824	609-617
+mild	HP:0012825	388-392
+moderate	HP:0012826	414-422
+severe	HP:0012828	444-450
+severe	HP:0012828	602-608
+Time frame: 3 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Palbociclib+Letrozole	Results	5
+Arm/Group Description: Participants received palbociclib orally once daily at 125 mg for 21 days followed by 7 days off treatment for each 28-day cycle, and letrozole orally at 2.5 mg QD as a continuous daily dosing schedule. Participants continued to receive treatments with palbociclib+letrozole until disease progression, symptomatic deterioration, unacceptable toxicity, death, withdrawal of consent, or time of commercial availability of palbociclib, whichever occurred first.	Results	6
+palbociclib	CHEBI:85993	45-56
+palbociclib	CHEBI:85993	276-287
+palbociclib	CHEBI:85993	443-454
+letrozole	CHEBI:6413	157-166
+letrozole	CHEBI:6413	288-297
+disease	DOID:4,OGMS:0000031	304-311
+death	OAE:0000632	375-380
+time	PATO:0000165	408-412
+Overall Number of Participants Analyzed: 130	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Grade 1: 0   0.0%	Results	9
+Grade 2: 17  13.1%	Results	10
+Grade 3: 82  63.1%	Results	11
+Grade 4: 23  17.7%	Results	12
+Grade 5: 7   5.4%	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 32/130 (24.62%)	Adverse Events	1
+Anaemia * 1/130 (0.77%)	Adverse Events	2
+Febrile neutropenia * 1/130 (0.77%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 1/130 (0.77%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia * 1/130 (0.77%)	Adverse Events	5
+pancytopenia	HP:0001876,DOID:12450	0-12
+Arteriosclerosis coronary artery * 1/130 (0.77%)	Adverse Events	6
+arteriosclerosis	HP:0002634,DOID:2349	0-16
+coronary artery	UBERON:0001621	17-32
+Ascites * 1/130 (0.77%)	Adverse Events	7
+ascites	HP:0001541	0-7
+Chest pain * 1/130 (0.77%)	Adverse Events	8
+chest pain	HP:0100749	0-10
+Disease progression * 2/130 (1.54%)	Adverse Events	9
+disease	DOID:4,OGMS:0000031	0-7
+General physical health deterioration * 1/130 (0.77%)	Adverse Events	10
+Cellulitis * 1/130 (0.77%)	Adverse Events	11
+cellulitis	HP:0100658,DOID:3488	0-10

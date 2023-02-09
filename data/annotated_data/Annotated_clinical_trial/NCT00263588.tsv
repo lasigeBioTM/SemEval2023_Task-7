@@ -1,0 +1,150 @@
+INTERVENTION 1:	Intervention	0
+Cohort A	Intervention	1
+750mg lapatinib administered orally twice daily. Cohort A subjects had Eastern Cooperative Oncology Group (ECOG) performance status 0-1, and one or two prior trastuzumab-containing regimens, in total, for treatment of breast cancer in adjuvant and/or metastatic settings	Intervention	2
+lapatinib	CHEBI:49603	6-15
+group	CHEBI:24433	100-105
+breast cancer	DOID:1612	218-231
+adjuvant	CHEBI:60809	235-243
+INTERVENTION 2:	Intervention	3
+Cohort B	Intervention	4
+750mg lapatinib administered orally twice daily. Cohort B subjects had ECOG performance status 2 and/or more than 2 prior trastuzumab-containing regimens for treatment of breast cancer in the adjuvant and/or metastatic settings.	Intervention	5
+lapatinib	CHEBI:49603	6-15
+breast cancer	DOID:1612	171-184
+adjuvant	CHEBI:60809	192-200
+Inclusion criteria:	Eligibility	0
+Signed Informed Consent	Eligibility	1
+ErbB2(HER2)overexpressing breast cancer.	Eligibility	2
+breast cancer	DOID:1612	26-39
+Brain lesion(s) which are progressing.	Eligibility	3
+brain	UBERON:0000955	0-5
+Prior treatment of brain metastases with Whole Brain Radiotherapy (WBR)and/or Stereotactic Radiosurgery (SRS).	Eligibility	4
+brain	UBERON:0000955	19-24
+brain	UBERON:0000955	47-52
+radiotherapy	OAE:0000235	53-65
+Prior treatment with trastuzumab (Herceptin), either alone or in combination with chemotherapy.	Eligibility	5
+Cardiac ejection fraction(LVEF)within the institutional range of normal as measured by Echocardiogram.	Eligibility	6
+ejection fraction	CMO:0000180	8-25
+range	LABO:0000114	56-61
+Able to swallow an oral medication.	Eligibility	7
+Adequate kidney and liver function.	Eligibility	8
+kidney	UBERON:0002113	9-15
+liver	UBERON:0002107	20-25
+function	BAO:0003117,BFO:0000034	26-34
+Adequate bone marrow function.	Eligibility	9
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Exclusion criteria:	Eligibility	10
+Pregnant or lactating females.	Eligibility	11
+Conditions that would effect the absorption of an oral drug.	Eligibility	12
+drug	CHEBI:23888	55-59
+History of immediate or delayed hypersensitivity reaction to gadolinium contrast agents.	Eligibility	13
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	32-48
+Pre-existing severe cerebral vascular disease, such as stroke involving a major vessel.	Eligibility	14
+severe	HP:0012828	13-19
+vascular disease	DOID:178	29-45
+stroke	HP:0001297,DOID:6713	55-61
+vessel	UBERON:0000055	80-86
+Serious medical or psychiatric disorder that would interfere with the patient's safety or informed consent.	Eligibility	15
+disorder	OGMS:0000045	31-39
+patient	HADO:0000008,OAE:0001817	70-77
+Outcome Measurement:	Results	0
+The Number of Participants With Central Nervous System (CNS) Best Overall Response	Results	1
+central nervous system	UBERON:0001017	32-54
+Summary of CNS Objective Response (Lapatinib Monotherapy - MITT Population)	Results	2
+lapatinib	CHEBI:49603	35-44
+Response to lapatinib in patients with progressive brain metastases from ErbB2-overexpressing breast cancer.	Results	3
+response to lapatinib	GO:0036274	0-21
+progressive	HP:0003676	39-50
+brain	UBERON:0000955	51-56
+breast cancer	DOID:1612	94-107
+The primary indicator of drug efficacy was CNS objective response rate. A CNS objective response was defined as either a Complete response (CR) or Partial response (PR), as assessed by volumetric analysis of brain Magnetic resonance imaging (MRI), provided there was no progression of systemic disease outside of the CNS, increasing steroid requirements, or worsening of Neurological signs and symptoms (NSS)	Results	4
+indicator	CHEBI:47867	12-21
+drug	CHEBI:23888	25-29
+efficacy	BAO:0000656	30-38
+rate	BAO:0080019	66-70
+brain	UBERON:0000955	208-213
+disease	DOID:4,OGMS:0000031	294-301
+steroid	CHEBI:35341	333-340
+A CNS objective response rate was defined as a 50% volumetric reduction in sum of CNS target lesions, with no new or progressive CNS or non-CNS lesions, no increases in tumor-related steroid requirements and no worsening of neurological signs or symptoms	Results	5
+rate	BAO:0080019	25-29
+target	BAO:0003064	86-92
+progressive	HP:0003676	117-128
+steroid	CHEBI:35341	183-190
+Time frame: time from baseline to data cutoff (25 Sept 2007); approximately 2 years	Results	6
+time	PATO:0000165	0-4
+time	PATO:0000165	12-16
+Results 1:	Results	7
+Arm/Group Title: Cohort A	Results	8
+Arm/Group Description: 750mg lapatinib administered orally twice daily. Cohort A subjects had Eastern Cooperative Oncology Group (ECOG) performance status 0-1, and one or two prior trastuzumab-containing regimens, in total, for treatment of breast cancer in adjuvant and/or metastatic settings	Results	9
+lapatinib	CHEBI:49603	29-38
+group	CHEBI:24433	4-9
+group	CHEBI:24433	123-128
+breast cancer	DOID:1612	241-254
+adjuvant	CHEBI:60809	258-266
+Overall Number of Participants Analyzed: 94	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  Complete response (CR): 0   0.0%	Results	12
+Partial response (PR): 6   6.4%	Results	13
+Stable disease (SD): 40  42.6%	Results	14
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive disease (PD): 40  42.6%	Results	15
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Unknown: 8   8.5%	Results	16
+Results 2:	Results	17
+Arm/Group Title: Cohort B	Results	18
+Arm/Group Description: 750mg lapatinib administered orally twice daily. Cohort B subjects had ECOG performance status 2 and/or more than 2 prior trastuzumab-containing regimens for treatment of breast cancer in the adjuvant and/or metastatic settings.	Results	19
+lapatinib	CHEBI:49603	29-38
+breast cancer	DOID:1612	194-207
+adjuvant	CHEBI:60809	215-223
+Overall Number of Participants Analyzed: 143	Results	20
+Measure Type: Count of Participants	Results	21
+Unit of Measure: Participants  Complete response (CR): 0   0.0%	Results	22
+Partial response (PR): 9   6.3%	Results	23
+Stable disease (SD): 46  32.2%	Results	24
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive disease (PD): 70  49.0%	Results	25
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Unknown: 18  12.6%	Results	26
+Adverse Events 1:	Adverse Events	0
+Total: 36/95 (37.89%)	Adverse Events	1
+Atrial fibrillation 0/95 (0.00%)	Adverse Events	2
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardio-respiratory arrest 1/95 (1.05%)	Adverse Events	3
+Left ventricular dysfunction 0/95 (0.00%)	Adverse Events	4
+left	HP:0012835	0-4
+Pericardial effusion 0/95 (0.00%)	Adverse Events	5
+pericardial effusion	HP:0001698,DOID:118	0-20
+Vertigo 0/95 (0.00%)	Adverse Events	6
+vertigo	HP:0002321	0-7
+Constipation 1/95 (1.05%)	Adverse Events	7
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 6/95 (6.32%)	Adverse Events	8
+Duodenal ulcer 0/95 (0.00%)	Adverse Events	9
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Duodenal ulcer haemorrhage 0/95 (0.00%)	Adverse Events	10
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Gastrointestinal haemorrhage 0/95 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 52/147 (35.37%)	Adverse Events	13
+Atrial fibrillation 1/147 (0.68%)	Adverse Events	14
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardio-respiratory arrest 0/147 (0.00%)	Adverse Events	15
+Left ventricular dysfunction 1/147 (0.68%)	Adverse Events	16
+left	HP:0012835	0-4
+Pericardial effusion 1/147 (0.68%)	Adverse Events	17
+pericardial effusion	HP:0001698,DOID:118	0-20
+Vertigo 1/147 (0.68%)	Adverse Events	18
+vertigo	HP:0002321	0-7
+Constipation 0/147 (0.00%)	Adverse Events	19
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 4/147 (2.72%)	Adverse Events	20
+Duodenal ulcer 1/147 (0.68%)	Adverse Events	21
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Duodenal ulcer haemorrhage 1/147 (0.68%)	Adverse Events	22
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Gastrointestinal haemorrhage 2/147 (1.36%)	Adverse Events	23

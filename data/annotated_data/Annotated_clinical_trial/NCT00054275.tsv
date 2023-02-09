@@ -1,0 +1,177 @@
+INTERVENTION 1:	Intervention	0
+Docetaxel and OSI-774	Intervention	1
+docetaxel IV over 1 hour once weekly for 3 weeks and oral erlotinib once daily	Intervention	2
+hour	UO:0000032	20-24
+erlotinib	CHEBI:114785	58-67
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed stage IV or recurrent adenocarcinoma of the breast	Eligibility	1
+recurrent	HP:0031796	37-46
+adenocarcinoma	DOID:299	47-61
+breast	UBERON:0000310	69-75
+Measurable disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+Disease recurrence must not be within 1 year of receiving prior adjuvant docetaxel	Eligibility	3
+disease	DOID:4,OGMS:0000031	0-7
+year	UO:0000036	40-44
+adjuvant	CHEBI:60809	64-72
+Stable brain metastases allowed	Eligibility	4
+stable	HP:0031915	0-6
+brain	UBERON:0000955	7-12
+Hormone receptor status:	Eligibility	5
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	6
+PATIENT CHARACTERISTICS:	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	8
+age	PATO:0000011	0-3
+18 and over	Eligibility	9
+Sex	Eligibility	10
+Male or female	Eligibility	11
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status	Eligibility	12
+Not specified	Eligibility	13
+Performance status	Eligibility	14
+ECOG (Eastern Cooperative Oncology Group) 0-2 OR	Eligibility	15
+group	CHEBI:24433	35-40
+Karnofsky 60-100%	Eligibility	16
+Life expectancy	Eligibility	17
+More than 6 months	Eligibility	18
+Hematopoietic	Eligibility	19
+WBC(White Blood Count) at least 3,000/mm^3	Eligibility	20
+blood	UBERON:0000178	10-15
+Platelet count at least 100,000/mm^3	Eligibility	21
+platelet count	CMO:0000029	0-14
+Absolute neutrophil count at least 1,500/mm^3	Eligibility	22
+Hemoglobin at least 8 g/dL	Eligibility	23
+hemoglobin	CHEBI:35143	0-10
+Hepatic	Eligibility	24
+Bilirubin normal	Eligibility	25
+AST(aspartate aminotransferase)/ALT(alanine aminotransferase) no greater than 2.5 times upper limit of normal	Eligibility	26
+aspartate	CHEBI:29995	4-13
+alanine	CHEBI:16449	36-43
+Renal	Eligibility	27
+Creatinine normal OR	Eligibility	28
+creatinine	CHEBI:16737	0-10
+Creatinine clearance at least 60 mL/min	Eligibility	29
+creatinine clearance	CMO:0000765	0-20
+No clinically significant proteinuria	Eligibility	30
+proteinuria	HP:0000093,DOID:576	26-37
+No significant impairment of renal function	Eligibility	31
+function	BAO:0003117,BFO:0000034	35-43
+Cardiovascular	Eligibility	32
+No New York Heart Association class III or IV heart disease	Eligibility	33
+heart	UBERON:0000948	12-17
+heart	UBERON:0000948	46-51
+heart disease	DOID:114	46-59
+No symptomatic congestive heart failure	Eligibility	34
+congestive heart failure	HP:0001635,DOID:6000	15-39
+No unstable angina pectoris	Eligibility	35
+angina pectoris	HP:0001681	12-27
+No cardiac arrhythmia	Eligibility	36
+arrhythmia	HP:0011675	11-21
+No inadequately controlled hypertension	Eligibility	37
+hypertension	HP:0000822,DOID:10763	27-39
+Other	Eligibility	38
+Not pregnant or nursing	Eligibility	39
+Negative pregnancy test	Eligibility	40
+Fertile patients must use effective barrier contraception	Eligibility	41
+No prior severe hypersensitivity reaction to docetaxel or drugs formulated with polysorbate 80	Eligibility	42
+severe	HP:0012828	9-15
+hypersensitivity	GO:0002524,DOID:1205	16-32
+polysorbate 80	CHEBI:53426	80-94
+No other malignancy within the past 10 years except inactive nonmelanoma skin cancer, carcinoma in situ of the cervix, carcinoma in situ of the breast, or bilateral breast cancer	Eligibility	43
+inactive	PATO:0002355	52-60
+skin cancer	DOID:4159	73-84
+carcinoma	HP:0030731,DOID:305	86-95
+carcinoma	HP:0030731,DOID:305	119-128
+breast	UBERON:0000310	144-150
+breast	UBERON:0000310	165-171
+bilateral breast cancer	DOID:6741	155-178
+No ongoing or active infection	Eligibility	44
+active	PATO:0002354	14-20
+No peripheral neuropathy greater than grade 1	Eligibility	45
+peripheral neuropathy	HP:0009830,DOID:870	3-24
+No other concurrent uncontrolled medical condition that would preclude study participation	Eligibility	46
+condition	PDRO:0000129	41-50
+No psychiatric illness or social situation that would preclude study compliance	Eligibility	47
+PRIOR CONCURRENT THERAPY:	Eligibility	48
+Biologic therapy	Eligibility	49
+Prior trastuzumab (Herceptin) allowed	Eligibility	50
+Chemotherapy	Eligibility	51
+See Disease Characteristics	Eligibility	52
+disease	DOID:4,OGMS:0000031	4-11
+No prior chemotherapy for recurrent or metastatic disease	Eligibility	53
+recurrent	HP:0031796	26-35
+disease	DOID:4,OGMS:0000031	50-57
+Prior adjuvant chemotherapy allowed	Eligibility	54
+adjuvant	CHEBI:60809	6-14
+Endocrine therapy	Eligibility	55
+Prior hormonal therapy allowed	Eligibility	56
+Radiotherapy	Eligibility	57
+radiotherapy	OAE:0000235	0-12
+Not specified	Eligibility	58
+Surgery	Eligibility	59
+surgery	OAE:0000067	0-7
+Not specified	Eligibility	60
+Other	Eligibility	61
+No other concurrent investigational agents	Eligibility	62
+Outcome Measurement:	Results	0
+Disease Response (Tumor Measurements)Per RECIST Criteria v. 2000	Results	1
+disease	DOID:4,OGMS:0000031	0-7
+Response and progression will be evaluated in this study using the criteria by the Response Evaluation Criteria in Solid Tumors (RECIST) Committee. Changes in only the largest diameter (unidimensional measurement) of the tumor lesions are used in the RECIST criteria. Partial Response: At least a 30% decrease in the sum of the longest diameter (LD) of target lesions. Progressive Disease: At least a 20% increase in the sum of the LD of target lesions. Stable Disease: Neither sufficient shrinkage nor sufficient increase.	Results	2
+diameter	PATO:0001334	176-184
+diameter	PATO:0001334	336-344
+target	BAO:0003064	353-359
+target	BAO:0003064	438-444
+progressive	HP:0003676	369-380
+disease	DOID:4,OGMS:0000031	381-388
+disease	DOID:4,OGMS:0000031	461-468
+increase	BAO:0001251	405-413
+increase	BAO:0001251	514-522
+stable	HP:0031915	454-460
+Time frame: after 6 course (6 months) of combination therapy	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Docetaxel and OSI-774	Results	5
+Arm/Group Description: docetaxel IV over 1 hour once weekly for 3 weeks and oral erlotinib once daily	Results	6
+hour	UO:0000032	43-47
+erlotinib	CHEBI:114785	81-90
+Overall Number of Participants Analyzed: 28	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Partial response: 11	Results	9
+Disease progression: 14	Results	10
+disease	DOID:4,OGMS:0000031	0-7
+Stable disease: 3	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Adverse Events 1:	Adverse Events	0
+Total: 28/39 (71.79%)	Adverse Events	1
+Anemia 1/39 (2.56%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Leukopenia 4/39 (10.26%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 4/39 (10.26%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Chest Pain 1/39 (2.56%)	Adverse Events	5
+chest pain	HP:0100749	0-10
+Pericarditis 1/39 (2.56%)	Adverse Events	6
+pericarditis	HP:0001701,DOID:1787	0-12
+Sinus Tach. 1/39 (2.56%)	Adverse Events	7
+Sinus Tachycardia 1/39 (2.56%)	Adverse Events	8
+sinus tachycardia	HP:0011703	0-17
+Eye tearing 1/39 (2.56%)	Adverse Events	9
+eye	UBERON:0000970	0-3
+Diarrhea 7/39 (17.95%)	Adverse Events	10
+diarrhea	HP:0002014,DOID:13250	0-8
+Mucositis 3/39 (7.69%)	Adverse Events	11
+mucositis	DOID:0080178	0-9
+Nausea 2/39 (5.13%)	Adverse Events	12
+nausea	HP:0002018	0-6
+Vomiting  [1]1/39 (2.56%)	Adverse Events	13
+vomiting	HP:0002013	0-8
+Fatigue 6/39 (15.38%)	Adverse Events	14
+fatigue	HP:0012378	0-7

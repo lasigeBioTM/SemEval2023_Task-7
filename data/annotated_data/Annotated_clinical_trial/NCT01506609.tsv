@@ -1,0 +1,180 @@
+INTERVENTION 1:	Intervention	0
+Group 2 Placebo + Carboplatin/Paclitaxel	Intervention	1
+group	CHEBI:24433	0-5
+Placebo BID Days 1 through 7 plus carboplatin target AUC 6 administered on Day 3 of each 21-day cycle and paclitaxel 175 mg/m^2 administered on Day 3 of each 21-day cycle.	Intervention	2
+carboplatin	CHEBI:31355	34-45
+target	BAO:0003064	46-52
+auc	BAO:0002120	53-56
+day	UO:0000033	12-15
+day	UO:0000033	75-78
+day	UO:0000033	92-95
+day	UO:0000033	144-147
+day	UO:0000033	161-164
+paclitaxel	CHEBI:45863	106-116
+INTERVENTION 2:	Intervention	3
+Group 2 Veliparib + Carboplatin/Paclitaxel	Intervention	4
+group	CHEBI:24433	0-5
+veliparib	CHEBI:62880	8-17
+Veliparib 120 mg BID Days 1 through 7 plus carboplatin target AUC 6 administered on Day 3 of each 21-day cycle and paclitaxel 175 mg/m^2 administered on Day 3 of each 21-day cycle.	Intervention	5
+veliparib	CHEBI:62880	0-9
+carboplatin	CHEBI:31355	43-54
+target	BAO:0003064	55-61
+auc	BAO:0002120	62-65
+day	UO:0000033	21-24
+day	UO:0000033	84-87
+day	UO:0000033	101-104
+day	UO:0000033	153-156
+day	UO:0000033	170-173
+paclitaxel	CHEBI:45863	115-125
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed breast cancer that is either locally recurrent or metastatic.	Eligibility	1
+breast cancer	DOID:1612	42-55
+recurrent	HP:0031796	79-88
+Locally recurrent disease must not be amenable to surgical resection or radiation with curative intent.	Eligibility	2
+recurrent	HP:0031796	8-17
+disease	DOID:4,OGMS:0000031	18-25
+Must have a documented deleterious Breast Cancer Gene BRCA1 or BRCA2 germline mutation.	Eligibility	3
+breast cancer	DOID:1612	35-48
+gene	BAO:0000582	49-53
+If Human Epidermal Growth Factor Receptor (HER2) positive, subjects must have received and progressed on at least one prior standard HER2 directed therapy or the subject must be ineligible to receive anti-HER2 therapy.	Eligibility	4
+growth factor	BAO:0002024	19-32
+receptor	BAO:0000281	33-41
+Measurable or non-measurable (but radiologically evaluable) disease by RECIST (Response Evaluation Criteria in Solid Tumors) criteria 1.1.	Eligibility	5
+disease	DOID:4,OGMS:0000031	60-67
+Eastern Cooperative Oncology Group (ECOG) Performance Score of 0-2.	Eligibility	6
+group	CHEBI:24433	29-34
+Subject must have adequate bone marrow, renal and hepatic function.	Eligibility	7
+bone marrow	UBERON:0002371	27-38
+function	BAO:0003117,BFO:0000034	58-66
+Subject must not be pregnant or plan to conceive a child.	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Received anticancer agent(s) or an investigational agent within 21 days prior to C1D1, or radiotherapy within 28 days prior Cycle 1 Day 1.	Eligibility	10
+radiotherapy	OAE:0000235	90-102
+day	UO:0000033	67-70
+day	UO:0000033	113-116
+day	UO:0000033	132-135
+More than 2 prior lines of cytotoxic chemotherapy.	Eligibility	11
+Prior treatment of breast cancer with temozolomide, a platinum agent, or a Poly (ADP ribose) Polymerase (PARP) inhibitor.	Eligibility	12
+breast cancer	DOID:1612	19-32
+temozolomide	CHEBI:72564	38-50
+platinum	CHEBI:33364	54-62
+adp	CHEBI:16761	81-84
+ribose	CHEBI:47013	85-91
+inhibitor	CHEBI:35222	111-120
+Prior taxane therapy for metastatic breast cancer.	Eligibility	13
+taxane	CHEBI:36064	6-12
+breast cancer	DOID:1612	36-49
+A history of or evidence of brain metastases or leptomeningeal disease.	Eligibility	14
+history	BFO:0000182	2-9
+brain	UBERON:0000955	28-33
+disease	DOID:4,OGMS:0000031	63-70
+A history of uncontrolled seizure disorder.	Eligibility	15
+history	BFO:0000182	2-9
+seizure	HP:0001250	26-33
+disorder	OGMS:0000045	34-42
+Pre-existing neuropathy from any cause in excess of Grade 1.	Eligibility	16
+neuropathy	DOID:870	13-23
+Known history of allergic reaction to cremophor/paclitaxel.	Eligibility	17
+history	BFO:0000182	6-13
+Clinical significant uncontrolled conditions, active infection, myocardial infarction, stroke, or transient ischemic attack, psychiatric illness/social situations that would limit compliance.	Eligibility	18
+active	PATO:0002354	46-52
+myocardial infarction	HP:0001658,DOID:5844	64-85
+stroke	HP:0001297,DOID:6713	87-93
+transient ischemic attack	HP:0002326,DOID:224	98-123
+Pregnant or breastfeeding.	Eligibility	19
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+PFS is defined as the number of months from the date the participant was randomized to the date of radiographic progression as determined by the central imaging center, or to the date of all cause deaths within 63 days of last tumor assessment if disease progression was not reached.	Results	2
+central	HP:0030645	145-152
+disease	DOID:4,OGMS:0000031	247-254
+Time frame: Radiographic evaluation every 9 weeks, clinical evaluation every cycle (data cutoff date: 04 March 2016); maximum duration of follow up for PFS was 34 months.	Results	3
+time	PATO:0000165	0-4
+duration	PATO:0001309	126-134
+Results 1:	Results	4
+Arm/Group Title: Group 2 Placebo + Carboplatin/Paclitaxel	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Placebo BID Days 1 through 7 plus carboplatin target AUC 6 administered on Day 3 of each 21-day cycle and paclitaxel 175 mg/m^2 administered on Day 3 of each 21-day cycle.	Results	6
+carboplatin	CHEBI:31355	57-68
+target	BAO:0003064	69-75
+auc	BAO:0002120	76-79
+day	UO:0000033	35-38
+day	UO:0000033	98-101
+day	UO:0000033	115-118
+day	UO:0000033	167-170
+day	UO:0000033	184-187
+paclitaxel	CHEBI:45863	129-139
+Overall Number of Participants Analyzed: 98	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  12.3        (9.3 to 14.5)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Group 2 Veliparib + Carboplatin/Paclitaxel	Results	11
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+veliparib	CHEBI:62880	25-34
+Arm/Group Description: Veliparib 120 mg BID Days 1 through 7 plus carboplatin target AUC 6 administered on Day 3 of each 21-day cycle and paclitaxel 175 mg/m^2 administered on Day 3 of each 21-day cycle.	Results	12
+veliparib	CHEBI:62880	23-32
+carboplatin	CHEBI:31355	66-77
+target	BAO:0003064	78-84
+auc	BAO:0002120	85-88
+day	UO:0000033	44-47
+day	UO:0000033	107-110
+day	UO:0000033	124-127
+day	UO:0000033	176-179
+day	UO:0000033	193-196
+paclitaxel	CHEBI:45863	138-148
+Overall Number of Participants Analyzed: 95	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  14.1        (11.5 to 16.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/2 (0.00%)	Adverse Events	1
+ANAEMIA 0/2 (0.00%)	Adverse Events	2
+FEBRILE NEUTROPENIA 0/2 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+LYMPHADENOPATHY 0/2 (0.00%)	Adverse Events	4
+lymphadenopathy	HP:0002716	0-15
+NEUTROPENIA 0/2 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 0/2 (0.00%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+THROMBOCYTOPENIA 0/2 (0.00%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ATRIAL FIBRILLATION 0/2 (0.00%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+CARDIAC TAMPONADE 0/2 (0.00%)	Adverse Events	9
+cardiac tamponade	HP:0033415,DOID:115	0-17
+PERICARDIAL EFFUSION 0/2 (0.00%)	Adverse Events	10
+pericardial effusion	HP:0001698,DOID:118	0-20
+TACHYCARDIA 0/2 (0.00%)	Adverse Events	11
+tachycardia	HP:0001649	0-11
+ABDOMINAL PAIN 0/2 (0.00%)	Adverse Events	12
+abdominal pain	HP:0002027	0-14
+ABDOMINAL PAIN UPPER 0/2 (0.00%)	Adverse Events	13
+abdominal pain	HP:0002027	0-14
+Adverse Events 2:	Adverse Events	14
+Total: 0/1 (0.00%)	Adverse Events	15
+ANAEMIA 0/1 (0.00%)	Adverse Events	16
+FEBRILE NEUTROPENIA 0/1 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+LYMPHADENOPATHY 0/1 (0.00%)	Adverse Events	18
+lymphadenopathy	HP:0002716	0-15
+NEUTROPENIA 0/1 (0.00%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 0/1 (0.00%)	Adverse Events	20
+pancytopenia	HP:0001876,DOID:12450	0-12
+THROMBOCYTOPENIA 0/1 (0.00%)	Adverse Events	21
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ATRIAL FIBRILLATION 0/1 (0.00%)	Adverse Events	22
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+CARDIAC TAMPONADE 0/1 (0.00%)	Adverse Events	23
+cardiac tamponade	HP:0033415,DOID:115	0-17
+PERICARDIAL EFFUSION 0/1 (0.00%)	Adverse Events	24
+pericardial effusion	HP:0001698,DOID:118	0-20
+TACHYCARDIA 0/1 (0.00%)	Adverse Events	25
+tachycardia	HP:0001649	0-11
+ABDOMINAL PAIN 0/1 (0.00%)	Adverse Events	26
+abdominal pain	HP:0002027	0-14
+ABDOMINAL PAIN UPPER 0/1 (0.00%)	Adverse Events	27
+abdominal pain	HP:0002027	0-14

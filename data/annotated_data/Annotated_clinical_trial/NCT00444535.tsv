@@ -1,0 +1,111 @@
+INTERVENTION 1:	Intervention	0
+Lapatinib + Bevacizumab	Intervention	1
+lapatinib	CHEBI:49603	0-9
+Lapatinib (1500 mg once daily taken orally) and bevacizumab (10 mg/kg intravenously [IV] every two weeks)	Intervention	2
+lapatinib	CHEBI:49603	0-9
+Inclusion criteria:	Eligibility	0
+Females that are at least 18 years of age.	Eligibility	1
+age	PATO:0000011	38-41
+Women of childbearing potential must have a negative serum pregnancy test at screening.	Eligibility	2
+Documented evidence of HER2-overexpressing unresectable or metastatic breast cancer. Disease may/may not have been treated in metastatic setting.	Eligibility	3
+breast cancer	DOID:1612	70-83
+disease	DOID:4,OGMS:0000031	85-92
+Subjects are permitted (but not required) to have previously-treated brain metastases that are stable and asymptomatic.	Eligibility	4
+brain	UBERON:0000955	69-74
+stable	HP:0031915	95-101
+Adequate hepatic, renal and cardiac function	Eligibility	5
+function	BAO:0003117,BFO:0000034	36-44
+ECOG score 0-1 and a life expectancy of at least 12 weeks.	Eligibility	6
+Able to swallow oral medication	Eligibility	7
+Signed informed consent	Eligibility	8
+Exclusion criteria:	Eligibility	9
+Pregnancy	Eligibility	10
+Unstable or symptomatic CNS metastases	Eligibility	11
+Major surgery within 28 days of enrollment (minor surgery within 7 days).	Eligibility	12
+surgery	OAE:0000067	6-13
+surgery	OAE:0000067	50-57
+Prior anti-cancer treatment within 14 days of enrollment, or unresolved treatment-related toxicities.	Eligibility	13
+A serious non-healing wound, ulcer, or bone fracture at baseline.	Eligibility	14
+ulcer	OAE:0004372	29-34
+bone fracture	HP:0020110	39-52
+Class II, III or IV heart failure as defined by the NYHA functional classification system	Eligibility	15
+heart	UBERON:0000948	20-25
+functional	BAO:0000010	57-67
+History of significant vascular disease, arterial thrombosis, unstable INR, hypertensive crisis, or uncontrolled hypertension.	Eligibility	16
+history	BFO:0000182	0-7
+vascular disease	DOID:178	23-39
+arterial thrombosis	HP:0004420	41-60
+hypertensive crisis	HP:0100735	76-95
+hypertension	HP:0000822,DOID:10763	113-125
+History of myocardial infarction, stenting procedure, or angioplasty within 6 months of enrollment.	Eligibility	17
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+History of abdominal fistulae, gastrointestinal perforation, or intra-abdominal abscess within 6 months of enrollment.	Eligibility	18
+history	BFO:0000182	0-7
+abscess	HP:0025615	80-87
+History of malabsorption syndrome, ulcerative colitis, or bowel obstruction.	Eligibility	19
+history	BFO:0000182	0-7
+malabsorption	HP:0002024	11-24
+syndrome	DOID:225	25-33
+ulcerative colitis	HP:0100279,DOID:8577	35-53
+Proteinuria	Eligibility	20
+proteinuria	HP:0000093,DOID:576	0-11
+Requires concurrent anti-cancer treatment or investigational treatment.	Eligibility	21
+Known hypersensitivity to either study medication	Eligibility	22
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Received investigational treatment within 28 days or 5 half-lives, whichever is longer	Eligibility	23
+Concurrent disease or circumstances that would lead the investigator would consider the subject an inappropriate candidate for the study	Eligibility	24
+disease	DOID:4,OGMS:0000031	11-18
+Requires medication that has been excluded during study participation	Eligibility	25
+excluded	HP:0040285	34-42
+Outcome Measurement:	Results	0
+Investigator-evaluated Crude Progression-free Survival Rate After 12 Weeks of Study Treatment	Results	1
+rate	BAO:0080019	55-59
+The PFS rate is defined as the percentage of subjects who have shown no evidence of disease progression or death from any cause following 12 weeks of treatment. Disease progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.	Results	2
+rate	BAO:0080019	8-12
+disease	DOID:4,OGMS:0000031	84-91
+disease	DOID:4,OGMS:0000031	161-168
+death	OAE:0000632	107-112
+increase	BAO:0001251	276-284
+increase	BAO:0001251	355-363
+diameter	PATO:0001334	311-319
+target	BAO:0003064	323-329
+target	BAO:0003064	373-379
+Since there is no independent reviewer, only the investigator response was reported.	Results	3
+Time frame: up to week 12	Results	4
+time	PATO:0000165	0-4
+week	UO:0000034	18-22
+Results 1:	Results	5
+Arm/Group Title: Lapatinib + Bevacizumab	Results	6
+lapatinib	CHEBI:49603	17-26
+Arm/Group Description: Lapatinib (1500 mg once daily taken orally) and bevacizumab (10 mg/kg intravenously [IV] every two weeks)	Results	7
+lapatinib	CHEBI:49603	23-32
+Overall Number of Participants Analyzed: 52	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  No disease progression by Week 12: 36  69.2%	Results	10
+disease	DOID:4,OGMS:0000031	34-41
+week	UO:0000034	57-61
+Disease progression or death by Week 12: 16  30.8%	Results	11
+disease	DOID:4,OGMS:0000031	0-7
+death	OAE:0000632	23-28
+week	UO:0000034	32-36
+Adverse Events 1:	Adverse Events	0
+Total: 13/52 (25.00%)	Adverse Events	1
+Anaemia 1/52 (1.92%)	Adverse Events	2
+Blood loss anaemia 1/52 (1.92%)	Adverse Events	3
+blood	UBERON:0000178	0-5
+Left ventricular dysfunction 1/52 (1.92%)	Adverse Events	4
+left	HP:0012835	0-4
+Abdominal pain 3/52 (5.77%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper 1/52 (1.92%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Diarrhoea 3/52 (5.77%)	Adverse Events	7
+Gastric haemorrhage 1/52 (1.92%)	Adverse Events	8
+Gastritis 1/52 (1.92%)	Adverse Events	9
+gastritis	HP:0005263,DOID:4029	0-9
+Lower gastrointestinal haemorrhage 1/52 (1.92%)	Adverse Events	10
+Nausea 1/52 (1.92%)	Adverse Events	11
+nausea	HP:0002018	0-6
+Vomiting 2/52 (3.85%)	Adverse Events	12
+vomiting	HP:0002013	0-8

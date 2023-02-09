@@ -1,0 +1,172 @@
+INTERVENTION 1:	Intervention	0
+Letrozole	Intervention	1
+letrozole	CHEBI:6413	0-9
+Patients receive oral letrozole once daily for up to 5 years in the absence of unacceptable toxicity, disease recurrence, or development of a second malignancy.	Intervention	2
+letrozole	CHEBI:6413	22-31
+disease	DOID:4,OGMS:0000031	102-109
+second	UO:0000010	142-148
+letrozole: Given orally	Intervention	3
+letrozole	CHEBI:6413	0-9
+INTERVENTION 2:	Intervention	4
+Placebo	Intervention	5
+Patients receive oral placebo once daily for up to 5 years in the absence of unacceptable toxicity, disease recurrence, or development of a second malignancy.	Intervention	6
+disease	DOID:4,OGMS:0000031	100-107
+second	UO:0000010	140-146
+placebo: Given orally	Intervention	7
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Previously diagnosed with primary breast cancer	Eligibility	1
+breast cancer	DOID:1612	34-47
+Must have received 4½ - 6 years of aromatase inhibitor therapy (e.g., letrozole, anastrozole, or exemestane), either as initial therapy or after prior tamoxifen citrate, including treatment received as part of clinical trial CAN-NCIC-MA17	Eligibility	2
+inhibitor	CHEBI:35222	45-54
+letrozole	CHEBI:6413	70-79
+anastrozole	CHEBI:2704	81-92
+exemestane	CHEBI:4953	97-107
+tamoxifen citrate	CHEBI:9397	151-168
+part of	BAO:0090002,BFO:0000050	202-209
+Completed aromatase inhibitor therapy  2 years ago	Eligibility	3
+inhibitor	CHEBI:35222	20-29
+No metastatic or recurrent disease, contralateral breast cancer, or ductal carcinoma in situ in either breast, as determined by the following:	Eligibility	4
+recurrent	HP:0031796	17-26
+disease	DOID:4,OGMS:0000031	27-34
+breast cancer	DOID:1612	50-63
+ductal carcinoma in situ	HP:0030075,DOID:0060074	68-92
+breast	UBERON:0000310	50-56
+breast	UBERON:0000310	103-109
+Clinical examination of the breast area, axillae, and neck within the past 60 days	Eligibility	5
+breast	UBERON:0000310	28-34
+area	PATO:0001323	35-39
+neck	GO:0044326,UBERON:0000974	54-58
+Mammogram within the past 12 months*	Eligibility	6
+Chest x-ray within the past 60 days	Eligibility	7
+chest	UBERON:0001443	0-5
+Bone scan, if alkaline phosphatase > 2 times normal and/or there are symptoms of metastatic disease AND confirmatory x-ray, if bone scan results are questionable, within the past 60 days	Eligibility	8
+phosphatase	GO:0016791,BAO:0000295	23-34
+disease	DOID:4,OGMS:0000031	92-99
+Abdominal ultrasound, liver scan, or CT scan of the abdomen within the past 60 days, if ALT, AST, or alkaline phosphatase > 2 times normal NOTE: *A baseline mammogram is not required for patients who have undergone bilateral complete mastectomy	Eligibility	9
+liver	UBERON:0002107	22-27
+ct	BAO:0002125	37-39
+ct	BAO:0002125	239-241
+abdomen	UBERON:0000916	52-59
+phosphatase	GO:0016791,BAO:0000295	110-121
+bilateral	HP:0012832	215-224
+Hormone-receptor status:	Eligibility	10
+Estrogen receptor positive (ER+) and/or progesterone receptor positive (PR+) primary tumor at the time of diagnosis, defined as a tumor receptor content of > 10 fmol/mg protein or receptor positive by immunocytochemical assay (for patients not previously enrolled on clinical trial CAN-NCIC-MA17)	Eligibility	11
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	53-61
+receptor	BAO:0000281	136-144
+receptor	BAO:0000281	180-188
+progesterone	CHEBI:17026	40-52
+time	PATO:0000165	98-102
+protein	CHEBI:36080,BAO:0000175	169-176
+ER+ and/or PR+ primary tumor OR hormone receptor status of primary tumor unknown (for patients previously enrolled on clinical trial CAN-NCIC-MA17)	Eligibility	12
+hormone	CHEBI:24621	32-39
+receptor	BAO:0000281	40-48
+PATIENT CHARACTERISTICS:	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+Menopausal status not specified	Eligibility	14
+ECOG performance status 0-2	Eligibility	15
+Life expectancy  5 years	Eligibility	16
+WBC > 3.0 x 10^9/L OR granulocyte count (polymorphs + bands)  1.5 times 10^9/L	Eligibility	17
+x	LABO:0000148	10-11
+Platelet count > 100 x 10^9/L	Eligibility	18
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	21-22
+AST and/or ALT < 2 times upper limit of normal (ULN)*	Eligibility	19
+Alkaline phosphatase < 2 times ULN*	Eligibility	20
+phosphatase	GO:0016791,BAO:0000295	9-20
+Able (i.e. sufficiently fluent) and willing to complete quality-of-life questionnaires in either English or French (NCIC CTG participating centers)	Eligibility	21
+Inability to complete questionnaires due to illiteracy in English or French, loss of sight, or other equivalent reason allowed	Eligibility	22
+Accessible for treatment and follow-up	Eligibility	23
+No other prior or concurrent malignancy except adequately treated, superficial squamous cell or basal cell skin cancer, carcinoma in situ of the cervix, or other cancer treated > 5 years ago that is presumed cured NOTE: *Elevated levels allowed provided imaging examinations have ruled out metastatic disease	Eligibility	24
+skin cancer	DOID:4159	107-118
+carcinoma	HP:0030731,DOID:305	120-129
+cancer	DOID:162	112-118
+cancer	DOID:162	162-168
+disease	DOID:4,OGMS:0000031	301-308
+PRIOR CONCURRENT THERAPY:	Eligibility	25
+See Disease Characteristics	Eligibility	26
+disease	DOID:4,OGMS:0000031	4-11
+No concurrent selective estrogen receptor modulator (e.g., raloxifene, idoxifene)	Eligibility	27
+estrogen receptor modulator	CHEBI:50739	24-51
+raloxifene	CHEBI:8772	59-69
+idoxifene	CHEBI:188870	71-80
+No other concurrent anticancer therapy	Eligibility	28
+Outcome Measurement:	Results	0
+Disease-free Survival (DFS)	Results	1
+It is defined as the months from the day of randomization to the earliest date when a recurrence of the primary disease (recurrence in the breast, chest wall and nodal sites or the development of metastatic disease) or a contralateral breast cancer was observed. Subjects who died without recurrence of the primary disease or the development of the contralateral breast cancer were censored at their death date. If a patient has not recurred, developed a contralateral breast cancer, or died, disease-free survival was censored on the date of the last day the patient was known to be alive. Probability of disease free survival at 5 years is estimated and reported.	Results	2
+day	UO:0000033	37-40
+day	UO:0000033	552-555
+disease	DOID:4,OGMS:0000031	112-119
+disease	DOID:4,OGMS:0000031	207-214
+disease	DOID:4,OGMS:0000031	315-322
+disease	DOID:4,OGMS:0000031	493-500
+disease	DOID:4,OGMS:0000031	606-613
+breast	UBERON:0000310	139-145
+breast	UBERON:0000310	235-241
+breast	UBERON:0000310	363-369
+breast	UBERON:0000310	469-475
+chest	UBERON:0001443	147-152
+breast cancer	DOID:1612	235-248
+breast cancer	DOID:1612	363-376
+breast cancer	DOID:1612	469-482
+death	OAE:0000632	400-405
+patient	HADO:0000008,OAE:0001817	417-424
+patient	HADO:0000008,OAE:0001817	560-567
+Time frame: Unitil the end of study with a median follow up of 75 months	Results	3
+time	PATO:0000165	0-4
+median	BAO:0002174	43-49
+Results 1:	Results	4
+Arm/Group Title: Letrozole	Results	5
+letrozole	CHEBI:6413	17-26
+Arm/Group Description: Patients receive oral letrozole once daily for up to 5 years in the absence of unacceptable toxicity, disease recurrence, or development of a second malignancy.	Results	6
+letrozole	CHEBI:6413	45-54
+disease	DOID:4,OGMS:0000031	125-132
+second	UO:0000010	165-171
+letrozole: Given orally	Results	7
+letrozole	CHEBI:6413	0-9
+Overall Number of Participants Analyzed: 959	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: probability of DFS at 5 years  0.95        (0.93 to 0.96)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Placebo	Results	12
+Arm/Group Description: Patients receive oral placebo once daily for up to 5 years in the absence of unacceptable toxicity, disease recurrence, or development of a second malignancy.	Results	13
+disease	DOID:4,OGMS:0000031	123-130
+second	UO:0000010	163-169
+placebo: Given orally	Results	14
+Overall Number of Participants Analyzed: 959	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: probability of DFS at 5 years  0.91        (0.89 to 0.93)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 15/959 (1.56%)	Adverse Events	1
+CNS hemorrhage/bleeding 20/959 (0.00%)	Adverse Events	2
+Melena/GI bleeding 21/959 (0.10%)	Adverse Events	3
+Rectal bleeding/ hematochezia 21/959 (0.10%)	Adverse Events	4
+hematochezia	HP:0002573	17-29
+Cardiac troponin I (cTnI) 0/959 (0.00%)	Adverse Events	5
+Thrombosis/embolism 20/959 (0.00%)	Adverse Events	6
+Ventricular arrhythmia (PVCs/bigeminy/trigeminy/ ventricular tachycardia) 21/959 (0.10%)	Adverse Events	7
+ventricular arrhythmia	HP:0004308	0-22
+ventricular tachycardia	HP:0004756	49-72
+Edema 21/959 (0.10%)	Adverse Events	8
+edema	HP:0000969	0-5
+Cardiac left ventricular function 21/959 (0.10%)	Adverse Events	9
+left	HP:0012835	8-12
+function	BAO:0003117,BFO:0000034	25-33
+Adverse Events 2:	Adverse Events	10
+Total: 19/954 (1.99%)	Adverse Events	11
+CNS hemorrhage/bleeding 21/954 (0.10%)	Adverse Events	12
+Melena/GI bleeding 20/954 (0.00%)	Adverse Events	13
+Rectal bleeding/ hematochezia 20/954 (0.00%)	Adverse Events	14
+hematochezia	HP:0002573	17-29
+Cardiac troponin I (cTnI) 1/954 (0.10%)	Adverse Events	15
+Thrombosis/embolism 21/954 (0.10%)	Adverse Events	16
+Ventricular arrhythmia (PVCs/bigeminy/trigeminy/ ventricular tachycardia) 21/954 (0.10%)	Adverse Events	17
+ventricular arrhythmia	HP:0004308	0-22
+ventricular tachycardia	HP:0004756	49-72
+Edema 20/954 (0.00%)	Adverse Events	18
+edema	HP:0000969	0-5
+Cardiac left ventricular function 21/954 (0.10%)	Adverse Events	19
+left	HP:0012835	8-12
+function	BAO:0003117,BFO:0000034	25-33

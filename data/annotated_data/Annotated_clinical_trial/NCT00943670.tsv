@@ -1,0 +1,178 @@
+INTERVENTION 1:	Intervention	0
+T-DM1	Intervention	1
+Trastuzumab emtansine (T-DM1) was administered to participants by intravenous (IV) infusion on Day 1 of every 3 week cycle at a dose of 3.6 mg/kg.	Intervention	2
+day	UO:0000033	95-98
+week	UO:0000034	112-116
+Inclusion Criteria:	Eligibility	0
+Histologically documented, locally advanced, or metastatic breast cancer; measurable and/or non-measureable but evaluable disease is permitted	Eligibility	1
+breast cancer	DOID:1612	59-72
+disease	DOID:4,OGMS:0000031	122-129
+HER2-positive disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	14-21
+History of prior trastuzumab therapy	Eligibility	3
+history	BFO:0000182	0-7
+Life expectancy  90 days as assessed by the investigator	Eligibility	4
+Negative urine pregnancy test  72 hours prior to Cycle 1 Day 1 for all women of childbearing potential	Eligibility	5
+urine	UBERON:0001088	9-14
+day	UO:0000033	57-60
+For patients of childbearing potential, agreement to use one highly effective form of contraception or two effective forms of contraception for the duration of the study treatment(s) and for 4 months after the last dose of T-DM1 or 6 months after the last dose of pertuzumab, if applicable	Eligibility	6
+duration	PATO:0001309	148-156
+Exclusion Criteria:	Eligibility	7
+Any chemotherapy, hormonal therapy, radiotherapy, immunotherapy, or biologic therapy for the treatment of breast cancer within 2 weeks of the first study treatment	Eligibility	8
+radiotherapy	OAE:0000235	36-48
+breast cancer	DOID:1612	106-119
+Prior T-DM1 or pertuzumab therapy	Eligibility	9
+History of intolerance (such as Grade 3-4 infusion reaction) and/or adverse events related to trastuzumab	Eligibility	10
+history	BFO:0000182	0-7
+Grade  2 (based on National Cancer Institute Common Terminology Criteria for Adverse Events [NCI CTCAE] v3) peripheral neuropathy at the time of or within 3 weeks prior to the first study treatment	Eligibility	11
+cancer	DOID:162	28-34
+peripheral neuropathy	HP:0009830,DOID:870	108-129
+time	PATO:0000165	137-141
+Brain metastases that are untreated or progressive or have required any type of therapy, including radiation, surgery, and/or steroids, to control symptoms from brain metastases within 60 days prior to the first study treatment	Eligibility	12
+brain	UBERON:0000955	0-5
+brain	UBERON:0000955	161-166
+progressive	HP:0003676	39-50
+surgery	OAE:0000067	110-117
+History of cardiac disease, unstable angina, symptomatic congestive heart failure (CHF) (Class  II per the New York Heart Associate [NYHA] guidelines), myocardial infarction, or ventricular arrhythmia  6 months prior to Cycle 1, Day 1	Eligibility	13
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	19-26
+congestive heart failure	HP:0001635,DOID:6000	57-81
+heart	UBERON:0000948	68-73
+heart	UBERON:0000948	116-121
+myocardial infarction	HP:0001658,DOID:5844	152-173
+ventricular arrhythmia	HP:0004308	178-200
+day	UO:0000033	229-232
+Implantable pacemaker or automatic implantable cardioverter defibrillator	Eligibility	14
+Congenital long QT syndrome or family history of long QT syndrome	Eligibility	15
+long qt syndrome	DOID:2843	11-27
+long qt syndrome	DOID:2843	49-65
+family history	HP:0032316	31-45
+Current uncontrolled hypertension	Eligibility	16
+hypertension	HP:0000822,DOID:10763	21-33
+Current treatment with medications that alter cardiac conduction (e.g., digitalis, beta-blockers, or calcium channel blockers) or medications that are generally accepted to have a risk of causing torsades de pointes (TdP)	Eligibility	17
+cardiac conduction	GO:0061337	46-64
+calcium	CHEBI:22984,BAO:0000874	101-108
+tdp	CHEBI:61377	217-220
+Current known active infection with human immunodeficiency virus (HIV), hepatitis B virus, or hepatitis C virus	Eligibility	18
+active	PATO:0002354	14-20
+immunodeficiency	HP:0002721	42-58
+virus	BAO:0000232	59-64
+virus	BAO:0000232	84-89
+virus	BAO:0000232	106-111
+hepatitis b	DOID:2043	72-83
+hepatitis c	DOID:1883	94-105
+Major surgical procedure or significant traumatic injury within 28 days prior to first study treatment, or anticipation of the need for major surgery during the course of study treatment	Eligibility	19
+surgery	OAE:0000067	142-149
+Outcome Measurement:	Results	0
+Change From Baseline in Mean Duration of the QTc Interval	Results	1
+mean	BAO:0002173	24-28
+duration	PATO:0001309	29-37
+qtc interval	CMO:0000269	45-57
+The QT interval is a measure of time between the start of the Q wave and the end of the T wave in the heart's electrical cycle. The corrected QT interval was calculated using Fridericia's correction (QTcF) from electrocardiogram (ECG) data. Each participant had triplicate QTcF intervals measured at each timepoint and the average was calculated for each patient at each timepoint. For each timepoint, a participant's corresponding baseline QTcF interval was subtracted from the average QTcF intervals to create a baseline-adjusted average QTcF interval.	Results	2
+qt interval	CMO:0000235	4-15
+qt interval	CMO:0000235	142-153
+time	PATO:0000165	32-36
+time	PATO:0000165	305-309
+time	PATO:0000165	371-375
+time	PATO:0000165	391-395
+t	CHEBI:36371,BAO:0001260	0-1
+t	CHEBI:36371,BAO:0001260	5-6
+t	CHEBI:36371,BAO:0001260	9-10
+t	CHEBI:36371,BAO:0001260	32-33
+t	CHEBI:36371,BAO:0001260	39-40
+t	CHEBI:36371,BAO:0001260	45-46
+t	CHEBI:36371,BAO:0001260	50-51
+t	CHEBI:36371,BAO:0001260	53-54
+t	CHEBI:36371,BAO:0001260	58-59
+t	CHEBI:36371,BAO:0001260	73-74
+t	CHEBI:36371,BAO:0001260	84-85
+t	CHEBI:36371,BAO:0001260	88-89
+t	CHEBI:36371,BAO:0001260	98-99
+t	CHEBI:36371,BAO:0001260	106-107
+t	CHEBI:36371,BAO:0001260	114-115
+t	CHEBI:36371,BAO:0001260	128-129
+t	CHEBI:36371,BAO:0001260	138-139
+t	CHEBI:36371,BAO:0001260	143-144
+t	CHEBI:36371,BAO:0001260	147-148
+t	CHEBI:36371,BAO:0001260	165-166
+t	CHEBI:36371,BAO:0001260	194-195
+t	CHEBI:36371,BAO:0001260	201-202
+t	CHEBI:36371,BAO:0001260	215-216
+t	CHEBI:36371,BAO:0001260	237-238
+t	CHEBI:36371,BAO:0001260	249-250
+t	CHEBI:36371,BAO:0001260	256-257
+t	CHEBI:36371,BAO:0001260	262-263
+t	CHEBI:36371,BAO:0001260	270-271
+t	CHEBI:36371,BAO:0001260	274-275
+t	CHEBI:36371,BAO:0001260	280-281
+t	CHEBI:36371,BAO:0001260	298-299
+t	CHEBI:36371,BAO:0001260	305-306
+t	CHEBI:36371,BAO:0001260	313-314
+t	CHEBI:36371,BAO:0001260	319-320
+t	CHEBI:36371,BAO:0001260	342-343
+t	CHEBI:36371,BAO:0001260	357-358
+t	CHEBI:36371,BAO:0001260	361-362
+t	CHEBI:36371,BAO:0001260	364-365
+t	CHEBI:36371,BAO:0001260	371-372
+t	CHEBI:36371,BAO:0001260	379-380
+t	CHEBI:36371,BAO:0001260	391-392
+t	CHEBI:36371,BAO:0001260	399-400
+t	CHEBI:36371,BAO:0001260	407-408
+t	CHEBI:36371,BAO:0001260	414-415
+t	CHEBI:36371,BAO:0001260	442-443
+t	CHEBI:36371,BAO:0001260	448-449
+t	CHEBI:36371,BAO:0001260	462-463
+t	CHEBI:36371,BAO:0001260	466-467
+t	CHEBI:36371,BAO:0001260	475-476
+t	CHEBI:36371,BAO:0001260	488-489
+t	CHEBI:36371,BAO:0001260	494-495
+t	CHEBI:36371,BAO:0001260	502-503
+t	CHEBI:36371,BAO:0001260	509-510
+t	CHEBI:36371,BAO:0001260	528-529
+t	CHEBI:36371,BAO:0001260	541-542
+t	CHEBI:36371,BAO:0001260	547-548
+heart	UBERON:0000948	102-107
+patient	HADO:0000008,OAE:0001817	355-362
+Time frame: Cycle 1 Day 1, pre-dose (Baseline); Cycle 1 Day 1, 15 and 60 minutes post-dose; Cycle 1 Day 8; and Cycle 3 Day 1, 15 minutes pre-dose and 15 and 60 minutes post-dose.	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	20-23
+day	UO:0000033	56-59
+day	UO:0000033	100-103
+day	UO:0000033	119-122
+Results 1:	Results	4
+Arm/Group Title: T-DM1	Results	5
+Arm/Group Description: Trastuzumab emtansine (T-DM1) was administered to participants by intravenous (IV) infusion on Day 1 of every 3 week cycle at a dose of 3.6 mg/kg.	Results	6
+day	UO:0000033	118-121
+week	UO:0000034	135-139
+Overall Number of Participants Analyzed: 51	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: milliseconds  Cycle 1, Day 1, 15 minutes post-dose [N=44]: 1.2         (8.3)	Results	9
+day	UO:0000033	40-43
+Cycle 1, Day 1, 60 minutes post-dose [N=45]: -1.0         (6.3)	Results	10
+day	UO:0000033	9-12
+Cycle 1, Day 8 [N=43]: -4.0         (13.4)	Results	11
+day	UO:0000033	9-12
+Cycle 3, Day 1, 15 minutes pre-dose [N=35]: -0.1         (10.1)	Results	12
+day	UO:0000033	9-12
+Cycle 3, Day 1, 15 minutes post-dose [N=37]: 4.7         (9.6)	Results	13
+day	UO:0000033	9-12
+Cycle 3, Day 1, 60 minutes post-dose [N=37]: 4.7         (10.9)	Results	14
+day	UO:0000033	9-12
+Adverse Events 1:	Adverse Events	0
+Total: 4/51 (7.84%)	Adverse Events	1
+Thrombocytopenia 2/51 (3.92%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia 0/51 (0.00%)	Adverse Events	3
+Cardiac arrest 0/51 (0.00%)	Adverse Events	4
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Gastrointestinal haemorrhage 0/51 (0.00%)	Adverse Events	5
+Generalised oedema 1/51 (1.96%)	Adverse Events	6
+Aspartate aminotransferase increased 0/51 (0.00%)	Adverse Events	7
+aspartate	CHEBI:29995	0-9
+Hypokalaemia 0/51 (0.00%)	Adverse Events	8
+Convulsion 1/51 (1.96%)	Adverse Events	9
+Renal failure 1/51 (1.96%)	Adverse Events	10
+Dyspnoea 1/51 (1.96%)	Adverse Events	11
+Skin haemorrhage 0/51 (0.00%)	Adverse Events	12

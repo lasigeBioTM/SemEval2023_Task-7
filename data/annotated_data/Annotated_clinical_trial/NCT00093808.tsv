@@ -1,0 +1,234 @@
+INTERVENTION 1:	Intervention	0
+Capecitabine + Vinorelbine + Trastuzumab	Intervention	1
+capecitabine	CHEBI:31348	0-12
+vinorelbine	CHEBI:480999	15-26
+Treatment followed a 21-day cycle. Capecitabine was administered orally twice daily at a dose of 825 mg/m^2 on days 1 to 14, vinorelbine was administered intravenously (IV) at a dose of 25 mg/m^2 on days 1 and 8 every 3 weeks, and trastuzumab was administered IV at a dose of 6 mg/kg on day 1 of every 3-week cycle (except cycle 1, when patients were given a loading dose of 8 mg/kg).	Intervention	2
+capecitabine	CHEBI:31348	35-47
+vinorelbine	CHEBI:480999	125-136
+day	UO:0000033	24-27
+day	UO:0000033	111-114
+day	UO:0000033	199-202
+day	UO:0000033	287-290
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed invasive breast cancer	Eligibility	1
+breast cancer	DOID:1612	51-64
+Metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+HER2/neu-positive by immunohistochemistry (3+ by HercepTest^™ or equivalent) OR positive for amplification by fluorescent in situ hybridization	Eligibility	3
+immunohistochemistry	BAO:0000415	21-41
+Testing may be performed in the primary tumor or the metastatic site	Eligibility	4
+site	BFO:0000029	64-68
+Received prior anthracycline or taxane as adjuvant therapy or for metastatic disease	Eligibility	5
+anthracycline	CHEBI:48120	15-28
+taxane	CHEBI:36064	32-38
+adjuvant	CHEBI:60809	42-50
+disease	DOID:4,OGMS:0000031	77-84
+Measurable disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+At least one measurable lesion  2.0 cm by CT scan or MRI OR  1.0 cm by spiral CT scan	Eligibility	7
+ct	BAO:0002125	42-44
+ct	BAO:0002125	78-80
+The following are considered non-measurable disease:	Eligibility	8
+disease	DOID:4,OGMS:0000031	44-51
+Bone lesions	Eligibility	9
+Leptomeningeal disease	Eligibility	10
+disease	DOID:4,OGMS:0000031	15-22
+Ascites	Eligibility	11
+ascites	HP:0001541	0-7
+Pleural/pericardial effusion	Eligibility	12
+Inflammatory breast disease	Eligibility	13
+breast disease	DOID:3463	13-27
+Lymphangitis cutis/pulmonis	Eligibility	14
+lymphangitis	DOID:9317	0-12
+Abdominal masses that are not confirmed and followed by imaging techniques	Eligibility	15
+Cystic lesions	Eligibility	16
+No bone metastases as the only evidence of metastasis	Eligibility	17
+Previously treated CNS metastases allowed provided disease has been stable for  the past 3 months	Eligibility	18
+disease	DOID:4,OGMS:0000031	51-58
+stable	HP:0031915	68-74
+Hormone receptor status:	Eligibility	19
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	20
+PATIENT CHARACTERISTICS:	Eligibility	21
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	22
+age	PATO:0000011	0-3
+18 and over	Eligibility	23
+Sex	Eligibility	24
+Female or male	Eligibility	25
+female	PATO:0000383	0-6
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	10-14
+Performance status	Eligibility	26
+ECOG 0-2	Eligibility	27
+Life expectancy	Eligibility	28
+At least 12 weeks	Eligibility	29
+Hematopoietic	Eligibility	30
+Absolute neutrophil count  1,500/mm^3	Eligibility	31
+Hemoglobin  8.0 g/dL	Eligibility	32
+hemoglobin	CHEBI:35143	0-10
+Platelet count  100,000/mm^3	Eligibility	33
+platelet count	CMO:0000029	0-14
+No known uncontrolled coagulopathy	Eligibility	34
+Hepatic	Eligibility	35
+Bilirubin  3.0 times the upper limit of normal (ULN)	Eligibility	36
+One of the following must be true:	Eligibility	37
+AST or ALT  5 times ULN AND alkaline phosphatase normal	Eligibility	38
+phosphatase	GO:0016791,BAO:0000295	37-48
+Alkaline phosphatase  5 times ULN AND AST or ALT normal	Eligibility	39
+phosphatase	GO:0016791,BAO:0000295	9-20
+Alkaline phosphatase  2.5 times ULN AND AST or ALT  1.5 times ULN	Eligibility	40
+phosphatase	GO:0016791,BAO:0000295	9-20
+INR  1.5 times ULN	Eligibility	41
+Renal	Eligibility	42
+Calcium  11.5 mg/dL	Eligibility	43
+calcium	CHEBI:22984,BAO:0000874	0-7
+Creatinine  1.5 times ULN	Eligibility	44
+creatinine	CHEBI:16737	0-10
+Creatinine clearance  30 mL/min	Eligibility	45
+creatinine clearance	CMO:0000765	0-20
+Cardiovascular	Eligibility	46
+LVEF  50% by MUGA or echocardiogram	Eligibility	47
+No clinically significant (i.e., active) cardiac disease	Eligibility	48
+active	PATO:0002354	33-39
+disease	DOID:4,OGMS:0000031	49-56
+No congestive heart failure	Eligibility	49
+congestive heart failure	HP:0001635,DOID:6000	3-27
+No symptomatic coronary artery disease	Eligibility	50
+coronary artery disease	DOID:3393	15-38
+No myocardial infarction within the past 12 months	Eligibility	51
+myocardial infarction	HP:0001658,DOID:5844	3-24
+No cardiac arrhythmia not controlled with medication	Eligibility	52
+arrhythmia	HP:0011675	11-21
+Gastrointestinal	Eligibility	53
+Able to take oral medication	Eligibility	54
+No lack of physical integrity of the upper gastrointestinal tract	Eligibility	55
+No clinically significant malabsorption syndrome	Eligibility	56
+malabsorption	HP:0002024	26-39
+syndrome	DOID:225	40-48
+Other	Eligibility	57
+Not pregnant or nursing	Eligibility	58
+Negative pregnancy test	Eligibility	59
+Fertile patients must use effective contraception during and for 30 days after study participation	Eligibility	60
+No history of allergy or hypersensitivity to study drugs, drug product excipients, including polysorbate 80, or chemically similar agents	Eligibility	61
+history	BFO:0000182	3-10
+allergy	HP:0012393	14-21
+hypersensitivity	GO:0002524,DOID:1205	25-41
+drug	CHEBI:23888	51-55
+drug	CHEBI:23888	58-62
+product	BAO:0003067	63-70
+polysorbate 80	CHEBI:53426	93-107
+No prior unanticipated severe reaction to fluoropyrimidine therapy	Eligibility	62
+severe	HP:0012828	23-29
+No know hypersensitivity to fluorouracil	Eligibility	63
+hypersensitivity	GO:0002524,DOID:1205	8-24
+No known dihydropyrimidine dehydrogenase deficiency	Eligibility	64
+dihydropyrimidine dehydrogenase deficiency	DOID:14218	9-51
+No history of uncontrolled seizures or CNS disorders	Eligibility	65
+history	BFO:0000182	3-10
+No clinically significant psychiatric disability that would preclude giving informed consent or study compliance	Eligibility	66
+No other serious uncontrolled infection or disease	Eligibility	67
+disease	DOID:4,OGMS:0000031	43-50
+No other malignancy within the past 5 years except cured basal cell skin cancer, carcinoma in situ of the cervix, or contralateral breast cancer	Eligibility	68
+skin cancer	DOID:4159	68-79
+carcinoma	HP:0030731,DOID:305	81-90
+breast cancer	DOID:1612	131-144
+PRIOR CONCURRENT THERAPY:	Eligibility	69
+Biologic therapy	Eligibility	70
+Prior adjuvant trastuzumab (Herceptin^®) allowed as adjuvant or first-line therapy for metastatic disease	Eligibility	71
+adjuvant	CHEBI:60809	6-14
+adjuvant	CHEBI:60809	52-60
+disease	DOID:4,OGMS:0000031	98-105
+No concurrent immunotherapy	Eligibility	72
+Chemotherapy	Eligibility	73
+See Disease Characteristics	Eligibility	74
+disease	DOID:4,OGMS:0000031	4-11
+No more than 1 prior chemotherapy regimen in the advanced or metastatic (non-adjuvant) setting	Eligibility	75
+No prior continuous ( 24 hours) fluorouracil infusion	Eligibility	76
+No prior capecitabine	Eligibility	77
+capecitabine	CHEBI:31348	9-21
+No prior oral fluoropyrimidines (e.g., eniluracil and fluorouracil, uracil and tegafur, S1, or emitefur)	Eligibility	78
+eniluracil	CHEBI:177783	39-49
+uracil	CHEBI:17568	43-49
+uracil	CHEBI:17568	60-66
+uracil	CHEBI:17568	68-74
+tegafur	CHEBI:32188	79-86
+Endocrine therapy	Eligibility	79
+At least 1 day since prior hormonal therapy	Eligibility	80
+day	UO:0000033	11-14
+No concurrent hormonal therapy	Eligibility	81
+Radiotherapy	Eligibility	82
+radiotherapy	OAE:0000235	0-12
+More than 4 weeks since prior radiotherapy to the axial skeleton (i.e., skull, spinal column, sternum, or ribs)	Eligibility	83
+radiotherapy	OAE:0000235	30-42
+axial	HP:0025287	50-55
+skeleton	UBERON:0004288	56-64
+skull	UBERON:0003129	72-77
+No concurrent radiotherapy	Eligibility	84
+radiotherapy	OAE:0000235	14-26
+Surgery	Eligibility	85
+surgery	OAE:0000067	0-7
+More than 4 weeks since prior major surgery	Eligibility	86
+surgery	OAE:0000067	36-43
+No prior organ allografts requiring immunosuppressive therapy	Eligibility	87
+organ	UBERON:0000062	9-14
+Other	Eligibility	88
+More than 4 weeks since prior investigational drugs	Eligibility	89
+No concurrent sorivudine or its chemically related analogues (e.g., brivudine)	Eligibility	90
+sorivudine	CHEBI:32152	14-24
+No concurrent allopurinol, metronidazole, or cimetidine	Eligibility	91
+allopurinol	CHEBI:40279	14-25
+metronidazole	CHEBI:6909	27-40
+cimetidine	CHEBI:3699	45-55
+No other concurrent cytotoxic agents	Eligibility	92
+No other concurrent investigational drugs	Eligibility	93
+No other concurrent anticancer therapy	Eligibility	94
+Outcome Measurement:	Results	0
+Confirmed Response Rate	Results	1
+rate	BAO:0080019	19-23
+A confirmed tumor response is defined to be either a Complete Response (CR) or Partial Response (PR) noted as the objective status on 2 consecutive evaluations at least 6 weeks apart. All patients meeting the eligibility criteria who have signed a consent form and initiated study medication will be evaluable for response. The proportion of confirmed tumor responses will be estimated by the number of tumor regressions that meet the RECIST criteria for a confirmed CR or PR divided by the total number of evaluable patients. A 95% confidence interval for the true confirmed response rate will be calculated using the properties of the binomial distribution. Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	2
+rate	BAO:0080019	585-589
+target	BAO:0003064	736-742
+target	BAO:0003064	817-823
+target	BAO:0003064	909-915
+diameter	PATO:0001334	897-905
+Time frame: Up to 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Capecitabine + Vinorelbine + Trastuzumab	Results	5
+capecitabine	CHEBI:31348	17-29
+vinorelbine	CHEBI:480999	32-43
+Arm/Group Description: Treatment followed a 21-day cycle. Capecitabine was administered orally twice daily at a dose of 825 mg/m^2 on days 1 to 14, vinorelbine was administered intravenously (IV) at a dose of 25 mg/m^2 on days 1 and 8 every 3 weeks, and trastuzumab was administered IV at a dose of 6 mg/kg on day 1 of every 3-week cycle (except cycle 1, when patients were given a loading dose of 8 mg/kg).	Results	6
+capecitabine	CHEBI:31348	58-70
+vinorelbine	CHEBI:480999	148-159
+day	UO:0000033	47-50
+day	UO:0000033	134-137
+day	UO:0000033	222-225
+day	UO:0000033	310-313
+Overall Number of Participants Analyzed: 45	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: proportion of patients  0.67        (0.51 to 0.80)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 9/46 (19.57%)	Adverse Events	1
+Febrile neutropenia 1/46 (2.17%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac disorder 1/46 (2.17%)	Adverse Events	3
+disorder	OGMS:0000045	8-16
+Diarrhea 1/46 (2.17%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Upper gastrointestinal hemorrhage 1/46 (2.17%)	Adverse Events	5
+gastrointestinal hemorrhage	HP:0002239	6-33
+Chest pain 1/46 (2.17%)	Adverse Events	6
+chest pain	HP:0100749	0-10
+Fatigue 1/46 (2.17%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+Neutrophil count decreased 2/46 (4.35%)	Adverse Events	8
+Platelet count decreased 1/46 (2.17%)	Adverse Events	9
+platelet count	CMO:0000029	0-14
+Anorexia 1/46 (2.17%)	Adverse Events	10
+anorexia	HP:0002039	0-8
+Dehydration 1/46 (2.17%)	Adverse Events	11
+dehydration	HP:0001944	0-11
+Serum potassium increased 1/46 (2.17%)	Adverse Events	12

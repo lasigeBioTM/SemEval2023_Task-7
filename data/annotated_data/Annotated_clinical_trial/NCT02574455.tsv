@@ -1,0 +1,195 @@
+INTERVENTION 1:	Intervention	0
+Sacituzumab Govitecan	Intervention	1
+Participants received sacituzumab govitecan 10 mg/kg of body weight, administered as a slow IV infusion either by gravity or with an infusion pump on Days 1 and 8 of a 21-day treatment cycle for up to 29.6 months. Infusion rate for the first 15 minutes started with 50 mg/hour or less with a subsequent infusion of 100 to 200 mg/hour up to a maximum recommended rate (advanced every 15 to 30 minutes) of 500 mg/hour with a subsequent infusion of 1000 mg/hour. Participants continued treatment until progression of disease requiring treatment discontinuation or occurrence of unacceptable AEs.	Intervention	2
+body weight	CMO:0000012	56-67
+rate	BAO:0080019	223-227
+rate	BAO:0080019	362-366
+disease	DOID:4,OGMS:0000031	514-521
+INTERVENTION 2:	Intervention	3
+Treatment of Physician's Choice (TPC)	Intervention	4
+Participants received TPC (ie, eribulin, capecitabine, gemcitabine, or vinorelbine), administered as a single-agent regimen that was selected by the investigator before participant randomization. Participants continued treatment until progression of disease requiring treatment discontinuation or occurrence of unacceptable AEs.	Intervention	5
+eribulin	CHEBI:63587	31-39
+capecitabine	CHEBI:31348	41-53
+gemcitabine	CHEBI:175901	55-66
+vinorelbine	CHEBI:480999	71-82
+disease	DOID:4,OGMS:0000031	250-257
+Eribulin was administered IV over 2 to 5 minutes at a dose 1.4 mg/m^2 at North American sites and 1.23 mg/m^2 at European sites on Days 1 and 8 of a 21-day cycle for up to 15.3 months. Lower doses were administered on the same schedule to participants with moderate hepatic impairment (ie, Child-Pugh B; 0.7 mg/m^2 and 0.67 mg/m^2 for North American and European sites, respectively).	Intervention	6
+eribulin	CHEBI:63587	0-8
+moderate	HP:0012826	257-265
+Capecitabine 1000 to 1250 mg/m^2 was administered in a 21-day cycle, with capecitabine administered orally twice daily for 2 weeks followed by 1-week rest period for up to 10.6 months.	Intervention	7
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	74-86
+Gemcitabine 800 to 1200 mg/m^2 was administered IV over 30 minutes on Days 1, 8, and 15 of a 28-day cycle for up to 8.1 months.	Intervention	8
+gemcitabine	CHEBI:175901	0-11
+Vinorelbine 25 mg/m^2 was administered as a weekly IV injection over 6-10 minutes for up to 11.5 months. Vinorelbine was not allowed as TPC for any participant with Grade 2 neuropathy.	Intervention	9
+vinorelbine	CHEBI:480999	0-11
+vinorelbine	CHEBI:480999	105-116
+neuropathy	DOID:870	173-183
+Key Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed TNBC based on the most recent analyzed biopsy or other pathology specimen. Triple negative is defined as <1% expression for estrogen receptor (ER) and progesterone receptor (PR) and negative for human epidermal growth factor receptor 2 (HER2) by in-situ hybridization.	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	166-174
+receptor	BAO:0000281	175-183
+receptor	BAO:0000281	206-214
+receptor	BAO:0000281	267-275
+progesterone	CHEBI:17026	193-205
+growth factor	BAO:0002024	253-266
+Refractory to or relapsed after at least two prior standard therapeutic regimens for advanced/metastatic TNBC.	Eligibility	2
+refractory	HP:0031375	0-10
+Prior exposure to a taxane in localized or advanced/metastatic setting.	Eligibility	3
+taxane	CHEBI:36064	20-26
+localized	HP:0012838,PATO:0000627	30-39
+Eligible for one of the chemotherapy options listed as TPC (eribulin, capecitabine, gemcitabine, or vinorelbine) as per investigator assessment.	Eligibility	4
+eribulin	CHEBI:63587	60-68
+capecitabine	CHEBI:31348	70-82
+gemcitabine	CHEBI:175901	84-95
+vinorelbine	CHEBI:480999	100-111
+Eastern Cooperative Oncology Group (ECOG) performance score of 0 or 1.	Eligibility	5
+group	CHEBI:24433	29-34
+Measurable disease by computed tomography (CT) or magnetic resonance imaging (MRI) as per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST 1.1). Bone-only disease is not permitted.	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	171-178
+tomography	BAO:0002525	31-41
+ct	BAO:0002125	43-45
+At least 2 weeks beyond prior anti-cancer treatment (chemotherapy, endocrine therapy, radiotherapy, and/or major surgery), and recovered from all acute toxicities to Grade 1 or less (except alopecia and peripheral neuropathy).	Eligibility	7
+radiotherapy	OAE:0000235	86-98
+surgery	OAE:0000067	113-120
+acute	HP:0011009,PATO:0000389	146-151
+alopecia	HP:0001596,DOID:987	190-198
+peripheral neuropathy	HP:0009830,DOID:870	203-224
+At least 2 weeks beyond high dose systemic corticosteroids (however, low dose corticosteroids < 20 mg prednisone or equivalent daily are permitted provided the dose is stable for 4 weeks).	Eligibility	8
+prednisone	CHEBI:8382	102-112
+stable	HP:0031915	168-174
+Adequate hematology without ongoing transfusional support (hemoglobin > 9 g/dL, absolute neutrophil count (ANC) > 1,500 per mm^3, platelets > 100,000 per mm^3).	Eligibility	9
+hemoglobin	CHEBI:35143	59-69
+Adequate renal and hepatic function (creatinine clearance [CrCL] > 60 mL/min, bilirubin  1.5 institutional upper limit of normal [IULN], aspartate aminotransferase [AST] and alanine aminotransferase [ALT]  2.5 x IULN or  5 x IULN if known liver metastases and serum albumin 3 g/dL).	Eligibility	10
+function	BAO:0003117,BFO:0000034	27-35
+creatinine clearance	CMO:0000765	37-57
+aspartate	CHEBI:29995	137-146
+alanine	CHEBI:16449	174-181
+x	LABO:0000148	210-211
+x	LABO:0000148	223-224
+liver	UBERON:0002107	239-244
+serum albumin	BAO:0002066	260-273
+Recovered from all toxicities to Grade 1 or less by National Cancer Institute common terminology criteria for adverse events (NCI CTCAE) v4.03 (except alopecia or peripheral neuropathy that may be Grade 2 or less) at the time of randomization. Participants with Grade 2 neuropathy are eligible but may not receive vinorelbine as TPC.	Eligibility	11
+cancer	DOID:162	61-67
+alopecia	HP:0001596,DOID:987	151-159
+peripheral neuropathy	HP:0009830,DOID:870	163-184
+time	PATO:0000165	221-225
+neuropathy	DOID:870	174-184
+neuropathy	DOID:870	270-280
+vinorelbine	CHEBI:480999	314-325
+Participants with treated, non-progressive brain metastases, off high-dose steroids (>20 mg prednisone or equivalent) for at least 4 weeks can be enrolled in the trial.	Eligibility	12
+brain	UBERON:0000955	43-48
+prednisone	CHEBI:8382	92-102
+Key Exclusion Criteria:	Eligibility	13
+Women who are pregnant or lactating.	Eligibility	14
+Women of childbearing potential or fertile men unwilling to use effective contraception during study and up to three months after treatment discontinuation in women of child-bearing potential and six months in males post last study drug.	Eligibility	15
+drug	CHEBI:23888	232-236
+Participants with Gilbert's disease.	Eligibility	16
+disease	DOID:4,OGMS:0000031	28-35
+Participants with non-melanoma skin cancer or carcinoma in situ of the cervix are eligible, while participants with other prior malignancies must have had at least a 3-year disease-free interval.	Eligibility	17
+skin cancer	DOID:4159	31-42
+carcinoma	HP:0030731,DOID:305	46-55
+Participants known to be human immunodeficiency (HIV) positive, hepatitis B positive, or hepatitis C positive.	Eligibility	18
+immunodeficiency	HP:0002721	31-47
+hepatitis b	DOID:2043	64-75
+hepatitis c	DOID:1883	89-100
+Infection requiring antibiotic use within one week of randomization.	Eligibility	19
+week	UO:0000034	46-50
+Other concurrent medical or psychiatric conditions that, in the Investigator's opinion, may be likely to confound study interpretation or prevent completion of study procedures and follow-up examinations.	Eligibility	20
+Note: Other protocol defined Inclusion/Exclusion criteria may apply.	Eligibility	21
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS) by Independent Review Committee (IRC) Assessment in Brain Metastasis Negative (BM-ve) Population	Results	1
+brain	UBERON:0000955	84-89
+PFS was defined as the time from randomization until objective tumor progression by Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 or death, whichever came first. The date of progression was date of the last observation or radiological assessment of target lesions that either showed a predefined increase (greater than or equal to [  ] 20%) in the sum of the target lesions or the appearance of new non-target lesions. PFS was estimated using Kaplan-Meier estimate.	Results	2
+time	PATO:0000165	23-27
+death	OAE:0000632	146-151
+target	BAO:0003064	262-268
+target	BAO:0003064	372-378
+target	BAO:0003064	416-422
+increase	BAO:0001251	309-317
+Time frame: From randomization until objective tumor progression or death (assessed every 6 weeks for 9 months and then every 9 weeks thereafter until the occurrence of progression of disease; maximum exposure: 29.6 months)	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	68-73
+disease	DOID:4,OGMS:0000031	184-191
+Results 1:	Results	4
+Arm/Group Title: Sacituzumab Govitecan	Results	5
+Arm/Group Description: Participants received sacituzumab govitecan 10 mg/kg of body weight, administered as a slow IV infusion either by gravity or with an infusion pump on Days 1 and 8 of a 21-day treatment cycle for up to 29.6 months. Infusion rate for the first 15 minutes started with 50 mg/hour or less with a subsequent infusion of 100 to 200 mg/hour up to a maximum recommended rate (advanced every 15 to 30 minutes) of 500 mg/hour with a subsequent infusion of 1000 mg/hour. Participants continued treatment until progression of disease requiring treatment discontinuation or occurrence of unacceptable AEs.	Results	6
+body weight	CMO:0000012	79-90
+rate	BAO:0080019	246-250
+rate	BAO:0080019	385-389
+disease	DOID:4,OGMS:0000031	537-544
+Overall Number of Participants Analyzed: 235	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  5.6        (4.3 to 6.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Treatment of Physician's Choice (TPC)	Results	11
+Arm/Group Description: Participants received TPC (ie, eribulin, capecitabine, gemcitabine, or vinorelbine), administered as a single-agent regimen that was selected by the investigator before participant randomization. Participants continued treatment until progression of disease requiring treatment discontinuation or occurrence of unacceptable AEs.	Results	12
+eribulin	CHEBI:63587	54-62
+capecitabine	CHEBI:31348	64-76
+gemcitabine	CHEBI:175901	78-89
+vinorelbine	CHEBI:480999	94-105
+disease	DOID:4,OGMS:0000031	273-280
+Eribulin was administered IV over 2 to 5 minutes at a dose 1.4 mg/m^2 at North American sites and 1.23 mg/m^2 at European sites on Days 1 and 8 of a 21-day cycle for up to 15.3 months. Lower doses were administered on the same schedule to participants with moderate hepatic impairment (ie, Child-Pugh B; 0.7 mg/m^2 and 0.67 mg/m^2 for North American and European sites, respectively).	Results	13
+eribulin	CHEBI:63587	0-8
+moderate	HP:0012826	257-265
+Capecitabine 1000 to 1250 mg/m^2 was administered in a 21-day cycle, with capecitabine administered orally twice daily for 2 weeks followed by 1-week rest period for up to 10.6 months.	Results	14
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	74-86
+Gemcitabine 800 to 1200 mg/m^2 was administered IV over 30 minutes on Days 1, 8, and 15 of a 28-day cycle for up to 8.1 months.	Results	15
+gemcitabine	CHEBI:175901	0-11
+Vinorelbine 25 mg/m^2 was administered as a weekly IV injection over 6-10 minutes for up to 11.5 months. Vinorelbine was not allowed as TPC for any participant with Grade 2 neuropathy.	Results	16
+vinorelbine	CHEBI:480999	0-11
+vinorelbine	CHEBI:480999	105-116
+neuropathy	DOID:870	173-183
+Overall Number of Participants Analyzed: 233	Results	17
+Median (95% Confidence Interval)	Results	18
+median	BAO:0002174	0-6
+Unit of Measure: months  1.7        (1.5 to 2.6)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 69/258 (26.74%)	Adverse Events	1
+Anaemia 3/258 (1.16%)	Adverse Events	2
+Febrile neutropenia 13/258 (5.04%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 5/258 (1.94%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/258 (0.39%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 0/258 (0.00%)	Adverse Events	6
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Mitral valve incompetence 1/258 (0.39%)	Adverse Events	7
+mitral valve	UBERON:0002135	0-12
+Pericardial effusion 0/258 (0.00%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus tachycardia 0/258 (0.00%)	Adverse Events	9
+sinus tachycardia	HP:0011703	0-17
+Abdominal pain 3/258 (1.16%)	Adverse Events	10
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper 1/258 (0.39%)	Adverse Events	11
+abdominal pain	HP:0002027	0-14
+Colitis 1/258 (0.39%)	Adverse Events	12
+colitis	HP:0002583,DOID:0060180	0-7
+Adverse Events 2:	Adverse Events	13
+Total: 64/224 (28.57%)	Adverse Events	14
+Anaemia 2/224 (0.89%)	Adverse Events	15
+Febrile neutropenia 4/224 (1.79%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/224 (0.45%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/224 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 1/224 (0.45%)	Adverse Events	19
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Mitral valve incompetence 0/224 (0.00%)	Adverse Events	20
+mitral valve	UBERON:0002135	0-12
+Pericardial effusion 2/224 (0.89%)	Adverse Events	21
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus tachycardia 1/224 (0.45%)	Adverse Events	22
+sinus tachycardia	HP:0011703	0-17
+Abdominal pain 3/224 (1.34%)	Adverse Events	23
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper 0/224 (0.00%)	Adverse Events	24
+abdominal pain	HP:0002027	0-14
+Colitis 0/224 (0.00%)	Adverse Events	25
+colitis	HP:0002583,DOID:0060180	0-7

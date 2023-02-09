@@ -1,0 +1,113 @@
+INTERVENTION 1:	Intervention	0
+Placebo Plus Nab-Paclitaxel	Intervention	1
+Participants assigned to placebo plus nab-paclitaxel received both agents until disease progression or unacceptable toxicity.	Intervention	2
+disease	DOID:4,OGMS:0000031	80-87
+INTERVENTION 2:	Intervention	3
+Atezolizumab Plus Nab-Paclitaxel	Intervention	4
+Participants assigned to atezolizumab plus nab-paclitaxel received both agents until disease progression or unacceptable toxicity.	Intervention	5
+disease	DOID:4,OGMS:0000031	85-92
+Inclusion Criteria:	Eligibility	0
+Metastatic or locally advanced, histologically documented TNBC characterized by absence of human epidermal growth factor 2 (HER2), estrogen receptor (ER), and progesterone receptor (PR) expression	Eligibility	1
+growth factor	BAO:0002024	107-120
+estrogen	CHEBI:50114,BAO:0000760	131-139
+receptor	BAO:0000281	140-148
+receptor	BAO:0000281	172-180
+progesterone	CHEBI:17026	159-171
+No prior chemotherapy or targeted systemic therapy for inoperable locally advanced or metastatic TNBC	Eligibility	2
+Eligible for taxane monotherapy (i.e., absence of rapid clinical progression, life-threatening visceral metastases, or the need for rapid symptom and/or disease control)	Eligibility	3
+taxane	CHEBI:36064	13-19
+symptom	OGMS:0000020	138-145
+disease	DOID:4,OGMS:0000031	153-160
+A representative formalin-fixed, paraffin-embedded tumor specimen in paraffin blocks, or at least 20 unstained slides with an associated pathology report documenting ER, PR, and HER2 negativity. Participants with fewer than 20 unstained slides available at baseline, and not fewer than 12 unstained slides will be eligible upon discussion with Medical Monitor	Eligibility	4
+Eastern Cooperative Oncology Group performance status of 0 or 1	Eligibility	5
+group	CHEBI:24433	29-34
+Measurable disease as defined by RECIST v1.1	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+Adequate hematologic and end-organ function	Eligibility	7
+function	BAO:0003117,BFO:0000034	35-43
+Exclusion Criteria:	Eligibility	8
+Known central nervous system (CNS) disease, except for treated asymptomatic CNS metastases	Eligibility	9
+central nervous system	UBERON:0001017	6-28
+disease	DOID:4,OGMS:0000031	35-42
+Leptomeningeal disease	Eligibility	10
+disease	DOID:4,OGMS:0000031	15-22
+Pregnancy or lactation	Eligibility	11
+lactation	GO:0007595	13-22
+History of autoimmune disease	Eligibility	12
+history	BFO:0000182	0-7
+autoimmune disease	DOID:417	11-29
+Prior allogeneic stem cell or solid organ transplantation	Eligibility	13
+organ	UBERON:0000062	36-41
+Positive test for human immunodeficiency virus	Eligibility	14
+immunodeficiency	HP:0002721	24-40
+virus	BAO:0000232	41-46
+Active hepatitis B or hepatitis C	Eligibility	15
+active	PATO:0002354	0-6
+hepatitis b	DOID:2043	7-18
+hepatitis c	DOID:1883	22-33
+Receipt of a live, attenuated vaccine within 4 weeks prior to randomization, during treatment, or within 5 months following the last dose of atezolizumab/placebo	Eligibility	16
+vaccine	VO:0000001	30-37
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS) According to Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1 (v1.1) in All Randomized Participants	Results	1
+PFS was defined as the time from randomization to the occurrence of disease progression, as determined by investigators from tumor assessments per RECIST v1.1, or death from any cause, whichever occurred first.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	68-75
+death	OAE:0000632	163-168
+Time frame: Baseline up to approximately 34 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Placebo Plus Nab-Paclitaxel	Results	5
+Arm/Group Description: Participants assigned to placebo plus nab-paclitaxel received both agents until disease progression or unacceptable toxicity.	Results	6
+disease	DOID:4,OGMS:0000031	103-110
+Overall Number of Participants Analyzed: 451	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  5.49        (5.32 to 5.59)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Atezolizumab Plus Nab-Paclitaxel	Results	11
+Arm/Group Description: Participants assigned to atezolizumab plus nab-paclitaxel received both agents until disease progression or unacceptable toxicity.	Results	12
+disease	DOID:4,OGMS:0000031	108-115
+Overall Number of Participants Analyzed: 451	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  7.16        (5.59 to 7.46)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 110/460 (23.91%)	Adverse Events	1
+ANAEMIA 1/460 (0.22%)	Adverse Events	2
+FEBRILE NEUTROPENIA 5/460 (1.09%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+HAEMOLYSIS 0/460 (0.00%)	Adverse Events	4
+LEUKOCYTOSIS 0/460 (0.00%)	Adverse Events	5
+leukocytosis	HP:0001974	0-12
+NEUTROPENIA 1/460 (0.22%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 1/460 (0.22%)	Adverse Events	7
+pancytopenia	HP:0001876,DOID:12450	0-12
+ACUTE MYOCARDIAL INFARCTION 0/460 (0.00%)	Adverse Events	8
+acute myocardial infarction	DOID:9408	0-27
+ANGINA UNSTABLE 1/460 (0.22%)	Adverse Events	9
+ARRHYTHMIA 1/460 (0.22%)	Adverse Events	10
+arrhythmia	HP:0011675	0-10
+ATRIAL FIBRILLATION 1/460 (0.22%)	Adverse Events	11
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+CARDIAC FAILURE 0/460 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 80/430 (18.60%)	Adverse Events	14
+ANAEMIA 1/430 (0.23%)	Adverse Events	15
+FEBRILE NEUTROPENIA 1/430 (0.23%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+HAEMOLYSIS 1/430 (0.23%)	Adverse Events	17
+LEUKOCYTOSIS 1/430 (0.23%)	Adverse Events	18
+leukocytosis	HP:0001974	0-12
+NEUTROPENIA 0/430 (0.00%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 0/430 (0.00%)	Adverse Events	20
+pancytopenia	HP:0001876,DOID:12450	0-12
+ACUTE MYOCARDIAL INFARCTION 1/430 (0.23%)	Adverse Events	21
+acute myocardial infarction	DOID:9408	0-27
+ANGINA UNSTABLE 0/430 (0.00%)	Adverse Events	22
+ARRHYTHMIA 1/430 (0.23%)	Adverse Events	23
+arrhythmia	HP:0011675	0-10
+ATRIAL FIBRILLATION 2/430 (0.47%)	Adverse Events	24
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+CARDIAC FAILURE 2/430 (0.47%)	Adverse Events	25

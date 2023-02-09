@@ -1,0 +1,108 @@
+INTERVENTION 1:	Intervention	0
+Imiquimod	Intervention	1
+imiquimod	CHEBI:36704	0-9
+Each treatment cycle consists of 8 weeks.	Intervention	2
+Weeks 1-8: day 1-5 of each week: 1 packet imiquimod 5% cream applied overnight, day 6-7 of each week: rest period.	Intervention	3
+day	UO:0000033	11-14
+day	UO:0000033	80-83
+week	UO:0000034	0-4
+week	UO:0000034	27-31
+week	UO:0000034	96-100
+imiquimod	CHEBI:36704	42-51
+Patients with responding or stable local disease (non-progressors) may continue to receive treatment following the same schedule (as outlined above for the first cycle) until complete tumor regression, unacceptable toxicity or progression of disease.	Intervention	4
+stable	HP:0031915	28-34
+disease	DOID:4,OGMS:0000031	41-48
+disease	DOID:4,OGMS:0000031	242-249
+Inclusion Criteria:	Eligibility	0
+Patients with biopsy-confirmed breast cancer (prior histological documentation is acceptable).	Eligibility	1
+breast cancer	DOID:1612	31-44
+Patients with measurable skin metastases (chest wall recurrence and/or non-chest wall skin metastases are eligible).	Eligibility	2
+chest	UBERON:0001443	42-47
+chest	UBERON:0001443	75-80
+Skin metastases not suitable for or patient refusing definitive surgical resection and radiation.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	36-43
+(Cohort 1) Concurrent systemic cancer therapy (hormones, biologics or chemotherapy) is allowed if distant metastases have been non-progressing (stable or responding) on that regimen for > or = 12 weeks and skin metastases are non-responsive (stable or progressing) as assessed by the investigator.	Eligibility	4
+cancer	DOID:162	31-37
+stable	HP:0031915	144-150
+stable	HP:0031915	242-248
+(Cohort 2) Any concurrent systemic therapy is allowed	Eligibility	5
+Age at least 18 years.	Eligibility	6
+age	PATO:0000011	0-3
+Eastern Cooperative Oncology Group (ECOG) performance status < or = 2.	Eligibility	7
+group	CHEBI:24433	29-34
+Patients must have biopsy-accessible tumor (skin metastases) and agree to biopsies required by protocol.	Eligibility	8
+Patients must have adequate organ and bone marrow function as defined below:	Eligibility	9
+organ	UBERON:0000062	28-33
+bone marrow	UBERON:0002371	38-49
+function	BAO:0003117,BFO:0000034	50-58
+absolute neutrophil count > or = 1,500/microliter	Eligibility	10
+hemoglobin > or = 9.5 grams/deciliter	Eligibility	11
+hemoglobin	CHEBI:35143	0-10
+platelets >or = 75,000/microliter	Eligibility	12
+total bilirubin < or = 1.5 X institutional upper limit of normal	Eligibility	13
+x	LABO:0000148	27-28
+Aspartate aminotransferase (AST)/Alanine aminotransferase (ALT) < or = 2.5X institutional upper limit of normal	Eligibility	14
+aspartate	CHEBI:29995	0-9
+creatinine < or = 1.5 X institutional upper limit of normal	Eligibility	15
+creatinine	CHEBI:16737	0-10
+x	LABO:0000148	22-23
+Informed consent.	Eligibility	16
+Exclusion Criteria:	Eligibility	17
+Brain metastases unless resected or irradiated and stable > or = 8 weeks.	Eligibility	18
+brain	UBERON:0000955	0-5
+stable	HP:0031915	51-57
+Treatment with other investigational agents.	Eligibility	19
+Patients who have received radiotherapy, high-potency corticosteroids, intralesional therapy, laser therapy or surgery other than biopsy to the target area within 4 weeks prior to first dosing of study agent.	Eligibility	20
+radiotherapy	OAE:0000235	27-39
+laser	BAO:0150033	94-99
+surgery	OAE:0000067	111-118
+target	BAO:0003064	144-150
+area	PATO:0001323	151-155
+Patients who have received hyperthermia to the target area within 10 weeks prior to first dosing of study agent.	Eligibility	21
+target	BAO:0003064	47-53
+area	PATO:0001323	54-58
+Patients with an uncontrolled bleeding disorder.	Eligibility	22
+disorder	OGMS:0000045	39-47
+Patients who will be therapeutically anticoagulated with heparins or coumadin at the time of the biopsy (they are eligible if anticoagulation can be held prior to biopsy as per investigator). Patients on aspirin and other platelet agents are eligible.	Eligibility	23
+heparins	CHEBI:24505	57-65
+time	PATO:0000165	85-89
+Patients with known immunodeficiency or receiving immunosuppressive therapies.	Eligibility	24
+immunodeficiency	HP:0002721	20-36
+History of allergic reactions to imiquimod or its excipients.	Eligibility	25
+history	BFO:0000182	0-7
+imiquimod	CHEBI:36704	33-42
+Uncontrolled intercurrent medical illness or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	26
+Pregnancy or lactation.	Eligibility	27
+lactation	GO:0007595	13-22
+Women of childbearing potential not using a medically acceptable means of contraception.	Eligibility	28
+Outcome Measurement:	Results	0
+Objective Response (Complete Clinical Response+ Partial Response)	Results	1
+This is defined as percentage of patients who achieved complete clinical response or partial response at end of cycle 1 of treatment. The tumor size will be measured as lesion surface area (region of interest, ROI). The response to the treatment is then evaluated as a function of post-treatment over pre-treatment ROI, expressed in percentage. Response criteria for this study are based on European Organisation for Research and Treatment of Cancer definitions for chest wall tumors: complete clinical response: absence of any detectable residual disease; partial response: <50% of ROI change.	Results	2
+size	PATO:0000117	144-148
+area	PATO:0001323	184-188
+function	BAO:0003117,BFO:0000034	269-277
+cancer	DOID:162	443-449
+chest	UBERON:0001443	466-471
+disease	DOID:4,OGMS:0000031	548-555
+Time frame: 9 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Imiquimod	Results	5
+imiquimod	CHEBI:36704	17-26
+Arm/Group Description: Each treatment cycle consists of 8 weeks.	Results	6
+Weeks 1-8: day 1-5 of each week: 1 packet imiquimod 5% cream applied overnight, day 6-7 of each week: rest period.	Results	7
+day	UO:0000033	11-14
+day	UO:0000033	80-83
+week	UO:0000034	0-4
+week	UO:0000034	27-31
+week	UO:0000034	96-100
+imiquimod	CHEBI:36704	42-51
+Patients with responding or stable local disease (non-progressors) may continue to receive treatment following the same schedule (as outlined above for the first cycle) until complete tumor regression, unacceptable toxicity or progression of disease.	Results	8
+stable	HP:0031915	28-34
+disease	DOID:4,OGMS:0000031	41-48
+disease	DOID:4,OGMS:0000031	242-249
+Overall Number of Participants Analyzed: 10	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: percentage of patients  20        (3 to 56)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 0/10 (0.00%)	Adverse Events	1

@@ -1,0 +1,132 @@
+INTERVENTION 1:	Intervention	0
+Intent-To-Treat	Intervention	1
+Participants received a single dose of 50 μg Lymphoseek radiolabeled with 0.5 or 1.0 mCi Tc 99m and blue dye for lymphatic mapping and surgical resection of lymph nodes.	Intervention	2
+radiolabeled	BAO:0000036	56-68
+dye	CHEBI:37958	105-108
+lymph	UBERON:0002391	45-50
+lymph	UBERON:0002391	113-118
+lymph	UBERON:0002391	157-162
+Inclusion Criteria:	Eligibility	0
+The patient has provided written informed consent with HIPAA authorization before participating in the study, as has his/her responsible caregiver, if applicable.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	4-11
+The patient is a candidate for surgical intervention, with lymph node mapping being a part of the surgical plan.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	4-11
+lymph	UBERON:0002391	59-64
+part of	BAO:0090002,BFO:0000050	86-93
+The patient is at least 18 years of age at the time of consent.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	4-11
+age	PATO:0000011	36-39
+time	PATO:0000165	47-51
+The patient has an ECOG performance status of Grade 0 - 2 [8].	Eligibility	4
+patient	HADO:0000008,OAE:0001817	4-11
+The patient has a clinical negative node status at the time of study entry.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	4-11
+time	PATO:0000165	55-59
+If of child bearing potential, the patient has a negative pregnancy test within 72 hours prior to administration of Lymphoseek, has been surgically sterilized, or has been postmenopausal for at least 1 year.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	35-42
+year	UO:0000036	202-206
+The patient is currently not participating in another investigational drug study.	Eligibility	7
+patient	HADO:0000008,OAE:0001817	4-11
+drug	CHEBI:23888	70-74
+Melanoma Patients	Eligibility	8
+melanoma	HP:0002861,DOID:1909	0-8
+The patient has a diagnosis of primary melanoma.	Eligibility	9
+patient	HADO:0000008,OAE:0001817	4-11
+melanoma	HP:0002861,DOID:1909	39-47
+Breast Cancer Patients	Eligibility	10
+breast cancer	DOID:1612	0-13
+The patient has a diagnosis of primary breast cancer.	Eligibility	11
+patient	HADO:0000008,OAE:0001817	4-11
+breast cancer	DOID:1612	39-52
+Patients with pure ductal carcinoma in situ (DCIS) or non-invasive carcinoma if lymph node biopsy is part of the surgical plan.	Eligibility	12
+ductal carcinoma in situ	HP:0030075,DOID:0060074	19-43
+carcinoma	HP:0030731,DOID:305	26-35
+carcinoma	HP:0030731,DOID:305	67-76
+lymph	UBERON:0002391	80-85
+part of	BAO:0090002,BFO:0000050	101-108
+Exclusion Criteria:	Eligibility	13
+The patient is pregnant or lactating;	Eligibility	14
+patient	HADO:0000008,OAE:0001817	4-11
+The patient has clinical or radiological evidence of metastatic cancer including palpably abnormal or enlarged lymph nodes (i.e., all patients should be any T,N0,M0);	Eligibility	15
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	134-141
+cancer	DOID:162	64-70
+lymph	UBERON:0002391	111-116
+t	CHEBI:36371,BAO:0001260	0-1
+t	CHEBI:36371,BAO:0001260	6-7
+t	CHEBI:36371,BAO:0001260	10-11
+t	CHEBI:36371,BAO:0001260	55-56
+t	CHEBI:36371,BAO:0001260	58-59
+t	CHEBI:36371,BAO:0001260	60-61
+t	CHEBI:36371,BAO:0001260	136-137
+t	CHEBI:36371,BAO:0001260	140-141
+t	CHEBI:36371,BAO:0001260	157-158
+The patient has a known hypersensitivity to Lymphazurin or Patent Bleu V.	Eligibility	16
+patient	HADO:0000008,OAE:0001817	4-11
+hypersensitivity	GO:0002524,DOID:1205	24-40
+Melanoma Patients	Eligibility	17
+melanoma	HP:0002861,DOID:1909	0-8
+The patient has a tumor with a Breslow depth less than 0.75mm.;	Eligibility	18
+patient	HADO:0000008,OAE:0001817	4-11
+Patients that have had preoperative chemotherapy, immunotherapy or radiation therapy;	Eligibility	19
+Patients diagnosed with a prior invasive melanoma that would occur on the same body region or potentially draining to the same nodal basin or patients with truncal or extremity primary melanoma who has had a prior breast cancer potentially draining to the same axillary nodal basin;	Eligibility	20
+melanoma	HP:0002861,DOID:1909	41-49
+melanoma	HP:0002861,DOID:1909	185-193
+breast cancer	DOID:1612	214-227
+Patients who have undergone node basin surgery of any type or radiation to the nodal basin(s) potentially draining the primary melanoma;	Eligibility	21
+surgery	OAE:0000067	39-46
+melanoma	HP:0002861,DOID:1909	127-135
+Patients who have undergone a wide excision for their primary melanoma (>1 cm in dimension) or complex reconstruction (rotation, free flap or skin graft of any type).	Eligibility	22
+melanoma	HP:0002861,DOID:1909	62-70
+Breast Cancer Patients	Eligibility	23
+breast cancer	DOID:1612	0-13
+The patient has bilateral primary breast cancers or multiple tumors within their breast;	Eligibility	24
+patient	HADO:0000008,OAE:0001817	4-11
+bilateral	HP:0012832	16-25
+breast	UBERON:0000310	34-40
+breast	UBERON:0000310	81-87
+Patients that have had prior surgical procedures such as breast implants, reduction mammoplasty or axillary surgery;	Eligibility	25
+breast	UBERON:0000310	57-63
+mammoplasty	OAE:0001160	84-95
+surgery	OAE:0000067	108-115
+Patients scheduled for bilateral mastectomy for any reason;	Eligibility	26
+bilateral	HP:0012832	23-32
+Patients that have had preoperative radiation therapy to the affected breast or axilla	Eligibility	27
+affected	HP:0032320	61-69
+breast	UBERON:0000310	70-76
+Outcome Measurement:	Results	0
+Concordance of Blue Dye and Lymphoseek	Results	1
+dye	CHEBI:37958	20-23
+The proportion of lymph nodes detected intraoperatively by blue dye that were also detected by Lymphoseek.	Results	2
+lymph	UBERON:0002391	18-23
+lymph	UBERON:0002391	95-100
+dye	CHEBI:37958	64-67
+Time frame: Surgery after injections of Lymphoseek and blue dye	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	12-19
+dye	CHEBI:37958	60-63
+Results 1:	Results	4
+Arm/Group Title: Intent-To-Treat	Results	5
+Arm/Group Description: Participants received a single dose of 50 μg Lymphoseek radiolabeled with 0.5 or 1.0 mCi Tc 99m and blue dye for lymphatic mapping and surgical resection of lymph nodes.	Results	6
+radiolabeled	BAO:0000036	79-91
+dye	CHEBI:37958	128-131
+lymph	UBERON:0002391	68-73
+lymph	UBERON:0002391	136-141
+lymph	UBERON:0002391	180-185
+Overall Number of Participants Analyzed: 136	Results	7
+Overall Number of Units Analyzed	Results	8
+Type of Units Analyzed: Lymph Nodes  Measure Type: NumberNumber (95% Confidence Interval)Unit of Measure: Proportion of Lymph Nodes: 0.9767        (0.9466 to 0.9924)	Results	9
+lymph	UBERON:0002391	24-29
+lymph	UBERON:0002391	120-125
+Adverse Events 1:	Adverse Events	0
+Total: 4/179 (2.23%)	Adverse Events	1
+Myocardial Infarction  [1]1/179 (0.56%)	Adverse Events	2
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Nausea  [1]1/179 (0.56%)	Adverse Events	3
+nausea	HP:0002018	0-6
+Vomiting  [1]1/179 (0.56%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Cellulitis  [1]1/179 (0.56%)	Adverse Events	5
+cellulitis	HP:0100658,DOID:3488	0-10
+Modified Radical Mastectomy  [1]1/179 (0.56%)	Adverse Events	6
+radical	CHEBI:26519	9-16

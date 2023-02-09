@@ -1,0 +1,60 @@
+INTERVENTION 1:	Intervention	0
+Moderated Group	Intervention	1
+group	CHEBI:24433	10-15
+one 12-week online support group led by a professional healthcare provider	Intervention	2
+group	CHEBI:24433	27-32
+INTERVENTION 2:	Intervention	3
+Non-facilitated (Peer-led)	Intervention	4
+12-week online support in a peer-led format	Intervention	5
+Inclusion Criteria: Clinical diagnosis of breast cancer	Eligibility	0
+breast cancer	DOID:1612	42-55
+Female	Eligibility	1
+female	PATO:0000383	0-6
+At least 21 years of age	Eligibility	2
+age	PATO:0000011	21-24
+Internet access; Able to read and write English	Eligibility	3
+Have completed treatment for breast cancer in the past 36 months or are receiving treatment	Eligibility	4
+breast cancer	DOID:1612	29-42
+Do not currently belong to an online or face-to-face cancer support group	Eligibility	5
+cancer	DOID:162	53-59
+group	CHEBI:24433	68-73
+Internet access	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Male	Eligibility	8
+male	CHEBI:30780,PATO:0000384	0-4
+not diagnosed with breast cancer	Eligibility	9
+breast cancer	DOID:1612	19-32
+under 21 years of age	Eligibility	10
+age	PATO:0000011	18-21
+received treatment more than 36 months ago for breast cancer	Eligibility	11
+breast cancer	DOID:1612	47-60
+no Internet access	Eligibility	12
+unable to read and write English	Eligibility	13
+Outcome Measurement:	Results	0
+Scores on the Personal Resource Questionnaire 85.	Results	1
+The Personal Resource Questionnaire 85 (PRQ85), Part II measures perceived social support and consists of 25 items in a seven-point Likert format which are rated from seven (7) strongly agree, to one (1) strongly disagree. Scores range from 25 to 175 with higher scores indicative of higher levels of perceived social support. Alpha reliability of the PRQ 85 has been demonstrated at >.90	Results	2
+range	LABO:0000114	230-235
+Time frame: 16 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Moderated Group	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	27-32
+Arm/Group Description: one 12-week online support group led by a professional healthcare provider	Results	6
+group	CHEBI:24433	4-9
+group	CHEBI:24433	50-55
+Overall Number of Participants Analyzed: 25	Results	7
+Mean (Standard Error)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: Scores on a scale  50.22         (3.23)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Non-facilitated (Peer-led)	Results	11
+Arm/Group Description: 12-week online support in a peer-led format	Results	12
+Overall Number of Participants Analyzed: 26	Results	13
+Mean (Standard Error)	Results	14
+mean	BAO:0002173	0-4
+Unit of Measure: Scores on a scale  53.44         (3.08)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/25 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/26 (0.00%)	Adverse Events	3

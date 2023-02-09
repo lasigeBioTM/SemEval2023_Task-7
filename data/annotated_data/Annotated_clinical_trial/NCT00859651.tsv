@@ -1,0 +1,117 @@
+INTERVENTION 1:	Intervention	0
+Cholecalciferol 20,000 IU Group	Intervention	1
+group	CHEBI:24433	26-31
+Postmenopausal women who are at increased risk for breast cancer development receiving vitamin D3, oral cholecalciferol 20,000 IU weekly, for one year.	Intervention	2
+breast cancer	DOID:1612	51-64
+vitamin	CHEBI:33229	87-94
+year	UO:0000036	146-150
+INTERVENTION 2:	Intervention	3
+Cholecalciferol 30,000 IU Group	Intervention	4
+group	CHEBI:24433	26-31
+Postmenopausal women who are at increased risk for breast cancer development receiving vitamin D3, oral cholecalciferol 30,000 IU weekly, for one year.	Intervention	5
+breast cancer	DOID:1612	51-64
+vitamin	CHEBI:33229	87-94
+year	UO:0000036	146-150
+Inclusion Criteria:	Eligibility	0
+Elevated risk of breast cancer defined as having at least one of the following: (1) Predicted 5-year modified Gail model risk of 1.67% or greater, (2) Lobular carcinoma in situ, (3) Known BRCA1 or BRCA2 deleterious mutation carrier, (4) Prior history of ductal carcinoma in situ, if no current tamoxifen use or prior radiation to the contralateral breast.	Eligibility	1
+breast cancer	DOID:1612	17-30
+lobular carcinoma in situ	HP:0030076,DOID:3010	151-176
+carrier	CHEBI:78059,GO:0005215,BAO:0002093	224-231
+history	BFO:0000182	243-250
+ductal carcinoma in situ	HP:0030075,DOID:0060074	254-278
+tamoxifen	CHEBI:41774	294-303
+breast	UBERON:0000310	17-23
+breast	UBERON:0000310	348-354
+Age 21 years or older.	Eligibility	2
+age	PATO:0000011	0-3
+Postmenopausal defined as > 6 months since the last menstrual period, prior bilateral oophorectomy, or serum follicle-stimulating hormone (FSH)/luteinizing hormone (LH) values consistent with institutional normal values for the postmenopausal state.	Eligibility	3
+bilateral	HP:0012832	76-85
+hormone	CHEBI:24621	130-137
+hormone	CHEBI:24621	156-163
+Baseline mammographic density 25% as assessed qualitatively by the mammographer (25-50% = "scattered fibroglandular densities"; >50-75% = "heterogeneously dense breasts"; >75% = "extremely dense breasts").	Eligibility	4
+Baseline serum 25-hydroxyvitamin D <32 ng/ml.	Eligibility	5
+Normal breast exam and mammogram (Breast Imaging Reporting and Data System (BIRADS) score of 1 or 2) or abnormal breast imaging with a benign breast biopsy without evidence of cancer. Normal baseline breast magnetic resonance imaging (MRI) (BIRADS score of 1, 2, or 3).	Eligibility	6
+breast	UBERON:0000310	7-13
+breast	UBERON:0000310	34-40
+breast	UBERON:0000310	113-119
+breast	UBERON:0000310	142-148
+breast	UBERON:0000310	200-206
+cancer	DOID:162	176-182
+Prior tamoxifen or raloxifene use is allowed provided treatment is discontinued at least 28 days prior to enrollment.	Eligibility	7
+tamoxifen	CHEBI:41774	6-15
+raloxifene	CHEBI:8772	19-29
+At least one breast available for imaging. No bilateral breast implants.	Eligibility	8
+breast	UBERON:0000310	13-19
+breast	UBERON:0000310	56-62
+bilateral	HP:0012832	46-55
+Willingness to not take vitamin D supplements during the one year intervention, but up to 1000mg of calcium supplementation is allowed.	Eligibility	9
+vitamin d	CHEBI:27300	24-33
+year	UO:0000036	61-65
+calcium	CHEBI:22984,BAO:0000874	100-107
+Normal serum calcium.	Eligibility	10
+calcium	CHEBI:22984,BAO:0000874	13-20
+Adequate renal and hepatic function: serum creatinine, bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT) and alkaline phosphatase < 2.0 x the institutional upper limit of normal (IULN).	Eligibility	11
+function	BAO:0003117,BFO:0000034	27-35
+creatinine	CHEBI:16737	43-53
+aspartate	CHEBI:29995	66-75
+alanine	CHEBI:16449	100-107
+phosphatase	GO:0016791,BAO:0000295	144-155
+x	LABO:0000148	162-163
+Performance status of 0 or 1.	Eligibility	12
+Exclusion Criteria:	Eligibility	13
+Other prior malignancy. The following is allowed: adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, adequately treated stage I or II cancer from which the participant is currently in complete remission, or any other cancer (including breast cancer) for which the participant has been disease-free for 5 years.	Eligibility	14
+skin cancer	DOID:4159	97-108
+cervical cancer	DOID:4362	118-133
+cancer	DOID:162	102-108
+cancer	DOID:162	127-133
+cancer	DOID:162	168-174
+cancer	DOID:162	251-257
+cancer	DOID:162	276-282
+breast cancer	DOID:1612	269-282
+History of kidney stones.	Eligibility	15
+history	BFO:0000182	0-7
+kidney	UBERON:0002113	11-17
+Hypersensitivity reactions to vitamin D.	Eligibility	16
+hypersensitivity	GO:0002524,DOID:1205	0-16
+vitamin d	CHEBI:27300	30-39
+On estrogen replacement therapy.	Eligibility	17
+estrogen	CHEBI:50114,BAO:0000760	3-11
+Significant medical or psychiatric condition that would preclude study completion.	Eligibility	18
+condition	PDRO:0000129	35-44
+Outcome Measurement:	Results	0
+Change in Serum 25(OH)D	Results	1
+25(OH)D level at the end of one year intervention	Results	2
+year	UO:0000036	32-36
+Time frame: Baseline to 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	26-30
+Results 1:	Results	4
+Arm/Group Title: Cholecalciferol 20,000 IU Group	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	43-48
+Arm/Group Description: Postmenopausal women who are at increased risk for breast cancer development receiving vitamin D3, oral cholecalciferol 20,000 IU weekly, for one year.	Results	6
+breast cancer	DOID:1612	74-87
+vitamin	CHEBI:33229	110-117
+year	UO:0000036	169-173
+Overall Number of Participants Analyzed: 18	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ng/ml  25         (5)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cholecalciferol 30,000 IU Group	Results	11
+group	CHEBI:24433	4-9
+group	CHEBI:24433	43-48
+Arm/Group Description: Postmenopausal women who are at increased risk for breast cancer development receiving vitamin D3, oral cholecalciferol 30,000 IU weekly, for one year.	Results	12
+breast cancer	DOID:1612	74-87
+vitamin	CHEBI:33229	110-117
+year	UO:0000036	169-173
+Overall Number of Participants Analyzed: 22	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ng/ml  33         (9)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/18 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/22 (0.00%)	Adverse Events	3

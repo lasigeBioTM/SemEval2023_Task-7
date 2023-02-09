@@ -1,0 +1,101 @@
+INTERVENTION 1:	Intervention	0
+Pertuzumab + Trastuzumab	Intervention	1
+Participants with CNS metastases secondary to HER2-positive MBC, who had disease progression in the brain following previous treatment with radiotherapy (whole-brain radiation therapy or stereotactic radiosurgery) for brain metastases, received treatment with pertuzumab in combination with high-dose trastuzumab until disease progression, unacceptable toxicity, withdrawal of consent, or study termination by the Sponsor, whichever occurred first.	Intervention	2
+disease	DOID:4,OGMS:0000031	73-80
+disease	DOID:4,OGMS:0000031	319-326
+brain	UBERON:0000955	100-105
+brain	UBERON:0000955	160-165
+brain	UBERON:0000955	218-223
+radiotherapy	OAE:0000235	140-152
+Inclusion Criteria:	Eligibility	0
+Pathologically confirmed HER2-positive MBC	Eligibility	1
+Progression of or new brain metastases after completion of whole-brain radiotherapy or stereotactic radiosurgery	Eligibility	2
+brain	UBERON:0000955	22-27
+brain	UBERON:0000955	65-70
+radiotherapy	OAE:0000235	71-83
+Completion of whole-brain radiotherapy or stereotactic radiosurgery more than 60 days prior to enrollment	Eligibility	3
+radiotherapy	OAE:0000235	26-38
+Stable systemic disease	Eligibility	4
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	16-23
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	5
+group	CHEBI:24433	29-34
+LVEF at least 50%	Eligibility	6
+Adequate hematologic, renal, and hepatic function	Eligibility	7
+function	BAO:0003117,BFO:0000034	41-49
+Life expectancy more than 12 weeks	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Progression of systemic disease at Screening	Eligibility	10
+disease	DOID:4,OGMS:0000031	24-31
+Leptomeningeal disease	Eligibility	11
+disease	DOID:4,OGMS:0000031	15-22
+History of intolerance or hypersensitivity to study drug	Eligibility	12
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	26-42
+drug	CHEBI:23888	52-56
+Use of certain investigational therapies within 21 days prior to enrollment	Eligibility	13
+Current anthracycline use	Eligibility	14
+anthracycline	CHEBI:48120	8-21
+Unwillingness to discontinue ado-trastuzumab emtansine or lapatinib use	Eligibility	15
+lapatinib	CHEBI:49603	58-67
+Active infection	Eligibility	16
+active	PATO:0002354	0-6
+Pregnant or lactating women	Eligibility	17
+Significant history or risk of cardiac disease	Eligibility	18
+history	BFO:0000182	12-19
+disease	DOID:4,OGMS:0000031	39-46
+Symptomatic intrinsic lung disease or lung involvement	Eligibility	19
+lung disease	DOID:850	22-34
+lung	UBERON:0002048	22-26
+lung	UBERON:0002048	38-42
+History of other malignancy within the last 5 years	Eligibility	20
+history	BFO:0000182	0-7
+Outcome Measurement:	Results	0
+Percentage of Participants With Objective Response in the CNS, Assessed Using Response Assessment in Neuro-Oncology-Brain Metastases (RANO-BM) Criteria	Results	1
+Responses were assessed by the investigator, based on magnetic resonance imaging (MRI) of the brain, physical examinations, routine neurological examinations, and corticosteroid dosing. An objective response in the central nervous system (CNS) was a complete response (CR) or partial response (PR) confirmed by repeat assessment, according to RANO-BM criteria. A CR was defined as the disappearance of all CNS target lesions sustained for at least 4 weeks; no new lesions; no corticosteroids; and stable or improved clinically; for non-target lesions, a CR was the disappearance of all enhancing CNS non-target lesions and no new CNS lesions. A PR was defined as at least a 30% decrease in the sum longest diameter (LD) of CNS target lesions, taking as reference the baseline sum LD sustained for at least 4 weeks; no new lesions; stable to decreased corticosteroid dose; and stable or improved clinically. The 95% Clopper-Pearson exact confidence intervals were calculated for responses.	Results	2
+brain	UBERON:0000955	94-99
+corticosteroid	CHEBI:50858	163-177
+corticosteroid	CHEBI:50858	476-490
+corticosteroid	CHEBI:50858	851-865
+central nervous system	UBERON:0001017	215-237
+target	BAO:0003064	410-416
+target	BAO:0003064	536-542
+target	BAO:0003064	604-610
+target	BAO:0003064	727-733
+stable	HP:0031915	497-503
+stable	HP:0031915	831-837
+stable	HP:0031915	876-882
+diameter	PATO:0001334	706-714
+Time frame: From Baseline until disease progression (assessed every 6 weeks for first 2 scans, followed by every 8 weeks for 2 scans, then every 12 weeks until disease progression; up to approximately 3.5 years)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	32-39
+disease	DOID:4,OGMS:0000031	160-167
+Results 1:	Results	4
+Arm/Group Title: Pertuzumab + Trastuzumab	Results	5
+Arm/Group Description: Participants with CNS metastases secondary to HER2-positive MBC, who had disease progression in the brain following previous treatment with radiotherapy (whole-brain radiation therapy or stereotactic radiosurgery) for brain metastases, received treatment with pertuzumab in combination with high-dose trastuzumab until disease progression, unacceptable toxicity, withdrawal of consent, or study termination by the Sponsor, whichever occurred first.	Results	6
+disease	DOID:4,OGMS:0000031	96-103
+disease	DOID:4,OGMS:0000031	342-349
+brain	UBERON:0000955	123-128
+brain	UBERON:0000955	183-188
+brain	UBERON:0000955	241-246
+radiotherapy	OAE:0000235	163-175
+Overall Number of Participants Analyzed: 37	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  With Objective Response (Confirmed CR or PR): 10.8        (3.03 to 25.42)	Results	9
+Confirmed Complete Response (CR): 0.0        (0.00 to 9.49)	Results	10
+Confirmed Partial Response (PR): 10.8        (3.03 to 25.42)	Results	11
+Without Objective Response: 89.2  [1]    (NA to NA)	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 7/39 (17.95%)	Adverse Events	1
+Gastroenteritis viral 1/39 (2.56%)	Adverse Events	2
+gastroenteritis	DOID:2326	0-15
+Parainfluenzae virus infection 1/39 (2.56%)	Adverse Events	3
+virus	BAO:0000232	15-20
+Seizure 4/39 (10.26%)	Adverse Events	4
+seizure	HP:0001250	0-7
+Headache 1/39 (2.56%)	Adverse Events	5
+headache	HP:0002315	0-8
+Hydrocephalus 1/39 (2.56%)	Adverse Events	6
+hydrocephalus	HP:0000238,DOID:10908	0-13
+Hypertension 1/39 (2.56%)	Adverse Events	7
+hypertension	HP:0000822,DOID:10763	0-12

@@ -1,0 +1,259 @@
+INTERVENTION 1:	Intervention	0
+Arm 1 (6 mg Estradiol)	Intervention	1
+estradiol	CHEBI:23965	12-21
+6 mg of estradiol daily (2 mg tid).	Intervention	2
+estradiol	CHEBI:23965	8-17
+INTERVENTION 2:	Intervention	3
+Arm 2 (30 mg Estradiol)	Intervention	4
+estradiol	CHEBI:23965	13-22
+30 mg of estradiol. (10 mg tid)	Intervention	5
+estradiol	CHEBI:23965	9-18
+Inclusion Criteria:	Eligibility	0
+Postmenopausal women with advanced hormone receptor positive (ER and or PgR) breast cancer, has received prior treatment with an aromatase inhibitor in the advanced disease setting, and experienced at least 24 weeks of progression free survival. As long as the patient experienced an aromatase inhibitor response as defined this way, she is still eligible even if she has received further lines of endocrine therapy, which may include other aromatase inhibitors or tamoxifen, even if these subsequent lines of treatment were unsuccessful (see below for permitted chemotherapy and trastuzumab therapy).	Eligibility	1
+hormone	CHEBI:24621	35-42
+receptor	BAO:0000281	43-51
+breast cancer	DOID:1612	77-90
+inhibitor	CHEBI:35222	139-148
+inhibitor	CHEBI:35222	294-303
+inhibitor	CHEBI:35222	451-460
+disease	DOID:4,OGMS:0000031	165-172
+patient	HADO:0000008,OAE:0001817	261-268
+tamoxifen	CHEBI:41774	465-474
+OR	Eligibility	2
+Postmenopausal women with systemic or unresectable local relapse after taking at least two years of adjuvant aromatase inhibitor therapy.	Eligibility	3
+adjuvant	CHEBI:60809	100-108
+inhibitor	CHEBI:35222	119-128
+Clinical diagnosis of postmenopausal status is defined as either:	Eligibility	4
+Age greater than 50 years and amenorrhea for 1 year	Eligibility	5
+age	PATO:0000011	0-3
+amenorrhea	HP:0000141,DOID:13938	30-40
+year	UO:0000036	20-24
+year	UO:0000036	47-51
+Bilateral Surgical ovariectomy	Eligibility	6
+bilateral	HP:0012832	0-9
+Serum FSH and estradiol level in the postmenopausal range before the initiation of AI therapy.	Eligibility	7
+estradiol	CHEBI:23965	14-23
+range	LABO:0000114	52-57
+If the patient was receiving an LHRH agonist to maintain a postmenopausal state during AI therapy this should be continued since recovery of menses would lead to uncontrolled estrogen exposure and pregnancy during estrogen therapy is contraindicated.	Eligibility	8
+patient	HADO:0000008,OAE:0001817	7-14
+agonist	CHEBI:48705	37-44
+estrogen	CHEBI:50114,BAO:0000760	175-183
+estrogen	CHEBI:50114,BAO:0000760	214-222
+Tumor cell expression of ER and/or PgR can be ascertained on either the primary or the metastatic site. However when both types of tissue are available, the metastatic site should be used to determine eligibility. ER and/or PgR positive are defined as at least 10% of malignant cells with positive nuclear staining.	Eligibility	9
+site	BFO:0000029	98-102
+site	BFO:0000029	168-172
+tissue	UBERON:0000479	131-137
+The patients may have received adjuvant and/or neoadjuvant chemotherapy.	Eligibility	10
+adjuvant	CHEBI:60809	31-39
+adjuvant	CHEBI:60809	50-58
+Prior radiotherapy is permitted as long as it was planned before the start of the study medication and is completed within 3 weeks of trial medication starting.	Eligibility	11
+radiotherapy	OAE:0000235	6-18
+Prior tamoxifen therapy is also permitted as adjuvant or advanced disease therapy.	Eligibility	12
+tamoxifen	CHEBI:41774	6-15
+adjuvant	CHEBI:60809	45-53
+disease	DOID:4,OGMS:0000031	66-73
+Patients with ER+ HER2+ disease are eligible even of they have received trastuzumab in the past (and even if it was administered in combination with endocrine treatment) as long as they meet all other eligibility criteria. Trastuzumab therapy must be held during estradiol treatment.	Eligibility	13
+disease	DOID:4,OGMS:0000031	24-31
+estradiol	CHEBI:23965	263-272
+Use of prior experimental agents alone or in combination with endocrine therapy is also permissible, but a wash out of one month is required if the immediate prior therapy involved a study medication that had not been subject to regulatory approval.	Eligibility	14
+month	UO:0000035	123-128
+Prior adjuvant chemotherapy is permitted as well as one line of chemotherapy for advanced disease.	Eligibility	15
+adjuvant	CHEBI:60809	6-14
+disease	DOID:4,OGMS:0000031	90-97
+Patient must have at least one measurable lesion defined by RECIST criteria. To be considered measurable, a baseline lesion must have a minimum diameter to compensate for measurement error: 1 cm for soft tissue lesions, 1 cm for lung lesions including pleural lesions measured by CT scan, 1 cm for liver lesions measured by CT scan.	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+diameter	PATO:0001334	144-152
+tissue	UBERON:0000479	204-210
+lung	UBERON:0002048	229-233
+ct	BAO:0002125	280-282
+ct	BAO:0002125	324-326
+liver	UBERON:0002107	298-303
+Patients with bone only disease can also be enrolled if they meet the following criteria:	Eligibility	17
+disease	DOID:4,OGMS:0000031	24-31
+Four or more lesions more than one cm, measurable on CT scan bone windows.	Eligibility	18
+ct	BAO:0002125	53-55
+At least one tumor marker that is elevated to at least two times the upper limit of normal.	Eligibility	19
+All patients should have a baseline bone scan with X-ray evaluation of all hot spots, CT chest abdomen and pelvis (with bone windows), and tumor marker assessment. Also CT scan of the extremities should be done on suspicious areas seen on X-ray evaluation of all hot spots if these extremity lesions are to be followed for response.	Eligibility	20
+ct	BAO:0002125	86-88
+ct	BAO:0002125	169-171
+chest	UBERON:0001443	89-94
+abdomen	UBERON:0000916	95-102
+The patient must have an ECOG performance status of 0-2	Eligibility	21
+patient	HADO:0000008,OAE:0001817	4-11
+The patient should have a life expectancy of > 6 months.	Eligibility	22
+patient	HADO:0000008,OAE:0001817	4-11
+The patient must have adequate hematologic function, defined as ANC >1000/mm3 and platelets > 75,000/mm3.	Eligibility	23
+patient	HADO:0000008,OAE:0001817	4-11
+function	BAO:0003117,BFO:0000034	43-51
+The patient must have adequate renal function, defined as serum creatinine less than or equal to 1.5 times the upper limit of normal.	Eligibility	24
+patient	HADO:0000008,OAE:0001817	4-11
+function	BAO:0003117,BFO:0000034	37-45
+creatinine	CHEBI:16737	64-74
+The patient must have adequate liver function defined as serum bilirubin less than or equal to 1.5 times the upper limit of normal (three times the upper limit of normal for patients with hereditary benign hyperbilirubinaemia), transaminases (ALT, AST) less than or equal to 2.5 times the upper limit of normal in patients without liver metastasis or less than or equal to 5 times the upper limit of normal in patients with liver metastasis.	Eligibility	25
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	174-181
+patient	HADO:0000008,OAE:0001817	314-321
+patient	HADO:0000008,OAE:0001817	410-417
+liver	UBERON:0002107	31-36
+liver	UBERON:0002107	331-336
+liver	UBERON:0002107	424-429
+function	BAO:0003117,BFO:0000034	37-45
+For patients with bone metastasis, treatment with i.v. bisphosphonates during the trial is mandatory because of the risk of hypercalcemia. Bisphosphonate therapy must be started before the patient begins protocol therapy.	Eligibility	26
+hypercalcemia	HP:0003072,DOID:12678	124-137
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	189-196
+Preexisting hypercalcemia should be treated and calcium normalized prior to study entry.	Eligibility	27
+hypercalcemia	HP:0003072,DOID:12678	12-25
+calcium	CHEBI:22984,BAO:0000874	48-55
+The patient must give written informed consent prior to initiation of any invasive study-related procedures that would otherwise not be performed, and must be able to comply with scheduled visits and evaluations.	Eligibility	28
+patient	HADO:0000008,OAE:0001817	4-11
+Inclusion of Women and Minorities: Entry to this study is open to women of all racial and ethnic subgroups.	Eligibility	29
+Patients with fasting blood glucose level  200 mg/dL. If greater, hyperglycemia must be treated before initiation of study investigations.	Eligibility	30
+blood glucose level	CMO:0000046	22-41
+hyperglycemia	HP:0003074,DOID:4195	66-79
+Exclusion Criteria:	Eligibility	31
+Patients with CNS involvement with metastatic breast cancer or life threatening lymphangitic or large volume lung or liver disease that threatens organ function.	Eligibility	32
+breast cancer	DOID:1612	46-59
+volume	PATO:0000918	102-108
+lung	UBERON:0002048	109-113
+liver disease	DOID:409	117-130
+organ	UBERON:0000062	146-151
+function	BAO:0003117,BFO:0000034	152-160
+Patients with history of deep venous thrombosis, pulmonary embolism, stroke, acute myocardial infarction, congestive cardiac failure, untreated hypertension.	Eligibility	33
+history	BFO:0000182	14-21
+deep venous thrombosis	HP:0002625	25-47
+pulmonary embolism	HP:0002204,DOID:9477	49-67
+stroke	HP:0001297,DOID:6713	69-75
+acute myocardial infarction	DOID:9408	77-104
+hypertension	HP:0000822,DOID:10763	144-156
+Ischemic changes on a baseline EKG or other evidence of ischemic heart disease.	Eligibility	34
+heart disease	DOID:114	65-78
+Undiagnosed abnormal genital bleeding	Eligibility	35
+Untreated cholelithiasis	Eligibility	36
+cholelithiasis	HP:0001081,DOID:10211	10-24
+Fasting serum triglycerides greater than 400. Patients should be treated and triglycerides controlled prior to study entry.	Eligibility	37
+Treatment with fulvestrant within 12 months of study initiation (fulvestrant has been shown to antagonize estradiol induced apoptosis in preclinical models (5).	Eligibility	38
+fulvestrant	CHEBI:31638	15-26
+fulvestrant	CHEBI:31638	65-76
+estradiol	CHEBI:23965	106-115
+The patient's only qualifying lesion (s) have been previously irradiated or are scheduled for irradiation following study entry.	Eligibility	39
+patient	HADO:0000008,OAE:0001817	4-11
+Severe or uncontrolled concomitant disease from other causes.	Eligibility	40
+severe	HP:0012828	0-6
+disease	DOID:4,OGMS:0000031	35-42
+EGOG Performance status 3 or 4.	Eligibility	41
+The patient has previous malignancies other than breast cancer except a) adequately treated in situ carcinoma of the cervix, b) localized basal or squamous cell carcinoma of the skin c) any previous malignancy treated with curative intent with a recurrence risk of less than 30%.	Eligibility	42
+patient	HADO:0000008,OAE:0001817	4-11
+breast cancer	DOID:1612	49-62
+in situ carcinoma	DOID:8719	92-109
+localized	HP:0012838,PATO:0000627	128-137
+squamous cell carcinoma of the skin	HP:0006739	147-182
+The patient is unable to understand the informed consent or is unlikely to be compliant with the protocol.	Eligibility	43
+patient	HADO:0000008,OAE:0001817	4-11
+More than one line of palliative chemotherapy for advanced disease.	Eligibility	44
+disease	DOID:4,OGMS:0000031	59-66
+Outcome Measurement:	Results	0
+Clinical Benefit Rate (CR Plus PR Plus SD)	Results	1
+rate	BAO:0080019	17-21
+Complete response (CR) + partial response (PR) + stable disease (SD) using RECIST 1.0	Results	2
+stable	HP:0031915	49-55
+disease	DOID:4,OGMS:0000031	56-63
+CR = disappearance of all target lesions	Results	3
+target	BAO:0003064	26-32
+PR = at least a 30% decrease in the sum of the longest diameter of target lesions taking as reference the baseline sum longest diameter	Results	4
+diameter	PATO:0001334	55-63
+diameter	PATO:0001334	127-135
+target	BAO:0003064	67-73
+SD = neither sufficient shrinkage to quality for PR nor sufficient increase to qualify for progressive disease	Results	5
+quality	BAO:0002928,BFO:0000019	37-44
+increase	BAO:0001251	67-75
+progressive	HP:0003676	91-102
+disease	DOID:4,OGMS:0000031	103-110
+SD is defined as lack of disease progression by 24 weeks.	Results	6
+disease	DOID:4,OGMS:0000031	25-32
+Time frame: 24 weeks after start of treatment	Results	7
+time	PATO:0000165	0-4
+Results 1:	Results	8
+Arm/Group Title: Arm 1 (6 mg Estradiol)	Results	9
+estradiol	CHEBI:23965	29-38
+Arm/Group Description: 6 mg of estradiol daily (2 mg tid).	Results	10
+estradiol	CHEBI:23965	31-40
+Overall Number of Participants Analyzed: 34	Results	11
+Measure Type: Number	Results	12
+Unit of Measure: participants  Complete response (CR): 0	Results	13
+Partial response (PR): 3	Results	14
+Stable disease (SD): 7	Results	15
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+CR+PR+SD: 10	Results	16
+Results 2:	Results	17
+Arm/Group Title: Arm 2 (30 mg Estradiol)	Results	18
+estradiol	CHEBI:23965	30-39
+Arm/Group Description: 30 mg of estradiol. (10 mg tid)	Results	19
+estradiol	CHEBI:23965	32-41
+Overall Number of Participants Analyzed: 32	Results	20
+Measure Type: Number	Results	21
+Unit of Measure: participants  Complete response (CR): 0	Results	22
+Partial response (PR): 1	Results	23
+Stable disease (SD): 8	Results	24
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+CR+PR+SD: 9	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 8/34 (23.53%)	Adverse Events	1
+Hemoglobin 0/34 (0.00%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Eye pain 0/34 (0.00%)	Adverse Events	3
+eye	UBERON:0000970	0-3
+pain	HP:0012531	4-8
+Vison loss 0/34 (0.00%)	Adverse Events	4
+Abdominal pain 2/34 (5.88%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Constipation 0/34 (0.00%)	Adverse Events	6
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea 2/34 (5.88%)	Adverse Events	7
+diarrhea	HP:0002014,DOID:13250	0-8
+GI hemorrhage 1/34 (2.94%)	Adverse Events	8
+Nausea 2/34 (5.88%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Vomiting 2/34 (5.88%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Fatigue 0/34 (0.00%)	Adverse Events	11
+fatigue	HP:0012378	0-7
+Fever 2/34 (5.88%)	Adverse Events	12
+fever	HP:0001945	0-5
+Pain 0/34 (0.00%)	Adverse Events	13
+pain	HP:0012531	0-4
+Pneumonia 1/34 (2.94%)	Adverse Events	14
+pneumonia	HP:0002090,DOID:552	0-9
+Neutropenia 0/34 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Adverse Events 2:	Adverse Events	16
+Total: 8/32 (25.00%)	Adverse Events	17
+Hemoglobin 1/32 (3.13%)	Adverse Events	18
+hemoglobin	CHEBI:35143	0-10
+Eye pain 1/32 (3.13%)	Adverse Events	19
+eye	UBERON:0000970	0-3
+pain	HP:0012531	4-8
+Vison loss 1/32 (3.13%)	Adverse Events	20
+Abdominal pain 1/32 (3.13%)	Adverse Events	21
+abdominal pain	HP:0002027	0-14
+Constipation 2/32 (6.25%)	Adverse Events	22
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea 1/32 (3.13%)	Adverse Events	23
+diarrhea	HP:0002014,DOID:13250	0-8
+GI hemorrhage 0/32 (0.00%)	Adverse Events	24
+Nausea 3/32 (9.38%)	Adverse Events	25
+nausea	HP:0002018	0-6
+Vomiting 3/32 (9.38%)	Adverse Events	26
+vomiting	HP:0002013	0-8
+Fatigue 1/32 (3.13%)	Adverse Events	27
+fatigue	HP:0012378	0-7
+Fever 0/32 (0.00%)	Adverse Events	28
+fever	HP:0001945	0-5
+Pain 1/32 (3.13%)	Adverse Events	29
+pain	HP:0012531	0-4
+Pneumonia 0/32 (0.00%)	Adverse Events	30
+pneumonia	HP:0002090,DOID:552	0-9
+Neutropenia 1/32 (3.13%)	Adverse Events	31
+neutropenia	HP:0001875,DOID:1227	0-11

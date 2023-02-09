@@ -1,0 +1,57 @@
+INTERVENTION 1:	Intervention	0
+All Participants	Intervention	1
+Participants who underwent 18-FLT positron emission tomography (PET) and standard of care (SOC) neo-adjuvant chemotherapy	Intervention	2
+positron	CHEBI:30225	34-42
+tomography	BAO:0002525	52-62
+Inclusion Criteria:	Eligibility	0
+Has newly-diagnosed stage IIB/IIIA/IIIB locally advanced breast cancer	Eligibility	1
+breast cancer	DOID:1612	57-70
+Is eligible for pre-operative (neo-adjuvant) chemotherapy	Eligibility	2
+Exclusion Criteria:	Eligibility	3
+Has a contraindication to magnetic resonance imaging (MRI)	Eligibility	4
+contraindication	OAE:0000055	6-22
+Any condition that would limit ability to undergo MRI or PET scans	Eligibility	5
+condition	PDRO:0000129	4-13
+Is a nursing mother	Eligibility	6
+Has moderate to end-stage renal disease and is not on dialysis or has renal failure on chronic dialysis	Eligibility	7
+moderate	HP:0012826	4-12
+disease	DOID:4,OGMS:0000031	32-39
+dialysis	OAE:0002495	54-62
+dialysis	OAE:0002495	95-103
+chronic	HP:0011010	87-94
+Outcome Measurement:	Results	0
+Change From Baseline in 18F-FLT-PET Mean Standardized Uptake Value (SUVmean) After the First Cycle of Standard of Care (SOC) Neo-adjuvant Chemotherapy.	Results	1
+mean	BAO:0002173	36-40
+mean	BAO:0002173	71-75
+uptake	GO:0098739,BAO:0001256	54-60
+Participants undergo a baseline 18F-FLT-PET/CT scan followed by a magnetic resonance imaging (MRI) scan prior to chemotherapy. These scans are repeated in approximately 2 to 3 weeks, at the end of the first cycle of chemotherapy to derive a standardized uptake value (SUV) of 18F-FLT, which is calculated from the ratio of radioactivity concentration within a region of interest, and the injected dose at the time of injection, divided by body weight. The SUVmean averages the radioactivity values within a region of interest.	Results	2
+uptake	GO:0098739,BAO:0001256	254-260
+ratio	UO:0000190	314-319
+ratio	UO:0000190	344-349
+time	PATO:0000165	409-413
+body weight	CMO:0000012	439-450
+Time frame: Baseline and up to 3 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: All Participants	Results	5
+Arm/Group Description: Participants who underwent 18-FLT positron emission tomography (PET) and standard of care (SOC) neo-adjuvant chemotherapy	Results	6
+positron	CHEBI:30225	57-65
+tomography	BAO:0002525	75-85
+Overall Number of Participants Analyzed: 36	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: SUV  Baseline: 2.79         (1.36)	Results	9
+End of Cycle 1: 1.78         (1.03)	Results	10
+Change from Baseline: 1.00         (0.95)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 8/44 (18.18%)	Adverse Events	1
+Febrile neutropenia4/44 (9.09%)	Adverse Events	2
+Rectal bleeding1/44 (2.27%)	Adverse Events	3
+Chest pain2/44 (4.55%)	Adverse Events	4
+chest	UBERON:0001443	0-5
+Fever1/44 (2.27%)	Adverse Events	5
+Catheter site infection1/44 (2.27%)	Adverse Events	6
+site	BFO:0000029	9-13
+Neutrophil count decreased1/44 (2.27%)	Adverse Events	7
+Dizziness1/44 (2.27%)	Adverse Events	8

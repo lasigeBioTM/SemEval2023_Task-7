@@ -1,0 +1,181 @@
+INTERVENTION 1:	Intervention	0
+Phase I: Dose Level 1 - Vinorelbine at 20mg/m^2	Intervention	1
+vinorelbine	CHEBI:480999	24-35
+Vinorelbine at 20mg/m^2 weekly intravenous (I.V.) on days 1, 8, 15 and sorafenib 200 mg given orally (p.o.) twice daily for 28 days	Intervention	2
+vinorelbine	CHEBI:480999	0-11
+sorafenib	CHEBI:50924	71-80
+INTERVENTION 2:	Intervention	3
+Phase I: Dose Level 2 - Vinorelbine at 25mg/m^2	Intervention	4
+vinorelbine	CHEBI:480999	24-35
+Vinorelbine at 25mg/m^2 weekly intravenous (I.V.) on days 1, 8, 15 and sorafenib 200 mg given orally (p.o.) twice daily for 28 days	Intervention	5
+vinorelbine	CHEBI:480999	0-11
+sorafenib	CHEBI:50924	71-80
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed stage IV adenocarcinoma of the breast; (unless metastatic disease is documented by computed tomography [CT] scan, magnetic resonance imaging [MRI], or bone scan; also, skin disease that has not been biopsied maybe used if in the investigators clinical opinion this represents metastatic disease)	Eligibility	1
+adenocarcinoma	DOID:299	70-84
+breast	UBERON:0000310	92-98
+disease	DOID:4,OGMS:0000031	119-126
+disease	DOID:4,OGMS:0000031	234-241
+disease	DOID:4,OGMS:0000031	348-355
+tomography	BAO:0002525	153-163
+ct	BAO:0002125	165-167
+skin disease	DOID:37	229-241
+Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >20 mm with conventional techniques or as >10 mm with spiral CT scan	Eligibility	2
+disease	DOID:4,OGMS:0000031	30-37
+diameter	PATO:0001334	137-145
+ct	BAO:0002125	226-228
+Prior adjuvant therapy, and up to 2 lines of prior chemotherapy (including trastuzumab containing regimens in Her-2 positive patients) for metastatic disease are allowed; prior radiation therapy is allowed, prior hormonal therapy is allowed; the total number of patients enrolled with prior trastuzumab containing regimens will not exceed 10; no more than 50% of enrolled patients will receive the study regimen in a third line setting	Eligibility	3
+adjuvant	CHEBI:60809	6-14
+disease	DOID:4,OGMS:0000031	150-157
+Life expectancy of greater than 6 months	Eligibility	4
+Performance status: Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) 0-2	Eligibility	5
+group	CHEBI:24433	49-54
+Hemoglobin >= 9.0 g/dl	Eligibility	6
+hemoglobin	CHEBI:35143	0-10
+Absolute neutrophil count (ANC) >= 1,500/mm^3	Eligibility	7
+Platelet count >= 100,000/mm^3	Eligibility	8
+platelet count	CMO:0000029	0-14
+Total bilirubin =< 1.5 times ULN	Eligibility	9
+Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) =< 2.5 times the upper limit of normal (ULN) (=< 5 x ULN for patients with liver involvement)	Eligibility	10
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	35-44
+x	LABO:0000148	119-120
+liver	UBERON:0002107	143-148
+Creatinine =< 1.5 times ULN	Eligibility	11
+creatinine	CHEBI:16737	0-10
+International normalized ratio (INR) < 1.5 or a prothrombin time (PT)/partial thromboplastin time (PTT) within normal limits; patients receiving anti-coagulation treatment with an agent such as warfarin or heparin may be allowed to participate; for patients on warfarin, the INR should be measured prior to initiation of sorafenib and monitored at least weekly, or as defined by the local standard of care, until INR is stable	Eligibility	12
+ratio	UO:0000190	25-30
+prothrombin time	CMO:0000211	48-64
+time	PATO:0000165	60-64
+time	PATO:0000165	93-97
+warfarin	CHEBI:10033	194-202
+warfarin	CHEBI:10033	261-269
+heparin	CHEBI:28304	206-213
+sorafenib	CHEBI:50924	321-330
+stable	HP:0031915	420-426
+Women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation; women of childbearing potential must have a negative serum pregnancy test performed within 7 days to the start of treatment; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately	Eligibility	13
+duration	PATO:0001309	173-181
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	14
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	15
+Patients who have had chemotherapy or radiotherapy within 4 weeks (6 weeks for nitrosoureas or mitomycin C) prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks prior; patients who had bevacizumab within 4 weeks prior to entering the study are allowed	Eligibility	16
+radiotherapy	OAE:0000235	38-50
+mitomycin c	CHEBI:27504	95-106
+Patients may not be receiving any other investigational agents	Eligibility	17
+Patients with known brain metastases are excluded from this clinical trial; patients with neurological symptoms must undergo a CT scan/MRI of the brain to exclude brain metastasis	Eligibility	18
+brain	UBERON:0000955	20-25
+brain	UBERON:0000955	146-151
+brain	UBERON:0000955	163-168
+excluded	HP:0040285	41-49
+ct	BAO:0002125	127-129
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection (> Common Terminology Criteria for Adverse Events [CTCAE] grade 2), symptomatic congestive heart failure, unstable angina pectoris, myocardial infarction within the past 6 months, cardiac ventricular arrhythmias requiring anti-arrhythmic therapy, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	19
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	173-197
+angina pectoris	HP:0001681	208-223
+myocardial infarction	HP:0001658,DOID:5844	225-246
+Uncontrolled hypertension defined as systolic blood pressure > 150 mmHg or diastolic pressure > 90 mmHg, despite optimal medical management	Eligibility	20
+hypertension	HP:0000822,DOID:10763	13-25
+systolic blood pressure	CMO:0000004	37-60
+Thrombolic or embolic events such as a cerebrovascular accident including transient ischemic attacks within the past 6 months	Eligibility	21
+transient	HP:0025153	74-83
+Pulmonary hemorrhage/bleeding event >= CTCAE Grade 2 within 4 weeks of first dose of study drug	Eligibility	22
+drug	CHEBI:23888	91-95
+Any other hemorrhage/bleeding event >= CTCAE Grade 3 within 4 weeks of first dose of study drug	Eligibility	23
+drug	CHEBI:23888	91-95
+Serious non-healing wound, ulcer, or bone fracture	Eligibility	24
+ulcer	OAE:0004372	27-32
+bone fracture	HP:0020110	37-50
+Evidence or history of bleeding diathesis or coagulopathy	Eligibility	25
+history	BFO:0000182	12-19
+Major surgery, open biopsy or significant traumatic injury within 4 weeks of first study drug	Eligibility	26
+surgery	OAE:0000067	6-13
+drug	CHEBI:23888	89-93
+Use of St. John's Wort or rifampin (rifampicin)	Eligibility	27
+rifampicin	CHEBI:71365	36-46
+Known or suspected allergy to sorafenib or any agent given in the course of this trial	Eligibility	28
+allergy	HP:0012393	19-26
+sorafenib	CHEBI:50924	30-39
+Pregnant women	Eligibility	29
+Human immunodeficiency virus (HIV)-positive patients	Eligibility	30
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+Any condition that impairs patient's ability to swallow whole pills	Eligibility	31
+condition	PDRO:0000129	4-13
+patient	HADO:0000008,OAE:0001817	27-34
+Any malabsorption problem	Eligibility	32
+malabsorption	HP:0002024	4-17
+Patients who received prior sunitinib are excluded	Eligibility	33
+sunitinib	CHEBI:38940	28-37
+excluded	HP:0040285	42-50
+Outcome Measurement:	Results	0
+Number of Participants With at Least One Dose Limiting Toxicity in Phase I	Results	1
+Dose Limiting Toxicity (DLT) defined as any treatment-related grade 3 or greater non-hematologic toxicity (excluding alopecia, controllable nausea and vomiting, and serum triglycerides < 1,500 mg/dL which recover within 1 week), grade 4 or greater thrombocytopenia, grade 4 or greater febrile neutropenia requiring hospitalization, or treatment delay of > 2 weeks as a result of unresolved toxicity during the first cycle of therapy.	Results	2
+alopecia	HP:0001596,DOID:987	117-125
+nausea and vomiting	HP:0002017	140-159
+week	UO:0000034	222-226
+week	UO:0000034	358-362
+thrombocytopenia	HP:0001873,DOID:1588	248-264
+neutropenia	HP:0001875,DOID:1227	293-304
+result	BAO:0000179	369-375
+Time frame: 4 weeks from start of treatment, up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase I: Dose Level 1 - Vinorelbine at 20mg/m^2	Results	5
+vinorelbine	CHEBI:480999	41-52
+Arm/Group Description: Vinorelbine at 20mg/m^2 weekly intravenous (I.V.) on days 1, 8, 15 and sorafenib 200 mg given orally (p.o.) twice daily for 28 days	Results	6
+vinorelbine	CHEBI:480999	23-34
+sorafenib	CHEBI:50924	94-103
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants with DLTs  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Phase I: Dose Level 2 - Vinorelbine at 25mg/m^2	Results	11
+vinorelbine	CHEBI:480999	41-52
+Arm/Group Description: Vinorelbine at 25mg/m^2 weekly intravenous (I.V.) on days 1, 8, 15 and sorafenib 200 mg given orally (p.o.) twice daily for 28 days	Results	12
+vinorelbine	CHEBI:480999	23-34
+sorafenib	CHEBI:50924	94-103
+Overall Number of Participants Analyzed: 5	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants with DLTs  3	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 15/41 (36.59%)	Adverse Events	1
+Febrile neutropenia * 0/41 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Diarrhea * 1/41 (2.44%)	Adverse Events	3
+diarrhea	HP:0002014,DOID:13250	0-8
+Stomach pain * 1/41 (2.44%)	Adverse Events	4
+stomach	UBERON:0000945	0-7
+pain	HP:0012531	8-12
+Fever * 2/41 (4.88%)	Adverse Events	5
+fever	HP:0001945	0-5
+Cytokine release syndrome * 1/41 (2.44%)	Adverse Events	6
+cytokine	BAO:0002023	0-8
+syndrome	DOID:225	17-25
+Infection * 1/41 (2.44%)	Adverse Events	7
+Skin infection * 2/41 (4.88%)	Adverse Events	8
+Urinary tract infection * 1/41 (2.44%)	Adverse Events	9
+urinary tract infection	DOID:0080784	0-23
+Coagulopathy * 0/41 (0.00%)	Adverse Events	10
+INR increased * 0/41 (0.00%)	Adverse Events	11
+Lipase increased * 1/41 (2.44%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 2/5 (40.00%)	Adverse Events	14
+Febrile neutropenia * 1/5 (20.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Diarrhea * 0/5 (0.00%)	Adverse Events	16
+diarrhea	HP:0002014,DOID:13250	0-8
+Stomach pain * 0/5 (0.00%)	Adverse Events	17
+stomach	UBERON:0000945	0-7
+pain	HP:0012531	8-12
+Fever * 0/5 (0.00%)	Adverse Events	18
+fever	HP:0001945	0-5
+Cytokine release syndrome * 0/5 (0.00%)	Adverse Events	19
+cytokine	BAO:0002023	0-8
+syndrome	DOID:225	17-25
+Infection * 0/5 (0.00%)	Adverse Events	20
+Skin infection * 0/5 (0.00%)	Adverse Events	21
+Urinary tract infection * 0/5 (0.00%)	Adverse Events	22
+urinary tract infection	DOID:0080784	0-23
+Coagulopathy * 1/5 (20.00%)	Adverse Events	23
+INR increased * 1/5 (20.00%)	Adverse Events	24
+Lipase increased * 0/5 (0.00%)	Adverse Events	25

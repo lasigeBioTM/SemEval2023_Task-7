@@ -1,0 +1,103 @@
+INTERVENTION 1:	Intervention	0
+CT-P6	Intervention	1
+Patient received CT-P6 at an initial dose of 8 mg/kg administered by a single IV infusion on Day 1 of Cycle 1, followed by 6 mg/kg on Day 1 of Cycles 2 through 8 (3-week cycles). Patients also received docetaxel 75 mg/m^2 during cycles 1 through 4 and FEC (fluorouracil 500mg/m^2, epirubicin 75mg/m^2, and cyclophosphamide 500mg/m^2) during Cycles 5 through 8. After a total of 8 treatment cycles of the neoadjuvant treatment, surgery was performed within 3 to 6 weeks from the last dose of study.	Intervention	2
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	179-186
+day	UO:0000033	93-96
+day	UO:0000033	134-137
+cyclophosphamide	CHEBI:4026	306-322
+surgery	OAE:0000067	427-434
+INTERVENTION 2:	Intervention	3
+Herceptin	Intervention	4
+Patient received Herceptin at an initial dose of 8 mg/kg administered by a single IV infusion on Day 1 of Cycle 1, followed by 6 mg/kg on Day 1 of Cycles 2 through 8 (3-week cycles). Patients also received docetaxel 75 mg/m^2 during cycles 1 through 4 and FEC (fluorouracil 500mg/m^2, epirubicin 75mg/m^2, and cyclophosphamide 500mg/m^2) during Cycles 5 through 8. After a total of 8 treatment cycles of the neoadjuvant treatment, surgery was performed within 3 to 6 weeks from the last dose of study.	Intervention	5
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	183-190
+day	UO:0000033	97-100
+day	UO:0000033	138-141
+cyclophosphamide	CHEBI:4026	310-326
+surgery	OAE:0000067	431-438
+Inclusion Criteria:	Eligibility	0
+Patient who has histologically confirmed and newly diagnosed breast cancer	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	61-74
+Patient who has clinical stage I, II, or IIIa operable breast cancer according to AJCC (American Joint Committee on Cancer) Breast Cancer Staging 7th edition	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	55-68
+breast cancer	DOID:1612	124-137
+cancer	DOID:162	62-68
+cancer	DOID:162	116-122
+cancer	DOID:162	131-137
+Patient who has HER2-positive status confirmed locally, defined as 3+ score by IHC (immuno-histochemistry).	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	4
+Patient who has bilateral breast cancer	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+bilateral breast cancer	DOID:6741	16-39
+Patient who has received prior treatment for breast cancer, including chemotherapy, biologic therapy, hormone therapy, immunotherapy, radiation or surgery, including any prior therapy with anthracyclines.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	45-58
+hormone	CHEBI:24621	102-109
+surgery	OAE:0000067	147-154
+Outcome Measurement:	Results	0
+The Percentage of Patients Achieving Pathological Complete Response Defined as the Absence of Invasion Tumor Cells in the Breast and in Axillary Lymph Nodes, Regardless of Ductal Carcinoma in Situ (DCIS)	Results	1
+breast	UBERON:0000310	122-128
+lymph	UBERON:0002391	145-150
+ductal carcinoma in situ	HP:0030075,DOID:0060074	172-196
+Subject who went through Neoadjuvant period completely (24 weeks), will receive surgery within 3-6 weeks after last treatment of neoadjuvant period.	Results	2
+surgery	OAE:0000067	80-87
+The primary endpoint, Pathological complete response, will be assessed using resected bio-specimens collected in breast and axilla during a surgery.	Results	3
+breast	UBERON:0000310	113-119
+surgery	OAE:0000067	140-147
+Time frame: After Neo-adjuvant therapy and Surgery (up to 30 weeks)	Results	4
+time	PATO:0000165	0-4
+surgery	OAE:0000067	43-50
+Results 1:	Results	5
+Arm/Group Title: CT-P6	Results	6
+Arm/Group Description: Patient received CT-P6 at an initial dose of 8 mg/kg administered by a single IV infusion on Day 1 of Cycle 1, followed by 6 mg/kg on Day 1 of Cycles 2 through 8 (3-week cycles). Patients also received docetaxel 75 mg/m^2 during cycles 1 through 4 and FEC (fluorouracil 500mg/m^2, epirubicin 75mg/m^2, and cyclophosphamide 500mg/m^2) during Cycles 5 through 8. After a total of 8 treatment cycles of the neoadjuvant treatment, surgery was performed within 3 to 6 weeks from the last dose of study.	Results	7
+patient	HADO:0000008,OAE:0001817	23-30
+patient	HADO:0000008,OAE:0001817	202-209
+day	UO:0000033	116-119
+day	UO:0000033	157-160
+cyclophosphamide	CHEBI:4026	329-345
+surgery	OAE:0000067	450-457
+Overall Number of Participants Analyzed: 248	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of responders  46.77        (40.43 to 53.19)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Herceptin	Results	12
+Arm/Group Description: Patient received Herceptin at an initial dose of 8 mg/kg administered by a single IV infusion on Day 1 of Cycle 1, followed by 6 mg/kg on Day 1 of Cycles 2 through 8 (3-week cycles). Patients also received docetaxel 75 mg/m^2 during cycles 1 through 4 and FEC (fluorouracil 500mg/m^2, epirubicin 75mg/m^2, and cyclophosphamide 500mg/m^2) during Cycles 5 through 8. After a total of 8 treatment cycles of the neoadjuvant treatment, surgery was performed within 3 to 6 weeks from the last dose of study.	Results	13
+patient	HADO:0000008,OAE:0001817	23-30
+patient	HADO:0000008,OAE:0001817	206-213
+day	UO:0000033	120-123
+day	UO:0000033	161-164
+cyclophosphamide	CHEBI:4026	333-349
+surgery	OAE:0000067	454-461
+Overall Number of Participants Analyzed: 256	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: percentage of responders  50.39        (44.10 to 56.68)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 22/271 (8.12%)	Adverse Events	1
+Anemia1/271 (0.37%)	Adverse Events	2
+Febrile neutropenia6/271 (2.21%)	Adverse Events	3
+Leukocytosis0/271 (0.00%)	Adverse Events	4
+Neutropenia2/271 (0.74%)	Adverse Events	5
+Acute myocardial infarction0/271 (0.00%)	Adverse Events	6
+acute	HP:0011009,PATO:0000389	0-5
+Adams-Stokes syndrome1/271 (0.37%)	Adverse Events	7
+Angina pectoris0/271 (0.00%)	Adverse Events	8
+Congestive cardiomyopathy0/271 (0.00%)	Adverse Events	9
+Myocardial infarction0/271 (0.00%)	Adverse Events	10
+Dacryostenosis acquired0/271 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 36/278 (12.95%)	Adverse Events	13
+Anemia3/278 (1.08%)	Adverse Events	14
+Febrile neutropenia3/278 (1.08%)	Adverse Events	15
+Leukocytosis1/278 (0.36%)	Adverse Events	16
+Neutropenia3/278 (1.08%)	Adverse Events	17
+Acute myocardial infarction1/278 (0.36%)	Adverse Events	18
+acute	HP:0011009,PATO:0000389	0-5
+Adams-Stokes syndrome0/278 (0.00%)	Adverse Events	19
+Angina pectoris1/278 (0.36%)	Adverse Events	20
+Congestive cardiomyopathy1/278 (0.36%)	Adverse Events	21
+Myocardial infarction1/278 (0.36%)	Adverse Events	22
+Dacryostenosis acquired1/278 (0.36%)	Adverse Events	23

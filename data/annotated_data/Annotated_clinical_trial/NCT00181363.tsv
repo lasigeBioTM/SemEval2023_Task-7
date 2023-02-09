@@ -1,0 +1,57 @@
+INTERVENTION 1:	Intervention	0
+Prone	Intervention	1
+Prone position	Intervention	2
+position	HP:0012830	6-14
+INTERVENTION 2:	Intervention	3
+Supine	Intervention	4
+Supine position	Intervention	5
+position	HP:0012830	7-15
+Inclusion Criteria:	Eligibility	0
+Patients should have had breast-conserving surgery for breast cancer or DCIS (Ductal Carcinoma in Situ)	Eligibility	1
+surgery	OAE:0000067	43-50
+breast cancer	DOID:1612	55-68
+ductal carcinoma in situ	HP:0030075,DOID:0060074	78-102
+No indication for radiotherapy of regional nodes	Eligibility	2
+radiotherapy	OAE:0000235	18-30
+Large, pendulous breasts (bra size D and over)	Eligibility	3
+size	PATO:0000117	30-34
+Exclusion Criteria:	Eligibility	4
+Regional radiotherapy is indicated	Eligibility	5
+radiotherapy	OAE:0000235	9-21
+Unable to lie in prone position	Eligibility	6
+position	HP:0012830	23-31
+Outcome Measurement:	Results	0
+Dose Homogeneity 1: PTV	Results	1
+Quantitatively compare the 3 D dose distribution in the PTV (Planning Target Volume) and normal tissues in prone position versus supine position	Results	2
+target	BAO:0003064	70-76
+volume	PATO:0000918	77-83
+position	HP:0012830	113-121
+position	HP:0012830	136-144
+Time frame: 1 day after treatment planning	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	14-17
+Results 1:	Results	4
+Arm/Group Title: Prone	Results	5
+Arm/Group Description: Prone position	Results	6
+position	HP:0012830	29-37
+Overall Number of Participants Analyzed: 10	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Gy  Dmin (Gy) PTV: 9.8         (6.7)	Results	9
+Dmean (Gy) PTV: 48.2         (1.2)	Results	10
+Dmax (Gy) PTV: 53.6         (0.6)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Supine	Results	13
+Arm/Group Description: Supine position	Results	14
+position	HP:0012830	30-38
+Overall Number of Participants Analyzed: 10	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Gy  Dmin (Gy) PTV: 8.2         (5.6)	Results	17
+Dmean (Gy) PTV: 49.8         (0.8)	Results	18
+Dmax (Gy) PTV: 54.8         (1.4)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/10 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

@@ -1,0 +1,124 @@
+INTERVENTION 1:	Intervention	0
+Exemestane (Exemestane Alone)	Intervention	1
+exemestane	CHEBI:4953	0-10
+exemestane	CHEBI:4953	12-22
+oral dose exemestane taken with food (25 mg tablet once daily)	Intervention	2
+exemestane	CHEBI:4953	10-20
+food	CHEBI:33290	32-36
+INTERVENTION 2:	Intervention	3
+Combination (Exemestane + Celecoxib)	Intervention	4
+exemestane	CHEBI:4953	13-23
+celecoxib	CHEBI:41423	26-35
+oral doses to be taken with food (25 mg tablet exemestane once daily; celecoxib 2 x 200 mg tablets twice daily)	Intervention	5
+food	CHEBI:33290	28-32
+exemestane	CHEBI:4953	47-57
+celecoxib	CHEBI:41423	70-79
+x	LABO:0000148	48-49
+x	LABO:0000148	76-77
+x	LABO:0000148	82-83
+Inclusion Criteria:	Eligibility	0
+Postmenopausal female patient with histologically or cytologically confirmed breast cancer having progressed on Tamoxifen.	Eligibility	1
+female	PATO:0000383	15-21
+patient	HADO:0000008,OAE:0001817	22-29
+breast cancer	DOID:1612	77-90
+tamoxifen	CHEBI:41774	112-121
+Advanced disease: patients with advanced breast carcinoma with disease progression who had progressed/relapsed following > 8 weeks of treatment with Tamoxifen for advanced disease; or progressed during adjuvant Tamoxifen for at least 6 or 12 months depending on receptor status; or progressed within 12 months from completion of adjuvant treatment with Tamoxifen.	Eligibility	2
+disease	DOID:4,OGMS:0000031	9-16
+disease	DOID:4,OGMS:0000031	63-70
+disease	DOID:4,OGMS:0000031	172-179
+breast carcinoma	HP:0003002,DOID:3459	41-57
+tamoxifen	CHEBI:41774	149-158
+tamoxifen	CHEBI:41774	211-220
+tamoxifen	CHEBI:41774	353-362
+adjuvant	CHEBI:60809	202-210
+adjuvant	CHEBI:60809	329-337
+receptor	BAO:0000281	262-270
+at least one measurable lesion	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+More than one previous chemotherapy and/or more than one hormonotherapy for advanced disease.	Eligibility	5
+disease	DOID:4,OGMS:0000031	85-92
+Previous hormonotherapy for advanced disease other than Tamoxifen.	Eligibility	6
+disease	DOID:4,OGMS:0000031	37-44
+tamoxifen	CHEBI:41774	56-65
+Myocardial infarction within previous 6 mo	Eligibility	7
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Outcome Measurement:	Results	0
+Number of Subjects With Clinical Benefit	Results	1
+Clinical benefit was based on objective tumor assessments made according to Response Evaluation Criteria (RECIST) system of unidimensional evaluation. Includes subjects with complete response (CR), partial response (PR), and long term disease stabilization (SD) for at least 24 weeks.	Results	2
+disease	DOID:4,OGMS:0000031	235-242
+Time frame: Baseline, Week 8, 16, 24, and every 12 weeks beyond 24 up to Week 108 and every 24 weeks thereafter until 9 months following last subject last visit (LSLV)	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	22-26
+week	UO:0000034	51-55
+week	UO:0000034	73-77
+week	UO:0000034	95-99
+Results 1:	Results	4
+Arm/Group Title: Exemestane (Exemestane Alone)	Results	5
+exemestane	CHEBI:4953	17-27
+exemestane	CHEBI:4953	29-39
+Arm/Group Description: oral dose exemestane taken with food (25 mg tablet once daily)	Results	6
+exemestane	CHEBI:4953	33-43
+food	CHEBI:33290	55-59
+Overall Number of Participants Analyzed: 49	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  24	Results	9
+Results 2:	Results	10
+Arm/Group Title: Combination (Exemestane + Celecoxib)	Results	11
+exemestane	CHEBI:4953	30-40
+celecoxib	CHEBI:41423	43-52
+Arm/Group Description: oral doses to be taken with food (25 mg tablet exemestane once daily; celecoxib 2 x 200 mg tablets twice daily)	Results	12
+food	CHEBI:33290	51-55
+exemestane	CHEBI:4953	70-80
+celecoxib	CHEBI:41423	93-102
+x	LABO:0000148	71-72
+x	LABO:0000148	99-100
+x	LABO:0000148	105-106
+Overall Number of Participants Analyzed: 51	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  24	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 9	Adverse Events	1
+Cardiac Failure Congestive  0/53 (0.00%)	Adverse Events	2
+Ascites  1/53 (1.89%)	Adverse Events	3
+ascites	HP:0001541	0-7
+Nausea  1/53 (1.89%)	Adverse Events	4
+nausea	HP:0002018	0-6
+Vomiting  2/53 (3.77%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Intestinal Obstruction  1/53 (1.89%)	Adverse Events	6
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Diarrhoea  0/53 (0.00%)	Adverse Events	7
+Pain  1/53 (1.89%)	Adverse Events	8
+pain	HP:0012531	0-4
+Death  1/53 (1.89%)	Adverse Events	9
+death	OAE:0000632	0-5
+General physical health deterioration  1/53 (1.89%)	Adverse Events	10
+Gait Disturbance  1/53 (1.89%)	Adverse Events	11
+gait disturbance	HP:0001288	0-16
+Asthenia  2/53 (3.77%)	Adverse Events	12
+asthenia	HP:0025406	0-8
+Fatigue  0/53 (0.00%)	Adverse Events	13
+fatigue	HP:0012378	0-7
+Adverse Events 2:	Adverse Events	14
+Total: 14	Adverse Events	15
+Cardiac Failure Congestive  1/56 (1.79%)	Adverse Events	16
+Ascites  0/56 (0.00%)	Adverse Events	17
+ascites	HP:0001541	0-7
+Nausea  0/56 (0.00%)	Adverse Events	18
+nausea	HP:0002018	0-6
+Vomiting  0/56 (0.00%)	Adverse Events	19
+vomiting	HP:0002013	0-8
+Intestinal Obstruction  0/56 (0.00%)	Adverse Events	20
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Diarrhoea  1/56 (1.79%)	Adverse Events	21
+Pain  1/56 (1.79%)	Adverse Events	22
+pain	HP:0012531	0-4
+Death  1/56 (1.79%)	Adverse Events	23
+death	OAE:0000632	0-5
+General physical health deterioration  1/56 (1.79%)	Adverse Events	24
+Gait Disturbance  1/56 (1.79%)	Adverse Events	25
+gait disturbance	HP:0001288	0-16
+Asthenia  0/56 (0.00%)	Adverse Events	26
+asthenia	HP:0025406	0-8
+Fatigue  1/56 (1.79%)	Adverse Events	27
+fatigue	HP:0012378	0-7

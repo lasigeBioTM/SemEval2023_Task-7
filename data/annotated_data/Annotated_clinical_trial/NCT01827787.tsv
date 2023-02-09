@@ -1,0 +1,146 @@
+INTERVENTION 1:	Intervention	0
+Cohort 1: HR+/HER2-	Intervention	1
+Eribulin: 1.4 mg/m2 administered intravenously over 2-5 minutes on days 1 and 8 of each 21 day cycle	Intervention	2
+eribulin	CHEBI:63587	0-8
+day	UO:0000033	67-70
+day	UO:0000033	91-94
+Participants remained on single agent eribulin until disease progression or withdrawal for other reasons.	Intervention	3
+eribulin	CHEBI:63587	38-46
+disease	DOID:4,OGMS:0000031	53-60
+INTERVENTION 2:	Intervention	4
+Cohort 2: TNBC	Intervention	5
+Eribulin: 1.4 mg/m2 administered intravenously over 2-5 minutes on days 1 and 8 of each 21 day cycle	Intervention	6
+eribulin	CHEBI:63587	0-8
+day	UO:0000033	67-70
+day	UO:0000033	91-94
+Participants remained on single agent eribulin until disease progression or withdrawal for other reasons.	Intervention	7
+eribulin	CHEBI:63587	38-46
+disease	DOID:4,OGMS:0000031	53-60
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically proven invasive breast cancer, locally recurrent or metastatic, with at least one measureable lesion according to RECIST v1.1	Eligibility	1
+breast cancer	DOID:1612	48-61
+recurrent	HP:0031796	71-80
+Hormone receptor positive or hormone receptor negative HER2-negative disease	Eligibility	2
+hormone	CHEBI:24621	0-7
+hormone	CHEBI:24621	29-36
+receptor	BAO:0000281	8-16
+receptor	BAO:0000281	37-45
+disease	DOID:4,OGMS:0000031	69-76
+Up to one prior line of chemotherapy for advanced disease is allowed (discontinued at least 14 days prior to initiation of protocol therapy)	Eligibility	3
+disease	DOID:4,OGMS:0000031	50-57
+Prior bevacizumab in the neo/adjuvant or metastatic setting is acceptable	Eligibility	4
+No limit on prior lines of endocrine therapy, but must be discontinued at least 7 days prior to initiation of protocol therapy	Eligibility	5
+Must have completed any prior radiotherapy at least 2 weeks prior to initiation of protocol therapy	Eligibility	6
+radiotherapy	OAE:0000235	30-42
+Must have recovered from reversible effects of prior therapies to no more than grade 1 toxicity, with the exception of alopecia	Eligibility	7
+alopecia	HP:0001596,DOID:987	119-127
+Agree to use adequate contraception for the duration of study participation	Eligibility	8
+duration	PATO:0001309	44-52
+Exclusion Criteria:	Eligibility	9
+Pregnant or breastfeeding	Eligibility	10
+Prior treatment with eribulin	Eligibility	11
+eribulin	CHEBI:63587	21-29
+Prior malignancy other than carcinoma in situ of the cervix or nonmelanoma skin cancer unless diagnosed and definitively treated at least 3 years before enrollment in this study	Eligibility	12
+carcinoma	HP:0030731,DOID:305	28-37
+skin cancer	DOID:4159	75-86
+Clinically significant cardiovascular impairment	Eligibility	13
+Active brain metastases or unevaluated neurologic symptoms suggestive of brain metastases	Eligibility	14
+active	PATO:0002354	0-6
+brain	UBERON:0000955	7-12
+brain	UBERON:0000955	73-78
+Pulmonary dysfunction requiring the use of oxygen	Eligibility	15
+Prior organ allograft requiring immunosuppression	Eligibility	16
+organ	UBERON:0000062	6-11
+HIV positive on combination antiretroviral therapy	Eligibility	17
+Pre-existing grade 3 or 4 neuropathy	Eligibility	18
+neuropathy	DOID:870	26-36
+Hypersensitivity to halichondrin B or halichondrin B chemical derivative	Eligibility	19
+hypersensitivity	GO:0002524,DOID:1205	0-16
+halichondrin b	CHEBI:80731	20-34
+halichondrin b	CHEBI:80731	38-52
+Uncontrolled intercurrent illness	Eligibility	20
+Inability to read in English	Eligibility	21
+Outcome Measurement:	Results	0
+Overall Response Rate (ORR)	Results	1
+rate	BAO:0080019	17-21
+ORR was defined as the percentage of participants achieving complete response (CR) or partial response (PR) based on RECIST 1.1 criteria on treatment. Per RECIST 1.1 for target lesions: CR is complete disappearance of all target lesions and PR is at least a 30% decrease in the sum of longest diameter (LD) of target lesions, taking as reference baseline sum LD. PR or better overall response assumes at a minimum incomplete response/stable disease (SD) for the evaluation of non-target lesions and absence of new lesions.	Results	2
+target	BAO:0003064	170-176
+target	BAO:0003064	222-228
+target	BAO:0003064	310-316
+target	BAO:0003064	480-486
+diameter	PATO:0001334	293-301
+disease	DOID:4,OGMS:0000031	441-448
+Time frame: Disease was evaluated radiologically at baseline and every 9 weeks on treatment; Maximum treatment duration was 38 cycles/26 months (Cohort 1) and 17 cycles/12 months (Cohort 2)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	12-19
+duration	PATO:0001309	111-119
+Results 1:	Results	4
+Arm/Group Title: Cohort 1: HR+/HER2-	Results	5
+Arm/Group Description: Eribulin: 1.4 mg/m2 administered intravenously over 2-5 minutes on days 1 and 8 of each 21 day cycle	Results	6
+eribulin	CHEBI:63587	23-31
+day	UO:0000033	90-93
+day	UO:0000033	114-117
+Participants remained on single agent eribulin until disease progression or withdrawal for other reasons.	Results	7
+eribulin	CHEBI:63587	38-46
+disease	DOID:4,OGMS:0000031	53-60
+Overall Number of Participants Analyzed: 45	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  35.6        (24 to 49)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Cohort 2: TNBC	Results	12
+Arm/Group Description: Eribulin: 1.4 mg/m2 administered intravenously over 2-5 minutes on days 1 and 8 of each 21 day cycle	Results	13
+eribulin	CHEBI:63587	23-31
+day	UO:0000033	90-93
+day	UO:0000033	114-117
+Participants remained on single agent eribulin until disease progression or withdrawal for other reasons.	Results	14
+eribulin	CHEBI:63587	38-46
+disease	DOID:4,OGMS:0000031	53-60
+Overall Number of Participants Analyzed: 38	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of participants  13.2        (5 to 26)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 22/45 (48.89%)	Adverse Events	1
+Anemia 0/45 (0.00%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia 2/45 (4.44%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Diarrhea 1/45 (2.22%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Mucositis oral 1/45 (2.22%)	Adverse Events	5
+mucositis	DOID:0080178	0-9
+Nausea 0/45 (0.00%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Vomiting 1/45 (2.22%)	Adverse Events	7
+vomiting	HP:0002013	0-8
+Fatigue 1/45 (2.22%)	Adverse Events	8
+fatigue	HP:0012378	0-7
+Lip infection 0/45 (0.00%)	Adverse Events	9
+lip	UBERON:0001833	0-3
+Alkaline phosphatase increased 1/45 (2.22%)	Adverse Events	10
+phosphatase	GO:0016791,BAO:0000295	9-20
+Aspartate aminotransferase increased 1/45 (2.22%)	Adverse Events	11
+aspartate	CHEBI:29995	0-9
+Lymphocyte count decreased 1/45 (2.22%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 13/38 (34.21%)	Adverse Events	14
+Anemia 2/38 (5.26%)	Adverse Events	15
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia 2/38 (5.26%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Diarrhea 1/38 (2.63%)	Adverse Events	17
+diarrhea	HP:0002014,DOID:13250	0-8
+Mucositis oral 0/38 (0.00%)	Adverse Events	18
+mucositis	DOID:0080178	0-9
+Nausea 1/38 (2.63%)	Adverse Events	19
+nausea	HP:0002018	0-6
+Vomiting 2/38 (5.26%)	Adverse Events	20
+vomiting	HP:0002013	0-8
+Fatigue 0/38 (0.00%)	Adverse Events	21
+fatigue	HP:0012378	0-7
+Lip infection 1/38 (2.63%)	Adverse Events	22
+lip	UBERON:0001833	0-3
+Alkaline phosphatase increased 0/38 (0.00%)	Adverse Events	23
+phosphatase	GO:0016791,BAO:0000295	9-20
+Aspartate aminotransferase increased 0/38 (0.00%)	Adverse Events	24
+aspartate	CHEBI:29995	0-9
+Lymphocyte count decreased 0/38 (0.00%)	Adverse Events	25

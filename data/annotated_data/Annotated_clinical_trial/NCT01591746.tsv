@@ -1,0 +1,111 @@
+INTERVENTION 1:	Intervention	0
+Group A - Botulinum Toxin Type A	Intervention	1
+group	CHEBI:24433	0-5
+botulinum toxin type a	CHEBI:3160	10-32
+100 Units of Botulinum toxin A diluted in 5 mL 0.9% Sodium Chloride (NaCl) in the pectoralis major muscle in each operated breast	Intervention	2
+toxin	CHEBI:27026	23-28
+sodium chloride	CHEBI:26710,BAO:0100012	52-67
+breast	UBERON:0000310	123-129
+Botulinum Toxin Type A	Intervention	3
+botulinum toxin type a	CHEBI:3160	0-22
+INTERVENTION 2:	Intervention	4
+Group B - Placebo	Intervention	5
+group	CHEBI:24433	0-5
+5 mL 0.9% NaCl injection to the pectoralis major muscle in each operated breast	Intervention	6
+breast	UBERON:0000310	73-79
+Placebo: 5 mL 0.9% NaCl solution to mimic Botulinum Toxin Type A	Intervention	7
+solution	CHEBI:75958	24-32
+botulinum toxin type a	CHEBI:3160	42-64
+Inclusion Criteria:	Eligibility	0
+Women at least 18 years of age, who will undergo immediate unilateral or bilateral tissue expander breast reconstruction following therapeutic skin-sparing or nipple-sparing mastectomy	Eligibility	1
+age	PATO:0000011	27-30
+unilateral	HP:0012833	59-69
+bilateral	HP:0012832	73-82
+tissue	UBERON:0000479	83-89
+breast	UBERON:0000310	99-105
+Women at least 18 years of age, who will undergo immediate bilateral tissue expanders breast reconstruction following risk-reduction (prophylactic) skin-sparing or nipple-sparing mastectomy	Eligibility	2
+age	PATO:0000011	27-30
+bilateral	HP:0012832	59-68
+tissue	UBERON:0000479	69-75
+breast	UBERON:0000310	86-92
+Exclusion Criteria:	Eligibility	3
+Subjects who are unable to read or speak English	Eligibility	4
+Breast reconstruction using the latissimus dorsi flap combined with a tissue expander	Eligibility	5
+breast	UBERON:0000310	0-6
+tissue	UBERON:0000479	70-76
+Documented diagnosis of chronic pain, upper limb spasticity, cervical dystonia, axillary hyperhidrosis, strabismus or blepharospasm	Eligibility	6
+chronic pain	HP:0012532	24-36
+upper limb spasticity	HP:0006986	38-59
+cervical dystonia	DOID:0050840	61-78
+hyperhidrosis	HP:0000975	89-102
+strabismus	HP:0000486,DOID:540	104-114
+blepharospasm	HP:0000643,DOID:529	118-131
+Hypersensitivity to any botulinum toxin preparation or to any of the components in the formulation	Eligibility	7
+hypersensitivity	GO:0002524,DOID:1205	0-16
+toxin	CHEBI:27026	34-39
+Infection at the proposed site of injection	Eligibility	8
+site	BFO:0000029	26-30
+Pre-existing neuromuscular disorders (including diagnosed myasthenia gravis, Eaton-Lambert syndrome, or amyotrophic lateral sclerosis)	Eligibility	9
+myasthenia gravis	DOID:437	58-75
+syndrome	DOID:225	91-99
+amyotrophic lateral sclerosis	HP:0007354,DOID:332	104-133
+Aminoglycosides intake at the time of surgery (these antibiotics can potentiate the effect of BTX-A)	Eligibility	10
+time	PATO:0000165	30-34
+surgery	OAE:0000067	38-45
+Women who are pregnant or breast feeding	Eligibility	11
+breast	UBERON:0000310	26-32
+Presence of breast implants from previous breast surgery	Eligibility	12
+breast	UBERON:0000310	12-18
+breast	UBERON:0000310	42-48
+surgery	OAE:0000067	49-56
+Reported use of Botox within 4 months prior to planned surgical date	Eligibility	13
+Outcome Measurement:	Results	0
+Change From Baseline in Average Pain Scores Using a Numeric Pain Intensity Scale	Results	1
+pain	HP:0012531	32-36
+pain	HP:0012531	60-64
+intensity	PATO:0000049	65-74
+The numeric pain intensity scale (NPIS) will be completed at the preoperative visit and again at the first postoperative visit. The NPIS is a visual analog scale (VAS) commonly used to assess clinical pain. Subjects are asked to rate their pain on a scale from 0 to 10, where 0 is no pain and 10 is the worst pain imaginable.	Results	2
+pain	HP:0012531	12-16
+pain	HP:0012531	201-205
+pain	HP:0012531	240-244
+pain	HP:0012531	284-288
+pain	HP:0012531	309-313
+intensity	PATO:0000049	17-26
+rate	BAO:0080019	229-233
+Time frame: preoperative visit, first postoperative visit (1-2 weeks post surgery)	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	74-81
+Results 1:	Results	4
+Arm/Group Title: Group A - Botulinum Toxin Type A	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+botulinum toxin type a	CHEBI:3160	27-49
+Arm/Group Description: 100 Units of Botulinum toxin A diluted in 5 mL 0.9% Sodium Chloride (NaCl) in the pectoralis major muscle in each operated breast	Results	6
+toxin	CHEBI:27026	46-51
+sodium chloride	CHEBI:26710,BAO:0100012	75-90
+breast	UBERON:0000310	146-152
+Botulinum Toxin Type A	Results	7
+botulinum toxin type a	CHEBI:3160	0-22
+Overall Number of Participants Analyzed: 68	Results	8
+Median (Inter-Quartile Range)	Results	9
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: score on a scale  2        (1.5 to 4)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Group B - Placebo	Results	12
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: 5 mL 0.9% NaCl injection to the pectoralis major muscle in each operated breast	Results	13
+breast	UBERON:0000310	96-102
+Placebo: 5 mL 0.9% NaCl solution to mimic Botulinum Toxin Type A	Results	14
+solution	CHEBI:75958	24-32
+botulinum toxin type a	CHEBI:3160	42-64
+Overall Number of Participants Analyzed: 63	Results	15
+Median (Inter-Quartile Range)	Results	16
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: score on a scale  3        (2 to 4)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/68 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

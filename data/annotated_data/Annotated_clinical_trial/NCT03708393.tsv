@@ -1,0 +1,51 @@
+INTERVENTION 1:	Intervention	0
+IUS Alone	Intervention	1
+IUS alone imaging	Intervention	2
+INTERVENTION 2:	Intervention	3
+Imagio (IUS+OA)	Intervention	4
+IUS+OA imaging	Intervention	5
+Inclusion Criteria:	Eligibility	0
+- Female subjects participating in the PIONEER-0 Study of the Imagio Breast Imaging System with known clinical status	Eligibility	1
+female	PATO:0000383	2-8
+breast	UBERON:0000310	69-75
+Exclusion Criteria:	Eligibility	2
+- Female subjects who did not have known clinical status in the PIONEER-0 Study of the Imagio Breast Imaging System with known clinical status	Eligibility	3
+female	PATO:0000383	2-8
+breast	UBERON:0000310	94-100
+Outcome Measurement:	Results	0
+The Gain in Imagio IUS Alone Specificity vs Imagio (IUS+OA) Specificity at Fixed 95-99% Sensitivity (fSp), Cohort 1	Results	1
+Primary effectiveness endpoint was the specificity of Imagio [IUS+OA] compared to IUS alone at fixed 95-99% sensitivity (fSp) interpolated from the area under the curve (AUC) of receiver operating characteristic (ROC) curves, averaged across all 10 independent readers. Both imaging modalities (IUS alone and IUS+OA) were read for each subject (subject as own control). Results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth).	Results	2
+area	PATO:0001323	148-152
+auc	BAO:0002120	170-173
+Time frame: Baseline to 12 month follow-up	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	27-32
+Results 1:	Results	4
+Arm/Group Title: IUS Alone	Results	5
+Arm/Group Description: IUS alone imaging	Results	6
+Overall Number of Participants Analyzed: 120	Results	7
+Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: Percent of correct benign masses  fSp (95.0%): 80.9        (69.1 to 92.7)	Results	9
+percent	UO:0000187	17-24
+fSp (96.0%): 78.7        (65.7 to 91.7)	Results	10
+fSp (97.0%): 75.8        (61.4 to 90.3)	Results	11
+fSp (97.5%): 74        (58.7 to 89.4)	Results	12
+fSp (98.0%): 71.8        (55.4 to 88.3)	Results	13
+fSp (99.0%): 65.2        (45.8 to 84.6)	Results	14
+Results 2:	Results	15
+Arm/Group Title: Imagio (IUS+OA)	Results	16
+Arm/Group Description: IUS+OA imaging	Results	17
+Overall Number of Participants Analyzed: 120	Results	18
+Mean (95% Confidence Interval)	Results	19
+mean	BAO:0002173	0-4
+Unit of Measure: Percent of correct benign masses  fSp (95.0%): 75.4        (61.5 to 89.3)	Results	20
+percent	UO:0000187	17-24
+fSp (96.0%): 71.4        (55.8 to 87.0)	Results	21
+fSp (97.0%): 66.1        (48.6 to 83.7)	Results	22
+fSp (97.5%): 62.8        (44.1 to 81.6)	Results	23
+fSp (98.0%): 58.9        (38.8 to 79)	Results	24
+fSp (99.0%): 47.7        (24.5 to 71.0)	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 0/155 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

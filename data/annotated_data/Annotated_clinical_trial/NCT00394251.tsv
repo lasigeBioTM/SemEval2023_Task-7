@@ -1,0 +1,344 @@
+INTERVENTION 1:	Intervention	0
+ABI-007 Subset	Intervention	1
+260 mg/m2 ABI-007 (Abraxane) plus Bevacizumab for 4 cycles (weeks 9-16); Bevacizumab (weeks 17-46). Weeks 1-8 are excluded from this subset.	Intervention	2
+excluded	HP:0040285	114-122
+INTERVENTION 2:	Intervention	3
+AC --> ABI-007	Intervention	4
+Adriamycin and Cytoxan plus Bevacizumab for four cycles (weeks 1-8); 260 mg/m2 ABI-007 (Abraxane) plus Bevacizumab for 4 cycles (weeks 9-16); Bevacizumab (weeks 17-46).	Intervention	5
+Inclusion Criteria:	Eligibility	0
+A patient was eligible for inclusion in this study only if all of the following criteria were met:	Eligibility	1
+patient	HADO:0000008,OAE:0001817	2-9
+Female, age greater than or equal to 18 to less than or equal to 70 years old.	Eligibility	2
+female	PATO:0000383	0-6
+age	PATO:0000011	8-11
+Estrogen receptor (ER) and progesterone receptor (PR) status have been determined.	Eligibility	3
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	40-48
+progesterone	CHEBI:17026	27-39
+Operable, histologically confirmed adenocarcinoma of the breast	Eligibility	4
+adenocarcinoma	DOID:299	35-49
+breast	UBERON:0000310	57-63
+Must have met 1 of the following criteria:	Eligibility	5
+T1-3, N1-3, M0, regardless of ER or PR status.	Eligibility	6
+T > 2 cm, N0, M0 (T2-3N0M0), regardless of ER or PR status.	Eligibility	7
+t	CHEBI:36371,BAO:0001260	0-1
+t	CHEBI:36371,BAO:0001260	18-19
+t	CHEBI:36371,BAO:0001260	53-54
+t	CHEBI:36371,BAO:0001260	55-56
+T > 1 cm, N0, M0 (T1cN0M0) and both ER and PR negative	Eligibility	8
+t	CHEBI:36371,BAO:0001260	0-1
+t	CHEBI:36371,BAO:0001260	18-19
+t	CHEBI:36371,BAO:0001260	33-34
+t	CHEBI:36371,BAO:0001260	50-51
+T > 1 cm, N0, M0, ER or PR positive and grade 3	Eligibility	9
+t	CHEBI:36371,BAO:0001260	0-1
+t	CHEBI:36371,BAO:0001260	31-32
+Patients with one sentinel lymph node metastasis 0.2-2 mm in size were not required to undergo completion axillary dissection unless only 1 sentinel lymph node was examined. This completion axillary dissection was optional if 1 out of 2 or more sentinel lymph nodes was positive for a micrometastasis. Therefore if 1 of 1 sentinel lymph node was positive for micrometastasis(0.2-2 mm), then a completion axillary dissection was required.	Eligibility	10
+lymph	UBERON:0002391	27-32
+lymph	UBERON:0002391	149-154
+lymph	UBERON:0002391	254-259
+lymph	UBERON:0002391	331-336
+size	PATO:0000117	61-65
+Patients with more than one sentinel node micrometastasis or 1 node with a micrometastasis > 2 mm and/or T3 disease must have undergone completion, standard axillary dissection. -Note: the following were not eligible-	Eligibility	11
+disease	DOID:4,OGMS:0000031	108-115
+T1b,c,N0M0 and ER or PR positive and grade 1 or 2 Tx tumors (regardless of nodal status) T4 disease [i.e., patients with fixed tumors, peau d'orange skin changes, skin ulcerations, or inflammatory changes	Eligibility	12
+disease	DOID:4,OGMS:0000031	92-99
+peau d'orange	HP:0025533	135-148
+Note: Sentinel lymph node micrometastasis < 0.2 mm in considered N0 disease	Eligibility	13
+lymph	UBERON:0002391	15-20
+disease	DOID:4,OGMS:0000031	68-75
+Negative surgical margins on lumpectomy or mastectomy specimen (no ink on invasive cancer and no ink on ductal carcinoma in situ [DCIS]).	Eligibility	14
+cancer	DOID:162	83-89
+ductal carcinoma in situ	HP:0030075,DOID:0060074	104-128
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1	Eligibility	15
+group	CHEBI:24433	29-34
+Normal electrocardiogram (ECG, as assessed by the investigator).	Eligibility	16
+No pre-existing peripheral neuropathy.	Eligibility	17
+peripheral neuropathy	HP:0009830,DOID:870	16-37
+It had not been longer than 84 days since the date of definitive surgery (eg, mastectomy or in the case of a breast-sparing procedure, axillary dissection).	Eligibility	18
+surgery	OAE:0000067	65-72
+Laboratory values were to be as follows:	Eligibility	19
+White blood cell count: > or equal to 3,000/mm^3	Eligibility	20
+white blood cell count	CMO:0000027	0-22
+Absolute neutrophil count:> or equal to 1,500/mm^3	Eligibility	21
+Platelets:> or equal to 100,000/mm^3	Eligibility	22
+Hemoglobin: > or equal to 8g/dL	Eligibility	23
+hemoglobin	CHEBI:35143	0-10
+Bilirubin:< or equal to the institution's ULN	Eligibility	24
+Creatinine: < or equal to 1.7 mg/dL	Eligibility	25
+creatinine	CHEBI:16737	0-10
+Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) and alkaline phosphatase could be up to 2.5 times the institutional ULN.	Eligibility	26
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+phosphatase	GO:0016791,BAO:0000295	81-92
+All staging studies including physical exam, chest x-ray, and bone scan had to show no evidence of metastatic disease, including suspicious lymphadenopathy or skin nodules on physical exam. A chest x-ray and bone scan were mandatory; however, all other staging studies were at the treating physician's discretion. Any other staging test (eg, Computed Tomography [CT] scans, magnetic resonance imaging [MRI] studies, ultrasound of abdomen, Positron Emission Tomography [PET] scans must have been negative for metastatic disease. An abdominal CT scan or PET scan was mandatory for patients with liver function tests elevated above the upper limit of normal (ULN) to rule out metastatic disease. If the patient had a staging PET scan then a bone scan was not necessary, but a chest x-ray was required.	Eligibility	27
+chest	UBERON:0001443	45-50
+chest	UBERON:0001443	192-197
+chest	UBERON:0001443	773-778
+disease	DOID:4,OGMS:0000031	110-117
+disease	DOID:4,OGMS:0000031	519-526
+disease	DOID:4,OGMS:0000031	684-691
+lymphadenopathy	HP:0002716	140-155
+tomography	BAO:0002525	351-361
+tomography	BAO:0002525	457-467
+ct	BAO:0002125	363-365
+ct	BAO:0002125	541-543
+ct	BAO:0002125	602-604
+abdomen	UBERON:0000916	430-437
+positron	CHEBI:30225	439-447
+liver	UBERON:0002107	593-598
+function	BAO:0003117,BFO:0000034	599-607
+patient	HADO:0000008,OAE:0001817	579-586
+patient	HADO:0000008,OAE:0001817	700-707
+Patient had a negative serum pregnancy test < or equal to 14 days of the first dose of study drug (patients of childbearing potential).	Eligibility	28
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	99-106
+drug	CHEBI:23888	93-97
+If fertile, patient had agreed to us an acceptable method of birth control to avoid pregnancy [Note: oral contraceptives were not allowed] for the duration of chemotherapy and hormonal therapy and for 6 months thereafter.	Eligibility	29
+patient	HADO:0000008,OAE:0001817	12-19
+duration	PATO:0001309	147-155
+If obese, a patient must have been treated with doses calculated using his/her actual body surface area (BSA) (the physician must have been comfortable treating at the full BSA dose regardless of BSA).	Eligibility	30
+patient	HADO:0000008,OAE:0001817	12-19
+area	PATO:0001323	99-103
+Patient had signed a Patient Informed Consent Form.	Eligibility	31
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	21-28
+Exclusion Criteria:	Eligibility	32
+A patient was not eligible for inclusion in this study if any of the following criteria applied:	Eligibility	33
+patient	HADO:0000008,OAE:0001817	2-9
+Patients with HER-2 positive breast cancer (IHC 3+ or FISH +) who were eligible for adjuvant Herceptin therapy.	Eligibility	34
+breast cancer	DOID:1612	29-42
+adjuvant	CHEBI:60809	84-92
+Stage IV breast cancer (M1 disease on TNM staging system).	Eligibility	35
+breast cancer	DOID:1612	9-22
+m1	CHEBI:34826	24-26
+disease	DOID:4,OGMS:0000031	27-34
+Prior anthracycline, anthracenedione (mitoxantrone), or taxane therapy	Eligibility	36
+anthracycline	CHEBI:48120	6-19
+mitoxantrone	CHEBI:50729	38-50
+taxane	CHEBI:36064	56-62
+Neoadjuvant therapy for this breast cancer.	Eligibility	37
+breast cancer	DOID:1612	29-42
+Previous invasive cancers if treated < 5 years prior to entering this study, except basal or squamous cell carcinoma of the skin or carcinoma in situ of the cervix; the latter were not required to have occurred more than 5 years prior to study entry.	Eligibility	38
+squamous cell carcinoma of the skin	HP:0006739	93-128
+carcinoma	HP:0030731,DOID:305	107-116
+carcinoma	HP:0030731,DOID:305	132-141
+Prior invasive breast cancer if diagnosed < 5 years prior to entering study. Patients must have finished adjuvant hormonal therapy prior to registration. Patients with prior DCIS are eligible. Patients with DCIS who were treated with tamoxifen must have finished tamoxifen prior to registration.	Eligibility	39
+breast cancer	DOID:1612	15-28
+adjuvant	CHEBI:60809	105-113
+tamoxifen	CHEBI:41774	234-243
+tamoxifen	CHEBI:41774	263-272
+Serious medical illness, other than that treated by this study, which would limit survival to < 4 years, or psychiatric condition that would prevent informed consent and compliance with study treatment.	Eligibility	40
+condition	PDRO:0000129	120-129
+Uncontrolled or severe cardiovascular disease including recent (< or equal to 12 months) myocardial infarction or unstable angina.	Eligibility	41
+severe	HP:0012828	16-22
+disease	DOID:4,OGMS:0000031	38-45
+myocardial infarction	HP:0001658,DOID:5844	89-110
+Active uncontrolled bacterial, viral (including clinically defined Acquired Immune Deficiency Syndrome [AIDS]), or fungal infection.	Eligibility	42
+active	PATO:0002354	0-6
+syndrome	DOID:225	94-102
+Patients with active or chronic hepatitis with abnormal liver function tests (LFTs) or patients who were known to be HIV positive.	Eligibility	43
+active	PATO:0002354	14-20
+chronic hepatitis	HP:0200123,DOID:2237	24-41
+liver	UBERON:0002107	56-61
+function	BAO:0003117,BFO:0000034	62-70
+Uncontrolled disease such as uncontrolled diabetes.	Eligibility	44
+disease	DOID:4,OGMS:0000031	13-20
+Any prior history of hypertensive crisis or hypertensive encephalopathy.	Eligibility	45
+history	BFO:0000182	10-17
+hypertensive crisis	HP:0100735	21-40
+hypertensive encephalopathy	DOID:9427	44-71
+Any known central nervous system (CNS) disease.	Eligibility	46
+central nervous system	UBERON:0001017	10-32
+disease	DOID:4,OGMS:0000031	39-46
+Known hypersensitivity to any component of bevacizumab.	Eligibility	47
+hypersensitivity	GO:0002524,DOID:1205	6-22
+No history of cerebrovascular accident or transient ischemic attack at any time.	Eligibility	48
+history	BFO:0000182	3-10
+transient ischemic attack	HP:0002326,DOID:224	42-67
+time	PATO:0000165	75-79
+Active symptomatic vascular disease, e.g., aortic aneurysm or aortic dissection, and no peripheral vascular disease, e.g., claudication, within six months of study entry.	Eligibility	49
+active	PATO:0002354	0-6
+vascular disease	DOID:178	19-35
+vascular disease	DOID:178	99-115
+aortic aneurysm	HP:0004942,DOID:3627	43-58
+aortic dissection	HP:0002647,DOID:0080685	62-79
+peripheral vascular disease	DOID:341	88-115
+No major surgical procedure, open biopsy, or significant traumatic injury within 28 days and no core biopsy or minor surgical procedure (excluding placement of a vascular access device) within seven days of study entry. No anticipated need for major surgical procedure during the course of study.	Eligibility	50
+No history of abdominal fistula, gastrointestinal perforation, or intra- abdominal process within six months of study entry.	Eligibility	51
+history	BFO:0000182	3-10
+process	BFO:0000015	83-90
+No serious non-healing wound, ulcer, or bone fracture.	Eligibility	52
+ulcer	OAE:0004372	30-35
+bone fracture	HP:0020110	40-53
+No proteinuria at screening as demonstrated by urine protein: urine creatinine (UPC) ratio of > or equal to 1.0 or urine dipstick for proteinuria > or equal to 2+ (patients discovered to have > or equal to 2+ proteinuria on dipstick urinalysis at baseline should have undergone a 24 hour urine collection and must have demonstrated < or equal to 1g of protein in 24 hours to be eligible).	Eligibility	53
+proteinuria	HP:0000093,DOID:576	3-14
+proteinuria	HP:0000093,DOID:576	134-145
+proteinuria	HP:0000093,DOID:576	209-220
+urine	UBERON:0001088	47-52
+urine	UBERON:0001088	62-67
+urine	UBERON:0001088	115-120
+urine	UBERON:0001088	288-293
+protein	CHEBI:36080,BAO:0000175	3-10
+protein	CHEBI:36080,BAO:0000175	53-60
+protein	CHEBI:36080,BAO:0000175	134-141
+protein	CHEBI:36080,BAO:0000175	209-216
+protein	CHEBI:36080,BAO:0000175	352-359
+creatinine	CHEBI:16737	68-78
+upc	CHEBI:165829	80-83
+ratio	UO:0000190	85-90
+hour	UO:0000032	283-287
+hour	UO:0000032	366-370
+Inadequately controlled hypertension (defined as systolic blood pressure > 150 mmHg and /or diastolic blood pressure> 100 mmHg on antihypertensive medications) or New York Heart Association (NYHA) Grade 2 or greater congestive heart failure.	Eligibility	54
+hypertension	HP:0000822,DOID:10763	24-36
+systolic blood pressure	CMO:0000004	49-72
+diastolic blood pressure	CMO:0000005	92-116
+heart	UBERON:0000948	172-177
+heart	UBERON:0000948	227-232
+congestive heart failure	HP:0001635,DOID:6000	216-240
+History or coagulopathy, bleeding diathesis, therapeutic anticoagulation other than low dose or chronic acetyl salicylic acid (ASA)> or equal to 325 mg. per day. Low dose coumadin for anticoagulation of venous access device or low dose molecular weight heparin (LMWH) for deep vein thrombosis prophylaxis or low dose (325 mg or less) ASA prophylaxis are allowed, but are best avoided if the treating physician feels it is safe to do so.	Eligibility	55
+history	BFO:0000182	0-7
+chronic	HP:0011010	96-103
+acetyl	CHEBI:40574	104-110
+salicylic acid	CHEBI:16914	111-125
+day	UO:0000033	157-160
+heparin	CHEBI:28304	253-260
+vein	UBERON:0001638	277-281
+thrombosis	DOID:0060903	282-292
+Left Ventricular Ejection Fraction (LVEF) on cardiac echocardiography (ECHO) < 50% (or institutional lower limit of normal [LLN]) and > or equal to 74%. LVEF of greater than 75% at baseline should have been re- reviewed and/or the test repeated as it could be falsely elevated.	Eligibility	56
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Patients who were receiving concurrent immunotherapy.	Eligibility	57
+A history of other malignancy within the last 5 years, which could affect the diagnosis or assessment of breast cancer recurrence or which could shorten a patient's survival.	Eligibility	58
+history	BFO:0000182	2-9
+breast cancer	DOID:1612	105-118
+patient	HADO:0000008,OAE:0001817	155-162
+Patient had had an organ allograft.	Eligibility	59
+patient	HADO:0000008,OAE:0001817	0-7
+organ	UBERON:0000062	19-24
+Patient was pregnant or breastfeeding.	Eligibility	60
+patient	HADO:0000008,OAE:0001817	0-7
+Patient was unable to comply with requirements of study.	Eligibility	61
+patient	HADO:0000008,OAE:0001817	0-7
+Patient was receiving any other investigational drugs.	Eligibility	62
+patient	HADO:0000008,OAE:0001817	0-7
+Outcome Measurement:	Results	0
+Participants With Treatment-Emergent Toxicities With a Frequency >=20% at 3 Months Post Chemotherapy	Results	1
+frequency	HP:0040279	55-64
+Toxicities are summarized using the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) terms. Participants with treatment-emergent toxicities with a frequency of >=20% in any treatment arm, and participants with at least one toxicity are reported.	Results	2
+cancer	DOID:162	45-51
+frequency	HP:0040279	183-192
+Taxane subsets (ABI-007 subset and Taxol subset treatment arms) summarize participants with treatment-emergent toxicities defined as any AEs that begin or worsen in severity grade after the start of taxane treatment (cycle 5, week 9) through 30 days after the last dose of taxane (week 20) and were ongoing 3 months after chemotherapy (month 7).	Results	3
+taxane	CHEBI:36064	0-6
+taxane	CHEBI:36064	199-205
+taxane	CHEBI:36064	273-279
+severity	HP:0012824	165-173
+week	UO:0000034	226-230
+week	UO:0000034	281-285
+month	UO:0000035	309-314
+month	UO:0000035	336-341
+Entire regiments (AC --> ABI-007 and AC --> Taxol treatment arms) summarize participants with treatment-emergent toxicities defined as any AEs that begin or worsen in severity grade after the start of chemotherapy (cycle 1, week 1) through 30 days after the last dose of chemotherapy (week 20) and were ongoing 3 months after chemotherapy (month 7).	Results	4
+severity	HP:0012824	167-175
+week	UO:0000034	224-228
+week	UO:0000034	285-289
+month	UO:0000035	313-318
+month	UO:0000035	340-345
+Time frame: Month 7	Results	5
+time	PATO:0000165	0-4
+month	UO:0000035	12-17
+Results 1:	Results	6
+Arm/Group Title: ABI-007 Subset	Results	7
+Arm/Group Description: 260 mg/m2 ABI-007 (Abraxane) plus Bevacizumab for 4 cycles (weeks 9-16); Bevacizumab (weeks 17-46). Weeks 1-8 are excluded from this subset.	Results	8
+excluded	HP:0040285	137-145
+Overall Number of Participants Analyzed: 74	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: participants  At least 1 AE at 3 Months: 65	Results	11
+Neurology: Neuropathy: Sensory: 36	Results	12
+neuropathy	DOID:870	11-21
+Constitutional Symptoms: Fatigue: 16	Results	13
+fatigue	HP:0012378	25-32
+Dermatology/Skin: Hair Loss/Alopecia (Scalp+Body): 2	Results	14
+Endocrine: Hot Flashes/Flushes: 12	Results	15
+Cardiac General: Hypertension: 4	Results	16
+hypertension	HP:0000822,DOID:10763	17-29
+Pain: Arthralgia: 7	Results	17
+pain	HP:0012531	0-4
+arthralgia	HP:0002829	6-16
+Hemorrhage/Bleeding: Nasal: 11	Results	18
+Pain: Other - Extremity: 4	Results	19
+pain	HP:0012531	0-4
+Pain: Myalgia: 10	Results	20
+pain	HP:0012531	0-4
+myalgia	HP:0003326	6-13
+Dermatology/Skin: Nail Changes: 14	Results	21
+nail	UBERON:0001705	18-22
+Constitutional Symptoms: Insomnia: 3	Results	22
+insomnia	HP:0100785	25-33
+Results 2:	Results	23
+Arm/Group Title: AC --> ABI-007	Results	24
+Arm/Group Description: Adriamycin and Cytoxan plus Bevacizumab for four cycles (weeks 1-8); 260 mg/m2 ABI-007 (Abraxane) plus Bevacizumab for 4 cycles (weeks 9-16); Bevacizumab (weeks 17-46).	Results	25
+Overall Number of Participants Analyzed: 74	Results	26
+Measure Type: Number	Results	27
+Unit of Measure: participants  At least 1 AE at 3 Months: 74	Results	28
+Neurology: Neuropathy: Sensory: 50	Results	29
+neuropathy	DOID:870	11-21
+Constitutional Symptoms: Fatigue: 46	Results	30
+fatigue	HP:0012378	25-32
+Dermatology/Skin: Hair Loss/Alopecia (Scalp+Body): 33	Results	31
+Endocrine: Hot Flashes/Flushes: 28	Results	32
+Cardiac General: Hypertension: 18	Results	33
+hypertension	HP:0000822,DOID:10763	17-29
+Pain: Arthralgia: 22	Results	34
+pain	HP:0012531	0-4
+arthralgia	HP:0002829	6-16
+Hemorrhage/Bleeding: Nasal: 19	Results	35
+Pain: Other - Extremity: 15	Results	36
+pain	HP:0012531	0-4
+Pain: Myalgia: 20	Results	37
+pain	HP:0012531	0-4
+myalgia	HP:0003326	6-13
+Dermatology/Skin: Nail Changes: 22	Results	38
+nail	UBERON:0001705	18-22
+Constitutional Symptoms: Insomnia: 16	Results	39
+insomnia	HP:0100785	25-33
+Adverse Events 1:	Adverse Events	0
+Total: 30/98 (30.61%)	Adverse Events	1
+Coagulopathy 1/98 (1.02%)	Adverse Events	2
+Febrile neutropenia 7/98 (7.14%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Pancytopenia 2/98 (2.04%)	Adverse Events	4
+pancytopenia	HP:0001876,DOID:12450	0-12
+Cardiac failure 0/98 (0.00%)	Adverse Events	5
+Cardiac failure congestive 0/98 (0.00%)	Adverse Events	6
+Pericardial effusion 0/98 (0.00%)	Adverse Events	7
+pericardial effusion	HP:0001698,DOID:118	0-20
+Appendicitis perforated 1/98 (1.02%)	Adverse Events	8
+appendicitis	DOID:8337	0-12
+Colitis 1/98 (1.02%)	Adverse Events	9
+colitis	HP:0002583,DOID:0060180	0-7
+Ileus 1/98 (1.02%)	Adverse Events	10
+ileus	HP:0002595,DOID:8440	0-5
+Abdominal pain upper 1/98 (1.02%)	Adverse Events	11
+abdominal pain	HP:0002027	0-14
+Gastrointestinal haemorrhage 0/98 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 21/99 (21.21%)	Adverse Events	14
+Coagulopathy 0/99 (0.00%)	Adverse Events	15
+Febrile neutropenia 5/99 (5.05%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Pancytopenia 0/99 (0.00%)	Adverse Events	17
+pancytopenia	HP:0001876,DOID:12450	0-12
+Cardiac failure 1/99 (1.01%)	Adverse Events	18
+Cardiac failure congestive 4/99 (4.04%)	Adverse Events	19
+Pericardial effusion 1/99 (1.01%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Appendicitis perforated 0/99 (0.00%)	Adverse Events	21
+appendicitis	DOID:8337	0-12
+Colitis 0/99 (0.00%)	Adverse Events	22
+colitis	HP:0002583,DOID:0060180	0-7
+Ileus 0/99 (0.00%)	Adverse Events	23
+ileus	HP:0002595,DOID:8440	0-5
+Abdominal pain upper 0/99 (0.00%)	Adverse Events	24
+abdominal pain	HP:0002027	0-14
+Gastrointestinal haemorrhage 1/99 (1.01%)	Adverse Events	25

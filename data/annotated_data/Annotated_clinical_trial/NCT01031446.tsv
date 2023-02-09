@@ -1,0 +1,188 @@
+INTERVENTION 1:	Intervention	0
+RAD001 and Cisplatin and Paclitazel	Intervention	1
+cisplatin	CHEBI:27899	11-20
+Cisplatin intravenously (IV) weekly for 3 weeks, then 1 week of rest; paclitaxel IV weekly for 3 weeks, then 1 week of rest. Everolimus (RAD001) po daily. One cycle = 4 weeks	Intervention	2
+cisplatin	CHEBI:27899	0-9
+week	UO:0000034	29-33
+week	UO:0000034	42-46
+week	UO:0000034	56-60
+week	UO:0000034	84-88
+week	UO:0000034	97-101
+week	UO:0000034	111-115
+week	UO:0000034	169-173
+paclitaxel	CHEBI:45863	70-80
+everolimus	CHEBI:68478	125-135
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed invasive mammary carcinoma	Eligibility	1
+carcinoma	HP:0030731,DOID:305	42-51
+Stage IV disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	9-16
+Basal-like disease (triple-negative, hormone-refractory, HER2-negative)	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+No locally recurrent breast cancer	Eligibility	4
+recurrent	HP:0031796	11-20
+breast cancer	DOID:1612	21-34
+No symptomatic brain metastases	Eligibility	5
+brain	UBERON:0000955	15-20
+Patients with a history of brain metastases are eligible provided they are clinically stable for > 3 weeks after completion of radiotherapy and are not taking steroids or therapeutic anticonvulsants that are cytochrome P450 3A4 (CYP3A4) modifiers	Eligibility	6
+history	BFO:0000182	16-23
+brain	UBERON:0000955	27-32
+stable	HP:0031915	86-92
+radiotherapy	OAE:0000235	127-139
+cytochrome p450	CHEBI:38559	208-223
+Patients with asymptomatic brain metastases are eligible provided they are not taking prophylactic anticonvulsants that are CYP3A4 modifiers	Eligibility	7
+brain	UBERON:0000955	27-32
+PATIENT CHARACTERISTICS:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Pre- or post-menopausal	Eligibility	9
+European Cooperative Oncology Group (ECOG) performance status 0-1	Eligibility	10
+group	CHEBI:24433	30-35
+Life expectancy  6 months	Eligibility	11
+Absolute neutrophil count (ANC)  1,000/mm^3	Eligibility	12
+Platelet count  100,000/mm^3	Eligibility	13
+platelet count	CMO:0000029	0-14
+Creatinine  1.5 times upper limit of normal (ULN)	Eligibility	14
+creatinine	CHEBI:16737	0-10
+Total bilirubin  1.5 times ULN ( 3 times ULN in the presence of liver metastasis)	Eligibility	15
+liver	UBERON:0002107	64-69
+Direct bilirubin will be measured in patients with Gilbert syndrome	Eligibility	16
+gilbert syndrome	DOID:2739	51-67
+serum glutamate oxaloacetate transaminase (SGOT) and serum glutamate pyruvate transaminase (SGPT)  1.5 times ULN ( 3 times ULN in the presence of liver metastasis)	Eligibility	17
+glutamate	CHEBI:14321,BAO:0000926	6-15
+glutamate	CHEBI:14321,BAO:0000926	59-68
+pyruvate	CHEBI:15361	69-77
+liver	UBERON:0002107	146-151
+Alkaline phosphatase  3 times ULN (in the presence of liver metastasis)	Eligibility	18
+phosphatase	GO:0016791,BAO:0000295	9-20
+liver	UBERON:0002107	54-59
+Not pregnant or nursing	Eligibility	19
+Negative pregnancy test	Eligibility	20
+Fertile patients must use effective barrier contraception during and for 3 months after completion of study treatment	Eligibility	21
+Able to swallow and retain oral medication	Eligibility	22
+No malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel	Eligibility	23
+malabsorption	HP:0002024	3-16
+syndrome	DOID:225	17-25
+disease	DOID:4,OGMS:0000031	27-34
+function	BAO:0003117,BFO:0000034	76-84
+stomach	UBERON:0000945	106-113
+No concurrent uncontrolled illness including, but not limited to, any of the following:	Eligibility	24
+Ongoing or active infection requiring parenteral antibiotics	Eligibility	25
+active	PATO:0002354	11-17
+Impaired lung function (chronic obstructive pulmonary disease or lung conditions requiring oxygen therapy)	Eligibility	26
+lung	UBERON:0002048	9-13
+lung	UBERON:0002048	65-69
+function	BAO:0003117,BFO:0000034	14-22
+chronic obstructive pulmonary disease	DOID:3083	24-61
+New York Heart Association class III-IV congestive heart failure	Eligibility	27
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	51-56
+congestive heart failure	HP:0001635,DOID:6000	40-64
+Unstable angina pectoris, angioplasty, stenting, or myocardial infarction within the past 6 months	Eligibility	28
+angina pectoris	HP:0001681	9-24
+myocardial infarction	HP:0001658,DOID:5844	52-73
+Uncontrolled hypertension (systolic BP > 180 mm Hg or diastolic BP > 100 mm Hg, found on 2 consecutive measurements separated by a 1-week period and despite adequate medical support)	Eligibility	29
+hypertension	HP:0000822,DOID:10763	13-25
+Clinically significant cardiac arrhythmia (multifocal premature ventricular contractions, bigeminy, trigeminy, ventricular tachycardia that is symptomatic or requires treatment [grade 3 according to NCI Common Toxicity Criteria for Adverse Events v3.0])	Eligibility	30
+arrhythmia	HP:0011675	31-41
+multifocal	HP:0030651	43-53
+ventricular tachycardia	HP:0004756	111-134
+Uncontrolled diabetes (hyperosmolar state, ketoacidosis, etc.)	Eligibility	31
+ketoacidosis	HP:0001993	43-55
+Psychiatric illness or social situations that would compromise patient safety or limit compliance with study requirements including maintenance of a compliance/pill diary	Eligibility	32
+patient	HADO:0000008,OAE:0001817	63-70
+No symptomatic neuropathy  grade 2	Eligibility	33
+neuropathy	DOID:870	15-25
+No other invasive cancer within the past 5 years except for completely resected basal cell or squamous cell carcinoma of the skin or successfully treated cervical carcinoma in situ	Eligibility	34
+cancer	DOID:162	18-24
+squamous cell carcinoma of the skin	HP:0006739	94-129
+carcinoma	HP:0030731,DOID:305	108-117
+carcinoma	HP:0030731,DOID:305	163-172
+No hypersensitivity to paclitaxel or drugs using the vehicle Cremophor, Chinese hamster ovary cell products, or other recombinant human antibodies	Eligibility	35
+hypersensitivity	GO:0002524,DOID:1205	3-19
+paclitaxel	CHEBI:45863	23-33
+ovary	UBERON:0000992	88-93
+No history of hepatitis B or C	Eligibility	36
+history	BFO:0000182	3-10
+hepatitis b	DOID:2043	14-25
+PRIOR CONCURRENT THERAPY:	Eligibility	37
+See Disease Characteristics	Eligibility	38
+disease	DOID:4,OGMS:0000031	4-11
+Recovered from prior therapy	Eligibility	39
+Prior total cumulative life-time dose of doxorubicin  360 mg/m^2 or epirubicin  640 mg/m^2	Eligibility	40
+doxorubicin	CHEBI:28748,BAO:0000639	41-52
+No more than 4 prior chemotherapy treatments in the metastatic setting (not including endocrine therapy or single-agent biologic therapy)	Eligibility	41
+At least 2 weeks since prior investigational drugs	Eligibility	42
+At least 14 days since prior and no concurrent herbal or dietary supplements	Eligibility	43
+At least 14 days since prior and no concurrent CYP3A4 inducers	Eligibility	44
+At least 7 days since prior and no concurrent CYP3A4 inhibitors	Eligibility	45
+Concurrent radiotherapy to painful bone metastases or areas of impending bone fracture allowed provided radiotherapy is initiated before study entry	Eligibility	46
+radiotherapy	OAE:0000235	11-23
+radiotherapy	OAE:0000235	104-116
+bone fracture	HP:0020110	73-86
+No other concurrent anticancer therapy (chemotherapy, radiotherapy, surgery, immunotherapy, hormonal therapy, biologic therapy)	Eligibility	47
+radiotherapy	OAE:0000235	54-66
+surgery	OAE:0000067	68-75
+Outcome Measurement:	Results	0
+Maximum Feasible Dose in Milligrams Per Meter Squared of Body Surface Area (mg/m2) of Cisplatin and Paclitaxel for Women With Metastatic Breast Cancer	Results	1
+meter	UO:0000008	40-45
+area	PATO:0001323	70-74
+cisplatin	CHEBI:27899	86-95
+paclitaxel	CHEBI:45863	100-110
+breast cancer	DOID:1612	137-150
+The recommended dose for the Phase II trial will be the most prevalent dose delivered per week in Phase I that allows for safe and feasible administration of the medications.The maximum tolerated dose (MTD) is defined as the dose preceding that at which 2 or more of 3 patients experience dose-limiting toxicity (DLT) during the initial cycle of therapy. DLTs include Common Toxicity Criteria (CTC) Grade 4 neutropenia (absolute neutrophil count [ANC] < 0.5 x 10 9/L for > 5 days), febrile neutropenia (ANC < 1.0 x 10 0/L with fever > 38.5 degrees Centigrade) or documented infection associated with Grade 3-4 neutropenia, CTC Grade 4 thrombocytopenia < 25 x 10 9/L or CTC Grade 3 < 50-25 x 10 9/L thrombocytopenia with bleeding, and Grade 3-4 non-hematologic toxicity despite symptomatic therapy.	Results	2
+week	UO:0000034	90-94
+mtd	BAO:0001248	202-205
+neutropenia	HP:0001875,DOID:1227	407-418
+neutropenia	HP:0001875,DOID:1227	490-501
+neutropenia	HP:0001875,DOID:1227	610-621
+x	LABO:0000148	180-181
+x	LABO:0000148	279-280
+x	LABO:0000148	305-306
+x	LABO:0000148	377-378
+x	LABO:0000148	458-459
+x	LABO:0000148	513-514
+x	LABO:0000148	657-658
+x	LABO:0000148	689-690
+x	LABO:0000148	762-763
+fever	HP:0001945	527-532
+thrombocytopenia	HP:0001873,DOID:1588	635-651
+thrombocytopenia	HP:0001873,DOID:1588	698-714
+Time frame: at 8 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: RAD001 and Cisplatin and Paclitazel	Results	5
+cisplatin	CHEBI:27899	28-37
+Arm/Group Description: Cisplatin intravenously (IV) weekly for 3 weeks, then 1 week of rest; paclitaxel IV weekly for 3 weeks, then 1 week of rest. Everolimus (RAD001) po daily. One cycle = 4 weeks	Results	6
+cisplatin	CHEBI:27899	23-32
+week	UO:0000034	52-56
+week	UO:0000034	65-69
+week	UO:0000034	79-83
+week	UO:0000034	107-111
+week	UO:0000034	120-124
+week	UO:0000034	134-138
+week	UO:0000034	192-196
+paclitaxel	CHEBI:45863	93-103
+everolimus	CHEBI:68478	148-158
+Overall Number of Participants Analyzed: 3	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: mg/m2  Cisplatin: 25	Results	9
+cisplatin	CHEBI:27899	24-33
+Paclitaxel: 80	Results	10
+paclitaxel	CHEBI:45863	0-10
+Adverse Events 1:	Adverse Events	0
+Total: 9/55 (16.36%)	Adverse Events	1
+neutrophils2/55 (3.64%)	Adverse Events	2
+leukocytes1/55 (1.82%)	Adverse Events	3
+platelets1/55 (1.82%)	Adverse Events	4
+febrile neutropenia, ANC < 1.0 x 10e9L, fever  38.5 degrees Celsius1/55 (1.82%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+x	LABO:0000148	31-32
+fever	HP:0001945	40-45
+anemia2/55 (3.64%)	Adverse Events	6
+thrombocytopenia2/55 (3.64%)	Adverse Events	7
+ventricular tachycardia1/55 (1.82%)	Adverse Events	8
+pain-abdomen3/55 (5.45%)	Adverse Events	9
+diarrhea1/55 (1.82%)	Adverse Events	10
+nausea3/55 (5.45%)	Adverse Events	11
+vomiting3/55 (5.45%)	Adverse Events	12

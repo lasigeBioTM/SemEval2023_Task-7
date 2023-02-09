@@ -1,0 +1,79 @@
+INTERVENTION 1:	Intervention	0
+ARM 1 Daily Boost	Intervention	1
+Radiation Therapy	Intervention	2
+Radiation Therapy: Arm 1= 15 daily radiation fractions of 2.7 Gy, Monday to Friday for 3 weeks, to the whole breast with a daily concomitant boost of 0.5 Gy to the tumor bed, for a total daily dose of 3.2 Gy to the tumor bed (2.7Gy+0.5 Gy). The overall dose will be 40.5 Gy to the breast and 48.0 Gy to the tumor bed.	Intervention	3
+breast	UBERON:0000310	109-115
+breast	UBERON:0000310	281-287
+Arm 2= 15 daily radiation fractions of 2.7 Gy Monday to friday for three weeks to the entire breast with a Friday boost of 2.0 Gy to the tumor bed, for a total dose to the tumor bed on each friday of 4.7 Gy (2.7 Gy+ 2.0 Gy). The overall dose will be 40.5 Gy to the breast and 46.5 gy to the tumor bed.	Intervention	4
+breast	UBERON:0000310	93-99
+breast	UBERON:0000310	265-271
+INTERVENTION 2:	Intervention	5
+ARM 2 Weekly Boost	Intervention	6
+Radiation Therapy	Intervention	7
+Radiation Therapy: Arm 1= 15 daily radiation fractions of 2.7 Gy, Monday to Friday for 3 weeks, to the whole breast with a daily concomitant boost of 0.5 Gy to the tumor bed, for a total daily dose of 3.2 Gy to the tumor bed (2.7Gy+0.5 Gy). The overall dose will be 40.5 Gy to the breast and 48.0 Gy to the tumor bed.	Intervention	8
+breast	UBERON:0000310	109-115
+breast	UBERON:0000310	281-287
+Arm 2= 15 daily radiation fractions of 2.7 Gy Monday to friday for three weeks to the entire breast with a Friday boost of 2.0 Gy to the tumor bed, for a total dose to the tumor bed on each friday of 4.7 Gy (2.7 Gy+ 2.0 Gy). The overall dose will be 40.5 Gy to the breast and 46.5 gy to the tumor bed.	Intervention	9
+breast	UBERON:0000310	93-99
+breast	UBERON:0000310	265-271
+Inclusion Criteria:	Eligibility	0
+Pre or post-menopausal women with stage 0,I, and II breast cancer	Eligibility	1
+breast cancer	DOID:1612	52-65
+Biopsy-proven invasive breast cancer, excised with negative margins of at least 1 mm	Eligibility	2
+breast cancer	DOID:1612	23-36
+Status post segmental mastectomy, after sentinel node biopsy and/or axillary node dissection (DCIS and Tumors <5mm do not require nodal assessment)	Eligibility	3
+At least 2 weeks from last chemotherapy	Eligibility	4
+Patient needs to be able to understand and demonstrate willingness to sign a written informed consent document	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+document	IAO:0000310	102-110
+Exclusion Criteria:	Eligibility	6
+Previous radiation therapy to the ipsilateral breast	Eligibility	7
+breast	UBERON:0000310	46-52
+More than 3 involved nodes identified at axillary staging, requiring adjuvant axillary radiation	Eligibility	8
+adjuvant	CHEBI:60809	69-77
+Active connective tissue disorders, such as lupus or scleroderma	Eligibility	9
+active	PATO:0002354	0-6
+connective tissue	UBERON:0002384	7-24
+scleroderma	HP:0100324,DOID:419,DOID:418	53-64
+Prior or concurrent malignancy other than basal or squamous cell skin cancer or carcinoma in-situ of the cervix, unless disease-free >3 years	Eligibility	10
+skin cancer	DOID:4159	65-76
+carcinoma	HP:0030731,DOID:305	80-89
+Pregnant or lactating women	Eligibility	11
+Outcome Measurement:	Results	0
+Number of Participants With Acute Radiation Toxicities Recorded According to Radiation Therapy Oncology Group (RTOG)	Results	1
+acute	HP:0011009,PATO:0000389	28-33
+group	CHEBI:24433	104-109
+Number of patients with a grade 2 or greater toxicity after 3 weeks of whole breast IMRT with a once/week boost compared to those patients treated with a daily boost: 0 - no symptoms, 5 - death directly related to radiation effects	Results	2
+breast	UBERON:0000310	77-83
+death	OAE:0000632	188-193
+Time frame: Day 60	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	12-15
+Results 1:	Results	4
+Arm/Group Title: ARM 1 Daily Boost	Results	5
+Arm/Group Description: Radiation Therapy	Results	6
+Radiation Therapy: Arm 1= 15 daily radiation fractions of 2.7 Gy, Monday to Friday for 3 weeks, to the whole breast with a daily concomitant boost of 0.5 Gy to the tumor bed, for a total daily dose of 3.2 Gy to the tumor bed (2.7Gy+0.5 Gy). The overall dose will be 40.5 Gy to the breast and 48.0 Gy to the tumor bed.	Results	7
+breast	UBERON:0000310	109-115
+breast	UBERON:0000310	281-287
+Arm 2= 15 daily radiation fractions of 2.7 Gy Monday to friday for three weeks to the entire breast with a Friday boost of 2.0 Gy to the tumor bed, for a total dose to the tumor bed on each friday of 4.7 Gy (2.7 Gy+ 2.0 Gy). The overall dose will be 40.5 Gy to the breast and 46.5 gy to the tumor bed.	Results	8
+breast	UBERON:0000310	93-99
+breast	UBERON:0000310	265-271
+Overall Number of Participants Analyzed: 202	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: participants  22	Results	11
+Results 2:	Results	12
+Arm/Group Title: ARM 2 Weekly Boost	Results	13
+Arm/Group Description: Radiation Therapy	Results	14
+Radiation Therapy: Arm 1= 15 daily radiation fractions of 2.7 Gy, Monday to Friday for 3 weeks, to the whole breast with a daily concomitant boost of 0.5 Gy to the tumor bed, for a total daily dose of 3.2 Gy to the tumor bed (2.7Gy+0.5 Gy). The overall dose will be 40.5 Gy to the breast and 48.0 Gy to the tumor bed.	Results	15
+breast	UBERON:0000310	109-115
+breast	UBERON:0000310	281-287
+Arm 2= 15 daily radiation fractions of 2.7 Gy Monday to friday for three weeks to the entire breast with a Friday boost of 2.0 Gy to the tumor bed, for a total dose to the tumor bed on each friday of 4.7 Gy (2.7 Gy+ 2.0 Gy). The overall dose will be 40.5 Gy to the breast and 46.5 gy to the tumor bed.	Results	16
+breast	UBERON:0000310	93-99
+breast	UBERON:0000310	265-271
+Overall Number of Participants Analyzed: 198	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: participants  16	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/202 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

@@ -1,0 +1,108 @@
+INTERVENTION 1:	Intervention	0
+Sunitinib + Paclitaxel	Intervention	1
+sunitinib	CHEBI:38940	0-9
+paclitaxel	CHEBI:45863	12-22
+Starting sunitinib doses of 25 mg daily. After Cycle 1, escalation to 37.5 mg daily was permitted in the absence of complicated neutropenia and if all 3 Cycle 1 paclitaxel doses were successfully administered at 90 mg/m^2, at discretion of the investigator. Paclitaxel could have been reduced to 65 mg/m^2 based on tolerability; re-escalation to 80 or 90 mg/m^2 upon recovery was permitted.	Intervention	2
+sunitinib	CHEBI:38940	9-18
+neutropenia	HP:0001875,DOID:1227	128-139
+paclitaxel	CHEBI:45863	161-171
+paclitaxel	CHEBI:45863	258-268
+INTERVENTION 2:	Intervention	3
+Bevacizumab + Paclitaxel	Intervention	4
+paclitaxel	CHEBI:45863	14-24
+Bevacizumab 10 mg/kg; infusion duration according to standard of care. Paclitaxel starting dose of 90 mg/m^2, as a 1 hour infusion. Paclitaxel could have been reduced to 65 mg/m^2 based on tolerability; re-escalation to 80 or 90 mg/m^2 upon recovery was permitted.	Intervention	5
+duration	PATO:0001309	31-39
+paclitaxel	CHEBI:45863	71-81
+paclitaxel	CHEBI:45863	132-142
+hour	UO:0000032	117-121
+Inclusion Criteria:	Eligibility	0
+Diagnosis of advanced breast cancer.	Eligibility	1
+breast cancer	DOID:1612	22-35
+Measurable disease as per RECIST (Response Evaluation Criterion) in Solid Tumors or bone-only disease.	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	94-101
+ECOG (Eastern Cooperative Oncology Group) performance status 0 or 1.	Eligibility	3
+group	CHEBI:24433	35-40
+Exclusion Criteria:	Eligibility	4
+No prior treatment with cytotoxics in the advanced disease setting.	Eligibility	5
+disease	DOID:4,OGMS:0000031	51-58
+HER2/neu positive disease unless trastuzumab was previously received or is contraindicated.	Eligibility	6
+disease	DOID:4,OGMS:0000031	18-25
+Treatment with a taxane in the adjuvant setting unless disease free interval >12 months after end of treatment.	Eligibility	7
+taxane	CHEBI:36064	17-23
+adjuvant	CHEBI:60809	31-39
+disease	DOID:4,OGMS:0000031	55-62
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+Time from date of randomization to the date of the first documentation of objective tumor progression or death due to any cause, whichever occurred first. PFS = (first event date minus randomization date +1) divided by 30.4	Results	2
+time	PATO:0000165	0-4
+death	OAE:0000632	105-110
+Time frame: From date of randomization through Day 1 and every 8 weeks thereafter up to 18 months or death	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	47-50
+death	OAE:0000632	101-106
+Results 1:	Results	4
+Arm/Group Title: Sunitinib + Paclitaxel	Results	5
+sunitinib	CHEBI:38940	17-26
+paclitaxel	CHEBI:45863	29-39
+Arm/Group Description: Starting sunitinib doses of 25 mg daily. After Cycle 1, escalation to 37.5 mg daily was permitted in the absence of complicated neutropenia and if all 3 Cycle 1 paclitaxel doses were successfully administered at 90 mg/m^2, at discretion of the investigator. Paclitaxel could have been reduced to 65 mg/m^2 based on tolerability; re-escalation to 80 or 90 mg/m^2 upon recovery was permitted.	Results	6
+sunitinib	CHEBI:38940	32-41
+neutropenia	HP:0001875,DOID:1227	151-162
+paclitaxel	CHEBI:45863	184-194
+paclitaxel	CHEBI:45863	281-291
+Overall Number of Participants Analyzed: 242	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  7.4        (6.9 to 8.5)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Bevacizumab + Paclitaxel	Results	11
+paclitaxel	CHEBI:45863	31-41
+Arm/Group Description: Bevacizumab 10 mg/kg; infusion duration according to standard of care. Paclitaxel starting dose of 90 mg/m^2, as a 1 hour infusion. Paclitaxel could have been reduced to 65 mg/m^2 based on tolerability; re-escalation to 80 or 90 mg/m^2 upon recovery was permitted.	Results	12
+duration	PATO:0001309	54-62
+paclitaxel	CHEBI:45863	94-104
+paclitaxel	CHEBI:45863	155-165
+hour	UO:0000032	140-144
+Overall Number of Participants Analyzed: 243	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  9.2        (7.7 to 13.0)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 89/235 (37.87%)	Adverse Events	1
+Anaemia 3/235 (1.28%)	Adverse Events	2
+Febrile neutropenia 12/235 (5.11%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 1/235 (0.43%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 6/235 (2.55%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 2/235 (0.85%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 2/235 (0.85%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 1/235 (0.43%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 1/235 (0.43%)	Adverse Events	9
+Cardiogenic shock 1/235 (0.43%)	Adverse Events	10
+cardiogenic shock	HP:0030149	0-17
+Cardiovascular disorder 0/235 (0.00%)	Adverse Events	11
+disorder	OGMS:0000045	15-23
+Adverse Events 2:	Adverse Events	12
+Total: 85/242 (35.12%)	Adverse Events	13
+Anaemia 1/242 (0.41%)	Adverse Events	14
+Febrile neutropenia 3/242 (1.24%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/242 (0.00%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 2/242 (0.83%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/242 (0.00%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/242 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 2/242 (0.83%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 1/242 (0.41%)	Adverse Events	21
+Cardiogenic shock 0/242 (0.00%)	Adverse Events	22
+cardiogenic shock	HP:0030149	0-17
+Cardiovascular disorder 1/242 (0.41%)	Adverse Events	23
+disorder	OGMS:0000045	15-23

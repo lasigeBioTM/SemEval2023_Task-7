@@ -1,0 +1,175 @@
+INTERVENTION 1:	Intervention	0
+Cohort A1	Intervention	1
+Cohort A1 will include patients with a triple negative breast tumor. Patients will be treated with one injection of Pembrolizumab (Keytruda®) administered intravenously at 200 mg 10 +/- 4 days before surgery.	Intervention	2
+breast	UBERON:0000310	55-61
+surgery	OAE:0000067	200-207
+Pembrolizumab: Biological: humanized anti-PD-1 monoclonal antibody humanized anti-PD-1 monoclonal antibody is a programmed death-1 (PD-1) immune checkpoint inhibitor antibody, which selectively interferes with the combination of PD-1 with its ligands, PD-L1 and PD-L2.	Intervention	3
+monoclonal	BAO:0000503	47-57
+monoclonal	BAO:0000503	87-97
+antibody	GO:0042571,BAO:0000502	58-66
+antibody	GO:0042571,BAO:0000502	98-106
+antibody	GO:0042571,BAO:0000502	166-174
+inhibitor	CHEBI:35222	156-165
+INTERVENTION 2:	Intervention	4
+Cohort A2	Intervention	5
+Cohort A2 will include patients with ER/PR negative and Her2 positive breast tumor. Patients will be treated with one injection of Pembrolizumab (Keytruda®) administered intravenously at 200 mg 10 +/- 4 days before surgery.	Intervention	6
+breast	UBERON:0000310	70-76
+surgery	OAE:0000067	215-222
+Pembrolizumab: Biological: humanized anti-PD-1 monoclonal antibody humanized anti-PD-1 monoclonal antibody is a programmed death-1 (PD-1) immune checkpoint inhibitor antibody, which selectively interferes with the combination of PD-1 with its ligands, PD-L1 and PD-L2.	Intervention	7
+monoclonal	BAO:0000503	47-57
+monoclonal	BAO:0000503	87-97
+antibody	GO:0042571,BAO:0000502	58-66
+antibody	GO:0042571,BAO:0000502	98-106
+antibody	GO:0042571,BAO:0000502	166-174
+inhibitor	CHEBI:35222	156-165
+Inclusion Criteria:	Eligibility	0
+Be willing and able to provide written informed consent/assent for the trial.	Eligibility	1
+Be 18 years of age on day of signing informed consent.	Eligibility	2
+age	PATO:0000011	15-18
+day	UO:0000033	22-25
+Be willing to provide tissue from a newly obtained core or excisional biopsy of a tumor lesion if needed. Newly obtained is defined as a specimen obtained up to 6 weeks (42 days) prior to initiation of treatment on Day 0. Subjects for whom newly obtained samples cannot be provided (e.g. inaccessible or subject safety concern) may submit an archived specimen only upon agreement from the Sponsor.	Eligibility	3
+tissue	UBERON:0000479	22-28
+day	UO:0000033	173-176
+day	UO:0000033	215-218
+Have a performance status of 0 or 1 on the ECOG Performance Scale.	Eligibility	4
+Have non-metastatic operable newly diagnosed primary invasive carcinoma of the breast that is:	Eligibility	5
+carcinoma	HP:0030731,DOID:305	62-71
+breast	UBERON:0000310	79-85
+Histologically confirmed	Eligibility	6
+ER/PR negative or ER positive. ER/PR status will be evaluated with Allred score (semi-quantitative measurement) following ASCO CAP guidelines 2009.	Eligibility	7
+HER2 negative of positive. HER2 status will be evaluated using IHC followed by FISH with dual probe (ASCO CAP guidelines 2013).	Eligibility	8
+probe	CHEBI:50406	94-99
+Primary tumor size greater than 1 cm, measured by any of clinical examination, mammography, ultrasound or magnetic resonance imaging	Eligibility	9
+size	PATO:0000117	14-18
+Any clinical nodal status	Eligibility	10
+Have evaluable core biopsy for IHC	Eligibility	11
+Be willing to provide plasma/blood samples	Eligibility	12
+After neo-adjuvant chemotherapy (cohort B1 and B2) patients must have residual tumor >1cm and must be willing to provide evaluable new tumor biopsy for IHC	Eligibility	13
+Demonstrate adequate organ function, all screening labs should be performed within 14 days of treatment initiation.	Eligibility	14
+organ	UBERON:0000062	21-26
+function	BAO:0003117,BFO:0000034	27-35
+Female subject of childbearing potential should have a negative urine or serum pregnancy test within 72 hours prior to receiving the study medication. If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required.	Eligibility	15
+female	PATO:0000383	0-6
+urine	UBERON:0001088	64-69
+urine	UBERON:0001088	158-163
+Female subjects of childbearing potential (Section 5.7.2) must be willing to use an adequate method of contraception as outlined in Section 5.7.2 - Contraception, for the course of the study through 120 days after receiving the study medication.	Eligibility	16
+female	PATO:0000383	0-6
+Note: Abstinence is acceptable if this is the usual lifestyle and preferred contraception for the subject.	Eligibility	17
+Male subjects of childbearing potential (Section 5.7.1) must agree to use an adequate method of contraception as outlined in Section 5.7.1- Contraception, until 120 after receiving the study therapy.	Eligibility	18
+male	CHEBI:30780,PATO:0000384	0-4
+Note: Abstinence is acceptable if this is the usual lifestyle and preferred contraception for the subject.	Eligibility	19
+Exclusion Criteria:	Eligibility	20
+Is currently participating and receiving study therapy or has participated in a study of an investigational agent and received study therapy or used an investigational device within 4 weeks of receiving the treatment dose.	Eligibility	21
+Has a diagnosis of immunodeficiency or is receiving systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to receiving the trial treatment.	Eligibility	22
+immunodeficiency	HP:0002721	19-35
+steroid	CHEBI:35341	61-68
+Has a known history of active TB (Bacillus Tuberculosis)	Eligibility	23
+history	BFO:0000182	12-19
+active	PATO:0002354	23-29
+tuberculosis	DOID:399	43-55
+Hypersensitivity to pembrolizumab or any of its excipients.	Eligibility	24
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Has had a prior anti-cancer monoclonal antibody (mAb) within 4 weeks prior to study Day 1 or who has not recovered (i.e.,  Grade 1 or at baseline) from adverse events due to agents administered more than 4 weeks earlier.	Eligibility	25
+monoclonal	BAO:0000503	28-38
+antibody	GO:0042571,BAO:0000502	39-47
+day	UO:0000033	84-87
+Has had prior chemotherapy, targeted small molecule therapy, or radiation therapy within 2 weeks prior to study Day 0 or who has not recovered (i.e.,  Grade 1 or at baseline) from adverse events due to a previously administered agent.	Eligibility	26
+small molecule	BAO:0000176	37-51
+day	UO:0000033	112-115
+Note: Subjects with  Grade 2 neuropathy are an exception to this criterion and may qualify for the study.	Eligibility	27
+neuropathy	DOID:870	29-39
+Note: If subject received major surgery, they must have recovered adequately from the toxicity and/or complications from the intervention prior to starting therapy.	Eligibility	28
+surgery	OAE:0000067	32-39
+Has a known additional malignancy that is progressing or requires active treatment. Exceptions include basal cell carcinoma of the skin or squamous cell carcinoma of the skin that has undergone potentially curative therapy or in situ cervical cancer.	Eligibility	29
+active	PATO:0002354	66-72
+basal cell carcinoma	HP:0002671,DOID:2513	103-123
+squamous cell carcinoma of the skin	HP:0006739	139-174
+cervical cancer	DOID:4362	234-249
+Has active autoimmune disease that has required systemic treatment in the past 2 years (i.e. with use of disease modifying agents, corticosteroids or immunosuppressive drugs). Replacement therapy (eg., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment.	Eligibility	30
+active	PATO:0002354	4-10
+autoimmune disease	DOID:417	11-29
+disease	DOID:4,OGMS:0000031	22-29
+disease	DOID:4,OGMS:0000031	105-112
+thyroxine	CHEBI:305790	202-211
+insulin	CHEBI:145810	213-220
+corticosteroid	CHEBI:50858	131-145
+corticosteroid	CHEBI:50858	237-251
+Has known history of (non-infectious) pneumonitis that required steroids or current pneumonitis.	Eligibility	31
+history	BFO:0000182	10-17
+Has an active infection requiring systemic therapy.	Eligibility	32
+active	PATO:0002354	7-13
+Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the trial, interfere with the subject's participation for the full duration of the trial, or is not in the best interest of the subject to participate, in the opinion of the treating investigator.	Eligibility	33
+history	BFO:0000182	6-13
+condition	PDRO:0000129	41-50
+duration	PATO:0001309	189-197
+Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial.	Eligibility	34
+substance abuse	DOID:302	25-40
+Is pregnant or breastfeeding, or expecting to conceive or father children within the projected duration of the trial, starting with the pre-screening or screening visit through 120 days after the last dose of trial treatment.	Eligibility	35
+duration	PATO:0001309	95-103
+Has received prior therapy with an anti-PD-1, anti-PD-L1, anti-PD-L2 agent or co-inhibitory T-cell receptor therapy (e.g. OX40-CD137, CTLA-4)	Eligibility	36
+receptor	BAO:0000281	99-107
+Has a known history of Human Immunodeficiency Virus (HIV) (HIV 1/2 antibodies).	Eligibility	37
+history	BFO:0000182	12-19
+immunodeficiency	HP:0002721	29-45
+virus	BAO:0000232	46-51
+Has known active Hepatitis B (e.g., HBsAg reactive) or Hepatitis C (e.g., HCV RNA [qualitative] is detected).	Eligibility	38
+active	PATO:0002354	10-16
+active	PATO:0002354	44-50
+hepatitis b	DOID:2043	17-28
+hepatitis c	DOID:1883	55-66
+rna	BAO:0000270	78-81
+qualitative	PATO:0000068	83-94
+Has received a live vaccine within 30 days of planned start of study therapy. Note: Seasonal influenza vaccines for injection are generally inactivated flu vaccines and are allowed; however intranasal influenza vaccines (e.g., Flu-Mist®) are live attenuated vaccines, and are not allowed.	Eligibility	39
+vaccine	VO:0000001	20-27
+vaccine	VO:0000001	103-110
+vaccine	VO:0000001	156-163
+vaccine	VO:0000001	211-218
+vaccine	VO:0000001	258-265
+influenza	DOID:8469	93-102
+influenza	DOID:8469	201-210
+Outcome Measurement:	Results	0
+PD-1 Expression	Results	1
+PD-1 expression after a single dose of pembrolizumab.	Results	2
+Immunohistochemical stains were performed on 5-μm thick sections using an automatic immunostainer (Bond Max Autostainer, Leica) according to the manufacturer's instructions.	Results	3
+A monoclonal antibodie was used for PD1 (clone NAT105, Abcam). PD1 expression on sTIL was assessed semi quantitatively.	Results	4
+monoclonal	BAO:0000503	2-12
+Time frame: 2 years	Results	5
+time	PATO:0000165	0-4
+Results 1:	Results	6
+Arm/Group Title: Cohort A1	Results	7
+Arm/Group Description: Cohort A1 will include patients with a triple negative breast tumor. Patients will be treated with one injection of Pembrolizumab (Keytruda  ) administered intravenously at 200 mg 10 +/- 4 days before surgery.	Results	8
+breast	UBERON:0000310	78-84
+surgery	OAE:0000067	224-231
+Pembrolizumab: Biological: humanized anti-PD-1 monoclonal antibody humanized anti-PD-1 monoclonal antibody is a programmed death-1 (PD-1) immune checkpoint inhibitor antibody, which selectively interferes with the combination of PD-1 with its ligands, PD-L1 and PD-L2.	Results	9
+monoclonal	BAO:0000503	47-57
+monoclonal	BAO:0000503	87-97
+antibody	GO:0042571,BAO:0000502	58-66
+antibody	GO:0042571,BAO:0000502	98-106
+antibody	GO:0042571,BAO:0000502	166-174
+inhibitor	CHEBI:35222	156-165
+Overall Number of Participants Analyzed: 15	Results	10
+Median (Full Range)	Results	11
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: percentage  0        (0 to 10)	Results	12
+Results 2:	Results	13
+Arm/Group Title: Cohort A2	Results	14
+Arm/Group Description: Cohort A2 will include patients with ER/PR negative and Her2 positive breast tumor. Patients will be treated with one injection of Pembrolizumab (Keytruda  ) administered intravenously at 200 mg 10 +/- 4 days before surgery.	Results	15
+breast	UBERON:0000310	93-99
+surgery	OAE:0000067	239-246
+Pembrolizumab: Biological: humanized anti-PD-1 monoclonal antibody humanized anti-PD-1 monoclonal antibody is a programmed death-1 (PD-1) immune checkpoint inhibitor antibody, which selectively interferes with the combination of PD-1 with its ligands, PD-L1 and PD-L2.	Results	16
+monoclonal	BAO:0000503	47-57
+monoclonal	BAO:0000503	87-97
+antibody	GO:0042571,BAO:0000502	58-66
+antibody	GO:0042571,BAO:0000502	98-106
+antibody	GO:0042571,BAO:0000502	166-174
+inhibitor	CHEBI:35222	156-165
+Overall Number of Participants Analyzed: 4	Results	17
+Median (Full Range)	Results	18
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: percentage  0        (0 to 1)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/16 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/5 (0.00%)	Adverse Events	3

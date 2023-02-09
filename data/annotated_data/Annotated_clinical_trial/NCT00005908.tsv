@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Dose A-Cohort 1-Arm 1-Docetaxel & Capecitabine	Intervention	1
+capecitabine	CHEBI:31348	34-46
+Docetaxel 75 mg/m^2 intravenous day 1, capecitabine 1000 mg/m^2 orally twice daily day 2-15 for 4 cycles Once the dose was deemed to be too toxic, subsequent patients were enrolled on dose B.	Intervention	2
+day	UO:0000033	32-35
+day	UO:0000033	83-86
+capecitabine	CHEBI:31348	39-51
+INTERVENTION 2:	Intervention	3
+Dose B-Cohort 2-Arm 2 Reduced Dose-Docetaxel & Capecitabine	Intervention	4
+capecitabine	CHEBI:31348	47-59
+Docetaxel 60 mg/m^2 intravenous day 1 capecitabine 937.5 mg/m^2 orally twice daily day 2-15	Intervention	5
+day	UO:0000033	32-35
+day	UO:0000033	83-86
+capecitabine	CHEBI:31348	38-50
+INCLUSION CRITERIA:	Eligibility	0
+Stage II or III breast cancer with a tumor size of greater than 2 cm. Patients with a previous biopsy are eligible provided adequate tumor tissue remains for biopsy in this study.	Eligibility	1
+breast cancer	DOID:1612	16-29
+size	PATO:0000117	43-47
+tissue	UBERON:0000479	139-145
+At least 18 years of age.	Eligibility	2
+age	PATO:0000011	21-24
+Adequate hematopoietic function as defined by absolute neutrophil count greater than 1200/mm^3 and platelet count greater than 100,000/mm^3.	Eligibility	3
+function	BAO:0003117,BFO:0000034	23-31
+platelet count	CMO:0000029	99-113
+Adequate renal function as defined by creatinine less than 1.6 mg/dL.	Eligibility	4
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	38-48
+Adequate hepatic function as defined by total (T.) bilirubin less than 1.4 mg/dL and serum glutamic oxaloacetic transaminase (SGOT)/serum glutamic pyruvic transaminase (SGPT) less than 1.5 times the upper limit of normal and alkaline phosphatase less than 2.5 times upper limit of normal	Eligibility	5
+function	BAO:0003117,BFO:0000034	17-25
+phosphatase	GO:0016791,BAO:0000295	234-245
+Zubrod Performance status 0-2.	Eligibility	6
+EXCLUSION CRITERIA:	Eligibility	7
+Medical or psychiatric condition that, in the opinion of the Principal Investigator, would preclude chemotherapy administration. Patients may be evaluated by psychiatry or medical subspecialties as appropriate.	Eligibility	8
+condition	PDRO:0000129	23-32
+Pregnant or lactating women	Eligibility	9
+Known bleeding disorders	Eligibility	10
+Hypersensitivity to Tween 80 (Polysorbate)	Eligibility	11
+hypersensitivity	GO:0002524,DOID:1205	0-16
+polysorbate	CHEBI:53426	30-41
+Cardiac ejection fraction below normal limits, myocardial infarction within the past 12 months, or symptomatic arrhythmia requiring medical intervention.	Eligibility	12
+ejection fraction	CMO:0000180	8-25
+myocardial infarction	HP:0001658,DOID:5844	47-68
+arrhythmia	HP:0011675	111-121
+medical intervention	OAE:0000002	132-152
+Prior chemotherapy or hormonal therapy for breast cancer. Patients treated with hormonal chemoprevention (tamoxifen or raloxifene) will be eligible.	Eligibility	13
+breast cancer	DOID:1612	43-56
+tamoxifen	CHEBI:41774	106-115
+raloxifene	CHEBI:8772	119-129
+Active malignancy diagnosed within the last 5 years. (Cervical cancer or non-melanomatous skin cancer that has been treated with curative intent will be eligible).	Eligibility	14
+active	PATO:0002354	0-6
+cervical cancer	DOID:4362	54-69
+skin cancer	DOID:4159	90-101
+Outcome Measurement:	Results	0
+Number of Participants With Adverse Events	Results	1
+Here is the number of participants with adverse events. For the detailed list of adverse events see the adverse event module.	Results	2
+adverse event	OAE:0000001	40-53
+adverse event	OAE:0000001	81-94
+adverse event	OAE:0000001	104-117
+Time frame: 6 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Dose A-Cohort 1-Arm 1-Docetaxel & Capecitabine	Results	5
+capecitabine	CHEBI:31348	51-63
+Arm/Group Description: Docetaxel 75 mg/m^2 intravenous day 1, capecitabine 1000 mg/m^2 orally twice daily day 2-15 for 4 cycles Once the dose was deemed to be too toxic, subsequent patients were enrolled on dose B.	Results	6
+day	UO:0000033	55-58
+day	UO:0000033	106-109
+capecitabine	CHEBI:31348	62-74
+Overall Number of Participants Analyzed: 9	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  9	Results	9
+Results 2:	Results	10
+Arm/Group Title: Dose B-Cohort 2-Arm 2 Reduced Dose-Docetaxel & Capecitabine	Results	11
+capecitabine	CHEBI:31348	64-76
+Arm/Group Description: Docetaxel 60 mg/m^2 intravenous day 1 capecitabine 937.5 mg/m^2 orally twice daily day 2-15	Results	12
+day	UO:0000033	55-58
+day	UO:0000033	106-109
+capecitabine	CHEBI:31348	61-73
+Overall Number of Participants Analyzed: 20	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Participants  20	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 29/30 (96.67%)	Adverse Events	1
+Febrile neutropenia  [1]3/30 (10.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphatics 1/30 (3.33%)	Adverse Events	3
+Diarrhea (without colostomy) 5/30 (16.67%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Abdominal pain or cramping 2/30 (6.67%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Colitis 1/30 (3.33%)	Adverse Events	6
+colitis	HP:0002583,DOID:0060180	0-7
+Dehydration 1/30 (3.33%)	Adverse Events	7
+dehydration	HP:0001944	0-11
+Nausea 1/30 (3.33%)	Adverse Events	8
+nausea	HP:0002018	0-6
+Stomatitis/pharyngitis (oral/pharyngeal/mucositis) 1/30 (3.33%)	Adverse Events	9
+Vomiting 1/30 (3.33%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Adverse Events 2:	Adverse Events	11

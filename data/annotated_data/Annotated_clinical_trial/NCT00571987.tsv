@@ -1,0 +1,74 @@
+INTERVENTION 1:	Intervention	0
+Margin Status	Intervention	1
+AngioDynamics (previously RITA Med,Inc) radiofrequency delivery system (consisting of a generator and Starburst XL probe): Generator is connected to a single use probe. Probe is inserted into the lumpectomy cavity and heated to 100 degrees Celsius and held there for 15 minutes, after which probe is removed.	Intervention	2
+probe	CHEBI:50406	115-120
+probe	CHEBI:50406	162-167
+probe	CHEBI:50406	169-174
+probe	CHEBI:50406	291-296
+connected to	BAO:0090011,RO:0002170	136-148
+inserted	BAO:0000641	178-186
+Inclusion Criteria:	Eligibility	0
+Female, 18-100 years old	Eligibility	1
+female	PATO:0000383	0-6
+Not pregnant or breastfeeding	Eligibility	2
+Pre-study radiologic documentation of:	Eligibility	3
+size  5 cm	Eligibility	4
+size	PATO:0000117	0-4
+unicentric, unilateral	Eligibility	5
+unilateral	HP:0012833	12-22
+suspicious mass or calcification	Eligibility	6
+BIRADS classification  IV	Eligibility	7
+location of abnormality > 1 cm from skin	Eligibility	8
+Ductal or Infiltrating Ductal Carcinoma	Eligibility	9
+carcinoma	HP:0030731,DOID:305	30-39
+Grade I-III on final pathology	Eligibility	10
+Good general health	Eligibility	11
+Zubrod Performance Status of 0,1, or 2	Eligibility	12
+No previous chemotherapy	Eligibility	13
+No palpable axillary or supraclavicular lymph nodes	Eligibility	14
+lymph	UBERON:0002391	40-45
+If prior non-breast malignancy, must have > 5 year disease-free survival	Eligibility	15
+year	UO:0000036	46-50
+Exclusion Criteria:	Eligibility	16
+Patient < 18 y/o or > 100 y/o	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+Pregnant or breastfeeding	Eligibility	18
+Male	Eligibility	19
+male	CHEBI:30780,PATO:0000384	0-4
+Breast implants	Eligibility	20
+breast	UBERON:0000310	0-6
+Multicentric disease or bilateral disease	Eligibility	21
+disease	DOID:4,OGMS:0000031	13-20
+disease	DOID:4,OGMS:0000031	34-41
+bilateral	HP:0012832	24-33
+Lesions > 5 cm in diameter	Eligibility	22
+diameter	PATO:0001334	18-26
+Lesions < 1.0 cm from the skin	Eligibility	23
+Previous prior radiation to the breast	Eligibility	24
+breast	UBERON:0000310	32-38
+Need for mastectomy	Eligibility	25
+Diffuse microcalcifications (as determined by the Investigator)	Eligibility	26
+diffuse	HP:0020034	0-7
+Outcome Measurement:	Results	0
+Number of Patients Requiring 2nd Surgery for Close or Positive Margins	Results	1
+surgery	OAE:0000067	33-40
+A "close" surgical margin implies that cancer cells are found on pathology to be very close to the surgical margin, and a "wide" surgical margin implies the tumor exists far from the cut edge or the surgical margin. For this study, we defined "close" as less than 3 mm.	Results	2
+cancer	DOID:162	39-45
+Time frame: Margins assessed at Final Pathology, approximately 1 week post-RF surgery	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	65-69
+surgery	OAE:0000067	78-85
+Results 1:	Results	4
+Arm/Group Title: Margin Status	Results	5
+Arm/Group Description: AngioDynamics (previously RITA Med,Inc) radiofrequency delivery system (consisting of a generator and Starburst XL probe): Generator is connected to a single use probe. Probe is inserted into the lumpectomy cavity and heated to 100 degrees Celsius and held there for 15 minutes, after which probe is removed.	Results	6
+probe	CHEBI:50406	138-143
+probe	CHEBI:50406	185-190
+probe	CHEBI:50406	192-197
+probe	CHEBI:50406	314-319
+connected to	BAO:0090011,RO:0002170	159-171
+inserted	BAO:0000641	201-209
+Overall Number of Participants Analyzed: 100	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  22	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/107 (0.00%)	Adverse Events	1

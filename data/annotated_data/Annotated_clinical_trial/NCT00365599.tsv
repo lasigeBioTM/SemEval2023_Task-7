@@ -1,0 +1,133 @@
+INTERVENTION 1:	Intervention	0
+Vorinostat and Tamoxifen	Intervention	1
+vorinostat	CHEBI:45716	0-10
+tamoxifen	CHEBI:41774	15-24
+Vorinostat and Tamoxifen as outlined in Intervention Descriptions	Intervention	2
+vorinostat	CHEBI:45716	0-10
+tamoxifen	CHEBI:41774	15-24
+Inclusion Criteria:	Eligibility	0
+Patients must have cytologically/histologically documented locally advanced or metastatic breast cancer with either:	Eligibility	1
+breast cancer	DOID:1612	90-103
+Progression on treatment with any aromatase inhibitor for metastatic disease;	Eligibility	2
+inhibitor	CHEBI:35222	44-53
+disease	DOID:4,OGMS:0000031	69-76
+Recurrence while on adjuvant aromatase inhibitors or within 12 months of completion;	Eligibility	3
+adjuvant	CHEBI:60809	20-28
+Recurrence after having completed adjuvant tamoxifen for at least 12 months;	Eligibility	4
+adjuvant	CHEBI:60809	34-42
+tamoxifen	CHEBI:41774	43-52
+Patient who are not candidates for or are intolerant of aromatase inhibitor treatment;	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+inhibitor	CHEBI:35222	66-75
+Patients are allowed (but not required) to have one prior chemotherapy regimen for metastatic disease.	Eligibility	6
+disease	DOID:4,OGMS:0000031	94-101
+Tumors must express estrogen or progesterone receptor.	Eligibility	7
+estrogen	CHEBI:50114,BAO:0000760	20-28
+progesterone	CHEBI:17026	32-44
+receptor	BAO:0000281	45-53
+Patients are eligible regardless of the menopausal status.	Eligibility	8
+Age > 18 years old	Eligibility	9
+age	PATO:0000011	0-3
+Patients must have Eastern Cooperative Oncology Group (ECOG) performance status 0-2.	Eligibility	10
+group	CHEBI:24433	48-53
+Patients must be able to give informed consent and able to follow guidelines given in the study.	Eligibility	11
+Patients must have acceptable organ function, as defined by the following laboratory parameters: white blood count (WBC) >3.0 x 10^9/L; absolute neutrophil count (ANC) >1.5 x 10^9/L; hemoglobin (Hgb) >10.0g/dL; platelets (PLT) >100 x 10^9/L, Bilirubin < 2.0 mg/dl, aspartate aminotransferase/alanine aminotransferase (AST/ALT) < 2.5 X upper limit of normal (ULN), Creatinine <1.8 mg/dl (Creatinine clearance >60 ml/min).	Eligibility	12
+organ	UBERON:0000062	30-35
+function	BAO:0003117,BFO:0000034	36-44
+blood	UBERON:0000178	103-108
+x	LABO:0000148	126-127
+x	LABO:0000148	173-174
+x	LABO:0000148	232-233
+x	LABO:0000148	333-334
+hemoglobin	CHEBI:35143	183-193
+aspartate	CHEBI:29995	265-274
+creatinine	CHEBI:16737	364-374
+creatinine	CHEBI:16737	387-397
+creatinine clearance	CMO:0000765	387-407
+Women of childbearing age must have a negative pregnancy test. All patients of reproductive potential must use an effective method of contraception during the study and 6 months following termination of treatment. (Not applicable to patients with bilateral oophorectomy and/or hysterectomy or to female patients who are older than 50 years and have not had a menstrual cycle in more than one year.	Eligibility	13
+age	PATO:0000011	22-25
+bilateral	HP:0012832	247-256
+female	PATO:0000383	296-302
+menstrual cycle	GO:0044850	359-374
+year	UO:0000036	334-338
+year	UO:0000036	392-396
+Patients must have measurable disease by RECIST criteria by staging studies performed within 30 days of enrollment. For patients with bone only disease: For this protocol isolated bone lesions can be classified as target lesions if they are measurable by MRI at screening and must be followed by MRI.	Eligibility	14
+disease	DOID:4,OGMS:0000031	30-37
+disease	DOID:4,OGMS:0000031	144-151
+target	BAO:0003064	214-220
+Both men and women of all races and ethnic groups are eligible for this trial.	Eligibility	15
+Exclusion Criteria:	Eligibility	16
+Patients must not have received tamoxifen for metastatic disease.	Eligibility	17
+tamoxifen	CHEBI:41774	32-41
+disease	DOID:4,OGMS:0000031	57-64
+Patients must not have evidence of significant active infection (e.g., pneumonia, cellulitis, wound abscess, etc.) at time of study entry.	Eligibility	18
+active	PATO:0002354	47-53
+pneumonia	HP:0002090,DOID:552	71-80
+cellulitis	HP:0100658,DOID:3488	82-92
+abscess	HP:0025615	100-107
+time	PATO:0000165	118-122
+Patients must be disease-free of prior invasive malignancies for > 5 years with the exception of: curatively-treated basal cell or squamous cell carcinoma of the skin, carcinoma in situ of the cervix.	Eligibility	19
+squamous cell carcinoma of the skin	HP:0006739	131-166
+carcinoma	HP:0030731,DOID:305	145-154
+carcinoma	HP:0030731,DOID:305	168-177
+Pregnant and breast-feeding women are excluded from the study because effects on the fetus are unknown and there may be a risk of increased fetal wastage.	Eligibility	20
+excluded	HP:0040285	38-46
+Patients with uncontrolled central nervous system (CNS) metastasis or a history of seizures are excluded. Patients with stable CNS metastasis (either surgically resected, treated with gamma knife or stable for 3 months following whole brain radiation therapy [WBRT] are eligible). Patients with stable brain metastases will need an MRI within 4 weeks prior to start of therapy.	Eligibility	21
+central nervous system	UBERON:0001017	27-49
+history	BFO:0000182	72-79
+excluded	HP:0040285	96-104
+stable	HP:0031915	120-126
+stable	HP:0031915	199-205
+stable	HP:0031915	295-301
+brain	UBERON:0000955	235-240
+brain	UBERON:0000955	302-307
+Patients may not be receiving any other investigational agents and must have stopped all other histone deacetylase inhibitors (including Valproic acid) or other hormonal therapies.	Eligibility	22
+histone	CHEBI:15358	95-102
+valproic acid	CHEBI:39867	137-150
+Patients must have discontinued their prior therapies for breast cancer and radiation therapy for a minimum of 3 weeks, patient is excluded if radiation therapy was given to a single measurable lesion and the disease is otherwise not measurable.	Eligibility	23
+breast cancer	DOID:1612	58-71
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	120-127
+excluded	HP:0040285	131-139
+disease	DOID:4,OGMS:0000031	209-216
+Patients are excluded if they have any known hypersensitivity reaction to tamoxifen.	Eligibility	24
+excluded	HP:0040285	13-21
+hypersensitivity	GO:0002524,DOID:1205	45-61
+tamoxifen	CHEBI:41774	74-83
+Patient with a history of blood clots are not eligible.	Eligibility	25
+patient	HADO:0000008,OAE:0001817	0-7
+history	BFO:0000182	15-22
+blood	UBERON:0000178	26-31
+Women who have abnormal vaginal bleeding and/or endometrial hyperplasia or cancer are not eligible.	Eligibility	26
+endometrial hyperplasia	DOID:0080365	48-71
+cancer	DOID:162	75-81
+Patients with evidence of visceral crisis are not eligible for this study.	Eligibility	27
+Outcome Measurement:	Results	0
+Number of Participants With Objective Response (OR)	Results	1
+The Objective Response Rate. Response and progression were evaluated in this study using the new international criteria proposed by the Response Evaluation Criteria in Solid Tumors (RECIST). Changes in only the largest diameter (unidimensional measurement) of the tumor lesions are used in the RECIST criteria. For the purposes of this study, patients were evaluated for response every 8 weeks. In addition to a baseline scan, confirmatory scans were also obtained  4 weeks following initial documentation of objective response.	Results	2
+rate	BAO:0080019	23-27
+diameter	PATO:0001334	219-227
+Time frame: 24 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Vorinostat and Tamoxifen	Results	5
+vorinostat	CHEBI:45716	17-27
+tamoxifen	CHEBI:41774	32-41
+Arm/Group Description: Vorinostat and Tamoxifen as outlined in Intervention Descriptions	Results	6
+vorinostat	CHEBI:45716	23-33
+tamoxifen	CHEBI:41774	38-47
+Overall Number of Participants Analyzed: 43	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  8	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 4/43 (9.30%)	Adverse Events	1
+Hemoglobin  [1]1/43 (2.33%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Hemorrhage/Bleeding  [2]1/43 (2.33%)	Adverse Events	3
+Neutrophils/granulocytes (ANC/AGC)  [3]1/43 (2.33%)	Adverse Events	4
+Platelets  [4]1/43 (2.33%)	Adverse Events	5
+Anorexia  [5]1/43 (2.33%)	Adverse Events	6
+anorexia	HP:0002039	0-8
+Sodium, serum-low (hyponatremia)  [1]1/43 (2.33%)	Adverse Events	7
+hyponatremia	HP:0002902	19-31
+Thrombosis/thrombus/embolism  [6]2/43 (4.65%)	Adverse Events	8

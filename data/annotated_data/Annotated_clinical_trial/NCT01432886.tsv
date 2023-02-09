@@ -1,0 +1,106 @@
+INTERVENTION 1:	Intervention	0
+E7389 With Weekly Trastuzumab	Intervention	1
+Eribulin mesylate (E7389) was administered intravenously on Day 1 and Day 8 of each 3 week cycle. Trastuzumab was administered intravenously weekly, with an initial dose of 4 mg/kg followed by 2 mg/kg for the remaining doses.	Intervention	2
+eribulin mesylate	CHEBI:70710	0-17
+day	UO:0000033	60-63
+day	UO:0000033	70-73
+week	UO:0000034	86-90
+week	UO:0000034	141-145
+INTERVENTION 2:	Intervention	3
+E7389 With Tri-weekly Trastuzumab	Intervention	4
+Eribulin mesylate (E7389) was administered intravenously on Day 1 and Day 8 of each 3 week cycle. Trastuzumab was administered intravenously tri-weekly, with an initial dose of 8 mg/kg followed by 6 mg/kg for the remaining doses.	Intervention	5
+eribulin mesylate	CHEBI:70710	0-17
+day	UO:0000033	60-63
+day	UO:0000033	70-73
+week	UO:0000034	86-90
+week	UO:0000034	145-149
+Inclusion Criteria	Eligibility	0
+Females aged greater than or equal to 20 years and less than 75 years at the time of informed consent.	Eligibility	1
+time	PATO:0000165	77-81
+Histologically or cytologically confirmed with breast cancer	Eligibility	2
+breast cancer	DOID:1612	47-60
+Score 3+ by immunohistochemistry (IHC) or HER2 positive by Fluorescence in Situ Hybridization (FISH) method	Eligibility	3
+immunohistochemistry	BAO:0000415	12-32
+Subjects who meet any of the following criteria:	Eligibility	4
+Evidence of recurrence during adjuvant chemotherapy with trastuzumab and taxane	Eligibility	5
+adjuvant	CHEBI:60809	30-38
+taxane	CHEBI:36064	73-79
+Evidence of recurrence within 6 months after adjuvant chemotherapy with trastuzumab and taxane	Eligibility	6
+adjuvant	CHEBI:60809	45-53
+taxane	CHEBI:36064	88-94
+Experienced prior chemotherapy including trastuzumab and taxane for advanced or recurrent breast cancer	Eligibility	7
+taxane	CHEBI:36064	57-63
+recurrent	HP:0031796	80-89
+breast cancer	DOID:1612	90-103
+Adequate organ function	Eligibility	8
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Eastern Cooperative Oncology Group (ECOG)-Performance Status (PS) is 0 or 1	Eligibility	9
+group	CHEBI:24433	29-34
+Subjects who have submitted written informed consent for study entry	Eligibility	10
+Exclusion Criteria	Eligibility	11
+Subjects with known brain metastasis accompanied by clinical symptoms or requiring active treatment	Eligibility	12
+brain	UBERON:0000955	20-25
+active	PATO:0002354	83-89
+Subjects with severe active infection requiring active treatment	Eligibility	13
+severe	HP:0012828	14-20
+active	PATO:0002354	21-27
+active	PATO:0002354	48-54
+Subjects with large pleural effusions, ascites, or pericardial effusions requiring drainage.	Eligibility	14
+ascites	HP:0001541	39-46
+Hypersensitivity to trastuzumab, halicondrin B or halicondrin B chemical derivatives	Eligibility	15
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Known positive for human immunodeficiency virus (HIV) test or positive for hepatitis B surface (HBs antigen) or hepatitis C (HCV) by serum test.	Eligibility	16
+immunodeficiency	HP:0002721	25-41
+virus	BAO:0000232	42-47
+hepatitis b	DOID:2043	75-86
+antigen	CHEBI:59132	100-107
+hepatitis c	DOID:1883	112-123
+Subjects who are pregnant (positive B-hCG test) or breastfeeding	Eligibility	17
+Subjects judged to be ineligible for this study by the principal investigator or sub-investigator.	Eligibility	18
+Outcome Measurement:	Results	0
+Number of Participants With Dose Limiting Toxicity (DLT)	Results	1
+For DLT evaluation, severity (grade) was classified according to common terminology criteria for adverse events version 4.0 (CTCAE v4.0). DLTs were defined as grade 4 neutropenia persisting for more than 7 days; grade 3 or above febrile neutropenia; grade 4 thrombocytopenia or grade 3 thrombocytopenia requiring blood transfusion; non-hematologic toxicity (excluding toxicity related to neutrophils, leukocytes, lymphocytes, platelets, CD4 lymphocytes, anemia, and bone marrow density) greater than or equal to grade 3 (Exceptions: Dose reduction was not required even when the following conditions were met: grade 3 nausea, vomiting, or diarrhea controllable with anti-emetic or anti-diarrheal medication and abnormal laboratory parameter not requiring treatment); and day 8 administration was delayed or skipped as a result of the subject did not meet the dosing riteria within cycle.	Results	2
+severity	HP:0012824	20-28
+neutropenia	HP:0001875,DOID:1227	167-178
+neutropenia	HP:0001875,DOID:1227	237-248
+thrombocytopenia	HP:0001873,DOID:1588	258-274
+thrombocytopenia	HP:0001873,DOID:1588	286-302
+blood	UBERON:0000178	313-318
+anemia	HP:0001903,DOID:2355	454-460
+bone marrow	UBERON:0002371	466-477
+nausea	HP:0002018	618-624
+vomiting	HP:0002013	626-634
+diarrhea	HP:0002014,DOID:13250	639-647
+diarrhea	HP:0002014,DOID:13250	686-694
+day	UO:0000033	206-209
+day	UO:0000033	771-774
+result	BAO:0000179	820-826
+Time frame: Up to 3 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: E7389 With Weekly Trastuzumab	Results	5
+Arm/Group Description: Eribulin mesylate (E7389) was administered intravenously on Day 1 and Day 8 of each 3 week cycle. Trastuzumab was administered intravenously weekly, with an initial dose of 4 mg/kg followed by 2 mg/kg for the remaining doses.	Results	6
+eribulin mesylate	CHEBI:70710	23-40
+day	UO:0000033	83-86
+day	UO:0000033	93-96
+week	UO:0000034	109-113
+week	UO:0000034	164-168
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: E7389 With Tri-weekly Trastuzumab	Results	11
+Arm/Group Description: Eribulin mesylate (E7389) was administered intravenously on Day 1 and Day 8 of each 3 week cycle. Trastuzumab was administered intravenously tri-weekly, with an initial dose of 8 mg/kg followed by 6 mg/kg for the remaining doses.	Results	12
+eribulin mesylate	CHEBI:70710	23-40
+day	UO:0000033	83-86
+day	UO:0000033	93-96
+week	UO:0000034	109-113
+week	UO:0000034	168-172
+Overall Number of Participants Analyzed: 6	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Participants  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/6 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/6 (0.00%)	Adverse Events	3

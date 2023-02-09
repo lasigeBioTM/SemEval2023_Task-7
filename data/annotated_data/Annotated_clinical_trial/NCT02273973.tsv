@@ -1,0 +1,167 @@
+INTERVENTION 1:	Intervention	0
+Experimental: Taselisib + Letrozole	Intervention	1
+letrozole	CHEBI:6413	26-35
+Participants received 2.5 milligrams (mg) letrozole tablets orally once daily (QD) along with taselisib tablets at 4 mg (two 2 mg tablets) orally on a 5 days-on/2 days-off schedule for a total of 16 weeks.	Intervention	2
+letrozole	CHEBI:6413	42-51
+INTERVENTION 2:	Intervention	3
+Placebo Comparator: Placebo + Letrozole	Intervention	4
+letrozole	CHEBI:6413	30-39
+Participants received 2.5 mg letrozole tablets orally QD along with placebo on a 5-days-on/2-days-off schedule for a total of 16 weeks.	Intervention	5
+letrozole	CHEBI:6413	29-38
+Inclusion Criteria:	Eligibility	0
+Female participants	Eligibility	1
+female	PATO:0000383	0-6
+Postmenopausal status	Eligibility	2
+Histologically confirmed invasive breast carcinoma, with all of the following characteristics: (i) Primary tumor greater than or equal to (>/=) 2 centimeters (cm) in largest diameter (cT1-3) by MRI; (ii) Stage I to operable Stage III breast cancer; (iii) Documented absence of distant metastases (M0)	Eligibility	3
+breast carcinoma	HP:0003002,DOID:3459	34-50
+diameter	PATO:0001334	174-182
+breast cancer	DOID:1612	234-247
+Estrogen receptor-positive (ER+) and human epidermal growth factor receptor 2-negative (HER2-) breast cancer	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	0-8
+growth factor	BAO:0002024	53-66
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	67-75
+breast cancer	DOID:1612	95-108
+Breast cancer eligible for primary surgery	Eligibility	5
+breast cancer	DOID:1612	0-13
+surgery	OAE:0000067	35-42
+Tumor tissue from formalin-fixed paraffin-embedded cores (FFPE) core biopsy of breast primary tumor that is confirmed as evaluable for phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha (PIK3CA) mutation status by central histopathology laboratory	Eligibility	6
+tissue	UBERON:0000479	6-12
+breast	UBERON:0000310	79-85
+central	HP:0030645	235-242
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	7
+group	CHEBI:24433	29-34
+Fasting glucose less than or equal to (</=) 125 milligrams per deciliter (mg/dL)	Eligibility	8
+glucose	CHEBI:4167,BAO:0000924	8-15
+Adequate hematological, renal, and hepatic function	Eligibility	9
+function	BAO:0003117,BFO:0000034	43-51
+Absence of any psychological, familial, sociological, or geographical condition potentially hampering compliance with the study protocol and follow-up schedule	Eligibility	10
+condition	PDRO:0000129	70-79
+Ability and willingness to comply with study visits, treatment, testing, and to comply with the protocol, in the investigator's judgment	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+Any prior treatment for primary invasive breast cancer	Eligibility	13
+breast cancer	DOID:1612	41-54
+Participants with cT4 or cN3 stage breast tumors	Eligibility	14
+breast	UBERON:0000310	35-41
+Bilateral invasive, multicentric, or metastatic breast cancer	Eligibility	15
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	48-61
+Participants who have undergone excisional biopsy of primary tumor and/or axillary lymph nodes or sentinel lymph node biopsy	Eligibility	16
+lymph	UBERON:0002391	83-88
+lymph	UBERON:0002391	107-112
+Type 1 or 2 diabetes requiring antihyperglycemic medication	Eligibility	17
+Inability or unwillingness to swallow pills	Eligibility	18
+Malabsorption syndrome or other condition that would interfere with enteric absorption	Eligibility	19
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+condition	PDRO:0000129	32-41
+History of prior or currently active small or large intestine inflammation (such as Crohn's disease or ulcerative colitis). Any predisposition for gastrointestinal (GI) toxicity requires prior approval from the Medical Monitor.	Eligibility	20
+history	BFO:0000182	0-7
+active	PATO:0002354	30-36
+large intestine	UBERON:0000059	46-61
+disease	DOID:4,OGMS:0000031	92-99
+ulcerative colitis	HP:0100279,DOID:8577	103-121
+Congenital long QT syndrome or QT interval corrected using Fridericia's formula (QTcF) >470 milliseconds (msec)	Eligibility	21
+long qt syndrome	DOID:2843	11-27
+qt interval	CMO:0000235	31-42
+Diffusing capacity of the lungs for carbon monoxide (DLCO) <60% of the predicted values	Eligibility	22
+carbon monoxide	CHEBI:17245	36-51
+Clinically significant (i.e., active) cardiovascular disease, uncontrolled hypertension, unstable angina, history of myocardial infarction, cardiac failure class II-IV	Eligibility	23
+active	PATO:0002354	30-36
+disease	DOID:4,OGMS:0000031	53-60
+hypertension	HP:0000822,DOID:10763	75-87
+history	BFO:0000182	106-113
+myocardial infarction	HP:0001658,DOID:5844	117-138
+Any contraindication to MRI examination	Eligibility	24
+contraindication	OAE:0000055	4-20
+Active infection requiring intravenous antibiotics	Eligibility	25
+active	PATO:0002354	0-6
+Participants requiring any daily supplemental oxygen	Eligibility	26
+Clinically significant history of liver disease, including viral or other known hepatitis, current alcohol abuse, or cirrhosis	Eligibility	27
+history	BFO:0000182	23-30
+liver disease	DOID:409	34-47
+hepatitis	HP:0012115,DOID:2237	80-89
+alcohol	CHEBI:16236	99-106
+cirrhosis	HP:0001394	117-126
+Any other diseases, active or uncontrolled pulmonary dysfunction, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug, that may affect the interpretation of the results, or renders the participants at high risk from treatment complications	Eligibility	28
+active	PATO:0002354	20-26
+physical examination	OAE:0004232	89-109
+laboratory finding	OGMS:0000018	131-149
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	183-190
+condition	PDRO:0000129	194-203
+drug	CHEBI:23888	255-259
+Significant traumatic injury within 3 weeks prior to initiation of study treatment	Eligibility	29
+Major surgical procedure within 4 weeks prior to initiation of study treatment	Eligibility	30
+Inability to comply with study and follow-up procedures	Eligibility	31
+History of other malignancy within 5 years prior to screening, except for appropriately treated carcinoma in situ of the cervix, non-melanoma skin carcinoma, or Stage I uterine cancer	Eligibility	32
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	96-105
+carcinoma	HP:0030731,DOID:305	147-156
+skin carcinoma	DOID:3451	142-156
+uterine cancer	DOID:363	169-183
+Outcome Measurement:	Results	0
+Percentage of Participants With Objective Response (OR) by Centrally Assessed Breast Magnetic Resonance Imaging (MRI) Via Modified Response Evaluation Criteria in Solid Tumors (mRECIST) Version 1.1	Results	1
+breast	UBERON:0000310	78-84
+Objective response rate (ORR) was defined as proportion of participants achieving complete response (CR) or partial response (PR). As per modified RECIST v1.1, CR: disappearance of all target lesions, PR: at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum of diameters.	Results	2
+rate	BAO:0080019	19-23
+target	BAO:0003064	185-191
+target	BAO:0003064	256-262
+Time frame: From Baseline to 16 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Experimental: Taselisib + Letrozole	Results	5
+letrozole	CHEBI:6413	43-52
+Arm/Group Description: Participants received 2.5 milligrams (mg) letrozole tablets orally once daily (QD) along with taselisib tablets at 4 mg (two 2 mg tablets) orally on a 5 days-on/2 days-off schedule for a total of 16 weeks.	Results	6
+letrozole	CHEBI:6413	65-74
+Overall Number of Participants Analyzed: 166	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  50.0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo Comparator: Placebo + Letrozole	Results	11
+letrozole	CHEBI:6413	47-56
+Arm/Group Description: Participants received 2.5 mg letrozole tablets orally QD along with placebo on a 5-days-on/2-days-off schedule for a total of 16 weeks.	Results	12
+letrozole	CHEBI:6413	52-61
+Overall Number of Participants Analyzed: 168	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  39.3	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 20/167 (11.98%)	Adverse Events	1
+Cardiac failure acute 0/167 (0.00%)	Adverse Events	2
+acute	HP:0011009,PATO:0000389	16-21
+Diarrhoea 5/167 (2.99%)	Adverse Events	3
+Colitis 2/167 (1.20%)	Adverse Events	4
+colitis	HP:0002583,DOID:0060180	0-7
+Enterocolitis 1/167 (0.60%)	Adverse Events	5
+enterocolitis	HP:0004387	0-13
+Enterocolitis haemorrhagic 1/167 (0.60%)	Adverse Events	6
+enterocolitis	HP:0004387	0-13
+Stomatitis 1/167 (0.60%)	Adverse Events	7
+stomatitis	HP:0010280,DOID:9637	0-10
+Impaired healing 1/167 (0.60%)	Adverse Events	8
+Sudden death 1/167 (0.60%)	Adverse Events	9
+sudden death	HP:0001699	0-12
+Postoperative wound infection 2/167 (1.20%)	Adverse Events	10
+Erysipelas 2/167 (1.20%)	Adverse Events	11
+erysipelas	HP:0001055,DOID:11330	0-10
+Bacterial diarrhoea 1/167 (0.60%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 4/167 (2.40%)	Adverse Events	14
+Cardiac failure acute 1/167 (0.60%)	Adverse Events	15
+acute	HP:0011009,PATO:0000389	16-21
+Diarrhoea 0/167 (0.00%)	Adverse Events	16
+Colitis 0/167 (0.00%)	Adverse Events	17
+colitis	HP:0002583,DOID:0060180	0-7
+Enterocolitis 0/167 (0.00%)	Adverse Events	18
+enterocolitis	HP:0004387	0-13
+Enterocolitis haemorrhagic 0/167 (0.00%)	Adverse Events	19
+enterocolitis	HP:0004387	0-13
+Stomatitis 0/167 (0.00%)	Adverse Events	20
+stomatitis	HP:0010280,DOID:9637	0-10
+Impaired healing 0/167 (0.00%)	Adverse Events	21
+Sudden death 0/167 (0.00%)	Adverse Events	22
+sudden death	HP:0001699	0-12
+Postoperative wound infection 1/167 (0.60%)	Adverse Events	23
+Erysipelas 0/167 (0.00%)	Adverse Events	24
+erysipelas	HP:0001055,DOID:11330	0-10
+Bacterial diarrhoea 0/167 (0.00%)	Adverse Events	25

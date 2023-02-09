@@ -1,0 +1,194 @@
+INTERVENTION 1:	Intervention	0
+CT Plus Trastuzumab	Intervention	1
+ct	BAO:0002125	0-2
+Participants received chemotherapy (CT), which included paclitaxel 80 milligrams per meters squared (mg/m^2) weekly for 12 weeks, followed by intravenous (IV) fluorouracil 600 mg/m^2, IV epidoxorubicin 75 mg/m^2, and IV cyclophosphamide 600 mg/m^2, once every 21 days for four treatment courses. Trastuzumab was administered throughout the course of the CT and for two weeks after the last CT administration. The first dose of trastuzumab was administered at 4 milligrams per kilogram (mg/kg) IV for 60 minutes on the day of the first paclitaxel course. Subsequent administrations were given weekly at 2 mg/kg IV for 30 minutes. Treatments were administered for 26 weeks prior to surgery.	Intervention	2
+ct	BAO:0002125	36-38
+ct	BAO:0002125	354-356
+ct	BAO:0002125	390-392
+paclitaxel	CHEBI:45863	56-66
+paclitaxel	CHEBI:45863	535-545
+cyclophosphamide	CHEBI:4026	220-236
+day	UO:0000033	263-266
+day	UO:0000033	518-521
+surgery	OAE:0000067	680-687
+INTERVENTION 2:	Intervention	3
+CT Plus Lapatinib 1500 mg	Intervention	4
+ct	BAO:0002125	0-2
+lapatinib	CHEBI:49603	8-17
+Participants received CT, which included paclitaxel 80 mg/m^2 weekly for 12 weeks, followed by IV fluorouracil 600 mg/m^2, IV epidoxorubicin 75 mg/m^2, and IV cyclophosphamide 600 mg/m^2, once every 21 days for four treatment courses. Participants received lapatinib 1500 mg/day orally on an empty stomach throughout the course of the CT and for three weeks after the last CT administration. Treatments were administered for 26 weeks prior to surgery.	Intervention	5
+ct	BAO:0002125	22-24
+ct	BAO:0002125	335-337
+ct	BAO:0002125	373-375
+paclitaxel	CHEBI:45863	41-51
+cyclophosphamide	CHEBI:4026	159-175
+lapatinib	CHEBI:49603	257-266
+stomach	UBERON:0000945	298-305
+surgery	OAE:0000067	443-450
+Following Independent Data Monitoring Committee (IDMC) recommendations, lapatinib doses were reduced to 1250 mg/day orally on an empty stomach.	Intervention	6
+lapatinib	CHEBI:49603	72-81
+stomach	UBERON:0000945	135-142
+Inclusion criteria:	Eligibility	0
+Histologically confirmed infiltrating primary breast cancer of > 2.0 cm in largest clinical diameter	Eligibility	1
+breast cancer	DOID:1612	46-59
+diameter	PATO:0001334	92-100
+HER2 positive tumor (either IHC 3+ or FISH+)	Eligibility	2
+Availability of tumor tissue suitable for biological and molecular examination before starting primary treatment	Eligibility	3
+tissue	UBERON:0000479	22-28
+Age >18, < 65 years	Eligibility	4
+age	PATO:0000011	0-3
+ECOG PS 0-1	Eligibility	5
+Normal organ and marrow function as defined below:	Eligibility	6
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	24-32
+leukocytes ³ 3000/microL	Eligibility	7
+absolute neutrophil count ³ 1,500/microL	Eligibility	8
+platelets ³ 100,000/microL	Eligibility	9
+total bilirubin <= 1.5x ULN. In case of Gilbert's syndrome, <2 x ULN is allowed	Eligibility	10
+syndrome	DOID:225	50-58
+x	LABO:0000148	22-23
+x	LABO:0000148	63-64
+AST (SGOT)/ALT(SGPT)<= 2.5 X institutional upper limit of normal	Eligibility	11
+x	LABO:0000148	27-28
+Alkaline phosphatase <= 2.5 x ULN	Eligibility	12
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	28-29
+Creatinine within normal institutional limits	Eligibility	13
+creatinine	CHEBI:16737	0-10
+Cardiac ejection fraction within the institutional range of normal as measured by echocardiogram or MUGA scan	Eligibility	14
+ejection fraction	CMO:0000180	8-25
+range	LABO:0000114	51-56
+Eligibility of patients receiving medications or substances known to affect, or with the potential to affect the activity or pharmacokinetics of lapatinib will be determined following review of their use by the Principal Investigator. A list of medications and substances known or with the potential to interact with CYP450 isoenzymes is provided	Eligibility	15
+lapatinib	CHEBI:49603	145-154
+The effects of lapatinib on the developing human fetus at the recommended therapeutic dose are unknown; women of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control or abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately, the patient should be apprised of the potential hazard to the fetus and potential risk for loss of the pregnancy	Eligibility	16
+lapatinib	CHEBI:49603	15-24
+duration	PATO:0001309	271-279
+patient	HADO:0000008,OAE:0001817	455-462
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	17
+document	IAO:0000310	77-85
+Ability to swallow and retain oral medication	Eligibility	18
+Exclusion criteria:	Eligibility	19
+Stage IIIB, IIIC, and inflammatory breast cancer	Eligibility	20
+breast cancer	DOID:1612	35-48
+Stage IV breast cancer	Eligibility	21
+breast cancer	DOID:1612	9-22
+Contraindication to the treatment with anthracycline, paclitaxel and/or trastuzumab	Eligibility	22
+contraindication	OAE:0000055	0-16
+anthracycline	CHEBI:48120	39-52
+paclitaxel	CHEBI:45863	54-64
+Prior treatment with chemotherapy, endocrine therapy or radiotherapy. Prior treatment with EGFR targeting therapies	Eligibility	23
+radiotherapy	OAE:0000235	56-68
+Treatment with any other investigational agents, or with all herbal (alternative) medicines	Eligibility	24
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to lapatinib	Eligibility	25
+history	BFO:0000182	0-7
+lapatinib	CHEBI:49603	101-110
+Uncontrolled inter-current illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	26
+active	PATO:0002354	77-83
+congestive heart failure	HP:0001635,DOID:6000	107-131
+angina pectoris	HP:0001681	142-157
+arrhythmia	HP:0011675	167-177
+Pregnancy or breastfeeding; (breast feeding should be discontinued to be enrolled in the study)	Eligibility	27
+breast	UBERON:0000310	13-19
+breast	UBERON:0000310	29-35
+Women of childbearing potential that refusal to adopt adequate contraceptive measures	Eligibility	28
+HIV-positive patients receiving combination anti-retroviral therapy	Eligibility	29
+GI tract disease resulting in an inability to take oral medication, malabsorption syndrome, a requirement for IV alimentation, prior surgical procedures affecting absorption, uncontrolled inflammatory GI disease (e.g., Crohn's, ulcerative colitis)	Eligibility	30
+disease	DOID:4,OGMS:0000031	9-16
+disease	DOID:4,OGMS:0000031	204-211
+malabsorption	HP:0002024	68-81
+syndrome	DOID:225	82-90
+ulcerative colitis	HP:0100279,DOID:8577	228-246
+Concomitant requirement for medication classified as CYP3A4 inducers or inhibitors	Eligibility	31
+Outcome Measurement:	Results	0
+Percentage of Participants With Pathological Complete Response (pCR) in the Breast and in the Lymph Nodes	Results	1
+breast	UBERON:0000310	76-82
+lymph	UBERON:0002391	94-99
+Pathological Complete Response (pCR) is defined by the complete absence of infiltrating tumor cells in the breast and in the lymph nodes. The pathological response in the breast was evaluated according to the criteria of Miller and Payne as follows: Grade 1, no change or some alteration to individual malignant cells, but no reduction in overall cellularity; Grade 2, a minor loss in tumor cells (up to 30%); Grade 3, between an estimated 30% and 90% reduction in tumor cells; Grade 4, marked disappearance of tumor cells, with only a small cluster or a dispersed cell remaining (more than 90% loss); Grade 5, no identifiable malignant cells. Ductal carcinoma in situ (DCIS) may be present. Grades were interpreted as follows: Grade 1-2=no response; Grade 3-4=partial response; Grade 5=complete response. pCR was defined by comparing specimens obtained at Baseline (biopsy) to those obtained upon surgery.	Results	2
+breast	UBERON:0000310	107-113
+breast	UBERON:0000310	171-177
+lymph	UBERON:0002391	125-130
+cluster	CHEBI:33731	542-549
+ductal carcinoma in situ	HP:0030075,DOID:0060074	644-668
+present	PATO:0000467	683-690
+surgery	OAE:0000067	898-905
+Time frame: At Baseline and surgery (within 5 weeks after the last chemotherapy administration) (assessed up to Study Week 29)	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	28-35
+week	UO:0000034	46-50
+week	UO:0000034	118-122
+Results 1:	Results	4
+Arm/Group Title: CT Plus Trastuzumab	Results	5
+ct	BAO:0002125	17-19
+Arm/Group Description: Participants received chemotherapy (CT), which included paclitaxel 80 milligrams per meters squared (mg/m^2) weekly for 12 weeks, followed by intravenous (IV) fluorouracil 600 mg/m^2, IV epidoxorubicin 75 mg/m^2, and IV cyclophosphamide 600 mg/m^2, once every 21 days for four treatment courses. Trastuzumab was administered throughout the course of the CT and for two weeks after the last CT administration. The first dose of trastuzumab was administered at 4 milligrams per kilogram (mg/kg) IV for 60 minutes on the day of the first paclitaxel course. Subsequent administrations were given weekly at 2 mg/kg IV for 30 minutes. Treatments were administered for 26 weeks prior to surgery.	Results	6
+ct	BAO:0002125	59-61
+ct	BAO:0002125	377-379
+ct	BAO:0002125	413-415
+paclitaxel	CHEBI:45863	79-89
+paclitaxel	CHEBI:45863	558-568
+cyclophosphamide	CHEBI:4026	243-259
+day	UO:0000033	286-289
+day	UO:0000033	541-544
+surgery	OAE:0000067	703-710
+Overall Number of Participants Analyzed: 36	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  25	Results	9
+Results 2:	Results	10
+Arm/Group Title: CT Plus Lapatinib 1500 mg	Results	11
+ct	BAO:0002125	17-19
+lapatinib	CHEBI:49603	25-34
+Arm/Group Description: Participants received CT, which included paclitaxel 80 mg/m^2 weekly for 12 weeks, followed by IV fluorouracil 600 mg/m^2, IV epidoxorubicin 75 mg/m^2, and IV cyclophosphamide 600 mg/m^2, once every 21 days for four treatment courses. Participants received lapatinib 1500 mg/day orally on an empty stomach throughout the course of the CT and for three weeks after the last CT administration. Treatments were administered for 26 weeks prior to surgery.	Results	12
+ct	BAO:0002125	45-47
+ct	BAO:0002125	358-360
+ct	BAO:0002125	396-398
+paclitaxel	CHEBI:45863	64-74
+cyclophosphamide	CHEBI:4026	182-198
+lapatinib	CHEBI:49603	280-289
+stomach	UBERON:0000945	321-328
+surgery	OAE:0000067	466-473
+Following Independent Data Monitoring Committee (IDMC) recommendations, lapatinib doses were reduced to 1250 mg/day orally on an empty stomach.	Results	13
+lapatinib	CHEBI:49603	72-81
+stomach	UBERON:0000945	135-142
+Overall Number of Participants Analyzed: 38	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: Percentage of participants  26.3	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 14/36 (38.89%)	Adverse Events	1
+Neutropenia 10/36 (27.78%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile neutropenia 1/36 (2.78%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Diarrhoea 0/36 (0.00%)	Adverse Events	4
+Vomiting 1/36 (2.78%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Abdominal pain 0/36 (0.00%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Rectal haemorrhage 1/36 (2.78%)	Adverse Events	7
+Stomatitis 1/36 (2.78%)	Adverse Events	8
+stomatitis	HP:0010280,DOID:9637	0-10
+Pyrexia 1/36 (2.78%)	Adverse Events	9
+Hyperpyrexia 0/36 (0.00%)	Adverse Events	10
+hyperpyrexia	HP:0033031	0-12
+Drug hypersensitivity 0/36 (0.00%)	Adverse Events	11
+drug	CHEBI:23888	0-4
+hypersensitivity	GO:0002524,DOID:1205	5-21
+Device related infection 0/36 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 13/39 (33.33%)	Adverse Events	14
+Neutropenia 7/39 (17.95%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile neutropenia 2/39 (5.13%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Diarrhoea 3/39 (7.69%)	Adverse Events	17
+Vomiting 3/39 (7.69%)	Adverse Events	18
+vomiting	HP:0002013	0-8
+Abdominal pain 1/39 (2.56%)	Adverse Events	19
+abdominal pain	HP:0002027	0-14
+Rectal haemorrhage 0/39 (0.00%)	Adverse Events	20
+Stomatitis 0/39 (0.00%)	Adverse Events	21
+stomatitis	HP:0010280,DOID:9637	0-10
+Pyrexia 1/39 (2.56%)	Adverse Events	22
+Hyperpyrexia 1/39 (2.56%)	Adverse Events	23
+hyperpyrexia	HP:0033031	0-12
+Drug hypersensitivity 0/39 (0.00%)	Adverse Events	24
+drug	CHEBI:23888	0-4
+hypersensitivity	GO:0002524,DOID:1205	5-21
+Device related infection 0/39 (0.00%)	Adverse Events	25

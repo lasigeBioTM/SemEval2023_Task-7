@@ -1,0 +1,112 @@
+INTERVENTION 1:	Intervention	0
+Treatment - Stereotactic Radiosurgery	Intervention	1
+Stereotactic Radiosurgery: All patients would undergo craniotomy and the goal of surgery in all cases would be total removal of the metastases.	Intervention	2
+surgery	OAE:0000067	18-25
+surgery	OAE:0000067	81-88
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed malignancy with the presence of one or two intraparenchymal brain metastases (newly diagnosed patients may be registered based on radiologic confirmation if pathology is unavailable)	Eligibility	1
+brain	UBERON:0000955	85-90
+Age  18 years	Eligibility	2
+age	PATO:0000011	0-3
+Karnofsky performance status  70	Eligibility	3
+Neurologic Function Status 0-2	Eligibility	4
+function	BAO:0003117,BFO:0000034	11-19
+Patients may have extracranial sites of metastatic disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	51-58
+Adequate bone marrow reserve (hemoglobin  8 grams, absolute neutrophil count  1000/mm3, platelets  50,000/mm3)	Eligibility	6
+bone marrow	UBERON:0002371	9-20
+hemoglobin	CHEBI:35143	30-40
+Patient must sign a study specific informed consent form.	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	8
+Major medical illness including poor cardiac, pulmonary or renal status which would result in patient being a high risk candidate for neurosurgical procedure	Eligibility	9
+result	BAO:0000179	84-90
+patient	HADO:0000008,OAE:0001817	94-101
+Inability to obtain histologic proof of malignancy	Eligibility	10
+Patients with leptomeningeal metastases documented by MRI or CSF evaluation Patients with metastases within 10 mm of the optic apparatus so that some portion of the optic nerve or chiasm would be included in the high dose SRS boost field	Eligibility	11
+nerve	UBERON:0001021	171-176
+Patients with metastases in the brainstem, midbrain, pons, or medulla	Eligibility	12
+brainstem	UBERON:0002298	32-41
+midbrain	UBERON:0001891	43-51
+Patients with small cell lung cancer, germ-cell tumors, lymphoma, leukemia and multiple myeloma are not eligible	Eligibility	13
+lung cancer	DOID:1324	25-36
+lymphoma	HP:0002665,DOID:0060058	56-64
+leukemia	HP:0001909,DOID:1240	66-74
+multiple myeloma	HP:0006775,DOID:9538	79-95
+Younger than 18 years of age	Eligibility	14
+age	PATO:0000011	25-28
+Karnofsky performance status of  60	Eligibility	15
+Prior history of whole brain radiation therapy	Eligibility	16
+history	BFO:0000182	6-13
+brain	UBERON:0000955	23-28
+Concomitant use of chemotherapy or targeted biological therapy (within a week of the SRS treatment)	Eligibility	17
+week	UO:0000034	73-77
+3 metastases in the brain	Eligibility	18
+brain	UBERON:0000955	20-25
+Allergy to both CT and MR contrast dyes	Eligibility	19
+allergy	HP:0012393	0-7
+ct	BAO:0002125	16-18
+Platelet count of < 100,000 or coagulation disorders that cannot be corrected or would render the surgery a high-risk procedure	Eligibility	20
+platelet count	CMO:0000029	0-14
+coagulation	GO:0050817	31-42
+surgery	OAE:0000067	98-105
+Outcome Measurement:	Results	0
+Local Control	Results	1
+following a combination of stereotactic radiosurgery and surgical resection for brain metastases; to determine the incidence of the brain injury following the combination therapy. Local control: Absence of radiographic evidence of tumor at the site of therapy constitutes local control of the treated disease.Recurrence in the treated region: The reappearance of tumor on any MRI or CT scan at the site of treatment constitutes recurrent disease at the treated region. Recurrence outside the treated region: The development of new intracranial metastatic foci or leptomeningeal disease constitutes recurrence outside the treated region. Leptomeningeal disease will be documented by a positive CSF cytology, abnormal myelogram or spinal MRI.	Results	2
+brain	UBERON:0000955	80-85
+brain	UBERON:0000955	132-137
+site	BFO:0000029	244-248
+site	BFO:0000029	398-402
+ct	BAO:0002125	35-37
+ct	BAO:0002125	70-72
+ct	BAO:0002125	383-385
+recurrent	HP:0031796	428-437
+disease	DOID:4,OGMS:0000031	301-308
+disease	DOID:4,OGMS:0000031	438-445
+disease	DOID:4,OGMS:0000031	578-585
+disease	DOID:4,OGMS:0000031	652-659
+No evidence of disease: Absence of clinical or radiographic evidence of tumor both at the site of therapy and elsewhere in the brain constitutes no evidence of disease.	Results	3
+disease	DOID:4,OGMS:0000031	15-22
+disease	DOID:4,OGMS:0000031	160-167
+site	BFO:0000029	90-94
+brain	UBERON:0000955	127-132
+Time frame: 1 year	Results	4
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	5
+Arm/Group Title: Treatment - Stereotactic Radiosurgery	Results	6
+Arm/Group Description: Stereotactic Radiosurgery: All patients would undergo craniotomy and the goal of surgery in all cases would be total removal of the metastases.	Results	7
+surgery	OAE:0000067	41-48
+surgery	OAE:0000067	104-111
+Overall Number of Participants Analyzed: 39	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  Local Control: 13	Results	10
+No Evidence of Disease (NED): 23	Results	11
+disease	DOID:4,OGMS:0000031	15-22
+Progression of Disease (POD): 2	Results	12
+disease	DOID:4,OGMS:0000031	15-22
+Relapse/Recurrence: 1	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 16/51 (31.37%)	Adverse Events	1
+Blood disorder 1/51 (1.96%)	Adverse Events	2
+blood	UBERON:0000178	0-5
+disorder	OGMS:0000045	6-14
+Hypomagnesemia 1/51 (1.96%)	Adverse Events	3
+hypomagnesemia	HP:0002917	0-14
+Platelets count decrease 1/51 (1.96%)	Adverse Events	4
+Thrombosis 1/51 (1.96%)	Adverse Events	5
+thrombosis	DOID:0060903	0-10
+Vision-blurred vision 1/51 (1.96%)	Adverse Events	6
+Constipation 1/51 (1.96%)	Adverse Events	7
+constipation	HP:0002019,DOID:2089	0-12
+Radiation oesophagitis 1/51 (1.96%)	Adverse Events	8
+Nausea 2/51 (3.92%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Vomiting 2/51 (3.92%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+General symptom 2/51 (3.92%)	Adverse Events	11
+symptom	OGMS:0000020	8-15
+Headache 1/51 (1.96%)	Adverse Events	12
+headache	HP:0002315	0-8
+Bone pain 1/51 (1.96%)	Adverse Events	13
+bone pain	HP:0002653	0-9

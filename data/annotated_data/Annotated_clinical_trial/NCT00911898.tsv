@@ -1,0 +1,74 @@
+INTERVENTION 1:	Intervention	0
+MM-111	Intervention	1
+All participants	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed advanced cancer that is:	Eligibility	1
+cancer	DOID:162	70-76
+HER2 amplified (IHC 2+ or greater) based on archived tumor evaluation	Eligibility	2
+Heregulin positive based on a study required fresh biopsy sample performed at screening and confirmed by central laboratory	Eligibility	3
+central	HP:0030645	105-112
+Patients must have blocks of archived formalin-fixed, paraffin-embedded tumor tissue available for sectioning and immunohistochemical staining	Eligibility	4
+tissue	UBERON:0000479	78-84
+Patient's cancer must have recurred or progressed following standard therapy, have not responded to standard therapy, or for which no standard therapy exists.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+cancer	DOID:162	10-16
+Patients must be >= 18 years of age	Eligibility	6
+age	PATO:0000011	32-35
+Patients or their legal representatives must be able to understand and sign an informed consent	Eligibility	7
+Patients may have measurable or non-measurable tumor(s)	Eligibility	8
+Patients should have ECOG Performance Score (PS) 0 or 1	Eligibility	9
+Patients must have adequate bone marrow reserves as evidenced by:	Eligibility	10
+bone marrow	UBERON:0002371	28-39
+Absolute neutrophil count (ANC) >= 1,500/uL and	Eligibility	11
+Platelet count >= 100,000/uL	Eligibility	12
+platelet count	CMO:0000029	0-14
+Hemoglobin >= 9 g/dL	Eligibility	13
+hemoglobin	CHEBI:35143	0-10
+Patients must have tumor tissue amenable to biopsy	Eligibility	14
+tissue	UBERON:0000479	25-31
+Patients must be willing to undergo biopsy prior to treatment to MM-111	Eligibility	15
+Exclusion Criteria:	Eligibility	16
+Patients for whom potentially curative antineoplastic therapy is available	Eligibility	17
+Patients who are pregnant or lactating	Eligibility	18
+Patients with an active infection or with an unexplained fever greater than 38.5 C during screening visits or on the first scheduled day of dosing. (At the discretion of the investigator, patients with tumor fever may be enrolled)	Eligibility	19
+active	PATO:0002354	17-23
+fever	HP:0001945	57-62
+fever	HP:0001945	208-213
+day	UO:0000033	133-136
+Patients with untreated and/or symptomatic primary or metastatic CNS malignancies (patients with CNS metastases who have undergone surgery or radiotherapy, whose disease is stable, and who have been on a stable dose of corticosteroids for at least 2 weeks prior to the first scheduled day of dosing will be eligible for the trial	Eligibility	20
+surgery	OAE:0000067	131-138
+radiotherapy	OAE:0000235	142-154
+disease	DOID:4,OGMS:0000031	162-169
+stable	HP:0031915	173-179
+stable	HP:0031915	204-210
+day	UO:0000033	285-288
+Patients with known hypersensitivity to any of the components of MM-111 or who have had hypersensitivity reactions to fully human monoclonal antibodies (patients with a history of hypersensitivity to trastuzumab, a humanized antibody, are not excluded)	Eligibility	21
+hypersensitivity	GO:0002524,DOID:1205	20-36
+hypersensitivity	GO:0002524,DOID:1205	88-104
+hypersensitivity	GO:0002524,DOID:1205	180-196
+monoclonal	BAO:0000503	130-140
+history	BFO:0000182	169-176
+antibody	GO:0042571,BAO:0000502	225-233
+excluded	HP:0040285	243-251
+Patients with known HIV, hepatitis B or C (if patients have previously been treated for C and have undetectable viral loads, they can be considered eligible for the trial)	Eligibility	22
+hepatitis b	DOID:2043	25-36
+Outcome Measurement:	Results	0
+Maximum Tolerated Dose (MTD) or Maximum Feasible Dose	Results	1
+mtd	BAO:0001248	24-27
+The Maximum Tolerated Dose (MTD) was defined as the highest dose level in which a DLT is experienced by fewer than two patients in a cohort of 3 - 6 patients. If a DLT is observed in at least two patients in a cohort of 3 - 6 patients, the MTD will be determined to have been exceeded and an additional three patients (up to a total of six) are to be treated at the next lower dose level.	Results	2
+mtd	BAO:0001248	28-31
+mtd	BAO:0001248	240-243
+Time frame: 28 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: MM-111	Results	5
+Arm/Group Description: All participants	Results	6
+Overall Number of Participants Analyzed: 20	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: mg/kg  NA  [1]	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 3/20 (15.00%)	Adverse Events	1
+Disease Progression1/20 (5.00%)	Adverse Events	2
+disease	DOID:4,OGMS:0000031	0-7
+Acute viral myocarditis1/20 (5.00%)	Adverse Events	3
+acute	HP:0011009,PATO:0000389	0-5

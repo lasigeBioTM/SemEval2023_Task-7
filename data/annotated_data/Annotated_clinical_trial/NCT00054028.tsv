@@ -1,0 +1,119 @@
+INTERVENTION 1:	Intervention	0
+Suramin and Paclitaxel	Intervention	1
+suramin	CHEBI:180911	0-7
+paclitaxel	CHEBI:45863	12-22
+Suramin will be infused weekly over 30 minutes. Four hours after the completion of the suramin infusion the 1 hour infusion of paclitaxel will begin.	Intervention	2
+suramin	CHEBI:180911	0-7
+suramin	CHEBI:180911	87-94
+hour	UO:0000032	53-57
+hour	UO:0000032	110-114
+paclitaxel	CHEBI:45863	127-137
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed stage IIIB or IV metastatic breast cancer (MBC)	Eligibility	1
+breast cancer	DOID:1612	89-102
+Prior chemotherapy:	Eligibility	2
+Phase I: patients must have received prior paclitaxel or other taxanes in either the adjuvant or metastatic setting; prior chemotherapy, radiation or surgery must be completed at least 21 days before study entry; prior treatment with anthracyclines is not required	Eligibility	3
+paclitaxel	CHEBI:45863	43-53
+adjuvant	CHEBI:60809	85-93
+surgery	OAE:0000067	150-157
+Phase II: up to two prior chemotherapy regimens for stage IIIB or IV MBC; patients must have received prior paclitaxel or other taxanes in either the adjuvant or metastatic setting; prior chemotherapy, radiation or surgery must be completed at least 21 days before study entry; prior treatment with anthracyclines is not required	Eligibility	4
+paclitaxel	CHEBI:45863	108-118
+adjuvant	CHEBI:60809	150-158
+surgery	OAE:0000067	215-222
+Measurable disease (phase II)	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+No known brain metastases	Eligibility	6
+brain	UBERON:0000955	9-14
+Hormone receptor status:	Eligibility	7
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	8
+Performance status - Eastern Cooperative Oncology Group (ECOG) 0-2	Eligibility	9
+group	CHEBI:24433	50-55
+White blood cell (WBC) at least 3,000/mm^3	Eligibility	10
+blood	UBERON:0000178	6-11
+Absolute neutrophil count at least 1,000/mm^3	Eligibility	11
+Platelet count at least 100,000/mm^3	Eligibility	12
+platelet count	CMO:0000029	0-14
+Hemoglobin at least 9.0 g/dL	Eligibility	13
+hemoglobin	CHEBI:35143	0-10
+Bilirubin no greater than 1.5 mg/dL	Eligibility	14
+Aspartate aminotransferase (AST)/alanine aminotransferase (ALT) no greater than 2.5 times upper limit of normal	Eligibility	15
+aspartate	CHEBI:29995	0-9
+Creatinine no greater than 1.5 mg/dL	Eligibility	16
+creatinine	CHEBI:16737	0-10
+Left ventricular ejection fraction (LVEF) at least lower limit of normal	Eligibility	17
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+No symptomatic congestive heart failure	Eligibility	18
+congestive heart failure	HP:0001635,DOID:6000	15-39
+No unstable angina pectoris	Eligibility	19
+angina pectoris	HP:0001681	12-27
+No cardiac arrhythmia	Eligibility	20
+arrhythmia	HP:0011675	11-21
+Not pregnant or nursing	Eligibility	21
+Negative pregnancy test	Eligibility	22
+Fertile patients must use effective contraception	Eligibility	23
+No history of allergic reactions attributable to compounds of similar chemical or biological composition to Cremophor	Eligibility	24
+history	BFO:0000182	3-10
+No concurrent uncontrolled illness that would preclude study compliance	Eligibility	25
+No ongoing or active infection	Eligibility	26
+active	PATO:0002354	14-20
+No uncontrolled diabetes mellitus	Eligibility	27
+diabetes mellitus	HP:0000819,DOID:9351	16-33
+No psychiatric illness or social situations that would preclude study compliance	Eligibility	28
+No other malignancy within the past 5 years except basal cell or squamous cell skin cancer or carcinoma in situ of the cervix	Eligibility	29
+skin cancer	DOID:4159	79-90
+carcinoma	HP:0030731,DOID:305	94-103
+See Disease Characteristics	Eligibility	30
+disease	DOID:4,OGMS:0000031	4-11
+At least 3 weeks since prior chemotherapy (6 weeks for nitrosoureas or mitomycin) and recovered	Eligibility	31
+mitomycin	CHEBI:25357	71-80
+No more than 2 prior chemotherapy regimens for this malignancy (phase II)	Eligibility	32
+No concurrent steroids or hormones except the following:	Eligibility	33
+Steroids to prevent hypersensitivity reactions prior to paclitaxel administration	Eligibility	34
+hypersensitivity	GO:0002524,DOID:1205	20-36
+paclitaxel	CHEBI:45863	56-66
+Hormones for nondisease-related conditions (e.g., insulin for diabetes)	Eligibility	35
+insulin	CHEBI:145810	50-57
+At least 3 weeks since prior radiotherapy and recovered	Eligibility	36
+radiotherapy	OAE:0000235	29-41
+At least 3 weeks since prior surgery and recovered	Eligibility	37
+surgery	OAE:0000067	29-36
+No concurrent combination antiretroviral therapy for human immunodeficiency virus (HIV)-positive patients	Eligibility	38
+immunodeficiency	HP:0002721	59-75
+virus	BAO:0000232	76-81
+No other concurrent investigational agents	Eligibility	39
+Concurrent bisphosphonates (i.e., pamidronate or zoledronate) are allowed for the treatment of hypercalcemia or palliation of skeletal metastases	Eligibility	40
+pamidronate	CHEBI:7903	34-45
+hypercalcemia	HP:0003072,DOID:12678	95-108
+Outcome Measurement:	Results	0
+Percentage of Patients That Achieved Target Suramin Concentrations in Plasma	Results	1
+target	BAO:0003064	37-43
+suramin	CHEBI:180911	44-51
+Target suramin concentration was considered achieved, if at least 5 of 6 patients achieved the target plasma concentration of 10-50 µM over the duration of 8-48 hours when paclitaxel levels are therapeutic.	Results	2
+target	BAO:0003064	0-6
+target	BAO:0003064	95-101
+suramin	CHEBI:180911	7-14
+duration	PATO:0001309	144-152
+paclitaxel	CHEBI:45863	172-182
+Time frame: Up to 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Suramin and Paclitaxel	Results	5
+suramin	CHEBI:180911	17-24
+paclitaxel	CHEBI:45863	29-39
+Arm/Group Description: Suramin will be infused weekly over 30 minutes. Four hours after the completion of the suramin infusion the 1 hour infusion of paclitaxel will begin.	Results	6
+suramin	CHEBI:180911	23-30
+suramin	CHEBI:180911	110-117
+hour	UO:0000032	76-80
+hour	UO:0000032	133-137
+paclitaxel	CHEBI:45863	150-160
+Overall Number of Participants Analyzed: 9	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percent of patients  88	Results	9
+percent	UO:0000187	17-24
+Adverse Events 1:	Adverse Events	0
+Total: 1/31 (3.23%)	Adverse Events	1
+Adult respiratory distress syndrome (ARDS) 1/31 (3.23%)	Adverse Events	2
+adult respiratory distress syndrome	DOID:11394	0-35

@@ -1,0 +1,133 @@
+INTERVENTION 1:	Intervention	0
+Placebo	Intervention	1
+Placebo: Normal saline was administered as a 3-hour intravenous infusion on Day 1.	Intervention	2
+day	UO:0000033	76-79
+INTERVENTION 2:	Intervention	3
+Trabectedin	Intervention	4
+trabectedin	CHEBI:84050	0-11
+1.3 mg/m2 of trabectedin was administered as a 3-hour intravenous infusion on Day 2.	Intervention	5
+trabectedin	CHEBI:84050	13-24
+day	UO:0000033	78-81
+Inclusion Criteria:	Eligibility	0
+Participants with locally advanced or metastatic solid tumors who have received three or less prior lines of systemic chemotherapy	Eligibility	1
+Participants must have relapsed or had progressive disease following standard of care treatment with chemotherapy prior to enrollment, or intolerant to prior standard of care treatment with chemotherapy	Eligibility	2
+progressive	HP:0003676	39-50
+disease	DOID:4,OGMS:0000031	51-58
+Normal cardiac conduction and function as documented on a 12-lead electrocardiogram	Eligibility	3
+cardiac conduction	GO:0061337	7-25
+function	BAO:0003117,BFO:0000034	30-38
+Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 to 1	Eligibility	4
+group	CHEBI:24433	29-34
+Adequate organ function as evidenced by laboratory tests	Eligibility	5
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Able to receive dexamethasone or its equivalent	Eligibility	6
+dexamethasone	CHEBI:41879	16-29
+Agrees to protocol-defined use of effective contraception	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Participants treated with more than three prior chemotherapy regimens (including adjuvant therapy)	Eligibility	9
+adjuvant	CHEBI:60809	81-89
+Previous exposure to trabectedin	Eligibility	10
+trabectedin	CHEBI:84050	21-32
+Central nervous system (CNS) metastasis	Eligibility	11
+central nervous system	UBERON:0001017	0-22
+Known hypersensitivity to any of the components of the trabectedin intravenous formulation or dexamethasone	Eligibility	12
+hypersensitivity	GO:0002524,DOID:1205	6-22
+trabectedin	CHEBI:84050	55-66
+dexamethasone	CHEBI:41879	94-107
+Heart rhythm disturbances, unusual T wave and U wave (if present) morphology, blood pressure outside of normal range, a history of cardiac failure, myocardial infarction, or cardiomyopathy, or a history of additional risk factors for torsade de pointes (eg, heart failure, electrolyte abnormalities, family history of Long QT Syndrome)	Eligibility	13
+heart	UBERON:0000948	0-5
+heart	UBERON:0000948	258-263
+t	CHEBI:36371,BAO:0001260	4-5
+t	CHEBI:36371,BAO:0001260	9-10
+t	CHEBI:36371,BAO:0001260	16-17
+t	CHEBI:36371,BAO:0001260	35-36
+t	CHEBI:36371,BAO:0001260	63-64
+t	CHEBI:36371,BAO:0001260	95-96
+t	CHEBI:36371,BAO:0001260	123-124
+t	CHEBI:36371,BAO:0001260	165-166
+t	CHEBI:36371,BAO:0001260	185-186
+t	CHEBI:36371,BAO:0001260	198-199
+t	CHEBI:36371,BAO:0001260	210-211
+t	CHEBI:36371,BAO:0001260	225-226
+t	CHEBI:36371,BAO:0001260	234-235
+t	CHEBI:36371,BAO:0001260	249-250
+t	CHEBI:36371,BAO:0001260	262-263
+t	CHEBI:36371,BAO:0001260	277-278
+t	CHEBI:36371,BAO:0001260	282-283
+t	CHEBI:36371,BAO:0001260	294-295
+t	CHEBI:36371,BAO:0001260	310-311
+t	CHEBI:36371,BAO:0001260	324-325
+present	PATO:0000467	57-64
+morphology	PATO:0000051	66-76
+blood	UBERON:0000178	78-83
+range	LABO:0000114	111-116
+history	BFO:0000182	120-127
+history	BFO:0000182	195-202
+history	BFO:0000182	307-314
+myocardial infarction	HP:0001658,DOID:5844	148-169
+cardiomyopathy	HP:0001638,DOID:0050700	174-188
+torsade de pointes	HP:0001664	234-252
+family history	HP:0032316	300-314
+long qt syndrome	DOID:2843	318-334
+Participants who at screening are on medication that is known to prolong the QT interval or who is on CYP3A4 inhibitors or inducers	Eligibility	14
+qt interval	CMO:0000235	77-88
+Outcome Measurement:	Results	0
+The Difference in the Change From Baseline (Predose on Day 1) in QTc Intervals Trabectedin Relative to Placebo at 24 Hour Post Dose by Fridericia Correction	Results	1
+day	UO:0000033	55-58
+trabectedin	CHEBI:84050	79-90
+hour	UO:0000032	117-121
+QTc interval was measured by electrocardiograms to evaluate the potential effect of trabectedin on QTc interval duration. The Fridericia correction was used as the standard clinical correction for calculating the heart rate-corrected QT interval.	Results	2
+qtc interval	CMO:0000269	0-12
+qtc interval	CMO:0000269	99-111
+trabectedin	CHEBI:84050	84-95
+duration	PATO:0001309	112-120
+heart	UBERON:0000948	213-218
+qt interval	CMO:0000235	234-245
+Time frame: Baseline (predose on Day 1) to 24 hour post dose (Day 1 or Day 2)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	33-36
+day	UO:0000033	62-65
+day	UO:0000033	71-74
+hour	UO:0000032	46-50
+Results 1:	Results	4
+Arm/Group Title: Placebo	Results	5
+Arm/Group Description: Placebo: Normal saline was administered as a 3-hour intravenous infusion on Day 1.	Results	6
+day	UO:0000033	99-102
+Overall Number of Participants Analyzed: 74	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: milli seconds  3.6         (10.08)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trabectedin	Results	11
+trabectedin	CHEBI:84050	17-28
+Arm/Group Description: 1.3 mg/m2 of trabectedin was administered as a 3-hour intravenous infusion on Day 2.	Results	12
+trabectedin	CHEBI:84050	36-47
+day	UO:0000033	101-104
+Overall Number of Participants Analyzed: 74	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: milli seconds  -6.2         (10.65)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 31/75 (41.33%)	Adverse Events	1
+Anaemia * 2/75 (2.67%)	Adverse Events	2
+Febrile bone marrow aplasia * 1/75 (1.33%)	Adverse Events	3
+bone marrow	UBERON:0002371	8-19
+Febrile neutropenia * 5/75 (6.67%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 1/75 (1.33%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 6/75 (8.00%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 4/75 (5.33%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Abdominal pain * 1/75 (1.33%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Haematochezia * 1/75 (1.33%)	Adverse Events	9
+Nausea * 2/75 (2.67%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Subileus * 1/75 (1.33%)	Adverse Events	11
+Upper gastrointestinal haemorrhage * 1/75 (1.33%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13

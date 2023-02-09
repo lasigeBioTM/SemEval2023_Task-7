@@ -1,0 +1,218 @@
+INTERVENTION 1:	Intervention	0
+Ramucirumab + Capecitabine	Intervention	1
+capecitabine	CHEBI:31348	14-26
+Participants received 10 milligram per kilogram (mg/kg) Ramucirumab intravenously on day 1 of 21 days cycle along with 1000 milligram per square meter (mg/m^2) of Capecitabine twice daily orally on days 1 to 14 of 21 days cycle.	Intervention	2
+day	UO:0000033	85-88
+day	UO:0000033	97-100
+day	UO:0000033	198-201
+day	UO:0000033	217-220
+meter	UO:0000008	145-150
+capecitabine	CHEBI:31348	163-175
+INTERVENTION 2:	Intervention	3
+Icrucumab + Capecitabine	Intervention	4
+capecitabine	CHEBI:31348	12-24
+Participants received 12 mg/kg Icrucumab intravenously on day 1 and day 8 of 21 day cycle along with 1000 mg/m^2 of Capecitabine twice daily orally on days 1 to 14 of 21 days cycle.	Intervention	5
+day	UO:0000033	58-61
+day	UO:0000033	68-71
+day	UO:0000033	80-83
+day	UO:0000033	151-154
+day	UO:0000033	170-173
+capecitabine	CHEBI:31348	116-128
+Inclusion Criteria:	Eligibility	0
+The participant has histologically or cytologically confirmed breast cancer which at the time of study entry is either Stage III disease not amenable to curative therapy or Stage IV disease	Eligibility	1
+breast cancer	DOID:1612	62-75
+time	PATO:0000165	89-93
+disease	DOID:4,OGMS:0000031	129-136
+disease	DOID:4,OGMS:0000031	182-189
+Has measurable or nonmeasurable disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	32-39
+Has an Eastern Cooperative Oncology Group (ECOG) performance status of 0-1	Eligibility	3
+group	CHEBI:24433	36-41
+Has received prior anthracycline therapy	Eligibility	4
+anthracycline	CHEBI:48120	19-32
+Has received prior taxane therapy	Eligibility	5
+taxane	CHEBI:36064	19-25
+Participants with human epidermal growth factor receptor-2 (HER2) positive disease must have progressed on or following trastuzumab	Eligibility	6
+growth factor	BAO:0002024	34-47
+disease	DOID:4,OGMS:0000031	75-82
+Participants with hormone receptor-positive disease must have progressed on or following hormone therapy	Eligibility	7
+hormone	CHEBI:24621	18-25
+hormone	CHEBI:24621	89-96
+disease	DOID:4,OGMS:0000031	44-51
+Has received  3 prior chemotherapy regimens in any setting (a regimen is defined as any agent[s] that has been administered for more than 1 cycle; sequential neoadjuvant/adjuvant treatment is considered 1 regimen)	Eligibility	8
+Has completed any prior radiotherapy  4 weeks prior to randomization	Eligibility	9
+radiotherapy	OAE:0000235	24-36
+Has completed any prior hormonal therapy  2 weeks prior to randomization	Eligibility	10
+Has adverse events (AEs) that have resolved to Grade  1 by the National Cancer Institute Common Terminology Criteria for Adverse Events, Version 4.0 (NCI-CTCAE v 4.0) from all clinically significant toxic effects of prior chemotherapy, surgery, radiotherapy,or hormonal therapy	Eligibility	11
+cancer	DOID:162	72-78
+surgery	OAE:0000067	236-243
+radiotherapy	OAE:0000235	245-257
+Has adequate hematologic, coagulation, hepatic and renal function	Eligibility	12
+coagulation	GO:0050817	26-37
+function	BAO:0003117,BFO:0000034	57-65
+Does not have:	Eligibility	13
+cirrhosis at a level of Child-Pugh B (or worse) or	Eligibility	14
+cirrhosis	HP:0001394	0-9
+cirrhosis (any degree) and a history of hepatic encephalopathy or ascites resulting from cirrhosis and requiring ongoing treatment with diuretics and/or paracentesis	Eligibility	15
+cirrhosis	HP:0001394	0-9
+cirrhosis	HP:0001394	89-98
+history	BFO:0000182	29-36
+hepatic encephalopathy	HP:0002480,DOID:13413	40-62
+ascites	HP:0001541	66-73
+Has urinary protein is  1+ on dipstick or routine urinalysis; if urine protein  2+, a 24-hour urine collection must demonstrate < 1000 mg of protein in 24 hours to allow participation in the study	Eligibility	16
+protein	CHEBI:36080,BAO:0000175	12-19
+protein	CHEBI:36080,BAO:0000175	71-78
+protein	CHEBI:36080,BAO:0000175	141-148
+urine	UBERON:0001088	65-70
+urine	UBERON:0001088	94-99
+Agrees to use adequate contraception during the study period and for 12 weeks after the last dose of study medication	Eligibility	17
+Exclusion Criteria:	Eligibility	18
+Has a concurrent active malignancy other than adequately treated nonmelanomatous skin cancer, curatively treated cervical carcinoma in situ, or other noninvasive carcinoma or in situ neoplasm. A participant with previous history of malignancy is eligible, provided that there has been a disease-free interval for > 3 years	Eligibility	19
+active	PATO:0002354	17-23
+skin cancer	DOID:4159	81-92
+carcinoma	HP:0030731,DOID:305	122-131
+carcinoma	HP:0030731,DOID:305	162-171
+neoplasm	HP:0002664,DOID:14566	183-191
+history	BFO:0000182	221-228
+Has a known sensitivity to capecitabine, any of its components, or other drugs formulated with polysorbate 80	Eligibility	20
+capecitabine	CHEBI:31348	27-39
+polysorbate 80	CHEBI:53426	95-109
+Has a known sensitivity to 5-fluorouracil (5-FU)	Eligibility	21
+5-fluorouracil	CHEBI:46345	27-41
+Has a known dihydropyrimidine dehydrogenase deficiency	Eligibility	22
+dihydropyrimidine dehydrogenase deficiency	DOID:14218	12-54
+Has received prior capecitabine treatment for advanced breast cancer	Eligibility	23
+capecitabine	CHEBI:31348	19-31
+breast cancer	DOID:1612	55-68
+Has received investigational therapy within 2 weeks prior to randomization	Eligibility	24
+Has received bevacizumab within 4 weeks prior to randomization	Eligibility	25
+Has received more than 1 prior antiangiogenic agent for breast cancer	Eligibility	26
+breast cancer	DOID:1612	56-69
+Has a known sensitivity to agents of similar biologic composition as ramucirumab DP or Icrucumab (IMC-18F1), or other agents that specifically target vascular endothelial growth factor (VEGF)	Eligibility	27
+target	BAO:0003064	143-149
+growth factor	BAO:0002024	171-184
+Has an acute/subacute bowel obstruction or history of chronic diarrhea requiring ongoing medical intervention	Eligibility	28
+history	BFO:0000182	43-50
+chronic diarrhea	HP:0002028	54-70
+medical intervention	OAE:0000002	89-109
+Has a history of uncontrolled hereditary or acquired bleeding or thrombotic disorders	Eligibility	29
+history	BFO:0000182	6-13
+Has experienced a Grade  3 bleeding event within 3 months prior to randomization	Eligibility	30
+Is receiving prophylactic or therapeutic anticoagulation with warfarin or any other oral anticoagulant	Eligibility	31
+warfarin	CHEBI:10033	62-70
+anticoagulant	CHEBI:50249	89-102
+Has an uncontrolled intercurrent illness, including, but not limited to uncontrolled hypertension, symptomatic anemia, symptomatic congestive heart failure, unstable angina pectoris, symptomatic or poorly controlled cardiac arrhythmia, psychiatric illness/social situations, or any other serious uncontrolled medical disorder in the opinion of the investigator	Eligibility	32
+hypertension	HP:0000822,DOID:10763	85-97
+anemia	HP:0001903,DOID:2355	111-117
+congestive heart failure	HP:0001635,DOID:6000	131-155
+angina pectoris	HP:0001681	166-181
+arrhythmia	HP:0011675	224-234
+disorder	OGMS:0000045	317-325
+Has experienced any arterial thrombotic or thromboembolic events, including, but not limited to myocardial infarction, transient ischemic attack, or cerebrovascular accident within 6 months prior to randomization	Eligibility	33
+myocardial infarction	HP:0001658,DOID:5844	96-117
+transient ischemic attack	HP:0002326,DOID:224	119-144
+Has brain metastases, uncontrolled spinal cord compression, or leptomeningeal disease	Eligibility	34
+brain	UBERON:0000955	4-9
+spinal cord compression	HP:0002176	35-58
+disease	DOID:4,OGMS:0000031	78-85
+Has an ongoing or active infection requiring parenteral antibiotic, antifungal, or antiviral therapy	Eligibility	35
+active	PATO:0002354	18-24
+Has received a prior allogeneic organ or tissue transplantation	Eligibility	36
+organ	UBERON:0000062	32-37
+tissue	UBERON:0000479	41-47
+Has undergone major surgery within 4 weeks prior to randomization, or subcutaneous venous access device placement within 7 days prior to randomization	Eligibility	37
+surgery	OAE:0000067	20-27
+Has had a serious nonhealing wound, ulcer, or bone fracture within 4 weeks prior to randomization	Eligibility	38
+ulcer	OAE:0004372	36-41
+bone fracture	HP:0020110	46-59
+Has known HIV or AIDS infection	Eligibility	39
+Has an elective or planned major surgery to be performed during the course of the trial	Eligibility	40
+surgery	OAE:0000067	33-40
+Participant is pregnant or lactating	Eligibility	41
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+PFS is defined as the time from the date of randomization until the date of objectively determined progression as defined by Response Evaluation Criteria in Solid Tumors (RECIST v1.1) or death from any cause, whichever is first. Disease progression is defined as 20% increase in the sum of diameters of target lesions, taking as reference smallest sum on study (included baseline sum if that was the smallest on study); sum must have demonstrated an absolute increase of 5 millimeter (mm) and the appearance of 1 new lesions was progression. Participants who did not progress, were lost to follow-up, or had missed 2 or more scheduled tumor assessments were censored at the day of their last adequate tumor assessment.	Results	2
+time	PATO:0000165	22-26
+death	OAE:0000632	187-192
+disease	DOID:4,OGMS:0000031	229-236
+increase	BAO:0001251	267-275
+increase	BAO:0001251	459-467
+target	BAO:0003064	303-309
+millimeter	UO:0000016	473-483
+day	UO:0000033	674-677
+Time frame: From Date of Randomization until Disease Progression or Death Due to Any Cause (Up To 97 weeks)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	45-52
+death	OAE:0000632	68-73
+Results 1:	Results	4
+Arm/Group Title: Ramucirumab + Capecitabine	Results	5
+capecitabine	CHEBI:31348	31-43
+Arm/Group Description: Participants received 10 milligram per kilogram (mg/kg) Ramucirumab intravenously on day 1 of 21 days cycle along with 1000 milligram per square meter (mg/m^2) of Capecitabine twice daily orally on days 1 to 14 of 21 days cycle.	Results	6
+day	UO:0000033	108-111
+day	UO:0000033	120-123
+day	UO:0000033	221-224
+day	UO:0000033	240-243
+meter	UO:0000008	168-173
+capecitabine	CHEBI:31348	186-198
+Overall Number of Participants Analyzed: 52	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Weeks  22.1        (12.1 to 36.1)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Icrucumab + Capecitabine	Results	11
+capecitabine	CHEBI:31348	29-41
+Arm/Group Description: Participants received 12 mg/kg Icrucumab intravenously on day 1 and day 8 of 21 day cycle along with 1000 mg/m^2 of Capecitabine twice daily orally on days 1 to 14 of 21 days cycle.	Results	12
+day	UO:0000033	81-84
+day	UO:0000033	91-94
+day	UO:0000033	103-106
+day	UO:0000033	174-177
+day	UO:0000033	193-196
+capecitabine	CHEBI:31348	139-151
+Overall Number of Participants Analyzed: 49	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Weeks  7.3        (6.3 to 13.0)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 20/52 (38.46%)	Adverse Events	1
+Anaemia 0/52 (0.00%)	Adverse Events	2
+Pancytopenia 1/52 (1.92%)	Adverse Events	3
+pancytopenia	HP:0001876,DOID:12450	0-12
+Acute myocardial infarction 0/52 (0.00%)	Adverse Events	4
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 0/52 (0.00%)	Adverse Events	5
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 1/52 (1.92%)	Adverse Events	6
+Cardiogenic shock 1/52 (1.92%)	Adverse Events	7
+cardiogenic shock	HP:0030149	0-17
+Palpitations 0/52 (0.00%)	Adverse Events	8
+palpitations	HP:0001962	0-12
+Pericardial effusion 0/52 (0.00%)	Adverse Events	9
+pericardial effusion	HP:0001698,DOID:118	0-20
+Right ventricular failure 1/52 (1.92%)	Adverse Events	10
+right ventricular failure	HP:0001708	0-25
+Abdominal pain 0/52 (0.00%)	Adverse Events	11
+abdominal pain	HP:0002027	0-14
+Ascites 3/52 (5.77%)	Adverse Events	12
+ascites	HP:0001541	0-7
+Adverse Events 2:	Adverse Events	13
+Total: 25/49 (51.02%)	Adverse Events	14
+Anaemia 2/49 (4.08%)	Adverse Events	15
+Pancytopenia 0/49 (0.00%)	Adverse Events	16
+pancytopenia	HP:0001876,DOID:12450	0-12
+Acute myocardial infarction 1/49 (2.04%)	Adverse Events	17
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 1/49 (2.04%)	Adverse Events	18
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 0/49 (0.00%)	Adverse Events	19
+Cardiogenic shock 0/49 (0.00%)	Adverse Events	20
+cardiogenic shock	HP:0030149	0-17
+Palpitations 1/49 (2.04%)	Adverse Events	21
+palpitations	HP:0001962	0-12
+Pericardial effusion 4/49 (8.16%)	Adverse Events	22
+pericardial effusion	HP:0001698,DOID:118	0-20
+Right ventricular failure 0/49 (0.00%)	Adverse Events	23
+right ventricular failure	HP:0001708	0-25
+Abdominal pain 1/49 (2.04%)	Adverse Events	24
+abdominal pain	HP:0002027	0-14
+Ascites 0/49 (0.00%)	Adverse Events	25
+ascites	HP:0001541	0-7

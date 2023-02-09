@@ -1,0 +1,140 @@
+INTERVENTION 1:	Intervention	0
+Abl Cells IV + Cyclophosphamide 30 mg/kg	Intervention	1
+cyclophosphamide	CHEBI:4026	15-31
+Phase 1 Cyclophosphamide Dose Escalation: Fludarabine 5x25mg/m^2 + Cyclophosphamide 2x30mg/kg + Cells intravenous (IV)	Intervention	2
+cyclophosphamide	CHEBI:4026	8-24
+cyclophosphamide	CHEBI:4026	67-83
+INTERVENTION 2:	Intervention	3
+Abl Cells IV + Cyclophosphamide 60 mg/kg	Intervention	4
+cyclophosphamide	CHEBI:4026	15-31
+Phase 1 Cyclophosphamide Dose Escalation: Fludarabine 5x25mg/m2 + Cyclophosphamide 2x60mg/kg + Cells intravenous (IV)	Intervention	5
+cyclophosphamide	CHEBI:4026	8-24
+cyclophosphamide	CHEBI:4026	66-82
+INCLUSION CRITERIA	Eligibility	0
+Patients must have evaluable metastatic melanoma that is refractory to standard therapy.	Eligibility	1
+melanoma	HP:0002861,DOID:1909	40-48
+refractory	HP:0031375	57-67
+Age greater than or equal to 16 years.	Eligibility	2
+age	PATO:0000011	0-3
+Patients of both genders must be willing to practice birth control for four months after receiving the preparative regimen.	Eligibility	3
+Clinical performance status of Eastern Cooperative Oncology Group (ECOG) 0, 1 at entry to the trial and at the time of chemotherapy induction.	Eligibility	4
+group	CHEBI:24433	60-65
+time	PATO:0000165	111-115
+Absolute neutrophil count greater than 1000/mm^3.	Eligibility	5
+Platelet count greater than 100,000/mm^3.	Eligibility	6
+platelet count	CMO:0000029	0-14
+Hemoglobin greater than 8.0 g/dl.	Eligibility	7
+hemoglobin	CHEBI:35143	0-10
+Serum alanine aminotransferase (ALT)/aspartate aminotransferase (AST) less than two times the upper limit of normal.	Eligibility	8
+alanine	CHEBI:16449	6-13
+Serum creatinine less than or equal to 1.6 mg/dl.	Eligibility	9
+creatinine	CHEBI:16737	6-16
+Total bilirubin less than or equal to 1.6 mg/dl, except for patients with Gilbert's Syndrome who must have a total bilirubin less than 3.0 mg/dl.	Eligibility	10
+syndrome	DOID:225	84-92
+More than four weeks must have elapsed since any prior therapy at the time the patient receives the preparative regimen.	Eligibility	11
+time	PATO:0000165	70-74
+patient	HADO:0000008,OAE:0001817	79-86
+Women of child-bearing potential must have a negative pregnancy test because of the potentially dangerous effects of the preparative chemotherapy on the fetus.	Eligibility	12
+Life expectancy of greater than three months.	Eligibility	13
+No steroid therapy required.	Eligibility	14
+steroid	CHEBI:35341	3-10
+Seronegative for human immunodeficiency virus (HIV) antibody. (The experimental treatment being evaluated in this protocol depends on an intact immune system. Patients who are HIV seropositive can have decreased immune competence and thus be less responsive to the experimental treatment and more susceptible to its toxicities.)	Eligibility	15
+immunodeficiency	HP:0002721	23-39
+virus	BAO:0000232	40-45
+antibody	GO:0042571,BAO:0000502	52-60
+immune system	UBERON:0002405	144-157
+Seronegative for hepatitis B antigen.	Eligibility	16
+hepatitis b	DOID:2043	17-28
+antigen	CHEBI:59132	29-36
+Patients to receive high dose interleukin 2 (IL-2) must have no active systemic infections, coagulation disorders or other major medical illnesses of the cardiovascular, respiratory or immune system.	Eligibility	17
+active	PATO:0002354	64-70
+coagulation	GO:0050817	92-103
+immune system	UBERON:0002405	185-198
+Patients who will receive high dose IL-2 as part of the phase I portion of this study or who will be randomized must be eligible to receive high dose IL-2.	Eligibility	18
+part of	BAO:0090002,BFO:0000050	44-51
+Any patient receiving IL-2 must sign a durable power of attorney.	Eligibility	19
+patient	HADO:0000008,OAE:0001817	4-11
+Outcome Measurement:	Results	0
+Clinical Response	Results	1
+Complete response (CR) is defined as the disappearance of all clinical evidence of disease. Partial response (PR) is a 50% or greater decrease in the sum of the products of perpendicular diameters of all measurable lesions for at least one month. No new lesions may appear, and none may increase. Minor response (MR) is a 25-49% decrease in the sum of the products of the perpendicular diameters of all measurable lesions. Appearance of new lesions following a PR or CR are considered relapses. Patients with progressive disease (PD) and no evidence of stable disease will be taken off study after receiving IL-2.	Results	2
+disease	DOID:4,OGMS:0000031	83-90
+disease	DOID:4,OGMS:0000031	521-528
+disease	DOID:4,OGMS:0000031	560-567
+month	UO:0000035	240-245
+increase	BAO:0001251	287-295
+progressive	HP:0003676	509-520
+stable	HP:0031915	553-559
+Time frame: Every three to four weeks after the treatment, for up to 5 years.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Abl Cells IV + Cyclophosphamide 30 mg/kg	Results	5
+cyclophosphamide	CHEBI:4026	32-48
+Arm/Group Description: Phase 1 Cyclophosphamide Dose Escalation: Fludarabine 5x25mg/m^2 + Cyclophosphamide 2x30mg/kg + Cells intravenous (IV)	Results	6
+cyclophosphamide	CHEBI:4026	31-47
+cyclophosphamide	CHEBI:4026	90-106
+Overall Number of Participants Analyzed: 3	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  Complete Response: 0	Results	9
+Partial Response: 0	Results	10
+Minor Response: 0	Results	11
+Progressive Disease: 0	Results	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Mixed Response: 0	Results	13
+mixed	BAO:0002107	0-5
+No Response: 3	Results	14
+Stable Disease: 0	Results	15
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Results 2:	Results	16
+Arm/Group Title: Abl Cells IV + Cyclophosphamide 60 mg/kg	Results	17
+cyclophosphamide	CHEBI:4026	32-48
+Arm/Group Description: Phase 1 Cyclophosphamide Dose Escalation: Fludarabine 5x25mg/m2 + Cyclophosphamide 2x60mg/kg + Cells intravenous (IV)	Results	18
+cyclophosphamide	CHEBI:4026	31-47
+cyclophosphamide	CHEBI:4026	89-105
+Overall Number of Participants Analyzed: 3	Results	19
+Measure Type: Number	Results	20
+Unit of Measure: Participants  Complete Response: 0	Results	21
+Partial Response: 0	Results	22
+Minor Response: 0	Results	23
+Progressive Disease: 0	Results	24
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Mixed Response: 0	Results	25
+mixed	BAO:0002107	0-5
+No Response: 3	Results	26
+Stable Disease: 0	Results	27
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1
+Lymphocyte count decreased 0/3 (0.00%)	Adverse Events	2
+Neutrophil count decreased 0/3 (0.00%)	Adverse Events	3
+Thrombotic microangiopathy 0/3 (0.00%)	Adverse Events	4
+Disseminated intravascular coagulation 0/3 (0.00%)	Adverse Events	5
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Sinus tachycardia 0/3 (0.00%)	Adverse Events	6
+sinus tachycardia	HP:0011703	0-17
+Hypotension 0/3 (0.00%)	Adverse Events	7
+hypotension	HP:0002615	0-11
+left ventricular dysfunction 0/3 (0.00%)	Adverse Events	8
+left	HP:0012835	0-4
+Vision blurred 0/3 (0.00%)	Adverse Events	9
+General symptom 0/3 (0.00%)	Adverse Events	10
+symptom	OGMS:0000020	8-15
+Adverse Events 2:	Adverse Events	11
+Total: 0/3 (0.00%)	Adverse Events	12
+Lymphocyte count decreased 0/3 (0.00%)	Adverse Events	13
+Neutrophil count decreased 0/3 (0.00%)	Adverse Events	14
+Thrombotic microangiopathy 0/3 (0.00%)	Adverse Events	15
+Disseminated intravascular coagulation 0/3 (0.00%)	Adverse Events	16
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Sinus tachycardia 0/3 (0.00%)	Adverse Events	17
+sinus tachycardia	HP:0011703	0-17
+Hypotension 0/3 (0.00%)	Adverse Events	18
+hypotension	HP:0002615	0-11
+left ventricular dysfunction 0/3 (0.00%)	Adverse Events	19
+left	HP:0012835	0-4
+Vision blurred 0/3 (0.00%)	Adverse Events	20
+General symptom 0/3 (0.00%)	Adverse Events	21
+symptom	OGMS:0000020	8-15

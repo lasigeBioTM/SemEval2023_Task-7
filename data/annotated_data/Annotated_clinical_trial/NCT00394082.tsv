@@ -1,0 +1,171 @@
+INTERVENTION 1:	Intervention	0
+ABI-007 Plus Bevacizumab	Intervention	1
+ABI-007 is administered on days 1, 8 and 15 at 125 mg/m^2 and bevacizumab is administered on day 1 and 15 at 10 mg/kg of each 28 day cycle. Treatment continues until disease progression or intolerable toxicity. If a patient develops intolerable toxicity to only one of the drugs, the other drug may be continued as single agent therapy in the absence of progression, as long as the treating physician feels this is in the best interests of the patient.	Intervention	2
+day	UO:0000033	27-30
+day	UO:0000033	93-96
+day	UO:0000033	129-132
+disease	DOID:4,OGMS:0000031	166-173
+patient	HADO:0000008,OAE:0001817	216-223
+patient	HADO:0000008,OAE:0001817	444-451
+drug	CHEBI:23888	273-277
+drug	CHEBI:23888	290-294
+Inclusion Criteria:	Eligibility	0
+Pathologically confirmed adenocarcinoma of the breast.	Eligibility	1
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+Stage IV disease.	Eligibility	2
+disease	DOID:4,OGMS:0000031	9-16
+Measurable disease (defined as the presence of at least one lesion that can be accurately measured in at least one dimension with longest diameter greater or = 1.0 cm with spiral computed tomography (CT) scan).	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+diameter	PATO:0001334	138-146
+tomography	BAO:0002525	188-198
+ct	BAO:0002125	200-202
+Patients must not be a candidate for Herceptin therapy (i.e., patients with HER-2 positive disease (gene amplification by fluorescence in situ hybridization (FISH) or 3 + overexpression by ICH) and patients with unknown HER-2 status are ineligible unless the treating physicians has determined that Herceptin-based therapy would be inappropriate or not indicated).	Eligibility	4
+disease	DOID:4,OGMS:0000031	91-98
+gene	BAO:0000582	100-104
+For subjects with prior anthracycline exposure, normal cardiac function including a baseline left ventricle ejection fraction >50% or above institution's lower limit of normal and a normal electrocardiogram (ECG) (as assessed by the investigator).	Eligibility	5
+anthracycline	CHEBI:48120	24-37
+function	BAO:0003117,BFO:0000034	63-71
+left	HP:0012835	93-97
+ejection fraction	CMO:0000180	108-125
+At least 2 weeks since radiotherapy, with full recovery. The measurable disease must be completely outside the radiation portal or there must be pathologic proof of progressive disease within the radiation portal.	Eligibility	6
+radiotherapy	OAE:0000235	23-35
+disease	DOID:4,OGMS:0000031	72-79
+disease	DOID:4,OGMS:0000031	177-184
+progressive	HP:0003676	165-176
+International Normalized Ratio (INR) < 1.5 and activated partial thromboplastin time within normal limits (APTT WNL).	Eligibility	7
+ratio	UO:0000190	25-30
+activated partial thromboplastin time	CMO:0000210	47-84
+Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.	Eligibility	8
+group	CHEBI:24433	29-34
+Female > 18 years of age.	Eligibility	9
+female	PATO:0000383	0-6
+age	PATO:0000011	21-24
+Patients have the following blood counts at Baseline: absolute neutrophil count (ANC) greater or equal to 1.5 x 10^9 cells/L; platelets greater or equal 100 x 10^9 cells/L; hemoglobin (Hgb) greater or equal to 9g/dL.	Eligibility	10
+blood	UBERON:0000178	28-33
+x	LABO:0000148	110-111
+x	LABO:0000148	157-158
+hemoglobin	CHEBI:35143	173-183
+Patients have the following blood chemistry levels at Baseline: aspartate aminotransferase (AST or SGOT), alanine aminotransferase (ALT or SGPT) less than or equal 2.5x upper limit of normal (ULN) range (less than or equal 5x ULN if patient has known liver metastases); total bilirubin greater than or equal to ULN; creatinine greater or equal to 1.5mg/dL.	Eligibility	11
+blood	UBERON:0000178	28-33
+aspartate	CHEBI:29995	64-73
+alanine	CHEBI:16449	106-113
+range	LABO:0000114	197-202
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	233-240
+liver	UBERON:0002107	251-256
+creatinine	CHEBI:16737	316-326
+if female of childbearing potential, pregnancy test is negative within 72 hours of first dose of study drug.	Eligibility	12
+female	PATO:0000383	3-9
+drug	CHEBI:23888	103-107
+if fertile, the patient agrees to use an effective method to avoid pregnancy for the duration of the study.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	16-23
+duration	PATO:0001309	85-93
+Informed consent has been obtained.	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+No prior chemotherapy for metastatic or locally recurrent disease is allowed.	Eligibility	16
+recurrent	HP:0031796	48-57
+disease	DOID:4,OGMS:0000031	58-65
+Prio neo-adjuvant chemotherapy is allowed, and patients must have recovered from the acute toxicity of such therapies.	Eligibility	17
+acute	HP:0011009,PATO:0000389	85-90
+if a taxane was part of the adjuvant regimen, at least 12 months must have elapsed between the last dose of the taxane and the date of diagnosis of metastatic disease.	Eligibility	18
+taxane	CHEBI:36064	5-11
+taxane	CHEBI:36064	112-118
+part of	BAO:0090002,BFO:0000050	16-23
+adjuvant	CHEBI:60809	28-36
+disease	DOID:4,OGMS:0000031	159-166
+if a non-taxane-based adjuvant therapy was administered, at least six months must have elapsed between the last dose of the non- taxane-containing chemotherapy and the date of diagnosis of metastatic disease.	Eligibility	19
+adjuvant	CHEBI:60809	22-30
+disease	DOID:4,OGMS:0000031	200-207
+Concurrent immunotherapy or hormonal therapy.	Eligibility	20
+Parenchymal brain metastases, including leptomeningeal involvement.	Eligibility	21
+brain	UBERON:0000955	12-17
+Uncontrolled hypertension (defined as blood pressure of > 150/100 mmHg)	Eligibility	22
+hypertension	HP:0000822,DOID:10763	13-25
+blood	UBERON:0000178	38-43
+NYHA Grade 2 or greater congestive heart failure	Eligibility	23
+congestive heart failure	HP:0001635,DOID:6000	24-48
+History of coagulopathy, bleeding diathesis, therapeutic anticoagulation other than low dose or chronic ASA greater than or equal to 325 mg per day. Low dose coumadin for anticoagulation of venous access device or low dose molecular weight heparin (LMWH)for deep vein thrombosis prophylaxis or low dose (325 mg or less) ASA prophylaxis are allowed, but are best avoided if the treating physician feels it is safe to do so.	Eligibility	24
+history	BFO:0000182	0-7
+chronic	HP:0011010	96-103
+day	UO:0000033	144-147
+heparin	CHEBI:28304	240-247
+vein	UBERON:0001638	263-267
+thrombosis	DOID:0060903	268-278
+Urine protein:creatinine ratio less than or equal to 1.0 at screening.	Eligibility	25
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	14-24
+ratio	UO:0000190	25-30
+No history of cerebrovascular accident within six months of study entry.	Eligibility	26
+history	BFO:0000182	3-10
+Active symptomatic peripheral vascular disease (e.g. aortic aneurysm, claudication) within six months of study entry.	Eligibility	27
+active	PATO:0002354	0-6
+peripheral vascular disease	DOID:341	19-46
+aortic aneurysm	HP:0004942,DOID:3627	53-68
+Uncontrolled or severe cardiovascular disease including myocardial infarction or unstable angina within six months of study entry.	Eligibility	28
+severe	HP:0012828	16-22
+disease	DOID:4,OGMS:0000031	38-45
+myocardial infarction	HP:0001658,DOID:5844	56-77
+No history of abdominal fistula, gastrointestinal perforation, or intra-abdominal process within six months of study entry.	Eligibility	29
+history	BFO:0000182	3-10
+process	BFO:0000015	82-89
+No serious non-healing wound, ulcer, or bone fracture	Eligibility	30
+ulcer	OAE:0004372	30-35
+bone fracture	HP:0020110	40-53
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to first dose, or anticipation of need for major surgical procedure during the course of the study. No minor surgical procedure within seven days of study entry. Serious intercurrent medical or psychiatric illness, including serious active infection.	Eligibility	31
+active	PATO:0002354	325-331
+History of other malignancy within the last 5 years which could affect the diagnosis or assessment of breast cancer.	Eligibility	32
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	102-115
+Current, recent (within 4 weeks of the first infusion of this study), or planned participation in an experimental drug study.	Eligibility	33
+drug	CHEBI:23888	114-118
+Pregnant or nursing women.	Eligibility	34
+Patients with current sensory neuropathy of > Grade 1 will be excluded.	Eligibility	35
+sensory neuropathy	HP:0000763,DOID:2491	22-40
+excluded	HP:0040285	62-70
+Outcome Measurement:	Results	0
+Participants With At Least One Treatment-Emergent Adverse Event (TEAE)	Results	1
+adverse event	OAE:0000001	50-63
+Count of study participants who had at least one treatment-emergent adverse event (TEAE) defined as any adverse event that began or worsened in grade after the start of study drug through 30 days after the last dose of study drug.	Results	2
+adverse event	OAE:0000001	68-81
+adverse event	OAE:0000001	104-117
+drug	CHEBI:23888	175-179
+drug	CHEBI:23888	225-229
+Time frame: up to 25 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: ABI-007 Plus Bevacizumab	Results	5
+Arm/Group Description: ABI-007 is administered on days 1, 8 and 15 at 125 mg/m^2 and bevacizumab is administered on day 1 and 15 at 10 mg/kg of each 28 day cycle. Treatment continues until disease progression or intolerable toxicity. If a patient develops intolerable toxicity to only one of the drugs, the other drug may be continued as single agent therapy in the absence of progression, as long as the treating physician feels this is in the best interests of the patient.	Results	6
+day	UO:0000033	50-53
+day	UO:0000033	116-119
+day	UO:0000033	152-155
+disease	DOID:4,OGMS:0000031	189-196
+patient	HADO:0000008,OAE:0001817	239-246
+patient	HADO:0000008,OAE:0001817	467-474
+drug	CHEBI:23888	296-300
+drug	CHEBI:23888	313-317
+Overall Number of Participants Analyzed: 50	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  50	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 13/50 (26.00%)	Adverse Events	1
+Febrile neutropenia 3/50 (6.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/50 (2.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancreatitis 1/50 (2.00%)	Adverse Events	4
+pancreatitis	HP:0001733,DOID:4989	0-12
+Cholangitis 1/50 (2.00%)	Adverse Events	5
+cholangitis	HP:0030151,DOID:9446	0-11
+Cholelithiasis 1/50 (2.00%)	Adverse Events	6
+cholelithiasis	HP:0001081,DOID:10211	0-14
+Anaphylactic reaction  [1]1/50 (2.00%)	Adverse Events	7
+Pneumonia 1/50 (2.00%)	Adverse Events	8
+pneumonia	HP:0002090,DOID:552	0-9
+Pneumonitis chemical 1/50 (2.00%)	Adverse Events	9
+Spinal compression fracture 1/50 (2.00%)	Adverse Events	10
+compression fracture	HP:4000047	7-27
+Dehydration 1/50 (2.00%)	Adverse Events	11
+dehydration	HP:0001944	0-11
+Electrolyte imbalance 1/50 (2.00%)	Adverse Events	12

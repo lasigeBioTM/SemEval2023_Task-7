@@ -1,0 +1,247 @@
+INTERVENTION 1:	Intervention	0
+Everolimus and Exemestane	Intervention	1
+everolimus	CHEBI:68478	0-10
+exemestane	CHEBI:4953	15-25
+Postmenopausal women diagnosed with oestrogen receptor positive locally advanced or metastatic breast cancer will receive everolimus at a dose of 10mg daily p.o. and exemestane 25mg daily p.o.	Intervention	2
+receptor	BAO:0000281	46-54
+breast cancer	DOID:1612	95-108
+everolimus	CHEBI:68478	122-132
+exemestane	CHEBI:4953	166-176
+Inclusion Criteria:	Eligibility	0
+Histological or cytological confirmation of oestrogen receptor positive (ER+) and/or progesterone receptor positive (PgR+), human epidermal growth factor receptor 2 (HER2) negative breast cancer.	Eligibility	1
+receptor	BAO:0000281	54-62
+receptor	BAO:0000281	98-106
+receptor	BAO:0000281	154-162
+progesterone	CHEBI:17026	85-97
+growth factor	BAO:0002024	140-153
+breast cancer	DOID:1612	181-194
+Availability of archival tumour tissue (the tissue block or slides will be sent to the central laboratory for analysis).	Eligibility	2
+tissue	UBERON:0000479	32-38
+tissue	UBERON:0000479	44-50
+central	HP:0030645	87-94
+Postmenopausal women. The investigator must confirm postmenopausal status. Postmenopausal status is defined either by:	Eligibility	3
+Age  55 years and one year or more of amenorrhea	Eligibility	4
+age	PATO:0000011	0-3
+year	UO:0000036	8-12
+year	UO:0000036	22-26
+amenorrhea	HP:0000141,DOID:13938	38-48
+Age < 55 years and one year or more of amenorrhea and postmenopausal levels of FSH and LH per local institutional standards	Eligibility	5
+age	PATO:0000011	0-3
+year	UO:0000036	9-13
+year	UO:0000036	23-27
+amenorrhea	HP:0000141,DOID:13938	39-49
+Prior hysterectomy and has postmenopausal levels of Follicle stimulating hormone (FSH) and Luteinizing Hormone (LH) per local institutional standards Surgical menopause with bilateral oophorectomy	Eligibility	6
+follicle stimulating hormone	CHEBI:81569	52-80
+luteinizing hormone	CHEBI:81568	91-110
+menopause	GO:0042697	159-168
+bilateral	HP:0012832	174-183
+Disease progression following prior therapy with NSAI, defined as:	Eligibility	7
+disease	DOID:4,OGMS:0000031	0-7
+Recurrence while on or after completion of an adjuvant treatment including letrozole or anastrozole, or	Eligibility	8
+adjuvant	CHEBI:60809	46-54
+letrozole	CHEBI:6413	75-84
+anastrozole	CHEBI:2704	88-99
+Progression while on or following the completion of letrozole or anastrozole treatment for locally advanced or metastatic breast cancer	Eligibility	9
+letrozole	CHEBI:6413	52-61
+anastrozole	CHEBI:2704	65-76
+breast cancer	DOID:1612	122-135
+Note: Non-steroidal aromatase inhibitors (i.e. letrozole or anastrozole) do not have to be the last treatment prior to enrollment. Other prior anticancer therapy, e.g. tamoxifen, fulvestrant, exemestane are also allowed. Patients must have recovered to grade 1 or better from any adverse events (except alopecia) related to previous therapy prior to enrollment.	Eligibility	10
+letrozole	CHEBI:6413	47-56
+anastrozole	CHEBI:2704	60-71
+tamoxifen	CHEBI:41774	168-177
+fulvestrant	CHEBI:31638	179-190
+exemestane	CHEBI:4953	192-202
+alopecia	HP:0001596,DOID:987	303-311
+- Radiological evidence of recurrence or progression on last systemic therapy prior to enrollment.	Eligibility	11
+Patients must have:	Eligibility	12
+At least one lesion that can be accurately measured or	Eligibility	13
+Bone lesions: lytic or mixed (lytic + sclerotic) in the absence of measurable disease	Eligibility	14
+mixed	BAO:0002107	23-28
+disease	DOID:4,OGMS:0000031	78-85
+- Adequate bone marrow and coagulation function as shown by:	Eligibility	15
+bone marrow	UBERON:0002371	11-22
+coagulation	GO:0050817	27-38
+function	BAO:0003117,BFO:0000034	39-47
+Absolute neutrophil count (ANC)  1.5 109/L	Eligibility	16
+Platelets  100 ×109/L	Eligibility	17
+Hemoglobin (Hb)  9.0 g/dL	Eligibility	18
+hemoglobin	CHEBI:35143	0-10
+International Normalized Ratio (INR)  2 .	Eligibility	19
+ratio	UO:0000190	25-30
+- Adequate liver function as shown by:	Eligibility	20
+liver	UBERON:0002107	11-16
+function	BAO:0003117,BFO:0000034	17-25
+Serum aspartate aminotransferase (AST) and alanine aminotransferase (ALT)  2.5 ULN (or  5 if hepatic metastases are present)	Eligibility	21
+aspartate	CHEBI:29995	6-15
+alanine	CHEBI:16449	43-50
+present	PATO:0000467	116-123
+Total serum bilirubin  1.5 × ULN ( 3 × ULN for patients known to have Gilbert Syndrome)	Eligibility	22
+gilbert syndrome	DOID:2739	70-86
+- Adequate renal function as shown by:	Eligibility	23
+function	BAO:0003117,BFO:0000034	17-25
+Serum creatinine  1.5 × ULN	Eligibility	24
+creatinine	CHEBI:16737	6-16
+Fasting serum cholesterol  300 mg/dl or 7.75 mmol/L and fasting triglycerides  2.5 × ULN. In case one or both of these thresholds are exceeded, the patient can only be included after initiation of statin therapy and when the above mentioned values have been achieved	Eligibility	25
+cholesterol	CHEBI:16113	14-25
+patient	HADO:0000008,OAE:0001817	148-155
+statin	CHEBI:87631	197-203
+Eastern Cooperative Oncology Group (ECOG) performance status of PS </ 2	Eligibility	26
+group	CHEBI:24433	29-34
+Written informed consent obtained before any screening procedure and according to local guidelines.	Eligibility	27
+Exclusion Criteria:	Eligibility	28
+HER2-overexpressing patients by local laboratory testing (IHC 3+ staining or in situ hybridization positive).	Eligibility	29
+Pre-menopausal, pregnant, lactating women.	Eligibility	30
+Known hypersensitivity to mammilian target of Rapamycin (mTOR) inhibitors, e.g. sirolimus (rapamycin) or to their excipients.	Eligibility	31
+hypersensitivity	GO:0002524,DOID:1205	6-22
+target	BAO:0003064	36-42
+sirolimus	CHEBI:9168	80-89
+Known hypersensitivity to exemestane, to the active substance or to any of the excipients.	Eligibility	32
+hypersensitivity	GO:0002524,DOID:1205	6-22
+exemestane	CHEBI:4953	26-36
+active	PATO:0002354	45-51
+Patients with rare hereditary problems of galactose intolerance, Lapp lactase deficiency or glucose galactose malabsorption.	Eligibility	33
+galactose intolerance	HP:0004919	42-63
+glucose	CHEBI:4167,BAO:0000924	92-99
+galactose	CHEBI:28260	42-51
+galactose	CHEBI:28260	100-109
+malabsorption	HP:0002024	110-123
+Radiotherapy within four weeks prior to enrollment except in case of localized radiotherapy for analgesic purpose or for lytic lesions at risk of fracture which can then be completed within two weeks prior to enrollment. Patients must have recovered from radiotherapy toxicities prior to enrollment.	Eligibility	34
+radiotherapy	OAE:0000235	0-12
+radiotherapy	OAE:0000235	79-91
+radiotherapy	OAE:0000235	255-267
+localized	HP:0012838,PATO:0000627	69-78
+analgesic	CHEBI:35480	96-105
+Currently receiving hormone replacement therapy, unless discontinued prior to enrollment.	Eligibility	35
+hormone	CHEBI:24621	20-27
+Patients receiving concomitant immunosuppressive agents or chronic corticosteroids use, at the time of study entry except in cases outlined below:	Eligibility	36
+chronic	HP:0011010	59-66
+time	PATO:0000165	95-99
+Prolonged systemic corticosteroid treatment during study, except for topical applications (e.g. rash),inhaled sprays (e.g. obstructive airways diseases), eye drops or local injections (e.g. intra-articular) should not be given. However:	Eligibility	37
+prolonged	HP:0025297	0-9
+corticosteroid	CHEBI:50858	19-33
+eye	UBERON:0000970	154-157
+short duration (<2 weeks) of systemic corticosteroids is allowed (e.g. chronic obstructive pulmonary disease, anti-emetic)	Eligibility	38
+duration	PATO:0001309	6-14
+chronic obstructive pulmonary disease	DOID:3083	71-108
+low doses of corticosteroids for brain metastasis treatment is allowed	Eligibility	39
+brain	UBERON:0000955	33-38
+Patients with symptomatic visceral metastasis (e.g. significant dyspnoea related to pulmonary lymphangitic carcinomatosis and lung metastases or clinically meaningful symptomatic liver metastasis)	Eligibility	40
+lung	UBERON:0002048	126-130
+liver	UBERON:0002107	179-184
+Symptomatic brain or other Central Nervous system (CNS) metastases.	Eligibility	41
+brain	UBERON:0000955	12-17
+central nervous system	UBERON:0001017	27-49
+Active, bleeding diathesis, or on oral anti-vitamin K medication (except low dose warfarin, low molecular weight heparin (LMWH) and acetylsalicylic acid or equivalent, as long as the INR is 2.0)	Eligibility	42
+active	PATO:0002354	0-6
+warfarin	CHEBI:10033	82-90
+heparin	CHEBI:28304	113-120
+acetylsalicylic acid	CHEBI:15365	132-152
+Any severe and / or uncontrolled medical conditions such as:	Eligibility	43
+severe	HP:0012828	4-10
+Unstable angina pectoris, symptomatic congestive heart failure, myocardial infarction 6 months prior to enrollment, serious uncontrolled cardiac arrhythmia	Eligibility	44
+angina pectoris	HP:0001681	9-24
+congestive heart failure	HP:0001635,DOID:6000	38-62
+myocardial infarction	HP:0001658,DOID:5844	64-85
+arrhythmia	HP:0011675	145-155
+Uncontrolled diabetes as defined by fasting serum glucose > 1.5 × ULN	Eligibility	45
+glucose	CHEBI:4167,BAO:0000924	50-57
+Acute and chronic, active infectious disorders (except for Hep B and Hep C positive patients) and nonmalignant medical illnesses that are uncontrolled or whose control may be jeopardized by the complications of this study therapy	Eligibility	46
+acute	HP:0011009,PATO:0000389	0-5
+chronic	HP:0011010	10-17
+active	PATO:0002354	19-25
+Impairment of gastrointestinal function or gastrointestinal disease that may significantly alter the absorption of study drugs (e.g., ulcerative disease, uncontrolled nausea, vomiting, diarrhoea, malabsorption syndrome)	Eligibility	47
+function	BAO:0003117,BFO:0000034	31-39
+disease	DOID:4,OGMS:0000031	60-67
+disease	DOID:4,OGMS:0000031	145-152
+nausea	HP:0002018	167-173
+vomiting	HP:0002013	175-183
+malabsorption	HP:0002024	196-209
+syndrome	DOID:225	210-218
+Significant symptomatic deterioration of lung function. If clinically indicated, pulmonary function tests including measures of predicted lung volumes, DLco, O2 saturation at rest on room air should be considered to exclude restrictive pulmonary disease, pneumonitis or pulmonary infiltrates.	Eligibility	48
+lung	UBERON:0002048	41-45
+lung	UBERON:0002048	138-142
+function	BAO:0003117,BFO:0000034	46-54
+function	BAO:0003117,BFO:0000034	91-99
+disease	DOID:4,OGMS:0000031	246-253
+pulmonary infiltrates	HP:0002113	270-291
+Patients being treated with drugs recognized as being strong inhibitors or inducers of the isoenzyme CYP3A (rifabutin, rifampicin, clarithromycin, ketoconazole, itraconazole, voriconazole, ritonavir, telithromycin) within the last 5 days prior to enrollment	Eligibility	49
+rifabutin	CHEBI:45367	108-117
+rifampicin	CHEBI:71365	119-129
+clarithromycin	CHEBI:3732	131-145
+ketoconazole	CHEBI:47519,BAO:0000796	147-159
+itraconazole	CHEBI:6076	161-173
+voriconazole	CHEBI:10023	175-187
+ritonavir	CHEBI:45409	189-198
+telithromycin	CHEBI:29688	200-213
+History of non-compliance to medical regimens	Eligibility	50
+history	BFO:0000182	0-7
+Patients unwilling to or unable to comply with the protocol	Eligibility	51
+Another malignancy within 5 years prior to randomization, with the exception of adequately treated in-situ carcinoma of the cervix, uteri, basal or squamous cell carcinoma or non-melanomatous skin cancer	Eligibility	52
+carcinoma	HP:0030731,DOID:305	107-116
+carcinoma	HP:0030731,DOID:305	162-171
+squamous cell carcinoma	HP:0002860,DOID:1749	148-171
+skin cancer	DOID:4159	192-203
+Outcome Measurement:	Results	0
+Best Overall Response of Everolimus and Exemestane Treatment in Postmenopausal Women With Hormone Receptor Positive Locally Advanced or Metastatic Breast Cancer	Results	1
+everolimus	CHEBI:68478	25-35
+exemestane	CHEBI:4953	40-50
+hormone	CHEBI:24621	90-97
+receptor	BAO:0000281	98-106
+breast cancer	DOID:1612	147-160
+The best Overall Response (OR) for each patient is determined from the sequence of investigator overall lesion responses according to Response Evaluation Criteria in Solid Tumors (RECIST 1.1.). To be assigned a best OR of Complete Responese (CR) at least two determinations of CR at least 4 weeks apart before progression are required. To be assigned a best OR of Partial Response (PR) at least two determinations of PR or better at least 4 weeks apart before progression (and not qualifying for a CR) are required.The Overall Response Rate (ORR) was defined as the proportion of patients with a best OR of confirmed CR or PR by week 48.	Results	2
+patient	HADO:0000008,OAE:0001817	40-47
+patient	HADO:0000008,OAE:0001817	580-587
+rate	BAO:0080019	536-540
+week	UO:0000034	291-295
+week	UO:0000034	441-445
+week	UO:0000034	629-633
+Time frame: At 48 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Everolimus and Exemestane	Results	5
+everolimus	CHEBI:68478	17-27
+exemestane	CHEBI:4953	32-42
+Arm/Group Description: Postmenopausal women diagnosed with oestrogen receptor positive locally advanced or metastatic breast cancer will receive everolimus at a dose of 10mg daily p.o. and exemestane 25mg daily p.o.	Results	6
+receptor	BAO:0000281	69-77
+breast cancer	DOID:1612	118-131
+everolimus	CHEBI:68478	145-155
+exemestane	CHEBI:4953	189-199
+Overall Number of Participants Analyzed: 49	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Patients with measurable disease at baseline: 39	Results	9
+disease	DOID:4,OGMS:0000031	56-63
+Patients with non-measurable disease at baseline: 10	Results	10
+disease	DOID:4,OGMS:0000031	29-36
+Best at WK 48 - Complete Response (CR): 0	Results	11
+Best at WK 48 - Partial Response (PR): 7	Results	12
+Best at WK 48 - Stable Disease (SD): 18	Results	13
+stable	HP:0031915	16-22
+disease	DOID:4,OGMS:0000031	23-30
+Best at WK 48 - Progressive Disease (PD): 15	Results	14
+progressive	HP:0003676	16-27
+disease	DOID:4,OGMS:0000031	28-35
+Unknown: 1	Results	15
+Missing: 8	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 22/49 (44.90%)	Adverse Events	1
+Anaemia 2/49 (4.08%)	Adverse Events	2
+Pericardial effusion 1/49 (2.04%)	Adverse Events	3
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia 1/49 (2.04%)	Adverse Events	4
+tachycardia	HP:0001649	0-11
+Abdominal pain 1/49 (2.04%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper 1/49 (2.04%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Colitis 1/49 (2.04%)	Adverse Events	7
+colitis	HP:0002583,DOID:0060180	0-7
+Duodenal ulcer 1/49 (2.04%)	Adverse Events	8
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Gastric ulcer 1/49 (2.04%)	Adverse Events	9
+gastric ulcer	HP:0002592,DOID:10808	0-13
+Haematemesis 1/49 (2.04%)	Adverse Events	10
+Oral pain 1/49 (2.04%)	Adverse Events	11
+pain	HP:0012531	5-9
+Vomiting 2/49 (4.08%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+Mucosal inflammation 1/49 (2.04%)	Adverse Events	13

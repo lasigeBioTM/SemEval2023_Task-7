@@ -1,0 +1,163 @@
+INTERVENTION 1:	Intervention	0
+Abraxane, Avastin and Gemcitabine	Intervention	1
+gemcitabine	CHEBI:175901	22-33
+Each treatment cycle is 28 days. Participants will be treated until disease progression:	Intervention	2
+disease	DOID:4,OGMS:0000031	68-75
+Gemcitabine: 1500 mg/m2 body surface area (BSA) intravenously (IV) over 30 minutes (+/- 5 minutes) on days 1 and 15 of each cycle, followed by;	Intervention	3
+gemcitabine	CHEBI:175901	0-11
+area	PATO:0001323	37-41
+Abraxane: 150 mg/m2 IV over 30 minutes (+/- 5 minutes) on days 1 and 15 of each cycle, followed by;	Intervention	4
+Avastin: 10 mg/kg IV on days 1 and 15 of each cycle.	Intervention	5
+Inclusion Criteria	Eligibility	0
+Patients must either be:	Eligibility	1
+treatment-naïve with newly diagnosed her2neu non-overexpressing (non amplified) metastatic (Stage IV) breast cancer, or	Eligibility	2
+breast cancer	DOID:1612	102-115
+HER2/neu-negative patients with metastasis diagnosed 6 or more months after completing primary systemic treatment (neoadjuvant, adjuvant chemotherapy).	Eligibility	3
+adjuvant	CHEBI:60809	118-126
+adjuvant	CHEBI:60809	128-136
+No previous chemotherapy regimen for metastatic breast cancer.	Eligibility	4
+breast cancer	DOID:1612	48-61
+18 years of age or older.	Eligibility	5
+age	PATO:0000011	12-15
+Measurable disease as defined by RECIST criteria or evaluable disease.	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	62-69
+Eastern Cooperative Oncology Group (ECOG) 0-1.	Eligibility	7
+group	CHEBI:24433	29-34
+Life expectancy greater than 3 months.	Eligibility	8
+For female (or male) patients, either pre- or post-menopausal, surgically sterilized, or willing to use an acceptable method of birth control for the duration of the study	Eligibility	9
+female	PATO:0000383	4-10
+male	CHEBI:30780,PATO:0000384	6-10
+male	CHEBI:30780,PATO:0000384	15-19
+duration	PATO:0001309	150-158
+Provide written informed consent before any study-related procedure not part of normal medical care is conducted	Eligibility	10
+part of	BAO:0090002,BFO:0000050	72-79
+Willing and able to comply with the protocol requirement	Eligibility	11
+Laboratory parameters as follows:	Eligibility	12
+Neutrophils: 1.5 x109/L or greater	Eligibility	13
+Platelets: 100 x109/L or greater	Eligibility	14
+Hemoglobin:  9.0 g/dL	Eligibility	15
+hemoglobin	CHEBI:35143	0-10
+Serum Creatinine:  1.5mg/dL	Eligibility	16
+creatinine	CHEBI:16737	6-16
+Bilirubin:  ULN, except when caused by metastatic disease	Eligibility	17
+disease	DOID:4,OGMS:0000031	50-57
+Alanine transaminase (ALT)/Aspartate transaminase (AST):  2.5 times the upper limit of the normal range (ULN) except when caused by metastatic disease	Eligibility	18
+alanine	CHEBI:16449	0-7
+range	LABO:0000114	98-103
+disease	DOID:4,OGMS:0000031	143-150
+Urine protein creatinine (UPC) ratio < 1.0 at screening.	Eligibility	19
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	14-24
+upc	CHEBI:165829	26-29
+ratio	UO:0000190	31-36
+Exclusion Criteria	Eligibility	20
+Previous treatment with gemcitabine.	Eligibility	21
+gemcitabine	CHEBI:175901	24-35
+History of Gastrointestinal Bleeding in the previous 3 months.	Eligibility	22
+history	BFO:0000182	0-7
+Chemotherapy within 4 weeks prior to enrollment.	Eligibility	23
+Radiation therapy or evidence of acute effects of radiation therapy within 2 weeks prior to enrollment.	Eligibility	24
+acute	HP:0011009,PATO:0000389	33-38
+Any major surgery within 4 weeks prior to enrollment.	Eligibility	25
+surgery	OAE:0000067	10-17
+Presence of central nervous system or brain metastases.	Eligibility	26
+central nervous system	UBERON:0001017	12-34
+brain	UBERON:0000955	38-43
+Urine protein: creatinine ratio  1.0 at screening.	Eligibility	27
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	15-25
+ratio	UO:0000190	26-31
+Inadequately controlled hypertension (defined as systolic blood pressure > 150 and/or diastolic blood pressure > 100 mmHg on antihypertensive medications).	Eligibility	28
+hypertension	HP:0000822,DOID:10763	24-36
+systolic blood pressure	CMO:0000004	49-72
+diastolic blood pressure	CMO:0000005	86-110
+A prior history of hypertensive crisis or hypertensive encephalopathy.	Eligibility	29
+history	BFO:0000182	8-15
+hypertensive crisis	HP:0100735	19-38
+hypertensive encephalopathy	DOID:9427	42-69
+Peripheral neuropathy > grade I.	Eligibility	30
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Clinical AIDS or known positive HIV serology	Eligibility	31
+No concurrent clinically evident malignancy is allowed except inactive non-melanoma skin cancer and inactive cervical cancer diagnosed or other cancer for which the patient has been disease-free for five years.	Eligibility	32
+inactive	PATO:0002355	62-70
+inactive	PATO:0002355	100-108
+skin cancer	DOID:4159	84-95
+cervical cancer	DOID:4362	109-124
+cancer	DOID:162	89-95
+cancer	DOID:162	118-124
+cancer	DOID:162	144-150
+patient	HADO:0000008,OAE:0001817	165-172
+Unstable angina.	Eligibility	33
+New York Heart Association (NYHA) Grade II or greater congestive heart failure	Eligibility	34
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	65-70
+congestive heart failure	HP:0001635,DOID:6000	54-78
+History of myocardial infarction within 6 months.	Eligibility	35
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+History of stroke within 6 months.	Eligibility	36
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+Clinically significant peripheral vascular disease.	Eligibility	37
+peripheral vascular disease	DOID:341	23-50
+Evidence of bleeding diathesis or coagulopathy	Eligibility	38
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to enrollment, anticipation of need for major surgical procedure during the course of the study.	Eligibility	39
+Minor surgical procedures such as fine needle aspirations or core biopsies within 7 days prior to enrollment.	Eligibility	40
+Pregnant (positive pregnancy test) or lactating.	Eligibility	41
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to enrollment	Eligibility	42
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+Serious, non-healing wound, ulcer, or bone fracture	Eligibility	43
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+Inability to comply with study and/or follow-up procedures	Eligibility	44
+Participants with serious medical or psychiatric illness that would render chemotherapy unsafe are ineligible.	Eligibility	45
+Participants cannot have been in another experimental drug study other than a Bevacizumab cancer study within 4 weeks of the first infusion of these study medications.	Eligibility	46
+drug	CHEBI:23888	54-58
+cancer	DOID:162	90-96
+Outcome Measurement:	Results	0
+Median Progression-Free Survival	Results	1
+median	BAO:0002174	0-6
+Progression-free survival will be measured from the first dose date to the earliest date of documented evidence of progressive disease or the date of death due to any causes, whichever occurs first.	Results	2
+progressive	HP:0003676	115-126
+disease	DOID:4,OGMS:0000031	127-134
+death	OAE:0000632	150-155
+Time frame: Up to 24 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Abraxane, Avastin and Gemcitabine	Results	5
+gemcitabine	CHEBI:175901	39-50
+Arm/Group Description: Each treatment cycle is 28 days. Participants will be treated until disease progression:	Results	6
+disease	DOID:4,OGMS:0000031	91-98
+Gemcitabine: 1500 mg/m2 body surface area (BSA) intravenously (IV) over 30 minutes (+/- 5 minutes) on days 1 and 15 of each cycle, followed by;	Results	7
+gemcitabine	CHEBI:175901	0-11
+area	PATO:0001323	37-41
+Abraxane: 150 mg/m2 IV over 30 minutes (+/- 5 minutes) on days 1 and 15 of each cycle, followed by;	Results	8
+Avastin: 10 mg/kg IV on days 1 and 15 of each cycle.	Results	9
+Overall Number of Participants Analyzed: 29	Results	10
+Median (95% Confidence Interval)	Results	11
+median	BAO:0002174	0-6
+Unit of Measure: months  10.4        (5.6 to 15.2)	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 8/29 (27.59%)	Adverse Events	1
+Leukopenia  [1]1/29 (3.45%)	Adverse Events	2
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia  [1]1/29 (3.45%)	Adverse Events	3
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Abscess  [1]1/29 (3.45%)	Adverse Events	4
+abscess	HP:0025615	0-7
+Breast Abscess 1/29 (3.45%)	Adverse Events	5
+breast abscess	DOID:0060323	0-14
+Fever/Sepsis  [1]1/29 (3.45%)	Adverse Events	6
+Neutropenic Fever  [2]1/29 (3.45%)	Adverse Events	7
+fever	HP:0001945	12-17
+Peripheral Neuropathy  [1]1/29 (3.45%)	Adverse Events	8
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Seizure/Syncope  [1]1/29 (3.45%)	Adverse Events	9
+Hematuria  [1]1/29 (3.45%)	Adverse Events	10
+hematuria	HP:0000790	0-9
+UTI  [1]1/29 (3.45%)	Adverse Events	11
+Shortness of breath  [1]1/29 (3.45%)	Adverse Events	12

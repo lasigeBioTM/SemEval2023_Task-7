@@ -1,0 +1,94 @@
+INTERVENTION 1:	Intervention	0
+Placebo	Intervention	1
+Placebo (3 capsules of matching placebo) along with standard of care medication (Standard Dose Vitamin D3; 600 IU of vitamin D3 daily) given weekly for 24 weeks	Intervention	2
+vitamin	CHEBI:33229	95-102
+vitamin	CHEBI:33229	117-124
+INTERVENTION 2:	Intervention	3
+Vitamin D	Intervention	4
+vitamin d	CHEBI:27300	0-9
+High Dose Vitamin D3 (3 capsules of 10,000 IU) capsules along with standard of care medication standard of care medication (Standard Dose Vitamin D3; 600 IU of vitamin D3 daily) given weekly for 24 weeks	Intervention	5
+vitamin	CHEBI:33229	10-17
+vitamin	CHEBI:33229	138-145
+vitamin	CHEBI:33229	160-167
+Inclusion Criteria:	Eligibility	0
+Post-menopausal women newly diagnosed with early stage breast cancer, who would be treated with an aromatase inhibitor	Eligibility	1
+breast cancer	DOID:1612	55-68
+inhibitor	CHEBI:35222	109-118
+Serum 25OHD levels < 40 ng/ml	Eligibility	2
+Exclusion Criteria:	Eligibility	3
+Severe or debilitating musculoskeletal pain	Eligibility	4
+severe	HP:0012828	0-6
+pain	HP:0012531	39-43
+Known metastatic disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	17-24
+History of renal stones	Eligibility	6
+history	BFO:0000182	0-7
+History of hypercalcemia or hyperthyroidism	Eligibility	7
+history	BFO:0000182	0-7
+hypercalcemia	HP:0003072,DOID:12678	11-24
+hyperthyroidism	HP:0000836,DOID:7998	28-43
+Currently receiving adjuvant or neoadjuvant chemotherapy	Eligibility	8
+adjuvant	CHEBI:60809	20-28
+adjuvant	CHEBI:60809	35-43
+Currently receiving other investigational agents	Eligibility	9
+Outcome Measurement:	Results	0
+Number of Participants With Worsening of Musculoskeletal Symptoms (MS)	Results	1
+Worsening of Musculoskeletal Symptoms (MS) is defined as any one of the following three events: (a) an increase by at least 0.25 in the Health Assessment Questionnaire II (HAQ II, a measure of disability from joint pain) score, (b) an increase in patient reported severity of joint and/or muscle pain, or (c) discontinuation from trial prior to 24 weeks specifically because of problems with musculoskeletal symptoms.	Results	2
+increase	BAO:0001251	103-111
+increase	BAO:0001251	235-243
+pain	HP:0012531	215-219
+pain	HP:0012531	296-300
+patient	HADO:0000008,OAE:0001817	247-254
+severity	HP:0012824	264-272
+Time frame: Change from Baseline to 24 Weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Placebo	Results	5
+Arm/Group Description: Placebo (3 capsules of matching placebo) along with standard of care medication (Standard Dose Vitamin D3; 600 IU of vitamin D3 daily) given weekly for 24 weeks	Results	6
+vitamin	CHEBI:33229	118-125
+vitamin	CHEBI:33229	140-147
+Overall Number of Participants Analyzed: 77	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  HAQ II increase by 0.25: 23	Results	9
+increase	BAO:0001251	38-46
+Subjective Pain increase: 24	Results	10
+pain	HP:0012531	11-15
+increase	BAO:0001251	16-24
+Discontinuation due to AEs: 3	Results	11
+Any of the three measures: 39	Results	12
+Results 2:	Results	13
+Arm/Group Title: Vitamin D	Results	14
+vitamin d	CHEBI:27300	17-26
+Arm/Group Description: High Dose Vitamin D3 (3 capsules of 10,000 IU) capsules along with standard of care medication standard of care medication (Standard Dose Vitamin D3; 600 IU of vitamin D3 daily) given weekly for 24 weeks	Results	15
+vitamin	CHEBI:33229	33-40
+vitamin	CHEBI:33229	161-168
+vitamin	CHEBI:33229	183-190
+Overall Number of Participants Analyzed: 70	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: participants  HAQ II increase by 0.25: 18	Results	18
+increase	BAO:0001251	38-46
+Subjective Pain increase: 18	Results	19
+pain	HP:0012531	11-15
+increase	BAO:0001251	16-24
+Discontinuation due to AEs: 0	Results	20
+Any of the three measures: 26	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 3/80 (3.75%)	Adverse Events	1
+Hemolysis * 1/80 (1.25%)	Adverse Events	2
+Cardiac Changes * 0/80 (0.00%)	Adverse Events	3
+Supraventricular arryhthmia * 0/80 (0.00%)	Adverse Events	4
+Colitis * 1/80 (1.25%)	Adverse Events	5
+colitis	HP:0002583,DOID:0060180	0-7
+CNS Ischemia * 1/80 (1.25%)	Adverse Events	6
+ischemia	DOID:326	4-12
+Wound Complications * 0/80 (0.00%)	Adverse Events	7
+Adverse Events 2:	Adverse Events	8
+Total: 3/80 (3.75%)	Adverse Events	9
+Hemolysis * 0/80 (0.00%)	Adverse Events	10
+Cardiac Changes * 1/80 (1.25%)	Adverse Events	11
+Supraventricular arryhthmia * 1/80 (1.25%)	Adverse Events	12
+Colitis * 0/80 (0.00%)	Adverse Events	13
+colitis	HP:0002583,DOID:0060180	0-7
+CNS Ischemia * 0/80 (0.00%)	Adverse Events	14
+ischemia	DOID:326	4-12
+Wound Complications * 1/80 (1.25%)	Adverse Events	15

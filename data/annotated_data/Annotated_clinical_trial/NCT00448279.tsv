@@ -1,0 +1,91 @@
+INTERVENTION 1:	Intervention	0
+Chemotherapy Alone	Intervention	1
+Participants received chemotherapy until disease progression, unacceptable toxicity, or death; the schedule and dose at the investigator's discretion and per local prescribing guidelines and standard center practice. Allowed chemotherapy regimens included paclitaxel, gemcitabine, platinum compounds, docetaxel, capecitabine, or vinorelbine.	Intervention	2
+disease	DOID:4,OGMS:0000031	41-48
+death	OAE:0000632	88-93
+paclitaxel	CHEBI:45863	256-266
+gemcitabine	CHEBI:175901	268-279
+platinum	CHEBI:33364	281-289
+capecitabine	CHEBI:31348	312-324
+vinorelbine	CHEBI:480999	329-340
+INTERVENTION 2:	Intervention	3
+Chemotherapy + Trastuzumab	Intervention	4
+Participants received trastuzumab at either 2 mg/kg, IV, every 7 days, or 6 mg/kg, IV, every 3 weeks, per the investigator's discretion. Participants also received chemotherapy; the schedule and dose at the investigator's discretion and per local prescribing guidelines and standard center practice. Allowed chemotherapy regimens included paclitaxel, gemcitabine, platinum compounds, docetaxel, capecitabine, or vinorelbine. Study treatment was administered until disease progression, unacceptable toxicity, or death.	Intervention	5
+paclitaxel	CHEBI:45863	339-349
+gemcitabine	CHEBI:175901	351-362
+platinum	CHEBI:33364	364-372
+capecitabine	CHEBI:31348	395-407
+vinorelbine	CHEBI:480999	412-423
+disease	DOID:4,OGMS:0000031	464-471
+death	OAE:0000632	511-516
+Inclusion Criteria:	Eligibility	0
+female patients, >=18 years of age;	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	31-34
+metastatic breast cancer;	Eligibility	2
+breast cancer	DOID:1612	11-24
+HER2 overexpression (IHC 3+ and/or FISH positive);	Eligibility	3
+disease progression during or after previous 1st line chemotherapy plus Herceptin;	Eligibility	4
+disease	DOID:4,OGMS:0000031	0-7
+scheduled to receive 2nd line chemotherapy.	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+incompatibility with previous Herceptin therapy;	Eligibility	7
+pregnancy.	Eligibility	8
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS) - Percentage of Participants With an Event	Results	1
+PFS was defined as the time from randomization to the date of documented disease progression according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1, or the date of occurrence of a second primary cancer, or date of death from any cause, whichever comes first. Participants were censored at the last tumour evaluation.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	73-80
+second	UO:0000010	204-210
+cancer	DOID:162	219-225
+death	OAE:0000632	238-243
+Time frame: Baseline (BL) and every 8 weeks thereafter	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Chemotherapy Alone	Results	5
+Arm/Group Description: Participants received chemotherapy until disease progression, unacceptable toxicity, or death; the schedule and dose at the investigator's discretion and per local prescribing guidelines and standard center practice. Allowed chemotherapy regimens included paclitaxel, gemcitabine, platinum compounds, docetaxel, capecitabine, or vinorelbine.	Results	6
+disease	DOID:4,OGMS:0000031	64-71
+death	OAE:0000632	111-116
+paclitaxel	CHEBI:45863	279-289
+gemcitabine	CHEBI:175901	291-302
+platinum	CHEBI:33364	304-312
+capecitabine	CHEBI:31348	335-347
+vinorelbine	CHEBI:480999	352-363
+Overall Number of Participants Analyzed: 29	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  58.6	Results	9
+Results 2:	Results	10
+Arm/Group Title: Chemotherapy + Trastuzumab	Results	11
+Arm/Group Description: Participants received trastuzumab at either 2 mg/kg, IV, every 7 days, or 6 mg/kg, IV, every 3 weeks, per the investigator's discretion. Participants also received chemotherapy; the schedule and dose at the investigator's discretion and per local prescribing guidelines and standard center practice. Allowed chemotherapy regimens included paclitaxel, gemcitabine, platinum compounds, docetaxel, capecitabine, or vinorelbine. Study treatment was administered until disease progression, unacceptable toxicity, or death.	Results	12
+paclitaxel	CHEBI:45863	362-372
+gemcitabine	CHEBI:175901	374-385
+platinum	CHEBI:33364	387-395
+capecitabine	CHEBI:31348	418-430
+vinorelbine	CHEBI:480999	435-446
+disease	DOID:4,OGMS:0000031	487-494
+death	OAE:0000632	534-539
+Overall Number of Participants Analyzed: 29	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  58.6	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 4/26 (15.38%)	Adverse Events	1
+Febrile neutropenia * 1/26 (3.85%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Gastric volvulus * 20/26 (0.00%)	Adverse Events	3
+volvulus	HP:0002580	8-16
+General Malaise * 21/26 (3.85%)	Adverse Events	4
+malaise	HP:0033834	8-15
+Hospitalisation for intrapleuric chemotherapy and thoracentesis * 21/26 (3.85%)	Adverse Events	5
+Acute renal failure * 21/26 (3.85%)	Adverse Events	6
+acute	HP:0011009,PATO:0000389	0-5
+Adverse Events 2:	Adverse Events	7
+Total: 1/28 (3.57%)	Adverse Events	8
+Febrile neutropenia * 0/28 (0.00%)	Adverse Events	9
+neutropenia	HP:0001875,DOID:1227	8-19
+Gastric volvulus * 21/28 (3.57%)	Adverse Events	10
+volvulus	HP:0002580	8-16
+General Malaise * 20/28 (0.00%)	Adverse Events	11
+malaise	HP:0033834	8-15
+Hospitalisation for intrapleuric chemotherapy and thoracentesis * 20/28 (0.00%)	Adverse Events	12
+Acute renal failure * 20/28 (0.00%)	Adverse Events	13
+acute	HP:0011009,PATO:0000389	0-5

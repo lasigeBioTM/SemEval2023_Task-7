@@ -1,0 +1,200 @@
+INTERVENTION 1:	Intervention	0
+Palbociclib (100mg)	Intervention	1
+palbociclib	CHEBI:85993	0-11
+Palbociclib 100mg PO daily plus Fulvestrant or Tamoxifen or another Aromatase Inhibitor at the standard doses/schedules	Intervention	2
+palbociclib	CHEBI:85993	0-11
+fulvestrant	CHEBI:31638	32-43
+tamoxifen	CHEBI:41774	47-56
+inhibitor	CHEBI:35222	78-87
+Palbociclib 100mg: 100mg PO daily	Intervention	3
+palbociclib	CHEBI:85993	0-11
+Fulvestrant or Tamoxifen or Aromatase Inhibitor: given at the standard doses/schedules	Intervention	4
+fulvestrant	CHEBI:31638	0-11
+tamoxifen	CHEBI:41774	15-24
+inhibitor	CHEBI:35222	38-47
+INTERVENTION 2:	Intervention	5
+Palbociclib (125mg)	Intervention	6
+palbociclib	CHEBI:85993	0-11
+Palbociclib 125mg PO daily 3 out of 4 weeks plus Fulvestrant or Tamoxifen or another Aromatase Inhibitor at the standard doses/schedules	Intervention	7
+palbociclib	CHEBI:85993	0-11
+fulvestrant	CHEBI:31638	49-60
+tamoxifen	CHEBI:41774	64-73
+inhibitor	CHEBI:35222	95-104
+Palbociclib 125mg: 125mg PO daily 3 weeks out of 4	Intervention	8
+palbociclib	CHEBI:85993	0-11
+Fulvestrant or Tamoxifen or Aromatase Inhibitor: given at the standard doses/schedules	Intervention	9
+fulvestrant	CHEBI:31638	0-11
+tamoxifen	CHEBI:41774	15-24
+inhibitor	CHEBI:35222	38-47
+Inclusion Criteria:	Eligibility	0
+Premenopausal and postmenopausal women 18 years of age or older.	Eligibility	1
+age	PATO:0000011	51-54
+Histologically confirmed adenocarcinoma of the breast, with ER positive and HER2 negative status based on local testing on most recent pathological tumour specimen.	Eligibility	2
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+Patients must satisfy the following criteria for prior therapy:	Eligibility	3
+Progressed during treatment or within 12 months of completion of adjuvant endocrine therapy or	Eligibility	4
+adjuvant	CHEBI:60809	65-73
+Progressed during prior endocrine therapy for advanced/metastatic disease. Note: 'Progressed during endocrine therapy' means that the patient progressed while on or within 1 month after discontinuation of endocrine therapy.	Eligibility	5
+disease	DOID:4,OGMS:0000031	66-73
+patient	HADO:0000008,OAE:0001817	134-141
+month	UO:0000035	174-179
+One line of chemotherapy for advanced/metastatic disease (regardless of prior adjuvant chemotherapy use) is allowed in addition to endocrine therapy.	Eligibility	6
+disease	DOID:4,OGMS:0000031	49-56
+adjuvant	CHEBI:60809	78-86
+Patients must have evidence of disease to be eligible for the study, but measurable disease is not mandatory.	Eligibility	7
+disease	DOID:4,OGMS:0000031	31-38
+disease	DOID:4,OGMS:0000031	84-91
+For those patient with measureable disease who will be included in the response assessment, the following criteria must apply:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	10-17
+disease	DOID:4,OGMS:0000031	35-42
+X-ray  20 mm	Eligibility	9
+Spiral CT scan or physical exam  10 mm (lymph nodes must be  15 mm in the short axis)	Eligibility	10
+ct	BAO:0002125	7-9
+lymph	UBERON:0002391	40-45
+Conventional CT scan, MRI  20 mm	Eligibility	11
+ct	BAO:0002125	13-15
+Measurable lesions must be outside a previous radiotherapy field if they are the sole site of disease, unless disease progression has been documented.	Eligibility	12
+radiotherapy	OAE:0000235	46-58
+site	BFO:0000029	86-90
+disease	DOID:4,OGMS:0000031	94-101
+disease	DOID:4,OGMS:0000031	110-117
+Tumor lesions previously irradiated or subjected to other loco regional therapy will only be deemed measurable if progression at the treated site after completion of therapy is clearly documented.	Eligibility	13
+site	BFO:0000029	141-145
+Eastern Cooperative Oncology Group (ECOG) 0-2.	Eligibility	14
+group	CHEBI:24433	29-34
+Adequate organ and bone marrow function as defined by:	Eligibility	15
+organ	UBERON:0000062	9-14
+bone marrow	UBERON:0002371	19-30
+function	BAO:0003117,BFO:0000034	31-39
+ANC  1,500/mm3 (1.5 x 109/L)	Eligibility	16
+x	LABO:0000148	20-21
+Platelets  100,000/mm3 (100 x 109/L)	Eligibility	17
+x	LABO:0000148	28-29
+Serum creatinine  1.5 x ULN or estimated creatinine clearance 60 ml/min as calculated using the method standard for the institution;	Eligibility	18
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	41-51
+x	LABO:0000148	22-23
+creatinine clearance	CMO:0000765	41-61
+Total serum bilirubin  1.5 x ULN (<3 ULN if Gilbert's disease).	Eligibility	19
+x	LABO:0000148	27-28
+disease	DOID:4,OGMS:0000031	54-61
+Patient must agree to provide tumour tissue from the most recent pathological tumour specimen.	Eligibility	20
+patient	HADO:0000008,OAE:0001817	0-7
+tissue	UBERON:0000479	37-43
+Patient is able (i.e. sufficiently fluent) and willing to complete the quality of life questionnaires in either English or French	Eligibility	21
+patient	HADO:0000008,OAE:0001817	0-7
+quality	BAO:0002928,BFO:0000019	71-78
+Patient consent must be appropriately obtained in accordance with applicable local and regulatory requirements. Each patient must sign a consent form prior to enrollment in the trial to document their willingness to participate	Eligibility	22
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	117-124
+document	IAO:0000310	186-194
+Patients must be accessible for treatment and follow up. Patients registered on this trial must be treated and followed at the participating centre. This implies there must be reasonable geographical limits placed on patients being considered for this trial.	Eligibility	23
+In accordance with NCIC CTG policy, protocol treatment is to begin within 2 working days of patient randomization.	Eligibility	24
+patient	HADO:0000008,OAE:0001817	92-99
+Women of childbearing potential must have agreed to use a highly effective contraceptive method.	Eligibility	25
+Exclusion Criteria:	Eligibility	26
+Patients with advanced, symptomatic, visceral spread that are at risk of life threatening complication in the short term.	Eligibility	27
+Patients with symptomatic CNS involvement, meningeal or parenchymal, that is uncontrolled or requires steroids.	Eligibility	28
+Prior treatment with any CDK 4/6 inhibitor.	Eligibility	29
+inhibitor	CHEBI:35222	33-42
+Prior treatment with mTOR inhibitors.	Eligibility	30
+Active second malignancy, regardless of ongoing treatment.	Eligibility	31
+active	PATO:0002354	0-6
+second	UO:0000010	7-13
+Any concurrent medical condition that in the opinion of the investigator would interfere with the safe administration of the study drug and participation in the study.	Eligibility	32
+condition	PDRO:0000129	23-32
+drug	CHEBI:23888	131-135
+Participation in a prior anti-cancer investigational study within 30 days prior to enrollment.	Eligibility	33
+Outcome Measurement:	Results	0
+Progression Free Survival Using the RECIST 1.1 Criteria	Results	1
+progression free survival (PFS) is defined as time from randomization to progression or death from any cause. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.	Results	2
+time	PATO:0000165	46-50
+death	OAE:0000632	88-93
+increase	BAO:0001251	217-225
+increase	BAO:0001251	296-304
+diameter	PATO:0001334	252-260
+target	BAO:0003064	264-270
+target	BAO:0003064	314-320
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Palbociclib (100mg)	Results	5
+palbociclib	CHEBI:85993	17-28
+Arm/Group Description: Palbociclib 100mg PO daily plus Fulvestrant or Tamoxifen or another Aromatase Inhibitor at the standard doses/schedules	Results	6
+palbociclib	CHEBI:85993	23-34
+fulvestrant	CHEBI:31638	55-66
+tamoxifen	CHEBI:41774	70-79
+inhibitor	CHEBI:35222	101-110
+Palbociclib 100mg: 100mg PO daily	Results	7
+palbociclib	CHEBI:85993	0-11
+Fulvestrant or Tamoxifen or Aromatase Inhibitor: given at the standard doses/schedules	Results	8
+fulvestrant	CHEBI:31638	0-11
+tamoxifen	CHEBI:41774	15-24
+inhibitor	CHEBI:35222	38-47
+Overall Number of Participants Analyzed: 90	Results	9
+Median (95% Confidence Interval)	Results	10
+median	BAO:0002174	0-6
+Unit of Measure: months  9.33        (6.93 to 13.90)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Palbociclib (125mg)	Results	13
+palbociclib	CHEBI:85993	17-28
+Arm/Group Description: Palbociclib 125mg PO daily 3 out of 4 weeks plus Fulvestrant or Tamoxifen or another Aromatase Inhibitor at the standard doses/schedules	Results	14
+palbociclib	CHEBI:85993	23-34
+fulvestrant	CHEBI:31638	72-83
+tamoxifen	CHEBI:41774	87-96
+inhibitor	CHEBI:35222	118-127
+Palbociclib 125mg: 125mg PO daily 3 weeks out of 4	Results	15
+palbociclib	CHEBI:85993	0-11
+Fulvestrant or Tamoxifen or Aromatase Inhibitor: given at the standard doses/schedules	Results	16
+fulvestrant	CHEBI:31638	0-11
+tamoxifen	CHEBI:41774	15-24
+inhibitor	CHEBI:35222	38-47
+Overall Number of Participants Analyzed: 90	Results	17
+Median (95% Confidence Interval)	Results	18
+median	BAO:0002174	0-6
+Unit of Measure: months  11.30        (8.08 to 13.83)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 9/90 (10.00%)	Adverse Events	1
+Febrile neutropenia 2/90 (2.22%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Ascites 0/90 (0.00%)	Adverse Events	3
+ascites	HP:0001541	0-7
+Nausea 0/90 (0.00%)	Adverse Events	4
+nausea	HP:0002018	0-6
+Vomiting 0/90 (0.00%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Death NOS 1/90 (1.11%)	Adverse Events	6
+death	OAE:0000632	0-5
+Fever 0/90 (0.00%)	Adverse Events	7
+fever	HP:0001945	0-5
+Other general disorders, administration site conditions 0/90 (0.00%)	Adverse Events	8
+site	BFO:0000029	40-44
+Other hepatobiliary disorders 1/90 (1.11%)	Adverse Events	9
+Lung infection 2/90 (2.22%)	Adverse Events	10
+lung	UBERON:0002048	0-4
+Sepsis 2/90 (2.22%)	Adverse Events	11
+sepsis	HP:0100806	0-6
+Spinal fracture 0/90 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 12/89 (13.48%)	Adverse Events	14
+Febrile neutropenia 0/89 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Ascites 1/89 (1.12%)	Adverse Events	16
+ascites	HP:0001541	0-7
+Nausea 1/89 (1.12%)	Adverse Events	17
+nausea	HP:0002018	0-6
+Vomiting 1/89 (1.12%)	Adverse Events	18
+vomiting	HP:0002013	0-8
+Death NOS 2/89 (2.25%)	Adverse Events	19
+death	OAE:0000632	0-5
+Fever 1/89 (1.12%)	Adverse Events	20
+fever	HP:0001945	0-5
+Other general disorders, administration site conditions 1/89 (1.12%)	Adverse Events	21
+site	BFO:0000029	40-44
+Other hepatobiliary disorders 0/89 (0.00%)	Adverse Events	22
+Lung infection 0/89 (0.00%)	Adverse Events	23
+lung	UBERON:0002048	0-4
+Sepsis 1/89 (1.12%)	Adverse Events	24
+sepsis	HP:0100806	0-6
+Spinal fracture 1/89 (1.12%)	Adverse Events	25

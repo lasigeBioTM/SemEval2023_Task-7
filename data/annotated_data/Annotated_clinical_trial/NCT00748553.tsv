@@ -1,0 +1,79 @@
+INTERVENTION 1:	Intervention	0
+Phase 1	Intervention	1
+Azacitidine (Vidaza): 50mg/m2, 75mg/m2 or 100mg/m2 daily for 5 days for each 4-week cycle	Intervention	2
+Nab-paclitaxel (Abraxane): 100mg/m2 weekly for 3 weeks of each 4-week cycle	Intervention	3
+Inclusion Criteria:	Eligibility	0
+For phase I, any solid tumors, including lymphoma, that progressed or were stable as best response on at least one previous therapy and are evaluable.	Eligibility	1
+lymphoma	HP:0002665,DOID:0060058	41-49
+stable	HP:0031915	75-81
+For phase II, pathologically confirmed breast cancer, measurable disease, no prior treatments for recurrent or metastatic breast cancer.	Eligibility	2
+breast cancer	DOID:1612	39-52
+breast cancer	DOID:1612	122-135
+disease	DOID:4,OGMS:0000031	65-72
+recurrent	HP:0031796	98-107
+Her-2/neu negative (Phase II)	Eligibility	3
+Negative pregnancy test for female subjects	Eligibility	4
+female	PATO:0000383	28-34
+Women of childbearing potential should be advised to avoid becoming pregnant and men should be advised to not father a child while receiving treatment with azacitidine or nab-paclitaxel. investigator.	Eligibility	5
+Male or female for phase I and female for phase II, >19 years of age and any race.	Eligibility	6
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+male	CHEBI:30780,PATO:0000384	33-37
+female	PATO:0000383	8-14
+female	PATO:0000383	31-37
+age	PATO:0000011	65-68
+Exclusion Criteria:	Eligibility	7
+Major surgery, radiotherapy, chemotherapy or investigational agents within 4 weeks of treatment day 1	Eligibility	8
+surgery	OAE:0000067	6-13
+radiotherapy	OAE:0000235	15-27
+day	UO:0000033	96-99
+Known brain metastases	Eligibility	9
+brain	UBERON:0000955	6-11
+Prior taxanes (except for adjuvant therapy more than 6 months prior to treatment day 1) (phase II)	Eligibility	10
+adjuvant	CHEBI:60809	26-34
+day	UO:0000033	81-84
+Active infection requiring antibiotic therapy	Eligibility	11
+active	PATO:0002354	0-6
+History of allergy or hypersensitivity to nab-paclitaxel, albumin or a taxane	Eligibility	12
+history	BFO:0000182	0-7
+allergy	HP:0012393	11-18
+hypersensitivity	GO:0002524,DOID:1205	22-38
+taxane	CHEBI:36064	71-77
+Grade 2 or greater motor or sensory neuropathy	Eligibility	13
+sensory neuropathy	HP:0000763,DOID:2491	28-46
+Prior cytotoxic chemotherapy for recurrent or metastatic breast cancer (phase II portion)	Eligibility	14
+recurrent	HP:0031796	33-42
+breast cancer	DOID:1612	57-70
+Uncontrolled hypertension, arrhythmia, congestive heart failure or angina. Patients who have had a myocardial infarction or cardiac surgery should be at least 6 months from the event and free of active symptoms.	Eligibility	15
+hypertension	HP:0000822,DOID:10763	13-25
+arrhythmia	HP:0011675	27-37
+congestive heart failure	HP:0001635,DOID:6000	39-63
+myocardial infarction	HP:0001658,DOID:5844	99-120
+surgery	OAE:0000067	132-139
+active	PATO:0002354	195-201
+Known or suspected hypersensitivity to azacitidine or mannitol	Eligibility	16
+hypersensitivity	GO:0002524,DOID:1205	19-35
+mannitol	CHEBI:16899	54-62
+Pregnant or breast feeding	Eligibility	17
+breast	UBERON:0000310	12-18
+Patients with advanced malignant hepatic tumors	Eligibility	18
+Malignancy other than breast carcinoma (phase II)	Eligibility	19
+breast carcinoma	HP:0003002,DOID:3459	22-38
+Known HIV infection or chronic hepatitis B or C	Eligibility	20
+chronic hepatitis	HP:0200123,DOID:2237	23-40
+hepatitis b	DOID:2043	31-42
+Outcome Measurement:	Results	0
+Phase I: Percentage of Participants Responding to Treatment	Results	1
+Azacitidine is set at 75mg/m2 and Nab-paclitaxel is set at100mg/m2 based on the number of participants responding to treatment as measured per RECIST v1 criteria.	Results	2
+Time frame: 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase 1	Results	5
+Arm/Group Description: Azacitidine (Vidaza): 50mg/m2, 75mg/m2 or 100mg/m2 daily for 5 days for each 4-week cycle	Results	6
+Nab-paclitaxel (Abraxane): 100mg/m2 weekly for 3 weeks of each 4-week cycle	Results	7
+Overall Number of Participants Analyzed: 13	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percent of participants with response  61.5        (35 to 87.95)	Results	10
+percent	UO:0000187	17-24
+Adverse Events 1:	Adverse Events	0
+Total: 0/30 (0.00%)	Adverse Events	1

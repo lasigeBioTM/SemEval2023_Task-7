@@ -1,0 +1,140 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Eribulin Mesylate)	Intervention	1
+eribulin mesylate	CHEBI:70710	11-28
+Patients receive eribulin mesylate IV over 2-5 minutes on days 1, 8, and 15. Courses repeat every 4 weeks in the absence of disease progression or unacceptable toxicity.	Intervention	2
+eribulin mesylate	CHEBI:70710	17-34
+disease	DOID:4,OGMS:0000031	124-131
+Eribulin Mesylate: Given IV	Intervention	3
+eribulin mesylate	CHEBI:70710	0-17
+Laboratory Biomarker Analysis: Correlative studies	Intervention	4
+biomarker	CHEBI:59163	11-20
+Inclusion Criteria:	Eligibility	0
+Ability to provide written informed consent	Eligibility	1
+Prior exposure to taxane in the adjuvant, neoadjuvant or metastatic setting	Eligibility	2
+taxane	CHEBI:36064	18-24
+adjuvant	CHEBI:60809	32-40
+adjuvant	CHEBI:60809	45-53
+At least one prior regimen of chemotherapy in the setting of metastatic breast cancer; no upper limit on the number of prior endocrine regimens for metastatic breast cancer, however no more than 6 chemotherapeutic regimens may have been given in the metastatic setting	Eligibility	3
+breast cancer	DOID:1612	72-85
+breast cancer	DOID:1612	159-172
+Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1, or 2	Eligibility	4
+group	CHEBI:24433	29-34
+Patients must have baseline imaging within 30 days prior to the start of therapy and satisfy one of the following:	Eligibility	5
+Measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 criteria	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+At least one non lymph node lesion of >= 1.0 cm or lymph node >= 1.5 cm in short axis by computerized tomography (CT) scan (CT scan thickness no greater than 5 mm which is serially measurable according to RECIST 1.1 using either computerized tomography (CT) or magnetic resonance imaging (MRI)	Eligibility	7
+lymph	UBERON:0002391	17-22
+lymph	UBERON:0002391	51-56
+tomography	BAO:0002525	102-112
+tomography	BAO:0002525	242-252
+ct	BAO:0002125	114-116
+ct	BAO:0002125	124-126
+ct	BAO:0002125	254-256
+Lesions that have had radiotherapy must show evidence of progressive disease (PD) based on RECIST 1.1 to be deemed a target lesion	Eligibility	8
+radiotherapy	OAE:0000235	22-34
+progressive	HP:0003676	57-68
+disease	DOID:4,OGMS:0000031	69-76
+target	BAO:0003064	117-123
+Non-measurable disease by RECIST 1.1 criteria (includes bone only disease and lesions < 10 mm or lymph nodes < 15 mm in short axis) with rising serum CA15-3 or CA 27.29 or CEA documented by two consecutive measurements taken at least 14 days apart with the most recent measurement being within 42 days prior to registration. The second CA 15-3 or CA 27.29 value must have at least a 20% increase over the first and for CA 15-3 or CA27.29 be greater than or equal to 40 units/mL or for CEA be greater than or equal to 4 ng/mL	Eligibility	9
+disease	DOID:4,OGMS:0000031	15-22
+disease	DOID:4,OGMS:0000031	66-73
+lymph	UBERON:0002391	97-102
+second	UO:0000010	329-335
+increase	BAO:0001251	387-395
+Absolute neutrophil count >= 1,500/mm^3	Eligibility	10
+Hemoglobin >= 10 g/dL	Eligibility	11
+hemoglobin	CHEBI:35143	0-10
+Platelets >= 100,000/mm^3	Eligibility	12
+Creatinine =< 1.5 x upper limit of normal (ULN)	Eligibility	13
+creatinine	CHEBI:16737	0-10
+x	LABO:0000148	18-19
+Total bilirubin =< 1.5 x ULN	Eligibility	14
+x	LABO:0000148	23-24
+Alkaline phosphatase =< 3.0 x ULN; up to 5 x ULN is acceptable if due to bone metastases in the absence of liver metastases	Eligibility	15
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	28-29
+x	LABO:0000148	43-44
+liver	UBERON:0002107	107-112
+Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) =< 3.0 x institutional upper limit of normal, unless due to liver metastases (=< 5 x ULN)	Eligibility	16
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+x	LABO:0000148	75-76
+x	LABO:0000148	151-152
+liver	UBERON:0002107	128-133
+Women of child-bearing potential (WOCBP) and men must agree to use adequate contraception (hormonal or barrier method of birth control or abstinence) prior to study entry and for the duration of study participation	Eligibility	17
+duration	PATO:0001309	183-191
+Life expectancy of > 12 weeks	Eligibility	18
+Exclusion Criteria:	Eligibility	19
+Prior treatment with eribulin	Eligibility	20
+eribulin	CHEBI:63587	21-29
+Plan to administer any other systemic antitumor including endocrine therapy except for following standard of care treatment:	Eligibility	21
+Trastuzumab at standard dosing human epidermal growth factor receptor 2 (HER2) positive tumors	Eligibility	22
+growth factor	BAO:0002024	47-60
+receptor	BAO:0000281	61-69
+Denosumab or bisphosphonates to treat metastatic bone disease	Eligibility	23
+bone disease	DOID:0080001	49-61
+Plan to administer concurrent radiation therapy now or for progressive symptoms during treatment	Eligibility	24
+progressive	HP:0003676	59-70
+Patients with known central nervous system (CNS) metastases must have stable disease off steroids after treatment with surgery or radiation therapy	Eligibility	25
+central nervous system	UBERON:0001017	20-42
+stable	HP:0031915	70-76
+disease	DOID:4,OGMS:0000031	77-84
+surgery	OAE:0000067	119-126
+Second primary malignancy that is clinically detectable or clinically significant at the time of consideration for study enrollment	Eligibility	26
+second	UO:0000010	0-6
+time	PATO:0000165	89-93
+Patients with mild (Child-Pugh A) or moderate (Child-Pugh B) hepatic and/or moderate (creatinine clearance [CrCl] 30-50 mL/min) renal impairment	Eligibility	27
+mild	HP:0012825	14-18
+moderate	HP:0012826	37-45
+moderate	HP:0012826	76-84
+creatinine clearance	CMO:0000765	86-106
+Radiotherapy within 14 days of study treatment	Eligibility	28
+radiotherapy	OAE:0000235	0-12
+Major surgery within 21 days of study treatment; minor surgery within 2 weeks of study treatment; placement of vascular access device and biopsies allowed and is not considered major or minor surgery	Eligibility	29
+surgery	OAE:0000067	6-13
+surgery	OAE:0000067	55-62
+surgery	OAE:0000067	192-199
+Treatment with any systemic chemotherapy or investigational agents within 3 weeks of the start of study treatment; endocrine treatment must be stopped prior to initiating study treatment; subjects must have recovered from toxicities of prior therapy	Eligibility	30
+Patients with peripheral neuropathy > grade 2 regardless of etiology	Eligibility	31
+peripheral neuropathy	HP:0009830,DOID:870	14-35
+Significant cardiovascular impairment: congestive heart failure > class II according to the New York Heart Association (NYHA), unstable angina or myocardial infarction within 6 months of enrollment, or serious cardiac arrhythmia (> grade 2)	Eligibility	32
+congestive heart failure	HP:0001635,DOID:6000	39-63
+heart	UBERON:0000948	50-55
+heart	UBERON:0000948	101-106
+myocardial infarction	HP:0001658,DOID:5844	146-167
+arrhythmia	HP:0011675	218-228
+Concomitant severe or uncontrolled medical disease	Eligibility	33
+severe	HP:0012828	12-18
+disease	DOID:4,OGMS:0000031	43-50
+Significant psychiatric or neurologic disorder which would compromise participation in the study	Eligibility	34
+disorder	OGMS:0000045	38-46
+Pregnant or breast-feeding females	Eligibility	35
+Outcome Measurement:	Results	0
+PFS	Results	1
+Kaplan-Meier survival curves will be used to describe PFS, overall and stratified by number of prior metastatic treatment regimens. A 95% confidence interval for the median PFS will be calculated using the method of Brookmeyer and Crowley.	Results	2
+median	BAO:0002174	166-172
+Time frame: From study enrollment until the earliest date of disease progression or death, assessed up to 1 year	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	61-68
+death	OAE:0000632	84-89
+year	UO:0000036	108-112
+Results 1:	Results	4
+Arm/Group Title: Treatment (Eribulin Mesylate)	Results	5
+eribulin mesylate	CHEBI:70710	28-45
+Arm/Group Description: Patients receive eribulin mesylate IV over 2-5 minutes on days 1, 8, and 15. Courses repeat every 4 weeks in the absence of disease progression or unacceptable toxicity.	Results	6
+eribulin mesylate	CHEBI:70710	40-57
+disease	DOID:4,OGMS:0000031	147-154
+Eribulin Mesylate: Given IV	Results	7
+eribulin mesylate	CHEBI:70710	0-17
+Laboratory Biomarker Analysis: Correlative studies	Results	8
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 59	Results	9
+Median (95% Confidence Interval)	Results	10
+median	BAO:0002174	0-6
+Unit of Measure: months  3.5        (2.6 to 4.6)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 2/59 (3.39%)	Adverse Events	1
+Sepsis 1/59 (1.69%)	Adverse Events	2
+sepsis	HP:0100806	0-6
+myocardial infarction 1/59 (1.69%)	Adverse Events	3
+myocardial infarction	HP:0001658,DOID:5844	0-21

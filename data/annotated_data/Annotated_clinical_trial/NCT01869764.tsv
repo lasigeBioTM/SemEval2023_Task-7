@@ -1,0 +1,274 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Omega-3 Fatty Acid)	Intervention	1
+omega-3 fatty acid	CHEBI:25681	7-25
+Patients receive omega-3 fatty acid PO daily for 7-14 days.	Intervention	2
+omega-3 fatty acid	CHEBI:25681	17-35
+omega-3 fatty acid: Given PO	Intervention	3
+omega-3 fatty acid	CHEBI:25681	0-18
+laboratory biomarker analysis: Correlative studies	Intervention	4
+biomarker	CHEBI:59163	11-20
+INTERVENTION 2:	Intervention	5
+Arm II (Placebo)	Intervention	6
+Patients receive placebo PO daily for 7-14 days.	Intervention	7
+placebo: Given PO	Intervention	8
+laboratory biomarker analysis: Correlative studies	Intervention	9
+biomarker	CHEBI:59163	11-20
+Inclusion Criteria:	Eligibility	0
+Newly diagnosed stage I to III breast cancer and carcinoma in situ (including lobular carcinoma in situ [LCIS] and ductal carcinoma in situ [DCIS])	Eligibility	1
+breast cancer	DOID:1612	31-44
+carcinoma	HP:0030731,DOID:305	49-58
+carcinoma	HP:0030731,DOID:305	86-95
+carcinoma	HP:0030731,DOID:305	122-131
+lobular carcinoma in situ	HP:0030076,DOID:3010	78-103
+ductal carcinoma in situ	HP:0030075,DOID:0060074	115-139
+Breast surgery (lumpectomy or mastectomy) is planned for at least 7 days from the day of enrollment	Eligibility	2
+breast	UBERON:0000310	0-6
+surgery	OAE:0000067	7-14
+day	UO:0000033	68-71
+day	UO:0000033	82-85
+Ability to understand and the willingness to sign an Institutional Review Board (IRB)-approved written informed consent document	Eligibility	3
+document	IAO:0000310	120-128
+Tumor measures at least 1 centimeter on imaging or physical exam	Eligibility	4
+centimeter	UO:0000015	26-36
+Exclusion Criteria:	Eligibility	5
+Any patient with surgery scheduled < 7days after biopsy	Eligibility	6
+patient	HADO:0000008,OAE:0001817	4-11
+surgery	OAE:0000067	17-24
+Patients who are unable to refrain from the use of any NSAID or full-dose acetylsalicylic acid (ASA)-containing NSAID while taking study drug	Eligibility	7
+acetylsalicylic acid	CHEBI:15365	74-94
+drug	CHEBI:23888	137-141
+Patients who will receive neoadjuvant chemotherapy are not eligible	Eligibility	8
+Patients who are currently taking omega-3 fatty acids, as they are unable to be randomized to placebo	Eligibility	9
+Patients who have previously taken omega-3 fatty acid within 1 month prior to study enrollment	Eligibility	10
+omega-3 fatty acid	CHEBI:25681	35-53
+month	UO:0000035	63-68
+Patients with an allergy or known hypersensitivity to fish	Eligibility	11
+allergy	HP:0012393	17-24
+hypersensitivity	GO:0002524,DOID:1205	34-50
+Outcome Measurement:	Results	0
+PUFA Levels in Normal and Metastatic Breast Tissue	Results	1
+breast	UBERON:0000310	37-43
+tissue	UBERON:0000479	44-50
+Analysis of variance (ANOVA) will be used to assess the effect of omega-3 dietary supplementation on PUFA levels separately in normal and malignant breast tissue. Analysis of covariance (ANCOVA) will be used to assess the omega-3 effect in plasma and red blood cells (RBC), where the baseline levels of the PUFAs will be included as covariates. PUFA Levels analyzed were 18:2 n-6, 18:3 n-3, 20:2 n-6, 20:4 n-6, 20:3 n-3, 20:5 n-3, 22:6 n-3	Results	2
+breast	UBERON:0000310	148-154
+tissue	UBERON:0000479	155-161
+blood	UBERON:0000178	255-260
+Time frame: At time of surgery	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	15-19
+surgery	OAE:0000067	23-30
+Results 1:	Results	4
+Arm/Group Title: Arm I (Omega-3 Fatty Acid)	Results	5
+omega-3 fatty acid	CHEBI:25681	24-42
+Arm/Group Description: Patients receive omega-3 fatty acid PO daily for 7-14 days.	Results	6
+omega-3 fatty acid	CHEBI:25681	40-58
+omega-3 fatty acid: Given PO	Results	7
+omega-3 fatty acid	CHEBI:25681	0-18
+laboratory biomarker analysis: Correlative studies	Results	8
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 22	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ug/ml  Normal breast tissue 18:2 n-6: 22 participants	Results	11
+breast	UBERON:0000310	31-37
+tissue	UBERON:0000479	38-44
+60.986         (40.392)	Results	12
+Normal breast tissue 18:3 n-3: 22 participants	Results	13
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+3.232         (2.289)	Results	14
+Normal breast tissue 20:2 n-6: 22 participants	Results	15
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+1.104         (0.96)	Results	16
+Normal breast tissue 20:4 n-6: 22 participants	Results	17
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+2.221         (1.349)	Results	18
+Normal breast tissue 20:3 n-3: 22 participants	Results	19
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+0.049         (0.107)	Results	20
+Normal breast tissue 20:5 n-3: 22 participants	Results	21
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+0.027         (0.128)	Results	22
+Normal breast tissue 22:6 n-3: 22 participants	Results	23
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+0.095         (0.443)	Results	24
+Normal breast tissue n-3: 22 participants	Results	25
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+3.402         (2.572)	Results	26
+Normal breast tissue n-6: 22 participants	Results	27
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+3.421         (2.085)	Results	28
+Normal breast tissue n3/n-6 ratio: 21 participants	Results	29
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+ratio	UO:0000190	28-33
+0.948         (0.468)	Results	30
+Malignant breast tissue 18:2 n-6: 22 participants	Results	31
+breast	UBERON:0000310	10-16
+tissue	UBERON:0000479	17-23
+44.137         (44.544)	Results	32
+Malignant breast 18:3 n-3: 22 participants	Results	33
+breast	UBERON:0000310	10-16
+1.943         (2.162)	Results	34
+Malignant breast 20:2 n-6: 22 participants	Results	35
+breast	UBERON:0000310	10-16
+0.889         (0.886)	Results	36
+Malignant breast 20:4 n-6: 22 participants	Results	37
+breast	UBERON:0000310	10-16
+3.208         (1.948)	Results	38
+Malignant breast 20:3 n-3: 22 participants	Results	39
+breast	UBERON:0000310	10-16
+0.034         (0.087)	Results	40
+Malignant breast 20:5 n-3: 22 participants	Results	41
+breast	UBERON:0000310	10-16
+0.2         (0.665)	Results	42
+Malignant breast 22:6 n-3: 22 participants	Results	43
+breast	UBERON:0000310	10-16
+0         (0)	Results	44
+Malignant breast n-3: 22 participants	Results	45
+breast	UBERON:0000310	10-16
+2.178         (2.41)	Results	46
+Malignant breast n-6: 22 participants	Results	47
+breast	UBERON:0000310	10-16
+48.233         (46.105)	Results	48
+Malignant breast n-3/n-6 ratio: 22 participants	Results	49
+breast	UBERON:0000310	10-16
+ratio	UO:0000190	25-30
+0.029         (0.031)	Results	50
+Differences in PUFA level 18:2 n-6: 22 participants	Results	51
+-16.85         (51.043)	Results	52
+Differences in PUFA level 18:3 n-3: 22 participants	Results	53
+-1.289         (2.784)	Results	54
+Differences in PUFA level 20:2 n-6: 22 participants	Results	55
+-0.215         (0.866)	Results	56
+Differences in PUFA level 20:4 n-6: 22 participants	Results	57
+0.986         (1.595)	Results	58
+Differences in PUFA level 20:3 n-3: 22 participants	Results	59
+-0.015         (0.105)	Results	60
+Differences in PUFA level 20:5 n-3: 22 participants	Results	61
+0.173         (0.545)	Results	62
+Differences in PUFA level 22:6 n-3: 22 participants	Results	63
+-0.095         (0.443)	Results	64
+Difference in PUFA level n-3: 22 participants	Results	65
+-1.224         (2.794)	Results	66
+Difference in PUFA level in n-6: 22 participants	Results	67
+44.812         (45.463)	Results	68
+Difference in n-3/n-6 ratio: 21 participants	Results	69
+ratio	UO:0000190	22-27
+-0.92         (0.45)	Results	70
+Results 2:	Results	71
+Arm/Group Title: Arm II (Placebo)	Results	72
+Arm/Group Description: Patients receive placebo PO daily for 7-14 days.	Results	73
+placebo: Given PO	Results	74
+laboratory biomarker analysis: Correlative studies	Results	75
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 19	Results	76
+Mean (Standard Deviation)	Results	77
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ug/ml  Normal breast tissue 18:2 n-6: 19 participants	Results	78
+breast	UBERON:0000310	31-37
+tissue	UBERON:0000479	38-44
+72.762         (50.742)	Results	79
+Normal breast tissue 18:3 n-3: 19 participants	Results	80
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+3.505         (2.041)	Results	81
+Normal breast tissue 20:2 n-6: 19 participants	Results	82
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+1.008         (0.724)	Results	83
+Normal breast tissue 20:4 n-6: 19 participants	Results	84
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+2.342         (1.445)	Results	85
+Normal breast tissue 20:3 n-3: 19 participants	Results	86
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+0.038         (0.085)	Results	87
+Normal breast tissue 20:5 n-3: 19 participants	Results	88
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+0.034         (0.147)	Results	89
+Normal breast tissue 22:6 n-3: 19 participants	Results	90
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+0.061         (0.264)	Results	91
+Normal breast tissue n-3: 19 participants	Results	92
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+3.64         (2.24)	Results	93
+Normal breast tissue n-6: 19 participants	Results	94
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+3.413         (1.962)	Results	95
+Normal breast tissue n3/n-6 ratio: 19 participants	Results	96
+breast	UBERON:0000310	7-13
+tissue	UBERON:0000479	14-20
+ratio	UO:0000190	28-33
+1.102         (0.438)	Results	97
+Malignant breast tissue 18:2 n-6: 19 participants	Results	98
+breast	UBERON:0000310	10-16
+tissue	UBERON:0000479	17-23
+33.735         (31.548)	Results	99
+Malignant breast 18:3 n-3: 19 participants	Results	100
+breast	UBERON:0000310	10-16
+1.356         (1.465)	Results	101
+Malignant breast 20:2 n-6: 19 participants	Results	102
+breast	UBERON:0000310	10-16
+0.601         (0.657)	Results	103
+Malignant breast 20:4 n-6: 19 participants	Results	104
+breast	UBERON:0000310	10-16
+2.248         (1.744)	Results	105
+Malignant breast 20:3 n-3: 19 participants	Results	106
+breast	UBERON:0000310	10-16
+0         (0)	Results	107
+Malignant breast 20:5 n-3: 19 participants	Results	108
+breast	UBERON:0000310	10-16
+0         (0)	Results	109
+Malignant breast 22:6 n-3: 19 participants	Results	110
+breast	UBERON:0000310	10-16
+0         (0)	Results	111
+Malignant breast n-3: 19 participants	Results	112
+breast	UBERON:0000310	10-16
+1.357         (1.466)	Results	113
+Malignant breast n-6: 19 participants	Results	114
+breast	UBERON:0000310	10-16
+36.586         (32.856)	Results	115
+Malignant breast n-3/n-6 ratio: 19 participants	Results	116
+breast	UBERON:0000310	10-16
+ratio	UO:0000190	25-30
+0.032         (0.016)	Results	117
+Differences in PUFA level 18:2 n-6: 19 participants	Results	118
+-39.027         (38.697)	Results	119
+Differences in PUFA level 18:3 n-3: 19 participants	Results	120
+-2.149         (1.935)	Results	121
+Differences in PUFA level 20:2 n-6: 19 participants	Results	122
+-0.407         (0.514)	Results	123
+Differences in PUFA level 20:4 n-6: 19 participants	Results	124
+-0.094         (1.589)	Results	125
+Differences in PUFA level 20:3 n-3: 19 participants	Results	126
+-0.038         (0.085)	Results	127
+Differences in PUFA level 20:5 n-3: 19 participants	Results	128
+-0.034         (0.147)	Results	129
+Differences in PUFA level 22:6 n-3: 19 participants	Results	130
+-0.061         (0.264)	Results	131
+Difference in PUFA level n-3: 19 participants	Results	132
+-2.282         (2.127)	Results	133
+Difference in PUFA level in n-6: 19 participants	Results	134
+33.173         (31.836)	Results	135
+Difference in n-3/n-6 ratio: 19 participants	Results	136
+ratio	UO:0000190	22-27
+-1.07         (0.438)	Results	137
+Adverse Events 1:	Adverse Events	0
+Total: 0/28 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

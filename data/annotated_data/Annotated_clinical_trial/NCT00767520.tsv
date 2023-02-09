@@ -1,0 +1,148 @@
+INTERVENTION 1:	Intervention	0
+Exemestane + Dasatinib	Intervention	1
+exemestane	CHEBI:4953	0-10
+Oral dose of exemestane 25 mg + dasatinib 100 mg, once daily, until disease progression or unacceptable toxicity	Intervention	2
+exemestane	CHEBI:4953	13-23
+disease	DOID:4,OGMS:0000031	68-75
+INTERVENTION 2:	Intervention	3
+Exemestane + Placebo	Intervention	4
+exemestane	CHEBI:4953	0-10
+Oral dose of exemestane 25 mg + placebo 100 mg, once daily, until disease progression or unacceptable toxicity	Intervention	5
+exemestane	CHEBI:4953	13-23
+disease	DOID:4,OGMS:0000031	66-73
+Inclusion Criteria:	Eligibility	0
+Histologically-documented invasive estrogen receptor positive breast cancer , with tumor tissue from prior surgery available for analysis	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	35-43
+receptor	BAO:0000281	44-52
+breast cancer	DOID:1612	62-75
+tissue	UBERON:0000479	89-95
+surgery	OAE:0000067	107-114
+Prior therapy with a non-steroidal aromatase inhibitor	Eligibility	2
+inhibitor	CHEBI:35222	45-54
+Recurrent or progressive advanced breast cancer (locally-advanced or metastatic)	Eligibility	3
+recurrent	HP:0031796	0-9
+progressive	HP:0003676	13-24
+breast cancer	DOID:1612	34-47
+Documented breast cancer with tumor  28 days prior to study entry	Eligibility	4
+breast cancer	DOID:1612	11-24
+Women who are NOT of childbearing potential	Eligibility	5
+Must be able to take oral medication	Eligibility	6
+Performance Status 0 or 1	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Pleural or pericardial effusion or ascites (of any etiology; Grade  1) within 6 months prior to study entry	Eligibility	9
+pericardial effusion	HP:0001698,DOID:118	11-31
+ascites	HP:0001541	35-42
+Any chemotherapy, immunotherapy < 6 months before study entry. Any targeted therapy (eg. lapatinib) < 6 months before study entry, unless given in combination with an NSAI	Eligibility	10
+lapatinib	CHEBI:49603	89-98
+Any antitumor therapy, including radiotherapy or hormonal therapy, within 15 days prior to study entry	Eligibility	11
+radiotherapy	OAE:0000235	33-45
+Prior exposure to exemestane, any Src-family kinase inhibitor including dasatinib, to agents intended to control osteolytic disease other than bisphosphonates, or to any investigational agent for breast cancer	Eligibility	12
+exemestane	CHEBI:4953	18-28
+kinase	BAO:0000294	45-51
+inhibitor	CHEBI:35222	52-61
+disease	DOID:4,OGMS:0000031	124-131
+breast cancer	DOID:1612	196-209
+Concurrent or previous malignant disease requiring chemotherapy or radiation treatment within the prior 3 years	Eligibility	13
+disease	DOID:4,OGMS:0000031	33-40
+Significant bleeding disorder, or ongoing or recent clinically-significant gastrointestinal bleeding	Eligibility	14
+disorder	OGMS:0000045	21-29
+Any serious cardiac condition, including congestive heart failure or myocardial infarction within 6 months, uncontrolled angina, or Class III or IV heart disease as defined by the New York Heart Association, baseline ejection fraction  40%, diagnosed congenital long QT syndrome, clinically-significant ventricular arrhythmias (such as ventricular tachycardia, ventricular fibrillation, or Torsades de Pointes), QTc interval > 450 msec at baseline (Fridericia correction)	Eligibility	15
+condition	PDRO:0000129	20-29
+congestive heart failure	HP:0001635,DOID:6000	41-65
+myocardial infarction	HP:0001658,DOID:5844	69-90
+heart disease	DOID:114	148-161
+heart	UBERON:0000948	52-57
+heart	UBERON:0000948	148-153
+heart	UBERON:0000948	189-194
+ejection fraction	CMO:0000180	217-234
+long qt syndrome	DOID:2843	262-278
+ventricular tachycardia	HP:0004756	336-359
+ventricular fibrillation	HP:0001663	361-385
+qtc interval	CMO:0000269	412-424
+Hematologic abnormality Grade  2	Eligibility	16
+Hypocalcemia of Grade  1	Eligibility	17
+hypocalcemia	HP:0002901	0-12
+Any Chemistry abnormality of Grade  2 [except Grade 2 indirect bilirubin permitted if diagnosed Gilbert's disease]	Eligibility	18
+disease	DOID:4,OGMS:0000031	106-113
+Pregnant Women and Women of Childbearing Potential (WOCBP)	Eligibility	19
+Extremely lactose intolerant, in the judgment of treating physician (100 mg dasatinib contains 135 mg lactose, posing a problem only if intolerance is severe)	Eligibility	20
+lactose	CHEBI:17716	10-17
+lactose	CHEBI:17716	102-109
+severe	HP:0012828	151-157
+Receiving any of the following concomitant medications: Category I drugs that are generally accepted to have a risk of causing Torsades de Pointes including: (Subjects must discontinue drug use at least 7 days prior to starting dasatinib)	Eligibility	21
+drug	CHEBI:23888	67-71
+drug	CHEBI:23888	185-189
+Potent inhibitors of CYP3A4 isoenzyme	Eligibility	22
+Prisoners or subjects who are involuntarily incarcerated; or subjects who are compulsorily detained for treatment of either a psychiatric or physical (eg, infectious disease) illness	Eligibility	23
+disease	DOID:4,OGMS:0000031	166-173
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS) Distribution for Exemestane Plus Dasatinib vs Exemestane Plus Placebo	Results	1
+exemestane	CHEBI:4953	49-59
+exemestane	CHEBI:4953	78-88
+PFS= The time (weeks) from date of randomization to date of progressive disease(PD). PFS for each randomization arm was estimated using the Kaplan-Meier product-limit method. A point estimate and a 95% confidence interval (CI) for the median PFS was computed for each randomization arm using the Brookmeyer & Crowley method. PD=Increase ( 20%) in sum of longest diameters from smallest value during study (including baseline).	Results	2
+time	PATO:0000165	9-13
+progressive	HP:0003676	60-71
+disease	DOID:4,OGMS:0000031	72-79
+median	BAO:0002174	235-241
+Time frame: Prior to study therapy, at 8 week intervals until progression occurs (maximum participant PFS of 71 weeks)	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	41-45
+week	UO:0000034	112-116
+Results 1:	Results	4
+Arm/Group Title: Exemestane + Dasatinib	Results	5
+exemestane	CHEBI:4953	17-27
+Arm/Group Description: Oral dose of exemestane 25 mg + dasatinib 100 mg, once daily, until disease progression or unacceptable toxicity	Results	6
+exemestane	CHEBI:4953	36-46
+disease	DOID:4,OGMS:0000031	91-98
+Overall Number of Participants Analyzed: 79	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: weeks  18.1        (15.1 to 24.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Exemestane + Placebo	Results	11
+exemestane	CHEBI:4953	17-27
+Arm/Group Description: Oral dose of exemestane 25 mg + placebo 100 mg, once daily, until disease progression or unacceptable toxicity	Results	12
+exemestane	CHEBI:4953	36-46
+disease	DOID:4,OGMS:0000031	89-96
+Overall Number of Participants Analyzed: 78	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: weeks  16.1        (12.1 to 18.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 22/79 (27.85%)	Adverse Events	1
+Anaemia 0/79 (0.00%)	Adverse Events	2
+Right ventricular dysfunction 1/79 (1.27%)	Adverse Events	3
+right	HP:0012834	0-5
+Diarrhoea 1/79 (1.27%)	Adverse Events	4
+Vomiting 2/79 (2.53%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Abdominal pain 0/79 (0.00%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Colonic obstruction 0/79 (0.00%)	Adverse Events	7
+Dysphagia 1/79 (1.27%)	Adverse Events	8
+dysphagia	HP:0002015	0-9
+Nausea 1/79 (1.27%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Mucosal inflammation 1/79 (1.27%)	Adverse Events	10
+Performance status decreased 1/79 (1.27%)	Adverse Events	11
+Sudden death 1/79 (1.27%)	Adverse Events	12
+sudden death	HP:0001699	0-12
+Adverse Events 2:	Adverse Events	13
+Total: 13/76 (17.11%)	Adverse Events	14
+Anaemia 1/76 (1.32%)	Adverse Events	15
+Right ventricular dysfunction 0/76 (0.00%)	Adverse Events	16
+right	HP:0012834	0-5
+Diarrhoea 0/76 (0.00%)	Adverse Events	17
+Vomiting 2/76 (2.63%)	Adverse Events	18
+vomiting	HP:0002013	0-8
+Abdominal pain 1/76 (1.32%)	Adverse Events	19
+abdominal pain	HP:0002027	0-14
+Colonic obstruction 1/76 (1.32%)	Adverse Events	20
+Dysphagia 0/76 (0.00%)	Adverse Events	21
+dysphagia	HP:0002015	0-9
+Nausea 1/76 (1.32%)	Adverse Events	22
+nausea	HP:0002018	0-6
+Mucosal inflammation 0/76 (0.00%)	Adverse Events	23
+Performance status decreased 0/76 (0.00%)	Adverse Events	24
+Sudden death 0/76 (0.00%)	Adverse Events	25
+sudden death	HP:0001699	0-12

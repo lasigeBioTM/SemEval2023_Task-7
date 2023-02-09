@@ -1,0 +1,172 @@
+INTERVENTION 1:	Intervention	0
+Metformin	Intervention	1
+metformin	CHEBI:6801	0-9
+Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).	Intervention	2
+metformin	CHEBI:6801	0-9
+platinum	CHEBI:33364	65-73
+capecitabine	CHEBI:31348	86-98
+second	UO:0000010	109-115
+Metformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).	Intervention	3
+metformin	CHEBI:6801	0-9
+metformin	CHEBI:6801	11-20
+platinum	CHEBI:33364	97-105
+capecitabine	CHEBI:31348	118-130
+second	UO:0000010	141-147
+Number of cycles: Until progression or unacceptable toxicity develops.	Intervention	4
+INTERVENTION 2:	Intervention	5
+Placebo	Intervention	6
+Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).	Intervention	7
+platinum	CHEBI:33364	62-70
+capecitabine	CHEBI:31348	83-95
+second	UO:0000010	106-112
+Placebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).	Intervention	8
+platinum	CHEBI:33364	86-94
+capecitabine	CHEBI:31348	107-119
+second	UO:0000010	130-136
+Number of cycles: until progression or unacceptable toxicity develops.	Intervention	9
+Inclusion Criteria:	Eligibility	0
+Histologically proven invasive breast cancer with metastatic spread outside of breast, ipsilateral axillary and supraclavicular nodal areas (Histological confirmation of metastases is not required) OR, Locally advanced breast cancer that is refractory to initial anticancer treatment.	Eligibility	1
+breast cancer	DOID:1612	31-44
+breast cancer	DOID:1612	219-232
+breast	UBERON:0000310	31-37
+breast	UBERON:0000310	79-85
+breast	UBERON:0000310	219-225
+refractory	HP:0031375	241-251
+A decision has been made to administer single or multiple agent first or second line chemotherapy that includes one of the following agents: anthracycline, taxane, platinum, capecitabine.	Eligibility	2
+second	UO:0000010	73-79
+anthracycline	CHEBI:48120	141-154
+taxane	CHEBI:36064	156-162
+platinum	CHEBI:33364	164-172
+capecitabine	CHEBI:31348	174-186
+Age: 18 to 75 years at the time of registration	Eligibility	3
+age	PATO:0000011	0-3
+time	PATO:0000165	27-31
+Invasive breast cancer, any ER or PgR status	Eligibility	4
+breast cancer	DOID:1612	9-22
+ECOG performance status 0-2	Eligibility	5
+Life expectancy of at least 6 months	Eligibility	6
+Adequate hepatic and renal function (SGOT and ALT < 1.8 X upper limit of normal for the institution, alkaline phosphatase  2X upper limit of normal for the institution, bilirubin within normal limits for the institution (expect in patients with Gilbert's syndrome who will be eligible regardless of bilirubin) and creatinine  130 umol/L)	Eligibility	7
+function	BAO:0003117,BFO:0000034	27-35
+x	LABO:0000148	56-57
+x	LABO:0000148	124-125
+x	LABO:0000148	222-223
+phosphatase	GO:0016791,BAO:0000295	110-121
+syndrome	DOID:225	255-263
+creatinine	CHEBI:16737	314-324
+Blood counts: Neutrophils must be at least 1,000/mm3 and Platelets  75,000/mm3.	Eligibility	8
+blood	UBERON:0000178	0-5
+Ability to understand and to provide written informed consent for the study	Eligibility	9
+Absence of any psychological, familial, sociological, or other patient related factors that might preclude compliance with the study protocol	Eligibility	10
+patient	HADO:0000008,OAE:0001817	63-70
+Measurable or non measurable (but evaluable) tumour must be present - radiologic or clinical evaluation must have been performed within 4 weeks prior to registration.	Eligibility	11
+present	PATO:0000467	60-67
+Exclusion Criteria:	Eligibility	12
+More than one previous line(s) of chemotherapy for metastatic disease - if prior chemotherapy has been administered, the last date of treatment must have been given at least 3 weeks prior to registration [any adjuvant systemic treatment is acceptable]	Eligibility	13
+disease	DOID:4,OGMS:0000031	62-69
+adjuvant	CHEBI:60809	209-217
+If prior hormone therapy (as adjuvant or metastatic therapy) has been administered, it must have been stopped at least 3 weeks prior to registration	Eligibility	14
+hormone	CHEBI:24621	9-16
+adjuvant	CHEBI:60809	29-37
+Radiotherapy to a target or non target lesion within 4 weeks of registration	Eligibility	15
+radiotherapy	OAE:0000235	0-12
+target	BAO:0003064	18-24
+target	BAO:0003064	32-38
+Known CNS metastases	Eligibility	16
+History of cardiac failure	Eligibility	17
+history	BFO:0000182	0-7
+Known hypersensitivity or allergy to metformin	Eligibility	18
+hypersensitivity	GO:0002524,DOID:1205	6-22
+allergy	HP:0012393	26-33
+metformin	CHEBI:6801	37-46
+History of or known diabetes or baseline fasting glucose  7.0 mmol/L	Eligibility	19
+history	BFO:0000182	0-7
+glucose	CHEBI:4167,BAO:0000924	49-56
+History of lactic or other metabolic acidosis	Eligibility	20
+history	BFO:0000182	0-7
+metabolic acidosis	HP:0001942,DOID:0050758	27-45
+Use of metformin within 3 months of registration	Eligibility	21
+metformin	CHEBI:6801	7-16
+Current or planned pregnancy or lactation in women of child-bearing potential. Patients of childbearing potential must have a negative serum pregnancy test.	Eligibility	22
+lactation	GO:0007595	32-41
+Fertile patients must agree to use an effective method of contraception while on study treatment; which could include IUD, condoms or other barrier methods of birth control	Eligibility	23
+Habitual alcohol intake of more than three drinks daily	Eligibility	24
+alcohol	CHEBI:16236	9-16
+Concurrent use of any biguanide medication (other than metformin as a study medication)	Eligibility	25
+biguanide	CHEBI:3095	22-31
+metformin	CHEBI:6801	55-64
+Patients with  grade 2 diarrhea at baseline, malabsorption syndrome or unable to swallow oral medication	Eligibility	26
+diarrhea	HP:0002014,DOID:13250	23-31
+malabsorption	HP:0002024	45-58
+syndrome	DOID:225	59-67
+Previous or concurrent malignancies, except non-melanoma skin cancers, unless curatively treated and with no evidence of recurrence for  5 years.	Eligibility	27
+Use of any investigational agent within 28 days prior to registration.	Eligibility	28
+Outcome Measurement:	Results	0
+Progression Free Survival.	Results	1
+Scans will be repeated every 9 weeks. Local follow up for survival will continue until all patients have died or for a maximum total follow up of 3 years, which ever occurs first. The two study arms will be compared in an intent to treat fashion using Cox proportional hazard analysis, with the stratification variables included in the model. Treatment discontinuation for toxicity or other reasons will be considered an event.	Results	2
+Time frame: From date of randomization to first documented progression or death, which ever occurs first, assessed up to 3 years.	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	74-79
+Results 1:	Results	4
+Arm/Group Title: Metformin	Results	5
+metformin	CHEBI:6801	17-26
+Arm/Group Description: Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).	Results	6
+metformin	CHEBI:6801	23-32
+platinum	CHEBI:33364	88-96
+capecitabine	CHEBI:31348	109-121
+second	UO:0000010	132-138
+Metformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).	Results	7
+metformin	CHEBI:6801	0-9
+metformin	CHEBI:6801	11-20
+platinum	CHEBI:33364	97-105
+capecitabine	CHEBI:31348	118-130
+second	UO:0000010	141-147
+Number of cycles: Until progression or unacceptable toxicity develops.	Results	8
+Overall Number of Participants Analyzed: 22	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: months  5.4         (1.04)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Placebo	Results	13
+Arm/Group Description: Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).	Results	14
+platinum	CHEBI:33364	85-93
+capecitabine	CHEBI:31348	106-118
+second	UO:0000010	129-135
+Placebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).	Results	15
+platinum	CHEBI:33364	86-94
+capecitabine	CHEBI:31348	107-119
+second	UO:0000010	130-136
+Number of cycles: until progression or unacceptable toxicity develops.	Results	16
+Overall Number of Participants Analyzed: 18	Results	17
+Mean (Standard Deviation)	Results	18
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: months  6.3         (1.68)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 3/22 (13.64%)	Adverse Events	1
+ascites with hyponatraemia 0/22 (0.00%)	Adverse Events	2
+ascites	HP:0001541	0-7
+febrile neutropenia with respiratory infection 1/22 (4.55%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+urosepsis 1/22 (4.55%)	Adverse Events	4
+febrile neutropenia with urinary tract infection 0/22 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+urinary tract infection	DOID:0080784	25-48
+dyspnoea 1/22 (4.55%)	Adverse Events	6
+hypoxia 0/22 (0.00%)	Adverse Events	7
+thromboembolism 0/22 (0.00%)	Adverse Events	8
+thromboembolism	HP:0001907	0-15
+Adverse Events 2:	Adverse Events	9
+Total: 4/17 (23.53%)	Adverse Events	10
+ascites with hyponatraemia 1/17 (5.88%)	Adverse Events	11
+ascites	HP:0001541	0-7
+febrile neutropenia with respiratory infection 0/17 (0.00%)	Adverse Events	12
+neutropenia	HP:0001875,DOID:1227	8-19
+urosepsis 0/17 (0.00%)	Adverse Events	13
+febrile neutropenia with urinary tract infection 1/17 (5.88%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+urinary tract infection	DOID:0080784	25-48
+dyspnoea 0/17 (0.00%)	Adverse Events	15
+hypoxia 1/17 (5.88%)	Adverse Events	16
+thromboembolism 1/17 (5.88%)	Adverse Events	17
+thromboembolism	HP:0001907	0-15

@@ -1,0 +1,145 @@
+INTERVENTION 1:	Intervention	0
+Treatment Gel + Oral Placebo	Intervention	1
+gel	BAO:0010018	10-13
+4-hydroxytamoxifen gel 2mg/breast applied daily. Oral placebo taken daily.	Intervention	2
+gel	BAO:0010018	19-22
+oral placebo: Oral placebo taken daily for 4-10 weeks.	Intervention	3
+afimoxifene: 2mg/breast applied daily in the form of a gel for 4-10 weeks.	Intervention	4
+afimoxifene	CHEBI:44616	0-11
+gel	BAO:0010018	55-58
+INTERVENTION 2:	Intervention	5
+Placebo Gel + Oral Treatment	Intervention	6
+gel	BAO:0010018	8-11
+Placebo gel applied to the breasts daily. 20mg oral tamoxifen taken daily (taken as two (2) 10mg capsules).	Intervention	7
+gel	BAO:0010018	8-11
+tamoxifen	CHEBI:41774	52-61
+tamoxifen citrate: 20mg oral tamoxifen taken daily (taken as two (2) 10mg capsules) for 4-10 weeks.	Intervention	8
+tamoxifen citrate	CHEBI:9397	0-17
+tamoxifen	CHEBI:41774	0-9
+tamoxifen	CHEBI:41774	29-38
+placebo gel: Placebo gel applied to breasts daily for 4-10 weeks.	Intervention	9
+gel	BAO:0010018	8-11
+gel	BAO:0010018	21-24
+Inclusion Criteria:	Eligibility	0
+Diagnosis of hormone receptor positive (more than 5% cells staining for ER + and/ or PR +), any grade (using definition of Page and Lagios) ductal carcinoma in situ (DCIS) with or without evidence of microinvasion on diagnostic core needle biopsy within the previous 60 days.	Eligibility	1
+hormone	CHEBI:24621	13-20
+receptor	BAO:0000281	21-29
+page	BAO:0010019	123-127
+ductal carcinoma in situ	HP:0030075,DOID:0060074	140-164
+Women of age  18 years. Because no dosing or adverse event data are currently available on the use of 4-hydroxytamoxifen in participants <18 years of age, children are excluded from this study but will be eligible for future pediatric trials, if applicable.	Eligibility	2
+age	PATO:0000011	9-12
+age	PATO:0000011	150-153
+adverse event	OAE:0000001	45-58
+excluded	HP:0040285	168-176
+ECOG performance status 1 (Karnofsky 70%)	Eligibility	3
+Participants must have normal organ and marrow function as defined below:	Eligibility	4
+organ	UBERON:0000062	30-35
+function	BAO:0003117,BFO:0000034	47-55
+Leukocytes  3,000/uL	Eligibility	5
+Absolute neutrophil count (ANC)  1,500/uL	Eligibility	6
+Platelets  100,000/uL	Eligibility	7
+Total bilirubin within normal institutional limits	Eligibility	8
+AST (SGOT)/ALT (SGPT)  1.5 X institutional ULN	Eligibility	9
+x	LABO:0000148	27-28
+Creatinine within normal institutional limits	Eligibility	10
+creatinine	CHEBI:16737	0-10
+Women of child-bearing potential must agree to practice barrier birth control, abstinence, or use non-hormonal IUDs from the time that the first pregnancy test is performed throughout the duration of the study and for three months after cessation of study drug. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her study physician immediately.	Eligibility	11
+time	PATO:0000165	125-129
+duration	PATO:0001309	188-196
+drug	CHEBI:23888	256-260
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	12
+document	IAO:0000310	77-85
+Ability and willingness to schedule surgical resection of DCIS lesion for 4-10 weeks (28-70 days) following the start of study agent.	Eligibility	13
+Willingness to avoid exposing breast skin to natural or artificial sunlight (i.e. tanning beds) for the 4-10 weeks of study agent dosing.	Eligibility	14
+breast	UBERON:0000310	30-36
+Exclusion Criteria:	Eligibility	15
+Prior history of, or at high risk to develop, thromboembolic disease will be excluded.	Eligibility	16
+history	BFO:0000182	6-13
+disease	DOID:4,OGMS:0000031	61-68
+excluded	HP:0040285	77-85
+Must not have taken exogenous sex hormones since biopsy diagnosing DCIS and must agree not to use exogenous sex hormones while on study.	Eligibility	17
+Must not have taken tamoxifen or other selective estrogen receptor modulators (SERMs) within 2 years prior to entering the study. Women who have discontinued SERM therapy because of thromboembolic or uterine toxicity, will be excluded regardless of duration of use.	Eligibility	18
+tamoxifen	CHEBI:41774	20-29
+estrogen	CHEBI:50114,BAO:0000760	49-57
+receptor	BAO:0000281	58-66
+excluded	HP:0040285	226-234
+duration	PATO:0001309	249-257
+May not be receiving any other investigational agents.	Eligibility	19
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to 4-hydroxytamoxifen or tamoxifen.	Eligibility	20
+history	BFO:0000182	0-7
+tamoxifen	CHEBI:41774	110-119
+tamoxifen	CHEBI:41774	123-132
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	21
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Pregnant women are excluded from this study because tamoxifen and 4-hydroxytamoxifen has the potential for teratogenic or abortifacient effects. Women are excluded from enrolling within 3 months of the most recent pregnancy. Women must avoid becoming pregnant in the 3 months following the use of study agent.	Eligibility	22
+excluded	HP:0040285	19-27
+excluded	HP:0040285	155-163
+tamoxifen	CHEBI:41774	52-61
+tamoxifen	CHEBI:41774	75-84
+abortifacient	CHEBI:50691	122-135
+Women must not have breastfed within three months prior to DCNB. Women who are breast feeding are excluded from entry into this trial because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with tamoxifen or 4-hydroxytamoxifen. Women must agree to forego breastfeeding for three months following the use of study agent.	Eligibility	23
+breast	UBERON:0000310	20-26
+breast	UBERON:0000310	79-85
+breast	UBERON:0000310	321-327
+excluded	HP:0040285	98-106
+tamoxifen	CHEBI:41774	261-270
+tamoxifen	CHEBI:41774	283-292
+Must not have any dermatologic conditions resulting in skin breakdown in the area of gel application.	Eligibility	24
+area	PATO:0001323	77-81
+gel	BAO:0010018	85-88
+application	CHEBI:33232,BAO:0110001	89-100
+Must not have a history of previous ipsilateral radiation to the affected breast.	Eligibility	25
+history	BFO:0000182	16-23
+affected	HP:0032320	65-73
+breast	UBERON:0000310	74-80
+Must not have had a breast reduction or augmentation within the 6 months prior to first dose of study agents. Patients who have had breast implants more than 6 months prior to first dose of study agents will be eligible.	Eligibility	26
+breast	UBERON:0000310	20-26
+breast	UBERON:0000310	132-138
+Outcome Measurement:	Results	0
+Difference Between Ki-67 Labeling Index in Tissue Samples Taken at Baseline and Post-treatment	Results	1
+tissue	UBERON:0000479	43-49
+Ki-67 was measured in matched core and excision tissue samples containing DCIS (Ductal Carcinoma In-Situ) lesions, the core sample was at baseline while the excision sample was at surgery (after approximately 4-10 weeks of treatment).	Results	2
+tissue	UBERON:0000479	48-54
+carcinoma	HP:0030731,DOID:305	87-96
+surgery	OAE:0000067	180-187
+Time frame: Baseline and after 4-10 weeks of treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment Gel + Oral Placebo	Results	5
+gel	BAO:0010018	27-30
+Arm/Group Description: 4-hydroxytamoxifen gel 2mg/breast applied daily. Oral placebo taken daily.	Results	6
+gel	BAO:0010018	42-45
+oral placebo: Oral placebo taken daily for 4-10 weeks.	Results	7
+afimoxifene: 2mg/breast applied daily in the form of a gel for 4-10 weeks.	Results	8
+afimoxifene	CHEBI:44616	0-11
+gel	BAO:0010018	55-58
+Overall Number of Participants Analyzed: 9	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of 300 DCIS cells  -3.4         (5.0)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Placebo Gel + Oral Treatment	Results	13
+gel	BAO:0010018	25-28
+Arm/Group Description: Placebo gel applied to the breasts daily. 20mg oral tamoxifen taken daily (taken as two (2) 10mg capsules).	Results	14
+gel	BAO:0010018	31-34
+tamoxifen	CHEBI:41774	75-84
+tamoxifen citrate: 20mg oral tamoxifen taken daily (taken as two (2) 10mg capsules) for 4-10 weeks.	Results	15
+tamoxifen citrate	CHEBI:9397	0-17
+tamoxifen	CHEBI:41774	0-9
+tamoxifen	CHEBI:41774	29-38
+placebo gel: Placebo gel applied to breasts daily for 4-10 weeks.	Results	16
+gel	BAO:0010018	8-11
+gel	BAO:0010018	21-24
+Overall Number of Participants Analyzed: 9	Results	17
+Mean (Standard Deviation)	Results	18
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of 300 DCIS cells  -5.1         (5.5)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/12 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

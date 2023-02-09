@@ -1,0 +1,94 @@
+INTERVENTION 1:	Intervention	0
+Level 1	Intervention	1
+10g/day	Intervention	2
+INTERVENTION 2:	Intervention	3
+Level 2	Intervention	4
+20g/day	Intervention	5
+Key Inclusion Criteria:	Eligibility	0
+Women 18 years or older	Eligibility	1
+Histologically confirmed breast cancer	Eligibility	2
+breast cancer	DOID:1612	25-38
+Clinical evidence of metastatic (stage IV) metastasis (other than bone metastasis)	Eligibility	3
+Availability of estrogen and progesterone receptor status	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	16-24
+progesterone	CHEBI:17026	29-41
+receptor	BAO:0000281	42-50
+At least one measurable disease site defined by RECIST criteria, 30 days prior to study therapy	Eligibility	5
+disease	DOID:4,OGMS:0000031	24-31
+site	BFO:0000029	32-36
+For the phase 1, no more that 3 prior cytotoxic regimens for metastatic breast cancer. For the phase 2, no more than 2 prior cytotoxic regimens for metastatic breast cancer	Eligibility	6
+breast cancer	DOID:1612	72-85
+breast cancer	DOID:1612	159-172
+Life expectancy  12 weeks	Eligibility	7
+Eastern Cooperative Oncology Group performance status 2	Eligibility	8
+group	CHEBI:24433	29-34
+Women of child bearing potential must agree to 2 forms of contraception during the course of the trial.	Eligibility	9
+Key Exclusion Criteria:	Eligibility	10
+Inability to understand/unwillingness to sign a written informed consent	Eligibility	11
+Any significant side effects related to prior chemo, radiation, biology or hormonal therapy that did not resolve in the judgment of the investigator	Eligibility	12
+Currently using an investigational agent	Eligibility	13
+Clinically significant gastrointestinal abnormalities	Eligibility	14
+Currently using coumadin at therapeutic doses or within 2 weeks of taking study medication	Eligibility	15
+Concurrent palliative radiation or anti-cancer treatment	Eligibility	16
+Women who report pregnancy, are breast-feeding or have a positive pregnancy test	Eligibility	17
+Outcome Measurement:	Results	0
+Toxicity Based Upon Adverse Events Classifed by the NCI Common Terminology Criteria Version 3 (Phase 1)	Results	1
+Dose-Limiting Toxicities graded according to Common Terminology Criteria for Adverse Events, version 3.0	Results	2
+Time frame: Monthly	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Level 1	Results	5
+Arm/Group Description: 10g/day	Results	6
+Overall Number of Participants Analyzed: 11	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Elevated AST: 1	Results	9
+Diarrhea: 0	Results	10
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue: 0	Results	11
+fatigue	HP:0012378	0-7
+Pain-rib cage: 0	Results	12
+Results 2:	Results	13
+Arm/Group Title: Level 2	Results	14
+Arm/Group Description: 20g/day	Results	15
+Overall Number of Participants Analyzed: 6	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: participants  Elevated AST: 0	Results	18
+Diarrhea: 1	Results	19
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue: 1	Results	20
+fatigue	HP:0012378	0-7
+Pain-rib cage: 0	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 5/11 (45.45%)	Adverse Events	1
+Hemorrhage, GI-abdomen NOS 21/11 (9.09%)	Adverse Events	2
+Pain-liver 21/11 (9.09%)	Adverse Events	3
+Infection-ulcer 20/11 (0.00%)	Adverse Events	4
+Hemoglobin 20/11 (0.00%)	Adverse Events	5
+hemoglobin	CHEBI:35143	0-10
+Hypoglycemia 20/11 (0.00%)	Adverse Events	6
+hypoglycemia	HP:0001943,DOID:9993	0-12
+Pain-rib cage due to vomiting 20/11 (0.00%)	Adverse Events	7
+vomiting	HP:0002013	21-29
+Obstruction-gu ureter 1/11 (9.09%)	Adverse Events	8
+ureter	UBERON:0000056	15-21
+Hemorrhage gu-bladder 21/11 (9.09%)	Adverse Events	9
+Pain-breast 21/11 (9.09%)	Adverse Events	10
+Pleural effusion 22/11 (18.18%)	Adverse Events	11
+pleural effusion	HP:0002202	0-16
+Adverse Events 2:	Adverse Events	12
+Total: 0/6 (0.00%)	Adverse Events	13
+Hemorrhage, GI-abdomen NOS 20/6 (0.00%)	Adverse Events	14
+Pain-liver 20/6 (0.00%)	Adverse Events	15
+Infection-ulcer 20/6 (0.00%)	Adverse Events	16
+Hemoglobin 20/6 (0.00%)	Adverse Events	17
+hemoglobin	CHEBI:35143	0-10
+Hypoglycemia 20/6 (0.00%)	Adverse Events	18
+hypoglycemia	HP:0001943,DOID:9993	0-12
+Pain-rib cage due to vomiting 20/6 (0.00%)	Adverse Events	19
+vomiting	HP:0002013	21-29
+Obstruction-gu ureter 0/6 (0.00%)	Adverse Events	20
+ureter	UBERON:0000056	15-21
+Hemorrhage gu-bladder 20/6 (0.00%)	Adverse Events	21
+Pain-breast 20/6 (0.00%)	Adverse Events	22
+Pleural effusion 20/6 (0.00%)	Adverse Events	23
+pleural effusion	HP:0002202	0-16

@@ -1,0 +1,95 @@
+INTERVENTION 1:	Intervention	0
+ER-positive Luminal B (ER+)	Intervention	1
+ER-positive Luminal B participants received a single dose of dalotuzumab 20 mg/kg infused over 60-120 minutes.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Triple Negative (TN)	Intervention	4
+Triple Negative participants received a single dose of dalotuzumab 20 mg/kg infused over 60-120 minutes.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Participant has operable stage I-IIIa breast cancer of the following subtypes: (1) estrogen receptor (ER)-negative, progesterone receptor (PR)-negative, and human epidermal growth factor receptor 2 (HER2)-negative breast cancer; (2) ER-positive tumor meeting one of the following criteria: histologic grade 3; histologic grade 2 and PR-negative; histologic grade 2 and Ki67 antigen 10%. Tumor is at least 2 cm in diameter as assessed by physical or radiographic exam	Eligibility	1
+breast cancer	DOID:1612	38-51
+breast cancer	DOID:1612	214-227
+estrogen	CHEBI:50114,BAO:0000760	83-91
+receptor	BAO:0000281	92-100
+receptor	BAO:0000281	129-137
+receptor	BAO:0000281	187-195
+progesterone	CHEBI:17026	116-128
+growth factor	BAO:0002024	173-186
+antigen	CHEBI:59132	374-381
+diameter	PATO:0001334	413-421
+Participant is female and 18 years of age	Eligibility	2
+female	PATO:0000383	15-21
+age	PATO:0000011	38-41
+Exclusion Criteria:	Eligibility	3
+Participant is pregnant, breastfeeding or planning to become pregnant while in the study	Eligibility	4
+Participant has received prior chemotherapy, biological therapy or radiation	Eligibility	5
+Participant has participated in a clinical trial in the last 30 days	Eligibility	6
+Participant has a history of drug or alcohol abuse in the last year	Eligibility	7
+history	BFO:0000182	18-25
+drug	CHEBI:23888	29-33
+alcohol	CHEBI:16236	37-44
+year	UO:0000036	63-67
+Participant is human immunodeficiency virus (HIV) positive. Patient has a history of Hepatitis B or C	Eligibility	8
+immunodeficiency	HP:0002721	21-37
+virus	BAO:0000232	38-43
+patient	HADO:0000008,OAE:0001817	60-67
+history	BFO:0000182	74-81
+hepatitis b	DOID:2043	85-96
+Participant has poorly controlled diabetes mellitus	Eligibility	9
+diabetes mellitus	HP:0000819,DOID:9351	34-51
+Outcome Measurement:	Results	0
+Percentage of Participants Demonstrating a Decrease in the Growth Factor Signature (GFS)	Results	1
+growth factor	BAO:0002024	59-72
+GFS was measured by microarray analysis of the entire 101 gene signature expression. The GFS is quantified as the change in gene expression between two separate samples collected from the same participant. A log (base 10) ratio of expression in the post-dose sample was generated relative to the reference in both the Up and DOWN arms of the gene signature. A log ratio value of zero indicated no change in the expression between the two samples. GFS was calculated as the mean log ratio of genes in the UP arm minus mean log ratio of genes in the Down arm. GFS was compared for paired samples (pre-dose and post-dose) by a T-statistic calculated as the GFS divided by its standard error. Responders to therapy had a T-statistic that was smaller than the threshold 1st percentile of student's T-distribution and were counted as having a decrease in GFS.	Results	2
+microarray	BAO:0010048	20-30
+gene	BAO:0000582	58-62
+gene	BAO:0000582	124-128
+gene	BAO:0000582	270-274
+gene	BAO:0000582	342-346
+gene	BAO:0000582	491-495
+gene	BAO:0000582	535-539
+gene expression	GO:0010467	124-139
+log	BAO:0002172	208-211
+log	BAO:0002172	360-363
+log	BAO:0002172	478-481
+log	BAO:0002172	522-525
+base	CHEBI:22695	213-217
+ratio	UO:0000190	222-227
+ratio	UO:0000190	364-369
+ratio	UO:0000190	482-487
+ratio	UO:0000190	526-531
+mean	BAO:0002173	473-477
+mean	BAO:0002173	517-521
+Time frame: Up to 12 Days Post-dose	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: ER-positive Luminal B (ER+)	Results	5
+Arm/Group Description: ER-positive Luminal B participants received a single dose of dalotuzumab 20 mg/kg infused over 60-120 minutes.	Results	6
+Overall Number of Participants Analyzed: 14	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  28.6        (13.1 to 49.2)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Triple Negative (TN)	Results	11
+Arm/Group Description: Triple Negative participants received a single dose of dalotuzumab 20 mg/kg infused over 60-120 minutes.	Results	12
+Overall Number of Participants Analyzed: 17	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of participants  17.6        (6.7 to 35.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/25 (4.00%)	Adverse Events	1
+Diarrhoea 0/25 (0.00%)	Adverse Events	2
+Breast abscess 0/25 (0.00%)	Adverse Events	3
+breast abscess	DOID:0060323	0-14
+Breast cellulitis 0/25 (0.00%)	Adverse Events	4
+breast	UBERON:0000310	0-6
+cellulitis	HP:0100658,DOID:3488	7-17
+Syncope 1/25 (4.00%)	Adverse Events	5
+syncope	HP:0001279	0-7
+Adverse Events 2:	Adverse Events	6
+Total: 1/20 (5.00%)	Adverse Events	7
+Diarrhoea 1/20 (5.00%)	Adverse Events	8
+Breast abscess 1/20 (5.00%)	Adverse Events	9
+breast abscess	DOID:0060323	0-14
+Breast cellulitis 1/20 (5.00%)	Adverse Events	10
+breast	UBERON:0000310	0-6
+cellulitis	HP:0100658,DOID:3488	7-17
+Syncope 0/20 (0.00%)	Adverse Events	11
+syncope	HP:0001279	0-7

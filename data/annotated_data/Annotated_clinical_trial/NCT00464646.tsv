@@ -1,0 +1,273 @@
+INTERVENTION 1:	Intervention	0
+Cohort A	Intervention	1
+Cohort A: Women with unresected locally advanced breast cancer (clinical Stage IIIA, IIIB, and IIIC)	Intervention	2
+breast cancer	DOID:1612	49-62
+INTERVENTION 2:	Intervention	3
+Cohort B	Intervention	4
+Cohort B: Women with resected pN2 or pN3 (pathologic Stage III) breast cancer	Intervention	5
+breast cancer	DOID:1612	64-77
+Inclusion Criteria:	Eligibility	0
+Conditions for eligibility for patients with LABC (Cohort A):	Eligibility	1
+The diagnosis of invasive adenocarcinoma of the breast must have been made by core needle biopsy or limited incisional biopsy.	Eligibility	2
+adenocarcinoma	DOID:299	26-40
+breast	UBERON:0000310	48-54
+Patients must have clinical Stage IIIA, IIIB, or IIIC disease with a mass in the breast or axilla that is greater than or equal to 2.0 cm measured by clinical exam, unless the patient has inflammatory breast carcinoma, in which case measurable disease is not required.	Eligibility	3
+disease	DOID:4,OGMS:0000031	54-61
+disease	DOID:4,OGMS:0000031	244-251
+breast	UBERON:0000310	81-87
+breast	UBERON:0000310	201-207
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	176-183
+inflammatory breast carcinoma	DOID:6263	188-217
+Conditions for eligibility for patients with resected Stage III breast cancer (Cohort B)	Eligibility	4
+breast cancer	DOID:1612	64-77
+Patients must have undergone either a total mastectomy or a lumpectomy.	Eligibility	5
+Patients must have completed one of the following procedures for evaluation of pathologic nodal status.	Eligibility	6
+Sentinel lymphadenectomy followed by removal of additional non-sentinel lymph nodes, or	Eligibility	7
+lymph	UBERON:0002391	9-14
+lymph	UBERON:0002391	72-77
+Axillary lymphadenectomy without SN isolation procedure.	Eligibility	8
+The interval between the last surgery (for breast cancer treatment or staging) and study entry must be no more than 84 days.	Eligibility	9
+surgery	OAE:0000067	30-37
+breast cancer	DOID:1612	43-56
+By pathologic evaluation, ipsilateral nodes must be pN2 or pN3.	Eligibility	10
+For patients who undergo lumpectomy, the margins of the resected specimen must be histologically free of invasive tumor and DCIS as determined by the local pathologist. If pathologic examination demonstrates tumor at the line of resection, additional operative procedures may be performed to obtain clear margins. If tumor is still present at the resected margin after re-excision(s), the patient must undergo total mastectomy to be eligible. (Patients with margins positive for LCIS are eligible without additional resection.)	Eligibility	11
+present	PATO:0000467	332-339
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	389-396
+patient	HADO:0000008,OAE:0001817	444-451
+For patients who undergo mastectomy, margins must be free of gross residual tumor. Patients with microscopic positive margins are eligible.	Eligibility	12
+Conditions for patient eligibility (ALL patients)	Eligibility	13
+patient	HADO:0000008,OAE:0001817	15-22
+patient	HADO:0000008,OAE:0001817	40-47
+The patient must have consented to participate and must have signed and dated an IRB-approved consent form that conforms to federal and institutional guidelines.	Eligibility	14
+patient	HADO:0000008,OAE:0001817	4-11
+Patients must be female.	Eligibility	15
+female	PATO:0000383	17-23
+The patient must be greater than or equal to 18 years old.	Eligibility	16
+patient	HADO:0000008,OAE:0001817	4-11
+The patient's ECOG performance status must be 0 or 1.	Eligibility	17
+patient	HADO:0000008,OAE:0001817	4-11
+The tumor must be invasive adenocarcinoma of the breast on histologic examination.	Eligibility	18
+adenocarcinoma	DOID:299	27-41
+breast	UBERON:0000310	49-55
+The breast cancer must be determined to be HER2-positive prior to study entry. Assays performed using FISH require gene amplification. Assays using IHC require a strongly positive (3+) staining score.	Eligibility	19
+breast cancer	DOID:1612	4-17
+gene	BAO:0000582	115-119
+At the time of study entry, blood counts must meet the following criteria:	Eligibility	20
+time	PATO:0000165	7-11
+blood	UBERON:0000178	28-33
+Absolute neutrophil count (ANC) must be greater than/equal to 1200/mm3.	Eligibility	21
+Platelet count must be greater than/equal to 100,000/mm3.	Eligibility	22
+platelet count	CMO:0000029	0-14
+Hemoglobin must be greater than/equal to 10 g/dL.	Eligibility	23
+hemoglobin	CHEBI:35143	0-10
+The following criteria for evidence of adequate hepatic function must be met:	Eligibility	24
+function	BAO:0003117,BFO:0000034	56-64
+total bilirubin must be less than/equal to ULN for the lab unless the patient has a grade 1 bilirubin elevation (greater than ULN to 1.5 x ULN) due to Gilbert's disease or similar syndrome involving slow conjugation of bilirubin; and	Eligibility	25
+patient	HADO:0000008,OAE:0001817	70-77
+x	LABO:0000148	137-138
+disease	DOID:4,OGMS:0000031	161-168
+syndrome	DOID:225	180-188
+alkaline phosphatase must be less than 2.5 x ULN for the lab; and	Eligibility	26
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	43-44
+AST must be less than/equal to 1.5 x ULN for the lab.	Eligibility	27
+x	LABO:0000148	35-36
+Alkaline phosphatase and AST may not both be greater than the ULN. For example, if the alkaline phosphatase is greater than the ULN but less than/equal to 2.5 x ULN, then the AST must be less than/equal to the ULN. If the AST is greater than the ULN but less than/equal to 1.5 x ULN, then the alkaline phosphatase must be less than/equal to ULN.	Eligibility	28
+phosphatase	GO:0016791,BAO:0000295	9-20
+phosphatase	GO:0016791,BAO:0000295	96-107
+phosphatase	GO:0016791,BAO:0000295	302-313
+x	LABO:0000148	72-73
+x	LABO:0000148	159-160
+x	LABO:0000148	277-278
+Patients with AST or alkaline phosphatase greater than ULN are eligible for inclusion in the study if liver imaging (CT, MRI, or PET scan) does not demonstrate metastatic disease, and has adequate hepatic function.	Eligibility	29
+phosphatase	GO:0016791,BAO:0000295	30-41
+liver	UBERON:0002107	102-107
+ct	BAO:0002125	117-119
+ct	BAO:0002125	208-210
+disease	DOID:4,OGMS:0000031	171-178
+function	BAO:0003117,BFO:0000034	205-213
+Patients with either skeletal pain or alkaline phosphatase that is greater than ULN but less than/equal to 2.5 x ULN are eligible for inclusion in the study if a bone scan or PET scan does not demonstrate metastatic disease. Patients with suspicious findings on bone scan or PET scan are eligible if suspicious findings are confirmed as benign by x-ray, MRI, or biopsy.	Eligibility	30
+pain	HP:0012531	30-34
+phosphatase	GO:0016791,BAO:0000295	47-58
+x	LABO:0000148	111-112
+x	LABO:0000148	347-348
+disease	DOID:4,OGMS:0000031	216-223
+Serum creatinine less than/equal to ULN for the lab.	Eligibility	31
+creatinine	CHEBI:16737	6-16
+Urine protein/creatinine (UPC) ratio must be less than 1.0.	Eligibility	32
+urine	UBERON:0001088	0-5
+upc	CHEBI:165829	26-29
+ratio	UO:0000190	31-36
+All patients must have their LVEF assessed by 2-D echocardiogram within 3 months prior to study entry. (MUGA scan may be substituted for 2-D echocardiogram based on institutional preferences.) The LVEF must be greater than/equal to 55% regardless of the institution's LLN.	Eligibility	33
+Note: Since the pre-entry LVEF serves as the baseline for comparing subsequent LVEF assessments to determine if trastuzumab and bevacizumab therapy can be administered, it is critical that this baseline study be an accurate assessment of the patient's LVEF. If the baseline LVEF is greater than 65%, the investigator is encouraged to have the accuracy of the initial LVEF result confirmed and to consider repeating the study if the accuracy is uncertain.	Eligibility	34
+patient	HADO:0000008,OAE:0001817	242-249
+result	BAO:0000179	372-378
+Exclusion Criteria:	Eligibility	35
+Conditions for patient ineligibility (Cohort A)	Eligibility	36
+patient	HADO:0000008,OAE:0001817	15-22
+FNA alone to diagnose the primary tumor.	Eligibility	37
+Surgical axillary staging procedure prior to study entry. (Procedures that are permitted include: 1) FNA or core biopsy of an axillary node for any patient, and 2) although not recommended, a pre-neoadjuvant therapy SN biopsy for patients with clinically negative axillary nodes.	Eligibility	38
+patient	HADO:0000008,OAE:0001817	148-155
+patient	HADO:0000008,OAE:0001817	230-237
+Condition for patient ineligibility (Cohort B)	Eligibility	39
+condition	PDRO:0000129	0-9
+patient	HADO:0000008,OAE:0001817	14-21
+Breast reconstruction using tissue expanders or implants at the time of mastectomy.	Eligibility	40
+breast	UBERON:0000310	0-6
+tissue	UBERON:0000479	28-34
+time	PATO:0000165	64-68
+Conditions for patient ineligibility (ALL patients)	Eligibility	41
+patient	HADO:0000008,OAE:0001817	15-22
+patient	HADO:0000008,OAE:0001817	42-49
+Definitive clinical or radiologic evidence of metastatic disease.	Eligibility	42
+disease	DOID:4,OGMS:0000031	57-64
+Synchronous bilateral invasive breast cancer.	Eligibility	43
+bilateral	HP:0012832	12-21
+breast cancer	DOID:1612	31-44
+History of ipsilateral or contralateral invasive breast cancer regardless of treatment or ipsilateral DCIS treated with RT.	Eligibility	44
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	49-62
+History of non-breast malignancies within the 5 years prior to study entry. Patients with the following cancers are eligible if diagnosed and treated within the previous 5 years: carcinoma in situ of the cervix, carcinoma in situ of the colon, melanoma in situ, and basal cell and squamous cell carcinoma of the skin.	Eligibility	45
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	179-188
+carcinoma	HP:0030731,DOID:305	212-221
+carcinoma	HP:0030731,DOID:305	295-304
+colon	UBERON:0001155	237-242
+melanoma	HP:0002861,DOID:1909	244-252
+squamous cell carcinoma of the skin	HP:0006739	281-316
+Prior therapy with anthracyclines, taxanes, trastuzumab, or bevacizumab for any malignancy.	Eligibility	46
+Treatment including RT, chemotherapy, and/or targeted therapy, administered for the currently diagnosed breast cancer prior to study entry.	Eligibility	47
+breast cancer	DOID:1612	104-117
+Continued therapy with any hormonal agent such as raloxifene, tamoxifen, or other SERM. (Patients are eligible if these medications are discontinued prior to study entry.)	Eligibility	48
+raloxifene	CHEBI:8772	50-60
+tamoxifen	CHEBI:41774	62-71
+Any sex hormonal therapy, e.g., birth control pills, ovarian hormone replacement therapy, etc. These patients are eligible if this therapy is discontinued prior to study entry. (Women of reproductive potential must agree to use an effective non-hormonal method of contraception during study therapy and for at least 6 months after completion of targeted therapy.)	Eligibility	49
+hormone	CHEBI:24621	61-68
+Cardiac disease that would preclude the use of the drugs included in the FB-5 treatment regimen. This includes but is not confined to:	Eligibility	50
+disease	DOID:4,OGMS:0000031	8-15
+Active cardiac disease: angina pectoris that requires the use of anti-anginal medication; ventricular arrhythmias except for benign premature ventricular contractions controlled by medication; supraventricular and nodal arrhythmias requiring a pacemaker or not controlled with medication; conduction abnormality requiring a pacemaker; and clinically significant valvular disease.	Eligibility	51
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	15-22
+disease	DOID:4,OGMS:0000031	371-378
+angina pectoris	HP:0001681	24-39
+History of cardiac disease: myocardial infarction documented by elevated cardiac enzymes or persistent regional wall abnormalities on assessment of LV function; documented CHF; or documented cardiomyopathy.	Eligibility	52
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	19-26
+myocardial infarction	HP:0001658,DOID:5844	28-49
+function	BAO:0003117,BFO:0000034	151-159
+cardiomyopathy	HP:0001638,DOID:0050700	191-205
+Uncontrolled hypertension defined as systolic BP greater than 150 mmHg or diastolic BP greater han 90 mmHg, with or without anti-hypertensive medication. Patients with initial BP elevations are eligible if initiation or adjustment of BP medication lowers pressure to meet entry criteria.	Eligibility	53
+hypertension	HP:0000822,DOID:10763	13-25
+History of hypertensive crisis or hypertensive encephalopathy.	Eligibility	54
+history	BFO:0000182	0-7
+hypertensive crisis	HP:0100735	11-30
+hypertensive encephalopathy	DOID:9427	34-61
+History of TIA or CVA.	Eligibility	55
+history	BFO:0000182	0-7
+History of other arterial thrombotic event within 12 months before study entry.	Eligibility	56
+history	BFO:0000182	0-7
+Symptomatic peripheral vascular disease.	Eligibility	57
+peripheral vascular disease	DOID:341	12-39
+Any significant bleeding within 6 months before study entry, exclusive of menorrhagia in premenopausal women.	Eligibility	58
+menorrhagia	HP:0000132	74-85
+Serious or non-healing wound, skin ulcers, or bone fracture.	Eligibility	59
+bone fracture	HP:0020110	46-59
+Gastroduodenal ulcer(s) determined by endoscopy to be active.	Eligibility	60
+ulcer	OAE:0004372	15-20
+active	PATO:0002354	54-60
+History of GI perforation, abdominal fistulae, or intra-abdominal abscess.	Eligibility	61
+history	BFO:0000182	0-7
+abscess	HP:0025615	66-73
+Anticipation of need for major surgical procedures (other than the breast surgery required for patients in Cohort A) during study therapy and for at least 3 months following completion of bevacizumab.	Eligibility	62
+breast	UBERON:0000310	67-73
+surgery	OAE:0000067	74-81
+Known bleeding diathesis, coagulopathy, or requirement for therapeutic doses of coumadin.	Eligibility	63
+Other nonmalignant systemic disease that would preclude the patient from receiving study treatment or would prevent required follow-up.	Eligibility	64
+disease	DOID:4,OGMS:0000031	28-35
+patient	HADO:0000008,OAE:0001817	60-67
+Sensory/motor neuropathy greater than/equal to grade 2, as defined by the NCI's CTCAE v3.0.	Eligibility	65
+neuropathy	DOID:870	14-24
+Conditions that would prohibit administration of corticosteroids.	Eligibility	66
+History of hypersensitivity reaction to drugs formulated with polysorbate 80.	Eligibility	67
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+polysorbate 80	CHEBI:53426	62-76
+Pregnancy or lactation at the time of study entry. (Note: Pregnancy testing should be performed according to institutional standards for women of child-bearing potential.)	Eligibility	68
+lactation	GO:0007595	13-22
+time	PATO:0000165	30-34
+Use of any investigational agent within 4 weeks prior to enrollment in the study.	Eligibility	69
+Psychiatric or addictive disorders or other conditions that, in the opinion of the investigator, would preclude the patient from meeting the study requirements.	Eligibility	70
+patient	HADO:0000008,OAE:0001817	116-123
+Outcome Measurement:	Results	0
+Number of Patients With Pathological Complete Response (pCR) in the Breast and Nodes for Patients With HER2-positive LABC Following Neoadjuvant Treatment (Cohort A)	Results	1
+breast	UBERON:0000310	68-74
+The determination of pCR is performed by the local pathologist following examination of tissue (breast and nodes)removed at the time of surgery. The outcome measure is the number of participants with no histologic evidence of invasive tumor cells in the surgical breast specimen, axillary nodes, or SNs identified after neoadjuvant chemotherapy.	Results	2
+tissue	UBERON:0000479	88-94
+breast	UBERON:0000310	96-102
+breast	UBERON:0000310	263-269
+time	PATO:0000165	128-132
+surgery	OAE:0000067	136-143
+Time frame: Assessed at time of surgery on average at 8 months	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	24-28
+surgery	OAE:0000067	32-39
+Results 1:	Results	4
+Arm/Group Title: Cohort A	Results	5
+Arm/Group Description:  Cohort A: Women with unresected locally advanced breast cancer (clinical Stage IIIA, IIIB, and IIIC)	Results	6
+breast cancer	DOID:1612	73-86
+Overall Number of Participants Analyzed: 73	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  34	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort B	Results	11
+Arm/Group Description:  Cohort B: Women with resected pN2 or pN3 (pathologic Stage III) breast cancer	Results	12
+breast cancer	DOID:1612	88-101
+Overall Number of Participants Analyzed: 0	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 16/76 (21.05%)	Adverse Events	1
+Hemoglobin  0/76 (0.00%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Left ventricular systolic function  1/76 (1.32%)	Adverse Events	3
+left	HP:0012835	0-4
+function	BAO:0003117,BFO:0000034	26-34
+Hypertension  0/76 (0.00%)	Adverse Events	4
+hypertension	HP:0000822,DOID:10763	0-12
+Dehydration  1/76 (1.32%)	Adverse Events	5
+dehydration	HP:0001944	0-11
+Diarrhea  1/76 (1.32%)	Adverse Events	6
+diarrhea	HP:0002014,DOID:13250	0-8
+Hemorrhage, GI - stomach  0/76 (0.00%)	Adverse Events	7
+stomach	UBERON:0000945	17-24
+Perforation, GI - colon  1/76 (1.32%)	Adverse Events	8
+colon	UBERON:0001155	18-23
+Ulcer, GI - stomach  0/76 (0.00%)	Adverse Events	9
+ulcer	OAE:0004372	0-5
+stomach	UBERON:0000945	12-19
+Pain- head/headache  3/76 (3.95%)	Adverse Events	10
+Pain- back  2/76 (2.63%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 5/29 (17.24%)	Adverse Events	13
+Hemoglobin  1/29 (3.45%)	Adverse Events	14
+hemoglobin	CHEBI:35143	0-10
+Left ventricular systolic function  0/29 (0.00%)	Adverse Events	15
+left	HP:0012835	0-4
+function	BAO:0003117,BFO:0000034	26-34
+Hypertension  1/29 (3.45%)	Adverse Events	16
+hypertension	HP:0000822,DOID:10763	0-12
+Dehydration  1/29 (3.45%)	Adverse Events	17
+dehydration	HP:0001944	0-11
+Diarrhea  0/29 (0.00%)	Adverse Events	18
+diarrhea	HP:0002014,DOID:13250	0-8
+Hemorrhage, GI - stomach  1/29 (3.45%)	Adverse Events	19
+stomach	UBERON:0000945	17-24
+Perforation, GI - colon  0/29 (0.00%)	Adverse Events	20
+colon	UBERON:0001155	18-23
+Ulcer, GI - stomach  1/29 (3.45%)	Adverse Events	21
+ulcer	OAE:0004372	0-5
+stomach	UBERON:0000945	12-19
+Pain- head/headache  0/29 (0.00%)	Adverse Events	22
+Pain- back  0/29 (0.00%)	Adverse Events	23

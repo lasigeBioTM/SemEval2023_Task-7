@@ -1,0 +1,112 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab, Pertuzumab, and Taxane	Intervention	1
+taxane	CHEBI:36064	29-35
+Participants received first-line therapy with pertuzumab administered via IV infusion on Day 1 of first treatment cycle (1 cycle = 21 days) at a loading dose of 840 mg, followed by 420 mg on Day 1 of each subsequent cycle; trastuzumab administered via SC injection at a dose of 600 mg on Day 2 of first treatment cycle, and on Day 1 of each subsequent cycle if both pertuzumab and trastuzumab were well tolerated in Cycle 1; and taxane treatment (docetaxel, paclitaxel, or nabpaclitaxel), administered at the discretion of the investigator, per routine clinical practices and local prescribing instructions. Participants continued study treatment until PD, unacceptable toxicity, or withdrawal of consent. Participants with unacceptable toxicity or PD were switched to standard treatment of the investigator's choice. All participants were followed-up until withdrawal of consent, loss to follow-up, death, or study closure.	Intervention	2
+day	UO:0000033	89-92
+day	UO:0000033	134-137
+day	UO:0000033	191-194
+day	UO:0000033	288-291
+day	UO:0000033	327-330
+taxane	CHEBI:36064	429-435
+paclitaxel	CHEBI:45863	458-468
+paclitaxel	CHEBI:45863	476-486
+death	OAE:0000632	900-905
+Inclusion Criteria:	Eligibility	0
+HER2-positive disease, with an immunohistochemistry score of 3+ or in situ hybridization (ISH)-positive on primary tumor or metastatic site	Eligibility	1
+disease	DOID:4,OGMS:0000031	14-21
+immunohistochemistry	BAO:0000415	31-51
+site	BFO:0000029	135-139
+Histologically or cytologically confirmed adenocarcinoma of the breast with metastatic disease with at least one measurable lesion and/or non-measurable disease according to RECIST Version 1.1	Eligibility	2
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+disease	DOID:4,OGMS:0000031	87-94
+disease	DOID:4,OGMS:0000031	153-160
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2 for participants who will receive paclitaxel or nab-paclitaxel chemotherapy and ECOG 0-1 for participants who will receive docetaxel chemotherapy	Eligibility	3
+group	CHEBI:24433	29-34
+paclitaxel	CHEBI:45863	99-109
+paclitaxel	CHEBI:45863	117-127
+LVEF of greater than or equal to (>=) 50 percent (%) measured by ECHO or MUGA scan before the first doses of pertuzumab and trastuzumab	Eligibility	4
+percent	UO:0000187	41-48
+Previous use of either adjuvant or neoadjuvant anti-HER2 therapy is allowed	Eligibility	5
+adjuvant	CHEBI:60809	23-31
+adjuvant	CHEBI:60809	38-46
+Hormonal therapy will be allowed as per institutional guidelines. Hormonal therapy cannot be administered in combination with taxane therapy	Eligibility	6
+taxane	CHEBI:36064	126-132
+Exclusion Criteria:	Eligibility	7
+Previous systemic non-hormonal anticancer therapy for treatment of mBC	Eligibility	8
+History of other cancers. Participants with curatively treated carcinoma in situ of the cervix or basal cell carcinoma and participants with other curatively-treated cancers who have been disease-free for at least 5 years are eligible. Participants with previous ductal carcinoma in situ (DCIS) of the breast are also eligible for the study	Eligibility	9
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	63-72
+carcinoma	HP:0030731,DOID:305	109-118
+carcinoma	HP:0030731,DOID:305	270-279
+basal cell carcinoma	HP:0002671,DOID:2513	98-118
+ductal carcinoma in situ	HP:0030075,DOID:0060074	263-287
+breast	UBERON:0000310	302-308
+Pregnant or breastfeeding women. Positive serum pregnancy test in women of childbearing potential, premenopausal or less than 12 months of amenorrhea post-menopause, within 7 days before the first dose of pertuzumab and trastuzumab	Eligibility	10
+amenorrhea	HP:0000141,DOID:13938	139-149
+Current peripheral neuropathy of Grade 3 or greater (National Cancer Institute Common Terminology Criteria for Adverse Events [NCI CTCAE] Version 4.0)	Eligibility	11
+peripheral neuropathy	HP:0009830,DOID:870	8-29
+cancer	DOID:162	62-68
+Radiographic evidence of central nervous system (CNS) metastases as assessed by computed tomography (CT) or magnetic resonance imaging (MRI), unless they have been treated and have been stable for at least 3 months and do not require ongoing corticosteroid treatment	Eligibility	12
+central nervous system	UBERON:0001017	25-47
+tomography	BAO:0002525	89-99
+ct	BAO:0002125	101-103
+stable	HP:0031915	186-192
+corticosteroid	CHEBI:50858	242-256
+Participants with other concurrent serious diseases that may interfere with planned treatment, including severe pulmonary conditions/illness	Eligibility	13
+severe	HP:0012828	105-111
+Inadequate organ function	Eligibility	14
+organ	UBERON:0000062	11-16
+function	BAO:0003117,BFO:0000034	17-25
+Serious cardiac illness or medical conditions that would preclude the use of trastuzumab	Eligibility	15
+Participants with severe dyspnea at rest or requiring supplementary oxygen therapy	Eligibility	16
+severe	HP:0012828	18-24
+dyspnea	HP:0002094	25-32
+Concurrent enrollment in another clinical study using an investigational anti-cancer treatment, within 28 days before the first doses of trastuzumab and pertuzumab	Eligibility	17
+Outcome Measurement:	Results	0
+Percentage of Participants With Adverse Events (AEs) and Serious AEs	Results	1
+An AE was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Percentage of participants with AEs and SAEs was reported. AEs included both SAEs and non-SAEs. The 95% confidence interval (CI) was computed using Clopper-Pearson method.	Results	2
+drug	CHEBI:23888	78-82
+death	OAE:0000632	241-246
+prolonged	HP:0025297	259-268
+Time frame: Baseline up to 28 days after last study drug administration (up to 36 months)	Results	3
+time	PATO:0000165	0-4
+drug administration	OAE:0000011	52-71
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab, Pertuzumab, and Taxane	Results	5
+taxane	CHEBI:36064	46-52
+Arm/Group Description: Participants received first-line therapy with pertuzumab administered via IV infusion on Day 1 of first treatment cycle (1 cycle = 21 days) at a loading dose of 840 mg, followed by 420 mg on Day 1 of each subsequent cycle; trastuzumab administered via SC injection at a dose of 600 mg on Day 2 of first treatment cycle, and on Day 1 of each subsequent cycle if both pertuzumab and trastuzumab were well tolerated in Cycle 1; and taxane treatment (docetaxel, paclitaxel, or nabpaclitaxel), administered at the discretion of the investigator, per routine clinical practices and local prescribing instructions. Participants continued study treatment until PD, unacceptable toxicity, or withdrawal of consent. Participants with unacceptable toxicity or PD were switched to standard treatment of the investigator's choice. All participants were followed-up until withdrawal of consent, loss to follow-up, death, or study closure.	Results	6
+day	UO:0000033	112-115
+day	UO:0000033	157-160
+day	UO:0000033	214-217
+day	UO:0000033	311-314
+day	UO:0000033	350-353
+taxane	CHEBI:36064	452-458
+paclitaxel	CHEBI:45863	481-491
+paclitaxel	CHEBI:45863	499-509
+death	OAE:0000632	923-928
+Overall Number of Participants Analyzed: 50	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  AEs: 100.0        (92.9 to 100.0)	Results	9
+SAEs: 54.0        (39.3 to 68.2)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 27/50 (54.00%)	Adverse Events	1
+Febrile neutropenia * 4/50 (8.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia * 1/50 (2.00%)	Adverse Events	3
+Neutropenia * 1/50 (2.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Cardiac failure * 1/50 (2.00%)	Adverse Events	5
+Diarrhoea * 1/50 (2.00%)	Adverse Events	6
+Gastritis * 1/50 (2.00%)	Adverse Events	7
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea * 1/50 (2.00%)	Adverse Events	8
+nausea	HP:0002018	0-6
+Oesophagitis * 1/50 (2.00%)	Adverse Events	9
+Pyrexia * 7/50 (14.00%)	Adverse Events	10
+Mucosal inflammation * 1/50 (2.00%)	Adverse Events	11
+Drug hypersensitivity * 1/50 (2.00%)	Adverse Events	12
+drug	CHEBI:23888	0-4
+hypersensitivity	GO:0002524,DOID:1205	5-21
+Cellulitis * 2/50 (4.00%)	Adverse Events	13
+cellulitis	HP:0100658,DOID:3488	0-10

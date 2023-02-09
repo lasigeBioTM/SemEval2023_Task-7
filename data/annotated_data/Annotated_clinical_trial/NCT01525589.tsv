@@ -1,0 +1,146 @@
+INTERVENTION 1:	Intervention	0
+Cohort A (BRCA+)	Intervention	1
+Patients with known deleterious BRCA1/2 mutation status at study entry	Intervention	2
+INTERVENTION 2:	Intervention	3
+Cohort A1 (BRCA+/PARPi)	Intervention	4
+Patients with known deleterious BRCA1/2 mutation status and prior treatment with PARPi.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Women  18 and  75 years of age.	Eligibility	1
+age	PATO:0000011	27-30
+Voluntary signed informed consent form (ICF).	Eligibility	2
+Proven diagnosis of metastatic breast cancer (MBC).	Eligibility	3
+breast cancer	DOID:1612	31-44
+At least one, but no more than three, prior chemotherapy regimens for MBC.	Eligibility	4
+Patients with known HER-2 overexpressing MBC must have failed at least one prior trastuzumab-containing regimen for metastatic disease.	Eligibility	5
+disease	DOID:4,OGMS:0000031	127-134
+Disease evaluable for response by specific appropriate criteria.	Eligibility	6
+disease	DOID:4,OGMS:0000031	0-7
+No or minimal disease-related symptoms not affecting patient daily activities.	Eligibility	7
+patient	HADO:0000008,OAE:0001817	53-60
+Adequate major organ function (normal or minimal alteration in liver, kidney, hematological, metabolic and cardiac function)	Eligibility	8
+organ	UBERON:0000062	15-20
+function	BAO:0003117,BFO:0000034	21-29
+function	BAO:0003117,BFO:0000034	115-123
+liver	UBERON:0002107	63-68
+kidney	UBERON:0002113	70-76
+Wash out periods prior to Day 1 of Cycle 1:	Eligibility	9
+day	UO:0000033	26-29
+At least three weeks since the last chemotherapy (six weeks in some particular cases) and At least four weeks since the last radiotherapy (RT) > 30 Gy) and At least one week since the last hormonal therapy and At least two weeks since the last biological/investigational therapy	Eligibility	10
+radiotherapy	OAE:0000235	125-137
+week	UO:0000034	15-19
+week	UO:0000034	54-58
+week	UO:0000034	104-108
+week	UO:0000034	169-173
+week	UO:0000034	223-227
+Minimal or no ongoing toxicity from immediately prior therapy according to specific appropriate criteria. Mild ongoing toxicity is allowed in case of alopecia, skin toxicity, fatigue and/or finger numbness or tumbling.	Eligibility	11
+mild	HP:0012825	106-110
+alopecia	HP:0001596,DOID:987	150-158
+fatigue	HP:0012378	175-182
+Patients of child-bearing potential must agree to use a medically approved contraception method until at least six weeks after the last study drug administration.	Eligibility	12
+drug administration	OAE:0000011	142-161
+Known deleterious germline mutation of BRCA1/2 (Patients in Cohorts A and A1)	Eligibility	13
+Prior treatment with PARP inhibitors (Patients in Cohort A1)	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Prior treatment with PM01183 or trabectedin.	Eligibility	16
+trabectedin	CHEBI:84050	32-43
+Extensive prior RT.	Eligibility	17
+Prior or concurrent malignant disease unless cured for more than five years.	Eligibility	18
+disease	DOID:4,OGMS:0000031	30-37
+Exceptions are breast cancer in the other breast.	Eligibility	19
+breast cancer	DOID:1612	15-28
+breast	UBERON:0000310	15-21
+breast	UBERON:0000310	42-48
+Uncommon or rare subtypes of breast cancer.	Eligibility	20
+breast cancer	DOID:1612	29-42
+Symptomatic or progressive brain metastases.	Eligibility	21
+progressive	HP:0003676	15-26
+brain	UBERON:0000955	27-32
+Bone-limited and exclusively metastases.	Eligibility	22
+Relevant diseases or clinical situations which may increase patient's risk:	Eligibility	23
+increase	BAO:0001251	51-59
+patient	HADO:0000008,OAE:0001817	60-67
+History of cardiac disease. Moderate breathing difficulties or oxygen requirement Active uncontrolled infection. Unhealed wound or presence of any external drainage. Chronically active viral hepatitis. Immunocompromised patients, including those known to be infected by human immunodeficiency virus (HIV).	Eligibility	24
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	19-26
+moderate	HP:0012826	28-36
+active	PATO:0002354	82-88
+active	PATO:0002354	178-184
+viral hepatitis	HP:0006562,DOID:1884	185-200
+immunodeficiency	HP:0002721	276-292
+virus	BAO:0000232	293-298
+Known muscular disease or functional alteration	Eligibility	25
+muscular disease	DOID:0080000	6-22
+functional	BAO:0000010	26-36
+Pregnant or breastfeeding women.	Eligibility	26
+Impending need for immediate RT for symptomatic relief.	Eligibility	27
+Limitation of the patient's ability to comply with the treatment or to follow-up the protocol.	Eligibility	28
+patient	HADO:0000008,OAE:0001817	18-25
+Outcome Measurement:	Results	0
+Overall Response Rate (ORR)	Results	1
+rate	BAO:0080019	17-21
+The overall response rate is defined as the percentage of patients with a confirmed response, either complete response (CR) or partial response (PR), according to Response Evaluation Criteria In Solid Tumors Criteria (RECIST) v1.1. Per RECIST v1.1 for target lesions and assessed by MRI: CR, Disappearance of all target lesions; PR >=30% decrease in the sum of the longest diameter of target lesions.	Results	2
+rate	BAO:0080019	21-25
+target	BAO:0003064	252-258
+target	BAO:0003064	313-319
+target	BAO:0003064	385-391
+diameter	PATO:0001334	373-381
+Time frame: Minimum 10-12 months if negative results and up to 26-28 months if study is to be complete the targeted enrollment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cohort A (BRCA+)	Results	5
+Arm/Group Description: Patients with known deleterious BRCA1/2 mutation status at study entry	Results	6
+Overall Number of Participants Analyzed: 54	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage  40.7        (27.6 to 55.0)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort A1 (BRCA+/PARPi)	Results	11
+Arm/Group Description: Patients with known deleterious BRCA1/2 mutation status and prior treatment with PARPi.	Results	12
+Overall Number of Participants Analyzed: 20	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage  5.0        (0.1 to 24.9)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 14/54 (25.93%)	Adverse Events	1
+anaemia 2/54 (3.70%)	Adverse Events	2
+Febrile neutropenia 7/54 (12.96%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 2/54 (3.70%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 6/54 (11.11%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 1/54 (1.85%)	Adverse Events	6
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 1/54 (1.85%)	Adverse Events	7
+Pericardial effusion 1/54 (1.85%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Nausea 2/54 (3.70%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Vomiting 3/54 (5.56%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Catheter site erythema 1/54 (1.85%)	Adverse Events	11
+site	BFO:0000029	9-13
+erythema	HP:0010783	14-22
+Chest discomfort 1/54 (1.85%)	Adverse Events	12
+chest	UBERON:0001443	0-5
+Adverse Events 2:	Adverse Events	13
+Total: 5/20 (25.00%)	Adverse Events	14
+anaemia 0/20 (0.00%)	Adverse Events	15
+Febrile neutropenia 2/20 (10.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 0/20 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/20 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 0/20 (0.00%)	Adverse Events	19
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 0/20 (0.00%)	Adverse Events	20
+Pericardial effusion 0/20 (0.00%)	Adverse Events	21
+pericardial effusion	HP:0001698,DOID:118	0-20
+Nausea 0/20 (0.00%)	Adverse Events	22
+nausea	HP:0002018	0-6
+Vomiting 0/20 (0.00%)	Adverse Events	23
+vomiting	HP:0002013	0-8
+Catheter site erythema 0/20 (0.00%)	Adverse Events	24
+site	BFO:0000029	9-13
+erythema	HP:0010783	14-22
+Chest discomfort 0/20 (0.00%)	Adverse Events	25
+chest	UBERON:0001443	0-5

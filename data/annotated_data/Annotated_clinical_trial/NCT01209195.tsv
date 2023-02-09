@@ -1,0 +1,112 @@
+INTERVENTION 1:	Intervention	0
+Part 1: Dose Escalation: Cohort 1	Intervention	1
+MM-121 - 20 mg/kg loading dose followed by 12 mg/kg weekly IV Paclitaxel - 80mg/m2 weekly IV	Intervention	2
+paclitaxel	CHEBI:45863	62-72
+INTERVENTION 2:	Intervention	3
+Part 1: Dose Escalation: Cohort 2	Intervention	4
+MM-121 - 40 mg/kg loading dose followed by 20 mg/kg weekly IV	Intervention	5
+Paclitaxel - 80mg/m2 weekly IV	Intervention	6
+paclitaxel	CHEBI:45863	0-10
+Inclusion Criteria:	Eligibility	0
+Cytological or histological confirmation of locally advanced/metastatic or recurrent epithelial ovarian cancer, fallopian tube cancer, primary peritoneal cancer or endometrial cancer; OR, cytological or histological confirmation of locally advanced /metastatic Her2 non-overexpressing breast cancer	Eligibility	1
+recurrent	HP:0031796	75-84
+ovarian cancer	DOID:2394	96-110
+fallopian tube cancer	DOID:1964	112-133
+cancer	DOID:162	104-110
+cancer	DOID:162	127-133
+cancer	DOID:162	154-160
+cancer	DOID:162	176-182
+cancer	DOID:162	292-298
+endometrial cancer	DOID:1380	164-182
+breast cancer	DOID:1612	285-298
+Eighteen years of age or above	Eligibility	2
+age	PATO:0000011	18-21
+Candidates for chemotherapy	Eligibility	3
+Able to understand and sign an informed consent (or have a legal representative who is able to do so)	Eligibility	4
+Measurable disease according to RECIST v1.1	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+ECOG Performance Score (PS) of  2	Eligibility	6
+Willing to abstain from sexual intercourse or to use an effective form of contraception during the study and for 90 days following the last dose of MM-121	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Prior radiation therapy to >25% of bone marrow-bearing areas	Eligibility	9
+Evidence of any other active malignancy	Eligibility	10
+active	PATO:0002354	22-28
+Active infection or fever> 38.5°C during screening visits or on the first scheduled day of dosing	Eligibility	11
+active	PATO:0002354	0-6
+fever	HP:0001945	20-25
+day	UO:0000033	84-87
+Symptomatic CNS disease	Eligibility	12
+disease	DOID:4,OGMS:0000031	16-23
+Known hypersensitivity to any of the components of MM-121 or who have had hypersensitivity reactions to fully human monoclonal antibodies	Eligibility	13
+hypersensitivity	GO:0002524,DOID:1205	6-22
+hypersensitivity	GO:0002524,DOID:1205	74-90
+monoclonal	BAO:0000503	116-126
+Received treatment, within 30 days prior to the first scheduled day of dosing, with any investigational agents that have not received regulatory approval for any indication or disease state	Eligibility	14
+day	UO:0000033	30-33
+day	UO:0000033	64-67
+disease	DOID:4,OGMS:0000031	176-183
+Pregnant or breast feeding	Eligibility	15
+breast	UBERON:0000310	12-18
+Outcome Measurement:	Results	0
+Dose Escalation: To Evaluate the Safety and Tolerability of Escalating Doses of the MM-121 Plus Paclitaxel Combination Via Reporting of Dose-limiting Toxicity (DLT)	Results	1
+paclitaxel	CHEBI:45863	96-106
+To establish the safety of escalating doses of MM-121 in combination with paclitaxel in order to determine the recommended phase 2 dose. Dose-escalation conducted using standard 3+3 model to determine maximum tolerated dose. Reports of Dose-Limiting Toxicities (DLTs) were assessed to determine the MTD.	Results	2
+paclitaxel	CHEBI:45863	74-84
+mtd	BAO:0001248	299-302
+Time frame: From date of first dose to 30 days after termination, the longest 163 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Part 1: Dose Escalation: Cohort 1	Results	5
+Arm/Group Description: MM-121 - 20 mg/kg loading dose followed by 12 mg/kg weekly IV Paclitaxel - 80mg/m2 weekly IV	Results	6
+paclitaxel	CHEBI:45863	85-95
+Overall Number of Participants Analyzed: 7	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants reporting DLTs  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Part 1: Dose Escalation: Cohort 2	Results	11
+Arm/Group Description: MM-121 - 40 mg/kg loading dose followed by 20 mg/kg weekly IV	Results	12
+Paclitaxel - 80mg/m2 weekly IV	Results	13
+paclitaxel	CHEBI:45863	0-10
+Overall Number of Participants Analyzed: 3	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: participants reporting DLTs  1	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 4/10 (40.00%)	Adverse Events	1
+SMALL INTESTINAL OBSTRUCTION *  [1]3/10 (30.00%)	Adverse Events	2
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+INTESTINAL OBSTRUCTION *  [1]1/10 (10.00%)	Adverse Events	3
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+INTESTINAL PERFORATION *  [1]1/10 (10.00%)	Adverse Events	4
+intestinal perforation	HP:0031368,DOID:2074	0-22
+ABDOMINAL PAIN *  [1]0/10 (0.00%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+DIARRHOEA *  [1]0/10 (0.00%)	Adverse Events	6
+GASTRITIS *  [1]0/10 (0.00%)	Adverse Events	7
+gastritis	HP:0005263,DOID:4029	0-9
+PEPTIC ULCER *  [1]0/10 (0.00%)	Adverse Events	8
+peptic ulcer	HP:0004398	0-12
+DEATH *  [1]1/10 (10.00%)	Adverse Events	9
+death	OAE:0000632	0-5
+DISEASE PROGRESSION *  [1]0/10 (0.00%)	Adverse Events	10
+disease	DOID:4,OGMS:0000031	0-7
+Adverse Events 2:	Adverse Events	11
+Total: 12/31 (38.71%)	Adverse Events	12
+SMALL INTESTINAL OBSTRUCTION *  [1]0/31 (0.00%)	Adverse Events	13
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+INTESTINAL OBSTRUCTION *  [1]0/31 (0.00%)	Adverse Events	14
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+INTESTINAL PERFORATION *  [1]0/31 (0.00%)	Adverse Events	15
+intestinal perforation	HP:0031368,DOID:2074	0-22
+ABDOMINAL PAIN *  [1]1/31 (3.23%)	Adverse Events	16
+abdominal pain	HP:0002027	0-14
+DIARRHOEA *  [1]1/31 (3.23%)	Adverse Events	17
+GASTRITIS *  [1]1/31 (3.23%)	Adverse Events	18
+gastritis	HP:0005263,DOID:4029	0-9
+PEPTIC ULCER *  [1]1/31 (3.23%)	Adverse Events	19
+peptic ulcer	HP:0004398	0-12
+DEATH *  [1]0/31 (0.00%)	Adverse Events	20
+death	OAE:0000632	0-5
+DISEASE PROGRESSION *  [1]3/31 (9.68%)	Adverse Events	21
+disease	DOID:4,OGMS:0000031	0-7
+FATIGUE *  [1]2/31 (6.45%)	Adverse Events	22
+fatigue	HP:0012378	0-7

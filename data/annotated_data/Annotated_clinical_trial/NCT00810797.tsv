@@ -1,0 +1,151 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Exemestane)	Intervention	1
+exemestane	CHEBI:4953	11-21
+Patients receive 25mg oral exemestane once daily on days 1-14. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+exemestane	CHEBI:4953	27-37
+disease	DOID:4,OGMS:0000031	110-117
+exemestane: Given orally	Intervention	3
+exemestane	CHEBI:4953	0-10
+laboratory biomarker analysis: One year after completion of study treatment	Intervention	4
+biomarker	CHEBI:59163	11-20
+year	UO:0000036	35-39
+quality-of-life assessment: One year after completion of study treatment	Intervention	5
+year	UO:0000036	32-36
+immunohistochemistry staining method: Correlative studies	Intervention	6
+immunohistochemistry	BAO:0000415	0-20
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed metastatic carcinoma of the breast	Eligibility	1
+carcinoma	HP:0030731,DOID:305	53-62
+breast	UBERON:0000310	70-76
+Hormone receptor (estrogen receptor [ER] and/or progesterone receptor [PR]) positive disease (defined as: ER and/or PR positivity as >= 5% staining), as confirmed by immunohistochemistry (IHC) based on primary breast tissue or metastatic tissue	Eligibility	2
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+receptor	BAO:0000281	27-35
+receptor	BAO:0000281	61-69
+estrogen	CHEBI:50114,BAO:0000760	18-26
+progesterone	CHEBI:17026	48-60
+disease	DOID:4,OGMS:0000031	85-92
+immunohistochemistry	BAO:0000415	166-186
+breast	UBERON:0000310	210-216
+tissue	UBERON:0000479	217-223
+tissue	UBERON:0000479	238-244
+Postmenopausal, as defined by any of the following:	Eligibility	3
+Natural menopause, with at least 1 year since last menses	Eligibility	4
+menopause	GO:0042697	8-17
+year	UO:0000036	35-39
+Chemotherapy-induced menopause with at least 1 year from last menses and serum luteinizing hormone (LH)/follicle-stimulating hormone (FSH) and estradiol levels within the postmenopausal range	Eligibility	5
+menopause	GO:0042697	21-30
+year	UO:0000036	47-51
+luteinizing hormone	CHEBI:81568	79-98
+hormone	CHEBI:24621	91-98
+hormone	CHEBI:24621	125-132
+estradiol	CHEBI:23965	143-152
+range	LABO:0000114	186-191
+History of surgical or radiation-induced ovarian ablation	Eligibility	6
+history	BFO:0000182	0-7
+For women =< 56 years old and with a history of hysterectomy but at least one ovary intact, serum LH/FSH and estradiol levels must be within the postmenopausal range	Eligibility	7
+history	BFO:0000182	37-44
+ovary	UBERON:0000992	78-83
+estradiol	CHEBI:23965	109-118
+range	LABO:0000114	160-165
+Postmenopausal women with disease recurrence while receiving either tamoxifen or a non-steroidal aromatase inhibitor (AI) as adjuvant therapy (as long as adjuvant hormonal therapy was taken for 6 months before disease progression) or with disease recurrence following the discontinuation/completion of adjuvant hormonal therapy	Eligibility	8
+disease	DOID:4,OGMS:0000031	26-33
+disease	DOID:4,OGMS:0000031	210-217
+disease	DOID:4,OGMS:0000031	239-246
+tamoxifen	CHEBI:41774	68-77
+inhibitor	CHEBI:35222	107-116
+adjuvant	CHEBI:60809	125-133
+adjuvant	CHEBI:60809	154-162
+adjuvant	CHEBI:60809	302-310
+Postmenopausal women with disease progression following either 0, 1 or 2 prior hormonal therapies for metastatic breast cancer, as long as the subject has had no prior exposure to exemestane (EXE)	Eligibility	9
+disease	DOID:4,OGMS:0000031	26-33
+breast cancer	DOID:1612	113-126
+exemestane	CHEBI:4953	180-190
+Measurable or non-measurable (but evaluable) disease, as defined by RECIST criteria	Eligibility	10
+disease	DOID:4,OGMS:0000031	45-52
+Eastern Cooperative Oncology Group (ECOG) performance status of 0-1	Eligibility	11
+group	CHEBI:24433	29-34
+Neutrophil count >= 1.5 X 10^9 cells/L	Eligibility	12
+x	LABO:0000148	24-25
+Platelet count >= 100 X 10^9 cells/L	Eligibility	13
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	22-23
+Serum creatinine =< 1.5 times upper limit of normal (ULN)	Eligibility	14
+creatinine	CHEBI:16737	6-16
+Total serum bilirubin =< 1.5 times ULN	Eligibility	15
+Aspartate aminotransferase (AST)/alanine aminotransferase (ALT) levels =< 2.5 x ULN in patients without liver metastases or =< 5 times ULN in patients with liver metastases	Eligibility	16
+aspartate	CHEBI:29995	0-9
+x	LABO:0000148	78-79
+liver	UBERON:0002107	104-109
+liver	UBERON:0002107	156-161
+Alkaline phosphatase =< 2.5 times the ULN for patients without bone or liver metastases	Eligibility	17
+phosphatase	GO:0016791,BAO:0000295	9-20
+liver	UBERON:0002107	71-76
+Subjects must have an estimated life expectancy of greater than 6 months	Eligibility	18
+Exclusion Criteria:	Eligibility	19
+Prior exposure to EXE, whether in the adjuvant or metastatic setting	Eligibility	20
+adjuvant	CHEBI:60809	38-46
+Prior history of any other cancer with the exception of non-melanoma skin cancer and treated in situ carcinoma of the cervix	Eligibility	21
+history	BFO:0000182	6-13
+cancer	DOID:162	27-33
+cancer	DOID:162	74-80
+skin cancer	DOID:4159	69-80
+in situ carcinoma	DOID:8719	93-110
+Active or symptomatic central nervous system (CNS) metastasis (stable or treated brain metastasis allowed but patients must be off decadron, if given for CNS disease)	Eligibility	22
+active	PATO:0002354	0-6
+central nervous system	UBERON:0001017	22-44
+stable	HP:0031915	63-69
+brain	UBERON:0000955	81-86
+disease	DOID:4,OGMS:0000031	158-165
+Hormone-receptor negative or unknown breast cancer	Eligibility	23
+breast cancer	DOID:1612	37-50
+More than two prior chemotherapy regimen for treatment of metastatic disease (any prior chemotherapy given in the adjuvant setting is permitted)	Eligibility	24
+disease	DOID:4,OGMS:0000031	69-76
+adjuvant	CHEBI:60809	114-122
+Administration of any other anti-cancer therapy within 2 weeks of initiating study treatment; use of bisphosphonates, however, are permitted for patients with known bone metastases	Eligibility	25
+Treatment with any other concurrent investigational agent or anti-tumor drug (chemotherapy, antibody therapy or other biologic agents), will not be permitted	Eligibility	26
+drug	CHEBI:23888	72-76
+antibody	GO:0042571,BAO:0000502	92-100
+Subjects who have had no prior exposure to endocrine therapy	Eligibility	27
+Any uncontrolled medical co-morbidity or psychiatric disorder which interferes with the ability to provide informed consent or comply with study procedures	Eligibility	28
+disorder	OGMS:0000045	53-61
+Outcome Measurement:	Results	0
+Progression-free Survival	Results	1
+Estimated using the product-limit method of Kaplan and Meier. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.	Results	2
+increase	BAO:0001251	169-177
+increase	BAO:0001251	248-256
+diameter	PATO:0001334	204-212
+target	BAO:0003064	216-222
+target	BAO:0003064	266-272
+Time frame: Until disease progression of death from any cause, up to 3 years	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	18-25
+death	OAE:0000632	41-46
+Results 1:	Results	4
+Arm/Group Title: Treatment (Exemestane)	Results	5
+exemestane	CHEBI:4953	28-38
+Arm/Group Description: Patients receive 25mg oral exemestane once daily on days 1-14. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Results	6
+exemestane	CHEBI:4953	50-60
+disease	DOID:4,OGMS:0000031	133-140
+exemestane: Given orally	Results	7
+exemestane	CHEBI:4953	0-10
+laboratory biomarker analysis: One year after completion of study treatment	Results	8
+biomarker	CHEBI:59163	11-20
+year	UO:0000036	35-39
+quality-of-life assessment: One year after completion of study treatment	Results	9
+year	UO:0000036	32-36
+immunohistochemistry staining method: Correlative studies	Results	10
+immunohistochemistry	BAO:0000415	0-20
+Overall Number of Participants Analyzed: 36	Results	11
+Median (95% Confidence Interval)	Results	12
+median	BAO:0002174	0-6
+Unit of Measure: months  4.3        (2.0 to 6.5)	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 4/36 (11.11%)	Adverse Events	1
+Rectal hemorrhage * 1/36 (2.78%)	Adverse Events	2
+Disease progression * 1/36 (2.78%)	Adverse Events	3
+disease	DOID:4,OGMS:0000031	0-7
+Device related infection * 1/36 (2.78%)	Adverse Events	4
+Skin infection * 1/36 (2.78%)	Adverse Events	5
+Hypotension * 1/36 (2.78%)	Adverse Events	6
+hypotension	HP:0002615	0-11

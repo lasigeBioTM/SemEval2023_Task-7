@@ -1,0 +1,67 @@
+INTERVENTION 1:	Intervention	0
+FFDM Plus DBT	Intervention	1
+Breast Images with FFDM and DBT FFDM Plus DBT: FujiFilm Aspire Cristalle System.	Intervention	2
+breast	UBERON:0000310	0-6
+This endpoint will be evaluated qualitatively. The Pass Criteria require adequate performance in non-cancer cases (recall rate) and in cancer cases (detection rate).	Intervention	3
+rate	BAO:0080019	122-126
+rate	BAO:0080019	159-163
+cancer	DOID:162	101-107
+cancer	DOID:162	135-141
+INTERVENTION 2:	Intervention	4
+Full-Field Digital Mammography (FFDM)	Intervention	5
+Breast Images with FFDM alone FFDM: FujiFilm Aspire Cristalle System.	Intervention	6
+breast	UBERON:0000310	0-6
+This endpoint will be evaluated qualitatively. The Pass Criteria require adequate performance in non-cancer cases (recall rate) and in cancer cases (detection rate).	Intervention	7
+rate	BAO:0080019	122-126
+rate	BAO:0080019	159-163
+cancer	DOID:162	101-107
+cancer	DOID:162	135-141
+Inclusion Criteria:	Eligibility	0
+Female subjects participating in FMSU004A protocol with known clinical status	Eligibility	1
+female	PATO:0000383	0-6
+Exclusion Criteria:	Eligibility	2
+Subjects with unknown clinical status not participating in FMSU004A protocol.	Eligibility	3
+Outcome Measurement:	Results	0
+Assessing Adequacy of Training - Cancer Detection Threshold & Recall Rate	Results	1
+cancer	DOID:162	33-39
+rate	BAO:0080019	69-73
+This endpoint was evaluated qualitatively. Reported the number of readers meeting the Pass Criteria on the final FFDM plus DBT assessment case set, which requires adequate performance in cancer cases (detection rate) as well as non-cancer cases (recall rate). Per-subject BI-RADS, POM and recall scores were derived. Credit was only given for identifying a subject with cancer if the reader marked findings in at least one location with cancer. Findings that did not match the location of a malignant lesion were ignored for cancer cases in the per-subject analyses.	Results	2
+cancer	DOID:162	187-193
+cancer	DOID:162	232-238
+cancer	DOID:162	370-376
+cancer	DOID:162	437-443
+cancer	DOID:162	525-531
+rate	BAO:0080019	211-215
+rate	BAO:0080019	253-257
+Time frame: 4 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: FFDM Plus DBT	Results	5
+Arm/Group Description: Breast Images with FFDM and DBT FFDM Plus DBT: FujiFilm Aspire Cristalle System.	Results	6
+breast	UBERON:0000310	23-29
+This endpoint will be evaluated qualitatively. The Pass Criteria require adequate performance in non-cancer cases (recall rate) and in cancer cases (detection rate).	Results	7
+rate	BAO:0080019	122-126
+rate	BAO:0080019	159-163
+cancer	DOID:162	101-107
+cancer	DOID:162	135-141
+Overall Number of Participants Analyzed: 100	Results	8
+Mean (95% Confidence Interval)	Results	9
+mean	BAO:0002173	0-4
+Unit of Measure: probability  .805        (0.701 to 0.910)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Full-Field Digital Mammography (FFDM)	Results	12
+Arm/Group Description: Breast Images with FFDM alone FFDM: FujiFilm Aspire Cristalle System.	Results	13
+breast	UBERON:0000310	23-29
+This endpoint will be evaluated qualitatively. The Pass Criteria require adequate performance in non-cancer cases (recall rate) and in cancer cases (detection rate).	Results	14
+rate	BAO:0080019	122-126
+rate	BAO:0080019	159-163
+cancer	DOID:162	101-107
+cancer	DOID:162	135-141
+Overall Number of Participants Analyzed: 100	Results	15
+Mean (95% Confidence Interval)	Results	16
+mean	BAO:0002173	0-4
+Unit of Measure: probability  0.756        (0.646 to 0.867)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/100 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/100 (0.00%)	Adverse Events	3

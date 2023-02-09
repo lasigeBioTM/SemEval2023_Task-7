@@ -1,0 +1,228 @@
+INTERVENTION 1:	Intervention	0
+Phase II- Sunitinib/Paclitaxel/Carboplatin	Intervention	1
+Systemic Therapy based on maximum tolerated dose (MTD) of the Phase I portion	Intervention	2
+mtd	BAO:0001248	50-53
+Inclusion Criteria:	Eligibility	0
+Female patients, age 18 years	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	17-20
+Histologically confirmed invasive ER-, PR-, and HER2-negative (triple-negative) adenocarcinoma of the breast	Eligibility	2
+adenocarcinoma	DOID:299	80-94
+breast	UBERON:0000310	102-108
+Triple-negative tumors are defined as:	Eligibility	3
+For HER2-negative:	Eligibility	4
+Fluorescence in situ hybridization (FISH)-negative (defined by ratio <2.2) OR	Eligibility	5
+ratio	UO:0000190	63-68
+Immunohistochemical (IHC) 0, IHC 1+, OR	Eligibility	6
+IHC 2+ or IHC 3+ and FISH-negative (defined by ratio <2.2)	Eligibility	7
+ratio	UO:0000190	47-52
+For ER- and PR-negative: <10% tumor staining by immunohistochemistry (IHC)	Eligibility	8
+immunohistochemistry	BAO:0000415	48-68
+Primary palpable disease confined to a breast and axilla on physical examination. For patients without clinically suspicious axillary adenopathy, the primary tumor must be larger than 2 cm in diameter by physical exam or imaging studies (clinical T2-T3, N0-N1, M0). For patients with clinically suspicious axillary adenopathy, the primary breast tumor can be any size (clinical T1-3, N1-2, M0). T1N0M0 lesions are excluded. Patients with metastatic disease are excluded.	Eligibility	9
+disease	DOID:4,OGMS:0000031	17-24
+disease	DOID:4,OGMS:0000031	449-456
+breast	UBERON:0000310	39-45
+breast	UBERON:0000310	339-345
+physical examination	OAE:0004232	60-80
+diameter	PATO:0001334	192-200
+size	PATO:0000117	363-367
+excluded	HP:0040285	414-422
+excluded	HP:0040285	461-469
+Patients without clearly defined palpable breast mass or axillary lymph nodes but radiographically measurable tumor masses are eligible. Accepted procedures for measuring breast disease are mammography, MRI, and breast ultrasound. Patients with lesions measurable only by imaging will require repeat imaging after 3 cycles and prior to surgery	Eligibility	10
+breast mass	HP:0032408	42-53
+lymph	UBERON:0002391	66-71
+breast disease	DOID:3463	171-185
+breast	UBERON:0000310	42-48
+breast	UBERON:0000310	171-177
+breast	UBERON:0000310	212-218
+surgery	OAE:0000067	336-343
+Eastern Cooperative Oncology Group performance status (ECOG PS) 0-2	Eligibility	11
+group	CHEBI:24433	29-34
+Neuropathy grade <1 by the Common Terminology Criteria for Adverse Events version 3.0 (CTCAE v 3.0)	Eligibility	12
+neuropathy	DOID:870	0-10
+Resolution of all acute effects of surgical procedures to grade 1.	Eligibility	13
+acute	HP:0011009,PATO:0000389	18-23
+For patients who had, or will have sentinel lymph node and/or axillary dissection prior to initiation of study treatment, completion at least 4 weeks prior to starting study treatment and well-healed wound is required	Eligibility	14
+lymph	UBERON:0002391	44-49
+Adequate hematologic function with:	Eligibility	15
+function	BAO:0003117,BFO:0000034	21-29
+Absolute neutrophil count (ANC) >1500/μL	Eligibility	16
+Platelets 100,000/μL	Eligibility	17
+Hemoglobin 10 g/dL	Eligibility	18
+hemoglobin	CHEBI:35143	0-10
+Adequate hepatic and renal function with:	Eligibility	19
+function	BAO:0003117,BFO:0000034	27-35
+Serum bilirubin  the institutional upper limit of normal (ULN)	Eligibility	20
+Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) 2.5 x institutional ULN	Eligibility	21
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+x	LABO:0000148	72-73
+Alkaline phosphatase 2.5 x institutional ULN	Eligibility	22
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	25-26
+Serum creatinine 1.5 x ULN or calculated creatinine clearance 40 mL/min	Eligibility	23
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	41-51
+x	LABO:0000148	21-22
+creatinine clearance	CMO:0000765	41-61
+Left ventricular ejection fraction (LVEF) 50% by multigated acquisition (MUGA) or echocardiogram (ECHO)	Eligibility	24
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Bilateral, synchronous breast cancer is allowed if one primary tumor meets the inclusion criteria	Eligibility	25
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	23-36
+Knowledge of the investigational nature of the study and ability to provide consent for study participation	Eligibility	26
+Ability and willingness to comply with study visits, treatment, testing, and other study procedures	Eligibility	27
+Exclusion Criteria:	Eligibility	28
+Previous treatment for this breast cancer	Eligibility	29
+breast cancer	DOID:1612	28-41
+Previous treatment with paclitaxel or carboplatin	Eligibility	30
+paclitaxel	CHEBI:45863	24-34
+carboplatin	CHEBI:31355	38-49
+Previous treatment with sunitinib or other angiogenic inhibitors (including, but not limited to bevacizumab, sorafenib, thalidomide)	Eligibility	31
+sunitinib	CHEBI:38940	24-33
+sorafenib	CHEBI:50924	109-118
+thalidomide	CHEBI:9513	120-131
+Any of the following within the 12 months prior to starting study treatment: myocardial infarction, severe/unstable angina, coronary/peripheral artery bypass graft, congestive heart failure, cerebrovascular accident including transient ischemic attack, or pulmonary embolus	Eligibility	32
+myocardial infarction	HP:0001658,DOID:5844	77-98
+artery	UBERON:0001637	144-150
+congestive heart failure	HP:0001635,DOID:6000	165-189
+transient ischemic attack	HP:0002326,DOID:224	226-251
+Uncontrolled hypertension (blood pressure >150/100 mmHg despite optimal medical therapy)	Eligibility	33
+hypertension	HP:0000822,DOID:10763	13-25
+blood	UBERON:0000178	27-32
+Ongoing cardiac dysrhythmias grade 2, atrial fibrillation of any grade, or prolongation of the QTc interval to >470 msec	Eligibility	34
+atrial fibrillation	HP:0005110,DOID:0060224	38-57
+qtc interval	CMO:0000269	95-107
+Major surgery, significant traumatic injury, or radiation therapy within 4 weeks of starting study treatment. An interval of at least 1week is required following minor surgical procedures, with the exception of placement of a vascular access device	Eligibility	35
+surgery	OAE:0000067	6-13
+Grade 3 hemorrhage within 4 weeks of starting study treatment	Eligibility	36
+Pre-existing thyroid abnormality with thyroid function that cannot be maintained in the normal range with medication	Eligibility	37
+function	BAO:0003117,BFO:0000034	46-54
+range	LABO:0000114	95-100
+Known human immunodeficiency virus (HIV) infection or other serious infection	Eligibility	38
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+Concomitant treatment with drugs having proarrhythmic potential including terfenadine, quinidine, procainamide, disopyramide, sotalol, probucol, bepridil, haloperidol, risperidone, indapamide, and flecainide	Eligibility	39
+terfenadine	CHEBI:9453	74-85
+quinidine	CHEBI:28593,BAO:0000797	87-96
+procainamide	CHEBI:8428	98-110
+disopyramide	CHEBI:4657	112-124
+sotalol	CHEBI:63622	126-133
+probucol	CHEBI:8427	135-143
+bepridil	CHEBI:3061	145-153
+haloperidol	CHEBI:5613	155-166
+risperidone	CHEBI:8871	168-179
+indapamide	CHEBI:5893	181-191
+flecainide	CHEBI:75984	197-207
+Concurrent use of the potent CYP3A4 inhibitors ketoconazole, itraconazole, clarithromycin, atazanavir, nefazodone, saquinavir, telithromycin, ritonavir, amprenavir, indinavir, nelfinavir, delavirdine and voriconazole and CYP3A4 inducers rifampin, rifabutin, rifapentine, phenobarbital, phenytoin, carbamazepine, St. John's Wort, and dexamethasone. Use of dexamethasone for study premedication is allowed. Grapefruit and grapefruit juice is prohibited. Alternative therapies should be used when available. If use of a potent CYP3A4 inhibitor or inducer is necessary, this must be approved by the Study Chair	Eligibility	40
+ketoconazole	CHEBI:47519,BAO:0000796	47-59
+itraconazole	CHEBI:6076	61-73
+clarithromycin	CHEBI:3732	75-89
+atazanavir	CHEBI:37924	91-101
+nefazodone	CHEBI:7494	103-113
+saquinavir	CHEBI:63621	115-125
+telithromycin	CHEBI:29688	127-140
+ritonavir	CHEBI:45409	142-151
+amprenavir	CHEBI:40050	153-163
+indinavir	CHEBI:44032	165-174
+nelfinavir	CHEBI:7496	176-186
+delavirdine	CHEBI:119573	188-199
+voriconazole	CHEBI:10023	204-216
+rifabutin	CHEBI:45367	247-256
+rifapentine	CHEBI:45304	258-269
+phenobarbital	CHEBI:8069	271-284
+phenytoin	CHEBI:8107	286-295
+carbamazepine	CHEBI:3387	297-310
+dexamethasone	CHEBI:41879	333-346
+dexamethasone	CHEBI:41879	355-368
+inhibitor	CHEBI:35222	36-45
+inhibitor	CHEBI:35222	531-540
+inducer	BAO:0003058	228-235
+inducer	BAO:0003058	544-551
+Known or suspected hypersensitivity to drugs containing Cremophor®EL (polyoxyethylated castor oil) such as cyclosporine or teniposide	Eligibility	41
+hypersensitivity	GO:0002524,DOID:1205	19-35
+castor oil	CHEBI:140618	87-97
+teniposide	CHEBI:75988	123-133
+Pregnancy or breast-feeding. Negative serum pregnancy test is required within 7 days prior to first study treatment (Day 1, Cycle ) for all women of childbearing potential. Patients of childbearing potential must agree to use a birth control method that is approved by their study physician while receiving study treatment and for three months after the last dose of study treatment. Patients must agree to not breast-feed while receiving study treatment	Eligibility	42
+day	UO:0000033	80-83
+day	UO:0000033	117-120
+Concurrent treatment with an ovarian hormonal replacement therapy or with hormonal agents such as raloxifene, tamoxifen or other selective estrogen receptor modulator (SERM). Patients must have discontinued use of such agents prior to beginning study treatment	Eligibility	43
+raloxifene	CHEBI:8772	98-108
+tamoxifen	CHEBI:41774	110-119
+estrogen receptor modulator	CHEBI:50739	139-166
+History of malignancy treated with curative intent within the previous 5 years with the exception of skin cancer, cervical carcinoma in situ, or follicular thyroid cancer. Patients with previous invasive cancers (including breast cancer) are eligible if the treatment was completed more than 5 years prior to initiating current study treatment, and there is no evidence of recurrent disease	Eligibility	44
+history	BFO:0000182	0-7
+skin cancer	DOID:4159	101-112
+carcinoma	HP:0030731,DOID:305	123-132
+cancer	DOID:162	106-112
+cancer	DOID:162	164-170
+cancer	DOID:162	204-210
+cancer	DOID:162	230-236
+breast cancer	DOID:1612	223-236
+recurrent	HP:0031796	373-382
+disease	DOID:4,OGMS:0000031	383-390
+Use of any investigational agent within 30 days of administration of the first dose of study drug or concurrent treatment on another clinical study	Eligibility	45
+drug	CHEBI:23888	93-97
+Requirement for radiation therapy concurrent with study anticancer treatment. Patients who require breast or chest wall radiation therapy after surgery are eligible, but will have maintenance sunitinib interrupted while receiving radiation	Eligibility	46
+breast	UBERON:0000310	99-105
+chest	UBERON:0001443	109-114
+surgery	OAE:0000067	144-151
+sunitinib	CHEBI:38940	192-201
+Any other disease(s), psychiatric condition, metabolic dysfunction, or findings from a physical examination or clinical laboratory test result that would cause reasonable suspicion of a disease or condition, that contraindicates the use of study drugs, that may increase the risk associated with study participation, that may affect the interpretation of the results, or that would make the patient inappropriate for this study	Eligibility	47
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	186-193
+condition	PDRO:0000129	34-43
+condition	PDRO:0000129	197-206
+physical examination	OAE:0004232	87-107
+clinical laboratory test	OAE:0000077	111-135
+result	BAO:0000179	136-142
+result	BAO:0000179	359-365
+increase	BAO:0001251	262-270
+patient	HADO:0000008,OAE:0001817	391-398
+Outcome Measurement:	Results	0
+Phase II: The Number of Subjects Exhibiting Pathologic Complete Response to Neoadjuvant Treatment With Sunitinib/Paclitaxel/Carboplatin	Results	1
+Pathologic complete response (PCR) is defined as no residual invasive breast cancer in final breast or axillary lymph node samples.	Results	2
+breast cancer	DOID:1612	70-83
+breast	UBERON:0000310	70-76
+breast	UBERON:0000310	93-99
+lymph	UBERON:0002391	112-117
+Time frame: at weeks 26-30	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase II- Sunitinib/Paclitaxel/Carboplatin	Results	5
+Arm/Group Description: Systemic Therapy based on maximum tolerated dose (MTD) of the Phase I portion	Results	6
+mtd	BAO:0001248	73-76
+Overall Number of Participants Analyzed: 32	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  12	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 3/41 (7.32%)	Adverse Events	1
+ANEMIA 1/41 (2.44%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+FEBRILE NEUTROPENIA 1/41 (2.44%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+LEUKOPENIA 1/41 (2.44%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 2/41 (4.88%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+THROMBOCYTOPENIA 2/41 (4.88%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+DIARRHEA 1/41 (2.44%)	Adverse Events	7
+diarrhea	HP:0002014,DOID:13250	0-8
+DYSPEPSIA 1/41 (2.44%)	Adverse Events	8
+dyspepsia	HP:0410281	0-9
+FLATULENCE 1/41 (2.44%)	Adverse Events	9
+flatulence	HP:0033589	0-10
+MUCOSITIS 1/41 (2.44%)	Adverse Events	10
+mucositis	DOID:0080178	0-9
+NAUSEA 2/41 (4.88%)	Adverse Events	11
+nausea	HP:0002018	0-6
+VOMITING 2/41 (4.88%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+EDEMA 1/41 (2.44%)	Adverse Events	13
+edema	HP:0000969	0-5
+FATIGUE 2/41 (4.88%)	Adverse Events	14
+fatigue	HP:0012378	0-7
+PHARYNGITIS 1/41 (2.44%)	Adverse Events	15
+pharyngitis	HP:0025439,DOID:2275	0-11

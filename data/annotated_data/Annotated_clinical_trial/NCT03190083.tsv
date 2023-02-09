@@ -1,0 +1,58 @@
+INTERVENTION 1:	Intervention	0
+3-dimensional Tomosynthesis Mammogram	Intervention	1
+The patients assigned a Breast imaging-reporting and data system (BIRADS) 5 category at the time of diagnosis and all new diagnosed breast cancer patients, will undergo a separate 2-D plus DBT in addition to the standard 2-D mammogram	Intervention	2
+breast	UBERON:0000310	24-30
+breast	UBERON:0000310	132-138
+time	PATO:0000165	92-96
+breast cancer	DOID:1612	132-145
+2-dimensional mammogram: This is standard of care for breast cancer diagnosis. The new breast cancer patients will be scheduled for the mammogram after diagnosis at the time of surgical appointment. The radiologist reviewing the tomosynthesis images will be separate and blinded from the radiologist who reviewed the initial 2-D mammogram.	Intervention	3
+breast cancer	DOID:1612	54-67
+breast cancer	DOID:1612	87-100
+time	PATO:0000165	169-173
+digital breast tomosynthesis (DBT): The radiation dose from this/these procedure(s) will be no more than 0.4mSv for a bi-lateral breast tomosynthesis. The new breast cancer patients will be scheduled for the mammogram after diagnosis at the time of surgical appointment. The radiologist reviewing the tomosynthesis images will be separate and blinded from the radiologist who reviewed the initial 2-D mammogram.	Intervention	4
+breast	UBERON:0000310	8-14
+breast	UBERON:0000310	129-135
+breast	UBERON:0000310	159-165
+breast cancer	DOID:1612	159-172
+time	PATO:0000165	241-245
+Inclusion Criteria:	Eligibility	0
+New diagnosis of breast cancer	Eligibility	1
+breast cancer	DOID:1612	17-30
+New diagnosis if a previous breast cancer patient with negative surgical margins	Eligibility	2
+breast cancer	DOID:1612	28-41
+patient	HADO:0000008,OAE:0001817	42-49
+Patients willing to sign a written informed consent form	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+High risk benign lesions as the primary pathology diagnosis	Eligibility	5
+Outcome Measurement:	Results	0
+Number of Participants for Which DBT Altered Surgical Plan	Results	1
+Only positive findings, like an additional site of cancer or atypical pathology like Atypical ductal/ lobular hyperplasia, papilloma, DCIS/LCIS (findings requiring surgical intervention), will be taken into account when estimating the frequency of changes to surgical management	Results	2
+site	BFO:0000029	43-47
+cancer	DOID:162	51-57
+papilloma	HP:0012740,DOID:2615	123-132
+frequency	HP:0040279	235-244
+Time frame: At completion of 3-Dimensional mammogram (1 day)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	56-59
+Results 1:	Results	4
+Arm/Group Title: 3-dimensional Tomosynthesis Mammogram	Results	5
+Arm/Group Description: The patients assigned a Breast imaging-reporting and data system (BIRADS) 5 category at the time of diagnosis and all new diagnosed breast cancer patients, will undergo a separate 2-D plus DBT in addition to the standard 2-D mammogram	Results	6
+breast	UBERON:0000310	47-53
+breast	UBERON:0000310	155-161
+time	PATO:0000165	115-119
+breast cancer	DOID:1612	155-168
+2-dimensional mammogram: This is standard of care for breast cancer diagnosis. The new breast cancer patients will be scheduled for the mammogram after diagnosis at the time of surgical appointment. The radiologist reviewing the tomosynthesis images will be separate and blinded from the radiologist who reviewed the initial 2-D mammogram.	Results	7
+breast cancer	DOID:1612	54-67
+breast cancer	DOID:1612	87-100
+time	PATO:0000165	169-173
+digital breast tomosynthesis (DBT): The radiation dose from this/these procedure(s) will be no more than 0.4mSv for a bi-lateral breast tomosynthesis. The new breast cancer patients will be scheduled for the mammogram after diagnosis at the time of surgical appointment. The radiologist reviewing the tomosynthesis images will be separate and blinded from the radiologist who reviewed the initial 2-D mammogram.	Results	8
+breast	UBERON:0000310	8-14
+breast	UBERON:0000310	129-135
+breast	UBERON:0000310	159-165
+breast cancer	DOID:1612	159-172
+time	PATO:0000165	241-245
+Overall Number of Participants Analyzed: 16	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  0   0.0%	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 0/16 (0.00%)	Adverse Events	1

@@ -1,0 +1,159 @@
+INTERVENTION 1:	Intervention	0
+Advanced Breast Cancer	Intervention	1
+breast cancer	DOID:1612	9-22
+Patients With HER-2 Negative Advanced Breast Cancer With Chest Wall Metastasis; Dosing regimen: apatinib tablets: 500 mg, Po, QD; 4 weeks as a cycle, continuous treatment until disease progression, death or intolerable toxicity (giving endocrine therapy simultaneously if hormone receptor positive)	Intervention	2
+breast cancer	DOID:1612	38-51
+chest	UBERON:0001443	57-62
+disease	DOID:4,OGMS:0000031	177-184
+death	OAE:0000632	198-203
+hormone	CHEBI:24621	272-279
+receptor	BAO:0000281	280-288
+Apatinib: Dosing regimen: apatinib tablets: 500 mg, Po, QD; 4 weeks as a cycle, continuous treatment until disease progression, death or intolerable toxicity (giving endocrine therapy simultaneously if hormone receptor positive)	Intervention	3
+disease	DOID:4,OGMS:0000031	107-114
+death	OAE:0000632	128-133
+hormone	CHEBI:24621	202-209
+receptor	BAO:0000281	210-218
+Inclusion Criteria:	Eligibility	0
+HER-2 negative advanced breast cancer with chest wall metastasis confirmed by histology or cytological examination (patients who have received anthracyclines and/or paclitaxel in adjuvant chemotherapy).	Eligibility	1
+breast cancer	DOID:1612	24-37
+chest	UBERON:0001443	43-48
+histology	NCIT:C16681	78-87
+paclitaxel	CHEBI:45863	165-175
+adjuvant	CHEBI:60809	179-187
+Patients with recurrence or metastasis who have received no more than two lines of chemotherapy.	Eligibility	2
+If hormone receptor is positive, endocrine therapy must have been performed for the patients with recurrence or metastasis, or the recurrence or metastasis occurred in less than two years of endocrine therapy.	Eligibility	3
+hormone	CHEBI:24621	3-10
+receptor	BAO:0000281	11-19
+18 years old.	Eligibility	4
+Eastern Cooperative Oncology Group (ECOG) performance status of 0-1.	Eligibility	5
+group	CHEBI:24433	29-34
+A life expectancy of more than 3 months.	Eligibility	6
+At least one measurable site of disease confirmed by CT or MRI according to Response Evaluation Criteria In Solid Tumors (RECIST) 1.1 criteria was required.	Eligibility	7
+site	BFO:0000029	24-28
+disease	DOID:4,OGMS:0000031	32-39
+ct	BAO:0002125	53-55
+If the target lesions are lymph nodes, the short diameter is required to be less than 1.5cm and the target lesions are not suitable for surgical treatment; target lesions have not been in radiotherapy or recurred in the radiation field.	Eligibility	8
+target	BAO:0003064	7-13
+target	BAO:0003064	100-106
+target	BAO:0003064	156-162
+lymph	UBERON:0002391	26-31
+diameter	PATO:0001334	49-57
+radiotherapy	OAE:0000235	188-200
+Baseline blood routine examination in accordance with the following criteria: neutrophil counts more than 1.5*109/L; platelet counts greater than 100*109/L; hemoglobin greater than 9 g/dL (blood transfusion is allowed to achieve or maintain the index)	Eligibility	9
+blood	UBERON:0000178	9-14
+blood	UBERON:0000178	189-194
+hemoglobin	CHEBI:35143	157-167
+Liver function in accordance with the following criteria: total bilirubin less than 1.5 times the upper limit of normal value; aspartate aminotransferase (AST), alanine aminotransferase (ALT) less than 2.5 times the upper limit of normal value, less than 5 times the upper limit of normal value in patients with liver metastases.	Eligibility	10
+liver	UBERON:0002107	0-5
+liver	UBERON:0002107	312-317
+function	BAO:0003117,BFO:0000034	6-14
+aspartate	CHEBI:29995	127-136
+alanine	CHEBI:16449	161-168
+Renal function in accordance with the following criteria: serum creatinine less than 1.25 times the upper limit of normal value, or the creatinine clearance rate calculated greater than 50 mL/min;	Eligibility	11
+function	BAO:0003117,BFO:0000034	6-14
+creatinine	CHEBI:16737	64-74
+creatinine	CHEBI:16737	136-146
+creatinine clearance	CMO:0000765	136-156
+rate	BAO:0080019	157-161
+Women with fertility are willing to take contraceptive measures in the trial: when seven days before the drug delivery of serum or urine pregnancy test negative.	Eligibility	12
+drug	CHEBI:23888	105-109
+urine	UBERON:0001088	131-136
+Exclusion Criteria:	Eligibility	13
+receiving radiation therapy 28 days before enrolled. Radiotherapy before enrollment to relieve the metastatic bone pain is allowed, but medullary bone radiated should not exceed 30% of the total amount;	Eligibility	14
+radiotherapy	OAE:0000235	53-65
+bone pain	HP:0002653	110-119
+symptomatic central nervous system metastases;	Eligibility	15
+central nervous system	UBERON:0001017	12-34
+current or recent (30 days before enrollment) use of another study drug or being involved in another clinical study;	Eligibility	16
+drug	CHEBI:23888	67-71
+Other malignant tumors that have occurred within 5 years (except for the cured or well-controlled cervical carcinoma in situ, skin squamous cell carcinoma, or skin basal cell carcinoma);	Eligibility	17
+carcinoma	HP:0030731,DOID:305	107-116
+carcinoma	HP:0030731,DOID:305	145-154
+carcinoma	HP:0030731,DOID:305	175-184
+skin squamous cell carcinoma	DOID:3151	126-154
+basal cell carcinoma	HP:0002671,DOID:2513	164-184
+With hypertension and the blood pressure cannot be reduced to the normal range through antihypertensive drug treatment (systolic blood pressure greater than or equal to 140 mmHg or diastolic blood pressure greater than or equal to 90 mmHg).	Eligibility	18
+hypertension	HP:0000822,DOID:10763	5-17
+blood	UBERON:0000178	26-31
+blood	UBERON:0000178	129-134
+blood	UBERON:0000178	191-196
+range	LABO:0000114	73-78
+drug	CHEBI:23888	104-108
+systolic blood pressure	CMO:0000004	120-143
+diastolic blood pressure	CMO:0000005	181-205
+With grade II or higher myocardial ischemia or myocardial infarction, poorly controlled arrhythmia (including QTc interval more than or equal to 450 ms for men, more than or equal to 470 ms for female);	Eligibility	19
+ischemia	DOID:326	35-43
+myocardial infarction	HP:0001658,DOID:5844	47-68
+arrhythmia	HP:0011675	88-98
+qtc interval	CMO:0000269	110-122
+female	PATO:0000383	194-200
+according to the criteria of NYHA, cardiac insufficiency of grade III and IV or left ventricular ejection fraction (LVEF) less than 50% revealed by echocardiography;	Eligibility	20
+left	HP:0012835	80-84
+ejection fraction	CMO:0000180	97-114
+abnormal coagulation function (INR > 1.5 or prothrombin time (PT) > ULN+4 seconds or APTT >1.5 times the ULN), with bleeding tendency or under thrombolysis or anticoagulation therapy;	Eligibility	21
+coagulation	GO:0050817	9-20
+coagulation	GO:0050817	163-174
+function	BAO:0003117,BFO:0000034	21-29
+prothrombin time	CMO:0000211	44-60
+within 3 months before enrollment, clinically significant bleeding symptoms occur, or having obvious bleeding tendency, such as gastrointestinal bleeding, bleeding gastric ulcer, occult blood + + and above in baseline period, or suffering from vasculitis, et al;	Eligibility	22
+gastric ulcer	HP:0002592,DOID:10808	164-177
+blood	UBERON:0000178	186-191
+vasculitis	HP:0002633,DOID:865	244-254
+within 4 months before enrollment receiving major surgery or getting severe traumatic injury, fracture or ulcer;	Eligibility	23
+surgery	OAE:0000067	50-57
+severe	HP:0012828	69-75
+ulcer	OAE:0004372	106-111
+having factors that affect the absorption of the oral drugs obviously, such as the inability to swallow, chronic diarrhea and intestinal obstruction, et al;	Eligibility	24
+chronic diarrhea	HP:0002028	105-121
+intestinal obstruction	HP:0005214,DOID:8437	126-148
+urine routine test with urinary protein more than ++, or 24 hour urinary protein more than 1.0 g;	Eligibility	25
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	32-39
+protein	CHEBI:36080,BAO:0000175	73-80
+hour	UO:0000032	60-64
+with symptomatic serous cavity effusion, which needs to be surgically managed (including pleural effusion, ascites, pericardial effusion);	Eligibility	26
+serous cavity	UBERON:0035809	17-30
+pleural effusion	HP:0002202	89-105
+ascites	HP:0001541	107-114
+pericardial effusion	HP:0001698,DOID:118	116-136
+with other possible conditions that can affect the clinical research or evaluation of the results judged by the researchers.	Eligibility	27
+Outcome Measurement:	Results	0
+Progression-free Survival	Results	1
+Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.	Results	2
+increase	BAO:0001251	107-115
+increase	BAO:0001251	186-194
+diameter	PATO:0001334	142-150
+target	BAO:0003064	154-160
+target	BAO:0003064	204-210
+Time frame: evaluation per 2 cycles (8 weeks), up to 6 months;From date of randomization until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 6 months	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	147-152
+Results 1:	Results	4
+Arm/Group Title: Advanced Breast Cancer	Results	5
+breast cancer	DOID:1612	26-39
+Arm/Group Description: Patients With HER-2 Negative Advanced Breast Cancer With Chest Wall Metastasis; Dosing regimen: apatinib tablets: 500 mg, Po, QD; 4 weeks as a cycle, continuous treatment until disease progression, death or intolerable toxicity (giving endocrine therapy simultaneously if hormone receptor positive)	Results	6
+breast cancer	DOID:1612	61-74
+chest	UBERON:0001443	80-85
+disease	DOID:4,OGMS:0000031	200-207
+death	OAE:0000632	221-226
+hormone	CHEBI:24621	295-302
+receptor	BAO:0000281	303-311
+Apatinib: Dosing regimen: apatinib tablets: 500 mg, Po, QD; 4 weeks as a cycle, continuous treatment until disease progression, death or intolerable toxicity (giving endocrine therapy simultaneously if hormone receptor positive)	Results	7
+disease	DOID:4,OGMS:0000031	107-114
+death	OAE:0000632	128-133
+hormone	CHEBI:24621	202-209
+receptor	BAO:0000281	210-218
+Overall Number of Participants Analyzed: 26	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: months  4.9        (2.1 to 8.3)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 12/30 (40.00%)	Adverse Events	1
+Hypertension *2/30 (6.67%)	Adverse Events	2
+hypertension	HP:0000822,DOID:10763	0-12
+Fatigue *1/30 (3.33%)	Adverse Events	3
+fatigue	HP:0012378	0-7
+Bilirubin increased *2/30 (6.67%)	Adverse Events	4
+Transaminase increased *1/30 (3.33%)	Adverse Events	5
+proteinuria *6/30 (20.00%)	Adverse Events	6
+proteinuria	HP:0000093,DOID:576	0-11

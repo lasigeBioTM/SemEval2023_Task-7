@@ -1,0 +1,110 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab Monotherapy	Intervention	1
+Participants received either an initial loading dose of trastuzumab 4 mg/kg, IV, on Day 1, followed by 2 mg/kg, IV, once per week, or an initial loading dose of 8 mg/kg IV on Day 1, followed by 6 mg/kg IV once every 3 weeks, until disease progression, unacceptable toxicity, withdrawal or death.	Intervention	2
+day	UO:0000033	84-87
+day	UO:0000033	175-178
+week	UO:0000034	125-129
+week	UO:0000034	218-222
+disease	DOID:4,OGMS:0000031	231-238
+death	OAE:0000632	289-294
+INTERVENTION 2:	Intervention	3
+Trastuzumab, Taxane	Intervention	4
+taxane	CHEBI:36064	13-19
+Participants received either an initial loading dose of trastuzumab 4 mg/kg IV on Day 1, followed by 2 mg/kg IV once per week, or an initial loading dose of 8 mg/kg IV on Day 1, followed by 6 mg/kg IV every 3 weeks, until disease progression, unacceptable toxicity, withdrawal or death. Participants also received one of the following taxanes (at the investigator's discretion) for at least 18 weeks: docetaxel 100 mg/m^2, IV, once every 3 weeks, OR, paclitaxel 75 mg/m^2, IV, once per week, OR, paclitaxel 175 mg/m^2, IV, once every 3 weeks.	Intervention	5
+day	UO:0000033	82-85
+day	UO:0000033	171-174
+week	UO:0000034	121-125
+week	UO:0000034	209-213
+week	UO:0000034	394-398
+week	UO:0000034	440-444
+week	UO:0000034	486-490
+week	UO:0000034	536-540
+disease	DOID:4,OGMS:0000031	222-229
+death	OAE:0000632	280-285
+paclitaxel	CHEBI:45863	451-461
+paclitaxel	CHEBI:45863	496-506
+Inclusion Criteria:	Eligibility	0
+at least 10 months of Herceptin treatment for HER2-positive early breast cancer;	Eligibility	1
+breast cancer	DOID:1612	66-79
+metastatic breast cancer >=12 months after discontinuation of Herceptin;	Eligibility	2
+breast cancer	DOID:1612	11-24
+measurable disease.	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+Exclusion Criteria:	Eligibility	4
+previous chemotherapy for metastatic breast cancer;	Eligibility	5
+breast cancer	DOID:1612	37-50
+brain metastases;	Eligibility	6
+brain	UBERON:0000955	0-5
+invasive malignancy other than metastatic breast cancer.	Eligibility	7
+breast cancer	DOID:1612	42-55
+Outcome Measurement:	Results	0
+Percentage of Participants Achieving Complete Response (CR) or Partial Response (PR) According to the Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.0 Guidelines	Results	1
+CR was defined for target lesions (TLs) as the disappearance of all lesions, and for nontarget lesions (NTLs) as the disappearance of all nontarget nonmeasurable lesions. PR was defined for TLs as at least a 30 percent (%) decrease from baseline (BL) in the sum of longest diameter (SLD) of TLs. 95% confidence interval for one-sample binomial using Pearson-Clopper method.	Results	2
+target	BAO:0003064	19-25
+target	BAO:0003064	88-94
+target	BAO:0003064	141-147
+percent	UO:0000187	211-218
+diameter	PATO:0001334	273-281
+Time frame: Baseline (BL); Day 1 of Weeks 7, 13, 19, 25, 37, and 52, at the last administration of study treatment, every 24 weeks thereafter until disease progression for up to 6 months after the last participant was recruited	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	27-30
+disease	DOID:4,OGMS:0000031	148-155
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab Monotherapy	Results	5
+Arm/Group Description: Participants received either an initial loading dose of trastuzumab 4 mg/kg, IV, on Day 1, followed by 2 mg/kg, IV, once per week, or an initial loading dose of 8 mg/kg IV on Day 1, followed by 6 mg/kg IV once every 3 weeks, until disease progression, unacceptable toxicity, withdrawal or death.	Results	6
+day	UO:0000033	107-110
+day	UO:0000033	198-201
+week	UO:0000034	148-152
+week	UO:0000034	241-245
+disease	DOID:4,OGMS:0000031	254-261
+death	OAE:0000632	312-317
+Overall Number of Participants Analyzed: 0	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab, Taxane	Results	11
+taxane	CHEBI:36064	30-36
+Arm/Group Description: Participants received either an initial loading dose of trastuzumab 4 mg/kg IV on Day 1, followed by 2 mg/kg IV once per week, or an initial loading dose of 8 mg/kg IV on Day 1, followed by 6 mg/kg IV every 3 weeks, until disease progression, unacceptable toxicity, withdrawal or death. Participants also received one of the following taxanes (at the investigator's discretion) for at least 18 weeks: docetaxel 100 mg/m^2, IV, once every 3 weeks, OR, paclitaxel 75 mg/m^2, IV, once per week, OR, paclitaxel 175 mg/m^2, IV, once every 3 weeks.	Results	12
+day	UO:0000033	105-108
+day	UO:0000033	194-197
+week	UO:0000034	144-148
+week	UO:0000034	232-236
+week	UO:0000034	417-421
+week	UO:0000034	463-467
+week	UO:0000034	509-513
+week	UO:0000034	559-563
+disease	DOID:4,OGMS:0000031	245-252
+death	OAE:0000632	303-308
+paclitaxel	CHEBI:45863	474-484
+paclitaxel	CHEBI:45863	519-529
+Overall Number of Participants Analyzed: 41	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  61.0        (48.7 to 80.4)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1
+Febrile Neutropenia * 0/3 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/3 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Sudden Death * 0/3 (0.00%)	Adverse Events	4
+sudden death	HP:0001699	0-12
+Bacterial Infection * 0/3 (0.00%)	Adverse Events	5
+Bronchitis * 0/3 (0.00%)	Adverse Events	6
+bronchitis	HP:0012387,DOID:6132	0-10
+Sepsis * 0/3 (0.00%)	Adverse Events	7
+sepsis	HP:0100806	0-6
+Lymphoedema * 0/3 (0.00%)	Adverse Events	8
+Adverse Events 2:	Adverse Events	9
+Total: 6/41 (14.63%)	Adverse Events	10
+Febrile Neutropenia * 1/41 (2.44%)	Adverse Events	11
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 1/41 (2.44%)	Adverse Events	12
+neutropenia	HP:0001875,DOID:1227	0-11
+Sudden Death * 1/41 (2.44%)	Adverse Events	13
+sudden death	HP:0001699	0-12
+Bacterial Infection * 1/41 (2.44%)	Adverse Events	14
+Bronchitis * 1/41 (2.44%)	Adverse Events	15
+bronchitis	HP:0012387,DOID:6132	0-10
+Sepsis * 1/41 (2.44%)	Adverse Events	16
+sepsis	HP:0100806	0-6
+Lymphoedema * 1/41 (2.44%)	Adverse Events	17

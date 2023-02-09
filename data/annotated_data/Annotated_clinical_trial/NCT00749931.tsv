@@ -1,0 +1,82 @@
+INTERVENTION 1:	Intervention	0
+Standard of Care (SOC)	Intervention	1
+Standard of Care arm - standard of care lumpectomy procedure	Intervention	2
+Lumpectomy: Standard of care lumpectomy procedure	Intervention	3
+INTERVENTION 2:	Intervention	4
+Device + (Standard of Care) SOC	Intervention	5
+Use of the device in addition to the standard of care lumpectomy procedure.	Intervention	6
+MarginProbe: Device use to assess margin status of the excised specimen surface.	Intervention	7
+Lumpectomy: Standard of care lumpectomy procedure	Intervention	8
+Inclusion Criteria:	Eligibility	0
+Women histologically diagnosed with carcinoma of the breast	Eligibility	1
+carcinoma	HP:0030731,DOID:305	36-45
+breast	UBERON:0000310	53-59
+Women with non-palpable malignant lesions, requiring image guided localization.	Eligibility	2
+localization	GO:0051179	66-78
+Undergoing lumpectomy (partial mastectomy) procedure.	Eligibility	3
+Age 18 years or more	Eligibility	4
+age	PATO:0000011	0-3
+Signed ICF	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Multicentric disease (histologically diagnosed cancer in two different quadrants of the breast)	Eligibility	7
+disease	DOID:4,OGMS:0000031	13-20
+cancer	DOID:162	47-53
+breast	UBERON:0000310	88-94
+Bilateral disease (diagnosed cancer in both breasts)	Eligibility	8
+bilateral	HP:0012832	0-9
+disease	DOID:4,OGMS:0000031	10-17
+cancer	DOID:162	29-35
+Neoadjuvant systemic therapy	Eligibility	9
+Previous radiation in the operated breast	Eligibility	10
+breast	UBERON:0000310	35-41
+Prior surgical procedure in the same breast	Eligibility	11
+breast	UBERON:0000310	37-43
+Implants in the operated breast	Eligibility	12
+breast	UBERON:0000310	25-31
+Pregnancy	Eligibility	13
+Lactation	Eligibility	14
+lactation	GO:0007595	0-9
+Participating in any other investigational study for either drug or device which can influence collection of valid data under this study.	Eligibility	15
+drug	CHEBI:23888	60-64
+Outcome Measurement:	Results	0
+The Primary Effectiveness Endpoint is a Measure of Intraoperative Success in Addressing Positive Margins as Detected by Permanent Pathology)by Additional Oriented Tissue Re-excision From the Surgical Cavity.	Results	1
+tissue	UBERON:0000479	163-169
+Tests the efficacy of the device to intra-operatively assess positive margins (superiority) - CSR is 'positive' when all positive margins, as detected by histology, on the main specimen addressed intra-operatively	Results	2
+efficacy	BAO:0000656	10-18
+histology	NCIT:C16681	154-163
+Time frame: two weeks after surgery	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	28-35
+Results 1:	Results	4
+Arm/Group Title: Standard of Care (SOC)	Results	5
+Arm/Group Description: Standard of Care arm - standard of care lumpectomy procedure	Results	6
+Lumpectomy: Standard of care lumpectomy procedure	Results	7
+Overall Number of Participants Analyzed: 147	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants analyzed  22.4	Results	10
+Results 2:	Results	11
+Arm/Group Title: Device + (Standard of Care) SOC	Results	12
+Arm/Group Description: Use of the device in addition to the standard of care lumpectomy procedure.	Results	13
+MarginProbe: Device use to assess margin status of the excised specimen surface.	Results	14
+Lumpectomy: Standard of care lumpectomy procedure	Results	15
+Overall Number of Participants Analyzed: 163	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: percentage of participants analyzed  71.8	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 5/298 (1.68%)	Adverse Events	1
+Infections and infestations  1/298 (0.34%)	Adverse Events	2
+Injury, poisoning and procedural complications  3/298 (1.01%)	Adverse Events	3
+Neoplasms benign, malignant and unspecified (incl cysts and polyps)  0/298 (0.00%)	Adverse Events	4
+Reproductive system and breast disorders  1/298 (0.34%)	Adverse Events	5
+reproductive system	UBERON:0000990	0-19
+breast	UBERON:0000310	24-30
+Vascular disorders  0/298 (0.00%)	Adverse Events	6
+Adverse Events 2:	Adverse Events	7
+Total: 6/298 (2.01%)	Adverse Events	8
+Infections and infestations  2/298 (0.67%)	Adverse Events	9
+Injury, poisoning and procedural complications  2/298 (0.67%)	Adverse Events	10
+Neoplasms benign, malignant and unspecified (incl cysts and polyps)  1/298 (0.34%)	Adverse Events	11
+Reproductive system and breast disorders  0/298 (0.00%)	Adverse Events	12
+reproductive system	UBERON:0000990	0-19
+breast	UBERON:0000310	24-30
+Vascular disorders  1/298 (0.34%)	Adverse Events	13

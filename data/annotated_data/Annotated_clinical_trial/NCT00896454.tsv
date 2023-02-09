@@ -1,0 +1,88 @@
+INTERVENTION 1:	Intervention	0
+Denosumab	Intervention	1
+Participants received denosumab at a dose of 120 mg subcutaneously (SC) every 4 weeks (Q4W) with a loading dose of 120 mg SC on study Days 8 and 15.	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Hypercalcemia of Malignancy (HCM) as defined as documented histologically or cytologically confirmed cancer and a corrected serum calcium (CSC) > 12.5 mg/dL (3.1 millimoles /L) at screening by local laboratory	Eligibility	1
+hypercalcemia	HP:0003072,DOID:12678	0-13
+cancer	DOID:162	101-107
+calcium	CHEBI:22984,BAO:0000874	130-137
+Last IV bisphosphonate treatment must be >/= to 7 days and </= to 30 days before the screening corrected serum calcium	Eligibility	2
+calcium	CHEBI:22984,BAO:0000874	111-118
+Adults (>/=18 years)	Eligibility	3
+Adequate organ function as defined by the following criteria:	Eligibility	4
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+serum aspartate aminotransferase (AST) </= 5 x upper limit of normal (ULN)	Eligibility	5
+aspartate	CHEBI:29995	6-15
+x	LABO:0000148	45-46
+serum alanine aminotransferase (ALT) </= 5 x upper limit of normal	Eligibility	6
+alanine	CHEBI:16449	6-13
+x	LABO:0000148	43-44
+serum total bilirubin </= 2 x upper limit of normal	Eligibility	7
+x	LABO:0000148	28-29
+Exclusion Criteria:	Eligibility	8
+Evidence of benign hyperparathyroidism, hyperthyroidism, adrenal insufficiency, vitamin D intoxication, milk alkali syndrome, sarcoidosis, or other granulomatous disease	Eligibility	9
+hyperparathyroidism	HP:0000843,DOID:13543	19-38
+hyperthyroidism	HP:0000836,DOID:7998	40-55
+adrenal insufficiency	HP:0000846	57-78
+vitamin d	CHEBI:27300	80-89
+syndrome	DOID:225	116-124
+sarcoidosis	DOID:11335	126-137
+disease	DOID:4,OGMS:0000031	162-169
+Receiving dialysis for renal failure	Eligibility	10
+dialysis	OAE:0002495	10-18
+Treatment with thiazides, calcitonin, mithramycin, or gallium nitrate within their window of expected therapeutic effect (as determined by the physician) prior to the date of the screening CSC	Eligibility	11
+calcitonin	CHEBI:3306	26-36
+mithramycin	CHEBI:31856	38-49
+nitrate	CHEBI:17632	62-69
+Treatment with cinacalcet within 4 weeks prior to the date of the screening CSC	Eligibility	12
+cinacalcet	CHEBI:48390	15-25
+Thirty days or less since receiving an investigational product (other than denosumab) or device (ie, does not have marketing authorization; thalidomide use is allowed) in another clinical study	Eligibility	13
+product	BAO:0003067	55-62
+thalidomide	CHEBI:9513	140-151
+Known sensitivity to any of the products to be administered during the study (eg, mammalian derived products)	Eligibility	14
+mammalian	BAO:0000362	82-91
+Female subject is pregnant or breast feeding, or planning to become pregnant within 7 months after the end of treatment	Eligibility	15
+female	PATO:0000383	0-6
+breast	UBERON:0000310	30-36
+Female subject of childbearing potential is not willing to use 2 highly effective methods of contraception during treatment and for 7 months after the end of treatment	Eligibility	16
+female	PATO:0000383	0-6
+Subject will not be available for follow-up assessment.	Eligibility	17
+Any organic or psychiatric disorder that, in the opinion of the investigator, might prevent the subject from completing the study or interfere with the interpretation of the study results	Eligibility	18
+disorder	OGMS:0000045	27-35
+Outcome Measurement:	Results	0
+Percentage of Participants With a Response Within 10 Days of First Dose of Denosumab	Results	1
+Response is defined as corrected serum calcium (CSC)  11.5 mg/dL, within 10 days after the first dose of denosumab. For all CSC values, if albumin was < 4 g/dL, the following formula was used to calculate CSC: CSC = Total serum calcium [mg/dL] + (0.8 x (4 - serum albumin [g/dL]))	Results	2
+calcium	CHEBI:22984,BAO:0000874	39-46
+calcium	CHEBI:22984,BAO:0000874	228-235
+x	LABO:0000148	251-252
+serum albumin	BAO:0002066	258-271
+Time frame: 10 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Denosumab	Results	5
+Arm/Group Description: Participants received denosumab at a dose of 120 mg subcutaneously (SC) every 4 weeks (Q4W) with a loading dose of 120 mg SC on study Days 8 and 15.	Results	6
+Overall Number of Participants Analyzed: 33	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  63.6        (45.1 to 79.6)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 29/33 (87.88%)	Adverse Events	1
+Anaemia 1/33 (3.03%)	Adverse Events	2
+Pancytopenia 1/33 (3.03%)	Adverse Events	3
+pancytopenia	HP:0001876,DOID:12450	0-12
+Cardiac arrest 1/33 (3.03%)	Adverse Events	4
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Tachycardia 2/33 (6.06%)	Adverse Events	5
+tachycardia	HP:0001649	0-11
+Hypercalcaemia of malignancy 1/33 (3.03%)	Adverse Events	6
+Colitis 1/33 (3.03%)	Adverse Events	7
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea 2/33 (6.06%)	Adverse Events	8
+Nausea 1/33 (3.03%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Oesophageal obstruction 1/33 (3.03%)	Adverse Events	10
+Vomiting 1/33 (3.03%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Pyrexia 1/33 (3.03%)	Adverse Events	12
+Hepatic failure 1/33 (3.03%)	Adverse Events	13
+hepatic failure	HP:0001399	0-15

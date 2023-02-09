@@ -1,0 +1,92 @@
+INTERVENTION 1:	Intervention	0
+Group 1: Control	Intervention	1
+group	CHEBI:24433	0-5
+Control, no intervention	Intervention	2
+INTERVENTION 2:	Intervention	3
+Group 2: Raloxifene 60 mg	Intervention	4
+group	CHEBI:24433	0-5
+raloxifene	CHEBI:8772	9-19
+Raloxifene 60 mg Orally Daily	Intervention	5
+raloxifene	CHEBI:8772	0-10
+Inclusion Criteria:	Eligibility	0
+Postmenopausal status defined as history of at least 12 months without spontaneous menstrual bleeding or a documented hysterectomy and bilateral salpingo oophorectomy	Eligibility	1
+history	BFO:0000182	33-40
+bilateral	HP:0012832	135-144
+Breast density greater than 25%	Eligibility	2
+breast	UBERON:0000310	0-6
+No hormone replacement therapy for at least six months prior to entry into this study	Eligibility	3
+hormone	CHEBI:24621	3-10
+Non-smokers.	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+History of stroke, pulmonary embolism or deep vein thrombosis	Eligibility	6
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+pulmonary embolism	HP:0002204,DOID:9477	19-37
+vein	UBERON:0001638	46-50
+thrombosis	DOID:0060903	51-61
+History of atherosclerotic heart disease	Eligibility	7
+history	BFO:0000182	0-7
+heart disease	DOID:114	27-40
+Presence of any known hypercoagulable state either congenital (e.g., protein S deficiency) or acquired (e.g., corticosteroid treatment)	Eligibility	8
+protein s deficiency	DOID:2451	69-89
+corticosteroid	CHEBI:50858	110-124
+Diabetes mellitus	Eligibility	9
+diabetes mellitus	HP:0000819,DOID:9351	0-17
+Uncontrolled hypertension (BP 140/90)	Eligibility	10
+hypertension	HP:0000822,DOID:10763	13-25
+Presence of a psychiatric condition that would interfere with adherence to the protocol.	Eligibility	11
+condition	PDRO:0000129	26-35
+Outcome Measurement:	Results	0
+Change in Absolute Breast Density	Results	1
+breast	UBERON:0000310	19-25
+Change of absolute breast density as indicated by mammography from baseline to Year +1 and completion of study (Year +2). No other mammograms will be obtained or used for the purpose of this study. Absolute breast density volume is based on breast thickness and the x-ray attenuation at each pixel of the image.	Results	2
+breast	UBERON:0000310	19-25
+breast	UBERON:0000310	207-213
+breast	UBERON:0000310	241-247
+year	UO:0000036	79-83
+year	UO:0000036	112-116
+volume	PATO:0000918	222-228
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Group 1: Control	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Control, no intervention	Results	6
+Overall Number of Participants Analyzed: 53	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: cm squared  Absolute density at baseline: 53 participants	Results	9
+65.53         (59.43)	Results	10
+Absolute density at 1 year: 48 participants	Results	11
+year	UO:0000036	22-26
+59.29         (40.72)	Results	12
+Absolute density at 2 years: 46 participants	Results	13
+54.34         (20.11)	Results	14
+Results 2:	Results	15
+Arm/Group Title: Group 2: Raloxifene 60 mg	Results	16
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+raloxifene	CHEBI:8772	26-36
+Arm/Group Description: Raloxifene 60 mg Orally Daily	Results	17
+raloxifene	CHEBI:8772	23-33
+Overall Number of Participants Analyzed: 53	Results	18
+Mean (Standard Deviation)	Results	19
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: cm squared  Absolute density at baseline: 53 participants	Results	20
+64.39         (39.95)	Results	21
+Absolute density at 1 year: 41 participants	Results	22
+year	UO:0000036	22-26
+60.48         (38.89)	Results	23
+Absolute density at 2 years: 38 participants	Results	24
+60.57         (35.10)	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 0/53 (0.00%)	Adverse Events	1
+Endometrial Cancer  [1]0/53 (0.00%)	Adverse Events	2
+endometrial cancer	DOID:1380	0-18
+Adverse Events 2:	Adverse Events	3
+Total: 1/53 (1.89%)	Adverse Events	4
+Endometrial Cancer  [1]1/53 (1.89%)	Adverse Events	5
+endometrial cancer	DOID:1380	0-18

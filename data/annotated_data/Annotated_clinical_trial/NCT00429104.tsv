@@ -1,0 +1,70 @@
+INTERVENTION 1:	Intervention	0
+HER2+ Metastatic Breast Cancer	Intervention	1
+breast cancer	DOID:1612	17-30
+Herceptin 4 mg/kg intravenous (IV) Over 90 Minutes + Granulocyte-Macrophage Colony Stimulating Factor (GM-CSF) 250 mcg/m^2 subcutaneously	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Histological confirmation of invasive carcinoma of the breast.	Eligibility	1
+carcinoma	HP:0030731,DOID:305	38-47
+breast	UBERON:0000310	55-61
+HER-2/neu overexpression: 3+ by immunohistochemical staining or Fluorescence in situ hybridization (FISH) (+).	Eligibility	2
+Stage IV breast cancer with measurable disease.	Eligibility	3
+breast cancer	DOID:1612	9-22
+disease	DOID:4,OGMS:0000031	39-46
+Patient receiving progressive disease after Herceptin plus chemotherapy or Herceptin alone. No more than two Herceptin containing regimens.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+progressive	HP:0003676	18-29
+disease	DOID:4,OGMS:0000031	30-37
+Zubrod performance status 0 or 1.	Eligibility	5
+Adequate hematological parameters (White Blood cells-WBC > 3,000/mm3, platelet count > 100,000/mm3), adequate renal function (serum creatinine < 2.0 mg/dl), adequate liver function (total bilirubin, aspartate aminotransferase (AST or SGOT) or alanine aminotransferase (ALT or SGPT) < 3 x normal).	Eligibility	6
+blood	UBERON:0000178	41-46
+platelet count	CMO:0000029	70-84
+function	BAO:0003117,BFO:0000034	116-124
+function	BAO:0003117,BFO:0000034	172-180
+creatinine	CHEBI:16737	132-142
+liver	UBERON:0002107	166-171
+aspartate	CHEBI:29995	199-208
+alanine	CHEBI:16449	243-250
+x	LABO:0000148	286-287
+Exclusion Criteria:	Eligibility	7
+Active Brain metastasis.	Eligibility	8
+active	PATO:0002354	0-6
+brain	UBERON:0000955	7-12
+No measurable disease at the time of registration (e.g. bone only, leptomeningeal disease alone or pleural effusion alone).	Eligibility	9
+disease	DOID:4,OGMS:0000031	14-21
+disease	DOID:4,OGMS:0000031	82-89
+time	PATO:0000165	29-33
+pleural effusion	HP:0002202	99-115
+More than 2 Herceptin containing regimens in metastatic breast cancer.	Eligibility	10
+breast cancer	DOID:1612	56-69
+Known history of HIV positive.	Eligibility	11
+history	BFO:0000182	6-13
+Chronic active hepatitis or cirrhosis.	Eligibility	12
+chronic active hepatitis	HP:0200120	0-24
+cirrhosis	HP:0001394	28-37
+Symptomatic pulmonary disease.	Eligibility	13
+disease	DOID:4,OGMS:0000031	22-29
+Use of steroid of non-steroidal anti-inflammatory analgesic or Cox-2 inhibitor 1 week prior to registration.	Eligibility	14
+steroid	CHEBI:35341	7-14
+steroid	CHEBI:35341	22-29
+analgesic	CHEBI:35480	50-59
+inhibitor	CHEBI:35222	69-78
+week	UO:0000034	81-85
+Outcome Measurement:	Results	0
+Number of Participants With Tumor Response (Stable Disease)	Results	1
+stable	HP:0031915	44-50
+disease	DOID:4,OGMS:0000031	51-58
+Number of participants with response defined as stable disease or better using Response Evaluation Criteria In Solid Tumors (RECIST) at the month 2 evaluation.	Results	2
+stable	HP:0031915	48-54
+disease	DOID:4,OGMS:0000031	55-62
+month	UO:0000035	140-145
+Time frame: 2 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: HER2+ Metastatic Breast Cancer	Results	5
+breast cancer	DOID:1612	34-47
+Arm/Group Description: Herceptin 4 mg/kg intravenous (IV) Over 90 Minutes + Granulocyte-Macrophage Colony Stimulating Factor (GM-CSF) 250 mcg/m^2 subcutaneously	Results	6
+Overall Number of Participants Analyzed: 17	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  5	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/17 (0.00%)	Adverse Events	1

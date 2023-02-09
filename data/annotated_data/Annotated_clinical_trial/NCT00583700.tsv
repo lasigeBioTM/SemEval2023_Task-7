@@ -1,0 +1,89 @@
+INTERVENTION 1:	Intervention	0
+Control Arm	Intervention	1
+Watchful waiting (standard treatment). Study participants received no intervention and were monitored for development of radiation-induced fibrosis.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Intervention: Pentoxifylline & Vitamin E	Intervention	4
+pentoxifylline	CHEBI:7986	14-28
+vitamin e	CHEBI:33234	31-40
+Combined treatment with Pentoxifylline and Vitamin E.	Intervention	5
+pentoxifylline	CHEBI:7986	24-38
+vitamin e	CHEBI:33234	43-52
+Vitamin E : Vitamin E (Over-the-counter) 400 I.U. once daily	Intervention	6
+vitamin e	CHEBI:33234	0-9
+vitamin e	CHEBI:33234	12-21
+Pentoxifylline : Pentoxifylline 400 mg, 3 times daily for 7 months, beginning immediately after radiation therapy.	Intervention	7
+pentoxifylline	CHEBI:7986	0-14
+pentoxifylline	CHEBI:7986	17-31
+Inclusion Criteria:	Eligibility	0
+Patients with histologically documented cancer of the breast or DCIS or head and neck referred for definitive radiation with curative intent.	Eligibility	1
+cancer	DOID:162	40-46
+breast	UBERON:0000310	54-60
+head	UBERON:0000033	72-76
+neck	GO:0044326,UBERON:0000974	81-85
+No evidence of metastatic disease.	Eligibility	2
+disease	DOID:4,OGMS:0000031	26-33
+Minimum life expectancy of at least 12 months.	Eligibility	3
+Aged greater than 20 years.	Eligibility	4
+If female, pregnancy excluded.	Eligibility	5
+female	PATO:0000383	3-9
+excluded	HP:0040285	21-29
+No documented history of collagen vascular disease.	Eligibility	6
+history	BFO:0000182	14-21
+collagen	CHEBI:3815	25-33
+vascular disease	DOID:178	34-50
+Exclusion Criteria:	Eligibility	7
+Cognitively impaired patients	Eligibility	8
+Prisoners	Eligibility	9
+No histology available	Eligibility	10
+histology	NCIT:C16681	3-12
+Documented metastatic disease	Eligibility	11
+disease	DOID:4,OGMS:0000031	22-29
+Allergy to Trental	Eligibility	12
+allergy	HP:0012393	0-7
+Life expectance of less than 12 months.	Eligibility	13
+Aged less than 20 years	Eligibility	14
+Collagen vascular disease present	Eligibility	15
+collagen	CHEBI:3815	0-8
+vascular disease	DOID:178	9-25
+present	PATO:0000467	26-33
+Pregnant	Eligibility	16
+History of liver disease	Eligibility	17
+history	BFO:0000182	0-7
+liver disease	DOID:409	11-24
+Use of anticoagulants	Eligibility	18
+Outcome Measurement:	Results	0
+Subjective, Objective, Management, and Analytic (SOMA) Score	Results	1
+A primary outcome of interest is the composite Subjective, Objective, Management, and Analytic (SOMA) score at 18-month follow-up visit. Maximum score is 45, with a score of 0 being ideal and representing no treatment-related side effects at the study visit.	Results	2
+Time frame: 18 month post-treatment	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	15-20
+Results 1:	Results	4
+Arm/Group Title: Control Arm	Results	5
+Arm/Group Description: Watchful waiting (standard treatment). Study participants received no intervention and were monitored for development of radiation-induced fibrosis.	Results	6
+Overall Number of Participants Analyzed: 27	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  1.59         (1.53)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Intervention: Pentoxifylline & Vitamin E	Results	11
+pentoxifylline	CHEBI:7986	31-45
+vitamin e	CHEBI:33234	48-57
+Arm/Group Description: Combined treatment with Pentoxifylline and Vitamin E.	Results	12
+pentoxifylline	CHEBI:7986	47-61
+vitamin e	CHEBI:33234	66-75
+Vitamin E : Vitamin E (Over-the-counter) 400 I.U. once daily	Results	13
+vitamin e	CHEBI:33234	0-9
+vitamin e	CHEBI:33234	12-21
+Pentoxifylline : Pentoxifylline 400 mg, 3 times daily for 7 months, beginning immediately after radiation therapy.	Results	14
+pentoxifylline	CHEBI:7986	0-14
+pentoxifylline	CHEBI:7986	17-31
+Overall Number of Participants Analyzed: 25	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  1.0         (1.19)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/27 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/27 (0.00%)	Adverse Events	3

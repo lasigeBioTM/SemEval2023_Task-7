@@ -1,0 +1,185 @@
+INTERVENTION 1:	Intervention	0
+Pyridoxine	Intervention	1
+pyridoxine	CHEBI:16709	0-10
+Arm I: Patients receive doxorubicin HCl liposome IV 40mg/m2 over 1 hour on day 1 and oral pyridoxine 100 mg twice daily on days 1-28.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	24-35
+hour	UO:0000032	67-71
+day	UO:0000033	75-78
+day	UO:0000033	123-126
+pyridoxine	CHEBI:16709	90-100
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Arm II: Patients receive doxorubicin HCl liposome IV 40mg/m2 over 1 hour on day 1 and oral placebo 100 mg twice daily on days 1-28.	Intervention	5
+doxorubicin	CHEBI:28748,BAO:0000639	25-36
+hour	UO:0000032	68-72
+day	UO:0000033	76-79
+day	UO:0000033	121-124
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Diagnosis of 1 of the following:	Eligibility	1
+Recurrent ovarian, fallopian tube, or peritoneal cavity cancer	Eligibility	2
+recurrent	HP:0031796	0-9
+fallopian tube	UBERON:0003889	19-33
+peritoneal cavity	UBERON:0001179	38-55
+cancer	DOID:162	56-62
+Metastatic breast cancer	Eligibility	3
+breast cancer	DOID:1612	11-24
+Advanced endometrial cancer	Eligibility	4
+endometrial cancer	DOID:1380	9-27
+Planning to receive chemotherapy with doxorubicin HCl liposome at a dose of 40 mg/m^2	Eligibility	5
+doxorubicin	CHEBI:28748,BAO:0000639	38-49
+Hormone receptor status:	Eligibility	6
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	7
+PATIENT CHARACTERISTICS:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Sex	Eligibility	9
+Not specified	Eligibility	10
+Menopausal status:	Eligibility	11
+Not specified	Eligibility	12
+Performance status	Eligibility	13
+Karnofsky 60-100%	Eligibility	14
+Life expectancy	Eligibility	15
+Not specified	Eligibility	16
+Hematopoietic	Eligibility	17
+Absolute neutrophil count  1,500/mm^3	Eligibility	18
+Platelet count  100,000/mm^3	Eligibility	19
+platelet count	CMO:0000029	0-14
+Hemoglobin  9.0 g/dL	Eligibility	20
+hemoglobin	CHEBI:35143	0-10
+Hepatic	Eligibility	21
+AST and ALT  2 times upper limit of normal (ULN)	Eligibility	22
+Alkaline phosphatase  2 times ULN	Eligibility	23
+phosphatase	GO:0016791,BAO:0000295	9-20
+Bilirubin normal	Eligibility	24
+Renal	Eligibility	25
+Creatinine  2.0 mg/dL	Eligibility	26
+creatinine	CHEBI:16737	0-10
+Cardiovascular	Eligibility	27
+Ejection fraction  50% by MUGA or 2-D echocardiogram	Eligibility	28
+ejection fraction	CMO:0000180	0-17
+No history of cardiac disease	Eligibility	29
+history	BFO:0000182	3-10
+disease	DOID:4,OGMS:0000031	22-29
+No New York Heart Association class II-IV heart disease	Eligibility	30
+heart	UBERON:0000948	12-17
+heart	UBERON:0000948	42-47
+heart disease	DOID:114	42-55
+No clinical evidence of congestive heart failure	Eligibility	31
+congestive heart failure	HP:0001635,DOID:6000	24-48
+Other	Eligibility	32
+Not pregnant or nursing	Eligibility	33
+Fertile patients must use effective contraception during and for 3 months after completion of study treatment	Eligibility	34
+No active infection requiring antibiotics	Eligibility	35
+active	PATO:0002354	3-9
+No history of hypersensitivity reaction attributed to a conventional formulation of doxorubicin HCl or doxorubicin HCl liposome and any of its components	Eligibility	36
+history	BFO:0000182	3-10
+hypersensitivity	GO:0002524,DOID:1205	14-30
+doxorubicin	CHEBI:28748,BAO:0000639	84-95
+doxorubicin	CHEBI:28748,BAO:0000639	103-114
+No other invasive malignancy within the past 5 years except nonmelanoma or basal cell skin cancer	Eligibility	37
+skin cancer	DOID:4159	86-97
+PRIOR CONCURRENT THERAPY:	Eligibility	38
+Biologic therapy	Eligibility	39
+At least 3 weeks since prior biologic or immunologic agents for this cancer	Eligibility	40
+cancer	DOID:162	69-75
+Chemotherapy	Eligibility	41
+Recovered from prior chemotherapy	Eligibility	42
+Alopecia or neuropathy allowed	Eligibility	43
+alopecia	HP:0001596,DOID:987	0-8
+neuropathy	DOID:870	12-22
+No prior doxorubicin HCl liposome	Eligibility	44
+doxorubicin	CHEBI:28748,BAO:0000639	9-20
+Other concurrent chemotherapy allowed provided palmar-plantar erythrodysesthesia is not one of the side effects of the therapy	Eligibility	45
+No concurrent cytarabine, fluorouracil, liposomal daunorubicin, or capecitabine	Eligibility	46
+cytarabine	CHEBI:28680	14-24
+daunorubicin	CHEBI:41977	50-62
+capecitabine	CHEBI:31348	67-79
+No concurrent pre-medication with corticosteroids as part of the chemotherapy regimen	Eligibility	47
+part of	BAO:0090002,BFO:0000050	53-60
+Endocrine therapy	Eligibility	48
+See Chemotherapy	Eligibility	49
+At least 3 weeks since prior and no concurrent oral or topical corticosteroids	Eligibility	50
+At least 1 week since prior hormonal therapy for this cancer	Eligibility	51
+week	UO:0000034	11-15
+cancer	DOID:162	54-60
+Concurrent hormone replacement therapy allowed	Eligibility	52
+hormone	CHEBI:24621	11-18
+Radiotherapy	Eligibility	53
+radiotherapy	OAE:0000235	0-12
+At least 3 weeks since prior radiotherapy for this cancer and recovered	Eligibility	54
+radiotherapy	OAE:0000235	29-41
+cancer	DOID:162	51-57
+Surgery	Eligibility	55
+surgery	OAE:0000067	0-7
+Recovered from prior surgery	Eligibility	56
+surgery	OAE:0000067	21-28
+Other	Eligibility	57
+At least 3 weeks since prior and no other concurrent forms of pyridoxine except what is included in a multivitamin	Eligibility	58
+pyridoxine	CHEBI:16709	62-72
+No prior anticancer treatment that contraindicates study treatment	Eligibility	59
+No concurrent amifostine or other protective agents	Eligibility	60
+amifostine	CHEBI:2636	14-24
+Outcome Measurement:	Results	0
+Number of Participants With Palmar-plantar Erythrodysesthesia (PPE)	Results	1
+Patients were monitored weekly with phone calls from the research nurse and monthly at clinic visits for overall (including pyridoxine) and specific doxorubicin HCl liposome related toxicities using the National Cancer Institute's Common Terminology Criteria for Adverse Events (CTCAE), version 3.0.	Results	2
+pyridoxine	CHEBI:16709	124-134
+doxorubicin	CHEBI:28748,BAO:0000639	149-160
+cancer	DOID:162	212-218
+Time frame: Treatment repeats every 4 weeks for up to 6 courses in the absence of unacceptable toxicity.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Pyridoxine	Results	5
+pyridoxine	CHEBI:16709	17-27
+Arm/Group Description: Arm I: Patients receive doxorubicin HCl liposome IV 40mg/m2 over 1 hour on day 1 and oral pyridoxine 100 mg twice daily on days 1-28.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	47-58
+hour	UO:0000032	90-94
+day	UO:0000033	98-101
+day	UO:0000033	146-149
+pyridoxine	CHEBI:16709	113-123
+Overall Number of Participants Analyzed: 15	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Grade 1 HFS: 2	Results	9
+Grade 2 HFS: 3	Results	10
+Grade 3 HFS: 3	Results	11
+Results 2:	Results	12
+Arm/Group Title: Placebo	Results	13
+Arm/Group Description: Arm II: Patients receive doxorubicin HCl liposome IV 40mg/m2 over 1 hour on day 1 and oral placebo 100 mg twice daily on days 1-28.	Results	14
+doxorubicin	CHEBI:28748,BAO:0000639	48-59
+hour	UO:0000032	91-95
+day	UO:0000033	99-102
+day	UO:0000033	144-147
+Overall Number of Participants Analyzed: 14	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: participants  Grade 1 HFS: 3	Results	17
+Grade 2 HFS: 3	Results	18
+Grade 3 HFS: 1	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 8/15 (53.33%)	Adverse Events	1
+Blood/bone marrow  1/15 (6.67%)	Adverse Events	2
+Hemorrhage/bleeding  1/15 (6.67%)	Adverse Events	3
+Lymphatics  0/15 (0.00%)	Adverse Events	4
+Gastrointestinal  2/15 (13.33%)	Adverse Events	5
+Constitutional symptoms  0/15 (0.00%)	Adverse Events	6
+Pain  0/15 (0.00%)	Adverse Events	7
+pain	HP:0012531	0-4
+Allergy/immunologic  0/15 (0.00%)	Adverse Events	8
+Infection  1/15 (6.67%)	Adverse Events	9
+Metabolic/laboratory  0/15 (0.00%)	Adverse Events	10
+Neurology  1/15 (6.67%)	Adverse Events	11
+Renal/genitourinary  0/15 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 6/14 (42.86%)	Adverse Events	14
+Blood/bone marrow  2/14 (14.29%)	Adverse Events	15
+Hemorrhage/bleeding  0/14 (0.00%)	Adverse Events	16
+Lymphatics  0/14 (0.00%)	Adverse Events	17
+Gastrointestinal  0/14 (0.00%)	Adverse Events	18
+Constitutional symptoms  1/14 (7.14%)	Adverse Events	19
+Pain  0/14 (0.00%)	Adverse Events	20
+pain	HP:0012531	0-4
+Allergy/immunologic  1/14 (7.14%)	Adverse Events	21
+Infection  0/14 (0.00%)	Adverse Events	22
+Metabolic/laboratory  1/14 (7.14%)	Adverse Events	23
+Neurology  0/14 (0.00%)	Adverse Events	24
+Renal/genitourinary  0/14 (0.00%)	Adverse Events	25

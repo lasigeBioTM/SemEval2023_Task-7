@@ -1,0 +1,83 @@
+INTERVENTION 1:	Intervention	0
+Tivantinib (Monotherapy or Combination)	Intervention	1
+Participants received tivantinib 360 mg twice daily by mouth as monotherapy or combination therapy.	Intervention	2
+mouth	UBERON:0000165	55-60
+Inclusion Criteria:	Eligibility	0
+Signed written informed consent to participate in clinical study of tivantinib	Eligibility	1
+Male or female participants of the age defined in the original protocol they were enrolled.	Eligibility	2
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+age	PATO:0000011	35-38
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) 3 (or 2 for tivantinib-naive participants)	Eligibility	3
+group	CHEBI:24433	29-34
+Adequate bone marrow function:	Eligibility	4
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Absolute neutrophil count (ANC) 1.5 x 10^9/L	Eligibility	5
+x	LABO:0000148	36-37
+Hemoglobin 8.0 g/dL (or  9.0 g/dL for tivantinib-naïve participants)	Eligibility	6
+hemoglobin	CHEBI:35143	0-10
+Enrollment within 14 days of the completion of End of Treatment Visit of the original study	Eligibility	7
+Participants, who participated in previous ARQ 197 studies that have reached their designated end-dates, who did not meet discontinuation criteria in their original study, and who may, in the opinion of the Investigator and the Sponsor, benefit from treatment	Eligibility	8
+Women of childbearing potential must have a negative pregnancy test performed within 14 days of the start of study drug. Both men and women enrolled in this study must agree to use adequate birth control measures while on study	Eligibility	9
+drug	CHEBI:23888	115-119
+Exclusion Criteria:	Eligibility	10
+Known or suspected allergy to ARQ 197	Eligibility	11
+allergy	HP:0012393	19-26
+Substance abuse, medical, psychological or social conditions that may interfere with the participant's participation in the study or evaluation of the study results	Eligibility	12
+substance abuse	DOID:302	0-15
+Any condition that is unstable or which could jeopardize the safety of the participant and his/her compliance in the study	Eligibility	13
+condition	PDRO:0000129	4-13
+A serious uncontrolled medical disorder/condition that in the opinion of the Investigator would impair the ability of the participant to receive protocol therapy	Eligibility	14
+Requirement to receive other concurrent chemotherapy (excluding combination therapy defined in original protocol), immunotherapy, radiotherapy, or any other investigational drug while on study. Palliative radiotherapy is allowed provided that:	Eligibility	15
+radiotherapy	OAE:0000235	130-142
+radiotherapy	OAE:0000235	205-217
+drug	CHEBI:23888	173-177
+in the opinion of the Investigator, the participant does not have progressive disease	Eligibility	16
+progressive	HP:0003676	66-77
+disease	DOID:4,OGMS:0000031	78-85
+the radiation field does not encompass a target lesion	Eligibility	17
+target	BAO:0003064	41-47
+no more than 10% of the participant's bone marrow is irradiated	Eligibility	18
+bone marrow	UBERON:0002371	38-49
+Outcome Measurement:	Results	0
+Extent of Exposure to ARQ 197 in Participants Benefiting From Prior ARQ 197 Therapy	Results	1
+The duration of ARQ 197 exposure in this study was calculated as [(date of last dose of study drug - date of first dose of study drug) + 1]. Results refer to duration of ARQ 197 treatment in the present study only (i.e., does not include treatment received during participation in "feeder" studies).	Results	2
+duration	PATO:0001309	4-12
+duration	PATO:0001309	158-166
+drug	CHEBI:23888	94-98
+drug	CHEBI:23888	129-133
+present	PATO:0000467	195-202
+Time frame: Up to 3,021 days (up to 14-Jan-2019)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Tivantinib (Monotherapy or Combination)	Results	5
+Arm/Group Description: Participants received tivantinib 360 mg twice daily by mouth as monotherapy or combination therapy.	Results	6
+mouth	UBERON:0000165	78-83
+Overall Number of Participants Analyzed: 60	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: Days  125        (5 to 3021)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 19/60 (31.67%)	Adverse Events	1
+Anaemia 1/60 (1.67%)	Adverse Events	2
+Febrile neutropenia 1/60 (1.67%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation 1/60 (1.67%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiopulmonary failure 1/60 (1.67%)	Adverse Events	5
+Abdominal mass 1/60 (1.67%)	Adverse Events	6
+abdominal mass	HP:0031500	0-14
+Abdominal pain 1/60 (1.67%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Diarrhoea 1/60 (1.67%)	Adverse Events	8
+Duodenal ulcer 1/60 (1.67%)	Adverse Events	9
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Nausea 1/60 (1.67%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Small intestinal obstruction 1/60 (1.67%)	Adverse Events	11
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Vomiting 1/60 (1.67%)	Adverse Events	12
+vomiting	HP:0002013	0-8

@@ -1,0 +1,214 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Neoadjuvant Therapy, Adjuvant Therapy)	Intervention	1
+adjuvant	CHEBI:60809	14-22
+adjuvant	CHEBI:60809	32-40
+See Detailed Description.	Intervention	2
+doxorubicin hydrochloride: Given IV	Intervention	3
+doxorubicin hydrochloride	CHEBI:31522	0-25
+cyclophosphamide: Given PO	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+paclitaxel: Given IV	Intervention	5
+paclitaxel	CHEBI:45863	0-10
+filgrastim: Given SC	Intervention	6
+capecitabine: Given PO	Intervention	7
+capecitabine	CHEBI:31348	0-12
+methotrexate: Given IV	Intervention	8
+methotrexate	CHEBI:44185	0-12
+vinorelbine tartrate: Given IV	Intervention	9
+vinorelbine	CHEBI:480999	0-11
+tartrate	CHEBI:30929	12-20
+needle biopsy: Correlative studies	Intervention	10
+therapeutic conventional surgery: Undergo definitive breast surgery	Intervention	11
+surgery	OAE:0000067	25-32
+surgery	OAE:0000067	60-67
+breast	UBERON:0000310	53-59
+immunohistochemistry staining method: Correlative studies	Intervention	12
+immunohistochemistry	BAO:0000415	0-20
+trastuzumab: Given IV	Intervention	13
+tamoxifen citrate: Given PO	Intervention	14
+tamoxifen citrate	CHEBI:9397	0-17
+letrozole: Given PO	Intervention	15
+letrozole	CHEBI:6413	0-9
+laboratory biomarker analysis: Correlative studies	Intervention	16
+biomarker	CHEBI:59163	11-20
+Inclusion Criteria:	Eligibility	0
+Have known tumor HER-2/neu expression; if determination is "intermediate" by immunohistochemistry, fluorescent in situ hybridization (FISH) must be performed; protocol therapy is determined by HER-2/neu result	Eligibility	1
+immunohistochemistry	BAO:0000415	77-97
+result	BAO:0000179	203-209
+Have histologically confirmed, operable breast cancer that is either:	Eligibility	2
+breast cancer	DOID:1612	40-53
+Hormone receptor (estrogen receptor [ER] or progesterone receptor [PR]) positive and HER2/neu positive or	Eligibility	3
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+receptor	BAO:0000281	27-35
+receptor	BAO:0000281	57-65
+estrogen	CHEBI:50114,BAO:0000760	18-26
+progesterone	CHEBI:17026	44-56
+ER/PR negative	Eligibility	4
+Have radiographically measurable breast cancer > 1cm (Operable lesions are T1c-T3 and N0-N2a; histologic confirmation should be by core needle biopsy only)	Eligibility	5
+breast cancer	DOID:1612	33-46
+Be chemotherapy naïve	Eligibility	6
+Eastern Cooperative Oncology Group (ECOG) performance status of =< 2	Eligibility	7
+group	CHEBI:24433	29-34
+Absolute neutrophil count (ANC) >= 1,500	Eligibility	8
+Platelet count >= 100,000	Eligibility	9
+platelet count	CMO:0000029	0-14
+Serum creatinine =< 1.5 x international upper limit of normal (IULN)	Eligibility	10
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	24-25
+Bilirubin < 2.0	Eligibility	11
+Serum glutamic oxaloacetic transaminase (SGOT)/serum glutamic pyruvate transaminase (SGPT) =< 2 x IULN	Eligibility	12
+pyruvate	CHEBI:15361	62-70
+x	LABO:0000148	16-17
+x	LABO:0000148	96-97
+Alkaline phosphatase =< 2 x IULN	Eligibility	13
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	26-27
+Have staging studies and tumor assessment prior to registration; staging studies include physical exam with bidimensional tumor measurements and mammography, ultrasound, or magnetic resonance imaging (MRI) to assess tumor volume; sentinel lymph node dissection or axillary needle biopsy must be completed prior to enrollment; MRI and positron emission tomography (PET) (fluorodeoxyglucose [FDG], methoxyisobutylisonitrile [MIBI] and fluoroestradiol [FES]) imaging will be done before enrollment if clinically indicated to assess tumor volume or may be done within the first month of study participation on another institutional protocol	Eligibility	14
+volume	PATO:0000918	222-228
+volume	PATO:0000918	535-541
+lymph	UBERON:0002391	239-244
+positron	CHEBI:30225	334-342
+tomography	BAO:0002525	352-362
+month	UO:0000035	574-579
+Patients with clinically apparent cardiac disease, or history of same, are not eligible; patients who are >= 60 years of age or who have a history of hypertension must have an echocardiogram or multi gated acquisition scan (MUGA) prior to enrollment; patients with breast cancer that is HER-2/neu positive who will receive herceptin (trastuzumab) must have an echocardiogram or MUGA scan; the left ventricular ejection fraction (LVEF) must be within the institutional normal range; if LVEF is > 75%, the investigator should consider having the LVEF reviewed or repeating the MUGA prior to registration	Eligibility	15
+disease	DOID:4,OGMS:0000031	42-49
+history	BFO:0000182	54-61
+history	BFO:0000182	139-146
+age	PATO:0000011	121-124
+hypertension	HP:0000822,DOID:10763	150-162
+breast cancer	DOID:1612	265-278
+left	HP:0012835	393-397
+ejection fraction	CMO:0000180	410-427
+range	LABO:0000114	475-480
+Women of childbearing potential must have a negative pregnancy test within seven days prior to registration	Eligibility	16
+Be informed of the investigational nature of this study and provide written informed consent in accordance with institutional and federal guidelines prior to study specific screening procedures	Eligibility	17
+Exclusion Criteria:	Eligibility	18
+Primary tumor =< 1 cm, not measurable; inflammatory disease	Eligibility	19
+disease	DOID:4,OGMS:0000031	52-59
+Pregnant or lactating; woman of childbearing potential with either a positive or no pregnancy test at baseline are excluded; postmenopausal woman must have been amenorrheic for at least 12 months to be considered of non-childbearing potential; patients must agree to continue contraception for 30 days from the date of the last study drug administration; woman of childbearing potential not using a reliable and appropriate contraceptive method are excluded	Eligibility	20
+excluded	HP:0040285	115-123
+excluded	HP:0040285	449-457
+drug administration	OAE:0000011	334-353
+Evidence of distant metastatic disease	Eligibility	21
+disease	DOID:4,OGMS:0000031	31-38
+Prior chemotherapy or hormonal therapy for breast cancer	Eligibility	22
+breast cancer	DOID:1612	43-56
+Except for the following no other malignancy is allowed: synchronous ipsilateral breast cancer of the same subtype (ER/PR, HER-2/neu), adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer or other stage I or II cancer from which the patient has been disease free for at least 5 years	Eligibility	23
+breast cancer	DOID:1612	81-94
+skin cancer	DOID:4159	182-193
+cervical cancer	DOID:4362	203-218
+cancer	DOID:162	88-94
+cancer	DOID:162	187-193
+cancer	DOID:162	212-218
+cancer	DOID:162	242-248
+patient	HADO:0000008,OAE:0001817	264-271
+disease	DOID:4,OGMS:0000031	281-288
+Prior unanticipated severe reaction to fluoropyrimidine therapy, or known sensitivity to 5-fluorouracil	Eligibility	24
+severe	HP:0012828	20-26
+5-fluorouracil	CHEBI:46345	89-103
+Previous enrollment in an investigational drug study within the past four weeks	Eligibility	25
+drug	CHEBI:23888	42-46
+History of uncontrolled seizures, central nervous system disorders, or psychiatric disability judged by the investigator to be clinically significant, precluding informed consent, or interfering with compliance with oral drug intake	Eligibility	26
+history	BFO:0000182	0-7
+central nervous system	UBERON:0001017	34-56
+drug	CHEBI:23888	221-225
+Patients with cardiac disease that would preclude the use of Adriamycin, Taxol or Herceptin are not eligible	Eligibility	27
+disease	DOID:4,OGMS:0000031	22-29
+Active cardiac disease:	Eligibility	28
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	15-22
+Angina pectoris that requires the use of antianginal medication	Eligibility	29
+angina pectoris	HP:0001681	0-15
+Cardiac arrhythmia requiring medication	Eligibility	30
+arrhythmia	HP:0011675	8-18
+Severe conduction abnormality	Eligibility	31
+severe	HP:0012828	0-6
+Clinically significant valvular disease	Eligibility	32
+disease	DOID:4,OGMS:0000031	32-39
+Cardiomegaly on chest x-ray	Eligibility	33
+cardiomegaly	HP:0001640	0-12
+chest	UBERON:0001443	16-21
+Ventricular hypertrophy on electrocardiogram (EKG)	Eligibility	34
+ventricular hypertrophy	HP:0001714	0-23
+Uncontrolled hypertension, (diastolic greater than 100 mm/Hg or systolic > 200 mm/hg)	Eligibility	35
+hypertension	HP:0000822,DOID:10763	13-25
+Current use of digitalis or beta blockers for congestive heart failure (CHF)	Eligibility	36
+congestive heart failure	HP:0001635,DOID:6000	46-70
+Clinically significant pericardial effusion	Eligibility	37
+pericardial effusion	HP:0001698,DOID:118	23-43
+History of cardiac disease:	Eligibility	38
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	19-26
+Myocardial infarction documented as a clinical diagnosis or by EKG or any other test	Eligibility	39
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Documented congestive heart failure	Eligibility	40
+congestive heart failure	HP:0001635,DOID:6000	11-35
+Documented cardiomyopathy	Eligibility	41
+cardiomyopathy	HP:0001638,DOID:0050700	11-25
+Documented arrhythmia or cardiac valvular disease that requires medication or is medically significant	Eligibility	42
+arrhythmia	HP:0011675	11-21
+disease	DOID:4,OGMS:0000031	42-49
+Major surgery within 4 weeks of the start of study treatment without complete recovery	Eligibility	43
+surgery	OAE:0000067	6-13
+Lack of physical integrity of the upper gastrointestinal tract or malabsorption syndrome	Eligibility	44
+malabsorption	HP:0002024	66-79
+syndrome	DOID:225	80-88
+Known, existing uncontrolled coagulopathy	Eligibility	45
+Unwillingness to give written informed consent	Eligibility	46
+Unwillingness to participate or inability to comply with the protocol for the duration of the study	Eligibility	47
+duration	PATO:0001309	78-86
+Outcome Measurement:	Results	0
+Combined Rate of Microscopic pCR and Macroscopic Pathologic Complete Response (mCR)	Results	1
+rate	BAO:0080019	9-13
+Microscopic pCR: No evidence of microscopic invasive tumor at the primary site or in the regional lymph nodes at the time of definitive surgical resection. mCR: The examining pathologist cannot identify gross residual tumor mass in the surgical specimen. This differs from a pCR where the specimen must also be negative for invasive tumor by microscopy. For this study, we are using a definition of mCR that will make the trial more translatable to other institutions. For this study, mCR will be defined as no focus of invasive cancer >= 1 cm.	Results	2
+site	BFO:0000029	74-78
+lymph	UBERON:0002391	98-103
+time	PATO:0000165	117-121
+microscopy	BAO:0002526	342-352
+focus	PATO:0001516	511-516
+cancer	DOID:162	529-535
+Count of participants with either a pCR or mCR.	Results	3
+Time frame: Up to 16 weeks	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Treatment (Neoadjuvant Therapy, Adjuvant Therapy)	Results	6
+adjuvant	CHEBI:60809	31-39
+adjuvant	CHEBI:60809	49-57
+Arm/Group Description: See Detailed Description.	Results	7
+doxorubicin hydrochloride: Given IV	Results	8
+doxorubicin hydrochloride	CHEBI:31522	0-25
+cyclophosphamide: Given PO	Results	9
+cyclophosphamide	CHEBI:4026	0-16
+paclitaxel: Given IV	Results	10
+paclitaxel	CHEBI:45863	0-10
+filgrastim: Given SC	Results	11
+capecitabine: Given PO	Results	12
+capecitabine	CHEBI:31348	0-12
+methotrexate: Given IV	Results	13
+methotrexate	CHEBI:44185	0-12
+vinorelbine tartrate: Given IV	Results	14
+vinorelbine	CHEBI:480999	0-11
+tartrate	CHEBI:30929	12-20
+needle biopsy: Correlative studies	Results	15
+therapeutic conventional surgery: Undergo definitive breast surgery	Results	16
+surgery	OAE:0000067	25-32
+surgery	OAE:0000067	60-67
+breast	UBERON:0000310	53-59
+immunohistochemistry staining method: Correlative studies	Results	17
+immunohistochemistry	BAO:0000415	0-20
+trastuzumab: Given IV	Results	18
+tamoxifen citrate: Given PO	Results	19
+tamoxifen citrate	CHEBI:9397	0-17
+letrozole: Given PO	Results	20
+letrozole	CHEBI:6413	0-9
+laboratory biomarker analysis: Correlative studies	Results	21
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 42	Results	22
+Measure Type: Count of Participants	Results	23
+Unit of Measure: Participants  29  69.0%	Results	24
+Adverse Events 1:	Adverse Events	0
+Total: 8/50 (16.00%)	Adverse Events	1
+Febrile Neutropenia1/50 (2.00%)	Adverse Events	2
+Death1/50 (2.00%)	Adverse Events	3
+Neutropenia5/50 (10.00%)	Adverse Events	4

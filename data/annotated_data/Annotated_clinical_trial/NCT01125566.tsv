@@ -1,0 +1,153 @@
+INTERVENTION 1:	Intervention	0
+Afatinib + Vinorelbine (AV)	Intervention	1
+afatinib	CHEBI:61390	0-8
+vinorelbine	CHEBI:480999	11-22
+Participants received oral treatment of film-coated Afatinib tablet at a starting dose of 40 milligram (mg) once daily and weekly 10 minutes intravenous infusion of Vinorelbine 25 mg/meter^2 (meter=m) on days 1, 8, 15, and 22 of each course. The treatment was administered in treatment courses of 28 days. For Afatinib, a protocol-defined dose-reduction scheme was to be followed if a participant experienced certain pre-specified adverse events. From 26 April 2013, any participant who had been randomised to the AV arm stopped treatment, had the option to switch to Trastuzamb + Vinorelbine.	Intervention	2
+afatinib	CHEBI:61390	52-60
+afatinib	CHEBI:61390	310-318
+vinorelbine	CHEBI:480999	165-176
+vinorelbine	CHEBI:480999	581-592
+INTERVENTION 2:	Intervention	3
+Trastuzumab + Vinorelbine (TV)	Intervention	4
+vinorelbine	CHEBI:480999	14-25
+Participants received an intravenous infusion of Trastuzumab 2 mg/kilogram (kg) weekly, following an initial loading dose of 4 mg/kg and weekly 10 minutes intravenous infusion of Vinorelbine 25 mg/m^2 on days 1, 8, 15, and 22 of each course. The treatment was administered in treatment courses of 28 days.	Intervention	5
+vinorelbine	CHEBI:480999	179-190
+Inclusion criteria:	Eligibility	0
+Histologically confirmed diagnosis of HER2-overexpression breast cancer	Eligibility	1
+breast cancer	DOID:1612	58-71
+Stage IV metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	20-27
+Must have progressed on one prior trastuzumab treatment	Eligibility	3
+no more than one prior trastuzumab based therapy regimen (either adjuvant or first-line)	Eligibility	4
+adjuvant	CHEBI:60809	65-73
+Must have received anthracycline and/or taxane based chemotherapy for adjuvant treatment of breast cancer or first-line treatment of metastatic breast cancer	Eligibility	5
+anthracycline	CHEBI:48120	19-32
+taxane	CHEBI:36064	40-46
+adjuvant	CHEBI:60809	70-78
+breast cancer	DOID:1612	92-105
+breast cancer	DOID:1612	144-157
+Must have (archived) tumour tissue sample available for central re-assessment of HER2-status	Eligibility	6
+tissue	UBERON:0000479	28-34
+central	HP:0030645	56-63
+At least one measurable lesion according to RECIST 1.1.	Eligibility	7
+Eastern Cooperative Oncology Group (ECOG) score of 0 or 1 .	Eligibility	8
+group	CHEBI:24433	29-34
+Exclusion criteria:	Eligibility	9
+Prior treatment with Epidermal Growth Factor Receptor/Human Epidermal Growth Factor Receptor(EGFR/HER2)-targeted small molecules or antibodies other than trastuzumab	Eligibility	10
+growth factor	BAO:0002024	31-44
+growth factor	BAO:0002024	70-83
+receptor	BAO:0000281	45-53
+receptor	BAO:0000281	84-92
+Prior treatment with vinorelbine	Eligibility	11
+vinorelbine	CHEBI:480999	21-32
+Known pre-existing interstitial lung disease	Eligibility	12
+interstitial lung disease	DOID:3082	19-44
+Active brain metastases	Eligibility	13
+active	PATO:0002354	0-6
+brain	UBERON:0000955	7-12
+History or presence of clinically relevant cardiovascular abnormalities such as uncontrolled hypertension, congestive heart failure NYHA classification of 3, unstable angina or poorly controlled arrhythmia. Myocardial infarction within 6 months prior to randomisation.	Eligibility	14
+history	BFO:0000182	0-7
+hypertension	HP:0000822,DOID:10763	93-105
+congestive heart failure	HP:0001635,DOID:6000	107-131
+arrhythmia	HP:0011675	195-205
+myocardial infarction	HP:0001658,DOID:5844	207-228
+Cardiac left ventricular function with resting ejection fraction of less than 50%.	Eligibility	15
+left	HP:0012835	8-12
+function	BAO:0003117,BFO:0000034	25-33
+ejection fraction	CMO:0000180	47-64
+Patients unable to comply with the protocol.	Eligibility	16
+Any contraindications for therapy with vinorelbine or trastuzumab.	Eligibility	17
+vinorelbine	CHEBI:480999	39-50
+Known hypersensitivity to BIBW 2992 or the excipients of any of the trial drugs.	Eligibility	18
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Use of any investigational drug within 4 weeks of randomisation.	Eligibility	19
+drug	CHEBI:23888	27-31
+Inadequate hepatic, renal and haematologic organ function	Eligibility	20
+organ	UBERON:0000062	43-48
+function	BAO:0003117,BFO:0000034	49-57
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS)	Results	1
+PFS is defined as time from randomisation to disease progression or death whichever occurs first. Assessed by investigator according to the Response Evaluation Criteria in Solid Tumours (RECIST 1.1). RECIST is a set of published rules that define when tumors in cancer patients improve ("respond"), stay the same ("stabilize") or worsen ("progress") during treatment.	Results	2
+time	PATO:0000165	18-22
+disease	DOID:4,OGMS:0000031	45-52
+death	OAE:0000632	68-73
+cancer	DOID:162	262-268
+Only data collected until the cut-off date for RECIST 1.1 based endpoints (08Jun2013) were considered.	Results	3
+Progression of disease was determined if at least 1 of the following criteria applied:	Results	4
+disease	DOID:4,OGMS:0000031	15-22
+At least a 20% increase in the sum of the diameters (SoD) of target lesions taking as reference the smallest SoD recorded since the treatment started, together with an absolute increase in the SoD of at least 5 mm	Results	5
+increase	BAO:0001251	15-23
+increase	BAO:0001251	177-185
+target	BAO:0003064	61-67
+Appearance of 1 or more new lesions	Results	6
+Unequivocal progression of existing non-target lesions	Results	7
+Time frame: From randomization (07Sep2010) until disease progression, death or data cut-off (08Jun2013); Up to 34 months	Results	8
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	49-56
+death	OAE:0000632	70-75
+Results 1:	Results	9
+Arm/Group Title: Afatinib + Vinorelbine (AV)	Results	10
+afatinib	CHEBI:61390	17-25
+vinorelbine	CHEBI:480999	28-39
+Arm/Group Description: Participants received oral treatment of film-coated Afatinib tablet at a starting dose of 40 milligram (mg) once daily and weekly 10 minutes intravenous infusion of Vinorelbine 25 mg/meter^2 (meter=m) on days 1, 8, 15, and 22 of each course. The treatment was administered in treatment courses of 28 days. For Afatinib, a protocol-defined dose-reduction scheme was to be followed if a participant experienced certain pre-specified adverse events. From 26 April 2013, any participant who had been randomised to the AV arm stopped treatment, had the option to switch to Trastuzamb + Vinorelbine.	Results	11
+afatinib	CHEBI:61390	75-83
+afatinib	CHEBI:61390	333-341
+vinorelbine	CHEBI:480999	188-199
+vinorelbine	CHEBI:480999	604-615
+Overall Number of Participants Analyzed: 339	Results	12
+Median (Inter-Quartile Range)	Results	13
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: Months  5.49        (3.55 to 9.07)	Results	14
+Results 2:	Results	15
+Arm/Group Title: Trastuzumab + Vinorelbine (TV)	Results	16
+vinorelbine	CHEBI:480999	31-42
+Arm/Group Description: Participants received an intravenous infusion of Trastuzumab 2 mg/kilogram (kg) weekly, following an initial loading dose of 4 mg/kg and weekly 10 minutes intravenous infusion of Vinorelbine 25 mg/m^2 on days 1, 8, 15, and 22 of each course. The treatment was administered in treatment courses of 28 days.	Results	17
+vinorelbine	CHEBI:480999	202-213
+Overall Number of Participants Analyzed: 169	Results	18
+Median (Inter-Quartile Range)	Results	19
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: Months  5.55        (3.55 to 10.84)	Results	20
+Adverse Events 1:	Adverse Events	0
+Total: 123/337 (36.50%)	Adverse Events	1
+Agranulocytosis 1/337 (0.30%)	Adverse Events	2
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Anaemia 2/337 (0.59%)	Adverse Events	3
+Bone marrow failure 1/337 (0.30%)	Adverse Events	4
+bone marrow	UBERON:0002371	0-11
+Disseminated intravascular coagulation 0/337 (0.00%)	Adverse Events	5
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 21/337 (6.23%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 2/337 (0.59%)	Adverse Events	7
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 18/337 (5.34%)	Adverse Events	8
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/337 (0.00%)	Adverse Events	9
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 0/337 (0.00%)	Adverse Events	10
+acute myocardial infarction	DOID:9408	0-27
+Left ventricular failure 0/337 (0.00%)	Adverse Events	11
+left	HP:0012835	0-4
+Adverse Events 2:	Adverse Events	12
+Total: 45/169 (26.63%)	Adverse Events	13
+Agranulocytosis 0/169 (0.00%)	Adverse Events	14
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Anaemia 2/169 (1.18%)	Adverse Events	15
+Bone marrow failure 0/169 (0.00%)	Adverse Events	16
+bone marrow	UBERON:0002371	0-11
+Disseminated intravascular coagulation 0/169 (0.00%)	Adverse Events	17
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 7/169 (4.14%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/169 (0.00%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 4/169 (2.37%)	Adverse Events	20
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 2/169 (1.18%)	Adverse Events	21
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 1/169 (0.59%)	Adverse Events	22
+acute myocardial infarction	DOID:9408	0-27
+Left ventricular failure 1/169 (0.59%)	Adverse Events	23
+left	HP:0012835	0-4

@@ -1,0 +1,208 @@
+INTERVENTION 1:	Intervention	0
+Talazoparib	Intervention	1
+Participants received talazoparib 1 mg, orally, once daily until radiographic disease progression as determined by the central IRF, unacceptable toxicity, consent withdrawal, physician's decision to terminate treatment, or sponsor's decision to terminate the trial (up to a maximum of 70.2 months). One cycle was of 21 days.	Intervention	2
+disease	DOID:4,OGMS:0000031	78-85
+central	HP:0030645	119-126
+INTERVENTION 2:	Intervention	3
+Physician's Choice Treatment	Intervention	4
+Participants received 1 of the following drugs in specified regimens, as per the physician's choice: 1) capecitabine 1250 mg/m^2 orally twice daily on Day 1 to 14 in each cycle; 2) eribulin mesylate 1.4 mg/m^2 (equivalent to eribulin 1.23 mg/ m^2), as 2 to 5 minute IV infusion on Day 1 and 8 in each cycle; 3) gemcitabine 1250 mg/m^2 as 30-minute IV infusion on Day 1 and 8 in each cycle; 4) vinorelbine 30 mg/m^2 as 6 to 10 minute IV infusion on Day 1, 8, and 15 in each cycle; until radiographic disease progression as determined by the central IRF, unacceptable toxicity, consent withdrawal, physician's decision to terminate treatment, or Sponsor's decision to terminate the trial (up to a maximum of 45.3 months). One cycle was of 21 days.	Intervention	5
+capecitabine	CHEBI:31348	104-116
+day	UO:0000033	151-154
+day	UO:0000033	281-284
+day	UO:0000033	363-366
+day	UO:0000033	448-451
+day	UO:0000033	740-743
+eribulin mesylate	CHEBI:70710	181-198
+eribulin	CHEBI:63587	181-189
+eribulin	CHEBI:63587	225-233
+minute	UO:0000031	259-265
+minute	UO:0000031	341-347
+minute	UO:0000031	426-432
+gemcitabine	CHEBI:175901	311-322
+vinorelbine	CHEBI:480999	393-404
+disease	DOID:4,OGMS:0000031	499-506
+central	HP:0030645	540-547
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed carcinoma of the breast	Eligibility	1
+carcinoma	HP:0030731,DOID:305	42-51
+breast	UBERON:0000310	59-65
+Locally advanced breast cancer that is not amenable to curative radiation or surgical cure and/or metastatic disease appropriate for systemic single cytotoxic chemotherapy	Eligibility	2
+breast cancer	DOID:1612	17-30
+disease	DOID:4,OGMS:0000031	109-116
+Documentation of a deleterious, suspected deleterious, or pathogenic germline BRCA1 or BRCA2 mutation from Myriad Genetics or other laboratory approved by the Sponsor	Eligibility	3
+No more than 3 prior chemotherapy-inclusive regimens for locally advanced and/or metastatic disease (no limit on prior hormonal therapies or targeted anticancer therapies such as mechanistic target of rapamycin (mTOR) or CDK4/6 inhibitors, immune-oncology agents, tyrosine kinase inhibitors, or monoclonal antibodies against CTL4 or VEGF)	Eligibility	4
+disease	DOID:4,OGMS:0000031	92-99
+target	BAO:0003064	141-147
+target	BAO:0003064	191-197
+tyrosine	CHEBI:18186	264-272
+kinase	BAO:0000294	273-279
+monoclonal	BAO:0000503	295-305
+Prior treatment with a taxane and/or anthracycline in the neoadjuvant, adjuvant, locally advanced, or metastatic setting unless medically contraindicated	Eligibility	5
+taxane	CHEBI:36064	23-29
+anthracycline	CHEBI:48120	37-50
+adjuvant	CHEBI:60809	61-69
+adjuvant	CHEBI:60809	71-79
+Have measurable or non-measurable, evaluable disease by the revised response evaluation criteria in solid tumors (RECIST) v.1.1	Eligibility	6
+disease	DOID:4,OGMS:0000031	45-52
+Eastern Cooperative Oncology Group (ECOG) performance status  2	Eligibility	7
+group	CHEBI:24433	29-34
+Exclusion Criteria:	Eligibility	8
+First-line locally advanced and/or metastatic breast cancer with no prior adjuvant chemotherapy unless the Investigator determines that one of the 4 cytotoxic chemotherapy agents in the control arm would otherwise be offered to the subject	Eligibility	9
+breast cancer	DOID:1612	46-59
+adjuvant	CHEBI:60809	74-82
+Prior treatment with a PARP inhibitor (not including iniparib)	Eligibility	10
+inhibitor	CHEBI:35222	28-37
+Not a candidate for treatment with at least 1 of the treatments of protocol-specific physician's choice (ie, capecitabine, eribulin, gemcitabine, vinorelbine)	Eligibility	11
+capecitabine	CHEBI:31348	109-121
+eribulin	CHEBI:63587	123-131
+gemcitabine	CHEBI:175901	133-144
+vinorelbine	CHEBI:480999	146-157
+Subjects who had objective disease progression while receiving platinum chemotherapy administered for locally advanced or metastatic disease; subjects who received low-dose platinum therapy administered in combination with radiation therapy are not excluded	Eligibility	12
+disease	DOID:4,OGMS:0000031	27-34
+disease	DOID:4,OGMS:0000031	133-140
+platinum	CHEBI:33364	63-71
+platinum	CHEBI:33364	173-181
+excluded	HP:0040285	249-257
+Subjects who have received platinum in the adjuvant or neoadjuvant setting are eligible; however, subjects may not have relapsed within 6 months of the last dose of prior platinum therapy	Eligibility	13
+platinum	CHEBI:33364	27-35
+platinum	CHEBI:33364	171-179
+adjuvant	CHEBI:60809	43-51
+adjuvant	CHEBI:60809	58-66
+Cytotoxic chemotherapy within 14 days before randomization	Eligibility	14
+Radiation or anti-hormonal therapy or other targeted anticancer therapy within 14 days before randomization	Eligibility	15
+HER2 positive breast cancer	Eligibility	16
+breast cancer	DOID:1612	14-27
+Active inflammatory breast cancer	Eligibility	17
+active	PATO:0002354	0-6
+breast cancer	DOID:1612	20-33
+CNS metastases	Eligibility	18
+Exception: Adequately treated brain metastases documented by baseline CT or MRI scan that has not progressed since previous scans and that does not require corticosteroids (except prednisone  5 mg/day or equivalent) for management of CNS symptoms. A repeat CT or MRI following the identification of CNS metastases (obtained at least 2 weeks after definitive therapy) must document adequately treated brain metastases.	Eligibility	19
+brain	UBERON:0000955	30-35
+brain	UBERON:0000955	400-405
+ct	BAO:0002125	70-72
+ct	BAO:0002125	257-259
+prednisone	CHEBI:8382	180-190
+document	IAO:0000310	47-55
+document	IAO:0000310	372-380
+Subjects with leptomeningeal carcinomatosis are not permitted	Eligibility	20
+Prior malignancy except for any of the following:	Eligibility	21
+Prior BRCA-associated cancer as long as there is no current evidence of the cancer	Eligibility	22
+cancer	DOID:162	22-28
+cancer	DOID:162	76-82
+Carcinoma in situ or non-melanoma skin cancer	Eligibility	23
+carcinoma	HP:0030731,DOID:305	0-9
+skin cancer	DOID:4159	34-45
+A cancer diagnosed and definitively treated  5 years before randomization with no subsequent evidence of recurrence	Eligibility	24
+cancer	DOID:162	2-8
+Known to be human immunodeficiency virus positive	Eligibility	25
+immunodeficiency	HP:0002721	18-34
+virus	BAO:0000232	35-40
+Known active hepatitis C virus, or known active hepatitis B virus	Eligibility	26
+active	PATO:0002354	6-12
+active	PATO:0002354	41-47
+hepatitis c	DOID:1883	13-24
+virus	BAO:0000232	25-30
+virus	BAO:0000232	60-65
+hepatitis b	DOID:2043	48-59
+Known hypersensitivity to any of the components of talazoparib	Eligibility	27
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS): Independent Radiological Facility (IRF) Assessment	Results	1
+IRF assessed PFS was defined as time (in months) from randomization until the date of first documented radiologic progressive disease per response evaluation criteria in solid tumors (RECIST) version 1.1 or death from any cause, whichever occurs first. As per RECIST v1.1, progression defined as 1) for target lesions: at least a 20% increase in the sum of target lesion measurements, compared to the smallest sum on study (including baseline), the absolute increase in the sum has to be at least 5 millimeter (mm); 2) for non-target lesions: unequivocal progression of non-target lesions, evaluated as a whole, such that it is clear that treatment has failed and disease is progressing, regardless of the status of the target lesions; 3) and/or appearance of one or more new lesions. The analysis was performed by Kaplan-Meier method.	Results	2
+time	PATO:0000165	32-36
+progressive	HP:0003676	114-125
+disease	DOID:4,OGMS:0000031	126-133
+disease	DOID:4,OGMS:0000031	664-671
+death	OAE:0000632	207-212
+target	BAO:0003064	303-309
+target	BAO:0003064	357-363
+target	BAO:0003064	527-533
+target	BAO:0003064	574-580
+target	BAO:0003064	720-726
+increase	BAO:0001251	334-342
+increase	BAO:0001251	458-466
+millimeter	UO:0000016	499-509
+Time frame: Baseline until radiologic progressive disease or death due to any cause (up to maximum duration of 36.9 months)	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	38-49
+disease	DOID:4,OGMS:0000031	50-57
+death	OAE:0000632	61-66
+duration	PATO:0001309	99-107
+Results 1:	Results	4
+Arm/Group Title: Talazoparib	Results	5
+Arm/Group Description: Participants received talazoparib 1 mg, orally, once daily until radiographic disease progression as determined by the central IRF, unacceptable toxicity, consent withdrawal, physician's decision to terminate treatment, or sponsor's decision to terminate the trial (up to a maximum of 70.2 months). One cycle was of 21 days.	Results	6
+disease	DOID:4,OGMS:0000031	101-108
+central	HP:0030645	142-149
+Overall Number of Participants Analyzed: 287	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  8.6        (7.2 to 9.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Physician's Choice Treatment	Results	11
+Arm/Group Description: Participants received 1 of the following drugs in specified regimens, as per the physician's choice: 1) capecitabine 1250 mg/m^2 orally twice daily on Day 1 to 14 in each cycle; 2) eribulin mesylate 1.4 mg/m^2 (equivalent to eribulin 1.23 mg/ m^2), as 2 to 5 minute IV infusion on Day 1 and 8 in each cycle; 3) gemcitabine 1250 mg/m^2 as 30-minute IV infusion on Day 1 and 8 in each cycle; 4) vinorelbine 30 mg/m^2 as 6 to 10 minute IV infusion on Day 1, 8, and 15 in each cycle; until radiographic disease progression as determined by the central IRF, unacceptable toxicity, consent withdrawal, physician's decision to terminate treatment, or Sponsor's decision to terminate the trial (up to a maximum of 45.3 months). One cycle was of 21 days.	Results	12
+capecitabine	CHEBI:31348	127-139
+day	UO:0000033	174-177
+day	UO:0000033	304-307
+day	UO:0000033	386-389
+day	UO:0000033	471-474
+day	UO:0000033	763-766
+eribulin mesylate	CHEBI:70710	204-221
+eribulin	CHEBI:63587	204-212
+eribulin	CHEBI:63587	248-256
+minute	UO:0000031	282-288
+minute	UO:0000031	364-370
+minute	UO:0000031	449-455
+gemcitabine	CHEBI:175901	334-345
+vinorelbine	CHEBI:480999	416-427
+disease	DOID:4,OGMS:0000031	522-529
+central	HP:0030645	563-570
+Overall Number of Participants Analyzed: 144	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  5.6        (4.2 to 6.7)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 103/286 (36.01%)	Adverse Events	1
+Anaemia * 18/286 (6.29%)	Adverse Events	2
+Neutropenia * 3/286 (1.05%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 2/286 (0.70%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Febrile neutropenia * 1/286 (0.35%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 1/286 (0.35%)	Adverse Events	6
+leukopenia	HP:0001882,DOID:615	0-10
+Pancytopenia * 2/286 (0.70%)	Adverse Events	7
+pancytopenia	HP:0001876,DOID:12450	0-12
+Pericardial effusion * 3/286 (1.05%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Atrial flutter * 1/286 (0.35%)	Adverse Events	9
+atrial flutter	HP:0004749	0-14
+Cardiac tamponade * 1/286 (0.35%)	Adverse Events	10
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Diplopia * 2/286 (0.70%)	Adverse Events	11
+diplopia	HP:0000651	0-8
+Vomiting * 5/286 (1.75%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+Adverse Events 2:	Adverse Events	13
+Total: 39/126 (30.95%)	Adverse Events	14
+Anaemia * 0/126 (0.00%)	Adverse Events	15
+Neutropenia * 4/126 (3.17%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 0/126 (0.00%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Febrile neutropenia * 1/126 (0.79%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 0/126 (0.00%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+Pancytopenia * 0/126 (0.00%)	Adverse Events	20
+pancytopenia	HP:0001876,DOID:12450	0-12
+Pericardial effusion * 0/126 (0.00%)	Adverse Events	21
+pericardial effusion	HP:0001698,DOID:118	0-20
+Atrial flutter * 0/126 (0.00%)	Adverse Events	22
+atrial flutter	HP:0004749	0-14
+Cardiac tamponade * 0/126 (0.00%)	Adverse Events	23
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Diplopia * 0/126 (0.00%)	Adverse Events	24
+diplopia	HP:0000651	0-8
+Vomiting * 2/126 (1.59%)	Adverse Events	25
+vomiting	HP:0002013	0-8

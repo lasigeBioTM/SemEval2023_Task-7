@@ -1,0 +1,175 @@
+INTERVENTION 1:	Intervention	0
+Docetaxel and Bevacizumab	Intervention	1
+Stratum 1: HER2 Negative participants with metastatic breast cancer treated with DB (docetaxel and bevacizumab) intravenously (IV) every 3 weeks (q3w) until treatment discontinuation criteria (unacceptable toxicity, disease progression or death) are met	Intervention	2
+breast cancer	DOID:1612	54-67
+disease	DOID:4,OGMS:0000031	216-223
+death	OAE:0000632	239-244
+INTERVENTION 2:	Intervention	3
+Docetaxel, Bevacizumab and Trastuzumab	Intervention	4
+Stratum 2: HER2 Positive participants with metastatic breast cancer treated with DBT (docetaxel, bevacizumab, and trastuzumab) IV q3w until treatment discontinuation criteria (unacceptable toxicity, disease progression or death) are met	Intervention	5
+breast cancer	DOID:1612	54-67
+disease	DOID:4,OGMS:0000031	199-206
+death	OAE:0000632	222-227
+The following information on clinical trials is provided for information purposes only to allow participants and physicians to have an initial discussion about the trial. This information is not intended to be complete information about the trial, to contain all considerations that may be relevant to potential participation in the trial, or to replace the advice of a personal physician or health professional.	Eligibility	0
+INCLUSION CRITERIA:	Eligibility	1
+Histologically or cytologically proven adenocarcinoma of the breast at first diagnosis	Eligibility	2
+adenocarcinoma	DOID:299	39-53
+breast	UBERON:0000310	61-67
+Stage IV disease with at least one measurable lesion according to the RECIST criteria	Eligibility	3
+disease	DOID:4,OGMS:0000031	9-16
+HER2/neu positive as determined by 3+ immunohistochemistry (IHC) staining or fluorescence in situ hybridization (FISH) positivity or negative tumors	Eligibility	4
+immunohistochemistry	BAO:0000415	38-58
+Life expectancy of >/= 24 weeks	Eligibility	5
+No prior chemotherapy for metastatic breast cancer. (Prior endocrine therapy is permitted).	Eligibility	6
+breast cancer	DOID:1612	37-50
+Prior neoadjuvant or adjuvant chemotherapy is permitted, or at least 12 months must have elapsed since the neoadjuvant or adjuvant therapy. Subjects may have received prior adjuvant anthracyclines (maximum cumulative dose, 360 mg/m^2 doxorubicin or 750 mg/m^2 epirubicin)	Eligibility	7
+adjuvant	CHEBI:60809	9-17
+adjuvant	CHEBI:60809	21-29
+adjuvant	CHEBI:60809	110-118
+adjuvant	CHEBI:60809	122-130
+adjuvant	CHEBI:60809	173-181
+doxorubicin	CHEBI:28748,BAO:0000639	234-245
+At least 4 weeks since prior surgery, radiotherapy, endocrine therapy, or experimental drug therapy with complete recovery from the effects of these interventions	Eligibility	8
+surgery	OAE:0000067	29-36
+radiotherapy	OAE:0000235	38-50
+drug	CHEBI:23888	87-91
+It is recommended that all baseline staging should be completed within 35 days prior to study entry. All subjects will have the following workup as applicable; CT scan of brain, CT scan or MRI of chest and abdomen, and bone scan or PET scan. In cases of positive bone or PET scans, bone X-ray evaluation and/or MRI is required to confirm or exclude metastatic bone disease. Subjects with metastatic disease limited to bone are ineligible unless at least one lytic lesion is measurable and can be followed by RECIST criteria. Other tests may be performed as clinically indicated	Eligibility	9
+ct	BAO:0002125	110-112
+ct	BAO:0002125	160-162
+ct	BAO:0002125	178-180
+ct	BAO:0002125	379-381
+brain	UBERON:0000955	171-176
+chest	UBERON:0001443	196-201
+abdomen	UBERON:0000916	206-213
+bone disease	DOID:0080001	360-372
+disease	DOID:4,OGMS:0000031	365-372
+disease	DOID:4,OGMS:0000031	399-406
+Normal cardiac function must be confirmed by left ventricular ejection fraction (LVEF) of >/= 50% or shortening fraction (multiple-gated acquisition [MUGA] scan or echocardiography respectively). The result must be greater than the lower limit of normal (LLN) for the institution.	Eligibility	10
+function	BAO:0003117,BFO:0000034	15-23
+left	HP:0012835	45-49
+ejection fraction	CMO:0000180	62-79
+result	BAO:0000179	200-206
+Subjects receiving bisphosphonate therapy; however, if bisphosphonates were started within <2 months prior to treatment the bone lesions will not be evaluated for response, and the subjects must have another site of metastatic disease that is either measurable or evaluable for response	Eligibility	11
+site	BFO:0000029	208-212
+disease	DOID:4,OGMS:0000031	227-234
+EXCLUSION CRITERIA:	Eligibility	12
+Prior chemotherapy for metastatic breast cancer	Eligibility	13
+breast cancer	DOID:1612	34-47
+Prior treatment with bevacizumab or other anti-VEGF therapy	Eligibility	14
+Concurrent treatment with any other non-protocol anticancer therapy with the exception of radiation therapy as long as all target lesions being followed are not in the radiation field and if HER2/neu positive, HER2/neu-directed therapy	Eligibility	15
+target	BAO:0003064	123-129
+Current or prior history of brain or leptomeningeal metastases	Eligibility	16
+history	BFO:0000182	17-24
+brain	UBERON:0000955	28-33
+Presence of neuropathy >/= 2	Eligibility	17
+neuropathy	DOID:870	12-22
+Presence of any non-healing wound, fracture, or ulcer, or the presence of clinically significant (>/= Grade 2) peripheral vascular disease	Eligibility	18
+ulcer	OAE:0004372	48-53
+peripheral vascular disease	DOID:341	111-138
+History of any other malignancy within the past 5 years, with the exception of non-melanoma skin cancer or carcinoma in-situ of the cervix	Eligibility	19
+history	BFO:0000182	0-7
+skin cancer	DOID:4159	92-103
+carcinoma	HP:0030731,DOID:305	107-116
+Clinically significant cardiovascular disease	Eligibility	20
+disease	DOID:4,OGMS:0000031	38-45
+Active peptic ulcer disease, inflammatory bowel disease, or other gastrointestinal condition increasing the risk of perforation; history of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to beginning therapy	Eligibility	21
+active peptic ulcer disease	DOID:749	0-27
+inflammatory bowel disease	DOID:0050589	29-55
+condition	PDRO:0000129	83-92
+history	BFO:0000182	129-136
+abscess	HP:0025615	208-215
+History of bleeding diathesis or coagulopathy	Eligibility	22
+history	BFO:0000182	0-7
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS) Rate: Percentage of Participants With PFS	Results	1
+rate	BAO:0080019	32-36
+PFS was the time from registration to first documentation of	Results	2
+time	PATO:0000165	12-16
+progressive disease (PD) based on Response Evaluation Criteria in Solid Tumors (RECIST) - criteria pre-defining changes in lesion size or appearance	Results	3
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+size	PATO:0000117	130-134
+symptomatic deterioration	Results	4
+death due to any cause (in absence of PD).	Results	5
+death	OAE:0000632	0-5
+The Percentage of participants with PFS is reported.	Results	6
+For the analysis, participants were censored	Results	7
+on the last available tumor assessment date on study treatment if they	Results	8
+had no PFS event	Results	9
+were on anticancer therapy not related to study treatment	Results	10
+on the registration date if they	Results	11
+did not receive study drug	Results	12
+drug	CHEBI:23888	22-26
+had no post baseline tumor assessment	Results	13
+Time frame: Up to 6 months and 12 months after treatment initiation	Results	14
+time	PATO:0000165	0-4
+Results 1:	Results	15
+Arm/Group Title: Docetaxel and Bevacizumab	Results	16
+Arm/Group Description: Stratum 1: HER2 Negative participants with metastatic breast cancer treated with DB (docetaxel and bevacizumab) intravenously (IV) every 3 weeks (q3w) until treatment discontinuation criteria (unacceptable toxicity, disease progression or death) are met	Results	17
+breast cancer	DOID:1612	77-90
+disease	DOID:4,OGMS:0000031	239-246
+death	OAE:0000632	262-267
+Overall Number of Participants Analyzed: 52	Results	18
+Measure Type: Number	Results	19
+Unit of Measure: percentage of participants  PFS rate at 6 months: 59.6        (45.1 to 73.0)	Results	20
+rate	BAO:0080019	49-53
+PFS rate at 12 months: 30.8        (18.7 to 45.1)	Results	21
+rate	BAO:0080019	4-8
+Results 2:	Results	22
+Arm/Group Title: Docetaxel, Bevacizumab and Trastuzumab	Results	23
+Arm/Group Description: Stratum 2: HER2 Positive participants with metastatic breast cancer treated with DBT (docetaxel, bevacizumab, and trastuzumab) IV q3w until treatment discontinuation criteria (unacceptable toxicity, disease progression or death) are met	Results	24
+breast cancer	DOID:1612	77-90
+disease	DOID:4,OGMS:0000031	222-229
+death	OAE:0000632	245-250
+Overall Number of Participants Analyzed: 21	Results	25
+Measure Type: Number	Results	26
+Unit of Measure: percentage of participants  PFS rate at 6 months: 90.5        (69.6 to 98.8)	Results	27
+rate	BAO:0080019	49-53
+PFS rate at 12 months: 81.0        (58.1 to 94.6)	Results	28
+rate	BAO:0080019	4-8
+Adverse Events 1:	Adverse Events	0
+Total: 14/52 (26.92%)	Adverse Events	1
+Febrile neutropenia * 1/52 (1.92%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Tachycardia * 1/52 (1.92%)	Adverse Events	3
+tachycardia	HP:0001649	0-11
+Atrial fibrillation * 0/52 (0.00%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Duodenal ulcer * 1/52 (1.92%)	Adverse Events	5
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Gastric ulcer * 1/52 (1.92%)	Adverse Events	6
+gastric ulcer	HP:0002592,DOID:10808	0-13
+Nausea * 1/52 (1.92%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Abdominal pain * 0/52 (0.00%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Asthenia * 1/52 (1.92%)	Adverse Events	9
+asthenia	HP:0025406	0-8
+Disease progression * 1/52 (1.92%)	Adverse Events	10
+disease	DOID:4,OGMS:0000031	0-7
+Mucosal inflammation * 1/52 (1.92%)	Adverse Events	11
+Appendicitis * 1/52 (1.92%)	Adverse Events	12
+appendicitis	DOID:8337	0-12
+Adverse Events 2:	Adverse Events	13
+Total: 4/20 (20.00%)	Adverse Events	14
+Febrile neutropenia * 0/20 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Tachycardia * 0/20 (0.00%)	Adverse Events	16
+tachycardia	HP:0001649	0-11
+Atrial fibrillation * 1/20 (5.00%)	Adverse Events	17
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Duodenal ulcer * 0/20 (0.00%)	Adverse Events	18
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Gastric ulcer * 0/20 (0.00%)	Adverse Events	19
+gastric ulcer	HP:0002592,DOID:10808	0-13
+Nausea * 0/20 (0.00%)	Adverse Events	20
+nausea	HP:0002018	0-6
+Abdominal pain * 1/20 (5.00%)	Adverse Events	21
+abdominal pain	HP:0002027	0-14
+Asthenia * 0/20 (0.00%)	Adverse Events	22
+asthenia	HP:0025406	0-8
+Disease progression * 0/20 (0.00%)	Adverse Events	23
+disease	DOID:4,OGMS:0000031	0-7
+Mucosal inflammation * 0/20 (0.00%)	Adverse Events	24
+Appendicitis * 0/20 (0.00%)	Adverse Events	25
+appendicitis	DOID:8337	0-12

@@ -1,0 +1,92 @@
+INTERVENTION 1:	Intervention	0
+Part 1: Cohort 1	Intervention	1
+MM-121: 12 mg/kg IV QW Cetuximab: 400 mg/m2 loading dose followed by 200 mg/m2 maintenance IV QW	Intervention	2
+INTERVENTION 2:	Intervention	3
+Part 1: Cohort 2a	Intervention	4
+MM-121: 20 mg/kg IV QW Cetuximab: 400 mg/m2 loading dose followed by 200 mg/m2 maintenance IV QW	Intervention	5
+Inclusion Criteria:	Eligibility	0
+No standard options remaining	Eligibility	1
+Adequate liver and kidney functions	Eligibility	2
+liver	UBERON:0002107	9-14
+kidney	UBERON:0002113	19-25
+18 years of age or above	Eligibility	3
+age	PATO:0000011	12-15
+Exclusion Criteria:	Eligibility	4
+History of any secondary active cancer in the last 3 years.	Eligibility	5
+history	BFO:0000182	0-7
+active	PATO:0002354	25-31
+cancer	DOID:162	32-38
+Pregnant or breast feeding	Eligibility	6
+breast	UBERON:0000310	12-18
+History of severe allergic reactions or contraindications to cetuximab or irinotecan	Eligibility	7
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+irinotecan	CHEBI:80630	74-84
+Outcome Measurement:	Results	0
+Dose Escalation: To Evaluate the Safety and Tolerability of Escalating Doses of the MM-121 Plus Cetuximab and the MM-121 Plus Cetuximab Plus Irinotecan Combination	Results	1
+irinotecan	CHEBI:80630	141-151
+To establish the safety of escalating doses of MM-121 in combination with cetuximab or in combination with cetuximab and irinotecan in order to determine the recommended phase 2 dose.. Dose-escalation conducted using standard 3+3 model to determine maximum tolerated dose. Reports of Dose-Limiting Toxicities (DLTs) were assessed to determine the MTD.	Results	2
+irinotecan	CHEBI:80630	121-131
+mtd	BAO:0001248	347-350
+Time frame: From date of first dose to 30 days after termination, the longest 48.1 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Part 1: Cohort 1	Results	5
+Arm/Group Description: MM-121: 12 mg/kg IV QW Cetuximab: 400 mg/m2 loading dose followed by 200 mg/m2 maintenance IV QW	Results	6
+Overall Number of Participants Analyzed: 8	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants reporting DLTs  1	Results	9
+Results 2:	Results	10
+Arm/Group Title: Part 1: Cohort 2a	Results	11
+Arm/Group Description: MM-121: 20 mg/kg IV QW Cetuximab: 400 mg/m2 loading dose followed by 200 mg/m2 maintenance IV QW	Results	12
+Overall Number of Participants Analyzed: 4	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants reporting DLTs  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 15/34 (44.12%)	Adverse Events	1
+Neutropenia * 0/34 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Pericardial effusion * 1/34 (2.94%)	Adverse Events	3
+pericardial effusion	HP:0001698,DOID:118	0-20
+Supraventricular tachycardia * 1/34 (2.94%)	Adverse Events	4
+supraventricular tachycardia	HP:0004755	0-28
+Cardiac Arrest * 0/34 (0.00%)	Adverse Events	5
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Abdominal Pain * 1/34 (2.94%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Constipation * 1/34 (2.94%)	Adverse Events	7
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea * 1/34 (2.94%)	Adverse Events	8
+diarrhea	HP:0002014,DOID:13250	0-8
+Intestinal Obstruction * 0/34 (0.00%)	Adverse Events	9
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea * 0/34 (0.00%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Stomatitis * 0/34 (0.00%)	Adverse Events	11
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting * 0/34 (0.00%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+Adverse Events 2:	Adverse Events	13
+Total: 6/14 (42.86%)	Adverse Events	14
+Neutropenia * 1/14 (7.14%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Pericardial effusion * 1/14 (7.14%)	Adverse Events	16
+pericardial effusion	HP:0001698,DOID:118	0-20
+Supraventricular tachycardia * 0/14 (0.00%)	Adverse Events	17
+supraventricular tachycardia	HP:0004755	0-28
+Cardiac Arrest * 1/14 (7.14%)	Adverse Events	18
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Abdominal Pain * 0/14 (0.00%)	Adverse Events	19
+abdominal pain	HP:0002027	0-14
+Constipation * 0/14 (0.00%)	Adverse Events	20
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea * 2/14 (14.29%)	Adverse Events	21
+diarrhea	HP:0002014,DOID:13250	0-8
+Intestinal Obstruction * 1/14 (7.14%)	Adverse Events	22
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea * 1/14 (7.14%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Stomatitis * 1/14 (7.14%)	Adverse Events	24
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting * 1/14 (7.14%)	Adverse Events	25
+vomiting	HP:0002013	0-8

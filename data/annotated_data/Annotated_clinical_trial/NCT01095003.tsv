@@ -1,0 +1,151 @@
+INTERVENTION 1:	Intervention	0
+Vinflunine Plus Capecitabine	Intervention	1
+vinflunine	CHEBI:90241	0-10
+capecitabine	CHEBI:31348	16-28
+Vinflunine plus Capecitabine: Vinflunine 280mg/m² as a 20-minute i.v. infusion on day 1 of each cycle repeated every 3 weeks	Intervention	2
+vinflunine	CHEBI:90241	0-10
+vinflunine	CHEBI:90241	30-40
+capecitabine	CHEBI:31348	16-28
+day	UO:0000033	82-85
+Capecitabine 825mg/m² per os twice per day for 14 consecutive days starting day 1 of each cycle repeated every 3 weeks	Intervention	3
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	39-42
+day	UO:0000033	62-65
+day	UO:0000033	76-79
+INTERVENTION 2:	Intervention	4
+Capecitabine Single-agent	Intervention	5
+capecitabine	CHEBI:31348	0-12
+Capecitabine: Capecitabine 825mg/m² per os twice per day for 14 consecutive days starting day 1 of each cycle repeated every 3 weeks	Intervention	6
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	14-26
+day	UO:0000033	53-56
+day	UO:0000033	76-79
+day	UO:0000033	90-93
+Inclusion Criteria:	Eligibility	0
+female patients	Eligibility	1
+female	PATO:0000383	0-6
+21 years of age or older	Eligibility	2
+age	PATO:0000011	12-15
+histologically/cytologically confirmed carcinoma of the breast	Eligibility	3
+carcinoma	HP:0030731,DOID:305	39-48
+breast	UBERON:0000310	56-62
+documented locally recurrent or metastatic disease not amenable to curative surgery or radiotherapy	Eligibility	4
+recurrent	HP:0031796	19-28
+disease	DOID:4,OGMS:0000031	43-50
+surgery	OAE:0000067	76-83
+radiotherapy	OAE:0000235	87-99
+either one, two or three prior chemotherapy regimens	Eligibility	5
+prior treatments including both an anthracycline and a taxane and patient no longer candidate for these drugs	Eligibility	6
+anthracycline	CHEBI:48120	35-48
+taxane	CHEBI:36064	55-61
+patient	HADO:0000008,OAE:0001817	66-73
+measurable or non-measurable disease according to RECIST 1.1	Eligibility	7
+disease	DOID:4,OGMS:0000031	29-36
+Karnofsky performance score of at least 70 %	Eligibility	8
+adequate haematological, hepatic and renal functions	Eligibility	9
+ECG without clinically relevant abnormality	Eligibility	10
+Exclusion Criteria:	Eligibility	11
+known or clinical evidence of brain metastasis or leptomeningeal involvement	Eligibility	12
+brain	UBERON:0000955	30-35
+pulmonary lymphangitis or symptomatic pleural effusion	Eligibility	13
+lymphangitis	DOID:9317	10-22
+pleural effusion	HP:0002202	38-54
+any serious, concurrent uncontrolled medical disorder	Eligibility	14
+disorder	OGMS:0000045	45-53
+history of second primary malignancy	Eligibility	15
+history	BFO:0000182	0-7
+second	UO:0000010	11-17
+preexisting motor/sensory peripheral neuropathy	Eligibility	16
+peripheral neuropathy	HP:0009830,DOID:870	26-47
+known history of HIV infection	Eligibility	17
+history	BFO:0000182	6-13
+prior therapy with capecitabine and/or vinca-alkaloids	Eligibility	18
+capecitabine	CHEBI:31348	19-31
+history of severe hypersensitivity to vinca alkaloids and/or to fluoropyrimidine or contra indication to any of these drugs	Eligibility	19
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+hypersensitivity	GO:0002524,DOID:1205	18-34
+known or suspected dihydropyrimidine dehydrogenase (DPD) deficiency	Eligibility	20
+pregnancy or breast feeding	Eligibility	21
+breast	UBERON:0000310	13-19
+Outcome Measurement:	Results	0
+Progression Free Survival	Results	1
+PFS is defined as time from date of randomization to date of the first documentation of objective tumor progression (according to the Independent Response Review Committee (IRC) and based on RECIST version 1.1) or death due to any cause.	Results	2
+time	PATO:0000165	18-22
+death	OAE:0000632	214-219
+The PFS was primarily analysed in the Intent-to-treat (ITT) population. Patients lost to follow-up, or without a known record of progression or death at time of analysis had the progression-free survival censored at the date of last tumour assessment or the date of last contact of a follow-up showing no progression, whichever occurs last.	Results	3
+death	OAE:0000632	144-149
+time	PATO:0000165	153-157
+Time frame: Baseline up to 2 years 7 months	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Vinflunine Plus Capecitabine	Results	6
+vinflunine	CHEBI:90241	17-27
+capecitabine	CHEBI:31348	33-45
+Arm/Group Description: Vinflunine plus Capecitabine: Vinflunine 280mg/m  as a 20-minute i.v. infusion on day 1 of each cycle repeated every 3 weeks	Results	7
+vinflunine	CHEBI:90241	23-33
+vinflunine	CHEBI:90241	53-63
+capecitabine	CHEBI:31348	39-51
+day	UO:0000033	105-108
+Capecitabine 825mg/m  per os twice per day for 14 consecutive days starting day 1 of each cycle repeated every 3 weeks	Results	8
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	39-42
+day	UO:0000033	62-65
+day	UO:0000033	76-79
+Overall Number of Participants Analyzed: 384	Results	9
+Median (95% Confidence Interval)	Results	10
+median	BAO:0002174	0-6
+Unit of Measure: Months  5.6        (5.3 to 6.3)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Capecitabine Single-agent	Results	13
+capecitabine	CHEBI:31348	17-29
+Arm/Group Description: Capecitabine: Capecitabine 825mg/m  per os twice per day for 14 consecutive days starting day 1 of each cycle repeated every 3 weeks	Results	14
+capecitabine	CHEBI:31348	23-35
+capecitabine	CHEBI:31348	37-49
+day	UO:0000033	76-79
+day	UO:0000033	99-102
+day	UO:0000033	113-116
+Overall Number of Participants Analyzed: 386	Results	15
+Median (95% Confidence Interval)	Results	16
+median	BAO:0002174	0-6
+Unit of Measure: Months  4.3        (4.1 to 5.6)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 107/383 (27.94%)	Adverse Events	1
+Anaemia 4/383 (1.04%)	Adverse Events	2
+Febrile neutropenia 7/383 (1.83%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Haemoytique anaemia 0/383 (0.00%)	Adverse Events	4
+Leukopenia 1/383 (0.26%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 6/383 (1.57%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 2/383 (0.52%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anginal pectoris 1/383 (0.26%)	Adverse Events	8
+Cardiomyopathy 0/383 (0.00%)	Adverse Events	9
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Ear pain 0/383 (0.00%)	Adverse Events	10
+ear pain	HP:0030766	0-8
+Abdominal distension 1/383 (0.26%)	Adverse Events	11
+Abdominal pain 6/383 (1.57%)	Adverse Events	12
+abdominal pain	HP:0002027	0-14
+Adverse Events 2:	Adverse Events	13
+Total: 85/383 (22.19%)	Adverse Events	14
+Anaemia 3/383 (0.78%)	Adverse Events	15
+Febrile neutropenia 2/383 (0.52%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Haemoytique anaemia 0/383 (0.00%)	Adverse Events	17
+Leukopenia 0/383 (0.00%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/383 (0.26%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/383 (0.26%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anginal pectoris 0/383 (0.00%)	Adverse Events	21
+Cardiomyopathy 1/383 (0.26%)	Adverse Events	22
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Ear pain 1/383 (0.26%)	Adverse Events	23
+ear pain	HP:0030766	0-8
+Abdominal distension 0/383 (0.00%)	Adverse Events	24
+Abdominal pain 3/383 (0.78%)	Adverse Events	25
+abdominal pain	HP:0002027	0-14

@@ -1,0 +1,97 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab	Intervention	1
+Participants with metastatic breast cancer received a loading dose of 4 milligrams per kilograms (mg/kg) of trastuzumab intravenously (IV) followed by 2 mg/kg of trastuzumab IV once a week along with docetaxel 100 milligrams per meter square (mg/m^2), every 3 weeks or paclitaxel 90 mg/m^2 once a week until progression of disease, occurrence of intolerable toxicity, the participant discontinues the study or dies.	Intervention	2
+breast cancer	DOID:1612	29-42
+week	UO:0000034	184-188
+week	UO:0000034	260-264
+week	UO:0000034	297-301
+meter	UO:0000008	229-234
+paclitaxel	CHEBI:45863	269-279
+disease	DOID:4,OGMS:0000031	323-330
+Inclusion Criteria:	Eligibility	0
+Female participants , >/= 18 years of age	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	38-41
+Locally recurrent/metastatic breast cancer (relapse in supra- or infraclavicular lymph nodes is regarded as metastatic disease)	Eligibility	2
+breast cancer	DOID:1612	29-42
+lymph	UBERON:0002391	81-86
+disease	DOID:4,OGMS:0000031	119-126
+HER2-positive primary disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	22-29
+Participants must have received Herceptin in the adjuvant and/or neoadjuvant setting	Eligibility	4
+adjuvant	CHEBI:60809	49-57
+adjuvant	CHEBI:60809	68-76
+Relapsed breast cancer >/= 6 months after discontinuing last drugs of Herceptin and/or chemotherapy in the adjuvant and/or neoadjuvant setting for HER2-positive breast cancer	Eligibility	5
+breast cancer	DOID:1612	9-22
+breast cancer	DOID:1612	161-174
+adjuvant	CHEBI:60809	107-115
+adjuvant	CHEBI:60809	126-134
+Measurable disease according to RECIST 1.0	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2	Eligibility	7
+group	CHEBI:24433	29-34
+Maximum cumulative dose of doxorubicin </= 360 mg/m2 or of epirubicin </= 720 mg/m2 or no prior anthracyclines	Eligibility	8
+doxorubicin	CHEBI:28748,BAO:0000639	27-38
+At least 3 weeks after prior surgery or radiotherapy	Eligibility	9
+surgery	OAE:0000067	29-36
+radiotherapy	OAE:0000235	40-52
+Exclusion Criteria:	Eligibility	10
+Pregnant or breastfeeding women	Eligibility	11
+Previous chemotherapy for metastatic breast cancer (prior endocrine therapy till progressive disease is allowed)	Eligibility	12
+breast cancer	DOID:1612	37-50
+progressive	HP:0003676	81-92
+disease	DOID:4,OGMS:0000031	93-100
+Pleural effusions, ascites or bone lesions as only manifestation of disease	Eligibility	13
+ascites	HP:0001541	19-26
+disease	DOID:4,OGMS:0000031	68-75
+Brain metastases	Eligibility	14
+brain	UBERON:0000955	0-5
+Invasive malignancy other than metastatic breast cancer	Eligibility	15
+breast cancer	DOID:1612	42-55
+Inadequate bone marrow, hepatic or renal function	Eligibility	16
+bone marrow	UBERON:0002371	11-22
+function	BAO:0003117,BFO:0000034	41-49
+Prior treatment with anti-HER therapies other than (neo)adjuvant Herceptin	Eligibility	17
+adjuvant	CHEBI:60809	56-64
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+PFS was assessed according to Response Evaluation Criteria In Solid Tumors (RECIST) 1.0 and was defined as the time from the date when the participant signed the informed consent form (ICF) until death or progressive disease (PD). PD was defined as 20% increase in the sum of the longest diameter of target lesions. PFS and associated confidence intervals were calculated using the Kaplan-Meier method.	Results	2
+time	PATO:0000165	111-115
+death	OAE:0000632	196-201
+progressive	HP:0003676	205-216
+disease	DOID:4,OGMS:0000031	217-224
+increase	BAO:0001251	253-261
+diameter	PATO:0001334	288-296
+target	BAO:0003064	300-306
+Time frame: From the date of informed consent to the date of death or progressive disease (up to 28 months)	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	61-66
+progressive	HP:0003676	70-81
+disease	DOID:4,OGMS:0000031	82-89
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab	Results	5
+Arm/Group Description: Participants with metastatic breast cancer received a loading dose of 4 milligrams per kilograms (mg/kg) of trastuzumab intravenously (IV) followed by 2 mg/kg of trastuzumab IV once a week along with docetaxel 100 milligrams per meter square (mg/m^2), every 3 weeks or paclitaxel 90 mg/m^2 once a week until progression of disease, occurrence of intolerable toxicity, the participant discontinues the study or dies.	Results	6
+breast cancer	DOID:1612	52-65
+week	UO:0000034	207-211
+week	UO:0000034	283-287
+week	UO:0000034	320-324
+meter	UO:0000008	252-257
+paclitaxel	CHEBI:45863	292-302
+disease	DOID:4,OGMS:0000031	346-353
+Overall Number of Participants Analyzed: 32	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  9.9        (6.28 to 13.63)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 5/32 (15.63%)	Adverse Events	1
+Leukopenia 1/32 (3.13%)	Adverse Events	2
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/32 (3.13%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Cataract 1/32 (3.13%)	Adverse Events	4
+cataract	HP:0000518,DOID:83	0-8
+Infection 1/32 (3.13%)	Adverse Events	5
+Upper respiratory tract infection 1/32 (3.13%)	Adverse Events	6
+upper respiratory tract	UBERON:0001557	0-23
+respiratory tract infection	HP:0011947	6-33
+Completed suicide 1/32 (3.13%)	Adverse Events	7

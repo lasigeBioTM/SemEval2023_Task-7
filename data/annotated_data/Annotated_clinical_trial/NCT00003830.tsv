@@ -1,0 +1,145 @@
+INTERVENTION 1:	Intervention	0
+Arm I:Sentinel Node Resection+Conventional Axillary Dissection	Intervention	1
+Sentinel node resection immediately followed by axillary dissection	Intervention	2
+conventional surgery: Sentinel node resection immediately followed by axillary dissection.	Intervention	3
+surgery	OAE:0000067	13-20
+INTERVENTION 2:	Intervention	4
+Arm II: Sentinel Node Resection Followed by Node Examination	Intervention	5
+Sentinel node resection followed by node examination then axillary dissection if positive sentinel node.	Intervention	6
+Sentinel node resection followed by node examination: Sentinel node resection followed by node examination then axillary dissection if positive sentinel node. No axillary dissection for negative sentinel node.	Intervention	7
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Resectable invasive adenocarcinoma of the breast, confirmed by 1 of the following:	Eligibility	1
+adenocarcinoma	DOID:299	20-34
+breast	UBERON:0000310	42-48
+Histologically confirmed by core or open biopsy	Eligibility	2
+Confirmed by fine needle aspiration cytology AND positive clinical breast examination and ultrasound or mammography	Eligibility	3
+aspiration	HP:0002835	25-35
+breast	UBERON:0000310	67-73
+Clinically negative lymph nodes	Eligibility	4
+lymph	UBERON:0002391	20-25
+No positive ipsilateral axillary lymph nodes	Eligibility	5
+lymph	UBERON:0002391	33-38
+No prior removal of ipsilateral axillary lymph nodes	Eligibility	6
+lymph	UBERON:0002391	41-46
+No suspicious palpable nodes in the contralateral axilla or palpable supraclavicular or infraclavicular nodes, unless proven nonmalignant by biopsy	Eligibility	7
+No ulceration, erythema, infiltration of the skin or underlying chest wall (complete fixation), peau d'orange, or skin edema of any magnitude	Eligibility	8
+erythema	HP:0010783	15-23
+chest	UBERON:0001443	64-69
+peau d'orange	HP:0025533	96-109
+edema	HP:0000969	119-124
+Tethering or dimpling of the skin or nipple inversion allowed	Eligibility	9
+No bilateral malignancy or mass in the opposite breast that is suspicious for malignancy, unless proven nonmalignant by biopsy	Eligibility	10
+bilateral	HP:0012832	3-12
+breast	UBERON:0000310	48-54
+No diffuse tumors or multiple malignant tumors in different quadrants of the breast	Eligibility	11
+diffuse	HP:0020034	3-10
+breast	UBERON:0000310	77-83
+No other prior breast malignancy except lobular carcinoma in situ	Eligibility	12
+breast	UBERON:0000310	15-21
+lobular carcinoma in situ	HP:0030076,DOID:3010	40-65
+No prior or concurrent breast implants	Eligibility	13
+breast	UBERON:0000310	23-29
+Hormone receptor status:	Eligibility	14
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	15
+PATIENT CHARACTERISTICS:	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+Age:	Eligibility	17
+age	PATO:0000011	0-3
+18 years and older	Eligibility	18
+Sex:	Eligibility	19
+Female	Eligibility	20
+female	PATO:0000383	0-6
+Menopausal status:	Eligibility	21
+Not specified	Eligibility	22
+Performance status:	Eligibility	23
+Not specified	Eligibility	24
+Life expectancy:	Eligibility	25
+At least 10 years (excluding diagnosis of cancer)	Eligibility	26
+cancer	DOID:162	42-48
+Hematopoietic:	Eligibility	27
+Not specified	Eligibility	28
+Hepatic:	Eligibility	29
+No hepatic systemic disease	Eligibility	30
+disease	DOID:4,OGMS:0000031	20-27
+Renal:	Eligibility	31
+No renal systemic disease	Eligibility	32
+disease	DOID:4,OGMS:0000031	18-25
+Cardiovascular:	Eligibility	33
+No cardiovascular systemic disease	Eligibility	34
+disease	DOID:4,OGMS:0000031	27-34
+Other:	Eligibility	35
+No prior malignancy within past 5 years except:	Eligibility	36
+Effectively treated squamous cell or basal cell skin cancer	Eligibility	37
+skin cancer	DOID:4159	48-59
+Surgically treated carcinoma in situ of the cervix	Eligibility	38
+carcinoma	HP:0030731,DOID:305	19-28
+Surgically treated lobular carcinoma in situ of the ipsilateral or contralateral breast	Eligibility	39
+lobular carcinoma in situ	HP:0030076,DOID:3010	19-44
+breast	UBERON:0000310	81-87
+No concurrent psychiatric or addictive disorder	Eligibility	40
+disorder	OGMS:0000045	39-47
+PRIOR CONCURRENT THERAPY:	Eligibility	41
+Biologic therapy:	Eligibility	42
+No prior immunotherapy for this cancer	Eligibility	43
+cancer	DOID:162	32-38
+Chemotherapy:	Eligibility	44
+No prior chemotherapy for this cancer, including neoadjuvant chemotherapy	Eligibility	45
+cancer	DOID:162	31-37
+Endocrine therapy:	Eligibility	46
+No prior hormonal therapy for this cancer	Eligibility	47
+cancer	DOID:162	35-41
+Radiotherapy:	Eligibility	48
+radiotherapy	OAE:0000235	0-12
+No prior radiotherapy for this cancer	Eligibility	49
+radiotherapy	OAE:0000235	9-21
+cancer	DOID:162	31-37
+Surgery:	Eligibility	50
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	51
+disease	DOID:4,OGMS:0000031	4-11
+No prior breast reduction surgery	Eligibility	52
+breast	UBERON:0000310	9-15
+surgery	OAE:0000067	26-33
+Prior excisional biopsy or lumpectomy allowed	Eligibility	53
+Outcome Measurement:	Results	0
+Morbidity - Number of Participants With Residual Shoulder Abduction Deficit	Results	1
+Morbidity as measured by residual shoulder abduction deficit. Shoulder Abduction Deficit definition: Shoulder range of motion decreased by greater than or equal to 10% as compared with that measured prior to surgery.	Results	2
+range	LABO:0000114	110-115
+surgery	OAE:0000067	208-215
+Time frame: Before and after surgery (within 30 days of randomization)	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	29-36
+Results 1:	Results	4
+Arm/Group Title: Arm I:Sentinel Node Resection+Conventional Axillary Dissection	Results	5
+Arm/Group Description: Sentinel node resection immediately followed by axillary dissection	Results	6
+conventional surgery: Sentinel node resection immediately followed by axillary dissection.	Results	7
+surgery	OAE:0000067	13-20
+Overall Number of Participants Analyzed: 1449	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  276  19.0%	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm II: Sentinel Node Resection Followed by Node Examination	Results	12
+Arm/Group Description: Sentinel node resection followed by node examination then axillary dissection if positive sentinel node.	Results	13
+Sentinel node resection followed by node examination: Sentinel node resection followed by node examination then axillary dissection if positive sentinel node. No axillary dissection for negative sentinel node.	Results	14
+Overall Number of Participants Analyzed: 1519	Results	15
+Measure Type: Count of Participants	Results	16
+Unit of Measure: Participants  200  13.2%	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 9/2788 (0.32%)	Adverse Events	1
+Anaphylaxis 5/2788 (0.18%)	Adverse Events	2
+Infections and infestations - Other, specify 2/2788 (0.07%)	Adverse Events	3
+Nervous system disorders - Other, specify 0/2788 (0.00%)	Adverse Events	4
+nervous system	UBERON:0001016	0-14
+Respiratory, thoracic and mediastinal disorders - Other, specify 1/2788 (0.04%)	Adverse Events	5
+Thromboembolic event 1/2788 (0.04%)	Adverse Events	6
+Adverse Events 2:	Adverse Events	7
+Total: 8/2800 (0.29%)	Adverse Events	8
+Anaphylaxis 5/2800 (0.18%)	Adverse Events	9
+Infections and infestations - Other, specify 0/2800 (0.00%)	Adverse Events	10
+Nervous system disorders - Other, specify 1/2800 (0.04%)	Adverse Events	11
+nervous system	UBERON:0001016	0-14
+Respiratory, thoracic and mediastinal disorders - Other, specify 1/2800 (0.04%)	Adverse Events	12
+Thromboembolic event 2/2800 (0.07%)	Adverse Events	13

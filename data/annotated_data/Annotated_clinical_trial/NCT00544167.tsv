@@ -1,0 +1,120 @@
+INTERVENTION 1:	Intervention	0
+Doxorubicin/Cyclophosphamide Then Paclitaxel/Sorafenib	Intervention	1
+[Not Specified]	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically-confirmed breast cancer with an interval between definitive surgery that includes axillary lymph node involvement assessment and initiation of study treatment of less than or equal to 84 days.	Eligibility	1
+breast cancer	DOID:1612	44-57
+surgery	OAE:0000067	94-101
+lymph	UBERON:0002391	125-130
+Definitive surgery - either mastectomy with axillary node involvement assessment, or breast conserving surgery with axillary node assessment. Margins of resected specimen must be free of invasive disease and/or ductal carcinoma in situ (DCIS).	Eligibility	2
+surgery	OAE:0000067	11-18
+surgery	OAE:0000067	103-110
+breast	UBERON:0000310	85-91
+disease	DOID:4,OGMS:0000031	196-203
+ductal carcinoma in situ	HP:0030075,DOID:0060074	211-235
+Stage I, II, IIIA, and IIIC (T1-3, N3a only). Patients must be either lymph node positive or high-risk node negative.	Eligibility	3
+lymph	UBERON:0002391	70-75
+Age > 18 years.	Eligibility	4
+age	PATO:0000011	0-3
+ECOG performance status 0 or 1.	Eligibility	5
+Normal cardiac function must be confirmed by left ventricular ejection fraction (LVEF) by Echocardiography or MUGA scan and electrocardiogram (ECG) within 35 days prior to initiation of study treatment.	Eligibility	6
+function	BAO:0003117,BFO:0000034	15-23
+left	HP:0012835	45-49
+ejection fraction	CMO:0000180	62-79
+Patients must have adequate bone marrow function	Eligibility	7
+bone marrow	UBERON:0002371	28-39
+function	BAO:0003117,BFO:0000034	40-48
+Patients must have normal liver function (	Eligibility	8
+liver	UBERON:0002107	26-31
+function	BAO:0003117,BFO:0000034	32-40
+Serum creatinine <= 2mg/dl	Eligibility	9
+creatinine	CHEBI:16737	6-16
+INR < 1.5 or a PT/PTT within normal limits. Patients receiving anti-coagulation treatment with an agent such as warfarin or heparin may be allowed to participate. For patients on warfarin, the INR should be measured prior to initiation of sorafenib and monitored.	Eligibility	10
+warfarin	CHEBI:10033	112-120
+warfarin	CHEBI:10033	179-187
+heparin	CHEBI:28304	124-131
+sorafenib	CHEBI:50924	239-248
+Exclusion Criteria:	Eligibility	11
+Prior systemic anticancer therapy for breast cancer (immunotherapy, chemotherapy, hormonal therapy).	Eligibility	12
+breast cancer	DOID:1612	38-51
+Patients with HER2 positive breast cancer as determined by FISH or IHC3+ standing are ineligible for this trial.	Eligibility	13
+breast cancer	DOID:1612	28-41
+Prior anthracycline or taxane therapy.	Eligibility	14
+anthracycline	CHEBI:48120	6-19
+taxane	CHEBI:36064	23-29
+Prior radiation therapy for breast cancer.	Eligibility	15
+breast cancer	DOID:1612	28-41
+Bilateral invasive disease.	Eligibility	16
+bilateral	HP:0012832	0-9
+disease	DOID:4,OGMS:0000031	19-26
+Pre-existing motor or sensory neurotoxicity of a severity  2 by NCI CTCAE v 3.0 criteria.	Eligibility	17
+severity	HP:0012824	49-57
+Cardiac disease that includes: myocardial infarction; angina, congestive heart failure, arrhythmia; valvular heart disease; cardiomegaly on chest imaging or ventricular hypertrophy on ECG - unless the LVEF is within normal range for the institution; patients with poorly controlled hypertension (defined as systolic blood pressure > 150 and /or diastolic blood pressure > 100 mmHg on antihypertensive medications); patients who receive medications for angina, arrhythmias, or congestive heart failure.	Eligibility	18
+disease	DOID:4,OGMS:0000031	8-15
+disease	DOID:4,OGMS:0000031	115-122
+myocardial infarction	HP:0001658,DOID:5844	31-52
+congestive heart failure	HP:0001635,DOID:6000	62-86
+congestive heart failure	HP:0001635,DOID:6000	476-500
+arrhythmia	HP:0011675	88-98
+arrhythmia	HP:0011675	460-470
+heart disease	DOID:114	109-122
+cardiomegaly	HP:0001640	124-136
+chest	UBERON:0001443	140-145
+ventricular hypertrophy	HP:0001714	157-180
+range	LABO:0000114	223-228
+hypertension	HP:0000822,DOID:10763	282-294
+systolic blood pressure	CMO:0000004	307-330
+diastolic blood pressure	CMO:0000005	345-369
+Current therapy with raloxifene, tamoxifen or other selective estrogen receptor modulator	Eligibility	19
+raloxifene	CHEBI:8772	21-31
+tamoxifen	CHEBI:41774	33-42
+estrogen receptor modulator	CHEBI:50739	62-89
+Concurrent treatment with ovarian hormonal replacement therapy.	Eligibility	20
+History of prior malignancy within 5 years with the exception of skin cancer or cervical carcinoma in situ.	Eligibility	21
+history	BFO:0000182	0-7
+skin cancer	DOID:4159	65-76
+carcinoma	HP:0030731,DOID:305	89-98
+Women who are pregnant (positive pregnancy test) or breast feeding. Subjects of childbearing potential must use effective birth control measures during treatment.	Eligibility	22
+breast	UBERON:0000310	52-58
+Treatment with a non-approved or investigational drug within 30 days before day 1 of trial treatment.	Eligibility	23
+drug	CHEBI:23888	49-53
+day	UO:0000033	64-67
+day	UO:0000033	76-79
+Patients with neurological symptoms must undergo a CT scan/MRI of the brain to exclude brain metastasis.	Eligibility	24
+ct	BAO:0002125	51-53
+brain	UBERON:0000955	70-75
+brain	UBERON:0000955	87-92
+Thrombotic or embolic events such as a stroke and transient ischemic attack within the past 6 months.	Eligibility	25
+stroke	HP:0001297,DOID:6713	39-45
+transient ischemic attack	HP:0002326,DOID:224	50-75
+Pulmonary hemorrhage/bleeding event  NCI CTCAE v3.0 Grade 2 within 4 weeks of first dose of study drug.	Eligibility	26
+drug	CHEBI:23888	98-102
+Any other hemorrhage/bleeding event  NCI CTCAE v3.0 Grade 3 within 4 weeks of first dose of study drug.	Eligibility	27
+drug	CHEBI:23888	98-102
+Outcome Measurement:	Results	0
+The Safety and Tolerability of Protocol Treatment, Defined as the Percentage of Patients Experiencing Severe or Life-threatening Side Effects Per CTCAE Version 3.0.	Results	1
+severe	HP:0012828	102-108
+[Not Specified]	Results	2
+Time frame: 18 Months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Doxorubicin/Cyclophosphamide Then Paclitaxel/Sorafenib	Results	5
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 45	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of patients  40	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 7/45 (15.56%)	Adverse Events	1
+Febrile neutropenia 1/45 (2.22%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac ischemia/infarction 1/45 (2.22%)	Adverse Events	3
+Ventricular arrhythmia - left ventricular systolic dysfunction 1/45 (2.22%)	Adverse Events	4
+ventricular arrhythmia	HP:0004308	0-22
+left ventricular systolic dysfunction	HP:0025169	25-62
+Hemmorhage - GI 1/45 (2.22%)	Adverse Events	5
+Pancreatitis 1/45 (2.22%)	Adverse Events	6
+pancreatitis	HP:0001733,DOID:4989	0-12
+Infection - pneumonia 1/45 (2.22%)	Adverse Events	7
+pneumonia	HP:0002090,DOID:552	12-21
+Infection - Streptococcus 1/45 (2.22%)	Adverse Events	8
+Abcess of Bartholin's cyst 1/45 (2.22%)	Adverse Events	9

@@ -1,0 +1,87 @@
+INTERVENTION 1:	Intervention	0
+Capecitabine+Bevacizumab (Bev); Paclitaxel or Vinorelbine +Bev	Intervention	1
+paclitaxel	CHEBI:45863	32-42
+vinorelbine	CHEBI:480999	46-57
+First Study Treatment Phase:	Intervention	2
+Capecitabine 1000 mg/m² oral (PO) twice-daily, Days 1-15 of each 3-week cycle (28 doses per cycle); bevacizumab 15 mg/kg intravenous (IV) infusion, Day 1 of each 3-week cycle.	Intervention	3
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	47-50
+day	UO:0000033	148-151
+Second Study Treatment Phase:	Intervention	4
+second	UO:0000010	0-6
+Paclitaxel 80 mg/m² 60-minute IV infusion (with appropriate premedication), Days 1, 8 and 15 of each 4-week cycle (28 days). Substitution of paclitaxel with docetaxel was not allowed.	Intervention	5
+paclitaxel	CHEBI:45863	0-10
+paclitaxel	CHEBI:45863	141-151
+Vinorelbine 25 mg/m² IV infusion over 10-20 minutes, Days 1, 8, and 15 of each 4-week cycle.	Intervention	6
+vinorelbine	CHEBI:480999	0-11
+Bevacizumab 10 mg/kg IV infusion, Days 1 and 15 of each 4-week cycle.	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Women >=18 years of age	Eligibility	1
+age	PATO:0000011	20-23
+HER2-negative metastatic breast cancer	Eligibility	2
+breast cancer	DOID:1612	25-38
+Previous adjuvant chemotherapy or hormonal treatment	Eligibility	3
+adjuvant	CHEBI:60809	9-17
+>=1 measurable target lesion	Eligibility	4
+target	BAO:0003064	15-21
+Exclusion Criteria:	Eligibility	5
+Previous treatment with chemotherapy, an anti-angiogenic agent, or a biologic therapy for advanced or metastatic cancer	Eligibility	6
+cancer	DOID:162	113-119
+Radiation therapy within 4 weeks of study treatment start or insufficient recovery from the effects of prior radiation therapy	Eligibility	7
+Central nervous system metastases	Eligibility	8
+central nervous system	UBERON:0001017	0-22
+Other malignancy within last 5 years, except cured basal cell carcinoma of skin and carcinoma in situ of uterine cervix	Eligibility	9
+basal cell carcinoma	HP:0002671,DOID:2513	51-71
+carcinoma	HP:0030731,DOID:305	62-71
+carcinoma	HP:0030731,DOID:305	84-93
+uterine cervix	UBERON:0000002	105-119
+Serious concurrent infection	Eligibility	10
+Outcome Measurement:	Results	0
+Overall Survival	Results	1
+Overall survival was defined as the time from date of first treatment dose (Day 1) to date of death, across the study phases regardless of the cause of death	Results	2
+time	PATO:0000165	36-40
+day	UO:0000033	76-79
+death	OAE:0000632	94-99
+death	OAE:0000632	152-157
+Time frame: approximately 505 days (Median Time to Death)	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	43-47
+median	BAO:0002174	36-42
+death	OAE:0000632	51-56
+Results 1:	Results	4
+Arm/Group Title: Capecitabine+Bevacizumab (Bev); Paclitaxel or Vinorelbine +Bev	Results	5
+paclitaxel	CHEBI:45863	49-59
+vinorelbine	CHEBI:480999	63-74
+Arm/Group Description: First Study Treatment Phase:	Results	6
+Capecitabine 1000 mg/m  oral (PO) twice-daily, Days 1-15 of each 3-week cycle (28 doses per cycle); bevacizumab 15 mg/kg intravenous (IV) infusion, Day 1 of each 3-week cycle.	Results	7
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	47-50
+day	UO:0000033	148-151
+Second Study Treatment Phase:	Results	8
+second	UO:0000010	0-6
+Paclitaxel 80 mg/m  60-minute IV infusion (with appropriate premedication), Days 1, 8 and 15 of each 4-week cycle (28 days). Substitution of paclitaxel with docetaxel was not allowed.	Results	9
+paclitaxel	CHEBI:45863	0-10
+paclitaxel	CHEBI:45863	141-151
+Vinorelbine 25 mg/m  IV infusion over 10-20 minutes, Days 1, 8, and 15 of each 4-week cycle.	Results	10
+vinorelbine	CHEBI:480999	0-11
+Bevacizumab 10 mg/kg IV infusion, Days 1 and 15 of each 4-week cycle.	Results	11
+Overall Number of Participants Analyzed: 109	Results	12
+Median (95% Confidence Interval)	Results	13
+median	BAO:0002174	0-6
+Unit of Measure: Days  505        (420 to 672)	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 39/109 (35.78%)	Adverse Events	1
+Febrile Neutropenia1/109 (0.92%)	Adverse Events	2
+Left Ventricular Failure1/109 (0.92%)	Adverse Events	3
+left	HP:0012835	0-4
+Nausea3/109 (2.75%)	Adverse Events	4
+Vomiting3/109 (2.75%)	Adverse Events	5
+Abdominal Pain1/109 (0.92%)	Adverse Events	6
+Caecitis1/109 (0.92%)	Adverse Events	7
+Diarrhoea1/109 (0.92%)	Adverse Events	8
+Enterovesical Fistula1/109 (0.92%)	Adverse Events	9
+Gastric Ulcer1/109 (0.92%)	Adverse Events	10
+Pancreatitis1/109 (0.92%)	Adverse Events	11
+Pain6/109 (5.50%)	Adverse Events	12
+Chest Pain3/109 (2.75%)	Adverse Events	13
+chest	UBERON:0001443	0-5

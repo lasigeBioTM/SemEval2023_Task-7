@@ -1,0 +1,98 @@
+INTERVENTION 1:	Intervention	0
+Dose Escalation / Phase II Treatment	Intervention	1
+Single arm, non-randomized, open label phase I/II multisite Simon two stage minimax trial. Gemcitabine plus trastuzumab and pertuzumab.	Intervention	2
+label	CHEBI:35209,label	33-38
+gemcitabine	CHEBI:175901	91-102
+Inclusion Criteria:	Eligibility	0
+Adult males or females (aged 18 or older) with histologically confirmed, metastatic human epidermal growth factor receptor 2 (HER2)+ (by immunohistochemistry (IHC) 3+ or fluorescence in situ hydridization (FISH) ratio  2.0) breast cancer	Eligibility	1
+adult	EFO:0001272	0-5
+growth factor	BAO:0002024	100-113
+receptor	BAO:0000281	114-122
+immunohistochemistry	BAO:0000415	137-157
+ratio	UO:0000190	212-217
+breast cancer	DOID:1612	224-237
+Have progressed on at least one prior line of chemotherapy plus HER2 directed therapy such as trastuzumab and/or pertuzumab in the metastatic setting. T-DM1 would count as a line of therapy and patients previously treated with T-DM1 are eligible.	Eligibility	2
+Have not been treated with gemcitabine in the metastatic setting	Eligibility	3
+gemcitabine	CHEBI:175901	27-38
+Measurable disease per Response Evaluation in Solid Tumors (RECIST) 1.1 criteria	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+Eastern Cooperative Oncology Group (ECOG) performance status 2	Eligibility	5
+group	CHEBI:24433	29-34
+Left Ventricular Ejection Fraction (LVEF)  50% at baseline as determined by either echocardiogram (ECHO) or multiple gated acquisition scan (MUGA)	Eligibility	6
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Adequate bone marrow function as indicated by the following: absolute neutrophil count (ANC) >1500/µL; Platelets 100,000/µL; Hemoglobin >10 g/dL	Eligibility	7
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+hemoglobin	CHEBI:35143	125-135
+Adequate renal function, as indicated by creatinine 1.5x upper limit of normal (ULN)	Eligibility	8
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	41-51
+Adequate liver function, as indicated by bilirubin 1.5x ULN, aspartic transaminase (AST) or alanine transaminase (ALT) <2x ULN unless related to metastatic breast cancer to the liver (in which case AST/ALT < 5x ULN is allowed).	Eligibility	9
+liver	UBERON:0002107	9-14
+liver	UBERON:0002107	177-182
+function	BAO:0003117,BFO:0000034	15-23
+alanine	CHEBI:16449	92-99
+breast cancer	DOID:1612	156-169
+Signed informed consent	Eligibility	10
+Adequate birth control in sexually active women of childbearing potential	Eligibility	11
+active	PATO:0002354	35-41
+Exclusion Criteria:	Eligibility	12
+Active uncontrolled infection or major concurrent illness which in the opinion of the investigator would render the participant unsafe to proceed with the study	Eligibility	13
+active	PATO:0002354	0-6
+Uncontrolled central nervous system (CNS) metastases. Treated, non-progressing CNS disease (documented by brain magnetic resonance imaging [MRI]) off corticosteroids for at least 1 month potential participants are eligible.	Eligibility	14
+central nervous system	UBERON:0001017	13-35
+disease	DOID:4,OGMS:0000031	83-90
+brain	UBERON:0000955	106-111
+month	UO:0000035	181-186
+Women who are pregnant or lactating	Eligibility	15
+Prior chemotherapy within the last 3 weeks (last 6 weeks for nitrosureas/mitomycin)	Eligibility	16
+Prior radiation therapy within the last 4 weeks; prior radiation therapy to indicator lesion (unless objective disease recurrence or progression within the radiation portal has been documented since completion of radiation)	Eligibility	17
+indicator	CHEBI:47867	76-85
+disease	DOID:4,OGMS:0000031	111-118
+Other concomitant active malignancies	Eligibility	18
+active	PATO:0002354	18-24
+History of significant cardiac disease, cardiac risk factors or uncontrolled arrhythmias	Eligibility	19
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	31-38
+Ejection fraction <50% or below the lower limit of the institutional normal range, whichever is lower	Eligibility	20
+ejection fraction	CMO:0000180	0-17
+range	LABO:0000114	76-81
+Hypersensitivity to any of the study medications	Eligibility	21
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Untreated psychiatric conditions preventing informed consent	Eligibility	22
+Outcome Measurement:	Results	0
+Phase I: Recommended Phase II Dose (RP2D)	Results	1
+The RP2D dose in mg/m^2 of gemcitabine along with standard doses of pertuzumab (840 mg loading/420 mg maintenance) and Herceptin (8 mg/kg loading, 6 mg/kg maintenance). Safety data to be described using Common Terminology Criteria for Adverse Events (CTCAE) 4.0 terminology. Any participant who receives any dose of the study treatment will be evaluated for the safety/toxicity endpoints in the trial.	Results	2
+gemcitabine	CHEBI:175901	27-38
+Time frame: 6 Months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Dose Escalation / Phase II Treatment	Results	5
+Arm/Group Description: Single arm, non-randomized, open label phase I/II multisite Simon two stage minimax trial. Gemcitabine plus trastuzumab and pertuzumab.	Results	6
+label	CHEBI:35209,label	56-61
+gemcitabine	CHEBI:175901	114-125
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: dose in mg/m^2  1200	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 7/15 (46.67%)	Adverse Events	1
+Cardiac arrest * 1/15 (6.67%)	Adverse Events	2
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Chest pain - cardiac * 1/15 (6.67%)	Adverse Events	3
+chest pain	HP:0100749	0-10
+Diarrhea * 1/15 (6.67%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Duodenal hemorrhage * 1/15 (6.67%)	Adverse Events	5
+Fatigue * 1/15 (6.67%)	Adverse Events	6
+fatigue	HP:0012378	0-7
+Fever * 1/15 (6.67%)	Adverse Events	7
+fever	HP:0001945	0-5
+Sudden death NOS * 1/15 (6.67%)	Adverse Events	8
+sudden death	HP:0001699	0-12
+Sepsis * 1/15 (6.67%)	Adverse Events	9
+sepsis	HP:0100806	0-6
+Skin infection * 1/15 (6.67%)	Adverse Events	10
+Neutrophil count decreased * 1/15 (6.67%)	Adverse Events	11
+Platelet count decreased * 1/15 (6.67%)	Adverse Events	12
+platelet count	CMO:0000029	0-14

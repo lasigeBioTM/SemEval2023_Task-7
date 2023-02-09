@@ -1,0 +1,79 @@
+INTERVENTION 1:	Intervention	0
+Treated	Intervention	1
+Subjects enrolled with device placed and treated with partial breast irradiation	Intervention	2
+breast	UBERON:0000310	62-68
+Inclusion Criteria:	Eligibility	0
+Pre-Surgery:	Eligibility	1
+Unicentric pure DCIS	Eligibility	2
+Lesions should have a greatest dimension of 3 cm or less as determined by pre-surgery mammography and MRI	Eligibility	3
+Post-Surgery:	Eligibility	4
+Negative histological margins confirmed prior to beginning radiation therapy.	Eligibility	5
+Margins are positive if there is tumor at the inked margin.	Eligibility	6
+Classified as low (NG1), intermediate (NG2) or high (NG3) nuclear grade DCIS, using the Philadelphia Consensus Conference Guidelines are eligible	Eligibility	7
+Clinically node negative	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Distance from the balloon surface to the surface of the skin < 5mm as determined by CT imaging.	Eligibility	10
+ct	BAO:0002125	84-86
+Distant metastases.	Eligibility	11
+Invasive or in-situ lobular carcinoma (post-surgery assessment).	Eligibility	12
+carcinoma	HP:0030731,DOID:305	28-37
+Nonepithelial breast malignancies such as sarcoma or lymphoma.	Eligibility	13
+breast	UBERON:0000310	14-20
+sarcoma	HP:0100242,DOID:1115	42-49
+lymphoma	HP:0002665,DOID:0060058	53-61
+DCIS that is multicentric in the ipsilateral breast.	Eligibility	14
+breast	UBERON:0000310	45-51
+Pregnant or lactating.	Eligibility	15
+Prior non-hormonal therapy for the present breast cancer, including radiation therapy and/or chemotherapy.	Eligibility	16
+present	PATO:0000467	35-42
+breast cancer	DOID:1612	43-56
+Collagen vascular diseases	Eligibility	17
+collagen	CHEBI:3815	0-8
+Coexisting medical conditions with life expectancy < 2 years.	Eligibility	18
+Serious psychiatric or addictive disorder	Eligibility	19
+disorder	OGMS:0000045	33-41
+Previously treated contralateral breast carcinoma	Eligibility	20
+breast carcinoma	HP:0003002,DOID:3459	33-49
+Synchronous bilateral breast carcinoma.	Eligibility	21
+synchronous bilateral breast carcinoma	DOID:6742	0-38
+Other malignancy, except non-melanoma skin cancer, < 5 years prior to participation in the study; the disease free interval from any prior carcinoma must be continuous.	Eligibility	22
+skin cancer	DOID:4159	38-49
+disease	DOID:4,OGMS:0000031	102-109
+carcinoma	HP:0030731,DOID:305	139-148
+Patients with diffuse disease	Eligibility	23
+diffuse	HP:0020034	14-21
+disease	DOID:4,OGMS:0000031	22-29
+Outcome Measurement:	Results	0
+Local Control Rate for Follow-up Period of 5 Years.	Results	1
+rate	BAO:0080019	14-18
+Failure of local control was defined as a histologically confirmed recurrence (invasive or non-invasive) within the prescription isodose volume. All recurrences were to have histological evaluation per the protocol; however, the case report forms did not provide space for this data to be captured. Ipsilateral axillary, infraclavicular, internal mammary, or supraclavicular recurrence or distant metastases were not considered treatment failures unless accompanied by ipsilateral breast failure.	Results	2
+volume	PATO:0000918	137-143
+breast	UBERON:0000310	481-487
+Time frame: Data collected at the time of implant, radiation therapy, and at the patient's 3 month, 6 month, 1 year, 2 year, 3 year, 4 year and 5 year follow-up visits.	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	34-38
+patient	HADO:0000008,OAE:0001817	81-88
+month	UO:0000035	93-98
+month	UO:0000035	102-107
+year	UO:0000036	111-115
+year	UO:0000036	119-123
+year	UO:0000036	127-131
+year	UO:0000036	135-139
+year	UO:0000036	146-150
+Results 1:	Results	4
+Arm/Group Title: Treated	Results	5
+Arm/Group Description: Subjects enrolled with device placed and treated with partial breast irradiation	Results	6
+breast	UBERON:0000310	85-91
+Overall Number of Participants Analyzed: 100	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of subjects  99	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 6/118 (5.08%)	Adverse Events	1
+Cellulitis [1]1/118 (0.85%)	Adverse Events	2
+cellulitis	HP:0100658,DOID:3488	0-10
+Infection [2]1/118 (0.85%)	Adverse Events	3
+Lung cancer with metastases to the brain [3]1/118 (0.85%)	Adverse Events	4
+lung cancer	DOID:1324	0-11
+brain	UBERON:0000955	35-40
+Abnormal uterine bleeding [4]1/118 (0.85%)	Adverse Events	5
+Cerebral Vascular Accident [5]2/118 (1.69%)	Adverse Events	6

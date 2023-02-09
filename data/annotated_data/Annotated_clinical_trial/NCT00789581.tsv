@@ -1,0 +1,295 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone	Intervention	1
+ixabepilone	CHEBI:63605	0-11
+Doxorubicin and cyclophosphamide (AC) given every 3 weeks for 4 cycles, followed by ixabepilone every 3 weeks for 4 cycles.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	16-32
+ixabepilone	CHEBI:63605	84-95
+Doxorubicin: 60 mg/m2	Intervention	3
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide: 600 mg/m2	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+Ixabepilone (Ixempra): 40 mg/m2	Intervention	5
+ixabepilone	CHEBI:63605	0-11
+INTERVENTION 2:	Intervention	6
+Paclitaxel	Intervention	7
+paclitaxel	CHEBI:45863	0-10
+Doxorubicin and cyclophosphamide (AC) given every 3 weeks for 4 cycles, followed by paclitaxel given weekly for 12 weeks.	Intervention	8
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	16-32
+paclitaxel	CHEBI:45863	84-94
+Doxorubicin: 60 mg/m2	Intervention	9
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide: 600 mg/m2	Intervention	10
+cyclophosphamide	CHEBI:4026	0-16
+Paclitaxel (Taxol): 80 mg/m2	Intervention	11
+paclitaxel	CHEBI:45863	0-10
+Inclusion Criteria:	Eligibility	0
+Female patients greater than or equal to18 years of age.	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	52-55
+Histologically confirmed invasive unilateral breast cancer (regardless of	Eligibility	2
+unilateral	HP:0012833	34-44
+breast cancer	DOID:1612	45-58
+histology).	Eligibility	3
+histology	NCIT:C16681	0-9
+Early-stage breast cancer, defined as:	Eligibility	4
+breast cancer	DOID:1612	12-25
+Node-positive disease: >0.2-mm metastasis in at least one lymph node (pN1mipN2b)OR	Eligibility	5
+disease	DOID:4,OGMS:0000031	14-21
+lymph	UBERON:0002391	58-63
+Node-negative, with primary tumor >1.0 cm (T1c-T3).	Eligibility	6
+Definitive loco-regional surgery must have been completed as specified	Eligibility	7
+surgery	OAE:0000067	25-32
+below:	Eligibility	8
+Patients must have undergone either breast conservation surgery	Eligibility	9
+breast	UBERON:0000310	36-42
+surgery	OAE:0000067	56-63
+(i.e., lumpectomy) or total mastectomy.	Eligibility	10
+Surgical margins of the resected section must be histologically free of	Eligibility	11
+invasive adenocarcinoma and ductal carcinoma in situ.	Eligibility	12
+adenocarcinoma	DOID:299	9-23
+ductal carcinoma in situ	HP:0030075,DOID:0060074	28-52
+Surgical margins involved with lobular carcinoma in situ (LCIS) will not	Eligibility	13
+lobular carcinoma in situ	HP:0030076,DOID:3010	31-56
+be considered as a positive margin; therefore, such patients will be eligible for this study without additional resection.	Eligibility	14
+Patients must have completed axillary lymph node sampling for the pathologic evaluation of axillary lymph nodes as specified below:	Eligibility	15
+lymph	UBERON:0002391	38-43
+lymph	UBERON:0002391	100-105
+Sentinel node biopsy and/or either lymph node sampling procedure or axillary dissection.	Eligibility	16
+lymph	UBERON:0002391	35-40
+Multicentric and multifocal invasive breast cancer is eligible if loco-regional surgery has been completed as described above.	Eligibility	17
+multifocal	HP:0030651	17-27
+breast cancer	DOID:1612	37-50
+surgery	OAE:0000067	80-87
+Patients with synchronous bilateral cancers are eligible only if:	Eligibility	18
+bilateral	HP:0012832	26-35
+All cancers are of triple-negative phenotype, defined as ER-, PR-, HER2-.	Eligibility	19
+Eligibility based on the highest stage grouping.	Eligibility	20
+HER2 negative tumors. HER2 negativity must be confirmed by one of the	Eligibility	21
+following:	Eligibility	22
+FISH-negative (FISH ratio <2.2), or	Eligibility	23
+ratio	UO:0000190	20-25
+IHC 0-1+, or	Eligibility	24
+IHC 2-3+ AND FISH-negative (FISH ratio <2.2).	Eligibility	25
+ratio	UO:0000190	33-38
+Estrogen receptor negative (<10% staining by IHC for estrogen receptor).	Eligibility	26
+estrogen	CHEBI:50114,BAO:0000760	0-8
+estrogen	CHEBI:50114,BAO:0000760	53-61
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	62-70
+Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1.	Eligibility	27
+group	CHEBI:24433	29-34
+Patient must be <= 84 days from having completed definitive primary breast surgery (either lumpectomy or mastectomy).	Eligibility	28
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	68-74
+surgery	OAE:0000067	75-82
+MammoSite brachytherapy radiation is acceptable if it is performed	Eligibility	29
+immediately following surgery and prior to chemotherapy. It is recommended that chemotherapy be started no earlier than 2 weeks following the removal of the MammoSite balloon catheter.	Eligibility	30
+surgery	OAE:0000067	22-29
+Adequate hematologic function, defined by:	Eligibility	31
+function	BAO:0003117,BFO:0000034	21-29
+Absolute neutrophil count (ANC) >1500/mm3	Eligibility	32
+Platelet count >=100,000/mm3	Eligibility	33
+platelet count	CMO:0000029	0-14
+Hemoglobin >9 g/dL	Eligibility	34
+hemoglobin	CHEBI:35143	0-10
+Adequate liver function, defined by:	Eligibility	35
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+AST and ALT <=2.5 x the upper limit of normal (ULN)	Eligibility	36
+x	LABO:0000148	18-19
+Total bilirubin <=1.5 x ULN (unless the patient has grade 1 bilirubin	Eligibility	37
+x	LABO:0000148	22-23
+patient	HADO:0000008,OAE:0001817	40-47
+elevation due to Gilbert's disease or a similar syndrome involving slow	Eligibility	38
+disease	DOID:4,OGMS:0000031	27-34
+syndrome	DOID:225	48-56
+conjugation of bilirubin).	Eligibility	39
+Adequate renal function, defined by:	Eligibility	40
+function	BAO:0003117,BFO:0000034	15-23
+Serum creatinine <=1.5 x ULN	Eligibility	41
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	23-24
+Complete staging work-up <=12 weeks prior to initiation of study treatment	Eligibility	42
+with computed tomography (CT) scans of the chest and abdomen/pelvis (abdomen/pelvis preferred; abdomen accepted), and either a positron emission tomography (PET) scan or a bone scan.	Eligibility	43
+tomography	BAO:0002525	14-24
+tomography	BAO:0002525	145-155
+ct	BAO:0002125	26-28
+chest	UBERON:0001443	43-48
+abdomen	UBERON:0000916	53-60
+abdomen	UBERON:0000916	69-76
+abdomen	UBERON:0000916	95-102
+positron	CHEBI:30225	127-135
+Adequate cardiac function, defined by a left ventricular ejection fraction	Eligibility	44
+function	BAO:0003117,BFO:0000034	17-25
+left	HP:0012835	40-44
+ejection fraction	CMO:0000180	57-74
+(LVEF) value of >50% (or normal per institutional guidelines) by MUGA scan or echocardiogram (ECHO).	Eligibility	45
+Adequate recovery from recent surgery. At least 1 week must have elapsed from the time of a minor surgery (i.e., sentinel node biopsy, port-acath (placement); at least 3 weeks must have elapsed from the time of a major surgery (i.e., lumpectomy, partial or total mastectomy, axillary lymph node dissection, breast reconstruction procedure).	Eligibility	46
+surgery	OAE:0000067	30-37
+surgery	OAE:0000067	98-105
+surgery	OAE:0000067	219-226
+week	UO:0000034	50-54
+week	UO:0000034	170-174
+time	PATO:0000165	82-86
+time	PATO:0000165	203-207
+lymph	UBERON:0002391	284-289
+breast	UBERON:0000310	307-313
+Patients with previous history of invasive cancers (including breast cancer)	Eligibility	47
+history	BFO:0000182	23-30
+breast cancer	DOID:1612	62-75
+are eligible if definitive treatment was completed more than 5 years prior to	Eligibility	48
+initiating current study treatment, and there is no evidence of recurrent disease.	Eligibility	49
+recurrent	HP:0031796	64-73
+disease	DOID:4,OGMS:0000031	74-81
+Women of childbearing potential must have a negative serum or urine pregnancy test performed within 7 days prior to start of treatment. If a woman becomes pregnant or suspects she is pregnant while participating in this study, she must agree to inform her treating physician immediately.	Eligibility	50
+urine	UBERON:0001088	62-67
+Patient must be accessible for treatment and follow-up.	Eligibility	51
+patient	HADO:0000008,OAE:0001817	0-7
+Women of childbearing potential must agree to use an acceptable method of birth control to avoid pregnancy for the duration of study treatment, and for 3 months thereafter.	Eligibility	52
+duration	PATO:0001309	115-123
+All patients must be able to understand the investigational nature of the	Eligibility	53
+study and give written informed consent prior to study entry.	Eligibility	54
+Exclusion Criteria:	Eligibility	55
+Women who are pregnant or breastfeeding.	Eligibility	56
+History of previous diagnosis of invasive breast cancer (unless treated >5 years previously with no recurrence). History of previously treated ductal carcinoma in situ (DCIS) is acceptable.	Eligibility	57
+history	BFO:0000182	0-7
+history	BFO:0000182	113-120
+breast cancer	DOID:1612	42-55
+ductal carcinoma in situ	HP:0030075,DOID:0060074	143-167
+Any evidence or suspicion of metastatic disease other than ipsilateral	Eligibility	58
+disease	DOID:4,OGMS:0000031	40-47
+axillary lymph nodes.	Eligibility	59
+lymph	UBERON:0002391	9-14
+Any tumor >=T4 (cutaneous invasion, deep adherence, inflammatory breast cancer).	Eligibility	60
+breast cancer	DOID:1612	65-78
+Previous anthracycline chemotherapy.	Eligibility	61
+anthracycline	CHEBI:48120	9-22
+Concurrent use of CYP3A4 inhibitors from 72 hours prior to initiation of	Eligibility	62
+study treatment until the end of treatment with ixabepilone.	Eligibility	63
+ixabepilone	CHEBI:63605	48-59
+Previous treatment for this breast cancer (including neoadjuvant	Eligibility	64
+breast cancer	DOID:1612	28-41
+chemotherapy).	Eligibility	65
+Previous cancer (with the exception of non-melanoma skin cancer or cervical carcinoma in situ) in the past 5 years (including invasive contralateral breast cancer).	Eligibility	66
+cancer	DOID:162	9-15
+cancer	DOID:162	57-63
+cancer	DOID:162	156-162
+skin cancer	DOID:4159	52-63
+carcinoma	HP:0030731,DOID:305	76-85
+breast cancer	DOID:1612	149-162
+Peripheral neuropathy of > grade 1 per NCI CTCAE v3.0.	Eligibility	67
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Cardiac disease, including: congestive heart failure (CHF) > Class II per	Eligibility	68
+disease	DOID:4,OGMS:0000031	8-15
+congestive heart failure	HP:0001635,DOID:6000	28-52
+New York Heart Association (NYHA) classification; unstable angina (anginal symptoms at rest) or new-onset angina (i.e., began within the last 3 months), or myocardial infarction within the past 6 months; symptomatic CHF, unstable angina pectoris, cardiac arrhythmia, or cardiac ventricular arrhythmias requiring anti-arrhythmic therapy.	Eligibility	69
+heart	UBERON:0000948	9-14
+myocardial infarction	HP:0001658,DOID:5844	156-177
+angina pectoris	HP:0001681	230-245
+arrhythmia	HP:0011675	255-265
+arrhythmia	HP:0011675	290-300
+History of hypersensitivity to CremophorEL (polyoxyethylated castor oil) or	Eligibility	70
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+castor oil	CHEBI:140618	61-71
+a drug formulated in CremophorEL such as paclitaxel.	Eligibility	71
+drug	CHEBI:23888	2-6
+paclitaxel	CHEBI:45863	41-51
+Use of any investigational agent within 30 days of administration of the first dose of study drug.	Eligibility	72
+drug	CHEBI:23888	93-97
+Patients may not receive any other investigational or anti-cancer treatments while participating in this study.	Eligibility	73
+Concurrent severe, uncontrolled infection or intercurrent illness including,	Eligibility	74
+severe	HP:0012828	11-17
+but not limited to, ongoing or active infection, or psychiatric illness/social	Eligibility	75
+active	PATO:0002354	31-37
+situations that would limit compliance with study requirements.	Eligibility	76
+Mental condition that would prevent patient comprehension of the nature of, and risk associated with, the study.	Eligibility	77
+condition	PDRO:0000129	7-16
+patient	HADO:0000008,OAE:0001817	36-43
+Inability to comply with study and/or follow-up procedures.	Eligibility	78
+Outcome Measurement:	Results	0
+Disease-free Survival	Results	1
+The percentage of participants with disease-free survival at 3 and 5 years. Disease-free survival (DFS) is measured from the time between randomization and the date of first documented disease recurrence, or death from any cause.	Results	2
+time	PATO:0000165	125-129
+disease	DOID:4,OGMS:0000031	36-43
+disease	DOID:4,OGMS:0000031	76-83
+disease	DOID:4,OGMS:0000031	185-192
+death	OAE:0000632	208-213
+Time frame: up to 5.25 years (63 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ixabepilone	Results	5
+ixabepilone	CHEBI:63605	17-28
+Arm/Group Description: Doxorubicin and cyclophosphamide (AC) given every 3 weeks for 4 cycles, followed by ixabepilone every 3 weeks for 4 cycles.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+cyclophosphamide	CHEBI:4026	39-55
+ixabepilone	CHEBI:63605	107-118
+Doxorubicin: 60 mg/m2	Results	7
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide: 600 mg/m2	Results	8
+cyclophosphamide	CHEBI:4026	0-16
+Ixabepilone (Ixempra): 40 mg/m2	Results	9
+ixabepilone	CHEBI:63605	0-11
+Overall Number of Participants Analyzed: 306	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: percentage of participants  3-year DFS: 88.6        (84.3 to 91.8)	Results	12
+5-year DFS: 87.1        (82.6 to 90.5)	Results	13
+Results 2:	Results	14
+Arm/Group Title: Paclitaxel	Results	15
+paclitaxel	CHEBI:45863	17-27
+Arm/Group Description: Doxorubicin and cyclophosphamide (AC) given every 3 weeks for 4 cycles, followed by paclitaxel given weekly for 12 weeks.	Results	16
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+cyclophosphamide	CHEBI:4026	39-55
+paclitaxel	CHEBI:45863	107-117
+Doxorubicin: 60 mg/m2	Results	17
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide: 600 mg/m2	Results	18
+cyclophosphamide	CHEBI:4026	0-16
+Paclitaxel (Taxol): 80 mg/m2	Results	19
+paclitaxel	CHEBI:45863	0-10
+Overall Number of Participants Analyzed: 308	Results	20
+Measure Type: Number	Results	21
+Unit of Measure: percentage of participants  3-year DFS: 88.8        (84.6 to 91.9)	Results	22
+5-year DFS: 84.7        (79.7 to 88.6)	Results	23
+Adverse Events 1:	Adverse Events	0
+Total: 58/305 (19.02%)	Adverse Events	1
+FEBRILE NEUTROPENIA * 12/305 (3.93%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+NEUTROPENIA * 4/305 (1.31%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+ANAEMIA * 2/305 (0.66%)	Adverse Events	4
+LEUKOPENIA * 1/305 (0.33%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+PANCYTOPENIA * 1/305 (0.33%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+THROMBOCYTOPENIA * 1/305 (0.33%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+DISSEMINATED INTRAVASCULAR COAGULATION * 0/305 (0.00%)	Adverse Events	8
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+ATRIAL FIBRILLATION * 1/305 (0.33%)	Adverse Events	9
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+DIASTOLIC DYSFUNCTION * 1/305 (0.33%)	Adverse Events	10
+PERICARDIAL EFFUSION * 1/305 (0.33%)	Adverse Events	11
+pericardial effusion	HP:0001698,DOID:118	0-20
+Adverse Events 2:	Adverse Events	12
+Total: 50/304 (16.45%)	Adverse Events	13
+FEBRILE NEUTROPENIA * 12/304 (3.95%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+NEUTROPENIA * 1/304 (0.33%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+ANAEMIA * 0/304 (0.00%)	Adverse Events	16
+LEUKOPENIA * 0/304 (0.00%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+PANCYTOPENIA * 0/304 (0.00%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+THROMBOCYTOPENIA * 0/304 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+DISSEMINATED INTRAVASCULAR COAGULATION * 1/304 (0.33%)	Adverse Events	20
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+ATRIAL FIBRILLATION * 1/304 (0.33%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+DIASTOLIC DYSFUNCTION * 0/304 (0.00%)	Adverse Events	22
+PERICARDIAL EFFUSION * 0/304 (0.00%)	Adverse Events	23
+pericardial effusion	HP:0001698,DOID:118	0-20

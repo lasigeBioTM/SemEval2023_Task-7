@@ -1,0 +1,252 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab Emtansine	Intervention	1
+Patients received trastuzumab emtansine 3.6 mg/kg intravenously (IV) administered over 30-90 minutes every 3 weeks on Day 1 of each 21-day cycle.	Intervention	2
+day	UO:0000033	118-121
+day	UO:0000033	135-138
+INTERVENTION 2:	Intervention	3
+Trastuzumab + Docetaxel	Intervention	4
+Patients received a loading dose of trastuzumab 8 mg/kg IV + docetaxel 75 or 100 mg/m^2 IV on Day 1 of Cycle 1 followed by trastuzumab 6 mg/kg IV + docetaxel 75 or 100 mg/m^2 IV on Day 1 of all subsequent 21-day cycles.	Intervention	5
+day	UO:0000033	94-97
+day	UO:0000033	181-184
+day	UO:0000033	208-211
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed adenocarcinoma of the breast with locally advanced or metastatic disease, and a candidate for chemotherapy.	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+disease	DOID:4,OGMS:0000031	107-114
+Human epidermal growth factor receptor 2 (HER2)-positive.	Eligibility	2
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+No prior chemotherapy for their metastatic breast cancer (MBC).	Eligibility	3
+breast cancer	DOID:1612	43-56
+Measurable disease.	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+Age  18 years.	Eligibility	5
+age	PATO:0000011	0-3
+For women of childbearing potential and men with partners of childbearing potential, agreement to use a highly effective, non-hormonal form of contraception or 2 effective forms of non-hormonal contraception by the patient and/or partner. Contraception use must continue for the duration of study treatment and for at least 6 months after the last dose of study treatment. Male patients whose partners are pregnant should use condoms for the duration of the study.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	215-222
+patient	HADO:0000008,OAE:0001817	378-385
+duration	PATO:0001309	279-287
+duration	PATO:0001309	442-450
+male	CHEBI:30780,PATO:0000384	373-377
+Exclusion Criteria:	Eligibility	7
+History of any chemotherapy for MBC.	Eligibility	8
+history	BFO:0000182	0-7
+An interval of < 6 months from the completion of cytotoxic chemotherapy in the neo-adjuvant or adjuvant setting until the time of metastatic diagnosis.	Eligibility	9
+adjuvant	CHEBI:60809	83-91
+adjuvant	CHEBI:60809	95-103
+time	PATO:0000165	122-126
+Trastuzumab  21 days prior to randomization.	Eligibility	10
+Hormone therapy < 7 days prior to randomization.	Eligibility	11
+hormone	CHEBI:24621	0-7
+Current peripheral neuropathy of Grade  3.	Eligibility	12
+peripheral neuropathy	HP:0009830,DOID:870	8-29
+History of other malignancy within the last 5 years, except for appropriately treated carcinoma in situ of the cervix, non-melanoma skin carcinoma, Stage I uterine cancer, or other cancers with a similar outcome as those previously mentioned.	Eligibility	13
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	86-95
+carcinoma	HP:0030731,DOID:305	137-146
+skin carcinoma	DOID:3451	132-146
+uterine cancer	DOID:363	156-170
+Previous radiotherapy for the treatment of unresectable, locally advanced or metastatic breast cancer is not allowed if more than 25% of marrow-bearing bone has been irradiated or the last fraction of radiotherapy has been administered within approximately 3 weeks prior to randomization.	Eligibility	14
+radiotherapy	OAE:0000235	9-21
+radiotherapy	OAE:0000235	201-213
+breast cancer	DOID:1612	88-101
+Brain metastases that are untreated, symptomatic, or require therapy to control symptoms or any radiation, surgery, or other therapy to control symptoms from brain metastases within 2 months prior to randomization.	Eligibility	15
+brain	UBERON:0000955	0-5
+brain	UBERON:0000955	158-163
+surgery	OAE:0000067	107-114
+History of exposure to the following cumulative doses of anthracyclines: Doxorubicin or liposomal doxorubicin > 500 mg/m^2; epirubicin > 900 mg/m^2; mitoxantrone > 120mg/m^2 and idarubicin > 90 mg/m^2.	Eligibility	16
+history	BFO:0000182	0-7
+doxorubicin	CHEBI:28748,BAO:0000639	73-84
+doxorubicin	CHEBI:28748,BAO:0000639	98-109
+mitoxantrone	CHEBI:50729	149-161
+idarubicin	CHEBI:42068	178-188
+Current unstable angina.	Eligibility	17
+History of symptomatic congestive heart failure, or ventricular arrhythmia requiring treatment.	Eligibility	18
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	23-47
+ventricular arrhythmia	HP:0004308	52-74
+History of myocardial infarction within 6 months prior to randomization.	Eligibility	19
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+Left ventricular ejection fraction (LVEF) below 50% within approximately 28 days prior to randomization.	Eligibility	20
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+History of decreased LVEF or symptomatic congestive heart failure (CHF) with previous adjuvant trastuzumab treatment.	Eligibility	21
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	41-65
+adjuvant	CHEBI:60809	86-94
+Cardiac troponin I  0.2 ng/mL within 28 days of randomization.	Eligibility	22
+Severe dyspnea at rest because of complications of advanced malignancy or requiring current continuous oxygen therapy.	Eligibility	23
+severe	HP:0012828	0-6
+dyspnea	HP:0002094	7-14
+Current severe, uncontrolled systemic disease (eg, clinically significant cardiovascular, pulmonary, or metabolic disease; wound healing disorders; ulcers; or bone fractures).	Eligibility	24
+severe	HP:0012828	8-14
+disease	DOID:4,OGMS:0000031	38-45
+disease	DOID:4,OGMS:0000031	114-121
+wound healing	GO:0042060	123-136
+Major surgical procedure or significant traumatic injury within approximately 28 days prior to randomization or anticipation of the need for major surgery during the course of study treatment.	Eligibility	25
+surgery	OAE:0000067	147-154
+Current pregnancy or lactation.	Eligibility	26
+lactation	GO:0007595	21-30
+History of receiving any investigational treatment within approximately 28 days prior to randomization.	Eligibility	27
+history	BFO:0000182	0-7
+Current known infection with human immunodeficiency virus (HIV), active hepatitis B and/or hepatitis C virus.	Eligibility	28
+immunodeficiency	HP:0002721	35-51
+virus	BAO:0000232	52-57
+virus	BAO:0000232	103-108
+active	PATO:0002354	65-71
+hepatitis b	DOID:2043	72-83
+hepatitis c	DOID:1883	91-102
+History of intolerance (including Grade 3-4 infusion reaction) or hypersensitivity to trastuzumab, murine proteins, or docetaxel.	Eligibility	29
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	66-82
+Known hypersensitivity to any of the study drugs, including the excipients, or any drugs formulated in polysorbate 80.	Eligibility	30
+hypersensitivity	GO:0002524,DOID:1205	6-22
+polysorbate 80	CHEBI:53426	103-117
+Assessed by the investigator to be unable or unwilling to comply with the requirements of the protocol.	Eligibility	31
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS) by the Investigator Using Modified Response Evaluation Criteria In Solid Tumors (RECIST)	Results	1
+PFS was defined as the time from randomization (R) to first documented investigator-assessed radiographic or clinical disease progression (PD) or death due to any cause, whichever occurred first. For target lesions (TL), PD was defined as at least a 20% increase in the sum of the longest diameter (SLD) of TLs, taking as reference the SLD recorded since treatment started or the appearance of 1 or more new lesions. For non-TLs, PD was defined as the appearance of 1 or more new lesions and/or unequivocal progression of existing non-TLs. Data for patients without PD or death were censored at the last date of tumor assessment prior to crossover (or, if no tumor assessment was performed after Baseline, at the R date +1 day). Data for patients who were lost to follow-up were censored at the last date of tumor assessment prior to crossover at which the patient was known to be progression free. Data for patients with no post-baseline tumor assessment were censored at the R date +1 day.	Results	2
+time	PATO:0000165	23-27
+r	CHEBI:8735	29-30
+r	CHEBI:8735	33-34
+r	CHEBI:8735	48-49
+r	CHEBI:8735	56-57
+r	CHEBI:8735	82-83
+r	CHEBI:8735	93-94
+r	CHEBI:8735	99-100
+r	CHEBI:8735	107-108
+r	CHEBI:8735	127-128
+r	CHEBI:8735	130-131
+r	CHEBI:8735	144-145
+r	CHEBI:8735	178-179
+r	CHEBI:8735	184-185
+r	CHEBI:8735	185-186
+r	CHEBI:8735	191-192
+r	CHEBI:8735	198-199
+r	CHEBI:8735	202-203
+r	CHEBI:8735	257-258
+r	CHEBI:8735	296-297
+r	CHEBI:8735	322-323
+r	CHEBI:8735	326-327
+r	CHEBI:8735	340-341
+r	CHEBI:8735	344-345
+r	CHEBI:8735	356-357
+r	CHEBI:8735	368-369
+r	CHEBI:8735	374-375
+r	CHEBI:8735	385-386
+r	CHEBI:8735	397-398
+r	CHEBI:8735	401-402
+r	CHEBI:8735	419-420
+r	CHEBI:8735	457-458
+r	CHEBI:8735	469-470
+r	CHEBI:8735	473-474
+r	CHEBI:8735	493-494
+r	CHEBI:8735	508-509
+r	CHEBI:8735	511-512
+r	CHEBI:8735	547-548
+r	CHEBI:8735	570-571
+r	CHEBI:8735	580-581
+r	CHEBI:8735	588-589
+r	CHEBI:8735	616-617
+r	CHEBI:8735	630-631
+r	CHEBI:8735	633-634
+r	CHEBI:8735	639-640
+r	CHEBI:8735	646-647
+r	CHEBI:8735	650-651
+r	CHEBI:8735	663-664
+r	CHEBI:8735	682-683
+r	CHEBI:8735	685-686
+r	CHEBI:8735	694-695
+r	CHEBI:8735	713-714
+r	CHEBI:8735	736-737
+r	CHEBI:8735	753-754
+r	CHEBI:8735	776-777
+r	CHEBI:8735	784-785
+r	CHEBI:8735	812-813
+r	CHEBI:8735	826-827
+r	CHEBI:8735	829-830
+r	CHEBI:8735	835-836
+r	CHEBI:8735	842-843
+r	CHEBI:8735	882-883
+r	CHEBI:8735	885-886
+r	CHEBI:8735	894-895
+r	CHEBI:8735	906-907
+r	CHEBI:8735	943-944
+r	CHEBI:8735	958-959
+r	CHEBI:8735	966-967
+r	CHEBI:8735	977-978
+disease	DOID:4,OGMS:0000031	118-125
+death	OAE:0000632	146-151
+death	OAE:0000632	572-577
+target	BAO:0003064	200-206
+increase	BAO:0001251	254-262
+diameter	PATO:0001334	289-297
+day	UO:0000033	723-726
+day	UO:0000033	987-990
+patient	HADO:0000008,OAE:0001817	549-556
+patient	HADO:0000008,OAE:0001817	738-745
+patient	HADO:0000008,OAE:0001817	857-864
+patient	HADO:0000008,OAE:0001817	908-915
+Time frame: Baseline through the data cut-off date of 15 Nov 2010 (up to 2 years, 2 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab Emtansine	Results	5
+Arm/Group Description: Patients received trastuzumab emtansine 3.6 mg/kg intravenously (IV) administered over 30-90 minutes every 3 weeks on Day 1 of each 21-day cycle.	Results	6
+day	UO:0000033	141-144
+day	UO:0000033	158-161
+Overall Number of Participants Analyzed: 67	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  14.2  [1]    (10.6 to NA)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab + Docetaxel	Results	11
+Arm/Group Description: Patients received a loading dose of trastuzumab 8 mg/kg IV + docetaxel 75 or 100 mg/m^2 IV on Day 1 of Cycle 1 followed by trastuzumab 6 mg/kg IV + docetaxel 75 or 100 mg/m^2 IV on Day 1 of all subsequent 21-day cycles.	Results	12
+day	UO:0000033	117-120
+day	UO:0000033	204-207
+day	UO:0000033	231-234
+Overall Number of Participants Analyzed: 70	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  9.2        (8.2 to 11.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 14/69 (20.29%)	Adverse Events	1
+Febrile neutropenia  0/69 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia  0/69 (0.00%)	Adverse Events	3
+Atrial fibrillation  1/69 (1.45%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiopulmonary failure  0/69 (0.00%)	Adverse Events	5
+Supraventricular extrasystoles  1/69 (1.45%)	Adverse Events	6
+Abdominal pain  1/69 (1.45%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Intestinal obstruction  0/69 (0.00%)	Adverse Events	8
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Vomiting  1/69 (1.45%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Chills  1/69 (1.45%)	Adverse Events	10
+chills	HP:0025143	0-6
+Oedema peripheral  0/69 (0.00%)	Adverse Events	11
+peripheral	HP:0030646	7-17
+Pyrexia  1/69 (1.45%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 17/66 (25.76%)	Adverse Events	14
+Febrile neutropenia  6/66 (9.09%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia  1/66 (1.52%)	Adverse Events	16
+Atrial fibrillation  1/66 (1.52%)	Adverse Events	17
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiopulmonary failure  1/66 (1.52%)	Adverse Events	18
+Supraventricular extrasystoles  0/66 (0.00%)	Adverse Events	19
+Abdominal pain  0/66 (0.00%)	Adverse Events	20
+abdominal pain	HP:0002027	0-14
+Intestinal obstruction  1/66 (1.52%)	Adverse Events	21
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Vomiting  0/66 (0.00%)	Adverse Events	22
+vomiting	HP:0002013	0-8
+Chills  0/66 (0.00%)	Adverse Events	23
+chills	HP:0025143	0-6
+Oedema peripheral  1/66 (1.52%)	Adverse Events	24
+peripheral	HP:0030646	7-17
+Pyrexia  0/66 (0.00%)	Adverse Events	25

@@ -1,0 +1,157 @@
+INTERVENTION 1:	Intervention	0
+ExAblate Treatment Arm	Intervention	1
+ExAblate 2000: MR guided focused ultrasound	Intervention	2
+INTERVENTION 2:	Intervention	3
+ExAblate Sham Control Arm	Intervention	4
+ExAblate 2000: MR guided focused ultrasound sham	Intervention	5
+Inclusion criteria:	Eligibility	0
+Men and women age 18 and older	Eligibility	1
+age	PATO:0000011	14-17
+Patients who are able and willing to give consent and able to attend all study visits	Eligibility	2
+Patients who are suffering from symptoms of bone metastases or multiple myeloma bone lesions and are radiation failure patients:	Eligibility	3
+multiple myeloma	HP:0006775,DOID:9538	63-79
+Radiation failure candidates are those who have received radiation without adequate relief from metastatic bone pain as determined by the patient and treating physician, those for whom their treating physician would not prescribe radiation or additional radiation treatments, and those patients who refuse additional radiation therapy,	Eligibility	4
+bone pain	HP:0002653	107-116
+patient	HADO:0000008,OAE:0001817	138-145
+patient	HADO:0000008,OAE:0001817	286-293
+Patients who refuse other accepted available treatments such as surgery or narcotics for pain alleviation.	Eligibility	5
+surgery	OAE:0000067	64-71
+pain	HP:0012531	89-93
+Patient with NRS (0-10 scale) pain score  4 irrespective of medication	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+pain	HP:0012531	30-34
+Targeted tumor(s) are ExAblate device accessible and are located in ribs, extremities (excluding joints), pelvis, shoulders and in the posterior aspects of the following spinal vertebra: Lumbar vertebra (L3 - L5), Sacral vertebra (S1 - S5)	Eligibility	7
+Targeted tumor (treated) size up to 55 cm2 in surface area	Eligibility	8
+size	PATO:0000117	25-29
+area	PATO:0001323	54-58
+Patient whose targeted (treated) lesion is on bone and the interface between the bone and lesion is deeper than 10-mm from the skin.	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+Targeted (treated) tumor clearly visible by non-contrast MRI, and ExAblate MRgFUS device accessible	Eligibility	10
+Able to communicate sensations during the ExAblate treatment	Eligibility	11
+Patients on ongoing chemotherapy regimen for at least 1 month at the time of eligibility:	Eligibility	12
+month	UO:0000035	56-61
+time	PATO:0000165	69-73
+- with same chemotherapy regimen (as documented from patient medical dossier),	Eligibility	13
+patient	HADO:0000008,OAE:0001817	53-60
+And	Eligibility	14
+- Worst pain NRS still >= 4	Eligibility	15
+pain	HP:0012531	8-12
+And	Eligibility	16
+- do NOT plan to initiate a new chemotherapy for pain palliation should be eligible for the study.	Eligibility	17
+pain	HP:0012531	49-53
+No radiation therapy to targeted (most painful) lesion in the past two weeks	Eligibility	18
+Bisphosphonate intake should remain stable throughout the study duration.	Eligibility	19
+stable	HP:0031915	36-42
+duration	PATO:0001309	64-72
+Patients will have from 1 to 5 painful lesions and only the most painful lesion will be treated.	Eligibility	20
+Patients with persistent distinguishable pain associated with 1 site to be treated (if patient has pain from additional sites, the pain from the additional sites must be evaluated as being less intense by at least 2 points on the NRS compared to the site to be treated).	Eligibility	21
+pain	HP:0012531	41-45
+pain	HP:0012531	99-103
+pain	HP:0012531	131-135
+site	BFO:0000029	64-68
+site	BFO:0000029	120-124
+site	BFO:0000029	156-160
+site	BFO:0000029	250-254
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	87-94
+Exclusion Criteria:	Eligibility	22
+Patients who either	Eligibility	23
+Need surgical stabilization of the affected bony structure (>7 fracture risk score, see Section 7.3) OR	Eligibility	24
+affected	HP:0032320	35-43
+structure	PATO:0000141	49-58
+Targeted tumor is at an impending fracture site (>7 on fracture risk score, see Section 7.3).	Eligibility	25
+site	BFO:0000029	43-47
+OR	Eligibility	26
+- Patients with surgical stabilization of tumor site with metallic hardware	Eligibility	27
+site	BFO:0000029	48-52
+More than 5 painful lesions, or more than 1 requiring immediate localized treatment	Eligibility	28
+localized	HP:0012838,PATO:0000627	64-73
+Targeted (treated) tumor is in the skull	Eligibility	29
+skull	UBERON:0003129	35-40
+Patients on dialysis	Eligibility	30
+dialysis	OAE:0002495	12-20
+Patients with life expectancy < 3-Months	Eligibility	31
+patients with an acute medical condition (e.g., pneumonia, sepsis) that is expected to hinder them from completing this study.	Eligibility	32
+acute	HP:0011009,PATO:0000389	17-22
+condition	PDRO:0000129	31-40
+pneumonia	HP:0002090,DOID:552	48-57
+sepsis	HP:0100806	59-65
+Patients with unstable cardiac status including:	Eligibility	33
+Unstable angina pectoris on medication	Eligibility	34
+angina pectoris	HP:0001681	9-24
+Patients with documented myocardial infarction within six months of protocol entry	Eligibility	35
+myocardial infarction	HP:0001658,DOID:5844	25-46
+Congestive heart failure requiring medication (other than diuretic)	Eligibility	36
+congestive heart failure	HP:0001635,DOID:6000	0-24
+diuretic	CHEBI:35498	58-66
+Patients on anti-arrhythmic drugs	Eligibility	37
+Severe hypertension (diastolic BP > 100 on medication)	Eligibility	38
+severe	HP:0012828	0-6
+hypertension	HP:0000822,DOID:10763	7-19
+Patients with standard contraindications for MR imaging such as non-MRI compatible implanted metallic devices including cardiac pacemakers, size limitations (weight >250 pounds), etc.	Eligibility	39
+size	PATO:0000117	140-144
+Patients with an active infection or severe hematological, neurological, or other uncontrolled disease.	Eligibility	40
+active	PATO:0002354	17-23
+severe	HP:0012828	37-43
+disease	DOID:4,OGMS:0000031	95-102
+Known intolerance or allergies to the MRI contrast agent (e.g. Gadolinium or Magnevist) including advanced kidney disease	Eligibility	41
+mri contrast agent	CHEBI:37335	38-56
+kidney disease	DOID:557	107-121
+KPS Score < 60 (See "Definitions" below)	Eligibility	42
+Severe cerebrovascular disease (multiple CVA or CVA within 6 months)	Eligibility	43
+severe	HP:0012828	0-6
+cerebrovascular disease	DOID:6713	7-30
+Individuals who are not able or willing to tolerate the required prolonged stationary position during treatment (approximately 2 hrs.)	Eligibility	44
+prolonged	HP:0025297	65-74
+position	HP:0012830	86-94
+Target (treated) tumor is less then 1cm from nerve bundles, bowels or bladder.	Eligibility	45
+target	BAO:0003064	0-6
+nerve	UBERON:0001021	45-50
+Are participating or have participated in another clinical trial in the last 30 days	Eligibility	46
+Patients initiating a new chemotherapy regime, or radiation (for the targeted most painful lesion) within the last 2 weeks	Eligibility	47
+Patients unable to communicate with the investigator and staff.	Eligibility	48
+Patients with persistent undistinguishable pain (pain source unidentifiable)	Eligibility	49
+pain	HP:0012531	43-47
+pain	HP:0012531	49-53
+Targeted (treated) tumor surface area >= 55 cm2	Eligibility	50
+area	PATO:0001323	33-37
+Patient whose bone-lesion interface is < 10-mm from the skin	Eligibility	51
+patient	HADO:0000008,OAE:0001817	0-7
+Targeted (treated) tumor NOT visible by non-contrast MRI,	Eligibility	52
+Targeted (most painful) tumor Not accessible to ExAblate	Eligibility	53
+The targeted tumor is less than 2 points more painful compared to other painful lesions on the site specific NRS.	Eligibility	54
+site	BFO:0000029	95-99
+Outcome Measurement:	Results	0
+Number of Responders	Results	1
+Using the Numerical Rating Score (NRS) for pain (0 being no pain and 10 being worst imaginable pain), each subject was rated as a Responder or Non-responder. A responder is defined as a subject with a reduction in NRS worst score from baseline of two (2) or more points, and no increase in pain medication use.	Results	2
+pain	HP:0012531	43-47
+pain	HP:0012531	60-64
+pain	HP:0012531	95-99
+pain	HP:0012531	290-294
+increase	BAO:0001251	278-286
+Time frame: 3 months post treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: ExAblate Treatment Arm	Results	5
+Arm/Group Description: ExAblate 2000: MR guided focused ultrasound	Results	6
+Overall Number of Participants Analyzed: 81	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  54  66.7%	Results	9
+Results 2:	Results	10
+Arm/Group Title: ExAblate Sham Control Arm	Results	11
+Arm/Group Description: ExAblate 2000: MR guided focused ultrasound sham	Results	12
+Overall Number of Participants Analyzed: 26	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  6  23.1%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 8/87 (9.20%)	Adverse Events	1
+Death * [1]8/87 (9.20%)	Adverse Events	2
+death	OAE:0000632	0-5
+Hospitalization [2]1/87 (1.15%)	Adverse Events	3
+Hospitalization [3]1/87 (1.15%)	Adverse Events	4
+Adverse Events 2:	Adverse Events	5
+Total: 0/28 (0.00%)	Adverse Events	6
+Death * [1]0/28 (0.00%)	Adverse Events	7
+death	OAE:0000632	0-5
+Hospitalization [2]0/28 (0.00%)	Adverse Events	8
+Hospitalization [3]0/28 (0.00%)	Adverse Events	9

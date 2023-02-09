@@ -1,0 +1,78 @@
+INTERVENTION 1:	Intervention	0
+LY573636-sodium	Intervention	1
+Dose was adjusted to target a specific maximum concentration (Cmax) based on patient laboratory parameters, administered intravenously every 28 days until disease progression or other criteria for patient discontinuation were met	Intervention	2
+target	BAO:0003064	21-27
+cmax	BAO:0002119	62-66
+patient	HADO:0000008,OAE:0001817	77-84
+patient	HADO:0000008,OAE:0001817	197-204
+disease	DOID:4,OGMS:0000031	155-162
+Inclusion Criteria:	Eligibility	0
+Received at least 2 or more prior chemotherapy regimens for metastatic breast cancer.	Eligibility	1
+breast cancer	DOID:1612	71-84
+Have discontinued all previous therapies for cancer, including chemotherapy, radiotherapy, cancer-related hormonal therapy, or other investigational therapy for at least 4 weeks. Patients who have received whole-brain radiation must wait 90 days.	Eligibility	2
+cancer	DOID:162	45-51
+cancer	DOID:162	91-97
+radiotherapy	OAE:0000235	77-89
+Exclusion Criteria:	Eligibility	3
+Serious pre-existing medical condition.	Eligibility	4
+condition	PDRO:0000129	29-38
+Have active central nervous system or leptomeningeal metastasis.	Eligibility	5
+active	PATO:0002354	5-11
+central nervous system	UBERON:0001017	12-34
+Current hematologic malignancies, acute or chronic leukemia.	Eligibility	6
+acute	HP:0011009,PATO:0000389	34-39
+chronic leukemia	HP:0005558,DOID:1036	43-59
+Receiving Warfarin (Coumadin).	Eligibility	7
+warfarin	CHEBI:10033	10-18
+Have a history of radiation therapy involving more than 25% of the bone marrow.	Eligibility	8
+history	BFO:0000182	7-14
+bone marrow	UBERON:0002371	67-78
+Outcome Measurement:	Results	0
+Percentage of Participants With an Objective Overall Response	Results	1
+Objective overall response is complete response (CR) + partial response (PR), as classified by the investigators according to the Response Evaluation Criteria In Solid Tumors (RECIST) guidelines. CR is disappearance of all target and non-target lesions; PR is 30% decrease in sum of longest diameter of target lesions. It is calculated as a total number of participants with CR or PR divided by the total number of participants treated multiplied by 100.	Results	2
+target	BAO:0003064	223-229
+target	BAO:0003064	238-244
+target	BAO:0003064	303-309
+diameter	PATO:0001334	291-299
+Time frame: Baseline to measured progressive disease or death from any cause up to 12 months	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	33-44
+disease	DOID:4,OGMS:0000031	45-52
+death	OAE:0000632	56-61
+Results 1:	Results	4
+Arm/Group Title: LY573636-sodium	Results	5
+Arm/Group Description: Dose was adjusted to target a specific maximum concentration (Cmax) based on patient laboratory parameters, administered intravenously every 28 days until disease progression or other criteria for patient discontinuation were met	Results	6
+target	BAO:0003064	44-50
+cmax	BAO:0002119	85-89
+patient	HADO:0000008,OAE:0001817	100-107
+patient	HADO:0000008,OAE:0001817	220-227
+disease	DOID:4,OGMS:0000031	178-185
+Overall Number of Participants Analyzed: 33	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  6.1        (1.1 to 17.9)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 10/33 (30.30%)	Adverse Events	1
+Constipation 1/33 (3.03%)	Adverse Events	2
+constipation	HP:0002019,DOID:2089	0-12
+Dysphagia 1/33 (3.03%)	Adverse Events	3
+dysphagia	HP:0002015	0-9
+Ileus 1/33 (3.03%)	Adverse Events	4
+ileus	HP:0002595,DOID:8440	0-5
+Nausea 1/33 (3.03%)	Adverse Events	5
+nausea	HP:0002018	0-6
+Vomiting 1/33 (3.03%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Fatigue 1/33 (3.03%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+Pain 1/33 (3.03%)	Adverse Events	8
+pain	HP:0012531	0-4
+Sepsis 2/33 (6.06%)	Adverse Events	9
+sepsis	HP:0100806	0-6
+Urinary tract infection 1/33 (3.03%)	Adverse Events	10
+urinary tract infection	DOID:0080784	0-23
+Alanine aminotransferase increased 1/33 (3.03%)	Adverse Events	11
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased 1/33 (3.03%)	Adverse Events	12
+aspartate	CHEBI:29995	0-9
+Dehydration 2/33 (6.06%)	Adverse Events	13
+dehydration	HP:0001944	0-11

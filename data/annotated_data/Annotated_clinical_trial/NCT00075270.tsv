@@ -1,0 +1,162 @@
+INTERVENTION 1:	Intervention	0
+Lapatinib With Paclitaxel	Intervention	1
+lapatinib	CHEBI:49603	0-9
+paclitaxel	CHEBI:45863	15-25
+Participants received lapatinib 1500 milligrams (mg) orally once daily (OD) with paclitaxel 175 mg/meters squared (m^2) intravenously (IV) over the course of 3 hours, every 3 weeks. The treatment group was stratified by sites of metastatic disease and stage of disease. Participants were treated until disease progression, unacceptable toxicity, or consent withdrawal.	Intervention	2
+lapatinib	CHEBI:49603	22-31
+paclitaxel	CHEBI:45863	81-91
+group	CHEBI:24433	196-201
+disease	DOID:4,OGMS:0000031	240-247
+disease	DOID:4,OGMS:0000031	261-268
+disease	DOID:4,OGMS:0000031	302-309
+INTERVENTION 2:	Intervention	3
+Placebo With Paclitaxel	Intervention	4
+paclitaxel	CHEBI:45863	13-23
+Participants received matching placebo orally OD with paclitaxel (175 mg/m^2 IV) over the course of 3 hours, every 3 weeks. The treatment group was stratified by sites of metastatic disease and stage of disease. Participants were treated until disease progression, unacceptable toxicity, or consent withdrawal.	Intervention	5
+paclitaxel	CHEBI:45863	54-64
+group	CHEBI:24433	138-143
+disease	DOID:4,OGMS:0000031	182-189
+disease	DOID:4,OGMS:0000031	203-210
+disease	DOID:4,OGMS:0000031	244-251
+Inclusion criteria:	Eligibility	0
+Signed Informed Consent	Eligibility	1
+Able to swallow an oral medication	Eligibility	2
+Cardiac ejection fraction within the institutional range of normal as measured by echocardiogram	Eligibility	3
+ejection fraction	CMO:0000180	8-25
+range	LABO:0000114	51-56
+Adequate kidney and liver function	Eligibility	4
+kidney	UBERON:0002113	9-15
+liver	UBERON:0002107	20-25
+function	BAO:0003117,BFO:0000034	26-34
+Adequate bone marrow function	Eligibility	5
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Tumor tissue available for testing	Eligibility	6
+tissue	UBERON:0000479	6-12
+Prior adjuvant or neoadjuvant therapy is permitted with an anthracycline or anthracenedione-containing regimen however, subjects must have had cumulative doses of less than 360 mg/m2 of doxorubicin, 720 mg/m2 of epirubicin, or 72 mg/m2 of mitoxantrone	Eligibility	7
+adjuvant	CHEBI:60809	6-14
+adjuvant	CHEBI:60809	21-29
+anthracycline	CHEBI:48120	59-72
+doxorubicin	CHEBI:28748,BAO:0000639	186-197
+mitoxantrone	CHEBI:50729	239-251
+No Her2/neu overexpression in tumor tissue tested or status unknown if tissue has never been tested	Eligibility	8
+tissue	UBERON:0000479	36-42
+tissue	UBERON:0000479	71-77
+Exclusion criteria:	Eligibility	9
+Prior treatment regimens for advanced or metastatic breast cancer.	Eligibility	10
+breast cancer	DOID:1612	52-65
+Pregnant or lactating	Eligibility	11
+Conditions that would effect the absorption of an oral drug	Eligibility	12
+drug	CHEBI:23888	55-59
+Active infection	Eligibility	13
+active	PATO:0002354	0-6
+Brain metastases	Eligibility	14
+brain	UBERON:0000955	0-5
+Treatment with EGFR (Endothelial Growth Factor Receptor) inhibitor.	Eligibility	15
+growth factor	BAO:0002024	33-46
+receptor	BAO:0000281	47-55
+inhibitor	CHEBI:35222	57-66
+Known hypersensitivity to Taxol or excipients of Taxol	Eligibility	16
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Peripheral neuropathy of Grade 2 or greater is not permitted	Eligibility	17
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Severe Cardiovascular disease or cardiac disease requiring a device.	Eligibility	18
+severe	HP:0012828	0-6
+disease	DOID:4,OGMS:0000031	22-29
+disease	DOID:4,OGMS:0000031	41-48
+Serious medical or psychiatric disorder that would interfere with the patient's safety or informed consent.	Eligibility	19
+disorder	OGMS:0000045	31-39
+patient	HADO:0000008,OAE:0001817	70-77
+Outcome Measurement:	Results	0
+Time to Progression as Evaluated by the Investigator	Results	1
+time	PATO:0000165	0-4
+Time to progression (TTP) is defined as the interval between the date of randomization and the earliest date of progression of disease (PD) or death due to breast cancer. The investigator assessed PD based on radiological PD (imaging data) and clinical symptomatic progress (Response Evaluation Criteria in Solid Tumors [RECIST] Criteria: target lesion (TL), at least a 20% increase in the sum of largest diameter (LD) of TLs or the appearance of one or more new lesions; non-TL (NTL), the appearance of one or more new lesions and/or unequivocal progression of existing NTLs). TTP was assessed in participants who died due to breast cancer or progressed, as assessed by the investigator, as well as in those who were censored and completed follow-up and those who were censored but are still being followed. For censored participants (those without a documented date of disease progression/death due to breast cancer), the date of the last radiographic assessment was used.	Results	2
+time	PATO:0000165	0-4
+ttp	CHEBI:63550	21-24
+ttp	CHEBI:63550	578-581
+disease	DOID:4,OGMS:0000031	127-134
+disease	DOID:4,OGMS:0000031	871-878
+death	OAE:0000632	143-148
+death	OAE:0000632	891-896
+breast cancer	DOID:1612	156-169
+breast cancer	DOID:1612	627-640
+breast cancer	DOID:1612	904-917
+target	BAO:0003064	339-345
+increase	BAO:0001251	374-382
+diameter	PATO:0001334	405-413
+Time frame: Randomization until the date of disease progression or death (average of 26 weeks)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	44-51
+death	OAE:0000632	67-72
+Results 1:	Results	4
+Arm/Group Title: Lapatinib With Paclitaxel	Results	5
+lapatinib	CHEBI:49603	17-26
+paclitaxel	CHEBI:45863	32-42
+Arm/Group Description: Participants received lapatinib 1500 milligrams (mg) orally once daily (OD) with paclitaxel 175 mg/meters squared (m^2) intravenously (IV) over the course of 3 hours, every 3 weeks. The treatment group was stratified by sites of metastatic disease and stage of disease. Participants were treated until disease progression, unacceptable toxicity, or consent withdrawal.	Results	6
+lapatinib	CHEBI:49603	45-54
+paclitaxel	CHEBI:45863	104-114
+group	CHEBI:24433	4-9
+group	CHEBI:24433	219-224
+disease	DOID:4,OGMS:0000031	263-270
+disease	DOID:4,OGMS:0000031	284-291
+disease	DOID:4,OGMS:0000031	325-332
+Overall Number of Participants Analyzed: 291	Results	7
+Median (Inter-Quartile Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: weeks  29.0        (13.9 to 46.9)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo With Paclitaxel	Results	11
+paclitaxel	CHEBI:45863	30-40
+Arm/Group Description: Participants received matching placebo orally OD with paclitaxel (175 mg/m^2 IV) over the course of 3 hours, every 3 weeks. The treatment group was stratified by sites of metastatic disease and stage of disease. Participants were treated until disease progression, unacceptable toxicity, or consent withdrawal.	Results	12
+paclitaxel	CHEBI:45863	77-87
+group	CHEBI:24433	4-9
+group	CHEBI:24433	161-166
+disease	DOID:4,OGMS:0000031	205-212
+disease	DOID:4,OGMS:0000031	226-233
+disease	DOID:4,OGMS:0000031	267-274
+Overall Number of Participants Analyzed: 288	Results	13
+Median (Inter-Quartile Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: weeks  22.9        (12.0 to 38.3)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 103/293 (35.15%)	Adverse Events	1
+Neutropenia 22/293 (7.51%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile neutropenia 10/293 (3.41%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Disseminated intravascular coagulation 0/293 (0.00%)	Adverse Events	4
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Leukopenia 0/293 (0.00%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocythemia 1/293 (0.34%)	Adverse Events	6
+Left ventricular dysfunction 2/293 (0.68%)	Adverse Events	7
+left	HP:0012835	0-4
+Atrial fibrillation 1/293 (0.34%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 1/293 (0.34%)	Adverse Events	9
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 1/293 (0.34%)	Adverse Events	10
+Myocardial infarction 0/293 (0.00%)	Adverse Events	11
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Adverse Events 2:	Adverse Events	12
+Total: 63/286 (22.03%)	Adverse Events	13
+Neutropenia 14/286 (4.90%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile neutropenia 3/286 (1.05%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Disseminated intravascular coagulation 1/286 (0.35%)	Adverse Events	16
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Leukopenia 1/286 (0.35%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocythemia 0/286 (0.00%)	Adverse Events	18
+Left ventricular dysfunction 1/286 (0.35%)	Adverse Events	19
+left	HP:0012835	0-4
+Atrial fibrillation 0/286 (0.00%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 0/286 (0.00%)	Adverse Events	21
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 0/286 (0.00%)	Adverse Events	22
+Myocardial infarction 1/286 (0.35%)	Adverse Events	23
+myocardial infarction	HP:0001658,DOID:5844	0-21

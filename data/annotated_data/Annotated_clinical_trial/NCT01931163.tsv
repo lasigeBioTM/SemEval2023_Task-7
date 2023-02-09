@@ -1,0 +1,211 @@
+INTERVENTION 1:	Intervention	0
+Everolimus Plus Cisplatin	Intervention	1
+everolimus	CHEBI:68478	0-10
+cisplatin	CHEBI:27899	16-25
+Everolimus 10mg by mouth daily for 12 weeks; Cisplatin 20 mg/m2 IV infusion over 60 minutes, weekly (Days 1, 8, 15) x 4 cycles	Intervention	2
+everolimus	CHEBI:68478	0-10
+mouth	UBERON:0000165	19-24
+cisplatin	CHEBI:27899	45-54
+x	LABO:0000148	116-117
+Inclusion Criteria:	Eligibility	0
+Female patients 18 years of age.	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	28-31
+Clinical/pathological documentation of residual disease after neo-adjuvant therapy.	Eligibility	2
+disease	DOID:4,OGMS:0000031	48-55
+Patients with synchronous bilateral cancers are eligible only if:	Eligibility	3
+bilateral	HP:0012832	26-35
+Index cancer is triple-negative, defined as ER-, PR-, and HER2-.	Eligibility	4
+cancer	DOID:162	6-12
+HER2 negative tumors. HER2 negativity must be confirmed by one of the following:	Eligibility	5
+FISH-negative (FISH ratio <2.2), or	Eligibility	6
+ratio	UO:0000190	20-25
+IHC 0-1+, or	Eligibility	7
+IHC 2-3+ AND FISH-negative (FISH ratio <2.2).	Eligibility	8
+ratio	UO:0000190	33-38
+Estrogen receptor negative and progesterone receptor negative (<10% staining by IHC for estrogen receptor and progesterone receptor).	Eligibility	9
+estrogen	CHEBI:50114,BAO:0000760	0-8
+estrogen	CHEBI:50114,BAO:0000760	88-96
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	44-52
+receptor	BAO:0000281	97-105
+receptor	BAO:0000281	123-131
+progesterone	CHEBI:17026	31-43
+progesterone	CHEBI:17026	110-122
+Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1.	Eligibility	10
+group	CHEBI:24433	29-34
+Adequate hematologic function, defined by:	Eligibility	11
+function	BAO:0003117,BFO:0000034	21-29
+Absolute neutrophil count 2 >1000/mm3	Eligibility	12
+Platelet count 100,000/mm3	Eligibility	13
+platelet count	CMO:0000029	0-14
+Hemoglobin >9 g/dL	Eligibility	14
+hemoglobin	CHEBI:35143	0-10
+Adequate liver function, defined by:	Eligibility	15
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+AST and ALT 2.5 x the upper limit of normal (ULN)	Eligibility	16
+x	LABO:0000148	16-17
+Total bilirubin 1.5 x ULN (unless the patient has grade 1 bilirubin elevation due to Gilbert's disease or a similar syndrome involving slow conjugation of bilirubin).	Eligibility	17
+x	LABO:0000148	20-21
+patient	HADO:0000008,OAE:0001817	38-45
+disease	DOID:4,OGMS:0000031	95-102
+syndrome	DOID:225	116-124
+Adequate renal function, defined by:	Eligibility	18
+function	BAO:0003117,BFO:0000034	15-23
+Serum creatinine 1.5 x ULN	Eligibility	19
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	21-22
+Complete staging work-up 24 weeks prior to initiation of study treatment with computed tomography (CT) scans of the chest and abdomen/pelvis (abdomen/pelvis preferred; abdomen accepted), a CT scan of the head or MRI of the brain (if symptomatic), and either a positron emission tomography (PET) scan or a bone scan.	Eligibility	20
+tomography	BAO:0002525	87-97
+tomography	BAO:0002525	278-288
+ct	BAO:0002125	99-101
+ct	BAO:0002125	189-191
+chest	UBERON:0001443	116-121
+abdomen	UBERON:0000916	126-133
+abdomen	UBERON:0000916	142-149
+abdomen	UBERON:0000916	168-175
+head	UBERON:0000033	204-208
+brain	UBERON:0000955	223-228
+positron	CHEBI:30225	260-268
+Adequate cardiac function, defined by a left ventricular ejection fraction (LVEF) value of >50% (or normal per institutional guidelines) by MUGA scan or echocardiogram (ECHO).	Eligibility	21
+function	BAO:0003117,BFO:0000034	17-25
+left	HP:0012835	40-44
+ejection fraction	CMO:0000180	57-74
+Patients with previous history of invasive cancers (including breast cancer) are eligible if definitive treatment was completed more than 5 years prior to initiating current study treatment, and there is no evidence of recurrent disease.	Eligibility	22
+history	BFO:0000182	23-30
+breast cancer	DOID:1612	62-75
+recurrent	HP:0031796	219-228
+disease	DOID:4,OGMS:0000031	229-236
+Women of childbearing potential must have a negative serum or urine pregnancy test performed within 7 days prior to start of treatment. If a woman becomes pregnant or suspects she is pregnant while participating in this study, she must agree to inform her treating physician immediately.	Eligibility	23
+urine	UBERON:0001088	62-67
+Patient must be accessible for treatment and follow-up.	Eligibility	24
+patient	HADO:0000008,OAE:0001817	0-7
+Women of childbearing potential must agree to use an acceptable method of birth control to avoid pregnancy for the duration of study treatment, and for 3 months thereafter.	Eligibility	25
+duration	PATO:0001309	115-123
+Able to swallow and retain oral medication.	Eligibility	26
+Patient must be willing to undergo breast biopsies as required by the study protocol.	Eligibility	27
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	35-41
+All patients must be able to understand the investigational nature of the study and give written informed consent prior to study entry.	Eligibility	28
+Exclusion Criteria:	Eligibility	29
+Women who are pregnant or breastfeeding.	Eligibility	30
+History of previously treated ductal carcinoma in situ (DCIS) is acceptable.	Eligibility	31
+history	BFO:0000182	0-7
+ductal carcinoma in situ	HP:0030075,DOID:0060074	30-54
+Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel.	Eligibility	32
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+disease	DOID:4,OGMS:0000031	24-31
+function	BAO:0003117,BFO:0000034	73-81
+stomach	UBERON:0000945	103-110
+Known intolerance or hypersensitivity to Everolimus or other rapamycin analogs (e.g. sirolimus, temsirolimus);	Eligibility	33
+hypersensitivity	GO:0002524,DOID:1205	21-37
+everolimus	CHEBI:68478	41-51
+sirolimus	CHEBI:9168	85-94
+sirolimus	CHEBI:9168	99-108
+temsirolimus	CHEBI:79699	96-108
+Previous cancer (with the exception of non-melanoma skin cancer or cervical carcinoma in situ) in the past 5 years.	Eligibility	34
+cancer	DOID:162	9-15
+cancer	DOID:162	57-63
+skin cancer	DOID:4159	52-63
+carcinoma	HP:0030731,DOID:305	76-85
+Patients who have any severe and/or uncontrolled medical conditions such as:	Eligibility	35
+severe	HP:0012828	22-28
+unstable angina pectoris, symptomatic congestive heart failure, myocardial infarction 6 months prior to start of Everolimus, serious uncontrolled cardiac arrhythmia, or any other clinically significant cardiac disease	Eligibility	36
+angina pectoris	HP:0001681	9-24
+congestive heart failure	HP:0001635,DOID:6000	38-62
+myocardial infarction	HP:0001658,DOID:5844	64-85
+everolimus	CHEBI:68478	113-123
+arrhythmia	HP:0011675	154-164
+disease	DOID:4,OGMS:0000031	210-217
+Symptomatic congestive heart failure of New York heart Association Class III or IV	Eligibility	37
+congestive heart failure	HP:0001635,DOID:6000	12-36
+heart	UBERON:0000948	23-28
+heart	UBERON:0000948	49-54
+active (acute or chronic) or uncontrolled severe infection, liver disease such as cirrhosis, decompensated liver disease, and chronic hepatitis (i.e. quantifiable HBV-DNA and/or positive HbsAg, quantifiable HCV-RNA),	Eligibility	38
+active	PATO:0002354	0-6
+acute	HP:0011009,PATO:0000389	8-13
+chronic	HP:0011010	17-24
+chronic	HP:0011010	126-133
+severe infection	HP:0032169	42-58
+liver disease	DOID:409	60-73
+liver disease	DOID:409	107-120
+cirrhosis	HP:0001394	82-91
+chronic hepatitis	HP:0200123,DOID:2237	126-143
+known severely impaired lung function (spirometry and DLCO 50% or less of normal and O2 saturation 88% or less at rest on room air),	Eligibility	39
+lung	UBERON:0002048	24-28
+function	BAO:0003117,BFO:0000034	29-37
+active, bleeding diathesis;	Eligibility	40
+active	PATO:0002354	0-6
+Patients may not receive any other investigational or anti-cancer treatments while participating in this study.	Eligibility	41
+Concurrent severe, uncontrolled infection or intercurrent illness including, but not limited to, ongoing or active infection, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	42
+severe	HP:0012828	11-17
+active	PATO:0002354	108-114
+Mental condition that would prevent patient comprehension of the nature of, and risk associated with, the study.	Eligibility	43
+condition	PDRO:0000129	7-16
+patient	HADO:0000008,OAE:0001817	36-43
+Inability to comply with study and/or follow-up procedures.	Eligibility	44
+Patients who have received live attenuated vaccines within 1 week of start of Everolimus and during the study. Patient should also avoid close contact with others who have received live attenuated vaccines.	Eligibility	45
+week	UO:0000034	61-65
+everolimus	CHEBI:68478	78-88
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	111-118
+Examples of live attenuated vaccines include intranasal influenza, measles, mumps, rubella, oral polio, BCG, yellow fever, varicella and TY21a typhoid vaccines;	Eligibility	46
+influenza	DOID:8469	56-65
+measles	DOID:8622	67-74
+mumps	DOID:10264	76-81
+rubella	DOID:8781	83-90
+yellow fever	DOID:9682	109-121
+Known history of HIV seropositivity;	Eligibility	47
+history	BFO:0000182	6-13
+Women of child-bearing potential (WOCBP), defined as all women physiologically capable of becoming pregnant, unless they are using highly effective methods of contraception during dosing of study treatment. Highly effective contraception methods include combination of any two of the following (a+b or a+c or b+c):	Eligibility	48
+Use of oral, injected or implanted hormonal methods of contraception or;	Eligibility	49
+Placement of an intrauterine device (IUD) or intrauterine system (IUS);	Eligibility	50
+Barrier methods of contraception: condom or occlusive cap (diaphragm or cervical/vault caps) with spermicidal foam/gel/film/cream/ vaginal suppository;	Eligibility	51
+diaphragm	UBERON:0001103	59-68
+Total abstinence or;	Eligibility	52
+Male/female sterilization. Women are considered post-menopausal and not of child-bearing potential if they have had 12 months of natural (spontaneous) amenorrhea with an appropriate clinical profile (e.g. age appropriate, history of vasomotor symptoms) or have had surgical bilateral oophorectomy (with or without hysterectomy) or tubal ligation at least six weeks prior to treatment. In the case of oophorectomy alone, only when the reproductive status of the woman has been confirmed by follow up hormone level assessment is she considered not of child-bearing potential.	Eligibility	53
+amenorrhea	HP:0000141,DOID:13938	151-161
+age	PATO:0000011	205-208
+history	BFO:0000182	222-229
+bilateral	HP:0012832	274-283
+hormone	CHEBI:24621	499-506
+Chronic treatment with corticosteroids or other immunosuppressive agents. Topical or inhaled corticosteroids are allowed;	Eligibility	54
+chronic	HP:0011010	0-7
+Outcome Measurement:	Results	0
+Tumor Response	Results	1
+Evaluate tumor response using RECIST criteria after 12 weeks of treatment at definitive surgery.	Results	2
+surgery	OAE:0000067	88-95
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.", or similar definition that is accurate and appropriate.	Results	3
+target	BAO:0003064	76-82
+target	BAO:0003064	157-163
+target	BAO:0003064	249-255
+diameter	PATO:0001334	237-245
+Time frame: tumor response at 12 weeks after treatment	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Everolimus Plus Cisplatin	Results	6
+everolimus	CHEBI:68478	17-27
+cisplatin	CHEBI:27899	33-42
+Arm/Group Description: Everolimus 10mg by mouth daily for 12 weeks; Cisplatin 20 mg/m2 IV infusion over 60 minutes, weekly (Days 1, 8, 15) x 4 cycles	Results	7
+everolimus	CHEBI:68478	23-33
+mouth	UBERON:0000165	42-47
+cisplatin	CHEBI:27899	68-77
+x	LABO:0000148	139-140
+Overall Number of Participants Analyzed: 22	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  22 100.0%	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 6/22 (27.27%)	Adverse Events	1
+Thrombocytopenia  1/22 (4.55%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+leucocytopenia  1/22 (4.55%)	Adverse Events	3
+neutropenia  1/22 (4.55%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+papilledema  1/22 (4.55%)	Adverse Events	5
+papilledema	HP:0001085,DOID:146	0-11
+Nausea  1/22 (4.55%)	Adverse Events	6
+nausea	HP:0002018	0-6
+hyperglycemia  1/22 (4.55%)	Adverse Events	7
+hyperglycemia	HP:0003074,DOID:4195	0-13

@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Week 5 Intervention Group	Intervention	1
+week	UO:0000034	0-4
+group	CHEBI:24433	20-25
+Reflexology: 4 weekly foot reflexology sessions delivered by friend/family member.	Intervention	2
+Friend/family member was trained in foot reflexology protocol by certified reflexologist.	Intervention	3
+Friend/family member provides 4 weekly sessions to patient.	Intervention	4
+patient	HADO:0000008,OAE:0001817	51-58
+INTERVENTION 2:	Intervention	5
+Week 5 Control Group	Intervention	6
+week	UO:0000034	0-4
+group	CHEBI:24433	15-20
+Standard medical care: no reflexology	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Age  21	Eligibility	1
+age	PATO:0000011	0-3
+Diagnosis of breast cancer, Stage III, IV, or Stage I or II with metastasis or recurrence	Eligibility	2
+breast cancer	DOID:1612	13-26
+Able to perform basic ADLs	Eligibility	3
+Undergoing chemotherapy and/or hormonal therapy for breast cancer	Eligibility	4
+breast cancer	DOID:1612	52-65
+Able to speak and understand English	Eligibility	5
+Have access to a telephone	Eligibility	6
+Able to hear normal conversation	Eligibility	7
+Cognitively oriented to time, place, and person (determined via nurse recruiter)	Eligibility	8
+time	PATO:0000165	24-28
+Exclusion Criteria:	Eligibility	9
+Diagnosis of major mental illness on the medical record and verified by the recruiter	Eligibility	10
+medical record	OMIABIS:0001026	41-55
+Residing in a nursing home	Eligibility	11
+home	CHEBI:75830	22-26
+Bedridden	Eligibility	12
+Currently receiving regular reflexology	Eligibility	13
+Diagnosis of symptoms of deep vein thrombosis or painful foot neuropathy, which will require medical approval	Eligibility	14
+vein	UBERON:0001638	30-34
+thrombosis	DOID:0060903	35-45
+neuropathy	DOID:870	62-72
+Outcome Measurement:	Results	0
+The M.D. Anderson Symptom Inventory (MDASI)	Results	1
+symptom	OGMS:0000020	18-25
+The M.D. Anderson Symptom Inventory (MDASI) evaluates severity of 13 symptoms experienced by cancer patients (pain, fatigue, nausea, disturbed sleep, distress, shortness of breath, difficulty remembering, decreased appetite, drowsiness, dry mouth, sadness, vomiting, numbness/tingling) on the scale from 0=symptom not present to 10=as bad as you can imagine. Summed symptom severity score ranging from 0 to 130 was derived. MDASI also assesses how much symptoms interfered with 6 aspects of daily life: general activity, mood, work (including work around the house), relations with other people, walking, and enjoyment of life on the scale from 0=did not interfere to 10=interfered completely. Summed interference score ranging from 0 to 60 was derived.	Results	2
+symptom	OGMS:0000020	18-25
+symptom	OGMS:0000020	69-76
+symptom	OGMS:0000020	306-313
+symptom	OGMS:0000020	366-373
+symptom	OGMS:0000020	453-460
+severity	HP:0012824	54-62
+severity	HP:0012824	374-382
+cancer	DOID:162	93-99
+pain	HP:0012531	110-114
+fatigue	HP:0012378	116-123
+nausea	HP:0002018	125-131
+sleep	GO:0030431	143-148
+drowsiness	HP:0002329	225-235
+mouth	UBERON:0000165	241-246
+vomiting	HP:0002013	257-265
+present	PATO:0000467	318-325
+Higher symptom severity and interference scores represent worse outcome.	Results	3
+symptom	OGMS:0000020	7-14
+severity	HP:0012824	15-23
+Time frame: Week 5 and week 11	Results	4
+time	PATO:0000165	0-4
+week	UO:0000034	12-16
+week	UO:0000034	23-27
+Results 1:	Results	5
+Arm/Group Title: Week 5 Intervention Group	Results	6
+week	UO:0000034	17-21
+group	CHEBI:24433	4-9
+group	CHEBI:24433	37-42
+Arm/Group Description: Reflexology: 4 weekly foot reflexology sessions delivered by friend/family member.	Results	7
+Friend/family member was trained in foot reflexology protocol by certified reflexologist.	Results	8
+Friend/family member provides 4 weekly sessions to patient.	Results	9
+patient	HADO:0000008,OAE:0001817	51-58
+Overall Number of Participants Analyzed: 89	Results	10
+Least Squares Mean (Standard Error)	Results	11
+mean	BAO:0002173	14-18
+Unit of Measure: units on a scale  MDASI summed symptom severity: 23.55         (1.52)	Results	12
+symptom	OGMS:0000020	48-55
+severity	HP:0012824	56-64
+MDASI summed symptom interference: 11.19         (1.16)	Results	13
+symptom	OGMS:0000020	13-20
+Results 2:	Results	14
+Arm/Group Title: Week 5 Control Group	Results	15
+week	UO:0000034	17-21
+group	CHEBI:24433	4-9
+group	CHEBI:24433	32-37
+Arm/Group Description: Standard medical care: no reflexology	Results	16
+Overall Number of Participants Analyzed: 91	Results	17
+Least Squares Mean (Standard Error)	Results	18
+mean	BAO:0002173	14-18
+Unit of Measure: units on a scale  MDASI summed symptom severity: 29.69         (1.48)	Results	19
+symptom	OGMS:0000020	48-55
+severity	HP:0012824	56-64
+MDASI summed symptom interference: 16.04         (1.12)	Results	20
+symptom	OGMS:0000020	13-20
+Adverse Events 1:	Adverse Events	0
+Total: 0/128 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/128 (0.00%)	Adverse Events	3

@@ -1,0 +1,164 @@
+INTERVENTION 1:	Intervention	0
+ARM A - Fulvestrant	Intervention	1
+fulvestrant	CHEBI:31638	8-19
+Fulvestrant: 500 mg administered by intramuscular injection on days 1 and 15 of cycle 1, day 1 of cycle 2 and each subsequent cycle; cycle duration is 28 days Eligible participants on Arm A were allowed to crossover to Arm B upon disease progression. Treatment continued for Arm A participants until 2nd disease progression.	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	63-66
+day	UO:0000033	89-92
+day	UO:0000033	154-157
+duration	PATO:0001309	139-147
+disease	DOID:4,OGMS:0000031	230-237
+disease	DOID:4,OGMS:0000031	304-311
+INTERVENTION 2:	Intervention	3
+Arm B - Fulvestrant+Ganetespib	Intervention	4
+Fulvestrant: 500 mg administered by intramuscular injection on days 1 and 15 of cycle 1, day 1 of cycle 2 and each subsequent cycle; cycle duration is 28 days Ganetespib: 200 mg/m2 administered intravenously on days 1, 8 and 15 of each 28 day cycle	Intervention	5
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	63-66
+day	UO:0000033	89-92
+day	UO:0000033	154-157
+day	UO:0000033	211-214
+day	UO:0000033	239-242
+duration	PATO:0001309	139-147
+ganetespib	CHEBI:177770	159-169
+Arm B participants whose disease was at a minimum stable could elect to discontinue ganetespib after 6 cycles or stay on combination treatment until disease progression. Otherwise, Arm B participants taken off ganetespib for toxicity were to remain on single agent fulvestrant until disease progression.	Intervention	6
+disease	DOID:4,OGMS:0000031	25-32
+disease	DOID:4,OGMS:0000031	149-156
+disease	DOID:4,OGMS:0000031	283-290
+stable	HP:0031915	50-56
+ganetespib	CHEBI:177770	84-94
+ganetespib	CHEBI:177770	210-220
+fulvestrant	CHEBI:31638	265-276
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed invasive breast cancer that is metastatic or unresectable locally advanced	Eligibility	1
+breast cancer	DOID:1612	34-47
+Estrogen and/or progesterone receptor positive breast cancer	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	16-28
+receptor	BAO:0000281	29-37
+breast cancer	DOID:1612	47-60
+HER2 negative	Eligibility	3
+Measurable disease is required (effective 4/30/14: all non-measurable [evaluable] disease slots have been filled)	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	82-89
+Endocrine resistant breast cancer	Eligibility	5
+breast cancer	DOID:1612	20-33
+May have received up to one prior line of chemotherapy for metastatic or unresectable locally advanced breast cancer	Eligibility	6
+breast cancer	DOID:1612	103-116
+May have initiated bisphosphonate therapy prior to start of protocol therapy	Eligibility	7
+Must be at least 2 weeks from prior chemotherapy or radiotherapy	Eligibility	8
+radiotherapy	OAE:0000235	52-64
+ECOG performance status of 0 or 1	Eligibility	9
+Availability of tissue block from initial breast cancer diagnosis and/or metastatic recurrence	Eligibility	10
+tissue	UBERON:0000479	16-22
+breast cancer	DOID:1612	42-55
+For subjects with biopsy-accessible disease, must be willing to undergo a required on-treatment research biopsy	Eligibility	11
+disease	DOID:4,OGMS:0000031	36-43
+Adequate IV access	Eligibility	12
+Exclusion Criteria:	Eligibility	13
+Pregnant or breastfeeding	Eligibility	14
+Prior treatment with HSP90 inhibitor	Eligibility	15
+hsp90 inhibitor	CHEBI:63962	21-36
+Prior treatment with fulvestrant	Eligibility	16
+fulvestrant	CHEBI:31638	21-32
+Concurrent treatment with commercial agents or other agents with the intent to treat the participant's malignancy	Eligibility	17
+Untreated or progressive brain metastases	Eligibility	18
+progressive	HP:0003676	13-24
+brain	UBERON:0000955	25-30
+Pending visceral crisis, in the opinion of the treating investigator	Eligibility	19
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to fulvestrant or ganetespib	Eligibility	20
+history	BFO:0000182	0-7
+fulvestrant	CHEBI:31638	101-112
+ganetespib	CHEBI:177770	116-126
+Uncontrolled intercurrent illness	Eligibility	21
+Other malignancies within 3 years	Eligibility	22
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+PFS based on Kaplan-Meier is defined as the time from study entry to the earliest documentation of disease progression (PD) or death. Participants alive without evidence of PD are censored at the date of last disease assessment. Participants who receive non-protocol anti-cancer therapy before disease progression are censored at time of last disease assessment.	Results	2
+time	PATO:0000165	44-48
+time	PATO:0000165	330-334
+disease	DOID:4,OGMS:0000031	99-106
+disease	DOID:4,OGMS:0000031	209-216
+disease	DOID:4,OGMS:0000031	294-301
+disease	DOID:4,OGMS:0000031	343-350
+death	OAE:0000632	127-132
+Time frame: Disease was assessed radiographically every 2 cycles for year 1 and every 2-4 cycles longer-term. Participants in this study cohort were followed for survival up to 4 years from treatment end.	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	12-19
+year	UO:0000036	69-73
+year	UO:0000036	179-183
+Results 1:	Results	4
+Arm/Group Title: ARM A - Fulvestrant	Results	5
+fulvestrant	CHEBI:31638	25-36
+Arm/Group Description: Fulvestrant: 500 mg administered by intramuscular injection on days 1 and 15 of cycle 1, day 1 of cycle 2 and each subsequent cycle; cycle duration is 28 days Eligible participants on Arm A were allowed to crossover to Arm B upon disease progression. Treatment continued for Arm A participants until 2nd disease progression.	Results	6
+fulvestrant	CHEBI:31638	23-34
+day	UO:0000033	86-89
+day	UO:0000033	112-115
+day	UO:0000033	177-180
+duration	PATO:0001309	162-170
+disease	DOID:4,OGMS:0000031	253-260
+disease	DOID:4,OGMS:0000031	327-334
+Overall Number of Participants Analyzed: 15	Results	7
+Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: months  3.7        (1.0 to 12.0)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm B - Fulvestrant+Ganetespib	Results	11
+Arm/Group Description: Fulvestrant: 500 mg administered by intramuscular injection on days 1 and 15 of cycle 1, day 1 of cycle 2 and each subsequent cycle; cycle duration is 28 days Ganetespib: 200 mg/m2 administered intravenously on days 1, 8 and 15 of each 28 day cycle	Results	12
+fulvestrant	CHEBI:31638	23-34
+day	UO:0000033	86-89
+day	UO:0000033	112-115
+day	UO:0000033	177-180
+day	UO:0000033	234-237
+day	UO:0000033	262-265
+duration	PATO:0001309	162-170
+ganetespib	CHEBI:177770	182-192
+Arm B participants whose disease was at a minimum stable could elect to discontinue ganetespib after 6 cycles or stay on combination treatment until disease progression. Otherwise, Arm B participants taken off ganetespib for toxicity were to remain on single agent fulvestrant until disease progression.	Results	13
+disease	DOID:4,OGMS:0000031	25-32
+disease	DOID:4,OGMS:0000031	149-156
+disease	DOID:4,OGMS:0000031	283-290
+stable	HP:0031915	50-56
+ganetespib	CHEBI:177770	84-94
+ganetespib	CHEBI:177770	210-220
+fulvestrant	CHEBI:31638	265-276
+Overall Number of Participants Analyzed: 35	Results	14
+Mean (95% Confidence Interval)	Results	15
+mean	BAO:0002173	0-4
+Unit of Measure: months  3.6        (2.0 to 7.5)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 2/15 (13.33%)	Adverse Events	1
+Sinus Tachycardia * 0/15 (0.00%)	Adverse Events	2
+sinus tachycardia	HP:0011703	0-17
+Acute coronary syndrome * 0/15 (0.00%)	Adverse Events	3
+acute coronary syndrome	HP:0033678	0-23
+Obstruction Gastric * 0/15 (0.00%)	Adverse Events	4
+Vomiting * 0/15 (0.00%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Hemorrhoids * 0/15 (0.00%)	Adverse Events	6
+hemorrhoids	HP:0032551	0-11
+Nausea * 0/15 (0.00%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Duodenal ulcer * 0/15 (0.00%)	Adverse Events	8
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Hepatic pain * 0/15 (0.00%)	Adverse Events	9
+pain	HP:0012531	8-12
+Infections and infestations-other *  [1]0/15 (0.00%)	Adverse Events	10
+Lipase Increased * 0/15 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 11/35 (31.43%)	Adverse Events	13
+Sinus Tachycardia * 1/35 (2.86%)	Adverse Events	14
+sinus tachycardia	HP:0011703	0-17
+Acute coronary syndrome * 1/35 (2.86%)	Adverse Events	15
+acute coronary syndrome	HP:0033678	0-23
+Obstruction Gastric * 1/35 (2.86%)	Adverse Events	16
+Vomiting * 3/35 (8.57%)	Adverse Events	17
+vomiting	HP:0002013	0-8
+Hemorrhoids * 1/35 (2.86%)	Adverse Events	18
+hemorrhoids	HP:0032551	0-11
+Nausea * 3/35 (8.57%)	Adverse Events	19
+nausea	HP:0002018	0-6
+Duodenal ulcer * 1/35 (2.86%)	Adverse Events	20
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Hepatic pain * 1/35 (2.86%)	Adverse Events	21
+pain	HP:0012531	8-12
+Infections and infestations-other *  [1]1/35 (2.86%)	Adverse Events	22
+Lipase Increased * 1/35 (2.86%)	Adverse Events	23

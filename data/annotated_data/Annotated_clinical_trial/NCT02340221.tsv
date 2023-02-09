@@ -1,0 +1,183 @@
+INTERVENTION 1:	Intervention	0
+Placebo+Fulvestrant	Intervention	1
+Participants received placebo taken orally QD beginning at Cycle 1, Day 1, and fulvestrant 500 mg administered by IM injection at Cycle 1, Days 1 and 15, and then on Day 1 of each subsequent 28-day cycle until disease progression, unacceptable toxicity, or study termination by the Sponsor.	Intervention	2
+day	UO:0000033	68-71
+day	UO:0000033	139-142
+day	UO:0000033	166-169
+day	UO:0000033	194-197
+fulvestrant	CHEBI:31638	79-90
+disease	DOID:4,OGMS:0000031	210-217
+INTERVENTION 2:	Intervention	3
+Taselisib+Fulvestrant	Intervention	4
+Participants received taselisib 4 mg taken orally QD beginning at Cycle 1, Day 1 and fulvestrant 500 mg by IM injection at Cycle 1, Days 1 and 15, and then on Day 1 of each subsequent 28-day cycle until disease progression, unacceptable toxicity, or study termination by the Sponsor.	Intervention	5
+day	UO:0000033	75-78
+day	UO:0000033	132-135
+day	UO:0000033	159-162
+day	UO:0000033	187-190
+fulvestrant	CHEBI:31638	85-96
+disease	DOID:4,OGMS:0000031	203-210
+Inclusion Criteria:	Eligibility	0
+Postmenopausal women with histologically or cytologically confirmed locally advanced or metastatic estrogen receptor (ER) positive breast cancer	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	99-107
+receptor	BAO:0000281	108-116
+breast cancer	DOID:1612	131-144
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	2
+group	CHEBI:24433	29-34
+Participants for whom endocrine therapy (example [e.g.], fulvestrant) is recommended and treatment with cytotoxic chemotherapy is not indicated at time of entry into the study	Eligibility	3
+fulvestrant	CHEBI:31638	57-68
+time	PATO:0000165	147-151
+Radiologic/objective evidence of recurrence or progression to the most recent systemic therapy for breast cancer	Eligibility	4
+breast cancer	DOID:1612	99-112
+Radiologic/objective evidence of breast cancer recurrence or progression while on or within 12 months of the end of adjuvant treatment with an aromatase inhibitor (AI), or progression while on or within 1 month of the end of prior AI treatment for locally advanced or metastatic breast cancer	Eligibility	5
+breast cancer	DOID:1612	33-46
+breast cancer	DOID:1612	279-292
+adjuvant	CHEBI:60809	116-124
+inhibitor	CHEBI:35222	153-162
+month	UO:0000035	95-100
+month	UO:0000035	205-210
+Measurable disease via Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1 (v1.1) or non-measurable, evaluable disease with at least one evaluable bone lesion via RECIST v1.1	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	125-132
+Consent to provide a formalin-fixed, paraffin-embedded (FFPE) tumor tissue block (preferred) or a minimum of 20 (25 preferred) freshly cut unstained tumor slides from the most recently collected, available tumor tissue for oncogene that encodes for phosphatidylinositol-4,5-bisphosphate 3-kinase (PIK3CA)-mutation testing	Eligibility	7
+tissue	UBERON:0000479	68-74
+tissue	UBERON:0000479	212-218
+A valid cobas PIK3CA mutation result by central testing is required	Eligibility	8
+result	BAO:0000179	30-36
+central	HP:0030645	40-47
+Adequate hematologic and end-organ function within 28 days prior to treatment initiation	Eligibility	9
+function	BAO:0003117,BFO:0000034	35-43
+Exclusion Criteria:	Eligibility	10
+Human epidermal growth factor receptor 2 (HER2)-positive disease by local laboratory testing (immunohistochemistry 3 positive [IHC 3+] staining or in situ hybridization positive)	Eligibility	11
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+disease	DOID:4,OGMS:0000031	57-64
+immunohistochemistry	BAO:0000415	94-114
+Prior treatment with fulvestrant	Eligibility	12
+fulvestrant	CHEBI:31638	21-32
+Prior treatment with a phosphatidylinositol 3-kinase (PI3K) inhibitor, mammalian target of rapamycin (mTOR) inhibitor (e.g. everolimus), or protein kinase B (AKT) inhibitor	Eligibility	13
+phosphatidylinositol	CHEBI:28874	23-43
+inhibitor	CHEBI:35222	60-69
+inhibitor	CHEBI:35222	108-117
+inhibitor	CHEBI:35222	163-172
+mammalian	BAO:0000362	71-80
+target	BAO:0003064	81-87
+everolimus	CHEBI:68478	124-134
+protein	CHEBI:36080,BAO:0000175	140-147
+kinase	BAO:0000294	46-52
+kinase	BAO:0000294	148-154
+Prior anti-cancer therapy within 2 weeks prior to Day 1 of Cycle 1	Eligibility	14
+day	UO:0000033	50-53
+Prior radiation therapy within 2 weeks prior to Day 1 of Cycle 1	Eligibility	15
+day	UO:0000033	48-51
+All acute treatment-related toxicity must have resolved to Grade less than or equal to (</=) 1 or be deemed stable by the Investigator	Eligibility	16
+acute	HP:0011009,PATO:0000389	4-9
+stable	HP:0031915	108-114
+Prior treatment with greater than (>) 1 cytotoxic chemotherapy regimen for metastatic breast cancer	Eligibility	17
+breast cancer	DOID:1612	86-99
+Concurrent hormone replacement therapy	Eligibility	18
+hormone	CHEBI:24621	11-18
+Known untreated or active central nervous system (CNS) metastases	Eligibility	19
+active	PATO:0002354	19-25
+central nervous system	UBERON:0001017	26-48
+Type 1 or Type 2 diabetes mellitus requiring anti-hyperglycemic medications	Eligibility	20
+type 2 diabetes mellitus	DOID:9352	10-34
+History of inflammatory bowel disease or active bowel inflammation	Eligibility	21
+history	BFO:0000182	0-7
+inflammatory bowel disease	DOID:0050589	11-37
+active	PATO:0002354	41-47
+Clinically significant cardiac or pulmonary dysfunction	Eligibility	22
+Clinically significant history of liver disease, including cirrhosis, current alcohol abuse, or current known active infection with human immunodeficiency virus (HIV), hepatitis B or C virus	Eligibility	23
+history	BFO:0000182	23-30
+liver disease	DOID:409	34-47
+cirrhosis	HP:0001394	59-68
+alcohol	CHEBI:16236	78-85
+active	PATO:0002354	110-116
+immunodeficiency	HP:0002721	138-154
+virus	BAO:0000232	155-160
+virus	BAO:0000232	185-190
+hepatitis b	DOID:2043	168-179
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS) as Assessed by Investigator Using Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1 (v1.1)	Results	1
+PFS was defined as the time from randomization to disease progression as determined by the investigator with the use of RECIST v1.1 or death due to any cause, whichever occurred earlier. Disease progression was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, including baseline. In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 millimeters (mm). For non-target lesions, disease progression was defined as unequivocal progression of existing lesions. The appearance of one or more new lesions was also considered progression.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	50-57
+disease	DOID:4,OGMS:0000031	187-194
+disease	DOID:4,OGMS:0000031	508-515
+death	OAE:0000632	135-140
+increase	BAO:0001251	237-245
+increase	BAO:0001251	384-392
+increase	BAO:0001251	443-451
+target	BAO:0003064	273-279
+target	BAO:0003064	492-498
+Time frame: From randomization until the first occurrence of disease progression or death from any cause, whichever occurs earlier (up to the 15 Oct 2017 data cutoff, approximately 2.5 years)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	61-68
+death	OAE:0000632	84-89
+Results 1:	Results	4
+Arm/Group Title: Placebo+Fulvestrant	Results	5
+Arm/Group Description: Participants received placebo taken orally QD beginning at Cycle 1, Day 1, and fulvestrant 500 mg administered by IM injection at Cycle 1, Days 1 and 15, and then on Day 1 of each subsequent 28-day cycle until disease progression, unacceptable toxicity, or study termination by the Sponsor.	Results	6
+day	UO:0000033	91-94
+day	UO:0000033	162-165
+day	UO:0000033	189-192
+day	UO:0000033	217-220
+fulvestrant	CHEBI:31638	102-113
+disease	DOID:4,OGMS:0000031	233-240
+Overall Number of Participants Analyzed: 176	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  5.39        (3.68 to 7.29)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Taselisib+Fulvestrant	Results	11
+Arm/Group Description: Participants received taselisib 4 mg taken orally QD beginning at Cycle 1, Day 1 and fulvestrant 500 mg by IM injection at Cycle 1, Days 1 and 15, and then on Day 1 of each subsequent 28-day cycle until disease progression, unacceptable toxicity, or study termination by the Sponsor.	Results	12
+day	UO:0000033	98-101
+day	UO:0000033	155-158
+day	UO:0000033	182-185
+day	UO:0000033	210-213
+fulvestrant	CHEBI:31638	108-119
+disease	DOID:4,OGMS:0000031	226-233
+Overall Number of Participants Analyzed: 340	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  7.43        (7.26 to 9.07)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 19/213 (8.92%)	Adverse Events	1
+Pancytopenia 0/213 (0.00%)	Adverse Events	2
+pancytopenia	HP:0001876,DOID:12450	0-12
+Anaemia 1/213 (0.47%)	Adverse Events	3
+Atrial fibrillation 0/213 (0.00%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 0/213 (0.00%)	Adverse Events	5
+Myocardial infarction 0/213 (0.00%)	Adverse Events	6
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Supraventricular tachycardia 0/213 (0.00%)	Adverse Events	7
+supraventricular tachycardia	HP:0004755	0-28
+Diarrhoea 0/213 (0.00%)	Adverse Events	8
+Colitis 0/213 (0.00%)	Adverse Events	9
+colitis	HP:0002583,DOID:0060180	0-7
+Vomiting 1/213 (0.47%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Nausea 1/213 (0.47%)	Adverse Events	11
+nausea	HP:0002018	0-6
+Enterocolitis 0/213 (0.00%)	Adverse Events	12
+enterocolitis	HP:0004387	0-13
+Adverse Events 2:	Adverse Events	13
+Total: 133/416 (31.97%)	Adverse Events	14
+Pancytopenia 1/416 (0.24%)	Adverse Events	15
+pancytopenia	HP:0001876,DOID:12450	0-12
+Anaemia 0/416 (0.00%)	Adverse Events	16
+Atrial fibrillation 2/416 (0.48%)	Adverse Events	17
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 1/416 (0.24%)	Adverse Events	18
+Myocardial infarction 1/416 (0.24%)	Adverse Events	19
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Supraventricular tachycardia 1/416 (0.24%)	Adverse Events	20
+supraventricular tachycardia	HP:0004755	0-28
+Diarrhoea 32/416 (7.69%)	Adverse Events	21
+Colitis 14/416 (3.37%)	Adverse Events	22
+colitis	HP:0002583,DOID:0060180	0-7
+Vomiting 4/416 (0.96%)	Adverse Events	23
+vomiting	HP:0002013	0-8
+Nausea 3/416 (0.72%)	Adverse Events	24
+nausea	HP:0002018	0-6
+Enterocolitis 2/416 (0.48%)	Adverse Events	25
+enterocolitis	HP:0004387	0-13

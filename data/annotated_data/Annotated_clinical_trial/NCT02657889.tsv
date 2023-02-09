@@ -1,0 +1,224 @@
+INTERVENTION 1:	Intervention	0
+Phase 1: Niraparib 200mg + Pembrolizumab	Intervention	1
+niraparib	CHEBI:176844	9-18
+Niraparib 200 mg/day orally (PO). Pembrolizumab 200 mg intravenously (IV) on Day 1 of each 21-day cycle.	Intervention	2
+niraparib	CHEBI:176844	0-9
+day	UO:0000033	17-20
+day	UO:0000033	77-80
+day	UO:0000033	94-97
+INTERVENTION 2:	Intervention	3
+Phase 1: Niraparib 300mg + Pembrolizumab	Intervention	4
+niraparib	CHEBI:176844	9-18
+Niraparib 300 mg/day orally (PO). Pembrolizumab 200 mg intravenously (IV) on Day 1 of each 21-day cycle.	Intervention	5
+niraparib	CHEBI:176844	0-9
+day	UO:0000033	17-20
+day	UO:0000033	77-80
+day	UO:0000033	94-97
+Main Inclusion Criteria:	Eligibility	0
+Patient has histologically proven advanced (unresectable) or metastatic cancer as outlined below according to study phase and disease type:	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+cancer	DOID:162	72-78
+disease	DOID:4,OGMS:0000031	126-133
+Phase 1 patients (breast or ovarian cancer)	Eligibility	2
+breast	UBERON:0000310	18-24
+ovarian cancer	DOID:2394	28-42
+Patients with advanced or metastatic breast cancer must have disease that is HER2-negative, estrogen receptor-negative, and progesterone receptor-negative (ie, TNBC). Patients with advanced or metastatic disease may have up to 4 lines of cytotoxic therapy. Neoadjuvant and adjuvant therapies are not counted towards lines of therapy.	Eligibility	3
+breast cancer	DOID:1612	37-50
+disease	DOID:4,OGMS:0000031	61-68
+disease	DOID:4,OGMS:0000031	204-211
+estrogen	CHEBI:50114,BAO:0000760	92-100
+progesterone	CHEBI:17026	124-136
+adjuvant	CHEBI:60809	260-268
+adjuvant	CHEBI:60809	273-281
+Patients must have any epithelial (ie, serous, endometroid, mucinous, clear cell) ovarian, fallopian tube, or primary peritoneal cancer. Patients must have experienced a response lasting at least 6 months to first-line platinum-based therapy but currently considered to have platinum-resistant disease per investigator's assessment (e.g, patient is not eligible for further platinum containing treatment). Patients may have received up to 5 lines of cytotoxic therapy for advanced or metastatic cancer. Neoadjuvant and adjuvant therapies are not counted towards lines of therapy.	Eligibility	4
+fallopian tube	UBERON:0003889	91-105
+cancer	DOID:162	129-135
+cancer	DOID:162	495-501
+disease	DOID:4,OGMS:0000031	294-301
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	137-144
+patient	HADO:0000008,OAE:0001817	338-345
+patient	HADO:0000008,OAE:0001817	406-413
+platinum	CHEBI:33364	219-227
+platinum	CHEBI:33364	275-283
+platinum	CHEBI:33364	374-382
+adjuvant	CHEBI:60809	506-514
+adjuvant	CHEBI:60809	519-527
+Phase 2 patients (breast or ovarian cancer)	Eligibility	5
+breast	UBERON:0000310	18-24
+ovarian cancer	DOID:2394	28-42
+Patients with advanced or metastatic breast cancer must have TNBC. Patients with advanced or metastatic disease may have received up to 2 lines of cytotoxic therapy. Adjuvant and/or neoadjuvant therapies are not counted in the number of lines of therapy. TNBC patients who have previously received platinum chemotherapy in the metastatic setting are allowed to enroll in the study as long as they did not progress while on or within 8 weeks from the day of the last platinum administration.	Eligibility	6
+breast cancer	DOID:1612	37-50
+disease	DOID:4,OGMS:0000031	104-111
+adjuvant	CHEBI:60809	166-174
+adjuvant	CHEBI:60809	185-193
+platinum	CHEBI:33364	298-306
+platinum	CHEBI:33364	466-474
+day	UO:0000033	450-453
+Patients must have with high-grade serous or endometroid ovarian, fallopian tube, or primary peritoneal cancer. Patients must have experienced a response lasting at least 6 months to first-line platinum-based therapy but currently considered to have platinum-resistant disease per investigator's assessment (e.g, patient is not eligible for further platinum containing treatment). Patients may have had up to 4 lines of cytotoxic therapy for advanced or metastatic cancer. Neoadjuvant, adjuvant, and the combination of both will be considered as one line of therapy.	Eligibility	7
+fallopian tube	UBERON:0003889	66-80
+cancer	DOID:162	104-110
+cancer	DOID:162	465-471
+disease	DOID:4,OGMS:0000031	269-276
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	112-119
+patient	HADO:0000008,OAE:0001817	313-320
+patient	HADO:0000008,OAE:0001817	381-388
+platinum	CHEBI:33364	194-202
+platinum	CHEBI:33364	250-258
+platinum	CHEBI:33364	349-357
+adjuvant	CHEBI:60809	476-484
+adjuvant	CHEBI:60809	486-494
+Archival tumor tissue available or a fresh biopsy must be obtained prior to study treatment initiation	Eligibility	8
+tissue	UBERON:0000479	15-21
+Measurable lesions by RECIST v1.1	Eligibility	9
+Eastern Cooperative Oncology Group (ECOG) 0 or 1	Eligibility	10
+group	CHEBI:24433	29-34
+Adequate organ function	Eligibility	11
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Able to take oral medications	Eligibility	12
+Female patient, if of childbearing potential, has a negative serum pregnancy test within 72 hours of taking study medication and agrees to abstain from activities that could result in pregnancy from enrollment through 120 days after the last dose of study treatment	Eligibility	13
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+result	BAO:0000179	174-180
+Male patient agrees to use an adequate method of contraception	Eligibility	14
+male	CHEBI:30780,PATO:0000384	0-4
+patient	HADO:0000008,OAE:0001817	5-12
+Main Exclusion Criteria:	Eligibility	15
+Patients with primary platinum refractory ovarian cancer (ie, progressive disease on or within 6 months of first-line platinum therapy)	Eligibility	16
+platinum	CHEBI:33364	22-30
+platinum	CHEBI:33364	118-126
+refractory	HP:0031375	31-41
+ovarian cancer	DOID:2394	42-56
+progressive	HP:0003676	62-73
+disease	DOID:4,OGMS:0000031	74-81
+Known active central nervous system (CNS) metastases and/or carcinomatous meningitis Note: Patients previously treated for brain metastases may be able to participate provided they are stable	Eligibility	17
+active	PATO:0002354	6-12
+central nervous system	UBERON:0001017	13-35
+meningitis	HP:0001287,DOID:9471	74-84
+brain	UBERON:0000955	123-128
+stable	HP:0031915	185-191
+Patient has a known additional malignancy that progressed or required active treatment within the last 2 years. Exceptions include basal cell carcinoma of the skin, squamous cell carcinoma of the skin that has undergone potentially curative therapy, or in situ cervical cancer	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+active	PATO:0002354	70-76
+basal cell carcinoma	HP:0002671,DOID:2513	131-151
+squamous cell carcinoma of the skin	HP:0006739	165-200
+cervical cancer	DOID:4362	261-276
+Poor medical risk	Eligibility	19
+Condition (such as transfusion dependent anemia or thrombocytopenia), therapy, or laboratory abnormality that might confound the study results, or interfere with the patient's participation for the full duration of the study treatment.	Eligibility	20
+condition	PDRO:0000129	0-9
+anemia	HP:0001903,DOID:2355	41-47
+thrombocytopenia	HP:0001873,DOID:1588	51-67
+patient	HADO:0000008,OAE:0001817	166-173
+duration	PATO:0001309	203-211
+Pregnant or breastfeeding, or expecting to conceive children within the projected duration of the study	Eligibility	21
+duration	PATO:0001309	82-90
+Immunodeficiency or is receiving systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to the first dose of study treatment	Eligibility	22
+immunodeficiency	HP:0002721	0-16
+steroid	CHEBI:35341	42-49
+Known history of human immunodeficiency virus (HIV) (HIV 1/2 antibodies)	Eligibility	23
+history	BFO:0000182	6-13
+immunodeficiency	HP:0002721	23-39
+virus	BAO:0000232	40-45
+Known active hepatitis B or hepatitis C	Eligibility	24
+active	PATO:0002354	6-12
+hepatitis b	DOID:2043	13-24
+hepatitis c	DOID:1883	28-39
+Active autoimmune disease that has required systemic treatment in the past 2 years (ie, with use of disease-modifying agents, corticosteroids, or immunosuppressive drugs). Replacement therapy (eg, thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment	Eligibility	25
+active	PATO:0002354	0-6
+autoimmune disease	DOID:417	7-25
+thyroxine	CHEBI:305790	197-206
+insulin	CHEBI:145810	208-215
+corticosteroid	CHEBI:50858	126-140
+corticosteroid	CHEBI:50858	232-246
+Prior treatment with an anti-PD-1, anti-PD-L1, or anti-PD-L2 agent	Eligibility	26
+Prior treatment with a known poly(ADP-ribose) polymerase (PARP) inhibitor	Eligibility	27
+inhibitor	CHEBI:35222	64-73
+Heart-rate corrected QT interval (QTc) prolongation > 470 msec at screening	Eligibility	28
+qt interval	CMO:0000235	21-32
+Known history or current diagnosis of myelodysplastic syndrome (MDS) or acute myeloid leukemia (AML)	Eligibility	29
+history	BFO:0000182	6-13
+myelodysplastic syndrome	DOID:0050908	38-62
+acute myeloid leukemia	HP:0004808,DOID:9119	72-94
+Outcome Measurement:	Results	0
+Phase 1: Number of Subjects Reporting Dose-Limiting Toxicities (DLTs)	Results	1
+DLTs are defined as: Any treatment-related Grade  3 non-hematologic clinical (non-laboratory) AE Any treatment-related Grade 3 or Grade 4 non-hematologic lab abnormality if: - Medical intervention is required to treat the patient, or - The abnormality leads to hospitalization, or - The abnormality persists for  7 days. Any treatment-related hematologic toxicity specifically defined as: - Thrombocytopenia Grade 4 for  7 days, or Grade 3 or 4 associated with bleeding or requiring platelet transfusion; - Neutropenia Grade 4 for  7 days, or Grade 3 or 4 associated with infection or febrile neutropenia; - Anemia Grade 4, or Grade 3 or 4 requiring blood transfusion. Any treatment-related AE leading to niraparib dose interruption per the following criteria: - A dose interruption for a non-DLT lab abnormality lasting  14 days. - A dose in interruption per dose modification rules for nonhematologic AE leading to < 80% of an intended dose being administered.	Results	2
+medical intervention	OAE:0000002	176-196
+patient	HADO:0000008,OAE:0001817	222-229
+thrombocytopenia	HP:0001873,DOID:1588	391-407
+neutropenia	HP:0001875,DOID:1227	507-518
+neutropenia	HP:0001875,DOID:1227	593-604
+anemia	HP:0001903,DOID:2355	608-614
+blood	UBERON:0000178	650-655
+niraparib	CHEBI:176844	705-714
+Time frame: During Cycle 1, ie, during the first 21 days of treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase 1: Niraparib 200mg + Pembrolizumab	Results	5
+niraparib	CHEBI:176844	26-35
+Arm/Group Description: Niraparib 200 mg/day orally (PO). Pembrolizumab 200 mg intravenously (IV) on Day 1 of each 21-day cycle.	Results	6
+niraparib	CHEBI:176844	23-32
+day	UO:0000033	40-43
+day	UO:0000033	100-103
+day	UO:0000033	117-120
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  1  16.7%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Phase 1: Niraparib 300mg + Pembrolizumab	Results	11
+niraparib	CHEBI:176844	26-35
+Arm/Group Description: Niraparib 300 mg/day orally (PO). Pembrolizumab 200 mg intravenously (IV) on Day 1 of each 21-day cycle.	Results	12
+niraparib	CHEBI:176844	23-32
+day	UO:0000033	40-43
+day	UO:0000033	100-103
+day	UO:0000033	117-120
+Overall Number of Participants Analyzed: 6	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  1  16.7%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 6/7 (85.71%)	Adverse Events	1
+Anemia * 1/7 (14.29%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia * 0/7 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 0/7 (0.00%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 1/7 (14.29%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia * 0/7 (0.00%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia * 1/7 (14.29%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure congestive * 0/7 (0.00%)	Adverse Events	8
+Cardiac tamponade * 0/7 (0.00%)	Adverse Events	9
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Pericardial effusion * 0/7 (0.00%)	Adverse Events	10
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia * 0/7 (0.00%)	Adverse Events	11
+tachycardia	HP:0001649	0-11
+Adrenal insufficiency * 0/7 (0.00%)	Adverse Events	12
+adrenal insufficiency	HP:0000846	0-21
+Adverse Events 2:	Adverse Events	13
+Total: 4/7 (57.14%)	Adverse Events	14
+Anemia * 0/7 (0.00%)	Adverse Events	15
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia * 0/7 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 0/7 (0.00%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 0/7 (0.00%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia * 1/7 (14.29%)	Adverse Events	19
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia * 3/7 (42.86%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure congestive * 0/7 (0.00%)	Adverse Events	21
+Cardiac tamponade * 0/7 (0.00%)	Adverse Events	22
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Pericardial effusion * 0/7 (0.00%)	Adverse Events	23
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia * 0/7 (0.00%)	Adverse Events	24
+tachycardia	HP:0001649	0-11
+Adrenal insufficiency * 0/7 (0.00%)	Adverse Events	25
+adrenal insufficiency	HP:0000846	0-21

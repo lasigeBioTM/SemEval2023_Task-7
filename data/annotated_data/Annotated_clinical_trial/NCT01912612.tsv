@@ -1,0 +1,192 @@
+INTERVENTION 1:	Intervention	0
+Arm 1 (Patients With Pain)	Intervention	1
+pain	HP:0012531	21-25
+Duloxetine 30 mg daily x 1 week, then 60 mg daily x 4 weeks, then 30 mg daily x 2 weeks.	Intervention	2
+duloxetine	CHEBI:36796	0-10
+x	LABO:0000148	4-5
+x	LABO:0000148	23-24
+x	LABO:0000148	50-51
+x	LABO:0000148	78-79
+week	UO:0000034	27-31
+week	UO:0000034	54-58
+week	UO:0000034	82-86
+Duloxetine: Subjects will receive 30 mg duloxetine orally for 7 days, then 60 mg duloxetine orally for 28 days, then 30 mg duloxetine orally x 14 days.	Intervention	3
+duloxetine	CHEBI:36796	0-10
+duloxetine	CHEBI:36796	40-50
+duloxetine	CHEBI:36796	81-91
+duloxetine	CHEBI:36796	123-133
+x	LABO:0000148	4-5
+x	LABO:0000148	44-45
+x	LABO:0000148	85-86
+x	LABO:0000148	127-128
+x	LABO:0000148	141-142
+INTERVENTION 2:	Intervention	4
+Arm 2 (Patients Without Pain -- Control)	Intervention	5
+pain	HP:0012531	24-28
+Patient reported pain and symptoms assessment for comparison at baseline.	Intervention	6
+patient	HADO:0000008,OAE:0001817	0-7
+pain	HP:0012531	17-21
+Inclusion Criteria:	Eligibility	0
+Female patients at least 25 years of age	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	37-40
+Diagnosis of stage 0-III breast cancer within 12 years prior to enrollment. All indicated surgery, chemotherapy, and/or radiation therapy must have been completed at least 12 weeks prior to enrollment. Concomitant endocrine therapy and targeted therapies such as palbociclib, pertuzumab, and trastuzumab are permitted.	Eligibility	2
+breast cancer	DOID:1612	25-38
+surgery	OAE:0000067	90-97
+palbociclib	CHEBI:85993	263-274
+Pain that developed or worsened since breast cancer diagnosis and is not due to identifiable traumatic event or fracture	Eligibility	3
+pain	HP:0012531	0-4
+breast cancer	DOID:1612	38-51
+Patient-reported worst pain score between 5 and 10 (inclusive) on a 0-10 scale (assessed verbally)	Eligibility	4
+pain	HP:0012531	23-27
+Female patients must be at least 1 year postmenopausal or surgically sterile; or must agree to use a medically acceptable form of contraception	Eligibility	5
+female	PATO:0000383	0-6
+year	UO:0000036	35-39
+Willing to withdraw from selective serotonin reuptake inhibitors (SSRI) and tricyclic antidepressants (TCA) prior to treatment initiation	Eligibility	6
+serotonin	CHEBI:350546	35-44
+Patients who are currently taking non-steroidal anti-inflammatory drugs (NSAIDs) (e.g., ibuprofen, naproxen, meloxicam, gabapentin, pregabalin) and/or opioid pain medications must remain on a stable dosage throughout the duration of the study	Eligibility	7
+ibuprofen	CHEBI:132922	88-97
+naproxen	CHEBI:7476	99-107
+meloxicam	CHEBI:6741	109-118
+gabapentin	CHEBI:42797	120-130
+pregabalin	CHEBI:64356	132-142
+pain	HP:0012531	158-162
+stable	HP:0031915	192-198
+duration	PATO:0001309	221-229
+Able to provide informed consent and willing to sign an approved consent form that conforms to federal and institutional guidelines.	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Prior use of duloxetine or milnacipran.	Eligibility	10
+duloxetine	CHEBI:36796	13-23
+milnacipran	CHEBI:135005	27-38
+Prior or current use of venlafaxine specifically for treatment of pain (prior or current use for treatment of other indications, such as hot flashes, is permitted, although cases currently taking venlafaxine must discontinue use prior to study treatment initiation)	Eligibility	11
+venlafaxine	CHEBI:9943	24-35
+venlafaxine	CHEBI:9943	196-207
+pain	HP:0012531	66-70
+hot flashes	HP:0031217	137-148
+Patients must not be taking any contraindicated medications listed on the duloxetine package insert including the following: phenothiazines, propafenone, flecainide, linezolid, or anticoagulation medication (e.g., heparin, warfarin, or direct oral anticoagulants); treatment with monoamine oxidase inhibitor within 14 days prior to registration.	Eligibility	12
+duloxetine	CHEBI:36796	74-84
+phenothiazines	CHEBI:38093	125-139
+propafenone	CHEBI:63619	141-152
+flecainide	CHEBI:75984	154-164
+linezolid	CHEBI:63607	166-175
+heparin	CHEBI:28304	214-221
+warfarin	CHEBI:10033	223-231
+monoamine	CHEBI:63534	280-289
+inhibitor	CHEBI:35222	298-307
+Thumbnail abnormalities on either hand (such as due to chemotherapy or trauma, or artificial nails) that are likely to alter pain perception during testing	Eligibility	13
+pain	HP:0012531	125-129
+Peripheral sensory neuropathy at the thumbs bilaterally that interferes with function and/or activities of daily living	Eligibility	14
+peripheral	HP:0030646	0-10
+sensory neuropathy	HP:0000763,DOID:2491	11-29
+function	BAO:0003117,BFO:0000034	77-85
+Significant risk of suicide based on the Investigator's judgment	Eligibility	15
+History or behavior that would, in the Investigator's judgment, prohibit compliance for the duration of the study.	Eligibility	16
+history	BFO:0000182	0-7
+behavior	GO:0007610	11-19
+duration	PATO:0001309	92-100
+History of alcohol or other substance abuse or dependence within the year prior to registration	Eligibility	17
+history	BFO:0000182	0-7
+alcohol	CHEBI:16236	11-18
+substance abuse	DOID:302	28-43
+year	UO:0000036	69-73
+Known chronic liver disease, end stage renal disease, or creatinine clearance <30 mL/min as defined by Cockcroft-Gault equation	Eligibility	18
+chronic	HP:0011010	6-13
+liver disease	DOID:409	14-27
+end stage renal disease	DOID:783	29-52
+creatinine clearance	CMO:0000765	57-77
+Uncontrolled narrow-angle glaucoma.	Eligibility	19
+glaucoma	HP:0000501,DOID:1686	26-34
+Clinically significant coagulation disorder	Eligibility	20
+coagulation	GO:0050817	23-34
+disorder	OGMS:0000045	35-43
+History of seizure disorder	Eligibility	21
+history	BFO:0000182	0-7
+seizure	HP:0001250	11-18
+disorder	OGMS:0000045	19-27
+Pregnant or breast-feeding. Urine pregnancy test will be assessed at the baseline visit in women of child-bearing potential with chronic pain.	Eligibility	22
+urine	UBERON:0001088	28-33
+chronic pain	HP:0012532	129-141
+Unable to take oral medications or any medical condition that would interfere with the absorption of study medication capsules.	Eligibility	23
+condition	PDRO:0000129	47-56
+Currently taking SSRI, serotonin-norepinephrine reuptake inhibitor (SNRI), or TCA regimen (including Wellbutrin) for treatment of major depressive disorder or generalized anxiety disorder (without approval and involvement of the patient's treating psychiatrist to taper cases off these medications prior to study treatment).	Eligibility	24
+inhibitor	CHEBI:35222	57-66
+major depressive disorder	DOID:1470	130-155
+generalized anxiety disorder	DOID:14320	159-187
+patient	HADO:0000008,OAE:0001817	229-236
+Controls are patients without chronic pain who otherwise meet the following eligibility criteria (inclusion #1, 2, 8, exclusion #1, 2, 4, 5, worst pain score 0-1, and not currently on medication for pain)	Eligibility	25
+chronic pain	HP:0012532	30-42
+pain	HP:0012531	38-42
+pain	HP:0012531	147-151
+pain	HP:0012531	199-203
+Outcome Measurement:	Results	0
+Change in Patient-reported Worst Pain Between Baseline and 5 Weeks of Treatment With Duloxetine	Results	1
+pain	HP:0012531	33-37
+duloxetine	CHEBI:36796	85-95
+Worst pain will be assessed at baseline and 5 weeks for each individual patient using the Brief Pain Inventory.	Results	2
+pain	HP:0012531	6-10
+pain	HP:0012531	96-100
+patient	HADO:0000008,OAE:0001817	72-79
+Baseline: Mean worst pain for all individual patients in arm 1 (intervention) and arm 2 (control)	Results	3
+mean	BAO:0002173	10-14
+pain	HP:0012531	21-25
+5 weeks: Mean worst pain for all individual patients in arm 1 (intervention)	Results	4
+mean	BAO:0002173	9-13
+pain	HP:0012531	20-24
+Range of pain score 0-10 (0=no pain; 10=worst pain)	Results	5
+range	LABO:0000114	0-5
+pain	HP:0012531	9-13
+pain	HP:0012531	31-35
+pain	HP:0012531	46-50
+Time frame: 5 weeks	Results	6
+time	PATO:0000165	0-4
+Results 1:	Results	7
+Arm/Group Title: Arm 1 (Patients With Pain)	Results	8
+pain	HP:0012531	38-42
+Arm/Group Description: Duloxetine 30 mg daily x 1 week, then 60 mg daily x 4 weeks, then 30 mg daily x 2 weeks.	Results	9
+duloxetine	CHEBI:36796	23-33
+x	LABO:0000148	27-28
+x	LABO:0000148	46-47
+x	LABO:0000148	73-74
+x	LABO:0000148	101-102
+week	UO:0000034	50-54
+week	UO:0000034	77-81
+week	UO:0000034	105-109
+Duloxetine: Subjects will receive 30 mg duloxetine orally for 7 days, then 60 mg duloxetine orally for 28 days, then 30 mg duloxetine orally x 14 days.	Results	10
+duloxetine	CHEBI:36796	0-10
+duloxetine	CHEBI:36796	40-50
+duloxetine	CHEBI:36796	81-91
+duloxetine	CHEBI:36796	123-133
+x	LABO:0000148	4-5
+x	LABO:0000148	44-45
+x	LABO:0000148	85-86
+x	LABO:0000148	127-128
+x	LABO:0000148	141-142
+Overall Number of Participants Analyzed: 35	Results	11
+Mean (Standard Deviation)	Results	12
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: score on a scale  Baseline: 35 participants	Results	13
+6.54         (1.868)	Results	14
+5 weeks: 31 participants	Results	15
+4.06         (2.744)	Results	16
+Results 2:	Results	17
+Arm/Group Title: Arm 2 (Patients Without Pain -- Control)	Results	18
+pain	HP:0012531	41-45
+Arm/Group Description: Patient reported pain and symptoms assessment for comparison at baseline.	Results	19
+patient	HADO:0000008,OAE:0001817	23-30
+pain	HP:0012531	40-44
+Overall Number of Participants Analyzed: 40	Results	20
+Mean (Standard Deviation)	Results	21
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: score on a scale  Baseline: 40 participants	Results	22
+0.25         (0.494)	Results	23
+5 weeks: 0 participants	Results	24
+Adverse Events 1:	Adverse Events	0
+Total: 1/35 (2.86%)	Adverse Events	1
+congestive heart failure *1/35 (2.86%)	Adverse Events	2
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Adverse Events 2:	Adverse Events	3
+Total: 0/40 (0.00%)	Adverse Events	4
+congestive heart failure *0/40 (0.00%)	Adverse Events	5
+congestive heart failure	HP:0001635,DOID:6000	0-24

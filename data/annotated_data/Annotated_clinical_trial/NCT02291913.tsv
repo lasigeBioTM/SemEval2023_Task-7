@@ -1,0 +1,202 @@
+INTERVENTION 1:	Intervention	0
+Everolimus	Intervention	1
+everolimus	CHEBI:68478	0-10
+Everolimus will be administered at a dose of 10 mg PO daily combined with any one of the following anti-estrogen therapies on which the patient most recently progressed (tamoxifen, fulvestrant, anastrozole, letrozole, exemestane, toremifine, or LHRH agonists in conjunction with anti-estrogen therapy). Anti-estrogen therapy will be administered at the US Food and Drug Administration (FDA) prescribed doses.	Intervention	2
+everolimus	CHEBI:68478	0-10
+anti-estrogen	CHEBI:50751	99-112
+anti-estrogen	CHEBI:50751	279-292
+anti-estrogen	CHEBI:50751	303-316
+patient	HADO:0000008,OAE:0001817	136-143
+tamoxifen	CHEBI:41774	170-179
+fulvestrant	CHEBI:31638	181-192
+anastrozole	CHEBI:2704	194-205
+letrozole	CHEBI:6413	207-216
+exemestane	CHEBI:4953	218-228
+food	CHEBI:33290	356-360
+drug administration	OAE:0000011	365-384
+Everolimus	Intervention	3
+everolimus	CHEBI:68478	0-10
+Exemestane: Anti-estrogen therapy	Intervention	4
+exemestane	CHEBI:4953	0-10
+anti-estrogen	CHEBI:50751	12-25
+Tamoxifen: Anti-estrogen therapy	Intervention	5
+tamoxifen	CHEBI:41774	0-9
+anti-estrogen	CHEBI:50751	11-24
+Fulvestrant: Anti-estrogen therapy	Intervention	6
+fulvestrant	CHEBI:31638	0-11
+anti-estrogen	CHEBI:50751	13-26
+Anastrozole: Anti-estrogen therapy	Intervention	7
+anastrozole	CHEBI:2704	0-11
+anti-estrogen	CHEBI:50751	13-26
+Letrozole: Anti-estrogen therapy	Intervention	8
+letrozole	CHEBI:6413	0-9
+anti-estrogen	CHEBI:50751	11-24
+Toremifine: Anti-estrogen therapy	Intervention	9
+anti-estrogen	CHEBI:50751	12-25
+Inclusion Criteria:	Eligibility	0
+Histologic diagnosis of unresectable, locally recurrent or MBC.	Eligibility	1
+recurrent	HP:0031796	46-55
+ER and/or PR-positive tumors with staining by immunohistochemistry (IHC) based on the most recent biopsy.	Eligibility	2
+immunohistochemistry	BAO:0000415	46-66
+Only 1 previous chemotherapy regimen for MBC. Patients progressing while receiving adjuvant endocrine therapy or progressing <12 months from completion of adjuvant endocrine therapy are eligible.	Eligibility	3
+adjuvant	CHEBI:60809	83-91
+adjuvant	CHEBI:60809	155-163
+Progressed on anti-estrogen therapy (tamoxifen, fulvestrant, anastrozole, letrozole, exemestane, toremifine, or LHRH agonists in conjunction with anti-estrogen therapy) defined as:	Eligibility	4
+anti-estrogen	CHEBI:50751	14-27
+anti-estrogen	CHEBI:50751	146-159
+tamoxifen	CHEBI:41774	37-46
+fulvestrant	CHEBI:31638	48-59
+anastrozole	CHEBI:2704	61-72
+letrozole	CHEBI:6413	74-83
+exemestane	CHEBI:4953	85-95
+Recurrence while on, or within 12 months of end of anti-estrogen therapy for early stage breast cancer, or	Eligibility	5
+anti-estrogen	CHEBI:50751	51-64
+breast cancer	DOID:1612	89-102
+Progression while on, or within one month of anti-estrogen therapy for locally advanced or metastatic breast cancer.	Eligibility	6
+month	UO:0000035	36-41
+anti-estrogen	CHEBI:50751	45-58
+breast cancer	DOID:1612	102-115
+Note: No washout for anti-estrogen therapy required. Anti-estrogen therapy does not have to be the last treatment prior to study entry.	Eligibility	7
+anti-estrogen	CHEBI:50751	21-34
+anti-estrogen	CHEBI:50751	53-66
+Post-menopausal or pre/peri-menopausal women on tamoxifen. LHRH agonists may be used to render ovarian suppression with postmenopausal ranges of estradiol or FSH per institutional guidelines.	Eligibility	8
+tamoxifen	CHEBI:41774	48-57
+estradiol	CHEBI:23965	145-154
+HER2-negative breast cancer, defined as follows:	Eligibility	9
+breast cancer	DOID:1612	14-27
+Fluorescent In Situ Hybridization (FISH)-negative (FISH ratio <2.0), or	Eligibility	10
+ratio	UO:0000190	56-61
+IHC 0-1+, or	Eligibility	11
+IHC 2-3+ AND FISH-negative (FISH ratio <2.0).	Eligibility	12
+ratio	UO:0000190	33-38
+Measureable disease as measured by Response Evaluation Criteria in Solid Tumors (RECIST) criteria version 1.1 or evaluable bone lesions, lytic or mixed, in absence of measureable disease by RECIST criteria.	Eligibility	13
+disease	DOID:4,OGMS:0000031	12-19
+disease	DOID:4,OGMS:0000031	179-186
+mixed	BAO:0002107	146-151
+Adequate hematologic, hepatic and renal function.	Eligibility	14
+function	BAO:0003117,BFO:0000034	40-48
+International normalized ratio (INR) 1.5 or prothrombin time (PT)/partial thromboplastin time (PTT) within normal limits (WNL) of the institution (if patient is not on anti-coagulation therapy).	Eligibility	15
+ratio	UO:0000190	25-30
+prothrombin time	CMO:0000211	44-60
+time	PATO:0000165	56-60
+time	PATO:0000165	89-93
+patient	HADO:0000008,OAE:0001817	150-157
+Age  18 years.	Eligibility	16
+age	PATO:0000011	0-3
+ECOG Performance Status score of 0-2.	Eligibility	17
+Life expectancy of  12 weeks.	Eligibility	18
+Exclusion Criteria:	Eligibility	19
+Previous therapy or known intolerance/hypersensitivity with any approved or investigational mTOR inhibitor (e.g., temsirolimus, everolimus, sirolimus).	Eligibility	20
+mtor inhibitor	CHEBI:68481	92-106
+temsirolimus	CHEBI:79699	114-126
+everolimus	CHEBI:68478	128-138
+sirolimus	CHEBI:9168	117-126
+sirolimus	CHEBI:9168	140-149
+Patients who are 21 days after their most recent chemotherapy and have not recovered from side effects.	Eligibility	21
+Use of an investigational drug 21 days or 5 half-lives (whichever is shorter) prior to the first dose of everolimus. For investigational drugs for which 5 half-lives is 21 days, a minimum of 10 days between termination of the investigational drug and administration of everolimus is required.	Eligibility	22
+drug	CHEBI:23888	26-30
+drug	CHEBI:23888	137-141
+drug	CHEBI:23888	242-246
+everolimus	CHEBI:68478	105-115
+everolimus	CHEBI:68478	269-279
+Wide field radiotherapy (including therapeutic radioisotopes such as strontium 89) administered 28 days or limited field radiation for palliation 7 days for metastatic disease prior to first dose of everolimus or has not recovered from side effects of such therapy.	Eligibility	23
+radiotherapy	OAE:0000235	11-23
+disease	DOID:4,OGMS:0000031	168-175
+everolimus	CHEBI:68478	199-209
+Previously untreated brain metastases. Patients who have received radiation or surgery for brain metastases are eligible if there is no evidence of central nervous system (CNS) disease progression, and at least 2 weeks have elapsed since treatment. Patients are not permitted to receive enzyme inducing anti-epileptic drugs (EIAEDs) during the study and should not be receiving chronic corticosteroid therapy for CNS metastases.	Eligibility	24
+brain	UBERON:0000955	21-26
+brain	UBERON:0000955	91-96
+surgery	OAE:0000067	79-86
+central nervous system	UBERON:0001017	148-170
+disease	DOID:4,OGMS:0000031	177-184
+enzyme	BAO:0000279	287-293
+chronic	HP:0011010	378-385
+corticosteroid	CHEBI:50858	386-400
+Patients with known active hepatitis B (HBV) or hepatitis C (HCV) infection. Patients with risk factors for hepatitis must have HBV DNA and HCV RNA testing by PCR, and are ineligible if these tests are positive.	Eligibility	25
+active	PATO:0002354	20-26
+hepatitis b	DOID:2043	27-38
+hepatitis c	DOID:1883	48-59
+hepatitis	HP:0012115,DOID:2237	27-36
+hepatitis	HP:0012115,DOID:2237	48-57
+hepatitis	HP:0012115,DOID:2237	108-117
+dna	BAO:0000269	132-135
+rna	BAO:0000270	144-147
+Patients receiving immunization with attenuated live vaccines within 1 week of study entry or during study period.	Eligibility	26
+week	UO:0000034	71-75
+NOTE: There are additional inclusion/exclusion criteria. The study center will determine patient eligibility and respond to any questions.	Eligibility	27
+patient	HADO:0000008,OAE:0001817	89-96
+Outcome Measurement:	Results	0
+Median Progression Free Survival (PFS)	Results	1
+median	BAO:0002174	0-6
+PFS is defined as the time from Day 1 of study drug administration to disease progression as defined by RECIST (Response Evaluation Criteria in Solid Tumors) version 1.1 criteria, or death on study. Participants who are alive and free from disease progression will be censored at the date of last radiologic tumor assessment. Participants who receive non-protocol therapy (subsequent therapy) prior to incurring an event will be censored at the date of last tumor assessment prior to the start of subsequent therapy. Participants who do not have a post-baseline tumor assessment will be censored at the date of first treatment (Day 1).	Results	2
+time	PATO:0000165	22-26
+day	UO:0000033	32-35
+day	UO:0000033	628-631
+drug administration	OAE:0000011	47-66
+disease	DOID:4,OGMS:0000031	70-77
+disease	DOID:4,OGMS:0000031	240-247
+death	OAE:0000632	183-188
+Time frame: up to 3 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Everolimus	Results	5
+everolimus	CHEBI:68478	17-27
+Arm/Group Description: Everolimus will be administered at a dose of 10 mg PO daily combined with any one of the following anti-estrogen therapies on which the patient most recently progressed (tamoxifen, fulvestrant, anastrozole, letrozole, exemestane, toremifine, or LHRH agonists in conjunction with anti-estrogen therapy). Anti-estrogen therapy will be administered at the US Food and Drug Administration (FDA) prescribed doses.	Results	6
+everolimus	CHEBI:68478	23-33
+anti-estrogen	CHEBI:50751	122-135
+anti-estrogen	CHEBI:50751	302-315
+anti-estrogen	CHEBI:50751	326-339
+patient	HADO:0000008,OAE:0001817	159-166
+tamoxifen	CHEBI:41774	193-202
+fulvestrant	CHEBI:31638	204-215
+anastrozole	CHEBI:2704	217-228
+letrozole	CHEBI:6413	230-239
+exemestane	CHEBI:4953	241-251
+food	CHEBI:33290	379-383
+drug administration	OAE:0000011	388-407
+Everolimus	Results	7
+everolimus	CHEBI:68478	0-10
+Exemestane: Anti-estrogen therapy	Results	8
+exemestane	CHEBI:4953	0-10
+anti-estrogen	CHEBI:50751	12-25
+Tamoxifen: Anti-estrogen therapy	Results	9
+tamoxifen	CHEBI:41774	0-9
+anti-estrogen	CHEBI:50751	11-24
+Fulvestrant: Anti-estrogen therapy	Results	10
+fulvestrant	CHEBI:31638	0-11
+anti-estrogen	CHEBI:50751	13-26
+Anastrozole: Anti-estrogen therapy	Results	11
+anastrozole	CHEBI:2704	0-11
+anti-estrogen	CHEBI:50751	13-26
+Letrozole: Anti-estrogen therapy	Results	12
+letrozole	CHEBI:6413	0-9
+anti-estrogen	CHEBI:50751	11-24
+Toremifine: Anti-estrogen therapy	Results	13
+anti-estrogen	CHEBI:50751	12-25
+Overall Number of Participants Analyzed: 36	Results	14
+Median (95% Confidence Interval)	Results	15
+median	BAO:0002174	0-6
+Unit of Measure: months  7.2        (4.1 to 10.0)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 15/48 (31.25%)	Adverse Events	1
+Anemia * 1/48 (2.08%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Cardiac failure congestive * 1/48 (2.08%)	Adverse Events	3
+Constipation * 2/48 (4.17%)	Adverse Events	4
+constipation	HP:0002019,DOID:2089	0-12
+Esophagitis * 1/48 (2.08%)	Adverse Events	5
+esophagitis	HP:0100633,DOID:11963	0-11
+Gastrointestinal hemorrhage * 1/48 (2.08%)	Adverse Events	6
+gastrointestinal hemorrhage	HP:0002239	0-27
+Non-Cardiac chest pain * 1/48 (2.08%)	Adverse Events	7
+chest pain	HP:0100749	12-22
+Pain * 1/48 (2.08%)	Adverse Events	8
+pain	HP:0012531	0-4
+Cholecystitis * 1/48 (2.08%)	Adverse Events	9
+cholecystitis	HP:0001082,DOID:1949	0-13
+Diverticulitis * 1/48 (2.08%)	Adverse Events	10
+diverticulitis	DOID:7475	0-14
+Cellulitis * 1/48 (2.08%)	Adverse Events	11
+cellulitis	HP:0100658,DOID:3488	0-10
+Gastroenteritis * 1/48 (2.08%)	Adverse Events	12
+gastroenteritis	DOID:2326	0-15

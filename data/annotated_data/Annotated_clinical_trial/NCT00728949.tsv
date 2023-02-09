@@ -1,0 +1,156 @@
+INTERVENTION 1:	Intervention	0
+IMC-A12 (Cixutumumab) + Antiestrogen Therapy	Intervention	1
+Participants will receive intravenous IMC-A12 10 mg/kg over 1 hour every 2 weeks, as well as the same dose and schedule of the last antiestrogen therapy to which their disease became refractory.	Intervention	2
+hour	UO:0000032	62-66
+disease	DOID:4,OGMS:0000031	168-175
+refractory	HP:0031375	183-193
+INTERVENTION 2:	Intervention	3
+IMC-A12 (Cixutumumab)	Intervention	4
+Participants will receive only IMC-A12 (10 mg/kg over 1 hour every 2 weeks).	Intervention	5
+hour	UO:0000032	56-60
+Inclusion Criteria:	Eligibility	0
+The patient has histologically or cytologically-confirmed invasive breast cancer, which at the time of study entry is either stage III (locally advanced) disease not amenable to curative therapy or stage IV disease. Histological confirmation of recurrent/metastatic disease is not required if clinical evidence of stage IV disease recurrence is available	Eligibility	1
+patient	HADO:0000008,OAE:0001817	4-11
+breast cancer	DOID:1612	67-80
+time	PATO:0000165	95-99
+disease	DOID:4,OGMS:0000031	154-161
+disease	DOID:4,OGMS:0000031	207-214
+disease	DOID:4,OGMS:0000031	266-273
+disease	DOID:4,OGMS:0000031	323-330
+Tumors are positive for estrogen receptors (ER), progesterone receptors (PgR), or both (ie, 10% or more of infiltrating cancer cells exhibit nuclear staining for ER and/or PgR; positive biochemical test results are also acceptable)	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	24-32
+progesterone	CHEBI:17026	49-61
+cancer	DOID:162	120-126
+The patient has received prior antiestrogen therapy:	Eligibility	3
+patient	HADO:0000008,OAE:0001817	4-11
+With at least one antiestrogen agent (with or without ovarian suppression) administered for  3 months in the adjuvant or metastatic setting; and	Eligibility	4
+adjuvant	CHEBI:60809	109-117
+Experienced disease progression while on or within 12 months after receiving the last dose of endocrine therapy	Eligibility	5
+disease	DOID:4,OGMS:0000031	12-19
+The patient is postmenopausal and/or meets at least one of the following criteria:	Eligibility	6
+patient	HADO:0000008,OAE:0001817	4-11
+Age  18 years with an intact uterus and amenorrhea for  12 months, with estradiol and/or follicle-stimulating hormone (FSH) values in the postmenopausal range	Eligibility	7
+age	PATO:0000011	0-3
+uterus	UBERON:0000995	29-35
+amenorrhea	HP:0000141,DOID:13938	40-50
+estradiol	CHEBI:23965	72-81
+hormone	CHEBI:24621	110-117
+range	LABO:0000114	153-158
+History of bilateral oophorectomy	Eligibility	8
+history	BFO:0000182	0-7
+bilateral	HP:0012832	11-20
+History of bilateral salpingo-oophorectomy	Eligibility	9
+history	BFO:0000182	0-7
+bilateral	HP:0012832	11-20
+History of radiation castration and amenorrheic for  3 months	Eligibility	10
+history	BFO:0000182	0-7
+The patient has fasting serum glucose < 120 mg/dL or below the ULN	Eligibility	11
+patient	HADO:0000008,OAE:0001817	4-11
+glucose	CHEBI:4167,BAO:0000924	30-37
+Exclusion Criteria:	Eligibility	12
+The patient has received more than two regimens of prior chemotherapy in the metastatic (or locally advanced and inoperable breast cancer) and adjuvant setting	Eligibility	13
+patient	HADO:0000008,OAE:0001817	4-11
+breast cancer	DOID:1612	124-137
+adjuvant	CHEBI:60809	143-151
+The patient has poorly controlled diabetes mellitus. Patients with a history of diabetes mellitus are allowed to participate, provided that their blood glucose is within normal range (fasting glucose at study entry < 120 mg/dL or below ULN) and that they are on a stable dietary and/or therapeutic regimen for this condition	Eligibility	14
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	53-60
+diabetes mellitus	HP:0000819,DOID:9351	34-51
+diabetes mellitus	HP:0000819,DOID:9351	80-97
+history	BFO:0000182	69-76
+blood	UBERON:0000178	146-151
+glucose	CHEBI:4167,BAO:0000924	152-159
+glucose	CHEBI:4167,BAO:0000924	192-199
+range	LABO:0000114	177-182
+stable	HP:0031915	264-270
+condition	PDRO:0000129	315-324
+The patient is known to be positive for infection with the human immunodeficiency virus	Eligibility	15
+patient	HADO:0000008,OAE:0001817	4-11
+immunodeficiency	HP:0002721	65-81
+virus	BAO:0000232	82-87
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+PFS is defined as the time from the date of randomization until date of objectively determined progressive disease (PD) or death due to any cause. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions unequivocal progression of non-target lesions. Participants without documentation of progression or death will be censored at the date of last tumor assessment. The PFS will be estimated following the Kaplan-Meier method.	Results	2
+time	PATO:0000165	22-26
+progressive	HP:0003676	95-106
+disease	DOID:4,OGMS:0000031	107-114
+death	OAE:0000632	123-128
+death	OAE:0000632	499-504
+increase	BAO:0001251	254-262
+increase	BAO:0001251	333-341
+diameter	PATO:0001334	289-297
+target	BAO:0003064	301-307
+target	BAO:0003064	351-357
+target	BAO:0003064	430-436
+Time frame: From randomization up to 35.1 Months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: IMC-A12 (Cixutumumab) + Antiestrogen Therapy	Results	5
+Arm/Group Description: Participants will receive intravenous IMC-A12 10 mg/kg over 1 hour every 2 weeks, as well as the same dose and schedule of the last antiestrogen therapy to which their disease became refractory.	Results	6
+hour	UO:0000032	85-89
+disease	DOID:4,OGMS:0000031	191-198
+refractory	HP:0031375	206-216
+Overall Number of Participants Analyzed: 62	Results	7
+Median (90% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  2.0        (1.9 to 3.4)	Results	9
+Results 2:	Results	10
+Arm/Group Title: IMC-A12 (Cixutumumab)	Results	11
+Arm/Group Description: Participants will receive only IMC-A12 (10 mg/kg over 1 hour every 2 weeks).	Results	12
+hour	UO:0000032	79-83
+Overall Number of Participants Analyzed: 31	Results	13
+Median (90% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  3.1        (1.9 to 4.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 16/56 (28.57%)	Adverse Events	1
+Pancytopenia 0/56 (0.00%)	Adverse Events	2
+pancytopenia	HP:0001876,DOID:12450	0-12
+Pericarditis 0/56 (0.00%)	Adverse Events	3
+pericarditis	HP:0001701,DOID:1787	0-12
+Abdominal pain 1/56 (1.79%)	Adverse Events	4
+abdominal pain	HP:0002027	0-14
+Anal fissure 1/56 (1.79%)	Adverse Events	5
+anal fissure	HP:0012390,DOID:3128	0-12
+Ascites 1/56 (1.79%)	Adverse Events	6
+ascites	HP:0001541	0-7
+Constipation 0/56 (0.00%)	Adverse Events	7
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 1/56 (1.79%)	Adverse Events	8
+Nausea 0/56 (0.00%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Oesophageal pain 0/56 (0.00%)	Adverse Events	10
+pain	HP:0012531	12-16
+Vomiting 0/56 (0.00%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Disease progression 2/56 (3.57%)	Adverse Events	12
+disease	DOID:4,OGMS:0000031	0-7
+Infusion related reaction 1/56 (1.79%)	Adverse Events	13
+Pain 0/56 (0.00%)	Adverse Events	14
+pain	HP:0012531	0-4
+Adverse Events 2:	Adverse Events	15
+Total: 11/37 (29.73%)	Adverse Events	16
+Pancytopenia 1/37 (2.70%)	Adverse Events	17
+pancytopenia	HP:0001876,DOID:12450	0-12
+Pericarditis 1/37 (2.70%)	Adverse Events	18
+pericarditis	HP:0001701,DOID:1787	0-12
+Abdominal pain 2/37 (5.41%)	Adverse Events	19
+abdominal pain	HP:0002027	0-14
+Anal fissure 0/37 (0.00%)	Adverse Events	20
+anal fissure	HP:0012390,DOID:3128	0-12
+Ascites 0/37 (0.00%)	Adverse Events	21
+ascites	HP:0001541	0-7
+Constipation 1/37 (2.70%)	Adverse Events	22
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 1/37 (2.70%)	Adverse Events	23
+Nausea 2/37 (5.41%)	Adverse Events	24
+nausea	HP:0002018	0-6
+Oesophageal pain 1/37 (2.70%)	Adverse Events	25
+pain	HP:0012531	12-16
+Vomiting 2/37 (5.41%)	Adverse Events	26
+vomiting	HP:0002013	0-8
+Disease progression 2/37 (5.41%)	Adverse Events	27
+disease	DOID:4,OGMS:0000031	0-7
+Infusion related reaction 0/37 (0.00%)	Adverse Events	28
+Pain 1/37 (2.70%)	Adverse Events	29
+pain	HP:0012531	0-4

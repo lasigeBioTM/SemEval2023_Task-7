@@ -1,0 +1,189 @@
+INTERVENTION 1:	Intervention	0
+Lapatinib 1500 mg	Intervention	1
+lapatinib	CHEBI:49603	0-9
+Oral lapatinib (1500 milligrams [mg] daily) for 6 weeks, followed by lapatinib plus weekly paclitaxel (80 mg per meters squared [mg/m^2]) intravenous (IV) for an additional 12 weeks	Intervention	2
+lapatinib	CHEBI:49603	5-14
+lapatinib	CHEBI:49603	69-78
+paclitaxel	CHEBI:45863	91-101
+INTERVENTION 2:	Intervention	3
+Trastuzumab 2 mg/kg	Intervention	4
+Trastuzumab (4 mg/kilograms [kg] IV load followed by 2 mg/kg IV weekly) for 6 weeks, followed by trastuzumab plus weekly paclitaxel (80 mg/m^2 IV) for an additional 12 weeks	Intervention	5
+paclitaxel	CHEBI:45863	121-131
+Inclusion Criteria:	Eligibility	0
+Female gender;	Eligibility	1
+female	PATO:0000383	0-6
+Age 18 years;	Eligibility	2
+age	PATO:0000011	0-3
+Performance Status- Eastern Cooperative Oncology Group (ECOG) 0-1	Eligibility	3
+group	CHEBI:24433	49-54
+Histologically confirmed invasive breast cancer:	Eligibility	4
+breast cancer	DOID:1612	34-47
+Primary tumour greater than 2 cm diameter, measured by clinical examination and mammography or echography,	Eligibility	5
+diameter	PATO:0001334	33-41
+Any N,	Eligibility	6
+No evidence of metastasis (M0) (isolated supraclavicular node involvement allowed);	Eligibility	7
+Over expression and/or amplification of HER2 in the invasive component of the primary tumour [Wolff et al 2006] and confirmed by a certified laboratory prior to randomisation	Eligibility	8
+Known hormone receptor status.	Eligibility	9
+hormone	CHEBI:24621	6-13
+receptor	BAO:0000281	14-22
+Haematopoietic status:	Eligibility	10
+Absolute neutrophil count  1,5 x 10^9/L,	Eligibility	11
+x	LABO:0000148	31-32
+Platelet count  100 x 10^9/L,	Eligibility	12
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	20-21
+Hemoglobin at least 9 g/dl,	Eligibility	13
+hemoglobin	CHEBI:35143	0-10
+Hepatic status:	Eligibility	14
+Serum total bilirubin  1.5 x upper limit of normal (ULN). In the case of known Gilbert's syndrome, a higher serum total bilirubin (< 2 x ULN) is allowed,	Eligibility	15
+x	LABO:0000148	27-28
+x	LABO:0000148	135-136
+syndrome	DOID:225	89-97
+Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT)  2.5 times ULN,	Eligibility	16
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+Alkaline phosphatase  2.5 times ULN,	Eligibility	17
+phosphatase	GO:0016791,BAO:0000295	9-20
+Renal status:	Eligibility	18
+Creatinine  2.0 mg/dL,	Eligibility	19
+creatinine	CHEBI:16737	0-10
+Cardiovascular:	Eligibility	20
+Baseline left ventricular ejection fraction (LVEF) ³ 50% measured by echocardiography (ECHO) or Multiple Gate Acquisition (MUGA) scan,	Eligibility	21
+left	HP:0012835	9-13
+ejection fraction	CMO:0000180	26-43
+Negative serum pregnancy test, within 2-weeks (preferably 7 days) prior to randomization (For women of childbearing potential)	Eligibility	22
+Fertile patients must use effective contraception (barrier method - condoms, diaphragm - also in conjunction with spermicidal jelly, or total abstinence. Oral, injectable, or implant hormonal contraceptives are not allowed)	Eligibility	23
+diaphragm	UBERON:0001103	77-86
+Signed informed consent form (ICF)	Eligibility	24
+Patient accepts to make available tumour samples for submission to central laboratory to conduct translational studies as part of this protocol	Eligibility	25
+patient	HADO:0000008,OAE:0001817	0-7
+central	HP:0030645	67-74
+part of	BAO:0090002,BFO:0000050	122-129
+Exclusion Criteria:	Eligibility	26
+Received any prior treatment for primary invasive breast cancer;	Eligibility	27
+breast cancer	DOID:1612	50-63
+Previous (less than 10 years) or current history of malignant neoplasms, except for curatively treated:	Eligibility	28
+history	BFO:0000182	41-48
+Basal and squamous cell carcinoma of the skin;	Eligibility	29
+squamous cell carcinoma of the skin	HP:0006739	10-45
+Carcinoma in situ of the cervix.	Eligibility	30
+carcinoma	HP:0030731,DOID:305	0-9
+Patients with a prior malignancy diagnosed more than 10 years prior to randomisation may enter the study. Patients must have been curatively treated with surgery alone. Radiation therapy or systemic therapy (chemotherapy or endocrine) are NOT permitted. Prior diagnoses of breast cancer or melanoma are excluded.	Eligibility	31
+surgery	OAE:0000067	154-161
+breast cancer	DOID:1612	273-286
+melanoma	HP:0002861,DOID:1909	290-298
+excluded	HP:0040285	303-311
+Diagnosis of inflammatory breast cancer;	Eligibility	32
+breast cancer	DOID:1612	26-39
+Bilateral cancer;	Eligibility	33
+bilateral	HP:0012832	0-9
+cancer	DOID:162	10-16
+This criterion has been deleted from the protocol Version 1. Patients with multi-focal cancer are no longer excluded.	Eligibility	34
+deleted	BAO:0000230	24-31
+cancer	DOID:162	87-93
+excluded	HP:0040285	108-116
+Known history of uncontrolled or symptomatic angina, clinically significant arrhythmias, congestive heart failure, transmural myocardial infarction, uncontrolled hypertension (  180/110), unstable diabetes mellitus, dyspnoea at rest, or chronic therapy with oxygen;	Eligibility	35
+history	BFO:0000182	6-13
+congestive heart failure	HP:0001635,DOID:6000	89-113
+myocardial infarction	HP:0001658,DOID:5844	126-147
+hypertension	HP:0000822,DOID:10763	162-174
+diabetes mellitus	HP:0000819,DOID:9351	197-214
+chronic	HP:0011010	237-244
+Concurrent disease or condition that would make the subject inappropriate for study participation or any serious medical disorder that would interfere with the subject's safety;	Eligibility	36
+disease	DOID:4,OGMS:0000031	11-18
+condition	PDRO:0000129	22-31
+disorder	OGMS:0000045	121-129
+Unresolved or unstable, serious adverse events from prior administration of another investigational drug;	Eligibility	37
+drug	CHEBI:23888	100-104
+Active or uncontrolled infection;	Eligibility	38
+active	PATO:0002354	0-6
+Dementia, altered mental status, or any psychiatric condition that would prevent the understanding or rendering of ICF;	Eligibility	39
+dementia	HP:0000726,DOID:1307	0-8
+condition	PDRO:0000129	52-61
+Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel. Subjects with ulcerative colitis are also excluded;	Eligibility	40
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+disease	DOID:4,OGMS:0000031	24-31
+function	BAO:0003117,BFO:0000034	73-81
+stomach	UBERON:0000945	103-110
+ulcerative colitis	HP:0100279,DOID:8577	141-159
+excluded	HP:0040285	169-177
+Concurrent neoadjuvant cancer therapy (chemotherapy, radiation therapy, immunotherapy, biologic therapy other than the trial therapies);	Eligibility	41
+cancer	DOID:162	23-29
+Concurrent treatment with an investigational agent or participation in another therapeutic clinical trial;	Eligibility	42
+Known immediate or delayed hypersensitivity reaction or idiosyncrasy to drugs chemically related to trastuzumab or lapatinib or their excipients;	Eligibility	43
+hypersensitivity	GO:0002524,DOID:1205	27-43
+lapatinib	CHEBI:49603	115-124
+Pregnant or lactating women;	Eligibility	44
+Concomitant use of CYP3A4 inhibitors or inducers	Eligibility	45
+Outcome Measurement:	Results	0
+Number of Participants With Pathological Complete Response (pCR) at the Time of Surgery	Results	1
+time	PATO:0000165	72-76
+surgery	OAE:0000067	80-87
+Pathological complete response is defined as no invasive cancer in the breast or only non-invasive in situ cancer in the breast specimen. Surgical breast and axillary node resection specimens were evaluated for pathologic tumor response according to National Surgical Adjuvant Breast and Bowel Project (NSABP) guidelines, which do not take into account the histological nodal status.	Results	2
+cancer	DOID:162	57-63
+cancer	DOID:162	107-113
+breast	UBERON:0000310	71-77
+breast	UBERON:0000310	121-127
+breast	UBERON:0000310	147-153
+breast	UBERON:0000310	277-283
+adjuvant	CHEBI:60809	268-276
+Time frame: Weeks 20 to 22	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Lapatinib 1500 mg	Results	5
+lapatinib	CHEBI:49603	17-26
+Arm/Group Description: Oral lapatinib (1500 milligrams [mg] daily) for 6 weeks, followed by lapatinib plus weekly paclitaxel (80 mg per meters squared [mg/m^2]) intravenous (IV) for an additional 12 weeks	Results	6
+lapatinib	CHEBI:49603	28-37
+lapatinib	CHEBI:49603	92-101
+paclitaxel	CHEBI:45863	114-124
+Overall Number of Participants Analyzed: 154	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  38	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab 2 mg/kg	Results	11
+Arm/Group Description: Trastuzumab (4 mg/kilograms [kg] IV load followed by 2 mg/kg IV weekly) for 6 weeks, followed by trastuzumab plus weekly paclitaxel (80 mg/m^2 IV) for an additional 12 weeks	Results	12
+paclitaxel	CHEBI:45863	144-154
+Overall Number of Participants Analyzed: 149	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  44	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 61/149 (40.94%)	Adverse Events	1
+AGRANULOCYTOSIS 0/149 (0.00%)	Adverse Events	2
+agranulocytosis	HP:0012234,DOID:12987	0-15
+ANAEMIA 0/149 (0.00%)	Adverse Events	3
+FEBRILE NEUTROPENIA 3/149 (2.01%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+LEUKOPENIA 2/149 (1.34%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 14/149 (9.40%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 1/149 (0.67%)	Adverse Events	7
+pancytopenia	HP:0001876,DOID:12450	0-12
+CARDIAC FAILURE CONGESTIVE 3/149 (2.01%)	Adverse Events	8
+CARDIO-RESPIRATORY ARREST 1/149 (0.67%)	Adverse Events	9
+MYOCARDIAL INFARCTION 1/149 (0.67%)	Adverse Events	10
+myocardial infarction	HP:0001658,DOID:5844	0-21
+DIARRHOEA 9/149 (6.04%)	Adverse Events	11
+DUODENITIS 1/149 (0.67%)	Adverse Events	12
+duodenitis	HP:0033117,DOID:8643	0-10
+Adverse Events 2:	Adverse Events	13
+Total: 58/151 (38.41%)	Adverse Events	14
+AGRANULOCYTOSIS 1/151 (0.66%)	Adverse Events	15
+agranulocytosis	HP:0012234,DOID:12987	0-15
+ANAEMIA 1/151 (0.66%)	Adverse Events	16
+FEBRILE NEUTROPENIA 2/151 (1.32%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+LEUKOPENIA 0/151 (0.00%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 13/151 (8.61%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 0/151 (0.00%)	Adverse Events	20
+pancytopenia	HP:0001876,DOID:12450	0-12
+CARDIAC FAILURE CONGESTIVE 0/151 (0.00%)	Adverse Events	21
+CARDIO-RESPIRATORY ARREST 0/151 (0.00%)	Adverse Events	22
+MYOCARDIAL INFARCTION 0/151 (0.00%)	Adverse Events	23
+myocardial infarction	HP:0001658,DOID:5844	0-21
+DIARRHOEA 9/151 (5.96%)	Adverse Events	24
+DUODENITIS 0/151 (0.00%)	Adverse Events	25
+duodenitis	HP:0033117,DOID:8643	0-10

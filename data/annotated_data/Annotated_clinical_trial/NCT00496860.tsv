@@ -1,0 +1,146 @@
+INTERVENTION 1:	Intervention	0
+ALT-801 0.015 mg/kg/Dose	Intervention	1
+0.015 mg/kg/dose of ALT-801	Intervention	2
+INTERVENTION 2:	Intervention	3
+ALT-801 0.040 mg/kg/Dose	Intervention	4
+0.040 mg/kg/dose of ALT-801	Intervention	5
+ENTRY CRITERIA:	Eligibility	0
+DISEASE CHARACTERISTICS:	Eligibility	1
+disease	DOID:4,OGMS:0000031	0-7
+Locally advanced or metastatic malignancies	Eligibility	2
+Histologically or cytologically confirmed	Eligibility	3
+Evaluable	Eligibility	4
+Surgically and medically incurable	Eligibility	5
+Not responding to standard therapy or no other standard therapy exists	Eligibility	6
+Human leukocyte antigen (HLA)-A2.1/p53 positive	Eligibility	7
+antigen	CHEBI:59132	16-23
+PRIOR/CONCURRENT THERAPY:	Eligibility	8
+No prior Proleukin therapy within one year	Eligibility	9
+year	UO:0000036	38-42
+No concurrent radiotherapy, chemotherapy, or other immunotherapy	Eligibility	10
+radiotherapy	OAE:0000235	14-26
+More than 4 weeks since prior major radiotherapy	Eligibility	11
+radiotherapy	OAE:0000235	36-48
+More than 4 weeks since prior cytotoxic therapy	Eligibility	12
+More than 6 weeks since prior nitrosoureas therapy	Eligibility	13
+More than 8 weeks since prior monoclonal antibody therapy	Eligibility	14
+monoclonal	BAO:0000503	30-40
+antibody	GO:0042571,BAO:0000502	41-49
+PATIENT CHARACTERISTICS:	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+Life expectancy	Eligibility	16
+> 3 months	Eligibility	17
+Performance status	Eligibility	18
+Eastern Cooperative Oncology Group (ECOG) Performance Status 0 or 1	Eligibility	19
+group	CHEBI:24433	29-34
+Bone marrow reserve	Eligibility	20
+bone marrow	UBERON:0002371	0-11
+Absolute neutrophil count (AGC/ANC)  1,500/microliters (uL)	Eligibility	21
+Platelets 100,000/uL	Eligibility	22
+Hemoglobin  10g/dL	Eligibility	23
+hemoglobin	CHEBI:35143	0-10
+Renal function	Eligibility	24
+function	BAO:0003117,BFO:0000034	6-14
+Serum creatinine  1.5 X Upper limit of normal (ULN)	Eligibility	25
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	22-23
+Hepatic function	Eligibility	26
+function	BAO:0003117,BFO:0000034	8-16
+Total bilirubin  1.5 X ULN	Eligibility	27
+x	LABO:0000148	21-22
+Aspartate Aminotransferase (AST)  2.5 X ULN	Eligibility	28
+aspartate	CHEBI:29995	0-9
+x	LABO:0000148	38-39
+Alkaline phosphatase  2.5 X ULN	Eligibility	29
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	26-27
+Prothrombin time (PT) or international normalized ratio (INR)  1.5 X ULN	Eligibility	30
+prothrombin time	CMO:0000211	0-16
+ratio	UO:0000190	50-55
+x	LABO:0000148	67-68
+Activated partial thromboplastin time (aPTT)  1.5 X ULN	Eligibility	31
+activated partial thromboplastin time	CMO:0000210	0-37
+x	LABO:0000148	50-51
+Cardiovascular	Eligibility	32
+May be safely tapered off anti-hypertensives if currently on anti-hypertensives	Eligibility	33
+New York Heart Association classification I or II	Eligibility	34
+heart	UBERON:0000948	9-14
+No congestive heart failure <6 months	Eligibility	35
+congestive heart failure	HP:0001635,DOID:6000	3-27
+No unstable angina pectoris <6 months	Eligibility	36
+angina pectoris	HP:0001681	12-27
+No myocardial infarction <6 months	Eligibility	37
+myocardial infarction	HP:0001658,DOID:5844	3-24
+No history of ventricular arrhythmias	Eligibility	38
+history	BFO:0000182	3-10
+Normal cardiac stress test required if any of the following is present:	Eligibility	39
+present	PATO:0000467	63-70
+Over age 50	Eligibility	40
+age	PATO:0000011	5-8
+History of abnormal EKG	Eligibility	41
+history	BFO:0000182	0-7
+abnormal ekg	HP:0003115	11-23
+Symptoms of cardiac ischemia or arrhythmia	Eligibility	42
+ischemia	DOID:326	20-28
+arrhythmia	HP:0011675	32-42
+Pulmonary	Eligibility	43
+Normal pulmonary function test (FEV1  75% of predicted value) if any of the following is present:	Eligibility	44
+function	BAO:0003117,BFO:0000034	17-25
+present	PATO:0000467	89-96
+Prolonged history of cigarette smoking	Eligibility	45
+prolonged	HP:0025297	0-9
+history	BFO:0000182	10-17
+Symptoms of respiratory dysfunction	Eligibility	46
+Other	Eligibility	47
+No known autoimmune disease	Eligibility	48
+autoimmune disease	DOID:417	9-27
+No known HIV positive	Eligibility	49
+No psychiatric illness/social situations that would limit study compliance	Eligibility	50
+No history or evidence of central nervous system (CNS) disease	Eligibility	51
+history	BFO:0000182	3-10
+central nervous system	UBERON:0001017	26-48
+disease	DOID:4,OGMS:0000031	55-62
+No active systemic infection requiring parental antibiotic therapy	Eligibility	52
+active	PATO:0002354	3-9
+No systemic steroid therapy required	Eligibility	53
+steroid	CHEBI:35341	12-19
+No prior organ allograft	Eligibility	54
+organ	UBERON:0000062	9-14
+Not receiving other investigational agents	Eligibility	55
+Not receiving chronic medication for asthma	Eligibility	56
+chronic	HP:0011010	14-21
+asthma	HP:0002099,DOID:2841	37-43
+Not pregnant or nursing	Eligibility	57
+Fertile patients must use effective contraception	Eligibility	58
+Outcome Measurement:	Results	0
+The Safety and Toxicity of ALT-801 in Patients With Progressive Metastatic Malignancies	Results	1
+progressive	HP:0003676	52-63
+Number of serious adverse events per cohort	Results	2
+Time frame: 18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: ALT-801 0.015 mg/kg/Dose	Results	5
+Arm/Group Description: 0.015 mg/kg/dose of ALT-801	Results	6
+Overall Number of Participants Analyzed: 4	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Events  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: ALT-801 0.040 mg/kg/Dose	Results	11
+Arm/Group Description: 0.040 mg/kg/dose of ALT-801	Results	12
+Overall Number of Participants Analyzed: 16	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Events  2	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/4 (0.00%)	Adverse Events	1
+Thrombocytopenia0/4 (0.00%)	Adverse Events	2
+Cardiac Ischemia/Infarction0/4 (0.00%)	Adverse Events	3
+Death-NOS0/4 (0.00%)	Adverse Events	4
+Pleural Effusion0/4 (0.00%)	Adverse Events	5
+Pulmonary Infiltrates0/4 (0.00%)	Adverse Events	6
+Adverse Events 2:	Adverse Events	7
+Total: 2/16 (12.50%)	Adverse Events	8
+Thrombocytopenia0/16 (0.00%)	Adverse Events	9
+Cardiac Ischemia/Infarction0/16 (0.00%)	Adverse Events	10
+Death-NOS1/16 (6.25%)	Adverse Events	11
+Pleural Effusion1/16 (6.25%)	Adverse Events	12
+Pulmonary Infiltrates0/16 (0.00%)	Adverse Events	13

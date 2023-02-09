@@ -1,0 +1,83 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab + Bevacizumab + Capecitabine	Intervention	1
+capecitabine	CHEBI:31348	28-40
+Participants received IV trastuzumab (8 mg/kg) for first cycle and then 6 mg/kg for subsequent cycles followed by bevacizumab (15 mg/kg) on Day 1 of each treatment cycles along with capecitabine administered orally to participants at a dose of 1000 mg/m^2 BID on Days 1 to 14 of each treatment cycle until disease progression, unmanageable toxicity or participant request for discontinuation. Treatment cycles were of 3 weeks.	Intervention	2
+day	UO:0000033	140-143
+day	UO:0000033	263-266
+capecitabine	CHEBI:31348	182-194
+disease	DOID:4,OGMS:0000031	306-313
+Inclusion Criteria:	Eligibility	0
+adult patients, >=18 years of age;	Eligibility	1
+adult	EFO:0001272	0-5
+age	PATO:0000011	30-33
+breast cancer with measurable locally recurrent or metastatic lesions;	Eligibility	2
+breast cancer	DOID:1612	0-13
+recurrent	HP:0031796	38-47
+candidate for chemotherapy;	Eligibility	3
+HER2-positive disease;	Eligibility	4
+disease	DOID:4,OGMS:0000031	14-21
+ECOG PS of <=2.	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+previous anticancer therapy for metastatic breast cancer;	Eligibility	7
+breast cancer	DOID:1612	43-56
+previous radiotherapy for metastatic breast cancer (except for adjuvant radiotherapy >=6 months before enrollment);	Eligibility	8
+radiotherapy	OAE:0000235	9-21
+radiotherapy	OAE:0000235	72-84
+breast cancer	DOID:1612	37-50
+adjuvant	CHEBI:60809	63-71
+chronic daily treatment with corticosteroids (>=10mg/day), aspirin (>325 mg/day) or clopidogrel (>75mg/day);	Eligibility	9
+chronic	HP:0011010	0-7
+clopidogrel	CHEBI:37941	84-95
+other primary tumor within last 5 years, except for adequately treated cervical cancer in situ, squamous or basal cell skin cancer;	Eligibility	10
+cervical cancer	DOID:4362	71-86
+skin cancer	DOID:4159	119-130
+uncontrolled hypertension or significant cardiovascular disease.	Eligibility	11
+hypertension	HP:0000822,DOID:10763	13-25
+disease	DOID:4,OGMS:0000031	56-63
+Outcome Measurement:	Results	0
+Percentage of Participants With a Best Overall Response (BOR) of Confirmed Complete Response (CR) or Partial Response (PR)	Results	1
+Tumor response was assessed using the Response Evaluation Criteria in Solid Tumors (RECIST), Version 1.0. BOR was defined as the best response recorded for a participant from the start of treatment until disease progression/recurrence. Percentage of participants with a BOR of confirmed CR or PR (responders) was reported. CR: disappearance of all target and non-target lesions and normalization of tumor marker level; PR: at least a 30 percent (%) decrease in the sum of the longest diameter (LD) of target lesions taking as reference the baseline sum LD. Confirmed responses were those which were confirmed by a repeat assessment, performed 4 weeks after the criteria for response first met.	Results	2
+disease	DOID:4,OGMS:0000031	204-211
+target	BAO:0003064	348-354
+target	BAO:0003064	363-369
+target	BAO:0003064	501-507
+percent	UO:0000187	236-243
+percent	UO:0000187	437-444
+diameter	PATO:0001334	484-492
+Time frame: Screening until disease progression (assessed at screening, every 6 weeks up to Week 36, thereafter every 9 weeks during treatment period, and then every 3 months during follow-up, up to approximately 4 years)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	28-35
+week	UO:0000034	80-84
+week	UO:0000034	92-96
+week	UO:0000034	120-124
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab + Bevacizumab + Capecitabine	Results	5
+capecitabine	CHEBI:31348	45-57
+Arm/Group Description: Participants received IV trastuzumab (8 mg/kg) for first cycle and then 6 mg/kg for subsequent cycles followed by bevacizumab (15 mg/kg) on Day 1 of each treatment cycles along with capecitabine administered orally to participants at a dose of 1000 mg/m^2 BID on Days 1 to 14 of each treatment cycle until disease progression, unmanageable toxicity or participant request for discontinuation. Treatment cycles were of 3 weeks.	Results	6
+day	UO:0000033	163-166
+day	UO:0000033	286-289
+capecitabine	CHEBI:31348	205-217
+disease	DOID:4,OGMS:0000031	329-336
+Overall Number of Participants Analyzed: 88	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  75.0        (64.6 to 83.6)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 20/88 (22.73%)	Adverse Events	1
+Cardiac Failure * 2/88 (2.27%)	Adverse Events	2
+Intracardiac thrombus * 1/88 (1.14%)	Adverse Events	3
+Abdominal pain * 1/88 (1.14%)	Adverse Events	4
+abdominal pain	HP:0002027	0-14
+Diarrhoea * 2/88 (2.27%)	Adverse Events	5
+Enteritis * 1/88 (1.14%)	Adverse Events	6
+Intestinal perforation * 1/88 (1.14%)	Adverse Events	7
+intestinal perforation	HP:0031368,DOID:2074	0-22
+Chest pain * 1/88 (1.14%)	Adverse Events	8
+chest pain	HP:0100749	0-10
+Death * 1/88 (1.14%)	Adverse Events	9
+death	OAE:0000632	0-5
+Erysipelas * 1/88 (1.14%)	Adverse Events	10
+erysipelas	HP:0001055,DOID:11330	0-10
+Pneumonia * 1/88 (1.14%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	0-9
+Abdominal wound dehiscence * 1/88 (1.14%)	Adverse Events	12
+dehiscence	GO:0009900	16-26

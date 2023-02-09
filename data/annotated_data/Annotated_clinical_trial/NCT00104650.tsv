@@ -1,0 +1,92 @@
+INTERVENTION 1:	Intervention	0
+Bisphosphonate IV Q4W	Intervention	1
+Open-label intravenous (IV) bisphosphonate once every 4 weeks (Q4W)	Intervention	2
+INTERVENTION 2:	Intervention	3
+Denosumab 180 mg Q12W	Intervention	4
+Open-label denosumab 180 mg by subcutaneous injection once every 12 weeks (Q12W)	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Patients at least 18 years of age with histologically confirmed solid tumor carcinomas (except lung) or multiple myeloma	Eligibility	1
+age	PATO:0000011	30-33
+lung	UBERON:0002048	95-99
+multiple myeloma	HP:0006775,DOID:9538	104-120
+Radiographic evidence of 1 or more bone lesions or lytic lesion in myeloma	Eligibility	2
+Currently receiving IV bisphosphonates	Eligibility	3
+Urinary N-Telopeptide (uNTx) greater than 50 nM BCE/mM creatinine	Eligibility	4
+creatinine	CHEBI:16737	55-65
+Eastern Cooperative Oncology Group (ECOG) 0, 1 or 2	Eligibility	5
+group	CHEBI:24433	29-34
+Exclusion Criteria:	Eligibility	6
+More than 2 prior skeletal related events (SRE)	Eligibility	7
+Known brain metastases	Eligibility	8
+brain	UBERON:0000955	6-11
+Prior history or current evidence of osteonecrosis/osteomyelitis of the jaw	Eligibility	9
+history	BFO:0000182	6-13
+Active dental or jaw conditions which requires oral surgery	Eligibility	10
+active	PATO:0002354	0-6
+oral surgery	OAE:0001251	47-59
+Non-healed dental/oral surgery	Eligibility	11
+surgery	OAE:0000067	23-30
+Prior administration of AMG 162	Eligibility	12
+Evidence of impending fracture in weight bearing bones	Eligibility	13
+Pregnancy or breastfeeding. Subjects must be surgically sterile, postmenopausal, or must agree to use effective contraception during the study.	Eligibility	14
+Outcome Measurement:	Results	0
+uNTx (Corrected by Creatinine) < 50 Nmol/mmol at Week 13	Results	1
+creatinine	CHEBI:16737	19-29
+week	UO:0000034	49-53
+Urinary N-telopeptide (uNTx) corrected by creatinine (uNTx/Cr) < 50 nmol/mmol at week 13.	Results	2
+creatinine	CHEBI:16737	42-52
+week	UO:0000034	81-85
+Time frame: 13 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Bisphosphonate IV Q4W	Results	5
+Arm/Group Description: Open-label intravenous (IV) bisphosphonate once every 4 weeks (Q4W)	Results	6
+Overall Number of Participants Analyzed: 35	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  10	Results	9
+Results 2:	Results	10
+Arm/Group Title: Denosumab 180 mg Q12W	Results	11
+Arm/Group Description: Open-label denosumab 180 mg by subcutaneous injection once every 12 weeks (Q12W)	Results	12
+Overall Number of Participants Analyzed: 33	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Participants  21	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 19/35 (54.29%)	Adverse Events	1
+Anaemia 4/35 (11.43%)	Adverse Events	2
+Bone marrow failure 1/35 (2.86%)	Adverse Events	3
+bone marrow	UBERON:0002371	0-11
+Coagulopathy 0/35 (0.00%)	Adverse Events	4
+Leukopenia 2/35 (5.71%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 2/35 (5.71%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 2/35 (5.71%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardio-respiratory arrest 0/35 (0.00%)	Adverse Events	8
+Cardiopulmonary failure 2/35 (5.71%)	Adverse Events	9
+Pericardial effusion 0/35 (0.00%)	Adverse Events	10
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus bradycardia 0/35 (0.00%)	Adverse Events	11
+sinus bradycardia	HP:0001688	0-17
+Diplopia 0/35 (0.00%)	Adverse Events	12
+diplopia	HP:0000651	0-8
+Adverse Events 2:	Adverse Events	13
+Total: 16/35 (45.71%)	Adverse Events	14
+Anaemia 4/35 (11.43%)	Adverse Events	15
+Bone marrow failure 0/35 (0.00%)	Adverse Events	16
+bone marrow	UBERON:0002371	0-11
+Coagulopathy 0/35 (0.00%)	Adverse Events	17
+Leukopenia 0/35 (0.00%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 2/35 (5.71%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 2/35 (5.71%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardio-respiratory arrest 0/35 (0.00%)	Adverse Events	21
+Cardiopulmonary failure 0/35 (0.00%)	Adverse Events	22
+Pericardial effusion 1/35 (2.86%)	Adverse Events	23
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus bradycardia 0/35 (0.00%)	Adverse Events	24
+sinus bradycardia	HP:0001688	0-17
+Diplopia 0/35 (0.00%)	Adverse Events	25
+diplopia	HP:0000651	0-8

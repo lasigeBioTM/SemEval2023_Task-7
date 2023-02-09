@@ -1,0 +1,138 @@
+INTERVENTION 1:	Intervention	0
+Adult Cancer Patients 65 Years of Age and Older	Intervention	1
+adult	EFO:0001272	0-5
+cancer	DOID:162	6-12
+age	PATO:0000011	34-37
+Vaccine Responses Against Pneumococcus and Influenza in Adult Cancer Patients 65 Years of Age and Older	Intervention	2
+vaccine	VO:0000001	0-7
+influenza	DOID:8469	43-52
+adult	EFO:0001272	56-61
+cancer	DOID:162	62-68
+age	PATO:0000011	90-93
+INTERVENTION 2:	Intervention	3
+Healthy Volunteers	Intervention	4
+healthy	HP:0032322	0-7
+Vaccine Responses Against Pneumococcus and Influenza in Adults 65 Years of Age and Older	Intervention	5
+vaccine	VO:0000001	0-7
+influenza	DOID:8469	43-52
+age	PATO:0000011	75-78
+Inclusion Criteria:	Eligibility	0
+Patient must be > or = to 65 years of age.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+age	PATO:0000011	38-41
+Patient may be an in patient or an out-patient.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	21-28
+patient	HADO:0000008,OAE:0001817	39-46
+Patient must have a diagnosis of prostate, lung, or breast cancer.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+lung	UBERON:0002048	43-47
+breast cancer	DOID:1612	52-65
+Patient must have a life expectancy of > or = to 6 months.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+Patient must have a Karnofsky score of >40%	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+Patient must be willing to return to the hospital in 8-12 weeks following immunization for blood work.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+blood	UBERON:0000178	91-96
+Patients must have a platelet count of >75,000 for intramuscular injection.	Eligibility	7
+platelet count	CMO:0000029	21-35
+Patient may be of either gender and of any ethnic background.	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Patients must be able to understand the nature and risk of the proposed study and be able to sign consent.	Eligibility	9
+Volunteer eligibility:	Eligibility	10
+MSKCC employee	Eligibility	11
+Age > or = to 65 years of age	Eligibility	12
+age	PATO:0000011	0-3
+age	PATO:0000011	26-29
+No previous diagnosis of cancer except basal cell carcinoma, resected Stage I melanoma or in situ cervical carcinoma. Volunteers may have had a prior history of other cancers > 3 years which required only local resection, local radiation and/or hormonal therapy such as androgen blockade.	Eligibility	13
+cancer	DOID:162	25-31
+cancer	DOID:162	167-173
+basal cell carcinoma	HP:0002671,DOID:2513	39-59
+melanoma	HP:0002861,DOID:1909	78-86
+carcinoma	HP:0030731,DOID:305	50-59
+carcinoma	HP:0030731,DOID:305	107-116
+history	BFO:0000182	150-157
+androgen	CHEBI:50113	270-278
+Patients must be able to understand the nature and risk of the proposed study and be able to sign consent.	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Karnofsky score <40%:	Eligibility	16
+Patients who have received an autologous or allogeneic HCT	Eligibility	17
+Active uncontrolled bacterial or fungal infection	Eligibility	18
+active	PATO:0002354	0-6
+Hypersensitivity to egg protein (eggs or egg products), chicken proteins, or any component in the influenza vaccine	Eligibility	19
+hypersensitivity	GO:0002524,DOID:1205	0-16
+protein	CHEBI:36080,BAO:0000175	24-31
+protein	CHEBI:36080,BAO:0000175	64-71
+influenza	DOID:8469	98-107
+vaccine	VO:0000001	108-115
+Prior history of any life-threatening reaction after previous administration of any influenza vaccine or any component such as thimerosal (inclusion of thimerosal varies among packaging)	Eligibility	20
+history	BFO:0000182	6-13
+influenza	DOID:8469	84-93
+vaccine	VO:0000001	94-101
+thimerosal	CHEBI:9546	127-137
+thimerosal	CHEBI:9546	152-162
+Latex allergy if going to receive the influenza vaccine	Eligibility	21
+latex allergy	HP:0500094,DOID:0060532	0-13
+influenza	DOID:8469	38-47
+vaccine	VO:0000001	48-55
+On-going neurologic disorder (mental status change, uncontrolled seizures, encephalopathy)	Eligibility	22
+disorder	OGMS:0000045	20-28
+encephalopathy	HP:0001298,DOID:936	75-89
+Treatment or planned treatment with cyclophosphamide, ifosphamide, or > or = to 1 mg/kg prednisone or its equivalent 12 weeks within 12 weeks of vaccination.	Eligibility	23
+cyclophosphamide	CHEBI:4026	36-52
+prednisone	CHEBI:8382	88-98
+vaccination	VO:0000002	145-156
+HIV-1,2 seropositive patients.	Eligibility	24
+Patients not signing informed consent.	Eligibility	25
+Patients receiving the seasonal influenza vaccine may not have had it within 6 months of enrollment	Eligibility	26
+influenza	DOID:8469	32-41
+vaccine	VO:0000001	42-49
+Healthy controls exclusion:	Eligibility	27
+healthy	HP:0032322	0-7
+Volunteers ineligible to receive either vaccine	Eligibility	28
+vaccine	VO:0000001	40-47
+Volunteers unwilling or unable to sign consent	Eligibility	29
+Hypersensitivity to egg protein (eggs or egg products), chicken proteins, or any component in the influenza vaccine	Eligibility	30
+hypersensitivity	GO:0002524,DOID:1205	0-16
+protein	CHEBI:36080,BAO:0000175	24-31
+protein	CHEBI:36080,BAO:0000175	64-71
+influenza	DOID:8469	98-107
+vaccine	VO:0000001	108-115
+Latex allergy	Eligibility	31
+latex allergy	HP:0500094,DOID:0060532	0-13
+Outcome Measurement:	Results	0
+Determine Response Rate of Patients > or = to 65 Yrs Diagnosed	Results	1
+rate	BAO:0080019	19-23
+For Pneumovax, complete response will be either seroconversion or a >3 fold rise in titer against at least 5 of the following serotypes contained in Pneumovax (serotypes 4, 14, 19, 23, 6B, 18C, and 9V).	Results	2
+Time frame: 8-16 weeks following vaccination.	Results	3
+time	PATO:0000165	0-4
+vaccination	VO:0000002	33-44
+Results 1:	Results	4
+Arm/Group Title: Adult Cancer Patients 65 Years of Age and Older	Results	5
+adult	EFO:0001272	17-22
+cancer	DOID:162	23-29
+age	PATO:0000011	51-54
+Arm/Group Description: Vaccine Responses Against Pneumococcus and Influenza in Adult Cancer Patients 65 Years of Age and Older	Results	6
+vaccine	VO:0000001	23-30
+influenza	DOID:8469	66-75
+adult	EFO:0001272	79-84
+cancer	DOID:162	85-91
+age	PATO:0000011	113-116
+Overall Number of Participants Analyzed: 100	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  63	Results	9
+Results 2:	Results	10
+Arm/Group Title: Healthy Volunteers	Results	11
+healthy	HP:0032322	17-24
+Arm/Group Description: Vaccine Responses Against Pneumococcus and Influenza in Adults 65 Years of Age and Older	Results	12
+vaccine	VO:0000001	23-30
+influenza	DOID:8469	66-75
+age	PATO:0000011	98-101
+Overall Number of Participants Analyzed: 25	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  24	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/95 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/25 (0.00%)	Adverse Events	3

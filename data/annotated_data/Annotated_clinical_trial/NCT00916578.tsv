@@ -1,0 +1,83 @@
+INTERVENTION 1:	Intervention	0
+Single Arm Institution, Open Label, Phase II	Intervention	1
+label	CHEBI:35209,label	29-34
+Patients will received 825 mg/m2 bid of capecitabine. One of the two daily doses of capecitabine will be taken 2 hours before receiving radiotherapy. Capecitabine will be administered when patients receives radiation therapy. Radiation therapy doses will be 50-57 Gy to the initial clinical target volume.	Intervention	2
+capecitabine	CHEBI:31348	40-52
+capecitabine	CHEBI:31348	84-96
+capecitabine	CHEBI:31348	150-162
+radiotherapy	OAE:0000235	136-148
+target	BAO:0003064	291-297
+volume	PATO:0000918	298-304
+Inclusion Criteria:	Eligibility	0
+Histological confirmation of invasive breast cancer	Eligibility	1
+breast cancer	DOID:1612	38-51
+No contraindications to receiving a course of radiation treatment (pregnancy, prior radiation to the volume with disease, or systemic disease in which radiation therapy is an absolute contraindication)	Eligibility	2
+volume	PATO:0000918	101-107
+disease	DOID:4,OGMS:0000031	113-120
+disease	DOID:4,OGMS:0000031	134-141
+contraindication	OAE:0000055	3-19
+contraindication	OAE:0000055	184-200
+Patients who have chemo-refractory gross disease in the breast causing symptoms (pain, drainage, duress) OR gross disease in the breast (greater than or equal to T3) and/or lymph node(s) progressive, persistent, or minimally responsive to chemotherapy deemed inoperable or questionable inoperable OR Recurrent gross disease in a previously unirradiated breast or on the chest wall or in the regional lymphatics (core biopsy will not be offered to patients without gross disease in the breast).	Eligibility	3
+disease	DOID:4,OGMS:0000031	41-48
+disease	DOID:4,OGMS:0000031	114-121
+disease	DOID:4,OGMS:0000031	316-323
+disease	DOID:4,OGMS:0000031	470-477
+breast	UBERON:0000310	56-62
+breast	UBERON:0000310	129-135
+breast	UBERON:0000310	353-359
+breast	UBERON:0000310	485-491
+pain	HP:0012531	81-85
+lymph	UBERON:0002391	173-178
+lymph	UBERON:0002391	400-405
+progressive	HP:0003676	187-198
+recurrent	HP:0031796	300-309
+chest	UBERON:0001443	370-375
+Are able to swallow and retain oral medication (intact pill)	Eligibility	4
+Age over 18	Eligibility	5
+age	PATO:0000011	0-3
+Female gender	Eligibility	6
+female	PATO:0000383	0-6
+Exclusion Criteria:	Eligibility	7
+Have an active or uncontrolled infection	Eligibility	8
+active	PATO:0002354	8-14
+Have dementia, altered mental status, or any psychiatric condition that would prohibit the understanding or rendering of informed consent	Eligibility	9
+dementia	HP:0000726,DOID:1307	5-13
+condition	PDRO:0000129	57-66
+Have used an investigational drug within 21 days preceding the first dose of study medication	Eligibility	10
+drug	CHEBI:23888	29-33
+Are receiving therapeutic anti-coagulation therapy (i.e. warfarin, heparin)	Eligibility	11
+warfarin	CHEBI:10033	57-65
+heparin	CHEBI:28304	67-74
+Uncontrolled arrhythmia or congestive heart failure (CHF) based on clinical history or physical exam	Eligibility	12
+arrhythmia	HP:0011675	13-23
+congestive heart failure	HP:0001635,DOID:6000	27-51
+history	BFO:0000182	76-83
+Patient cannot receive whole brain irradiation concurrently with Xeloda treatment.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+brain	UBERON:0000955	29-34
+Outcome Measurement:	Results	0
+Response Rate of Patients Who Receive Pre-operative or Palliative Concurrent Radiation w/ Capecitabine to the Breast & at Risk or Involved Regional Lymph Nodes Basins.	Results	1
+rate	BAO:0080019	9-13
+capecitabine	CHEBI:31348	90-102
+breast	UBERON:0000310	110-116
+lymph	UBERON:0002391	148-153
+The response by RECIST was assessed after 45 Gy of radiation for patients with breast cancer treated with concurrent capecitabine and radiation therapy.	Results	2
+breast cancer	DOID:1612	79-92
+capecitabine	CHEBI:31348	117-129
+Time frame: Participants were monitored from 2009 to 2012.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Single Arm Institution, Open Label, Phase II	Results	5
+label	CHEBI:35209,label	46-51
+Arm/Group Description: Patients will received 825 mg/m2 bid of capecitabine. One of the two daily doses of capecitabine will be taken 2 hours before receiving radiotherapy. Capecitabine will be administered when patients receives radiation therapy. Radiation therapy doses will be 50-57 Gy to the initial clinical target volume.	Results	6
+capecitabine	CHEBI:31348	63-75
+capecitabine	CHEBI:31348	107-119
+capecitabine	CHEBI:31348	173-185
+radiotherapy	OAE:0000235	159-171
+target	BAO:0003064	314-320
+volume	PATO:0000918	321-327
+Overall Number of Participants Analyzed: 33	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  26	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/26 (0.00%)	Adverse Events	1

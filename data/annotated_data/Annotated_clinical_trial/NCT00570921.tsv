@@ -1,0 +1,170 @@
+INTERVENTION 1:	Intervention	0
+Fulvestrant + Everolimus	Intervention	1
+fulvestrant	CHEBI:31638	0-11
+everolimus	CHEBI:68478	14-24
+Fulvestrant + Everolimus	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+everolimus	CHEBI:68478	14-24
+Fulvestrant was administered intramuscularly (in the gluteus maximus) in a loading dose schedule as follows: 500 mg in two divided doses-one on each side on day 1, then 250 mg on day 14, and then 250 mg on day 28 and every 4 weeks ± 3 days thereafter. Everolimus was administered initially at a dose of 5 mg daily in the first 5-patient cohort for the first month of treatment and then increased to 10 mg PO daily after that.	Intervention	3
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	157-160
+day	UO:0000033	179-182
+day	UO:0000033	206-209
+day	UO:0000033	235-238
+everolimus	CHEBI:68478	252-262
+month	UO:0000035	358-363
+Inclusion Criteria:	Eligibility	0
+Postmenopausal status, defined as any one of the following criteria: Documented history of bilateral oophorectomy, Age 60 years or more, OR Age 45 to 59 and satisfying one or more of the following criteria: Amenorrhea for at least 12 months and intact uterus OR Amenorrhea for less than 12 months and a follicle stimulating hormone (FSH) concentration - within postmenopausal range including: Patients who have had a hysterectomy or Patients who have received hormone replacement	Eligibility	1
+history	BFO:0000182	80-87
+bilateral	HP:0012832	91-100
+age	PATO:0000011	115-118
+age	PATO:0000011	140-143
+amenorrhea	HP:0000141,DOID:13938	207-217
+amenorrhea	HP:0000141,DOID:13938	262-272
+uterus	UBERON:0000995	252-258
+follicle stimulating hormone	CHEBI:81569	303-331
+range	LABO:0000114	376-381
+hormone	CHEBI:24621	324-331
+hormone	CHEBI:24621	460-467
+Patients must have histologically confirmed invasive breast cancer	Eligibility	2
+breast cancer	DOID:1612	53-66
+Metastatic or locally advanced disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	31-38
+Patients must have estrogen receptor and/or progesterone receptor positive disease	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	19-27
+receptor	BAO:0000281	28-36
+receptor	BAO:0000281	57-65
+progesterone	CHEBI:17026	44-56
+disease	DOID:4,OGMS:0000031	75-82
+Measurable or evaluable disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	24-31
+Failure of aromatase inhibitor therapy within the previous 6 months. Patients who received prior tamoxifen are eligible to enroll	Eligibility	6
+inhibitor	CHEBI:35222	21-30
+tamoxifen	CHEBI:41774	97-106
+Prior aromatase inhibitor therapy or other endocrine therapy must be discontinued at least 1 week prior to enrollment and any toxicity from such therapy must have reverted to grade I or less at the time of enrollment	Eligibility	7
+inhibitor	CHEBI:35222	16-25
+week	UO:0000034	93-97
+time	PATO:0000165	198-202
+Patients must not have received chemotherapy, radiation therapy, or had surgery within 4 weeks prior to enrollment and any toxicity from such therapy must have recovered to grade 1 or less prior to enrollment	Eligibility	8
+surgery	OAE:0000067	72-79
+Patients must not have received either of the study medications previously	Eligibility	9
+WHO performance status of 0, 1, or 2	Eligibility	10
+Adequate organ function defined as follows: Adequate renal function, defined by a serum creatinine within the upper limits of normal, Adequate liver function, defined by a bilirubin of < 1.5 the upper limit of normal (ULN) and aspartate aminotransferase (AST), alanine aminotransferase (ALT) of  2.5 times the ULN, Adequate bone marrow function, defined as an absolute neutrophil count (ANC)  1.5 x 109/L, platelet count (PLT) >100,000/ul, Hb >9 gm/dl, international normalized ratio (INR) <1.3, and because fulvestrant is administered intramuscularly, it should not be used in patients with bleeding diatheses, thrombocytopenia or in patients on anticoagulants	Eligibility	11
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+function	BAO:0003117,BFO:0000034	59-67
+function	BAO:0003117,BFO:0000034	149-157
+function	BAO:0003117,BFO:0000034	336-344
+creatinine	CHEBI:16737	88-98
+liver	UBERON:0002107	143-148
+aspartate	CHEBI:29995	227-236
+alanine	CHEBI:16449	261-268
+bone marrow	UBERON:0002371	324-335
+x	LABO:0000148	397-398
+platelet count	CMO:0000029	406-420
+ratio	UO:0000190	478-483
+fulvestrant	CHEBI:31638	508-519
+thrombocytopenia	HP:0001873,DOID:1588	612-628
+Patients will be asked to provide a tumor paraffin block if available	Eligibility	12
+Ability to understand and sign a written informed consent for participation in the trial	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Known severe hypersensitivity to everolimus (or similar drugs) or any of the excipients of this product	Eligibility	15
+severe	HP:0012828	6-12
+hypersensitivity	GO:0002524,DOID:1205	13-29
+everolimus	CHEBI:68478	33-43
+product	BAO:0003067	96-103
+Premenopausal status	Eligibility	16
+Other coexisting malignancies with the exception of basal cell carcinoma or cervical cancer in situ	Eligibility	17
+basal cell carcinoma	HP:0002671,DOID:2513	52-72
+cervical cancer	DOID:4362	76-91
+Patients with brain metastasis or leptomeningeal involvement	Eligibility	18
+brain	UBERON:0000955	14-19
+Patients with malignant pleural effusion or ascites only disease	Eligibility	19
+pleural effusion	HP:0002202	24-40
+ascites	HP:0001541	44-51
+disease	DOID:4,OGMS:0000031	57-64
+Rapidly progressive visceral disease	Eligibility	20
+rapidly progressive	HP:0003678	0-19
+disease	DOID:4,OGMS:0000031	29-36
+WHO performance status of 3 or 4	Eligibility	21
+As judged by the investigator, uncontrolled intercurrent illness including, but not limited to: Ongoing or active infection, Symptomatic congestive heart failure, Unstable angina pectoris or significant cardiac arrhythmia, Psychiatric illness/social situations that would limit compliance with study requirements, Severely impaired lung function such as severe chronic obstructive pulmonary disease (COPD) or interstitial lung disease, a known forced expiratory volume at one second (FEV1) of < 1.5 liters, or dyspnea of grade III or greater, Uncontrolled diabetes as defined by a fasting blood sugar (FBS) of > 1.5 ULM, Known liver disease such as cirrhosis or chronic hepatitis, Known HIV positivity, OR known condition causing malabsorption	Eligibility	22
+active	PATO:0002354	107-113
+congestive heart failure	HP:0001635,DOID:6000	137-161
+angina pectoris	HP:0001681	172-187
+arrhythmia	HP:0011675	211-221
+lung	UBERON:0002048	332-336
+lung	UBERON:0002048	422-426
+function	BAO:0003117,BFO:0000034	337-345
+severe	HP:0012828	314-320
+severe	HP:0012828	354-360
+chronic obstructive pulmonary disease	DOID:3083	361-398
+interstitial lung disease	DOID:3082	409-434
+forced expiratory volume	CMO:0000254	444-468
+second	UO:0000010	476-482
+dyspnea	HP:0002094	510-517
+blood	UBERON:0000178	589-594
+liver disease	DOID:409	627-640
+cirrhosis	HP:0001394	649-658
+chronic hepatitis	HP:0200123,DOID:2237	662-679
+condition	PDRO:0000129	712-721
+malabsorption	HP:0002024	730-743
+Chronic treatment with systemic steroids or other immunosuppressive agents	Eligibility	23
+chronic	HP:0011010	0-7
+Patients should not receive immunization with attenuated live vaccines within one week of study entry or during study period	Eligibility	24
+week	UO:0000034	82-86
+Evidence of any other significant clinical disorder or laboratory finding that makes it undesirable for the subject to participate in the clinical trial	Eligibility	25
+disorder	OGMS:0000045	43-51
+laboratory finding	OGMS:0000018	55-73
+Prior treatment with an mTOR inhibitor	Eligibility	26
+mtor inhibitor	CHEBI:68481	24-38
+Treatment with a non-approved or investigational drug within 30 days or 5 half-lives of the drug, whichever is greater, before Day 1 of study treatment	Eligibility	27
+drug	CHEBI:23888	49-53
+drug	CHEBI:23888	92-96
+day	UO:0000033	64-67
+day	UO:0000033	127-130
+In the opinion of the investigator, bleeding diathesis or anticoagulation therapy that would preclude intramuscular injections	Eligibility	28
+History of hypersensitivity to castor oil	Eligibility	29
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+castor oil	CHEBI:140618	31-41
+Outcome Measurement:	Results	0
+Time to Progression	Results	1
+time	PATO:0000165	0-4
+[Not Specified]	Results	2
+Time frame: Duration of time start of treatment to time of documented progression or death	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	24-28
+time	PATO:0000165	51-55
+duration	PATO:0001309	12-20
+death	OAE:0000632	85-90
+Results 1:	Results	4
+Arm/Group Title: Fulvestrant + Everolimus	Results	5
+fulvestrant	CHEBI:31638	17-28
+everolimus	CHEBI:68478	31-41
+Arm/Group Description: Fulvestrant + Everolimus	Results	6
+fulvestrant	CHEBI:31638	23-34
+everolimus	CHEBI:68478	37-47
+Fulvestrant was administered intramuscularly (in the gluteus maximus) in a loading dose schedule as follows: 500 mg in two divided doses-one on each side on day 1, then 250 mg on day 14, and then 250 mg on day 28 and every 4 weeks   3 days thereafter. Everolimus was administered initially at a dose of 5 mg daily in the first 5-patient cohort for the first month of treatment and then increased to 10 mg PO daily after that.	Results	7
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	157-160
+day	UO:0000033	179-182
+day	UO:0000033	206-209
+day	UO:0000033	235-238
+everolimus	CHEBI:68478	252-262
+month	UO:0000035	358-363
+Overall Number of Participants Analyzed: 31	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: months  7.4        (1.9 to 12.1)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 5/33 (15.15%)	Adverse Events	1
+Left Ventricular Thrombus * 1/33 (3.03%)	Adverse Events	2
+left	HP:0012835	0-4
+Nausea * 1/33 (3.03%)	Adverse Events	3
+nausea	HP:0002018	0-6
+Acute Cholecystitis * 1/33 (3.03%)	Adverse Events	4
+acute	HP:0011009,PATO:0000389	0-5
+cholecystitis	HP:0001082,DOID:1949	6-19
+Renal Failure * 1/33 (3.03%)	Adverse Events	5
+Pneumonia * 1/33 (3.03%)	Adverse Events	6
+pneumonia	HP:0002090,DOID:552	0-9

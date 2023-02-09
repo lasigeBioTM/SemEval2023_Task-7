@@ -1,0 +1,120 @@
+INTERVENTION 1:	Intervention	0
+No Drug Treatment	Intervention	1
+drug	CHEBI:23888	3-7
+Post-menopausal women with stage I-III breast cancer with surgical resection of tumor and tumor tissue will be used to study cell growth signaling pathways ex-vivo.	Intervention	2
+breast cancer	DOID:1612	39-52
+tissue	UBERON:0000479	96-102
+cell growth	GO:0016049	125-136
+signaling	GO:0023052	137-146
+INTERVENTION 2:	Intervention	3
+Letrozole-presurgical	Intervention	4
+Patients received Letrozole for 10-21 days prior to surgical resection of tumor tissue. This tissue was used ex-vivo to study cell growth signaling pathway. The results will be compared to arm of the study with no intervention.	Intervention	5
+letrozole	CHEBI:6413	18-27
+tissue	UBERON:0000479	80-86
+tissue	UBERON:0000479	93-99
+cell growth	GO:0016049	126-137
+signaling	GO:0023052	138-147
+Inclusion Criteria:	Eligibility	0
+Histologic Documentation of invasive breast cancer by core needle or incisional biopsy. Excess baseline biopsy tumor tissue sufficient to make three 5-micron sections must be available for molecular analyses as part of this study.	Eligibility	1
+breast cancer	DOID:1612	37-50
+tissue	UBERON:0000479	117-123
+part of	BAO:0090002,BFO:0000050	211-218
+The invasive cancer must be estrogen receptor alpha (ER)-positive, with ER staining present in greater than 50% staining of invasive cancer cells by IHC.	Eligibility	2
+cancer	DOID:162	13-19
+cancer	DOID:162	133-139
+estrogen	CHEBI:50114,BAO:0000760	28-36
+receptor	BAO:0000281	37-45
+present	PATO:0000467	84-91
+The invasive cancer must be human epidermal growth factor receptor 2 (HER2) negative (IHC 0-1+, or with a fluorescence in situ hybridization (FISH) ratio of <1.8 if IHC is 2+ or if IHC has not been done).	Eligibility	3
+cancer	DOID:162	13-19
+growth factor	BAO:0002024	44-57
+receptor	BAO:0000281	58-66
+ratio	UO:0000190	148-153
+Clinical stage I-III invasive breast cancer with the intent to treat with surgical resection of the primary tumor. Tumor must be  2cm to provide adequate tissue.	Eligibility	4
+breast cancer	DOID:1612	30-43
+tissue	UBERON:0000479	154-160
+Patients with multi-centric or bilateral disease are eligible if the target lesions meet the other eligibility criteria. Samples from all available tumors are requested for research purposes.	Eligibility	5
+bilateral	HP:0012832	31-40
+disease	DOID:4,OGMS:0000031	41-48
+target	BAO:0003064	69-75
+Women  age 18, for whom adjuvant treatment with an aromatase inhibitor would be clinically indicated. Women must be either post-menopausal, or pre-menopausal having undergone oophorectomy.	Eligibility	6
+age	PATO:0000011	7-10
+adjuvant	CHEBI:60809	24-32
+inhibitor	CHEBI:35222	61-70
+Patients must meet the following clinical laboratory criteria:	Eligibility	7
+Absolute neutrophil count (ANC) 1000/mm3 and platelet count  75,000/mm3. Total bilirubin  1.5 X the upper limit of normal range (ULN). Alanine aminotransferase (ALT) and aspartate aminotransferase (AST)  3 x ULN.	Eligibility	8
+platelet count	CMO:0000029	45-59
+x	LABO:0000148	94-95
+x	LABO:0000148	206-207
+range	LABO:0000114	122-127
+alanine	CHEBI:16449	135-142
+aspartate	CHEBI:29995	170-179
+- Ability to give informed consent.	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+Prior endocrine therapy for any histologically confirmed cancer is not allowed. Prior endocrine therapy that was administered  5 years ago for the prevention of breast cancer in patients with no history of breast cancer is allowed.	Eligibility	11
+cancer	DOID:162	57-63
+cancer	DOID:162	168-174
+cancer	DOID:162	213-219
+breast cancer	DOID:1612	161-174
+breast cancer	DOID:1612	206-219
+history	BFO:0000182	195-202
+Systemic drug treatment to induce ovarian suppression if woman is pre-menopausal.	Eligibility	12
+drug	CHEBI:23888	9-13
+Any other neoadjuvant therapy for breast cancer (i.e., treatment with any other anti-cancer agent besides Letrozole (10-21)days before surgical resection of the primary tumor).	Eligibility	13
+breast cancer	DOID:1612	34-47
+letrozole	CHEBI:6413	106-115
+Outcome Measurement:	Results	0
+Change in Insulin Receptor Substrate 1 (IRS-1) / Phosphoinositide 3-kinase (PI3K) / Serine-threonine Protein Kinase (AKT) Pathway Activation	Results	1
+insulin	CHEBI:145810	10-17
+receptor	BAO:0000281	18-26
+substrate	BAO:0003063	27-36
+phosphoinositide	CHEBI:16749	49-65
+protein	CHEBI:36080,BAO:0000175	101-108
+kinase	BAO:0000294	68-74
+kinase	BAO:0000294	109-115
+activation	BAO:0000087	130-140
+The Primary Endpoint is to determine the effect of ex vivo mTORC1 inhibition with everolimus (RAD001) on IRS-1/PI3K/AKT pathway activation (as measured by phospho-AKT-T308 and phospho-AKT-S473) in ER+/human epidermal growth factor receptor 2 (HER2)- breast tumors treated with presurgical letrozole compared to ER+/HER2- breast tumors not treated with presurgical therapy.	Results	2
+ex vivo	BAO:0020006	51-58
+inhibition	BAO:0000091	66-76
+everolimus	CHEBI:68478	82-92
+activation	BAO:0000087	128-138
+growth factor	BAO:0002024	217-230
+receptor	BAO:0000281	231-239
+breast	UBERON:0000310	250-256
+breast	UBERON:0000310	321-327
+letrozole	CHEBI:6413	289-298
+Time frame: baseline and surgery, approximately 30 days	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	25-32
+Results 1:	Results	4
+Arm/Group Title: No Drug Treatment	Results	5
+drug	CHEBI:23888	20-24
+Arm/Group Description: Post-menopausal women with stage I-III breast cancer with surgical resection of tumor and tumor tissue will be used to study cell growth signaling pathways ex-vivo.	Results	6
+breast cancer	DOID:1612	62-75
+tissue	UBERON:0000479	119-125
+cell growth	GO:0016049	148-159
+signaling	GO:0023052	160-169
+Overall Number of Participants Analyzed: 10	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: % change  phospho-AKT-T308: 388         (623)	Results	9
+phospho-AKT-S473: 157         (35)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Letrozole-presurgical	Results	12
+Arm/Group Description: Patients received Letrozole for 10-21 days prior to surgical resection of tumor tissue. This tissue was used ex-vivo to study cell growth signaling pathway. The results will be compared to arm of the study with no intervention.	Results	13
+letrozole	CHEBI:6413	41-50
+tissue	UBERON:0000479	103-109
+tissue	UBERON:0000479	116-122
+cell growth	GO:0016049	149-160
+signaling	GO:0023052	161-170
+Overall Number of Participants Analyzed: 7	Results	14
+Mean (Standard Deviation)	Results	15
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: % change  phospho-AKT-T308: -10         (38)	Results	16
+phospho-AKT-S473: 135         (91)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/10 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/7 (0.00%)	Adverse Events	3

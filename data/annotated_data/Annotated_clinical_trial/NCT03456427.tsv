@@ -1,0 +1,87 @@
+INTERVENTION 1:	Intervention	0
+All Study Participants: Patient Assisted Compression	Intervention	1
+patient	HADO:0000008,OAE:0001817	24-31
+All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.	Intervention	2
+breast	UBERON:0000310	58-64
+breast	UBERON:0000310	76-82
+Patient-Assisted Compression (PAC): The technologist will properly position the breast and apply minimum compression. The subject will be instructed to apply compression as the technologist ensures the breast tissue is in appropriate position and tautness. The technologist will then guide the subject to achieve appropriate compression level, sufficient but not excessive, and the image will be acquired. This will be done for both standard views CC & MLO.	Intervention	3
+position	HP:0012830	67-75
+position	HP:0012830	234-242
+breast	UBERON:0000310	80-86
+breast	UBERON:0000310	202-208
+tissue	UBERON:0000479	209-215
+INTERVENTION 2:	Intervention	4
+All Study Participants: Technologist Compression	Intervention	5
+All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.	Intervention	6
+breast	UBERON:0000310	58-64
+breast	UBERON:0000310	76-82
+Technologist-Controlled (TC) Compression: TC compression will be conducted per standard of care practices at the site.	Intervention	7
+site	BFO:0000029	113-117
+Inclusion Criteria:	Eligibility	0
+Are women aged 40 years or older;	Eligibility	1
+Are asymptomatic and scheduled for screening mammography;	Eligibility	2
+Have left and right breasts;	Eligibility	3
+left	HP:0012835	5-9
+right	HP:0012834	14-19
+Have breast sizes compatible with the dimensions of a 24 x 31 cm image detector, without anatomical cut-off;	Eligibility	4
+breast	UBERON:0000310	5-11
+x	LABO:0000148	57-58
+Are documented as non-pregnant based on the investigator's medical judgment and in consideration of local clinical practice standards for evidence of non-pregnancy;	Eligibility	5
+Are able and willing to comply with study procedures; and	Eligibility	6
+Are able and willing to provide written informed consent to participate.	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Are women aged 40 years or older;	Eligibility	9
+Are asymptomatic and scheduled for screening mammography;	Eligibility	10
+Have left and right breasts;	Eligibility	11
+left	HP:0012835	5-9
+right	HP:0012834	14-19
+Have breast sizes compatible with the dimensions of a 24 x 31 cm image detector, without anatomical cut-off;	Eligibility	12
+breast	UBERON:0000310	5-11
+x	LABO:0000148	57-58
+Are documented as non-pregnant based on the investigator's medical judgment and in consideration of local clinical practice standards for evidence of non-pregnancy;	Eligibility	13
+Are able and willing to comply with study procedures; and	Eligibility	14
+Are able and willing to provide written informed consent to participate.	Eligibility	15
+Outcome Measurement:	Results	0
+Percentage of Acceptable Overall Image Quality	Results	1
+quality	BAO:0002928,BFO:0000019	39-46
+The primary objective is to compare the percentage of acceptable overall image quality in unilateral two-view (CC and MLO) breast images acquired using Patient-Assisted Compression and Technologist Compression modes.	Results	2
+quality	BAO:0002928,BFO:0000019	79-86
+unilateral	HP:0012833	90-100
+breast	UBERON:0000310	123-129
+Time frame: 1 Day	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	14-17
+Results 1:	Results	4
+Arm/Group Title: All Study Participants: Patient Assisted Compression	Results	5
+patient	HADO:0000008,OAE:0001817	41-48
+Arm/Group Description: All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.	Results	6
+breast	UBERON:0000310	81-87
+breast	UBERON:0000310	99-105
+Patient-Assisted Compression (PAC): The technologist will properly position the breast and apply minimum compression. The subject will be instructed to apply compression as the technologist ensures the breast tissue is in appropriate position and tautness. The technologist will then guide the subject to achieve appropriate compression level, sufficient but not excessive, and the image will be acquired. This will be done for both standard views CC & MLO.	Results	7
+position	HP:0012830	67-75
+position	HP:0012830	234-242
+breast	UBERON:0000310	80-86
+breast	UBERON:0000310	202-208
+tissue	UBERON:0000479	209-215
+Overall Number of Participants Analyzed: 33	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  Image Quality: Acceptable: 30  90.9%	Results	10
+quality	BAO:0002928,BFO:0000019	37-44
+Image Quality: Unacceptable: 3   9.1%	Results	11
+quality	BAO:0002928,BFO:0000019	6-13
+Results 2:	Results	12
+Arm/Group Title: All Study Participants: Technologist Compression	Results	13
+Arm/Group Description: All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.	Results	14
+breast	UBERON:0000310	81-87
+breast	UBERON:0000310	99-105
+Technologist-Controlled (TC) Compression: TC compression will be conducted per standard of care practices at the site.	Results	15
+site	BFO:0000029	113-117
+Overall Number of Participants Analyzed: 33	Results	16
+Measure Type: Count of Participants	Results	17
+Unit of Measure: Participants  Image Quality: Acceptable: 33 100.0%	Results	18
+quality	BAO:0002928,BFO:0000019	37-44
+Image Quality: Unacceptable: 0   0.0%	Results	19
+quality	BAO:0002928,BFO:0000019	6-13
+Adverse Events 1:	Adverse Events	0
+Total: 0/36 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

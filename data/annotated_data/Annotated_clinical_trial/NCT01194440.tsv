@@ -1,0 +1,126 @@
+INTERVENTION 1:	Intervention	0
+Arm I	Intervention	1
+Patients receive zoledronic acid IV at months 1 and 6. Beginning 14 days after first zoledronic acid infusion, patients receive oral letrozole once daily for 12 months in the absence of disease progression or unacceptable toxicity.	Intervention	2
+zoledronic acid	CHEBI:46557	17-32
+zoledronic acid	CHEBI:46557	85-100
+letrozole	CHEBI:6413	133-142
+disease	DOID:4,OGMS:0000031	186-193
+letrozole: Given orally	Intervention	3
+letrozole	CHEBI:6413	0-9
+zoledronic acid: Given IV	Intervention	4
+zoledronic acid	CHEBI:46557	0-15
+laboratory biomarker analysis: Correlative studies	Intervention	5
+biomarker	CHEBI:59163	11-20
+enzyme-linked immunosorbent assay: Correlative studies	Intervention	6
+mass spectrometry: Correlative studies	Intervention	7
+mass spectrometry	BAO:0000055	0-17
+bone scan: Correlative studies	Intervention	8
+quality-of-life assessment: Ancillary studies	Intervention	9
+questionnaire administration: Ancillary studies	Intervention	10
+pharmacogenomic studies: Correlative studies	Intervention	11
+high performance liquid chromatography: Correlative studies	Intervention	12
+Inclusion Criteria	Eligibility	0
+Patients with histologically proven DCIS or stage I-III invasive carcinoma of the breast that is estrogen and/or progesterone receptor positive by immunohistochemical staining who are considering aromatase inhibitor therapy; women may receive the AI on this study as initial adjuvant hormonal treatment or following tamoxifen; patients must have completed any adjuvant chemotherapy; patients may have received preoperative chemotherapy	Eligibility	1
+carcinoma	HP:0030731,DOID:305	65-74
+breast	UBERON:0000310	82-88
+estrogen	CHEBI:50114,BAO:0000760	97-105
+progesterone	CHEBI:17026	113-125
+receptor	BAO:0000281	126-134
+inhibitor	CHEBI:35222	206-215
+adjuvant	CHEBI:60809	275-283
+adjuvant	CHEBI:60809	360-368
+tamoxifen	CHEBI:41774	316-325
+Postmenopausal status, defined as: >= 60 years of age; or < 60 years of age and amenorrheic for >= 12 months prior to day 1 if intact uterus/ovaries; or < 60 years of age, and the last menstrual period 6-12 months prior to day 1, if intact uterus/ovaries and meets biochemical criteria for menopause (FSH and estradiol within institutional standards for postmenopausal status); or < 60 years of age, without a uterus, and meets biochemical criteria for menopause (FSH and estradiol within institutional standards for postmenopausal status); or < 60 years of age and history of bilateral oophorectomy; or prior radiation castration with amenorrhea for at least 6 months; < 60 years of age and taking medication designed to suppress ovarian function and meets biochemical criteria for menopause (estradiol levels within institutional standards for postmenopausal status; women would have had to be taking the drug for at least 30 days prior to day 1)	Eligibility	2
+age	PATO:0000011	50-53
+age	PATO:0000011	72-75
+age	PATO:0000011	167-170
+age	PATO:0000011	395-398
+age	PATO:0000011	558-561
+age	PATO:0000011	684-687
+day	UO:0000033	118-121
+day	UO:0000033	223-226
+day	UO:0000033	928-931
+day	UO:0000033	942-945
+menopause	GO:0042697	290-299
+menopause	GO:0042697	453-462
+menopause	GO:0042697	783-792
+estradiol	CHEBI:23965	309-318
+estradiol	CHEBI:23965	472-481
+estradiol	CHEBI:23965	794-803
+uterus	UBERON:0000995	134-140
+uterus	UBERON:0000995	240-246
+uterus	UBERON:0000995	410-416
+history	BFO:0000182	566-573
+bilateral	HP:0012832	577-586
+amenorrhea	HP:0000141,DOID:13938	636-646
+function	BAO:0003117,BFO:0000034	739-747
+drug	CHEBI:23888	907-911
+ECOG performance status 0-2	Eligibility	3
+Patient is aware of the nature of her diagnosis, understands the study regimen, its requirements, risks, and discomforts, and is able and willing to sign an informed consent form	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria	Eligibility	5
+Concurrent use of hormone replacement therapy	Eligibility	6
+hormone	CHEBI:24621	18-25
+Concurrent use of tamoxifen; patients taking tamoxifen must discontinue the drug prior to first dose of zoledronic acid	Eligibility	7
+tamoxifen	CHEBI:41774	18-27
+tamoxifen	CHEBI:41774	45-54
+drug	CHEBI:23888	76-80
+zoledronic acid	CHEBI:46557	104-119
+Concurrent use of other selective estrogen receptor modulator (SERM) such as raloxifene	Eligibility	8
+estrogen receptor modulator	CHEBI:50739	34-61
+raloxifene	CHEBI:8772	77-87
+Concurrent consumption of soy supplements; routine dietary consumption of soy containing foods will be permitted	Eligibility	9
+Prior use of an aromatase inhibitor in any setting	Eligibility	10
+inhibitor	CHEBI:35222	26-35
+Current bisphosphonate use (oral or intravenous); prior bisphosphonate users would be eligible as long as the use was > 1 month ago for oral bisphosphonates and/or > 12 months ago for intravenous bisphosphonates, prior to starting study treatment	Eligibility	11
+month	UO:0000035	122-127
+month	UO:0000035	169-174
+Moderate to severe renal impairment (serum creatinine greater than 2 mg/dL or creatinine clearance less than 50 mL/min)	Eligibility	12
+moderate	HP:0012826	0-8
+severe	HP:0012828	12-18
+creatinine	CHEBI:16737	43-53
+creatinine	CHEBI:16737	78-88
+creatinine clearance	CMO:0000765	78-98
+Hypersensitivity to letrozole or zoledronic acid or any of its excipients	Eligibility	13
+hypersensitivity	GO:0002524,DOID:1205	0-16
+letrozole	CHEBI:6413	20-29
+zoledronic acid	CHEBI:46557	33-48
+Concomitant treatment with oral or intravenous corticosteroids	Eligibility	14
+Current active dental problems including infection or the teeth or jawbone (maxilla or mandibular); dental or fixture trauma, or a current or prior diagnosis of osteonecrosis of the jaw (ONJ), of exposed bone in the mouth, or of slow healing after dental procedures	Eligibility	15
+active	PATO:0002354	8-14
+osteonecrosis	DOID:10159	161-174
+mouth	UBERON:0000165	216-221
+Recent (within 6 weeks) or planned dental or jaw surgery (e.g. extraction, implants)	Eligibility	16
+surgery	OAE:0000067	49-56
+Outcome Measurement:	Results	0
+Number of Participants With Aromatase Inhibitor Associated Musculoskeletal Symptoms (AIMSS)	Results	1
+inhibitor	CHEBI:35222	38-47
+[Not Specified]	Results	2
+Time frame: 12 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I	Results	5
+Arm/Group Description: Patients receive zoledronic acid IV at months 1 and 6. Beginning 14 days after first zoledronic acid infusion, patients receive oral letrozole once daily for 12 months in the absence of disease progression or unacceptable toxicity.	Results	6
+zoledronic acid	CHEBI:46557	40-55
+zoledronic acid	CHEBI:46557	108-123
+letrozole	CHEBI:6413	156-165
+disease	DOID:4,OGMS:0000031	209-216
+letrozole: Given orally	Results	7
+letrozole	CHEBI:6413	0-9
+zoledronic acid: Given IV	Results	8
+zoledronic acid	CHEBI:46557	0-15
+laboratory biomarker analysis: Correlative studies	Results	9
+biomarker	CHEBI:59163	11-20
+enzyme-linked immunosorbent assay: Correlative studies	Results	10
+mass spectrometry: Correlative studies	Results	11
+mass spectrometry	BAO:0000055	0-17
+bone scan: Correlative studies	Results	12
+quality-of-life assessment: Ancillary studies	Results	13
+questionnaire administration: Ancillary studies	Results	14
+pharmacogenomic studies: Correlative studies	Results	15
+high performance liquid chromatography: Correlative studies	Results	16
+Overall Number of Participants Analyzed: 59	Results	17
+Measure Type: Count of Participants	Results	18
+Unit of Measure: Participants  22  37.3%	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/59 (0.00%)	Adverse Events	1

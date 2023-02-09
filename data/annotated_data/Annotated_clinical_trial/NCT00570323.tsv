@@ -1,0 +1,141 @@
+INTERVENTION 1:	Intervention	0
+ARM A / Arimidex With Faslodex	Intervention	1
+Arimidex with Faslodex in postmenopausal women	Intervention	2
+Arimidex: Aromatase inhibitors	Intervention	3
+Faslodex: Hormone Receptor	Intervention	4
+hormone	CHEBI:24621	10-17
+receptor	BAO:0000281	18-26
+INTERVENTION 2:	Intervention	5
+ARM B Arimidex Without Faslodex	Intervention	6
+Arimidex without Faslodex in postmenopausal women.	Intervention	7
+Arimidex: Aromatase inhibitors	Intervention	8
+Inclusion Criteria:	Eligibility	0
+All subjects must be female.	Eligibility	1
+female	PATO:0000383	21-27
+Postmenopausal status, defined as any one of the following criteria:	Eligibility	2
+Documented history of bilateral oophorectomy.	Eligibility	3
+history	BFO:0000182	11-18
+bilateral	HP:0012832	22-31
+Age 60 years or more.	Eligibility	4
+age	PATO:0000011	0-3
+Age 45 to 59 and satisfying one or more of the following criteria:	Eligibility	5
+age	PATO:0000011	0-3
+Amenorrhea for at least 12 months and intact uterus.	Eligibility	6
+amenorrhea	HP:0000141,DOID:13938	0-10
+uterus	UBERON:0000995	45-51
+Amenorrhea for less than 12 months and a follicle stimulating hormone (FSH) and estradiol concentration within postmenopausal range including: patients who have had a hysterectomy and patients who have received hormone replacement.	Eligibility	7
+amenorrhea	HP:0000141,DOID:13938	0-10
+follicle stimulating hormone	CHEBI:81569	41-69
+estradiol	CHEBI:23965	80-89
+range	LABO:0000114	126-131
+hormone	CHEBI:24621	62-69
+hormone	CHEBI:24621	211-218
+Patients must have histologically confirmed invasive breast cancer with a primary tumor of 3 cm or more in greatest dimension as measured by clinical examination.	Eligibility	8
+breast cancer	DOID:1612	53-66
+Estrogen receptor and/or progesterone receptor positive disease.	Eligibility	9
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	38-46
+progesterone	CHEBI:17026	25-37
+disease	DOID:4,OGMS:0000031	56-63
+Patients must not have received any prior treatment for current or newly diagnosed breast cancer.	Eligibility	10
+breast cancer	DOID:1612	83-96
+Patients must have not received previous treatment with any of the study medications or similar drugs.	Eligibility	11
+No use of selective estrogen receptor modulators (SERM) such as raloxifene or similar agents in the past 2 years.	Eligibility	12
+estrogen	CHEBI:50114,BAO:0000760	20-28
+receptor	BAO:0000281	29-37
+raloxifene	CHEBI:8772	64-74
+WHO performance status of 0, 1, or 2.	Eligibility	13
+Adequate organ function defined as follows:	Eligibility	14
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Adequate renal function, defined by a serum creatinine within 3 times the upper limits of normal.	Eligibility	15
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	44-54
+Adequate liver function, defined by total bilirubin, AST, ALT, and alkaline phosphatase within 3 times the upper limits of normal.	Eligibility	16
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+phosphatase	GO:0016791,BAO:0000295	76-87
+Adequate bone marrow function, defined as a WBC greater than 3.0 ml, PLT greater than 75,000/ul, Hb greater than 9 gm/l.	Eligibility	17
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Willing to undergo breast core biopsies as required by the study protocol. - Ability to understand and sign a written informed consent for participation in the trial.	Eligibility	18
+breast	UBERON:0000310	19-25
+Life expectancy of at least 1 year.	Eligibility	19
+year	UO:0000036	30-34
+Exclusion Criteria:	Eligibility	20
+Premenopausal status.	Eligibility	21
+Other coexisting malignancies with the exception of basal cell carcinoma or cervical cancer in situ.	Eligibility	22
+basal cell carcinoma	HP:0002671,DOID:2513	52-72
+cervical cancer	DOID:4362	76-91
+Patients with brain metastasis.	Eligibility	23
+brain	UBERON:0000955	14-19
+WHO performance status of 3 or 4.	Eligibility	24
+Is judged by the investigator, uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, significant cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	25
+active	PATO:0002354	107-113
+congestive heart failure	HP:0001635,DOID:6000	137-161
+angina pectoris	HP:0001681	172-187
+arrhythmia	HP:0011675	209-219
+Evidence of any other significant clinical disorder or laboratory finding that makes it undesirable for the subject to participate in the clinical trial. - Concurrent treatment with estrogens or progestins. Patients must stop these drugs at least two weeks prior to study entry.	Eligibility	26
+disorder	OGMS:0000045	43-51
+laboratory finding	OGMS:0000018	55-73
+Treatment with a non-approved or investigational drug within 30 days before Day 1 of study treatment.	Eligibility	27
+drug	CHEBI:23888	49-53
+day	UO:0000033	64-67
+day	UO:0000033	76-79
+Platelet count less than 75,000.	Eligibility	28
+platelet count	CMO:0000029	0-14
+In the opinion of the investigator, bleeding diathesis or anticoagulation therapy that would preclude intramuscular injections.	Eligibility	29
+History of hypersensitivity to castor oil.	Eligibility	30
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+castor oil	CHEBI:140618	31-41
+Any evidence of clinically active interstitial lung disease (patients with chronic stable radiographic changes who are asymptomatic need not be excluded) - Patients with recurrent breast cancer.	Eligibility	31
+active	PATO:0002354	27-33
+interstitial lung disease	DOID:3082	34-59
+chronic	HP:0011010	75-82
+stable	HP:0031915	83-89
+excluded	HP:0040285	144-152
+recurrent	HP:0031796	170-179
+breast cancer	DOID:1612	180-193
+Patients with contralateral second primary breast cancers are eligible.	Eligibility	32
+second	UO:0000010	28-34
+breast	UBERON:0000310	43-49
+Outcome Measurement:	Results	0
+Change in Ki-67 Levels From Baseline (Pre) to Day 28 (Post) Biopsy Samples	Results	1
+day	UO:0000033	46-49
+The primary endpoint is change in Ki-67 levels from baseline (pre) to day 28 (post) biopsy samples. Ki-67 levels were log-transformed to achieve approximately normally distributed data. The differences in these log-transformed values between post vs. pre biopsy samples were calculated. This difference represents the log of the ratio of post vs. pre Ki-67 levels in the original scale.	Results	2
+day	UO:0000033	70-73
+distributed	PATO:0001566	168-179
+log	BAO:0002172	118-121
+log	BAO:0002172	211-214
+log	BAO:0002172	318-321
+ratio	UO:0000190	329-334
+Time frame: baseline (pre) to day 28 (post)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	30-33
+Results 1:	Results	4
+Arm/Group Title: ARM A / Arimidex With Faslodex	Results	5
+Arm/Group Description: Arimidex with Faslodex in postmenopausal women	Results	6
+Arimidex: Aromatase inhibitors	Results	7
+Faslodex: Hormone Receptor	Results	8
+hormone	CHEBI:24621	10-17
+receptor	BAO:0000281	18-26
+Overall Number of Participants Analyzed: 22	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: log-transformed Ki67%  -1.3632         (0.8949)	Results	11
+Results 2:	Results	12
+Arm/Group Title: ARM B Arimidex Without Faslodex	Results	13
+Arm/Group Description: Arimidex without Faslodex in postmenopausal women.	Results	14
+Arimidex: Aromatase inhibitors	Results	15
+Overall Number of Participants Analyzed: 20	Results	16
+Mean (Standard Deviation)	Results	17
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: log-transformed Ki67%  -1.6237         (2.1592)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 0/35 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

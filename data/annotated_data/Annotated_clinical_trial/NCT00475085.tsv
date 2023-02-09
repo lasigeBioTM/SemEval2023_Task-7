@@ -1,0 +1,185 @@
+INTERVENTION 1:	Intervention	0
+Arm II	Intervention	1
+Patients receive granisetron hydrochloride IV, dexamethasone IV, and oral placebo once on day 1 and oral prochlorperazine 3 times daily and another oral placebo once daily on days 2 and 3.	Intervention	2
+granisetron hydrochloride	CHEBI:5538	17-42
+dexamethasone	CHEBI:41879	47-60
+day	UO:0000033	90-93
+day	UO:0000033	175-178
+prochlorperazine	CHEBI:8435	105-121
+placebo : Given orally	Intervention	3
+prochlorperazine : Given orally or IV	Intervention	4
+prochlorperazine	CHEBI:8435	0-16
+granisetron hydrochloride : Given orally or IV	Intervention	5
+granisetron hydrochloride	CHEBI:5538	0-25
+dexamethasone : Given orally or IV	Intervention	6
+dexamethasone	CHEBI:41879	0-13
+INTERVENTION 2:	Intervention	7
+Arm III	Intervention	8
+Patients receive palonosetron hydrochloride IV and dexamethasone IV once on day 1, oral aprepitant once daily on days 1-3, and oral dexamethasone once daily and oral placebo twice daily on days 2 and 3.	Intervention	9
+palonosetron hydrochloride	CHEBI:85157	17-43
+dexamethasone	CHEBI:41879	51-64
+dexamethasone	CHEBI:41879	132-145
+day	UO:0000033	76-79
+day	UO:0000033	113-116
+day	UO:0000033	189-192
+aprepitant	CHEBI:499361	88-98
+placebo : Given orally	Intervention	10
+aprepitant : Given orally or IV	Intervention	11
+aprepitant	CHEBI:499361	0-10
+palonosetron hydrochloride : Given orally or IV	Intervention	12
+palonosetron hydrochloride	CHEBI:85157	0-26
+dexamethasone : Given orally or IV	Intervention	13
+dexamethasone	CHEBI:41879	0-13
+Inclusion criteria:	Eligibility	0
+Have a diagnosis of cancer and be chemotherapy naive.	Eligibility	1
+cancer	DOID:162	20-26
+Must be scheduled to receive a chemotherapy treatment containing doxorubicin hydrochloride, epirubicin hydrochloride, cisplatin, carboplatin, or oxaliplatin (any dose or schedule) without concurrent radiotherapy or interferon treatment	Eligibility	2
+doxorubicin hydrochloride	CHEBI:31522	65-90
+hydrochloride	CHEBI:36807	77-90
+hydrochloride	CHEBI:36807	103-116
+cisplatin	CHEBI:27899	118-127
+carboplatin	CHEBI:31355	129-140
+oxaliplatin	CHEBI:31941	145-156
+radiotherapy	OAE:0000235	199-211
+Chemotherapy may be for adjuvant, neoadjuvant, curative or palliative intent.	Eligibility	3
+adjuvant	CHEBI:60809	24-32
+adjuvant	CHEBI:60809	37-45
+Dose-dense regimens (e.g. chemotherapy with doxorubicin or epirubicin given every two weeks)are allowed.	Eligibility	4
+doxorubicin	CHEBI:28748,BAO:0000639	44-55
+For the purposes of this study, Day 1 of chemotherapy will be defined as the day of administration of cisplatin, carboplatin, oxaliplatin, doxorubicin or epirubicin.	Eligibility	5
+day	UO:0000033	32-35
+day	UO:0000033	77-80
+cisplatin	CHEBI:27899	102-111
+carboplatin	CHEBI:31355	113-124
+oxaliplatin	CHEBI:31941	126-137
+doxorubicin	CHEBI:28748,BAO:0000639	139-150
+Regimens with multiple-day doses of doxorubicin, epirubicin, cisplatin, carboplatin, oxaliplatin, dacarbazine, hexamethylmelamine, nitrosoureas, or streptozocin are not allowed. Chemotherapy agents, other than those listed above, may be given orally, intravenously, or by continuous infusion on one or multiple days.	Eligibility	6
+doxorubicin	CHEBI:28748,BAO:0000639	36-47
+cisplatin	CHEBI:27899	61-70
+carboplatin	CHEBI:31355	72-83
+oxaliplatin	CHEBI:31941	85-96
+dacarbazine	CHEBI:4305	98-109
+hexamethylmelamine	CHEBI:24564	111-129
+streptozocin	CHEBI:9288	148-160
+Able to understand English	Eligibility	7
+Exclusion criteria:	Eligibility	8
+No symptomatic brain metastases	Eligibility	9
+brain	UBERON:0000955	15-20
+No concurrent or impending bowel obstruction	Eligibility	10
+Regimens containing liposomal doxorubicin or cisplatin are not allowed.	Eligibility	11
+doxorubicin	CHEBI:28748,BAO:0000639	30-41
+cisplatin	CHEBI:27899	45-54
+No concurrent pimozide, terfenadine, astemizole, or cisapride	Eligibility	12
+pimozide	CHEBI:8212	14-22
+terfenadine	CHEBI:9453	24-35
+astemizole	CHEBI:2896	37-47
+cisapride	CHEBI:3720	52-61
+No concurrent doxorubicin hydrochloride liposome or cisplatin	Eligibility	13
+doxorubicin hydrochloride	CHEBI:31522	14-39
+cisplatin	CHEBI:27899	52-61
+No concurrent multiple-day doses of dacarbazine, altretamine, nitrosoureas, streptozocin, cisplatin, carboplatin, or oxaliplatin	Eligibility	14
+dacarbazine	CHEBI:4305	36-47
+streptozocin	CHEBI:9288	76-88
+cisplatin	CHEBI:27899	90-99
+carboplatin	CHEBI:31355	101-112
+oxaliplatin	CHEBI:31941	117-128
+Outcome Measurement:	Results	0
+Home Record: Severity of Delayed Nausea	Results	1
+home	CHEBI:75830	0-4
+severity	HP:0012824	13-21
+nausea	HP:0002018	33-39
+1=not at all nauseated to 7=extremely nauseated, therefore higher values are worse	Results	2
+Time frame: average of day 1 afternoon, evening and night, and all of days 2 and 3	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	23-26
+day	UO:0000033	70-73
+Results 1:	Results	4
+Arm/Group Title: Arm II	Results	5
+Arm/Group Description: Patients receive granisetron hydrochloride IV, dexamethasone IV, and oral placebo once on day 1 and oral prochlorperazine 3 times daily and another oral placebo once daily on days 2 and 3.	Results	6
+granisetron hydrochloride	CHEBI:5538	40-65
+dexamethasone	CHEBI:41879	70-83
+day	UO:0000033	113-116
+day	UO:0000033	198-201
+prochlorperazine	CHEBI:8435	128-144
+placebo : Given orally	Results	7
+prochlorperazine : Given orally or IV	Results	8
+prochlorperazine	CHEBI:8435	0-16
+granisetron hydrochloride : Given orally or IV	Results	9
+granisetron hydrochloride	CHEBI:5538	0-25
+dexamethasone : Given orally or IV	Results	10
+dexamethasone	CHEBI:41879	0-13
+Overall Number of Participants Analyzed: 234	Results	11
+Mean (Standard Deviation)	Results	12
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  1.88         (1.27)	Results	13
+Results 2:	Results	14
+Arm/Group Title: Arm III	Results	15
+Arm/Group Description: Patients receive palonosetron hydrochloride IV and dexamethasone IV once on day 1, oral aprepitant once daily on days 1-3, and oral dexamethasone once daily and oral placebo twice daily on days 2 and 3.	Results	16
+palonosetron hydrochloride	CHEBI:85157	40-66
+dexamethasone	CHEBI:41879	74-87
+dexamethasone	CHEBI:41879	155-168
+day	UO:0000033	99-102
+day	UO:0000033	136-139
+day	UO:0000033	212-215
+aprepitant	CHEBI:499361	111-121
+placebo : Given orally	Results	17
+aprepitant : Given orally or IV	Results	18
+aprepitant	CHEBI:499361	0-10
+palonosetron hydrochloride : Given orally or IV	Results	19
+palonosetron hydrochloride	CHEBI:85157	0-26
+dexamethasone : Given orally or IV	Results	20
+dexamethasone	CHEBI:41879	0-13
+Overall Number of Participants Analyzed: 241	Results	21
+Mean (Standard Deviation)	Results	22
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  1.65         (1.15)	Results	23
+Adverse Events 1:	Adverse Events	0
+Total: 6	Adverse Events	1
+Lymphoma *1/254 (0.39%)	Adverse Events	2
+lymphoma	HP:0002665,DOID:0060058	0-8
+Neutropenia *0/254 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia *0/254 (0.00%)	Adverse Events	4
+pancytopenia	HP:0001876,DOID:12450	0-12
+Trombocytopenia *0/254 (0.00%)	Adverse Events	5
+Gastrointestinal *1/254 (0.39%)	Adverse Events	6
+GI Bleed *0/254 (0.00%)	Adverse Events	7
+Nausea/Vomiting *1/254 (0.39%)	Adverse Events	8
+Chest Pain *0/254 (0.00%)	Adverse Events	9
+chest pain	HP:0100749	0-10
+Dehydration *0/254 (0.00%)	Adverse Events	10
+dehydration	HP:0001944	0-11
+Edema *0/254 (0.00%)	Adverse Events	11
+edema	HP:0000969	0-5
+Fatigue *0/254 (0.00%)	Adverse Events	12
+fatigue	HP:0012378	0-7
+Headache *1/254 (0.39%)	Adverse Events	13
+headache	HP:0002315	0-8
+Migraine *0/254 (0.00%)	Adverse Events	14
+migraine	HP:0002076,DOID:6364	0-8
+Adverse Events 2:	Adverse Events	15
+Total: 17	Adverse Events	16
+Lymphoma *0/260 (0.00%)	Adverse Events	17
+lymphoma	HP:0002665,DOID:0060058	0-8
+Neutropenia *3/260 (1.15%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia *1/260 (0.38%)	Adverse Events	19
+pancytopenia	HP:0001876,DOID:12450	0-12
+Trombocytopenia *0/260 (0.00%)	Adverse Events	20
+Gastrointestinal *3/260 (1.15%)	Adverse Events	21
+GI Bleed *0/260 (0.00%)	Adverse Events	22
+Nausea/Vomiting *1/260 (0.38%)	Adverse Events	23
+Chest Pain *1/260 (0.38%)	Adverse Events	24
+chest pain	HP:0100749	0-10
+Dehydration *1/260 (0.38%)	Adverse Events	25
+dehydration	HP:0001944	0-11
+Edema *1/260 (0.38%)	Adverse Events	26
+edema	HP:0000969	0-5
+Fatigue *1/260 (0.38%)	Adverse Events	27
+fatigue	HP:0012378	0-7
+Headache *0/260 (0.00%)	Adverse Events	28
+headache	HP:0002315	0-8
+Migraine *0/260 (0.00%)	Adverse Events	29
+migraine	HP:0002076,DOID:6364	0-8

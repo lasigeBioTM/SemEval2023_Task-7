@@ -1,0 +1,334 @@
+INTERVENTION 1:	Intervention	0
+Arm I - PANVAC + Docetaxel	Intervention	1
+Patients receive vaccinia-carcinoembryonic antigen (CEA)- mucin-1 (MUC-1)- triad of costimulatory molecules (TRICOM) vaccine subcutaneously (SC) once and sargramostim, or granulocyte macrophage colony stimulating factor (GM-CSF) SC once daily for 4 days in week -2. Patients also receive fowlpox-CEA-MUC-1-TRICOM vaccine SC once and GM-CSF SC once daily for 4 days in weeks 1, 5, and 9. Patients also receive docetaxel intravenous (IV) over 30 minutes once weekly in weeks 1-3, 5-7, and 9-11. After week 12, patients with no disease progression continue with docetaxel once weekly for 3 weeks followed by 1 week of rest and fowlpox-CEA-MUC-1-TRICOM vaccine plus GM-CSF every 4 weeks until disease progression.	Intervention	2
+antigen	CHEBI:59132	43-50
+vaccine	VO:0000001	117-124
+vaccine	VO:0000001	313-320
+vaccine	VO:0000001	649-656
+week	UO:0000034	257-261
+week	UO:0000034	368-372
+week	UO:0000034	457-461
+week	UO:0000034	467-471
+week	UO:0000034	499-503
+week	UO:0000034	574-578
+week	UO:0000034	587-591
+week	UO:0000034	607-611
+week	UO:0000034	677-681
+disease	DOID:4,OGMS:0000031	525-532
+disease	DOID:4,OGMS:0000031	689-696
+PANVAC-V : given subcutaneously	Intervention	3
+Sargramostim : given subcutaneously (NCI subjects only)	Intervention	4
+PANVAC-F : given subcutaneously	Intervention	5
+Docetaxel : given IV	Intervention	6
+INTERVENTION 2:	Intervention	7
+Arm II - Docetaxel Alone	Intervention	8
+Patients receive docetaxel as in arm I. After week 12, patients with disease progression discontinue docetaxel and receive vaccinia-carcinoembryonic antigen (CEA)- mucin (MUC-1)-triad of costimulatory molecules (TRICOM) vaccine, fowlpox-CEA-MUC-1-TRICOM vaccine, and sargramostim, or granulocyte macrophage colony stimulating factor(GM-CSF) as in arm I until further disease progression. Patients with no disease progression after week 12 continue with docetaxel as in arm I until disease progression.	Intervention	9
+week	UO:0000034	46-50
+week	UO:0000034	431-435
+disease	DOID:4,OGMS:0000031	69-76
+disease	DOID:4,OGMS:0000031	367-374
+disease	DOID:4,OGMS:0000031	405-412
+disease	DOID:4,OGMS:0000031	481-488
+antigen	CHEBI:59132	149-156
+vaccine	VO:0000001	220-227
+vaccine	VO:0000001	254-261
+Docetaxel : given intravenous (IV)	Intervention	10
+INCLUSION CRITERIA:	Eligibility	0
+Metastatic Breast Cancer (either male or female) with evidence of metastatic disease (must have radiographic evidence of measurable disease) on computed tomography (CT) scan or X-ray, or evidence of evaluable disease on bone scan that is consistent with metastasis and a life expectancy of at least 4 months. Patients may have received unlimited prior hormonal therapy and chemotherapy.	Eligibility	1
+breast cancer	DOID:1612	11-24
+male	CHEBI:30780,PATO:0000384	33-37
+male	CHEBI:30780,PATO:0000384	43-47
+female	PATO:0000383	41-47
+disease	DOID:4,OGMS:0000031	77-84
+disease	DOID:4,OGMS:0000031	132-139
+disease	DOID:4,OGMS:0000031	209-216
+tomography	BAO:0002525	153-163
+ct	BAO:0002125	165-167
+ct	BAO:0002125	280-282
+Histologically confirmed adenocarcinoma of the breast cancer confirmed in the Pathology Clinical Center at National Cancer Institute (NCI), (or National Naval Medical Center (NNMC)) or MD Anderson Pathology Department prior to starting this study. Note: However, if no pathologic specimen is available, patients may enroll with a clinical course consistent with breast cancer and a pathological documentation of the disease.	Eligibility	2
+adenocarcinoma	DOID:299	25-39
+breast cancer	DOID:1612	47-60
+breast cancer	DOID:1612	362-375
+cancer	DOID:162	54-60
+cancer	DOID:162	116-122
+cancer	DOID:162	369-375
+clinical course	HP:0031797	330-345
+disease	DOID:4,OGMS:0000031	416-423
+18 years of age or greater.	Eligibility	3
+age	PATO:0000011	12-15
+May have received docetaxel in the adjuvant setting at least 12 months prior to study entry.	Eligibility	4
+adjuvant	CHEBI:60809	35-43
+Able to understand and give informed consent.	Eligibility	5
+Able to avoid close household contact (close household contacts are those who share housing or have close physical contact) for at least two weeks after recombinant vaccinia vaccination with persons with active or a history of eczema or other eczematoid skin disorders; those with other acute, chronic or exfoliative skin conditions (e.g., atopic dermatitis, burns, impetigo, varicella zoster, severe acne, or other open rashes or wounds) until condition resolves; pregnant or nursing women; children 3 years of age and under; and immunodeficient or immunosuppressed persons (by disease or therapy), including human immunodeficiency virus (HIV) infection. We have vaccinated over 700 cancer patients and have reported no cases of either self inoculation or person to person transmission of the virus.	Eligibility	6
+vaccinia	DOID:3298	165-173
+vaccination	VO:0000002	174-185
+active	PATO:0002354	204-210
+history	BFO:0000182	216-223
+eczema	HP:0000964,DOID:2723	227-233
+eczema	HP:0000964,DOID:2723	243-249
+acute	HP:0011009,PATO:0000389	287-292
+chronic	HP:0011010	294-301
+atopic dermatitis	HP:0001047,DOID:3310	340-357
+impetigo	DOID:8504	366-374
+severe	HP:0012828	394-400
+acne	HP:0001061,DOID:6543	401-405
+condition	PDRO:0000129	322-331
+condition	PDRO:0000129	445-454
+age	PATO:0000011	512-515
+disease	DOID:4,OGMS:0000031	579-586
+immunodeficiency	HP:0002721	616-632
+virus	BAO:0000232	633-638
+virus	BAO:0000232	794-799
+cancer	DOID:162	684-690
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 - 1.	Eligibility	7
+group	CHEBI:24433	29-34
+Serum creatinine less than 1.5 times upper limits of normal (ULN) OR creatinine clearance on a 24 hour urine collection of greater than or equal to 60 mL/min, standard liver function tests (LFT) limitations for patients receiving docetaxel therapy include bilirubin within ULN and serum glutamic oxaloacetic transaminase (SGOT)/serum glutamic pyruvic transaminase (SGPT) less than 1.5 times the ULN. If transaminases are greater than 1.5 times the ULN up to 2 times the ULN (as currently indicated), then alk phos should be less than 2.5 times the ULN. (Patients with renal abnormalities should be evaluated for creatinine clearance (CrCl) and interstitial abnormalities. A Cr Cl of greater than or equal to 60ml/min measured or calculated and proteinuria less than 1000mg per 24 hours are eligible unless explained by non-renal causes.)	Eligibility	8
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	69-79
+creatinine	CHEBI:16737	612-622
+creatinine clearance	CMO:0000765	69-89
+creatinine clearance	CMO:0000765	612-632
+hour	UO:0000032	98-102
+hour	UO:0000032	780-784
+urine	UBERON:0001088	103-108
+liver	UBERON:0002107	168-173
+function	BAO:0003117,BFO:0000034	174-182
+cl	BAO:0002759	80-82
+cl	BAO:0002759	250-252
+cl	BAO:0002759	623-625
+cl	BAO:0002759	636-638
+cl	BAO:0002759	677-679
+proteinuria	HP:0000093,DOID:576	744-755
+Recovered completely from any grade 3 or 4 reversible hematologic and non hematologic toxicity associated with recent therapy. Typically this is 3-4 weeks for patients who most recently received cytotoxic therapy. Patients previously treated with mitomycin c or carboplatin will require a minimum of 6 weeks.	Eligibility	9
+mitomycin c	CHEBI:27504	247-258
+carboplatin	CHEBI:31355	262-273
+Hematological eligibility parameters (within 16 days of starting therapy):	Eligibility	10
+Granulocyte count greater than or equal to1,500/mm^3	Eligibility	11
+Platelet count greater than or equal to 100,000/mm^3	Eligibility	12
+platelet count	CMO:0000029	0-14
+Hemoglobin (Hgb) greater than or equal to 8 Gm/dL	Eligibility	13
+hemoglobin	CHEBI:35143	0-10
+Must agree to use effective birth control or abstinence during and for a period of 4 months after the last vaccination therapy.	Eligibility	14
+vaccination	VO:0000002	107-118
+Patients whose tumors are estrogen receptor (ER) positive should have failed primary hormone therapy unless clinically indicated, i.e. in patients with visceral disease or symptomatic bone disease where up front chemotherapy is warranted. Patients who progressed or recurred following Trastuzumab (Herceptin) therapy if a patient is fluorescence in situ hybridization (FISH) positive or immunohistochemistry (IHC) 3+ positive for human epidermal growth factor receptor 2 (Her-2 neu). Those patients who have progressed on trastuzumab may continue to receive the drug by their referring physician. However, if trastuzumab has been discontinued at the time of enrolling on study, it cannot be resumed while a patient remains on study.	Eligibility	15
+estrogen	CHEBI:50114,BAO:0000760	26-34
+receptor	BAO:0000281	35-43
+receptor	BAO:0000281	460-468
+hormone	CHEBI:24621	85-92
+disease	DOID:4,OGMS:0000031	161-168
+disease	DOID:4,OGMS:0000031	189-196
+bone disease	DOID:0080001	184-196
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	138-145
+patient	HADO:0000008,OAE:0001817	239-246
+patient	HADO:0000008,OAE:0001817	322-329
+patient	HADO:0000008,OAE:0001817	490-497
+patient	HADO:0000008,OAE:0001817	707-714
+immunohistochemistry	BAO:0000415	387-407
+growth factor	BAO:0002024	446-459
+drug	CHEBI:23888	562-566
+time	PATO:0000165	650-654
+Patients randomized to docetaxel alone (arm B) may at time of progression go on to receive vaccine alone if their ECOG performance status remains 0-1, and they do not have any uncontrolled pain or organ dysfunction that would require another intervention such as radiation or chemotherapy.	Eligibility	16
+time	PATO:0000165	54-58
+vaccine	VO:0000001	91-98
+pain	HP:0012531	189-193
+organ	UBERON:0000062	197-202
+Furthermore, patients initially randomized to arm B that would like to cross over and continue vaccine therapy must meet on-study eligibility and exclusion criteria with the exception of liver transaminase requirement. Patients with liver transaminase levels within Grade 1 by Common Terminology Criteria for Adverse Events (CTCAE) v4.0 (up to 3 x ULN) will be allowed to crossover to vaccine.	Eligibility	17
+vaccine	VO:0000001	95-102
+vaccine	VO:0000001	385-392
+liver	UBERON:0002107	187-192
+liver	UBERON:0002107	233-238
+x	LABO:0000148	147-148
+x	LABO:0000148	175-176
+x	LABO:0000148	346-347
+Patients should appear clinically stable (in the opinion of the principle investigator) to complete the full 3 month course of vaccination with an anticipated survival of 6 months or longer.	Eligibility	18
+stable	HP:0031915	34-40
+month	UO:0000035	111-116
+month	UO:0000035	173-178
+vaccination	VO:0000002	127-138
+No other active malignancies within the past 12 months (with the exception of non-melanoma skin cancers or carcinoma in situ of the bladder) or life threatening illnesses.	Eligibility	19
+active	PATO:0002354	9-15
+carcinoma	HP:0030731,DOID:305	107-116
+Patients with cardiovascular symptoms should be fully evaluated for signs and symptoms of cardiovascular disease and other standard evaluations including electrocardiogram (EKG), chest X-ray, cardiac enzymes, and echocardiogram as clinically indicated.	Eligibility	20
+disease	DOID:4,OGMS:0000031	105-112
+chest	UBERON:0001443	179-184
+EXCLUSION CRITERIA:	Eligibility	21
+Patients should have no evidence of being immunocompromised as listed below.	Eligibility	22
+Human immunodeficiency virus positivity due to the potential for decreased tolerance and risk for severe side effects	Eligibility	23
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+severe	HP:0012828	98-104
+Active autoimmune diseases requiring treatment or a history of autoimmune disease that might be stimulated by vaccine treatment. This requirement is due to the potential risks of exacerbating autoimmunity Patients with endocrine disease that is controlled by replacement therapy including thyroid disease and adrenal disease and vitiligo may be enrolled	Eligibility	24
+active	PATO:0002354	0-6
+history	BFO:0000182	52-59
+autoimmune disease	DOID:417	7-25
+autoimmune disease	DOID:417	63-81
+vaccine	VO:0000001	110-117
+autoimmunity	HP:0002960	192-204
+disease	DOID:4,OGMS:0000031	18-25
+disease	DOID:4,OGMS:0000031	74-81
+disease	DOID:4,OGMS:0000031	229-236
+disease	DOID:4,OGMS:0000031	297-304
+disease	DOID:4,OGMS:0000031	317-324
+vitiligo	HP:0001045,DOID:12306	329-337
+Concurrent use of systemic steroids, except for local (topical, nasal, or inhaled) steroid use	Eligibility	25
+steroid	CHEBI:35341	27-34
+steroid	CHEBI:35341	83-90
+History of allergy or untoward reaction to prior vaccination with vaccinia virus.	Eligibility	26
+history	BFO:0000182	0-7
+allergy	HP:0012393	11-18
+vaccination	VO:0000002	49-60
+vaccinia virus	NCBITaxon:10245	66-80
+Pregnant or breast-feeding women	Eligibility	27
+Altered immune function, including immunodeficiency or history of immunodeficiency; eczema; history of eczema, or other eczematoid skin disorders; or those with acute, chronic or exfoliative skin conditions (e.g. atopic dermatitis, burns, impetigo, varicella zoster, severe acne, or other open rashes or wounds)	Eligibility	28
+function	BAO:0003117,BFO:0000034	15-23
+immunodeficiency	HP:0002721	35-51
+immunodeficiency	HP:0002721	66-82
+history	BFO:0000182	55-62
+history	BFO:0000182	92-99
+eczema	HP:0000964,DOID:2723	84-90
+eczema	HP:0000964,DOID:2723	103-109
+eczema	HP:0000964,DOID:2723	120-126
+acute	HP:0011009,PATO:0000389	161-166
+chronic	HP:0011010	168-175
+atopic dermatitis	HP:0001047,DOID:3310	213-230
+impetigo	DOID:8504	239-247
+severe	HP:0012828	267-273
+acne	HP:0001061,DOID:6543	274-278
+Serious intercurrent medical illness which would interfere with the ability of the patient to carry out the treatment program, including, but not limited to, inflammatory bowel disease, Crohn's disease, ulcerative colitis, or active diverticulitis	Eligibility	29
+patient	HADO:0000008,OAE:0001817	83-90
+inflammatory bowel disease	DOID:0050589	158-184
+disease	DOID:4,OGMS:0000031	177-184
+disease	DOID:4,OGMS:0000031	194-201
+ulcerative colitis	HP:0100279,DOID:8577	203-221
+active	PATO:0002354	226-232
+diverticulitis	DOID:7475	233-247
+Clinically active brain metastasis, or a history of seizures that have been active within one year	Eligibility	30
+active	PATO:0002354	11-17
+active	PATO:0002354	76-82
+brain	UBERON:0000955	18-23
+history	BFO:0000182	41-48
+year	UO:0000036	94-98
+Medical conditions, which, in the opinion of the investigators would jeopardize the patient or the integrity of the data obtained	Eligibility	31
+patient	HADO:0000008,OAE:0001817	84-91
+Prior docetaxel chemotherapy for metastatic disease	Eligibility	32
+disease	DOID:4,OGMS:0000031	44-51
+Serious hypersensitivity reaction to egg products	Eligibility	33
+hypersensitivity	GO:0002524,DOID:1205	8-24
+Clinically significant cardiomyopathy requiring treatment	Eligibility	34
+cardiomyopathy	HP:0001638,DOID:0050700	23-37
+Chronic hepatitis infection, including B and C, because of potential immune impairment	Eligibility	35
+chronic hepatitis	HP:0200123,DOID:2237	0-17
+Although topical steroids are allowed, steroid eye-drops are contraindicated	Eligibility	36
+steroid	CHEBI:35341	17-24
+steroid	CHEBI:35341	39-46
+Patients who have received prior PANVAC vaccine therapy	Eligibility	37
+vaccine	VO:0000001	40-47
+Patients with a prior history of allergy to eggs or egg products should not receive the vaccine	Eligibility	38
+history	BFO:0000182	22-29
+allergy	HP:0012393	33-40
+vaccine	VO:0000001	88-95
+Patients with cardiac disease that have fatigue, palpitation, dyspnea or angina with ordinary physical activity (New York Heart Association class 2 or greater) are not eligible.	Eligibility	39
+disease	DOID:4,OGMS:0000031	22-29
+fatigue	HP:0012378	40-47
+dyspnea	HP:0002094	62-69
+heart	UBERON:0000948	122-127
+Prior splenectomy.	Eligibility	40
+Cardiac complications, including recent myocardial infarction or cerebrovascular accident within one year, and/or unstable or uncontrolled angina.	Eligibility	41
+myocardial infarction	HP:0001658,DOID:5844	40-61
+year	UO:0000036	101-105
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS)	Results	1
+Time between the first day of treatment and disease progression. Progression is assessed by the Response Evaluation Criteria in Solid Tumors (RECIST) criteria. Progressive disease is a minimum of 20% increase in the sum of the longest diameter of target lesions, taking as reference the smallest sum of the longest diameter recorded since the treatment started or the appearance of one or more new measurable lesions.	Results	2
+time	PATO:0000165	0-4
+day	UO:0000033	23-26
+disease	DOID:4,OGMS:0000031	44-51
+disease	DOID:4,OGMS:0000031	172-179
+progressive	HP:0003676	160-171
+increase	BAO:0001251	200-208
+diameter	PATO:0001334	235-243
+diameter	PATO:0001334	315-323
+target	BAO:0003064	247-253
+Time frame: 19.7 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I - PANVAC + Docetaxel	Results	5
+Arm/Group Description: Patients receive vaccinia-carcinoembryonic antigen (CEA)- mucin-1 (MUC-1)- triad of costimulatory molecules (TRICOM) vaccine subcutaneously (SC) once and sargramostim, or granulocyte macrophage colony stimulating factor (GM-CSF) SC once daily for 4 days in week -2. Patients also receive fowlpox-CEA-MUC-1-TRICOM vaccine SC once and GM-CSF SC once daily for 4 days in weeks 1, 5, and 9. Patients also receive docetaxel intravenous (IV) over 30 minutes once weekly in weeks 1-3, 5-7, and 9-11. After week 12, patients with no disease progression continue with docetaxel once weekly for 3 weeks followed by 1 week of rest and fowlpox-CEA-MUC-1-TRICOM vaccine plus GM-CSF every 4 weeks until disease progression.	Results	6
+antigen	CHEBI:59132	66-73
+vaccine	VO:0000001	140-147
+vaccine	VO:0000001	336-343
+vaccine	VO:0000001	672-679
+week	UO:0000034	280-284
+week	UO:0000034	391-395
+week	UO:0000034	480-484
+week	UO:0000034	490-494
+week	UO:0000034	522-526
+week	UO:0000034	597-601
+week	UO:0000034	610-614
+week	UO:0000034	630-634
+week	UO:0000034	700-704
+disease	DOID:4,OGMS:0000031	548-555
+disease	DOID:4,OGMS:0000031	712-719
+PANVAC-V : given subcutaneously	Results	7
+Sargramostim : given subcutaneously (NCI subjects only)	Results	8
+PANVAC-F : given subcutaneously	Results	9
+Docetaxel : given IV	Results	10
+Overall Number of Participants Analyzed: 25	Results	11
+Median (95% Confidence Interval)	Results	12
+median	BAO:0002174	0-6
+Unit of Measure: Months  6.6        (3.7 to 9.4)	Results	13
+Results 2:	Results	14
+Arm/Group Title: Arm II - Docetaxel Alone	Results	15
+Arm/Group Description: Patients receive docetaxel as in arm I. After week 12, patients with disease progression discontinue docetaxel and receive vaccinia-carcinoembryonic antigen (CEA)- mucin (MUC-1)-triad of costimulatory molecules (TRICOM) vaccine, fowlpox-CEA-MUC-1-TRICOM vaccine, and sargramostim, or granulocyte macrophage colony stimulating factor(GM-CSF) as in arm I until further disease progression. Patients with no disease progression after week 12 continue with docetaxel as in arm I until disease progression.	Results	16
+week	UO:0000034	69-73
+week	UO:0000034	454-458
+disease	DOID:4,OGMS:0000031	92-99
+disease	DOID:4,OGMS:0000031	390-397
+disease	DOID:4,OGMS:0000031	428-435
+disease	DOID:4,OGMS:0000031	504-511
+antigen	CHEBI:59132	172-179
+vaccine	VO:0000001	243-250
+vaccine	VO:0000001	277-284
+Docetaxel : given intravenous (IV)	Results	17
+Overall Number of Participants Analyzed: 23	Results	18
+Median (95% Confidence Interval)	Results	19
+median	BAO:0002174	0-6
+Unit of Measure: Months  3.8        (2.6 to 8.4)	Results	20
+Adverse Events 1:	Adverse Events	0
+Total: 3/25 (12.00%)	Adverse Events	1
+Anemia 0/25 (0.00%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Sinus tachycardia 0/25 (0.00%)	Adverse Events	3
+sinus tachycardia	HP:0011703	0-17
+Pericardial effusion 1/25 (4.00%)	Adverse Events	4
+pericardial effusion	HP:0001698,DOID:118	0-20
+Gastrointestinal disorders - Other, specify -stomatitis) 0/25 (0.00%)	Adverse Events	5
+Vomiting 1/25 (4.00%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Fever 0/25 (0.00%)	Adverse Events	7
+fever	HP:0001945	0-5
+Injection site reaction 1/25 (4.00%)	Adverse Events	8
+injection site	VO:0000300	0-14
+Catheter related infection 0/25 (0.00%)	Adverse Events	9
+Activated partial thromboplastin time prolonged 0/25 (0.00%)	Adverse Events	10
+activated partial thromboplastin time	CMO:0000210	0-37
+prolonged	HP:0025297	38-47
+Adverse Events 2:	Adverse Events	11
+Total: 2/23 (8.70%)	Adverse Events	12
+Anemia 1/23 (4.35%)	Adverse Events	13
+anemia	HP:0001903,DOID:2355	0-6
+Sinus tachycardia 1/23 (4.35%)	Adverse Events	14
+sinus tachycardia	HP:0011703	0-17
+Pericardial effusion 0/23 (0.00%)	Adverse Events	15
+pericardial effusion	HP:0001698,DOID:118	0-20
+Gastrointestinal disorders - Other, specify -stomatitis) 1/23 (4.35%)	Adverse Events	16
+Vomiting 0/23 (0.00%)	Adverse Events	17
+vomiting	HP:0002013	0-8
+Fever 1/23 (4.35%)	Adverse Events	18
+fever	HP:0001945	0-5
+Injection site reaction 1/23 (4.35%)	Adverse Events	19
+injection site	VO:0000300	0-14
+Catheter related infection 1/23 (4.35%)	Adverse Events	20
+Activated partial thromboplastin time prolonged 1/23 (4.35%)	Adverse Events	21
+activated partial thromboplastin time	CMO:0000210	0-37
+prolonged	HP:0025297	38-47

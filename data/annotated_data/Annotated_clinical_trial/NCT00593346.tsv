@@ -1,0 +1,98 @@
+INTERVENTION 1:	Intervention	0
+Accelerated Partial Breast Brachytherapy	Intervention	1
+breast	UBERON:0000310	20-26
+Each patient will receive accelerated partial breast brachytherapy with multiple plane implant.	Intervention	2
+patient	HADO:0000008,OAE:0001817	5-12
+breast	UBERON:0000310	46-52
+Patients will receive 3400 cGy delivered in 10 twice-daily fractions. Treatment is to be given over 5-7 days with a minimum of 6 hours separation between fractions.	Intervention	3
+Inclusion Criteria:	Eligibility	0
+AJCC stage 0, I, or II (TisN0, T1N0, T2N0 = 3 cm) histologically confirmed carcinoma of the breast, treated with tylectomy. Axillary sampling is required only for cases of invasive cancers. Tumor size is determined by the pathologist. Clinical size may be used if the pathologic size is indeterminate.	Eligibility	1
+carcinoma	HP:0030731,DOID:305	75-84
+breast	UBERON:0000310	92-98
+size	PATO:0000117	196-200
+size	PATO:0000117	244-248
+size	PATO:0000117	279-283
+Signed study-specific informed consent for participation in the study.	Eligibility	2
+Negative, or close but negative, inked histologic margins of tylectomy or reexcision specimen to be confirmed prior to placing the brachytherapy catheters. Margins generally are positive if there is invasive or noninvasive tumor at the inked resection margin, close but negative if the tumor is within 2 mm of the inked margin and negative if the tumor is at least 2 mm away from the inked edge.	Eligibility	3
+Negative post-tylectomy or post-reexcision mammography if cancer presented with malignancy-associated microcalcifications; no remaining suspicious microcalcifications in the breast before brachytherapy.	Eligibility	4
+cancer	DOID:162	58-64
+breast	UBERON:0000310	174-180
+For patients with invasive cancer, no positive axillary lymph nodes with at least 6 axillary lymph nodes sampled or a negative sentinel node.	Eligibility	5
+cancer	DOID:162	27-33
+lymph	UBERON:0002391	56-61
+lymph	UBERON:0002391	93-98
+Invasive ductal, lobular, medullary, papillary, colloid (mucinous),or tubular histologies. Noninvasive ductal carcinoma in situ.	Eligibility	6
+ductal carcinoma in situ	HP:0030075,DOID:0060074	103-127
+Chemotherapy or hormonal therapy planned for = 2 weeks after removal of brachytherapy catheters is permitted. Hormonal therapy is allowed during brachytherapy at treating radiation oncologist's decision.	Eligibility	7
+Negative pregnancy test for premenopausal patients with an intact uterus	Eligibility	8
+uterus	UBERON:0000995	66-72
+Exclusion Criteria:	Eligibility	9
+Patients with distant metastases.	Eligibility	10
+Patients with in-situ lobular carcinoma or nonepithelial breast malignancies such as sarcoma or lymphoma.	Eligibility	11
+carcinoma	HP:0030731,DOID:305	30-39
+breast	UBERON:0000310	57-63
+sarcoma	HP:0100242,DOID:1115	85-92
+lymphoma	HP:0002665,DOID:0060058	96-104
+Patients with proven multicentric carcinoma (tumors in different quadrants of the breast, or tumors separated by at least 4 cm) with other clinically or radiographically suspicious areas in the ipsilateral breast unless confirmed to be negative for malignancy by biopsy.	Eligibility	12
+carcinoma	HP:0030731,DOID:305	34-43
+breast	UBERON:0000310	82-88
+breast	UBERON:0000310	206-212
+Patients who are pregnant or lactating.	Eligibility	13
+Patients with histologically confirmed positive axillary nodes in the ipsilateral axilla. Palpable or radiographically suspicious contralateral axillary, supraclavicular, infraclavicular, or internal mammary nodes, unless there is histologic confirmation that these nodes are negative for tumor.	Eligibility	14
+Prior non-hormonal therapy for the present breast cancer, including radiation therapy or chemotherapy.	Eligibility	15
+present	PATO:0000467	35-42
+breast cancer	DOID:1612	43-56
+Patients with systemic lupus erythematosis, scleroderma, or dermatomyositis with a CPK level above normal or with an active skin rash.	Eligibility	16
+scleroderma	HP:0100324,DOID:419,DOID:418	44-55
+dermatomyositis	DOID:10223	60-75
+active	PATO:0002354	117-123
+skin rash	HP:0000988	124-133
+Patients with coexisting medical conditions in whom life expectancy is < 2 years.	Eligibility	17
+Patients with psychiatric or addictive disorders that would preclude obtaining informed consent or completing the full series of high dose rate brachytherapy treatments on an outpatient basis.	Eligibility	18
+rate	BAO:0080019	139-143
+Patients with Paget's disease of the nipple.	Eligibility	19
+disease	DOID:4,OGMS:0000031	22-29
+Patients with skin involvement, regardless of tumor size.	Eligibility	20
+size	PATO:0000117	52-56
+Patients with a breast unsatisfactory for brachytherapy. For example, if there is little breast tissue remaining between the skin and pectoralis muscle after surgery, placement of catheters is technically problematic.	Eligibility	21
+breast	UBERON:0000310	16-22
+breast	UBERON:0000310	89-95
+tissue	UBERON:0000479	96-102
+surgery	OAE:0000067	158-165
+Patients with tylectomies so extensive that the cosmetic result is fair or poor prior to brachytherapy.	Eligibility	22
+cosmetic	CHEBI:64857	48-56
+result	BAO:0000179	57-63
+Surgical margins which cannot be microscopically assessed or are positive at pathological evaluation.	Eligibility	23
+Any previously treated contralateral breast carcinoma or synchronous bilateral breast carcinoma.	Eligibility	24
+breast carcinoma	HP:0003002,DOID:3459	37-53
+breast carcinoma	HP:0003002,DOID:3459	79-95
+synchronous bilateral breast carcinoma	DOID:6742	57-95
+Other malignancy, except non-melanoma skin cancer,  5 years prior to participation in this study; the disease free interval from any prior carcinoma must be continuous.	Eligibility	25
+skin cancer	DOID:4159	38-49
+disease	DOID:4,OGMS:0000031	102-109
+carcinoma	HP:0030731,DOID:305	139-148
+Time between final definitive breast procedure to radioactive source loading of the brachytherapy catheters is greater than 8 weeks.	Eligibility	26
+time	PATO:0000165	0-4
+breast	UBERON:0000310	30-36
+Patients with diffuse (> 1 quadrant or >5 cm in diameter) suspicious microcalcifications.	Eligibility	27
+diffuse	HP:0020034	14-21
+diameter	PATO:0001334	48-56
+Patients with suspicious microcalcifications remaining on the post-tylectomy mammogram	Eligibility	28
+Outcome Measurement:	Results	0
+Local Control Using Ipsilateral Breast Tumor Recurrence Rates	Results	1
+breast	UBERON:0000310	32-38
+[Not Specified]	Results	2
+Time frame: 2 years after treatment completion	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Accelerated Partial Breast Brachytherapy	Results	5
+breast	UBERON:0000310	37-43
+Arm/Group Description: Each patient will receive accelerated partial breast brachytherapy with multiple plane implant.	Results	6
+patient	HADO:0000008,OAE:0001817	28-35
+breast	UBERON:0000310	69-75
+Patients will receive 3400 cGy delivered in 10 twice-daily fractions. Treatment is to be given over 5-7 days with a minimum of 6 hours separation between fractions.	Results	7
+Overall Number of Participants Analyzed: 151	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  .7	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/151 (0.00%)	Adverse Events	1

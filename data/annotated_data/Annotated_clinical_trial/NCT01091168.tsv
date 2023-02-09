@@ -1,0 +1,128 @@
+INTERVENTION 1:	Intervention	0
+Vinflunine	Intervention	1
+vinflunine	CHEBI:90241	0-10
+Patients randomised in the test arm (arm A) received VFL at the dose of 280 mg/m² on day 1 of each cycle every 3 weeks, over a 20-minute intravenous (IV) infusion. Cycles were repeated every 3 weeks.	Intervention	2
+day	UO:0000033	85-88
+vinflunine: 280 mg/m2 on day 1 of each cycle every 3 weeks	Intervention	3
+vinflunine	CHEBI:90241	0-10
+day	UO:0000033	25-28
+INTERVENTION 2:	Intervention	4
+Alkylating Agent	Intervention	5
+alkylating agent	CHEBI:22333	0-16
+Patients randomised in the control arm (arm B) received an alkylating agent used as a single agent which was available in the investigational center and was approved for the treatment of cancer in the country.	Intervention	6
+alkylating agent	CHEBI:22333	59-75
+cancer	DOID:162	187-193
+Alkylating agent of physician choice registered in cancer: cyclophosphamide or melphalan or mitomycin C or thiotepa or cisplatin or carboplatin	Intervention	7
+alkylating agent	CHEBI:22333	0-16
+cancer	DOID:162	51-57
+cyclophosphamide	CHEBI:4026	59-75
+melphalan	CHEBI:28876	79-88
+mitomycin c	CHEBI:27504	92-103
+thiotepa	CHEBI:9570	107-115
+cisplatin	CHEBI:27899	119-128
+carboplatin	CHEBI:31355	132-143
+Inclusion Criteria:(main conditions)	Eligibility	0
+Female patients 18 to 75 years of age with metastatic breast cancer histologically/cytologically confirmed not amenable to curative surgery or radiotherapy and who have received at least two prior chemotherapy regimens including anthracyclines,taxanes,antimetabolite and vinca-alkaloid and are no longer candidate for these drugs,	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	34-37
+breast cancer	DOID:1612	54-67
+surgery	OAE:0000067	132-139
+radiotherapy	OAE:0000235	143-155
+antimetabolite	CHEBI:35221	252-266
+Karnofsky performance score of at least 70 %, adequate haematological, hepatic and renal functions and ECG without clinically relevant abnormality.	Eligibility	2
+Exclusion Criteria:	Eligibility	3
+Concurrent serious uncontrolled medical disorder,	Eligibility	4
+disorder	OGMS:0000045	40-48
+known or clinical evidence of brain metastases or leptomeningeal involvement,	Eligibility	5
+brain	UBERON:0000955	30-35
+pulmonary lymphangitis or symptomatic pleural effusion or symptomatic ascites,	Eligibility	6
+lymphangitis	DOID:9317	10-22
+pleural effusion	HP:0002202	38-54
+ascites	HP:0001541	70-77
+history of second primary malignancy,	Eligibility	7
+history	BFO:0000182	0-7
+second	UO:0000010	11-17
+HIV infection, preexisting neuropathy,	Eligibility	8
+neuropathy	DOID:870	27-37
+pregnancy or breast feeding.	Eligibility	9
+breast	UBERON:0000310	13-19
+Outcome Measurement:	Results	0
+Overall Survival	Results	1
+The main endpoint of this study is overall survival defined as the time from randomisation to the date of death or last follow-up. For patients who have not died, survival duration will be censored at the date of last contact or last follow-up or the date of last news.	Results	2
+time	PATO:0000165	67-71
+death	OAE:0000632	106-111
+duration	PATO:0001309	172-180
+Time frame: From baseline up to 3 years 1 month	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	42-47
+Results 1:	Results	4
+Arm/Group Title: Vinflunine	Results	5
+vinflunine	CHEBI:90241	17-27
+Arm/Group Description: Patients randomised in the test arm (arm A) received VFL at the dose of 280 mg/m  on day 1 of each cycle every 3 weeks, over a 20-minute intravenous (IV) infusion. Cycles were repeated every 3 weeks.	Results	6
+day	UO:0000033	108-111
+vinflunine: 280 mg/m2 on day 1 of each cycle every 3 weeks	Results	7
+vinflunine	CHEBI:90241	0-10
+day	UO:0000033	25-28
+Overall Number of Participants Analyzed: 298	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: Months  9.1        (7.7 to 10.4)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Alkylating Agent	Results	12
+alkylating agent	CHEBI:22333	17-33
+Arm/Group Description: Patients randomised in the control arm (arm B) received an alkylating agent used as a single agent which was available in the investigational center and was approved for the treatment of cancer in the country.	Results	13
+alkylating agent	CHEBI:22333	82-98
+cancer	DOID:162	210-216
+Alkylating agent of physician choice registered in cancer: cyclophosphamide or melphalan or mitomycin C or thiotepa or cisplatin or carboplatin	Results	14
+alkylating agent	CHEBI:22333	0-16
+cancer	DOID:162	51-57
+cyclophosphamide	CHEBI:4026	59-75
+melphalan	CHEBI:28876	79-88
+mitomycin c	CHEBI:27504	92-103
+thiotepa	CHEBI:9570	107-115
+cisplatin	CHEBI:27899	119-128
+carboplatin	CHEBI:31355	132-143
+Overall Number of Participants Analyzed: 296	Results	15
+Median (95% Confidence Interval)	Results	16
+median	BAO:0002174	0-6
+Unit of Measure: Months  9.3        (7.5 to 10.9)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 82/297 (27.61%)	Adverse Events	1
+Neutropenia 6/297 (2.02%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 6/297 (2.02%)	Adverse Events	3
+Febrile neutropenia 3/297 (1.01%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Thrombocytopenia 1/297 (0.34%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Endocardititis staphylococcal 1/297 (0.34%)	Adverse Events	6
+Arteriospasm coronary 1/297 (0.34%)	Adverse Events	7
+Atrial fibrillation 1/297 (0.34%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 0/297 (0.00%)	Adverse Events	9
+Constipation 5/297 (1.68%)	Adverse Events	10
+constipation	HP:0002019,DOID:2089	0-12
+Vomiting 6/297 (2.02%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Abdominal pain 4/297 (1.35%)	Adverse Events	12
+abdominal pain	HP:0002027	0-14
+Adverse Events 2:	Adverse Events	13
+Total: 66/290 (22.76%)	Adverse Events	14
+Neutropenia 0/290 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 0/290 (0.00%)	Adverse Events	16
+Febrile neutropenia 1/290 (0.34%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Thrombocytopenia 2/290 (0.69%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Endocardititis staphylococcal 0/290 (0.00%)	Adverse Events	19
+Arteriospasm coronary 0/290 (0.00%)	Adverse Events	20
+Atrial fibrillation 1/290 (0.34%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 1/290 (0.34%)	Adverse Events	22
+Constipation 0/290 (0.00%)	Adverse Events	23
+constipation	HP:0002019,DOID:2089	0-12
+Vomiting 3/290 (1.03%)	Adverse Events	24
+vomiting	HP:0002013	0-8
+Abdominal pain 1/290 (0.34%)	Adverse Events	25
+abdominal pain	HP:0002027	0-14

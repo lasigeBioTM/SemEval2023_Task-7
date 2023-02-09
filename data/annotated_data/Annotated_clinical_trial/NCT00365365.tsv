@@ -1,0 +1,219 @@
+INTERVENTION 1:	Intervention	0
+Stratum 1 (AC->T + Bevacizumab)	Intervention	1
+t	CHEBI:36371,BAO:0001260	1-2
+t	CHEBI:36371,BAO:0001260	4-5
+t	CHEBI:36371,BAO:0001260	15-16
+HER2-negative participants administered	Intervention	2
+doxorubicin and cyclophosphamide (AC) + bevacizumab for 4 cycles followed by	Intervention	3
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	16-32
+docetaxel (T) + bevacizumab for 4 cycles followed by	Intervention	4
+t	CHEBI:36371,BAO:0001260	4-5
+t	CHEBI:36371,BAO:0001260	11-12
+bevacizumab maintenance therapy for total of 52 weeks from date of first dose regardless of number of doses received or missed	Intervention	5
+INTERVENTION 2:	Intervention	6
+Stratum 2 (TAC + Bevacizumab)	Intervention	7
+HER2-negative participants administered	Intervention	8
+docetaxel, doxorubicin, cyclophosphamide (TAC) + bevacizumab for 6 cycles followed by	Intervention	9
+doxorubicin	CHEBI:28748,BAO:0000639	11-22
+cyclophosphamide	CHEBI:4026	24-40
+bevacizumab maintenance therapy for total of 52 weeks from date of first dose regardless of number of doses received or missed	Intervention	10
+The following information on clinical trials is provided for information purposes only to allow participants and physicians to have an initial discussion about the trial. This information is not intended to be complete information about the trial, to contain all considerations that may be relevant to potential participation in the trial, or to replace the advice of a personal physician or health professional.	Eligibility	0
+Inclusion Criteria:	Eligibility	1
+Women >/= 18 years of age.	Eligibility	2
+age	PATO:0000011	22-25
+Histologically proven breast cancer with an interval between definitive breast surgery that includes axillary lymph node (LN) dissection or axillary nodal evaluation and study registration of < 60 days. (Note: Cycle 1 of chemotherapy treatment may NOT be infused until > 28 days after the date of definitive breast surgery and the participant must be recovered from any clinically significant toxicity thereof.)	Eligibility	3
+breast cancer	DOID:1612	22-35
+breast	UBERON:0000310	22-28
+breast	UBERON:0000310	72-78
+breast	UBERON:0000310	308-314
+surgery	OAE:0000067	79-86
+surgery	OAE:0000067	315-322
+lymph	UBERON:0002391	110-115
+ln	BAO:0002171	122-124
+Definitive surgical treatment must be either mastectomy, or breast conserving surgery with axillary lymph node dissection (axillary lymph node evaluation can be either full axillary node dissection or sentinel LN evaluation followed by dissection if sentinel LN is positive) for operable breast cancer (pT1-4 [including inflammatory], pNO-3, and MO). Margins of resected specimen from definitive surgery must be histologically free of invasive adenocarcinoma and ductal carcinoma in-situ (DCIS). Lobular carcinoma in-situ does not count as a positive margin.	Eligibility	4
+breast	UBERON:0000310	60-66
+breast	UBERON:0000310	288-294
+surgery	OAE:0000067	78-85
+surgery	OAE:0000067	396-403
+lymph	UBERON:0002391	100-105
+lymph	UBERON:0002391	132-137
+ln	BAO:0002171	210-212
+ln	BAO:0002171	259-261
+breast cancer	DOID:1612	288-301
+adenocarcinoma	DOID:299	444-458
+carcinoma	HP:0030731,DOID:305	449-458
+carcinoma	HP:0030731,DOID:305	470-479
+carcinoma	HP:0030731,DOID:305	504-513
+Subjects must be either lymph node-positive (pN1-3) or lymph node-negative (pN0) with high-risk features as determined by Investigator.	Eligibility	5
+lymph	UBERON:0002391	24-29
+lymph	UBERON:0002391	55-60
+High-risk, lymph node-negative participants, (pN0) will be defined as subjects having invasive adenocarcinoma with either a negative sentinel node biopsy (pN0[sn]) OR negative lymph node dissection (pN0) disease AND tumor size > 2 cm or tumor size >/= 1 cm with at least one of the following factors:	Eligibility	6
+lymph	UBERON:0002391	11-16
+lymph	UBERON:0002391	176-181
+adenocarcinoma	DOID:299	95-109
+disease	DOID:4,OGMS:0000031	204-211
+size	PATO:0000117	222-226
+size	PATO:0000117	243-247
+negative estrogen receptor (ER) and negative progesterone receptor (PR) status	Eligibility	7
+estrogen	CHEBI:50114,BAO:0000760	9-17
+receptor	BAO:0000281	18-26
+receptor	BAO:0000281	58-66
+progesterone	CHEBI:17026	45-57
+histologic and/or nuclear Grade 2-3; or	Eligibility	8
+age < 35 years	Eligibility	9
+age	PATO:0000011	0-3
+HER2/neu positive or negative tumors are eligible. HER2 positivity must be documented by fluorescence in situ hybridization (FISH).	Eligibility	10
+Estrogen and progesterone receptor status must be performed on the primary tumor prior to study entry. Results must be pending or known at the time of study entry.	Eligibility	11
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	13-25
+receptor	BAO:0000281	26-34
+time	PATO:0000165	143-147
+Normal cardiac function must be confirmed by left ventricular ejection fraction (LVEF) or shortening fraction (multiple-gated acquisition [MUGA] scan or echocardiography respectively). The result must be greater than the lower limit of normal (LLN) for the institution.	Eligibility	12
+function	BAO:0003117,BFO:0000034	15-23
+left	HP:0012835	45-49
+ejection fraction	CMO:0000180	62-79
+result	BAO:0000179	189-195
+Hematology evaluation within 2 weeks prior to study entry:	Eligibility	13
+Absolute neutrophil count (ANC) >/= 1,500/μL	Eligibility	14
+Platelets >/= 100,000/μL	Eligibility	15
+Hemoglobin >/= 9 g/dL	Eligibility	16
+hemoglobin	CHEBI:35143	0-10
+Hepatic function evaluation within 2 weeks prior to study entry:	Eligibility	17
+function	BAO:0003117,BFO:0000034	8-16
+Total bilirubin </= ULN for the institution	Eligibility	18
+Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) must be in the acceptable range.	Eligibility	19
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+range	LABO:0000114	94-99
+Complete staging work-up as follows: All subjects must have an appropriate radiographic evaluation, e.g., computed tomography (CT), positron emission tomography (PET)/CT, and/or (magnetic resonance imaging) MRI of the brain, chest, abdomen and pelvis, and imaging of bone by either a bone scan or PET scan. In cases of positive bone imaging, a bone X-ray or MRI evaluation is mandatory to rule out the possibility of metastatic bone scan disease. Other tests may be performed as clinically indicated. It is recommended that all baseline staging should be completed within 35 days prior to study entry.	Eligibility	20
+tomography	BAO:0002525	115-125
+tomography	BAO:0002525	150-160
+ct	BAO:0002125	46-48
+ct	BAO:0002125	127-129
+ct	BAO:0002125	167-169
+positron	CHEBI:30225	132-140
+brain	UBERON:0000955	218-223
+chest	UBERON:0001443	225-230
+abdomen	UBERON:0000916	232-239
+disease	DOID:4,OGMS:0000031	438-445
+Exclusion Criteria:	Eligibility	21
+Prior systemic anticancer therapy for breast cancer (immunotherapy, hormonotherapy, chemotherapy).	Eligibility	22
+breast cancer	DOID:1612	38-51
+Prior anthracycline therapy, taxoids or platinum salts for any malignancy.	Eligibility	23
+anthracycline	CHEBI:48120	6-19
+platinum	CHEBI:33364	40-48
+Prior radiation therapy for breast cancer or any radiotherapy to the chest wall for any other malignancy.	Eligibility	24
+breast cancer	DOID:1612	28-41
+radiotherapy	OAE:0000235	49-61
+chest	UBERON:0001443	69-74
+Bilateral invasive breast cancer.	Eligibility	25
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	19-32
+Pregnant or lactating subjects	Eligibility	26
+Cardiac disease or risk for same as judged by Investigator	Eligibility	27
+disease	DOID:4,OGMS:0000031	8-15
+Other serious illness or medical conditions such as (partial list- review with Investigator) history of significant neurologic or psychiatric disorders that would prohibit the understanding and giving of informed consent, active uncontrolled infection, active peptic ulcer, unstable diabetes mellitus or subjects with symptomatic, intrinsic lung disease resulting in dyspnea at rest	Eligibility	28
+history	BFO:0000182	93-100
+active	PATO:0002354	222-228
+active	PATO:0002354	253-259
+peptic ulcer	HP:0004398	260-272
+diabetes mellitus	HP:0000819,DOID:9351	283-300
+lung disease	DOID:850	341-353
+dyspnea	HP:0002094	367-374
+Current therapy with any hormonal agent such as raloxifene, tamoxifen, or other selective estrogen receptor modulators (SERMs), either for osteoporosis or prevention of breast cancer. Subjects must have discontinued these agents prior to study entry.	Eligibility	29
+raloxifene	CHEBI:8772	48-58
+tamoxifen	CHEBI:41774	60-69
+estrogen	CHEBI:50114,BAO:0000760	90-98
+receptor	BAO:0000281	99-107
+osteoporosis	HP:0000939,DOID:11476	139-151
+breast cancer	DOID:1612	169-182
+Concurrent treatment with ovarian hormonal replacement therapy. Prior treatment must be stopped prior to study entry.	Eligibility	30
+Concurrent treatment with other experimental drugs. Participation in another clinical trial with any investigational non-marketed drug within 30 days prior to study entry.	Eligibility	31
+drug	CHEBI:23888	45-49
+drug	CHEBI:23888	130-134
+Concurrent treatment with any other anti-cancer therapy.	Eligibility	32
+Male subjects, as no clinical efficacy or safety data are available from phase I-II studies.	Eligibility	33
+male	CHEBI:30780,PATO:0000384	0-4
+efficacy	BAO:0000656	30-38
+Chemotherapy and/or bevacizumab may not be given until > 7 days following a minor surgical procedure. Chemotherapy may be given without bevacizumab in circumstances in which the participant has recovered sufficiently to receive chemotherapy but has not yet reached a 28 day time point at which bevacizumab could be administered.	Eligibility	34
+day	UO:0000033	59-62
+day	UO:0000033	270-273
+time	PATO:0000165	274-278
+Outcome Measurement:	Results	0
+Cardiac Safety - Number of Participants With Grade 3-4 Clinical Congestive Heart Failure (CHF)	Results	1
+congestive heart failure	HP:0001635,DOID:6000	64-88
+Participants were evaluated for clinical CHF every 3 weeks during chemotherapy, every 3 months while on maintenance therapy, and every 3 months during the 2-year follow-up period. Left ventricular ejection fraction (LVEF) of CHF was assessed by multi-gated acquisition (MUGA) or echocardiogram (ECHO) performed midway through completion of chemotherapy according to a treatment-specific schedule, every 12 weeks during maintenance therapy, and at 6 and 24 months after completion of maintenance therapy.	Results	2
+left	HP:0012835	180-184
+ejection fraction	CMO:0000180	197-214
+Grade 3-4 CHF were identified through a clinical review of all study collected investigator verbatim and the Medical Dictionary for Regulatory Activities (MedDRA). The preferred terms (PT) cardiac failure congestive, cardiomyopathy, and ejection fraction decreased were associated with CHF.	Results	3
+cardiomyopathy	HP:0001638,DOID:0050700	217-231
+ejection fraction	CMO:0000180	237-254
+Time frame: from the first dose of study medication up to the end of follow-up (up to 3 yrs)	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Stratum 1 (AC->T + Bevacizumab)	Results	6
+t	CHEBI:36371,BAO:0001260	10-11
+t	CHEBI:36371,BAO:0001260	12-13
+t	CHEBI:36371,BAO:0001260	18-19
+t	CHEBI:36371,BAO:0001260	21-22
+t	CHEBI:36371,BAO:0001260	32-33
+Arm/Group Description: HER2-negative participants administered	Results	7
+doxorubicin and cyclophosphamide (AC) + bevacizumab for 4 cycles followed by	Results	8
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	16-32
+docetaxel (T) + bevacizumab for 4 cycles followed by	Results	9
+t	CHEBI:36371,BAO:0001260	4-5
+t	CHEBI:36371,BAO:0001260	11-12
+bevacizumab maintenance therapy for total of 52 weeks from date of first dose regardless of number of doses received or missed	Results	10
+Overall Number of Participants Analyzed: 78	Results	11
+Measure Type: Number	Results	12
+Unit of Measure: participants  1	Results	13
+Results 2:	Results	14
+Arm/Group Title: Stratum 2 (TAC + Bevacizumab)	Results	15
+Arm/Group Description: HER2-negative participants administered	Results	16
+docetaxel, doxorubicin, cyclophosphamide (TAC) + bevacizumab for 6 cycles followed by	Results	17
+doxorubicin	CHEBI:28748,BAO:0000639	11-22
+cyclophosphamide	CHEBI:4026	24-40
+bevacizumab maintenance therapy for total of 52 weeks from date of first dose regardless of number of doses received or missed	Results	18
+Overall Number of Participants Analyzed: 75	Results	19
+Measure Type: Number	Results	20
+Unit of Measure: participants  3	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 23/78 (29.49%)	Adverse Events	1
+Febrile neutropenia * 4/78 (5.13%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 1/78 (1.28%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 0/78 (0.00%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome * 1/78 (1.28%)	Adverse Events	5
+acute coronary syndrome	HP:0033678	0-23
+Cardiac failure congestive * 1/78 (1.28%)	Adverse Events	6
+Myocardial infarction * 1/78 (1.28%)	Adverse Events	7
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Cardiomyopathy * 0/78 (0.00%)	Adverse Events	8
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Abdominal pain * 1/78 (1.28%)	Adverse Events	9
+abdominal pain	HP:0002027	0-14
+Diarrhoea * 1/78 (1.28%)	Adverse Events	10
+Upper gastrointestinal haemorrhage * 1/78 (1.28%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 24/75 (32.00%)	Adverse Events	13
+Febrile neutropenia * 8/75 (10.67%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 3/75 (4.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 2/75 (2.67%)	Adverse Events	16
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome * 0/75 (0.00%)	Adverse Events	17
+acute coronary syndrome	HP:0033678	0-23
+Cardiac failure congestive * 2/75 (2.67%)	Adverse Events	18
+Myocardial infarction * 0/75 (0.00%)	Adverse Events	19
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Cardiomyopathy * 1/75 (1.33%)	Adverse Events	20
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Abdominal pain * 0/75 (0.00%)	Adverse Events	21
+abdominal pain	HP:0002027	0-14
+Diarrhoea * 1/75 (1.33%)	Adverse Events	22
+Upper gastrointestinal haemorrhage * 0/75 (0.00%)	Adverse Events	23

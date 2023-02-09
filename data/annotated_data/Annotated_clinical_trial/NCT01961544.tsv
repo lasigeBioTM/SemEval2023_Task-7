@@ -1,0 +1,158 @@
+INTERVENTION 1:	Intervention	0
+Eribulin Mesylate 1.4 mg/m^2	Intervention	1
+eribulin mesylate	CHEBI:70710	0-17
+Participants received 1.4 milligrams per meters squared (mg/m^2) eribulin mesylate intravenously over the course of 2 to 5 minutes on Day 1 and Day 8 of each 21-day cycle.	Intervention	2
+eribulin mesylate	CHEBI:70710	65-82
+day	UO:0000033	134-137
+day	UO:0000033	144-147
+day	UO:0000033	161-164
+Inclusion Criteria:	Eligibility	0
+Female, Age greater or equal to 20 years	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	8-11
+Patients with histologically or cytologically confirmed carcinoma of the breast	Eligibility	2
+carcinoma	HP:0030731,DOID:305	56-65
+breast	UBERON:0000310	73-79
+Patients with locally advance or metastatic carcinoma of the breast	Eligibility	3
+carcinoma	HP:0030731,DOID:305	44-53
+breast	UBERON:0000310	61-67
+Patients who have received two to five prior chemotherapeutic regimens including an antracycline and a taxane and 2 or more regimens for locally recurrent and/or metastatic disease	Eligibility	4
+taxane	CHEBI:36064	103-109
+recurrent	HP:0031796	145-154
+disease	DOID:4,OGMS:0000031	173-180
+Patients must have proved refractory to the most recent chemotherapy on or within six (6) months of therapy	Eligibility	5
+refractory	HP:0031375	26-36
+Patients who have assessable lesion according to RECIST v 1.1	Eligibility	6
+Adequately maintained bone marrow function	Eligibility	7
+bone marrow	UBERON:0002371	22-33
+function	BAO:0003117,BFO:0000034	34-42
+absolute neutrophil count (ANC) greater than or equal to 1.5 x 10^9 /L	Eligibility	8
+x	LABO:0000148	61-62
+hemoglobin greater than or equal to 10.0 g/dl (a hemoglobin less than 10.0 g/dL is acceptable if it is corrected by erythropoietin or transfusion)	Eligibility	9
+hemoglobin	CHEBI:35143	0-10
+hemoglobin	CHEBI:35143	49-59
+erythropoietin	CHEBI:81579,GO:0005128	116-130
+Platelet count greater than or equal to 100 x 10^9 /L	Eligibility	10
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	44-45
+Adequately maintained liver function	Eligibility	11
+liver	UBERON:0002107	22-27
+function	BAO:0003117,BFO:0000034	28-36
+Total bilirubin: less than or equal to 1.5 times the upper limits of normal (ULN) and	Eligibility	12
+Alkaline phosphatase(ALP), alanine aminotransferase (ALT), and aspartate aminotransferase (AST) less than or equal to 3 x ULN (in the case of liver metastases less than or equal to 5 x ULN)	Eligibility	13
+phosphatase	GO:0016791,BAO:0000295	9-20
+alanine	CHEBI:16449	27-34
+aspartate	CHEBI:29995	63-72
+x	LABO:0000148	120-121
+x	LABO:0000148	183-184
+liver	UBERON:0002107	142-147
+Adequately maintained renal function	Eligibility	14
+function	BAO:0003117,BFO:0000034	28-36
+Serum creatinine less than or equal to 2.0 mg/dl or	Eligibility	15
+creatinine	CHEBI:16737	6-16
+Calculated creatinine clearance greater than or equal to 40 ml/min (Cockcroft and Gault formula)	Eligibility	16
+creatinine clearance	CMO:0000765	11-31
+Resolution of all chemotherapy or radiation-related toxicities to Grade 1 severity or lower, except for	Eligibility	17
+severity	HP:0012824	74-82
+alopecia	Eligibility	18
+alopecia	HP:0001596,DOID:987	0-8
+stable sensory neuropathy less than or equal to Grade 2	Eligibility	19
+stable	HP:0031915	0-6
+sensory neuropathy	HP:0000763,DOID:2491	7-25
+Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 to 2	Eligibility	20
+group	CHEBI:24433	29-34
+Life expectancy of greater than or equal to 3 months	Eligibility	21
+Patients willing and able to comply with the study protocol for the duration of the study	Eligibility	22
+duration	PATO:0001309	68-76
+Patients who have provided written consent to participate in this study	Eligibility	23
+Exclusion Criteria	Eligibility	24
+Patients who have received a chemotherapy, radiation, biologics, immunotherapy or hormonal therapy within three weeks before treatment start (but, palliative radiation can be enrolled)	Eligibility	25
+Pulmonary lymphangitic involvement that results in pulmonary dysfunction requiring active treatment, including the use of oxygen	Eligibility	26
+active	PATO:0002354	83-89
+Patients with brain or subdural metastases are not eligible, unless they have completed local therapy and have discontinued the use of corticosteroids for this indication for at least four weeks before starting treatment in this study. Any signs and/or symptoms of brain metastases must be stable for at least four weeks before starting study treatment	Eligibility	27
+brain	UBERON:0000955	14-19
+brain	UBERON:0000955	265-270
+stable	HP:0031915	290-296
+Patients with meningeal carcinomatosis	Eligibility	28
+Significant cardiovascular impairment	Eligibility	29
+Myocardial infarction within the past six months, unstable angina, history of congestive heart failure NYHA class III or IV, or serious cardiac arrhythmia	Eligibility	30
+myocardial infarction	HP:0001658,DOID:5844	0-21
+history	BFO:0000182	67-74
+congestive heart failure	HP:0001635,DOID:6000	78-102
+arrhythmia	HP:0011675	144-154
+QTc prolongation (Bazett's Formula greater than 480 msec) or congenital long QT syndrome	Eligibility	31
+long qt syndrome	DOID:2843	72-88
+Severe/uncontrolled intercurrent illness/infection required administration of antibiotic injection	Eligibility	32
+Patients who have processed a major surgery within four weeks before participation in this clinical trial	Eligibility	33
+surgery	OAE:0000067	36-43
+Patients who have had a prior malignancy within the past five years other than breast cancer (but, treated non-melanoma skin cancer and carcinoma in situ of the cervix will not be excluded)	Eligibility	34
+breast cancer	DOID:1612	79-92
+skin cancer	DOID:4159	120-131
+carcinoma	HP:0030731,DOID:305	136-145
+excluded	HP:0040285	180-188
+Patients with known positive HIV status	Eligibility	35
+Patients who have received genetic therapy or other investigational drug within 4 weeks before treatment start or expected to receive prohibited medication	Eligibility	36
+drug	CHEBI:23888	68-72
+Patients with prior allergies to Halichondrin B, its derivatives, active ingredient, or other diluting agent	Eligibility	37
+halichondrin b	CHEBI:80731	33-47
+active	PATO:0002354	66-72
+Patients who have received this investigational product before registration for this study	Eligibility	38
+product	BAO:0003067	48-55
+Patients who are pregnant, who may possibly be pregnant, or are lactating	Eligibility	39
+Patients who do not agree to practice contraception for the study periods	Eligibility	40
+Patients who have participated in other clinical trial within 4 weeks before screening	Eligibility	41
+Patients otherwise judged by investigator or sub investigator to be unsuitable for inclusion	Eligibility	42
+Outcome Measurement:	Results	0
+Number of Participants With Any Treatment-emergent Adverse Event (TEAE) and Any Treatment-emergent Serious Adverse Event (SAE)	Results	1
+adverse event	OAE:0000001	51-64
+adverse event	OAE:0000001	107-120
+serious adverse event	OAE:0000631	99-120
+An AE is defined as any harmful, untoward sign (including abnormal laboratory value, etc.), symptom, or disease in a participant administered investigational product that does not necessarily have a causal relationship with treatment. An SAE is defined as an AE that is life threatening or results in death, results in hospitalization (initial or prolonged), results in a disability (significant, persistent, or permanent change, impairment, damage or disruption in the participant's body function/structure, physical activities, or quality of life), results in a congenital anomaly, or requires intervention to prevent permanent impairment or damage. TEAEs are defined as those events that started on or after the date and time of administration of the first dose of study drug and those events that were present prior to the administration of the first dose of study drug and increased in severity during the study.	Results	2
+symptom	OGMS:0000020	92-99
+disease	DOID:4,OGMS:0000031	104-111
+product	BAO:0003067	158-165
+death	OAE:0000632	301-306
+prolonged	HP:0025297	347-356
+quality	BAO:0002928,BFO:0000019	533-540
+time	PATO:0000165	724-728
+drug	CHEBI:23888	774-778
+drug	CHEBI:23888	869-873
+present	PATO:0000467	806-813
+severity	HP:0012824	891-899
+Time frame: mean of 3.76 months	Results	3
+time	PATO:0000165	0-4
+mean	BAO:0002173	12-16
+Results 1:	Results	4
+Arm/Group Title: Eribulin Mesylate 1.4 mg/m^2	Results	5
+eribulin mesylate	CHEBI:70710	17-34
+Arm/Group Description: Participants received 1.4 milligrams per meters squared (mg/m^2) eribulin mesylate intravenously over the course of 2 to 5 minutes on Day 1 and Day 8 of each 21-day cycle.	Results	6
+eribulin mesylate	CHEBI:70710	88-105
+day	UO:0000033	157-160
+day	UO:0000033	167-170
+day	UO:0000033	184-187
+Overall Number of Participants Analyzed: 101	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  TEAE: 101	Results	9
+Treatment-emergent SAE: 20	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 20/101 (19.80%)	Adverse Events	1
+Neutropenia * 2/101 (1.98%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile neutropenia * 1/101 (0.99%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Pericardial effusion * 2/101 (1.98%)	Adverse Events	4
+pericardial effusion	HP:0001698,DOID:118	0-20
+Abdominal distension * 1/101 (0.99%)	Adverse Events	5
+Abdominal pain * 1/101 (0.99%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Ascites * 1/101 (0.99%)	Adverse Events	7
+ascites	HP:0001541	0-7
+Gastritis * 1/101 (0.99%)	Adverse Events	8
+gastritis	HP:0005263,DOID:4029	0-9
+Asthenia * 1/101 (0.99%)	Adverse Events	9
+asthenia	HP:0025406	0-8
+Pyrexia * 1/101 (0.99%)	Adverse Events	10
+Pneumonia * 1/101 (0.99%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	0-9
+Pseudomonal sepsis * 1/101 (0.99%)	Adverse Events	12
+sepsis	HP:0100806	12-18

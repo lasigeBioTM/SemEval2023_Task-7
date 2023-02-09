@@ -1,0 +1,66 @@
+INTERVENTION 1:	Intervention	0
+ECGC and Breast Cancer	Intervention	1
+breast cancer	DOID:1612	9-22
+Single arm for a phase II study of EGCG extract and breast cancer. Subjects are asked to take 4 polyphenol E (200mg) capsules daily with a meal for the duration of the study. Biomarkers are measured at baseline and then again at presurgery, the end point for the study.	Intervention	2
+extract	BAO:0003070	40-47
+breast cancer	DOID:1612	52-65
+polyphenol	CHEBI:26195	96-106
+duration	PATO:0001309	152-160
+Inclusion Criteria:	Eligibility	0
+Definitive biopsy demonstrating primary breast cancer	Eligibility	1
+breast cancer	DOID:1612	40-53
+Residual breast cancer requiring additional surgical resection	Eligibility	2
+breast cancer	DOID:1612	9-22
+Stage I, II or III disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	19-26
+Patient has ability to give signed informed consent	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+Normal hepatic and renal function (creatinine<1.5, transaminases <1.5 times upper limit of normal).	Eligibility	5
+function	BAO:0003117,BFO:0000034	25-33
+creatinine	CHEBI:16737	35-45
+ECOG Performance status of 0 or 1.	Eligibility	6
+Age  21 years and less than 75	Eligibility	7
+age	PATO:0000011	0-3
+Exclusion Criteria:	Eligibility	8
+Prior hormonal or surgical therapy for breast cancer	Eligibility	9
+breast cancer	DOID:1612	39-52
+Abnormal liver function test	Eligibility	10
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Liver or kidney problems that would interfere with metabolism of study drug	Eligibility	11
+liver	UBERON:0002107	0-5
+kidney	UBERON:0002113	9-15
+drug	CHEBI:23888	71-75
+Any condition that would hamper informed consent or ability to comply with study protocol	Eligibility	12
+condition	PDRO:0000129	4-13
+Participation in another research study in the last three months	Eligibility	13
+Known malignancy at any site other than breast	Eligibility	14
+site	BFO:0000029	24-28
+breast	UBERON:0000310	40-46
+Recent consumption of green tea (5 or more cups per day, within one week prior to biopsy)	Eligibility	15
+day	UO:0000033	52-55
+week	UO:0000034	68-72
+Allergy or intolerance to any component of green tea	Eligibility	16
+allergy	HP:0012393	0-7
+Inability or refusal to comply with definitive surgical therapy	Eligibility	17
+Outcome Measurement:	Results	0
+Change in Serum VEGF in Breast Cancer	Results	1
+breast cancer	DOID:1612	24-37
+Change in serum VEGF from baseline to post treatment with polyphenon E.	Results	2
+Time frame: Baseline and 4 to 6 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: ECGC and Breast Cancer	Results	5
+breast cancer	DOID:1612	26-39
+Arm/Group Description: Single arm for a phase II study of EGCG extract and breast cancer. Subjects are asked to take 4 polyphenol E (200mg) capsules daily with a meal for the duration of the study. Biomarkers are measured at baseline and then again at presurgery, the end point for the study.	Results	6
+extract	BAO:0003070	63-70
+breast cancer	DOID:1612	75-88
+polyphenol	CHEBI:26195	119-129
+duration	PATO:0001309	175-183
+Overall Number of Participants Analyzed: 19	Results	7
+Median (Inter-Quartile Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: pg/ml  270        (-142.5 to 581.25)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/32 (0.00%)	Adverse Events	1

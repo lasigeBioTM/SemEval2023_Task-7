@@ -1,0 +1,272 @@
+INTERVENTION 1:	Intervention	0
+A (Sorafenib + Gemcitabine or Capecitabine)	Intervention	1
+sorafenib	CHEBI:50924	3-12
+gemcitabine	CHEBI:175901	15-26
+capecitabine	CHEBI:31348	30-42
+Sorafenib will be administered (400 mg; 2 tablets x 200 mg) orally twice daily (approximately every 12 hours); Gemcitabine will be administered 1000 mg/m2 pm Days 1 and 8 of a 21 day cycle; Capecitabine will be administered orally at a dose of 1,000 mg/m2 twice daily, within 30 minutes after a meal, for 14 days followed by a 7 day rest period (without capecitabine)	Intervention	2
+sorafenib	CHEBI:50924	0-9
+x	LABO:0000148	50-51
+x	LABO:0000148	85-86
+gemcitabine	CHEBI:175901	111-122
+day	UO:0000033	158-161
+day	UO:0000033	179-182
+day	UO:0000033	308-311
+day	UO:0000033	329-332
+capecitabine	CHEBI:31348	190-202
+capecitabine	CHEBI:31348	354-366
+Gemcitabine: Gemcitabine will be administered 1000 mg/m2 pm Days 1 and 8 of a 21 day cycle	Intervention	3
+gemcitabine	CHEBI:175901	0-11
+gemcitabine	CHEBI:175901	13-24
+day	UO:0000033	60-63
+day	UO:0000033	81-84
+Sorafenib: Sorafenib will be administered (400 mg; 2 tablets x 200 mg) orally twice daily (approximately every 12 hours)	Intervention	4
+sorafenib	CHEBI:50924	0-9
+sorafenib	CHEBI:50924	11-20
+x	LABO:0000148	61-62
+x	LABO:0000148	96-97
+Capecitabine: Capecitabine will be administered orally at a dose of 1,000 mg/m2 twice daily, within 30 minutes after a meal, for 14 days followed by a 7 day rest period (without capecitabine).	Intervention	5
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	14-26
+capecitabine	CHEBI:31348	178-190
+day	UO:0000033	132-135
+day	UO:0000033	153-156
+INTERVENTION 2:	Intervention	6
+B (Placebo + Gemcitabine or Capecitabine)	Intervention	7
+gemcitabine	CHEBI:175901	13-24
+capecitabine	CHEBI:31348	28-40
+Placebo will be administered ( 2 tablets ) orally twice daily (approximately every 12 hours); Gemcitabine will be administered 1000 mg/m2 pm Days 1 and 8 of a 21 day cycle; Capecitabine will be administered orally at a dose of 1,000 mg/m2 twice daily, within 30 minutes after a meal, for 14 days followed by a 7 day rest period (without capecitabine)	Intervention	8
+gemcitabine	CHEBI:175901	94-105
+day	UO:0000033	141-144
+day	UO:0000033	162-165
+day	UO:0000033	291-294
+day	UO:0000033	312-315
+capecitabine	CHEBI:31348	173-185
+capecitabine	CHEBI:31348	337-349
+Gemcitabine: Gemcitabine will be administered 1000 mg/m2 pm Days 1 and 8 of a 21 day cycle	Intervention	9
+gemcitabine	CHEBI:175901	0-11
+gemcitabine	CHEBI:175901	13-24
+day	UO:0000033	60-63
+day	UO:0000033	81-84
+Placebo: Placebo will be administered (400 mg; 2 tablets x 200 mg) orally twice daily (approximately every 12 hours)	Intervention	10
+x	LABO:0000148	57-58
+x	LABO:0000148	92-93
+Capecitabine: Capecitabine will be administered orally at a dose of 1,000 mg/m2 twice daily, within 30 minutes after a meal, for 14 days followed by a 7 day rest period (without capecitabine).	Intervention	11
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	14-26
+capecitabine	CHEBI:31348	178-190
+day	UO:0000033	132-135
+day	UO:0000033	153-156
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed adenocarcinoma of the breast.	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+Measurable or evaluable locally advanced or metastatic disease.	Eligibility	2
+disease	DOID:4,OGMS:0000031	55-62
+Age 18 years.	Eligibility	3
+age	PATO:0000011	0-3
+Disease progression during or after treatment with a bevacizumab-containing regimen in the adjuvant or first-line metastatic setting.	Eligibility	4
+disease	DOID:4,OGMS:0000031	0-7
+adjuvant	CHEBI:60809	91-99
+Patients must have discontinued chemotherapy at least 3 weeks prior to randomization.	Eligibility	5
+No more than one prior chemotherapy regimen for locally advanced or metastatic disease.	Eligibility	6
+disease	DOID:4,OGMS:0000031	79-86
+Prior hormonal therapy allowed provided it has been discontinued prior to randomization.	Eligibility	7
+Prior radiation therapy is allowed but must be completed at least 3 weeks prior to randomization. Previously radiated area(s) must not be the only site of disease.	Eligibility	8
+area	PATO:0001323	118-122
+site	BFO:0000029	147-151
+disease	DOID:4,OGMS:0000031	155-162
+ECOG Performance Status of 0 or 1.	Eligibility	9
+Adequate bone marrow, liver, and renal function	Eligibility	10
+bone marrow	UBERON:0002371	9-20
+liver	UBERON:0002107	22-27
+function	BAO:0003117,BFO:0000034	39-47
+Women of childbearing potential must have a negative serum pregnancy test performed within 7 days prior to randomization, and must agree to use adequate contraception prior to study entry, for the duration of study participation and 28 days after the last study drug dosing.	Eligibility	11
+duration	PATO:0001309	197-205
+drug	CHEBI:23888	262-266
+Patients must be able and willing to sign a written informed consent.	Eligibility	12
+Patients must be able to swallow and retain oral medication.	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Patients with breast cancer over-expressing human epidermal growth factor receptor 2 (HER-2) (gene amplification by FISH or 3+ over-expression by immunohistochemistry). Patients with unknown HER-2 status are not eligible.	Eligibility	15
+breast cancer	DOID:1612	14-27
+growth factor	BAO:0002024	60-73
+receptor	BAO:0000281	74-82
+gene	BAO:0000582	94-98
+immunohistochemistry	BAO:0000415	146-166
+Patients with active brain metastases.	Eligibility	16
+active	PATO:0002354	14-20
+brain	UBERON:0000955	21-26
+Major surgery, open biopsy, or significant traumatic injury within 4 weeks of randomization.	Eligibility	17
+surgery	OAE:0000067	6-13
+Prior use of gemcitabine/capecitabine or sorafenib.	Eligibility	18
+sorafenib	CHEBI:50924	41-50
+Evidence or history of bleeding diathesis or coagulopathy.	Eligibility	19
+history	BFO:0000182	12-19
+Serious, non-healing wound, ulcer, or bone fracture.	Eligibility	20
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+Substance abuse, or medical, psychological, or social condition that may interfere with the patient's participation in the study or evaluation of the study results.	Eligibility	21
+substance abuse	DOID:302	0-15
+condition	PDRO:0000129	54-63
+patient	HADO:0000008,OAE:0001817	92-99
+Use of cytochrome P450 enzyme-inducing anti-epileptic drugs is not allowed.	Eligibility	22
+cytochrome p450	CHEBI:38559	7-22
+Clinically significant cardiac disease	Eligibility	23
+disease	DOID:4,OGMS:0000031	31-38
+Uncontrolled hypertension	Eligibility	24
+hypertension	HP:0000822,DOID:10763	13-25
+Thrombolic, embolic, venous, or arterial events such as a cerebrovascular accident including transient ischemic attacks within the past 6 months.	Eligibility	25
+transient	HP:0025153	93-102
+Pulmonary hemorrhage/bleeding event > NCI-CTCAE Grade 2 within 4 weeks of randomization.	Eligibility	26
+Any other hemorrhage/bleeding event  NCI-CTCAE Grade 3 within 4 weeks of randomization.	Eligibility	27
+Active clinically serious infection > NCI-CTCAE Grade 2.	Eligibility	28
+active	PATO:0002354	0-6
+Known HIV infection or chronic hepatitis B or C (the safety and effectiveness of sorafenib in this patient population have not been studied).	Eligibility	29
+chronic hepatitis	HP:0200123,DOID:2237	23-40
+hepatitis b	DOID:2043	31-42
+sorafenib	CHEBI:50924	81-90
+patient	HADO:0000008,OAE:0001817	99-106
+Previous or concurrent cancer that is distinct in primary site or histology from breast cancer EXCEPT cervical cancer in-situ, treated basal cell carcinoma, superficial bladder tumors [Ta and Tis] or any cancer curatively treated > 5 years prior to randomization.	Eligibility	30
+cancer	DOID:162	23-29
+cancer	DOID:162	88-94
+cancer	DOID:162	111-117
+cancer	DOID:162	204-210
+site	BFO:0000029	58-62
+histology	NCIT:C16681	66-75
+breast cancer	DOID:1612	81-94
+cervical cancer	DOID:4362	102-117
+basal cell carcinoma	HP:0002671,DOID:2513	135-155
+Known or suspected allergy to sorafenib or gemcitabine/capecitabine.	Eligibility	31
+allergy	HP:0012393	19-26
+sorafenib	CHEBI:50924	30-39
+Prior or concurrent use of St. John's Wort or rifampin (rifampicin) within 3 weeks of randomization.	Eligibility	32
+rifampicin	CHEBI:71365	56-66
+Concurrent anti-cancer therapy other than gemcitabine/capecitabine and sorafenib/placebo.	Eligibility	33
+Prior treatment with any agent that targets VEGF or VEGFR (licensed or investigational), except bevacizumab.	Eligibility	34
+Women who are pregnant or breast-feeding.	Eligibility	35
+Use of any investigational drug within 30 days or 5 half-lives, whichever is longer, preceding randomization.	Eligibility	36
+drug	CHEBI:23888	27-31
+Inability to comply with protocol and/or not willing or not available for follow-up assessments.	Eligibility	37
+Any condition which in the investigator's opinion makes the patient unsuitable for the study participation.	Eligibility	38
+condition	PDRO:0000129	4-13
+patient	HADO:0000008,OAE:0001817	60-67
+Outcome Measurement:	Results	0
+Progression Free Survival	Results	1
+[Not Specified]	Results	2
+Time frame: From the date of randomization to date of first documented disease progression (i.e., the date on which a radiologic procedure or clinical evaluation was performed) or the date of death due to any cause, if before progression, assessed up to 39 months.	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	71-78
+death	OAE:0000632	192-197
+Results 1:	Results	4
+Arm/Group Title: A (Sorafenib + Gemcitabine or Capecitabine)	Results	5
+sorafenib	CHEBI:50924	20-29
+gemcitabine	CHEBI:175901	32-43
+capecitabine	CHEBI:31348	47-59
+Arm/Group Description: Sorafenib will be administered (400 mg; 2 tablets x 200 mg) orally twice daily (approximately every 12 hours); Gemcitabine will be administered 1000 mg/m2 pm Days 1 and 8 of a 21 day cycle; Capecitabine will be administered orally at a dose of 1,000 mg/m2 twice daily, within 30 minutes after a meal, for 14 days followed by a 7 day rest period (without capecitabine)	Results	6
+sorafenib	CHEBI:50924	23-32
+x	LABO:0000148	73-74
+x	LABO:0000148	108-109
+gemcitabine	CHEBI:175901	134-145
+day	UO:0000033	181-184
+day	UO:0000033	202-205
+day	UO:0000033	331-334
+day	UO:0000033	352-355
+capecitabine	CHEBI:31348	213-225
+capecitabine	CHEBI:31348	377-389
+Gemcitabine: Gemcitabine will be administered 1000 mg/m2 pm Days 1 and 8 of a 21 day cycle	Results	7
+gemcitabine	CHEBI:175901	0-11
+gemcitabine	CHEBI:175901	13-24
+day	UO:0000033	60-63
+day	UO:0000033	81-84
+Sorafenib: Sorafenib will be administered (400 mg; 2 tablets x 200 mg) orally twice daily (approximately every 12 hours)	Results	8
+sorafenib	CHEBI:50924	0-9
+sorafenib	CHEBI:50924	11-20
+x	LABO:0000148	61-62
+x	LABO:0000148	96-97
+Capecitabine: Capecitabine will be administered orally at a dose of 1,000 mg/m2 twice daily, within 30 minutes after a meal, for 14 days followed by a 7 day rest period (without capecitabine).	Results	9
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	14-26
+capecitabine	CHEBI:31348	178-190
+day	UO:0000033	132-135
+day	UO:0000033	153-156
+Overall Number of Participants Analyzed: 81	Results	10
+Median (95% Confidence Interval)	Results	11
+median	BAO:0002174	0-6
+Unit of Measure: Days  103        (83 to 128)	Results	12
+Results 2:	Results	13
+Arm/Group Title: B (Placebo + Gemcitabine or Capecitabine)	Results	14
+gemcitabine	CHEBI:175901	30-41
+capecitabine	CHEBI:31348	45-57
+Arm/Group Description: Placebo will be administered ( 2 tablets ) orally twice daily (approximately every 12 hours); Gemcitabine will be administered 1000 mg/m2 pm Days 1 and 8 of a 21 day cycle; Capecitabine will be administered orally at a dose of 1,000 mg/m2 twice daily, within 30 minutes after a meal, for 14 days followed by a 7 day rest period (without capecitabine)	Results	15
+gemcitabine	CHEBI:175901	117-128
+day	UO:0000033	164-167
+day	UO:0000033	185-188
+day	UO:0000033	314-317
+day	UO:0000033	335-338
+capecitabine	CHEBI:31348	196-208
+capecitabine	CHEBI:31348	360-372
+Gemcitabine: Gemcitabine will be administered 1000 mg/m2 pm Days 1 and 8 of a 21 day cycle	Results	16
+gemcitabine	CHEBI:175901	0-11
+gemcitabine	CHEBI:175901	13-24
+day	UO:0000033	60-63
+day	UO:0000033	81-84
+Placebo: Placebo will be administered (400 mg; 2 tablets x 200 mg) orally twice daily (approximately every 12 hours)	Results	17
+x	LABO:0000148	57-58
+x	LABO:0000148	92-93
+Capecitabine: Capecitabine will be administered orally at a dose of 1,000 mg/m2 twice daily, within 30 minutes after a meal, for 14 days followed by a 7 day rest period (without capecitabine).	Results	18
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	14-26
+capecitabine	CHEBI:31348	178-190
+day	UO:0000033	132-135
+day	UO:0000033	153-156
+Overall Number of Participants Analyzed: 79	Results	19
+Median (95% Confidence Interval)	Results	20
+median	BAO:0002174	0-6
+Unit of Measure: Days  81        (48 to 95)	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 32/79 (40.51%)	Adverse Events	1
+Febrile neutropenia * 2/79 (2.53%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/79 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Vomiting * 3/79 (3.80%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Abdominal pain * 1/79 (1.27%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Nausea * 2/79 (2.53%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Diarrhea * 2/79 (2.53%)	Adverse Events	7
+diarrhea	HP:0002014,DOID:13250	0-8
+Constipation * 0/79 (0.00%)	Adverse Events	8
+constipation	HP:0002019,DOID:2089	0-12
+Stomatitis * 2/79 (2.53%)	Adverse Events	9
+stomatitis	HP:0010280,DOID:9637	0-10
+Disease progression * 2/79 (2.53%)	Adverse Events	10
+disease	DOID:4,OGMS:0000031	0-7
+Pyrexia * 1/79 (1.27%)	Adverse Events	11
+Fatigue * 3/79 (3.80%)	Adverse Events	12
+fatigue	HP:0012378	0-7
+Mucosal inflammation * 2/79 (2.53%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 28/77 (36.36%)	Adverse Events	15
+Febrile neutropenia * 0/77 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 2/77 (2.60%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Vomiting * 2/77 (2.60%)	Adverse Events	18
+vomiting	HP:0002013	0-8
+Abdominal pain * 3/77 (3.90%)	Adverse Events	19
+abdominal pain	HP:0002027	0-14
+Nausea * 2/77 (2.60%)	Adverse Events	20
+nausea	HP:0002018	0-6
+Diarrhea * 1/77 (1.30%)	Adverse Events	21
+diarrhea	HP:0002014,DOID:13250	0-8
+Constipation * 2/77 (2.60%)	Adverse Events	22
+constipation	HP:0002019,DOID:2089	0-12
+Stomatitis * 0/77 (0.00%)	Adverse Events	23
+stomatitis	HP:0010280,DOID:9637	0-10
+Disease progression * 2/77 (2.60%)	Adverse Events	24
+disease	DOID:4,OGMS:0000031	0-7
+Pyrexia * 3/77 (3.90%)	Adverse Events	25
+Fatigue * 0/77 (0.00%)	Adverse Events	26
+fatigue	HP:0012378	0-7
+Mucosal inflammation * 0/77 (0.00%)	Adverse Events	27

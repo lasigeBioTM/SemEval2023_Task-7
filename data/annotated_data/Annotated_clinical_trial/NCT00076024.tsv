@@ -1,0 +1,111 @@
+INTERVENTION 1:	Intervention	0
+Axitinib + Docetaxel (Phase 2, Double-blind)	Intervention	1
+axitinib	CHEBI:66910	0-8
+Axitinib (AG-013736) 5 mg tablet orally BID starting from Day 1 of Cycle 1, in cycles of 3 weeks. Docetaxel 80 mg/m^2 1 hr IV infusion on Day 1 of each cycle, in cycles of 3 weeks. Treatment was continued until disease progression, intolerable toxicity, or for 2 cycles after complete response.	Intervention	2
+axitinib	CHEBI:66910	0-8
+day	UO:0000033	58-61
+day	UO:0000033	138-141
+disease	DOID:4,OGMS:0000031	211-218
+INTERVENTION 2:	Intervention	3
+Docetaxel + Placebo (Phase 2, Double-blind)	Intervention	4
+Placebo matched to axitinib (AG-013736) tablet orally BID starting from Day 1 of Cycle 1, in cycles of 3 weeks. Docetaxel 80 mg/m^2 1 hr IV infusion on Day 1 of each cycle, in cycles of 3 weeks. Treatment was continued until disease progression, intolerable toxicity, or for 2 cycles after complete response. Participants with disease progression after consent were continued to open-label phase.	Intervention	5
+axitinib	CHEBI:66910	19-27
+day	UO:0000033	72-75
+day	UO:0000033	152-155
+disease	DOID:4,OGMS:0000031	225-232
+disease	DOID:4,OGMS:0000031	327-334
+Inclusion Criteria:	Eligibility	0
+Female patients with histologically/cytologically proven metastatic breast carcinoma (stage IV, or recurrent with local or regional spread or distant metastatic disease)	Eligibility	1
+female	PATO:0000383	0-6
+breast carcinoma	HP:0003002,DOID:3459	68-84
+recurrent	HP:0031796	99-108
+disease	DOID:4,OGMS:0000031	161-168
+Adequate bone marrow, liver, and renal function	Eligibility	2
+bone marrow	UBERON:0002371	9-20
+liver	UBERON:0002107	22-27
+function	BAO:0003117,BFO:0000034	39-47
+Exclusion Criteria:	Eligibility	3
+Adjuvant chemotherapy given in the past 12 months	Eligibility	4
+adjuvant	CHEBI:60809	0-8
+Uncontrolled brain metastases	Eligibility	5
+brain	UBERON:0000955	13-18
+Outcome Measurement:	Results	0
+Time to Tumor Progression (TTP)	Results	1
+time	PATO:0000165	0-4
+ttp	CHEBI:63550	27-30
+Time in days from start of study treatment to first documentation of objective tumor progression or death due to cancer, whichever comes first. TTP was calculated as first event date minus the date of first dose of study medication plus 1. Tumor progression was determined from oncologic assessment data (where data meet the criteria for progressive disease [PD]).	Results	2
+time	PATO:0000165	0-4
+death	OAE:0000632	100-105
+cancer	DOID:162	113-119
+ttp	CHEBI:63550	144-147
+progressive	HP:0003676	338-349
+disease	DOID:4,OGMS:0000031	350-357
+Time frame: Phase 2 double-blind baseline until tumor progression or death or discontinuation from study treatment, assessed every 9 weeks up to 129 weeks	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	69-74
+Results 1:	Results	4
+Arm/Group Title: Axitinib + Docetaxel (Phase 2, Double-blind)	Results	5
+axitinib	CHEBI:66910	17-25
+Arm/Group Description: Axitinib (AG-013736) 5 mg tablet orally BID starting from Day 1 of Cycle 1, in cycles of 3 weeks. Docetaxel 80 mg/m^2 1 hr IV infusion on Day 1 of each cycle, in cycles of 3 weeks. Treatment was continued until disease progression, intolerable toxicity, or for 2 cycles after complete response.	Results	6
+axitinib	CHEBI:66910	23-31
+day	UO:0000033	81-84
+day	UO:0000033	161-164
+disease	DOID:4,OGMS:0000031	234-241
+Overall Number of Participants Analyzed: 112	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: days  247        (208 to 265)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Docetaxel + Placebo (Phase 2, Double-blind)	Results	11
+Arm/Group Description: Placebo matched to axitinib (AG-013736) tablet orally BID starting from Day 1 of Cycle 1, in cycles of 3 weeks. Docetaxel 80 mg/m^2 1 hr IV infusion on Day 1 of each cycle, in cycles of 3 weeks. Treatment was continued until disease progression, intolerable toxicity, or for 2 cycles after complete response. Participants with disease progression after consent were continued to open-label phase.	Results	12
+axitinib	CHEBI:66910	42-50
+day	UO:0000033	95-98
+day	UO:0000033	175-178
+disease	DOID:4,OGMS:0000031	248-255
+disease	DOID:4,OGMS:0000031	350-357
+Overall Number of Participants Analyzed: 55	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: days  215        (191 to 247)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/6 (16.67%)	Adverse Events	1
+Agranulocytosis * 0/6 (0.00%)	Adverse Events	2
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Febrile neutropenia * 1/6 (16.67%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/6 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Arrhythmia supraventricular * 0/6 (0.00%)	Adverse Events	5
+arrhythmia	HP:0011675	0-10
+Left ventricular dysfunction * 0/6 (0.00%)	Adverse Events	6
+left	HP:0012835	0-4
+Palpitations * 0/6 (0.00%)	Adverse Events	7
+palpitations	HP:0001962	0-12
+Pericardial effusion * 0/6 (0.00%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Restrictive cardiomyopathy * 0/6 (0.00%)	Adverse Events	9
+restrictive cardiomyopathy	HP:0001723,DOID:397	0-26
+Hypothyroidism * 0/6 (0.00%)	Adverse Events	10
+hypothyroidism	HP:0000821,DOID:1459	0-14
+Angle closure glaucoma * 0/6 (0.00%)	Adverse Events	11
+angle closure glaucoma	HP:0012109	0-22
+Adverse Events 2:	Adverse Events	12
+Total: 54/111 (48.65%)	Adverse Events	13
+Agranulocytosis * 0/111 (0.00%)	Adverse Events	14
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Febrile neutropenia * 9/111 (8.11%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 10/111 (9.01%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Arrhythmia supraventricular * 1/111 (0.90%)	Adverse Events	17
+arrhythmia	HP:0011675	0-10
+Left ventricular dysfunction * 1/111 (0.90%)	Adverse Events	18
+left	HP:0012835	0-4
+Palpitations * 1/111 (0.90%)	Adverse Events	19
+palpitations	HP:0001962	0-12
+Pericardial effusion * 1/111 (0.90%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Restrictive cardiomyopathy * 1/111 (0.90%)	Adverse Events	21
+restrictive cardiomyopathy	HP:0001723,DOID:397	0-26
+Hypothyroidism * 0/111 (0.00%)	Adverse Events	22
+hypothyroidism	HP:0000821,DOID:1459	0-14

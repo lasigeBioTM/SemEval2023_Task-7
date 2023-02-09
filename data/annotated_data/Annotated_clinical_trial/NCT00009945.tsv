@@ -1,0 +1,211 @@
+INTERVENTION 1:	Intervention	0
+Arm 1: Clodronate	Intervention	1
+Patient receives 2 tablets once daily for 3 years.	Intervention	2
+patient	HADO:0000008,OAE:0001817	0-7
+clodronate: 1600 mg PO daily	Intervention	3
+INTERVENTION 2:	Intervention	4
+Arm 2: Placebo	Intervention	5
+Patient receives 2 tablets once daily for 3 years.	Intervention	6
+patient	HADO:0000008,OAE:0001817	0-7
+placebo: 2 pills PO daily	Intervention	7
+Eligibility	Eligibility	0
+Patients must have undergone either a total mastectomy or a lumpectomy with either an axillary dissection or sentinel node biopsy. If any sentinel node is histologically positive by H & E, or histologically suspicious on H & E and confirmed positive by immunohistochemistry (IHC), then the patient must have a completion axillary dissection.	Eligibility	1
+immunohistochemistry	BAO:0000415	253-273
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	290-297
+The tumor must be invasive adenocarcinoma on histologic examination with clinical assessment T1-3, N0-1, M0.	Eligibility	2
+adenocarcinoma	DOID:299	27-41
+Patients must not be participating in any other clinical trials of systemic therapy for early-stage breast cancer. Patients may participate in the following radiation therapy trials:	Eligibility	3
+breast cancer	DOID:1612	100-113
+Node-positive patients may participate in the National Cancer Institute of Canada Clinical Trials Group protocol MA.20, provided the requirements of the B-34 protocol continue to be met. (Node-negative B-34 patients may not participate in MA.20.)	Eligibility	4
+cancer	DOID:162	55-61
+group	CHEBI:24433	98-103
+Node-positive mastectomy patients may participate in Southwest Oncology Group protocol S9927, provided the requirements of the B-34 protocol continue to be met.	Eligibility	5
+group	CHEBI:24433	72-77
+Patients must have an analysis of both estrogen and progesterone receptors on the primary tumor performed prior to randomization. Tumors will be defined as ER or progesterone receptor (PgR) positive if: 1) the Dextran-coated charcoal or sucrose-density gradient method shows them to have greater than or equal to 10 fmol/mg cytosol protein, or 2) if using individual laboratory criteria they can be shown to be positive by the enzyme immunoassay method (EIA) or immunocytochemical assay. "Marginal or borderline," results (i.e., those not definitively negative) will also be considered positive.	Eligibility	6
+estrogen	CHEBI:50114,BAO:0000760	39-47
+progesterone	CHEBI:17026	52-64
+progesterone	CHEBI:17026	162-174
+receptor	BAO:0000281	65-73
+receptor	BAO:0000281	175-183
+charcoal	CHEBI:91090	225-233
+cytosol	GO:0005829	324-331
+protein	CHEBI:36080,BAO:0000175	332-339
+enzyme	BAO:0000279	427-433
+immunoassay	BAO:0000129	434-445
+borderline	HP:0012827	501-511
+At the time of randomization, the patient must have had the following within the past 3 months: history and physical exam, a bone scan, thoracic and lumbar spine x-rays, and a chest x-ray. Within the past 12 months patients must have had a gynecologic exam (for women who have a uterus and who will be taking tamoxifen) and a bilateral mammogram.	Eligibility	7
+time	PATO:0000165	7-11
+patient	HADO:0000008,OAE:0001817	34-41
+patient	HADO:0000008,OAE:0001817	215-222
+history	BFO:0000182	96-103
+chest	UBERON:0001443	176-181
+uterus	UBERON:0000995	279-285
+tamoxifen	CHEBI:41774	309-318
+bilateral	HP:0012832	326-335
+At the time of randomization:	Eligibility	8
+time	PATO:0000165	7-11
+the postoperative absolute neutrophil count (ANC) must be greater than or equal to 1500/mm3 (or less than 1500/mm3 if, in the opinion of the investigator, this represents an ethnic or racial variation of normal);	Eligibility	9
+the postoperative platelet count must be greater than or equal to 100,000;	Eligibility	10
+platelet count	CMO:0000029	18-32
+there must be postoperative evidence of adequate hepatic function, i.e.,	Eligibility	11
+function	BAO:0003117,BFO:0000034	57-65
+total bilirubin at or below the upper limit of normal (ULN) for the laboratory; and	Eligibility	12
+alkaline phosphatase less than 2.5 x the ULN; and	Eligibility	13
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	35-36
+the serum glutamate oxaloacetate transaminase (SGOT)/ aspartate transaminase (AST) less than 1.5 x the ULN;	Eligibility	14
+glutamate	CHEBI:14321,BAO:0000926	10-19
+aspartate	CHEBI:29995	54-63
+x	LABO:0000148	21-22
+x	LABO:0000148	97-98
+there must be postoperative evidence of adequate renal function (serum creatinine within or less than the laboratory's normal range).	Eligibility	15
+function	BAO:0003117,BFO:0000034	55-63
+creatinine	CHEBI:16737	71-81
+range	LABO:0000114	126-131
+Serum albumin and serum calcium must be within normal limits.	Eligibility	16
+serum albumin	BAO:0002066	0-13
+calcium	CHEBI:22984,BAO:0000874	24-31
+A patient with skeletal pain is eligible for inclusion in the study if bone scan and/or roentgenological examination fails to disclose metastatic disease. Suspicious findings must be confirmed as benign by x-ray, MRI, or biopsy.	Eligibility	17
+patient	HADO:0000008,OAE:0001817	2-9
+pain	HP:0012531	24-28
+disease	DOID:4,OGMS:0000031	146-153
+Patients with prior nonbreast malignancies are eligible if they have been disease- free for greater than or equal to 5 years before randomization and are deemed at low risk for recurrence by their treating physicians. Patients with squamous or basal cell carcinoma of the skin that has been effectively treated, carcinoma in situ of the cervix that has been treated by surgery only, or lobular carcinoma in situ (LCIS) of the ipsilateral or contralateral breast treated by hormone therapy and/or surgery only are eligible, even if these were diagnosed within 5 years before randomization.	Eligibility	18
+basal cell carcinoma	HP:0002671,DOID:2513	244-264
+carcinoma	HP:0030731,DOID:305	255-264
+carcinoma	HP:0030731,DOID:305	312-321
+carcinoma	HP:0030731,DOID:305	394-403
+surgery	OAE:0000067	369-376
+surgery	OAE:0000067	496-503
+lobular carcinoma in situ	HP:0030076,DOID:3010	386-411
+breast	UBERON:0000310	23-29
+breast	UBERON:0000310	455-461
+hormone	CHEBI:24621	473-480
+Patients must have a Zubrod performance status of 0, 1, or 2.	Eligibility	19
+Special conditions for eligibility of lumpectomy patients: Irradiation and surgery. Patients treated by lumpectomy and axillary node dissection (or no axillary dissection if sentinel node biopsy is negative) to be followed by breast radiation therapy must meet all the eligibility criteria in addition to the following:	Eligibility	20
+surgery	OAE:0000067	75-82
+breast	UBERON:0000310	226-232
+Generally, lumpectomy should be reserved for tumors less than 5 cm. However, at the investigator's discretion, patients treated with lumpectomy for tumors greater than or equal to 5 cm are eligible.	Eligibility	21
+The margins of the resected specimen must be histologically free of invasive tumor and ductal carcinoma in situ (DCIS). For patients in whom pathologic examination demonstrates tumor present at the line of resection, additional operative procedures may be performed to obtain clear margins. This is permissible even if axillary dissection has been performed. Patients in whom tumor is still present at the resected margins after re-excision(s) must undergo total mastectomy to be eligible.	Eligibility	22
+ductal carcinoma in situ	HP:0030075,DOID:0060074	87-111
+present	PATO:0000467	183-190
+present	PATO:0000467	391-398
+Ineligibility.	Eligibility	23
+Significant non-malignant bone disease that is likely to interfere with the interpretation of bone x-rays.	Eligibility	24
+bone disease	DOID:0080001	26-38
+Ulceration, erythema, infiltration of the skin or the underlying chest wall (complete fixation), peau d'orange, or skin edema of any magnitude. (Tethering or dimpling of the skin or nipple inversion should not be interpreted as skin infiltration. Patients with these conditions are eligible.)	Eligibility	25
+erythema	HP:0010783	12-20
+chest	UBERON:0001443	65-70
+peau d'orange	HP:0025533	97-110
+edema	HP:0000969	120-125
+Ipsilateral lymph nodes that on clinical examination are found to be fixed to one another or to other structures (cN2 disease).	Eligibility	26
+lymph	UBERON:0002391	12-17
+disease	DOID:4,OGMS:0000031	118-125
+Suspicious palpable nodes in the contralateral axilla or palpable supraclavicular or infraclavicular nodes, unless there is biopsy evidence that these are not involved with tumor.	Eligibility	27
+Prior therapy for breast cancer, including irradiation, chemotherapy, biotherapy, and/or hormonal therapy, with the exception of tamoxifen. Tamoxifen may be given as adjuvant therapy before study entry, but only if it was started within 28 days before randomization. Patients who started tamoxifen within 28 days before randomization and who are being considered for chemotherapy must have their tamoxifen stopped at the start of chemotherapy.	Eligibility	28
+breast cancer	DOID:1612	18-31
+tamoxifen	CHEBI:41774	129-138
+tamoxifen	CHEBI:41774	140-149
+tamoxifen	CHEBI:41774	288-297
+tamoxifen	CHEBI:41774	396-405
+adjuvant	CHEBI:60809	166-174
+Prior history of breast cancer, except LCIS.	Eligibility	29
+history	BFO:0000182	6-13
+breast cancer	DOID:1612	17-30
+Any sex hormonal therapy, e.g., birth control pills, ovarian hormonal replacement therapy, etc. (These patients are eligible only if this therapy is discontinued prior to randomization.) Exceptions: patients may use low-dose estrogen vaginal creams or Estring® for symptomatic vaginal dryness, raloxifene (or other selective estrogen receptor modulators [SERMs]) for the prevention of osteoporosis, and luteinizing-hormone-releasing hormone (LHRH) agonists/antagonists for the purpose of medical ovarian ablation as a component of adjuvant therapy for the breast cancer.	Eligibility	30
+estrogen	CHEBI:50114,BAO:0000760	225-233
+estrogen	CHEBI:50114,BAO:0000760	325-333
+vaginal dryness	HP:0031088	277-292
+raloxifene	CHEBI:8772	294-304
+receptor	BAO:0000281	334-342
+osteoporosis	HP:0000939,DOID:11476	385-397
+hormone	CHEBI:24621	415-422
+hormone	CHEBI:24621	433-440
+adjuvant	CHEBI:60809	531-539
+breast cancer	DOID:1612	556-569
+Patients currently taking alendronate (Fosamax®) or other bisphosphonates or calcitonin to treat or prevent osteoporosis are not eligible.	Eligibility	31
+calcitonin	CHEBI:3306	77-87
+osteoporosis	HP:0000939,DOID:11476	108-120
+Non-malignant systemic disease (cardiovascular, renal, hepatic, etc.) that would preclude a patient from being subjected to any of the treatment options or would prevent prolonged follow-up.	Eligibility	32
+disease	DOID:4,OGMS:0000031	23-30
+patient	HADO:0000008,OAE:0001817	92-99
+prolonged	HP:0025297	170-179
+Psychiatric or addictive disorders that would preclude obtaining informed consent.	Eligibility	33
+Pregnancy or lactation at the time of proposed randomization. This protocol excludes pregnant or lactating women because the effects of clodronate on such women have not been studied fully.	Eligibility	34
+lactation	GO:0007595	13-22
+time	PATO:0000165	30-34
+Bilateral malignancy or a mass or mammographic abnormality in the opposite breast suspicious for malignancy unless there is biopsy proof that the mass is not malignant.	Eligibility	35
+bilateral	HP:0012832	0-9
+breast	UBERON:0000310	75-81
+Special conditions for ineligibility of lumpectomy patients: Irradiation and surgery. The following patients will also be ineligible:	Eligibility	36
+surgery	OAE:0000067	77-84
+Patients with diffuse tumors (as demonstrated on mammography) that would not be considered surgically amenable to lumpectomy.	Eligibility	37
+diffuse	HP:0020034	14-21
+Patients treated with lumpectomy in whom there is another clinically dominant mass or mammographically suspicious abnormality within the ipsilateral breast remnant. Such a mass must be biopsied and demonstrated to be histologically benign prior to randomization or, if malignant, must be surgically removed with clear margins.	Eligibility	38
+breast	UBERON:0000310	149-155
+Patients in whom the margins of the resected specimen are involved with invasive tumor or ductal carcinoma in situ (DCIS). Additional surgical resections to obtain free margins are allowed. Patients in whom tumor is still present after the additional resection(s) must undergo mastectomy to be eligible.	Eligibility	39
+ductal carcinoma in situ	HP:0030075,DOID:0060074	90-114
+present	PATO:0000467	222-229
+Outcome Measurement:	Results	0
+Disease Free Survival.	Results	1
+disease	DOID:4,OGMS:0000031	0-7
+Time to first event where an event is any recurrences, 2nd primary or death to determine the percentage of patients disease free at 8 years	Results	2
+time	PATO:0000165	0-4
+death	OAE:0000632	70-75
+disease	DOID:4,OGMS:0000031	116-123
+Time frame: 8 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1: Clodronate	Results	5
+Arm/Group Description: Patient receives 2 tablets once daily for 3 years.	Results	6
+patient	HADO:0000008,OAE:0001817	23-30
+clodronate: 1600 mg PO daily	Results	7
+Overall Number of Participants Analyzed: 1655	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of patients  81.0	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm 2: Placebo	Results	12
+Arm/Group Description: Patient receives 2 tablets once daily for 3 years.	Results	13
+patient	HADO:0000008,OAE:0001817	23-30
+placebo: 2 pills PO daily	Results	14
+Overall Number of Participants Analyzed: 1656	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of patients  79.6	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 340/1612 (21.09%)	Adverse Events	1
+Anemia 10/1612 (0.62%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Blood and lymphatic system disorders - Other, specify 3/1612 (0.19%)	Adverse Events	3
+blood	UBERON:0000178	0-5
+Febrile neutropenia 7/1612 (0.43%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac disorders - Other, specify 6/1612 (0.37%)	Adverse Events	5
+Conduction disorder 2/1612 (0.12%)	Adverse Events	6
+disorder	OGMS:0000045	11-19
+Myocardial infarction 6/1612 (0.37%)	Adverse Events	7
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Palpitations 1/1612 (0.06%)	Adverse Events	8
+palpitations	HP:0001962	0-12
+Pericardial effusion 0/1612 (0.00%)	Adverse Events	9
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus bradycardia 2/1612 (0.12%)	Adverse Events	10
+sinus bradycardia	HP:0001688	0-17
+Adverse Events 2:	Adverse Events	11
+Total: 350/1623 (21.57%)	Adverse Events	12
+Anemia 8/1623 (0.49%)	Adverse Events	13
+anemia	HP:0001903,DOID:2355	0-6
+Blood and lymphatic system disorders - Other, specify 3/1623 (0.18%)	Adverse Events	14
+blood	UBERON:0000178	0-5
+Febrile neutropenia 4/1623 (0.25%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac disorders - Other, specify 2/1623 (0.12%)	Adverse Events	16
+Conduction disorder 1/1623 (0.06%)	Adverse Events	17
+disorder	OGMS:0000045	11-19
+Myocardial infarction 4/1623 (0.25%)	Adverse Events	18
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Palpitations 0/1623 (0.00%)	Adverse Events	19
+palpitations	HP:0001962	0-12
+Pericardial effusion 2/1623 (0.12%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus bradycardia 0/1623 (0.00%)	Adverse Events	21
+sinus bradycardia	HP:0001688	0-17

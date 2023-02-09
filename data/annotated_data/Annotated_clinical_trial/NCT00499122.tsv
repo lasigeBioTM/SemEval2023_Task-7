@@ -1,0 +1,203 @@
+INTERVENTION 1:	Intervention	0
+NOV-002 and Chemotherapy	Intervention	1
+NOV-002:	Intervention	2
+Cycle 1, Day -1 only: 60 mg intravenously (IV) x 2, 3 hours (+/- 30 minutes) apart	Intervention	3
+day	UO:0000033	9-12
+x	LABO:0000148	47-48
+Cycles 1 - 8, Day 1: 60 mg IV, 1 hour (+/- 30 minutes) prior to chemotherapy administration	Intervention	4
+day	UO:0000033	14-17
+hour	UO:0000032	33-37
+Cycle 1 - 8, Days 2 - 21: 60 mg subcutaneous injections	Intervention	5
+Cyclophosphamide: 600 mg/m2 IV, Cycles 1 - 4, Day 1	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	46-49
+Doxorubicin: 60 mg/m2 IV, Cycles 1 - 4, Day 1	Intervention	7
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+day	UO:0000033	40-43
+Docetaxel: 100 mg/m2 IV, Cycles 5 - 8, Day 1	Intervention	8
+day	UO:0000033	39-42
+Inclusion Criteria:	Eligibility	0
+Females age 18 years or older.	Eligibility	1
+age	PATO:0000011	8-11
+The ability to provide written informed consent prior to study specific screening procedures, with the understanding that the patient has the right to withdraw from the study at any time.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	126-133
+right	HP:0012834	142-147
+time	PATO:0000165	182-186
+Histologically confirmed infiltrating (invasive) breast cancer by core needle biopsy, with no evidence of metastatic disease except to the ipsilateral axillary lymph nodes.	Eligibility	3
+breast cancer	DOID:1612	49-62
+disease	DOID:4,OGMS:0000031	117-124
+lymph	UBERON:0002391	160-165
+Clinical stage IIB - IIIC (T2-4, N0 or N1, M0 or - any T, N1-3, M0) breast cancer. The primary tumor must be greater than or equal to 2 cm (T2-4) or with pathologically proven axillary nodal involvement (N1-3).	Eligibility	4
+t	CHEBI:36371,BAO:0001260	10-11
+t	CHEBI:36371,BAO:0001260	27-28
+t	CHEBI:36371,BAO:0001260	55-56
+t	CHEBI:36371,BAO:0001260	73-74
+t	CHEBI:36371,BAO:0001260	83-84
+t	CHEBI:36371,BAO:0001260	95-96
+t	CHEBI:36371,BAO:0001260	104-105
+t	CHEBI:36371,BAO:0001260	113-114
+t	CHEBI:36371,BAO:0001260	117-118
+t	CHEBI:36371,BAO:0001260	131-132
+t	CHEBI:36371,BAO:0001260	140-141
+t	CHEBI:36371,BAO:0001260	151-152
+t	CHEBI:36371,BAO:0001260	156-157
+t	CHEBI:36371,BAO:0001260	201-202
+breast cancer	DOID:1612	68-81
+Patients with inflammatory breast cancer (T4) are permitted into the study.	Eligibility	5
+breast cancer	DOID:1612	27-40
+Clinically palpable tumor that meets the criteria of RECIST for palpable measurable disease. The primary tumor must be greater than or equal to 2 cm (T2-4) or with pathologically proven axillary nodal involvement (N1-3). Bilateral synchronic breast cancers are allowed but one of the primary tumors should be selected as the target tumor.	Eligibility	6
+disease	DOID:4,OGMS:0000031	84-91
+bilateral	HP:0012832	221-230
+breast	UBERON:0000310	242-248
+target	BAO:0003064	325-331
+Primary tumor may be estrogen or progesterone receptor negative or positive, and human epidermal growth factor receptor 2 (HER-2/neu) negative as determined by either Fluorescent In Situ Hybridization (FISH) or 0-2+ staining by immunohistochemistry (IHC) (Hercept™).	Eligibility	7
+estrogen	CHEBI:50114,BAO:0000760	21-29
+progesterone	CHEBI:17026	33-45
+receptor	BAO:0000281	46-54
+receptor	BAO:0000281	111-119
+growth factor	BAO:0002024	97-110
+immunohistochemistry	BAO:0000415	228-248
+Normal cardiac ejection fraction (EF  50%) as determined by screening multigated acquisition scan (MUGA) or echocardiogram.	Eligibility	8
+ejection fraction	CMO:0000180	15-32
+No prior history of myocardial infarction, congestive heart failure, symptomatic coronary artery disease, or cardiac arrhythmias.	Eligibility	9
+history	BFO:0000182	9-16
+myocardial infarction	HP:0001658,DOID:5844	20-41
+congestive heart failure	HP:0001635,DOID:6000	43-67
+coronary artery disease	DOID:3393	81-104
+Patients must be ambulatory with Eastern Cooperative Oncology Group (ECOG) Performance Status of 0-1.	Eligibility	10
+group	CHEBI:24433	62-67
+The patient or her caregiver must be able to self administer daily subcutaneous injections.	Eligibility	11
+patient	HADO:0000008,OAE:0001817	4-11
+Life expectancy greater than 6 months.	Eligibility	12
+Exclusion Criteria:	Eligibility	13
+Prior therapy of any modality for the treatment of breast cancer	Eligibility	14
+breast cancer	DOID:1612	51-64
+Any prior therapy with an anthracycline or a taxane for any other indication	Eligibility	15
+anthracycline	CHEBI:48120	26-39
+taxane	CHEBI:36064	45-51
+HER-2 positive breast cancer defined as either gene amplification by Fluorescent In Situ Hybridization (FISH) or 3+ staining by IHC (Hercept™).	Eligibility	16
+breast cancer	DOID:1612	15-28
+gene	BAO:0000582	47-51
+Women who have a positive pregnancy test, no pregnancy test available, who are pregnant or who are lactating.	Eligibility	17
+Women of childbearing potential must agree to use a reliable and appropriate contraceptive method, which could include a double barrier method (condom plus diaphragm), an intrauterine device or oral contraceptives. Women with ER or PR positive breast cancer, should not, however, use oral contraceptives as a method of contraception. Postmenopausal women must have been amenorrheic for at least 12 months to be considered of non-childbearing potential.	Eligibility	18
+diaphragm	UBERON:0001103	156-165
+breast cancer	DOID:1612	244-257
+Women with breast cancer that do not have palpable breast tumors at screening.	Eligibility	19
+breast cancer	DOID:1612	11-24
+breast	UBERON:0000310	11-17
+breast	UBERON:0000310	51-57
+History of another malignancy within the last 5 years except curatively treated basal cell carcinoma of the skin or cervical intraepithelial neoplasia.	Eligibility	20
+history	BFO:0000182	0-7
+basal cell carcinoma	HP:0002671,DOID:2513	80-100
+cervical intraepithelial neoplasia	HP:0032242	116-150
+Clinically significant (i.e. active) cardiac disease (NYHA Grade II or greater congestive heart failure, symptomatic coronary artery disease, unstable angina, and cardiac arrhythmia not well-controlled with medication), myocardial infarction within the last 6 months prior to study start, or screening ejection fraction of < 50%.	Eligibility	21
+active	PATO:0002354	29-35
+disease	DOID:4,OGMS:0000031	45-52
+disease	DOID:4,OGMS:0000031	133-140
+congestive heart failure	HP:0001635,DOID:6000	79-103
+coronary artery disease	DOID:3393	117-140
+arrhythmia	HP:0011675	171-181
+myocardial infarction	HP:0001658,DOID:5844	220-241
+ejection fraction	CMO:0000180	302-319
+Any of the following abnormal laboratory values:	Eligibility	22
+Absolute neutrophil count < 1.5 x 109/L	Eligibility	23
+x	LABO:0000148	32-33
+Platelet count < 100 x 109/L	Eligibility	24
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	21-22
+Serum bilirubin > 1.5 x upper limit of normal (ULN)	Eligibility	25
+x	LABO:0000148	22-23
+Serum alanine transaminase (ALT), aspartate transaminase (AST) > 2.5 x ULN	Eligibility	26
+alanine	CHEBI:16449	6-13
+aspartate	CHEBI:29995	34-43
+x	LABO:0000148	69-70
+Serum creatinine > 2.0 mg/dL or 177mmol/L or calculated creatinine clearance by the method of Cockcroft and Gault < 50mL/min).	Eligibility	27
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	56-66
+creatinine clearance	CMO:0000765	56-76
+Any severe or poorly controlled systemic disease (e.g., hypertension; clinically significant cardiovascular, pulmonary, or metabolic disease, disorders of wound-healing, ulcer or bone fracture).	Eligibility	28
+severe	HP:0012828	4-10
+disease	DOID:4,OGMS:0000031	41-48
+disease	DOID:4,OGMS:0000031	133-140
+hypertension	HP:0000822,DOID:10763	56-68
+ulcer	OAE:0004372	170-175
+bone fracture	HP:0020110	179-192
+Patients who have received any investigational treatment within 4 weeks of study start.	Eligibility	29
+Known infection with HIV, Hepatitis B virus (HBV), or Hepatitis C virus (HCV).	Eligibility	30
+hepatitis b	DOID:2043	26-37
+virus	BAO:0000232	38-43
+virus	BAO:0000232	66-71
+hepatitis c	DOID:1883	54-65
+Known hypersensitivity to any of the components of NOV-002 or to any of the study drugs.	Eligibility	31
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Patients assessed by the investigator to be unable or unwilling to comply with the requirements of the protocol.	Eligibility	32
+Outcome Measurement:	Results	0
+Rate of Pathologic Complete Response in the Affected Breast After Protocol Therapy	Results	1
+rate	BAO:0080019	0-4
+affected	HP:0032320	44-52
+breast	UBERON:0000310	53-59
+The primary objective of this study is to define the rate of pathologic complete response rate (pCR) in the affected breast after the preoperative administration of NOV-002 in combination with doxorubicin and cyclophosphamide followed by docetaxel in patients with stage IIB-IIIC breast cancer. Pathologic complete response (pCR) is defined according to Hankoop et al [41] as either: the absence of any histological evidence of invasive breast cancer cells in the tissue specimen removed from the breast or the presence of invasive tumor equal to or less than 10mm after preoperative treatment, determined at definitive breast surgery.	Results	2
+rate	BAO:0080019	53-57
+rate	BAO:0080019	90-94
+affected	HP:0032320	108-116
+breast	UBERON:0000310	117-123
+breast	UBERON:0000310	280-286
+breast	UBERON:0000310	437-443
+breast	UBERON:0000310	497-503
+breast	UBERON:0000310	620-626
+doxorubicin	CHEBI:28748,BAO:0000639	193-204
+cyclophosphamide	CHEBI:4026	209-225
+breast cancer	DOID:1612	280-293
+breast cancer	DOID:1612	437-450
+tissue	UBERON:0000479	464-470
+surgery	OAE:0000067	627-634
+Time frame: About 7 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: NOV-002 and Chemotherapy	Results	5
+Arm/Group Description: NOV-002:	Results	6
+Cycle 1, Day -1 only: 60 mg intravenously (IV) x 2, 3 hours (+/- 30 minutes) apart	Results	7
+day	UO:0000033	9-12
+x	LABO:0000148	47-48
+Cycles 1 - 8, Day 1: 60 mg IV, 1 hour (+/- 30 minutes) prior to chemotherapy administration	Results	8
+day	UO:0000033	14-17
+hour	UO:0000032	33-37
+Cycle 1 - 8, Days 2 - 21: 60 mg subcutaneous injections	Results	9
+Cyclophosphamide: 600 mg/m2 IV, Cycles 1 - 4, Day 1	Results	10
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	46-49
+Doxorubicin: 60 mg/m2 IV, Cycles 1 - 4, Day 1	Results	11
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+day	UO:0000033	40-43
+Docetaxel: 100 mg/m2 IV, Cycles 5 - 8, Day 1	Results	12
+day	UO:0000033	39-42
+Overall Number of Participants Analyzed: 39	Results	13
+Overall Number of Units Analyzed	Results	14
+Type of Units Analyzed: Tumors  Median (95% Confidence Interval)Unit of Measure: percentage of tumors: 39        (25 to 45)	Results	15
+median	BAO:0002174	32-38
+Adverse Events 1:	Adverse Events	0
+Total: 27/41 (65.85%)	Adverse Events	1
+Febrile Neutropenia 4/41 (9.76%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/41 (2.44%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Deep Vein Thrombosis 1/41 (2.44%)	Adverse Events	4
+vein	UBERON:0001638	5-9
+thrombosis	DOID:0060903	10-20
+Pulmonary embolism 1/41 (2.44%)	Adverse Events	5
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+Femoral Artery occlusion 1/41 (2.44%)	Adverse Events	6
+artery	UBERON:0001637	8-14
+Abdominal Pain 2/41 (4.88%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Constipation 1/41 (2.44%)	Adverse Events	8
+constipation	HP:0002019,DOID:2089	0-12
+Fatigue 2/41 (4.88%)	Adverse Events	9
+fatigue	HP:0012378	0-7
+Headache 1/41 (2.44%)	Adverse Events	10
+headache	HP:0002315	0-8
+Nausea 1/41 (2.44%)	Adverse Events	11
+nausea	HP:0002018	0-6
+Cellulitis 1/41 (2.44%)	Adverse Events	12
+cellulitis	HP:0100658,DOID:3488	0-10
+Muscular Weakness 1/41 (2.44%)	Adverse Events	13

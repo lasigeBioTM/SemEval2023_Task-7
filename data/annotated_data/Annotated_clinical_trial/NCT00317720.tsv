@@ -1,0 +1,135 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab + RAD001	Intervention	1
+Trastuzumab loading dose is 8 mg/kg daily; maintenance dose = 6 mg/kg once per 21 day cycle. RAD001 10 mg PO (by mouth) daily.	Intervention	2
+day	UO:0000033	82-85
+mouth	UBERON:0000165	113-118
+Inclusion Criteria:	Eligibility	0
+History of biopsy-proven HER-2-overexpressing breast cancer and radiographic evidence of metastatic disease. The HER-2 status can be determined either by immunohistochemistry (score, 3+) or by fluorescence in situ hybridization.	Eligibility	1
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	46-59
+disease	DOID:4,OGMS:0000031	100-107
+immunohistochemistry	BAO:0000415	154-174
+History of trastuzumab resistance, defined as the development of progressive disease after trastuzumab-based therapy for metastatic breast cancer. Patient may not have received more than 2 prior trastuzumab-based regimens and one lapatinib-based regimen (either as single agent or in combination with chemotherapy)for metastatic breast cancer. Patients who develop metastatic disease during or after adjuvant or neoadjuvant trastuzumab are eligible.	Eligibility	2
+history	BFO:0000182	0-7
+progressive	HP:0003676	65-76
+disease	DOID:4,OGMS:0000031	77-84
+disease	DOID:4,OGMS:0000031	376-383
+breast cancer	DOID:1612	132-145
+breast cancer	DOID:1612	329-342
+patient	HADO:0000008,OAE:0001817	147-154
+patient	HADO:0000008,OAE:0001817	344-351
+adjuvant	CHEBI:60809	400-408
+adjuvant	CHEBI:60809	415-423
+Performance status 0-2 (by Eastern Cooperative Oncology Group (ECOG) scale).	Eligibility	3
+group	CHEBI:24433	56-61
+Absolute neutrophil count (ANC) 1500/µl or higher; Platelets 100,000/µl or higher; Hemoglobin 9.0 gm/dL or higher; Serum creatinine 2.0 mg/dL or lower; Total bilirubin 1.5 mg/dL or lower; Serum glutamic pyruvic transaminase (SGPT) up to 3* upper limit of normal; Alkaline phosphatase up to 3* upper limit of normal; Calcium 11.0 mg/dL or lower.	Eligibility	4
+hemoglobin	CHEBI:35143	83-93
+creatinine	CHEBI:16737	121-131
+phosphatase	GO:0016791,BAO:0000295	272-283
+calcium	CHEBI:22984,BAO:0000874	316-323
+Age 18 years or older.	Eligibility	5
+age	PATO:0000011	0-3
+Patients must not be pregnant. A pregnancy test will be obtained if the patient is a woman of child-bearing potential, defined as a sexually mature woman who has not undergone a hysterectomy or who has not been naturally postmenopausal for at least 24 consecutive months (i.e., who has had menses at any time in the preceding 24 consecutive months).	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	72-79
+time	PATO:0000165	304-308
+Patients must have signed an informed consent document stating that they understand the investigational nature of the proposed treatment.	Eligibility	7
+document	IAO:0000310	46-54
+Patients must have measurable disease using Response Evaluation Criteria in Solid Tumors (RECIST). Measurable disease is defined as at least one lesion that can be accurately measured in at least one dimension with longest diameter >/= 20 mm using conventional techniques or >/= 10 mm with spiral computed tomography (CT) scan.	Eligibility	8
+disease	DOID:4,OGMS:0000031	30-37
+disease	DOID:4,OGMS:0000031	110-117
+diameter	PATO:0001334	223-231
+tomography	BAO:0002525	306-316
+ct	BAO:0002125	318-320
+Patients may not be receiving any other investigational agents, and must not have received investigational agents within 15 days of enrollment.	Eligibility	9
+Left ventricular ejection fraction determined by echocardiogram or multigated acquisition (MUGA) (cardiac scan) must be 50% or higher.	Eligibility	10
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Exclusion Criteria:	Eligibility	11
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	12
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Prior treatment with any investigational drug within the preceding 15 days	Eligibility	13
+drug	CHEBI:23888	41-45
+Chronic treatment with systemic steroids or another immunosuppressive agent	Eligibility	14
+chronic	HP:0011010	0-7
+immunosuppressive agent	CHEBI:35705	52-75
+Uncontrolled brain or leptomeningeal metastases, including patients who continue to require glucocorticoids for brain or leptomeningeal metastases, and patients diagnosed with brain mets or leptomeningeal disease (LMD) within 3 months.	Eligibility	15
+brain	UBERON:0000955	13-18
+brain	UBERON:0000955	112-117
+brain	UBERON:0000955	176-181
+disease	DOID:4,OGMS:0000031	205-212
+Other malignancies within the past 3 years except for adequately treated carcinoma of the cervix or basal or squamous cell carcinomas of the skin.	Eligibility	16
+carcinoma	HP:0030731,DOID:305	73-82
+carcinoma	HP:0030731,DOID:305	123-132
+A known history of HIV seropositivity	Eligibility	17
+history	BFO:0000182	8-15
+Impairment of gastrointestinal function or gastrointestinal disease that may significantly alter the absorption of RAD001 (e.g., ulcerative disease, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome or small bowel resection)	Eligibility	18
+function	BAO:0003117,BFO:0000034	31-39
+disease	DOID:4,OGMS:0000031	60-67
+disease	DOID:4,OGMS:0000031	140-147
+nausea	HP:0002018	162-168
+vomiting	HP:0002013	170-178
+diarrhea	HP:0002014,DOID:13250	180-188
+malabsorption	HP:0002024	190-203
+syndrome	DOID:225	204-212
+Patients with an active, bleeding diathesis or on oral anti-vitamin K medication (except low dose coumadin)	Eligibility	19
+active	PATO:0002354	17-23
+Patients who have received prior treatment with an mTor inhibitor.	Eligibility	20
+mtor inhibitor	CHEBI:68481	51-65
+History of noncompliance to medical regimens.	Eligibility	21
+history	BFO:0000182	0-7
+Patients unwilling to or unable to comply with the protocol.	Eligibility	22
+Patients who are receiving any other investigational agents	Eligibility	23
+Patients exhibiting confusion, disorientation, or having a history of major psychiatric illness that may impair the understanding of the informed consent.	Eligibility	24
+confusion	HP:0001289	20-29
+history	BFO:0000182	59-66
+Outcome Measurement:	Results	0
+Optimal Dose of RAD001 in Combination With Trastuzumab (Phase I)	Results	1
+In Phase I, two dose levels of RAD001 were studied: 10 mg (dose level 1) and 5 mg (dose level -1) where each dose was evaluated after cycle 1. At MDACC, the Continual Reassessment Method (CRM) for determining Maximum Tolerated Dose (MTD) was applied to the two predefined RAD001 dose levels; and at DFCI/BIDMC, a 3 x 3 study design was utilized.	Results	2
+mtd	BAO:0001248	233-236
+x	LABO:0000148	211-212
+x	LABO:0000148	315-316
+Optimal dose defined as the dose most closely associated with a toxicity rate of 0.20, and toxicity defined as any grade 3 or 4 toxicity (based on Common Terminology Criteria (CTC) version 3.0 except fatigue. Participants underwent clinical evaluation every 3 weeks (one cycle) and radiologic evaluations every 6 weeks. After the second cycle, participants underwent a radiologic evaluation using the same imaging technique used at initial evaluation (ie, computed tomography or magnetic resonance imaging).	Results	3
+rate	BAO:0080019	73-77
+fatigue	HP:0012378	200-207
+second	UO:0000010	330-336
+tomography	BAO:0002525	465-475
+Time frame: Following two 3 week cycles of therapy	Results	4
+time	PATO:0000165	0-4
+week	UO:0000034	28-32
+Results 1:	Results	5
+Arm/Group Title: Trastuzumab + RAD001	Results	6
+Arm/Group Description: Trastuzumab loading dose is 8 mg/kg daily; maintenance dose = 6 mg/kg once per 21 day cycle. RAD001 10 mg PO (by mouth) daily.	Results	7
+day	UO:0000033	105-108
+mouth	UBERON:0000165	136-141
+Overall Number of Participants Analyzed: 19	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: mg  10	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 47/47 (100.00%)	Adverse Events	1
+Anemia 4/47 (8.51%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Lymphopenia 13/47 (27.66%)	Adverse Events	3
+lymphopenia	HP:0001888,DOID:614	0-11
+Neutropenia 9/47 (19.15%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 4/47 (8.51%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Diarrhea 9/47 (19.15%)	Adverse Events	6
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 9/47 (19.15%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+Hyperglycemia 13/47 (27.66%)	Adverse Events	8
+hyperglycemia	HP:0003074,DOID:4195	0-13
+Hypokalemia 6/47 (12.77%)	Adverse Events	9
+hypokalemia	HP:0002900,DOID:4500	0-11
+Hyperlipidemia 4/47 (8.51%)	Adverse Events	10
+hyperlipidemia	HP:0003077	0-14
+Infection 4/47 (8.51%)	Adverse Events	11
+Mucositis 9/47 (19.15%)	Adverse Events	12
+mucositis	DOID:0080178	0-9
+Transaminitis 2/47 (4.26%)	Adverse Events	13
+Thrombosis/embolism 2/47 (4.26%)	Adverse Events	14

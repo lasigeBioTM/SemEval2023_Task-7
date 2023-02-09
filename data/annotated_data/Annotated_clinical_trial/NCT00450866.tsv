@@ -1,0 +1,203 @@
+INTERVENTION 1:	Intervention	0
+Epothilone B: Group A	Intervention	1
+epothilone b	CHEBI:31550	0-12
+group	CHEBI:24433	14-19
+Group A: Patients with progressive, radiographically measurable parenchymal brain metastases after whole brain radiation therapy (WBRT). Patupilone will be administered as a single intravenous infusion over 20 minutes, once every 3 weeks. Patupilone will be administered at a dose of 10 mg/m2 (q3weeks) with actual body weight.	Intervention	2
+group	CHEBI:24433	0-5
+progressive	HP:0003676	23-34
+brain	UBERON:0000955	76-81
+brain	UBERON:0000955	105-110
+body weight	CMO:0000012	315-326
+INTERVENTION 2:	Intervention	3
+Epothilone B: Group B	Intervention	4
+epothilone b	CHEBI:31550	0-12
+group	CHEBI:24433	14-19
+Group B: an exploratory cohort of patients, with either leptomeningeal metastases (LMD) or unirradiated, asymptomatic brain metastasis from breast cancer (BCBM).Patupilone will be administered as a single intravenous infusion over 20 minutes, once every 3 weeks. Patupilone will be administered at a dose of 10 mg/m2 (q3weeks) with actual body weight.	Intervention	5
+group	CHEBI:24433	0-5
+brain	UBERON:0000955	118-123
+breast cancer	DOID:1612	140-153
+body weight	CMO:0000012	339-350
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed carcinoma of the breast	Eligibility	1
+carcinoma	HP:0030731,DOID:305	42-51
+breast	UBERON:0000310	59-65
+CNS metastases (i.e., brain parenchymal lesions and/or leptomeningeal disease), meeting 1 of the following criteria:	Eligibility	2
+brain	UBERON:0000955	22-27
+disease	DOID:4,OGMS:0000031	70-77
+Recurrent or progressive CNS metastases after whole brain radiotherapy	Eligibility	3
+recurrent	HP:0031796	0-9
+progressive	HP:0003676	13-24
+brain	UBERON:0000955	52-57
+radiotherapy	OAE:0000235	58-70
+If only evaluable site of CNS progression has been previously treated with stereotactic radiosurgery, radiation necrosis must be excluded by radiographic (e.g., positron emission tomography scan or magnetic resonance spectroscopy) or histologic assessment	Eligibility	4
+site	BFO:0000029	18-22
+excluded	HP:0040285	129-137
+positron	CHEBI:30225	161-169
+tomography	BAO:0002525	179-189
+Newly diagnosed, untreated, asymptomatic brain or leptomeningeal metastases	Eligibility	5
+brain	UBERON:0000955	41-46
+Patient must be neurologically stable, as demonstrated by a stable dose of steroids and anticonvulsants for  1 week prior to obtaining baseline gadolinium-enhanced MRI of the brain and/or  1 week prior to beginning study treatment	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+stable	HP:0031915	31-37
+stable	HP:0031915	60-66
+week	UO:0000034	111-115
+week	UO:0000034	191-195
+brain	UBERON:0000955	175-180
+No CNS complications requiring urgent neurosurgical intervention (e.g., resection or shunt placement)	Eligibility	7
+Hormone receptor status not specified	Eligibility	8
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+Male or female	Eligibility	10
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	11
+Karnofsky performance status 60-100%	Eligibility	12
+Life expectancy  3 months	Eligibility	13
+Absolute neutrophil count > 1,500/mm^3	Eligibility	14
+Hemoglobin > 9.0 g/dL	Eligibility	15
+hemoglobin	CHEBI:35143	0-10
+Platelet count > 100,000/mm^3 (red blood cell transfusion and repeat evaluation allowed)	Eligibility	16
+platelet count	CMO:0000029	0-14
+blood	UBERON:0000178	35-40
+Bilirubin < 1.5 times upper limit of normal (ULN)	Eligibility	17
+AST and ALT < 2.5 times ULN	Eligibility	18
+Alkaline phosphatase < 2.5 times ULN	Eligibility	19
+phosphatase	GO:0016791,BAO:0000295	9-20
+Creatinine < 1.5 times ULN	Eligibility	20
+creatinine	CHEBI:16737	0-10
+Not pregnant or nursing	Eligibility	21
+Negative pregnancy test	Eligibility	22
+Fertile patients must use effective contraception during and for 3 months after completion of study therapy	Eligibility	23
+No known hypersensitivity to epothilones	Eligibility	24
+hypersensitivity	GO:0002524,DOID:1205	9-25
+No peripheral neuropathy > grade 1	Eligibility	25
+peripheral neuropathy	HP:0009830,DOID:870	3-24
+No unresolved diarrhea within the past 7 days	Eligibility	26
+diarrhea	HP:0002014,DOID:13250	14-22
+Grade 0 diarrhea required at study entry	Eligibility	27
+diarrhea	HP:0002014,DOID:13250	8-16
+No concurrent serious medical illness (e.g., HIV positivity or active hepatitis B or C)	Eligibility	28
+active	PATO:0002354	63-69
+hepatitis b	DOID:2043	70-81
+No severe cardiac insufficiency (e.g., New York Heart Association class III-IV heart disease) with uncontrolled and/or unstable cardiac or coronary artery disease	Eligibility	29
+severe	HP:0012828	3-9
+heart	UBERON:0000948	48-53
+heart	UBERON:0000948	79-84
+heart disease	DOID:114	79-92
+coronary artery disease	DOID:3393	139-162
+No active or suspected acute or chronic uncontrolled infection, including abscess or fistulae	Eligibility	30
+active	PATO:0002354	3-9
+acute	HP:0011009,PATO:0000389	23-28
+chronic	HP:0011010	32-39
+abscess	HP:0025615	74-81
+No other malignancy within the past 3 years except curatively treated nonmelanoma skin cancer, prostate cancer, or carcinoma in situ of the cervix	Eligibility	31
+skin cancer	DOID:4159	82-93
+prostate cancer	HP:0012125,DOID:10283	95-110
+carcinoma	HP:0030731,DOID:305	115-124
+No history of noncompliance to medical regimens or inability or unwillingness to return for all scheduled visits	Eligibility	32
+history	BFO:0000182	3-10
+No contraindications to MRI, including any of the following:	Eligibility	33
+Pacemaker	Eligibility	34
+Ferromagnetic implants	Eligibility	35
+Claustrophobia	Eligibility	36
+claustrophobia	HP:0025253	0-14
+Extreme obesity	Eligibility	37
+obesity	HP:0001513,DOID:9970	8-15
+PRIOR CONCURRENT THERAPY:	Eligibility	38
+See Disease Characteristics	Eligibility	39
+disease	DOID:4,OGMS:0000031	4-11
+More than 2 weeks since prior noncytotoxic drugs (e.g., small molecule-targeted drugs) and recovered	Eligibility	40
+More than 3 weeks since prior cytotoxic chemotherapy (6 weeks for nitrosoureas or mitomycin C) and recovered	Eligibility	41
+mitomycin c	CHEBI:27504	82-93
+More than 3 weeks since prior intracranial surgery and recovered	Eligibility	42
+surgery	OAE:0000067	43-50
+More than 4 weeks since prior radiotherapy and recovered	Eligibility	43
+radiotherapy	OAE:0000235	30-42
+More than 4 weeks since prior major surgery	Eligibility	44
+surgery	OAE:0000067	36-43
+More than 28 days since prior investigational compounds or drugs	Eligibility	45
+No prior epothilones	Eligibility	46
+No concurrent known diarrheagenic agents	Eligibility	47
+No other concurrent anticancer agents, including investigational agents, biological agents, or chemotherapy	Eligibility	48
+No other concurrent experimental therapies	Eligibility	49
+Concurrent hormone therapy and/or trastuzumab (Herceptin®) allowed	Eligibility	50
+hormone	CHEBI:24621	11-18
+No concurrent Coumadin® or other agents containing warfarin	Eligibility	51
+warfarin	CHEBI:10033	51-59
+Low dose Coumadin® ( 1 mg) for prophylactic maintenance of indwelling lines or ports allowed	Eligibility	52
+No concurrent radiotherapy for central metastases (e.g., vertebral or mediastinal metastases)	Eligibility	53
+radiotherapy	OAE:0000235	14-26
+central	HP:0030645	31-38
+Concurrent radiotherapy for local peripheral metastases not being used as marker lesions allowed	Eligibility	54
+radiotherapy	OAE:0000235	11-23
+peripheral	HP:0030646	34-44
+No concurrent prophylactic hematopoietic growth factors during course 1	Eligibility	55
+growth	GO:0040007	41-47
+No concurrent herbal or nontraditional medications	Eligibility	56
+Outcome Measurement:	Results	0
+Central Nervous System (CNS) Progression-free Survival(PFS)	Results	1
+central nervous system	UBERON:0001017	0-22
+The number of patients that are documented to have progression free survival at 3 months after treatment. Progression free is define as <25% increase in tumor area.	Results	2
+increase	BAO:0001251	141-149
+area	PATO:0001323	159-163
+PFS will be measured from the date of entry into the trial to the date of documented progression of brain metastases or death.	Results	3
+brain	UBERON:0000955	100-105
+death	OAE:0000632	120-125
+Time frame: 3 months after treatment	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Epothilone B: Group A	Results	6
+epothilone b	CHEBI:31550	17-29
+group	CHEBI:24433	4-9
+group	CHEBI:24433	31-36
+Arm/Group Description: Group A: Patients with progressive, radiographically measurable parenchymal brain metastases after whole brain radiation therapy (WBRT). Patupilone will be administered as a single intravenous infusion over 20 minutes, once every 3 weeks. Patupilone will be administered at a dose of 10 mg/m2 (q3weeks) with actual body weight.	Results	7
+group	CHEBI:24433	4-9
+group	CHEBI:24433	23-28
+progressive	HP:0003676	46-57
+brain	UBERON:0000955	99-104
+brain	UBERON:0000955	128-133
+body weight	CMO:0000012	338-349
+Overall Number of Participants Analyzed: 45	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  12	Results	10
+Results 2:	Results	11
+Arm/Group Title: Epothilone B: Group B	Results	12
+epothilone b	CHEBI:31550	17-29
+group	CHEBI:24433	4-9
+group	CHEBI:24433	31-36
+Arm/Group Description: Group B: an exploratory cohort of patients, with either leptomeningeal metastases (LMD) or unirradiated, asymptomatic brain metastasis from breast cancer (BCBM).Patupilone will be administered as a single intravenous infusion over 20 minutes, once every 3 weeks. Patupilone will be administered at a dose of 10 mg/m2 (q3weeks) with actual body weight.	Results	13
+group	CHEBI:24433	4-9
+group	CHEBI:24433	23-28
+brain	UBERON:0000955	141-146
+breast cancer	DOID:1612	163-176
+body weight	CMO:0000012	362-373
+Overall Number of Participants Analyzed: 10	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: participants  2	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 18/55 (32.73%)	Adverse Events	1
+Anemia * 1/55 (1.82%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Neutropenia * 1/55 (1.82%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Dehydration * 6/55 (10.91%)	Adverse Events	4
+dehydration	HP:0001944	0-11
+Diarrhea * 8/55 (14.55%)	Adverse Events	5
+diarrhea	HP:0002014,DOID:13250	0-8
+Hemorrhage, upper GI * 1/55 (1.82%)	Adverse Events	6
+Ileus, GI (functional obstruction of bowel, i.e., neuroconstipation) * 1/55 (1.82%)	Adverse Events	7
+ileus	HP:0002595,DOID:8440	0-5
+functional	BAO:0000010	11-21
+Nausea * 1/55 (1.82%)	Adverse Events	8
+nausea	HP:0002018	0-6
+Pain - Abdomen NOS (not otherwise specified) * 1/55 (1.82%)	Adverse Events	9
+pain	HP:0012531	0-4
+abdomen	UBERON:0000916	7-14
+Ulcer, GI - Duodenum * 1/55 (1.82%)	Adverse Events	10
+ulcer	OAE:0004372	0-5
+duodenum	UBERON:0002114	12-20
+Adverse Events 2:	Adverse Events	11

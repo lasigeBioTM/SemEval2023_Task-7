@@ -1,0 +1,139 @@
+INTERVENTION 1:	Intervention	0
+CT Arm	Intervention	1
+ct	BAO:0002125	0-2
+Participants received a single-agent chemotherapy at the discretion of the investigator according to the standard of care at the investigator's site until disease progression, unacceptable toxicity, participant request for withdrawal, until the maximum cumulative dose of anthracycline was reached, or end of study (24 months after randomization of the last participant). Upon second-line disease progression participants received a single-agent chemotherapy at the discretion of the investigator according to the standard of care at the investigator's site until disease progression, unacceptable toxicity, participant request for withdrawal, or end of study. Upon subsequent disease progression participants received treatment according the standard of care of the treatment site until end of study.	Intervention	2
+site	BFO:0000029	144-148
+site	BFO:0000029	553-557
+site	BFO:0000029	777-781
+disease	DOID:4,OGMS:0000031	155-162
+disease	DOID:4,OGMS:0000031	389-396
+disease	DOID:4,OGMS:0000031	564-571
+disease	DOID:4,OGMS:0000031	677-684
+anthracycline	CHEBI:48120	272-285
+INTERVENTION 2:	Intervention	3
+CT+BV Arm	Intervention	4
+Participants received a single-agent chemotherapy at the discretion of the investigator according to the standard of care at the investigator's site plus bevacizumab, 15 mg/kg, IV, every 3 weeks, or 10 mg/kg, IV, every 2 weeks until disease progression, unacceptable toxicity, participant request for withdrawal, until the maximum cumulative dose of anthracycline was reached, or end of study (24 months after randomization of the last participant). Upon second-line disease progression participants received a single-agent chemotherapy at the discretion of the investigator according to the standard of care at the investigator's site plus bevacizumab, 15 mg/kg, IV, every 3 weeks, or 10 mg/kg, IV, every 2 weeks until disease progression, unacceptable toxicity, participant request for withdrawal, or end of study. Upon subsequent disease progression participants received treatment according the standard of care of the treatment site until end of study.	Intervention	5
+site	BFO:0000029	144-148
+site	BFO:0000029	631-635
+site	BFO:0000029	933-937
+disease	DOID:4,OGMS:0000031	233-240
+disease	DOID:4,OGMS:0000031	467-474
+disease	DOID:4,OGMS:0000031	720-727
+disease	DOID:4,OGMS:0000031	833-840
+anthracycline	CHEBI:48120	350-363
+Inclusion Criteria:	Eligibility	0
+Female patients, >/= 18 years of age	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	33-36
+Histologically confirmed HER2-negative breast cancer	Eligibility	2
+breast cancer	DOID:1612	39-52
+Disease progression during or following first-line treatment with Avastin and chemotherapy for locally recurrent or metastatic breast cancer	Eligibility	3
+disease	DOID:4,OGMS:0000031	0-7
+recurrent	HP:0031796	103-112
+breast cancer	DOID:1612	127-140
+Avastin treatment in first-line setting must have been a minimum of 4 cycles (15 mg/kg) or 6 cycles (10 mg/kg) in combination with chemotherapy	Eligibility	4
+ECOG performance status 0-2	Eligibility	5
+At least 28 days since prior radiation therapy or surgery and recovery from treatment	Eligibility	6
+surgery	OAE:0000067	50-57
+Exclusion Criteria:	Eligibility	7
+Anti-angiogenic therapy or anti-vascular endothelial growth factors other than Avastin for first-line treatment	Eligibility	8
+growth	GO:0040007	53-59
+Active malignancy other than superficial basal cell and superficial squamous cell carcinoma of the skin, or in situ carcinoma of the cervix or breast within the last 5 years	Eligibility	9
+active	PATO:0002354	0-6
+squamous cell carcinoma of the skin	HP:0006739	68-103
+in situ carcinoma	DOID:8719	108-125
+breast	UBERON:0000310	143-149
+Inadequate renal function	Eligibility	10
+function	BAO:0003117,BFO:0000034	17-25
+Clinically relevant cardio-vascular disease	Eligibility	11
+disease	DOID:4,OGMS:0000031	36-43
+Known CNS disease except for treated brain metastases	Eligibility	12
+disease	DOID:4,OGMS:0000031	10-17
+brain	UBERON:0000955	37-42
+Chronic daily treatment with high-dose aspirin (>325 mg/day) or clopidogrel (>75 mg/day)	Eligibility	13
+chronic	HP:0011010	0-7
+clopidogrel	CHEBI:37941	64-75
+Pregnant or lactating women	Eligibility	14
+Outcome Measurement:	Results	0
+Percentage of Participants With Second-Line Progression-Free Survival (PFS) According to Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1 (v1.1)	Results	1
+Second-line PFS was defined as the time from randomization to progressive disease (PD) or death due to any cause during their second-line of treatment with bevacizumab and/or chemotherapy, whichever occurred first. For target lesions (TLs), PD was defined at least a 20 percent (%) increase in the sum of the largest diameter (SLD), taking as reference the smallest SLD recorded from baseline or the appearance of one or more new lesions. For non-target lesions (NTLs), PD was defined as the appearance of 1 or more new lesions and/or unequivocal progression of existing NTLs. Participants without second-line PD or death were censored at the date of last tumor assessment where non-progression was documented.	Results	2
+time	PATO:0000165	35-39
+progressive	HP:0003676	62-73
+disease	DOID:4,OGMS:0000031	74-81
+death	OAE:0000632	90-95
+death	OAE:0000632	616-621
+target	BAO:0003064	219-225
+target	BAO:0003064	447-453
+percent	UO:0000187	270-277
+increase	BAO:0001251	282-290
+diameter	PATO:0001334	317-325
+Time frame: Baseline (less than or equal to [  ] 28 days after randomization), every 8-9 weeks thereafter according to the standard of care of the treatment site until approximately 3 years	Results	3
+time	PATO:0000165	0-4
+site	BFO:0000029	157-161
+Results 1:	Results	4
+Arm/Group Title: CT Arm	Results	5
+ct	BAO:0002125	17-19
+Arm/Group Description: Participants received a single-agent chemotherapy at the discretion of the investigator according to the standard of care at the investigator's site until disease progression, unacceptable toxicity, participant request for withdrawal, until the maximum cumulative dose of anthracycline was reached, or end of study (24 months after randomization of the last participant). Upon second-line disease progression participants received a single-agent chemotherapy at the discretion of the investigator according to the standard of care at the investigator's site until disease progression, unacceptable toxicity, participant request for withdrawal, or end of study. Upon subsequent disease progression participants received treatment according the standard of care of the treatment site until end of study.	Results	6
+site	BFO:0000029	167-171
+site	BFO:0000029	576-580
+site	BFO:0000029	800-804
+disease	DOID:4,OGMS:0000031	178-185
+disease	DOID:4,OGMS:0000031	412-419
+disease	DOID:4,OGMS:0000031	587-594
+disease	DOID:4,OGMS:0000031	700-707
+anthracycline	CHEBI:48120	295-308
+Overall Number of Participants Analyzed: 247	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  88.7	Results	9
+Results 2:	Results	10
+Arm/Group Title: CT+BV Arm	Results	11
+Arm/Group Description: Participants received a single-agent chemotherapy at the discretion of the investigator according to the standard of care at the investigator's site plus bevacizumab, 15 mg/kg, IV, every 3 weeks, or 10 mg/kg, IV, every 2 weeks until disease progression, unacceptable toxicity, participant request for withdrawal, until the maximum cumulative dose of anthracycline was reached, or end of study (24 months after randomization of the last participant). Upon second-line disease progression participants received a single-agent chemotherapy at the discretion of the investigator according to the standard of care at the investigator's site plus bevacizumab, 15 mg/kg, IV, every 3 weeks, or 10 mg/kg, IV, every 2 weeks until disease progression, unacceptable toxicity, participant request for withdrawal, or end of study. Upon subsequent disease progression participants received treatment according the standard of care of the treatment site until end of study.	Results	12
+site	BFO:0000029	167-171
+site	BFO:0000029	654-658
+site	BFO:0000029	956-960
+disease	DOID:4,OGMS:0000031	256-263
+disease	DOID:4,OGMS:0000031	490-497
+disease	DOID:4,OGMS:0000031	743-750
+disease	DOID:4,OGMS:0000031	856-863
+anthracycline	CHEBI:48120	373-386
+Overall Number of Participants Analyzed: 247	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  93.9	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 55/238 (23.11%)	Adverse Events	1
+Febrile neutropenia * 5/238 (2.10%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 6/238 (2.52%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia * 1/238 (0.42%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia * 0/238 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia * 1/238 (0.42%)	Adverse Events	6
+Pancytopenia * 0/238 (0.00%)	Adverse Events	7
+pancytopenia	HP:0001876,DOID:12450	0-12
+Cardiac failure * 1/238 (0.42%)	Adverse Events	8
+Acute coronary syndrome * 0/238 (0.00%)	Adverse Events	9
+acute coronary syndrome	HP:0033678	0-23
+Atrial fibrillation * 0/238 (0.00%)	Adverse Events	10
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive * 0/238 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 89/245 (36.33%)	Adverse Events	13
+Febrile neutropenia * 12/245 (4.90%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 10/245 (4.08%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia * 2/245 (0.82%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia * 5/245 (2.04%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia * 1/245 (0.41%)	Adverse Events	18
+Pancytopenia * 1/245 (0.41%)	Adverse Events	19
+pancytopenia	HP:0001876,DOID:12450	0-12
+Cardiac failure * 2/245 (0.82%)	Adverse Events	20
+Acute coronary syndrome * 1/245 (0.41%)	Adverse Events	21
+acute coronary syndrome	HP:0033678	0-23
+Atrial fibrillation * 1/245 (0.41%)	Adverse Events	22
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive * 2/245 (0.82%)	Adverse Events	23

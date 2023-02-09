@@ -1,0 +1,167 @@
+INTERVENTION 1:	Intervention	0
+Bevacizumab + Gemcitabine + Paclitaxel	Intervention	1
+gemcitabine	CHEBI:175901	14-25
+paclitaxel	CHEBI:45863	28-38
+Gemcitabine 1000 mg/m2 by IV infusion, days 1, 8, and 15 in 28-day cycles	Intervention	2
+gemcitabine	CHEBI:175901	0-11
+Paclitaxel 80 mg/m2 by IV infusion, days 1, 8, and 15 in 28-day cycles	Intervention	3
+paclitaxel	CHEBI:45863	0-10
+Bevacizumab 10 mg/kg by IV infusion, days 1 and 15 in 28-day cycles	Intervention	4
+INCLUSION CRITERIA	Eligibility	0
+Previously-untreated metastatic breast cancer. May have had prior chest wall irradiation or palliative radiation to bony sites for control of pain or fracture. These sites of disease, however, will not be considered as sites of measurable disease.	Eligibility	1
+breast cancer	DOID:1612	32-45
+chest	UBERON:0001443	66-71
+pain	HP:0012531	142-146
+disease	DOID:4,OGMS:0000031	175-182
+disease	DOID:4,OGMS:0000031	239-246
+Use of bisphosphonates will be permitted.	Eligibility	2
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.	Eligibility	3
+group	CHEBI:24433	29-34
+Granulocyte count  1500/mm³	Eligibility	4
+Platelet count  100,000/mm³	Eligibility	5
+platelet count	CMO:0000029	0-14
+Hemoglobin  8.0 g/dL.	Eligibility	6
+hemoglobin	CHEBI:35143	0-10
+Serum glutamic oxaloacetic transaminase (SGOT) / serum glutamic pyruvic transaminase (SGPT)  2.5 x the institutional upper limit of normal (ULN) if alkaline phosphatase is  ULN or alkaline phosphatase may be up to 4 x ULN if transaminases are  ULN.	Eligibility	7
+x	LABO:0000148	16-17
+x	LABO:0000148	97-98
+x	LABO:0000148	216-217
+phosphatase	GO:0016791,BAO:0000295	157-168
+phosphatase	GO:0016791,BAO:0000295	189-200
+Total bilirubin within institutional limits of normal.	Eligibility	8
+Calculated creatinine clearance  30 mL/min using the formula: Ccr(mL/min) = [(140-age in years) X (wt in kg) X 0.85 (females)]/(72 x serum creatinine in mg/dL)	Eligibility	9
+creatinine clearance	CMO:0000765	11-31
+x	LABO:0000148	96-97
+x	LABO:0000148	109-110
+x	LABO:0000148	131-132
+creatinine	CHEBI:16737	11-21
+creatinine	CHEBI:16737	139-149
+18 years of age.	Eligibility	10
+age	PATO:0000011	12-15
+Prior anthracycline treatment in the adjuvant setting or prior chest wall radiation must have left ventricular ejection fraction (LVEF) within the institutional range of normal as assessed by pre-treatment multigated acquisition (MUGA) scan or echocardiogram (ECHO).	Eligibility	11
+anthracycline	CHEBI:48120	6-19
+adjuvant	CHEBI:60809	37-45
+chest	UBERON:0001443	63-68
+left	HP:0012835	94-98
+ejection fraction	CMO:0000180	111-128
+range	LABO:0000114	161-166
+All patients must give signed written informed consent.	Eligibility	12
+May have received adjuvant therapy as long as therapy complete > 12 months from study entry.	Eligibility	13
+adjuvant	CHEBI:60809	18-26
+Females of childbearing potential must have a negative pregnancy test taken  2 weeks prior to study enrollment, and must consent to the use of effective contraception during the study period and for 6months thereafter.	Eligibility	14
+EXCLUSION CRITERIA	Eligibility	15
+Receiving hormonal therapy	Eligibility	16
+Prior treatment for metastatic disease with cytotoxic agents or inhibitors of epidermal growth factor receptor (EGFR)	Eligibility	17
+disease	DOID:4,OGMS:0000031	31-38
+growth factor	BAO:0002024	88-101
+receptor	BAO:0000281	102-110
+Her2NEU-positive breast cancers, by either immunohistochemistry (IHC) score 3+ or fluorescence in situ hybridization (FISH)	Eligibility	18
+breast	UBERON:0000310	17-23
+immunohistochemistry	BAO:0000415	43-63
+Pregnant or lactating.	Eligibility	19
+Patients have had active malignancies other than breast cancer in the past 5 years with the exception of in situ carcinoma of the cervix or nonmelanomatous skin cancer.	Eligibility	20
+active	PATO:0002354	18-24
+breast cancer	DOID:1612	49-62
+in situ carcinoma	DOID:8719	105-122
+skin cancer	DOID:4159	156-167
+Active or unresolved infection.	Eligibility	21
+active	PATO:0002354	0-6
+Pre-existing peripheral neuropathy > Grade 1.	Eligibility	22
+peripheral neuropathy	HP:0009830,DOID:870	13-34
+Prior history of severe hypersensitivity reaction to paclitaxel, gemcitabine, bevacizumab or drugs formulated with polysorbate 80.	Eligibility	23
+history	BFO:0000182	6-13
+severe	HP:0012828	17-23
+hypersensitivity	GO:0002524,DOID:1205	24-40
+paclitaxel	CHEBI:45863	53-63
+gemcitabine	CHEBI:175901	65-76
+polysorbate 80	CHEBI:53426	115-129
+Current, recent (within 4 weeks of the first infusion of this study), or planned participation in an experimental drug study.	Eligibility	24
+drug	CHEBI:23888	114-118
+Blood pressure of >150/100 mmHg	Eligibility	25
+blood	UBERON:0000178	0-5
+Unstable angina	Eligibility	26
+New York Heart Association (NYHA) Grade II or greater congestive heart failure	Eligibility	27
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	65-70
+congestive heart failure	HP:0001635,DOID:6000	54-78
+History of myocardial infarction within 6 months	Eligibility	28
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+History of stroke within 6 months	Eligibility	29
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+Clinically-significant peripheral vascular disease	Eligibility	30
+peripheral vascular disease	DOID:341	23-50
+Evidence of bleeding diathesis or coagulopathy	Eligibility	31
+Presence of central nervous system or brain metastases	Eligibility	32
+central nervous system	UBERON:0001017	12-34
+brain	UBERON:0000955	38-43
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to Day 0, anticipation of need for major surgical procedure during the course of the study	Eligibility	33
+day	UO:0000033	81-84
+day	UO:0000033	95-98
+Minor surgical procedures, fine needle aspirations or core biopsies within 7 days prior to Day 0	Eligibility	34
+day	UO:0000033	77-80
+day	UO:0000033	91-94
+Urine protein:creatinine ratio  1.0 at screening	Eligibility	35
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	14-24
+ratio	UO:0000190	25-30
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to Day 0	Eligibility	36
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+day	UO:0000033	112-115
+Serious, non-healing wound, ulcer, or bone fracture	Eligibility	37
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+Inability to comply with study and/or follow-up procedures	Eligibility	38
+Outcome Measurement:	Results	0
+Time-to-Progression (TTP)	Results	1
+ttp	CHEBI:63550	21-24
+Time-to-Progression (TTP) was assessed as the time from start of treatment to progression, as observed on radiographic scans and assessed per the Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 criteria for progressive disease (ie, a 5-mm absolute increase of the sum of the longest diameters of the target lesions in addition to a 20% increase in the sum of the target lesions)	Results	2
+ttp	CHEBI:63550	21-24
+time	PATO:0000165	0-4
+time	PATO:0000165	46-50
+progressive	HP:0003676	218-229
+disease	DOID:4,OGMS:0000031	230-237
+increase	BAO:0001251	259-267
+increase	BAO:0001251	347-355
+target	BAO:0003064	311-317
+target	BAO:0003064	374-380
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Bevacizumab + Gemcitabine + Paclitaxel	Results	5
+gemcitabine	CHEBI:175901	31-42
+paclitaxel	CHEBI:45863	45-55
+Arm/Group Description: Gemcitabine 1000 mg/m2 by IV infusion, days 1, 8, and 15 in 28-day cycles	Results	6
+gemcitabine	CHEBI:175901	23-34
+Paclitaxel 80 mg/m2 by IV infusion, days 1, 8, and 15 in 28-day cycles	Results	7
+paclitaxel	CHEBI:45863	0-10
+Bevacizumab 10 mg/kg by IV infusion, days 1 and 15 in 28-day cycles	Results	8
+Overall Number of Participants Analyzed: 9	Results	9
+Median (Standard Deviation)	Results	10
+median	BAO:0002174	0-6
+standard deviation	BAO:0002176	8-26
+Unit of Measure: months  8.9         (5.9)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 18/26 (69.23%)	Adverse Events	1
+Thrombocytopenia * 4/26 (15.38%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Neutropenia * 3/26 (11.54%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Epitasis * 1/26 (3.85%)	Adverse Events	4
+Peripheral arterial ischemia * 1/26 (3.85%)	Adverse Events	5
+peripheral	HP:0030646	0-10
+ischemia	DOID:326	20-28
+Thrombosis *  [1]1/26 (3.85%)	Adverse Events	6
+thrombosis	DOID:0060903	0-10
+Weakness * 1/26 (3.85%)	Adverse Events	7
+Pain *  [2]2/26 (7.69%)	Adverse Events	8
+pain	HP:0012531	0-4
+Febrile neutropenia * 1/26 (3.85%)	Adverse Events	9
+neutropenia	HP:0001875,DOID:1227	8-19
+Aspartate Aminotransferase *  [3]1/26 (3.85%)	Adverse Events	10
+aspartate	CHEBI:29995	0-9
+Syncope * 1/26 (3.85%)	Adverse Events	11
+syncope	HP:0001279	0-7

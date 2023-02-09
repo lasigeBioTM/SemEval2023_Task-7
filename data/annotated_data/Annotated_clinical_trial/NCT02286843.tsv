@@ -1,0 +1,50 @@
+INTERVENTION 1:	Intervention	0
+HER2-targeted PET/CT	Intervention	1
+Pts with confirmed HER2- breast cancer will undergo HER2-targeted PET/CT. 89Zr-trastuzumab is a novel radiotracer which allows excellent visualization of HER2+ lesions. 89Zr-pertuzumab is a novel radiotracer which may allow for specific visualization of HER2+ lesions. PET/CT imaging with these novel radiotracers will allow evaluation of all identifiable malignant lesions, rather than evaluation of only single lesions by biopsy.	Intervention	2
+breast cancer	DOID:1612	25-38
+Inclusion Criteria:	Eligibility	0
+Women age > 18	Eligibility	1
+age	PATO:0000011	6-9
+Biopsy proven HER2 negative primary breast cancer and biopsy proven metastatic disease.	Eligibility	2
+breast cancer	DOID:1612	36-49
+disease	DOID:4,OGMS:0000031	79-86
+5 or more foci of demonstrable metastases on recent imaging modalities (CT, MR, FDG PET/CT)	Eligibility	3
+ct	BAO:0002125	72-74
+ct	BAO:0002125	88-90
+ECOG performance score of 0-2	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+Life expectancy < 3months	Eligibility	6
+Pregnancy or lactation	Eligibility	7
+lactation	GO:0007595	13-22
+Patients who cannot undergo PET/CT scanning because of weight limits	Eligibility	8
+CNS only disease on recent imaging	Eligibility	9
+disease	DOID:4,OGMS:0000031	9-16
+Outcome Measurement:	Results	0
+Percentage of Patients With HER2- Primary Breast Cancer Who Develop Imagable HER2+ Metastases	Results	1
+breast cancer	DOID:1612	42-55
+Both SUVmax and SUVpeak will be recorded for lesions, and SUVmax and SUVaverage will be recorded for background measurements. Only those foci qualitatively scored conspicuously positive by both readers (scores of 4 or 5) will be considered as "positive".	Results	2
+Time frame: 3 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: HER2-targeted PET/CT	Results	5
+Arm/Group Description: Pts with confirmed HER2- breast cancer will undergo HER2-targeted PET/CT. 89Zr-trastuzumab is a novel radiotracer which allows excellent visualization of HER2+ lesions. 89Zr-pertuzumab is a novel radiotracer which may allow for specific visualization of HER2+ lesions. PET/CT imaging with these novel radiotracers will allow evaluation of all identifiable malignant lesions, rather than evaluation of only single lesions by biopsy.	Results	6
+breast cancer	DOID:1612	48-61
+Overall Number of Participants Analyzed: 49	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: % of participants  13	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 6/49 (12.24%)	Adverse Events	1
+Anemia  1/49 (2.04%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Cardiac arrest  1/49 (2.04%)	Adverse Events	3
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Abdominal pain  1/49 (2.04%)	Adverse Events	4
+abdominal pain	HP:0002027	0-14
+Duodenal ulcer  3/49 (6.12%)	Adverse Events	5
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Death NOS  1/49 (2.04%)	Adverse Events	6
+death	OAE:0000632	0-5
+Pleural effusion  1/49 (2.04%)	Adverse Events	7
+pleural effusion	HP:0002202	0-16
+Respiratory failure  1/49 (2.04%)	Adverse Events	8
+respiratory failure	HP:0002878,DOID:11162	0-19

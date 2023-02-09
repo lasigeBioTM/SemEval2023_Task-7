@@ -1,0 +1,114 @@
+INTERVENTION 1:	Intervention	0
+Group I (SparkPeople Program)	Intervention	1
+group	CHEBI:24433	0-5
+Participants receive training on how to use the SparkPeople website, self-monitor their diet using the SparkPeople tool, and to self-monitor their activity daily using the Fitbit monitoring device.	Intervention	2
+Participants receive weekly motivational reminders to log into the website for 3 months via email, text, or phone, based on patient preference (active phase). Participants then enter the maintenance phase for 3 months without reminders.	Intervention	3
+log	BAO:0002172	54-57
+patient	HADO:0000008,OAE:0001817	124-131
+active	PATO:0002354	144-150
+Behavioral Dietary Intervention: Use SparkPeople web-based program	Intervention	4
+Exercise Intervention: Use Fitbit monitor and SparkPeople web-based program	Intervention	5
+Activity Monitoring Device: Wear Fitbit activity monitoring device	Intervention	6
+INTERVENTION 2:	Intervention	7
+Group II (Wait List)	Intervention	8
+group	CHEBI:24433	0-5
+Participants receive the weight loss handout and a Fitbit activity monitor. After 6 months, participants receive the SparkPeople treatment.	Intervention	9
+weight loss	HP:0001824	25-36
+Exercise Intervention: Use Fitbit monitor	Intervention	10
+Activity Monitoring Device: Wear Fitbit activity monitoring device	Intervention	11
+Inclusion Criteria:	Eligibility	0
+Patients must have evidence of histologically confirmed breast cancer, stage 0, I, II or III, and be at least 2 years post diagnosis	Eligibility	1
+breast cancer	DOID:1612	56-69
+Patient is self-identified as African-American	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+Patient is overweight or obese (body mass index [BMI] >= 25 kg/m^2)	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+overweight	HP:0025502	11-21
+Patient is able to understand and read English	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+Patient must have home internet or smartphone access	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+home	CHEBI:75830	18-22
+Patient must give informed consent for this new study	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	7
+Patient has a serious medical condition (e.g., stroke, liver or renal failure, congestive heart failure, myocardial infarction or cardiac surgery in past year, angina pectoris) that would compromise the safety of the patient or compromise the patient's ability to complete the study, at the discretion of the investigator	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	217-224
+patient	HADO:0000008,OAE:0001817	243-250
+condition	PDRO:0000129	30-39
+stroke	HP:0001297,DOID:6713	47-53
+liver	UBERON:0002107	55-60
+congestive heart failure	HP:0001635,DOID:6000	79-103
+myocardial infarction	HP:0001658,DOID:5844	105-126
+surgery	OAE:0000067	138-145
+year	UO:0000036	154-158
+angina pectoris	HP:0001681	160-175
+Patient has serious psychiatric condition (e.g., bipolar disorder, schizophrenia or other psychosis, bulimia or anorexia nervosa, suicide attempt within 6 months or current active suicidal ideation) that would compromise the patient's ability to complete the study, at the discretion of the investigator	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	225-232
+condition	PDRO:0000129	32-41
+bipolar disorder	DOID:3312	49-65
+schizophrenia	HP:0100753,DOID:5419	67-80
+psychosis	HP:0000709	90-99
+bulimia	HP:0100739	101-108
+anorexia nervosa	DOID:8689	112-128
+active	PATO:0002354	173-179
+suicidal ideation	HP:0031589	180-197
+Patient has severe disabilities limiting moderate physical activity, such as severe orthopedic conditions	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+severe	HP:0012828	12-18
+severe	HP:0012828	77-83
+moderate	HP:0012826	41-49
+Patient is planning major surgery within the next 6 months	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+surgery	OAE:0000067	26-33
+Patient is taking medications or supplements for weight loss currently or within the past 3 months	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+weight loss	HP:0001824	49-60
+Patient has successfully lost 5% of body weight in the previous 6 months or has had bariatric surgery	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+body weight	CMO:0000012	36-47
+surgery	OAE:0000067	94-101
+Patient is pregnant, breastfeeding, has given birth within the last 3 months or planning pregnancy within the next 12 months; if participant becomes pregnant during the course of the study, she will be removed from further participation	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+Patient is anticipating leaving the area within the next 12 months	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+area	PATO:0001323	36-40
+Outcome Measurement:	Results	0
+Recruitment Rate	Results	1
+rate	BAO:0080019	12-16
+Number of eligible participants who were enrolled and randomly assigned. Feasibility is defined as >= 75% recruitment rate.	Results	2
+rate	BAO:0080019	118-122
+Time frame: 12 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Group I (SparkPeople Program)	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Participants receive training on how to use the SparkPeople website, self-monitor their diet using the SparkPeople tool, and to self-monitor their activity daily using the Fitbit monitoring device.	Results	6
+Participants receive weekly motivational reminders to log into the website for 3 months via email, text, or phone, based on patient preference (active phase). Participants then enter the maintenance phase for 3 months without reminders.	Results	7
+log	BAO:0002172	54-57
+patient	HADO:0000008,OAE:0001817	124-131
+active	PATO:0002354	144-150
+Behavioral Dietary Intervention: Use SparkPeople web-based program	Results	8
+Exercise Intervention: Use Fitbit monitor and SparkPeople web-based program	Results	9
+Activity Monitoring Device: Wear Fitbit activity monitoring device	Results	10
+Overall Number of Participants Analyzed: 23	Results	11
+Measure Type: Count of Participants	Results	12
+Unit of Measure: Participants  18  78.3%	Results	13
+Results 2:	Results	14
+Arm/Group Title: Group II (Wait List)	Results	15
+group	CHEBI:24433	4-9
+group	CHEBI:24433	17-22
+Arm/Group Description: Participants receive the weight loss handout and a Fitbit activity monitor. After 6 months, participants receive the SparkPeople treatment.	Results	16
+weight loss	HP:0001824	48-59
+Exercise Intervention: Use Fitbit monitor	Results	17
+Activity Monitoring Device: Wear Fitbit activity monitoring device	Results	18
+Overall Number of Participants Analyzed: 22	Results	19
+Measure Type: Count of Participants	Results	20
+Unit of Measure: Participants  17  77.3%	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 0/18 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/17 (0.00%)	Adverse Events	3

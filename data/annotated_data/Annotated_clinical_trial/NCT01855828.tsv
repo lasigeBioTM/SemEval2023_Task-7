@@ -1,0 +1,142 @@
+INTERVENTION 1:	Intervention	0
+Chemo Plus Pertuzumab,Trastuzumab	Intervention	1
+During weeks 1-12, patients will receive pertuzumab, trastuzumab, and paclitaxel at the same time; during weeks 13-24 patients will receive pertuzumab and trastuzumab at the same time with 5-fluorouracil, epirubicin, and cyclophosphamide (FEC).	Intervention	2
+paclitaxel	CHEBI:45863	70-80
+time	PATO:0000165	93-97
+time	PATO:0000165	179-183
+5-fluorouracil	CHEBI:46345	189-203
+cyclophosphamide	CHEBI:4026	221-237
+Pertuzumab: First dose is 840mg, maintenance dose is 420mg. Pertuzumab will be administered once every 3 weeks for 24 weeks (8 doses total)	Intervention	3
+Trastuzumab: For weeks 1-12, first dose is 4 mg/kg, maintenance dose is 2 mg/kg administered every week (12 doses total).	Intervention	4
+week	UO:0000034	17-21
+week	UO:0000034	99-103
+For weeks 13-24, dose is 6mg/kg administered every 3 weeks (4 doses total).	Intervention	5
+Paclitaxel: Administered at 80mg/m2 every week from week 1 to 12 (12 doses total).	Intervention	6
+paclitaxel	CHEBI:45863	0-10
+week	UO:0000034	42-46
+week	UO:0000034	52-56
+5-fluorouracil: Administered at 500 mg/m2 for every 3 weeks during weeks 13-24 (4 doses total).	Intervention	7
+5-fluorouracil	CHEBI:46345	0-14
+Epirubicin: Administered at 75mg/m2 every 3 weeks during weeks 13-24 (4 doses total).	Intervention	8
+Cyclophosphamide: Administered at 500mg/m2 for every 3 weeks during weeks 13-24 (4 doses total).	Intervention	9
+cyclophosphamide	CHEBI:4026	0-16
+Inclusion Criteria:	Eligibility	0
+- Patients with histologically confirmed stage I-III, HER2-positive invasive breast cancer for which adjuvant/neoadjuvant chemotherapy is indicated based on physician judgment following NCCN practice guidelines.	Eligibility	1
+breast cancer	DOID:1612	77-90
+HER2 overexpression or amplification will be based on local test results and is defined as either:	Eligibility	2
+(i) IHC staining of 3+ (uniform, intense membrane staining) in greater than or equal to 10% of invasive tumor cells or, (ii) Fluorescent in situ hybridization (FISH) result of more than six HER2 gene copies per nucleus or, (iii) FISH ratio (HER2 gene signals to chromosome 17 signals) of greater than or equal to 2.0.	Eligibility	3
+membrane	GO:0016020	41-49
+result	BAO:0000179	166-172
+gene	BAO:0000582	195-199
+gene	BAO:0000582	246-250
+nucleus	CHEBI:33252,GO:0005634	211-218
+ratio	UO:0000190	234-239
+chromosome	GO:0005694	262-272
+Patients with synchronous bilateral breast cancers are eligible if at least one of the tumors is HER2-positive.	Eligibility	4
+bilateral	HP:0012832	26-35
+breast	UBERON:0000310	36-42
+Left Ventricular Ejection Fraction (LVEF) greater or equal to 50% at baseline as determined by either ECHO or MUGA, or within the institution's normal limits.	Eligibility	5
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Women of childbearing potential must have a negative pregnancy test (serum or urine beta HCG) prior to initiation of chemotherapy. Both female and male breast cancer patients who are sexually active have to agree to practice contraception while participating in the trial and for 3 month after completion of therapy.	Eligibility	6
+urine	UBERON:0001088	78-83
+female	PATO:0000383	136-142
+male breast cancer	DOID:1614	147-165
+active	PATO:0002354	192-198
+month	UO:0000035	282-287
+Adequate bone marrow function as indicated by the following:	Eligibility	7
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+ANC greater than or equal to 1500/uL	Eligibility	8
+Platelets greater than or equal to 100,000/uL	Eligibility	9
+Hemoglobin greater than or equal to 10 g/dL	Eligibility	10
+hemoglobin	CHEBI:35143	0-10
+Adequate renal function, as indicated by creatinine less than or equal to 1.5 times upper limit of normal (ULN)	Eligibility	11
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	41-51
+Adequate liver function, as indicated by bilirubin less than or equal to 1.5 X ULN and AST or ALT less than or equal to 2x ULN.	Eligibility	12
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+x	LABO:0000148	77-78
+x	LABO:0000148	121-122
+Signed informed consent.	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Patients will be excluded from the study based on any of the following criteria:	Eligibility	15
+excluded	HP:0040285	17-25
+Patients who underwent partial excisional biopsy, lumpectomy, segmental mastectomy, modified radical mastectomy or sentinel node biopsy and, therefore cannot be assessed for pathologic response accurately.	Eligibility	16
+radical	CHEBI:26519	93-100
+Patients who are high risk for developing the following anthracycline, paclitaxel, trastuzumab or pertuzumab related toxicities including:	Eligibility	17
+anthracycline	CHEBI:48120	56-69
+paclitaxel	CHEBI:45863	71-81
+History of congestive heart failure, myocardial infarction or cardiomyopathy, uncontrolled hypertension despite adequate medications Pre-existing peripheral neuropathy > grade 3 Prior anthracycline therapy Known hypersensitivity to any of the study medications Patients older than age 65 due to increased risk of cardiotoxicity	Eligibility	18
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	11-35
+myocardial infarction	HP:0001658,DOID:5844	37-58
+cardiomyopathy	HP:0001638,DOID:0050700	62-76
+hypertension	HP:0000822,DOID:10763	91-103
+peripheral neuropathy	HP:0009830,DOID:870	146-167
+anthracycline	CHEBI:48120	184-197
+hypersensitivity	GO:0002524,DOID:1205	212-228
+age	PATO:0000011	281-284
+Active infection requiring systemic antibiotic therapy.	Eligibility	19
+active	PATO:0002354	0-6
+Pregnant or lactating women	Eligibility	20
+Outcome Measurement:	Results	0
+Proportion of Participants With a Pathologic Complete Response Rate	Results	1
+rate	BAO:0080019	63-67
+To estimate the pathologic complete response rate (pCR) when pertuzumab is added to weekly trastuzumab/paclitaxel followed by trastuzumab/5-fluorouracil, epirubicin and cyclophosphamide neoadjuvant chemotherapy in HER2-positive breast cancer. This study will assess pCR rates separately in ER+ and ER- cancers. Pathologic complete response is defined as no evidence of viable invasive tumor cells at the primary tumor site and axillary lymph nodes in the surgical specimen. Residual Disease (RD) is defined as: Any invasive cancer in the breast or axillary lymph nodes in the surgical specimen.	Results	2
+rate	BAO:0080019	45-49
+rate	BAO:0080019	270-274
+rate	BAO:0080019	280-284
+cyclophosphamide	CHEBI:4026	169-185
+breast cancer	DOID:1612	228-241
+site	BFO:0000029	418-422
+lymph	UBERON:0002391	436-441
+lymph	UBERON:0002391	557-562
+disease	DOID:4,OGMS:0000031	483-490
+cancer	DOID:162	235-241
+cancer	DOID:162	302-308
+cancer	DOID:162	524-530
+breast	UBERON:0000310	228-234
+breast	UBERON:0000310	538-544
+Time frame: 20 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Chemo Plus Pertuzumab,Trastuzumab	Results	5
+Arm/Group Description: During weeks 1-12, patients will receive pertuzumab, trastuzumab, and paclitaxel at the same time; during weeks 13-24 patients will receive pertuzumab and trastuzumab at the same time with 5-fluorouracil, epirubicin, and cyclophosphamide (FEC).	Results	6
+paclitaxel	CHEBI:45863	93-103
+time	PATO:0000165	116-120
+time	PATO:0000165	202-206
+5-fluorouracil	CHEBI:46345	212-226
+cyclophosphamide	CHEBI:4026	244-260
+Pertuzumab: First dose is 840mg, maintenance dose is 420mg. Pertuzumab will be administered once every 3 weeks for 24 weeks (8 doses total)	Results	7
+Trastuzumab: For weeks 1-12, first dose is 4 mg/kg, maintenance dose is 2 mg/kg administered every week (12 doses total).	Results	8
+week	UO:0000034	17-21
+week	UO:0000034	99-103
+For weeks 13-24, dose is 6mg/kg administered every 3 weeks (4 doses total).	Results	9
+Paclitaxel: Administered at 80mg/m2 every week from week 1 to 12 (12 doses total).	Results	10
+paclitaxel	CHEBI:45863	0-10
+week	UO:0000034	42-46
+week	UO:0000034	52-56
+5-fluorouracil: Administered at 500 mg/m2 for every 3 weeks during weeks 13-24 (4 doses total).	Results	11
+5-fluorouracil	CHEBI:46345	0-14
+Epirubicin: Administered at 75mg/m2 every 3 weeks during weeks 13-24 (4 doses total).	Results	12
+Cyclophosphamide: Administered at 500mg/m2 for every 3 weeks during weeks 13-24 (4 doses total).	Results	13
+cyclophosphamide	CHEBI:4026	0-16
+Overall Number of Participants Analyzed: 48	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: proportion of participants  HR Positive: 23 participants	Results	16
+.26        (.13 to .46)	Results	17
+HR Negative: 25 participants	Results	18
+.80        (.60 to .91)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 6/50 (12.00%)	Adverse Events	1
+Ventricular tachycardia 1/50 (2.00%)	Adverse Events	2
+ventricular tachycardia	HP:0004756	0-23
+Fever  [1]1/50 (2.00%)	Adverse Events	3
+fever	HP:0001945	0-5
+Flu like symptoms 1/50 (2.00%)	Adverse Events	4
+Catheter related infection 2/50 (4.00%)	Adverse Events	5
+Suicidal ideation *  [2]1/50 (2.00%)	Adverse Events	6
+suicidal ideation	HP:0031589	0-17
+Thromboembolic event 1/50 (2.00%)	Adverse Events	7

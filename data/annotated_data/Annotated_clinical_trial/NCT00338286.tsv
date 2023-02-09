@@ -1,0 +1,126 @@
+INTERVENTION 1:	Intervention	0
+Standard of Care (SOC)	Intervention	1
+Participants received standard supportive care as packed red blood cells (RBC) transfusion as per Investigator's discretion.	Intervention	2
+blood	UBERON:0000178	61-66
+INTERVENTION 2:	Intervention	3
+Epoetin Alfa	Intervention	4
+Participants received SOC plus epoetin alfa 40,000 international units (IU) subcutaneously (SC) once a week.	Intervention	5
+week	UO:0000034	103-107
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed (e.g., slide of tissue) breast cancer	Eligibility	1
+tissue	UBERON:0000479	41-47
+breast cancer	DOID:1612	49-62
+HER2/NEU positive or negative	Eligibility	2
+Clinical evidence of metastasis (e.g., biopsy) with at least 1 measurable metastatic (M1) lesion prior to starting the current chemotherapy	Eligibility	3
+m1	CHEBI:34826	86-88
+Received 1st and 2nd line chemotherapy	Eligibility	4
+Hemoglobin (Hb) <= 11g/dL at the time of randomization	Eligibility	5
+hemoglobin	CHEBI:35143	0-10
+time	PATO:0000165	33-37
+planned to receive at least 2 more cycles of chemotherapy	Eligibility	6
+Life expectancy > 6 months	Eligibility	7
+Eastern Cooperative Oncology Group score 0 or 1	Eligibility	8
+group	CHEBI:24433	29-34
+At least 18 years old using effective birth control or surgically sterile or postmenopausal for 1 year	Eligibility	9
+year	UO:0000036	12-16
+year	UO:0000036	98-102
+Exclusion Criteria:	Eligibility	10
+Active second cancer	Eligibility	11
+active	PATO:0002354	0-6
+second	UO:0000010	7-13
+cancer	DOID:162	14-20
+no recent history of clinically relevant thrombovascular event	Eligibility	12
+history	BFO:0000182	10-17
+Current treatment with anticoagulants	Eligibility	13
+Brain metastasis or CNS involvement	Eligibility	14
+brain	UBERON:0000955	0-5
+Anemia secondary to another cause	Eligibility	15
+anemia	HP:0001903,DOID:2355	0-6
+Recent (within prior 1 months) use of an ESA	Eligibility	16
+Patient pregnant or breast feeding	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	20-26
+Progressive disease during adjuvant/neoadjuvant chemotherapy	Eligibility	18
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Rapidly progressive or life-threatening metastatic disease	Eligibility	19
+rapidly progressive	HP:0003678	0-19
+disease	DOID:4,OGMS:0000031	51-58
+Concomitant endocrine therapy	Eligibility	20
+Patient in whom the only site of metastasis was local and was successfully treated surgically.	Eligibility	21
+patient	HADO:0000008,OAE:0001817	0-7
+site	BFO:0000029	25-29
+Outcome Measurement:	Results	0
+Progression Free Survival	Results	1
+Progression free survival was based in investigator-determined progressive disease (PD) and calculated from the date of randomization to the date of PD or the date of death, whichever occurred first. Participants who had not progressed and were still alive at the time of clinical cut off were censored at the last disease assessment prior to the clinical cutoff. For PD or death with a missing interval immediately preceding the event, progression-free survival (PFS) was censored at the last disease assessment prior to the missing interval. Participants who withdrew from the study (withdrawal of consent or lost to follow-up) without progression were censored at the time of the last disease assessment.	Results	2
+progressive	HP:0003676	63-74
+disease	DOID:4,OGMS:0000031	75-82
+disease	DOID:4,OGMS:0000031	315-322
+disease	DOID:4,OGMS:0000031	494-501
+disease	DOID:4,OGMS:0000031	688-695
+death	OAE:0000632	167-172
+death	OAE:0000632	374-379
+time	PATO:0000165	264-268
+time	PATO:0000165	671-675
+Time frame: From the date of randomization to the date of disease progression (PD) or death, whichever occurred first (up to 8.4 years)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	58-65
+death	OAE:0000632	86-91
+Results 1:	Results	4
+Arm/Group Title: Standard of Care (SOC)	Results	5
+Arm/Group Description: Participants received standard supportive care as packed red blood cells (RBC) transfusion as per Investigator's discretion.	Results	6
+blood	UBERON:0000178	84-89
+Overall Number of Participants Analyzed: 1048	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  7.4        (7.1 to 7.6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Epoetin Alfa	Results	11
+Arm/Group Description: Participants received SOC plus epoetin alfa 40,000 international units (IU) subcutaneously (SC) once a week.	Results	12
+week	UO:0000034	126-130
+Overall Number of Participants Analyzed: 1050	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  7.4        (6.9 to 7.6)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 229/1045 (21.91%)	Adverse Events	1
+Agranulocytosis * 0/1045 (0.00%)	Adverse Events	2
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Anaemia * 15/1045 (1.44%)	Adverse Events	3
+Bone Marrow Failure * 0/1045 (0.00%)	Adverse Events	4
+bone marrow	UBERON:0002371	0-11
+Febrile Neutropenia * 29/1045 (2.78%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 9/1045 (0.86%)	Adverse Events	6
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 55/1045 (5.26%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	0-11
+Neutrophilia * 1/1045 (0.10%)	Adverse Events	8
+neutrophilia	HP:0011897	0-12
+Pancytopenia * 3/1045 (0.29%)	Adverse Events	9
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia * 12/1045 (1.15%)	Adverse Events	10
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute Myocardial Infarction * 2/1045 (0.19%)	Adverse Events	11
+acute myocardial infarction	DOID:9408	0-27
+Adverse Events 2:	Adverse Events	12
+Total: 251/1051 (23.88%)	Adverse Events	13
+Agranulocytosis * 1/1051 (0.10%)	Adverse Events	14
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Anaemia * 10/1051 (0.95%)	Adverse Events	15
+Bone Marrow Failure * 1/1051 (0.10%)	Adverse Events	16
+bone marrow	UBERON:0002371	0-11
+Febrile Neutropenia * 40/1051 (3.81%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 10/1051 (0.95%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 52/1051 (4.95%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Neutrophilia * 0/1051 (0.00%)	Adverse Events	20
+neutrophilia	HP:0011897	0-12
+Pancytopenia * 7/1051 (0.67%)	Adverse Events	21
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia * 18/1051 (1.71%)	Adverse Events	22
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute Myocardial Infarction * 2/1051 (0.19%)	Adverse Events	23
+acute myocardial infarction	DOID:9408	0-27

@@ -1,0 +1,86 @@
+INTERVENTION 1:	Intervention	0
+Stratum A: VR-Paclitaxel-Trastuzumab	Intervention	1
+Stratum A: Vorinostat 200 (Dose Level 1) or 300 mg (Dose level 2) by mouth on days 1-3 plus weekly paclitaxel 80 mg x 12 weeks and trastuzumab 4 mg/kg, then 2 mg/kg x 12 weeks, followed by doxorubicin 60 mg/m2 -cyclophosphamide 600 mg/m2 every 2 weeks x 8 weeks, followed by surgery	Intervention	2
+vorinostat	CHEBI:45716	11-21
+mouth	UBERON:0000165	69-74
+paclitaxel	CHEBI:45863	99-109
+x	LABO:0000148	106-107
+x	LABO:0000148	116-117
+x	LABO:0000148	165-166
+x	LABO:0000148	191-192
+x	LABO:0000148	252-253
+doxorubicin	CHEBI:28748,BAO:0000639	189-200
+surgery	OAE:0000067	275-282
+INTERVENTION 2:	Intervention	3
+Stratum B: VR-Paclitaxel-Trastuzumab	Intervention	4
+Stratum B: 300 mg by mouth on days 1-3 plus weekly paclitaxel 80 mg x 12 weeks and trastuzumab 4 mg/kg, then 2 mg/kg x 12 weeks, followed by doxorubicin 60 mg/m2 -cyclophosphamide 600 mg/m2 every 2 weeks x 8 weeks, followed by surgery	Intervention	5
+mouth	UBERON:0000165	21-26
+paclitaxel	CHEBI:45863	51-61
+x	LABO:0000148	58-59
+x	LABO:0000148	68-69
+x	LABO:0000148	117-118
+x	LABO:0000148	143-144
+x	LABO:0000148	204-205
+doxorubicin	CHEBI:28748,BAO:0000639	141-152
+surgery	OAE:0000067	227-234
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed adenocarcinoma of the breast associated with the following stages: IIB, IIIA, IIIB or IIIC.	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+Tumor must be Her2/neu positive	Eligibility	2
+No prior chemotherapy, radiation or definitive therapeutic surgery	Eligibility	3
+surgery	OAE:0000067	59-66
+Exclusion Criteria:	Eligibility	4
+May not be receiving any other investigational agents	Eligibility	5
+Uncontrolled intercurrent illness	Eligibility	6
+Outcome Measurement:	Results	0
+Recommended Phase II Dose of Vorinostat in Combination With Weekly Paclitaxel/Trastuzumab	Results	1
+vorinostat	CHEBI:45716	29-39
+Dose limiting toxicity in cycle 1	Results	2
+Time frame: 3 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Stratum A: VR-Paclitaxel-Trastuzumab	Results	5
+Arm/Group Description: Stratum A: Vorinostat 200 (Dose Level 1) or 300 mg (Dose level 2) by mouth on days 1-3 plus weekly paclitaxel 80 mg x 12 weeks and trastuzumab 4 mg/kg, then 2 mg/kg x 12 weeks, followed by doxorubicin 60 mg/m2 -cyclophosphamide 600 mg/m2 every 2 weeks x 8 weeks, followed by surgery	Results	6
+vorinostat	CHEBI:45716	34-44
+mouth	UBERON:0000165	92-97
+paclitaxel	CHEBI:45863	122-132
+x	LABO:0000148	129-130
+x	LABO:0000148	139-140
+x	LABO:0000148	188-189
+x	LABO:0000148	214-215
+x	LABO:0000148	275-276
+doxorubicin	CHEBI:28748,BAO:0000639	212-223
+surgery	OAE:0000067	298-305
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: mg  300	Results	9
+Results 2:	Results	10
+Arm/Group Title: Stratum B: VR-Paclitaxel-Trastuzumab	Results	11
+Arm/Group Description: Stratum B: 300 mg by mouth on days 1-3 plus weekly paclitaxel 80 mg x 12 weeks and trastuzumab 4 mg/kg, then 2 mg/kg x 12 weeks, followed by doxorubicin 60 mg/m2 -cyclophosphamide 600 mg/m2 every 2 weeks x 8 weeks, followed by surgery	Results	12
+mouth	UBERON:0000165	44-49
+paclitaxel	CHEBI:45863	74-84
+x	LABO:0000148	81-82
+x	LABO:0000148	91-92
+x	LABO:0000148	140-141
+x	LABO:0000148	166-167
+x	LABO:0000148	227-228
+doxorubicin	CHEBI:28748,BAO:0000639	164-175
+surgery	OAE:0000067	250-257
+Overall Number of Participants Analyzed: 6	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: mg  300	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1
+cardiac tamponade 0/3 (0.00%)	Adverse Events	2
+cardiac tamponade	HP:0033415,DOID:115	0-17
+congestive heart failure 0/3 (0.00%)	Adverse Events	3
+congestive heart failure	HP:0001635,DOID:6000	0-24
+pulmonary emobolism 0/3 (0.00%)	Adverse Events	4
+Adverse Events 2:	Adverse Events	5
+Total: 2/23 (8.70%)	Adverse Events	6
+cardiac tamponade 0/23 (0.00%)	Adverse Events	7
+cardiac tamponade	HP:0033415,DOID:115	0-17
+congestive heart failure 1/23 (4.35%)	Adverse Events	8
+congestive heart failure	HP:0001635,DOID:6000	0-24
+pulmonary emobolism 1/23 (4.35%)	Adverse Events	9

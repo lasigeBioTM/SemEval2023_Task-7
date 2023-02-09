@@ -1,0 +1,97 @@
+INTERVENTION 1:	Intervention	0
+Treated Patients	Intervention	1
+Patients received oral lithium carbonate once or twice daily. Treatment continued for up to 8 weeks in the absence of disease progression or unacceptable toxicity.	Intervention	2
+lithium carbonate	CHEBI:6504	23-40
+disease	DOID:4,OGMS:0000031	118-125
+Inclusion Criteria:	Eligibility	0
+Patient with a diagnosis of severe intestinal GVHD that is not improving at any time after initial treatment with glucocorticoids for at least 7 days are eligible for enrollment; measures indicating severity of GVHD will include: a) persistent diarrhea with average daily stool volumes > 500 mL per day; or b) persistent hemorrhage that is detectable by visual inspection of the stool	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+severe	HP:0012828	28-34
+time	PATO:0000165	80-84
+severity	HP:0012824	199-207
+diarrhea	HP:0002014,DOID:13250	244-252
+day	UO:0000033	145-148
+day	UO:0000033	299-302
+Patients with denuded mucosa caused by GVHD are eligible for enrollment, regardless of prior treatment for acute GVHD; denuded mucosa is defined as loss (i.e., erosion or sloughing) of the epithelium in: a) at least one-third of the surface area in a 30 cm colonic segment (i.e., rectosigmoid, descending or transverse colon); or b) at least one fifth of the surface area of the second portion of the duodenum, as estimated by endoscopic evaluation; denuded mucosa must be documented by images of the duodenum and colon and by histologic evaluation of the colon	Eligibility	2
+mucosa	UBERON:0000344	22-28
+mucosa	UBERON:0000344	127-133
+mucosa	UBERON:0000344	458-464
+acute	HP:0011009,PATO:0000389	107-112
+epithelium	UBERON:0000483	189-199
+area	PATO:0001323	241-245
+area	PATO:0001323	367-371
+transverse colon	UBERON:0001157	308-324
+second	UO:0000010	379-385
+duodenum	UBERON:0002114	401-409
+duodenum	UBERON:0002114	501-509
+colon	UBERON:0001155	257-262
+colon	UBERON:0001155	319-324
+colon	UBERON:0001155	514-519
+colon	UBERON:0001155	556-561
+All subjects must provide written informed consent with the use of forms approved by the Fred Hutchinson Cancer Research Center (FHCRC) Institutional Review Board (IRB)	Eligibility	3
+cancer	DOID:162	105-111
+Exclusion Criteria:	Eligibility	4
+Significant renal dysfunction (estimated creatinine clearance < 30 mL/min)	Eligibility	5
+creatinine clearance	CMO:0000765	41-61
+Persistent or recurrent malignancy	Eligibility	6
+recurrent	HP:0031796	14-23
+Secondary malignancy	Eligibility	7
+Patients who had autologous or syngeneic marrow transplantation	Eligibility	8
+Presence of any cause of intestinal symptoms or ulceration other than GVHD	Eligibility	9
+Patients with any psychological, familial, sociological or geographical condition potentially hampering compliance with the study protocol will be excluded	Eligibility	10
+condition	PDRO:0000129	72-81
+excluded	HP:0040285	147-155
+Outcome Measurement:	Results	0
+Functional Recovery	Results	1
+functional	BAO:0000010	0-10
+Functional recovery was defined as partial or complete resolution of gastrointestinal manifestations of acute graft-versus-host disease. Gastrointestinal manifestations of acute graft-versus-host disease include anorexia, nausea, vomiting, diarrhea, abdominal pain and bleeding. Complete response (CR) of intestinal GVHD was defined as the absence of any symptoms referable to intestinal GVHD. Partial response (PR) was defined as clearing of abdominal pain (or withdrawal of opioid analgesic requirements in patients treated for abdominal pain) and of grossly visible bleeding if present, and resolution of diarrhea or decrease in the three day average stool volume by  500 mL in patients with stool volumes of  500 mL. Progression of GVHD was defined as an increase in the three day average stool volume by > 500 mL, or the development of new abdominal pain (or new opioid analgesic requirements) or new intestinal bleeding.	Results	2
+functional	BAO:0000010	0-10
+acute	HP:0011009,PATO:0000389	104-109
+acute	HP:0011009,PATO:0000389	172-177
+graft-versus-host disease	DOID:0081267	110-135
+graft-versus-host disease	DOID:0081267	178-203
+anorexia	HP:0002039	212-220
+nausea	HP:0002018	222-228
+vomiting	HP:0002013	230-238
+diarrhea	HP:0002014,DOID:13250	240-248
+diarrhea	HP:0002014,DOID:13250	608-616
+abdominal pain	HP:0002027	250-264
+abdominal pain	HP:0002027	443-457
+abdominal pain	HP:0002027	530-544
+abdominal pain	HP:0002027	845-859
+opioid analgesic	CHEBI:35482	476-492
+opioid analgesic	CHEBI:35482	868-884
+present	PATO:0000467	581-588
+day	UO:0000033	642-645
+day	UO:0000033	781-784
+volume	PATO:0000918	660-666
+volume	PATO:0000918	701-707
+volume	PATO:0000918	799-805
+increase	BAO:0001251	759-767
+intestinal bleeding	HP:0002584	906-925
+Time frame: at 28 days after starting treatment with the study product	Results	3
+time	PATO:0000165	0-4
+product	BAO:0003067	63-70
+Results 1:	Results	4
+Arm/Group Title: Treated Patients	Results	5
+Arm/Group Description: Patients received oral lithium carbonate once or twice daily. Treatment continued for up to 8 weeks in the absence of disease progression or unacceptable toxicity.	Results	6
+lithium carbonate	CHEBI:6504	46-63
+disease	DOID:4,OGMS:0000031	141-148
+Overall Number of Participants Analyzed: 20	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Complete clinical response: 10  50.0%	Results	9
+Partial clinical response: 1   5.0%	Results	10
+No response or clinical progression: 6  30.0%	Results	11
+Death before day 28: 3  15.0%	Results	12
+death	OAE:0000632	0-5
+day	UO:0000033	13-16
+Adverse Events 1:	Adverse Events	0
+Total: 12/20 (60.00%)	Adverse Events	1
+Recurrent malignancy *1/20 (5.00%)	Adverse Events	2
+recurrent	HP:0031796	0-9
+Graft-versus-host disease *7/20 (35.00%)	Adverse Events	3
+graft-versus-host disease	DOID:0081267	0-25
+Infection *7/20 (35.00%)	Adverse Events	4
+Altered mental status *2/20 (10.00%)	Adverse Events	5
+Diffuse alveolar hemorrhage *1/20 (5.00%)	Adverse Events	6
+diffuse alveolar hemorrhage	HP:0025420	0-27

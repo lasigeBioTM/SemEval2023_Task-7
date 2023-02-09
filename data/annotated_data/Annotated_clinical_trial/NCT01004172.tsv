@@ -1,0 +1,197 @@
+INTERVENTION 1:	Intervention	0
+Carboplatin, Bevacizumab, Trastuzumab (if HER2+)	Intervention	1
+carboplatin	CHEBI:31355	0-11
+Participants received treatment until disease progression in either CNS or non-CNS site. Cycle duration is 28 days.	Intervention	2
+disease	DOID:4,OGMS:0000031	38-45
+site	BFO:0000029	83-87
+duration	PATO:0001309	95-103
+carboplatin: AUC=5 dose given intravenously on day 8 of cycle one and Day 1 of each subsequent cycle	Intervention	3
+carboplatin	CHEBI:31355	0-11
+day	UO:0000033	47-50
+day	UO:0000033	70-73
+bevacizumab: 15 mg/kg dose given intravenously on day 1 of each cycle	Intervention	4
+day	UO:0000033	50-53
+trastuzumab*: 6 mg/kg dose given intravenously on day 8 of each cycle for patients with HER2-positive breast cancer only	Intervention	5
+day	UO:0000033	50-53
+breast cancer	DOID:1612	102-115
+*8mg/kg loading dose in cycle 1 for some participants	Intervention	6
+HER-2: human epidermal growth factor receptor 2	Intervention	7
+growth factor	BAO:0002024	23-36
+receptor	BAO:0000281	37-45
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed invasive breast cancer, with metastatic disease. patients without pathologic or cytologic confirmation of metastatic disease should have unequivocal evidence of metastasis by physical exam or radiologic study	Eligibility	1
+breast cancer	DOID:1612	51-64
+disease	DOID:4,OGMS:0000031	82-89
+disease	DOID:4,OGMS:0000031	159-166
+Measurable disease. Patients must have measurable CNS disease, defined as at least one parenchymal brain lesion that can be accurately measured in at least one dimension with longest dimension >/= 10mm by local radiology review	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	54-61
+brain	UBERON:0000955	99-104
+New or progressive CNS lesions, as assessed by the patient's treating physician	Eligibility	3
+progressive	HP:0003676	7-18
+patient	HADO:0000008,OAE:0001817	51-58
+No increase in corticosteroid dose in the week prior to the baseline brain MRI	Eligibility	4
+increase	BAO:0001251	3-11
+corticosteroid	CHEBI:50858	15-29
+week	UO:0000034	42-46
+brain	UBERON:0000955	69-74
+18 years of age or older	Eligibility	5
+age	PATO:0000011	12-15
+Life expectancy of greater than 12 weeks	Eligibility	6
+Eastern Cooperative Oncology Group Performance Score (ECOG PS) performance status 0-2	Eligibility	7
+group	CHEBI:24433	29-34
+Normal organ and marrow function as outlined in the protocol	Eligibility	8
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	24-32
+Left ventricular ejection fraction >/= 50%, as determined by radionuclide ventriculography (RVG) or echocardiogram within 60 days prior to initiation of protocol therapy	Eligibility	9
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Prior carboplatin is allowed if it was not given in conjunction with bevacizumab	Eligibility	10
+carboplatin	CHEBI:31355	6-17
+Prior trastuzumab is allowed	Eligibility	11
+No prior bevacizumab since diagnosis of CNS metastases or within 6 months prior to diagnosis of CNS metastases	Eligibility	12
+Women of child-bearing potential and men must agree to use adequate contraception prior to study entry and for the duration of study participation	Eligibility	13
+duration	PATO:0001309	115-123
+Exclusion Criteria:	Eligibility	14
+Patients who have had chemotherapy within 14 days prior to entering the study, or those who have not recovered adequately from adverse events due to agents administered earlier	Eligibility	15
+Patients may not receive any concurrent investigational agents while on study	Eligibility	16
+Patients may not receive any cancer-directed concurrent therapy , such as concurrent chemotherapy, radiotherapy, or hormonal therapy while on study. Concurrent treatment with bisphosphonates is allowed	Eligibility	17
+radiotherapy	OAE:0000235	99-111
+History of Grade 3 or 4 allergic reactions attributed to compounds of similar or identical biologic composition to bevacizumab, carboplatin, or trastuzumab	Eligibility	18
+history	BFO:0000182	0-7
+carboplatin	CHEBI:31355	128-139
+Known contraindication to MRI with gadolinium contrast, such as cardiac pacemaker, shrapnel, or ocular foreign body	Eligibility	19
+contraindication	OAE:0000055	6-22
+Leptomeningeal carcinomatosis as the only site of CNS involvement	Eligibility	20
+site	BFO:0000029	42-46
+More than 2 seizures over last 4 weeks prior to study entry	Eligibility	21
+Grade 1 or higher CNS hemorrhage on baseline brain MRI	Eligibility	22
+brain	UBERON:0000955	45-50
+History of grade 2 or higher CNS hemorrhage within 12 months of study entry	Eligibility	23
+history	BFO:0000182	0-7
+Inadequately controlled hypertension	Eligibility	24
+hypertension	HP:0000822,DOID:10763	24-36
+Prior history of hypertensive crisis or hypertensive encephalopathy	Eligibility	25
+history	BFO:0000182	6-13
+hypertensive crisis	HP:0100735	17-36
+hypertensive encephalopathy	DOID:9427	40-67
+New York Heart Association (NYHA) Grade II or greater congestive heart failure	Eligibility	26
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	65-70
+congestive heart failure	HP:0001635,DOID:6000	54-78
+History of myocardial infraction or unstable angina within 6 months prior to day 1	Eligibility	27
+history	BFO:0000182	0-7
+day	UO:0000033	77-80
+Significant vascular disease within 6 months prior to day 1	Eligibility	28
+vascular disease	DOID:178	12-28
+day	UO:0000033	54-57
+History of hemoptysis within 1 month prior to day 1	Eligibility	29
+history	BFO:0000182	0-7
+hemoptysis	HP:0002105	11-21
+month	UO:0000035	31-36
+day	UO:0000033	46-49
+Evidence of bleeding diathesis or significant coagulopathy	Eligibility	30
+Current, ongoing treatment with full-dose warfarin or its equivalent	Eligibility	31
+warfarin	CHEBI:10033	42-50
+Use of aspirin (>325 mg/day) within 10 days prior to day 1	Eligibility	32
+day	UO:0000033	24-27
+day	UO:0000033	39-42
+day	UO:0000033	53-56
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to day 1 or anticipation of need for major surgical procedure during the course of the study.	Eligibility	33
+day	UO:0000033	81-84
+day	UO:0000033	95-98
+Core biopsy or other minor surgical procedure, excluding placement of a vascular access device, within 7 days prior to day 1	Eligibility	34
+day	UO:0000033	105-108
+day	UO:0000033	119-122
+History of abdominal fistula or gastrointestinal perforation within 6 months prior to day 1	Eligibility	35
+history	BFO:0000182	0-7
+day	UO:0000033	86-89
+Serious, non-healing wound, active ulcer, or untreated bone fracture	Eligibility	36
+active	PATO:0002354	28-34
+ulcer	OAE:0004372	35-40
+bone fracture	HP:0020110	55-68
+Proteinuria as demonstrated by a urine protein-creatinine ratio >/= 1.0 at screening	Eligibility	37
+proteinuria	HP:0000093,DOID:576	0-11
+urine	UBERON:0001088	33-38
+ratio	UO:0000190	58-63
+Known hypersensitivity to any component of bevacizumab	Eligibility	38
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Pregnancy or lactation	Eligibility	39
+lactation	GO:0007595	13-22
+Outcome Measurement:	Results	0
+Central Nervous System (CNS) Objective Response Rate	Results	1
+central nervous system	UBERON:0001017	0-22
+rate	BAO:0080019	48-52
+CNS objective response rate is the percentage of participants that achieve CNS complete or partial response as follows:	Results	2
+rate	BAO:0080019	23-27
+CNS complete response (CR) is achieved if all of the following are satisfied:	Results	3
+Complete resolution of all measurable (>= 1 cm in longest dimension [LD]) and non-measurable brain metastases	Results	4
+brain	UBERON:0000955	93-98
+No new CNS lesions (defined as any new lesion >= 6 mm in LD)	Results	5
+Stable or decreasing steroid dose	Results	6
+stable	HP:0031915	0-6
+steroid	CHEBI:35341	21-28
+No new/progressive tumor-related neurologic signs or symptoms	Results	7
+No progression of extra-CNS disease as assessed by RECIST	Results	8
+disease	DOID:4,OGMS:0000031	28-35
+CNS partial response (PR) is achieved if all of the following are satisfied:	Results	9
+->/= 50% reduction in the volumetric sum of all measurable (>/= 1 cm in LD) brain metastases compared to baseline	Results	10
+brain	UBERON:0000955	76-81
+No progression on non-measurable lesions	Results	11
+No new CNS lesions (defined as any new lesion >/= 6 mm in LD)	Results	12
+Stable or decreasing steroid dose	Results	13
+stable	HP:0031915	0-6
+steroid	CHEBI:35341	21-28
+No new/progressive tumor-related neurologic signs or symptoms	Results	14
+No progression of extra-CNS disease as assessed by RECIST	Results	15
+disease	DOID:4,OGMS:0000031	28-35
+Time frame: Response was evaluated radiologically at baseline and every 2 cycles on treatment. Treatment duration for this study cohort was a median (range) of 8 cycles (1-20) which approximates months given the 4 week cycle length.	Results	16
+time	PATO:0000165	0-4
+duration	PATO:0001309	105-113
+median	BAO:0002174	142-148
+range	LABO:0000114	150-155
+week	UO:0000034	214-218
+length	PATO:0000122	225-231
+Results 1:	Results	17
+Arm/Group Title: Carboplatin, Bevacizumab, Trastuzumab (if HER2+)	Results	18
+carboplatin	CHEBI:31355	17-28
+Arm/Group Description: Participants received treatment until disease progression in either CNS or non-CNS site. Cycle duration is 28 days.	Results	19
+disease	DOID:4,OGMS:0000031	61-68
+site	BFO:0000029	106-110
+duration	PATO:0001309	118-126
+carboplatin: AUC=5 dose given intravenously on day 8 of cycle one and Day 1 of each subsequent cycle	Results	20
+carboplatin	CHEBI:31355	0-11
+day	UO:0000033	47-50
+day	UO:0000033	70-73
+bevacizumab: 15 mg/kg dose given intravenously on day 1 of each cycle	Results	21
+day	UO:0000033	50-53
+trastuzumab*: 6 mg/kg dose given intravenously on day 8 of each cycle for patients with HER2-positive breast cancer only	Results	22
+day	UO:0000033	50-53
+breast cancer	DOID:1612	102-115
+*8mg/kg loading dose in cycle 1 for some participants	Results	23
+HER-2: human epidermal growth factor receptor 2	Results	24
+growth factor	BAO:0002024	23-36
+receptor	BAO:0000281	37-45
+Overall Number of Participants Analyzed: 38	Results	25
+Measure Type: Number	Results	26
+Unit of Measure: percentage of participants  63        (47 to 77)	Results	27
+Adverse Events 1:	Adverse Events	0
+Total: 16/38 (42.11%)	Adverse Events	1
+Hemoglobin 1/38 (2.63%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Ocular-other 1/38 (2.63%)	Adverse Events	3
+Fatigue 6/38 (15.79%)	Adverse Events	4
+fatigue	HP:0012378	0-7
+Leukocytes 1/38 (2.63%)	Adverse Events	5
+Neutrophils 3/38 (7.89%)	Adverse Events	6
+Platelets 4/38 (10.53%)	Adverse Events	7
+ALT, SGPT 1/38 (2.63%)	Adverse Events	8
+AST, SGOT 2/38 (5.26%)	Adverse Events	9
+Hypercalcemia 1/38 (2.63%)	Adverse Events	10
+hypercalcemia	HP:0003072,DOID:12678	0-13
+Hyponatremia 1/38 (2.63%)	Adverse Events	11
+hyponatremia	HP:0002902	0-12
+Nonneuropathic generalized weakness 1/38 (2.63%)	Adverse Events	12
+generalized	HP:0012837	15-26
+Joint, pain 1/38 (2.63%)	Adverse Events	13
+pain	HP:0012531	7-11

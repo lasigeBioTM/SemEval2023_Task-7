@@ -1,0 +1,64 @@
+INTERVENTION 1:	Intervention	0
+Supportive Care (Dakin's Solution, Radiation Therapy)	Intervention	1
+solution	CHEBI:75958	25-33
+Patients apply Dakin's solution topically daily over 10 minutes within 60 minutes of radiation therapy for up to 6 weeks.	Intervention	2
+solution	CHEBI:75958	23-31
+Dakin's solution: Applied topically	Intervention	3
+solution	CHEBI:75958	8-16
+radiation therapy: Undergo radiation therapy	Intervention	4
+questionnaire administration: Ancillary studies	Intervention	5
+laboratory biomarker analysis: Optional correlative studies	Intervention	6
+biomarker	CHEBI:59163	11-20
+Inclusion Criteria:	Eligibility	0
+Women with breast cancer who plan to undergo radiation therapy to the breast or chest wall	Eligibility	1
+breast cancer	DOID:1612	11-24
+breast	UBERON:0000310	11-17
+breast	UBERON:0000310	70-76
+chest	UBERON:0001443	80-85
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	2
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	3
+Women with scleroderma or discoid lupus	Eligibility	4
+scleroderma	HP:0100324,DOID:419,DOID:418	11-22
+Women with inflammatory breast cancer as evidenced by clinical assessment	Eligibility	5
+breast cancer	DOID:1612	24-37
+Women with breast cancer involving the skin	Eligibility	6
+breast cancer	DOID:1612	11-24
+Women who have undergone prior radiotherapy to the chest wall and/or breast	Eligibility	7
+radiotherapy	OAE:0000235	31-43
+chest	UBERON:0001443	51-56
+breast	UBERON:0000310	69-75
+Outcome Measurement:	Results	0
+Percent of Women Who Develop Grade 3 or 4 Radiation Dermatitis (as Defined by the Stanford Radiation Dermatitis Scoring System) During a Course of Radiation Therapy	Results	1
+percent	UO:0000187	0-7
+dermatitis	DOID:2723	52-62
+dermatitis	DOID:2723	101-111
+Stanford Radiation Dermatitis Scoring System:	Results	2
+dermatitis	DOID:2723	19-29
+Grade Clinical finding	Results	3
+clinical finding	OGMS:0000014	6-22
+0 No skin change	Results	4
+1 Faint, barely detectable erythema 2 Follicular rash, hyperpigmentation, evolving erythema 3 Dry desquamation, brisk erythema 4 Moist desquamation 5 Bleeding, ulceration, and/or infection	Results	5
+erythema	HP:0010783	27-35
+erythema	HP:0010783	83-91
+erythema	HP:0010783	118-126
+Time frame: Baseline to up to 6 weeks after completion of therapy	Results	6
+time	PATO:0000165	0-4
+Results 1:	Results	7
+Arm/Group Title: Supportive Care (Dakin's Solution, Radiation Therapy)	Results	8
+solution	CHEBI:75958	42-50
+Arm/Group Description: Patients apply Dakin's solution topically daily over 10 minutes within 60 minutes of radiation therapy for up to 6 weeks.	Results	9
+solution	CHEBI:75958	46-54
+Dakin's solution: Applied topically	Results	10
+solution	CHEBI:75958	8-16
+radiation therapy: Undergo radiation therapy	Results	11
+questionnaire administration: Ancillary studies	Results	12
+laboratory biomarker analysis: Optional correlative studies	Results	13
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 14	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  6  42.9%	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 3/20 (15.00%)	Adverse Events	1
+Dermatitis radiation 3/20 (15.00%)	Adverse Events	2
+dermatitis	DOID:2723	0-10

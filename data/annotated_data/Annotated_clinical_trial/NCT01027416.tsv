@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+No Intervention	Intervention	1
+No Intervention: Standard of care	Intervention	2
+INTERVENTION 2:	Intervention	3
+Tamoxifen	Intervention	4
+tamoxifen	CHEBI:41774	0-9
+Tamoxifen 20 mg orally 1x/day for 4 weeks	Intervention	5
+tamoxifen	CHEBI:41774	0-9
+Tamoxifen: Drug: Tamoxifen 20 mg orally 1x/day for 4 weeks	Intervention	6
+tamoxifen	CHEBI:41774	0-9
+tamoxifen	CHEBI:41774	17-26
+drug	CHEBI:23888	11-15
+Inclusion Criteria:	Eligibility	0
+The patient must consent to be in the study and must have signed an approved consent form conforming to institutional guidelines	Eligibility	1
+patient	HADO:0000008,OAE:0001817	4-11
+The patient must be 18 years or older.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	4-11
+Core biopsy should definitively demonstrate invasive carcinoma.	Eligibility	3
+carcinoma	HP:0030731,DOID:305	53-62
+Invasive carcinoma should be ER-apha receptor positive	Eligibility	4
+carcinoma	HP:0030731,DOID:305	9-18
+receptor	BAO:0000281	37-45
+The tumor should be approximately at least 1 cm, to account for variability in imaging and imaging occult disease (physical exam, mammography, ultrasound). We recognize that from time to time because of this variation, there might not be enough tissue available for analysis after surgical excision but this will allow the greatest opportunity to capture as many eligible patients as possible.	Eligibility	5
+disease	DOID:4,OGMS:0000031	106-113
+time	PATO:0000165	179-183
+time	PATO:0000165	187-191
+tissue	UBERON:0000479	245-251
+Patients in whom surgical excision of the tumor is part of standard of care management	Eligibility	6
+part of	BAO:0090002,BFO:0000050	51-58
+ECOG score of 0 or 1	Eligibility	7
+Negative serum or urine beta-hCG pregnancy test at screening for patients of child-bearing potential (this is routinely done if the patient is premenopausal and having surgery)	Eligibility	8
+urine	UBERON:0001088	18-23
+patient	HADO:0000008,OAE:0001817	65-72
+patient	HADO:0000008,OAE:0001817	132-139
+surgery	OAE:0000067	168-175
+Consent to participate in DBBR (RPCI only)	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+Male patients are not eligible for this study	Eligibility	11
+male	CHEBI:30780,PATO:0000384	0-4
+Female patients with inoperable tumors or women with stage 4 disease diagnosed on CT, PET, PET/CT or bone scan.	Eligibility	12
+female	PATO:0000383	0-6
+disease	DOID:4,OGMS:0000031	61-68
+ct	BAO:0002125	82-84
+ct	BAO:0002125	95-97
+Patients with diagnosis by FNA cytology only	Eligibility	13
+Pregnant or lactating women	Eligibility	14
+Prior therapy for breast cancer, including irradiation, chemo- immuno- and/or hormonal therapy	Eligibility	15
+breast cancer	DOID:1612	18-31
+Patients receiving any hormonal therapy, e.g. ovarian hormonal replacement therapy, infertility medications etc., are not eligible	Eligibility	16
+infertility	HP:0000789,DOID:5223	84-95
+Nonmalignant systemic disease (cardiovascular, renal, hepatic, etc.) that would preclude the patient from being subjected to surgical excision	Eligibility	17
+disease	DOID:4,OGMS:0000031	22-29
+patient	HADO:0000008,OAE:0001817	93-100
+Psychiatric or addictive disorders that would preclude obtaining informed consent	Eligibility	18
+Patients known or suspected to have hypercoagulable syndrome or with history of venous or arterial thrombosis, stroke, TIA, or pulmonary embolism	Eligibility	19
+syndrome	DOID:225	52-60
+history	BFO:0000182	69-76
+arterial thrombosis	HP:0004420	90-109
+stroke	HP:0001297,DOID:6713	111-117
+pulmonary embolism	HP:0002204,DOID:9477	127-145
+Women with non-invasive disease or microinvasion are not eligible.	Eligibility	20
+disease	DOID:4,OGMS:0000031	24-31
+Women undergoing neoadjuvant chemotherapy are not eligible	Eligibility	21
+women currently on tamoxifen and raloxifene for prevention are not eligible	Eligibility	22
+tamoxifen	CHEBI:41774	19-28
+raloxifene	CHEBI:8772	33-43
+Patients shall not receive any herbal/alternative therapies such as flaxseed or soy products or black cohosh.	Eligibility	23
+Patients with a known mutation in p53 (Li Fraumeni Syndrome)	Eligibility	24
+syndrome	DOID:225	51-59
+Outcome Measurement:	Results	0
+Mean Percent Positive Proximity Ligation Assays of All Tumor Protein p53-wild Type Breast Tumors in Participants by Treatment Arm	Results	1
+mean	BAO:0002173	0-4
+percent	UO:0000187	5-12
+protein	CHEBI:36080,BAO:0000175	61-68
+breast	UBERON:0000310	83-89
+Status of estrogen receptor alpha (ERά) and tumor protein (p53) interaction in p53-wild type breast tumors in untreated patients verses patients treated with tamoxifen. Mean percent positive polylactide (PLA) of all p53-wild type breast tumors in participants by treatment arm	Results	2
+estrogen	CHEBI:50114,BAO:0000760	10-18
+receptor	BAO:0000281	19-27
+protein	CHEBI:36080,BAO:0000175	50-57
+breast	UBERON:0000310	93-99
+breast	UBERON:0000310	230-236
+tamoxifen	CHEBI:41774	158-167
+mean	BAO:0002173	169-173
+percent	UO:0000187	174-181
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: No Intervention	Results	5
+Arm/Group Description: No Intervention: Standard of care	Results	6
+Overall Number of Participants Analyzed: 23	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of positive PLA  27.0         (34.4)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Tamoxifen	Results	11
+tamoxifen	CHEBI:41774	17-26
+Arm/Group Description: Tamoxifen 20 mg orally 1x/day for 4 weeks	Results	12
+tamoxifen	CHEBI:41774	23-32
+Tamoxifen: Drug: Tamoxifen 20 mg orally 1x/day for 4 weeks	Results	13
+tamoxifen	CHEBI:41774	0-9
+tamoxifen	CHEBI:41774	17-26
+drug	CHEBI:23888	11-15
+Overall Number of Participants Analyzed: 12	Results	14
+Mean (Standard Deviation)	Results	15
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of positive PLA  4.4         (4.4)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 1/31 (3.23%)	Adverse Events	1
+Abdominal pain  1/31 (3.23%)	Adverse Events	2
+abdominal pain	HP:0002027	0-14
+Adverse Events 2:	Adverse Events	3
+Total: 0/28 (0.00%)	Adverse Events	4
+Abdominal pain  0/28 (0.00%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14

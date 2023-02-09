@@ -1,0 +1,85 @@
+INTERVENTION 1:	Intervention	0
+Bisphosphonate IV Q4W	Intervention	1
+Open label bisphosphonate every 4 weeks (Q4W) by intravenous infusion	Intervention	2
+label	CHEBI:35209,label	5-10
+INTERVENTION 2:	Intervention	3
+Denosumab 30 mg Q4W	Intervention	4
+Denosumab 30 mg by subcutaneous injection every 4 weeks (Q4W)	Intervention	5
+Inclusion Criteria: - Histologically or cytologically confirmed breast adenocarcinoma	Eligibility	0
+breast adenocarcinoma	DOID:3458	64-85
+At least one bone metastasis	Eligibility	1
+Outcome Measurement:	Results	0
+Percent Change From Baseline to Week 13 in Creatinine-adjusted Urinary N-telopeptide (uNTx/Cr)	Results	1
+percent change	BAO:0001252	0-14
+week	UO:0000034	32-36
+Percent change from Baseline to Week 13 in Urinary N-telopeptide corrected by creatinine (uNTx/Cr) calculated using ((Week 13 value - Baseline value) / Baseline value ) x 100.	Results	2
+percent change	BAO:0001252	0-14
+week	UO:0000034	32-36
+week	UO:0000034	118-122
+creatinine	CHEBI:16737	78-88
+x	LABO:0000148	93-94
+x	LABO:0000148	169-170
+Time frame: Baseline and Week 13	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	25-29
+Results 1:	Results	4
+Arm/Group Title: Bisphosphonate IV Q4W	Results	5
+Arm/Group Description: Open label bisphosphonate every 4 weeks (Q4W) by intravenous infusion	Results	6
+label	CHEBI:35209,label	28-33
+Overall Number of Participants Analyzed: 38	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Percent change  -10.19         (208.84)	Results	9
+percent change	BAO:0001252	17-31
+Results 2:	Results	10
+Arm/Group Title: Denosumab 30 mg Q4W	Results	11
+Arm/Group Description: Denosumab 30 mg by subcutaneous injection every 4 weeks (Q4W)	Results	12
+Overall Number of Participants Analyzed: 40	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Percent change  -52.87         (95.14)	Results	15
+percent change	BAO:0001252	17-31
+Adverse Events 1:	Adverse Events	0
+Total: 15/43 (34.88%)	Adverse Events	1
+Anaemia 0/43 (0.00%)	Adverse Events	2
+Febrile bone marrow aplasia 0/43 (0.00%)	Adverse Events	3
+bone marrow	UBERON:0002371	8-19
+Febrile neutropenia 1/43 (2.33%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/43 (0.00%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/43 (2.33%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/43 (0.00%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Angina pectoris 0/43 (0.00%)	Adverse Events	8
+angina pectoris	HP:0001681	0-15
+Cardiac tamponade 0/43 (0.00%)	Adverse Events	9
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Cardio-respiratory arrest 0/43 (0.00%)	Adverse Events	10
+Cardiopulmonary failure 1/43 (2.33%)	Adverse Events	11
+Pericardial effusion 0/43 (0.00%)	Adverse Events	12
+pericardial effusion	HP:0001698,DOID:118	0-20
+Adverse Events 2:	Adverse Events	13
+Total: 11/42 (26.19%)	Adverse Events	14
+Anaemia 1/42 (2.38%)	Adverse Events	15
+Febrile bone marrow aplasia 1/42 (2.38%)	Adverse Events	16
+bone marrow	UBERON:0002371	8-19
+Febrile neutropenia 0/42 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/42 (0.00%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/42 (0.00%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/42 (0.00%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Angina pectoris 1/42 (2.38%)	Adverse Events	21
+angina pectoris	HP:0001681	0-15
+Cardiac tamponade 0/42 (0.00%)	Adverse Events	22
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Cardio-respiratory arrest 0/42 (0.00%)	Adverse Events	23
+Cardiopulmonary failure 0/42 (0.00%)	Adverse Events	24
+Pericardial effusion 1/42 (2.38%)	Adverse Events	25
+pericardial effusion	HP:0001698,DOID:118	0-20

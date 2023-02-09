@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab and Abraxane Followed Trastuzumab and Vinorelbine	Intervention	1
+vinorelbine	CHEBI:480999	50-61
+Patients will be treated sequentially with preoperative trastuzumab and dose-dense ABI-007 followed by trastuzumab in combination with vinorelbine. Trastuzumab will be administered as a one-time loading dose of 4 mg/kg as a 90 minute infusion, followed by 20 weekly treatments at 2 mg/kg as a 30 minute infusion. ABI-007 will be administered every 2 weeks at a dose of 260mg/m2 as 30 minute infusion on the same days as trastuzumab for a total of 4 cycles (weeks 1 -8). Growth factor support with pegfilgrastim (Neulasta®) is required 24 to 48 hours following completion of each cycle of ABI-007. Beginning week 9, patients will then receive weekly vinorelbine at a dose of 25mg/m2 for 12 weeks on the same day as trastuzumab for a total of 4 cycles (weeks 9-20). As per standard treatment of HER2-positive breast cancers, patients will continue to receive trastuzumab every 3 weeks at 6 mg/kg beginning week 21 through week 52.	Intervention	2
+vinorelbine	CHEBI:480999	135-146
+vinorelbine	CHEBI:480999	649-660
+minute	UO:0000031	227-233
+minute	UO:0000031	296-302
+minute	UO:0000031	384-390
+growth factor	BAO:0002024	470-483
+week	UO:0000034	259-263
+week	UO:0000034	350-354
+week	UO:0000034	457-461
+week	UO:0000034	607-611
+week	UO:0000034	642-646
+week	UO:0000034	689-693
+week	UO:0000034	751-755
+week	UO:0000034	877-881
+week	UO:0000034	904-908
+week	UO:0000034	920-924
+day	UO:0000033	412-415
+day	UO:0000033	707-710
+breast	UBERON:0000310	807-813
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed invasive breast carcinoma.	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	51-67
+Early stage breast cancer - stage I (tumor size greater than 1 cm), II and IIA.	Eligibility	2
+breast cancer	DOID:1612	12-25
+size	PATO:0000117	43-47
+3+ HER2 overexpression by IHC or 2+ HER2 overexpression and FISH positivity.	Eligibility	3
+Patients must have measurable disease as defined by palpable lesion with both diameters greater than or equal to 1 cm measurable with caliper and/or a positive mammogram or ultrasound with at least one dimension greater than or equal to 1 cm. Bilateral mammogram and clip placement is required for study entry. Baseline measurements of the indicator lesions must be recorded on the patient registration form. To be valid for baseline, the measurements must have been made within the 14 days (4-6 weeks for x-rays and scans) immediately preceding patient's entry in study.	Eligibility	4
+disease	DOID:4,OGMS:0000031	30-37
+bilateral	HP:0012832	243-252
+indicator	CHEBI:47867	340-349
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	382-389
+patient	HADO:0000008,OAE:0001817	546-553
+ECOG performance status 0 to 2 within 14 days of study entry.	Eligibility	5
+Normal (greater than 50%) left ventricular ejection fraction (LVEF) by MUGA scan or echocardiography.	Eligibility	6
+left	HP:0012835	26-30
+ejection fraction	CMO:0000180	43-60
+Must be 18 years of age or older.	Eligibility	7
+age	PATO:0000011	20-23
+Women or men of childbearing potential must use a reliable and appropriate contraceptive method. Postmenopausal women must be amenorrheic for at least 12 months to be considered of non-childbearing potential.	Eligibility	8
+Final eligibility for a clinical trial is determined by the health professionals conducting the trial.	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+Evidence of disease outside the breast or chest wall, except ipsilateral axillary lymph nodes.	Eligibility	11
+disease	DOID:4,OGMS:0000031	12-19
+breast	UBERON:0000310	32-38
+chest	UBERON:0001443	42-47
+lymph	UBERON:0002391	82-87
+Prior chemotherapy, hormonal therapy, biologic therapy or radiation therapy for breast cancer. Patients with history of DCIS are eligible if they were treated with surgery alone.	Eligibility	12
+breast cancer	DOID:1612	80-93
+history	BFO:0000182	109-116
+surgery	OAE:0000067	164-171
+Medical, psychological, or surgical condition which the investigator feels might compromise study participation.	Eligibility	13
+condition	PDRO:0000129	36-45
+Pregnant or lactating women are not eligible.	Eligibility	14
+Patients with history of previous or current malignancy at other sites with the exception of adequately treated carcinoma in situ of the cervix or basal or squamous cell carcinoma of the skin. Patients with a history of other malignancies who remain disease free for greater than five years are eligible.	Eligibility	15
+history	BFO:0000182	14-21
+history	BFO:0000182	209-216
+carcinoma	HP:0030731,DOID:305	112-121
+carcinoma	HP:0030731,DOID:305	170-179
+squamous cell carcinoma of the skin	HP:0006739	156-191
+disease	DOID:4,OGMS:0000031	250-257
+Evidence of sensory and/or peripheral neuropathy.	Eligibility	16
+peripheral neuropathy	HP:0009830,DOID:870	27-48
+Serious, uncontrolled, concurrent infections.	Eligibility	17
+Major surgery within 4 weeks of the start of study treatment without complete recovery.	Eligibility	18
+surgery	OAE:0000067	6-13
+Final eligibility for a clinical trial is determined by the health professionals conducting the trial.	Eligibility	19
+Outcome Measurement:	Results	0
+Number of Participants With Complete Pathologic Response.	Results	1
+Pathologic complete response (pCR): Absence of invasive breast cancer in the breast (mastectomy or lumpectomy) specimen at the time of definitive surgery. Presence of in situ cancer alone will be considered a pCR.	Results	2
+breast cancer	DOID:1612	56-69
+breast	UBERON:0000310	56-62
+breast	UBERON:0000310	77-83
+time	PATO:0000165	127-131
+surgery	OAE:0000067	146-153
+cancer	DOID:162	63-69
+cancer	DOID:162	175-181
+Although clinical examination is the primary method of determining response, radiologic assessments (mammogram, ultrasound ± MRI) may be used to confirm response/non-response.	Results	3
+Time frame: assess at 8 weeks	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Trastuzumab and Abraxane Followed Trastuzumab and Vinorelbine	Results	6
+vinorelbine	CHEBI:480999	67-78
+Arm/Group Description: Patients will be treated sequentially with preoperative trastuzumab and dose-dense ABI-007 followed by trastuzumab in combination with vinorelbine. Trastuzumab will be administered as a one-time loading dose of 4 mg/kg as a 90 minute infusion, followed by 20 weekly treatments at 2 mg/kg as a 30 minute infusion. ABI-007 will be administered every 2 weeks at a dose of 260mg/m2 as 30 minute infusion on the same days as trastuzumab for a total of 4 cycles (weeks 1 -8). Growth factor support with pegfilgrastim (Neulasta  ) is required 24 to 48 hours following completion of each cycle of ABI-007. Beginning week 9, patients will then receive weekly vinorelbine at a dose of 25mg/m2 for 12 weeks on the same day as trastuzumab for a total of 4 cycles (weeks 9-20). As per standard treatment of HER2-positive breast cancers, patients will continue to receive trastuzumab every 3 weeks at 6 mg/kg beginning week 21 through week 52.	Results	7
+vinorelbine	CHEBI:480999	158-169
+vinorelbine	CHEBI:480999	673-684
+minute	UO:0000031	250-256
+minute	UO:0000031	319-325
+minute	UO:0000031	407-413
+growth factor	BAO:0002024	493-506
+week	UO:0000034	282-286
+week	UO:0000034	373-377
+week	UO:0000034	480-484
+week	UO:0000034	631-635
+week	UO:0000034	666-670
+week	UO:0000034	713-717
+week	UO:0000034	775-779
+week	UO:0000034	901-905
+week	UO:0000034	928-932
+week	UO:0000034	944-948
+day	UO:0000033	435-438
+day	UO:0000033	731-734
+breast	UBERON:0000310	831-837
+Overall Number of Participants Analyzed: 27	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  13	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 12/27 (44.44%)	Adverse Events	1
+Anemia1/27 (3.70%)	Adverse Events	2
+Fatigue1/27 (3.70%)	Adverse Events	3
+Neuropathy3/27 (11.11%)	Adverse Events	4
+Neutropenia6/27 (22.22%)	Adverse Events	5

@@ -1,0 +1,115 @@
+INTERVENTION 1:	Intervention	0
+Nab-Paclitaxel/Bevacizumab/Trastuzumab	Intervention	1
+Patients received treatment with nab-paclitaxel (100 mg/m2 IV days 1, 8, 15) and carboplatin (AUC 6 IV day 1) every 28 days for 6 cycles. Trastuzumab (4 mg/kg loading dose, followed by 2 mg/kg) and bevacizumab (5 mg/kg IV) were administered weekly for 23 weeks, beginning concurrently with chemotherapy. Patients then underwent either mastectomy or breast conserving surgery and pathologic treatment responses were assessed. After surgery, trastuzumab 6 mg/kg and bevacizumab 15 mg/kg were administered at 3 week intervals for a total of 52 weeks.	Intervention	2
+carboplatin	CHEBI:31355	81-92
+auc	BAO:0002120	94-97
+day	UO:0000033	62-65
+day	UO:0000033	103-106
+day	UO:0000033	119-122
+breast	UBERON:0000310	349-355
+surgery	OAE:0000067	367-374
+surgery	OAE:0000067	431-438
+week	UO:0000034	241-245
+week	UO:0000034	255-259
+week	UO:0000034	508-512
+week	UO:0000034	541-545
+Inclusion Criteria:	Eligibility	0
+Female patients with histologically confirmed adenocarcinoma of the breast or inflammatory breast cancer	Eligibility	1
+female	PATO:0000383	0-6
+adenocarcinoma	DOID:299	46-60
+breast	UBERON:0000310	68-74
+breast	UBERON:0000310	91-97
+breast cancer	DOID:1612	91-104
+Clinical stage T 1-4, N 0-3, M0	Eligibility	2
+t	CHEBI:36371,BAO:0001260	10-11
+t	CHEBI:36371,BAO:0001260	15-16
+FISH+ HER2 gene amplified breast cancer	Eligibility	3
+gene	BAO:0000582	11-15
+breast cancer	DOID:1612	26-39
+18 years or older	Eligibility	4
+Normal cardiac function	Eligibility	5
+function	BAO:0003117,BFO:0000034	15-23
+Performance status 0-2	Eligibility	6
+Cannot have received any prior chemotherapy for this disease or cannot have received chemotherapy for any other cancer in the past 5 years.	Eligibility	7
+disease	DOID:4,OGMS:0000031	53-60
+cancer	DOID:162	112-118
+Previous diagnosis of noninvasive breast cancer is OK.	Eligibility	8
+breast cancer	DOID:1612	34-47
+Must have adequate bone marrow, renal and liver function.	Eligibility	9
+bone marrow	UBERON:0002371	19-30
+liver	UBERON:0002107	42-47
+function	BAO:0003117,BFO:0000034	48-56
+Pregnant or lactating females not allowed.	Eligibility	10
+Preexisting peripheral neuropathy must be equal to or less than grade 1	Eligibility	11
+peripheral neuropathy	HP:0009830,DOID:870	12-33
+Must have archived tumor tissue for tissue testing.	Eligibility	12
+tissue	UBERON:0000479	25-31
+tissue	UBERON:0000479	36-42
+Exclusion Criteria:	Eligibility	13
+You cannot be in this study if you any of the following:	Eligibility	14
+History of cardiac disease, with New York Heart Association Class II or greater with congestive heart failure	Eligibility	15
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	19-26
+heart	UBERON:0000948	42-47
+heart	UBERON:0000948	96-101
+congestive heart failure	HP:0001635,DOID:6000	85-109
+Any heart attack, stroke or TIAs within the last 6 months or serious arrhythmias needing medication; no bleeding diathesis or coagulopathy.	Eligibility	16
+heart	UBERON:0000948	4-9
+stroke	HP:0001297,DOID:6713	18-24
+No prior investigational drug within the last 30 days	Eligibility	17
+drug	CHEBI:23888	25-29
+No prior trastuzumab or bevacizumab therapy	Eligibility	18
+There are additional inclusion/exclusion criteria. The study center will determine if you meet all of the criteria. If you do not qualify for the trial, study personnel will explain the reasons.	Eligibility	19
+Outcome Measurement:	Results	0
+Pathologic Complete Response Rate (PCRR), the Percentage of Patients Who Have No Evidence of Cancer in the Breast or Lymph Nodes Following Surgery	Results	1
+rate	BAO:0080019	29-33
+cancer	DOID:162	93-99
+breast	UBERON:0000310	107-113
+lymph	UBERON:0002391	117-122
+surgery	OAE:0000067	139-146
+Pathologic complete response was defined as the absence of residual invasive cancer in the breast (pT0) and axillary lymph nodes (pN0).	Results	2
+cancer	DOID:162	77-83
+breast	UBERON:0000310	91-97
+lymph	UBERON:0002391	117-122
+Time frame: 18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Nab-Paclitaxel/Bevacizumab/Trastuzumab	Results	5
+Arm/Group Description: Patients received treatment with nab-paclitaxel (100 mg/m2 IV days 1, 8, 15) and carboplatin (AUC 6 IV day 1) every 28 days for 6 cycles. Trastuzumab (4 mg/kg loading dose, followed by 2 mg/kg) and bevacizumab (5 mg/kg IV) were administered weekly for 23 weeks, beginning concurrently with chemotherapy. Patients then underwent either mastectomy or breast conserving surgery and pathologic treatment responses were assessed. After surgery, trastuzumab 6 mg/kg and bevacizumab 15 mg/kg were administered at 3 week intervals for a total of 52 weeks.	Results	6
+carboplatin	CHEBI:31355	104-115
+auc	BAO:0002120	117-120
+day	UO:0000033	85-88
+day	UO:0000033	126-129
+day	UO:0000033	142-145
+breast	UBERON:0000310	372-378
+surgery	OAE:0000067	390-397
+surgery	OAE:0000067	454-461
+week	UO:0000034	264-268
+week	UO:0000034	278-282
+week	UO:0000034	531-535
+week	UO:0000034	564-568
+Overall Number of Participants Analyzed: 27	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  56	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 8/29 (27.59%)	Adverse Events	1
+Hemorrhage - Nose 1/29 (3.45%)	Adverse Events	2
+nose	UBERON:0000004	13-17
+Left Ventricular Systolic Dysfunction 1/29 (3.45%)	Adverse Events	3
+left ventricular systolic dysfunction	HP:0025169	0-37
+Vomiting 1/29 (3.45%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Esophagitis 1/29 (3.45%)	Adverse Events	5
+esophagitis	HP:0100633,DOID:11963	0-11
+Pain - Abdomen 1/29 (3.45%)	Adverse Events	6
+pain	HP:0012531	0-4
+abdomen	UBERON:0000916	7-14
+Pain - Chest 1/29 (3.45%)	Adverse Events	7
+pain	HP:0012531	0-4
+chest	UBERON:0001443	7-12
+Infection - Skin 1/29 (3.45%)	Adverse Events	8
+Infection - Sepsis 2/29 (6.90%)	Adverse Events	9
+sepsis	HP:0100806	12-18
+Creatinine 1/29 (3.45%)	Adverse Events	10
+creatinine	CHEBI:16737	0-10
+Wound Complication, Non-Infectious 1/29 (3.45%)	Adverse Events	11

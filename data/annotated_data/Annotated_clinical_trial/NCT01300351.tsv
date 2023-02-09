@@ -1,0 +1,123 @@
+INTERVENTION 1:	Intervention	0
+Fulvestrant 500 mg	Intervention	1
+fulvestrant	CHEBI:31638	0-11
+Fulvestrant 500 mg intramuscular (im) every 28 (± 3) days plus an additional 500 mg on Day 15 (± 3) of first month only	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	53-56
+day	UO:0000033	87-90
+month	UO:0000035	109-114
+INTERVENTION 2:	Intervention	3
+Fulvestrant 250 mg	Intervention	4
+fulvestrant	CHEBI:31638	0-11
+Fulvestrant 250 mg im every 28 (± 3) days	Intervention	5
+fulvestrant	CHEBI:31638	0-11
+Inclusion Criteria:	Eligibility	0
+Postmenopausal women defined as a woman who has stopped having menstrual periods	Eligibility	1
+Breast Cancer has continued to grow after having received treatment with an anti-estrogen hormonal treatment such as tamoxifen or an aromatase inhibitor	Eligibility	2
+breast cancer	DOID:1612	0-13
+anti-estrogen	CHEBI:50751	76-89
+tamoxifen	CHEBI:41774	117-126
+inhibitor	CHEBI:35222	143-152
+Requiring hormonal treatment	Eligibility	3
+Oestrogen-receptor positive tumour	Eligibility	4
+Written informed consent to participate in the trial	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Treatment with an investigational or non-approved drug within one month	Eligibility	7
+drug	CHEBI:23888	50-54
+month	UO:0000035	66-71
+An existing serious disease, illness, or condition that will prevent participation or compliance with study procedures	Eligibility	8
+disease	DOID:4,OGMS:0000031	20-27
+condition	PDRO:0000129	41-50
+A history of allergies to any active or inactive ingredients of fulvestrant (i.e. castor oil)	Eligibility	9
+history	BFO:0000182	2-9
+active	PATO:0002354	30-36
+active	PATO:0002354	42-48
+inactive	PATO:0002355	40-48
+fulvestrant	CHEBI:31638	64-75
+castor oil	CHEBI:140618	82-92
+Treatment with more than one regimen of chemotherapy for advanced breast cancer	Eligibility	10
+breast cancer	DOID:1612	66-79
+Treatment with more than one regimen of hormonal treatment for advanced breast cancer	Eligibility	11
+breast cancer	DOID:1612	72-85
+Outcome Measurement:	Results	0
+Progression-free Survival	Results	1
+Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1), as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, or unequivocal progression of existing non-target lesions, or the appearance of new lesions, or death (by any cause in the absence of progression). The primary analysis for PFS was the log rank test stratified by last endocrine therapy received prior to fulvestrant (AO vs. AI). The treatment effect was estimated using the HR of 500 mg fulvestrant to 250 mg fulvestrant together with the corresponding 95% CI and p value.	Results	2
+increase	BAO:0001251	116-124
+target	BAO:0003064	152-158
+target	BAO:0003064	258-264
+death	OAE:0000632	311-316
+log	BAO:0002172	400-403
+fulvestrant	CHEBI:31638	469-480
+fulvestrant	CHEBI:31638	552-563
+fulvestrant	CHEBI:31638	574-585
+p	CHEBI:17802,BAO:0002175	0-1
+p	CHEBI:17802,BAO:0002175	32-33
+p	CHEBI:17802,BAO:0002175	230-231
+p	CHEBI:17802,BAO:0002175	282-283
+p	CHEBI:17802,BAO:0002175	283-284
+p	CHEBI:17802,BAO:0002175	349-350
+p	CHEBI:17802,BAO:0002175	367-368
+p	CHEBI:17802,BAO:0002175	388-389
+p	CHEBI:17802,BAO:0002175	448-449
+p	CHEBI:17802,BAO:0002175	460-461
+p	CHEBI:17802,BAO:0002175	610-611
+p	CHEBI:17802,BAO:0002175	629-630
+Time frame: 36 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Fulvestrant 500 mg	Results	5
+fulvestrant	CHEBI:31638	17-28
+Arm/Group Description: Fulvestrant 500 mg intramuscular (im) every 28 (  3) days plus an additional 500 mg on Day 15 (  3) of first month only	Results	6
+fulvestrant	CHEBI:31638	23-34
+day	UO:0000033	76-79
+day	UO:0000033	110-113
+month	UO:0000035	132-137
+Overall Number of Participants Analyzed: 111	Results	7
+Median (Inter-Quartile Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: months  8.0        (2.8 to 16.6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Fulvestrant 250 mg	Results	11
+fulvestrant	CHEBI:31638	17-28
+Arm/Group Description: Fulvestrant 250 mg im every 28 (  3) days	Results	12
+fulvestrant	CHEBI:31638	23-34
+Overall Number of Participants Analyzed: 110	Results	13
+Median (Inter-Quartile Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: months  4.0        (2.7 to 11.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 4/109 (3.67%)	Adverse Events	1
+Anaemia * 0/109 (0.00%)	Adverse Events	2
+Haemolytic uraemic syndrome * 0/109 (0.00%)	Adverse Events	3
+syndrome	DOID:225	19-27
+Leukopenia * 0/109 (0.00%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Cardiac failure * 0/109 (0.00%)	Adverse Events	5
+Pyrexia * 1/109 (0.92%)	Adverse Events	6
+Hepatic function abnormal * 1/109 (0.92%)	Adverse Events	7
+function	BAO:0003117,BFO:0000034	8-16
+Arthritis bacterial * 0/109 (0.00%)	Adverse Events	8
+arthritis	HP:0001369,DOID:848	0-9
+Lung infection * 0/109 (0.00%)	Adverse Events	9
+lung	UBERON:0002048	0-4
+Haemoglobin decreased * 1/109 (0.92%)	Adverse Events	10
+Neutrophil count decreased * 0/109 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 9/110 (8.18%)	Adverse Events	13
+Anaemia * 1/110 (0.91%)	Adverse Events	14
+Haemolytic uraemic syndrome * 0/110 (0.00%)	Adverse Events	15
+syndrome	DOID:225	19-27
+Leukopenia * 0/110 (0.00%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Cardiac failure * 1/110 (0.91%)	Adverse Events	17
+Pyrexia * 2/110 (1.82%)	Adverse Events	18
+Hepatic function abnormal * 0/110 (0.00%)	Adverse Events	19
+function	BAO:0003117,BFO:0000034	8-16
+Arthritis bacterial * 2/110 (1.82%)	Adverse Events	20
+arthritis	HP:0001369,DOID:848	0-9
+Lung infection * 0/110 (0.00%)	Adverse Events	21
+lung	UBERON:0002048	0-4
+Haemoglobin decreased * 1/110 (0.91%)	Adverse Events	22
+Neutrophil count decreased * 0/110 (0.00%)	Adverse Events	23

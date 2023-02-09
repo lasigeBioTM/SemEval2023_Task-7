@@ -1,0 +1,200 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Zoledroic Acid)	Intervention	1
+acid	CHEBI:37527	17-21
+Beginning 60-90 days after surgery, patients receive zoledronate IV over 15 minutes once in months 3, 9, and 15.	Intervention	2
+surgery	OAE:0000067	27-34
+Laboratory Biomarker Analysis: Correlative studies	Intervention	3
+biomarker	CHEBI:59163	11-20
+Zoledronic Acid: Given IV	Intervention	4
+zoledronic acid	CHEBI:46557	0-15
+INTERVENTION 2:	Intervention	5
+Arm II (Clinical Observation)	Intervention	6
+Patients are observed for 18 months after surgery.	Intervention	7
+surgery	OAE:0000067	42-49
+Inclusion Criteria:	Eligibility	0
+Patients who have elected to undergo, or who have undergone (within 8 weeks) a surgical procedure that results (at minimum) in the absence of both ovaries	Eligibility	1
+Patients enrolled in the screening arm of GOG-0199 who decide to undergo surgery are potentially eligible for GOG-0215	Eligibility	2
+surgery	OAE:0000067	73-80
+Baseline bone mass density (BMD) T-Score ? -1.5 (no more than 1.5 standard deviation below the mean value for young adults) on both the total lumbar spine (L1-L4 region, not individual bones) and bilateral hip	Eligibility	3
+standard deviation	BAO:0002176	66-84
+mean	BAO:0002173	95-99
+bilateral	HP:0012832	196-205
+hip	UBERON:0001464	206-209
+Patients who had/have at least 1 intact ovary at the time of surgery are eligible	Eligibility	4
+ovary	UBERON:0000992	40-45
+time	PATO:0000165	53-57
+surgery	OAE:0000067	61-68
+No prior distant metastatic malignant disease within the past 5 years	Eligibility	5
+disease	DOID:4,OGMS:0000031	38-45
+Patients treated for stage M1 (any T, any N) diagnosis in the past 5 years are ineligible	Eligibility	6
+m1	CHEBI:34826	27-29
+t	CHEBI:36371,BAO:0001260	2-3
+t	CHEBI:36371,BAO:0001260	6-7
+t	CHEBI:36371,BAO:0001260	9-10
+t	CHEBI:36371,BAO:0001260	13-14
+t	CHEBI:36371,BAO:0001260	22-23
+t	CHEBI:36371,BAO:0001260	35-36
+t	CHEBI:36371,BAO:0001260	58-59
+t	CHEBI:36371,BAO:0001260	65-66
+Patients who achieved a complete response after treatment for rM0 (any T, any N) within the past 5 years are eligible	Eligibility	7
+t	CHEBI:36371,BAO:0001260	2-3
+t	CHEBI:36371,BAO:0001260	6-7
+t	CHEBI:36371,BAO:0001260	30-31
+t	CHEBI:36371,BAO:0001260	44-45
+t	CHEBI:36371,BAO:0001260	48-49
+t	CHEBI:36371,BAO:0001260	52-53
+t	CHEBI:36371,BAO:0001260	56-57
+t	CHEBI:36371,BAO:0001260	71-72
+t	CHEBI:36371,BAO:0001260	83-84
+t	CHEBI:36371,BAO:0001260	88-89
+t	CHEBI:36371,BAO:0001260	95-96
+Premenopausal*	Eligibility	8
+Last menstrual cycle occurred < 12 months prior to study enrollment	Eligibility	9
+menstrual cycle	GO:0044850	5-20
+GOG performance status 0-2	Eligibility	10
+Creatinine clearance > 60 mL/min	Eligibility	11
+creatinine clearance	CMO:0000765	0-20
+No clinical or radiological evidence of existing fracture of the lumbar spine or bilateral hip	Eligibility	12
+bilateral	HP:0012832	81-90
+hip	UBERON:0001464	91-94
+No history of hip of spine fracture with low-intensity trauma or not associated with trauma	Eligibility	13
+history	BFO:0000182	3-10
+hip	UBERON:0001464	14-17
+No uncontrolled seizure disorder associated with falls	Eligibility	14
+seizure	HP:0001250	16-23
+disorder	OGMS:0000045	24-32
+falls	HP:0002527	49-54
+No diseases that influence bone metabolism, including any of the following:	Eligibility	15
+Paget?s disease	Eligibility	16
+disease	DOID:4,OGMS:0000031	8-15
+Osteogenesis imperfecta	Eligibility	17
+osteogenesis imperfecta	DOID:12347	0-23
+Uncontrolled thyroid or parathyroid dysfunction within 12 months prior to study entry	Eligibility	18
+No other nonmalignant systemic disease, including any of the following:	Eligibility	19
+disease	DOID:4,OGMS:0000031	31-38
+Uncontrolled infection	Eligibility	20
+Uncontrolled type 2 diabetes mellitus	Eligibility	21
+type 2 diabetes mellitus	DOID:9352	13-37
+Cardiovascular, renal, hepatic, or lung disease that would prevent prolonged follow-up	Eligibility	22
+lung disease	DOID:850	35-47
+prolonged	HP:0025297	67-76
+History of thrombosis or thromboembolism allowed	Eligibility	23
+history	BFO:0000182	0-7
+thrombosis	DOID:0060903	11-21
+thromboembolism	HP:0001907	25-40
+No known HIV positivity	Eligibility	24
+No known hypersensitivity to zoledronate or other bisphosphonates	Eligibility	25
+hypersensitivity	GO:0002524,DOID:1205	9-25
+No psychiatric, psychological, or other conditions that prevent fully informed consent	Eligibility	26
+No other active malignancy except nonmelanoma skin cancer	Eligibility	27
+active	PATO:0002354	9-15
+skin cancer	DOID:4159	46-57
+No history of any medical condition that places the patient at risk for donating blood for research purposes (e.g., chronic infectious diseases, sever anemia, or hemophilia)	Eligibility	28
+history	BFO:0000182	3-10
+condition	PDRO:0000129	26-35
+patient	HADO:0000008,OAE:0001817	52-59
+blood	UBERON:0000178	81-86
+chronic	HP:0011010	116-123
+anemia	HP:0001903,DOID:2355	151-157
+Not pregnant	Eligibility	29
+Negative pregnancy test	Eligibility	30
+No current active dental problems, including any of the following:	Eligibility	31
+active	PATO:0002354	11-17
+Infection of the teeth or jawbone (maxilla or mandible)	Eligibility	32
+Dental or fixture trauma	Eligibility	33
+Current or prior diagnosis of osteonecrosis of the jaw	Eligibility	34
+osteonecrosis	DOID:10159	30-43
+Exposed bone in the mouth	Eligibility	35
+mouth	UBERON:0000165	20-25
+Slow healing after dental procedures	Eligibility	36
+No recent (within 6 weeks) or planned dental or jaw surgery (e.g., extraction or implants)	Eligibility	37
+surgery	OAE:0000067	52-59
+No prior treatment for osteoporosis	Eligibility	38
+osteoporosis	HP:0000939,DOID:11476	23-35
+No adjuvant radiotherapy within the past 31 days	Eligibility	39
+adjuvant	CHEBI:60809	3-11
+radiotherapy	OAE:0000235	12-24
+No chemotherapy within the past 30 days	Eligibility	40
+No prior surgery to the hip or spine	Eligibility	41
+surgery	OAE:0000067	9-16
+hip	UBERON:0001464	24-27
+No prior systemic sodium fluoride for > 3 months during the past 2 years	Eligibility	42
+sodium fluoride	CHEBI:28741	18-33
+No more than 30 days use in the past 12 months and no concurrent tamoxifen, raloxifene, or any other selective estrogen-receptor modulator (SERM)	Eligibility	43
+tamoxifen	CHEBI:41774	65-74
+raloxifene	CHEBI:8772	76-86
+modulator	CHEBI:189678	129-138
+More than 12 months since prior and no concurrent endocrine therapy	Eligibility	44
+Insulin and/or oral antidiabetic medications allowed	Eligibility	45
+insulin	CHEBI:145810	0-7
+Thyroid hormone replacement allowed	Eligibility	46
+thyroid hormone	CHEBI:60311	0-15
+More than 12 months since prior and no concurrent estrogen or hormone replacement therapy (estrogen plus progesterone or estrogen alone)	Eligibility	47
+estrogen	CHEBI:50114,BAO:0000760	50-58
+estrogen	CHEBI:50114,BAO:0000760	91-99
+estrogen	CHEBI:50114,BAO:0000760	121-129
+hormone	CHEBI:24621	62-69
+progesterone	CHEBI:17026	105-117
+Prior or concurrent oral contraceptives allowed	Eligibility	48
+Systemic (oral) hormone replacement therapy following surgery not allowed	Eligibility	49
+hormone	CHEBI:24621	16-23
+surgery	OAE:0000067	54-61
+Vaginal (non-systemic) estrogen allowed	Eligibility	50
+estrogen	CHEBI:50114,BAO:0000760	23-31
+More than 12 months since prior and no concurrent oral or IV bisphosphonate	Eligibility	51
+More than 12 months since prior and no concurrent anabolic steroids or growth hormone	Eligibility	52
+growth hormone	CHEBI:37845,GO:0005131	71-85
+More than 12 months since prior and no concurrent systemic corticosteroids	Eligibility	53
+Concurrent short term corticosteroid therapy (to prevent/treat chemotherapy-induced nausea/vomiting) allowed	Eligibility	54
+corticosteroid	CHEBI:50858	22-36
+More than 6 months since prior and no concurrent Tibolone	Eligibility	55
+tibolone	CHEBI:32223	49-57
+More than 2 weeks since prior and no concurrent drugs known to affect the skeleton (e.g., calcitonin, mithramycin, or gallium nitrate)	Eligibility	56
+skeleton	UBERON:0004288	74-82
+calcitonin	CHEBI:3306	90-100
+mithramycin	CHEBI:31856	102-113
+nitrate	CHEBI:17632	126-133
+No concurrent chemotherapy or radiotherapy	Eligibility	57
+radiotherapy	OAE:0000235	30-42
+No concurrent aromatase inhibitors	Eligibility	58
+Concurrent enrollment on protocol GOG-0199 allowed	Eligibility	59
+Outcome Measurement:	Results	0
+Bone Mineral Density of the Lumbar Spine as Measured by Dual-energy X-ray Absorptiometry (DEXA) Scan at 9 Months	Results	1
+bone mineral density	CMO:0001226	0-20
+To compare the effect of zoledronic acid administered every 6 months on bone loss associated with surgery (at a minimum, any surgical procedure that results in removal of both ovaries), as compared with observation alone. This is to be evaluated by measuring the change from baseline to 9 months in bone mineral density (BMD) of the lumbar spine, specifically L1-L4 dual energy X-ray absorptiometry (DEXA).	Results	2
+zoledronic acid	CHEBI:46557	25-40
+surgery	OAE:0000067	98-105
+bone mineral density	CMO:0001226	299-319
+Time frame: 9 Months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I (Zoledroic Acid)	Results	5
+acid	CHEBI:37527	34-38
+Arm/Group Description: Beginning 60-90 days after surgery, patients receive zoledronate IV over 15 minutes once in months 3, 9, and 15.	Results	6
+surgery	OAE:0000067	50-57
+Laboratory Biomarker Analysis: Correlative studies	Results	7
+biomarker	CHEBI:59163	11-20
+Zoledronic Acid: Given IV	Results	8
+zoledronic acid	CHEBI:46557	0-15
+Overall Number of Participants Analyzed: 51	Results	9
+Mean (Full Range)	Results	10
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: g/cm2  -0.025        (-0.240 to 0.077)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm II (Clinical Observation)	Results	13
+Arm/Group Description: Patients are observed for 18 months after surgery.	Results	14
+surgery	OAE:0000067	65-72
+Overall Number of Participants Analyzed: 68	Results	15
+Mean (Full Range)	Results	16
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: g/cm2  -0.086        (-0.308 to 0.067)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 1/80 (1.25%)	Adverse Events	1
+Gastritis * 1/80 (1.25%)	Adverse Events	2
+gastritis	HP:0005263,DOID:4029	0-9
+Adverse Events 2:	Adverse Events	3
+Total: 0/78 (0.00%)	Adverse Events	4
+Gastritis * 0/78 (0.00%)	Adverse Events	5
+gastritis	HP:0005263,DOID:4029	0-9

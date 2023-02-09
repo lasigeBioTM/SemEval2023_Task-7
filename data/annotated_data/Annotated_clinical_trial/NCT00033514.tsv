@@ -1,0 +1,70 @@
+INTERVENTION 1:	Intervention	0
+Treatment Phase 1 Plus Phase 2	Intervention	1
+trastuzumab: Day 1 4mg/kg IV 2 mg/kg IV weekly.	Intervention	2
+day	UO:0000033	13-16
+erlotinib hydrochloride: 150 mg daily.	Intervention	3
+erlotinib hydrochloride	CHEBI:53509	0-23
+Inclusion Criteria:	Eligibility	0
+Women aged > 18 years	Eligibility	1
+Histologically documents metastatic breast cancer	Eligibility	2
+breast cancer	DOID:1612	36-49
+HER2 positive using Fluorescence In Situ Hybridization (FISH)	Eligibility	3
+For phase I, patients who have previously received treatment for their metastatic disease are allowed to participate.	Eligibility	4
+disease	DOID:4,OGMS:0000031	82-89
+For the phase II portion of the study, patients must have measureable disease (> 2 cm; > 1 cm on spiral CT scan)	Eligibility	5
+disease	DOID:4,OGMS:0000031	70-77
+ct	BAO:0002125	104-106
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2	Eligibility	6
+group	CHEBI:24433	29-34
+A life expectancy of > 3 months	Eligibility	7
+Use of effective means of contraception	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+For Phase II, prior cytotoxic chemotherapy and/or prior Herceptin for their metastatic disease. Prior treatment in the adjuvant setting is allowed.	Eligibility	10
+disease	DOID:4,OGMS:0000031	87-94
+adjuvant	CHEBI:60809	119-127
+Outcome Measurement:	Results	0
+The Objective Response Rate as Defined as Stable Disease or the Rate of Complete and Partial Responses Determined on Two Consecutive Occasions Greater Than or Equal to 4 Weeks Apart.	Results	1
+rate	BAO:0080019	23-27
+rate	BAO:0080019	64-68
+stable	HP:0031915	42-48
+disease	DOID:4,OGMS:0000031	49-56
+Complete Response:	Results	2
+The disappearance of all signs of cancer in response to treatment. This does not always mean the cancer has been cured. Also called complete remission.	Results	3
+cancer	DOID:162	34-40
+cancer	DOID:162	97-103
+mean	BAO:0002173	88-92
+Partial Response:	Results	4
+A decrease in the size of a tumor, or in the extent of cancer in the body, in response to treatment. Also called partial remission.	Results	5
+size	PATO:0000117	18-22
+cancer	DOID:162	55-61
+Time frame: 5 years	Results	6
+time	PATO:0000165	0-4
+Results 1:	Results	7
+Arm/Group Title: Treatment Phase 1 Plus Phase 2	Results	8
+Arm/Group Description: trastuzumab: Day 1 4mg/kg IV 2 mg/kg IV weekly.	Results	9
+day	UO:0000033	36-39
+erlotinib hydrochloride: 150 mg daily.	Results	10
+erlotinib hydrochloride	CHEBI:53509	0-23
+Overall Number of Participants Analyzed: 12	Results	11
+Measure Type: Number	Results	12
+Unit of Measure: participants  Partial Response: 4	Results	13
+Stable Disease: 1	Results	14
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Adverse Events 1:	Adverse Events	0
+Total: 16/27 (59.26%)	Adverse Events	1
+Dyspnea * 6/27 (22.22%)	Adverse Events	2
+dyspnea	HP:0002094	0-7
+hypertension with headache * 1/27 (3.70%)	Adverse Events	3
+hypertension	HP:0000822,DOID:10763	0-12
+headache	HP:0002315	18-26
+pain/chest pressure/SOB *  [1]1/27 (3.70%)	Adverse Events	4
+LVEF less than the lower limit of normal * 2/27 (7.41%)	Adverse Events	5
+subendocardial myocardial infarction * 1/27 (3.70%)	Adverse Events	6
+subendocardial myocardial infarction	DOID:5849	0-36
+dehydration/pain management * 1/27 (3.70%)	Adverse Events	7
+gastroenteritis *  [2]1/27 (3.70%)	Adverse Events	8
+gastroenteritis	DOID:2326	0-15
+progressive brain mets * 2/27 (7.41%)	Adverse Events	9
+progressive	HP:0003676	0-11
+brain	UBERON:0000955	12-17

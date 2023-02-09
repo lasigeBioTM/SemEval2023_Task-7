@@ -1,0 +1,167 @@
+INTERVENTION 1:	Intervention	0
+Reference Standard Positive (RS+)	Intervention	1
+Reference Standard Positive indicates a breast cancer diagnosed in the contralateral (study) breast. Participants who received a diagnosis of ductal carcinoma in situ or any invasive breast cancer as a result of a biopsy or surgery that was performed within 365 days of the initial MRI scan were considered positive for cancer. Participants were considered positive only on the basis of positive tissue diagnosis.	Intervention	2
+breast cancer	DOID:1612	40-53
+breast cancer	DOID:1612	183-196
+breast	UBERON:0000310	40-46
+breast	UBERON:0000310	93-99
+breast	UBERON:0000310	183-189
+ductal carcinoma in situ	HP:0030075,DOID:0060074	142-166
+result	BAO:0000179	202-208
+surgery	OAE:0000067	224-231
+cancer	DOID:162	47-53
+cancer	DOID:162	190-196
+cancer	DOID:162	320-326
+tissue	UBERON:0000479	396-402
+INTERVENTION 2:	Intervention	3
+Reference Standard Negative (RS-)	Intervention	4
+Women with no diagnosis of cancer during the year after their enrollment were considered negative. All cases for whom no tissue diagnosis of cancer was reported during the 365 days following the initial MRI were considered negative, regardless of whether any additional imaging had been performed.	Intervention	5
+cancer	DOID:162	27-33
+cancer	DOID:162	141-147
+year	UO:0000036	45-49
+tissue	UBERON:0000479	121-127
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Recently confirmed unilateral ductal carcinoma in situ or invasive cancer of the breast	Eligibility	1
+unilateral	HP:0012833	19-29
+ductal carcinoma in situ	HP:0030075,DOID:0060074	30-54
+cancer	DOID:162	67-73
+breast	UBERON:0000310	81-87
+Confirmed by biopsy or fine needle aspiration (FNA) within the past 60 days	Eligibility	2
+aspiration	HP:0002835	35-45
+Negative or benign mammogram (BI-RADS assessment 1 or 2) and negative or benign clinical breast exam of the contralateral breast within the past 90 days	Eligibility	3
+breast	UBERON:0000310	89-95
+breast	UBERON:0000310	122-128
+Prior biopsy of the contralateral breast (including FNA) is allowed provided it was performed at least 6 months prior to study entry	Eligibility	4
+breast	UBERON:0000310	34-40
+Prior magnetic resonance exam of the contralateral breast is allowed provided it was performed at least 1 year prior to study entry	Eligibility	5
+breast	UBERON:0000310	51-57
+year	UO:0000036	106-110
+No remote history of breast cancer	Eligibility	6
+history	BFO:0000182	10-17
+breast cancer	DOID:1612	21-34
+No new breast symptoms within the past 60 days for which further evaluation is recommended	Eligibility	7
+breast	UBERON:0000310	7-13
+Hormone receptor status:	Eligibility	8
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	9
+PATIENT CHARACTERISTICS:	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	11
+age	PATO:0000011	0-3
+18 and over	Eligibility	12
+Sex	Eligibility	13
+Female	Eligibility	14
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	15
+Not specified	Eligibility	16
+Performance status	Eligibility	17
+Not specified	Eligibility	18
+Life expectancy	Eligibility	19
+Not specified	Eligibility	20
+Hematopoietic	Eligibility	21
+Not specified	Eligibility	22
+Hepatic	Eligibility	23
+Not specified	Eligibility	24
+Renal	Eligibility	25
+Not specified	Eligibility	26
+Cardiovascular	Eligibility	27
+No pacemaker	Eligibility	28
+No magnetic aneurysm clips	Eligibility	29
+Other	Eligibility	30
+Not pregnant	Eligibility	31
+No implanted magnetic device	Eligibility	32
+No severe claustrophobia	Eligibility	33
+severe	HP:0012828	3-9
+claustrophobia	HP:0025253	10-24
+No other contraindications to MRI	Eligibility	34
+No psychiatric, psychological, or other condition that would preclude informed consent	Eligibility	35
+condition	PDRO:0000129	40-49
+PRIOR CONCURRENT THERAPY:	Eligibility	36
+Biologic therapy	Eligibility	37
+Not specified	Eligibility	38
+Chemotherapy	Eligibility	39
+At least 6 months since prior anticancer chemotherapy	Eligibility	40
+Endocrine therapy	Eligibility	41
+No concurrent therapeutic hormonal therapy, tamoxifen, or aromatase inhibitors (preventive therapy allowed)	Eligibility	42
+tamoxifen	CHEBI:41774	44-53
+Radiotherapy	Eligibility	43
+radiotherapy	OAE:0000235	0-12
+Not specified	Eligibility	44
+Surgery	Eligibility	45
+surgery	OAE:0000067	0-7
+Not specified	Eligibility	46
+Outcome Measurement:	Results	0
+MRI Diagnostic Yield of Cancers in the Contralateral Breast	Results	1
+breast	UBERON:0000310	53-59
+To assess the diagnostic yield of magnetic resonance imaging (MRI) in evaluating the contralateral breast of women with a recent unilateral diagnosis of breast cancer and a negative contralateral mammogram and clinical breast exam.	Results	2
+breast	UBERON:0000310	99-105
+breast	UBERON:0000310	153-159
+breast	UBERON:0000310	219-225
+unilateral	HP:0012833	129-139
+breast cancer	DOID:1612	153-166
+the "Test" status was defined based on combinations of the following 4 factors:	Results	3
+The initial BI-RADs: from the MRI of the contralateral breast	Results	4
+breast	UBERON:0000310	55-61
+The final BI-RADs: determined after all subsequent work-up and follow-up within 365 from the initial MRI (an explicit recommendation for biopsy always resulted in a final BI-RADs of 4).	Results	5
+Subsequent work-up includes all procedures resultant from an Initial MRI finding (generally triggered by a BI-RADs 0 or 3) within 365 from the initial MRI	Results	6
+triggered by	HP:0025204	92-104
+Whether or not biopsy procedure (Bx) were performed on the contralateral (Study) breast within 365 from the initial MRI	Results	7
+breast	UBERON:0000310	81-87
+Time frame: within 90 days of a negative mammogram of the study breast	Results	8
+time	PATO:0000165	0-4
+breast	UBERON:0000310	64-70
+Results 1:	Results	9
+Arm/Group Title: Reference Standard Positive (RS+)	Results	10
+Arm/Group Description: Reference Standard Positive indicates a breast cancer diagnosed in the contralateral (study) breast. Participants who received a diagnosis of ductal carcinoma in situ or any invasive breast cancer as a result of a biopsy or surgery that was performed within 365 days of the initial MRI scan were considered positive for cancer. Participants were considered positive only on the basis of positive tissue diagnosis.	Results	11
+breast cancer	DOID:1612	63-76
+breast cancer	DOID:1612	206-219
+breast	UBERON:0000310	63-69
+breast	UBERON:0000310	116-122
+breast	UBERON:0000310	206-212
+ductal carcinoma in situ	HP:0030075,DOID:0060074	165-189
+result	BAO:0000179	225-231
+surgery	OAE:0000067	247-254
+cancer	DOID:162	70-76
+cancer	DOID:162	213-219
+cancer	DOID:162	343-349
+tissue	UBERON:0000479	419-425
+Overall Number of Participants Analyzed: 33	Results	12
+Measure Type: Count of Participants	Results	13
+Unit of Measure: Participants  Test + (Final BI-RAD 0, 4, 5): 30  90.9%	Results	14
+Test Negative (T-): 3   9.1%	Results	15
+Test + (Initial MRI BI-RAD 4, 5/work-up): 30  90.9%	Results	16
+Test Negative (T-): 3   9.1%	Results	17
+Test + (Initial MRI BI-RAD 4, 5/work-up/comp bx): 30  90.9%	Results	18
+Test Negative (T-): 3   9.1%	Results	19
+Test + (Initial MRI BI-RAD 0, 4, 5): 30  90.9%	Results	20
+Test Negative (T-): 3   9.1%	Results	21
+Test + (Initial MRI BI-RAD 0, 3, 4, 5): 31  93.9%	Results	22
+Test Negative (T-): 2   6.1%	Results	23
+Test + (Initial MRI BI-RAD 0, 3, 4, 5/work-up)".: 31  93.9%	Results	24
+Test Negative (T-): 2   6.1%	Results	25
+Results 2:	Results	26
+Arm/Group Title: Reference Standard Negative (RS-)	Results	27
+Arm/Group Description: Women with no diagnosis of cancer during the year after their enrollment were considered negative. All cases for whom no tissue diagnosis of cancer was reported during the 365 days following the initial MRI were considered negative, regardless of whether any additional imaging had been performed.	Results	28
+cancer	DOID:162	50-56
+cancer	DOID:162	164-170
+year	UO:0000036	68-72
+tissue	UBERON:0000479	144-150
+Overall Number of Participants Analyzed: 936	Results	29
+Measure Type: Count of Participants	Results	30
+Unit of Measure: Participants  Test + (Final BI-RAD 0, 4, 5): 114  12.2%	Results	31
+Test Negative (T-): 822  87.8%	Results	32
+Test + (Initial MRI BI-RAD 4, 5/work-up): 105  11.2%	Results	33
+Test Negative (T-): 831  88.8%	Results	34
+Test + (Initial MRI BI-RAD 4, 5/work-up/comp bx): 91   9.7%	Results	35
+Test Negative (T-): 845  90.3%	Results	36
+Test + (Initial MRI BI-RAD 0, 4, 5): 143  15.3%	Results	37
+Test Negative (T-): 793  84.7%	Results	38
+Test + (Initial MRI BI-RAD 0, 3, 4, 5): 247  26.4%	Results	39
+Test Negative (T-): 689  73.6%	Results	40
+Test + (Initial MRI BI-RAD 0, 3, 4, 5/work-up)".: 145  15.5%	Results	41
+Test Negative (T-): 791  84.5%	Results	42
+Adverse Events 1:	Adverse Events	0
+Total: 0/1007 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

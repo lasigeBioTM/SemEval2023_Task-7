@@ -1,0 +1,129 @@
+INTERVENTION 1:	Intervention	0
+AZD8931 160 mg bd	Intervention	1
+Part A: AZD8931 160mg (bd) plus weekly paclitaxel of 90mg/m2 on days 1, 8 and 15 of each 28 day cycle	Intervention	2
+paclitaxel	CHEBI:45863	39-49
+day	UO:0000033	64-67
+day	UO:0000033	92-95
+INTERVENTION 2:	Intervention	3
+AZD8931 120 mg bd	Intervention	4
+Part A: AZD8931 120mg (bd) plus weekly paclitaxel of 90mg/m2 on days 1, 8 and 15 of each 28 day cycle	Intervention	5
+paclitaxel	CHEBI:45863	39-49
+day	UO:0000033	64-67
+day	UO:0000033	92-95
+Inclusion Criteria:	Eligibility	0
+Male/ female with solid, malignant tumour which is unresponsive to standard therapies (Phase I). Female patients with advanced breast cancer with low HER2 expression (Phase II)	Eligibility	1
+female	PATO:0000383	6-12
+female	PATO:0000383	97-103
+breast cancer	DOID:1612	127-140
+Suitable for paclitaxel chemotherapy	Eligibility	2
+paclitaxel	CHEBI:45863	13-23
+Life expectancy more than 12 weeks	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Inadequate kidney, liver, heart, gastric, lung or eye function	Eligibility	5
+kidney	UBERON:0002113	11-17
+liver	UBERON:0002107	19-24
+heart	UBERON:0000948	26-31
+lung	UBERON:0002048	42-46
+eye	UBERON:0000970	50-53
+function	BAO:0003117,BFO:0000034	54-62
+Hypersensitive to paclitaxel	Eligibility	6
+paclitaxel	CHEBI:45863	18-28
+No symptomatic uncontrolled brain metastases	Eligibility	7
+brain	UBERON:0000955	28-33
+Previous taxane chemotherapy within 12 months (Phase II)	Eligibility	8
+taxane	CHEBI:36064	9-15
+Outcome Measurement:	Results	0
+Phase I: The Number of Dose Limiting Toxicities in AZD8931 in Combination With Weekly Paclitaxel	Results	1
+paclitaxel	CHEBI:45863	86-96
+DLT is an AE or laboratory abnormality related to AZD8931, starting during the DLT evaluation period and meeting any of the following criteria (further detail in protocol): Symptomatic ocular surface lesion; CTCAE grade 4 haematological AE; CTCAE grade 3 of febrile neutropenia / neutropenia / thrombocytopenia / hyperkalaemia / hyperglycaemia / hypotension / urological toxicity / ILD / pneumonitis; QTcF interval > 500 msec, two ECGs  30 minutes apart; Symptomatic congestive cardiac failure and a drop in LVEF; Decrease in LVEF of 20% to below the LLN; CS rash remaining CTCAE grade 3 for 5 days despite optimal treatment; CTCAE grade 3 nausea, vomiting or diarrhoea, despite optimal therapy; Other CTCAE grade 3 toxicity which, in the opinion of the investigator, is CS and related to AZD8931; Delay to the administration of paclitaxel on D1 of Cycle 2 by 7 days. Patients could have more than one DLT.	Results	2
+neutropenia	HP:0001875,DOID:1227	266-277
+neutropenia	HP:0001875,DOID:1227	280-291
+thrombocytopenia	HP:0001873,DOID:1588	294-310
+hypotension	HP:0002615	346-357
+nausea	HP:0002018	640-646
+vomiting	HP:0002013	648-656
+paclitaxel	CHEBI:45863	829-839
+Time frame: Weekly visits for routine safety monitoring from Day 1 to Day 28 for each participant	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	61-64
+day	UO:0000033	70-73
+Results 1:	Results	4
+Arm/Group Title: AZD8931 160 mg bd	Results	5
+Arm/Group Description: Part A: AZD8931 160mg (bd) plus weekly paclitaxel of 90mg/m2 on days 1, 8 and 15 of each 28 day cycle	Results	6
+paclitaxel	CHEBI:45863	62-72
+day	UO:0000033	87-90
+day	UO:0000033	115-118
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Number of Dose Limiting Toxicities  Total: 2	Results	9
+Eye disorders: Keratitis: 1	Results	10
+eye	UBERON:0000970	0-3
+keratitis	HP:0000491,DOID:4677	15-24
+Eye disorders: Photophobia: 1	Results	11
+eye	UBERON:0000970	0-3
+photophobia	HP:0000613	15-26
+Gastrointestinal disorders: Diarrhoea: 1	Results	12
+Gastrointestinal disorders: Oesophagitis: 0	Results	13
+Infections and infestations: Rash pustular: 0	Results	14
+Results 2:	Results	15
+Arm/Group Title: AZD8931 120 mg bd	Results	16
+Arm/Group Description: Part A: AZD8931 120mg (bd) plus weekly paclitaxel of 90mg/m2 on days 1, 8 and 15 of each 28 day cycle	Results	17
+paclitaxel	CHEBI:45863	62-72
+day	UO:0000033	87-90
+day	UO:0000033	115-118
+Overall Number of Participants Analyzed: 2	Results	18
+Measure Type: Number	Results	19
+Unit of Measure: Number of Dose Limiting Toxicities  Total: 1	Results	20
+Eye disorders: Keratitis: 0	Results	21
+eye	UBERON:0000970	0-3
+keratitis	HP:0000491,DOID:4677	15-24
+Eye disorders: Photophobia: 0	Results	22
+eye	UBERON:0000970	0-3
+photophobia	HP:0000613	15-26
+Gastrointestinal disorders: Diarrhoea: 1	Results	23
+Gastrointestinal disorders: Oesophagitis: 0	Results	24
+Infections and infestations: Rash pustular: 0	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 4/6 (66.67%)	Adverse Events	1
+ANAEMIA 0/6 (0.00%)	Adverse Events	2
+FEBRILE NEUTROPENIA 0/6 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+NEUTROPENIA 0/6 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 0/6 (0.00%)	Adverse Events	5
+pancytopenia	HP:0001876,DOID:12450	0-12
+CARDIAC FAILURE 0/6 (0.00%)	Adverse Events	6
+ATRIAL FIBRILLATION 0/6 (0.00%)	Adverse Events	7
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+MYOCARDIAL INFARCTION 0/6 (0.00%)	Adverse Events	8
+myocardial infarction	HP:0001658,DOID:5844	0-21
+SUPRAVENTRICULAR TACHYCARDIA 0/6 (0.00%)	Adverse Events	9
+supraventricular tachycardia	HP:0004755	0-28
+KERATITIS 0/6 (0.00%)	Adverse Events	10
+keratitis	HP:0000491,DOID:4677	0-9
+DIARRHOEA 0/6 (0.00%)	Adverse Events	11
+NAUSEA 0/6 (0.00%)	Adverse Events	12
+nausea	HP:0002018	0-6
+OESOPHAGITIS 0/6 (0.00%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 2/6 (33.33%)	Adverse Events	15
+ANAEMIA 0/6 (0.00%)	Adverse Events	16
+FEBRILE NEUTROPENIA 0/6 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+NEUTROPENIA 0/6 (0.00%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 0/6 (0.00%)	Adverse Events	19
+pancytopenia	HP:0001876,DOID:12450	0-12
+CARDIAC FAILURE 0/6 (0.00%)	Adverse Events	20
+ATRIAL FIBRILLATION 0/6 (0.00%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+MYOCARDIAL INFARCTION 0/6 (0.00%)	Adverse Events	22
+myocardial infarction	HP:0001658,DOID:5844	0-21
+SUPRAVENTRICULAR TACHYCARDIA 0/6 (0.00%)	Adverse Events	23
+supraventricular tachycardia	HP:0004755	0-28
+KERATITIS 0/6 (0.00%)	Adverse Events	24
+keratitis	HP:0000491,DOID:4677	0-9
+DIARRHOEA 0/6 (0.00%)	Adverse Events	25
+NAUSEA 0/6 (0.00%)	Adverse Events	26
+nausea	HP:0002018	0-6
+OESOPHAGITIS 1/6 (16.67%)	Adverse Events	27

@@ -1,0 +1,185 @@
+INTERVENTION 1:	Intervention	0
+Part A Abemaciclib: HR+, HER2+ Breast Cancer	Intervention	1
+breast cancer	DOID:1612	31-44
+Abemaciclib 200 mg was administered orally once every 12 hours on days 1-21 of a 21-day cycle when administered as a single agent or in combination with endocrine therapy (ET). Participants with hormone receptor positive HR+, HER2+ breast cancer receiving concurrent trastuzumab, 150 mg abemaciclib was given orally once every 12 hours on days 1-21 of a 21-day cycle. Participants may continue to receive treatment until discontinuation criteria are met.	Intervention	2
+hormone	CHEBI:24621	195-202
+receptor	BAO:0000281	203-211
+breast cancer	DOID:1612	232-245
+INTERVENTION 2:	Intervention	3
+Part B Abemaciclib: HR+, HER2- Breast Cancer	Intervention	4
+breast cancer	DOID:1612	31-44
+Abemaciclib 200 mg was administered orally once every 12 hours on days 1-21 of a 21-day cycle when administered as a single agent or for in combination with endocrine therapy (ET).	Intervention	5
+Participants may continue to receive treatment until discontinuation criteria are met.	Intervention	6
+Inclusion Criteria:	Eligibility	0
+Have brain metastases secondary to hormone receptor positive breast cancer, NSCLC, or melanoma.	Eligibility	1
+brain	UBERON:0000955	5-10
+hormone	CHEBI:24621	35-42
+receptor	BAO:0000281	43-51
+breast cancer	DOID:1612	61-74
+melanoma	HP:0002861,DOID:1909	86-94
+Have either human epidermal growth factor receptor 2 positive (HER2+) (Study Part A) or negative HER2- (Study Part B) breast cancer.	Eligibility	2
+growth factor	BAO:0002024	28-41
+receptor	BAO:0000281	42-50
+breast cancer	DOID:1612	118-131
+Participants in Study Part C must have HR+ breast cancer, NSCLC, or melanoma with brain lesions clinically indicated for surgical resection as well as consent to provide tissue for drug concentration determination after 5 to 14 days of study drug dosing.	Eligibility	3
+breast cancer	DOID:1612	43-56
+melanoma	HP:0002861,DOID:1909	68-76
+brain	UBERON:0000955	82-87
+tissue	UBERON:0000479	170-176
+drug	CHEBI:23888	181-185
+drug	CHEBI:23888	242-246
+Participants in Part D must have NSCLC of any subtype.	Eligibility	4
+Participants in Part E must have melanoma of any subtype.	Eligibility	5
+melanoma	HP:0002861,DOID:1909	33-41
+Participants in Part F must have HR+ breast cancer, NSCLC, or melanoma with leptomeningeal metastases.	Eligibility	6
+f	UO:0000195	21-22
+breast cancer	DOID:1612	37-50
+melanoma	HP:0002861,DOID:1909	62-70
+For Parts A, B, D, and E: Must have at least 1 measurable brain lesion 10 millimeters (mm) in the longest diameter (LD).	Eligibility	7
+brain	UBERON:0000955	58-63
+diameter	PATO:0001334	106-114
+For Part C (surgical): Have metastatic brain lesion(s) for which surgical resection is clinically indicated.	Eligibility	8
+brain	UBERON:0000955	39-44
+Have completed local therapy (surgical resection, whole-breast radiotherapy (WBRT), or SRS) 14 days prior to initiating abemaciclib and recovered from all acute effects.	Eligibility	9
+radiotherapy	OAE:0000235	63-75
+acute	HP:0011009,PATO:0000389	155-160
+If receiving concomitant corticosteroids, must be on a stable or decreasing dose for at least 7 days prior to the baseline Gd-MRI.	Eligibility	10
+stable	HP:0031915	55-61
+Have a Karnofsky performance status of 70.	Eligibility	11
+Have a life expectancy 12 weeks.	Eligibility	12
+For HR+ breast cancer participants in part A, B, C, and F: If currently receiving endocrine therapy, a participant may continue to receive the same endocrine therapy provided that extracranial disease is stable for at least 3 months and central nervous system (CNS) disease progression has occurred while on this endocrine therapy. If these conditions are not met, participants must discontinue endocrine therapy prior to initiation of abemaciclib.	Eligibility	13
+breast cancer	DOID:1612	8-21
+f	UO:0000195	0-1
+f	UO:0000195	56-57
+f	UO:0000195	60-61
+f	UO:0000195	211-212
+f	UO:0000195	333-334
+f	UO:0000195	434-435
+disease	DOID:4,OGMS:0000031	193-200
+disease	DOID:4,OGMS:0000031	266-273
+stable	HP:0031915	204-210
+central nervous system	UBERON:0001017	237-259
+For HER2+ breast cancer participants in parts A, C, and F: participants may receive concurrent treatment (ongoing or initiated simultaneously with abemaciclib) with IV trastuzumab.	Eligibility	14
+breast cancer	DOID:1612	10-23
+f	UO:0000195	0-1
+f	UO:0000195	56-57
+For NSCLC participants in parts C, D, and F: if currently receiving gemcitabine or pemetrexed (single-agent or in combination with another therapy), a participant may continue to receive 1 of these 2 therapies provided that extracranial disease is stable for at least 6 weeks and CNS disease progression has occurred while on this therapy.	Eligibility	15
+f	UO:0000195	0-1
+f	UO:0000195	42-43
+f	UO:0000195	46-47
+f	UO:0000195	190-191
+f	UO:0000195	255-256
+gemcitabine	CHEBI:175901	68-79
+pemetrexed	CHEBI:63616	83-93
+disease	DOID:4,OGMS:0000031	237-244
+disease	DOID:4,OGMS:0000031	284-291
+stable	HP:0031915	248-254
+Have adequate organ function.	Eligibility	16
+organ	UBERON:0000062	14-19
+function	BAO:0003117,BFO:0000034	20-28
+Exclusion Criteria:	Eligibility	17
+Require immediate local therapy, including but not limited to WBRT, SRS, or surgical resection, for treatment of brain metastases.	Eligibility	18
+brain	UBERON:0000955	113-118
+Are taking concurrent enzyme-inducing antiepileptic drugs (EIAED).	Eligibility	19
+Have evidence of significant (ie, symptomatic) intracranial hemorrhage.	Eligibility	20
+intracranial hemorrhage	HP:0002170	47-70
+For Parts A, B, C, D, E: Have evidence of leptomeningeal metastases. Note: discrete dural metastases are permitted.	Eligibility	21
+Have experienced >2 seizures within 4 weeks prior to study entry.	Eligibility	22
+For Parts A, B, D, E, and F: Have previously received treatment with any cyclin dependent kinase 6 (CDK6) inhibitor. For Part C participants may have received prior palbociclib or ribociclib, but not abemaciclib treatment.	Eligibility	23
+f	UO:0000195	0-1
+f	UO:0000195	26-27
+f	UO:0000195	117-118
+kinase	BAO:0000294	90-96
+inhibitor	CHEBI:35222	106-115
+palbociclib	CHEBI:85993	165-176
+Have known contraindication to Gd-MRI.	Eligibility	24
+contraindication	OAE:0000055	11-27
+Have a preexisting chronic condition resulting in persistent diarrhea.	Eligibility	25
+chronic	HP:0011010	19-26
+condition	PDRO:0000129	27-36
+diarrhea	HP:0002014,DOID:13250	61-69
+Outcome Measurement:	Results	0
+Percentage of Participants Achieving Complete Response (CR) or Partial Response (PR): Objective Intracranial Response Rate (OIRR)	Results	1
+rate	BAO:0080019	118-122
+OIRR is the percentage of participants with a (CR) or (PR) based on the Response Assessment in Neuro-Oncology Brain Metastasis (RANO-BM) response criteria. CR is measurable target lesions, the disappearance of all central nervous system (CNS) target lesions for at least 4 weeks; no new lesions; no corticosteroids; stable or improved clinically. PR is at least a 30% decrease in the sum longest duration (LD) of CNS target lesions, taking as reference the baseline sum LD for at least 4 weeks; no new lesions; stable to decreased corticosteroid dose; stable or improved clinically. Nontarget lesions requires disappearance CNS non-target lesions and no new CNS lesions. Stable disease (SD) is less than (<)30% decrease relative to baseline but <20% increase in sum LD relative to nadir. Progressive disease (PD) is greater than or equal to (  ) 20% increase in sum LD relative to nadir and a relative increase of 20%, 1 lesion must increase by absolute value of 5 millimeter (mm).	Results	2
+brain	UBERON:0000955	110-115
+target	BAO:0003064	173-179
+target	BAO:0003064	243-249
+target	BAO:0003064	417-423
+target	BAO:0003064	586-592
+target	BAO:0003064	632-638
+central nervous system	UBERON:0001017	214-236
+stable	HP:0031915	316-322
+stable	HP:0031915	511-517
+stable	HP:0031915	552-558
+stable	HP:0031915	671-677
+duration	PATO:0001309	396-404
+corticosteroid	CHEBI:50858	299-313
+corticosteroid	CHEBI:50858	531-545
+disease	DOID:4,OGMS:0000031	678-685
+disease	DOID:4,OGMS:0000031	800-807
+increase	BAO:0001251	750-758
+increase	BAO:0001251	850-858
+increase	BAO:0001251	902-910
+increase	BAO:0001251	933-941
+progressive	HP:0003676	788-799
+millimeter	UO:0000016	965-975
+Time frame: Baseline to Objective Disease Progression (Up to 36 Months)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	34-41
+Results 1:	Results	4
+Arm/Group Title: Part A Abemaciclib: HR+, HER2+ Breast Cancer	Results	5
+breast cancer	DOID:1612	48-61
+Arm/Group Description: Abemaciclib 200 mg was administered orally once every 12 hours on days 1-21 of a 21-day cycle when administered as a single agent or in combination with endocrine therapy (ET). Participants with hormone receptor positive HR+, HER2+ breast cancer receiving concurrent trastuzumab, 150 mg abemaciclib was given orally once every 12 hours on days 1-21 of a 21-day cycle. Participants may continue to receive treatment until discontinuation criteria are met.	Results	6
+hormone	CHEBI:24621	218-225
+receptor	BAO:0000281	226-234
+breast cancer	DOID:1612	255-268
+Overall Number of Participants Analyzed: 23	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Part B Abemaciclib: HR+, HER2- Breast Cancer	Results	11
+breast cancer	DOID:1612	48-61
+Arm/Group Description: Abemaciclib 200 mg was administered orally once every 12 hours on days 1-21 of a 21-day cycle when administered as a single agent or for in combination with endocrine therapy (ET).	Results	12
+Participants may continue to receive treatment until discontinuation criteria are met.	Results	13
+Overall Number of Participants Analyzed: 52	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: percentage of participants  5.8	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 6/27 (22.22%)	Adverse Events	1
+Anaemia 0/27 (0.00%)	Adverse Events	2
+Thrombocytopenia 1/27 (3.70%)	Adverse Events	3
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome 0/27 (0.00%)	Adverse Events	4
+acute coronary syndrome	HP:0033678	0-23
+Cardiac failure 0/27 (0.00%)	Adverse Events	5
+Myocardial infarction 0/27 (0.00%)	Adverse Events	6
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Glaucoma 0/27 (0.00%)	Adverse Events	7
+glaucoma	HP:0000501,DOID:1686	0-8
+Diarrhoea 2/27 (7.41%)	Adverse Events	8
+Enterocolitis 1/27 (3.70%)	Adverse Events	9
+enterocolitis	HP:0004387	0-13
+Haemorrhoidal haemorrhage 0/27 (0.00%)	Adverse Events	10
+Lower gastrointestinal haemorrhage 0/27 (0.00%)	Adverse Events	11
+Nausea 0/27 (0.00%)	Adverse Events	12
+nausea	HP:0002018	0-6
+Adverse Events 2:	Adverse Events	13
+Total: 16/58 (27.59%)	Adverse Events	14
+Anaemia 0/58 (0.00%)	Adverse Events	15
+Thrombocytopenia 0/58 (0.00%)	Adverse Events	16
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome 0/58 (0.00%)	Adverse Events	17
+acute coronary syndrome	HP:0033678	0-23
+Cardiac failure 0/58 (0.00%)	Adverse Events	18
+Myocardial infarction 0/58 (0.00%)	Adverse Events	19
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Glaucoma 1/58 (1.72%)	Adverse Events	20
+glaucoma	HP:0000501,DOID:1686	0-8
+Diarrhoea 2/58 (3.45%)	Adverse Events	21
+Enterocolitis 0/58 (0.00%)	Adverse Events	22
+enterocolitis	HP:0004387	0-13
+Haemorrhoidal haemorrhage 0/58 (0.00%)	Adverse Events	23
+Lower gastrointestinal haemorrhage 0/58 (0.00%)	Adverse Events	24
+Nausea 0/58 (0.00%)	Adverse Events	25
+nausea	HP:0002018	0-6

@@ -1,0 +1,154 @@
+INTERVENTION 1:	Intervention	0
+High-dose Oxybutynin Chloride Group	Intervention	1
+oxybutynin chloride	CHEBI:7857	10-29
+group	CHEBI:24433	30-35
+Patients receive higher dose oxybutynin chloride on days 15-49 in the absence of unacceptable toxicity.	Intervention	2
+oxybutynin chloride	CHEBI:7857	29-48
+INTERVENTION 2:	Intervention	3
+Low-dose Oxybutynin Chloride Group	Intervention	4
+oxybutynin chloride	CHEBI:7857	9-28
+group	CHEBI:24433	29-34
+Patients receive lower dose oxybutynin chloride PO BID on days 8-49 in the absence of unacceptable toxicity.	Intervention	5
+oxybutynin chloride	CHEBI:7857	28-47
+Inclusion Criteria:	Eligibility	0
+History of breast cancer, ductal breast carcinoma in situ (DCIS), or lobular carcinoma in situ (LCIS) (currently without evidence of malignant disease) OR a concern about taking estrogen for fear of breast cancer	Eligibility	1
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	11-24
+breast cancer	DOID:1612	199-212
+breast carcinoma in situ	DOID:8791	33-57
+lobular carcinoma in situ	HP:0030076,DOID:3010	69-94
+disease	DOID:4,OGMS:0000031	143-150
+estrogen	CHEBI:50114,BAO:0000760	178-186
+Bothersome hot flashes (defined by their occurrence of >= 28 times per week and of sufficient severity to prompt the patient to seek therapeutic intervention)	Eligibility	2
+hot flashes	HP:0031217	11-22
+week	UO:0000034	71-75
+severity	HP:0012824	94-102
+patient	HADO:0000008,OAE:0001817	117-124
+therapeutic intervention	OAE:0000094	133-157
+Presence of hot flashes for > 30 days prior to study entry	Eligibility	3
+hot flashes	HP:0031217	12-23
+Ability to complete questionnaire(s) by themselves or with assistance	Eligibility	4
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) = 0, 1	Eligibility	5
+group	CHEBI:24433	29-34
+Ability to provide informed written consent	Eligibility	6
+Life expectancy >= 6 months	Eligibility	7
+Willing to work with the enrolling institution for follow-up (during the active monitoring phase of the study)	Eligibility	8
+active	PATO:0002354	73-79
+Exclusion Criteria:	Eligibility	9
+Any of the following current (=< 4 weeks prior) or planned therapies:	Eligibility	10
+Antineoplastic chemotherapy (anti-HER2 agents allowed)	Eligibility	11
+Androgens	Eligibility	12
+Estrogens (any delivery route)	Eligibility	13
+Progestogens	Eligibility	14
+Tamoxifen, raloxifene and aromatase inhibitors are allowed, but patient must have been on a constant dose for at least 28 days and must not be expected to stop the medication during the study period	Eligibility	15
+tamoxifen	CHEBI:41774	0-9
+raloxifene	CHEBI:8772	11-21
+patient	HADO:0000008,OAE:0001817	64-71
+Selective serotonin reuptake inhibitors (SSRIs)/serotonin?norepinephrine reuptake inhibitors (SNRIs), when being used for hot flash management or other indications such as depression, is allowed, assuming the dose will remain unchanged for the study duration	Eligibility	16
+serotonin	CHEBI:350546	10-19
+serotonin	CHEBI:350546	48-57
+depression	HP:0000716	172-182
+duration	PATO:0001309	250-258
+Gabapentin/pregabalin, when being used for hot flash management (use for other indications, such as pain, is allowed, assuming the dose will remain unchanged for the study duration)	Eligibility	17
+pain	HP:0012531	100-104
+duration	PATO:0001309	172-180
+Clonidine	Eligibility	18
+clonidine	CHEBI:46631	0-9
+Agents with known potent anticholinergic activity; agents with mild-moderate anticholinergic activity are allowed	Eligibility	19
+Prior use of oxybutynin during the period in which patient has had hot flashes	Eligibility	20
+oxybutynin	CHEBI:7856	13-23
+patient	HADO:0000008,OAE:0001817	51-58
+hot flashes	HP:0031217	67-78
+Pregnant women	Eligibility	21
+Nursing women	Eligibility	22
+History of any of the following contraindications to oxybutynin:	Eligibility	23
+history	BFO:0000182	0-7
+oxybutynin	CHEBI:7856	53-63
+Uncontrolled gastroesophageal reflux disease (GERD) despite appropriate therapy; if patient has history of GERD, but symptoms are well-controlled with medical treatment, patient is eligible	Eligibility	24
+gastroesophageal reflux disease	DOID:8534	13-44
+patient	HADO:0000008,OAE:0001817	84-91
+patient	HADO:0000008,OAE:0001817	170-177
+history	BFO:0000182	96-103
+Ulcerative colitis	Eligibility	25
+ulcerative colitis	HP:0100279,DOID:8577	0-18
+Narrow-angle glaucoma	Eligibility	26
+glaucoma	HP:0000501,DOID:1686	13-21
+Urinary retention	Eligibility	27
+urinary retention	HP:0000016	0-17
+Hypersensitivity to oxybutynin or any other components of the product	Eligibility	28
+hypersensitivity	GO:0002524,DOID:1205	0-16
+oxybutynin	CHEBI:7856	20-30
+product	BAO:0003067	62-69
+Current uncontrolled hyperthyroidism	Eligibility	29
+hyperthyroidism	HP:0000836,DOID:7998	21-36
+Coronary heart disease (angina or prior myocardial infarction)	Eligibility	30
+heart disease	DOID:114	9-22
+myocardial infarction	HP:0001658,DOID:5844	40-61
+Congestive heart failure	Eligibility	31
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Symptomatic cardiac arrhythmias	Eligibility	32
+Current uncontrolled hypertension	Eligibility	33
+hypertension	HP:0000822,DOID:10763	21-33
+Myasthenia gravis	Eligibility	34
+myasthenia gravis	DOID:437	0-17
+Dementia	Eligibility	35
+dementia	HP:0000726,DOID:1307	0-8
+Outcome Measurement:	Results	0
+Average Change in Hot Flash Activity Score From Baseline to Week 7 for Low Dose Oxybutynin vs Placebo and for High Dose Oxybutynin vs Placebo	Results	1
+week	UO:0000034	60-64
+oxybutynin	CHEBI:7856	80-90
+oxybutynin	CHEBI:7856	120-130
+Average change in hot flash activity score from baseline to Week 7 for Low Dose Oxybutynin vs Placebo. The hot flash activity will be measured by the weekly average hot flash score (Sloan JA, et. al., 2001), which is a composite entity of both frequency and severity of hot flashes (The Hot Flash Diary collects the following information for Day 1- Day 7 of each week: Number of mild hot flashes, Number of moderate hot flashes, Number of severe hot flashes, Number of very severe hot flashes). This is a count, so it can range from 0 to infinity.	Results	2
+week	UO:0000034	60-64
+week	UO:0000034	150-154
+week	UO:0000034	363-367
+oxybutynin	CHEBI:7856	80-90
+frequency	HP:0040279	244-253
+severity	HP:0012824	258-266
+hot flashes	HP:0031217	270-281
+hot flashes	HP:0031217	384-395
+hot flashes	HP:0031217	416-427
+hot flashes	HP:0031217	446-457
+hot flashes	HP:0031217	481-492
+day	UO:0000033	342-345
+day	UO:0000033	349-352
+mild	HP:0012825	379-383
+moderate	HP:0012826	407-415
+severe	HP:0012828	439-445
+severe	HP:0012828	474-480
+range	LABO:0000114	522-527
+Time frame: Baseline up to day 49	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	27-30
+Results 1:	Results	4
+Arm/Group Title: High-dose Oxybutynin Chloride Group	Results	5
+oxybutynin chloride	CHEBI:7857	27-46
+group	CHEBI:24433	4-9
+group	CHEBI:24433	47-52
+Arm/Group Description: Patients receive higher dose oxybutynin chloride on days 15-49 in the absence of unacceptable toxicity.	Results	6
+oxybutynin chloride	CHEBI:7857	52-71
+Overall Number of Participants Analyzed: 31	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: score on a scale  -16.9         (15.6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Low-dose Oxybutynin Chloride Group	Results	11
+oxybutynin chloride	CHEBI:7857	26-45
+group	CHEBI:24433	4-9
+group	CHEBI:24433	46-51
+Arm/Group Description: Patients receive lower dose oxybutynin chloride PO BID on days 8-49 in the absence of unacceptable toxicity.	Results	12
+oxybutynin chloride	CHEBI:7857	51-70
+Overall Number of Participants Analyzed: 34	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: score on a scale  -10.6         (7.7)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 2/46 (4.35%)	Adverse Events	1
+Dry mouth 2/46 (4.35%)	Adverse Events	2
+mouth	UBERON:0000165	4-9
+Adverse Events 2:	Adverse Events	3
+Total: 0/48 (0.00%)	Adverse Events	4
+Dry mouth 0/48 (0.00%)	Adverse Events	5
+mouth	UBERON:0000165	4-9

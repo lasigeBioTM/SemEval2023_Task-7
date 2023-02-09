@@ -1,0 +1,140 @@
+INTERVENTION 1:	Intervention	0
+Oraxol (Oral Paclitaxel Plus HM30181)	Intervention	1
+paclitaxel	CHEBI:45863	13-23
+Oraxol 205 mg/m2 daily x 3 days weekly for up to 16 weeks.	Intervention	2
+x	LABO:0000148	3-4
+x	LABO:0000148	23-24
+Inclusion Criteria:	Eligibility	0
+Signed written informed consent	Eligibility	1
+Women 18 years of age on day of consent	Eligibility	2
+age	PATO:0000011	18-21
+day	UO:0000033	25-28
+Breast cancer in patients for whom treatment with IV paclitaxel at 80 mg/m2 as monotherapy has been recommended by their oncologist	Eligibility	3
+breast cancer	DOID:1612	0-13
+paclitaxel	CHEBI:45863	53-63
+Measurable disease as per RECIST v1.1 criteria	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+Adequate hematological status as demonstrated by not requiring transfusion support or granulocyte-colony stimulating factor (G-CSF) maintain:	Eligibility	5
+Absolute neutrophil count (ANC) 1.5 x 10^9/L	Eligibility	6
+x	LABO:0000148	36-37
+Platelet count 100 x 10^9/L	Eligibility	7
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	19-20
+Hemoglobin (Hgb) 9 g/dL	Eligibility	8
+hemoglobin	CHEBI:35143	0-10
+Adequate liver function	Eligibility	9
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Total bilirubin of 1.5 mg/dL	Eligibility	10
+Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) 3 x upper limit of normal (ULN) or 5 x ULN if liver metastasis is present	Eligibility	11
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	35-44
+x	LABO:0000148	70-71
+x	LABO:0000148	105-106
+liver	UBERON:0002107	114-119
+present	PATO:0000467	134-141
+Alkaline phosphatase (ALP) 3 x ULN or 5 x ULN if bone metastasis is present	Eligibility	12
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	29-30
+x	LABO:0000148	40-41
+present	PATO:0000467	68-75
+Gamma glutamyl transferase (GGT) <10 x ULN	Eligibility	13
+transferase	BAO:0000292	15-26
+x	LABO:0000148	37-38
+Adequate renal function as demonstrated by serum creatinine 1.5 x ULN	Eligibility	14
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	49-59
+x	LABO:0000148	64-65
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	15
+group	CHEBI:24433	29-34
+Life expectancy of at least 3 months	Eligibility	16
+Willing to fast for 6 hours before and 2 hours after Oraxol administration on all treatment days	Eligibility	17
+Willing to abstain from alcohol consumption for 3 days before the first dose of study drug through the completion of the second inpatient PK sampling period	Eligibility	18
+alcohol	CHEBI:16236	24-31
+drug	CHEBI:23888	86-90
+second	UO:0000010	121-127
+Willing to refrain from caffeine consumption for 12 hours before each inpatient dosing period through the completion of protocol-specified PK sampling for that week	Eligibility	19
+caffeine	CHEBI:27732	24-32
+week	UO:0000034	160-164
+Subjects must be postmenopausal (>12 months without menses) or surgically sterile (ie, by hysterectomy and/or bilateral oophorectomy) or must be using effective contraception (ie, oral contraceptives, intrauterine device, double barrier method of condom and spermicide) and agree to continue use of contraception for 30 days after their last dose of assigned study treatment.	Eligibility	20
+bilateral	HP:0012832	110-119
+Subjects who are of childbearing potential must have a negative serum pregnancy test at Screening and within 96 hours before dosing.	Eligibility	21
+Exclusion Criteria:	Eligibility	22
+Have not recovered to  Grade 1 toxicity from previous anticancer treatments or previous investigational products (IPs)	Eligibility	23
+If previously treated with a taxane (paclitaxel or docetaxel) as part of anthracycline-based adjuvant chemotherapy or for metastatic disease, the subject relapsed less than 1 year following treatment	Eligibility	24
+taxane	CHEBI:36064	29-35
+paclitaxel	CHEBI:45863	37-47
+part of	BAO:0090002,BFO:0000050	65-72
+adjuvant	CHEBI:60809	93-101
+disease	DOID:4,OGMS:0000031	133-140
+year	UO:0000036	175-179
+Subjects unable to swallow study medication in its intact form or have clinically significant malabsorption syndrome	Eligibility	25
+malabsorption	HP:0002024	94-107
+syndrome	DOID:225	108-116
+Only site of metastatic disease is unmeasurable according to RECIST v1.1 criteria	Eligibility	26
+site	BFO:0000029	5-9
+disease	DOID:4,OGMS:0000031	24-31
+Known CNS metastasis, including leptomeningeal involvement	Eligibility	27
+Received IPs within 14 days or 5 half-lives of the first study dosing day, whichever is longer	Eligibility	28
+day	UO:0000033	23-26
+day	UO:0000033	70-73
+Are currently receiving other medications intended for the treatment of their malignancy	Eligibility	29
+Women who are pregnant or breastfeeding	Eligibility	30
+Taking prohibited medications:	Eligibility	31
+Use of warfarin. Subjects receiving warfarin who are otherwise eligible and who may be appropriately managed with low molecular weight heparin, in the opinion of the Investigator, may be enrolled in the study provided they are switched to low molecular weight heparin at least 7 days prior to receiving study treatment.	Eligibility	32
+warfarin	CHEBI:10033	7-15
+warfarin	CHEBI:10033	36-44
+heparin	CHEBI:28304	135-142
+heparin	CHEBI:28304	260-267
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, myocardial infarction within the last 6 months, unstable angina pectoris, cardiac arrhythmia, chronic pulmonary disease requiring oxygen, known bleeding disorders, or any concomitant illness or social situation that would limit compliance with study requirements	Eligibility	33
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+myocardial infarction	HP:0001658,DOID:5844	132-153
+angina pectoris	HP:0001681	189-204
+arrhythmia	HP:0011675	214-224
+chronic	HP:0011010	226-233
+disease	DOID:4,OGMS:0000031	244-251
+Known allergic reaction or intolerance to study medication components	Eligibility	34
+Known allergic reaction or intolerance to contrast media	Eligibility	35
+Subjects who, in the Investigator's opinion, are not suitable for participation in this study	Eligibility	36
+Outcome Measurement:	Results	0
+PK Parameters for paclitaxel_AUC (0-52)	Results	1
+PK parameters were summarized using the mean, SD	Results	2
+mean	BAO:0002173	40-44
+Time frame: PK sampling timepoints: predose, and at 1, 2, 3, and 4 hours after dosing of Day 1, 2, 3 at Week 1 and 4	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	24-28
+day	UO:0000033	89-92
+week	UO:0000034	104-108
+Results 1:	Results	4
+Arm/Group Title: Oraxol (Oral Paclitaxel Plus HM30181)	Results	5
+paclitaxel	CHEBI:45863	30-40
+Arm/Group Description: Oraxol 205 mg/m2 daily x 3 days weekly for up to 16 weeks.	Results	6
+x	LABO:0000148	26-27
+x	LABO:0000148	46-47
+Overall Number of Participants Analyzed: 25	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ng*hr/mL  Week 1: 3419         (1475)	Results	9
+week	UO:0000034	27-31
+Week 4: 3224         (1150)	Results	10
+week	UO:0000034	0-4
+Adverse Events 1:	Adverse Events	0
+Total: 8/28 (28.57%)	Adverse Events	1
+Neutropenia 3/28 (10.71%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Hepatitis acute 1/28 (3.57%)	Adverse Events	3
+hepatitis	HP:0012115,DOID:2237	0-9
+acute	HP:0011009,PATO:0000389	10-15
+Pneumonia 1/28 (3.57%)	Adverse Events	4
+pneumonia	HP:0002090,DOID:552	0-9
+Septic shock 1/28 (3.57%)	Adverse Events	5
+shock	HP:0031273	7-12
+Femur fracture 1/28 (3.57%)	Adverse Events	6
+femur fracture	HP:0031846	0-14
+Infected neoplasm 1/28 (3.57%)	Adverse Events	7
+neoplasm	HP:0002664,DOID:14566	9-17
+Deep vein thrombosis 1/28 (3.57%)	Adverse Events	8
+vein	UBERON:0001638	5-9
+thrombosis	DOID:0060903	10-20

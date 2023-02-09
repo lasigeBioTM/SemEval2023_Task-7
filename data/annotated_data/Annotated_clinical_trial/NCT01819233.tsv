@@ -1,0 +1,232 @@
+INTERVENTION 1:	Intervention	0
+Behavioral Dietary Intervention	Intervention	1
+Beginning 2-4 weeks after completion of lumpectomy, patients receive food diaries to complete for 7-10 days. Dietary counselors then give patients guidelines for dietary modifications to reduce caloric intake by 25% of their normal diet. Patients follow caloric restricted diet for 10 weeks (2 weeks prior to radiation therapy, during 6 weeks of radiation therapy, and at least 2 weeks after radiation therapy). Patients undergo radiation therapy QD 5 days a week for 6 weeks.	Intervention	2
+food	CHEBI:33290	69-73
+week	UO:0000034	14-18
+week	UO:0000034	285-289
+week	UO:0000034	294-298
+week	UO:0000034	337-341
+week	UO:0000034	380-384
+week	UO:0000034	459-463
+week	UO:0000034	470-474
+Behavioral dietary intervention: Receive caloric restricted dietary intervention	Intervention	3
+Therapeutic conventional surgery: Undergo definitive lumpectomy	Intervention	4
+surgery	OAE:0000067	25-32
+Radiation therapy: Undergo radiation therapy	Intervention	5
+Counseling intervention: Receive dietary counseling	Intervention	6
+Quality-of-life assessment: Ancillary studies	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Pathologically proven diagnosis of ductal carcinoma in situ (DCIS) or invasive breast cancer	Eligibility	1
+ductal carcinoma in situ	HP:0030075,DOID:0060074	35-59
+breast cancer	DOID:1612	79-92
+Ability to have breast conservation as determined by the judgment of the radiation oncologist, for which the radiation oncologist has determined that he or she will only treat the whole breast and not regional lymph nodes	Eligibility	2
+breast	UBERON:0000310	16-22
+breast	UBERON:0000310	186-192
+lymph	UBERON:0002391	210-215
+The patient must be female	Eligibility	3
+patient	HADO:0000008,OAE:0001817	4-11
+female	PATO:0000383	20-26
+Age >= 18	Eligibility	4
+age	PATO:0000011	0-3
+If multifocal breast cancer, then it must be able to be resected through a single lumpectomy incision	Eligibility	5
+multifocal	HP:0030651	3-13
+breast cancer	DOID:1612	14-27
+Appropriate stage for protocol entry, including no clinical evidence for distant metastases, based upon the following minimum diagnostic workup:	Eligibility	6
+History/physical examination, including breast exam and documentation of weight and Karnofsky performance status of 80-100% for at least 60 days prior to study entry	Eligibility	7
+breast	UBERON:0000310	40-46
+Ipsilateral mammogram within 6 months prior to study entry	Eligibility	8
+Women of childbearing potential must have a negative serum pregnancy test within 14 days of study entry	Eligibility	9
+Women of childbearing potential must be non-pregnant and non-lactating and willing to use medically acceptable form of contraception during radiation therapy	Eligibility	10
+Patient must capable of and provide study specific informed consent prior to study entry	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+Body mass index (BMI) >= 21	Eligibility	12
+Weight >= 100 lbs	Eligibility	13
+No prior history of non-breast malignancies in the past 2 years unless it was a non-melanomatous skin lesion or carcinoma in situ of the cervix	Eligibility	14
+history	BFO:0000182	9-16
+carcinoma	HP:0030731,DOID:305	112-121
+Patient must not have any of the following severe, active co-morbidity, defined as follows:	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+severe	HP:0012828	43-49
+active	PATO:0002354	51-57
+Unstable angina and/or congestive heart failure requiring hospitalization within the last 6 months	Eligibility	16
+congestive heart failure	HP:0001635,DOID:6000	23-47
+Transmural myocardial infarction within the last 6 months	Eligibility	17
+myocardial infarction	HP:0001658,DOID:5844	11-32
+Acute bacterial or fungal infection requiring intravenous antibiotics at the time of registration	Eligibility	18
+acute	HP:0011009,PATO:0000389	0-5
+time	PATO:0000165	77-81
+Chronic obstructive pulmonary disease exacerbation or other respiratory illness requiring hospitalization or precluding study therapy within 30 days before registration	Eligibility	19
+chronic obstructive pulmonary disease	DOID:3083	0-37
+Hepatic insufficiency resulting in clinical jaundice and/or coagulation defects; note, however, that laboratory tests for liver function and coagulation parameters are not required for entry into this protocol	Eligibility	20
+jaundice	HP:0000952	44-52
+coagulation	GO:0050817	60-71
+coagulation	GO:0050817	141-152
+liver	UBERON:0002107	122-127
+function	BAO:0003117,BFO:0000034	128-136
+Acquired immune deficiency syndrome (AIDS) or human immunodeficiency virus (HIV) positive based upon current Centers for Disease and Control (CDC) definition; note, however, that HIV testing is not required for entry into this protocol; the need to exclude patients with AIDS or HIV from this protocol is necessary because anti-retrovirals may alter patient metabolism	Eligibility	21
+syndrome	DOID:225	27-35
+immunodeficiency	HP:0002721	52-68
+virus	BAO:0000232	69-74
+disease	DOID:4,OGMS:0000031	121-128
+patient	HADO:0000008,OAE:0001817	257-264
+patient	HADO:0000008,OAE:0001817	350-357
+Patient must not have active systemic lupus, erythematosus, or any history of scleroderma, dermatomyositis with active rash	Eligibility	22
+patient	HADO:0000008,OAE:0001817	0-7
+active	PATO:0002354	22-28
+active	PATO:0002354	112-118
+history	BFO:0000182	67-74
+scleroderma	HP:0100324,DOID:419,DOID:418	78-89
+dermatomyositis	DOID:10223	91-106
+No prior radiotherapy to the ipsilateral breast or prior radiation to the region of the breast that would result in overlap of radiation therapy fields	Eligibility	23
+radiotherapy	OAE:0000235	9-21
+breast	UBERON:0000310	41-47
+breast	UBERON:0000310	88-94
+result	BAO:0000179	106-112
+Patient may not have any active gastrointestinal/malabsorption disorder at the discretion of the Principal Investigator	Eligibility	24
+patient	HADO:0000008,OAE:0001817	0-7
+active	PATO:0002354	25-31
+disorder	OGMS:0000045	63-71
+Inflammatory bowel disease	Eligibility	25
+inflammatory bowel disease	DOID:0050589	0-26
+Celiac disease	Eligibility	26
+celiac disease	HP:0002608,DOID:10608	0-14
+Chronic pancreatitis	Eligibility	27
+chronic pancreatitis	HP:0006280	0-20
+Chronic diarrhea or vomiting	Eligibility	28
+chronic diarrhea	HP:0002028	0-16
+vomiting	HP:0002013	20-28
+Active eating disorder	Eligibility	29
+active	PATO:0002354	0-6
+eating disorder	DOID:8670	7-22
+Creatinine < 1.7	Eligibility	30
+creatinine	CHEBI:16737	0-10
+Not currently taking steroids	Eligibility	31
+No currently active pituitary secreting tumors up to physician discretion	Eligibility	32
+active	PATO:0002354	13-19
+No history of or current active drug/alcohol dependence	Eligibility	33
+history	BFO:0000182	3-10
+active	PATO:0002354	25-31
+No patients being decisionally impaired	Eligibility	34
+Exclusion Criteria:	Eligibility	35
+Patient is not a candidate for breast conservation	Eligibility	36
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	31-37
+Patient is male	Eligibility	37
+patient	HADO:0000008,OAE:0001817	0-7
+male	CHEBI:30780,PATO:0000384	11-15
+Age < 18 years	Eligibility	38
+age	PATO:0000011	0-3
+Patient requires regional lymph node irradiation therapy	Eligibility	39
+patient	HADO:0000008,OAE:0001817	0-7
+lymph	UBERON:0002391	26-31
+Patient has evidence of distant metastases	Eligibility	40
+patient	HADO:0000008,OAE:0001817	0-7
+Karnofsky performance status less than 80% within 60 days prior to study	Eligibility	41
+Ipsilateral mammogram done greater than 6 months prior to study	Eligibility	42
+Women of childbearing potential with a positive serum beta human chorionic gonadotropin (hCG)	Eligibility	43
+chorionic gonadotropin	CHEBI:81570	65-87
+Patient has a history of dementia, psychosis or other disorder affecting their mental status to the point where they cannot consent or comply with study guidelines	Eligibility	44
+patient	HADO:0000008,OAE:0001817	0-7
+history	BFO:0000182	14-21
+dementia	HP:0000726,DOID:1307	25-33
+psychosis	HP:0000709	35-44
+disorder	OGMS:0000045	54-62
+BMI < 21	Eligibility	45
+Weight < 100 lbs	Eligibility	46
+Weight loss >= 10% in the last 3 months (mos)	Eligibility	47
+weight loss	HP:0001824	0-11
+Prior invasive non-breast malignancy (except non-melanomatous skin cancer, carcinoma in situ of the cervix) unless disease free for a minimum of 2 years prior to registration	Eligibility	48
+skin cancer	DOID:4159	62-73
+carcinoma	HP:0030731,DOID:305	75-84
+disease	DOID:4,OGMS:0000031	115-122
+Two or more breast cancers not resectable through a single lumpectomy incision	Eligibility	49
+breast	UBERON:0000310	12-18
+Non-epithelial breast malignancies such as sarcoma or lymphoma	Eligibility	50
+breast	UBERON:0000310	15-21
+sarcoma	HP:0100242,DOID:1115	43-50
+lymphoma	HP:0002665,DOID:0060058	54-62
+Prior radiotherapy to the ipsilateral breast or prior radiation to the region of the breast that would result in overlap of radiation therapy fields	Eligibility	51
+radiotherapy	OAE:0000235	6-18
+breast	UBERON:0000310	38-44
+breast	UBERON:0000310	85-91
+result	BAO:0000179	103-109
+Severe, active co-morbidity, defined as follows:	Eligibility	52
+severe	HP:0012828	0-6
+active	PATO:0002354	8-14
+Unstable angina and/or congestive heart failure requiring hospitalization within the last 6 months	Eligibility	53
+congestive heart failure	HP:0001635,DOID:6000	23-47
+Transmural myocardial infarction within the last 6 months	Eligibility	54
+myocardial infarction	HP:0001658,DOID:5844	11-32
+Acute bacterial or fungal infection requiring intravenous antibiotics at the time of registration	Eligibility	55
+acute	HP:0011009,PATO:0000389	0-5
+time	PATO:0000165	77-81
+Chronic obstructive pulmonary disease exacerbation or other respiratory illness requiring hospitalization or precluding study therapy within 30 days before registration	Eligibility	56
+chronic obstructive pulmonary disease	DOID:3083	0-37
+Hepatic insufficiency resulting in clinical jaundice and/or coagulation defects; note, however, that laboratory tests for liver function and coagulation parameters are not required for entry into this protocol	Eligibility	57
+jaundice	HP:0000952	44-52
+coagulation	GO:0050817	60-71
+coagulation	GO:0050817	141-152
+liver	UBERON:0002107	122-127
+function	BAO:0003117,BFO:0000034	128-136
+Acquired immune deficiency syndrome (AIDS) or HIV positive based upon current CDC definition; note, however, that HIV testing is not required for entry into this protocol; the need to exclude patients with AIDS or HIV from this protocol is necessary because anti-retrovirals may alter patient metabolism	Eligibility	58
+syndrome	DOID:225	27-35
+patient	HADO:0000008,OAE:0001817	192-199
+patient	HADO:0000008,OAE:0001817	285-292
+Active systemic lupus, erythematosus, or any history of scleroderma, dermatomyositis with active rash	Eligibility	59
+active	PATO:0002354	0-6
+active	PATO:0002354	90-96
+history	BFO:0000182	45-52
+scleroderma	HP:0100324,DOID:419,DOID:418	56-67
+dermatomyositis	DOID:10223	69-84
+Active gastrointestinal/malabsorption disorder at the discretion of the Principal Investigator	Eligibility	60
+active	PATO:0002354	0-6
+disorder	OGMS:0000045	38-46
+Inflammatory bowel disease	Eligibility	61
+inflammatory bowel disease	DOID:0050589	0-26
+Celiac disease	Eligibility	62
+celiac disease	HP:0002608,DOID:10608	0-14
+Chronic pancreatitis	Eligibility	63
+chronic pancreatitis	HP:0006280	0-20
+Chronic diarrhea or vomiting	Eligibility	64
+chronic diarrhea	HP:0002028	0-16
+vomiting	HP:0002013	20-28
+Active eating disorder	Eligibility	65
+active	PATO:0002354	0-6
+eating disorder	DOID:8670	7-22
+Creatinine >= 1.7	Eligibility	66
+creatinine	CHEBI:16737	0-10
+Current use of steroids	Eligibility	67
+Pituitary secreting tumors up to physician discretion	Eligibility	68
+Active drug/alcohol dependence or abuse history	Eligibility	69
+active	PATO:0002354	0-6
+history	BFO:0000182	40-47
+Decisionally impaired patients	Eligibility	70
+Outcome Measurement:	Results	0
+Number of Participants Who Are Adherent to the Diet Restriction	Results	1
+adherent	BAO:0002101	31-39
+Computed along with a 95% exact confidence interval. Exact binomial test (with a one-sided alpha of 0.05) will be used to test whether adherence is greater than 60%.	Results	2
+Time frame: Up to week 12	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	18-22
+Results 1:	Results	4
+Arm/Group Title: Behavioral Dietary Intervention	Results	5
+Arm/Group Description: Beginning 2-4 weeks after completion of lumpectomy, patients receive food diaries to complete for 7-10 days. Dietary counselors then give patients guidelines for dietary modifications to reduce caloric intake by 25% of their normal diet. Patients follow caloric restricted diet for 10 weeks (2 weeks prior to radiation therapy, during 6 weeks of radiation therapy, and at least 2 weeks after radiation therapy). Patients undergo radiation therapy QD 5 days a week for 6 weeks.	Results	6
+food	CHEBI:33290	92-96
+week	UO:0000034	37-41
+week	UO:0000034	308-312
+week	UO:0000034	317-321
+week	UO:0000034	360-364
+week	UO:0000034	403-407
+week	UO:0000034	482-486
+week	UO:0000034	493-497
+Behavioral dietary intervention: Receive caloric restricted dietary intervention	Results	7
+Therapeutic conventional surgery: Undergo definitive lumpectomy	Results	8
+surgery	OAE:0000067	25-32
+Radiation therapy: Undergo radiation therapy	Results	9
+Counseling intervention: Receive dietary counseling	Results	10
+Quality-of-life assessment: Ancillary studies	Results	11
+Overall Number of Participants Analyzed: 32	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: participants  28  [1]    (NA to 74.5)	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 0/38 (0.00%)	Adverse Events	1

@@ -1,0 +1,133 @@
+INTERVENTION 1:	Intervention	0
+Phase I: Cyclophosphamide, Doxil, Trastuzumab	Intervention	1
+cyclophosphamide	CHEBI:4026	9-25
+Patients receive oral cyclophosphamide once daily on days 1-28 and pegylated doxorubicin HCl liposome IV over 90 minutes on day 1. Treatment repeats every 4-6 weeks in the absence of disease progression or unacceptable toxicity. Some patients with HER2/neu 3+ disease may also receive trastuzumab IV over 30-90 minutes weekly or every 3 weeks at the discretion of the treating physician.	Intervention	2
+cyclophosphamide	CHEBI:4026	22-38
+doxorubicin	CHEBI:28748,BAO:0000639	77-88
+day	UO:0000033	53-56
+day	UO:0000033	124-127
+disease	DOID:4,OGMS:0000031	183-190
+disease	DOID:4,OGMS:0000031	260-267
+pegylated liposomal doxorubicin hydrochloride: Given IV	Intervention	3
+doxorubicin hydrochloride	CHEBI:31522	20-45
+cyclophosphamide: Given orally	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+trastuzumab: Given IV	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Patients must satisfy either a or b: a) Measurable disease by RECIST criteria; x-rays, scans or physical examinations used for tumor assessment must have been completed within 30 days prior to registration; any non-measurable disease must be assessed within 42 days prior to registration; b) Non-measurable disease only, but MUC-1 antigen level (either CA 27-29 or CEA) is > 2X ULN AND MUC-1 antigen has been documented to have increased by 1.5X prior to registration; x-rays, scans or other tests for assessment of non-measurable disease must have been performed within 42 days prior to registration	Eligibility	1
+disease	DOID:4,OGMS:0000031	51-58
+disease	DOID:4,OGMS:0000031	226-233
+disease	DOID:4,OGMS:0000031	307-314
+disease	DOID:4,OGMS:0000031	531-538
+antigen	CHEBI:59132	331-338
+antigen	CHEBI:59132	392-399
+ECOG performance status of =< 2	Eligibility	2
+ANC >= 1,500 cells/mm^3	Eligibility	3
+Platelet count >= 100,000 cells/mm^3	Eligibility	4
+platelet count	CMO:0000029	0-14
+Hemoglobin >= 9.0g/dL	Eligibility	5
+hemoglobin	CHEBI:35143	0-10
+Creatinine =< 2.5 mg/dL	Eligibility	6
+creatinine	CHEBI:16737	0-10
+In the absence of liver metastases, AST / ALT, alkaline phosphatase and total bilirubin must not exceed 2 x upper limit of normal (i.e., must be =< 2 x upper limit of normal)	Eligibility	7
+liver	UBERON:0002107	18-23
+phosphatase	GO:0016791,BAO:0000295	56-67
+x	LABO:0000148	98-99
+x	LABO:0000148	106-107
+x	LABO:0000148	150-151
+In the presence of liver metastases, AST / ALT, alkaline phosphatase and total bilirubin must not exceed 3 x upper limit of normal (i.e., must be =< 3 x upper limit of normal)	Eligibility	8
+liver	UBERON:0002107	19-24
+phosphatase	GO:0016791,BAO:0000295	57-68
+x	LABO:0000148	99-100
+x	LABO:0000148	107-108
+x	LABO:0000148	151-152
+Have a MUGA scan or 2-d echocardiogram indicating an ejection fraction of >= 50% within 42 days prior to first dose of study drug (the method used at baseline must be used for later monitoring)	Eligibility	9
+ejection fraction	CMO:0000180	53-70
+drug	CHEBI:23888	125-129
+Use an adequate contraceptive method (e.g., abstinence, intrauterine device, barrier device with spermicide or surgical sterilization) during treatment and for three months after completing treatment if of reproductive potential	Eligibility	10
+Be informed of the investigational nature of this study and provide written informed consent in accordance with institutional and federal guidelines prior to study specific screening procedures	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+Pregnant or lactating women	Eligibility	13
+History of hypersensitivity reactions attributed to a conventional formulation of doxorubicin HCL or the components of Doxil	Eligibility	14
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+doxorubicin	CHEBI:28748,BAO:0000639	82-93
+Patients who are HER2-neu positive with cardiac disease that would preclude the use of Doxil or Herceptin are not eligible, including active cardiac disease (i.e., angina pectoris that requires the use of antianginal medication, cardiac arrhythmia requiring medication, severe conduction abnormality, clinically significant valvular disease, cardiomegaly on chest x-ray, ventricular hypertrophy on EKG, uncontrolled hypertension [diastolic greater than 100 mm/Hg or systolic > 200 mm/hg], current use of digitalis or beta blockers for CHF, clinically significant pericardial effusion) and history of cardiac disease (i.e., myocardial infarction documented as a clinical diagnosis or by EKG or any other test, documented congestive heart failure, documented cardiomyopathy, documented arrhythmia or cardiac valvular disease that requires medication or is medically significant)	Eligibility	15
+disease	DOID:4,OGMS:0000031	48-55
+disease	DOID:4,OGMS:0000031	149-156
+disease	DOID:4,OGMS:0000031	333-340
+disease	DOID:4,OGMS:0000031	608-615
+disease	DOID:4,OGMS:0000031	815-822
+active	PATO:0002354	134-140
+angina pectoris	HP:0001681	164-179
+arrhythmia	HP:0011675	237-247
+arrhythmia	HP:0011675	784-794
+severe	HP:0012828	270-276
+cardiomegaly	HP:0001640	342-354
+chest	UBERON:0001443	358-363
+ventricular hypertrophy	HP:0001714	371-394
+hypertension	HP:0000822,DOID:10763	416-428
+pericardial effusion	HP:0001698,DOID:118	563-583
+history	BFO:0000182	589-596
+myocardial infarction	HP:0001658,DOID:5844	623-644
+congestive heart failure	HP:0001635,DOID:6000	720-744
+cardiomyopathy	HP:0001638,DOID:0050700	757-771
+Has anthracycline resistant disease defined as a) If anthracycline was given for non-metastatic disease: The cumulative dose of anthracycline exceeds 360 mg/m^ 2 for doxorubicin or 540 mg/m^2 for epirubicin AND the disease-free interval from discontinuation of anthracycline to diagnosis of metastatic disease is < 12 months; b) If anthracycline was given for metastatic disease: The cumulative dose of anthracycline exceeds 360 mg/m^2 for doxorubicin or 540 mg/m^2 for epirubicin AND the patient's disease progressed on anthracycline given as palliative therapy	Eligibility	16
+anthracycline	CHEBI:48120	4-17
+anthracycline	CHEBI:48120	53-66
+anthracycline	CHEBI:48120	128-141
+anthracycline	CHEBI:48120	261-274
+anthracycline	CHEBI:48120	332-345
+anthracycline	CHEBI:48120	403-416
+anthracycline	CHEBI:48120	521-534
+disease	DOID:4,OGMS:0000031	28-35
+disease	DOID:4,OGMS:0000031	96-103
+disease	DOID:4,OGMS:0000031	215-222
+disease	DOID:4,OGMS:0000031	302-309
+disease	DOID:4,OGMS:0000031	371-378
+disease	DOID:4,OGMS:0000031	499-506
+doxorubicin	CHEBI:28748,BAO:0000639	166-177
+doxorubicin	CHEBI:28748,BAO:0000639	440-451
+patient	HADO:0000008,OAE:0001817	489-496
+Except for the following no other malignancy is allowed: synchronous ipsilateral breast cancer of the same subtype (ER/PR, HER-2/neu), adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer or other stage I or II cancer from which the patient has been disease free for at least 5 years	Eligibility	17
+breast cancer	DOID:1612	81-94
+skin cancer	DOID:4159	182-193
+cervical cancer	DOID:4362	203-218
+cancer	DOID:162	88-94
+cancer	DOID:162	187-193
+cancer	DOID:162	212-218
+cancer	DOID:162	242-248
+patient	HADO:0000008,OAE:0001817	264-271
+disease	DOID:4,OGMS:0000031	281-288
+Any life-threatening illness other than the malignancy for which they are being treated	Eligibility	18
+Mental illness	Eligibility	19
+Have a life expectancy of less than 4 months	Eligibility	20
+Unwillingness to participate or inability to comply with the protocol for the duration of the study	Eligibility	21
+duration	PATO:0001309	78-86
+Outcome Measurement:	Results	0
+Maximum Tolerated Dose and Optimal Tolerated Dose of Pegylated Liposomal Doxorubicin Hydrochloride (Doxil) When Given in Combination With Cyclophosphamide (Phase I)	Results	1
+doxorubicin hydrochloride	CHEBI:31522	73-98
+cyclophosphamide	CHEBI:4026	138-154
+The dose level in which 2 or more patients develop treatment-related toxicity of grade 3 or higher OR require a dose adjustment following the first course of treatment	Results	2
+Time frame: Up to 24 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase I: Cyclophosphamide, Doxil, Trastuzumab	Results	5
+cyclophosphamide	CHEBI:4026	26-42
+Arm/Group Description: Patients receive oral cyclophosphamide once daily on days 1-28 and pegylated doxorubicin HCl liposome IV over 90 minutes on day 1. Treatment repeats every 4-6 weeks in the absence of disease progression or unacceptable toxicity. Some patients with HER2/neu 3+ disease may also receive trastuzumab IV over 30-90 minutes weekly or every 3 weeks at the discretion of the treating physician.	Results	6
+cyclophosphamide	CHEBI:4026	45-61
+doxorubicin	CHEBI:28748,BAO:0000639	100-111
+day	UO:0000033	76-79
+day	UO:0000033	147-150
+disease	DOID:4,OGMS:0000031	206-213
+disease	DOID:4,OGMS:0000031	283-290
+pegylated liposomal doxorubicin hydrochloride: Given IV	Results	7
+doxorubicin hydrochloride	CHEBI:31522	20-45
+cyclophosphamide: Given orally	Results	8
+cyclophosphamide	CHEBI:4026	0-16
+trastuzumab: Given IV	Results	9
+Overall Number of Participants Analyzed: 6	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: mg/m^2  30	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 0/27 (0.00%)	Adverse Events	1

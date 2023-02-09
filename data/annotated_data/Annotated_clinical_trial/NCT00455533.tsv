@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone	Intervention	1
+ixabepilone	CHEBI:63605	0-11
+ixabepilone 40 mg/m^2 administered intravenously (IV) over 3 hours, every 3 weeks for 4 cycles (12 weeks)	Intervention	2
+ixabepilone	CHEBI:63605	0-11
+INTERVENTION 2:	Intervention	3
+Paclitaxel	Intervention	4
+paclitaxel	CHEBI:45863	0-10
+paclitaxel 80 mg/m^2 administered IV every week for 12 weeks	Intervention	5
+paclitaxel	CHEBI:45863	0-10
+week	UO:0000034	43-47
+week	UO:0000034	55-59
+Inclusion criteria	Eligibility	0
+Histologically confirmed primary invasive adenocarcinoma of the breast , T2-3, N0-3, M0, with tumor size of  2 cm	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+size	PATO:0000117	100-104
+All patients with early stage breast adenocarcinoma may enroll irrespective of receptor status	Eligibility	2
+breast adenocarcinoma	DOID:3458	30-51
+receptor	BAO:0000281	79-87
+No prior treatment for breast cancer excluding therapy for DCIS	Eligibility	3
+breast cancer	DOID:1612	23-36
+Karnofsky performance status of 80 - 100	Eligibility	4
+left ventricular ejection fraction (LVEF)  50% by echocardiogram or multiple gated acquisition (MUGA)	Eligibility	5
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Adequate hematologic, hepatic and renal function	Eligibility	6
+function	BAO:0003117,BFO:0000034	40-48
+Exclusion Criteria	Eligibility	7
+women of child-bearing potential (WOCBP) unwilling or unable to use an acceptable method to avoid pregnancy during and up to 8 weeks after the last dose of the investigational drug	Eligibility	8
+drug	CHEBI:23888	176-180
+Women who are pregnant or breastfeeding	Eligibility	9
+Inflammatory or metastatic breast cancer	Eligibility	10
+breast cancer	DOID:1612	27-40
+Unfit for breast and/or axillary surgery	Eligibility	11
+breast	UBERON:0000310	10-16
+surgery	OAE:0000067	33-40
+Evidence of baseline sensory or motor neuropathy	Eligibility	12
+neuropathy	DOID:870	38-48
+Significant history of cardiovascular disease, serious intercurrent illness or infections including known human immu immunodeficiency virus (HIV) infection	Eligibility	13
+history	BFO:0000182	12-19
+disease	DOID:4,OGMS:0000031	38-45
+immunodeficiency	HP:0002721	117-133
+virus	BAO:0000232	134-139
+History of prior anthracycline therapy Allergies to any study medication or Cremophor® EL	Eligibility	14
+history	BFO:0000182	0-7
+anthracycline	CHEBI:48120	17-30
+Outcome Measurement:	Results	0
+Percentage of Participants Achieving Pathologic Complete Response (pCR)	Results	1
+The pCR was defined as no histologic evidence of residual invasive adenocarcinoma in the breast and axillary lymph nodes, with or without the presence of ductal carcinoma in situ (DCIS) in the breast.	Results	2
+adenocarcinoma	DOID:299	67-81
+breast	UBERON:0000310	89-95
+breast	UBERON:0000310	193-199
+lymph	UBERON:0002391	109-114
+ductal carcinoma in situ	HP:0030075,DOID:0060074	154-178
+Time frame: at surgery (performed 4-6 weeks after the last dose of 12 weeks of therapy)	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	15-22
+Results 1:	Results	4
+Arm/Group Title: Ixabepilone	Results	5
+ixabepilone	CHEBI:63605	17-28
+Arm/Group Description: ixabepilone 40 mg/m^2 administered intravenously (IV) over 3 hours, every 3 weeks for 4 cycles (12 weeks)	Results	6
+ixabepilone	CHEBI:63605	23-34
+Overall Number of Participants Analyzed: 148	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  24.3        (18.6 to 30.8)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Paclitaxel	Results	11
+paclitaxel	CHEBI:45863	17-27
+Arm/Group Description: paclitaxel 80 mg/m^2 administered IV every week for 12 weeks	Results	12
+paclitaxel	CHEBI:45863	23-33
+week	UO:0000034	66-70
+week	UO:0000034	78-82
+Overall Number of Participants Analyzed: 147	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of Participants  25.2        (19.4 to 31.7)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 17/145 (11.72%)	Adverse Events	1
+ANAEMIA 0/145 (0.00%)	Adverse Events	2
+LEUKOPENIA 2/145 (1.38%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 1/145 (0.69%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+LEUKOCYTOSIS 1/145 (0.69%)	Adverse Events	5
+leukocytosis	HP:0001974	0-12
+THROMBOCYTOPENIA 1/145 (0.69%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+FEBRILE NEUTROPENIA 1/145 (0.69%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	8-19
+THROMBOTIC THROMBOCYTOPENIC PURPURA 0/145 (0.00%)	Adverse Events	8
+thrombotic thrombocytopenic purpura	DOID:10772	0-35
+DISSEMINATED INTRAVASCULAR COAGULATION 0/145 (0.00%)	Adverse Events	9
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+CARDIAC FAILURE 1/145 (0.69%)	Adverse Events	10
+ATRIAL FIBRILLATION 1/145 (0.69%)	Adverse Events	11
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Adverse Events 2:	Adverse Events	12
+Total: 11/144 (7.64%)	Adverse Events	13
+ANAEMIA 1/144 (0.69%)	Adverse Events	14
+LEUKOPENIA 0/144 (0.00%)	Adverse Events	15
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 0/144 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+LEUKOCYTOSIS 0/144 (0.00%)	Adverse Events	17
+leukocytosis	HP:0001974	0-12
+THROMBOCYTOPENIA 0/144 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+FEBRILE NEUTROPENIA 1/144 (0.69%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	8-19
+THROMBOTIC THROMBOCYTOPENIC PURPURA 1/144 (0.69%)	Adverse Events	20
+thrombotic thrombocytopenic purpura	DOID:10772	0-35
+DISSEMINATED INTRAVASCULAR COAGULATION 1/144 (0.69%)	Adverse Events	21
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+CARDIAC FAILURE 0/144 (0.00%)	Adverse Events	22
+ATRIAL FIBRILLATION 0/144 (0.00%)	Adverse Events	23
+atrial fibrillation	HP:0005110,DOID:0060224	0-19

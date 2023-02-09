@@ -1,0 +1,123 @@
+INTERVENTION 1:	Intervention	0
+Ramucirumab and Docetaxel Combination	Intervention	1
+Docetaxel: Docetaxel administered by intravenous infusion at a dose of 75 milligrams per square meter (mg/m^2) every 3 weeks.	Intervention	2
+meter	UO:0000008	96-101
+Ramucirumab: Ramucirumab administered as an intravenous infusion at a dose of 10 milligrams per kilogram (mg/kg) every 3 weeks.	Intervention	3
+Inclusion Criteria:	Eligibility	0
+The participant is Japanese	Eligibility	1
+The participant has an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	2
+group	CHEBI:24433	52-57
+The participant has a histopathologically or cytologically confirmed diagnosis of breast adenocarcinoma that is now metastatic or locally-recurrent and inoperable with curative intent	Eligibility	3
+breast adenocarcinoma	DOID:3458	82-103
+The participant has measurable and/or non-measurable disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	53-60
+The participants' primary and/or metastatic tumor is Human Epidermal Growth Factor Receptor 2 (HER2) negative	Eligibility	5
+growth factor	BAO:0002024	69-82
+receptor	BAO:0000281	83-91
+The participant received neo adjuvant or adjuvant taxane therapy  6 months prior to the study	Eligibility	6
+adjuvant	CHEBI:60809	29-37
+adjuvant	CHEBI:60809	41-49
+taxane	CHEBI:36064	50-56
+The participant received neo adjuvant or adjuvant biologic therapy  6 weeks prior to the study	Eligibility	7
+adjuvant	CHEBI:60809	29-37
+adjuvant	CHEBI:60809	41-49
+The participant completed all prior radiotherapy  3 weeks prior to the study registration date	Eligibility	8
+radiotherapy	OAE:0000235	36-48
+The participant received prior hormonal therapy for breast cancer in the neo adjuvant, adjuvant,and/or the metastatic setting  2 weeks prior to the study registration date	Eligibility	9
+breast cancer	DOID:1612	52-65
+adjuvant	CHEBI:60809	77-85
+adjuvant	CHEBI:60809	87-95
+The participant's left ventricular ejection fraction (LVEF) is within normal ranges	Eligibility	10
+left	HP:0012835	18-22
+ejection fraction	CMO:0000180	35-52
+The participant has adequate hematologic, hepatic, and coagulation function.	Eligibility	11
+coagulation	GO:0050817	55-66
+function	BAO:0003117,BFO:0000034	67-75
+Eligible participants of reproductive potential agree to use adequate contraceptive methods (hormonal or barrier methods) during the study period and for 12 weeks after the last dose of study medication	Eligibility	12
+Exclusion Criteria:	Eligibility	13
+The participant has a concurrent active malignancy other than breast adenocarcinoma, adequately treated non-melanomatous skin cancer, or other non-invasive carcinoma or in situ neoplasm. Participants with previous treatment of malignancy is eligible, provided that she has been disease free for >3 years	Eligibility	14
+active	PATO:0002354	33-39
+breast adenocarcinoma	DOID:3458	62-83
+skin cancer	DOID:4159	121-132
+carcinoma	HP:0030731,DOID:305	74-83
+carcinoma	HP:0030731,DOID:305	156-165
+neoplasm	HP:0002664,DOID:14566	177-185
+disease	DOID:4,OGMS:0000031	278-285
+The participant has a known sensitivity to docetaxel	Eligibility	15
+The participant has a known sensitivity to agents of similar biologic composition as ramucirumab	Eligibility	16
+The participant has a history of chronic diarrheal disease within 6 months prior to the study registration date	Eligibility	17
+history	BFO:0000182	22-29
+chronic	HP:0011010	33-40
+disease	DOID:4,OGMS:0000031	51-58
+The participant has received irradiation to a major bone marrow area within 30 days prior to the study registration date	Eligibility	18
+bone marrow	UBERON:0002371	52-63
+area	PATO:0001323	64-68
+The participant has received any experimental agents within 4 weeks prior to the study registration date	Eligibility	19
+The participant has a history of uncontrolled hereditary or acquired bleeding or thrombotic disorders	Eligibility	20
+history	BFO:0000182	22-29
+The participant has Grade 3-4 bleeding within 3 months prior to the study registration date	Eligibility	21
+The participant has an ongoing or active infection requiring antibiotic, antifungal, or antiviral therapy	Eligibility	22
+active	PATO:0002354	34-40
+The participant has uncontrolled hypertension, symptomatic congestive heart failure, psychiatric illness, or any other serious uncontrolled medical disorders	Eligibility	23
+hypertension	HP:0000822,DOID:10763	33-45
+congestive heart failure	HP:0001635,DOID:6000	59-83
+The participant has brain metastases	Eligibility	24
+brain	UBERON:0000955	20-25
+The participant has known human immunodeficiency virus infection or acquired immunodeficiency syndrome related illness	Eligibility	25
+immunodeficiency	HP:0002721	32-48
+immunodeficiency	HP:0002721	77-93
+virus	BAO:0000232	49-54
+acquired immunodeficiency syndrome	DOID:635	68-102
+The participant is pregnant or lactating	Eligibility	26
+The participant has not fully recovered from effects of prior chemotherapy	Eligibility	27
+The participant has undergone major surgery within 28 days prior to the study registration date	Eligibility	28
+surgery	OAE:0000067	36-43
+Outcome Measurement:	Results	0
+Number of Participants With Adverse Events	Results	1
+Number participants with drug related dose-limiting toxicities (DLT) during Cycle 1; ramucirumab related: treatment-emergent adverse events (TEAE), serious adverse events (SAE), Grade 3 or higher TEAE, or TEAE leading to discontinuation or ramucirumab dose modification. DLT=G4 neutropenia >7days; G 3 neutropenia with fever 38.5°C requiring IV antibiotics or bacteriemia or sepsis; G4 thrombocytopenia; G 3 thrombocytopenia with bleeding requiring platelets; G  3 prothrombin time and/or partial thromboplastin time in absence of anticoagulants; G  2 hyperbilirubinemia 5 days; QTc >500 milliseconds (ms) or increase 100 ms or arrhythmia; G  4 or uncontrollable hypertension; G  3 nonhematologic toxicity (excluding G3: hypersensitivity, injection-site reaction, arthralgia/myalgia, asthenia/fatigue, diarrhea without loperamide therapy, nausea/vomiting without antiemetics, transient G3/4 elevation of aminotransferases); treatment delay >2 weeks due to toxicity.	Results	2
+drug	CHEBI:23888	25-29
+neutropenia	HP:0001875,DOID:1227	278-289
+neutropenia	HP:0001875,DOID:1227	302-313
+fever	HP:0001945	319-324
+sepsis	HP:0100806	375-381
+thrombocytopenia	HP:0001873,DOID:1588	386-402
+thrombocytopenia	HP:0001873,DOID:1588	408-424
+prothrombin time	CMO:0000211	465-481
+time	PATO:0000165	477-481
+time	PATO:0000165	512-516
+hyperbilirubinemia	HP:0002904,DOID:2741	552-570
+increase	BAO:0001251	609-617
+arrhythmia	HP:0011675	628-638
+hypertension	HP:0000822,DOID:10763	663-675
+hypersensitivity	GO:0002524,DOID:1205	721-737
+diarrhea	HP:0002014,DOID:13250	802-810
+loperamide	CHEBI:6532	819-829
+transient	HP:0025153	876-885
+Time frame: Baseline up to data cut off (approximately 48.3 weeks)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ramucirumab and Docetaxel Combination	Results	5
+Arm/Group Description: Docetaxel: Docetaxel administered by intravenous infusion at a dose of 75 milligrams per square meter (mg/m^2) every 3 weeks.	Results	6
+meter	UO:0000008	119-124
+Ramucirumab: Ramucirumab administered as an intravenous infusion at a dose of 10 milligrams per kilogram (mg/kg) every 3 weeks.	Results	7
+Overall Number of Participants Analyzed: 7	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  Dose Limiting Toxicity (DLT) during Cycle 1: 2	Results	10
+TEAE related to ramucirumab: 7	Results	11
+SAE related to ramucirumab: 4	Results	12
+TEAE of Grade   3 related to ramucirumab: 6	Results	13
+TEAE resulting in ramucirumab discontinuation: 3	Results	14
+TEAE with ramucirumab dose modification/delay: 5	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 7/7 (100.00%)	Adverse Events	1
+Febrile neutropenia 3/7 (42.86%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac failure 1/7 (14.29%)	Adverse Events	3
+Neutrophil count decreased 1/7 (14.29%)	Adverse Events	4
+Muscular weakness 1/7 (14.29%)	Adverse Events	5
+Epistaxis 1/7 (14.29%)	Adverse Events	6
+epistaxis	HP:0000421	0-9
+Interstitial lung disease 1/7 (14.29%)	Adverse Events	7
+interstitial lung disease	DOID:3082	0-25
+Pleural effusion 2/7 (28.57%)	Adverse Events	8
+pleural effusion	HP:0002202	0-16

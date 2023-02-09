@@ -1,0 +1,155 @@
+INTERVENTION 1:	Intervention	0
+LA TNBC: DC Vaccine+Preop Chemo	Intervention	1
+LA TNBC patients will be enrolled to receive DC vaccinations during the 24 weeks of standard preoperative dose-dense doxorubicin/cyclophosphamide (AC) followed by paclitaxel and carboplatin (TCb) chemotherapy	Intervention	2
+paclitaxel	CHEBI:45863	163-173
+carboplatin	CHEBI:31355	178-189
+- Inclusion Criteria:	Eligibility	0
+A patient will be considered for enrollment in this study if all of the following criteria are met:	Eligibility	1
+patient	HADO:0000008,OAE:0001817	2-9
+Female patients 18 years of age.	Eligibility	2
+female	PATO:0000383	0-6
+age	PATO:0000011	28-31
+Have either:	Eligibility	3
+locally advanced TNBC defined as invasive ductal cancer; ER- tumors with <10% of tumor nuclei immunoreactive; PR- tumors with <10% of tumor nuclei immunoreactive; T3 or T4 disease, regardless of nodal status (T2 disease is eligible if there are positive lymph nodes present by physical exam or imaging evaluation or histological evaluation, OR	Eligibility	4
+cancer	DOID:162	49-55
+disease	DOID:4,OGMS:0000031	172-179
+disease	DOID:4,OGMS:0000031	212-219
+lymph	UBERON:0002391	254-259
+present	PATO:0000467	266-273
+High-risk ER+ breast cancer defined as grade 3 invasive ductal or mixed ductal/lobular cancers, or grade 2 with Ki67 20%; node positive as evidenced by physical exam or imaging evaluation or histological evaluation.	Eligibility	5
+breast cancer	DOID:1612	14-27
+mixed	BAO:0002107	66-71
+HER2- negative breast cancer. If HER2-, it is defined as follows:	Eligibility	6
+breast cancer	DOID:1612	15-28
+FISH-negative (FISH ratio <2.0), or	Eligibility	7
+ratio	UO:0000190	20-25
+IHC 0-1+, or	Eligibility	8
+IHC 2+ AND FISH-negative (FISH ratio<2.0)	Eligibility	9
+ratio	UO:0000190	31-36
+Eastern Cooperative Oncology Group (ECOG) Performance Status of 0-1	Eligibility	10
+group	CHEBI:24433	29-34
+Adequate hematologic function, defined by:	Eligibility	11
+function	BAO:0003117,BFO:0000034	21-29
+Absolute neutrophil count (ANC) >1500/mm3	Eligibility	12
+Platelet count 100,000/mm3	Eligibility	13
+platelet count	CMO:0000029	0-14
+Hemoglobin >9 g/dL (in the absence of red blood cell transfusion)	Eligibility	14
+hemoglobin	CHEBI:35143	0-10
+blood	UBERON:0000178	42-47
+Adequate liver function, defined by:	Eligibility	15
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+AST and ALT 2.5 x the upper limit of normal (ULN)	Eligibility	16
+x	LABO:0000148	16-17
+Total bilirubin 1.5 x ULN	Eligibility	17
+x	LABO:0000148	20-21
+Adequate renal function, defined by:	Eligibility	18
+function	BAO:0003117,BFO:0000034	15-23
+a. Serum creatinine 1.5 x ULN or calculated creatinine clearance of 60 ml/min	Eligibility	19
+creatinine	CHEBI:16737	9-19
+creatinine	CHEBI:16737	44-54
+x	LABO:0000148	24-25
+creatinine clearance	CMO:0000765	44-64
+Patients with previous history of invasive cancers (including breast cancer) are eligible if definitive treatment was completed more than 5 years prior to initiating current study treatment, and there is no evidence of recurrent disease.	Eligibility	20
+history	BFO:0000182	23-30
+breast cancer	DOID:1612	62-75
+recurrent	HP:0031796	219-228
+disease	DOID:4,OGMS:0000031	229-236
+Eligible for treatment with paclitaxel, doxorubicin, cyclophosphamide and carboplatine.	Eligibility	21
+paclitaxel	CHEBI:45863	28-38
+doxorubicin	CHEBI:28748,BAO:0000639	40-51
+cyclophosphamide	CHEBI:4026	53-69
+Patient must be accessible for treatment and follow-up.	Eligibility	22
+patient	HADO:0000008,OAE:0001817	0-7
+Patients must be willing to undergo research biopsies to obtain breast cancer tissue for whole exome sequencing and evaluation of tumor immune microenvironment.	Eligibility	23
+breast cancer	DOID:1612	64-77
+tissue	UBERON:0000479	78-84
+All patients must be able to understand the investigational nature of the study and give written informed consent prior to study entry.	Eligibility	24
+Exclusion Criteria:	Eligibility	25
+A patient will be ineligible for inclusion in this study any of the following criteria are met:	Eligibility	26
+patient	HADO:0000008,OAE:0001817	2-9
+Evidence of metastatic disease on bone scan and CT scan of chest/abdomen (or PET CT scan). Patients with intrathoracic metastatic adenopathy are eligible.	Eligibility	27
+disease	DOID:4,OGMS:0000031	23-30
+ct	BAO:0002125	48-50
+ct	BAO:0002125	81-83
+Active infection or unexplained fever >38.5°C during screening.	Eligibility	28
+active	PATO:0002354	0-6
+fever	HP:0001945	32-37
+Active infections including viral hepatitis and HIV.	Eligibility	29
+active	PATO:0002354	0-6
+viral hepatitis	HP:0006562,DOID:1884	28-43
+Active asthma or other condition requiring steroid therapy.	Eligibility	30
+active	PATO:0002354	0-6
+asthma	HP:0002099,DOID:2841	7-13
+condition	PDRO:0000129	23-32
+steroid	CHEBI:35341	43-50
+Autoimmune disease including lupus erythematosus or rheumatoid arthritis. Topical or inhaled corticosteroids are allowed.	Eligibility	31
+autoimmune disease	DOID:417	0-18
+lupus erythematosus	DOID:8857	29-48
+rheumatoid arthritis	HP:0001370,DOID:7148	52-72
+Patients who are currently receiving or who have received previous systemic therapy for breast cancer (eg, chemotherapy, antibody therapy, targeted agents).The use of an LHRH agonist during chemotherapy in premenopausal women who wish to preserve ovarian function is allowed, but is not required.	Eligibility	32
+breast cancer	DOID:1612	88-101
+antibody	GO:0042571,BAO:0000502	121-129
+agonist	CHEBI:48705	175-182
+function	BAO:0003117,BFO:0000034	255-263
+Women who are pregnant or lactating. All patients with reproductive potential must agree to use effective contraception from time of study entry until at least 3 months after the last administration of study drug.	Eligibility	33
+time	PATO:0000165	125-129
+drug	CHEBI:23888	208-212
+Have a NYHA Class III or IV CHF or LVEF <55%. Patients with significant cardiac disease history within 1 year or ventricular arrhythmias requiring medication are also excluded.	Eligibility	34
+disease	DOID:4,OGMS:0000031	80-87
+history	BFO:0000182	88-95
+year	UO:0000036	105-109
+excluded	HP:0040285	167-175
+Patients who have any severe and/or uncontrolled medical conditions or other conditions that could affect their participation such as:	Eligibility	35
+severe	HP:0012828	22-28
+severe impaired lung functions as defined as spirometry and DLCO that is 50% of the normal predicted value and/or O2 saturation that is 88% or less at rest on room air	Eligibility	36
+severe	HP:0012828	0-6
+lung	UBERON:0002048	16-20
+uncontrolled diabetes as defined by fasting serum glucose >1.5 x ULN	Eligibility	37
+glucose	CHEBI:4167,BAO:0000924	50-57
+x	LABO:0000148	63-64
+liver disease such as cirrhosis or severe hepatic impairment (Child-Pugh class C).	Eligibility	38
+liver disease	DOID:409	0-13
+cirrhosis	HP:0001394	22-31
+severe	HP:0012828	35-41
+History of any other disease, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates use of an investigational drug, or that might affect interpretation of the results of this study, or render the patient at high risk for treatment complications.	Eligibility	39
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	21-28
+disease	DOID:4,OGMS:0000031	124-131
+physical examination	OAE:0004232	30-50
+laboratory finding	OGMS:0000018	72-90
+condition	PDRO:0000129	135-144
+drug	CHEBI:23888	192-196
+patient	HADO:0000008,OAE:0001817	278-285
+Any other investigational or anti-cancer treatments while participating in this study.	Eligibility	40
+Any other cancer	Eligibility	41
+cancer	DOID:162	10-16
+Outcome Measurement:	Results	0
+Safety of DC Vaccine Combined With Chemotherapy	Results	1
+vaccine	VO:0000001	13-20
+Toxicities will be graded according to the NCI Common Terminology Criteria for Adverse Events (CTCAE) Version 4.03 . This will include all patients (eligible and ineligible) who receive at least 1 inoculation of DC vaccine therapy. This safety population will also be used for the summaries and analysis of all safety parameters (drug exposure, tables of adverse events information, including serious adverse events, etc.).	Results	2
+vaccine	VO:0000001	215-222
+drug	CHEBI:23888	330-334
+Time frame: 4 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: LA TNBC: DC Vaccine+Preop Chemo	Results	5
+Arm/Group Description: LA TNBC patients will be enrolled to receive DC vaccinations during the 24 weeks of standard preoperative dose-dense doxorubicin/cyclophosphamide (AC) followed by paclitaxel and carboplatin (TCb) chemotherapy	Results	6
+paclitaxel	CHEBI:45863	186-196
+carboplatin	CHEBI:31355	201-212
+Overall Number of Participants Analyzed: 10	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  10 100.0%	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 3/10 (30.00%)	Adverse Events	1
+Right atrial thrombosis 1/10 (10.00%)	Adverse Events	2
+right	HP:0012834	0-5
+thrombosis	DOID:0060903	13-23
+Pulmonary Embolism 1/10 (10.00%)	Adverse Events	3
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+dyspnea 1/10 (10.00%)	Adverse Events	4
+dyspnea	HP:0002094	0-7
+cellulitis of right breast 1/10 (10.00%)	Adverse Events	5
+cellulitis	HP:0100658,DOID:3488	0-10
+right	HP:0012834	14-19
+breast	UBERON:0000310	20-26

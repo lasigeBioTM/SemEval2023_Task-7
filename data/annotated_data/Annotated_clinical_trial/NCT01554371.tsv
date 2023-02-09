@@ -1,0 +1,160 @@
+INTERVENTION 1:	Intervention	0
+Phase 1b: Eribulin Combination w/ Cyclophosphamide (Solid Tumor Escalation Cohort)	Intervention	1
+eribulin	CHEBI:63587	10-18
+cyclophosphamide	CHEBI:4026	34-50
+Dose escalation cohort will include all patients with solid tumors. Eribulin mesylate 1.1 mg/ m2 on days 1 and 8 followed by cyclophosphamide 600 mg/ m2 on day 1 of a 21-day cycle.The highest dose level at which no more than one of six subjects experience DLT defines the MTD	Intervention	2
+eribulin mesylate	CHEBI:70710	68-85
+m2	CHEBI:34827	94-96
+m2	CHEBI:34827	150-152
+cyclophosphamide	CHEBI:4026	125-141
+day	UO:0000033	100-103
+day	UO:0000033	156-159
+day	UO:0000033	170-173
+mtd	BAO:0001248	272-275
+Eribulin: Given intravenously (IV) Cyclophosphamide: Given IV	Intervention	3
+eribulin	CHEBI:63587	0-8
+cyclophosphamide	CHEBI:4026	35-51
+INCLUSION CRITERIA:	Eligibility	0
+Phase Ib: Patient must have histologically or cytologically documented solid tumor malignancies.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	10-17
+Phase II: Patients must have histologically or cytologically confirmed locally advanced, unresectable or metastatic carcinoma of the breast.	Eligibility	2
+carcinoma	HP:0030731,DOID:305	116-125
+breast	UBERON:0000310	133-139
+Patient is male or female and 18 years of age on the day of signing informed consent.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+male	CHEBI:30780,PATO:0000384	11-15
+male	CHEBI:30780,PATO:0000384	21-25
+female	PATO:0000383	19-25
+age	PATO:0000011	42-45
+day	UO:0000033	53-56
+Patient must have performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) Performance Scale and life expectancy > 3 months.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+group	CHEBI:24433	80-85
+Patient must have evaluable disease. Measureable disease is not required	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+disease	DOID:4,OGMS:0000031	28-35
+disease	DOID:4,OGMS:0000031	49-56
+Patient must have adequate organ function	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+organ	UBERON:0000062	27-32
+function	BAO:0003117,BFO:0000034	33-41
+Female patient of childbearing potential must have a negative serum or urine pregnancy test quantitative human chorionic gonadotropin (β-hCG) within 72 hours prior to receiving the first dose of study medication and agree to the use of effective methods of contraception while on study.	Eligibility	7
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+urine	UBERON:0001088	71-76
+chorionic gonadotropin	CHEBI:81570	111-133
+Any number of prior lines of chemotherapy in the metastatic setting is allowed.	Eligibility	8
+Concomitant use of bisphosphonates is allowed.	Eligibility	9
+Patients with stable and clinically insignificant CNS disease are allowed. Patients must be off steroids with no new CNS symptoms or findings on radiographic imaging for 1 month.	Eligibility	10
+stable	HP:0031915	14-20
+disease	DOID:4,OGMS:0000031	54-61
+month	UO:0000035	172-177
+Patients willing and able to complete the questionnaires.	Eligibility	11
+Patients willing and able to comply with the study protocol for the duration of the study.	Eligibility	12
+duration	PATO:0001309	68-76
+Written informed consent prior to any study-specific screening procedures with the understanding that the patient may withdraw consent at any time without prejudice.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	106-113
+time	PATO:0000165	142-146
+EXCLUSION CRITERIA:	Eligibility	14
+Patients who have had chemotherapy or radiotherapy within two weeks, 4 weeks for nitrosoureas, mitomycin C, pegylated-doxorubicin and one half-life for bevacizumab, hormone therapy within one week, trastuzumab within 2 weeks or lapatinib within one week of study Day 1.	Eligibility	15
+radiotherapy	OAE:0000235	38-50
+mitomycin c	CHEBI:27504	95-106
+hormone	CHEBI:24621	165-172
+week	UO:0000034	62-66
+week	UO:0000034	71-75
+week	UO:0000034	192-196
+week	UO:0000034	219-223
+week	UO:0000034	249-253
+lapatinib	CHEBI:49603	228-237
+day	UO:0000033	263-266
+If the patient has residual toxicity from prior treatment, toxicity must be  Grade 1.	Eligibility	16
+patient	HADO:0000008,OAE:0001817	7-14
+Patients with non-healing surgical wounds. Patients must be at least two weeks from a major surgical procedure, and surgical wounds must be completely healed.	Eligibility	17
+Patients with known active central nervous system (CNS) metastases and/or carcinomatous meningitis. However, patients with CNS metastases who have completed a course of therapy would be eligible for the study provided they are clinically stable for at least 1 month prior to entry as defined as:	Eligibility	18
+active	PATO:0002354	20-26
+central nervous system	UBERON:0001017	27-49
+meningitis	HP:0001287,DOID:9471	88-98
+stable	HP:0031915	238-244
+month	UO:0000035	260-265
+no evidence of new or enlarging CNS metastasis	Eligibility	19
+off steroids that are used to minimize surrounding brain edema. Patients with clinically insignificant brain metastases that do not require treatment are eligible.	Eligibility	20
+brain edema	DOID:4724	51-62
+brain	UBERON:0000955	51-56
+brain	UBERON:0000955	103-108
+Patients with known hypersensitivity to the components of study drug or its analogs.	Eligibility	21
+hypersensitivity	GO:0002524,DOID:1205	20-36
+drug	CHEBI:23888	64-68
+Significant cardiovascular impairment:	Eligibility	22
+Congestive heart failure, Clinically significant cardiac arrhythmia, history or current evidence of a myocardial infarction during the last 6 months, and/or a current ECG tracing that is abnormal in the opinion of the treating Investigator, or unstable angina	Eligibility	23
+congestive heart failure	HP:0001635,DOID:6000	0-24
+arrhythmia	HP:0011675	57-67
+history	BFO:0000182	69-76
+myocardial infarction	HP:0001658,DOID:5844	102-123
+QTc prolongation >480 msec (Bazett's Formula) or congenitally long QT syndrome (LQTS)	Eligibility	24
+long qt syndrome	DOID:2843	62-78
+Severe/uncontrolled concurrent illness/infection	Eligibility	25
+Patients with other active, current primary malignancies, other than carcinoma in situ of the cervix or non-melanoma skin cancer	Eligibility	26
+active	PATO:0002354	20-26
+carcinoma	HP:0030731,DOID:305	69-78
+skin cancer	DOID:4159	117-128
+Patients with > Grade 1 neuropathy at screening	Eligibility	27
+neuropathy	DOID:870	24-34
+Patients with a hypersensitivity to halichondrin B and/or halichondrin B chemical derivative	Eligibility	28
+hypersensitivity	GO:0002524,DOID:1205	16-32
+halichondrin b	CHEBI:80731	36-50
+halichondrin b	CHEBI:80731	58-72
+Patient is pregnant or breastfeeding, or expecting to conceive or father children within the projected duration of the study.	Eligibility	29
+patient	HADO:0000008,OAE:0001817	0-7
+duration	PATO:0001309	103-111
+Patients with other significant disease or disorders that, in the Investigator's opinion, would exclude the patient from the study	Eligibility	30
+disease	DOID:4,OGMS:0000031	32-39
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	108-115
+Outcome Measurement:	Results	0
+Maximum Tolerated Dose (MTD) in Participants With Any Solid Tumor (Phase Ib)	Results	1
+mtd	BAO:0001248	24-27
+Standard dose-confirmation design of 3 to 6 participants per cohort (3+3 design) was used to determine the MTD of eribulin in combination with cyclophosphamide for participants with any solid tumor. The highest dose level or MTD is reached when no more than one of six participants experience a Dose Limiting Toxicity (DLTs). A DLT is defined as any treatment-related toxicity in first 28 days of therapy with a grade 3 or 4 non-hematologic toxicity, a grade 4 neutropenia or thrombocytopenia lasting >7 days or febrile neutropenia, or any clinically significant toxicity grade 2 or higher that requires more than 14 days to resolve. The highest dose level at which no more than one of six participants experience DLT defines the MTD.	Results	2
+mtd	BAO:0001248	107-110
+mtd	BAO:0001248	225-228
+mtd	BAO:0001248	730-733
+eribulin	CHEBI:63587	114-122
+cyclophosphamide	CHEBI:4026	143-159
+neutropenia	HP:0001875,DOID:1227	461-472
+neutropenia	HP:0001875,DOID:1227	520-531
+thrombocytopenia	HP:0001873,DOID:1588	476-492
+Time frame: Up to 24 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase 1b: Eribulin Combination w/ Cyclophosphamide (Solid Tumor Escalation Cohort)	Results	5
+eribulin	CHEBI:63587	27-35
+cyclophosphamide	CHEBI:4026	51-67
+Arm/Group Description: Dose escalation cohort will include all patients with solid tumors. Eribulin mesylate 1.1 mg/ m2 on days 1 and 8 followed by cyclophosphamide 600 mg/ m2 on day 1 of a 21-day cycle.The highest dose level at which no more than one of six subjects experience DLT defines the MTD	Results	6
+eribulin mesylate	CHEBI:70710	91-108
+m2	CHEBI:34827	117-119
+m2	CHEBI:34827	173-175
+cyclophosphamide	CHEBI:4026	148-164
+day	UO:0000033	123-126
+day	UO:0000033	179-182
+day	UO:0000033	193-196
+mtd	BAO:0001248	295-298
+Eribulin: Given intravenously (IV) Cyclophosphamide: Given IV	Results	7
+eribulin	CHEBI:63587	0-8
+cyclophosphamide	CHEBI:4026	35-51
+Overall Number of Participants Analyzed: 6	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: milligrams per square meter (mg/m2)  Eribulin: 1.4	Results	10
+meter	UO:0000008	39-44
+eribulin	CHEBI:63587	54-62
+Cyclophosphamide: 600	Results	11
+cyclophosphamide	CHEBI:4026	0-16
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1
+Anemia 0/3 (0.00%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia 0/3 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Fever 0/3 (0.00%)	Adverse Events	4
+fever	HP:0001945	0-5
+Low Hematocrit 0/3 (0.00%)	Adverse Events	5
+hematocrit	CMO:0000037	4-14
+Neutrophil count decreased 0/3 (0.00%)	Adverse Events	6

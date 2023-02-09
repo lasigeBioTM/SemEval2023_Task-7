@@ -1,0 +1,151 @@
+INTERVENTION 1:	Intervention	0
+Afatinib Monotherapy	Intervention	1
+afatinib	CHEBI:61390	0-8
+Patient received Afatinib monotherapy orally once daily at a dose of 40 milligram (mg) film-coated tablets until progression of their disease, unacceptable adverse events or other reason necessitating withdrawal. Patients could have dose reduced if 40 mg was not tolerated.	Intervention	2
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	213-220
+afatinib	CHEBI:61390	17-25
+disease	DOID:4,OGMS:0000031	134-141
+INTERVENTION 2:	Intervention	3
+Afatinib and Paclitaxel or Vinorelbine Combination Therapy	Intervention	4
+afatinib	CHEBI:61390	0-8
+paclitaxel	CHEBI:45863	13-23
+vinorelbine	CHEBI:480999	27-38
+Patient received Afatinib monotherapy orally once daily at a dose of 40 mg film-coated tablets until progression of their disease, unacceptable adverse events or other reason necessitating withdrawal (Patients could have dose reduced if 40 mg was not tolerated) and 80 mg/square meter (m2) Paclitaxel concentrate for intravenous infusion or 25 mg/m2 Vinorelbine concentrate for intravenous infusion once weekly starting after treatment failure on afatinib monotherapy	Intervention	5
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	201-208
+afatinib	CHEBI:61390	17-25
+afatinib	CHEBI:61390	447-455
+disease	DOID:4,OGMS:0000031	122-129
+meter	UO:0000008	279-284
+m2	CHEBI:34827	286-288
+m2	CHEBI:34827	347-349
+paclitaxel	CHEBI:45863	290-300
+vinorelbine	CHEBI:480999	350-361
+Inclusion criteria:	Eligibility	0
+Female patients >=18 years with proven diagnosis of HER2-overexpressing, histologically confirmed breast cancer	Eligibility	1
+female	PATO:0000383	0-6
+breast cancer	DOID:1612	98-111
+Stage IV metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	20-27
+At least one measurable lesion according to RECIST 1.1 (Response Evaluation Criteria for Solid Tumours version 1.1). Skin, bone and brain lesions are considered non-target lesions	Eligibility	3
+brain	UBERON:0000955	132-137
+Must have failed or progressed on either trastuzumab or lapatinib or trastuzumab and lapatinib treatment in the neoadjuvant and/or adjuvant setting	Eligibility	4
+lapatinib	CHEBI:49603	56-65
+lapatinib	CHEBI:49603	85-94
+adjuvant	CHEBI:60809	115-123
+adjuvant	CHEBI:60809	131-139
+Exclusion criteria:	Eligibility	5
+Prior first line therapy for metastatic breast cancer	Eligibility	6
+breast cancer	DOID:1612	40-53
+Known pre-existing interstitial lung disease	Eligibility	7
+interstitial lung disease	DOID:3082	19-44
+Active brain metastases	Eligibility	8
+active	PATO:0002354	0-6
+brain	UBERON:0000955	7-12
+History or presence of clinically relevant cardiovascular abnormalities such as uncontrolled hypertension, congestive heart failure NYHA classification of 3, unstable angina or poorly controlled arrhythmia. Myocardial infarction within 6 months prior to trial treatment.	Eligibility	9
+history	BFO:0000182	0-7
+hypertension	HP:0000822,DOID:10763	93-105
+congestive heart failure	HP:0001635,DOID:6000	107-131
+arrhythmia	HP:0011675	195-205
+myocardial infarction	HP:0001658,DOID:5844	207-228
+Cardiac left ventricular function with resting ejection fraction of less than 50%.	Eligibility	10
+left	HP:0012835	8-12
+function	BAO:0003117,BFO:0000034	25-33
+ejection fraction	CMO:0000180	47-64
+Prior treatment with Epidermal Growth Factor Receptor (EGFR)/HER2-targeted small molecules or antibodies other than trastuzumab and lapatinib in the neoadjuvant or adjuvant setting	Eligibility	11
+growth factor	BAO:0002024	31-44
+receptor	BAO:0000281	45-53
+lapatinib	CHEBI:49603	132-141
+adjuvant	CHEBI:60809	152-160
+adjuvant	CHEBI:60809	164-172
+Prior treatment with paclitaxel in the past 12 months	Eligibility	12
+paclitaxel	CHEBI:45863	21-31
+Must not have received prior vinorelbine treatment - Further exclusion criteria apply	Eligibility	13
+vinorelbine	CHEBI:480999	29-40
+Outcome Measurement:	Results	0
+Percentage of Participants With Objective Response (OR) Assessed by Response Evaluation Criteria in Solid Tumours Version (RECIST) 1.1	Results	1
+Objective response according to RECIST v1.1. Best overall response of confirmed complete response (CR) or confirmed partial response (PR) recorded since first administration of trial medication and until the earliest of disease progression, death or start of next treatment in each part separately. Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1) for target lesions and assessed by Magnetic resonance imaging (MRI): Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Objective Response (OR) = CR + PR. Percentage of participants with OR along with exact 95% Confidence Interval by Clopper and Pearson is presented.	Results	2
+disease	DOID:4,OGMS:0000031	220-227
+death	OAE:0000632	241-246
+target	BAO:0003064	375-381
+target	BAO:0003064	485-491
+target	BAO:0003064	577-583
+diameter	PATO:0001334	565-573
+Time frame: From the initial dose of study drug until 28 days after end of the treatment period, up to 1562 days	Results	3
+time	PATO:0000165	0-4
+drug	CHEBI:23888	43-47
+Results 1:	Results	4
+Arm/Group Title: Afatinib Monotherapy	Results	5
+afatinib	CHEBI:61390	17-25
+Arm/Group Description: Patient received Afatinib monotherapy orally once daily at a dose of 40 milligram (mg) film-coated tablets until progression of their disease, unacceptable adverse events or other reason necessitating withdrawal. Patients could have dose reduced if 40 mg was not tolerated.	Results	6
+patient	HADO:0000008,OAE:0001817	23-30
+patient	HADO:0000008,OAE:0001817	236-243
+afatinib	CHEBI:61390	40-48
+disease	DOID:4,OGMS:0000031	157-164
+Overall Number of Participants Analyzed: 74	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  18        (10 to 28)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Afatinib and Paclitaxel or Vinorelbine Combination Therapy	Results	11
+afatinib	CHEBI:61390	17-25
+paclitaxel	CHEBI:45863	30-40
+vinorelbine	CHEBI:480999	44-55
+Arm/Group Description: Patient received Afatinib monotherapy orally once daily at a dose of 40 mg film-coated tablets until progression of their disease, unacceptable adverse events or other reason necessitating withdrawal (Patients could have dose reduced if 40 mg was not tolerated) and 80 mg/square meter (m2) Paclitaxel concentrate for intravenous infusion or 25 mg/m2 Vinorelbine concentrate for intravenous infusion once weekly starting after treatment failure on afatinib monotherapy	Results	12
+patient	HADO:0000008,OAE:0001817	23-30
+patient	HADO:0000008,OAE:0001817	224-231
+afatinib	CHEBI:61390	40-48
+afatinib	CHEBI:61390	470-478
+disease	DOID:4,OGMS:0000031	145-152
+meter	UO:0000008	302-307
+m2	CHEBI:34827	309-311
+m2	CHEBI:34827	370-372
+paclitaxel	CHEBI:45863	313-323
+vinorelbine	CHEBI:480999	373-384
+Overall Number of Participants Analyzed: 39	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of participants  31        (17 to 48)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 18/74 (24.32%)	Adverse Events	1
+Anaemia 0/74 (0.00%)	Adverse Events	2
+Febrile neutropenia 0/74 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardio-respiratory arrest 1/74 (1.35%)	Adverse Events	4
+Abdominal pain 2/74 (2.70%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Diarrhoea 3/74 (4.05%)	Adverse Events	6
+Nausea 0/74 (0.00%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Vomiting 2/74 (2.70%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Asthenia 3/74 (4.05%)	Adverse Events	9
+asthenia	HP:0025406	0-8
+Chest pain 1/74 (1.35%)	Adverse Events	10
+chest pain	HP:0100749	0-10
+Pain 0/74 (0.00%)	Adverse Events	11
+pain	HP:0012531	0-4
+Pyrexia 0/74 (0.00%)	Adverse Events	12
+Hepatic function abnormal 1/74 (1.35%)	Adverse Events	13
+function	BAO:0003117,BFO:0000034	8-16
+Adverse Events 2:	Adverse Events	14
+Total: 5/13 (38.46%)	Adverse Events	15
+Anaemia 1/13 (7.69%)	Adverse Events	16
+Febrile neutropenia 1/13 (7.69%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardio-respiratory arrest 0/13 (0.00%)	Adverse Events	18
+Abdominal pain 2/13 (15.38%)	Adverse Events	19
+abdominal pain	HP:0002027	0-14
+Diarrhoea 0/13 (0.00%)	Adverse Events	20
+Nausea 0/13 (0.00%)	Adverse Events	21
+nausea	HP:0002018	0-6
+Vomiting 1/13 (7.69%)	Adverse Events	22
+vomiting	HP:0002013	0-8
+Asthenia 1/13 (7.69%)	Adverse Events	23
+asthenia	HP:0025406	0-8
+Chest pain 0/13 (0.00%)	Adverse Events	24
+chest pain	HP:0100749	0-10
+Pain 1/13 (7.69%)	Adverse Events	25
+pain	HP:0012531	0-4
+Pyrexia 2/13 (15.38%)	Adverse Events	26
+Hepatic function abnormal 0/13 (0.00%)	Adverse Events	27
+function	BAO:0003117,BFO:0000034	8-16

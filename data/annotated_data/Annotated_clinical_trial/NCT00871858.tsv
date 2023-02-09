@@ -1,0 +1,107 @@
+INTERVENTION 1:	Intervention	0
+Arm A (ANA)	Intervention	1
+Patients receive oral anastrozole as 1 mg film-coated tablets, once daily for 6 months.	Intervention	2
+anastrozole	CHEBI:2704	22-33
+anastrozole: Given orally	Intervention	3
+anastrozole	CHEBI:2704	0-11
+INTERVENTION 2:	Intervention	4
+Arm B (FULV)	Intervention	5
+Patients receive fulvestrant intramuscularly ( 250 mg/5 ml solution) on days 1, 14, and 28 and then once a month thereafter until 6 months.	Intervention	6
+fulvestrant	CHEBI:31638	17-28
+solution	CHEBI:75958	59-67
+month	UO:0000035	107-112
+month	UO:0000035	132-137
+fulvestrant: Given intramuscularly	Intervention	7
+fulvestrant	CHEBI:31638	0-11
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed invasive breast cancer, meeting 1 of the following criteria:	Eligibility	1
+breast cancer	DOID:1612	34-47
+SBR grade I-II disease (patients < 65 years of age)	Eligibility	2
+disease	DOID:4,OGMS:0000031	15-22
+age	PATO:0000011	47-50
+SBR grade I-III disease (patients > 65 years of age)	Eligibility	3
+disease	DOID:4,OGMS:0000031	16-23
+age	PATO:0000011	48-51
+T2 (2-5 cm), T3, or T4B, and N0-1 disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	34-41
+No metastatic disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	14-21
+Breast lesion not amenable to breast-conserving resection	Eligibility	6
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	30-36
+No inflammatory breast cancer	Eligibility	7
+breast cancer	DOID:1612	16-29
+No prior breast cancer	Eligibility	8
+breast cancer	DOID:1612	9-22
+Hormone receptor status:	Eligibility	9
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen receptor- and/or progesterone receptor-positive	Eligibility	10
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	26-38
+PATIENT CHARACTERISTICS:	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+Postmenopausal	Eligibility	12
+No other cancer within the past 5 years except for adequately treated skin carcinoma or carcinoma in situ of the cervix	Eligibility	13
+cancer	DOID:162	9-15
+skin carcinoma	DOID:3451	70-84
+carcinoma	HP:0030731,DOID:305	75-84
+carcinoma	HP:0030731,DOID:305	88-97
+No contraindication to anti-hormonal treatment	Eligibility	14
+contraindication	OAE:0000055	3-19
+No psychological, familial, social, or geographical reasons that would preclude follow up	Eligibility	15
+PRIOR CONCURRENT THERAPY:	Eligibility	16
+At least 8 days since prior hormone replacement therapy	Eligibility	17
+hormone	CHEBI:24621	28-35
+No concurrent anti-vitamin K treatment	Eligibility	18
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR) Determined by Clinical Palpation	Results	1
+rate	BAO:0080019	19-23
+Objective response rate is defined as the rate of participants with partial or complete responses according to RECIST V1.0.	Results	2
+rate	BAO:0080019	19-23
+rate	BAO:0080019	42-46
+Complete response is defined as the disappearance of all target lesions and partial response is defined as at least a 30% decrease in the sum of the longest diameters (SLD) of target lesions, taking as reference the baseline SLD (RECIST V1.0.).	Results	3
+target	BAO:0003064	57-63
+target	BAO:0003064	176-182
+Time frame: 6 months	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Arm A (ANA)	Results	6
+Arm/Group Description: Patients receive oral anastrozole as 1 mg film-coated tablets, once daily for 6 months.	Results	7
+anastrozole	CHEBI:2704	45-56
+anastrozole: Given orally	Results	8
+anastrozole	CHEBI:2704	0-11
+Overall Number of Participants Analyzed: 56	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: percentage of participants  58.9        (45.0 to 71.9)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm B (FULV)	Results	13
+Arm/Group Description: Patients receive fulvestrant intramuscularly ( 250 mg/5 ml solution) on days 1, 14, and 28 and then once a month thereafter until 6 months.	Results	14
+fulvestrant	CHEBI:31638	40-51
+solution	CHEBI:75958	82-90
+month	UO:0000035	130-135
+month	UO:0000035	155-160
+fulvestrant: Given intramuscularly	Results	15
+fulvestrant	CHEBI:31638	0-11
+Overall Number of Participants Analyzed: 52	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: percentage of participants  53.8        (39.5 to 67.8)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 2/60 (3.33%)	Adverse Events	1
+Bronchial infection 0/60 (0.00%)	Adverse Events	2
+Ankle fracture 1/60 (1.67%)	Adverse Events	3
+Clear cell kidney cancer 0/60 (0.00%)	Adverse Events	4
+kidney cancer	DOID:263	11-24
+Programmed peritoneal dialysis 1/60 (1.67%)	Adverse Events	5
+dialysis	OAE:0002495	22-30
+Endometrial atrophy 0/60 (0.00%)	Adverse Events	6
+Adverse Events 2:	Adverse Events	7
+Total: 3/58 (5.17%)	Adverse Events	8
+Bronchial infection 1/58 (1.72%)	Adverse Events	9
+Ankle fracture 0/58 (0.00%)	Adverse Events	10
+Clear cell kidney cancer 1/58 (1.72%)	Adverse Events	11
+kidney cancer	DOID:263	11-24
+Programmed peritoneal dialysis 0/58 (0.00%)	Adverse Events	12
+dialysis	OAE:0002495	22-30
+Endometrial atrophy 1/58 (1.72%)	Adverse Events	13

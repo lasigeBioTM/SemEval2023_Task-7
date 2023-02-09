@@ -1,0 +1,137 @@
+INTERVENTION 1:	Intervention	0
+Letrozole	Intervention	1
+letrozole	CHEBI:6413	0-9
+Letrozole 2.5 mg/day for 3 years	Intervention	2
+letrozole	CHEBI:6413	0-9
+INTERVENTION 2:	Intervention	3
+Letrozole + Zoledronic Acid	Intervention	4
+letrozole	CHEBI:6413	0-9
+zoledronic acid	CHEBI:46557	12-27
+Letrozole 2.5mg/day for 3 years plus Zoledronic acid 4mg every 6 months	Intervention	5
+letrozole	CHEBI:6413	0-9
+zoledronic acid	CHEBI:46557	37-52
+Inclusion Criteria:	Eligibility	0
+Compliant postmenopausal women with primary operable breast cancer after 4 to 6 years of therapy with tamoxifen (end of tamoxifen therapy within last 6 months)	Eligibility	1
+breast cancer	DOID:1612	53-66
+tamoxifen	CHEBI:41774	102-111
+tamoxifen	CHEBI:41774	120-129
+Performance status 0-2 (Eastern Cooperative Oncology Group)	Eligibility	2
+group	CHEBI:24433	53-58
+Patients without severe osteoporosis at study entry	Eligibility	3
+severe	HP:0012828	17-23
+osteoporosis	HP:0000939,DOID:11476	24-36
+No evidence of relapse at the time of randomization	Eligibility	4
+time	PATO:0000165	30-34
+Adequate function of bone marrow, kidney, and liver	Eligibility	5
+function	BAO:0003117,BFO:0000034	9-17
+bone marrow	UBERON:0002371	21-32
+kidney	UBERON:0002113	34-40
+liver	UBERON:0002107	46-51
+Exclusion Criteria:	Eligibility	6
+Estrogen- and progesterone-receptor status negative or unknown	Eligibility	7
+Completion of adjuvant tamoxifen therapy more than 6 months prior to study start	Eligibility	8
+adjuvant	CHEBI:60809	14-22
+tamoxifen	CHEBI:41774	23-32
+Inflammatory breast cancer	Eligibility	9
+breast cancer	DOID:1612	13-26
+Current/active dental problems including infection of the teeth or jawbone, dental or fixture trauma, or a current or prior diagnosis of osteonecrosis of the jaw, of exposed bone in the mouth, or of slow healing after dental procedures.	Eligibility	10
+osteonecrosis	DOID:10159	137-150
+mouth	UBERON:0000165	186-191
+Recent (within 6 weeks) or planned dental or jaw surgery	Eligibility	11
+surgery	OAE:0000067	49-56
+History of diseases with influence on bone metabolism such as Paget's disease and primary overactive parathyroid	Eligibility	12
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	70-77
+Prior or concomitant therapies: chemotherapy within the last 12 months, intravenous or oral bisphosphonates, systemic corticosteroids, anabolic steroids or growth hormones, Tibolone, parathyroid hormone, systemic sodium fluoride or any drugs known to affect the skeleton (such as calcitonin, mithramycin, or gallium nitrate)	Eligibility	13
+growth	GO:0040007	156-162
+tibolone	CHEBI:32223	173-181
+hormone	CHEBI:24621	163-170
+hormone	CHEBI:24621	195-202
+sodium fluoride	CHEBI:28741	213-228
+skeleton	UBERON:0004288	262-270
+calcitonin	CHEBI:3306	280-290
+mithramycin	CHEBI:31856	292-303
+nitrate	CHEBI:17632	316-323
+Patients with previous or concomitant cancers (not breast cancer) within the past 5 years EXCEPT adequately treated basal or squamous cell skin cancers or in situ cancer of the cervix. Patients with previous other cancer(s) must have been disease-free for at least 5 years.	Eligibility	14
+breast cancer	DOID:1612	51-64
+cancer	DOID:162	38-44
+cancer	DOID:162	58-64
+cancer	DOID:162	144-150
+cancer	DOID:162	163-169
+cancer	DOID:162	214-220
+Patients currently receiving oral bisphosphonates must discontinue these at least 3 weeks prior to study start.	Eligibility	15
+Additional protocol defined inclusion/exclusion criteria may apply.	Eligibility	16
+Outcome Measurement:	Results	0
+Change in Bone Mineral Density (BMD) From Baseline to Month 36	Results	1
+bone mineral density	CMO:0001226	10-30
+month	UO:0000035	54-59
+Change in bone mineral density (BMD) measured by dual X-ray absorptiometry (DXA) in lumbar spine (L1-L4). Change calculated by (Month 36 BMD-Baseline BMD)/Baseline BMD*100.	Results	2
+bone mineral density	CMO:0001226	10-30
+month	UO:0000035	128-133
+Time frame: at 36 months as compared to baseline	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Letrozole	Results	5
+letrozole	CHEBI:6413	17-26
+Arm/Group Description: Letrozole 2.5 mg/day for 3 years	Results	6
+letrozole	CHEBI:6413	23-32
+Overall Number of Participants Analyzed: 21	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Percent  -0.11         (0.14)	Results	9
+percent	UO:0000187	17-24
+Results 2:	Results	10
+Arm/Group Title: Letrozole + Zoledronic Acid	Results	11
+letrozole	CHEBI:6413	17-26
+zoledronic acid	CHEBI:46557	29-44
+Arm/Group Description: Letrozole 2.5mg/day for 3 years plus Zoledronic acid 4mg every 6 months	Results	12
+letrozole	CHEBI:6413	23-32
+zoledronic acid	CHEBI:46557	60-75
+Overall Number of Participants Analyzed: 20	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Percent  0.03         (0.08)	Results	15
+percent	UO:0000187	17-24
+Adverse Events 1:	Adverse Events	0
+Total: 6/40 (15.00%)	Adverse Events	1
+ACUTE MYOCARDIAL INFARCTION 0/40 (0.00%)	Adverse Events	2
+acute myocardial infarction	DOID:9408	0-27
+ANGINA PECTORIS 0/40 (0.00%)	Adverse Events	3
+angina pectoris	HP:0001681	0-15
+ANGINA UNSTABLE 0/40 (0.00%)	Adverse Events	4
+CORONARY ARTERY STENOSIS 0/40 (0.00%)	Adverse Events	5
+coronary artery stenosis	HP:0005145	0-24
+SUPRAVENTRICULAR TACHYCARDIA 0/40 (0.00%)	Adverse Events	6
+supraventricular tachycardia	HP:0004755	0-28
+VERTIGO POSITIONAL 1/40 (2.50%)	Adverse Events	7
+vertigo	HP:0002321	0-7
+CONCOMITANT DISEASE PROGRESSION 1/40 (2.50%)	Adverse Events	8
+disease	DOID:4,OGMS:0000031	12-19
+CHOLECYSTITIS 1/40 (2.50%)	Adverse Events	9
+cholecystitis	HP:0001082,DOID:1949	0-13
+DIVERTICULITIS 0/40 (0.00%)	Adverse Events	10
+diverticulitis	DOID:7475	0-14
+CONTUSION 0/40 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 7/41 (17.07%)	Adverse Events	13
+ACUTE MYOCARDIAL INFARCTION 1/41 (2.44%)	Adverse Events	14
+acute myocardial infarction	DOID:9408	0-27
+ANGINA PECTORIS 1/41 (2.44%)	Adverse Events	15
+angina pectoris	HP:0001681	0-15
+ANGINA UNSTABLE 1/41 (2.44%)	Adverse Events	16
+CORONARY ARTERY STENOSIS 1/41 (2.44%)	Adverse Events	17
+coronary artery stenosis	HP:0005145	0-24
+SUPRAVENTRICULAR TACHYCARDIA 1/41 (2.44%)	Adverse Events	18
+supraventricular tachycardia	HP:0004755	0-28
+VERTIGO POSITIONAL 0/41 (0.00%)	Adverse Events	19
+vertigo	HP:0002321	0-7
+CONCOMITANT DISEASE PROGRESSION 0/41 (0.00%)	Adverse Events	20
+disease	DOID:4,OGMS:0000031	12-19
+CHOLECYSTITIS 0/41 (0.00%)	Adverse Events	21
+cholecystitis	HP:0001082,DOID:1949	0-13
+DIVERTICULITIS 1/41 (2.44%)	Adverse Events	22
+diverticulitis	DOID:7475	0-14
+CONTUSION 1/41 (2.44%)	Adverse Events	23

@@ -1,0 +1,214 @@
+INTERVENTION 1:	Intervention	0
+BKM120	Intervention	1
+bkm120	CHEBI:71954	0-6
+BKM120: BKM120 oral capsules. 100 mg daily in cycles of 28 days, until disease progression	Intervention	2
+bkm120	CHEBI:71954	0-6
+bkm120	CHEBI:71954	8-14
+disease	DOID:4,OGMS:0000031	71-78
+Inclusion Criteria:	Eligibility	0
+Pathologically and radiologically confirmed metastatic TNBC (Stage IV disease), previously documented by histological analysis, which is ER-negative and PR-negative by IHC and HER2 negative by IHC or FISH/CISH.	Eligibility	1
+disease	DOID:4,OGMS:0000031	70-77
+Subjects must have received maximum two prior chemotherapy regimens for metastatic breast cancer.	Eligibility	2
+breast cancer	DOID:1612	83-96
+Availability of a representative tumor specimen (primary or metastasis, archival tissue or fresh biopsy for patients with biopsiable tumor) at baseline.	Eligibility	3
+tissue	UBERON:0000479	81-87
+At least one measurable lesion by RECIST 1.1	Eligibility	4
+Age  18 years at the day of consenting to the study	Eligibility	5
+age	PATO:0000011	0-3
+day	UO:0000033	21-24
+ECOG performance status  2	Eligibility	6
+Adequate bone marrow and organ function as defined by the following laboratory values: ANC  1.0 x 109/L, platelets  100 x 109/L, hemoglobin  9.0 g/dL, INR  2; serum potassium between 3.0mmol/L and 5.5 mmol/L; Corrected serum calcium between8.0mg/dL and 11.5mg/dL (OR between 1.0mmol/L and 1.5mmol/L of Ionized calcium); serum magnesium between 1.2mg/dL and 3.0 mg/dL; serum creatinine  1.5 x ULN, ALT and AST within normal range (or  3.0 x ULN if liver metastases are present); serum bilirubin within normal range (or  1.5 x ULN if liver metastases are present; or total bilirubin  3.0 x ULN with direct bilirubin within normal range in patients with well documented Gilbert Syndrome); fasting plasma glucose (FPG)  140 mg/dL or  7.8 mmol/L.	Eligibility	7
+bone marrow	UBERON:0002371	9-20
+organ	UBERON:0000062	25-30
+function	BAO:0003117,BFO:0000034	31-39
+x	LABO:0000148	96-97
+x	LABO:0000148	120-121
+x	LABO:0000148	390-391
+x	LABO:0000148	438-439
+x	LABO:0000148	523-524
+x	LABO:0000148	586-587
+hemoglobin	CHEBI:35143	129-139
+calcium	CHEBI:22984,BAO:0000874	225-232
+calcium	CHEBI:22984,BAO:0000874	310-317
+creatinine	CHEBI:16737	374-384
+range	LABO:0000114	423-428
+range	LABO:0000114	508-513
+range	LABO:0000114	628-633
+liver	UBERON:0002107	447-452
+liver	UBERON:0002107	532-537
+present	PATO:0000467	468-475
+present	PATO:0000467	553-560
+gilbert syndrome	DOID:2739	667-683
+glucose	CHEBI:4167,BAO:0000924	701-708
+Exclusion Criteria:	Eligibility	8
+Previous treatment with PI3K inhibitors	Eligibility	9
+Symptomatic CNS metastases	Eligibility	10
+Patients with controlled and asymptomatic CNS metastases may participate in this trial. As such, the patient must have completed any prior treatment for CNS metastases > 28 days (including radiotherapy and/or surgery) prior to enrollment in this study. Patients with previously treated brain metastases, who are on a stable low dose corticosteroids treatment are eligible	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	101-108
+patient	HADO:0000008,OAE:0001817	253-260
+radiotherapy	OAE:0000235	189-201
+surgery	OAE:0000067	209-216
+brain	UBERON:0000955	286-291
+stable	HP:0031915	317-323
+Concurrent malignancy or malignancy within 3 years of study enrollment (with the exception of adequately treated basal or squamous cell carcinoma or non-melanomatous skin cancer). An exception to this rule are those patients with documented germline mutations in BRCA1 or 2, who may have previous history of cancer	Eligibility	12
+squamous cell carcinoma	HP:0002860,DOID:1749	122-145
+skin cancer	DOID:4159	166-177
+history	BFO:0000182	297-304
+cancer	DOID:162	171-177
+cancer	DOID:162	308-314
+Any of the following mood disorders as judged by the Investigator or a Psychiatrist, or meets the cut-off score of  10 in the PHQ-9 or a cut-off of  15 in the GAD-7 mood scale, respectively, or selects a positive response of '1, 2, or 3' to question number 9 regarding potential for suicidal thoughts ideation in the PHQ-9 (independent of the total score of the PHQ-9)	Eligibility	13
+Patients with a history or active episodes of major depression, bipolar disorder (I or II), obsessive-compulsive disorder, schizophrenia, history of suicide attempts or suicidal thoughts (eg. Risk of hurting or harming others) or patients with severe personality disorders (as defined by the DSM-IV) are not eligible. Note: For patients who are treated with psychotropic drugs at baseline, the dose and schedule shall not be changed during the 6 weeks prior to initiation of treatment with the study drug.	Eligibility	14
+history	BFO:0000182	16-23
+history	BFO:0000182	138-145
+active	PATO:0002354	27-33
+depression	HP:0000716	52-62
+bipolar disorder	DOID:3312	64-80
+obsessive-compulsive disorder	DOID:10933	92-121
+schizophrenia	HP:0100753,DOID:5419	123-136
+severe	HP:0012828	244-250
+drug	CHEBI:23888	371-375
+drug	CHEBI:23888	500-504
+CTCAE v 4.0 grade 3 anxiety	Eligibility	15
+anxiety	HP:0000739,DOID:2030	20-27
+Patients on concurrent use of other approved or investigational antineoplastic and / or chemotherapy or any continuous or intermittent treatment with therapeutic agents of low molecular weight (excluding monoclonal antibodies) in  21 days prior to enrollment in this study or who have not recovered from the effects such therapy will not be eligible.	Eligibility	16
+monoclonal	BAO:0000503	204-214
+Radiotherapy  28 days prior to enrollment in this study or failure to recover from side effects of such therapy at the time of initiation of screening procedures.	Eligibility	17
+radiotherapy	OAE:0000235	0-12
+time	PATO:0000165	119-123
+Major surgery within 28 days prior to starting study drug or has not recovered from major side effects of the surgery	Eligibility	18
+surgery	OAE:0000067	6-13
+surgery	OAE:0000067	110-117
+drug	CHEBI:23888	53-57
+Poorly controlled diabetes mellitus (HbA1c > 8%)	Eligibility	19
+diabetes mellitus	HP:0000819,DOID:9351	18-35
+Active cardiac disease including any of the following:	Eligibility	20
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	15-22
+Left Ventricular Ejection Fraction (LVEF) < 50% as determined by Multiple Gated acquisition (MUGA) scan or echocardiogram (ECHO)Note: ECHO/MUGA is only required at baseline if patient has a history of abnormal cardiac test results	Eligibility	21
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+patient	HADO:0000008,OAE:0001817	176-183
+history	BFO:0000182	190-197
+abnormal cardiac test	HP:0500015	201-222
+QTc > 480 msec on screening ECG (using the QTcF formula	Eligibility	22
+Angina pectoris that requires the use of anti-anginal medication	Eligibility	23
+angina pectoris	HP:0001681	0-15
+Ventricular arrhythmias except for benign premature ventricular contractions	Eligibility	24
+Supraventricular and nodal arrhythmias requiring a pacemaker or not controlled with medication	Eligibility	25
+Conduction abnormality requiring a pacemaker	Eligibility	26
+Valvular disease with documented compromise in cardiac function	Eligibility	27
+disease	DOID:4,OGMS:0000031	9-16
+function	BAO:0003117,BFO:0000034	55-63
+Symptomatic pericarditis	Eligibility	28
+pericarditis	HP:0001701,DOID:1787	12-24
+History of cardiac dysfunction including any of the following;	Eligibility	29
+history	BFO:0000182	0-7
+Myocardial infarction within the last 6 months, documented by persistent elevated cardiac enzymes or persistent regional wall abnormalities on assessment of LVEF function	Eligibility	30
+myocardial infarction	HP:0001658,DOID:5844	0-21
+function	BAO:0003117,BFO:0000034	162-170
+History of documented congestive heart failure (New York Heart Association functional classification III-IV)	Eligibility	31
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	22-46
+heart	UBERON:0000948	33-38
+heart	UBERON:0000948	57-62
+functional	BAO:0000010	75-85
+Documented cardiomyopathy	Eligibility	32
+cardiomyopathy	HP:0001638,DOID:0050700	11-25
+Treatment with QT prolonging medication known to have a risk to induce Torsades de Pointes, and the treatment cannot be discontinued or switched to a different medication prior to starting study drug	Eligibility	33
+drug	CHEBI:23888	195-199
+Impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of BKM120 (e.g., uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome, or small bowel resection)	Eligibility	34
+function	BAO:0003117,BFO:0000034	36-44
+disease	DOID:4,OGMS:0000031	51-58
+bkm120	CHEBI:71954	106-112
+nausea	HP:0002018	133-139
+vomiting	HP:0002013	141-149
+diarrhea	HP:0002014,DOID:13250	151-159
+malabsorption	HP:0002024	161-174
+syndrome	DOID:225	175-183
+Chronic treatment with steroids or another immunosuppressive agent. Note: Topical applications (e.g., rash), inhaled sprays (e.g., obstructive airways diseases), eye drops or local injections (e.g., intra-articular) are allowed. Patients with previously treated brain metastases, who are on a stable low dose corticosteroids treatment (e.g., dexamethasone 2 mg/day, prednisone 10 mg/day) for at least 14 days before start of study treatment, are eligible	Eligibility	35
+chronic	HP:0011010	0-7
+immunosuppressive agent	CHEBI:35705	43-66
+eye	UBERON:0000970	162-165
+brain	UBERON:0000955	262-267
+stable	HP:0031915	293-299
+dexamethasone	CHEBI:41879	342-355
+prednisone	CHEBI:8382	366-376
+Other concurrent severe and/or uncontrolled medical condition that would, in the investigator's judgment contraindicate her participation in the clinical study (e.g., chronic pancreatitis, active chronic hepatitis etc.)	Eligibility	36
+severe	HP:0012828	17-23
+condition	PDRO:0000129	52-61
+chronic pancreatitis	HP:0006280	167-187
+active	PATO:0002354	189-195
+chronic hepatitis	HP:0200123,DOID:2237	196-213
+History of non-compliance to medical regimen	Eligibility	37
+history	BFO:0000182	0-7
+Current treatment with drugs known to be moderate and strong inhibitors or inducers of isoenzyme CYP3A, and the treatment cannot be discontinued or switched to a different medication prior to starting study drug	Eligibility	38
+moderate	HP:0012826	41-49
+drug	CHEBI:23888	23-27
+drug	CHEBI:23888	207-211
+Known history of HIV (testing not mandatory) infection	Eligibility	39
+history	BFO:0000182	6-13
+Pregnant or nursing (lactating) woman	Eligibility	40
+Woman of child-bearing potential unwilling to observe total sexual abstinence or to use a double barrier method for birth control throughout the trial. Reliable contraception should be maintained throughout the study and for 6 months after study drug discontinuation	Eligibility	41
+drug	CHEBI:23888	246-250
+Outcome Measurement:	Results	0
+Rate of Clinical Benefit	Results	1
+rate	BAO:0080019	0-4
+Clinical benefit rate (CBR) was defined as the percentage of participants achieving complete response (CR), partial response (PR), or stable disease (SD) for 4 months or longer based on RECIST 1.1 criteria on treatment. Per RECIST 1.1 for target lesions: CR is the complete disappearance of all target lesions and PR is at least a 30% decrease in the sum of longest diameter (LD) of target lesions, taking as reference baseline sum LD. PD is at least a 20% increase in sum LD of target lesions (smallest sum LD reference), new lesions, and/or unequivocal progression of existing non-target lesions. Stable disease (SD) is defined as any condition not meeting the above criteria.	Results	2
+rate	BAO:0080019	17-21
+stable	HP:0031915	134-140
+stable	HP:0031915	599-605
+disease	DOID:4,OGMS:0000031	141-148
+disease	DOID:4,OGMS:0000031	606-613
+target	BAO:0003064	239-245
+target	BAO:0003064	295-301
+target	BAO:0003064	383-389
+target	BAO:0003064	479-485
+target	BAO:0003064	583-589
+diameter	PATO:0001334	366-374
+increase	BAO:0001251	457-465
+condition	PDRO:0000129	637-646
+Time frame: Disease was evaluated radiologically at baseline and every 2 cycles on treatment then every 3 months up to 2 years. Participants in this study cohort were followed for response on average approximately 2 months.	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	12-19
+Results 1:	Results	4
+Arm/Group Title: BKM120	Results	5
+bkm120	CHEBI:71954	17-23
+Arm/Group Description: BKM120: BKM120 oral capsules. 100 mg daily in cycles of 28 days, until disease progression	Results	6
+bkm120	CHEBI:71954	23-29
+bkm120	CHEBI:71954	31-37
+disease	DOID:4,OGMS:0000031	94-101
+Overall Number of Participants Analyzed: 50	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Complete response: 0   0.0%	Results	9
+Partial response: 0   0.0%	Results	10
+Stable disease > 4 months: 6  12.0%	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Stable disease < 4 months: 11  22.0%	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive disease: 20  40.0%	Results	13
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+No evaluable: 13  26.0%	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 17/50 (34.00%)	Adverse Events	1
+Fatigue  4/50 (8.00%)	Adverse Events	2
+fatigue	HP:0012378	0-7
+Papulopustular rash  1/50 (2.00%)	Adverse Events	3
+Alanine aminotransferase increased  5/50 (10.00%)	Adverse Events	4
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased  4/50 (8.00%)	Adverse Events	5
+aspartate	CHEBI:29995	0-9
+Alkalosis  1/50 (2.00%)	Adverse Events	6
+alkalosis	HP:0001948	0-9
+Anorexia  1/50 (2.00%)	Adverse Events	7
+anorexia	HP:0002039	0-8
+Hyperglycemia  2/50 (4.00%)	Adverse Events	8
+hyperglycemia	HP:0003074,DOID:4195	0-13
+Nervous system disorders - Other  1/50 (2.00%)	Adverse Events	9
+nervous system	UBERON:0001016	0-14
+Dry skin  1/50 (2.00%)	Adverse Events	10
+dry skin	HP:0000958	0-8
+Rash acneiform  1/50 (2.00%)	Adverse Events	11

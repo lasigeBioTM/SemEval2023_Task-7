@@ -1,0 +1,102 @@
+INTERVENTION 1:	Intervention	0
+Glioblastoma Multiforme (GBM)	Intervention	1
+glioblastoma multiforme	HP:0012174,DOID:3068	0-23
+Patients with glioblastoma multiforme (GBM) undergo 18F-FDG and 18F-FPPRGD2 positron emission tomography / computed tomography (PET/CT) imaging at baseline and 6 weeks (or standard of care follow-up)	Intervention	2
+glioblastoma multiforme	HP:0012174,DOID:3068	14-37
+positron	CHEBI:30225	76-84
+tomography	BAO:0002525	94-104
+tomography	BAO:0002525	116-126
+18F-fludeoxyglucose (18F-FDG): 18F-FDG will be used as the radiotracer for a regular medical care PET/CT or PET/MRI scan	Intervention	3
+18F-FPPRGD2: 18F-FPPRGD2 will be used as the radiotracer for a PET/CT or PET/MRI scan. Participants will be injected with less than 10 mCi of 18F-FPPRGD2.	Intervention	4
+INTERVENTION 2:	Intervention	5
+Gynecological Cancers	Intervention	6
+Patients with gynecological cancer undergo 18F-FDG and 18F-FPPRGD2 positron emission tomography / computed tomography (PET/CT) imaging at baseline and at 9 t0 12 weeks (or standard of care follow-up)	Intervention	7
+cancer	DOID:162	28-34
+positron	CHEBI:30225	67-75
+tomography	BAO:0002525	85-95
+tomography	BAO:0002525	107-117
+18F-fludeoxyglucose (18F-FDG): 18F-FDG will be used as the radiotracer for a regular medical care PET/CT or PET/MRI scan	Intervention	8
+18F-FPPRGD2: 18F-FPPRGD2 will be used as the radiotracer for a PET/CT or PET/MRI scan. Participants will be injected with less than 10 mCi of 18F-FPPRGD2.	Intervention	9
+Inclusion Criteria:	Eligibility	0
+Provides written informed consent	Eligibility	1
+Diagnosed with advanced NSCLC, breast cancer, GBM or other cancers (such as head and neck, colorectal, pancreatic, renal cancers); patients will undergo anti-angiogenesis treatment or treatment with other drugs that may alter angiogenesis	Eligibility	2
+breast cancer	DOID:1612	31-44
+head	UBERON:0000033	76-80
+neck	GO:0044326,UBERON:0000974	85-89
+angiogenesis	GO:0001525	158-170
+angiogenesis	GO:0001525	226-238
+Able to remain still for duration of each imaging procedure (about one hour)	Eligibility	3
+duration	PATO:0001309	25-33
+hour	UO:0000032	71-75
+Exclusion Criteria:	Eligibility	4
+Pregnant or nursing	Eligibility	5
+Contraindication to MRI	Eligibility	6
+contraindication	OAE:0000055	0-16
+History of renal insufficiency (only for MRI contrast administration)	Eligibility	7
+history	BFO:0000182	0-7
+renal insufficiency	HP:0000083	11-30
+Outcome Measurement:	Results	0
+Change From Baseline in Maximum Standard Uptake Values (SUVmax)	Results	1
+uptake	GO:0098739,BAO:0001256	41-47
+Maximum standard uptake values (SUVmax) were assessed on the basis of position emission tomography (PET) scans using radiotracers 18F-FPPRGD2 and 18F-FDG at baseline and at regular medical care follow-up (6 to 12 weeks after initiation of treatment). The outcome is assessed as the difference in the maximum standard uptake values (SUVmax) values from baseline to follow-up for the 2 radiotracers, and will be reported for each disease type as the median with standard deviation.	Results	2
+uptake	GO:0098739,BAO:0001256	17-23
+uptake	GO:0098739,BAO:0001256	317-323
+position	HP:0012830	70-78
+tomography	BAO:0002525	88-98
+disease	DOID:4,OGMS:0000031	428-435
+median	BAO:0002174	448-454
+standard deviation	BAO:0002176	460-478
+Time frame: At baseline and 6 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Glioblastoma Multiforme (GBM)	Results	5
+glioblastoma multiforme	HP:0012174,DOID:3068	17-40
+Arm/Group Description: Patients with glioblastoma multiforme (GBM) undergo 18F-FDG and 18F-FPPRGD2 positron emission tomography / computed tomography (PET/CT) imaging at baseline and 6 weeks (or standard of care follow-up)	Results	6
+glioblastoma multiforme	HP:0012174,DOID:3068	37-60
+positron	CHEBI:30225	99-107
+tomography	BAO:0002525	117-127
+tomography	BAO:0002525	139-149
+18F-fludeoxyglucose (18F-FDG): 18F-FDG will be used as the radiotracer for a regular medical care PET/CT or PET/MRI scan	Results	7
+18F-FPPRGD2: 18F-FPPRGD2 will be used as the radiotracer for a PET/CT or PET/MRI scan. Participants will be injected with less than 10 mCi of 18F-FPPRGD2.	Results	8
+Overall Number of Participants Analyzed: 8	Results	9
+Median (Standard Deviation)	Results	10
+median	BAO:0002174	0-6
+standard deviation	BAO:0002176	8-26
+Unit of Measure: ratio  18F-FPPRGD2 PET scans: 8 participants	Results	11
+ratio	UO:0000190	17-22
+-0.98         (0.98)	Results	12
+18F-FDG PET scans: 0 participants	Results	13
+Results 2:	Results	14
+Arm/Group Title: Gynecological Cancers	Results	15
+Arm/Group Description: Patients with gynecological cancer undergo 18F-FDG and 18F-FPPRGD2 positron emission tomography / computed tomography (PET/CT) imaging at baseline and at 9 t0 12 weeks (or standard of care follow-up)	Results	16
+cancer	DOID:162	51-57
+positron	CHEBI:30225	90-98
+tomography	BAO:0002525	108-118
+tomography	BAO:0002525	130-140
+18F-fludeoxyglucose (18F-FDG): 18F-FDG will be used as the radiotracer for a regular medical care PET/CT or PET/MRI scan	Results	17
+18F-FPPRGD2: 18F-FPPRGD2 will be used as the radiotracer for a PET/CT or PET/MRI scan. Participants will be injected with less than 10 mCi of 18F-FPPRGD2.	Results	18
+Overall Number of Participants Analyzed: 4	Results	19
+Median (Standard Deviation)	Results	20
+median	BAO:0002174	0-6
+standard deviation	BAO:0002176	8-26
+Unit of Measure: ratio  18F-FPPRGD2 PET scans: 4 participants	Results	21
+ratio	UO:0000190	17-22
+0.09         (1.20)	Results	22
+18F-FDG PET scans: 4 participants	Results	23
+-1.90         (2.80)	Results	24
+Adverse Events 1:	Adverse Events	0
+Total: 1/11 (9.09%)	Adverse Events	1
+Diarrhea 20/11 (0.00%)	Adverse Events	2
+diarrhea	HP:0002014,DOID:13250	0-8
+Vomiting 0/11 (0.00%)	Adverse Events	3
+vomiting	HP:0002013	0-8
+Death NOS 1/11 (9.09%)	Adverse Events	4
+death	OAE:0000632	0-5
+Adverse Events 2:	Adverse Events	5
+Total: 0/6 (0.00%)	Adverse Events	6
+Diarrhea 20/6 (0.00%)	Adverse Events	7
+diarrhea	HP:0002014,DOID:13250	0-8
+Vomiting 0/6 (0.00%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Death NOS 0/6 (0.00%)	Adverse Events	9
+death	OAE:0000632	0-5

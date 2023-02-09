@@ -1,0 +1,73 @@
+INTERVENTION 1:	Intervention	0
+PET Guided Biopsy	Intervention	1
+No comparison group. All enrolled participants were expected to undergo PET guided biopsy.	Intervention	2
+group	CHEBI:24433	14-19
+Inclusion Criteria:	Eligibility	0
+Individuals aged 25 years or older	Eligibility	1
+Individuals who have at least one breast imaging finding requiring biopsy, specifically:	Eligibility	2
+breast	UBERON:0000310	34-40
+Individuals who have a breast abnormality(ies) moderately suspicious for or highly suggestive of malignancy on imaging with mammography, ultrasound, or MRI (as per ACR BIRADS™ 4C or 5) and requiring biopsy confirmation OR o Individuals with known breast cancer who have additional imaging abnormality(ies) suspicious for malignancy detected on a high-resolution FDG PET scan	Eligibility	3
+breast	UBERON:0000310	23-29
+breast	UBERON:0000310	247-253
+breast cancer	DOID:1612	247-260
+Individuals who had recent conventional imaging work-up including x-ray mammography of the breast containing the abnormality of interest.	Eligibility	4
+breast	UBERON:0000310	91-97
+Individuals with suspected tumor size measuring one cm or less on mammography and/or ultrasound and/or MRI if the lesion is visible on any of these modalities, except that each site may enroll up to three patients each where the lesion of interest as measured on mammography (or ultrasound and/or MRI if not detectable on mammography) is more than 1 cm. (Note: The study will target patient enrollment such that at least 50% of the lesions to undergo biopsy across all sites will be less than 1 cm in diameter as measured on mammography, or as measured by other modalities, such as ultrasound, CT, or MRI, if the lesion is not detectable or measurable on mammography.)	Eligibility	5
+size	PATO:0000117	33-37
+site	BFO:0000029	177-181
+site	BFO:0000029	469-473
+target	BAO:0003064	376-382
+patient	HADO:0000008,OAE:0001817	205-212
+patient	HADO:0000008,OAE:0001817	383-390
+diameter	PATO:0001334	501-509
+ct	BAO:0002125	22-24
+ct	BAO:0002125	312-314
+ct	BAO:0002125	594-596
+ct	BAO:0002125	631-633
+Individuals who have agreed to participate in the study and who have signed study-specific informed consent	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Women who are or may be pregnant	Eligibility	8
+Women who are currently lactating or discontinued breastfeeding < 2 months prior to the study	Eligibility	9
+Age less than 25 years	Eligibility	10
+age	PATO:0000011	0-3
+Individuals with breast implant(s) in the breast containing the lesion of interest	Eligibility	11
+breast	UBERON:0000310	17-23
+breast	UBERON:0000310	42-48
+Individuals who are scheduled for a sentinel node procedure using radioactive Tc-99m within 24 hours of PET-guided biopsy	Eligibility	12
+Patients with contraindications for core biopsy and other invasive procedures such as blood coagulation disorders, infection, or who are unwilling to discontinue use of anticoagulant medication prior to the procedure	Eligibility	13
+blood coagulation	GO:0007596	86-103
+anticoagulant	CHEBI:50249	169-182
+Individuals with Type I or poorly controlled Type II diabetes mellitus	Eligibility	14
+type ii diabetes mellitus	HP:0005978	45-70
+Individuals with a blood glucose level that is above 140 mg/dl at the time of PEM imaging	Eligibility	15
+blood glucose level	CMO:0000046	19-38
+time	PATO:0000165	70-74
+Inability to provide informed consent	Eligibility	16
+Individuals who have had surgery on the study breast(s) within the past 12 months	Eligibility	17
+surgery	OAE:0000067	25-32
+breast	UBERON:0000310	46-52
+Outcome Measurement:	Results	0
+Number of Lesions That Were Successfully Biopsied Using the PET-guided Biopsy Method.	Results	1
+Success in completion of the PET guided biopsy of a suspicious lesion was determined by	Results	2
+Alteration in lesion morphology (no change in vs change in lesion morphology) after sampling AND/OR	Results	3
+morphology	PATO:0000051	21-31
+morphology	PATO:0000051	66-76
+Visualization of regions with high radioactive uptake within the biopsy specimen consistent with target lesion (focal uptake present vs absent).	Results	4
+uptake	GO:0098739,BAO:0001256	47-53
+uptake	GO:0098739,BAO:0001256	118-124
+target	BAO:0003064	97-103
+focal	HP:0030650	112-117
+present	PATO:0000467	125-132
+absent	PATO:0000462	136-142
+Time frame: within two days of obtaining histopathology of the lesion biopsied	Results	5
+time	PATO:0000165	0-4
+Results 1:	Results	6
+Arm/Group Title: PET Guided Biopsy	Results	7
+Arm/Group Description: No comparison group. All enrolled participants were expected to undergo PET guided biopsy.	Results	8
+group	CHEBI:24433	4-9
+group	CHEBI:24433	37-42
+Overall Number of Participants Analyzed: 19	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: Number of lesions  24	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 0	Adverse Events	1

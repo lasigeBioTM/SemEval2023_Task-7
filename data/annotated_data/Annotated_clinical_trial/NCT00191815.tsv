@@ -1,0 +1,87 @@
+INTERVENTION 1:	Intervention	0
+Gemcitabine + Cisplatin	Intervention	1
+gemcitabine	CHEBI:175901	0-11
+cisplatin	CHEBI:27899	14-23
+Gemcitabine (30 min intravenous infusion) dose of 1000mg/m2 on Day 1 and Day 8 (21 day cycle).	Intervention	2
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	63-66
+day	UO:0000033	73-76
+day	UO:0000033	83-86
+Cisplatin (30-120 min intravenous infusion) dose of 35 mg/m2 on Day 1 and Day 8 (21 day cycle).	Intervention	3
+cisplatin	CHEBI:27899	0-9
+day	UO:0000033	64-67
+day	UO:0000033	74-77
+day	UO:0000033	84-87
+Inclusion Criteria:	Eligibility	0
+You are female in the age of 18 to 75 years old.	Eligibility	1
+female	PATO:0000383	8-14
+age	PATO:0000011	22-25
+You have been diagnosed with the metastatic breast cancer.	Eligibility	2
+breast cancer	DOID:1612	44-57
+You have desire and an opportunity to visit your doctor in medical site, both during realization of the active treatment program, and within 24 months of medical follow up.	Eligibility	3
+site	BFO:0000029	67-71
+active	PATO:0002354	104-110
+You must sign this informed consent form	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+You are pregnant or breastfeeding.	Eligibility	6
+Your laboratory parameters fall outside the limits, admitted by requirements of the present clinical study.	Eligibility	7
+present	PATO:0000467	84-91
+You have been diagnosed with serious concomitant or acute infectious disease.	Eligibility	8
+acute	HP:0011009,PATO:0000389	52-57
+disease	DOID:4,OGMS:0000031	69-76
+You have used experimental medications within the last month.	Eligibility	9
+month	UO:0000035	55-60
+Outcome Measurement:	Results	0
+Objective Tumor Response	Results	1
+Best response recorded from the start of treatment until disease progression/recurrence using World Health Organization (WHO) criteria that defines when participants improve ("respond"), stay the same ("stable"), or worsen ("progression") during treatment.	Results	2
+disease	DOID:4,OGMS:0000031	57-64
+stable	HP:0031915	203-209
+Time frame: baseline to measured progressive disease (eight 21-day cycles of therapy and follow-up period was 24 months starting from the date of the last drug administration. Data collected every 4 months.)	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	33-44
+disease	DOID:4,OGMS:0000031	45-52
+drug administration	OAE:0000011	155-174
+Results 1:	Results	4
+Arm/Group Title: Gemcitabine + Cisplatin	Results	5
+gemcitabine	CHEBI:175901	17-28
+cisplatin	CHEBI:27899	31-40
+Arm/Group Description: Gemcitabine (30 min intravenous infusion) dose of 1000mg/m2 on Day 1 and Day 8 (21 day cycle).	Results	6
+gemcitabine	CHEBI:175901	23-34
+day	UO:0000033	86-89
+day	UO:0000033	96-99
+day	UO:0000033	106-109
+Cisplatin (30-120 min intravenous infusion) dose of 35 mg/m2 on Day 1 and Day 8 (21 day cycle).	Results	7
+cisplatin	CHEBI:27899	0-9
+day	UO:0000033	64-67
+day	UO:0000033	74-77
+day	UO:0000033	84-87
+Overall Number of Participants Analyzed: 54	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  Complete Response: 7	Results	10
+Partial Response: 19	Results	11
+Stable Disease: 19	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 5	Results	13
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not Assessable: 4	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 6	Adverse Events	1
+Atrial fibrillation 1/67 (1.49%)	Adverse Events	2
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Ventricular fibrillation 1/67 (1.49%)	Adverse Events	3
+ventricular fibrillation	HP:0001663	0-24
+Gastrointestinal perforation 1/67 (1.49%)	Adverse Events	4
+Periproctitis 1/67 (1.49%)	Adverse Events	5
+General physical health deterioration 1/67 (1.49%)	Adverse Events	6
+Escherichia sepsis 1/67 (1.49%)	Adverse Events	7
+sepsis	HP:0100806	12-18
+Pneumonia 1/67 (1.49%)	Adverse Events	8
+pneumonia	HP:0002090,DOID:552	0-9
+Tumour pain 1/67 (1.49%)	Adverse Events	9
+pain	HP:0012531	7-11
+Renal failure acute 1/67 (1.49%)	Adverse Events	10
+acute	HP:0011009,PATO:0000389	14-19
+Pleurisy 1/67 (1.49%)	Adverse Events	11
+pleurisy	DOID:10247	0-8

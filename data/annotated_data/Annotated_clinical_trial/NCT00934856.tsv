@@ -1,0 +1,139 @@
+INTERVENTION 1:	Intervention	0
+MBC: T-DM1 2.4 mg/kg + Doc 75 mg/m^2 (Over 2 Days)	Intervention	1
+Participants with HER2-positive MBC received docetaxel 75 mg/m^2 IV infusion on Day 1 and T-DM1 2.4 mg/kg IV infusion on Day 2 of Cycle 1 followed by T-DM1 75 mg/m^2 and docetaxel 2.4 mg/kg IV infusion on Day 1 of each 3-week cycle for a minimum of 6 cycles. After 6 cycles, docetaxel 75 mg/m^2 was stopped and T-DM1 2.4 mg/kg was continued until confirmed evidence of disease progression, unacceptable toxicity, or withdrawal of participant consent.	Intervention	2
+day	UO:0000033	80-83
+day	UO:0000033	121-124
+day	UO:0000033	205-208
+disease	DOID:4,OGMS:0000031	369-376
+INTERVENTION 2:	Intervention	3
+MBC: T-DM1 2.4 mg/kg + Doc 60 mg/m^2 (Over 2 Days)	Intervention	4
+Participants with HER2-positive MBC received docetaxel 60 mg/m^2 IV infusion on Day 1 and T-DM1 2.4 mg/kg IV infusion on Day 2 of Cycle 1 followed by T-DM1 60 mg/m^2 and docetaxel 2.4 mg/kg IV infusion on Day 1 of each 3-week cycle for a minimum of 6 cycles. After 6 cycles, docetaxel 60 mg/m^2 was stopped and T-DM1 2.4 mg/kg was continued until confirmed evidence of disease progression, unacceptable toxicity, or withdrawal of participant consent.	Intervention	5
+day	UO:0000033	80-83
+day	UO:0000033	121-124
+day	UO:0000033	205-208
+disease	DOID:4,OGMS:0000031	369-376
+Inclusion Criteria:	Eligibility	0
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1 (ECOG performance status of 2 will be allowed if only due to debilitating bone disease)	Eligibility	1
+group	CHEBI:24433	29-34
+bone disease	DOID:0080001	139-151
+HER2-positive metastatic or locally advanced breast cancer	Eligibility	2
+breast cancer	DOID:1612	45-58
+For MBC participants:	Eligibility	3
+Documented metastatic or inoperable locally advanced (without meeting LABC criteria) disease, amenable for treatment with docetaxel	Eligibility	4
+disease	DOID:4,OGMS:0000031	85-92
+History of disease progression within 3 months prior to study entry	Eligibility	5
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	11-18
+For LABC participants:	Eligibility	6
+Newly diagnosed locally advanced breast cancer, Stage IIA-IIIC (American Joint Committee on Cancer [AJCC] staging system)	Eligibility	7
+breast cancer	DOID:1612	33-46
+cancer	DOID:162	40-46
+cancer	DOID:162	92-98
+Exclusion Criteria:	Eligibility	8
+Significant cardiac disease	Eligibility	9
+disease	DOID:4,OGMS:0000031	20-27
+Inadequate bone marrow, liver or renal function	Eligibility	10
+bone marrow	UBERON:0002371	11-22
+liver	UBERON:0002107	24-29
+function	BAO:0003117,BFO:0000034	39-47
+For MBC participants:	Eligibility	11
+Participants must not have received radiotherapy for the treatment of metastatic or locally recurrent/advanced disease other than for the relief of pain in progressing metastatic bone lesions and/or brain metastases	Eligibility	12
+radiotherapy	OAE:0000235	36-48
+disease	DOID:4,OGMS:0000031	111-118
+pain	HP:0012531	148-152
+brain	UBERON:0000955	199-204
+Brain metastases that are untreated, symptomatic or require therapy to control symptoms; or any radiation, surgery, or other therapy to control symptoms from brain metastasis within 2 months of the first study treatment.	Eligibility	13
+brain	UBERON:0000955	0-5
+brain	UBERON:0000955	158-163
+surgery	OAE:0000067	107-114
+For LABC participants:	Eligibility	14
+Clinically or radiologically detectable metastasis (M1 disease)	Eligibility	15
+m1	CHEBI:34826	52-54
+disease	DOID:4,OGMS:0000031	55-62
+Participants for whom surgery as primary intent procedure is the best option to treat their disease	Eligibility	16
+surgery	OAE:0000067	22-29
+disease	DOID:4,OGMS:0000031	92-99
+Participants must not have received any systemic or loco-regional anti-cancer therapy for the treatment of locally advanced disease	Eligibility	17
+disease	DOID:4,OGMS:0000031	124-131
+Outcome Measurement:	Results	0
+Number of Participants With Dose Limiting Toxicity (DLT) - MBC and LABC Feasibility Population	Results	1
+DLTs included (as per National Cancer Institute Common Terminology Criteria for Adverse Events [NCI CTCAE] grading): Grade 4 thrombocytopenia, thrombocytopenia of any grade with concurrent hemorrhage or requiring blood platelet transfusion, or thrombocytopenia not recovered by Day 21 to at least 100,000/microliter (mcL); Grade 4 neutropenia lasting for more than 7 days; Febrile neutropenia; Grade greater than or equal to (>/=) 3 neurotoxicity in the form of peripheral neuropathy or peripheral neurotoxicity not improving to baseline or Grade less than or equal to (</=) 1 by Day 21; Any non-hematological toxicity of Grade >/= 3 except for alopecia, fever, and chills, not improving to baseline or Grade </=1 by Day 21, despite adequate toxicity management; Any subjective intolerable toxicity felt by the investigator to be related to either study treatment; Any other treatment-related toxicity prohibiting the start of the Cycle 2 on Day 22; Fulminant skin rash.	Results	2
+cancer	DOID:162	31-37
+thrombocytopenia	HP:0001873,DOID:1588	125-141
+thrombocytopenia	HP:0001873,DOID:1588	143-159
+thrombocytopenia	HP:0001873,DOID:1588	244-260
+blood	UBERON:0000178	213-218
+day	UO:0000033	278-281
+day	UO:0000033	367-370
+day	UO:0000033	580-583
+day	UO:0000033	717-720
+day	UO:0000033	942-945
+neutropenia	HP:0001875,DOID:1227	331-342
+neutropenia	HP:0001875,DOID:1227	381-392
+peripheral neuropathy	HP:0009830,DOID:870	462-483
+peripheral	HP:0030646	462-472
+peripheral	HP:0030646	487-497
+alopecia	HP:0001596,DOID:987	645-653
+fever	HP:0001945	655-660
+chills	HP:0025143	666-672
+skin rash	HP:0000988	960-969
+Time frame: Cycle 1 (up to 21 days)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: MBC: T-DM1 2.4 mg/kg + Doc 75 mg/m^2 (Over 2 Days)	Results	5
+Arm/Group Description: Participants with HER2-positive MBC received docetaxel 75 mg/m^2 IV infusion on Day 1 and T-DM1 2.4 mg/kg IV infusion on Day 2 of Cycle 1 followed by T-DM1 75 mg/m^2 and docetaxel 2.4 mg/kg IV infusion on Day 1 of each 3-week cycle for a minimum of 6 cycles. After 6 cycles, docetaxel 75 mg/m^2 was stopped and T-DM1 2.4 mg/kg was continued until confirmed evidence of disease progression, unacceptable toxicity, or withdrawal of participant consent.	Results	6
+day	UO:0000033	103-106
+day	UO:0000033	144-147
+day	UO:0000033	228-231
+disease	DOID:4,OGMS:0000031	392-399
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  2	Results	9
+Results 2:	Results	10
+Arm/Group Title: MBC: T-DM1 2.4 mg/kg + Doc 60 mg/m^2 (Over 2 Days)	Results	11
+Arm/Group Description: Participants with HER2-positive MBC received docetaxel 60 mg/m^2 IV infusion on Day 1 and T-DM1 2.4 mg/kg IV infusion on Day 2 of Cycle 1 followed by T-DM1 60 mg/m^2 and docetaxel 2.4 mg/kg IV infusion on Day 1 of each 3-week cycle for a minimum of 6 cycles. After 6 cycles, docetaxel 60 mg/m^2 was stopped and T-DM1 2.4 mg/kg was continued until confirmed evidence of disease progression, unacceptable toxicity, or withdrawal of participant consent.	Results	12
+day	UO:0000033	103-106
+day	UO:0000033	144-147
+day	UO:0000033	228-231
+disease	DOID:4,OGMS:0000031	392-399
+Overall Number of Participants Analyzed: 6	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  1	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 2/6 (33.33%)	Adverse Events	1
+Febrile neutropenia * 1/6 (16.67%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/6 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 1/6 (16.67%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Diarrhoea * 0/6 (0.00%)	Adverse Events	5
+Pyrexia * 0/6 (0.00%)	Adverse Events	6
+Thrombosis in device * 1/6 (16.67%)	Adverse Events	7
+thrombosis	DOID:0060903	0-10
+Fatigue * 0/6 (0.00%)	Adverse Events	8
+fatigue	HP:0012378	0-7
+Mucosal inflammation * 0/6 (0.00%)	Adverse Events	9
+Device deployment issue * 0/6 (0.00%)	Adverse Events	10
+Hepatocellular injury * 1/6 (16.67%)	Adverse Events	11
+Cholecystitis * 1/6 (16.67%)	Adverse Events	12
+cholecystitis	HP:0001082,DOID:1949	0-13
+Adverse Events 2:	Adverse Events	13
+Total: 2/6 (33.33%)	Adverse Events	14
+Febrile neutropenia * 1/6 (16.67%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 1/6 (16.67%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 0/6 (0.00%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Diarrhoea * 0/6 (0.00%)	Adverse Events	18
+Pyrexia * 0/6 (0.00%)	Adverse Events	19
+Thrombosis in device * 1/6 (16.67%)	Adverse Events	20
+thrombosis	DOID:0060903	0-10
+Fatigue * 0/6 (0.00%)	Adverse Events	21
+fatigue	HP:0012378	0-7
+Mucosal inflammation * 0/6 (0.00%)	Adverse Events	22
+Device deployment issue * 0/6 (0.00%)	Adverse Events	23
+Hepatocellular injury * 0/6 (0.00%)	Adverse Events	24
+Cholecystitis * 0/6 (0.00%)	Adverse Events	25
+cholecystitis	HP:0001082,DOID:1949	0-13

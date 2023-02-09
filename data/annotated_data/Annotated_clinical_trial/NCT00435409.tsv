@@ -1,0 +1,118 @@
+INTERVENTION 1:	Intervention	0
+Sunitinib + Capecitabine	Intervention	1
+sunitinib	CHEBI:38940	0-9
+capecitabine	CHEBI:31348	12-24
+Sunitinib administered orally at a starting dose of 37.5 mg once a day on a continuous regimen. Capecitabine administered orally at a starting dose of 2000 mg/m^2 per day (1000 mg/m^2 BID) from Days 1-14 every 3 weeks.	Intervention	2
+sunitinib	CHEBI:38940	0-9
+day	UO:0000033	67-70
+day	UO:0000033	167-170
+day	UO:0000033	194-197
+capecitabine	CHEBI:31348	96-108
+INTERVENTION 2:	Intervention	3
+Capecitabine	Intervention	4
+capecitabine	CHEBI:31348	0-12
+Capecitabine administered orally at a starting dose of 2500 mg/m^2 per day (1250 mg/m^2 BID) from Days 1-14 every 3 weeks. At the time of progression, participants could have been eligible to crossover to single agent sunitinib, administered orally at a starting dose of 37.5 mg daily continuously.	Intervention	5
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	71-74
+day	UO:0000033	98-101
+time	PATO:0000165	130-134
+sunitinib	CHEBI:38940	218-227
+Inclusion Criteria:	Eligibility	0
+Locally advanced or metastatic disease that can be measured. Patients with bone-only disease are also allowed to enter the study.	Eligibility	1
+disease	DOID:4,OGMS:0000031	31-38
+disease	DOID:4,OGMS:0000031	85-92
+Previous treatment with an anthracycline and a taxane in any setting	Eligibility	2
+anthracycline	CHEBI:48120	27-40
+taxane	CHEBI:36064	47-53
+Progression on first or second line regimen or adjuvant regimen if disease free interval less than 12 months	Eligibility	3
+second	UO:0000010	24-30
+adjuvant	CHEBI:60809	47-55
+disease	DOID:4,OGMS:0000031	67-74
+Exclusion Criteria:	Eligibility	4
+History of inflammatory carcinoma if there is no other measurable disease	Eligibility	5
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	24-33
+disease	DOID:4,OGMS:0000031	66-73
+More than 2 chemotherapy agents in the advanced disease setting	Eligibility	6
+disease	DOID:4,OGMS:0000031	48-55
+Brain metastases	Eligibility	7
+brain	UBERON:0000955	0-5
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS)	Results	1
+Defined as the time from the date of randomization to the date of the first documentation of objective tumor progression or death due to any cause, whichever occurs first. If tumor progression data include more than 1 date, the first date will be used. PFS (in months) will be calculated as (first event date minus randomization date plus 1) divided by 30.4.	Results	2
+time	PATO:0000165	15-19
+death	OAE:0000632	124-129
+Time frame: Baseline until disease progression (up to 3 years from first dose)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	27-34
+Results 1:	Results	4
+Arm/Group Title: Sunitinib + Capecitabine	Results	5
+sunitinib	CHEBI:38940	17-26
+capecitabine	CHEBI:31348	29-41
+Arm/Group Description: Sunitinib administered orally at a starting dose of 37.5 mg once a day on a continuous regimen. Capecitabine administered orally at a starting dose of 2000 mg/m^2 per day (1000 mg/m^2 BID) from Days 1-14 every 3 weeks.	Results	6
+sunitinib	CHEBI:38940	23-32
+day	UO:0000033	90-93
+day	UO:0000033	190-193
+day	UO:0000033	217-220
+capecitabine	CHEBI:31348	119-131
+Overall Number of Participants Analyzed: 221	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  Independent radiology assessment: 5.5        (4.5 to 6.0)	Results	9
+Investigator's assessment: 5.4        (4.4 to 5.8)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Capecitabine	Results	12
+capecitabine	CHEBI:31348	17-29
+Arm/Group Description: Capecitabine administered orally at a starting dose of 2500 mg/m^2 per day (1250 mg/m^2 BID) from Days 1-14 every 3 weeks. At the time of progression, participants could have been eligible to crossover to single agent sunitinib, administered orally at a starting dose of 37.5 mg daily continuously.	Results	13
+capecitabine	CHEBI:31348	23-35
+day	UO:0000033	94-97
+day	UO:0000033	121-124
+time	PATO:0000165	153-157
+sunitinib	CHEBI:38940	241-250
+Overall Number of Participants Analyzed: 221	Results	14
+Median (95% Confidence Interval)	Results	15
+median	BAO:0002174	0-6
+Unit of Measure: months  Independent radiology assessment: 5.9        (5.4 to 7.6)	Results	16
+Investigator's assessment: 5.5        (4.3 to 6.8)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 85/217 (39.17%)	Adverse Events	1
+Anaemia * 7/217 (3.23%)	Adverse Events	2
+Bone marrow failure * 1/217 (0.46%)	Adverse Events	3
+bone marrow	UBERON:0002371	0-11
+Leukopenia * 2/217 (0.92%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 3/217 (1.38%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 7/217 (3.23%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia * 21/217 (0.46%)	Adverse Events	7
+pancytopenia	HP:0001876,DOID:12450	0-12
+Cardiac failure acute * 1/217 (0.46%)	Adverse Events	8
+acute	HP:0011009,PATO:0000389	16-21
+Congestive cardiomyopathy * 0/217 (0.00%)	Adverse Events	9
+cardiomyopathy	HP:0001638,DOID:0050700	11-25
+Pericardial effusion * 1/217 (0.46%)	Adverse Events	10
+pericardial effusion	HP:0001698,DOID:118	0-20
+Supraventricular tachycardia * 0/217 (0.00%)	Adverse Events	11
+supraventricular tachycardia	HP:0004755	0-28
+Adverse Events 2:	Adverse Events	12
+Total: 59/215 (27.44%)	Adverse Events	13
+Anaemia * 1/215 (0.47%)	Adverse Events	14
+Bone marrow failure * 0/215 (0.00%)	Adverse Events	15
+bone marrow	UBERON:0002371	0-11
+Leukopenia * 0/215 (0.00%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 0/215 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 0/215 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia * 20/215 (0.00%)	Adverse Events	19
+pancytopenia	HP:0001876,DOID:12450	0-12
+Cardiac failure acute * 0/215 (0.00%)	Adverse Events	20
+acute	HP:0011009,PATO:0000389	16-21
+Congestive cardiomyopathy * 1/215 (0.47%)	Adverse Events	21
+cardiomyopathy	HP:0001638,DOID:0050700	11-25
+Pericardial effusion * 0/215 (0.00%)	Adverse Events	22
+pericardial effusion	HP:0001698,DOID:118	0-20
+Supraventricular tachycardia * 1/215 (0.47%)	Adverse Events	23
+supraventricular tachycardia	HP:0004755	0-28

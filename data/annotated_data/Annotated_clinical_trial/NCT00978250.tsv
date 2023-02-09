@@ -1,0 +1,214 @@
+INTERVENTION 1:	Intervention	0
+Non-Small Cell Cancer Stratum	Intervention	1
+cancer	DOID:162	15-21
+FdCyd (100 mg/m(2)) + THU (350 mg/m(2)) administered 5 days/week for 2 weeks in 28-day cycles	Intervention	2
+5-Fluoro-2'-Deoxycytidine (FdCyd) + Tetrahydrouridine (THU): FdCyd, a fluoropyrimidine nucleoside analog, has a short (10-minute) half-life and is rapidly degraded in vivo by cytidine deaminase. However, co-administration with THU, an inhibitor of cytidine/deoxycytidine deaminase, has been shown to increase the area under the curve (AUC) of the parent compound more than 4-fold. Increased FdCyd exposure allows it to be taken up intracellularly and converted to its triphosphate, which is incorporated into deoxyribonucleic acid (DNA) and inhibits the action of the enzyme DNA methyltransferase (DNMT). Inhibition of daunomycin DNMT, and in turn DNA methylation, can result in the re-expression of tumor suppressor genes.	Intervention	3
+nucleoside	CHEBI:33838	87-97
+in vivo	BAO:0020009	164-171
+cytidine	CHEBI:17562	17-25
+cytidine	CHEBI:17562	175-183
+cytidine	CHEBI:17562	248-256
+cytidine	CHEBI:17562	262-270
+inhibitor	CHEBI:35222	235-244
+increase	BAO:0001251	300-308
+increase	BAO:0001251	381-389
+area	PATO:0001323	313-317
+auc	BAO:0002120	335-338
+deoxyribonucleic acid	CHEBI:16991	509-530
+dna	BAO:0000269	532-535
+dna	BAO:0000269	575-578
+dna	BAO:0000269	648-651
+enzyme	BAO:0000279	568-574
+inhibition	BAO:0000091	605-615
+dna methylation	GO:0006306	648-663
+result	BAO:0000179	669-675
+INTERVENTION 2:	Intervention	4
+Breast Cancer Stratum	Intervention	5
+breast cancer	DOID:1612	0-13
+FdCyd (100 mg/m(2)) + THU (350 mg/m(2)) administered 5 days/week for 2 weeks in 28-day cycles	Intervention	6
+5-Fluoro-2'-Deoxycytidine (FdCyd) + Tetrahydrouridine (THU): FdCyd, a fluoropyrimidine nucleoside analog, has a short (10-minute) half-life and is rapidly degraded in vivo by cytidine deaminase. However, co-administration with THU, an inhibitor of cytidine/deoxycytidine deaminase, has been shown to increase the area under the curve (AUC) of the parent compound more than 4-fold. Increased FdCyd exposure allows it to be taken up intracellularly and converted to its triphosphate, which is incorporated into deoxyribonucleic acid (DNA) and inhibits the action of the enzyme DNA methyltransferase (DNMT). Inhibition of daunomycin DNMT, and in turn DNA methylation, can result in the re-expression of tumor suppressor genes.	Intervention	7
+nucleoside	CHEBI:33838	87-97
+in vivo	BAO:0020009	164-171
+cytidine	CHEBI:17562	17-25
+cytidine	CHEBI:17562	175-183
+cytidine	CHEBI:17562	248-256
+cytidine	CHEBI:17562	262-270
+inhibitor	CHEBI:35222	235-244
+increase	BAO:0001251	300-308
+increase	BAO:0001251	381-389
+area	PATO:0001323	313-317
+auc	BAO:0002120	335-338
+deoxyribonucleic acid	CHEBI:16991	509-530
+dna	BAO:0000269	532-535
+dna	BAO:0000269	575-578
+dna	BAO:0000269	648-651
+enzyme	BAO:0000279	568-574
+inhibition	BAO:0000091	605-615
+dna methylation	GO:0006306	648-663
+result	BAO:0000179	669-675
+INCLUSION CRITERIA:	Eligibility	0
+Patients must have histologically documented metastatic or unresectable non-small cell lung cancer, head and neck cancer, urothelial transitional cell carcinoma, or breast cancer whose disease has progressed after at least one line of standard therapy.	Eligibility	1
+lung cancer	DOID:1324	87-98
+head and neck cancer	DOID:11934	100-120
+transitional cell carcinoma	DOID:2671	133-160
+breast cancer	DOID:1612	165-178
+disease	DOID:4,OGMS:0000031	185-192
+Patients with solid tumors (non-small cell lung cancer, head and neck cancer, urothelial transitional cell carcinoma, and breast cancer) must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as greater than or equal to 20 mm with conventional techniques or as greater than or equal 10 mm with spiral computed tomography (CT) scan. Patients with the above tumor types whose disease is limited to the skin are eligible at the discretion of the principal investigator (PI) and must have a physical exam with documentation of skin lesion(s) by color photography, including a ruler to estimate the size of the lesion(s).	Eligibility	2
+lung cancer	DOID:1324	43-54
+head and neck cancer	DOID:11934	56-76
+transitional cell carcinoma	DOID:2671	89-116
+breast cancer	DOID:1612	122-135
+disease	DOID:4,OGMS:0000031	158-165
+disease	DOID:4,OGMS:0000031	472-479
+diameter	PATO:0001334	265-273
+tomography	BAO:0002525	408-418
+ct	BAO:0002125	420-422
+color	PATO:0000014	639-644
+size	PATO:0000117	692-696
+Diagnosis of malignancy must be confirmed by the department of pathology at the institution where the patient is enrolled prior to patient enrollment.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	102-109
+patient	HADO:0000008,OAE:0001817	131-138
+Any prior therapy must have been completed greater than or equal to 4 weeks prior to enrollment on protocol and the participant must have recovered to eligibility levels from prior toxicity. Patients should be at least six weeks out from nitrosoureas and mitomycin C. Prior radiation should have been completed greater than or equal to 4 weeks prior to study enrollment and all associated toxicities resolved to eligibility levels. Patients must be greater than or equal to 2 weeks since any investigational agent administered as part of a Phase 0 study (also referred to as an "early Phase I study" or "pre-Phase I study" where a sub-therapeutic dose of drug is administered) at the PI's discretion, and should have recovered to eligibility levels from any toxicities.	Eligibility	4
+mitomycin	CHEBI:25357	255-264
+part of	BAO:0090002,BFO:0000050	530-537
+drug	CHEBI:23888	655-659
+Age greater than or equal to 18 years. Because no dosing or adverse event data are currently available on the use of 5-Fluoro-2'-Deoxycytidine (FdCyd) and Tetrahydrouridine (THU) in patients less than 18 years of age, children are excluded from this study, but may be eligible for future pediatric Phase I combination trials.	Eligibility	5
+age	PATO:0000011	0-3
+age	PATO:0000011	213-216
+adverse event	OAE:0000001	60-73
+excluded	HP:0040285	231-239
+Karnofsky performance status greater than or equal to 60%.	Eligibility	6
+Life expectancy of greater than 3 months.	Eligibility	7
+Patients must have normal organ and marrow function as defined below:	Eligibility	8
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+absolute neutrophil count greater than or equal to 1,500/mcL	Eligibility	9
+platelets greater than or equal to 100,000/mcL	Eligibility	10
+total bilirubin less than 1.5 times institutional upper limit of normal	Eligibility	11
+Aspartate transaminase (AST)(Serum glutamic-oxaloacetic transaminase (SGOT))/Alanine transaminase (ALT)(Serum glutamic pyruvic transaminase (SGPT)) less than or equal to 3 times institutional upper limit of normal; less than or equal to 5 times upper limit of normal (ULN) for patients with liver metastases	Eligibility	12
+aspartate	CHEBI:29995	0-9
+liver	UBERON:0002107	291-296
+creatinine less than 1.5 times institutional upper limit of normal	Eligibility	13
+creatinine	CHEBI:16737	0-10
+OR	Eligibility	14
+creatinine clearance greater than or equal to 60 mL/min for patients with creatinine levels above 1.5 times institutional upper limit of normal.	Eligibility	15
+creatinine clearance	CMO:0000765	0-20
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	74-84
+Because FdCyd has been shown to be teratogenic in animals, pregnant women will be excluded from this trial. Nursing women are also excluded, as there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with FdCyd. Women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) for the duration of study participation, and for 3 months after completion of study. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she or her partner should inform the treating physician immediately.	Eligibility	16
+excluded	HP:0040285	82-90
+excluded	HP:0040285	131-139
+duration	PATO:0001309	418-426
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	17
+document	IAO:0000310	77-85
+Patients should not be receiving any other investigational agents.	Eligibility	18
+EXCLUSION CRITERIA:	Eligibility	19
+Patients with clinically significant illnesses which would compromise participation in the study, including, but not limited to: active or uncontrolled infection, immune deficiencies or confirmed diagnosis of human immunodeficiency virus (HIV) infection, active infection with Hepatitis B or Hepatitis C, uncontrolled diabetes, uncontrolled hypertension, symptomatic congestive heart failure, unstable angina pectoris, myocardial infarction within the past 6 months, uncontrolled cardiac arrhythmia; or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	20
+active	PATO:0002354	129-135
+active	PATO:0002354	255-261
+immunodeficiency	HP:0002721	215-231
+virus	BAO:0000232	232-237
+hepatitis b	DOID:2043	277-288
+hepatitis c	DOID:1883	292-303
+hypertension	HP:0000822,DOID:10763	341-353
+congestive heart failure	HP:0001635,DOID:6000	367-391
+angina pectoris	HP:0001681	402-417
+myocardial infarction	HP:0001658,DOID:5844	419-440
+arrhythmia	HP:0011675	488-498
+History of allergic reactions attributed to fluoropyrimidines (e.g., capecitabine, fluorouracil, fluorodeoxyuridine) or tetrahydrouridine.	Eligibility	21
+history	BFO:0000182	0-7
+capecitabine	CHEBI:31348	69-81
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS)	Results	1
+Progression-free survival (PFS) is defined as the time interval from start of treatment to documented evidence of disease progression. Disease progression was assessed by the Response Evaluation Criteria in Solid Tumors (RECIST) and is at least a 20% increase in the sum of the longest diameter (LD) of target lesions, taking as reference the smallest sum of the LD recorded since the treatment started or the appearance of one or more new lesions.	Results	2
+time	PATO:0000165	50-54
+disease	DOID:4,OGMS:0000031	114-121
+disease	DOID:4,OGMS:0000031	135-142
+increase	BAO:0001251	251-259
+diameter	PATO:0001334	286-294
+target	BAO:0003064	303-309
+Time frame: until subject progressed or went off study for other reasons (up to approximately 1 year)	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	96-100
+Results 1:	Results	4
+Arm/Group Title: Non-Small Cell Cancer Stratum	Results	5
+cancer	DOID:162	32-38
+Arm/Group Description: FdCyd (100 mg/m(2)) + THU (350 mg/m(2)) administered 5 days/week for 2 weeks in 28-day cycles	Results	6
+5-Fluoro-2'-Deoxycytidine (FdCyd) + Tetrahydrouridine (THU): FdCyd, a fluoropyrimidine nucleoside analog, has a short (10-minute) half-life and is rapidly degraded in vivo by cytidine deaminase. However, co-administration with THU, an inhibitor of cytidine/deoxycytidine deaminase, has been shown to increase the area under the curve (AUC) of the parent compound more than 4-fold. Increased FdCyd exposure allows it to be taken up intracellularly and converted to its triphosphate, which is incorporated into deoxyribonucleic acid (DNA) and inhibits the action of the enzyme DNA methyltransferase (DNMT). Inhibition of daunomycin DNMT, and in turn DNA methylation, can result in the re-expression of tumor suppressor genes.	Results	7
+nucleoside	CHEBI:33838	87-97
+in vivo	BAO:0020009	164-171
+cytidine	CHEBI:17562	17-25
+cytidine	CHEBI:17562	175-183
+cytidine	CHEBI:17562	248-256
+cytidine	CHEBI:17562	262-270
+inhibitor	CHEBI:35222	235-244
+increase	BAO:0001251	300-308
+increase	BAO:0001251	381-389
+area	PATO:0001323	313-317
+auc	BAO:0002120	335-338
+deoxyribonucleic acid	CHEBI:16991	509-530
+dna	BAO:0000269	532-535
+dna	BAO:0000269	575-578
+dna	BAO:0000269	648-651
+enzyme	BAO:0000279	568-574
+inhibition	BAO:0000091	605-615
+dna methylation	GO:0006306	648-663
+result	BAO:0000179	669-675
+Overall Number of Participants Analyzed: 25	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: months  2.3        (1.6 to 3.9)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Breast Cancer Stratum	Results	12
+breast cancer	DOID:1612	17-30
+Arm/Group Description: FdCyd (100 mg/m(2)) + THU (350 mg/m(2)) administered 5 days/week for 2 weeks in 28-day cycles	Results	13
+5-Fluoro-2'-Deoxycytidine (FdCyd) + Tetrahydrouridine (THU): FdCyd, a fluoropyrimidine nucleoside analog, has a short (10-minute) half-life and is rapidly degraded in vivo by cytidine deaminase. However, co-administration with THU, an inhibitor of cytidine/deoxycytidine deaminase, has been shown to increase the area under the curve (AUC) of the parent compound more than 4-fold. Increased FdCyd exposure allows it to be taken up intracellularly and converted to its triphosphate, which is incorporated into deoxyribonucleic acid (DNA) and inhibits the action of the enzyme DNA methyltransferase (DNMT). Inhibition of daunomycin DNMT, and in turn DNA methylation, can result in the re-expression of tumor suppressor genes.	Results	14
+nucleoside	CHEBI:33838	87-97
+in vivo	BAO:0020009	164-171
+cytidine	CHEBI:17562	17-25
+cytidine	CHEBI:17562	175-183
+cytidine	CHEBI:17562	248-256
+cytidine	CHEBI:17562	262-270
+inhibitor	CHEBI:35222	235-244
+increase	BAO:0001251	300-308
+increase	BAO:0001251	381-389
+area	PATO:0001323	313-317
+auc	BAO:0002120	335-338
+deoxyribonucleic acid	CHEBI:16991	509-530
+dna	BAO:0000269	532-535
+dna	BAO:0000269	575-578
+dna	BAO:0000269	648-651
+enzyme	BAO:0000279	568-574
+inhibition	BAO:0000091	605-615
+dna methylation	GO:0006306	648-663
+result	BAO:0000179	669-675
+Overall Number of Participants Analyzed: 29	Results	15
+Median (95% Confidence Interval)	Results	16
+median	BAO:0002174	0-6
+Unit of Measure: months  3.7        (1.8 to 5.3)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 38/93 (40.86%)	Adverse Events	1
+Anemia 4/93 (4.30%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia 1/93 (1.08%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation 1/93 (1.08%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 1/93 (1.08%)	Adverse Events	5
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Retinopathy 1/93 (1.08%)	Adverse Events	6
+retinopathy	HP:0000488	0-11
+Abdominal distension 1/93 (1.08%)	Adverse Events	7
+Abdominal pain 6/93 (6.45%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Colitis 1/93 (1.08%)	Adverse Events	9
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 1/93 (1.08%)	Adverse Events	10
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea 4/93 (4.30%)	Adverse Events	11
+diarrhea	HP:0002014,DOID:13250	0-8
+Duodenal ulcer 1/93 (1.08%)	Adverse Events	12
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Dysphagia 4/93 (4.30%)	Adverse Events	13
+dysphagia	HP:0002015	0-9
+Adverse Events 2:	Adverse Events	14

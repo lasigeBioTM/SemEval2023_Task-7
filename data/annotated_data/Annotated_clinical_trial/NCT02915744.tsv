@@ -1,0 +1,175 @@
+INTERVENTION 1:	Intervention	0
+NKTR-102	Intervention	1
+In Group A, NKTR-102 will be administered at a dose level of 145 mg/m2 on a q21d schedule as a 90-minute intravenous (IV) infusion on Day 1 of each treatment cycle.	Intervention	2
+group	CHEBI:24433	3-8
+day	UO:0000033	134-137
+INTERVENTION 2:	Intervention	3
+Treatment of Physician's Choice (TPC)	Intervention	4
+In Group B, TPC will be administered per standard of care. Patients randomized to TPC will receive single-agent IV chemotherapy, limited to choice of one of the following 7 agents: eribulin, ixabepilone, vinorelbine, gemcitabine, paclitaxel, docetaxel, or nab-paclitaxel.	Intervention	5
+group	CHEBI:24433	3-8
+eribulin	CHEBI:63587	181-189
+ixabepilone	CHEBI:63605	191-202
+vinorelbine	CHEBI:480999	204-215
+gemcitabine	CHEBI:175901	217-228
+paclitaxel	CHEBI:45863	230-240
+paclitaxel	CHEBI:45863	260-270
+Inclusion Criteria:	Eligibility	0
+Female or male, age  18 years.	Eligibility	1
+female	PATO:0000383	0-6
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	10-14
+age	PATO:0000011	16-19
+Histologically-confirmed carcinoma of the breast (either the primary or metastatic lesions) for whom single-agent cytotoxic chemotherapy is indicated. Patients may have either measurable or non-measurable disease according to RECIST version 1.1.	Eligibility	2
+carcinoma	HP:0030731,DOID:305	25-34
+breast	UBERON:0000310	42-48
+disease	DOID:4,OGMS:0000031	205-212
+Patients must have a history of brain metastases that are non-progressing.	Eligibility	3
+history	BFO:0000182	21-28
+brain	UBERON:0000955	32-37
+For triple-negative breast cancer, a minimum of 1 prior cytotoxic chemotherapy regimen must have been administered for the indication of metastatic disease.Depending on receptor status, 1 or 2 prior cytotoxic regimens are required prior to enrollment in this trial; hormonal and/or human epidermal growth factor receptor 2 (HER2) -targeted agents may be required.	Eligibility	4
+breast cancer	DOID:1612	20-33
+receptor	BAO:0000281	169-177
+receptor	BAO:0000281	312-320
+growth factor	BAO:0002024	298-311
+Have had prior therapy (administered in the neoadjuvant, adjuvant, and/or metastatic setting) with an anthracycline, a taxane, and capecitabine (prior anthracycline can be omitted if not medically appropriate or contraindicated for the patient).	Eligibility	5
+adjuvant	CHEBI:60809	47-55
+adjuvant	CHEBI:60809	57-65
+anthracycline	CHEBI:48120	102-115
+anthracycline	CHEBI:48120	151-164
+taxane	CHEBI:36064	119-125
+capecitabine	CHEBI:31348	131-143
+patient	HADO:0000008,OAE:0001817	236-243
+Last dose of anticancer therapy must have been administered within 6 months of the date of randomization into this study.	Eligibility	6
+All anticancer- and radiation therapy-related toxicities must be completely resolved or downgraded to Grade 1 or less (neuropathy may be Grade 2 or less).	Eligibility	7
+neuropathy	DOID:870	119-129
+Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.	Eligibility	8
+group	CHEBI:24433	37-42
+Demonstrate adequate organ function obtained within 14 days prior to randomization and analyzed by the central laboratory.	Eligibility	9
+organ	UBERON:0000062	21-26
+function	BAO:0003117,BFO:0000034	27-35
+central	HP:0030645	103-110
+Women of childbearing potential (WCBP) must agree to use highly effective methods of birth control throughout the duration of the study until 6 months following the last dose of study drug.	Eligibility	10
+duration	PATO:0001309	114-122
+drug	CHEBI:23888	184-188
+Males with female partners of child-bearing potential must agree to use a barrier contraception (e.g., condom with spermicidal foam/gel/film/cream/suppository) throughout the duration of the study until 6 months following the last dose of study drug; in addition to their female partner using either an intrauterine device or hormonal contraception and continuing until 6 months following the last dose of study drug. Male patients should not donate sperm until 6 months following the last dose of study drug.	Eligibility	11
+female	PATO:0000383	11-17
+female	PATO:0000383	272-278
+duration	PATO:0001309	175-183
+drug	CHEBI:23888	245-249
+drug	CHEBI:23888	412-416
+drug	CHEBI:23888	504-508
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	13-17
+male	CHEBI:30780,PATO:0000384	274-278
+male	CHEBI:30780,PATO:0000384	418-422
+Exclusion Criteria:	Eligibility	12
+Last dose of anticancer therapy (including HER2-targeted therapy) within 14 days prior to randomization.	Eligibility	13
+High-dose chemotherapy followed by stem cell transplantation (autologous or allogeneic).	Eligibility	14
+Major surgery within 28 days prior to randomization.	Eligibility	15
+surgery	OAE:0000067	6-13
+Concomitant use of any anticancer therapy or use of any investigational agent(s).	Eligibility	16
+Received prior treatment for cancer with a camptothecin-derived agent.	Eligibility	17
+cancer	DOID:162	29-35
+Lesions on imaging, by cerebrospinal fluid or with neurological findings that are consistent with leptomeningeal disease or meningeal carcinomatosis.	Eligibility	18
+cerebrospinal fluid	UBERON:0001359	23-42
+disease	DOID:4,OGMS:0000031	113-120
+Chronic or acute GI disorders resulting in diarrhea of any severity grade.	Eligibility	19
+chronic	HP:0011010	0-7
+acute	HP:0011009,PATO:0000389	11-16
+diarrhea	HP:0002014,DOID:13250	43-51
+severity	HP:0012824	59-67
+Patients who are pregnant or lactating, plan to get pregnant, or have a positive serum pregnancy test prior to randomization.	Eligibility	20
+Enzyme-inducing anti-epileptic drugs (EIAEDs) within 14 days of randomization.	Eligibility	21
+Hepatitis B or C, tuberculosis, or HIV.	Eligibility	22
+hepatitis b	DOID:2043	0-11
+tuberculosis	DOID:399	18-30
+Cirrhosis.	Eligibility	23
+cirrhosis	HP:0001394	0-9
+Prior malignancy (other than breast cancer) unless diagnosed and definitively treated more than 5 years prior to randomization.	Eligibility	24
+breast cancer	DOID:1612	29-42
+Daily use of oxygen supplementation.	Eligibility	25
+Significant known cardiovascular impairment.	Eligibility	26
+Prior treatment with NKTR-102.	Eligibility	27
+Psychiatric illness, social situation, or geographical situation that preclude informed consent or limit compliance.	Eligibility	28
+Known intolerance or hypersensitivity to any of the products used in this study or their excipients.	Eligibility	29
+hypersensitivity	GO:0002524,DOID:1205	21-37
+For patients selecting vinorelbine or gemcitabine as the TPC agent, patients may not receive yellow fever vaccine in the 28 days prior to randomization.	Eligibility	30
+vinorelbine	CHEBI:480999	23-34
+gemcitabine	CHEBI:175901	38-49
+yellow fever	DOID:9682	93-105
+vaccine	VO:0000001	106-113
+Outcome Measurement:	Results	0
+Overall Survival (OS) of Patients	Results	1
+To compare Overall Survival (OS) of patients who receive 145 mg/m2 NKTR-102 given once every 21 days (q21d) with OS of patients who receive Treatment of Physician's Choice (TPC). Overall survival is defined as the time from the date of randomization to the date of death from any cause. Patients will be followed until their date of death or until final database closure. Patients who are lost-to-follow-up or are alive at the time of analysis will be censored at the time they were last known to be alive or at the date of event cut-off for OS analysis.	Results	2
+time	PATO:0000165	214-218
+time	PATO:0000165	427-431
+time	PATO:0000165	468-472
+death	OAE:0000632	265-270
+death	OAE:0000632	333-338
+Time frame: Within 3 years from study start	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: NKTR-102	Results	5
+Arm/Group Description: In Group A, NKTR-102 will be administered at a dose level of 145 mg/m2 on a q21d schedule as a 90-minute intravenous (IV) infusion on Day 1 of each treatment cycle.	Results	6
+group	CHEBI:24433	4-9
+group	CHEBI:24433	26-31
+day	UO:0000033	157-160
+Overall Number of Participants Analyzed: 92	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  7.8        (6.1 to 10.2)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Treatment of Physician's Choice (TPC)	Results	11
+Arm/Group Description: In Group B, TPC will be administered per standard of care. Patients randomized to TPC will receive single-agent IV chemotherapy, limited to choice of one of the following 7 agents: eribulin, ixabepilone, vinorelbine, gemcitabine, paclitaxel, docetaxel, or nab-paclitaxel.	Results	12
+group	CHEBI:24433	4-9
+group	CHEBI:24433	26-31
+eribulin	CHEBI:63587	204-212
+ixabepilone	CHEBI:63605	214-225
+vinorelbine	CHEBI:480999	227-238
+gemcitabine	CHEBI:175901	240-251
+paclitaxel	CHEBI:45863	253-263
+paclitaxel	CHEBI:45863	283-293
+Overall Number of Participants Analyzed: 86	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  7.5        (5.8 to 10.4)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 33/90 (36.67%)	Adverse Events	1
+Febrile Neutropenia Grade 3  0/90 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial Fibrillation Grade 3  1/90 (1.11%)	Adverse Events	3
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac Tamponade Grade 4  0/90 (0.00%)	Adverse Events	4
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Blindness Grade 3  0/90 (0.00%)	Adverse Events	5
+blindness	HP:0000618,DOID:1432	0-9
+Colitis Grade 2  1/90 (1.11%)	Adverse Events	6
+colitis	HP:0002583,DOID:0060180	0-7
+Esophagitis Grade 3  1/90 (1.11%)	Adverse Events	7
+esophagitis	HP:0100633,DOID:11963	0-11
+Vomiting Grade 2  3/90 (3.33%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Diarrhea Grade 3  5/90 (5.56%)	Adverse Events	9
+diarrhea	HP:0002014,DOID:13250	0-8
+Intestinal Obstruction Grade 3  1/90 (1.11%)	Adverse Events	10
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Adverse Events 2:	Adverse Events	11
+Total: 24/77 (31.17%)	Adverse Events	12
+Febrile Neutropenia Grade 3  1/77 (1.30%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial Fibrillation Grade 3  0/77 (0.00%)	Adverse Events	14
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac Tamponade Grade 4  1/77 (1.30%)	Adverse Events	15
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Blindness Grade 3  1/77 (1.30%)	Adverse Events	16
+blindness	HP:0000618,DOID:1432	0-9
+Colitis Grade 2  0/77 (0.00%)	Adverse Events	17
+colitis	HP:0002583,DOID:0060180	0-7
+Esophagitis Grade 3  0/77 (0.00%)	Adverse Events	18
+esophagitis	HP:0100633,DOID:11963	0-11
+Vomiting Grade 2  1/77 (1.30%)	Adverse Events	19
+vomiting	HP:0002013	0-8
+Diarrhea Grade 3  0/77 (0.00%)	Adverse Events	20
+diarrhea	HP:0002014,DOID:13250	0-8
+Intestinal Obstruction Grade 3  0/77 (0.00%)	Adverse Events	21
+intestinal obstruction	HP:0005214,DOID:8437	0-22

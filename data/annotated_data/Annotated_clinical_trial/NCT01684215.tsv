@@ -1,0 +1,168 @@
+INTERVENTION 1:	Intervention	0
+PD-0332991 100 mg: Dose Escalation Cohort	Intervention	1
+In Phase 1-Part 1, participants received single oral dose of PD-0332991 100 mg capsule in lead-in period (7 days prior to Cycle 1 Day 1), followed by PD-0332991 100 mg capsule orally once daily continuously for 21 days followed by 7 days off treatment in each cycle of 28 days, unless participants experienced disease progression or unacceptable toxicity or withdrew consent.	Intervention	2
+capsule	GO:0042603	79-86
+capsule	GO:0042603	168-175
+day	UO:0000033	108-111
+day	UO:0000033	130-133
+day	UO:0000033	214-217
+day	UO:0000033	233-236
+day	UO:0000033	272-275
+disease	DOID:4,OGMS:0000031	310-317
+INTERVENTION 2:	Intervention	3
+PD-0332991 125 mg: Dose Escalation Cohort	Intervention	4
+In Phase 1-Part 1, participants received single oral dose of PD-0332991 125 mg capsule in lead-in period (7 days prior to Cycle 1 Day 1), followed by PD-0332991 125 mg capsule orally once daily continuously for 21 days followed by 7 days off treatment in each cycle of 28 days, unless participants experienced disease progression or unacceptable toxicity or withdrew consent.	Intervention	5
+capsule	GO:0042603	79-86
+capsule	GO:0042603	168-175
+day	UO:0000033	108-111
+day	UO:0000033	130-133
+day	UO:0000033	214-217
+day	UO:0000033	233-236
+day	UO:0000033	272-275
+disease	DOID:4,OGMS:0000031	310-317
+Inclusion Criteria:	Eligibility	0
+Phase 1	Eligibility	1
+In Part 1, advanced solid tumor (except SCLC or retinoblastoma) proven histologically or cytologically at original diagnosis, that is refractory to standard therapy or for whom no standard of care therapy is available.	Eligibility	2
+retinoblastoma	HP:0009919,DOID:768	48-62
+refractory	HP:0031375	134-144
+In Part 2 and Phase 2, post menopausal women with proven diagnosis of ER-positive, HER2-negative adenocarcinoma of the breast with evidence of locoregionally recurrent or metastatic disease (including bone only disease) not amenable to resection or radiation therapy with curative intent and for whom chemotherapy is not clinically indicated.	Eligibility	3
+adenocarcinoma	DOID:299	97-111
+breast	UBERON:0000310	119-125
+recurrent	HP:0031796	158-167
+disease	DOID:4,OGMS:0000031	182-189
+disease	DOID:4,OGMS:0000031	211-218
+Adequate blood cell counts, kidney function and liver function and and Eastern Cooperative Oncology Group [ECOG] score of 0 or 1.	Eligibility	4
+blood	UBERON:0000178	9-14
+kidney	UBERON:0002113	28-34
+function	BAO:0003117,BFO:0000034	35-43
+function	BAO:0003117,BFO:0000034	54-62
+liver	UBERON:0002107	48-53
+group	CHEBI:24433	100-105
+Resolved acute effects of any prior therapy to baseline severity or Grade 1	Eligibility	5
+acute	HP:0011009,PATO:0000389	9-14
+severity	HP:0012824	56-64
+Phase 2	Eligibility	6
+Adult women ( 20 years of age) with proven diagnosis of adenocarcinoma of the breast with evidence of locoregionally recurrent or metastatic disease not amenable to resection or radiation therapy with curative intent and for whom chemotherapy is not clinically indicated.	Eligibility	7
+adult	EFO:0001272	0-5
+age	PATO:0000011	26-29
+adenocarcinoma	DOID:299	56-70
+breast	UBERON:0000310	78-84
+recurrent	HP:0031796	117-126
+disease	DOID:4,OGMS:0000031	141-148
+Documentation of histologically or cytologically confirmed diagnosis of ER(+) breast cancer based on local laboratory results.	Eligibility	8
+breast cancer	DOID:1612	78-91
+Adequate blood cell counts, kidney function and liver function and and Eastern Cooperative Oncology Group [ECOG] score of 0 to 2.	Eligibility	9
+blood	UBERON:0000178	9-14
+kidney	UBERON:0002113	28-34
+function	BAO:0003117,BFO:0000034	35-43
+function	BAO:0003117,BFO:0000034	54-62
+liver	UBERON:0002107	48-53
+group	CHEBI:24433	100-105
+Exclusion Criteria:	Eligibility	10
+Phase 1	Eligibility	11
+Active uncontrolled or symptomatic CNS metastases.	Eligibility	12
+active	PATO:0002354	0-6
+Uncontrolled infection, unstable or sever intercurrent medical condition, or current drug or alcohol abuse	Eligibility	13
+condition	PDRO:0000129	63-72
+drug	CHEBI:23888	85-89
+alcohol	CHEBI:16236	93-100
+Active or unstable cardiac disease or history of heart attack within 6 months	Eligibility	14
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	27-34
+history	BFO:0000182	38-45
+heart	UBERON:0000948	49-54
+Phase 2	Eligibility	15
+HER2 positive tumor based on local laboratory results utilizing one of the sponsor approved assays.	Eligibility	16
+Known active uncontrolled or symptomatic CNS metastases, carcinomatous meningitis, or leptomeningeal disease.	Eligibility	17
+active	PATO:0002354	6-12
+meningitis	HP:0001287,DOID:9471	71-81
+disease	DOID:4,OGMS:0000031	101-108
+Prior neoadjuvant or adjuvant treatment with a non steroidal aromatase inhibitor (ie, anastrozole or letrozole) with disease recurrence while on or within 12 months of completing treatment.	Eligibility	18
+adjuvant	CHEBI:60809	9-17
+adjuvant	CHEBI:60809	21-29
+inhibitor	CHEBI:35222	71-80
+anastrozole	CHEBI:2704	86-97
+letrozole	CHEBI:6413	101-110
+disease	DOID:4,OGMS:0000031	117-124
+Outcome Measurement:	Results	0
+Number of Participants With Dose Limiting Toxicities (DLT): Part 1 Phase 1	Results	1
+DLT was classified as per common terminology criteria for adverse events (CTCAE) version 4.0 as any of the events occurring during 28 days of Cycle 1,attributed to study drug:grade 4 neutropenia(for a duration of greater than [>]7 days); febrile neutropenia (grade greater than or equal to [>=]3 neutropenia,body temperature >=38.5 degree Celsius);grade >=3 thrombocytopenia with bleeding episode;grade 4 thrombocytopenia;grade >=3 non-hematologic toxicity except grade 3 or more nausea, vomiting,electrolyte abnormality(if controllable by therapy);grade 3 QTc prolongation(>500 millisecond [msec])persist after correction of reversible cause such as electrolyte abnormalities or hypoxia. Lack of hematologic recovery (platelets less than [<]50,000/microliter [mcL],absolute neutrophil count <1,000/mcL,hemoglobin <8.0 gram/deciliter [g/dL]) or prolonged non hematologic toxicities that delays initiation of next dose by >7 days;receipt of <75 percent of planned dose in first cycle due to toxicity.	Results	2
+drug	CHEBI:23888	170-174
+neutropenia	HP:0001875,DOID:1227	183-194
+neutropenia	HP:0001875,DOID:1227	246-257
+neutropenia	HP:0001875,DOID:1227	296-307
+duration	PATO:0001309	201-209
+body temperature	CMO:0000015	308-324
+degree celsius	UO:0000027	332-346
+thrombocytopenia	HP:0001873,DOID:1588	358-374
+thrombocytopenia	HP:0001873,DOID:1588	405-421
+nausea	HP:0002018	480-486
+vomiting	HP:0002013	488-496
+millisecond	UO:0000028	579-590
+hemoglobin	CHEBI:35143	803-813
+prolonged	HP:0025297	845-854
+percent	UO:0000187	944-951
+Time frame: Lead-in period (Day -7) up to Day 28 (Cycle 1)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	28-31
+day	UO:0000033	42-45
+Results 1:	Results	4
+Arm/Group Title: PD-0332991 100 mg: Dose Escalation Cohort	Results	5
+Arm/Group Description: In Phase 1-Part 1, participants received single oral dose of PD-0332991 100 mg capsule in lead-in period (7 days prior to Cycle 1 Day 1), followed by PD-0332991 100 mg capsule orally once daily continuously for 21 days followed by 7 days off treatment in each cycle of 28 days, unless participants experienced disease progression or unacceptable toxicity or withdrew consent.	Results	6
+capsule	GO:0042603	102-109
+capsule	GO:0042603	191-198
+day	UO:0000033	131-134
+day	UO:0000033	153-156
+day	UO:0000033	237-240
+day	UO:0000033	256-259
+day	UO:0000033	295-298
+disease	DOID:4,OGMS:0000031	333-340
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  1  16.7%	Results	9
+Results 2:	Results	10
+Arm/Group Title: PD-0332991 125 mg: Dose Escalation Cohort	Results	11
+Arm/Group Description: In Phase 1-Part 1, participants received single oral dose of PD-0332991 125 mg capsule in lead-in period (7 days prior to Cycle 1 Day 1), followed by PD-0332991 125 mg capsule orally once daily continuously for 21 days followed by 7 days off treatment in each cycle of 28 days, unless participants experienced disease progression or unacceptable toxicity or withdrew consent.	Results	12
+capsule	GO:0042603	102-109
+capsule	GO:0042603	191-198
+day	UO:0000033	131-134
+day	UO:0000033	153-156
+day	UO:0000033	237-240
+day	UO:0000033	256-259
+day	UO:0000033	295-298
+disease	DOID:4,OGMS:0000031	333-340
+Overall Number of Participants Analyzed: 6	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  1  16.7%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/6 (0.00%)	Adverse Events	1
+Febrile Neutropenia * [1]0/6 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Supraventricular tachycardia * [1]0/6 (0.00%)	Adverse Events	3
+supraventricular tachycardia	HP:0004755	0-28
+Gastrointestinal perforation * [1]0/6 (0.00%)	Adverse Events	4
+Vomiting * [1]0/6 (0.00%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Malaise * [1]0/6 (0.00%)	Adverse Events	6
+malaise	HP:0033834	0-7
+Osteoarthritis * [1]0/6 (0.00%)	Adverse Events	7
+osteoarthritis	HP:0002758,DOID:8398	0-14
+Cerebral Haemorrhage * [1]0/6 (0.00%)	Adverse Events	8
+Dizziness * [1]0/6 (0.00%)	Adverse Events	9
+Subarachnoid Haemorrhage * [1]0/6 (0.00%)	Adverse Events	10
+Adverse Events 2:	Adverse Events	11
+Total: 0/6 (0.00%)	Adverse Events	12
+Febrile Neutropenia * [1]0/6 (0.00%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	8-19
+Supraventricular tachycardia * [1]0/6 (0.00%)	Adverse Events	14
+supraventricular tachycardia	HP:0004755	0-28
+Gastrointestinal perforation * [1]0/6 (0.00%)	Adverse Events	15
+Vomiting * [1]0/6 (0.00%)	Adverse Events	16
+vomiting	HP:0002013	0-8
+Malaise * [1]0/6 (0.00%)	Adverse Events	17
+malaise	HP:0033834	0-7
+Osteoarthritis * [1]0/6 (0.00%)	Adverse Events	18
+osteoarthritis	HP:0002758,DOID:8398	0-14
+Cerebral Haemorrhage * [1]0/6 (0.00%)	Adverse Events	19
+Dizziness * [1]0/6 (0.00%)	Adverse Events	20
+Subarachnoid Haemorrhage * [1]0/6 (0.00%)	Adverse Events	21

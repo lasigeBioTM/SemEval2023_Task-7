@@ -1,0 +1,66 @@
+INTERVENTION 1:	Intervention	0
+Effect of Bright Light	Intervention	1
+Effect of bright light on fatigue in women with breast cancer	Intervention	2
+fatigue	HP:0012378	26-33
+breast cancer	DOID:1612	48-61
+INTERVENTION 2:	Intervention	3
+Effect of Red Light	Intervention	4
+effect of red light on fatigue in women with breast cancer	Intervention	5
+fatigue	HP:0012378	23-30
+breast cancer	DOID:1612	45-58
+Inclusion Criteria:	Eligibility	0
+stage I-III breast cancer	Eligibility	1
+breast cancer	DOID:1612	12-25
+adjuvant or neoadjuvant anthracycline-based chemotherapy	Eligibility	2
+adjuvant	CHEBI:60809	0-8
+adjuvant	CHEBI:60809	15-23
+Exclusion Criteria:	Eligibility	3
+under age 18	Eligibility	4
+age	PATO:0000011	6-9
+pregnancy	Eligibility	5
+metastatic or inoperable (including inflammatory) breast cancer	Eligibility	6
+breast cancer	DOID:1612	50-63
+confounding underlying medical illnesses	Eligibility	7
+history of mania	Eligibility	8
+history	BFO:0000182	0-7
+mania	HP:0100754	11-16
+history of other axis-I psychiatric disorder	Eligibility	9
+history	BFO:0000182	0-7
+disorder	OGMS:0000045	36-44
+other physical or psychological impairments -	Eligibility	10
+Outcome Measurement:	Results	0
+Fatigue	Results	1
+fatigue	HP:0012378	0-7
+The Short Form of the Multidimensional Fatigue Symptom Inventory (MFSI-sf) was used to measure fatigue. The range of possible score for each subscale is 0 to 24, and the range for total score is -24 to 96, with a higher score indicating more severe fatigue, except for the Vigor subscale, where larger score indicates less fatigue.	Results	2
+fatigue	HP:0012378	39-46
+fatigue	HP:0012378	95-102
+fatigue	HP:0012378	249-256
+fatigue	HP:0012378	323-330
+symptom	OGMS:0000020	47-54
+range	LABO:0000114	108-113
+range	LABO:0000114	170-175
+severe	HP:0012828	242-248
+Time frame: four cycles of chemotherapy	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Effect of Bright Light	Results	5
+Arm/Group Description: Effect of bright light on fatigue in women with breast cancer	Results	6
+fatigue	HP:0012378	49-56
+breast cancer	DOID:1612	71-84
+Overall Number of Participants Analyzed: 23	Results	7
+Mean (Standard Error)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: units on a scale  15.25         (5.5)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Effect of Red Light	Results	11
+Arm/Group Description: effect of red light on fatigue in women with breast cancer	Results	12
+fatigue	HP:0012378	46-53
+breast cancer	DOID:1612	68-81
+Overall Number of Participants Analyzed: 16	Results	13
+Mean (Standard Error)	Results	14
+mean	BAO:0002173	0-4
+Unit of Measure: units on a scale  21.6         (7.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/23 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/16 (0.00%)	Adverse Events	3

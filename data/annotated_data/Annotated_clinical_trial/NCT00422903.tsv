@@ -1,0 +1,131 @@
+INTERVENTION 1:	Intervention	0
+Letrozole + Placebo	Intervention	1
+letrozole	CHEBI:6413	0-9
+Letrozole tablets in the dose of 2.5 milligrams (mg) plus matching placebo were administered orally once daily for 6 months prior to surgery.	Intervention	2
+letrozole	CHEBI:6413	0-9
+surgery	OAE:0000067	133-140
+INTERVENTION 2:	Intervention	3
+Letrozole + Lapatinib	Intervention	4
+letrozole	CHEBI:6413	0-9
+lapatinib	CHEBI:49603	12-21
+Letrozole tablets in the dose of 2.5 mg plus lapatinib ditosylate monohydrate tablets in the dose of 1500 mg were administered orally once daily for 6 months prior to surgery.	Intervention	5
+letrozole	CHEBI:6413	0-9
+lapatinib	CHEBI:49603	45-54
+surgery	OAE:0000067	167-174
+Inclusion criteria:	Eligibility	0
+Histologically confirmed infiltrating primary breast cancer of 2.0 cm or more in largest clinical diameter	Eligibility	1
+breast cancer	DOID:1612	46-59
+diameter	PATO:0001334	98-106
+ER and/or PgR positive cancer (> 10% of positive cancer cell assessed by IHC)	Eligibility	2
+cancer	DOID:162	23-29
+cancer	DOID:162	49-55
+Postmenopausal status, defined by at least one of the following:	Eligibility	3
+60 years of age < 60 years of age and amenorrheic for  12 months prior to day 1 < 60 years of age and amenorrheic for < 12 months prior to day, or without a uterus: luteinizing hormone (LH) and follicle stimulating hormone (FSH) values within postmenopausal range Prior bilateral oophorectomy Prior radiation castration with amenorrhea for at least 6 months	Eligibility	4
+age	PATO:0000011	12-15
+age	PATO:0000011	30-33
+age	PATO:0000011	94-97
+day	UO:0000033	74-77
+day	UO:0000033	139-142
+uterus	UBERON:0000995	157-163
+luteinizing hormone	CHEBI:81568	165-184
+follicle stimulating hormone	CHEBI:81569	194-222
+range	LABO:0000114	258-263
+bilateral	HP:0012832	270-279
+amenorrhea	HP:0000141,DOID:13938	325-335
+HER2 negative tumors (IHC 0-2+, or FISH negative)	Eligibility	5
+Availability of tumor tissue suitable for biological and molecular examination before starting primary treatment	Eligibility	6
+tissue	UBERON:0000479	22-28
+Age over 18 years	Eligibility	7
+age	PATO:0000011	0-3
+ECOG PS 0-1	Eligibility	8
+Normal organ and marrow function as defined below:	Eligibility	9
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	24-32
+leukocytes > 3000/mL absolute neutrophil count > 1,500/mL platelets > 100,000/mL total bilirubin within normal institutional limits AST (SGOT)/ALT(SGPT)< 2.5 X institutional upper limit of normal Creatinine within normal institutional limits	Eligibility	10
+x	LABO:0000148	158-159
+creatinine	CHEBI:16737	196-206
+Cardiac ejection fraction within the institutional range of normal as measured by echocardiogram or MUGA scan.	Eligibility	11
+ejection fraction	CMO:0000180	8-25
+range	LABO:0000114	51-56
+Eligibility of patients receiving medications or substances known to affect, or with the potential to affect the activity or pharmacokinetics of lapatinib will be determined following review of their use by the Principal Investigator.	Eligibility	12
+lapatinib	CHEBI:49603	145-154
+A list of medications and substances known or with the potential to interact with CYP450 isoenzymes is provided	Eligibility	13
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	14
+document	IAO:0000310	77-85
+Ability to swallow and retain oral medication.	Eligibility	15
+Exclusion criteria:	Eligibility	16
+Stage IIIB, IIIC, and inflammatory breast cancer	Eligibility	17
+breast cancer	DOID:1612	35-48
+Stage IV breast cancer	Eligibility	18
+breast cancer	DOID:1612	9-22
+Contraindication to the treatment with letrozole	Eligibility	19
+contraindication	OAE:0000055	0-16
+letrozole	CHEBI:6413	39-48
+Prior treatment with chemotherapy, endocrine therapy or radiotherapy. Prior treatment with EGFR targeting therapies	Eligibility	20
+radiotherapy	OAE:0000235	56-68
+Treatment with any other investigational agents, or with all herbal (alternative) medicines	Eligibility	21
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to lapatinib	Eligibility	22
+history	BFO:0000182	0-7
+lapatinib	CHEBI:49603	101-110
+Uncontrolled inter-current illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	23
+active	PATO:0002354	77-83
+congestive heart failure	HP:0001635,DOID:6000	107-131
+angina pectoris	HP:0001681	142-157
+arrhythmia	HP:0011675	167-177
+HIV-positive patients receiving combination anti-retroviral therapy	Eligibility	24
+GI tract disease resulting in an inability to take oral medication, malabsorption syndrome, a requirement for IV alimentation, prior surgical procedures affecting absorption, uncontrolled inflammatory GI disease (e.g., Crohn's, ulcerative colitis)	Eligibility	25
+disease	DOID:4,OGMS:0000031	9-16
+disease	DOID:4,OGMS:0000031	204-211
+malabsorption	HP:0002024	68-81
+syndrome	DOID:225	82-90
+ulcerative colitis	HP:0100279,DOID:8577	228-246
+Concomitant requirement for medication classified as CYP3A4 inducers or inhibitors (See section 3.7.4.2 Other concomitant treatments)	Eligibility	26
+Outcome Measurement:	Results	0
+Percentage of Participants With Clinical Objective Response (cOR) in the Breast, Evaluated by an Independent Radiological Evaluation Monitoring Committee	Results	1
+breast	UBERON:0000310	73-79
+cOR is defined as the documented evidence of complete response (CR) and partial response (PR) as assessed by ultrasound examination using Response Evaluation Criteria In Solid Tumors (RECIST). CR is defined as the disappearance of all target lesions (TLs) and non-TLs and the appearance of no new lesions (NLs). PR for TLs is defined as a >=30% decrease in the sum of the longest diameter (LD) of TLs, taking as a reference the Baseline sum LD. For non-TLs, it is defined as the persistence of >=1 non-TL and no new TLs or non-TLs.	Results	2
+target	BAO:0003064	235-241
+diameter	PATO:0001334	380-388
+Time frame: From Baseline (Day 1) up to 6 months, evaluated every 12 weeks	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	27-30
+Results 1:	Results	4
+Arm/Group Title: Letrozole + Placebo	Results	5
+letrozole	CHEBI:6413	17-26
+Arm/Group Description: Letrozole tablets in the dose of 2.5 milligrams (mg) plus matching placebo were administered orally once daily for 6 months prior to surgery.	Results	6
+letrozole	CHEBI:6413	23-32
+surgery	OAE:0000067	156-163
+Overall Number of Participants Analyzed: 48	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  CR: 2	Results	9
+PR: 58	Results	10
+Results 2:	Results	11
+Arm/Group Title: Letrozole + Lapatinib	Results	12
+letrozole	CHEBI:6413	17-26
+lapatinib	CHEBI:49603	29-38
+Arm/Group Description: Letrozole tablets in the dose of 2.5 mg plus lapatinib ditosylate monohydrate tablets in the dose of 1500 mg were administered orally once daily for 6 months prior to surgery.	Results	13
+letrozole	CHEBI:6413	23-32
+lapatinib	CHEBI:49603	68-77
+surgery	OAE:0000067	190-197
+Overall Number of Participants Analyzed: 41	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: percentage of participants  CR: 12	Results	16
+PR: 54	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 1/49 (2.04%)	Adverse Events	1
+Myocardial infarction 1/49 (2.04%)	Adverse Events	2
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Cardiac failure 0/49 (0.00%)	Adverse Events	3
+Sphincter of Oddi dysfunction 0/49 (0.00%)	Adverse Events	4
+Overdose 0/49 (0.00%)	Adverse Events	5
+Spinal cord compression 0/49 (0.00%)	Adverse Events	6
+spinal cord compression	HP:0002176	0-23
+Adverse Events 2:	Adverse Events	7
+Total: 3/43 (6.98%)	Adverse Events	8
+Myocardial infarction 0/43 (0.00%)	Adverse Events	9
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Cardiac failure 1/43 (2.33%)	Adverse Events	10
+Sphincter of Oddi dysfunction 1/43 (2.33%)	Adverse Events	11
+Overdose 1/43 (2.33%)	Adverse Events	12
+Spinal cord compression 1/43 (2.33%)	Adverse Events	13
+spinal cord compression	HP:0002176	0-23

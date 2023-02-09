@@ -1,0 +1,73 @@
+INTERVENTION 1:	Intervention	0
+Arm Compression Only	Intervention	1
+[Not Specified]	Intervention	2
+INTERVENTION 2:	Intervention	3
+Arm, Trunck and Chest Compression	Intervention	4
+chest	UBERON:0001443	16-21
+[Not Specified]	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Individuals at least six months post- surgery and/or radiation treatment for breast cancer	Eligibility	1
+surgery	OAE:0000067	38-45
+breast cancer	DOID:1612	77-90
+At least 21 years of age	Eligibility	2
+age	PATO:0000011	21-24
+Lymphedema in one arm subsequent to breast cancer treatment with coexisting truncal swelling ** (Part One) and *lymphedema in one arm subsequent to breast cancer treatment without coexisting truncal swelling (Part Two)	Eligibility	3
+lymphedema	HP:0001004,DOID:4977	0-10
+lymphedema	HP:0001004,DOID:4977	112-122
+breast cancer	DOID:1612	36-49
+breast cancer	DOID:1612	148-161
+Willing and able to drive to the study site as needed	Eligibility	4
+site	BFO:0000029	39-43
+Currently not using a compression pump or undergoing manual lymphatic drainage by a therapist	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Actively undergoing or less than six months post intravenous chemotherapy or radiation therapy	Eligibility	7
+Individuals with congestive heart failure, chronic/acute renal disease, cor pulmonal, nephrotic syndrome, nephrosis, liver failure or cirrhosis, pulmonary edema, thrombophlebitis, deep vein thrombosis, infection of any kind and inflammation (redness) in the trunk or arms	Eligibility	8
+congestive heart failure	HP:0001635,DOID:6000	17-41
+disease	DOID:4,OGMS:0000031	63-70
+nephrotic syndrome	HP:0000100,DOID:1184	86-104
+nephrosis	DOID:2527	106-115
+liver	UBERON:0002107	117-122
+cirrhosis	HP:0001394	134-143
+pulmonary edema	HP:0100598,DOID:11396	145-160
+thrombophlebitis	HP:0004418,DOID:3875	162-178
+vein	UBERON:0001638	185-189
+thrombosis	DOID:0060903	190-200
+trunk	GO:0043198,UBERON:0002100	258-263
+History of bilateral breast cancer	Eligibility	9
+history	BFO:0000182	0-7
+bilateral breast cancer	DOID:6741	11-34
+Metastatic cancer	Eligibility	10
+cancer	DOID:162	11-17
+Inability to stand upright	Eligibility	11
+Metal implants that would interfere with bioimpedance measurement equipment	Eligibility	12
+bioimpedance	CMO:0000126	41-53
+Pregnancy	Eligibility	13
+Pacemaker and internally implanted defibrillators	Eligibility	14
+Outcome Measurement:	Results	0
+Arm Volume at End of Study	Results	1
+volume	PATO:0000918	4-10
+measured by tape and then volume was calculated.	Results	2
+volume	PATO:0000918	26-32
+Time frame: end of scheduled treatments-day 30 of treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm Compression Only	Results	5
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 21	Results	7
+Median (Inter-Quartile Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: ml  2376.52        (1934.68 to 2622.99)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm, Trunck and Chest Compression	Results	11
+chest	UBERON:0001443	33-38
+Arm/Group Description: [Not Specified]	Results	12
+Overall Number of Participants Analyzed: 21	Results	13
+Median (Inter-Quartile Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: ml  2539.93        (2168.28 to 3295.97)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/21 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/21 (0.00%)	Adverse Events	3

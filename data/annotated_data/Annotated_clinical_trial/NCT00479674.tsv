@@ -1,0 +1,175 @@
+INTERVENTION 1:	Intervention	0
+Abraxane, Carboplatin, Bevacizumab	Intervention	1
+carboplatin	CHEBI:31355	10-21
+Abraxane 100 mg/m2 IV over 30 min days 1,8,15.; Carboplatin AUC=2 IV over 15 min days 1,8,15., Bevacizumab 10 mg/kg IV days 1,15	Intervention	2
+carboplatin	CHEBI:31355	48-59
+Abraxane: 100 mg/m2 IV over 30 min days 1,8,15. Cycles Repeated Every 28 days until documented evidence of disease progression by RECIST criteria, intolerable toxicity, or death..	Intervention	3
+disease	DOID:4,OGMS:0000031	107-114
+death	OAE:0000632	172-177
+Bevacizumab: 10 mg/kg IV days 1,15 Cycles Repeated Every 28 days until documented evidence of disease progression by RECIST criteria,intolerable toxicity, or death.	Intervention	4
+disease	DOID:4,OGMS:0000031	94-101
+death	OAE:0000632	158-163
+Carboplatin: area under curve (AUC)=2 IV over 15 min days 1,8,15. Cycles Repeated Every 28 days until documented evidence of disease progression by RECIST criteria, intolerable toxicity, or death.	Intervention	5
+carboplatin	CHEBI:31355	0-11
+area	PATO:0001323	13-17
+auc	BAO:0002120	31-34
+disease	DOID:4,OGMS:0000031	125-132
+death	OAE:0000632	190-195
+Inclusion Criteria:	Eligibility	0
+Tissue block containing tumor to confirm metastatic breast cancer is required;	Eligibility	1
+tissue	UBERON:0000479	0-6
+breast cancer	DOID:1612	52-65
+Measurable disease according to RECIST criteria	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+"Triple negative" disease defined as tumor demonstrating no expression for estrogen, progesterone or human epidermal growth factor receptor 2(HER2)receptors. "No expression" is categorized as  10% of cells staining or Allred  2;	Eligibility	3
+disease	DOID:4,OGMS:0000031	18-25
+estrogen	CHEBI:50114,BAO:0000760	75-83
+progesterone	CHEBI:17026	85-97
+growth factor	BAO:0002024	117-130
+receptor	BAO:0000281	131-139
+receptor	BAO:0000281	147-155
+Aged 18 years or older;	Eligibility	4
+Eastern Cooperative Oncology Group (ECOG)/Zubrod performance status of 0 or 1; life expectancy  3 months;	Eligibility	5
+group	CHEBI:24433	29-34
+Patients may have received 0 - 1 prior therapies (except taxanes in the metastatic setting). An interval of at least 1 week must have elapsed since prior chemotherapy or hormonal therapy for metastatic disease; at least 6 months must have elapsed since prior adjuvant therapy;	Eligibility	6
+week	UO:0000034	119-123
+disease	DOID:4,OGMS:0000031	202-209
+adjuvant	CHEBI:60809	259-267
+2 weeks between surgery and study enrollment ( 4 weeks between major surgery (defined as open abdominal/thoracic/cardiac) and study enrollment;	Eligibility	7
+surgery	OAE:0000067	16-23
+surgery	OAE:0000067	69-76
+Laboratory tests performed within 14 days of study entry:	Eligibility	8
+Granulocytes  1,500/µL;	Eligibility	9
+Platelets  100,000/µL;	Eligibility	10
+Hemoglobin  9 gm/dL;	Eligibility	11
+hemoglobin	CHEBI:35143	0-10
+Total bilirubin  institutional upper limit of normal (ULN);	Eligibility	12
+Aspartate transaminase (AST) and alanine aminotransferase (ALT)  5 times ULN;	Eligibility	13
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	33-40
+Alkaline phosphatase  2.5 times ULN;	Eligibility	14
+phosphatase	GO:0016791,BAO:0000295	9-20
+Estimated creatinine clearance  60 mL/min.	Eligibility	15
+creatinine clearance	CMO:0000765	10-30
+left ventricular ejection fraction (LVEF) 50% by multigated acquisition (MUGA)/Echocardiogram;	Eligibility	16
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Informed consent to receive protocol treatment, to provide biologic specimens, and to complete neurotoxicity questionnaires;	Eligibility	17
+Cognitive and communication skills to comply with study and/or follow-up procedures;	Eligibility	18
+No reproductive potential:	Eligibility	19
+If pre-menopausal: Negative serum pregnancy test and patient agreement to use adequate contraceptive method (abstinence, intrauterine device, barrier device with spermicide or surgical sterilization) during and for 3 months after completion of treatment.	Eligibility	20
+patient	HADO:0000008,OAE:0001817	53-60
+If post-menopausal: Amenorrhea for  12 months.	Eligibility	21
+amenorrhea	HP:0000141,DOID:13938	20-30
+Exclusion Criteria:	Eligibility	22
+Pregnant or breast feeding;	Eligibility	23
+breast	UBERON:0000310	12-18
+Prior treatment with Abraxane®, carboplatin or bevacizumab, or any taxane for metastatic breast cancer;	Eligibility	24
+carboplatin	CHEBI:31355	32-43
+taxane	CHEBI:36064	67-73
+breast cancer	DOID:1612	89-102
+Known hypersensitivity to any component of any study drug;	Eligibility	25
+hypersensitivity	GO:0002524,DOID:1205	6-22
+drug	CHEBI:23888	53-57
+Active infection;	Eligibility	26
+active	PATO:0002354	0-6
+Current neuropathy  grade 2;	Eligibility	27
+neuropathy	DOID:870	8-18
+central nervous system (CNS) metastases as determined by head CT with contrast;	Eligibility	28
+central nervous system	UBERON:0001017	0-22
+head	UBERON:0000033	57-61
+ct	BAO:0002125	62-64
+History of bleeding within the past 6 months or active bleeding disorder;	Eligibility	29
+history	BFO:0000182	0-7
+active	PATO:0002354	48-54
+disorder	OGMS:0000045	64-72
+Serious non-healing wound, ulcer or bone fracture;	Eligibility	30
+ulcer	OAE:0004372	27-32
+bone fracture	HP:0020110	36-49
+Uncontrolled congestive heart failure (CHF), or history of myocardial infarction(MI), unstable angina, stroke, or transient ischemia within previous 6 months;	Eligibility	31
+congestive heart failure	HP:0001635,DOID:6000	13-37
+history	BFO:0000182	48-55
+myocardial infarction	HP:0001658,DOID:5844	59-80
+stroke	HP:0001297,DOID:6713	103-109
+transient	HP:0025153	114-123
+ischemia	DOID:326	124-132
+Inadequately controlled hypertension (defined as systolic blood pressure < 150 and/or diastolic blood pressure > 100 mmHg on antihypertensive medications; prior history of hypertensive crisis or hypertensive encephalopathy;	Eligibility	32
+hypertension	HP:0000822,DOID:10763	24-36
+systolic blood pressure	CMO:0000004	49-72
+diastolic blood pressure	CMO:0000005	86-110
+history	BFO:0000182	161-168
+hypertensive crisis	HP:0100735	172-191
+hypertensive encephalopathy	DOID:9427	195-222
+Proteinuria (defined as urine protein: creatinine (UPC) ratio  1.0 or urine dipstick  2+.	Eligibility	33
+proteinuria	HP:0000093,DOID:576	0-11
+urine	UBERON:0001088	24-29
+urine	UBERON:0001088	70-75
+protein	CHEBI:36080,BAO:0000175	0-7
+protein	CHEBI:36080,BAO:0000175	30-37
+creatinine	CHEBI:16737	39-49
+upc	CHEBI:165829	51-54
+ratio	UO:0000190	56-61
+Significant vascular disease (aortic aneurysm, aortic dissection) or symptomatic peripheral vascular disease;	Eligibility	34
+vascular disease	DOID:178	12-28
+vascular disease	DOID:178	92-108
+aortic aneurysm	HP:0004942,DOID:3627	30-45
+aortic dissection	HP:0002647,DOID:0080685	47-64
+peripheral vascular disease	DOID:341	81-108
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within previous 6 months;	Eligibility	35
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+Uncontrolled serious contraindicated medical condition or psychiatric illness.	Eligibility	36
+condition	PDRO:0000129	45-54
+Outcome Measurement:	Results	0
+Best Clinical Response Expressed as Percentage of Participants Treated With Combination Regimen of Weekly Abraxane® and Carboplatin Plus Biweekly Bevacizumab to Treat Women With Stage IV or Inoperable Stage III "Triple Negative" Metastatic Breast Cancer.	Results	1
+carboplatin	CHEBI:31355	120-131
+breast cancer	DOID:1612	240-253
+Best clinical response is based on RECIST criteria, the proportion in each response category along with the exact binomial confidence intervals are estimated. Toxicity summaries are also provided.	Results	2
+Time frame: 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Abraxane, Carboplatin, Bevacizumab	Results	5
+carboplatin	CHEBI:31355	27-38
+Arm/Group Description: Abraxane 100 mg/m2 IV over 30 min days 1,8,15.; Carboplatin AUC=2 IV over 15 min days 1,8,15., Bevacizumab 10 mg/kg IV days 1,15	Results	6
+carboplatin	CHEBI:31355	71-82
+Abraxane: 100 mg/m2 IV over 30 min days 1,8,15. Cycles Repeated Every 28 days until documented evidence of disease progression by RECIST criteria, intolerable toxicity, or death..	Results	7
+disease	DOID:4,OGMS:0000031	107-114
+death	OAE:0000632	172-177
+Bevacizumab: 10 mg/kg IV days 1,15 Cycles Repeated Every 28 days until documented evidence of disease progression by RECIST criteria,intolerable toxicity, or death.	Results	8
+disease	DOID:4,OGMS:0000031	94-101
+death	OAE:0000632	158-163
+Carboplatin: area under curve (AUC)=2 IV over 15 min days 1,8,15. Cycles Repeated Every 28 days until documented evidence of disease progression by RECIST criteria, intolerable toxicity, or death.	Results	9
+carboplatin	CHEBI:31355	0-11
+area	PATO:0001323	13-17
+auc	BAO:0002120	31-34
+disease	DOID:4,OGMS:0000031	125-132
+death	OAE:0000632	190-195
+Overall Number of Participants Analyzed: 39	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: percentage of participants  Complete Response: 18        (8 to 34)	Results	12
+Partial Response: 69        (52 to 83)	Results	13
+Stable Disease: 8        (2 to 21)	Results	14
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 5        (1 to 17)	Results	15
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Adverse Events 1:	Adverse Events	0
+Total: 22/41 (53.66%)	Adverse Events	1
+Anemia 1/41 (2.44%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Dyspepsia 1/41 (2.44%)	Adverse Events	3
+dyspepsia	HP:0410281	0-9
+Mucositis oral 1/41 (2.44%)	Adverse Events	4
+mucositis	DOID:0080178	0-9
+Nausea 3/41 (7.32%)	Adverse Events	5
+nausea	HP:0002018	0-6
+Vomiting 1/41 (2.44%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Pain 3/41 (7.32%)	Adverse Events	7
+pain	HP:0012531	0-4
+Allergic reaction 1/41 (2.44%)	Adverse Events	8
+Infections and infestations - Other, specify:  [1]1/41 (2.44%)	Adverse Events	9
+Vascular access complication 3/41 (7.32%)	Adverse Events	10
+Alanine aminotransferase increased 1/41 (2.44%)	Adverse Events	11
+alanine	CHEBI:16449	0-7

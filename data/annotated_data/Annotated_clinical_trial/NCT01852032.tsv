@@ -1,0 +1,89 @@
+INTERVENTION 1:	Intervention	0
+Breast Cancer Patients	Intervention	1
+breast cancer	DOID:1612	0-13
+Tomosynthesis Breast Scanning is done and breast CT Scanning is done.	Intervention	2
+breast	UBERON:0000310	14-20
+breast	UBERON:0000310	42-48
+ct	BAO:0002125	49-51
+Inclusion Criteria:	Eligibility	0
+35 years of age or older	Eligibility	1
+age	PATO:0000011	12-15
+While male patients will not be explicitly excluded, it is expected that all patients in this study will be women	Eligibility	2
+male	CHEBI:30780,PATO:0000384	6-10
+excluded	HP:0040285	43-51
+Diagnostic findings from prior mammography suspicious for, or highly suggestive of, breast malignancy -BIRADS (Breast Imaging Reporting and Data System) categories 4 and 5	Eligibility	3
+breast	UBERON:0000310	84-90
+breast	UBERON:0000310	111-117
+Scheduled for ultrasound or stereotactic core biopsy	Eligibility	4
+Ability to lie still on a table top for up to 10 minutes, longer than the typical breast CT duration.	Eligibility	5
+breast	UBERON:0000310	82-88
+ct	BAO:0002125	89-91
+duration	PATO:0001309	92-100
+Ability to understand risks, procedures, and benefits involved	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Recent breast biopsy	Eligibility	8
+breast	UBERON:0000310	7-13
+History of breast augmentation implant	Eligibility	9
+history	BFO:0000182	0-7
+breast	UBERON:0000310	11-17
+Pregnant or Positive urine pregnancy test (UPT) or currently breast-feeding	Eligibility	10
+urine	UBERON:0001088	21-26
+History of moderate or severe adverse reaction to iodinated contrast injection	Eligibility	11
+history	BFO:0000182	0-7
+moderate	HP:0012826	11-19
+severe	HP:0012828	23-29
+Recent serum creatinine  1.5 mg/dL	Eligibility	12
+creatinine	CHEBI:16737	13-23
+History of Diabetes Mellitus	Eligibility	13
+history	BFO:0000182	0-7
+diabetes mellitus	HP:0000819,DOID:9351	11-28
+Currently taking Glucophage or Glucovance (Metformin)	Eligibility	14
+metformin	CHEBI:6801	43-52
+History of chronic asthma	Eligibility	15
+history	BFO:0000182	0-7
+chronic asthma	DOID:0080809	11-25
+History of allergy to iodine	Eligibility	16
+history	BFO:0000182	0-7
+allergy	HP:0012393	11-18
+Multiple food and/or drug allergy	Eligibility	17
+food	CHEBI:33290	9-13
+drug allergy	HP:0410323,DOID:0060500	21-33
+Renal disease	Eligibility	18
+disease	DOID:4,OGMS:0000031	6-13
+History of pulmonary disease, phobia of breath holding, or other condition that could prevent the subject from being able to perform the 16 second breath hold	Eligibility	19
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	21-28
+condition	PDRO:0000129	65-74
+second	UO:0000010	140-146
+Outcome Measurement:	Results	0
+Beta of CT Coronal View	Results	1
+ct	BAO:0002125	8-10
+frequency range corresponding to noise power spectrum (NPS) where beta = NPS(f) = af^-B.	Results	2
+frequency	HP:0040279	0-9
+range	LABO:0000114	10-15
+f	UO:0000195	0-1
+f	UO:0000195	77-78
+f	UO:0000195	83-84
+beta is calculated as noise corresponding to frequency. The values of the exponent, beta, range from 1.5 to 3.5 Lower Beta values correspond to better image quality (less noise, increased cancer detection).	Results	3
+frequency	HP:0040279	45-54
+range	LABO:0000114	90-95
+quality	BAO:0002928,BFO:0000019	157-164
+cancer	DOID:162	188-194
+Time frame: Day 1	Results	4
+time	PATO:0000165	0-4
+day	UO:0000033	12-15
+Results 1:	Results	5
+Arm/Group Title: Breast Cancer Patients	Results	6
+breast cancer	DOID:1612	17-30
+Arm/Group Description: Tomosynthesis Breast Scanning is done and breast CT Scanning is done.	Results	7
+breast	UBERON:0000310	37-43
+breast	UBERON:0000310	65-71
+ct	BAO:0002125	72-74
+Overall Number of Participants Analyzed: 23	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: power-law slope(B)  1.75         (0.424)	Results	10
+slope	BAO:0002121	27-32
+Adverse Events 1:	Adverse Events	0
+Total: 0/23 (0.00%)	Adverse Events	1

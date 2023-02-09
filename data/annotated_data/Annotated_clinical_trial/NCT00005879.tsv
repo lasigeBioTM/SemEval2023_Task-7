@@ -1,0 +1,187 @@
+INTERVENTION 1:	Intervention	0
+Placebo	Intervention	1
+Placebo	Intervention	2
+Placebo: matched tablet dialy	Intervention	3
+INTERVENTION 2:	Intervention	4
+Arzoxifene	Intervention	5
+LY353381, 20 mg daily	Intervention	6
+arzoxifene: one tablet daily	Intervention	7
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Current random fine needle breast aspiration (FNA) evidence of 1 of the following:	Eligibility	1
+breast	UBERON:0000310	27-33
+aspiration	HP:0002835	34-44
+Hyperplasia with atypia	Eligibility	2
+Hyperplasia without atypia but with a 10-year modified Gail risk of at least 4%	Eligibility	3
+Hyperplasia without atypia but with a BRCAPRO risk of at least 25%	Eligibility	4
+Hyperplasia without atypia but with a known mutation in BRCA1 or BRCA2	Eligibility	5
+Hyperplasia without atypia but with a history of contralateral ductal carcinoma in situ or invasive breast cancer	Eligibility	6
+history	BFO:0000182	38-45
+ductal carcinoma in situ	HP:0030075,DOID:0060074	63-87
+breast cancer	DOID:1612	100-113
+FNA must have been taken during days 1-14 of the menstrual cycle for premenopausal women	Eligibility	7
+menstrual cycle	GO:0044850	49-64
+Classified as ACR class I-III on mammogram with stepwedge within past 6 months If intact uterus and/or ovaries, must have color doppler transvaginal pelvic sonogram within past 6 months showing endometrial thickening no greater than 13 mm premenopausal or no greater than 8 mm postmenopausal	Eligibility	8
+uterus	UBERON:0000995	89-95
+color	PATO:0000014	122-127
+No ovarian cysts felt to be possibly or probably non-physiologic that have not resolved to gynecologist's satisfaction on repeat sonogram	Eligibility	9
+Must agree to have or have had genetic counseling and genetic testing performed for BRCA1 and BRCA2	Eligibility	10
+No active cancer (e.g., detectable disease)	Eligibility	11
+active	PATO:0002354	3-9
+cancer	DOID:162	10-16
+disease	DOID:4,OGMS:0000031	35-42
+Hormone receptor status:	Eligibility	12
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	13
+PATIENT CHARACTERISTICS:	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+Age:	Eligibility	15
+age	PATO:0000011	0-3
+18 and over	Eligibility	16
+Sex:	Eligibility	17
+Female	Eligibility	18
+female	PATO:0000383	0-6
+Menopausal status:	Eligibility	19
+Any	Eligibility	20
+Performance status:	Eligibility	21
+Not specified	Eligibility	22
+Life expectancy:	Eligibility	23
+At least 12 months	Eligibility	24
+Hematopoietic:	Eligibility	25
+Hemoglobin greater than 10 g/dL	Eligibility	26
+hemoglobin	CHEBI:35143	0-10
+Granulocyte count greater than 1,000/mm^3	Eligibility	27
+No deficiencies in protein C, protein S, or antithrombin III	Eligibility	28
+protein c	CHEBI:82131	19-28
+protein	CHEBI:36080,BAO:0000175	19-26
+protein	CHEBI:36080,BAO:0000175	30-37
+No activated protein C resistance	Eligibility	29
+activated	BAO:0003072	3-12
+protein c	CHEBI:82131	13-22
+Hepatic:	Eligibility	30
+Albumin greater than 3.0 g/dL	Eligibility	31
+Bilirubin less than 1.5 mg/dL	Eligibility	32
+AST less than 100 U/L	Eligibility	33
+Alkaline phosphatase less than 200 U/L	Eligibility	34
+phosphatase	GO:0016791,BAO:0000295	9-20
+Renal:	Eligibility	35
+Creatinine less than 1.5 mg/dL	Eligibility	36
+creatinine	CHEBI:16737	0-10
+Cardiovascular:	Eligibility	37
+No history of deep venous thrombosis not related to trauma or pregnancy	Eligibility	38
+history	BFO:0000182	3-10
+deep venous thrombosis	HP:0002625	14-36
+No severe coronary artery disease	Eligibility	39
+severe	HP:0012828	3-9
+coronary artery disease	DOID:3393	10-33
+No history of prior stroke	Eligibility	40
+history	BFO:0000182	3-10
+stroke	HP:0001297,DOID:6713	20-26
+Other:	Eligibility	41
+Not pregnant or nursing	Eligibility	42
+Negative pregnancy test	Eligibility	43
+Fertile patients must use effective contraception during and for 3 months after study	Eligibility	44
+No other active cancer	Eligibility	45
+active	PATO:0002354	9-15
+cancer	DOID:162	16-22
+No retinal vein thrombosis	Eligibility	46
+retinal	CHEBI:17898	3-10
+vein	UBERON:0001638	11-15
+thrombosis	DOID:0060903	16-26
+No concurrent severe poorly controlled migraine	Eligibility	47
+severe	HP:0012828	14-20
+migraine	HP:0002076,DOID:6364	39-47
+No factor V Leiden mutation carrier	Eligibility	48
+carrier	CHEBI:78059,GO:0005215,BAO:0002093	28-35
+PRIOR CONCURRENT THERAPY:	Eligibility	49
+Biologic therapy:	Eligibility	50
+At least 12 months since prior immunotherapy	Eligibility	51
+Chemotherapy:	Eligibility	52
+At least 3 months between completion of prior KUMC phase II difluoromethylornithine (DFMO) study and baseline aspiration	Eligibility	53
+aspiration	HP:0002835	110-120
+At least 12 months since prior chemotherapy	Eligibility	54
+Endocrine therapy:	Eligibility	55
+Must not have started or stopped hormone replacement therapy or oral contraceptives within 6 months of baseline aspiration	Eligibility	56
+hormone	CHEBI:24621	33-40
+aspiration	HP:0002835	112-122
+Must continue all hormone replacement therapy and/or oral contraceptives that were being taken at time of baseline aspiration	Eligibility	57
+hormone	CHEBI:24621	18-25
+time	PATO:0000165	98-102
+aspiration	HP:0002835	115-125
+At least 12 months since prior tamoxifen, raloxifene, or other antihormonal therapy	Eligibility	58
+tamoxifen	CHEBI:41774	31-40
+raloxifene	CHEBI:8772	42-52
+Radiotherapy:	Eligibility	59
+radiotherapy	OAE:0000235	0-12
+At least 3 months since prior radiotherapy	Eligibility	60
+radiotherapy	OAE:0000235	30-42
+Surgery:	Eligibility	61
+surgery	OAE:0000067	0-7
+At least 6 months between prior oophorectomy and baseline aspiration	Eligibility	62
+aspiration	HP:0002835	58-68
+Other:	Eligibility	63
+At least 2 weeks since the start of other new medication that would be ingested for 1 or more months	Eligibility	64
+Outcome Measurement:	Results	0
+Change in Masood Score	Results	1
+Change in the semi-quantitative score assigned by the designated cytopathologist.	Results	2
+Range 6-24. Score represents increasing abnormality (i.e., worse appearance) Sum composite of 6 cytomorphological features, each scored as 1-4.	Results	3
+range	LABO:0000114	0-5
+Time frame: Baseline to 6 months	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Placebo	Results	6
+Arm/Group Description: Placebo	Results	7
+Placebo: matched tablet dialy	Results	8
+Overall Number of Participants Analyzed: 84	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  -1.1         (1.9)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arzoxifene	Results	13
+Arm/Group Description: LY353381, 20 mg daily	Results	14
+arzoxifene: one tablet daily	Results	15
+Overall Number of Participants Analyzed: 82	Results	16
+Mean (Standard Deviation)	Results	17
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  -0.8         (2.1)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 5/101 (4.95%)	Adverse Events	1
+BILATERAL CATARACTS * 0/101 (0.00%)	Adverse Events	2
+bilateral	HP:0012832	0-9
+APPENDICITIS * 2/101 (1.98%)	Adverse Events	3
+appendicitis	DOID:8337	0-12
+ISCHEMIC COLITIS * 1/101 (0.99%)	Adverse Events	4
+ischemic colitis	DOID:0060181	0-16
+SLIPPED DISK * 0/101 (0.00%)	Adverse Events	5
+RIGHT BIMALLEOLAR ANKLE FRACTURE * 0/101 (0.00%)	Adverse Events	6
+right	HP:0012834	0-5
+ACUTE MYELOID LEUKEMIA * 0/101 (0.00%)	Adverse Events	7
+acute myeloid leukemia	HP:0004808,DOID:9119	0-22
+BREAST CANCER * 0/101 (0.00%)	Adverse Events	8
+breast cancer	DOID:1612	0-13
+PRIMARY DCIS IN BREAST * 0/101 (0.00%)	Adverse Events	9
+breast	UBERON:0000310	16-22
+OVARIAN CYST * 1/101 (0.99%)	Adverse Events	10
+ovarian cyst	HP:0000138,DOID:5119	0-12
+Adverse Events 2:	Adverse Events	11
+Total: 9/98 (9.18%)	Adverse Events	12
+BILATERAL CATARACTS * 1/98 (1.02%)	Adverse Events	13
+bilateral	HP:0012832	0-9
+APPENDICITIS * 0/98 (0.00%)	Adverse Events	14
+appendicitis	DOID:8337	0-12
+ISCHEMIC COLITIS * 0/98 (0.00%)	Adverse Events	15
+ischemic colitis	DOID:0060181	0-16
+SLIPPED DISK * 1/98 (1.02%)	Adverse Events	16
+RIGHT BIMALLEOLAR ANKLE FRACTURE * 1/98 (1.02%)	Adverse Events	17
+right	HP:0012834	0-5
+ACUTE MYELOID LEUKEMIA * 1/98 (1.02%)	Adverse Events	18
+acute myeloid leukemia	HP:0004808,DOID:9119	0-22
+BREAST CANCER * 1/98 (1.02%)	Adverse Events	19
+breast cancer	DOID:1612	0-13
+PRIMARY DCIS IN BREAST * 1/98 (1.02%)	Adverse Events	20
+breast	UBERON:0000310	16-22
+OVARIAN CYST * 1/98 (1.02%)	Adverse Events	21
+ovarian cyst	HP:0000138,DOID:5119	0-12

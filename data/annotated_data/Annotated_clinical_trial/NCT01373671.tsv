@@ -1,0 +1,68 @@
+INTERVENTION 1:	Intervention	0
+FFDM and DBT	Intervention	1
+FFDM exam and DBT scan on Siemens MAMMOMAT Inspiration	Intervention	2
+INTERVENTION 2:	Intervention	3
+FFDM Only	Intervention	4
+FFDM exam only	Intervention	5
+Inclusion Criteria:	Eligibility	0
+All subjects enrolled into the collection study must:	Eligibility	1
+Provide signed informed consent after receiving a verbal and written explanation of the purpose and nature of the study	Eligibility	2
+be females, 40 years of age or older at the screening mammographic evaluation or age 30 or older presenting for a biopsy and have one of the following mammograms:	Eligibility	3
+age	PATO:0000011	24-27
+age	PATO:0000011	81-84
+o Normal cases at screening (BI-RADS® 1, 2 and 3):	Eligibility	4
+have a screening mammogram that includes the four standard screening views (RCC, RMLO, LCC and LMLO), as well as have both MLO and CC DBT scans of each breast,	Eligibility	5
+breast	UBERON:0000310	152-158
+o Actionable cases at screening (BI-RADS® 0, 4 or 5) with final BI-RADS® 1, 2, 3, 4 or 5:	Eligibility	6
+have a screening mammogram with four SSVs and any clinically necessary diagnostic mammographic views, such as straight lateral projections, rolled, magnification view and spot compression views, and, both MLO and CC DBT scans of each breast plus 4 SSVs repeated at the diagnostic or biopsy visit if the screening images are unavailable or were acquired more than 45 days prior to DBT acquisition,	Eligibility	7
+lateral	HP:0025275	119-126
+breast	UBERON:0000310	234-240
+have supporting ground-truth documentation for the final BI-RADS® assessment as follows:	Eligibility	8
+A one (1) year FFDM follow up without evidence of cancer for normal cases not undergoing biopsy	Eligibility	9
+year	UO:0000036	10-14
+cancer	DOID:162	50-56
+A six (6) or twelve (12) month FFDM follow up confirming benign status for biopsy proven benign cases	Eligibility	10
+month	UO:0000035	25-30
+Pathology report for either benign or malignant biopsy finding	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+Subjects with any of the following conditions or who have had the following procedures will be excluded from this study:	Eligibility	13
+excluded	HP:0040285	95-103
+Pregnant women or women who believe they may be pregnant or are trying to become pregnant.	Eligibility	14
+Mastectomy patients	Eligibility	15
+Subjects who have had lumpectomy  5 years prior to the study entry	Eligibility	16
+Inmates (in accordance with 45 CFR 46.306) or mentally disabled individuals	Eligibility	17
+BI-RADS® Category 6 (e.g., for which the mammogram was performed for the purpose of planning cancer therapy)	Eligibility	18
+cancer	DOID:162	93-99
+BI-RADS® Category 4 or 5 without confirming pathology reports will be considered incomplete	Eligibility	19
+Subjects with mammograms that lack the required views or with views judged to be technically inadequate will be considered incomplete and the cases will not be considered for the MRMC reader studies	Eligibility	20
+Subjects being accrued from the screening population who know that they will not be in the United States or available for follow up mammograms in one year.	Eligibility	21
+year	UO:0000036	150-154
+Outcome Measurement:	Results	0
+Efficacy Based on the Area Under the Receiver Operating Characteristic (ROC) Curve in Breasts Analyzed With DBT as an Adjunct to FFDM vs. FFDM Alone	Results	1
+efficacy	BAO:0000656	0-8
+area	PATO:0001323	22-26
+The primary objective of this study was to demonstrate the superiority of DBT and FFDM images together in comparison to FFDM images alone with respect to the ability of readers to detect and diagnose malignant lesions. A comparison of the breast-level ROC areas was used to evaluate the superiority of DBT as an adjunct to FFDM vs. FFDM alone.	Results	2
+Time frame: 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: FFDM and DBT	Results	5
+Arm/Group Description: FFDM exam and DBT scan on Siemens MAMMOMAT Inspiration	Results	6
+Overall Number of Participants Analyzed: 300	Results	7
+Overall Number of Units Analyzed	Results	8
+Type of Units Analyzed: Breasts  Mean (Standard Error)Unit of Measure: unitless: 0.8527         (0.0268)	Results	9
+mean	BAO:0002173	33-37
+Results 2:	Results	10
+Arm/Group Title: FFDM Only	Results	11
+Arm/Group Description: FFDM exam only	Results	12
+Overall Number of Participants Analyzed: 300	Results	13
+Overall Number of Units Analyzed	Results	14
+Type of Units Analyzed: Breasts  Mean (Standard Error)Unit of Measure: unitless: 0.7516         (0.0281)	Results	15
+mean	BAO:0002173	33-37
+Adverse Events 1:	Adverse Events	0
+Total: 2/764 (0.26%)	Adverse Events	1
+Ovarian cancer * [1]1/764 (0.13%)	Adverse Events	2
+ovarian cancer	DOID:2394	0-14
+Pneumonia * [2]1/764 (0.13%)	Adverse Events	3
+pneumonia	HP:0002090,DOID:552	0-9
+Adverse Events 2:	Adverse Events	4

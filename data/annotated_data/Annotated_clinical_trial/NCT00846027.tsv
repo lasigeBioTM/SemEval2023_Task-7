@@ -1,0 +1,73 @@
+INTERVENTION 1:	Intervention	0
+Bevacizumab + Paclitaxel + Gemcitabine	Intervention	1
+paclitaxel	CHEBI:45863	14-24
+gemcitabine	CHEBI:175901	27-38
+Participants received bevacizumab 10 mg/kg intravenously (IV), paclitaxel 150 mg/m^2 IV, and gemcitabine 2000 mg/m^2 IV on Day 1 and Day 15 of each 4-week cycle until disease progression, unacceptable toxicity, or withdrawal of consent.	Intervention	2
+paclitaxel	CHEBI:45863	63-73
+gemcitabine	CHEBI:175901	93-104
+day	UO:0000033	123-126
+day	UO:0000033	133-136
+disease	DOID:4,OGMS:0000031	167-174
+Inclusion Criteria:	Eligibility	0
+Female patients,  18 years of age.	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	30-33
+Breast cancer, with measurable, locally recurrent or metastatic lesions, or patients with bone metastasis only.	Eligibility	2
+breast cancer	DOID:1612	0-13
+recurrent	HP:0031796	40-49
+HER-2 negative disease.	Eligibility	3
+disease	DOID:4,OGMS:0000031	15-22
+Candidates for chemotherapy.	Eligibility	4
+Eastern Cooperative Oncology Group (ECOG) performance status  2.	Eligibility	5
+group	CHEBI:24433	29-34
+Exclusion Criteria:	Eligibility	6
+Previous chemotherapy for metastatic or locally advanced breast cancer.	Eligibility	7
+breast cancer	DOID:1612	57-70
+Previous radiotherapy for treatment of metastatic breast cancer.	Eligibility	8
+radiotherapy	OAE:0000235	9-21
+breast cancer	DOID:1612	50-63
+Any prior adjuvant treatment with anthracyclines completed < 6 months prior to enrollment.	Eligibility	9
+adjuvant	CHEBI:60809	10-18
+Chronic daily treatment with corticosteroids ( 10 mg/day), aspirin (> 325 mg/day) or clopidogrel (> 75mg/day).	Eligibility	10
+chronic	HP:0011010	0-7
+clopidogrel	CHEBI:37941	85-96
+Outcome Measurement:	Results	0
+Progression-free Survival	Results	1
+Progression-free survival was defined as the time from enrollment in the study to the first documented disease progression using Response Evaluation Criteria In Solid Tumors (RECIST) or death from any cause, whichever occurred first.	Results	2
+time	PATO:0000165	45-49
+disease	DOID:4,OGMS:0000031	103-110
+death	OAE:0000632	186-191
+Time frame: Baseline to the end of the study (up to 2 years 10 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Bevacizumab + Paclitaxel + Gemcitabine	Results	5
+paclitaxel	CHEBI:45863	31-41
+gemcitabine	CHEBI:175901	44-55
+Arm/Group Description: Participants received bevacizumab 10 mg/kg intravenously (IV), paclitaxel 150 mg/m^2 IV, and gemcitabine 2000 mg/m^2 IV on Day 1 and Day 15 of each 4-week cycle until disease progression, unacceptable toxicity, or withdrawal of consent.	Results	6
+paclitaxel	CHEBI:45863	86-96
+gemcitabine	CHEBI:175901	116-127
+day	UO:0000033	146-149
+day	UO:0000033	156-159
+disease	DOID:4,OGMS:0000031	190-197
+Overall Number of Participants Analyzed: 90	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  11.51        (9.01 to 17.59)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 21/82 (25.61%)	Adverse Events	1
+Neutrophils count decreased 1/82 (1.22%)	Adverse Events	2
+Cardiac ischemia/infarction 1/82 (1.22%)	Adverse Events	3
+Left ventricular systolic dysfunction 1/82 (1.22%)	Adverse Events	4
+left ventricular systolic dysfunction	HP:0025169	0-37
+Hypertension 1/82 (1.22%)	Adverse Events	5
+hypertension	HP:0000822,DOID:10763	0-12
+Supraventricular and nodal arrhythmia 1/82 (1.22%)	Adverse Events	6
+arrhythmia	HP:0011675	27-37
+Anorexia 1/82 (1.22%)	Adverse Events	7
+anorexia	HP:0002039	0-8
+Gastrointestinal perforation 1/82 (1.22%)	Adverse Events	8
+Vomiting 1/82 (1.22%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Dehydration 1/82 (1.22%)	Adverse Events	10
+dehydration	HP:0001944	0-11
+Diarrhoea 1/82 (1.22%)	Adverse Events	11

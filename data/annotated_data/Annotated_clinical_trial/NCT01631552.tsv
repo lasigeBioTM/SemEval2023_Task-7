@@ -1,0 +1,189 @@
+INTERVENTION 1:	Intervention	0
+TNBC Target Population	Intervention	1
+target	BAO:0003064	5-11
+Overall 144 participants with TNBC were enrolled in the study and received at least one dose of SG. Of these 144 participants, 108 received at least 2 prior therapies for metastatic disease and were treated with SG at a starting dose of 10mg/kg. These 108 participants were included in the analysis of safety and were referred to as the TNBC Target Population.	Intervention	2
+disease	DOID:4,OGMS:0000031	182-189
+target	BAO:0003064	342-348
+INTERVENTION 2:	Intervention	3
+HR+/HER2- mBC Population	Intervention	4
+Overall 68 participants with non-TNBC were enrolled in the study and received at least one dose of SG. Of these 68 participants, 54 were confirmed as Hormone receptor-positive/Human epidermal growth factor receptor 2-negative (HR+/HER2-), had progressed on at least one prior hormonal therapy in the metastatic setting, and had received at least one dose of 10 mg/kg SG. These 54 participants were included in the analysis of safety and were referred to as the HR+/HER2- mBC Population.	Intervention	5
+hormone	CHEBI:24621	150-157
+growth factor	BAO:0002024	192-205
+receptor	BAO:0000281	158-166
+receptor	BAO:0000281	206-214
+Inclusion Criteria:	Eligibility	0
+Individuals able to understand and give written informed consent.	Eligibility	1
+Histologically or cytologically confirmed epithelial cancer of one of the following types:	Eligibility	2
+cancer	DOID:162	53-59
+Gastric adenocarcinoma (GC)	Eligibility	3
+gastric adenocarcinoma	HP:0033770,DOID:3717	0-22
+Esophageal cancer (EC)	Eligibility	4
+esophageal cancer	DOID:5041	0-17
+Hepatocellular carcinoma (HCC)	Eligibility	5
+hepatocellular carcinoma	HP:0001402,DOID:684	0-24
+Non-small-cell lung cancer (NSCLC)	Eligibility	6
+lung cancer	DOID:1324	15-26
+Small-cell lung cancer (SCLC)	Eligibility	7
+lung cancer	DOID:1324	11-22
+Epithelial ovarian cancer (EOC)	Eligibility	8
+ovarian cancer	DOID:2394	11-25
+Cervical Cancer	Eligibility	9
+cervical cancer	DOID:4362	0-15
+Endometrial Cancer	Eligibility	10
+endometrial cancer	DOID:1380	0-18
+Triple-negative breast cancer (TNBC)	Eligibility	11
+breast cancer	DOID:1612	16-29
+Non-triple-negative breast cancer	Eligibility	12
+breast cancer	DOID:1612	20-33
+Papillary thyroid cancer (excludes follicular, medullary, Hurthle cell, and anaplastic thyroid cancer)	Eligibility	13
+cancer	DOID:162	18-24
+cancer	DOID:162	95-101
+Glioblastoma multiforme (GBM)	Eligibility	14
+glioblastoma multiforme	HP:0012174,DOID:3068	0-23
+Hormone-refractory prostate cancer (HRPC)	Eligibility	15
+prostate cancer	HP:0012125,DOID:10283	19-34
+Head and neck cancers- squamous cell (SCCHN)	Eligibility	16
+head	UBERON:0000033	0-4
+neck	GO:0044326,UBERON:0000974	9-13
+Renal cell cancer (clear cell) (RCC)	Eligibility	17
+cancer	DOID:162	11-17
+Urothelial cancer	Eligibility	18
+cancer	DOID:162	11-17
+Stage IV (metastatic) disease (except for individuals with GBM).	Eligibility	19
+disease	DOID:4,OGMS:0000031	22-29
+Refractory to or relapsed after at least one prior standard therapeutic regimen	Eligibility	20
+refractory	HP:0031375	0-10
+Adequate performance status (ECOG 0 or 1)	Eligibility	21
+Expected survival  6 months.	Eligibility	22
+Measurable disease by CT or MRI.	Eligibility	23
+disease	DOID:4,OGMS:0000031	11-18
+ct	BAO:0002125	22-24
+At least 2 weeks beyond treatment (chemotherapy, investigational drugs including small molecular inhibitors, immunotherapy and/or radiation therapy) or major surgery and recovered from all acute toxicities to Grade 1 or less (except alopecia).	Eligibility	24
+surgery	OAE:0000067	158-165
+acute	HP:0011009,PATO:0000389	189-194
+alopecia	HP:0001596,DOID:987	233-241
+At least 2 weeks beyond high dose systemic corticosteroids (however, low dose corticosteroids < 20 mg prednisone or equivalent daily are permitted).	Eligibility	25
+prednisone	CHEBI:8382	102-112
+Adequate hematology without ongoing transfusional support (hemoglobin > 9 g/dL, absolute neutrophil count (ANC) > 1,500 per mm^3, platelets > 100,000 per mm^3).	Eligibility	26
+hemoglobin	CHEBI:35143	59-69
+Adequate renal and hepatic function (creatinine  2.0 x institutional upper limit of normal (IULN), bilirubin  1.5 IULN, aspartate aminotransferase (AST) and alanine aminotransferase (ALT)  3.0 x IULN or 5 x IULN if know liver metastases).	Eligibility	27
+function	BAO:0003117,BFO:0000034	27-35
+creatinine	CHEBI:16737	37-47
+x	LABO:0000148	53-54
+x	LABO:0000148	193-194
+x	LABO:0000148	205-206
+aspartate	CHEBI:29995	120-129
+alanine	CHEBI:16449	157-164
+liver	UBERON:0002107	220-225
+Otherwise, all toxicity at study entry  Grade 1.	Eligibility	28
+Exclusion Criteria:	Eligibility	29
+Women who are pregnant or lactating.	Eligibility	30
+Women of childbearing potential and fertile men unwilling to use effective contraception during study until conclusion of 12-week post-treatment evaluation period.	Eligibility	31
+Individuals with Gilbert's disease.	Eligibility	32
+disease	DOID:4,OGMS:0000031	27-34
+Individuals with brain metastases can be enrolled only if treated, non-progressive brain metastases and off high-dose steroids (> 20 mg prednisone or equivalent) for at least 4 weeks.	Eligibility	33
+brain	UBERON:0000955	17-22
+brain	UBERON:0000955	83-88
+prednisone	CHEBI:8382	136-146
+Presence of bulky disease (defined as any single mass > 7 cm in its greatest dimension). Individuals with a mass over 7 cm, but otherwise eligible, may be considered for enrollment after discussion and approval with the medical monitor.	Eligibility	34
+disease	DOID:4,OGMS:0000031	18-25
+Individuals with active  grade 2 anorexia, nausea or vomiting, and/or signs of intestinal obstruction.	Eligibility	35
+active	PATO:0002354	17-23
+anorexia	HP:0002039	33-41
+nausea	HP:0002018	43-49
+vomiting	HP:0002013	53-61
+intestinal obstruction	HP:0005214,DOID:8437	79-101
+Individuals with non-melanoma skin cancer or carcinoma in situ of the cervix are eligible, while individuals with other prior malignancies must have had at least a 3-year disease-free interval.	Eligibility	36
+skin cancer	DOID:4159	30-41
+carcinoma	HP:0030731,DOID:305	45-54
+Individuals known to be HIV positive, hepatitis B positive, or hepatitis C positive.	Eligibility	37
+hepatitis b	DOID:2043	38-49
+hepatitis c	DOID:1883	63-74
+Known history of unstable angina, MI, or CHF present within 6 months or clinically significant cardiac arrhythmia (other than stable atrial fibrillation) requiring anti-arrhythmia therapy.	Eligibility	38
+history	BFO:0000182	6-13
+present	PATO:0000467	45-52
+arrhythmia	HP:0011675	103-113
+arrhythmia	HP:0011675	169-179
+stable	HP:0031915	19-25
+stable	HP:0031915	126-132
+atrial fibrillation	HP:0005110,DOID:0060224	133-152
+Known history of clinically significant active COPD, or other moderate-to-severe chronic respiratory illness present within 6 months.	Eligibility	39
+history	BFO:0000182	6-13
+active	PATO:0002354	40-46
+chronic	HP:0011010	81-88
+present	PATO:0000467	109-116
+Prior history of clinically significant bleeding, intestinal obstruction, or GI perforation within 6 months of initiation of study treatment.	Eligibility	40
+history	BFO:0000182	6-13
+intestinal obstruction	HP:0005214,DOID:8437	50-72
+Infection requiring intravenous antibiotic use within 1 week.	Eligibility	41
+week	UO:0000034	56-60
+History of an anaphylactic reaction to irinotecan or  Grade 3 GI toxicity to prior irinotecan,	Eligibility	42
+history	BFO:0000182	0-7
+irinotecan	CHEBI:80630	39-49
+irinotecan	CHEBI:80630	83-93
+Other concurrent medical or psychiatric conditions that, in the Investigator's opinion, may be likely to confound study interpretation or prevent completion of study procedures and follow-up examinations.	Eligibility	43
+Outcome Measurement:	Results	0
+Percentage of Participants Experiencing Any Treatment Emergent Adverse Events and Serious Treatment Emergent Adverse Events	Results	1
+Treatment-emergent adverse events (TEAEs) were defined as any adverse events (AEs) that begin or worsen on or after the start of study drug through 30 days after the last dose of study drug. The severity was graded based on the National Cancer Institute's Common Terminology Criteria for Adverse Events Version 4.03. An AE that met one or more of the following outcomes was classified as serious:	Results	2
+drug	CHEBI:23888	135-139
+drug	CHEBI:23888	185-189
+severity	HP:0012824	195-203
+cancer	DOID:162	237-243
+Fatal	Results	3
+Life-threatening	Results	4
+Disabling/incapacitating	Results	5
+Results in hospitalization or prolongs a hospital stay	Results	6
+A congenital abnormality	Results	7
+Other important medical events may also be considered serious AEs if they may require medical or surgical intervention to prevent one of the outcomes listed above	Results	8
+Per planned analysis, populations to be used for evaluation of this outcome measure were as follows: Triple Negative Breast Cancer (TNBC) Target Population, HR+/HER2- Metastatic Breast Cancer (mBC) Population, Metastatic Urothelial Cancer (mUC) Population, and Overall Safety Population.	Results	9
+breast cancer	DOID:1612	117-130
+breast cancer	DOID:1612	178-191
+target	BAO:0003064	138-144
+cancer	DOID:162	124-130
+cancer	DOID:162	185-191
+cancer	DOID:162	232-238
+Time frame: First dose date up to last dose for data cutoff date of 01 March 2019 (maximum duration: 55.2 months) plus 30 days	Results	10
+time	PATO:0000165	0-4
+duration	PATO:0001309	91-99
+Results 1:	Results	11
+Arm/Group Title: TNBC Target Population	Results	12
+target	BAO:0003064	22-28
+Arm/Group Description: Overall 144 participants with TNBC were enrolled in the study and received at least one dose of SG. Of these 144 participants, 108 received at least 2 prior therapies for metastatic disease and were treated with SG at a starting dose of 10mg/kg. These 108 participants were included in the analysis of safety and were referred to as the TNBC Target Population.	Results	13
+disease	DOID:4,OGMS:0000031	205-212
+target	BAO:0003064	365-371
+Overall Number of Participants Analyzed: 108	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: Percentage of participants  Adverse Events: 100.0	Results	16
+Serious Adverse Events: 30.6	Results	17
+Results 2:	Results	18
+Arm/Group Title: HR+/HER2- mBC Population	Results	19
+Arm/Group Description: Overall 68 participants with non-TNBC were enrolled in the study and received at least one dose of SG. Of these 68 participants, 54 were confirmed as Hormone receptor-positive/Human epidermal growth factor receptor 2-negative (HR+/HER2-), had progressed on at least one prior hormonal therapy in the metastatic setting, and had received at least one dose of 10 mg/kg SG. These 54 participants were included in the analysis of safety and were referred to as the HR+/HER2- mBC Population.	Results	20
+hormone	CHEBI:24621	173-180
+growth factor	BAO:0002024	215-228
+receptor	BAO:0000281	181-189
+receptor	BAO:0000281	229-237
+Overall Number of Participants Analyzed: 54	Results	21
+Measure Type: Number	Results	22
+Unit of Measure: Percentage of participants  Adverse Events: 100.0	Results	23
+Serious Adverse Events: 35.2	Results	24
+Adverse Events 1:	Adverse Events	0
+Total: 192/495 (38.79%)	Adverse Events	1
+Anaemia 4/495 (0.81%)	Adverse Events	2
+Febrile neutropenia 20/495 (4.04%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukocytosis 1/495 (0.20%)	Adverse Events	4
+leukocytosis	HP:0001974	0-12
+Leukopenia 1/495 (0.20%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Lymphopenia 1/495 (0.20%)	Adverse Events	6
+lymphopenia	HP:0001888,DOID:614	0-11
+Neutropenia 7/495 (1.41%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	0-11
+Acute myocardial infarction 1/495 (0.20%)	Adverse Events	8
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 3/495 (0.61%)	Adverse Events	9
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac tamponade 1/495 (0.20%)	Adverse Events	10
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Cardio-respiratory arrest 1/495 (0.20%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12

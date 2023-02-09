@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Curcumin	Intervention	1
+curcumin	CHEBI:3962	0-8
+4 Curcumin C3 Complex 500mg capsules (2.0 g) taken orally 3 times/day throughout course of radiation treatments plus one week	Intervention	2
+curcumin	CHEBI:3962	2-10
+week	UO:0000034	121-125
+Curcumin: 4 Curcumin C3 Complex 500mg capsules (2.0 g) taken orally 3 times/day throughout course of radiation treatments plus one week	Intervention	3
+curcumin	CHEBI:3962	0-8
+curcumin	CHEBI:3962	12-20
+week	UO:0000034	131-135
+INTERVENTION 2:	Intervention	4
+Placebo	Intervention	5
+4 placebo capsules taken orally 3 times/day throughout course of radiation treatments plus one week	Intervention	6
+week	UO:0000034	95-99
+Placebo: 4 placebo capsules taken orally 3 times/day throughout course of radiation treatments plus one week	Intervention	7
+week	UO:0000034	104-108
+Inclusion Criteria:	Eligibility	0
+a diagnosis of non-inflammatory breast adenocarcinoma (including in situ and bilateral)	Eligibility	1
+breast adenocarcinoma	DOID:3458	32-53
+bilateral	HP:0012832	77-86
+scheduled to begin radiotherapy without concurrent chemotherapy; concurrent hormone or Herceptin® (trastuzumab)treatment is okay	Eligibility	2
+radiotherapy	OAE:0000235	19-31
+hormone	CHEBI:24621	76-83
+can have been treated by lumpectomy or mastectomy with or without adjuvant or neoadjuvant chemotherapy or hormonal treatment	Eligibility	3
+adjuvant	CHEBI:60809	66-74
+adjuvant	CHEBI:60809	81-89
+can have had breast reconstruction	Eligibility	4
+breast	UBERON:0000310	13-19
+scheduled to receive 25-35 radiation treatment sessions (1 session per day) using standard irradiation fractionation (1.8-2.0 Gy per sessions) OR 16-20 radiation treatment sessions (1 session per day) using Canadian irradiation fractionation (2.2-3.0 Gy per session)(100, 101).	Eligibility	5
+day	UO:0000033	71-74
+day	UO:0000033	196-199
+able to swallow medication.	Eligibility	6
+three weeks must have elapsed after chemotherapy and surgery before the patient can begin the study	Eligibility	7
+surgery	OAE:0000067	53-60
+patient	HADO:0000008,OAE:0001817	72-79
+able to understand English	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+inflammatory breast cancer	Eligibility	10
+breast cancer	DOID:1612	13-26
+previous radiation therapy to the breast or chest	Eligibility	11
+breast	UBERON:0000310	34-40
+chest	UBERON:0001443	44-49
+concurrent chemotherapy treatment	Eligibility	12
+concurrent treatment with anti-coagulants (e.g., coumadin®, warfarin®), or anti-EGFR (human epidermal growth factor receptor) drugs (e.g. Iressa® (gefitinib), Erbitux® (cetuximab, C225); aspirin is allowed	Eligibility	13
+growth factor	BAO:0002024	102-115
+receptor	BAO:0000281	116-124
+gefitinib	CHEBI:49668	147-156
+known radiosensitivity syndromes (e.g., Ataxia-telangiectasia)	Eligibility	14
+collagen vascular disease, unhealed surgical sites, or breast infections	Eligibility	15
+collagen	CHEBI:3815	0-8
+vascular disease	DOID:178	9-25
+breast	UBERON:0000310	55-61
+Outcome Measurement:	Results	0
+Mean Radiation Dermatitis Severity Score	Results	1
+mean	BAO:0002173	0-4
+dermatitis	DOID:2723	15-25
+severity	HP:0012824	26-34
+The outcome measures will be the severity of radiation dermatitis, using the Radiation Dermatitis Score (RDS), at the end of treatment in each treatment arm. (Objective: To examine the efficacy of curcumin in preventing and/or reducing the severity of dermatitis in radiation treatment site in breast cancer patients). The RDS score ranges from 0-4 with higher scores indicating worse outcome.	Results	2
+severity	HP:0012824	33-41
+severity	HP:0012824	240-248
+dermatitis	DOID:2723	55-65
+dermatitis	DOID:2723	87-97
+dermatitis	DOID:2723	252-262
+efficacy	BAO:0000656	185-193
+curcumin	CHEBI:3962	197-205
+site	BFO:0000029	286-290
+breast cancer	DOID:1612	294-307
+Time frame: 6 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Curcumin	Results	5
+curcumin	CHEBI:3962	17-25
+Arm/Group Description: 4 Curcumin C3 Complex 500mg capsules (2.0 g) taken orally 3 times/day throughout course of radiation treatments plus one week	Results	6
+curcumin	CHEBI:3962	25-33
+week	UO:0000034	144-148
+Curcumin: 4 Curcumin C3 Complex 500mg capsules (2.0 g) taken orally 3 times/day throughout course of radiation treatments plus one week	Results	7
+curcumin	CHEBI:3962	0-8
+curcumin	CHEBI:3962	12-20
+week	UO:0000034	131-135
+Overall Number of Participants Analyzed: 283	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  2.02         (0.05)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Placebo	Results	12
+Arm/Group Description: 4 placebo capsules taken orally 3 times/day throughout course of radiation treatments plus one week	Results	13
+week	UO:0000034	118-122
+Placebo: 4 placebo capsules taken orally 3 times/day throughout course of radiation treatments plus one week	Results	14
+week	UO:0000034	104-108
+Overall Number of Participants Analyzed: 295	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  1.99         (0.06)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/344 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/342 (0.00%)	Adverse Events	3

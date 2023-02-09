@@ -1,0 +1,121 @@
+INTERVENTION 1:	Intervention	0
+Samarium 153-EDTMP + Stem Cell Transplant	Intervention	1
+stem cell transplant	OAE:0001532	21-41
+Samarium 153-EDTMP tracer dose = 30 millicurie (mCi) intravenous Day 1; or with study drug to bones, receive higher therapy dose of 153 Sm-EDTMP 7-14 days after tracer dose. Stem Cell Transplant Day 0, about 14-21 days after Samarium 153-EDTMP.	Intervention	2
+tracer	CHEBI:35204	19-25
+tracer	CHEBI:35204	161-167
+day	UO:0000033	65-68
+day	UO:0000033	150-153
+day	UO:0000033	195-198
+day	UO:0000033	214-217
+drug	CHEBI:23888	86-90
+stem cell transplant	OAE:0001532	174-194
+Inclusion Criteria:	Eligibility	0
+Stage IV breast cancer metastatic to bone and/or bone marrow only.	Eligibility	1
+breast cancer	DOID:1612	9-22
+bone marrow	UBERON:0002371	49-60
+Age between 18 and 65 years.	Eligibility	2
+age	PATO:0000011	0-3
+Eastern Cooperative Oncology Group (ECOG) performance score of 0, 1	Eligibility	3
+group	CHEBI:24433	29-34
+Subjects with breast tumors with hormone receptor positive disease (ER+/PR+, ER+/PR-, or ER-/PR+) must have failed at least one hormonal-based therapy for bone only disease.	Eligibility	4
+breast	UBERON:0000310	14-20
+hormone	CHEBI:24621	33-40
+receptor	BAO:0000281	41-49
+disease	DOID:4,OGMS:0000031	59-66
+disease	DOID:4,OGMS:0000031	165-172
+Subjects with breast tumors with hormone receptor negative disease must have failed at least one anthracycline and/or taxane-based therapy for bone only disease.	Eligibility	5
+breast	UBERON:0000310	14-20
+hormone	CHEBI:24621	33-40
+receptor	BAO:0000281	41-49
+disease	DOID:4,OGMS:0000031	59-66
+disease	DOID:4,OGMS:0000031	153-160
+anthracycline	CHEBI:48120	97-110
+White blood cell count (WBC) >/= 3.5 x10^9/L, Hb >/= 10 g/dL, platelets >/= 100 x10^9/L.	Eligibility	6
+white blood cell count	CMO:0000027	0-22
+Adequate pulmonary function defined as forced expiratory volume at one second (FEV1), forced vital capacity (FVC) and diffusing capacity of lung for carbon monoxide (DLCO) (corrected for hemoglobin) >/= 50% of predicted.	Eligibility	7
+function	BAO:0003117,BFO:0000034	19-27
+forced expiratory volume	CMO:0000254	39-63
+second	UO:0000010	71-77
+lung	UBERON:0002048	140-144
+carbon monoxide	CHEBI:17245	149-164
+hemoglobin	CHEBI:35143	187-197
+Adequate cardiac function as evidenced by left ventricular ejection fraction (LVEF) of >/= 45%.	Eligibility	8
+function	BAO:0003117,BFO:0000034	17-25
+left	HP:0012835	42-46
+ejection fraction	CMO:0000180	59-76
+Serum total bilirubin < 2x upper limit of normal (ULN), and ALT/serum glutamate pyruvate transaminase (SGPT) < 3x ULN	Eligibility	9
+glutamate	CHEBI:14321,BAO:0000926	70-79
+pyruvate	CHEBI:15361	80-88
+Creatinine clearance of >/= 75 mL/min for subjects up to 50 years of age, and adjusted for age by a 10% decrease per decade for subjects of more than 50 years of age.	Eligibility	10
+creatinine clearance	CMO:0000765	0-20
+age	PATO:0000011	69-72
+age	PATO:0000011	91-94
+age	PATO:0000011	162-165
+Ability to understand the study and provide informed consent.	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+Any metastatic disease or history of metastatic disease other than skeletal metastases	Eligibility	13
+disease	DOID:4,OGMS:0000031	15-22
+disease	DOID:4,OGMS:0000031	48-55
+history	BFO:0000182	26-33
+Impending fracture, spinal cord compression, and/or potentially unstable compression fracture of vertebral body with possibility of cord compression.	Eligibility	14
+spinal cord compression	HP:0002176	20-43
+compression fracture	HP:4000047	73-93
+Previous strontium-89 or samarium-153 treatment for any skeletal involvement.	Eligibility	15
+Cumulative external beam radiation to > 20% of marrow volume or > 40 Gy to any single region of the spinal cord.	Eligibility	16
+volume	PATO:0000918	54-60
+spinal cord	UBERON:0002240	100-111
+Prior radiation to the bladder or kidney, defined as radiation portals that directly include any volume of either kidney and/or the bladder.	Eligibility	17
+kidney	UBERON:0002113	34-40
+kidney	UBERON:0002113	114-120
+volume	PATO:0000918	97-103
+Life expectancy severely limited by concomitant illness (less than 6 months).	Eligibility	18
+Prior nephrectomy.	Eligibility	19
+History of hemorrhagic cystitis obstructive uropathy or hydronephrosis.	Eligibility	20
+history	BFO:0000182	0-7
+hemorrhagic cystitis	DOID:0050859	11-31
+hydronephrosis	HP:0000126,DOID:11111	56-70
+Uncontrolled arrhythmia or symptomatic cardiac disease.	Eligibility	21
+arrhythmia	HP:0011675	13-23
+disease	DOID:4,OGMS:0000031	47-54
+Current gross hematuria in urinalysis (UA) in the absence of vaginal bleeding.	Eligibility	22
+hematuria	HP:0000790	14-23
+Evidence of HIV-seropositivity.	Eligibility	23
+Inability to stop any chemotherapy treatment for breast cancer within 3 weeks preceding high dose Samarium.	Eligibility	24
+breast cancer	DOID:1612	49-62
+Use of any investigational agent within 30 days preceding enrollment.	Eligibility	25
+Pregnant or lactating women.	Eligibility	26
+Other current or prior malignancy except for adequately treated basal cell or squamous cell skin cancer or in situ cervical cancer.	Eligibility	27
+skin cancer	DOID:4159	92-103
+cervical cancer	DOID:4362	115-130
+Myelodysplastic syndrome.	Eligibility	28
+myelodysplastic syndrome	DOID:0050908	0-24
+Subject weight of more than 125 kg.	Eligibility	29
+Outcome Measurement:	Results	0
+Time to Progression	Results	1
+time	PATO:0000165	0-4
+Time to progression is measured as the time from study entry to the development of disease progression.	Results	2
+time	PATO:0000165	0-4
+time	PATO:0000165	39-43
+disease	DOID:4,OGMS:0000031	83-90
+Time frame: 7.5 Years, Study period was March 2007 to November 2014.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Samarium 153-EDTMP + Stem Cell Transplant	Results	5
+stem cell transplant	OAE:0001532	38-58
+Arm/Group Description: Samarium 153-EDTMP tracer dose = 30 millicurie (mCi) intravenous Day 1; or with study drug to bones, receive higher therapy dose of 153 Sm-EDTMP 7-14 days after tracer dose. Stem Cell Transplant Day 0, about 14-21 days after Samarium 153-EDTMP.	Results	6
+tracer	CHEBI:35204	42-48
+tracer	CHEBI:35204	184-190
+day	UO:0000033	88-91
+day	UO:0000033	173-176
+day	UO:0000033	218-221
+day	UO:0000033	237-240
+drug	CHEBI:23888	109-113
+stem cell transplant	OAE:0001532	197-217
+Overall Number of Participants Analyzed: 12	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: Days  317        (105 to 1339)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/12 (0.00%)	Adverse Events	1

@@ -1,0 +1,170 @@
+INTERVENTION 1:	Intervention	0
+Nab-paclitaxel/Gemcitabine	Intervention	1
+Nab (nanoparticle albumin-bound)-Paclitaxel (125mg/m^2)(IV over 30 min) (days 1 and 8) on 21 day cycle and gemcitabine (1000 mg/m^2)(IV over 30 min) (days 1 and 8) on 21 day cycle	Intervention	2
+nanoparticle	CHEBI:50803	5-17
+day	UO:0000033	73-76
+day	UO:0000033	93-96
+day	UO:0000033	150-153
+day	UO:0000033	170-173
+gemcitabine	CHEBI:175901	107-118
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed invasive breast cancer	Eligibility	1
+breast cancer	DOID:1612	51-64
+- Clinical evidence of metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	34-41
++ No bone metastases or other non-measurable disease as the only evidence of metastasis	Eligibility	3
+disease	DOID:4,OGMS:0000031	45-52
+Measurable disease, defined as at least 1 measurable lesion	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+- The following are considered non-measurable disease:	Eligibility	5
+disease	DOID:4,OGMS:0000031	46-53
+Small lesions (< 2 cm)	Eligibility	6
+Bone lesions	Eligibility	7
+Leptomeningeal disease	Eligibility	8
+disease	DOID:4,OGMS:0000031	15-22
+Ascites	Eligibility	9
+ascites	HP:0001541	0-7
+Pleural or pericardial effusions	Eligibility	10
+Inflammatory breast disease	Eligibility	11
+breast disease	DOID:3463	13-27
+Lymphangitis cutis or pulmonis	Eligibility	12
+lymphangitis	DOID:9317	0-12
+Abdominal masses that are not confirmed and followed by imaging techniques	Eligibility	13
+Cystic lesions	Eligibility	14
+HER2(human epidermal growth factor receptor 2)-positive disease allowed provided patient has received prior treatment with trastuzumab	Eligibility	15
+growth factor	BAO:0002024	21-34
+receptor	BAO:0000281	35-43
+disease	DOID:4,OGMS:0000031	56-63
+patient	HADO:0000008,OAE:0001817	81-88
+No evidence of active brain metastasis, including leptomeningeal involvement	Eligibility	16
+active	PATO:0002354	15-21
+brain	UBERON:0000955	22-27
+Hormone receptor status:	Eligibility	17
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	18
+PATIENT CHARACTERISTICS:	Eligibility	19
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	20
+age	PATO:0000011	0-3
+18 and over Sex	Eligibility	21
+Female Menopausal status	Eligibility	22
+female	PATO:0000383	0-6
+Not specified Performance status	Eligibility	23
+ECOG 0-1 Life expectancy	Eligibility	24
+At least 12 weeks Hematopoietic	Eligibility	25
+Absolute neutrophil count  1,500/mm^3	Eligibility	26
+Platelet count  100,000/mm^3	Eligibility	27
+platelet count	CMO:0000029	0-14
+Hemoglobin  9 g/dL Hepatic	Eligibility	28
+hemoglobin	CHEBI:35143	0-10
+AST and ALT  2.5 times upper limit of normal (ULN)	Eligibility	29
+Bilirubin  1.5 times ULN Renal	Eligibility	30
+Creatinine  1.5 mg/dL Other	Eligibility	31
+creatinine	CHEBI:16737	0-10
+Not pregnant or nursing	Eligibility	32
+Negative pregnancy test	Eligibility	33
+Fertile patients must use effective contraception during and for 30 days after completion of study treatment	Eligibility	34
+No pre-existing peripheral neuropathy > grade 1	Eligibility	35
+peripheral neuropathy	HP:0009830,DOID:870	16-37
+No other clinically significant illness or significant medical condition that would preclude study participation	Eligibility	36
+condition	PDRO:0000129	63-72
+No history of allergy or hypersensitivity to paclitaxel protein-bound particles in an injectable suspension, paclitaxel, gemcitabine, albumin, drug product excipients, or agents that are chemically similar to study drugs	Eligibility	37
+history	BFO:0000182	3-10
+allergy	HP:0012393	14-21
+hypersensitivity	GO:0002524,DOID:1205	25-41
+paclitaxel	CHEBI:45863	45-55
+paclitaxel	CHEBI:45863	109-119
+suspension	BAO:0002104	97-107
+gemcitabine	CHEBI:175901	121-132
+drug	CHEBI:23888	143-147
+drug	CHEBI:23888	215-219
+product	BAO:0003067	148-155
+No serious medical risk factors involving any of the major organ systems that would preclude study participation	Eligibility	38
+organ	UBERON:0000062	59-64
+No active stage III or IV invasive non-breast malignancy within the past 5 years	Eligibility	39
+active	PATO:0002354	3-9
+PRIOR CONCURRENT THERAPY:	Eligibility	40
+Biologic therapy	Eligibility	41
+See Disease Characteristics Chemotherapy	Eligibility	42
+disease	DOID:4,OGMS:0000031	4-11
+No more than 1 prior adjuvant chemotherapy regimen	Eligibility	43
+adjuvant	CHEBI:60809	21-29
+No prior chemotherapy for metastatic disease	Eligibility	44
+disease	DOID:4,OGMS:0000031	37-44
+At least 6 months since prior adjuvant or neoadjuvant taxane	Eligibility	45
+adjuvant	CHEBI:60809	30-38
+adjuvant	CHEBI:60809	45-53
+taxane	CHEBI:36064	54-60
+More than 2 weeks since prior cytotoxic chemotherapy	Eligibility	46
+Prior neoadjuvant chemotherapy allowed	Eligibility	47
+No other concurrent chemotherapy Endocrine therapy	Eligibility	48
+Prior hormonal treatment as adjuvant therapy or for metastatic disease allowed Radiotherapy	Eligibility	49
+adjuvant	CHEBI:60809	28-36
+disease	DOID:4,OGMS:0000031	63-70
+radiotherapy	OAE:0000235	79-91
+Prior radiotherapy to target lesion allowed provided there is evidence of disease progression after completion of treatment	Eligibility	50
+radiotherapy	OAE:0000235	6-18
+target	BAO:0003064	22-28
+disease	DOID:4,OGMS:0000031	74-81
+More than 2 weeks since prior radiotherapy, except radiotherapy to a non-target lesion only or single-dose palliative radiotherapy	Eligibility	51
+radiotherapy	OAE:0000235	30-42
+radiotherapy	OAE:0000235	51-63
+radiotherapy	OAE:0000235	118-130
+No concurrent radiotherapy Surgery	Eligibility	52
+radiotherapy	OAE:0000235	14-26
+surgery	OAE:0000067	27-34
+Not specified Other	Eligibility	53
+More than 2 weeks since prior investigational drugs	Eligibility	54
+No concurrent participation in another clinical trial that is studying investigational procedures or therapies	Eligibility	55
+Concurrent bisphosphonates (e.g., pamidronate or zoledronate) allowed for palliation of pain or lytic lesions from breast cancer	Eligibility	56
+pamidronate	CHEBI:7903	34-45
+pain	HP:0012531	88-92
+breast cancer	DOID:1612	115-128
+Outcome Measurement:	Results	0
+Proportion of Patients With Confirmed Responses	Results	1
+Confirmed tumor response (complete and partial) as measured by RECIST(Response Evaluation Criteria In Solid Tumors) criteria on 2 consecutive evaluations at least 6 weeks apart.	Results	2
+Confirmed tumor response is at least a 30% decrease in the sum of the longest diameter of target lesions and no new lesions.	Results	3
+diameter	PATO:0001334	78-86
+target	BAO:0003064	90-96
+Time frame: Two consecutive evaluations at least 6 weeks apart	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Nab-paclitaxel/Gemcitabine	Results	6
+Arm/Group Description: Nab (nanoparticle albumin-bound)-Paclitaxel (125mg/m^2)(IV over 30 min) (days 1 and 8) on 21 day cycle and gemcitabine (1000 mg/m^2)(IV over 30 min) (days 1 and 8) on 21 day cycle	Results	7
+nanoparticle	CHEBI:50803	28-40
+day	UO:0000033	96-99
+day	UO:0000033	116-119
+day	UO:0000033	173-176
+day	UO:0000033	193-196
+gemcitabine	CHEBI:175901	130-141
+Overall Number of Participants Analyzed: 50	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  Confirmed response: 25	Results	10
+Assessable: 50	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 11/50 (22.00%)	Adverse Events	1
+Anemia 3/50 (6.00%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia 1/50 (2.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Arrythmia 1/50 (2.00%)	Adverse Events	4
+Ileus 1/50 (2.00%)	Adverse Events	5
+ileus	HP:0002595,DOID:8440	0-5
+Nausea 1/50 (2.00%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Pain-Abdominal 1/50 (2.00%)	Adverse Events	7
+Vomiting 1/50 (2.00%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Bronchial infection 1/50 (2.00%)	Adverse Events	9
+Sepsis 1/50 (2.00%)	Adverse Events	10
+sepsis	HP:0100806	0-6
+Neutropenia 2/50 (4.00%)	Adverse Events	11
+neutropenia	HP:0001875,DOID:1227	0-11
+Platelet count decreased 1/50 (2.00%)	Adverse Events	12
+platelet count	CMO:0000029	0-14
+Dehydration 1/50 (2.00%)	Adverse Events	13
+dehydration	HP:0001944	0-11
+Arthralgia 1/50 (2.00%)	Adverse Events	14
+arthralgia	HP:0002829	0-10

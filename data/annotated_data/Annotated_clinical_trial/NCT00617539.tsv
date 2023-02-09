@@ -1,0 +1,169 @@
+INTERVENTION 1:	Intervention	0
+Irinotecan and Temozolomide	Intervention	1
+irinotecan	CHEBI:80630	0-10
+temozolomide	CHEBI:72564	15-27
+irinotecan hydrochloride administered intravenously (IV) at a starting dose of 125 mg/m2 on days 1 and 15 of a 28 day cycle	Intervention	2
+irinotecan	CHEBI:80630	0-10
+hydrochloride	CHEBI:36807	11-24
+day	UO:0000033	92-95
+day	UO:0000033	114-117
+temozolomide orally for seven days at a starting dose of 100 mg/m2 on days 1-7 and days 15-21 of a 28 day cycle	Intervention	3
+temozolomide	CHEBI:72564	0-12
+day	UO:0000033	30-33
+day	UO:0000033	70-73
+day	UO:0000033	83-86
+day	UO:0000033	102-105
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed breast cancer with radiographically confirmed metastases to the brain	Eligibility	1
+breast cancer	DOID:1612	42-55
+brain	UBERON:0000955	106-111
+Extracranial metastases allowed	Eligibility	2
+Must have demonstrated progression of brain metastases after prior treatment for brain metastases, including any of the following:	Eligibility	3
+brain	UBERON:0000955	38-43
+brain	UBERON:0000955	81-86
+External beam radiotherapy	Eligibility	4
+radiotherapy	OAE:0000235	14-26
+Brachytherapy	Eligibility	5
+Stereotactic radiosurgery	Eligibility	6
+Surgery	Eligibility	7
+surgery	OAE:0000067	0-7
+Chemotherapy	Eligibility	8
+Treatments with investigational drugs, biologics, or devices	Eligibility	9
+Disease progression in the CNS must meet  1 of the following criteria:	Eligibility	10
+disease	DOID:4,OGMS:0000031	0-7
+New lesions in the CNS on an imaging study (contrast-enhanced CT scan or MRI)	Eligibility	11
+ct	BAO:0002125	62-64
+Progressive lesions on an imaging study (contrast-enhanced CT scan or MRI)	Eligibility	12
+progressive	HP:0003676	0-11
+ct	BAO:0002125	59-61
+New or progressive lesions that do not meet measurable disease definition allowed	Eligibility	13
+progressive	HP:0003676	7-18
+disease	DOID:4,OGMS:0000031	55-62
+Leptomeningeal disease allowed if concurrent progression or parenchymal brain metastases	Eligibility	14
+disease	DOID:4,OGMS:0000031	15-22
+brain	UBERON:0000955	72-77
+Not a candidate for surgical resection and/or further stereotactic radiosurgery	Eligibility	15
+Hormone receptor status not specified	Eligibility	16
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+Menopausal status not specified	Eligibility	18
+ECOG performance status 0-2	Eligibility	19
+Life expectancy  1 month	Eligibility	20
+month	UO:0000035	19-24
+Hemoglobin  10 g/dL (transfusion allowed)	Eligibility	21
+hemoglobin	CHEBI:35143	0-10
+ANC  1,500/mm³	Eligibility	22
+Granulocyte count  1,500/mm³	Eligibility	23
+Platelet count  100,000/mm³	Eligibility	24
+platelet count	CMO:0000029	0-14
+Creatinine  1.5 mg/dL	Eligibility	25
+creatinine	CHEBI:16737	0-10
+Total bilirubin  1.5 times upper limit of normal (ULN)	Eligibility	26
+AST and ALT  3 times ULN	Eligibility	27
+Must be able to swallow and retain oral medications	Eligibility	28
+No other active malignancy except for any of the following:	Eligibility	29
+active	PATO:0002354	9-15
+Curatively treated basal or squamous cell carcinoma of the skin	Eligibility	30
+squamous cell carcinoma of the skin	HP:0006739	28-63
+Carcinoma in situ of the cervix	Eligibility	31
+carcinoma	HP:0030731,DOID:305	0-9
+Other malignancies considered disease-free	Eligibility	32
+Not pregnant or nursing	Eligibility	33
+Negative pregnancy test	Eligibility	34
+Fertile patients must use effective contraception	Eligibility	35
+No history of immediate or delayed-type hypersensitivity reaction to gadolinium contrast agents or other contraindication to gadolinium contrast	Eligibility	36
+history	BFO:0000182	3-10
+hypersensitivity	GO:0002524,DOID:1205	40-56
+contraindication	OAE:0000055	105-121
+No other known contraindication to MRI including, but not limited to, any of the following:	Eligibility	37
+contraindication	OAE:0000055	15-31
+Cardiac pacemaker	Eligibility	38
+Implanted cardiac defibrillator	Eligibility	39
+Brain aneurysm clips	Eligibility	40
+brain	UBERON:0000955	0-5
+Cochlear implant	Eligibility	41
+Ocular foreign body	Eligibility	42
+Shrapnel	Eligibility	43
+No active or uncontrolled infection	Eligibility	44
+active	PATO:0002354	3-9
+PRIOR CONCURRENT THERAPY:	Eligibility	45
+See Disease Characteristics	Eligibility	46
+disease	DOID:4,OGMS:0000031	4-11
+Recovered from the side effects of prior chemotherapy, surgery, or radiotherapy for extracranial disease or brain metastases	Eligibility	47
+surgery	OAE:0000067	55-62
+radiotherapy	OAE:0000235	67-79
+disease	DOID:4,OGMS:0000031	97-104
+brain	UBERON:0000955	108-113
+Concurrent trastuzumab, bisphosphonate, and/or corticosteroid therapy allowed	Eligibility	48
+corticosteroid	CHEBI:50858	47-61
+At least 1 week since prior or on current stable dose of corticosteroid therapy	Eligibility	49
+week	UO:0000034	11-15
+stable	HP:0031915	42-48
+corticosteroid	CHEBI:50858	57-71
+Patients on an enzyme-inducing anti-epileptic agent (EIAE) or valproic acid are eligible if they are switched to an alternate non-EIAE medication	Eligibility	50
+valproic acid	CHEBI:39867	62-75
+Concurrent coumadin allowed	Eligibility	51
+No prophylactic use of filgrastim (G-CSF) during first course of treatment	Eligibility	52
+Outcome Measurement:	Results	0
+Number of Patients With Objective Treatment Response (Complete or Partial) in the CNS	Results	1
+Imaging was performed at 8-week intervals to assess response to treatment. Patients with known or suspected leptomeningeal disease were deemed to have a complete response if CSF cytology converted to negative (if positive at baseline) and all meningeal enhancement or nodularity of brain and/or spine MRI resolved. A modified RECIST 1.0 criteria was used to assess CNS response for patients with new or progressing brain metastases. In this modified RECIST criteria, CNS lesions <1cm were not considered measurable, but were considered evaluable for response and progression. Progressive disease for patients with lesions <1 cm was defined as follows: growth of a lesion from less than or equal to 5 mm to greater than or equal to 10mm; or, growth of a 6-9 mm lesion by at least 5 mm in the case of non-target parenchymal brain metastases.	Results	2
+disease	DOID:4,OGMS:0000031	123-130
+disease	DOID:4,OGMS:0000031	588-595
+brain	UBERON:0000955	282-287
+brain	UBERON:0000955	415-420
+brain	UBERON:0000955	822-827
+progressive	HP:0003676	576-587
+growth	GO:0040007	652-658
+growth	GO:0040007	741-747
+Time frame: Baseline scan prior to study entry was performed within 14 days of cycle 1 day 1, then every 8 weeks from then until disease progression or up to 2 years	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	71-74
+day	UO:0000033	87-90
+disease	DOID:4,OGMS:0000031	129-136
+Results 1:	Results	4
+Arm/Group Title: Irinotecan and Temozolomide	Results	5
+irinotecan	CHEBI:80630	17-27
+temozolomide	CHEBI:72564	32-44
+Arm/Group Description: irinotecan hydrochloride administered intravenously (IV) at a starting dose of 125 mg/m2 on days 1 and 15 of a 28 day cycle	Results	6
+irinotecan	CHEBI:80630	23-33
+hydrochloride	CHEBI:36807	34-47
+day	UO:0000033	115-118
+day	UO:0000033	137-140
+temozolomide orally for seven days at a starting dose of 100 mg/m2 on days 1-7 and days 15-21 of a 28 day cycle	Results	7
+temozolomide	CHEBI:72564	0-12
+day	UO:0000033	30-33
+day	UO:0000033	70-73
+day	UO:0000033	83-86
+day	UO:0000033	102-105
+Overall Number of Participants Analyzed: 30	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  2   6.7%	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 16/30 (53.33%)	Adverse Events	1
+Lymphopenia * 16/30 (53.33%)	Adverse Events	2
+lymphopenia	HP:0001888,DOID:614	0-11
+Leukopenia * 5/30 (16.67%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 5/30 (16.67%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Anemia * 3/30 (10.00%)	Adverse Events	5
+anemia	HP:0001903,DOID:2355	0-6
+Thrombocytopenia * 3/30 (10.00%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Vomiting * 2/30 (6.67%)	Adverse Events	7
+vomiting	HP:0002013	0-8
+Nausea * 1/30 (3.33%)	Adverse Events	8
+nausea	HP:0002018	0-6
+Diarrhea * 1/30 (3.33%)	Adverse Events	9
+diarrhea	HP:0002014,DOID:13250	0-8
+Dysphagia * 1/30 (3.33%)	Adverse Events	10
+dysphagia	HP:0002015	0-9
+Fatigue * 3/30 (10.00%)	Adverse Events	11
+fatigue	HP:0012378	0-7
+Dehydration * 2/30 (6.67%)	Adverse Events	12
+dehydration	HP:0001944	0-11
+Alkaline phosphatase increased * 1/30 (3.33%)	Adverse Events	13
+phosphatase	GO:0016791,BAO:0000295	9-20

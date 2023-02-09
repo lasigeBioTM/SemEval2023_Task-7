@@ -1,0 +1,159 @@
+INTERVENTION 1:	Intervention	0
+Arm A (Cint)	Intervention	1
+Capecitabine will be administered orally at a dose of 1250 mg/m2 twice-daily (in the morning and in the evening, the equivalent of a total daily dose of 2500 mg/m2) for 14 days, in 3 week cycles with a resting period of 7 days,until disease progression or severe toxicity.	Intervention	2
+capecitabine	CHEBI:31348	0-12
+week	UO:0000034	183-187
+disease	DOID:4,OGMS:0000031	233-240
+severe	HP:0012828	256-262
+INTERVENTION 2:	Intervention	3
+Arm B (Ccont)	Intervention	4
+Capecitabine 800 mg/m2 orally twice-daily (in the morning and in the evening the equivalent of one dose of 1600 mg/m2) for 21 days, in 3 week cycles without resting period, until disease progression or severe toxicity.	Intervention	5
+capecitabine	CHEBI:31348	0-12
+week	UO:0000034	137-141
+disease	DOID:4,OGMS:0000031	179-186
+severe	HP:0012828	202-208
+Inclusion Criteria	Eligibility	0
+Patients diagnosed with metastatic breast cancer	Eligibility	1
+breast cancer	DOID:1612	35-48
+Patients that either have received previous treatment with anthracyclines and/or taxanes or not (either as advance or in metastatic disease).	Eligibility	2
+disease	DOID:4,OGMS:0000031	132-139
+The patient is ambulatory with a functional ECOG < 2 status (see Appendix 2).	Eligibility	3
+patient	HADO:0000008,OAE:0001817	4-11
+functional	BAO:0000010	33-43
+Patient presents, at least one lesion measurable according to RECIST criteria (see Appendix 3)	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+Patients with a life expectancy of at least 3 months.	Eligibility	5
+Patients that agree to and are able to fulfill the requirements of the whole protocol through the whole study.	Eligibility	6
+Exclusion criteria:	Eligibility	7
+Patients that have previously shown unexpected severe reactions to therapy with fluoropyrimidines or with a known sensitivity to 5-fluorouracile.	Eligibility	8
+severe	HP:0012828	47-53
+Patients previously treated with capecitabine.	Eligibility	9
+capecitabine	CHEBI:31348	33-45
+Patients with organ transplants.	Eligibility	10
+organ	UBERON:0000062	14-19
+Other diseases or severe affections:	Eligibility	11
+severe	HP:0012828	18-24
+Patients with previous convulsions, central nervous system diseases or psychiatric diseases, including dementia, that the investigator might consider clinically significant and which adversely affect therapeutic compliance.	Eligibility	12
+central nervous system	UBERON:0001017	36-58
+dementia	HP:0000726,DOID:1307	103-111
+Patients with severe intellectual impairment, unable to carry out basic daily routines and established depression.	Eligibility	13
+severe	HP:0012828	14-20
+depression	HP:0000716	103-113
+Clinical significant cardiac disease (e. g. . congestive heart failure, symptomatic coronary artery disease and cardiac arrhythmia not fully controlled with medication) or myocardial infarction within the last 12 months.	Eligibility	14
+disease	DOID:4,OGMS:0000031	29-36
+disease	DOID:4,OGMS:0000031	100-107
+congestive heart failure	HP:0001635,DOID:6000	46-70
+coronary artery disease	DOID:3393	84-107
+arrhythmia	HP:0011675	120-130
+myocardial infarction	HP:0001658,DOID:5844	172-193
+Severe renal impairment (baseline creatinine clearance < 30 ml/min)	Eligibility	15
+severe	HP:0012828	0-6
+creatinine clearance	CMO:0000765	34-54
+Patients with signs of metastasis in the CNS. Patients with a history of uncontrolled convulsions, central nervous system disorders or psychiatric disability judged by the investigator to be clinically significant precluding informed consent or interfering with compliance for oral drug intake should be excluded.	Eligibility	16
+history	BFO:0000182	62-69
+central nervous system	UBERON:0001017	99-121
+drug	CHEBI:23888	282-286
+excluded	HP:0040285	304-312
+Patients with an active infection.	Eligibility	17
+active	PATO:0002354	17-23
+Patients with a history of other neoplasias during the previous five years, except for basal cell skin cancer or cervical cancer in situ, both cured.	Eligibility	18
+history	BFO:0000182	16-23
+skin cancer	DOID:4159	98-109
+cervical cancer	DOID:4362	113-128
+Patients showing the following laboratory values:	Eligibility	19
+Neutrophil count < 555 x 109/l	Eligibility	20
+x	LABO:0000148	23-24
+Platelet count< 100 x 109/l	Eligibility	21
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	20-21
+Serum creatinine > 1,5 x upper normality limit	Eligibility	22
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	23-24
+seric bilirubin > 2,0 x upper normality limit	Eligibility	23
+x	LABO:0000148	22-23
+ALAT, ASAT > 2,5 x upper normality limit or > 5 x upper normality limit in case of liver metastases	Eligibility	24
+x	LABO:0000148	17-18
+x	LABO:0000148	48-49
+liver	UBERON:0002107	83-88
+Alkaline phosphatase > 2,5 x upper normality limit > 5 x upper normality limit in case of liver metastases o > 10 x upper normality limit in case of bone metastases.	Eligibility	25
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	27-28
+x	LABO:0000148	55-56
+x	LABO:0000148	114-115
+liver	UBERON:0002107	90-95
+Patients under radiotherapy four weeks prior to the initiation of the study treatment, or under previous radiotherapy on the marker lesions be measured during the study (new marker lesions that appear in previously irradiated areas are accepted) or patients who are receiving programmed radiotherapy.	Eligibility	26
+radiotherapy	OAE:0000235	15-27
+radiotherapy	OAE:0000235	105-117
+radiotherapy	OAE:0000235	287-299
+Patients under major surgery within 4 weeks prior to study treatment or who have not completely recovered from the effects of major surgery.	Eligibility	27
+surgery	OAE:0000067	21-28
+surgery	OAE:0000067	132-139
+Patients who lack upper gastrointestinal tract physical integrity or with malabsorption syndrome.	Eligibility	28
+malabsorption	HP:0002024	74-87
+syndrome	DOID:225	88-96
+Patients who have received more than two cycles of chemotherapy for the metastatic disease.	Eligibility	29
+disease	DOID:4,OGMS:0000031	83-90
+Patients Her2 + per FISH ó +++ Immunohistochemistry	Eligibility	30
+immunohistochemistry	BAO:0000415	31-51
+Outcome Measurement:	Results	0
+Time to Progression	Results	1
+time	PATO:0000165	0-4
+Time to Progression (TTP) is defined as the time (in months) from the moment the patient starts the study treatment to the date of progressive disease. That is, a patient has an event is she progresses or dies due to progressive disease. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0).	Results	2
+time	PATO:0000165	0-4
+time	PATO:0000165	44-48
+ttp	CHEBI:63550	21-24
+patient	HADO:0000008,OAE:0001817	81-88
+patient	HADO:0000008,OAE:0001817	163-170
+starts	RO:0002223	89-95
+progressive	HP:0003676	131-142
+progressive	HP:0003676	217-228
+disease	DOID:4,OGMS:0000031	143-150
+disease	DOID:4,OGMS:0000031	229-236
+Time frame: After 1 year from the treatment start day.	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	20-24
+day	UO:0000033	50-53
+Results 1:	Results	4
+Arm/Group Title: Arm A (Cint)	Results	5
+Arm/Group Description: Capecitabine will be administered orally at a dose of 1250 mg/m2 twice-daily (in the morning and in the evening, the equivalent of a total daily dose of 2500 mg/m2) for 14 days, in 3 week cycles with a resting period of 7 days,until disease progression or severe toxicity.	Results	6
+capecitabine	CHEBI:31348	23-35
+week	UO:0000034	206-210
+disease	DOID:4,OGMS:0000031	256-263
+severe	HP:0012828	279-285
+Overall Number of Participants Analyzed: 72	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  8.68        (6.55 to 11.05)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm B (Ccont)	Results	11
+Arm/Group Description: Capecitabine 800 mg/m2 orally twice-daily (in the morning and in the evening the equivalent of one dose of 1600 mg/m2) for 21 days, in 3 week cycles without resting period, until disease progression or severe toxicity.	Results	12
+capecitabine	CHEBI:31348	23-35
+week	UO:0000034	160-164
+disease	DOID:4,OGMS:0000031	202-209
+severe	HP:0012828	225-231
+Overall Number of Participants Analyzed: 84	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  6.84        (6.02 to 8.06)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 13/95 (13.68%)	Adverse Events	1
+Neutrophils/granulocytes (ANC/AGC)1/95 (1.05%)	Adverse Events	2
+Ventricular arrhythmia1/95 (1.05%)	Adverse Events	3
+Diarrhea6/95 (6.32%)	Adverse Events	4
+Obstruction1/95 (1.05%)	Adverse Events	5
+Mucositis/stomatitis1/95 (1.05%)	Adverse Events	6
+Febrile neutropenia2/95 (2.11%)	Adverse Events	7
+Infection with unknown ANC0/95 (0.00%)	Adverse Events	8
+Dizziness1/95 (1.05%)	Adverse Events	9
+Renal failure0/95 (0.00%)	Adverse Events	10
+Adverse Events 2:	Adverse Events	11
+Total: 4/97 (4.12%)	Adverse Events	12
+Neutrophils/granulocytes (ANC/AGC)1/97 (1.03%)	Adverse Events	13
+Ventricular arrhythmia0/97 (0.00%)	Adverse Events	14
+Diarrhea0/97 (0.00%)	Adverse Events	15
+Obstruction0/97 (0.00%)	Adverse Events	16
+Mucositis/stomatitis0/97 (0.00%)	Adverse Events	17
+Febrile neutropenia0/97 (0.00%)	Adverse Events	18
+Infection with unknown ANC1/97 (1.03%)	Adverse Events	19
+Dizziness0/97 (0.00%)	Adverse Events	20
+Renal failure1/97 (1.03%)	Adverse Events	21

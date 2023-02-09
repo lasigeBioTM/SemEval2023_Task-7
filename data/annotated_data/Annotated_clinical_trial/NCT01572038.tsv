@@ -1,0 +1,150 @@
+INTERVENTION 1:	Intervention	0
+Pertuzumab + Trastuzumab + Taxane	Intervention	1
+taxane	CHEBI:36064	27-33
+Participants received pertuzumab and trastuzumab intravenously (IV) plus taxane chemotherapy once of every 3 weeks per treatment cycle until predefined study end, unacceptable toxicity, withdrawal of consent, disease progression, or death, whichever occurred first. Taxane chemotherapy was docetaxel, paclitaxel, or nab-paclitaxel, per the investigator's choice.	Intervention	2
+taxane	CHEBI:36064	73-79
+taxane	CHEBI:36064	266-272
+disease	DOID:4,OGMS:0000031	209-216
+death	OAE:0000632	233-238
+paclitaxel	CHEBI:45863	301-311
+paclitaxel	CHEBI:45863	320-330
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed adenocarcinoma of the breast with metastatic or locally recurrent disease not amenable to curative resection	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+recurrent	HP:0031796	98-107
+disease	DOID:4,OGMS:0000031	108-115
+HER2-positive breast cancer	Eligibility	2
+breast cancer	DOID:1612	14-27
+Eastern cooperative Oncology Group (ECOG) performance status 0, 1 or 2	Eligibility	3
+group	CHEBI:24433	29-34
+LVEF of at least 50 percent (%)	Eligibility	4
+percent	UO:0000187	20-27
+Exclusion Criteria:	Eligibility	5
+Previous systemic non-hormonal anti-cancer therapy for metastatic or locally recurrent disease	Eligibility	6
+recurrent	HP:0031796	77-86
+disease	DOID:4,OGMS:0000031	87-94
+Disease-free interval from completion of adjuvant or neoadjuvant systemic non-hormonal treatment to recurrence less than or equal to (</=) 6 months	Eligibility	7
+adjuvant	CHEBI:60809	41-49
+adjuvant	CHEBI:60809	56-64
+Previous approved or investigative anti-HER2 agents in any breast cancer treatment setting, except for trastuzumab and/or lapatinib in the adjuvant or neoadjuvant setting	Eligibility	8
+breast cancer	DOID:1612	59-72
+lapatinib	CHEBI:49603	122-131
+adjuvant	CHEBI:60809	139-147
+adjuvant	CHEBI:60809	154-162
+Disease progression while receiving trastuzumab and/or lapatinib in the adjuvant or neoadjuvant setting	Eligibility	9
+disease	DOID:4,OGMS:0000031	0-7
+lapatinib	CHEBI:49603	55-64
+adjuvant	CHEBI:60809	72-80
+adjuvant	CHEBI:60809	87-95
+History of persistent Grade 2 or higher (National Cancer Institute Common Toxicity Criteria [NCI-CTC], Version 4.0) hematological toxicity resulting from previous adjuvant or neoadjuvant therapy	Eligibility	10
+history	BFO:0000182	0-7
+cancer	DOID:162	50-56
+adjuvant	CHEBI:60809	163-171
+adjuvant	CHEBI:60809	178-186
+Central nervous system (CNS) metastases	Eligibility	11
+central nervous system	UBERON:0001017	0-22
+Current peripheral neuropathy of Grade 3 or greater (NCI-CTC, version 4.0)	Eligibility	12
+peripheral neuropathy	HP:0009830,DOID:870	8-29
+History of other malignancy within the last 5 years prior to first study drug administration, except for carcinoma in situ of the cervix or basal cell carcinoma	Eligibility	13
+history	BFO:0000182	0-7
+drug administration	OAE:0000011	73-92
+carcinoma	HP:0030731,DOID:305	105-114
+carcinoma	HP:0030731,DOID:305	151-160
+basal cell carcinoma	HP:0002671,DOID:2513	140-160
+Inadequate bone marrow, liver or renal function	Eligibility	14
+bone marrow	UBERON:0002371	11-22
+liver	UBERON:0002107	24-29
+function	BAO:0003117,BFO:0000034	39-47
+Uncontrolled hypertension	Eligibility	15
+hypertension	HP:0000822,DOID:10763	13-25
+Hepatitis B, hepatitis C or Human Immunodeficiency Virus (HIV) infection	Eligibility	16
+hepatitis b	DOID:2043	0-11
+hepatitis c	DOID:1883	13-24
+immunodeficiency	HP:0002721	34-50
+virus	BAO:0000232	51-56
+Outcome Measurement:	Results	0
+Overview of the Number of Participants With at Least One Treatment-Emergent Adverse Event, Severity Determined According to National Cancer Institute Common Terminology Criteria for Adverse Events, Version 4.0 (NCI-CTCAE v4.0)	Results	1
+adverse event	OAE:0000001	76-89
+adverse event	OAE:0000001	182-195
+severity	HP:0012824	91-99
+cancer	DOID:162	133-139
+Treatment-emergent adverse events (TEAEs) were adverse events (AEs) that started or worsened in severity on or after the first administration of study drug, up to and including 28 days after the last dose. The investigator graded all AEs for severity per NCI-CTCAE v4.0; if not listed, the AE was assessed as follows: Grade 1 = mild; Grade 2 = moderate; Grade 3 = severe; Grade 4 = life-threatening/disabling; Grade 5 = death. The investigator determined whether an AE was related to study drug and independently assessed severity and seriousness of each AE. TEAEs to monitor included anaphylaxis and hypersensitivity, cardiac dysfunction, diarrhoea Grade 3, pregnancy-related AEs, interstitial lung disease, infusion-/administration-related reactions, mucositis, (febrile) neutropenia, rash/skin reactions, and suspected transmission of infectious agent. TEAEs of special interest included LVEF decreased, liver enzymes increased, and suspected transmission of infectious agent by the study drug.	Results	2
+severity	HP:0012824	96-104
+severity	HP:0012824	242-250
+severity	HP:0012824	522-530
+drug	CHEBI:23888	151-155
+drug	CHEBI:23888	490-494
+drug	CHEBI:23888	992-996
+mild	HP:0012825	328-332
+moderate	HP:0012826	344-352
+severe	HP:0012828	364-370
+death	OAE:0000632	420-425
+hypersensitivity	GO:0002524,DOID:1205	601-617
+interstitial lung disease	DOID:3082	682-707
+mucositis	DOID:0080178	753-762
+neutropenia	HP:0001875,DOID:1227	774-785
+liver	UBERON:0002107	907-912
+Time frame: From Baseline until 28 days after, or 7 months after (only for serious AEs related to study drug), the last dose of study treatment. The median (full range) duration of exposure to any study treatment was 16.2 (0.0-86.4) months.	Results	3
+time	PATO:0000165	0-4
+drug	CHEBI:23888	104-108
+median	BAO:0002174	149-155
+range	LABO:0000114	162-167
+duration	PATO:0001309	169-177
+Results 1:	Results	4
+Arm/Group Title: Pertuzumab + Trastuzumab + Taxane	Results	5
+taxane	CHEBI:36064	44-50
+Arm/Group Description: Participants received pertuzumab and trastuzumab intravenously (IV) plus taxane chemotherapy once of every 3 weeks per treatment cycle until predefined study end, unacceptable toxicity, withdrawal of consent, disease progression, or death, whichever occurred first. Taxane chemotherapy was docetaxel, paclitaxel, or nab-paclitaxel, per the investigator's choice.	Results	6
+taxane	CHEBI:36064	96-102
+taxane	CHEBI:36064	289-295
+disease	DOID:4,OGMS:0000031	232-239
+death	OAE:0000632	256-261
+paclitaxel	CHEBI:45863	324-334
+paclitaxel	CHEBI:45863	343-353
+Overall Number of Participants Analyzed: 1436	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Any TEAE - Any Grade: 1419  98.8%	Results	9
+Any TEAE - Grade 3 or Higher (  3): 879  61.2%	Results	10
+Any Serious TEAE: 535  37.3%	Results	11
+Any TEAE Leading to Death: 31   2.2%	Results	12
+death	OAE:0000632	20-25
+Any TEAE Related to Pertuzumab - Any Grade: 1037  72.2%	Results	13
+Any TEAE Related to Trastuzumab - Any Grade: 946  65.9%	Results	14
+Any TEAE Related to Taxane - Any Grade: 1342  93.5%	Results	15
+taxane	CHEBI:36064	20-26
+Any TEAE Related to Pertuzumab - Grade   3: 286  19.9%	Results	16
+Any TEAE Related to Trastuzumab - Grade   3: 245  17.1%	Results	17
+Any TEAE Related to Taxane - Grade   3: 514  35.8%	Results	18
+taxane	CHEBI:36064	20-26
+Any TEAE Leading to Interruption of Pertuzumab: 334  23.3%	Results	19
+Any TEAE Leading to Interruption of Trastuzumab: 386  26.9%	Results	20
+Any TEAE Leading to Interruption of Taxane: 354  24.7%	Results	21
+taxane	CHEBI:36064	36-42
+Any TEAE Leading to Discontinuation of Pertuzumab: 140   9.7%	Results	22
+Any TEAE Leading to Discontinuation of Trastuzumab: 133   9.3%	Results	23
+Any TEAE Leading to Discontinuation of Taxane: 286  19.9%	Results	24
+taxane	CHEBI:36064	39-45
+Any TEAE to Monitor - Any Grade: 1320  91.9%	Results	25
+Any TEAE to Monitor - Grade   3: 535  37.3%	Results	26
+Any TEAE of Special Interest: 91   6.3%	Results	27
+Any TEAE Within 28 Days of Treatmt Discontinuation: 975  67.9%	Results	28
+Adverse Events 1:	Adverse Events	0
+Total: 535/1436 (37.26%)	Adverse Events	1
+Febrile neutropenia 71/1436 (4.94%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 47/1436 (3.27%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 8/1436 (0.56%)	Adverse Events	4
+Leukopenia 2/1436 (0.14%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Bone marrow failure 1/1436 (0.07%)	Adverse Events	6
+bone marrow	UBERON:0002371	0-11
+Febrile bone marrow aplasia 1/1436 (0.07%)	Adverse Events	7
+bone marrow	UBERON:0002371	8-19
+Thrombocytopenia 1/1436 (0.07%)	Adverse Events	8
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure 12/1436 (0.84%)	Adverse Events	9
+Atrial fibrillation 8/1436 (0.56%)	Adverse Events	10
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial thrombosis 2/1436 (0.14%)	Adverse Events	11
+thrombosis	DOID:0060903	7-17

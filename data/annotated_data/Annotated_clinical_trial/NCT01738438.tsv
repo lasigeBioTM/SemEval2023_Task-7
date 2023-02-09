@@ -1,0 +1,95 @@
+INTERVENTION 1:	Intervention	0
+Cabozantinib	Intervention	1
+cabozantinib	CHEBI:72317	0-12
+Cabozantinib was given at a dose of 60 mg orally once per day for 21 day cycles. Treatment continued in the absence of disease progression or unacceptable toxicity.	Intervention	2
+cabozantinib	CHEBI:72317	0-12
+day	UO:0000033	58-61
+day	UO:0000033	69-72
+disease	DOID:4,OGMS:0000031	119-126
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed invasive breast cancer with stage IV disease	Eligibility	1
+breast cancer	DOID:1612	51-64
+disease	DOID:4,OGMS:0000031	79-86
+Primary tumor and/or metastasis must be ER-negative, PR-negative and HER2-negative	Eligibility	2
+May have received 0-3 prior chemotherapeutic regimens for metastatic breast cancer. Must be off treatment for at least 21 days prior to enrollment	Eligibility	3
+breast cancer	DOID:1612	69-82
+Must have discontinued all biologic therapy at least 14 days before enrollment	Eligibility	4
+May have received prior radiation therapy in the early stage or metastatic setting, but must have completed treatment at least 14 days prior to enrollment	Eligibility	5
+Must agree to use medically acceptable methods of contraception	Eligibility	6
+Confirmed availability of formalin-fixed, paraffin-embedded tumor tissue	Eligibility	7
+tissue	UBERON:0000479	66-72
+Able to swallow tablets	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Pregnant or breastfeeding	Eligibility	10
+Received another investigational agent within 14 days prior to enrollment	Eligibility	11
+Received prior c-Met inhibitor	Eligibility	12
+inhibitor	CHEBI:35222	21-30
+Known brain metastases that are untreated, symptomatic or require therapy to control symptoms	Eligibility	13
+brain	UBERON:0000955	6-11
+Psychiatric illness or social situation that could limit ability to comply with study requirements	Eligibility	14
+Require concomitant treatment in therapeutic doses with anticoagulants or antiplatelet agents	Eligibility	15
+Diagnosis of another malignancy requiring systemic treatment within the last two years (except non-melanoma skin cancer or in-situ carcinoma of the cervix)	Eligibility	16
+skin cancer	DOID:4159	108-119
+carcinoma	HP:0030731,DOID:305	131-140
+Known to be positive for HIV	Eligibility	17
+Active infection requiring IV antibiotics at Day 1 of cycle 1	Eligibility	18
+active	PATO:0002354	0-6
+day	UO:0000033	45-48
+Uncontrolled, significant intercurrent illness	Eligibility	19
+Requires chronic concomitant treatment of a strong CYP3A4 inducer	Eligibility	20
+chronic	HP:0011010	9-16
+inducer	BAO:0003058	58-65
+tumor in contact with, invading or encasing major blood vessels	Eligibility	21
+blood	UBERON:0000178	50-55
+Have experienced clinically significant gastrointestinal bleeding within 6 months, hemoptysis of more than 0.5 teaspoon of red blood within 3 months or other signs indicative of pulmonary hemorrhage within 3 months of enrollment	Eligibility	22
+hemoptysis	HP:0002105	83-93
+blood	UBERON:0000178	127-132
+pulmonary hemorrhage	HP:0040223	178-198
+Outcome Measurement:	Results	0
+Objective Response Rate	Results	1
+rate	BAO:0080019	19-23
+The objective response rate (ORR) was defined as achieving complete response (CR) or partial response (PR) on treatment based on RECIST1.1 criteria. For target lesions: CR is complete disappearance of all target lesions and PR is at least a 30% decrease in the sum of longest diameter (LD) of target lesions, taking as reference baseline sum LD. PR or better overall response assumes at a minimum incomplete response/stable disease (SD) for the evaluation of non-target lesions and absence of new lesions. Confirmatory scans were required 3 weeks following initial documentation.	Results	2
+rate	BAO:0080019	23-27
+target	BAO:0003064	153-159
+target	BAO:0003064	205-211
+target	BAO:0003064	293-299
+target	BAO:0003064	463-469
+diameter	PATO:0001334	276-284
+disease	DOID:4,OGMS:0000031	424-431
+Time frame: Disease was evaluated radiologically at baseline, week 6 and every 9 weeks on treatment; Treatment continued until disease progression or unacceptable toxicity. Treatment duration was a median of 3 cycles range (1-17).	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	12-19
+disease	DOID:4,OGMS:0000031	127-134
+week	UO:0000034	62-66
+week	UO:0000034	81-85
+duration	PATO:0001309	183-191
+median	BAO:0002174	198-204
+range	LABO:0000114	217-222
+Results 1:	Results	4
+Arm/Group Title: Cabozantinib	Results	5
+cabozantinib	CHEBI:72317	17-29
+Arm/Group Description: Cabozantinib was given at a dose of 60 mg orally once per day for 21 day cycles. Treatment continued in the absence of disease progression or unacceptable toxicity.	Results	6
+cabozantinib	CHEBI:72317	23-35
+day	UO:0000033	81-84
+day	UO:0000033	92-95
+disease	DOID:4,OGMS:0000031	142-149
+Overall Number of Participants Analyzed: 35	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: proportion of participants  0.09        (0.02 to 0.26)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 14/35 (40.00%)	Adverse Events	1
+Infections and infestations - Other 1/35 (2.86%)	Adverse Events	2
+Wound dehiscence 1/35 (2.86%)	Adverse Events	3
+dehiscence	GO:0009900	6-16
+Activated partial thromboplastin time prolonged 1/35 (2.86%)	Adverse Events	4
+activated partial thromboplastin time	CMO:0000210	0-37
+prolonged	HP:0025297	38-47
+Alanine aminotransferase increased 1/35 (2.86%)	Adverse Events	5
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased 2/35 (5.71%)	Adverse Events	6
+aspartate	CHEBI:29995	0-9
+Lipase increased 3/35 (8.57%)	Adverse Events	7
+Hypophosphatemia 1/35 (2.86%)	Adverse Events	8
+hypophosphatemia	HP:0002148,DOID:0050336	0-16
+Bone pain 2/35 (5.71%)	Adverse Events	9
+bone pain	HP:0002653	0-9

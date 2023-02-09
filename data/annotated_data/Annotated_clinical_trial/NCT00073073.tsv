@@ -1,0 +1,148 @@
+INTERVENTION 1:	Intervention	0
+Exemestane	Intervention	1
+exemestane	CHEBI:4953	0-10
+exemestane 25 mg by mouth (PO) every day for two years taken with calcium carbonate 1200 mg PO every day and vitamin D 400 IU PO every day Initially patients were initially planned to receive Celecoxib but the study was amended prior to any subject going on and Celecoxib was never administered to any subjects.	Intervention	2
+exemestane	CHEBI:4953	0-10
+mouth	UBERON:0000165	20-25
+day	UO:0000033	37-40
+day	UO:0000033	101-104
+day	UO:0000033	135-138
+calcium carbonate	CHEBI:3311	66-83
+vitamin d	CHEBI:27300	109-118
+celecoxib	CHEBI:41423	192-201
+celecoxib	CHEBI:41423	262-271
+Exemestane: exemestane 25 mg by mouth (PO) every day for two years	Intervention	3
+exemestane	CHEBI:4953	0-10
+exemestane	CHEBI:4953	12-22
+mouth	UBERON:0000165	32-37
+day	UO:0000033	49-52
+Calcium carbonate: calcium carbonate 1200 mg PO every day x 2 years	Intervention	4
+calcium carbonate	CHEBI:3311	0-17
+calcium carbonate	CHEBI:3311	19-36
+day	UO:0000033	54-57
+x	LABO:0000148	58-59
+Vitamin D: Vitamin D 400 international units PO every day x 2 years	Intervention	5
+vitamin d	CHEBI:27300	0-9
+vitamin d	CHEBI:27300	11-20
+day	UO:0000033	54-57
+x	LABO:0000148	58-59
+INCLUSION CRITERIA:	Eligibility	0
+Postmenopausal female.	Eligibility	1
+female	PATO:0000383	15-21
+Postmenopausal defined as no menses for at least 12 months or bilateral oophorectomy. In unclear cases, (e.g. 50 year old who has had hysterectomy) chemical confirmation of postmenopausal status may be confirmed with follicle stimulating hormone (FSH) greater than 35 U/L.	Eligibility	2
+bilateral	HP:0012832	62-71
+year	UO:0000036	113-117
+follicle stimulating hormone	CHEBI:81569	217-245
+Elevated risk for developing invasive breast cancer by virtue of one of the following criteria:	Eligibility	3
+breast cancer	DOID:1612	38-51
+Gail Model risk of greater than or equal to 1.7% over 5 years from study entry. (This is the same minimum level of risk required for a subject to be eligible for the recently completed NSABP-P1 tamoxifen breast cancer prevention trial).	Eligibility	4
+tamoxifen	CHEBI:41774	194-203
+breast cancer	DOID:1612	204-217
+Lobular neoplasia.	Eligibility	5
+lobular neoplasia	DOID:3010	0-17
+Atypical ductal hyperplasia.	Eligibility	6
+DCIS (ductal carcinoma in situ) that has been previously treated with mastectomy or lumpectomy and radiation, +/- tamoxifen.	Eligibility	7
+ductal carcinoma in situ	HP:0030075,DOID:0060074	6-30
+tamoxifen	CHEBI:41774	114-123
+Deleterious mutations in BRCA1 or 2 OR A priori risk assessment of 20% chance or greater of carrying BRCA1/2 gene mutation. The BRCAPRO and Couch model will both be used to asses this risk. If a woman has a 20% risk of carrying a BRCA1/2 mutation by either model, she will meet eligibility criteria.	Eligibility	8
+gene	BAO:0000582	109-113
+Prior stage I or II breast cancer at least 2 years out from treatment for invasive disease and no prior use of aromatase inhibitors.	Eligibility	9
+breast cancer	DOID:1612	20-33
+disease	DOID:4,OGMS:0000031	83-90
+Subjects should be willing to abstain from use of hormonal therapies (e.g. tamoxifen, hormone replacement therapy, oral contraceptive pills, hormone-containing intrauterine devices (IUDs). E-string is acceptable). Venlafaxine will be offered as supportive care for women with menopausal symptoms.	Eligibility	10
+tamoxifen	CHEBI:41774	75-84
+hormone	CHEBI:24621	86-93
+hormone	CHEBI:24621	141-148
+oral contraceptive	CHEBI:49325	115-133
+venlafaxine	CHEBI:9943	214-225
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1.	Eligibility	11
+group	CHEBI:24433	29-34
+Subject has been counseled regarding her options and has signed the informed consent document.	Eligibility	12
+document	IAO:0000310	85-93
+Baseline dual-emission x-ray absorptiometry (DEXA) scan with bone mineral density (BMD) T-score greater than or equal to 2.5 at antero posterior (AP) spine.	Eligibility	13
+bone mineral density	CMO:0001226	61-81
+Hemoglobin greater than or equal to 11 g/dl.	Eligibility	14
+hemoglobin	CHEBI:35143	0-10
+Creatinine less than 1.5 times the upper limits of normal.	Eligibility	15
+creatinine	CHEBI:16737	0-10
+Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) less than 2.5 times upper limit of normal.	Eligibility	16
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	34-43
+No investigational agent for the past 30 days.	Eligibility	17
+If history of cancer (other than squamous or basal cell skin cancers), subject must have no evidence of disease at time of enrollment AND no history of cancer directed treatment in the 2 years preceding enrollment.	Eligibility	18
+history	BFO:0000182	3-10
+history	BFO:0000182	141-148
+cancer	DOID:162	14-20
+cancer	DOID:162	61-67
+cancer	DOID:162	152-158
+disease	DOID:4,OGMS:0000031	104-111
+time	PATO:0000165	115-119
+EXCLUSION CRITERIA:	Eligibility	19
+Current or recent chronic use (within 3 months) of hormonal medications, e.g. oral contraceptive pills, hormone replacement therapy, tamoxifen, raloxifene, IUD with progestins or corticosteroids. (Subjects on chronic topical or inhaled steroids will be eligible for the study.) Current use of phenytoin, carbamazepine, rifampin due to increased estrogen metabolism.	Eligibility	20
+chronic	HP:0011010	18-25
+chronic	HP:0011010	209-216
+oral contraceptive	CHEBI:49325	78-96
+hormone	CHEBI:24621	104-111
+tamoxifen	CHEBI:41774	133-142
+raloxifene	CHEBI:8772	144-154
+phenytoin	CHEBI:8107	293-302
+carbamazepine	CHEBI:3387	304-317
+estrogen	CHEBI:50114,BAO:0000760	345-353
+History of clotting or bleeding disorder.	Eligibility	21
+history	BFO:0000182	0-7
+disorder	OGMS:0000045	32-40
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to exemestane (e.g. anastrozole, letrozole, formestane).	Eligibility	22
+history	BFO:0000182	0-7
+exemestane	CHEBI:4953	101-111
+anastrozole	CHEBI:2704	118-129
+letrozole	CHEBI:6413	131-140
+formestane	CHEBI:75172	142-152
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	23
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Outcome Measurement:	Results	0
+Percent Change in Mammographic Density at 1 Year on Exemestane	Results	1
+percent change	BAO:0001252	0-14
+year	UO:0000036	44-48
+exemestane	CHEBI:4953	52-62
+[Not Specified]	Results	2
+Time frame: 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: Exemestane	Results	5
+exemestane	CHEBI:4953	17-27
+Arm/Group Description: exemestane 25 mg by mouth (PO) every day for two years taken with calcium carbonate 1200 mg PO every day and vitamin D 400 IU PO every day Initially patients were initially planned to receive Celecoxib but the study was amended prior to any subject going on and Celecoxib was never administered to any subjects.	Results	6
+exemestane	CHEBI:4953	23-33
+mouth	UBERON:0000165	43-48
+day	UO:0000033	60-63
+day	UO:0000033	124-127
+day	UO:0000033	158-161
+calcium carbonate	CHEBI:3311	89-106
+vitamin d	CHEBI:27300	132-141
+celecoxib	CHEBI:41423	215-224
+celecoxib	CHEBI:41423	285-294
+Exemestane: exemestane 25 mg by mouth (PO) every day for two years	Results	7
+exemestane	CHEBI:4953	0-10
+exemestane	CHEBI:4953	12-22
+mouth	UBERON:0000165	32-37
+day	UO:0000033	49-52
+Calcium carbonate: calcium carbonate 1200 mg PO every day x 2 years	Results	8
+calcium carbonate	CHEBI:3311	0-17
+calcium carbonate	CHEBI:3311	19-36
+day	UO:0000033	54-57
+x	LABO:0000148	58-59
+Vitamin D: Vitamin D 400 international units PO every day x 2 years	Results	9
+vitamin d	CHEBI:27300	0-9
+vitamin d	CHEBI:27300	11-20
+day	UO:0000033	54-57
+x	LABO:0000148	58-59
+Overall Number of Participants Analyzed: 42	Results	10
+Mean (95% Confidence Interval)	Results	11
+mean	BAO:0002173	0-4
+Unit of Measure: percent change from baseline  -2.4        (-5.0 to 0.1)	Results	12
+percent change	BAO:0001252	17-31
+Adverse Events 1:	Adverse Events	0
+Total: 0/42 (0.00%)	Adverse Events	1

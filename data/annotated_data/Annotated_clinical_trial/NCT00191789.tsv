@@ -1,0 +1,104 @@
+INTERVENTION 1:	Intervention	0
+Gemcitabine+Doxorubicin+Cisplatin+Surgery	Intervention	1
+Gemcitabine: 1200 mg/m^2, intravenous (IV) day 1 and day 8 every 21 days x 4 cycles (1-4) then 1000 mg/m^2, IV, day 1 and day 8 every 21 days x 4 cycles (5-8).	Intervention	2
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	43-46
+day	UO:0000033	53-56
+day	UO:0000033	68-71
+day	UO:0000033	112-115
+day	UO:0000033	122-125
+day	UO:0000033	137-140
+x	LABO:0000148	73-74
+x	LABO:0000148	142-143
+Doxorubicin: 60 mg/m^2, IV, every 21 days x 4 cycles (1-4). Cisplatin: 70 mg/m^2, IV, every 21 days x 4 cycles (5-8). Surgery follows 8 cycles of chemotherapy. Extent and type of surgery is guided by tumor size, physician and/or patient decision.	Intervention	3
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+x	LABO:0000148	2-3
+x	LABO:0000148	42-43
+x	LABO:0000148	100-101
+x	LABO:0000148	161-162
+cisplatin	CHEBI:27899	60-69
+surgery	OAE:0000067	118-125
+surgery	OAE:0000067	179-186
+size	PATO:0000117	206-210
+patient	HADO:0000008,OAE:0001817	229-236
+Inclusion Criteria:	Eligibility	0
+Diagnosis of breast carcinoma	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	13-29
+No previous chemotherapy, with bidimensionally measurable locally advanced disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	75-82
+Adequate performance status (Karnofsky Performance Status [KPS] greater than or equal to 70), bone marrow reserves, hepatic, cardiac and renal functions.	Eligibility	3
+bone marrow	UBERON:0002371	94-105
+Exclusion Criteria:	Eligibility	4
+Inflammatory breast cancer	Eligibility	5
+breast cancer	DOID:1612	13-26
+Pregnancy and Breast-feeding	Eligibility	6
+Serious concomitant disorder or infection	Eligibility	7
+disorder	OGMS:0000045	20-28
+Previous cancer within the last 5 years or a second primary malignancy.	Eligibility	8
+cancer	DOID:162	9-15
+second	UO:0000010	45-51
+Outcome Measurement:	Results	0
+Number of Patients With Pathological Complete Response (Pathological Complete Response Rate)	Results	1
+rate	BAO:0080019	87-91
+Complete pathological response: No invasive tumor cells identified from sections from site of previous cancer. Require evidence corroborating prior presence of invasive cancer, which requires detection of abnormal fibroelastic breast stroma devoid of normal lobular units and contains foamy macrophages with moderate numbers of fibroblasts and mononuclear inflammatory cells. Presence of nondescript collagenised lobules or breast fibrous tissue is not evidence that tumor site has been adequately sampled and macroscopic assessment and sampling is needed until original neoplastic stroma identified.	Results	2
+site	BFO:0000029	86-90
+site	BFO:0000029	473-477
+cancer	DOID:162	103-109
+cancer	DOID:162	169-175
+breast	UBERON:0000310	227-233
+breast	UBERON:0000310	424-430
+moderate	HP:0012826	308-316
+tissue	UBERON:0000479	439-445
+Time frame: tumor assessment at baseline and during surgery after eight 21-day treatment cycles	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	52-59
+Results 1:	Results	4
+Arm/Group Title: Gemcitabine+Doxorubicin+Cisplatin+Surgery	Results	5
+Arm/Group Description: Gemcitabine: 1200 mg/m^2, intravenous (IV) day 1 and day 8 every 21 days x 4 cycles (1-4) then 1000 mg/m^2, IV, day 1 and day 8 every 21 days x 4 cycles (5-8).	Results	6
+gemcitabine	CHEBI:175901	23-34
+day	UO:0000033	66-69
+day	UO:0000033	76-79
+day	UO:0000033	91-94
+day	UO:0000033	135-138
+day	UO:0000033	145-148
+day	UO:0000033	160-163
+x	LABO:0000148	96-97
+x	LABO:0000148	165-166
+Doxorubicin: 60 mg/m^2, IV, every 21 days x 4 cycles (1-4). Cisplatin: 70 mg/m^2, IV, every 21 days x 4 cycles (5-8). Surgery follows 8 cycles of chemotherapy. Extent and type of surgery is guided by tumor size, physician and/or patient decision.	Results	7
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+x	LABO:0000148	2-3
+x	LABO:0000148	42-43
+x	LABO:0000148	100-101
+x	LABO:0000148	161-162
+cisplatin	CHEBI:27899	60-69
+surgery	OAE:0000067	118-125
+surgery	OAE:0000067	179-186
+size	PATO:0000117	206-210
+patient	HADO:0000008,OAE:0001817	229-236
+Overall Number of Participants Analyzed: 65	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  13	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 17/65 (26.15%)	Adverse Events	1
+Febrile neutropenia 3/65 (4.62%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 2/65 (3.08%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 1/65 (1.54%)	Adverse Events	4
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 1/65 (1.54%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac arrest 2/65 (3.08%)	Adverse Events	6
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Myocardial infarction 1/65 (1.54%)	Adverse Events	7
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Diarrhoea 5/65 (7.69%)	Adverse Events	8
+Stomatitis 1/65 (1.54%)	Adverse Events	9
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting 2/65 (3.08%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Fatigue 1/65 (1.54%)	Adverse Events	11
+fatigue	HP:0012378	0-7
+Jaundice 1/65 (1.54%)	Adverse Events	12
+jaundice	HP:0000952	0-8
+Neutropenic infection 2/65 (3.08%)	Adverse Events	13

@@ -1,0 +1,224 @@
+INTERVENTION 1:	Intervention	0
+Paclitaxel+Reparixin (Group 1) - ITT Population	Intervention	1
+group	CHEBI:24433	22-27
+paclitaxel 80 mg/m2 i.v. (Days 1, 8, and 15) + reparixin oral tablets 1200 mg t.i.d. continuing from D 1 to Day 21 of 28-day cycle.	Intervention	2
+paclitaxel	CHEBI:45863	0-10
+reparixin	CHEBI:177765	47-56
+day	UO:0000033	26-29
+day	UO:0000033	108-111
+day	UO:0000033	121-124
+Duration of Treatment: 28-day cycles of combination therapy reparixin oral tablets + paclitaxel intravenous weekly three weeks on and one week off until disease progression according to RECIST criteria version 1.1, withdrawal of consent or unacceptable toxicity, whichever occurred first.	Intervention	3
+duration	PATO:0001309	0-8
+reparixin	CHEBI:177765	60-69
+paclitaxel	CHEBI:45863	85-95
+week	UO:0000034	108-112
+week	UO:0000034	121-125
+week	UO:0000034	138-142
+disease	DOID:4,OGMS:0000031	153-160
+INTERVENTION 2:	Intervention	4
+Paclitaxel+Placebo (Group 2)	Intervention	5
+group	CHEBI:24433	20-25
+paclitaxel 80 mg/m2 i.v. (Days 1, 8, and 15) + placebo oral tablets 1200 mg t.i.d. continuing from D 1 to Day 21 of 28-day cycle.	Intervention	6
+paclitaxel	CHEBI:45863	0-10
+day	UO:0000033	26-29
+day	UO:0000033	106-109
+day	UO:0000033	119-122
+Duration of Treatment: 28-day cycles of combination therapy placebo oral tablets + paclitaxel intravenous weekly three weeks on and one week off until PD according to RECIST criteria version 1.1, withdrawal of consent or unacceptable toxicity, whichever occurred first.	Intervention	7
+duration	PATO:0001309	0-8
+paclitaxel	CHEBI:45863	83-93
+week	UO:0000034	106-110
+week	UO:0000034	119-123
+week	UO:0000034	136-140
+Inclusion Criteria:	Eligibility	0
+Female aged  18 years.	Eligibility	1
+female	PATO:0000383	0-6
+Patients with pathologically documented metastatic triple negative breast cancer (TNBC), eligible for treatment with paclitaxel. Paraffin-embedded tissue must be available from metastatic sites, if reasonably accessible, or from the primary tumor, to confirm the diagnosis of TNBC and for correlative studies (only on metastatic tissue). Fifteen slides can be obtained if the full block is not available to be sent or released.	Eligibility	2
+breast cancer	DOID:1612	67-80
+paclitaxel	CHEBI:45863	117-127
+tissue	UBERON:0000479	147-153
+tissue	UBERON:0000479	329-335
+TNBC will be defined as breast cancer with <1% ER+ and <1% PgR+ cells, and HER2 immunohistochemistry score of 0 or 1+ and/or in situ hybridization (ISH) with HER2 gene copy number <4 or a ratio of less than 2 between HER2 gene copy number and centromere of chromosome 17. Patients whose metastatic disease is TNBC are eligible even when their primary tumor expressed hormone receptors and/or HER2.	Eligibility	3
+breast cancer	DOID:1612	24-37
+immunohistochemistry	BAO:0000415	80-100
+gene	BAO:0000582	163-167
+gene	BAO:0000582	222-226
+ratio	UO:0000190	188-193
+chromosome	GO:0005694	257-267
+disease	DOID:4,OGMS:0000031	298-305
+hormone	CHEBI:24621	367-374
+Patients must be newly diagnosed metastatic or must have relapsed following a prior (neo)adjuvant chemotherapy regimen. If a taxane (i.e., paclitaxel or docetaxel) was administered as part of the (neo)adjuvant regimen, PD must have occurred > 12 months from the end of previous (neo)adjuvant treatment. For non-taxane (neo)adjuvant regimen, PD must have occurred > 6 months from the end of previous (neo)adjuvant treatment	Eligibility	4
+adjuvant	CHEBI:60809	89-97
+adjuvant	CHEBI:60809	201-209
+adjuvant	CHEBI:60809	283-291
+adjuvant	CHEBI:60809	323-331
+adjuvant	CHEBI:60809	404-412
+taxane	CHEBI:36064	125-131
+taxane	CHEBI:36064	311-317
+paclitaxel	CHEBI:45863	139-149
+part of	BAO:0090002,BFO:0000050	184-191
+Patients with at least one baseline measurable lesion according to RECIST criteria version 1.1.	Eligibility	5
+Zubrod (Eastern Co-operative Oncology Group [ECOG]) Performance Status (PS) of 0-1.	Eligibility	6
+group	CHEBI:24433	38-43
+Life expectancy of at least three months.	Eligibility	7
+Patients must be able to swallow and retain oral medication (intact tablet).	Eligibility	8
+Able to undergo all screening assessments outlined in the protocol.	Eligibility	9
+Adequate organ function (defined by the following parameters):	Eligibility	10
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Serum creatinine < 140 μmol/L (< 1.6 mg/dL) or creatinine clearance > 60 mL/min.	Eligibility	11
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	47-57
+creatinine clearance	CMO:0000765	47-67
+Serum hemoglobin  9 g/dL; absolute neutrophil count  1.5 x 109/L; platelets  100 x 109/L.	Eligibility	12
+hemoglobin	CHEBI:35143	6-16
+x	LABO:0000148	57-58
+x	LABO:0000148	81-82
+Serum bilirubin  1.5 x upper normal limit (UNL) except patients with Gilbert's syndrome	Eligibility	13
+x	LABO:0000148	21-22
+x	LABO:0000148	49-50
+syndrome	DOID:225	79-87
+Serum alanine aminotransferase (ALT), aspartate aminotransferase (AST)  2.5 x UNL but  5.0 x UNL in case of liver metastases; alkaline phosphatase (ALP)  UNL but i)  2.5 x UNL in case of liver metastases and ii)  5 UNL in case of bone metastases; albumin  2.5 g/dl.	Eligibility	14
+alanine	CHEBI:16449	6-13
+aspartate	CHEBI:29995	38-47
+x	LABO:0000148	76-77
+x	LABO:0000148	91-92
+x	LABO:0000148	170-171
+liver	UBERON:0002107	108-113
+liver	UBERON:0002107	187-192
+phosphatase	GO:0016791,BAO:0000295	135-146
+No history or evidence by CT scan or MRI, of brain metastases or leptomeningeal disease.	Eligibility	15
+history	BFO:0000182	3-10
+ct	BAO:0002125	26-28
+brain	UBERON:0000955	45-50
+disease	DOID:4,OGMS:0000031	80-87
+No known hepatitis B virus (not due to immunization), hepatitis C virus, human immunodeficiency virus-I and -II positive status.	Eligibility	16
+hepatitis b	DOID:2043	9-20
+virus	BAO:0000232	21-26
+virus	BAO:0000232	66-71
+virus	BAO:0000232	96-101
+hepatitis c	DOID:1883	54-65
+immunodeficiency	HP:0002721	79-95
+Dated and signed IEC/IRB-approved informed consent.	Eligibility	17
+Exclusion Criteria:	Eligibility	18
+Prior therapy for metastatic TNBC (chemotherapy, hormone therapy or biological therapy), Patients may receive bisphosphonates and other therapies to treat bone metastases, however if used, bone lesions will not be considered as measurable disease.	Eligibility	19
+hormone	CHEBI:24621	49-56
+disease	DOID:4,OGMS:0000031	239-246
+Less than four weeks since last radiotherapy (excluding palliative radiotherapy).	Eligibility	20
+radiotherapy	OAE:0000235	32-44
+radiotherapy	OAE:0000235	67-79
+Pregnancy or lactation or unwillingness to use adequate method of birth control.	Eligibility	21
+lactation	GO:0007595	13-22
+Neurological or psychiatric disorders which may influence understanding of study and informed consent procedures.	Eligibility	22
+Active or uncontrolled infection.	Eligibility	23
+active	PATO:0002354	0-6
+Malabsorption syndrome, disease significantly affecting gastrointestinal function.	Eligibility	24
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+disease	DOID:4,OGMS:0000031	24-31
+function	BAO:0003117,BFO:0000034	73-81
+G>1 pre-existing peripheral neuropathy	Eligibility	25
+peripheral neuropathy	HP:0009830,DOID:870	17-38
+Any other invasive malignancy from which the patient has been disease-free for less than 5 years with the exception of curatively treated basal or squamous cell skin cancer	Eligibility	26
+patient	HADO:0000008,OAE:0001817	45-52
+skin cancer	DOID:4159	161-172
+Hypersensitivity to:	Eligibility	27
+hypersensitivity	GO:0002524,DOID:1205	0-16
+paclitaxel	Eligibility	28
+paclitaxel	CHEBI:45863	0-10
+ibuprofen or to more than one non-steroidal anti-inflammatory drug.	Eligibility	29
+ibuprofen	CHEBI:132922	0-9
+non-steroidal anti-inflammatory drug	CHEBI:35475	30-66
+medications belonging to the class of sulfonamides, with the exception of sulfanilamides (e.g., sulfamethoxazole).	Eligibility	30
+sulfamethoxazole	CHEBI:9332	96-112
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS)	Results	1
+PFS was defined as the number of days between the date of randomization and the date of clinical disease progression, according to RECIST criteria version 1.1, as assessed by Independent Radiology Review, or to death due to any cause, whichever occurred first.	Results	2
+disease	DOID:4,OGMS:0000031	97-104
+death	OAE:0000632	211-216
+Patients must have completed at least one course of treatment and performed at least one disease assessment to be considered evaluable for response.	Results	3
+disease	DOID:4,OGMS:0000031	89-96
+Time frame: Baseline up to every 8 weeks until disease progression or death, whichever occurs first, up to 721 days	Results	4
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	47-54
+death	OAE:0000632	70-75
+Results 1:	Results	5
+Arm/Group Title: Paclitaxel+Reparixin (Group 1) - ITT Population	Results	6
+group	CHEBI:24433	4-9
+group	CHEBI:24433	39-44
+Arm/Group Description: paclitaxel 80 mg/m2 i.v. (Days 1, 8, and 15) + reparixin oral tablets 1200 mg t.i.d. continuing from D 1 to Day 21 of 28-day cycle.	Results	7
+paclitaxel	CHEBI:45863	23-33
+reparixin	CHEBI:177765	70-79
+day	UO:0000033	49-52
+day	UO:0000033	131-134
+day	UO:0000033	144-147
+Duration of Treatment: 28-day cycles of combination therapy reparixin oral tablets + paclitaxel intravenous weekly three weeks on and one week off until disease progression according to RECIST criteria version 1.1, withdrawal of consent or unacceptable toxicity, whichever occurred first.	Results	8
+duration	PATO:0001309	0-8
+reparixin	CHEBI:177765	60-69
+paclitaxel	CHEBI:45863	85-95
+week	UO:0000034	108-112
+week	UO:0000034	121-125
+week	UO:0000034	138-142
+disease	DOID:4,OGMS:0000031	153-160
+Overall Number of Participants Analyzed: 62	Results	9
+Median (Inter-Quartile Range)	Results	10
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: Days  166        (62 to 292)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Paclitaxel+Placebo (Group 2)	Results	13
+group	CHEBI:24433	4-9
+group	CHEBI:24433	37-42
+Arm/Group Description: paclitaxel 80 mg/m2 i.v. (Days 1, 8, and 15) + placebo oral tablets 1200 mg t.i.d. continuing from D 1 to Day 21 of 28-day cycle.	Results	14
+paclitaxel	CHEBI:45863	23-33
+day	UO:0000033	49-52
+day	UO:0000033	129-132
+day	UO:0000033	142-145
+Duration of Treatment: 28-day cycles of combination therapy placebo oral tablets + paclitaxel intravenous weekly three weeks on and one week off until PD according to RECIST criteria version 1.1, withdrawal of consent or unacceptable toxicity, whichever occurred first.	Results	15
+duration	PATO:0001309	0-8
+paclitaxel	CHEBI:45863	83-93
+week	UO:0000034	106-110
+week	UO:0000034	119-123
+week	UO:0000034	136-140
+Overall Number of Participants Analyzed: 61	Results	16
+Median (Inter-Quartile Range)	Results	17
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: Days  171        (105 to 393)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 13/61 (21.31%)	Adverse Events	1
+Anaemia 1/61 (1.64%)	Adverse Events	2
+Febrile neutropenia 1/61 (1.64%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac failure congestive 0/61 (0.00%)	Adverse Events	4
+Pericardial effusion 0/61 (0.00%)	Adverse Events	5
+pericardial effusion	HP:0001698,DOID:118	0-20
+Constipation 1/61 (1.64%)	Adverse Events	6
+constipation	HP:0002019,DOID:2089	0-12
+Intestinal perforation 1/61 (1.64%)	Adverse Events	7
+intestinal perforation	HP:0031368,DOID:2074	0-22
+Stomatitis 0/61 (0.00%)	Adverse Events	8
+stomatitis	HP:0010280,DOID:9637	0-10
+Non-cardiac chest pain 2/61 (3.28%)	Adverse Events	9
+chest pain	HP:0100749	12-22
+Condition aggravated 1/61 (1.64%)	Adverse Events	10
+condition	PDRO:0000129	0-9
+General physical health deterioration 1/61 (1.64%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 12/60 (20.00%)	Adverse Events	13
+Anaemia 1/60 (1.67%)	Adverse Events	14
+Febrile neutropenia 0/60 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac failure congestive 1/60 (1.67%)	Adverse Events	16
+Pericardial effusion 1/60 (1.67%)	Adverse Events	17
+pericardial effusion	HP:0001698,DOID:118	0-20
+Constipation 0/60 (0.00%)	Adverse Events	18
+constipation	HP:0002019,DOID:2089	0-12
+Intestinal perforation 0/60 (0.00%)	Adverse Events	19
+intestinal perforation	HP:0031368,DOID:2074	0-22
+Stomatitis 1/60 (1.67%)	Adverse Events	20
+stomatitis	HP:0010280,DOID:9637	0-10
+Non-cardiac chest pain 0/60 (0.00%)	Adverse Events	21
+chest pain	HP:0100749	12-22
+Condition aggravated 0/60 (0.00%)	Adverse Events	22
+condition	PDRO:0000129	0-9
+General physical health deterioration 1/60 (1.67%)	Adverse Events	23

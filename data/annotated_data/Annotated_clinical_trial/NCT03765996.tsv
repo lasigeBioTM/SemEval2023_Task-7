@@ -1,0 +1,122 @@
+INTERVENTION 1:	Intervention	0
+Decongestive Physiotherapy	Intervention	1
+physiotherapy	OAE:0002476	13-26
+This group received Complex Decongestive Physiotherapy.	Intervention	2
+group	CHEBI:24433	5-10
+physiotherapy	OAE:0002476	41-54
+Decongestive Physiotherapy: This group received CDP, which include MLD, short-stretch bandages, lymph-reducing exercises, and skin care. MLD was applied to the anterior trunk, posterior trunk, and the base of the neck, progressing to the affected limb. Short-stretch bandages were applied in multiple layers after MLD. A low pH skin lotion was applied prior to bandaging and then stockinette was placed on the arm. The fingers and the hand were wrapped in gauze. A layer of cotton was wrapped around the arm. Bandages (6, 8 and/or 10cm) were sequentially applied in a spiral fashion around the limb with the smallest bandage starting at the hand. The most compression was at the most distal points and gradually decreased proximally. Exercises were done by patients to improve mobility and enhance lymphatic flow.	Intervention	3
+physiotherapy	OAE:0002476	13-26
+group	CHEBI:24433	33-38
+cdp	CHEBI:17239	48-51
+trunk	GO:0043198,UBERON:0002100	169-174
+trunk	GO:0043198,UBERON:0002100	186-191
+base	CHEBI:22695	201-205
+neck	GO:0044326,UBERON:0000974	213-217
+affected	HP:0032320	238-246
+limb	UBERON:0002101	247-251
+limb	UBERON:0002101	594-598
+ph	UO:0000196	13-15
+ph	UO:0000196	99-101
+ph	UO:0000196	325-327
+ph	UO:0000196	801-803
+distal	HP:0012839	684-690
+INTERVENTION 2:	Intervention	4
+Decongestive Physiotherapy Plus Taping	Intervention	5
+physiotherapy	OAE:0002476	13-26
+This group received Complex Decongestive Physiotherapy, and also applying taping to anastomosis regions.	Intervention	6
+group	CHEBI:24433	5-10
+physiotherapy	OAE:0002476	41-54
+Decongestive Physiotherapy plus taping: This group received CDP as same protocol of active comparator. In addition, taping was applied to anterior and posterior axillo-axillary anastomosis and axillo-inguinal anastomosis. The tape was started on the unaffected side and strips of tape were applied so as to reach the affected side regarding anterior and posterior axillo-axillary anastomosis. For axillo-inguinal anastomosis, the tape was started in the inguinal region of the affected side and strips of tape were applied so that they reached the axillary region.	Intervention	7
+physiotherapy	OAE:0002476	13-26
+group	CHEBI:24433	45-50
+cdp	CHEBI:17239	60-63
+active	PATO:0002354	84-90
+unaffected	HP:0032321	250-260
+affected	HP:0032320	252-260
+affected	HP:0032320	317-325
+affected	HP:0032320	477-485
+Inclusion Criteria:	Eligibility	0
+Patients who had unilateral BCRL and women aged over 18 who were 'significant', 'marked', or 'severe' lymphoedema.	Eligibility	1
+unilateral	HP:0012833	17-27
+Exclusion Criteria:	Eligibility	2
+Patients with paralysis on part of the affected arm,	Eligibility	3
+paralysis	HP:0003470	14-23
+part of	BAO:0090002,BFO:0000050	27-34
+affected	HP:0032320	39-47
+Patients who had undergone CDP more than once within six months,	Eligibility	4
+cdp	CHEBI:17239	27-30
+Patients who had an active infection,	Eligibility	5
+active	PATO:0002354	20-26
+Patients who had a skin disease.	Eligibility	6
+skin disease	DOID:37	19-31
+Outcome Measurement:	Results	0
+Change of the Limb Volume, (Last Value of the Follow-up - Baseline Value)	Results	1
+limb	UBERON:0002101	14-18
+volume	PATO:0000918	19-25
+Limb size was quantified by using circumferential limb measurements. Measurements were taken with patients in a prone position and the arm abducted at 30°. The circumference was measured every 5cm, starting at the ulnar styloid and continuing 45cm proximally for both limbs. Limb volume was calculated for each segment by using the frustum formula. Frustum formula is a mathematical method for calculating limb volume based on the circumference measures, and this formula gives the result in milliliters. Limb measuring was carried out at the beginning of and after treatment (twenty sessions).	Results	2
+limb	UBERON:0002101	0-4
+limb	UBERON:0002101	50-54
+limb	UBERON:0002101	268-272
+limb	UBERON:0002101	275-279
+limb	UBERON:0002101	406-410
+limb	UBERON:0002101	505-509
+size	PATO:0000117	5-9
+position	HP:0012830	118-126
+volume	PATO:0000918	280-286
+volume	PATO:0000918	411-417
+result	BAO:0000179	482-488
+Time frame: At baseline and at 4 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Decongestive Physiotherapy	Results	5
+physiotherapy	OAE:0002476	30-43
+Arm/Group Description: This group received Complex Decongestive Physiotherapy.	Results	6
+group	CHEBI:24433	4-9
+group	CHEBI:24433	28-33
+physiotherapy	OAE:0002476	64-77
+Decongestive Physiotherapy: This group received CDP, which include MLD, short-stretch bandages, lymph-reducing exercises, and skin care. MLD was applied to the anterior trunk, posterior trunk, and the base of the neck, progressing to the affected limb. Short-stretch bandages were applied in multiple layers after MLD. A low pH skin lotion was applied prior to bandaging and then stockinette was placed on the arm. The fingers and the hand were wrapped in gauze. A layer of cotton was wrapped around the arm. Bandages (6, 8 and/or 10cm) were sequentially applied in a spiral fashion around the limb with the smallest bandage starting at the hand. The most compression was at the most distal points and gradually decreased proximally. Exercises were done by patients to improve mobility and enhance lymphatic flow.	Results	7
+physiotherapy	OAE:0002476	13-26
+group	CHEBI:24433	33-38
+cdp	CHEBI:17239	48-51
+trunk	GO:0043198,UBERON:0002100	169-174
+trunk	GO:0043198,UBERON:0002100	186-191
+base	CHEBI:22695	201-205
+neck	GO:0044326,UBERON:0000974	213-217
+affected	HP:0032320	238-246
+limb	UBERON:0002101	247-251
+limb	UBERON:0002101	594-598
+ph	UO:0000196	13-15
+ph	UO:0000196	99-101
+ph	UO:0000196	325-327
+ph	UO:0000196	801-803
+distal	HP:0012839	684-690
+Overall Number of Participants Analyzed: 14	Results	8
+Median (Inter-Quartile Range)	Results	9
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: milliliter  160.01        (81.50 to 650.56)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Decongestive Physiotherapy Plus Taping	Results	12
+physiotherapy	OAE:0002476	30-43
+Arm/Group Description: This group received Complex Decongestive Physiotherapy, and also applying taping to anastomosis regions.	Results	13
+group	CHEBI:24433	4-9
+group	CHEBI:24433	28-33
+physiotherapy	OAE:0002476	64-77
+Decongestive Physiotherapy plus taping: This group received CDP as same protocol of active comparator. In addition, taping was applied to anterior and posterior axillo-axillary anastomosis and axillo-inguinal anastomosis. The tape was started on the unaffected side and strips of tape were applied so as to reach the affected side regarding anterior and posterior axillo-axillary anastomosis. For axillo-inguinal anastomosis, the tape was started in the inguinal region of the affected side and strips of tape were applied so that they reached the axillary region.	Results	14
+physiotherapy	OAE:0002476	13-26
+group	CHEBI:24433	45-50
+cdp	CHEBI:17239	60-63
+active	PATO:0002354	84-90
+unaffected	HP:0032321	250-260
+affected	HP:0032320	252-260
+affected	HP:0032320	317-325
+affected	HP:0032320	477-485
+Overall Number of Participants Analyzed: 18	Results	15
+Median (Inter-Quartile Range)	Results	16
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: milliliter  148.28        (52.29 to 552.85)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/18 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/18 (0.00%)	Adverse Events	3

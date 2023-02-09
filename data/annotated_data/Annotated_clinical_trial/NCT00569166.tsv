@@ -1,0 +1,102 @@
+INTERVENTION 1:	Intervention	0
+Paced Breathing (15 Min Once Daily, 6 Breaths/Min)	Intervention	1
+Patients practice paced breathing for 15 minutes once daily, 6 breaths/min, 5-7 days weekly, following an instructional compact disc (CD), for 8 weeks.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Paced Breathing (15 Min Twice Daily, 6 Breaths/Min)	Intervention	4
+Patients practice paced breathing for 15 minutes twice daily, 6 breaths/min, 5-7 days weekly, following an instructional compact disc (CD), for 8 weeks.	Intervention	5
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+History of breast cancer including ductal carcinoma in situ or lobular carcinoma in situ	Eligibility	1
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	11-24
+ductal carcinoma in situ	HP:0030075,DOID:0060074	35-59
+lobular carcinoma in situ	HP:0030076,DOID:3010	63-88
+- Treated with surgery and/or adjuvant therapy with a curative intent or patients not preferring to take hormones because of concern for breast cancer	Eligibility	2
+surgery	OAE:0000067	15-22
+adjuvant	CHEBI:60809	30-38
+breast cancer	DOID:1612	137-150
+Frequent hot flashes ( 14 per week) of sufficient severity to make the patient desire treatment	Eligibility	3
+frequent	HP:0040282	0-8
+hot flashes	HP:0031217	9-20
+week	UO:0000034	30-34
+severity	HP:0012824	50-58
+patient	HADO:0000008,OAE:0001817	71-78
+Presence of hot flashes for  1 month prior to study entry	Eligibility	4
+hot flashes	HP:0031217	12-23
+month	UO:0000035	31-36
+Hormone receptor status not specified	Eligibility	5
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1	Eligibility	7
+group	CHEBI:24433	29-34
+Pre- or post-menopausal	Eligibility	8
+Must possess a compact disc (CD) player	Eligibility	9
+Able to complete questionnaires alone or with assistance	Eligibility	10
+No active medical conditions preventing compliance with a practice of slow deep breathing including active asthma, chronic obstructive pulmonary disease, or congestive heart failure	Eligibility	11
+active	PATO:0002354	3-9
+active	PATO:0002354	100-106
+asthma	HP:0002099,DOID:2841	107-113
+chronic obstructive pulmonary disease	DOID:3083	115-152
+congestive heart failure	HP:0001635,DOID:6000	157-181
+No uncontrolled hypertension (defined as systolic blood pressure (BP)  160 mm Hg and/or diastolic BP  100 mm Hg on 2 separate visits)	Eligibility	12
+hypertension	HP:0000822,DOID:10763	16-28
+systolic blood pressure	CMO:0000004	41-64
+PRIOR CONCURRENT THERAPY:	Eligibility	13
+No current (within the past month) practice of yoga or breathing exercises	Eligibility	14
+month	UO:0000035	28-33
+No other concurrent agents for treating hot flashes (e.g., gabapentin, venlafaxine, paroxetine, citalopram, sertraline, natural products such as soy or sage supplements, flaxseed, or black cohosh)	Eligibility	15
+hot flashes	HP:0031217	40-51
+gabapentin	CHEBI:42797	59-69
+venlafaxine	CHEBI:9943	71-82
+paroxetine	CHEBI:7936	84-94
+citalopram	CHEBI:3723	96-106
+sertraline	CHEBI:9123	108-118
+- Concurrent stable dose antidepressants started within the past 30 days allowed	Eligibility	16
+stable	HP:0031915	13-19
+No concurrent hormonal agents and/or antineoplastic chemotherapy - Tamoxifen, raloxifene, and aromatase inhibitors are allowed if patient has been on a constant dose for  4 weeks and does not plan to stop the treatment during the course of the study	Eligibility	17
+tamoxifen	CHEBI:41774	67-76
+raloxifene	CHEBI:8772	78-88
+patient	HADO:0000008,OAE:0001817	130-137
+Outcome Measurement:	Results	0
+The Difference in Hot Flash Score (Frequency and Severity) Between Baseline (Week 1) and Week 9	Results	1
+frequency	HP:0040279	35-44
+severity	HP:0012824	49-57
+week	UO:0000034	77-81
+week	UO:0000034	89-93
+Hot flash severity were graded from 1 to 4, as they range from mild, moderate, severe, or very severe. A hot flash score is defined by multiplying the daily frequency with the average hot flash severity. These scores are aggregated into average weekly hot flash activity scores for each patient.	Results	2
+severity	HP:0012824	10-18
+severity	HP:0012824	194-202
+range	LABO:0000114	52-57
+mild	HP:0012825	63-67
+moderate	HP:0012826	69-77
+severe	HP:0012828	79-85
+severe	HP:0012828	95-101
+frequency	HP:0040279	157-166
+aggregated	PATO:0001629	221-231
+patient	HADO:0000008,OAE:0001817	287-294
+Time frame: Week 1 and Week 9	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	12-16
+week	UO:0000034	23-27
+Results 1:	Results	4
+Arm/Group Title: Paced Breathing (15 Min Once Daily, 6 Breaths/Min)	Results	5
+Arm/Group Description: Patients practice paced breathing for 15 minutes once daily, 6 breaths/min, 5-7 days weekly, following an instructional compact disc (CD), for 8 weeks.	Results	6
+Overall Number of Participants Analyzed: 30	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  -6.5         (5.38)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Paced Breathing (15 Min Twice Daily, 6 Breaths/Min)	Results	11
+Arm/Group Description: Patients practice paced breathing for 15 minutes twice daily, 6 breaths/min, 5-7 days weekly, following an instructional compact disc (CD), for 8 weeks.	Results	12
+Overall Number of Participants Analyzed: 31	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  -7.5         (8.14)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/30 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

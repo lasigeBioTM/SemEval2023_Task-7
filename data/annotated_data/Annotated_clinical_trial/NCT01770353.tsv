@@ -1,0 +1,120 @@
+INTERVENTION 1:	Intervention	0
+Pilot Phase: FMX Then MM-398	Intervention	1
+FMX phase: Subjects received a single bolus IV injection of 5 mg/kg FMX (up to 510 mg) on Day 1. Subjects underwent FMX-MRI scans and pre-MM-398 treatment biopsies on Days 1 to 4.	Intervention	2
+day	UO:0000033	90-93
+day	UO:0000033	167-170
+MM-398 Treatment phase: Within 7 days of the FMX infusion, subjects received up to 70 mg/m^2 MM-398 FBE (C1D1) administered as an IV infusion over 90 minutes, repeated every 2 weeks until disease progression, unacceptable toxicity or withdrawal of consent.	Intervention	3
+disease	DOID:4,OGMS:0000031	188-195
+Inclusion Criteria:	Eligibility	0
+All subjects:	Eligibility	1
+Pathologically confirmed diagnosis of solid tumors	Eligibility	2
+Metastatic disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+Eastern Cooperative Oncology Group (ECOG) Performance Status 0 to 1	Eligibility	4
+group	CHEBI:24433	29-34
+Adequate bone marrow, hepatic and renal function	Eligibility	5
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	40-48
+Normal Electrocardiogram (ECG)	Eligibility	6
+18 years of age or above	Eligibility	7
+age	PATO:0000011	12-15
+Able to understand and sign informed consent	Eligibility	8
+Pilot study only:	Eligibility	9
+- CRC, TNBC, ER/PR Breast Cancer, NSCLC, Pancreatic Cancer, Ovarian Cancer, Gastric Cancer, Gastroesophageal Junction (GEJ) adenocarcinoma, Head and Neck Cancer	Eligibility	10
+breast cancer	DOID:1612	19-32
+pancreatic cancer	DOID:1793	41-58
+ovarian cancer	DOID:2394	60-74
+cancer	DOID:162	26-32
+cancer	DOID:162	52-58
+cancer	DOID:162	68-74
+cancer	DOID:162	84-90
+cancer	DOID:162	154-160
+adenocarcinoma	DOID:299	124-138
+head and neck cancer	DOID:11934	140-160
+Expansion Phase Additional Criteria:	Eligibility	11
+Locally advanced or metastatic breast cancer	Eligibility	12
+breast cancer	DOID:1612	31-44
+Received at least one cytotoxic therapy in the locally advanced and metastatic setting	Eligibility	13
+Received  5 prior lines of chemotherapy in the metastatic setting	Eligibility	14
+Candidate for chemotherapy	Eligibility	15
+Expansion Phase Cohort 3 additional inclusion criteria:	Eligibility	16
+Breast cancer with active brain metastasis	Eligibility	17
+breast cancer	DOID:1612	0-13
+active	PATO:0002354	19-25
+brain	UBERON:0000955	26-31
+Neurologically stable	Eligibility	18
+stable	HP:0031915	15-21
+Exclusion Criteria:	Eligibility	19
+Active Central nervous system (CNS) metastasis (applies to pilot phase and expansion phase cohort 1 and 2 only)	Eligibility	20
+active	PATO:0002354	0-6
+central nervous system	UBERON:0001017	7-29
+Clinically significant GI disorders	Eligibility	21
+Prior irinotecan or bevacizumab therapy within last 6 months and for Expansion Phase patients, have received any prior treatment with Topol inhibitor	Eligibility	22
+irinotecan	CHEBI:80630	6-16
+inhibitor	CHEBI:35222	140-149
+Known hypersensitivity to MM-398 or ferumoxytol	Eligibility	23
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Inability to undergo MRI	Eligibility	24
+Active infection	Eligibility	25
+active	PATO:0002354	0-6
+Pregnant or breast feeding	Eligibility	26
+breast	UBERON:0000310	12-18
+Prior chemotherapy administered within 3 weeks, or within a time interval less than at least 5 half-lives of the agent, whichever is longer, prior to the first scheduled day of dosing in this study	Eligibility	27
+time	PATO:0000165	60-64
+day	UO:0000033	170-173
+Received radiation therapy in the last 14 days	Eligibility	28
+Treated with parenteral iron in the previous 4 weeks	Eligibility	29
+Outcome Measurement:	Results	0
+Pilot Phase: Tumour Levels of Irinotecan and SN-38 at Cycle 1 Day 4	Results	1
+irinotecan	CHEBI:80630	30-40
+sn-38	CHEBI:8988	45-50
+day	UO:0000033	62-65
+Two tumour biopsies were collected 72 hours after the first MM-398 IV infusion during Cycle 1 of the MM-398 Treatment phase of the Pilot phase for determination of tumour levels of irinotecan and SN-38 (an active metabolite). The lesions selected for biopsy were based on the results of the FMX-MRI obtained on Days 1, 2 and 4 of the FMX phase, and were collected from a previously non-biopsied lesion. The first core biopsy was taken in the region of the tumour that showed the greatest signal change on either the T2 or T1 sequences, based on FMX-MRI. The second core biopsy was taken from the region that showed the least signal change based on FMX-MRI, avoiding areas of necrosis.	Results	2
+irinotecan	CHEBI:80630	181-191
+sn-38	CHEBI:8988	196-201
+active	PATO:0002354	206-212
+metabolite	CHEBI:25212	213-223
+second	UO:0000010	558-564
+Time frame: At Cycle 1 Day 4 in the Pilot phase.	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	23-26
+Results 1:	Results	4
+Arm/Group Title: Pilot Phase: FMX Then MM-398	Results	5
+Arm/Group Description: FMX phase: Subjects received a single bolus IV injection of 5 mg/kg FMX (up to 510 mg) on Day 1. Subjects underwent FMX-MRI scans and pre-MM-398 treatment biopsies on Days 1 to 4.	Results	6
+day	UO:0000033	113-116
+day	UO:0000033	190-193
+MM-398 Treatment phase: Within 7 days of the FMX infusion, subjects received up to 70 mg/m^2 MM-398 FBE (C1D1) administered as an IV infusion over 90 minutes, repeated every 2 weeks until disease progression, unacceptable toxicity or withdrawal of consent.	Results	7
+disease	DOID:4,OGMS:0000031	188-195
+Overall Number of Participants Analyzed: 13	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: nanograms per gram (ng/g)  Irinotecan: 4253         (3600)	Results	10
+irinotecan	CHEBI:80630	44-54
+SN-38: 38.1         (91.5)	Results	11
+sn-38	CHEBI:8988	0-5
+Adverse Events 1:	Adverse Events	0
+Total: 4/13 (30.77%)	Adverse Events	1
+Pericardial effusion 0/13 (0.00%)	Adverse Events	2
+pericardial effusion	HP:0001698,DOID:118	0-20
+Diarrhoea 1/13 (7.69%)	Adverse Events	3
+Nausea 1/13 (7.69%)	Adverse Events	4
+nausea	HP:0002018	0-6
+Abdominal pain 2/13 (15.38%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Vomiting 1/13 (7.69%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Colitis 1/13 (7.69%)	Adverse Events	7
+colitis	HP:0002583,DOID:0060180	0-7
+Duodenal perforation 0/13 (0.00%)	Adverse Events	8
+Enteritis 0/13 (0.00%)	Adverse Events	9
+Asthenia 0/13 (0.00%)	Adverse Events	10
+asthenia	HP:0025406	0-8
+Fatigue 0/13 (0.00%)	Adverse Events	11
+fatigue	HP:0012378	0-7
+Pyrexia 0/13 (0.00%)	Adverse Events	12
+Cholecystitis acute 0/13 (0.00%)	Adverse Events	13
+cholecystitis	HP:0001082,DOID:1949	0-13
+acute	HP:0011009,PATO:0000389	14-19
+Pneumonia 0/13 (0.00%)	Adverse Events	14
+pneumonia	HP:0002090,DOID:552	0-9

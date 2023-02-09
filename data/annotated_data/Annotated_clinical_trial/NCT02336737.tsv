@@ -1,0 +1,89 @@
+INTERVENTION 1:	Intervention	0
+SiennaXP Injection	Intervention	1
+Single injection of SiennaXP in addition to comparator single dose of radioisotope (Technetium Tc99m Sulfur Colloid) and single dose of isosulfan blue dye.	Intervention	2
+dye	CHEBI:37958	151-154
+Lymph node localization using the SentiMag handheld intraoperative localization system in addition to localization with standard of care handheld gamma probe.	Intervention	3
+lymph	UBERON:0002391	0-5
+localization	GO:0051179	11-23
+localization	GO:0051179	67-79
+localization	GO:0051179	102-114
+probe	CHEBI:50406	152-157
+SiennaXP: Sub-cutaneous injection of SiennaXP magnetic marker, followed by lymph node localization using the SentiMag handheld magnetic probe	Intervention	4
+lymph	UBERON:0002391	75-80
+localization	GO:0051179	86-98
+probe	CHEBI:50406	136-141
+Technetium Tc99m Sulfur Colloid: Injection of a single dose of radioisotope (Technetium Tc99m Sulfur Colloid)	Intervention	5
+Isosulfan blue dye: Injection of a single dose of isosulfan blue dye	Intervention	6
+dye	CHEBI:37958	15-18
+dye	CHEBI:37958	65-68
+Inclusion Criteria:	Eligibility	0
+Subjects with a diagnosis of primary breast cancer or subjects with pure ductal carcinoma in situ (DCIS).	Eligibility	1
+breast cancer	DOID:1612	37-50
+ductal carcinoma in situ	HP:0030075,DOID:0060074	73-97
+Subjects scheduled for surgical intervention, with a sentinel lymph node biopsy procedure being a part of the surgical plan.	Eligibility	2
+lymph	UBERON:0002391	62-67
+part of	BAO:0090002,BFO:0000050	98-105
+Subjects aged 18 years or more at the time of consent.	Eligibility	3
+time	PATO:0000165	38-42
+Subjects with an ECOG (Eastern Cooperative Oncology Group) performance status of Grade 0 - 2.	Eligibility	4
+group	CHEBI:24433	52-57
+Subject has a clinical negative node status (i.e. T0-3, N0, M0).	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+The subject is pregnant or lactating.	Eligibility	7
+The subject has clinical or radiological evidence of metastatic cancer including palpably abnormal or enlarged lymph nodes.	Eligibility	8
+cancer	DOID:162	64-70
+lymph	UBERON:0002391	111-116
+The subject has a known hypersensitivity to Isosulfan Blue Dye.	Eligibility	9
+hypersensitivity	GO:0002524,DOID:1205	24-40
+dye	CHEBI:37958	59-62
+The subject has participated in another investigational drug study within 30 days of scheduled surgery.	Eligibility	10
+drug	CHEBI:23888	56-60
+surgery	OAE:0000067	95-102
+Subject has had either a) previous axilla surgery, b) reduction mammoplasty, or c) lymphatic function that is impaired in the surgeon's judgment.	Eligibility	11
+surgery	OAE:0000067	42-49
+mammoplasty	OAE:0001160	64-75
+function	BAO:0003117,BFO:0000034	93-101
+Subject has had preoperative radiation therapy to the affected breast or axilla.	Eligibility	12
+affected	HP:0032320	54-62
+breast	UBERON:0000310	63-69
+Subject has received a Feraheme® (ferumoxytol) Injection within the past 6 months.	Eligibility	13
+Subject has intolerance or hypersensitivity to iron or dextran compounds or to SiennaXP.	Eligibility	14
+hypersensitivity	GO:0002524,DOID:1205	27-43
+dextran	CHEBI:52071	55-62
+Subject has an iron overload disease.	Eligibility	15
+disease	DOID:4,OGMS:0000031	29-36
+Subject has pacemaker or other implantable device in the chest wall.	Eligibility	16
+chest	UBERON:0001443	57-62
+Outcome Measurement:	Results	0
+Number of Participants With Detected Lymph Nodes	Results	1
+lymph	UBERON:0002391	37-42
+The proportion of lymph nodes detected intraoperatively by SentiMag and SiennaXP in relation the proportion of lymph nodes detected by the combination of Technetium Sulfur Colloid and Isosulfan blue dye	Results	2
+lymph	UBERON:0002391	18-23
+lymph	UBERON:0002391	111-116
+dye	CHEBI:37958	199-202
+Time frame: During surgical procedure <1 hour	Results	3
+time	PATO:0000165	0-4
+hour	UO:0000032	41-45
+Results 1:	Results	4
+Arm/Group Title: SiennaXP Injection	Results	5
+Arm/Group Description: Single injection of SiennaXP in addition to comparator single dose of radioisotope (Technetium Tc99m Sulfur Colloid) and single dose of isosulfan blue dye.	Results	6
+dye	CHEBI:37958	174-177
+Lymph node localization using the SentiMag handheld intraoperative localization system in addition to localization with standard of care handheld gamma probe.	Results	7
+lymph	UBERON:0002391	0-5
+localization	GO:0051179	11-23
+localization	GO:0051179	67-79
+localization	GO:0051179	102-114
+probe	CHEBI:50406	152-157
+SiennaXP: Sub-cutaneous injection of SiennaXP magnetic marker, followed by lymph node localization using the SentiMag handheld magnetic probe	Results	8
+lymph	UBERON:0002391	75-80
+localization	GO:0051179	86-98
+probe	CHEBI:50406	136-141
+Technetium Tc99m Sulfur Colloid: Injection of a single dose of radioisotope (Technetium Tc99m Sulfur Colloid)	Results	9
+Isosulfan blue dye: Injection of a single dose of isosulfan blue dye	Results	10
+dye	CHEBI:37958	15-18
+dye	CHEBI:37958	65-68
+Overall Number of Participants Analyzed: 146	Results	11
+Measure Type: Count of Participants	Results	12
+Unit of Measure: Participants  145  99.3%	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 0/147 (0.00%)	Adverse Events	1

@@ -1,0 +1,247 @@
+INTERVENTION 1:	Intervention	0
+Lapatinib Plus Capecitabine	Intervention	1
+lapatinib	CHEBI:49603	0-9
+capecitabine	CHEBI:31348	15-27
+Participants received a daily dose of 5 tablets of lapatinib (1250 milligrams [mg]) continuously at approximately the same time every day, either 1 hour (or more) before food or 1 hour (or more) after food. Participants also received capecitabine 2000 mg per meters squared (mg/m^2) per day, divided and administered orally twice daily, 12 hours apart, for 14 days, every 21 days. Capecitabine was taken with food or within 30 minutes after food with approximately 200 milliliters (mL) of water.	Intervention	2
+lapatinib	CHEBI:49603	51-60
+time	PATO:0000165	123-127
+day	UO:0000033	134-137
+day	UO:0000033	287-290
+day	UO:0000033	360-363
+day	UO:0000033	375-378
+hour	UO:0000032	148-152
+hour	UO:0000032	180-184
+hour	UO:0000032	340-344
+food	CHEBI:33290	170-174
+food	CHEBI:33290	201-205
+food	CHEBI:33290	409-413
+food	CHEBI:33290	441-445
+capecitabine	CHEBI:31348	234-246
+capecitabine	CHEBI:31348	381-393
+water	CHEBI:15377	489-494
+INTERVENTION 2:	Intervention	3
+Lapatinib Plus Vinorelbine	Intervention	4
+lapatinib	CHEBI:49603	0-9
+vinorelbine	CHEBI:480999	15-26
+Participants received a daily dose of 5 tablets of lapatinib (1250 mg) at approximately the same time every day, either 1 hour (or more) before food or 1 hour (or more) after food. Participants also received an intravenous (IV) infusion of vinorelbine 20 mg/m^2 over the course of 5 to 10 minutes on Days 1 and 8 of a 21-day treatment cycle.	Intervention	5
+lapatinib	CHEBI:49603	51-60
+time	PATO:0000165	97-101
+day	UO:0000033	108-111
+day	UO:0000033	300-303
+day	UO:0000033	321-324
+hour	UO:0000032	122-126
+hour	UO:0000032	154-158
+food	CHEBI:33290	144-148
+food	CHEBI:33290	175-179
+vinorelbine	CHEBI:480999	240-251
+Inclusion Criteria :	Eligibility	0
+Signed informed consent prior to registration.	Eligibility	1
+Considered by the investigator to have a life expectancy of 12 weeks.	Eligibility	2
+Subjects must be female and have histologically - confirmed invasive breast cancer with Stage IV disease at primary diagnosis or at relapse after curative - intent surgery.	Eligibility	3
+female	PATO:0000383	17-23
+breast cancer	DOID:1612	69-82
+disease	DOID:4,OGMS:0000031	97-104
+surgery	OAE:0000067	164-171
+Documented overexpression of ErbB2	Eligibility	4
+Subjects should have progressive disease following prior therapy which may include anthracyclines, taxanes, and trastuzumab.	Eligibility	5
+progressive	HP:0003676	21-32
+disease	DOID:4,OGMS:0000031	33-40
+Females aged 18 years	Eligibility	6
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) of 0 to 1.	Eligibility	7
+group	CHEBI:24433	29-34
+Subjects must have adequate organ and marrow function	Eligibility	8
+organ	UBERON:0000062	28-33
+function	BAO:0003117,BFO:0000034	45-53
+Subjects must have a cardiac ejection fraction of at least 50% and within the institutional range of normal.	Eligibility	9
+ejection fraction	CMO:0000180	29-46
+range	LABO:0000114	92-97
+Radiotherapy prior to initiation of study medication is allowed to a limited area ( e . g . , palliative therapy ) , if it is not the sole site of disease.	Eligibility	10
+radiotherapy	OAE:0000235	0-12
+area	PATO:0001323	77-81
+site	BFO:0000029	139-143
+disease	DOID:4,OGMS:0000031	147-154
+Subjects with stable central nervous system (CNS) metastases are permitted.	Eligibility	11
+stable	HP:0031915	14-20
+central nervous system	UBERON:0001017	21-43
+Subject must be free of gastrointestinal diseases or any other conditions that impede swallowing, retaining, and absorption of oral medications.	Eligibility	12
+Bisphosphonate therapy for bone metastases is allowed; however, treatment must be initiated prior to the first dose of study medication. Prophylactic use of bisphosphonates in subjects without bone disease, except for the treatment of osteoporosis, is not permitted.	Eligibility	13
+bone disease	DOID:0080001	193-205
+osteoporosis	HP:0000939,DOID:11476	235-247
+Exclusion Criteria:	Eligibility	14
+Subjects taking prohibited medications are not eligible for the study.	Eligibility	15
+Therapy with lapatinib, vinorelbine, or capecitabine prior to randomization into this study.	Eligibility	16
+lapatinib	CHEBI:49603	13-22
+vinorelbine	CHEBI:480999	24-35
+capecitabine	CHEBI:31348	40-52
+Prior therapy with more than one chemotherapeutic regimen for metastatic breast cancer.	Eligibility	17
+breast cancer	DOID:1612	73-86
+Concurrent anticancer or concomitant radiotherapy treatment.	Eligibility	18
+radiotherapy	OAE:0000235	37-49
+History of uncontrolled or symptomatic angina; history of arrhythmias requiring medications ; clinically significant myocardial infarction < 6 months from study entry; uncontrolled or symptomatic congestive heart failure; ejection fraction below the institutional normal limit; or any other cardiac condition, which in the opinion of the treating physician, would make this protocol unreasonably hazardous for the patient.	Eligibility	19
+history	BFO:0000182	0-7
+history	BFO:0000182	47-54
+myocardial infarction	HP:0001658,DOID:5844	117-138
+congestive heart failure	HP:0001635,DOID:6000	196-220
+ejection fraction	CMO:0000180	222-239
+condition	PDRO:0000129	299-308
+patient	HADO:0000008,OAE:0001817	414-421
+Have current active hepatic or biliary disease (with exception of patients with Gilbert's syndrome, asymptomatic gallstones, liver metastases or stable chronic liver disease per investigator assessment).	Eligibility	20
+active	PATO:0002354	13-19
+disease	DOID:4,OGMS:0000031	39-46
+disease	DOID:4,OGMS:0000031	166-173
+syndrome	DOID:225	90-98
+liver	UBERON:0002107	125-130
+liver	UBERON:0002107	160-165
+stable	HP:0031915	145-151
+chronic	HP:0011010	152-159
+liver disease	DOID:409	160-173
+Use of an investigational drug within 30 days or 5 half - lives, whichever is longer, preceding the first dose of investigational treatment, or, concurrent treatment with an investigational agent or participation in another clinical trial involving investigational agents.	Eligibility	21
+drug	CHEBI:23888	26-30
+Known immediate or delayed hypersensitivity reaction or idiosyncrasy to drugs chemically related to any of the agents used in this study or their excipients that in the opinion of the investigator or GSK Medical Monitor contraindicates their participation.	Eligibility	22
+hypersensitivity	GO:0002524,DOID:1205	27-43
+Known deficiency for the enzyme dihydropyrimidine dehydrogenase (DPD).	Eligibility	23
+enzyme	BAO:0000279	25-31
+Known history of uncontrolled inter - current illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, clinically significant cardiac arrhythmia, or psychiatric illness / social situations that would limit compliance with study requirements.	Eligibility	24
+history	BFO:0000182	6-13
+active	PATO:0002354	96-102
+congestive heart failure	HP:0001635,DOID:6000	126-150
+angina pectoris	HP:0001681	161-176
+arrhythmia	HP:0011675	209-219
+Concurrent disease or condition that would make the subject inappropriate for study participation , or any serious medical disorder that would interfere with the subject's safety.	Eligibility	25
+disease	DOID:4,OGMS:0000031	11-18
+condition	PDRO:0000129	22-31
+disorder	OGMS:0000045	123-131
+Pregnant or lactating females at any time during the study (due to the potential teratogenic or abortifacient effects of lapatinib and breastfeeding).	Eligibility	26
+time	PATO:0000165	37-41
+abortifacient	CHEBI:50691	96-109
+lapatinib	CHEBI:49603	121-130
+Subjects with diseases affecting gastrointestinal function resulting in an inability to take oral medication , including ; malabsorption syndrome, disease significantly affecting gastrointestinal function , or resection of the stomach , small bowel , or colon. Subjects with inflammatory bowel disease or ulcerative colitis are also excluded.	Eligibility	27
+function	BAO:0003117,BFO:0000034	50-58
+function	BAO:0003117,BFO:0000034	196-204
+malabsorption	HP:0002024	123-136
+syndrome	DOID:225	137-145
+disease	DOID:4,OGMS:0000031	14-21
+disease	DOID:4,OGMS:0000031	147-154
+disease	DOID:4,OGMS:0000031	294-301
+stomach	UBERON:0000945	227-234
+colon	UBERON:0001155	254-259
+inflammatory bowel disease	DOID:0050589	275-301
+ulcerative colitis	HP:0100279,DOID:8577	305-323
+excluded	HP:0040285	333-341
+Peripheral neuropathy of Grade 2 or greater.	Eligibility	28
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Unresolved or unstable, serious toxicity from prior administration of another investigational drug and / or of prior cancer treatment.	Eligibility	29
+drug	CHEBI:23888	94-98
+cancer	DOID:162	117-123
+Dementia, altered mental status, or any psychiatric condition that would prohibit the understanding or rendering of informed consent.	Eligibility	30
+dementia	HP:0000726,DOID:1307	0-8
+condition	PDRO:0000129	52-61
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS) in the Randomized Phase	Results	1
+PFS is defined as the time from randomization until the earliest date of disease progression (PD) or death due to any cause, if sooner. PD is defined as at least a 20 % increase in the sum of the longest diameter (LD) of target lesions, taking as a reference the smallest sum LD recorded since the treatment started or the appearance of >=1 new lesion.	Results	2
+time	PATO:0000165	22-26
+disease	DOID:4,OGMS:0000031	73-80
+death	OAE:0000632	101-106
+increase	BAO:0001251	169-177
+diameter	PATO:0001334	204-212
+target	BAO:0003064	221-227
+Time frame: From randomization until disease progression, death, or discontinuation from the study (average of 27 study weeks)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	37-44
+death	OAE:0000632	58-63
+Results 1:	Results	4
+Arm/Group Title: Lapatinib Plus Capecitabine	Results	5
+lapatinib	CHEBI:49603	17-26
+capecitabine	CHEBI:31348	32-44
+Arm/Group Description: Participants received a daily dose of 5 tablets of lapatinib (1250 milligrams [mg]) continuously at approximately the same time every day, either 1 hour (or more) before food or 1 hour (or more) after food. Participants also received capecitabine 2000 mg per meters squared (mg/m^2) per day, divided and administered orally twice daily, 12 hours apart, for 14 days, every 21 days. Capecitabine was taken with food or within 30 minutes after food with approximately 200 milliliters (mL) of water.	Results	6
+lapatinib	CHEBI:49603	74-83
+time	PATO:0000165	146-150
+day	UO:0000033	157-160
+day	UO:0000033	310-313
+day	UO:0000033	383-386
+day	UO:0000033	398-401
+hour	UO:0000032	171-175
+hour	UO:0000032	203-207
+hour	UO:0000032	363-367
+food	CHEBI:33290	193-197
+food	CHEBI:33290	224-228
+food	CHEBI:33290	432-436
+food	CHEBI:33290	464-468
+capecitabine	CHEBI:31348	257-269
+capecitabine	CHEBI:31348	404-416
+water	CHEBI:15377	512-517
+Overall Number of Participants Analyzed: 37	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  6.2        (4.4 to 8.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Lapatinib Plus Vinorelbine	Results	11
+lapatinib	CHEBI:49603	17-26
+vinorelbine	CHEBI:480999	32-43
+Arm/Group Description: Participants received a daily dose of 5 tablets of lapatinib (1250 mg) at approximately the same time every day, either 1 hour (or more) before food or 1 hour (or more) after food. Participants also received an intravenous (IV) infusion of vinorelbine 20 mg/m^2 over the course of 5 to 10 minutes on Days 1 and 8 of a 21-day treatment cycle.	Results	12
+lapatinib	CHEBI:49603	74-83
+time	PATO:0000165	120-124
+day	UO:0000033	131-134
+day	UO:0000033	323-326
+day	UO:0000033	344-347
+hour	UO:0000032	145-149
+hour	UO:0000032	177-181
+food	CHEBI:33290	167-171
+food	CHEBI:33290	198-202
+vinorelbine	CHEBI:480999	263-274
+Overall Number of Participants Analyzed: 75	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  6.2        (4.2 to 8.8)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 4/37 (10.81%)	Adverse Events	1
+Anaemia 0/37 (0.00%)	Adverse Events	2
+Febrile neutropenia 0/37 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/37 (0.00%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/37 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Arrhythmia 0/37 (0.00%)	Adverse Events	6
+arrhythmia	HP:0011675	0-10
+Abdominal pain 1/37 (2.70%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Diarrhoea 1/37 (2.70%)	Adverse Events	8
+Intestinal obstruction 0/37 (0.00%)	Adverse Events	9
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Vomiting 0/37 (0.00%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Fatigue 0/37 (0.00%)	Adverse Events	11
+fatigue	HP:0012378	0-7
+Pyrexia 0/37 (0.00%)	Adverse Events	12
+Cholecystitis acute 0/37 (0.00%)	Adverse Events	13
+cholecystitis	HP:0001082,DOID:1949	0-13
+acute	HP:0011009,PATO:0000389	14-19
+Cholestasis 0/37 (0.00%)	Adverse Events	14
+cholestasis	HP:0001396,DOID:13580	0-11
+Adverse Events 2:	Adverse Events	15
+Total: 25/75 (33.33%)	Adverse Events	16
+Anaemia 2/75 (2.67%)	Adverse Events	17
+Febrile neutropenia 2/75 (2.67%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 1/75 (1.33%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 10/75 (13.33%)	Adverse Events	20
+neutropenia	HP:0001875,DOID:1227	0-11
+Arrhythmia 1/75 (1.33%)	Adverse Events	21
+arrhythmia	HP:0011675	0-10
+Abdominal pain 0/75 (0.00%)	Adverse Events	22
+abdominal pain	HP:0002027	0-14
+Diarrhoea 0/75 (0.00%)	Adverse Events	23
+Intestinal obstruction 1/75 (1.33%)	Adverse Events	24
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Vomiting 1/75 (1.33%)	Adverse Events	25
+vomiting	HP:0002013	0-8
+Fatigue 1/75 (1.33%)	Adverse Events	26
+fatigue	HP:0012378	0-7
+Pyrexia 2/75 (2.67%)	Adverse Events	27
+Cholecystitis acute 1/75 (1.33%)	Adverse Events	28
+cholecystitis	HP:0001082,DOID:1949	0-13
+acute	HP:0011009,PATO:0000389	14-19
+Cholestasis 0/75 (0.00%)	Adverse Events	29
+cholestasis	HP:0001396,DOID:13580	0-11

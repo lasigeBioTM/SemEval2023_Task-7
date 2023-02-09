@@ -1,0 +1,142 @@
+INTERVENTION 1:	Intervention	0
+Observation Arm	Intervention	1
+Participants who completed definitive surgery and systemic adjuvant chemotherapy were observed for efficacy and safety until 10 years from individual randomization and for survival until 10 years after enrollment of the last participant. No Herceptin was provided.	Intervention	2
+surgery	OAE:0000067	38-45
+adjuvant	CHEBI:60809	59-67
+efficacy	BAO:0000656	99-107
+INTERVENTION 2:	Intervention	3
+Herceptin 1-Year Arm	Intervention	4
+Participants who completed definitive surgery and systemic adjuvant chemotherapy received a loading dose of Herceptin as 8 mg/kg via IV infusion on Day 1, followed by a maintenance dose of 6 mg/kg via IV infusion 3 weeks later and thereafter every 3 weeks for 1 year or until disease recurrence, whichever occurred first. Participants were observed for efficacy and safety until 10 years from individual randomization and for survival until 10 years after enrollment of the last participant.	Intervention	5
+surgery	OAE:0000067	38-45
+adjuvant	CHEBI:60809	59-67
+day	UO:0000033	148-151
+year	UO:0000036	262-266
+year	UO:0000036	382-386
+year	UO:0000036	444-448
+disease	DOID:4,OGMS:0000031	276-283
+efficacy	BAO:0000656	353-361
+Inclusion Criteria:	Eligibility	0
+Non-metastatic primary invasive breast cancer overexpressing HER2 (determined by immunohistochemistry 3+ or positive fluorescence in situ hybridization test) that has been histologically confirmed, adequately excised, axillary node positive or negative, and tumor size at least T1c according to Tumor/Node/Metastasis (TNM) staging	Eligibility	1
+breast cancer	DOID:1612	32-45
+immunohistochemistry	BAO:0000415	81-101
+size	PATO:0000117	264-268
+Completion of at least 4 cycles of (neo-)adjuvant systemic chemotherapy, definitive surgery, and radiotherapy, if applicable	Eligibility	2
+adjuvant	CHEBI:60809	41-49
+surgery	OAE:0000067	84-91
+radiotherapy	OAE:0000235	97-109
+Known hormone receptor status	Eligibility	3
+hormone	CHEBI:24621	6-13
+receptor	BAO:0000281	14-22
+Baseline left ventricular ejection fraction (LVEF) greater than or equal to (  ) 55 percent (%)	Eligibility	4
+left	HP:0012835	9-13
+ejection fraction	CMO:0000180	26-43
+percent	UO:0000187	84-91
+Exclusion Criteria:	Eligibility	5
+Prior invasive breast carcinoma	Eligibility	6
+breast carcinoma	HP:0003002,DOID:3459	15-31
+Other malignancies except for curatively treated basal and squamous cell carcinoma of the skin or in situ carcinoma of the cervix	Eligibility	7
+squamous cell carcinoma of the skin	HP:0006739	59-94
+in situ carcinoma	DOID:8719	98-115
+Clinical T4 tumors	Eligibility	8
+Cumulative doxorubicin exposure greater than (>) 360 milligrams per meter-squared (mg/m^2) or epirubicin >720 mg/m^2 or any prior anthracyclines unrelated to the present breast cancer	Eligibility	9
+doxorubicin	CHEBI:28748,BAO:0000639	11-22
+present	PATO:0000467	162-169
+breast cancer	DOID:1612	170-183
+Peripheral stem cell or bone marrow stem cell support	Eligibility	10
+peripheral	HP:0030646	0-10
+bone marrow	UBERON:0002371	24-35
+Prior mediastinal irradiation except for internal mammary node irradiation for the present breast cancer	Eligibility	11
+present	PATO:0000467	83-90
+breast cancer	DOID:1612	91-104
+Non-irradiated internal mammary nodes or supraclavicular lymph node involvement	Eligibility	12
+lymph	UBERON:0002391	57-62
+Prior anti-HER2 therapy for any other reason or other prior biologic or immunotherapy for breast cancer	Eligibility	13
+breast cancer	DOID:1612	90-103
+Concurrent anti-cancer treatment in another investigational trial	Eligibility	14
+Serious cardiac or pulmonary conditions/illness, or any other conditions that could interfere with planned treatment	Eligibility	15
+Poor hematologic, hepatic, or renal function	Eligibility	16
+function	BAO:0003117,BFO:0000034	36-44
+Pregnancy or lactation	Eligibility	17
+lactation	GO:0007595	13-22
+Women of childbearing potential or less than 1 year post-menopause unwilling to use adequate contraceptive measures	Eligibility	18
+year	UO:0000036	47-51
+Outcome Measurement:	Results	0
+Percentage of Participants With Disease-Free Survival (DFS) Events in Herceptin 1-Year Arm Compared to Observation: 1-Year Median Follow-Up	Results	1
+median	BAO:0002174	123-129
+DFS events included loco-regional or distant recurrence of breast cancer, development of contralateral breast cancer or second non-breast malignancy other than basal or squamous carcinoma of the skin and carcinoma in situ of the cervix, or death from any cause. The percentage of participants with at least one DFS event was reported. The analysis of the Herceptin 1-Year Arm against the Observation Arm after 1-year median follow-up, as reported below, was performed by the Sponsor in 2006 following database cleaning. The analysis of the Herceptin 2-Year Arm against the Observation Arm was performed for an Independent Data Monitoring Committee (IDMC) in 2005 at a time the Sponsor was blinded. Therefore, these data are reported under a separate Outcome Measure.	Results	2
+breast cancer	DOID:1612	59-72
+breast cancer	DOID:1612	103-116
+second	UO:0000010	120-126
+carcinoma	HP:0030731,DOID:305	178-187
+carcinoma	HP:0030731,DOID:305	204-213
+death	OAE:0000632	240-245
+median	BAO:0002174	417-423
+time	PATO:0000165	668-672
+Time frame: From Baseline until time of event (median of 1 year)	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	32-36
+median	BAO:0002174	47-53
+year	UO:0000036	59-63
+Results 1:	Results	4
+Arm/Group Title: Observation Arm	Results	5
+Arm/Group Description: Participants who completed definitive surgery and systemic adjuvant chemotherapy were observed for efficacy and safety until 10 years from individual randomization and for survival until 10 years after enrollment of the last participant. No Herceptin was provided.	Results	6
+surgery	OAE:0000067	61-68
+adjuvant	CHEBI:60809	82-90
+efficacy	BAO:0000656	122-130
+Overall Number of Participants Analyzed: 1693	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  12.9	Results	9
+Results 2:	Results	10
+Arm/Group Title: Herceptin 1-Year Arm	Results	11
+Arm/Group Description: Participants who completed definitive surgery and systemic adjuvant chemotherapy received a loading dose of Herceptin as 8 mg/kg via IV infusion on Day 1, followed by a maintenance dose of 6 mg/kg via IV infusion 3 weeks later and thereafter every 3 weeks for 1 year or until disease recurrence, whichever occurred first. Participants were observed for efficacy and safety until 10 years from individual randomization and for survival until 10 years after enrollment of the last participant.	Results	12
+surgery	OAE:0000067	61-68
+adjuvant	CHEBI:60809	82-90
+day	UO:0000033	171-174
+year	UO:0000036	285-289
+year	UO:0000036	405-409
+year	UO:0000036	467-471
+disease	DOID:4,OGMS:0000031	299-306
+efficacy	BAO:0000656	376-384
+Overall Number of Participants Analyzed: 1693	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  7.5	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 143/1744 (8.20%)	Adverse Events	1
+Leukopenia * 1/1744 (0.06%)	Adverse Events	2
+leukopenia	HP:0001882,DOID:615	0-10
+Lymphadenopathy * 0/1744 (0.00%)	Adverse Events	3
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia * 0/1744 (0.00%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome * 1/1744 (0.06%)	Adverse Events	5
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction * 0/1744 (0.00%)	Adverse Events	6
+acute myocardial infarction	DOID:9408	0-27
+Angina pectoris * 2/1744 (0.11%)	Adverse Events	7
+angina pectoris	HP:0001681	0-15
+Arrhythmia * 0/1744 (0.00%)	Adverse Events	8
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation * 1/1744 (0.06%)	Adverse Events	9
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter * 1/1744 (0.06%)	Adverse Events	10
+atrial flutter	HP:0004749	0-14
+Adverse Events 2:	Adverse Events	11
+Total: 269/1682 (15.99%)	Adverse Events	12
+Leukopenia * 0/1682 (0.00%)	Adverse Events	13
+leukopenia	HP:0001882,DOID:615	0-10
+Lymphadenopathy * 1/1682 (0.06%)	Adverse Events	14
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia * 0/1682 (0.00%)	Adverse Events	15
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome * 1/1682 (0.06%)	Adverse Events	16
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction * 1/1682 (0.06%)	Adverse Events	17
+acute myocardial infarction	DOID:9408	0-27
+Angina pectoris * 2/1682 (0.12%)	Adverse Events	18
+angina pectoris	HP:0001681	0-15
+Arrhythmia * 1/1682 (0.06%)	Adverse Events	19
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation * 1/1682 (0.06%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter * 0/1682 (0.00%)	Adverse Events	21
+atrial flutter	HP:0004749	0-14

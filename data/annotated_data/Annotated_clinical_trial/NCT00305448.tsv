@@ -1,0 +1,88 @@
+INTERVENTION 1:	Intervention	0
+Fulvestrant 250 mg	Intervention	1
+fulvestrant	CHEBI:31638	0-11
+Fulvestrant 250 mg	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+INTERVENTION 2:	Intervention	3
+Fulvestrant 250 mg + Loading Dose	Intervention	4
+fulvestrant	CHEBI:31638	0-11
+Fulvestrant 250 mg + Loading Dose	Intervention	5
+fulvestrant	CHEBI:31638	0-11
+Inclusion Criteria:	Eligibility	0
+Breast Cancer has continued to grow after having received treatment with an anti-estrogen hormonal treatment such as tamoxifen or an aromatase inhibitor	Eligibility	1
+breast cancer	DOID:1612	0-13
+anti-estrogen	CHEBI:50751	76-89
+tamoxifen	CHEBI:41774	117-126
+inhibitor	CHEBI:35222	143-152
+Requiring hormonal treatment	Eligibility	2
+Postmenopausal women defined as a woman who has stopped having menstrual periods	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Treatment with more than one previous regimen of systemic anticancer therapy other than endocrine therapy for advanced breast cancer	Eligibility	5
+breast cancer	DOID:1612	119-132
+Treatment with more than one previous regimen of endocrine therapy for advanced breast cancer	Eligibility	6
+breast cancer	DOID:1612	80-93
+An existing serious disease, illness, or condition that will prevent participation or compliance with study procedures	Eligibility	7
+disease	DOID:4,OGMS:0000031	20-27
+condition	PDRO:0000129	41-50
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR)	Results	1
+rate	BAO:0080019	19-23
+An objective response (OR) is defined as a patient having a best overall response of either complete response (CR) or partial response (PR). A patient has best overall response of CR if she had overall response of CR or PR on one visit and met the confirmation criteria per RECIST. ORR is defined as percentage of patients with objective response.	Results	2
+patient	HADO:0000008,OAE:0001817	43-50
+patient	HADO:0000008,OAE:0001817	143-150
+patient	HADO:0000008,OAE:0001817	314-321
+Each patient with measurable disease at baseline was assessed for OR from the sequence of Response Evaluation Criteria in Solid Tumors (RECIST) scan data up to data cut-off. RECIST scans were performed every 12 weeks (+/- 2weeks) from randomization	Results	3
+patient	HADO:0000008,OAE:0001817	5-12
+disease	DOID:4,OGMS:0000031	29-36
+Time frame: baseline and every 12 weeks (+/- 2weeks) from randomization data up to data cut-off (19th march 2008)	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Fulvestrant 250 mg	Results	6
+fulvestrant	CHEBI:31638	17-28
+Arm/Group Description: Fulvestrant 250 mg	Results	7
+fulvestrant	CHEBI:31638	23-34
+Overall Number of Participants Analyzed: 45	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  11.1	Results	10
+Results 2:	Results	11
+Arm/Group Title: Fulvestrant 250 mg + Loading Dose	Results	12
+fulvestrant	CHEBI:31638	17-28
+Arm/Group Description: Fulvestrant 250 mg + Loading Dose	Results	13
+fulvestrant	CHEBI:31638	23-34
+Overall Number of Participants Analyzed: 51	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: percentage of participants  17.6	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 2/45 (4.44%)	Adverse Events	1
+Cardiac Failure Congestive 0/45 (0.00%)	Adverse Events	2
+Diverticular Perforation 0/45 (0.00%)	Adverse Events	3
+Herpes Zoster 1/45 (2.22%)	Adverse Events	4
+herpes zoster	DOID:8536	0-13
+Back Pain 0/45 (0.00%)	Adverse Events	5
+back pain	HP:0003418	0-9
+Fallopian Tube Cancer 0/45 (0.00%)	Adverse Events	6
+fallopian tube cancer	DOID:1964	0-21
+Fibroma 0/45 (0.00%)	Adverse Events	7
+fibroma	HP:0010614,DOID:0050871	0-7
+Brain Stem Infarction 1/45 (2.22%)	Adverse Events	8
+brain stem infarction	DOID:3523	0-21
+Dizziness 0/45 (0.00%)	Adverse Events	9
+Optic Neuritis 0/45 (0.00%)	Adverse Events	10
+optic neuritis	HP:0100653,DOID:1210	0-14
+Adverse Events 2:	Adverse Events	11
+Total: 5/51 (9.80%)	Adverse Events	12
+Cardiac Failure Congestive 1/51 (1.96%)	Adverse Events	13
+Diverticular Perforation 1/51 (1.96%)	Adverse Events	14
+Herpes Zoster 0/51 (0.00%)	Adverse Events	15
+herpes zoster	DOID:8536	0-13
+Back Pain 1/51 (1.96%)	Adverse Events	16
+back pain	HP:0003418	0-9
+Fallopian Tube Cancer 1/51 (1.96%)	Adverse Events	17
+fallopian tube cancer	DOID:1964	0-21
+Fibroma 1/51 (1.96%)	Adverse Events	18
+fibroma	HP:0010614,DOID:0050871	0-7
+Brain Stem Infarction 0/51 (0.00%)	Adverse Events	19
+brain stem infarction	DOID:3523	0-21
+Dizziness 0/51 (0.00%)	Adverse Events	20
+Optic Neuritis 1/51 (1.96%)	Adverse Events	21
+optic neuritis	HP:0100653,DOID:1210	0-14

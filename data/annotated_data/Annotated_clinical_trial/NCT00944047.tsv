@@ -1,0 +1,156 @@
+INTERVENTION 1:	Intervention	0
+Intervention Arm	Intervention	1
+Nab-paclitaxel, trastuzumab, doxorubicin, cyclophosphamide, Growth Factor Support, Surgery	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	29-40
+cyclophosphamide	CHEBI:4026	42-58
+growth factor	BAO:0002024	60-73
+surgery	OAE:0000067	83-90
+nab-paclitaxel: 100 MG/M2 IV over 30 minutes once a week for 12 weeks	Intervention	3
+week	UO:0000034	52-56
+week	UO:0000034	64-68
+trastuzumab: 4 MG loading dose followed by 2 MG/KG every week for a total of 12 weeks	Intervention	4
+week	UO:0000034	57-61
+week	UO:0000034	80-84
+Doxorubicin: 60 MG/M2 every two weeks for a total of 4 cycles	Intervention	5
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide: 600 MG/M2 every 2 weeks for 4 cycles (administered with Doxorubicin above)	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+doxorubicin	CHEBI:28748,BAO:0000639	74-85
+Growth Factor Support: - All patients will receive pegfilgrastim 6.0 mg sc on Day #2 of each doxorubicin/cyclophosphamide neoadjuvant treatment cycle.	Intervention	7
+growth factor	BAO:0002024	0-13
+day	UO:0000033	78-81
+- Erythropoetic growth factor support for fatigue/anemia will be allowed at the discretion of the treating physician.	Intervention	8
+growth factor	BAO:0002024	16-29
+Surgery: -After completion of neoadjuvant therapy, patients will proceed with either modified radical mastectomy or lumpectomy.	Intervention	9
+surgery	OAE:0000067	0-7
+radical	CHEBI:26519	94-101
+-All patients with pretreatment lymph node positive disease and positive sentinel lymph node will undergo complete axillary lymph node dissection.	Intervention	10
+lymph	UBERON:0002391	32-37
+lymph	UBERON:0002391	82-87
+lymph	UBERON:0002391	124-129
+disease	DOID:4,OGMS:0000031	52-59
+Inclusion Criteria:	Eligibility	0
+Female patient  18 years of age	Eligibility	1
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+age	PATO:0000011	28-31
+Histologically proven stage II or III adenocarcinoma of the breast	Eligibility	2
+adenocarcinoma	DOID:299	38-52
+breast	UBERON:0000310	60-66
+Must be candidate for neoadjuvant treatment (Tumor size  2 cm, T2, T3, T4 and/or clinical N1 or N2).	Eligibility	3
+size	PATO:0000117	51-55
+HER-2/neu 1+ or 2+ by immunohistochemistry	Eligibility	4
+immunohistochemistry	BAO:0000415	22-42
+Must have operable tumor.	Eligibility	5
+Performance status of 2 or better per SWOG criteria	Eligibility	6
+LVEF  55% by echocardiogram performed within 4 weeks prior to treatment initiation	Eligibility	7
+If patient of childbearing potential, pregnancy test is negative	Eligibility	8
+patient	HADO:0000008,OAE:0001817	3-10
+Patients with reproductive potential must use an effective method to avoid pregnancy for the duration of the trial.	Eligibility	9
+duration	PATO:0001309	93-101
+Adequate bone marrow function: ANC > 1500/mm3, platelet count > 100,000/mm3, and hemoglobin > 9 g/dL	Eligibility	10
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+platelet count	CMO:0000029	47-61
+hemoglobin	CHEBI:35143	81-91
+Adequate kidney function: serum creatinine of < 1.5mg/dl and/or creatinine clearance of > 60 mL/min	Eligibility	11
+kidney	UBERON:0002113	9-15
+function	BAO:0003117,BFO:0000034	16-24
+creatinine	CHEBI:16737	32-42
+creatinine	CHEBI:16737	64-74
+creatinine clearance	CMO:0000765	64-84
+Adequate hepatic function: transaminases < 2.5 x upper limit of normal and total bilirubin < 1.5 mg/dL	Eligibility	12
+function	BAO:0003117,BFO:0000034	17-25
+x	LABO:0000148	47-48
+Must be informed of the investigational nature of the study and must sign an informed consent in accordance with the institutional rules.	Eligibility	13
+Pretreatment lab values must be performed within 14 days of patient registration, and other baseline studies (with the exception of mammogram) must be performed within 30 days of patient registration.	Eligibility	14
+patient	HADO:0000008,OAE:0001817	60-67
+patient	HADO:0000008,OAE:0001817	179-186
+EXCLUSION CRITERIA:	Eligibility	15
+Patient with metastatic breast cancer.	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	24-37
+Women with tumors that are HER-2 neu 0+ or 3+ by immunohistochemistry	Eligibility	17
+immunohistochemistry	BAO:0000415	49-69
+Women with HER 2 FISH amplified tumors (FISH ratio >2.2)	Eligibility	18
+ratio	UO:0000190	45-50
+Patients who have had prior endocrine therapy for > 4 weeks or chemotherapy for this breast cancer will be excluded.	Eligibility	19
+breast cancer	DOID:1612	85-98
+excluded	HP:0040285	107-115
+Locally advanced, inoperable tumors will be excluded.	Eligibility	20
+excluded	HP:0040285	44-52
+The presence of any other medical or psychiatric disorder that, in the opinion of the treating physician, would contraindicate the use of drugs in this protocol or place the subject at undue risk for treatment complications.	Eligibility	21
+disorder	OGMS:0000045	49-57
+History of significant cardiac disease, cardiac risk factors or uncontrolled arrhythmias	Eligibility	22
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	31-38
+Ejection fraction < 55%	Eligibility	23
+ejection fraction	CMO:0000180	0-17
+Pregnancy or lactation	Eligibility	24
+lactation	GO:0007595	13-22
+Patients with inadequate laboratory values (as defined above) are excluded from study.	Eligibility	25
+excluded	HP:0040285	66-74
+Patients with NCI common toxicity criteria (CTC) grade 2 or greater peripheral neuropathy are excluded from study.	Eligibility	26
+peripheral neuropathy	HP:0009830,DOID:870	68-89
+excluded	HP:0040285	94-102
+Patients with active infection are excluded from study.	Eligibility	27
+active	PATO:0002354	14-20
+excluded	HP:0040285	35-43
+Patients with concomitant or previous malignancies within the last 5 years, are excluded from the study. Exceptions include: adequately treated basal or squamous cell carcinoma of the skin, carcinoma in situ of the cervix, and ductal carcinoma in situ (DCIS).	Eligibility	28
+excluded	HP:0040285	80-88
+squamous cell carcinoma of the skin	HP:0006739	153-188
+carcinoma	HP:0030731,DOID:305	167-176
+carcinoma	HP:0030731,DOID:305	190-199
+carcinoma	HP:0030731,DOID:305	234-243
+ductal carcinoma in situ	HP:0030075,DOID:0060074	227-251
+Patients with emotional limitations are excluded from study.	Eligibility	29
+excluded	HP:0040285	40-48
+Outcome Measurement:	Results	0
+Pathologic Complete Response	Results	1
+[Not Specified]	Results	2
+Time frame: 22 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Intervention Arm	Results	5
+Arm/Group Description: Nab-paclitaxel, trastuzumab, doxorubicin, cyclophosphamide, Growth Factor Support, Surgery	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	52-63
+cyclophosphamide	CHEBI:4026	65-81
+growth factor	BAO:0002024	83-96
+surgery	OAE:0000067	106-113
+nab-paclitaxel: 100 MG/M2 IV over 30 minutes once a week for 12 weeks	Results	7
+week	UO:0000034	52-56
+week	UO:0000034	64-68
+trastuzumab: 4 MG loading dose followed by 2 MG/KG every week for a total of 12 weeks	Results	8
+week	UO:0000034	57-61
+week	UO:0000034	80-84
+Doxorubicin: 60 MG/M2 every two weeks for a total of 4 cycles	Results	9
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide: 600 MG/M2 every 2 weeks for 4 cycles (administered with Doxorubicin above)	Results	10
+cyclophosphamide	CHEBI:4026	0-16
+doxorubicin	CHEBI:28748,BAO:0000639	74-85
+Growth Factor Support: - All patients will receive pegfilgrastim 6.0 mg sc on Day #2 of each doxorubicin/cyclophosphamide neoadjuvant treatment cycle.	Results	11
+growth factor	BAO:0002024	0-13
+day	UO:0000033	78-81
+- Erythropoetic growth factor support for fatigue/anemia will be allowed at the discretion of the treating physician.	Results	12
+growth factor	BAO:0002024	16-29
+Surgery: -After completion of neoadjuvant therapy, patients will proceed with either modified radical mastectomy or lumpectomy.	Results	13
+surgery	OAE:0000067	0-7
+radical	CHEBI:26519	94-101
+-All patients with pretreatment lymph node positive disease and positive sentinel lymph node will undergo complete axillary lymph node dissection.	Results	14
+lymph	UBERON:0002391	32-37
+lymph	UBERON:0002391	82-87
+lymph	UBERON:0002391	124-129
+disease	DOID:4,OGMS:0000031	52-59
+Overall Number of Participants Analyzed: 32	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of participants  26	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 5/32 (15.63%)	Adverse Events	1
+Pain * 1/32 (3.13%)	Adverse Events	2
+pain	HP:0012531	0-4
+Febrile neutropenia * 2/32 (6.25%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Pneumonia * 1/32 (3.13%)	Adverse Events	4
+pneumonia	HP:0002090,DOID:552	0-9
+Syncope * 1/32 (3.13%)	Adverse Events	5
+syncope	HP:0001279	0-7

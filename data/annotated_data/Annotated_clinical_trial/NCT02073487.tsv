@@ -1,0 +1,176 @@
+INTERVENTION 1:	Intervention	0
+T-DM1 + Lapatinib + Abraxane	Intervention	1
+lapatinib	CHEBI:49603	8-17
+T-DM1 intravenously (IV) every three weeks plus L orally once daily for 6 weeks followed by abraxane IV weekly for 12 weeks.	Intervention	2
+T-DM1: antibody-drug conjugate of trastuzumab and emtansine	Intervention	3
+Lapatinib: Dual tyrosine kinase inhibitor (HER2 and EGFR)	Intervention	4
+lapatinib	CHEBI:49603	0-9
+tyrosine kinase inhibitor	CHEBI:38637	16-41
+Abraxane: albumin-bound paclitaxel. chemotherapy - microtubule inhibitor.	Intervention	5
+paclitaxel	CHEBI:45863	24-34
+microtubule	GO:0005874	51-62
+inhibitor	CHEBI:35222	63-72
+INTERVENTION 2:	Intervention	6
+Trastuzumab + Pertuzumab + Paclitaxel	Intervention	7
+paclitaxel	CHEBI:45863	27-37
+Trastuzumab IV weekly plus pertuzumab IV every 3 weeks for 6 weeks, followed by paclitaxel IV weekly for 12 weeks.	Intervention	8
+paclitaxel	CHEBI:45863	80-90
+Trastuzumab: anti-Her2 monoclonal antibody	Intervention	9
+monoclonal	BAO:0000503	23-33
+antibody	GO:0042571,BAO:0000502	34-42
+Paclitaxel: chemotherapy - microtubule inhibitor	Intervention	10
+paclitaxel	CHEBI:45863	0-10
+microtubule	GO:0005874	27-38
+inhibitor	CHEBI:35222	39-48
+Pertuzumab: anti-HER2 monoclonal antibody	Intervention	11
+monoclonal	BAO:0000503	22-32
+antibody	GO:0042571,BAO:0000502	33-41
+Inclusion Criteria:	Eligibility	0
+Female gender;	Eligibility	1
+female	PATO:0000383	0-6
+Age 18 years;	Eligibility	2
+age	PATO:0000011	0-3
+Performance Status- Eastern Cooperative Oncology Group (ECOG) 0-1	Eligibility	3
+group	CHEBI:24433	49-54
+Histologically confirmed invasive breast cancer:	Eligibility	4
+breast cancer	DOID:1612	34-47
+Primary tumor greater than 1 cm diameter, measured by clinical examination and mammography or ultrasound.	Eligibility	5
+diameter	PATO:0001334	32-40
+Any N,	Eligibility	6
+No evidence of metastasis (M0) (isolated supra-clavicular node involvement allowed);	Eligibility	7
+Over expression and/or amplification of HER2 in the invasive component of the primary tumor and confirmed by a certified laboratory prior to randomization.	Eligibility	8
+Known hormone receptor status.	Eligibility	9
+hormone	CHEBI:24621	6-13
+receptor	BAO:0000281	14-22
+Hematopoietic status:	Eligibility	10
+CBC not less than .75 of institutional lower limit. Absolute neutrophil count  1,5 x 10^9/L, Platelet count  100 x 10^9/L, Hemoglobin at least 9 g/dl,	Eligibility	11
+x	LABO:0000148	83-84
+x	LABO:0000148	113-114
+platelet count	CMO:0000029	93-107
+hemoglobin	CHEBI:35143	123-133
+Hepatic status:	Eligibility	12
+Serum total bilirubin  2 x upper limit of normal (ULN). In the case of known Gilbert's syndrome, a higher serum total bilirubin (< 1.5 x ULN) is allowed, Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT)  3.5 times ULN, Alkaline phosphatase  2.5 times ULN,  Renal status: Creatinine  1.5mg/dL,	Eligibility	13
+x	LABO:0000148	25-26
+x	LABO:0000148	135-136
+syndrome	DOID:225	87-95
+aspartate	CHEBI:29995	154-163
+alanine	CHEBI:16449	191-198
+phosphatase	GO:0016791,BAO:0000295	247-258
+creatinine	CHEBI:16737	290-300
+Cardiovascular: Baseline left ventricular ejection fraction (LVEF) ³ 50% measured by echocardiography (ECHO) or Multiple Gate Acquisition (MUGA) scan,	Eligibility	14
+left	HP:0012835	25-29
+ejection fraction	CMO:0000180	42-59
+Negative serum or urine β-hCG pregnancy test at screening for patients of childbearing potential within 2-weeks (preferably 7 days) prior to randomization.	Eligibility	15
+urine	UBERON:0001088	18-23
+Fertile patients must use effective contraception (barrier method - condoms, diaphragm - also in conjunction with spermicidal jelly, or total abstinence. Oral, injectable, or implant hormonal contraceptives are not allowed)	Eligibility	16
+diaphragm	UBERON:0001103	77-86
+Signed informed consent form (ICF)	Eligibility	17
+Patient accepts to make available tumor samples for submission to central laboratory to conduct translational studies as part of this protocol.	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+central	HP:0030645	66-73
+part of	BAO:0090002,BFO:0000050	121-128
+Exclusion Criteria:	Eligibility	19
+Previous (less than 5 years) or current history of malignant neoplasms, except for curatively treated: Basal and squamous cell carcinoma of the skin; Carcinoma in situ of the cervix.	Eligibility	20
+history	BFO:0000182	40-47
+squamous cell carcinoma of the skin	HP:0006739	113-148
+carcinoma	HP:0030731,DOID:305	127-136
+carcinoma	HP:0030731,DOID:305	150-159
+Patients with a prior malignancy diagnosed more than 5 years prior to randomization may enter the study.	Eligibility	21
+Preexisting peripheral neuropathy  grade 2	Eligibility	22
+peripheral neuropathy	HP:0009830,DOID:870	12-33
+Known history of uncontrolled or symptomatic angina, clinically significant arrhythmias, congestive heart failure, transmural myocardial infarction, uncontrolled hypertension (  180/110), unstable diabetes mellitus, dyspnea at rest, or chronic therapy with oxygen;	Eligibility	23
+history	BFO:0000182	6-13
+congestive heart failure	HP:0001635,DOID:6000	89-113
+myocardial infarction	HP:0001658,DOID:5844	126-147
+hypertension	HP:0000822,DOID:10763	162-174
+diabetes mellitus	HP:0000819,DOID:9351	197-214
+dyspnea	HP:0002094	216-223
+chronic	HP:0011010	236-243
+Concurrent disease or condition that would make the subject inappropriate for study participation or any serious medical disorder that would interfere with the subject's safety;	Eligibility	24
+disease	DOID:4,OGMS:0000031	11-18
+condition	PDRO:0000129	22-31
+disorder	OGMS:0000045	121-129
+Unresolved or unstable, serious adverse events from prior administration of another investigational drug;	Eligibility	25
+drug	CHEBI:23888	100-104
+Dementia, altered mental status, or any psychiatric condition that would prevent the understanding or rendering of ICF;	Eligibility	26
+dementia	HP:0000726,DOID:1307	0-8
+condition	PDRO:0000129	52-61
+Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel. Subjects with ulcerative colitis are also excluded;	Eligibility	27
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+disease	DOID:4,OGMS:0000031	24-31
+function	BAO:0003117,BFO:0000034	73-81
+stomach	UBERON:0000945	103-110
+ulcerative colitis	HP:0100279,DOID:8577	141-159
+excluded	HP:0040285	169-177
+Concurrent neoadjuvant cancer therapy (chemotherapy, radiation therapy, immunotherapy, biologic therapy other than the trial therapies);	Eligibility	28
+cancer	DOID:162	23-29
+Concurrent treatment with an investigational agent or participation in another therapeutic clinical trial;	Eligibility	29
+Known immediate or delayed hypersensitivity reaction or idiosyncrasy to drugs chemically related to trastuzumab Emtansine, trastuzumab, lapatinib, paclitaxel, abraxane or their components;	Eligibility	30
+hypersensitivity	GO:0002524,DOID:1205	27-43
+lapatinib	CHEBI:49603	136-145
+paclitaxel	CHEBI:45863	147-157
+Pregnant or lactating women;	Eligibility	31
+Concomitant use of CYP3A4 inhibitors or inducers	Eligibility	32
+Other concurrent severe and/or uncontrolled concomitant medical conditions (e.g. active or uncontrolled infection, uncontrolled diabetes) that could cause unacceptable safety risks or compromise compliance with the protocol	Eligibility	33
+severe	HP:0012828	17-23
+active	PATO:0002354	81-87
+Patients have an active infection and require IV or oral antibiotics.	Eligibility	34
+active	PATO:0002354	17-23
+Pregnant or breast-feeding women	Eligibility	35
+Patients unwilling or unable to comply with the protocol	Eligibility	36
+Outcome Measurement:	Results	0
+Pathological Complete Response (pCR) RCB-0 or RCB-1	Results	1
+To evaluate the pathological complete response (pCR) in the breast after treatment with Trastuzumab Emtansine plus Lapatinib follow by Abraxane in women with HER2 Neu over-expressed breast cancer patients per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.", or similar definition that is accurate and appropriate.	Results	2
+breast	UBERON:0000310	60-66
+breast	UBERON:0000310	182-188
+lapatinib	CHEBI:49603	115-124
+breast cancer	DOID:1612	182-195
+target	BAO:0003064	281-287
+target	BAO:0003064	362-368
+target	BAO:0003064	454-460
+diameter	PATO:0001334	442-450
+Residual cancer burden (RCB)-0 was synonymous with pCR, indicating no residual disease present.	Results	3
+cancer	DOID:162	9-15
+disease	DOID:4,OGMS:0000031	79-86
+present	PATO:0000467	87-94
+Time frame: From date of randomization until the date of surgery, approximately 16 weeks	Results	4
+time	PATO:0000165	0-4
+surgery	OAE:0000067	57-64
+Results 1:	Results	5
+Arm/Group Title: T-DM1 + Lapatinib + Abraxane	Results	6
+lapatinib	CHEBI:49603	25-34
+Arm/Group Description: T-DM1 intravenously (IV) every three weeks plus L orally once daily for 6 weeks followed by abraxane IV weekly for 12 weeks.	Results	7
+T-DM1: antibody-drug conjugate of trastuzumab and emtansine	Results	8
+Lapatinib: Dual tyrosine kinase inhibitor (HER2 and EGFR)	Results	9
+lapatinib	CHEBI:49603	0-9
+tyrosine kinase inhibitor	CHEBI:38637	16-41
+Abraxane: albumin-bound paclitaxel. chemotherapy - microtubule inhibitor.	Results	10
+paclitaxel	CHEBI:45863	24-34
+microtubule	GO:0005874	51-62
+inhibitor	CHEBI:35222	63-72
+Overall Number of Participants Analyzed: 14	Results	11
+Measure Type: Count of Participants	Results	12
+Unit of Measure: Participants  14 100.0%	Results	13
+Results 2:	Results	14
+Arm/Group Title: Trastuzumab + Pertuzumab + Paclitaxel	Results	15
+paclitaxel	CHEBI:45863	44-54
+Arm/Group Description: Trastuzumab IV weekly plus pertuzumab IV every 3 weeks for 6 weeks, followed by paclitaxel IV weekly for 12 weeks.	Results	16
+paclitaxel	CHEBI:45863	103-113
+Trastuzumab: anti-Her2 monoclonal antibody	Results	17
+monoclonal	BAO:0000503	23-33
+antibody	GO:0042571,BAO:0000502	34-42
+Paclitaxel: chemotherapy - microtubule inhibitor	Results	18
+paclitaxel	CHEBI:45863	0-10
+microtubule	GO:0005874	27-38
+inhibitor	CHEBI:35222	39-48
+Pertuzumab: anti-HER2 monoclonal antibody	Results	19
+monoclonal	BAO:0000503	22-32
+antibody	GO:0042571,BAO:0000502	33-41
+Overall Number of Participants Analyzed: 16	Results	20
+Measure Type: Count of Participants	Results	21
+Unit of Measure: Participants  10  62.5%	Results	22
+Adverse Events 1:	Adverse Events	0
+Total: 0/14 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/16 (0.00%)	Adverse Events	3

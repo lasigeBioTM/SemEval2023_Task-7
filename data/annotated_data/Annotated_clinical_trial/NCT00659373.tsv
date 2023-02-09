@@ -1,0 +1,121 @@
+INTERVENTION 1:	Intervention	0
+Tamoxifen	Intervention	1
+tamoxifen	CHEBI:41774	0-9
+Tamoxifen 20mg orally daily for 5 years	Intervention	2
+tamoxifen	CHEBI:41774	0-9
+INTERVENTION 2:	Intervention	3
+Ovarian Function Suppression	Intervention	4
+function	BAO:0003117,BFO:0000034	8-16
+Tamoxifen 20mg orally daily or Exemestane 25mg orally daily for 5 years plus ovarian function suppression (OFS; triptorelin (GnRH analogue) 3.75 mg by im injection q28 days for 5 years; or surgical oophorectomy; or ovarian irradiation)	Intervention	5
+tamoxifen	CHEBI:41774	0-9
+exemestane	CHEBI:4953	31-41
+function	BAO:0003117,BFO:0000034	85-93
+triptorelin	CHEBI:63633	112-123
+Note: Data were collected separately for the T+OFS and E+OFS participants in the parent study, IBCSG 24-02 (SOFT). The sample size for this Co-SOFT substudy was small, so the analysis plan was revised to pre-specify collective analysis for all patients receiving OFS.	Intervention	6
+size	PATO:0000117	126-130
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed breast cancer	Eligibility	1
+breast cancer	DOID:1612	25-38
+Completely resected disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	20-27
+Registered for clinical trial IBCSG-2402, but not yet started protocol hormonal therapy	Eligibility	3
+Has not yet received any of the following adjuvant endocrine therapy, either before or after registration on IBCSG-2402:	Eligibility	4
+adjuvant	CHEBI:60809	42-50
+Tamoxifen, exemestane, or gonadotropin-releasing hormone (GnRH) agonist	Eligibility	5
+tamoxifen	CHEBI:41774	0-9
+exemestane	CHEBI:4953	11-21
+hormone	CHEBI:24621	49-56
+agonist	CHEBI:48705	64-71
+Ovarian irradiation	Eligibility	6
+Bilateral oophorectomy	Eligibility	7
+bilateral	HP:0012832	0-9
+Hormone receptor status:	Eligibility	8
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen and/or progesterone receptor positive	Eligibility	9
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	16-28
+receptor	BAO:0000281	29-37
+Each tumor must be hormone receptor positive	Eligibility	10
+hormone	CHEBI:24621	19-26
+receptor	BAO:0000281	27-35
+PATIENT CHARACTERISTICS:	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+Premenopausal	Eligibility	12
+Can speak and read the local language(s) fluently	Eligibility	13
+PRIOR CONCURRENT THERAPY:	Eligibility	14
+See Disease Characteristics	Eligibility	15
+disease	DOID:4,OGMS:0000031	4-11
+Outcome Measurement:	Results	0
+Change in Cognitive Function Over 1 Year in Premenopausal Breast Cancer Patients Who Receive Adjuvant Tamoxifen (T) Alone Against Those Receive Adjuvant Tamoxifen (T+OFS) or Exemestane (E+OFS) With Ovarian Function Suppression (OFS)	Results	1
+function	BAO:0003117,BFO:0000034	20-28
+function	BAO:0003117,BFO:0000034	206-214
+year	UO:0000036	36-40
+breast cancer	DOID:1612	58-71
+adjuvant	CHEBI:60809	93-101
+adjuvant	CHEBI:60809	144-152
+tamoxifen	CHEBI:41774	102-111
+tamoxifen	CHEBI:41774	153-162
+t	CHEBI:36371,BAO:0001260	15-16
+t	CHEBI:36371,BAO:0001260	24-25
+t	CHEBI:36371,BAO:0001260	63-64
+t	CHEBI:36371,BAO:0001260	74-75
+t	CHEBI:36371,BAO:0001260	78-79
+t	CHEBI:36371,BAO:0001260	100-101
+t	CHEBI:36371,BAO:0001260	102-103
+t	CHEBI:36371,BAO:0001260	113-114
+t	CHEBI:36371,BAO:0001260	128-129
+t	CHEBI:36371,BAO:0001260	130-131
+t	CHEBI:36371,BAO:0001260	151-152
+t	CHEBI:36371,BAO:0001260	153-154
+t	CHEBI:36371,BAO:0001260	164-165
+t	CHEBI:36371,BAO:0001260	180-181
+t	CHEBI:36371,BAO:0001260	195-196
+t	CHEBI:36371,BAO:0001260	210-211
+exemestane	CHEBI:4953	174-184
+Objective cognitive function measured with CogState, a computerized test battery of 7 tasks: Detection, Identification, Monitoring, Memory, Learning, International Shopping List Task (ISLT) and ISLT-Delayed Recall. Performance speed is measured for Detection/Identification/Monitoring and performance accuracy is measured for Memory/Learning/ISLT/ISLT-Delayed Recall. Performance speed calculated as mean of the log10 transformed reaction time for correct responses (lower score=better); performance accuracy calculated as arcsine transformation of the proportion of correct responses (higher scores=better). Main outcome measure is a composite score (average of task scores after transformation and standardization by age-specific norms). A positive standardized score indicates that a patient performed better than average; a negative standardized score indicates below average results. Patients complete assessments at baseline and 1 year after randomization to parent IBCSG 24-02 (SOFT) study.	Results	2
+function	BAO:0003117,BFO:0000034	20-28
+memory	GO:0007613	132-138
+memory	GO:0007613	326-332
+learning	GO:0007612	140-148
+learning	GO:0007612	333-341
+mean	BAO:0002173	400-404
+time	PATO:0000165	439-443
+transformation of	RO:0002494	531-548
+patient	HADO:0000008,OAE:0001817	787-794
+patient	HADO:0000008,OAE:0001817	889-896
+year	UO:0000036	937-941
+Time frame: 1 year after patient randomization to parent IBCSG 24-02 study	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+patient	HADO:0000008,OAE:0001817	25-32
+Results 1:	Results	4
+Arm/Group Title: Tamoxifen	Results	5
+tamoxifen	CHEBI:41774	17-26
+Arm/Group Description: Tamoxifen 20mg orally daily for 5 years	Results	6
+tamoxifen	CHEBI:41774	23-32
+Overall Number of Participants Analyzed: 20	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: standardized units  -.04         (0.49)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Ovarian Function Suppression	Results	11
+function	BAO:0003117,BFO:0000034	25-33
+Arm/Group Description: Tamoxifen 20mg orally daily or Exemestane 25mg orally daily for 5 years plus ovarian function suppression (OFS; triptorelin (GnRH analogue) 3.75 mg by im injection q28 days for 5 years; or surgical oophorectomy; or ovarian irradiation)	Results	12
+tamoxifen	CHEBI:41774	23-32
+exemestane	CHEBI:4953	54-64
+function	BAO:0003117,BFO:0000034	108-116
+triptorelin	CHEBI:63633	135-146
+Note: Data were collected separately for the T+OFS and E+OFS participants in the parent study, IBCSG 24-02 (SOFT). The sample size for this Co-SOFT substudy was small, so the analysis plan was revised to pre-specify collective analysis for all patients receiving OFS.	Results	13
+size	PATO:0000117	126-130
+Overall Number of Participants Analyzed: 54	Results	14
+Mean (Standard Deviation)	Results	15
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: standardized units  -0.21         (0.92)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 0/20 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/54 (0.00%)	Adverse Events	3

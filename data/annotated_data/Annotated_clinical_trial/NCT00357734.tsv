@@ -1,0 +1,58 @@
+INTERVENTION 1:	Intervention	0
+Gefitinib (ZD1839)	Intervention	1
+gefitinib	CHEBI:49668	0-9
+ZD1839 at a daily dose of 250 mg or 500 mg depending on final dose in parent trial	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Provision of written informed consent to participate in the trial.	Eligibility	1
+Female or male aged 18 years and over.	Eligibility	2
+female	PATO:0000383	0-6
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	10-14
+Patients with previously diagnosed cancer who have been treated with ZD1839 in a parent ZD1839 clinical trial and may benefit from continuation	Eligibility	3
+cancer	DOID:162	35-41
+Exclusion Criteria:	Eligibility	4
+Known severe hypersensitivity to ZD1839	Eligibility	5
+severe	HP:0012828	6-12
+hypersensitivity	GO:0002524,DOID:1205	13-29
+Concomitant use of phenytoin, carbamazepine, rifampicin, barbiturates, or St John's Wort.	Eligibility	6
+phenytoin	CHEBI:8107	19-28
+carbamazepine	CHEBI:3387	30-43
+rifampicin	CHEBI:71365	45-55
+barbiturates	CHEBI:22693	57-69
+Withdrawal from a parent ZD1839 trial because of tumor progress	Eligibility	7
+Outcome Measurement:	Results	0
+Number of Serious Adverse Events (SAEs)	Results	1
+Assessment of the long-term safety profile of ZD1839 therapy by assessing the incidence of adverse events. Any adverse events (AEs) and serious adverse events (SAEs) occurring during treatment and any SAEs occurring within 30 days after stopping the trial drug must be followed to resolution unless, in the investigator's opinion, the condition is unlikely to resolve because of the patient's underlying disease	Results	2
+drug	CHEBI:23888	256-260
+condition	PDRO:0000129	335-344
+patient	HADO:0000008,OAE:0001817	383-390
+disease	DOID:4,OGMS:0000031	404-411
+Time frame: Serious adverse events (SAEs) and non-serious AEs were collected from the start of study treatment until 30 days after the last dose of study treatment or 30 days after last visit (up to approximately 120 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Gefitinib (ZD1839)	Results	5
+gefitinib	CHEBI:49668	17-26
+Arm/Group Description: ZD1839 at a daily dose of 250 mg or 500 mg depending on final dose in parent trial	Results	6
+Overall Number of Participants Analyzed: 14	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: number of SAEs  13	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 4/14 (28.57%)	Adverse Events	1
+Duodenitis  [1]1/14 (7.14%)	Adverse Events	2
+duodenitis	HP:0033117,DOID:8643	0-10
+Gastrooesophageal reflux disease  [1]1/14 (7.14%)	Adverse Events	3
+disease	DOID:4,OGMS:0000031	25-32
+Vomiting  [1]1/14 (7.14%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Ascites  [1]1/14 (7.14%)	Adverse Events	5
+ascites	HP:0001541	0-7
+Haematemesis  [1]1/14 (7.14%)	Adverse Events	6
+Death  [1]1/14 (7.14%)	Adverse Events	7
+death	OAE:0000632	0-5
+Asthenia  [1]1/14 (7.14%)	Adverse Events	8
+asthenia	HP:0025406	0-8
+General physical health deterioration  [1]1/14 (7.14%)	Adverse Events	9
+Bronchopneumonia  [1]1/14 (7.14%)	Adverse Events	10
+bronchopneumonia	DOID:12375	0-16
+Pneumonia  [1]1/14 (7.14%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	0-9

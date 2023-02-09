@@ -1,0 +1,288 @@
+INTERVENTION 1:	Intervention	0
+Arm A: Endocrine Therapy (ET)	Intervention	1
+Endocrine treatment consisting of either letrozole or fulvestrant. Patients will be randomized to receive bevacizumab 15mg/kg every 3 weeks plus endocrine treatment or endocrine treatment as a single agent. The patients will receive the assigned treatment until the progression of the disease, unacceptable toxicity or withdrawal of the consent.	Intervention	2
+letrozole	CHEBI:6413	41-50
+fulvestrant	CHEBI:31638	54-65
+disease	DOID:4,OGMS:0000031	285-292
+Letrozole	Intervention	3
+letrozole	CHEBI:6413	0-9
+Fulvestrant	Intervention	4
+fulvestrant	CHEBI:31638	0-11
+INTERVENTION 2:	Intervention	5
+Arm B: ET With Bevacizumab (ET-B)	Intervention	6
+Endocrine treatment consisting of either letrozole or fulvestrant. Patients will be randomized to receive bevacizumab 15mg/kg i.v. on day 1 every 3 weeks plus endocrine treatment or endocrine treatment as a single agent. The patients will receive the assigned treatment until the progression of the disease, unacceptable toxicity or withdrawal of the consent.	Intervention	7
+letrozole	CHEBI:6413	41-50
+fulvestrant	CHEBI:31638	54-65
+day	UO:0000033	134-137
+disease	DOID:4,OGMS:0000031	299-306
+Letrozole	Intervention	8
+letrozole	CHEBI:6413	0-9
+Bevacizumab	Intervention	9
+Fulvestrant	Intervention	10
+fulvestrant	CHEBI:31638	0-11
+Inclusion Criteria:	Eligibility	0
+Before starting the specific protocol procedures, the written informed consent must be obtained and documented.	Eligibility	1
+Women  18 years.	Eligibility	2
+Capacity to comply with all the protocol requirements.	Eligibility	3
+Functional Eastern Cooperative Oncology Group (ECOG) status of 0 or 1.	Eligibility	4
+functional	BAO:0000010	0-10
+group	CHEBI:24433	40-45
+Life expectancy  24 weeks.	Eligibility	5
+Histologically confirmed breast adenocarcinoma, with measurable or non-measurable, locally advanced or metastatic (stage IV) disease. In the event that the patient only has locally advanced disease, she will not be able to undergo curative local treatment. Patients with metastasis confined to the bone can be chosen, but the disease must be confirmed by radiology, CT scan or Nuclear magnetic resonance (NMR) if there is any doubt after a single bone scan.	Eligibility	6
+breast adenocarcinoma	DOID:3458	25-46
+disease	DOID:4,OGMS:0000031	125-132
+disease	DOID:4,OGMS:0000031	190-197
+disease	DOID:4,OGMS:0000031	326-333
+patient	HADO:0000008,OAE:0001817	156-163
+patient	HADO:0000008,OAE:0001817	257-264
+ct	BAO:0002125	366-368
+nuclear magnetic resonance	BAO:0000160	377-403
+Patients with HER2-negative disease evaluated by Immunohistochemistry (IHC) and Fluorescence in situ hybridization (FISH)/Chromogenic in situ hybridisation (CISH) (IHC 0 or 1+, or 2+ and negative FISH). Patients with 3+ by IHC cannot be chosen regardless of the FISH/CISH status and those with positive FISH/CISH (> 2 amplifications) cannot be chosen either, regardless of the IHC findings.	Eligibility	7
+disease	DOID:4,OGMS:0000031	28-35
+immunohistochemistry	BAO:0000415	49-69
+Positive hormone receptors (estrogen receptor [ER] and/or progesterone receptor [PgR]) evaluated by a local or central laboratory, according to the criteria of the participating institution.	Eligibility	8
+hormone	CHEBI:24621	9-16
+estrogen	CHEBI:50114,BAO:0000760	28-36
+receptor	BAO:0000281	17-25
+receptor	BAO:0000281	37-45
+receptor	BAO:0000281	71-79
+progesterone	CHEBI:17026	58-70
+central	HP:0030645	111-118
+Patients who are candidates for receiving first-line treatment with letrozole.	Eligibility	9
+letrozole	CHEBI:6413	68-77
+Patients may have received (neo)adjuvant chemotherapy, provided that the last dose of the latter was received at least 12 months before randomization. Patients must be recovered from toxicity.	Eligibility	10
+adjuvant	CHEBI:60809	32-40
+The patients are allowed to have received adjuvant radiotherapy, provided that it was completed at least 6 weeks before randomization and the patient has recovered from the reversible acute effects of the radiation. The previous administration of radiotherapy to palliate the pain of bone metastases is authorized, provided that:	Eligibility	11
+adjuvant	CHEBI:60809	42-50
+radiotherapy	OAE:0000235	51-63
+radiotherapy	OAE:0000235	247-259
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	142-149
+acute	HP:0011009,PATO:0000389	184-189
+pain	HP:0012531	276-280
+Not more than 30% of bone marrow has been irradiated.	Eligibility	12
+bone marrow	UBERON:0002371	21-32
+The patient has recovered from the reversible acute effects of the radiation.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	4-11
+acute	HP:0011009,PATO:0000389	46-51
+The patient has at least one metastatic location which has not been irradiated and which may be evaluated for progression, or a clear progression of the bone disease has been objectified after the end of the palliative radiotherapy.	Eligibility	14
+patient	HADO:0000008,OAE:0001817	4-11
+bone disease	DOID:0080001	153-165
+radiotherapy	OAE:0000235	219-231
+The patients may have received any kind of previous (neo)adjuvant hormone therapy provided that they are considered to be candidates for first-line hormonotherapy with either letrozole or fulvestrant.	Eligibility	15
+adjuvant	CHEBI:60809	57-65
+hormone	CHEBI:24621	66-73
+letrozole	CHEBI:6413	175-184
+fulvestrant	CHEBI:31638	188-199
+The treatment with bisphosphonates is allowed and recommended for patients with bone metastases. Whenever it is possible, the treatment should be started before or within the 4 weeks of starting the study therapy. The patients starting treatment with bisphosphonates must be carefully evaluated so that they do not mask the progression of the disease.	Eligibility	16
+disease	DOID:4,OGMS:0000031	343-350
+In the patients with heart failure risk (e.g. previously treated with > 360mg/m2 of doxorubicin or equivalent doses of other anthracyclines), the Left Ventricular Ejection Fraction (LVEF) must be determined by means of an echocardiogram or radionuclide ventriculography (MUGA), and it must t be > the lower limit of normal.	Eligibility	17
+heart	UBERON:0000948	21-26
+doxorubicin	CHEBI:28748,BAO:0000639	84-95
+left	HP:0012835	146-150
+ejection fraction	CMO:0000180	163-180
+t	CHEBI:36371,BAO:0001260	3-4
+t	CHEBI:36371,BAO:0001260	9-10
+t	CHEBI:36371,BAO:0001260	13-14
+t	CHEBI:36371,BAO:0001260	18-19
+t	CHEBI:36371,BAO:0001260	25-26
+t	CHEBI:36371,BAO:0001260	57-58
+t	CHEBI:36371,BAO:0001260	61-62
+t	CHEBI:36371,BAO:0001260	67-68
+t	CHEBI:36371,BAO:0001260	108-109
+t	CHEBI:36371,BAO:0001260	120-121
+t	CHEBI:36371,BAO:0001260	127-128
+t	CHEBI:36371,BAO:0001260	142-143
+t	CHEBI:36371,BAO:0001260	149-150
+t	CHEBI:36371,BAO:0001260	154-155
+t	CHEBI:36371,BAO:0001260	167-168
+t	CHEBI:36371,BAO:0001260	176-177
+t	CHEBI:36371,BAO:0001260	191-192
+t	CHEBI:36371,BAO:0001260	198-199
+t	CHEBI:36371,BAO:0001260	256-257
+t	CHEBI:36371,BAO:0001260	283-284
+t	CHEBI:36371,BAO:0001260	288-289
+t	CHEBI:36371,BAO:0001260	290-291
+t	CHEBI:36371,BAO:0001260	297-298
+t	CHEBI:36371,BAO:0001260	311-312
+Exclusion Criteria:	Eligibility	18
+Evolutionary disease requiring an immediate treatment with cytotoxic chemotherapy according to the investigator's judgment.	Eligibility	19
+disease	DOID:4,OGMS:0000031	13-20
+Patients with locally advanced breast cancer who are expected to undergo surgery or curative radiotherapy.	Eligibility	20
+breast cancer	DOID:1612	31-44
+surgery	OAE:0000067	73-80
+radiotherapy	OAE:0000235	93-105
+Previous chemotherapy or hormonotherapy for the metastatic disease. Patients may have received neoadjuvant chemotherapy or neoadjuvant hormonotherapy with curative intention as a part or as an alternative to an adjuvant treatment. For the previous neoadjuvant hormonotherapy the same premises than for the adjuvant hormonotherapy are valid.	Eligibility	21
+disease	DOID:4,OGMS:0000031	59-66
+adjuvant	CHEBI:60809	98-106
+adjuvant	CHEBI:60809	126-134
+adjuvant	CHEBI:60809	211-219
+adjuvant	CHEBI:60809	251-259
+adjuvant	CHEBI:60809	306-314
+Previous therapy with anti-vascular endothelial growth factor (VEGF) or VEGF Receptor (VEGFR) tyrosine-kinase inhibitors.	Eligibility	22
+growth factor	BAO:0002024	48-61
+receptor	BAO:0000281	77-85
+History of another pathology that may affect the development of the protocol or the interpretation of results. It is considered that patients who have suffered from a skin carcinoma that is not melanoma, cervical carcinoma in situ or another neoplasia treated with a curative intention and with a disease-free interval exceeding 5 years can be chosen.	Eligibility	23
+history	BFO:0000182	0-7
+skin carcinoma	DOID:3451	167-181
+melanoma	HP:0002861,DOID:1909	194-202
+carcinoma	HP:0030731,DOID:305	172-181
+carcinoma	HP:0030731,DOID:305	213-222
+Evidence of central nervous system (CNS) metastasis. A CT scan or brain NMR must be done within the 4 weeks before the randomization in case of suspecting brain metastasis.	Eligibility	24
+central nervous system	UBERON:0001017	12-34
+ct	BAO:0002125	55-57
+ct	BAO:0002125	149-151
+brain	UBERON:0000955	66-71
+brain	UBERON:0000955	155-160
+History or evidence in the physical or neurological examination of CNS pathology unrelated to cancer unless it is suitable treated with standard therapy (e.g. uncontrolled convulsions).	Eligibility	25
+history	BFO:0000182	0-7
+cancer	DOID:162	94-100
+History of peripheral neuropathy National Cancer Institute (NCI) CTCAE grade >2 at the time of randomization.	Eligibility	26
+history	BFO:0000182	0-7
+peripheral neuropathy	HP:0009830,DOID:870	11-32
+cancer	DOID:162	42-48
+time	PATO:0000165	87-91
+Patients subjected to major surgical procedures, open biopsies or those having significant trauma injuries within the 28 days prior to randomization, or patients who are expected to undergo a major surgical procedure that must necessarily be performed within the course of the study.	Eligibility	27
+Minor surgical procedures in the 7 days prior to randomization.	Eligibility	28
+Unsuitable bone marrow supply: absolute neutrophil count (ANC) < 1.5 x 109/L, platelets < 100 x 109/L or Hb < 10 g/dL.	Eligibility	29
+bone marrow	UBERON:0002371	11-22
+x	LABO:0000148	69-70
+x	LABO:0000148	94-95
+Impaired liver function: total bilirubin total > 1.5 x upper limit of normal (ULN), aspartate aminotransferase (AST) and Alanine aminotransferase (ALT) > 2.5 x ULN (> 5 x ULN in patients with liver metastases).	Eligibility	30
+liver	UBERON:0002107	9-14
+liver	UBERON:0002107	192-197
+function	BAO:0003117,BFO:0000034	15-23
+x	LABO:0000148	53-54
+x	LABO:0000148	158-159
+x	LABO:0000148	169-170
+aspartate	CHEBI:29995	84-93
+alanine	CHEBI:16449	121-128
+Impaired kidney function:	Eligibility	31
+kidney	UBERON:0002113	9-15
+function	BAO:0003117,BFO:0000034	16-24
+Serum creatinine > 2.0 mg/dL or 177 µmol/L.	Eligibility	32
+creatinine	CHEBI:16737	6-16
+Proteinuria determined by reactive strip > 2+. A 24h determination of proteins in urine will be requested for the patients with > 2+ in the baseline analysis and must have a protein figure < 1 g/24 h.	Eligibility	33
+proteinuria	HP:0000093,DOID:576	0-11
+urine	UBERON:0001088	82-87
+protein	CHEBI:36080,BAO:0000175	0-7
+protein	CHEBI:36080,BAO:0000175	70-77
+protein	CHEBI:36080,BAO:0000175	174-181
+Chronic treatment with oral corticoids (dose > 10 mg/day of methylprednisolone or equivalent): the use of inhaled corticoids is allowed.	Eligibility	34
+chronic	HP:0011010	0-7
+Chronic treatment with acetylsalicylic acid (> 325 mg/day) or clopidogrel (> 75 mg/day).	Eligibility	35
+chronic	HP:0011010	0-7
+acetylsalicylic acid	CHEBI:15365	23-43
+clopidogrel	CHEBI:37941	62-73
+Uncontrolled arterial hypertension (systolic > 150 mm Hg and/or diastolic > 100 mm Hg) or clinically significant cardiovascular disease: for example cerebrovascular accident (CVA) (in the 6 months prior to randomization), coronaropathy or history of acute mycardial infarction (AMI) in the last 6 months, unstable angina, congestive heart failure of grade > II of the New York Heart Association (NYHA) or severe heart arrhythmias which are not controlled with medication or which can potentially interfere with the study treatment.	Eligibility	36
+hypertension	HP:0000822,DOID:10763	22-34
+disease	DOID:4,OGMS:0000031	128-135
+history	BFO:0000182	239-246
+acute	HP:0011009,PATO:0000389	250-255
+congestive heart failure	HP:0001635,DOID:6000	322-346
+heart	UBERON:0000948	333-338
+heart	UBERON:0000948	377-382
+heart	UBERON:0000948	412-417
+severe	HP:0012828	405-411
+History or evidence of hemorrhagic diathesis or coagulopathy with bleeding risk.	Eligibility	37
+history	BFO:0000182	0-7
+History of abdominal fistula, gastrointestinal perforation or intra-abdominal abcess in the 6 months prior to randomization.	Eligibility	38
+history	BFO:0000182	0-7
+Active infection requiring i.v. antibiotics at the time of randomization.	Eligibility	39
+active	PATO:0002354	0-6
+time	PATO:0000165	51-55
+Unhealed wounds, active peptic ulcer, esophageal varices.	Eligibility	40
+active	PATO:0002354	17-23
+peptic ulcer	HP:0004398	24-36
+Any other disease, psychological or metabolic alteration, found in the physical or laboratory examination, providing reasonable indications for suspecting a disease or complaint for which the use of any of the study drugs are contraindicated, or which may affect the patient's compliance with the routine procedures of the study or which places the patient at a high risk of experiencing complications related to the treatment.	Eligibility	41
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	157-164
+patient	HADO:0000008,OAE:0001817	267-274
+patient	HADO:0000008,OAE:0001817	349-356
+Current or recent (within 30 days prior to that start of the study treatment) treatment with another drug under investigation or participation in another investigation study.	Eligibility	42
+drug	CHEBI:23888	101-105
+Known hypersensitivity to any of the study drugs or their components.	Eligibility	43
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Hypersensitivity to the products of Chinese hamster ovary cells or to other human or humanized recombinant antibodies.	Eligibility	44
+hypersensitivity	GO:0002524,DOID:1205	0-16
+ovary	UBERON:0000992	52-57
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS)	Results	1
+PFS was defined as the time elapsed from randomization until the date in which the progression of the disease or the death for any reason (whichever occurs first) is documented.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	102-109
+death	OAE:0000632	117-122
+Time frame: Up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A: Endocrine Therapy (ET)	Results	5
+Arm/Group Description: Endocrine treatment consisting of either letrozole or fulvestrant. Patients will be randomized to receive bevacizumab 15mg/kg every 3 weeks plus endocrine treatment or endocrine treatment as a single agent. The patients will receive the assigned treatment until the progression of the disease, unacceptable toxicity or withdrawal of the consent.	Results	6
+letrozole	CHEBI:6413	64-73
+fulvestrant	CHEBI:31638	77-88
+disease	DOID:4,OGMS:0000031	308-315
+Letrozole	Results	7
+letrozole	CHEBI:6413	0-9
+Fulvestrant	Results	8
+fulvestrant	CHEBI:31638	0-11
+Overall Number of Participants Analyzed: 184	Results	9
+Median (95% Confidence Interval)	Results	10
+median	BAO:0002174	0-6
+Unit of Measure: Months  14.4        (11.4 to 17.5)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm B: ET With Bevacizumab (ET-B)	Results	13
+Arm/Group Description: Endocrine treatment consisting of either letrozole or fulvestrant. Patients will be randomized to receive bevacizumab 15mg/kg i.v. on day 1 every 3 weeks plus endocrine treatment or endocrine treatment as a single agent. The patients will receive the assigned treatment until the progression of the disease, unacceptable toxicity or withdrawal of the consent.	Results	14
+letrozole	CHEBI:6413	64-73
+fulvestrant	CHEBI:31638	77-88
+day	UO:0000033	157-160
+disease	DOID:4,OGMS:0000031	322-329
+Letrozole	Results	15
+letrozole	CHEBI:6413	0-9
+Bevacizumab	Results	16
+Fulvestrant	Results	17
+fulvestrant	CHEBI:31638	0-11
+Overall Number of Participants Analyzed: 190	Results	18
+Median (95% Confidence Interval)	Results	19
+median	BAO:0002174	0-6
+Unit of Measure: Months  19.3        (16.5 to 22.1)	Results	20
+Adverse Events 1:	Adverse Events	0
+Total: 21/184 (11.41%)	Adverse Events	1
+Lymphangitis 0/184 (0.00%)	Adverse Events	2
+lymphangitis	DOID:9317	0-12
+Angina pectoris 0/184 (0.00%)	Adverse Events	3
+angina pectoris	HP:0001681	0-15
+Cardiac infarction 0/184 (0.00%)	Adverse Events	4
+Heart failure 0/184 (0.00%)	Adverse Events	5
+heart	UBERON:0000948	0-5
+Infarction 0/184 (0.00%)	Adverse Events	6
+Acute pancreatitis 0/184 (0.00%)	Adverse Events	7
+acute pancreatitis	HP:0001735,DOID:2913	0-18
+Anal fistula 0/184 (0.00%)	Adverse Events	8
+anal fistula	HP:0010447,DOID:0060328	0-12
+Colitis 1/184 (0.54%)	Adverse Events	9
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea 0/184 (0.00%)	Adverse Events	10
+Diverticulitis 0/184 (0.00%)	Adverse Events	11
+diverticulitis	DOID:7475	0-14
+Hemorrhoids 0/184 (0.00%)	Adverse Events	12
+hemorrhoids	HP:0032551	0-11
+Adverse Events 2:	Adverse Events	13
+Total: 64/190 (33.68%)	Adverse Events	14
+Lymphangitis 1/190 (0.53%)	Adverse Events	15
+lymphangitis	DOID:9317	0-12
+Angina pectoris 1/190 (0.53%)	Adverse Events	16
+angina pectoris	HP:0001681	0-15
+Cardiac infarction 1/190 (0.53%)	Adverse Events	17
+Heart failure 1/190 (0.53%)	Adverse Events	18
+heart	UBERON:0000948	0-5
+Infarction 1/190 (0.53%)	Adverse Events	19
+Acute pancreatitis 1/190 (0.53%)	Adverse Events	20
+acute pancreatitis	HP:0001735,DOID:2913	0-18
+Anal fistula 1/190 (0.53%)	Adverse Events	21
+anal fistula	HP:0010447,DOID:0060328	0-12
+Colitis 0/190 (0.00%)	Adverse Events	22
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea 2/190 (1.05%)	Adverse Events	23
+Diverticulitis 1/190 (0.53%)	Adverse Events	24
+diverticulitis	DOID:7475	0-14
+Hemorrhoids 1/190 (0.53%)	Adverse Events	25
+hemorrhoids	HP:0032551	0-11

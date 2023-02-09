@@ -1,0 +1,83 @@
+INTERVENTION 1:	Intervention	0
+Arimidex Group	Intervention	1
+group	CHEBI:24433	9-14
+Anastrozole(ARIMIDEX): 1 mg once daily oral dose	Intervention	2
+anastrozole	CHEBI:2704	0-11
+INTERVENTION 2:	Intervention	3
+TAM Group	Intervention	4
+group	CHEBI:24433	4-9
+Tamoxifen : 20 mg once daily oral dose	Intervention	5
+tamoxifen	CHEBI:41774	0-9
+Inclusion Criteria:	Eligibility	0
+Histologically proven HR+ invasive breast cancer	Eligibility	1
+breast cancer	DOID:1612	35-48
+Completed all primary surgery and chemotherapy (if given), and were candidates to receive hormonal adjuvant therapy	Eligibility	2
+surgery	OAE:0000067	22-29
+adjuvant	CHEBI:60809	99-107
+Postmenopausal woman	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+clinical evidence of metastatic disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	32-39
+previous adjuvant hormonal therapy for breast cancer	Eligibility	6
+adjuvant	CHEBI:60809	9-17
+breast cancer	DOID:1612	39-52
+liver diseases	Eligibility	7
+liver	UBERON:0002107	0-5
+Outcome Measurement:	Results	0
+Incidence of Fatty Liver Disease	Results	1
+fatty liver disease	DOID:9452	13-32
+The primary objective is to compare ARIMIDEX (anastrozole) 1 mg once daily with Tamoxifen 20 mg once daily as adjuvant treatment in terms of: incidence of fatty liver diseases.	Results	2
+anastrozole	CHEBI:2704	46-57
+tamoxifen	CHEBI:41774	80-89
+adjuvant	CHEBI:60809	110-118
+liver	UBERON:0002107	161-166
+Time frame: At 48 weeks, 96 weeks, 144 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arimidex Group	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	26-31
+Arm/Group Description: Anastrozole(ARIMIDEX): 1 mg once daily oral dose	Results	6
+anastrozole	CHEBI:2704	23-34
+Overall Number of Participants Analyzed: 178	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  48 weeks: 9	Results	9
+96 weeks: 15	Results	10
+144 weeks: 26	Results	11
+Results 2:	Results	12
+Arm/Group Title: TAM Group	Results	13
+group	CHEBI:24433	4-9
+group	CHEBI:24433	21-26
+Arm/Group Description: Tamoxifen : 20 mg once daily oral dose	Results	14
+tamoxifen	CHEBI:41774	23-32
+Overall Number of Participants Analyzed: 175	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: participants  48 weeks: 53	Results	17
+96 weeks: 66	Results	18
+144 weeks: 72	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 4/178 (2.25%)	Adverse Events	1
+Cardiac failure 1/178 (0.56%)	Adverse Events	2
+Supraventricular extrasystoles 0/178 (0.00%)	Adverse Events	3
+Hepatic cyst 1/178 (0.56%)	Adverse Events	4
+Cervicitis 0/178 (0.00%)	Adverse Events	5
+cervicitis	HP:0030160,DOID:2568	0-10
+Fall 1/178 (0.56%)	Adverse Events	6
+Joint dislocation 1/178 (0.56%)	Adverse Events	7
+joint dislocation	HP:0001373	0-17
+Spinal fracture 1/178 (0.56%)	Adverse Events	8
+Cyst 0/178 (0.00%)	Adverse Events	9
+Uterine atony 0/178 (0.00%)	Adverse Events	10
+Adverse Events 2:	Adverse Events	11
+Total: 4/175 (2.29%)	Adverse Events	12
+Cardiac failure 0/175 (0.00%)	Adverse Events	13
+Supraventricular extrasystoles 1/175 (0.57%)	Adverse Events	14
+Hepatic cyst 0/175 (0.00%)	Adverse Events	15
+Cervicitis 2/175 (1.14%)	Adverse Events	16
+cervicitis	HP:0030160,DOID:2568	0-10
+Fall 0/175 (0.00%)	Adverse Events	17
+Joint dislocation 0/175 (0.00%)	Adverse Events	18
+joint dislocation	HP:0001373	0-17
+Spinal fracture 0/175 (0.00%)	Adverse Events	19
+Cyst 1/175 (0.57%)	Adverse Events	20
+Uterine atony 1/175 (0.57%)	Adverse Events	21

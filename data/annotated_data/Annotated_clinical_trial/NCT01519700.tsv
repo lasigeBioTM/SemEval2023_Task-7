@@ -1,0 +1,65 @@
+INTERVENTION 1:	Intervention	0
+EP2006 + EP2006 & Neupogen	Intervention	1
+All subjects randomized to receive either EP2006 in Cycle 1	Intervention	2
+INTERVENTION 2:	Intervention	3
+Neupogen + Neupogen & EP2006	Intervention	4
+All subjects randomized to receive Neupogen in Cycle 1	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Patients with histologically proven breast cancer, eligible for neoadjuvant or adjuvant myelosuppressive chemotherapy	Eligibility	1
+breast cancer	DOID:1612	36-49
+adjuvant	CHEBI:60809	67-75
+adjuvant	CHEBI:60809	79-87
+Women  18 years of age	Eligibility	2
+age	PATO:0000011	19-22
+Estimated life expectancy of more than six months	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Previous or concurrent malignancy except non-invasive non-melanoma skin cancer, in situ carcinoma of the cervix, or other solid tumor treated curatively, and without evidence of recurrence for at least ten years prior to study entry	Eligibility	5
+skin cancer	DOID:4159	67-78
+in situ carcinoma	DOID:8719	80-97
+Any serious illness or medical condition that may interfere with safety, compliance, response to the products under investigation and their evaluation, e.g.:	Eligibility	6
+condition	PDRO:0000129	31-40
+Other protocol-defined inclusion/exclusion criteria may apply.	Eligibility	7
+Outcome Measurement:	Results	0
+Mean Duration of Grade 4 Neutropenia During Cycle 1 of Chemotherapy	Results	1
+mean	BAO:0002173	0-4
+duration	PATO:0001309	5-13
+neutropenia	HP:0001875,DOID:1227	25-36
+Mean duration of severe neutropenia, defined as the mean number of consecutive days with Grade 4 neutropenia (ANC less than 0.5*10^9 cells/L)	Results	2
+mean	BAO:0002173	0-4
+mean	BAO:0002173	52-56
+duration	PATO:0001309	5-13
+severe	HP:0012828	17-23
+neutropenia	HP:0001875,DOID:1227	24-35
+neutropenia	HP:0001875,DOID:1227	97-108
+Time frame: 21 days (Cycle 1 of chemotherapy treatment)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: EP2006 + EP2006 & Neupogen	Results	5
+Arm/Group Description: All subjects randomized to receive either EP2006 in Cycle 1	Results	6
+Overall Number of Participants Analyzed: 101	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Days  1.17         (1.11)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Neupogen + Neupogen & EP2006	Results	11
+Arm/Group Description: All subjects randomized to receive Neupogen in Cycle 1	Results	12
+Overall Number of Participants Analyzed: 103	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Days  1.2         (1.02)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 6/53 (11.32%)	Adverse Events	1
+Febrile Neutropenia3/53 (5.66%)	Adverse Events	2
+Anaemia0/53 (0.00%)	Adverse Events	3
+Leukopenia1/53 (1.89%)	Adverse Events	4
+Diarrhoea0/53 (0.00%)	Adverse Events	5
+Embolism1/53 (1.89%)	Adverse Events	6
+Adverse Events 2:	Adverse Events	7
+Total: 4/54 (7.41%)	Adverse Events	8
+Febrile Neutropenia4/54 (7.41%)	Adverse Events	9
+Anaemia0/54 (0.00%)	Adverse Events	10
+Leukopenia0/54 (0.00%)	Adverse Events	11
+Diarrhoea0/54 (0.00%)	Adverse Events	12
+Embolism0/54 (0.00%)	Adverse Events	13

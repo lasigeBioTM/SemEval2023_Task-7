@@ -1,0 +1,70 @@
+INTERVENTION 1:	Intervention	0
+Eligible Patients Assessable for the Primary Outcome Measure	Intervention	1
+Patients older than 70 years and included either before any first-line treatment, or between any two steps of a pre-defined first-line treatment sequence (chemotherapy, endocrine therapy, targeted treatment, surgery or radiotherapy) for various types of histologically-confirmed cancer (colon, lung, upper aero digestive tract (UAT)/head and neck, breast, prostate, and non-Hodgkin's lymphomas (NHL)), and for whom G8 as well as at least one instrument of the multidimensional assessment were available.	Intervention	2
+surgery	OAE:0000067	208-215
+radiotherapy	OAE:0000235	219-231
+cancer	DOID:162	279-285
+colon	UBERON:0001155	287-292
+lung	UBERON:0002048	294-298
+digestive tract	UBERON:0001555	311-326
+neck	GO:0044326,UBERON:0000974	342-346
+breast	UBERON:0000310	348-354
+instrument	BAO:0003118	442-452
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed cancer including the following types:	Eligibility	1
+cancer	DOID:162	25-31
+Colon	Eligibility	2
+colon	UBERON:0001155	0-5
+Rectal	Eligibility	3
+Lung	Eligibility	4
+lung	UBERON:0002048	0-4
+Squamous cell carcinoma of the head and neck	Eligibility	5
+squamous cell carcinoma	HP:0002860,DOID:1749	0-23
+head	UBERON:0000033	31-35
+neck	GO:0044326,UBERON:0000974	40-44
+Breast	Eligibility	6
+breast	UBERON:0000310	0-6
+Prostate	Eligibility	7
+Non-Hodgkin lymphoma	Eligibility	8
+non-hodgkin lymphoma	HP:0012539,DOID:0060060	0-20
+Planning to undergo first-time treatment comprising medicine, surgery, or radiotherapy	Eligibility	9
+surgery	OAE:0000067	62-69
+radiotherapy	OAE:0000235	74-86
+PATIENT CHARACTERISTICS:	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+No persons deprived of liberty or under guardianship	Eligibility	11
+No psychological, familial, social, or geographical reasons that would make monitoring clinically impossible	Eligibility	12
+PRIOR CONCURRENT THERAPY:	Eligibility	13
+See Disease Characteristics	Eligibility	14
+disease	DOID:4,OGMS:0000031	4-11
+Outcome Measurement:	Results	0
+Sensitivity of the G8 Questionnaire	Results	1
+Sensitivity of the G8 questionnaire measured as Percentage of Participants with a Positive G8 among patients with a positive MGA. The G8 consists of eight items: patient age (>85, 80-85, <80), and seven items from the original 18-item MNA (Mini Nutritional Assessment: appetite changes, weight loss, mobility, neuropsychological problems, body mass index, medication, and self-rated health). The total score ranges from 0 to 17, with lower scores indicating a higher risk of impairments. The cut-off value for an 'impaired' reference test score was <=14.	Results	2
+patient	HADO:0000008,OAE:0001817	100-107
+patient	HADO:0000008,OAE:0001817	162-169
+age	PATO:0000011	55-58
+age	PATO:0000011	170-173
+weight loss	HP:0001824	287-298
+Multidimensional geriatric assessment (MGA): Patients underwent a geriatric evaluation in the month following the completion of VES-13. The nurse completed six instruments of the MGA (MNA, Timed Get up and Go, Activities of Daily Living (ADL), Instrumental ADL, Mini Mental State Examination, and Geriatric Depression Scale, and the geriatrician rated comorbidity on the Cumulative Illnes Rating Scale.	Results	3
+month	UO:0000035	94-99
+depression	HP:0000716	307-317
+Time frame: at inclusion (at completion of the G8 questionnaire)	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Eligible Patients Assessable for the Primary Outcome Measure	Results	6
+Arm/Group Description: Patients older than 70 years and included either before any first-line treatment, or between any two steps of a pre-defined first-line treatment sequence (chemotherapy, endocrine therapy, targeted treatment, surgery or radiotherapy) for various types of histologically-confirmed cancer (colon, lung, upper aero digestive tract (UAT)/head and neck, breast, prostate, and non-Hodgkin's lymphomas (NHL)), and for whom G8 as well as at least one instrument of the multidimensional assessment were available.	Results	7
+surgery	OAE:0000067	231-238
+radiotherapy	OAE:0000235	242-254
+cancer	DOID:162	302-308
+colon	UBERON:0001155	310-315
+lung	UBERON:0002048	317-321
+digestive tract	UBERON:0001555	334-349
+neck	GO:0044326,UBERON:0000974	365-369
+breast	UBERON:0000310	371-377
+instrument	BAO:0003118	465-475
+Overall Number of Participants Analyzed: 1151	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: % of Participants with a positive G8  76.5        (73.9 to 78.9)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/1674 (0.00%)	Adverse Events	1

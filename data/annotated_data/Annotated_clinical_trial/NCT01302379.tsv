@@ -1,0 +1,113 @@
+INTERVENTION 1:	Intervention	0
+Metformin + Lifestyle Intervention	Intervention	1
+metformin	CHEBI:6801	0-9
+Metformin: Week 1: 500 mg at dinner time Weeks 2-4: 1000 mg at dinner time Weeks 5+: 500 mg in morning; 1000 mg at dinner time	Intervention	2
+metformin	CHEBI:6801	0-9
+week	UO:0000034	11-15
+week	UO:0000034	41-45
+week	UO:0000034	75-79
+time	PATO:0000165	36-40
+time	PATO:0000165	70-74
+time	PATO:0000165	122-126
+Lifestyle intervention: Telephone-based lifestyle intervention (dietary change and physical activity) for weight loss.	Intervention	3
+weight loss	HP:0001824	106-117
+INTERVENTION 2:	Intervention	4
+Placebo + Lifestyle Intervention	Intervention	5
+Placebo: Week 1: 1 pill at dinner time Weeks 2-4: 2 pills at dinner time Weeks 5+: 1 pill in morning; 2 pills at dinner time	Intervention	6
+week	UO:0000034	9-13
+week	UO:0000034	39-43
+week	UO:0000034	73-77
+time	PATO:0000165	34-38
+time	PATO:0000165	68-72
+time	PATO:0000165	120-124
+Lifestyle intervention: Telephone-based lifestyle intervention (dietary change and physical activity) for weight loss.	Intervention	7
+weight loss	HP:0001824	106-117
+Inclusion Criteria:	Eligibility	0
+BMI at least 25.0 kg/m2	Eligibility	1
+Diagnosed with Stage I, II, or III breast cancer within past 5 years	Eligibility	2
+breast cancer	DOID:1612	35-48
+Treatment with total mastectomy or breast-sparing surgical removal of cancer with clear macroscopic margins, and axillary dissection, followed by adjuvant breast radiation	Eligibility	3
+cancer	DOID:162	70-76
+adjuvant	CHEBI:60809	146-154
+breast	UBERON:0000310	35-41
+breast	UBERON:0000310	155-161
+Not scheduled for or currently undergoing chemotherapy	Eligibility	4
+Accessible geographically and by telephone	Eligibility	5
+Able to communicate dietary and physical activity data via telephone	Eligibility	6
+If taking statins, tamoxifen, or aromatase inhibitors; able and willing to remain on treatment for 6-month study period	Eligibility	7
+tamoxifen	CHEBI:41774	19-28
+Post-menopausal at diagnosis	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Preliminary bloodwork outside of specified ranges	Eligibility	10
+Evidence of renal insufficiency, liver disease, or congestive heart failure	Eligibility	11
+renal insufficiency	HP:0000083	12-31
+liver disease	DOID:409	33-46
+congestive heart failure	HP:0001635,DOID:6000	51-75
+Currently taking corticosteroid pills or steroid hormone therapy (including vaginal estrogen creams)	Eligibility	12
+corticosteroid	CHEBI:50858	17-31
+steroid hormone	CHEBI:26764	41-56
+estrogen	CHEBI:50114,BAO:0000760	84-92
+Recent initiation (< 3 months ago) of thiazides or β-blockers	Eligibility	13
+Taking insulin or other antidiabetic drug	Eligibility	14
+insulin	CHEBI:145810	7-14
+drug	CHEBI:23888	37-41
+Other primary or recurrent invasive cancer in past 10 years	Eligibility	15
+recurrent	HP:0031796	17-26
+cancer	DOID:162	36-42
+Unable to commit to study requirements	Eligibility	16
+Outcome Measurement:	Results	0
+Insulin	Results	1
+insulin	CHEBI:145810	0-7
+Insulin measured as percent change from baseline	Results	2
+insulin	CHEBI:145810	0-7
+percent change	BAO:0001252	20-34
+Time frame: change from baseline to 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Metformin + Lifestyle Intervention	Results	5
+metformin	CHEBI:6801	17-26
+Arm/Group Description: Metformin: Week 1: 500 mg at dinner time Weeks 2-4: 1000 mg at dinner time Weeks 5+: 500 mg in morning; 1000 mg at dinner time	Results	6
+metformin	CHEBI:6801	23-32
+week	UO:0000034	34-38
+week	UO:0000034	64-68
+week	UO:0000034	98-102
+time	PATO:0000165	59-63
+time	PATO:0000165	93-97
+time	PATO:0000165	145-149
+Lifestyle intervention: Telephone-based lifestyle intervention (dietary change and physical activity) for weight loss.	Results	7
+weight loss	HP:0001824	106-117
+Overall Number of Participants Analyzed: 83	Results	8
+Least Squares Mean (95% Confidence Interval)	Results	9
+mean	BAO:0002173	14-18
+Unit of Measure: percent change from baseline  -21.8        (-29.7 to -13.0)	Results	10
+percent change	BAO:0001252	17-31
+Results 2:	Results	11
+Arm/Group Title: Placebo + Lifestyle Intervention	Results	12
+Arm/Group Description: Placebo: Week 1: 1 pill at dinner time Weeks 2-4: 2 pills at dinner time Weeks 5+: 1 pill in morning; 2 pills at dinner time	Results	13
+week	UO:0000034	32-36
+week	UO:0000034	62-66
+week	UO:0000034	96-100
+time	PATO:0000165	57-61
+time	PATO:0000165	91-95
+time	PATO:0000165	143-147
+Lifestyle intervention: Telephone-based lifestyle intervention (dietary change and physical activity) for weight loss.	Results	14
+weight loss	HP:0001824	106-117
+Overall Number of Participants Analyzed: 83	Results	15
+Least Squares Mean (95% Confidence Interval)	Results	16
+mean	BAO:0002173	14-18
+Unit of Measure: percent change from baseline  -17.7        (-25.9 to -8.6)	Results	17
+percent change	BAO:0001252	17-31
+Adverse Events 1:	Adverse Events	0
+Total: 5/333 (1.50%)	Adverse Events	1
+transient ischemic attack1/333 (0.30%)	Adverse Events	2
+transient	HP:0025153	0-9
+Injury due to fall1/333 (0.30%)	Adverse Events	3
+Abdominal pain1/333 (0.30%)	Adverse Events	4
+slurred speach1/333 (0.30%)	Adverse Events	5
+Adverse Events 2:	Adverse Events	6
+Total: 5/333 (1.50%)	Adverse Events	7
+transient ischemic attack1/333 (0.30%)	Adverse Events	8
+transient	HP:0025153	0-9
+Injury due to fall1/333 (0.30%)	Adverse Events	9
+Abdominal pain1/333 (0.30%)	Adverse Events	10
+slurred speach1/333 (0.30%)	Adverse Events	11

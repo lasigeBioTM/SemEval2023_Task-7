@@ -1,0 +1,115 @@
+INTERVENTION 1:	Intervention	0
+AZD0530 175 mg	Intervention	1
+AZD0530 (saracatinib) 175 mg once daily	Intervention	2
+saracatinib	CHEBI:47458	9-20
+INTERVENTION 2:	Intervention	3
+Zoledronic Acid 4 mg	Intervention	4
+zoledronic acid	CHEBI:46557	0-15
+Zoledronic Acid 4 mg on Day 1 of the 4-week treatment period	Intervention	5
+zoledronic acid	CHEBI:46557	0-15
+day	UO:0000033	24-27
+Inclusion Criteria:	Eligibility	0
+Subjects 18 years or older with Prostate Cancer or Breast Cancer with Metastatic Bone Disease Have evidence of recurrence or disease progression	Eligibility	1
+prostate cancer	HP:0012125,DOID:10283	32-47
+breast cancer	DOID:1612	51-64
+bone disease	DOID:0080001	81-93
+disease	DOID:4,OGMS:0000031	86-93
+disease	DOID:4,OGMS:0000031	125-132
+At least one radiographically confirmed metastatic bone lesion	Eligibility	2
+No change of cancer therapy for at least 8 weeks before randomization	Eligibility	3
+cancer	DOID:162	13-19
+Exclusion Criteria:	Eligibility	4
+Have had any prior exposure to bisphosphonate	Eligibility	5
+Have had hip fractures or bilateral hip prothesis fracture of any kind or surgery to bone within the past 12 months	Eligibility	6
+hip	UBERON:0001464	9-12
+hip	UBERON:0001464	36-39
+bilateral	HP:0012832	26-35
+surgery	OAE:0000067	74-81
+Inadequate renal function or low haemoglobin	Eligibility	7
+function	BAO:0003117,BFO:0000034	17-25
+Inadequate liver function as demonstrated by serum bilirubin 2 times the upper limits of reference range (ULRR) or by alanine aminotransferase (ALT), aspartate aminotransferase(AST) or ALP 2.5 times the ULRR (  5 times the ULRR in the presence of liver metastases). If bone metastases are present and liver function is otherwise considered adequate by the investigator then elevated ALP will not exclude the patient.	Eligibility	8
+liver	UBERON:0002107	11-16
+liver	UBERON:0002107	247-252
+liver	UBERON:0002107	301-306
+function	BAO:0003117,BFO:0000034	17-25
+function	BAO:0003117,BFO:0000034	307-315
+range	LABO:0000114	99-104
+alanine	CHEBI:16449	118-125
+aspartate	CHEBI:29995	150-159
+present	PATO:0000467	289-296
+patient	HADO:0000008,OAE:0001817	408-415
+Outcome Measurement:	Results	0
+Percentage Change From Baseline in Serum Beta C-terminal Cross-linking Telopeptide of Type I Collagen (betaCTX) at Week 4	Results	1
+collagen	CHEBI:3815	93-101
+week	UO:0000034	115-119
+Result at Week 4 minus result at baseline as a percentage of the result at baseline, based on log transformed data. Back transformation of the least squares (LS) mean.	Results	2
+result	BAO:0000179	0-6
+result	BAO:0000179	23-29
+result	BAO:0000179	65-71
+week	UO:0000034	10-14
+log	BAO:0002172	94-97
+transformation of	RO:0002494	121-138
+mean	BAO:0002173	162-166
+Time frame: Baseline to Week 4	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	24-28
+Results 1:	Results	4
+Arm/Group Title: AZD0530 175 mg	Results	5
+Arm/Group Description: AZD0530 (saracatinib) 175 mg once daily	Results	6
+saracatinib	CHEBI:47458	32-43
+Overall Number of Participants Analyzed: 46	Results	7
+Geometric Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	10-14
+Unit of Measure: Percentage change in betaCTX  -71.1        (-75.9 to -65.4)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Zoledronic Acid 4 mg	Results	11
+zoledronic acid	CHEBI:46557	17-32
+Arm/Group Description: Zoledronic Acid 4 mg on Day 1 of the 4-week treatment period	Results	12
+zoledronic acid	CHEBI:46557	23-38
+day	UO:0000033	47-50
+Overall Number of Participants Analyzed: 65	Results	13
+Geometric Mean (95% Confidence Interval)	Results	14
+mean	BAO:0002173	10-14
+Unit of Measure: Percentage change in betaCTX  -68.4        (-73.0 to -63.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 11/68 (16.18%)	Adverse Events	1
+Anaemia 1/68 (1.47%)	Adverse Events	2
+Cardiac Arrest 1/68 (1.47%)	Adverse Events	3
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Myocardial Infarction 1/68 (1.47%)	Adverse Events	4
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Vomiting 1/68 (1.47%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+General Physical Health Deterioration 0/68 (0.00%)	Adverse Events	6
+Pyrexia 1/68 (1.47%)	Adverse Events	7
+Pneumonia 2/68 (2.94%)	Adverse Events	8
+pneumonia	HP:0002090,DOID:552	0-9
+Viral Infection 1/68 (1.47%)	Adverse Events	9
+Blood Creatinine Increased 0/68 (0.00%)	Adverse Events	10
+blood	UBERON:0000178	0-5
+creatinine	CHEBI:16737	6-16
+Dehydration 0/68 (0.00%)	Adverse Events	11
+dehydration	HP:0001944	0-11
+Bone Pain 0/68 (0.00%)	Adverse Events	12
+bone pain	HP:0002653	0-9
+Adverse Events 2:	Adverse Events	13
+Total: 4/69 (5.80%)	Adverse Events	14
+Anaemia 0/69 (0.00%)	Adverse Events	15
+Cardiac Arrest 0/69 (0.00%)	Adverse Events	16
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Myocardial Infarction 0/69 (0.00%)	Adverse Events	17
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Vomiting 0/69 (0.00%)	Adverse Events	18
+vomiting	HP:0002013	0-8
+General Physical Health Deterioration 1/69 (1.45%)	Adverse Events	19
+Pyrexia 0/69 (0.00%)	Adverse Events	20
+Pneumonia 0/69 (0.00%)	Adverse Events	21
+pneumonia	HP:0002090,DOID:552	0-9
+Viral Infection 0/69 (0.00%)	Adverse Events	22
+Blood Creatinine Increased 1/69 (1.45%)	Adverse Events	23
+blood	UBERON:0000178	0-5
+creatinine	CHEBI:16737	6-16
+Dehydration 1/69 (1.45%)	Adverse Events	24
+dehydration	HP:0001944	0-11
+Bone Pain 1/69 (1.45%)	Adverse Events	25
+bone pain	HP:0002653	0-9

@@ -1,0 +1,124 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Omega-3-fatty Acid)	Intervention	1
+acid	CHEBI:37527	21-25
+Patients receive oral omega-3-fatty acid twice daily (BID) or three times daily (TID) for 24 weeks in the absence of disease progression or unacceptable toxicity	Intervention	2
+acid	CHEBI:37527	36-40
+disease	DOID:4,OGMS:0000031	117-124
+INTERVENTION 2:	Intervention	3
+Arm II (Placebo)	Intervention	4
+Patients receive oral placebo BID or TID for 24 weeks in the absence of disease progression or unacceptable toxicity	Intervention	5
+disease	DOID:4,OGMS:0000031	72-79
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed primary invasive adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+Stage I, II, or IIIA disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	21-28
+No metastatic disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	14-21
+Must have undergone modified radical mastectomy or breast-sparing surgery and recovered	Eligibility	4
+radical	CHEBI:26519	29-36
+surgery	OAE:0000067	66-73
+Estrogen-receptor positive (ER+) and/or progesterone-receptor positive (PR+)	Eligibility	5
+Currently taking a third-generation aromatase inhibitor (AI) [e.g., anastrozole (Arimidex®), letrozole (Femara®), or exemestane (Aromasin®)] for  90 days prior to registration with plans to continue for  180 days after registration	Eligibility	6
+inhibitor	CHEBI:35222	46-55
+anastrozole	CHEBI:2704	68-79
+letrozole	CHEBI:6413	93-102
+exemestane	CHEBI:4953	117-127
+Must have completed the S092 Brief Pain Inventory (BPI)-Short Form within the past 14 days, and must have a worst pain/stiffness of  5 on the BPI (item #2) that has started or increased with AI therapy	Eligibility	7
+pain	HP:0012531	35-39
+pain	HP:0012531	114-118
+PATIENT CHARACTERISTICS:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Postmenopausal	Eligibility	9
+Zubrod performance status 0-2	Eligibility	10
+Willing to submit blood for serum-free estradiol, total estradiol, serum inflammatory markers (IL6, TNF-α, CRP), DHA and EPA, lipid profile (LDL, HDL, triglycerides), and DNA analysis (CYP19A1)	Eligibility	11
+blood	UBERON:0000178	18-23
+estradiol	CHEBI:23965	39-48
+estradiol	CHEBI:23965	56-65
+lipid	CHEBI:18059,BAO:0000171	126-131
+dna	BAO:0000269	171-174
+Able to complete study questionnaires in English	Eligibility	12
+At least 5 years since other malignancy except adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, ductal carcinoma in situ of the breast or adequately treated stage I or II cancer from which the patient is currently in complete remission	Eligibility	13
+skin cancer	DOID:4159	94-105
+cervical cancer	DOID:4362	115-130
+ductal carcinoma in situ	HP:0030075,DOID:0060074	132-156
+breast	UBERON:0000310	164-170
+cancer	DOID:162	99-105
+cancer	DOID:162	124-130
+cancer	DOID:162	207-213
+patient	HADO:0000008,OAE:0001817	229-236
+Patients must not have a known allergy to soy, given that the placebo is suspended in soybean oil	Eligibility	14
+allergy	HP:0012393	31-38
+soybean oil	CHEBI:166975	86-97
+PRIOR CONCURRENT THERAPY:	Eligibility	15
+See Disease Characteristics	Eligibility	16
+disease	DOID:4,OGMS:0000031	4-11
+At least 3 months since prior omega-3 fatty acid supplements and must agree to refrain from omega-3-fatty acid supplements from sources outside of this study	Eligibility	17
+omega-3 fatty acid	CHEBI:25681	30-48
+acid	CHEBI:37527	44-48
+acid	CHEBI:37527	106-110
+More than 28 days since prior investigational agents	Eligibility	18
+No other medical therapy, alternative therapy, or physical therapy for joint pain/stiffness within the past 30 days	Eligibility	19
+Patients must not be on anticoagulation medication (i.e., heparin/warfarin) because of increased risk of bleeding within 28 days prior to registration	Eligibility	20
+Patients must not have a history of bone fracture or surgery of the afflicted knees and/or hands within 6 months prior to registration	Eligibility	21
+history	BFO:0000182	25-32
+bone fracture	HP:0020110	36-49
+surgery	OAE:0000067	53-60
+Patients must not be on narcotics within 14 days of registration	Eligibility	22
+Patients may have received corticosteroid treatment; however, the following criteria apply:	Eligibility	23
+corticosteroid	CHEBI:50858	27-41
+Patients must not have received oral or intramuscular corticosteroids within the 28 days prior to registration	Eligibility	24
+Patients must not have received intra-articular steroids to the study, or any other, joint within 28 days prior to registration	Eligibility	25
+Patients must not have received topical analgesics (e.g., capsaicin preparations) to the study joint or any other analgesics (e.g., opiates, tramadol; with the exception of nonsteroidal antiinflammatory drugs (NSAIDs) and acetaminophen) within 14 days prior to registration	Eligibility	26
+capsaicin	CHEBI:3374	58-67
+tramadol	CHEBI:9648	141-149
+Outcome Measurement:	Results	0
+Week 12 Brief Pain Inventory (BPI) Worst Pain/Stiffness Score	Results	1
+week	UO:0000034	0-4
+pain	HP:0012531	14-18
+pain	HP:0012531	41-45
+Linear regression model-adjusted week 12 mean score by treatment group.	Results	2
+week	UO:0000034	33-37
+mean	BAO:0002173	41-45
+group	CHEBI:24433	65-70
+Purpose: To assess the severity of pain Population: Patients with pain from chronic diseases or conditions such as cancer, osteoarthritis and low back pain, or with pain from acute conditions such as postoperative pain Responsiveness: Responds to both behavioral and pharmacological pain interventions Method: Self-report or interview Scoring: Higher scores indicate more pain Range: 0-10	Results	3
+severity	HP:0012824	23-31
+pain	HP:0012531	35-39
+pain	HP:0012531	66-70
+pain	HP:0012531	151-155
+pain	HP:0012531	165-169
+pain	HP:0012531	214-218
+pain	HP:0012531	283-287
+pain	HP:0012531	372-376
+chronic	HP:0011010	76-83
+cancer	DOID:162	115-121
+osteoarthritis	HP:0002758,DOID:8398	123-137
+low back pain	HP:0003419	142-155
+acute	HP:0011009,PATO:0000389	175-180
+range	LABO:0000114	377-382
+Time frame: 12 weeks post-registration	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Arm I (Omega-3-fatty Acid)	Results	6
+acid	CHEBI:37527	38-42
+Arm/Group Description: Patients receive oral omega-3-fatty acid twice daily (BID) or three times daily (TID) for 24 weeks in the absence of disease progression or unacceptable toxicity	Results	7
+acid	CHEBI:37527	59-63
+disease	DOID:4,OGMS:0000031	140-147
+Overall Number of Participants Analyzed: 102	Results	8
+Mean (95% Confidence Interval)	Results	9
+mean	BAO:0002173	0-4
+Unit of Measure: BPI score  5.3        (4.68 to 5.91)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm II (Placebo)	Results	12
+Arm/Group Description: Patients receive oral placebo BID or TID for 24 weeks in the absence of disease progression or unacceptable toxicity	Results	13
+disease	DOID:4,OGMS:0000031	95-102
+Overall Number of Participants Analyzed: 107	Results	14
+Mean (95% Confidence Interval)	Results	15
+mean	BAO:0002173	0-4
+Unit of Measure: BPI score  5.47        (4.86 to 6.09)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 0/117 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/124 (0.00%)	Adverse Events	3

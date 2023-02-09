@@ -1,0 +1,111 @@
+INTERVENTION 1:	Intervention	0
+Simvastatin	Intervention	1
+simvastatin	CHEBI:9150	0-11
+Simvastatin 40 mg for 24-28 weeks	Intervention	2
+simvastatin	CHEBI:9150	0-11
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+History of histologically confirmed breast cancer, meeting 1 of the following staging criteria:	Eligibility	1
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	36-49
+Ductal carcinoma in situ	Eligibility	2
+ductal carcinoma in situ	HP:0030075,DOID:0060074	0-24
+Stage I-III invasive breast cancer	Eligibility	3
+breast cancer	DOID:1612	21-34
+At least 3 months since completion of all intended local and systemic therapy, including mastectomy or lumpectomy with or without radiotherapy, adjuvant chemotherapy, and/or endocrine therapy	Eligibility	4
+radiotherapy	OAE:0000235	130-142
+adjuvant	CHEBI:60809	144-152
+May have declined recommended treatment provided all treatment intended/agreed upon by the patient and treating physician was completed  3 months ago	Eligibility	5
+patient	HADO:0000008,OAE:0001817	91-98
+At least 1 healthy intact breast	Eligibility	6
+healthy	HP:0032322	11-18
+breast	UBERON:0000310	26-32
+No prior radiotherapy or mastectomy	Eligibility	7
+radiotherapy	OAE:0000235	9-21
+Prior biopsies allowed	Eligibility	8
+Any hormone-receptor status	Eligibility	9
+PATIENT CHARACTERISTICS:	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+Female	Eligibility	11
+female	PATO:0000383	0-6
+Pre- or post-menopausal	Eligibility	12
+ECOG performance status 0-2	Eligibility	13
+Not pregnant or nursing	Eligibility	14
+Negative pregnancy test	Eligibility	15
+Fertile patients must use effective nonhormonal contraception	Eligibility	16
+No active liver disease	Eligibility	17
+active	PATO:0002354	3-9
+liver disease	DOID:409	10-23
+AST and ALT  3 times upper limit of normal	Eligibility	18
+Creatinine clearance  30 mL/min	Eligibility	19
+creatinine clearance	CMO:0000765	0-20
+No prior hypersensitivity to any 3-hydroxyl-3-methylglutaryl-Coenzyme A (HMG-CoA) reductase inhibitor or any of its components	Eligibility	20
+hypersensitivity	GO:0002524,DOID:1205	9-25
+inhibitor	CHEBI:35222	92-101
+No other concurrent infectious, inflammatory, or autoimmune diseases (at the discretion of principal investigator)	Eligibility	21
+PRIOR CONCURRENT THERAPY:	Eligibility	22
+See Disease Characteristics	Eligibility	23
+disease	DOID:4,OGMS:0000031	4-11
+No daily alcohol use > 3 standard drinks per day	Eligibility	24
+alcohol	CHEBI:16236	9-16
+day	UO:0000033	45-48
+Standard drink defined as 10 grams of alcohol, which is equivalent to 285 mL of beer, 530 mL of light beer, 100 mL of wine, or 30 mL of liquor	Eligibility	25
+alcohol	CHEBI:16236	38-45
+No selective estrogen receptor modulator or aromatase inhibitor within the past 3 months	Eligibility	26
+estrogen receptor modulator	CHEBI:50739	13-40
+inhibitor	CHEBI:35222	54-63
+No hormone replacement therapy (HRT) within the past 3 months	Eligibility	27
+hormone	CHEBI:24621	3-10
+No prior estrogen and/or progesterone HRT  5 years in duration	Eligibility	28
+estrogen	CHEBI:50114,BAO:0000760	9-17
+progesterone	CHEBI:17026	25-37
+duration	PATO:0001309	54-62
+Vaginal estrogen preparations allowed	Eligibility	29
+estrogen	CHEBI:50114,BAO:0000760	8-16
+No concurrent HRT	Eligibility	30
+No other cholesterol-lowering drug, including a statin, within the past 3 months	Eligibility	31
+drug	CHEBI:23888	30-34
+statin	CHEBI:87631	48-54
+No concurrent itraconazole, ketoconazole, nefazodone, cyclosporine, HIV protease inhibitors, clarithromycin, erythromycin, mibefradil, carbamazepine, bosentan, chaparral, amiodarone, or verapamil	Eligibility	32
+itraconazole	CHEBI:6076	14-26
+ketoconazole	CHEBI:47519,BAO:0000796	28-40
+nefazodone	CHEBI:7494	42-52
+protease	BAO:0000652	72-80
+clarithromycin	CHEBI:3732	93-107
+erythromycin	CHEBI:42355	109-121
+mibefradil	CHEBI:6920	123-133
+carbamazepine	CHEBI:3387	135-148
+bosentan	CHEBI:51450	150-158
+amiodarone	CHEBI:2663	171-181
+verapamil	CHEBI:9948	186-195
+No concurrent daily grapefruit juice consumption > 8 ounces per day	Eligibility	33
+day	UO:0000033	64-67
+No other concurrent agents or therapies intended to treat or prevent in situ or invasive breast cancer	Eligibility	34
+breast cancer	DOID:1612	89-102
+Outcome Measurement:	Results	0
+Change in a Panel of Biomarkers (High-sensitivity C-reactive Protein [hsCRP], Lipid Profile, and Circulating Estrogens) From Baseline	Results	1
+protein	CHEBI:36080,BAO:0000175	61-68
+lipid	CHEBI:18059,BAO:0000171	78-83
+[Not Specified]	Results	2
+Time frame: Baseline and week 24	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	25-29
+Results 1:	Results	4
+Arm/Group Title: Simvastatin	Results	5
+simvastatin	CHEBI:9150	17-28
+Arm/Group Description: Simvastatin 40 mg for 24-28 weeks	Results	6
+simvastatin	CHEBI:9150	23-34
+Overall Number of Participants Analyzed: 47	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: mg/dl  hsCRP: -0.15        (-1 to 0)	Results	9
+Total cholesterol: -54        (-58.5 to -39)	Results	10
+cholesterol	CHEBI:16113	6-17
+High-density lipoprotein cholesterol (HDL): -1        (-2 to 3)	Results	11
+high-density lipoprotein cholesterol	CHEBI:47775	0-36
+Estrogen (estrone sulfate): -81.5        (-225.5 to -40.5)	Results	12
+estrogen	CHEBI:50114,BAO:0000760	0-8
+estrone	CHEBI:17263	10-17
+sulfate	CHEBI:16189	18-25
+Adverse Events 1:	Adverse Events	0
+Total: 0/50 (0.00%)	Adverse Events	1

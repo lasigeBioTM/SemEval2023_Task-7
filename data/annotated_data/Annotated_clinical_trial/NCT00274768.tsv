@@ -1,0 +1,123 @@
+INTERVENTION 1:	Intervention	0
+Capecitabine	Intervention	1
+capecitabine	CHEBI:31348	0-12
+The starting dose of capecitabine was 3,000 mg (total daily dose) given in two divided daily doses for 14 days followed by 7 days of rest (1 cycle = 21 days). Missed doses were not substituted. Treatment was continued until unacceptable toxicity, disease progression, or withdrawal of consent.	Intervention	2
+capecitabine	CHEBI:31348	21-33
+disease	DOID:4,OGMS:0000031	247-254
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed diagnosis of adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	55-69
+breast	UBERON:0000310	77-83
+Evidence of metastatic involvement (stage IV disease)	Eligibility	2
+disease	DOID:4,OGMS:0000031	45-52
+Patients must have measurable disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	30-37
+At least one measurable lesion as defined by the Response Evaluation Criteria in Solid Tumors (RECIST)	Eligibility	4
+Treated brain metastases (surgery or radiation therapy) allowed if clinically stable	Eligibility	5
+brain	UBERON:0000955	8-13
+surgery	OAE:0000067	26-33
+stable	HP:0031915	78-84
+Patients with leptomeningeal disease are ineligible	Eligibility	6
+disease	DOID:4,OGMS:0000031	29-36
+Hormone receptor status:	Eligibility	7
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	8
+PATIENT CHARACTERISTICS:	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2	Eligibility	10
+group	CHEBI:24433	29-34
+Male or female	Eligibility	11
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	12
+Absolute neutrophil count (ANC)  1,500/mm^3	Eligibility	13
+Platelet count  100,000/mm^3	Eligibility	14
+platelet count	CMO:0000029	0-14
+Creatinine clearance > 50 mL/min	Eligibility	15
+creatinine clearance	CMO:0000765	0-20
+Fertile patients must use effective contraception	Eligibility	16
+No history of another severe and/or life-threatening medical disease	Eligibility	17
+history	BFO:0000182	3-10
+severe	HP:0012828	22-28
+disease	DOID:4,OGMS:0000031	61-68
+No other active primary malignancy	Eligibility	18
+active	PATO:0002354	9-15
+Not pregnant or nursing	Eligibility	19
+Negative pregnancy test	Eligibility	20
+Patients with asymptomatic HIV infection are eligible	Eligibility	21
+Liver dysfunction score  9	Eligibility	22
+liver	UBERON:0002107	0-5
+No pre-existing liver disease (i.e., cirrhosis or active viral hepatitis)	Eligibility	23
+liver disease	DOID:409	16-29
+cirrhosis	HP:0001394	37-46
+active	PATO:0002354	50-56
+viral hepatitis	HP:0006562,DOID:1884	57-72
+No active gastrointestinal malabsorption illness	Eligibility	24
+active	PATO:0002354	3-9
+malabsorption	HP:0002024	27-40
+No clinically significant cardiac disease, including the following:	Eligibility	25
+disease	DOID:4,OGMS:0000031	34-41
+Congestive heart failure, symptomatic coronary artery disease, and cardiac arrhythmias not well controlled with medication, or myocardial infarction within the past six months	Eligibility	26
+congestive heart failure	HP:0001635,DOID:6000	0-24
+coronary artery disease	DOID:3393	38-61
+myocardial infarction	HP:0001658,DOID:5844	127-148
+No prior unanticipated severe reaction to fluoropyrimidine therapy, known hypersensitivity to fluorouracil, or known dihydropyrimidine dehydrogenase deficiency	Eligibility	27
+severe	HP:0012828	23-29
+hypersensitivity	GO:0002524,DOID:1205	74-90
+dihydropyrimidine dehydrogenase deficiency	DOID:14218	117-159
+No history of uncontrolled seizures or central nervous system disorders	Eligibility	28
+history	BFO:0000182	3-10
+central nervous system	UBERON:0001017	39-61
+No significant history of noncompliance to medical regimens	Eligibility	29
+history	BFO:0000182	15-22
+No clinically significant psychiatric disability that would preclude study compliance	Eligibility	30
+PRIOR CONCURRENT THERAPY:	Eligibility	31
+No previous capecitabine	Eligibility	32
+capecitabine	CHEBI:31348	12-24
+Up to 3 prior cytotoxic regimens allowed for metastatic disease	Eligibility	33
+disease	DOID:4,OGMS:0000031	56-63
+Prior noncytotoxic therapy allowed (e.g., hormonal treatment or trastuzumab)	Eligibility	34
+No other concurrent therapies intended to treat the primary condition including chemotherapy, biologic agents, or immunotherapy	Eligibility	35
+condition	PDRO:0000129	60-69
+No concurrent anti-estrogen therapy, radiation therapy, or investigational systemic therapy	Eligibility	36
+anti-estrogen	CHEBI:50751	14-27
+No other concurrent investigational drugs	Eligibility	37
+No concurrent use of the following drugs: warfarin for full anticoagulation, cimetidine, or azidothymidine (AZT)	Eligibility	38
+warfarin	CHEBI:10033	42-50
+cimetidine	CHEBI:3699	77-87
+Mini-dose warfarin for prophylaxis of central venous catheter thrombosis allowed	Eligibility	39
+warfarin	CHEBI:10033	10-18
+central	HP:0030645	38-45
+thrombosis	DOID:0060903	62-72
+At least 4 weeks since prior sorivudine or brivudine	Eligibility	40
+sorivudine	CHEBI:32152	29-39
+Concurrent use of bisphosphonates allowed if initiated before beginning study therapy	Eligibility	41
+Concurrent use of megestrol acetate suspension as an appetite stimulant allowed	Eligibility	42
+megestrol acetate	CHEBI:6723	18-35
+suspension	BAO:0002104	36-46
+Outcome Measurement:	Results	0
+Response Rate	Results	1
+rate	BAO:0080019	9-13
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by CT/MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	2
+target	BAO:0003064	76-82
+target	BAO:0003064	160-166
+target	BAO:0003064	252-258
+diameter	PATO:0001334	240-248
+Time frame: Participants were followed to progression, evaluated every 12 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Capecitabine	Results	5
+capecitabine	CHEBI:31348	17-29
+Arm/Group Description: The starting dose of capecitabine was 3,000 mg (total daily dose) given in two divided daily doses for 14 days followed by 7 days of rest (1 cycle = 21 days). Missed doses were not substituted. Treatment was continued until unacceptable toxicity, disease progression, or withdrawal of consent.	Results	6
+capecitabine	CHEBI:31348	44-56
+disease	DOID:4,OGMS:0000031	270-277
+Overall Number of Participants Analyzed: 21	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  21	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 2/26 (7.69%)	Adverse Events	1
+Death  [1]2/26 (7.69%)	Adverse Events	2
+death	OAE:0000632	0-5

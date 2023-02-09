@@ -1,0 +1,130 @@
+INTERVENTION 1:	Intervention	0
+Neoadjuvant, Surgery, Adjuvant	Intervention	1
+surgery	OAE:0000067	13-20
+adjuvant	CHEBI:60809	3-11
+adjuvant	CHEBI:60809	22-30
+Neoadjuvant chemotherapy : Nab-paclitaxel and carboplatin on days 1, 8, and 15 in combination with bevacizumab on days 1 and 15 administered every 28 days for 5 cycles followed by 1 cycle with Nab-paclitaxel and carboplatin on days 1, 8, and 15. Definitive surgery with either lumpectomy or mastectomy along with axillary lymph node dissection for all pre neo adjuvant chemotherapy node-positive patients approximately 4-5 weeks after the completion of NCT. Use of additional adjuvant chemotherapy and/or radiation therapy depends upon the treating physicians' judgment. Radiation therapy should begin no sooner than 6 weeks after breast cancer surgery. All hormone receptor positive patients will receive endocrine therapy. All patients will receive 6 months of adjuvant bevacizumab every 3 weeks. If using an adjuvant anthracycline-containing regimen then bevacizumab will be administered  3 weeks after completing the regimen.	Intervention	2
+carboplatin	CHEBI:31355	46-57
+carboplatin	CHEBI:31355	212-223
+surgery	OAE:0000067	257-264
+surgery	OAE:0000067	645-652
+lymph	UBERON:0002391	322-327
+adjuvant	CHEBI:60809	3-11
+adjuvant	CHEBI:60809	360-368
+adjuvant	CHEBI:60809	476-484
+adjuvant	CHEBI:60809	763-771
+adjuvant	CHEBI:60809	811-819
+breast cancer	DOID:1612	631-644
+hormone	CHEBI:24621	658-665
+receptor	BAO:0000281	666-674
+Inclusion:	Eligibility	0
+Histologically confirmed breast cancer	Eligibility	1
+breast cancer	DOID:1612	25-38
+Clinically or radiographically measurable residual tumor after core biopsy	Eligibility	2
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1	Eligibility	3
+group	CHEBI:24433	29-34
+Age 18 yrs	Eligibility	4
+age	PATO:0000011	0-3
+Absolute neutrophil count  1,500/mm³	Eligibility	5
+Hemoglobin  9 g/dL	Eligibility	6
+hemoglobin	CHEBI:35143	0-10
+Platelet count  100,000/ mm³	Eligibility	7
+platelet count	CMO:0000029	0-14
+Creatinine  1.5 times upper limit of normal (ULN)	Eligibility	8
+creatinine	CHEBI:16737	0-10
+Urine protein:creatinine ratio < 1.0	Eligibility	9
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	14-24
+ratio	UO:0000190	25-30
+AST (aspartate aminotransferase) and ALT  2.5 times ULN	Eligibility	10
+aspartate	CHEBI:29995	5-14
+Alkaline phosphatase  2.5 times ULN	Eligibility	11
+phosphatase	GO:0016791,BAO:0000295	9-20
+Bilirubin normal	Eligibility	12
+Women of childbearing potential must use effective contraception	Eligibility	13
+Left ventricular ejection fraction (LVEF) normal by echocardiogram or MUGA	Eligibility	14
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Exclusion:	Eligibility	15
+No residual tumor after initial biopsy	Eligibility	16
+Peripheral neuropathy of grade 2 or higher	Eligibility	17
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+HER-2 neu overexpression either by IHC 3+ or FISH+	Eligibility	18
+No history of any prior treatment of breast cancer.	Eligibility	19
+history	BFO:0000182	3-10
+breast cancer	DOID:1612	37-50
+No history of unstable angina or myocardial infarction within the past 12 months	Eligibility	20
+history	BFO:0000182	3-10
+myocardial infarction	HP:0001658,DOID:5844	33-54
+Pregnant or nursing women	Eligibility	21
+Anticoagulation therapy within the last 6 months	Eligibility	22
+History of gastrointestinal bleeding	Eligibility	23
+history	BFO:0000182	0-7
+Recent hemoptysis	Eligibility	24
+hemoptysis	HP:0002105	7-17
+No known hepatitis B or HIV seropositivity	Eligibility	25
+hepatitis b	DOID:2043	9-20
+No inadequately controlled hypertension, defined as systolic blood pressure (BP) > 150 mm Hg and/or diastolic BP > 100 mm Hg despite antihypertensive medications	Eligibility	26
+hypertension	HP:0000822,DOID:10763	27-39
+systolic blood pressure	CMO:0000004	52-75
+History of hypertensive crisis or hypertensive encephalopathy	Eligibility	27
+history	BFO:0000182	0-7
+hypertensive crisis	HP:0100735	11-30
+hypertensive encephalopathy	DOID:9427	34-61
+New York Heart Association class II-IV congestive heart failure	Eligibility	28
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	50-55
+congestive heart failure	HP:0001635,DOID:6000	39-63
+History of stroke or transient ischemic attack at any time	Eligibility	29
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+transient ischemic attack	HP:0002326,DOID:224	21-46
+time	PATO:0000165	54-58
+Significant vascular disease (e.g., aortic aneurysm or aortic dissection)	Eligibility	30
+vascular disease	DOID:178	12-28
+aortic aneurysm	HP:0004942,DOID:3627	36-51
+aortic dissection	HP:0002647,DOID:0080685	55-72
+No symptomatic peripheral vascular disease	Eligibility	31
+peripheral vascular disease	DOID:341	15-42
+Evidence of bleeding diathesis or coagulopathy	Eligibility	32
+Significant traumatic injury within the past 28 days	Eligibility	33
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within the past 6 months	Eligibility	34
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+Serious, non-healing wound, ulcer, or bone fracture	Eligibility	35
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+Known hypersensitivity to any component of bevacizumab	Eligibility	36
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Outcome Measurement:	Results	0
+Number of Patients With Pathologic Complete Response (pCR)	Results	1
+pCR was defined as the absence of viable invasive tumor cells in the surgical breast specimen and axillary lymph nodes.	Results	2
+breast	UBERON:0000310	78-84
+lymph	UBERON:0002391	107-112
+Time frame: every 4 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Neoadjuvant, Surgery, Adjuvant	Results	5
+surgery	OAE:0000067	30-37
+adjuvant	CHEBI:60809	20-28
+adjuvant	CHEBI:60809	39-47
+Arm/Group Description: Neoadjuvant chemotherapy : Nab-paclitaxel and carboplatin on days 1, 8, and 15 in combination with bevacizumab on days 1 and 15 administered every 28 days for 5 cycles followed by 1 cycle with Nab-paclitaxel and carboplatin on days 1, 8, and 15. Definitive surgery with either lumpectomy or mastectomy along with axillary lymph node dissection for all pre neo adjuvant chemotherapy node-positive patients approximately 4-5 weeks after the completion of NCT. Use of additional adjuvant chemotherapy and/or radiation therapy depends upon the treating physicians' judgment. Radiation therapy should begin no sooner than 6 weeks after breast cancer surgery. All hormone receptor positive patients will receive endocrine therapy. All patients will receive 6 months of adjuvant bevacizumab every 3 weeks. If using an adjuvant anthracycline-containing regimen then bevacizumab will be administered    3 weeks after completing the regimen.	Results	6
+carboplatin	CHEBI:31355	69-80
+carboplatin	CHEBI:31355	235-246
+surgery	OAE:0000067	280-287
+surgery	OAE:0000067	668-675
+lymph	UBERON:0002391	345-350
+adjuvant	CHEBI:60809	26-34
+adjuvant	CHEBI:60809	383-391
+adjuvant	CHEBI:60809	499-507
+adjuvant	CHEBI:60809	786-794
+adjuvant	CHEBI:60809	834-842
+breast cancer	DOID:1612	654-667
+hormone	CHEBI:24621	681-688
+receptor	BAO:0000281	689-697
+Overall Number of Participants Analyzed: 33	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: patients  6	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/33 (0.00%)	Adverse Events	1

@@ -1,0 +1,275 @@
+INTERVENTION 1:	Intervention	0
+Breast Cancer Cohort	Intervention	1
+breast cancer	DOID:1612	0-13
+Patients with evaluable, metastatic breast cancer who have failed or not a candidate for standard therapy.	Intervention	2
+breast cancer	DOID:1612	36-49
+INTERVENTION 2:	Intervention	3
+Ovarian Cancer Cohort	Intervention	4
+ovarian cancer	DOID:2394	0-14
+Patients with evaluable, metastatic ovarian cancer who have failed or not a candidate for standard therapy.	Intervention	5
+ovarian cancer	DOID:2394	36-50
+INCLUSION CRITERIA:	Eligibility	0
+A. Histologically confirmed carcinoma that for patients in the first cohort (colorectal and non-colorectal cancer) is carcinoembryonic antigen (CEA) or mucin-1 (MUC-1) positive. Tumor that has been shown to express CEA or MUC-1 (greater than or equal to 20 % of cells) by immunohistochemical techniques or patients that have had an elevated serum CEA (greater than 5 microgram/L) at any point during their disease course. For patients in the ovarian and breast cancer cohorts, as greater than 95% of these express MUC-1 or CEA, we will not require staining prior to coming onto trial.	Eligibility	1
+carcinoma	HP:0030731,DOID:305	28-37
+cancer	DOID:162	107-113
+cancer	DOID:162	461-467
+antigen	CHEBI:59132	135-142
+disease	DOID:4,OGMS:0000031	406-413
+breast cancer	DOID:1612	454-467
+B. Patients must have completed at least one fluorouracil (5-FU) containing chemotherapy regimen (e.g. 5-FU/leucovorin (LV) with or without either irinotecan or oxaliplatin) for the colorectal cancer arm, or either failed or not be a candidate for therapy of proven efficacy for non-colorectal, breast, or ovarian cancer.	Eligibility	2
+irinotecan	CHEBI:80630	147-157
+oxaliplatin	CHEBI:31941	161-172
+colorectal cancer	DOID:9256	182-199
+efficacy	BAO:0000656	266-274
+breast	UBERON:0000310	295-301
+ovarian cancer	DOID:2394	306-320
+C. 18 years of age or greater.	Eligibility	3
+age	PATO:0000011	15-18
+D. All patients enrolled on the colorectal/non-colorectal cohort with colorectal adenocarcinoma cohort must be human leukocyte antigen A2 (HLA-A2) positive.	Eligibility	4
+colorectal adenocarcinoma	DOID:0050861	70-95
+antigen	CHEBI:59132	127-134
+E. At least 10 patients enrolled on the colorectal/non-colorectal cohort with non-colorectal adenocarcinoma cohort must be HLA-A2 positive.	Eligibility	5
+adenocarcinoma	DOID:299	93-107
+F. Patients in the breast cohort and the ovarian cohorts are not required to be HLA-A2 positive.	Eligibility	6
+breast	UBERON:0000310	19-25
+G. For the colorectal and non-colorectal cancer cohort, patients will be required to have: metastatic disease (measurable or evaluable), metastatic disease documented by biopsy but not evaluable by imaging (e.g. small volume peritoneal disease), and patients with surgically resected metastatic disease at high risk of relapse. For the ovarian cohort and the breast cancer cohort, patients will be required to have evaluable disease.	Eligibility	7
+cancer	DOID:162	41-47
+cancer	DOID:162	366-372
+disease	DOID:4,OGMS:0000031	102-109
+disease	DOID:4,OGMS:0000031	148-155
+disease	DOID:4,OGMS:0000031	236-243
+disease	DOID:4,OGMS:0000031	295-302
+disease	DOID:4,OGMS:0000031	425-432
+volume	PATO:0000918	218-224
+breast cancer	DOID:1612	359-372
+H. Able to understand and give informed consent.	Eligibility	8
+I. Able to avoid close household contact (close household contacts are those who share housing or have close physical contact) for at least three weeks after recombinant vaccinia vaccination with persons with active or a history of eczema or other eczematoid skin disorders; those with other acute, chronic or exfoliative skin conditions (e.g., atopic dermatitis, burns, impetigo, varicella zoster, severe acne, or other open rashes or wounds) until condition resolves; pregnant or nursing women; children 3 years of age and under; and immunodeficient or immunosuppressed persons (by disease or therapy), including human immunodeficiency virus (HIV) infection.	Eligibility	9
+vaccinia	DOID:3298	170-178
+vaccination	VO:0000002	179-190
+active	PATO:0002354	209-215
+history	BFO:0000182	221-228
+eczema	HP:0000964,DOID:2723	232-238
+eczema	HP:0000964,DOID:2723	248-254
+acute	HP:0011009,PATO:0000389	292-297
+chronic	HP:0011010	299-306
+atopic dermatitis	HP:0001047,DOID:3310	345-362
+impetigo	DOID:8504	371-379
+severe	HP:0012828	399-405
+acne	HP:0001061,DOID:6543	406-410
+condition	PDRO:0000129	327-336
+condition	PDRO:0000129	450-459
+age	PATO:0000011	517-520
+disease	DOID:4,OGMS:0000031	584-591
+immunodeficiency	HP:0002721	621-637
+virus	BAO:0000232	638-643
+J. Eastern Oncology Cooperative Group (ECOG) performance status of 0 - 1.	Eligibility	10
+group	CHEBI:24433	32-37
+K. Serum creatinine not above the institution limits of normal, and aspartate aminotransferase (AST) less than or equal to twice the upper limits of normal OR creatinine clearance on a 24 hour urine collection of greater than or equal to 60 mL/min.	Eligibility	11
+creatinine	CHEBI:16737	9-19
+creatinine	CHEBI:16737	159-169
+aspartate	CHEBI:29995	68-77
+creatinine clearance	CMO:0000765	159-179
+hour	UO:0000032	188-192
+urine	UBERON:0001088	193-198
+L. Total bilirubin within the institution limits of normal OR patients with Gilbert's syndrome, a total bilirubin less than or equal to 3.0	Eligibility	12
+syndrome	DOID:225	86-94
+M. Recovered completely from any reversible toxicity associated with recent therapy. Typically this is 3-4 weeks for patients who most recently received cytotoxic therapy except for the nitrosoureas and mitomycin C for which 6 weeks is needed for recovery.	Eligibility	13
+mitomycin c	CHEBI:27504	203-214
+N. Hematological eligibility parameters (within 16 days of starting therapy):	Eligibility	14
+Granulocyte count greater than or equal to 1,500/mm(3)	Eligibility	15
+Platelet count greater than or equal to 100,000/mm(3)	Eligibility	16
+platelet count	CMO:0000029	0-14
+Hemoglobin (Hgb) greater than or equal to 10 Gm/dL	Eligibility	17
+hemoglobin	CHEBI:35143	0-10
+O. Prior immune therapy with related vaccinia and fowlpox vaccines or antigen-specific peptides is allowed.	Eligibility	18
+vaccinia	DOID:3298	37-45
+P. Men and women must agree to use effective birth control or abstinence during and for a period of 4 months after the last vaccination therapy.	Eligibility	19
+vaccination	VO:0000002	124-135
+Q. Patients with prostate cancer must continue to receive gonadotropin-releasing hormone (GnRH) agonist therapy (unless orchiectomy has been done).	Eligibility	20
+prostate cancer	HP:0012125,DOID:10283	17-32
+hormone	CHEBI:24621	81-88
+agonist	CHEBI:48705	96-103
+R. Patients should appear clinically stable (in the opinion of the principal investigator) to complete the full 3 month course of vaccination with an anticipated survival of 6 months or longer.	Eligibility	21
+stable	HP:0031915	37-43
+month	UO:0000035	114-119
+month	UO:0000035	176-181
+vaccination	VO:0000002	130-141
+EXCLUSION CRITERIA:	Eligibility	22
+A. Patients should have no evidence of being immunocompromised as listed below.	Eligibility	23
+Human immunodeficiency virus positivity due to the potential for decreased tolerance and risk for severe side effects	Eligibility	24
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+severe	HP:0012828	98-104
+Active autoimmune diseases requiring treatment or a history of autoimmune disease that might be stimulated by vaccine treatment. This requirement is due to the potential risks of exacerbating autoimmunity. Patients with endocrine disease that is controlled by replacement therapy including thyroid disease and adrenal disease and vitiligo may be enrolled.	Eligibility	25
+active	PATO:0002354	0-6
+history	BFO:0000182	52-59
+autoimmune disease	DOID:417	7-25
+autoimmune disease	DOID:417	63-81
+vaccine	VO:0000001	110-117
+autoimmunity	HP:0002960	192-204
+disease	DOID:4,OGMS:0000031	18-25
+disease	DOID:4,OGMS:0000031	74-81
+disease	DOID:4,OGMS:0000031	230-237
+disease	DOID:4,OGMS:0000031	298-305
+disease	DOID:4,OGMS:0000031	318-325
+vitiligo	HP:0001045,DOID:12306	330-338
+B. Concurrent use of systemic steroids, except for physiologic doses for systemic steroid replacement or local (topical, nasal, or inhaled) steroid use. Limited doses systemic steroids to prevent intravenous (IV) contrast, allergic reaction, or anaphylaxis (in patients who have known contrast allergies) are allowed.	Eligibility	26
+steroid	CHEBI:35341	30-37
+steroid	CHEBI:35341	82-89
+steroid	CHEBI:35341	140-147
+steroid	CHEBI:35341	176-183
+C. History of allergy or untoward reaction to prior vaccination with vaccinia virus.	Eligibility	27
+history	BFO:0000182	3-10
+allergy	HP:0012393	14-21
+vaccination	VO:0000002	52-63
+vaccinia virus	NCBITaxon:10245	69-83
+D. Pregnant or breast-feeding women.	Eligibility	28
+E. Altered immune function, including immunodeficiency or history of immunodeficiency; eczema; history of eczema, or other eczematoid skin disorders; or those with acute, chronic or exfoliative skin conditions (e.g. atopic dermatitis, burns, impetigo, varicella zoster, severe acne, or other open rashes or wounds).	Eligibility	29
+function	BAO:0003117,BFO:0000034	18-26
+immunodeficiency	HP:0002721	38-54
+immunodeficiency	HP:0002721	69-85
+history	BFO:0000182	58-65
+history	BFO:0000182	95-102
+eczema	HP:0000964,DOID:2723	87-93
+eczema	HP:0000964,DOID:2723	106-112
+eczema	HP:0000964,DOID:2723	123-129
+acute	HP:0011009,PATO:0000389	164-169
+chronic	HP:0011010	171-178
+atopic dermatitis	HP:0001047,DOID:3310	216-233
+impetigo	DOID:8504	242-250
+severe	HP:0012828	270-276
+acne	HP:0001061,DOID:6543	277-281
+F. Serious intercurrent medical illness which would interfere with the ability of the patient to carry out the treatment program, including, but not limited to, inflammatory bowel disease, Crohn's disease, ulcerative colitis, or active diverticulitis	Eligibility	30
+patient	HADO:0000008,OAE:0001817	86-93
+inflammatory bowel disease	DOID:0050589	161-187
+disease	DOID:4,OGMS:0000031	180-187
+disease	DOID:4,OGMS:0000031	197-204
+ulcerative colitis	HP:0100279,DOID:8577	206-224
+active	PATO:0002354	229-235
+diverticulitis	DOID:7475	236-250
+G. Patients with a history of cardiomyopathy or symptomatic congestive heart failure (unless stable on treatment), symptomatic arrhythmia not controlled by medication. Unstable atherosclerotic heart disease (e.g. unstable angina) who require active intervention and history of myocardial infarction or embolic stroke within the past 6 months.	Eligibility	31
+history	BFO:0000182	19-26
+history	BFO:0000182	266-273
+cardiomyopathy	HP:0001638,DOID:0050700	30-44
+congestive heart failure	HP:0001635,DOID:6000	60-84
+stable	HP:0031915	93-99
+stable	HP:0031915	170-176
+stable	HP:0031915	215-221
+arrhythmia	HP:0011675	127-137
+heart disease	DOID:114	193-206
+active	PATO:0002354	242-248
+myocardial infarction	HP:0001658,DOID:5844	277-298
+stroke	HP:0001297,DOID:6713	310-316
+H. Clinically active brain metastasis, or a history of encephalitis, multiple sclerosis, or seizures within the last year (from seizure disorder or brain metastasis).	Eligibility	32
+active	PATO:0002354	14-20
+brain	UBERON:0000955	21-26
+brain	UBERON:0000955	148-153
+history	BFO:0000182	44-51
+encephalitis	DOID:9588	55-67
+multiple sclerosis	DOID:2377	69-87
+year	UO:0000036	117-121
+seizure	HP:0001250	92-99
+seizure	HP:0001250	128-135
+disorder	OGMS:0000045	136-144
+I. Medical conditions, which, in the opinion of the investigators would jeopardize the patient or the integrity of the data obtained.	Eligibility	33
+patient	HADO:0000008,OAE:0001817	87-94
+J. Concurrent chemotherapy; an exception to this is to allow for patients with breast cancer who are receiving trastuzumab, to continue therapy with trastuzumab while receiving the vaccine treatment.	Eligibility	34
+breast cancer	DOID:1612	79-92
+vaccine	VO:0000001	181-188
+K. Serious hypersensitivity reaction to egg products.	Eligibility	35
+hypersensitivity	GO:0002524,DOID:1205	11-27
+L. Clinically significant cardiomyopathy requiring treatment.	Eligibility	36
+cardiomyopathy	HP:0001638,DOID:0050700	26-40
+M. Chronic hepatitis infection, including B and C, because of potential immune impairment.	Eligibility	37
+chronic hepatitis	HP:0200123,DOID:2237	3-20
+N. Although topical steroids are allowed, steroid eye drop are contraindicated.	Eligibility	38
+steroid	CHEBI:35341	20-27
+steroid	CHEBI:35341	42-49
+eye	UBERON:0000970	50-53
+O. Cardiac complications, including recent myocardial infarction or cerebrovascular accident within one year, and/or unstable or uncontrolled angina.	Eligibility	39
+myocardial infarction	HP:0001658,DOID:5844	43-64
+year	UO:0000036	104-108
+Outcome Measurement:	Results	0
+Number of Participants With Complete Responses (CRs), Partial Responses (PRs,) Stable Disease and Progressive Disease in the Ovarian Cancer and Breast Cancer Cohorts	Results	1
+stable	HP:0031915	79-85
+disease	DOID:4,OGMS:0000031	86-93
+disease	DOID:4,OGMS:0000031	110-117
+progressive	HP:0003676	98-109
+ovarian cancer	DOID:2394	125-139
+breast cancer	DOID:1612	144-157
+Response was assessed by the Response Evaluation Criteria in Solid Tumors (RECIST). Complete Response is disappearance of all clinical and laboratory signs and symptoms of disease for a minimum of 4 weeks during which no new lesions may appear. Partial Response is a minimum of 30% decrease in the sum of the longest diameter of target lesions, taking as reference the baseline sum longest diameter. Stable disease is neither sufficient shrinkage to qualify for partial response nor progressive disease, taking as reference the smallest sum longest diameter since the treatment started. Progressive disease is a minimum of 20% increase in the sum of the longest diameter of target lesions, taking as reference the smallest sum longest diameter recorded since the treatment started or the appearance of one or more new measurable lesions.	Results	2
+disease	DOID:4,OGMS:0000031	172-179
+disease	DOID:4,OGMS:0000031	407-414
+disease	DOID:4,OGMS:0000031	495-502
+disease	DOID:4,OGMS:0000031	599-606
+diameter	PATO:0001334	317-325
+diameter	PATO:0001334	390-398
+diameter	PATO:0001334	549-557
+diameter	PATO:0001334	662-670
+diameter	PATO:0001334	735-743
+target	BAO:0003064	329-335
+target	BAO:0003064	674-680
+stable	HP:0031915	400-406
+progressive	HP:0003676	483-494
+progressive	HP:0003676	587-598
+increase	BAO:0001251	627-635
+Time frame: Approximately 6 months while on trial	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Breast Cancer Cohort	Results	5
+breast cancer	DOID:1612	17-30
+Arm/Group Description: Patients with evaluable, metastatic breast cancer who have failed or not a candidate for standard therapy.	Results	6
+breast cancer	DOID:1612	59-72
+Overall Number of Participants Analyzed: 12	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Complete Response: 1   8.3%	Results	9
+Partial Response: 0   0.0%	Results	10
+Stable Disease: 4  33.3%	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 7  58.3%	Results	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Results 2:	Results	13
+Arm/Group Title: Ovarian Cancer Cohort	Results	14
+ovarian cancer	DOID:2394	17-31
+Arm/Group Description: Patients with evaluable, metastatic ovarian cancer who have failed or not a candidate for standard therapy.	Results	15
+ovarian cancer	DOID:2394	59-73
+Overall Number of Participants Analyzed: 14	Results	16
+Measure Type: Count of Participants	Results	17
+Unit of Measure: Participants  Complete Response: 0   0.0%	Results	18
+Partial Response: 0   0.0%	Results	19
+Stable Disease: 3  21.4%	Results	20
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 11  78.6%	Results	21
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Adverse Events 1:	Adverse Events	0
+Total: 25/25 (100.00%)	Adverse Events	1
+Anemia*4 0/25 (0.00%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+BLOOD/BONE MARROW:: Hemoglobin*3 13/25 (52.00%)	Adverse Events	3
+hemoglobin	CHEBI:35143	20-30
+BLOOD/BONE MARROW:: Leukocytes (total WBC)*3 4/25 (16.00%)	Adverse Events	4
+BLOOD/BONE MARROW:: Lymphopenia*3 2/25 (8.00%)	Adverse Events	5
+lymphopenia	HP:0001888,DOID:614	20-31
+BLOOD/BONE MARROW:: Neutrophils/granulocytes (ANC/AGC)*3 5/25 (20.00%)	Adverse Events	6
+BLOOD/BONE MARROW:: Platelets*3 3/25 (12.00%)	Adverse Events	7
+LYMPHATICS:: Edema: limb*3 2/25 (8.00%)	Adverse Events	8
+edema	HP:0000969	13-18
+limb	UBERON:0002101	20-24
+Adverse Events 2:	Adverse Events	9
+Total: 26/26 (100.00%)	Adverse Events	10
+Anemia*4 1/26 (3.85%)	Adverse Events	11
+anemia	HP:0001903,DOID:2355	0-6
+BLOOD/BONE MARROW:: Hemoglobin*3 8/26 (30.77%)	Adverse Events	12
+hemoglobin	CHEBI:35143	20-30
+BLOOD/BONE MARROW:: Leukocytes (total WBC)*3 1/26 (3.85%)	Adverse Events	13
+BLOOD/BONE MARROW:: Lymphopenia*3 1/26 (3.85%)	Adverse Events	14
+lymphopenia	HP:0001888,DOID:614	20-31
+BLOOD/BONE MARROW:: Neutrophils/granulocytes (ANC/AGC)*3 1/26 (3.85%)	Adverse Events	15
+BLOOD/BONE MARROW:: Platelets*3 2/26 (7.69%)	Adverse Events	16
+LYMPHATICS:: Edema: limb*3 2/26 (7.69%)	Adverse Events	17
+edema	HP:0000969	13-18
+limb	UBERON:0002101	20-24

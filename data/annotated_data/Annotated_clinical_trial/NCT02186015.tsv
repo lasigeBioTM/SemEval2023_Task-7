@@ -1,0 +1,82 @@
+INTERVENTION 1:	Intervention	0
+Cholecalciferol	Intervention	1
+Enrolled women received 50,000 IUs weekly supplementation of cholecalciferol for 8 weeks.	Intervention	2
+INTERVENTION 2:	Intervention	3
+No Cholecalciferol	Intervention	4
+Enrolled women with serum 25 (OH)D greater than or equal to 30 ng/ml received no intervention.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Metastatic breast cancer (Stage IV)	Eligibility	1
+breast cancer	DOID:1612	11-24
+Histologically confirmed estrogen receptor positive disease	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	25-33
+receptor	BAO:0000281	34-42
+disease	DOID:4,OGMS:0000031	52-59
+Female	Eligibility	3
+female	PATO:0000383	0-6
+Serum 25(OH) <30 ng/ml	Eligibility	4
+Age  18 years	Eligibility	5
+age	PATO:0000011	0-3
+Pre or post-menopausal	Eligibility	6
+ECOG Performance status 0-2	Eligibility	7
+Adequate organ function as defined as GFR> 30 mls/min and serum calcium  10.4 mg/dl	Eligibility	8
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+calcium	CHEBI:22984,BAO:0000874	64-71
+Any race/ethnicity	Eligibility	9
+English speaking	Eligibility	10
+No changes to MBC treatments within 30 days of enrollment and/or deemed clinically stable by their treating physician	Eligibility	11
+stable	HP:0031915	83-89
+Willingness to sign a written informed consent and complete questionnaires	Eligibility	12
+Cease ingestion of vitamin D supplementation not study related	Eligibility	13
+vitamin d	CHEBI:27300	19-28
+Exclusion Criteria:	Eligibility	14
+Women with Stage I-III breast cancer	Eligibility	15
+breast cancer	DOID:1612	23-36
+Serum 25(OH)D levels  30 ng/ml	Eligibility	16
+Untreated CNS involvement	Eligibility	17
+History of kidney stones	Eligibility	18
+history	BFO:0000182	0-7
+kidney	UBERON:0002113	11-17
+History of renal failure	Eligibility	19
+history	BFO:0000182	0-7
+History of hyperparathyroidism	Eligibility	20
+history	BFO:0000182	0-7
+hyperparathyroidism	HP:0000843,DOID:13543	11-30
+History of hypersensitivity to vitamin D	Eligibility	21
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+vitamin d	CHEBI:27300	31-40
+Non-English speaking	Eligibility	22
+Currently pregnant or lactating, or anticipating pregnancy	Eligibility	23
+Unwilling to cease ingestion of calcium supplements (>1000 mg/d)	Eligibility	24
+calcium	CHEBI:22984,BAO:0000874	32-39
+Unwilling or unable to complete informed consent or study questionnaires	Eligibility	25
+Psychiatric or other clinical conditions that preclude study compliance	Eligibility	26
+Other important medical or safety considerations at the discretion of the investigator and/or study physician, including non-compliance with the study therapy or other activities	Eligibility	27
+Outcome Measurement:	Results	0
+Change in Serum 25(OH)D	Results	1
+Change in laboratory serum value of 25(OH)D at 8 weeks post-supplementation for participants who received weekly supplementation of 50,000 IUs of vitamin D3. Change is expressed as laboratory serum value of 25(OH)D at 8 weeks minus baseline. Change was not assessed for participants in the 'no cholecalciferol' arm since they did not receive weekly supplementation and were not followed over time.	Results	2
+vitamin	CHEBI:33229	146-153
+time	PATO:0000165	392-396
+Time frame: 0, 8 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cholecalciferol	Results	5
+Arm/Group Description: Enrolled women received 50,000 IUs weekly supplementation of cholecalciferol for 8 weeks.	Results	6
+Overall Number of Participants Analyzed: 10	Results	7
+Median (Inter-Quartile Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: ng/ml  32        (22 to 40)	Results	9
+Results 2:	Results	10
+Arm/Group Title: No Cholecalciferol	Results	11
+Arm/Group Description: Enrolled women with serum 25 (OH)D greater than or equal to 30 ng/ml received no intervention.	Results	12
+Overall Number of Participants Analyzed: 0	Results	13
+Median (Inter-Quartile Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: ng/ml	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/11 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

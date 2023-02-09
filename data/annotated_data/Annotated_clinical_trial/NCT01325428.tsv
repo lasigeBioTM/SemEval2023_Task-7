@@ -1,0 +1,70 @@
+INTERVENTION 1:	Intervention	0
+Part A: Afatinib Once Daily (OD).	Intervention	1
+afatinib	CHEBI:61390	8-16
+Part A: Patients received Afatinib tablets, 40 mg taken orally Once Daily (OD) until PD. In case of treatment-related AEs, the 40 mg dose could be reduced by increments of 10 mg to 30 mg once daily or 20 mg once daily.	Intervention	2
+afatinib	CHEBI:61390	26-34
+The 95% Confidence Interval is Exact Confidence Interval.	Intervention	3
+Inclusion criteria:	Eligibility	0
+Female patients >=18 years with proven diagnosis of HER2-overexpressing, histologically confirmed breast cancer	Eligibility	1
+female	PATO:0000383	0-6
+breast cancer	DOID:1612	98-111
+Locally advanced or metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	31-38
+Must have disease that can be evaluated according to RECIST 1.1 (Response Evaluation Criteria for Solid Tumours version 1.1)	Eligibility	3
+disease	DOID:4,OGMS:0000031	10-17
+For trastuzumab pre-treated patients, must have failed prior trastuzumab treatment	Eligibility	4
+Investigator-confirmed diagnosis of Inflammatory Breast Cancer	Eligibility	5
+breast cancer	DOID:1612	49-62
+Must have biopsiable disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	21-28
+Exclusion criteria:	Eligibility	7
+Prior treatment with HER2-targeted small molecules or antibodies other than trastuzumab (which must have been given in the trastuzumab-failure study population)	Eligibility	8
+Must not have received prior vinorelbine treatment	Eligibility	9
+vinorelbine	CHEBI:480999	29-40
+Outcome Measurement:	Results	0
+Part A: Clinical Benefit (CB) Assessed by Complete Response (CR), Partial Response (PR) or Stable Disease (SD) for at Least 6 Months Using the Response Evaluation Criteria in Solid Tumours (RECIST 1.1).	Results	1
+stable	HP:0031915	91-97
+disease	DOID:4,OGMS:0000031	98-105
+Tumour response was assessed separately for Part A and Part B according to the Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1. The primary endpoint of this study was confirmed clinical benefit, as assessed by Stable Disease (SD) for at least 6 months (defined as >182 days), Partial Response (PR), or Complete Response (CR) according to RECIST version 1.1 (only confirmed responses were considered).	Results	2
+stable	HP:0031915	228-234
+disease	DOID:4,OGMS:0000031	235-242
+Time frame: This endpoint was assessed between the from first administration of trial medication in Part A and the earliest of PD, death or start of next treatment (either Part B combination therapy or new anti-cancer therapy) up to 929 days.	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	131-136
+Results 1:	Results	4
+Arm/Group Title: Part A: Afatinib Once Daily (OD).	Results	5
+afatinib	CHEBI:61390	25-33
+Arm/Group Description: Part A: Patients received Afatinib tablets, 40 mg taken orally Once Daily (OD) until PD. In case of treatment-related AEs, the 40 mg dose could be reduced by increments of 10 mg to 30 mg once daily or 20 mg once daily.	Results	6
+afatinib	CHEBI:61390	49-57
+The 95% Confidence Interval is Exact Confidence Interval.	Results	7
+Overall Number of Participants Analyzed: 26	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: Percentage of participants  35        (17 to 56)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 12/26 (46.15%)	Adverse Events	1
+Abdominal pain 0/26 (0.00%)	Adverse Events	2
+abdominal pain	HP:0002027	0-14
+Diarrhoea 3/26 (11.54%)	Adverse Events	3
+Nausea 0/26 (0.00%)	Adverse Events	4
+nausea	HP:0002018	0-6
+Vomiting 3/26 (11.54%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Asthenia 0/26 (0.00%)	Adverse Events	6
+asthenia	HP:0025406	0-8
+Fatigue 1/26 (3.85%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+Pain 1/26 (3.85%)	Adverse Events	8
+pain	HP:0012531	0-4
+Hepatic lesion 1/26 (3.85%)	Adverse Events	9
+Abscess limb 1/26 (3.85%)	Adverse Events	10
+abscess	HP:0025615	0-7
+limb	UBERON:0002101	8-12
+Cellulitis 1/26 (3.85%)	Adverse Events	11
+cellulitis	HP:0100658,DOID:3488	0-10
+Lower respiratory tract infection 1/26 (3.85%)	Adverse Events	12
+lower respiratory tract	UBERON:0001558	0-23
+respiratory tract infection	HP:0011947	6-33
+Sepsis 1/26 (3.85%)	Adverse Events	13
+sepsis	HP:0100806	0-6
+Urinary tract infection 1/26 (3.85%)	Adverse Events	14
+urinary tract infection	DOID:0080784	0-23

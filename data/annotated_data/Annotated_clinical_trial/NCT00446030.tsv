@@ -1,0 +1,278 @@
+INTERVENTION 1:	Intervention	0
+Stratum 1: TAC + Bevacizumab	Intervention	1
+HER2 negative participants were administered chemotherapy with docetaxel, doxorubicin and cyclosphosphamide (TAC) + bevacizumab every 3 weeks for 6 cycles, and maintenance therapy with bevacizumab every 3 weeks for a total of 52 weeks.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	74-85
+INTERVENTION 2:	Intervention	3
+Stratum 2: TCH + Bevacizumab	Intervention	4
+HER2 positive participants were administered chemotherapy with docetaxel, carboplatin and trastuzumab (TCH) + bevacizumab every 3 weeks for 6 cycles, and maintenance therapy with bevacizumab and trastuzumab every 3 weeks for a total of 52 weeks.	Intervention	5
+carboplatin	CHEBI:31355	74-85
+Inclusion Criteria:	Eligibility	0
+Participants who met the following criteria were eligible for this study:	Eligibility	1
+Woman aged 18 to 70 years, inclusive	Eligibility	2
+Had histologically proven breast cancer with the most recent surgery done for breast cancer up to 60 days prior to study registration	Eligibility	3
+breast cancer	DOID:1612	26-39
+breast cancer	DOID:1612	78-91
+surgery	OAE:0000067	61-68
+Had definitive surgical treatment - either mastectomy, or breast conserving surgery with axillary lymph node dissection (or sentinel lymph node biopsy) for operable breast cancer (T1-3, clinical N0-1, and M0)	Eligibility	4
+breast	UBERON:0000310	58-64
+breast	UBERON:0000310	165-171
+surgery	OAE:0000067	76-83
+lymph	UBERON:0002391	98-103
+lymph	UBERON:0002391	133-138
+breast cancer	DOID:1612	165-178
+Must have been either "lymph node positive" or "high risk lymph node negative"	Eligibility	5
+lymph	UBERON:0002391	23-28
+lymph	UBERON:0002391	58-63
+Were lymph node positive participants who had at least 1 axillary lymph node involved by breast cancer. (with lymph node metastasis >0.2 mm)	Eligibility	6
+lymph	UBERON:0002391	5-10
+lymph	UBERON:0002391	66-71
+lymph	UBERON:0002391	110-115
+breast cancer	DOID:1612	89-102
+Were high risk lymph node negative participants had no lymph node involvement and at least 1 of the following factors:	Eligibility	7
+lymph	UBERON:0002391	15-20
+lymph	UBERON:0002391	55-60
+tumor size >2 cm	Eligibility	8
+size	PATO:0000117	6-10
+estrogen receptor (ER) and progesterone receptor (PR) status negative	Eligibility	9
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	40-48
+progesterone	CHEBI:17026	27-39
+histologic and/or nuclear Grade 2/3	Eligibility	10
+age <35 years	Eligibility	11
+age	PATO:0000011	0-3
+Were participants with the Human Epidermal growth factor Receptor 2 (HER2/neu) status (positive or negative) known at the time of signing the informed consent	Eligibility	12
+growth factor	BAO:0002024	43-56
+receptor	BAO:0000281	57-65
+time	PATO:0000165	122-126
+Had the estrogen and progesterone receptor status known prior to study registration	Eligibility	13
+estrogen	CHEBI:50114,BAO:0000760	8-16
+progesterone	CHEBI:17026	21-33
+receptor	BAO:0000281	34-42
+Had Eastern Cooperative Oncology Group (ECOG) performance status score of 0 or 1	Eligibility	14
+group	CHEBI:24433	33-38
+Had normal cardiac function, confirmed by left ventricular ejection fraction (LVEF) or shortening fraction (echocardiography [ECHO] or multiple-gated acquisition [MUGA] scan respectively)	Eligibility	15
+function	BAO:0003117,BFO:0000034	19-27
+left	HP:0012835	42-46
+ejection fraction	CMO:0000180	59-76
+Had the following hematology criteria confirmed within 2 weeks prior to study registration:	Eligibility	16
+Absolute neutrophil count (ANC) >1,500/microL	Eligibility	17
+Platelets >100,000/microL	Eligibility	18
+Hemoglobin  9 g/dL	Eligibility	19
+hemoglobin	CHEBI:35143	0-10
+Met hepatic function evaluation criteria for bilirubin and AST levels within 2 weeks prior to study registration	Eligibility	20
+function	BAO:0003117,BFO:0000034	12-20
+Had completed staging work-up within 35 days (within 1 year for mammography or breast magnetic resonance imaging (MRI) prior to study registration	Eligibility	21
+year	UO:0000036	55-59
+breast	UBERON:0000310	79-85
+May have had MammoSite® brachytherapy radiation when performed immediately following surgery and prior to receiving chemotherapy. The balloon catheter must have been removed at least 28 days prior to the start of study treatment	Eligibility	22
+surgery	OAE:0000067	85-92
+May have had bilateral, synchronous breast cancer provided one primary tumor met the staging criteria	Eligibility	23
+bilateral	HP:0012832	13-22
+breast cancer	DOID:1612	36-49
+Women of child bearing potential must have had a negative pregnancy test within 14 days prior to day 1 cycle 1	Eligibility	24
+day	UO:0000033	83-86
+day	UO:0000033	97-100
+Had consented to using an effective, non-hormonal method of contraception while receiving study treatment and for at least six (6) months following the last dose of bevacizumab, and must have been advised not to breast feed for at least six (6) months following the last dose of bevacizumab.	Eligibility	25
+breast	UBERON:0000310	212-218
+Signed an informed consent prior to beginning any protocol-specific procedures, and had documented expected cooperation during the study treatment and follow-up periods	Eligibility	26
+Exclusion Criteria:	Eligibility	27
+Participants with the following criteria were excluded from this study:	Eligibility	28
+excluded	HP:0040285	46-54
+Had prior systemic anticancer therapy for invasive breast cancer (immunotherapy,hormonotherapy, chemotherapy)	Eligibility	29
+breast cancer	DOID:1612	51-64
+Had prior anthracycline therapy, taxoids, or platinum salts for any malignancy	Eligibility	30
+anthracycline	CHEBI:48120	10-23
+platinum	CHEBI:33364	45-53
+Had prior radiation therapy for breast cancer or any radiotherapy to the chest wall for any other malignancy	Eligibility	31
+breast cancer	DOID:1612	32-45
+radiotherapy	OAE:0000235	53-65
+chest	UBERON:0001443	73-78
+Was pregnant or lactating	Eligibility	32
+Had pre-existing motor or sensory neurotoxicity of a severity >Grade 2 by National Cancer Institute Common Toxicity Criteria for Adverse Events (NCI CTCAE) version 3.0	Eligibility	33
+severity	HP:0012824	53-61
+cancer	DOID:162	83-89
+Had cardiac disease or risk for same as follows:	Eligibility	34
+disease	DOID:4,OGMS:0000031	12-19
+Any documented myocardial infarction	Eligibility	35
+myocardial infarction	HP:0001658,DOID:5844	15-36
+Angina pectoris that required the use of anti-anginal medication	Eligibility	36
+angina pectoris	HP:0001681	0-15
+Any history of documented congestive heart failure	Eligibility	37
+history	BFO:0000182	4-11
+congestive heart failure	HP:0001635,DOID:6000	26-50
+Grade 3 or Grade 4 cardiac arrhythmia (NCI CTCAE, version 3.0)	Eligibility	38
+arrhythmia	HP:0011675	27-37
+Clinically significant valvular heart disease	Eligibility	39
+heart disease	DOID:114	32-45
+Had cardiomegaly	Eligibility	40
+cardiomegaly	HP:0001640	4-16
+Had poorly controlled hypertension, i.e., diastolic greater than 100 mmHg. (Participants who were well controlled on medication were eligible)	Eligibility	41
+hypertension	HP:0000822,DOID:10763	22-34
+Were currently receiving medications administered for cardiac arrhythmia, angina or congestive heart failure (e.g., digitalis, beta-blockers, calcium channel-blockers), that alter cardiac conduction, unless the medications were administered for other reasons (e.g., hypertension)	Eligibility	42
+arrhythmia	HP:0011675	62-72
+congestive heart failure	HP:0001635,DOID:6000	84-108
+calcium	CHEBI:22984,BAO:0000874	142-149
+cardiac conduction	GO:0061337	180-198
+hypertension	HP:0000822,DOID:10763	266-278
+Had other serious illness or medical conditions including	Eligibility	43
+History of significant neurologic or psychiatric disorders including psychotic disorders, dementia or seizures that prohibited the understanding and giving of informed consent	Eligibility	44
+history	BFO:0000182	0-7
+dementia	HP:0000726,DOID:1307	90-98
+Active uncontrolled infection	Eligibility	45
+active	PATO:0002354	0-6
+Active peptic ulcer	Eligibility	46
+active	PATO:0002354	0-6
+peptic ulcer	HP:0004398	7-19
+Unstable diabetes mellitus	Eligibility	47
+diabetes mellitus	HP:0000819,DOID:9351	9-26
+with symptomatic, intrinsic lung disease resulting in dyspnoea at rest	Eligibility	48
+lung disease	DOID:850	28-40
+Clinically significant peripheral vascular disease	Eligibility	49
+peripheral vascular disease	DOID:341	23-50
+Evidence of bleeding diathesis or coagulopathy	Eligibility	50
+Urine protein:creatinine ratio >1.0 at screening	Eligibility	51
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+creatinine	CHEBI:16737	14-24
+ratio	UO:0000190	25-30
+History of abdominal fistula, gastrointestinal perforation, intra-abdominal abscess, inflammatory bowel disease or other gastrointestinal condition increasing the risk of perforation within 6 months of beginning chemotherapy	Eligibility	52
+history	BFO:0000182	0-7
+abscess	HP:0025615	76-83
+inflammatory bowel disease	DOID:0050589	85-111
+condition	PDRO:0000129	138-147
+Serious, non-healing wound, ulcer, or bone fracture	Eligibility	53
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+Known central nervous system (CNS) disease	Eligibility	54
+central nervous system	UBERON:0001017	6-28
+disease	DOID:4,OGMS:0000031	35-42
+History of stroke or transient ischemic attack (TIA)	Eligibility	55
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+transient ischemic attack	HP:0002326,DOID:224	21-46
+Known hepatic cirrhosis	Eligibility	56
+cirrhosis	HP:0001394	14-23
+Had past or current history of neoplasm other than breast carcinoma, except for:	Eligibility	57
+history	BFO:0000182	20-27
+neoplasm	HP:0002664,DOID:14566	31-39
+breast carcinoma	HP:0003002,DOID:3459	51-67
+Curatively treated non-melanoma skin cancer	Eligibility	58
+skin cancer	DOID:4159	32-43
+In situ carcinoma of the cervix	Eligibility	59
+in situ carcinoma	DOID:8719	0-17
+Other cancer curatively treated and with no evidence of disease for at least 10 years	Eligibility	60
+cancer	DOID:162	6-12
+disease	DOID:4,OGMS:0000031	56-63
+Ductal carcinoma in-situ (DCIS) of the breast	Eligibility	61
+carcinoma	HP:0030731,DOID:305	7-16
+breast	UBERON:0000310	39-45
+Lobular carcinoma in-situ (LCIS) of the breast	Eligibility	62
+carcinoma	HP:0030731,DOID:305	8-17
+breast	UBERON:0000310	40-46
+Was currently on therapy with any hormonal agent such as raloxifene, tamoxifen, or other selective estrogen receptor modulators (SERMs), either for osteoporosis or prevention of breast cancer	Eligibility	63
+raloxifene	CHEBI:8772	57-67
+tamoxifen	CHEBI:41774	69-78
+estrogen	CHEBI:50114,BAO:0000760	99-107
+receptor	BAO:0000281	108-116
+osteoporosis	HP:0000939,DOID:11476	148-160
+breast cancer	DOID:1612	178-191
+Had chronic treatment with corticosteroids unless initiated >6 months prior to study registration and at low dose (<20 mg methylprednisolone or equivalent)	Eligibility	64
+chronic	HP:0011010	4-11
+Had concurrent treatment with ovarian hormonal replacement therapy	Eligibility	65
+Had concurrent treatment with other experimental drugs	Eligibility	66
+Had concurrent treatment with any other anticancer therapy	Eligibility	67
+Was male	Eligibility	68
+male	CHEBI:30780,PATO:0000384	4-8
+Had known hypersensitivity to Chinese hamster ovary products or other recombinant human or humanized antibodies and/or hypersensitivity to any of the study drugs or their ingredients (e.g., polysorbate 80 in docetaxel)	Eligibility	69
+hypersensitivity	GO:0002524,DOID:1205	10-26
+hypersensitivity	GO:0002524,DOID:1205	119-135
+ovary	UBERON:0000992	46-51
+polysorbate 80	CHEBI:53426	190-204
+Had minor surgical procedures within 7 days prior to day 1 of study treatment; or major surgical procedures within 28 days prior to day 1 of study treatment or had any anticipated a surgical procedure during the chemotherapy portion of this study	Eligibility	70
+day	UO:0000033	39-42
+day	UO:0000033	53-56
+day	UO:0000033	118-121
+day	UO:0000033	132-135
+Was directly (or was a relative of the study staff) involved in the conduct of the protocol	Eligibility	71
+Had a mental condition or psychiatric disorder rendering her unable to understand the nature, scope, and possible consequences of the study	Eligibility	72
+condition	PDRO:0000129	13-22
+disorder	OGMS:0000045	38-46
+Was unlikely to comply with protocol	Eligibility	73
+Outcome Measurement:	Results	0
+Percent of Participants With Grade 3/4 Clinical Congestive Heart Failure (CHF)	Results	1
+percent	UO:0000187	0-7
+congestive heart failure	HP:0001635,DOID:6000	48-72
+The percentage of participants with Grade 3/4 clinical CHF was calculated. Grade 3/4 CHF symptoms included cardiac failure congestive, cardiomyopathy, and left ventricular dysfunction (LVEF). Echocardiography (ECG) or multiple-gated acquisition (MUGA) scans were scheduled after Cycles 3 and 6 of chemotherapy, after every 3rd cycle of trastuzumab alone, at end of therapy and every 6 months at follow-up to measure changes in LVEF. Clinical symptoms e.g., shortness of breath, tachycardia, cough, neck vein distention, cardiomegaly, hepatomegaly were further investigated for CHF.	Results	2
+cardiomyopathy	HP:0001638,DOID:0050700	135-149
+left	HP:0012835	155-159
+tachycardia	HP:0001649	478-489
+cough	HP:0012735	491-496
+neck	GO:0044326,UBERON:0000974	498-502
+vein	UBERON:0001638	503-507
+cardiomegaly	HP:0001640	520-532
+hepatomegaly	HP:0002240	534-546
+Time frame: up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Stratum 1: TAC + Bevacizumab	Results	5
+Arm/Group Description: HER2 negative participants were administered chemotherapy with docetaxel, doxorubicin and cyclosphosphamide (TAC) + bevacizumab every 3 weeks for 6 cycles, and maintenance therapy with bevacizumab every 3 weeks for a total of 52 weeks.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	97-108
+Overall Number of Participants Analyzed: 92	Results	7
+Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: Percentage of Participants  4.3        (1.2 to 10.8)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Stratum 2: TCH + Bevacizumab	Results	11
+Arm/Group Description: HER2 positive participants were administered chemotherapy with docetaxel, carboplatin and trastuzumab (TCH) + bevacizumab every 3 weeks for 6 cycles, and maintenance therapy with bevacizumab and trastuzumab every 3 weeks for a total of 52 weeks.	Results	12
+carboplatin	CHEBI:31355	97-108
+Overall Number of Participants Analyzed: 34	Results	13
+Mean (95% Confidence Interval)	Results	14
+mean	BAO:0002173	0-4
+Unit of Measure: Percentage of Participants  0        (0.0 to 10.3)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 27/92 (29.35%)	Adverse Events	1
+FEBRILE NEUTROPENIA *4/92 (4.35%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+NEUTROPENIA *3/92 (3.26%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+THROMBOCYTOPENIA *0/92 (0.00%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+CARDIAC FAILURE CONGESTIVE *3/92 (3.26%)	Adverse Events	5
+ATRIAL FIBRILLATION *1/92 (1.09%)	Adverse Events	6
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+ABDOMINAL PAIN *1/92 (1.09%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+DUODENAL ULCER *1/92 (1.09%)	Adverse Events	8
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+NAUSEA *1/92 (1.09%)	Adverse Events	9
+nausea	HP:0002018	0-6
+NEUTROPENIC COLITIS *1/92 (1.09%)	Adverse Events	10
+colitis	HP:0002583,DOID:0060180	12-19
+VOMITING *1/92 (1.09%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+ADVERSE DRUG REACTION *1/92 (1.09%)	Adverse Events	12
+drug	CHEBI:23888	8-12
+Adverse Events 2:	Adverse Events	13
+Total: 7/34 (20.59%)	Adverse Events	14
+FEBRILE NEUTROPENIA *0/34 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+NEUTROPENIA *0/34 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+THROMBOCYTOPENIA *2/34 (5.88%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+CARDIAC FAILURE CONGESTIVE *0/34 (0.00%)	Adverse Events	18
+ATRIAL FIBRILLATION *0/34 (0.00%)	Adverse Events	19
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+ABDOMINAL PAIN *0/34 (0.00%)	Adverse Events	20
+abdominal pain	HP:0002027	0-14
+DUODENAL ULCER *0/34 (0.00%)	Adverse Events	21
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+NAUSEA *0/34 (0.00%)	Adverse Events	22
+nausea	HP:0002018	0-6
+NEUTROPENIC COLITIS *0/34 (0.00%)	Adverse Events	23
+colitis	HP:0002583,DOID:0060180	12-19
+VOMITING *0/34 (0.00%)	Adverse Events	24
+vomiting	HP:0002013	0-8
+ADVERSE DRUG REACTION *0/34 (0.00%)	Adverse Events	25
+drug	CHEBI:23888	8-12

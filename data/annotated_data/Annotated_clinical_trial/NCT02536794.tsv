@@ -1,0 +1,187 @@
+INTERVENTION 1:	Intervention	0
+Treatment (MEDI4736, Tremelimumab)	Intervention	1
+Patients receive anti-B7H1 monoclonal antibody MEDI4736 IV over 1 hour and tremelimumab IV over 1 hour on day 1. Treatment repeats every 28 days for 4 courses in the absence of disease progression or unacceptable toxicity. Four weeks after the last combination dose, patients continue to receive anti-B7H1 monoclonal antibody MEDI4736 every 2 weeks for up to 18 additional doses in the absence of disease progression or unacceptable toxicity. Patients achieving PD or clinical benefit (CR, PR, or SD) may be retreated with anti-B7H1 monoclonal antibody MEDI4736 for an additional 52 weeks.	Intervention	2
+monoclonal	BAO:0000503	27-37
+monoclonal	BAO:0000503	306-316
+monoclonal	BAO:0000503	533-543
+antibody	GO:0042571,BAO:0000502	38-46
+antibody	GO:0042571,BAO:0000502	317-325
+antibody	GO:0042571,BAO:0000502	544-552
+hour	UO:0000032	66-70
+hour	UO:0000032	98-102
+day	UO:0000033	106-109
+day	UO:0000033	140-143
+disease	DOID:4,OGMS:0000031	177-184
+disease	DOID:4,OGMS:0000031	397-404
+Anti-B7H1 Monoclonal Antibody MEDI4736: Given IV	Intervention	3
+monoclonal	BAO:0000503	10-20
+antibody	GO:0042571,BAO:0000502	21-29
+Laboratory Biomarker Analysis: Correlative studies	Intervention	4
+biomarker	CHEBI:59163	11-20
+Pharmacological Study: Correlative studies	Intervention	5
+Tremelimumab: Given IV	Intervention	6
+Inclusion Criteria:	Eligibility	0
+Patients must have a histologically documented (either primary or metastatic site) diagnosis of breast cancer that is HER2 non-overexpressing by immunohistochemistry, namely 0 or 1; if they have an equivocal immunohistochemistry, 2, the tumor must be non-gene amplified by fluorescence in situ hybridization (FISH) performed upon the primary tumor or metastatic lesion (ratio < 2 and HER2 copy number < 4); estrogen receptor (ER) positivity is defined as 1% or greater	Eligibility	1
+site	BFO:0000029	77-81
+breast cancer	DOID:1612	96-109
+immunohistochemistry	BAO:0000415	145-165
+immunohistochemistry	BAO:0000415	208-228
+ratio	UO:0000190	370-375
+estrogen	CHEBI:50114,BAO:0000760	407-415
+receptor	BAO:0000281	416-424
+Patients must have measurable disease by Response Evaluation Criteria in Solid Tumors (RECIST) criteria	Eligibility	2
+disease	DOID:4,OGMS:0000031	30-37
+Patients who are ER negative must have progressed through at least one prior chemotherapy regimen in the metastatic setting or within 12 months of their last adjuvant systemic treatment; patients who are ER positive must have progressed through standard hormone therapy options and have received at least one line of chemotherapy in the metastatic setting	Eligibility	3
+adjuvant	CHEBI:60809	158-166
+hormone	CHEBI:24621	254-261
+Completion of prior chemotherapy systemic anticancer therapy at least 2 weeks prior to study entry	Eligibility	4
+Radiation therapy must be completed at least 2 weeks prior to study entry; radiated lesions may not serve as measurable disease unless they have been radiated over 12 months prior to enrollment	Eligibility	5
+disease	DOID:4,OGMS:0000031	120-127
+Patients may have parenchymal brain metastases if stable (no evidence of progression) for at least 1 month after local therapy (radiation or surgery); leptomeningeal disease is excluded; must have completed any prescribed steroid taper	Eligibility	6
+brain	UBERON:0000955	30-35
+stable	HP:0031915	50-56
+month	UO:0000035	101-106
+surgery	OAE:0000067	141-148
+disease	DOID:4,OGMS:0000031	166-173
+excluded	HP:0040285	177-185
+steroid	CHEBI:35341	222-229
+Patients may have had a prior diagnosis of cancer if it has been > 5 years since their last treatment	Eligibility	7
+cancer	DOID:162	43-49
+Patients must exhibit an Eastern Cooperative Oncology Group (ECOG) performance status of =< 2	Eligibility	8
+group	CHEBI:24433	54-59
+Absolute neutrophil count >= 1,000/mcL	Eligibility	9
+Platelets >= 50,000/mcl	Eligibility	10
+Total bilirubin =< 1.5 times the institutional upper limit of normal (ULN) (or =< 3 times ULN in case of liver metastasis)	Eligibility	11
+liver	UBERON:0002107	105-110
+Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT])/alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase [SPGT]) =< 2.5 X institutional ULN (or =< 5 times ULN in case of liver metastasis)	Eligibility	12
+aspartate	CHEBI:29995	0-9
+glutamate	CHEBI:14321,BAO:0000926	120-129
+pyruvate	CHEBI:15361	130-138
+x	LABO:0000148	50-51
+x	LABO:0000148	167-168
+liver	UBERON:0002107	217-222
+Creatinine =< 2 ng/ml	Eligibility	13
+creatinine	CHEBI:16737	0-10
+Females of child-bearing potential (FOCBP) and males must agree to use 2 methods of adequate contraception prior to study entry, for the duration of study participation, and for number (#) days following completion of therapy; should a female patient become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately	Eligibility	14
+duration	PATO:0001309	137-145
+female	PATO:0000383	0-6
+female	PATO:0000383	236-242
+patient	HADO:0000008,OAE:0001817	243-250
+NOTE: A FOCBP is any woman (regardless of sexual orientation, having undergone a tubal ligation, or remaining celibate by choice) who meets the following criteria:	Eligibility	15
+Has not undergone a hysterectomy or bilateral oophorectomy	Eligibility	16
+bilateral	HP:0012832	36-45
+Has had menses at any time in the preceding 12 consecutive months (and therefore has not been naturally postmenopausal for > 12 months)	Eligibility	17
+time	PATO:0000165	22-26
+FOCBP must have a negative pregnancy test within 7 days prior to registration on study	Eligibility	18
+Willingness to provide a fresh biopsy prior to study enrollment and after 2 cycles of treatment	Eligibility	19
+Patients must have the ability to understand and the willingness to sign a written informed consent prior to registration on study	Eligibility	20
+Exclusion Criteria:	Eligibility	21
+Patients who have had chemotherapy or radiotherapy within 2 weeks prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier are not eligible.	Eligibility	22
+radiotherapy	OAE:0000235	38-50
+Current or prior use of immunosuppressive therapy within 2 weeks of starting investigational therapy	Eligibility	23
+Patients who are taking any herbal (alternative) medicines are NOT eligible for participation; patients must be off any such medications by the time of registration for at least 2 weeks; NOTE: Vitamin supplements are acceptable	Eligibility	24
+time	PATO:0000165	144-148
+vitamin	CHEBI:33229	193-200
+Patients may not have received any other investigational agents within 4 weeks prior to registration	Eligibility	25
+Prior treatment with immune therapy (including but not limited to cluster of differentiation [CD]137, OX40, programmed death [PD]-1, PD-L1 or cytotoxic T-lymphocyte antigen 4 [CTLA4] inhibitors)	Eligibility	26
+cluster	CHEBI:33731	66-73
+death	OAE:0000632	119-124
+antigen	CHEBI:59132	165-172
+Prior severe infusion reaction to a monoclonal antibody	Eligibility	27
+severe	HP:0012828	6-12
+monoclonal	BAO:0000503	36-46
+antibody	GO:0042571,BAO:0000502	47-55
+Patients with a history of or active autoimmune disease within the past 3 years with the following exceptions:	Eligibility	28
+history	BFO:0000182	16-23
+active	PATO:0002354	30-36
+autoimmune disease	DOID:417	37-55
+Vitiligo or alopecia	Eligibility	29
+vitiligo	HP:0001045,DOID:12306	0-8
+alopecia	HP:0001596,DOID:987	12-20
+Hypothyroidism on stable doses of thyroid replacement therapy	Eligibility	30
+hypothyroidism	HP:0000821,DOID:1459	0-14
+stable	HP:0031915	18-24
+Psoriasis not requiring systemic therapy within the past 3 years	Eligibility	31
+psoriasis	DOID:8893	0-9
+History of primary immunodeficiency disease or tuberculosis	Eligibility	32
+history	BFO:0000182	0-7
+primary immunodeficiency disease	DOID:612	11-43
+tuberculosis	DOID:399	47-59
+Major medical conditions that might affect study participation (uncontrolled pulmonary, renal, or hepatic dysfunction, uncontrolled infection) are not eligible; other significant comorbid condition which the investigator feels might compromise effective and safe participation in the study	Eligibility	33
+condition	PDRO:0000129	14-23
+condition	PDRO:0000129	188-197
+Patients who have an uncontrolled intercurrent illness including, but not limited to any of the following, are not eligible:	Eligibility	34
+Uncontrolled pulmonary, renal, or hepatic dysfunction	Eligibility	35
+Ongoing or active infection requiring systemic treatment	Eligibility	36
+active	PATO:0002354	11-17
+Known active or chronic viral hepatitis or human immunodeficiency virus (HIV)	Eligibility	37
+active	PATO:0002354	6-12
+chronic	HP:0011010	16-23
+viral hepatitis	HP:0006562,DOID:1884	24-39
+immunodeficiency	HP:0002721	49-65
+virus	BAO:0000232	66-71
+Psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	38
+Any other illness or condition that the treating investigator feels would interfere with study compliance or would compromise the patient's safety or study endpoints	Eligibility	39
+condition	PDRO:0000129	21-30
+patient	HADO:0000008,OAE:0001817	130-137
+Female patients who are pregnant or nursing are not eligible	Eligibility	40
+female	PATO:0000383	0-6
+Outcome Measurement:	Results	0
+Overall Response Rate (ORR) in Patients With Metastatic HER2 Negative Breast Cancer Treated With Durvalumab in Combination With Tremelimumab	Results	1
+rate	BAO:0080019	17-21
+breast cancer	DOID:1612	70-83
+Overall response rate is defined as the number of patients with partial response (PR), plus those with complete response (CR) using the Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1 with the following definitions:	Results	2
+rate	BAO:0080019	17-21
+Complete Response - Disappearance of all lesions Partial Response - At least a 30% decrease in the sum of the diameters of target lesions, taking as reference the baseline sum diameters.	Results	3
+target	BAO:0003064	123-129
+Time frame: Up to a maximum of 49 cycles where 1 cycle = 4 weeks for the first 4 cycles and than 1 cycle =2 weeks for 45 cycles	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Treatment (MEDI4736, Tremelimumab)	Results	6
+Arm/Group Description: Patients receive anti-B7H1 monoclonal antibody MEDI4736 IV over 1 hour and tremelimumab IV over 1 hour on day 1. Treatment repeats every 28 days for 4 courses in the absence of disease progression or unacceptable toxicity. Four weeks after the last combination dose, patients continue to receive anti-B7H1 monoclonal antibody MEDI4736 every 2 weeks for up to 18 additional doses in the absence of disease progression or unacceptable toxicity. Patients achieving PD or clinical benefit (CR, PR, or SD) may be retreated with anti-B7H1 monoclonal antibody MEDI4736 for an additional 52 weeks.	Results	7
+monoclonal	BAO:0000503	50-60
+monoclonal	BAO:0000503	329-339
+monoclonal	BAO:0000503	556-566
+antibody	GO:0042571,BAO:0000502	61-69
+antibody	GO:0042571,BAO:0000502	340-348
+antibody	GO:0042571,BAO:0000502	567-575
+hour	UO:0000032	89-93
+hour	UO:0000032	121-125
+day	UO:0000033	129-132
+day	UO:0000033	163-166
+disease	DOID:4,OGMS:0000031	200-207
+disease	DOID:4,OGMS:0000031	420-427
+Anti-B7H1 Monoclonal Antibody MEDI4736: Given IV	Results	8
+monoclonal	BAO:0000503	10-20
+antibody	GO:0042571,BAO:0000502	21-29
+Laboratory Biomarker Analysis: Correlative studies	Results	9
+biomarker	CHEBI:59163	11-20
+Pharmacological Study: Correlative studies	Results	10
+Tremelimumab: Given IV	Results	11
+Overall Number of Participants Analyzed: 27	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: participants  4	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 18/30 (60.00%)	Adverse Events	1
+Myocarditis and Ventricular Tachycardia 1/30 (3.33%)	Adverse Events	2
+myocarditis	HP:0012819,DOID:820	0-11
+ventricular tachycardia	HP:0004756	16-39
+Vomiting 1/30 (3.33%)	Adverse Events	3
+vomiting	HP:0002013	0-8
+Vomiting  [1]1/30 (3.33%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Enteritis  [2]1/30 (3.33%)	Adverse Events	5
+Fever and chills  [3]2/30 (6.67%)	Adverse Events	6
+fever	HP:0001945	0-5
+chills	HP:0025143	10-16
+Fever  [4]1/30 (3.33%)	Adverse Events	7
+fever	HP:0001945	0-5
+Hepatitis 2/30 (6.67%)	Adverse Events	8
+hepatitis	HP:0012115,DOID:2237	0-9
+Hepatitis  [5]1/30 (3.33%)	Adverse Events	9
+hepatitis	HP:0012115,DOID:2237	0-9
+Spontaneous bacterial peritonitis 1/30 (3.33%)	Adverse Events	10
+peritonitis	HP:0002586,DOID:8283	22-33
+Urosepsis  [6]1/30 (3.33%)	Adverse Events	11
+Disease progression 2/30 (6.67%)	Adverse Events	12
+disease	DOID:4,OGMS:0000031	0-7

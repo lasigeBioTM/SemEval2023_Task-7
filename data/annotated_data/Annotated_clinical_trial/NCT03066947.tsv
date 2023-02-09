@@ -1,0 +1,199 @@
+INTERVENTION 1:	Intervention	0
+SV-BR-1-GM Monotherapy	Intervention	1
+Pretreatment with low dose cyclophosphamide 2-3 days prior to SV-BR-1-GM inoculation; SV-BR-1-GM inoculation intradermally in 4 sites on the upper back (x2) and thighs (x2); Post-inoculation low dose Interferon-alpha-2b into the vaccination sites ~2 and ~4 days after SV-BR-1-GM inoculation	Intervention	2
+cyclophosphamide	CHEBI:4026	27-43
+vaccination	VO:0000002	229-240
+SV-BR-1-GM: See above	Intervention	3
+Cyclophosphamide: Low dose pre-treatment to reduce regulatory T cells	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+t	CHEBI:36371,BAO:0001260	31-32
+t	CHEBI:36371,BAO:0001260	35-36
+t	CHEBI:36371,BAO:0001260	39-40
+t	CHEBI:36371,BAO:0001260	41-42
+t	CHEBI:36371,BAO:0001260	57-58
+t	CHEBI:36371,BAO:0001260	62-63
+Interferon-alpha-2b: Low dose given in the vaccine site to boost the immune response	Intervention	5
+vaccine	VO:0000001	43-50
+site	BFO:0000029	51-55
+immune response	GO:0006955	69-84
+Inclusion Criteria:	Eligibility	0
+1. Have histological confirmation of breast cancer with recurrent and/or metastatic lesions via investigational site.	Eligibility	1
+breast cancer	DOID:1612	37-50
+recurrent	HP:0031796	56-65
+site	BFO:0000029	112-116
+Patients with new or progressive breast cancer metastatic to brain will be eligible provided:	Eligibility	2
+progressive	HP:0003676	21-32
+breast cancer	DOID:1612	33-46
+brain	UBERON:0000955	61-66
+There is no need for steroids and patients have not had steroids at least 2 weeks	Eligibility	3
+No individual tumor size is >50 mm3	Eligibility	4
+size	PATO:0000117	20-24
+ECOG status <3	Eligibility	5
+Tumor is not impinging on Middle Cerebral Artery/speech-motor strip	Eligibility	6
+If surgically debulked, must be healed from surgery and at least 3 weeks have elapsed since general anesthesia	Eligibility	7
+surgery	OAE:0000067	44-51
+Patients consent to MRI studies at 3-4 week intervals until evidence of tumor regression on at least 2 imaging studies. In no case, will the interval between MRI studies be longer than 3 months. MRI study may be introduced at any time should the patients develop new or clearly worsening symptoms and/or introduction of steroids	Eligibility	8
+week	UO:0000034	39-43
+time	PATO:0000165	230-234
+2. Have evidence of persistent, recurrent, or progressive disease for which there is no known or established treatment available with curative intent, after failing at least one course of community standard systemic treatment with chemotherapy (and endocrine therapy if appropriate)	Eligibility	9
+recurrent	HP:0031796	32-41
+progressive	HP:0003676	46-57
+disease	DOID:4,OGMS:0000031	58-65
+3. Be 18 years of age or older and female	Eligibility	10
+age	PATO:0000011	18-21
+female	PATO:0000383	35-41
+4. Have expected survival of at least 4 months	Eligibility	11
+5. Have adequate performance status (ECOG 0-2)	Eligibility	12
+6. Patients may be maintained on hormonal therapy provided there is clear evidence of tumor progression	Eligibility	13
+7. Have provided written informed consent.	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Concurrent or recent chemotherapy (within 3 weeks), XRT within 3 weeks, may have had immunotherapy in the past (off within 3 weeks), or general anesthesia/major surgery (within 3 weeks). Patients must have recovered from all known or expected toxicities from previous treatment and passed a treatment-free "washout" period of 3 weeks before starting this program (8 weeks for persons receiving nitrosourea or mitomycin).	Eligibility	16
+surgery	OAE:0000067	161-168
+mitomycin	CHEBI:25357	409-418
+History of clinical hypersensitivity to GM-CSF, Interferon-alpha-2b (Merck), yeast, beef, or to any components used in the preparation of the experimental vaccine.	Eligibility	17
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	20-36
+vaccine	VO:0000001	155-162
+BUN >30 and a creatinine >2.	Eligibility	18
+creatinine	CHEBI:16737	14-24
+Absolute granulocyte count < 1000; platelets <100,000.	Eligibility	19
+Bilirubin >2.0; alkaline phosphatase >5x upper limit of normal (ULN); ALT/AST >2x ULN.	Eligibility	20
+phosphatase	GO:0016791,BAO:0000295	25-36
+Proteinuria >1+ on urinalysis or >1 gm/24hr.	Eligibility	21
+proteinuria	HP:0000093,DOID:576	0-11
+Left ventricular ejection fraction (LVEF as determined by cardiac echo or MUGA scan) below the normal limits of the institutions specific testing range. This assessment may be repeated once at the discretion of the Investigator with the approval of the Sponsor.	Eligibility	22
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+range	LABO:0000114	146-151
+New York Heart Association stage 3 or 4 cardiac disease.	Eligibility	23
+heart	UBERON:0000948	9-14
+disease	DOID:4,OGMS:0000031	48-55
+A pleural effusion of moderate severity or worse.	Eligibility	24
+pleural effusion	HP:0002202	2-18
+moderate	HP:0012826	22-30
+severity	HP:0012824	31-39
+Any woman of childbearing potential, unless she:	Eligibility	25
+Agrees to take measures to avoid becoming pregnant during the study and	Eligibility	26
+Has a negative serum pregnancy test within 7 days prior to starting treatment.	Eligibility	27
+Women who are pregnant or nursing.	Eligibility	28
+Patients with concurrent second malignancy. Persons with previous malignancies effectively treated and not requiring treatment for >24 months are eligible, provided there is unambiguous documentation that current local recurrence or metastatic site represents recurrence of the primary breast malignancy.	Eligibility	29
+second	UO:0000010	25-31
+site	BFO:0000029	244-248
+breast	UBERON:0000310	286-292
+Patients who are HIV positive (by self-report) or have clinical or laboratory features indicative of AIDS.	Eligibility	30
+14. Patients who require systemic steroids at a dose equivalent of >10 mg/day of prednisone. Beta-blocker therapy, while not exclusionary, is discouraged and alternatives should be sought if possible. The beta-blocker might compromise use of epinephrine for the rare possibility of anaphylaxis. Anticoagulants must be approved by the Investigator with notification of the Sponsor.	Eligibility	31
+prednisone	CHEBI:8382	81-91
+Patients who are on treatment for rheumatological or autoimmune disease unless approved by the Investigator in consultation with the Sponsor (e.g., as for replacement therapy for autoimmune thyroiditis or diabetes).	Eligibility	32
+autoimmune disease	DOID:417	53-71
+autoimmune thyroiditis	DOID:7188	179-201
+Patients with severe psychiatric (i.e. schizophrenia, bipolar, or borderline personality disorder) or other clinically progressive major medical problems, unless approved by the PI.	Eligibility	33
+severe	HP:0012828	14-20
+schizophrenia	HP:0100753,DOID:5419	39-52
+borderline personality disorder	HP:0012076,DOID:10930	66-97
+progressive	HP:0003676	119-130
+Male breast cancer patients.	Eligibility	34
+male breast cancer	DOID:1614	0-18
+Patients may not be on a concurrent clinical trial, unless approved by PI.	Eligibility	35
+Outcome Measurement:	Results	0
+Number of Patients With Treatment Emergent Adverse Events Occurring in Two or More Patients [Safety]	Results	1
+To evaluate the number of patients with toxicity events while on SV-BR-1-GM, as defined by the Common Terminology Criteria for Adverse Events (CTCAE)	Results	2
+Time frame: Through study completion, an average of 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	54-58
+Results 1:	Results	4
+Arm/Group Title: SV-BR-1-GM Monotherapy	Results	5
+Arm/Group Description: Pretreatment with low dose cyclophosphamide 2-3 days prior to SV-BR-1-GM inoculation; SV-BR-1-GM inoculation intradermally in 4 sites on the upper back (x2) and thighs (x2); Post-inoculation low dose Interferon-alpha-2b into the vaccination sites ~2 and ~4 days after SV-BR-1-GM inoculation	Results	6
+cyclophosphamide	CHEBI:4026	50-66
+vaccination	VO:0000002	252-263
+SV-BR-1-GM: See above	Results	7
+Cyclophosphamide: Low dose pre-treatment to reduce regulatory T cells	Results	8
+cyclophosphamide	CHEBI:4026	0-16
+t	CHEBI:36371,BAO:0001260	31-32
+t	CHEBI:36371,BAO:0001260	35-36
+t	CHEBI:36371,BAO:0001260	39-40
+t	CHEBI:36371,BAO:0001260	41-42
+t	CHEBI:36371,BAO:0001260	57-58
+t	CHEBI:36371,BAO:0001260	62-63
+Interferon-alpha-2b: Low dose given in the vaccine site to boost the immune response	Results	9
+vaccine	VO:0000001	43-50
+site	BFO:0000029	51-55
+immune response	GO:0006955	69-84
+Overall Number of Participants Analyzed: 24	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  Patients with Adverse Events: 24 100.0%	Results	12
+Erythema injection site: 11  45.8%	Results	13
+erythema	HP:0010783	0-8
+injection site	VO:0000300	9-23
+Pruritis injection site: 8  33.3%	Results	14
+injection site	VO:0000300	9-23
+Induration injection site: 7  29.2%	Results	15
+injection site	VO:0000300	11-25
+Fatigue: 6  25.0%	Results	16
+fatigue	HP:0012378	0-7
+Nausea: 6  25.0%	Results	17
+nausea	HP:0002018	0-6
+Constipation: 5  20.8%	Results	18
+constipation	HP:0002019,DOID:2089	0-12
+Abdominal pain: 4  16.7%	Results	19
+abdominal pain	HP:0002027	0-14
+Flu like symptoms: 4  16.7%	Results	20
+Diarrhea: 3  12.5%	Results	21
+diarrhea	HP:0002014,DOID:13250	0-8
+GGTP increased: 3  12.5%	Results	22
+Injection site reaction: 3  12.5%	Results	23
+injection site	VO:0000300	0-14
+Urinary Tract Infection: 3  12.5%	Results	24
+urinary tract infection	DOID:0080784	0-23
+Vomiting: 3  12.5%	Results	25
+vomiting	HP:0002013	0-8
+Abdominal distension: 2   8.3%	Results	26
+Alkaline Phosphatase Increased: 2   8.3%	Results	27
+phosphatase	GO:0016791,BAO:0000295	9-20
+ALT Increased: 2   8.3%	Results	28
+Anorexia: 2   8.3%	Results	29
+anorexia	HP:0002039	0-8
+AST Increased: 2   8.3%	Results	30
+Back Pain: 2   8.3%	Results	31
+back pain	HP:0003418	0-9
+Chills: 2   8.3%	Results	32
+chills	HP:0025143	0-6
+Decreased appetite: 2   8.3%	Results	33
+Dehydration: 2   8.3%	Results	34
+dehydration	HP:0001944	0-11
+Dizziness: 2   8.3%	Results	35
+Erythema Multiforme: 2   8.3%	Results	36
+erythema multiforme	DOID:0050185	0-19
+Glucose increased: 2   8.3%	Results	37
+glucose	CHEBI:4167,BAO:0000924	0-7
+Hematocrit Decreased: 2   8.3%	Results	38
+hematocrit	CMO:0000037	0-10
+Hypercalcemia: 2   8.3%	Results	39
+hypercalcemia	HP:0003072,DOID:12678	0-13
+Lymphocytes Decreased: 2   8.3%	Results	40
+Myalgia: 2   8.3%	Results	41
+myalgia	HP:0003326	0-7
+Pleural Effusion: 2   8.3%	Results	42
+pleural effusion	HP:0002202	0-16
+Adverse Events 1:	Adverse Events	0
+Total: 8/24 (33.33%)	Adverse Events	1
+Restrictive Cardiomyopathy * 21/24 (4.17%)	Adverse Events	2
+restrictive cardiomyopathy	HP:0001723,DOID:397	0-26
+Palpitations * 21/24 (4.17%)	Adverse Events	3
+palpitations	HP:0001962	0-12
+GERD * 21/24 (4.17%)	Adverse Events	4
+Fever * 21/24 (4.17%)	Adverse Events	5
+fever	HP:0001945	0-5
+Sepsis * 1/24 (4.17%)	Adverse Events	6
+sepsis	HP:0100806	0-6
+Urinary Tract Infection * 21/24 (4.17%)	Adverse Events	7
+urinary tract infection	DOID:0080784	0-23
+Influenza A * 21/24 (4.17%)	Adverse Events	8
+influenza	DOID:8469	0-9
+Dehydration * 21/24 (4.17%)	Adverse Events	9
+dehydration	HP:0001944	0-11
+Hyponatremia * 21/24 (4.17%)	Adverse Events	10
+hyponatremia	HP:0002902	0-12
+Worsening of Hypercalcemia * 21/24 (4.17%)	Adverse Events	11
+hypercalcemia	HP:0003072,DOID:12678	13-26
+Bone Pain * 21/24 (4.17%)	Adverse Events	12
+bone pain	HP:0002653	0-9

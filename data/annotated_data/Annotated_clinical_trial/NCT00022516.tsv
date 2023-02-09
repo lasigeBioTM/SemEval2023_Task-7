@@ -1,0 +1,201 @@
+INTERVENTION 1:	Intervention	0
+No-CM	Intervention	1
+No further chemotherapy following standard adjuvant chemotherapy.	Intervention	2
+adjuvant	CHEBI:60809	43-51
+INTERVENTION 2:	Intervention	3
+CM-Maintenance	Intervention	4
+12-month CM-maintenance regimen (C, cyclophosphamide 50 mg/day orally continuously and M, methotrexate 2.5 mg twice/day orally days 1 and 2 of every week for 1 year)	Intervention	5
+cyclophosphamide	CHEBI:4026	36-52
+methotrexate	CHEBI:44185	90-102
+week	UO:0000034	149-153
+year	UO:0000036	160-164
+Cyclophosphamide: 50 mg/day orally continuously for 1 year	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+year	UO:0000036	54-58
+Methotrexate: 2.5 mg twice/day orally days 1 and 2 of every week for 1 year	Intervention	7
+methotrexate	CHEBI:44185	0-12
+week	UO:0000034	60-64
+year	UO:0000036	71-75
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed stage I, II, or III breast cancer	Eligibility	1
+breast cancer	DOID:1612	45-58
+T1-3, N0-2, M0	Eligibility	2
+Patients with sentinel node biopsy positive disease must have undergone axillary dissection	Eligibility	3
+disease	DOID:4,OGMS:0000031	44-51
+Tumor must be confined to the breast without detected metastases elsewhere	Eligibility	4
+breast	UBERON:0000310	30-36
+T4 disease with minimal dermal invasion allowed	Eligibility	5
+disease	DOID:4,OGMS:0000031	3-10
+No T4 disease with ulceration of skin, infiltration of skin (except pathologically minimal dermal involvement), peau d'orange, or inflammatory breast cancer	Eligibility	6
+disease	DOID:4,OGMS:0000031	6-13
+peau d'orange	HP:0025533	112-125
+breast cancer	DOID:1612	143-156
+No bilateral breast cancer (except in situ carcinoma) or suspicious mass in opposite breast that has not been proven benign	Eligibility	7
+bilateral breast cancer	DOID:6741	3-26
+in situ carcinoma	DOID:8719	35-52
+breast	UBERON:0000310	13-19
+breast	UBERON:0000310	85-91
+No distant metastases	Eligibility	8
+No skeletal pain of unknown cause, elevated alkaline phosphatase, or bone scan showing hot spots that cannot be ruled out as metastases by x-ray, MRI, and/or CT	Eligibility	9
+pain	HP:0012531	12-16
+phosphatase	GO:0016791,BAO:0000295	53-64
+ct	BAO:0002125	158-160
+Must have undergone prior total mastectomy OR breast-conserving procedure (e.g., lumpectomy, quadrantectomy, or partial mastectomy with negative margins) with radiotherapy planned	Eligibility	10
+radiotherapy	OAE:0000235	159-171
+Patients must begin or have begun an approved induction chemotherapy regimen within 8 weeks after definitive surgery	Eligibility	11
+surgery	OAE:0000067	109-116
+Negative surgical margins	Eligibility	12
+Axillary clearance with at least 6 lymph nodes examined OR negative sentinel node biopsy	Eligibility	13
+lymph	UBERON:0002391	35-40
+Known HER2 status by immunohistochemistry or fluorescence in situ hybridization	Eligibility	14
+immunohistochemistry	BAO:0000415	21-41
+Hormone receptor status:	Eligibility	15
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen and progesterone receptor negative	Eligibility	16
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	13-25
+receptor	BAO:0000281	26-34
+Less than 10% positive tumor cells by immunohistochemistry	Eligibility	17
+immunohistochemistry	BAO:0000415	38-58
+PATIENT CHARACTERISTICS:	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+Age:	Eligibility	19
+age	PATO:0000011	0-3
+Not specified	Eligibility	20
+Sex:	Eligibility	21
+Not specified	Eligibility	22
+Menopausal status:	Eligibility	23
+Premenopausal, defined as less than 6 months since last menstrual period (LMP) AND no prior bilateral ovariectomy AND not on estrogen replacement (OR under age 50) OR	Eligibility	24
+bilateral	HP:0012832	92-101
+estrogen	CHEBI:50114,BAO:0000760	125-133
+age	PATO:0000011	156-159
+Postmenopausal, defined as prior bilateral ovariectomy OR more than 12 months since LMP without prior hysterectomy (OR age 50 and over)	Eligibility	25
+bilateral	HP:0012832	33-42
+age	PATO:0000011	119-122
+Performance status:	Eligibility	26
+Not specified	Eligibility	27
+Life expectancy:	Eligibility	28
+Not specified	Eligibility	29
+Hematopoietic:	Eligibility	30
+WBC greater than 3,000/mm3	Eligibility	31
+Platelet count greater than 100,000/mm3	Eligibility	32
+platelet count	CMO:0000029	0-14
+Hepatic:	Eligibility	33
+See Disease Characteristics	Eligibility	34
+disease	DOID:4,OGMS:0000031	4-11
+Bilirubin less than 2.0 mg/dL	Eligibility	35
+ALT less than 1.5 times upper limit of normal OR AST less than 60 IU/L	Eligibility	36
+Renal:	Eligibility	37
+Creatinine less than 1.2 mg/dL	Eligibility	38
+creatinine	CHEBI:16737	0-10
+Other:	Eligibility	39
+Not pregnant or lactating within the past 6 months	Eligibility	40
+Fertile patients must use effective barrier contraception	Eligibility	41
+No other prior or concurrent malignancy except adequately treated basal or squamous cell carcinoma of the skin, carcinoma in situ of the cervix, or contralateral or ipsilateral in situ breast carcinoma	Eligibility	42
+squamous cell carcinoma of the skin	HP:0006739	75-110
+carcinoma	HP:0030731,DOID:305	89-98
+carcinoma	HP:0030731,DOID:305	112-121
+carcinoma	HP:0030731,DOID:305	192-201
+breast carcinoma	HP:0003002,DOID:3459	185-201
+No psychiatric or addictive disorders that would preclude study	Eligibility	43
+No non-malignant systemic disease that would preclude study	Eligibility	44
+disease	DOID:4,OGMS:0000031	26-33
+PRIOR CONCURRENT THERAPY:	Eligibility	45
+Biologic therapy:	Eligibility	46
+Prior trastuzumab (Herceptin) allowed	Eligibility	47
+Chemotherapy:	Eligibility	48
+See Disease Characteristics	Eligibility	49
+disease	DOID:4,OGMS:0000031	4-11
+No prior adjuvant or neoadjuvant chemotherapy for breast cancer	Eligibility	50
+adjuvant	CHEBI:60809	9-17
+adjuvant	CHEBI:60809	24-32
+breast cancer	DOID:1612	50-63
+Endocrine therapy:	Eligibility	51
+No prior endocrine therapy for breast cancer or prevention	Eligibility	52
+breast cancer	DOID:1612	31-44
+No prior tamoxifen or raloxifene for breast cancer	Eligibility	53
+tamoxifen	CHEBI:41774	9-18
+raloxifene	CHEBI:8772	22-32
+breast cancer	DOID:1612	37-50
+Radiotherapy:	Eligibility	54
+radiotherapy	OAE:0000235	0-12
+No prior radiotherapy for breast cancer except primary irradiation	Eligibility	55
+radiotherapy	OAE:0000235	9-21
+breast cancer	DOID:1612	26-39
+Surgery:	Eligibility	56
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	57
+disease	DOID:4,OGMS:0000031	4-11
+Other:	Eligibility	58
+No prior preventative therapy for breast cancer	Eligibility	59
+breast cancer	DOID:1612	34-47
+Outcome Measurement:	Results	0
+Disease-free Survival	Results	1
+Estimated percentage of patients alive and disease-free at 5 years from randomization, where disease-free survival is defined as the time from randomization to the first appearance of one of the following: invasive breast cancer recurrence at local, regional, or distant site, invasive contralateral breast cancer, second (non-breast) invasive cancer, or death without cancer event; or censored at date of last follow-up.	Results	2
+time	PATO:0000165	133-137
+breast cancer	DOID:1612	215-228
+breast cancer	DOID:1612	300-313
+site	BFO:0000029	271-275
+second	UO:0000010	315-321
+cancer	DOID:162	222-228
+cancer	DOID:162	307-313
+cancer	DOID:162	344-350
+cancer	DOID:162	369-375
+death	OAE:0000632	355-360
+Time frame: 5-year estimates, reported at a median follow-up of 6.9 years	Results	3
+time	PATO:0000165	0-4
+median	BAO:0002174	44-50
+Results 1:	Results	4
+Arm/Group Title: No-CM	Results	5
+Arm/Group Description: No further chemotherapy following standard adjuvant chemotherapy.	Results	6
+adjuvant	CHEBI:60809	66-74
+Overall Number of Participants Analyzed: 539	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  74.7        (70.6 to 78.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: CM-Maintenance	Results	11
+Arm/Group Description: 12-month CM-maintenance regimen (C, cyclophosphamide 50 mg/day orally continuously and M, methotrexate 2.5 mg twice/day orally days 1 and 2 of every week for 1 year)	Results	12
+cyclophosphamide	CHEBI:4026	59-75
+methotrexate	CHEBI:44185	113-125
+week	UO:0000034	172-176
+year	UO:0000036	183-187
+Cyclophosphamide: 50 mg/day orally continuously for 1 year	Results	13
+cyclophosphamide	CHEBI:4026	0-16
+year	UO:0000036	54-58
+Methotrexate: 2.5 mg twice/day orally days 1 and 2 of every week for 1 year	Results	14
+methotrexate	CHEBI:44185	0-12
+week	UO:0000034	60-64
+year	UO:0000036	71-75
+Overall Number of Participants Analyzed: 542	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of participants  78.1        (74.2 to 81.6)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1
+Leukopenia 0/0	Adverse Events	2
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/0	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Ocular-other 0/0	Adverse Events	4
+Elevated SGPT 0/0	Adverse Events	5
+Arthralgia 0/0	Adverse Events	6
+arthralgia	HP:0002829	0-10
+CNS hemorrhage 0/0	Adverse Events	7
+Neurologic-other 0/0	Adverse Events	8
+Radiation dermatitis 0/0	Adverse Events	9
+dermatitis	DOID:2723	10-20
+Adverse Events 2:	Adverse Events	10
+Total: 11/473 (2.33%)	Adverse Events	11
+Leukopenia 2/473 (0.42%)	Adverse Events	12
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 5/473 (1.06%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	0-11
+Ocular-other 1/473 (0.21%)	Adverse Events	14
+Elevated SGPT 1/473 (0.21%)	Adverse Events	15
+Arthralgia 1/473 (0.21%)	Adverse Events	16
+arthralgia	HP:0002829	0-10
+CNS hemorrhage 1/473 (0.21%)	Adverse Events	17
+Neurologic-other 1/473 (0.21%)	Adverse Events	18
+Radiation dermatitis 1/473 (0.21%)	Adverse Events	19
+dermatitis	DOID:2723	10-20

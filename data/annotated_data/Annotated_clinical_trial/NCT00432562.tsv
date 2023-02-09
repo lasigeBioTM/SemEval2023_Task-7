@@ -1,0 +1,119 @@
+INTERVENTION 1:	Intervention	0
+ANX-530	Intervention	1
+[Not Specified]	Intervention	2
+INTERVENTION 2:	Intervention	3
+Navelbine	Intervention	4
+[Not Specified]	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Age > 18 years.	Eligibility	1
+age	PATO:0000011	0-3
+Advanced cancer potentially sensitive to vinorelbine:	Eligibility	2
+cancer	DOID:162	9-15
+vinorelbine	CHEBI:480999	41-52
+Breast cancer.	Eligibility	3
+breast cancer	DOID:1612	0-13
+Stage 3 or 4 non-small cell lung cancer.	Eligibility	4
+lung cancer	DOID:1324	28-39
+Non-Hodgkins lymphoma.	Eligibility	5
+lymphoma	HP:0002665,DOID:0060058	13-21
+Cancer of other histologic type, sensitive to vinca alkaloids.	Eligibility	6
+cancer	DOID:162	0-6
+Rare tumor type with no standard treatment, for which single agent vinorelbine is appropriate therapy.	Eligibility	7
+vinorelbine	CHEBI:480999	67-78
+Failure of standard treatment(s) of the tumor.	Eligibility	8
+Life expectancy of at least three months.	Eligibility	9
+ECOG performance level 0-2 or Karnofsky score 100-70.	Eligibility	10
+Hematological and serum chemistry results with defined ranges.	Eligibility	11
+Willingness and ability to provide written informed consent.	Eligibility	12
+Exclusion Criteria:	Eligibility	13
+Pregnancy or lactation. In a woman of childbearing potential, a positive pregnancy test result, no pregnancy test result, or no use of reliable contraception, at baseline. A postmenopausal woman will be considered to be of childbearing potential until there has been amenorrhea for at least 12 consecutive months.	Eligibility	14
+lactation	GO:0007595	13-22
+result	BAO:0000179	88-94
+result	BAO:0000179	114-120
+amenorrhea	HP:0000141,DOID:13938	267-277
+Previous treatment with vinorelbine or mitomycin.	Eligibility	15
+vinorelbine	CHEBI:480999	24-35
+mitomycin	CHEBI:25357	39-48
+Any history suggesting or demonstrating resistance to, lack of response to, or intolerance of any prior vinca alkaloid treatment.	Eligibility	16
+history	BFO:0000182	4-11
+vinca alkaloid	CHEBI:27288	104-118
+Active infection.	Eligibility	17
+active	PATO:0002354	0-6
+Prior anticancer therapy completed within four weeks prior to the first day of study treatment.	Eligibility	18
+day	UO:0000033	72-75
+Failure to have recovered from any toxicity of previous cancer treatment (patients with alopecia will not be excluded).	Eligibility	19
+cancer	DOID:162	56-62
+alopecia	HP:0001596,DOID:987	88-96
+excluded	HP:0040285	109-117
+Participation in another experimental drug study within four weeks prior to the first day of study treatment.	Eligibility	20
+drug	CHEBI:23888	38-42
+day	UO:0000033	86-89
+Requirement for any concomitant chemotherapeutic agent other than the study medication.	Eligibility	21
+Any investigator judgment that the individual would not be an appropriate study subject.	Eligibility	22
+Outcome Measurement:	Results	0
+Time to Reach Maximum Observed Plasma Concentration (Tmax)	Results	1
+time	PATO:0000165	0-4
+tmax	BAO:0003037	53-57
+[Not Specified]	Results	2
+Time frame: 0-144 hours post dose	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: ANX-530	Results	5
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 31	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: hours  0.35         (0.13)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Navelbine	Results	11
+Arm/Group Description: [Not Specified]	Results	12
+Overall Number of Participants Analyzed: 31	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: hours  0.34         (0.08)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 5/16 (31.25%)	Adverse Events	1
+ANAEMIA 1/16 (6.25%)	Adverse Events	2
+LEUKOPENIA 1/16 (6.25%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 3/16 (18.75%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+THROMBOCYTOPENIA 1/16 (6.25%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+FEBRILE INFECTION 1/16 (6.25%)	Adverse Events	6
+GENITAL INFECTION FEMALE 1/16 (6.25%)	Adverse Events	7
+female	PATO:0000383	18-24
+PNEUMONIA 1/16 (6.25%)	Adverse Events	8
+pneumonia	HP:0002090,DOID:552	0-9
+CANCER PAIN 1/16 (6.25%)	Adverse Events	9
+cancer	DOID:162	0-6
+pain	HP:0012531	7-11
+STUPOR 1/16 (6.25%)	Adverse Events	10
+COMA 1/16 (6.25%)	Adverse Events	11
+coma	HP:0001259	0-4
+RESPIRATORY FAILURE 1/16 (6.25%)	Adverse Events	12
+respiratory failure	HP:0002878,DOID:11162	0-19
+Adverse Events 2:	Adverse Events	13
+Total: 1/15 (6.67%)	Adverse Events	14
+ANAEMIA 0/15 (0.00%)	Adverse Events	15
+LEUKOPENIA 0/15 (0.00%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 0/15 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+THROMBOCYTOPENIA 0/15 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+FEBRILE INFECTION 1/15 (6.67%)	Adverse Events	19
+GENITAL INFECTION FEMALE 0/15 (0.00%)	Adverse Events	20
+female	PATO:0000383	18-24
+PNEUMONIA 0/15 (0.00%)	Adverse Events	21
+pneumonia	HP:0002090,DOID:552	0-9
+CANCER PAIN 0/15 (0.00%)	Adverse Events	22
+cancer	DOID:162	0-6
+pain	HP:0012531	7-11
+STUPOR 0/15 (0.00%)	Adverse Events	23
+COMA 0/15 (0.00%)	Adverse Events	24
+coma	HP:0001259	0-4
+RESPIRATORY FAILURE 0/15 (0.00%)	Adverse Events	25
+respiratory failure	HP:0002878,DOID:11162	0-19

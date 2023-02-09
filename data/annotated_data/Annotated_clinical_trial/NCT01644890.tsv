@@ -1,0 +1,91 @@
+INTERVENTION 1:	Intervention	0
+NK105	Intervention	1
+received NK105 (65 mg/m^2) on days 1, 8 and 15 of a 28-day cycle	Intervention	2
+INTERVENTION 2:	Intervention	3
+Paclitaxel	Intervention	4
+paclitaxel	CHEBI:45863	0-10
+received Paclitaxel (80 mg/m^2) on days 1, 8 and 15 of a 28-day cycle	Intervention	5
+paclitaxel	CHEBI:45863	9-19
+Inclusion Criteria:	Eligibility	0
+Written informed consent of the patient signed by herself.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	32-39
+Histologically confirmed metastatic or recurrent adenocarcinoma of the breast.	Eligibility	2
+recurrent	HP:0031796	39-48
+adenocarcinoma	DOID:299	49-63
+breast	UBERON:0000310	71-77
+Aged 20 to 74 at the time of informed consent.	Eligibility	3
+time	PATO:0000165	21-25
+Exclusion Criteria:	Eligibility	4
+Prior systemic chemotherapy with taxane anticancer drugs for metastatic or recurrent breast cancer.	Eligibility	5
+taxane	CHEBI:36064	33-39
+recurrent	HP:0031796	75-84
+breast cancer	DOID:1612	85-98
+Outcome Measurement:	Results	0
+Progression Free Survival	Results	1
+PFS is defined as the period from the day of randomization until the first observation of lesion progression or death from any cause. Disease progression is defined as PD according to RECIST Ver. 1.1.	Results	2
+day	UO:0000033	38-41
+death	OAE:0000632	112-117
+disease	DOID:4,OGMS:0000031	134-141
+Assessment period was from the day of randomisation until the first observation of lesion progression or death	Results	3
+day	UO:0000033	31-34
+death	OAE:0000632	105-110
+Time frame: Baseline, every 6 weeks of study treatment period, and end of study,	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: NK105	Results	6
+Arm/Group Description: received NK105 (65 mg/m^2) on days 1, 8 and 15 of a 28-day cycle	Results	7
+Overall Number of Participants Analyzed: 211	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: months  8.4        (7.0 to 9.9)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Paclitaxel	Results	12
+paclitaxel	CHEBI:45863	17-27
+Arm/Group Description: received Paclitaxel (80 mg/m^2) on days 1, 8 and 15 of a 28-day cycle	Results	13
+paclitaxel	CHEBI:45863	32-42
+Overall Number of Participants Analyzed: 211	Results	14
+Median (95% Confidence Interval)	Results	15
+median	BAO:0002174	0-6
+Unit of Measure: months  8.5        (6.9 to 11.5)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 34/214 (15.89%)	Adverse Events	1
+Leukocytosis 0/214 (0.00%)	Adverse Events	2
+leukocytosis	HP:0001974	0-12
+Atrial fibrillation 0/214 (0.00%)	Adverse Events	3
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 0/214 (0.00%)	Adverse Events	4
+Pericardial effusion 1/214 (0.47%)	Adverse Events	5
+pericardial effusion	HP:0001698,DOID:118	0-20
+Cataract 0/214 (0.00%)	Adverse Events	6
+cataract	HP:0000518,DOID:83	0-8
+Macular fibrosis 0/214 (0.00%)	Adverse Events	7
+Constipation 2/214 (0.93%)	Adverse Events	8
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 2/214 (0.93%)	Adverse Events	9
+Enterocolitis 0/214 (0.00%)	Adverse Events	10
+enterocolitis	HP:0004387	0-13
+Ileus 1/214 (0.47%)	Adverse Events	11
+ileus	HP:0002595,DOID:8440	0-5
+Nausea 3/214 (1.40%)	Adverse Events	12
+nausea	HP:0002018	0-6
+Adverse Events 2:	Adverse Events	13
+Total: 27/213 (12.68%)	Adverse Events	14
+Leukocytosis 1/213 (0.47%)	Adverse Events	15
+leukocytosis	HP:0001974	0-12
+Atrial fibrillation 1/213 (0.47%)	Adverse Events	16
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure congestive 1/213 (0.47%)	Adverse Events	17
+Pericardial effusion 0/213 (0.00%)	Adverse Events	18
+pericardial effusion	HP:0001698,DOID:118	0-20
+Cataract 1/213 (0.47%)	Adverse Events	19
+cataract	HP:0000518,DOID:83	0-8
+Macular fibrosis 1/213 (0.47%)	Adverse Events	20
+Constipation 1/213 (0.47%)	Adverse Events	21
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 1/213 (0.47%)	Adverse Events	22
+Enterocolitis 1/213 (0.47%)	Adverse Events	23
+enterocolitis	HP:0004387	0-13
+Ileus 0/213 (0.00%)	Adverse Events	24
+ileus	HP:0002595,DOID:8440	0-5
+Nausea 0/213 (0.00%)	Adverse Events	25
+nausea	HP:0002018	0-6

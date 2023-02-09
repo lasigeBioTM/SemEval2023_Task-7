@@ -1,0 +1,139 @@
+INTERVENTION 1:	Intervention	0
+Everolimus + Vinorelbine + Trastuzumab	Intervention	1
+everolimus	CHEBI:68478	0-10
+vinorelbine	CHEBI:480999	13-24
+Oral everolimus (5 mg/day) + intravenous vinorelbine (25 mg/m2 weekly) + intravenous trastuzumab (2 mg/kg weekly following a 4 mg/kg loading dose on Day 1 of Cycle 1 only)	Intervention	2
+everolimus	CHEBI:68478	5-15
+vinorelbine	CHEBI:480999	41-52
+day	UO:0000033	22-25
+day	UO:0000033	149-152
+INTERVENTION 2:	Intervention	3
+Placebo + Vinorelbine + Trastuzumab	Intervention	4
+vinorelbine	CHEBI:480999	10-21
+Oral daily matching placebo + intravenous vinorelbine (25 mg/m2 weekly) + intravenous trastuzumab (2 mg/kg weekly following a 4 mg/kg loading dose on Day 1 of Cycle 1 only)	Intervention	5
+vinorelbine	CHEBI:480999	42-53
+day	UO:0000033	150-153
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed invasive breast carcinoma with locally recurrent or radiological evidence of metastatic disease. Locally recurrent disease must not be amenable to resection with curative intent.	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	51-67
+recurrent	HP:0031796	81-90
+recurrent	HP:0031796	147-156
+disease	DOID:4,OGMS:0000031	130-137
+disease	DOID:4,OGMS:0000031	157-164
+HER2+ status defined as IHC 3+ staining or in situ hybridization positive	Eligibility	2
+Patients with resistance to trastuzumab	Eligibility	3
+Prior taxane therapy	Eligibility	4
+taxane	CHEBI:36064	6-12
+Patients with an ECOG performance status of 0 - 2	Eligibility	5
+Patients with measurable disease as per RECIST criteria	Eligibility	6
+disease	DOID:4,OGMS:0000031	25-32
+Documentation of negative pregnancy test for patients of child bearing potential prior to enrollment within 7 days prior to randomization. Sexually active pre-menopausal women must use adequate contraceptive measures, excluding estrogen containing contraceptives, while on study;	Eligibility	7
+active	PATO:0002354	148-154
+estrogen	CHEBI:50114,BAO:0000760	228-236
+Patients must meet laboratory criteria defined in the study within 21 days prior to randomization	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Prior mTOR inhibitors or vinca alkaloid agents for the treatment of cancer	Eligibility	10
+vinca alkaloid	CHEBI:27288	25-39
+cancer	DOID:162	68-74
+More than three prior chemotherapy lines for advanced disease.	Eligibility	11
+disease	DOID:4,OGMS:0000031	54-61
+Symptomatic CNS metastases or evidence of leptomeningeal disease. Previously treated asymptomatic CNS metastases are allowed provided that the last treatment for CNS metastases was completed >8 weeks prior to randomization	Eligibility	12
+disease	DOID:4,OGMS:0000031	57-64
+Impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of oral everolimus	Eligibility	13
+function	BAO:0003117,BFO:0000034	36-44
+disease	DOID:4,OGMS:0000031	51-58
+everolimus	CHEBI:68478	111-121
+Peripheral neuropathy  grade 2 at randomization	Eligibility	14
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Active cardiac disease	Eligibility	15
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	15-22
+History of cardiac dysfunction	Eligibility	16
+history	BFO:0000182	0-7
+Any malignancy within 5 years prior to randomization, with the exception of adequately treated in-situ carcinoma of the cervix uteri, basal or squamous cell carcinoma or non-melanomatous skin cancer	Eligibility	17
+carcinoma	HP:0030731,DOID:305	103-112
+carcinoma	HP:0030731,DOID:305	157-166
+squamous cell carcinoma	HP:0002860,DOID:1749	143-166
+skin cancer	DOID:4159	187-198
+Known hypersensitivity to any study medication	Eligibility	18
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Breastfeeding or pregnant	Eligibility	19
+Outcome Measurement:	Results	0
+Progressive-free Survival (PFS) Per Investigator Assessment	Results	1
+PFS was defined as the time from the date of randomization to the date of first radiologically documented tumor progression or death from any cause, whichever occurs first. PFS primary analysis performed when 415 events were reached. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.	Results	2
+time	PATO:0000165	23-27
+death	OAE:0000632	127-132
+increase	BAO:0001251	341-349
+increase	BAO:0001251	420-428
+diameter	PATO:0001334	376-384
+target	BAO:0003064	388-394
+target	BAO:0003064	438-444
+Time frame: Every 6 weeks until disease progression or death which ever occurred first up to about 41 months	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	32-39
+death	OAE:0000632	55-60
+Results 1:	Results	4
+Arm/Group Title: Everolimus + Vinorelbine + Trastuzumab	Results	5
+everolimus	CHEBI:68478	17-27
+vinorelbine	CHEBI:480999	30-41
+Arm/Group Description: Oral everolimus (5 mg/day) + intravenous vinorelbine (25 mg/m2 weekly) + intravenous trastuzumab (2 mg/kg weekly following a 4 mg/kg loading dose on Day 1 of Cycle 1 only)	Results	6
+everolimus	CHEBI:68478	28-38
+vinorelbine	CHEBI:480999	64-75
+day	UO:0000033	45-48
+day	UO:0000033	172-175
+Overall Number of Participants Analyzed: 284	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  7.00        (6.74 to 8.18)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo + Vinorelbine + Trastuzumab	Results	11
+vinorelbine	CHEBI:480999	27-38
+Arm/Group Description: Oral daily matching placebo + intravenous vinorelbine (25 mg/m2 weekly) + intravenous trastuzumab (2 mg/kg weekly following a 4 mg/kg loading dose on Day 1 of Cycle 1 only)	Results	12
+vinorelbine	CHEBI:480999	65-76
+day	UO:0000033	173-176
+Overall Number of Participants Analyzed: 285	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  5.78        (5.49 to 6.90)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 122/280 (43.57%)	Adverse Events	1
+Agranulocytosis 0/280 (0.00%)	Adverse Events	2
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Anaemia 10/280 (3.57%)	Adverse Events	3
+Febrile neutropenia 30/280 (10.71%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Immune thrombocytopenic purpura 1/280 (0.36%)	Adverse Events	5
+purpura	HP:0000979,DOID:3326	24-31
+Leukopenia 3/280 (1.07%)	Adverse Events	6
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 12/280 (4.29%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 4/280 (1.43%)	Adverse Events	8
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 1/280 (0.36%)	Adverse Events	9
+acute myocardial infarction	DOID:9408	0-27
+Cardiac failure 1/280 (0.36%)	Adverse Events	10
+Cataract 2/280 (0.71%)	Adverse Events	11
+cataract	HP:0000518,DOID:83	0-8
+Adverse Events 2:	Adverse Events	12
+Total: 58/282 (20.57%)	Adverse Events	13
+Agranulocytosis 1/282 (0.35%)	Adverse Events	14
+agranulocytosis	HP:0012234,DOID:12987	0-15
+Anaemia 2/282 (0.71%)	Adverse Events	15
+Febrile neutropenia 4/282 (1.42%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Immune thrombocytopenic purpura 0/282 (0.00%)	Adverse Events	17
+purpura	HP:0000979,DOID:3326	24-31
+Leukopenia 0/282 (0.00%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 3/282 (1.06%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/282 (0.35%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 0/282 (0.00%)	Adverse Events	21
+acute myocardial infarction	DOID:9408	0-27
+Cardiac failure 0/282 (0.00%)	Adverse Events	22
+Cataract 1/282 (0.35%)	Adverse Events	23
+cataract	HP:0000518,DOID:83	0-8
+Cataract subcapsular 1/282 (0.35%)	Adverse Events	24
+cataract	HP:0000518,DOID:83	0-8

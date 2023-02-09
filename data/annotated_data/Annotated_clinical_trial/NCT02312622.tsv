@@ -1,0 +1,261 @@
+INTERVENTION 1:	Intervention	0
+Cohort A - Pegylated Irinotecan to Treat NSCLC	Intervention	1
+irinotecan	CHEBI:80630	21-31
+Patients with non-small cell lung carinoma (NSCLC) will receive pegylated irinotecan intravenously (IV) over 90 minutes every 21 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+lung	UBERON:0002048	29-33
+irinotecan	CHEBI:80630	74-84
+disease	DOID:4,OGMS:0000031	152-159
+Pegylated Irinotecan: Administered intravenously (IV) at 145 mg/m² as monotherapy once every 21 days (1 cycle)	Intervention	3
+irinotecan	CHEBI:80630	10-20
+INTERVENTION 2:	Intervention	4
+Cohort C - Pegylated Irinotecan to Treat mBC	Intervention	5
+irinotecan	CHEBI:80630	21-31
+Patients with metastatic breast cancer (MBC) to brain will receive pegylated irinotecan intravenously (IV) over 90 minutes every 21 days in the absence of disease progression or unacceptable toxicity.	Intervention	6
+breast cancer	DOID:1612	25-38
+brain	UBERON:0000955	48-53
+irinotecan	CHEBI:80630	77-87
+disease	DOID:4,OGMS:0000031	155-162
+Pegylated Irinotecan: Administered intravenously (IV) at 145 mg/m² as monotherapy once every 21 days (1 cycle)	Intervention	7
+irinotecan	CHEBI:80630	10-20
+Inclusion Criteria:	Eligibility	0
+At least 18 years of age.	Eligibility	1
+age	PATO:0000011	21-24
+Life expectancy of 3 months or longer.	Eligibility	2
+Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1, or 2.	Eligibility	3
+group	CHEBI:24433	29-34
+Advanced or refractory cancer, consisting of	Eligibility	4
+refractory	HP:0031375	12-22
+cancer	DOID:162	23-29
+Metastatic breast cancer (mBC) for which single-agent cytotoxic chemotherapy is indicated. OR	Eligibility	5
+breast cancer	DOID:1612	11-24
+Histologically-proven metastatic lung cancer:	Eligibility	6
+lung cancer	DOID:1324	33-44
+Non-small cell lung cancer (NSCLC) as Stage IV disease or recurrent metastatic disease [per lung cancer tumor, node and metastasis (TNM) classification system, 7th ed] (Cohort A) OR	Eligibility	7
+lung cancer	DOID:1324	15-26
+lung cancer	DOID:1324	92-103
+disease	DOID:4,OGMS:0000031	47-54
+disease	DOID:4,OGMS:0000031	79-86
+recurrent	HP:0031796	58-67
+ed	BAO:0001241	164-166
+Small cell lung cancer (SCLC) as extensive stage or recurrent metastatic disease (cohort B), including tumors with mixed small cell and non-small cell elements.	Eligibility	8
+lung cancer	DOID:1324	11-22
+recurrent	HP:0031796	52-61
+disease	DOID:4,OGMS:0000031	73-80
+mixed	BAO:0002107	115-120
+Prior chemotherapy (at least one of the following):	Eligibility	9
+At least one line of prior systemic chemotherapy	Eligibility	10
+At least one line of prior targeted treatment for metastatic disease Adjuvant systemic chemotherapy within prior 6 months Prior treatment for metastatic breast cancer (mBC) must have included taxane-based regimen	Eligibility	11
+disease	DOID:4,OGMS:0000031	61-68
+adjuvant	CHEBI:60809	69-77
+breast cancer	DOID:1612	153-166
+Prior chemotherapy, including other investigational therapy, has been completed prior to initiation of study treatment, according to the following:	Eligibility	12
+2 weeks if immediately preceding treatment was chemotherapy/targeted therapy administered on a daily or weekly schedule	Eligibility	13
+3 weeks if immediately preceding treatment was chemotherapy/targeted therapy administered every 2 weeks	Eligibility	14
+4 weeks if immediately preceding treatment was chemotherapy/targeted therapy administered every 3 weeks Previously received at least one CNS directed treatment (such as surgery or radiation) OR not be eligible for CNS stereotactic radiosurgery Measurable CNS disease, either previously untreated (not counting systemic therapy), or progressed following previous radiation treatment. Lesions that have progressed after prior radiosurgery should not be selected as measurable disease if they are suspected of being radionecrosis.	Eligibility	15
+surgery	OAE:0000067	169-176
+surgery	OAE:0000067	236-243
+surgery	OAE:0000067	429-436
+disease	DOID:4,OGMS:0000031	259-266
+disease	DOID:4,OGMS:0000031	474-481
+The following measurement criteria are required, as visualized by contrast-enhanced MRI with slice thickness of  1.5 mm, unless absence of contrast or thicker slices is specifically authorized by Protocol Director. Measurements do not include tumor edema.	Eligibility	16
+edema	HP:0000969	249-254
+At least one CNS tumor measuring  10 mm in longest diameter, OR	Eligibility	17
+diameter	PATO:0001334	51-59
+At least one CNS tumor measuring 5-9 mm in longest diameter, plus one or two additional CNS tumors measuring  3 mm in longest diameter, for which the sum of the longest diameters is  10 mm. Additional tumors are not exclusionary.	Eligibility	18
+diameter	PATO:0001334	51-59
+diameter	PATO:0001334	126-134
+diameter	PATO:0001334	169-177
+Adequate organ function as evidenced by:	Eligibility	19
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Absolute neutrophil count (ANC)  1.5 x 10e9/L without G-CSF (filgrastim, pegfilgrastim, or equivalent) support within 7 days	Eligibility	20
+x	LABO:0000148	37-38
+Hemoglobin (Hgb)  9.0 g/dL (90 g/L) without blood transfusion within 7 days	Eligibility	21
+hemoglobin	CHEBI:35143	0-10
+blood	UBERON:0000178	44-49
+Platelet count  100 x 10e9/L without platelet transfusion within 7 days	Eligibility	22
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	20-21
+Bilirubin  1.5 X upper limit of normal (ULN), except for patients with documented history of Gilbert's disease who may have DIRECT bilirubin  1.5 X ULN	Eligibility	23
+x	LABO:0000148	15-16
+x	LABO:0000148	47-48
+x	LABO:0000148	146-147
+history	BFO:0000182	82-89
+disease	DOID:4,OGMS:0000031	103-110
+Alanine aminotransferase (ALT)  2.5 X ULN, except  5 X ULN for patients with liver metastases	Eligibility	24
+alanine	CHEBI:16449	0-7
+x	LABO:0000148	36-37
+x	LABO:0000148	44-45
+x	LABO:0000148	53-54
+liver	UBERON:0002107	77-82
+Aspartate aminotransferase (AST)  2.5 X ULN, except  5 X ULN for patients with liver metastases	Eligibility	25
+aspartate	CHEBI:29995	0-9
+x	LABO:0000148	38-39
+x	LABO:0000148	46-47
+x	LABO:0000148	55-56
+liver	UBERON:0002107	79-84
+Serum creatinine  1.5 X ULN; or calculated creatinine clearance  50 mL/min (using Cockcroft-Gault formula), or measured creatinine clearance  50 mL/min.	Eligibility	26
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	43-53
+creatinine	CHEBI:16737	120-130
+x	LABO:0000148	22-23
+creatinine clearance	CMO:0000765	43-63
+creatinine clearance	CMO:0000765	120-140
+Exclusion Criteria:	Eligibility	27
+Previous treatment with a camptothecin derivative (eg, irinotecan, topotecan, and investigational agents including but not limited to exatecan, rubitecan, gimatecan, karenitecin, SN38 investigational agents, EZN 2208, SN 2310, and AR 67) is not allowed	Eligibility	28
+camptothecin	CHEBI:27656	26-38
+irinotecan	CHEBI:80630	55-65
+topotecan	CHEBI:63632	67-76
+exatecan	CHEBI:135709	134-142
+rubitecan	CHEBI:90225	144-153
+Patients may not have a known history of leptomeningeal disease, as diagnosed by positive CSF cytology, unless prospective permission for enrollment is granted from the sponsor and the PI	Eligibility	29
+history	BFO:0000182	30-37
+disease	DOID:4,OGMS:0000031	56-63
+Patients may not have had major surgery or radiotherapy (therapeutic and/or palliative) within 14 days prior to initiation of study treatment, including CNS-directed radiation therapy. Minor procedures, such as tumor biopsy, thoracentesis, or intravenous catheter placement are allowed with no waiting period	Eligibility	30
+surgery	OAE:0000067	32-39
+radiotherapy	OAE:0000235	43-55
+Patients may not have the following co morbid disease or concurrent illness:	Eligibility	31
+disease	DOID:4,OGMS:0000031	46-53
+Chronic or acute gastrointestinal (GI) disorders resulting in diarrhea of any severity grade; patients may not use chronic anti-diarrheal supportive care (more than 3 days/week) to control diarrhea in the 28 days prior to first dose of investigational drug. (exception: anti-diarrheal medications used to control symptoms from a medication that will be discontinued prior to study are allowed with a 7 day washout before study therapy, for example loperamide for erlotinib-associated diarrhea)	Eligibility	32
+chronic	HP:0011010	0-7
+chronic	HP:0011010	115-122
+acute	HP:0011009,PATO:0000389	11-16
+diarrhea	HP:0002014,DOID:13250	62-70
+diarrhea	HP:0002014,DOID:13250	128-136
+diarrhea	HP:0002014,DOID:13250	189-197
+diarrhea	HP:0002014,DOID:13250	275-283
+diarrhea	HP:0002014,DOID:13250	484-492
+severity	HP:0012824	78-86
+drug	CHEBI:23888	252-256
+day	UO:0000033	167-170
+day	UO:0000033	208-211
+day	UO:0000033	402-405
+loperamide	CHEBI:6532	448-458
+Known cirrhosis, defined as Child Pugh class A or higher liver disease	Eligibility	33
+cirrhosis	HP:0001394	6-15
+liver disease	DOID:409	57-70
+Other active malignancy, except for non melanoma skin cancer and carcinoma in situ (of the cervix or bladder)	Eligibility	34
+active	PATO:0002354	6-12
+melanoma	HP:0002861,DOID:1909	40-48
+skin cancer	DOID:4159	49-60
+carcinoma	HP:0030731,DOID:305	65-74
+Any other severe/uncontrolled inter current illness or significant co morbid conditions that in the opinion of the investigator would impair study participation or cooperation	Eligibility	35
+Patients may not have a known allergy or hypersensitivity to any of the components of the investigational therapy, including polyethylene glycol (PEG) or topoisomerase inhibitors	Eligibility	36
+allergy	HP:0012393	30-37
+hypersensitivity	GO:0002524,DOID:1205	41-57
+glycol	CHEBI:13643	138-144
+Patients may not be receiving the following medications at the time of first dose of investigational drug:	Eligibility	37
+time	PATO:0000165	63-67
+drug	CHEBI:23888	101-105
+Pharmacotherapy for known hepatitis B or C, tuberculosis, or human immunodeficiency virus (HIV)	Eligibility	38
+hepatitis b	DOID:2043	26-37
+tuberculosis	DOID:399	44-56
+immunodeficiency	HP:0002721	67-83
+virus	BAO:0000232	84-89
+Any of the following enzyme inducing anti epileptic medications (EIAEDs): phenytoin, carbamazepine, oxcarbazepine, phenobarbital	Eligibility	39
+enzyme	BAO:0000279	21-27
+phenytoin	CHEBI:8107	74-83
+carbamazepine	CHEBI:3387	85-98
+oxcarbazepine	CHEBI:7824	100-113
+phenobarbital	CHEBI:8069	115-128
+Other chemotherapy, hormonal therapy, immunotherapy, other investigational agents, or biologic agents for the treatment of cancer except for bisphosphonates or denosumab	Eligibility	40
+cancer	DOID:162	123-129
+Pregnant or nursing patients will be excluded from the study	Eligibility	41
+excluded	HP:0040285	37-45
+Outcome Measurement:	Results	0
+Central Nervous System (CNS) Disease Control Rate (Cohort A and C)	Results	1
+central nervous system	UBERON:0001017	0-22
+disease	DOID:4,OGMS:0000031	29-36
+rate	BAO:0080019	45-49
+Central nervous system (CNS) disease control (DC) is defined as a complete response (CR); partial response (PR); or stable disease (SD). The outcome is reported as the number and percentage of participants who achieve DC, a number without dispersion.	Results	2
+central nervous system	UBERON:0001017	0-22
+disease	DOID:4,OGMS:0000031	29-36
+disease	DOID:4,OGMS:0000031	123-130
+stable	HP:0031915	116-122
+Response criteria are as follows. Note that any lesion less than 10 mm in longest diameter (LD) is considered unchanged unless there is a  3 mm change in the sum of the LDs.	Results	3
+diameter	PATO:0001334	82-90
+CR = Disappearance of all target lesions, sustained for  4 weeks with no new lesions; clinical condition stable or improved	Results	4
+target	BAO:0003064	26-32
+condition	PDRO:0000129	95-104
+stable	HP:0031915	105-111
+PR =  30% decrease in target lesion LD and no new lesions, sustained for  4 weeks; clinical condition stable or improved	Results	5
+target	BAO:0003064	22-28
+condition	PDRO:0000129	92-101
+stable	HP:0031915	102-108
+PD (progressive disease) = Any of 20% increase in target lesion LD; increase in T2/FLAIR non-enhancing lesions; any new lesions; non-target progression; or clinical deterioration	Results	6
+progressive	HP:0003676	4-15
+disease	DOID:4,OGMS:0000031	16-23
+increase	BAO:0001251	38-46
+increase	BAO:0001251	68-76
+target	BAO:0003064	50-56
+target	BAO:0003064	133-139
+SD = Neither PR or PD	Results	7
+Time frame: At 12 weeks	Results	8
+time	PATO:0000165	0-4
+Results 1:	Results	9
+Arm/Group Title: Cohort A - Pegylated Irinotecan to Treat NSCLC	Results	10
+irinotecan	CHEBI:80630	38-48
+Arm/Group Description: Patients with non-small cell lung carinoma (NSCLC) will receive pegylated irinotecan intravenously (IV) over 90 minutes every 21 days in the absence of disease progression or unacceptable toxicity.	Results	11
+lung	UBERON:0002048	52-56
+irinotecan	CHEBI:80630	97-107
+disease	DOID:4,OGMS:0000031	175-182
+Pegylated Irinotecan: Administered intravenously (IV) at 145 mg/m  as monotherapy once every 21 days (1 cycle)	Results	12
+irinotecan	CHEBI:80630	10-20
+Overall Number of Participants Analyzed: 12	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  2  16.7%	Results	15
+Results 2:	Results	16
+Arm/Group Title: Cohort C - Pegylated Irinotecan to Treat mBC	Results	17
+irinotecan	CHEBI:80630	38-48
+Arm/Group Description: Patients with metastatic breast cancer (MBC) to brain will receive pegylated irinotecan intravenously (IV) over 90 minutes every 21 days in the absence of disease progression or unacceptable toxicity.	Results	18
+breast cancer	DOID:1612	48-61
+brain	UBERON:0000955	71-76
+irinotecan	CHEBI:80630	100-110
+disease	DOID:4,OGMS:0000031	178-185
+Pegylated Irinotecan: Administered intravenously (IV) at 145 mg/m  as monotherapy once every 21 days (1 cycle)	Results	19
+irinotecan	CHEBI:80630	10-20
+Overall Number of Participants Analyzed: 12	Results	20
+Measure Type: Count of Participants	Results	21
+Unit of Measure: Participants  2  16.7%	Results	22
+Adverse Events 1:	Adverse Events	0
+Total: 12/12 (100.00%)	Adverse Events	1
+Febrile neutropenia 0/12 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Pericardial tamponade 1/12 (8.33%)	Adverse Events	3
+Pericardial Effusion 1/12 (8.33%)	Adverse Events	4
+pericardial effusion	HP:0001698,DOID:118	0-20
+Diarrhea 0/12 (0.00%)	Adverse Events	5
+diarrhea	HP:0002014,DOID:13250	0-8
+Non-cardiac chest pain 1/12 (8.33%)	Adverse Events	6
+chest pain	HP:0100749	12-22
+Sepsis 0/12 (0.00%)	Adverse Events	7
+sepsis	HP:0100806	0-6
+Respiratory infection 1/12 (8.33%)	Adverse Events	8
+Septic Shock 0/12 (0.00%)	Adverse Events	9
+shock	HP:0031273	7-12
+Spinal fracture 0/12 (0.00%)	Adverse Events	10
+Dehydration 2/12 (16.67%)	Adverse Events	11
+dehydration	HP:0001944	0-11
+Disease progression 1/12 (8.33%)	Adverse Events	12
+disease	DOID:4,OGMS:0000031	0-7
+Adverse Events 2:	Adverse Events	13
+Total: 3/3 (100.00%)	Adverse Events	14
+Febrile neutropenia 2/3 (66.67%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Pericardial tamponade 0/3 (0.00%)	Adverse Events	16
+Pericardial Effusion 0/3 (0.00%)	Adverse Events	17
+pericardial effusion	HP:0001698,DOID:118	0-20
+Diarrhea 1/3 (33.33%)	Adverse Events	18
+diarrhea	HP:0002014,DOID:13250	0-8
+Non-cardiac chest pain 0/3 (0.00%)	Adverse Events	19
+chest pain	HP:0100749	12-22
+Sepsis 1/3 (33.33%)	Adverse Events	20
+sepsis	HP:0100806	0-6
+Respiratory infection 0/3 (0.00%)	Adverse Events	21
+Septic Shock 1/3 (33.33%)	Adverse Events	22
+shock	HP:0031273	7-12
+Spinal fracture 0/3 (0.00%)	Adverse Events	23
+Dehydration 1/3 (33.33%)	Adverse Events	24
+dehydration	HP:0001944	0-11
+Disease progression 0/3 (0.00%)	Adverse Events	25
+disease	DOID:4,OGMS:0000031	0-7

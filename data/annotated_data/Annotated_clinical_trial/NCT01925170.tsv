@@ -1,0 +1,56 @@
+INTERVENTION 1:	Intervention	0
+Mammography Only	Intervention	1
+For this reporting arm, the interpretation and analysis was done with mammography only.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Mammography With Adjunct MBI	Intervention	4
+For this reporting arm, the interpretation and analysis was done with both mammography and MBI together.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Past prior SM interpreted as negative or benign [Breast Imaging Reporting and Data System (BI-RADS) Category 1 or 2]	Eligibility	1
+breast	UBERON:0000310	49-55
+Past prior SM interpreted as heterogeneously dense or extremely dense	Eligibility	2
+Exclusion Criteria:	Eligibility	3
+Subject is unable to understand and sign the consent form	Eligibility	4
+Subject is pregnant or lactating	Eligibility	5
+Subject is physically unable to sit upright and still for 40 minutes	Eligibility	6
+Subject has self-reported signs or symptoms of breast cancer (palpable mass, bloody nipple discharge, axillary mass, etc.)	Eligibility	7
+breast cancer	DOID:1612	47-60
+Subject has had needle biopsy within 3 months, or breast surgery within 1 year prior to the study	Eligibility	8
+breast	UBERON:0000310	50-56
+surgery	OAE:0000067	57-64
+year	UO:0000036	74-78
+Subject is currently taking tamoxifen, Evista (raloxifene), Zoladex or an aromatase inhibitor for adjuvant therapy or chemoprevention.	Eligibility	9
+tamoxifen	CHEBI:41774	28-37
+raloxifene	CHEBI:8772	47-57
+inhibitor	CHEBI:35222	84-93
+adjuvant	CHEBI:60809	98-106
+Outcome Measurement:	Results	0
+Cancer Detection Rate Per 1000 Women Screened, by Breast Density	Results	1
+cancer	DOID:162	0-6
+rate	BAO:0080019	17-21
+breast	UBERON:0000310	50-56
+The cancer detection rate per 1000 women screened is the estimate of the number of women with positive results from a screening test.	Results	2
+cancer	DOID:162	4-10
+rate	BAO:0080019	21-25
+Time frame: Within 21 days of mammography	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Mammography Only	Results	5
+Arm/Group Description: For this reporting arm, the interpretation and analysis was done with mammography only.	Results	6
+Overall Number of Participants Analyzed: 1585	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: cancers per 1000 women screened  All densities: 3.2        (1.3 to 7.4)	Results	9
+Scattered fibroglandular densities: 0        (0 to 26.2)	Results	10
+Heterogeneously dense: 3.3        (1.3 to 8.4)	Results	11
+Extremely dense: 4.5        (0.2 to 25.2)	Results	12
+Results 2:	Results	13
+Arm/Group Title: Mammography With Adjunct MBI	Results	14
+Arm/Group Description: For this reporting arm, the interpretation and analysis was done with both mammography and MBI together.	Results	15
+Overall Number of Participants Analyzed: 1585	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: cancers per 1000 women screened  All densities: 12.0        (7.7 to 18.6)	Results	18
+Scattered fibroglandular densities: 21.0        (7.2 to 59.9)	Results	19
+Heterogeneously dense: 10.6        (6.2 to 18.1)	Results	20
+Extremely dense: 13.6        (4.6 to 39.1)	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 0/1585 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

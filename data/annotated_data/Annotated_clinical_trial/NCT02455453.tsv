@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+Diagnostic FFNP-PET/CT Scan	Intervention	1
+(2) 18F-FFNP-PET/CT scans	Intervention	2
+First one prior to estradiol challenge test	Intervention	3
+estradiol	CHEBI:23965	19-28
+Second one immediately following one day of estradiol challenge test	Intervention	4
+second	UO:0000010	0-6
+day	UO:0000033	37-40
+estradiol	CHEBI:23965	44-53
+(1) FDG-PET/CT scan at screening	Intervention	5
+The estradiol challenge test will consist of administering a total of 6 mg of estradiol dosed orally as three 2 mg tablets with each tablet being administered approximately 8 hours apart and within a 24 hour period. This estradiol medication will be provided to the patient by the study.	Intervention	6
+estradiol	CHEBI:23965	4-13
+estradiol	CHEBI:23965	78-87
+estradiol	CHEBI:23965	221-230
+hour	UO:0000032	175-179
+hour	UO:0000032	203-207
+patient	HADO:0000008,OAE:0001817	266-273
+Inclusion Criteria:	Eligibility	0
+Patient must be postmenopausal defined as meeting one or more of the following:	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+Age  60 years	Eligibility	2
+age	PATO:0000011	0-3
+Amenorrheic for at least 12 months	Eligibility	3
+Surgically sterile- having undergone bilateral oophorectomy,	Eligibility	4
+bilateral	HP:0012832	37-46
+FSH level in postmenopausal range according to institutional standards (note follicle-stimulating hormone (FSH) laboratory testing must be ordered as standard of care to determine optimal treatment and should not be ordered simply to confirm eligibility to this study)	Eligibility	5
+range	LABO:0000114	28-33
+hormone	CHEBI:24621	98-105
+OR Pre-menopausal for whom standard estradiol treatment (ET) is planned with ovarian suppression (imaging on study should be completed prior to start of ovarian suppression)	Eligibility	6
+estradiol	CHEBI:23965	36-45
+Patient must have histological or cytological confirmed breast cancer and fall into one of the following categories:	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	56-69
+New diagnosis with plans for at least 6 months of neoadjuvant ET or any amount of neoadjuvant ET if surgery is planned as this will be used for response assessment .	Eligibility	8
+surgery	OAE:0000067	100-107
+Patients with newly diagnosed metastatic breast cancer or patient with known metastatic disease who has progressed while on therapy (no washout period is needed if the patient was treated with AIs or chemotherapy, but 2 months washout period is needed if the patient was treated with tamoxifen) who are going to be treated with ET.	Eligibility	9
+breast cancer	DOID:1612	41-54
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	58-65
+patient	HADO:0000008,OAE:0001817	168-175
+patient	HADO:0000008,OAE:0001817	259-266
+disease	DOID:4,OGMS:0000031	88-95
+tamoxifen	CHEBI:41774	284-293
+Patient must have any one of the following types of breast cancer (primary or metastatic): ER+/PgR+/HER2- or ER+/PgR-/HER2-.	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	52-65
+ER+ is defined as Allred score of at least 4 and greater.	Eligibility	11
+PgR+ is defined as Allred score of at least 4 and greater.	Eligibility	12
+Immunohistochemistry (IHC) is the primary assay methodology for HER2. HER2- refers to HER2 of 0, 1+ by IHC or negative by fluorescence in situ hybridization (FISH)	Eligibility	13
+immunohistochemistry	BAO:0000415	0-20
+primary assay	BAO:0000031	34-47
+Patient must have at least one measurable lesion according to RECIST 1.1 by radiological evaluation (ultrasound, mammography, MRI, CT, PET) or physical examination.	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+ct	BAO:0002125	131-133
+physical examination	OAE:0004232	143-163
+Patients with evaluable osseous metastasis that are lytic or mixed lytic-sclerotic are eligible.	Eligibility	15
+mixed	BAO:0002107	61-66
+Patients with hepatic lesions may be eligible provided the location of the lesion is peripheral or not too close to hepatic ducts. Decision on hepatic lesion eligibility will be made by the principal investigator or sub-investigator after careful review of all available imaging to ensure evaluation of the lesion will not be obscured by normal hepatobiliary excretion of 18F-FFNP.	Eligibility	16
+peripheral	HP:0030646	85-95
+excretion	GO:0007588	359-368
+Patient must be able to understand and willing to sign a written informed consent document.	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+document	IAO:0000310	82-90
+Prior chemotherapy or endocrine therapy is allowed	Eligibility	18
+The patient must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2 or, based on the judgment of the treating medical oncologist, can tolerate imaging and at least 6 months of ET	Eligibility	19
+patient	HADO:0000008,OAE:0001817	4-11
+group	CHEBI:24433	54-59
+The patient should have a life expectancy of > 6 months.	Eligibility	20
+patient	HADO:0000008,OAE:0001817	4-11
+Exclusion Criteria:	Eligibility	21
+Patient with other invasive malignancies, with the exception of non-melanoma skin cancer or cervical carcinoma in-situ, who had (or have) any evidence of the other cancer present within the last 5 years	Eligibility	22
+patient	HADO:0000008,OAE:0001817	0-7
+skin cancer	DOID:4159	77-88
+carcinoma	HP:0030731,DOID:305	101-110
+cancer	DOID:162	82-88
+cancer	DOID:162	164-170
+present	PATO:0000467	171-178
+Unable to tolerate up to 60 min of PET imaging per imaging session.	Eligibility	23
+Patients with non-measurable non-evaluable lesions such as pleural effusion are not eligible to participate.	Eligibility	24
+pleural effusion	HP:0002202	59-75
+Patients with vertebral lesions that, in the opinion of the Principal Investigator and the treating medical oncologist, pose an imminent risk for cord compression.	Eligibility	25
+Outcome Measurement:	Results	0
+Change in Primary Tumor FFNP Uptake Before and After Estradiol Challenge as Measured by Percent Change in Standardized Uptake Value (SUV)	Results	1
+uptake	GO:0098739,BAO:0001256	29-35
+uptake	GO:0098739,BAO:0001256	119-125
+estradiol	CHEBI:23965	53-62
+percent change	BAO:0001252	88-102
+[Not Specified]	Results	2
+Time frame: Completion of second FFNP-PET/CT scan (up to 4 weeks)	Results	3
+time	PATO:0000165	0-4
+second	UO:0000010	26-32
+Results 1:	Results	4
+Arm/Group Title: Diagnostic FFNP-PET/CT Scan	Results	5
+Arm/Group Description: (2) 18F-FFNP-PET/CT scans	Results	6
+First one prior to estradiol challenge test	Results	7
+estradiol	CHEBI:23965	19-28
+Second one immediately following one day of estradiol challenge test	Results	8
+second	UO:0000010	0-6
+day	UO:0000033	37-40
+estradiol	CHEBI:23965	44-53
+(1) FDG-PET/CT scan at screening	Results	9
+The estradiol challenge test will consist of administering a total of 6 mg of estradiol dosed orally as three 2 mg tablets with each tablet being administered approximately 8 hours apart and within a 24 hour period. This estradiol medication will be provided to the patient by the study.	Results	10
+estradiol	CHEBI:23965	4-13
+estradiol	CHEBI:23965	78-87
+estradiol	CHEBI:23965	221-230
+hour	UO:0000032	175-179
+hour	UO:0000032	203-207
+patient	HADO:0000008,OAE:0001817	266-273
+Overall Number of Participants Analyzed: 45	Results	11
+Median (Full Range)	Results	12
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: percent change in SUV  11.0        (-46.0 to 306.0)	Results	13
+percent change	BAO:0001252	17-31
+Adverse Events 1:	Adverse Events	0
+Total: 0/47 (0.00%)	Adverse Events	1

@@ -1,0 +1,161 @@
+INTERVENTION 1:	Intervention	0
+Cycle 0: HSP-130 3mg	Intervention	1
+Participants who had not received background chemotherapy treatment in the study were administered a single dose of 3 mg of HSP-130 SC at Day 1 of Cycle 0. Participants were followed approximately 30 days after last dose of study treatment.	Intervention	2
+day	UO:0000033	138-141
+day	UO:0000033	200-203
+INTERVENTION 2:	Intervention	3
+Cycles 0: HSP-130 6mg	Intervention	4
+Participants who had not received background chemotherapy treatment in the study were administered a single dose of 6 mg of HSP-130 SC at Day 1 of Cycle 0. Participants were followed approximately 30 days after last dose of study treatment.	Intervention	5
+day	UO:0000033	138-141
+day	UO:0000033	200-203
+Inclusion Criteria:	Eligibility	0
+A subject will be eligible for study participation if all of the following criteria are met at Screening:	Eligibility	1
+Is informed, has been given ample time and opportunity to read about participation in the study and has signed and dated the written informed consent form approved by an Independent Ethics committee (IEC) prior to any study related activities	Eligibility	2
+time	PATO:0000165	34-38
+Females  18 years	Eligibility	3
+Histologically confirmed and documented invasive breast cancer	Eligibility	4
+breast cancer	DOID:1612	49-62
+Breast cancer without evidence of distant metastases (Stage 4) based on staging work-up	Eligibility	5
+breast cancer	DOID:1612	0-13
+Chemotherapy naive, who have not received chemotherapy in the neoadjuvant setting and who are candidates for chemotherapy in the adjuvant setting of taxane/cyclophosphamide-based regimen, e.g., TAC, as background chemotherapy	Eligibility	6
+adjuvant	CHEBI:60809	65-73
+adjuvant	CHEBI:60809	129-137
+Zubrod/WHO/ECOG performance status  2	Eligibility	7
+Adequate bone marrow, hepatic, and renal function reserve as evidenced by:	Eligibility	8
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	41-49
+Hemoglobin  10 mg/dl	Eligibility	9
+hemoglobin	CHEBI:35143	0-10
+ANC  1.5 x 10^9/L	Eligibility	10
+x	LABO:0000148	9-10
+Platelet count of  100 x 10^9/L	Eligibility	11
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	23-24
+Total bilirubin  2 mg/dl	Eligibility	12
+Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT)  3 x the upper limit of normal (ULN) of the reference lab	Eligibility	13
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+x	LABO:0000148	71-72
+Serum creatinine of  1.5 x ULN for reference lab or estimated glomerular filtration rate (eGFR) of  60 mg/min	Eligibility	14
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	25-26
+glomerular filtration	GO:0003094	62-83
+rate	BAO:0080019	84-88
+Body mass index (BMI) of 19 to 40 kg/m^2 , inclusive	Eligibility	15
+Subjects of childbearing potential, and their partners, agree to pregnancy prevention throughout the duration of the study (through the Follow-up Visit). Specific type of pregnancy prevention should be discussed with, and acceptable to, the treating oncologist in the context of the tumoral hormone receptor status. Subjects and their partners must agree to use of an effective method of contraception, to avoid impregnation of females throughout the course of the study	Eligibility	16
+duration	PATO:0001309	101-109
+hormone	CHEBI:24621	291-298
+receptor	BAO:0000281	299-307
+Medically acceptable forms of birth control can include, with approval of the treating physician:	Eligibility	17
+Barrier methods (condom or diaphragm with spermicide)	Eligibility	18
+diaphragm	UBERON:0001103	27-36
+Intrauterine device (IUD)	Eligibility	19
+Hormone contraceptives (such as oral [pill], injection, skin patch, implant, cervical ring)	Eligibility	20
+hormone	CHEBI:24621	0-7
+Subjects using oral contraceptives must be on a stable regimen for at least 3 months prior to Screening. Sexually active subjects must use contraception while on HSP-130 from admission to the final Follow-up Visit	Eligibility	21
+stable	HP:0031915	48-54
+active	PATO:0002354	114-120
+Able to understand verbal or written instructions and comply with all study requirements, to communicate effectively with study personnel and is available for the planned duration of the study	Eligibility	22
+duration	PATO:0001309	171-179
+Exclusion Criteria:	Eligibility	23
+A subject will NOT be eligible for study participation if any of the following criteria are met at Screening:	Eligibility	24
+Previous G-CSF exposure, including filgrastim, lenograstim, pegfilgrastim, lipegfilgrastim, granulocyte/macrophage colony stimulating growth factor (GM-CSF), or any other branded or biosimilar G-CSF	Eligibility	25
+growth factor	BAO:0002024	134-147
+Prior autologous stem cell harvest of any type	Eligibility	26
+Drug sensitivity, allergic reaction, or known hypersensitivity or idiosyncratic reaction to E. coli - derived proteins, filgrastim, other G-CSFs, or pegylated agents	Eligibility	27
+drug	CHEBI:23888	0-4
+hypersensitivity	GO:0002524,DOID:1205	46-62
+Known hypersensitivity to docetaxel, polysorbate 80, or doxorubicin	Eligibility	28
+hypersensitivity	GO:0002524,DOID:1205	6-22
+polysorbate 80	CHEBI:53426	37-51
+doxorubicin	CHEBI:28748,BAO:0000639	56-67
+For subjects receiving doxorubicin, no concurrent use of inhibitors and inducers of CYP3A4, CYP2D6, and/or P-gp or with trastuzumab due to increased risk of cardiac dysfunction	Eligibility	29
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+Chemotherapy other than that included in this study (taxane/cyclophosphamide-based regimen, e.g., TAC or TC) or neoadjuvant chemotherapy; or known immunosuppressive agents including chronic oral corticosteroid use, or radiation therapy within 4 weeks of first dose of HSP-130, prior bone marrow or stem cell transplantation, or malignancy within 5 years	Eligibility	30
+chronic	HP:0011010	182-189
+corticosteroid	CHEBI:50858	195-209
+bone marrow	UBERON:0002371	283-294
+Known HER2 + ( overexpressing breast cancer)	Eligibility	31
+breast cancer	DOID:1612	30-43
+Known triple negative (estrogen receptor-negative, progesterone receptor-negative and HER2-negative) breast cancer	Eligibility	32
+estrogen	CHEBI:50114,BAO:0000760	23-31
+progesterone	CHEBI:17026	51-63
+breast cancer	DOID:1612	101-114
+Grade 2 underlying neuropathy	Eligibility	33
+neuropathy	DOID:870	19-29
+Current diagnosis of active tuberculosis or other severe infection, such as sepsis, abscesses or opportunistic infections	Eligibility	34
+active	PATO:0002354	21-27
+tuberculosis	DOID:399	28-40
+severe infection	HP:0032169	50-66
+sepsis	HP:0100806	76-82
+Treatment with systemically active antibiotics within 72 hours before chemotherapy	Eligibility	35
+active	PATO:0002354	28-34
+Known infection with HIV	Eligibility	36
+Known sickle cell disease	Eligibility	37
+disease	DOID:4,OGMS:0000031	18-25
+Known severe persistent drug-induced myelosuppression	Eligibility	38
+severe	HP:0012828	6-12
+New York Heart Association (NYHA) class III or IV heart failure, severe uncontrolled cardiac disease (unstable angina, clinically significant ECG abnormalities) or MI within the previous 6 months before the first administration of HSP-130	Eligibility	39
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	50-55
+severe	HP:0012828	65-71
+disease	DOID:4,OGMS:0000031	93-100
+Any malignancy other than breast cancer, with exception of adequately treated squamous or basal cell carcinoma of the skin or cervical carcinoma in situ, within 5 years before the first administration of the HSP-130	Eligibility	40
+breast cancer	DOID:1612	26-39
+basal cell carcinoma	HP:0002671,DOID:2513	90-110
+carcinoma	HP:0030731,DOID:305	101-110
+carcinoma	HP:0030731,DOID:305	135-144
+Current or recent treatment (within 30 days before the first administration of the HSP-130) with any other investigational medicinal product	Eligibility	41
+product	BAO:0003067	133-140
+Pregnancy or lactation; Subjects planning to be pregnant or to breastfeed before, during, or within 12 months after administration of the HSP-130 are not permitted to enroll in the study	Eligibility	42
+lactation	GO:0007595	13-22
+Received a live, live-attenuated, or non-live vaccine within 4 weeks before the first administration of the HSP-130	Eligibility	43
+vaccine	VO:0000001	46-53
+Patient has evidence of any other coexisting disease or medical or psychological condition, metabolic dysfunction, physical examination finding or clinical lab finding giving reasonable suspicion of a disease or condition that contraindicated the use of an HSP-130, or patient is high risk for treatment complication	Eligibility	44
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	269-276
+disease	DOID:4,OGMS:0000031	45-52
+disease	DOID:4,OGMS:0000031	201-208
+condition	PDRO:0000129	81-90
+condition	PDRO:0000129	212-221
+physical examination	OAE:0004232	115-135
+Outcome Measurement:	Results	0
+Area Under the Effect Curve for Absolute Neutrophil Count (AUECANC): Cycle 0	Results	1
+area	PATO:0001323	0-4
+Absolute neutrophil count (ANC) is a measure of the number of neutrophil granulocytes (also known as polymorphonuclear cells, PMN's, polys, granulocytes, segmented neutrophils or segs) present in the blood.	Results	2
+present	PATO:0000467	185-192
+blood	UBERON:0000178	200-205
+Time frame: Cycle 0: Predose (0 hour), 48, 96, 144, 192, 240 and 312 hours post-dose	Results	3
+time	PATO:0000165	0-4
+hour	UO:0000032	32-36
+hour	UO:0000032	69-73
+Results 1:	Results	4
+Arm/Group Title: Cycle 0: HSP-130 3mg	Results	5
+Arm/Group Description: Participants who had not received background chemotherapy treatment in the study were administered a single dose of 3 mg of HSP-130 SC at Day 1 of Cycle 0. Participants were followed approximately 30 days after last dose of study treatment.	Results	6
+day	UO:0000033	161-164
+day	UO:0000033	223-226
+Overall Number of Participants Analyzed: 6	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: hour*10^9 Neutrophils per Liter  3900.482         (683.6870)	Results	9
+hour	UO:0000032	17-21
+Results 2:	Results	10
+Arm/Group Title: Cycles 0: HSP-130 6mg	Results	11
+Arm/Group Description: Participants who had not received background chemotherapy treatment in the study were administered a single dose of 6 mg of HSP-130 SC at Day 1 of Cycle 0. Participants were followed approximately 30 days after last dose of study treatment.	Results	12
+day	UO:0000033	161-164
+day	UO:0000033	223-226
+Overall Number of Participants Analyzed: 6	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: hour*10^9 Neutrophils per Liter  5880.985         (1287.2887)	Results	15
+hour	UO:0000032	17-21
+Adverse Events 1:	Adverse Events	0
+Total: 0/6 (0.00%)	Adverse Events	1
+Febrile Neutropenia * 0/6 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Adverse Events 2:	Adverse Events	3
+Total: 0/6 (0.00%)	Adverse Events	4
+Febrile Neutropenia * 0/6 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19

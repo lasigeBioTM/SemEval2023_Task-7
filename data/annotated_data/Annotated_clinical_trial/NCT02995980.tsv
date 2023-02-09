@@ -1,0 +1,70 @@
+INTERVENTION 1:	Intervention	0
+Contrast Enhanced Mammography	Intervention	1
+Contrast-enhanced spectral mammography for the detection breast cancer .	Intervention	2
+breast cancer	DOID:1612	57-70
+DECE mammography: Contrast mammography	Intervention	3
+INTERVENTION 2:	Intervention	4
+Standard Digital Mammogram	Intervention	5
+Full field digital mammography for the detection breast cancer	Intervention	6
+breast cancer	DOID:1612	49-62
+digital mammography: routine digital mammography	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Signed informed consent	Eligibility	1
+At least 19 years old	Eligibility	2
+Glomerular filtration rate> 60	Eligibility	3
+glomerular filtration	GO:0003094	0-21
+rate	BAO:0080019	22-26
+Heterogeneously or extremely dense breasts (BI-RADS category c or d).	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+History of iodinated contrast allergy	Eligibility	6
+history	BFO:0000182	0-7
+allergy	HP:0012393	30-37
+Pregnant or lactating as determined by routine standard practice	Eligibility	7
+Personal history of breast cancer	Eligibility	8
+history	BFO:0000182	9-16
+breast cancer	DOID:1612	20-33
+History of prior breast excisional biopsy (Patients with a history of core needle biopsy will not be excluded)	Eligibility	9
+history	BFO:0000182	0-7
+history	BFO:0000182	59-66
+breast	UBERON:0000310	17-23
+excluded	HP:0040285	101-109
+History of prior breast reduction mammoplasty surgery	Eligibility	10
+history	BFO:0000182	0-7
+breast	UBERON:0000310	17-23
+mammoplasty	OAE:0001160	34-45
+surgery	OAE:0000067	46-53
+History of prior breast augmentation surgery	Eligibility	11
+history	BFO:0000182	0-7
+breast	UBERON:0000310	17-23
+surgery	OAE:0000067	37-44
+Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study.	Eligibility	12
+condition	PDRO:0000129	7-16
+Outcome Measurement:	Results	0
+Percent Accuracy of Contrast Mammography	Results	1
+percent	UO:0000187	0-7
+The primary endpoint of this study is to determine the accuracy of DE CE mammography when compared to full field digital mammography (FFDM) in patients with increased breast density (Breast Imaging-Reporting And Data System (BI-RADS) category c or d breast density).	Results	2
+breast	UBERON:0000310	167-173
+breast	UBERON:0000310	183-189
+breast	UBERON:0000310	250-256
+Time frame: 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: Contrast Enhanced Mammography	Results	5
+Arm/Group Description: Contrast-enhanced spectral mammography for the detection breast cancer .	Results	6
+breast cancer	DOID:1612	80-93
+DECE mammography: Contrast mammography	Results	7
+Overall Number of Participants Analyzed: 114	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of accuracy  100        (29 to 100)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Standard Digital Mammogram	Results	12
+Arm/Group Description: Full field digital mammography for the detection breast cancer	Results	13
+breast cancer	DOID:1612	72-85
+digital mammography: routine digital mammography	Results	14
+Overall Number of Participants Analyzed: 114	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of accuracy  67        (9 to 99)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/128 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

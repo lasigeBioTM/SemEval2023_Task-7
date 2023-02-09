@@ -1,0 +1,100 @@
+INTERVENTION 1:	Intervention	0
+Ribociclib 600 mg	Intervention	1
+LEE011 600 mg (hard gelatin capsules) was administered orally once daily for 3 weeks on/1 week off. A complete treatment cycle was defined as 28 days.	Intervention	2
+gelatin	CHEBI:5291	20-27
+week	UO:0000034	79-83
+week	UO:0000034	90-94
+Inclusion Criteria:	Eligibility	0
+Patient had a confirmed diagnosis of a select solid tumor (except breast cancer (however, triple negative was included), liposarcoma, CRPC, melanoma and teratoma) or hematological malignancy (except mantle cell lymphoma).	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	66-79
+liposarcoma	HP:0012034,DOID:3382	121-132
+melanoma	HP:0002861,DOID:1909	140-148
+teratoma	HP:0009792,DOID:3307	153-161
+mantle cell lymphoma	DOID:0050746	199-219
+Patient must have been pre-identified as having a tumor with CDK4 amplification or mutation, CDK6 amplification or mutation, Cyclin D1 (CCND1) amplification, Cyclin D3 (CCND3) amplification, or p16 (CDKN2A) mutation	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+Patient had received at least one prior treatment for recurrent, metastatic and /or locally advanced disease and for whom no standard therapy options are anticipated to result in a durable remission.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+recurrent	HP:0031796	54-63
+disease	DOID:4,OGMS:0000031	101-108
+result	BAO:0000179	169-175
+Patient had progressive and measurable disease as per RECIST 1.1. or other appropriate hematological guidelines.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+progressive	HP:0003676	12-23
+disease	DOID:4,OGMS:0000031	39-46
+Patient had an Eastern Cooperative Oncology Group (ECOG) performance status  1	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+group	CHEBI:24433	44-49
+Exclusion Criteria:	Eligibility	6
+Patients had received prior treatment with LEE011.	Eligibility	7
+Patient had clinically significant resting bradycardia (heart rate < 50 at rest), tachycardia (heart rate > 90 at rest), PR interval > 220 msec, QRS interval > 109 msec, or QTcF > 450 msec.	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+bradycardia	HP:0001662	43-54
+heart rate	CMO:0000002	56-66
+heart rate	CMO:0000002	95-105
+tachycardia	HP:0001649	82-93
+pr interval	CMO:0000233	121-132
+Patients had primary CNS tumor or CNS tumor involvement	Eligibility	9
+Patient had received chemotherapy or anticancer therapy  4 weeks prior to starting study drug	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+drug	CHEBI:23888	89-93
+Outcome Measurement:	Results	0
+Number of Participants With Solid Tumor Response  16 Weeks for Based Upon Local Investigator Assessments	Results	1
+Clinical benefit (CB) for patients with solid tumors were assessed using RECIST 1.1 and included responses of Complete Response (CR) or Partial Response (PR) or Stable Disease (SD) for  16 weeks. CR and PR (for solid tumors) required a confirmation at least 4 weeks after the initial response observation. For hematologic tumors other appropriate hematological response criteria was applied. CR=Disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have had reduction in short axis to <10 mm, PR=At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters, SD=Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum diameters while on study, PD=At least a 20% increase in the sum of diameter of all measured target lesions and also demonstrate an absolute increase of at least 5 mm. FAS	Results	2
+stable	HP:0031915	161-167
+disease	DOID:4,OGMS:0000031	168-175
+target	BAO:0003064	416-422
+target	BAO:0003064	470-476
+target	BAO:0003064	484-490
+target	BAO:0003064	595-601
+target	BAO:0003064	881-887
+lymph	UBERON:0002391	449-454
+increase	BAO:0001251	724-732
+increase	BAO:0001251	833-841
+increase	BAO:0001251	929-937
+diameter	PATO:0001334	582-590
+diameter	PATO:0001334	648-656
+diameter	PATO:0001334	789-797
+diameter	PATO:0001334	856-864
+Time frame: Baseline up 16 weeks up to approximately 36 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ribociclib 600 mg	Results	5
+Arm/Group Description: LEE011 600 mg (hard gelatin capsules) was administered orally once daily for 3 weeks on/1 week off. A complete treatment cycle was defined as 28 days.	Results	6
+gelatin	CHEBI:5291	43-50
+week	UO:0000034	102-106
+week	UO:0000034	113-117
+Overall Number of Participants Analyzed: 105	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Complete response: 0   0.0%	Results	9
+Partial response (PR): 3   2.9%	Results	10
+Stable disease (SD): 16  15.2%	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive disease (PD): 71  67.6%	Results	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Non-evaluable (NE): 15  14.3%	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 40/106 (37.74%)	Adverse Events	1
+Anaemia 1/106 (0.94%)	Adverse Events	2
+Febrile neutropenia 1/106 (0.94%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Thrombocytopenia 1/106 (0.94%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 1/106 (0.94%)	Adverse Events	5
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardio-respiratory arrest 1/106 (0.94%)	Adverse Events	6
+Palpitations 1/106 (0.94%)	Adverse Events	7
+palpitations	HP:0001962	0-12
+Pericardial effusion 2/106 (1.89%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Abdominal pain 2/106 (1.89%)	Adverse Events	9
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper 1/106 (0.94%)	Adverse Events	10
+abdominal pain	HP:0002027	0-14
+Ascites 1/106 (0.94%)	Adverse Events	11
+ascites	HP:0001541	0-7
+Constipation 1/106 (0.94%)	Adverse Events	12
+constipation	HP:0002019,DOID:2089	0-12

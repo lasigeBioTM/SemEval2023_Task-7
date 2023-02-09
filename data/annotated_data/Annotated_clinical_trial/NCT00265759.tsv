@@ -1,0 +1,175 @@
+INTERVENTION 1:	Intervention	0
+Cohort A Arm I: Exemestane	Intervention	1
+exemestane	CHEBI:4953	16-26
+Patients receive oral exemestane 25 mg once daily for up to 16-18 weeks prior to partial or radical mastectomy or lumpectomy with or without lymph node dissection	Intervention	2
+exemestane	CHEBI:4953	22-32
+radical	CHEBI:26519	92-99
+lymph	UBERON:0002391	141-146
+INTERVENTION 2:	Intervention	3
+Cohort A Arm II: Letrozole	Intervention	4
+letrozole	CHEBI:6413	17-26
+Patients receive oral letrozole 2.5 mg once daily for up to 16-18 weeks prior to partial or radical mastectomy or lumpectomy with or without lymph node dissection	Intervention	5
+letrozole	CHEBI:6413	22-31
+radical	CHEBI:26519	92-99
+lymph	UBERON:0002391	141-146
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Diagnosis of breast cancer	Eligibility	1
+breast cancer	DOID:1612	13-26
+T2-T4c, any N, M0 disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	18-25
+Clinically staged, as documented by the treating physician, as 1 of the following:	Eligibility	3
+T4a-c disease for which modified radical mastectomy with negative margins is the goal	Eligibility	4
+disease	DOID:4,OGMS:0000031	6-13
+radical	CHEBI:26519	33-40
+T2 or T3 disease for which conversion from needing mastectomy to breast conservation is the goal	Eligibility	5
+disease	DOID:4,OGMS:0000031	9-16
+breast	UBERON:0000310	65-71
+T2 disease for which lumpectomy at first attempt is the goal	Eligibility	6
+disease	DOID:4,OGMS:0000031	3-10
+Primary tumor must be palpable and measure > 2 cm by tape, ruler, or caliper measurements in at least one dimension	Eligibility	7
+Must agree to undergo mastectomy or lumpectomy after neoadjuvant aromatase inhibitor therapy	Eligibility	8
+inhibitor	CHEBI:35222	75-84
+No inflammatory breast cancer, defined as clinically significant erythema of the breast and/or documented dermal lymphatic invasion (not direct skin invasion by tumor or peau d'orange without erythema)	Eligibility	9
+breast cancer	DOID:1612	16-29
+erythema	HP:0010783	65-73
+erythema	HP:0010783	192-200
+breast	UBERON:0000310	16-22
+breast	UBERON:0000310	81-87
+peau d'orange	HP:0025533	170-183
+No distant metastasis (M1)	Eligibility	10
+m1	CHEBI:34826	23-25
+Isolated ipsilateral supraclavicular node involvement allowed	Eligibility	11
+No diagnosis that was established by incisional biopsy	Eligibility	12
+Must have estrogen receptor (ER) positive tumor with an Allred score of 6, 7 or 8	Eligibility	13
+estrogen	CHEBI:50114,BAO:0000760	10-18
+receptor	BAO:0000281	19-27
+Patients with > 66.66% (two-thirds) of cells staining positive and have a minimum Allred score of 6 are eligible	Eligibility	14
+PATIENT CHARACTERISTICS:	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+ECOG/Zubrod performance status of  2	Eligibility	16
+Female	Eligibility	17
+female	PATO:0000383	0-6
+Patient must be postmenopausal, verified by 1 of the following:	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+Bilateral surgical oophorectomy	Eligibility	19
+bilateral	HP:0012832	0-9
+No spontaneous menses  1 year	Eligibility	20
+year	UO:0000036	25-29
+No menses for < 1 year with FSH and estradiol levels in postmenopausal range	Eligibility	21
+year	UO:0000036	18-22
+estradiol	CHEBI:23965	36-45
+range	LABO:0000114	71-76
+No other malignancies within the past 5 years, except for successfully treated cervical carcinoma in situ; lobular carcinoma in situ of the breast; contralateral ductal carcinoma in situ that was treated with mastectomy or lumpectomy with radiotherapy (without tamoxifen); or non-melanoma skin cancer with no evidence of recurrence	Eligibility	22
+carcinoma	HP:0030731,DOID:305	88-97
+carcinoma	HP:0030731,DOID:305	115-124
+carcinoma	HP:0030731,DOID:305	169-178
+lobular carcinoma in situ	HP:0030076,DOID:3010	107-132
+breast	UBERON:0000310	140-146
+ductal carcinoma in situ	HP:0030075,DOID:0060074	162-186
+radiotherapy	OAE:0000235	239-251
+tamoxifen	CHEBI:41774	261-270
+skin cancer	DOID:4159	289-300
+Must have undergone potentially curative therapy for all prior malignancies AND deemed to be at low risk for recurrence, according to the treating physician	Eligibility	23
+PRIOR CONCURRENT THERAPY:	Eligibility	24
+No prior treatment for invasive breast cancer, including radiotherapy, endocrine therapy, chemotherapy, or investigational agents	Eligibility	25
+breast cancer	DOID:1612	32-45
+radiotherapy	OAE:0000235	57-69
+No prior sentinel lymph node biopsy (cohort B only)	Eligibility	26
+lymph	UBERON:0002391	18-23
+At least 1 week since prior agents with estrogenic or putatively estrogenic properties, including herbal preparations	Eligibility	27
+week	UO:0000034	11-15
+At least 1 week since prior hormone replacement therapy of any type, megestrol acetate, or raloxifene	Eligibility	28
+week	UO:0000034	11-15
+hormone	CHEBI:24621	28-35
+megestrol acetate	CHEBI:6723	69-86
+raloxifene	CHEBI:8772	91-101
+No concurrent enrollment in another neoadjuvant clinical trial for treatment of the existing breast cancer	Eligibility	29
+breast cancer	DOID:1612	93-106
+No other concurrent anti-neoplastic therapy, including chemotherapy or radiotherapy	Eligibility	30
+radiotherapy	OAE:0000235	71-83
+No concurrent agents or herbal products that alter ER function	Eligibility	31
+function	BAO:0003117,BFO:0000034	54-62
+Outcome Measurement:	Results	0
+Clinical Response (Complete or Partial Response) Rate (Cohort A)	Results	1
+rate	BAO:0080019	49-53
+The clinical response rate (percentage) of a given treatment is defined as 100 times the number of eligible patients randomized to that treatment whose disease meets the WHO criteria for complete or partial response prior to surgery divided by the total number of eligible patients randomized to that treatment. For each treatment arm, a 95% binomial confidence interval will be constructed for the true clinical response rate. Complete Response (CR): The disappearance of all known disease based on a comparison between the measurements at baseline and the Week 16 visit. Partial Response (PR): A 50% or greater decrease in the product of the bi-dimensional measurements of the lesion (total tumor size) based on a comparison between the measurements at baseline and the Week 16 visit. In addition there can be no appearance of new lesions or progression of any lesion.	Results	2
+rate	BAO:0080019	22-26
+rate	BAO:0080019	422-426
+disease	DOID:4,OGMS:0000031	152-159
+disease	DOID:4,OGMS:0000031	483-490
+surgery	OAE:0000067	225-232
+week	UO:0000034	558-562
+week	UO:0000034	772-776
+product	BAO:0003067	629-636
+size	PATO:0000117	699-703
+Time frame: Up to 18 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cohort A Arm I: Exemestane	Results	5
+exemestane	CHEBI:4953	33-43
+Arm/Group Description: Patients receive oral exemestane 25 mg once daily for up to 16-18 weeks prior to partial or radical mastectomy or lumpectomy with or without lymph node dissection	Results	6
+exemestane	CHEBI:4953	45-55
+radical	CHEBI:26519	115-122
+lymph	UBERON:0002391	164-169
+Overall Number of Participants Analyzed: 124	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of patients  62.9        (53.8 to 71.4)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort A Arm II: Letrozole	Results	11
+letrozole	CHEBI:6413	34-43
+Arm/Group Description: Patients receive oral letrozole 2.5 mg once daily for up to 16-18 weeks prior to partial or radical mastectomy or lumpectomy with or without lymph node dissection	Results	12
+letrozole	CHEBI:6413	45-54
+radical	CHEBI:26519	115-122
+lymph	UBERON:0002391	164-169
+Overall Number of Participants Analyzed: 127	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of patients  74.8        (66.3 to 82.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 9/157 (5.73%)	Adverse Events	1
+Blood disorder 1/157 (0.64%)	Adverse Events	2
+blood	UBERON:0000178	0-5
+disorder	OGMS:0000045	6-14
+Hemoglobin decreased 1/157 (0.64%)	Adverse Events	3
+hemoglobin	CHEBI:35143	0-10
+Hemolysis 0/157 (0.00%)	Adverse Events	4
+Arrhythmia 0/157 (0.00%)	Adverse Events	5
+arrhythmia	HP:0011675	0-10
+Cardiac disorder 0/157 (0.00%)	Adverse Events	6
+disorder	OGMS:0000045	8-16
+Myocardial ischemia 1/157 (0.64%)	Adverse Events	7
+ischemia	DOID:326	11-19
+Hearing impaired 0/157 (0.00%)	Adverse Events	8
+Tinnitus 0/157 (0.00%)	Adverse Events	9
+tinnitus	HP:0000360	0-8
+Cataract 0/157 (0.00%)	Adverse Events	10
+cataract	HP:0000518,DOID:83	0-8
+Diplopia 0/157 (0.00%)	Adverse Events	11
+diplopia	HP:0000651	0-8
+Glaucoma 0/157 (0.00%)	Adverse Events	12
+glaucoma	HP:0000501,DOID:1686	0-8
+Vision blurred 0/157 (0.00%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 14/157 (8.92%)	Adverse Events	15
+Blood disorder 0/157 (0.00%)	Adverse Events	16
+blood	UBERON:0000178	0-5
+disorder	OGMS:0000045	6-14
+Hemoglobin decreased 2/157 (1.27%)	Adverse Events	17
+hemoglobin	CHEBI:35143	0-10
+Hemolysis 1/157 (0.64%)	Adverse Events	18
+Arrhythmia 0/157 (0.00%)	Adverse Events	19
+arrhythmia	HP:0011675	0-10
+Cardiac disorder 0/157 (0.00%)	Adverse Events	20
+disorder	OGMS:0000045	8-16
+Myocardial ischemia 0/157 (0.00%)	Adverse Events	21
+ischemia	DOID:326	11-19
+Hearing impaired 2/157 (1.27%)	Adverse Events	22
+Tinnitus 1/157 (0.64%)	Adverse Events	23
+tinnitus	HP:0000360	0-8
+Cataract 1/157 (0.64%)	Adverse Events	24
+cataract	HP:0000518,DOID:83	0-8
+Diplopia 0/157 (0.00%)	Adverse Events	25
+diplopia	HP:0000651	0-8
+Glaucoma 1/157 (0.64%)	Adverse Events	26
+glaucoma	HP:0000501,DOID:1686	0-8
+Vision blurred 1/157 (0.64%)	Adverse Events	27

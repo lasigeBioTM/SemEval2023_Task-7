@@ -1,0 +1,107 @@
+INTERVENTION 1:	Intervention	0
+Itraconazole	Intervention	1
+itraconazole	CHEBI:6076	0-12
+oral itraconazole 200mg a day until disease progression or unacceptable toxicities.	Intervention	2
+itraconazole	CHEBI:6076	5-17
+day	UO:0000033	26-29
+disease	DOID:4,OGMS:0000031	36-43
+Inclusion Criteria:	Eligibility	0
+- Patients must have a pathologically confirmed diagnosis of invasive carcinoma of the breast. - Patients must carry a diagnosis of metastatic breast cancer. - Patients must be able to swallow oral medications. - Patients with HER 2+ tumors must have received trastuzumab in the past and may have had lapatinib. - Patients must have an ECOG performance status of 0-1. - Patients must be informed of the investigational nature of the study and must sign and give written informed consent. - Patients must have recovered to grade <1 from all acute toxicity of previous therapy for breast cancer with the exception of alopecia. - Adequate hematologic and hepatic function: 1)Absolute neutrophil count >= 1,500 mm3 2) Platelet count >= 100,000 mm3 3) Bilirubin <= 1.5mg/dL x ULN 4) AST and/or ALT <= 2 x ULN (< 5 x ULN in presence of known liver metastasis). - Prior to study enrollment, women of childbearing potential (WOCBP) must be advised of the importance of avoiding pregnancy during trial participation and must practice an effective method of birth control. In addition, men enrolled on this study should understand the risks to any sexual partner of childbearing potential and should also practice an effective method of birth control. - All WOCBP MUST have a negative serum or urine pregnancy test within 4 weeks prior to the start of study drug administration.	Eligibility	1
+carcinoma	HP:0030731,DOID:305	70-79
+breast	UBERON:0000310	87-93
+breast	UBERON:0000310	143-149
+breast	UBERON:0000310	579-585
+breast cancer	DOID:1612	143-156
+breast cancer	DOID:1612	579-592
+lapatinib	CHEBI:49603	301-310
+acute	HP:0011009,PATO:0000389	540-545
+alopecia	HP:0001596,DOID:987	615-623
+function	BAO:0003117,BFO:0000034	660-668
+platelet count	CMO:0000029	714-728
+x	LABO:0000148	548-549
+x	LABO:0000148	603-604
+x	LABO:0000148	769-770
+x	LABO:0000148	798-799
+x	LABO:0000148	809-810
+x	LABO:0000148	1140-1141
+liver	UBERON:0002107	836-841
+urine	UBERON:0001088	1284-1289
+drug administration	OAE:0000011	1348-1367
+Exclusion Criteria:	Eligibility	2
+Use of the following concomitant medications within 14 days of starting protocol therapy is prohibited: Cisapride, dofetilide, ergot derivatives, levomethadyl, lovastatin, midazolam, pimozide, quinidine, simvastatin, or triazolam.	Eligibility	3
+cisapride	CHEBI:3720	104-113
+dofetilide	CHEBI:4681	115-125
+lovastatin	CHEBI:40303	160-170
+midazolam	CHEBI:6931	172-181
+pimozide	CHEBI:8212	183-191
+quinidine	CHEBI:28593,BAO:0000797	193-202
+simvastatin	CHEBI:9150	204-215
+triazolam	CHEBI:9674	220-229
+Patients who are taking alprazolam (Xanax) are excluded from the trial.	Eligibility	4
+alprazolam	CHEBI:2611	24-34
+excluded	HP:0040285	47-55
+Patients must not have an active infection requiring the use of intravenous antibiotics. The use of oral antibiotics is allowed.	Eligibility	5
+active	PATO:0002354	26-32
+Hypersensitivity to itraconazole, any component of the formulation, or to other azoles.	Eligibility	6
+hypersensitivity	GO:0002524,DOID:1205	0-16
+itraconazole	CHEBI:6076	20-32
+Patients with uncontrolled CNS metastasis are excluded. If patients have CNS metastasis they must have completed brain radiation at least 2 weeks prior to registration and must be off steroids for CNS metastasis.	Eligibility	7
+excluded	HP:0040285	46-54
+brain	UBERON:0000955	113-118
+Known preexisting congestive heart failure or left ventricular dysfunction. Patients with risk factors (ex. uncontrolled hypertension with BP >160/90) for cardiac dysfunction but no preexisting diagnosis of congestive heart failure or left ventricular dysfunction will have a screening EKG prior to enrollment. Subsequently, those patients with an abnormal EKG, as judged by the treating physician, will be excluded from the study.	Eligibility	8
+congestive heart failure	HP:0001635,DOID:6000	18-42
+congestive heart failure	HP:0001635,DOID:6000	207-231
+left	HP:0012835	46-50
+left	HP:0012835	235-239
+hypertension	HP:0000822,DOID:10763	121-133
+abnormal ekg	HP:0003115	348-360
+excluded	HP:0040285	407-415
+Outcome Measurement:	Results	0
+Pharmacokinetics (PK) of Oral Itraconazole	Results	1
+itraconazole	CHEBI:6076	30-42
+To determine the pharmacokinetics (PK) of oral itraconazole in patients with MBC by measuring mean trough plasma levels at steady state at weeks 2 and 4.	Results	2
+itraconazole	CHEBI:6076	47-59
+mean	BAO:0002173	94-98
+Time frame: pre-dose at Weeks 2 and 4	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Itraconazole	Results	5
+itraconazole	CHEBI:6076	17-29
+Arm/Group Description: oral itraconazole 200mg a day until disease progression or unacceptable toxicities.	Results	6
+itraconazole	CHEBI:6076	28-40
+day	UO:0000033	49-52
+disease	DOID:4,OGMS:0000031	59-66
+Overall Number of Participants Analyzed: 12	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ng/mL  Week 2 Intraconazole Concentration: 230.7         (216.8)	Results	9
+week	UO:0000034	24-28
+Week 4 Intraconazole Concentration: 305.8         (334.8)	Results	10
+week	UO:0000034	0-4
+Week 2 6-OH Itraconazole Concentration: 454.8         (429.3)	Results	11
+week	UO:0000034	0-4
+itraconazole	CHEBI:6076	12-24
+Week 4 6-OH Itraconazole Concentration: 501.6         (502.6)	Results	12
+week	UO:0000034	0-4
+itraconazole	CHEBI:6076	12-24
+Adverse Events 1:	Adverse Events	0
+Total: 3/13 (23.08%)	Adverse Events	1
+NAUSEA *1/13 (7.69%)	Adverse Events	2
+nausea	HP:0002018	0-6
+PAIN - ABDOMEN NOS *1/13 (7.69%)	Adverse Events	3
+pain	HP:0012531	0-4
+abdomen	UBERON:0000916	7-14
+VOMITING *1/13 (7.69%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+HEMORRHAGE, GI - UPPER GI NOS *1/13 (7.69%)	Adverse Events	5
+PAIN - BACK *1/13 (7.69%)	Adverse Events	6
+pain	HP:0012531	0-4
+MUSCLE WEAKNESS, GENERALIZED OR SPECIFIC AREA (NOT DUE TO NEUROPATHY) - EXTREMITY-LOWER *1/13 (7.69%)	Adverse Events	7
+muscle weakness	HP:0001324	0-15
+generalized	HP:0012837	17-28
+area	PATO:0001323	41-45
+neuropathy	DOID:870	58-68
+PLEURAL EFFUSION (NON-MALIGNANT) *1/13 (7.69%)	Adverse Events	8
+pleural effusion	HP:0002202	0-16
+THROMBOSIS/THROMBUS/EMBOLISM *1/13 (7.69%)	Adverse Events	9

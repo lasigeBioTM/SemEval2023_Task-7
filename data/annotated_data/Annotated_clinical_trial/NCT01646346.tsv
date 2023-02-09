@@ -1,0 +1,117 @@
+INTERVENTION 1:	Intervention	0
+4D Conformal Image-Guided Partial Breast RT	Intervention	1
+breast	UBERON:0000310	34-40
+This is a single arm trial designed to look at the results in women treated with partial breast irradiation twice daily for 5 days.	Intervention	2
+breast	UBERON:0000310	89-95
+4D Conformal Image-Guided Partial Breast RT: External beam partial breast radiation to target a portion of the breast twice a day for 5 days.	Intervention	3
+breast	UBERON:0000310	34-40
+breast	UBERON:0000310	67-73
+breast	UBERON:0000310	111-117
+target	BAO:0003064	87-93
+day	UO:0000033	126-129
+day	UO:0000033	136-139
+Inclusion Criteria:	Eligibility	0
+The patient must consent to be in the study and must have a signed an approved consent form conforming with institutional guidelines.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	4-11
+Patient must be > 50 years old.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+The patient should have a life expectancy of at least two years with a karnofsky performance status > 70.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	4-11
+The patient must have stage 0 or I breast cancer.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	4-11
+breast cancer	DOID:1612	35-48
+On histological examination, the tumor must be DCIS or invasive adenocarcinoma of the breast.	Eligibility	5
+adenocarcinoma	DOID:299	64-78
+breast	UBERON:0000310	86-92
+Surgical treatment of the breast must have been lumpectomy. The margins of the resected specimen must be histologically free of tumor (>2mm, DCIS and invasive). Re-excision of surgical margins is permitted.	Eligibility	6
+breast	UBERON:0000310	26-32
+Gross disease must be unifocal with pathologic (invasive and/or DCIS) tumor size 2 cm or less. (Patients with microscopic multifocality are eligible as long as total pathologic tumor size is 2 cm or less.)	Eligibility	7
+disease	DOID:4,OGMS:0000031	6-13
+size	PATO:0000117	76-80
+size	PATO:0000117	183-187
+Patients with invasive breast cancer are required to have axillary staging which can include sentinel node biopsy alone (if negative), sentinel node biopsy followed by axillary dissection or sampling with a minimum total of 6 axillary nodes or axillary dissection alone (with a minimum of 6 axillary nodes). Axillary staging is NOT required for patients with DCIS.	Eligibility	8
+breast cancer	DOID:1612	23-36
+The patient must have simulation within 8 weeks/56 days of the final surgery for their breast cancer (lumpectomy, re-excision of margins, or axillary staging procedure).	Eligibility	9
+patient	HADO:0000008,OAE:0001817	4-11
+surgery	OAE:0000067	69-76
+breast cancer	DOID:1612	87-100
+Patients with a history of non-ipsilateral breast malignancies are eligible if they have been disease-free for 2 or more years prior to enrollment. Patients with the following cancers are eligible even if diagnosed and treated within the past 2 years: carcinoma in situ of the cervix, colon, melanoma in situ, and basal cell and squamous cell carcinoma of the skin.	Eligibility	10
+history	BFO:0000182	16-23
+breast	UBERON:0000310	43-49
+carcinoma	HP:0030731,DOID:305	252-261
+carcinoma	HP:0030731,DOID:305	343-352
+colon	UBERON:0001155	285-290
+melanoma	HP:0002861,DOID:1909	292-300
+squamous cell carcinoma of the skin	HP:0006739	329-364
+Chemotherapy is permitted if planned for  2 weeks after radiation.	Eligibility	11
+Urine pregnancy test must be performed and be negative on all women younger than 60 who have not had a tubal ligation, oophorectomy, or hysterectomy.	Eligibility	12
+urine	UBERON:0001088	0-5
+Separate incisions for the lumpectomy and sentinel node biopsy should be present. Use of only one incision will typically result in a contiguous cavity with the tumor bed and the sentinel node sampling, and inability of the radiation oncologist to delineate the tumor bed from the sentinel node bed.	Eligibility	13
+present	PATO:0000467	73-80
+result	BAO:0000179	122-128
+The patient must have a cavity which is able to be targeted with external beam APBI, either through surgical clip placement, or CVS 3 or higher. The cavity to whole breast ratio must be 30% or less.	Eligibility	14
+patient	HADO:0000008,OAE:0001817	4-11
+breast	UBERON:0000310	165-171
+ratio	UO:0000190	172-177
+Exclusion Criteria:	Eligibility	15
+Men are not eligible for this study as men are not breast conservation candidates.	Eligibility	16
+breast	UBERON:0000310	51-57
+T0, T2 (> 2.0 cm), T3, node positive, stage III or IV breast cancer.	Eligibility	17
+breast cancer	DOID:1612	54-67
+Any positive axillary nodes.	Eligibility	18
+Palpable or radiographically suspicious ipsilateral or contralateral axillary, supraclavicular, infraclavicular or internal mammary nodes, unless biopsy proven to be negative for tumor.	Eligibility	19
+Suspicious microcalcifications, densities or palpable abnormalities in either breast unless biopsy proven to be benign.	Eligibility	20
+breast	UBERON:0000310	78-84
+Non-epithelial breast malignancies such as sarcoma or lymphoma.	Eligibility	21
+breast	UBERON:0000310	15-21
+sarcoma	HP:0100242,DOID:1115	43-50
+lymphoma	HP:0002665,DOID:0060058	54-62
+Proven multicentric carcinoma in more than one quadrant or separated by more than 2 centimeters.	Eligibility	22
+carcinoma	HP:0030731,DOID:305	20-29
+Paget's disease of the nipple.	Eligibility	23
+disease	DOID:4,OGMS:0000031	8-15
+History of invasive breast cancer or DCIS in the same breast.	Eligibility	24
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	20-33
+breast	UBERON:0000310	20-26
+breast	UBERON:0000310	54-60
+Surgical margins that cannot be microscopically assessed or are less then 2 mm.	Eligibility	25
+Collagen vascular disease, specifically dermatomyositis with a CPK level above normal or with an active skin rash, systemic lupus erythematosis or scleroderma.	Eligibility	26
+collagen	CHEBI:3815	0-8
+vascular disease	DOID:178	9-25
+dermatomyositis	DOID:10223	40-55
+active	PATO:0002354	97-103
+skin rash	HP:0000988	104-113
+scleroderma	HP:0100324,DOID:419,DOID:418	147-158
+Pregnancy or lactation at the time of proposed radiation. Women of reproductive potential must agree to use an effective non-hormonal method of contraception during therapy.	Eligibility	27
+lactation	GO:0007595	13-22
+time	PATO:0000165	30-34
+Psychiatric or addictive disorders or other conditions that, in the opinion of the treating physician, would preclude the patient from meeting the study requirements.	Eligibility	28
+patient	HADO:0000008,OAE:0001817	122-129
+Patients with coexisting medical conditions in whom life expectancy is < 2 years.	Eligibility	29
+Patients with skin involvement, regardless of tumor size.	Eligibility	30
+size	PATO:0000117	52-56
+Outcome Measurement:	Results	0
+Patients With Reduction in Incidental Radiation	Results	1
+Patients were assessed to determine if there was a reduction in breast radiation V50 less than 45% and V100 less than 23.5%.	Results	2
+breast	UBERON:0000310	64-70
+Time frame: 5 day	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	14-17
+Results 1:	Results	4
+Arm/Group Title: 4D Conformal Image-Guided Partial Breast RT	Results	5
+breast	UBERON:0000310	51-57
+Arm/Group Description: This is a single arm trial designed to look at the results in women treated with partial breast irradiation twice daily for 5 days.	Results	6
+breast	UBERON:0000310	112-118
+4D Conformal Image-Guided Partial Breast RT: External beam partial breast radiation to target a portion of the breast twice a day for 5 days.	Results	7
+breast	UBERON:0000310	34-40
+breast	UBERON:0000310	67-73
+breast	UBERON:0000310	111-117
+target	BAO:0003064	87-93
+day	UO:0000033	126-129
+day	UO:0000033	136-139
+Overall Number of Participants Analyzed: 46	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  46 100.0%	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/46 (0.00%)	Adverse Events	1

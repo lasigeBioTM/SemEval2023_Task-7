@@ -1,0 +1,201 @@
+INTERVENTION 1:	Intervention	0
+F-627	Intervention	1
+F-627, 20 mg fixed dose pre-filled syringe, administered on Day 2 of each of 4 chemotherapy cycles.	Intervention	2
+day	UO:0000033	60-63
+F-627: single dose pre-filled syringe	Intervention	3
+INTERVENTION 2:	Intervention	4
+Neulasta	Intervention	5
+6 mg fixed dose Neulasta®, administered on Day 2 of each of 4 chemotherapy cycles	Intervention	6
+day	UO:0000033	43-46
+Neulasta: single dose pre-filled syringe	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Show evidence of a personally signed and dated informed consent document indicating that the patient has been informed of all pertinent aspects of the trial.	Eligibility	1
+document	IAO:0000310	64-72
+patient	HADO:0000008,OAE:0001817	93-100
+Females 18 years of age.	Eligibility	2
+age	PATO:0000011	20-23
+Diagnosed with Stage I-III breast cancer.	Eligibility	3
+breast cancer	DOID:1612	27-40
+Subject is scheduled to undergo 4 cycles of neoadjuvant or adjuvant TC chemotherapy (docetaxel, cyclophosphamide, 75, 600 mg/m2, respectively).	Eligibility	4
+adjuvant	CHEBI:60809	47-55
+adjuvant	CHEBI:60809	59-67
+cyclophosphamide	CHEBI:4026	96-112
+ECOG Performance status of 2.	Eligibility	5
+WBC count 4.0 × 109/L, hemoglobin 11.5 g/dL and a platelet count 150 × 109/L.	Eligibility	6
+hemoglobin	CHEBI:35143	23-33
+platelet count	CMO:0000029	50-64
+Demonstrate adequate renal, hepatic, and cardiac function (liver function tests [alanine aminotransferase {ALT}, aspartate aminotransferase {AST}, alkaline phosphatase, and total bilirubin]) should be less than 2.5x the upper limits of normal (ULN). Serum creatinine should be less than 1.7x ULN.	Eligibility	7
+function	BAO:0003117,BFO:0000034	49-57
+function	BAO:0003117,BFO:0000034	65-73
+liver	UBERON:0002107	59-64
+alanine	CHEBI:16449	81-88
+aspartate	CHEBI:29995	113-122
+phosphatase	GO:0016791,BAO:0000295	156-167
+creatinine	CHEBI:16737	256-266
+All subjects must agree to use at least one of the following types of contraception: intrauterine device, implantable progesterone device, progesterone intramuscular injection, or oral contraceptive, which has been started at least one month prior to visit one and will continue for the duration of the trial. The contraceptive patch or condom use with spermicide is also acceptable forms of contraception as long as they will be used continually throughout the duration of the trial.	Eligibility	8
+progesterone	CHEBI:17026	118-130
+progesterone	CHEBI:17026	139-151
+oral contraceptive	CHEBI:49325	180-198
+month	UO:0000035	236-241
+duration	PATO:0001309	287-295
+duration	PATO:0001309	462-470
+Exclusion Criteria:	Eligibility	9
+Subject is <18 years of age.	Eligibility	10
+age	PATO:0000011	24-27
+Disease progression has occurred while receiving a taxane regimen.	Eligibility	11
+disease	DOID:4,OGMS:0000031	0-7
+taxane	CHEBI:36064	51-57
+Subject has undergone radiation therapy within 4 weeks of enrollment.	Eligibility	12
+Subject has undergone bone marrow or stem-cell transplantation.	Eligibility	13
+bone marrow	UBERON:0002371	22-33
+Subject has a history of prior malignancy other than breast cancer that is NOT in remission.	Eligibility	14
+history	BFO:0000182	14-21
+breast cancer	DOID:1612	53-66
+Subjects that have used G-CSF or any other drug that may potentiate the release of neutrophils (i.e., lithium) within 6 weeks of the screening period are excluded.	Eligibility	15
+drug	CHEBI:23888	43-47
+excluded	HP:0040285	154-162
+Subject has had chemotherapy within 180 days of screening.	Eligibility	16
+Subject has documented congestive heart failure, cardiomyopathy or myocardial infarction by clinical diagnosis, electrocardiogram (ECG) test, or any other relevant test.	Eligibility	17
+congestive heart failure	HP:0001635,DOID:6000	23-47
+cardiomyopathy	HP:0001638,DOID:0050700	49-63
+myocardial infarction	HP:0001658,DOID:5844	67-88
+History of alcohol or drug abuse that would interfere with the ability to be compliant with the study procedure.	Eligibility	18
+history	BFO:0000182	0-7
+alcohol	CHEBI:16236	11-18
+drug	CHEBI:23888	22-26
+Unwillingness to participate in the study.	Eligibility	19
+Any underlying medical condition that, in the Investigator's opinion, would make the administration of study drug hazardous to the patient or that would obscure the interpretation of adverse events.	Eligibility	20
+condition	PDRO:0000129	23-32
+drug	CHEBI:23888	109-113
+patient	HADO:0000008,OAE:0001817	131-138
+Receiving other investigational drugs or biologics within 1 month or five half lives of enrollment (if known), which ever is less.	Eligibility	21
+month	UO:0000035	60-65
+Any condition, which can cause splenomegaly.	Eligibility	22
+condition	PDRO:0000129	4-13
+splenomegaly	HP:0001744	31-43
+Chronic constipation or diarrhea, irritable bowel syndrome, inflammatory bowel disease.	Eligibility	23
+chronic constipation	HP:0012450	0-20
+diarrhea	HP:0002014,DOID:13250	24-32
+irritable bowel syndrome	DOID:9778	34-58
+inflammatory bowel disease	DOID:0050589	60-86
+ALT, AST, alkaline phosphatase, total bilirubin 2.5x ULN.	Eligibility	24
+phosphatase	GO:0016791,BAO:0000295	19-30
+Subject with active infection, or known to be infected with chronic active Hepatitis B within the last 1 year (unless shown at the time of study entry to be Hepatitis B antigen negative), or having any history of Hepatitis C.	Eligibility	25
+active	PATO:0002354	13-19
+active	PATO:0002354	68-74
+chronic active hepatitis	HP:0200120	60-84
+hepatitis b	DOID:2043	75-86
+hepatitis b	DOID:2043	157-168
+year	UO:0000036	105-109
+time	PATO:0000165	131-135
+antigen	CHEBI:59132	169-176
+history	BFO:0000182	202-209
+hepatitis c	DOID:1883	213-224
+Women who are pregnant or breast-feeding.	Eligibility	26
+Subject known to be seropositive for HIV, or who have had an AIDS defining illness or a known immunodeficiency disorder.	Eligibility	27
+immunodeficiency	HP:0002721	94-110
+disorder	OGMS:0000045	111-119
+Subject with a history of tuberculosis or exposure to tuberculosis. Patients that have received a prior chest X-ray for suspicion of tuberculosis are also excluded unless they have been confirmed to be PPD negative or they had latent tuberculosis that has been previously treated.	Eligibility	28
+history	BFO:0000182	15-22
+tuberculosis	DOID:399	26-38
+tuberculosis	DOID:399	54-66
+tuberculosis	DOID:399	133-145
+tuberculosis	DOID:399	234-246
+chest	UBERON:0001443	104-109
+excluded	HP:0040285	155-163
+Subjects with Sickle Cell disease	Eligibility	29
+disease	DOID:4,OGMS:0000031	26-33
+Subjects with known hypersensitivity to E.coli derived proteins' pegfilgrastim' filgrastim, or any other component of the study drug.	Eligibility	30
+hypersensitivity	GO:0002524,DOID:1205	20-36
+drug	CHEBI:23888	128-132
+Outcome Measurement:	Results	0
+Duration in Days of Grade 4 Neutropenia in Chemotherapy Cycle 1	Results	1
+duration	PATO:0001309	0-8
+neutropenia	HP:0001875,DOID:1227	28-39
+Eligible subjects were randomized in a 1:1 ratio. Subjects were dosed with either the F 627 20 mg/dose PFS or Neulasta® 6 mg/dose as the study drug in each chemotherapy cycle. Subjects remained in their assigned treatment arm throughout the study. Subjects were dosed subcutaneously (SC) 24 to 28 hours after receiving TC chemotherapy (75 mg/m2 docetaxel + 600 mg/m2 cyclophosphamide) on Day 2 of each chemotherapy cycle that the subject underwent (up to 4 cycles). Grade 4 (severe) neutropenia was defined as ANC <0.5 × 109/L within the first 12 days of chemotherapy.	Results	2
+ratio	UO:0000190	43-48
+f	UO:0000195	86-87
+f	UO:0000195	104-105
+f	UO:0000195	304-305
+f	UO:0000195	395-396
+f	UO:0000195	501-502
+f	UO:0000195	538-539
+f	UO:0000195	553-554
+drug	CHEBI:23888	143-147
+cyclophosphamide	CHEBI:4026	367-383
+day	UO:0000033	388-391
+day	UO:0000033	547-550
+severe	HP:0012828	475-481
+neutropenia	HP:0001875,DOID:1227	483-494
+Time frame: The first of 4, 21-day chemotherapy cycles (average 3 weeks)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: F-627	Results	5
+Arm/Group Description: F-627, 20 mg fixed dose pre-filled syringe, administered on Day 2 of each of 4 chemotherapy cycles.	Results	6
+day	UO:0000033	83-86
+F-627: single dose pre-filled syringe	Results	7
+Overall Number of Participants Analyzed: 197	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: days  0.2         (0.51)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Neulasta	Results	12
+Arm/Group Description: 6 mg fixed dose Neulasta  , administered on Day 2 of each of 4 chemotherapy cycles	Results	13
+day	UO:0000033	67-70
+Neulasta: single dose pre-filled syringe	Results	14
+Overall Number of Participants Analyzed: 196	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: days  0.2         (0.45)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 12/197 (6.09%)	Adverse Events	1
+Febrile neutropenia 2/197 (1.02%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+anemia 0/197 (0.00%)	Adverse Events	3
+anemia	HP:0001903,DOID:2355	0-6
+neutropenia 0/197 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Myocardial infarction 0/197 (0.00%)	Adverse Events	5
+myocardial infarction	HP:0001658,DOID:5844	0-21
+fatigue 1/197 (0.51%)	Adverse Events	6
+fatigue	HP:0012378	0-7
+Hepatitis toxic 0/197 (0.00%)	Adverse Events	7
+hepatitis	HP:0012115,DOID:2237	0-9
+diabetic ketoacidosis 1/197 (0.51%)	Adverse Events	8
+diabetic ketoacidosis	HP:0001953,DOID:1837	0-21
+syncope 1/197 (0.51%)	Adverse Events	9
+syncope	HP:0001279	0-7
+acute kidney injury 1/197 (0.51%)	Adverse Events	10
+acute kidney injury	HP:0001919	0-19
+pulmonary embolism 1/197 (0.51%)	Adverse Events	11
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+pneumonia 2/197 (1.02%)	Adverse Events	12
+pneumonia	HP:0002090,DOID:552	0-9
+Adverse Events 2:	Adverse Events	13
+Total: 3/196 (1.53%)	Adverse Events	14
+Febrile neutropenia 0/196 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+anemia 1/196 (0.51%)	Adverse Events	16
+anemia	HP:0001903,DOID:2355	0-6
+neutropenia 1/196 (0.51%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Myocardial infarction 1/196 (0.51%)	Adverse Events	18
+myocardial infarction	HP:0001658,DOID:5844	0-21
+fatigue 0/196 (0.00%)	Adverse Events	19
+fatigue	HP:0012378	0-7
+Hepatitis toxic 1/196 (0.51%)	Adverse Events	20
+hepatitis	HP:0012115,DOID:2237	0-9
+diabetic ketoacidosis 0/196 (0.00%)	Adverse Events	21
+diabetic ketoacidosis	HP:0001953,DOID:1837	0-21
+syncope 0/196 (0.00%)	Adverse Events	22
+syncope	HP:0001279	0-7
+acute kidney injury 0/196 (0.00%)	Adverse Events	23
+acute kidney injury	HP:0001919	0-19
+pulmonary embolism 0/196 (0.00%)	Adverse Events	24
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+pneumonia 1/196 (0.51%)	Adverse Events	25
+pneumonia	HP:0002090,DOID:552	0-9
+angioedema 0/196 (0.00%)	Adverse Events	26
+angioedema	HP:0100665,DOID:1558	0-10

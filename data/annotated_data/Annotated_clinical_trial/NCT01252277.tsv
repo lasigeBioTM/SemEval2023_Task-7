@@ -1,0 +1,114 @@
+INTERVENTION 1:	Intervention	0
+Lovaza™	Intervention	1
+Lovaza™: 4 capsules daily for 6 months	Intervention	2
+Inclusion Criteria	Eligibility	0
+Subjects must be premenopausal and between the ages of 25 and 54 and must have had a menstrual period within the past 12 months. Women who are not menstruating regularly due to use of certain types of contraceptives may be entered with restrictions. Their estrogen progesterone, and follicle stimulating hormone (FSH) levels must be documented at baseline random periareolar fine needle aspiration (RPFNA) and their off study RPFNA must take place at a similar portion of their cycle (high or low progesterone levels). In order to do this a serum progesterone will have to be obtained ~ 4 weeks before planned RPFNA and again 2 weeks later such that the RPFNA can be performed in the same phase of the "cycle" as baseline.	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	256-264
+progesterone	CHEBI:17026	265-277
+progesterone	CHEBI:17026	497-509
+progesterone	CHEBI:17026	547-559
+follicle stimulating hormone	CHEBI:81569	283-311
+aspiration	HP:0002835	387-397
+Subjects must be at increased risk for breast cancer on the basis of at least one of the following criteria:	Eligibility	2
+breast cancer	DOID:1612	39-52
+A five-year Gail risk of  1.67% or three times the average risk for a woman of the same age using either the Surveillance Epidemiology and End Results (SEER, http://seer.cancer.gov) database or the NCI Breast Cancer Risk Assessment Tool (www.cancer.gov/bcrisktool)., or 10 yr Tyrer-Cuzick risk twice that of the population risk as listed in model, or RPFNA atypia	Eligibility	3
+age	PATO:0000011	55-58
+age	PATO:0000011	88-91
+breast cancer	DOID:1612	202-215
+BMI <40 Kg/m3	Eligibility	4
+A first degree relative with breast cancer under the age of 60 or multiple second degree relatives with breast cancer.	Eligibility	5
+breast cancer	DOID:1612	29-42
+breast cancer	DOID:1612	104-117
+age	PATO:0000011	53-56
+second	UO:0000010	75-81
+Multiple prior biopsies or at least one prior biopsy exhibiting atypical hyperplasia (AH), lobular carcinoma in situ (LCIS), ductal carcinoma in situ (DCIS).	Eligibility	6
+lobular carcinoma in situ	HP:0030076,DOID:3010	91-116
+ductal carcinoma in situ	HP:0030075,DOID:0060074	125-149
+RPFNA evidence of hyperplasia with atypia within the last three years;	Eligibility	7
+Chest or neck radiation before age 30;	Eligibility	8
+chest	UBERON:0001443	0-5
+neck	GO:0044326,UBERON:0000974	9-13
+age	PATO:0000011	31-34
+Mammographic breast density by visual estimate equals or exceeds 50%.	Eligibility	9
+breast	UBERON:0000310	13-19
+Subjects must be willing to continue the same hormonal milieu present at baseline throughout trial. If not using an oral, vaginal, or topical contraceptive, must be willing to actively use barrier methods of contraception to prevent pregnancy.	Eligibility	10
+present	PATO:0000467	62-69
+Six months or more must have elapsed from completion of a prevention intervention trial (with exception of a weight reduction trial), ingestion of a selective estrogen receptor modulator (SERM) or aromatase inhibitor (AI) prior to baseline biomarker assessment.	Eligibility	11
+estrogen receptor modulator	CHEBI:50739	159-186
+inhibitor	CHEBI:35222	207-216
+biomarker	CHEBI:59163	240-249
+Subjects must be willing to undergo measurement of height, weight, and BMI and undergo body composite analysis (DEXA) at initiation and conclusion of intervention.	Eligibility	12
+Subjects with a history of AH, LCIS, or ER-positive DCIS by diagnostic biopsy, must have been counseled about appropriate standard prevention therapies such as tamoxifen and are either not eligible or are not interested in standard prevention therapies. Women with DCIS must have had appropriate local therapy (lumpectomy plus radiation or mastectomy). If subject has had a DCIS, at least two months must have elapsed from surgery and/or radiation therapy to the involved breast. Only the contralateral (uninvolved breast) will be studied by RPFNA. The subject may not have had any radiation therapy to the contralateral breast to be studied	Eligibility	13
+history	BFO:0000182	16-23
+tamoxifen	CHEBI:41774	160-169
+surgery	OAE:0000067	423-430
+breast	UBERON:0000310	472-478
+breast	UBERON:0000310	515-521
+breast	UBERON:0000310	621-627
+Subjects > 40 must have had a screening mammogram within 6 months of entering the interventional portion of the study and read as not suspicious for breast cancer or if suspicious must have completed all suggested tests including biopsy and found to have no evidence of cancer. Subjects of sufficient age and/or risk for a baseline mammogram must be willing to have an off-study mammogram performed 6 months after study entry.	Eligibility	14
+breast cancer	DOID:1612	149-162
+cancer	DOID:162	156-162
+cancer	DOID:162	270-276
+age	PATO:0000011	301-304
+Subjects must have had an RPFNA of the breast within six months prior to entering the intervention portion of the study and be willing to have another RPFNA at ~6.5 months after starting Lovaza™.	Eligibility	15
+breast	UBERON:0000310	39-45
+Tissue Eligibility: Subjects must have cytomorphologic evidence of hyperplasia with atypia or borderline atypia (Masood score 14 or higher). There must be 500 epithelial cells on the slide for cytomorphology and evidence of proliferation by Ki-67 staining. There must be sufficient reserved methanol- formalin-fixed material for real time quantitative polymerase chain reaction (RT-qPCR). Frozen tissue must also have been obtained for fatty acid analysis, reverse phase proteomics, adipokines and cytokines, and RT-qPCR.	Eligibility	16
+tissue	UBERON:0000479	0-6
+tissue	UBERON:0000479	396-402
+borderline	HP:0012827	94-104
+time	PATO:0000165	334-338
+polymerase chain reaction	BAO:0002080	352-377
+fatty acid	CHEBI:35366	436-446
+Subjects must be willing to undergo phlebotomy at baseline, and 6 months and 6.5 months approximately 3 tablespoons of blood will be obtained at baseline, and 6 months and 6.5 months or 6 tablespoons if the subject decides to participate in the optional monocyte cytokine release assay .	Eligibility	17
+blood	UBERON:0000178	119-124
+cytokine	BAO:0002023	263-271
+Subjects must produce a spot urine sample at baseline, 6 months and at study conclusion. Baseline urine sample will in part be used to document that subject is not pregnant.	Eligibility	18
+urine	UBERON:0001088	29-34
+urine	UBERON:0001088	98-103
+document	IAO:0000310	135-143
+Subjects must be willing to complete questionnaires regarding diet and supplement use, quality of life, relevant family history, personal health and reproductive history and medications at initiation and conclusion of the intervention.	Eligibility	19
+quality	BAO:0002928,BFO:0000019	87-94
+family history	HP:0032316	113-127
+history	BFO:0000182	120-127
+history	BFO:0000182	162-169
+Subjects must be willing to sign an informed consent for the entire study and separate consent for repeat RPFNA	Eligibility	20
+Exclusion Criteria	Eligibility	21
+Women that have had a metastatic malignancy of any kind.	Eligibility	22
+Women that have had prior invasive breast cancer, diagnosed or treated within the past five years.	Eligibility	23
+breast cancer	DOID:1612	35-48
+Women who are currently taking anticoagulants.	Eligibility	24
+Women who have breast implants.	Eligibility	25
+breast	UBERON:0000310	15-21
+Women who have undergone change in their hormonal milieu in the past 6 months this includes pregnancy, lactation, or stopping or starting hormonal contraceptives..	Eligibility	26
+lactation	GO:0007595	103-112
+Women who have taken omega 3 fatty acid supplements within 3 weeks prior to their baseline RPFNA.	Eligibility	27
+fatty acid	CHEBI:35366	29-39
+Women who regularly take NSAIDS (>7 tablets weekly).	Eligibility	28
+Inclusion of Women and Minorities	Eligibility	29
+-This study utilizes women at increased risk for breast cancer. Subjects recruited from an established cohort of women followed in the Breast Cancer Prevention Center. From previous trials we can expect 6% minority accrual which is similar to our hospital demographics. Males are not included due to the low absolute risk of breast cancer, and the difficulty of performing RPFNA on the male breast.	Eligibility	30
+breast cancer	DOID:1612	49-62
+breast cancer	DOID:1612	135-148
+breast cancer	DOID:1612	325-338
+male	CHEBI:30780,PATO:0000384	270-274
+male	CHEBI:30780,PATO:0000384	386-390
+breast	UBERON:0000310	49-55
+breast	UBERON:0000310	135-141
+breast	UBERON:0000310	325-331
+breast	UBERON:0000310	391-397
+Outcome Measurement:	Results	0
+The Proportion of Subjects That Complete an Intervention of Lovaza™ 4 Grams Per Day	Results	1
+day	UO:0000033	80-83
+The proportion of subjects that complete an intervention of Lovaza™ 4 grams per day (~ 1800 mg EPA and 1500 mg DHA) administered for 6 months to premenopausal women under age 55.	Results	2
+day	UO:0000033	80-83
+age	PATO:0000011	171-174
+Time frame: 6 month visit	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	14-19
+Results 1:	Results	4
+Arm/Group Title: Lovaza™	Results	5
+Arm/Group Description: Lovaza™: 4 capsules daily for 6 months	Results	6
+Overall Number of Participants Analyzed: 36	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: proportion of enrolled participants  0.94	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/36 (0.00%)	Adverse Events	1

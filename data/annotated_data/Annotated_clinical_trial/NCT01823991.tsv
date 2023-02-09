@@ -1,0 +1,113 @@
+INTERVENTION 1:	Intervention	0
+A - Cognutrin #1	Intervention	1
+Cognutrin Treatment Time 1	Intervention	2
+time	PATO:0000165	20-24
+INTERVENTION 2:	Intervention	3
+B - Cognutrin #2	Intervention	4
+Cognutrin Time 2.	Intervention	5
+time	PATO:0000165	10-14
+Inclusion Criteria:	Eligibility	0
+Cases with Stage II-IIIA Breast Cancer that have completed adjuvant treatment with anthracyclines and/or taxanes + or -Radiation therapy within past 6 months(+/- 7 days) (subjects on concurrent endocrine therapy (TAM, Aromatase inhibitors are also eligible to participate as this is standard of care for this patient population)	Eligibility	1
+breast cancer	DOID:1612	25-38
+adjuvant	CHEBI:60809	59-67
+patient	HADO:0000008,OAE:0001817	309-316
+Able to understand and sign the informed consent	Eligibility	2
+Fluent in reading, comprehension and communication in the English language	Eligibility	3
+No evidence of dementia - Mini Mental State Examination (MMSE) >=23 but some evidence of cognitive impairment	Eligibility	4
+dementia	HP:0000726,DOID:1307	15-23
+cognitive impairment	HP:0100543	89-109
+Must be aware of the nature of his current medical condition and must be willing to give consent after being informed of the experimental nature of therapy, alternatives, potential benefits, side-effects, risks and discomforts	Eligibility	5
+condition	PDRO:0000129	51-60
+Eastern Cooperative Oncology Group (ECOG) performance status of 0- 2 (Karnofsky score >60%)	Eligibility	6
+group	CHEBI:24433	29-34
+Acceptable hemoglobin and hematocrit level based on complete blood count (CBC)	Eligibility	7
+hemoglobin	CHEBI:35143	11-21
+hematocrit	CMO:0000037	26-36
+blood	UBERON:0000178	61-66
+Must be willing to be monitored for adequacy of nutritional intake during the intervention, as is the current standard of clinical practice	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Use of estrogens (oral, dermal or vaginal), progesterone (oral or topical), androgens, Raloxifene or Tamoxifen during the previous 3 months	Eligibility	10
+progesterone	CHEBI:17026	44-56
+raloxifene	CHEBI:8772	87-97
+tamoxifen	CHEBI:41774	101-110
+Use of over the counter steroid hormonal supplements including dehydroepiandrosterone (DHEA)	Eligibility	11
+steroid	CHEBI:35341	24-31
+dehydroepiandrosterone	CHEBI:28689	63-85
+Patients with advanced or Stage IIIIB or IV breast cancer or other cancers	Eligibility	12
+breast cancer	DOID:1612	44-57
+Use of n-3 fatty acids or high dose antioxidant supplements other than what is provided in the trial	Eligibility	13
+antioxidant	CHEBI:22586	36-47
+History of known allergy to components of the study supplements	Eligibility	14
+history	BFO:0000182	0-7
+allergy	HP:0012393	17-24
+Renal or liver disease	Eligibility	15
+liver disease	DOID:409	9-22
+Concurrent participation in another chemoprevention trial	Eligibility	16
+Evidence of bleeding diathesis or coagulopathy	Eligibility	17
+Metabolic abnormalities (e.g. thyroid disorders, insulin dependent diabetes, rheumatologic disease etc.)	Eligibility	18
+insulin	CHEBI:145810	49-56
+disease	DOID:4,OGMS:0000031	91-98
+Known claustrophobia, presence of pacemaker and/or ferromagnetic material in their body that would prohibit MRI imaging	Eligibility	19
+claustrophobia	HP:0025253	6-20
+Medical history of concussions	Eligibility	20
+history	BFO:0000182	8-15
+Other acute or chronic medical or psychiatric condition or laboratory abnormality that may increase risk associated with study participation or study drug administration, or may interfere with interpretation of study results, and in the judgment of the investigator would make the potential participant inappropriate for entry into this study	Eligibility	21
+acute	HP:0011009,PATO:0000389	6-11
+chronic	HP:0011010	15-22
+condition	PDRO:0000129	46-55
+increase	BAO:0001251	91-99
+drug administration	OAE:0000011	150-169
+Outcome Measurement:	Results	0
+Change in Cognitive Function Scores With Intervention - HVLT and COWA	Results	1
+function	BAO:0003117,BFO:0000034	20-28
+Mean change in cognitive function scores measured from baseline to post intervention with Cognutrin compared to placebo. Mean cognitive function scores by group and compared by time of testing (Time 1, Time 2). The HVLT test assesses verbal learning and memory. Subjects are given a list of words and asked to repeat as many words as they can recall at 3 times. There is no absolute low & high, as scores are age adjusted. Reported scores are T-scores- average score should be 50, with a standard deviation of 10. Any score below 50 indicates performance below population averages and any score above 50 indicates higher than population averages.The COWA test is a verbal fluency test that measures spontaneous production of words belonging to the same category or beginning with a designed letter. The scores are converted to z-scores. A Z score of -1 is 1 standard deviation below mean. The lowest and highest Z scores could be  -3.0 and 3.0. A lower Z score is indicative of poor fluency.	Results	2
+mean	BAO:0002173	0-4
+mean	BAO:0002173	121-125
+mean	BAO:0002173	883-887
+function	BAO:0003117,BFO:0000034	25-33
+function	BAO:0003117,BFO:0000034	136-144
+group	CHEBI:24433	155-160
+time	PATO:0000165	177-181
+time	PATO:0000165	194-198
+time	PATO:0000165	202-206
+time	PATO:0000165	355-359
+learning	GO:0007612	241-249
+memory	GO:0007613	254-260
+age	PATO:0000011	409-412
+age	PATO:0000011	457-460
+age	PATO:0000011	576-579
+age	PATO:0000011	641-644
+standard deviation	BAO:0002176	488-506
+standard deviation	BAO:0002176	858-876
+Time frame: Baseline (Time 1) and at 3 months +/- 7 days (Time 2)	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	22-26
+time	PATO:0000165	58-62
+Results 1:	Results	4
+Arm/Group Title: A - Cognutrin #1	Results	5
+Arm/Group Description: Cognutrin Treatment Time 1	Results	6
+time	PATO:0000165	43-47
+Overall Number of Participants Analyzed: 5	Results	7
+Mean (Standard Error)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: score  HVLT-total recall: 49.04         (6.41)	Results	9
+HVLT-delayed recall: 44.82         (5.33)	Results	10
+COWA-z score: -.341         (.686)	Results	11
+Results 2:	Results	12
+Arm/Group Title: B - Cognutrin #2	Results	13
+Arm/Group Description: Cognutrin Time 2.	Results	14
+time	PATO:0000165	33-37
+Overall Number of Participants Analyzed: 5	Results	15
+Mean (Standard Error)	Results	16
+mean	BAO:0002173	0-4
+Unit of Measure: score  HVLT-total recall: 44.93         (7.55)	Results	17
+HVLT-delayed recall: 41.59         (7.02)	Results	18
+COWA-z score: -.452         (.577)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 1/18 (5.56%)	Adverse Events	1
+Psychosis *  [1]1/18 (5.56%)	Adverse Events	2
+psychosis	HP:0000709	0-9
+Adverse Events 2:	Adverse Events	3
+Total: 0/18 (0.00%)	Adverse Events	4
+Psychosis *  [1]0/18 (0.00%)	Adverse Events	5
+psychosis	HP:0000709	0-9

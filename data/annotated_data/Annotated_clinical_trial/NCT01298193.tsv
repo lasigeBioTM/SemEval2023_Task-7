@@ -1,0 +1,253 @@
+INTERVENTION 1:	Intervention	0
+Observational Phase (First Cycle):	Intervention	1
+Observational phase (first cycle):	Intervention	2
+Day 0 (Dexamethasone 8mg) Day 1 (5-hydroxytryptamine 3 [5-HT3] antagonist, Ondansetron: 8 mg x2, Granisetron: 1mg x2,Tropisetron: 5 mg, Dexamethasone 24 mg).	Intervention	3
+day	UO:0000033	0-3
+day	UO:0000033	26-29
+dexamethasone	CHEBI:41879	7-20
+dexamethasone	CHEBI:41879	136-149
+antagonist	CHEBI:48706	63-73
+ondansetron	CHEBI:7773	75-86
+granisetron	CHEBI:5537	97-108
+tropisetron	CHEBI:32269	117-128
+Chemotherapy: Docetaxel 75mg/m2 and Cyclophosphamide 600mg/m2 Days 2 and 3 (Dexamethasone 16 mg).	Intervention	4
+cyclophosphamide	CHEBI:4026	36-52
+dexamethasone	CHEBI:41879	76-89
+Inclusion Criteria:	Eligibility	0
+Female patient  18 years of age.	Eligibility	1
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+age	PATO:0000011	28-31
+Patient has a histological confirmed early-stage (I to III) breast cancer.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	60-73
+Patient is able to understand study procedures and agrees to participate in the study by giving written informed consent.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+Patient is naive to moderate or highly emetogenic chemotherapy per "Hesketh" criteria.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+moderate	HP:0012826	20-28
+Patient is scheduled to receive of chemotherapy with Docetaxel-Cyclophosphamide (Docetaxel 75mg/m2 and Cyclophosphamide 600mg/m2) administered every 21 days.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+cyclophosphamide	CHEBI:4026	63-79
+cyclophosphamide	CHEBI:4026	103-119
+Patient has a predicted life expectancy  4 months.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+Functional State 0-1 Eastern Cooperative Oncology Group (ECOG) Scale (see Appendix 12.2).	Eligibility	7
+functional	BAO:0000010	0-10
+group	CHEBI:24433	50-55
+Patient has an adequate organ function including the following:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+organ	UBERON:0000062	24-29
+function	BAO:0003117,BFO:0000034	30-38
+Bone marrow reserve: Absolute Neutrophil Count >1500/mm3 and white blood cell (WBC) count >3000/mm3; Platelet Count >100.000/mm3	Eligibility	9
+bone marrow	UBERON:0002371	0-11
+blood	UBERON:0000178	67-72
+platelet count	CMO:0000029	101-115
+Hepatic: aspartate aminotransferase (AST) <2.5 x upper limit of normal; alanine aminotransferase (ALT) <2.5 x upper limit of normal; Bilirubin within the normal limit.	Eligibility	10
+aspartate	CHEBI:29995	9-18
+x	LABO:0000148	47-48
+x	LABO:0000148	108-109
+alanine	CHEBI:16449	72-79
+Renal: Creatinine <1.5 x upper limit of normal.	Eligibility	11
+creatinine	CHEBI:16737	7-17
+x	LABO:0000148	23-24
+Premenopausal female patients must demonstrate a negative serum and/or urine pregnancy test within 3 days of study drug administration, and agree to use a double-barrier form of contraception for at least 14 days prior to, throughout and for at least 14 days following the last dose of study medication. Women taking oral contraceptive agents must agree to add a barrier form of contraception. Abstinence is also considered an acceptable form of contraception. (Note: A female patient who is not of reproductive potential is eligible without requiring the use of contraception. A female patient who is not of reproductive potential is defined as one who has either: 1) reached natural menopause (defined as 6 months of spontaneous amenorrhea with serum follicle stimulating hormone (FSH) levels in the postmenopausal range as determined by the laboratory, or 12 months of spontaneous amenorrhea); 2) 6 weeks post surgical bilateral oophorectomy with or without hysterectomy; or 3) bilateral tubal ligation.)	Eligibility	12
+female	PATO:0000383	14-20
+female	PATO:0000383	470-476
+female	PATO:0000383	580-586
+urine	UBERON:0001088	71-76
+drug administration	OAE:0000011	115-134
+oral contraceptive	CHEBI:49325	317-335
+patient	HADO:0000008,OAE:0001817	21-28
+patient	HADO:0000008,OAE:0001817	477-484
+patient	HADO:0000008,OAE:0001817	587-594
+menopause	GO:0042697	685-694
+amenorrhea	HP:0000141,DOID:13938	731-741
+amenorrhea	HP:0000141,DOID:13938	884-894
+follicle stimulating hormone	CHEBI:81569	753-781
+range	LABO:0000114	817-822
+bilateral	HP:0012832	922-931
+bilateral	HP:0012832	981-990
+Patient is able to read, understand and complete study questionnaires.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	14
+Patient is scheduled to receive any chemotherapy treatment different to the Docetaxel-Cyclophosphamide chemotherapy.	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+Patient has received or will receive radiation therapy to the abdomen, chest or pelvis in the month prior to the study enter.	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+abdomen	UBERON:0000916	62-69
+chest	UBERON:0001443	71-76
+month	UO:0000035	94-99
+Patient has vomited in the 24 hours prior to Treatment Day 1.	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+day	UO:0000033	55-58
+Patient has a history of treatment with emetogenic chemotherapy of moderate or high level per "Hesketh" (classification of emetogenic chemotherapy agents).	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+history	BFO:0000182	14-21
+moderate	HP:0012826	67-75
+Patient has an active infection (e.g., pneumonia) or any uncontrolled disease (e.g., diabetic ketoacidosis, gastrointestinal obstruction) except for malignancy which, in the opinion of the investigator, might confound the results of the study or pose unwarranted risk.	Eligibility	19
+patient	HADO:0000008,OAE:0001817	0-7
+active	PATO:0002354	15-21
+pneumonia	HP:0002090,DOID:552	39-48
+disease	DOID:4,OGMS:0000031	70-77
+diabetic ketoacidosis	HP:0001953,DOID:1837	85-106
+gastrointestinal obstruction	HP:0004796	108-136
+Patient currently uses any illicit drugs, including marijuana, or has current evidence of alcohol abuse as determined by the investigator.	Eligibility	20
+patient	HADO:0000008,OAE:0001817	0-7
+alcohol	CHEBI:16236	90-97
+Patient is mentally incapacitated or has a significant emotional or psychiatric disorder that, in the opinion of the investigator, precludes study entry.	Eligibility	21
+patient	HADO:0000008,OAE:0001817	0-7
+disorder	OGMS:0000045	80-88
+Patient has a history of any illness that, in the opinion of the investigator, might confound the results of the study or pose unwarranted risk.	Eligibility	22
+patient	HADO:0000008,OAE:0001817	0-7
+history	BFO:0000182	14-21
+Patient has a history of hypersensitivity to aprepitant, 5-HT3 antagonists, or dexamethasone.	Eligibility	23
+patient	HADO:0000008,OAE:0001817	0-7
+history	BFO:0000182	14-21
+hypersensitivity	GO:0002524,DOID:1205	25-41
+aprepitant	CHEBI:499361	45-55
+dexamethasone	CHEBI:41879	79-92
+Patient is pregnant or breast feeding.	Eligibility	24
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	23-29
+Patient has participated in a study with aprepitant or has taken a non approved (investigational) drug within the last 4 weeks.	Eligibility	25
+patient	HADO:0000008,OAE:0001817	0-7
+aprepitant	CHEBI:499361	41-51
+drug	CHEBI:23888	98-102
+Patient is taking systemic corticosteroid therapy at any dose; topical and inhaled corticosteroids are permitted.	Eligibility	26
+patient	HADO:0000008,OAE:0001817	0-7
+corticosteroid	CHEBI:50858	27-41
+corticosteroid	CHEBI:50858	83-97
+Patient is taking, or will be taking within 28 days of Day 1 of cycle 2 (cycle in which patients will start taking aprepitant) the following CYP3A4 inducers:	Eligibility	27
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	88-95
+day	UO:0000033	47-50
+day	UO:0000033	55-58
+aprepitant	CHEBI:499361	115-125
+phenytoin or carbamazepine	Eligibility	28
+phenytoin	CHEBI:8107	0-9
+carbamazepine	CHEBI:3387	13-26
+barbiturates	Eligibility	29
+barbiturates	CHEBI:22693	0-12
+rifampicin or rifabutin	Eligibility	30
+rifampicin	CHEBI:71365	0-10
+rifabutin	CHEBI:45367	14-23
+St. John's Wort	Eligibility	31
+Patient is taking, or will be taking within 7 days of Day 1 of cycle 2 the following CYP3A4 substrates:	Eligibility	32
+patient	HADO:0000008,OAE:0001817	0-7
+day	UO:0000033	46-49
+day	UO:0000033	54-57
+terfenadine	Eligibility	33
+terfenadine	CHEBI:9453	0-11
+cisapride	Eligibility	34
+cisapride	CHEBI:3720	0-9
+astemizole	Eligibility	35
+astemizole	CHEBI:2896	0-10
+pimozide	Eligibility	36
+pimozide	CHEBI:8212	0-8
+Patient is taking, or will be taking within the 7 days of Day 1 of cycle 2 the following CYP3A4 inhibitors:	Eligibility	37
+patient	HADO:0000008,OAE:0001817	0-7
+day	UO:0000033	50-53
+day	UO:0000033	58-61
+clarithromycin	Eligibility	38
+clarithromycin	CHEBI:3732	0-14
+ketoconazole, itraconazole	Eligibility	39
+ketoconazole	CHEBI:47519,BAO:0000796	0-12
+itraconazole	CHEBI:6076	14-26
+Patient will be taking an antiemetic within 48 hours of Day 1 of cycle 2. Prohibited antiemetics include:	Eligibility	40
+patient	HADO:0000008,OAE:0001817	0-7
+antiemetic	CHEBI:50919	26-36
+antiemetic	CHEBI:50919	85-95
+day	UO:0000033	56-59
+5-HT3 antagonists (ondansetron, granisetron, dolasetron, tropisetron or palonosetron)	Eligibility	41
+ondansetron	CHEBI:7773	19-30
+granisetron	CHEBI:5537	32-43
+dolasetron	CHEBI:4682	45-55
+tropisetron	CHEBI:32269	57-68
+palonosetron	CHEBI:85161	72-84
+phenothiazines (e.g., prochlorperazine, fluphenazine, perphenazine, thiethylperazine, or chlorpromazine)	Eligibility	42
+phenothiazines	CHEBI:38093	0-14
+prochlorperazine	CHEBI:8435	22-38
+fluphenazine	CHEBI:5123	40-52
+perphenazine	CHEBI:8028	54-66
+thiethylperazine	CHEBI:9544	68-84
+chlorpromazine	CHEBI:3647	89-103
+butyrophenones (e.g., haloperidol or droperidol)	Eligibility	43
+haloperidol	CHEBI:5613	22-33
+droperidol	CHEBI:4717	37-47
+benzamides (e.g., metoclopramide or alizapride)	Eligibility	44
+benzamides	CHEBI:22702	0-10
+metoclopramide	CHEBI:107736	18-32
+domperidone	Eligibility	45
+domperidone	CHEBI:31515	0-11
+cannabinoids	Eligibility	46
+herbal therapies with potential antiemetic properties	Eligibility	47
+antiemetic	CHEBI:50919	32-42
+scopolamine	Eligibility	48
+scopolamine	CHEBI:16794	0-11
+cyclizine	Eligibility	49
+cyclizine	CHEBI:3994	0-9
+Patient has used benzodiazepines or opiates, except for single daily doses of triazolam, temazepam or midazolam in the 48 hours prior to Day 1 of cycle 2. Continuation of chronic benzodiazepines or opiate therapy is permitted provided it was initiated at least 48 hours before enrollment.	Eligibility	50
+patient	HADO:0000008,OAE:0001817	0-7
+triazolam	CHEBI:9674	78-87
+temazepam	CHEBI:9435	89-98
+midazolam	CHEBI:6931	102-111
+day	UO:0000033	137-140
+chronic	HP:0011010	171-178
+Outcome Measurement:	Results	0
+Number of Participants With Complete Response (CR)	Results	1
+Complete response is defined as no vomiting and no use of rescue treatment within the first cycle of Docetaxel-Cyclophosphamide for the treatment of early-stage breast cancer patients. A vomiting episode is defined as one or more episodes of emesis (expulsion of stomach contents through the mouth) or retches (an attempt to vomit that is not productive of stomach contents). Distinct vomiting episodes are, by definition, separated by the absence of emesis and retching for at least 1 minute. The timing (date and time) of each vomiting episode will be recorded by the patient in each cycle diary at the time of occurrence. Assessments of efficacy will begin at the initiation of chemotherapy infusion (0 hours) until the morning of Day 6 (approximately 120 hours) after chemotherapy during 1-2 cycles.	Results	2
+vomiting	HP:0002013	35-43
+vomiting	HP:0002013	187-195
+vomiting	HP:0002013	385-393
+vomiting	HP:0002013	529-537
+rescue treatment	BAO:0110005	58-74
+breast cancer	DOID:1612	161-174
+stomach	UBERON:0000945	263-270
+stomach	UBERON:0000945	357-364
+mouth	UBERON:0000165	292-297
+minute	UO:0000031	486-492
+time	PATO:0000165	515-519
+time	PATO:0000165	605-609
+patient	HADO:0000008,OAE:0001817	175-182
+patient	HADO:0000008,OAE:0001817	570-577
+efficacy	BAO:0000656	640-648
+day	UO:0000033	734-737
+Time frame: Up to 21 days after cycle 1 of chemotherapy treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Observational Phase (First Cycle):	Results	5
+Arm/Group Description: Observational phase (first cycle):	Results	6
+Day 0 (Dexamethasone 8mg) Day 1 (5-hydroxytryptamine 3 [5-HT3] antagonist, Ondansetron: 8 mg x2, Granisetron: 1mg x2,Tropisetron: 5 mg, Dexamethasone 24 mg).	Results	7
+day	UO:0000033	0-3
+day	UO:0000033	26-29
+dexamethasone	CHEBI:41879	7-20
+dexamethasone	CHEBI:41879	136-149
+antagonist	CHEBI:48706	63-73
+ondansetron	CHEBI:7773	75-86
+granisetron	CHEBI:5537	97-108
+tropisetron	CHEBI:32269	117-128
+Chemotherapy: Docetaxel 75mg/m2 and Cyclophosphamide 600mg/m2 Days 2 and 3 (Dexamethasone 16 mg).	Results	8
+cyclophosphamide	CHEBI:4026	36-52
+dexamethasone	CHEBI:41879	76-89
+Overall Number of Participants Analyzed: 185	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  161  87.0%	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 31/185 (16.76%)	Adverse Events	1
+Anemic Shock  [1]1/185 (0.54%)	Adverse Events	2
+shock	HP:0031273	7-12
+Febrile Neutropenia  [2]13/185 (7.03%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Febrile Neutropenia 2/185 (1.08%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Febrile neutropenia  [3]3/185 (1.62%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutrophil Count Decreased  [2]2/185 (1.08%)	Adverse Events	6
+Neutrophil Count Decreased  [3]2/185 (1.08%)	Adverse Events	7
+Neutrophil Count Decreased  [4]2/185 (1.08%)	Adverse Events	8
+Colon Diverticulitis 1/185 (0.54%)	Adverse Events	9
+colon	UBERON:0001155	0-5
+diverticulitis	DOID:7475	6-20
+Vomiting  [2]1/185 (0.54%)	Adverse Events	10
+vomiting	HP:0002013	0-8

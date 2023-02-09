@@ -1,0 +1,57 @@
+INTERVENTION 1:	Intervention	0
+Intraoperative Handheld Gamma Camera (pIHGC)	Intervention	1
+The prototype intraoperative handheld gamma camera (pIHGC)	Intervention	2
+radioactive Tc99M: Lymphoscintigraphy involves injection of 0.4 to 1.0 mCi of radioactive Tc99M sulfur colloid around at the tumor site.	Intervention	3
+site	BFO:0000029	131-135
+INTERVENTION 2:	Intervention	4
+Gamma Probes (GP)	Intervention	5
+Lymphoscintigraphy with standard of care intraoperative gamma probes (GP)	Intervention	6
+radioactive Tc99M: Lymphoscintigraphy involves injection of 0.4 to 1.0 mCi of radioactive Tc99M sulfur colloid around at the tumor site.	Intervention	7
+site	BFO:0000029	131-135
+INCLUSION CRITERIA	Eligibility	0
+Malignancy for which sentinel node biopsy with lymphoscintigraphy are indicated as part of the standard of care for tumor staging	Eligibility	1
+part of	BAO:0090002,BFO:0000050	83-90
+Age 18 or greater.	Eligibility	2
+age	PATO:0000011	0-3
+Healthy enough for surgery	Eligibility	3
+healthy	HP:0032322	0-7
+surgery	OAE:0000067	19-26
+Able to understand and willing to sign a written informed consent document.	Eligibility	4
+document	IAO:0000310	66-74
+EXCLUSION CRITERIA	Eligibility	5
+No exclusion requirements due to co-morbid disease or intercurrent illness.	Eligibility	6
+disease	DOID:4,OGMS:0000031	43-50
+Documented allergy to colloid.	Eligibility	7
+allergy	HP:0012393	11-18
+Lymphoscintigraphy presents excessive high risk, eg, a consideration if pregnant or lactating	Eligibility	8
+Outcome Measurement:	Results	0
+Relative Node Detection Sensitivity	Results	1
+Relative node detection sensitivity (S) was defined as the proportion of sentinel lymph nodes (SLNs) that were identified with each instrument, with the proportion determined as the number of true positives (TP) divided by the total evaluated (N). The outcome result is expressed as the percentage for each device with 95% confidence intervals.	Results	2
+lymph	UBERON:0002391	82-87
+instrument	BAO:0003118	132-142
+result	BAO:0000179	260-266
+Time frame: 1 day	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	14-17
+Results 1:	Results	4
+Arm/Group Title: Intraoperative Handheld Gamma Camera (pIHGC)	Results	5
+Arm/Group Description: The prototype intraoperative handheld gamma camera (pIHGC)	Results	6
+radioactive Tc99M: Lymphoscintigraphy involves injection of 0.4 to 1.0 mCi of radioactive Tc99M sulfur colloid around at the tumor site.	Results	7
+site	BFO:0000029	131-135
+Overall Number of Participants Analyzed: 50	Results	8
+Overall Number of Units Analyzed	Results	9
+Type of Units Analyzed: Sentinel lymph nodes (SLNs)  Measure Type: NumberNumber (95% Confidence Interval)Unit of Measure: Percentage (%) of SLNs detected: 88.5        (82.3 to 94.6)	Results	10
+lymph	UBERON:0002391	33-38
+Results 2:	Results	11
+Arm/Group Title: Gamma Probes (GP)	Results	12
+Arm/Group Description: Lymphoscintigraphy with standard of care intraoperative gamma probes (GP)	Results	13
+radioactive Tc99M: Lymphoscintigraphy involves injection of 0.4 to 1.0 mCi of radioactive Tc99M sulfur colloid around at the tumor site.	Results	14
+site	BFO:0000029	131-135
+Overall Number of Participants Analyzed: 50	Results	15
+Overall Number of Units Analyzed	Results	16
+Type of Units Analyzed: Sentinel lymph nodes (SLNs)  Measure Type: NumberNumber (95% Confidence Interval)Unit of Measure: Percentage (%) of SLNs detected: 94.2        (89.7 to 98.7)	Results	17
+lymph	UBERON:0002391	33-38
+Adverse Events 1:	Adverse Events	0
+Total: 0/50 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/50 (0.00%)	Adverse Events	3

@@ -1,0 +1,72 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab + Sunitinib	Intervention	1
+sunitinib	CHEBI:38940	14-23
+Trastuzumab was administered intravenously (i.v) weekly (loading 4 mg/kg followed by weekly 2 mg/kg) or every 3 weeks (loading 8 mg/kg followed by 6 mg/kg thrice weekly). Sunitinib began with 37.5 mg by oral capsule once daily in a continuous regimen. Treatment was administered in 4-week cycles.	Intervention	2
+sunitinib	CHEBI:38940	171-180
+capsule	GO:0042603	208-215
+Inclusion Criteria:	Eligibility	0
+A diagnosis of breast cancer with evidence of 1) unresectable, locally recurrent, or 2) metastatic disease.	Eligibility	1
+breast cancer	DOID:1612	15-28
+recurrent	HP:0031796	71-80
+disease	DOID:4,OGMS:0000031	99-106
+HER2 positive disease (3+ by immunohistochemistry [IHC] or FISH-positive)	Eligibility	2
+disease	DOID:4,OGMS:0000031	14-21
+immunohistochemistry	BAO:0000415	29-49
+Candidate for treatment with trastuzumab. Prior treatment with trastuzumab and or/ lapatinib in the neoadjuvant, adjuvant or metastatic disease setting is permitted. Treatment with hormone therapy in the adjuvant and/or advanced disease setting is permitted.	Eligibility	3
+lapatinib	CHEBI:49603	83-92
+adjuvant	CHEBI:60809	103-111
+adjuvant	CHEBI:60809	113-121
+adjuvant	CHEBI:60809	204-212
+disease	DOID:4,OGMS:0000031	136-143
+disease	DOID:4,OGMS:0000031	229-236
+hormone	CHEBI:24621	181-188
+Exclusion Criteria:	Eligibility	4
+Prior treatment with >1 regimen of cytotoxic therapy in the advanced disease setting. Adjuvant chemotherapy is permitted	Eligibility	5
+disease	DOID:4,OGMS:0000031	69-76
+adjuvant	CHEBI:60809	86-94
+Prior exposure to trastuzumab if the patient had developed severe hypersensitivity reactions.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	37-44
+severe	HP:0012828	59-65
+hypersensitivity	GO:0002524,DOID:1205	66-82
+Prior treatment on a SU11248 clinical trial.	Eligibility	7
+Uncontrolled brain metastases.	Eligibility	8
+brain	UBERON:0000955	13-18
+Outcome Measurement:	Results	0
+Percentage of Participants With Overall Confirmed Objective Disease Response	Results	1
+disease	DOID:4,OGMS:0000031	60-67
+Objective disease response =participants with confirmed complete response (CR) or partial response (PR) according to Response Evaluation Criteria in Solid Tumors (RECIST). A CR was defined as the disappearance of all target and non-target lesions. A PR was defined as a > = 30% decrease in the sum of the longest dimensions of the target lesions taking as a reference the baseline sum longest dimensions associated to a non-progressive disease response for the non target lesions.	Results	2
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	436-443
+target	BAO:0003064	217-223
+target	BAO:0003064	232-238
+target	BAO:0003064	331-337
+target	BAO:0003064	465-471
+Time frame: From start of treatment through 18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab + Sunitinib	Results	5
+sunitinib	CHEBI:38940	31-40
+Arm/Group Description: Trastuzumab was administered intravenously (i.v) weekly (loading 4 mg/kg followed by weekly 2 mg/kg) or every 3 weeks (loading 8 mg/kg followed by 6 mg/kg thrice weekly). Sunitinib began with 37.5 mg by oral capsule once daily in a continuous regimen. Treatment was administered in 4-week cycles.	Results	6
+sunitinib	CHEBI:38940	194-203
+capsule	GO:0042603	231-238
+Overall Number of Participants Analyzed: 57	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  36.8        (24.4 to 50.7)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 25/60 (41.67%)	Adverse Events	1
+Anaemia * 1/60 (1.67%)	Adverse Events	2
+Febrile neutropenia * 2/60 (3.33%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Idiopathic thrombocytopenic purpura * 1/60 (1.67%)	Adverse Events	4
+purpura	HP:0000979,DOID:3326	28-35
+Thrombocytopenia * 3/60 (5.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure * 1/60 (1.67%)	Adverse Events	6
+Cardiac failure acute * 1/60 (1.67%)	Adverse Events	7
+acute	HP:0011009,PATO:0000389	16-21
+Cardiogenic shock * 1/60 (1.67%)	Adverse Events	8
+cardiogenic shock	HP:0030149	0-17
+Left ventricular dysfunction * 1/60 (1.67%)	Adverse Events	9
+left	HP:0012835	0-4
+Anal fistula * 1/60 (1.67%)	Adverse Events	10
+anal fistula	HP:0010447,DOID:0060328	0-12

@@ -1,0 +1,232 @@
+INTERVENTION 1:	Intervention	0
+Cohort A: KNp / KAC	Intervention	1
+Participants received pembrolizumab (K) 200 mg on Cycle 1 Day 1 followed by pembrolizumab 200 mg in Cycles 2-5 on Day 1 (once every 3 weeks; Q3W) PLUS nab-paclitaxel (KNp) starting at 125 mg/m^2 in Cycles 2-5 on Days 1, 8 and 15 (once each week; QW). This was followed by pembrolizumab (K) 200 mg in Cycles 6-9 on Day 1 (Q3W) PLUS doxorubicin (A) 60 mg/m^2 in Cycles 6-9 on Day 1 (Q3W) PLUS cyclophosphamide (C) 600 mg/m^2 in Cycles 6-9 on Day 1 (Q3W). All treatments were administered via intravenous (IV) infusion except for doxorubicin (A), which was administered via IV injection. Each cycle was 21 days.	Intervention	2
+day	UO:0000033	58-61
+day	UO:0000033	114-117
+day	UO:0000033	212-215
+day	UO:0000033	314-317
+day	UO:0000033	374-377
+day	UO:0000033	440-443
+day	UO:0000033	603-606
+week	UO:0000034	134-138
+week	UO:0000034	240-244
+doxorubicin	CHEBI:28748,BAO:0000639	331-342
+doxorubicin	CHEBI:28748,BAO:0000639	527-538
+cyclophosphamide	CHEBI:4026	391-407
+INTERVENTION 2:	Intervention	3
+Cohort B: KNpCb (Regimen 1) / KAC	Intervention	4
+Participants first received KNpCb Regimen 1 which consisted of: pembrolizumab (K) 200 mg on Cycle 1 Day 1 PLUS nab-paclitaxel (KNp) starting at 100 mg/m^2 in Cycles 2-5 on Days 1, 8 and 15 (QW) PLUS carboplatin (Cb) starting at Area Under the Curve (AUC) 6 in Cycles 2-5 on Day 1 (Q3W). This was followed by pembrolizumab (K) 200 mg in Cycles 6-9 on Day 1 (Q3W) PLUS doxorubicin (A) 60 mg/m^2 in Cycles 6-9 on Day 1 (Q3W) PLUS cyclophosphamide (C) 600 mg/m^2 in Cycles 6-9 on Day 1 (Q3W). All treatments were administered via IV infusion except for doxorubicin (A), which was administered via IV injection. Each cycle was 21 days.	Intervention	5
+day	UO:0000033	100-103
+day	UO:0000033	172-175
+day	UO:0000033	274-277
+day	UO:0000033	350-353
+day	UO:0000033	410-413
+day	UO:0000033	476-479
+day	UO:0000033	625-628
+carboplatin	CHEBI:31355	199-210
+area	PATO:0001323	228-232
+auc	BAO:0002120	250-253
+doxorubicin	CHEBI:28748,BAO:0000639	367-378
+doxorubicin	CHEBI:28748,BAO:0000639	549-560
+cyclophosphamide	CHEBI:4026	427-443
+Inclusion Criteria:	Eligibility	0
+Has previously untreated, locally advanced TNBC.	Eligibility	1
+Is able to provide 2 core needle biopsies from the primary tumor at screening to the central laboratory and agrees to have a core needle biopsy after single dose pembrolizumab treatment if tumor biopsy is feasible as judged by the investigator.	Eligibility	2
+central	HP:0030645	85-92
+Has Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.	Eligibility	3
+group	CHEBI:24433	33-38
+Has adequate organ function.	Eligibility	4
+organ	UBERON:0000062	13-18
+function	BAO:0003117,BFO:0000034	19-27
+Females of childbearing potential must be willing to use adequate contraception for the course of the study through 12 months after the last dose of study drug for participants receiving cyclophosphamide and through 6 months after the last dose of study drug for participants who do not receive cyclophosphamide.	Eligibility	5
+drug	CHEBI:23888	155-159
+drug	CHEBI:23888	254-258
+cyclophosphamide	CHEBI:4026	187-203
+cyclophosphamide	CHEBI:4026	295-311
+Exclusion Criteria:	Eligibility	6
+Has evidence of metastatic breast cancer, concurrent bilateral invasive breast cancer, or inflammatory breast cancer.	Eligibility	7
+breast cancer	DOID:1612	27-40
+breast cancer	DOID:1612	72-85
+breast cancer	DOID:1612	103-116
+bilateral	HP:0012832	53-62
+Has another malignancy within the last 5 years. Exceptions include basal cell carcinoma of the skin, squamous cell carcinoma of the skin that has undergone potentially curative surgery, or in situ cervical cancer.	Eligibility	8
+basal cell carcinoma	HP:0002671,DOID:2513	67-87
+squamous cell carcinoma of the skin	HP:0006739	101-136
+surgery	OAE:0000067	177-184
+cervical cancer	DOID:4362	197-212
+Has received prior chemotherapy, targeted therapy, radiation therapy, immunotherapy that targets immune checkpoints, co-stimulatory or co-inhibitory pathways for T cell receptors within the past 12 months.	Eligibility	9
+t	CHEBI:36371,BAO:0001260	24-25
+t	CHEBI:36371,BAO:0001260	33-34
+t	CHEBI:36371,BAO:0001260	38-39
+t	CHEBI:36371,BAO:0001260	42-43
+t	CHEBI:36371,BAO:0001260	56-57
+t	CHEBI:36371,BAO:0001260	61-62
+t	CHEBI:36371,BAO:0001260	76-77
+t	CHEBI:36371,BAO:0001260	84-85
+t	CHEBI:36371,BAO:0001260	87-88
+t	CHEBI:36371,BAO:0001260	89-90
+t	CHEBI:36371,BAO:0001260	94-95
+t	CHEBI:36371,BAO:0001260	113-114
+t	CHEBI:36371,BAO:0001260	121-122
+t	CHEBI:36371,BAO:0001260	127-128
+t	CHEBI:36371,BAO:0001260	144-145
+t	CHEBI:36371,BAO:0001260	151-152
+t	CHEBI:36371,BAO:0001260	162-163
+t	CHEBI:36371,BAO:0001260	174-175
+t	CHEBI:36371,BAO:0001260	181-182
+t	CHEBI:36371,BAO:0001260	186-187
+t	CHEBI:36371,BAO:0001260	193-194
+t	CHEBI:36371,BAO:0001260	201-202
+Is currently participating and receiving study therapy, or has participated in a study of an investigational agent and received study therapy or used an investigational device within 4 weeks of the first dose of study drug.	Eligibility	10
+drug	CHEBI:23888	218-222
+Has received a live vaccine within 30 days of the first dose of study drug.	Eligibility	11
+vaccine	VO:0000001	20-27
+drug	CHEBI:23888	70-74
+Has an active autoimmune disease that has required systemic treatment in past 2 years.	Eligibility	12
+active	PATO:0002354	7-13
+autoimmune disease	DOID:417	14-32
+Has a diagnosis of immunodeficiency or is receiving systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to the first dose of study drug.	Eligibility	13
+immunodeficiency	HP:0002721	19-35
+steroid	CHEBI:35341	61-68
+drug	CHEBI:23888	171-175
+Has a known history of Human Immunodeficiency Virus (HIV).	Eligibility	14
+history	BFO:0000182	12-19
+immunodeficiency	HP:0002721	29-45
+virus	BAO:0000232	46-51
+Has known active Hepatitis B or Hepatitis C.	Eligibility	15
+active	PATO:0002354	10-16
+hepatitis b	DOID:2043	17-28
+hepatitis c	DOID:1883	32-43
+Has evidence of current pneumonitis.	Eligibility	16
+Has a history of non-infectious pneumonitis requiring treatment with steroids or a history of interstitial lung disease.	Eligibility	17
+history	BFO:0000182	6-13
+history	BFO:0000182	83-90
+interstitial lung disease	DOID:3082	94-119
+Has an active infection requiring systemic therapy.	Eligibility	18
+active	PATO:0002354	7-13
+Has significant cardiovascular disease, such as: History of myocardial infarction, acute coronary syndrome or coronary angioplasty/stenting/bypass grafting within the last 6 months; Congestive heart failure (CHF) New York Heart Association (NYHA) Class II-IV or history of CHF NYHA class III or IV	Eligibility	19
+disease	DOID:4,OGMS:0000031	31-38
+history	BFO:0000182	49-56
+history	BFO:0000182	262-269
+myocardial infarction	HP:0001658,DOID:5844	60-81
+acute coronary syndrome	HP:0033678	83-106
+congestive heart failure	HP:0001635,DOID:6000	182-206
+heart	UBERON:0000948	193-198
+heart	UBERON:0000948	222-227
+Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the study.	Eligibility	20
+substance abuse	DOID:302	25-40
+Is pregnant or breastfeeding, or expecting to conceive children within the projected duration of the study, starting with the screening visit through 12 months after the last dose of trial treatment for participants who have received cyclophosphamide, and for six months after the last dose of study medication for participants who have not.	Eligibility	21
+duration	PATO:0001309	85-93
+cyclophosphamide	CHEBI:4026	234-250
+Has a known hypersensitivity to the components of the study drug or its analogs.	Eligibility	22
+hypersensitivity	GO:0002524,DOID:1205	12-28
+drug	CHEBI:23888	60-64
+Outcome Measurement:	Results	0
+Number of Participants With Dose Limiting Toxicities (DLTs) Graded Using National Cancer Institute Common Toxicity Criteria for Adverse Events Version 4.0 (NCI CTCAE v4.0)	Results	1
+cancer	DOID:162	82-88
+The following events, if considered to be study-treatment-related by the Investigator, were considered a DLT:	Results	2
+Hematologic:	Results	3
+Grade 4 neutropenia lasting 8 days;	Results	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Febrile neutropenia Grade 3 or Grade 4; or	Results	5
+neutropenia	HP:0001875,DOID:1227	8-19
+Grade 4 thrombocytopenia requiring platelet transfusion, or Grade 3 thrombocytopenia with bleeding	Results	6
+thrombocytopenia	HP:0001873,DOID:1588	8-24
+thrombocytopenia	HP:0001873,DOID:1588	68-84
+Non-hematologic:	Results	7
+Grade 4 toxicity;	Results	8
+Grade 3 symptomatic hepatic toxicities lasting >48 hours, or Grade 3 asymptomatic hepatic toxicities lasting 7 days; or	Results	9
+Grade 3 non-hematologic, non-hepatic organ toxicity, with exceptions	Results	10
+organ	UBERON:0000062	37-42
+Other:	Results	11
+Any treatment delays for 14 days due to unresolved toxicity;	Results	12
+Grade 5 treatment-related adverse event (AE);	Results	13
+adverse event	OAE:0000001	26-39
+A dose reduction of study treatment during the DLT evaluation period.	Results	14
+Time frame: Cycle 1 Day 1 through end of Cycle 3 and Cycle 6 Day 1 through end of Cycle 7 (Up to ~150 days from first dose of first combination regimen); Each cycle was 21 days.	Results	15
+time	PATO:0000165	0-4
+day	UO:0000033	20-23
+day	UO:0000033	61-64
+day	UO:0000033	102-105
+day	UO:0000033	172-175
+Results 1:	Results	16
+Arm/Group Title: Cohort A: KNp / KAC	Results	17
+Arm/Group Description: Participants received pembrolizumab (K) 200 mg on Cycle 1 Day 1 followed by pembrolizumab 200 mg in Cycles 2-5 on Day 1 (once every 3 weeks; Q3W) PLUS nab-paclitaxel (KNp) starting at 125 mg/m^2 in Cycles 2-5 on Days 1, 8 and 15 (once each week; QW). This was followed by pembrolizumab (K) 200 mg in Cycles 6-9 on Day 1 (Q3W) PLUS doxorubicin (A) 60 mg/m^2 in Cycles 6-9 on Day 1 (Q3W) PLUS cyclophosphamide (C) 600 mg/m^2 in Cycles 6-9 on Day 1 (Q3W). All treatments were administered via intravenous (IV) infusion except for doxorubicin (A), which was administered via IV injection. Each cycle was 21 days.	Results	18
+day	UO:0000033	81-84
+day	UO:0000033	137-140
+day	UO:0000033	235-238
+day	UO:0000033	337-340
+day	UO:0000033	397-400
+day	UO:0000033	463-466
+day	UO:0000033	626-629
+week	UO:0000034	157-161
+week	UO:0000034	263-267
+doxorubicin	CHEBI:28748,BAO:0000639	354-365
+doxorubicin	CHEBI:28748,BAO:0000639	550-561
+cyclophosphamide	CHEBI:4026	414-430
+Overall Number of Participants Analyzed: 10	Results	19
+Measure Type: Count of Participants	Results	20
+Unit of Measure: Participants  2  20.0%	Results	21
+Results 2:	Results	22
+Arm/Group Title: Cohort B: KNpCb (Regimen 1) / KAC	Results	23
+Arm/Group Description: Participants first received KNpCb Regimen 1 which consisted of: pembrolizumab (K) 200 mg on Cycle 1 Day 1 PLUS nab-paclitaxel (KNp) starting at 100 mg/m^2 in Cycles 2-5 on Days 1, 8 and 15 (QW) PLUS carboplatin (Cb) starting at Area Under the Curve (AUC) 6 in Cycles 2-5 on Day 1 (Q3W). This was followed by pembrolizumab (K) 200 mg in Cycles 6-9 on Day 1 (Q3W) PLUS doxorubicin (A) 60 mg/m^2 in Cycles 6-9 on Day 1 (Q3W) PLUS cyclophosphamide (C) 600 mg/m^2 in Cycles 6-9 on Day 1 (Q3W). All treatments were administered via IV infusion except for doxorubicin (A), which was administered via IV injection. Each cycle was 21 days.	Results	24
+day	UO:0000033	123-126
+day	UO:0000033	195-198
+day	UO:0000033	297-300
+day	UO:0000033	373-376
+day	UO:0000033	433-436
+day	UO:0000033	499-502
+day	UO:0000033	648-651
+carboplatin	CHEBI:31355	222-233
+area	PATO:0001323	251-255
+auc	BAO:0002120	273-276
+doxorubicin	CHEBI:28748,BAO:0000639	390-401
+doxorubicin	CHEBI:28748,BAO:0000639	572-583
+cyclophosphamide	CHEBI:4026	450-466
+Overall Number of Participants Analyzed: 10	Results	25
+Measure Type: Count of Participants	Results	26
+Unit of Measure: Participants  4  40.0%	Results	27
+Adverse Events 1:	Adverse Events	0
+Total: 5/10 (50.00%)	Adverse Events	1
+Anaemia 0/10 (0.00%)	Adverse Events	2
+Febrile neutropenia 1/10 (10.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphadenitis 0/10 (0.00%)	Adverse Events	4
+lymphadenitis	HP:0002840,DOID:1602	0-13
+Neutropenia 0/10 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Abdominal pain upper 0/10 (0.00%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Colitis 0/10 (0.00%)	Adverse Events	7
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea 0/10 (0.00%)	Adverse Events	8
+Nausea 1/10 (10.00%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Oesophagitis 0/10 (0.00%)	Adverse Events	10
+Pyrexia 0/10 (0.00%)	Adverse Events	11
+Autoimmune hepatitis 0/10 (0.00%)	Adverse Events	12
+autoimmune hepatitis	DOID:2048	0-20
+Influenza 0/10 (0.00%)	Adverse Events	13
+influenza	DOID:8469	0-9
+Adverse Events 2:	Adverse Events	14
+Total: 4/10 (40.00%)	Adverse Events	15
+Anaemia 0/10 (0.00%)	Adverse Events	16
+Febrile neutropenia 2/10 (20.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymphadenitis 0/10 (0.00%)	Adverse Events	18
+lymphadenitis	HP:0002840,DOID:1602	0-13
+Neutropenia 1/10 (10.00%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Abdominal pain upper 0/10 (0.00%)	Adverse Events	20
+abdominal pain	HP:0002027	0-14
+Colitis 0/10 (0.00%)	Adverse Events	21
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea 0/10 (0.00%)	Adverse Events	22
+Nausea 0/10 (0.00%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Oesophagitis 0/10 (0.00%)	Adverse Events	24
+Pyrexia 1/10 (10.00%)	Adverse Events	25
+Autoimmune hepatitis 0/10 (0.00%)	Adverse Events	26
+autoimmune hepatitis	DOID:2048	0-20
+Influenza 0/10 (0.00%)	Adverse Events	27
+influenza	DOID:8469	0-9

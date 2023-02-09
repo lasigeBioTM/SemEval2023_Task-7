@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Diffuse Optical Spectroscopy Imaging (DOSI	Intervention	1
+diffuse	HP:0020034	0-7
+Participants undergo approximately four assessments of breast health using the DOSI technology during treatment and prior to surgery for breast cancer.	Intervention	2
+breast	UBERON:0000310	55-61
+breast	UBERON:0000310	137-143
+surgery	OAE:0000067	125-132
+breast cancer	DOID:1612	137-150
+DOSI: Bedside DOSI images of the tissue concentrations of deoxy-hemoglobin (ctHHb), oxy-hemoglobin (ctHbO2), water (ctH2O), lipid, and TOI (ctHHb x tH2O/lipid) were acquired on both breasts up to four times during NAC treatment.	Intervention	3
+tissue	UBERON:0000479	33-39
+water	CHEBI:15377	109-114
+lipid	CHEBI:18059,BAO:0000171	124-129
+lipid	CHEBI:18059,BAO:0000171	153-158
+x	LABO:0000148	61-62
+x	LABO:0000148	85-86
+x	LABO:0000148	146-147
+nac	CHEBI:7421	214-217
+Inclusion Criteria	Eligibility	0
+Pathologically confirmed diagnosis of invasive breast cancer, determined to be a candidate for primary systemic (neoadjuvant) therapy and for surgical resection of residual primary tumor following completion of neoadjuvant therapy;	Eligibility	1
+breast cancer	DOID:1612	47-60
+Tumor size >2cm, measured on imaging or estimated by physical exam;	Eligibility	2
+size	PATO:0000117	6-10
+No contraindications for primary chemotherapy;	Eligibility	3
+Planned definitive breast surgery (mastectomy or lumpectomy/breast conservation) following completion of neoadjuvant therapy;	Eligibility	4
+breast	UBERON:0000310	19-25
+breast	UBERON:0000310	60-66
+surgery	OAE:0000067	26-33
+Age 18 years or older;	Eligibility	5
+age	PATO:0000011	0-3
+ECOG Performance Status  2 (Karnofsky  60%; see Appendix II);	Eligibility	6
+Normal organ and marrow function as follows:	Eligibility	7
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	24-32
+leukocytes  3,000/μl;	Eligibility	8
+absolute neutrophil count  1,500/μl;	Eligibility	9
+platelets  100,000/μl;	Eligibility	10
+total bilirubin within normal institutional limits;	Eligibility	11
+AST(SGOT)/ALT(SGPT)  2.5 times the institutional upper limit of normal;	Eligibility	12
+creatinine within normal institutional limits; OR	Eligibility	13
+creatinine	CHEBI:16737	0-10
+creatinine clearance  30 mL/min/1.73 m2 for patients with creatinine levels above institutional normal;	Eligibility	14
+creatinine clearance	CMO:0000765	0-20
+m2	CHEBI:34827	37-39
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	58-68
+If female, postmenopausal for a minimum of one year, OR surgically sterile, OR not pregnant, confirmed by a pregnancy test as per institutional Standard of Care (SOC), and willing to use adequate contraception (hormonal or barrier method of birth control; abstinence) for the duration of study participation;	Eligibility	15
+female	PATO:0000383	3-9
+year	UO:0000036	47-51
+duration	PATO:0001309	276-284
+Able to understand and willing to sign a written informed consent document and a HIPAA authorization in accordance with institutional guidelines;	Eligibility	16
+document	IAO:0000310	66-74
+Exclusion Criteria	Eligibility	17
+Previous treatment (chemotherapy, radiation, or surgery) to involved breast; including hormone therapy;	Eligibility	18
+surgery	OAE:0000067	48-55
+breast	UBERON:0000310	69-75
+hormone	CHEBI:24621	87-94
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements;	Eligibility	19
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Medically unstable;	Eligibility	20
+Under age 18;	Eligibility	21
+age	PATO:0000011	6-9
+Pregnant or nursing;	Eligibility	22
+Previous malignancy, other than basal cell or squamous cell carcinoma of the skin or in situ carcinoma of the cervix, from which the patient has been disease free for less than 5 years.	Eligibility	23
+squamous cell carcinoma of the skin	HP:0006739	46-81
+in situ carcinoma	DOID:8719	85-102
+patient	HADO:0000008,OAE:0001817	133-140
+disease	DOID:4,OGMS:0000031	150-157
+Outcome Measurement:	Results	0
+Accuracy of %Change in TOI Between Baseline and Mid-therapy to Predict Pathologic Response (pCR +/-)	Results	1
+This measure will look at the Accuracy of % change in DOSI measured Tumor Optical Index (TOI) from baseline to mid therapy to predict pathologic response (pCR+ v pCR-) Pathologic response (dichotomized into responders (pCR+) and non-responders (pCR-) based pathologic assessment) will be used as the reference standard and Accuracy will be determined using receiver operating characteristic (ROC) analysis to determine the ROC Area Under the Curve (AUC).	Results	2
+area	PATO:0001323	427-431
+auc	BAO:0002120	449-452
+Time frame: From baseline to mid-therapy	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Diffuse Optical Spectroscopy Imaging (DOSI	Results	5
+diffuse	HP:0020034	17-24
+Arm/Group Description: Participants undergo approximately four assessments of breast health using the DOSI technology during treatment and prior to surgery for breast cancer.	Results	6
+breast	UBERON:0000310	78-84
+breast	UBERON:0000310	160-166
+surgery	OAE:0000067	148-155
+breast cancer	DOID:1612	160-173
+DOSI: Bedside DOSI images of the tissue concentrations of deoxy-hemoglobin (ctHHb), oxy-hemoglobin (ctHbO2), water (ctH2O), lipid, and TOI (ctHHb x tH2O/lipid) were acquired on both breasts up to four times during NAC treatment.	Results	7
+tissue	UBERON:0000479	33-39
+water	CHEBI:15377	109-114
+lipid	CHEBI:18059,BAO:0000171	124-129
+lipid	CHEBI:18059,BAO:0000171	153-158
+x	LABO:0000148	61-62
+x	LABO:0000148	85-86
+x	LABO:0000148	146-147
+nac	CHEBI:7421	214-217
+Overall Number of Participants Analyzed: 34	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: probability  0.60        (0.39 to 0.81)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/34 (0.00%)	Adverse Events	1

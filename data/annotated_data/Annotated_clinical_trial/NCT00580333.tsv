@@ -1,0 +1,149 @@
+INTERVENTION 1:	Intervention	0
+Cisplatin/Avastin	Intervention	1
+Cisplatin 75mg/m2 every 3 weeks, neoadjuvant bevacizumab 15mg/m2 every 3 weeks, neoadjuvant doxorubicin, adjuvant (optional) cyclophosphamide , adjuvant (optional) paclitaxel, adjuvant (optional)	Intervention	2
+cisplatin	CHEBI:27899	0-9
+doxorubicin	CHEBI:28748,BAO:0000639	92-103
+adjuvant	CHEBI:60809	36-44
+adjuvant	CHEBI:60809	83-91
+adjuvant	CHEBI:60809	105-113
+adjuvant	CHEBI:60809	144-152
+adjuvant	CHEBI:60809	176-184
+cyclophosphamide	CHEBI:4026	125-141
+paclitaxel	CHEBI:45863	164-174
+cisplatin: Preoperatively: Given intravenously on day one of the treatment cycle (once every 3 wks) for four cycles	Intervention	3
+cisplatin	CHEBI:27899	0-9
+day	UO:0000033	50-53
+bevacizumab: Preoperatively: Given intravenously on day 1 of the treatment cycle (once every three wks) for three cycles Postoperatively: Intravenously for four 2-week cycles (once every two weeks) and after the 8 weeks (study doctor will determine course of treatment) for an additional four 2-week cycles with or with out paclitaxel	Intervention	4
+day	UO:0000033	52-55
+paclitaxel	CHEBI:45863	324-334
+doxorubicin: Postoperative: Given intravenously for four 2-week cycles	Intervention	5
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide: Postoperative: Given intravenously for four two-week cycles	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+paclitaxel: Postoperative: 8 weeks after postoperative chemotherapy regimen (study doctor will determine course of treatment) paclitaxel for four 2-week cycles (once every two week	Intervention	7
+paclitaxel	CHEBI:45863	0-10
+paclitaxel	CHEBI:45863	126-136
+week	UO:0000034	29-33
+week	UO:0000034	148-152
+week	UO:0000034	176-180
+Inclusion Criteria:	Eligibility	0
+All tumors must be ER-, PR- and HER2-negative	Eligibility	1
+Clinical stage T2 or T3, N0-3, M0. Subjects with inflammatory breast cancer are not eligible	Eligibility	2
+breast cancer	DOID:1612	62-75
+For subjects with clinically negative axilla, a sentinel lymph node biopsy will be performed either up front or after preoperative therapy at the discretion of the subject's physicians; for subjects with a clinically positive axilla, a needle aspiration or core biopsy will be performed to confirm the presence of metastatic disease in the lymph nodes.	Eligibility	3
+lymph	UBERON:0002391	57-62
+lymph	UBERON:0002391	340-345
+aspiration	HP:0002835	243-253
+disease	DOID:4,OGMS:0000031	325-332
+18 years of age or older	Eligibility	4
+age	PATO:0000011	12-15
+Performance status (PS) of 0 or 1	Eligibility	5
+Use of an effective means of contraception in subjects of child-bearing potential	Eligibility	6
+Normal organ function as described in the protocol	Eligibility	7
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	13-21
+Exclusion Criteria:	Eligibility	8
+Any prior cytotoxic chemotherapy or radiation for the current breast cancer	Eligibility	9
+breast cancer	DOID:1612	62-75
+HER2-negative ipsilateral breast recurrence, unless prior treatment consisted of excision alone for ductal carcinoma in situ (DCIS)or breast-conserving treatment and hormonal therapy for DCIS or invasive cancer	Eligibility	10
+breast	UBERON:0000310	26-32
+breast	UBERON:0000310	134-140
+ductal carcinoma in situ	HP:0030075,DOID:0060074	100-124
+cancer	DOID:162	204-210
+Life expectancy of less than 12 weeks	Eligibility	11
+Current, recent, or planned participation in an experimental durg study other than a Genentech-sponsored bevacizumab cancer study	Eligibility	12
+cancer	DOID:162	117-123
+Renal dysfunction for which exposure to cisplatin would require dose modifications	Eligibility	13
+cisplatin	CHEBI:27899	40-49
+Steroid dependent asthma	Eligibility	14
+steroid	CHEBI:35341	0-7
+asthma	HP:0002099,DOID:2841	18-24
+Peripheral neuropathy of any etiology that exceeds grade 1	Eligibility	15
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Uncontrolled diabetes	Eligibility	16
+History of malignancy treated without curative intent	Eligibility	17
+history	BFO:0000182	0-7
+Any other pre-existing medical condition that would represent toxicity in excess of grade 1	Eligibility	18
+condition	PDRO:0000129	31-40
+Inadequately controlled hypertension	Eligibility	19
+hypertension	HP:0000822,DOID:10763	24-36
+Any prior history of hypertensive crisis or hypertensive encephalopathy	Eligibility	20
+history	BFO:0000182	10-17
+hypertensive crisis	HP:0100735	21-40
+hypertensive encephalopathy	DOID:9427	44-71
+New York Heart Association (NYHA) Grade II or greater congestive hear failure	Eligibility	21
+heart	UBERON:0000948	9-14
+History of myocardial infarction or unstable angina within 12 months prior to study enrollment	Eligibility	22
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+Any history of stroke or transient ischemic attack at any time	Eligibility	23
+history	BFO:0000182	4-11
+stroke	HP:0001297,DOID:6713	15-21
+transient ischemic attack	HP:0002326,DOID:224	25-50
+time	PATO:0000165	58-62
+Known central nervous system (CNS) disease	Eligibility	24
+central nervous system	UBERON:0001017	6-28
+disease	DOID:4,OGMS:0000031	35-42
+Significant vascular disease	Eligibility	25
+vascular disease	DOID:178	12-28
+Symptomatic peripheral vascular disease	Eligibility	26
+peripheral vascular disease	DOID:341	12-39
+Evidence of bleeding diathesis or coagulopathy	Eligibility	27
+Major surgical procedure, open biopsy, or significant traumatic injury within 21 days prior to study enrollment	Eligibility	28
+History of abdominal fistula, gastrointestinal perforation or intra-abdominal abscess within 6 months prior to study enrollment	Eligibility	29
+history	BFO:0000182	0-7
+abscess	HP:0025615	78-85
+Serious, non-healing wound, ulcer or bone fracture	Eligibility	30
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	37-50
+Proteinuria at screening	Eligibility	31
+proteinuria	HP:0000093,DOID:576	0-11
+Known hypersensitivity to any component of bevacizumab	Eligibility	32
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Pregnant or lactating	Eligibility	33
+Outcome Measurement:	Results	0
+Pathologic Complete Response Rate After Preoperative Therapy With Cisplatin and Bevacizumab in ER-, PR-, Human Epidermal Growth Factor Receptor 2 (HER2) -Negative Early Breast Cancer.	Results	1
+rate	BAO:0080019	29-33
+cisplatin	CHEBI:27899	66-75
+growth factor	BAO:0002024	121-134
+receptor	BAO:0000281	135-143
+breast cancer	DOID:1612	169-182
+The goal of this measure was to determine the pathologic complete response rate (Miller-Payne (MP) score 5) after preoperative therapy with cisplatin and bevacizumab in ER-, PR-, HER2-negative early breast cancer.	Results	2
+rate	BAO:0080019	75-79
+cisplatin	CHEBI:27899	140-149
+breast cancer	DOID:1612	199-212
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cisplatin/Avastin	Results	5
+Arm/Group Description: Cisplatin 75mg/m2 every 3 weeks, neoadjuvant bevacizumab 15mg/m2 every 3 weeks, neoadjuvant doxorubicin, adjuvant (optional) cyclophosphamide , adjuvant (optional) paclitaxel, adjuvant (optional)	Results	6
+cisplatin	CHEBI:27899	23-32
+doxorubicin	CHEBI:28748,BAO:0000639	115-126
+adjuvant	CHEBI:60809	59-67
+adjuvant	CHEBI:60809	106-114
+adjuvant	CHEBI:60809	128-136
+adjuvant	CHEBI:60809	167-175
+adjuvant	CHEBI:60809	199-207
+cyclophosphamide	CHEBI:4026	148-164
+paclitaxel	CHEBI:45863	187-197
+cisplatin: Preoperatively: Given intravenously on day one of the treatment cycle (once every 3 wks) for four cycles	Results	7
+cisplatin	CHEBI:27899	0-9
+day	UO:0000033	50-53
+bevacizumab: Preoperatively: Given intravenously on day 1 of the treatment cycle (once every three wks) for three cycles Postoperatively: Intravenously for four 2-week cycles (once every two weeks) and after the 8 weeks (study doctor will determine course of treatment) for an additional four 2-week cycles with or with out paclitaxel	Results	8
+day	UO:0000033	52-55
+paclitaxel	CHEBI:45863	324-334
+doxorubicin: Postoperative: Given intravenously for four 2-week cycles	Results	9
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide: Postoperative: Given intravenously for four two-week cycles	Results	10
+cyclophosphamide	CHEBI:4026	0-16
+paclitaxel: Postoperative: 8 weeks after postoperative chemotherapy regimen (study doctor will determine course of treatment) paclitaxel for four 2-week cycles (once every two week	Results	11
+paclitaxel	CHEBI:45863	0-10
+paclitaxel	CHEBI:45863	126-136
+week	UO:0000034	29-33
+week	UO:0000034	148-152
+week	UO:0000034	176-180
+Overall Number of Participants Analyzed: 51	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: percentage of participants  16        (7 to 29)	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 0/51 (0.00%)	Adverse Events	1

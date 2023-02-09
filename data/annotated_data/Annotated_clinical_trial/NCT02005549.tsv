@@ -1,0 +1,63 @@
+INTERVENTION 1:	Intervention	0
+Bevacizumab+Docetaxel+Capecitabine	Intervention	1
+Participants received bevacizumab, 15 mg/kg IV, followed by docetaxel 75 mg/m^2 IV on Day 1 and capecitabine 950 mg/m^2 PO BID within 30 minutes after the end of a meal, starting the evening of Day 1 and continuing until the morning of Day 15 (followed by a 7-day rest period) for a maximum of five 3-week cycles.	Intervention	2
+day	UO:0000033	86-89
+day	UO:0000033	194-197
+day	UO:0000033	236-239
+day	UO:0000033	260-263
+capecitabine	CHEBI:31348	96-108
+Inclusion Criteria:	Eligibility	0
+female patients, 18-70years of age;	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	31-34
+histologically-proven invasive breast cancer;	Eligibility	2
+breast cancer	DOID:1612	31-44
+no prior or current neoplasm except for non-melanoma skin cancer, or in situ cancer of the cervix;	Eligibility	3
+neoplasm	HP:0002664,DOID:14566	20-28
+skin cancer	DOID:4159	53-64
+cancer	DOID:162	58-64
+cancer	DOID:162	77-83
+no distant disease/secondary cancer.	Eligibility	4
+cancer	DOID:162	29-35
+Exclusion Criteria:	Eligibility	5
+pregnant or lactating women;	Eligibility	6
+pre-operative local treatment for breast cancer;	Eligibility	7
+breast cancer	DOID:1612	34-47
+prior or concurrent systemic antitumor therapy;	Eligibility	8
+clinically significant cardiac disease.	Eligibility	9
+disease	DOID:4,OGMS:0000031	31-38
+Outcome Measurement:	Results	0
+Percentage of Participants With Pathological Complete Response (pCR)	Results	1
+pCR was defined as the absence of signs for invasive tumor in the final surgical sample as judged by the local pathologist. Surgery was performed 2 to 4 weeks after the last chemotherapy cycle.	Results	2
+surgery	OAE:0000067	124-131
+Time frame: Baseline, 20-24 weeks (final surgery, performed 2 to 4 weeks after the last chemotherapy cycle [Week 18])	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	41-48
+week	UO:0000034	28-32
+week	UO:0000034	67-71
+week	UO:0000034	108-112
+Results 1:	Results	4
+Arm/Group Title: Bevacizumab+Docetaxel+Capecitabine	Results	5
+Arm/Group Description: Participants received bevacizumab, 15 mg/kg IV, followed by docetaxel 75 mg/m^2 IV on Day 1 and capecitabine 950 mg/m^2 PO BID within 30 minutes after the end of a meal, starting the evening of Day 1 and continuing until the morning of Day 15 (followed by a 7-day rest period) for a maximum of five 3-week cycles.	Results	6
+day	UO:0000033	109-112
+day	UO:0000033	217-220
+day	UO:0000033	259-262
+day	UO:0000033	283-286
+capecitabine	CHEBI:31348	119-131
+Overall Number of Participants Analyzed: 18	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  22.22        (6.41 to 47.64)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 5/18 (27.78%)	Adverse Events	1
+Intestinal perforation * 1/18 (5.56%)	Adverse Events	2
+intestinal perforation	HP:0031368,DOID:2074	0-22
+General physical health deterioration * 1/18 (5.56%)	Adverse Events	3
+Impaired healing * 1/18 (5.56%)	Adverse Events	4
+Neutropenic infection * 1/18 (5.56%)	Adverse Events	5
+Contralateral breast cancer * 1/18 (5.56%)	Adverse Events	6
+breast cancer	DOID:1612	14-27
+Menorrhagia * 1/18 (5.56%)	Adverse Events	7
+menorrhagia	HP:0000132	0-11
+Deep vein thrombosis * 2/18 (11.11%)	Adverse Events	8
+vein	UBERON:0001638	5-9
+thrombosis	DOID:0060903	10-20

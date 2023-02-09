@@ -1,0 +1,80 @@
+INTERVENTION 1:	Intervention	0
+Phase 1: Addition of Supine MRI to Conventional Imaging	Intervention	1
+Pre-operative supine MRI with intraoperative optical scanning and tracking (group MRI)	Intervention	2
+group	CHEBI:24433	76-81
+Inclusion Criteria Phase 1	Eligibility	0
+Age greater than/equal to 18 years	Eligibility	1
+age	PATO:0000011	0-3
+Histologic diagnosis of palpable invasive breast cancer or ductal carcinoma in situ	Eligibility	2
+breast cancer	DOID:1612	42-55
+ductal carcinoma in situ	HP:0030075,DOID:0060074	59-83
+Patient desire to undergo breast surgery	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	26-32
+surgery	OAE:0000067	33-40
+3. Patients will have provided informed consent to participate, documented by their signature on the study consent form 4. The cancer enhances on breast MRI imaging.	Eligibility	4
+cancer	DOID:162	127-133
+breast	UBERON:0000310	146-152
+Inclusion Criteria Phase 2	Eligibility	5
+Age greater than/equal to 18 years	Eligibility	6
+age	PATO:0000011	0-3
+Histologic diagnosis of invasive breast cancer or ductal carcinoma in situ	Eligibility	7
+breast cancer	DOID:1612	33-46
+ductal carcinoma in situ	HP:0030075,DOID:0060074	50-74
+The tumor is visible and enhances on prone MRI and is >1 cm in greatest diameter.	Eligibility	8
+diameter	PATO:0001334	72-80
+. Determination by the surgeon that the neoplasm is non-palpable.A patient with a palpable hematoma from core biopsy, but a non-palpable neoplasm, will be eligible for study	Eligibility	9
+neoplasm	HP:0002664,DOID:14566	40-48
+neoplasm	HP:0002664,DOID:14566	137-145
+patient	HADO:0000008,OAE:0001817	67-74
+Patient desire to undergo breast conserving surgery	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	26-32
+surgery	OAE:0000067	44-51
+Patients will have provided informed consent to participate, documented by their signature on the study consent form.The process of informed consent will be documented in the medical record and a copy of the signed consent form will be given to the patient.	Eligibility	11
+process	BFO:0000015	121-128
+medical record	OMIABIS:0001026	175-189
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	249-256
+Exclusion Criteria (Phases 1 and 2)	Eligibility	12
+Absolute contraindication to MRI, including presence of implanted electrical device (pacemaker or neurostimulator), aneurysm clip or metallic foreign body in or near eyes	Eligibility	13
+contraindication	OAE:0000055	9-25
+Severe claustrophobia	Eligibility	14
+severe	HP:0012828	0-6
+claustrophobia	HP:0025253	7-21
+Contraindication to use of gadolinium based intravenous contrast, including life threatening allergy or compromised renal function (creatinine > 2.0)	Eligibility	15
+contraindication	OAE:0000055	0-16
+allergy	HP:0012393	93-100
+function	BAO:0003117,BFO:0000034	122-130
+creatinine	CHEBI:16737	132-142
+History of median sternotomy	Eligibility	16
+history	BFO:0000182	0-7
+median	BAO:0002174	11-17
+Pregnancy (Patient attestation that they are not pregnant will be acceptable, as per standard, as per standard policy for MRIs at DHMC).	Eligibility	17
+patient	HADO:0000008,OAE:0001817	11-18
+Multicentric breast cancer, defined as two or more tumors in different quadrants of the breast. An eligibility worksheet will be completed for each patient prior to enrollment and will be signed and dated by the surgeon investigator	Eligibility	18
+breast cancer	DOID:1612	13-26
+breast	UBERON:0000310	13-19
+breast	UBERON:0000310	88-94
+patient	HADO:0000008,OAE:0001817	148-155
+Outcome Measurement:	Results	0
+The Mean Distance Between the Image-defined and Palpation-defined Edges of the Tumor.	Results	1
+mean	BAO:0002173	4-8
+Mean calculated from differences in precise distances from the nipple to the superior, inferior, medial and lateral edges of the tumor as determined from the adjusted MRI images and conventional MRI.	Results	2
+mean	BAO:0002173	0-4
+lateral	HP:0025275	108-115
+Time frame: From baseline MRI to intraoperative measurements: 30 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase 1: Addition of Supine MRI to Conventional Imaging	Results	5
+Arm/Group Description: Pre-operative supine MRI with intraoperative optical scanning and tracking (group MRI)	Results	6
+group	CHEBI:24433	4-9
+group	CHEBI:24433	99-104
+Overall Number of Participants Analyzed: 18	Results	7
+Mean (Full Range)	Results	8
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: mm  7.2        (0 to 19)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/18 (0.00%)	Adverse Events	1
+Hematoma  [1]0/18 (0.00%)	Adverse Events	2

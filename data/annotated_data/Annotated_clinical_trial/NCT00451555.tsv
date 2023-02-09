@@ -1,0 +1,198 @@
+INTERVENTION 1:	Intervention	0
+Enzastaurin + Fulvestrant QD + BID	Intervention	1
+fulvestrant	CHEBI:31638	14-25
+Participants received Enzastaurin loading dose of 1125 mg, on Day 1 of Cycle 1 only then received Enzastaurin 500 mg orally (QD) once daily in a 28-day cycle.	Intervention	2
+day	UO:0000033	62-65
+day	UO:0000033	148-151
+Participants received enzastaurin loading dose of 1125 mg, on Day 1 of Cycle 1 only then received Enzastaurin 250 mg orally (BID) twice daily in a 28-day cycle.	Intervention	3
+day	UO:0000033	62-65
+day	UO:0000033	150-153
+Fulvestrant was given intramuscularly at a loading dose of 500 mg on Day 1 and 250 mg on Day 15 in Cycle 1. Subsequent doses of Fulvestrant 250 mg were given on Day 1 of Cycle 2 and every 28 days thereafter.	Intervention	4
+fulvestrant	CHEBI:31638	0-11
+fulvestrant	CHEBI:31638	128-139
+day	UO:0000033	69-72
+day	UO:0000033	89-92
+day	UO:0000033	161-164
+day	UO:0000033	191-194
+INTERVENTION 2:	Intervention	6
+Enzastaurin + Fulvestrant BID	Intervention	7
+fulvestrant	CHEBI:31638	14-25
+Participants received enzastaurin (250 mg; 2 tablets) or placebo administered orally twice daily (BID) in a 28-day cycle, until disease progression. Fulvestrant was given intramuscularly at a loading dose of 500 mg on Day 1 and 250 mg on Day 15 in Cycle 1. Subsequent doses of Fulvestrant 250 mg were given on Day 1 of Cycle 2 and every 28 days thereafter.	Intervention	8
+disease	DOID:4,OGMS:0000031	128-135
+fulvestrant	CHEBI:31638	149-160
+fulvestrant	CHEBI:31638	277-288
+day	UO:0000033	111-114
+day	UO:0000033	218-221
+day	UO:0000033	238-241
+day	UO:0000033	310-313
+day	UO:0000033	340-343
+Inclusion Criteria:	Eligibility	0
+Female participants with a histological-documented diagnosis of locally advanced or metastatic breast cancer. The primary or metastatic tumor must be estrogen response (ER) and/or parathyroid hormone receptor (PtR) positive.	Eligibility	1
+female	PATO:0000383	0-6
+breast cancer	DOID:1612	95-108
+estrogen	CHEBI:50114,BAO:0000760	150-158
+hormone	CHEBI:24621	192-199
+receptor	BAO:0000281	200-208
+Note: Hormone receptor positivity is defined as ER or PtR greater than 10 fmol/mg by biochemical assay or 10% positive cells by immunohistochemistry	Eligibility	2
+hormone	CHEBI:24621	6-13
+receptor	BAO:0000281	14-22
+immunohistochemistry	BAO:0000415	128-148
+Participants are resistant to aromatase inhibitors (AI) therapy	Eligibility	3
+Females with postmenopausal status	Eligibility	4
+Previous radiation therapy is allowed, but should have been limited	Eligibility	5
+Measurable or non-measurable disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	29-36
+Have a performance status of 0, 1, or 2 on the Eastern Cooperative Oncology Group (ECOG) scale	Eligibility	7
+group	CHEBI:24433	76-81
+Have adequate organ function	Eligibility	8
+organ	UBERON:0000062	14-19
+function	BAO:0003117,BFO:0000034	20-28
+Have an estimated life expectancy of at least 24 weeks	Eligibility	9
+Must sign an informed consent document	Eligibility	10
+document	IAO:0000310	30-38
+Exclusion Criteria:	Eligibility	11
+Have had prior treatment with fulvestrant or enzastaurin	Eligibility	12
+fulvestrant	CHEBI:31638	30-41
+Are receiving concurrent administration of any other antitumor therapy, with the exception of gonadotropin-releasing hormone (GnRH) antagonists.	Eligibility	13
+hormone	CHEBI:24621	117-124
+Have received treatment within the last 4 weeks with a drug that has not received regulatory approval for any indication at the time of study entry	Eligibility	14
+drug	CHEBI:23888	55-59
+time	PATO:0000165	128-132
+Have received supplemental estrogen or progesterone within 4 weeks prior to study entry	Eligibility	15
+estrogen	CHEBI:50114,BAO:0000760	27-35
+progesterone	CHEBI:17026	39-51
+Are hormone estrogen receptor (HER2)-positive	Eligibility	16
+hormone	CHEBI:24621	4-11
+estrogen	CHEBI:50114,BAO:0000760	12-20
+receptor	BAO:0000281	21-29
+Are unable to discontinue use of anticoagulants	Eligibility	17
+Have hypercalcemia	Eligibility	18
+hypercalcemia	HP:0003072,DOID:12678	5-18
+Have a second primary malignancy that is clinically detectable at the time of consideration for study enrollment	Eligibility	19
+second	UO:0000010	7-13
+time	PATO:0000165	70-74
+Have documented central nervous system (CNS) metastases, symptomatic pulmonary lymphangitis, or involvement of more than 1/3 of the liver	Eligibility	20
+central nervous system	UBERON:0001017	16-38
+lymphangitis	DOID:9317	79-91
+liver	UBERON:0002107	132-137
+Have a serious concomitant systemic disorder	Eligibility	21
+disorder	OGMS:0000045	36-44
+Have a serious cardiac condition	Eligibility	22
+condition	PDRO:0000129	23-32
+Are unwilling or unable to discontinue use of carbamazepine, phenobarbital, or phenytoin at least 14 days prior to study therapy	Eligibility	23
+carbamazepine	CHEBI:3387	46-59
+phenobarbital	CHEBI:8069	61-74
+phenytoin	CHEBI:8107	79-88
+Are unable to swallow tablets.	Eligibility	24
+Outcome Measurement:	Results	0
+Percentage of Participants Who Achieved a Best Response of Complete Response, Partial Response, and Stable Disease (CR+PR+SD) (Clinical Benefit Rate)	Results	1
+stable	HP:0031915	100-106
+disease	DOID:4,OGMS:0000031	107-114
+rate	BAO:0080019	144-148
+Clinical benefit rate is defined as the rate of confirmed CR, confirmed PR, and SD for 24 weeks duration and is the best response CR, PR, or SD as classified by the investigators according to the RECIST v1.1. CR is a disappearance of all target and non-target lesions and normalization of tumor marker level. PR is an at least 30% decrease in the sum of the diameters of target lesions (taking as reference the baseline sum diameter) without progression of not-target lesions or appearance of new lesions. SD is neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for progressive disease, taking as reference the smallest sum diameter since treatment started. Kaplan-Meier (KM) techniques were used to assess the time-to-event endpoints. Progressive Disease (PD) was defined as having at least 20% increase in sum of longest diameter of target lesions and minimum 5 mm increase above nadir.	Results	2
+rate	BAO:0080019	17-21
+rate	BAO:0080019	40-44
+duration	PATO:0001309	96-104
+target	BAO:0003064	238-244
+target	BAO:0003064	253-259
+target	BAO:0003064	371-377
+target	BAO:0003064	461-467
+target	BAO:0003064	867-873
+diameter	PATO:0001334	358-366
+diameter	PATO:0001334	424-432
+diameter	PATO:0001334	656-664
+diameter	PATO:0001334	855-863
+increase	BAO:0001251	574-582
+increase	BAO:0001251	828-836
+increase	BAO:0001251	899-907
+progressive	HP:0003676	598-609
+progressive	HP:0003676	768-779
+disease	DOID:4,OGMS:0000031	610-617
+disease	DOID:4,OGMS:0000031	780-787
+km	BAO:0000477	704-706
+Time frame: Baseline to Measured Progressive Disease or Study Discontinuation (Up to 24 Weeks)	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	33-44
+disease	DOID:4,OGMS:0000031	45-52
+Results 1:	Results	4
+Arm/Group Title: Enzastaurin + Fulvestrant QD + BID	Results	5
+fulvestrant	CHEBI:31638	31-42
+Arm/Group Description: Participants received Enzastaurin loading dose of 1125 mg, on Day 1 of Cycle 1 only then received Enzastaurin 500 mg orally (QD) once daily in a 28-day cycle.	Results	6
+day	UO:0000033	85-88
+day	UO:0000033	171-174
+Participants received enzastaurin loading dose of 1125 mg, on Day 1 of Cycle 1 only then received Enzastaurin 250 mg orally (BID) twice daily in a 28-day cycle.	Results	7
+day	UO:0000033	62-65
+day	UO:0000033	150-153
+Fulvestrant was given intramuscularly at a loading dose of 500 mg on Day 1 and 250 mg on Day 15 in Cycle 1. Subsequent doses of Fulvestrant 250 mg were given on Day 1 of Cycle 2 and every 28 days thereafter.	Results	8
+fulvestrant	CHEBI:31638	0-11
+fulvestrant	CHEBI:31638	128-139
+day	UO:0000033	69-72
+day	UO:0000033	89-92
+day	UO:0000033	161-164
+day	UO:0000033	191-194
+Overall Number of Participants Analyzed: 94	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: percentage of participants  43.6        (33.4 to 54.2)	Results	12
+Results 2:	Results	13
+Arm/Group Title: Enzastaurin + Fulvestrant BID	Results	14
+fulvestrant	CHEBI:31638	31-42
+Arm/Group Description: Participants received enzastaurin (250 mg; 2 tablets) or placebo administered orally twice daily (BID) in a 28-day cycle, until disease progression. Fulvestrant was given intramuscularly at a loading dose of 500 mg on Day 1 and 250 mg on Day 15 in Cycle 1. Subsequent doses of Fulvestrant 250 mg were given on Day 1 of Cycle 2 and every 28 days thereafter.	Results	15
+disease	DOID:4,OGMS:0000031	151-158
+fulvestrant	CHEBI:31638	172-183
+fulvestrant	CHEBI:31638	300-311
+day	UO:0000033	134-137
+day	UO:0000033	241-244
+day	UO:0000033	261-264
+day	UO:0000033	333-336
+day	UO:0000033	363-366
+Overall Number of Participants Analyzed: 39	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: percentage of participants  43.6        (27.8 to 60.4)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 17/94 (18.09%)	Adverse Events	1
+Anaemia 2/94 (2.13%)	Adverse Events	2
+Lymphadenopathy 0/94 (0.00%)	Adverse Events	3
+lymphadenopathy	HP:0002716	0-15
+Angina pectoris 0/94 (0.00%)	Adverse Events	4
+angina pectoris	HP:0001681	0-15
+Ischaemic cardiomyopathy 0/94 (0.00%)	Adverse Events	5
+cardiomyopathy	HP:0001638,DOID:0050700	10-24
+Myocardial infarction 1/94 (1.06%)	Adverse Events	6
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Haemorrhoids 1/94 (1.06%)	Adverse Events	7
+Ileus 1/94 (1.06%)	Adverse Events	8
+ileus	HP:0002595,DOID:8440	0-5
+Nausea 1/94 (1.06%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Vomiting 1/94 (1.06%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Asthenia 1/94 (1.06%)	Adverse Events	11
+asthenia	HP:0025406	0-8
+Disease progression 0/94 (0.00%)	Adverse Events	12
+disease	DOID:4,OGMS:0000031	0-7
+Oedema peripheral 1/94 (1.06%)	Adverse Events	13
+peripheral	HP:0030646	7-17
+Adverse Events 2:	Adverse Events	14
+Total: 9/39 (23.08%)	Adverse Events	15
+Anaemia 2/39 (5.13%)	Adverse Events	16
+Lymphadenopathy 0/39 (0.00%)	Adverse Events	17
+lymphadenopathy	HP:0002716	0-15
+Angina pectoris 0/39 (0.00%)	Adverse Events	18
+angina pectoris	HP:0001681	0-15
+Ischaemic cardiomyopathy 0/39 (0.00%)	Adverse Events	19
+cardiomyopathy	HP:0001638,DOID:0050700	10-24
+Myocardial infarction 1/39 (2.56%)	Adverse Events	20
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Haemorrhoids 1/39 (2.56%)	Adverse Events	21
+Ileus 1/39 (2.56%)	Adverse Events	22
+ileus	HP:0002595,DOID:8440	0-5
+Nausea 1/39 (2.56%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Vomiting 1/39 (2.56%)	Adverse Events	24
+vomiting	HP:0002013	0-8
+Asthenia 1/39 (2.56%)	Adverse Events	25
+asthenia	HP:0025406	0-8
+Disease progression 0/39 (0.00%)	Adverse Events	26
+disease	DOID:4,OGMS:0000031	0-7
+Oedema peripheral 1/39 (2.56%)	Adverse Events	27
+peripheral	HP:0030646	7-17

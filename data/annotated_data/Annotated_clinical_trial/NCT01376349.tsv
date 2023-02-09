@@ -1,0 +1,195 @@
+INTERVENTION 1:	Intervention	0
+Arm I Low Dose DHEA	Intervention	1
+Participants apply a low dose (3.25 mg) of vaginal prasterone (dehydroepiandrosterone [DHEA]) gel once daily (QD), at bed time, for 12 weeks. Treatment continues until unacceptable adverse events or patient refusal to continue participation on the study.	Intervention	2
+dehydroepiandrosterone	CHEBI:28689	63-85
+gel	BAO:0010018	94-97
+time	PATO:0000165	122-126
+patient	HADO:0000008,OAE:0001817	199-206
+INTERVENTION 2:	Intervention	3
+Arm II High Dose DHEA	Intervention	4
+Participants apply a high dose (6.5 mg) of vaginal DHEA gel QD, at bed time, for 12 weeks. Treatment continues until unacceptable adverse events or patient refusal to continue participation on the study.	Intervention	5
+gel	BAO:0010018	56-59
+time	PATO:0000165	71-75
+patient	HADO:0000008,OAE:0001817	148-155
+Inclusion Criteria:	Eligibility	0
+Age  18 years	Eligibility	1
+age	PATO:0000011	0-3
+Postmenopausal women with a history of breast or gynecologic cancer (currently no evidence of disease). Note: Postmenopausal status will be determined by the following criteria:	Eligibility	2
+history	BFO:0000182	28-35
+breast	UBERON:0000310	39-45
+cancer	DOID:162	61-67
+disease	DOID:4,OGMS:0000031	94-101
+12 months without a period or bilateral oophorectomy or complete chemical ovarian suppression for the past 12 months with continued suppression planned throughout the course of the study	Eligibility	3
+bilateral	HP:0012832	30-39
+menopausal status will be determined by an FSH and an estradiol value in the postmenopausal range (generally FSH > 40IU/L and estradiol < 10 pg/ml, depending on laboratory) if:	Eligibility	4
+estradiol	CHEBI:23965	54-63
+estradiol	CHEBI:23965	126-135
+range	LABO:0000114	92-97
+9 months without a period or	Eligibility	5
+post hysterectomy with at least one ovary remaining and less than 55 years old. Note: if age 55 or older with these criteria, then menopausal status does not need to be determined by labs	Eligibility	6
+ovary	UBERON:0000992	36-41
+age	PATO:0000011	89-92
+Significant vaginal complaints. Note: Defined as persistent vaginal dryness and/or pain with intercourse (dyspareunia) of sufficient severity to make a patient desire therapeutic intervention.	Eligibility	7
+vaginal dryness	HP:0031088	60-75
+pain	HP:0012531	83-87
+dyspareunia	HP:0030016	106-117
+severity	HP:0012824	133-141
+patient	HADO:0000008,OAE:0001817	152-159
+therapeutic intervention	OAE:0000094	167-191
+Eligibility questionnaire response must be moderate or worse levels of severity on one of the two symptoms, either dryness or dyspareunia. The protocol contains more information.	Eligibility	8
+moderate	HP:0012826	43-51
+severity	HP:0012824	71-79
+dyspareunia	HP:0030016	126-137
+Vaginal symptoms must have been present  2 months prior to randomization.	Eligibility	9
+present	PATO:0000467	32-39
+Life expectancy > 12 months.	Eligibility	10
+Ability to complete questionnaires by themselves or with assistance.	Eligibility	11
+Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) 0 or 1.	Eligibility	12
+group	CHEBI:24433	29-34
+The patient must provide informed written consent.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	4-11
+Willing to return to the enrolling institution for follow-up.	Eligibility	14
+Willing to provide blood samples for correlative research purposes.	Eligibility	15
+blood	UBERON:0000178	19-24
+Exclusion Criteria:	Eligibility	16
+Initiation or discontinuation of tamoxifen or aromatase inhibitors  2 months prior to randomization or plans to initiate or discontinue any of these medications during the 12-week study.	Eligibility	17
+tamoxifen	CHEBI:41774	33-42
+Current diagnosis of an active vaginal infection, if symptoms of vaginal infection, this must be ruled out (ie, foul discharge, fever).	Eligibility	18
+active	PATO:0002354	24-30
+fever	HP:0001945	128-133
+Concurrent chemotherapy (long term adjuvant herceptin, lapatanib, and/or bevacizumab is allowed.	Eligibility	19
+adjuvant	CHEBI:60809	35-43
+Planned use of any vaginal preparations during the study period (including any over the counter or herbal preparations). Note: Water-based lubricants (such as KY jelly) are allowed during sexual intercourse.	Eligibility	20
+Use of any daily non-hormonal vaginal preparations  1 week prior to study entry.	Eligibility	21
+week	UO:0000034	54-58
+Exception: Daily water-based lubricants for sexual intercourse. Note: Patients who stop agent may be enrolled after one week.	Eligibility	22
+week	UO:0000034	120-124
+Current ( 4 weeks prior to randomization), or planned during the study period, use of any estrogen product or any kind of hormonal vaginal product including bioidentical hormones, estriol or any androgen product.	Eligibility	23
+estrogen	CHEBI:50114,BAO:0000760	90-98
+product	BAO:0003067	99-106
+product	BAO:0003067	139-146
+product	BAO:0003067	204-211
+estriol	CHEBI:27974	180-187
+androgen	CHEBI:50113	195-203
+Use of pharmacologic soy or phytoestrogen preparations (Dietary intake of soy - ie milk is acceptable).	Eligibility	24
+phytoestrogen	CHEBI:76989	28-41
+On a placebo controlled trial for endocrine therapy.	Eligibility	25
+Prior or concurrent pelvic radiation therapy.	Eligibility	26
+Prior radical pelvic surgery, specifically vaginectomy or pelvic exenteration (TAH/BSO) is allowed).	Eligibility	27
+radical	CHEBI:26519	6-13
+surgery	OAE:0000067	21-28
+Diagnosis of any of the following conditions within the past five years:	Eligibility	28
+Essential vulvodynia	Eligibility	29
+vulvodynia	HP:0030943	10-20
+Vulvar vestibulitis	Eligibility	30
+Bartholin cyst/abscess	Eligibility	31
+History of Bartholin gland surgery	Eligibility	32
+history	BFO:0000182	0-7
+gland	UBERON:0002530	21-26
+surgery	OAE:0000067	27-34
+Lichen sclerosis	Eligibility	33
+Lichen planus of the vulvovaginal region	Eligibility	34
+lichen planus	DOID:9201	0-13
+Desquamative vaginitis	Eligibility	35
+vaginitis	HP:0030683,DOID:2170	13-22
+History or current diagnosis of any of the following conditions:	Eligibility	36
+history	BFO:0000182	0-7
+Vulvar or vaginal dysplasia	Eligibility	37
+Vaginal prolapse	Eligibility	38
+Women of childbearing potential, premenopausal women.	Eligibility	39
+Outcome Measurement:	Results	0
+Alleviation of the Most Bothersome Vaginal Symptom (Vaginal Dryness or Dyspareunia) Over 12 Weeks	Results	1
+symptom	OGMS:0000020	43-50
+vaginal dryness	HP:0031088	52-67
+dyspareunia	HP:0030016	71-82
+The primary outcome is severity of the most bothersome vaginal symptom: dryness or dyspareunia. The Vaginal Symptom Measure (VSM) was used to evaluate the severity of vaginal dryness and dyspareunia. The VSM uses a 5- point ordinal response scale; 1="none", 2="mild", 3="moderate", 4="severe" and 5="very severe" to measure the severity associated with vaginal dryness and/or dyspareunia. For each patient, the change in severity was calculated by subtracting the baseline from the week 12 reported score. Therefore, the full range of scores ranges from -4 (greatest decrease in severity) to 4 (greatest increase in severity). A negative score indicates a decrease in severity from baseline, zero indicates no reported affect and positive scores indicate a more severe report at week 12. The primary assessment method will be a comparison of the averages of the changes over time in the severity items for the most bothersome symptom from baseline to 12 weeks (as indicated at baseline).	Results	2
+severity	HP:0012824	23-31
+severity	HP:0012824	155-163
+severity	HP:0012824	328-336
+severity	HP:0012824	421-429
+severity	HP:0012824	579-587
+severity	HP:0012824	616-624
+severity	HP:0012824	668-676
+severity	HP:0012824	887-895
+symptom	OGMS:0000020	63-70
+symptom	OGMS:0000020	108-115
+symptom	OGMS:0000020	926-933
+dyspareunia	HP:0030016	83-94
+dyspareunia	HP:0030016	187-198
+dyspareunia	HP:0030016	376-387
+vaginal dryness	HP:0031088	167-182
+vaginal dryness	HP:0031088	353-368
+mild	HP:0012825	261-265
+moderate	HP:0012826	271-279
+severe	HP:0012828	285-291
+severe	HP:0012828	305-311
+severe	HP:0012828	762-768
+patient	HADO:0000008,OAE:0001817	398-405
+week	UO:0000034	482-486
+week	UO:0000034	779-783
+week	UO:0000034	954-958
+range	LABO:0000114	526-531
+range	LABO:0000114	542-547
+increase	BAO:0001251	604-612
+time	PATO:0000165	875-879
+Time frame: At baseline and 12 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I Low Dose DHEA	Results	5
+Arm/Group Description: Participants apply a low dose (3.25 mg) of vaginal prasterone (dehydroepiandrosterone [DHEA]) gel once daily (QD), at bed time, for 12 weeks. Treatment continues until unacceptable adverse events or patient refusal to continue participation on the study.	Results	6
+dehydroepiandrosterone	CHEBI:28689	86-108
+gel	BAO:0010018	117-120
+time	PATO:0000165	145-149
+patient	HADO:0000008,OAE:0001817	222-229
+Overall Number of Participants Analyzed: 123	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: change in units on a scale  -2        (-4 to 1)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm II High Dose DHEA	Results	11
+Arm/Group Description: Participants apply a high dose (6.5 mg) of vaginal DHEA gel QD, at bed time, for 12 weeks. Treatment continues until unacceptable adverse events or patient refusal to continue participation on the study.	Results	12
+gel	BAO:0010018	79-82
+time	PATO:0000165	94-98
+patient	HADO:0000008,OAE:0001817	171-178
+Overall Number of Participants Analyzed: 114	Results	13
+Median (Full Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: change in units on a scale  -2        (-4 to 1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 3/147 (2.04%)	Adverse Events	1
+Bladder infection 1/147 (0.68%)	Adverse Events	2
+Breast infection 0/147 (0.00%)	Adverse Events	3
+breast	UBERON:0000310	0-6
+Urinary tract infection 0/147 (0.00%)	Adverse Events	4
+urinary tract infection	DOID:0080784	0-23
+Vaginal infection 1/147 (0.68%)	Adverse Events	5
+Investigations - Other, specify 0/147 (0.00%)	Adverse Events	6
+Headache 1/147 (0.68%)	Adverse Events	7
+headache	HP:0002315	0-8
+Breast pain 0/147 (0.00%)	Adverse Events	8
+breast	UBERON:0000310	0-6
+pain	HP:0012531	7-11
+Voice alteration 0/147 (0.00%)	Adverse Events	9
+Hirsutism 0/147 (0.00%)	Adverse Events	10
+hirsutism	HP:0001007	0-9
+Rash acneiform 0/147 (0.00%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 7/148 (4.73%)	Adverse Events	13
+Bladder infection 0/148 (0.00%)	Adverse Events	14
+Breast infection 0/148 (0.00%)	Adverse Events	15
+breast	UBERON:0000310	0-6
+Urinary tract infection 0/148 (0.00%)	Adverse Events	16
+urinary tract infection	DOID:0080784	0-23
+Vaginal infection 1/148 (0.68%)	Adverse Events	17
+Investigations - Other, specify 1/148 (0.68%)	Adverse Events	18
+Headache 1/148 (0.68%)	Adverse Events	19
+headache	HP:0002315	0-8
+Breast pain 1/148 (0.68%)	Adverse Events	20
+breast	UBERON:0000310	0-6
+pain	HP:0012531	7-11
+Voice alteration 0/148 (0.00%)	Adverse Events	21
+Hirsutism 2/148 (1.35%)	Adverse Events	22
+hirsutism	HP:0001007	0-9
+Rash acneiform 1/148 (0.68%)	Adverse Events	23

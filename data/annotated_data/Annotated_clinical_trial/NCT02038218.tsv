@@ -1,0 +1,166 @@
+INTERVENTION 1:	Intervention	0
+DM-CHOC-PEN - Arm 1	Intervention	1
+Cohort 1: Patients without liver involvement or history of liver disease, will be treated at a dose of 98.7 mg/m2.	Intervention	2
+liver	UBERON:0002107	27-32
+liver	UBERON:0002107	59-64
+history	BFO:0000182	48-55
+liver disease	DOID:409	59-72
+Patients will discontinue dosing with DM-CHOC-PEN when there are any unacceptable toxicities, progression of cancer or patient compliance.	Intervention	3
+cancer	DOID:162	109-115
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	119-126
+4-Demethyl-4-cholestryloxycarbonylpenclomedine: This will be an open-label, uncontrolled two-arm, multi-center study in patients with CNS involvement from melanoma, breast, lung cancers or primary malignancies of the CNS. Patients can be previously treated with radiation and systemic therapies and are eligible if they also have other sites of cancer involvement.	Intervention	4
+melanoma	HP:0002861,DOID:1909	155-163
+breast	UBERON:0000310	165-171
+lung	UBERON:0002048	173-177
+cancer	DOID:162	178-184
+cancer	DOID:162	345-351
+INTERVENTION 2:	Intervention	5
+DM-CHOC-PEN - Arm 2	Intervention	6
+Cohort 2: Patients with liver involvement or history of disease will be treated at a dose of 85.8 mg/m2.	Intervention	7
+liver	UBERON:0002107	24-29
+history	BFO:0000182	45-52
+disease	DOID:4,OGMS:0000031	56-63
+Patients will discontinue dosing with DM-CHOC-PEN when there are any unacceptable toxicities, progression of cancer or patient compliance.	Intervention	8
+cancer	DOID:162	109-115
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	119-126
+4-Demethyl-4-cholestryloxycarbonylpenclomedine: This will be an open-label, uncontrolled multi-center study in patients with CNS involvement from melanoma, breast, lung cancers or primary malignancies of the CNS. Patients can be previously treated with radiation and systemic therapies and are eligible if they also have other sites of cancer involvement.	Intervention	9
+melanoma	HP:0002861,DOID:1909	146-154
+breast	UBERON:0000310	156-162
+lung	UBERON:0002048	164-168
+cancer	DOID:162	169-175
+cancer	DOID:162	336-342
+Inclusion Criteria:	Eligibility	0
+Patients must have histological proof of a cancer - melanoma, breast, or lung cancer - which has spread to the CNS or glioblastoma (GBM) or other primary malignant neoplasm of the CNS which has been treated with standard treatments, which may include radiation, and must be measurable (RECIST).	Eligibility	1
+cancer	DOID:162	43-49
+cancer	DOID:162	78-84
+melanoma	HP:0002861,DOID:1909	52-60
+breast	UBERON:0000310	62-68
+lung cancer	DOID:1324	73-84
+glioblastoma	DOID:3068	118-130
+neoplasm	HP:0002664,DOID:14566	164-172
+Patients must have life expectancy of at least 12 weeks and a Karnofsky performance score: > 60 % (or a Zubrod performance status of < 2).	Eligibility	2
+The age limit - 18 or older. Gender is not a criterion.	Eligibility	3
+age	PATO:0000011	4-7
+All patients must be off previous chemo- and/or radiotherapy for at least three (3) weeks prior to entrance into the study and have recovered from any toxic effects induced by such treatment(s); no nitrosourea type drug or ipilumimab treatments are permitted within the last six (6) weeks prior to enrollment. No major surgery within 14 days of enrollment. Patients may continue to receive anti-estrogen/steroid therapy that has been initiated at least eight weeks prior to enrollment in the study.	Eligibility	4
+radiotherapy	OAE:0000235	48-60
+drug	CHEBI:23888	215-219
+surgery	OAE:0000067	319-326
+Patients should have adequate bone marrow function defined as a peripheral WBC >3,000/mm3 with an ANC >1500/mm3 and a platelet count >100,000/mm3.	Eligibility	5
+bone marrow	UBERON:0002371	30-41
+function	BAO:0003117,BFO:0000034	42-50
+peripheral	HP:0030646	64-74
+platelet count	CMO:0000029	118-132
+Patients should have hepatic function (alkaline phosphatase, AST and ALT) < ULN and renal functions with serum creatinine - <1.5 x UNL. If a patient has liver metastasis and/or a history of liver disease - they will receive a lower dose of the drug per treatment protocol.	Eligibility	6
+function	BAO:0003117,BFO:0000034	29-37
+function	BAO:0003117,BFO:0000034	90-98
+phosphatase	GO:0016791,BAO:0000295	48-59
+creatinine	CHEBI:16737	111-121
+x	LABO:0000148	129-130
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	141-148
+liver	UBERON:0002107	153-158
+liver	UBERON:0002107	190-195
+history	BFO:0000182	179-186
+liver disease	DOID:409	190-203
+drug	CHEBI:23888	244-248
+Patients should not be allergic to eggs or soy beans. Patients must be medically, psychologically and neurologically stable and have triplicate baseline ECG's with a mean QTc interval <500 ms and >300 ms and neither a history of congenital prolonged or short QT syndrome. Patients with a history of cardiac disease must be stable.	Eligibility	7
+stable	HP:0031915	117-123
+stable	HP:0031915	323-329
+mean	BAO:0002173	166-170
+qtc interval	CMO:0000269	171-183
+history	BFO:0000182	218-225
+history	BFO:0000182	288-295
+prolonged	HP:0025297	240-249
+short qt syndrome	DOID:0050793	253-270
+disease	DOID:4,OGMS:0000031	307-314
+Patients must understand the nature of the study and be willing to sign an informed consent that complies with the investigator/DEKK-TEC policies and approved by the Human Investigation Review Committee. Patients must have CNS involvement - from a malignancy. Lung cancer may be either small cell or non-small cell.	Eligibility	8
+lung cancer	DOID:1324	260-271
+Exclusion Criteria:	Eligibility	9
+Patients with concurrent severe and/or uncontrolled medical co-morbidities - including active infections, unstable uncontrolled diabetes, cardiovascular and pulmonary, renal, psychiatric or social conditions that could compromise the safety or compliance of treatment are not eligible.	Eligibility	10
+severe	HP:0012828	25-31
+active	PATO:0002354	87-93
+Concomitant chemotherapy or radiotherapy is not permitted.	Eligibility	11
+radiotherapy	OAE:0000235	28-40
+Pregnant or lactating females are excluded. Women of childbearing age, and their sexual partners, must use an effective contraception program. Males who are having sexual relations with women capable of child bearing must use the barrier birth control while on the study and for 3- months after the last dose of the study drug.	Eligibility	12
+excluded	HP:0040285	34-42
+age	PATO:0000011	66-69
+drug	CHEBI:23888	322-326
+Patients taking CYP3A4 inducers or inhibitors are not eligible since it is not known whether the study drug is metabolized through this pathway. The following CYP3A4 inhibitors/inducers are not permitted during the trial - the azole antifungal - fluconazole, erythromycin, phenobarbital, verapamil.	Eligibility	13
+drug	CHEBI:23888	103-107
+azole	CHEBI:68452	227-232
+azole	CHEBI:68452	252-257
+fluconazole	CHEBI:46081	246-257
+erythromycin	CHEBI:42355	259-271
+phenobarbital	CHEBI:8069	273-286
+verapamil	CHEBI:9948	288-297
+Patients taking the following medications may experience QT/QTc interval prolongation and are not eligible for the trial - most anti-arrhythmia drugs (incl. amiodarone), erythromycin, quinolone antibiotics, ketoconazole, Zithromax, and phenothiazine and will be denied enrollment in the study. The possible interactions of these drugs and DM-CHOC-PEN have not been established. Patients receiving these drug will only be eligible if they discontinue the drugs and have an acceptable ECG.	Eligibility	14
+amiodarone	CHEBI:2663	157-167
+erythromycin	CHEBI:42355	170-182
+quinolone	CHEBI:23765	184-193
+ketoconazole	CHEBI:47519,BAO:0000796	207-219
+phenothiazine	CHEBI:37931	236-249
+drug	CHEBI:23888	144-148
+drug	CHEBI:23888	329-333
+drug	CHEBI:23888	403-407
+drug	CHEBI:23888	454-458
+Coagulopathies - patients requiring full dose anticoagulation with warfarin are excluded, however, patients stable and on other anticoagulants can be included.	Eligibility	15
+warfarin	CHEBI:10033	67-75
+excluded	HP:0040285	80-88
+stable	HP:0031915	108-114
+Outcome Measurement:	Results	0
+Tumor Diameter	Results	1
+diameter	PATO:0001334	6-14
+Tumor Diameter from patient scans	Results	2
+diameter	PATO:0001334	6-14
+patient	HADO:0000008,OAE:0001817	20-27
+Time frame: Until remission or off treatment due to progression	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: DM-CHOC-PEN - Arm 1	Results	5
+Arm/Group Description: Cohort 1: Patients without liver involvement or history of liver disease, will be treated at a dose of 98.7 mg/m2.	Results	6
+liver	UBERON:0002107	50-55
+liver	UBERON:0002107	82-87
+history	BFO:0000182	71-78
+liver disease	DOID:409	82-95
+Patients will discontinue dosing with DM-CHOC-PEN when there are any unacceptable toxicities, progression of cancer or patient compliance.	Results	7
+cancer	DOID:162	109-115
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	119-126
+4-Demethyl-4-cholestryloxycarbonylpenclomedine: This will be an open-label, uncontrolled two-arm, multi-center study in patients with CNS involvement from melanoma, breast, lung cancers or primary malignancies of the CNS. Patients can be previously treated with radiation and systemic therapies and are eligible if they also have other sites of cancer involvement.	Results	8
+melanoma	HP:0002861,DOID:1909	155-163
+breast	UBERON:0000310	165-171
+lung	UBERON:0002048	173-177
+cancer	DOID:162	178-184
+cancer	DOID:162	345-351
+Overall Number of Participants Analyzed: 22	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: cm  2.7         (1.1)	Results	11
+Results 2:	Results	12
+Arm/Group Title: DM-CHOC-PEN - Arm 2	Results	13
+Arm/Group Description: Cohort 2: Patients with liver involvement or history of disease will be treated at a dose of 85.8 mg/m2.	Results	14
+liver	UBERON:0002107	47-52
+history	BFO:0000182	68-75
+disease	DOID:4,OGMS:0000031	79-86
+Patients will discontinue dosing with DM-CHOC-PEN when there are any unacceptable toxicities, progression of cancer or patient compliance.	Results	15
+cancer	DOID:162	109-115
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	119-126
+4-Demethyl-4-cholestryloxycarbonylpenclomedine: This will be an open-label, uncontrolled multi-center study in patients with CNS involvement from melanoma, breast, lung cancers or primary malignancies of the CNS. Patients can be previously treated with radiation and systemic therapies and are eligible if they also have other sites of cancer involvement.	Results	16
+melanoma	HP:0002861,DOID:1909	146-154
+breast	UBERON:0000310	156-162
+lung	UBERON:0002048	164-168
+cancer	DOID:162	169-175
+cancer	DOID:162	336-342
+Overall Number of Participants Analyzed: 7	Results	17
+Mean (Standard Deviation)	Results	18
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: cm  4.4         (0.8)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/22 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

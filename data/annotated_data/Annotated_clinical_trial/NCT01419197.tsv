@@ -1,0 +1,113 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab Emtansine	Intervention	1
+Trastuzumab emtansine 3.6 mg/kg intravenously every 3 weeks until disease progression (as assessed by the investigator) or unmanageable toxicity.	Intervention	2
+disease	DOID:4,OGMS:0000031	66-73
+INTERVENTION 2:	Intervention	3
+Treatment of Physician's Choice	Intervention	4
+Treatment of physician's choice until disease progression (as assessed by the investigator) or unmanageable toxicity. The treatments included single-agent chemotherapy, single-agent or dual-agent hormonal therapy for hormone receptor positive-disease, and HER2-directed therapy.	Intervention	5
+disease	DOID:4,OGMS:0000031	38-45
+disease	DOID:4,OGMS:0000031	243-250
+hormone	CHEBI:24621	217-224
+receptor	BAO:0000281	225-233
+Inclusion Criteria:	Eligibility	0
+Adult participants  18 years of age.	Eligibility	1
+adult	EFO:0001272	0-5
+age	PATO:0000011	32-35
+Histologically or cytologically documented breast cancer.	Eligibility	2
+breast cancer	DOID:1612	43-56
+Metastatic or unresectable locally advanced/recurrent breast cancer.	Eligibility	3
+breast cancer	DOID:1612	54-67
+HER2-positive disease by prospective laboratory confirmation.	Eligibility	4
+disease	DOID:4,OGMS:0000031	14-21
+Disease progression on the last regimen received as defined by the investigator.	Eligibility	5
+disease	DOID:4,OGMS:0000031	0-7
+Prior treatment with an trastuzumab, a taxane, and lapatinib.	Eligibility	6
+taxane	CHEBI:36064	39-45
+lapatinib	CHEBI:49603	51-60
+Disease progression after at least two regimens of HER2-directed therapy in the metastatic or unresectable locally advanced/recurrent setting.	Eligibility	7
+disease	DOID:4,OGMS:0000031	0-7
+Adequate organ function, as evidenced by laboratory results.	Eligibility	8
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1, or 2.	Eligibility	9
+group	CHEBI:24433	29-34
+Left ventricular ejection fraction (LVEF)  50% by echocardiogram or multi gated acquisition scan.	Eligibility	10
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Exclusion Criteria:	Eligibility	11
+Chemotherapy  21 days before first study treatment.	Eligibility	12
+Trastuzumab  21 days before first study treatment.	Eligibility	13
+Lapatinib  14 days before first study treatment.	Eligibility	14
+lapatinib	CHEBI:49603	0-9
+Prior enrollment in a trastuzumab emtansine containing study, regardless whether the patient received prior trastuzumab emtansine.	Eligibility	15
+patient	HADO:0000008,OAE:0001817	85-92
+Brain metastases that are untreated or symptomatic, or require any radiation, surgery or corticosteroid therapy to control symptoms within 1 month of randomization.	Eligibility	16
+brain	UBERON:0000955	0-5
+surgery	OAE:0000067	78-85
+corticosteroid	CHEBI:50858	89-103
+month	UO:0000035	141-146
+Outcome Measurement:	Results	0
+Progression-free Survival	Results	1
+Progression-free survival was defined as the time from randomization to the first documented disease progression by investigator assessment using Response Evaluation Criteria In Solid Tumors (RECIST) v1.1 or death from any cause, whichever occurred first. Progression-free survival was a co-primary endpoint.	Results	2
+time	PATO:0000165	45-49
+disease	DOID:4,OGMS:0000031	93-100
+death	OAE:0000632	208-213
+Time frame: Baseline to the clinical cut-off date of 11 Feb 2013 (up to 2 years)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab Emtansine	Results	5
+Arm/Group Description: Trastuzumab emtansine 3.6 mg/kg intravenously every 3 weeks until disease progression (as assessed by the investigator) or unmanageable toxicity.	Results	6
+disease	DOID:4,OGMS:0000031	89-96
+Overall Number of Participants Analyzed: 404	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  6.2        (5.59 to 6.87)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Treatment of Physician's Choice	Results	11
+Arm/Group Description: Treatment of physician's choice until disease progression (as assessed by the investigator) or unmanageable toxicity. The treatments included single-agent chemotherapy, single-agent or dual-agent hormonal therapy for hormone receptor positive-disease, and HER2-directed therapy.	Results	12
+disease	DOID:4,OGMS:0000031	61-68
+disease	DOID:4,OGMS:0000031	266-273
+hormone	CHEBI:24621	240-247
+receptor	BAO:0000281	248-256
+Overall Number of Participants Analyzed: 198	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  3.3        (2.89 to 4.14)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 102/403 (25.31%)	Adverse Events	1
+Anaemia 1/403 (0.25%)	Adverse Events	2
+Febrile neutropenia 1/403 (0.25%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Granulocytopenia 0/403 (0.00%)	Adverse Events	4
+granulocytopenia	HP:0001913,DOID:12987	0-16
+Neutropenia 1/403 (0.25%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/403 (0.25%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure 1/403 (0.25%)	Adverse Events	7
+Vertigo 1/403 (0.25%)	Adverse Events	8
+vertigo	HP:0002321	0-7
+Hypercalcaemia of malignancy 0/403 (0.00%)	Adverse Events	9
+Vision blurred 1/403 (0.25%)	Adverse Events	10
+Abdominal discomfort 0/403 (0.00%)	Adverse Events	11
+Abdominal pain 4/403 (0.99%)	Adverse Events	12
+abdominal pain	HP:0002027	0-14
+Adverse Events 2:	Adverse Events	13
+Total: 41/184 (22.28%)	Adverse Events	14
+Anaemia 2/184 (1.09%)	Adverse Events	15
+Febrile neutropenia 7/184 (3.80%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Granulocytopenia 1/184 (0.54%)	Adverse Events	17
+granulocytopenia	HP:0001913,DOID:12987	0-16
+Neutropenia 2/184 (1.09%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/184 (0.54%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure 0/184 (0.00%)	Adverse Events	20
+Vertigo 0/184 (0.00%)	Adverse Events	21
+vertigo	HP:0002321	0-7
+Hypercalcaemia of malignancy 1/184 (0.54%)	Adverse Events	22
+Vision blurred 0/184 (0.00%)	Adverse Events	23
+Abdominal discomfort 1/184 (0.54%)	Adverse Events	24
+Abdominal pain 3/184 (1.63%)	Adverse Events	25
+abdominal pain	HP:0002027	0-14

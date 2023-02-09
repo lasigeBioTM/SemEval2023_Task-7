@@ -1,0 +1,76 @@
+INTERVENTION 1:	Intervention	0
+Full Strength Acute Tryptophan Depletion	Intervention	1
+acute	HP:0011009,PATO:0000389	14-19
+tryptophan	CHEBI:57719	20-30
+[Not Specified]	Intervention	2
+INTERVENTION 2:	Intervention	3
+Half-Strength Tryptophan Depletion - Control	Intervention	4
+tryptophan	CHEBI:57719	14-24
+[Not Specified]	Intervention	5
+Inclusion Criteria:	Eligibility	0
+At least 18 years of age	Eligibility	1
+age	PATO:0000011	21-24
+Willing and able to provide informed consent	Eligibility	2
+Reporting daily hot flashes	Eligibility	3
+hot flashes	HP:0031217	16-27
+Able to read, write, and speak English	Eligibility	4
+Postmenopausal to limit sample variability (> 12 months amenorrhea)	Eligibility	5
+amenorrhea	HP:0000141,DOID:13938	56-66
+Greater then 1 month but < 5 years post-treatment (surgery, radiation, chemotherapy) for non-metastatic breast cancer.	Eligibility	6
+month	UO:0000035	15-20
+surgery	OAE:0000067	51-58
+breast cancer	DOID:1612	104-117
+These criteria allow inclusion of women successfully treated for recurrent breast cancer since there is no known reason to exclude them. Menopausal status is assessed using self-reports due to problems in reliably measuring follicle-stimulating hormone levels and estradiol in tamoxifen users.	Eligibility	7
+recurrent	HP:0031796	65-74
+breast cancer	DOID:1612	75-88
+hormone	CHEBI:24621	245-252
+estradiol	CHEBI:23965	264-273
+tamoxifen	CHEBI:41774	277-286
+Exclusion Criteria:	Eligibility	8
+Exclusion criteria are current depression, history of migraines or hepatitis, abnormal chemistry profile (e.g., sodium, potassium, glucose), or a positive urine drug screen for illegal substances.	Eligibility	9
+depression	HP:0000716	31-41
+history	BFO:0000182	43-50
+hepatitis	HP:0012115,DOID:2237	67-76
+glucose	CHEBI:4167,BAO:0000924	131-138
+urine	UBERON:0001088	155-160
+drug	CHEBI:23888	161-165
+Outcome Measurement:	Results	0
+Serum Tryptophan Levels	Results	1
+tryptophan	CHEBI:57719	6-16
+Mean serum tryptophan levels (blood draw) at the end of the nadir period.	Results	2
+mean	BAO:0002173	0-4
+tryptophan	CHEBI:57719	11-21
+blood	UBERON:0000178	30-35
+Time frame: baseline, 1 hour, 2 hours, 3 hours, 4 hours, 5 hours, 6 hours, 7 hours, 8 hours	Results	3
+time	PATO:0000165	0-4
+hour	UO:0000032	24-28
+hour	UO:0000032	32-36
+hour	UO:0000032	41-45
+hour	UO:0000032	50-54
+hour	UO:0000032	59-63
+hour	UO:0000032	68-72
+hour	UO:0000032	77-81
+hour	UO:0000032	86-90
+Results 1:	Results	4
+Arm/Group Title: Full Strength Acute Tryptophan Depletion	Results	5
+acute	HP:0011009,PATO:0000389	31-36
+tryptophan	CHEBI:57719	37-47
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 24	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: nmol/ml  0.0034         (.0027)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Half-Strength Tryptophan Depletion - Control	Results	11
+tryptophan	CHEBI:57719	31-41
+Arm/Group Description: [Not Specified]	Results	12
+Overall Number of Participants Analyzed: 23	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: nmol/ml  0.02         (0.02)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/0	Adverse Events	3

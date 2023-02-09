@@ -1,0 +1,183 @@
+INTERVENTION 1:	Intervention	0
+Arm A: Triptorelin + Letrozol	Intervention	1
+triptorelin	CHEBI:63633	7-18
+Arm A: Triptorelin 3.75 mg i.m. on day 1 every 28 days for 6 cycles + letrozole 2.5 mg/day orally for 6 cycles	Intervention	2
+triptorelin	CHEBI:63633	7-18
+day	UO:0000033	35-38
+day	UO:0000033	50-53
+day	UO:0000033	87-90
+letrozole	CHEBI:6413	70-79
+Triptorelin: Triptorelin 3.75 mg injected into the muscle on day 1 every 28 days for 6 cycles (1 cycle= 28 days)	Intervention	3
+triptorelin	CHEBI:63633	0-11
+triptorelin	CHEBI:63633	13-24
+day	UO:0000033	61-64
+day	UO:0000033	76-79
+day	UO:0000033	107-110
+Letrozole: Letrozole 2.5 mg orally every day for 6 cycles	Intervention	4
+letrozole	CHEBI:6413	0-9
+letrozole	CHEBI:6413	11-20
+day	UO:0000033	41-44
+INTERVENTION 2:	Intervention	5
+Arm B: Degarelix + Letrozol	Intervention	6
+degarelix	CHEBI:135961	7-16
+Arm B: Degarelix 240 mg s.c. on day 1 of cycle 1, followed by 80 mg s.c. on day 1 of cycles 2 to 6 + letrozole 2.5 mg every day orally for 6 cycles	Intervention	7
+degarelix	CHEBI:135961	7-16
+day	UO:0000033	32-35
+day	UO:0000033	76-79
+day	UO:0000033	124-127
+letrozole	CHEBI:6413	101-110
+Degarelix: Degarelix 240 mg injected under the skin given as two injections of 120 mg on the first day of treatment, followed by injection of 80 mg on day 1 of cycles 2 to 6 (1 cycle=28 days)	Intervention	8
+degarelix	CHEBI:135961	0-9
+degarelix	CHEBI:135961	11-20
+day	UO:0000033	99-102
+day	UO:0000033	151-154
+day	UO:0000033	186-189
+Letrozole: Letrozole 2.5 mg orally every day for 6 cycles	Intervention	9
+letrozole	CHEBI:6413	0-9
+letrozole	CHEBI:6413	11-20
+day	UO:0000033	41-44
+Inclusion Criteria:	Eligibility	0
+Female gender	Eligibility	1
+female	PATO:0000383	0-6
+Premenopausal status measured within 14 days Prior to randomization: Estradiol (E2) must be above 54 pg/mL (or above 198 pmol/L	Eligibility	2
+estradiol	CHEBI:23965	69-78
+Age  18 years	Eligibility	3
+age	PATO:0000011	0-3
+Performance Status - Eastern Cooperative Oncology Group (ECOG) 0-1	Eligibility	4
+group	CHEBI:24433	50-55
+Histologically confirmed invasive breast cancer: Primary tumor greater than 2 cm Diameter, any nodal stage, no evidence of metastasis (M0)	Eligibility	5
+breast cancer	DOID:1612	34-47
+diameter	PATO:0001334	81-89
+Primary tumor must have ER and PgR >50% of the cells	Eligibility	6
+Primary tumor must be HER2-negative (by IHC and/or ISH)	Eligibility	7
+Hematopoietic status: Absolute neutrophil count  1.5 × 109/L, platelet count  100 × 109/L, hemoglobin  9 g/dL	Eligibility	8
+platelet count	CMO:0000029	62-76
+hemoglobin	CHEBI:35143	91-101
+Hepatic status: Serum total bilirubin  1.5 × upper limit of normal (ULN), AST and ALT  2.5 × ULN, Alkaline phosphatase  2.5 × ULN	Eligibility	9
+phosphatase	GO:0016791,BAO:0000295	107-118
+Renal status: Creatinine  1.5 ×ULN	Eligibility	10
+creatinine	CHEBI:16737	14-24
+Negative serum pregnancy test, within 2 weeks (preferably 7 days) prior to randomization.	Eligibility	11
+The patient must be willing to use effective non-hormonal contraception after the pregnancy test and up to surgery. Oral, injectable, or implant hormonal contraceptives or medicated IUD are not allowed within 2 months prior to randomization and during the trial.	Eligibility	12
+patient	HADO:0000008,OAE:0001817	4-11
+surgery	OAE:0000067	107-114
+Prior fertility treatment is allowed but must have been stopped at least 12 months before randomization.	Eligibility	13
+The patient has completed the baseline patient-reported symptoms questionnaire.	Eligibility	14
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	39-46
+Written Informed Consent (IC) must be signed and dated by the patient and the Investigator prior to randomization.	Eligibility	15
+patient	HADO:0000008,OAE:0001817	62-69
+The patient has been informed of and agrees to data transfer and handling, in accordance with national data protection guidelines.	Eligibility	16
+patient	HADO:0000008,OAE:0001817	4-11
+The patient accepts blood samples to be taken for the determination of the primary endpoint.	Eligibility	17
+patient	HADO:0000008,OAE:0001817	4-11
+blood	UBERON:0000178	20-25
+The patient agrees to make tumor available for submission for central pathology review and for translational studies as part of this protocol	Eligibility	18
+patient	HADO:0000008,OAE:0001817	4-11
+central	HP:0030645	62-69
+part of	BAO:0090002,BFO:0000050	120-127
+Exclusion Criteria:	Eligibility	19
+Postmenopausal	Eligibility	20
+Any hormonal treatment (e.g., oral, injectable, implant, or medicated IUD) in the previous 2 months	Eligibility	21
+Presence of HER2 overexpression or amplification	Eligibility	22
+Received any prior treatment for primary invasive breast cancer	Eligibility	23
+breast cancer	DOID:1612	50-63
+Received any GnRH analog or SERM or AI within 12 months prior to randomization	Eligibility	24
+A history of malignant neoplasms within the past 10 years, except for curatively treated,Basal and squamous cell carcinoma of the skin, carcinoma in situ of the cervix, carcinoma in situ of the bladder	Eligibility	25
+history	BFO:0000182	2-9
+squamous cell carcinoma of the skin	HP:0006739	99-134
+carcinoma	HP:0030731,DOID:305	113-122
+carcinoma	HP:0030731,DOID:305	136-145
+carcinoma	HP:0030731,DOID:305	169-178
+Previous ipsilateral breast cancer (invasive or in situ) at any time	Eligibility	26
+breast cancer	DOID:1612	21-34
+time	PATO:0000165	64-68
+Inflammatory breast cancer	Eligibility	27
+breast cancer	DOID:1612	13-26
+Bilateral invasive breast cancer	Eligibility	28
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	19-32
+Known history of uncontrolled or symptomatic angina, clinically significant arrhythmias, congestive heart failure, transmural myocardial infarction, uncontrolled hypertension ( 180/110), unstable diabetes mellitus, dyspnea at rest, or chronic therapy with oxygen	Eligibility	29
+history	BFO:0000182	6-13
+congestive heart failure	HP:0001635,DOID:6000	89-113
+myocardial infarction	HP:0001658,DOID:5844	126-147
+hypertension	HP:0000822,DOID:10763	162-174
+diabetes mellitus	HP:0000819,DOID:9351	196-213
+dyspnea	HP:0002094	215-222
+chronic	HP:0011010	235-242
+Concurrent disease or condition that would make the subject inappropriate for study participation or any serious medical disorder that would interfere with the subject's safety	Eligibility	30
+disease	DOID:4,OGMS:0000031	11-18
+condition	PDRO:0000129	22-31
+disorder	OGMS:0000045	121-129
+Unresolved or unstable, serious adverse events from prior administration of another investigational drug	Eligibility	31
+drug	CHEBI:23888	100-104
+Active or uncontrolled infection CTCAE v.4 grade 2 or higher	Eligibility	32
+active	PATO:0002354	0-6
+Dementia, altered mental status, or any psychiatric condition that would prevent the understanding or rendering of Informed Consent	Eligibility	33
+dementia	HP:0000726,DOID:1307	0-8
+condition	PDRO:0000129	52-61
+Treatment with an investigational agent must have stopped at least 30 days before randomization.	Eligibility	34
+Pregnant or lactating women; lactation has to stop before randomization.	Eligibility	35
+lactation	GO:0007595	29-38
+Outcome Measurement:	Results	0
+Time to Optimal Ovarian Function Suppression	Results	1
+time	PATO:0000165	0-4
+function	BAO:0003117,BFO:0000034	24-32
+Time from the first injection of degarelix or triptorelin to the first assessment of centrally assessed 17-β-estradiol (E2) level in the range of optimal ovarian function suppression (  2.72 pg/mL or 10 pmol/L) during the 6 cycles of neoadjuvant treatments.	Results	2
+time	PATO:0000165	0-4
+degarelix	CHEBI:135961	33-42
+triptorelin	CHEBI:63633	46-57
+range	LABO:0000114	137-142
+function	BAO:0003117,BFO:0000034	162-170
+Time frame: up to 24 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A: Triptorelin + Letrozol	Results	5
+triptorelin	CHEBI:63633	24-35
+Arm/Group Description: Arm A: Triptorelin 3.75 mg i.m. on day 1 every 28 days for 6 cycles + letrozole 2.5 mg/day orally for 6 cycles	Results	6
+triptorelin	CHEBI:63633	30-41
+day	UO:0000033	58-61
+day	UO:0000033	73-76
+day	UO:0000033	110-113
+letrozole	CHEBI:6413	93-102
+Triptorelin: Triptorelin 3.75 mg injected into the muscle on day 1 every 28 days for 6 cycles (1 cycle= 28 days)	Results	7
+triptorelin	CHEBI:63633	0-11
+triptorelin	CHEBI:63633	13-24
+day	UO:0000033	61-64
+day	UO:0000033	76-79
+day	UO:0000033	107-110
+Letrozole: Letrozole 2.5 mg orally every day for 6 cycles	Results	8
+letrozole	CHEBI:6413	0-9
+letrozole	CHEBI:6413	11-20
+day	UO:0000033	41-44
+Overall Number of Participants Analyzed: 26	Results	9
+Median (95% Confidence Interval)	Results	10
+median	BAO:0002174	0-6
+Unit of Measure: days  14        (8 to 14)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Arm B: Degarelix + Letrozol	Results	13
+degarelix	CHEBI:135961	24-33
+Arm/Group Description: Arm B: Degarelix 240 mg s.c. on day 1 of cycle 1, followed by 80 mg s.c. on day 1 of cycles 2 to 6 + letrozole 2.5 mg every day orally for 6 cycles	Results	14
+degarelix	CHEBI:135961	30-39
+day	UO:0000033	55-58
+day	UO:0000033	99-102
+day	UO:0000033	147-150
+letrozole	CHEBI:6413	124-133
+Degarelix: Degarelix 240 mg injected under the skin given as two injections of 120 mg on the first day of treatment, followed by injection of 80 mg on day 1 of cycles 2 to 6 (1 cycle=28 days)	Results	15
+degarelix	CHEBI:135961	0-9
+degarelix	CHEBI:135961	11-20
+day	UO:0000033	99-102
+day	UO:0000033	151-154
+day	UO:0000033	186-189
+Letrozole: Letrozole 2.5 mg orally every day for 6 cycles	Results	16
+letrozole	CHEBI:6413	0-9
+letrozole	CHEBI:6413	11-20
+day	UO:0000033	41-44
+Overall Number of Participants Analyzed: 25	Results	17
+Median (95% Confidence Interval)	Results	18
+median	BAO:0002174	0-6
+Unit of Measure: days  3        (3 to 3)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/26 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

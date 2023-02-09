@@ -1,0 +1,74 @@
+INTERVENTION 1:	Intervention	0
+Fulvestrant + Anastrozole	Intervention	1
+fulvestrant	CHEBI:31638	0-11
+anastrozole	CHEBI:2704	14-25
+fulvestrant 500 mg + anastrozole 1 mg	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+anastrozole	CHEBI:2704	21-32
+INTERVENTION 2:	Intervention	3
+Anastrozole	Intervention	4
+anastrozole	CHEBI:2704	0-11
+anastrozole 1 mg	Intervention	5
+anastrozole	CHEBI:2704	0-11
+Inclusion Criteria:	Eligibility	0
+Postmenopausal women with hormone receptor-positive early breast cancer and a positive Disseminated Tumour Cell immunocytochemical result from bone marrow aspiration prior to randomisation	Eligibility	1
+hormone	CHEBI:24621	26-33
+breast cancer	DOID:1612	58-71
+result	BAO:0000179	131-137
+bone marrow	UBERON:0002371	143-154
+aspiration	HP:0002835	155-165
+Exclusion Criteria:	Eligibility	2
+Inflammatory and/or metastatic breast cancer.	Eligibility	3
+breast cancer	DOID:1612	31-44
+Current or previous malignancy within previous 5 years (other than Breast cancer or adequately treated non-melanoma skin cancer or in-situ cervical cancer).	Eligibility	4
+breast cancer	DOID:1612	67-80
+skin cancer	DOID:4159	116-127
+cervical cancer	DOID:4362	139-154
+History of bleeding diathesis.	Eligibility	5
+history	BFO:0000182	0-7
+Outcome Measurement:	Results	0
+Patients Event-free at 12 Months (Where Event = Death (From Any Cause), Disseminated Tumour Cells (DTC) Positive at 12 Months or Clinical Disease Recurrence)	Results	1
+death	OAE:0000632	48-53
+disease	DOID:4,OGMS:0000031	138-145
+Number of patients event-free	Results	2
+Time frame: 12 month period following randomisation	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	15-20
+Results 1:	Results	4
+Arm/Group Title: Fulvestrant + Anastrozole	Results	5
+fulvestrant	CHEBI:31638	17-28
+anastrozole	CHEBI:2704	31-42
+Arm/Group Description: fulvestrant 500 mg + anastrozole 1 mg	Results	6
+fulvestrant	CHEBI:31638	23-34
+anastrozole	CHEBI:2704	44-55
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  6	Results	9
+Results 2:	Results	10
+Arm/Group Title: Anastrozole	Results	11
+anastrozole	CHEBI:2704	17-28
+Arm/Group Description: anastrozole 1 mg	Results	12
+anastrozole	CHEBI:2704	23-34
+Overall Number of Participants Analyzed: 7	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Participants  7	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/6 (16.67%)	Adverse Events	1
+Goitre 0/6 (0.00%)	Adverse Events	2
+Haemorrhoid Operation 0/6 (0.00%)	Adverse Events	3
+haemorrhoid operation	OAE:0001016	0-21
+Sciatica 0/6 (0.00%)	Adverse Events	4
+sciatica	HP:0011868	0-8
+Renal Failure 0/6 (0.00%)	Adverse Events	5
+Varicose Vein 1/6 (16.67%)	Adverse Events	6
+vein	UBERON:0001638	9-13
+Adverse Events 2:	Adverse Events	7
+Total: 2/7 (28.57%)	Adverse Events	8
+Goitre 1/7 (14.29%)	Adverse Events	9
+Haemorrhoid Operation 1/7 (14.29%)	Adverse Events	10
+haemorrhoid operation	OAE:0001016	0-21
+Sciatica 1/7 (14.29%)	Adverse Events	11
+sciatica	HP:0011868	0-8
+Renal Failure 1/7 (14.29%)	Adverse Events	12
+Varicose Vein 0/7 (0.00%)	Adverse Events	13
+vein	UBERON:0001638	9-13

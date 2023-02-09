@@ -1,0 +1,288 @@
+INTERVENTION 1:	Intervention	0
+Arm 1: Paclitaxel Then AC	Intervention	1
+paclitaxel	CHEBI:45863	7-17
+Paclitaxel 80 mg/m2 IV weekly for 12 doses followed by doxorubicin and cyclophosphamide IV every 21 days for 4 cycles	Intervention	2
+paclitaxel	CHEBI:45863	0-10
+doxorubicin	CHEBI:28748,BAO:0000639	55-66
+cyclophosphamide	CHEBI:4026	71-87
+Paclitaxel: 80 mg/m2 IV over 60 minutes weekly for 12 weeks	Intervention	3
+paclitaxel	CHEBI:45863	0-10
+Doxorubicin: 60 mg/m2 IV over 15 minutes on day 1 every 21 days for 4 cycles	Intervention	4
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+day	UO:0000033	44-47
+day	UO:0000033	59-62
+Cyclophosphamide: 600 mg/m2 IV over 30 minutes on day 1 every 21 days for 4 cycles	Intervention	5
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	50-53
+day	UO:0000033	65-68
+INTERVENTION 2:	Intervention	6
+Arm 2: Eribulin Then AC	Intervention	7
+eribulin	CHEBI:63587	7-15
+Eribulin 1.4 mg/m2 IV on days 1 and 8 of a 21-day cycle for 4 cycles, followed by doxorubicin and cyclophosphamide IV every 21 days for 4 cycles	Intervention	8
+eribulin	CHEBI:63587	0-8
+doxorubicin	CHEBI:28748,BAO:0000639	82-93
+cyclophosphamide	CHEBI:4026	98-114
+Eribulin: 1.4 mg/m2 IV over 2 to 5 minutes on Days 1 and 8 every 21 days for 4 cycles	Intervention	9
+eribulin	CHEBI:63587	0-8
+Doxorubicin: 60 mg/m2 IV over 15 minutes on day 1 every 21 days for 4 cycles	Intervention	10
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+day	UO:0000033	44-47
+day	UO:0000033	59-62
+Cyclophosphamide: 600 mg/m2 IV over 30 minutes on day 1 every 21 days for 4 cycles	Intervention	11
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	50-53
+day	UO:0000033	65-68
+Inclusion Criteria:	Eligibility	0
+Patients should have a life expectancy of at least 10 years, excluding their diagnosis of breast cancer. (Comorbid conditions should be taken into consideration, but not the diagnosis of breast cancer.)	Eligibility	1
+breast cancer	DOID:1612	90-103
+breast cancer	DOID:1612	187-200
+Patients of reproductive potential must agree to use an effective non-hormonal method of contraception during therapy and for at least 6 months after the last dose of study therapy.	Eligibility	2
+The patient must have consented to participate and must have signed and dated an appropriate Institutional Review Board (IRB)-approved consent form that conforms to federal and institutional guidelines.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	4-11
+Patients must be female.	Eligibility	4
+female	PATO:0000383	17-23
+Patients must be > 18 years old.	Eligibility	5
+The Eastern Cooperative Oncology Group (ECOG) performance status must be 0 or 1.	Eligibility	6
+group	CHEBI:24433	33-38
+The diagnosis of invasive adenocarcinoma of the breast must have been made by core needle biopsy or by limited incisional biopsy.	Eligibility	7
+adenocarcinoma	DOID:299	26-40
+breast	UBERON:0000310	48-54
+Patients must have ER analysis performed on the primary tumor prior to randomization. If ER analysis is negative, then Progesterone Receptor (PgR) analysis must also be performed. (Patients are eligible with either hormone receptor-positive or hormone receptor-negative tumors.)	Eligibility	8
+progesterone	CHEBI:17026	119-131
+receptor	BAO:0000281	132-140
+receptor	BAO:0000281	223-231
+receptor	BAO:0000281	252-260
+hormone	CHEBI:24621	215-222
+hormone	CHEBI:24621	244-251
+Clinical staging, based on the assessment by physical exam, must be American Joint Committee on Cancer (AJCC) stage IIB, IIIA, IIIB, or IIIC: cT2 and cN1, cT3 and cN0 or cN1, Any cT and cN2 or cN3, cT4	Eligibility	9
+cancer	DOID:162	96-102
+ct	BAO:0002125	142-144
+ct	BAO:0002125	155-157
+ct	BAO:0002125	179-181
+ct	BAO:0002125	198-200
+The patient must have a mass in the breast or axilla measuring greater than or equal to 2.0 cm by physical exam, unless the patient has inflammatory breast cancer, in which case measurable disease by physical exam is not required.	Eligibility	10
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	124-131
+breast	UBERON:0000310	36-42
+breast	UBERON:0000310	149-155
+breast cancer	DOID:1612	149-162
+disease	DOID:4,OGMS:0000031	189-196
+At the time of randomization, blood counts performed within 4 weeks prior to randomization must meet the following criteria: Absolute Neutrophil Count (ANC) must be greater than or equal to 1200/mm3; Platelet count must be greater than or equal to 100,000/mm3; Hemoglobin must be greater than or equal to 10 g/dL.	Eligibility	11
+time	PATO:0000165	7-11
+blood	UBERON:0000178	30-35
+platelet count	CMO:0000029	200-214
+hemoglobin	CHEBI:35143	261-271
+The following criteria for evidence of adequate hepatic function performed within 4 weeks prior to randomization must be met: total bilirubin must be less than or equal to Upper Limit of Normal (ULN) for the lab unless the patient has a bilirubin elevation > ULN to 1.5 x ULN due to Gilbert's disease or similar syndrome involving slow conjugation of bilirubin; and alkaline phosphatase must be less than or equal to 1.5 x ULN for the lab; and Aspartate aminotransferase (AST) and Alanine aminotransferase (ALT) must be less than or equal to 1.5 x ULN for the lab.	Eligibility	12
+function	BAO:0003117,BFO:0000034	56-64
+patient	HADO:0000008,OAE:0001817	223-230
+x	LABO:0000148	270-271
+x	LABO:0000148	421-422
+x	LABO:0000148	546-547
+disease	DOID:4,OGMS:0000031	293-300
+syndrome	DOID:225	312-320
+phosphatase	GO:0016791,BAO:0000295	375-386
+aspartate	CHEBI:29995	444-453
+alanine	CHEBI:16449	481-488
+Patients with alkaline phosphatase > ULN but less than or equal to 1.5 x ULN are eligible for inclusion in the study if liver imaging (CT, MRI, PET, or PET-CT scan) performed within 4 weeks prior to randomization does not demonstrate metastatic disease and the requirements in the criteria below for unexplained skeletal pain are met.	Eligibility	13
+phosphatase	GO:0016791,BAO:0000295	23-34
+x	LABO:0000148	71-72
+x	LABO:0000148	303-304
+liver	UBERON:0002107	120-125
+ct	BAO:0002125	135-137
+ct	BAO:0002125	156-158
+disease	DOID:4,OGMS:0000031	245-252
+pain	HP:0012531	321-325
+Patients with either unexplained skeletal pain or alkaline phosphatase that is > ULN but less than or equal to 1.5 x ULN are eligible for inclusion in the study if a bone scan, PET-CT scan, or PET scan performed within 4 weeks prior to randomization does not demonstrate metastatic disease. Patients with suspicious findings on bone scan or PET scan are eligible if suspicious findings are determined to be benign by x-ray, MRI, or biopsy.	Eligibility	14
+pain	HP:0012531	42-46
+phosphatase	GO:0016791,BAO:0000295	59-70
+x	LABO:0000148	24-25
+x	LABO:0000148	115-116
+x	LABO:0000148	417-418
+disease	DOID:4,OGMS:0000031	282-289
+Serum creatinine performed within 4 weeks prior to randomization must be less than or equal to 1.5 x ULN for the lab.	Eligibility	15
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	99-100
+Serum potassium and serum magnesium performed within 4 weeks prior to randomization must be Within Normal Limits (WNL).	Eligibility	16
+The Left Ventricular Ejection Fraction (LVEF) assessment by 2-D echocardiogram or Multigated acquisition (MUGA) scan performed within 90 days prior to randomization must be greater than or equal to 50% regardless of the facility's Lower Limit of Normal (LLN).	Eligibility	17
+left	HP:0012835	4-8
+ejection fraction	CMO:0000180	21-38
+ECG performed within 4 weeks before study entry must demonstrate a QTc interval that is less than or equal to 0.47 seconds.	Eligibility	18
+qtc interval	CMO:0000269	67-79
+Exclusion Criteria:	Eligibility	19
+Tumor that has been determined to be HER2-positive by immunohistochemistry (3+) or by in situ hybridization (positive for gene amplification), or has been determined to be HER2-equivocal and the investigator plans to administer trastuzumab or other targeted therapy.	Eligibility	20
+immunohistochemistry	BAO:0000415	54-74
+gene	BAO:0000582	122-126
+Fine Needle Aspiration (FNA) alone to diagnose the primary breast cancer.	Eligibility	21
+aspiration	HP:0002835	12-22
+breast cancer	DOID:1612	59-72
+Excisional biopsy or lumpectomy performed prior to randomization.	Eligibility	22
+Surgical axillary staging procedure prior to randomization. (Procedures that are permitted prior to study entry include: 1) FNA or core biopsy of an axillary node for any patient, and 2) although not recommended, a pre-neoadjuvant therapy Sentinal Node (SN) biopsy for patients with clinically negative axillary nodes.)	Eligibility	23
+patient	HADO:0000008,OAE:0001817	171-178
+patient	HADO:0000008,OAE:0001817	269-276
+Definitive clinical or radiologic evidence of metastatic disease. (Note: Chest imaging is mandatory for all patients within 90 days prior to randomization. Other imaging [if required] must have been performed within 4 weeks prior to randomization.)	Eligibility	24
+disease	DOID:4,OGMS:0000031	57-64
+chest	UBERON:0001443	73-78
+History of ipsilateral invasive breast cancer regardless of treatment or ipsilateral Ductal Carcinoma in Situ (DCIS) treated with Radiation Therapy (RT). (Patients with a history of Lobular Carcinoma in Situ (LCIS), contralateral DCIS [regardless of RT], or contralateral invasive breast cancer are eligible.)	Eligibility	25
+history	BFO:0000182	0-7
+history	BFO:0000182	171-178
+breast cancer	DOID:1612	32-45
+breast cancer	DOID:1612	281-294
+ductal carcinoma in situ	HP:0030075,DOID:0060074	85-109
+lobular carcinoma in situ	HP:0030076,DOID:3010	182-207
+History of non-breast malignancies (except for in situ cancers treated only by local excision and basal cell and squamous cell carcinomas of the skin) within 5 years prior to randomization.	Eligibility	26
+history	BFO:0000182	0-7
+Known metastatic disease from any malignancy (solid tumor or hematologic).	Eligibility	27
+disease	DOID:4,OGMS:0000031	17-24
+Previous therapy with anthracyclines, taxanes, cyclophosphamide, or eribulin for any malignancy.	Eligibility	28
+cyclophosphamide	CHEBI:4026	47-63
+eribulin	CHEBI:63587	68-76
+Treatment including RT, chemotherapy, and/or targeted therapy, administered for the currently diagnosed breast cancer prior to randomization.	Eligibility	29
+breast cancer	DOID:1612	104-117
+Continued endocrine therapy such as raloxifene or tamoxifen (or other SERM) or an aromatase inhibitor. (Patients are eligible if these medications are discontinued prior to randomization.)	Eligibility	30
+raloxifene	CHEBI:8772	36-46
+tamoxifen	CHEBI:41774	50-59
+inhibitor	CHEBI:35222	92-101
+Any continued sex hormonal therapy, e.g., birth control pills and ovarian hormone replacement therapy. Patients are eligible if these medications are discontinued prior to randomization.	Eligibility	31
+hormone	CHEBI:24621	74-81
+Requirement for chronic use of any drugs known to prolong the QT interval, including Na+ and K+ channel blockers. (Patients are eligible if these medications and/or substances can be discontinued prior to the first dose of eribulin and will not need to be resumed until after the last dose of eribulin.)	Eligibility	32
+chronic	HP:0011010	16-23
+qt interval	CMO:0000235	62-73
+eribulin	CHEBI:63587	223-231
+eribulin	CHEBI:63587	293-301
+Active hepatitis B or hepatitis C with abnormal liver function tests.	Eligibility	33
+active	PATO:0002354	0-6
+hepatitis b	DOID:2043	7-18
+hepatitis c	DOID:1883	22-33
+liver	UBERON:0002107	48-53
+function	BAO:0003117,BFO:0000034	54-62
+Intrinsic lung disease resulting in dyspnea.	Eligibility	34
+lung disease	DOID:850	10-22
+dyspnea	HP:0002094	36-43
+Active infection; or chronic infection requiring chronic suppressive antibiotics.	Eligibility	35
+active	PATO:0002354	0-6
+chronic infection	HP:0031035	21-38
+chronic	HP:0011010	21-28
+chronic	HP:0011010	49-56
+Persistent greater than or equal to grade 2 diarrhea regardless of etiology.	Eligibility	36
+diarrhea	HP:0002014,DOID:13250	44-52
+Sensory or motor neuropathy greater than or equal to grade 2, as defined by the NCI Common Toxicity Criteria for Adverse Effects (CTCAE) v4.0.	Eligibility	37
+neuropathy	DOID:870	17-27
+Conditions that would prohibit intermittent administration of corticosteroids for paclitaxel premedication.	Eligibility	38
+paclitaxel	CHEBI:45863	82-92
+Chronic daily treatment with corticosteroids with a dose of greater than or equal to 10 mg/day methylprednisolone equivalent (excluding inhaled steroids).	Eligibility	39
+chronic	HP:0011010	0-7
+Uncontrolled hypertension defined as a systolic BP > 150 mmHg or diastolic BP > 90 mmHg, with or without anti-hypertensive medications. (Patients with hypertension that is well-controlled on medication are eligible.)	Eligibility	40
+hypertension	HP:0000822,DOID:10763	13-25
+hypertension	HP:0000822,DOID:10763	151-163
+Cardiac disease (history of and/or active disease) that would preclude the use of any of the drugs included in the treatment regimen. This includes but is not confined to: Active cardiac disease: symptomatic angina pectoris within the past 180 days that required the initiation of or increase in anti-anginal medication or other intervention; ventricular arrhythmias except for benign premature ventricular contractions; supraventricular and nodal arrhythmias requiring a pacemaker or not controlled with medication; conduction abnormality requiring a pacemaker; valvular disease with documented compromise in cardiac function; and symptomatic pericarditis. History of cardiac disease: myocardial infarction documented by elevated cardiac enzymes or persistent regional wall abnormalities on assessment of Left Ventricular (LV) function; history of documented Congestive Heart Failure (CHF) documented cardiomyopathy; and congenital long QT syndrome.	Eligibility	41
+disease	DOID:4,OGMS:0000031	8-15
+disease	DOID:4,OGMS:0000031	42-49
+disease	DOID:4,OGMS:0000031	187-194
+disease	DOID:4,OGMS:0000031	572-579
+disease	DOID:4,OGMS:0000031	677-684
+history	BFO:0000182	17-24
+history	BFO:0000182	658-665
+history	BFO:0000182	838-845
+active	PATO:0002354	35-41
+active	PATO:0002354	172-178
+angina pectoris	HP:0001681	208-223
+increase	BAO:0001251	284-292
+function	BAO:0003117,BFO:0000034	618-626
+function	BAO:0003117,BFO:0000034	828-836
+pericarditis	HP:0001701,DOID:1787	644-656
+myocardial infarction	HP:0001658,DOID:5844	686-707
+left	HP:0012835	806-810
+congestive heart failure	HP:0001635,DOID:6000	860-884
+cardiomyopathy	HP:0001638,DOID:0050700	902-916
+long qt syndrome	DOID:2843	933-949
+Other nonmalignant systemic disease that would preclude the patient from receiving study treatment or would prevent required follow-up.	Eligibility	42
+disease	DOID:4,OGMS:0000031	28-35
+patient	HADO:0000008,OAE:0001817	60-67
+Pregnancy or lactation at the time of randomization.	Eligibility	43
+lactation	GO:0007595	13-22
+time	PATO:0000165	30-34
+Any psychiatric or addictive disorder or other condition that, in the opinion of the investigator, would preclude her from meeting the study requirements.	Eligibility	44
+disorder	OGMS:0000045	29-37
+condition	PDRO:0000129	47-56
+Use of any investigation agent within 4 weeks prior to randomization.	Eligibility	45
+Outcome Measurement:	Results	0
+Pathologic Complete Response Rate (ypCR) Following Neoadjuvant Therapy in Breast and Axillary Lymph Nodes	Results	1
+rate	BAO:0080019	29-33
+breast	UBERON:0000310	74-80
+lymph	UBERON:0002391	94-99
+Percentage of patients with no histologic evidence of cancer in breast and axillary lymph nodes.	Results	2
+cancer	DOID:162	54-60
+breast	UBERON:0000310	64-70
+lymph	UBERON:0002391	84-89
+Time frame: At the time of surgery approximately 24 to 28 weeks.	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	19-23
+surgery	OAE:0000067	27-34
+Results 1:	Results	4
+Arm/Group Title: Arm 1: Paclitaxel Then AC	Results	5
+paclitaxel	CHEBI:45863	24-34
+Arm/Group Description: Paclitaxel 80 mg/m2 IV weekly for 12 doses followed by doxorubicin and cyclophosphamide IV every 21 days for 4 cycles	Results	6
+paclitaxel	CHEBI:45863	23-33
+doxorubicin	CHEBI:28748,BAO:0000639	78-89
+cyclophosphamide	CHEBI:4026	94-110
+Paclitaxel: 80 mg/m2 IV over 60 minutes weekly for 12 weeks	Results	7
+paclitaxel	CHEBI:45863	0-10
+Doxorubicin: 60 mg/m2 IV over 15 minutes on day 1 every 21 days for 4 cycles	Results	8
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+day	UO:0000033	44-47
+day	UO:0000033	59-62
+Cyclophosphamide: 600 mg/m2 IV over 30 minutes on day 1 every 21 days for 4 cycles	Results	9
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	50-53
+day	UO:0000033	65-68
+Overall Number of Participants Analyzed: 19	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: percentage of participants  26.3	Results	12
+Results 2:	Results	13
+Arm/Group Title: Arm 2: Eribulin Then AC	Results	14
+eribulin	CHEBI:63587	24-32
+Arm/Group Description: Eribulin 1.4 mg/m2 IV on days 1 and 8 of a 21-day cycle for 4 cycles, followed by doxorubicin and cyclophosphamide IV every 21 days for 4 cycles	Results	15
+eribulin	CHEBI:63587	23-31
+doxorubicin	CHEBI:28748,BAO:0000639	105-116
+cyclophosphamide	CHEBI:4026	121-137
+Eribulin: 1.4 mg/m2 IV over 2 to 5 minutes on Days 1 and 8 every 21 days for 4 cycles	Results	16
+eribulin	CHEBI:63587	0-8
+Doxorubicin: 60 mg/m2 IV over 15 minutes on day 1 every 21 days for 4 cycles	Results	17
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+day	UO:0000033	44-47
+day	UO:0000033	59-62
+Cyclophosphamide: 600 mg/m2 IV over 30 minutes on day 1 every 21 days for 4 cycles	Results	18
+cyclophosphamide	CHEBI:4026	0-16
+day	UO:0000033	50-53
+day	UO:0000033	65-68
+Overall Number of Participants Analyzed: 30	Results	19
+Measure Type: Number	Results	20
+Unit of Measure: percentage of participants  16.7	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 3/19 (15.79%)	Adverse Events	1
+Febrile neutropenia 1/19 (5.26%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Colitis 1/19 (5.26%)	Adverse Events	3
+colitis	HP:0002583,DOID:0060180	0-7
+Pain in extremity 0/19 (0.00%)	Adverse Events	4
+pain	HP:0012531	0-4
+Nephrolithiasis 0/19 (0.00%)	Adverse Events	5
+nephrolithiasis	HP:0000787,DOID:585	0-15
+Pulmonary embolism 1/19 (5.26%)	Adverse Events	6
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+Dyspnoea 0/19 (0.00%)	Adverse Events	7
+Haematoma 0/19 (0.00%)	Adverse Events	8
+Adverse Events 2:	Adverse Events	9
+Total: 4/30 (13.33%)	Adverse Events	10
+Febrile neutropenia 1/30 (3.33%)	Adverse Events	11
+neutropenia	HP:0001875,DOID:1227	8-19
+Colitis 0/30 (0.00%)	Adverse Events	12
+colitis	HP:0002583,DOID:0060180	0-7
+Pain in extremity 1/30 (3.33%)	Adverse Events	13
+pain	HP:0012531	0-4
+Nephrolithiasis 1/30 (3.33%)	Adverse Events	14
+nephrolithiasis	HP:0000787,DOID:585	0-15
+Pulmonary embolism 0/30 (0.00%)	Adverse Events	15
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+Dyspnoea 1/30 (3.33%)	Adverse Events	16
+Haematoma 1/30 (3.33%)	Adverse Events	17

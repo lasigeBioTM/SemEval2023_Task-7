@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+Cisplatin or Carboplatin	Intervention	1
+cisplatin	CHEBI:27899	0-9
+carboplatin	CHEBI:31355	13-24
+Cisplatin or carboplatin (1 arm, 2 cohorts)	Intervention	2
+cisplatin	CHEBI:27899	0-9
+carboplatin	CHEBI:31355	13-24
+Cisplatin: Given intravenously on the first day of each 3-week treatment cycle at 75mg/m2. Participants may continue to receive study treatment as long as their disease does not worsen and they do not experience serious side effects.	Intervention	3
+cisplatin	CHEBI:27899	0-9
+day	UO:0000033	44-47
+disease	DOID:4,OGMS:0000031	161-168
+carboplatin: Given intravenously on the first day of each 3-week treatment cycle at AUC 6. Participants may continue to receive study treatment as long as their disease does not worsen and they do not experience serious side effects.	Intervention	4
+carboplatin	CHEBI:31355	0-11
+day	UO:0000033	46-49
+auc	BAO:0002120	84-87
+disease	DOID:4,OGMS:0000031	161-168
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed invasive breast cancer with stage IV disease, according to AJCC 6th edition (American Joint Committee on Cancer), either biopsy proven or with unequivocal evidence of metastatic disease by physical examination or radiological study	Eligibility	1
+breast cancer	DOID:1612	34-47
+disease	DOID:4,OGMS:0000031	62-69
+disease	DOID:4,OGMS:0000031	203-210
+cancer	DOID:162	41-47
+cancer	DOID:162	130-136
+physical examination	OAE:0004232	214-234
+All tumors must be ER-, PGR- and HER2-negative	Eligibility	2
+18 years of age or older	Eligibility	3
+age	PATO:0000011	12-15
+Paraffin tissue block is required from the primary tumor tissue or from diagnostic metastatic biopsy at time of relapse	Eligibility	4
+tissue	UBERON:0000479	9-15
+tissue	UBERON:0000479	57-63
+time	PATO:0000165	104-108
+Measurable disease by RECIST	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+Performance status of 0,1 or 2 by ECOG criteria (Eastern Cooperative Oncology Group)	Eligibility	6
+group	CHEBI:24433	78-83
+Life expectancy greater than 12 weeks	Eligibility	7
+Normal organ and bone marrow function documented within 14 days prior to enrollment as defined by the protocol	Eligibility	8
+organ	UBERON:0000062	7-12
+bone marrow	UBERON:0002371	17-28
+function	BAO:0003117,BFO:0000034	29-37
+Exclusion Criteria:	Eligibility	9
+More than 1 prior chemotherapy for the treatment of recurrent or metastatic breast cancer	Eligibility	10
+recurrent	HP:0031796	52-61
+breast cancer	DOID:1612	76-89
+Prior treatment with cisplatin, carboplatin, or other platinum chemotherapy agents	Eligibility	11
+cisplatin	CHEBI:27899	21-30
+carboplatin	CHEBI:31355	32-43
+platinum	CHEBI:33364	54-62
+Active brain metastases or unevaluated neurological symptoms suggestive of brain metastases	Eligibility	12
+active	PATO:0002354	0-6
+brain	UBERON:0000955	7-12
+brain	UBERON:0000955	75-80
+Intercurrent illness or other major medical condition or comorbid condition that might affect study participation	Eligibility	13
+condition	PDRO:0000129	44-53
+condition	PDRO:0000129	66-75
+Significant history of uncontrolled cardiac disease such as uncontrolled hypertension, unstable angina, recent myocardial infarction, uncontrolled congestive heart failure, cardiomyopathy either symptomatic or asymptomatic but with decreased ejection fraction <45%	Eligibility	14
+history	BFO:0000182	12-19
+disease	DOID:4,OGMS:0000031	44-51
+hypertension	HP:0000822,DOID:10763	73-85
+myocardial infarction	HP:0001658,DOID:5844	111-132
+congestive heart failure	HP:0001635,DOID:6000	147-171
+cardiomyopathy	HP:0001638,DOID:0050700	173-187
+ejection fraction	CMO:0000180	242-259
+Renal dysfunction for which cisplatin dose would either require dose modification or would be considered unsafe	Eligibility	15
+cisplatin	CHEBI:27899	28-37
+Pregnant or nursing women	Eligibility	16
+History or other malignancy that was not treated with curative intent	Eligibility	17
+history	BFO:0000182	0-7
+Outcome Measurement:	Results	0
+Objective Response Rate	Results	1
+rate	BAO:0080019	19-23
+Objective response rate (ORR) (complete response [CR]+ partial response [PR]) by RECIST (Response Evaluation Criteria In Solid Tumors).	Results	2
+rate	BAO:0080019	19-23
+Complete Response (CR): Disappearance of all target lesions	Results	3
+target	BAO:0003064	45-51
+Partial Response (PR): At least a 30% decrease in the sum of the LD (longest diameter) of target lesions, taking as reference the baseline sum LD	Results	4
+diameter	PATO:0001334	77-85
+target	BAO:0003064	90-96
+Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum LD since the treatment started	Results	5
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+increase	BAO:0001251	83-91
+Progressive Disease (PD): At least a 20% increase in the sum of the LD of target lesions, taking as reference the smallest sum LD recorded since the treatment started or the appearance of one or more new lesions	Results	6
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+increase	BAO:0001251	41-49
+target	BAO:0003064	74-80
+Time frame: 3 years	Results	7
+time	PATO:0000165	0-4
+Results 1:	Results	8
+Arm/Group Title: Cisplatin or Carboplatin	Results	9
+cisplatin	CHEBI:27899	17-26
+carboplatin	CHEBI:31355	30-41
+Arm/Group Description: Cisplatin or carboplatin (1 arm, 2 cohorts)	Results	10
+cisplatin	CHEBI:27899	23-32
+carboplatin	CHEBI:31355	36-47
+Cisplatin: Given intravenously on the first day of each 3-week treatment cycle at 75mg/m2. Participants may continue to receive study treatment as long as their disease does not worsen and they do not experience serious side effects.	Results	11
+cisplatin	CHEBI:27899	0-9
+day	UO:0000033	44-47
+disease	DOID:4,OGMS:0000031	161-168
+carboplatin: Given intravenously on the first day of each 3-week treatment cycle at AUC 6. Participants may continue to receive study treatment as long as their disease does not worsen and they do not experience serious side effects.	Results	12
+carboplatin	CHEBI:31355	0-11
+day	UO:0000033	46-49
+auc	BAO:0002120	84-87
+disease	DOID:4,OGMS:0000031	161-168
+Overall Number of Participants Analyzed: 86	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  Complete Response: 3   3.5%	Results	15
+Partial Response: 19  22.1%	Results	16
+Stable Disease > 6 Months: 4   4.7%	Results	17
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 57  66.3%	Results	18
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not Evaluable: 3   3.5%	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 8/86 (9.30%)	Adverse Events	1
+Hypersensitivity reaction to Cisplatin 1/86 (1.16%)	Adverse Events	2
+hypersensitivity	GO:0002524,DOID:1205	0-16
+cisplatin	CHEBI:27899	29-38
+Infection with normal ANC 4/86 (4.65%)	Adverse Events	3
+Neutrophil Count 1/86 (1.16%)	Adverse Events	4
+Hyperglycemia 1/86 (1.16%)	Adverse Events	5
+hyperglycemia	HP:0003074,DOID:4195	0-13
+Hypertension 1/86 (1.16%)	Adverse Events	6
+hypertension	HP:0000822,DOID:10763	0-12

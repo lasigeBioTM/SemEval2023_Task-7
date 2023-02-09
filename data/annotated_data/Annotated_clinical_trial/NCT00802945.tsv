@@ -1,0 +1,91 @@
+INTERVENTION 1:	Intervention	0
+NKTR-102 14 Day	Intervention	1
+day	UO:0000033	12-15
+NKTR-102: NKTR-102 given on a q14 day schedule	Intervention	2
+day	UO:0000033	34-37
+INTERVENTION 2:	Intervention	3
+NKTR-102 21 Days	Intervention	4
+NKTR-102: NKTR-102 given on a q21 day schedule	Intervention	5
+day	UO:0000033	34-37
+Inclusion Criteria:	Eligibility	0
+Inoperable metastatic or locally advanced breast cancer	Eligibility	1
+breast cancer	DOID:1612	42-55
+No more than 2 prior chemotherapy regimens given in a metastatic or locally advanced setting and prior treatment in the metastatic setting must have included a taxane	Eligibility	2
+taxane	CHEBI:36064	160-166
+Exclusion Criteria:	Eligibility	3
+Patients who have had chemotherapy or radiotherapy within 4 weeks (6 weeks for nitrosoureas or mitomycin C) prior to Day 1 of Cycle 1	Eligibility	4
+radiotherapy	OAE:0000235	38-50
+mitomycin c	CHEBI:27504	95-106
+day	UO:0000033	117-120
+Patients who have had any major surgery within 4 weeks prior to Day 1 of Cycle or minor surgery within 2 weeks prior to Day 1 of Cycle 1	Eligibility	5
+surgery	OAE:0000067	32-39
+surgery	OAE:0000067	88-95
+day	UO:0000033	64-67
+day	UO:0000033	120-123
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR)	Results	1
+rate	BAO:0080019	19-23
+Per Response Evaluation Criteria In Solid Tumors (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), at least a 30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	2
+target	BAO:0003064	67-73
+target	BAO:0003064	148-154
+target	BAO:0003064	249-255
+diameter	PATO:0001334	237-245
+Time frame: Up to 2 years.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: NKTR-102 14 Day	Results	5
+day	UO:0000033	29-32
+Arm/Group Description: NKTR-102: NKTR-102 given on a q14 day schedule	Results	6
+day	UO:0000033	57-60
+Overall Number of Participants Analyzed: 35	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of subjects  28.6        (14.6 to 46.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: NKTR-102 21 Days	Results	11
+Arm/Group Description: NKTR-102: NKTR-102 given on a q21 day schedule	Results	12
+day	UO:0000033	57-60
+Overall Number of Participants Analyzed: 35	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of subjects  35        (14.6 to 46.3)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 18/35 (51.43%)	Adverse Events	1
+Anaemia * 0/35 (0.00%)	Adverse Events	2
+Febrile Neutropenia * 0/35 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 1/35 (2.86%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Vision Blurred * 1/35 (2.86%)	Adverse Events	5
+Abdominal Pain * 1/35 (2.86%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Abdominal Pain Lower * 1/35 (2.86%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Constipation * 0/35 (0.00%)	Adverse Events	8
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea * 6/35 (17.14%)	Adverse Events	9
+Ileitis * 0/35 (0.00%)	Adverse Events	10
+ileitis	HP:0032564,DOID:0060189	0-7
+Nausea * 2/35 (5.71%)	Adverse Events	11
+nausea	HP:0002018	0-6
+Small Intestinal Obstruction * 0/35 (0.00%)	Adverse Events	12
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Adverse Events 2:	Adverse Events	13
+Total: 15/35 (42.86%)	Adverse Events	14
+Anaemia * 1/35 (2.86%)	Adverse Events	15
+Febrile Neutropenia * 1/35 (2.86%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/35 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Vision Blurred * 0/35 (0.00%)	Adverse Events	18
+Abdominal Pain * 0/35 (0.00%)	Adverse Events	19
+abdominal pain	HP:0002027	0-14
+Abdominal Pain Lower * 0/35 (0.00%)	Adverse Events	20
+abdominal pain	HP:0002027	0-14
+Constipation * 1/35 (2.86%)	Adverse Events	21
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea * 4/35 (11.43%)	Adverse Events	22
+Ileitis * 1/35 (2.86%)	Adverse Events	23
+ileitis	HP:0032564,DOID:0060189	0-7
+Nausea * 0/35 (0.00%)	Adverse Events	24
+nausea	HP:0002018	0-6
+Small Intestinal Obstruction * 1/35 (2.86%)	Adverse Events	25
+intestinal obstruction	HP:0005214,DOID:8437	6-28

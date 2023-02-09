@@ -1,0 +1,70 @@
+INTERVENTION 1:	Intervention	0
+Neoadjuvant Therapy	Intervention	1
+Neoadjuvant therapy will consist of epirubicin (100 mg/m^2) + cyclophosphamide (600 mg/m^2) every 2 weeks for 4 cycles; followed by a 3-week break; followed by docetaxel (75 mg/m^2) every 2 weeks for 4 cycles + trastuzumab (6 mg/kg [loading dose] once then 4 mg/kg [maintenance dose]) every 2 weeks for 4 treatments.	Intervention	2
+cyclophosphamide	CHEBI:4026	62-78
+Inclusion Criteria:	Eligibility	0
+Non-pregnant females =/> 18 years of age	Eligibility	1
+age	PATO:0000011	37-40
+Non-inflammatory breast cancer stage IIA - IIIC or high risk node negative	Eligibility	2
+breast cancer	DOID:1612	17-30
+Core biopsy of breast demonstrating invasive cancer and documented ER/PgR receptor status	Eligibility	3
+breast	UBERON:0000310	15-21
+cancer	DOID:162	45-51
+receptor	BAO:0000281	74-82
+Normal cardiac function and adequate hematologic function	Eligibility	4
+function	BAO:0003117,BFO:0000034	15-23
+function	BAO:0003117,BFO:0000034	49-57
+Human epidermal growth factor receptor 2 protein (HER2) positive	Eligibility	5
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+protein	CHEBI:36080,BAO:0000175	41-48
+No evidence of metastatic disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	26-33
+ECOG Performance Status 0 - 1	Eligibility	7
+Women of childbearing potential must agree to using effective contraception while on treatment and for at least 3 months post-treatment	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Treated with other investigational drugs within 30 days	Eligibility	10
+Uncontrolled intercurrent disease or active infection	Eligibility	11
+disease	DOID:4,OGMS:0000031	26-33
+active	PATO:0002354	37-43
+Known sensitivity to e. coli-derived proteins or polysorbate 80	Eligibility	12
+polysorbate 80	CHEBI:53426	49-63
+Psychiatric illness or social situation that would limit study compliance	Eligibility	13
+Pre-existing peripheral neuropathy > Grade 1	Eligibility	14
+peripheral neuropathy	HP:0009830,DOID:870	13-34
+Cancer within 5 years of screening with the exception of surgically cured nonmelanomatous skin cancer; in-situ carcinoma of the cervix; or in-situ carcinoma of the breast	Eligibility	15
+cancer	DOID:162	0-6
+cancer	DOID:162	95-101
+skin cancer	DOID:4159	90-101
+carcinoma	HP:0030731,DOID:305	111-120
+carcinoma	HP:0030731,DOID:305	147-156
+breast	UBERON:0000310	164-170
+Bilateral synchronous breast cancer	Eligibility	16
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	22-35
+Inflammatory breast cancer	Eligibility	17
+breast cancer	DOID:1612	13-26
+Women who are pregnant or breast feeding	Eligibility	18
+breast	UBERON:0000310	26-32
+Outcome Measurement:	Results	0
+Percentage of Subjects Able to Complete > 85% of the Planned Dose on Schedule	Results	1
+Feasibility will be determined by evaluating the percentage of subjects able to complete the neoadjuvant portion of the study on time with > 85% of the protocol-specified dose.	Results	2
+time	PATO:0000165	129-133
+Time frame: From the start of treatment through the neoadjuvant treatment period (approximately 20 weeks)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Neoadjuvant Therapy	Results	5
+Arm/Group Description: Neoadjuvant therapy will consist of epirubicin (100 mg/m^2) + cyclophosphamide (600 mg/m^2) every 2 weeks for 4 cycles; followed by a 3-week break; followed by docetaxel (75 mg/m^2) every 2 weeks for 4 cycles + trastuzumab (6 mg/kg [loading dose] once then 4 mg/kg [maintenance dose]) every 2 weeks for 4 treatments.	Results	6
+cyclophosphamide	CHEBI:4026	85-101
+Overall Number of Participants Analyzed: 30	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  60	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 4/30 (13.33%)	Adverse Events	1
+Congestive heart failure * 1/30 (3.33%)	Adverse Events	2
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Pneumonia * 1/30 (3.33%)	Adverse Events	3
+pneumonia	HP:0002090,DOID:552	0-9
+Medical Error * 1/30 (3.33%)	Adverse Events	4
+Interstitial lung disease * 1/30 (3.33%)	Adverse Events	5
+interstitial lung disease	DOID:3082	0-25

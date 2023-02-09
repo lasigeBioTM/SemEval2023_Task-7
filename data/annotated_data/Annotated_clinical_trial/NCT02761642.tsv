@@ -1,0 +1,68 @@
+INTERVENTION 1:	Intervention	0
+Epoetin Beta	Intervention	1
+Anemic breast cancer participants received epoetin beta (NeoRecormon®) at a dose of 30000 International Units (IU) as subcutaneous (SC) injection once every week for a total of 12 weeks. Adjustments in the dose were implemented based on the participant's blood hemoglobin levels.	Intervention	2
+breast cancer	DOID:1612	7-20
+week	UO:0000034	157-161
+week	UO:0000034	180-184
+blood	UBERON:0000178	255-260
+hemoglobin	CHEBI:35143	261-271
+Inclusion Criteria:	Eligibility	0
+Adult female participants with histological diagnosis of breast cancer	Eligibility	1
+adult	EFO:0001272	0-5
+female	PATO:0000383	6-12
+breast cancer	DOID:1612	57-70
+Any type of chemotherapy planned for greater than or equal to (>/=) 9 weeks	Eligibility	2
+Hemoglobin level less than (<) 11 grams per deciliter (g/dL)	Eligibility	3
+hemoglobin	CHEBI:35143	0-10
+Participants able to receive iron supplement, if necessary	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+Known or suspected contraindications to epoetin beta	Eligibility	6
+Pregnancy or lactation period	Eligibility	7
+lactation	GO:0007595	13-22
+Diagnosis of anemia only due to iron-deficiency	Eligibility	8
+anemia	HP:0001903,DOID:2355	13-19
+Diagnosis of thalasemic syndromes	Eligibility	9
+Epilepsy and/or cerebral metastasis	Eligibility	10
+epilepsy	DOID:1826	0-8
+Blood transfusion or treatment with any erythropoietic factor within 4 weeks before study start	Eligibility	11
+blood	UBERON:0000178	0-5
+Outcome Measurement:	Results	0
+Percentage of Participants With Response to Treatment Based on Hemoglobin Levels	Results	1
+hemoglobin	CHEBI:35143	63-73
+Response was defined as increase of hemoglobin levels by at least 2 grams per deciliter (g/dL) as compared to baseline or the achievement of hemoglobin level of 12 g/dL after 12 weeks of treatment in the absence of red blood cells transfusion.	Results	2
+increase	BAO:0001251	24-32
+hemoglobin	CHEBI:35143	36-46
+hemoglobin	CHEBI:35143	141-151
+blood	UBERON:0000178	219-224
+Time frame: Week 12	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	12-16
+Results 1:	Results	4
+Arm/Group Title: Epoetin Beta	Results	5
+Arm/Group Description: Anemic breast cancer participants received epoetin beta (NeoRecormon  ) at a dose of 30000 International Units (IU) as subcutaneous (SC) injection once every week for a total of 12 weeks. Adjustments in the dose were implemented based on the participant's blood hemoglobin levels.	Results	6
+breast cancer	DOID:1612	30-43
+week	UO:0000034	181-185
+week	UO:0000034	204-208
+blood	UBERON:0000178	279-284
+hemoglobin	CHEBI:35143	285-295
+Overall Number of Participants Analyzed: 197	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  46.2        (38.2 to 54.3)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 17/197 (8.63%)	Adverse Events	1
+Neutropenia * 1/197 (0.51%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia * 1/197 (0.51%)	Adverse Events	3
+pancytopenia	HP:0001876,DOID:12450	0-12
+Disease progression * 2/197 (1.02%)	Adverse Events	4
+disease	DOID:4,OGMS:0000031	0-7
+Fatigue * 1/197 (0.51%)	Adverse Events	5
+fatigue	HP:0012378	0-7
+General physical health deterioration * 1/197 (0.51%)	Adverse Events	6
+Contrast media reaction * 1/197 (0.51%)	Adverse Events	7
+Cachexia * 1/197 (0.51%)	Adverse Events	8
+cachexia	HP:0004326	0-8
+Bone pain * 1/197 (0.51%)	Adverse Events	9
+bone pain	HP:0002653	0-9
+Metastases to central nervous system * 1/197 (0.51%)	Adverse Events	10
+central nervous system	UBERON:0001017	14-36

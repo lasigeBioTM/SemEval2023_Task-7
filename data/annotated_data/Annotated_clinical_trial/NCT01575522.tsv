@@ -1,0 +1,153 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Tivantinib)	Intervention	1
+Patients receive tivantinib PO BID on days 1-21. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity. Patients undergo blood sample collection at baseline and periodically during study for c-Met expression, relevant markers (HGF and VEGF), PTEN loss, and PI3K mutation analysis by FISH and IHC. Archived tumor tissue samples are also analyzed.	Intervention	2
+disease	DOID:4,OGMS:0000031	96-103
+blood	UBERON:0000178	159-164
+tissue	UBERON:0000479	350-356
+Laboratory Biomarker Analysis: Correlative studies	Intervention	3
+biomarker	CHEBI:59163	11-20
+Tivantinib: Given PO	Intervention	4
+Inclusion Criteria:	Eligibility	0
+Participants must have histologically or cytologically confirmed invasive breast cancer, with recurrent or metastatic disease; participants without pathologic or cytologic confirmation of metastatic disease should have unequivocal evidence of metastasis from physical examination or radiologic evaluation	Eligibility	1
+breast cancer	DOID:1612	74-87
+recurrent	HP:0031796	94-103
+disease	DOID:4,OGMS:0000031	118-125
+disease	DOID:4,OGMS:0000031	199-206
+physical examination	OAE:0004232	259-279
+Participants must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded for non-nodal lesions and short axis for nodal lesions) as >= 20 mm with conventional techniques or as >= 10 mm with spiral computed tomography (CT) scan	Eligibility	2
+disease	DOID:4,OGMS:0000031	34-41
+diameter	PATO:0001334	141-149
+tomography	BAO:0002525	298-308
+ct	BAO:0002125	310-312
+Participants must have recent evidence of progressive disease	Eligibility	3
+progressive	HP:0003676	42-53
+disease	DOID:4,OGMS:0000031	54-61
+Participants must have received 1-3 prior chemotherapeutic regimens for metastatic breast cancer and must have been off treatment with chemotherapy for at least 14 days before enrollment in the study	Eligibility	4
+breast cancer	DOID:1612	83-96
+Participants must have discontinued all biologic therapy (including vaccines) at least 14 days before enrollment in the study	Eligibility	5
+Participants must have discontinued any investigational therapy at least 14 days before enrollment in the study	Eligibility	6
+Participants may have received prior radiation therapy in either the metastatic or early-stage setting	Eligibility	7
+Radiation therapy must be completed at least 14 days before enrollment in the study	Eligibility	8
+Participant must not have received radiation to > 25% of his or her bone marrow within 30 days of starting study treatment	Eligibility	9
+bone marrow	UBERON:0002371	68-79
+Eastern Cooperative Oncology Group (ECOG) performance status =< 2 (Karnofsky >= 60%)	Eligibility	10
+group	CHEBI:24433	29-34
+Hemoglobin >= 9.0 g/dL	Eligibility	11
+hemoglobin	CHEBI:35143	0-10
+Absolute neutrophil count >= 1,500/mcL	Eligibility	12
+Platelets >= 100,000/mcL	Eligibility	13
+Total bilirubin =< 1.5 times upper limit of normal (ULN)	Eligibility	14
+Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT])/alanine aminotransferase (ALT) (serum glutamic pyruvate transaminase [SGPT]) =< 2.5 times institutional ULN; for participants with documented liver metastases, AST/ALT =< 5.0 times ULN	Eligibility	15
+aspartate	CHEBI:29995	0-9
+pyruvate	CHEBI:15361	129-137
+liver	UBERON:0002107	224-229
+Serum creatinine =< 1.5 times ULN OR creatinine clearance >= 60 mL/min/1.73 m^2 for participants with creatinine levels above institutional normal	Eligibility	16
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	37-47
+creatinine	CHEBI:16737	102-112
+creatinine clearance	CMO:0000765	37-57
+Either the primary tumor and/or the metastasis must be triple-negative; the invasive tumor must be hormone-receptor poor, defined as estrogen-receptor negative (ER-) and progesterone-receptor negative (PR-), or staining < 10% by immunohistochemistry (IHC)	Eligibility	17
+immunohistochemistry	BAO:0000415	229-249
+Human epidermal growth factor receptor 2 (HER2) status: the invasive tumor must be HER2-negative, defined as 0 or 1+ by IHC, or FISH < 2.0	Eligibility	18
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+Women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) during the study and for 90 days after the last investigational drug dose received	Eligibility	19
+drug	CHEBI:23888	204-208
+Female subjects of childbearing potential must have a negative serum pregnancy test within 21 days of cycle 1 day 1	Eligibility	20
+female	PATO:0000383	0-6
+day	UO:0000033	94-97
+day	UO:0000033	110-113
+Participants on bisphosphonates may continue receiving bisphosphonate therapy during study treatment; bisphosphonate therapy may also be initiated on study treatment if needed	Eligibility	21
+Confirmed availability of formalin-fixed, paraffin-embedded (FFPE) tumor tissue	Eligibility	22
+tissue	UBERON:0000479	73-79
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	23
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	24
+Participants who have received chemotherapy, biologic, investigational, or radiotherapy within 14 days prior to entering the study	Eligibility	25
+radiotherapy	OAE:0000235	75-87
+Participants who are receiving any other investigational agents	Eligibility	26
+Known brain metastases that are untreated, symptomatic, or require therapy to control symptoms	Eligibility	27
+brain	UBERON:0000955	6-11
+Participants with a history of treated central nervous system (CNS) metastases are eligible	Eligibility	28
+history	BFO:0000182	20-27
+central nervous system	UBERON:0001017	39-61
+Treated brain metastases are defined as those having no evidence of progression or hemorrhage for >= 2 months after treatment, and no ongoing requirement for corticosteroids, as ascertained by clinical examination and brain imaging (magnetic resonance imaging or computed tomography [CT] scan) during the screening period	Eligibility	29
+brain	UBERON:0000955	8-13
+brain	UBERON:0000955	218-223
+tomography	BAO:0002525	272-282
+ct	BAO:0002125	284-286
+Treatment for brain metastases may include whole-brain radiotherapy, radiosurgery, or a combination as deemed appropriate by the treating physician	Eligibility	30
+brain	UBERON:0000955	14-19
+brain	UBERON:0000955	49-54
+radiotherapy	OAE:0000235	55-67
+Participants may be taking anti-convulsant medications, which must be non-enzyme-inducing anti-epileptic drugs	Eligibility	31
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to ARQ 197	Eligibility	32
+history	BFO:0000182	0-7
+History of congestive heart failure defined as Class II to IV per New York Heart Association (NYHA) classification; active coronary artery disease (CAD); clinically significant bradycardia or other uncontrolled, cardiac arrhythmia defined as >= grade 3 according to National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE), version 4.0, or uncontrolled hypertension; myocardial infarction occurring within 6 months prior to study entry (myocardial infarction occurring > 6 months prior to study entry is permitted)	Eligibility	33
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	11-35
+heart	UBERON:0000948	22-27
+heart	UBERON:0000948	75-80
+active	PATO:0002354	116-122
+coronary artery disease	DOID:3393	123-146
+bradycardia	HP:0001662	177-188
+arrhythmia	HP:0011675	220-230
+cancer	DOID:162	275-281
+hypertension	HP:0000822,DOID:10763	383-395
+myocardial infarction	HP:0001658,DOID:5844	397-418
+myocardial infarction	HP:0001658,DOID:5844	467-488
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	34
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Pregnant women are excluded from this study	Eligibility	35
+excluded	HP:0040285	19-27
+Human immunodeficiency virus (HIV)-positive participants on combination antiretroviral therapy are ineligible	Eligibility	36
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+Outcome Measurement:	Results	0
+PFS Status	Results	1
+Analyzed using the Kaplan-Meier method. 95% confidence intervals (CI) will be determined. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.	Results	2
+increase	BAO:0001251	197-205
+increase	BAO:0001251	276-284
+diameter	PATO:0001334	232-240
+target	BAO:0003064	244-250
+target	BAO:0003064	294-300
+Time frame: Time from start of treatment to time of progression or death, assessed up to 6 months	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	12-16
+time	PATO:0000165	44-48
+death	OAE:0000632	67-72
+Results 1:	Results	4
+Arm/Group Title: Treatment (Tivantinib)	Results	5
+Arm/Group Description: Patients receive tivantinib PO BID on days 1-21. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity. Patients undergo blood sample collection at baseline and periodically during study for c-Met expression, relevant markers (HGF and VEGF), PTEN loss, and PI3K mutation analysis by FISH and IHC. Archived tumor tissue samples are also analyzed.	Results	6
+disease	DOID:4,OGMS:0000031	119-126
+blood	UBERON:0000178	182-187
+tissue	UBERON:0000479	373-379
+Laboratory Biomarker Analysis: Correlative studies	Results	7
+biomarker	CHEBI:59163	11-20
+Tivantinib: Given PO	Results	8
+Overall Number of Participants Analyzed: 22	Results	9
+Median (95% Confidence Interval)	Results	10
+median	BAO:0002174	0-6
+Unit of Measure: months  1.2        (1.0 to 1.4)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 13/22 (59.09%)	Adverse Events	1
+Constipation 1/22 (4.55%)	Adverse Events	2
+constipation	HP:0002019,DOID:2089	0-12
+Death  [1]3/22 (13.64%)	Adverse Events	3
+death	OAE:0000632	0-5
+Neutropenia 1/22 (4.55%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Anxiety 1/22 (4.55%)	Adverse Events	5
+anxiety	HP:0000739,DOID:2030	0-7
+Pleural effusion 1/22 (4.55%)	Adverse Events	6
+pleural effusion	HP:0002202	0-16
+Cough 1/22 (4.55%)	Adverse Events	7
+cough	HP:0012735	0-5
+Dyspnea 3/22 (13.64%)	Adverse Events	8
+dyspnea	HP:0002094	0-7
+Cellulitis 1/22 (4.55%)	Adverse Events	9
+cellulitis	HP:0100658,DOID:3488	0-10
+Thromboembolic event 1/22 (4.55%)	Adverse Events	10

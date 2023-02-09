@@ -1,0 +1,157 @@
+INTERVENTION 1:	Intervention	0
+Vaccine	Intervention	1
+vaccine	VO:0000001	0-7
+Patients with HER-2/neu negative tumors received therapeutic autologous dendritic cells: injected into the primary breast mass or palpable axillary node, one week after the first, second and third T treatments.	Intervention	2
+breast mass	HP:0032408	115-126
+week	UO:0000034	158-162
+second	UO:0000010	180-186
+t	CHEBI:36371,BAO:0001260	2-3
+t	CHEBI:36371,BAO:0001260	6-7
+t	CHEBI:36371,BAO:0001260	11-12
+t	CHEBI:36371,BAO:0001260	28-29
+t	CHEBI:36371,BAO:0001260	33-34
+t	CHEBI:36371,BAO:0001260	49-50
+t	CHEBI:36371,BAO:0001260	57-58
+t	CHEBI:36371,BAO:0001260	63-64
+t	CHEBI:36371,BAO:0001260	78-79
+t	CHEBI:36371,BAO:0001260	94-95
+t	CHEBI:36371,BAO:0001260	100-101
+t	CHEBI:36371,BAO:0001260	103-104
+t	CHEBI:36371,BAO:0001260	120-121
+t	CHEBI:36371,BAO:0001260	165-166
+t	CHEBI:36371,BAO:0001260	169-170
+t	CHEBI:36371,BAO:0001260	177-178
+t	CHEBI:36371,BAO:0001260	191-192
+t	CHEBI:36371,BAO:0001260	197-198
+t	CHEBI:36371,BAO:0001260	199-200
+t	CHEBI:36371,BAO:0001260	203-204
+t	CHEBI:36371,BAO:0001260	207-208
+Adjuvant hormone therapy for patients having tumors with estrogen and/or progesterone receptors. Premenopausal patients will be treated with tamoxifen. Post or perimenopausal women may receive tamoxifen or an aromatase inhibitor.	Intervention	3
+adjuvant	CHEBI:60809	0-8
+hormone	CHEBI:24621	9-16
+estrogen	CHEBI:50114,BAO:0000760	57-65
+progesterone	CHEBI:17026	73-85
+tamoxifen	CHEBI:41774	141-150
+tamoxifen	CHEBI:41774	193-202
+inhibitor	CHEBI:35222	219-228
+Patients received 4 cycles of paclitaxel: 175 mg/m2 (IV), followed by 4 cycles of cyclophosphamide: 600 mg/m2 IV and doxorubicin hydrochloride: 60 mg/m2 IV in a bi-weekly dose dense fashion	Intervention	4
+paclitaxel	CHEBI:45863	30-40
+cyclophosphamide	CHEBI:4026	82-98
+doxorubicin hydrochloride	CHEBI:31522	117-142
+All patients had pre-treatment biopsy and second tumor biopsy after 4 cycles of paclitaxel to evaluate responses to the dendritic cell injections.	Intervention	5
+second	UO:0000010	42-48
+paclitaxel	CHEBI:45863	80-90
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed invasive breast cancer meeting the following criteria:	Eligibility	1
+breast cancer	DOID:1612	34-47
+Primary tumor  3 cm by mammography, ultrasound, or palpation AND/OR palpable axillary lymph nodes > 1 cm	Eligibility	2
+lymph	UBERON:0002391	86-91
+Survivin- and/or carcinoembryonic antigen-positive by IHC	Eligibility	3
+Tumor must be localized by exam or ultrasound to allow tumor injection	Eligibility	4
+localized	HP:0012838,PATO:0000627	14-23
+No stage IV or metastatic disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	26-33
+HER2/neu-negative tumor by IHC	Eligibility	6
+If 2+ or in the indeterminate range, further testing of HER2/neu overexpression by fluorescent in situ hybridization (FISH) is required	Eligibility	7
+range	LABO:0000114	30-35
+Hormone receptor status known	Eligibility	8
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+Female	Eligibility	10
+female	PATO:0000383	0-6
+Pre-, peri-, or postmenopausal	Eligibility	11
+ECOG performance status 0-1	Eligibility	12
+Not pregnant or nursing	Eligibility	13
+Negative pregnancy test	Eligibility	14
+Fertile patients must use effective contraception during and for up to 6 months following completion of study therapy	Eligibility	15
+ANC  1,500/mm³	Eligibility	16
+Platelet count  100,000/mm³	Eligibility	17
+platelet count	CMO:0000029	0-14
+Alkaline phosphatase  1.5 times upper limit of normal (ULN)	Eligibility	18
+phosphatase	GO:0016791,BAO:0000295	9-20
+Total bilirubin  1.5 times ULN	Eligibility	19
+AST and ALT  1.5 times ULN	Eligibility	20
+Creatinine < 1.5 times ULN	Eligibility	21
+creatinine	CHEBI:16737	0-10
+No active serious infections	Eligibility	22
+active	PATO:0002354	3-9
+No prior malignancy except adequately treated basal cell or squamous cell skin cancer, noninvasive carcinoma, or other cancer from which the patient has been disease free for 5 years	Eligibility	23
+skin cancer	DOID:4159	74-85
+carcinoma	HP:0030731,DOID:305	99-108
+cancer	DOID:162	79-85
+cancer	DOID:162	119-125
+patient	HADO:0000008,OAE:0001817	141-148
+disease	DOID:4,OGMS:0000031	158-165
+No comorbidity or condition that would interfere with study assessments and procedures or preclude study participation	Eligibility	24
+condition	PDRO:0000129	18-27
+PRIOR CONCURRENT THERAPY:	Eligibility	25
+No prior chemotherapy or radiotherapy	Eligibility	26
+radiotherapy	OAE:0000235	25-37
+Outcome Measurement:	Results	0
+Number of Patients With Pathological Complete Response	Results	1
+Assessed by the institutional pathologist.	Results	2
+Grade 1: disappearance of all tumor on microscopic assessment in the breast and LNs	Results	3
+breast	UBERON:0000310	69-75
+Grade 2: presence of in situ carcinoma only in the breast, no invasive tumor, and no tumor found in the LNs	Results	4
+in situ carcinoma	DOID:8719	21-38
+breast	UBERON:0000310	51-57
+Grade 3: presence of invasive carcinoma with stromal alteration, such as sclerosis or fibrosis	Results	5
+carcinoma	HP:0030731,DOID:305	30-39
+Grade 4: no or few modifications of the tumor appearance	Results	6
+Time frame: At definitive surgery.	Results	7
+time	PATO:0000165	0-4
+surgery	OAE:0000067	26-33
+Results 1:	Results	8
+Arm/Group Title: Vaccine	Results	9
+vaccine	VO:0000001	17-24
+Arm/Group Description: Patients with HER-2/neu negative tumors received therapeutic autologous dendritic cells: injected into the primary breast mass or palpable axillary node, one week after the first, second and third T treatments.	Results	10
+breast mass	HP:0032408	138-149
+week	UO:0000034	181-185
+second	UO:0000010	203-209
+t	CHEBI:36371,BAO:0001260	17-18
+t	CHEBI:36371,BAO:0001260	25-26
+t	CHEBI:36371,BAO:0001260	29-30
+t	CHEBI:36371,BAO:0001260	34-35
+t	CHEBI:36371,BAO:0001260	51-52
+t	CHEBI:36371,BAO:0001260	56-57
+t	CHEBI:36371,BAO:0001260	72-73
+t	CHEBI:36371,BAO:0001260	80-81
+t	CHEBI:36371,BAO:0001260	86-87
+t	CHEBI:36371,BAO:0001260	101-102
+t	CHEBI:36371,BAO:0001260	117-118
+t	CHEBI:36371,BAO:0001260	123-124
+t	CHEBI:36371,BAO:0001260	126-127
+t	CHEBI:36371,BAO:0001260	143-144
+t	CHEBI:36371,BAO:0001260	188-189
+t	CHEBI:36371,BAO:0001260	192-193
+t	CHEBI:36371,BAO:0001260	200-201
+t	CHEBI:36371,BAO:0001260	214-215
+t	CHEBI:36371,BAO:0001260	220-221
+t	CHEBI:36371,BAO:0001260	222-223
+t	CHEBI:36371,BAO:0001260	226-227
+t	CHEBI:36371,BAO:0001260	230-231
+Adjuvant hormone therapy for patients having tumors with estrogen and/or progesterone receptors. Premenopausal patients will be treated with tamoxifen. Post or perimenopausal women may receive tamoxifen or an aromatase inhibitor.	Results	11
+adjuvant	CHEBI:60809	0-8
+hormone	CHEBI:24621	9-16
+estrogen	CHEBI:50114,BAO:0000760	57-65
+progesterone	CHEBI:17026	73-85
+tamoxifen	CHEBI:41774	141-150
+tamoxifen	CHEBI:41774	193-202
+inhibitor	CHEBI:35222	219-228
+Patients received 4 cycles of paclitaxel: 175 mg/m2 (IV), followed by 4 cycles of cyclophosphamide: 600 mg/m2 IV and doxorubicin hydrochloride: 60 mg/m2 IV in a bi-weekly dose dense fashion	Results	12
+paclitaxel	CHEBI:45863	30-40
+cyclophosphamide	CHEBI:4026	82-98
+doxorubicin hydrochloride	CHEBI:31522	117-142
+All patients had pre-treatment biopsy and second tumor biopsy after 4 cycles of paclitaxel to evaluate responses to the dendritic cell injections.	Results	13
+second	UO:0000010	42-48
+paclitaxel	CHEBI:45863	80-90
+Overall Number of Participants Analyzed: 14	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: participants  2	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 1/3 (33.33%)	Adverse Events	1
+Febrile neutropenia 1/3 (33.33%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19

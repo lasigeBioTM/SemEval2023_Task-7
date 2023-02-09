@@ -1,0 +1,111 @@
+INTERVENTION 1:	Intervention	0
+Broccoli Sprout Extract and Mango Juice	Intervention	1
+extract	BAO:0003070	16-23
+Patients will be randomized to 14 day intervention of broccoli sprout extract consisting of a consistent dose of sulforaphane dissolved in mango juice. All women will be on a cruciferous free diet for the duration of the study (14 days).	Intervention	2
+day	UO:0000033	34-37
+day	UO:0000033	231-234
+extract	BAO:0003070	70-77
+sulforaphane	CHEBI:47807	113-125
+duration	PATO:0001309	205-213
+INTERVENTION 2:	Intervention	3
+Mango Juice Without Extract	Intervention	4
+extract	BAO:0003070	20-27
+Patients will be randomized to 14 day intervention of mango juice alone. All women will be on a cruciferous free diet for the duration of the study (14 days).	Intervention	5
+day	UO:0000033	34-37
+day	UO:0000033	152-155
+duration	PATO:0001309	126-134
+Inclusion Criteria:	Eligibility	0
+Female 18 + years of age	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	21-24
+Confirmed diagnosis of DCIS on core or excisional/incisional biopsy and scheduled for definitive surgery	Eligibility	2
+surgery	OAE:0000067	97-104
+Pre or Post menopausal women reporting no use of hormone replacement therapy, tamoxifen or raloxifene within the prior 6 months to eligibility screening	Eligibility	3
+hormone	CHEBI:24621	49-56
+tamoxifen	CHEBI:41774	78-87
+raloxifene	CHEBI:8772	91-101
+Agree to avoid cruciferous vegetable/condiment intake for 14 days	Eligibility	4
+Agree to sign an informed consent and allow use of some tissue (slides) from biopsy and definitive surgery for research purposes	Eligibility	5
+tissue	UBERON:0000479	56-62
+surgery	OAE:0000067	99-106
+Exclusion Criteria:	Eligibility	6
+Prior cancer diagnosis other than non-melanomatous skin cancer or cervical carcinoma in-situ	Eligibility	7
+cancer	DOID:162	6-12
+cancer	DOID:162	56-62
+skin cancer	DOID:4159	51-62
+carcinoma	HP:0030731,DOID:305	75-84
+Used hormone replacement therapy, tamoxifen or raloxifene within the past 6 months prior to eligibility screening	Eligibility	8
+hormone	CHEBI:24621	5-12
+tamoxifen	CHEBI:41774	34-43
+raloxifene	CHEBI:8772	47-57
+Used antibiotics within 10 days prior to beginning cruciferous free diet (day -14 prior to surgery)	Eligibility	9
+day	UO:0000033	27-30
+day	UO:0000033	74-77
+surgery	OAE:0000067	91-98
+Smoked within the past 12 months prior to eligibility screening;	Eligibility	10
+Active infection or inflammation of the breast at time of eligibility screening	Eligibility	11
+active	PATO:0002354	0-6
+breast	UBERON:0000310	40-46
+time	PATO:0000165	50-54
+Has baseline comprehensive metabolic panel (CMP) [Glucose, Calcium, Albumin, Serum total protein (TP), Sodium, Potassium, Carbon dioxide, Chloride, Blood urea nitrogen (BUN), Creatinine, Alkaline phosphatase (ALP), Alanine amino transferase (AST), Aspartate amino transferase (SGOT), and Bilirubin], prothrombin time (PT) and , complete blood count (CBC) values that are 1.5 times in either direction the reported normal range	Eligibility	12
+glucose	CHEBI:4167,BAO:0000924	50-57
+calcium	CHEBI:22984,BAO:0000874	59-66
+protein	CHEBI:36080,BAO:0000175	89-96
+carbon dioxide	CHEBI:16526	122-136
+chloride	CHEBI:17996	138-146
+blood	UBERON:0000178	148-153
+blood	UBERON:0000178	337-342
+urea	CHEBI:16199	154-158
+creatinine	CHEBI:16737	175-185
+phosphatase	GO:0016791,BAO:0000295	196-207
+alanine	CHEBI:16449	215-222
+transferase	BAO:0000292	229-240
+transferase	BAO:0000292	264-275
+aspartate	CHEBI:29995	248-257
+prothrombin time	CMO:0000211	300-316
+range	LABO:0000114	421-426
+Outcome Measurement:	Results	0
+Absolute Change in Mean Proliferative Rate Measured by Ki67%	Results	1
+mean	BAO:0002173	19-23
+rate	BAO:0080019	38-42
+Pathologists score the slides without knowledge of treatment assignment at the end of the study. All pre-post samples from one individual will be evaluated together. Quality control for these stains is performed routinely in the immunohistochemistry lab (using lymphoid tissue for Ki67). Initial scoring is performed where possible on a minimum of 3000 cells, by counting the number of positive cells divided by the total number of cells. DCIS lesions will be scored separately to adjacent normal tissue. The rationale for selecting Ki67 as a measure of cellular proliferation includes the robustness of the staining reaction, correlation with the S phase fraction of the cell cycle and mitotic index and that it can be successfully ascertained from core breast biopsies provided there is an adequate yield of epithelial cells. A negative value reflects a decrease in ki67 positive cells, therefore a decrease in cellular proliferation.	Results	2
+quality	BAO:0002928,BFO:0000019	166-173
+immunohistochemistry	BAO:0000415	229-249
+lymphoid tissue	UBERON:0001744	261-276
+tissue	UBERON:0000479	270-276
+tissue	UBERON:0000479	497-503
+s phase	GO:0051320	648-655
+cell cycle	GO:0007049	672-682
+breast	UBERON:0000310	755-761
+Time frame: Change from baseline to 14 days post-intervention	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Broccoli Sprout Extract and Mango Juice	Results	5
+extract	BAO:0003070	33-40
+Arm/Group Description: Patients will be randomized to 14 day intervention of broccoli sprout extract consisting of a consistent dose of sulforaphane dissolved in mango juice. All women will be on a cruciferous free diet for the duration of the study (14 days).	Results	6
+day	UO:0000033	57-60
+day	UO:0000033	254-257
+extract	BAO:0003070	93-100
+sulforaphane	CHEBI:47807	136-148
+duration	PATO:0001309	228-236
+Overall Number of Participants Analyzed: 15	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of Ki67  -1.15         (2.08)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Mango Juice Without Extract	Results	11
+extract	BAO:0003070	37-44
+Arm/Group Description: Patients will be randomized to 14 day intervention of mango juice alone. All women will be on a cruciferous free diet for the duration of the study (14 days).	Results	12
+day	UO:0000033	57-60
+day	UO:0000033	175-178
+duration	PATO:0001309	149-157
+Overall Number of Participants Analyzed: 15	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage of Ki67  4         (17.08)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/15 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

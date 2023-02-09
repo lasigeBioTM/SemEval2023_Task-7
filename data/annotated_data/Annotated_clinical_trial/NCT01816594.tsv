@@ -1,0 +1,167 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab + BKM120 + Paclitaxel	Intervention	1
+bkm120	CHEBI:71954	14-20
+paclitaxel	CHEBI:45863	23-33
+BKM120 (oral, pan-class I PI3K inhibitor) in combination with trastuzumab and paclitaxel.	Intervention	2
+bkm120	CHEBI:71954	0-6
+inhibitor	CHEBI:35222	31-40
+paclitaxel	CHEBI:45863	78-88
+INTERVENTION 2:	Intervention	3
+Trastuzumab + BKM120 PBO + Paclitaxel	Intervention	4
+bkm120	CHEBI:71954	14-20
+paclitaxel	CHEBI:45863	27-37
+BKM120 placebo in combination with trastuzumab and paclitaxel	Intervention	5
+bkm120	CHEBI:71954	0-6
+paclitaxel	CHEBI:45863	51-61
+Inclusion Criteria:	Eligibility	0
+Patient had provided a signed study ICF prior to any screening procedure	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+Patient was a female  18 years of age	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+female	PATO:0000383	14-20
+age	PATO:0000011	34-37
+Patient has an ECOG performance status of 0-1	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+Patient has a unilateral (multifocal or multicentric disease allowed), histologically confirmed, newly diagnosed early breast cancer >2cm by clinical examination and/or >1.5 cm confirmed by ultrasound or by MRI	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+unilateral	HP:0012833	14-24
+multifocal	HP:0030651	26-36
+disease	DOID:4,OGMS:0000031	53-60
+breast cancer	DOID:1612	119-132
+Patient has tumor tissue available for central review of ER, HER2 and PI3K status with centrally confirmed HER2-positive disease and known PI3KCA mutation status	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+tissue	UBERON:0000479	18-24
+central	HP:0030645	39-46
+central	HP:0030645	87-94
+disease	DOID:4,OGMS:0000031	121-128
+Patient has adequate bone marrow, renal and liver function	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+bone marrow	UBERON:0002371	21-32
+liver	UBERON:0002107	44-49
+function	BAO:0003117,BFO:0000034	50-58
+Patient is able to swallow and retain oral medication	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	8
+Patient has received prior systemic treatment for currently diagnosed disease	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+disease	DOID:4,OGMS:0000031	70-77
+Patient has a known contraindications, hypersensitivity or intolerance to trastuzumab, paclitaxel or products containing cremophor	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+hypersensitivity	GO:0002524,DOID:1205	39-55
+paclitaxel	CHEBI:45863	87-97
+Patient has bilateral breast cancer or metastatic disease or inflammatory breast cancer	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+bilateral breast cancer	DOID:6741	12-35
+disease	DOID:4,OGMS:0000031	50-57
+breast cancer	DOID:1612	22-35
+breast cancer	DOID:1612	74-87
+LVEF below 50% as determined by MUGA scan or ECHO	Eligibility	12
+Patient has active cardiac disease or a history of cardiac abnormalities as defined in the protocol	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+active	PATO:0002354	12-18
+disease	DOID:4,OGMS:0000031	27-34
+history	BFO:0000182	40-47
+Patient has impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of BKM120	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+function	BAO:0003117,BFO:0000034	48-56
+disease	DOID:4,OGMS:0000031	63-70
+bkm120	CHEBI:71954	118-124
+Patient is currently receiving warfarin or other coumarin derived anti-coagulants	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+warfarin	CHEBI:10033	31-39
+coumarin	CHEBI:28794	49-57
+Patient is currently receiving chronic treatment with corticosteroids or another immunosuppressive agents (standard premedication for paclitaxel and local applications allowed)	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+chronic	HP:0011010	31-38
+paclitaxel	CHEBI:45863	134-144
+Patient is currently receiving treatment with drugs known to be strong inhibitors or inducers of CYP3A	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+Patient has certain scores on an anxiety and depression mood questionnaires	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+anxiety	HP:0000739,DOID:2030	33-40
+depression	HP:0000716	45-55
+Pregnant or nursing (lactating) women or patients not willing to apply apply highly effective contraception as defined in the protocol	Eligibility	19
+Outcome Measurement:	Results	0
+Pathological Complete Response (pCR) Rate at the Time of Surgery - All Participants	Results	1
+rate	BAO:0080019	37-41
+time	PATO:0000165	49-53
+surgery	OAE:0000067	57-64
+Rate of pCR (as defined by NSABP criteria - absence of invasive disease in the breast [ypT0]) is the number of of participants with pathological complete response (pCR) at the time of surgery. Participants were to be considered in pCR if there was no invasive cancer in the breast or only non-invasive in situ cancer in the breast specimen. NSABP guidelines do not take into account the histological nodal status to define the pCR.	Results	2
+rate	BAO:0080019	0-4
+disease	DOID:4,OGMS:0000031	64-71
+breast	UBERON:0000310	79-85
+breast	UBERON:0000310	274-280
+breast	UBERON:0000310	324-330
+time	PATO:0000165	176-180
+surgery	OAE:0000067	184-191
+cancer	DOID:162	260-266
+cancer	DOID:162	310-316
+Time frame: After 6 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab + BKM120 + Paclitaxel	Results	5
+bkm120	CHEBI:71954	31-37
+paclitaxel	CHEBI:45863	40-50
+Arm/Group Description: BKM120 (oral, pan-class I PI3K inhibitor) in combination with trastuzumab and paclitaxel.	Results	6
+bkm120	CHEBI:71954	23-29
+inhibitor	CHEBI:35222	54-63
+paclitaxel	CHEBI:45863	101-111
+Overall Number of Participants Analyzed: 25	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  32.0        (14.9 to 53.5)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab + BKM120 PBO + Paclitaxel	Results	11
+bkm120	CHEBI:71954	31-37
+paclitaxel	CHEBI:45863	44-54
+Arm/Group Description: BKM120 placebo in combination with trastuzumab and paclitaxel	Results	12
+bkm120	CHEBI:71954	23-29
+paclitaxel	CHEBI:45863	74-84
+Overall Number of Participants Analyzed: 25	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of participants  40.0        (21.1 to 61.3)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 8/25 (32.00%)	Adverse Events	1
+Diarrhoea 1/25 (4.00%)	Adverse Events	2
+Catheter site pain 1/25 (4.00%)	Adverse Events	3
+site	BFO:0000029	9-13
+pain	HP:0012531	14-18
+Pyrexia 1/25 (4.00%)	Adverse Events	4
+Thrombosis in device 0/25 (0.00%)	Adverse Events	5
+thrombosis	DOID:0060903	0-10
+Hepatotoxicity 1/25 (4.00%)	Adverse Events	6
+Hypersensitivity 1/25 (4.00%)	Adverse Events	7
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Acute sinusitis 0/25 (0.00%)	Adverse Events	8
+acute sinusitis	HP:0000255	0-15
+Pneumonia 1/25 (4.00%)	Adverse Events	9
+pneumonia	HP:0002090,DOID:552	0-9
+Hepatic enzyme increased 2/25 (8.00%)	Adverse Events	10
+enzyme	BAO:0000279	8-14
+Headache 0/25 (0.00%)	Adverse Events	11
+headache	HP:0002315	0-8
+Mental disorder 1/25 (4.00%)	Adverse Events	12
+disorder	OGMS:0000045	7-15
+Pulmonary oedema 1/25 (4.00%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 2/25 (8.00%)	Adverse Events	15
+Diarrhoea 0/25 (0.00%)	Adverse Events	16
+Catheter site pain 0/25 (0.00%)	Adverse Events	17
+site	BFO:0000029	9-13
+pain	HP:0012531	14-18
+Pyrexia 0/25 (0.00%)	Adverse Events	18
+Thrombosis in device 1/25 (4.00%)	Adverse Events	19
+thrombosis	DOID:0060903	0-10
+Hepatotoxicity 0/25 (0.00%)	Adverse Events	20
+Hypersensitivity 0/25 (0.00%)	Adverse Events	21
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Acute sinusitis 1/25 (4.00%)	Adverse Events	22
+acute sinusitis	HP:0000255	0-15
+Pneumonia 0/25 (0.00%)	Adverse Events	23
+pneumonia	HP:0002090,DOID:552	0-9
+Hepatic enzyme increased 0/25 (0.00%)	Adverse Events	24
+enzyme	BAO:0000279	8-14
+Headache 1/25 (4.00%)	Adverse Events	25
+headache	HP:0002315	0-8
+Mental disorder 0/25 (0.00%)	Adverse Events	26
+disorder	OGMS:0000045	7-15
+Pulmonary oedema 0/25 (0.00%)	Adverse Events	27

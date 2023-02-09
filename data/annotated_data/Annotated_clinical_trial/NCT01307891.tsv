@@ -1,0 +1,168 @@
+INTERVENTION 1:	Intervention	0
+Abraxane + Tigatuzumab	Intervention	1
+Patients will receive Abraxane at 100 mg/m2 X 3 doses on Days 1, 8, and 15 at 28-day intervals and tigatuzumab to be administered as a 10 mg/kg loading dose followed by 5 mg/kg for the first cycle and then every other week on Days 1 and 15 for subsequent cycles. Patients will be evaluated for response every 8 weeks. Patients with disease progression will be taken off the study.	Intervention	2
+x	LABO:0000148	26-27
+x	LABO:0000148	44-45
+week	UO:0000034	218-222
+week	UO:0000034	311-315
+disease	DOID:4,OGMS:0000031	332-339
+INTERVENTION 2:	Intervention	3
+Abraxane Alone	Intervention	4
+Patients will receive Abraxane at 100 mg/m2 weekly X 3 doses on Days 1, 8, and 15 at 28-day intervals. Abraxane will be administered on an outpatient basis by an IV infusion over 30 minutes. Patients will be evaluated for response every 2 cycles (every 8 weeks).	Intervention	5
+x	LABO:0000148	26-27
+x	LABO:0000148	51-52
+x	LABO:0000148	107-108
+Inclusion Criteria:	Eligibility	0
+Patients must have pathologically documented Stage IV breast cancer. If blocks (paraffin-embedded tissue) from original diagnosis are available, they will be obtained to confirm the diagnosis and for correlative studies. Fifteen slides can be obtained from the block if the block is not available to be sent or released.	Eligibility	1
+breast cancer	DOID:1612	54-67
+tissue	UBERON:0000479	98-104
+Tumor must be HER-2-neu negative (defined as 0 or 1+ staining by immunohistochemistry or gene amplification ratio less than or equal to 2.0, by fluorescent in situ hybridization - FISH), estrogen and progesterone receptors negative (<10%).	Eligibility	2
+immunohistochemistry	BAO:0000415	65-85
+gene	BAO:0000582	89-93
+ratio	UO:0000190	108-113
+estrogen	CHEBI:50114,BAO:0000760	187-195
+progesterone	CHEBI:17026	200-212
+Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded)	Eligibility	3
+disease	DOID:4,OGMS:0000031	30-37
+diameter	PATO:0001334	137-145
+Biopsy of a metastatic lesion is not required for protocol entry but all patients with reasonably accessible lesions (chest wall, breast, skin, subcutaneous, superficial lymph nodes, bones and liver metastases) must agree to biopsy.	Eligibility	4
+chest	UBERON:0001443	118-123
+breast	UBERON:0000310	130-136
+lymph	UBERON:0002391	170-175
+liver	UBERON:0002107	193-198
+Biopsies may be done with local anesthesia or intravenous conscious sedation, according to standard institutional guidelines.	Eligibility	5
+If a biopsy requires general anesthesia, then it is only allowed if acquisition of tissue is necessary for clinical reasons and excess tissue that would otherwise have been discarded is then used for research purposes. If a biopsy requires general anesthesia, then a biopsy of that site for research purposes only, without a coexisting clinical indication is not allowed on this protocol.	Eligibility	6
+tissue	UBERON:0000479	83-89
+tissue	UBERON:0000479	135-141
+site	BFO:0000029	282-286
+Patients with reasonably accessible lesions as described above, who will not agree with the biopsy, will not be enrolled in the trial.	Eligibility	7
+Patients with NO reasonably accessible lesions as described above can be enrolled in the trial.	Eligibility	8
+Prior Therapy:	Eligibility	9
+There is no restriction as to the number of prior regimens for metastatic disease as long as patients have adequate performance status. Patients with no prior chemotherapy for metastatic disease and patients who have received prior therapy with taxanes for metastatic disease (taxol or taxotere) are eligible. Stratification will be used for randomization of these two categories (no prior chemotherapy for metastatic disease or prior taxane therapy for metastatic disease).	Eligibility	10
+disease	DOID:4,OGMS:0000031	74-81
+disease	DOID:4,OGMS:0000031	187-194
+disease	DOID:4,OGMS:0000031	268-275
+disease	DOID:4,OGMS:0000031	418-425
+disease	DOID:4,OGMS:0000031	465-472
+taxotere	CHEBI:46058	286-294
+taxane	CHEBI:36064	245-251
+taxane	CHEBI:36064	435-441
+Chemotherapy treatment prior to enrollment must be discontinued for at least 3 weeks prior to study entry.	Eligibility	11
+Patients must have completed radiation therapy at least 7 days prior to beginning protocol treatment.	Eligibility	12
+Patients must have recovered from all reversible toxicities related to prior therapy before beginning protocol treatment, and may not have any pre- existing treatment-related toxicities in excess of grade 1. Patients must have < grade 2 pre-existing peripheral neuropathy.	Eligibility	13
+peripheral neuropathy	HP:0009830,DOID:870	250-271
+Patients may receive bisphosphonates; however, if used, bone lesions may not be used for progression or response.	Eligibility	14
+At least 18 years of age (19 in Alabama).	Eligibility	15
+age	PATO:0000011	21-24
+Life expectancy of greater than 12 weeks.	Eligibility	16
+ECOG performance status < or equal to 2.	Eligibility	17
+Patients must have normal organ and marrow function as defined below:	Eligibility	18
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+Absolute neutrophil count: > or equal to 1,500/mcL,	Eligibility	19
+Hemoglobin: > or equal to 9 mg/dL,	Eligibility	20
+hemoglobin	CHEBI:35143	0-10
+Platelets: > or equal to 100,000/mcL,	Eligibility	21
+Total bilirubin: < or equal to 1.5 X institutional upper limit of normal,	Eligibility	22
+x	LABO:0000148	35-36
+AST(SGOT)/ALT(SGPT): < or equal to 2.5 X institutional upper limit of normal without liver metastases, OR < or equal to 5 X institutional upper limit of normal if documented liver metastases,	Eligibility	23
+x	LABO:0000148	39-40
+x	LABO:0000148	122-123
+liver	UBERON:0002107	85-90
+liver	UBERON:0002107	174-179
+Creatinine: < or equal to 2.0 mg/dL, OR calculated creatinine clearance greater than or equal to 50 mL/min (calculated by the Cockcroft and Gault method).	Eligibility	24
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	51-61
+creatinine clearance	CMO:0000765	51-71
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	25
+document	IAO:0000310	77-85
+Both men and women are eligible.	Eligibility	26
+Use of an effective means of contraception in subjects of child-bearing potential.	Eligibility	27
+Negative serum or urine beta-HCG pregnancy test at screening for patients with childbearing potential.	Eligibility	28
+urine	UBERON:0001088	18-23
+Exclusion Criteria:	Eligibility	29
+Patients may not be receiving any other investigational agents.	Eligibility	30
+Prior use of Abraxane for metastatic disease or in the adjuvant setting.	Eligibility	31
+disease	DOID:4,OGMS:0000031	37-44
+adjuvant	CHEBI:60809	55-63
+Metastatic lesions identifiable only by PET.	Eligibility	32
+Patients may not be receiving concurrent chemotherapy for treatment of metastatic disease.	Eligibility	33
+disease	DOID:4,OGMS:0000031	82-89
+Active brain metastases: evidence of progression < or equal to 3 months after local therapy (patients should be asymptomatic and off corticosteroids and anticonvulsants for at least 3 months prior to study entry).	Eligibility	34
+active	PATO:0002354	0-6
+brain	UBERON:0000955	7-12
+Patients with brain metastases must have at least one site of measurable disease outside of the central nervous system.	Eligibility	35
+brain	UBERON:0000955	14-19
+site	BFO:0000029	54-58
+disease	DOID:4,OGMS:0000031	73-80
+central nervous system	UBERON:0001017	96-118
+Uncontrolled concurrent illness including, but not limited to, ongoing or active infection, history of recent myocardial infarction, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	36
+active	PATO:0002354	74-80
+history	BFO:0000182	92-99
+myocardial infarction	HP:0001658,DOID:5844	110-131
+congestive heart failure	HP:0001635,DOID:6000	145-169
+angina pectoris	HP:0001681	180-195
+arrhythmia	HP:0011675	205-215
+Pregnant or lactating women are excluded. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother, breastfeeding should be discontinued if the mother is treated. These potential risks may also apply to other agents used in this study.	Eligibility	37
+excluded	HP:0040285	32-40
+A prior invasive malignant disease within five years except for skin cancer (squamous cell or basal cell carcinoma).	Eligibility	38
+disease	DOID:4,OGMS:0000031	27-34
+skin cancer	DOID:4159	64-75
+basal cell carcinoma	HP:0002671,DOID:2513	94-114
+Patients with known history of HIV or Hepatitis B because of potential for added toxicity from treatment regimen.	Eligibility	39
+history	BFO:0000182	20-27
+hepatitis b	DOID:2043	38-49
+Dementia or altered mental status that would prohibit the understanding of informed consent.	Eligibility	40
+dementia	HP:0000726,DOID:1307	0-8
+Outcome Measurement:	Results	0
+Objective Response Rate	Results	1
+rate	BAO:0080019	19-23
+Patient response rates will be measured by the Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1) for target lesions and assessed by MRI. Responses include the following: Complete Response (CR) disappearance of all target lesions; Partial Response (PR) at least a 30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) best response from the start of treatment until disease progression.	Results	2
+patient	HADO:0000008,OAE:0001817	0-7
+target	BAO:0003064	119-125
+target	BAO:0003064	232-238
+target	BAO:0003064	332-338
+diameter	PATO:0001334	320-328
+disease	DOID:4,OGMS:0000031	418-425
+Time frame: Baseline to 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Abraxane + Tigatuzumab	Results	5
+Arm/Group Description: Patients will receive Abraxane at 100 mg/m2 X 3 doses on Days 1, 8, and 15 at 28-day intervals and tigatuzumab to be administered as a 10 mg/kg loading dose followed by 5 mg/kg for the first cycle and then every other week on Days 1 and 15 for subsequent cycles. Patients will be evaluated for response every 8 weeks. Patients with disease progression will be taken off the study.	Results	6
+x	LABO:0000148	49-50
+x	LABO:0000148	67-68
+week	UO:0000034	241-245
+week	UO:0000034	334-338
+disease	DOID:4,OGMS:0000031	355-362
+Overall Number of Participants Analyzed: 39	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of patients  28        (14.9 to 45.0)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Abraxane Alone	Results	11
+Arm/Group Description: Patients will receive Abraxane at 100 mg/m2 weekly X 3 doses on Days 1, 8, and 15 at 28-day intervals. Abraxane will be administered on an outpatient basis by an IV infusion over 30 minutes. Patients will be evaluated for response every 2 cycles (every 8 weeks).	Results	12
+x	LABO:0000148	49-50
+x	LABO:0000148	74-75
+x	LABO:0000148	130-131
+Overall Number of Participants Analyzed: 21	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of patients  38        (18 to 61.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 3/39 (7.69%)	Adverse Events	1
+Neutropenia  1/39 (2.56%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Bilateral Pulmonary Thromboembolism  0/39 (0.00%)	Adverse Events	3
+bilateral	HP:0012832	0-9
+pulmonary thromboembolism	HP:0034192	10-35
+Fever  1/39 (2.56%)	Adverse Events	4
+fever	HP:0001945	0-5
+Empyema associated with a permanent thoracic catheter  1/39 (2.56%)	Adverse Events	5
+Adverse Events 2:	Adverse Events	6
+Total: 3/21 (14.29%)	Adverse Events	7
+Neutropenia  1/21 (4.76%)	Adverse Events	8
+neutropenia	HP:0001875,DOID:1227	0-11
+Bilateral Pulmonary Thromboembolism  1/21 (4.76%)	Adverse Events	9
+bilateral	HP:0012832	0-9
+pulmonary thromboembolism	HP:0034192	10-35
+Fever  1/21 (4.76%)	Adverse Events	10
+fever	HP:0001945	0-5
+Empyema associated with a permanent thoracic catheter  0/21 (0.00%)	Adverse Events	11

@@ -1,0 +1,147 @@
+INTERVENTION 1:	Intervention	0
+Healthy Eating Education Learning (HEAL)	Intervention	1
+healthy	HP:0032322	0-7
+learning	GO:0007612	25-33
+Control group. Healthy Eating Education Learning (HEAL)	Intervention	2
+group	CHEBI:24433	8-13
+healthy	HP:0032322	15-22
+learning	GO:0007612	40-48
+INTERVENTION 2:	Intervention	3
+Brief Behavioral Therapy for Insomnia (BBT-I)	Intervention	4
+insomnia	HP:0100785	29-37
+Experimental group. Brief Behavioral Therapy for Insomnia (BBT-I)	Intervention	5
+group	CHEBI:24433	13-18
+insomnia	HP:0100785	49-57
+INCLUSION CRITERIA	Eligibility	0
+Female	Eligibility	1
+female	PATO:0000383	0-6
+Diagnosis of Breast Cancer (Stage I-IIIA)	Eligibility	2
+breast cancer	DOID:1612	13-26
+Scheduled for planned cancer treatment (eg, chemotherapy or biologic agents), or treatment is continuing	Eligibility	3
+cancer	DOID:162	22-28
+Has  6 weeks of cancer treatment (eg, chemotherapy or biologic agents) remaining	Eligibility	4
+cancer	DOID:162	16-22
+21 years of age.	Eligibility	5
+age	PATO:0000011	12-15
+Able to understand written and spoken English.	Eligibility	6
+Sleep disturbance of 8 or greater on the ISI, and insomnia that began or got worse with diagnosis of cancer or treatment with chemotherapy (to exclude pre-existing, chronic insomnia).	Eligibility	7
+sleep disturbance	HP:0002360	0-17
+insomnia	HP:0100785	50-58
+insomnia	HP:0100785	173-181
+cancer	DOID:162	101-107
+chronic	HP:0011010	165-172
+Karnofsky score  70	Eligibility	8
+EXCLUSION CRITERIA	Eligibility	9
+Have an unstable self-reported medical or psychiatric illness (Axis I - current or within the last 5 years).	Eligibility	10
+Be currently pregnant or nursing	Eligibility	11
+History of substance abuse or meet criteria for current alcohol abuse or dependence	Eligibility	12
+history	BFO:0000182	0-7
+substance abuse	DOID:302	11-26
+alcohol	CHEBI:16236	56-63
+History (self-reported) of sleep apnea or restless leg syndrome (RLS)	Eligibility	13
+history	BFO:0000182	0-7
+sleep apnea	HP:0010535,DOID:0050847	27-38
+leg	UBERON:0000978	51-54
+syndrome	DOID:225	55-63
+Self-report or have a medical record of an unstable comorbid medical or psychiatric condition that would make it unsafe or impossible to adhere to the study protocol	Eligibility	14
+medical record	OMIABIS:0001026	22-36
+condition	PDRO:0000129	84-93
+Unable or unwilling to discontinue anxiolytics within 4 hours of education sessions	Eligibility	15
+Irregular heartbeat or arrhythmia (self-reported or in the medical record)	Eligibility	16
+arrhythmia	HP:0011675	23-33
+medical record	OMIABIS:0001026	59-73
+Outcome Measurement:	Results	0
+Insomnia Severity Index (ISI)	Results	1
+insomnia	HP:0100785	0-8
+severity	HP:0012824	9-17
+The effects of the Brief Behavioral Therapy for Insomnia (BBT-I) intervention on insomnia will be measured by the Insomnia Severity Index (ISI). The ISI survey questionnaire is a 7-question survey, with each question having 5 possible answers (none, mild, moderate, severe, or very severe), scored as 0, 1, 2, 3, or 4, respectively. The full range of ISI scores is from 0 to 28. Lower scores are considered good, better, or healthy, and increasingly higher scores are considered to indicate greater insomnia. Clinical interpretation is as follows:	Results	2
+insomnia	HP:0100785	48-56
+insomnia	HP:0100785	81-89
+insomnia	HP:0100785	114-122
+insomnia	HP:0100785	499-507
+severity	HP:0012824	123-131
+mild	HP:0012825	250-254
+moderate	HP:0012826	256-264
+severe	HP:0012828	266-272
+severe	HP:0012828	282-288
+range	LABO:0000114	342-347
+healthy	HP:0032322	424-431
+0 to 7 = No clinically significant insomnia	Results	3
+insomnia	HP:0100785	35-43
+8 to14 = Sub-threshold insomnia (mild)	Results	4
+insomnia	HP:0100785	23-31
+mild	HP:0012825	33-37
+15 to 21 = Clinical insomnia (moderate severity)	Results	5
+insomnia	HP:0100785	20-28
+moderate	HP:0012826	30-38
+severity	HP:0012824	39-47
+22 to 28 = Clinical insomnia (severe) ISI survey will be conducted at baseline, post intervention, 6 months and 12 months. The outcome is reported as the mean ISI score at baseline; immediately post-intervention (6 weeks nominal); 6 months; and 12 months.	Results	6
+insomnia	HP:0100785	20-28
+severe	HP:0012828	30-36
+mean	BAO:0002173	154-158
+Time frame: 12 months	Results	7
+time	PATO:0000165	0-4
+Results 1:	Results	8
+Arm/Group Title: Healthy Eating Education Learning (HEAL)	Results	9
+healthy	HP:0032322	17-24
+learning	GO:0007612	42-50
+Arm/Group Description: Control group. Healthy Eating Education Learning (HEAL)	Results	10
+group	CHEBI:24433	4-9
+group	CHEBI:24433	31-36
+healthy	HP:0032322	38-45
+learning	GO:0007612	63-71
+Overall Number of Participants Analyzed: 66	Results	11
+Mean (Standard Deviation)	Results	12
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: score on a scale  T1 (Baseline): 66 participants	Results	13
+13.73         (5.11)	Results	14
+T2 (Post intervention): 65 participants	Results	15
+11.28         (5.43)	Results	16
+T3 (6 months follow-up): 62 participants	Results	17
+9.53         (5.33)	Results	18
+T4 (12 months follow-up): 63 participants	Results	19
+9.51         (5.35)	Results	20
+Results 2:	Results	21
+Arm/Group Title: Brief Behavioral Therapy for Insomnia (BBT-I)	Results	22
+insomnia	HP:0100785	46-54
+Arm/Group Description: Experimental group. Brief Behavioral Therapy for Insomnia (BBT-I)	Results	23
+group	CHEBI:24433	4-9
+group	CHEBI:24433	36-41
+insomnia	HP:0100785	72-80
+Overall Number of Participants Analyzed: 73	Results	24
+Mean (Standard Deviation)	Results	25
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: score on a scale  T1 (Baseline): 73 participants	Results	26
+14.93         (4.84)	Results	27
+T2 (Post intervention): 69 participants	Results	28
+10.16         (4.31)	Results	29
+T3 (6 months follow-up): 61 participants	Results	30
+8.87         (5.87)	Results	31
+T4 (12 months follow-up): 62 participants	Results	32
+8.98         (4.93)	Results	33
+Adverse Events 1:	Adverse Events	0
+Total: 3/66 (4.55%)	Adverse Events	1
+Blood Transfusion 0/66 (0.00%)	Adverse Events	2
+blood	UBERON:0000178	0-5
+Febrile neutropenia 2/66 (3.03%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Disease Progression 0/66 (0.00%)	Adverse Events	4
+disease	DOID:4,OGMS:0000031	0-7
+Sepsis 1/66 (1.52%)	Adverse Events	5
+sepsis	HP:0100806	0-6
+Shingles 0/66 (0.00%)	Adverse Events	6
+Flu like symptoms 0/66 (0.00%)	Adverse Events	7
+Adverse Events 2:	Adverse Events	8
+Total: 7/73 (9.59%)	Adverse Events	9
+Blood Transfusion 1/73 (1.37%)	Adverse Events	10
+blood	UBERON:0000178	0-5
+Febrile neutropenia 1/73 (1.37%)	Adverse Events	11
+neutropenia	HP:0001875,DOID:1227	8-19
+Disease Progression 3/73 (4.11%)	Adverse Events	12
+disease	DOID:4,OGMS:0000031	0-7
+Sepsis 0/73 (0.00%)	Adverse Events	13
+sepsis	HP:0100806	0-6
+Shingles 1/73 (1.37%)	Adverse Events	14
+Flu like symptoms 1/73 (1.37%)	Adverse Events	15

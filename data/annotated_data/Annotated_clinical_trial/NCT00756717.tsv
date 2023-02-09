@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+MK-0752	Intervention	1
+Oral gamma-secretase inhibitor drug MK-0752, 350 mg for three days, four days off, then three days on, over a period of 10 days	Intervention	2
+inhibitor	CHEBI:35222	21-30
+drug	CHEBI:23888	31-35
+MK-0752: Women who are post menopausal will receive letrozole 2.5 mg by mouth one time per day for 24 days. Women who are pre menopausal, or who have a contraindication to letrozole will receive tamoxifen 20 mg orally one time per day for a period of 24 days. Starting on day 15 of this 24 day period all patients will receive the oral gamma-secretase inhibitor drug MK-0752 at a dose of 350 mg for three days on, then off four days, then three days on, for a total of 6 doses over a period of 10 days.	Intervention	3
+letrozole	CHEBI:6413	52-61
+letrozole	CHEBI:6413	172-181
+mouth	UBERON:0000165	72-77
+time	PATO:0000165	82-86
+time	PATO:0000165	222-226
+day	UO:0000033	91-94
+day	UO:0000033	102-105
+day	UO:0000033	231-234
+day	UO:0000033	254-257
+day	UO:0000033	272-275
+day	UO:0000033	290-293
+day	UO:0000033	405-408
+day	UO:0000033	428-431
+day	UO:0000033	445-448
+day	UO:0000033	497-500
+contraindication	OAE:0000055	152-168
+tamoxifen	CHEBI:41774	195-204
+inhibitor	CHEBI:35222	352-361
+drug	CHEBI:23888	362-366
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed early stage, ER-positive (Allred score 3), invasive breast cancer that is not either locally advanced by criteria other than size or inflammatory, and is not metastatic. - Patients must be candidates for surgical removal of the tumor by lumpectomy or mastectomy.	Eligibility	1
+breast cancer	DOID:1612	113-126
+size	PATO:0000117	186-190
+Patients must not have bilateral tumors. Tumor must be amenable to core biopsy in midstudy.	Eligibility	2
+bilateral	HP:0012832	23-32
+Patients must be >18 years of age.	Eligibility	3
+age	PATO:0000011	30-33
+Patients must have a performance status 1 by Zubrod criteria.	Eligibility	4
+Patients must have a life expectancy of greater than three months.	Eligibility	5
+Patients must have normal organ and marrow function within 28 days of registration as defined below:	Eligibility	6
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+absolute neutrophil count >1,500/μL	Eligibility	7
+platelets >100,000/μL	Eligibility	8
+total bilirubin 1.5 x the institutional upper limit of normal	Eligibility	9
+x	LABO:0000148	20-21
+AST(SGOT)/ALT(SGPT) <2 X institutional upper limit of normal	Eligibility	10
+x	LABO:0000148	23-24
+creatinine within normal institutional limits OR	Eligibility	11
+creatinine	CHEBI:16737	0-10
+creatinine clearance >60 mL/min/1.73 m2 for patients with creatinine levels above institutional normal	Eligibility	12
+creatinine clearance	CMO:0000765	0-20
+m2	CHEBI:34827	37-39
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	58-68
+Women of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. A negative serum pregnancy test must be obtained within 72 hours of receiving the first dose of the hormonal therapy as well as within 72 hours of the first dose of the MK-0752 GSI medication for women of child-bearing potential. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.	Eligibility	13
+duration	PATO:0001309	165-173
+Exclusion Criteria:	Eligibility	14
+Patients may not have received any prior chemotherapy or endocrine therapy (tamoxifen, raloxifene, or an aromatase inhibitor) and may not have received prior therapy with a gamma-secretase inhibitor or other investigational agents. - Patients may not have received previous radiation therapy.	Eligibility	15
+tamoxifen	CHEBI:41774	76-85
+raloxifene	CHEBI:8772	87-97
+inhibitor	CHEBI:35222	115-124
+inhibitor	CHEBI:35222	189-198
+Patients may not be currently participating or have participated in a study with an investigational compound or device within 30 days.	Eligibility	16
+Patients must not have known brain or CNS disease, evidence of brain or CNS metastases, or carcinomatous meningitis.	Eligibility	17
+brain	UBERON:0000955	29-34
+brain	UBERON:0000955	63-68
+disease	DOID:4,OGMS:0000031	42-49
+meningitis	HP:0001287,DOID:9471	105-115
+Patients must not have an uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	18
+active	PATO:0002354	102-108
+congestive heart failure	HP:0001635,DOID:6000	132-156
+angina pectoris	HP:0001681	167-182
+arrhythmia	HP:0011675	192-202
+Patients may not have known hypersensitivity to the components of MK-0752 or it analogs.	Eligibility	19
+hypersensitivity	GO:0002524,DOID:1205	28-44
+Patients will be excluded if there is a known history of human immunodeficiency (HIV) virus infection, or a known history of hepatitis B or C infection.	Eligibility	20
+excluded	HP:0040285	17-25
+history	BFO:0000182	46-53
+history	BFO:0000182	114-121
+immunodeficiency	HP:0002721	63-79
+virus	BAO:0000232	86-91
+hepatitis b	DOID:2043	125-136
+Patients must not have a previous history of inflammatory bowel disease or uncontrolled irritable bowel syndrome.	Eligibility	21
+history	BFO:0000182	34-41
+inflammatory bowel disease	DOID:0050589	45-71
+irritable bowel syndrome	DOID:9778	88-112
+Patients must not have a history of greater than one basal cell carcinoma of the skin within the past five years or a history of Gorlin syndrome.	Eligibility	22
+history	BFO:0000182	25-32
+history	BFO:0000182	118-125
+basal cell carcinoma	HP:0002671,DOID:2513	53-73
+syndrome	DOID:225	136-144
+Outcome Measurement:	Results	0
+Number of Participants Experiencing at Least One Adverse Event	Results	1
+adverse event	OAE:0000001	49-62
+The number of participants experiencing at least one adverse event during the 24-day observation period and initial post-operative visit.	Results	2
+adverse event	OAE:0000001	53-66
+Time frame: 30 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: MK-0752	Results	5
+Arm/Group Description: Oral gamma-secretase inhibitor drug MK-0752, 350 mg for three days, four days off, then three days on, over a period of 10 days	Results	6
+inhibitor	CHEBI:35222	44-53
+drug	CHEBI:23888	54-58
+MK-0752: Women who are post menopausal will receive letrozole 2.5 mg by mouth one time per day for 24 days. Women who are pre menopausal, or who have a contraindication to letrozole will receive tamoxifen 20 mg orally one time per day for a period of 24 days. Starting on day 15 of this 24 day period all patients will receive the oral gamma-secretase inhibitor drug MK-0752 at a dose of 350 mg for three days on, then off four days, then three days on, for a total of 6 doses over a period of 10 days.	Results	7
+letrozole	CHEBI:6413	52-61
+letrozole	CHEBI:6413	172-181
+mouth	UBERON:0000165	72-77
+time	PATO:0000165	82-86
+time	PATO:0000165	222-226
+day	UO:0000033	91-94
+day	UO:0000033	102-105
+day	UO:0000033	231-234
+day	UO:0000033	254-257
+day	UO:0000033	272-275
+day	UO:0000033	290-293
+day	UO:0000033	405-408
+day	UO:0000033	428-431
+day	UO:0000033	445-448
+day	UO:0000033	497-500
+contraindication	OAE:0000055	152-168
+tamoxifen	CHEBI:41774	195-204
+inhibitor	CHEBI:35222	352-361
+drug	CHEBI:23888	362-366
+Overall Number of Participants Analyzed: 20	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  At least one adverse event: 15  75.0%	Results	10
+adverse event	OAE:0000001	44-57
+No Adverse Events: 5  25.0%	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 0/20 (0.00%)	Adverse Events	1

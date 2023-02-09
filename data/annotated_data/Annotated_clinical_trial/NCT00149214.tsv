@@ -1,0 +1,113 @@
+INTERVENTION 1:	Intervention	0
+Pemetrexed Plus Doxorubicin, Followed by Docetaxel	Intervention	1
+pemetrexed	CHEBI:63616	0-10
+doxorubicin	CHEBI:28748,BAO:0000639	16-27
+pemetrexed: 500 mg/m^2, intravenous (IV), every 21 days, 4 cycles (1-4) doxorubicin: 60 mg/m^2, intravenous (IV), every 21 days, 4 cycles (1-4) docetaxel: 100 mg/m^2, intravenous (IV), every 21 days, 4 cycles (5-8)	Intervention	2
+pemetrexed	CHEBI:63616	0-10
+doxorubicin	CHEBI:28748,BAO:0000639	72-83
+INTERVENTION 2:	Intervention	3
+Cyclophosphamide Plus Doxorubicin, Followed by Docetaxel	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+doxorubicin	CHEBI:28748,BAO:0000639	22-33
+cyclophosphamide: 600 mg/m^2, intravenous (IV), every 21 days, 4 cycles (1-4) doxorubicin: 60 mg/m^2, intravenous (IV), every 21 days, 4 cycles (1-4) docetaxel: 100 mg/m^2, intravenous (IV), every 21 days, 4 cycles (5-8)	Intervention	5
+cyclophosphamide	CHEBI:4026	0-16
+doxorubicin	CHEBI:28748,BAO:0000639	78-89
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed diagnosis of primary early breast cancer, tumor size greater than or equal to 2 centimeters (cm), of Stages T2-T4/N0-2.	Eligibility	1
+breast cancer	DOID:1612	52-65
+size	PATO:0000117	73-77
+Performance status 0-2 Eastern Cooperative Oncology Group (ECOG).	Eligibility	2
+group	CHEBI:24433	52-57
+Adequate organ function (bone marrow, hepatic, renal, cardiac).	Eligibility	3
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+bone marrow	UBERON:0002371	25-36
+Exclusion Criteria:	Eligibility	4
+Prior anthracyclines as part of prior anticancer therapy.	Eligibility	5
+part of	BAO:0090002,BFO:0000050	24-31
+Concurrent antitumor therapy.	Eligibility	6
+Second primary malignancy.	Eligibility	7
+second	UO:0000010	0-6
+Serious concomitant systemic disorder.	Eligibility	8
+disorder	OGMS:0000045	29-37
+Pre-existing sensorial or motor neuropathy	Eligibility	9
+neuropathy	DOID:870	32-42
+Grade 1.	Eligibility	10
+Outcome Measurement:	Results	0
+Number of Participants With a Pathological Complete Response	Results	1
+pathological assessment of tissue removed during surgery to determine if tumor tissue is still present after chemotherapy	Results	2
+tissue	UBERON:0000479	27-33
+tissue	UBERON:0000479	79-85
+surgery	OAE:0000067	49-56
+present	PATO:0000467	95-102
+Time frame: surgery after eight 21-day cycles of chemotherapy	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	12-19
+Results 1:	Results	4
+Arm/Group Title: Pemetrexed Plus Doxorubicin, Followed by Docetaxel	Results	5
+pemetrexed	CHEBI:63616	17-27
+doxorubicin	CHEBI:28748,BAO:0000639	33-44
+Arm/Group Description: pemetrexed: 500 mg/m^2, intravenous (IV), every 21 days, 4 cycles (1-4) doxorubicin: 60 mg/m^2, intravenous (IV), every 21 days, 4 cycles (1-4) docetaxel: 100 mg/m^2, intravenous (IV), every 21 days, 4 cycles (5-8)	Results	6
+pemetrexed	CHEBI:63616	23-33
+doxorubicin	CHEBI:28748,BAO:0000639	95-106
+Overall Number of Participants Analyzed: 127	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Pathological Complete Response: 21	Results	9
+Tumor Cells Still Present: 99	Results	10
+present	PATO:0000467	18-25
+Not evaluable: 7	Results	11
+Results 2:	Results	12
+Arm/Group Title: Cyclophosphamide Plus Doxorubicin, Followed by Docetaxel	Results	13
+cyclophosphamide	CHEBI:4026	17-33
+doxorubicin	CHEBI:28748,BAO:0000639	39-50
+Arm/Group Description: cyclophosphamide: 600 mg/m^2, intravenous (IV), every 21 days, 4 cycles (1-4) doxorubicin: 60 mg/m^2, intravenous (IV), every 21 days, 4 cycles (1-4) docetaxel: 100 mg/m^2, intravenous (IV), every 21 days, 4 cycles (5-8)	Results	14
+cyclophosphamide	CHEBI:4026	23-39
+doxorubicin	CHEBI:28748,BAO:0000639	101-112
+Overall Number of Participants Analyzed: 119	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: participants  Pathological Complete Response: 24	Results	17
+Tumor Cells Still Present: 89	Results	18
+present	PATO:0000467	18-25
+Not evaluable: 6	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 15/134 (11.19%)	Adverse Events	1
+Anaemia 0/134 (0.00%)	Adverse Events	2
+Chronic lymphocytic leukaemia 0/134 (0.00%)	Adverse Events	3
+chronic	HP:0011010	0-7
+Febrile neutropenia 4/134 (2.99%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 4/134 (2.99%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/134 (0.75%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Cardiovascular insufficiency 0/134 (0.00%)	Adverse Events	7
+Myocardial infarction 0/134 (0.00%)	Adverse Events	8
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Diarrhoea 1/134 (0.75%)	Adverse Events	9
+Nausea 2/134 (1.49%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Stomatitis 1/134 (0.75%)	Adverse Events	11
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting 3/134 (2.24%)	Adverse Events	12
+vomiting	HP:0002013	0-8
+Adverse Events 2:	Adverse Events	13
+Total: 25/123 (20.33%)	Adverse Events	14
+Anaemia 1/123 (0.81%)	Adverse Events	15
+Chronic lymphocytic leukaemia 1/123 (0.81%)	Adverse Events	16
+chronic	HP:0011010	0-7
+Febrile neutropenia 5/123 (4.07%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 9/123 (7.32%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 3/123 (2.44%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Cardiovascular insufficiency 1/123 (0.81%)	Adverse Events	20
+Myocardial infarction 1/123 (0.81%)	Adverse Events	21
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Diarrhoea 1/123 (0.81%)	Adverse Events	22
+Nausea 0/123 (0.00%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Stomatitis 0/123 (0.00%)	Adverse Events	24
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting 0/123 (0.00%)	Adverse Events	25
+vomiting	HP:0002013	0-8

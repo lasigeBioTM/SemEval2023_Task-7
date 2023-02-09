@@ -1,0 +1,132 @@
+INTERVENTION 1:	Intervention	0
+N160 + C1500	Intervention	1
+Neratinib 160 mg + Capecitabine 1500 mg/m2	Intervention	2
+neratinib	CHEBI:61397	0-9
+capecitabine	CHEBI:31348	19-31
+INTERVENTION 2:	Intervention	3
+N160 + C2000	Intervention	4
+Neratinib 160 mg + Capecitabine 2000 mg/m2	Intervention	5
+neratinib	CHEBI:61397	0-9
+capecitabine	CHEBI:31348	19-31
+INCLUSION CRITERIA	Eligibility	0
+PART 1:	Eligibility	1
+confirmed pathologic diagnosis of a solid tumor not curable with available therapies for which neratinib plus capecitabine is a reasonable treatment option.	Eligibility	2
+neratinib	CHEBI:61397	95-104
+capecitabine	CHEBI:31348	110-122
+PART 2:	Eligibility	3
+confirmed histologically and/or cytologically confirmed diagnosis of breast cancer, metastatic or locally advanced.	Eligibility	4
+breast cancer	DOID:1612	69-82
+erbB-2 gene amplified tumor (FISH or CISH) or erbB-2 overexpression (IHC 3+, or IHC2+ with FISH or CISH confirmation), based on local testing, or based on centralized FISH testing prior to day 1.	Eligibility	5
+gene	BAO:0000582	7-11
+day	UO:0000033	189-192
+disease progression on or following at least 1 prior trastuzumab containing treatment regimen (at least 6 weeks) for metastatic or locally advanced disease. (Prior adjuvant trastuzumab is allowed but not required). A 2 week period is required between the last dose of trastuzumab treatment and first dose of the test article.	Eligibility	6
+disease	DOID:4,OGMS:0000031	0-7
+disease	DOID:4,OGMS:0000031	148-155
+adjuvant	CHEBI:60809	164-172
+week	UO:0000034	106-110
+week	UO:0000034	219-223
+Prior treatment with a taxane in the neoadjuvant, adjuvant, locally advanced, and/or metastatic disease treatment setting.	Eligibility	7
+taxane	CHEBI:36064	23-29
+adjuvant	CHEBI:60809	40-48
+adjuvant	CHEBI:60809	50-58
+disease	DOID:4,OGMS:0000031	96-103
+PARTS 1 and 2:	Eligibility	8
+At least 1 measurable lesion as defined by RECIST criteria.	Eligibility	9
+LVEF within institutional range of normal as measured by multi-gated acquisition (MUGA) or echocardiogram (ECHO).	Eligibility	10
+range	LABO:0000114	26-31
+EXCLUSION CRITERIA	Eligibility	11
+PART 2:	Eligibility	12
+prior treatment with capecitabine, lapatinib (20 subjects with prior lapatinib exposure will be enrolled) or any erbB-2 targeted agents except trastuzumab. Treatment with erbB-2 targeted therapy must exceed 2 weeks (14 days) in order to be exclusionary.	Eligibility	13
+capecitabine	CHEBI:31348	21-33
+lapatinib	CHEBI:49603	35-44
+lapatinib	CHEBI:49603	69-78
+prior treatment with anthracyclines with a cumulative dose of doxorubicin of greater than 400 mg/m², epirubicin dose of greater than 800 mg/m², or the equivalent dose for other anthracyclines.	Eligibility	14
+doxorubicin	CHEBI:28748,BAO:0000639	62-73
+PARTS 1 and 2:	Eligibility	15
+Subjects with bone as the only site of disease.	Eligibility	16
+site	BFO:0000029	31-35
+disease	DOID:4,OGMS:0000031	39-46
+Active uncontrolled or symptomatic central nervous system (CNS) metastases, as indicated by clinical symptoms, cerebral edema, and/or progressive growth. Subjects with a history of CNS metastases or cord compression are allowable if they have been considered definitively treated and are off anticonvulsants and steroids for at least 4 weeks before the first dose of test article.	Eligibility	17
+active	PATO:0002354	0-6
+central nervous system	UBERON:0001017	35-57
+cerebral edema	HP:0002181	111-125
+progressive	HP:0003676	134-145
+growth	GO:0040007	146-152
+history	BFO:0000182	170-177
+Any other cancer within 5 years prior to screening with the exception of adequately treated cervical carcinoma in situ, or adequately treated basal or squamous cell carcinoma of the skin.	Eligibility	18
+cancer	DOID:162	10-16
+carcinoma	HP:0030731,DOID:305	101-110
+carcinoma	HP:0030731,DOID:305	165-174
+squamous cell carcinoma of the skin	HP:0006739	151-186
+Outcome Measurement:	Results	0
+Number of Participants With Dose Limiting Toxicities	Results	1
+Number of participants reporting Adverse Events Causing Dose Limiting Toxicities (DLT).	Results	2
+Time frame: From first dose date to day 21	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	36-39
+Results 1:	Results	4
+Arm/Group Title: N160 + C1500	Results	5
+Arm/Group Description: Neratinib 160 mg + Capecitabine 1500 mg/m2	Results	6
+neratinib	CHEBI:61397	23-32
+capecitabine	CHEBI:31348	42-54
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  0   0.0%	Results	9
+Results 2:	Results	10
+Arm/Group Title: N160 + C2000	Results	11
+Arm/Group Description: Neratinib 160 mg + Capecitabine 2000 mg/m2	Results	12
+neratinib	CHEBI:61397	23-32
+capecitabine	CHEBI:31348	42-54
+Overall Number of Participants Analyzed: 9	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  2  22.2%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 5/6 (83.33%)	Adverse Events	1
+Anaemia 0/6 (0.00%)	Adverse Events	2
+Febrile neutropenia 0/6 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Thrombocytopenia 0/6 (0.00%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pericardial effusion 1/6 (16.67%)	Adverse Events	5
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia 0/6 (0.00%)	Adverse Events	6
+tachycardia	HP:0001649	0-11
+Vertigo 0/6 (0.00%)	Adverse Events	7
+vertigo	HP:0002321	0-7
+Abdominal pain 0/6 (0.00%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Ascites 0/6 (0.00%)	Adverse Events	9
+ascites	HP:0001541	0-7
+Diarrhoea 0/6 (0.00%)	Adverse Events	10
+Melaena 0/6 (0.00%)	Adverse Events	11
+Nausea 1/6 (16.67%)	Adverse Events	12
+nausea	HP:0002018	0-6
+Proctitis 0/6 (0.00%)	Adverse Events	13
+proctitis	DOID:3127	0-9
+Small intestinal obstruction 0/6 (0.00%)	Adverse Events	14
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Adverse Events 2:	Adverse Events	15
+Total: 4/8 (50.00%)	Adverse Events	16
+Anaemia 0/8 (0.00%)	Adverse Events	17
+Febrile neutropenia 0/8 (0.00%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	8-19
+Thrombocytopenia 0/8 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pericardial effusion 0/8 (0.00%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia 0/8 (0.00%)	Adverse Events	21
+tachycardia	HP:0001649	0-11
+Vertigo 0/8 (0.00%)	Adverse Events	22
+vertigo	HP:0002321	0-7
+Abdominal pain 1/8 (12.50%)	Adverse Events	23
+abdominal pain	HP:0002027	0-14
+Ascites 1/8 (12.50%)	Adverse Events	24
+ascites	HP:0001541	0-7
+Diarrhoea 0/8 (0.00%)	Adverse Events	25
+Melaena 0/8 (0.00%)	Adverse Events	26
+Nausea 0/8 (0.00%)	Adverse Events	27
+nausea	HP:0002018	0-6
+Proctitis 0/8 (0.00%)	Adverse Events	28
+proctitis	DOID:3127	0-9
+Small intestinal obstruction 1/8 (12.50%)	Adverse Events	29
+intestinal obstruction	HP:0005214,DOID:8437	6-28

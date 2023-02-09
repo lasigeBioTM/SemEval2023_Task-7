@@ -1,0 +1,81 @@
+INTERVENTION 1:	Intervention	0
+Laser Therapy Alone	Intervention	1
+laser	BAO:0150033	0-5
+therapist administered laser treatment	Intervention	2
+laser	BAO:0150033	23-28
+laser: therapist administered laser	Intervention	3
+laser	BAO:0150033	0-5
+laser	BAO:0150033	30-35
+INTERVENTION 2:	Intervention	4
+Mld Alone	Intervention	5
+therapist administered manual lymphatic drainage	Intervention	6
+manual lymphatic drainage: therapist administered massage therapy	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Breast cancer survivors will be included if they:	Eligibility	1
+breast cancer	DOID:1612	0-13
+are age 21 or older;	Eligibility	2
+age	PATO:0000011	4-7
+require professional treatment for Stage I or II lymphedema as defined by the International Society of Lymphology;	Eligibility	3
+lymphedema	HP:0001004,DOID:4977	49-59
+have an order for lymphedema treatment; and	Eligibility	4
+lymphedema	HP:0001004,DOID:4977	18-28
+are willing and able to drive to the study sites.	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Individuals will not be included if they:	Eligibility	7
+are actively undergoing intravenous chemotherapy or radiation therapy;	Eligibility	8
+have a history of bilateral lymphedema that prohibits extracellular fluid comparison to an unaffected limb;	Eligibility	9
+history	BFO:0000182	7-14
+bilateral	HP:0012832	18-27
+lymphedema	HP:0001004,DOID:4977	28-38
+unaffected	HP:0032321	91-101
+limb	UBERON:0002101	102-106
+are unable to stand upright for measurement of height and weight;	Eligibility	10
+have active/metastatic cancer;	Eligibility	11
+cancer	DOID:162	23-29
+are pregnant,:	Eligibility	12
+have artificial joints in areas where electrode placement is critical, or have a pacemaker/internal defibrillator; or	Eligibility	13
+have congestive heart failure (CHF), chronic/acute renal or hepatic disease, pulmonary edema, thrombophlebitis, deep vein thrombosis (DVT), acute infection of any kind, and inflammation in the trunk or arms.	Eligibility	14
+congestive heart failure	HP:0001635,DOID:6000	5-29
+disease	DOID:4,OGMS:0000031	68-75
+pulmonary edema	HP:0100598,DOID:11396	77-92
+thrombophlebitis	HP:0004418,DOID:3875	94-110
+vein	UBERON:0001638	117-121
+thrombosis	DOID:0060903	122-132
+acute	HP:0011009,PATO:0000389	45-50
+acute	HP:0011009,PATO:0000389	140-145
+trunk	GO:0043198,UBERON:0002100	193-198
+Outcome Measurement:	Results	0
+LDex Change-	Results	1
+Bioimpedance measured by units of LDex. As extracellular fluid accumulates (i.e. lymphedema develops) the LDex value increases.	Results	2
+bioimpedance	CMO:0000126	0-12
+lymphedema	HP:0001004,DOID:4977	81-91
+Time frame: Bioimpedance at baseline and end of treatment with the average number of treaments being 9 conducted over a median of up to 4 weeks.	Results	3
+time	PATO:0000165	0-4
+bioimpedance	CMO:0000126	12-24
+median	BAO:0002174	120-126
+Results 1:	Results	4
+Arm/Group Title: Laser Therapy Alone	Results	5
+laser	BAO:0150033	17-22
+Arm/Group Description: therapist administered laser treatment	Results	6
+laser	BAO:0150033	46-51
+laser: therapist administered laser	Results	7
+laser	BAO:0150033	0-5
+laser	BAO:0150033	30-35
+Overall Number of Participants Analyzed: 15	Results	8
+Median (Inter-Quartile Range)	Results	9
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: LDex  28.0        (17 to 35)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Mld Alone	Results	12
+Arm/Group Description: therapist administered manual lymphatic drainage	Results	13
+manual lymphatic drainage: therapist administered massage therapy	Results	14
+Overall Number of Participants Analyzed: 16	Results	15
+Median (Inter-Quartile Range)	Results	16
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: LDex  17.8        (3 to 38)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/15 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/16 (0.00%)	Adverse Events	3

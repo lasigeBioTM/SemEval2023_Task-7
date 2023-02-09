@@ -1,0 +1,95 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab	Intervention	1
+Participants received trastuzumab IV infusion at initial loading dose of 8 mg/kg BW for q3w regimen as a part of neo adjuvant treatment before entering in the study and then recommended maintenance dose of 6 mg/kg BW q3w for the first 3 cycles (Cycles 7-9) in hospital followed by SC administration of trastuzumab at a fixed dose of 600 mg q3w for next 3 cycles (Cycles 10-12) at hospital and SC administration of trastuzumab at a fixed dose of 600 mg q3w at home for the next 6 cycles (Cycles 13-18) (Each cycle=21 days).	Intervention	2
+part of	BAO:0090002,BFO:0000050	105-112
+adjuvant	CHEBI:60809	117-125
+home	CHEBI:75830	459-463
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed non-metastatic primary invasive adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	57-71
+breast	UBERON:0000310	79-85
+HER2-positive disease immunohistochemistry (IHC)3+ or in situ hybridization (ISH) positive, in line with local reimbursement criteria and determined in a local laboratory that is experienced/certified in HER2-expression testing using an accurate and validated assay	Eligibility	2
+disease	DOID:4,OGMS:0000031	14-21
+immunohistochemistry	BAO:0000415	22-42
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1	Eligibility	3
+group	CHEBI:24433	29-34
+Hormonal therapy will be allowed as per institutional guidelines	Eligibility	4
+Left ventricular ejection fraction (LVEF) of greater than or equal to (>/=) 50% measured by echocardiography (ECHO) or multiple gated acquisition (MUGA) scan prior to first dose of trastuzumab SC, or, for those who were receiving trastuzumab when beginning the study, documented results within an acceptable limit from a cardiac assessment within 3 months prior to enrollment	Eligibility	5
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Participants have completed the first 6 cycles of trastuzumab IV as part of the (neo)adjuvant treatment	Eligibility	6
+part of	BAO:0090002,BFO:0000050	68-75
+adjuvant	CHEBI:60809	85-93
+No evidence of residual, locally recurrent or metastatic disease after completion of surgery and chemotherapy, (neo-adjuvant or adjuvant)	Eligibility	7
+recurrent	HP:0031796	33-42
+disease	DOID:4,OGMS:0000031	57-64
+surgery	OAE:0000067	85-92
+adjuvant	CHEBI:60809	116-124
+adjuvant	CHEBI:60809	128-136
+Use of concurrent curative radiotherapy will be permitted	Eligibility	8
+radiotherapy	OAE:0000235	27-39
+Exclusion Criteria:	Eligibility	9
+History of other malignancy which could affect compliance with the protocol or interpretation of results. Participants with curatively treated carcinoma in situ of the cervix or basal cell carcinoma, and patients with other curatively treated malignancies who have been disease-free for at least 5 years, are eligible	Eligibility	10
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	143-152
+carcinoma	HP:0030731,DOID:305	189-198
+basal cell carcinoma	HP:0002671,DOID:2513	178-198
+Participants with severe dyspnea at rest or requiring supplementary oxygen therapy	Eligibility	11
+severe	HP:0012828	18-24
+dyspnea	HP:0002094	25-32
+Participants with other concurrent serious diseases that may interfere with planned treatment, including severe pulmonary conditions/illness	Eligibility	12
+severe	HP:0012828	105-111
+Serious cardiac illness or medical conditions that would preclude the use of trastuzumab, specifically: history of documented congestive heart failure (CHF), high-risk uncontrolled arrhythmias, angina pectoris requiring medication, clinically significant valvular disease, evidence of transmural infarction on electrocardiogram (ECG), diagnosed poorly controlled hypertension	Eligibility	13
+history	BFO:0000182	104-111
+congestive heart failure	HP:0001635,DOID:6000	126-150
+angina pectoris	HP:0001681	194-209
+disease	DOID:4,OGMS:0000031	264-271
+hypertension	HP:0000822,DOID:10763	363-375
+Known infection with human immunodeficiency virus (HIV), active hepatitis B virus (HBV) or hepatitis C virus (HCV)	Eligibility	14
+immunodeficiency	HP:0002721	27-43
+virus	BAO:0000232	44-49
+virus	BAO:0000232	76-81
+virus	BAO:0000232	103-108
+active	PATO:0002354	57-63
+hepatitis b	DOID:2043	64-75
+hepatitis c	DOID:1883	91-102
+Pregnant or lactating women	Eligibility	15
+Women of childbearing potential and male participants with partners of childbearing potential who are unable or unwilling to use adequate contraceptive measures during study treatment	Eligibility	16
+male	CHEBI:30780,PATO:0000384	36-40
+Concurrent enrollment in another clinical trial using an investigational anti-cancer treatment, including hormonal therapy, bisphosphonate therapy and immunotherapy, within 28 days prior to the first dose of study treatment	Eligibility	17
+Known hypersensitivity to trastuzumab, murine proteins, to any of the excipients of Herceptin including hyaluronidase, or the adhesive of the SC device, or a history of severe allergic or immunological reactions, e.g. difficult to control asthma	Eligibility	18
+hypersensitivity	GO:0002524,DOID:1205	6-22
+history	BFO:0000182	158-165
+severe	HP:0012828	169-175
+asthma	HP:0002099,DOID:2841	239-245
+Inadequate bone marrow, hepatic or renal function	Eligibility	19
+bone marrow	UBERON:0002371	11-22
+function	BAO:0003117,BFO:0000034	41-49
+Outcome Measurement:	Results	0
+Percentage of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)	Results	1
+An AE was any untoward medical occurrence attributed to study drug in a participant who received study drug. AEs included both serious and non- serious AEs. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. An emergent AE was defined as occurring within 35 days after last treatment administration.	Results	2
+drug	CHEBI:23888	62-66
+drug	CHEBI:23888	103-107
+death	OAE:0000632	261-266
+prolonged	HP:0025297	279-288
+Time frame: Up to 45 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab	Results	5
+Arm/Group Description: Participants received trastuzumab IV infusion at initial loading dose of 8 mg/kg BW for q3w regimen as a part of neo adjuvant treatment before entering in the study and then recommended maintenance dose of 6 mg/kg BW q3w for the first 3 cycles (Cycles 7-9) in hospital followed by SC administration of trastuzumab at a fixed dose of 600 mg q3w for next 3 cycles (Cycles 10-12) at hospital and SC administration of trastuzumab at a fixed dose of 600 mg q3w at home for the next 6 cycles (Cycles 13-18) (Each cycle=21 days).	Results	6
+part of	BAO:0090002,BFO:0000050	128-135
+adjuvant	CHEBI:60809	140-148
+home	CHEBI:75830	482-486
+Overall Number of Participants Analyzed: 101	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  Emergent AEs: 90.1	Results	9
+Emergent SAEs: 7.9	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 8/101 (7.92%)	Adverse Events	1
+Vertigo * 1/101 (0.99%)	Adverse Events	2
+vertigo	HP:0002321	0-7
+Infected lymphocele * 1/101 (0.99%)	Adverse Events	3
+lymphocele	DOID:4347	9-19
+Ejection fraction decreased * 5/101 (4.95%)	Adverse Events	4
+ejection fraction	CMO:0000180	0-17
+Lymphoedema * 1/101 (0.99%)	Adverse Events	5

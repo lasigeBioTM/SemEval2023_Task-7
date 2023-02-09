@@ -1,0 +1,77 @@
+INTERVENTION 1:	Intervention	0
+Radiation With ABC	Intervention	1
+Active Breathing Coordinator to assist radiation therapy. This group will be administered 14 fractions with ABC-assisted DIBH	Intervention	2
+active	PATO:0002354	0-6
+group	CHEBI:24433	63-68
+Active Breathing Coordinator (ABC): The ABC system has a digital spirometer that records real time breathing. This group will be administered 14 fractions with ABC-assisted DIBH	Intervention	3
+active	PATO:0002354	0-6
+time	PATO:0000165	94-98
+group	CHEBI:24433	115-120
+INTERVENTION 2:	Intervention	4
+Radiation VRT	Intervention	5
+VisionRT-based deep inspiration breath-hold to assist radiation therapy. This group will be administered 14 fractions with VRT-assisted DIBH	Intervention	6
+group	CHEBI:24433	78-83
+VisionRT: A technology for implementing the deep inspiration breath-hold technique is real-time surface photogrammetry. This group will be administered 14 fractions with VRT-assisted DIBH	Intervention	7
+group	CHEBI:24433	125-130
+Inclusion Criteria:	Eligibility	0
+Women with diagnosis of breast malignancy	Eligibility	1
+breast	UBERON:0000310	24-30
+Women whom requires left chest wall post-mastectomy radiation with or without bolus	Eligibility	2
+left	HP:0012835	20-24
+chest	UBERON:0001443	25-30
+Age  18 years.	Eligibility	3
+age	PATO:0000011	0-3
+Performance status ECOG </=3	Eligibility	4
+Women of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, for the duration of study participation, and for 90 days following completion of therapy. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately Ability to understand and the willingness to sign a written informed consent.	Eligibility	5
+duration	PATO:0001309	162-170
+Patient must be able to maintain a 30 second breath hold.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+second	UO:0000010	38-44
+Conventional chest wall radiation delivery dose of 50.4 Gy/ 28 fractions with or without a boost (boost will not be evaluated for endpoints)	Eligibility	7
+chest	UBERON:0001443	13-18
+Exclusion Criteria:	Eligibility	8
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	9
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Subjects must not be pregnant or nursing due to the potential for congenital abnormalities and the potential of this regimen to harm nursing infants.	Eligibility	10
+Outcome Measurement:	Results	0
+Residual Motion During Deep Inspiratory Breath-Hold (DIBH)	Results	1
+Residual motion is measured as range of breast/chest wall motion during the ABC or VisionRT assisted DIBH beam delivery. The range of motion will be measured in a unit of millimeter.	Results	2
+range	LABO:0000114	31-36
+range	LABO:0000114	125-130
+millimeter	UO:0000016	171-181
+Time frame: All patients received treatment for 2 hours for a minimum of 6 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Radiation With ABC	Results	5
+Arm/Group Description: Active Breathing Coordinator to assist radiation therapy. This group will be administered 14 fractions with ABC-assisted DIBH	Results	6
+active	PATO:0002354	23-29
+group	CHEBI:24433	4-9
+group	CHEBI:24433	86-91
+Active Breathing Coordinator (ABC): The ABC system has a digital spirometer that records real time breathing. This group will be administered 14 fractions with ABC-assisted DIBH	Results	7
+active	PATO:0002354	0-6
+time	PATO:0000165	94-98
+group	CHEBI:24433	115-120
+Overall Number of Participants Analyzed: 10	Results	8
+Mean (Full Range)	Results	9
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: mm  0.27        (-3.0 to 3.1)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Radiation VRT	Results	12
+Arm/Group Description: VisionRT-based deep inspiration breath-hold to assist radiation therapy. This group will be administered 14 fractions with VRT-assisted DIBH	Results	13
+group	CHEBI:24433	4-9
+group	CHEBI:24433	101-106
+VisionRT: A technology for implementing the deep inspiration breath-hold technique is real-time surface photogrammetry. This group will be administered 14 fractions with VRT-assisted DIBH	Results	14
+group	CHEBI:24433	125-130
+Overall Number of Participants Analyzed: 10	Results	15
+Mean (Full Range)	Results	16
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: mm  0.27        (-1.8 to 1.8)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/10 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/10 (0.00%)	Adverse Events	3

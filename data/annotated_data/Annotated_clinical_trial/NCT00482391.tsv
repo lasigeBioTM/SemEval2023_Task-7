@@ -1,0 +1,159 @@
+INTERVENTION 1:	Intervention	0
+AC, PACLITAXEL , TRASTUZUMAB & LAPATINIB	Intervention	1
+paclitaxel	CHEBI:45863	4-14
+lapatinib	CHEBI:49603	31-40
+The regimen consists of AC (doxorubicin 60 mg/m2, cyclophosphamide 600 mg/m2) q 14 days x 4 with pegfilgrastim, followed by weekly paclitaxel (80 mg/m2) x 12 + trastuzumab (H) + lapatinib (L). Pegfilgrastim 6mg is given subcutaneously (SQ) on day # 2 of each AC. Filgrastim may be used in lieu of pegfilgrastim at the physician's discretion. Trastuzumab will be administered weekly starting with paclitaxel treatment # 1. Near the completion of all chemotherapy, patients may receive trastuzumab on a q 3-weekly schedule, starting as early as with paclitaxel cycle # 12. The total duration of trastuzumab from beginning to end is 52 weeks. Lapatinib will be given orally at 1000 mg daily, starting with trastuzumab for a total duration of 52 weeks. Hormonal therapy such as tamoxifen or an aromatase inhibitor will be given to patients with hormone receptor positive disease at the physician's discretion. Radiation therapy to the breast or chest is recommended to patients as appropriate.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	28-39
+cyclophosphamide	CHEBI:4026	50-66
+x	LABO:0000148	30-31
+x	LABO:0000148	88-89
+x	LABO:0000148	138-139
+x	LABO:0000148	153-154
+x	LABO:0000148	403-404
+x	LABO:0000148	555-556
+x	LABO:0000148	778-779
+paclitaxel	CHEBI:45863	131-141
+paclitaxel	CHEBI:45863	396-406
+paclitaxel	CHEBI:45863	548-558
+lapatinib	CHEBI:49603	178-187
+lapatinib	CHEBI:49603	640-649
+day	UO:0000033	83-86
+day	UO:0000033	243-246
+duration	PATO:0001309	581-589
+duration	PATO:0001309	727-735
+tamoxifen	CHEBI:41774	774-783
+inhibitor	CHEBI:35222	800-809
+hormone	CHEBI:24621	841-848
+receptor	BAO:0000281	849-857
+disease	DOID:4,OGMS:0000031	867-874
+breast	UBERON:0000310	931-937
+chest	UBERON:0001443	941-946
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+Bilateral synchronous breast tumors allowed	Eligibility	2
+bilateral	HP:0012832	0-9
+breast	UBERON:0000310	22-28
+Any nodal status or tumor size allowed	Eligibility	3
+size	PATO:0000117	26-30
+No stage IV disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	12-19
+HER2/neu-positive disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	18-25
+3+ by IHC OR FISH-amplified	Eligibility	6
+Hormone receptor status not specified	Eligibility	7
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Male or female	Eligibility	9
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	10
+ECOG performance status 0-1	Eligibility	11
+Absolute neutrophil count  1,000/mm³	Eligibility	12
+Platelet count  100,000/mm³	Eligibility	13
+platelet count	CMO:0000029	0-14
+Bilirubin  1.1 mg/dL	Eligibility	14
+SGOT or SGPT  2.5 times upper limit of normal (ULN)	Eligibility	15
+Not pregnant or nursing	Eligibility	16
+Negative pregnancy test	Eligibility	17
+Fertile patients must use effective barrier contraception during and after completion of study therapy	Eligibility	18
+LVEF  50% by MUGA scan	Eligibility	19
+No peripheral neuropathy > grade 1	Eligibility	20
+peripheral neuropathy	HP:0009830,DOID:870	3-24
+No active second malignancy within the past 5 years except for adequately treated nonmelanoma skin cancer or in situ carcinoma of the cervix	Eligibility	21
+active	PATO:0002354	3-9
+second	UO:0000010	10-16
+skin cancer	DOID:4159	94-105
+in situ carcinoma	DOID:8719	109-126
+No known allergy or hypersensitivity to doxorubicin hydrochloride, cyclophosphamide, paclitaxel, or other drugs formulated in Cremophor EL	Eligibility	22
+allergy	HP:0012393	9-16
+hypersensitivity	GO:0002524,DOID:1205	20-36
+doxorubicin hydrochloride	CHEBI:31522	40-65
+cyclophosphamide	CHEBI:4026	67-83
+paclitaxel	CHEBI:45863	85-95
+No psychiatric illness or concurrent medical conditions that would preclude study treatment	Eligibility	23
+No other conditions, including any of the following:	Eligibility	24
+Unstable angina	Eligibility	25
+Congestive heart failure	Eligibility	26
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Myocardial infarction within the past 12 months	Eligibility	27
+myocardial infarction	HP:0001658,DOID:5844	0-21
+High-risk uncontrolled arrhythmias (e.g., ventricular tachycardia, high-grade AV block, or supraventricular arrhythmias that are not adequately controlled)	Eligibility	28
+ventricular tachycardia	HP:0004756	42-65
+No QT prolongation (> 500 ms)	Eligibility	29
+No active unresolved infections	Eligibility	30
+active	PATO:0002354	3-9
+No sensitivity to E. coli derived proteins	Eligibility	31
+PRIOR CONCURRENT THERAPY:	Eligibility	32
+Prior hormonal therapy for chemoprevention allowed	Eligibility	33
+No prior trastuzumab (Herceptin®)	Eligibility	34
+No prior anthracyclines	Eligibility	35
+No concurrent hormonal therapy, including hormonal contraception (e.g., birth control pills or ovarian hormonal or replacement therapy)	Eligibility	36
+No other concurrent chemotherapy, radiotherapy, immunotherapy, or biotherapy for breast cancer	Eligibility	37
+radiotherapy	OAE:0000235	34-46
+breast cancer	DOID:1612	81-94
+No concurrent drugs that may prolong the QT	Eligibility	38
+Outcome Measurement:	Results	0
+Number of Patients Who Completed All Planned Therapy	Results	1
+The number of patients who completed all planned therapy (dose-dense adjuvant/ neoadjuvant chemotherapy regimen) in HER-2/neu-overexpressed/ amplified breast cancer patients.	Results	2
+breast cancer	DOID:1612	151-164
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: AC, PACLITAXEL , TRASTUZUMAB & LAPATINIB	Results	5
+paclitaxel	CHEBI:45863	21-31
+lapatinib	CHEBI:49603	48-57
+Arm/Group Description: The regimen consists of AC (doxorubicin 60 mg/m2, cyclophosphamide 600 mg/m2) q 14 days x 4 with pegfilgrastim, followed by weekly paclitaxel (80 mg/m2) x 12 + trastuzumab (H) + lapatinib (L). Pegfilgrastim 6mg is given subcutaneously (SQ) on day # 2 of each AC. Filgrastim may be used in lieu of pegfilgrastim at the physician's discretion. Trastuzumab will be administered weekly starting with paclitaxel treatment # 1. Near the completion of all chemotherapy, patients may receive trastuzumab on a q 3-weekly schedule, starting as early as with paclitaxel cycle # 12. The total duration of trastuzumab from beginning to end is 52 weeks. Lapatinib will be given orally at 1000 mg daily, starting with trastuzumab for a total duration of 52 weeks. Hormonal therapy such as tamoxifen or an aromatase inhibitor will be given to patients with hormone receptor positive disease at the physician's discretion. Radiation therapy to the breast or chest is recommended to patients as appropriate.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	51-62
+cyclophosphamide	CHEBI:4026	73-89
+x	LABO:0000148	53-54
+x	LABO:0000148	111-112
+x	LABO:0000148	161-162
+x	LABO:0000148	176-177
+x	LABO:0000148	426-427
+x	LABO:0000148	578-579
+x	LABO:0000148	801-802
+paclitaxel	CHEBI:45863	154-164
+paclitaxel	CHEBI:45863	419-429
+paclitaxel	CHEBI:45863	571-581
+lapatinib	CHEBI:49603	201-210
+lapatinib	CHEBI:49603	663-672
+day	UO:0000033	106-109
+day	UO:0000033	266-269
+duration	PATO:0001309	604-612
+duration	PATO:0001309	750-758
+tamoxifen	CHEBI:41774	797-806
+inhibitor	CHEBI:35222	823-832
+hormone	CHEBI:24621	864-871
+receptor	BAO:0000281	872-880
+disease	DOID:4,OGMS:0000031	890-897
+breast	UBERON:0000310	954-960
+chest	UBERON:0001443	964-969
+Overall Number of Participants Analyzed: 92	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  45	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 23/95 (24.21%)	Adverse Events	1
+Edema: limb 1/95 (1.05%)	Adverse Events	2
+edema	HP:0000969	0-5
+limb	UBERON:0002101	7-11
+Hematoma 1/95 (1.05%)	Adverse Events	3
+Hemoglobin 2/95 (2.11%)	Adverse Events	4
+hemoglobin	CHEBI:35143	0-10
+Leukocytes (total WBC) 1/95 (1.05%)	Adverse Events	5
+Hypertension 1/95 (1.05%)	Adverse Events	6
+hypertension	HP:0000822,DOID:10763	0-12
+Hypotension 2/95 (2.11%)	Adverse Events	7
+hypotension	HP:0002615	0-11
+Left ventricular diastolic dysfunction 1/95 (1.05%)	Adverse Events	8
+left ventricular diastolic dysfunction	HP:0025168	0-38
+Prolonged QTc interval 1/95 (1.05%)	Adverse Events	9
+prolonged qtc interval	HP:0005184	0-22
+Sinus tachycardia 1/95 (1.05%)	Adverse Events	10
+sinus tachycardia	HP:0011703	0-17
+Ocular/Visual - Other (specify) 1/95 (1.05%)	Adverse Events	11

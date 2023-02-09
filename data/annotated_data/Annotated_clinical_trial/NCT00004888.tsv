@@ -1,0 +1,211 @@
+INTERVENTION 1:	Intervention	0
+Arm I: Doxorubicin and Taxotere	Intervention	1
+doxorubicin	CHEBI:28748,BAO:0000639	7-18
+taxotere	CHEBI:46058	23-31
+Patients received PLD 30 mg/m^2 IV followed by docetaxel 60 mg/m^2 IV, one hour after PLD completion, every 3 weeks for a total of 8 cycles. Dexamthasone 8 mg orally twice a day was administered the day before, the day of, and the day following docetaxel. The maximum allowed cumulative dose of PLD was 240 mg/m^2. Pyridoxine 200 mg PO daily started on Day 1 of Cycle 1 and continued daily while the patient was on PLD.	Intervention	2
+hour	UO:0000032	75-79
+day	UO:0000033	174-177
+day	UO:0000033	199-202
+day	UO:0000033	215-218
+day	UO:0000033	231-234
+day	UO:0000033	353-356
+pyridoxine	CHEBI:16709	315-325
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	400-407
+INTERVENTION 2:	Intervention	3
+Arm II: Doxorubicin, Taxotere, and Herceptin	Intervention	4
+doxorubicin	CHEBI:28748,BAO:0000639	8-19
+taxotere	CHEBI:46058	21-29
+Patients received the weekly antibody therapy with trastuzumab in addition to the induction chemotherapy with PLD and docetaxel every 3 weeks as outlined for Arm I above for a total of 8 cycles. Trastuzumab was administered 4 mg/kg IV on Day 1, then 2 mg/kg IV weekly.	Intervention	5
+antibody	GO:0042571,BAO:0000502	29-37
+day	UO:0000033	238-241
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed adenocarcinoma of the breast with manifestations of metastatic progression	Eligibility	1
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+HER2 expression status in primary breast tissue and/or site(s) of metastasis must be determined by the ECOG Pathology Coordinating Office; (these are the results that will be used at time of registration); NOTE: for this protocol, HER2/neu non-overexpressed status will be defined as 0 and 1+ scores using the DAKO HercepTest; HER2 overexpressed status will be defined as 2+ score (if confirmed amplified by FISH) or 3+ score using the DAKO HercepTest	Eligibility	2
+breast	UBERON:0000310	34-40
+tissue	UBERON:0000479	41-47
+site	BFO:0000029	55-59
+time	PATO:0000165	183-187
+dako	BAO:0000889	310-314
+dako	BAO:0000889	436-440
+Cytologically positive pleural or peritoneal effusions are considered evaluable disease provided local intra-cavitary treatment is not introduced at the onset of therapy; to be considered as evaluable disease, pleural effusions may not have been previously drained or sclerosed	Eligibility	3
+disease	DOID:4,OGMS:0000031	80-87
+disease	DOID:4,OGMS:0000031	201-208
+onset	HP:0003674	153-158
+Blastic or mixed blastic/lytic osseous metastases only are evaluable disease provided they are accompanied by an analgesic requirement or a decrease in performance status, and will not require radiation treatment within two cycles from the start of protocol; pure osteolytic disease is evaluable; bone disease must be x-ray proven for the site to be evaluable; patients whose only evidence of metastatic disease is an abnormal bone scan without confirmatory x-rays are not eligible for this study	Eligibility	4
+mixed	BAO:0002107	11-16
+disease	DOID:4,OGMS:0000031	69-76
+disease	DOID:4,OGMS:0000031	275-282
+disease	DOID:4,OGMS:0000031	302-309
+disease	DOID:4,OGMS:0000031	404-411
+analgesic	CHEBI:35480	113-122
+bone disease	DOID:0080001	297-309
+site	BFO:0000029	339-343
+No prior chemotherapy for advanced disease; prior adjuvant chemotherapy (including taxanes) allowed, if completed > 6 months before the diagnosis of metastatic disease; no prior adjuvant anthracycline, nor any prior exposure to other anthracycline- (e.g., epirubicin, any liposomal doxorubicin formulation), nor any anthracenedione- (e.g., mitoxantrone) containing regimen allowed; no prior therapy with Herceptin allowed; NOTE: chemotherapy after ipsilateral breast recurrence following breast conservation surgery would not be considered chemotherapy for advanced disease; however, in post-mastectomy patients chemotherapy for local/regional recurrence is considered treatment for advanced disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	35-42
+disease	DOID:4,OGMS:0000031	160-167
+disease	DOID:4,OGMS:0000031	566-573
+disease	DOID:4,OGMS:0000031	692-699
+adjuvant	CHEBI:60809	50-58
+adjuvant	CHEBI:60809	178-186
+anthracycline	CHEBI:48120	187-200
+anthracycline	CHEBI:48120	234-247
+doxorubicin	CHEBI:28748,BAO:0000639	282-293
+mitoxantrone	CHEBI:50729	340-352
+breast	UBERON:0000310	460-466
+breast	UBERON:0000310	488-494
+surgery	OAE:0000067	508-515
+No prior radiotherapy other than to the conserved breast, to the post-mastectomy chest wall, or to a limited field involving < 25% of marrow-containing bone; NOTE: previous post-mastectomy radiation therapy involving chest wall ± internal mammary lymph node chain (IMN) is allowed; however, patients who received photon IMN treatment are ineligible; NOTE: radiotherapy must be completed >= 2 weeks prior to registration; it may not be given concurrently with Doxil, Taxotere, or Herceptin	Eligibility	6
+radiotherapy	OAE:0000235	9-21
+radiotherapy	OAE:0000235	356-368
+breast	UBERON:0000310	50-56
+chest	UBERON:0001443	81-86
+chest	UBERON:0001443	217-222
+lymph	UBERON:0002391	247-252
+photon	CHEBI:30212	313-319
+taxotere	CHEBI:46058	466-474
+Prior hormonal therapy in either a metastatic or adjuvant setting is allowed, but patients must have been off such therapy for >= 2 weeks prior to registration	Eligibility	7
+adjuvant	CHEBI:60809	49-57
+Disease-free of prior non-breast invasive malignancies for >= 5 years with the exception of curatively-treated basal cell or squamous cell carcinoma of the skin or carcinoma in situ of the cervix	Eligibility	8
+squamous cell carcinoma of the skin	HP:0006739	125-160
+carcinoma	HP:0030731,DOID:305	139-148
+carcinoma	HP:0030731,DOID:305	164-173
+ECOG performance status of 0, 1, or 2	Eligibility	9
+At least two weeks after any major surgery (including mastectomy) and recovered from all toxicity	Eligibility	10
+surgery	OAE:0000067	35-42
+Creatinine =< 1.5 mg/dl	Eligibility	11
+creatinine	CHEBI:16737	0-10
+Granulocytes >= 1,500/mm³	Eligibility	12
+Platelets >= 100,000/mm³	Eligibility	13
+SGOT(AST) =< 2.5 x the upper limit of normal	Eligibility	14
+x	LABO:0000148	17-18
+Bilirubin within normal limits for institution	Eligibility	15
+No history of deep venous thrombosis, pulmonary thromboembolism, or other thromboembolic condition	Eligibility	16
+history	BFO:0000182	3-10
+deep venous thrombosis	HP:0002625	14-36
+pulmonary thromboembolism	HP:0034192	38-63
+condition	PDRO:0000129	89-98
+Women must not be pregnant or breastfeeding; the effect of Herceptin to the fetus is unknown; Doxil is known to be harmful to the fetus	Eligibility	17
+Women of childbearing potential must be advised to use an accepted and effective method of contraception	Eligibility	18
+No patients with untreated brain metastasis or brain metastasis undergoing radiation or for whom brain metastasis represent the sole site of disease; patients with previously treated brain metastasis who have responded to brain radiotherapy and/or surgery and continue in response are eligible, provided the brain is not the only site of disease	Eligibility	19
+brain	UBERON:0000955	27-32
+brain	UBERON:0000955	47-52
+brain	UBERON:0000955	97-102
+brain	UBERON:0000955	183-188
+brain	UBERON:0000955	222-227
+brain	UBERON:0000955	308-313
+site	BFO:0000029	133-137
+site	BFO:0000029	330-334
+disease	DOID:4,OGMS:0000031	141-148
+disease	DOID:4,OGMS:0000031	338-345
+radiotherapy	OAE:0000235	228-240
+surgery	OAE:0000067	248-255
+The left ventricular ejection fraction must be at or above the lower institutional limits of normal (as assessed by MUGA scan or echocardiogram obtained within six weeks prior to registration); patient will not be eligible if baseline LVEF assessment not performed	Eligibility	20
+left	HP:0012835	4-8
+ejection fraction	CMO:0000180	21-38
+patient	HADO:0000008,OAE:0001817	194-201
+No prior history of myocardial infarction, congestive heart failure, or arrhythmia requiring medication; no history of hypertension or systolic or diastolic dysfunction; no EKG evidence of ventricular hypertrophy, conduction abnormality, or serious arrhythmia; patient will not be eligible if baseline EKG assessment not performed within 4 weeks	Eligibility	21
+history	BFO:0000182	9-16
+history	BFO:0000182	108-115
+myocardial infarction	HP:0001658,DOID:5844	20-41
+congestive heart failure	HP:0001635,DOID:6000	43-67
+arrhythmia	HP:0011675	72-82
+arrhythmia	HP:0011675	249-259
+hypertension	HP:0000822,DOID:10763	119-131
+ventricular hypertrophy	HP:0001714	189-212
+patient	HADO:0000008,OAE:0001817	261-268
+Outcome Measurement:	Results	0
+Grades of Cardiotoxicity Events in the Subset of Patients Reporting a Cardiotoxicity Event	Results	1
+This table summarizes the cardiotoxicity events of different grades. Grade 1 is a decline of left ventricular ejection fraction(LVEF) >=10% but <20% of baseline value. Grade 2 is LVEF below LLN (50%) or decline of LVEF >=20% of baseline value. Grade 3 is congestive heart failure responsive to treatment. Please note that only a subset of patients reported cardiotoxic events so the totals will not add up to the total number of participants.	Results	2
+left	HP:0012835	93-97
+ejection fraction	CMO:0000180	110-127
+congestive heart failure	HP:0001635,DOID:6000	255-279
+Time frame: Baseline, after cycle 4 (~84 days), after cycle 8 (~168 days), and 30 or more days after last cycle of induction therapy	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I: Doxorubicin and Taxotere	Results	5
+doxorubicin	CHEBI:28748,BAO:0000639	24-35
+taxotere	CHEBI:46058	40-48
+Arm/Group Description: Patients received PLD 30 mg/m^2 IV followed by docetaxel 60 mg/m^2 IV, one hour after PLD completion, every 3 weeks for a total of 8 cycles. Dexamthasone 8 mg orally twice a day was administered the day before, the day of, and the day following docetaxel. The maximum allowed cumulative dose of PLD was 240 mg/m^2. Pyridoxine 200 mg PO daily started on Day 1 of Cycle 1 and continued daily while the patient was on PLD.	Results	6
+hour	UO:0000032	98-102
+day	UO:0000033	197-200
+day	UO:0000033	222-225
+day	UO:0000033	238-241
+day	UO:0000033	254-257
+day	UO:0000033	376-379
+pyridoxine	CHEBI:16709	338-348
+patient	HADO:0000008,OAE:0001817	23-30
+patient	HADO:0000008,OAE:0001817	423-430
+Overall Number of Participants Analyzed: 16	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Grade 1 After Cycle 4 (approx. 84 days): 2	Results	9
+Grade 1 After Cycle 8 (approx. 168 days): 4	Results	10
+Grade 1 After 30 days or more after last cycle: 1	Results	11
+Grade 2 After Cycle 4 (approx 84 days): 3	Results	12
+Grade 2 After Cycle 8 (approx 168 days): 4	Results	13
+Grade 2 After 30 days or more after last cycle: 1	Results	14
+Grade 3 After Cycle 4 (approx 84 days): 1	Results	15
+Grade 3 After Cycle 8 (approx 168 days): 0	Results	16
+Grade 3 After 30 days or more after last cycle: 0	Results	17
+Results 2:	Results	18
+Arm/Group Title: Arm II: Doxorubicin, Taxotere, and Herceptin	Results	19
+doxorubicin	CHEBI:28748,BAO:0000639	25-36
+taxotere	CHEBI:46058	38-46
+Arm/Group Description: Patients received the weekly antibody therapy with trastuzumab in addition to the induction chemotherapy with PLD and docetaxel every 3 weeks as outlined for Arm I above for a total of 8 cycles. Trastuzumab was administered 4 mg/kg IV on Day 1, then 2 mg/kg IV weekly.	Results	20
+antibody	GO:0042571,BAO:0000502	52-60
+day	UO:0000033	261-264
+Overall Number of Participants Analyzed: 37	Results	21
+Measure Type: Number	Results	22
+Unit of Measure: participants  Grade 1 After Cycle 4 (approx. 84 days): 12	Results	23
+Grade 1 After Cycle 8 (approx. 168 days): 8	Results	24
+Grade 1 After 30 days or more after last cycle: 10	Results	25
+Grade 2 After Cycle 4 (approx 84 days): 0	Results	26
+Grade 2 After Cycle 8 (approx 168 days): 2	Results	27
+Grade 2 After 30 days or more after last cycle: 5	Results	28
+Grade 3 After Cycle 4 (approx 84 days): 0	Results	29
+Grade 3 After Cycle 8 (approx 168 days): 0	Results	30
+Grade 3 After 30 days or more after last cycle: 0	Results	31
+Adverse Events 1:	Adverse Events	0
+Total: 41/41 (100.00%)	Adverse Events	1
+Febrile Neutropenia 5/41 (12.20%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 22/41 (53.66%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 24/41 (58.54%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 2/41 (4.88%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anemia 5/41 (12.20%)	Adverse Events	6
+anemia	HP:0001903,DOID:2355	0-6
+Thrombosis/embolism 4/41 (9.76%)	Adverse Events	7
+DIC 1/41 (2.44%)	Adverse Events	8
+AST Increased 1/41 (2.44%)	Adverse Events	9
+Hypoalbuminemia 1/41 (2.44%)	Adverse Events	10
+hypoalbuminemia	HP:0003073	0-15
+Creatinine Increased 1/41 (2.44%)	Adverse Events	11
+creatinine	CHEBI:16737	0-10
+Hypertension 1/41 (2.44%)	Adverse Events	12
+hypertension	HP:0000822,DOID:10763	0-12
+Adverse Events 2:	Adverse Events	13
+Total: 48/48 (100.00%)	Adverse Events	14
+Febrile Neutropenia 5/48 (10.42%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 28/48 (58.33%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 32/48 (66.67%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/48 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anemia 6/48 (12.50%)	Adverse Events	19
+anemia	HP:0001903,DOID:2355	0-6
+Thrombosis/embolism 0/48 (0.00%)	Adverse Events	20
+DIC 0/48 (0.00%)	Adverse Events	21
+AST Increased 1/48 (2.08%)	Adverse Events	22
+Hypoalbuminemia 1/48 (2.08%)	Adverse Events	23
+hypoalbuminemia	HP:0003073	0-15
+Creatinine Increased 0/48 (0.00%)	Adverse Events	24
+creatinine	CHEBI:16737	0-10
+Hypertension 1/48 (2.08%)	Adverse Events	25
+hypertension	HP:0000822,DOID:10763	0-12

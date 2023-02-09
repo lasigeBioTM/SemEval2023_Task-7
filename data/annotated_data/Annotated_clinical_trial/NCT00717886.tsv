@@ -1,0 +1,51 @@
+INTERVENTION 1:	Intervention	0
+Upper Extremity Lymphatic Mapping for Breast Cancer Patients	Intervention	1
+breast cancer	DOID:1612	38-51
+Patients with documented axillary metastases (Stage II breast cancer) will undergo subdermal injection of technetium sulfur colloid (TSC) into the ipsilateral upper extremity approximately 3 hours before surgery.	Intervention	2
+breast cancer	DOID:1612	55-68
+surgery	OAE:0000067	204-211
+Inclusion Criteria:	Eligibility	0
+Females with Stage II invasive breast cancer and documented axillary metastases by core biopsy, clinical examination, or fine-needle aspiration who are scheduled to undergo an ALND.	Eligibility	1
+breast cancer	DOID:1612	31-44
+aspiration	HP:0002835	133-143
+Females > 21 years of age	Eligibility	2
+age	PATO:0000011	22-25
+Exclusion Criteria:	Eligibility	3
+Prior ipsilateral axillary surgery	Eligibility	4
+surgery	OAE:0000067	27-34
+Prior ipsilateral axillary radiation	Eligibility	5
+Prior ipsilateral breast cancer	Eligibility	6
+breast cancer	DOID:1612	18-31
+Prior ipsilateral breast radiation	Eligibility	7
+breast	UBERON:0000310	18-24
+Allergy to isosulfan blue dye	Eligibility	8
+allergy	HP:0012393	0-7
+dye	CHEBI:37958	26-29
+History of ipsilateral upper extremity lymphedema	Eligibility	9
+history	BFO:0000182	0-7
+lymphedema	HP:0001004,DOID:4977	39-49
+Prior history of surgical excision of the upper outer quadrant of the ipsilateral breast	Eligibility	10
+history	BFO:0000182	6-13
+breast	UBERON:0000310	82-88
+Prior history of neoadjuvant chemotherapy for current breast cancer	Eligibility	11
+history	BFO:0000182	6-13
+breast cancer	DOID:1612	54-67
+Bulky axillary disease at presentation (N2)	Eligibility	12
+disease	DOID:4,OGMS:0000031	15-22
+Outcome Measurement:	Results	0
+Number and Prevalence of Metastases of Blue Nodes in the ALND Specimen (Nodes Draining the Breast).	Results	1
+breast	UBERON:0000310	91-97
+[Not Specified]	Results	2
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Upper Extremity Lymphatic Mapping for Breast Cancer Patients	Results	5
+breast cancer	DOID:1612	55-68
+Arm/Group Description: Patients with documented axillary metastases (Stage II breast cancer) will undergo subdermal injection of technetium sulfur colloid (TSC) into the ipsilateral upper extremity approximately 3 hours before surgery.	Results	6
+breast cancer	DOID:1612	78-91
+surgery	OAE:0000067	227-234
+Overall Number of Participants Analyzed: 9	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  0	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/9 (0.00%)	Adverse Events	1

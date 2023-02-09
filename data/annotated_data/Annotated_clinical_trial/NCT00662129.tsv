@@ -1,0 +1,222 @@
+INTERVENTION 1:	Intervention	0
+Paclitaxel + Gemcitabine + Bevacizumab	Intervention	1
+paclitaxel	CHEBI:45863	0-10
+gemcitabine	CHEBI:175901	13-24
+Patients receive 125 mg/m^2 paclitaxel albumin-stabilized nanoparticle formulation IV over 30 minutes and 1000 mg/m^2 gemcitabine hydrochloride IV over 30 minutes on days 1 and 8, and 15 mg/kg bevacizumab IV over 30-90 minutes on day 1. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+paclitaxel	CHEBI:45863	28-38
+nanoparticle	CHEBI:50803	58-70
+gemcitabine hydrochloride	CHEBI:31647	118-143
+day	UO:0000033	166-169
+day	UO:0000033	230-233
+day	UO:0000033	261-264
+disease	DOID:4,OGMS:0000031	284-291
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed infiltrating breast cancer	Eligibility	1
+breast cancer	DOID:1612	55-68
+Clinical evidence of metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	32-39
+Measurable disease, defined as at least one measurable lesion per RECIST criteria	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+No non-measurable disease only, defined as all other lesions, including small lesions (longest diameter < 2 cm) and truly non-measurable lesions, including any of the following:	Eligibility	4
+disease	DOID:4,OGMS:0000031	18-25
+diameter	PATO:0001334	95-103
+Bone lesions	Eligibility	5
+Leptomeningeal disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	15-22
+Ascites	Eligibility	7
+ascites	HP:0001541	0-7
+Pleural/pericardial effusion	Eligibility	8
+Inflammatory breast disease	Eligibility	9
+breast disease	DOID:3463	13-27
+Lymphangitis cutis/pulmonis	Eligibility	10
+lymphangitis	DOID:9317	0-12
+Abdominal masses that are not confirmed and followed by imaging techniques	Eligibility	11
+Cystic lesions	Eligibility	12
+Patients with HER-2/neu positive tumors, must have received prior treatment with trastuzumab (Herceptin®) or have a contraindication for trastuzumab	Eligibility	13
+contraindication	OAE:0000055	116-132
+No evidence of active brain metastasis, including leptomeningeal involvement, on MRI or CT scan	Eligibility	14
+active	PATO:0002354	15-21
+brain	UBERON:0000955	22-27
+ct	BAO:0002125	16-18
+ct	BAO:0002125	88-90
+CNS metastasis controlled by prior surgery and/or radiotherapy allowed	Eligibility	15
+surgery	OAE:0000067	35-42
+radiotherapy	OAE:0000235	50-62
+Must be asymptomatic for  2 months with no evidence of progression prior to study entry	Eligibility	16
+Hormone receptor status not specified	Eligibility	17
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+Menopausal status not specified	Eligibility	19
+Life expectancy  12 weeks	Eligibility	20
+ECOG performance status 0-1	Eligibility	21
+ANC  1,500/mm³	Eligibility	22
+Platelet count  100,000/mm³	Eligibility	23
+platelet count	CMO:0000029	0-14
+Hemoglobin  9.0 g/dL	Eligibility	24
+hemoglobin	CHEBI:35143	0-10
+AST and ALT  2.5 times upper limit of normal (ULN)	Eligibility	25
+Alkaline phosphatase  2.5 times ULN	Eligibility	26
+phosphatase	GO:0016791,BAO:0000295	9-20
+Total bilirubin  1.5 times ULN	Eligibility	27
+Creatinine  1.5 mg/dL	Eligibility	28
+creatinine	CHEBI:16737	0-10
+Urine protein:creatinine ratio < 1 or urinalysis < 1+ protein	Eligibility	29
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+protein	CHEBI:36080,BAO:0000175	54-61
+creatinine	CHEBI:16737	14-24
+ratio	UO:0000190	25-30
+Patients discovered to have  1+ proteinuria at baseline must demonstrate 24-hour urine protein < 1 g	Eligibility	30
+proteinuria	HP:0000093,DOID:576	32-43
+urine	UBERON:0001088	81-86
+protein	CHEBI:36080,BAO:0000175	32-39
+protein	CHEBI:36080,BAO:0000175	87-94
+Not pregnant or nursing	Eligibility	31
+Negative pregnancy test	Eligibility	32
+Fertile patients must use effective contraception during and for 30 days after completion of study therapy	Eligibility	33
+Able to complete questionnaires alone or with assistance	Eligibility	34
+No peripheral neuropathy > grade 1	Eligibility	35
+peripheral neuropathy	HP:0009830,DOID:870	3-24
+No history of allergy or hypersensitivity to albumin-bound paclitaxel, paclitaxel, gemcitabine hydrochloride, bevacizumab, albumin, drug product excipients, or chemically similar agents	Eligibility	36
+history	BFO:0000182	3-10
+allergy	HP:0012393	14-21
+hypersensitivity	GO:0002524,DOID:1205	25-41
+paclitaxel	CHEBI:45863	59-69
+paclitaxel	CHEBI:45863	71-81
+gemcitabine hydrochloride	CHEBI:31647	83-108
+drug	CHEBI:23888	132-136
+product	BAO:0003067	137-144
+No stage III or IV invasive, non-breast malignancy within the past 5 years	Eligibility	37
+No other active malignancy, except nonmelanoma skin cancer or carcinoma in situ of the cervix	Eligibility	38
+active	PATO:0002354	9-15
+skin cancer	DOID:4159	47-58
+carcinoma	HP:0030731,DOID:305	62-71
+Patient must not be receiving other specific treatment for a prior malignancy	Eligibility	39
+patient	HADO:0000008,OAE:0001817	0-7
+No uncontrolled hypertension (i.e., blood pressure [BP] > 160/90 mm Hg on  2 occasions at least 5 minutes apart)	Eligibility	40
+hypertension	HP:0000822,DOID:10763	16-28
+blood	UBERON:0000178	36-41
+Patients who have recently started or adjusted antihypertensive medications are eligible providing that BP is < 140/90 mm Hg on any new regimen for  3 different observations in  14 days	Eligibility	41
+No bleeding diathesis or uncontrolled coagulopathy	Eligibility	42
+No hemoptysis within the past 6 months	Eligibility	43
+hemoptysis	HP:0002105	3-13
+No prior arterial or venous thrombosis within the past 12 months	Eligibility	44
+venous thrombosis	HP:0004936	21-38
+No history of cerebrovascular accident	Eligibility	45
+history	BFO:0000182	3-10
+No history of hypertensive crisis or hypertensive encephalopathy	Eligibility	46
+history	BFO:0000182	3-10
+hypertensive crisis	HP:0100735	14-33
+hypertensive encephalopathy	DOID:9427	37-64
+No abdominal fistula or gastrointestinal perforation within the past 6 months	Eligibility	47
+No serious non-healing wound, ulcer, or fracture	Eligibility	48
+ulcer	OAE:0004372	30-35
+No clinically significant cardiac disease, defined as any of the following:	Eligibility	49
+disease	DOID:4,OGMS:0000031	34-41
+Congestive heart failure	Eligibility	50
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Symptomatic coronary artery disease	Eligibility	51
+coronary artery disease	DOID:3393	12-35
+Unstable angina	Eligibility	52
+Cardiac arrhythmias not well controlled with medication	Eligibility	53
+Myocardial infarction within the past 12 months	Eligibility	54
+myocardial infarction	HP:0001658,DOID:5844	0-21
+No comorbid systemic illnesses or other severe concurrent disease which, in the judgment of the investigator, would make the patient inappropriate for study entry or interfere significantly with the proper assessment of safety and toxicity of the prescribed regimens	Eligibility	55
+severe	HP:0012828	40-46
+disease	DOID:4,OGMS:0000031	58-65
+patient	HADO:0000008,OAE:0001817	125-132
+PRIOR CONCURRENT THERAPY:	Eligibility	56
+See Disease Characteristics	Eligibility	57
+disease	DOID:4,OGMS:0000031	4-11
+No prior chemotherapy for metastatic disease	Eligibility	58
+disease	DOID:4,OGMS:0000031	37-44
+May have received one prior adjuvant chemotherapy regimen	Eligibility	59
+adjuvant	CHEBI:60809	28-36
+Prior neoadjuvant chemotherapy allowed	Eligibility	60
+More than 6 months since prior adjuvant or neoadjuvant taxane (i.e., docetaxel or paclitaxel) therapy	Eligibility	61
+adjuvant	CHEBI:60809	31-39
+adjuvant	CHEBI:60809	46-54
+taxane	CHEBI:36064	55-61
+paclitaxel	CHEBI:45863	82-92
+Prior hormonal therapy in either adjuvant or metastatic setting allowed	Eligibility	62
+adjuvant	CHEBI:60809	33-41
+More than 4 weeks since prior radiotherapy (except if to a non-target lesion only, or single dose radiation for palliation)	Eligibility	63
+radiotherapy	OAE:0000235	30-42
+Prior radiotherapy to a target lesion is allowed provided there has been clear progression of the lesion since radiotherapy was completed	Eligibility	64
+radiotherapy	OAE:0000235	6-18
+radiotherapy	OAE:0000235	111-123
+target	BAO:0003064	24-30
+More than 4 weeks since prior cytotoxic chemotherapeutic agent or investigational drug	Eligibility	65
+drug	CHEBI:23888	82-86
+More than 2 weeks since prior and no concurrent acetylsalicylic acid, anticoagulants, or thrombolytic agents (except for once-daily 81 mg acetylsalicylic acid)	Eligibility	66
+acetylsalicylic acid	CHEBI:15365	48-68
+acetylsalicylic acid	CHEBI:15365	138-158
+More than 6 weeks since prior major surgery, chemotherapy, or immunologic therapy	Eligibility	67
+surgery	OAE:0000067	36-43
+More than 1 week since prior minor surgery (e.g., core biopsy)	Eligibility	68
+week	UO:0000034	12-16
+surgery	OAE:0000067	35-42
+Placement of a vascular access device within 7 days is allowed	Eligibility	69
+More than 3 months since prior neurosurgery	Eligibility	70
+No concurrent treatment in a different clinical study in which investigational procedures are performed or investigational therapies are administered	Eligibility	71
+Trials related to symptom management (Cancer Control) which do not employ hormonal treatments or treatments that may block the path of the targeted agents used in this study may be allowed	Eligibility	72
+symptom	OGMS:0000020	18-25
+cancer	DOID:162	38-44
+Outcome Measurement:	Results	0
+6-month Progression-free Survival (PFS) Rate	Results	1
+rate	BAO:0080019	40-44
+The primary endpoint of this trial is the 6-month progression-free survival rate. A patient is considered to be a 6-month progression-free survivor if the patient is 6 months from registration without a documentation of disease progression (note, the patient need not be on study treatment at 6 months to be considered a success). The proportion of successes will be estimated by the number of successes divided by the total number of evaluable patients. Confidence intervals for the true success proportion will be calculated using the properties of the binomial distribution. Progression is defined using the RECIST Criteria, as at least a 20% increase in the sum of longest diameter (LD) of target lesions taking as reference the smallest sum LD recorded since the treatment started or the appearance of one or more new lesions, appearance of one or more new lesions, or unequivocal progression of existing non-target lesions.	Results	2
+rate	BAO:0080019	76-80
+patient	HADO:0000008,OAE:0001817	84-91
+patient	HADO:0000008,OAE:0001817	155-162
+patient	HADO:0000008,OAE:0001817	251-258
+patient	HADO:0000008,OAE:0001817	445-452
+disease	DOID:4,OGMS:0000031	220-227
+increase	BAO:0001251	646-654
+diameter	PATO:0001334	677-685
+target	BAO:0003064	694-700
+target	BAO:0003064	914-920
+Time frame: at 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Paclitaxel + Gemcitabine + Bevacizumab	Results	5
+paclitaxel	CHEBI:45863	17-27
+gemcitabine	CHEBI:175901	30-41
+Arm/Group Description: Patients receive 125 mg/m^2 paclitaxel albumin-stabilized nanoparticle formulation IV over 30 minutes and 1000 mg/m^2 gemcitabine hydrochloride IV over 30 minutes on days 1 and 8, and 15 mg/kg bevacizumab IV over 30-90 minutes on day 1. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Results	6
+paclitaxel	CHEBI:45863	51-61
+nanoparticle	CHEBI:50803	81-93
+gemcitabine hydrochloride	CHEBI:31647	141-166
+day	UO:0000033	189-192
+day	UO:0000033	253-256
+day	UO:0000033	284-287
+disease	DOID:4,OGMS:0000031	307-314
+Overall Number of Participants Analyzed: 48	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: proportion of patients progression-free  0.792        (0.647 to 0.882)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 20/49 (40.82%)	Adverse Events	1
+Febrile neutropenia 1/49 (2.04%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Hemoglobin decreased 3/49 (6.12%)	Adverse Events	3
+hemoglobin	CHEBI:35143	0-10
+Constipation 1/49 (2.04%)	Adverse Events	4
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea 3/49 (6.12%)	Adverse Events	5
+diarrhea	HP:0002014,DOID:13250	0-8
+Mucositis oral 1/49 (2.04%)	Adverse Events	6
+mucositis	DOID:0080178	0-9
+Nausea 3/49 (6.12%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Oral cavity fistula 1/49 (2.04%)	Adverse Events	8
+oral cavity	UBERON:0000167	0-11
+Vomiting 2/49 (4.08%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Fatigue 3/49 (6.12%)	Adverse Events	10
+fatigue	HP:0012378	0-7
+Fever 2/49 (4.08%)	Adverse Events	11
+fever	HP:0001945	0-5
+Catheter related infection 1/49 (2.04%)	Adverse Events	12
+Infection 1/49 (2.04%)	Adverse Events	13

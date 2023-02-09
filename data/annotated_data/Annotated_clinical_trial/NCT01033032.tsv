@@ -1,0 +1,175 @@
+INTERVENTION 1:	Intervention	0
+Amrubicin	Intervention	1
+amrubicin	CHEBI:135779	0-9
+Systemic therapy with amrubicin	Intervention	2
+amrubicin	CHEBI:135779	22-31
+Inclusion Criteria:	Eligibility	0
+Females >=18 years of age.	Eligibility	1
+age	PATO:0000011	22-25
+Histologic diagnosis of HER2-negative breast cancer. HER-2 negativity must be confirmed by one of the following:	Eligibility	2
+breast cancer	DOID:1612	38-51
+FISH-negative (FISH ratio <2.2), or	Eligibility	3
+ratio	UO:0000190	20-25
+IHC 0-1+, or	Eligibility	4
+IHC 2-3+ AND FISH-negative (FISH ratio <2.2)	Eligibility	5
+ratio	UO:0000190	33-38
+Evidence of metastatic or locally advanced, inoperable breast cancer.	Eligibility	6
+breast cancer	DOID:1612	55-68
+Minimum of 1 and maximum of 2 prior metastatic breast cancer chemotherapy regimens.	Eligibility	7
+breast cancer	DOID:1612	47-60
+Patients with prior anthracycline therapy are eligible, provided their previous anthracycline was 6 months prior to study entry.	Eligibility	8
+anthracycline	CHEBI:48120	20-33
+anthracycline	CHEBI:48120	80-93
+Measurable disease per RECIST criteria version 1.1	Eligibility	9
+disease	DOID:4,OGMS:0000031	11-18
+Left ventricular ejection fraction (LVEF) ³50% by echocardiogram (ECHO) or multiple gated acquisition scan (MUGA).	Eligibility	10
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Patients must have QTc interval of <=450 msec.	Eligibility	11
+qtc interval	CMO:0000269	19-31
+No intercurrent significant medical conditions or cardiac illness.	Eligibility	12
+Patients must be >=3 weeks since last chemotherapy, and recovered from all acute toxicities, with the exception of alopecia.	Eligibility	13
+acute	HP:0011009,PATO:0000389	75-80
+alopecia	HP:0001596,DOID:987	115-123
+Eastern Cooperative Oncology Group Performance Status (ECOG PS) of 0-2.	Eligibility	14
+group	CHEBI:24433	29-34
+Adequate organ function including the following:	Eligibility	15
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+ANC >=1500 cells/mL	Eligibility	16
+Platelet count >=100,000 cells/mL	Eligibility	17
+platelet count	CMO:0000029	0-14
+Hemoglobin >=9 g/dL	Eligibility	18
+hemoglobin	CHEBI:35143	0-10
+Total bilirubin <=1.5 x ULN; AST/ALT <=2.5 x ULN, (except if due to hepatic metastases, then <=5 x ULN)	Eligibility	19
+x	LABO:0000148	22-23
+x	LABO:0000148	43-44
+x	LABO:0000148	52-53
+x	LABO:0000148	97-98
+Serum creatinine <1.5 x ULN	Eligibility	20
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	22-23
+Women of childbearing potential must have a negative serum or urine pregnancy test performed <=7 days prior to start of treatment. If a woman becomes pregnant or suspects she is pregnant while participating in this study, she must agree to inform her treating physician immediately.	Eligibility	21
+urine	UBERON:0001088	62-67
+Patients must be accessible for treatment and follow-up.	Eligibility	22
+Patients must be able to understand the investigational nature of this study and give written informed consent prior to study entry.	Eligibility	23
+Patients who are on anticoagulation are acceptable if the therapeutic anticoagulation is stable. Additionally, the patient's INR must be adequate if the patient is receiving treatment with coumadin.	Eligibility	24
+stable	HP:0031915	89-95
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	115-122
+patient	HADO:0000008,OAE:0001817	153-160
+Prior hormonal therapy for metastatic breast cancer is permitted; however, the therapy must be discontinued prior to the patient's enrollment in this study.	Eligibility	25
+breast cancer	DOID:1612	38-51
+patient	HADO:0000008,OAE:0001817	121-128
+Exclusion Criteria:	Eligibility	26
+Any concurrent therapy with other investigational, chemotherapeutic, or hormonal therapy.	Eligibility	27
+Prior treatment with >=3 regimens of cytotoxic therapy in the advanced disease setting. (Any number of previous hormonal therapies are acceptable, as long as the therapy is discontinued prior to the patient's enrollment into this study).	Eligibility	28
+disease	DOID:4,OGMS:0000031	71-78
+patient	HADO:0000008,OAE:0001817	199-206
+Major surgery or systemic therapy <=3 weeks of study treatment.	Eligibility	29
+surgery	OAE:0000067	6-13
+Prior high-dose chemotherapy requiring hematopoietic stem cell support.	Eligibility	30
+Prior radiation therapy to >25% of the bone marrow.	Eligibility	31
+bone marrow	UBERON:0002371	39-50
+Uncontrolled brain metastases. Patients with treated brain metastases (resection or radiotherapy) are eligible if brain metastases have responded to treatment as documented by CT or MRI scan obtained at >=2 weeks after completion of radiation therapy, neurologic symptoms are absent, and steroids have been discontinued.	Eligibility	32
+brain	UBERON:0000955	13-18
+brain	UBERON:0000955	53-58
+brain	UBERON:0000955	114-119
+radiotherapy	OAE:0000235	84-96
+ct	BAO:0002125	75-77
+ct	BAO:0002125	176-178
+absent	PATO:0000462	276-282
+Suspected, diffuse idiopathic interstitial lung disease or pulmonary fibrosis.	Eligibility	33
+diffuse	HP:0020034	11-18
+interstitial lung disease	DOID:3082	30-55
+pulmonary fibrosis	HP:0002206,DOID:3770	59-77
+Diagnosis of second malignancy within the last 3 years (with the exception of carcinoma in situ of the cervix, squamous or basal cell skin cancer, thyroid cancer, ductal carcinoma in situ [DCIS], or lobular carcinoma in situ [LCIS]).	Eligibility	34
+second	UO:0000010	13-19
+carcinoma	HP:0030731,DOID:305	78-87
+carcinoma	HP:0030731,DOID:305	170-179
+carcinoma	HP:0030731,DOID:305	207-216
+skin cancer	DOID:4159	134-145
+cancer	DOID:162	139-145
+cancer	DOID:162	155-161
+ductal carcinoma in situ	HP:0030075,DOID:0060074	163-187
+lobular carcinoma in situ	HP:0030076,DOID:3010	199-224
+Any of the following <=12 months prior to starting study treatment:	Eligibility	35
+myocardial infarction;	Eligibility	36
+myocardial infarction	HP:0001658,DOID:5844	0-21
+severe unstable angina;	Eligibility	37
+severe	HP:0012828	0-6
+congestive heart failure;	Eligibility	38
+congestive heart failure	HP:0001635,DOID:6000	0-24
+ongoing cardiac dysrhythmia.	Eligibility	39
+Family history of idiopathic cardiomyopathy or uncontrolled heart arrhythmia.	Eligibility	40
+family history	HP:0032316	0-14
+cardiomyopathy	HP:0001638,DOID:0050700	29-43
+heart	UBERON:0000948	60-65
+arrhythmia	HP:0011675	66-76
+Patients with previous allergy or hypersensitivity to anthracyclines.	Eligibility	41
+allergy	HP:0012393	23-30
+hypersensitivity	GO:0002524,DOID:1205	34-50
+Patients who have had a 10% drop in LVEF on previous anthracycline therapy.	Eligibility	42
+anthracycline	CHEBI:48120	53-66
+Palliative radiotherapy to areas of metastatic breast cancer must have been completed >7 days prior to the first dose of study treatment. The exception is radiotherapy for brain metastases, which must be completed >=21 days prior to study treatment. (Note: Any measurable lesion that has been previously irradiated will not be considered as a target lesion).	Eligibility	43
+radiotherapy	OAE:0000235	11-23
+radiotherapy	OAE:0000235	155-167
+breast cancer	DOID:1612	47-60
+brain	UBERON:0000955	172-177
+target	BAO:0003064	343-349
+Concurrent severe, intercurrent illness including, but not limited to, ongoing or active infection, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	44
+severe	HP:0012828	11-17
+active	PATO:0002354	82-88
+History of seropositive HIV, or patients who are receiving immunosuppressive medications that increase the risk of neutropenic complications.	Eligibility	45
+history	BFO:0000182	0-7
+increase	BAO:0001251	94-102
+Mental condition that would prevent patient comprehension of the nature of, and risk associated with, the study.	Eligibility	46
+condition	PDRO:0000129	7-16
+patient	HADO:0000008,OAE:0001817	36-43
+Use of any non-approved or investigational agent <=30 days of administration of the first dose of study drug. Patients may not receive any other investigational or anti-cancer treatments while participating in this study.	Eligibility	47
+drug	CHEBI:23888	104-108
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS) of MTD/Phase II Patients	Results	1
+Progression-free survival is measured from Day 1 of study drug administration to disease progression as defined by Response Evaluation Criteria in Solid Tumors (RECIST) v1.1, or death on the study. Progression is defined in RECIST v1.1 as a 20% increase in the sum of the longest diameter of target lesions, a measurable increase in a non-target lesion, or the appearance of new lesions. This outcome measure is reported for all patients treated at the same dose level and is not separated into Phase I and Phase II. The phase I and phase II results are not separated as the timing of enrollment (early in phase 1 or later phase II) is not relevant to the outcome measure.	Results	2
+day	UO:0000033	43-46
+drug administration	OAE:0000011	58-77
+disease	DOID:4,OGMS:0000031	81-88
+death	OAE:0000632	178-183
+increase	BAO:0001251	245-253
+increase	BAO:0001251	321-329
+diameter	PATO:0001334	280-288
+target	BAO:0003064	292-298
+target	BAO:0003064	339-345
+Time frame: every 6 weeks until progressive disease	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	32-43
+disease	DOID:4,OGMS:0000031	44-51
+Results 1:	Results	4
+Arm/Group Title: Amrubicin	Results	5
+amrubicin	CHEBI:135779	17-26
+Arm/Group Description: Systemic therapy with amrubicin	Results	6
+amrubicin	CHEBI:135779	45-54
+Overall Number of Participants Analyzed: 66	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  4.0        (2.5 to 5.8)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 1/3 (33.33%)	Adverse Events	1
+FEBRILE NEUTROPENIA 0/3 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+LYMPH NODE PAIN 0/3 (0.00%)	Adverse Events	3
+lymph	UBERON:0002391	0-5
+pain	HP:0012531	11-15
+NEUTROPHIL COUNT DECREASED 0/3 (0.00%)	Adverse Events	4
+THROMBOCYTOPENIA 0/3 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+CHEST PAIN 0/3 (0.00%)	Adverse Events	6
+chest pain	HP:0100749	0-10
+DEHYDRATION 0/3 (0.00%)	Adverse Events	7
+dehydration	HP:0001944	0-11
+PLEURAL EFFUSION 1/3 (33.33%)	Adverse Events	8
+pleural effusion	HP:0002202	0-16
+PNEUMONITIS 0/3 (0.00%)	Adverse Events	9
+PULMONARY INFILTERATES 0/3 (0.00%)	Adverse Events	10
+ALOPECIA 0/3 (0.00%)	Adverse Events	11
+alopecia	HP:0001596,DOID:987	0-8

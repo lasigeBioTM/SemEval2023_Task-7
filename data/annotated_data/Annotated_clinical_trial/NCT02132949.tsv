@@ -1,0 +1,215 @@
+INTERVENTION 1:	Intervention	0
+Cohort A: ddAC, Paclitaxel, Pertuzumab, Trastuzumab	Intervention	1
+paclitaxel	CHEBI:45863	16-26
+Participants received neoadjuvant treatment with dose-dense doxorubicin and cyclophosphamide (ddAC), with administration of doxorubicin 60 milligrams per square meter (mg/m^2) intravenously (IV) once every 2 weeks (q2w) and cyclophosphamide 600mg/m^2 IV q2w for 4 cycles, followed by paclitaxel 80mg/m^2 IV once weekly (qw) for 12 weeks. Pertuzumab (840 milligrams [mg] IV loading dose then 420mg IV q3w) and trastuzumab (8 milligrams per kilogram [mg/kg] IV loading dose then 4mg/kg IV q3w) were administered along with paclitaxel for 4 cycles (8 cycles of chemotherapy in total prior to surgery). Following surgery, participants received adjuvant treatment with pertuzumab and trastuzumab IV q3w (up to 13 cycles), for a total of 17 cycles of pertuzumab and trastuzumab therapy during the study. Radiotherapy and adjuvant hormonal therapy were also given as clinically indicated. Following treatment completion/discontinuation, participants were followed for safety and efficacy for up to 5 years.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	60-71
+doxorubicin	CHEBI:28748,BAO:0000639	124-135
+cyclophosphamide	CHEBI:4026	76-92
+cyclophosphamide	CHEBI:4026	224-240
+meter	UO:0000008	161-166
+paclitaxel	CHEBI:45863	284-294
+paclitaxel	CHEBI:45863	521-531
+surgery	OAE:0000067	589-596
+surgery	OAE:0000067	609-616
+adjuvant	CHEBI:60809	25-33
+adjuvant	CHEBI:60809	640-648
+adjuvant	CHEBI:60809	815-823
+radiotherapy	OAE:0000235	798-810
+efficacy	BAO:0000656	972-980
+INTERVENTION 2:	Intervention	3
+Cohort B: FEC, Docetaxel, Pertuzumab, Trastuzumab	Intervention	4
+Participants received neoadjuvant treatment with 5-fluorouracil, epirubicin, and cyclophosphamide (FEC), with administration of 5-fluorouracil 500mg/m^2 intravenously (IV) q3w, epirubicin 100mg/m^2 IV q3w, and cyclophosphamide 600mg/m^2 IV q3w for 4 cycles, followed by docetaxel (with starting dose of 75mg/m^2 in Cycle 5, then 100mg/m^2 for Cycles 6-8) q3w for 4 cycles. Pertuzumab (840 mg IV loading dose then 420mg IV q3w) and trastuzumab (8 mg/kg IV loading dose then 4mg/kg IV q3w) were given along with doectaxel for 4 cycles (8 cycles of chemotherapy in total prior to surgery). Following surgery, participants received adjuvant treatment with pertuzumab and trastuzumab IV q3w (up to 13 cycles), for a total of 17 cycles of pertuzumab and trastuzumab therapy during the study. Radiotherapy and adjuvant hormonal therapy were also given as clinically indicated. Following treatment completion/discontinuation, participants were followed for safety and efficacy for up to 5 years.	Intervention	5
+5-fluorouracil	CHEBI:46345	49-63
+5-fluorouracil	CHEBI:46345	128-142
+cyclophosphamide	CHEBI:4026	81-97
+cyclophosphamide	CHEBI:4026	210-226
+surgery	OAE:0000067	577-584
+surgery	OAE:0000067	597-604
+adjuvant	CHEBI:60809	25-33
+adjuvant	CHEBI:60809	628-636
+adjuvant	CHEBI:60809	803-811
+radiotherapy	OAE:0000235	786-798
+efficacy	BAO:0000656	960-968
+Inclusion Criteria:	Eligibility	0
+Male and female participants with locally advanced, inflammatory, or early-stage, unilateral, and histologically confirmed invasive breast cancer. Participants with inflammatory breast cancer must be able to have a core needle biopsy	Eligibility	1
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	11-15
+female	PATO:0000383	9-15
+unilateral	HP:0012833	82-92
+breast cancer	DOID:1612	132-145
+breast cancer	DOID:1612	178-191
+Primary tumor greater than (>) 2 centimeters (cm) in diameter, or > 5 millimeters (mm) in diameter and node-positive	Eligibility	2
+diameter	PATO:0001334	53-61
+diameter	PATO:0001334	90-98
+HER2-positive breast cancer confirmed by a central laboratory	Eligibility	3
+breast cancer	DOID:1612	14-27
+central	HP:0030645	43-50
+Availability of tumor tissue specimen	Eligibility	4
+tissue	UBERON:0000479	22-28
+Baseline LVEF greater than or equal to (>/=) 55%	Eligibility	5
+Eastern Cooperative Oncology Group (ECOG) performance status less than or equal to (</=) 1	Eligibility	6
+group	CHEBI:24433	29-34
+At least 4 weeks since major unrelated surgery, with full recovery	Eligibility	7
+surgery	OAE:0000067	39-46
+Women of childbearing potential and male participants with partners of childbearing potential must agree to use a "highly effective" non-hormonal form of contraception or two "effective" forms of non-hormonal contraception by the patient and/or partner. Contraception must continue for the duration of study treatment and for at least 7 months after the last dose of study treatment	Eligibility	8
+male	CHEBI:30780,PATO:0000384	36-40
+patient	HADO:0000008,OAE:0001817	230-237
+duration	PATO:0001309	290-298
+Exclusion Criteria:	Eligibility	9
+Metastatic disease (Stage IV) or bilateral breast cancer	Eligibility	10
+disease	DOID:4,OGMS:0000031	11-18
+bilateral breast cancer	DOID:6741	33-56
+Participants who have had an incisional biopsy of the primary tumor or the primary tumor excised	Eligibility	11
+Prior breast or non-breast malignancy within 5 years prior to study entry, except for carcinoma in situ and basal cell and squamous cell carcinoma of the skin. Participants with malignancies occurring more than 5 years prior to study entry are permitted if curatively treated	Eligibility	12
+breast	UBERON:0000310	6-12
+breast	UBERON:0000310	20-26
+carcinoma	HP:0030731,DOID:305	86-95
+carcinoma	HP:0030731,DOID:305	137-146
+squamous cell carcinoma of the skin	HP:0006739	123-158
+Any previous systemic therapy (including chemotherapy, immunotherapy, HER2 targeted agents, and antitumor vaccines) for cancer, or radiation therapy for cancer	Eligibility	13
+cancer	DOID:162	120-126
+cancer	DOID:162	153-159
+Participants with a past history of ductal carcinoma in situ (DCIS) or lobular carcinoma in situ (LCIS) are not allowed to enter the study if they have received any systemic therapy for its treatment or radiation therapy to the ipsilateral breast (they are allowed to enter the study if treated with surgery alone)	Eligibility	14
+history	BFO:0000182	25-32
+ductal carcinoma in situ	HP:0030075,DOID:0060074	36-60
+lobular carcinoma in situ	HP:0030076,DOID:3010	71-96
+breast	UBERON:0000310	240-246
+surgery	OAE:0000067	300-307
+High-risk participants who have received chemopreventive drugs in the past are not allowed to enter the study	Eligibility	15
+Inadequate bone marrow, renal, or liver function	Eligibility	16
+bone marrow	UBERON:0002371	11-22
+liver	UBERON:0002107	34-39
+function	BAO:0003117,BFO:0000034	40-48
+History or evidence of cardiovascular condition	Eligibility	17
+history	BFO:0000182	0-7
+condition	PDRO:0000129	38-47
+Dyspnea at rest or other diseases that require continuous oxygen therapy	Eligibility	18
+dyspnea	HP:0002094	0-7
+Severe, uncontrolled systemic disease	Eligibility	19
+severe	HP:0012828	0-6
+disease	DOID:4,OGMS:0000031	30-37
+Participants with poorly controlled diabetes or with evidence of clinically significant diabetic vascular complications	Eligibility	20
+Pregnancy or breast-feeding women	Eligibility	21
+Participants who received any investigational treatment within 4 weeks of study start	Eligibility	22
+Participants with known infection with human immunodeficiency virus (HIV), hepatitis B virus, or hepatitis C virus	Eligibility	23
+immunodeficiency	HP:0002721	45-61
+virus	BAO:0000232	62-67
+virus	BAO:0000232	87-92
+virus	BAO:0000232	109-114
+hepatitis b	DOID:2043	75-86
+hepatitis c	DOID:1883	97-108
+Current chronic daily treatment with corticosteroids (dose >10 mg methylprednisolone or equivalent [excluding inhaled steroids])	Eligibility	24
+chronic	HP:0011010	8-15
+Known hypersensitivity to any of the study drugs or excipients	Eligibility	25
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Outcome Measurement:	Results	0
+Percentage of Participants With at Least One Event of New York Heart Association (NYHA) Class III or IV Heart Failure During the Neoadjuvant Treatment Period	Results	1
+heart	UBERON:0000948	63-68
+heart	UBERON:0000948	104-109
+Symptomatic left ventricular systolic dysfunction (otherwise referred to as heart failure) is a serious adverse event. The NYHA Functional Classification System for Heart Failure considers the patient's symptoms: Class III: Marked limitation of physical activity; Comfortable at rest, but less than ordinary activity causes fatigue, palpitation, or dyspnea. Class IV: Unable to carry on any physical activity without discomfort; Symptoms of heart failure at rest; If any physical activity is undertaken, discomfort increases. The 95% CIs were calculated with the Clopper-Pearson method. Results included events with onset from first dose of pertuzumab/trastuzumab prior to surgery through the day before the first dose of any study drug after surgery. If participant withdrew without entering adjuvant period, results included all events with onset from first dose of pertuzumab/trastuzumab through 42 days after last dose of any study drug or on the day of target surgery whichever was later.	Results	2
+left ventricular systolic dysfunction	HP:0025169	12-49
+heart	UBERON:0000948	76-81
+heart	UBERON:0000948	165-170
+heart	UBERON:0000948	441-446
+serious adverse event	OAE:0000631	96-117
+functional	BAO:0000010	128-138
+patient	HADO:0000008,OAE:0001817	193-200
+fatigue	HP:0012378	324-331
+dyspnea	HP:0002094	349-356
+onset	HP:0003674	616-621
+onset	HP:0003674	843-848
+surgery	OAE:0000067	673-680
+surgery	OAE:0000067	743-750
+surgery	OAE:0000067	965-972
+day	UO:0000033	693-696
+day	UO:0000033	902-905
+day	UO:0000033	951-954
+drug	CHEBI:23888	732-736
+drug	CHEBI:23888	936-940
+adjuvant	CHEBI:60809	793-801
+target	BAO:0003064	958-964
+Time frame: From day of first dose of pertuzumab or trastuzumab until the end of the neoadjuvant treatment period (as defined in the description; up to 25 weeks)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	17-20
+Results 1:	Results	4
+Arm/Group Title: Cohort A: ddAC, Paclitaxel, Pertuzumab, Trastuzumab	Results	5
+paclitaxel	CHEBI:45863	33-43
+Arm/Group Description: Participants received neoadjuvant treatment with dose-dense doxorubicin and cyclophosphamide (ddAC), with administration of doxorubicin 60 milligrams per square meter (mg/m^2) intravenously (IV) once every 2 weeks (q2w) and cyclophosphamide 600mg/m^2 IV q2w for 4 cycles, followed by paclitaxel 80mg/m^2 IV once weekly (qw) for 12 weeks. Pertuzumab (840 milligrams [mg] IV loading dose then 420mg IV q3w) and trastuzumab (8 milligrams per kilogram [mg/kg] IV loading dose then 4mg/kg IV q3w) were administered along with paclitaxel for 4 cycles (8 cycles of chemotherapy in total prior to surgery). Following surgery, participants received adjuvant treatment with pertuzumab and trastuzumab IV q3w (up to 13 cycles), for a total of 17 cycles of pertuzumab and trastuzumab therapy during the study. Radiotherapy and adjuvant hormonal therapy were also given as clinically indicated. Following treatment completion/discontinuation, participants were followed for safety and efficacy for up to 5 years.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	83-94
+doxorubicin	CHEBI:28748,BAO:0000639	147-158
+cyclophosphamide	CHEBI:4026	99-115
+cyclophosphamide	CHEBI:4026	247-263
+meter	UO:0000008	184-189
+paclitaxel	CHEBI:45863	307-317
+paclitaxel	CHEBI:45863	544-554
+surgery	OAE:0000067	612-619
+surgery	OAE:0000067	632-639
+adjuvant	CHEBI:60809	48-56
+adjuvant	CHEBI:60809	663-671
+adjuvant	CHEBI:60809	838-846
+radiotherapy	OAE:0000235	821-833
+efficacy	BAO:0000656	995-1003
+Overall Number of Participants Analyzed: 199	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  1.5        (0.31 to 4.34)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort B: FEC, Docetaxel, Pertuzumab, Trastuzumab	Results	11
+Arm/Group Description: Participants received neoadjuvant treatment with 5-fluorouracil, epirubicin, and cyclophosphamide (FEC), with administration of 5-fluorouracil 500mg/m^2 intravenously (IV) q3w, epirubicin 100mg/m^2 IV q3w, and cyclophosphamide 600mg/m^2 IV q3w for 4 cycles, followed by docetaxel (with starting dose of 75mg/m^2 in Cycle 5, then 100mg/m^2 for Cycles 6-8) q3w for 4 cycles. Pertuzumab (840 mg IV loading dose then 420mg IV q3w) and trastuzumab (8 mg/kg IV loading dose then 4mg/kg IV q3w) were given along with doectaxel for 4 cycles (8 cycles of chemotherapy in total prior to surgery). Following surgery, participants received adjuvant treatment with pertuzumab and trastuzumab IV q3w (up to 13 cycles), for a total of 17 cycles of pertuzumab and trastuzumab therapy during the study. Radiotherapy and adjuvant hormonal therapy were also given as clinically indicated. Following treatment completion/discontinuation, participants were followed for safety and efficacy for up to 5 years.	Results	12
+5-fluorouracil	CHEBI:46345	72-86
+5-fluorouracil	CHEBI:46345	151-165
+cyclophosphamide	CHEBI:4026	104-120
+cyclophosphamide	CHEBI:4026	233-249
+surgery	OAE:0000067	600-607
+surgery	OAE:0000067	620-627
+adjuvant	CHEBI:60809	48-56
+adjuvant	CHEBI:60809	651-659
+adjuvant	CHEBI:60809	826-834
+radiotherapy	OAE:0000235	809-821
+efficacy	BAO:0000656	983-991
+Overall Number of Participants Analyzed: 198	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  0        (0.00 to 1.85)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 56/199 (28.14%)	Adverse Events	1
+AGRANULOCYTOSIS 1/199 (0.50%)	Adverse Events	2
+agranulocytosis	HP:0012234,DOID:12987	0-15
+ANAEMIA 1/199 (0.50%)	Adverse Events	3
+BONE MARROW FAILURE 1/199 (0.50%)	Adverse Events	4
+bone marrow	UBERON:0002371	0-11
+FEBRILE NEUTROPENIA 11/199 (5.53%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	8-19
+LEUKOPENIA 1/199 (0.50%)	Adverse Events	6
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 1/199 (0.50%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 1/199 (0.50%)	Adverse Events	8
+pancytopenia	HP:0001876,DOID:12450	0-12
+ACUTE MYOCARDIAL INFARCTION 1/199 (0.50%)	Adverse Events	9
+acute myocardial infarction	DOID:9408	0-27
+ATRIAL FLUTTER 1/199 (0.50%)	Adverse Events	10
+atrial flutter	HP:0004749	0-14
+ATRIAL THROMBOSIS 0/199 (0.00%)	Adverse Events	11
+thrombosis	DOID:0060903	7-17
+CARDIAC FAILURE 3/199 (1.51%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 66/198 (33.33%)	Adverse Events	14
+AGRANULOCYTOSIS 0/198 (0.00%)	Adverse Events	15
+agranulocytosis	HP:0012234,DOID:12987	0-15
+ANAEMIA 0/198 (0.00%)	Adverse Events	16
+BONE MARROW FAILURE 0/198 (0.00%)	Adverse Events	17
+bone marrow	UBERON:0002371	0-11
+FEBRILE NEUTROPENIA 27/198 (13.64%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	8-19
+LEUKOPENIA 0/198 (0.00%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 2/198 (1.01%)	Adverse Events	20
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 1/198 (0.51%)	Adverse Events	21
+pancytopenia	HP:0001876,DOID:12450	0-12
+ACUTE MYOCARDIAL INFARCTION 0/198 (0.00%)	Adverse Events	22
+acute myocardial infarction	DOID:9408	0-27
+ATRIAL FLUTTER 0/198 (0.00%)	Adverse Events	23
+atrial flutter	HP:0004749	0-14
+ATRIAL THROMBOSIS 1/198 (0.51%)	Adverse Events	24
+thrombosis	DOID:0060903	7-17
+CARDIAC FAILURE 4/198 (2.02%)	Adverse Events	25

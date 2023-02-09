@@ -1,0 +1,158 @@
+INTERVENTION 1:	Intervention	0
+Ribociclib + Letrozole Cohort A	Intervention	1
+letrozole	CHEBI:6413	13-22
+postmenopausal women, or men; naïve.	Intervention	2
+All patients received ribociclib 600mg p.o. daily + Letrozole 2.5 mg p.o. daily.	Intervention	3
+letrozole	CHEBI:6413	52-61
+INTERVENTION 2:	Intervention	4
+Ribociclib + Letrozole Cohort B1	Intervention	5
+letrozole	CHEBI:6413	13-22
+premenopausal women or perimenopausal women; naïve All patients received ribociclib 600mg p.o. daily + Letrozole 2.5 mg p.o. daily. Premenopausal patients additionally received goserelin 3.6 mg i.m. monthly	Intervention	6
+letrozole	CHEBI:6413	103-112
+goserelin	CHEBI:5523	177-186
+Inclusion Criteria:	Eligibility	0
+Patient is an adult,  18 years old at the time of informed consent and has signed informed consent before any trial related activities and according to local guidelines	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+adult	EFO:0001272	14-19
+time	PATO:0000165	42-46
+Women and men with advanced (locoregionally recurrent or metastatic) breast cancer not amenable to curative therapy.	Eligibility	2
+recurrent	HP:0031796	44-53
+breast cancer	DOID:1612	69-82
+Patient has a histologically and/or cytologically confirmed diagnosis of estrogen-receptor positive and/or progesterone receptor positive and HER2-negative breast cancer by local laboratory. Local pathology is sufficient for assessment.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+progesterone	CHEBI:17026	107-119
+receptor	BAO:0000281	82-90
+receptor	BAO:0000281	120-128
+breast cancer	DOID:1612	156-169
+Patient must have either:	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+Measurable disease, i.e., at least one measurable lesion as per RECIST 1.1 criteria ).	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+Bone lesions: lytic or mixed (lytic + sclerotic) in the absence of measurable disease	Eligibility	6
+mixed	BAO:0002107	23-28
+disease	DOID:4,OGMS:0000031	78-85
+Non-measurable disease	Eligibility	7
+disease	DOID:4,OGMS:0000031	15-22
+Patient has an Eastern Cooperative Oncology Group (ECOG) performance status 2	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+group	CHEBI:24433	44-49
+Exclusion Criteria	Eligibility	9
+Patient who received any CDK4/6 inhibitor or any mTOR inhibitor.	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+inhibitor	CHEBI:35222	32-41
+inhibitor	CHEBI:35222	54-63
+mtor inhibitor	CHEBI:68481	49-63
+Patient has a known hypersensitivity to any of the excipients of ribociclib or letrozole	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+hypersensitivity	GO:0002524,DOID:1205	20-36
+letrozole	CHEBI:6413	79-88
+Patients with current inflammatory breast cancer.	Eligibility	12
+breast cancer	DOID:1612	35-48
+Patient has received > 1 chemotherapy for the treatment of advanced/metastatic breast cancer	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	79-92
+Patient has received > 2 endocrine therapies for the treatment of advanced/metastatic breast cancer	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	86-99
+Patient has central nervous system (CNS) involvement. If patient is fulfilling the following 3 criteria she/he is eligible for the trial.	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	57-64
+central nervous system	UBERON:0001017	12-34
+completed prior therapy (including radiation and/or surgery) for CNS metastases  28 days prior to the start of study and	Eligibility	16
+surgery	OAE:0000067	52-59
+CNS tumor is clinically stable at the time of screening and	Eligibility	17
+stable	HP:0031915	24-30
+time	PATO:0000165	38-42
+Patient is not receiving steroids and enzyme inducing anti-epileptic medications for brain metastases	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+enzyme	BAO:0000279	38-44
+brain	UBERON:0000955	85-90
+Patient has active cardiac disease or a history of cardiac dysfunction	Eligibility	19
+patient	HADO:0000008,OAE:0001817	0-7
+active	PATO:0002354	12-18
+disease	DOID:4,OGMS:0000031	27-34
+history	BFO:0000182	40-47
+Outcome Measurement:	Results	0
+Clinical Benefit Rate (CBR) in Women and Men With Hormone Receptor Positiv, HER-2 Negative Breast Cancer Treated With Ribocilib and Letrozole	Results	1
+rate	BAO:0080019	17-21
+hormone	CHEBI:24621	50-57
+receptor	BAO:0000281	58-66
+breast cancer	DOID:1612	91-104
+letrozole	CHEBI:6413	132-141
+Clinical Benefit Rate (CBR) after 24 weeks of treatment as defined by RECIST 1.1 as percentage of patients with Complete Response (CR), Partial response (PR) or Stable disease (SD) lasting 24 weeks or longer as well as patients with Non-complete response, nonprogressive disease (NCRNPD).	Results	2
+rate	BAO:0080019	17-21
+stable	HP:0031915	161-167
+disease	DOID:4,OGMS:0000031	168-175
+disease	DOID:4,OGMS:0000031	271-278
+nonprogressive	HP:0003680	256-270
+Time frame: At 24 weeks after last patient enrolled in trial	Results	3
+time	PATO:0000165	0-4
+patient	HADO:0000008,OAE:0001817	35-42
+Results 1:	Results	4
+Arm/Group Title: Ribociclib + Letrozole Cohort A	Results	5
+letrozole	CHEBI:6413	30-39
+Arm/Group Description: postmenopausal women, or men; naïve.	Results	6
+All patients received ribociclib 600mg p.o. daily + Letrozole 2.5 mg p.o. daily.	Results	7
+letrozole	CHEBI:6413	52-61
+Overall Number of Participants Analyzed: 307	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: Percentage of Participants  CBR by week 24 (= BOR of CR or PR or SD or NCRNPD(Confirmed Best Overall Response (BOR)): 63.2        (57.5 to 68.6)	Results	10
+week	UO:0000034	52-56
+CBR by week 24 (= BOR of CR or PR or SD or NCRNPD (non-confirmed BOR): 71.7        (66.3 to 76.6)	Results	11
+week	UO:0000034	7-11
+Results 2:	Results	12
+Arm/Group Title: Ribociclib + Letrozole Cohort B1	Results	13
+letrozole	CHEBI:6413	30-39
+Arm/Group Description: premenopausal women or perimenopausal women; naïve All patients received ribociclib 600mg p.o. daily + Letrozole 2.5 mg p.o. daily. Premenopausal patients additionally received goserelin 3.6 mg i.m. monthly	Results	14
+letrozole	CHEBI:6413	126-135
+goserelin	CHEBI:5523	200-209
+Overall Number of Participants Analyzed: 26	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: Percentage of Participants  CBR by week 24 (= BOR of CR or PR or SD or NCRNPD(Confirmed Best Overall Response (BOR)): 57.7        (36.9 to 76.6)	Results	17
+week	UO:0000034	52-56
+CBR by week 24 (= BOR of CR or PR or SD or NCRNPD (non-confirmed BOR): 69.2        (48.2 to 85.7)	Results	18
+week	UO:0000034	7-11
+Adverse Events 1:	Adverse Events	0
+Total: 97/319 (30.41%)	Adverse Events	1
+ANAEMIA 4/319 (1.25%)	Adverse Events	2
+DISSEMINATED INTRAVASCULAR COAGULATION 1/319 (0.31%)	Adverse Events	3
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+FEBRILE NEUTROPENIA 0/319 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+HYPERFIBRINOLYSIS 0/319 (0.00%)	Adverse Events	5
+hyperfibrinolysis	HP:0040236	0-17
+LEUKOPENIA 2/319 (0.63%)	Adverse Events	6
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 2/319 (0.63%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 1/319 (0.31%)	Adverse Events	8
+pancytopenia	HP:0001876,DOID:12450	0-12
+THROMBOCYTOPENIA 3/319 (0.94%)	Adverse Events	9
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ATRIAL FIBRILLATION 2/319 (0.63%)	Adverse Events	10
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+BRADYARRHYTHMIA 1/319 (0.31%)	Adverse Events	11
+CARDIAC ARREST 1/319 (0.31%)	Adverse Events	12
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Adverse Events 2:	Adverse Events	13
+Total: 50/183 (27.32%)	Adverse Events	14
+ANAEMIA 4/183 (2.19%)	Adverse Events	15
+DISSEMINATED INTRAVASCULAR COAGULATION 0/183 (0.00%)	Adverse Events	16
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+FEBRILE NEUTROPENIA 3/183 (1.64%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+HYPERFIBRINOLYSIS 1/183 (0.55%)	Adverse Events	18
+hyperfibrinolysis	HP:0040236	0-17
+LEUKOPENIA 0/183 (0.00%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 2/183 (1.09%)	Adverse Events	20
+neutropenia	HP:0001875,DOID:1227	0-11
+PANCYTOPENIA 0/183 (0.00%)	Adverse Events	21
+pancytopenia	HP:0001876,DOID:12450	0-12
+THROMBOCYTOPENIA 0/183 (0.00%)	Adverse Events	22
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+ATRIAL FIBRILLATION 2/183 (1.09%)	Adverse Events	23
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+BRADYARRHYTHMIA 0/183 (0.00%)	Adverse Events	24
+CARDIAC ARREST 0/183 (0.00%)	Adverse Events	25
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14

@@ -1,0 +1,131 @@
+INTERVENTION 1:	Intervention	0
+Neratinib	Intervention	1
+neratinib	CHEBI:61397	0-9
+Patients who completed prior adjuvant trastuzumab received six 40 mg neratinib tablets (240 mg) taken orally once daily with food, preferably in the morning, continuously for one year. Therapy continued until unacceptable toxicity, recurrent disease, death, or withdrawal of consent occurred.	Intervention	2
+adjuvant	CHEBI:60809	29-37
+neratinib	CHEBI:61397	69-78
+food	CHEBI:33290	125-129
+year	UO:0000036	179-183
+recurrent	HP:0031796	232-241
+disease	DOID:4,OGMS:0000031	242-249
+death	OAE:0000632	251-256
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Patients who completed prior adjuvant trastuzumab received six 40 mg placebo tablets (240 mg) taken orally once daily with food, preferably in the morning, continuously for one year. Therapy continued until unacceptable toxicity, recurrent disease, death, or withdrawal of consent occurred.	Intervention	5
+adjuvant	CHEBI:60809	29-37
+food	CHEBI:33290	123-127
+year	UO:0000036	177-181
+recurrent	HP:0031796	230-239
+disease	DOID:4,OGMS:0000031	240-247
+death	OAE:0000632	249-254
+Inclusion Criteria:	Eligibility	0
+Stage II through IIIC HER-2/erbB-2 positive breast cancer with node positive disease.	Eligibility	1
+breast cancer	DOID:1612	44-57
+disease	DOID:4,OGMS:0000031	77-84
+Been treated for early breast cancer with standard of care duration of trastuzumab.	Eligibility	2
+breast cancer	DOID:1612	23-36
+duration	PATO:0001309	59-67
+Could have been treated neoadjuvantly but have not reached pathologic complete response.	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Positive clinical and radiologic assessments for local or regional recurrence of disease at the time of study entry.	Eligibility	5
+disease	DOID:4,OGMS:0000031	81-88
+time	PATO:0000165	96-100
+History of heart disease.	Eligibility	6
+history	BFO:0000182	0-7
+heart disease	DOID:114	11-24
+Corrected QT (QTc) interval >0.45 seconds	Eligibility	7
+History of gastrointestinal disease with diarrhea as the major symptom.	Eligibility	8
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	28-35
+diarrhea	HP:0002014,DOID:13250	41-49
+symptom	OGMS:0000020	63-70
+Outcome Measurement:	Results	0
+Invasive Disease-free Survival (iDFS) in Neratinib Arm Compared to Placebo Arm at Year 2	Results	1
+neratinib	CHEBI:61397	41-50
+year	UO:0000036	82-86
+Invasive disease-free survival time is defined as the time from date of randomization until the first disease recurrence of the following events: invasive ipsilateral breast tumor recurrence, invasive contralateral breast cancer, local/regional invasive recurrence, distant recurrence and death from any cause.	Results	2
+time	PATO:0000165	31-35
+time	PATO:0000165	54-58
+disease	DOID:4,OGMS:0000031	9-16
+disease	DOID:4,OGMS:0000031	102-109
+breast	UBERON:0000310	167-173
+breast	UBERON:0000310	215-221
+breast cancer	DOID:1612	215-228
+death	OAE:0000632	289-294
+Time frame: From randomization until time of event up to 2 years	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	37-41
+Results 1:	Results	4
+Arm/Group Title: Neratinib	Results	5
+neratinib	CHEBI:61397	17-26
+Arm/Group Description: Patients who completed prior adjuvant trastuzumab received six 40 mg neratinib tablets (240 mg) taken orally once daily with food, preferably in the morning, continuously for one year. Therapy continued until unacceptable toxicity, recurrent disease, death, or withdrawal of consent occurred.	Results	6
+adjuvant	CHEBI:60809	52-60
+neratinib	CHEBI:61397	92-101
+food	CHEBI:33290	148-152
+year	UO:0000036	202-206
+recurrent	HP:0031796	255-264
+disease	DOID:4,OGMS:0000031	265-272
+death	OAE:0000632	274-279
+Overall Number of Participants Analyzed: 1420	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants with events  4.7	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo	Results	11
+Arm/Group Description: Patients who completed prior adjuvant trastuzumab received six 40 mg placebo tablets (240 mg) taken orally once daily with food, preferably in the morning, continuously for one year. Therapy continued until unacceptable toxicity, recurrent disease, death, or withdrawal of consent occurred.	Results	12
+adjuvant	CHEBI:60809	52-60
+food	CHEBI:33290	146-150
+year	UO:0000036	200-204
+recurrent	HP:0031796	253-262
+disease	DOID:4,OGMS:0000031	263-270
+death	OAE:0000632	272-277
+Overall Number of Participants Analyzed: 1420	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants with events  7.5	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 103/1408 (7.32%)	Adverse Events	1
+Anaemia 1/1408 (0.07%)	Adverse Events	2
+Angina pectoris 1/1408 (0.07%)	Adverse Events	3
+angina pectoris	HP:0001681	0-15
+Myocardial infarction 1/1408 (0.07%)	Adverse Events	4
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Atrial fibrillation 0/1408 (0.00%)	Adverse Events	5
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Sinus tachycardia 0/1408 (0.00%)	Adverse Events	6
+sinus tachycardia	HP:0011703	0-17
+Tachycardia 0/1408 (0.00%)	Adverse Events	7
+tachycardia	HP:0001649	0-11
+Vertigo 0/1408 (0.00%)	Adverse Events	8
+vertigo	HP:0002321	0-7
+Diarrhoea 22/1408 (1.56%)	Adverse Events	9
+Vomiting 12/1408 (0.85%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Nausea 4/1408 (0.28%)	Adverse Events	11
+nausea	HP:0002018	0-6
+Abdominal pain 2/1408 (0.14%)	Adverse Events	12
+abdominal pain	HP:0002027	0-14
+Pancreatitis 2/1408 (0.14%)	Adverse Events	13
+pancreatitis	HP:0001733,DOID:4989	0-12
+Adverse Events 2:	Adverse Events	14
+Total: 85/1408 (6.04%)	Adverse Events	15
+Anaemia 1/1408 (0.07%)	Adverse Events	16
+Angina pectoris 0/1408 (0.00%)	Adverse Events	17
+angina pectoris	HP:0001681	0-15
+Myocardial infarction 1/1408 (0.07%)	Adverse Events	18
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Atrial fibrillation 1/1408 (0.07%)	Adverse Events	19
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Sinus tachycardia 1/1408 (0.07%)	Adverse Events	20
+sinus tachycardia	HP:0011703	0-17
+Tachycardia 1/1408 (0.07%)	Adverse Events	21
+tachycardia	HP:0001649	0-11
+Vertigo 1/1408 (0.07%)	Adverse Events	22
+vertigo	HP:0002321	0-7
+Diarrhoea 1/1408 (0.07%)	Adverse Events	23
+Vomiting 1/1408 (0.07%)	Adverse Events	24
+vomiting	HP:0002013	0-8
+Nausea 1/1408 (0.07%)	Adverse Events	25
+nausea	HP:0002018	0-6
+Abdominal pain 0/1408 (0.00%)	Adverse Events	26
+abdominal pain	HP:0002027	0-14
+Pancreatitis 1/1408 (0.07%)	Adverse Events	27
+pancreatitis	HP:0001733,DOID:4989	0-12

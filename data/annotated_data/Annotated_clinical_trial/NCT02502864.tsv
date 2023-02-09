@@ -1,0 +1,85 @@
+INTERVENTION 1:	Intervention	0
+Standard of Care + Surveys	Intervention	1
+Standard of Care Docetaxel and Cyclophosphamide (TC) Chemotherapy + Surveys. TC Regimen with Function Assessment of Cancer Therapy (FACT) Surveys.	Intervention	2
+cyclophosphamide	CHEBI:4026	31-47
+function	BAO:0003117,BFO:0000034	93-101
+cancer	DOID:162	116-122
+Inclusion Criteria:	Eligibility	0
+Must have histologically confirmed localized or locally advanced breast cancer for which the treatment plan includes chemotherapy with 4 cycles of standard TC (docetaxel 75 mg/m^2 and cyclophosphamide 600mg/m^2)	Eligibility	1
+localized	HP:0012838,PATO:0000627	35-44
+breast cancer	DOID:1612	65-78
+cyclophosphamide	CHEBI:4026	184-200
+Age >/= 65 years (Senior adult focused study given increased risk for toxicity)	Eligibility	2
+age	PATO:0000011	0-3
+adult	EFO:0001272	25-30
+Participants must be female	Eligibility	3
+female	PATO:0000383	21-27
+Eastern Cooperative Oncology Group (ECOG) performance status <2	Eligibility	4
+group	CHEBI:24433	29-34
+Must have normal organ and marrow function	Eligibility	5
+organ	UBERON:0000062	17-22
+function	BAO:0003117,BFO:0000034	34-42
+No pre-existing neuropathy grade > 1 per the NCI Common Toxicity Criteria for Adverse Effects (CTCAE) version 4.0	Eligibility	6
+neuropathy	DOID:870	16-26
+Be postmenopausal (defined as amenorrheic for at least 12 months)	Eligibility	7
+Must be informed of the investigational nature of this study and be willing to provide written informed consent in accordance with Institutional guidelines and Good Clinical Practice (GCP) indicating that they understand the purpose of and procedures required for the study and are willing to participate prior to the beginning of any specific study procedures.	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Have uncontrolled illness (including, but not limited to, ongoing or active infection, congestive heart failure, angina pectoris, or cardiac arrhythmia) that would limit compliance with study requirements	Eligibility	10
+active	PATO:0002354	69-75
+congestive heart failure	HP:0001635,DOID:6000	87-111
+angina pectoris	HP:0001681	113-128
+arrhythmia	HP:0011675	141-151
+Have psychiatric illness that would limit compliance with study requirements	Eligibility	11
+Have history of allergic reactions attributed to compounds of similar chemical or biologic composition to taxanes (docetaxel or paclitaxel) or cyclophosphamide	Eligibility	12
+history	BFO:0000182	5-12
+paclitaxel	CHEBI:45863	128-138
+cyclophosphamide	CHEBI:4026	143-159
+Have known seropositivity for human immunodeficiency virus, hepatitis C virus, hepatitis B surface antigen, or syphilis. Does not require serologic confirmation as a study procedure.	Eligibility	13
+immunodeficiency	HP:0002721	36-52
+virus	BAO:0000232	53-58
+virus	BAO:0000232	72-77
+hepatitis c	DOID:1883	60-71
+hepatitis b	DOID:2043	79-90
+antigen	CHEBI:59132	99-106
+syphilis	DOID:4166	111-119
+Not willing to follow protocol requirements or to give informed consent	Eligibility	14
+Outcome Measurement:	Results	0
+Rate of Achieving Targeted Area Under the Curve (AUC)	Results	1
+rate	BAO:0080019	0-4
+area	PATO:0001323	27-31
+auc	BAO:0002120	49-52
+Rate of PK guided dosing of docetaxel chemotherapy improving the ability to achieve a targeted AUC ( 2.5-3.7 mg*hr/L) within 4 cycles of therapy in patients > 65 years of age with breast cancer receiving TC (docetaxel and cyclophosphamide) as compared with historical non-PK guided therapy from patients receiving a similar regimen.	Results	2
+rate	BAO:0080019	0-4
+auc	BAO:0002120	95-98
+age	PATO:0000011	171-174
+breast cancer	DOID:1612	180-193
+cyclophosphamide	CHEBI:4026	222-238
+Time frame: Cycle 4 - Up to 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Standard of Care + Surveys	Results	5
+Arm/Group Description: Standard of Care Docetaxel and Cyclophosphamide (TC) Chemotherapy + Surveys. TC Regimen with Function Assessment of Cancer Therapy (FACT) Surveys.	Results	6
+cyclophosphamide	CHEBI:4026	54-70
+function	BAO:0003117,BFO:0000034	116-124
+cancer	DOID:162	139-145
+Overall Number of Participants Analyzed: 8	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  AUC mg*hr/L: 2.5-3.7: 5  62.5%	Results	9
+auc	BAO:0002120	31-34
+AUC mg*hr/L: <2.5: 3  37.5%	Results	10
+auc	BAO:0002120	0-3
+Adverse Events 1:	Adverse Events	0
+Total: 3/9 (33.33%)	Adverse Events	1
+Fatigue * 1/9 (11.11%)	Adverse Events	2
+fatigue	HP:0012378	0-7
+Non-cardiac chest pain * 1/9 (11.11%)	Adverse Events	3
+chest pain	HP:0100749	12-22
+Sepsis * 1/9 (11.11%)	Adverse Events	4
+sepsis	HP:0100806	0-6
+Urinary tract infection * 1/9 (11.11%)	Adverse Events	5
+urinary tract infection	DOID:0080784	0-23
+Syncope * 1/9 (11.11%)	Adverse Events	6
+syncope	HP:0001279	0-7
+Anxiety * 1/9 (11.11%)	Adverse Events	7
+anxiety	HP:0000739,DOID:2030	0-7
+Thromboembolic event * 1/9 (11.11%)	Adverse Events	8

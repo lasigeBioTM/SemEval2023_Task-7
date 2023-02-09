@@ -1,0 +1,83 @@
+INTERVENTION 1:	Intervention	0
+Imaging Session 1	Intervention	1
+Fluciclatide Injection (AH111585 (18F) Injection) at 10mCi [370 megabecquerels (MBq)]	Intervention	2
+INTERVENTION 2:	Intervention	3
+Imaging Session 2	Intervention	4
+Fluciclatide Injection (AH111585 (18F) Injection)	Intervention	5
+Inclusion Criteria:	Eligibility	0
+The subject has been diagnosed with at least one solid primary or metastatic tumor greater than 2.0 cm in diameter, including but not limited to NSCLC, RCC, GBM, melanoma, sarcoma, breast and H&N cancers.	Eligibility	1
+diameter	PATO:0001334	106-114
+melanoma	HP:0002861,DOID:1909	162-170
+sarcoma	HP:0100242,DOID:1115	172-179
+breast	UBERON:0000310	181-187
+The subject has received clinical routine imaging diagnostic work-up within 8 weeks prior to the first [18F]AH111585 PET scan.	Eligibility	2
+The subject has a clinically acceptable (as judged by the investigator) physical examination at screening and is capable of self-care.	Eligibility	3
+physical examination	OAE:0004232	72-92
+Exclusion Criteria:	Eligibility	4
+The subject has known hyper- or hypo-coagulation syndromes.	Eligibility	5
+The subject has received chemotherapy within 3 weeks, or received radiotherapy, surgery or any other treatment against cancer within 4 weeks prior to the first [18F]AH111585 PET scan.	Eligibility	6
+radiotherapy	OAE:0000235	66-78
+surgery	OAE:0000067	80-87
+cancer	DOID:162	119-125
+The subject is scheduled to undergo chemotherapy, radiotherapy, surgery or any other treatment against cancer between the first and second [18F]AH111585 PET scans.	Eligibility	7
+radiotherapy	OAE:0000235	50-62
+surgery	OAE:0000067	64-71
+cancer	DOID:162	103-109
+second	UO:0000010	132-138
+The subject is scheduled to undergo biopsy for the target tumour between the first and second [18F]AH111585 PET scans.	Eligibility	8
+target	BAO:0003064	51-57
+second	UO:0000010	87-93
+The subject has intra-hepatic tumour(s) only.	Eligibility	9
+For the immuno-histochemistry group, the subject's target tumour has been biopsied less than or equal to 1 week prior to the first [18F]AH111585 PET scan.	Eligibility	10
+group	CHEBI:24433	30-35
+target	BAO:0003064	51-57
+week	UO:0000034	107-111
+Outcome Measurement:	Results	0
+Test Image and Retest Image Reproducibility of Fluciclatide Injection ([18F]AH111585) Uptake by Solid Tumors Following Intravenous Administration of AH111585 (18F) Injection Via PET Imaging.	Results	1
+uptake	GO:0098739,BAO:0001256	86-92
+Mean relative differences of Standardized uptake value (SUV) following intravenous administration of AH111585 (F18) Injection between the two PET imaging sessions.	Results	2
+mean	BAO:0002173	0-4
+uptake	GO:0098739,BAO:0001256	42-48
+Time frame: Forty minutes, 65 minutes and 90 minutes post Fluciclatide administration.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Imaging Session 1	Results	5
+Arm/Group Description: Fluciclatide Injection (AH111585 (18F) Injection) at 10mCi [370 megabecquerels (MBq)]	Results	6
+Overall Number of Participants Analyzed: 39	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Standardized Uptake Value  40 Minute Post Injection: 4.536         (2.2113)	Results	9
+uptake	GO:0098739,BAO:0001256	30-36
+minute	UO:0000031	47-53
+65 Minute Post Injection: 4.584         (2.3266)	Results	10
+minute	UO:0000031	3-9
+90 Minute Post Injection: 4.404         (2.2761)	Results	11
+minute	UO:0000031	3-9
+Results 2:	Results	12
+Arm/Group Title: Imaging Session 2	Results	13
+Arm/Group Description: Fluciclatide Injection (AH111585 (18F) Injection)	Results	14
+Overall Number of Participants Analyzed: 39	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Standardized Uptake Value  40 Minute Post Injection: 4.671         (2.4485)	Results	17
+uptake	GO:0098739,BAO:0001256	30-36
+minute	UO:0000031	47-53
+65 Minute Post Injection: 4.675         (2.4489)	Results	18
+minute	UO:0000031	3-9
+90 Minute Post Injection: 4.691         (2.6445)	Results	19
+minute	UO:0000031	3-9
+Adverse Events 1:	Adverse Events	0
+Total: 7/49 (14.29%)	Adverse Events	1
+Lower respiratory Tract Infection * 1/49 (2.04%)	Adverse Events	2
+lower respiratory tract	UBERON:0001558	0-23
+respiratory tract infection	HP:0011947	6-33
+Back Pain * 1/49 (2.04%)	Adverse Events	3
+back pain	HP:0003418	0-9
+Carcinoma / Metastases * 3/49 (6.12%)	Adverse Events	4
+carcinoma	HP:0030731,DOID:305	0-9
+Spinal Cord Compression * 1/49 (2.04%)	Adverse Events	5
+spinal cord compression	HP:0002176	0-23
+Lymphadenectomy * 1/49 (2.04%)	Adverse Events	6
+Adverse Events 2:	Adverse Events	7

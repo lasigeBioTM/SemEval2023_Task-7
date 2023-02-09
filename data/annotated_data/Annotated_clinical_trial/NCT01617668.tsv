@@ -1,0 +1,156 @@
+INTERVENTION 1:	Intervention	0
+LCL161 + Paclitaxel (Gene Expression Signature Positive)	Intervention	1
+paclitaxel	CHEBI:45863	9-19
+gene expression	GO:0010467	21-36
+Patients randomized to the experimental arm for gene expression signature positive received LCL161 1800 mg once weekly + paclitaxel 80 mg/m2 weekly for 12 weeks. Equal numbers of patients with gene expression signature positive and negative disease were included in each treatment arm.	Intervention	2
+gene expression	GO:0010467	48-63
+gene expression	GO:0010467	193-208
+paclitaxel	CHEBI:45863	121-131
+disease	DOID:4,OGMS:0000031	241-248
+INTERVENTION 2:	Intervention	3
+Paclitaxel Only (Gene Expression Signature Positive)	Intervention	4
+paclitaxel	CHEBI:45863	0-10
+gene expression	GO:0010467	17-32
+Patients randomized to the control arm for gene expression signature positive received paclitaxel 80 mg/m2 weekly for 12 weeks. Equal numbers of patients with gene expression signature positive and negative disease were included in each treatment arm.	Intervention	5
+gene expression	GO:0010467	43-58
+gene expression	GO:0010467	159-174
+paclitaxel	CHEBI:45863	87-97
+disease	DOID:4,OGMS:0000031	207-214
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed diagnosis of invasive triple negative breast cancer	Eligibility	1
+breast cancer	DOID:1612	63-76
+Known status for the LCL161 predictive gene expression signature as determined during molecular pre-screening	Eligibility	2
+gene expression	GO:0010467	39-54
+Candidates for mastectomy or breast-conserving surgery	Eligibility	3
+surgery	OAE:0000067	47-54
+Primary tumor of greater than 20 mm and less than or equal to 50 mm diameter measured by imaging (previous Amendment #3 was tumor size greater than 10 mm)	Eligibility	4
+diameter	PATO:0001334	68-76
+size	PATO:0000117	130-134
+Regional nodes N0-N2	Eligibility	5
+Absence of distant metastatic disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	30-37
+ECOG performance status 0-1	Eligibility	7
+Adequate bone marrow function	Eligibility	8
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Adequate liver function and serum transaminases	Eligibility	9
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Adequate renal function	Eligibility	10
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	11
+Bilateral or inflammatory breast cancer (bilateral mammography is required during Screening/baseline); locally recurrent breast cancer	Eligibility	12
+bilateral	HP:0012832	0-9
+bilateral	HP:0012832	41-50
+breast cancer	DOID:1612	26-39
+breast cancer	DOID:1612	121-134
+recurrent	HP:0031796	111-120
+Patients currently receiving systemic therapy for any other malignancy, or having received systemic therapy for a malignancy in the preceding 3 months	Eligibility	13
+Uncontrolled cardiac disease	Eligibility	14
+disease	DOID:4,OGMS:0000031	21-28
+Patients who are currently receiving chronic treatment (>3 months) with corticosteroids at a dose  10 mg of prednisone (or its glucocorticoid equivalent) per day (inhaled and topical steroids are allowed), or any other chronic immunosuppressive treatment that cannot be discontinued prior to starting study drug	Eligibility	15
+chronic	HP:0011010	37-44
+chronic	HP:0011010	219-226
+prednisone	CHEBI:8382	108-118
+glucocorticoid	CHEBI:24261	127-141
+day	UO:0000033	158-161
+drug	CHEBI:23888	307-311
+Impaired GI function that may affect the absorption of LCL161	Eligibility	16
+function	BAO:0003117,BFO:0000034	12-20
+Pregnant or breast feeding (lactating) women	Eligibility	17
+breast	UBERON:0000310	12-18
+Women of child-bearing potential, defined as all women physiologically capable of becoming pregnant, unless they are using highly effective methods of contraception during dosing and for 180 days after study treatment	Eligibility	18
+Other protocol-defined inclusion/exclusion criteria may apply	Eligibility	19
+Outcome Measurement:	Results	0
+Pathological Complete Response (pCR) Rate in Breast After 12 Weeks of Therapy	Results	1
+rate	BAO:0080019	37-41
+breast	UBERON:0000310	45-51
+pCR rate was defined as histopathologically confirmed absence of invasive disease in the breast. To assess whether adding LCL161 to weekly paclitaxel enhances the efficacy of paclitaxel in women with triple negative breast cancer. Analyses were performed separately in the gene expression signature negative and positive groups. This analysis was based on Bayesian design using a binomial distribution for the data with a beta prior. The measurement type used for this analysis is posterior median and the method of dispersion is Credible Interval (Crl) and not Confidence Interval (CI). Median values are posterior medians of pCR rate for each group.	Results	2
+rate	BAO:0080019	4-8
+rate	BAO:0080019	259-263
+rate	BAO:0080019	631-635
+disease	DOID:4,OGMS:0000031	74-81
+breast	UBERON:0000310	89-95
+breast	UBERON:0000310	216-222
+paclitaxel	CHEBI:45863	139-149
+paclitaxel	CHEBI:45863	175-185
+efficacy	BAO:0000656	163-171
+breast cancer	DOID:1612	216-229
+gene expression	GO:0010467	273-288
+median	BAO:0002174	491-497
+median	BAO:0002174	588-594
+median	BAO:0002174	616-622
+group	CHEBI:24433	321-326
+group	CHEBI:24433	645-650
+Time frame: 12 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: LCL161 + Paclitaxel (Gene Expression Signature Positive)	Results	5
+paclitaxel	CHEBI:45863	26-36
+gene expression	GO:0010467	38-53
+Arm/Group Description: Patients randomized to the experimental arm for gene expression signature positive received LCL161 1800 mg once weekly + paclitaxel 80 mg/m2 weekly for 12 weeks. Equal numbers of patients with gene expression signature positive and negative disease were included in each treatment arm.	Results	6
+gene expression	GO:0010467	71-86
+gene expression	GO:0010467	216-231
+paclitaxel	CHEBI:45863	144-154
+disease	DOID:4,OGMS:0000031	264-271
+Overall Number of Participants Analyzed: 51	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Percentage of Participants  24.9        (14.5 to 37.8)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Paclitaxel Only (Gene Expression Signature Positive)	Results	11
+paclitaxel	CHEBI:45863	17-27
+gene expression	GO:0010467	34-49
+Arm/Group Description: Patients randomized to the control arm for gene expression signature positive received paclitaxel 80 mg/m2 weekly for 12 weeks. Equal numbers of patients with gene expression signature positive and negative disease were included in each treatment arm.	Results	12
+gene expression	GO:0010467	66-81
+gene expression	GO:0010467	182-197
+paclitaxel	CHEBI:45863	110-120
+disease	DOID:4,OGMS:0000031	230-237
+Overall Number of Participants Analyzed: 50	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Percentage of Participants  23.4        (13.3 to 36.2)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 45/106 (42.45%)	Adverse Events	1
+Anaemia 1/106 (0.94%)	Adverse Events	2
+Disseminated intravascular coagulation 1/106 (0.94%)	Adverse Events	3
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 1/106 (0.94%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymph node pain 1/106 (0.94%)	Adverse Events	5
+lymph	UBERON:0002391	0-5
+pain	HP:0012531	11-15
+Neutropenia 2/106 (1.89%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Sinus tachycardia 1/106 (0.94%)	Adverse Events	7
+sinus tachycardia	HP:0011703	0-17
+Abdominal pain upper 0/106 (0.00%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Diarrhoea 2/106 (1.89%)	Adverse Events	9
+Nausea 1/106 (0.94%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Chills 2/106 (1.89%)	Adverse Events	11
+chills	HP:0025143	0-6
+Feeling cold 1/106 (0.94%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 7/103 (6.80%)	Adverse Events	14
+Anaemia 1/103 (0.97%)	Adverse Events	15
+Disseminated intravascular coagulation 0/103 (0.00%)	Adverse Events	16
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia 1/103 (0.97%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Lymph node pain 0/103 (0.00%)	Adverse Events	18
+lymph	UBERON:0002391	0-5
+pain	HP:0012531	11-15
+Neutropenia 0/103 (0.00%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Sinus tachycardia 0/103 (0.00%)	Adverse Events	20
+sinus tachycardia	HP:0011703	0-17
+Abdominal pain upper 1/103 (0.97%)	Adverse Events	21
+abdominal pain	HP:0002027	0-14
+Diarrhoea 0/103 (0.00%)	Adverse Events	22
+Nausea 0/103 (0.00%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Chills 0/103 (0.00%)	Adverse Events	24
+chills	HP:0025143	0-6
+Feeling cold 0/103 (0.00%)	Adverse Events	25

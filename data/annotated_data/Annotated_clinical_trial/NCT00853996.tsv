@@ -1,0 +1,121 @@
+INTERVENTION 1:	Intervention	0
+Prevention (Acolbifene Hydrochloride)	Intervention	1
+hydrochloride	CHEBI:36807	23-36
+Patients receive oral acolbifene hydrochloride once daily for 6 months in the absence of unacceptable toxicity.	Intervention	2
+hydrochloride	CHEBI:36807	33-46
+acolbifene hydrochloride: Given orally	Intervention	3
+hydrochloride	CHEBI:36807	11-24
+Inclusion Criteria:	Eligibility	0
+Gail risk >= 1.7% and/or relative risk >= 3 times that for 5-year age group	Eligibility	1
+age	PATO:0000011	66-69
+group	CHEBI:24433	70-75
+Premenopausal	Eligibility	2
+More than 6 months since initiating or discontinuing oral contraceptives	Eligibility	3
+At increased risk for breast cancer, as indicated by >= 1 of the following risk factors:	Eligibility	4
+breast cancer	DOID:1612	22-35
+BRCA1/2 mutation characterized as deleterious or of uncertain significance	Eligibility	5
+Prior atypical ductal hyperplasia, ductal carcinoma in situ, or lobular carcinoma in situ	Eligibility	6
+ductal carcinoma in situ	HP:0030075,DOID:0060074	35-59
+lobular carcinoma in situ	HP:0030076,DOID:3010	64-89
+Prior random periareolar fine needle aspiration (RPFNA) showing atypical hyperplasia	Eligibility	7
+aspiration	HP:0002835	37-47
+Family history consistent with hereditary breast cancer, as indicated by 1 of the following criteria:	Eligibility	8
+family history	HP:0032316	0-14
+breast cancer	DOID:1612	42-55
+>= 4 relatives with breast cancer	Eligibility	9
+breast cancer	DOID:1612	20-33
+>= 2 relatives diagnosed with breast cancer at  50 years of age	Eligibility	10
+breast cancer	DOID:1612	30-43
+age	PATO:0000011	60-63
+Breast and ovarian cancer diagnosed in same relative	Eligibility	11
+breast	UBERON:0000310	0-6
+ovarian cancer	DOID:2394	11-25
+No suspicion for breast cancer on baseline mammogram performed between days 1-10 of menstrual cycle within 3 months prior to screening baseline RPFNA	Eligibility	12
+breast cancer	DOID:1612	17-30
+menstrual cycle	GO:0044850	84-99
+Exhibits hyperplasia with or without atypia (Masood score >= 14) with >= 500 cells AND Ki-67 positivity >= 2% by RPFNA performed within 6 months prior to initiation of study drug	Eligibility	13
+drug	CHEBI:23888	174-178
+Estimated visual mammographic breast density category >= 5% on mammogram performed within 6 months prior to initiation of study drug	Eligibility	14
+breast	UBERON:0000310	30-36
+drug	CHEBI:23888	128-132
+Has regular menstrual cycles (between 21 and 35 days) unless using extended regimen oral contraceptives or a contraceptive device (e.g., Mirena IUD) Values for metabolic profile and blood count within normal limits	Eligibility	15
+blood	UBERON:0000178	182-187
+Absolute granulocyte count > 1,000/mm^3	Eligibility	16
+Platelets > 100,000/mm^3	Eligibility	17
+Hemoglobin > 10 g/dL	Eligibility	18
+hemoglobin	CHEBI:35143	0-10
+Bilirubin < 2.0 mg/dL	Eligibility	19
+AST < 2 times upper limit of normal (ULN)	Eligibility	20
+Albumin > 3.0 g/dL	Eligibility	21
+Creatinine < 1.5 mg/dL	Eligibility	22
+creatinine	CHEBI:16737	0-10
+Alkaline phosphatase < 2 times ULN	Eligibility	23
+phosphatase	GO:0016791,BAO:0000295	9-20
+Concurrent hormonal contraceptives allowed provided patient remains on the same hormonal regimen from 3 months prior to baseline aspiration until the completion of study treatment	Eligibility	24
+patient	HADO:0000008,OAE:0001817	52-59
+aspiration	HP:0002835	129-139
+Fertile patients must use effective contraception during and for 3 months after completion of study treatment	Eligibility	25
+Willing to ingest recommended dose of calcium and vitamin D for premenopausal bone health (1,200 mg calcium and 800 IU vitamin D daily)	Eligibility	26
+calcium	CHEBI:22984,BAO:0000874	38-45
+calcium	CHEBI:22984,BAO:0000874	100-107
+vitamin d	CHEBI:27300	50-59
+vitamin d	CHEBI:27300	119-128
+Negative pregnancy test prior to receiving study agent	Eligibility	27
+Exclusion Criteria	Eligibility	28
+pregnant or nursing	Eligibility	29
+nursing within the past 6 months	Eligibility	30
+Known osteoporosis or severe osteopenia (T-score -2 or worse by DEXA)	Eligibility	31
+osteoporosis	HP:0000939,DOID:11476	6-18
+severe	HP:0012828	22-28
+osteopenia	HP:0000938	29-39
+History of symptomatic endometriosis with pelvic pain, poorly controlled migraines, or hot flashes	Eligibility	32
+history	BFO:0000182	0-7
+endometriosis	HP:0030127,DOID:289	23-36
+pain	HP:0012531	49-53
+hot flashes	HP:0031217	87-98
+History of deep venous thrombosis	Eligibility	33
+history	BFO:0000182	0-7
+deep venous thrombosis	HP:0002625	11-33
+History of allergic reactions attributed to compounds of similar chemical or biological composition to the study agent	Eligibility	34
+history	BFO:0000182	0-7
+Other condition or concurrent illness that, in the opinion of the investigator, would make the patient a poor candidate for RPFNA	Eligibility	35
+condition	PDRO:0000129	6-15
+patient	HADO:0000008,OAE:0001817	95-102
+Less than 1 year since prior use of aromatase inhibitors (e.g., anastrozole, exemestane, or letrozole) or selective estrogen receptor modulators (e.g., tamoxifen citrate, raloxifene, or arzoxifene hydrochloride)	Eligibility	36
+year	UO:0000036	12-16
+anastrozole	CHEBI:2704	64-75
+exemestane	CHEBI:4953	77-87
+letrozole	CHEBI:6413	92-101
+estrogen	CHEBI:50114,BAO:0000760	116-124
+receptor	BAO:0000281	125-133
+tamoxifen citrate	CHEBI:9397	152-169
+raloxifene	CHEBI:8772	171-181
+hydrochloride	CHEBI:36807	197-210
+Other concurrent chemopreventive agents	Eligibility	37
+Concurrent anticoagulants	Eligibility	38
+Other concurrent investigational agents	Eligibility	39
+Bilateral breast implants	Eligibility	40
+bilateral	HP:0012832	0-9
+breast	UBERON:0000310	10-16
+Outcome Measurement:	Results	0
+Change in the Percentage of Breast Epithelial Cells Expressing Ki-67, From Baseline to 6 Months	Results	1
+breast	UBERON:0000310	28-34
+Change in proliferation as measured by Ki-67 immunocytochemical expression in breast epithelial cells obtained by random periareolar fine needle aspiration at baseline and at 6 months.	Results	2
+breast	UBERON:0000310	78-84
+aspiration	HP:0002835	145-155
+Time frame: Baseline to 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Prevention (Acolbifene Hydrochloride)	Results	5
+hydrochloride	CHEBI:36807	40-53
+Arm/Group Description: Patients receive oral acolbifene hydrochloride once daily for 6 months in the absence of unacceptable toxicity.	Results	6
+hydrochloride	CHEBI:36807	56-69
+acolbifene hydrochloride: Given orally	Results	7
+hydrochloride	CHEBI:36807	11-24
+Overall Number of Participants Analyzed: 25	Results	8
+Median (Inter-Quartile Range)	Results	9
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: percentage of positive cells  -3.0        (-20.2 to 2.8)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/25 (0.00%)	Adverse Events	1

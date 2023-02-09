@@ -1,0 +1,87 @@
+INTERVENTION 1:	Intervention	0
+Baseline	Intervention	1
+All patients that are evaluable for joint aches and vitamin D levels.	Intervention	2
+vitamin d	CHEBI:27300	52-61
+INTERVENTION 2:	Intervention	3
+Post Vitamin D Repletion (1 Month)	Intervention	4
+vitamin d	CHEBI:27300	5-14
+month	UO:0000035	28-33
+Patients with vitamin D deficiency who experience myalgias, arthralgias and/or joint stiffness.	Intervention	5
+vitamin d	CHEBI:27300	14-23
+joint stiffness	HP:0001387	79-94
+Inclusion Criteria:	Eligibility	0
+Patients must have a histologically confirmed diagnosis of Stage I, II or III breast carcinoma	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	78-94
+Patients must be prescribed letrozole for adjuvant breast cancer treatment	Eligibility	2
+letrozole	CHEBI:6413	28-37
+adjuvant	CHEBI:60809	42-50
+breast cancer	DOID:1612	51-64
+Prior adjuvant tamoxifen is permitted	Eligibility	3
+adjuvant	CHEBI:60809	6-14
+tamoxifen	CHEBI:41774	15-24
+Patients must be postmenopausal; for study purposes, postmenopausal is defined as: a prior documented bilateral oophorectomy, or a history of at least 12 months without spontaneous menstrual bleeding, or have a persistently postmenopausal estradiol in the past 6 months without menses, and clinically in menopause at the judgment of the treating physician, or age 60 or older with a prior hysterectomy without oophorectomy, or age less than 60 with a prior hysterectomy without oophorectomy (or in whom the status of the ovaries is unknown), with a documented FSH level demonstrating confirmatory elevation in the postmenopausal range for the lab	Eligibility	4
+bilateral	HP:0012832	102-111
+history	BFO:0000182	131-138
+estradiol	CHEBI:23965	239-248
+menopause	GO:0042697	304-313
+age	PATO:0000011	360-363
+age	PATO:0000011	427-430
+range	LABO:0000114	629-634
+Exclusion Criteria:	Eligibility	5
+Diagnosis of Stage IV breast carcinoma	Eligibility	6
+breast carcinoma	HP:0003002,DOID:3459	22-38
+Pre-existing myalgias, arthralgias and/or joint stiffness >= Grade 1, as defined using CTEP CTC identified during baseline physical exam	Eligibility	7
+joint stiffness	HP:0001387	42-57
+Inability to understand or cooperate with study procedures	Eligibility	8
+Receipt of investigational drug within 30 days before study entry	Eligibility	9
+drug	CHEBI:23888	27-31
+Lack of physical integrity of the upper gastrointestinal tract or malabsorption syndrome	Eligibility	10
+malabsorption	HP:0002024	66-79
+syndrome	DOID:225	80-88
+Unwillingness to give informed consent	Eligibility	11
+Unwillingness to participate or inability to comply with the protocol for the duration of the study	Eligibility	12
+duration	PATO:0001309	78-86
+Patients with serum calcium >= 14 mg/dL	Eligibility	13
+calcium	CHEBI:22984,BAO:0000874	20-27
+Patients with renal dysfunction defined as glomerular filtration rate <10ml/min calculated using Cockroft-Gault equation	Eligibility	14
+glomerular filtration	GO:0003094	43-64
+rate	BAO:0080019	65-69
+Outcome Measurement:	Results	0
+Number of Early Breast Cancer Patients Prescribed Adjuvant Letrozole That Are Vitamin D Deficient and Who Experience Myalgias, Arthralgias and/or Joint Stiffness	Results	1
+breast cancer	DOID:1612	16-29
+adjuvant	CHEBI:60809	50-58
+letrozole	CHEBI:6413	59-68
+vitamin d	CHEBI:27300	78-87
+joint stiffness	HP:0001387	146-161
+Count of early breast cancer patients prescribed adjuvant letrozole that are vitamin D deficient and who experience myalgias, arthralgias and/or joint stiffness, assessed at baseline and 1 month after vitamin D repletion.	Results	2
+breast cancer	DOID:1612	15-28
+adjuvant	CHEBI:60809	49-57
+letrozole	CHEBI:6413	58-67
+vitamin d	CHEBI:27300	77-86
+vitamin d	CHEBI:27300	201-210
+joint stiffness	HP:0001387	145-160
+month	UO:0000035	189-194
+Time frame: Baseline and 1 month post vitamin D repletion	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	27-32
+vitamin d	CHEBI:27300	38-47
+Results 1:	Results	4
+Arm/Group Title: Baseline	Results	5
+Arm/Group Description: All patients that are evaluable for joint aches and vitamin D levels.	Results	6
+vitamin d	CHEBI:27300	75-84
+Overall Number of Participants Analyzed: 85	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  12  14.1%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Post Vitamin D Repletion (1 Month)	Results	11
+vitamin d	CHEBI:27300	22-31
+month	UO:0000035	45-50
+Arm/Group Description: Patients with vitamin D deficiency who experience myalgias, arthralgias and/or joint stiffness.	Results	12
+vitamin d	CHEBI:27300	37-46
+joint stiffness	HP:0001387	102-117
+Overall Number of Participants Analyzed: 12	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  1   8.3%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/100 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

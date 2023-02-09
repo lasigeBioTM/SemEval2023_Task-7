@@ -1,0 +1,123 @@
+INTERVENTION 1:	Intervention	0
+Pertuzumab in Combination With Trastuzumab and Paclitaxel	Intervention	1
+paclitaxel	CHEBI:45863	47-57
+This is a phase II study of pertuzumab in combination with trastuzumab and paclitaxel for the treatment of patients with Stage IV HER2 (+) breast cancer.	Intervention	2
+paclitaxel	CHEBI:45863	75-85
+breast cancer	DOID:1612	139-152
+Inclusion Criteria:	Eligibility	0
+Age 18	Eligibility	1
+age	PATO:0000011	0-3
+Stage IV HER2 (+) breast cancer.	Eligibility	2
+breast cancer	DOID:1612	18-31
+Histologically documented HER2 (+) breast cancer as defined as IHC 3+ or FISH amplification of  2.0 of primary or metastatic site; results from the local lab are acceptable. (Optional tumor sample collection from primary or metastatic site may be obtained for HER2 testing at MSKCC).	Eligibility	3
+breast cancer	DOID:1612	35-48
+site	BFO:0000029	125-129
+site	BFO:0000029	235-239
+ECOG performance 0 -1 (Appendix A)	Eligibility	4
+0-1 prior treatment in the metastatic setting (ie: hormone, chemotherapy, biologic, targeted agents). Prior anthracycline, paclitaxel, and trastuzumab in the adjuvant setting are allowed. If the patient has one trastuzumab-based treatment in the metastatic setting and is given a break (even intermittently) from the partner drug given with trastuzumab and is continued on trastuzumab alone, this would still be considered as one treatment. For example, if the patient was given paclitaxel + trastuzumab and was later continued on trastuzumab alone or then restarted on paclitaxel + trastuzumab (at the physician's discretion for any reason), the regimen paclitaxel + trastuzumab followed by trastuzumab alone (or followed by paclitaxel + trastuzumab again) may be considered as one treatment.	Eligibility	5
+hormone	CHEBI:24621	51-58
+anthracycline	CHEBI:48120	108-121
+paclitaxel	CHEBI:45863	123-133
+paclitaxel	CHEBI:45863	479-489
+paclitaxel	CHEBI:45863	570-580
+paclitaxel	CHEBI:45863	655-665
+paclitaxel	CHEBI:45863	726-736
+adjuvant	CHEBI:60809	158-166
+patient	HADO:0000008,OAE:0001817	195-202
+patient	HADO:0000008,OAE:0001817	461-468
+drug	CHEBI:23888	325-329
+Measurable or non-measurable disease. Measurable lesions are defined as those that can be measured accurately in at least one diameter, that is 20 mm using conventional imaging techniques (including incremental CT) or 10 mm using spiral CT equipment and a lymph node 15 mm along the short axis. Non-measurable lesions are all other lesions, including small lesions (longest diameter <10mm pathological a lymph nodes with 10 to less than 15mm along the short axis, bony metastases, leptomeningeal disease, ascites, pleural/pericardial effusions, inflammatory breast cancer, lymphangitis carcinomatosis, and heavily calcified and cystic/necrotic lesions.	Eligibility	6
+disease	DOID:4,OGMS:0000031	29-36
+disease	DOID:4,OGMS:0000031	496-503
+diameter	PATO:0001334	126-134
+diameter	PATO:0001334	374-382
+ct	BAO:0002125	211-213
+ct	BAO:0002125	237-239
+lymph	UBERON:0002391	256-261
+lymph	UBERON:0002391	404-409
+lymph	UBERON:0002391	573-578
+ascites	HP:0001541	505-512
+breast cancer	DOID:1612	558-571
+lymphangitis	DOID:9317	573-585
+LVEF  50%	Eligibility	7
+Hematologic parameters: white blood cell (WBC) count of  3000/ul, absolute neutrophil count (ANC) 1500/ul, platelets  100,000/ul, hemoglobin  10.0 g/dl	Eligibility	8
+blood	UBERON:0000178	30-35
+hemoglobin	CHEBI:35143	130-140
+Non-hematologic parameters: bilirubin  1.5 mg/dl, AST/ALT  2.5 x upper limit of normal (ULN), alkaline phosphatase  5 x ULN.	Eligibility	9
+x	LABO:0000148	63-64
+x	LABO:0000148	118-119
+phosphatase	GO:0016791,BAO:0000295	103-114
+Creatinine  1.5 mg/dl	Eligibility	10
+creatinine	CHEBI:16737	0-10
+Patients with stable and treated brain lesions of a duration of  2 months may be enrolled.	Eligibility	11
+stable	HP:0031915	14-20
+brain	UBERON:0000955	33-38
+duration	PATO:0001309	52-60
+Exclusion Criteria:	Eligibility	12
+History of prior cardiac morbidities within 12 months (unstable angina, myocardial infarction, CHF, uncontrolled ventricular arrhythmias)	Eligibility	13
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	72-93
+Prior pertuzumab	Eligibility	14
+History of prior  G 3 hypersensitivity (HSR) or any toxicity to trastuzumab that warranted permanent cessation of this antibody	Eligibility	15
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	22-38
+antibody	GO:0042571,BAO:0000502	119-127
+History of prior  G 3 HSR or any toxicity to paclitaxel warranted permanent cessation of this chemotherapy	Eligibility	16
+history	BFO:0000182	0-7
+paclitaxel	CHEBI:45863	45-55
+> G 2 peripheral neuropathy	Eligibility	17
+peripheral neuropathy	HP:0009830,DOID:870	6-27
+Patients with a history of chronic hepatitis B or C should be excluded from the study as paclitaxel is potentially hepatotoxic	Eligibility	18
+history	BFO:0000182	16-23
+chronic hepatitis	HP:0200123,DOID:2237	27-44
+hepatitis b	DOID:2043	35-46
+excluded	HP:0040285	62-70
+paclitaxel	CHEBI:45863	89-99
+Pregnant patients	Eligibility	19
+Outcome Measurement:	Results	0
+Percentage of Patients Who Are Progression Free at 6 Months or Later.	Results	1
+Patients who are considered progression-free at 6 months are deemed successes. Failures are those patients who progressed before the 6 month mark. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions	Results	2
+month	UO:0000035	50-55
+month	UO:0000035	135-140
+increase	BAO:0001251	254-262
+increase	BAO:0001251	333-341
+diameter	PATO:0001334	289-297
+target	BAO:0003064	301-307
+target	BAO:0003064	351-357
+Time frame: 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Pertuzumab in Combination With Trastuzumab and Paclitaxel	Results	5
+paclitaxel	CHEBI:45863	64-74
+Arm/Group Description: This is a phase II study of pertuzumab in combination with trastuzumab and paclitaxel for the treatment of patients with Stage IV HER2 (+) breast cancer.	Results	6
+paclitaxel	CHEBI:45863	98-108
+breast cancer	DOID:1612	162-175
+Overall Number of Participants Analyzed: 70	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of partcipants  86        (75 to 93)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 18/70 (25.71%)	Adverse Events	1
+Cardiac arrest  1/70 (1.43%)	Adverse Events	2
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Pericardial effusion  1/70 (1.43%)	Adverse Events	3
+pericardial effusion	HP:0001698,DOID:118	0-20
+Ear pain  1/70 (1.43%)	Adverse Events	4
+ear pain	HP:0030766	0-8
+Blurred vision  1/70 (1.43%)	Adverse Events	5
+blurred vision	HP:0000622	0-14
+Eye disorders - Other, specify  2/70 (2.86%)	Adverse Events	6
+eye	UBERON:0000970	0-3
+Abdominal Pain  5/70 (7.14%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Colitis  1/70 (1.43%)	Adverse Events	8
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhea  2/70 (2.86%)	Adverse Events	9
+diarrhea	HP:0002014,DOID:13250	0-8
+Nausea  2/70 (2.86%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Death NOS  1/70 (1.43%)	Adverse Events	11
+death	OAE:0000632	0-5
+Edema limbs  1/70 (1.43%)	Adverse Events	12
+edema	HP:0000969	0-5
+Fatigue  3/70 (4.29%)	Adverse Events	13
+fatigue	HP:0012378	0-7

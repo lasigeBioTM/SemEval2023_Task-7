@@ -1,0 +1,99 @@
+INTERVENTION 1:	Intervention	0
+Docetaxel + Sunitinib	Intervention	1
+sunitinib	CHEBI:38940	12-21
+Sunitinib 37.5 milligrams (mg) daily by oral capsule for 2 weeks followed by a 1-week off-treatment period (Schedule 2/1) with docetaxel 75 milligrams per square meter (mg/m^2) every 3 weeks, or sunitinib 37.5 mg daily in continuous dosing (in absence of docetaxel), or docetaxel 100 mg/m^2 every 3 weeks (in absence of sunitinib).	Intervention	2
+sunitinib	CHEBI:38940	0-9
+sunitinib	CHEBI:38940	195-204
+sunitinib	CHEBI:38940	320-329
+capsule	GO:0042603	45-52
+meter	UO:0000008	162-167
+INTERVENTION 2:	Intervention	3
+Docetaxel	Intervention	4
+Docetaxel 100 mg/m^2 every 3 weeks	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Breast cancer with evidence of unresectable locally recurrent, or metastatic disease	Eligibility	1
+breast cancer	DOID:1612	0-13
+recurrent	HP:0031796	52-61
+disease	DOID:4,OGMS:0000031	77-84
+Her-2 negative tumors	Eligibility	2
+Exclusion Criteria:	Eligibility	3
+Patients for whom docetaxel is contraindicated	Eligibility	4
+Clinical presentation of inflammatory carcinoma with no other measurable disease	Eligibility	5
+carcinoma	HP:0030731,DOID:305	38-47
+disease	DOID:4,OGMS:0000031	73-80
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+PFS defined as time from date of randomization to date of the first documentation of objective tumor progression or death due to any cause, whichever occurred first. PFS calculated as (Months) = (first event date minus randomization date plus 1) divided by 30.4.	Results	2
+time	PATO:0000165	15-19
+death	OAE:0000632	116-121
+Time frame: Baseline up to Month 33	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	27-32
+Results 1:	Results	4
+Arm/Group Title: Docetaxel + Sunitinib	Results	5
+sunitinib	CHEBI:38940	29-38
+Arm/Group Description: Sunitinib 37.5 milligrams (mg) daily by oral capsule for 2 weeks followed by a 1-week off-treatment period (Schedule 2/1) with docetaxel 75 milligrams per square meter (mg/m^2) every 3 weeks, or sunitinib 37.5 mg daily in continuous dosing (in absence of docetaxel), or docetaxel 100 mg/m^2 every 3 weeks (in absence of sunitinib).	Results	6
+sunitinib	CHEBI:38940	23-32
+sunitinib	CHEBI:38940	218-227
+sunitinib	CHEBI:38940	343-352
+capsule	GO:0042603	68-75
+meter	UO:0000008	185-190
+Overall Number of Participants Analyzed: 296	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  Independent radiology assessment: 8.6        (8.2 to 10.3)	Results	9
+Investigator's assessment: 8.2        (7.3 to 8.6)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Docetaxel	Results	12
+Arm/Group Description: Docetaxel 100 mg/m^2 every 3 weeks	Results	13
+Overall Number of Participants Analyzed: 297	Results	14
+Median (95% Confidence Interval)	Results	15
+median	BAO:0002174	0-6
+Unit of Measure: months  Independent radiology assessment: 8.3        (7.7 to 9.6)	Results	16
+Investigator's assessment: 6.9        (6.5 to 7.3)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 112/295 (37.97%)	Adverse Events	1
+Anaemia 4/295 (1.36%)	Adverse Events	2
+Febrile neutropenia 20/295 (6.78%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 5/295 (1.69%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Lymphatic disorder 1/295 (0.34%)	Adverse Events	5
+disorder	OGMS:0000045	10-18
+Neutropenia 11/295 (3.73%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/295 (0.34%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Angina pectoris 0/295 (0.00%)	Adverse Events	8
+angina pectoris	HP:0001681	0-15
+Atrial fibrillation 1/295 (0.34%)	Adverse Events	9
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrioventricular block 1/295 (0.34%)	Adverse Events	10
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Cardiac arrest 1/295 (0.34%)	Adverse Events	11
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac disorder 1/295 (0.34%)	Adverse Events	12
+disorder	OGMS:0000045	8-16
+Adverse Events 2:	Adverse Events	13
+Total: 79/293 (26.96%)	Adverse Events	14
+Anaemia 2/293 (0.68%)	Adverse Events	15
+Febrile neutropenia 13/293 (4.44%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 7/293 (2.39%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Lymphatic disorder 0/293 (0.00%)	Adverse Events	18
+disorder	OGMS:0000045	10-18
+Neutropenia 16/293 (5.46%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/293 (0.00%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Angina pectoris 1/293 (0.34%)	Adverse Events	21
+angina pectoris	HP:0001681	0-15
+Atrial fibrillation 0/293 (0.00%)	Adverse Events	22
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrioventricular block 0/293 (0.00%)	Adverse Events	23
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Cardiac arrest 0/293 (0.00%)	Adverse Events	24
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac disorder 0/293 (0.00%)	Adverse Events	25
+disorder	OGMS:0000045	8-16

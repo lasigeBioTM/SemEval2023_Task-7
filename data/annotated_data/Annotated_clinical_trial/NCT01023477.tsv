@@ -1,0 +1,248 @@
+INTERVENTION 1:	Intervention	0
+Chloroquine Standard Dose (500mg/Week)	Intervention	1
+chloroquine	CHEBI:3638	0-11
+Patients with ER+ or ER- DCIS regardless of histologic grade will be randomly assigned to receive one month standard dose chloroquine (500 mg/week).	Intervention	2
+month	UO:0000035	102-107
+chloroquine	CHEBI:3638	122-133
+Chloroquine Standard Dose (500mg/week): Patients will receive chloroquine (500 mg/once a week) for 1 month prior to surgical removal of the DCIS lesion.	Intervention	3
+chloroquine	CHEBI:3638	0-11
+chloroquine	CHEBI:3638	62-73
+week	UO:0000034	33-37
+week	UO:0000034	89-93
+month	UO:0000035	101-106
+Breast Biopsy: Patients diagnosed with DCIS will undergo a breast biopsy prior to the start of study treatment. This biopsy is entirely voluntary and is not required to remain in the study. The biopsy will allow researchers to study the tissue for biomarkers and to determine how the DCIS tissue changes during treatment. Additional samples of the DCIS tissue will be collected at the time of surgery.	Intervention	4
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	59-65
+tissue	UBERON:0000479	237-243
+tissue	UBERON:0000479	289-295
+tissue	UBERON:0000479	353-359
+time	PATO:0000165	385-389
+surgery	OAE:0000067	393-400
+INTERVENTION 2:	Intervention	5
+Chloroquine Low Dose (250mg/Week)	Intervention	6
+chloroquine	CHEBI:3638	0-11
+Patients with ER+ or ER- DCIS regardless of histologic grade will be randomly assigned to receive one month low dose chloroquine (250mg/week).	Intervention	7
+month	UO:0000035	102-107
+chloroquine	CHEBI:3638	117-128
+Chloroquine Low Dose (250mg/week): Patients will receive chloroquine (250 mg/once a week) for 1 month prior to surgical removal of the DCIS lesion.	Intervention	8
+chloroquine	CHEBI:3638	0-11
+chloroquine	CHEBI:3638	57-68
+week	UO:0000034	28-32
+week	UO:0000034	84-88
+month	UO:0000035	96-101
+Breast Biopsy: Patients diagnosed with DCIS will undergo a breast biopsy prior to the start of study treatment. This biopsy is entirely voluntary and is not required to remain in the study. The biopsy will allow researchers to study the tissue for biomarkers and to determine how the DCIS tissue changes during treatment. Additional samples of the DCIS tissue will be collected at the time of surgery.	Intervention	9
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	59-65
+tissue	UBERON:0000479	237-243
+tissue	UBERON:0000479	289-295
+tissue	UBERON:0000479	353-359
+time	PATO:0000165	385-389
+surgery	OAE:0000067	393-400
+Inclusion Criteria:	Eligibility	0
+Patients must have a tissue diagnosis of low, intermediate or high grade ductal carcinoma in situ or ductal carcinoma in situ with microinvasion.	Eligibility	1
+tissue	UBERON:0000479	21-27
+ductal carcinoma in situ	HP:0030075,DOID:0060074	73-97
+ductal carcinoma in situ	HP:0030075,DOID:0060074	101-125
+Patients with ductal carcinoma in situ undergoing either lumpectomy/radiation or mastectomy.	Eligibility	2
+ductal carcinoma in situ	HP:0030075,DOID:0060074	14-38
+Patients must be female at least 18 years of age.	Eligibility	3
+female	PATO:0000383	17-23
+age	PATO:0000011	45-48
+Patients must have a signed tissue acquisition consent and have at minimum, adequate samples of primary fresh tissue or blood available for use in this study.	Eligibility	4
+tissue	UBERON:0000479	28-34
+tissue	UBERON:0000479	110-116
+blood	UBERON:0000178	120-125
+No history of a previous invasive cancer in the last five years with the exception of minimally invasive non-melanoma skin cancer.	Eligibility	5
+history	BFO:0000182	3-10
+cancer	DOID:162	34-40
+cancer	DOID:162	123-129
+skin cancer	DOID:4159	118-129
+Normal liver function based on Liver Function Tests (Total Bilirubin and Asparate transaminase (AST) <1.5 X Upper Limit of Normal).	Eligibility	6
+liver	UBERON:0002107	7-12
+liver	UBERON:0002107	31-36
+function	BAO:0003117,BFO:0000034	13-21
+function	BAO:0003117,BFO:0000034	37-45
+x	LABO:0000148	106-107
+Normal White Blood Count (WBC) (3.5-10.8 x 103µL), Platelet count (PLT) (140-400 x 103µL), and Hematocrit (HCT)(37-52%)	Eligibility	7
+blood	UBERON:0000178	13-18
+x	LABO:0000148	41-42
+x	LABO:0000148	81-82
+platelet count	CMO:0000029	51-65
+hematocrit	CMO:0000037	95-105
+Potassium within the normal range of 3.5-5.3 mEq/L	Eligibility	8
+range	LABO:0000114	28-33
+Adequate renal sufficiency (serum creatinine <1.5 mg/dL).	Eligibility	9
+creatinine	CHEBI:16737	34-44
+Eastern Cooperative Oncology Group performance status 0-2.	Eligibility	10
+group	CHEBI:24433	29-34
+Are able to swallow and retain oral medication.	Eligibility	11
+No underlying ocular/retinal pathology.	Eligibility	12
+No medically documented preexisting auditory damage.	Eligibility	13
+Subjects should be willing to abstain from use of hormonal therapies (e.g. hormone replacement therapy, oral contraceptive pills, hormone-containing Intra Uterine Device (IUD)s, and E-string) and chronic non-steroidal anti-inflammatory (NSAID) s for the duration of the study (chronic use of NSAID's is defined as a frequency >3 times/week for more than two weeks per year and includes low dose aspirin).	Eligibility	14
+hormone	CHEBI:24621	75-82
+hormone	CHEBI:24621	130-137
+oral contraceptive	CHEBI:49325	104-122
+chronic	HP:0011010	196-203
+chronic	HP:0011010	277-284
+duration	PATO:0001309	254-262
+frequency	HP:0040279	316-325
+year	UO:0000036	368-372
+Subjects with child-bearing potential must agree to use adequate contraception (total abstinence (no sexual intercourse), use of condom with spermicide or sterilization surgery, including tubal ligation (tubes tied) or hysterectomy (removal of the uterus or womb)) prior to study entry and for the duration of study treatment phase. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her study physician immediately.	Eligibility	15
+surgery	OAE:0000067	169-176
+uterus	UBERON:0000995	248-254
+duration	PATO:0001309	298-306
+If a subject is of child-bearing potential (women are considered not of child-bearing potential if they are at least one year postmenopausal and/or surgically sterile), she must have a documented negative serum or urine pregnancy test before starting treatment.	Eligibility	16
+year	UO:0000036	121-125
+urine	UBERON:0001088	214-219
+Exclusion Criteria:	Eligibility	17
+Patients with a prior history of chemotherapy, hormonal ablation therapy and/or radiation therapy.	Eligibility	18
+history	BFO:0000182	22-29
+History of other invasive cancer in the previous 5 years other than minimally invasive non-melanoma skin cancer.	Eligibility	19
+history	BFO:0000182	0-7
+cancer	DOID:162	26-32
+cancer	DOID:162	105-111
+skin cancer	DOID:4159	100-111
+Patient desires not to participate in the study.	Eligibility	20
+patient	HADO:0000008,OAE:0001817	0-7
+Inability to consent.	Eligibility	21
+Current or recent pregnancy (within 12 months),	Eligibility	22
+Current use of hormone-containing forms of birth control such as implants (i.e. Norplants, or injectables ( i.e. depo-provera)	Eligibility	23
+Currently lactating.	Eligibility	24
+Patients with history of renal or hepatic insufficiency.	Eligibility	25
+history	BFO:0000182	14-21
+Current diagnosis for depression, including treatment with an Selective Serotonin Reuptake Inhibitor (SSRI).	Eligibility	26
+depression	HP:0000716	22-32
+serotonin	CHEBI:350546	72-81
+inhibitor	CHEBI:35222	91-100
+History of prior treatment with chloroquine for malaria within past 24 months.	Eligibility	27
+history	BFO:0000182	0-7
+chloroquine	CHEBI:3638	32-43
+malaria	DOID:12365	48-55
+History of allergic reactions to quinolones or chloroquine.	Eligibility	28
+history	BFO:0000182	0-7
+chloroquine	CHEBI:3638	47-58
+Active diagnosis of psoriasis or currently receiving treatment for psoriasis.	Eligibility	29
+active	PATO:0002354	0-6
+psoriasis	DOID:8893	20-29
+psoriasis	DOID:8893	67-76
+History of porphyria.	Eligibility	30
+history	BFO:0000182	0-7
+porphyria	DOID:13268	11-20
+History of known Glucose-6-Phosphate Dehydrogenase (G-6-PD) deficiency.	Eligibility	31
+history	BFO:0000182	0-7
+glucose-6-phosphate	BAO:0000925	17-36
+Alcoholism or hepatic disease.	Eligibility	32
+alcoholism	HP:0030955,DOID:0050741	0-10
+disease	DOID:4,OGMS:0000031	22-29
+History of epilepsy or seizures in the past 20 years.	Eligibility	33
+history	BFO:0000182	0-7
+epilepsy	DOID:1826	11-19
+History of deep vein thrombosis or pulmonary embolism.	Eligibility	34
+history	BFO:0000182	0-7
+vein	UBERON:0001638	16-20
+thrombosis	DOID:0060903	21-31
+pulmonary embolism	HP:0002204,DOID:9477	35-53
+History of human immunodeficiency virus (HIV) disease and/or treatment with anti-HIV agents.	Eligibility	35
+history	BFO:0000182	0-7
+immunodeficiency	HP:0002721	17-33
+virus	BAO:0000232	34-39
+disease	DOID:4,OGMS:0000031	46-53
+Receiving concurrent treatment with prohibited medications (refer to Table 1 for details on prohibited medications); Examples include: ampicillin, antacids, cimetidine, cyclosporine, kaolin, magnesium trisilicate, coumarin-type anticoagulants, macrolide antibiotics (e.g., clarithromycin, isoniazid, and erythromycin), anti-HIV agents (e.g., ritonavir and delavirdine), antidepressants (e.g. fluoxetine and fluvoxamine), calcium channel blockers (e.g. verapamil and diltiazem), steroids and their modulators (e.g., gestodene, raloxifene, and mifepristone), and several herbal and dietary components (e.g. bergamottin and glabridin).	Eligibility	36
+ampicillin	CHEBI:28971	135-145
+cimetidine	CHEBI:3699	157-167
+kaolin	CHEBI:140503	183-189
+macrolide	CHEBI:25106	244-253
+clarithromycin	CHEBI:3732	273-287
+erythromycin	CHEBI:42355	304-316
+ritonavir	CHEBI:45409	342-351
+delavirdine	CHEBI:119573	356-367
+fluoxetine	CHEBI:5118	392-402
+fluvoxamine	CHEBI:5138	407-418
+calcium	CHEBI:22984,BAO:0000874	421-428
+verapamil	CHEBI:9948	452-461
+diltiazem	CHEBI:101278	466-475
+gestodene	CHEBI:135323	515-524
+raloxifene	CHEBI:8772	526-536
+mifepristone	CHEBI:50692	542-554
+glabridin	CHEBI:5369	621-630
+Used an investigational drug within 30 days or 5 half-lives, whichever is longer, preceding the first dose of study medication.	Eligibility	37
+drug	CHEBI:23888	24-28
+Outcome Measurement:	Results	0
+Average Change in the Longest Diameter of the Breast MRI Target Lesion	Results	1
+diameter	PATO:0001334	30-38
+breast	UBERON:0000310	46-52
+target	BAO:0003064	57-63
+One of the primary outcomes of this study was to measure the impact of weekly chloroquine on the amount of DCIS seen on MRI.The tumor response was evaluated by RECIST criteria. Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR The longest diameter of the target lesion or primary area of non-mass enhancement was measured by digital calipers. For one patient, the longest diameter was difficult to measure due to the presence of a significant post biopsy resolving hematoma at the biopsy site. Further correlation was made based on the extent of the pre-treatment microcalcifications and post treatment areas of non-mass enhancement.	Results	2
+chloroquine	CHEBI:3638	78-89
+target	BAO:0003064	253-259
+target	BAO:0003064	334-340
+target	BAO:0003064	426-432
+target	BAO:0003064	502-508
+diameter	PATO:0001334	414-422
+diameter	PATO:0001334	486-494
+diameter	PATO:0001334	619-627
+area	PATO:0001323	527-531
+area	PATO:0001323	850-854
+patient	HADO:0000008,OAE:0001817	598-605
+site	BFO:0000029	735-739
+Time frame: Immediately preceding study drug treatment and again after treatment prior to surgery. The total time interval was up to 8 weeks	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	109-113
+drug	CHEBI:23888	40-44
+surgery	OAE:0000067	90-97
+Results 1:	Results	4
+Arm/Group Title: Chloroquine Standard Dose (500mg/Week)	Results	5
+chloroquine	CHEBI:3638	17-28
+Arm/Group Description: Patients with ER+ or ER- DCIS regardless of histologic grade will be randomly assigned to receive one month standard dose chloroquine (500 mg/week).	Results	6
+month	UO:0000035	125-130
+chloroquine	CHEBI:3638	145-156
+Chloroquine Standard Dose (500mg/week): Patients will receive chloroquine (500 mg/once a week) for 1 month prior to surgical removal of the DCIS lesion.	Results	7
+chloroquine	CHEBI:3638	0-11
+chloroquine	CHEBI:3638	62-73
+week	UO:0000034	33-37
+week	UO:0000034	89-93
+month	UO:0000035	101-106
+Breast Biopsy: Patients diagnosed with DCIS will undergo a breast biopsy prior to the start of study treatment. This biopsy is entirely voluntary and is not required to remain in the study. The biopsy will allow researchers to study the tissue for biomarkers and to determine how the DCIS tissue changes during treatment. Additional samples of the DCIS tissue will be collected at the time of surgery.	Results	8
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	59-65
+tissue	UBERON:0000479	237-243
+tissue	UBERON:0000479	289-295
+tissue	UBERON:0000479	353-359
+time	PATO:0000165	385-389
+surgery	OAE:0000067	393-400
+Overall Number of Participants Analyzed: 5	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage length change  6         (19.8)	Results	11
+length	PATO:0000122	28-34
+Results 2:	Results	12
+Arm/Group Title: Chloroquine Low Dose (250mg/Week)	Results	13
+chloroquine	CHEBI:3638	17-28
+Arm/Group Description: Patients with ER+ or ER- DCIS regardless of histologic grade will be randomly assigned to receive one month low dose chloroquine (250mg/week).	Results	14
+month	UO:0000035	125-130
+chloroquine	CHEBI:3638	140-151
+Chloroquine Low Dose (250mg/week): Patients will receive chloroquine (250 mg/once a week) for 1 month prior to surgical removal of the DCIS lesion.	Results	15
+chloroquine	CHEBI:3638	0-11
+chloroquine	CHEBI:3638	57-68
+week	UO:0000034	28-32
+week	UO:0000034	84-88
+month	UO:0000035	96-101
+Breast Biopsy: Patients diagnosed with DCIS will undergo a breast biopsy prior to the start of study treatment. This biopsy is entirely voluntary and is not required to remain in the study. The biopsy will allow researchers to study the tissue for biomarkers and to determine how the DCIS tissue changes during treatment. Additional samples of the DCIS tissue will be collected at the time of surgery.	Results	16
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	59-65
+tissue	UBERON:0000479	237-243
+tissue	UBERON:0000479	289-295
+tissue	UBERON:0000479	353-359
+time	PATO:0000165	385-389
+surgery	OAE:0000067	393-400
+Overall Number of Participants Analyzed: 5	Results	17
+Mean (Standard Deviation)	Results	18
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percentage length change  43         (39)	Results	19
+length	PATO:0000122	28-34
+Adverse Events 1:	Adverse Events	0
+Total: 0/7 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/5 (0.00%)	Adverse Events	3

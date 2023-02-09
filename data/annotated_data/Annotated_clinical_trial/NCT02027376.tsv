@@ -1,0 +1,164 @@
+INTERVENTION 1:	Intervention	0
+LDE225 (Sonidegib) 400mg in Combination With Docetaxel	Intervention	1
+sonidegib	CHEBI:90863	8-17
+Cohort 1: Eligible patients were included and treated with docetaxel intravenously (75mg/m2) in every 3 weeks cycles and LDE225 400mg was administered orally QD. Treatment was repeated on day 1 of a 21-day cycle until radiographic or symptomatic progression, unacceptable toxicity or withdraws informed consent.	Intervention	2
+day	UO:0000033	188-191
+day	UO:0000033	202-205
+INTERVENTION 2:	Intervention	3
+LDE225 (Sonidegib) 600mg in Combination With Docetaxel	Intervention	4
+sonidegib	CHEBI:90863	8-17
+Cohort 2: Eligible patients were included and treated with docetaxel intravenously (75mg/m2) in every 3 weeks cycles and LDE225 600mg was administered orally QD. Treatment was repeated on day 1 of a 21-day cycle until radiographic or symptomatic progression, unacceptable toxicity or withdraws informed consent.	Intervention	5
+day	UO:0000033	188-191
+day	UO:0000033	202-205
+Inclusion Criteria:	Eligibility	0
+The patient is capable to understand and comply with the protocol and has signed the informed consent document.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	4-11
+document	IAO:0000310	102-110
+Females with histologically confirmed advanced breast cancer.	Eligibility	2
+breast cancer	DOID:1612	47-60
+TN breast cancer by local laboratory determination. Hormonal Receptor (HR) negative defined as < 1% positive cells by Immunohistochemistry (IHC) for both Estrogen Receptor (ER) and Progesterone Receptor (PgR), and HER2 negative defined as in situ hybridization (ISH) negative or IHC 0 or 1+ in the absence of ISH (Note: patients with IHC 2+ must have an ISH determination in order to confirm the HER2 negativity.	Eligibility	3
+breast cancer	DOID:1612	3-16
+receptor	BAO:0000281	61-69
+receptor	BAO:0000281	163-171
+receptor	BAO:0000281	194-202
+immunohistochemistry	BAO:0000415	118-138
+estrogen	CHEBI:50114,BAO:0000760	154-162
+progesterone	CHEBI:17026	181-193
+Measurable or non-measurable disease according to RECIST 1.1 criteria.	Eligibility	4
+disease	DOID:4,OGMS:0000031	29-36
+Patient is at least 18 years of age.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+age	PATO:0000011	32-35
+World Health Organization (WHO) Performance Status  1.	Eligibility	6
+Life expectancy  12 weeks.	Eligibility	7
+Common laboratory values within normal range (…)	Eligibility	8
+range	LABO:0000114	39-44
+A negative serum pregnancy test  72 hours before starting study treatment for pre-menopausal women and for women < 1 year from the last menstruation date.	Eligibility	9
+year	UO:0000036	117-121
+menstruation	GO:0042703	136-148
+Exclusion Criteria:	Eligibility	10
+Have received more than 3 prior chemotherapy regimens for ABC.	Eligibility	11
+Patients with untreated brain metastases. However, a patient with Central Nervous System (CNS) metastases may participate in this trial if > 4 weeks from therapy completion (incl. radiation and/or surgery), is clinically stable with respect to the tumor at the time of study entry and is not receiving corticosteroid therapy.	Eligibility	12
+brain	UBERON:0000955	24-29
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	53-60
+central nervous system	UBERON:0001017	66-88
+surgery	OAE:0000067	197-204
+stable	HP:0031915	221-227
+time	PATO:0000165	261-265
+corticosteroid	CHEBI:50858	302-316
+Patients with acute or chronic liver or renal disease or pancreatitis.	Eligibility	13
+acute	HP:0011009,PATO:0000389	14-19
+chronic	HP:0011010	23-30
+liver	UBERON:0002107	31-36
+disease	DOID:4,OGMS:0000031	46-53
+pancreatitis	HP:0001733,DOID:4989	57-69
+Patients with a second primary malignancy that is clinically detectable at the time of consideration for study enrollment.	Eligibility	14
+second	UO:0000010	16-22
+time	PATO:0000165	79-83
+Patients unable to swallow tablets.	Eligibility	15
+History of a positive HIV test (HIV testing is not mandatory).	Eligibility	16
+history	BFO:0000182	0-7
+History of a positive Hepatitis B surface antigen (HBsAg) or Hepatitis C test result (Hepatitis B or C testing is not mandatory).	Eligibility	17
+history	BFO:0000182	0-7
+hepatitis b	DOID:2043	22-33
+hepatitis b	DOID:2043	86-97
+antigen	CHEBI:59132	42-49
+hepatitis c	DOID:1883	61-72
+result	BAO:0000179	78-84
+Impairment of gastrointestinal (GI) function or GI disease (e.g. ulcerative disease, uncontrolled nausea, vomiting, grade  2 diarrhea, malabsorption syndrome or small bowel resection).	Eligibility	18
+function	BAO:0003117,BFO:0000034	36-44
+disease	DOID:4,OGMS:0000031	51-58
+disease	DOID:4,OGMS:0000031	76-83
+nausea	HP:0002018	98-104
+vomiting	HP:0002013	106-114
+diarrhea	HP:0002014,DOID:13250	125-133
+malabsorption	HP:0002024	135-148
+syndrome	DOID:225	149-157
+Peripheral vascular disease requiring active therapy or having had surgery < 12 months prior to starting study drug.	Eligibility	19
+peripheral vascular disease	DOID:341	0-27
+active	PATO:0002354	38-44
+surgery	OAE:0000067	67-74
+drug	CHEBI:23888	111-115
+Impaired cardiac function or clinically significant heart disease (…)	Eligibility	20
+function	BAO:0003117,BFO:0000034	17-25
+heart disease	DOID:114	52-65
+A past medical history of clinically significant ECG abnormalities or a family history of prolonged QT-interval syndrome	Eligibility	21
+past medical history	HP:0032443	2-22
+family history	HP:0032316	72-86
+prolonged	HP:0025297	90-99
+syndrome	DOID:225	112-120
+Other clinically significant heart disease (e.g. congestive heart failure, uncontrolled hypertension, history of labile hypertension, or history of poor compliance with an antihypertensive regimen)	Eligibility	22
+heart disease	DOID:114	29-42
+congestive heart failure	HP:0001635,DOID:6000	49-73
+hypertension	HP:0000822,DOID:10763	88-100
+hypertension	HP:0000822,DOID:10763	120-132
+history	BFO:0000182	102-109
+history	BFO:0000182	137-144
+Patients who are receiving treatment with medications that are known to be strong inhibitors or inducers of CYP3A4/5 (listed in Protocol Attachment 3) or drugs metabolized by CYP2B6 or CYP2C9 (listed in Protocol Attachment 3) that cannot be discontinued prior to study entry and for the duration of the study. Medications that are strong CYP3A4/5 inhibitors should be discontinued for at least 2 days, and strong CYP3A4/5 inducers for at least 1 week prior to initiating LDE225 dosing.	Eligibility	23
+duration	PATO:0001309	287-295
+week	UO:0000034	446-450
+Patients who have received chemotherapy within a period of time that is < the cycle length used for that treatment (e.g. < 3 weeks for fluorouracil, doxorubicine, epirubicin) prior to starting study drug or who have not recovered from the side effects of such therapy.	Eligibility	24
+time	PATO:0000165	59-63
+length	PATO:0000122	84-90
+drug	CHEBI:23888	199-203
+Patients who have received biologic therapy (e.g. antibodies)  4 weeks prior to starting study drug or who have not recovered from the side effects of such therapy.	Eligibility	25
+drug	CHEBI:23888	95-99
+Patients who have been treated with a small molecule therapeutic  5 t1/2 or  4 weeks (whichever is shorter) prior to starting study drug or who have not recovered from the side effects of such therapy.	Eligibility	26
+small molecule	BAO:0000176	38-52
+t1/2	BAO:0002115	68-72
+drug	CHEBI:23888	132-136
+Patients who have received any other investigational agents  5 t1/2 or  4 weeks (whichever is shorter) prior to starting study drug or who have not recovered from the side effects of such therapy.	Eligibility	27
+t1/2	BAO:0002115	63-67
+drug	CHEBI:23888	127-131
+Patients who have received wide field radiotherapy (including therapeutic radioisotopes such as strontium 89)  4 weeks or limited field radiation for palliation  2 weeks prior to starting study drug or who have not recovered from side effects of such therapy.	Eligibility	28
+radiotherapy	OAE:0000235	38-50
+drug	CHEBI:23888	194-198
+Patients who are currently receiving treatment with therapeutic doses of warfarin sodium (Coumadin) who cannot discontinue this treatment at least 5 days prior to starting study drug.	Eligibility	29
+warfarin sodium	CHEBI:10034	73-88
+drug	CHEBI:23888	178-182
+Patients who are currently receiving immunosuppressive treatment and in whom the treatment cannot be discontinued prior to starting study drug, except in the case of patients with basal cell carcinoma (BCC). Immunosuppressive treatment should be discontinued for at least 1 week prior to initiating LDE225 dosing.	Eligibility	30
+drug	CHEBI:23888	138-142
+basal cell carcinoma	HP:0002671,DOID:2513	180-200
+week	UO:0000034	274-278
+…	Eligibility	31
+Outcome Measurement:	Results	0
+Incidence Rate of DLT Within the First Two Cycles of LDE225 (Sonidegib) in Combination With Docetaxel	Results	1
+rate	BAO:0080019	10-14
+sonidegib	CHEBI:90863	61-70
+DLT was defined as the occurrence of any of the following adverse events or abnormal laboratory values (graded according to the NCI-CTCAE version 4.0) assessed as possibly, probably or definitively related to study drugs, occurring within the first two cycles of treatment: Neutropenia grade 4 lasting more than one week, febrile neutropenia, thrombocytopenia grade 3 with bleeding more than grade 2, thrombocytopenia grade 4, Increased plasma creatinine phosphokinase (CK) grade 3-4, any non-hematologic grade 4 toxicity, or grade 3 toxicity except nausea and vomiting, Grade 2 GI toxicity (except nausea and vomiting) lasting more than 2 weeks, Inability to resume dosing for cycles 2 or 3 at the current dose level within 14 days, due to treatment-related toxicity. Dose reductions in cycles 1 and 2 will be considered a DLT	Results	2
+neutropenia	HP:0001875,DOID:1227	274-285
+neutropenia	HP:0001875,DOID:1227	330-341
+week	UO:0000034	316-320
+week	UO:0000034	640-644
+thrombocytopenia	HP:0001873,DOID:1588	343-359
+thrombocytopenia	HP:0001873,DOID:1588	401-417
+creatinine	CHEBI:16737	444-454
+nausea and vomiting	HP:0002017	550-569
+nausea and vomiting	HP:0002017	599-618
+Time frame: Up to cycle 2	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: LDE225 (Sonidegib) 400mg in Combination With Docetaxel	Results	5
+sonidegib	CHEBI:90863	25-34
+Arm/Group Description: Cohort 1: Eligible patients were included and treated with docetaxel intravenously (75mg/m2) in every 3 weeks cycles and LDE225 400mg was administered orally QD. Treatment was repeated on day 1 of a 21-day cycle until radiographic or symptomatic progression, unacceptable toxicity or withdraws informed consent.	Results	6
+day	UO:0000033	211-214
+day	UO:0000033	225-228
+Overall Number of Participants Analyzed: 5	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  0   0.0%	Results	9
+Results 2:	Results	10
+Arm/Group Title: LDE225 (Sonidegib) 600mg in Combination With Docetaxel	Results	11
+sonidegib	CHEBI:90863	25-34
+Arm/Group Description: Cohort 2: Eligible patients were included and treated with docetaxel intravenously (75mg/m2) in every 3 weeks cycles and LDE225 600mg was administered orally QD. Treatment was repeated on day 1 of a 21-day cycle until radiographic or symptomatic progression, unacceptable toxicity or withdraws informed consent.	Results	12
+day	UO:0000033	211-214
+day	UO:0000033	225-228
+Overall Number of Participants Analyzed: 4	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  0   0.0%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/5 (0.00%)	Adverse Events	1
+Overdose *  [1]0/5 (0.00%)	Adverse Events	2
+Adverse Events 2:	Adverse Events	3
+Total: 1/4 (25.00%)	Adverse Events	4
+Overdose *  [1]1/4 (25.00%)	Adverse Events	5

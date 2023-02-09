@@ -1,0 +1,150 @@
+INTERVENTION 1:	Intervention	0
+TPI 287	Intervention	1
+TPI 287 administered at 160 mg/m2 by vein on Day 1 and repeated every three weeks. Day 1 of each subsequent cycle is equivalent of day 22 of the previous cycle; pre TPI 287: Dexamethasone 6 mg by mouth at 12 hours and 6 hours prior to treatment. As alternative and based on the treating physician discretion, Dexamethasone 10 mg by vein may be given 30-60 minutes prior to treatment with TPI 287, Benadryl 12.5-25 mg IV push over 30-60 minutes, and Ranitidine 1mg/kg IV over 30-60 minutes.	Intervention	2
+vein	UBERON:0001638	37-41
+vein	UBERON:0001638	332-336
+day	UO:0000033	45-48
+day	UO:0000033	83-86
+day	UO:0000033	131-134
+dexamethasone	CHEBI:41879	174-187
+dexamethasone	CHEBI:41879	309-322
+mouth	UBERON:0000165	196-201
+ranitidine	CHEBI:8776	449-459
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically proven breast cancer with metastatic disease to the brain.	Eligibility	1
+breast cancer	DOID:1612	41-54
+disease	DOID:4,OGMS:0000031	71-78
+brain	UBERON:0000955	86-91
+Patients must have measurable disease on MRI that has progressed after prior therapy. PD will be defined as a>/= 25% increase in the sum of the products of greatest perpendicular diameters of all measurable disease over the smallest sum observed (since treatment started) on Gd-MRI, the appearance of new lesions on scan, or clinical or neurologic worsening despite stable disease on the last 2 scans.	Eligibility	2
+disease	DOID:4,OGMS:0000031	30-37
+disease	DOID:4,OGMS:0000031	207-214
+disease	DOID:4,OGMS:0000031	373-380
+increase	BAO:0001251	117-125
+stable	HP:0031915	366-372
+Patients may have had any number of prior surgeries, radiation and/or chemotherapy regimens as adjuvant, neoadjuvant or palliative therapy for the treatment of their disease	Eligibility	3
+adjuvant	CHEBI:60809	95-103
+adjuvant	CHEBI:60809	108-116
+disease	DOID:4,OGMS:0000031	166-173
+Patients must be >/=18 years of age.	Eligibility	4
+age	PATO:0000011	32-35
+Patients must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0,1 or 2.	Eligibility	5
+group	CHEBI:24433	51-56
+Patients must have adequate bone marrow function as evidenced by an absolute neutrophil count >/=1,500/microliters and a platelet count >/=100,000/microliter, adequate renal function as evidenced by serum creatinine </=2.0 mg/dL, adequate hepatic function as evidenced by serum total bilirubin </=2.0 mg/dL, AST/serum glutamate oxaloacetate transaminase (SGOT) and ALT/serum glutamate pyruvate transaminase (SGPT) </= 3X the upper limit of normal (ULN).	Eligibility	6
+bone marrow	UBERON:0002371	28-39
+function	BAO:0003117,BFO:0000034	40-48
+function	BAO:0003117,BFO:0000034	174-182
+function	BAO:0003117,BFO:0000034	247-255
+platelet count	CMO:0000029	121-135
+creatinine	CHEBI:16737	205-215
+glutamate	CHEBI:14321,BAO:0000926	318-327
+glutamate	CHEBI:14321,BAO:0000926	375-384
+pyruvate	CHEBI:15361	385-393
+Patients must have recovered and healed from the effects of any prior surgery, must have received prior chemotherapy at least 2 weeks prior to dosing with adequate recovery of white blood cell count (WBC) and platelet counts, and at least 12 weeks must have elapsed from the completion of radiotherapy, unless there are new lesions appearing on imaging within this 12 weeks frame.	Eligibility	7
+surgery	OAE:0000067	70-77
+white blood cell count	CMO:0000027	176-198
+radiotherapy	OAE:0000235	289-301
+Women of child-bearing potential (i.e. </= 50 years of age or has had menstrual cycle within the past 12 months, if > 50 years of age. If in doubt, check FSH, LH and estradiol level) must have a negative urine or serum pregnancy test at screening.	Eligibility	8
+age	PATO:0000011	55-58
+age	PATO:0000011	130-133
+menstrual cycle	GO:0044850	70-85
+estradiol	CHEBI:23965	166-175
+urine	UBERON:0001088	204-209
+Sexually active patients must agree to use adequate contraception (abstinence or barrier contraceptives must be used throughout the trial and one month after end of treatment) for the duration of the study .	Eligibility	9
+active	PATO:0002354	9-15
+month	UO:0000035	146-151
+duration	PATO:0001309	184-192
+Patients or their legal representative must be able to read, understand and sign an informed consent form (ICF).	Eligibility	10
+TPI 287 may interfere with coumadin dosing and patients who are taking this combination will require monitoring of their PT, PTT and international normalized ratio (INR).	Eligibility	11
+ratio	UO:0000190	158-163
+Exclusion Criteria:	Eligibility	12
+Patients who are receiving concurrent enzyme-inducing anti-epileptic drugs (EIAEDs) (e.g., carbamazepine, oxcarbazepine, phenytoin, fosphenytoin, phenobarbital and primidone) or who received EIAEDs within 2 weeks prior to the first dose of study drug.	Eligibility	13
+carbamazepine	CHEBI:3387	91-104
+oxcarbazepine	CHEBI:7824	106-119
+phenytoin	CHEBI:8107	121-130
+phenytoin	CHEBI:8107	135-144
+fosphenytoin	CHEBI:5165	132-144
+phenobarbital	CHEBI:8069	146-159
+primidone	CHEBI:8412	164-173
+drug	CHEBI:23888	69-73
+drug	CHEBI:23888	246-250
+Patients with uncontrolled intracranial hypertension syndrome (defined as: persistence of headache, transient visual obscurations, and/or diplopia despite optimal clinical management) or uncontrolled seizure activity (i.e. recorded despite optimal medical management).	Eligibility	14
+intracranial hypertension	DOID:9428	27-52
+syndrome	DOID:225	53-61
+headache	HP:0002315	90-98
+transient	HP:0025153	100-109
+diplopia	HP:0000651	138-146
+seizure	HP:0001250	200-207
+Patients who are not on a stable or decreasing steroid dose for the previous week prior to the first dose of study enrollment	Eligibility	15
+stable	HP:0031915	26-32
+steroid	CHEBI:35341	47-54
+week	UO:0000034	77-81
+Patients who are taking bevacizumab or have taken bevacizumab within the past 2 weeks for treatment of their brain metastases	Eligibility	16
+brain	UBERON:0000955	109-114
+Patients with an active infection (i.e., clinical signs or symptoms, including, but not limited to: bleeding/pustulant skin infections; productive cough associated with fever) on antibiotics or with a fever >/=38.5°C within 3 days prior to registration (i.e. date when the patient signs the consent and/or the patient is registered in CORE).	Eligibility	17
+active	PATO:0002354	17-23
+productive cough	HP:0031245	136-152
+fever	HP:0001945	169-174
+fever	HP:0001945	201-206
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	273-280
+patient	HADO:0000008,OAE:0001817	310-317
+Patients with New York Heart Association (NYHA) Class 3 or 4 congestive heart failure.	Eligibility	18
+heart	UBERON:0000948	23-28
+heart	UBERON:0000948	72-77
+congestive heart failure	HP:0001635,DOID:6000	61-85
+Patients with known HIV or Hepatitis B or C	Eligibility	19
+hepatitis b	DOID:2043	27-38
+Patients who are pregnant or lactating or not practicing adequate contraception	Eligibility	20
+Patients with any other medical condition, including mental illness or substance abuse, deemed by the Investigator to be likely to interfere with the patient's ability to sign the ICF or his/her ability to cooperate and participate in the study, or to interfere with the interpretation of the results.	Eligibility	21
+condition	PDRO:0000129	32-41
+substance abuse	DOID:302	71-86
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	150-157
+Patients who are receiving concomitant systemic therapy for breast cancer.	Eligibility	22
+breast cancer	DOID:1612	60-73
+Patients with leptomeningeal disease (LMD) or with a history of LMD will be excluded.	Eligibility	23
+disease	DOID:4,OGMS:0000031	29-36
+history	BFO:0000182	53-60
+excluded	HP:0040285	76-84
+Outcome Measurement:	Results	0
+Overall Response Rate (ORR)	Results	1
+rate	BAO:0080019	17-21
+Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR."	Results	2
+target	BAO:0003064	76-82
+target	BAO:0003064	157-163
+target	BAO:0003064	249-255
+diameter	PATO:0001334	237-245
+Time frame: 8-24 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: TPI 287	Results	5
+Arm/Group Description: TPI 287 administered at 160 mg/m2 by vein on Day 1 and repeated every three weeks. Day 1 of each subsequent cycle is equivalent of day 22 of the previous cycle; pre TPI 287: Dexamethasone 6 mg by mouth at 12 hours and 6 hours prior to treatment. As alternative and based on the treating physician discretion, Dexamethasone 10 mg by vein may be given 30-60 minutes prior to treatment with TPI 287, Benadryl 12.5-25 mg IV push over 30-60 minutes, and Ranitidine 1mg/kg IV over 30-60 minutes.	Results	6
+vein	UBERON:0001638	60-64
+vein	UBERON:0001638	355-359
+day	UO:0000033	68-71
+day	UO:0000033	106-109
+day	UO:0000033	154-157
+dexamethasone	CHEBI:41879	197-210
+dexamethasone	CHEBI:41879	332-345
+mouth	UBERON:0000165	219-224
+ranitidine	CHEBI:8776	472-482
+Overall Number of Participants Analyzed: 21	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  21 100.0%	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 6/21 (28.57%)	Adverse Events	1
+Hypertension 3/21 (14.29%)	Adverse Events	2
+hypertension	HP:0000822,DOID:10763	0-12
+Edema 3/21 (14.29%)	Adverse Events	3
+edema	HP:0000969	0-5
+Nausea 2/21 (9.52%)	Adverse Events	4
+nausea	HP:0002018	0-6
+Fracture 1/21 (4.76%)	Adverse Events	5
+Dizziness 3/21 (14.29%)	Adverse Events	6
+Syncope 2/21 (9.52%)	Adverse Events	7
+syncope	HP:0001279	0-7
+Headache 2/21 (9.52%)	Adverse Events	8
+headache	HP:0002315	0-8
+Dyspnea 2/21 (9.52%)	Adverse Events	9
+dyspnea	HP:0002094	0-7
+Hypoxia 3/21 (14.29%)	Adverse Events	10

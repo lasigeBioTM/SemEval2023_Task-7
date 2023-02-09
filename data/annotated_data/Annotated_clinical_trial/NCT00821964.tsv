@@ -1,0 +1,119 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Biological Therapy, Chemo)	Intervention	1
+Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.	Intervention	2
+imiquimod	CHEBI:36704	84-93
+disease	DOID:4,OGMS:0000031	224-231
+imiquimod: Given topically	Intervention	3
+imiquimod	CHEBI:36704	0-9
+Abraxane: Given IV	Intervention	4
+laboratory biomarker analysis: Correlative studies	Intervention	5
+biomarker	CHEBI:59163	11-20
+RNA analysis: Correlative studies	Intervention	6
+rna	BAO:0000270	0-3
+immunoenzyme technique: Correlative studies	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Patients with advanced stage refractory breast cancer	Eligibility	1
+refractory	HP:0031375	29-39
+breast cancer	DOID:1612	40-53
+Progressive or relapsed disease following standard therapy with chemotherapy and/or surgery, and/or radiation	Eligibility	2
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	24-31
+surgery	OAE:0000067	84-91
+Patients must have measurable (bi-dimensional) chest wall disease and/or cutaneous metastatic lesions	Eligibility	3
+chest	UBERON:0001443	47-52
+disease	DOID:4,OGMS:0000031	58-65
+Patients must be at least 7 days from last chemotherapy and 30 days from local radiotherapy and/or systemic steroids	Eligibility	4
+radiotherapy	OAE:0000235	79-91
+Patients on bisphosphonates, trastuzumab, lapatinib and/or hormonal therapy are eligible	Eligibility	5
+lapatinib	CHEBI:49603	42-51
+White blood cell count >= 1000/ul	Eligibility	6
+white blood cell count	CMO:0000027	0-22
+Absolute neutrophil count (ANC) >= 1200/ul	Eligibility	7
+Platelets > 75,000/ul	Eligibility	8
+Serum creatinine =< 2.0 mg/dL, a creatinine clearance > 60 ml/min	Eligibility	9
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	33-43
+creatinine clearance	CMO:0000765	33-53
+Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) < 2 X upper limit normal (ULN)	Eligibility	10
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	35-44
+x	LABO:0000148	72-73
+Total bilirubin < 2 X ULN	Eligibility	11
+x	LABO:0000148	20-21
+Patients must have a Performance Status Score (Eastern Cooperative Oncology Group [ECOG] Scale) =< 2	Eligibility	12
+group	CHEBI:24433	76-81
+Patients must have recovered from major infections and/or surgical procedures and, in the opinion of the investigator, not have a significant active concurrent medical illness precluding protocol treatment	Eligibility	13
+active	PATO:0002354	142-148
+Men and women of reproductive ability must agree to contraceptive use during the study and for 1 month after imiquimod/Abraxane treatment is discontinued	Eligibility	14
+month	UO:0000035	97-102
+Exclusion Criteria:	Eligibility	15
+Patients with prior allergic reaction to taxanes	Eligibility	16
+Patients with any clinically significant active autoimmune disease requiring active treatment with systemic steroids or other immunomodulators	Eligibility	17
+active	PATO:0002354	41-47
+active	PATO:0002354	77-83
+autoimmune disease	DOID:417	48-66
+Pregnant or breast-feeding women	Eligibility	18
+Patients with peripheral neuropathy >= Grade 2	Eligibility	19
+peripheral neuropathy	HP:0009830,DOID:870	14-35
+Outcome Measurement:	Results	0
+Anti-tumor Effects of Imiquimod as Assessed by Modified World Health Organization (WHO) Criteria	Results	1
+imiquimod	CHEBI:36704	22-31
+Tumor responses will be determined using the sum of the products of the largest perpendicular dimensions. Target lesions will be evaluated by the following response criteria: complete response (CR), partial response (PR), stable disease (SD), or progressive disease (PD).	Results	2
+target	BAO:0003064	106-112
+stable	HP:0031915	222-228
+disease	DOID:4,OGMS:0000031	229-236
+disease	DOID:4,OGMS:0000031	258-265
+progressive	HP:0003676	246-257
+Evaluation of target lesions per modified WHO response criteria:	Results	3
+target	BAO:0003064	14-20
+Complete response (CR): complete clearance (100%) of target lesion(s)	Results	4
+target	BAO:0003064	53-59
+Partial response (PR):  50% decrease in target lesion size	Results	5
+target	BAO:0003064	40-46
+size	PATO:0000117	54-58
+Stable disease (SD): < 50% decrease in target lesion size	Results	6
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+target	BAO:0003064	39-45
+size	PATO:0000117	53-57
+Progressive (PD):  25% increase in target lesion size Overall Response Rate (ORR) determined at end of study treatment which was 1 week after cycle #3, unless patient was withdrawn from study. If patient was withdrawn from study, then ORR was determined after their last cycle of treatment received.	Results	7
+progressive	HP:0003676	0-11
+increase	BAO:0001251	23-31
+target	BAO:0003064	35-41
+size	PATO:0000117	49-53
+rate	BAO:0080019	71-75
+week	UO:0000034	131-135
+patient	HADO:0000008,OAE:0001817	159-166
+patient	HADO:0000008,OAE:0001817	196-203
+Time frame: Baseline and then every 4 weeks until week 24	Results	8
+time	PATO:0000165	0-4
+week	UO:0000034	38-42
+week	UO:0000034	50-54
+Results 1:	Results	9
+Arm/Group Title: Treatment (Biological Therapy, Chemo)	Results	10
+Arm/Group Description: Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.	Results	11
+imiquimod	CHEBI:36704	107-116
+disease	DOID:4,OGMS:0000031	247-254
+imiquimod: Given topically	Results	12
+imiquimod	CHEBI:36704	0-9
+Abraxane: Given IV	Results	13
+laboratory biomarker analysis: Correlative studies	Results	14
+biomarker	CHEBI:59163	11-20
+RNA analysis: Correlative studies	Results	15
+rna	BAO:0000270	0-3
+immunoenzyme technique: Correlative studies	Results	16
+Overall Number of Participants Analyzed: 14	Results	17
+Measure Type: Count of Participants	Results	18
+Unit of Measure: Participants  Total Evaluated in this Outcome Measure: 14 100.0%	Results	19
+Complete Response (CR): 5  35.7%	Results	20
+Partial Response (PR): 5  35.7%	Results	21
+Stable Disease (SD): 3  21.4%	Results	22
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease (PD): 1   7.1%	Results	23
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Adverse Events 1:	Adverse Events	0
+Total: 1/15 (6.67%)	Adverse Events	1
+Pain 1/15 (6.67%)	Adverse Events	2
+pain	HP:0012531	0-4

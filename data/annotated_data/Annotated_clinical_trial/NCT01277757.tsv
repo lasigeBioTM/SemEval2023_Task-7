@@ -1,0 +1,168 @@
+INTERVENTION 1:	Intervention	0
+Akt Inhibitor MK-2206	Intervention	1
+inhibitor	CHEBI:35222	4-13
+mk-2206	CHEBI:67271	14-21
+Akt Inhibitor MK-2206 orally once a week on days 1, 8, 15, and 22. Starting dose 200 mg, courses repeat every 28 days.	Intervention	2
+inhibitor	CHEBI:35222	4-13
+mk-2206	CHEBI:67271	14-21
+week	UO:0000034	36-40
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed breast cancer, with diagnosed or suspected metastatic, inoperable locally advanced breast cancer, or inoperable locally recurrent breast cancer	Eligibility	1
+breast cancer	DOID:1612	61-74
+breast cancer	DOID:1612	144-157
+breast cancer	DOID:1612	191-204
+recurrent	HP:0031796	181-190
+Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded for non-nodal lesions and short axis for nodal lesions) as > 20 mm with conventional techniques or as > 10 mm with spiral computed tomography (CT) scan	Eligibility	2
+disease	DOID:4,OGMS:0000031	30-37
+diameter	PATO:0001334	137-145
+tomography	BAO:0002525	292-302
+ct	BAO:0002125	304-306
+Patients who have failed to respond to at least one line of systemic therapy are eligible for MK2206 therapy; if the patient has a human epidermal growth factor receptor 2 (HER2) positive tumor, it is expected that they will have received at least one HER2-targeted therapy in the metastatic setting; if the patient has an estrogen receptor positive (ER+) tumor, it is expected that they will have received at least one ER-targeted therapy in the metastatic setting; patients can be enrolled for molecular screening while on another therapy if the patient is interested in MK2206 therapy upon progression	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	117-124
+patient	HADO:0000008,OAE:0001817	308-315
+patient	HADO:0000008,OAE:0001817	467-474
+patient	HADO:0000008,OAE:0001817	548-555
+growth factor	BAO:0002024	147-160
+receptor	BAO:0000281	161-169
+receptor	BAO:0000281	332-340
+estrogen	CHEBI:50114,BAO:0000760	323-331
+Archived primary tumor biopsies or surgical specimens, or biopsies of recurrence or metastasis, will be available for PIK3CA/Akt mutational analysis and PTEN analysis; patients with surgical samples, or core/punch biopsies available, will be eligible for testing for PIK3CA/Akt status as well as PTEN testing; the most recent sample will be preferred (i.e. in patients with metastatic disease, metastases samples are preferred over archival primary tumor and in patients with local recurrences a biopsy of the recurrence is preferred over archival primary tumor); NOTE: PIK3CA or Akt mutation status can be determined on fine needle aspirate (FNA) samples, but PTEN status cannot as stroma and endothelial cells are used as internal controls and PTEN testing has not been validated on FNA samples; thus patients with only FNA samples and no tissue blocks available will be considered to be eligible for screening for PIK3CA/Akt mutations and will be enrolled onto the study only if they are found to have PIK3CA mutations or Akt mutations; patients whose tumors have already been tested in the Clinical Laboratory Improvement Amendments (CLIA) environment and have been found to have a PIK3CA mutation or Akt mutation or PTEN loss by immunohistochemistry (IHC) or PTEN mutation will be eligible for treatment; patients whose tumors have been tested in the research environment and found to have a PIK3CA mutation or Akt mutation or PTEN loss or PTEN mutation will have their marker status confirmed in the CLIA environment	Eligibility	4
+disease	DOID:4,OGMS:0000031	385-392
+tissue	UBERON:0000479	841-847
+immunohistochemistry	BAO:0000415	1234-1254
+Patients whose tumors have already been tested in the CLIA environment and have been found to have a PIK3CA mutation or Akt mutation or PTEN loss or mutation will be eligible for treatment; patients whose tumors have been tested in the research environment and found to have a PIK3CA mutation or Akt mutation or PTEN loss or mutation will have their marker status confirmed in the CLIA environment.	Eligibility	5
+Patient will have a tumor suitable for FNA and/or core/punch biopsy for research purposes	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+Patient must have Eastern Cooperative Oncology Group (ECOG) performance status 0-1	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+group	CHEBI:24433	47-52
+Absolute neutrophil count (ANC) >= 1,000/uL	Eligibility	8
+Platelets >= 100,000/uL	Eligibility	9
+Hemoglobin (Hgb) >= 9 g/dL	Eligibility	10
+hemoglobin	CHEBI:35143	0-10
+Creatinine =< 1.5 X upper limit of normal (ULN)	Eligibility	11
+creatinine	CHEBI:16737	0-10
+x	LABO:0000148	18-19
+Prothrombin time (PT), partial thromboplastin time (PTT) =< 1.2 X ULN	Eligibility	12
+prothrombin time	CMO:0000211	0-16
+time	PATO:0000165	12-16
+time	PATO:0000165	46-50
+x	LABO:0000148	64-65
+Total bilirubin =< 1.5 X ULN	Eligibility	13
+x	LABO:0000148	23-24
+Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) < 2.5 X ULN	Eligibility	14
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	35-44
+x	LABO:0000148	74-75
+Patients of childbearing potential must have a negative serum or urine pregnancy test beta-human chorionic gonadotropin (hCG) within 72 hours prior to study registration	Eligibility	15
+urine	UBERON:0001088	65-70
+chorionic gonadotropin	CHEBI:81570	97-119
+Women of childbearing potential and men must use two forms of contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, for the duration of study participation and also for 4 weeks after the end of therapy; should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, the patient should inform the treating physician immediately	Eligibility	16
+duration	PATO:0001309	164-172
+patient	HADO:0000008,OAE:0001817	362-369
+Patient must have completed any systemic therapy regimens and therapeutic radiation a minimum of 21 days prior to initiation of study therapy	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	18
+document	IAO:0000310	77-85
+>= 6 months life expectancy as documented in patient records	Eligibility	19
+patient	HADO:0000008,OAE:0001817	45-52
+Exclusion Criteria:	Eligibility	20
+Patients who have had chemotherapy or radiotherapy within 3 weeks (6 weeks for nitrosoureas or mitomycin C) prior to entering the study or those who have not recovered from adverse events to grade 1 or less due to agents administered more than 3 weeks earlier	Eligibility	21
+radiotherapy	OAE:0000235	38-50
+mitomycin c	CHEBI:27504	95-106
+Patients may have received prior investigational therapies; however, they not be receiving any other investigational agents concurrent with MK2206; patients must have completed therapy a minimum of 21 days prior to initiation of study therapy	Eligibility	22
+Patients may not have received treatment with another inhibitor of phosphatidylinositol 3 kinase (PI3K), Akt or mammalian target of rapamycin (mTOR) in the neoadjuvant, adjuvant or metastatic setting with the exception of rapalogs; patients with metastatic breast cancer, who received PI3K/Akt/mTOR inhibitors on short preoperative window trials (treatment for 4 weeks or less), will be eligible if the treatment was over 6 months prior to registration; patients must have completed therapies a minimum of 21 days prior to initiation of study therapy	Eligibility	23
+inhibitor	CHEBI:35222	54-63
+inhibitor	CHEBI:35222	299-308
+phosphatidylinositol	CHEBI:28874	67-87
+kinase	BAO:0000294	90-96
+mammalian	BAO:0000362	112-121
+target	BAO:0003064	122-128
+adjuvant	CHEBI:60809	159-167
+adjuvant	CHEBI:60809	169-177
+breast cancer	DOID:1612	257-270
+Patients with known brain metastases should be excluded from this clinical trial; patients will not undergo pre-treatment imaging of the brain, unless clinically indicated	Eligibility	24
+brain	UBERON:0000955	20-25
+brain	UBERON:0000955	137-142
+excluded	HP:0040285	47-55
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to MK2206 or other agents used in the study	Eligibility	25
+history	BFO:0000182	0-7
+Patients receiving any medications or substances that are potent inhibitors or inducers of cytochrome P450, family 3, subfamily A, polypeptide 4 (CYP 450 3A4) are ineligible; however, patients will be permitted regular dietary consumption of caffeine; glyburide will be allowed for the treatment of hyperglycemia	Eligibility	26
+cytochrome p450	CHEBI:38559	91-106
+polypeptide	CHEBI:15841	131-142
+caffeine	CHEBI:27732	242-250
+glyburide	CHEBI:5441	252-261
+hyperglycemia	HP:0003074,DOID:4195	299-312
+Patients with diabetes or in risk for hyperglycemia should not be excluded, but patients with poorly controlled diabetes (glycated hemoglobin [HBA1C] > 8%) should be excluded	Eligibility	27
+hyperglycemia	HP:0003074,DOID:4195	38-51
+excluded	HP:0040285	66-74
+excluded	HP:0040285	166-174
+hemoglobin	CHEBI:35143	131-141
+Baseline corrected QT by Fridericia's formula (QTcF) > 450 msec (male) or QTcF >b470 msec (female) will exclude patients from entry on study	Eligibility	28
+male	CHEBI:30780,PATO:0000384	65-69
+male	CHEBI:30780,PATO:0000384	93-97
+female	PATO:0000383	91-97
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	29
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Baseline bradycardia related to cardiac disease, or significant bundle branch block	Eligibility	30
+bradycardia	HP:0001662	9-20
+disease	DOID:4,OGMS:0000031	40-47
+bundle branch block	HP:0011710	64-83
+Pregnant women are excluded from this study; breastfeeding should be discontinued if the mother is treated with MK2206	Eligibility	31
+excluded	HP:0040285	19-27
+Human immunodeficiency virus (HIV)-positive patients on combination antiretroviral therapy are ineligible	Eligibility	32
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+Patients at high risk for coagulopathy	Eligibility	33
+Liver disease burden greater or equal to 50 percent	Eligibility	34
+liver disease	DOID:409	0-13
+percent	UO:0000187	44-51
+Need for blood or platelet transfusion within one month from baseline laboratory testing as well as within treatment initiation	Eligibility	35
+blood	UBERON:0000178	9-14
+month	UO:0000035	50-55
+Outcome Measurement:	Results	0
+Number of Participants With Response Defined Using Response Evaluation Criteria In Solid Tumors (RECIST)	Results	1
+Number of participants with response defined by RECIST version 1.1: Complete Response (CR): Disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to <10 mm. Partial Response (PR): At least a 30% decrease in the sum of the diameters of target lesions, taking as reference the baseline sum diameters. Progressive Disease (PD): At least a 20% increase in the sum of the diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. (Note: appearance of one or more new lesions is also considered progressions). Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum diameters while on study.	Results	2
+target	BAO:0003064	113-119
+target	BAO:0003064	167-173
+target	BAO:0003064	181-187
+target	BAO:0003064	312-318
+target	BAO:0003064	457-463
+lymph	UBERON:0002391	146-151
+progressive	HP:0003676	376-387
+disease	DOID:4,OGMS:0000031	388-395
+disease	DOID:4,OGMS:0000031	786-793
+increase	BAO:0001251	417-425
+increase	BAO:0001251	614-622
+increase	BAO:0001251	673-681
+increase	BAO:0001251	862-870
+stable	HP:0031915	779-785
+Time frame: Up to 3 weeks after completion of study treatment, for up to 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	75-79
+Results 1:	Results	4
+Arm/Group Title: Akt Inhibitor MK-2206	Results	5
+inhibitor	CHEBI:35222	21-30
+mk-2206	CHEBI:67271	31-38
+Arm/Group Description: Akt Inhibitor MK-2206 orally once a week on days 1, 8, 15, and 22. Starting dose 200 mg, courses repeat every 28 days.	Results	6
+inhibitor	CHEBI:35222	27-36
+mk-2206	CHEBI:67271	37-44
+week	UO:0000034	59-63
+Overall Number of Participants Analyzed: 21	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Complete Response (CR): 0	Results	9
+Partial Response (PR): 1	Results	10
+Progressive Disease (PD): 20	Results	11
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Stable Disease (SD): 0	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Adverse Events 1:	Adverse Events	0
+Total: 1/28 (3.57%)	Adverse Events	1
+Hematocrit drop 1/28 (3.57%)	Adverse Events	2
+hematocrit	CMO:0000037	0-10

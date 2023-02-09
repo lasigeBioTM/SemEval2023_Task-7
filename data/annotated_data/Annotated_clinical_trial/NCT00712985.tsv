@@ -1,0 +1,143 @@
+INTERVENTION 1:	Intervention	0
+Zoledronic Acid 5 mg IV	Intervention	1
+zoledronic acid	CHEBI:46557	0-15
+Zometa (Zoledronic Acid) 5 mg IV given over 15 minutes as a one time dose. Follow-up at month 1 & every 2 months to month 12 for serum & urine markers of bone destruction (NTx & CTx).	Intervention	2
+zoledronic acid	CHEBI:46557	8-23
+time	PATO:0000165	64-68
+month	UO:0000035	88-93
+month	UO:0000035	106-111
+month	UO:0000035	116-121
+urine	UBERON:0001088	137-142
+Inclusion Criteria:	Eligibility	0
+Postmenopausal women with Stage I, II or IIIa breast cancer being treated with a non-steroidal Aromatase Inhibitor (AI) .Negative bone scan (no bone metastases).	Eligibility	1
+breast cancer	DOID:1612	46-59
+inhibitor	CHEBI:35222	105-114
+Calculated creatinine clearance > 40 ml/min	Eligibility	2
+creatinine clearance	CMO:0000765	11-31
+Documented T score of less than or equal to -1.5 on Dual Energy X-ray Absorptiionmetry (DXA) scan at the lumbar spine or femoral neck within 3 months prior to screening.	Eligibility	3
+t	CHEBI:36371,BAO:0001260	7-8
+t	CHEBI:36371,BAO:0001260	11-12
+t	CHEBI:36371,BAO:0001260	27-28
+t	CHEBI:36371,BAO:0001260	41-42
+t	CHEBI:36371,BAO:0001260	76-77
+t	CHEBI:36371,BAO:0001260	83-84
+t	CHEBI:36371,BAO:0001260	99-100
+t	CHEBI:36371,BAO:0001260	101-102
+t	CHEBI:36371,BAO:0001260	136-137
+t	CHEBI:36371,BAO:0001260	146-147
+t	CHEBI:36371,BAO:0001260	156-157
+neck	GO:0044326,UBERON:0000974	129-133
+Urine NTx > 50 nano moles(nM)based on second morning void.	Eligibility	4
+urine	UBERON:0001088	0-5
+second	UO:0000010	38-44
+Signed informed consent.	Eligibility	5
+Ambulatory patients at least 18 years of age.	Eligibility	6
+age	PATO:0000011	41-44
+Eastern Cooperative Oncology Group (ECOG)0-2.	Eligibility	7
+group	CHEBI:24433	29-34
+Ability to comply with trial requirements.	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Bone Metastases.	Eligibility	10
+Any woman of child bearing potential.	Eligibility	11
+Patients with fractures occurring within three months prior to randomization. - Greater than a 2+ protein on urine dipstick without evidence of contamination or bacteriuria (may be repeated one time, at least a day apart).	Eligibility	12
+protein	CHEBI:36080,BAO:0000175	98-105
+urine	UBERON:0001088	109-114
+bacteriuria	HP:0012461,DOID:1412	161-172
+time	PATO:0000165	194-198
+day	UO:0000033	211-214
+Calculated creatinine clearance less than 30 mL/min at screening.	Eligibility	13
+creatinine clearance	CMO:0000765	11-31
+Serum calcium > 2.75 mmol/L (11.0 mg/dL) or < 2.00 mmol/L (8.0 mg/dL).	Eligibility	14
+calcium	CHEBI:22984,BAO:0000874	6-13
+Liver Function tests (LFT)> 2.0 x upper limit of normal (ULN).	Eligibility	15
+liver	UBERON:0002107	0-5
+function	BAO:0003117,BFO:0000034	6-14
+x	LABO:0000148	32-33
+Serum alkaline phosphatase > 1.5 x ULN. History of hypersensitivity to bisphosphonates.	Eligibility	16
+phosphatase	GO:0016791,BAO:0000295	15-26
+x	LABO:0000148	33-34
+history	BFO:0000182	40-47
+hypersensitivity	GO:0002524,DOID:1205	51-67
+Evidence of vitamin D deficiency (serum 25-(OH) D of less than 15 ng/ml).	Eligibility	17
+vitamin d	CHEBI:27300	12-21
+History of uveitis or iritis, except when secondary to trauma, and must have resolved > 2 years prior to entry.	Eligibility	18
+history	BFO:0000182	0-7
+uveitis	HP:0000554,DOID:13141	11-18
+iritis	HP:0001101,DOID:1406	22-28
+A history of invasive malignancy of any organ system, treated or untreated, within the past 12 months prior to screening; excluding, basal cell or squamous cell carcinoma of the skin, colonic polyps with non-invasive malignancy which have been removed, Ductal Carcinoma in-situ (DCIS) that has been surgically removed, and Carcinoma in-situ (CIS) of the uterine cervix that has been surgically removed.	Eligibility	19
+history	BFO:0000182	2-9
+organ	UBERON:0000062	40-45
+squamous cell carcinoma of the skin	HP:0006739	147-182
+carcinoma	HP:0030731,DOID:305	161-170
+carcinoma	HP:0030731,DOID:305	260-269
+carcinoma	HP:0030731,DOID:305	323-332
+uterine cervix	UBERON:0000002	354-368
+Previous major solid organ transplant recipient or on a transplant waiting list.	Eligibility	20
+organ	UBERON:0000062	21-26
+Treatment with any investigational drug within 30 days prior to randomization.	Eligibility	21
+drug	CHEBI:23888	35-39
+History of hyperparathyroidism, hypoparathyroidism, Osteogenesis imperfecta, Paget's disease or any metabolic bone disease other than osteoporosis.	Eligibility	22
+history	BFO:0000182	0-7
+hyperparathyroidism	HP:0000843,DOID:13543	11-30
+hypoparathyroidism	HP:0000829,DOID:11199	32-50
+osteogenesis imperfecta	DOID:12347	52-75
+disease	DOID:4,OGMS:0000031	85-92
+disease	DOID:4,OGMS:0000031	115-122
+bone disease	DOID:0080001	110-122
+osteoporosis	HP:0000939,DOID:11476	134-146
+Any medical condition which would interfere with the action of the study drug or limit life expectancy to less than 6 months.	Eligibility	23
+condition	PDRO:0000129	12-21
+drug	CHEBI:23888	73-77
+Any medical or psychiatric condition which, in the opinion of the investigator, would preclude the participant from adhering to the protocol or completing the trial.	Eligibility	24
+condition	PDRO:0000129	27-36
+Prior treatment with IV bisphosphonates within the last 2 years.	Eligibility	25
+Previous use of oral bisphosphonates within the past 2 years (unless used for less than 8 weeks*). *NOTE: If used less than 8 weeks, the washout period is 6 months.	Eligibility	26
+Treatment with raloxifene, calcitonin, tibolone or hormone replacement therapy. The washout period for these medications is 6 months prior to randomization.	Eligibility	27
+raloxifene	CHEBI:8772	15-25
+calcitonin	CHEBI:3306	27-37
+tibolone	CHEBI:32223	39-47
+hormone	CHEBI:24621	51-58
+Any treatment with strontium ranelate, samarium, sodium fluoride or parathyroid hormone.	Eligibility	28
+sodium fluoride	CHEBI:28741	49-64
+hormone	CHEBI:24621	80-87
+Use of systemic high dose corticosteroids at an average dose of > 7.5 mg per day of oral prednisone or equivalent for a period of three months or more prior to screening.	Eligibility	29
+day	UO:0000033	77-80
+prednisone	CHEBI:8382	89-99
+Known hypersensitivity to zoledronic acid or other bisphosphonates.	Eligibility	30
+hypersensitivity	GO:0002524,DOID:1205	6-22
+zoledronic acid	CHEBI:46557	26-41
+Current active dental problems including infection of the teeth or jawbone (maxilla or mandibular); dental or fixture trauma, or a current or prior diagnosis of osteonecrosis of the jaw (ONJ), of exposed bone in the mouth, or of slow healing after dental procedures.	Eligibility	31
+active	PATO:0002354	8-14
+osteonecrosis	DOID:10159	161-174
+mouth	UBERON:0000165	216-221
+Recent (within 6 weeks) or planned dental or jaw surgery (e.g.. extraction, implants).	Eligibility	32
+surgery	OAE:0000067	49-56
+Outcome Measurement:	Results	0
+Number of Participants With Urine and Serum NTx and Serum CTx Within Normal Range at 12 Months	Results	1
+urine	UBERON:0001088	28-33
+range	LABO:0000114	76-81
+17 women with early breast cancer receiving adjuvant Aromatase Inhibitor (AI) therapy were treated with a single 5 mg IV dose of zoledronic acid. Urine and serum NTx and serum CTx were measured at baseline and month 12.	Results	2
+breast cancer	DOID:1612	20-33
+adjuvant	CHEBI:60809	44-52
+inhibitor	CHEBI:35222	63-72
+zoledronic acid	CHEBI:46557	129-144
+urine	UBERON:0001088	146-151
+month	UO:0000035	210-215
+Time frame: One year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	16-20
+Results 1:	Results	4
+Arm/Group Title: Zoledronic Acid 5 mg IV	Results	5
+zoledronic acid	CHEBI:46557	17-32
+Arm/Group Description: Zometa (Zoledronic Acid) 5 mg IV given over 15 minutes as a one time dose. Follow-up at month 1 & every 2 months to month 12 for serum & urine markers of bone destruction (NTx & CTx).	Results	6
+zoledronic acid	CHEBI:46557	31-46
+time	PATO:0000165	87-91
+month	UO:0000035	111-116
+month	UO:0000035	129-134
+month	UO:0000035	139-144
+urine	UBERON:0001088	160-165
+Overall Number of Participants Analyzed: 13	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  13	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/17 (0.00%)	Adverse Events	1

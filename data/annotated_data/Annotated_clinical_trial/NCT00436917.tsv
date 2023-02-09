@@ -1,0 +1,169 @@
+INTERVENTION 1:	Intervention	0
+Zoledronic Acid	Intervention	1
+zoledronic acid	CHEBI:46557	0-15
+4 mg intravenously over 15 minutes every 6 months (until disease progression or for 5 years)	Intervention	2
+disease	DOID:4,OGMS:0000031	57-64
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Diagnosis of localized breast cancer	Eligibility	1
+localized	HP:0012838,PATO:0000627	13-22
+breast cancer	DOID:1612	23-36
+Stage I-IIIA disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	13-20
+Adequately treated breast cancer	Eligibility	3
+breast cancer	DOID:1612	19-32
+No clinical or radiological evidence of recurrent or metastatic disease	Eligibility	4
+recurrent	HP:0031796	40-49
+disease	DOID:4,OGMS:0000031	64-71
+Baseline total lumbar spine or femoral neck bone mineral density T-score < -2.0 standard deviation (e.g., a patient with a T score of -2.1 is eligible)	Eligibility	5
+neck	GO:0044326,UBERON:0000974	39-43
+bone mineral density	CMO:0001226	44-64
+standard deviation	BAO:0002176	80-98
+patient	HADO:0000008,OAE:0001817	108-115
+t	CHEBI:36371,BAO:0001260	9-10
+t	CHEBI:36371,BAO:0001260	11-12
+t	CHEBI:36371,BAO:0001260	62-63
+t	CHEBI:36371,BAO:0001260	65-66
+t	CHEBI:36371,BAO:0001260	81-82
+t	CHEBI:36371,BAO:0001260	94-95
+t	CHEBI:36371,BAO:0001260	110-111
+t	CHEBI:36371,BAO:0001260	114-115
+t	CHEBI:36371,BAO:0001260	118-119
+t	CHEBI:36371,BAO:0001260	123-124
+Hormone-receptor status:	Eligibility	6
+Estrogen receptor and/or progesterone receptor-positive breast cancer	Eligibility	7
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	38-46
+progesterone	CHEBI:17026	25-37
+breast cancer	DOID:1612	56-69
+PATIENT CHARACTERISTICS:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Female	Eligibility	9
+female	PATO:0000383	0-6
+Postmenopausal, defined by 1 of the following criteria:	Eligibility	10
+Age > 55 years with cessation of menses	Eligibility	11
+age	PATO:0000011	0-3
+Age  55 years with spontaneous cessation of menses for > 1 year	Eligibility	12
+age	PATO:0000011	0-3
+year	UO:0000036	8-12
+year	UO:0000036	59-63
+Age  55 years with spontaneous cessation of menses for  1 year, but amenorrheic (e.g., spontaneous or secondary to hysterectomy), AND has postmenopausal estradiol levels	Eligibility	13
+age	PATO:0000011	0-3
+year	UO:0000036	8-12
+year	UO:0000036	58-62
+estradiol	CHEBI:23965	153-162
+Bilateral oophorectomy	Eligibility	14
+bilateral	HP:0012832	0-9
+ECOG performance status 0-2	Eligibility	15
+Life expectancy  5 years	Eligibility	16
+WBC  3,000/mm³ OR granulocyte count  1,500/mm³	Eligibility	17
+Platelet count  100,000/mm³	Eligibility	18
+platelet count	CMO:0000029	0-14
+Alkaline phosphatase  3 times upper limit of normal (ULN)	Eligibility	19
+phosphatase	GO:0016791,BAO:0000295	9-20
+AST  3 times ULN	Eligibility	20
+Creatinine < 2.0 mg/dL	Eligibility	21
+creatinine	CHEBI:16737	0-10
+Creatinine clearance  45 mL/min	Eligibility	22
+creatinine clearance	CMO:0000765	0-20
+No hypercalcemia (i.e., calcium level > 1 mg/dL above ULN) OR hypocalcemia (i.e., calcium level > 0.5 mg/dL below lower limit of normal) within the past 6 months	Eligibility	23
+hypercalcemia	HP:0003072,DOID:12678	3-16
+calcium	CHEBI:22984,BAO:0000874	24-31
+calcium	CHEBI:22984,BAO:0000874	82-89
+hypocalcemia	HP:0002901	62-74
+No other malignancy within the past 5 years except adequately treated basal cell or squamous cell skin cancer or carcinoma in situ of the cervix	Eligibility	24
+skin cancer	DOID:4159	98-109
+carcinoma	HP:0030731,DOID:305	113-122
+No other nonmalignant systemic diseases, including any of the following:	Eligibility	25
+Uncontrolled infection	Eligibility	26
+Uncontrolled diabetes mellitus	Eligibility	27
+diabetes mellitus	HP:0000819,DOID:9351	13-30
+Uncontrolled thyroid dysfunction	Eligibility	28
+Disease affecting bone metabolism (hyperparathyroidism, hypercortisolism, Paget's disease, osteogenesis imperfecta)	Eligibility	29
+disease	DOID:4,OGMS:0000031	0-7
+disease	DOID:4,OGMS:0000031	82-89
+hyperparathyroidism	HP:0000843,DOID:13543	35-54
+osteogenesis imperfecta	DOID:12347	91-114
+Malabsorption syndrome	Eligibility	30
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+No uncontrolled seizure disorders associated with falls	Eligibility	31
+seizure	HP:0001250	16-23
+falls	HP:0002527	50-55
+No known hypersensitivity to zoledronate or other bisphosphonates, letrozole, calcium, or vitamin D	Eligibility	32
+hypersensitivity	GO:0002524,DOID:1205	9-25
+letrozole	CHEBI:6413	67-76
+calcium	CHEBI:22984,BAO:0000874	78-85
+vitamin d	CHEBI:27300	90-99
+No concurrent active dental problems, including any of the following:	Eligibility	33
+active	PATO:0002354	14-20
+Infection of the teeth or jawbone (maxillary or mandibular)	Eligibility	34
+Dental or fixture trauma	Eligibility	35
+Prior or current diagnosis of osteonecrosis of the jaw	Eligibility	36
+osteonecrosis	DOID:10159	30-43
+Exposed bone in the mouth	Eligibility	37
+mouth	UBERON:0000165	20-25
+Slow healing after dental procedures	Eligibility	38
+No contraindication to spine dual energy x-ray absorptiometry (DXA) as defined by any of the following:	Eligibility	39
+contraindication	OAE:0000055	3-19
+History of surgery at the lumbosacral spine, with or without implantable devices	Eligibility	40
+history	BFO:0000182	0-7
+surgery	OAE:0000067	11-18
+Scoliosis with a Cobb angle > 15 degrees at the lumbar spine	Eligibility	41
+scoliosis	HP:0002650,DOID:0060249	0-9
+Immobility, hyperostosis, or sclerotic changes at the lumbar spine, or evidence of sclerotic abdominal aorta sufficient to interfere with DXA scan	Eligibility	42
+hyperostosis	HP:0100774,DOID:205	12-24
+abdominal aorta	UBERON:0001516	93-108
+Disease of the spine that would preclude the proper acquisition of a lumbar spine DXA	Eligibility	43
+disease	DOID:4,OGMS:0000031	0-7
+No condition that would preclude study follow-up or compliance	Eligibility	44
+condition	PDRO:0000129	3-12
+No psychiatric illness that would preclude giving informed consent	Eligibility	45
+PRIOR CONCURRENT THERAPY:	Eligibility	46
+More than 3 weeks since prior and no other concurrent oral bisphosphonates	Eligibility	47
+No prior intravenous bisphosphonates	Eligibility	48
+No prior aromatase inhibitor therapy	Eligibility	49
+inhibitor	CHEBI:35222	19-28
+More than 6 months since prior anabolic steroids or growth hormone	Eligibility	50
+growth hormone	CHEBI:37845,GO:0005131	52-66
+More than 2 weeks since prior and no concurrent inhibitor of osteoclastic bone resorption (e.g., calcitonin, mithramycin, or gallium nitrate)	Eligibility	51
+inhibitor	CHEBI:35222	48-57
+bone resorption	GO:0045453	74-89
+calcitonin	CHEBI:3306	97-107
+mithramycin	CHEBI:31856	109-120
+nitrate	CHEBI:17632	133-140
+More than 30 days since prior systemic investigational drug and/or device	Eligibility	52
+drug	CHEBI:23888	55-59
+More than 7 days since prior topical investigational drug	Eligibility	53
+drug	CHEBI:23888	53-57
+More than 6 weeks since prior and no concurrent dental or jaw surgery (e.g., extraction, implants)	Eligibility	54
+surgery	OAE:0000067	62-69
+Concurrent short-term corticosteroid therapy allowed	Eligibility	55
+corticosteroid	CHEBI:50858	22-36
+No concurrent sodium fluoride, parathyroid hormone, or tibolone	Eligibility	56
+sodium fluoride	CHEBI:28741	14-29
+hormone	CHEBI:24621	43-50
+tibolone	CHEBI:32223	55-63
+No other concurrent investigational drug or device	Eligibility	57
+drug	CHEBI:23888	36-40
+Outcome Measurement:	Results	0
+Average Intra-patient Change in Total Lumbar Spine (L1 to L4) Bone Mineral Density (BMD)	Results	1
+bone mineral density	CMO:0001226	62-82
+Change: BMD values at twelve months post study entry minus BMD values at baseline, expressed as a percentage of the baseline value.	Results	2
+Time frame: Baseline and 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	27-31
+Results 1:	Results	4
+Arm/Group Title: Zoledronic Acid	Results	5
+zoledronic acid	CHEBI:46557	17-32
+Arm/Group Description: 4 mg intravenously over 15 minutes every 6 months (until disease progression or for 5 years)	Results	6
+disease	DOID:4,OGMS:0000031	80-87
+Overall Number of Participants Analyzed: 30	Results	7
+Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: Percentage of the baseline value  2.66        (1.27 to 4.62)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 1/52 (1.92%)	Adverse Events	1
+Musculoskeletal disorder 1/52 (1.92%)	Adverse Events	2
+disorder	OGMS:0000045	16-24

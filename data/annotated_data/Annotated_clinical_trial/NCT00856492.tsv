@@ -1,0 +1,240 @@
+INTERVENTION 1:	Intervention	0
+Arm 1 (Nab-Paclitaxel + Bevacizumab - AC+PEG-G))	Intervention	1
+Received intravenous (IV) administration of nabpaclitaxel 100 mg/m2 IV weekly for 12 weeks (nP x 12) with IV bevacizumab 10 mg/kg every 2 weeks (six doses), followed by IV doxorubicin 60 mg/m2 and cyclophosphamide 600 mg/m2 with pegfilgrastim 6 mg subcutaneously every 2 weeks for six cycles (ddAC x 6).	Intervention	2
+x	LABO:0000148	54-55
+x	LABO:0000148	95-96
+x	LABO:0000148	147-148
+x	LABO:0000148	174-175
+x	LABO:0000148	283-284
+x	LABO:0000148	298-299
+doxorubicin	CHEBI:28748,BAO:0000639	172-183
+cyclophosphamide	CHEBI:4026	197-213
+INTERVENTION 2:	Intervention	3
+Arm 2/3 (Nab-Paclitaxel/AC+PEG-G))	Intervention	4
+Received nP x 12 followed by ddAC x 6, or received ddAC x 6 first followed by nP x 12, without bevacizumab	Intervention	5
+x	LABO:0000148	12-13
+x	LABO:0000148	34-35
+x	LABO:0000148	56-57
+x	LABO:0000148	81-82
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or pathologically confirmed breast cancer meeting one of the following criteria:	Eligibility	1
+breast cancer	DOID:1612	43-56
+Locally advanced disease (stage IIIB disease, stage IIB/IIIA, or stage IIIC disease)	Eligibility	2
+disease	DOID:4,OGMS:0000031	17-24
+disease	DOID:4,OGMS:0000031	37-44
+disease	DOID:4,OGMS:0000031	76-83
+Inflammatory disease meeting the following two clinicopathologic criteria:	Eligibility	3
+disease	DOID:4,OGMS:0000031	13-20
+Diffuse erythema AND edema (peau d'orange) of the breast involving the majority of the skin of the breast, i.e., more than 50%	Eligibility	4
+diffuse	HP:0020034	0-7
+erythema	HP:0010783	8-16
+edema	HP:0000969	21-26
+peau d'orange	HP:0025533	28-41
+breast	UBERON:0000310	50-56
+breast	UBERON:0000310	99-105
+A biopsy demonstrating cancer either within the dermal lymphatics OR in the breast parenchyma itself	Eligibility	5
+cancer	DOID:162	23-29
+breast	UBERON:0000310	76-82
+parenchyma	UBERON:0000353	83-93
+HER2/neu-negative tumor as demonstrated by 0 or 1+ (weak or no staining) by DAKO, IHC, or equivalent test OR no gene amplification by FISH*	Eligibility	6
+dako	BAO:0000889	76-80
+gene	BAO:0000582	112-116
+2+ by DAKO or IHC allowed provided FISH* negative	Eligibility	7
+dako	BAO:0000889	6-10
+NOTE: *A negative FISH test ratio is < 1.8 or FISH HER2 gene copy < 4.0; if only a positive or negative result is available from the FISH test, a negative result is acceptable for study entry	Eligibility	8
+ratio	UO:0000190	28-33
+gene	BAO:0000582	56-60
+result	BAO:0000179	104-110
+result	BAO:0000179	155-161
+Hormone receptor status known	Eligibility	9
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+Menopausal status not specified	Eligibility	11
+Zubrod performance status 0-2	Eligibility	12
+Granulocyte count > 1,500/mm^3	Eligibility	13
+ANC  1,500/mm^3	Eligibility	14
+Platelet count > 100,000/mm^3	Eligibility	15
+platelet count	CMO:0000029	0-14
+Hemoglobin 9.0 g/dL	Eligibility	16
+hemoglobin	CHEBI:35143	0-10
+Serum creatinine  1.5 times upper limit of normal (ULN)	Eligibility	17
+creatinine	CHEBI:16737	6-16
+Bilirubin  1.5 mg/dL	Eligibility	18
+ALT and AST  3 times ULN	Eligibility	19
+Alkaline phosphatase  2.5 ULN (unless bone metastasis is present in the absence of liver metastasis)	Eligibility	20
+phosphatase	GO:0016791,BAO:0000295	9-20
+present	PATO:0000467	57-64
+liver	UBERON:0002107	83-88
+Urine protein:creatinine ratio  0.5 OR urine protein < 1,000 mg on 24-hour urine collection	Eligibility	21
+urine	UBERON:0001088	0-5
+urine	UBERON:0001088	39-44
+urine	UBERON:0001088	75-80
+protein	CHEBI:36080,BAO:0000175	6-13
+protein	CHEBI:36080,BAO:0000175	45-52
+creatinine	CHEBI:16737	14-24
+ratio	UO:0000190	25-30
+Not pregnant or nursing	Eligibility	22
+Negative pregnancy test	Eligibility	23
+Fertile patients must use effective contraception	Eligibility	24
+Able to take oral medications (e.g., no uncontrolled nausea, vomiting, or diarrhea, lack of physical integrity of the upper gastrointestinal tract, or malabsorption syndrome)	Eligibility	25
+nausea	HP:0002018	53-59
+vomiting	HP:0002013	61-69
+diarrhea	HP:0002014,DOID:13250	74-82
+malabsorption	HP:0002024	151-164
+syndrome	DOID:225	165-173
+QTc < 500 msec by EKG	Eligibility	26
+LVEF normal by MUGA or ECHO (for patients with hypertension or for patients > 60 years of age)	Eligibility	27
+hypertension	HP:0000822,DOID:10763	47-59
+age	PATO:0000011	90-93
+NYHA class II cardiac function by baseline ECHO/MUGA (for patients who have received central thoracic radiotherapy that included the heart in the radiotherapy port, or for patients who have a history of class II heart failure but are asymptomatic on treatment are eligible)	Eligibility	28
+function	BAO:0003117,BFO:0000034	22-30
+central	HP:0030645	85-92
+radiotherapy	OAE:0000235	102-114
+radiotherapy	OAE:0000235	146-158
+heart	UBERON:0000948	133-138
+heart	UBERON:0000948	212-217
+history	BFO:0000182	192-199
+No history of stroke (cerebrovascular accident), transient ischemic attack, or cardiac event within the past 12 months, including any of the following:	Eligibility	29
+history	BFO:0000182	3-10
+stroke	HP:0001297,DOID:6713	14-20
+transient ischemic attack	HP:0002326,DOID:224	49-74
+Myocardial infarction (including severe/unstable angina)	Eligibility	30
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Coronary/peripheral artery bypass graft	Eligibility	31
+artery	UBERON:0001637	20-26
+Symptomatic congestive heart failure	Eligibility	32
+congestive heart failure	HP:0001635,DOID:6000	12-36
+Pulmonary embolism	Eligibility	33
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+No poorly controlled hypertension, defined as recurrent or persistent ( 24 hours) elevated blood pressure (i.e., systolic blood pressure  140 mm Hg and/or diastolic blood pressure  90 mm Hg)	Eligibility	34
+hypertension	HP:0000822,DOID:10763	21-33
+recurrent	HP:0031796	46-55
+blood	UBERON:0000178	91-96
+blood	UBERON:0000178	122-127
+blood	UBERON:0000178	165-170
+systolic blood pressure	CMO:0000004	113-136
+diastolic blood pressure	CMO:0000005	155-179
+No other malignancy within the past 5 years except for adequately treated basal cell or squamous cell skin cancer or in situ cervical cancer	Eligibility	35
+skin cancer	DOID:4159	102-113
+cervical cancer	DOID:4362	125-140
+Peripheral neuropathy < grade 2	Eligibility	36
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+PRIOR CONCURRENT THERAPY:	Eligibility	37
+No prior tyrosine kinase inhibitors	Eligibility	38
+tyrosine	CHEBI:18186	9-17
+kinase	BAO:0000294	18-24
+More than 5 years since prior chemotherapy, radiotherapy, or biologic therapy (e.g., trastuzumab or bevacizumab) for invasive breast cancer	Eligibility	39
+radiotherapy	OAE:0000235	44-56
+breast cancer	DOID:1612	126-139
+At least 7 days since prior hormonal therapy	Eligibility	40
+At least 7 days since prior and no concurrent strong CYP3A4 inhibitors (e.g., ketoconazole, itraconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, voriconazole) or grapefruit juice	Eligibility	41
+ketoconazole	CHEBI:47519,BAO:0000796	78-90
+itraconazole	CHEBI:6076	92-104
+clarithromycin	CHEBI:3732	106-120
+atazanavir	CHEBI:37924	122-132
+indinavir	CHEBI:44032	134-143
+nefazodone	CHEBI:7494	145-155
+nelfinavir	CHEBI:7496	157-167
+ritonavir	CHEBI:45409	169-178
+saquinavir	CHEBI:63621	180-190
+telithromycin	CHEBI:29688	192-205
+voriconazole	CHEBI:10023	207-219
+No concurrent CYP3A4 inducers (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital, St. John's wort)	Eligibility	42
+dexamethasone	CHEBI:41879	37-50
+phenytoin	CHEBI:8107	52-61
+carbamazepine	CHEBI:3387	63-76
+rifabutin	CHEBI:45367	88-97
+phenobarbital	CHEBI:8069	111-124
+No other concurrent therapy for the treatment of breast cancer except for bisphosphonates	Eligibility	43
+breast cancer	DOID:1612	49-62
+No concurrent brachytherapy	Eligibility	44
+Outcome Measurement:	Results	0
+Number of Patients With Pathological Complete Response Rate	Results	1
+rate	BAO:0080019	55-59
+Pathologic complete response (pCR), commonly defined as the absence of residual invasive cancer in both the breast and axillary lymph nodes, has emerged as a surrogate endpoint for disease-free and overall survival, as the achievement of a pCR is associated with a favorable long-term prognosis in all breast cancer subtypes.	Results	2
+cancer	DOID:162	89-95
+cancer	DOID:162	309-315
+breast	UBERON:0000310	108-114
+breast	UBERON:0000310	302-308
+lymph	UBERON:0002391	128-133
+breast cancer	DOID:1612	302-315
+Time frame: pre-study pathology vs. post-chemo surgery pathology (approx. 39-42 weeks post-randomization)	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	47-54
+Results 1:	Results	4
+Arm/Group Title: Arm 1 (Nab-Paclitaxel + Bevacizumab - AC+PEG-G))	Results	5
+Arm/Group Description: Received intravenous (IV) administration of nabpaclitaxel 100 mg/m2 IV weekly for 12 weeks (nP x 12) with IV bevacizumab 10 mg/kg every 2 weeks (six doses), followed by IV doxorubicin 60 mg/m2 and cyclophosphamide 600 mg/m2 with pegfilgrastim 6 mg subcutaneously every 2 weeks for six cycles (ddAC x 6).	Results	6
+x	LABO:0000148	77-78
+x	LABO:0000148	118-119
+x	LABO:0000148	170-171
+x	LABO:0000148	197-198
+x	LABO:0000148	306-307
+x	LABO:0000148	321-322
+doxorubicin	CHEBI:28748,BAO:0000639	195-206
+cyclophosphamide	CHEBI:4026	220-236
+Overall Number of Participants Analyzed: 98	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  35  35.7%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm 2/3 (Nab-Paclitaxel/AC+PEG-G))	Results	11
+Arm/Group Description: Received nP x 12 followed by ddAC x 6, or received ddAC x 6 first followed by nP x 12, without bevacizumab	Results	12
+x	LABO:0000148	35-36
+x	LABO:0000148	57-58
+x	LABO:0000148	79-80
+x	LABO:0000148	104-105
+Overall Number of Participants Analyzed: 113	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  24  21.2%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 22/96 (22.92%)	Adverse Events	1
+Anemia  1/96 (1.04%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia  4/96 (4.17%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Heart failure  1/96 (1.04%)	Adverse Events	4
+heart	UBERON:0000948	0-5
+Abdominal pain  1/96 (1.04%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Dysphagia  1/96 (1.04%)	Adverse Events	6
+dysphagia	HP:0002015	0-9
+Mucositis oral  1/96 (1.04%)	Adverse Events	7
+mucositis	DOID:0080178	0-9
+Nausea  1/96 (1.04%)	Adverse Events	8
+nausea	HP:0002018	0-6
+Vomiting  2/96 (2.08%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Death NOS  0/96 (0.00%)	Adverse Events	10
+death	OAE:0000632	0-5
+Pain  1/96 (1.04%)	Adverse Events	11
+pain	HP:0012531	0-4
+Catheter related infection  1/96 (1.04%)	Adverse Events	12
+Enterocolitis infectious  0/96 (0.00%)	Adverse Events	13
+enterocolitis	HP:0004387	0-13
+Adverse Events 2:	Adverse Events	14
+Total: 3/60 (5.00%)	Adverse Events	15
+Anemia  1/60 (1.67%)	Adverse Events	16
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia  1/60 (1.67%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Heart failure  1/60 (1.67%)	Adverse Events	18
+heart	UBERON:0000948	0-5
+Abdominal pain  0/60 (0.00%)	Adverse Events	19
+abdominal pain	HP:0002027	0-14
+Dysphagia  0/60 (0.00%)	Adverse Events	20
+dysphagia	HP:0002015	0-9
+Mucositis oral  0/60 (0.00%)	Adverse Events	21
+mucositis	DOID:0080178	0-9
+Nausea  0/60 (0.00%)	Adverse Events	22
+nausea	HP:0002018	0-6
+Vomiting  0/60 (0.00%)	Adverse Events	23
+vomiting	HP:0002013	0-8
+Death NOS  1/60 (1.67%)	Adverse Events	24
+death	OAE:0000632	0-5
+Pain  0/60 (0.00%)	Adverse Events	25
+pain	HP:0012531	0-4
+Catheter related infection  0/60 (0.00%)	Adverse Events	26
+Enterocolitis infectious  1/60 (1.67%)	Adverse Events	27
+enterocolitis	HP:0004387	0-13

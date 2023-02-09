@@ -1,0 +1,161 @@
+INTERVENTION 1:	Intervention	0
+IMRT	Intervention	1
+Best Delivery-optimized radiotherapy technique (IMRT)	Intervention	2
+radiotherapy	OAE:0000235	24-36
+IMRT: All patients treated with the optimized plan will be treated to the entire target volume to 52.2 Gy in 1.74 Gy fractions, which is biologically equivalent to 50 Gy in 2 Gy fractions. This fractionation scheme will allow the boost of 10 Gy to be incorporated into the planning directive and to be delivered simultaneously with the treatment to the remaining target volume.	Intervention	3
+target	BAO:0003064	81-87
+target	BAO:0003064	363-369
+volume	PATO:0000918	88-94
+volume	PATO:0000918	370-376
+INTERVENTION 2:	Intervention	4
+3DRT	Intervention	5
+Best 3-dimensional standard PWTF technique	Intervention	6
+3D: All patients treated using the best standard technique will receive 50 Gy in 2 Gy fractions or 50.4 Gy in 1.8 Gy fractions to the entire target volume delivering one treatment per day, five fractions per week (excluding holidays). A boost of 10 Gy to the tumor bed of an intact breast will be delivered. Patients treated to the chest wall will receive a 10Gy scar boost if mastectomy margins are positive in a patient with Stage II disease or if the patient was originally diagnosed with T3 or T4 (Stage III) disease	Intervention	7
+target	BAO:0003064	141-147
+volume	PATO:0000918	148-154
+day	UO:0000033	184-187
+day	UO:0000033	228-231
+week	UO:0000034	208-212
+breast	UBERON:0000310	282-288
+chest	UBERON:0001443	332-337
+patient	HADO:0000008,OAE:0001817	8-15
+patient	HADO:0000008,OAE:0001817	308-315
+patient	HADO:0000008,OAE:0001817	414-421
+patient	HADO:0000008,OAE:0001817	454-461
+disease	DOID:4,OGMS:0000031	436-443
+disease	DOID:4,OGMS:0000031	513-520
+Inclusion Criteria:	Eligibility	0
+Eligibility Criteria	Eligibility	1
+Breast cancer diagnosis: Patients must have histologically confirmed adenocarcinoma of the breast requiring comprehensive loco-regional irradiation that includes treatment to the intact breast/chest wall, supraclavicular (SCV), infraclavicular nodes (ICV), and internal mammary nodes (IMN).	Eligibility	2
+breast cancer	DOID:1612	0-13
+adenocarcinoma	DOID:299	69-83
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	91-97
+breast	UBERON:0000310	186-192
+Patients must have pathologic T 1, 2, 3 or 4, N 1, 2, or 3 Stage II or III disease as defined by the AJCC Staging System, 6th edition. Patients who do not undergo axillary staging but are at risk for nodal involvement may also be treated.	Eligibility	3
+t	CHEBI:36371,BAO:0001260	2-3
+t	CHEBI:36371,BAO:0001260	6-7
+t	CHEBI:36371,BAO:0001260	12-13
+t	CHEBI:36371,BAO:0001260	21-22
+t	CHEBI:36371,BAO:0001260	30-31
+t	CHEBI:36371,BAO:0001260	60-61
+t	CHEBI:36371,BAO:0001260	97-98
+t	CHEBI:36371,BAO:0001260	107-108
+t	CHEBI:36371,BAO:0001260	117-118
+t	CHEBI:36371,BAO:0001260	123-124
+t	CHEBI:36371,BAO:0001260	129-130
+t	CHEBI:36371,BAO:0001260	137-138
+t	CHEBI:36371,BAO:0001260	141-142
+t	CHEBI:36371,BAO:0001260	153-154
+t	CHEBI:36371,BAO:0001260	173-174
+t	CHEBI:36371,BAO:0001260	182-183
+t	CHEBI:36371,BAO:0001260	189-190
+t	CHEBI:36371,BAO:0001260	216-217
+t	CHEBI:36371,BAO:0001260	230-231
+t	CHEBI:36371,BAO:0001260	234-235
+disease	DOID:4,OGMS:0000031	75-82
+All patients must have left-sided breast cancer.	Eligibility	4
+breast cancer	DOID:1612	34-47
+Both men and women are eligible.	Eligibility	5
+Patients must be adults (18 years of age or older)	Eligibility	6
+age	PATO:0000011	37-40
+For women of child-bearing age, effective contraception must be used. A written statement must be obtained that the patient is not pregnant. If there is any question of pregnancy at time of therapeutic RT or at time of each SPECT-CT scan, a pregnancy test will be done to confirm the patient is not pregnant.	Eligibility	7
+age	PATO:0000011	27-30
+patient	HADO:0000008,OAE:0001817	116-123
+patient	HADO:0000008,OAE:0001817	284-291
+time	PATO:0000165	182-186
+time	PATO:0000165	211-215
+Performance status should be 0-2 by ECOG criteria.	Eligibility	8
+Patients that have received prior RT may be enrolled on the present study if the new breast lesion can be treated with no overlap of RT fields.	Eligibility	9
+present	PATO:0000467	60-67
+breast	UBERON:0000310	85-91
+Patients must be aware of the neoplastic nature of her/his disease.	Eligibility	10
+disease	DOID:4,OGMS:0000031	59-66
+Patients must be informed of the investigational nature of this study and must sign an informed consent in accordance with the Institutional Review Board (IRB) of the University of Michigan and federal guidelines.	Eligibility	11
+Patients' blood tests should indicate they are able to tolerate radiotherapy. Tests must be done within 28 days of registration:	Eligibility	12
+blood	UBERON:0000178	10-15
+radiotherapy	OAE:0000235	64-76
+CBC with differential and platelet count (Hemoglobin > 8.0 g/dl; wbc > 2000/mm3; absolute neutrophil count > 1000/mm3; platelet count > 75,000/mm3.	Eligibility	13
+platelet count	CMO:0000029	26-40
+platelet count	CMO:0000029	119-133
+hemoglobin	CHEBI:35143	42-52
+Exclusion Criteria:	Eligibility	14
+Patients who are pregnant or are nursing are excluded.	Eligibility	15
+excluded	HP:0040285	45-53
+Pathologically node negative breast cancer unless treated with neo-adjuvant chemotherapy.	Eligibility	16
+breast cancer	DOID:1612	29-42
+Performance status > 2 by ECOG criteria	Eligibility	17
+Patients who are unable to lie on their back and raise their arm above their head in the treatment planning position for radiotherapy	Eligibility	18
+head	UBERON:0000033	77-81
+position	HP:0012830	108-116
+radiotherapy	OAE:0000235	121-133
+Patients with a clinically unstable medical condition	Eligibility	19
+condition	PDRO:0000129	44-53
+Patients with a life-threatening disease state	Eligibility	20
+disease	DOID:4,OGMS:0000031	33-40
+History or suspicion of serious life-threatening allergic reaction to Tc-99m imaging agents.	Eligibility	21
+history	BFO:0000182	0-7
+Patients that have had breast-conservation surgery with positive margins or any patient with negative margins with a tumor positive for an extensive intraductal component.	Eligibility	22
+surgery	OAE:0000067	43-50
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	80-87
+Patients that are not able to use the ABC device.	Eligibility	23
+Outcome Measurement:	Results	0
+The Number of Participants With a Significant Increase in Perfusion Defects (PD)	Results	1
+increase	BAO:0001251	46-54
+To compare the extent of new myocardial perfusion defects following breast cancer radiotherapy using the best standard 3-D radiotherapy technique, partially wide tangent fields, versus the best optimized technique. Perfusion defects (PD) were assessed by comparing normalized perfusion distributions against our institution's normal polar map databases for the left anterior descending artery (LAD) using thresholds of 2.5-SD (standard deviation) and 1.5-SD below the normal mean. On the basis of interest variability, a PD increase greater than 5% or 10% was considered significant for 2.5- and 1.5-SD thresholds, respectively.	Results	2
+breast cancer	DOID:1612	68-81
+radiotherapy	OAE:0000235	82-94
+radiotherapy	OAE:0000235	123-135
+left	HP:0012835	361-365
+artery	UBERON:0001637	386-392
+standard deviation	BAO:0002176	427-445
+mean	BAO:0002173	475-479
+increase	BAO:0001251	524-532
+Time frame: 1 Year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	4
+Arm/Group Title: IMRT	Results	5
+Arm/Group Description: Best Delivery-optimized radiotherapy technique (IMRT)	Results	6
+radiotherapy	OAE:0000235	47-59
+IMRT: All patients treated with the optimized plan will be treated to the entire target volume to 52.2 Gy in 1.74 Gy fractions, which is biologically equivalent to 50 Gy in 2 Gy fractions. This fractionation scheme will allow the boost of 10 Gy to be incorporated into the planning directive and to be delivered simultaneously with the treatment to the remaining target volume.	Results	7
+target	BAO:0003064	81-87
+target	BAO:0003064	363-369
+volume	PATO:0000918	88-94
+volume	PATO:0000918	370-376
+Overall Number of Participants Analyzed: 28	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  2.5 SD and PD increase >5%: 1	Results	10
+increase	BAO:0001251	45-53
+1.5 SD and PD increase >10%: 3	Results	11
+increase	BAO:0001251	14-22
+Results 2:	Results	12
+Arm/Group Title: 3DRT	Results	13
+Arm/Group Description: Best 3-dimensional standard PWTF technique	Results	14
+3D: All patients treated using the best standard technique will receive 50 Gy in 2 Gy fractions or 50.4 Gy in 1.8 Gy fractions to the entire target volume delivering one treatment per day, five fractions per week (excluding holidays). A boost of 10 Gy to the tumor bed of an intact breast will be delivered. Patients treated to the chest wall will receive a 10Gy scar boost if mastectomy margins are positive in a patient with Stage II disease or if the patient was originally diagnosed with T3 or T4 (Stage III) disease	Results	15
+target	BAO:0003064	141-147
+volume	PATO:0000918	148-154
+day	UO:0000033	184-187
+day	UO:0000033	228-231
+week	UO:0000034	208-212
+breast	UBERON:0000310	282-288
+chest	UBERON:0001443	332-337
+patient	HADO:0000008,OAE:0001817	8-15
+patient	HADO:0000008,OAE:0001817	308-315
+patient	HADO:0000008,OAE:0001817	414-421
+patient	HADO:0000008,OAE:0001817	454-461
+disease	DOID:4,OGMS:0000031	436-443
+disease	DOID:4,OGMS:0000031	513-520
+Overall Number of Participants Analyzed: 26	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: participants  2.5 SD and PD increase >5%: 2	Results	18
+increase	BAO:0001251	45-53
+1.5 SD and PD increase >10%: 5	Results	19
+increase	BAO:0001251	14-22
+Adverse Events 1:	Adverse Events	0
+Total: 1/28 (3.57%)	Adverse Events	1
+Infection with normal ANC or Grade 1 or 2 neutrophils [1]1/28 (3.57%)	Adverse Events	2
+Adverse Events 2:	Adverse Events	3
+Total: 0/26 (0.00%)	Adverse Events	4
+Infection with normal ANC or Grade 1 or 2 neutrophils [1]0/26 (0.00%)	Adverse Events	5

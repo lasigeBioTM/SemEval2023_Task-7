@@ -1,0 +1,141 @@
+INTERVENTION 1:	Intervention	0
+Part 1 and Part 2: Talazoparib (Breast Cancer)	Intervention	1
+breast cancer	DOID:1612	32-45
+Participants with breast cancer who received talazoparib capsules in Part 1 and 2 at a dose of either 600 mcg/day, 900 mcg/day, 1000 mcg/day, 1100 mcg/day.	Intervention	2
+breast cancer	DOID:1612	18-31
+INTERVENTION 2:	Intervention	3
+Part 1 and Part 2: Talazoparib (Ovarian/ Peritoneal Cancer)	Intervention	4
+cancer	DOID:162	52-58
+Participants with ovarian/ peritoneal cancer who received talazoparib capsules in Part 1 and 2 at a dose of either 25 mcg/day, 50 mcg/day, 100 mcg/day, 200 mcg/day, 400 mcg/day, 600 mcg/day, 900 mcg/day, 1000 mcg/day, 1100 mcg/day.	Intervention	5
+cancer	DOID:162	38-44
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically documented, unresectable, locally advanced or metastatic solid tumor	Eligibility	1
+Must have available archived tumor tissue (formalin-fixed paraffin-embedded) [FFPE].	Eligibility	2
+tissue	UBERON:0000479	35-41
+18 years of age or older.	Eligibility	3
+age	PATO:0000011	12-15
+Have measurable disease by Response Evaluation Criteria in Solid Tumors (RECIST, v1.1) or increased CA-125 (ovarian cancer) or PSA (prostate cancer) and/or CA 19-9 (pancreatic cancer).	Eligibility	4
+disease	DOID:4,OGMS:0000031	16-23
+ovarian cancer	DOID:2394	108-122
+prostate cancer	HP:0012125,DOID:10283	132-147
+pancreatic cancer	DOID:1793	165-182
+Eastern Cooperative Oncology Group (ECOG) performance status  1.	Eligibility	5
+group	CHEBI:24433	29-34
+Have adequate organ function	Eligibility	6
+organ	UBERON:0000062	14-19
+function	BAO:0003117,BFO:0000034	20-28
+Able to take oral medications.	Eligibility	7
+Willing and able to provide informed consent.	Eligibility	8
+Sexually active patients must be willing to use an acceptable method of contraception.	Eligibility	9
+active	PATO:0002354	9-15
+Females of childbearing potential must have a negative serum pregnancy test at screening.	Eligibility	10
+Willing and able to comply with all study procedures.	Eligibility	11
+Part 2 Dose Expansion Tumor Types:	Eligibility	12
+Breast and ovarian cancer patients with deleterious or pathogenic BRCA mutations who have received no more than 4 prior regimens for metastatic disease.	Eligibility	13
+breast	UBERON:0000310	0-6
+ovarian cancer	DOID:2394	11-25
+disease	DOID:4,OGMS:0000031	144-151
+Prostate or pancreatic cancer patients with deleterious or pathogenic BRCA mutations who have received no more than 2 prior regimens for metastatic disease.	Eligibility	14
+pancreatic cancer	DOID:1793	12-29
+disease	DOID:4,OGMS:0000031	148-155
+Small cell lung cancer (SCLC) patients who have received no more than one prior regimen for SCLC.	Eligibility	15
+lung cancer	DOID:1324	11-22
+Ewing's sarcoma patients who have received no more than 3 prior regimens for metastatic disease.	Eligibility	16
+sarcoma	HP:0100242,DOID:1115	8-15
+disease	DOID:4,OGMS:0000031	88-95
+Exclusion Criteria:	Eligibility	17
+Part 2 Expansion: Prior treatment with a PARP inhibitor.	Eligibility	18
+inhibitor	CHEBI:35222	46-55
+Has history of central nervous system (CNS) metastasis.	Eligibility	19
+history	BFO:0000182	4-11
+central nervous system	UBERON:0001017	15-37
+* Exception: In patients with SCLC, history of adequately treated brain metastasis who do not require corticosteroids for management of CNS symptoms.	Eligibility	20
+history	BFO:0000182	36-43
+brain	UBERON:0000955	66-71
+Has had major surgery within 28 days before Cycle 1, Day 1.	Eligibility	21
+surgery	OAE:0000067	14-21
+day	UO:0000033	32-35
+day	UO:0000033	53-56
+Has active peptic ulcer disease.	Eligibility	22
+active peptic ulcer disease	DOID:749	4-31
+Active gastrointestinal tract disease with malabsorption syndrome.	Eligibility	23
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	30-37
+malabsorption	HP:0002024	43-56
+syndrome	DOID:225	57-65
+Pregnant or breastfeeding at screening or planning to become pregnant (in each case, either oneself or one's partner) at any time during the study.	Eligibility	24
+time	PATO:0000165	125-129
+Outcome Measurement:	Results	0
+Number of Participants With Objective Response	Results	1
+Objective response in participants was defined as the number of participants with complete response (CR) or partial response (PR) after treatment with talazoparib and maintained for at least 4 weeks (28 days) as assessed by response evaluation criteria in solid tumors (RECIST) version 1.1. CR defined as disappearance of all non-nodal target lesions (where all target lesions were recorded with a length of 0 millimeter [mm] on the case report form [CRF]) and the reduction of the shortest diameter of all nodal lesions to less than [<] 10 mm. PR was defined by a 30% or more decrease in the sum of the longest diameters (SLD) + sum of shortest diameters (SSD) of target lesions, taking as reference the baseline SLD+SSD.	Results	2
+target	BAO:0003064	336-342
+target	BAO:0003064	362-368
+target	BAO:0003064	665-671
+length	PATO:0000122	398-404
+millimeter	UO:0000016	410-420
+diameter	PATO:0001334	491-499
+diameter	PATO:0001334	612-620
+diameter	PATO:0001334	646-654
+Time frame: From Baseline until disease progression or death due to any cause (maximum duration: 1071 days for Part 1; 834 days for Part 2)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	32-39
+death	OAE:0000632	55-60
+duration	PATO:0001309	87-95
+Results 1:	Results	4
+Arm/Group Title: Part 1 and Part 2: Talazoparib (Breast Cancer)	Results	5
+breast cancer	DOID:1612	49-62
+Arm/Group Description: Participants with breast cancer who received talazoparib capsules in Part 1 and 2 at a dose of either 600 mcg/day, 900 mcg/day, 1000 mcg/day, 1100 mcg/day.	Results	6
+breast cancer	DOID:1612	41-54
+Overall Number of Participants Analyzed: 20	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  8	Results	9
+Results 2:	Results	10
+Arm/Group Title: Part 1 and Part 2: Talazoparib (Ovarian/ Peritoneal Cancer)	Results	11
+cancer	DOID:162	69-75
+Arm/Group Description: Participants with ovarian/ peritoneal cancer who received talazoparib capsules in Part 1 and 2 at a dose of either 25 mcg/day, 50 mcg/day, 100 mcg/day, 200 mcg/day, 400 mcg/day, 600 mcg/day, 900 mcg/day, 1000 mcg/day, 1100 mcg/day.	Results	12
+cancer	DOID:162	61-67
+Overall Number of Participants Analyzed: 31	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  12	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/3 (33.33%)	Adverse Events	1
+Anaemia * 0/3 (0.00%)	Adverse Events	2
+Thrombocytopenia * 0/3 (0.00%)	Adverse Events	3
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Supraventricular tachycardia * 0/3 (0.00%)	Adverse Events	4
+supraventricular tachycardia	HP:0004755	0-28
+Ventricular tachycardia * 0/3 (0.00%)	Adverse Events	5
+ventricular tachycardia	HP:0004756	0-23
+Inappropriate antidiuretic hormone secretion * 0/3 (0.00%)	Adverse Events	6
+inappropriate antidiuretic hormone secretion	HP:0031218	0-44
+Ascites * 0/3 (0.00%)	Adverse Events	7
+ascites	HP:0001541	0-7
+Abdominal pain * 0/3 (0.00%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Dyspepsia * 0/3 (0.00%)	Adverse Events	9
+dyspepsia	HP:0410281	0-9
+Intestinal obstruction * 0/3 (0.00%)	Adverse Events	10
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea * 0/3 (0.00%)	Adverse Events	11
+nausea	HP:0002018	0-6
+Adverse Events 2:	Adverse Events	12
+Total: 2/3 (66.67%)	Adverse Events	13
+Anaemia * 0/3 (0.00%)	Adverse Events	14
+Thrombocytopenia * 0/3 (0.00%)	Adverse Events	15
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Supraventricular tachycardia * 0/3 (0.00%)	Adverse Events	16
+supraventricular tachycardia	HP:0004755	0-28
+Ventricular tachycardia * 0/3 (0.00%)	Adverse Events	17
+ventricular tachycardia	HP:0004756	0-23
+Inappropriate antidiuretic hormone secretion * 0/3 (0.00%)	Adverse Events	18
+inappropriate antidiuretic hormone secretion	HP:0031218	0-44
+Ascites * 0/3 (0.00%)	Adverse Events	19
+ascites	HP:0001541	0-7
+Abdominal pain * 0/3 (0.00%)	Adverse Events	20
+abdominal pain	HP:0002027	0-14
+Dyspepsia * 0/3 (0.00%)	Adverse Events	21
+dyspepsia	HP:0410281	0-9
+Intestinal obstruction * 0/3 (0.00%)	Adverse Events	22
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea * 0/3 (0.00%)	Adverse Events	23
+nausea	HP:0002018	0-6

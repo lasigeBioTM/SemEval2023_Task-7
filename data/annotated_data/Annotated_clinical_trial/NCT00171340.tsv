@@ -1,0 +1,140 @@
+INTERVENTION 1:	Intervention	0
+Zoledronic Acid 4 mg Upfront	Intervention	1
+zoledronic acid	CHEBI:46557	0-15
+Zolendronic acid 4 mg Intravenous (IV) 15 minute infusion every 6 months for 5 years beginning on Day 1. All participants took Letrozole tablets 2.5 mg/day for 5 years beginning on Day 1.	Intervention	2
+acid	CHEBI:37527	12-16
+minute	UO:0000031	42-48
+day	UO:0000033	98-101
+day	UO:0000033	152-155
+day	UO:0000033	181-184
+letrozole	CHEBI:6413	127-136
+INTERVENTION 2:	Intervention	3
+Zoledronic Acid 4 mg Delayed	Intervention	4
+zoledronic acid	CHEBI:46557	0-15
+Zolendronic acid 4 mg Intravenous (IV) 15 minute infusion every 6 months beginning when one of the following occurred: BMD T-score <= -2.0 SD at either the lumbar spine or total hip, any clinical fracture unrelated to trauma or an asymptomatic fracture discovered at the Month 36 visit. All participants took Letrozole tablets 2.5 mg/day for 5 years beginning on Day 1.	Intervention	5
+acid	CHEBI:37527	12-16
+minute	UO:0000031	42-48
+hip	UBERON:0001464	178-181
+month	UO:0000035	66-71
+month	UO:0000035	271-276
+letrozole	CHEBI:6413	309-318
+day	UO:0000033	334-337
+day	UO:0000033	363-366
+Inclusion Criteria:	Eligibility	0
+Stage I-IIIa breast cancer	Eligibility	1
+breast cancer	DOID:1612	13-26
+Postmenopausal or recently postmenopausal	Eligibility	2
+Recent surgery for breast cancer	Eligibility	3
+surgery	OAE:0000067	7-14
+breast cancer	DOID:1612	19-32
+Estrogen Receptor positive and/or progesterone receptor positive hormone receptor status	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	47-55
+receptor	BAO:0000281	73-81
+progesterone	CHEBI:17026	34-46
+hormone	CHEBI:24621	65-72
+No prior treatment with letrozole	Eligibility	5
+letrozole	CHEBI:6413	24-33
+Other protocol-defined inclusion criteria may apply.	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Metastatic disease	Eligibility	8
+disease	DOID:4,OGMS:0000031	11-18
+Invasive bilateral disease	Eligibility	9
+bilateral	HP:0012832	9-18
+disease	DOID:4,OGMS:0000031	19-26
+Clinical or radiological evidence of existing fracture in spine or hip	Eligibility	10
+hip	UBERON:0001464	67-70
+Prior treatment with IV bisphosphonates in the past 12 months	Eligibility	11
+Current treatment with oral bisphosphonates ( must be discontinued within 3 weeks of baseline evaluation)	Eligibility	12
+Use of Tibolone within 6 months	Eligibility	13
+tibolone	CHEBI:32223	7-15
+Prior use of parathyroid hormone for more than 1 week	Eligibility	14
+hormone	CHEBI:24621	25-32
+week	UO:0000034	49-53
+Previous or concomitant malignancy	Eligibility	15
+Abnormal renal function	Eligibility	16
+function	BAO:0003117,BFO:0000034	15-23
+History of disease effecting bone metabolism	Eligibility	17
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	11-18
+Other protocol-defined exclusion criteria may apply.	Eligibility	18
+Outcome Measurement:	Results	0
+Percentage Change in Bone Mineral Density (BMD) of the Lumbar Spine (L2-L4) at 12 Months of Therapy.	Results	1
+bone mineral density	CMO:0001226	21-41
+Bone Mineral Density (g/cm^2) of the Lumbar Spine (L2-L4) as measured by energy x-ray absorptiometry (DXA).	Results	2
+bone mineral density	CMO:0001226	0-20
+Time frame: Baseline, 12 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Zoledronic Acid 4 mg Upfront	Results	5
+zoledronic acid	CHEBI:46557	17-32
+Arm/Group Description: Zolendronic acid 4 mg Intravenous (IV) 15 minute infusion every 6 months for 5 years beginning on Day 1. All participants took Letrozole tablets 2.5 mg/day for 5 years beginning on Day 1.	Results	6
+acid	CHEBI:37527	35-39
+minute	UO:0000031	65-71
+day	UO:0000033	121-124
+day	UO:0000033	175-178
+day	UO:0000033	204-207
+letrozole	CHEBI:6413	150-159
+Overall Number of Participants Analyzed: 423	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Percentage change in BMD  2.208         (3.4194)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Zoledronic Acid 4 mg Delayed	Results	11
+zoledronic acid	CHEBI:46557	17-32
+Arm/Group Description: Zolendronic acid 4 mg Intravenous (IV) 15 minute infusion every 6 months beginning when one of the following occurred: BMD T-score <= -2.0 SD at either the lumbar spine or total hip, any clinical fracture unrelated to trauma or an asymptomatic fracture discovered at the Month 36 visit. All participants took Letrozole tablets 2.5 mg/day for 5 years beginning on Day 1.	Results	12
+acid	CHEBI:37527	35-39
+minute	UO:0000031	65-71
+hip	UBERON:0001464	201-204
+month	UO:0000035	89-94
+month	UO:0000035	294-299
+letrozole	CHEBI:6413	332-341
+day	UO:0000033	357-360
+day	UO:0000033	386-389
+Overall Number of Participants Analyzed: 418	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Percentage change in BMD  -3.617         (4.2151)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 133/525 (25.33%)	Adverse Events	1
+Anaemia 1/525 (0.19%)	Adverse Events	2
+Febrile neutropenia 1/525 (0.19%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Acute myocardial infarction 2/525 (0.38%)	Adverse Events	4
+acute myocardial infarction	DOID:9408	0-27
+Angina pectoris 3/525 (0.57%)	Adverse Events	5
+angina pectoris	HP:0001681	0-15
+Angina unstable 1/525 (0.19%)	Adverse Events	6
+Aortic valve incompetence 1/525 (0.19%)	Adverse Events	7
+valve	UBERON:0003978	7-12
+Arrhythmia 0/525 (0.00%)	Adverse Events	8
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 1/525 (0.19%)	Adverse Events	9
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrioventricular block complete 0/525 (0.00%)	Adverse Events	10
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Cardiac arrest 0/525 (0.00%)	Adverse Events	11
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Adverse Events 2:	Adverse Events	12
+Total: 124/535 (23.18%)	Adverse Events	13
+Anaemia 1/535 (0.19%)	Adverse Events	14
+Febrile neutropenia 0/535 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Acute myocardial infarction 0/535 (0.00%)	Adverse Events	16
+acute myocardial infarction	DOID:9408	0-27
+Angina pectoris 2/535 (0.37%)	Adverse Events	17
+angina pectoris	HP:0001681	0-15
+Angina unstable 0/535 (0.00%)	Adverse Events	18
+Aortic valve incompetence 1/535 (0.19%)	Adverse Events	19
+valve	UBERON:0003978	7-12
+Arrhythmia 1/535 (0.19%)	Adverse Events	20
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 4/535 (0.75%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrioventricular block complete 1/535 (0.19%)	Adverse Events	22
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Cardiac arrest 2/535 (0.37%)	Adverse Events	23
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14

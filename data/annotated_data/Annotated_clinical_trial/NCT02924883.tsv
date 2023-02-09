@@ -1,0 +1,203 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab Emtansine + Placebo	Intervention	1
+Placebo matched to atezolizumab followed by trastuzumab emtansine 3.6 mg/kg IV infusion on Day 1 Cycle 1 and thereafter on Day 1 of each 21-day cycle until disease progression, unmanageable toxicity, or study termination by the sponsor (up to study duration of approximately 40 months)	Intervention	2
+day	UO:0000033	91-94
+day	UO:0000033	123-126
+day	UO:0000033	140-143
+disease	DOID:4,OGMS:0000031	156-163
+duration	PATO:0001309	249-257
+INTERVENTION 2:	Intervention	3
+Trastuzumab Emtansine + Atezolizumab	Intervention	4
+Atezolizumab 1200 milligrams (mg) intravenous (IV) infusion followed by trastuzumab emtansine 3.6 milligrams per kilogram (mg/kg) IV infusion on Day 1 Cycle 1 and thereafter on Day 1 of each 21-day cycle until disease progression, unmanageable toxicity, or study termination by the Sponsor (up to study duration of approximately 40 months)	Intervention	5
+day	UO:0000033	145-148
+day	UO:0000033	177-180
+day	UO:0000033	194-197
+disease	DOID:4,OGMS:0000031	210-217
+duration	PATO:0001309	303-311
+Inclusion Criteria:	Eligibility	0
+Archival tumor samples must be obtained from primary and/or metastatic sites	Eligibility	1
+Able to submit tumor tissue that is evaluable for programmed death- ligand 1 (PD-L1) expression	Eligibility	2
+tissue	UBERON:0000479	21-27
+ligand	CHEBI:52214,GO:0005488	68-74
+HER-2 positive BC as defined by an immunohistochemistry score of 3 or gene amplified by in-situ hybridization as defined by a ratio of greater than or equal to (>=) 2.0 for the number of HER2 gene copies to the number of chromosome 17 copies	Eligibility	3
+immunohistochemistry	BAO:0000415	35-55
+gene	BAO:0000582	70-74
+gene	BAO:0000582	192-196
+ratio	UO:0000190	126-131
+chromosome	GO:0005694	221-231
+Histologically or cytologically confirmed invasive BC: incurable, unresectable, locally advanced BC previously treated with multimodality therapy or metastatic BC	Eligibility	4
+Prior treatment for BC in the: adjuvant; unresectable locally advanced; or metastatic settings; which must include both, a taxane and trastuzumab (alone or in combination with another agent)	Eligibility	5
+adjuvant	CHEBI:60809	31-39
+taxane	CHEBI:36064	123-129
+Progression must have occurred during or after most recent treatment for locally advanced/metastatic BC or within 6 months after completing adjuvant therapy	Eligibility	6
+adjuvant	CHEBI:60809	140-148
+Participants must have measurable disease that is evaluable as per RECIST v1.1	Eligibility	7
+disease	DOID:4,OGMS:0000031	34-41
+Eastern Cooperative Oncology Group Performance Status of 0 or 1	Eligibility	8
+group	CHEBI:24433	29-34
+Negative serum pregnancy test within 7 days of enrollment for pre-menopausal women and for women less than 12 months after the onset of menopause	Eligibility	9
+onset	HP:0003674	127-132
+menopause	GO:0042697	136-145
+Use of highly effective method of contraception as defined by the protocol	Eligibility	10
+Exclusion Criteria:	Eligibility	11
+Prior treatment with trastuzumab emtansine, cluster of differentiation 137 agonists, anti-programmed death-1, or anti-PD-L1 therapeutic antibody or pathway-targeting agents	Eligibility	12
+cluster	CHEBI:33731	44-51
+antibody	GO:0042571,BAO:0000502	136-144
+Receipt of any anti-cancer drug/biologic or investigational treatment within 21 days prior to Cycle 1 Day 1 except hormone therapy, which can be given up to 7 days prior to Cycle 1 Day 1; recovery of treatment related toxicity consistent with other eligibility criteria	Eligibility	13
+day	UO:0000033	80-83
+day	UO:0000033	102-105
+day	UO:0000033	159-162
+day	UO:0000033	181-184
+hormone	CHEBI:24621	115-122
+Radiation therapy within 2 weeks prior to Cycle 1, Day 1	Eligibility	14
+day	UO:0000033	51-54
+History of exposure to the cumulative doses of anthracyclines	Eligibility	15
+history	BFO:0000182	0-7
+History of other malignancy within the previous 5 years, except for appropriately treated carcinoma in situ of the cervix, non-melanoma skin carcinoma, Stage I uterine cancer, or participants who have undergone potentially curative therapy with no evidence of disease and are deemed by the treating physician to be at low risk for recurrence	Eligibility	16
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	90-99
+carcinoma	HP:0030731,DOID:305	141-150
+skin carcinoma	DOID:3451	136-150
+uterine cancer	DOID:363	160-174
+disease	DOID:4,OGMS:0000031	260-267
+Cardiopulmonary dysfunction, symptomatic pleural effusion, pericardial effusion, or ascites	Eligibility	17
+pleural effusion	HP:0002202	41-57
+pericardial effusion	HP:0001698,DOID:118	59-79
+ascites	HP:0001541	84-91
+Participants with severe infection within 4 weeks prior to randomization, including but not limited to hospitalization for complications of infection, bacteremia, or severe pneumonia	Eligibility	18
+severe infection	HP:0032169	18-34
+bacteremia	HP:0031864	151-161
+severe	HP:0012828	18-24
+severe	HP:0012828	166-172
+pneumonia	HP:0002090,DOID:552	173-182
+Current severe, uncontrolled systemic disease	Eligibility	19
+severe	HP:0012828	8-14
+disease	DOID:4,OGMS:0000031	38-45
+Major surgical procedure or significant traumatic injury within 28 days prior to randomization or anticipation of the need for major surgery during the course of study treatment	Eligibility	20
+surgery	OAE:0000067	133-140
+Clinically significant history of liver disease, including cirrhosis, current alcohol abuse, autoimmune hepatic disorders, sclerosis cholangitis or active infection with human immunodeficiency virus, hepatitis B virus, or hepatitis C virus	Eligibility	21
+history	BFO:0000182	23-30
+liver disease	DOID:409	34-47
+cirrhosis	HP:0001394	59-68
+alcohol	CHEBI:16236	78-85
+cholangitis	HP:0030151,DOID:9446	133-144
+active	PATO:0002354	148-154
+immunodeficiency	HP:0002721	176-192
+virus	BAO:0000232	193-198
+virus	BAO:0000232	212-217
+virus	BAO:0000232	234-239
+hepatitis b	DOID:2043	200-211
+hepatitis c	DOID:1883	222-233
+Need for current chronic corticosteroid therapy (>=10 mg of prednisone per day or an equivalent dose of other anti-inflammatory corticosteroids)	Eligibility	22
+chronic	HP:0011010	17-24
+corticosteroid	CHEBI:50858	25-39
+corticosteroid	CHEBI:50858	128-142
+prednisone	CHEBI:8382	60-70
+day	UO:0000033	75-78
+Spinal cord compression not definitively treated with surgery and/or radiation, or previously diagnosed and treated spinal cord compression without evidence that disease has been clinically stable for greater than (>) 2 weeks prior to randomization	Eligibility	23
+spinal cord compression	HP:0002176	0-23
+spinal cord compression	HP:0002176	116-139
+surgery	OAE:0000067	54-61
+disease	DOID:4,OGMS:0000031	162-169
+stable	HP:0031915	190-196
+Participants with known central nervous system disease	Eligibility	24
+central nervous system disease	DOID:331	24-54
+Leptomeningeal disease	Eligibility	25
+disease	DOID:4,OGMS:0000031	15-22
+History of autoimmune disease	Eligibility	26
+history	BFO:0000182	0-7
+autoimmune disease	DOID:417	11-29
+Prior allogeneic stem cell or solid organ transplantation	Eligibility	27
+organ	UBERON:0000062	36-41
+Active tuberculosis	Eligibility	28
+active	PATO:0002354	0-6
+tuberculosis	DOID:399	7-19
+Receipt of a live, attenuated vaccine within 4 weeks prior to randomization or anticipation that such a live, attenuated vaccine will be required during the study	Eligibility	29
+vaccine	VO:0000001	30-37
+vaccine	VO:0000001	121-128
+Treatment with systemic immunostimulatory agents within 4 weeks or five half-lives of the drug (whichever is shorter) prior to randomization	Eligibility	30
+drug	CHEBI:23888	90-94
+Treatment with systemic corticosteroids or other systemic immunosuppressive medications within 2 weeks prior to randomization, or anticipated requirement for systemic immunosuppressive medications during the trial	Eligibility	31
+Participants who are breastfeeding, or intending to become pregnant during the study	Eligibility	32
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS) as Determined by Investigator's Tumor Assessment Using Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1 (v1.1)	Results	1
+PFS was defined as the time from randomization to the first occurrence of disease progression or death from any cause, whichever occurred first, on the basis of investigator assessments. Progression was defined as at least a 20% increase in the sum of diameters of target lesions with an absolute increase of at least 5 millimeter (mm) or the appearance of one or more new lesions.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	74-81
+death	OAE:0000632	97-102
+increase	BAO:0001251	229-237
+increase	BAO:0001251	297-305
+target	BAO:0003064	265-271
+millimeter	UO:0000016	320-330
+Time frame: Baseline up to approximately 15 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab Emtansine + Placebo	Results	5
+Arm/Group Description: Placebo matched to atezolizumab followed by trastuzumab emtansine 3.6 mg/kg IV infusion on Day 1 Cycle 1 and thereafter on Day 1 of each 21-day cycle until disease progression, unmanageable toxicity, or study termination by the sponsor (up to study duration of approximately 40 months)	Results	6
+day	UO:0000033	114-117
+day	UO:0000033	146-149
+day	UO:0000033	163-166
+disease	DOID:4,OGMS:0000031	179-186
+duration	PATO:0001309	272-280
+Overall Number of Participants Analyzed: 69	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  6.8        (4.0 to 11.1)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab Emtansine + Atezolizumab	Results	11
+Arm/Group Description: Atezolizumab 1200 milligrams (mg) intravenous (IV) infusion followed by trastuzumab emtansine 3.6 milligrams per kilogram (mg/kg) IV infusion on Day 1 Cycle 1 and thereafter on Day 1 of each 21-day cycle until disease progression, unmanageable toxicity, or study termination by the Sponsor (up to study duration of approximately 40 months)	Results	12
+day	UO:0000033	168-171
+day	UO:0000033	200-203
+day	UO:0000033	217-220
+disease	DOID:4,OGMS:0000031	233-240
+duration	PATO:0001309	326-334
+Overall Number of Participants Analyzed: 133	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  8.2        (5.8 to 10.7)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 52/133 (39.10%)	Adverse Events	1
+Thrombocytopenia 2/133 (1.50%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia 1/133 (0.75%)	Adverse Events	3
+Disseminated intravascular coagulation 0/133 (0.00%)	Adverse Events	4
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Atrial thrombosis 1/133 (0.75%)	Adverse Events	5
+thrombosis	DOID:0060903	7-17
+Cardiac failure 0/133 (0.00%)	Adverse Events	6
+Vertigo 0/133 (0.00%)	Adverse Events	7
+vertigo	HP:0002321	0-7
+Vomiting 3/133 (2.26%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Nausea 1/133 (0.75%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Colitis 1/133 (0.75%)	Adverse Events	10
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 1/133 (0.75%)	Adverse Events	11
+constipation	HP:0002019,DOID:2089	0-12
+Enteritis 0/133 (0.00%)	Adverse Events	12
+Abdominal pain 0/133 (0.00%)	Adverse Events	13
+abdominal pain	HP:0002027	0-14
+Adverse Events 2:	Adverse Events	14
+Total: 16/67 (23.88%)	Adverse Events	15
+Thrombocytopenia 0/67 (0.00%)	Adverse Events	16
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anaemia 0/67 (0.00%)	Adverse Events	17
+Disseminated intravascular coagulation 1/67 (1.49%)	Adverse Events	18
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Atrial thrombosis 0/67 (0.00%)	Adverse Events	19
+thrombosis	DOID:0060903	7-17
+Cardiac failure 1/67 (1.49%)	Adverse Events	20
+Vertigo 1/67 (1.49%)	Adverse Events	21
+vertigo	HP:0002321	0-7
+Vomiting 0/67 (0.00%)	Adverse Events	22
+vomiting	HP:0002013	0-8
+Nausea 1/67 (1.49%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Colitis 0/67 (0.00%)	Adverse Events	24
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 0/67 (0.00%)	Adverse Events	25
+constipation	HP:0002019,DOID:2089	0-12
+Enteritis 1/67 (1.49%)	Adverse Events	26
+Abdominal pain 2/67 (2.99%)	Adverse Events	27
+abdominal pain	HP:0002027	0-14

@@ -1,0 +1,113 @@
+INTERVENTION 1:	Intervention	0
+Pertuzumab 420 mg	Intervention	1
+Participants received a loading dose of 840 mg via IV infusion at the first infusion of pertuzumab, followed by a maintenance dose of 420 mg every 3 weeks until unacceptable toxicity or disease progression.	Intervention	2
+disease	DOID:4,OGMS:0000031	186-193
+INTERVENTION 2:	Intervention	3
+Pertuzumab 1050 mg	Intervention	4
+Participants did not receive a loading dose, but received pertuzumab 1050 mg via IV infusion every 3 weeks until unacceptable toxicity or disease progression.	Intervention	5
+disease	DOID:4,OGMS:0000031	138-145
+Inclusion Criteria:	Eligibility	0
+Females at least 18 years of age	Eligibility	1
+age	PATO:0000011	29-32
+Histologically-confirmed metastatic breast cancer with low HER2 expression and at least one measurable lesion according to Response Evaluation Criteria in Solid Tumors (RECIST)	Eligibility	2
+breast cancer	DOID:1612	36-49
+Karnofsky performance status at least 80%	Eligibility	3
+Disease progression on/after up to 2 different chemotherapy regimens, including an anthracycline-containing therapy	Eligibility	4
+disease	DOID:4,OGMS:0000031	0-7
+Left ventricular ejection fraction (LVEF) at least 50%	Eligibility	5
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Adequate liver function	Eligibility	6
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	7
+Pleural effusions, ascites, or bone lesions as the only manifestation(s) of cancer	Eligibility	8
+ascites	HP:0001541	19-26
+cancer	DOID:162	76-82
+Pulmonary or central nervous system (CNS) metastases	Eligibility	9
+central nervous system	UBERON:0001017	13-35
+Chemotherapy, radiotherapy, or immunotherapy within 4 weeks; or hormone therapy within 2 weeks of Day 1	Eligibility	10
+radiotherapy	OAE:0000235	14-26
+hormone	CHEBI:24621	64-71
+day	UO:0000033	98-101
+Previous treatment with any drug that targets the HER2 receptor family	Eligibility	11
+drug	CHEBI:23888	28-32
+receptor	BAO:0000281	55-63
+Previous treatment with corticosteroids as cancer therapy	Eligibility	12
+cancer	DOID:162	43-49
+History of significant cardiac disease	Eligibility	13
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	31-38
+Major surgery or trauma within 4 weeks of Day 1	Eligibility	14
+surgery	OAE:0000067	6-13
+day	UO:0000033	42-45
+Pregnant or lactating women	Eligibility	15
+Outcome Measurement:	Results	0
+Percentage of Participants Achieving a Best Overall Response of Confirmed Complete Response (CR) or Partial Response (PR)	Results	1
+Objective tumor response was assessed using Response Evaluation Criteria in Solid Tumors (RECIST). Confirmed CR was defined as the disappearance of all target lesions, and confirmed PR was defined as at least at 30 percent (%) decrease in the sum of the longest diameters of target lesions. Response was to be confirmed at follow-up assessment completed within 4 weeks of the first documented response. The percentage of participants achieving a best overall response of CR or PR was calculated as [number of participants meeting the above criteria divided by the number analyzed] multiplied by 100.	Results	2
+target	BAO:0003064	152-158
+target	BAO:0003064	275-281
+percent	UO:0000187	215-222
+percent	UO:0000187	407-414
+Time frame: Up to approximately 1 year (at Baseline; every 6 weeks for the first 8 cycles, then every 12 weeks until progression or death; and up to 4 weeks after initial response)	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	34-38
+death	OAE:0000632	132-137
+Results 1:	Results	4
+Arm/Group Title: Pertuzumab 420 mg	Results	5
+Arm/Group Description: Participants received a loading dose of 840 mg via IV infusion at the first infusion of pertuzumab, followed by a maintenance dose of 420 mg every 3 weeks until unacceptable toxicity or disease progression.	Results	6
+disease	DOID:4,OGMS:0000031	209-216
+Overall Number of Participants Analyzed: 41	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  4.9	Results	9
+Results 2:	Results	10
+Arm/Group Title: Pertuzumab 1050 mg	Results	11
+Arm/Group Description: Participants did not receive a loading dose, but received pertuzumab 1050 mg via IV infusion every 3 weeks until unacceptable toxicity or disease progression.	Results	12
+disease	DOID:4,OGMS:0000031	161-168
+Overall Number of Participants Analyzed: 37	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 10/41 (24.39%)	Adverse Events	1
+Cardiac failure * 1/41 (2.44%)	Adverse Events	2
+Pericardial effusion * 1/41 (2.44%)	Adverse Events	3
+pericardial effusion	HP:0001698,DOID:118	0-20
+Ascites * 1/41 (2.44%)	Adverse Events	4
+ascites	HP:0001541	0-7
+Diarrhoea * 0/41 (0.00%)	Adverse Events	5
+Dysphagia * 0/41 (0.00%)	Adverse Events	6
+dysphagia	HP:0002015	0-9
+Large intestinal obstruction * 0/41 (0.00%)	Adverse Events	7
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Lung infection * 1/41 (2.44%)	Adverse Events	8
+lung	UBERON:0002048	0-4
+Pneumonia * 1/41 (2.44%)	Adverse Events	9
+pneumonia	HP:0002090,DOID:552	0-9
+Sepsis * 1/41 (2.44%)	Adverse Events	10
+sepsis	HP:0100806	0-6
+Ejection fraction decreased * 2/41 (4.88%)	Adverse Events	11
+ejection fraction	CMO:0000180	0-17
+Neck pain * 1/41 (2.44%)	Adverse Events	12
+neck pain	HP:0030833	0-9
+Adverse Events 2:	Adverse Events	13
+Total: 8/37 (21.62%)	Adverse Events	14
+Cardiac failure * 0/37 (0.00%)	Adverse Events	15
+Pericardial effusion * 0/37 (0.00%)	Adverse Events	16
+pericardial effusion	HP:0001698,DOID:118	0-20
+Ascites * 1/37 (2.70%)	Adverse Events	17
+ascites	HP:0001541	0-7
+Diarrhoea * 1/37 (2.70%)	Adverse Events	18
+Dysphagia * 1/37 (2.70%)	Adverse Events	19
+dysphagia	HP:0002015	0-9
+Large intestinal obstruction * 1/37 (2.70%)	Adverse Events	20
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Lung infection * 0/37 (0.00%)	Adverse Events	21
+lung	UBERON:0002048	0-4
+Pneumonia * 0/37 (0.00%)	Adverse Events	22
+pneumonia	HP:0002090,DOID:552	0-9
+Sepsis * 0/37 (0.00%)	Adverse Events	23
+sepsis	HP:0100806	0-6
+Ejection fraction decreased * 0/37 (0.00%)	Adverse Events	24
+ejection fraction	CMO:0000180	0-17
+Neck pain * 0/37 (0.00%)	Adverse Events	25
+neck pain	HP:0030833	0-9

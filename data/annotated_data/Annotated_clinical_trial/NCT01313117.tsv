@@ -1,0 +1,85 @@
+INTERVENTION 1:	Intervention	0
+Alpha Lipoic Acid	Intervention	1
+lipoic acid	CHEBI:16494	6-17
+Oral administration three times daily (morning, mid-day, night)	Intervention	2
+Alpha lipoic acid: The baseline dose is 100 mg three times daily for four months. Dose escalation will occur until a maximum tolerated dose is found.	Intervention	3
+lipoic acid	CHEBI:16494	6-17
+Inclusion Criteria	Eligibility	0
+Diagnosis of Breast cancer.	Eligibility	1
+breast cancer	DOID:1612	13-26
+Breast cancer must meet the following criteria:	Eligibility	2
+breast cancer	DOID:1612	0-13
+Early stage breast cancer (stages I, IIA) must be estrogen receptor (ER) positive AND low tumor grade (histopathologic grade 1 or 2)	Eligibility	3
+breast cancer	DOID:1612	12-25
+estrogen	CHEBI:50114,BAO:0000760	50-58
+receptor	BAO:0000281	59-67
+Locally advanced breast cancer (LABC) (stages IIB, IIIA, IIB as defined by the Union for International Cancer Control and American Joint Committee on Cancer) must be ER positive, HER2 positive or HER2 negative, AND satisfy the following requirements: high endocrine responsiveness (defined as greater than 50% of tumor cells staining for hormone receptors), Grade 1 or 2 histological grade, less than 4 nodes positive, absence of extensive peritumoral vascular invasion, AND pathological tumor size less than 5 cm.	Eligibility	4
+breast cancer	DOID:1612	17-30
+cancer	DOID:162	24-30
+cancer	DOID:162	103-109
+cancer	DOID:162	150-156
+hormone	CHEBI:24621	338-345
+size	PATO:0000117	494-498
+Inflammatory breast cancer (IBC) (stage IIIC)	Eligibility	5
+breast cancer	DOID:1612	13-26
+Metastatic breast cancer (stage IV)	Eligibility	6
+breast cancer	DOID:1612	11-24
+Must be receiving single agent paclitaxel in their prescribed chemotherapy regimen.	Eligibility	7
+paclitaxel	CHEBI:45863	31-41
+Age > 18 years. There is no upper age limit for participation in this study.	Eligibility	8
+age	PATO:0000011	0-3
+age	PATO:0000011	34-37
+Required lab values: AST, ALT, creatinine	Eligibility	9
+creatinine	CHEBI:16737	31-41
+Women of childbearing potential and sexually active males must agree to use contraception while on study.	Eligibility	10
+active	PATO:0002354	45-51
+ECOG performance status 0,1,2	Eligibility	11
+All patients must have given signed, informed consent.	Eligibility	12
+Exclusion Criteria	Eligibility	13
+Breast cancer meeting the following criteria:	Eligibility	14
+breast cancer	DOID:1612	0-13
+Breast cancer stage 0	Eligibility	15
+breast cancer	DOID:1612	0-13
+Early stage breast cancer (stages I, IIA) that is ER negative OR higher tumor grade (histopathologic grade greater than 2)	Eligibility	16
+breast cancer	DOID:1612	12-25
+Stages I, II, and IIIA triple negative breast cancer (negative for estrogen receptors, progesterone receptors, and HER2)	Eligibility	17
+breast cancer	DOID:1612	39-52
+estrogen	CHEBI:50114,BAO:0000760	67-75
+progesterone	CHEBI:17026	87-99
+LABC (stages IIB, IIIA, IIB) if they have low endocrine responsiveness (defined as less than 50% of tumor cells staining for hormone receptors), Grade 3 histological grade, 4 or more nodes positive, presence of extensive peritumoral vascular invasion, OR pathological tumor size greater than 5 cm	Eligibility	18
+hormone	CHEBI:24621	125-132
+size	PATO:0000117	274-278
+LABC (stages IIB, IIIA, IIB) that are ER negative	Eligibility	19
+Evidence of pre-existing peripheral neuropathy as determined by baseline Michigan neuropathy screening instrument score > 2.	Eligibility	20
+peripheral neuropathy	HP:0009830,DOID:870	25-46
+neuropathy	DOID:870	36-46
+neuropathy	DOID:870	82-92
+instrument	BAO:0003118	103-113
+Previous chemotherapy treatment of any kind.	Eligibility	21
+AST and ALT >2 times upper limit of normal; Creatinine > 2.0 mg/dL.	Eligibility	22
+creatinine	CHEBI:16737	44-54
+Current use of medications or substances known to be associated with peripheral neuropathy.	Eligibility	23
+peripheral neuropathy	HP:0009830,DOID:870	69-90
+Use of ALA or other anti-oxidant supplements during the prior three months.	Eligibility	24
+Diabetes mellitus or use of medications known to lower blood sugar.	Eligibility	25
+diabetes mellitus	HP:0000819,DOID:9351	0-17
+blood	UBERON:0000178	55-60
+Participation in any other experimental trial.	Eligibility	26
+Outcome Measurement:	Results	0
+Identification of the Optimal Dose of ALA Based on Acceptable Adverse Event(AE) Profile	Results	1
+adverse event	OAE:0000001	62-75
+Based on acceptable adverse event (AE) profile and continual reassessment method dose escalation.	Results	2
+adverse event	OAE:0000001	20-33
+Time frame: 4 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Alpha Lipoic Acid	Results	5
+lipoic acid	CHEBI:16494	23-34
+Arm/Group Description: Oral administration three times daily (morning, mid-day, night)	Results	6
+Alpha lipoic acid: The baseline dose is 100 mg three times daily for four months. Dose escalation will occur until a maximum tolerated dose is found.	Results	7
+lipoic acid	CHEBI:16494	6-17
+Overall Number of Participants Analyzed: 9	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: mg  500	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/9 (0.00%)	Adverse Events	1

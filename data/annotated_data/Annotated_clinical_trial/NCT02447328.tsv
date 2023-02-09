@@ -1,0 +1,68 @@
+INTERVENTION 1:	Intervention	0
+Single Arm	Intervention	1
+fulvestrant (Faslodex®)	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+Inclusion Criteria:	Eligibility	0
+Post menopausal status women	Eligibility	1
+Outpatient or inpatient with locally advanced or metastatic breast cancer who have failed with prior anti-estrogen therapy.	Eligibility	2
+breast cancer	DOID:1612	60-73
+anti-estrogen	CHEBI:50751	101-114
+Estrogen receptor positive	Eligibility	3
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+Radiographic progression of disease after the prior therapy	Eligibility	4
+disease	DOID:4,OGMS:0000031	28-35
+Patients who agree to participate in this study and sign the informed consent	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Patients who are treated with fulvestrant	Eligibility	7
+fulvestrant	CHEBI:31638	30-41
+Patients who are being treated with the other antitumor agents	Eligibility	8
+Pregnancy or lactating women	Eligibility	9
+History of hypersensitivity to any of included ingredients (eg. Castor oil)	Eligibility	10
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+castor oil	CHEBI:140618	64-74
+Patients who are considered not fit for the study by investigators	Eligibility	11
+Patients who have severe dysfunction of liver or kidney	Eligibility	12
+severe	HP:0012828	18-24
+liver	UBERON:0002107	40-45
+kidney	UBERON:0002113	49-55
+Outcome Measurement:	Results	0
+Safety(Percentage of Participants With Adverse Events and/or Adverse Drug Reactions)	Results	1
+drug	CHEBI:23888	69-73
+Percentage of patients with AEs.	Results	2
+Time frame: Adverse events were collected from treatment initiation to end of the study about 6 months for each patient.	Results	3
+time	PATO:0000165	0-4
+patient	HADO:0000008,OAE:0001817	112-119
+Results 1:	Results	4
+Arm/Group Title: Single Arm	Results	5
+Arm/Group Description: fulvestrant (Faslodex  )	Results	6
+fulvestrant	CHEBI:31638	23-34
+Overall Number of Participants Analyzed: 81	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  Adverse Events(AE): 81.5        (71.3 to 89.3)	Results	9
+ADR; based on current South Korea label.: 38.3        (27.7 to 49.7)	Results	10
+label	CHEBI:35209,label	34-39
+Serious AE: 11.1        (5.2 to 20.1)	Results	11
+Serious ADR: 0        (0 to 4.4)	Results	12
+Unexpected AE: 71.6        (60.5 to 81.1)	Results	13
+Unexpected ADR: 24.7        (15.8 to 35.5)	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 9/81 (11.11%)	Adverse Events	1
+CHOLANGITIS 1/81 (1.23%)	Adverse Events	2
+cholangitis	HP:0030151,DOID:9446	0-11
+contusion of brain 1/81 (1.23%)	Adverse Events	3
+brain	UBERON:0000955	13-18
+Joint Dislocation 1/81 (1.23%)	Adverse Events	4
+joint dislocation	HP:0001373	0-17
+Blood creatinine increased 1/81 (1.23%)	Adverse Events	5
+blood	UBERON:0000178	0-5
+creatinine	CHEBI:16737	6-16
+Bone Pain 1/81 (1.23%)	Adverse Events	6
+bone pain	HP:0002653	0-9
+Acute lymphocytic leukaemia (in remission) 1/81 (1.23%)	Adverse Events	7
+acute	HP:0011009,PATO:0000389	0-5
+Hydronephrosis 1/81 (1.23%)	Adverse Events	8
+hydronephrosis	HP:0000126,DOID:11111	0-14
+pelvic pain 1/81 (1.23%)	Adverse Events	9
+pain	HP:0012531	7-11

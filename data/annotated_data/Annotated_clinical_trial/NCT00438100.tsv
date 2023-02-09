@@ -1,0 +1,123 @@
+INTERVENTION 1:	Intervention	0
+Capecitabine Arm	Intervention	1
+capecitabine	CHEBI:31348	0-12
+Capecitabine (Xeloda): 1600 mg/m2 orally bid daily for day 1 through day 21 followed by 7-day washout; repeat this as a course.	Intervention	2
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	55-58
+day	UO:0000033	69-72
+day	UO:0000033	90-93
+Capecitabine: 1600 mg/m2 orally bid daily for day 1 through day 21 followed by 7-day washout; repeat this as a course.	Intervention	3
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	46-49
+day	UO:0000033	60-63
+day	UO:0000033	81-84
+INTERVENTION 2:	Intervention	4
+S-1 Arm	Intervention	5
+S-1: 80 mg/m2 orally bid daily for day 1 through day28 followed by 14-day washout; repeat this as a course.	Intervention	6
+day	UO:0000033	35-38
+day	UO:0000033	49-52
+day	UO:0000033	70-73
+S-1: 80 mg/m2 orally bid daily for day 1 through day 28 followed by 14-day washout; repeat this as a course.	Intervention	7
+day	UO:0000033	35-38
+day	UO:0000033	49-52
+day	UO:0000033	71-74
+Inclusion Criteria:	Eligibility	0
+Biopsy-diagnosed breast cancer with metastasis in multiple organs	Eligibility	1
+breast cancer	DOID:1612	17-30
+Performance Status (World Health Organization :WHO) 0-2	Eligibility	2
+Functions below are maintained in major organs:	Eligibility	3
+Leukocyte count: 4,000/mm3 to 12,000/mm3	Eligibility	4
+Neutrophil count: >2,000/mm3 or more	Eligibility	5
+Platelet count: <100,000/mm3 or more	Eligibility	6
+platelet count	CMO:0000029	0-14
+Hemoglobin: >9.5 g/dL	Eligibility	7
+hemoglobin	CHEBI:35143	0-10
+Total bilirubin: >1.5 mg/dL	Eligibility	8
+AST(GOT): within twice a normal upper value in an institution	Eligibility	9
+AST(GPT): within twice a normal upper value in an institution	Eligibility	10
+BUN: < 25 mg/dL	Eligibility	11
+Creatinine: within a normal upper value in the institution	Eligibility	12
+creatinine	CHEBI:16737	0-10
+24 hours creatinine clearance: >50 mL/min (using the Cockcroft-Gault formula)	Eligibility	13
+creatinine clearance	CMO:0000765	9-29
+Women's Ccr = Body weight x (140-Age)/(72 x Serum creatinine) x 0.85	Eligibility	14
+body weight	CMO:0000012	14-25
+x	LABO:0000148	26-27
+x	LABO:0000148	42-43
+x	LABO:0000148	62-63
+creatinine	CHEBI:16737	50-60
+Written informed consent will be obtained for patients for entering this study	Eligibility	15
+Exclusion Criteria:	Eligibility	16
+Patients with synchronous multiple cancers	Eligibility	17
+Complicated with infection	Eligibility	18
+Fever from suspected infection	Eligibility	19
+fever	HP:0001945	0-5
+Metastasis to the central nerve system	Eligibility	20
+central	HP:0030645	18-25
+nerve	UBERON:0001021	26-31
+A history of ischemic cardiac diseases	Eligibility	21
+history	BFO:0000182	2-9
+Active gastrointestinal ulcer	Eligibility	22
+active	PATO:0002354	0-6
+ulcer	OAE:0004372	24-29
+Severe nerve disorder	Eligibility	23
+severe	HP:0012828	0-6
+nerve	UBERON:0001021	7-12
+disorder	OGMS:0000045	13-21
+Women who are potentially pregnant, pregnant, or breast-feeding	Eligibility	24
+Severe drug allergy	Eligibility	25
+severe	HP:0012828	0-6
+drug allergy	HP:0410323,DOID:0060500	7-19
+Severe suppression of the bone marrow	Eligibility	26
+severe	HP:0012828	0-6
+bone marrow	UBERON:0002371	26-37
+Severe renal disorder	Eligibility	27
+severe	HP:0012828	0-6
+disorder	OGMS:0000045	13-21
+Being treated with other pyrimidine fluoride antineoplastic agents (including any combination therapy)	Eligibility	28
+pyrimidine	CHEBI:16898	25-35
+fluoride	CHEBI:17051	36-44
+Being treated with flucytosine	Eligibility	29
+flucytosine	CHEBI:5100	19-30
+Complicated with the infection onset which a study doctor assesses to be inappropriate for this study	Eligibility	30
+onset	HP:0003674	31-36
+Outcome Measurement:	Results	0
+Progression Free Survival	Results	1
+[Not Specified]	Results	2
+Time frame: The follow up period will be two years after the last dose has been administered.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Capecitabine Arm	Results	5
+capecitabine	CHEBI:31348	17-29
+Arm/Group Description: Capecitabine (Xeloda): 1600 mg/m2 orally bid daily for day 1 through day 21 followed by 7-day washout; repeat this as a course.	Results	6
+capecitabine	CHEBI:31348	23-35
+day	UO:0000033	78-81
+day	UO:0000033	92-95
+day	UO:0000033	113-116
+Capecitabine: 1600 mg/m2 orally bid daily for day 1 through day 21 followed by 7-day washout; repeat this as a course.	Results	7
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	46-49
+day	UO:0000033	60-63
+day	UO:0000033	81-84
+Overall Number of Participants Analyzed: 71	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: years  1.2        (0.76 to 2.04)	Results	10
+Results 2:	Results	11
+Arm/Group Title: S-1 Arm	Results	12
+Arm/Group Description: S-1: 80 mg/m2 orally bid daily for day 1 through day28 followed by 14-day washout; repeat this as a course.	Results	13
+day	UO:0000033	58-61
+day	UO:0000033	72-75
+day	UO:0000033	93-96
+S-1: 80 mg/m2 orally bid daily for day 1 through day 28 followed by 14-day washout; repeat this as a course.	Results	14
+day	UO:0000033	35-38
+day	UO:0000033	49-52
+day	UO:0000033	71-74
+Overall Number of Participants Analyzed: 65	Results	15
+Median (95% Confidence Interval)	Results	16
+median	BAO:0002174	0-6
+Unit of Measure: years  1.3        (0.96 to 2.68)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/71 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/65 (0.00%)	Adverse Events	3

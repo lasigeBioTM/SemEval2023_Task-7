@@ -1,0 +1,96 @@
+INTERVENTION 1:	Intervention	0
+Experimental	Intervention	1
+cyclophosphamide: chemotherapy	Intervention	2
+cyclophosphamide	CHEBI:4026	0-16
+doxorubicin hydrochloride: chemotherapy	Intervention	3
+doxorubicin hydrochloride	CHEBI:31522	0-25
+adjuvant therapy: chemotherapy	Intervention	4
+adjuvant	CHEBI:60809	0-8
+radiation therapy: chemotherapy	Intervention	5
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed adenocarcinoma of the breast by routine hematoxylin and eosin (H&E) staining	Eligibility	1
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+Primary tumor  4 cm and 0-3 positive axillary lymph nodes (pathologic T1-2, pathologic N0-N1, M0)	Eligibility	2
+lymph	UBERON:0002391	46-51
+Patients with lymph nodes positive only by cytokeratin staining (i.e., H&E negative) are eligible	Eligibility	3
+lymph	UBERON:0002391	14-19
+No squamous cell carcinoma or sarcoma of the breast	Eligibility	4
+squamous cell carcinoma	HP:0002860,DOID:1749	3-26
+sarcoma	HP:0100242,DOID:1115	30-37
+breast	UBERON:0000310	45-51
+Patients must have undergone a segmental mastectomy (SM) with a level I and ll axillary dissection or sentinel lymph node biopsy within the past 14 weeks	Eligibility	5
+lymph	UBERON:0002391	111-116
+Surgical margins at the time of SM must be negative (> 3 mm) for both invasive carcinoma and for non-invasive ductal carcinoma	Eligibility	6
+time	PATO:0000165	24-28
+carcinoma	HP:0030731,DOID:305	79-88
+carcinoma	HP:0030731,DOID:305	117-126
+No active local-regional disease	Eligibility	7
+active	PATO:0002354	3-9
+disease	DOID:4,OGMS:0000031	25-32
+Hormone receptor status not specified	Eligibility	8
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+ECOG performance status 0-1	Eligibility	10
+Sex: female	Eligibility	11
+female	PATO:0000383	5-11
+Menopausal status not specified	Eligibility	12
+Not pregnant	Eligibility	13
+Negative pregnancy test	Eligibility	14
+Fertile patients must use effective non-hormonal contraception	Eligibility	15
+No other malignancy within the past 5 years except adequately treated basal cell or squamous cell skin cancer or carcinoma in situ of the cervix	Eligibility	16
+skin cancer	DOID:4159	98-109
+carcinoma	HP:0030731,DOID:305	113-122
+No other serious or poorly controlled medical or psychiatric condition that could be exacerbated by, or complicate compliance with study treatment	Eligibility	17
+condition	PDRO:0000129	61-70
+PRIOR CONCURRENT THERAPY:	Eligibility	18
+No prior radiation therapy to the breast	Eligibility	19
+breast	UBERON:0000310	34-40
+No prior trastuzumab (Herceptin ®)	Eligibility	20
+No other concurrent chemotherapy	Eligibility	21
+No concurrent hormonal therapy except the following:	Eligibility	22
+Steroids given for adrenal failure	Eligibility	23
+Hormones administered for non-disease-related conditions (e.g., insulin for diabetes, synthroid for hypothyroidism)	Eligibility	24
+insulin	CHEBI:145810	64-71
+hypothyroidism	HP:0000821,DOID:1459	100-114
+Intermittent dexamethasone as an antiemetic or premedication	Eligibility	25
+dexamethasone	CHEBI:41879	13-26
+antiemetic	CHEBI:50919	33-43
+Outcome Measurement:	Results	0
+Number of Participants Experiencing Acute, Late Skin, and Subcutaneous Toxicity	Results	1
+acute	HP:0011009,PATO:0000389	36-41
+Number of participants with Grade 4 toxicity as defined by the following criteria:	Results	2
+Acute Skin Toxicity: 0=No change, 1= Follicular, faint, or dull erythema/epilation/dry/desquamation/decreased swelling, 2= Tender or bright erythemal patchy moist desquamation/moderate edema, 3= Confluent moist desquamation other than skin folds, piting edema, 4= Ulceration, hemorrahage, necrosis, Late Skin Toxicity: 0= None, 1= Slight Atrophy, Pigmentation change, some hair loss, 2= Patch atrophy, moderate telangectasias, total hair loss, 3= Marked atrophy, gross telangectasias, 4= Ulceration; Subcutaneous Tissue Toxicity: 0= None, 1= Slight induration (fibrosis) and loss of subcutaneous fat, 2= Moderate fibrosis but asymptomatic; slight field contracture; <10% linear reduction, 3= Severe induration and loss subcutaneous tissue; field contracture >10% linear reduction; 4= Necrosis	Results	3
+acute	HP:0011009,PATO:0000389	0-5
+dull	HP:0025282	59-63
+tender	HP:0025283	123-129
+edema	HP:0000969	185-190
+edema	HP:0000969	254-259
+pigmentation	GO:0043473	347-359
+moderate	HP:0012826	176-184
+moderate	HP:0012826	402-410
+moderate	HP:0012826	604-612
+tissue	UBERON:0000479	513-519
+tissue	UBERON:0000479	732-738
+severe	HP:0012828	692-698
+Time frame: up to 5 years	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Experimental	Results	6
+Arm/Group Description: cyclophosphamide: chemotherapy	Results	7
+cyclophosphamide	CHEBI:4026	23-39
+doxorubicin hydrochloride: chemotherapy	Results	8
+doxorubicin hydrochloride	CHEBI:31522	0-25
+adjuvant therapy: chemotherapy	Results	9
+adjuvant	CHEBI:60809	0-8
+radiation therapy: chemotherapy	Results	10
+Overall Number of Participants Analyzed: 25	Results	11
+Measure Type: Count of Participants	Results	12
+Unit of Measure: Participants  0   0.0%	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 1/25 (4.00%)	Adverse Events	1
+Neutropenia *1/25 (4.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11

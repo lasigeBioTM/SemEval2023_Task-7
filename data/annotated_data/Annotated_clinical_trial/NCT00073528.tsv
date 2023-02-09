@@ -1,0 +1,159 @@
+INTERVENTION 1:	Intervention	0
+Placebo + Letrozole 2.5 mg	Intervention	1
+letrozole	CHEBI:6413	10-19
+Participants received 6 tablets of placebo, identical in appearance to lapatinib tablets, orally daily (approximately at the same time each day), either 1 hour (or more) before breakfast or 1 hour (or more) after breakfast. Participants also received 1 tablet of letrozole 2.5 milligrams (mg) orally daily, preferably with the daily dose of lapatinib.	Intervention	2
+lapatinib	CHEBI:49603	71-80
+lapatinib	CHEBI:49603	341-350
+time	PATO:0000165	130-134
+day	UO:0000033	140-143
+hour	UO:0000032	155-159
+hour	UO:0000032	192-196
+letrozole	CHEBI:6413	263-272
+INTERVENTION 2:	Intervention	3
+Lapatinib 1500 mg + Letrozole 2.5 mg	Intervention	4
+lapatinib	CHEBI:49603	0-9
+letrozole	CHEBI:6413	20-29
+Participants received 6 tablets of Lapatinib orally daily (250 mg lapatinib/tablet for a total of 1500 mg of lapatinib/day; approximately at the same time each day), either 1 hour (or more) before breakfast or 1 hour (or more) after breakfast. Participants also received 1 tablet of letrozole 2.5 mg orally daily, preferably with the daily dose of lapatinib.	Intervention	5
+lapatinib	CHEBI:49603	35-44
+lapatinib	CHEBI:49603	66-75
+lapatinib	CHEBI:49603	109-118
+lapatinib	CHEBI:49603	348-357
+time	PATO:0000165	150-154
+day	UO:0000033	119-122
+day	UO:0000033	160-163
+hour	UO:0000032	175-179
+hour	UO:0000032	212-216
+letrozole	CHEBI:6413	283-292
+Key inclusion criteria	Eligibility	0
+Signed informed consent;	Eligibility	1
+Subjects with histologically confirmed invasive breast cancer with stage IV disease at primary diagnosis or at relapse after curative-intent surgery;	Eligibility	2
+breast cancer	DOID:1612	48-61
+disease	DOID:4,OGMS:0000031	76-83
+surgery	OAE:0000067	141-148
+Subjects with either measurable or non-measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST).	Eligibility	3
+disease	DOID:4,OGMS:0000031	50-57
+If the disease was restricted to a solitary lesion, its neoplastic nature was confirmed by cytology or histology.	Eligibility	4
+disease	DOID:4,OGMS:0000031	7-14
+histology	NCIT:C16681	103-112
+Tumors that were ER+ and/or PgR+;	Eligibility	5
+Post-menopausal female subjects  18 years of age.	Eligibility	6
+female	PATO:0000383	16-22
+age	PATO:0000011	45-48
+ECOG Performance Status of 0 or 1;	Eligibility	7
+Subjects who had archived tumor tissue available to compare tumor response with intra-tumoral expression of ErbB1 and ErbB2.	Eligibility	8
+tissue	UBERON:0000479	32-38
+Adjuvant therapy with an aromatase inhibitor and / or trastuzumab was allowed; however, treatment was to stop more than 1 year prior (>12 months) to the first dose of randomized therapy.	Eligibility	9
+adjuvant	CHEBI:60809	0-8
+inhibitor	CHEBI:35222	35-44
+year	UO:0000036	122-126
+Subjects must have ended hormonal replacement therapy (HRT) at least 1 month (30 days) prior to receiving the first dose of randomized therapy.	Eligibility	10
+month	UO:0000035	71-76
+Key exclusion criteria:	Eligibility	11
+Pre-menopausal, pregnant, or lactating;	Eligibility	12
+Received prior chemotherapy, hormonal therapy, immunotherapy, biologic therapy, or anti-ErbB1/ErbB2 therapy for advanced or metastatic disease;	Eligibility	13
+disease	DOID:4,OGMS:0000031	135-142
+Bisphosphonate therapy for bone metastases was allowed; however, treatment was to be initiated prior to the first dose of randomized therapy. Prophylactic use of bisphosphonates in subjects without bone disease, except for the treatment of osteoporosis, was not permitted;	Eligibility	14
+bone disease	DOID:0080001	198-210
+osteoporosis	HP:0000939,DOID:11476	240-252
+Used an investigational drug within 30 days or 5 half-lives, whichever is longer, preceding the first dose of randomized therapy (lapatinib or placebo);	Eligibility	15
+drug	CHEBI:23888	24-28
+lapatinib	CHEBI:49603	130-139
+Subjects with known history of/clinical evidence of CNS metastases or leptomeningeal carcinomatosis; and / or subjects on concurrent anti-cancer therapies other than letrozole; and / or who have not recovered from toxicities related to prior adjuvant therapy (surgery, radiotherapy, chemotherapy etc.)	Eligibility	16
+history	BFO:0000182	20-27
+letrozole	CHEBI:6413	166-175
+adjuvant	CHEBI:60809	242-250
+surgery	OAE:0000067	260-267
+radiotherapy	OAE:0000235	269-281
+Subjects with active or uncontrolled infection and/ or with history of uncontrolled or symptomatic angina, arrhythmias, or congestive heart failure.	Eligibility	17
+active	PATO:0002354	14-20
+history	BFO:0000182	60-67
+congestive heart failure	HP:0001635,DOID:6000	123-147
+Outcome Measurement:	Results	0
+Number of Participants With Progression Free Survival (PFS) in the Human Epidermal Growth Factor Receptor 2 (HER2)-Positive Advanced or Metastatic Breast Cancer as Assessed by the Investigator	Results	1
+growth factor	BAO:0002024	83-96
+receptor	BAO:0000281	97-105
+breast cancer	DOID:1612	147-160
+PFS is defined as the time from randomization until the earliest date of disease progression (PD) or death due to any cause, if sooner. The date of documented PD is defined as the date of radiological PD as assessed by the investigator based on imaging data and also by the clinical assessment of symptomatic progression. Per Response Evaluation Criteria in Solid Tumors (RECIST 1.0), PD is defined as a 20% increase in the sum of the longest diameter (LD) of target lesions, taking as a reference the smallest sum LD recorded since the treatment started, or the appearance of 1 or more new lesions.	Results	2
+time	PATO:0000165	22-26
+disease	DOID:4,OGMS:0000031	73-80
+death	OAE:0000632	101-106
+increase	BAO:0001251	408-416
+diameter	PATO:0001334	443-451
+target	BAO:0003064	460-466
+Time frame: From the date of randomization until the date of the first documented progression or date of death from any cause, whichever came first, assessed for up to 46 months	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	105-110
+Results 1:	Results	4
+Arm/Group Title: Placebo + Letrozole 2.5 mg	Results	5
+letrozole	CHEBI:6413	27-36
+Arm/Group Description: Participants received 6 tablets of placebo, identical in appearance to lapatinib tablets, orally daily (approximately at the same time each day), either 1 hour (or more) before breakfast or 1 hour (or more) after breakfast. Participants also received 1 tablet of letrozole 2.5 milligrams (mg) orally daily, preferably with the daily dose of lapatinib.	Results	6
+lapatinib	CHEBI:49603	94-103
+lapatinib	CHEBI:49603	364-373
+time	PATO:0000165	153-157
+day	UO:0000033	163-166
+hour	UO:0000032	178-182
+hour	UO:0000032	215-219
+letrozole	CHEBI:6413	286-295
+Overall Number of Participants Analyzed: 108	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  89  82.4%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Lapatinib 1500 mg + Letrozole 2.5 mg	Results	11
+lapatinib	CHEBI:49603	17-26
+letrozole	CHEBI:6413	37-46
+Arm/Group Description: Participants received 6 tablets of Lapatinib orally daily (250 mg lapatinib/tablet for a total of 1500 mg of lapatinib/day; approximately at the same time each day), either 1 hour (or more) before breakfast or 1 hour (or more) after breakfast. Participants also received 1 tablet of letrozole 2.5 mg orally daily, preferably with the daily dose of lapatinib.	Results	12
+lapatinib	CHEBI:49603	58-67
+lapatinib	CHEBI:49603	89-98
+lapatinib	CHEBI:49603	132-141
+lapatinib	CHEBI:49603	371-380
+time	PATO:0000165	173-177
+day	UO:0000033	142-145
+day	UO:0000033	183-186
+hour	UO:0000032	198-202
+hour	UO:0000032	235-239
+letrozole	CHEBI:6413	306-315
+Overall Number of Participants Analyzed: 111	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  88  79.3%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 103/624 (16.51%)	Adverse Events	1
+Anaemia 2/624 (0.32%)	Adverse Events	2
+Febrile neutropenia 0/624 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Jaundice 0/624 (0.00%)	Adverse Events	4
+jaundice	HP:0000952	0-8
+Leukocytosis 0/624 (0.00%)	Adverse Events	5
+leukocytosis	HP:0001974	0-12
+Thrombocytopenia 0/624 (0.00%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Arrhythmia 2/624 (0.32%)	Adverse Events	7
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 2/624 (0.32%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 2/624 (0.32%)	Adverse Events	9
+Dyspnoea 5/624 (0.80%)	Adverse Events	10
+Left ventricular dysfunction 1/624 (0.16%)	Adverse Events	11
+left	HP:0012835	0-4
+Left ventricular failure 1/624 (0.16%)	Adverse Events	12
+left	HP:0012835	0-4
+Adverse Events 2:	Adverse Events	13
+Total: 150/654 (22.94%)	Adverse Events	14
+Anaemia 5/654 (0.76%)	Adverse Events	15
+Febrile neutropenia 3/654 (0.46%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Jaundice 1/654 (0.15%)	Adverse Events	17
+jaundice	HP:0000952	0-8
+Leukocytosis 1/654 (0.15%)	Adverse Events	18
+leukocytosis	HP:0001974	0-12
+Thrombocytopenia 2/654 (0.31%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Arrhythmia 0/654 (0.00%)	Adverse Events	20
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation 1/654 (0.15%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 1/654 (0.15%)	Adverse Events	22
+Dyspnoea 6/654 (0.92%)	Adverse Events	23
+Left ventricular dysfunction 7/654 (1.07%)	Adverse Events	24
+left	HP:0012835	0-4
+Left ventricular failure 0/654 (0.00%)	Adverse Events	25
+left	HP:0012835	0-4

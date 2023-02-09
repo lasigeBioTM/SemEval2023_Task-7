@@ -1,0 +1,166 @@
+INTERVENTION 1:	Intervention	0
+Arm I	Intervention	1
+Patients receive dose-intensive chemotherapy comprising doxorubicin hydrochloride IV over 10-15 minutes on day 1, oral cyclophosphamide once daily on days 1-7, and filgrastim subcutaneously on days 2-7. Courses repeat every 7 days for up to 12 weeks in the absence of disease progression or unacceptable toxicity. Beginning 1 week later, patients then receive paclitaxel albumin-stabilized nanoparticle formulation IV over 30 minutes once a week for 12 weeks in the absence of disease progression or unacceptable toxicity. Patients with HER-2/neu positive disease also receive trastuzumab IV over 30-90 minutes once a week for 1 year in the absence of disease progression or unacceptable toxicity.	Intervention	2
+doxorubicin hydrochloride	CHEBI:31522	56-81
+day	UO:0000033	107-110
+day	UO:0000033	150-153
+day	UO:0000033	193-196
+day	UO:0000033	226-229
+cyclophosphamide	CHEBI:4026	119-135
+disease	DOID:4,OGMS:0000031	268-275
+disease	DOID:4,OGMS:0000031	477-484
+disease	DOID:4,OGMS:0000031	556-563
+disease	DOID:4,OGMS:0000031	652-659
+week	UO:0000034	244-248
+week	UO:0000034	326-330
+week	UO:0000034	441-445
+week	UO:0000034	453-457
+week	UO:0000034	618-622
+paclitaxel	CHEBI:45863	360-370
+nanoparticle	CHEBI:50803	390-402
+year	UO:0000036	629-633
+doxorubicin hydrochloride: Given IV	Intervention	3
+doxorubicin hydrochloride	CHEBI:31522	0-25
+cyclophosphamide: Given orally	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+filgrastim: Given SC	Intervention	5
+paclitaxel albumin-stabilized nanoparticle formulation: Given IV	Intervention	6
+paclitaxel	CHEBI:45863	0-10
+nanoparticle	CHEBI:50803	30-42
+trastuzumab: Given IV	Intervention	7
+laboratory biomarker analysis: Correlative studies	Intervention	8
+biomarker	CHEBI:59163	11-20
+quality-of-life assessment: Ancillary studies	Intervention	9
+Inclusion Criteria:	Eligibility	0
+Have a histologically confirmed diagnosis of primary breast carcinoma that has been surgically resected; (this regimen is not intended for neoadjuvant treatment)	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	53-69
+4 + nodes	Eligibility	2
+OR if 1-3 + nodes, either ER OR HER-2/neu+	Eligibility	3
+OR have high-risk node negative disease that is HER-2/neu positive OR >= 2.0 cm tumor size	Eligibility	4
+disease	DOID:4,OGMS:0000031	32-39
+size	PATO:0000117	86-90
+HER-2/new + definition: patient has known tumor HER-2/new expression = 3+ by IHC or, if 2+ by IHC confirmed to be FISH positive	Eligibility	5
+patient	HADO:0000008,OAE:0001817	24-31
+Patients with clinically apparent cardiac disease, or history of same, are not eligible; patients who are >= 60 years of age or who have a history of hypertension must have an echocardiogram or MUGA prior to enrollment; patients with breast cancer that is HER-2/neu positive and a treatment plan that includes Herceptin must have an echocardiogram or MUGA scan prior to enrollment; the LVEF must be within the institutional normal range; if LVEF is > 75%, the investigator should consider having the LVEF reviewed or repeating the MUGA prior to registration	Eligibility	6
+disease	DOID:4,OGMS:0000031	42-49
+history	BFO:0000182	54-61
+history	BFO:0000182	139-146
+age	PATO:0000011	121-124
+hypertension	HP:0000822,DOID:10763	150-162
+breast cancer	DOID:1612	234-247
+range	LABO:0000114	431-436
+WBC >= 4,000	Eligibility	7
+ANC >= 1,500	Eligibility	8
+Platelet count >= 100,000	Eligibility	9
+platelet count	CMO:0000029	0-14
+Serum creatinine =< 1.5 x IULN	Eligibility	10
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	24-25
+Bilirubin =< 2.0	Eligibility	11
+SGOT/SGPT/alkaline phosphatase =< 2 x IULN	Eligibility	12
+phosphatase	GO:0016791,BAO:0000295	19-30
+x	LABO:0000148	36-37
+Elevations greater than these require metastatic work up	Eligibility	13
+Be informed of the investigational nature of this study and provide written informed consent in accordance with institutional and federal guidelines prior to study specific screening procedures	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Except for the following, no other malignancy is allowed: synchronous ipsilateral breast cancer of the same subtype (ER/PR, HER-2/neu), adequately treated basal cell or squamous cell skin cancer, in situcervical cancer or other stage I or II cancer from which the patient has been disease free for at least 5 years	Eligibility	16
+breast cancer	DOID:1612	82-95
+skin cancer	DOID:4159	183-194
+cancer	DOID:162	89-95
+cancer	DOID:162	188-194
+cancer	DOID:162	212-218
+cancer	DOID:162	242-248
+patient	HADO:0000008,OAE:0001817	264-271
+disease	DOID:4,OGMS:0000031	281-288
+Patients with cardiac disease that would preclude the use of Adriamycin, Taxol or Herceptin are not eligible; this includes:	Eligibility	17
+disease	DOID:4,OGMS:0000031	22-29
+Angina pectoris that requires the use of antianginal medication	Eligibility	18
+angina pectoris	HP:0001681	0-15
+Cardiac arrhythmia requiring medication	Eligibility	19
+arrhythmia	HP:0011675	8-18
+Severe conduction abnormality	Eligibility	20
+severe	HP:0012828	0-6
+Clinically significant valvular disease	Eligibility	21
+disease	DOID:4,OGMS:0000031	32-39
+Cardiomegaly on chest x-ray	Eligibility	22
+cardiomegaly	HP:0001640	0-12
+chest	UBERON:0001443	16-21
+Ventricular hypertrophy on EKG	Eligibility	23
+ventricular hypertrophy	HP:0001714	0-23
+Uncontrolled hypertension, (diastolic greater than 100 mm/Hg or systolic > 200 mm/hg)	Eligibility	24
+hypertension	HP:0000822,DOID:10763	13-25
+Current use of digitalis or beta blockers for CHF	Eligibility	25
+Clinically significant pericardial effusion	Eligibility	26
+pericardial effusion	HP:0001698,DOID:118	23-43
+Myocardial infarction documented as a clinical diagnosis or by EKG or any other test	Eligibility	27
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Documented congestive heart failure	Eligibility	28
+congestive heart failure	HP:0001635,DOID:6000	11-35
+Documented cardiomyopathy	Eligibility	29
+cardiomyopathy	HP:0001638,DOID:0050700	11-25
+Documented arrhythmia or cardiac valvular disease that requires medication or is medically significant	Eligibility	30
+arrhythmia	HP:0011675	11-21
+disease	DOID:4,OGMS:0000031	42-49
+Patients who have received prior chemotherapy or radiotherapy are not eligible	Eligibility	31
+radiotherapy	OAE:0000235	49-61
+Patients who are pregnant or breastfeeding are not eligible; women of child bearing potential must agree to practice adequate contraception	Eligibility	32
+Patients with active infection are not eligible	Eligibility	33
+active	PATO:0002354	14-20
+Patients who are known to be infected with HIV, hepatitis B or hepatitis C are not eligible; testing is not required unless there is a high index of clinical suspicion	Eligibility	34
+hepatitis b	DOID:2043	48-59
+hepatitis c	DOID:1883	63-74
+Patients suffering from psychiatric impairment are not eligible	Eligibility	35
+Outcome Measurement:	Results	0
+Disease-free Survival Following a Dose-intensive Weekly Regimen of Adriamycin + Oral Cyclophosphamide Augmented With G-CSF Support Followed by Abraxane and Herceptin	Results	1
+cyclophosphamide	CHEBI:4026	85-101
+[Not Specified]	Results	2
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I	Results	5
+Arm/Group Description: Patients receive dose-intensive chemotherapy comprising doxorubicin hydrochloride IV over 10-15 minutes on day 1, oral cyclophosphamide once daily on days 1-7, and filgrastim subcutaneously on days 2-7. Courses repeat every 7 days for up to 12 weeks in the absence of disease progression or unacceptable toxicity. Beginning 1 week later, patients then receive paclitaxel albumin-stabilized nanoparticle formulation IV over 30 minutes once a week for 12 weeks in the absence of disease progression or unacceptable toxicity. Patients with HER-2/neu positive disease also receive trastuzumab IV over 30-90 minutes once a week for 1 year in the absence of disease progression or unacceptable toxicity.	Results	6
+doxorubicin hydrochloride	CHEBI:31522	79-104
+day	UO:0000033	130-133
+day	UO:0000033	173-176
+day	UO:0000033	216-219
+day	UO:0000033	249-252
+cyclophosphamide	CHEBI:4026	142-158
+disease	DOID:4,OGMS:0000031	291-298
+disease	DOID:4,OGMS:0000031	500-507
+disease	DOID:4,OGMS:0000031	579-586
+disease	DOID:4,OGMS:0000031	675-682
+week	UO:0000034	267-271
+week	UO:0000034	349-353
+week	UO:0000034	464-468
+week	UO:0000034	476-480
+week	UO:0000034	641-645
+paclitaxel	CHEBI:45863	383-393
+nanoparticle	CHEBI:50803	413-425
+year	UO:0000036	652-656
+doxorubicin hydrochloride: Given IV	Results	7
+doxorubicin hydrochloride	CHEBI:31522	0-25
+cyclophosphamide: Given orally	Results	8
+cyclophosphamide	CHEBI:4026	0-16
+filgrastim: Given SC	Results	9
+paclitaxel albumin-stabilized nanoparticle formulation: Given IV	Results	10
+paclitaxel	CHEBI:45863	0-10
+nanoparticle	CHEBI:50803	30-42
+trastuzumab: Given IV	Results	11
+laboratory biomarker analysis: Correlative studies	Results	12
+biomarker	CHEBI:59163	11-20
+quality-of-life assessment: Ancillary studies	Results	13
+Overall Number of Participants Analyzed: 60	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  56  93.3%	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 5/60 (8.33%)	Adverse Events	1
+Febrile Neutopenia1/60 (1.67%)	Adverse Events	2
+Hemorrhoidal Hemorrhage1/60 (1.67%)	Adverse Events	3
+Mucositis1/60 (1.67%)	Adverse Events	4
+Fever1/60 (1.67%)	Adverse Events	5
+Possible Pneumoncystis Pneumonia1/60 (1.67%)	Adverse Events	6
+Dehydration1/60 (1.67%)	Adverse Events	7
+Musculoskeletal Chest Pain1/60 (1.67%)	Adverse Events	8
+chest	UBERON:0001443	16-21
+Pneumothorax due to MVA1/60 (1.67%)	Adverse Events	9
+pneumothorax	HP:0002107,DOID:1673	0-12

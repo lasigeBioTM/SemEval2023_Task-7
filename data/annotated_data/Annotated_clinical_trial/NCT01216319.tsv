@@ -1,0 +1,47 @@
+INTERVENTION 1:	Intervention	0
+Nipple Reconstruction Cylinder	Intervention	1
+Nipple reconstruction: Biodesign® Nipple Reconstruction Cylinder	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Patient presents with a history of breast cancer, having previously completed either uni- or bi-lateral breast removal and reconstruction.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+history	BFO:0000182	24-31
+breast cancer	DOID:1612	35-48
+breast	UBERON:0000310	35-41
+breast	UBERON:0000310	104-110
+Patient presents with a desire to obtain nipple reconstruction	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+Patient is at least 18 years of age	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+age	PATO:0000011	32-35
+And other inclusion criteria	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+Patient is not medically fit enough for surgery under local anesthesia	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+surgery	OAE:0000067	40-47
+Patient is currently smoking, using tobacco products, or nicotine products (i.e. patch, gum, or nasal spray)	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+nicotine	CHEBI:18723	57-65
+Patient is pregnant, breastfeeding or planning further pregnancy during the study period	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Patient has physical allergies or cultural objections to the receipt of porcine products	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+And other exclusion criteria	Eligibility	10
+Outcome Measurement:	Results	0
+Percent Nipple Projection at 12 Months Compared to Baseline (1 Week Post-procedure)	Results	1
+percent	UO:0000187	0-7
+week	UO:0000034	63-67
+[Not Specified]	Results	2
+Time frame: 12 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Nipple Reconstruction Cylinder	Results	5
+Arm/Group Description: Nipple reconstruction: Biodesign   Nipple Reconstruction Cylinder	Results	6
+Overall Number of Participants Analyzed: 44	Results	7
+Overall Number of Units Analyzed	Results	8
+Type of Units Analyzed: Nipples  Mean (Standard Deviation)Unit of Measure: percentage of projection vs baseline: 37.3         (17.5)	Results	9
+mean	BAO:0002173	33-37
+standard deviation	BAO:0002176	39-57
+Adverse Events 1:	Adverse Events	0
+Total: 1/50 (2.00%)	Adverse Events	1
+Metastatic breast cancer  1/50 (2.00%)	Adverse Events	2
+breast cancer	DOID:1612	11-24

@@ -1,0 +1,187 @@
+INTERVENTION 1:	Intervention	0
+Arm A: FAC	Intervention	1
+FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv	Intervention	2
+5-fluorouracil	CHEBI:46345	5-19
+5-fluorouracil	CHEBI:46345	53-67
+doxorubicin	CHEBI:28748,BAO:0000639	21-32
+doxorubicin	CHEBI:28748,BAO:0000639	125-136
+cyclophosphamide	CHEBI:4026	34-50
+cyclophosphamide	CHEBI:4026	153-169
+day	UO:0000033	84-87
+5-fluorouracil	Intervention	3
+5-fluorouracil	CHEBI:46345	0-14
+Doxorubicin	Intervention	4
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide	Intervention	5
+cyclophosphamide	CHEBI:4026	0-16
+INTERVENTION 2:	Intervention	6
+Arm B: TAC	Intervention	7
+TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv	Intervention	8
+doxorubicin	CHEBI:28748,BAO:0000639	16-27
+doxorubicin	CHEBI:28748,BAO:0000639	114-125
+cyclophosphamide	CHEBI:4026	29-45
+cyclophosphamide	CHEBI:4026	142-158
+day	UO:0000033	73-76
+Docetaxel	Intervention	9
+Doxorubicin	Intervention	10
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide	Intervention	11
+cyclophosphamide	CHEBI:4026	0-16
+Inclusion Criteria:	Eligibility	0
+Written informed consent	Eligibility	1
+Operable breast cancer patients (T1-T3) with negative axillary lymph nodes (10 axillary nodes dissection) and high risk criteria according to St. Gallen consensus criteria.	Eligibility	2
+breast cancer	DOID:1612	9-22
+lymph	UBERON:0002391	63-68
+Histologically proven breast cancer. Interval between surgery and registration is less than 60 days.	Eligibility	3
+breast cancer	DOID:1612	22-35
+surgery	OAE:0000067	54-61
+Definitive surgical treatment must be either mastectomy, or breast conservative surgery. Margins of resected specimen from surgery must be histologically free of invasive adenocarcinoma and ductal carcinoma in-situ (DCIS). Lobular carcinoma in-situ is not considered as positive margin.	Eligibility	4
+breast	UBERON:0000310	60-66
+surgery	OAE:0000067	80-87
+surgery	OAE:0000067	123-130
+adenocarcinoma	DOID:299	171-185
+carcinoma	HP:0030731,DOID:305	176-185
+carcinoma	HP:0030731,DOID:305	197-206
+carcinoma	HP:0030731,DOID:305	231-240
+Patients without proven metastatic disease.	Eligibility	5
+disease	DOID:4,OGMS:0000031	35-42
+Estrogen and progesterone receptors performed on the primary tumour prior to randomization.	Eligibility	6
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	13-25
+Age between 18 years and 70 years.	Eligibility	7
+age	PATO:0000011	0-3
+Karnofsky performance status index > 80 %.	Eligibility	8
+Adequate hepatic, renal and heart functions.	Eligibility	9
+heart	UBERON:0000948	28-33
+Adequate hematology levels.	Eligibility	10
+Negative pregnancy test	Eligibility	11
+Exclusion Criteria:	Eligibility	12
+Prior systemic anticancer therapy for breast cancer (immunotherapy, hormonotherapy, chemotherapy).	Eligibility	13
+breast cancer	DOID:1612	38-51
+Prior anthracycline therapy or taxoids (paclitaxel, docetaxel) for any malignancy.	Eligibility	14
+anthracycline	CHEBI:48120	6-19
+paclitaxel	CHEBI:45863	40-50
+Prior radiation therapy for breast cancer.	Eligibility	15
+breast cancer	DOID:1612	28-41
+Bilateral invasive breast cancer.	Eligibility	16
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	19-32
+Pregnant, or lactating patients.	Eligibility	17
+Patients of childbearing potential must implement adequate non-hormonal contraceptive measures during study treatment .	Eligibility	18
+Any T4 or N1-3 or M1 breast cancer.	Eligibility	19
+m1	CHEBI:34826	18-20
+breast cancer	DOID:1612	21-34
+Pre-existing motor or sensory neurotoxicity of a severity grade 2 by NCI criteria.	Eligibility	20
+severity	HP:0012824	49-57
+Other serious illness or medical condition	Eligibility	21
+condition	PDRO:0000129	33-42
+Past or current history of neoplasm other than breast carcinoma.	Eligibility	22
+history	BFO:0000182	16-23
+neoplasm	HP:0002664,DOID:14566	27-35
+breast carcinoma	HP:0003002,DOID:3459	47-63
+Ipsilateral ductal carcinoma in-situ (DCIS) of the breast.	Eligibility	23
+carcinoma	HP:0030731,DOID:305	19-28
+breast	UBERON:0000310	51-57
+Lobular carcinoma in-situ (LCIS) of the breast.	Eligibility	24
+carcinoma	HP:0030731,DOID:305	8-17
+breast	UBERON:0000310	40-46
+Chronic treatment with corticosteroids unless initiated > 6 months prior to study entry and at low dose	Eligibility	25
+chronic	HP:0011010	0-7
+Concurrent treatment with ovarian hormonal replacement therapy. Prior treatment should be stopped before study entry.	Eligibility	26
+Definite contraindications for the use of corticosteroids.	Eligibility	27
+Concurrent treatment with other experimental drugs.	Eligibility	28
+Participation in another clinical trial with any investigational not marketed drug within 30 days prior to study entry.	Eligibility	29
+drug	CHEBI:23888	78-82
+Concurrent treatment with any other anti-cancer therapy.	Eligibility	30
+Male patients.	Eligibility	31
+male	CHEBI:30780,PATO:0000384	0-4
+Outcome Measurement:	Results	0
+Disease-free Survival (DFS) Events	Results	1
+DFS is calculated from the date of randomization until the first date of recurrence local, regional or distant, second primary tumor or death.	Results	2
+second	UO:0000010	112-118
+death	OAE:0000632	136-141
+Time frame: 10 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A: FAC	Results	5
+Arm/Group Description: FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv	Results	6
+5-fluorouracil	CHEBI:46345	28-42
+5-fluorouracil	CHEBI:46345	76-90
+doxorubicin	CHEBI:28748,BAO:0000639	44-55
+doxorubicin	CHEBI:28748,BAO:0000639	148-159
+cyclophosphamide	CHEBI:4026	57-73
+cyclophosphamide	CHEBI:4026	176-192
+day	UO:0000033	107-110
+5-fluorouracil	Results	7
+5-fluorouracil	CHEBI:46345	0-14
+Doxorubicin	Results	8
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide	Results	9
+cyclophosphamide	CHEBI:4026	0-16
+Overall Number of Participants Analyzed: 521	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: events  127	Results	12
+Results 2:	Results	13
+Arm/Group Title: Arm B: TAC	Results	14
+Arm/Group Description: TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv	Results	15
+doxorubicin	CHEBI:28748,BAO:0000639	39-50
+doxorubicin	CHEBI:28748,BAO:0000639	137-148
+cyclophosphamide	CHEBI:4026	52-68
+cyclophosphamide	CHEBI:4026	165-181
+day	UO:0000033	96-99
+Docetaxel	Results	16
+Doxorubicin	Results	17
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide	Results	18
+cyclophosphamide	CHEBI:4026	0-16
+Overall Number of Participants Analyzed: 539	Results	19
+Measure Type: Number	Results	20
+Unit of Measure: events  112	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 21/519 (4.05%)	Adverse Events	1
+Anaemia 1/519 (0.19%)	Adverse Events	2
+Blood bilirubin 0/519 (0.00%)	Adverse Events	3
+blood	UBERON:0000178	0-5
+Leukopenia 0/519 (0.00%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/519 (0.19%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Arrhythmia 0/519 (0.00%)	Adverse Events	6
+arrhythmia	HP:0011675	0-10
+Carotid artery thrombosis 1/519 (0.19%)	Adverse Events	7
+carotid artery thrombosis	DOID:3410	0-25
+Ear infection 0/519 (0.00%)	Adverse Events	8
+ear	UBERON:0001690	0-3
+Conjunctivitis 0/519 (0.00%)	Adverse Events	9
+conjunctivitis	HP:0000509,DOID:6195	0-14
+Abdominal pain 1/519 (0.19%)	Adverse Events	10
+abdominal pain	HP:0002027	0-14
+Anal fissure 0/519 (0.00%)	Adverse Events	11
+anal fissure	HP:0012390,DOID:3128	0-12
+Constipation 0/519 (0.00%)	Adverse Events	12
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 1/519 (0.19%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 119/532 (22.37%)	Adverse Events	15
+Anaemia 1/532 (0.19%)	Adverse Events	16
+Blood bilirubin 1/532 (0.19%)	Adverse Events	17
+blood	UBERON:0000178	0-5
+Leukopenia 1/532 (0.19%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 5/532 (0.94%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Arrhythmia 1/532 (0.19%)	Adverse Events	20
+arrhythmia	HP:0011675	0-10
+Carotid artery thrombosis 0/532 (0.00%)	Adverse Events	21
+carotid artery thrombosis	DOID:3410	0-25
+Ear infection 1/532 (0.19%)	Adverse Events	22
+ear	UBERON:0001690	0-3
+Conjunctivitis 1/532 (0.19%)	Adverse Events	23
+conjunctivitis	HP:0000509,DOID:6195	0-14
+Abdominal pain 1/532 (0.19%)	Adverse Events	24
+abdominal pain	HP:0002027	0-14
+Anal fissure 1/532 (0.19%)	Adverse Events	25
+anal fissure	HP:0012390,DOID:3128	0-12
+Constipation 1/532 (0.19%)	Adverse Events	26
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 6/532 (1.13%)	Adverse Events	27

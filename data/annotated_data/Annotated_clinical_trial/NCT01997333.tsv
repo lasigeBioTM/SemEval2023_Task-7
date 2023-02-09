@@ -1,0 +1,149 @@
+INTERVENTION 1:	Intervention	0
+Capecitabine	Intervention	1
+capecitabine	CHEBI:31348	0-12
+Capecitabine administered on Days 1 through 14 of each 21 day cycle until disease progression, discontinuation due to toxicity, withdrawal of consent, or end of study.	Intervention	2
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	29-32
+day	UO:0000033	58-61
+disease	DOID:4,OGMS:0000031	74-81
+INTERVENTION 2:	Intervention	3
+CDX-011	Intervention	4
+CDX-011 administered on Day 1 of each 21 day cycle until disease progression, discontinuation due to toxicity, withdrawal of consent, or end of study.	Intervention	5
+day	UO:0000033	24-27
+day	UO:0000033	41-44
+disease	DOID:4,OGMS:0000031	57-64
+Inclusion Criteria:	Eligibility	0
+Among other criteria, patients must meet all of the following conditions to be eligible for the study:	Eligibility	1
+Diagnosed with metastatic (i.e., cancer that has spread) TNBC	Eligibility	2
+cancer	DOID:162	33-39
+minimal or no expression of estrogen and progesterone receptors (ER/PR) <10% of cells positive by immunohistochemistry	Eligibility	3
+estrogen	CHEBI:50114,BAO:0000760	28-36
+progesterone	CHEBI:17026	41-53
+immunohistochemistry	BAO:0000415	98-118
+HER 2 staining 0 or 1+ by IHC or copy number <4.0 signals/cell	Eligibility	4
+Documented progression of disease based on radiographic, clinical or pathologic assessment during or subsequent to the last anticancer regimen received.	Eligibility	5
+disease	DOID:4,OGMS:0000031	26-33
+Breast cancer tumor confirmed to express gpNMB. This will be determined by submitting a tissue sample from the advanced (locally advanced/recurrent or metastatic) disease setting to a central laboratory for analysis.	Eligibility	6
+breast cancer	DOID:1612	0-13
+tissue	UBERON:0000479	88-94
+disease	DOID:4,OGMS:0000031	163-170
+central	HP:0030645	184-191
+Received no more than two prior chemotherapy treatments for advanced (locally advanced/recurrent or metastatic) breast cancer.	Eligibility	7
+breast cancer	DOID:1612	112-125
+Prior chemotherapy treatment must have contained an anthracycline (e.g. doxorubicin or Doxil) if clinically indicated and a taxane (eg: Taxol).	Eligibility	8
+anthracycline	CHEBI:48120	52-65
+doxorubicin	CHEBI:28748,BAO:0000639	72-83
+taxane	CHEBI:36064	124-130
+ECOG performance status of 0 - 1.	Eligibility	9
+Adequate bone marrow, liver and renal function.	Eligibility	10
+bone marrow	UBERON:0002371	9-20
+liver	UBERON:0002107	22-27
+function	BAO:0003117,BFO:0000034	38-46
+Exclusion:	Eligibility	11
+Among other criteria, patients who meet any of the following conditions are NOT eligible for the study:	Eligibility	12
+Progression/recurrence of breast cancer during or within 3 months of completion of neoadjuvant or adjuvant chemotherapy.	Eligibility	13
+breast cancer	DOID:1612	26-39
+adjuvant	CHEBI:60809	86-94
+adjuvant	CHEBI:60809	98-106
+Ongoing neuropathy or other chemotherapy or radiation-related toxicities that are moderate (Grade 2) or worse in severity.	Eligibility	14
+neuropathy	DOID:870	8-18
+moderate	HP:0012826	82-90
+severity	HP:0012824	113-121
+Known brain metastases, unless previously treated and asymptomatic for 2 months and not progressive in size or number for 2 months.	Eligibility	15
+brain	UBERON:0000955	6-11
+progressive	HP:0003676	88-99
+size	PATO:0000117	103-107
+Significant cardiovascular disease.	Eligibility	16
+disease	DOID:4,OGMS:0000031	27-34
+Previously received capecitabine and discontinued due to progression or intolerance; previously received CDX-011 or other MMAE containing agents.	Eligibility	17
+capecitabine	CHEBI:31348	20-32
+Active systemic infection requiring treatment. Infection controlled by oral therapy will not be exclusionary.	Eligibility	18
+active	PATO:0002354	0-6
+Chronic use of systemic corticosteroids.	Eligibility	19
+chronic	HP:0011010	0-7
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS)	Results	1
+PFS is defined as the time from randomization to the earlier of disease progression or death due to any cause. Disease progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1), as a 20% increase in the sum of the longest diameter of target lesions, or progression in a non-target lesion, or the appearance of new lesions. The primary analysis of PFS was based on PFS events determined retrospectively by the central independent review committee, blinded to treatment assignment and investigator assessments according to RECIST 1.1 criteria.	Results	2
+time	PATO:0000165	22-26
+disease	DOID:4,OGMS:0000031	64-71
+disease	DOID:4,OGMS:0000031	111-118
+death	OAE:0000632	87-92
+increase	BAO:0001251	226-234
+diameter	PATO:0001334	261-269
+target	BAO:0003064	273-279
+target	BAO:0003064	313-319
+central	HP:0030645	448-455
+Time frame: Evaluated every 6 - 9 weeks following treatment initiation	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Capecitabine	Results	5
+capecitabine	CHEBI:31348	17-29
+Arm/Group Description: Capecitabine administered on Days 1 through 14 of each 21 day cycle until disease progression, discontinuation due to toxicity, withdrawal of consent, or end of study.	Results	6
+capecitabine	CHEBI:31348	23-35
+day	UO:0000033	52-55
+day	UO:0000033	81-84
+disease	DOID:4,OGMS:0000031	97-104
+Overall Number of Participants Analyzed: 109	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  2.8        (1.6 to 3.2)	Results	9
+Results 2:	Results	10
+Arm/Group Title: CDX-011	Results	11
+Arm/Group Description: CDX-011 administered on Day 1 of each 21 day cycle until disease progression, discontinuation due to toxicity, withdrawal of consent, or end of study.	Results	12
+day	UO:0000033	47-50
+day	UO:0000033	64-67
+disease	DOID:4,OGMS:0000031	80-87
+Overall Number of Participants Analyzed: 218	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  2.9        (2.8 to 3.5)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 19/92 (20.65%)	Adverse Events	1
+Anemia 0/92 (0.00%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia 0/92 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/92 (0.00%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 1/92 (1.09%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Pericardial effusion 0/92 (0.00%)	Adverse Events	6
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus tachycardia 0/92 (0.00%)	Adverse Events	7
+sinus tachycardia	HP:0011703	0-17
+Cataract nuclear 0/92 (0.00%)	Adverse Events	8
+cataract	HP:0000518,DOID:83	0-8
+Abdominal pain 2/92 (2.17%)	Adverse Events	9
+abdominal pain	HP:0002027	0-14
+Colitis 0/92 (0.00%)	Adverse Events	10
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 0/92 (0.00%)	Adverse Events	11
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 5/92 (5.43%)	Adverse Events	12
+Enterocolitis 2/92 (2.17%)	Adverse Events	13
+enterocolitis	HP:0004387	0-13
+Adverse Events 2:	Adverse Events	14
+Total: 71/213 (33.33%)	Adverse Events	15
+Anemia 2/213 (0.94%)	Adverse Events	16
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia 3/213 (1.41%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 1/213 (0.47%)	Adverse Events	18
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 2/213 (0.94%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Pericardial effusion 2/213 (0.94%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus tachycardia 1/213 (0.47%)	Adverse Events	21
+sinus tachycardia	HP:0011703	0-17
+Cataract nuclear 1/213 (0.47%)	Adverse Events	22
+cataract	HP:0000518,DOID:83	0-8
+Abdominal pain 6/213 (2.82%)	Adverse Events	23
+abdominal pain	HP:0002027	0-14
+Colitis 1/213 (0.47%)	Adverse Events	24
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 4/213 (1.88%)	Adverse Events	25
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 6/213 (2.82%)	Adverse Events	26
+Enterocolitis 0/213 (0.00%)	Adverse Events	27
+enterocolitis	HP:0004387	0-13

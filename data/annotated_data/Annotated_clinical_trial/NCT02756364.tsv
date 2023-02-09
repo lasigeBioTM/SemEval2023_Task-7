@@ -1,0 +1,199 @@
+INTERVENTION 1:	Intervention	0
+Arm A: Fulvestrant 500 mg	Intervention	1
+fulvestrant	CHEBI:31638	7-18
+Fulvestrant 500 mg, intramuscularly (IM), once on Days 1 and 15 in Cycle 1, and then on Day 1 of each subsequent 28-day cycle until progressive disease, unacceptable toxicity, or withdrawal of consent (Median duration of treatment was 16.0 weeks).	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	50-53
+day	UO:0000033	88-91
+day	UO:0000033	116-119
+progressive	HP:0003676	132-143
+disease	DOID:4,OGMS:0000031	144-151
+median	BAO:0002174	202-208
+duration	PATO:0001309	209-217
+INTERVENTION 2:	Intervention	3
+Arm B: Fulvestrant 500 mg + Sapanisertib 4 mg QD	Intervention	4
+fulvestrant	CHEBI:31638	7-18
+Fulvestrant 500 mg, IM, once on Days 1 and 15 in Cycle 1, and then on Day 1 of each subsequent 28-day cycle along with the sapanisertib 4 mg, capsules, orally, once daily in each 28-day treatment cycle until progressive disease, unacceptable toxicity, or withdrawal of consent (Median duration of treatment was 20.1 and 20.3 weeks for fulvestrant and sapanisertib respectively).	Intervention	5
+fulvestrant	CHEBI:31638	0-11
+fulvestrant	CHEBI:31638	335-346
+day	UO:0000033	32-35
+day	UO:0000033	70-73
+day	UO:0000033	98-101
+day	UO:0000033	182-185
+progressive	HP:0003676	208-219
+disease	DOID:4,OGMS:0000031	220-227
+median	BAO:0002174	278-284
+duration	PATO:0001309	285-293
+Inclusion Criteria:	Eligibility	0
+Female participants aged 18 years or older who are postmenopausal.	Eligibility	1
+female	PATO:0000383	0-6
+Histologically proven diagnosis of breast cancer with evidence of metastatic disease or locoregional recurrence.	Eligibility	2
+breast cancer	DOID:1612	35-48
+disease	DOID:4,OGMS:0000031	77-84
+Histological confirmation and documentation of estrogen receptor (ER)-positive status (  1% positive stained cells).	Eligibility	3
+estrogen	CHEBI:50114,BAO:0000760	47-55
+receptor	BAO:0000281	56-64
+Histological or cytological confirmation and documentation of human epidermal growth factor receptor-2 (HER2)-negative status by local laboratory testing using criteria in the American Society of Oncology (ASCO)/College of American Pathologists (CAP) Clinical Practice Guideline update.	Eligibility	4
+growth factor	BAO:0002024	78-91
+Measurable disease defined as either of the following:	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+At least 1 extra-osseous lesion that could be accurately measured in at least 1 dimension.	Eligibility	6
+The lesion must have measured 20 mm with conventional imaging techniques or 10 mm with spiral CT or MRI. Lymph nodes must be 1.5 cm in the short axis to be considered measurable.	Eligibility	7
+ct	BAO:0002125	94-96
+lymph	UBERON:0002391	105-110
+Bone lesions (lytic or mixed [lytic plus sclerotic]) in the absence of measurable disease as defined above. Note: Participants with sclerotic/osteoblastic bone lesions only, in the absence of measurable disease, were not eligible.	Eligibility	8
+mixed	BAO:0002107	23-28
+disease	DOID:4,OGMS:0000031	82-89
+disease	DOID:4,OGMS:0000031	203-210
+Progressive Disease (PD) during prior aromatase inhibitor (AI) therapy.	Eligibility	9
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+inhibitor	CHEBI:35222	48-57
+Have a history of brain metastasis provided that all of the following criteria are met:	Eligibility	10
+history	BFO:0000182	7-14
+brain	UBERON:0000955	18-23
+Brain metastases have been treated.	Eligibility	11
+brain	UBERON:0000955	0-5
+No evidence of PD for 3 months before the first dose of study drug.	Eligibility	12
+drug	CHEBI:23888	62-66
+No hemorrhage after treatment.	Eligibility	13
+Off dexamethasone treatment for 4 weeks before the first dose of study drug.	Eligibility	14
+dexamethasone	CHEBI:41879	4-17
+drug	CHEBI:23888	71-75
+No ongoing requirement for dexamethasone or anti-epileptic drugs.	Eligibility	15
+dexamethasone	CHEBI:41879	27-40
+Eastern cooperative oncology group (ECOG) performance status of 0 or 1.	Eligibility	16
+group	CHEBI:24433	29-34
+Clinical laboratory values as specified below within 4 weeks before the first dose of study drug:	Eligibility	17
+drug	CHEBI:23888	92-96
+Bone marrow reserve consistent with absolute neutrophil count (ANC) 1.5*10^9/L; platelet count 100*10^9/L; hemoglobin (Hgb) 9 g/dL.	Eligibility	18
+bone marrow	UBERON:0002371	0-11
+platelet count	CMO:0000029	80-94
+hemoglobin	CHEBI:35143	107-117
+Total bilirubin 1.5*the upper limit of the normal range (ULN), aspartate aminotransferase (AST) and alanine aminotransferase (ALT) 2.5*ULN (  5*ULN if liver metastases are present).	Eligibility	19
+range	LABO:0000114	50-55
+aspartate	CHEBI:29995	63-72
+alanine	CHEBI:16449	100-107
+liver	UBERON:0002107	151-156
+present	PATO:0000467	172-179
+Creatinine clearance 40 mL/min based on Cockcroft-Gault estimate or based on a 12- or 24-hour urine collection.	Eligibility	20
+creatinine clearance	CMO:0000765	0-20
+urine	UBERON:0001088	94-99
+Fasting serum glucose 130 mg/dL and fasting triglycerides 300 mg/dL.	Eligibility	21
+glucose	CHEBI:4167,BAO:0000924	14-21
+Exclusion Criteria:	Eligibility	22
+Prior therapy with mechanistic target of rapamycin (mTOR), phosphoinositide-3-kinase (PI3K), or dual PI3K-mTOR inhibitors, serine/threonine-specific protein kinase (AKT) inhibitors, or fulvestrant.	Eligibility	23
+target	BAO:0003064	31-37
+protein	CHEBI:36080,BAO:0000175	149-156
+kinase	BAO:0000294	78-84
+kinase	BAO:0000294	157-163
+fulvestrant	CHEBI:31638	185-196
+Prior treatment with >1 line of chemotherapy for metastatic breast cancer or for locoregional recurrence that was not amenable to resection or radiation therapy with curative intent.	Eligibility	24
+breast cancer	DOID:1612	60-73
+Experienced PD on >2 endocrine therapies for metastatic breast cancer or for locoregional recurrence that was not amenable to resection or radiation therapy with curative intent.	Eligibility	25
+breast cancer	DOID:1612	56-69
+Life-threatening metastatic visceral disease (defined as extensive hepatic involvement or symptomatic pulmonary lymphangitic spread).	Eligibility	26
+disease	DOID:4,OGMS:0000031	37-44
+Poorly controlled diabetes mellitus defined as hemoglobin A1c (glycosylated hemoglobin; HbA1c) >7%; participants with a history of transient glucose intolerance due to corticosteroid administration may be eligible if all other inclusion/exclusion criteria are met.	Eligibility	27
+diabetes mellitus	HP:0000819,DOID:9351	18-35
+hemoglobin	CHEBI:35143	47-57
+hemoglobin	CHEBI:35143	76-86
+glycosylated	BAO:0002560	63-75
+history	BFO:0000182	120-127
+transient	HP:0025153	131-140
+glucose intolerance	HP:0001952,DOID:10603	141-160
+corticosteroid	CHEBI:50858	168-182
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS)	Results	1
+PFS was defined as the time from the date of randomization to the date of first documentation of progressive disease (PD) or death due to any cause, whichever occurred first. Per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1, PD was defined as at least a 20% increase in the sum of the longest diameter (LD) of target lesions, taking as reference the smallest sum LD recorded since the treatment started or the appearance of one or more new lesions.	Results	2
+time	PATO:0000165	23-27
+progressive	HP:0003676	97-108
+disease	DOID:4,OGMS:0000031	109-116
+death	OAE:0000632	125-130
+increase	BAO:0001251	272-280
+diameter	PATO:0001334	307-315
+target	BAO:0003064	324-330
+Time frame: Up to 40 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A: Fulvestrant 500 mg	Results	5
+fulvestrant	CHEBI:31638	24-35
+Arm/Group Description: Fulvestrant 500 mg, intramuscularly (IM), once on Days 1 and 15 in Cycle 1, and then on Day 1 of each subsequent 28-day cycle until progressive disease, unacceptable toxicity, or withdrawal of consent (Median duration of treatment was 16.0 weeks).	Results	6
+fulvestrant	CHEBI:31638	23-34
+day	UO:0000033	73-76
+day	UO:0000033	111-114
+day	UO:0000033	139-142
+progressive	HP:0003676	155-166
+disease	DOID:4,OGMS:0000031	167-174
+median	BAO:0002174	225-231
+duration	PATO:0001309	232-240
+Overall Number of Participants Analyzed: 46	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  3.5        (1.9 to 5.6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm B: Fulvestrant 500 mg + Sapanisertib 4 mg QD	Results	11
+fulvestrant	CHEBI:31638	24-35
+Arm/Group Description: Fulvestrant 500 mg, IM, once on Days 1 and 15 in Cycle 1, and then on Day 1 of each subsequent 28-day cycle along with the sapanisertib 4 mg, capsules, orally, once daily in each 28-day treatment cycle until progressive disease, unacceptable toxicity, or withdrawal of consent (Median duration of treatment was 20.1 and 20.3 weeks for fulvestrant and sapanisertib respectively).	Results	12
+fulvestrant	CHEBI:31638	23-34
+fulvestrant	CHEBI:31638	358-369
+day	UO:0000033	55-58
+day	UO:0000033	93-96
+day	UO:0000033	121-124
+day	UO:0000033	205-208
+progressive	HP:0003676	231-242
+disease	DOID:4,OGMS:0000031	243-250
+median	BAO:0002174	301-307
+duration	PATO:0001309	308-316
+Overall Number of Participants Analyzed: 47	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  7.2        (3.9 to 10.6)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 8/46 (17.39%)	Adverse Events	1
+Angina pectoris 0/46 (0.00%)	Adverse Events	2
+angina pectoris	HP:0001681	0-15
+Hypercalcaemia of malignancy 0/46 (0.00%)	Adverse Events	3
+Vomiting 0/46 (0.00%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Diarrhoea 0/46 (0.00%)	Adverse Events	5
+Nausea 0/46 (0.00%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Stomatitis 0/46 (0.00%)	Adverse Events	7
+stomatitis	HP:0010280,DOID:9637	0-10
+Pyrexia 0/46 (0.00%)	Adverse Events	8
+Cholelithiasis 0/46 (0.00%)	Adverse Events	9
+cholelithiasis	HP:0001081,DOID:10211	0-14
+Hepatic failure 1/46 (2.17%)	Adverse Events	10
+hepatic failure	HP:0001399	0-15
+Pyelonephritis acute 0/46 (0.00%)	Adverse Events	11
+pyelonephritis	HP:0012330,DOID:11400	0-14
+acute	HP:0011009,PATO:0000389	15-20
+Appendicitis 0/46 (0.00%)	Adverse Events	12
+appendicitis	DOID:8337	0-12
+Cellulitis 0/46 (0.00%)	Adverse Events	13
+cellulitis	HP:0100658,DOID:3488	0-10
+Adverse Events 2:	Adverse Events	14
+Total: 13/47 (27.66%)	Adverse Events	15
+Angina pectoris 0/47 (0.00%)	Adverse Events	16
+angina pectoris	HP:0001681	0-15
+Hypercalcaemia of malignancy 0/47 (0.00%)	Adverse Events	17
+Vomiting 2/47 (4.26%)	Adverse Events	18
+vomiting	HP:0002013	0-8
+Diarrhoea 2/47 (4.26%)	Adverse Events	19
+Nausea 0/47 (0.00%)	Adverse Events	20
+nausea	HP:0002018	0-6
+Stomatitis 1/47 (2.13%)	Adverse Events	21
+stomatitis	HP:0010280,DOID:9637	0-10
+Pyrexia 2/47 (4.26%)	Adverse Events	22
+Cholelithiasis 0/47 (0.00%)	Adverse Events	23
+cholelithiasis	HP:0001081,DOID:10211	0-14
+Hepatic failure 0/47 (0.00%)	Adverse Events	24
+hepatic failure	HP:0001399	0-15
+Pyelonephritis acute 0/47 (0.00%)	Adverse Events	25
+pyelonephritis	HP:0012330,DOID:11400	0-14
+acute	HP:0011009,PATO:0000389	15-20
+Appendicitis 0/47 (0.00%)	Adverse Events	26
+appendicitis	DOID:8337	0-12
+Cellulitis 0/47 (0.00%)	Adverse Events	27
+cellulitis	HP:0100658,DOID:3488	0-10

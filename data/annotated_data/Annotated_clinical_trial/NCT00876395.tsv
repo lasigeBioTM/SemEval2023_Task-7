@@ -1,0 +1,130 @@
+INTERVENTION 1:	Intervention	0
+Everolimus + Paclitaxel + Trastuzumab	Intervention	1
+everolimus	CHEBI:68478	0-10
+paclitaxel	CHEBI:45863	13-23
+Everolimus 10 mg daily in combination with paclitaxel 80mg/m2 weekly on days 1, 8, 15 and trastuzumab 2mg/kg weekly on days 1, 8, 15, 22	Intervention	2
+everolimus	CHEBI:68478	0-10
+paclitaxel	CHEBI:45863	43-53
+INTERVENTION 2:	Intervention	3
+Placebo + Paclitaxel + Trastuzumab	Intervention	4
+paclitaxel	CHEBI:45863	10-20
+Placebo of everolimus 10 mg daily in combination with paclitaxel 80mg/m2 weekly on days 1, 8, 15 and trastuzumab 2mg/kg weekly on days 1, 8, 15, 22	Intervention	5
+everolimus	CHEBI:68478	11-21
+paclitaxel	CHEBI:45863	54-64
+Inclusion Criteria:	Eligibility	0
+Adult Women ( 18 years old).	Eligibility	1
+adult	EFO:0001272	0-5
+Histologically or cytologically confirmed invasive breast carcinoma with local recurrence or radiological evidence of metastatic disease.	Eligibility	2
+breast carcinoma	HP:0003002,DOID:3459	51-67
+disease	DOID:4,OGMS:0000031	129-136
+Must have at least one lesion that can be accurately measured or bone lesions in the absence of measurable disease.	Eligibility	3
+disease	DOID:4,OGMS:0000031	107-114
+HER2+ patients by local laboratory testing (IHC 3+ staining or in situ hybridization positive).	Eligibility	4
+Prior trastuzumab and/or chemotherapy (taxanes included) as neo-adjuvant or adjuvant treatment is allowed but should be discontinued > 12 months prior to randomization.	Eligibility	5
+adjuvant	CHEBI:60809	64-72
+adjuvant	CHEBI:60809	76-84
+Prior treatment for breast cancer with endocrine therapy (adjuvant or metastatic settings) is allowed but should be discontinued at randomization. Patients treated with bisphosphonates at entry or who start bisphosphonates during study may continue this therapy during protocol treatment.	Eligibility	6
+breast cancer	DOID:1612	20-33
+adjuvant	CHEBI:60809	58-66
+Documentation of negative pregnancy test.	Eligibility	7
+Organ functions at time of inclusion.	Eligibility	8
+organ	UBERON:0000062	0-5
+time	PATO:0000165	19-23
+Exclusion Criteria:	Eligibility	9
+Prior mTOR inhibitors for the treatment of cancer.	Eligibility	10
+cancer	DOID:162	43-49
+Other anticancer therapy for locally advanced or metastatic breast cancer except for prior hormonal therapy.	Eligibility	11
+breast cancer	DOID:1612	60-73
+Patients with only non-measurable lesions other than bone metastasis (e.g. pleural effusion, ascites, etc).	Eligibility	12
+pleural effusion	HP:0002202	75-91
+ascites	HP:0001541	93-100
+Radiotherapy to  25% of the bone marrow within 4 weeks prior to randomization	Eligibility	13
+radiotherapy	OAE:0000235	0-12
+bone marrow	UBERON:0002371	28-39
+History of central nervous system metastasis.	Eligibility	14
+history	BFO:0000182	0-7
+central nervous system	UBERON:0001017	11-33
+Impairment of gastrointestinal (GI) function or GI disease or active ulceration of the upper gastrointestinal tract.	Eligibility	15
+function	BAO:0003117,BFO:0000034	36-44
+disease	DOID:4,OGMS:0000031	51-58
+active	PATO:0002354	62-68
+Serious peripheral neuropathy.	Eligibility	16
+peripheral neuropathy	HP:0009830,DOID:870	8-29
+Cardiac disease or dysfunction.	Eligibility	17
+disease	DOID:4,OGMS:0000031	8-15
+Uncontrolled hypertension.	Eligibility	18
+hypertension	HP:0000822,DOID:10763	13-25
+HIV.	Eligibility	19
+Pregnant,	Eligibility	20
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS) Per Investigators' Assessment Based on Local Radiology Review - Full Population	Results	1
+PFS is defined as the time from the date of randomization to the date of first documented tumor progression or death from any cause, whichever occurs first. This was assessed in the full patient population.	Results	2
+time	PATO:0000165	22-26
+death	OAE:0000632	111-116
+patient	HADO:0000008,OAE:0001817	187-194
+Time frame: date of randomization to the date of first documented tumor progression or death from any cause, whichever occurs first, reported between day of first patient randomized up to about 56 months	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	87-92
+day	UO:0000033	150-153
+patient	HADO:0000008,OAE:0001817	163-170
+Results 1:	Results	4
+Arm/Group Title: Everolimus + Paclitaxel + Trastuzumab	Results	5
+everolimus	CHEBI:68478	17-27
+paclitaxel	CHEBI:45863	30-40
+Arm/Group Description: Everolimus 10 mg daily in combination with paclitaxel 80mg/m2 weekly on days 1, 8, 15 and trastuzumab 2mg/kg weekly on days 1, 8, 15, 22	Results	6
+everolimus	CHEBI:68478	23-33
+paclitaxel	CHEBI:45863	66-76
+Overall Number of Participants Analyzed: 480	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  14.95        (14.55 to 17.91)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo + Paclitaxel + Trastuzumab	Results	11
+paclitaxel	CHEBI:45863	27-37
+Arm/Group Description: Placebo of everolimus 10 mg daily in combination with paclitaxel 80mg/m2 weekly on days 1, 8, 15 and trastuzumab 2mg/kg weekly on days 1, 8, 15, 22	Results	12
+everolimus	CHEBI:68478	34-44
+paclitaxel	CHEBI:45863	77-87
+Overall Number of Participants Analyzed: 239	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  14.49        (12.29 to 17.08)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 173/472 (36.65%)	Adverse Events	1
+Anaemia 6/472 (1.27%)	Adverse Events	2
+Febrile neutropenia 4/472 (0.85%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Iron deficiency anaemia 1/472 (0.21%)	Adverse Events	4
+Leukopenia 2/472 (0.42%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 2/472 (0.42%)	Adverse Events	6
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 4/472 (0.85%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 1/472 (0.21%)	Adverse Events	8
+acute myocardial infarction	DOID:9408	0-27
+Aortic valve incompetence 0/472 (0.00%)	Adverse Events	9
+valve	UBERON:0003978	7-12
+Atrial fibrillation 2/472 (0.42%)	Adverse Events	10
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 1/472 (0.21%)	Adverse Events	11
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Adverse Events 2:	Adverse Events	12
+Total: 40/238 (16.81%)	Adverse Events	13
+Anaemia 0/238 (0.00%)	Adverse Events	14
+Febrile neutropenia 1/238 (0.42%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Iron deficiency anaemia 0/238 (0.00%)	Adverse Events	16
+Leukopenia 0/238 (0.00%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 2/238 (0.84%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/238 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 0/238 (0.00%)	Adverse Events	20
+acute myocardial infarction	DOID:9408	0-27
+Aortic valve incompetence 1/238 (0.42%)	Adverse Events	21
+valve	UBERON:0003978	7-12
+Atrial fibrillation 0/238 (0.00%)	Adverse Events	22
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 0/238 (0.00%)	Adverse Events	23
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14

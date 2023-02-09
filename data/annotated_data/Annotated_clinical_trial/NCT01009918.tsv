@@ -1,0 +1,128 @@
+INTERVENTION 1:	Intervention	0
+Arm I Lisinopril	Intervention	1
+lisinopril	CHEBI:43755	6-16
+Patients receive oral lisinopril once daily.	Intervention	2
+lisinopril	CHEBI:43755	22-32
+lisinopril: Given orally	Intervention	3
+lisinopril	CHEBI:43755	0-10
+INTERVENTION 2:	Intervention	4
+Arm II Coreg CR®	Intervention	5
+Patients receive oral Coreg CR® once daily.	Intervention	6
+Coreg CR®: Given orally	Intervention	7
+INCLUSION CRITERIA	Eligibility	0
+Males and Females  18 years old diagnosed with HER2 positive breast cancer	Eligibility	1
+breast cancer	DOID:1612	61-74
+Scheduled to receive neoadjuvant or adjuvant trastuzumab (Herceptin®) therapy (anthracycline-containing regimens are permitted). Patients receiving Herceptin® with their chemotherapy are permitted for eligibility work-up. Taxanes are permitted. Trastuzumab (Herceptin®) therapy may be given with or after primary chemotherapy. Pertuzumab may be used in conjunction with trastuzumab.	Eligibility	2
+adjuvant	CHEBI:60809	24-32
+adjuvant	CHEBI:60809	36-44
+Left Ventricular Ejection Fraction (LVEF)  50% by MUGA scan or echocardiogram	Eligibility	3
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Adequate renal function for administration of trastuzumab-containing chemotherapy regimen.	Eligibility	4
+function	BAO:0003117,BFO:0000034	15-23
+Sitting systolic blood pressure of > 90 mm Hg	Eligibility	5
+systolic blood pressure	CMO:0000004	8-31
+Pulse  60 beats/minute	Eligibility	6
+pulse	CMO:0000294	0-5
+Not pregnant or breastfeeding	Eligibility	7
+Female patients of childbearing potential, who are sexually active, must have a negative pregnancy test before starting the study	Eligibility	8
+female	PATO:0000383	0-6
+active	PATO:0002354	60-66
+Both men and women must be willing to use effective contraception during the study. Teratogenicity is documented for both active study agents	Eligibility	9
+active	PATO:0002354	122-128
+Able to swallow capsules	Eligibility	10
+EXCLUSION CRITERIA:	Eligibility	11
+Patients with metastatic disease	Eligibility	12
+disease	DOID:4,OGMS:0000031	25-32
+Prior treatment with trastuzumab or anthracyclines prior to this chemotherapy regimen	Eligibility	13
+Current treatment with angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), such as losartan, β-blockers or digoxin	Eligibility	14
+angiotensin	CHEBI:48433	23-34
+angiotensin	CHEBI:48433	71-82
+enzyme	BAO:0000279	46-52
+receptor	BAO:0000281	83-91
+losartan	CHEBI:6541	117-125
+digoxin	CHEBI:4551	141-148
+Known cardiac history: heart failure, myocardial infarction, radiation-induced cardiac dysfunction	Eligibility	15
+history	BFO:0000182	14-21
+heart	UBERON:0000948	23-28
+myocardial infarction	HP:0001658,DOID:5844	38-59
+Known allergy to either ACE inhibitors or β-blockers	Eligibility	16
+allergy	HP:0012393	6-13
+History of bronchial asthma or related bronchospastic conditions	Eligibility	17
+history	BFO:0000182	0-7
+asthma	HP:0002099,DOID:2841	21-27
+Hereditary or idiopathic angioedema	Eligibility	18
+angioedema	HP:0100665,DOID:1558	25-35
+History of severe hypersensitivity reactions to drugs or other causes, i.e. bee stings	Eligibility	19
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+hypersensitivity	GO:0002524,DOID:1205	18-34
+This protocol does not exclude patients who are participating on other investigational studies. Refer to the local IRB guidelines.	Eligibility	20
+Outcome Measurement:	Results	0
+Number of Participants With Trastuzumab-Induced Cardiotoxicity After 52 Weeks of Treatment	Results	1
+Reduction in incidence of trastuzumab-induced cardiotoxicity after 52 weeks of treatment as measured by preservation of Left Ventricular Ejection Fraction (LVEF). Number of Patients who experienced a cardiotoxicity.	Results	2
+left	HP:0012835	120-124
+ejection fraction	CMO:0000180	137-154
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I Lisinopril	Results	5
+lisinopril	CHEBI:43755	23-33
+Arm/Group Description: Patients receive oral lisinopril once daily.	Results	6
+lisinopril	CHEBI:43755	45-55
+lisinopril: Given orally	Results	7
+lisinopril	CHEBI:43755	0-10
+Overall Number of Participants Analyzed: 152	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  45  29.6%	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm II Coreg CR	Results	12
+Arm/Group Description: Patients receive oral Coreg CR   once daily.	Results	13
+Coreg CR  : Given orally	Results	14
+Overall Number of Participants Analyzed: 147	Results	15
+Measure Type: Count of Participants	Results	16
+Unit of Measure: Participants  43  29.3%	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 5/158 (3.16%)	Adverse Events	1
+Anemia 1/158 (0.63%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Febrile Neutropenia 0/158 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Spleen Disorder 0/158 (0.00%)	Adverse Events	4
+disorder	OGMS:0000045	7-15
+Palpitations 0/158 (0.00%)	Adverse Events	5
+palpitations	HP:0001962	0-12
+Chest pain - cardiac 0/158 (0.00%)	Adverse Events	6
+chest pain	HP:0100749	0-10
+Pericardial Effusion 1/158 (0.63%)	Adverse Events	7
+pericardial effusion	HP:0001698,DOID:118	0-20
+Colitis 0/158 (0.00%)	Adverse Events	8
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhea 1/158 (0.63%)	Adverse Events	9
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 0/158 (0.00%)	Adverse Events	10
+fatigue	HP:0012378	0-7
+Skin Infection 0/158 (0.00%)	Adverse Events	11
+Neutrophil Count Decreased 0/158 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 4/156 (2.56%)	Adverse Events	14
+Anemia 0/156 (0.00%)	Adverse Events	15
+anemia	HP:0001903,DOID:2355	0-6
+Febrile Neutropenia 1/156 (0.64%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Spleen Disorder 0/156 (0.00%)	Adverse Events	17
+disorder	OGMS:0000045	7-15
+Palpitations 0/156 (0.00%)	Adverse Events	18
+palpitations	HP:0001962	0-12
+Chest pain - cardiac 0/156 (0.00%)	Adverse Events	19
+chest pain	HP:0100749	0-10
+Pericardial Effusion 0/156 (0.00%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Colitis 1/156 (0.64%)	Adverse Events	21
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhea 0/156 (0.00%)	Adverse Events	22
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 1/156 (0.64%)	Adverse Events	23
+fatigue	HP:0012378	0-7
+Skin Infection 0/156 (0.00%)	Adverse Events	24
+Neutrophil Count Decreased 1/156 (0.64%)	Adverse Events	25

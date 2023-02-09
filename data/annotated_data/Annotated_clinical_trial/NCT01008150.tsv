@@ -1,0 +1,328 @@
+INTERVENTION 1:	Intervention	0
+Arm 1: Paclitaxel + Trastuzumab Then A C	Intervention	1
+paclitaxel	CHEBI:45863	7-17
+4 cycles of paclitaxel 80 mg/m2 on Days 1, 8, and 15 of a 28-day cycle. Trastuzumab concurrently with paclitaxel weekly for a total of 16 doses (4 mg/kg loading dose, then 2 mg/kg weekly). Following paclitaxel/trastuzumab, standard AC every 21 days for 4 cycles. Following surgery, trastuzumab (8 mg/kg loading dose, then 6 mg/kg) every 3 weeks to complete 1 year of targeted therapy (either preoperative trastuzumab therapy or neratinib therapy)	Intervention	2
+paclitaxel	CHEBI:45863	12-22
+paclitaxel	CHEBI:45863	102-112
+paclitaxel	CHEBI:45863	199-209
+surgery	OAE:0000067	273-280
+year	UO:0000036	359-363
+neratinib	CHEBI:61397	428-437
+Paclitaxel	Intervention	3
+paclitaxel	CHEBI:45863	0-10
+Trastuzumab	Intervention	4
+Doxorubicin	Intervention	5
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+INTERVENTION 2:	Intervention	7
+Arm 2: Paclitaxel + Neratinib Then A C	Intervention	8
+paclitaxel	CHEBI:45863	7-17
+neratinib	CHEBI:61397	20-29
+4 cycles of paclitaxel 80 mg/m2 on Days 1, 8, and 15 of a 28-day cycle. Neratinib 240 mg orally once daily beginning on Day 1 of paclitaxel and continuing through Day 28 of the final cycle of paclitaxel. Following paclitaxel/neratinib therapy, standard AC every 21 days for 4 cycles. Following surgery, trastuzumab (8 mg/kg loading dose, then 6 mg/kg) every 3 weeks to complete 1 year of targeted therapy (either preoperative trastuzumab therapy or neratinib therapy)	Intervention	9
+paclitaxel	CHEBI:45863	12-22
+paclitaxel	CHEBI:45863	129-139
+paclitaxel	CHEBI:45863	192-202
+paclitaxel	CHEBI:45863	214-224
+neratinib	CHEBI:61397	72-81
+neratinib	CHEBI:61397	225-234
+neratinib	CHEBI:61397	449-458
+day	UO:0000033	35-38
+day	UO:0000033	61-64
+day	UO:0000033	120-123
+day	UO:0000033	163-166
+day	UO:0000033	265-268
+surgery	OAE:0000067	294-301
+year	UO:0000036	380-384
+Paclitaxel	Intervention	10
+paclitaxel	CHEBI:45863	0-10
+Neratinib	Intervention	11
+neratinib	CHEBI:61397	0-9
+Doxorubicin	Intervention	12
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide	Intervention	13
+cyclophosphamide	CHEBI:4026	0-16
+Inclusion Criteria:	Eligibility	0
+Patients should have a life expectancy of at least 10 years, excluding their diagnosis of breast cancer.	Eligibility	1
+breast cancer	DOID:1612	90-103
+Submission of a block from the diagnostic biopsy sample and from the surgical sample, if gross residual disease greater than or equal to 1.0 cm was removed at the time of surgery, is required for all patients	Eligibility	2
+disease	DOID:4,OGMS:0000031	104-111
+time	PATO:0000165	163-167
+surgery	OAE:0000067	171-178
+Patients of reproductive potential must agree to use an effective non-hormonal method of contraception during therapy and for at least 6 months after the last dose of study therapy.	Eligibility	3
+The Eastern Cooperative Oncology Group (ECOG) performance status must be 0 or 1.	Eligibility	4
+group	CHEBI:24433	33-38
+Patients must have the ability to swallow oral medication.	Eligibility	5
+The diagnosis of invasive adenocarcinoma of the breast must have been made by core needle biopsy or by limited incisional biopsy.	Eligibility	6
+adenocarcinoma	DOID:299	26-40
+breast	UBERON:0000310	48-54
+Patients must have ER analysis performed on the primary tumor prior to randomization. If ER analysis is negative, then progesterone receptor (PgR) analysis must also be performed. (Patients are eligible with either hormone receptor-positive or hormone receptor-negative tumors.)	Eligibility	7
+progesterone	CHEBI:17026	119-131
+receptor	BAO:0000281	132-140
+receptor	BAO:0000281	223-231
+receptor	BAO:0000281	252-260
+hormone	CHEBI:24621	215-222
+hormone	CHEBI:24621	244-251
+Breast cancer must be determined to be HER2-positive prior to randomization. Assays using FISH or CISH require gene amplification. Assays using IHC require a strongly positive (3+) staining score.	Eligibility	8
+breast cancer	DOID:1612	0-13
+gene	BAO:0000582	111-115
+Clinical staging, based on the assessment by physical exam, must be American Joint Committee on Cancer (AJCC) stage IIB, IIIA, IIIB, or IIIC: cT2 and cN1; cT3 and cN0 or cN1; Any cT and cN2 or cN3; or cT4	Eligibility	9
+cancer	DOID:162	96-102
+ct	BAO:0002125	142-144
+ct	BAO:0002125	155-157
+ct	BAO:0002125	179-181
+ct	BAO:0002125	201-203
+The patient must have a mass in the breast or axilla measuring greater than or equal to 2.0 cm by physical exam, unless the patient has inflammatory breast cancer, in which case measurable disease by physical exam is not required.	Eligibility	10
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	124-131
+breast	UBERON:0000310	36-42
+breast	UBERON:0000310	149-155
+breast cancer	DOID:1612	149-162
+disease	DOID:4,OGMS:0000031	189-196
+At the time of randomization, blood counts performed within 4 weeks prior to randomization must meet the following criteria: absolute neutrophil count (ANC) must be greater than or equal to 1200/mm3; Platelet count must be greater than or equal to 100,000/mm3; Hemoglobin must be greater than or equal to 10 g/dL	Eligibility	11
+time	PATO:0000165	7-11
+blood	UBERON:0000178	30-35
+platelet count	CMO:0000029	200-214
+hemoglobin	CHEBI:35143	261-271
+The following criteria for evidence of adequate hepatic function performed within 4 weeks prior to randomization must be met: total bilirubin must be less than or equal to upper limit of normal (ULN) for the lab unless the patient has a bilirubin elevation greater than ULN to 1.5 x ULN due to Gilbert's disease or similar syndrome involving slow conjugation of bilirubin; and alkaline phosphatase must be less than or equal to 2.5 x ULN for the lab; and aspartate aminotransferase (AST) and ALT must be less than or equal to 1.5 x ULN for the lab.	Eligibility	12
+function	BAO:0003117,BFO:0000034	56-64
+patient	HADO:0000008,OAE:0001817	223-230
+x	LABO:0000148	281-282
+x	LABO:0000148	432-433
+x	LABO:0000148	530-531
+disease	DOID:4,OGMS:0000031	304-311
+syndrome	DOID:225	323-331
+phosphatase	GO:0016791,BAO:0000295	386-397
+aspartate	CHEBI:29995	455-464
+Patients with alkaline phosphatase greater than ULN but less than or equal to 2.5 x ULN are eligible for inclusion in the study if liver imaging (CT, MRI, PET, or PET-CT scan) performed within 4 weeks prior to randomization does not demonstrate metastatic disease and the requirements for adequate hepatic function are met.	Eligibility	13
+phosphatase	GO:0016791,BAO:0000295	23-34
+x	LABO:0000148	82-83
+liver	UBERON:0002107	131-136
+ct	BAO:0002125	146-148
+ct	BAO:0002125	167-169
+ct	BAO:0002125	309-311
+disease	DOID:4,OGMS:0000031	256-263
+function	BAO:0003117,BFO:0000034	306-314
+Patients with either unexplained skeletal pain or alkaline phosphatase that is greater than ULN but less than or equal to 2.5 x ULN are eligible for inclusion in the study if a bone scan, PET-CT scan, or PET scan performed within 4 weeks prior to randomization does not demonstrate metastatic disease. Patients with suspicious findings on bone scan or PET scan are eligible if suspicious findings are determined to be benign by x-ray, MRI, or biopsy.	Eligibility	14
+pain	HP:0012531	42-46
+phosphatase	GO:0016791,BAO:0000295	59-70
+x	LABO:0000148	24-25
+x	LABO:0000148	126-127
+x	LABO:0000148	428-429
+disease	DOID:4,OGMS:0000031	293-300
+Serum creatinine performed within 4 weeks prior to randomization must be less than or equal to 1.5 x ULN for the lab.	Eligibility	15
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	99-100
+The left ventricular ejection fraction (LVEF) assessment by 2-D echocardiogram or multiple gated acquisition(MUGA) scan performed within 90 days prior to randomization must be greater than or equal to 50% regardless of the facility's LLN.	Eligibility	16
+left	HP:0012835	4-8
+ejection fraction	CMO:0000180	21-38
+Exclusion Criteria:	Eligibility	17
+fine-needle aspiration (FNA) alone to diagnose the primary breast cancer.	Eligibility	18
+aspiration	HP:0002835	12-22
+breast cancer	DOID:1612	59-72
+Excisional biopsy or lumpectomy performed prior to randomization.	Eligibility	19
+Surgical axillary staging procedure prior to randomization. (Procedures that are permitted prior to study entry include: 1) FNA or core biopsy of an axillary node for any patient, and 2) although not recommended, a pre-neoadjuvant therapy SN biopsy for patients with clinically negative axillary nodes.)	Eligibility	20
+patient	HADO:0000008,OAE:0001817	171-178
+patient	HADO:0000008,OAE:0001817	253-260
+Definitive clinical or radiologic evidence of metastatic disease. (Note: Chest imaging [mandatory for all patients] and other imaging [if required] must have been performed within 90 days prior to randomization.)	Eligibility	21
+disease	DOID:4,OGMS:0000031	57-64
+chest	UBERON:0001443	73-78
+History of ipsilateral invasive breast cancer regardless of treatment or ipsilateral ductal carcinoma in situ (DCIS) treated with radiation therapy (RT). (Patients with a history of LCIS are eligible.)	Eligibility	22
+history	BFO:0000182	0-7
+history	BFO:0000182	171-178
+breast cancer	DOID:1612	32-45
+ductal carcinoma in situ	HP:0030075,DOID:0060074	85-109
+Contralateral invasive breast cancer at any time. (Patients with contralateral DCIS or lobular carcinoma in situ (LCIS) are eligible.)	Eligibility	23
+breast cancer	DOID:1612	23-36
+time	PATO:0000165	44-48
+lobular carcinoma in situ	HP:0030076,DOID:3010	87-112
+History of non-breast malignancies (except for in situ cancers treated only by local excision and basal cell and squamous cell carcinomas of the skin) within 5 years prior to randomization.	Eligibility	24
+history	BFO:0000182	0-7
+Known metastatic disease from any malignancy (solid tumor or hematologic).	Eligibility	25
+disease	DOID:4,OGMS:0000031	17-24
+Previous therapy with anthracyclines, taxanes, cyclophosphamide, trastuzumab, or neratinib for any malignancy.	Eligibility	26
+cyclophosphamide	CHEBI:4026	47-63
+neratinib	CHEBI:61397	81-90
+Treatment including RT, chemotherapy, and/or targeted therapy, administered for the currently diagnosed breast cancer prior to randomization.	Eligibility	27
+breast cancer	DOID:1612	104-117
+Continued endocrine therapy such as raloxifene or tamoxifen (or other SERM) or an aromatase inhibitor. (Patients are eligible if these medications are discontinued prior to randomization.)	Eligibility	28
+raloxifene	CHEBI:8772	36-46
+tamoxifen	CHEBI:41774	50-59
+inhibitor	CHEBI:35222	92-101
+Any continued sex hormonal therapy, e.g., birth control pills and ovarian hormone replacement therapy. Patients are eligible if these medications are discontinued prior to randomization.	Eligibility	29
+hormone	CHEBI:24621	74-81
+Active hepatitis B or hepatitis C with abnormal liver function tests.	Eligibility	30
+active	PATO:0002354	0-6
+hepatitis b	DOID:2043	7-18
+hepatitis c	DOID:1883	22-33
+liver	UBERON:0002107	48-53
+function	BAO:0003117,BFO:0000034	54-62
+Intrinsic lung disease resulting in dyspnea.	Eligibility	31
+lung disease	DOID:850	10-22
+dyspnea	HP:0002094	36-43
+Active infection or chronic infection requiring chronic suppressive antibiotics.	Eligibility	32
+active	PATO:0002354	0-6
+chronic infection	HP:0031035	20-37
+chronic	HP:0011010	20-27
+chronic	HP:0011010	48-55
+Malabsorption syndrome, ulcerative colitis, inflammatory bowel disease, resection of the stomach or small bowel, or other disease or condition significantly affecting gastrointestinal function.	Eligibility	33
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+ulcerative colitis	HP:0100279,DOID:8577	24-42
+inflammatory bowel disease	DOID:0050589	44-70
+stomach	UBERON:0000945	89-96
+disease	DOID:4,OGMS:0000031	63-70
+disease	DOID:4,OGMS:0000031	122-129
+condition	PDRO:0000129	133-142
+function	BAO:0003117,BFO:0000034	184-192
+Persistent greater than or equal to grade 2 diarrhea regardless of etiology.	Eligibility	34
+diarrhea	HP:0002014,DOID:13250	44-52
+Sensory or motor neuropathy greater than or equal to grade 2, as defined by the NCI Common Toxicity Criteria for Adverse Effects (CTCAE) v3.0.	Eligibility	35
+neuropathy	DOID:870	17-27
+Conditions that would prohibit intermittent administration of corticosteroids for paclitaxel premedication.	Eligibility	36
+paclitaxel	CHEBI:45863	82-92
+Chronic daily treatment with corticosteroids with a dose of greater than or equal to 10 mg/day methylprednisolone equivalent (excluding inhaled steroids).	Eligibility	37
+chronic	HP:0011010	0-7
+Uncontrolled hypertension defined as a systolic BP greater than 150 mmHg or diastolic BP greater than 90 mmHg, with or without anti-hypertensive medications. (Patients with hypertension that is well-controlled on medication are eligible.)	Eligibility	38
+hypertension	HP:0000822,DOID:10763	13-25
+hypertension	HP:0000822,DOID:10763	173-185
+Cardiac disease (history of and/or active disease) that would preclude the use of any of the drugs included in the treatment regimen. This includes but is not confined to: Active cardiac disease: symptomatic angina pectoris within the past 180 days that required the initiation of or increase in anti-anginal medication or other intervention; ventricular arrhythmias except for benign premature ventricular contractions; supraventricular and nodal arrhythmias requiring a pacemaker or not controlled with medication; conduction abnormality requiring a pacemaker; valvular disease with documented compromise in cardiac function; and symptomatic pericarditis. History of cardiac disease: myocardial infarction documented by elevated cardiac enzymes or persistent regional wall abnormalities on assessment of LV function; history of documented congestive heart failure (CHF); and documented cardiomyopathy.	Eligibility	39
+disease	DOID:4,OGMS:0000031	8-15
+disease	DOID:4,OGMS:0000031	42-49
+disease	DOID:4,OGMS:0000031	187-194
+disease	DOID:4,OGMS:0000031	572-579
+disease	DOID:4,OGMS:0000031	677-684
+history	BFO:0000182	17-24
+history	BFO:0000182	658-665
+history	BFO:0000182	819-826
+active	PATO:0002354	35-41
+active	PATO:0002354	172-178
+angina pectoris	HP:0001681	208-223
+increase	BAO:0001251	284-292
+function	BAO:0003117,BFO:0000034	618-626
+function	BAO:0003117,BFO:0000034	809-817
+pericarditis	HP:0001701,DOID:1787	644-656
+myocardial infarction	HP:0001658,DOID:5844	686-707
+congestive heart failure	HP:0001635,DOID:6000	841-865
+cardiomyopathy	HP:0001638,DOID:0050700	888-902
+Other nonmalignant systemic disease that would preclude the patient from receiving study treatment or would prevent required follow-up.	Eligibility	40
+disease	DOID:4,OGMS:0000031	28-35
+patient	HADO:0000008,OAE:0001817	60-67
+Pregnancy or lactation at the time of randomization.	Eligibility	41
+lactation	GO:0007595	13-22
+time	PATO:0000165	30-34
+The investigator should assess the patient to determine if she has any psychiatric or addictive disorder or other condition that, in the opinion of the investigator, would preclude her from meeting the study requirements.	Eligibility	42
+patient	HADO:0000008,OAE:0001817	35-42
+disorder	OGMS:0000045	96-104
+condition	PDRO:0000129	114-123
+Use of any investigational agent within 4 weeks prior to randomization.	Eligibility	43
+Outcome Measurement:	Results	0
+Pathologic Complete Response in Breast and Axillary Lymph Nodes.	Results	1
+breast	UBERON:0000310	32-38
+lymph	UBERON:0002391	52-57
+Number of participants with no histologic evidence of invasive tumor cells in the surgical breast specimen, axillary nodes after neoadjuvant chemotherapy	Results	2
+breast	UBERON:0000310	91-97
+Time frame: At time of surgery, approximately 7 months	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	15-19
+surgery	OAE:0000067	23-30
+Results 1:	Results	4
+Arm/Group Title: Arm 1: Paclitaxel + Trastuzumab Then A C	Results	5
+paclitaxel	CHEBI:45863	24-34
+Arm/Group Description: 4 cycles of paclitaxel 80 mg/m2 on Days 1, 8, and 15 of a 28-day cycle. Trastuzumab concurrently with paclitaxel weekly for a total of 16 doses (4 mg/kg loading dose, then 2 mg/kg weekly). Following paclitaxel/trastuzumab, standard AC every 21 days for 4 cycles. Following surgery, trastuzumab (8 mg/kg loading dose, then 6 mg/kg) every 3 weeks to complete 1 year of targeted therapy (either preoperative trastuzumab therapy or neratinib therapy)	Results	6
+paclitaxel	CHEBI:45863	35-45
+paclitaxel	CHEBI:45863	125-135
+paclitaxel	CHEBI:45863	222-232
+surgery	OAE:0000067	296-303
+year	UO:0000036	382-386
+neratinib	CHEBI:61397	451-460
+Paclitaxel	Results	7
+paclitaxel	CHEBI:45863	0-10
+Trastuzumab	Results	8
+Doxorubicin	Results	9
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide	Results	10
+cyclophosphamide	CHEBI:4026	0-16
+Overall Number of Participants Analyzed: 42	Results	11
+Measure Type: Count of Participants	Results	12
+Unit of Measure: Participants  16  38.1%	Results	13
+Results 2:	Results	14
+Arm/Group Title: Arm 2: Paclitaxel + Neratinib Then A C	Results	15
+paclitaxel	CHEBI:45863	24-34
+neratinib	CHEBI:61397	37-46
+Arm/Group Description: 4 cycles of paclitaxel 80 mg/m2 on Days 1, 8, and 15 of a 28-day cycle. Neratinib 240 mg orally once daily beginning on Day 1 of paclitaxel and continuing through Day 28 of the final cycle of paclitaxel. Following paclitaxel/neratinib therapy, standard AC every 21 days for 4 cycles. Following surgery, trastuzumab (8 mg/kg loading dose, then 6 mg/kg) every 3 weeks to complete 1 year of targeted therapy (either preoperative trastuzumab therapy or neratinib therapy)	Results	16
+paclitaxel	CHEBI:45863	35-45
+paclitaxel	CHEBI:45863	152-162
+paclitaxel	CHEBI:45863	215-225
+paclitaxel	CHEBI:45863	237-247
+neratinib	CHEBI:61397	95-104
+neratinib	CHEBI:61397	248-257
+neratinib	CHEBI:61397	472-481
+day	UO:0000033	58-61
+day	UO:0000033	84-87
+day	UO:0000033	143-146
+day	UO:0000033	186-189
+day	UO:0000033	288-291
+surgery	OAE:0000067	317-324
+year	UO:0000036	403-407
+Paclitaxel	Results	17
+paclitaxel	CHEBI:45863	0-10
+Neratinib	Results	18
+neratinib	CHEBI:61397	0-9
+Doxorubicin	Results	19
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide	Results	20
+cyclophosphamide	CHEBI:4026	0-16
+Overall Number of Participants Analyzed: 42	Results	21
+Measure Type: Count of Participants	Results	22
+Unit of Measure: Participants  14  33.3%	Results	23
+Adverse Events 1:	Adverse Events	0
+Total: 7/42 (16.67%)	Adverse Events	1
+Febrile neutropenia 1/42 (2.38%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Left venrticular dysfunction 1/42 (2.38%)	Adverse Events	3
+left	HP:0012835	0-4
+Cardiac valve disease 1/42 (2.38%)	Adverse Events	4
+valve	UBERON:0003978	8-13
+disease	DOID:4,OGMS:0000031	14-21
+Diarrhoea 0/42 (0.00%)	Adverse Events	5
+Abdominal pain 1/42 (2.38%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Colitis 0/42 (0.00%)	Adverse Events	7
+colitis	HP:0002583,DOID:0060180	0-7
+Nausea 0/42 (0.00%)	Adverse Events	8
+nausea	HP:0002018	0-6
+Vomiting 0/42 (0.00%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Pyrexia 0/42 (0.00%)	Adverse Events	10
+Influenza like illness 1/42 (2.38%)	Adverse Events	11
+influenza	DOID:8469	0-9
+Oedema peripheral 1/42 (2.38%)	Adverse Events	12
+peripheral	HP:0030646	7-17
+Fatigue 0/42 (0.00%)	Adverse Events	13
+fatigue	HP:0012378	0-7
+Adverse Events 2:	Adverse Events	14
+Total: 7/42 (16.67%)	Adverse Events	15
+Febrile neutropenia 0/42 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Left venrticular dysfunction 1/42 (2.38%)	Adverse Events	17
+left	HP:0012835	0-4
+Cardiac valve disease 0/42 (0.00%)	Adverse Events	18
+valve	UBERON:0003978	8-13
+disease	DOID:4,OGMS:0000031	14-21
+Diarrhoea 0/42 (0.00%)	Adverse Events	19
+Abdominal pain 0/42 (0.00%)	Adverse Events	20
+abdominal pain	HP:0002027	0-14
+Colitis 0/42 (0.00%)	Adverse Events	21
+colitis	HP:0002583,DOID:0060180	0-7
+Nausea 0/42 (0.00%)	Adverse Events	22
+nausea	HP:0002018	0-6
+Vomiting 0/42 (0.00%)	Adverse Events	23
+vomiting	HP:0002013	0-8
+Pyrexia 2/42 (4.76%)	Adverse Events	24
+Influenza like illness 0/42 (0.00%)	Adverse Events	25
+influenza	DOID:8469	0-9
+Oedema peripheral 0/42 (0.00%)	Adverse Events	26
+peripheral	HP:0030646	7-17
+Fatigue 0/42 (0.00%)	Adverse Events	27
+fatigue	HP:0012378	0-7

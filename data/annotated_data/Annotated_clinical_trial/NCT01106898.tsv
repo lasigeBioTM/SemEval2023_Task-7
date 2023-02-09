@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Chemotherapy With or Without Maintenance Therapy)	Intervention	1
+SYSTEMIC CHEMOTHERAPY: Patients receive cyclophosphamide IV over 1 hour and paclitaxel IV over 3 hours on day 1. Treatment repeats every 14 days for 6 courses in the absence of disease progression or unacceptable toxicity.	Intervention	2
+cyclophosphamide	CHEBI:4026	40-56
+hour	UO:0000032	67-71
+hour	UO:0000032	97-101
+paclitaxel	CHEBI:45863	76-86
+day	UO:0000033	106-109
+day	UO:0000033	140-143
+disease	DOID:4,OGMS:0000031	177-184
+MAINTENANCE THERAPY (Her-2 neu positive patients): Patients receive trastuzumab IV over 30 minutes on day 1. Treatment repeats every 14 days for 5 courses and then every 21 days for 14 courses in the absence of disease progression or unacceptable toxicity.	Intervention	3
+day	UO:0000033	102-105
+day	UO:0000033	136-139
+day	UO:0000033	173-176
+disease	DOID:4,OGMS:0000031	211-218
+cyclophosphamide, paclitaxel, trastuzumab: Given IV	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+paclitaxel	CHEBI:45863	18-28
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed newly diagnosed stage I-II breast cancer	Eligibility	1
+breast cancer	DOID:1612	52-65
+Women of reproductive potential must be non-pregnant and non-nursing and must agree to employ an effective barrier method of birth control throughout the study and for up to 6 months following treatment	Eligibility	2
+Women of child-bearing potential must have a negative pregnancy test within 7 days of initiating study	Eligibility	3
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	4
+group	CHEBI:24433	29-34
+Absolute neutrophil count greater than or equal to 1,500/mcl	Eligibility	5
+Platelet count equal to or greater than 150,000/mcl	Eligibility	6
+platelet count	CMO:0000029	0-14
+Hemoglobin > 11 gm/dl	Eligibility	7
+hemoglobin	CHEBI:35143	0-10
+Alkaline phosphatase equal or less than 1.5 times the upper limit of normal (ULN)	Eligibility	8
+phosphatase	GO:0016791,BAO:0000295	9-20
+Total bilirubin equal to or less than 1.5 times the ULN	Eligibility	9
+Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) no greater than 1.5 times the ULN	Eligibility	10
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+Creatinine less than 1.5 times the ULN	Eligibility	11
+creatinine	CHEBI:16737	0-10
+Able to give informed consent	Eligibility	12
+All included patients must have normal cardiac function as defined by an ejection fraction of > 50% by echocardiogram	Eligibility	13
+function	BAO:0003117,BFO:0000034	47-55
+ejection fraction	CMO:0000180	73-90
+Able to return for treatment and follow-up on the specified days	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Prior malignancy; except for adequately treated basal cell or squamous cell skin cancer or noninvasive carcinomas	Eligibility	16
+skin cancer	DOID:4159	76-87
+Patients with preexisting grade II peripheral neuropathy	Eligibility	17
+peripheral neuropathy	HP:0009830,DOID:870	35-56
+Patients with prior chemotherapy	Eligibility	18
+Stage IV or metastatic breast cancer	Eligibility	19
+breast cancer	DOID:1612	23-36
+Pregnant or nursing women	Eligibility	20
+Inability to cooperate with treatment protocol	Eligibility	21
+No active serious infections or other conditions precluding chemotherapy	Eligibility	22
+active	PATO:0002354	3-9
+Any comorbidity or condition which, in the opinion of the investigator, may interfere with the assessments and procedures of this protocol (e.g. unstable angina, myocardial infarction within 6 months, severe infection, etc.)	Eligibility	23
+condition	PDRO:0000129	19-28
+myocardial infarction	HP:0001658,DOID:5844	162-183
+severe infection	HP:0032169	201-217
+Known hypersensitivity to any component of required drugs in the study	Eligibility	24
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Known positive for human immunodeficiency virus (HIV) or infectious hepatitis, type A, B or C or active hepatitis	Eligibility	25
+immunodeficiency	HP:0002721	25-41
+virus	BAO:0000232	42-47
+hepatitis	HP:0012115,DOID:2237	68-77
+hepatitis	HP:0012115,DOID:2237	104-113
+active	PATO:0002354	97-103
+Any serious medical condition, laboratory abnormality, or psychiatric illness that would prevent the subject from signing the informed consent form	Eligibility	26
+condition	PDRO:0000129	20-29
+Myocardial infarction within 6 months prior to enrollment or has New York Heart Association (NYHA) class III or IV heart failure uncontrolled angina, severe uncontrolled ventricular arrhythmias, or electrocardiographic evidence of acute ischemia or active conduction system abnormalities; prior to study entry, any electrocardiograph (ECG) abnormality at screening has to be documented by the investigator as not medically relevant	Eligibility	27
+myocardial infarction	HP:0001658,DOID:5844	0-21
+heart	UBERON:0000948	74-79
+heart	UBERON:0000948	115-120
+severe	HP:0012828	150-156
+acute	HP:0011009,PATO:0000389	231-236
+ischemia	DOID:326	237-245
+active	PATO:0002354	249-255
+Outcome Measurement:	Results	0
+Recurrence-free Survival	Results	1
+Recurrence-free survival curves will be plotted for subjects treated with stage I and II disease.	Results	2
+disease	DOID:4,OGMS:0000031	89-96
+Time frame: Time from the start of treatment to recurrence, second malignancy, or death as a first event, assessed up to 3 years	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	12-16
+second	UO:0000010	60-66
+death	OAE:0000632	82-87
+Results 1:	Results	4
+Arm/Group Title: Treatment (Chemotherapy With or Without Maintenance Therapy)	Results	5
+Arm/Group Description: SYSTEMIC CHEMOTHERAPY: Patients receive cyclophosphamide IV over 1 hour and paclitaxel IV over 3 hours on day 1. Treatment repeats every 14 days for 6 courses in the absence of disease progression or unacceptable toxicity.	Results	6
+cyclophosphamide	CHEBI:4026	63-79
+hour	UO:0000032	90-94
+hour	UO:0000032	120-124
+paclitaxel	CHEBI:45863	99-109
+day	UO:0000033	129-132
+day	UO:0000033	163-166
+disease	DOID:4,OGMS:0000031	200-207
+MAINTENANCE THERAPY (Her-2 neu positive patients): Patients receive trastuzumab IV over 30 minutes on day 1. Treatment repeats every 14 days for 5 courses and then every 21 days for 14 courses in the absence of disease progression or unacceptable toxicity.	Results	7
+day	UO:0000033	102-105
+day	UO:0000033	136-139
+day	UO:0000033	173-176
+disease	DOID:4,OGMS:0000031	211-218
+cyclophosphamide, paclitaxel, trastuzumab: Given IV	Results	8
+cyclophosphamide	CHEBI:4026	0-16
+paclitaxel	CHEBI:45863	18-28
+Overall Number of Participants Analyzed: 100	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: percentage of subjects  98        (92.2 to 99.5)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 16/102 (15.69%)	Adverse Events	1
+Febrile Neutropenia 3/102 (2.94%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+SinusTachycardia 1/102 (0.98%)	Adverse Events	3
+Abdominal pain 2/102 (1.96%)	Adverse Events	4
+abdominal pain	HP:0002027	0-14
+Duodenal perforation 1/102 (0.98%)	Adverse Events	5
+Constipation 1/102 (0.98%)	Adverse Events	6
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea 1/102 (0.98%)	Adverse Events	7
+diarrhea	HP:0002014,DOID:13250	0-8
+Fever 1/102 (0.98%)	Adverse Events	8
+fever	HP:0001945	0-5
+Anaphylaxis 1/102 (0.98%)	Adverse Events	9
+Skin Infection  [1]1/102 (0.98%)	Adverse Events	10
+Urinary Tract Infection 1/102 (0.98%)	Adverse Events	11
+urinary tract infection	DOID:0080784	0-23
+Sepsis 1/102 (0.98%)	Adverse Events	12
+sepsis	HP:0100806	0-6

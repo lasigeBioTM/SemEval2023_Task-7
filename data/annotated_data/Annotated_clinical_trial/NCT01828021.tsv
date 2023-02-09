@@ -1,0 +1,147 @@
+INTERVENTION 1:	Intervention	0
+Margetuximab	Intervention	1
+Monotherapy of Anti-HER2 monoclonal antibody	Intervention	2
+monoclonal	BAO:0000503	25-35
+antibody	GO:0042571,BAO:0000502	36-44
+Margetuximab: Anti-HER2 monoclonal antibody	Intervention	3
+monoclonal	BAO:0000503	24-34
+antibody	GO:0042571,BAO:0000502	35-43
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed invasive carcinoma of the breast	Eligibility	1
+carcinoma	HP:0030731,DOID:305	51-60
+breast	UBERON:0000310	68-74
+Treatment with at least two prior systemic therapies for advanced (unresectable locoregional or metastatic) disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	108-115
+Evidence of HER2 oncoprotein expression at the 2+ level by central laboratory. Patients whose tumors exhibit 2+ staining by IHC are eligible for the study.	Eligibility	3
+central	HP:0030645	59-66
+Patients whose tumors score 1+ by conventional IHC, are non-amplified by FISH testing, and whose tumors score > or = 10.5 by HERmark® testing, are eligible for the study.	Eligibility	4
+Evidence of lack of HER2 oncogene amplification as determined by FISH testing by central laboratory	Eligibility	5
+central	HP:0030645	81-88
+Performance Status of 0 or 1	Eligibility	6
+Life expectancy at least 6 months	Eligibility	7
+Measurable disease (by RECIST 1.1)	Eligibility	8
+disease	DOID:4,OGMS:0000031	11-18
+Acceptable laboratory parameters and organ reserve	Eligibility	9
+organ	UBERON:0000062	37-42
+Baseline left ventricular ejection fraction > or = 50%	Eligibility	10
+left	HP:0012835	9-13
+ejection fraction	CMO:0000180	26-43
+Anti-cancer therapy (including conventional cytotoxic chemotherapy and/or biological therapy) and radiotherapy must be completed and any associated toxicities resolved to </= Grade 1 levels or baseline levels and at least 2 weeks must have elapsed before enrollment. Treatment with monoclonal antibodies must be completed at least 14 days before entry. Must have completed immunosuppressive medications or vaccinations before enrollment.	Eligibility	11
+radiotherapy	OAE:0000235	98-110
+monoclonal	BAO:0000503	282-292
+Patients who are estrogen receptor+ and/or progesterone receptor+ and who are receiving anti-hormone therapy for at least three months may continue to receive such therapy during the course of the trial	Eligibility	12
+estrogen	CHEBI:50114,BAO:0000760	17-25
+progesterone	CHEBI:17026	43-55
+Eighteen (18) years of age or older	Eligibility	13
+age	PATO:0000011	23-26
+Exclusion Criteria:	Eligibility	14
+Major surgery or trauma within 4 weeks	Eligibility	15
+surgery	OAE:0000067	6-13
+Known hypersensitivity to murine or recombinant proteins, polysorbate 80, or any excipient contained in the margetuximab drug formulation	Eligibility	16
+hypersensitivity	GO:0002524,DOID:1205	6-22
+polysorbate 80	CHEBI:53426	58-72
+excipient	CHEBI:75324	81-90
+drug	CHEBI:23888	121-125
+Second primary malignancy that has not been in remission for more than 3 years	Eligibility	17
+second	UO:0000010	0-6
+History of active viral, bacterial, or systemic fungal infection requiring parenteral treatment within 14 days	Eligibility	18
+history	BFO:0000182	0-7
+active	PATO:0002354	11-17
+History within 3 months of deep vein thrombosis, pulmonary embolism, or stroke	Eligibility	19
+history	BFO:0000182	0-7
+vein	UBERON:0001638	32-36
+thrombosis	DOID:0060903	37-47
+pulmonary embolism	HP:0002204,DOID:9477	49-67
+stroke	HP:0001297,DOID:6713	72-78
+Symptomatic or untreated central nervous system (CNS) metastatic disease. Patients with previously treated CNS metastatic disease which has been stable for at least 56 days are eligible	Eligibility	20
+central nervous system	UBERON:0001017	25-47
+disease	DOID:4,OGMS:0000031	65-72
+disease	DOID:4,OGMS:0000031	122-129
+stable	HP:0031915	145-151
+Requirement, at time of study entry, for concurrent steroids > 10 mg/day of oral prednisone or the equivalent, except steroid inhaler, nasal spray, or ophthalmic solution	Eligibility	21
+time	PATO:0000165	16-20
+prednisone	CHEBI:8382	81-91
+steroid	CHEBI:35341	52-59
+steroid	CHEBI:35341	118-125
+solution	CHEBI:75958	162-170
+Serious medical condition that would impair the ability to receive or tolerate margetuximab; dementia or altered mental status that would preclude provision of informed consent	Eligibility	22
+condition	PDRO:0000129	16-25
+dementia	HP:0000726,DOID:1307	93-101
+Uncontrolled hypertension, heart disease including history of congestive heart failure, history of myocardial infarction, angina pectoris requiring medication, clinically significant valvular heart disease, high risk arrhythmias, or disease corresponding to New York Heart Association class III or IV.	Eligibility	23
+hypertension	HP:0000822,DOID:10763	13-25
+heart disease	DOID:114	27-40
+heart disease	DOID:114	192-205
+history	BFO:0000182	51-58
+history	BFO:0000182	88-95
+congestive heart failure	HP:0001635,DOID:6000	62-86
+myocardial infarction	HP:0001658,DOID:5844	99-120
+angina pectoris	HP:0001681	122-137
+disease	DOID:4,OGMS:0000031	33-40
+disease	DOID:4,OGMS:0000031	198-205
+disease	DOID:4,OGMS:0000031	233-240
+heart	UBERON:0000948	27-32
+heart	UBERON:0000948	73-78
+heart	UBERON:0000948	192-197
+heart	UBERON:0000948	267-272
+Significant pulmonary compromise	Eligibility	24
+Have previously been exposed to MGAH22 in this or any other trial	Eligibility	25
+Outcome Measurement:	Results	0
+Best Overall Response	Results	1
+Response based on Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 criteria based on Cycle 2, Day 21 computed tomography (CT) scans. Response is categorized as complete response (CR): disappearance of all target lesions, confirmed at  4 weeks; partial response (PR):  30% decrease in target lesions from baseline, confirmed at  4 weeks; progressive disease (PD):  20% increase over smallest sum observed with an absolute increase of at least 5 mm, or appearance of new lesions; and stable disease (SD): neither PR or PD criteria met.	Results	2
+day	UO:0000033	103-106
+tomography	BAO:0002525	119-129
+ct	BAO:0002125	131-133
+target	BAO:0003064	214-220
+target	BAO:0003064	293-299
+progressive	HP:0003676	346-357
+disease	DOID:4,OGMS:0000031	358-365
+disease	DOID:4,OGMS:0000031	498-505
+increase	BAO:0001251	377-385
+increase	BAO:0001251	430-438
+stable	HP:0031915	491-497
+A Simon two-stage design was planned in which an initial cohort of 21 patients was treated. If 2 or more responses (PR or CR) are seen at the first tumor re-evaluation on day 21 of Cycle 2, the study would be expanded to include up to 41 patients (20 additional patients in Cohort 2, the second stage of the study) in order to determine whether further development of the drug is warranted (5 or more responses in 41 evaluable patients).	Results	3
+day	UO:0000033	171-174
+second	UO:0000010	288-294
+drug	CHEBI:23888	372-376
+Time frame: Cycle 2, Day 21	Results	4
+time	PATO:0000165	0-4
+day	UO:0000033	21-24
+Results 1:	Results	5
+Arm/Group Title: Margetuximab	Results	6
+Arm/Group Description: Monotherapy of Anti-HER2 monoclonal antibody	Results	7
+monoclonal	BAO:0000503	48-58
+antibody	GO:0042571,BAO:0000502	59-67
+Margetuximab: Anti-HER2 monoclonal antibody	Results	8
+monoclonal	BAO:0000503	24-34
+antibody	GO:0042571,BAO:0000502	35-43
+Overall Number of Participants Analyzed: 22	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: participants  Complete Response: 0	Results	11
+Partial Response: 0	Results	12
+Stable Disease: 6	Results	13
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 12	Results	14
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not Done: 4	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 6/25 (24.00%)	Adverse Events	1
+Supraventricular extrasystoles 1/25 (4.00%)	Adverse Events	2
+Ventricular extrasystoles 1/25 (4.00%)	Adverse Events	3
+Ascites 2/25 (8.00%)	Adverse Events	4
+ascites	HP:0001541	0-7
+Diarrhea 1/25 (4.00%)	Adverse Events	5
+diarrhea	HP:0002014,DOID:13250	0-8
+Nausea 1/25 (4.00%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Pancreatitis 1/25 (4.00%)	Adverse Events	7
+pancreatitis	HP:0001733,DOID:4989	0-12
+Small intestinal obstruction 1/25 (4.00%)	Adverse Events	8
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Vomiting 1/25 (4.00%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Bile duct obstruction 1/25 (4.00%)	Adverse Events	10
+bile duct	UBERON:0002394	0-9
+Portal hypertension 1/25 (4.00%)	Adverse Events	11
+portal hypertension	HP:0001409,DOID:10762	0-19

@@ -1,0 +1,96 @@
+INTERVENTION 1:	Intervention	0
+LY3295668 Phase 1	Intervention	1
+25 milligrams (mg) LY3295668 twice daily (BID) administered orally in 21-day cycles.	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Have received at least 1 but no more than 4 prior systemic therapies	Eligibility	1
+Have adequate organ function	Eligibility	2
+organ	UBERON:0000062	14-19
+function	BAO:0003117,BFO:0000034	20-28
+Have a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) scale	Eligibility	3
+group	CHEBI:24433	72-77
+Have estimated life expectancy greater than or equal to (  )12 weeks	Eligibility	4
+Have fully recovered from radiation therapy or surgery, and are recovering from any acute adverse effects of other cancer therapies	Eligibility	5
+surgery	OAE:0000067	47-54
+acute	HP:0011009,PATO:0000389	84-89
+cancer	DOID:162	115-121
+Have discontinued all chemotherapy, investigational therapy, molecularly-targeted therapy, and cancer-related hormonal therapy at least 14 days prior, biologic or immunotherapeutic therapy at least 21 days prior, or mitomycin-C or nitrosoureas at least 6 weeks prior	Eligibility	6
+Female participants with reproductive potential agree to use 2 forms of highly effective contraception during the study and for the following 3 months	Eligibility	7
+female	PATO:0000383	0-6
+Male participants must use a barrier method of contraception during the study and for the following 3 months	Eligibility	8
+male	CHEBI:30780,PATO:0000384	0-4
+Phase 1	Eligibility	9
+Have evidence of a solid tumor that is locally advanced and/or metastatic (excluding primary brain tumor)	Eligibility	10
+brain	UBERON:0000955	93-98
+Phase 2	Eligibility	11
+Have disease measurable by Response Evaluation Criteria in Solid Tumors (RECIST) v.1.1	Eligibility	12
+disease	DOID:4,OGMS:0000031	5-12
+Have evidence of a solid tumor that is locally advanced and/or metastatic, and in:	Eligibility	13
+Small Cell Lung Cancer (SCLC), must have failed platinum-containing therapy	Eligibility	14
+lung cancer	DOID:1324	11-22
+Breast Cancer, be Estrogen Receptor positive and/or Progesterone Receptor positive, but Human Epidermal Growth Factor Receptor 2 (HER2) negative, and must have failed a hormone therapy and a Cyclin-dependent kinase 4/6 (CDK4/6) inhibitor	Eligibility	15
+breast cancer	DOID:1612	0-13
+estrogen	CHEBI:50114,BAO:0000760	18-26
+receptor	BAO:0000281	27-35
+receptor	BAO:0000281	65-73
+receptor	BAO:0000281	118-126
+progesterone	CHEBI:17026	52-64
+growth factor	BAO:0002024	104-117
+hormone	CHEBI:24621	169-176
+kinase	BAO:0000294	208-214
+inhibitor	CHEBI:35222	228-237
+Triple negative breast cancer (TNBC) and failed standard therapy	Eligibility	16
+breast cancer	DOID:1612	16-29
+Squamous cell cancers of the head neck associated with the human papilloma virus (HPV), and have failed standard therapy	Eligibility	17
+head	UBERON:0000033	29-33
+neck	GO:0044326,UBERON:0000974	34-38
+papilloma	HP:0012740,DOID:2615	65-74
+virus	BAO:0000232	75-80
+Other solid tumor type that has been approved by the sponsor	Eligibility	18
+Exclusion Criteria:	Eligibility	19
+Have symptomatic central nervous system (CNS) metastasis (unless asymptomatic and not current receiving corticosteroids) or a primary tumor of the CNS	Eligibility	20
+central nervous system	UBERON:0001017	17-39
+Have a medical condition that precludes participation (swallowing disorder, organ transplant, pregnant or nursing, HIV, active Hepatitis B or C, cardiac disease, history of major surgery in upper gastrointestinal (GI) tract or GI disease, hypokalemia, hypomagnesaemia or hypocalcaemia that cannot be controlled)	Eligibility	21
+condition	PDRO:0000129	15-24
+disorder	OGMS:0000045	66-74
+organ	UBERON:0000062	76-81
+active	PATO:0002354	120-126
+hepatitis b	DOID:2043	127-138
+disease	DOID:4,OGMS:0000031	153-160
+disease	DOID:4,OGMS:0000031	230-237
+history	BFO:0000182	162-169
+surgery	OAE:0000067	179-186
+hypokalemia	HP:0002900,DOID:4500	239-250
+Outcome Measurement:	Results	0
+Phase 1: Maximum Tolerated Dose	Results	1
+Maximum Tolerated Dose (MTD) was defined as the dose immediately below the dose at which 2/3, 2/6, or 3/9 participants in a cohort experienced a dose limiting toxicity (DLT) during the first 21 days of treatment (Cycle 1) in Phase 1.	Results	2
+mtd	BAO:0001248	24-27
+Time frame: Cycle 1 (21 days)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: LY3295668 Phase 1	Results	5
+Arm/Group Description: 25 milligrams (mg) LY3295668 twice daily (BID) administered orally in 21-day cycles.	Results	6
+Overall Number of Participants Analyzed: 12	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: milligram (mg)  25	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 4/9 (44.44%)	Adverse Events	1
+Pericardial effusion 1/9 (11.11%)	Adverse Events	2
+pericardial effusion	HP:0001698,DOID:118	0-20
+Corneal deposits 0/9 (0.00%)	Adverse Events	3
+Diarrhoea 0/9 (0.00%)	Adverse Events	4
+Stomatitis 0/9 (0.00%)	Adverse Events	5
+stomatitis	HP:0010280,DOID:9637	0-10
+Mucosal inflammation 0/9 (0.00%)	Adverse Events	6
+Influenza 1/9 (11.11%)	Adverse Events	7
+influenza	DOID:8469	0-9
+Pneumocystis jirovecii pneumonia 1/9 (11.11%)	Adverse Events	8
+pneumocystis jirovecii pneumonia	HP:0020102	0-32
+Pneumonia 1/9 (11.11%)	Adverse Events	9
+pneumonia	HP:0002090,DOID:552	0-9
+Adenocarcinoma of colon 1/9 (11.11%)	Adverse Events	10
+adenocarcinoma	DOID:299	0-14
+colon	UBERON:0001155	18-23
+Presyncope 1/9 (11.11%)	Adverse Events	11
+presyncope	HP:0031972	0-10
+Pleuritic pain 1/9 (11.11%)	Adverse Events	12
+pain	HP:0012531	10-14

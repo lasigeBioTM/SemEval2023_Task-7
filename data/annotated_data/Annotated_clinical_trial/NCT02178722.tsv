@@ -1,0 +1,283 @@
+INTERVENTION 1:	Intervention	0
+Phase 1: Epacadostat 25 mg BID	Intervention	1
+Epacadostat 25 mg tablet orally twice daily (BID) starting on Cycle 1 Day 1 in combination with pembrolizumab 2 mg/kg administered intravenously every 3 weeks (Q3W) starting on Cycle 1 Day 1.	Intervention	2
+day	UO:0000033	70-73
+day	UO:0000033	185-188
+INTERVENTION 2:	Intervention	3
+Phase 1: Epacadostat 50 mg BID	Intervention	4
+Epacadostat 50 mg tablet orally BID starting on Cycle 1 Day 1 in combination with pembrolizumab 2 mg/kg or 200mg administered intravenously every 3 weeks (Q3W) starting on Cycle 1 Day 1.	Intervention	5
+day	UO:0000033	56-59
+day	UO:0000033	180-183
+Inclusion Criteria:	Eligibility	0
+Subjects with histologically or cytologically non-small cell lung cancer (NSCLC), melanoma, transitional cell carcinoma of the genitourinary (GU) tract, renal cell cancer, triple negative breast cancer, adenocarcinoma of the endometrium or squamous cell carcinoma of the head and neck (Phase 1).	Eligibility	1
+lung cancer	DOID:1324	61-72
+melanoma	HP:0002861,DOID:1909	82-90
+transitional cell carcinoma	DOID:2671	92-119
+cancer	DOID:162	66-72
+cancer	DOID:162	164-170
+cancer	DOID:162	195-201
+breast cancer	DOID:1612	188-201
+adenocarcinoma	DOID:299	203-217
+endometrium	UBERON:0001295	225-236
+squamous cell carcinoma	HP:0002860,DOID:1749	240-263
+head	UBERON:0000033	271-275
+neck	GO:0044326,UBERON:0000974	280-284
+Subjects with histologically confirmed melanoma, NSCLC, transitional cell carcinoma of the GU tract, TNBC, SCCHN, ovarian cancer, MSI high colorectal cancer (CRC), RCC, gastric cancer, HCC and DLBCL (Phase 2).	Eligibility	2
+melanoma	HP:0002861,DOID:1909	39-47
+transitional cell carcinoma	DOID:2671	56-83
+ovarian cancer	DOID:2394	114-128
+colorectal cancer	DOID:9256	139-156
+cancer	DOID:162	122-128
+cancer	DOID:162	150-156
+cancer	DOID:162	177-183
+Life expectancy > 12 weeks.	Eligibility	3
+Eastern Cooperative Oncology Group (ECOG) performance status 0 - 1.	Eligibility	4
+group	CHEBI:24433	29-34
+Presence of measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 or Lugano Classification for subjects with DLBCL.	Eligibility	5
+disease	DOID:4,OGMS:0000031	23-30
+Laboratory and medical history parameters within protocol-defined range.	Eligibility	6
+history	BFO:0000182	23-30
+range	LABO:0000114	66-71
+For Phase 1: Subjects who have advanced or metastatic disease as noted above that have received at least one prior therapy or have advanced or metastatic disease for which no curative treatment is available may be enrolled.	Eligibility	7
+disease	DOID:4,OGMS:0000031	54-61
+disease	DOID:4,OGMS:0000031	154-161
+For Phase 2 expansion cohorts: Subjects with NSCLC, melanoma (checkpoint inhibitor naïve, primary refractory melanoma, relapsed melanoma), transitional cell carcinoma of the GU tract, SCCHN, ovarian cancer, MSI high CRC, RCC, DLBCL, TNBC, gastric cancer, and HCC.	Eligibility	8
+melanoma	HP:0002861,DOID:1909	52-60
+melanoma	HP:0002861,DOID:1909	109-117
+melanoma	HP:0002861,DOID:1909	128-136
+inhibitor	CHEBI:35222	73-82
+refractory	HP:0031375	98-108
+transitional cell carcinoma	DOID:2671	139-166
+ovarian cancer	DOID:2394	191-205
+cancer	DOID:162	199-205
+cancer	DOID:162	247-253
+Phase 2 expansion: NSCLC	Eligibility	9
+Subjects who have received at least 1 prior platinum-based therapy. Subjects who have a non-platinum-based regimen may be enrolled with medical monitor approval.	Eligibility	10
+Tumors with epidermal growth factor receptor mutation positive or anaplastic lymphoma kinase fusion oncogene positive treated with a tyrosine kinase inhibitor are permitted; however, subjects should have progressed on or be intolerant to the targeted therapy.	Eligibility	11
+growth factor	BAO:0002024	22-35
+receptor	BAO:0000281	36-44
+lymphoma	HP:0002665,DOID:0060058	77-85
+kinase	BAO:0000294	86-92
+kinase	BAO:0000294	142-148
+tyrosine kinase inhibitor	CHEBI:38637	133-158
+Subjects must not have received immunotherapy with programmed death receptor-1 (PD-1) or cytotoxic T-lymphocyte antigen (CTLA-4) targeted therapy.	Eligibility	12
+death	OAE:0000632	62-67
+antigen	CHEBI:59132	112-119
+Phase 2 expansion: Melanoma	Eligibility	13
+melanoma	HP:0002861,DOID:1909	19-27
+Documentation of V600E-activating BRAF mutation status.	Eligibility	14
+Prior systemic therapy requirements.	Eligibility	15
+Melanoma immune checkpoint-naïve: Subjects must not have received immunotherapy with anti-PD-1, anti-PD-L1, or anti-CTLA-4 therapy. Exception: Prior anti-CTLA-4 in the adjuvant setting would be permitted.	Eligibility	16
+melanoma	HP:0002861,DOID:1909	0-8
+adjuvant	CHEBI:60809	168-176
+Primary refractory melanoma: Subjects must have received prior treatment with anti-PD-1 or anti-PD-L1 therapy (alone or as part of a combination) in the advanced or metastatic setting and have progressive disease as their best response to treatment that is confirmed 4 weeks later.	Eligibility	17
+refractory	HP:0031375	8-18
+melanoma	HP:0002861,DOID:1909	19-27
+part of	BAO:0090002,BFO:0000050	123-130
+progressive	HP:0003676	193-204
+disease	DOID:4,OGMS:0000031	205-212
+Relapsed melanoma: Subjects must have received prior anti-PD-1 or anti-PD-L1 therapy (alone or as part of a combination) in the advanced or metastatic setting and achieved partial response ore complete response but later have confirmed progressive disease.	Eligibility	18
+melanoma	HP:0002861,DOID:1909	9-17
+part of	BAO:0090002,BFO:0000050	98-105
+progressive	HP:0003676	236-247
+disease	DOID:4,OGMS:0000031	248-255
+Subjects enrolling in the primary refractory or relapsed melanoma must be willing to undergo mandatory pretreatment and on-treatment biopsies.	Eligibility	19
+refractory	HP:0031375	34-44
+melanoma	HP:0002861,DOID:1909	57-65
+Ocular melanoma is excluded.	Eligibility	20
+ocular melanoma	DOID:1752	0-15
+excluded	HP:0040285	19-27
+Phase 2 expansion: Transitional cell carcinoma of the GU tract	Eligibility	21
+transitional cell carcinoma	DOID:2671	19-46
+Metastatic or locally advanced and not amenable to curative therapy with disease progression on or after platinum-based chemotherapy or alternative therapy if platinum-based therapy is not appropriate.	Eligibility	22
+disease	DOID:4,OGMS:0000031	73-80
+Prior PD-1 or CTLA-4 targeted therapies are excluded	Eligibility	23
+excluded	HP:0040285	44-52
+Phase 2 expansion: SCCHN	Eligibility	24
+Histologically confirmed metastatic or recurrent squamous cell carcinoma not amenable to local therapy with curative intent (surgery or radiation with or without chemotherapy). Carcinoma of the nasopharynx, salivary gland, or * *Subjects must have received at least 1 prior systemic chemotherapy regimen that must have included a platinum-based therapy.	Eligibility	25
+recurrent	HP:0031796	39-48
+squamous cell carcinoma	HP:0002860,DOID:1749	49-72
+surgery	OAE:0000067	125-132
+carcinoma	HP:0030731,DOID:305	63-72
+carcinoma	HP:0030731,DOID:305	177-186
+gland	UBERON:0002530	216-221
+Prior PD-1 or CTLA-4 targeted therapies are excluded.	Eligibility	26
+excluded	HP:0040285	44-52
+Phase 2 expansion: Ovarian cancer	Eligibility	27
+ovarian cancer	DOID:2394	19-33
+Subjects with FIGO Stage Ic, Stage II, Stage III, Stage IV, recurrent, or persistent (unresectable) histologically confirmed epithelial ovarian cancer, primary peritoneal cancer, or fallopian tube carcinoma.	Eligibility	28
+recurrent	HP:0031796	60-69
+ovarian cancer	DOID:2394	136-150
+cancer	DOID:162	144-150
+cancer	DOID:162	171-177
+fallopian tube carcinoma	HP:0030394,DOID:1963	182-206
+Subjects must have received a platinum-taxane-based regimen as first-line therapy.	Eligibility	29
+Prior PD-1 or CTLA-4 targeted therapies are excluded.	Eligibility	30
+excluded	HP:0040285	44-52
+Borderline, low-malignant-potential epithelial carcinoma per histopathology is excluded.	Eligibility	31
+borderline	HP:0012827	0-10
+carcinoma	HP:0030731,DOID:305	47-56
+excluded	HP:0040285	79-87
+Phase 2 expansion: Relapsed or refractory DLBCL	Eligibility	32
+refractory	HP:0031375	31-41
+Prior allogeneic stem-cell transplantation is excluded.	Eligibility	33
+excluded	HP:0040285	46-54
+Must have received > or = 1 prior treatment regimen.	Eligibility	34
+Not a candidate for curative therapy or hematopoietic stem-cell transplantation (either due to disease burden, fitness, or preference).	Eligibility	35
+disease	DOID:4,OGMS:0000031	95-102
+Prior PD-1 or CTLA-4 targeted therapies are excluded.	Eligibility	36
+excluded	HP:0040285	44-52
+Phase 2 expansion: TNBC	Eligibility	37
+Histologically confirmed breast adenocarcinoma that is unresectable loco regional, or metastatic	Eligibility	38
+breast adenocarcinoma	DOID:3458	25-46
+Pathologically confirmed as triple negative, source documented, defined as both of the following:	Eligibility	39
+Estrogen receptor (ER) and progesterone receptor (PgR) negative.	Eligibility	40
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	40-48
+progesterone	CHEBI:17026	27-39
+Human epidermal growth factor receptor 2 (HER2) negative as per American Society of Clinical Oncology/College of American Pathologists guidelines.	Eligibility	41
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+Subject must have received at least 1 prior systemic regimen for advanced or metastatic disease	Eligibility	42
+disease	DOID:4,OGMS:0000031	88-95
+Prior PD-1 or CTLA-4 targeted therapies are excluded.	Eligibility	43
+excluded	HP:0040285	44-52
+Phase 2 expansion: RCC	Eligibility	44
+Subjects with histological or cytological confirmation of clear cell RCC.	Eligibility	45
+Not curable by surgery.	Eligibility	46
+surgery	OAE:0000067	15-22
+Subjects must have received prior antiangiogenic therapy.	Eligibility	47
+Subjects must not have received prior immunotherapy with anti-PD-1, anti-PD-L1, or anti-CTLA-4 therapy.	Eligibility	48
+Phase 2 expansion: MSI high CRC	Eligibility	49
+Subjects with histological confirmation of locally advanced unresectable or metastatic MSI high CRC.	Eligibility	50
+MSI status is, respectively, determined by examining CRC tumor.	Eligibility	51
+Subjects may have received no more than 2 lines of prior therapy for advanced disease.	Eligibility	52
+disease	DOID:4,OGMS:0000031	78-85
+Phase 2 expansion: Gastric Cancer	Eligibility	53
+cancer	DOID:162	27-33
+Must have histologically or cytologically confirmed diagnosis of gastric or gastroesophageal junction adenocarcinoma.	Eligibility	54
+gastroesophageal junction adenocarcinoma	DOID:4944	76-116
+Must have progression on or after therapy containing platinum/fluoropyrimidine or refused standard therapy.	Eligibility	55
+Subjects may have received no more than 2 lines of prior therapy for advanced disease.	Eligibility	56
+disease	DOID:4,OGMS:0000031	78-85
+Prior PD-1 or CTLA-4 targeted therapies are excluded.	Eligibility	57
+excluded	HP:0040285	44-52
+Phase 2 expansion: HCC	Eligibility	58
+Must have histologically or cytologically confirmed diagnosis of HCC (fibrolamellar and mixed hepatocellular/cholangiocarcinoma subtypes are not eligible).	Eligibility	59
+mixed	BAO:0002107	88-93
+Barcelona Clinic Liver Cancer (BCLC) Stage C disease (Llovet et al 1999), or BCLC Stage B disease.	Eligibility	60
+liver cancer	DOID:3571	17-29
+disease	DOID:4,OGMS:0000031	45-52
+disease	DOID:4,OGMS:0000031	90-97
+Subjects may have received no more than 2 lines of prior therapy for the advanced disease	Eligibility	61
+disease	DOID:4,OGMS:0000031	82-89
+Must have progressed on, refused, or were intolerant of sorafenib.	Eligibility	62
+sorafenib	CHEBI:50924	56-65
+The following are excluded: Subjects with liver transplants, clear invasion of the bile duct or main portal branch(es), or hepatorenal syndrome, or subjects who have required esophageal variceal ablation within 28 days of starting study treatment.	Eligibility	63
+excluded	HP:0040285	18-26
+liver	UBERON:0002107	42-47
+bile duct	UBERON:0002394	83-92
+hepatorenal syndrome	DOID:11823	123-143
+Prior PD-1 or CTLA-4 targeted therapies are excluded.	Eligibility	64
+excluded	HP:0040285	44-52
+Tumor biopsies are required. If a subject has inaccessible lesions, such as in ovarian cancer, HCC, or gastric cancer, or highly vascular lesions, such as RCC, enrollment may be considered with medical monitor approval, and archived tissue may be acceptable.	Eligibility	65
+ovarian cancer	DOID:2394	79-93
+cancer	DOID:162	87-93
+cancer	DOID:162	111-117
+tissue	UBERON:0000479	233-239
+Females of child-bearing potential and males who use adequate birth control through 120 days post dose.	Eligibility	66
+Exclusion Criteria:	Eligibility	67
+Subjects who participated in any other study in which receipt of an investigational study drug or device occurred within 2 weeks or 5 half-lives (whichever is longer) prior to first dose.	Eligibility	68
+drug	CHEBI:23888	90-94
+Has received prior therapy with an anti-PD-1, anti-PD-L1, anti-PD-L2, anti-CD137, or anti-Cytotoxic T-lymphocyte-associated antigen-4 (CTLA-4) antibody (including ipilimumab or any other antibody or drug specifically targeting T-cell co-stimulation or checkpoint pathways). Exception: Prior anti-CTLA-4 in the adjuvant setting for subjects with melanoma would be permitted.	Eligibility	69
+antibody	GO:0042571,BAO:0000502	143-151
+antibody	GO:0042571,BAO:0000502	187-195
+drug	CHEBI:23888	199-203
+adjuvant	CHEBI:60809	310-318
+melanoma	HP:0002861,DOID:1909	345-353
+Has known active central nervous system (CNS) metastases and/or carcinomatous meningitis. Subjects with previously treated brain metastases may participate provided they are stable.	Eligibility	70
+active	PATO:0002354	10-16
+central nervous system	UBERON:0001017	17-39
+meningitis	HP:0001287,DOID:9471	78-88
+brain	UBERON:0000955	123-128
+stable	HP:0031915	174-180
+Has an active autoimmune disease.	Eligibility	71
+active	PATO:0002354	7-13
+autoimmune disease	DOID:417	14-32
+Has evidence of noninfectious pneumonitis that required steroids or current pneumonitis.	Eligibility	72
+Live vaccine use within 30 days of first dose of study medication.	Eligibility	73
+vaccine	VO:0000001	5-12
+Monoamine oxidase inhibitors.	Eligibility	74
+monoamine	CHEBI:63534	0-9
+Outcome Measurement:	Results	0
+Phase 1: Percentage of Participants With Treatment-Emergent Adverse Events (TEAE) and Serious Treatment-Emergent Adverse Events	Results	1
+An adverse event is defined as the appearance of (or worsening of any pre-existing) undesirable sign(s), symptom(s), or medical condition(s) that occur after a participant provides informed consent. A TEAE is any adverse event either reported for the first time or worsening of a pre-existing event after first dose of study drug. Serious adverse event (SAE) is defined as an event that meets 1 of the following criteria: is fatal or life threatening, results in persistent or significant disability or incapacity, constitutes a congenital anomaly or birth defect, is clinically meaningful (i.e. defined as an event that jeopardizes the participant or requires potential medical or surgical intervention to prevent 1 of the outcomes listed above) or requires inpatient hospitalization or prolongation of existing hospitalization.	Results	2
+adverse event	OAE:0000001	3-16
+adverse event	OAE:0000001	213-226
+adverse event	OAE:0000001	339-352
+symptom	OGMS:0000020	105-112
+condition	PDRO:0000129	128-137
+time	PATO:0000165	257-261
+drug	CHEBI:23888	325-329
+serious adverse event	OAE:0000631	331-352
+Time frame: Approximately 54 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase 1: Epacadostat 25 mg BID	Results	5
+Arm/Group Description: Epacadostat 25 mg tablet orally twice daily (BID) starting on Cycle 1 Day 1 in combination with pembrolizumab 2 mg/kg administered intravenously every 3 weeks (Q3W) starting on Cycle 1 Day 1.	Results	6
+day	UO:0000033	93-96
+day	UO:0000033	208-211
+Overall Number of Participants Analyzed: 4	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  SAE: 0	Results	9
+TEAS: 100.	Results	10
+Results 2:	Results	11
+Arm/Group Title: Phase 1: Epacadostat 50 mg BID	Results	12
+Arm/Group Description: Epacadostat 50 mg tablet orally BID starting on Cycle 1 Day 1 in combination with pembrolizumab 2 mg/kg or 200mg administered intravenously every 3 weeks (Q3W) starting on Cycle 1 Day 1.	Results	13
+day	UO:0000033	79-82
+day	UO:0000033	203-206
+Overall Number of Participants Analyzed: 20	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: Percentage of Participants  SAE: 40.0	Results	16
+TEAS: 95.0	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/4 (0.00%)	Adverse Events	1
+Anaemia 0/4 (0.00%)	Adverse Events	2
+Lymphadenopathy 0/4 (0.00%)	Adverse Events	3
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia 0/4 (0.00%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome 0/4 (0.00%)	Adverse Events	5
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction 0/4 (0.00%)	Adverse Events	6
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 0/4 (0.00%)	Adverse Events	7
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter 0/4 (0.00%)	Adverse Events	8
+atrial flutter	HP:0004749	0-14
+Cardiac arrest 0/4 (0.00%)	Adverse Events	9
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 0/4 (0.00%)	Adverse Events	10
+Cardiac failure congestive 0/4 (0.00%)	Adverse Events	11
+Cardiac tamponade 0/4 (0.00%)	Adverse Events	12
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Adverse Events 2:	Adverse Events	13
+Total: 8/20 (40.00%)	Adverse Events	14
+Anaemia 1/20 (5.00%)	Adverse Events	15
+Lymphadenopathy 0/20 (0.00%)	Adverse Events	16
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia 0/20 (0.00%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute coronary syndrome 0/20 (0.00%)	Adverse Events	18
+acute coronary syndrome	HP:0033678	0-23
+Acute myocardial infarction 0/20 (0.00%)	Adverse Events	19
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 0/20 (0.00%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Atrial flutter 0/20 (0.00%)	Adverse Events	21
+atrial flutter	HP:0004749	0-14
+Cardiac arrest 0/20 (0.00%)	Adverse Events	22
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 0/20 (0.00%)	Adverse Events	23
+Cardiac failure congestive 0/20 (0.00%)	Adverse Events	24

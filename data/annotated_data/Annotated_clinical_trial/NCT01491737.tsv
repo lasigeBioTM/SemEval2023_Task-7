@@ -1,0 +1,164 @@
+INTERVENTION 1:	Intervention	0
+Arm A: Pertuzumab + Trastuzumab + AI +/- Chemotherapy	Intervention	1
+Participants received pertuzumab at a loading dose of 840 mg followed by 420 mg along with trastuzumab at a loading dose of 8 mg/kg of body weight followed by 6 mg/kg of body weight on Day 1 or Day 2 of each 3-weekly cycle until disease progression, unacceptable toxicity, withdrawal of consent, or death, or the predefined end of study whichever occurred first. Participants also received an aromatase inhibitor (AI), orally as per product labeling (anastrozole: 1 mg once daily or letrozole: 2.5 mg once daily). Participants receiving induction chemotherapy up to the first 18-24 weeks of the treatment period were to receive a taxane (docetaxel every 3 weeks or paclitaxel weekly), administered in line with the respective product labeling.	Intervention	2
+body weight	CMO:0000012	135-146
+body weight	CMO:0000012	170-181
+day	UO:0000033	185-188
+day	UO:0000033	194-197
+disease	DOID:4,OGMS:0000031	229-236
+death	OAE:0000632	299-304
+inhibitor	CHEBI:35222	403-412
+product	BAO:0003067	433-440
+product	BAO:0003067	726-733
+anastrozole	CHEBI:2704	451-462
+letrozole	CHEBI:6413	483-492
+taxane	CHEBI:36064	630-636
+paclitaxel	CHEBI:45863	665-675
+INTERVENTION 2:	Intervention	3
+Arm B: Trastuzumab + AI +/- Chemotherapy	Intervention	4
+Participants received trastuzumab at a loading dose of 8 mg/kg of body weight followed by 6 mg/kg of body weight on Day 1 or Day 2 of each 3-weekly cycle until disease progression, unacceptable toxicity, withdrawal of consent, or death, or the predefined end of study whichever occurred first. Participants also received an aromatase inhibitor (AI), orally as per product labeling (anastrozole: 1 mg once daily or letrozole: 2.5 mg once daily). Participants receiving induction chemotherapy up to the first 18-24 weeks of the treatment period were to receive a taxane (docetaxel every 3 weeks or paclitaxel weekly), administered in line with the respective product labeling.	Intervention	5
+body weight	CMO:0000012	66-77
+body weight	CMO:0000012	101-112
+day	UO:0000033	116-119
+day	UO:0000033	125-128
+disease	DOID:4,OGMS:0000031	160-167
+death	OAE:0000632	230-235
+inhibitor	CHEBI:35222	334-343
+product	BAO:0003067	364-371
+product	BAO:0003067	657-664
+anastrozole	CHEBI:2704	382-393
+letrozole	CHEBI:6413	414-423
+taxane	CHEBI:36064	561-567
+paclitaxel	CHEBI:45863	596-606
+Inclusion Criteria:	Eligibility	0
+Participants with HER2-positive and hormone receptor-positive advanced metastatic or locally advanced breast cancer	Eligibility	1
+hormone	CHEBI:24621	36-43
+breast cancer	DOID:1612	102-115
+Post-menopausal status over 1 year	Eligibility	2
+year	UO:0000036	30-34
+HER2-positive as assessed by local laboratory on primary or metastatic tumor	Eligibility	3
+Hormone-receptor positive defined as estrogen receptor-positive and/or progesterone receptor-positive	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	37-45
+progesterone	CHEBI:17026	71-83
+At least one measurable lesion and/or non-measurable disease evaluable according to Response Evaluation Criteria In Solid Tumors Version 1.1	Eligibility	5
+disease	DOID:4,OGMS:0000031	53-60
+Exclusion Criteria:	Eligibility	6
+Previous systemic non-hormonal anticancer therapy in the metastatic or locally advanced breast cancer setting	Eligibility	7
+breast cancer	DOID:1612	88-101
+Previous treatment with anti-HER2 agents for breast cancer, except trastuzumab and/or lapatinib in the neoadjuvant or adjuvant setting	Eligibility	8
+breast cancer	DOID:1612	45-58
+lapatinib	CHEBI:49603	86-95
+adjuvant	CHEBI:60809	106-114
+adjuvant	CHEBI:60809	118-126
+Disease progression while receiving adjuvant trastuzumab and/or lapatinib treatment	Eligibility	9
+disease	DOID:4,OGMS:0000031	0-7
+adjuvant	CHEBI:60809	36-44
+lapatinib	CHEBI:49603	64-73
+History of persistent Grade 2 or higher hematological toxicity according to National Cancer Institute-Common Toxicity Criteria Version 4.0	Eligibility	10
+history	BFO:0000182	0-7
+cancer	DOID:162	85-91
+Disease-free interval from completion of adjuvant/neo-adjuvant systemic non-hormonal treatment to recurrence of within 6 months	Eligibility	11
+Other malignancies within the last 5 years, except for carcinoma in situ of the cervix or basal cell carcinoma	Eligibility	12
+carcinoma	HP:0030731,DOID:305	55-64
+carcinoma	HP:0030731,DOID:305	101-110
+basal cell carcinoma	HP:0002671,DOID:2513	90-110
+Clinical or radiographic evidence of central nervous system metastases or significant cardiovascular disease	Eligibility	13
+central nervous system	UBERON:0001017	37-59
+disease	DOID:4,OGMS:0000031	101-108
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+Progression-free survival (PFS) was defined as the time from randomization until the first radiographically documented progression of disease or death from any cause, whichever occurred first (either during study treatment or during follow-up). Progression of disease was evaluated according to the Response Evaluation Criteria in Solid Tumors (RECIST), version 1.1 and is defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). The sum of target lesion diameters must also demonstrate an absolute increase of at least 5 mm (Note: the appearance of one or more new lesions is also considered progression). Participants with no PFS events were censored at the time of the last evaluable tumor assessment. The primary analysis of PFS was planned to be performed when a total of 165 PFS events had occurred, and the final analysis after at least 60 months follow-up.	Results	2
+time	PATO:0000165	51-55
+time	PATO:0000165	794-798
+disease	DOID:4,OGMS:0000031	134-141
+disease	DOID:4,OGMS:0000031	260-267
+death	OAE:0000632	145-150
+increase	BAO:0001251	399-407
+increase	BAO:0001251	633-641
+target	BAO:0003064	435-441
+target	BAO:0003064	575-581
+Time frame: Median [full range] of follow-up time on study for: Primary Analysis: 31.7 [0.0-44.3] months vs. 30.4 [0.0-45.8] months in Arm A vs. Arm B; Final Analysis: 73.20 [0.03-88.34] months vs. 71.06 [0.03-88.97] months in Arm A vs. Arm B	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	45-49
+median	BAO:0002174	12-18
+range	LABO:0000114	25-30
+Results 1:	Results	4
+Arm/Group Title: Arm A: Pertuzumab + Trastuzumab + AI +/- Chemotherapy	Results	5
+Arm/Group Description: Participants received pertuzumab at a loading dose of 840 mg followed by 420 mg along with trastuzumab at a loading dose of 8 mg/kg of body weight followed by 6 mg/kg of body weight on Day 1 or Day 2 of each 3-weekly cycle until disease progression, unacceptable toxicity, withdrawal of consent, or death, or the predefined end of study whichever occurred first. Participants also received an aromatase inhibitor (AI), orally as per product labeling (anastrozole: 1 mg once daily or letrozole: 2.5 mg once daily). Participants receiving induction chemotherapy up to the first 18-24 weeks of the treatment period were to receive a taxane (docetaxel every 3 weeks or paclitaxel weekly), administered in line with the respective product labeling.	Results	6
+body weight	CMO:0000012	158-169
+body weight	CMO:0000012	193-204
+day	UO:0000033	208-211
+day	UO:0000033	217-220
+disease	DOID:4,OGMS:0000031	252-259
+death	OAE:0000632	322-327
+inhibitor	CHEBI:35222	426-435
+product	BAO:0003067	456-463
+product	BAO:0003067	749-756
+anastrozole	CHEBI:2704	474-485
+letrozole	CHEBI:6413	506-515
+taxane	CHEBI:36064	653-659
+paclitaxel	CHEBI:45863	688-698
+Overall Number of Participants Analyzed: 129	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  Primary Analysis: 18.89        (14.09 to 27.66)	Results	9
+Final Analysis: 20.63        (14.39 to 28.35)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm B: Trastuzumab + AI +/- Chemotherapy	Results	12
+Arm/Group Description: Participants received trastuzumab at a loading dose of 8 mg/kg of body weight followed by 6 mg/kg of body weight on Day 1 or Day 2 of each 3-weekly cycle until disease progression, unacceptable toxicity, withdrawal of consent, or death, or the predefined end of study whichever occurred first. Participants also received an aromatase inhibitor (AI), orally as per product labeling (anastrozole: 1 mg once daily or letrozole: 2.5 mg once daily). Participants receiving induction chemotherapy up to the first 18-24 weeks of the treatment period were to receive a taxane (docetaxel every 3 weeks or paclitaxel weekly), administered in line with the respective product labeling.	Results	13
+body weight	CMO:0000012	89-100
+body weight	CMO:0000012	124-135
+day	UO:0000033	139-142
+day	UO:0000033	148-151
+disease	DOID:4,OGMS:0000031	183-190
+death	OAE:0000632	253-258
+inhibitor	CHEBI:35222	357-366
+product	BAO:0003067	387-394
+product	BAO:0003067	680-687
+anastrozole	CHEBI:2704	405-416
+letrozole	CHEBI:6413	437-446
+taxane	CHEBI:36064	584-590
+paclitaxel	CHEBI:45863	619-629
+Overall Number of Participants Analyzed: 129	Results	14
+Median (95% Confidence Interval)	Results	15
+median	BAO:0002174	0-6
+Unit of Measure: months  Primary Analysis: 15.80        (11.04 to 18.56)	Results	16
+Final Analysis: 15.80        (11.04 to 18.66)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 46/127 (36.22%)	Adverse Events	1
+Febrile neutropenia 4/127 (3.15%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/127 (0.79%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Atrial fibrillation 2/127 (1.57%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 0/127 (0.00%)	Adverse Events	5
+Left ventricular dysfunction 4/127 (3.15%)	Adverse Events	6
+left	HP:0012835	0-4
+Mitral valve disease 1/127 (0.79%)	Adverse Events	7
+mitral valve disease	DOID:61	0-20
+Myocardial ischaemia 1/127 (0.79%)	Adverse Events	8
+Sinus tachycardia 1/127 (0.79%)	Adverse Events	9
+sinus tachycardia	HP:0011703	0-17
+Myocardial infarction 1/127 (0.79%)	Adverse Events	10
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Adrenal haemorrhage 1/127 (0.79%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 28/124 (22.58%)	Adverse Events	13
+Febrile neutropenia 2/124 (1.61%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/124 (0.81%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Atrial fibrillation 0/124 (0.00%)	Adverse Events	16
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 1/124 (0.81%)	Adverse Events	17
+Left ventricular dysfunction 0/124 (0.00%)	Adverse Events	18
+left	HP:0012835	0-4
+Mitral valve disease 0/124 (0.00%)	Adverse Events	19
+mitral valve disease	DOID:61	0-20
+Myocardial ischaemia 0/124 (0.00%)	Adverse Events	20
+Sinus tachycardia 0/124 (0.00%)	Adverse Events	21
+sinus tachycardia	HP:0011703	0-17
+Myocardial infarction 0/124 (0.00%)	Adverse Events	22
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Adrenal haemorrhage 0/124 (0.00%)	Adverse Events	23

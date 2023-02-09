@@ -1,0 +1,61 @@
+INTERVENTION 1:	Intervention	0
+FFDM Mammography Exam - LIP Algorithm	Intervention	1
+lip	UBERON:0001833	24-27
+Screening or diagnostic Full Field Digital Mammography (FFDM) exam	Intervention	2
+INTERVENTION 2:	Intervention	3
+FFDM Mammography Exam - SIP Algorithm	Intervention	4
+The same 130 raw data images were externally reprocessed with the Siemens processing algorithm.	Intervention	5
+raw data	BAO:0000445	13-21
+Inclusion Criteria:	Eligibility	0
+Female	Eligibility	1
+female	PATO:0000383	0-6
+> 40 years	Eligibility	2
+Exclusion Criteria:	Eligibility	3
+Pregnant women, or women who may become pregnant	Eligibility	4
+Mammographic evidence of breast surgery, prior radiation to the breast, needle projection or pre-biopsy markings are evident in the mammogram (but may include breast implants)	Eligibility	5
+breast	UBERON:0000310	25-31
+breast	UBERON:0000310	64-70
+breast	UBERON:0000310	159-165
+surgery	OAE:0000067	32-39
+Palpable lesion or one that is visible by another modality	Eligibility	6
+Inmates	Eligibility	7
+Outcome Measurement:	Results	0
+Area Under the Receiver Operating Characteristic (ROC) Curve to Compare Diagnostic Accuracy of 2 Algorithms in Breast Cancer Diagnosis	Results	1
+area	PATO:0001323	0-4
+breast cancer	DOID:1612	111-124
+The primary objective of this study was to demonstrate non-inferiority of the Siemens' processing algorithm to Lorad's processing algorithm with regards to readers' diagnostic accuracy in detecting and characterizing breast lesions. The non-inferiority analyses were performed by comparing the area under the ROC curve (AUC) for the two algorithms & to compare false positive marks per subject.	Results	2
+breast	UBERON:0000310	217-223
+area	PATO:0001323	294-298
+auc	BAO:0002120	320-323
+The ROC curve incorporates both sensitivity (true positive rate) and specificity (true negative rate) providing a single assessment incorporating both measures. It shows in a graphical way the trade-off between clinical sensitivity and specificity for every possible cut-off for a test, and gives an idea about the benefit of using the test in question. The higher the total area under the curve, the greater the predictive power of the reader assessments.	Results	3
+rate	BAO:0080019	21-25
+rate	BAO:0080019	59-63
+rate	BAO:0080019	96-100
+area	PATO:0001323	375-379
+A breast-based analysis was used for the primary AUC comparison in order to obtain additional power by having more normal/benign breasts.	Results	4
+auc	BAO:0002120	49-52
+Time frame: ~1 year. Women with negative or biopsy benign findings at baseline (study entry) were followed for 1 year to confirm the negative status at 1-year follow-up mammography exam. Women diagnosed with cancer were not followed up.	Results	5
+time	PATO:0000165	0-4
+year	UO:0000036	15-19
+year	UO:0000036	113-117
+year	UO:0000036	154-158
+cancer	DOID:162	208-214
+Results 1:	Results	6
+Arm/Group Title: FFDM Mammography Exam - LIP Algorithm	Results	7
+lip	UBERON:0001833	41-44
+Arm/Group Description: Screening or diagnostic Full Field Digital Mammography (FFDM) exam	Results	8
+Overall Number of Participants Analyzed: 130	Results	9
+Overall Number of Units Analyzed	Results	10
+Type of Units Analyzed: Breasts  Mean (Standard Error)Unit of Measure: probability: 0.884         (0.008)	Results	11
+mean	BAO:0002173	33-37
+Results 2:	Results	12
+Arm/Group Title: FFDM Mammography Exam - SIP Algorithm	Results	13
+Arm/Group Description: The same 130 raw data images were externally reprocessed with the Siemens processing algorithm.	Results	14
+raw data	BAO:0000445	36-44
+Overall Number of Participants Analyzed: 130	Results	15
+Overall Number of Units Analyzed	Results	16
+Type of Units Analyzed: Breasts  Mean (Standard Error)Unit of Measure: probability: 0.880         (0.008)	Results	17
+mean	BAO:0002173	33-37
+Adverse Events 1:	Adverse Events	0
+Total: 0/442 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2

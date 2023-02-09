@@ -1,0 +1,168 @@
+INTERVENTION 1:	Intervention	0
+Arm A: Continuous Letrozole	Intervention	1
+letrozole	CHEBI:6413	18-27
+Continuous letrozole: 5 years continuously (2.5 mg Letrozole daily)	Intervention	2
+letrozole	CHEBI:6413	11-20
+letrozole	CHEBI:6413	51-60
+Letrozole: Film-coated tablet, oral use, 2.5 mg Letrozole daily for 5 years continuously	Intervention	3
+letrozole	CHEBI:6413	0-9
+letrozole	CHEBI:6413	48-57
+INTERVENTION 2:	Intervention	4
+Arm B: Intermittent Letrozole	Intervention	5
+letrozole	CHEBI:6413	20-29
+Intermittent letrozole: 48 months over 5 yrs: 4 x 9 months (9 mo followed by 3 mo treatment-free interval in yrs 1-4, -> 36 mo) plus 1 x 12 mo in yr 5 -> 48 months	Intervention	6
+letrozole	CHEBI:6413	13-22
+x	LABO:0000148	48-49
+x	LABO:0000148	135-136
+Letrozole: Film-coated tablet, oral use, 2.5 mg daily, 48 months over 5 yrs: 4 x 9 months (9 mo followed by 3 mo treatment-free interval in yrs 1-4, -> 36 mo) plus 1 x 12 mo in yr 5 -> 48 months	Intervention	7
+letrozole	CHEBI:6413	0-9
+x	LABO:0000148	79-80
+x	LABO:0000148	166-167
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Confirmed diagnosis of prior operable, noninflammatory breast cancer meeting the following criteria:	Eligibility	1
+breast cancer	DOID:1612	55-68
+Steroid hormone receptor-positive tumors (estrogen receptor and/or progesterone receptor), determined by immunohistochemistry, after primary surgery and before commencement of prior endocrine therapy	Eligibility	2
+steroid hormone	CHEBI:26764	0-15
+estrogen	CHEBI:50114,BAO:0000760	42-50
+receptor	BAO:0000281	16-24
+receptor	BAO:0000281	51-59
+receptor	BAO:0000281	80-88
+progesterone	CHEBI:17026	67-79
+immunohistochemistry	BAO:0000415	105-125
+surgery	OAE:0000067	141-148
+Prior local treatment including surgery with or without radiotherapy for primary breast cancer with no known clinical residual loco-regional disease	Eligibility	3
+surgery	OAE:0000067	32-39
+radiotherapy	OAE:0000235	56-68
+breast cancer	DOID:1612	81-94
+disease	DOID:4,OGMS:0000031	141-148
+Following primary surgery, eligible patients must have had evidence of lymph node involvement either in the axillary or internal mammary nodes, but not supraclavicular nodes	Eligibility	4
+surgery	OAE:0000067	18-25
+lymph	UBERON:0002391	71-76
+Clinically disease-free	Eligibility	5
+Must have completed 4-6 years of prior adjuvant selective estrogen receptor modulators (SERMs), aromatase inhibitors (AIs), or a sequential combination of both	Eligibility	6
+adjuvant	CHEBI:60809	39-47
+estrogen	CHEBI:50114,BAO:0000760	58-66
+receptor	BAO:0000281	67-75
+When calculating 4-6 years, neoadjuvant endocrine therapy should not be included	Eligibility	7
+No evidence of recurrent disease or distant metastatic disease	Eligibility	8
+recurrent	HP:0031796	15-24
+disease	DOID:4,OGMS:0000031	25-32
+disease	DOID:4,OGMS:0000031	55-62
+No prior bilateral breast cancer	Eligibility	9
+bilateral breast cancer	DOID:6741	9-32
+PATIENT CHARACTERISTICS:	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+Female	Eligibility	11
+female	PATO:0000383	0-6
+Must be postmenopausal by any of the following criteria:	Eligibility	12
+Patients of any age who have had a bilateral oophorectomy (including radiation castration AND amenorrheic for > 3 months)	Eligibility	13
+age	PATO:0000011	16-19
+bilateral	HP:0012832	35-44
+Patients 56 years old or older with any evidence of ovarian function must have biochemical evidence of definite postmenopausal status (defined as estradiol, luteinizing hormone [LH], and follicle-stimulating hormone [FSH] in the postmenopausal range)	Eligibility	14
+function	BAO:0003117,BFO:0000034	60-68
+estradiol	CHEBI:23965	146-155
+luteinizing hormone	CHEBI:81568	157-176
+hormone	CHEBI:24621	169-176
+hormone	CHEBI:24621	208-215
+range	LABO:0000114	244-249
+Patients 55 years old or younger must have biochemical evidence of definite postmenopausal status (defined as estradiol, LH, and FSH in the postmenopausal range)	Eligibility	15
+estradiol	CHEBI:23965	110-119
+range	LABO:0000114	155-160
+Patients who have received prior luteinizing-hormone releasing-hormone (LHRH) analogues within the last year are eligible if they have definite evidence of postmenopausal status as defined above	Eligibility	16
+year	UO:0000036	104-108
+Clinically adequate hepatic function	Eligibility	17
+function	BAO:0003117,BFO:0000034	28-36
+No bone fracture due to osteoporosis at any time during the 4-6 years of prior therapy	Eligibility	18
+bone fracture	HP:0020110	3-16
+osteoporosis	HP:0000939,DOID:11476	24-36
+time	PATO:0000165	44-48
+No prior or current malignancy except adequately treated basal cell or squamous cell carcinoma of the skin, in situ carcinoma of the cervix or bladder, or contra- or ipsilateral in situ breast carcinoma	Eligibility	19
+squamous cell carcinoma of the skin	HP:0006739	71-106
+in situ carcinoma	DOID:8719	108-125
+breast carcinoma	HP:0003002,DOID:3459	186-202
+No other nonmalignant systemic diseases (cardiovascular, renal, lung, etc.) that would prevent prolonged follow-up	Eligibility	20
+lung	UBERON:0002048	64-68
+prolonged	HP:0025297	95-104
+No psychiatric, addictive, or any other disorder that compromises compliance with protocol requirements	Eligibility	21
+disorder	OGMS:0000045	40-48
+PRIOR CONCURRENT THERAPY:	Eligibility	22
+See Disease Characteristics	Eligibility	23
+disease	DOID:4,OGMS:0000031	4-11
+More than 12 months since prior and no other concurrent endocrine SERM/AI therapy	Eligibility	24
+Any type of prior adjuvant therapy allowed including, but not limited to, any of the following:	Eligibility	25
+adjuvant	CHEBI:60809	18-26
+Neoadjuvant chemotherapy	Eligibility	26
+Neoadjuvant endocrine therapy	Eligibility	27
+Adjuvant chemotherapy	Eligibility	28
+adjuvant	CHEBI:60809	0-8
+Trastuzumab (Herceptin®)	Eligibility	29
+Ovarian ablation	Eligibility	30
+Gonadotropin releasing hormone analogues	Eligibility	31
+hormone	CHEBI:24621	23-30
+Lapatinib ditosylate	Eligibility	32
+lapatinib	CHEBI:49603	0-9
+No concurrent hormone-replacement therapy, bisphosphonates (except for treatment of bone loss), or any other investigational agent	Eligibility	33
+Outcome Measurement:	Results	0
+Disease-free Survival (DFS)	Results	1
+Duration of time from randomization to the first indication of the following events: invasive recurrence at local (including recurrence restricted to the breast after breast conserving treatment), regional or distant sites; a new invasive cancer in the contralateral breast; any second (non-breast) invasive malignancy; or a death without prior cancer event. Appearance of DCIS or LCIS either in the ipsilateral or in the contralateral breast was not be considered as an event for DFS. In the absence of an event, DFS was censored at the date of last follow-up visit.	Results	2
+duration	PATO:0001309	0-8
+time	PATO:0000165	12-16
+breast	UBERON:0000310	154-160
+breast	UBERON:0000310	167-173
+breast	UBERON:0000310	267-273
+breast	UBERON:0000310	291-297
+breast	UBERON:0000310	436-442
+cancer	DOID:162	239-245
+cancer	DOID:162	345-351
+second	UO:0000010	279-285
+death	OAE:0000632	325-330
+Time frame: 5-year estimates, reported at a median follow-up of 60 months	Results	3
+time	PATO:0000165	0-4
+median	BAO:0002174	44-50
+Results 1:	Results	4
+Arm/Group Title: Arm A: Continuous Letrozole	Results	5
+letrozole	CHEBI:6413	35-44
+Arm/Group Description: Continuous letrozole: 5 years continuously (2.5 mg Letrozole daily)	Results	6
+letrozole	CHEBI:6413	34-43
+letrozole	CHEBI:6413	74-83
+Letrozole: Film-coated tablet, oral use, 2.5 mg Letrozole daily for 5 years continuously	Results	7
+letrozole	CHEBI:6413	0-9
+letrozole	CHEBI:6413	48-57
+Overall Number of Participants Analyzed: 2426	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of patients  87.5        (86 to 88.8)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm B: Intermittent Letrozole	Results	12
+letrozole	CHEBI:6413	37-46
+Arm/Group Description: Intermittent letrozole: 48 months over 5 yrs: 4 x 9 months (9 mo followed by 3 mo treatment-free interval in yrs 1-4, -> 36 mo) plus 1 x 12 mo in yr 5 -> 48 months	Results	13
+letrozole	CHEBI:6413	36-45
+x	LABO:0000148	71-72
+x	LABO:0000148	158-159
+Letrozole: Film-coated tablet, oral use, 2.5 mg daily, 48 months over 5 yrs: 4 x 9 months (9 mo followed by 3 mo treatment-free interval in yrs 1-4, -> 36 mo) plus 1 x 12 mo in yr 5 -> 48 months	Results	14
+letrozole	CHEBI:6413	0-9
+x	LABO:0000148	79-80
+x	LABO:0000148	166-167
+Overall Number of Participants Analyzed: 2425	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of patients  85.8        (84.2 to 87.2)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 1004/2411 (41.64%)	Adverse Events	1
+Hemoglobin 1/2411 (0.04%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Cardiac Arrhythmia-Other (Specify) 2/2411 (0.08%)	Adverse Events	3
+Cardiac-ischemia/infarction 21/2411 (0.87%)	Adverse Events	4
+Conduction abnormality/Atrioventricular heart block - AV block-2nd degree Mobitz Type I (Wenckebach) 0/2411 (0.00%)	Adverse Events	5
+heart block	HP:0012722	40-51
+Conduction abnormality/Atrioventricular heart block - AV block-third degree (complete AV block) 2/2411 (0.08%)	Adverse Events	6
+heart block	HP:0012722	40-51
+Adverse Events 2:	Adverse Events	7
+Total: 1052/2417 (43.53%)	Adverse Events	8
+Hemoglobin 1/2417 (0.04%)	Adverse Events	9
+hemoglobin	CHEBI:35143	0-10
+Cardiac Arrhythmia-Other (Specify) 2/2417 (0.08%)	Adverse Events	10
+Cardiac-ischemia/infarction 22/2417 (0.91%)	Adverse Events	11
+Conduction abnormality/Atrioventricular heart block - AV block-2nd degree Mobitz Type I (Wenckebach) 2/2417 (0.08%)	Adverse Events	12
+heart block	HP:0012722	40-51
+Conduction abnormality/Atrioventricular heart block - AV block-third degree (complete AV block) 0/2417 (0.00%)	Adverse Events	13
+heart block	HP:0012722	40-51

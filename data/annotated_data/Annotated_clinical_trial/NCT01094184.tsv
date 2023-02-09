@@ -1,0 +1,115 @@
+INTERVENTION 1:	Intervention	0
+Bevacizumab 10 mg/kg Q2W	Intervention	1
+Participants received bevacizumab at a dose of 10 mg/kg Q2W as intravenous infusion along with paclitaxel Q1W or docetaxel Q3W as per discretion of the treating physician until disease progression, unacceptable toxicity or withdrawal of consent.	Intervention	2
+paclitaxel	CHEBI:45863	95-105
+disease	DOID:4,OGMS:0000031	177-184
+INTERVENTION 2:	Intervention	3
+Bevacizumab 15 mg/kg Q3W	Intervention	4
+Participants received bevacizumab at a dose of 15 mg/kg Q3W as intravenous infusion along with paclitaxel Q1W or docetaxel Q3W as per discretion of the treating physician until disease progression, unacceptable toxicity or withdrawal of consent.	Intervention	5
+paclitaxel	CHEBI:45863	95-105
+disease	DOID:4,OGMS:0000031	177-184
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed triple-negative (estrogen, progesterone, and HER-2 receptor negative) adenocarcinoma of the breast in pre- or post-menopausal women with measurable or non-measurable metastatic disease	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	42-50
+progesterone	CHEBI:17026	52-64
+receptor	BAO:0000281	76-84
+adenocarcinoma	DOID:299	95-109
+breast	UBERON:0000310	117-123
+disease	DOID:4,OGMS:0000031	202-209
+Participant who in the Investigator's opinion requires combination therapy for their disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	85-92
+Life expectancy of greater than or equal to (>/=)12 weeks	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Previous chemotherapy for metastatic breast cancer	Eligibility	5
+breast cancer	DOID:1612	37-50
+Participants currently undergoing radiation therapy for the treatment of metastatic disease (apart from the relief of metastatic bone pain)	Eligibility	6
+disease	DOID:4,OGMS:0000031	84-91
+bone pain	HP:0002653	129-138
+Major surgery or significant traumatic injury within 28 days prior to enrollment or anticipation of the need for major surgery during study treatment	Eligibility	7
+surgery	OAE:0000067	6-13
+surgery	OAE:0000067	119-126
+Outcome Measurement:	Results	0
+Change From Baseline in Functional Assessment of Cancer Therapy-Breast Cancer (FACT-B) Score at Cycle 2	Results	1
+functional	BAO:0000010	24-34
+cancer	DOID:162	49-55
+cancer	DOID:162	71-77
+FACT-B is used for assessment of health-related quality of life (QoL) in participants with breast cancer. It consists of 36 items, summarized to 5 subscales: physical (7 items), functional (7 items), social/family (7 items); all 3 ranged from 0 to 28, emotional (6 items) ranging from 0 to 24, and breast cancer subscale (9 items) ranging from 0 to 36; high subscale score represents a better QoL. All single-item measures range from 0='Not at all' to 4='Very much'. Total possible score ranged from 0 to 144. High scale score represents a better QoL.	Results	2
+quality	BAO:0002928,BFO:0000019	48-55
+breast cancer	DOID:1612	91-104
+breast cancer	DOID:1612	298-311
+functional	BAO:0000010	178-188
+range	LABO:0000114	231-236
+range	LABO:0000114	423-428
+range	LABO:0000114	488-493
+Time frame: Baseline, Cycle 2 (Cycle length=2 and 3 weeks)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Bevacizumab 10 mg/kg Q2W	Results	5
+Arm/Group Description: Participants received bevacizumab at a dose of 10 mg/kg Q2W as intravenous infusion along with paclitaxel Q1W or docetaxel Q3W as per discretion of the treating physician until disease progression, unacceptable toxicity or withdrawal of consent.	Results	6
+paclitaxel	CHEBI:45863	118-128
+disease	DOID:4,OGMS:0000031	200-207
+Overall Number of Participants Analyzed: 31	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Baseline: 31 participants	Results	9
+98.3         (21.342)	Results	10
+Change at Cycle 2: 25 participants	Results	11
+5.83         (17.027)	Results	12
+Results 2:	Results	13
+Arm/Group Title: Bevacizumab 15 mg/kg Q3W	Results	14
+Arm/Group Description: Participants received bevacizumab at a dose of 15 mg/kg Q3W as intravenous infusion along with paclitaxel Q1W or docetaxel Q3W as per discretion of the treating physician until disease progression, unacceptable toxicity or withdrawal of consent.	Results	15
+paclitaxel	CHEBI:45863	118-128
+disease	DOID:4,OGMS:0000031	200-207
+Overall Number of Participants Analyzed: 12	Results	16
+Mean (Standard Deviation)	Results	17
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Baseline: 12 participants	Results	18
+102.21         (21.036)	Results	19
+Change at Cycle 2: 6 participants	Results	20
+-2.48         (14.697)	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 15/36 (41.67%)	Adverse Events	1
+Neutropenia * 0/36 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Diarrhoea * 1/36 (2.78%)	Adverse Events	3
+Small intestinal perforation * 0/36 (0.00%)	Adverse Events	4
+small intestinal perforation	HP:0031370	0-28
+Catheter site dermatitis * 0/36 (0.00%)	Adverse Events	5
+site	BFO:0000029	9-13
+dermatitis	DOID:2723	14-24
+Disease progression * 1/36 (2.78%)	Adverse Events	6
+disease	DOID:4,OGMS:0000031	0-7
+Fatigue * 1/36 (2.78%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+Pain * 1/36 (2.78%)	Adverse Events	8
+pain	HP:0012531	0-4
+Pyrexia * 1/36 (2.78%)	Adverse Events	9
+Hypersensitivity * 1/36 (2.78%)	Adverse Events	10
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Device related infection * 1/36 (2.78%)	Adverse Events	11
+Gastroenteritis * 0/36 (0.00%)	Adverse Events	12
+gastroenteritis	DOID:2326	0-15
+Adverse Events 2:	Adverse Events	13
+Total: 7/13 (53.85%)	Adverse Events	14
+Neutropenia * 2/13 (15.38%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Diarrhoea * 0/13 (0.00%)	Adverse Events	16
+Small intestinal perforation * 1/13 (7.69%)	Adverse Events	17
+small intestinal perforation	HP:0031370	0-28
+Catheter site dermatitis * 1/13 (7.69%)	Adverse Events	18
+site	BFO:0000029	9-13
+dermatitis	DOID:2723	14-24
+Disease progression * 0/13 (0.00%)	Adverse Events	19
+disease	DOID:4,OGMS:0000031	0-7
+Fatigue * 0/13 (0.00%)	Adverse Events	20
+fatigue	HP:0012378	0-7
+Pain * 0/13 (0.00%)	Adverse Events	21
+pain	HP:0012531	0-4
+Pyrexia * 0/13 (0.00%)	Adverse Events	22
+Hypersensitivity * 0/13 (0.00%)	Adverse Events	23
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Device related infection * 0/13 (0.00%)	Adverse Events	24
+Gastroenteritis * 1/13 (7.69%)	Adverse Events	25
+gastroenteritis	DOID:2326	0-15

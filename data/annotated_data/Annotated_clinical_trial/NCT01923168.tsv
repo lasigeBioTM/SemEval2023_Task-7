@@ -1,0 +1,129 @@
+INTERVENTION 1:	Intervention	0
+Alpelisib + Letrozole	Intervention	1
+letrozole	CHEBI:6413	12-21
+Participants took alpelisib 300 mg once daily plus letrozole 2.5 mg once daily.	Intervention	2
+letrozole	CHEBI:6413	51-60
+INTERVENTION 2:	Intervention	3
+Placebo + Letrozole	Intervention	4
+letrozole	CHEBI:6413	10-19
+Participants took matching Placebo (of alpelisib 300 mg once daily/buparlisib 100 mg once daily or 5 days on/2 days off) plus Letrozole 2.5 mg once daily.	Intervention	5
+letrozole	CHEBI:6413	126-135
+Inclusion Criteria:	Eligibility	0
+Patient is an adult, female  18 years old at the time of informed consent	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+adult	EFO:0001272	14-19
+female	PATO:0000383	21-27
+time	PATO:0000165	49-53
+Patient has a histologically and/or cytologically confirmed diagnosis of breast cancer	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	73-86
+Patient is postmenopausal.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+Patient has T1c-T3, any N, M0, operable breast cancer	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	40-53
+Patients must have measurable disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	30-37
+Patient has diagnostic biopsy available for the analysis of PIK3CA mutation and Ki67 level.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+Patient has estrogen-receptor and/or progesterone positive breast cancer as per local laboratory testing	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+progesterone	CHEBI:17026	37-49
+breast cancer	DOID:1612	59-72
+Patient has HER2 negative breast cancer defined as a negative in situ hybridization test or an IHC status of 0 or 1+ as per local laboratory testing	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	26-39
+Exclusion Criteria:	Eligibility	9
+Patient has locally recurrent or metastatic disease	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+recurrent	HP:0031796	20-29
+disease	DOID:4,OGMS:0000031	44-51
+Patient has received any systemic therapy (e.g. chemotherapy, targeted therapy, immunotherapy) or radiotherapy for current breast cancer disease before randomization.	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+radiotherapy	OAE:0000235	98-110
+breast cancer	DOID:1612	123-136
+disease	DOID:4,OGMS:0000031	137-144
+Patient with type 1 diabetes mellitus or not adequately controlled type 2 diabetes mellitus	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+type 1 diabetes mellitus	DOID:9744	13-37
+type 2 diabetes mellitus	DOID:9352	67-91
+History of acute pancreatitis within 1 year of study entry	Eligibility	13
+history	BFO:0000182	0-7
+acute pancreatitis	HP:0001735,DOID:2913	11-29
+year	UO:0000036	39-43
+Uncontrolled hypertension	Eligibility	14
+hypertension	HP:0000822,DOID:10763	13-25
+Outcome Measurement:	Results	0
+Pathological Complete Response (pCR) Per Investigator Assessment for Alpelisib vs. Placebo for PIK3CA Mutant Cohort	Results	1
+Pathologic complete response (pCR) defined as absence of any residual invasive cancer on hematoxylin and eosin evaluation of the resected breast specimen and all sampled ipsilateral lymph nodes following completion of 24 weeks of treatment by local assessment (ypT0/Tis ypN0). Patients who experienced progression of disease while undergoing neoadjuvant therapy, or who did not receive surgery for any reason, or received antineoplastic treatment other than study drug(s) before surgery were considered as non-responders for the calculation of pCR rate.	Results	2
+cancer	DOID:162	79-85
+breast	UBERON:0000310	138-144
+lymph	UBERON:0002391	182-187
+disease	DOID:4,OGMS:0000031	317-324
+surgery	OAE:0000067	386-393
+surgery	OAE:0000067	479-486
+drug	CHEBI:23888	464-468
+rate	BAO:0080019	548-552
+Time frame: After 24 weeks of treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Alpelisib + Letrozole	Results	5
+letrozole	CHEBI:6413	29-38
+Arm/Group Description: Participants took alpelisib 300 mg once daily plus letrozole 2.5 mg once daily.	Results	6
+letrozole	CHEBI:6413	74-83
+Overall Number of Participants Analyzed: 60	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants  1.7        (0.2 to 6.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo + Letrozole	Results	11
+letrozole	CHEBI:6413	27-36
+Arm/Group Description: Participants took matching Placebo (of alpelisib 300 mg once daily/buparlisib 100 mg once daily or 5 days on/2 days off) plus Letrozole 2.5 mg once daily.	Results	12
+letrozole	CHEBI:6413	149-158
+Overall Number of Participants Analyzed: 67	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of Participants  3.0        (0.8 to 7.7)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 21/130 (16.15%)	Adverse Events	1
+Atrial fibrillation 0/130 (0.00%)	Adverse Events	2
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac disorder 0/130 (0.00%)	Adverse Events	3
+disorder	OGMS:0000045	8-16
+Cardiac failure 1/130 (0.77%)	Adverse Events	4
+Stress cardiomyopathy 1/130 (0.77%)	Adverse Events	5
+cardiomyopathy	HP:0001638,DOID:0050700	7-21
+Iritis 0/130 (0.00%)	Adverse Events	6
+iritis	HP:0001101,DOID:1406	0-6
+Colitis 1/130 (0.77%)	Adverse Events	7
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea 1/130 (0.77%)	Adverse Events	8
+Nausea 1/130 (0.77%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Stomatitis 1/130 (0.77%)	Adverse Events	10
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting 1/130 (0.77%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Disease progression 1/130 (0.77%)	Adverse Events	12
+disease	DOID:4,OGMS:0000031	0-7
+Adverse Events 2:	Adverse Events	13
+Total: 22/81 (27.16%)	Adverse Events	14
+Atrial fibrillation 2/81 (2.47%)	Adverse Events	15
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac disorder 1/81 (1.23%)	Adverse Events	16
+disorder	OGMS:0000045	8-16
+Cardiac failure 0/81 (0.00%)	Adverse Events	17
+Stress cardiomyopathy 0/81 (0.00%)	Adverse Events	18
+cardiomyopathy	HP:0001638,DOID:0050700	7-21
+Iritis 1/81 (1.23%)	Adverse Events	19
+iritis	HP:0001101,DOID:1406	0-6
+Colitis 2/81 (2.47%)	Adverse Events	20
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea 1/81 (1.23%)	Adverse Events	21
+Nausea 0/81 (0.00%)	Adverse Events	22
+nausea	HP:0002018	0-6
+Stomatitis 0/81 (0.00%)	Adverse Events	23
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting 0/81 (0.00%)	Adverse Events	24
+vomiting	HP:0002013	0-8
+Disease progression 0/81 (0.00%)	Adverse Events	25
+disease	DOID:4,OGMS:0000031	0-7
+General physical health deterioration 1/81 (1.23%)	Adverse Events	26

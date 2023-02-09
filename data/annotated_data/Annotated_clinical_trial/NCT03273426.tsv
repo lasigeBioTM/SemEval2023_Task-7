@@ -1,0 +1,46 @@
+INTERVENTION 1:	Intervention	0
+Core Needle Biopsy	Intervention	1
+Ultrasound-guided core needle biopsy (14G, 5 cores recommended) for complete clinical response (cCR) or near-cCR predicted by MRI.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Vacuum-assisted Biopsy	Intervention	4
+Vacuum-assisted biopsy (10G, 5 cores recommended) for complete clinical response (cCR) or near-cCR predicted by MRI.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Patients	Eligibility	1
+with unilateral primary cancer pathologically confirmed before neoadjuvant chemotherapy (NAC)	Eligibility	2
+unilateral	HP:0012833	5-15
+cancer	DOID:162	24-30
+nac	CHEBI:7421	89-92
+who received NAC	Eligibility	3
+nac	CHEBI:7421	13-16
+with detectable lesion / clip marker on ultrasound	Eligibility	4
+with cT1-T3 tumors	Eligibility	5
+clinical and imaging complete or near-complete response on MRI	Eligibility	6
+with informed consent	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Multifocal cancer	Eligibility	9
+multifocal	HP:0030651	0-10
+cancer	DOID:162	11-17
+Residual microcalcification	Eligibility	10
+Contralateral breast cancer	Eligibility	11
+breast cancer	DOID:1612	14-27
+Outcome Measurement:	Results	0
+Negative Predictive Value	Results	1
+Percentage of participants with pathologic complete response (pCR) confirmed by surgical excision in patients predicted by biopsy to have pCR	Results	2
+Time frame: 2 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Core Needle Biopsy	Results	5
+Arm/Group Description: Ultrasound-guided core needle biopsy (14G,   5 cores recommended) for complete clinical response (cCR) or near-cCR predicted by MRI.	Results	6
+Overall Number of Participants Analyzed: 17	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  88.2        (71.94 to 95.64)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Vacuum-assisted Biopsy	Results	11
+Arm/Group Description: Vacuum-assisted biopsy (10G,   5 cores recommended) for complete clinical response (cCR) or near-cCR predicted by MRI.	Results	12
+Overall Number of Participants Analyzed: 14	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  85.7        (64.37 to 95.22)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/20 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

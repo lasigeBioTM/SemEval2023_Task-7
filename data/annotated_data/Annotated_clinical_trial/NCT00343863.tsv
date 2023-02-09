@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+Dexamethasone + Ondansetron IV	Intervention	1
+dexamethasone	CHEBI:41879	0-13
+ondansetron	CHEBI:7773	16-27
+All patients receive doxorubicin hydrochloride IV on day 1 and oral cyclophosphamide on days 1-7.	Intervention	2
+doxorubicin hydrochloride	CHEBI:31522	21-46
+day	UO:0000033	53-56
+day	UO:0000033	88-91
+cyclophosphamide	CHEBI:4026	68-84
+Patients receive dexamethasone IV or orally and ondansetron IV on day 1 (prior to each dose of doxorubicin hydrochloride).	Intervention	3
+dexamethasone	CHEBI:41879	17-30
+ondansetron	CHEBI:7773	48-59
+day	UO:0000033	66-69
+doxorubicin hydrochloride	CHEBI:31522	95-120
+INTERVENTION 2:	Intervention	4
+Dexamethasone + Palonosetron IV	Intervention	5
+dexamethasone	CHEBI:41879	0-13
+palonosetron	CHEBI:85161	16-28
+All patients receive doxorubicin hydrochloride IV on day 1 and oral cyclophosphamide on days 1-7.	Intervention	6
+doxorubicin hydrochloride	CHEBI:31522	21-46
+day	UO:0000033	53-56
+day	UO:0000033	88-91
+cyclophosphamide	CHEBI:4026	68-84
+Patients receive dexamethasone IV or orally and palonosetron IV on day 1 (prior to each dose of doxorubicin hydrochloride).	Intervention	7
+dexamethasone	CHEBI:41879	17-30
+palonosetron	CHEBI:85161	48-60
+day	UO:0000033	67-70
+doxorubicin hydrochloride	CHEBI:31522	96-121
+Inclusion Criteria:	Eligibility	0
+Patients must have a histologically confirmed diagnosis of primary breast carcinoma	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	67-83
+Patient must be naive to chemotherapy at the time of enrollment	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+time	PATO:0000165	45-49
+Patients must have prescribed weekly intravenous adriamycin (doxorubicin) and daily oral cyclophosphamide treatment for early breast cancer	Eligibility	3
+doxorubicin	CHEBI:28748,BAO:0000639	61-72
+cyclophosphamide	CHEBI:4026	89-105
+breast cancer	DOID:1612	126-139
+The patient must be informed of the investigational nature of this study and must sign and give written informed consent in accordance with institutional and federal guidelines	Eligibility	4
+patient	HADO:0000008,OAE:0001817	4-11
+Patients must have a Karnofsky index of greater than or equal to 50%	Eligibility	5
+Known mild to moderate hepatic, renal or cardiovascular impairment may be enrolled at the discretion of the investigator	Eligibility	6
+mild	HP:0012825	6-10
+moderate	HP:0012826	14-22
+Exclusion Criteria:	Eligibility	7
+Receipt of investigational drug within 30 days before study entry	Eligibility	8
+drug	CHEBI:23888	27-31
+Received any drug with potential anti-emetic effect within 24 hours prior to the start of study-designated chemotherapeutic agent (with the exception of administration of the palonosetron/dexamethasone infusion solution), including the following: 5-HT3 receptor antagonists; dopamine receptor antagonists (metoclopramide); phenothiazine anti-emetics (prochlorperazine, thiethylperazine and perphenazine); diphenhydramine, scopolamine, chlorpheniramine maleate, trimethobenzamide (diphenhydramine will be allowed if given for prophylactic treatment of hypersensitivity reactions associated with the administration of Taxanes); all benzodiazepines; haloperidol, droperidol, tetrahydrocannabinol, or nabilone; any systemic corticosteroid (hydrocortisone, methylprednisolone, prednisone) (topical or inhaled preparations are allowed)	Eligibility	9
+drug	CHEBI:23888	13-17
+solution	CHEBI:75958	211-219
+receptor	BAO:0000281	253-261
+receptor	BAO:0000281	284-292
+dopamine	CHEBI:18243,BAO:0000894	275-283
+metoclopramide	CHEBI:107736	306-320
+phenothiazine	CHEBI:37931	323-336
+prochlorperazine	CHEBI:8435	351-367
+thiethylperazine	CHEBI:9544	369-385
+perphenazine	CHEBI:8028	390-402
+diphenhydramine	CHEBI:4636	405-420
+diphenhydramine	CHEBI:4636	480-495
+scopolamine	CHEBI:16794	422-433
+chlorpheniramine maleate	CHEBI:3645	435-459
+trimethobenzamide	CHEBI:27796	461-478
+hypersensitivity	GO:0002524,DOID:1205	551-567
+haloperidol	CHEBI:5613	647-658
+droperidol	CHEBI:4717	660-670
+nabilone	CHEBI:135574	697-705
+corticosteroid	CHEBI:50858	720-734
+prednisone	CHEBI:8382	772-782
+Any vomiting, retching or NCI Common Toxicity Criteria version 3.0 grade 2-4 nausea in the 24 hours preceding chemotherapy	Eligibility	10
+vomiting	HP:0002013	4-12
+nausea	HP:0002018	77-83
+Ongoing vomiting from any organic etiology	Eligibility	11
+vomiting	HP:0002013	8-16
+Need to receive systemic corticosteroids, except: a) when defined as part of the chemotherapy regimen as a preventative measure for chemotherapy toxicities; b) topical or inhaled preparations; and/or c) when used as rescue medication during the study	Eligibility	12
+part of	BAO:0090002,BFO:0000050	69-76
+Known contraindication to 5-HT3 receptor antagonists (including palonosetron) or dexamethasone	Eligibility	13
+contraindication	OAE:0000055	6-22
+receptor	BAO:0000281	32-40
+palonosetron	CHEBI:85161	64-76
+dexamethasone	CHEBI:41879	81-94
+Need to receive radiotherapy during the study	Eligibility	14
+radiotherapy	OAE:0000235	16-28
+Inability to understand or cooperate with study procedures	Eligibility	15
+Outcome Measurement:	Results	0
+Count of Patients Achieving a Complete Response	Results	1
+[Not Specified]	Results	2
+Time frame: At 0-24 hours after weekly intravenous doxorubin	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Dexamethasone + Ondansetron IV	Results	5
+dexamethasone	CHEBI:41879	17-30
+ondansetron	CHEBI:7773	33-44
+Arm/Group Description: All patients receive doxorubicin hydrochloride IV on day 1 and oral cyclophosphamide on days 1-7.	Results	6
+doxorubicin hydrochloride	CHEBI:31522	44-69
+day	UO:0000033	76-79
+day	UO:0000033	111-114
+cyclophosphamide	CHEBI:4026	91-107
+Patients receive dexamethasone IV or orally and ondansetron IV on day 1 (prior to each dose of doxorubicin hydrochloride).	Results	7
+dexamethasone	CHEBI:41879	17-30
+ondansetron	CHEBI:7773	48-59
+day	UO:0000033	66-69
+doxorubicin hydrochloride	CHEBI:31522	95-120
+Overall Number of Participants Analyzed: 7	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  3  42.9%	Results	10
+Results 2:	Results	11
+Arm/Group Title: Dexamethasone + Palonosetron IV	Results	12
+dexamethasone	CHEBI:41879	17-30
+palonosetron	CHEBI:85161	33-45
+Arm/Group Description: All patients receive doxorubicin hydrochloride IV on day 1 and oral cyclophosphamide on days 1-7.	Results	13
+doxorubicin hydrochloride	CHEBI:31522	44-69
+day	UO:0000033	76-79
+day	UO:0000033	111-114
+cyclophosphamide	CHEBI:4026	91-107
+Patients receive dexamethasone IV or orally and palonosetron IV on day 1 (prior to each dose of doxorubicin hydrochloride).	Results	14
+dexamethasone	CHEBI:41879	17-30
+palonosetron	CHEBI:85161	48-60
+day	UO:0000033	67-70
+doxorubicin hydrochloride	CHEBI:31522	96-121
+Overall Number of Participants Analyzed: 34	Results	15
+Measure Type: Count of Participants	Results	16
+Unit of Measure: Participants  15  44.1%	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/7 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/34 (0.00%)	Adverse Events	3

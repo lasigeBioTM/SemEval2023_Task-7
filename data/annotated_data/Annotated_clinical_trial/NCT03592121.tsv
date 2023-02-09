@@ -1,0 +1,145 @@
+INTERVENTION 1:	Intervention	0
+AB-101	Intervention	1
+Apply to both nipple/areola regions approximately 1 hour prior to sexual activity	Intervention	2
+hour	UO:0000032	52-56
+AB-101: Apply approximately 1 hour prior to sexual activity	Intervention	3
+hour	UO:0000032	30-34
+INTERVENTION 2:	Intervention	4
+Placebo	Intervention	5
+Apply to both nipple/areola regions approximately 1 hour prior to sexual activity	Intervention	6
+hour	UO:0000032	52-56
+Placebo: Apply approximately 1 hour prior to sexual activity	Intervention	7
+hour	UO:0000032	31-35
+Inclusion Criteria:	Eligibility	0
+Female breast cancer survivor	Eligibility	1
+female breast cancer	DOID:0050671	0-20
+Age: 18 to 70	Eligibility	2
+age	PATO:0000011	0-3
+First diagnosed with Stage I or II breast cancer	Eligibility	3
+breast cancer	DOID:1612	35-48
+Have had breast surgery: nipple sparring mastectomy or lumpectomy	Eligibility	4
+breast	UBERON:0000310	9-15
+surgery	OAE:0000067	16-23
+At least 3 years post surgery	Eligibility	5
+surgery	OAE:0000067	22-29
+Nipple neuropathy post breast surgery (change in Llikeart scale >= 3 between pre and post surgery)	Eligibility	6
+neuropathy	DOID:870	7-17
+breast	UBERON:0000310	23-29
+surgery	OAE:0000067	30-37
+surgery	OAE:0000067	90-97
+Baseline nipple sensitivity <=5 (likeartLikert scale)	Eligibility	7
+QoL-BC (>=7)	Eligibility	8
+Delayed orgasm (CTCAE v4.0) Grade 2	Eligibility	9
+One of the following: Delayed orgasm (CTCAE v4.0) Grade 2 and/or Vaginal dryness (CTCAE v4.0) Grade 2 or 3	Eligibility	10
+vaginal dryness	HP:0031088	65-80
+Able to give informed consent	Eligibility	11
+Currently in a monogamous heterosexual relationship for at least 12 months	Eligibility	12
+Sexually active within the last 30 days	Eligibility	13
+active	PATO:0002354	9-15
+Willing to engage in sexual activity at least once a month during the duration of the study	Eligibility	14
+month	UO:0000035	53-58
+duration	PATO:0001309	70-78
+Willing to use on a regular basis a web based form system to record sexual events i.e., have access to the Internet	Eligibility	15
+Willing to use an adequate method of birth control	Eligibility	16
+Able to comply with the study requirements for 8 consecutive weeks	Eligibility	17
+Able to give informed consent	Eligibility	18
+Exclusion Criteria:	Eligibility	19
+Previous adverse event to alpha 1 agonists (oral, nasal, topical, or ocular) or drugs in this class	Eligibility	20
+adverse event	OAE:0000001	9-22
+Currently pregnant	Eligibility	21
+Nursing within the last 6 months prior to beginning the study	Eligibility	22
+History of cardiovascular or cerebrovascular disease, e.g., heart attack, disease of the arteries of the heart, partial heart block, rapid ventricular heartbeat, slow heartbeat, chronic heart failure, severe hardening of the arteries, blood clot in an artery	Eligibility	23
+history	BFO:0000182	0-7
+cerebrovascular disease	DOID:6713	29-52
+heart	UBERON:0000948	60-65
+heart	UBERON:0000948	105-110
+heart	UBERON:0000948	120-125
+heart	UBERON:0000948	151-156
+heart	UBERON:0000948	167-172
+heart	UBERON:0000948	186-191
+disease	DOID:4,OGMS:0000031	45-52
+disease	DOID:4,OGMS:0000031	74-81
+heart block	HP:0012722	120-131
+chronic	HP:0011010	178-185
+severe	HP:0012828	201-207
+blood	UBERON:0000178	235-240
+artery	UBERON:0001637	252-258
+Actively being treated for breast cancer	Eligibility	24
+breast cancer	DOID:1612	27-40
+Changes in chronic medication for oncology, cardiology, or endocrinology in past 12 months	Eligibility	25
+chronic	HP:0011010	11-18
+Uncontrolled or severe hypertension	Eligibility	26
+severe	HP:0012828	16-22
+hypertension	HP:0000822,DOID:10763	23-35
+Decreased oxygen in the tissues or blood	Eligibility	27
+blood	UBERON:0000178	35-40
+Active inflammation of the liver	Eligibility	28
+active	PATO:0002354	0-6
+liver	UBERON:0002107	27-32
+Acute inflammation of the pancreas	Eligibility	29
+acute	HP:0011009,PATO:0000389	0-5
+pancreas	UBERON:0001264	26-34
+Overactive thyroid gland	Eligibility	30
+thyroid gland	CHEBI:9584,UBERON:0002046	11-24
+Acidosis	Eligibility	31
+acidosis	HP:0001941	0-8
+Diabetes	Eligibility	32
+Spinal cord injury	Eligibility	33
+spinal cord	UBERON:0002240	0-11
+Nipple dermatitis	Eligibility	34
+dermatitis	DOID:2723	7-17
+Regional complex pain syndrome	Eligibility	35
+pain	HP:0012531	17-21
+syndrome	DOID:225	22-30
+Use of any hypertensive drugs	Eligibility	36
+Use of MAO inhibitors	Eligibility	37
+Subjects assigned to interventional drug arm and failed to report an increase >=2 from baseline in nipple sensitivity (likert scale) during phase I	Eligibility	38
+drug	CHEBI:23888	36-40
+increase	BAO:0001251	69-77
+In partners: sexual dysfunction or erectile dysfunction	Eligibility	39
+sexual dysfunction	DOID:1876	13-31
+erectile dysfunction	HP:0100639,DOID:1875	35-55
+Currently enrolled in any other medical study or has been enrolled in any medical study in the past 30 days	Eligibility	40
+Nipple dermatitis	Eligibility	41
+dermatitis	DOID:2723	7-17
+Regional complex pain syndrome	Eligibility	42
+pain	HP:0012531	17-21
+syndrome	DOID:225	22-30
+Unable to provide consent or make allotted clinical visits	Eligibility	43
+Outcome Measurement:	Results	0
+Change in Delayed Orgasm Grade	Results	1
+Change in Delayed Orgasm Grade (CTCAE v4.0 - Common Terminology of Adverse Events) CTCAE v4.0 is the NIH Common Terminology of Adverse Events v4.0	Results	2
+Delayed Orgasm is defined as: A disorder characterized by sexual dysfunction characterized by a delay in climax.	Results	3
+disorder	OGMS:0000045	32-40
+sexual dysfunction	DOID:1876	58-76
+This is a binary grading system:	Results	4
+Grade 0:Delay in achieving orgasm not adversely affecting relationship Grade 1:Delay in achieving orgasm adversely affecting relationship	Results	5
+Time frame: [baseline, week 8]	Results	6
+time	PATO:0000165	0-4
+week	UO:0000034	23-27
+Results 1:	Results	7
+Arm/Group Title: AB-101	Results	8
+Arm/Group Description: Apply to both nipple/areola regions approximately 1 hour prior to sexual activity	Results	9
+hour	UO:0000032	75-79
+AB-101: Apply approximately 1 hour prior to sexual activity	Results	10
+hour	UO:0000032	30-34
+Overall Number of Participants Analyzed: 3	Results	11
+Mean (Standard Deviation)	Results	12
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Grade  -0.33         (0.58)	Results	13
+Results 2:	Results	14
+Arm/Group Title: Placebo	Results	15
+Arm/Group Description: Apply to both nipple/areola regions approximately 1 hour prior to sexual activity	Results	16
+hour	UO:0000032	75-79
+Placebo: Apply approximately 1 hour prior to sexual activity	Results	17
+hour	UO:0000032	31-35
+Overall Number of Participants Analyzed: 0	Results	18
+Mean (Standard Deviation)	Results	19
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Grade	Results	20
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/0	Adverse Events	3

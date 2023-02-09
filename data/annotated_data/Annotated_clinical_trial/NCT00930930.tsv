@@ -1,0 +1,278 @@
+INTERVENTION 1:	Intervention	0
+Cisplatin and Paclitaxel + RAD001	Intervention	1
+cisplatin	CHEBI:27899	0-9
+paclitaxel	CHEBI:45863	14-24
+Cisplatin 25 mg/m2 IV weekly + RAD001 5 mg PO daily for 1 week followed by Cisplatin 25 mg/m2 IV + Paclitaxel 80 mg/m2 IV weekly + RAD001 5 mg PO daily for 11 weeks	Intervention	2
+cisplatin	CHEBI:27899	0-9
+cisplatin	CHEBI:27899	75-84
+week	UO:0000034	22-26
+week	UO:0000034	58-62
+week	UO:0000034	122-126
+week	UO:0000034	159-163
+paclitaxel	CHEBI:45863	99-109
+cisplatin: Given IV	Intervention	3
+cisplatin	CHEBI:27899	0-9
+everolimus: Given orally	Intervention	4
+everolimus	CHEBI:68478	0-10
+paclitaxel: Given IV	Intervention	5
+paclitaxel	CHEBI:45863	0-10
+Venous blood draw: Venous blood (2-3 tablespoons) will be taken for germline DNA analysis to complement the correlative studies in the tumor tissue. Blood can be drawn at any time prior, during, or after completion of study treatment	Intervention	6
+venous blood	UBERON:0013756	0-12
+venous blood	UBERON:0013756	19-31
+dna	BAO:0000269	77-80
+tissue	UBERON:0000479	141-147
+blood	UBERON:0000178	7-12
+blood	UBERON:0000178	26-31
+blood	UBERON:0000178	149-154
+time	PATO:0000165	175-179
+INTERVENTION 2:	Intervention	7
+Cisplatin and Paclitaxel + Placebo	Intervention	8
+cisplatin	CHEBI:27899	0-9
+paclitaxel	CHEBI:45863	14-24
+Cisplatin 25 mg/m2 IV weekly + placebo PO daily for 1 week followed by Cisplatin 25 mg/m2 IV + Paclitaxel 80 mg/m2 IV weekly + placebo PO daily for 11 weeks	Intervention	9
+cisplatin	CHEBI:27899	0-9
+cisplatin	CHEBI:27899	71-80
+week	UO:0000034	22-26
+week	UO:0000034	54-58
+week	UO:0000034	118-122
+week	UO:0000034	151-155
+paclitaxel	CHEBI:45863	95-105
+cisplatin: Given IV	Intervention	10
+cisplatin	CHEBI:27899	0-9
+paclitaxel: Given IV	Intervention	11
+paclitaxel	CHEBI:45863	0-10
+placebo: Given orally	Intervention	12
+Venous blood draw: Venous blood (2-3 tablespoons) will be taken for germline DNA analysis to complement the correlative studies in the tumor tissue. Blood can be drawn at any time prior, during, or after completion of study treatment	Intervention	13
+venous blood	UBERON:0013756	0-12
+venous blood	UBERON:0013756	19-31
+dna	BAO:0000269	77-80
+tissue	UBERON:0000479	141-147
+blood	UBERON:0000178	7-12
+blood	UBERON:0000178	26-31
+blood	UBERON:0000178	149-154
+time	PATO:0000165	175-179
+Eligibility criteria	Eligibility	0
+-Maximum number of patients will include two-thirds of the patients in Arm 1 and one-third of the patients for Arm 2 (total of 145 patients). Estimated time for accrual with ~ 3 patients/month would be ~ 3.5 years.	Eligibility	1
+time	PATO:0000165	152-156
+Inclusion criteria:	Eligibility	2
+Patients must provide informed written consent.	Eligibility	3
+Patient must be  18 years of age.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+age	PATO:0000011	29-32
+ECOG performance status 0-1.	Eligibility	5
+Clinical stage II or stage III triple-negative (ER and/or PR no staining or weak staining in less than or equal to 10% cells by immunohistochemistry [IHC] and HER2-negative by Herceptest [0, 1+] or FISH) invasive mammary carcinoma, confirmed by histological analysis.	Eligibility	6
+immunohistochemistry	BAO:0000415	128-148
+carcinoma	HP:0030731,DOID:305	221-230
+Patients who have measurable* residual tumor at the primary site	Eligibility	7
+site	BFO:0000029	60-64
+*Measurable disease: any mass that can be reproducibly measured by physical examination, mammogram, and/or ultrasound and can be accurately measured in at least one dimension (longest diameter to be recorded) as 10 mm (1 cm), either in the breast or axillary lymph nodes.	Eligibility	8
+disease	DOID:4,OGMS:0000031	12-19
+physical examination	OAE:0004232	67-87
+diameter	PATO:0001334	184-192
+breast	UBERON:0000310	240-246
+lymph	UBERON:0002391	259-264
+Available core biopsies from the time of diagnosis. Fresh tissue must be obtainable at baseline or fresh tissue biopsy prior to treatment initiation.	Eligibility	9
+time	PATO:0000165	33-37
+tissue	UBERON:0000479	58-64
+tissue	UBERON:0000479	105-111
+Patients who will undergo surgical treatment with either segmental resection or total mastectomy.	Eligibility	10
+Patients must have adequate hematologic, hepatic, and renal function. All tests must be obtained less than 4 weeks from study entry. This includes:	Eligibility	11
+function	BAO:0003117,BFO:0000034	60-68
+ANC >/=1500/mm3	Eligibility	12
+Platelet count >/=100,000/mm3	Eligibility	13
+platelet count	CMO:0000029	0-14
+Creatinine </=1.5X upper limits of normal	Eligibility	14
+creatinine	CHEBI:16737	0-10
+Bilirubin, SGOT, SGPT </=1.5X upper limits of normal*	Eligibility	15
+* for patients with Gilbert"s syndrome, direct bilirubin will be measured instead of total bilirubin.	Eligibility	16
+syndrome	DOID:225	30-38
+The patient must have not had anyprior chemotherapy for primary breast cancer.	Eligibility	17
+patient	HADO:0000008,OAE:0001817	4-11
+breast cancer	DOID:1612	64-77
+Patients with a prior history of contra-lateral breast cancer are eligible if they have no evidence of recurrence of their initial primary breast cancer within the last 5 years.	Eligibility	18
+history	BFO:0000182	22-29
+breast cancer	DOID:1612	48-61
+breast cancer	DOID:1612	139-152
+Able to swallow and retain oral medication.	Eligibility	19
+Four days prior to biopsy procedures patients must be off medications that could increase risk of bleeding (i.e. ASA, NSAIDS, Coumadin, heparin products)	Eligibility	20
+increase	BAO:0001251	81-89
+heparin	CHEBI:28304	136-143
+Potential subjects must complete all screening assessments as outlined in the protocol.	Eligibility	21
+The pre-menopausal patient of childbearing potential must have had a negative pregnancy test and agreed to use birth control methods while participating in the study. Note: Women of childbearing potential and their male counterparts should use a barrier method of contraception during and for 3 months following protocol therapy.	Eligibility	22
+patient	HADO:0000008,OAE:0001817	19-26
+male	CHEBI:30780,PATO:0000384	215-219
+Ineligibility Criteria	Eligibility	23
+Exclusion Criteria:	Eligibility	24
+Locally recurrent breast cancer.	Eligibility	25
+recurrent	HP:0031796	8-17
+breast cancer	DOID:1612	18-31
+Pregnant or lactating women.	Eligibility	26
+Evidence of distant metastatic disease (i.e. lung, liver, bone, brain, etc.)	Eligibility	27
+disease	DOID:4,OGMS:0000031	31-38
+lung	UBERON:0002048	45-49
+liver	UBERON:0002107	51-56
+brain	UBERON:0000955	64-69
+Use of CYP3A4 modifiers (Appendix A)	Eligibility	28
+Serious medical illness that in the judgment of the treating physician places the patient at high risk of operative mortality.	Eligibility	29
+patient	HADO:0000008,OAE:0001817	82-89
+Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel.	Eligibility	30
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+disease	DOID:4,OGMS:0000031	24-31
+function	BAO:0003117,BFO:0000034	73-81
+stomach	UBERON:0000945	103-110
+History of other malignancy. Subjects who have been disease-free for 5 years, or subjects with a history of completely resected non-melanoma skin cancer or successfully treated in situ carcinomas are eligible.	Eligibility	31
+history	BFO:0000182	0-7
+history	BFO:0000182	97-104
+skin cancer	DOID:4159	141-152
+History of hepatitis B or hepatitis C. If patient is judged to be at risk for having had exposure to viral B or C hepatitis (i.e. illicit IV drug use, blood transfusion prior to 1990, body piercing, tattoos, etc.), appropriate testing should be performed (i.e. Hepatitis B surface antigen antibody, and Hepatitis C antibody)	Eligibility	32
+history	BFO:0000182	0-7
+hepatitis b	DOID:2043	11-22
+hepatitis b	DOID:2043	261-272
+hepatitis	HP:0012115,DOID:2237	11-20
+hepatitis	HP:0012115,DOID:2237	26-35
+hepatitis	HP:0012115,DOID:2237	114-123
+hepatitis	HP:0012115,DOID:2237	261-270
+hepatitis	HP:0012115,DOID:2237	303-312
+patient	HADO:0000008,OAE:0001817	42-49
+drug	CHEBI:23888	141-145
+blood	UBERON:0000178	151-156
+antigen	CHEBI:59132	281-288
+antibody	GO:0042571,BAO:0000502	289-297
+antibody	GO:0042571,BAO:0000502	315-323
+hepatitis c	DOID:1883	26-37
+hepatitis c	DOID:1883	303-314
+Active or uncontrolled infection requiring parenteral antibiotics.	Eligibility	33
+active	PATO:0002354	0-6
+Dementia, altered mental status, or any psychiatric condition that would prohibit the understanding or rendering of informed consent.	Eligibility	34
+dementia	HP:0000726,DOID:1307	0-8
+condition	PDRO:0000129	52-61
+Symptomatic neuropathy ( grade 2).	Eligibility	35
+neuropathy	DOID:870	12-22
+Concurrent anti-cancer therapy (chemotherapy, radiation therapy, surgery, immunotherapy, hormonal therapy, or any other biologic therapy) other than the ones specified in the protocol.	Eligibility	36
+surgery	OAE:0000067	65-72
+Concurrent treatment with an investigational agent.	Eligibility	37
+Used an investigational drug within 15 days or 5 half-lives, whichever is longer, preceding the first dose of randomized therapy.	Eligibility	38
+drug	CHEBI:23888	24-28
+Outcome Measurement:	Results	0
+Number of Patients With Pathological Complete Response	Results	1
+Pathological complete response is defined as no residual tumor on histopathological analysis of both breast and axillary contents.	Results	2
+breast	UBERON:0000310	101-107
+Time frame: at time of surgery, week 15-18	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	15-19
+surgery	OAE:0000067	23-30
+week	UO:0000034	32-36
+Results 1:	Results	4
+Arm/Group Title: Cisplatin and Paclitaxel + RAD001	Results	5
+cisplatin	CHEBI:27899	17-26
+paclitaxel	CHEBI:45863	31-41
+Arm/Group Description: Cisplatin 25 mg/m2 IV weekly + RAD001 5 mg PO daily for 1 week followed by Cisplatin 25 mg/m2 IV + Paclitaxel 80 mg/m2 IV weekly + RAD001 5 mg PO daily for 11 weeks	Results	6
+cisplatin	CHEBI:27899	23-32
+cisplatin	CHEBI:27899	98-107
+week	UO:0000034	45-49
+week	UO:0000034	81-85
+week	UO:0000034	145-149
+week	UO:0000034	182-186
+paclitaxel	CHEBI:45863	122-132
+cisplatin: Given IV	Results	7
+cisplatin	CHEBI:27899	0-9
+everolimus: Given orally	Results	8
+everolimus	CHEBI:68478	0-10
+paclitaxel: Given IV	Results	9
+paclitaxel	CHEBI:45863	0-10
+Venous blood draw: Venous blood (2-3 tablespoons) will be taken for germline DNA analysis to complement the correlative studies in the tumor tissue. Blood can be drawn at any time prior, during, or after completion of study treatment	Results	10
+venous blood	UBERON:0013756	0-12
+venous blood	UBERON:0013756	19-31
+dna	BAO:0000269	77-80
+tissue	UBERON:0000479	141-147
+blood	UBERON:0000178	7-12
+blood	UBERON:0000178	26-31
+blood	UBERON:0000178	149-154
+time	PATO:0000165	175-179
+Overall Number of Participants Analyzed: 88	Results	11
+Measure Type: Number	Results	12
+Unit of Measure: participants  34	Results	13
+Results 2:	Results	14
+Arm/Group Title: Cisplatin and Paclitaxel + Placebo	Results	15
+cisplatin	CHEBI:27899	17-26
+paclitaxel	CHEBI:45863	31-41
+Arm/Group Description: Cisplatin 25 mg/m2 IV weekly + placebo PO daily for 1 week followed by Cisplatin 25 mg/m2 IV + Paclitaxel 80 mg/m2 IV weekly + placebo PO daily for 11 weeks	Results	16
+cisplatin	CHEBI:27899	23-32
+cisplatin	CHEBI:27899	94-103
+week	UO:0000034	45-49
+week	UO:0000034	77-81
+week	UO:0000034	141-145
+week	UO:0000034	174-178
+paclitaxel	CHEBI:45863	118-128
+cisplatin: Given IV	Results	17
+cisplatin	CHEBI:27899	0-9
+paclitaxel: Given IV	Results	18
+paclitaxel	CHEBI:45863	0-10
+placebo: Given orally	Results	19
+Venous blood draw: Venous blood (2-3 tablespoons) will be taken for germline DNA analysis to complement the correlative studies in the tumor tissue. Blood can be drawn at any time prior, during, or after completion of study treatment	Results	20
+venous blood	UBERON:0013756	0-12
+venous blood	UBERON:0013756	19-31
+dna	BAO:0000269	77-80
+tissue	UBERON:0000479	141-147
+blood	UBERON:0000178	7-12
+blood	UBERON:0000178	26-31
+blood	UBERON:0000178	149-154
+time	PATO:0000165	175-179
+Overall Number of Participants Analyzed: 44	Results	21
+Measure Type: Number	Results	22
+Unit of Measure: participants  17	Results	23
+Adverse Events 1:	Adverse Events	0
+Total: 22/96 (22.92%)	Adverse Events	1
+Anemia 1/96 (1.04%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+lymphopenia 1/96 (1.04%)	Adverse Events	3
+lymphopenia	HP:0001888,DOID:614	0-11
+cardiac ischemia/infarction 1/96 (1.04%)	Adverse Events	4
+sinus tachycardia 2/96 (2.08%)	Adverse Events	5
+sinus tachycardia	HP:0011703	0-17
+Dehydration 5/96 (5.21%)	Adverse Events	6
+dehydration	HP:0001944	0-11
+colitis 1/96 (1.04%)	Adverse Events	7
+colitis	HP:0002583,DOID:0060180	0-7
+diarrhea 5/96 (5.21%)	Adverse Events	8
+diarrhea	HP:0002014,DOID:13250	0-8
+ileus 1/96 (1.04%)	Adverse Events	9
+ileus	HP:0002595,DOID:8440	0-5
+nausea 2/96 (2.08%)	Adverse Events	10
+nausea	HP:0002018	0-6
+vomiting 1/96 (1.04%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+distal small bowel obstruction 1/96 (1.04%)	Adverse Events	12
+distal	HP:0012839	0-6
+edema 1/96 (1.04%)	Adverse Events	13
+edema	HP:0000969	0-5
+fatigue 2/96 (2.08%)	Adverse Events	14
+fatigue	HP:0012378	0-7
+Adverse Events 2:	Adverse Events	15
+Total: 6/49 (12.24%)	Adverse Events	16
+Anemia 0/49 (0.00%)	Adverse Events	17
+anemia	HP:0001903,DOID:2355	0-6
+lymphopenia 0/49 (0.00%)	Adverse Events	18
+lymphopenia	HP:0001888,DOID:614	0-11
+cardiac ischemia/infarction 0/49 (0.00%)	Adverse Events	19
+sinus tachycardia 0/49 (0.00%)	Adverse Events	20
+sinus tachycardia	HP:0011703	0-17
+Dehydration 1/49 (2.04%)	Adverse Events	21
+dehydration	HP:0001944	0-11
+colitis 0/49 (0.00%)	Adverse Events	22
+colitis	HP:0002583,DOID:0060180	0-7
+diarrhea 0/49 (0.00%)	Adverse Events	23
+diarrhea	HP:0002014,DOID:13250	0-8
+ileus 0/49 (0.00%)	Adverse Events	24
+ileus	HP:0002595,DOID:8440	0-5
+nausea 1/49 (2.04%)	Adverse Events	25
+nausea	HP:0002018	0-6
+vomiting 1/49 (2.04%)	Adverse Events	26
+vomiting	HP:0002013	0-8
+distal small bowel obstruction 0/49 (0.00%)	Adverse Events	27
+distal	HP:0012839	0-6
+edema 0/49 (0.00%)	Adverse Events	28
+edema	HP:0000969	0-5
+fatigue 0/49 (0.00%)	Adverse Events	29
+fatigue	HP:0012378	0-7

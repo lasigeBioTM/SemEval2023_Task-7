@@ -1,0 +1,207 @@
+INTERVENTION 1:	Intervention	0
+Lapatinib Plus Capecitabine	Intervention	1
+lapatinib	CHEBI:49603	0-9
+capecitabine	CHEBI:31348	15-27
+Participants received a daily dose of 5 tablets of lapatinib (1250 mg) at approximately the same time every day, either 1 hour (or more) before breakfast or 1 hour (or more) after breakfast. Participants also received capecitabine 2000 mg/m^2) per day (divided and administered orally twice daily, 12 hours apart), for 14 days, every 21 days. Capecitabine was taken with food or within 30 minutes after food. Participants received study medication until disease progression, unacceptable toxicity, or participant withdrawal.	Intervention	2
+lapatinib	CHEBI:49603	51-60
+time	PATO:0000165	97-101
+day	UO:0000033	108-111
+day	UO:0000033	248-251
+day	UO:0000033	322-325
+day	UO:0000033	337-340
+hour	UO:0000032	122-126
+hour	UO:0000032	159-163
+hour	UO:0000032	301-305
+capecitabine	CHEBI:31348	218-230
+capecitabine	CHEBI:31348	343-355
+food	CHEBI:33290	371-375
+food	CHEBI:33290	403-407
+disease	DOID:4,OGMS:0000031	454-461
+INTERVENTION 2:	Intervention	3
+Trastuzumab Plus Capecitabine	Intervention	4
+capecitabine	CHEBI:31348	17-29
+Participants received an IV infusion of trastuzumab 8 mg/kg on Day 1, followed by a 6 mg/kg infusion every 3 weeks. Participants also received capecitabine 2500 mg/m^2 per day (divided and administered orally twice daily, 12 hours apart), for 14 days, every 21 days. Capecitabine was taken with food or within 30 minutes after food. Participants received study medication until disease progression, unacceptable toxicity, or participant withdrawal.	Intervention	5
+day	UO:0000033	63-66
+day	UO:0000033	172-175
+day	UO:0000033	246-249
+day	UO:0000033	261-264
+capecitabine	CHEBI:31348	143-155
+capecitabine	CHEBI:31348	267-279
+food	CHEBI:33290	295-299
+food	CHEBI:33290	327-331
+disease	DOID:4,OGMS:0000031	378-385
+Inclusion Criteria:	Eligibility	0
+Females at least 18 years old;	Eligibility	1
+ECOG Performance Status 0-2;	Eligibility	2
+Histologically or cytologically confirmed HER2-positive invasive breast cancer, with Stage IV disease;	Eligibility	3
+breast cancer	DOID:1612	65-78
+disease	DOID:4,OGMS:0000031	94-101
+Prior treatment with taxanes or anthracyclines is required;	Eligibility	4
+Prior treatment with other chemotherapeutic agents, trastuzumab, endocrine and radiation therapy is permitted;	Eligibility	5
+Baseline LVEF  50% and not lower than the institutional lower limit of normal;	Eligibility	6
+Concurrent treatment with bisphosphonates is permitted, however treatment must be initiated prior to the first dose of study therapy;	Eligibility	7
+Able to swallow and retain oral medications;	Eligibility	8
+Women with potential to have children must be willing to practice acceptable methods of birth control during the study;	Eligibility	9
+Normal organ and marrow function.	Eligibility	10
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	24-32
+Exclusion Criteria:	Eligibility	11
+History and/or current evidence of CNS metastases. Baseline MRI scan by Independent Reviewer to confirm no brain mets;	Eligibility	12
+history	BFO:0000182	0-7
+brain	UBERON:0000955	107-112
+Concurrent treatment with an investigational agent or participation in another treatment clinical trial;	Eligibility	13
+Prior therapy with lapatinib or an ErbB2 inhibitor other than trastuzumab (including but not limited to trastuzumab-DM1 and neratinib) and capecitabine;	Eligibility	14
+lapatinib	CHEBI:49603	19-28
+inhibitor	CHEBI:35222	41-50
+neratinib	CHEBI:61397	124-133
+capecitabine	CHEBI:31348	139-151
+Known DPD deficiency;	Eligibility	15
+Concurrent chemotherapy, radiation therapy, immunotherapy, biologic therapy, or hormonal therapy for treatment of cancer;	Eligibility	16
+cancer	DOID:162	114-120
+History of allergic reactions attributed to compounds chemically related to lapatinib (quinazolines), capecitabine, fluorouracil or any excipients;	Eligibility	17
+history	BFO:0000182	0-7
+lapatinib	CHEBI:49603	76-85
+quinazolines	CHEBI:38530	87-99
+capecitabine	CHEBI:31348	102-114
+Concomitant use of CYP3A4 inhibitors or inducers;	Eligibility	18
+Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel;	Eligibility	19
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+disease	DOID:4,OGMS:0000031	24-31
+function	BAO:0003117,BFO:0000034	73-81
+stomach	UBERON:0000945	103-110
+History of immediate or delayed hypersensitivity reaction to gadolinium contrast agents, or other contraindication to gadolinium contrast and other known contraindication to MRI;	Eligibility	20
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	32-48
+contraindication	OAE:0000055	98-114
+contraindication	OAE:0000055	154-170
+Concurrent disease or condition that would make the subject inappropriate for study participation or any serious medical or psychiatric disorder that would interfere with the patient's safety or compliance to study procedures;	Eligibility	21
+disease	DOID:4,OGMS:0000031	11-18
+condition	PDRO:0000129	22-31
+disorder	OGMS:0000045	136-144
+patient	HADO:0000008,OAE:0001817	175-182
+have acute or currently active/requiring anti-viral therapy hepatic or biliary disease (with exception of patients with Gilbert's syndrome, asymptomatic gallstones, liver metastases or stable chronic liver disease);	Eligibility	22
+acute	HP:0011009,PATO:0000389	5-10
+disease	DOID:4,OGMS:0000031	79-86
+disease	DOID:4,OGMS:0000031	206-213
+syndrome	DOID:225	130-138
+liver	UBERON:0002107	165-170
+liver	UBERON:0002107	200-205
+stable	HP:0031915	185-191
+chronic	HP:0011010	192-199
+liver disease	DOID:409	200-213
+Any on-going toxicity from prior anti cancer therapy except alopecia;	Eligibility	23
+cancer	DOID:162	38-44
+alopecia	HP:0001596,DOID:987	60-68
+Active cardiac disease;	Eligibility	24
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	15-22
+Uncontrolled infection;	Eligibility	25
+History of other malignancy, unless curatively treated with no evidence of disease for at least 5 years, subjects with adequately treated DCIS or LCIS, adequately treated non-melanoma skin cancer or curatively treated in-situ cancer of the cervix are eligible;	Eligibility	26
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	75-82
+skin cancer	DOID:4159	184-195
+cancer	DOID:162	189-195
+cancer	DOID:162	226-232
+Used an investigational drug within 30 days or 5 half-lives, whichever is longer, preceding the first dose of protocol treatment;	Eligibility	27
+drug	CHEBI:23888	24-28
+Pregnant or lactating females.	Eligibility	28
+Outcome Measurement:	Results	0
+Number of Participants With Central Nervous System (CNS) Metastases (as Assessed by Independent Review) as the Site of First Relapse	Results	1
+central nervous system	UBERON:0001017	28-50
+site	BFO:0000029	111-115
+CNS relapse is defined as the appearance of >=1 enhancing lesion measuring >=6 millimeters (mm) on T1Weighted (T1W) Magnetic Resonance Imaging (MRI) without CNS symptoms that were considered to be unequivocal based on all relevant radiological features (e.g., associated T2W signal abnormality); the appearance of any enhancing lesion on T1W MRI with CNS symptoms; unequivocal finding of leptomeningeal disease (defined as the dissemination of cancer throughout the spinal fluid), with or without symptoms; and unequivocal finding of multifocal intraparenchymal lesions with or without symptoms. In the event of the appearance of a <6 mm lesions(s) without CNS lesions, or equivocal findings potentially suggesting leptomeningeal disease, these findings were followed with a subsequent scan within 6 weeks. If unequivocal progression was determined with the subsequent scan and/or CNS symptoms occurred, then CNS relapse crieria were met.	Results	2
+disease	DOID:4,OGMS:0000031	403-410
+disease	DOID:4,OGMS:0000031	730-737
+cancer	DOID:162	444-450
+multifocal	HP:0030651	534-544
+Time frame: From randomization until disease progression, death, or discontinuation from the study (average of 10 months). Cut-off 11-Jun-2012	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	37-44
+death	OAE:0000632	58-63
+Results 1:	Results	4
+Arm/Group Title: Lapatinib Plus Capecitabine	Results	5
+lapatinib	CHEBI:49603	17-26
+capecitabine	CHEBI:31348	32-44
+Arm/Group Description: Participants received a daily dose of 5 tablets of lapatinib (1250 mg) at approximately the same time every day, either 1 hour (or more) before breakfast or 1 hour (or more) after breakfast. Participants also received capecitabine 2000 mg/m^2) per day (divided and administered orally twice daily, 12 hours apart), for 14 days, every 21 days. Capecitabine was taken with food or within 30 minutes after food. Participants received study medication until disease progression, unacceptable toxicity, or participant withdrawal.	Results	6
+lapatinib	CHEBI:49603	74-83
+time	PATO:0000165	120-124
+day	UO:0000033	131-134
+day	UO:0000033	271-274
+day	UO:0000033	345-348
+day	UO:0000033	360-363
+hour	UO:0000032	145-149
+hour	UO:0000032	182-186
+hour	UO:0000032	324-328
+capecitabine	CHEBI:31348	241-253
+capecitabine	CHEBI:31348	366-378
+food	CHEBI:33290	394-398
+food	CHEBI:33290	426-430
+disease	DOID:4,OGMS:0000031	477-484
+Overall Number of Participants Analyzed: 251	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  8	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab Plus Capecitabine	Results	11
+capecitabine	CHEBI:31348	34-46
+Arm/Group Description: Participants received an IV infusion of trastuzumab 8 mg/kg on Day 1, followed by a 6 mg/kg infusion every 3 weeks. Participants also received capecitabine 2500 mg/m^2 per day (divided and administered orally twice daily, 12 hours apart), for 14 days, every 21 days. Capecitabine was taken with food or within 30 minutes after food. Participants received study medication until disease progression, unacceptable toxicity, or participant withdrawal.	Results	12
+day	UO:0000033	86-89
+day	UO:0000033	195-198
+day	UO:0000033	269-272
+day	UO:0000033	284-287
+capecitabine	CHEBI:31348	166-178
+capecitabine	CHEBI:31348	290-302
+food	CHEBI:33290	318-322
+food	CHEBI:33290	350-354
+disease	DOID:4,OGMS:0000031	401-408
+Overall Number of Participants Analyzed: 250	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  12	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 41/270 (15.19%)	Adverse Events	1
+Anaemia 1/270 (0.37%)	Adverse Events	2
+Leukopenia 0/270 (0.00%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 2/270 (0.74%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/270 (0.00%)	Adverse Events	5
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 1/270 (0.37%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Left ventricular dysfunction 0/270 (0.00%)	Adverse Events	7
+left	HP:0012835	0-4
+Abdominal pain 1/270 (0.37%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper 1/270 (0.37%)	Adverse Events	9
+abdominal pain	HP:0002027	0-14
+Colitis 0/270 (0.00%)	Adverse Events	10
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 2/270 (0.74%)	Adverse Events	11
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 4/270 (1.48%)	Adverse Events	12
+Dyspepsia 1/270 (0.37%)	Adverse Events	13
+dyspepsia	HP:0410281	0-9
+Adverse Events 2:	Adverse Events	14
+Total: 51/267 (19.10%)	Adverse Events	15
+Anaemia 1/267 (0.37%)	Adverse Events	16
+Leukopenia 1/267 (0.37%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 6/267 (2.25%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 1/267 (0.37%)	Adverse Events	19
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/267 (0.00%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Left ventricular dysfunction 2/267 (0.75%)	Adverse Events	21
+left	HP:0012835	0-4
+Abdominal pain 1/267 (0.37%)	Adverse Events	22
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper 0/267 (0.00%)	Adverse Events	23
+abdominal pain	HP:0002027	0-14
+Colitis 1/267 (0.37%)	Adverse Events	24
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 0/267 (0.00%)	Adverse Events	25
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 10/267 (3.75%)	Adverse Events	26
+Dyspepsia 0/267 (0.00%)	Adverse Events	27
+dyspepsia	HP:0410281	0-9

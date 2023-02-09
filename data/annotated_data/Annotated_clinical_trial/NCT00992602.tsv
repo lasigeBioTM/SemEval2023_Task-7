@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Liposomal Cytarabine, High-dose Methotrexate)	Intervention	1
+cytarabine	CHEBI:28680	21-31
+methotrexate	CHEBI:44185	43-55
+Induction phase: All patients receive 3 doses of High-Dose Methotrexate (HD-MTX) every 2 weeks given intravenously and 3 doses of Intrathecal (IT) Liposomal Cytarabine (Depocyt) every 2 weeks over 6 weeks.	Intervention	2
+methotrexate	CHEBI:44185	59-71
+cytarabine	CHEBI:28680	157-167
+Consolidation phase:	Intervention	3
+2 additional doses of HD-MTX every 2 weeks and IT-Depocyt every 2 weeks for 4 more weeks.	Intervention	4
+Maintenance phase:	Intervention	5
+Monthly doses of HD-MTX (up to 6 doses) and IT-Depocyt (up to 5 doses)	Intervention	6
+Patients must stop participation anytime MRI shows progressive disease or positive CSF cytology.	Intervention	7
+progressive	HP:0003676	51-62
+disease	DOID:4,OGMS:0000031	63-70
+Inclusion Criteria:	Eligibility	0
+Women who are not pregnant (contraception must be used throughout the study)	Eligibility	1
+Diagnosis of breast cancer with metastases to CNS (regardless of receptor status); leptomeningeal disease must be present with/without parenchymal brain involvement	Eligibility	2
+breast cancer	DOID:1612	13-26
+receptor	BAO:0000281	65-73
+disease	DOID:4,OGMS:0000031	98-105
+present	PATO:0000467	114-121
+brain	UBERON:0000955	147-152
+Able to provide informed consent	Eligibility	3
+No prior treatment with whole brain radiotherapy (WBRT); if patient received stereotactic radiosurgery (SRS) prior to enrollment it must be well documented which lesions were treated and untreated index lesions for follow up must be identified; no treatment with SRS will be permitted while on the study; CNS disease must be documented by MRI and CSF cytology	Eligibility	4
+brain	UBERON:0000955	30-35
+radiotherapy	OAE:0000235	36-48
+patient	HADO:0000008,OAE:0001817	60-67
+disease	DOID:4,OGMS:0000031	309-316
+Karnofsky Performance Status > 60	Eligibility	5
+White blood cells (WBC) >= 3.0 K	Eligibility	6
+blood	UBERON:0000178	6-11
+Absolute neutrophil count (ANC) >= 1.5 K	Eligibility	7
+Platelets (PLT) >= 100 K	Eligibility	8
+Hematocrit (HCT) >= 30%	Eligibility	9
+hematocrit	CMO:0000037	0-10
+Glomerular filtration rate (GFR) >= 60 mL/min	Eligibility	10
+glomerular filtration	GO:0003094	0-21
+rate	BAO:0080019	22-26
+Acceptable liver function (see exclusion criteria)	Eligibility	11
+liver	UBERON:0002107	11-16
+function	BAO:0003117,BFO:0000034	17-25
+Any ongoing therapy for systemic disease allows for the addition of systemic HD-MTX and IT Depocyt; in general patients receiving trastuzumab or lapatinib at the time of enrollment will be allowed to continue; bisphosphonates (i.e., zoledronic acid) and denosumab will be allowed; other non-CNS active chemotherapies might be allowed if no known interactions with study drugs are present; this must be reviewed and approved by the primary investigator on a case-by-case basis	Eligibility	12
+disease	DOID:4,OGMS:0000031	33-40
+lapatinib	CHEBI:49603	145-154
+time	PATO:0000165	162-166
+zoledronic acid	CHEBI:46557	233-248
+active	PATO:0002354	295-301
+present	PATO:0000467	380-387
+Mini-mental state examination score of 24 or above	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Serum bilirubin > 1.5 x the upper limit of reference range (ULRR)	Eligibility	15
+x	LABO:0000148	22-23
+range	LABO:0000114	53-58
+Serum creatinine > 1.5 x ULRR or creatinine clearance =< 60 mL/minute (calculated by Cockcroft-Gault formula)	Eligibility	16
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	33-43
+x	LABO:0000148	23-24
+creatinine clearance	CMO:0000765	33-53
+Potassium, < 3.7 mmol/L despite supplementation; serum calcium (ionized or adjusted for albumin,) or magnesium out of normal range despite supplementation	Eligibility	17
+calcium	CHEBI:22984,BAO:0000874	55-62
+range	LABO:0000114	125-130
+Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) > 2.5 x ULRR	Eligibility	18
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	34-43
+x	LABO:0000148	73-74
+Alkaline phosphatase (ALP) > 2.5 x ULRR or > 5 x ULRR if judged by the investigator to be related to liver metastases	Eligibility	19
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	33-34
+x	LABO:0000148	47-48
+liver	UBERON:0002107	101-106
+Evidence of severe or uncontrolled systemic disease or any concurrent condition which in the investigator's opinion makes it undesirable for the patient to participate in the trial or which would jeopardize compliance with the protocol	Eligibility	20
+severe	HP:0012828	12-18
+disease	DOID:4,OGMS:0000031	44-51
+condition	PDRO:0000129	70-79
+patient	HADO:0000008,OAE:0001817	145-152
+Patients with known pleural effusion or ascites	Eligibility	21
+pleural effusion	HP:0002202	20-36
+ascites	HP:0001541	40-47
+Prior treatment with whole brain radiotherapy (prior treatment with SRS is allowed under conditions provided in the inclusion criteria)	Eligibility	22
+brain	UBERON:0000955	27-32
+radiotherapy	OAE:0000235	33-45
+Previous allergic or adverse reaction to methotrexate or cytarabine	Eligibility	23
+methotrexate	CHEBI:44185	41-53
+cytarabine	CHEBI:28680	57-67
+Prior treatment with systemic HD-MTX, IT liposomal cytarabine, or IT therapy of any kind	Eligibility	24
+cytarabine	CHEBI:28680	51-61
+Prior IT therapy of any kind	Eligibility	25
+Women who are currently pregnant or breast feeding	Eligibility	26
+breast	UBERON:0000310	36-42
+Previous or current malignancies of other histologies within the last 5 years, with the exception of cervical carcinoma in situ and adequately treated basal cell or squamous cell carcinoma of the skin	Eligibility	27
+carcinoma	HP:0030731,DOID:305	110-119
+carcinoma	HP:0030731,DOID:305	179-188
+squamous cell carcinoma of the skin	HP:0006739	165-200
+Receipt of any investigational agents within 30 days prior to commencing study treatment	Eligibility	28
+Last dose of prior chemotherapy was less than 4 weeks before the start of study therapy; patients who had no toxicities with prior chemotherapy can start study treatment earlier than 4 weeks	Eligibility	29
+Stereotactic radiosurgery (SRS) less than 2 weeks before the start of study therapy	Eligibility	30
+Any unresolved toxicity greater than Common Terminology Criteria for Adverse Events (CTCAE) grade 1 from previous anti-cancer therapy	Eligibility	31
+Previous enrollment in the present study	Eligibility	32
+present	PATO:0000467	27-34
+Major surgery within 4 weeks prior to starting therapy, with the exception of the Ommaya reservoir which can be used for introduction of chemotherapy within 48-72 hours after placement	Eligibility	33
+surgery	OAE:0000067	6-13
+Outcome Measurement:	Results	0
+Survival Free of Neurological Progression, Measured in Weeks	Results	1
+Neurological progression defined by either clinical impression (measured by Karnofsky Performance Status), radiographical response (using Macdonald criteria), or cytologic response (measured by CSF cytology).	Results	2
+Time frame: Time from start of therapy, assessed up to 4 years	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	12-16
+Results 1:	Results	4
+Arm/Group Title: Treatment (Liposomal Cytarabine, High-dose Methotrexate)	Results	5
+cytarabine	CHEBI:28680	38-48
+methotrexate	CHEBI:44185	60-72
+Arm/Group Description: Induction phase: All patients receive 3 doses of High-Dose Methotrexate (HD-MTX) every 2 weeks given intravenously and 3 doses of Intrathecal (IT) Liposomal Cytarabine (Depocyt) every 2 weeks over 6 weeks.	Results	6
+methotrexate	CHEBI:44185	82-94
+cytarabine	CHEBI:28680	180-190
+Consolidation phase:	Results	7
+2 additional doses of HD-MTX every 2 weeks and IT-Depocyt every 2 weeks for 4 more weeks.	Results	8
+Maintenance phase:	Results	9
+Monthly doses of HD-MTX (up to 6 doses) and IT-Depocyt (up to 5 doses)	Results	10
+Patients must stop participation anytime MRI shows progressive disease or positive CSF cytology.	Results	11
+progressive	HP:0003676	51-62
+disease	DOID:4,OGMS:0000031	63-70
+Overall Number of Participants Analyzed: 3	Results	12
+Median (95% Confidence Interval)	Results	13
+median	BAO:0002174	0-6
+Unit of Measure: weeks  6        (-10.7 to 22.7)	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1

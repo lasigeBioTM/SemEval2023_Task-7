@@ -1,0 +1,245 @@
+INTERVENTION 1:	Intervention	0
+Phase I: Dasatinib 100mg/Trastuzumab 2mg/kg/Paclitaxel 80mg/m2	Intervention	1
+Cohort 1: Eligible patients were enrolled and treated with 4-week cycles of trastuzumab 2 mg/kg IV weekly (following a loading dose of 4 mg/kg in cycle 1) and paclitaxel 80 mg/m2 weekly x 3 weeks followed by a rest period of 7 days. Dasatinib 100mg was administered orally once daily (QD). Treatment was repeated on Day 1 of a 28-day cycle until radiographic or symptomatic progression or unacceptable toxicity occured. Only in the phase I, the first cycle lasted 38 days.	Intervention	2
+paclitaxel	CHEBI:45863	159-169
+x	LABO:0000148	166-167
+x	LABO:0000148	186-187
+x	LABO:0000148	404-405
+day	UO:0000033	227-230
+day	UO:0000033	316-319
+day	UO:0000033	330-333
+day	UO:0000033	467-470
+INTERVENTION 2:	Intervention	3
+Phase I: Dasatinib 140mg/Trastuzumab 2mg/kg/Paclitaxel 80mg/m2	Intervention	4
+Cohort 2: Eligible patients were enrolled and treated with 4-week cycles of trastuzumab 2 mg/kg IV weekly (following a loading dose of 4 mg/kg in cycle 1) and paclitaxel 80 mg/m2 weekly x 3 weeks followed by a rest period of 7 days. Dasatinib 140mg was administered orally once daily (QD). Treatment was repeated on Day 1 of a 28-day cycle until radiographic or symptomatic progression or unacceptable toxicity occured. Only in the phase I, the first cycle lasted 38 days.	Intervention	5
+paclitaxel	CHEBI:45863	159-169
+x	LABO:0000148	166-167
+x	LABO:0000148	186-187
+x	LABO:0000148	404-405
+day	UO:0000033	227-230
+day	UO:0000033	316-319
+day	UO:0000033	330-333
+day	UO:0000033	467-470
+Inclusion Criteria:	Eligibility	0
+Female with histologically confirmed breast cancer with documented metastasis.	Eligibility	1
+female	PATO:0000383	0-6
+breast cancer	DOID:1612	37-50
+Patients must have Human Epidermal Growth Factor Receptor 2 (HER2) overexpression by immunohistochemistry (3+, HercepTest®; DAKO) or a positive fluorescence in situ hybridization for HER2 amplification evaluated by central laboratory. It is recommended that a formalin-fixed paraffin embedded (FFPE) tumor tissue block from the metastatic site (or the primary tumor, if metastatic site not available) required for HER2 testing are provided.	Eligibility	2
+growth factor	BAO:0002024	35-48
+receptor	BAO:0000281	49-57
+immunohistochemistry	BAO:0000415	85-105
+dako	BAO:0000889	124-128
+central	HP:0030645	215-222
+tissue	UBERON:0000479	306-312
+site	BFO:0000029	339-343
+site	BFO:0000029	381-385
+Patients can have measurable or non measurable disease for the Phase I part. For the Phase II only patients with measurable disease defined per RECIST 1.1 will be included.	Eligibility	3
+disease	DOID:4,OGMS:0000031	47-54
+disease	DOID:4,OGMS:0000031	124-131
+Signed Written Informed Consent.	Eligibility	4
+Target Population:	Eligibility	5
+target	BAO:0003064	0-6
+Patients with Performance Status (ECOG) of 0 or 1.	Eligibility	6
+Number of previous therapies allowed or previous therapies may have included:	Eligibility	7
+Chemotherapy: no prior chemotherapy for MBC is permitted. Patients treated with adjuvant chemotherapy regimens based on taxanes are allowed to be included if they are fully recovered of any taxane associated toxicity and a minimum of 12 months have elapsed from the end of this therapy.	Eligibility	8
+adjuvant	CHEBI:60809	80-88
+taxane	CHEBI:36064	120-126
+taxane	CHEBI:36064	190-196
+Hormonal Therapy: patients may have had prior hormonal therapy. All hormonal agents must be discontinued at least 3 weeks prior to study entry.	Eligibility	9
+Radiation Therapy: patients may have had prior radiation therapy that has not exceeded 25% of the bone marrow reserve. A minimum of 21 days must have elapsed between the last dose of radiation and registration into the study. Patients must have recovered from any acute toxic effects from radiation prior to registration. Lesions that have been irradiated cannot be included as sites of measurable disease for the phase II unless clear tumor progression, according to RECIST criteria, has been documented in these lesions since the end of radiation therapy.	Eligibility	10
+bone marrow	UBERON:0002371	98-109
+acute	HP:0011009,PATO:0000389	264-269
+disease	DOID:4,OGMS:0000031	398-405
+Previous Surgery: previous surgery is permitted provided that wound healing has occurred.	Eligibility	11
+surgery	OAE:0000067	9-16
+surgery	OAE:0000067	27-34
+wound healing	GO:0042060	62-75
+Anti-HER2 Therapies: no prior anti-HER2 therapy for MBC is permitted. Patients treated with adjuvant anti-HER2 therapies (including but not limited to trastuzumab and lapatinib) are allowed to be included if a minimum of 12 months have elapsed from the end of this therapy.	Eligibility	12
+adjuvant	CHEBI:60809	92-100
+lapatinib	CHEBI:49603	167-176
+Adequate Organ Function (...).	Eligibility	13
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Ability to take oral medication (dasatinib must be swallowed whole).	Eligibility	14
+Concomitant Medications	Eligibility	15
+i) Patient agrees to discontinue St. Johns Wort while receiving dasatinib therapy (discontinue St. Johns Wort at least 5 days before starting dasatinib) ii) Biphosphonates must not be initiated within 28 days prior to study therapy	Eligibility	16
+patient	HADO:0000008,OAE:0001817	3-10
+Age and sex:	Eligibility	17
+age	PATO:0000011	0-3
+f) Patient, age 18 years old. g) Women of childbearing potential (WOCBP) must be using an adequate method of contraception to avoid pregnancy throughout the study and for at least 4 weeks after the last dose of study drug to minimize the risk of pregnancy. (...)	Eligibility	18
+f	UO:0000195	0-1
+f	UO:0000195	40-41
+f	UO:0000195	107-108
+f	UO:0000195	167-168
+f	UO:0000195	189-190
+f	UO:0000195	209-210
+f	UO:0000195	244-245
+patient	HADO:0000008,OAE:0001817	3-10
+age	PATO:0000011	12-15
+drug	CHEBI:23888	217-221
+Exclusion Criteria:	Eligibility	19
+Sex and reproductive status:	Eligibility	20
+WOCBP who are unwilling or unable to use an acceptable method to avoid pregnancy for the entire study period and for at least 4 weeks after the last dose of study drug	Eligibility	21
+drug	CHEBI:23888	163-167
+Women who are pregnant or breastfeeding.	Eligibility	22
+Women with a positive pregnancy test	Eligibility	23
+Target Disease Exceptions:	Eligibility	24
+target	BAO:0003064	0-6
+disease	DOID:4,OGMS:0000031	7-14
+a) Central nervous system (CNS) metastases which are not well controlled. Eligible patients must be asymptomatic, cannot be receiving steroids or anticancer treatment, and must be enrolled at least 1 month after the end of the radiotherapy treatment	Eligibility	25
+central nervous system	UBERON:0001017	3-25
+month	UO:0000035	200-205
+radiotherapy	OAE:0000235	227-239
+Medical History and Concurrent Diseases	Eligibility	26
+history	BFO:0000182	8-15
+No malignancy [other than the one treated in this study] which required radiotherapy or systemic treatment within the past 5 years.	Eligibility	27
+radiotherapy	OAE:0000235	72-84
+Concurrent medical condition which may increase the risk of toxicity, including: Pleural or pericardial effusion of any grade.	Eligibility	28
+condition	PDRO:0000129	19-28
+increase	BAO:0001251	39-47
+pericardial effusion	HP:0001698,DOID:118	92-112
+Cardiac Symptoms; any of the following should be considered for exclusion:	Eligibility	29
+i) Uncontrolled angina, congestive heart failure or myocardial infarction (MI) within (6 months) ii). Patients with intercurrent cardiac dysfunction or left ventricular ejection fraction (LVEF) < 50%.	Eligibility	30
+congestive heart failure	HP:0001635,DOID:6000	24-48
+myocardial infarction	HP:0001658,DOID:5844	52-73
+left	HP:0012835	152-156
+ejection fraction	CMO:0000180	169-186
+iii) Diagnosed congenital long QT syndrome. iv) Any history of clinically significant ventricular arrhythmias (such as ventricular tachycardia, ventricular fibrillation, or Torsades de pointes).	Eligibility	31
+long qt syndrome	DOID:2843	26-42
+history	BFO:0000182	52-59
+ventricular tachycardia	HP:0004756	119-142
+ventricular fibrillation	HP:0001663	144-168
+v) Prolonged corrected QT (QTc) interval on pre-entry electrocardiogram (450 msec).	Eligibility	32
+prolonged	HP:0025297	3-12
+vi) Patients with hypokalemia or hypomagnesemia if it cannot be corrected prior to dasatinib administration.	Eligibility	33
+hypokalemia	HP:0002900,DOID:4500	18-29
+hypomagnesemia	HP:0002917	33-47
+d) History of significant bleeding disorder unrelated to cancer, including: i) Diagnosed congenital bleeding disorders (e.g., von Willebrand's disease). ii) Diagnosed acquired bleeding disorder within one year (e.g., acquired anti-factor VIII antibodies).	Eligibility	34
+history	BFO:0000182	3-10
+disorder	OGMS:0000045	35-43
+disorder	OGMS:0000045	109-117
+disorder	OGMS:0000045	185-193
+cancer	DOID:162	57-63
+disease	DOID:4,OGMS:0000031	143-150
+year	UO:0000036	205-209
+iii) Ongoing or recent ( 3 months) significant gastrointestinal bleeding.	Eligibility	35
+Allergies and Adverse Drug Reactions	Eligibility	36
+drug	CHEBI:23888	22-26
+a) Patients with known allergy to any of the study drugs or their components.	Eligibility	37
+allergy	HP:0012393	23-30
+Prohibited Treatments and/or Therapies	Eligibility	38
+a) Category I drugs that are generally accepted to have a risk of causing Torsades de Pointes including: (Patients must discontinue drug 7 days prior to starting dasatinib) i) quinidine, procainamide, disopyramide ii) amiodarone, sotalol, ibutilide, dofetilide iii) erythromycin, clarithromycin iv) chlorpromazine, haloperidol, mesoridazine, thioridazine, pimozide v) cisapride, bepridil, droperidol, methadone, arsenic, chloroquine, domperidone, halofantrine, levomethadyl, pentamidine, sparfloxacin, lidoflazine.	Eligibility	39
+drug	CHEBI:23888	14-18
+drug	CHEBI:23888	132-136
+quinidine	CHEBI:28593,BAO:0000797	176-185
+procainamide	CHEBI:8428	187-199
+disopyramide	CHEBI:4657	201-213
+amiodarone	CHEBI:2663	218-228
+sotalol	CHEBI:63622	230-237
+ibutilide	CHEBI:5856	239-248
+dofetilide	CHEBI:4681	250-260
+erythromycin	CHEBI:42355	266-278
+clarithromycin	CHEBI:3732	280-294
+chlorpromazine	CHEBI:3647	299-313
+haloperidol	CHEBI:5613	315-326
+mesoridazine	CHEBI:6780	328-340
+thioridazine	CHEBI:9566	342-354
+pimozide	CHEBI:8212	356-364
+cisapride	CHEBI:3720	368-377
+bepridil	CHEBI:3061	379-387
+droperidol	CHEBI:4717	389-399
+methadone	CHEBI:6807	401-410
+chloroquine	CHEBI:3638	421-432
+domperidone	CHEBI:31515	434-445
+halofantrine	CHEBI:5612	447-459
+pentamidine	CHEBI:45081	475-486
+sparfloxacin	CHEBI:9212	488-500
+b) Concurrent anti-cancer therapy c) Potent CYP3A4 inhibitors	Eligibility	40
+Other exclusion criteria:	Eligibility	41
+Patients who are compulsorily detained for treatment of either a psychiatric or physical (eg, infectious disease) illness.	Eligibility	42
+disease	DOID:4,OGMS:0000031	105-112
+Patients with active or uncontrolled infections or with serious illnesses or medical conditions that would not permit the patient to be managed according to the protocol.	Eligibility	43
+active	PATO:0002354	14-20
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	122-129
+Patients unable or unwilling to give written informed consent prior to study participation.	Eligibility	44
+Pre-existent motor or sensory neurotoxicity of severity  grade 2 according to NCI common toxicity criteria (version 4.03).	Eligibility	45
+severity	HP:0012824	47-55
+Outcome Measurement:	Results	0
+Number of Participants With Dose Limiting Toxicity (DLT) Within the First Cycle of Dasatinib in Combination With Trastuzumab and Paclitaxel (Phase I)	Results	1
+paclitaxel	CHEBI:45863	129-139
+DLT was defined as the occurrence of any of the following adverse events or abnormal laboratory value (graded according to the NCI Common Terminology Criteria for Adverse Events (CTCAE) version 4.03), assessed as possibly, probably or definitively related to study drugs, occurring within the first cycle of study treatment: Need of any dose modification within the first cycle due to toxicity, grade 3 or 4 neutropenia complicated with fever 38.5° C or infection, grade 4 neutropenia (absolute neutrophil count (ANC)<0.5x1000000000/L) of at least 7 days duration, grade 3 thrombocytopenia complicated by hemorrhage, grade 4 thrombocytopenia, any grade 4 non-hematologic toxicity, grade 3 non-hematologic toxicities except nausea, vomiting, or diarrhea that can be controlled by appropriate medical intervention or prophylaxis, inability to resume dosing for cycle 2 at the current dose level within 14 days due to treatment related toxicity.	Results	2
+neutropenia	HP:0001875,DOID:1227	408-419
+neutropenia	HP:0001875,DOID:1227	473-484
+fever	HP:0001945	437-442
+duration	PATO:0001309	555-563
+thrombocytopenia	HP:0001873,DOID:1588	573-589
+thrombocytopenia	HP:0001873,DOID:1588	625-641
+nausea	HP:0002018	723-729
+vomiting	HP:0002013	731-739
+diarrhea	HP:0002014,DOID:13250	744-752
+medical intervention	OAE:0000002	791-811
+Time frame: Up to cycle 1	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase I: Dasatinib 100mg/Trastuzumab 2mg/kg/Paclitaxel 80mg/m2	Results	5
+Arm/Group Description: Cohort 1: Eligible patients were enrolled and treated with 4-week cycles of trastuzumab 2 mg/kg IV weekly (following a loading dose of 4 mg/kg in cycle 1) and paclitaxel 80 mg/m2 weekly x 3 weeks followed by a rest period of 7 days. Dasatinib 100mg was administered orally once daily (QD). Treatment was repeated on Day 1 of a 28-day cycle until radiographic or symptomatic progression or unacceptable toxicity occured. Only in the phase I, the first cycle lasted 38 days.	Results	6
+paclitaxel	CHEBI:45863	182-192
+x	LABO:0000148	189-190
+x	LABO:0000148	209-210
+x	LABO:0000148	427-428
+day	UO:0000033	250-253
+day	UO:0000033	339-342
+day	UO:0000033	353-356
+day	UO:0000033	490-493
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  1  16.7%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Phase I: Dasatinib 140mg/Trastuzumab 2mg/kg/Paclitaxel 80mg/m2	Results	11
+Arm/Group Description: Cohort 2: Eligible patients were enrolled and treated with 4-week cycles of trastuzumab 2 mg/kg IV weekly (following a loading dose of 4 mg/kg in cycle 1) and paclitaxel 80 mg/m2 weekly x 3 weeks followed by a rest period of 7 days. Dasatinib 140mg was administered orally once daily (QD). Treatment was repeated on Day 1 of a 28-day cycle until radiographic or symptomatic progression or unacceptable toxicity occured. Only in the phase I, the first cycle lasted 38 days.	Results	12
+paclitaxel	CHEBI:45863	182-192
+x	LABO:0000148	189-190
+x	LABO:0000148	209-210
+x	LABO:0000148	427-428
+day	UO:0000033	250-253
+day	UO:0000033	339-342
+day	UO:0000033	353-356
+day	UO:0000033	490-493
+Overall Number of Participants Analyzed: 4	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  2  50.0%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/6 (16.67%)	Adverse Events	1
+Angina *  [1]0/6 (0.00%)	Adverse Events	2
+Diarrhea *  [2]1/6 (16.67%)	Adverse Events	3
+diarrhea	HP:0002014,DOID:13250	0-8
+Sudden death *  [3]0/6 (0.00%)	Adverse Events	4
+sudden death	HP:0001699	0-12
+Soft tissue and skin infection *  [2]0/6 (0.00%)	Adverse Events	5
+tissue	UBERON:0000479	5-11
+Catheter related infection *  [1]0/6 (0.00%)	Adverse Events	6
+Overdose *  [4]0/6 (0.00%)	Adverse Events	7
+Dyspnea *  [2]0/6 (0.00%)	Adverse Events	8
+dyspnea	HP:0002094	0-7
+Pneumonitis *  [2]0/6 (0.00%)	Adverse Events	9
+Febrile syndrome respiratory focus *  [5]0/6 (0.00%)	Adverse Events	10
+syndrome	DOID:225	8-16
+focus	PATO:0001516	29-34
+Adverse Events 2:	Adverse Events	11
+Total: 2/4 (50.00%)	Adverse Events	12
+Angina *  [1]0/4 (0.00%)	Adverse Events	13
+Diarrhea *  [2]0/4 (0.00%)	Adverse Events	14
+diarrhea	HP:0002014,DOID:13250	0-8
+Sudden death *  [3]0/4 (0.00%)	Adverse Events	15
+sudden death	HP:0001699	0-12
+Soft tissue and skin infection *  [2]0/4 (0.00%)	Adverse Events	16
+tissue	UBERON:0000479	5-11
+Catheter related infection *  [1]0/4 (0.00%)	Adverse Events	17
+Overdose *  [4]0/4 (0.00%)	Adverse Events	18
+Dyspnea *  [2]1/4 (25.00%)	Adverse Events	19
+dyspnea	HP:0002094	0-7
+Pneumonitis *  [2]1/4 (25.00%)	Adverse Events	20
+Febrile syndrome respiratory focus *  [5]0/4 (0.00%)	Adverse Events	21
+syndrome	DOID:225	8-16
+focus	PATO:0001516	29-34

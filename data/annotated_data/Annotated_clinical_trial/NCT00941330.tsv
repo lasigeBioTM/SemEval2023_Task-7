@@ -1,0 +1,153 @@
+INTERVENTION 1:	Intervention	0
+A: Exemestane	Intervention	1
+exemestane	CHEBI:4953	3-13
+ARM A: Patients will be treated with exemestane.	Intervention	2
+exemestane	CHEBI:4953	37-47
+Exemestane: 25 mg daily by mouth for 6 to 12 months.	Intervention	3
+exemestane	CHEBI:4953	0-10
+mouth	UBERON:0000165	27-32
+INTERVENTION 2:	Intervention	4
+B: Docetaxel and Cytoxan	Intervention	5
+ARM B: Patients will be treated with docetaxel and cytoxan.	Intervention	6
+Docetaxel: Docetaxel (75 mg/m²) into a vein once every 3 weeks for 6 cycles (6 times in about 24 weeks).	Intervention	7
+vein	UBERON:0001638	39-43
+Cytoxan: Cytoxan (600 mg/m²) into a vein once every 3 weeks for 6 cycles (6 times in about 24 weeks).	Intervention	8
+vein	UBERON:0001638	36-40
+Inclusion Criteria:	Eligibility	0
+Signed informed consent.	Eligibility	1
+Histologically or cytologically confirmed breast carcinoma.	Eligibility	2
+breast carcinoma	HP:0003002,DOID:3459	42-58
+Early stage breast cancer (T1c-3, clinically node-negative-3 [cN0-3], CM0).	Eligibility	3
+breast cancer	DOID:1612	12-25
+Pre-treatment biopsy with the following characteristics:	Eligibility	4
+Hormone receptor-positive cancer as defined as ER and/or progesterone receptor (PR)-positive by standard immunohistochemistry (IHC)	Eligibility	5
+hormone	CHEBI:24621	0-7
+cancer	DOID:162	26-32
+progesterone	CHEBI:17026	57-69
+receptor	BAO:0000281	8-16
+receptor	BAO:0000281	70-78
+immunohistochemistry	BAO:0000415	105-125
+HER2-negative (HER2  2 by IHC; if HER2 2+ by IHC must be fluorescent in situ hybridization [FISH] non-amplified)	Eligibility	6
+Recurrence score < 25 using Oncotype DX 21-gene recurrence score assay	Eligibility	7
+Patients must have measurable disease as defined by palpable lesion with both diameters  1 cm measurable with caliper or a positive mammogram or ultrasound with at least one dimension  1 cm. Screening mammogram of the contralateral breast must be performed within past 12 months per standard practice guidelines. Clip placement is required for study entry.	Eligibility	8
+disease	DOID:4,OGMS:0000031	30-37
+breast	UBERON:0000310	232-238
+Baseline measurements of the indicator lesions must be recorded on the Patient Registration Form. To be valid for baseline, the measurements must have been made within 14 days of study enrollment if palpable. If not palpable, a mammogram or MRI must be done within 14 days. If palpable, a diagnostic mammogram of the affected breast or MRI must be done within 2 months prior to study enrollment, defined as date of signed, informed consent. If clinically indicated, staging xrays and scans must be done within 28 days of study entry.	Eligibility	9
+indicator	CHEBI:47867	29-38
+patient	HADO:0000008,OAE:0001817	71-78
+affected	HP:0032320	317-325
+breast	UBERON:0000310	326-332
+Eastern Cooperative Oncology Group (ECOG) performance status 0 to 2.	Eligibility	10
+group	CHEBI:24433	29-34
+Adequate organ function within 14 days of study entry:	Eligibility	11
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Bone marrow function: absolute neutrophil count (ANC)  1500/mm³, Hgb > 8.0 g/dl and platelet count  100,000/mm³.	Eligibility	12
+bone marrow	UBERON:0002371	0-11
+function	BAO:0003117,BFO:0000034	12-20
+platelet count	CMO:0000029	84-98
+Hepatic function: total bilirubin < upper limit of normal (ULN). Serum glutamic oxaloacetic transaminase (SGOT) (AST) or serum glutamic pyruvic transaminase (SGPT) (ALT) and alkaline phosphatase  1.5 x ULN).	Eligibility	13
+function	BAO:0003117,BFO:0000034	8-16
+phosphatase	GO:0016791,BAO:0000295	183-194
+x	LABO:0000148	81-82
+x	LABO:0000148	200-201
+Renal function: calculated creatinine clearance (CrCl)  30 mL/min using the Cockcroft Gault equation.	Eligibility	14
+function	BAO:0003117,BFO:0000034	6-14
+creatinine clearance	CMO:0000765	27-47
+Patients must be at least 18 years of age.	Eligibility	15
+age	PATO:0000011	38-41
+Exclusion Criteria:	Eligibility	16
+Evidence of disease outside the breast or chest wall, except ipsilateral axillary or internal mammary lymph nodes.	Eligibility	17
+disease	DOID:4,OGMS:0000031	12-19
+breast	UBERON:0000310	32-38
+chest	UBERON:0001443	42-47
+lymph	UBERON:0002391	102-107
+Prior chemotherapy, hormonal therapy, biologic therapy or radiation therapy for breast cancer.	Eligibility	18
+breast cancer	DOID:1612	80-93
+Pregnant or lactating women are not eligible. Women of childbearing potential must have a negative serum pregnancy test completed within 7 days of study entry, and use an appropriate form of birth control throughout the trial period.	Eligibility	19
+Medical, psychological or surgical condition which the investigator feels might compromise study participation.	Eligibility	20
+condition	PDRO:0000129	35-44
+Patients with history within the last 5 years of previous or current malignancy at other sites with the exception of adequately treated carcinoma in-situ of the cervix or basal or squamous cell carcinoma of the skin. Patients with a history of other malignancies who remain disease free for greater than five years are eligible.	Eligibility	21
+history	BFO:0000182	14-21
+history	BFO:0000182	233-240
+carcinoma	HP:0030731,DOID:305	136-145
+carcinoma	HP:0030731,DOID:305	194-203
+squamous cell carcinoma of the skin	HP:0006739	180-215
+disease	DOID:4,OGMS:0000031	274-281
+Evidence of peripheral or sensory neuropathy.	Eligibility	22
+peripheral	HP:0030646	12-22
+sensory neuropathy	HP:0000763,DOID:2491	26-44
+Patients with a history of severe hypersensitivity reaction to docetaxel or other drugs formulated with polysorbate 80 are excluded from participation.	Eligibility	23
+history	BFO:0000182	16-23
+severe	HP:0012828	27-33
+hypersensitivity	GO:0002524,DOID:1205	34-50
+polysorbate 80	CHEBI:53426	104-118
+excluded	HP:0040285	123-131
+Serious, uncontrolled, concurrent infection(s).	Eligibility	24
+Clinically significant cardiac disease (e.g. congestive heart failure, symptomatic coronary artery disease and cardiac arrhythmias not well controlled with medication) or myocardial infarction within the last 12 months prior to study entry.	Eligibility	25
+disease	DOID:4,OGMS:0000031	31-38
+disease	DOID:4,OGMS:0000031	99-106
+congestive heart failure	HP:0001635,DOID:6000	45-69
+coronary artery disease	DOID:3393	83-106
+myocardial infarction	HP:0001658,DOID:5844	171-192
+Major surgery within 28 days of study entry.	Eligibility	26
+surgery	OAE:0000067	6-13
+Evidence of central nervous system (CNS) metastases.	Eligibility	27
+central nervous system	UBERON:0001017	12-34
+Outcome Measurement:	Results	0
+Pathologic Complete Response	Results	1
+Patients must have measurable disease by clinical examination.	Results	2
+disease	DOID:4,OGMS:0000031	30-37
+Pathologic complete response (pCR): Absence of invasive breast cancer in the breast (mastectomy or lumpectomy) specimen at the time of definitive surgery. Presence of in situ cancer alone will be considered a pCR but may be recorded separately.	Results	3
+breast cancer	DOID:1612	56-69
+breast	UBERON:0000310	56-62
+breast	UBERON:0000310	77-83
+time	PATO:0000165	127-131
+surgery	OAE:0000067	146-153
+cancer	DOID:162	63-69
+cancer	DOID:162	175-181
+If pathologic stage was the same as clinical stage, it was called stable; if it was higher, upstaged (worse outcome); if lower, downstaged (better outcome). Pathologic stage was determined by Emory board-certified pathologists.	Results	4
+stable	HP:0031915	66-72
+Time frame: At time of definitive surgery	Results	5
+time	PATO:0000165	0-4
+time	PATO:0000165	15-19
+surgery	OAE:0000067	34-41
+Results 1:	Results	6
+Arm/Group Title: A: Exemestane	Results	7
+exemestane	CHEBI:4953	20-30
+Arm/Group Description: ARM A: Patients will be treated with exemestane.	Results	8
+exemestane	CHEBI:4953	60-70
+Exemestane: 25 mg daily by mouth for 6 to 12 months.	Results	9
+exemestane	CHEBI:4953	0-10
+mouth	UBERON:0000165	27-32
+Overall Number of Participants Analyzed: 14	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  Downstaged: 5  35.7%	Results	12
+Stable: 4  28.6%	Results	13
+stable	HP:0031915	0-6
+Upstaged: 5  35.7%	Results	14
+Results 2:	Results	15
+Arm/Group Title: B: Docetaxel and Cytoxan	Results	16
+Arm/Group Description: ARM B: Patients will be treated with docetaxel and cytoxan.	Results	17
+Docetaxel: Docetaxel (75 mg/m ) into a vein once every 3 weeks for 6 cycles (6 times in about 24 weeks).	Results	18
+vein	UBERON:0001638	39-43
+Cytoxan: Cytoxan (600 mg/m ) into a vein once every 3 weeks for 6 cycles (6 times in about 24 weeks).	Results	19
+vein	UBERON:0001638	36-40
+Overall Number of Participants Analyzed: 8	Results	20
+Measure Type: Count of Participants	Results	21
+Unit of Measure: Participants  Downstaged: 1  12.5%	Results	22
+Stable: 2  25.0%	Results	23
+stable	HP:0031915	0-6
+Upstaged: 5  62.5%	Results	24
+Adverse Events 1:	Adverse Events	0
+Total: 0/15 (0.00%)	Adverse Events	1
+Gastroenteritis and Severe Diarrhea *0/15 (0.00%)	Adverse Events	2
+gastroenteritis	DOID:2326	0-15
+severe	HP:0012828	20-26
+diarrhea	HP:0002014,DOID:13250	27-35
+Adverse Events 2:	Adverse Events	3
+Total: 1/11 (9.09%)	Adverse Events	4
+Gastroenteritis and Severe Diarrhea *1/11 (9.09%)	Adverse Events	5
+gastroenteritis	DOID:2326	0-15
+severe	HP:0012828	20-26
+diarrhea	HP:0002014,DOID:13250	27-35

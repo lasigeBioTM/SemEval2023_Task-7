@@ -1,0 +1,84 @@
+INTERVENTION 1:	Intervention	0
+Conventional Photon Plan	Intervention	1
+photon	CHEBI:30212	13-19
+Photon: 50.4 Gray (Gy) to the breast/chest wall and peripheral lymph nodes at 1.8 Gy per fraction	Intervention	2
+photon	CHEBI:30212	0-6
+peripheral	HP:0030646	52-62
+lymph	UBERON:0002391	63-68
+INTERVENTION 2:	Intervention	3
+3D-Proton/Conventional Plan or 3D-proton Only	Intervention	4
+3D-Proton/Conventional plan or 3D-proton only: 50.4 Cobalt Gray Equivalent (CGE)/Gray (Gy) to the breast/chest wall and peripheral lymph nodes at 1.8 CGE/Gy per fraction	Intervention	5
+peripheral	HP:0030646	120-130
+lymph	UBERON:0002391	131-136
+Inclusion Criteria:	Eligibility	0
+Pathologically confirmed invasive adenocarcinoma of the breast stage I-III (TX, T0-4, N0-3) with medially located tumor and/or axillary node invasion.	Eligibility	1
+adenocarcinoma	DOID:299	34-48
+breast	UBERON:0000310	56-62
+Patients must have undergone either mastectomy or breast conservation surgery.	Eligibility	2
+breast	UBERON:0000310	50-56
+surgery	OAE:0000067	70-77
+Patients are required to have axillary staging which can include sentinel node biopsy alone if sentinel node is negative.	Eligibility	3
+Patient must require peripheral lymph node radiation per physician discretion.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+peripheral	HP:0030646	21-31
+lymph	UBERON:0002391	32-37
+Exclusion Criteria:	Eligibility	5
+Evidence of distant metastasis (M1).	Eligibility	6
+m1	CHEBI:34826	32-34
+Prior radiotherapy to the area of interest.	Eligibility	7
+radiotherapy	OAE:0000235	6-18
+area	PATO:0001323	26-30
+Prior history of cardiovascular disease per physician discretion.	Eligibility	8
+history	BFO:0000182	6-13
+disease	DOID:4,OGMS:0000031	32-39
+Prior or concurrent cancer other than non-melanomatous skin cancer unless disease free for at least 5 years.	Eligibility	9
+cancer	DOID:162	20-26
+cancer	DOID:162	60-66
+skin cancer	DOID:4159	55-66
+disease	DOID:4,OGMS:0000031	74-81
+Collagen vascular disease, specifically dermatomyositis with a CPK level above normal or with an active skin rash, systemic lupus erythematosis or scleroderma.	Eligibility	10
+collagen	CHEBI:3815	0-8
+vascular disease	DOID:178	9-25
+dermatomyositis	DOID:10223	40-55
+active	PATO:0002354	97-103
+skin rash	HP:0000988	104-113
+scleroderma	HP:0100324,DOID:419,DOID:418	147-158
+Outcome Measurement:	Results	0
+Volume of Heart Receiving  5 Gray (Gy)/Cobalt Gray Equivalent (CGE)	Results	1
+volume	PATO:0000918	0-6
+heart	UBERON:0000948	10-15
+A reduction of 50% in heart volume exposed to radiation doses  5 Gy/CGE was considered preferred outcome in this study plan.	Results	2
+heart	UBERON:0000948	22-27
+volume	PATO:0000918	28-34
+Time frame: 2 weeks prior to starting radiation therapy.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Conventional Photon Plan	Results	5
+photon	CHEBI:30212	30-36
+Arm/Group Description: Photon: 50.4 Gray (Gy) to the breast/chest wall and peripheral lymph nodes at 1.8 Gy per fraction	Results	6
+photon	CHEBI:30212	23-29
+peripheral	HP:0030646	75-85
+lymph	UBERON:0002391	86-91
+Overall Number of Participants Analyzed: 18	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: % of heart receiving >= 5 Gray (Gy)  34.7        (6.9 to 60.0)	Results	9
+heart	UBERON:0000948	22-27
+Results 2:	Results	10
+Arm/Group Title: 3D-Proton/Conventional Plan or 3D-proton Only	Results	11
+Arm/Group Description: 3D-Proton/Conventional plan or 3D-proton only: 50.4 Cobalt Gray Equivalent (CGE)/Gray (Gy) to the breast/chest wall and peripheral lymph nodes at 1.8 CGE/Gy per fraction	Results	12
+peripheral	HP:0030646	143-153
+lymph	UBERON:0002391	154-159
+Overall Number of Participants Analyzed: 18	Results	13
+Median (Full Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: % of heart receiving >= 5 Gray (Gy)  2.7        (0.1 to 12.3)	Results	15
+heart	UBERON:0000948	22-27
+Adverse Events 1:	Adverse Events	0
+Total: 6/18 (33.33%)	Adverse Events	1
+Skin infection  [1]2/18 (11.11%)	Adverse Events	2
+Radiation dermatitis 2 [1]4/18 (22.22%)	Adverse Events	3
+dermatitis	DOID:2723	10-20
+Adverse Events 2:	Adverse Events	4

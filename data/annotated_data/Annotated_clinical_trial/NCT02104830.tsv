@@ -1,0 +1,146 @@
+INTERVENTION 1:	Intervention	0
+Empegfilgrastim 6 mg	Intervention	1
+Patients will receive a single administration of empegfilgrastim at a dose of 6 mg subcutaneously , 24 h after the chemotherapy	Intervention	2
+Placebo №2: Placebo №2 should be administered no earlier than 24 hours after the administration of cytotoxic chemotherapy. Placebo №2 is supplied as solution for injection 0.0083 ml/kg.	Intervention	3
+solution	CHEBI:75958	149-157
+INTERVENTION 2:	Intervention	4
+Empegfilgrastim 7.5 mg	Intervention	5
+Patients will receive a single administration of empegfilgrastim at a dose of 7.5 mg subcutaneously, 24 h after the chemotherapy	Intervention	6
+Placebo №2: Placebo №2 should be administered no earlier than 24 hours after the administration of cytotoxic chemotherapy. Placebo №2 is supplied as solution for injection 0.0083 ml/kg.	Intervention	7
+solution	CHEBI:75958	149-157
+Inclusion Criteria:	Eligibility	0
+Signed informed consent form;	Eligibility	1
+Histologically verified diagnosis of stage IIb/III/IV breast cancer;	Eligibility	2
+breast cancer	DOID:1612	54-67
+Age of 18-70 years inclusive;	Eligibility	3
+age	PATO:0000011	0-3
+Life expectancy of at least 6 months after inclusion in the study;	Eligibility	4
+If the patient had received the chemotherapy for breast cancer, it should be finished 30 days before the beginning of the study;	Eligibility	5
+patient	HADO:0000008,OAE:0001817	7-14
+breast cancer	DOID:1612	49-62
+ECOG Performance Status of 0- 2, not increasing within during 2 weeks before randomization;	Eligibility	6
+ANC level of 1500/μL and more at the beginning of the study	Eligibility	7
+Platelet count of 100 000/μL and more at the beginning of the study	Eligibility	8
+platelet count	CMO:0000029	0-14
+Hemoglobin level of 90 g/l and more	Eligibility	9
+hemoglobin	CHEBI:35143	0-10
+Creatinine level <1.5 mg/dl	Eligibility	10
+creatinine	CHEBI:16737	0-10
+Total bilirubin level <1.5 × the upper limit of normal (ULN)	Eligibility	11
+ALT and/or AST levels <2.5×ULN (5×ULN for patients with liver metastases);	Eligibility	12
+liver	UBERON:0002107	56-61
+Alkaline phosphatase <5×ULN;	Eligibility	13
+phosphatase	GO:0016791,BAO:0000295	9-20
+Left ventricular ejection fraction >50% and more;	Eligibility	14
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+If the patient had received adjuvant and/or neoadjuvant therapy, the cumulative dose of anthracyclines should not exceed 250 mg/m2 for doxorubicin or 540 mg/m2 for epirubicin,if in this study planned 6 cycles of chemotherapy ;	Eligibility	15
+patient	HADO:0000008,OAE:0001817	7-14
+adjuvant	CHEBI:60809	28-36
+adjuvant	CHEBI:60809	47-55
+doxorubicin	CHEBI:28748,BAO:0000639	135-146
+If the patient had received adjuvant and/or neoadjuvant therapy, the cumulative dose of anthracyclines should not exceed 350 mg/m2 for doxorubicin or 660 mg/m2 for epirubicin,if in this study planned 4 cycles of chemotherapy ;	Eligibility	16
+patient	HADO:0000008,OAE:0001817	7-14
+adjuvant	CHEBI:60809	28-36
+adjuvant	CHEBI:60809	47-55
+doxorubicin	CHEBI:28748,BAO:0000639	135-146
+Ability of the participant to follow the protocol requirements, according to the Investigator's opinion;	Eligibility	17
+Patients of childbearing potential must implement reliable contraceptive measures during the study treatment, starting 4 weeks prior randomization and for 6 months after the last administration of the study drug;	Eligibility	18
+drug	CHEBI:23888	207-211
+Patients should be able to follow the Protocol procedures (according to Investigator's assessment.	Eligibility	19
+Exclusion Criteria:	Eligibility	20
+Patient has received two or more chemotherapy regimens for the metastatic breast cancer;	Eligibility	21
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	74-87
+Documented hypersensitivity to filgrastim, pegfilgrastim, docetaxel, doxorubicin, dexamethasone and/or its excipients, PEGylated drugs, recombinant proteins.	Eligibility	22
+hypersensitivity	GO:0002524,DOID:1205	11-27
+doxorubicin	CHEBI:28748,BAO:0000639	69-80
+dexamethasone	CHEBI:41879	82-95
+Pregnancy or breastfeeding;	Eligibility	23
+Systemic antibiotic therapy within 72 h prior empegfilgrastim/filgrastim administration;	Eligibility	24
+Concomitant radiotherapy (except selective radiotherapy of bone metastases);	Eligibility	25
+radiotherapy	OAE:0000235	12-24
+radiotherapy	OAE:0000235	43-55
+Surgery, radiotherapy (except selective radiotherapy of bone metastases), administration of any experimental drugs within 30 days prior randomization;	Eligibility	26
+surgery	OAE:0000067	0-7
+radiotherapy	OAE:0000235	9-21
+radiotherapy	OAE:0000235	40-52
+History of bone marrow/stem cell transplantation;	Eligibility	27
+history	BFO:0000182	0-7
+Conditions limiting the patient's ability to follow the protocol;	Eligibility	28
+patient	HADO:0000008,OAE:0001817	24-31
+CTCAE grade 3-4 neuropathy;	Eligibility	29
+neuropathy	DOID:870	16-26
+HIV, HCV, HBV, T.Pallidum infection(s);	Eligibility	30
+Acute or active chronic infections;	Eligibility	31
+acute	HP:0011009,PATO:0000389	0-5
+active	PATO:0002354	9-15
+chronic	HP:0011010	16-23
+Severe concurrent diseases (for example, severe arterial hypertension, severe heart failure, and other);	Eligibility	32
+severe	HP:0012828	0-6
+severe	HP:0012828	41-47
+severe	HP:0012828	71-77
+hypertension	HP:0000822,DOID:10763	57-69
+heart	UBERON:0000948	78-83
+Severe depression, schizophrenia, any other mental disorders;	Eligibility	33
+severe	HP:0012828	0-6
+depression	HP:0000716	7-17
+schizophrenia	HP:0100753,DOID:5419	19-32
+Obstacles in intravenous administration of study drugs;	Eligibility	34
+Simultaneous participation in other clinical trials, previous participation in other clinical trials within 30 days before entering into the trial, previous participation in the same trial.	Eligibility	35
+Outcome Measurement:	Results	0
+Duration of Neutropenia CTCAE Grade 4	Results	1
+duration	PATO:0001309	0-8
+neutropenia	HP:0001875,DOID:1227	12-23
+The primary endpoint, which will allow to compare the efficacy of the single dose of Extimia® versus nonpegylated daily filgrastim is the number of breast cancer patients developing CTCAE grade 3/4 neutropenia after the first AT chemotherapy cycle (doxorubicin+docetaxel).	Results	2
+efficacy	BAO:0000656	54-62
+breast cancer	DOID:1612	148-161
+neutropenia	HP:0001875,DOID:1227	198-209
+Time frame: 3 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Empegfilgrastim 6 mg	Results	5
+Arm/Group Description: Patients will receive a single administration of empegfilgrastim at a dose of 6 mg subcutaneously , 24 h after the chemotherapy	Results	6
+Placebo №2: Placebo №2 should be administered no earlier than 24 hours after the administration of cytotoxic chemotherapy. Placebo №2 is supplied as solution for injection 0.0083 ml/kg.	Results	7
+solution	CHEBI:75958	149-157
+Overall Number of Participants Analyzed: 42	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: days  0.905         (1.206)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Empegfilgrastim 7.5 mg	Results	12
+Arm/Group Description: Patients will receive a single administration of empegfilgrastim at a dose of 7.5 mg subcutaneously, 24 h after the chemotherapy	Results	13
+Placebo №2: Placebo №2 should be administered no earlier than 24 hours after the administration of cytotoxic chemotherapy. Placebo №2 is supplied as solution for injection 0.0083 ml/kg.	Results	14
+solution	CHEBI:75958	149-157
+Overall Number of Participants Analyzed: 43	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: days  0.791         (1.013)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 1/42 (2.38%)	Adverse Events	1
+Febrile neutropenia 0/42 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Agranulocytosis 0/42 (0.00%)	Adverse Events	3
+agranulocytosis	HP:0012234,DOID:12987	0-15
+nose furunculus 3 grade 0/42 (0.00%)	Adverse Events	4
+nose	UBERON:0000004	0-4
+Left hand fracture 0/42 (0.00%)	Adverse Events	5
+left	HP:0012835	0-4
+Uterine bleeding 1/42 (2.38%)	Adverse Events	6
+Pneumonia 0/42 (0.00%)	Adverse Events	7
+pneumonia	HP:0002090,DOID:552	0-9
+Adverse Events 2:	Adverse Events	8
+Total: 1/43 (2.33%)	Adverse Events	9
+Febrile neutropenia 1/43 (2.33%)	Adverse Events	10
+neutropenia	HP:0001875,DOID:1227	8-19
+Agranulocytosis 0/43 (0.00%)	Adverse Events	11
+agranulocytosis	HP:0012234,DOID:12987	0-15
+nose furunculus 3 grade 0/43 (0.00%)	Adverse Events	12
+nose	UBERON:0000004	0-4
+Left hand fracture 0/43 (0.00%)	Adverse Events	13
+left	HP:0012835	0-4
+Uterine bleeding 0/43 (0.00%)	Adverse Events	14
+Pneumonia 0/43 (0.00%)	Adverse Events	15
+pneumonia	HP:0002090,DOID:552	0-9

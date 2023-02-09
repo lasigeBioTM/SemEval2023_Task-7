@@ -1,0 +1,124 @@
+INTERVENTION 1:	Intervention	0
+Arm A: Anastrozol	Intervention	1
+1 mg per day for 2 years	Intervention	2
+day	UO:0000033	9-12
+INTERVENTION 2:	Intervention	3
+Arm B: Anastrozol	Intervention	4
+1 mg per day for 5 years	Intervention	5
+day	UO:0000033	9-12
+Inclusion criteria:	Eligibility	0
+Postmenopausal patients with histologically confirmed, local radically treated invasive or minimal-invasiv Mammacarcinom with or without previous chemotherapie and/or radiotherapie.	Eligibility	1
+No distant metastasis at randomization	Eligibility	2
+No relapse at randomization	Eligibility	3
+TNM- classification at time of diagnosis: T1-3, N0 and N+, M0	Eligibility	4
+time	PATO:0000165	23-27
+Estrogen- and or progesterone positive before the beginningof primary endocrine therapy	Eligibility	5
+progesterone	CHEBI:17026	17-29
+Endocrine therapy for 5 years (maximum deviation ±12 months)	Eligibility	6
+Therapy break (from the preliminary therapie) maximum 12 months.	Eligibility	7
+Informed Consent before the randomisation	Eligibility	8
+Exclusion criteria:	Eligibility	9
+Premenopausal patients or patients with non definable menopausal statusat time of randomisation	Eligibility	10
+time	PATO:0000165	74-78
+Apparent secondary malignant tumor or status after secondary malignant tumor (Exceptions: simultaniously appearing bilateral breast carcinoma, estrogen- and or progesteronereceptor positive on both sides at the time of diagnosis; in situ carcinomaof the cervix and basal cell carcinoma of the skin)	Eligibility	11
+bilateral	HP:0012832	115-124
+breast carcinoma	HP:0003002,DOID:3459	125-141
+time	PATO:0000165	211-215
+basal cell carcinoma	HP:0002671,DOID:2513	265-285
+General contraindication respectively hypersensitivity to Anastrozol.	Eligibility	12
+contraindication	OAE:0000055	8-24
+hypersensitivity	GO:0002524,DOID:1205	38-54
+In-situ carcinoma of any size with or without Mb. Paget of the Mamilla respectively T4 tumor at the time of first diagnosis.	Eligibility	13
+carcinoma	HP:0030731,DOID:305	8-17
+size	PATO:0000117	25-29
+time	PATO:0000165	100-104
+Receptor unknown or negative at time of diagnosis respectively at beginning of primary endocrine therapy	Eligibility	14
+receptor	BAO:0000281	0-8
+time	PATO:0000165	32-36
+Known liver- and/or kidneyinsufficiency	Eligibility	15
+Performance Index >2 according to WHO	Eligibility	16
+Regular intake of hormon supplement as well as Hormone Replacement Therapy (HRT) more than 6 months since primary surgery of the mamma carcinoma	Eligibility	17
+hormone	CHEBI:24621	47-54
+surgery	OAE:0000067	114-121
+carcinoma	HP:0030731,DOID:305	135-144
+Serious accessory disease, that prevents the adjuvant therapy according to protocol and/or the regular follow-up care.	Eligibility	18
+disease	DOID:4,OGMS:0000031	18-25
+adjuvant	CHEBI:60809	45-53
+Lacking compliance of the patient	Eligibility	19
+patient	HADO:0000008,OAE:0001817	26-33
+Legal incompetence and/or other circumstances, that prevent the patient from understanding the nature, meaning and consequences of the clinical trial	Eligibility	20
+patient	HADO:0000008,OAE:0001817	64-71
+Existing psychiatrical diseaseaccording to ICD (especially alcohol addiction) et the time of admission into the study	Eligibility	21
+alcohol	CHEBI:16236	59-66
+time	PATO:0000165	85-89
+Outcome Measurement:	Results	0
+Disease-free Survival After Prolonged Endocrine Treatment	Results	1
+prolonged	HP:0025297	28-37
+To determine whether 5 years of additional Anastrozole was more effective than 2 years of additional Anastrozole after 5 years of adjuvant endocrine therapy in terms of disease-free survival.	Results	2
+anastrozole	CHEBI:2704	43-54
+anastrozole	CHEBI:2704	101-112
+adjuvant	CHEBI:60809	130-138
+Time frame: DFS was defined as the time from two years after randomization to the earliest occurrence of loco-regional recurrence, distant recurrence, contralateral new breast cancer, second cancer or death from any cause, assessed up to a maximum of 8.5 years	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	35-39
+breast cancer	DOID:1612	169-182
+second	UO:0000010	184-190
+cancer	DOID:162	176-182
+cancer	DOID:162	191-197
+death	OAE:0000632	201-206
+Results 1:	Results	4
+Arm/Group Title: Arm A: Anastrozol	Results	5
+Arm/Group Description: 1 mg per day for 2 years	Results	6
+day	UO:0000033	32-35
+Overall Number of Participants Analyzed: 1281	Results	7
+Median (Inter-Quartile Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: Years  NA  [1]    (7.7 to NA)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm B: Anastrozol	Results	11
+Arm/Group Description: 1 mg per day for 5 years	Results	12
+day	UO:0000033	32-35
+Overall Number of Participants Analyzed: 1323	Results	13
+Median (Inter-Quartile Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: Years  NA  [1]    (8.1 to NA)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 687/1710 (40.18%)	Adverse Events	1
+Anaemia 1/1710 (0.06%)	Adverse Events	2
+Anaemia macrocytic 0/1710 (0.00%)	Adverse Events	3
+Bone marrow oedema 3/1710 (0.18%)	Adverse Events	4
+bone marrow	UBERON:0002371	0-11
+Haemolytic anaemia 1/1710 (0.06%)	Adverse Events	5
+Immune thrombocytopenic purpura 1/1710 (0.06%)	Adverse Events	6
+purpura	HP:0000979,DOID:3326	24-31
+Leukopenia 0/1710 (0.00%)	Adverse Events	7
+leukopenia	HP:0001882,DOID:615	0-10
+Lymph node calcification 1/1710 (0.06%)	Adverse Events	8
+lymph	UBERON:0002391	0-5
+Lymphadenitis 1/1710 (0.06%)	Adverse Events	9
+lymphadenitis	HP:0002840,DOID:1602	0-13
+Lymphadenopathy 3/1710 (0.18%)	Adverse Events	10
+lymphadenopathy	HP:0002716	0-15
+Mastocytosis 1/1710 (0.06%)	Adverse Events	11
+mastocytosis	HP:0100495,DOID:350	0-12
+Adverse Events 2:	Adverse Events	12
+Total: 452/1705 (26.51%)	Adverse Events	13
+Anaemia 1/1705 (0.06%)	Adverse Events	14
+Anaemia macrocytic 1/1705 (0.06%)	Adverse Events	15
+Bone marrow oedema 0/1705 (0.00%)	Adverse Events	16
+bone marrow	UBERON:0002371	0-11
+Haemolytic anaemia 0/1705 (0.00%)	Adverse Events	17
+Immune thrombocytopenic purpura 0/1705 (0.00%)	Adverse Events	18
+purpura	HP:0000979,DOID:3326	24-31
+Leukopenia 1/1705 (0.06%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+Lymph node calcification 0/1705 (0.00%)	Adverse Events	20
+lymph	UBERON:0002391	0-5
+Lymphadenitis 0/1705 (0.00%)	Adverse Events	21
+lymphadenitis	HP:0002840,DOID:1602	0-13
+Lymphadenopathy 0/1705 (0.00%)	Adverse Events	22
+lymphadenopathy	HP:0002716	0-15
+Mastocytosis 0/1705 (0.00%)	Adverse Events	23
+mastocytosis	HP:0100495,DOID:350	0-12

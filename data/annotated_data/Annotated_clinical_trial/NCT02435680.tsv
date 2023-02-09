@@ -1,0 +1,134 @@
+INTERVENTION 1:	Intervention	0
+All MCS110+Carboplatin+Gemcitabine	Intervention	1
+experimental. all MCS110 treated patients, with 10mg/kg intravenous infusion, on day 1 and days 1 & 8	Intervention	2
+day	UO:0000033	81-84
+day	UO:0000033	91-94
+INTERVENTION 2:	Intervention	3
+Carboplatin+Gemcitabine	Intervention	4
+comparator. Gemcitabine: Intravenous infusion 1000 mg/m2 Days 1 & 8 Carboplatin: Intravenous infusion AUC 2 Days 1 & 8	Intervention	5
+gemcitabine	CHEBI:175901	12-23
+carboplatin	CHEBI:31355	68-79
+auc	BAO:0002120	102-105
+Inclusion Criteria:	Eligibility	0
+Adult women ( 18 years of age) with advanced TNBC.	Eligibility	1
+adult	EFO:0001272	0-5
+age	PATO:0000011	26-29
+Histological or cytological evidence of estrogen-receptor negative (ER-), progesterone receptor negative (PgR-) and human epidermal growth factor-2 receptor negative (HER2-) Breast Cancer by local laboratory testing, based on last available tumor tissue.	Eligibility	2
+progesterone	CHEBI:17026	74-86
+receptor	BAO:0000281	49-57
+receptor	BAO:0000281	87-95
+receptor	BAO:0000281	148-156
+growth	GO:0040007	132-138
+breast cancer	DOID:1612	174-187
+tissue	UBERON:0000479	247-253
+ER/PgR negativity to follow local guidelines	Eligibility	3
+If IHC HER2 2+, a negative FISH test is required	Eligibility	4
+A pre-treatment tumor biopsy demonstrating high TAM content as assessed per the central laboratory	Eligibility	5
+central	HP:0030645	80-87
+Patients must have:	Eligibility	6
+At least one measurable lesion per RECIST 1.1. (Note: Measurable lesions include lytic or mixed (lytic + blastic) bone lesions, with an identifiable soft tissue component that meets the measurability criteria)	Eligibility	7
+mixed	BAO:0002107	90-95
+tissue	UBERON:0000479	154-160
+Exclusion Criteria:	Eligibility	8
+Prior chemotherapy for advanced BC. Previous adjuvant/neoadjuvant chemotherapy is allowed (carboplatin, cisplatin or gemcitabine only if > 12 months has passed since last administration).	Eligibility	9
+carboplatin	CHEBI:31355	91-102
+cisplatin	CHEBI:27899	104-113
+gemcitabine	CHEBI:175901	117-128
+Therapy for underlying malignancy within 2 weeks prior to start of study treatment:	Eligibility	10
+Chemotherapy, biologic therapy (antibodies and biologically targeted small molecules)	Eligibility	11
+Radiotherapy	Eligibility	12
+radiotherapy	OAE:0000235	0-12
+Major surgery	Eligibility	13
+surgery	OAE:0000067	6-13
+Patients receiving concomitant immunosuppressive agents or chronic corticosteroids (  10 mg of prednisone or equivalent) at the time of first study dose.	Eligibility	14
+chronic	HP:0011010	59-66
+prednisone	CHEBI:8382	95-105
+time	PATO:0000165	128-132
+Clinically significant cardiovascular disease such as uncontrolled or symptomatic arrhythmias, congestive heart failure, or myocardial infarction within 6 months of screening.	Eligibility	15
+disease	DOID:4,OGMS:0000031	38-45
+congestive heart failure	HP:0001635,DOID:6000	95-119
+myocardial infarction	HP:0001658,DOID:5844	124-145
+Known history of human immunodeficiency virus or active infection with hepatitis virus or any uncontrolled active systemic infection.	Eligibility	16
+history	BFO:0000182	6-13
+immunodeficiency	HP:0002721	23-39
+virus	BAO:0000232	40-45
+virus	BAO:0000232	81-86
+active	PATO:0002354	49-55
+active	PATO:0002354	107-113
+hepatitis	HP:0012115,DOID:2237	71-80
+Patients with the following laboratory values during screening and on Day 1 predose:	Eligibility	17
+day	UO:0000033	70-73
+Absolute Neutrophil Count (ANC) < 1.5x109/L	Eligibility	18
+Hemoglobin < 9 g/dL	Eligibility	19
+hemoglobin	CHEBI:35143	0-10
+Platelets < 100x109/L	Eligibility	20
+Serum creatinine > 1.5 x ULN	Eligibility	21
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	23-24
+Serum total bilirubin > 1.5 x ULN	Eligibility	22
+x	LABO:0000148	28-29
+AST/SGOT and ALT/SGPT > 3.0 x ULN	Eligibility	23
+x	LABO:0000148	28-29
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS) as Per RECIST v1.1 (by Local Investigator Assessment)	Results	1
+PFS Results presented for all MCS110 treated patients (with and without day 8 dose), in line with phase 2 study design.	Results	2
+day	UO:0000033	72-75
+Time frame: 4 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: All MCS110+Carboplatin+Gemcitabine	Results	5
+Arm/Group Description: experimental. all MCS110 treated patients, with 10mg/kg intravenous infusion, on day 1 and days 1 & 8	Results	6
+day	UO:0000033	104-107
+day	UO:0000033	114-117
+Overall Number of Participants Analyzed: 34	Results	7
+Median (90% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  5.6        (4.5 to 8.7)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Carboplatin+Gemcitabine	Results	11
+Arm/Group Description: comparator. Gemcitabine: Intravenous infusion 1000 mg/m2 Days 1 & 8 Carboplatin: Intravenous infusion AUC 2 Days 1 & 8	Results	12
+gemcitabine	CHEBI:175901	35-46
+carboplatin	CHEBI:31355	91-102
+auc	BAO:0002120	125-128
+Overall Number of Participants Analyzed: 16	Results	13
+Median (90% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  5.5        (3.5 to 7.5)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 10/19 (52.63%)	Adverse Events	1
+Anaemia 0/19 (0.00%)	Adverse Events	2
+Atypical haemolytic uraemic syndrome 1/19 (5.26%)	Adverse Events	3
+syndrome	DOID:225	28-36
+Thrombocytopenia 0/19 (0.00%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Myocardial ischaemia 0/19 (0.00%)	Adverse Events	5
+Nausea 0/19 (0.00%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Obstructive pancreatitis 1/19 (5.26%)	Adverse Events	7
+pancreatitis	HP:0001733,DOID:4989	12-24
+Vomiting 0/19 (0.00%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Fatigue 0/19 (0.00%)	Adverse Events	9
+fatigue	HP:0012378	0-7
+Generalised oedema 1/19 (5.26%)	Adverse Events	10
+Pyrexia 1/19 (5.26%)	Adverse Events	11
+Device related infection 1/19 (5.26%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 7/15 (46.67%)	Adverse Events	14
+Anaemia 1/15 (6.67%)	Adverse Events	15
+Atypical haemolytic uraemic syndrome 0/15 (0.00%)	Adverse Events	16
+syndrome	DOID:225	28-36
+Thrombocytopenia 3/15 (20.00%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Myocardial ischaemia 1/15 (6.67%)	Adverse Events	18
+Nausea 1/15 (6.67%)	Adverse Events	19
+nausea	HP:0002018	0-6
+Obstructive pancreatitis 0/15 (0.00%)	Adverse Events	20
+pancreatitis	HP:0001733,DOID:4989	12-24
+Vomiting 2/15 (13.33%)	Adverse Events	21
+vomiting	HP:0002013	0-8
+Fatigue 1/15 (6.67%)	Adverse Events	22
+fatigue	HP:0012378	0-7
+Generalised oedema 0/15 (0.00%)	Adverse Events	23
+Pyrexia 0/15 (0.00%)	Adverse Events	24
+Device related infection 0/15 (0.00%)	Adverse Events	25

@@ -1,0 +1,87 @@
+INTERVENTION 1:	Intervention	0
+Tarceva	Intervention	1
+Following a pre-treatment core breast biopsy, participants are given Tarceva at a dose of 150 mg/day by mouth for 5-14 days. Within 24 hours of their last dose of Tarceva, participants undergo a post-treatment resection of their tumor.	Intervention	2
+breast	UBERON:0000310	31-37
+mouth	UBERON:0000165	104-109
+Inclusion Criteria:	Eligibility	0
+Clinical stage I or II (T1 or T2, N0 or N1) invasive mammary carcinoma	Eligibility	1
+carcinoma	HP:0030731,DOID:305	61-70
+Diagnosis may be made by fine needle aspiration cytology or core biopsy	Eligibility	2
+aspiration	HP:0002835	37-47
+A repeat core biopsy is not required for patients who have a paraffin embedded diagnostic core biopsy specimen available for immunohistochemical staining	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Patients with locally advanced disease who are planning to undergo preoperative neoadjuvant therapy are not eligible*	Eligibility	5
+disease	DOID:4,OGMS:0000031	31-38
+Locally advanced disease includes any of the following:	Eligibility	6
+disease	DOID:4,OGMS:0000031	17-24
+Primary tumor  5 cm (T3)	Eligibility	7
+Tumor of any size with direct extension to the chest wall or skin (T4a-c)	Eligibility	8
+size	PATO:0000117	13-17
+chest	UBERON:0001443	47-52
+Inflammatory breast cancer (T4d)	Eligibility	9
+breast cancer	DOID:1612	13-26
+Fixed axillary lymph node metastases (N2)	Eligibility	10
+lymph	UBERON:0002391	15-20
+Metastasis to ipsilateral internal mammary node (N3) NOTE: *Patients with primary tumors  5 cm (T3) or tumors involving the chest wall or skin who are not candidates for preoperative chemotherapy or who decline preoperative chemotherapy are eligible	Eligibility	11
+chest	UBERON:0001443	124-129
+Measurable residual tumor at the primary site	Eligibility	12
+site	BFO:0000029	41-45
+Measurable disease is defined as any mass that can be reproducibly measured by physical examination	Eligibility	13
+disease	DOID:4,OGMS:0000031	11-18
+physical examination	OAE:0004232	79-99
+Planning to undergo surgical treatment with either segmental resection or total mastectomy	Eligibility	14
+Patients with a prior history of contralateral breast cancer are eligible if they have no evidence of recurrence of their initial primary breast cancer	Eligibility	15
+history	BFO:0000182	22-29
+breast cancer	DOID:1612	47-60
+breast cancer	DOID:1612	138-151
+No locally recurrent breast cancer	Eligibility	16
+recurrent	HP:0031796	11-20
+breast cancer	DOID:1612	21-34
+No evidence of distant metastatic disease (i.e., lung, liver, bone, or brain metastases)	Eligibility	17
+disease	DOID:4,OGMS:0000031	34-41
+lung	UBERON:0002048	49-53
+liver	UBERON:0002107	55-60
+brain	UBERON:0000955	71-76
+Hormone receptor status not specified	Eligibility	18
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	19
+patient	HADO:0000008,OAE:0001817	0-7
+Menopausal status not specified	Eligibility	20
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1	Eligibility	21
+group	CHEBI:24433	29-34
+ANC  1,000/mm^3	Eligibility	22
+Creatinine  1.5 times upper limit of normal (ULN)	Eligibility	23
+creatinine	CHEBI:16737	0-10
+Total bilirubin  1.5 times ULN	Eligibility	24
+Serum glutamic oxaloacetic transminase (SGOT) and serum glutamic pyruvic transminase (SGPT)  1.5 times ULN	Eligibility	25
+Must be at least 18 years old	Eligibility	26
+Not pregnant or nursing	Eligibility	27
+Negative pregnancy test	Eligibility	28
+Fertile patients must use effective contraception	Eligibility	29
+No serious medical illness that, in the judgement of the treating physician, places the patient at high risk of operative mortality	Eligibility	30
+patient	HADO:0000008,OAE:0001817	88-95
+PRIOR CONCURRENT THERAPY:	Eligibility	31
+See Disease Characteristics	Eligibility	32
+disease	DOID:4,OGMS:0000031	4-11
+No prior chemotherapy for this primary breast cancer	Eligibility	33
+breast cancer	DOID:1612	39-52
+At least 7 days since prior tamoxifen or raloxifene as a preventive agent	Eligibility	34
+tamoxifen	CHEBI:41774	28-37
+raloxifene	CHEBI:8772	41-51
+Outcome Measurement:	Results	0
+Number of Participants Experiencing in Situ Anti-tumor Effect of Tarceva	Results	1
+In situ anti-tumor effect of Tarceva as measured by a minimum 75% reduction in Ki67 compared to pre-treatment tumor cells in patients with operable breast cancer.	Results	2
+breast cancer	DOID:1612	148-161
+Time frame: 5-14 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Tarceva	Results	5
+Arm/Group Description: Following a pre-treatment core breast biopsy, participants are given Tarceva at a dose of 150 mg/day by mouth for 5-14 days. Within 24 hours of their last dose of Tarceva, participants undergo a post-treatment resection of their tumor.	Results	6
+breast	UBERON:0000310	54-60
+mouth	UBERON:0000165	127-132
+Overall Number of Participants Analyzed: 34	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  8	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 1/47 (2.13%)	Adverse Events	1

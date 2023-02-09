@@ -1,0 +1,125 @@
+INTERVENTION 1:	Intervention	0
+HER2-Neu Negative	Intervention	1
+Dose and route per treatment cycle (Q3W):	Intervention	2
+Capecitabine: 825 mg/m2, orally, twice daily, days 1-14 Docetaxel: 75 mg/m2, IV infusion, day 1	Intervention	3
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	46-49
+day	UO:0000033	90-93
+HER2-neu negative: capecitabine + docetaxel	Intervention	4
+capecitabine	CHEBI:31348	19-31
+Duration: Four 3-week treatment cycles	Intervention	5
+duration	PATO:0001309	0-8
+INTERVENTION 2:	Intervention	6
+HER2-Neu Positive	Intervention	7
+Dose and route per treatment cycle (Q3W):	Intervention	8
+Capecitabine: 825 mg/m2, orally, twice daily, days 1-14 Docetaxel: 75 mg/m2, IV infusion, day 1 Trastuzumab: loading dose 4 mg/kg, 90-min IV infusion; thereafter, 2 mg/kg, 30-min IV infusion, weekly	Intervention	9
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	46-49
+day	UO:0000033	90-93
+HER2-neu positive: capecitabine + docetaxel + trastuzumab	Intervention	10
+capecitabine	CHEBI:31348	19-31
+Duration: Four 3-week treatment cycles	Intervention	11
+duration	PATO:0001309	0-8
+Inclusion Criteria:	Eligibility	0
+women >=18 years of age;	Eligibility	1
+age	PATO:0000011	20-23
+newly diagnosed;	Eligibility	2
+infiltrating (invasive) HER2-neu-negative or HER2-neu-positive breast cancer.	Eligibility	3
+breast cancer	DOID:1612	63-76
+Exclusion Criteria:	Eligibility	4
+evidence of metastatic disease, except ipsilateral (same side) axillary lymph nodes;	Eligibility	5
+disease	DOID:4,OGMS:0000031	23-30
+lymph	UBERON:0002391	72-77
+previous systemic or local primary treatment.	Eligibility	6
+Outcome Measurement:	Results	0
+Percentage of Participants Assessed for Pathological Complete Response (pCR) Plus Near Complete (npCR) in Primary Breast Tumor at Time of Definitive Surgery	Results	1
+breast	UBERON:0000310	114-120
+time	PATO:0000165	130-134
+surgery	OAE:0000067	149-156
+Pathological complete response was defined as the absence of histological evidence of invasive breast cancer cells in the tissue specimen removed from the breast after 4 cycles of preoperative treatment. Near pCR (npCR) was defined as the presence of invasive tumor cells with a size of 5 mm or less in aggregate in the tissue specimen removed from the breast after 4 cycles of preoperative treatment. Only pathological assessments occurring prior to the first date of adjuvant treatment were included in the analysis of pCR rate.	Results	2
+breast cancer	DOID:1612	95-108
+tissue	UBERON:0000479	122-128
+tissue	UBERON:0000479	320-326
+breast	UBERON:0000310	95-101
+breast	UBERON:0000310	155-161
+breast	UBERON:0000310	353-359
+size	PATO:0000117	279-283
+adjuvant	CHEBI:60809	469-477
+rate	BAO:0080019	525-529
+Time frame: at the time of definitive surgery; after four 3-week cycles (3-4 months)	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	19-23
+surgery	OAE:0000067	38-45
+Results 1:	Results	4
+Arm/Group Title: HER2-Neu Negative	Results	5
+Arm/Group Description: Dose and route per treatment cycle (Q3W):	Results	6
+Capecitabine: 825 mg/m2, orally, twice daily, days 1-14 Docetaxel: 75 mg/m2, IV infusion, day 1	Results	7
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	46-49
+day	UO:0000033	90-93
+HER2-neu negative: capecitabine + docetaxel	Results	8
+capecitabine	CHEBI:31348	19-31
+Duration: Four 3-week treatment cycles	Results	9
+duration	PATO:0001309	0-8
+Overall Number of Participants Analyzed: 101	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: percentage of participants  15.8        (9.7 to 25.4)	Results	12
+Results 2:	Results	13
+Arm/Group Title: HER2-Neu Positive	Results	14
+Arm/Group Description: Dose and route per treatment cycle (Q3W):	Results	15
+Capecitabine: 825 mg/m2, orally, twice daily, days 1-14 Docetaxel: 75 mg/m2, IV infusion, day 1 Trastuzumab: loading dose 4 mg/kg, 90-min IV infusion; thereafter, 2 mg/kg, 30-min IV infusion, weekly	Results	16
+capecitabine	CHEBI:31348	0-12
+day	UO:0000033	46-49
+day	UO:0000033	90-93
+HER2-neu positive: capecitabine + docetaxel + trastuzumab	Results	17
+capecitabine	CHEBI:31348	19-31
+Duration: Four 3-week treatment cycles	Results	18
+duration	PATO:0001309	0-8
+Overall Number of Participants Analyzed: 28	Results	19
+Measure Type: Number	Results	20
+Unit of Measure: percentage of participants  50.0        (31.9 to 71.3)	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 15/122 (12.30%)	Adverse Events	1
+febrile neutropenia 4/122 (3.28%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 0/122 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Angina unstable 1/122 (0.82%)	Adverse Events	4
+Coronary artery disease 1/122 (0.82%)	Adverse Events	5
+coronary artery disease	DOID:3393	0-23
+Myocardial infarction 1/122 (0.82%)	Adverse Events	6
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Diarrhoea 2/122 (1.64%)	Adverse Events	7
+Colitis 1/122 (0.82%)	Adverse Events	8
+colitis	HP:0002583,DOID:0060180	0-7
+Pyrexia 2/122 (1.64%)	Adverse Events	9
+Chest pain 1/122 (0.82%)	Adverse Events	10
+chest pain	HP:0100749	0-10
+Pneumonia 1/122 (0.82%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	0-9
+Catheter site cellulitis 1/122 (0.82%)	Adverse Events	12
+site	BFO:0000029	9-13
+cellulitis	HP:0100658,DOID:3488	14-24
+Adverse Events 2:	Adverse Events	13
+Total: 7/34 (20.59%)	Adverse Events	14
+febrile neutropenia 1/34 (2.94%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/34 (2.94%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Angina unstable 0/34 (0.00%)	Adverse Events	17
+Coronary artery disease 0/34 (0.00%)	Adverse Events	18
+coronary artery disease	DOID:3393	0-23
+Myocardial infarction 0/34 (0.00%)	Adverse Events	19
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Diarrhoea 0/34 (0.00%)	Adverse Events	20
+Colitis 0/34 (0.00%)	Adverse Events	21
+colitis	HP:0002583,DOID:0060180	0-7
+Pyrexia 0/34 (0.00%)	Adverse Events	22
+Chest pain 0/34 (0.00%)	Adverse Events	23
+chest pain	HP:0100749	0-10
+Pneumonia 1/34 (2.94%)	Adverse Events	24
+pneumonia	HP:0002090,DOID:552	0-9
+Catheter site cellulitis 0/34 (0.00%)	Adverse Events	25
+site	BFO:0000029	9-13
+cellulitis	HP:0100658,DOID:3488	14-24
+Infection 1/34 (2.94%)	Adverse Events	26

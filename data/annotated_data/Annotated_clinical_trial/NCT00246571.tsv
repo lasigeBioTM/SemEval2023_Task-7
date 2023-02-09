@@ -1,0 +1,141 @@
+INTERVENTION 1:	Intervention	0
+Sunitinib	Intervention	1
+sunitinib	CHEBI:38940	0-9
+SU011248 (Sutent [sunitinib malate, hereafter referred to as sunitinib]) oral capsules, 37.5 milligrams (mg) once daily (QD) in a continuous regimen, expressed in 3-week cycles. 1-week treatment rests and dose reductions allowed for dose-limiting toxicity (DLT). Dose escalated to sunitinib 50 mg QD if minimal toxicities.	Intervention	2
+sunitinib	CHEBI:38940	18-27
+sunitinib	CHEBI:38940	61-70
+sunitinib	CHEBI:38940	281-290
+malate	CHEBI:15595	28-34
+INTERVENTION 2:	Intervention	3
+Standard of Care	Intervention	4
+One of the following regimens was administered (at investigator's discretion): oral capecitabine 1000-1250 mg/m^2 BID Days 1-14, every 3 weeks; vinorelbine 25-30 mg/m^2 rapid IV infusion or 60-80 mg/m^2 oral weekly, expressed in 3-week cycles; docetaxel 75-100 mg/m^2 via IV infusion every 3 weeks; paclitaxel 175-200 mg/m^2 via IV infusion every 3 weeks; paclitaxel 80-90 mg/m^2 weekly, in a continuous regimen expressed in 3-week cycles or 3 weeks of treatment followed by 1 week of rest; gemcitabine 800-1250 mg/m^2 via IV infusion, Days 1 and 8 every 3 weeks. If RECIST defined progression was met, participants could receive sunitinib, 37.5 mg oral capsules QD, in continuous 3-week cycles.	Intervention	5
+capecitabine	CHEBI:31348	84-96
+vinorelbine	CHEBI:480999	144-155
+paclitaxel	CHEBI:45863	299-309
+paclitaxel	CHEBI:45863	356-366
+week	UO:0000034	137-141
+week	UO:0000034	208-212
+week	UO:0000034	231-235
+week	UO:0000034	292-296
+week	UO:0000034	349-353
+week	UO:0000034	380-384
+week	UO:0000034	427-431
+week	UO:0000034	444-448
+week	UO:0000034	477-481
+week	UO:0000034	557-561
+week	UO:0000034	683-687
+gemcitabine	CHEBI:175901	491-502
+sunitinib	CHEBI:38940	630-639
+Inclusion Criteria:	Eligibility	0
+Recurrent or metastatic breast cancer	Eligibility	1
+recurrent	HP:0031796	0-9
+breast cancer	DOID:1612	24-37
+Estrogen receptor (ER), progestin receptor (PR) and HER2/neu receptor (HER2) negative status	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	34-42
+receptor	BAO:0000281	61-69
+progestin	CHEBI:59826	24-33
+Prior treatment with an anthracycline and a taxane in the adjuvant or advanced disease setting	Eligibility	3
+anthracycline	CHEBI:48120	24-37
+taxane	CHEBI:36064	44-50
+adjuvant	CHEBI:60809	58-66
+disease	DOID:4,OGMS:0000031	79-86
+Relapse following adjuvant chemotherapy within 6 months of last treatment and/or received one or two chemotherapy regimens for advanced disease	Eligibility	4
+adjuvant	CHEBI:60809	18-26
+disease	DOID:4,OGMS:0000031	136-143
+Exclusion Criteria:	Eligibility	5
+More than two chemotherapy regimens for advanced disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	49-56
+Uncontrolled/symptomatic spread of cancer to the brain	Eligibility	7
+cancer	DOID:162	35-41
+brain	UBERON:0000955	49-54
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+Time in months from start of study treatment to first documentation of objective tumor progression (per RECIST) or death due to any cause. PFS was calculated as (first event date minus first randomization date plus 1) divided by 30.4. Tumor progression was determined from oncologic assessment data (where data meet the criteria for progressive disease [PD]), or from adverse event (AE) data (where the outcome was "Death").	Results	2
+time	PATO:0000165	0-4
+death	OAE:0000632	115-120
+death	OAE:0000632	416-421
+progressive	HP:0003676	333-344
+disease	DOID:4,OGMS:0000031	345-352
+adverse event	OAE:0000001	368-381
+Time frame: Baseline, every 6 weeks until disease progression or death (up to 3 years from first dose)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	42-49
+death	OAE:0000632	65-70
+Results 1:	Results	4
+Arm/Group Title: Sunitinib	Results	5
+sunitinib	CHEBI:38940	17-26
+Arm/Group Description: SU011248 (Sutent [sunitinib malate, hereafter referred to as sunitinib]) oral capsules, 37.5 milligrams (mg) once daily (QD) in a continuous regimen, expressed in 3-week cycles. 1-week treatment rests and dose reductions allowed for dose-limiting toxicity (DLT). Dose escalated to sunitinib 50 mg QD if minimal toxicities.	Results	6
+sunitinib	CHEBI:38940	41-50
+sunitinib	CHEBI:38940	84-93
+sunitinib	CHEBI:38940	304-313
+malate	CHEBI:15595	51-57
+Overall Number of Participants Analyzed: 113	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  Core radiology laboratory assessment: 2.0        (1.5 to 2.8)	Results	9
+Investigator's assessment: 1.7        (1.5 to 2.6)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Standard of Care	Results	12
+Arm/Group Description: One of the following regimens was administered (at investigator's discretion): oral capecitabine 1000-1250 mg/m^2 BID Days 1-14, every 3 weeks; vinorelbine 25-30 mg/m^2 rapid IV infusion or 60-80 mg/m^2 oral weekly, expressed in 3-week cycles; docetaxel 75-100 mg/m^2 via IV infusion every 3 weeks; paclitaxel 175-200 mg/m^2 via IV infusion every 3 weeks; paclitaxel 80-90 mg/m^2 weekly, in a continuous regimen expressed in 3-week cycles or 3 weeks of treatment followed by 1 week of rest; gemcitabine 800-1250 mg/m^2 via IV infusion, Days 1 and 8 every 3 weeks. If RECIST defined progression was met, participants could receive sunitinib, 37.5 mg oral capsules QD, in continuous 3-week cycles.	Results	13
+capecitabine	CHEBI:31348	107-119
+vinorelbine	CHEBI:480999	167-178
+paclitaxel	CHEBI:45863	322-332
+paclitaxel	CHEBI:45863	379-389
+week	UO:0000034	160-164
+week	UO:0000034	231-235
+week	UO:0000034	254-258
+week	UO:0000034	315-319
+week	UO:0000034	372-376
+week	UO:0000034	403-407
+week	UO:0000034	450-454
+week	UO:0000034	467-471
+week	UO:0000034	500-504
+week	UO:0000034	580-584
+week	UO:0000034	706-710
+gemcitabine	CHEBI:175901	514-525
+sunitinib	CHEBI:38940	653-662
+Overall Number of Participants Analyzed: 104	Results	14
+Median (95% Confidence Interval)	Results	15
+median	BAO:0002174	0-6
+Unit of Measure: Months  Core radiology laboratory assessment: 2.7        (1.7 to 2.8)	Results	16
+Investigator's assessment: 2.5        (1.4 to 2.9)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 40/110 (36.36%)	Adverse Events	1
+Anaemia * 3/110 (2.73%)	Adverse Events	2
+Disseminated intravascular coagulation * 1/110 (0.91%)	Adverse Events	3
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia * 2/110 (1.82%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 0/110 (0.00%)	Adverse Events	5
+leukopenia	HP:0001882,DOID:615	0-10
+Pancytopenia * 1/110 (0.91%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia * 2/110 (1.82%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation * 1/110 (0.91%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest * 1/110 (0.91%)	Adverse Events	9
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure * 1/110 (0.91%)	Adverse Events	10
+Cardiopulmonary failure * 1/110 (0.91%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 21/103 (20.39%)	Adverse Events	13
+Anaemia * 0/103 (0.00%)	Adverse Events	14
+Disseminated intravascular coagulation * 0/103 (0.00%)	Adverse Events	15
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Febrile neutropenia * 2/103 (1.94%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 1/103 (0.97%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Pancytopenia * 0/103 (0.00%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia * 0/103 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation * 1/103 (0.97%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest * 0/103 (0.00%)	Adverse Events	21
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure * 0/103 (0.00%)	Adverse Events	22
+Cardiopulmonary failure * 0/103 (0.00%)	Adverse Events	23

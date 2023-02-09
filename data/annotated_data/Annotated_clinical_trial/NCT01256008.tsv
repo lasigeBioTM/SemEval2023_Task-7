@@ -1,0 +1,143 @@
+INTERVENTION 1:	Intervention	0
+Stage 1 Clinical Management	Intervention	1
+The group will receive clinical management treatment only each session.	Intervention	2
+group	CHEBI:24433	4-9
+Clinical Management: Clinical management is a clear contrast method of psychological therapy, which is a half-structured interview and lasting for 20-25 minutes each session. Clinical management will be assigned to both experimental group and controlled group in the first stage of intervention.	Intervention	3
+group	CHEBI:24433	233-238
+group	CHEBI:24433	254-259
+Following are major elements:	Intervention	4
+Talk to the subjects to find their main problems; introduce knowledge and medication knowledge about cancer and depression; subjects reporting use of drugs for cancer and depression and a variety of signs and symptoms of the reaction. Encourage patients to adhere to drug treatment and to comply with this research program; The operation of CBT and clinical management should be conducted by the same person as far as possible.	Intervention	5
+cancer	DOID:162	101-107
+cancer	DOID:162	160-166
+depression	HP:0000716	112-122
+depression	HP:0000716	171-181
+drug	CHEBI:23888	150-154
+drug	CHEBI:23888	267-271
+INTERVENTION 2:	Intervention	6
+Stage 1 CBT	Intervention	7
+The experimental group will receive CBT each session.	Intervention	8
+group	CHEBI:24433	17-22
+CBT and clinical management: The subjects will receive standardized CBT treatment regularly for 9 sessions(once per week in the first month and once half a month in the second and third months), and each session will last for about 60 minutes.The treatment includes three steps:Concept stage (the first and second sessions): establishment of therapeutic relationships with the subjects; Skills acquisition and repeat stage (the third session to the 8th session): clarification of sources of stress, patients' cognitive and behavioral response to stress. Application and complete price segment (the 9th session): return visit to test efficacy of psychological intervention.	Intervention	9
+week	UO:0000034	116-120
+month	UO:0000035	134-139
+month	UO:0000035	156-161
+month	UO:0000035	186-191
+second	UO:0000010	169-175
+second	UO:0000010	307-313
+response to stress	GO:0006950	534-552
+application	CHEBI:33232,BAO:0110001	554-565
+efficacy	BAO:0000656	633-641
+Inclusion Criteria:	Eligibility	0
+Age: 20-65 years;	Eligibility	1
+age	PATO:0000011	0-3
+Pathologically diagnosed breast cancer patients, with the diagnosis from at least 2 comprehensive clinical attending physicians, in line with clinical diagnosis of breast cancer;	Eligibility	2
+breast cancer	DOID:1612	25-38
+breast cancer	DOID:1612	164-177
+A week after breast cancer surgery;	Eligibility	3
+week	UO:0000034	2-6
+breast cancer	DOID:1612	13-26
+surgery	OAE:0000067	27-34
+With complaints and symptoms of depression or anxiety	Eligibility	4
+depression	HP:0000716	32-42
+anxiety	HP:0000739,DOID:2030	46-53
+HAMD-17  8 points or / and HAMA  8 points;	Eligibility	5
+Have some reading comprehension skills (could complete the self-rating scale independently or with others' help);	Eligibility	6
+Informed consent	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Previous diagnosis of mental disorder or Bipolar Disorder; alcohol and drug abusing history;	Eligibility	9
+disorder	OGMS:0000045	29-37
+disorder	OGMS:0000045	49-57
+bipolar disorder	DOID:3312	41-57
+alcohol	CHEBI:16236	59-66
+drug	CHEBI:23888	71-75
+history	BFO:0000182	84-91
+Use antidepressants, antipsychotics or accept any form of psychological treatment, or participation in other clinical trials in the last month	Eligibility	10
+month	UO:0000035	137-142
+Patients with cardiovascular disease, liver and kidney dysfunction and other serious diseases;	Eligibility	11
+disease	DOID:4,OGMS:0000031	29-36
+disease	DOID:4,OGMS:0000031	85-92
+liver	UBERON:0002107	38-43
+kidney	UBERON:0002113	48-54
+Hearing, visual or understanding impairment;	Eligibility	12
+Severe depression, suicidal tendencies;	Eligibility	13
+severe	HP:0012828	0-6
+depression	HP:0000716	7-17
+Can not or will not comply with clinical treatment programs based on the physicians' judgment	Eligibility	14
+Exit criteria:	Eligibility	15
+Persons with poor compliance during the trial period;	Eligibility	16
+Persons whose depression increased during the trial period, has serious suicidal tendencies and requires urgent intervention;	Eligibility	17
+depression	HP:0000716	14-24
+Persons who are believed have other circumstances and should be suspended by Physicians	Eligibility	18
+Outcome Measurement:	Results	0
+Hamilton Depression Rating Scale (HAMD-17)	Results	1
+depression	HP:0000716	9-19
+The scale(HAMD-17) is used to assessed the depression symptoms of patients.	Results	2
+depression	HP:0000716	43-53
+The scale range is 0-53.Higher value represents a worse outcome.	Results	3
+range	LABO:0000114	10-15
+The scale was assessed at baseline,2 week,4 week,8 week,12 week,16 week,24 week	Results	4
+week	UO:0000034	37-41
+week	UO:0000034	44-48
+week	UO:0000034	51-55
+week	UO:0000034	59-63
+week	UO:0000034	67-71
+week	UO:0000034	75-79
+Time frame: baseline,2 w,4 w,8 w,12 w,16 w,24 w	Results	5
+time	PATO:0000165	0-4
+Results 1:	Results	6
+Arm/Group Title: Stage 1 Clinical Management	Results	7
+Arm/Group Description: The group will receive clinical management treatment only each session.	Results	8
+group	CHEBI:24433	4-9
+group	CHEBI:24433	27-32
+Clinical Management: Clinical management is a clear contrast method of psychological therapy, which is a half-structured interview and lasting for 20-25 minutes each session. Clinical management will be assigned to both experimental group and controlled group in the first stage of intervention.	Results	9
+group	CHEBI:24433	233-238
+group	CHEBI:24433	254-259
+Following are major elements:	Results	10
+Talk to the subjects to find their main problems; introduce knowledge and medication knowledge about cancer and depression; subjects reporting use of drugs for cancer and depression and a variety of signs and symptoms of the reaction. Encourage patients to adhere to drug treatment and to comply with this research program; The operation of CBT and clinical management should be conducted by the same person as far as possible.	Results	11
+cancer	DOID:162	101-107
+cancer	DOID:162	160-166
+depression	HP:0000716	112-122
+depression	HP:0000716	171-181
+drug	CHEBI:23888	150-154
+drug	CHEBI:23888	267-271
+Overall Number of Participants Analyzed: 98	Results	12
+Mean (Standard Deviation)	Results	13
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  baseline: 11.52         (3.789)	Results	14
+2W: 10.23         (3.207)	Results	15
+4W: 9.80         (3.056)	Results	16
+8W: 8.71         (3.601)	Results	17
+12W: 8.01         (3.200)	Results	18
+16W: 7.42         (3.019)	Results	19
+24W: 7.01         (3.317)	Results	20
+Results 2:	Results	21
+Arm/Group Title: Stage 1 CBT	Results	22
+Arm/Group Description: The experimental group will receive CBT each session.	Results	23
+group	CHEBI:24433	4-9
+group	CHEBI:24433	40-45
+CBT and clinical management: The subjects will receive standardized CBT treatment regularly for 9 sessions(once per week in the first month and once half a month in the second and third months), and each session will last for about 60 minutes.The treatment includes three steps:Concept stage (the first and second sessions): establishment of therapeutic relationships with the subjects; Skills acquisition and repeat stage (the third session to the 8th session): clarification of sources of stress, patients' cognitive and behavioral response to stress. Application and complete price segment (the 9th session): return visit to test efficacy of psychological intervention.	Results	24
+week	UO:0000034	116-120
+month	UO:0000035	134-139
+month	UO:0000035	156-161
+month	UO:0000035	186-191
+second	UO:0000010	169-175
+second	UO:0000010	307-313
+response to stress	GO:0006950	534-552
+application	CHEBI:33232,BAO:0110001	554-565
+efficacy	BAO:0000656	633-641
+Overall Number of Participants Analyzed: 98	Results	25
+Mean (Standard Deviation)	Results	26
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  baseline: 13.31         (5.090)	Results	27
+2W: 11.72         (4.976)	Results	28
+4W: 9.72         (4.835)	Results	29
+8W: 7.80         (4.440)	Results	30
+12W: 5.71         (3.979)	Results	31
+16W: 5.13         (4.108)	Results	32
+24W: 4.45         (3.875)	Results	33
+Adverse Events 1:	Adverse Events	0
+Total: 0/98 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/98 (0.00%)	Adverse Events	3

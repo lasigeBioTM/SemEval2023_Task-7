@@ -1,0 +1,184 @@
+INTERVENTION 1:	Intervention	0
+LY2523355 + Pegfilgrastim or Filgrastim	Intervention	1
+LY2523355 administered intravenously as a 1-hour infusion on Days 1, 2, and 3 of a 21-day Cycle for 2 Cycles. Dosage determined by calculating participant's body surface area (5 milligrams per meter squared per day [mg/m^2/day]).	Intervention	2
+area	PATO:0001323	170-174
+meter	UO:0000008	193-198
+day	UO:0000033	61-64
+day	UO:0000033	86-89
+day	UO:0000033	211-214
+day	UO:0000033	223-226
+Pegfilgrastim or filgrastim administered intravenously on Day 4 of 21-day Cycle for 2 Cycles. Dosage is determined by standard of care.	Intervention	3
+day	UO:0000033	58-61
+day	UO:0000033	70-73
+If at the end of 2 Cycles the participant was receiving benefit, the participant may have remained on study drug for additional cycles until a criterion for study discontinuation was met.	Intervention	4
+drug	CHEBI:23888	108-112
+INTERVENTION 2:	Intervention	5
+Ixabepilone	Intervention	6
+ixabepilone	CHEBI:63605	0-11
+Ixabepilone administered intravenously as a 3-hour infusion on Day 1 of a 21-day Cycle for 2 Cycles.	Intervention	7
+ixabepilone	CHEBI:63605	0-11
+day	UO:0000033	63-66
+day	UO:0000033	77-80
+Dosage determined by calculating participant's body surface area (40 mg/m^2).	Intervention	8
+area	PATO:0001323	60-64
+If at the end of 2 Cycles the participant was receiving benefit, the participant may have remained on study drug for additional cycles until a criterion for study discontinuation was met.	Intervention	9
+drug	CHEBI:23888	108-112
+Inclusion Criteria:	Eligibility	0
+Have histologic or cytologic diagnosis of metastatic or locally recurrent breast cancer that is not amenable to therapy given with curative intent.	Eligibility	1
+recurrent	HP:0031796	64-73
+breast cancer	DOID:1612	74-87
+Have measurable disease defined by Response Evaluation Criteria In Solid Tumors (RECIST) 1.1 guidelines.	Eligibility	2
+disease	DOID:4,OGMS:0000031	16-23
+Have received 2 or more prior standard cytotoxic chemotherapy regimens for metastatic breast cancer and be, in the opinion of the investigator, an appropriate candidate for experimental therapy. Regimens received in the neoadjuvant or adjuvant setting are not counted as prior regimens.	Eligibility	3
+breast cancer	DOID:1612	86-99
+adjuvant	CHEBI:60809	223-231
+adjuvant	CHEBI:60809	235-243
+Have received a prior taxane in the neoadjuvant, adjuvant, or metastatic setting.	Eligibility	4
+taxane	CHEBI:36064	22-28
+adjuvant	CHEBI:60809	39-47
+adjuvant	CHEBI:60809	49-57
+Have recovered from the acute effects of prior chemotherapy, hormonal therapy, and radiation prior to study enrollment.	Eligibility	5
+acute	HP:0011009,PATO:0000389	24-29
+Have a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) scale.	Eligibility	6
+group	CHEBI:24433	72-77
+Have adequate organ function.	Eligibility	7
+organ	UBERON:0000062	14-19
+function	BAO:0003117,BFO:0000034	20-28
+Exclusion Criteria:	Eligibility	8
+Have Common Terminology Criteria for Adverse Events (CTCAE) Grade 2 or greater (moderate or worse) peripheral neuropathy	Eligibility	9
+moderate	HP:0012826	80-88
+peripheral neuropathy	HP:0009830,DOID:870	99-120
+Have a second primary malignancy.	Eligibility	10
+second	UO:0000010	7-13
+Have symptomatic, untreated, or uncontrolled central nervous system metastases.	Eligibility	11
+central nervous system	UBERON:0001017	45-67
+Have received autologous stem cell transplant following high-dose chemotherapy.	Eligibility	12
+stem cell transplant	OAE:0001532	25-45
+Have serious preexisting medical conditions that in the opinion of the investigator would preclude participation in this study.	Eligibility	13
+Have active symptomatic fungal, bacterial, and/or known viral infection including active human immunodeficiency virus (HIV) or viral hepatitis.	Eligibility	14
+active	PATO:0002354	5-11
+active	PATO:0002354	82-88
+immunodeficiency	HP:0002721	95-111
+virus	BAO:0000232	112-117
+viral hepatitis	HP:0006562,DOID:1884	127-142
+Have previously received LY2523355 in another study investigating this agent or therapy with ixabepilone or an ixabepilone-containing regimen.	Eligibility	15
+ixabepilone	CHEBI:63605	93-104
+ixabepilone	CHEBI:63605	111-122
+Have a history of radiation therapy involving more than 25 percent of the bone marrow.	Eligibility	16
+history	BFO:0000182	7-14
+percent	UO:0000187	59-66
+bone marrow	UBERON:0002371	74-85
+Have a Fridericia corrected QT (QTcF) interval of >470 milliseconds (msec) on screening electrocardiogram (ECG).	Eligibility	17
+Have QRS widening of >120 msec on screening ECG.	Eligibility	18
+Cannot change or stop taking a strong Cytochrome P450 3A4 (CYP3A4) inhibitor or CYP3A4 inducer per the ixabepilone label.	Eligibility	19
+cytochrome p450	CHEBI:38559	38-53
+inhibitor	CHEBI:35222	67-76
+inducer	BAO:0003058	87-94
+ixabepilone	CHEBI:63605	103-114
+label	CHEBI:35209,label	115-120
+Have hypersensitivity to drugs formulated with Cremophor® EL per the ixabepilone label.	Eligibility	20
+hypersensitivity	GO:0002524,DOID:1205	5-21
+ixabepilone	CHEBI:63605	69-80
+label	CHEBI:35209,label	81-86
+Outcome Measurement:	Results	0
+Change in Tumor Size (CTS) From Baseline to the End of Cycle 2	Results	1
+size	PATO:0000117	16-20
+The log ratio of tumor size at Cycle 2 to tumor size at baseline is calculated for each participant, where the tumor size is the sum of the target lesion measurements at each assessment.	Results	2
+log	BAO:0002172	4-7
+ratio	UO:0000190	8-13
+size	PATO:0000117	23-27
+size	PATO:0000117	48-52
+size	PATO:0000117	117-121
+target	BAO:0003064	140-146
+Time frame: Baseline up to end of Cycle 2 (Day 42)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	43-46
+Results 1:	Results	4
+Arm/Group Title: LY2523355 + Pegfilgrastim or Filgrastim	Results	5
+Arm/Group Description: LY2523355 administered intravenously as a 1-hour infusion on Days 1, 2, and 3 of a 21-day Cycle for 2 Cycles. Dosage determined by calculating participant's body surface area (5 milligrams per meter squared per day [mg/m^2/day]).	Results	6
+area	PATO:0001323	193-197
+meter	UO:0000008	216-221
+day	UO:0000033	84-87
+day	UO:0000033	109-112
+day	UO:0000033	234-237
+day	UO:0000033	246-249
+Pegfilgrastim or filgrastim administered intravenously on Day 4 of 21-day Cycle for 2 Cycles. Dosage is determined by standard of care.	Results	7
+day	UO:0000033	58-61
+day	UO:0000033	70-73
+If at the end of 2 Cycles the participant was receiving benefit, the participant may have remained on study drug for additional cycles until a criterion for study discontinuation was met.	Results	8
+drug	CHEBI:23888	108-112
+Overall Number of Participants Analyzed: 17	Results	9
+Mean (Standard Deviation)	Results	10
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: log ratio of end of Cycle 2 to baseline  -0.0         (0.08)	Results	11
+log	BAO:0002172	17-20
+ratio	UO:0000190	21-26
+Results 2:	Results	12
+Arm/Group Title: Ixabepilone	Results	13
+ixabepilone	CHEBI:63605	17-28
+Arm/Group Description: Ixabepilone administered intravenously as a 3-hour infusion on Day 1 of a 21-day Cycle for 2 Cycles.	Results	14
+ixabepilone	CHEBI:63605	23-34
+day	UO:0000033	86-89
+day	UO:0000033	100-103
+Dosage determined by calculating participant's body surface area (40 mg/m^2).	Results	15
+area	PATO:0001323	60-64
+If at the end of 2 Cycles the participant was receiving benefit, the participant may have remained on study drug for additional cycles until a criterion for study discontinuation was met.	Results	16
+drug	CHEBI:23888	108-112
+Overall Number of Participants Analyzed: 11	Results	17
+Mean (Standard Deviation)	Results	18
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: log ratio of end of Cycle 2 to baseline  -0.1         (0.37)	Results	19
+log	BAO:0002172	17-20
+ratio	UO:0000190	21-26
+Adverse Events 1:	Adverse Events	0
+Total: 5/26 (19.23%)	Adverse Events	1
+Febrile neutropenia 1/26 (3.85%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Abdominal pain 0/26 (0.00%)	Adverse Events	3
+abdominal pain	HP:0002027	0-14
+Constipation 0/26 (0.00%)	Adverse Events	4
+constipation	HP:0002019,DOID:2089	0-12
+Nausea 1/26 (3.85%)	Adverse Events	5
+nausea	HP:0002018	0-6
+Pancreatitis 1/26 (3.85%)	Adverse Events	6
+pancreatitis	HP:0001733,DOID:4989	0-12
+Vomiting 2/26 (7.69%)	Adverse Events	7
+vomiting	HP:0002013	0-8
+Pain 0/26 (0.00%)	Adverse Events	8
+pain	HP:0012531	0-4
+Pneumonia 0/26 (0.00%)	Adverse Events	9
+pneumonia	HP:0002090,DOID:552	0-9
+Urinary tract infection 1/26 (3.85%)	Adverse Events	10
+urinary tract infection	DOID:0080784	0-23
+Lumbar vertebral fracture 1/26 (3.85%)	Adverse Events	11
+Ammonia increased 1/26 (3.85%)	Adverse Events	12
+ammonia	CHEBI:16134	0-7
+Hepatic encephalopathy 1/26 (3.85%)	Adverse Events	13
+hepatic encephalopathy	HP:0002480,DOID:13413	0-22
+Adverse Events 2:	Adverse Events	14
+Total: 4/13 (30.77%)	Adverse Events	15
+Febrile neutropenia 1/13 (7.69%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Abdominal pain 1/13 (7.69%)	Adverse Events	17
+abdominal pain	HP:0002027	0-14
+Constipation 1/13 (7.69%)	Adverse Events	18
+constipation	HP:0002019,DOID:2089	0-12
+Nausea 0/13 (0.00%)	Adverse Events	19
+nausea	HP:0002018	0-6
+Pancreatitis 0/13 (0.00%)	Adverse Events	20
+pancreatitis	HP:0001733,DOID:4989	0-12
+Vomiting 0/13 (0.00%)	Adverse Events	21
+vomiting	HP:0002013	0-8
+Pain 1/13 (7.69%)	Adverse Events	22
+pain	HP:0012531	0-4
+Pneumonia 1/13 (7.69%)	Adverse Events	23
+pneumonia	HP:0002090,DOID:552	0-9
+Urinary tract infection 0/13 (0.00%)	Adverse Events	24
+urinary tract infection	DOID:0080784	0-23
+Lumbar vertebral fracture 0/13 (0.00%)	Adverse Events	25
+Ammonia increased 0/13 (0.00%)	Adverse Events	26
+ammonia	CHEBI:16134	0-7
+Hepatic encephalopathy 0/13 (0.00%)	Adverse Events	27
+hepatic encephalopathy	HP:0002480,DOID:13413	0-22

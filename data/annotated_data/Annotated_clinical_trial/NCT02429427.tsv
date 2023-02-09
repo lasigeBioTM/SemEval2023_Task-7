@@ -1,0 +1,205 @@
+INTERVENTION 1:	Intervention	0
+Celecoxib	Intervention	1
+celecoxib	CHEBI:41423	0-9
+Patients in this arm will receive 400mg of celecoxib once daily. In addition, Hormone Receptor (+) patients will receive endocrine treatment according to local practice.	Intervention	2
+celecoxib	CHEBI:41423	43-52
+hormone	CHEBI:24621	78-85
+receptor	BAO:0000281	86-94
+Celecoxib: Patients will receive 400mg of Celecoxib once daily for two years or until disease progression (if before the two years limit) or until development of unacceptable toxicities. In addition ER(+) patients will receive endocrine treatment according to local practice.	Intervention	3
+celecoxib	CHEBI:41423	0-9
+celecoxib	CHEBI:41423	42-51
+disease	DOID:4,OGMS:0000031	86-93
+INTERVENTION 2:	Intervention	4
+Placebo	Intervention	5
+Patients in this arm will receive 2 tablets once daily. In addition Hormone Receptor (+) patients will receive endocrine treatment according to local practice.	Intervention	6
+hormone	CHEBI:24621	68-75
+receptor	BAO:0000281	76-84
+Placebo: Two capsules once daily with food	Intervention	7
+food	CHEBI:33290	38-42
+Inclusion Criteria:	Eligibility	0
+Completely resected (greater or equal 1mm), histologically or cytologically proven unilateral breast cancer	Eligibility	1
+unilateral	HP:0012833	83-93
+breast cancer	DOID:1612	94-107
+Female greater or equal 18 years of age	Eligibility	2
+female	PATO:0000383	0-6
+age	PATO:0000011	36-39
+If (neo) adjuvant chemotherapy received, patient must have received at least 4 cycles. Chemotherapy must be completed prior to study entry	Eligibility	3
+adjuvant	CHEBI:60809	9-17
+patient	HADO:0000008,OAE:0001817	41-48
+Hormone Receptor negatives must have received prior chemotherapy	Eligibility	4
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Study entry must be within any of the following timelines: 3 months of the end of definitive breast surgery OR between 3 weeks and 4 months after day 1 of the last cycle of adjuvant chemotherapy OR 6 weeks of the end of radiotherapy.	Eligibility	5
+breast	UBERON:0000310	93-99
+surgery	OAE:0000067	100-107
+day	UO:0000033	146-149
+adjuvant	CHEBI:60809	173-181
+radiotherapy	OAE:0000235	220-232
+WHO performance status 0 or 1	Eligibility	6
+Pre-treatment haematology and biochemistry values within acceptable local limits: Haemoglobin, white blood cell greater or equal to 3.0 x 109/l or absolute neutrophil count greater or equal to 1.51 x 109/l, Platelets greater or equal to 100 x 109/l, Serum bilirubin less than 1.5 x upper normal limit , Alkaline phosphatase less or equal to 1.5 x upper normal limit , Serum creatinine less than 1.5 x upper normal limit	Eligibility	7
+blood	UBERON:0000178	101-106
+x	LABO:0000148	136-137
+x	LABO:0000148	198-199
+x	LABO:0000148	241-242
+x	LABO:0000148	280-281
+x	LABO:0000148	345-346
+x	LABO:0000148	399-400
+phosphatase	GO:0016791,BAO:0000295	312-323
+creatinine	CHEBI:16737	374-384
+Negative pregnancy test for patients with child-bearing potential	Eligibility	8
+Normal baseline ECG and clinical cardiovascular assessment after completion of all (neo) adjuvant chemotherapy	Eligibility	9
+adjuvant	CHEBI:60809	89-97
+No previous or current evidence for metastatic disease	Eligibility	10
+disease	DOID:4,OGMS:0000031	47-54
+Be accessible for and consent to long term follow-up	Eligibility	11
+Written informed consent prior to commencement of specific protocol procedures must be obtained and documented according to the local regulatory requirements	Eligibility	12
+Exclusion Criteria	Eligibility	13
+Patients with node negative, T1, Grade 1 breast cancer	Eligibility	14
+breast cancer	DOID:1612	41-54
+Unresectable, metastatic or bilateral breast cancer	Eligibility	15
+bilateral breast cancer	DOID:6741	28-51
+Active or previous peptic ulceration or gastrointestinal bleeding in the last year	Eligibility	16
+active	PATO:0002354	0-6
+year	UO:0000036	78-82
+Active or previous history of inflammatory bowel disease	Eligibility	17
+active	PATO:0002354	0-6
+history	BFO:0000182	19-26
+inflammatory bowel disease	DOID:0050589	30-56
+A past history of adverse reaction/hypersensitivity to NSAIDs, including celecoxib and salicylates, or sulphonamides	Eligibility	18
+history	BFO:0000182	7-14
+celecoxib	CHEBI:41423	73-82
+salicylates	CHEBI:26596	87-98
+On current or planned chronic NSAIDs therapy (except low dose aspirin 100 mg four times per day or 325mg once daily).	Eligibility	19
+chronic	HP:0011010	22-29
+day	UO:0000033	92-95
+Current or long-term use of oral corticosteroids	Eligibility	20
+Known or suspected congestive heart failure (greater than New York Heart Association I) and/or coronary heart disease, previous history of myocardial infarction, uncontrolled arterial hypertension (ie BP greater than 160/90mmHg) under treatment with two anti-hypertensive drugs, rhythm abnormalities requiring permanent treatment.	Eligibility	21
+congestive heart failure	HP:0001635,DOID:6000	19-43
+heart	UBERON:0000948	30-35
+heart	UBERON:0000948	67-72
+heart	UBERON:0000948	104-109
+heart disease	DOID:114	104-117
+history	BFO:0000182	128-135
+myocardial infarction	HP:0001658,DOID:5844	139-160
+hypertension	HP:0000822,DOID:10763	184-196
+Patients with diabetes controlled by diet and oral medication are eligible for the study however patients with insulin dependent diabetes are excluded	Eligibility	22
+insulin	CHEBI:145810	111-118
+excluded	HP:0040285	142-150
+Past history of stroke/Transient ischaemic attack, symptomatic peripheral vascular disease or carotid disease	Eligibility	23
+history	BFO:0000182	5-12
+peripheral vascular disease	DOID:341	63-90
+disease	DOID:4,OGMS:0000031	83-90
+disease	DOID:4,OGMS:0000031	102-109
+Previously entered into an adjuvant chemotherapy trial for which approval for entry into REACT has not been granted	Eligibility	24
+adjuvant	CHEBI:60809	27-35
+ER receptor status unknown, Human epidermal growth factor receptor 2 or FISH positive, or Human epidermal growth factor receptor 2 status unknown	Eligibility	25
+receptor	BAO:0000281	3-11
+receptor	BAO:0000281	58-66
+receptor	BAO:0000281	120-128
+growth factor	BAO:0002024	44-57
+growth factor	BAO:0002024	106-119
+14. Hormone Receptor negative and not received (neo)adjuvant chemotherapy 15. Use of hormone replacement therapy within the last 6 weeks 16. Pregnant or lactating women or women of childbearing potential unwilling/unable to use non-hormonal contraception 17. No previous or concomitant malignancies except adequately treated squamous cell / basal cell carcinoma of the skin, in situ carcinoma of the cervix or ductal carcinoma in situ/lobular carcinoma in situ of the breast, unless there has been a disease-free interval of 10 years or more 18. Psychiatric or addictive disorders which could preclude obtaining informed consent 19. Clinical evidence of severe osteoporosis and/or history of osteoporotic fracture	Eligibility	26
+hormone	CHEBI:24621	4-11
+hormone	CHEBI:24621	85-92
+receptor	BAO:0000281	12-20
+adjuvant	CHEBI:60809	52-60
+basal cell carcinoma	HP:0002671,DOID:2513	341-361
+in situ carcinoma	DOID:8719	375-392
+carcinoma	HP:0030731,DOID:305	352-361
+carcinoma	HP:0030731,DOID:305	383-392
+carcinoma	HP:0030731,DOID:305	417-426
+carcinoma	HP:0030731,DOID:305	443-452
+breast	UBERON:0000310	468-474
+severe	HP:0012828	654-660
+osteoporosis	HP:0000939,DOID:11476	661-673
+history	BFO:0000182	681-688
+Outcome Measurement:	Results	0
+Disease Free Survival (DFS) Benefit of Two Years Adjuvant Therapy With the COX-2 Inhibitor Celecoxib Compared With Placebo in Primary Breast Cancer Patients.	Results	1
+disease	DOID:4,OGMS:0000031	0-7
+adjuvant	CHEBI:60809	49-57
+inhibitor	CHEBI:35222	81-90
+celecoxib	CHEBI:41423	91-100
+breast cancer	DOID:1612	134-147
+From time of randomisation to the date of first event; with events contributing to the analysis defined as loco-regional and distant breast cancer recurrence, new primary breast cancer (ipsilateral or contralateral) and death without disease relapse (intercurrent death)	Results	2
+time	PATO:0000165	5-9
+breast cancer	DOID:1612	133-146
+breast cancer	DOID:1612	171-184
+death	OAE:0000632	220-225
+death	OAE:0000632	264-269
+disease	DOID:4,OGMS:0000031	234-241
+Time frame: Patients will be followed up to 10 years. DFS will be calculated from date of randomization until the date of first documented DFS event, this will be assessed at 2 and 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Celecoxib	Results	5
+celecoxib	CHEBI:41423	17-26
+Arm/Group Description: Patients in this arm will receive 400mg of celecoxib once daily. In addition, Hormone Receptor (+) patients will receive endocrine treatment according to local practice.	Results	6
+celecoxib	CHEBI:41423	66-75
+hormone	CHEBI:24621	101-108
+receptor	BAO:0000281	109-117
+Celecoxib: Patients will receive 400mg of Celecoxib once daily for two years or until disease progression (if before the two years limit) or until development of unacceptable toxicities. In addition ER(+) patients will receive endocrine treatment according to local practice.	Results	7
+celecoxib	CHEBI:41423	0-9
+celecoxib	CHEBI:41423	42-51
+disease	DOID:4,OGMS:0000031	86-93
+Overall Number of Participants Analyzed: 1763	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: Percentage of participants  2 Year DFS rate: 91        (90 to 93)	Results	10
+year	UO:0000036	47-51
+rate	BAO:0080019	56-60
+5 Year DFS rate: 84        (82 to 86)	Results	11
+year	UO:0000036	2-6
+rate	BAO:0080019	11-15
+Results 2:	Results	12
+Arm/Group Title: Placebo	Results	13
+Arm/Group Description: Patients in this arm will receive 2 tablets once daily. In addition Hormone Receptor (+) patients will receive endocrine treatment according to local practice.	Results	14
+hormone	CHEBI:24621	91-98
+receptor	BAO:0000281	99-107
+Placebo: Two capsules once daily with food	Results	15
+food	CHEBI:33290	38-42
+Overall Number of Participants Analyzed: 876	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: Percentage of participants  2 Year DFS rate: 90        (87 to 92)	Results	18
+year	UO:0000036	47-51
+rate	BAO:0080019	56-60
+5 Year DFS rate: 83        (81 to 86)	Results	19
+year	UO:0000036	2-6
+rate	BAO:0080019	11-15
+Adverse Events 1:	Adverse Events	0
+Total: 148/1755 (8.43%)	Adverse Events	1
+Anaemia * 1/1755 (0.06%)	Adverse Events	2
+Neutropenia * 0/1755 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 0/1755 (0.00%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Thrombocytopenic purpura * 1/1755 (0.06%)	Adverse Events	5
+purpura	HP:0000979,DOID:3326	17-24
+Acute cardiac event * 1/1755 (0.06%)	Adverse Events	6
+acute	HP:0011009,PATO:0000389	0-5
+Aortic valve incompetence * 1/1755 (0.06%)	Adverse Events	7
+valve	UBERON:0003978	7-12
+Arrhythmia * 1/1755 (0.06%)	Adverse Events	8
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation * 1/1755 (0.06%)	Adverse Events	9
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure * 0/1755 (0.00%)	Adverse Events	10
+Cardiac tamponade * 0/1755 (0.00%)	Adverse Events	11
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Adverse Events 2:	Adverse Events	12
+Total: 64/868 (7.37%)	Adverse Events	13
+Anaemia * 2/868 (0.23%)	Adverse Events	14
+Neutropenia * 2/868 (0.23%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 1/868 (0.12%)	Adverse Events	16
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Thrombocytopenic purpura * 0/868 (0.00%)	Adverse Events	17
+purpura	HP:0000979,DOID:3326	17-24
+Acute cardiac event * 0/868 (0.00%)	Adverse Events	18
+acute	HP:0011009,PATO:0000389	0-5
+Aortic valve incompetence * 0/868 (0.00%)	Adverse Events	19
+valve	UBERON:0003978	7-12
+Arrhythmia * 1/868 (0.12%)	Adverse Events	20
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation * 0/868 (0.00%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure * 1/868 (0.12%)	Adverse Events	22
+Cardiac tamponade * 1/868 (0.12%)	Adverse Events	23
+cardiac tamponade	HP:0033415,DOID:115	0-17

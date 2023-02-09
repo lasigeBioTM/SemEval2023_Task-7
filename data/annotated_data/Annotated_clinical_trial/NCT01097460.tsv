@@ -1,0 +1,92 @@
+INTERVENTION 1:	Intervention	0
+MM-111 + Herceptin	Intervention	1
+MM-111 will be combined with Herceptin	Intervention	2
+MM-111 and Herceptin: For Phase 1: Dose escalation cohorts, MM-111 and Herceptin are administered weekly or bi-weekly via IV	Intervention	3
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed advanced breast cancer that is amplified for HER2, based on archived tumor biopsy (IHC 2+ or greater)	Eligibility	1
+breast cancer	DOID:1612	70-83
+Patients must have histologically or cytologically confirmed advanced breast cancer that is heregulin positive based on fresh tumor tissue biopsy	Eligibility	2
+breast cancer	DOID:1612	70-83
+tissue	UBERON:0000479	132-138
+The patient's cancer must have recurred, progressed or not responded to standard chemotherapy or other standard treatment. Prior therapies may include but are not limited to Herceptin, Tykerb (lapatinib), anthracyclines, and taxanes	Eligibility	3
+patient	HADO:0000008,OAE:0001817	4-11
+cancer	DOID:162	14-20
+lapatinib	CHEBI:49603	193-202
+Patients must be  18 years of age	Eligibility	4
+age	PATO:0000011	30-33
+Patients or their legal representatives must be able to understand and sign an informed consent	Eligibility	5
+Patients may have measurable (per RECIST 1.1) or non-measurable tumor(s) (for Phase 1)	Eligibility	6
+Patients should have ECOG Performance Score (PS) 0, 1 or 2 (for Phase 1).	Eligibility	7
+Patients should have a life expectancy of at least 12 weeks	Eligibility	8
+Patients must have adequate bone marrow reserves	Eligibility	9
+bone marrow	UBERON:0002371	28-39
+Patients must have adequate hepatic function	Eligibility	10
+function	BAO:0003117,BFO:0000034	36-44
+Patients must have adequate renal function	Eligibility	11
+function	BAO:0003117,BFO:0000034	34-42
+Patients must be recovered from the effects of any prior surgery, radiotherapy or other antineoplastic therapy.	Eligibility	12
+surgery	OAE:0000067	57-64
+radiotherapy	OAE:0000235	66-78
+Women of childbearing potential as well as fertile men and their partners must agree to abstain from sexual intercourse or to use an effective form of contraception during the study and for 90 days following the last dose of MM-111.	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Patients who are pregnant or lactating	Eligibility	15
+Patients with an active infection or with an unexplained fever > 38.5°C (101.3° F) during screening visits or on the first scheduled day of dosing.	Eligibility	16
+active	PATO:0002354	17-23
+fever	HP:0001945	57-62
+f	UO:0000195	26-27
+f	UO:0000195	57-58
+f	UO:0000195	80-81
+f	UO:0000195	117-118
+f	UO:0000195	138-139
+day	UO:0000033	133-136
+Patients with untreated and/or symptomatic metastatic CNS malignancies.	Eligibility	17
+Patients with known hypersensitivity to any of the components of MM-111 or who have had hypersensitivity reactions to fully human monoclonal antibodies, including Herceptin.	Eligibility	18
+hypersensitivity	GO:0002524,DOID:1205	20-36
+hypersensitivity	GO:0002524,DOID:1205	88-104
+monoclonal	BAO:0000503	130-140
+Patients who have received other recent antitumor therapy including:	Eligibility	19
+Treatment with Herceptin within the 28 days prior to the first scheduled day of dosing with MM-111	Eligibility	20
+day	UO:0000033	39-42
+day	UO:0000033	73-76
+Investigational therapy administered within the 28 days prior to the first scheduled day of dosing MM-111 (Dosing in less than 28 days' since receiving investigational therapy is acceptable once a time interval equal to at least five half-lives of the investigational agent has passed.)	Eligibility	21
+day	UO:0000033	51-54
+day	UO:0000033	85-88
+day	UO:0000033	130-133
+time	PATO:0000165	197-201
+Any standard chemotherapy, Tykerb (lapatinib) or radiation within 14 days (and having passed the time of any actual or anticipated toxicities) prior to the first scheduled dose of MM-111	Eligibility	22
+lapatinib	CHEBI:49603	35-44
+time	PATO:0000165	97-101
+Patients who have previously received MM-111	Eligibility	23
+Patients with NYHA Class III or IV congestive heart failure or LVEF < 50%	Eligibility	24
+congestive heart failure	HP:0001635,DOID:6000	35-59
+Patients with a history of allogeneic transplant	Eligibility	25
+history	BFO:0000182	16-23
+Patients with known HIV, hepatitis B or C (if patients have previously been treated for hepatitis C and have undetectable viral loads, they can be considered eligible for the trial)	Eligibility	26
+hepatitis b	DOID:2043	25-36
+hepatitis c	DOID:1883	88-99
+Patients with any other medical or psychological condition deemed by the Investigator to be likely to interfere with a patient's ability to sign informed consent, cooperate and participate in the study, or interfere with the interpretation of the results	Eligibility	27
+condition	PDRO:0000129	49-58
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	119-126
+Outcome Measurement:	Results	0
+Incidence of Treatment-emergent AE's	Results	1
+[Not Specified]	Results	2
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: MM-111 + Herceptin	Results	5
+Arm/Group Description: MM-111 will be combined with Herceptin	Results	6
+MM-111 and Herceptin: For Phase 1: Dose escalation cohorts, MM-111 and Herceptin are administered weekly or bi-weekly via IV	Results	7
+Overall Number of Participants Analyzed: 16	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  16	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 2/16 (12.50%)	Adverse Events	1
+PERICARDIAL EFFUSION * 1/16 (6.25%)	Adverse Events	2
+pericardial effusion	HP:0001698,DOID:118	0-20
+TRACHEAL OBSTRUCTION * 1/16 (6.25%)	Adverse Events	3
+PLEURAL EFFUSION * 1/16 (6.25%)	Adverse Events	4
+pleural effusion	HP:0002202	0-16
+DEEP VEIN THROMBOSIS * 1/16 (6.25%)	Adverse Events	5
+vein	UBERON:0001638	5-9
+thrombosis	DOID:0060903	10-20

@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+Abemaciclib + Anastrozole	Intervention	1
+anastrozole	CHEBI:2704	14-25
+Participants were given 150 mg of abemaciclib orally Q12H plus 1 mg of anastrozole orally QD for 2 weeks.	Intervention	2
+anastrozole	CHEBI:2704	71-82
+All participants received 150 mg of abemaciclib orally Q12H plus 1 mg of anastrozole orally QD for an additional 14 weeks.	Intervention	3
+anastrozole	CHEBI:2704	73-84
+Total treatment duration was 16 weeks.	Intervention	4
+duration	PATO:0001309	16-24
+INTERVENTION 2:	Intervention	5
+Abemaciclib	Intervention	6
+Participants received 150 mg of abemaciclib orally Q12H for 2 weeks.	Intervention	7
+All participants received 150 mg of abemaciclib orally Q12H plus 1 mg of anastrozole QD for an additional 14 weeks.	Intervention	8
+anastrozole	CHEBI:2704	73-84
+Total treatment duration was 16 weeks.	Intervention	9
+duration	PATO:0001309	16-24
+Inclusion Criteria:	Eligibility	0
+Have postmenopausal status.	Eligibility	1
+Adenocarcinoma of the breast.	Eligibility	2
+adenocarcinoma	DOID:299	0-14
+breast	UBERON:0000310	22-28
+Breast tumor 1 centimeter (cm) in diameter, HR+, HER2-.	Eligibility	3
+breast	UBERON:0000310	0-6
+centimeter	UO:0000015	15-25
+diameter	PATO:0001334	34-42
+Neoadjuvant endocrine monotherapy is deemed to be a suitable therapy.	Eligibility	4
+Primary breast cancer that is suitable for baseline core biopsy.	Eligibility	5
+breast cancer	DOID:1612	8-21
+Have adequate organ function.	Eligibility	6
+organ	UBERON:0000062	14-19
+function	BAO:0003117,BFO:0000034	20-28
+Exclusion Criteria:	Eligibility	7
+Bilateral invasive breast cancer.	Eligibility	8
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	19-32
+Metastatic breast cancer (local spread to axillary lymph nodes is permitted).	Eligibility	9
+breast cancer	DOID:1612	11-24
+lymph	UBERON:0002391	51-56
+Inflammatory breast cancer.	Eligibility	10
+breast cancer	DOID:1612	13-26
+Prior systemic therapy or radiotherapy for invasive or non-invasive breast cancer in the same breast as currently being treated.	Eligibility	11
+radiotherapy	OAE:0000235	26-38
+breast cancer	DOID:1612	68-81
+breast	UBERON:0000310	68-74
+breast	UBERON:0000310	94-100
+Prior radiotherapy to the ipsilateral chest wall for any malignancy.	Eligibility	12
+radiotherapy	OAE:0000235	6-18
+chest	UBERON:0001443	38-43
+Prior anti-estrogen therapy.	Eligibility	13
+anti-estrogen	CHEBI:50751	6-19
+Outcome Measurement:	Results	0
+Percent Change From Baseline to 2 Weeks in Ki67 Expression	Results	1
+percent change	BAO:0001252	0-14
+Tumor tissue collected through a core biopsy at baseline and at the end of cycle 1 was used to determine Ki67 expression. Ki67 expression is defined as the percent of cells staining positive by validated central assay.	Results	2
+tissue	UBERON:0000479	6-12
+percent	UO:0000187	156-163
+central	HP:0030645	204-211
+Time frame: Baseline, 2 Weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Abemaciclib + Anastrozole	Results	5
+anastrozole	CHEBI:2704	31-42
+Arm/Group Description: Participants were given 150 mg of abemaciclib orally Q12H plus 1 mg of anastrozole orally QD for 2 weeks.	Results	6
+anastrozole	CHEBI:2704	94-105
+All participants received 150 mg of abemaciclib orally Q12H plus 1 mg of anastrozole orally QD for an additional 14 weeks.	Results	7
+anastrozole	CHEBI:2704	73-84
+Total treatment duration was 16 weeks.	Results	8
+duration	PATO:0001309	16-24
+Overall Number of Participants Analyzed: 59	Results	9
+Geometric Mean (90% Confidence Interval)	Results	10
+mean	BAO:0002173	10-14
+Unit of Measure: Percent Change  -92.86        (-94.82 to -90.16)	Results	11
+percent change	BAO:0001252	17-31
+Results 2:	Results	12
+Arm/Group Title: Abemaciclib	Results	13
+Arm/Group Description: Participants received 150 mg of abemaciclib orally Q12H for 2 weeks.	Results	14
+All participants received 150 mg of abemaciclib orally Q12H plus 1 mg of anastrozole QD for an additional 14 weeks.	Results	15
+anastrozole	CHEBI:2704	73-84
+Total treatment duration was 16 weeks.	Results	16
+duration	PATO:0001309	16-24
+Overall Number of Participants Analyzed: 52	Results	17
+Geometric Mean (90% Confidence Interval)	Results	18
+mean	BAO:0002173	10-14
+Unit of Measure: Percent Change  -90.52        (-93.12 to -86.93)	Results	19
+percent change	BAO:0001252	17-31
+Adverse Events 1:	Adverse Events	0
+Total: 1/74 (1.35%)	Adverse Events	1
+Neutropenia 0/74 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Acute coronary syndrome 0/74 (0.00%)	Adverse Events	3
+acute coronary syndrome	HP:0033678	0-23
+Angina pectoris 0/74 (0.00%)	Adverse Events	4
+angina pectoris	HP:0001681	0-15
+Myocardial infarction 0/74 (0.00%)	Adverse Events	5
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Abdominal pain 1/74 (1.35%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Pancreatitis 0/74 (0.00%)	Adverse Events	7
+pancreatitis	HP:0001733,DOID:4989	0-12
+Mastitis 0/74 (0.00%)	Adverse Events	8
+mastitis	DOID:10690	0-8
+Fracture 0/74 (0.00%)	Adverse Events	9
+Alanine aminotransferase increased 1/74 (1.35%)	Adverse Events	10
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased 1/74 (1.35%)	Adverse Events	11
+aspartate	CHEBI:29995	0-9
+Adverse Events 2:	Adverse Events	12
+Total: 1/75 (1.33%)	Adverse Events	13
+Neutropenia 0/75 (0.00%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	0-11
+Acute coronary syndrome 0/75 (0.00%)	Adverse Events	15
+acute coronary syndrome	HP:0033678	0-23
+Angina pectoris 0/75 (0.00%)	Adverse Events	16
+angina pectoris	HP:0001681	0-15
+Myocardial infarction 0/75 (0.00%)	Adverse Events	17
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Abdominal pain 0/75 (0.00%)	Adverse Events	18
+abdominal pain	HP:0002027	0-14
+Pancreatitis 0/75 (0.00%)	Adverse Events	19
+pancreatitis	HP:0001733,DOID:4989	0-12
+Mastitis 0/75 (0.00%)	Adverse Events	20
+mastitis	DOID:10690	0-8
+Fracture 0/75 (0.00%)	Adverse Events	21
+Alanine aminotransferase increased 0/75 (0.00%)	Adverse Events	22
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased 0/75 (0.00%)	Adverse Events	23
+aspartate	CHEBI:29995	0-9

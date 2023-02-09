@@ -1,0 +1,281 @@
+INTERVENTION 1:	Intervention	0
+GTx-024 9 mg	Intervention	1
+Drug: GTx-024 GTx-024 softgel capsules will be administered once daily to a total dose of 9 mg	Intervention	2
+drug	CHEBI:23888	0-4
+GTx-024: To determine whether either or both doses result in an acceptable clinical benefit rate.	Intervention	3
+result	BAO:0000179	51-57
+rate	BAO:0080019	92-96
+INTERVENTION 2:	Intervention	4
+GTx-024 18 mg	Intervention	5
+Drug: GTx-024 GTx-024 softgel capsules will be administered once daily to a total dose of 18 mg	Intervention	6
+drug	CHEBI:23888	0-4
+GTx-024: To determine whether either or both doses result in an acceptable clinical benefit rate.	Intervention	7
+result	BAO:0000179	51-57
+rate	BAO:0080019	92-96
+Inclusion Criteria:	Eligibility	0
+Adult women ( 18 years of age) with metastatic or recurrent locally advanced BC, not amenable to curative treatment by surgery or radiotherapy, with objective evidence of disease progression.	Eligibility	1
+adult	EFO:0001272	0-5
+age	PATO:0000011	26-29
+recurrent	HP:0031796	50-59
+surgery	OAE:0000067	119-126
+radiotherapy	OAE:0000235	130-142
+disease	DOID:4,OGMS:0000031	171-178
+Women must have received  1 prior hormonal treatment(s) in the metastatic or adjuvant setting. If the most recent hormonal treatment was in the metastatic setting, duration of response (tumor regression or stabilization of disease) to this specific course of therapy must be  6 months. If the most recent hormonal treatment was in the adjuvant setting, duration of response (disease free) to this specific course of therapy must be  3 years	Eligibility	2
+adjuvant	CHEBI:60809	77-85
+adjuvant	CHEBI:60809	335-343
+duration	PATO:0001309	164-172
+duration	PATO:0001309	353-361
+disease	DOID:4,OGMS:0000031	223-230
+disease	DOID:4,OGMS:0000031	375-382
+Histological or cytological confirmation of ER+ BC as assessed by a local laboratory using slides, paraffin blocks, or paraffin sample or by medical history: ER+ (confirmed as ER expression more than or equal to 1% positive tumor nuclei)	Eligibility	3
+history	BFO:0000182	149-156
+Human epidermal growth factor receptor 2 (HER2)-negative tumor by local laboratory testing (immunohistochemistry [IHC] 0, 1+ regardless of fluorescence in situ hybridization [FISH] ratio; IHC 2+ with FISH ratio lower than 2.0 or HER2 gene copy less than 6.0; FISH ratio of 0, indicating gene deletion, when positive and negative in situ hybridization [ISH] controls are present)	Eligibility	4
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+immunohistochemistry	BAO:0000415	92-112
+ratio	UO:0000190	181-186
+ratio	UO:0000190	205-210
+ratio	UO:0000190	264-269
+gene	BAO:0000582	234-238
+gene	BAO:0000582	287-291
+present	PATO:0000467	370-377
+Availability of paraffin embedded or formalin fixed tumor tissue; OR, a minimum of 10 and up to 20 slides of archived tumor tissue or new biopsy, if archived tissue is unavailable for central laboratory confirmation of AR status and molecular subtyping. Metastatic tumor tissue is preferred when possible.	Eligibility	5
+tissue	UBERON:0000479	58-64
+tissue	UBERON:0000479	124-130
+tissue	UBERON:0000479	158-164
+tissue	UBERON:0000479	271-277
+central	HP:0030645	184-191
+Postmenopausal women. Postmenopausal status is defined by the National Comprehensive Cancer Network as either:	Eligibility	6
+cancer	DOID:162	85-91
+Age  55 years and one year or more of amenorrhea	Eligibility	7
+age	PATO:0000011	0-3
+year	UO:0000036	8-12
+year	UO:0000036	22-26
+amenorrhea	HP:0000141,DOID:13938	38-48
+Age < 55 years and one year or more of amenorrhea, with an estradiol assay < 20 pg/mL	Eligibility	8
+age	PATO:0000011	0-3
+year	UO:0000036	9-13
+year	UO:0000036	23-27
+amenorrhea	HP:0000141,DOID:13938	39-49
+estradiol	CHEBI:23965	59-68
+Age < 55 years and surgical menopause with bilateral oophorectomy a. Note: Ovarian radiation or treatment with a luteinizing hormone-releasing hormone (LH-RH) agonist (goserelin acetate or leuprolide acetate) is not permitted for induction of ovarian suppression at the time of screening. Long term use (>6 months prior to screening) is permitted	Eligibility	9
+age	PATO:0000011	0-3
+menopause	GO:0042697	28-37
+bilateral	HP:0012832	43-52
+hormone	CHEBI:24621	125-132
+hormone	CHEBI:24621	143-150
+agonist	CHEBI:48705	159-166
+goserelin	CHEBI:5523	168-177
+acetate	CHEBI:47622	178-185
+acetate	CHEBI:47622	200-207
+leuprolide acetate	CHEBI:63597	189-207
+time	PATO:0000165	270-274
+Radiological or clinical evidence (bone scan, computerized tomography [CT], and magnetic resonance Imaging [MRI]) of recurrence or progression within 30 days before randomization	Eligibility	10
+tomography	BAO:0002525	59-69
+ct	BAO:0002125	71-73
+Subject must have either measurable disease or bone only non measurable disease, according to RECIST1.1	Eligibility	11
+disease	DOID:4,OGMS:0000031	36-43
+disease	DOID:4,OGMS:0000031	72-79
+Adequate organ function as shown by:	Eligibility	12
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Absolute neutrophil count (ANC)  1,500 cells/mm3	Eligibility	13
+Platelet count  100,000 cells/mm3	Eligibility	14
+platelet count	CMO:0000029	0-14
+Hemoglobin (Hgb)  9.0 g/dL	Eligibility	15
+hemoglobin	CHEBI:35143	0-10
+Serum aspartate aminotransferase (AST) and alanine transaminase (ALT)  2.5 upper limit of the normal range (ULN) (or  5 if hepatic metastases are present)	Eligibility	16
+aspartate	CHEBI:29995	6-15
+alanine	CHEBI:16449	43-50
+range	LABO:0000114	101-106
+present	PATO:0000467	146-153
+Total serum bilirubin  2.0 × ULN (unless the subject has documented Gilbert Syndrome)	Eligibility	17
+gilbert syndrome	DOID:2739	68-84
+Alkaline phosphatase levels  2.5 × ULN ( 5 × ULN in subjects with liver metastasis)	Eligibility	18
+phosphatase	GO:0016791,BAO:0000295	9-20
+liver	UBERON:0002107	66-71
+Serum creatinine  2.0 mg/dL or 177 µmol/L	Eligibility	19
+creatinine	CHEBI:16737	6-16
+International normalized ratio (INR), activated partial thromboplastin (aPTT), or partial thromboplastin time (PTT) < 1.5 × ULN (unless on anticoagulant treatment at screening)	Eligibility	20
+ratio	UO:0000190	25-30
+activated	BAO:0003072	38-47
+time	PATO:0000165	105-109
+anticoagulant	CHEBI:50249	139-152
+Subject has an Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1	Eligibility	21
+group	CHEBI:24433	44-49
+Subjects with bone metastases should be treated with intravenous bisphosphonates or subcutaneous denosumab (or investigator preferred standard of care) prior to and/or during the trial, unless there is a contraindication or subject intolerance to these therapies. For patients who are normocalcemic, therapy can be initiated at the time the patient initiates study drug	Eligibility	22
+contraindication	OAE:0000055	204-220
+time	PATO:0000165	332-336
+patient	HADO:0000008,OAE:0001817	268-275
+patient	HADO:0000008,OAE:0001817	341-348
+drug	CHEBI:23888	365-369
+Subject is able to swallow capsules	Eligibility	23
+Able and willing to give voluntary, written and signed informed consent before any screening procedure and according to local guidelines	Eligibility	24
+Exclusion Criteria:	Eligibility	25
+Previously received > 1 course of chemotherapy (not including immunotherapies or targeted therapies) for the treatment of metastatic	Eligibility	26
+a. Note: Subjects may have received 1 course of chemotherapy prior to surgery for the treatment of locally advanced disease and 1 course of chemotherapy for the treatment of metastatic BC; however, if surgery could not be performed, this will count as the 1 chemotherapy course allowed prior to study	Eligibility	27
+surgery	OAE:0000067	70-77
+surgery	OAE:0000067	201-208
+disease	DOID:4,OGMS:0000031	116-123
+Known hypersensitivity to any of the GTx-024 components or subjects previously received treatment with SARM	Eligibility	28
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Subjects with radiographic evidence of central nervous system (CNS) metastases as assessed by CT or MRI that are not well controlled (symptomatic or requiring control with continuous corticosteroid therapy [e.g., dexamethasone])	Eligibility	29
+central nervous system	UBERON:0001017	39-61
+ct	BAO:0002125	5-7
+ct	BAO:0002125	94-96
+corticosteroid	CHEBI:50858	183-197
+dexamethasone	CHEBI:41879	213-226
+a. Note: Subjects with CNS metastases are permitted to participate in the study if the CNS metastases are medically well-controlled and stable for at least 28 days after receiving local therapy (irradiation, surgery, etc.)	Eligibility	30
+stable	HP:0031915	136-142
+surgery	OAE:0000067	208-215
+Radiotherapy within 14 days prior to randomization except in case of localized radiotherapy for analgesic purpose or for lytic lesions at risk of fracture, which can then be completed within 7 days prior to randomization. Subjects must have recovered from radiotherapy toxicities prior to randomization	Eligibility	31
+radiotherapy	OAE:0000235	0-12
+radiotherapy	OAE:0000235	79-91
+radiotherapy	OAE:0000235	256-268
+localized	HP:0012838,PATO:0000627	69-78
+analgesic	CHEBI:35480	96-105
+Currently receiving hormone replacement therapy, unless discontinued prior to screening	Eligibility	32
+hormone	CHEBI:24621	20-27
+Subjects positive for Human Immunodeficiency Virus (HIV)	Eligibility	33
+immunodeficiency	HP:0002721	28-44
+virus	BAO:0000232	45-50
+Subject has a concomitant medical condition that precludes adequate study treatment compliance or assessment, or increases subject risk, in the opinion of the Investigator, such as but not limited to:	Eligibility	34
+condition	PDRO:0000129	34-43
+Myocardial infarction or arterial thromboembolic events within 6 months prior to Baseline or severe or unstable angina, New York Heart Association (NYHA) Class III or IV disease, or a QTcB (corrected according to Bazett's formula) interval > 470 msec	Eligibility	35
+myocardial infarction	HP:0001658,DOID:5844	0-21
+severe	HP:0012828	93-99
+heart	UBERON:0000948	129-134
+disease	DOID:4,OGMS:0000031	170-177
+Serious uncontrolled cardiac arrhythmia grade II or higher according to NYHA	Eligibility	36
+arrhythmia	HP:0011675	29-39
+Uncontrolled hypertension (systolic > 150 and/or diastolic > 100 mm Hg)	Eligibility	37
+hypertension	HP:0000822,DOID:10763	13-25
+Acute and chronic, active infectious disorders and non malignant medical illnesses that are uncontrolled or whose control may be jeopardized by the complications of this study therapy	Eligibility	38
+acute	HP:0011009,PATO:0000389	0-5
+chronic	HP:0011010	10-17
+active	PATO:0002354	19-25
+Impairment of gastrointestinal function or gastrointestinal disease that may significantly alter the absorption of study drugs (e.g., ulcerative disease, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome)	Eligibility	39
+function	BAO:0003117,BFO:0000034	31-39
+disease	DOID:4,OGMS:0000031	60-67
+disease	DOID:4,OGMS:0000031	145-152
+nausea	HP:0002018	167-173
+vomiting	HP:0002013	175-183
+diarrhea	HP:0002014,DOID:13250	185-193
+malabsorption	HP:0002024	195-208
+syndrome	DOID:225	209-217
+Another active cancer (excluding adequately treated basal cell carcinoma or cervical intraepithelial neoplasia [CIN]/cervical carcinoma in situ or melanoma in situ). Prior history of other cancer is allowed as long as there is no active disease within the prior 5 years	Eligibility	40
+active	PATO:0002354	8-14
+active	PATO:0002354	230-236
+cancer	DOID:162	15-21
+cancer	DOID:162	189-195
+basal cell carcinoma	HP:0002671,DOID:2513	52-72
+cervical intraepithelial neoplasia	HP:0032242	76-110
+carcinoma	HP:0030731,DOID:305	63-72
+carcinoma	HP:0030731,DOID:305	126-135
+melanoma	HP:0002861,DOID:1909	147-155
+history	BFO:0000182	172-179
+disease	DOID:4,OGMS:0000031	237-244
+Major surgery within 28 days before randomization	Eligibility	41
+surgery	OAE:0000067	6-13
+Positive hepatitis B virus (HBV) and/or hepatitis C virus (HCV) infection at screening	Eligibility	42
+hepatitis b	DOID:2043	9-20
+virus	BAO:0000232	21-26
+virus	BAO:0000232	52-57
+hepatitis c	DOID:1883	40-51
+History of non-compliance to medical regimens	Eligibility	43
+history	BFO:0000182	0-7
+Subjects unwilling to or unable to comply with the protocol	Eligibility	44
+Subject is currently receiving treatment with any agent listed on the prohibited medication list	Eligibility	45
+Treatment with any investigational product within < 4 half-lives for each individual investigational product OR 28 days prior to randomization	Eligibility	46
+product	BAO:0003067	35-42
+product	BAO:0003067	101-108
+Current treatment with intravenous bisphosphonate or denosumab with elevated serum calcium corrected for albumin or ionized calcium levels outside institutional normal limits at screening	Eligibility	47
+calcium	CHEBI:22984,BAO:0000874	83-90
+calcium	CHEBI:22984,BAO:0000874	124-131
+Outcome Measurement:	Results	0
+Clinical Benefit Rate, in Centrally Confirmed Androgen Receptor (AR)+ Subjects	Results	1
+rate	BAO:0080019	17-21
+androgen	CHEBI:50113	46-54
+receptor	BAO:0000281	55-63
+To estimate the clinical benefit rate (defined as complete response, partial response, or stable disease) according to RECIST 1.1, in subjects with estrogen receptor positive/androgen receptor positive (ER+/AR+) BC who have centrally confirmed AR+ status. Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1) for target lesions assessed by CT or MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR; Clinical Benefit Rate (CBR)= CR + PR + SD.	Results	2
+rate	BAO:0080019	33-37
+rate	BAO:0080019	573-577
+stable	HP:0031915	90-96
+disease	DOID:4,OGMS:0000031	97-104
+estrogen	CHEBI:50114,BAO:0000760	148-156
+receptor	BAO:0000281	157-165
+receptor	BAO:0000281	184-192
+target	BAO:0003064	332-338
+target	BAO:0003064	415-421
+target	BAO:0003064	507-513
+ct	BAO:0002125	139-141
+ct	BAO:0002125	359-361
+diameter	PATO:0001334	495-503
+Time frame: 24 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: GTx-024 9 mg	Results	5
+Arm/Group Description: Drug: GTx-024 GTx-024 softgel capsules will be administered once daily to a total dose of 9 mg	Results	6
+drug	CHEBI:23888	23-27
+GTx-024: To determine whether either or both doses result in an acceptable clinical benefit rate.	Results	7
+result	BAO:0000179	51-57
+rate	BAO:0080019	92-96
+Overall Number of Participants Analyzed: 50	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  16	Results	10
+Results 2:	Results	11
+Arm/Group Title: GTx-024 18 mg	Results	12
+Arm/Group Description: Drug: GTx-024 GTx-024 softgel capsules will be administered once daily to a total dose of 18 mg	Results	13
+drug	CHEBI:23888	23-27
+GTx-024: To determine whether either or both doses result in an acceptable clinical benefit rate.	Results	14
+result	BAO:0000179	51-57
+rate	BAO:0080019	92-96
+Overall Number of Participants Analyzed: 52	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: participants  15	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 6/72 (8.33%)	Adverse Events	1
+anemia and marrow failure  0/72 (0.00%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+cardiac failure  0/72 (0.00%)	Adverse Events	3
+hypertension  1/72 (1.39%)	Adverse Events	4
+hypertension	HP:0000822,DOID:10763	0-12
+myocardial infarction  0/72 (0.00%)	Adverse Events	5
+myocardial infarction	HP:0001658,DOID:5844	0-21
+diabetes  1/72 (1.39%)	Adverse Events	6
+nausea  1/72 (1.39%)	Adverse Events	7
+nausea	HP:0002018	0-6
+gastritis  0/72 (0.00%)	Adverse Events	8
+gastritis	HP:0005263,DOID:4029	0-9
+sepsis  2/72 (2.78%)	Adverse Events	9
+sepsis	HP:0100806	0-6
+cellulitis  1/72 (1.39%)	Adverse Events	10
+cellulitis	HP:0100658,DOID:3488	0-10
+pneumonia  0/72 (0.00%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	0-9
+h pylori infection  0/72 (0.00%)	Adverse Events	12
+hypercalcemia  1/72 (1.39%)	Adverse Events	13
+hypercalcemia	HP:0003072,DOID:12678	0-13
+Adverse Events 2:	Adverse Events	14
+Total: 10/64 (15.63%)	Adverse Events	15
+anemia and marrow failure  1/64 (1.56%)	Adverse Events	16
+anemia	HP:0001903,DOID:2355	0-6
+cardiac failure  2/64 (3.13%)	Adverse Events	17
+hypertension  1/64 (1.56%)	Adverse Events	18
+hypertension	HP:0000822,DOID:10763	0-12
+myocardial infarction  1/64 (1.56%)	Adverse Events	19
+myocardial infarction	HP:0001658,DOID:5844	0-21
+diabetes  0/64 (0.00%)	Adverse Events	20
+nausea  0/64 (0.00%)	Adverse Events	21
+nausea	HP:0002018	0-6
+gastritis  1/64 (1.56%)	Adverse Events	22
+gastritis	HP:0005263,DOID:4029	0-9
+sepsis  2/64 (3.13%)	Adverse Events	23
+sepsis	HP:0100806	0-6
+cellulitis  0/64 (0.00%)	Adverse Events	24
+cellulitis	HP:0100658,DOID:3488	0-10
+pneumonia  1/64 (1.56%)	Adverse Events	25
+pneumonia	HP:0002090,DOID:552	0-9
+h pylori infection  1/64 (1.56%)	Adverse Events	26
+hypercalcemia  4/64 (6.25%)	Adverse Events	27
+hypercalcemia	HP:0003072,DOID:12678	0-13

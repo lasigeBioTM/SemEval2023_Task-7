@@ -1,0 +1,100 @@
+INTERVENTION 1:	Intervention	0
+Fulvestrant + Anastrozole	Intervention	1
+fulvestrant	CHEBI:31638	0-11
+anastrozole	CHEBI:2704	14-25
+Fulvestrant 250 mg Loading Dose Regimen + Anastrozole 1 mg	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+anastrozole	CHEBI:2704	42-53
+INTERVENTION 2:	Intervention	3
+Anastrozole	Intervention	4
+anastrozole	CHEBI:2704	0-11
+Anastrozole 1 mg	Intervention	5
+anastrozole	CHEBI:2704	0-11
+Inclusion Criteria:	Eligibility	0
+Signed informed consent, postmenopausal females, histological or cytological confirmed oestrogene and/or progesterone (PgR) receptor positive breast cancer, local recurrence or metastasis	Eligibility	1
+progesterone	CHEBI:17026	105-117
+receptor	BAO:0000281	124-132
+breast cancer	DOID:1612	142-155
+Exclusion Criteria:	Eligibility	2
+Previous systemic endocrine therapy for advanced or recurrent disease; prior fulvestrant therapy	Eligibility	3
+recurrent	HP:0031796	52-61
+disease	DOID:4,OGMS:0000031	62-69
+fulvestrant	CHEBI:31638	77-88
+Premenopausal women	Eligibility	4
+Outcome Measurement:	Results	0
+Time to Progression (TTP)	Results	1
+time	PATO:0000165	0-4
+ttp	CHEBI:63550	21-24
+RECIST (Response Evaluation Criteria in Solid Tumours) assessments carried out every 8 weeks from randomisation until data cut-off on 30th April 2009. TTP, time in months to worsen 'progression' according to RECIST criteria. (RECIST is a set of published rules that define when cancer patients improve "respond", stay the same "stable"or worsen "progression" during treatments.	Results	2
+ttp	CHEBI:63550	151-154
+time	PATO:0000165	156-160
+cancer	DOID:162	278-284
+stable	HP:0031915	328-334
+Time frame: RECIST assessments carried out every 8 weeks from randomisation until data cut-off on 30th April 2009	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Fulvestrant + Anastrozole	Results	5
+fulvestrant	CHEBI:31638	17-28
+anastrozole	CHEBI:2704	31-42
+Arm/Group Description: Fulvestrant 250 mg Loading Dose Regimen + Anastrozole 1 mg	Results	6
+fulvestrant	CHEBI:31638	23-34
+anastrozole	CHEBI:2704	65-76
+Overall Number of Participants Analyzed: 258	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: months  10.8        (0 to 49.31)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Anastrozole	Results	11
+anastrozole	CHEBI:2704	17-28
+Arm/Group Description: Anastrozole 1 mg	Results	12
+anastrozole	CHEBI:2704	23-34
+Overall Number of Participants Analyzed: 256	Results	13
+Median (Full Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: months  10.2        (0 to 54.34)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 40/256 (15.63%)	Adverse Events	1
+Anaemia 1/256 (0.39%)	Adverse Events	2
+Cardiac Failure 3/256 (1.17%)	Adverse Events	3
+Pericardial Effusion 0/256 (0.00%)	Adverse Events	4
+pericardial effusion	HP:0001698,DOID:118	0-20
+Angina Pectoris 0/256 (0.00%)	Adverse Events	5
+angina pectoris	HP:0001681	0-15
+Arrhythmia 0/256 (0.00%)	Adverse Events	6
+arrhythmia	HP:0011675	0-10
+Atrial Flutter 0/256 (0.00%)	Adverse Events	7
+atrial flutter	HP:0004749	0-14
+Cardiac Arrest 0/256 (0.00%)	Adverse Events	8
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Atrial Fibrillation 1/256 (0.39%)	Adverse Events	9
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Bradycardia 1/256 (0.39%)	Adverse Events	10
+bradycardia	HP:0001662	0-11
+Cardiomyopathy 1/256 (0.39%)	Adverse Events	11
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Myocardial Infarction 1/256 (0.39%)	Adverse Events	12
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Adverse Events 2:	Adverse Events	13
+Total: 45/254 (17.72%)	Adverse Events	14
+Anaemia 1/254 (0.39%)	Adverse Events	15
+Cardiac Failure 1/254 (0.39%)	Adverse Events	16
+Pericardial Effusion 2/254 (0.79%)	Adverse Events	17
+pericardial effusion	HP:0001698,DOID:118	0-20
+Angina Pectoris 1/254 (0.39%)	Adverse Events	18
+angina pectoris	HP:0001681	0-15
+Arrhythmia 1/254 (0.39%)	Adverse Events	19
+arrhythmia	HP:0011675	0-10
+Atrial Flutter 1/254 (0.39%)	Adverse Events	20
+atrial flutter	HP:0004749	0-14
+Cardiac Arrest 1/254 (0.39%)	Adverse Events	21
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Atrial Fibrillation 0/254 (0.00%)	Adverse Events	22
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Bradycardia 0/254 (0.00%)	Adverse Events	23
+bradycardia	HP:0001662	0-11
+Cardiomyopathy 0/254 (0.00%)	Adverse Events	24
+cardiomyopathy	HP:0001638,DOID:0050700	0-14
+Myocardial Infarction 0/254 (0.00%)	Adverse Events	25
+myocardial infarction	HP:0001658,DOID:5844	0-21

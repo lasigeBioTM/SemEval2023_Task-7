@@ -1,0 +1,107 @@
+INTERVENTION 1:	Intervention	0
+Exemestane and Fulvestrant	Intervention	1
+exemestane	CHEBI:4953	0-10
+fulvestrant	CHEBI:31638	15-26
+Combination of daily exemestane 25 mg with monthly 250 mg Fulvestrant injection	Intervention	2
+exemestane	CHEBI:4953	21-31
+fulvestrant	CHEBI:31638	58-69
+Exemestane: 25 mg orally per day	Intervention	3
+exemestane	CHEBI:4953	0-10
+day	UO:0000033	29-32
+Fulvestrant: 250 mg IM starting on Day 8 and then every 28 days.	Intervention	4
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	35-38
+day	UO:0000033	59-62
+Inclusion Criteria:	Eligibility	0
+Proven breast cancer	Eligibility	1
+breast cancer	DOID:1612	7-20
+Metastatic or locally advanced breast cancer	Eligibility	2
+breast cancer	DOID:1612	31-44
+Hormonally responsive disease defined as estrogen (ER) and/ or progesterone receptor (PR) positive (>10% staining by immunohistochemistry)	Eligibility	3
+disease	DOID:4,OGMS:0000031	22-29
+estrogen	CHEBI:50114,BAO:0000760	41-49
+progesterone	CHEBI:17026	63-75
+receptor	BAO:0000281	76-84
+immunohistochemistry	BAO:0000415	117-137
+Postmenopausal status	Eligibility	4
+No more than 1 prior chemotherapy for stage IV metastatic breast cancer allowed	Eligibility	5
+breast cancer	DOID:1612	58-71
+ECOG (Eastern Cooperative Oncology Group) performance status 0-2	Eligibility	6
+group	CHEBI:24433	35-40
+Adequate organ function	Eligibility	7
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	8
+No prior Exemestane or Fulvestrant	Eligibility	9
+exemestane	CHEBI:4953	9-19
+fulvestrant	CHEBI:31638	23-34
+Uncontrolled intercurrent illness including but not limited to:	Eligibility	10
+ongoing or active infection	Eligibility	11
+active	PATO:0002354	11-17
+symptomatic congestive heart failure	Eligibility	12
+congestive heart failure	HP:0001635,DOID:6000	12-36
+unstable angina pectoris	Eligibility	13
+angina pectoris	HP:0001681	9-24
+cardiac arrhythmia	Eligibility	14
+arrhythmia	HP:0011675	8-18
+myocardial infarction within the last 3 months	Eligibility	15
+myocardial infarction	HP:0001658,DOID:5844	0-21
+psychiatric illness/social situations that would limit compliance with study	Eligibility	16
+Lymphangitic pulmonary disease; carcinomatous meningitis, bone marrow only metastases; and a rising tumor marker without any other site of metastatic disease.	Eligibility	17
+disease	DOID:4,OGMS:0000031	23-30
+disease	DOID:4,OGMS:0000031	150-157
+meningitis	HP:0001287,DOID:9471	46-56
+bone marrow	UBERON:0002371	58-69
+site	BFO:0000029	131-135
+Presence of bleeding diathesis or coagulopathy, patients requiring coumadin	Eligibility	18
+Outcome Measurement:	Results	0
+Time to Progression (TTP) in Women With Hormone Responsive Advanced Breast Cancer Treated With Combination of Exemestane and Fulvestrant.	Results	1
+time	PATO:0000165	0-4
+ttp	CHEBI:63550	21-24
+hormone	CHEBI:24621	40-47
+breast cancer	DOID:1612	68-81
+exemestane	CHEBI:4953	110-120
+fulvestrant	CHEBI:31638	125-136
+TTP is defined as the time from first treatment to objective evidence of progression on the basis of radiological evaluation and/or physical exam (if physical examination identifies a site of measurable disease). Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions	Results	2
+ttp	CHEBI:63550	0-3
+time	PATO:0000165	22-26
+physical examination	OAE:0004232	150-170
+site	BFO:0000029	184-188
+disease	DOID:4,OGMS:0000031	203-210
+increase	BAO:0001251	320-328
+increase	BAO:0001251	399-407
+diameter	PATO:0001334	355-363
+target	BAO:0003064	367-373
+target	BAO:0003064	417-423
+Time frame: Every 2 cycles up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Exemestane and Fulvestrant	Results	5
+exemestane	CHEBI:4953	17-27
+fulvestrant	CHEBI:31638	32-43
+Arm/Group Description: Combination of daily exemestane 25 mg with monthly 250 mg Fulvestrant injection	Results	6
+exemestane	CHEBI:4953	44-54
+fulvestrant	CHEBI:31638	81-92
+Exemestane: 25 mg orally per day	Results	7
+exemestane	CHEBI:4953	0-10
+day	UO:0000033	29-32
+Fulvestrant: 250 mg IM starting on Day 8 and then every 28 days.	Results	8
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	35-38
+day	UO:0000033	59-62
+Overall Number of Participants Analyzed: 40	Results	9
+Median (95% Confidence Interval)	Results	10
+median	BAO:0002174	0-6
+Unit of Measure: months  6.9        (3.9 to 13.5)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 6/40 (15.00%)	Adverse Events	1
+Nausea 1/40 (2.50%)	Adverse Events	2
+nausea	HP:0002018	0-6
+Vomiting 1/40 (2.50%)	Adverse Events	3
+vomiting	HP:0002013	0-8
+Chest pain 1/40 (2.50%)	Adverse Events	4
+chest pain	HP:0100749	0-10
+Hypercalcemia 1/40 (2.50%)	Adverse Events	5
+hypercalcemia	HP:0003072,DOID:12678	0-13
+Thromboembolism 2/40 (5.00%)	Adverse Events	6
+thromboembolism	HP:0001907	0-15

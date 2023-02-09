@@ -1,0 +1,57 @@
+INTERVENTION 1:	Intervention	0
+Doxorubicin + Cyclophosphamide/Bevacizumab + Docetaxel	Intervention	1
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Participants received doxorubicin 60 mg/m^2 IV followed by cyclophosphamide 600 mg/m^2 IV on Day 1, repeated every 3 weeks for a maximum of 4 cycles. Participants then received bevacizumab 15 mg/kg IV followed by docetaxel 75 mg/m^2 IV on Day 1, repeated every 3 weeks for a maximum of 4 cycles.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	22-33
+cyclophosphamide	CHEBI:4026	59-75
+day	UO:0000033	93-96
+day	UO:0000033	239-242
+Inclusion Criteria:	Eligibility	0
+female patients, >=18 years of age;	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	31-34
+primary HER2-negative operable breast cancer;	Eligibility	2
+breast cancer	DOID:1612	31-44
+tumor >2cm in size;	Eligibility	3
+size	PATO:0000117	14-18
+ECOG performance status 0-1.	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+previous treatment for breast cancer;	Eligibility	6
+breast cancer	DOID:1612	23-36
+metastatic disease;	Eligibility	7
+disease	DOID:4,OGMS:0000031	11-18
+current or recent (within 10 days of first dose of Avastin) use of aspirin (>325mg/day) or full-dose anticoagulants for therapeutic purposes;	Eligibility	8
+clinically significant cardiovascular disease.	Eligibility	9
+disease	DOID:4,OGMS:0000031	38-45
+Outcome Measurement:	Results	0
+Percentage of Participants With Pathological Complete Response (pCR)	Results	1
+The percentage of participants with pCR was determined by anatomopathological study after completion of 8 cycles of study treatment. The anatomopathological study of the surgical piece was performed and assessed according to the Miller-Payne criteria: 1) the primary tumor was Grade 5 (no malignant cells identified at the location of the primary tumor (ductal carcinoma in situ may be present); 2) no involvement was identified in the lymph nodes; 3) the tumour size at evaluation of the surgical piece was 0 centimeters (cm); and 4) the pathological staging of the tumour from the surgical piece was pT0pN0pM0, the stage is not applicable (NA). It will only be considered pCR in the case of absence of invasive tumour cells in the breast and lymph nodes.	Results	2
+ductal carcinoma in situ	HP:0030075,DOID:0060074	354-378
+present	PATO:0000467	386-393
+lymph	UBERON:0002391	436-441
+lymph	UBERON:0002391	744-749
+size	PATO:0000117	463-467
+breast	UBERON:0000310	733-739
+Time frame: After Week 24 (surgery)	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	18-22
+surgery	OAE:0000067	27-34
+Results 1:	Results	4
+Arm/Group Title: Doxorubicin + Cyclophosphamide/Bevacizumab + Docetaxel	Results	5
+doxorubicin	CHEBI:28748,BAO:0000639	17-28
+Arm/Group Description: Participants received doxorubicin 60 mg/m^2 IV followed by cyclophosphamide 600 mg/m^2 IV on Day 1, repeated every 3 weeks for a maximum of 4 cycles. Participants then received bevacizumab 15 mg/kg IV followed by docetaxel 75 mg/m^2 IV on Day 1, repeated every 3 weeks for a maximum of 4 cycles.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	45-56
+cyclophosphamide	CHEBI:4026	82-98
+day	UO:0000033	116-119
+day	UO:0000033	262-265
+Overall Number of Participants Analyzed: 66	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  24.2        (14.5 to 36.4)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 13/72 (18.06%)	Adverse Events	1
+Neutrophils/granulocytes * 24/72 (5.56%)	Adverse Events	2
+Mucositis/stomatitis * 22/72 (2.78%)	Adverse Events	3
+Vomiting * 21/72 (1.39%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Febrile neutropaenia * 6/72 (8.33%)	Adverse Events	5
+Infection with normal absolute neutrophil count (ANC) or grade 1 or 2 neutrophils * 21/72 (1.39%)	Adverse Events	6

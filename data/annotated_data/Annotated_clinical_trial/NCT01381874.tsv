@@ -1,0 +1,142 @@
+INTERVENTION 1:	Intervention	0
+Exemestane	Intervention	1
+exemestane	CHEBI:4953	0-10
+Participants received exemestane tablet as oral dose of 25 milligram (mg) per day in 28-day treatment cycles until disease progression, unacceptable toxicity, or death (up to 3 years).	Intervention	2
+exemestane	CHEBI:4953	22-32
+day	UO:0000033	78-81
+day	UO:0000033	88-91
+disease	DOID:4,OGMS:0000031	115-122
+death	OAE:0000632	162-167
+INTERVENTION 2:	Intervention	3
+Abiraterone Acetate + Prednisone	Intervention	4
+abiraterone acetate	CHEBI:68639	0-19
+prednisone	CHEBI:8382	22-32
+Participants received abiraterone acetate tablet at a total oral dose of 1000 milligram (mg) along with 5 mg capsule of prednisone/prednisolone per day in 28-day treatment cycles until disease progression, unacceptable toxicity, or death (up to 3 years).	Intervention	5
+abiraterone acetate	CHEBI:68639	22-41
+capsule	GO:0042603	109-116
+day	UO:0000033	148-151
+day	UO:0000033	158-161
+disease	DOID:4,OGMS:0000031	185-192
+death	OAE:0000632	232-237
+Inclusion Criteria:	Eligibility	0
+Female patients must be postmenopausal	Eligibility	1
+female	PATO:0000383	0-6
+ER+, Human epidermal growth factor receptor 2 (Her2) negative metastatic breast cancer	Eligibility	2
+growth factor	BAO:0002024	21-34
+receptor	BAO:0000281	35-43
+breast cancer	DOID:1612	73-86
+Disease must have been sensitive to anastrozole or letrozole therapy prior to disease progression	Eligibility	3
+disease	DOID:4,OGMS:0000031	0-7
+disease	DOID:4,OGMS:0000031	78-85
+anastrozole	CHEBI:2704	36-47
+letrozole	CHEBI:6413	51-60
+No more than two prior lines of therapy in the metastatic setting, of which no more than one was chemotherapy	Eligibility	4
+Eastern Cooperative Oncology Group (ECOG) performance status score of <=1	Eligibility	5
+group	CHEBI:24433	29-34
+Patients with disease confined only to bone may be included, but patients with purely sclerotic lesions may not participate in the study	Eligibility	6
+disease	DOID:4,OGMS:0000031	14-21
+Exclusion Criteria:	Eligibility	7
+Prior treatment with exemestane, ketoconazole, aminoglutethimide, or a CYP17 inhibitor. Prior treatment with ketoconazole for <= 7 days is permitted and topical formulations of ketoconazole are permitted	Eligibility	8
+exemestane	CHEBI:4953	21-31
+ketoconazole	CHEBI:47519,BAO:0000796	33-45
+ketoconazole	CHEBI:47519,BAO:0000796	109-121
+ketoconazole	CHEBI:47519,BAO:0000796	177-189
+aminoglutethimide	CHEBI:2654	47-64
+inhibitor	CHEBI:35222	77-86
+Potential patients must not have taken anastrozole, letrozole, fulvestrant, or any chemotherapy for at least 2 weeks (bevacizumab for at least 3 weeks) before randomization	Eligibility	9
+anastrozole	CHEBI:2704	39-50
+letrozole	CHEBI:6413	52-61
+fulvestrant	CHEBI:31638	63-74
+Anticancer immunotherapy or investigational agent within 4 weeks before randomization, or anticancer radiotherapy (except palliative) or anticancer endocrine therapy within 2 weeks before randomization	Eligibility	10
+radiotherapy	OAE:0000235	101-113
+Serious or uncontrolled nonmalignant disease, including active or uncontrolled infection	Eligibility	11
+disease	DOID:4,OGMS:0000031	37-44
+active	PATO:0002354	56-62
+Clinical or biochemical evidence of hyperaldosteronism or hypopituitarism	Eligibility	12
+hyperaldosteronism	HP:0000859,DOID:446	36-54
+hypopituitarism	HP:0040075,DOID:9406	58-73
+Any condition that, in the opinion of the investigator, would compromise the well-being of the patient or that could prevent, limit, or confound the protocol-specified assessments	Eligibility	13
+condition	PDRO:0000129	4-13
+patient	HADO:0000008,OAE:0001817	95-102
+Outcome Measurement:	Results	0
+Progression-Free Survival (PFS)	Results	1
+Progression-free survival was defined as the time from randomization to first occurrence of disease progression (either radiographic or clinical), or death from any cause. PFS was determined using radiographic progression defined by Response Evaluation Criteria in Solid Tumors (RECIST) on measurable lesions captured by computed tomography (CT) or magnetic resonance imaging (MRI). Clinical disease progression was considered only when disease progression could not be confirmed by CT or MRI, such as when the disease site is skin, bone marrow, or central nervous system.	Results	2
+time	PATO:0000165	45-49
+disease	DOID:4,OGMS:0000031	92-99
+disease	DOID:4,OGMS:0000031	392-399
+disease	DOID:4,OGMS:0000031	437-444
+disease	DOID:4,OGMS:0000031	511-518
+death	OAE:0000632	150-155
+tomography	BAO:0002525	330-340
+ct	BAO:0002125	342-344
+ct	BAO:0002125	483-485
+site	BFO:0000029	519-523
+bone marrow	UBERON:0002371	533-544
+central nervous system	UBERON:0001017	549-571
+Time frame: Approximately 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Exemestane	Results	5
+exemestane	CHEBI:4953	17-27
+Arm/Group Description: Participants received exemestane tablet as oral dose of 25 milligram (mg) per day in 28-day treatment cycles until disease progression, unacceptable toxicity, or death (up to 3 years).	Results	6
+exemestane	CHEBI:4953	45-55
+day	UO:0000033	101-104
+day	UO:0000033	111-114
+disease	DOID:4,OGMS:0000031	138-145
+death	OAE:0000632	185-190
+Overall Number of Participants Analyzed: 102	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  3.68        (1.94 to 5.26)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Abiraterone Acetate + Prednisone	Results	11
+abiraterone acetate	CHEBI:68639	17-36
+prednisone	CHEBI:8382	39-49
+Arm/Group Description: Participants received abiraterone acetate tablet at a total oral dose of 1000 milligram (mg) along with 5 mg capsule of prednisone/prednisolone per day in 28-day treatment cycles until disease progression, unacceptable toxicity, or death (up to 3 years).	Results	12
+abiraterone acetate	CHEBI:68639	45-64
+capsule	GO:0042603	132-139
+day	UO:0000033	171-174
+day	UO:0000033	181-184
+disease	DOID:4,OGMS:0000031	208-215
+death	OAE:0000632	255-260
+Overall Number of Participants Analyzed: 89	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  3.65        (2.73 to 5.59)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 12/102 (11.76%)	Adverse Events	1
+Anaemia * 0/102 (0.00%)	Adverse Events	2
+Febrile Neutropenia * 0/102 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial Fibrillation * 0/102 (0.00%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac Failure Congestive * 0/102 (0.00%)	Adverse Events	5
+Vertigo * 1/102 (0.98%)	Adverse Events	6
+vertigo	HP:0002321	0-7
+Hypoaldosteronism * 0/102 (0.00%)	Adverse Events	7
+Abdominal Pain * 0/102 (0.00%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Anorectal Varices * 0/102 (0.00%)	Adverse Events	9
+Ascites * 0/102 (0.00%)	Adverse Events	10
+ascites	HP:0001541	0-7
+Crohn's Disease * 0/102 (0.00%)	Adverse Events	11
+disease	DOID:4,OGMS:0000031	8-15
+Adverse Events 2:	Adverse Events	12
+Total: 18/87 (20.69%)	Adverse Events	13
+Anaemia * 0/87 (0.00%)	Adverse Events	14
+Febrile Neutropenia * 0/87 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial Fibrillation * 1/87 (1.15%)	Adverse Events	16
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac Failure Congestive * 0/87 (0.00%)	Adverse Events	17
+Vertigo * 0/87 (0.00%)	Adverse Events	18
+vertigo	HP:0002321	0-7
+Hypoaldosteronism * 0/87 (0.00%)	Adverse Events	19
+Abdominal Pain * 0/87 (0.00%)	Adverse Events	20
+abdominal pain	HP:0002027	0-14
+Anorectal Varices * 0/87 (0.00%)	Adverse Events	21
+Ascites * 0/87 (0.00%)	Adverse Events	22
+ascites	HP:0001541	0-7
+Crohn's Disease * 1/87 (1.15%)	Adverse Events	23
+disease	DOID:4,OGMS:0000031	8-15
+Faecal Incontinence * 1/87 (1.15%)	Adverse Events	24

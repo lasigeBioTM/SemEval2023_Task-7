@@ -1,0 +1,227 @@
+INTERVENTION 1:	Intervention	0
+Arm A	Intervention	1
+Arm A: Epirubicin 90 mg/m2 day 1 IV and Cyclophosphamide 600 mg/m2 day 1 IV q 3 weeks for 4 cycles, then surgery, then Docetaxel 75 mg/m2 IV day 1 plus Capecitabine 1000 mg/m2/dose po bid x 14 days q 3 weeks for 4 cycles, then radiation therapy as indicated. Post surgical chemotherapy must be initiated within 35 days after completion of definitive surgical treatment	Intervention	2
+day	UO:0000033	27-30
+day	UO:0000033	67-70
+day	UO:0000033	141-144
+day	UO:0000033	193-196
+day	UO:0000033	314-317
+cyclophosphamide	CHEBI:4026	40-56
+surgery	OAE:0000067	105-112
+capecitabine	CHEBI:31348	152-164
+x	LABO:0000148	125-126
+x	LABO:0000148	188-189
+Epirubicin: Epirubicin 90 mg/m2 d1 q3w	Intervention	3
+Cyclophosphamide: Cyclophosphamide 600 mg/m2 d1 q3w	Intervention	4
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	18-34
+Radiation Therapy: Standard dosing, fields depending on clinical findings	Intervention	5
+INTERVENTION 2:	Intervention	6
+Arm B	Intervention	7
+Arm B: Docetaxel 75 mg/m2 IV day 1 plus Capecitabine 1000 mg/m2/dose po bid x 14 days q 3 weeks for 4 cycles, then surgery, then Epirubicin 90 mg/m2 day 1 IV and Cyclophosphamide 600 mg/m2 day 1 IV q 3 weeks for 4 cycles, then radiation therapy as indicated. Post surgical chemotherapy must be initiated within 35 days after completion of definitive surgical treatment	Intervention	8
+day	UO:0000033	29-32
+day	UO:0000033	81-84
+day	UO:0000033	149-152
+day	UO:0000033	189-192
+day	UO:0000033	314-317
+capecitabine	CHEBI:31348	40-52
+x	LABO:0000148	13-14
+x	LABO:0000148	76-77
+surgery	OAE:0000067	115-122
+cyclophosphamide	CHEBI:4026	162-178
+Docetaxel: Docetaxel 75 mg/m2 d1 q3w	Intervention	9
+Capecitabine: Capecitabine 1000 mg/m2/dose bid x 14d q3w	Intervention	10
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	14-26
+x	LABO:0000148	47-48
+Radiation Therapy: Standard dosing, fields depending on clinical findings	Intervention	11
+Inclusion Criteria:	Eligibility	0
+Written informed consent	Eligibility	1
+The diagnosis of breast cancer can be made by fine-needle aspiration (FNA), core, or tru-cut biopsy. Biopsy must demonstrate invasive adenocarcinoma.	Eligibility	2
+breast cancer	DOID:1612	17-30
+aspiration	HP:0002835	58-68
+adenocarcinoma	DOID:299	134-148
+Patients must have a life expectancy of at least 1 year, excluding their diagnosis of cancer.	Eligibility	3
+year	UO:0000036	51-55
+cancer	DOID:162	86-92
+Patients must have a mass on clinical or radiological examination of >1 cm and must be confined to either the breast or to the breast and ipsilateral axilla. Multiple masses permitted, provided one of them is >1cm.	Eligibility	4
+breast	UBERON:0000310	110-116
+breast	UBERON:0000310	127-133
+Patients may enter prior to ER or Her2 status being known, however if Her2 is positive, then the patient is withdrawn from the treatment phase of the trial.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	97-104
+Patients with palpable mass with distant metastasis and/or palpable supraclavicular lymphadenopathy allowed if definitive local treatment is judged to be necessary.	Eligibility	6
+lymphadenopathy	HP:0002716	84-99
+Patients may have inflammatory breast cancer.	Eligibility	7
+breast cancer	DOID:1612	31-44
+Prior to time of entry, patients must have had the following:	Eligibility	8
+time	PATO:0000165	9-13
+history and physical exam	Eligibility	9
+history	BFO:0000182	0-7
+blood tests	Eligibility	10
+blood	UBERON:0000178	0-5
+chest imaging within the last 3 months (chest x-ray, CT scan, PET/CT)	Eligibility	11
+chest	UBERON:0001443	0-5
+chest	UBERON:0001443	40-45
+ct	BAO:0002125	53-55
+ct	BAO:0002125	66-68
+bilateral mammogram	Eligibility	12
+bilateral	HP:0012832	0-9
+Ultrasound of tumor with placement of clip to localize tumor should it respond completely to chemotherapy is recommended	Eligibility	13
+Bone scan and MRI of the breast as clinically indicated.	Eligibility	14
+breast	UBERON:0000310	25-31
+Patients with clinically palpable lymph nodes are recommended to have a FNA biopsy to document the lymph node status. Patients may undergo a sentinel node biopsy procedure prior to preoperative chemotherapy.	Eligibility	15
+lymph	UBERON:0002391	34-39
+lymph	UBERON:0002391	99-104
+document	IAO:0000310	86-94
+At time of entry	Eligibility	16
+time	PATO:0000165	3-7
+White blood cell count (WBC) > 3,000	Eligibility	17
+white blood cell count	CMO:0000027	0-22
+platelet count > 100,000	Eligibility	18
+platelet count	CMO:0000029	0-14
+bilirubin, serum glutamate oxaloacetate transaminase (SGOT) or serum glutamate oxaloacetate transaminase (SGPT), alkaline phosphatase, and serum creatinine must all be < 1.2 x upper limit of normal (ULN)	Eligibility	19
+glutamate	CHEBI:14321,BAO:0000926	17-26
+glutamate	CHEBI:14321,BAO:0000926	69-78
+phosphatase	GO:0016791,BAO:0000295	122-133
+creatinine	CHEBI:16737	145-155
+x	LABO:0000148	28-29
+x	LABO:0000148	80-81
+x	LABO:0000148	174-175
+calculated creatinine clearance [Cockcroft-Gault] > 50 ml/min. normalized to a 1.73 m2 body surface area (BSA). Patients with benign hyperbilirubinemia are also excluded.	Eligibility	20
+creatinine clearance	CMO:0000765	11-31
+m2	CHEBI:34827	84-86
+area	PATO:0001323	100-104
+hyperbilirubinemia	HP:0002904,DOID:2741	133-151
+excluded	HP:0040285	161-169
+Patients with bone pain are eligible for inclusion if bone scan and/or roentgenological exam fail to disclose metastatic disease, or if metastatic disease is found, definitive local treatment is to be performed.	Eligibility	21
+bone pain	HP:0002653	14-23
+disease	DOID:4,OGMS:0000031	121-128
+disease	DOID:4,OGMS:0000031	147-154
+Patients with non-breast malignancies are eligible if they have not received prior chemotherapy, or extensive radiation therapy, and are free from disease for at least two years. Patients with squamous or basal carcinoma of the skin that has been effectively treated, carcinoma in situ of the cervix that has been treated by surgery only are eligible. Patients with prior or simultaneous lobular or ductal carcinoma in situ of the ipsilateral or contralateral breast are also eligible. Patients with bilateral breast cancer for which at least one of the breast cancers meet the eligibility requirements are also eligible.	Eligibility	22
+disease	DOID:4,OGMS:0000031	147-154
+carcinoma	HP:0030731,DOID:305	211-220
+carcinoma	HP:0030731,DOID:305	268-277
+carcinoma	HP:0030731,DOID:305	406-415
+surgery	OAE:0000067	325-332
+ductal carcinoma in situ	HP:0030075,DOID:0060074	399-423
+breast	UBERON:0000310	18-24
+breast	UBERON:0000310	460-466
+breast	UBERON:0000310	510-516
+breast	UBERON:0000310	554-560
+bilateral breast cancer	DOID:6741	500-523
+Has a negative serum or urine pregnancy test within 7 days prior to initiation of chemotherapy (female patients of childbearing potential).	Eligibility	23
+urine	UBERON:0001088	24-29
+female	PATO:0000383	96-102
+Exclusion Criteria:	Eligibility	24
+Patients with Her2 positive breast cancer	Eligibility	25
+breast cancer	DOID:1612	28-41
+Pregnancy or breast feeding at the time of proposed randomization. Women of childbearing potential with either a positive or no pregnancy test at baseline. Woman of childbearing potential not using a reliable and appropriate contraceptive method. (Postmenopausal woman must have been amenorrheic for at least 12 months to be considered of non-childbearing potential). Patients will agree to continue contraception for 30 days from the date of the last study drug administration.	Eligibility	26
+breast	UBERON:0000310	13-19
+time	PATO:0000165	35-39
+drug administration	OAE:0000011	458-477
+Participation in any investigational drug study within 4 weeks preceding the start of study treatment.	Eligibility	27
+drug	CHEBI:23888	37-41
+Prior unanticipated severe reaction to fluoropyrimidine therapy, or known sensitivity to 5-fluorouracil.	Eligibility	28
+severe	HP:0012828	20-26
+5-fluorouracil	CHEBI:46345	89-103
+Prior therapy for this breast cancer.	Eligibility	29
+breast cancer	DOID:1612	23-36
+Prior chemotherapy for a different breast cancer. Patients who have received prior anthracycline therapy for any malignancy are not eligible.	Eligibility	30
+breast cancer	DOID:1612	35-48
+anthracycline	CHEBI:48120	83-96
+Nonmalignant systemic disease (cardiovascular, renal, hepatic, etc.) that would preclude the patient from being subjected to any of the treatment options or surgery or would prevent prolonged follow-up.	Eligibility	31
+disease	DOID:4,OGMS:0000031	22-29
+patient	HADO:0000008,OAE:0001817	93-100
+surgery	OAE:0000067	157-164
+prolonged	HP:0025297	182-191
+Active cardiac disease that would preclude the use of epirubicin. This includes:	Eligibility	32
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	15-22
+Any documented myocardial infarction or unstable angina;	Eligibility	33
+myocardial infarction	HP:0001658,DOID:5844	15-36
+Any history of documented congestive heart failure;	Eligibility	34
+history	BFO:0000182	4-11
+congestive heart failure	HP:0001635,DOID:6000	26-50
+Valvular disease with documented cardiac function compromise;	Eligibility	35
+disease	DOID:4,OGMS:0000031	9-16
+function	BAO:0003117,BFO:0000034	41-49
+Patients with cardiomegaly on chest X-ray, or ventricular hypertrophy on EKG, unless they demonstrate adequate left ventricular ejection fraction (LVEF) > 45% by MUltiple Gated Acquisition (MUGA) or echocardiogram.	Eligibility	36
+cardiomegaly	HP:0001640	14-26
+chest	UBERON:0001443	30-35
+ventricular hypertrophy	HP:0001714	46-69
+left	HP:0012835	111-115
+ejection fraction	CMO:0000180	128-145
+Patients with a cardiac arrhythmia are eligible, provided the arrhythmia is not associated with concomitant heart failure or cardiac dysfunction.	Eligibility	37
+arrhythmia	HP:0011675	24-34
+arrhythmia	HP:0011675	62-72
+heart	UBERON:0000948	108-113
+History of uncontrolled seizures, central nervous system disorders or psychiatric disability judged by the investigator to be clinically significant, precluding informed consent, or interfering with compliance of oral drug intake.	Eligibility	38
+history	BFO:0000182	0-7
+central nervous system	UBERON:0001017	34-56
+drug	CHEBI:23888	218-222
+Lack of physical integrity of the upper gastrointestinal tract or malabsorption syndrome.	Eligibility	39
+malabsorption	HP:0002024	66-79
+syndrome	DOID:225	80-88
+Known, existing uncontrolled coagulopathy	Eligibility	40
+Unwillingness to give written informed consent.	Eligibility	41
+Unwillingness to participate or inability to comply with the protocol for the duration of the study.	Eligibility	42
+duration	PATO:0001309	78-86
+Outcome Measurement:	Results	0
+Overall Response Rate	Results	1
+rate	BAO:0080019	17-21
+To describe the overall response rate as measured by physical exam and MRI if indicated using the following definition: Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	2
+rate	BAO:0080019	33-37
+target	BAO:0003064	192-198
+target	BAO:0003064	253-259
+target	BAO:0003064	345-351
+diameter	PATO:0001334	333-341
+Time frame: Up to 8 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A	Results	5
+Arm/Group Description: Arm A: Epirubicin 90 mg/m2 day 1 IV and Cyclophosphamide 600 mg/m2 day 1 IV q 3 weeks for 4 cycles, then surgery, then Docetaxel 75 mg/m2 IV day 1 plus Capecitabine 1000 mg/m2/dose po bid x 14 days q 3 weeks for 4 cycles, then radiation therapy as indicated. Post surgical chemotherapy must be initiated within 35 days after completion of definitive surgical treatment	Results	6
+day	UO:0000033	50-53
+day	UO:0000033	90-93
+day	UO:0000033	164-167
+day	UO:0000033	216-219
+day	UO:0000033	337-340
+cyclophosphamide	CHEBI:4026	63-79
+surgery	OAE:0000067	128-135
+capecitabine	CHEBI:31348	175-187
+x	LABO:0000148	148-149
+x	LABO:0000148	211-212
+Epirubicin: Epirubicin 90 mg/m2 d1 q3w	Results	7
+Cyclophosphamide: Cyclophosphamide 600 mg/m2 d1 q3w	Results	8
+cyclophosphamide	CHEBI:4026	0-16
+cyclophosphamide	CHEBI:4026	18-34
+Radiation Therapy: Standard dosing, fields depending on clinical findings	Results	9
+Overall Number of Participants Analyzed: 37	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  25  67.6%	Results	12
+Results 2:	Results	13
+Arm/Group Title: Arm B	Results	14
+Arm/Group Description: Arm B: Docetaxel 75 mg/m2 IV day 1 plus Capecitabine 1000 mg/m2/dose po bid x 14 days q 3 weeks for 4 cycles, then surgery, then Epirubicin 90 mg/m2 day 1 IV and Cyclophosphamide 600 mg/m2 day 1 IV q 3 weeks for 4 cycles, then radiation therapy as indicated. Post surgical chemotherapy must be initiated within 35 days after completion of definitive surgical treatment	Results	15
+day	UO:0000033	52-55
+day	UO:0000033	104-107
+day	UO:0000033	172-175
+day	UO:0000033	212-215
+day	UO:0000033	337-340
+capecitabine	CHEBI:31348	63-75
+x	LABO:0000148	36-37
+x	LABO:0000148	99-100
+surgery	OAE:0000067	138-145
+cyclophosphamide	CHEBI:4026	185-201
+Docetaxel: Docetaxel 75 mg/m2 d1 q3w	Results	16
+Capecitabine: Capecitabine 1000 mg/m2/dose bid x 14d q3w	Results	17
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	14-26
+x	LABO:0000148	47-48
+Radiation Therapy: Standard dosing, fields depending on clinical findings	Results	18
+Overall Number of Participants Analyzed: 35	Results	19
+Measure Type: Count of Participants	Results	20
+Unit of Measure: Participants  21  60.0%	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 0/37 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/35 (0.00%)	Adverse Events	3

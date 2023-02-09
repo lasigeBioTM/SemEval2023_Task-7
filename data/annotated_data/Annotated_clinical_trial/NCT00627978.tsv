@@ -1,0 +1,141 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone	Intervention	1
+ixabepilone	CHEBI:63605	0-11
+Participants are treated with Ixabepilone.	Intervention	2
+ixabepilone	CHEBI:63605	30-41
+ixabepilone: ixabepilone 40 mg/m2 Q3w over 3 hours	Intervention	3
+ixabepilone	CHEBI:63605	0-11
+ixabepilone	CHEBI:63605	13-24
+INTERVENTION 2:	Intervention	4
+Control	Intervention	5
+No treatment with Ixabepilone	Intervention	6
+ixabepilone	CHEBI:63605	18-29
+Inclusion Criteria	Eligibility	0
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	1
+document	IAO:0000310	77-85
+Histologic or cytologic diagnosis of adenocarcinoma originating in the breast.	Eligibility	2
+adenocarcinoma	DOID:299	37-51
+breast	UBERON:0000310	71-77
+Evidence that the cancer is metastatic or locally advanced and not curable by local measures (i.e., surgery, radiation).	Eligibility	3
+cancer	DOID:162	18-24
+surgery	OAE:0000067	100-107
+NOTE: There is no limit on number of prior chemotherapy regimens received.	Eligibility	4
+Karnofsky performance status (KPS) score of 70 - 100; (Appendix 1).	Eligibility	5
+Life expectancy of at least 12 weeks.	Eligibility	6
+Adequate recovery of drug related toxicities from prior systemic therapy (recovery to < = Grade 1 except for Grade 2 fatigue and alopecia).	Eligibility	7
+drug	CHEBI:23888	21-25
+fatigue	HP:0012378	117-124
+alopecia	HP:0001596,DOID:987	129-137
+Adequate recovery from recent surgery and radiation therapy. At least one week must have elapsed from the time of a minor surgery and/or focal/palliative radiation therapy; at least 3 weeks for major surgery and other radiation therapy.	Eligibility	8
+surgery	OAE:0000067	30-37
+surgery	OAE:0000067	122-129
+surgery	OAE:0000067	200-207
+week	UO:0000034	74-78
+week	UO:0000034	184-188
+time	PATO:0000165	106-110
+Women or Men, age > = 18 years.	Eligibility	9
+age	PATO:0000011	14-17
+Patients must have normal organ and marrow function as defined below:	Eligibility	10
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+Hematologic function with absolute neutrophils  1,500/mm3 and/or platelets > 125,000/mm3	Eligibility	11
+function	BAO:0003117,BFO:0000034	12-20
+Hepatic function with serum bilirubin less than 1.5 times the upper institutional limits of normal, ALT  2.5 times the upper institutional limits of normal ( 5 times the upper institutional limits of normal if documented hepatic metastases are present)	Eligibility	12
+function	BAO:0003117,BFO:0000034	8-16
+present	PATO:0000467	244-251
+Renal function with serum creatinine  1.5 times the upper limit of normal	Eligibility	13
+function	BAO:0003117,BFO:0000034	6-14
+creatinine	CHEBI:16737	26-36
+Women of childbearing potential (WOCBP) and men with partners who are of childbearing potential must be using an adequate method of contraception to avoid pregnancy throughout the study and for up to 4 weeks after the study in such a manner that the risk of pregnancy is minimized.	Eligibility	14
+WOCBP include any female who has experienced menarche and who has not undergone successful surgical sterilization (hysterectomy, bilateral tubal ligation or bilateral oophorectomy) or is not postmenopausal (defined as amenorrhea > = 12 consecutive months; or women on hormone replacement therapy (HRT) with documented serum follicle stimulating hormone (FSH) level > 35 mIU/mL). Even women who are using oral, implanted or injectable contraceptive hormones or mechanical products such as an intrauterine device or barrier methods (diaphragm, condoms, spermicides) to prevent pregnancy or practicing abstinence or where partner is sterile (e.g., vasectomy), should be considered to be of child bearing potential.	Eligibility	15
+female	PATO:0000383	18-24
+menarche	GO:0042696	45-53
+bilateral	HP:0012832	129-138
+bilateral	HP:0012832	157-166
+amenorrhea	HP:0000141,DOID:13938	218-228
+hormone	CHEBI:24621	268-275
+hormone	CHEBI:24621	345-352
+hormone	CHEBI:24621	448-455
+follicle stimulating hormone	CHEBI:81569	324-352
+diaphragm	UBERON:0001103	531-540
+- WOCBP must have a negative serum or urine pregnancy test (minimum sensitivity 25 IU/L or equivalent units of HCG) within 72 hours prior to the start of study medication.	Eligibility	16
+urine	UBERON:0001088	38-43
+Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.	Eligibility	17
+Exclusion Criteria	Eligibility	18
+Patients with known and active brain and/or leptomeningeal metastases should be excluded from this clinical trial because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events.	Eligibility	19
+active	PATO:0002354	24-30
+brain	UBERON:0000955	31-36
+excluded	HP:0040285	80-88
+progressive	HP:0003676	177-188
+CTC Grade 2 or greater neuropathy (motor or sensory) at study entry.	Eligibility	20
+neuropathy	DOID:870	23-33
+Prior treatment with ixabepilone.	Eligibility	21
+ixabepilone	CHEBI:63605	21-32
+Serious intercurrent infections, or nonmalignant medical illnesses that are uncontrolled or whose control may be jeopardized by the complications of this therapy, including, but not limited to: ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	22
+active	PATO:0002354	205-211
+congestive heart failure	HP:0001635,DOID:6000	235-259
+angina pectoris	HP:0001681	270-285
+arrhythmia	HP:0011675	295-305
+Known history of HIV infection.	Eligibility	23
+history	BFO:0000182	6-13
+Patients who have had chemotherapy or radiotherapy within 4 weeks (6 weeks for nitrosoureas or mitomycin C) prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier.	Eligibility	24
+radiotherapy	OAE:0000235	38-50
+mitomycin c	CHEBI:27504	95-106
+Patients may not be receiving any other concurrent chemotherapy, hormonal therapy, immunotherapy regimens or radiation therapy, standard or investigational.	Eligibility	25
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to ixabepilone.	Eligibility	26
+history	BFO:0000182	0-7
+ixabepilone	CHEBI:63605	101-112
+Known prior severe hypersensitivity reactions to agents containing CremophorEL.	Eligibility	27
+severe	HP:0012828	12-18
+hypersensitivity	GO:0002524,DOID:1205	19-35
+Patients may not be receiving any prohibited therapies and/or medications.	Eligibility	28
+Pregnant and lactating women are excluded from the study because the risks to an unborn fetus or potential risks in nursing infants are unknown.	Eligibility	29
+excluded	HP:0040285	33-41
+Outcome Measurement:	Results	0
+Axons With Abnormal Morphology	Results	1
+morphology	PATO:0000051	20-30
+Digital photographs for morphometry were captured at a magnification of 8000-16,000x and the photos were uploaded onto an imaging platform of transmission electron microscope (iTEM) (Olympus, Mu¨nster, Germany). The figures were enlarged by 50%, and an individual linear array was used to measure the axonal diameter (cross-sectional area) and the number of unmyelinated axons per Remak Schwann cell was enumerated according to the established methodology.	Results	2
+electron	CHEBI:10545	155-163
+microscope	BAO:0150008	164-174
+olympus	BAO:0002964	183-190
+array	BAO:0000514	271-276
+diameter	PATO:0001334	308-316
+area	PATO:0001323	334-338
+Time frame: Baseline and Over 7 cycles of treatment, approximately 21 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ixabepilone	Results	5
+ixabepilone	CHEBI:63605	17-28
+Arm/Group Description: Participants are treated with Ixabepilone.	Results	6
+ixabepilone	CHEBI:63605	53-64
+ixabepilone: ixabepilone 40 mg/m2 Q3w over 3 hours	Results	7
+ixabepilone	CHEBI:63605	0-11
+ixabepilone	CHEBI:63605	13-24
+Overall Number of Participants Analyzed: 10	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of axons  Axons grade 0 (normal) or 1 morphology baseline: 52	Results	10
+morphology	PATO:0000051	66-76
+Axons grade 0 (normal) or 1 morphology Cycle 7: 2	Results	11
+morphology	PATO:0000051	28-38
+Axons grade 3 or 4 morphology baseline: 24	Results	12
+morphology	PATO:0000051	19-29
+Axons grade 3 or 4 morphology Cycle 7: 79	Results	13
+morphology	PATO:0000051	19-29
+Results 2:	Results	14
+Arm/Group Title: Control	Results	15
+Arm/Group Description: No treatment with Ixabepilone	Results	16
+ixabepilone	CHEBI:63605	41-52
+Overall Number of Participants Analyzed: 5	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: percentage of axons  Axons grade 0 (normal) or 1 morphology baseline: 82	Results	19
+morphology	PATO:0000051	66-76
+Axons grade 0 (normal) or 1 morphology Cycle 7: NA  [1]	Results	20
+morphology	PATO:0000051	28-38
+Axons grade 3 or 4 morphology baseline: 15.5	Results	21
+morphology	PATO:0000051	19-29
+Axons grade 3 or 4 morphology Cycle 7: NA  [1]	Results	22
+morphology	PATO:0000051	19-29
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/0	Adverse Events	3

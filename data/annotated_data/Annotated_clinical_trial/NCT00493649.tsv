@@ -1,0 +1,185 @@
+INTERVENTION 1:	Intervention	0
+TOP2A-amplified Group	Intervention	1
+group	CHEBI:24433	16-21
+FISH ratio of TOP2A gene copy number was 2 or greater.	Intervention	2
+ratio	UO:0000190	5-10
+gene	BAO:0000582	20-24
+INTERVENTION 2:	Intervention	3
+TOP2A-nonamplified Group	Intervention	4
+group	CHEBI:24433	19-24
+FISH ratio of TOP2A gene copy number was less than 2.	Intervention	5
+ratio	UO:0000190	5-10
+gene	BAO:0000582	20-24
+Inclusion Criteria:	Eligibility	0
+A woman will be eligible for inclusion in this study if she meets all of the following criteria:	Eligibility	1
+Has HER2+ (IHC staining of 3+ [uniform, intense membrane staining of >30% of invasive tumor cells], or a FISH result of .6 HER2 gene copies per nucleus or a FISH ratio [HER2 gene signals to chromosome 17 signals] of >2.2; patients with equivocal FISH ratio results 1.8-2.2 are also eligible if 3+ IHC) (Appendix IX); Stage I, IIA, IIB, or IIIA T1-3N1-3M0 disease. At the discretion of the Treating Physician, patients with 4+ nodes with other factors such as patient choice, older age, preexisting cardiac disease with normal MUGA or ECHO may be enrolled into a separate subgroup.	Eligibility	2
+membrane	GO:0016020	48-56
+result	BAO:0000179	110-116
+result	BAO:0000179	257-263
+gene	BAO:0000582	128-132
+gene	BAO:0000582	174-178
+nucleus	CHEBI:33252,GO:0005634	144-151
+ratio	UO:0000190	162-167
+ratio	UO:0000190	251-256
+chromosome	GO:0005694	190-200
+disease	DOID:4,OGMS:0000031	355-362
+disease	DOID:4,OGMS:0000031	506-513
+patient	HADO:0000008,OAE:0001817	222-229
+patient	HADO:0000008,OAE:0001817	409-416
+patient	HADO:0000008,OAE:0001817	459-466
+age	PATO:0000011	319-322
+age	PATO:0000011	481-484
+Has operable, histologically confirmed, invasive carcinoma of the breast.	Eligibility	3
+carcinoma	HP:0030731,DOID:305	49-58
+breast	UBERON:0000310	66-72
+Has known ER and PR status	Eligibility	4
+Has adequate tumor specimen available for FISH analysis of TOP2A status (See Appendix VII)	Eligibility	5
+Has had no prior chemotherapy unless it was given >5 years ago for breast cancer or other cancer	Eligibility	6
+breast cancer	DOID:1612	67-80
+cancer	DOID:162	74-80
+cancer	DOID:162	90-96
+Has an ECOG Performance Status (PS) 0-1	Eligibility	7
+Age >18 to <70 years old.	Eligibility	8
+age	PATO:0000011	0-3
+Has laboratory values of: See protocol for specific details	Eligibility	9
+Has aspartate aminotransferase (AST) or alanine aminotransferase (ALT) and alkaline phosphatase (ALP) within the ranges shown below. In determining eligibility the more abnormal of the 2 values (AST or ALT) should be used. See protocol for specific details	Eligibility	10
+aspartate	CHEBI:29995	4-13
+alanine	CHEBI:16449	40-47
+phosphatase	GO:0016791,BAO:0000295	84-95
+Has complete surgical resection of the primary breast tumor: either lumpectomy or mastectomy with sentinel lymph node or axillary dissection.	Eligibility	11
+breast	UBERON:0000310	47-53
+lymph	UBERON:0002391	107-112
+It has been <84 days since the date of definitive surgery, and there is adequate wound healing as determined by the Treating Physician	Eligibility	12
+surgery	OAE:0000067	50-57
+wound healing	GO:0042060	81-94
+Has no evidence of metastatic disease by physical examination and x-ray; appropriate scans as needed by each individual patient (eg, bone scan; abdominal, chest CT; PET or PET/CT; ultrasound; or MRI should indicate no evidence of metastatic disease.	Eligibility	13
+disease	DOID:4,OGMS:0000031	30-37
+disease	DOID:4,OGMS:0000031	241-248
+physical examination	OAE:0004232	41-61
+patient	HADO:0000008,OAE:0001817	120-127
+chest	UBERON:0001443	155-160
+ct	BAO:0002125	161-163
+ct	BAO:0002125	176-178
+Has normal cardiac function as evidenced by a LVEF >50%, but must be within normal limits (WNL) by institutional standard, as determined by multiple gated acquisition (MUGA) scan. An echocardiogram (ECHO). The same modality must be used throughout the study to evaluate LVEF. Ejection fraction (EF) as determined by ECHO must be WNL by institutional standard.	Eligibility	14
+function	BAO:0003117,BFO:0000034	19-27
+ejection fraction	CMO:0000180	276-293
+Has a negative serum pregnancy test within 7 calendar days prior to registration (female patients of childbearing potential [not surgically sterilized and between menarche and 1 year postmenopause]).	Eligibility	15
+female	PATO:0000383	82-88
+menarche	GO:0042696	163-171
+year	UO:0000036	178-182
+If fertile, patient has agreed to use an acceptable method of birth control (barrier contraceptive) to avoid pregnancy for the duration of the study and for a period of 3 months thereafter	Eligibility	16
+patient	HADO:0000008,OAE:0001817	12-19
+duration	PATO:0001309	127-135
+Has signed a Patient Informed Consent Form	Eligibility	17
+patient	HADO:0000008,OAE:0001817	13-20
+Has signed a Patient Authorization Form	Eligibility	18
+patient	HADO:0000008,OAE:0001817	13-20
+Exclusion Criteria:	Eligibility	19
+A woman will be excluded from this study if she meets any of the following criteria:	Eligibility	20
+excluded	HP:0040285	16-24
+Has any evidence of disease following complete surgical resection of the primary tumor and metastatic workup	Eligibility	21
+disease	DOID:4,OGMS:0000031	20-27
+Has Stage IIIB breast cancer (T4 disease; ie, patients with fixed tumors, peau d'orange skin changes, skin ulcerations, or inflammatory changes).	Eligibility	22
+breast cancer	DOID:1612	15-28
+disease	DOID:4,OGMS:0000031	33-40
+peau d'orange	HP:0025533	74-87
+Has Stage IV breast cancer (M1 disease on TNM staging system)	Eligibility	23
+breast cancer	DOID:1612	13-26
+m1	CHEBI:34826	28-30
+disease	DOID:4,OGMS:0000031	31-38
+Had prior chemotherapy for breast cancer or other cancer within the last 5 years (no neoadjuvant chemotherapy in this study is permitted)	Eligibility	24
+breast cancer	DOID:1612	27-40
+cancer	DOID:162	34-40
+cancer	DOID:162	50-56
+Has a history of severe hypersensitivity reaction to drugs formulated with polysorbate 80	Eligibility	25
+history	BFO:0000182	6-13
+severe	HP:0012828	17-23
+hypersensitivity	GO:0002524,DOID:1205	24-40
+polysorbate 80	CHEBI:53426	75-89
+Has had a myocardial infarction (MI) within 6 months of trial enrollment, or has New York Heart Association (NYHA) Class II or greater heart failure (see Appendix III), uncontrolled angina, severe uncontrolled ventricular arrhythmias, clinically significant pericardial disease, or electrocardiographic evidence of acute ischemic changes	Eligibility	26
+myocardial infarction	HP:0001658,DOID:5844	10-31
+heart	UBERON:0000948	90-95
+heart	UBERON:0000948	135-140
+severe	HP:0012828	190-196
+disease	DOID:4,OGMS:0000031	270-277
+acute	HP:0011009,PATO:0000389	315-320
+Has abnormal baseline MUGA (or ECHO) (<50%, or less than institutional LLN)	Eligibility	27
+Is receiving concurrent immunotherapy, hormonal therapy, or radiation therapy. Adjuvant hormonal therapy, if needed, may be given during radiation therapy and during treatment with trastuzumab after completion of chemotherapy.	Eligibility	28
+adjuvant	CHEBI:60809	79-87
+Is receiving concurrent investigational therapy or has received such therapy within the past 30 calendar days	Eligibility	29
+Has peripheral neuropathy >Grade 1	Eligibility	30
+peripheral neuropathy	HP:0009830,DOID:870	4-25
+Has a serious uncontrolled intercurrent medical or psychiatric illness, including serious viral (including clinically defined AIDS), bacterial or fungal infection; or history of uncontrolled seizures, or diabetes, or CNS disorders deemed by the Treating Physician to be clinically significant, precluding informed consent	Eligibility	31
+history	BFO:0000182	167-174
+Has active hepatitis B or hepatitis C with abnormal liver function tests (LFTs) or is known to be HIV positive	Eligibility	32
+active	PATO:0002354	4-10
+hepatitis b	DOID:2043	11-22
+hepatitis c	DOID:1883	26-37
+liver	UBERON:0002107	52-57
+function	BAO:0003117,BFO:0000034	58-66
+Has a history of other malignancy within the last 5 years (except cured basal cell carcinoma of skin and carcinoma in situ of uterine cervix), which could affect the diagnosis or assessment of any of the study drugs	Eligibility	33
+history	BFO:0000182	6-13
+basal cell carcinoma	HP:0002671,DOID:2513	72-92
+carcinoma	HP:0030731,DOID:305	83-92
+carcinoma	HP:0030731,DOID:305	105-114
+uterine cervix	UBERON:0000002	126-140
+Is an obese patient to whom the Treating Physician would not be comfortable administering full doses of study drugs as calculated by the BSA. Obese patients will be treated based on actual body weight. Obese patients treated with full doses based on actual BSA are eligible	Eligibility	34
+patient	HADO:0000008,OAE:0001817	12-19
+patient	HADO:0000008,OAE:0001817	148-155
+patient	HADO:0000008,OAE:0001817	208-215
+body weight	CMO:0000012	189-200
+Is a pregnant or breastfeeding woman	Eligibility	35
+Is deemed unable to comply with requirements of study	Eligibility	36
+Outcome Measurement:	Results	0
+Disease-free Survival (DFS) Rate at 2 Years in TOP2A-amplified and in TOP2A-nonamplified HER2+ ESBC Patients Treated With TC+H.	Results	1
+rate	BAO:0080019	28-32
+DFS was measured from the date of registration to either the date the patient was first recorded as having disease recurrence, or the date of death due to any causes before recurrence. If a patient had not recurred or died, DFS was censored at the date of last follow-up.	Results	2
+patient	HADO:0000008,OAE:0001817	70-77
+patient	HADO:0000008,OAE:0001817	190-197
+disease	DOID:4,OGMS:0000031	107-114
+death	OAE:0000632	142-147
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: TOP2A-amplified Group	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	33-38
+Arm/Group Description: FISH ratio of TOP2A gene copy number was 2 or greater.	Results	6
+ratio	UO:0000190	28-33
+gene	BAO:0000582	43-47
+Overall Number of Participants Analyzed: 190	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: probability of disease-free survival  0.978        (0.942 to 0.992)	Results	9
+Results 2:	Results	10
+Arm/Group Title: TOP2A-nonamplified Group	Results	11
+group	CHEBI:24433	4-9
+group	CHEBI:24433	36-41
+Arm/Group Description: FISH ratio of TOP2A gene copy number was less than 2.	Results	12
+ratio	UO:0000190	28-33
+gene	BAO:0000582	43-47
+Overall Number of Participants Analyzed: 248	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: probability of disease-free survival  0.979        (0.949 to 0.991)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 51/486 (10.49%)	Adverse Events	1
+ANEMIA 1/486 (0.21%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+NEUTROPENIA 4/486 (0.82%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+FIBRILLATION ATRIAL 1/486 (0.21%)	Adverse Events	4
+ABDOMINAL PAIN 2/486 (0.41%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+BLOATING 1/486 (0.21%)	Adverse Events	6
+BOWEL PERFORATION 1/486 (0.21%)	Adverse Events	7
+COLITIS 1/486 (0.21%)	Adverse Events	8
+colitis	HP:0002583,DOID:0060180	0-7
+DEHYDRATION 5/486 (1.03%)	Adverse Events	9
+dehydration	HP:0001944	0-11
+DIARRHEA 5/486 (1.03%)	Adverse Events	10
+diarrhea	HP:0002014,DOID:13250	0-8
+GASTRIC INFLAMMATION 1/486 (0.21%)	Adverse Events	11
+NAUSEA 3/486 (0.62%)	Adverse Events	12
+nausea	HP:0002018	0-6
+NAUSEA AND VOMITING 1/486 (0.21%)	Adverse Events	13
+nausea and vomiting	HP:0002017	0-19
+Adverse Events 2:	Adverse Events	14

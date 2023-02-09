@@ -1,0 +1,128 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab + Taxane	Intervention	1
+taxane	CHEBI:36064	14-20
+Participants received trastuzumab plus either docetaxel or paclitaxel. The regimen was chosen at the investigator's discretion. Option 1: trastuzumab 8 mg/kg via IV infusion on Day 1 of Cycle 1, then 6 mg/kg IV on Day 1 of each subsequent 3-week cycle; plus a minimum of 6 cycles with docetaxel 75 or 100 mg/m^2 IV on Day 1 of each 3-week cycle. Option 2: trastuzumab 4 mg/kg IV on Day 1 of Cycle 1, then 2 mg/kg IV weekly beginning on Day 8 of Cycle 1; plus a minimum of 18 weeks with paclitaxel 80 mg/m^2 IV weekly. Treatment continued until disease progression, unacceptable toxicity, or study termination. If trastuzumab or docetaxel were discontinued for toxicity, the other agent could be continued as monotherapy.	Intervention	2
+paclitaxel	CHEBI:45863	59-69
+paclitaxel	CHEBI:45863	486-496
+day	UO:0000033	177-180
+day	UO:0000033	214-217
+day	UO:0000033	318-321
+day	UO:0000033	382-385
+day	UO:0000033	436-439
+disease	DOID:4,OGMS:0000031	544-551
+INTERVENTION 2:	Intervention	3
+Trastuzumab Emtansine + Placebo	Intervention	4
+Participants received trastuzumab emtansine plus pertuzumab-placebo. Trastuzumab emtansine was administered as 3.6 mg/kg via IV infusion, following completion of the placebo IV infusion, on Day 1 of each 3-week cycle. Treatment continued until disease progression, unacceptable toxicity, or study termination.	Intervention	5
+day	UO:0000033	190-193
+disease	DOID:4,OGMS:0000031	244-251
+Inclusion Criteria:	Eligibility	0
+Adult participants >/=18 years of age	Eligibility	1
+adult	EFO:0001272	0-5
+age	PATO:0000011	34-37
+HER2-positive breast cancer	Eligibility	2
+breast cancer	DOID:1612	14-27
+Histologically or cytologically confirmed adenocarcinoma of the breast with locally recurrent or metastatic disease, and be a candidate for chemotherapy. Participants with locally advanced disease must have recurrent or progressive disease, which must not be amenable to resection with curative intent.	Eligibility	3
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+recurrent	HP:0031796	84-93
+recurrent	HP:0031796	207-216
+disease	DOID:4,OGMS:0000031	108-115
+disease	DOID:4,OGMS:0000031	189-196
+disease	DOID:4,OGMS:0000031	232-239
+progressive	HP:0003676	220-231
+Participants must have measurable and/or non-measurable disease which must be evaluable per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1	Eligibility	4
+disease	DOID:4,OGMS:0000031	56-63
+Eastern Cooperative Oncology Group (ECOG) Performance Status 0 or 1	Eligibility	5
+group	CHEBI:24433	29-34
+Adequate organ function as determined by laboratory results	Eligibility	6
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	7
+History of prior (or any) chemotherapy for metastatic breast cancer or recurrent locally advanced disease	Eligibility	8
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	54-67
+recurrent	HP:0031796	71-80
+disease	DOID:4,OGMS:0000031	98-105
+An interval of <6 months from the last dose of vinca-alkaloid or taxane cytotoxic chemotherapy until the time of metastatic diagnosis	Eligibility	9
+taxane	CHEBI:36064	65-71
+time	PATO:0000165	105-109
+Hormone therapy <7 days prior to randomization	Eligibility	10
+hormone	CHEBI:24621	0-7
+Trastuzumab therapy and/or lapatinib (neo- or adjuvant setting) <21 days prior to randomization	Eligibility	11
+lapatinib	CHEBI:49603	27-36
+adjuvant	CHEBI:60809	46-54
+Prior trastuzumab emtansine or pertuzumab therapy	Eligibility	12
+Outcome Measurement:	Results	0
+Percentage of Participants With Death or Disease Progression According to Independent Review Facility (IRF) Assessment	Results	1
+death	OAE:0000632	32-37
+disease	DOID:4,OGMS:0000031	41-48
+Tumor assessments were performed according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1, using radiographic images submitted to the IRF up to and including the confirmatory tumor assessment 4 to 6 weeks after study drug discontinuation. Disease progression was defined as a greater than or equal to (  ) 20 percent (%) and 5-millimeter (mm) increase in sum of diameters of target lesions, taking as reference the smallest sum obtained during the study, or appearance of new lesion(s). The percentage of participants with death or disease progression was calculated as [number of participants with event divided by the number analyzed] multiplied by 100.	Results	2
+drug	CHEBI:23888	239-243
+disease	DOID:4,OGMS:0000031	261-268
+disease	DOID:4,OGMS:0000031	554-561
+percent	UO:0000187	331-338
+percent	UO:0000187	513-520
+increase	BAO:0001251	365-373
+target	BAO:0003064	397-403
+death	OAE:0000632	545-550
+Time frame: Up to 48 months from randomization until clinical cutoff of 16-Sept-2014 (at Screening, every 9 weeks for 81 weeks, then every 12 weeks thereafter and/or up to 42 days after last dose)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab + Taxane	Results	5
+taxane	CHEBI:36064	31-37
+Arm/Group Description: Participants received trastuzumab plus either docetaxel or paclitaxel. The regimen was chosen at the investigator's discretion. Option 1: trastuzumab 8 mg/kg via IV infusion on Day 1 of Cycle 1, then 6 mg/kg IV on Day 1 of each subsequent 3-week cycle; plus a minimum of 6 cycles with docetaxel 75 or 100 mg/m^2 IV on Day 1 of each 3-week cycle. Option 2: trastuzumab 4 mg/kg IV on Day 1 of Cycle 1, then 2 mg/kg IV weekly beginning on Day 8 of Cycle 1; plus a minimum of 18 weeks with paclitaxel 80 mg/m^2 IV weekly. Treatment continued until disease progression, unacceptable toxicity, or study termination. If trastuzumab or docetaxel were discontinued for toxicity, the other agent could be continued as monotherapy.	Results	6
+paclitaxel	CHEBI:45863	82-92
+paclitaxel	CHEBI:45863	509-519
+day	UO:0000033	200-203
+day	UO:0000033	237-240
+day	UO:0000033	341-344
+day	UO:0000033	405-408
+day	UO:0000033	459-462
+disease	DOID:4,OGMS:0000031	567-574
+Overall Number of Participants Analyzed: 365	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  63.3	Results	9
+Results 2:	Results	10
+Arm/Group Title: Trastuzumab Emtansine + Placebo	Results	11
+Arm/Group Description: Participants received trastuzumab emtansine plus pertuzumab-placebo. Trastuzumab emtansine was administered as 3.6 mg/kg via IV infusion, following completion of the placebo IV infusion, on Day 1 of each 3-week cycle. Treatment continued until disease progression, unacceptable toxicity, or study termination.	Results	12
+day	UO:0000033	213-216
+disease	DOID:4,OGMS:0000031	267-274
+Overall Number of Participants Analyzed: 367	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  64.3	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 81/353 (22.95%)	Adverse Events	1
+Febrile neutropenia * 13/353 (3.68%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia * 21/353 (0.28%)	Adverse Events	3
+Neutropenia * 25/353 (1.42%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 20/353 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Hypercoagulation * 21/353 (0.28%)	Adverse Events	6
+Leukopenia * 21/353 (0.28%)	Adverse Events	7
+leukopenia	HP:0001882,DOID:615	0-10
+Atrial fibrillation * 1/353 (0.28%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure * 0/353 (0.00%)	Adverse Events	9
+Cardiac failure congestive * 0/353 (0.00%)	Adverse Events	10
+Myocardial infarction * 1/353 (0.28%)	Adverse Events	11
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Adverse Events 2:	Adverse Events	12
+Total: 86/361 (23.82%)	Adverse Events	13
+Febrile neutropenia * 0/361 (0.00%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia * 25/361 (1.39%)	Adverse Events	15
+Neutropenia * 20/361 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia * 22/361 (0.55%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Hypercoagulation * 20/361 (0.00%)	Adverse Events	18
+Leukopenia * 20/361 (0.00%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+Atrial fibrillation * 0/361 (0.00%)	Adverse Events	20
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure * 0/361 (0.00%)	Adverse Events	21
+Cardiac failure congestive * 0/361 (0.00%)	Adverse Events	22
+Myocardial infarction * 0/361 (0.00%)	Adverse Events	23
+myocardial infarction	HP:0001658,DOID:5844	0-21

@@ -1,0 +1,88 @@
+INTERVENTION 1:	Intervention	0
+Breast Cancer Locator (BCL)	Intervention	1
+breast cancer	DOID:1612	0-13
+The Breast Cancer Locator (BCL) uses 3D printing to create a bra-like plastic form that matches the breast surface when the patient is in the supine MRI (and surgical) position. This locator will be constructed pre-operatively, sterilized and provided to the surgeon at the time of the procedure.	Intervention	2
+breast cancer	DOID:1612	4-17
+breast	UBERON:0000310	4-10
+breast	UBERON:0000310	100-106
+patient	HADO:0000008,OAE:0001817	124-131
+position	HP:0012830	168-176
+time	PATO:0000165	274-278
+Breast Cancer Locator (BCL): This locator is constructed pre-operatively, sterilized and provided to the surgeon at the time of the procedure. The outline of the breast cancer on the breast surface at the point where the cancer is closest to the skin is built into the locator so that the surgeon can simply apply the locator to the patient's breast and trace the tumor outline on the skin.	Intervention	3
+breast cancer	DOID:1612	0-13
+breast cancer	DOID:1612	162-175
+time	PATO:0000165	120-124
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	162-168
+breast	UBERON:0000310	183-189
+breast	UBERON:0000310	343-349
+cancer	DOID:162	7-13
+cancer	DOID:162	169-175
+cancer	DOID:162	221-227
+patient	HADO:0000008,OAE:0001817	333-340
+Inclusion Criteria:	Eligibility	0
+Age greater than or equal to 18 years	Eligibility	1
+age	PATO:0000011	0-3
+Histologic diagnosis of palpable invasive breast cancer or ductal carcinoma in situ	Eligibility	2
+breast cancer	DOID:1612	42-55
+ductal carcinoma in situ	HP:0030075,DOID:0060074	59-83
+Patient desire to undergo breast surgery	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	26-32
+surgery	OAE:0000067	33-40
+Ability to voluntarily provide informed consent to participate prior to any study-related assessments/procedures being conducted	Eligibility	4
+The cancer enhances on breast MRI imaging.	Eligibility	5
+cancer	DOID:162	4-10
+breast	UBERON:0000310	23-29
+Exclusion Criteria:	Eligibility	6
+Absolute contraindication to MRI, including presence of implanted electrical device (pacemaker or neurostimulator), aneurysm clip, or metallic foreign body in or near eyes	Eligibility	7
+contraindication	OAE:0000055	9-25
+Severe claustrophobia	Eligibility	8
+severe	HP:0012828	0-6
+claustrophobia	HP:0025253	7-21
+Contraindication to use of gadolinium-based intravenous contrast, including life-threatening allergy or compromised renal function (creatinine > 2.0)	Eligibility	9
+contraindication	OAE:0000055	0-16
+allergy	HP:0012393	93-100
+function	BAO:0003117,BFO:0000034	122-130
+creatinine	CHEBI:16737	132-142
+History of median sternotomy	Eligibility	10
+history	BFO:0000182	0-7
+median	BAO:0002174	11-17
+Pregnancy. Patient attestation that they are not pregnant will be acceptable as per standard policy for MRIs at DHMC.	Eligibility	11
+patient	HADO:0000008,OAE:0001817	11-18
+Outcome Measurement:	Results	0
+The Distance Measured by Pathology From the Tumor Edge to the Center of the Ink Spots, as Marked by the Black Inked Pins.	Results	1
+Five measurements will be made per patient and the mean difference in distance will be derived between the palpated and the co-registered supine MRI-optical scan image predicted tumor edges. The BCL will be considered accurate if all 5 measurements are > 0 cm from the tumor edge.	Results	2
+patient	HADO:0000008,OAE:0001817	35-42
+mean	BAO:0002173	51-55
+Time frame: 30 Days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Breast Cancer Locator (BCL)	Results	5
+breast cancer	DOID:1612	17-30
+Arm/Group Description: The Breast Cancer Locator (BCL) uses 3D printing to create a bra-like plastic form that matches the breast surface when the patient is in the supine MRI (and surgical) position. This locator will be constructed pre-operatively, sterilized and provided to the surgeon at the time of the procedure.	Results	6
+breast cancer	DOID:1612	27-40
+breast	UBERON:0000310	27-33
+breast	UBERON:0000310	123-129
+patient	HADO:0000008,OAE:0001817	147-154
+position	HP:0012830	191-199
+time	PATO:0000165	297-301
+Breast Cancer Locator (BCL): This locator is constructed pre-operatively, sterilized and provided to the surgeon at the time of the procedure. The outline of the breast cancer on the breast surface at the point where the cancer is closest to the skin is built into the locator so that the surgeon can simply apply the locator to the patient's breast and trace the tumor outline on the skin.	Results	7
+breast cancer	DOID:1612	0-13
+breast cancer	DOID:1612	162-175
+time	PATO:0000165	120-124
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	162-168
+breast	UBERON:0000310	183-189
+breast	UBERON:0000310	343-349
+cancer	DOID:162	7-13
+cancer	DOID:162	169-175
+cancer	DOID:162	221-227
+patient	HADO:0000008,OAE:0001817	333-340
+Overall Number of Participants Analyzed: 18	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: cm  1.7         (1.2)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/23 (0.00%)	Adverse Events	1

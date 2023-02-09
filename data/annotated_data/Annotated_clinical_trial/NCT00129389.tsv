@@ -1,0 +1,205 @@
+INTERVENTION 1:	Intervention	0
+Arm A: FAC	Intervention	1
+FAC X 6 The standard arm consisted of six cycles of FAC (fluorouracil 500 mg/m2, doxorubicin 50mg/m2, and cyclophosphamide 500mg/m2) administered once every 3 weeks.	Intervention	2
+x	LABO:0000148	4-5
+x	LABO:0000148	40-41
+x	LABO:0000148	83-84
+doxorubicin	CHEBI:28748,BAO:0000639	81-92
+cyclophosphamide	CHEBI:4026	106-122
+INTERVENTION 2:	Intervention	3
+Arm B: FAC-wP	Intervention	4
+FAC X 4 + 8 weekly Paclitaxel (wP) Patients in the experimental arm received four cycles of the FAC regimen followed by eight weekly administrations of paclitaxel (100mg/m2 per dose)	Intervention	5
+x	LABO:0000148	4-5
+x	LABO:0000148	26-27
+x	LABO:0000148	52-53
+x	LABO:0000148	159-160
+paclitaxel	CHEBI:45863	19-29
+paclitaxel	CHEBI:45863	152-162
+Inclusion Criteria:	Eligibility	0
+Written informed consent.	Eligibility	1
+Histological diagnoses of operable invasive adenocarcinoma of the breast (T1-T3). Tumors must be Human Epidermal Growth Factor Receptor 2 (HER2) negative. Patients must be free of disease in the axilla (node negative). If lymphadenectomy is done, at least 10 nodes must be examined. If sentinel node technique is used, sentinel node must be free of disease. Patients must present at least one high risk criterion (St. Gallen, 1998) as follows:	Eligibility	2
+adenocarcinoma	DOID:299	44-58
+breast	UBERON:0000310	66-72
+growth factor	BAO:0002024	113-126
+receptor	BAO:0000281	127-135
+disease	DOID:4,OGMS:0000031	180-187
+disease	DOID:4,OGMS:0000031	349-356
+present	PATO:0000467	372-379
+Tumor size > 2 cm; and/or	Eligibility	3
+size	PATO:0000117	6-10
+ER and Progesterone Receptor (PgR) negative; and/or	Eligibility	4
+progesterone	CHEBI:17026	7-19
+receptor	BAO:0000281	20-28
+Histological grade 2-3; and/or	Eligibility	5
+Age < 35 years old.	Eligibility	6
+age	PATO:0000011	0-3
+Time window between surgery and study randomization must be less than 60 days.	Eligibility	7
+time	PATO:0000165	0-4
+surgery	OAE:0000067	20-27
+Surgery must consist of mastectomy or conservative surgery. Margins free of disease and ductal carcinoma in situ (DCIS) are required. Lobular carcinoma is not considered a positive margin.	Eligibility	8
+surgery	OAE:0000067	0-7
+surgery	OAE:0000067	51-58
+disease	DOID:4,OGMS:0000031	76-83
+ductal carcinoma in situ	HP:0030075,DOID:0060074	88-112
+carcinoma	HP:0030731,DOID:305	95-104
+carcinoma	HP:0030731,DOID:305	142-151
+Patients must not present evidence of metastatic disease.	Eligibility	9
+present	PATO:0000467	18-25
+disease	DOID:4,OGMS:0000031	49-56
+Status of hormone receptors in primary tumor. Results must be available before the end of adjuvant chemotherapy.	Eligibility	10
+hormone	CHEBI:24621	10-17
+adjuvant	CHEBI:60809	90-98
+Status of HER2 in primary tumor, known before randomization. Patients with Immunohistochemistry (IHC) 0 or +1 are eligible. For patients with IHC 2+, fluorescent in situ hybridization (FISH) is mandatory and result must be negative.	Eligibility	11
+immunohistochemistry	BAO:0000415	75-95
+result	BAO:0000179	208-214
+Age >= 18 and <= 70 years old.	Eligibility	12
+age	PATO:0000011	0-3
+Performance status (Karnofsky index) >= 80.	Eligibility	13
+Normal electrocardiogram (EKG) in the 12 weeks prior to randomization. If needed, normal cardiac function must be confirmed by left ventricular ejection fraction (LVEF).	Eligibility	14
+function	BAO:0003117,BFO:0000034	97-105
+left	HP:0012835	127-131
+ejection fraction	CMO:0000180	144-161
+Laboratory results (within 14 days prior to randomization):	Eligibility	15
+Hematology: neutrophils >= 1.5 x 10^9/l; platelets >= 100x 10^9/l; hemoglobin >= 10 mg/dl;	Eligibility	16
+x	LABO:0000148	31-32
+x	LABO:0000148	57-58
+hemoglobin	CHEBI:35143	67-77
+Hepatic function: total bilirubin <= 1 upper normal limit (UNL); Aspartate aminotransferase (AST) and Alanine aminotransferase (ALT) <= 2.5 UNL; alkaline phosphatase <= 2.5 UNL. If values of AST and ALT > 1.5 UNL are associated with alkaline phosphatase > 2.5 UNL, patient is not eligible.	Eligibility	17
+function	BAO:0003117,BFO:0000034	8-16
+aspartate	CHEBI:29995	65-74
+alanine	CHEBI:16449	102-109
+phosphatase	GO:0016791,BAO:0000295	154-165
+phosphatase	GO:0016791,BAO:0000295	242-253
+patient	HADO:0000008,OAE:0001817	265-272
+Renal function: creatinine <= 175 mmol/l (2 mg/dl); creatinine clearance >= 60 ml/min.	Eligibility	18
+function	BAO:0003117,BFO:0000034	6-14
+creatinine	CHEBI:16737	16-26
+creatinine	CHEBI:16737	52-62
+creatinine clearance	CMO:0000765	52-72
+Complete stage workup during the 12 weeks prior to randomization (mammograms are allowed within a 20 week time window). All patients must have a bilateral mammogram, thorax x-ray, abdominal echography and/or computed tomography (CT)-scan. If bone pain, and/or alkaline phosphatase elevation, a bone scintigraphy is mandatory. This test is recommended for all patients. Other tests, as clinically indicated.	Eligibility	19
+week	UO:0000034	36-40
+week	UO:0000034	101-105
+time	PATO:0000165	106-110
+bilateral	HP:0012832	145-154
+tomography	BAO:0002525	217-227
+ct	BAO:0002125	229-231
+bone pain	HP:0002653	242-251
+phosphatase	GO:0016791,BAO:0000295	269-280
+Patients able to comply with treatment and study follow-up.	Eligibility	20
+Negative pregnancy test done in the 14 previous days to randomization.	Eligibility	21
+Exclusion Criteria:	Eligibility	22
+Prior systemic therapy for breast cancer.	Eligibility	23
+breast cancer	DOID:1612	27-40
+Prior therapy with anthracyclines or taxanes (paclitaxel or docetaxel) for any malignancy.	Eligibility	24
+paclitaxel	CHEBI:45863	46-56
+Prior radiotherapy for breast cancer.	Eligibility	25
+radiotherapy	OAE:0000235	6-18
+breast cancer	DOID:1612	23-36
+Bilateral invasive breast cancer.	Eligibility	26
+bilateral	HP:0012832	0-9
+breast cancer	DOID:1612	19-32
+Pregnant or lactating women. Adequate contraceptive methods must be used during chemotherapy and hormone therapy treatments. Negative pregnancy test in the 14 previous days to randomization.	Eligibility	27
+hormone	CHEBI:24621	97-104
+Any T4 or N1-3 or M1 tumor.	Eligibility	28
+m1	CHEBI:34826	18-20
+HER2 positive breast cancer (IHC 3+ or positive FISH result).	Eligibility	29
+breast cancer	DOID:1612	14-27
+result	BAO:0000179	53-59
+Pre-existing grade >=2 motor or sensorial neurotoxicity by the National Cancer Institute Common Toxicity Criteria (NCICTC) v-2.0.	Eligibility	30
+cancer	DOID:162	72-78
+Any other serious medical pathology, such as congestive heart failure, unstable angina, history of myocardial infarction during the previous year, uncontrolled hypertension or high risk arrhythmias.	Eligibility	31
+congestive heart failure	HP:0001635,DOID:6000	45-69
+history	BFO:0000182	88-95
+myocardial infarction	HP:0001658,DOID:5844	99-120
+year	UO:0000036	141-145
+hypertension	HP:0000822,DOID:10763	160-172
+History of neurological or psychiatric disorders, which could preclude the patients to free informed consent.	Eligibility	32
+history	BFO:0000182	0-7
+Active uncontrolled infection.	Eligibility	33
+active	PATO:0002354	0-6
+Active peptic ulcer; unstable diabetes mellitus.	Eligibility	34
+active	PATO:0002354	0-6
+peptic ulcer	HP:0004398	7-19
+diabetes mellitus	HP:0000819,DOID:9351	30-47
+Previous or current history of neoplasms different from breast cancer, except for skin carcinoma, cervical in situ carcinoma, or any other tumor curatively treated and without recurrence in the last 10 years; ductal in situ carcinoma in the same breast; lobular in situ carcinoma.	Eligibility	35
+history	BFO:0000182	20-27
+breast cancer	DOID:1612	56-69
+skin carcinoma	DOID:3451	82-96
+in situ carcinoma	DOID:8719	107-124
+in situ carcinoma	DOID:8719	216-233
+in situ carcinoma	DOID:8719	262-279
+breast	UBERON:0000310	56-62
+breast	UBERON:0000310	246-252
+Concomitant treatment with other investigational products. Participation in other clinical trials with a non-marketed drug in the 20 previous days before randomization.	Eligibility	36
+drug	CHEBI:23888	118-122
+Concomitant treatment with other therapy for cancer.	Eligibility	37
+cancer	DOID:162	45-51
+Males.	Eligibility	38
+Outcome Measurement:	Results	0
+Disease-free Survival (DFS) Event	Results	1
+DFS is defined as the evidence of local, regional or metastatic recurrence, second primary cancer (with the exception of carcinoma of squamous cells or basal cells of the skin, cervical carcinoma in situ or lobular or ductal carcinoma in situ of the breast) or death for any reason.	Results	2
+second	UO:0000010	76-82
+cancer	DOID:162	91-97
+carcinoma	HP:0030731,DOID:305	121-130
+carcinoma	HP:0030731,DOID:305	186-195
+carcinoma	HP:0030731,DOID:305	225-234
+ductal carcinoma in situ	HP:0030075,DOID:0060074	218-242
+breast	UBERON:0000310	250-256
+death	OAE:0000632	261-266
+Time frame: Up to 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm A: FAC	Results	5
+Arm/Group Description: FAC X 6 The standard arm consisted of six cycles of FAC (fluorouracil 500 mg/m2, doxorubicin 50mg/m2, and cyclophosphamide 500mg/m2) administered once every 3 weeks.	Results	6
+x	LABO:0000148	27-28
+x	LABO:0000148	63-64
+x	LABO:0000148	106-107
+doxorubicin	CHEBI:28748,BAO:0000639	104-115
+cyclophosphamide	CHEBI:4026	129-145
+Overall Number of Participants Analyzed: 974	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  98  10.1%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm B: FAC-wP	Results	11
+Arm/Group Description: FAC X 4 + 8 weekly Paclitaxel (wP) Patients in the experimental arm received four cycles of the FAC regimen followed by eight weekly administrations of paclitaxel (100mg/m2 per dose)	Results	12
+x	LABO:0000148	27-28
+x	LABO:0000148	49-50
+x	LABO:0000148	75-76
+x	LABO:0000148	182-183
+paclitaxel	CHEBI:45863	42-52
+paclitaxel	CHEBI:45863	175-185
+Overall Number of Participants Analyzed: 951	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  71   7.5%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 60/974 (6.16%)	Adverse Events	1
+Febrile neutropenia *  [1]31/974 (3.18%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia *  [2]6/974 (0.62%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Neutropenia *  [1]3/974 (0.31%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Neutropenia *  [3]2/974 (0.21%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukocytes *  [4]1/974 (0.10%)	Adverse Events	6
+Hemoglobin *  [1]0/974 (0.00%)	Adverse Events	7
+hemoglobin	CHEBI:35143	0-10
+Thrombosis/embolism *  [1]1/974 (0.10%)	Adverse Events	8
+Thrombosis/embolism *  [2]0/974 (0.00%)	Adverse Events	9
+Cardiac-ischemia/infarction *  [2]0/974 (0.00%)	Adverse Events	10
+Adverse Events 2:	Adverse Events	11
+Total: 61/951 (6.41%)	Adverse Events	12
+Febrile neutropenia *  [1]18/951 (1.89%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia *  [2]1/951 (0.11%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	0-11
+Neutropenia *  [1]1/951 (0.11%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Neutropenia *  [3]1/951 (0.11%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukocytes *  [4]0/951 (0.00%)	Adverse Events	17
+Hemoglobin *  [1]1/951 (0.11%)	Adverse Events	18
+hemoglobin	CHEBI:35143	0-10
+Thrombosis/embolism *  [1]3/951 (0.32%)	Adverse Events	19
+Thrombosis/embolism *  [2]3/951 (0.32%)	Adverse Events	20
+Cardiac-ischemia/infarction *  [2]1/951 (0.11%)	Adverse Events	21

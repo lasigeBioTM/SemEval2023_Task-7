@@ -1,0 +1,138 @@
+INTERVENTION 1:	Intervention	0
+Cediranib 45 mg	Intervention	1
+Cediranib 45 mg+Fulvestrant 250 mg	Intervention	2
+Patients randomised to the investigational arm (fulvestrant + cediranib) received treatment according to the following schedule:	Intervention	3
+fulvestrant	CHEBI:31638	48-59
+Day 1: fulvestrant 500 mg im	Intervention	4
+day	UO:0000033	0-3
+fulvestrant	CHEBI:31638	7-18
+Day 15: fulvestrant 250 mg im	Intervention	5
+day	UO:0000033	0-3
+fulvestrant	CHEBI:31638	8-19
+Day 29, and every 28 days thereafter: fulvestrant 250 mg im	Intervention	6
+day	UO:0000033	0-3
+day	UO:0000033	21-24
+fulvestrant	CHEBI:31638	38-49
+and daily: cediranib 45 mg (administered orally)	Intervention	7
+INTERVENTION 2:	Intervention	8
+Placebo	Intervention	9
+Placebo+Fulvestrant 250 mg	Intervention	10
+Patients randomised to the control arm (fulvestrant + placebo) received treatment according to the following schedule:	Intervention	11
+fulvestrant	CHEBI:31638	40-51
+Day 1: fulvestrant 500 mg im	Intervention	12
+day	UO:0000033	0-3
+fulvestrant	CHEBI:31638	7-18
+Day 15: fulvestrant 250 mg im	Intervention	13
+day	UO:0000033	0-3
+fulvestrant	CHEBI:31638	8-19
+Day 29, and every 28 days thereafter: fulvestrant 250 mg im	Intervention	14
+day	UO:0000033	0-3
+day	UO:0000033	21-24
+fulvestrant	CHEBI:31638	38-49
+and daily: placebo to match cediranib (administered orally)	Intervention	15
+Inclusion Criteria:	Eligibility	0
+Written informed consent	Eligibility	1
+Females with histological/cytological confirmation of hormone sensitive breast cancer with evidence of metastatic disease	Eligibility	2
+hormone	CHEBI:24621	54-61
+breast cancer	DOID:1612	72-85
+disease	DOID:4,OGMS:0000031	114-121
+One or more evaluable lesions	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Prior hormonal therapy with fulvestrant	Eligibility	5
+fulvestrant	CHEBI:31638	28-39
+More than one course of prior systemic cytotoxic chemotherapy for metastatic breast cancer	Eligibility	6
+breast cancer	DOID:1612	77-90
+Prior biologic therapy for ABC including Anti-VEGF agents	Eligibility	7
+Radiation therapy within 4 weeks prior to provision of consent	Eligibility	8
+Outcome Measurement:	Results	0
+Progression Free Survival	Results	1
+Number of months from randomisation until progressive disease based on RECIST (progression of target lesions, clear progression of existing non-target lesions or the appearance of one or more new lesions) or death in the absence of progression.	Results	2
+progressive	HP:0003676	42-53
+disease	DOID:4,OGMS:0000031	54-61
+target	BAO:0003064	94-100
+target	BAO:0003064	144-150
+death	OAE:0000632	208-213
+Time frame: RECIST performed at screening and every 8 weeks through to progression or discontinuation whichever is earliest.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cediranib 45 mg	Results	5
+Arm/Group Description: Cediranib 45 mg+Fulvestrant 250 mg	Results	6
+Patients randomised to the investigational arm (fulvestrant + cediranib) received treatment according to the following schedule:	Results	7
+fulvestrant	CHEBI:31638	48-59
+Day 1: fulvestrant 500 mg im	Results	8
+day	UO:0000033	0-3
+fulvestrant	CHEBI:31638	7-18
+Day 15: fulvestrant 250 mg im	Results	9
+day	UO:0000033	0-3
+fulvestrant	CHEBI:31638	8-19
+Day 29, and every 28 days thereafter: fulvestrant 250 mg im	Results	10
+day	UO:0000033	0-3
+day	UO:0000033	21-24
+fulvestrant	CHEBI:31638	38-49
+and daily: cediranib 45 mg (administered orally)	Results	11
+Overall Number of Participants Analyzed: 31	Results	12
+Median (95% Confidence Interval)	Results	13
+median	BAO:0002174	0-6
+Unit of Measure: Days  223        (129 to 340)	Results	14
+Results 2:	Results	15
+Arm/Group Title: Placebo	Results	16
+Arm/Group Description: Placebo+Fulvestrant 250 mg	Results	17
+Patients randomised to the control arm (fulvestrant + placebo) received treatment according to the following schedule:	Results	18
+fulvestrant	CHEBI:31638	40-51
+Day 1: fulvestrant 500 mg im	Results	19
+day	UO:0000033	0-3
+fulvestrant	CHEBI:31638	7-18
+Day 15: fulvestrant 250 mg im	Results	20
+day	UO:0000033	0-3
+fulvestrant	CHEBI:31638	8-19
+Day 29, and every 28 days thereafter: fulvestrant 250 mg im	Results	21
+day	UO:0000033	0-3
+day	UO:0000033	21-24
+fulvestrant	CHEBI:31638	38-49
+and daily: placebo to match cediranib (administered orally)	Results	22
+Overall Number of Participants Analyzed: 31	Results	23
+Median (95% Confidence Interval)	Results	24
+median	BAO:0002174	0-6
+Unit of Measure: Days  112        (59 to 329)	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 15/31 (48.39%)	Adverse Events	1
+Intracardiac Thrombus 1/31 (3.23%)	Adverse Events	2
+Diarrhoea 2/31 (6.45%)	Adverse Events	3
+Nausea 2/31 (6.45%)	Adverse Events	4
+nausea	HP:0002018	0-6
+Vomiting 2/31 (6.45%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Ascites 0/31 (0.00%)	Adverse Events	6
+ascites	HP:0001541	0-7
+Ileus 1/31 (3.23%)	Adverse Events	7
+ileus	HP:0002595,DOID:8440	0-5
+Small Intestinal Obstruction 1/31 (3.23%)	Adverse Events	8
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Multi-Organ Failure 0/31 (0.00%)	Adverse Events	9
+Sepsis 1/31 (3.23%)	Adverse Events	10
+sepsis	HP:0100806	0-6
+Weight Decreased 1/31 (3.23%)	Adverse Events	11
+Dehydration 2/31 (6.45%)	Adverse Events	12
+dehydration	HP:0001944	0-11
+Hypokalaemia 0/31 (0.00%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 4/31 (12.90%)	Adverse Events	15
+Intracardiac Thrombus 0/31 (0.00%)	Adverse Events	16
+Diarrhoea 0/31 (0.00%)	Adverse Events	17
+Nausea 0/31 (0.00%)	Adverse Events	18
+nausea	HP:0002018	0-6
+Vomiting 0/31 (0.00%)	Adverse Events	19
+vomiting	HP:0002013	0-8
+Ascites 1/31 (3.23%)	Adverse Events	20
+ascites	HP:0001541	0-7
+Ileus 0/31 (0.00%)	Adverse Events	21
+ileus	HP:0002595,DOID:8440	0-5
+Small Intestinal Obstruction 0/31 (0.00%)	Adverse Events	22
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Multi-Organ Failure 1/31 (3.23%)	Adverse Events	23
+Sepsis 0/31 (0.00%)	Adverse Events	24
+sepsis	HP:0100806	0-6
+Weight Decreased 0/31 (0.00%)	Adverse Events	25
+Dehydration 0/31 (0.00%)	Adverse Events	26
+dehydration	HP:0001944	0-11
+Hypokalaemia 1/31 (3.23%)	Adverse Events	27

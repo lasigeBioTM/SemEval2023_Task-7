@@ -1,0 +1,129 @@
+INTERVENTION 1:	Intervention	0
+Bi-Weekly Schedule	Intervention	1
+Pemetrexed: 500 mg/m2, intravenous (IV), every 14 days, until disease progression.	Intervention	2
+pemetrexed	CHEBI:63616	0-10
+disease	DOID:4,OGMS:0000031	62-69
+Gemcitabine: 1500 mg/m2, intravenous (IV), every 14 days, until disease progression.	Intervention	3
+gemcitabine	CHEBI:175901	0-11
+disease	DOID:4,OGMS:0000031	64-71
+INTERVENTION 2:	Intervention	4
+21-Day Schedule	Intervention	5
+Pemetrexed: 500 mg/m2, intravenous (IV), every 21 days, until disease progression.	Intervention	6
+pemetrexed	CHEBI:63616	0-10
+disease	DOID:4,OGMS:0000031	62-69
+Gemcitabine: 1000 mg/m2, intravenous (IV) on Days 1 and 8 of a 21-day cycle, until disease progression.	Intervention	7
+gemcitabine	CHEBI:175901	0-11
+disease	DOID:4,OGMS:0000031	83-90
+Inclusion Criteria:	Eligibility	0
+Must have received prior chemotherapy with Taxol (paclitaxel) or Taxotere (docetaxel).	Eligibility	1
+paclitaxel	CHEBI:45863	50-60
+taxotere	CHEBI:46058	65-73
+Less than 3 different chemotherapy treatments for metastatic disease.	Eligibility	2
+disease	DOID:4,OGMS:0000031	61-68
+Prior treatment with hormonal and/or radiation therapy.	Eligibility	3
+Must have disease that can be measured.	Eligibility	4
+disease	DOID:4,OGMS:0000031	10-17
+Must be able to take care of self needs for example personal hygiene	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Must not be pregnant or breast-feeding.	Eligibility	7
+Cancer that has spread to the brain.	Eligibility	8
+cancer	DOID:162	0-6
+brain	UBERON:0000955	30-35
+Treatment with Gemcitabine or Pemetrexed	Eligibility	9
+gemcitabine	CHEBI:175901	15-26
+pemetrexed	CHEBI:63616	30-40
+Unable to take folic acid or Vitamin B12	Eligibility	10
+folic acid	CHEBI:27470	15-25
+vitamin b12	CHEBI:176843	29-40
+Treatment for another cancer within the last 5 years	Eligibility	11
+cancer	DOID:162	22-28
+Outcome Measurement:	Results	0
+Overall Tumor Response	Results	1
+Best overall (confirmed) response recorded from start of treatment until disease progression/recurrence, start of other anti-tumor therapy/intervention, or end of trial, whichever comes first. Response must be confirmed at least 6 weeks from previous scans. Best overall response assignment depends on both measurement and confirmation criteria.	Results	2
+disease	DOID:4,OGMS:0000031	73-80
+Time frame: Every 6 weeks from start of treatment until documented disease progression or for 6 months from last dose of study drug, whichever occurs first. After 6 months, clinical assessment every 12 weeks and radiologic test performed as clinically indicated	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	67-74
+drug	CHEBI:23888	127-131
+Results 1:	Results	4
+Arm/Group Title: Bi-Weekly Schedule	Results	5
+Arm/Group Description: Pemetrexed: 500 mg/m2, intravenous (IV), every 14 days, until disease progression.	Results	6
+pemetrexed	CHEBI:63616	23-33
+disease	DOID:4,OGMS:0000031	85-92
+Gemcitabine: 1500 mg/m2, intravenous (IV), every 14 days, until disease progression.	Results	7
+gemcitabine	CHEBI:175901	0-11
+disease	DOID:4,OGMS:0000031	64-71
+Overall Number of Participants Analyzed: 52	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  Complete Response: 2	Results	10
+Partial Response: 8	Results	11
+Stable Disease: 26	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 14	Results	13
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Unknown: 2	Results	14
+Results 2:	Results	15
+Arm/Group Title: 21-Day Schedule	Results	16
+Arm/Group Description: Pemetrexed: 500 mg/m2, intravenous (IV), every 21 days, until disease progression.	Results	17
+pemetrexed	CHEBI:63616	23-33
+disease	DOID:4,OGMS:0000031	85-92
+Gemcitabine: 1000 mg/m2, intravenous (IV) on Days 1 and 8 of a 21-day cycle, until disease progression.	Results	18
+gemcitabine	CHEBI:175901	0-11
+disease	DOID:4,OGMS:0000031	83-90
+Overall Number of Participants Analyzed: 21	Results	19
+Measure Type: Number	Results	20
+Unit of Measure: participants  Complete Response: 0	Results	21
+Partial Response: 5	Results	22
+Stable Disease: 10	Results	23
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 6	Results	24
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Unknown: 0	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 17	Adverse Events	1
+Anaemia 2/52 (3.85%)	Adverse Events	2
+Febrile neutropenia 4/52 (7.69%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Pancytopenia 1/52 (1.92%)	Adverse Events	4
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/52 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Abdominal pain 1/52 (1.92%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Constipation 1/52 (1.92%)	Adverse Events	7
+constipation	HP:0002019,DOID:2089	0-12
+Pyrexia 2/52 (3.85%)	Adverse Events	8
+Hepatic failure 1/52 (1.92%)	Adverse Events	9
+hepatic failure	HP:0001399	0-15
+Hyperbilirubinaemia 1/52 (1.92%)	Adverse Events	10
+Device related infection 1/52 (1.92%)	Adverse Events	11
+Pneumonia 2/52 (3.85%)	Adverse Events	12
+pneumonia	HP:0002090,DOID:552	0-9
+Sepsis 1/52 (1.92%)	Adverse Events	13
+sepsis	HP:0100806	0-6
+Adverse Events 2:	Adverse Events	14
+Total: 7	Adverse Events	15
+Anaemia 0/21 (0.00%)	Adverse Events	16
+Febrile neutropenia 1/21 (4.76%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Pancytopenia 0/21 (0.00%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 1/21 (4.76%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Abdominal pain 0/21 (0.00%)	Adverse Events	20
+abdominal pain	HP:0002027	0-14
+Constipation 0/21 (0.00%)	Adverse Events	21
+constipation	HP:0002019,DOID:2089	0-12
+Pyrexia 1/21 (4.76%)	Adverse Events	22
+Hepatic failure 0/21 (0.00%)	Adverse Events	23
+hepatic failure	HP:0001399	0-15
+Hyperbilirubinaemia 0/21 (0.00%)	Adverse Events	24
+Device related infection 0/21 (0.00%)	Adverse Events	25
+Pneumonia 0/21 (0.00%)	Adverse Events	26
+pneumonia	HP:0002090,DOID:552	0-9
+Sepsis 0/21 (0.00%)	Adverse Events	27
+sepsis	HP:0100806	0-6

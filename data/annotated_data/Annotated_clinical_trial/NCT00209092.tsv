@@ -1,0 +1,139 @@
+INTERVENTION 1:	Intervention	0
+Arm A:Sequential Therapy	Intervention	1
+Docetaxel will be given at 100mg/m^2 intravenously Day1 every 3 weeks for 4 cycles followed by capecitabine 1000 mg/m^2 twice a day by mouth D1-14 every 3 weeks for 4 cycles (total 8 cycles) (total 24 weeks).	Intervention	2
+capecitabine	CHEBI:31348	95-107
+day	UO:0000033	51-54
+day	UO:0000033	128-131
+mouth	UBERON:0000165	135-140
+INTERVENTION 2:	Intervention	3
+Arm B:Concurrent Therapy	Intervention	4
+Docetaxel will be given at 50mg/m^2 intravenously Day 1 concomitantly with capecitabine 1000 mg/m^2 twice a day by mouth Day 1-7 every 2 weeks for 8 cycles (total 16 weeks).	Intervention	5
+day	UO:0000033	50-53
+day	UO:0000033	108-111
+day	UO:0000033	121-124
+capecitabine	CHEBI:31348	75-87
+mouth	UBERON:0000165	115-120
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed breast carcinoma.	Eligibility	1
+breast carcinoma	HP:0003002,DOID:3459	42-58
+Early stage breast cancer (stage 1, 2, 3).	Eligibility	2
+breast cancer	DOID:1612	12-25
+No evidence of disease outside the breast or chest wall, except ipsilateral axillary lymph nodes.	Eligibility	3
+disease	DOID:4,OGMS:0000031	15-22
+breast	UBERON:0000310	35-41
+chest	UBERON:0001443	45-50
+lymph	UBERON:0002391	85-90
+18 years of age or older.	Eligibility	4
+age	PATO:0000011	12-15
+Final eligibility for a clinical trial is determined by the health professionals conducting the trial.	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Prior chemotherapy, hormonal therapy, biologic therapy or radiation therapy for breast cancer.	Eligibility	7
+breast cancer	DOID:1612	80-93
+Major surgery within 28 days of study entry.	Eligibility	8
+surgery	OAE:0000067	6-13
+Evidence of central nervous system (CNS) metastases.	Eligibility	9
+central nervous system	UBERON:0001017	12-34
+Final eligibility for a clinical trial is determined by the health professionals conducting the trial.	Eligibility	10
+Outcome Measurement:	Results	0
+Number of Participants With Complete Pathologic Response Rate to Pre-operative Treatment in Arm A (Docetaxel for 4 Cycles Followed by Capecitabine for 4 Cycles) or Arm B (Docetaxel + Capecitabine for 8 Cycles) in Patients With Early Stage Breast Cancer.	Results	1
+rate	BAO:0080019	57-61
+capecitabine	CHEBI:31348	134-146
+capecitabine	CHEBI:31348	183-195
+breast cancer	DOID:1612	239-252
+Pathologic complete response (pCR): Absence of invasive breast cancer in the breast.	Results	2
+breast cancer	DOID:1612	56-69
+breast	UBERON:0000310	56-62
+breast	UBERON:0000310	77-83
+Overall Clinical Response=Complete response(CR-complete disappearance of all measurable malignant disease)+partial response(PR-reduction by at least 30%)	Results	3
+disease	DOID:4,OGMS:0000031	98-105
+Stable disease (SD): No decrease or <25% increase in the sum of the products of the longest perpendicular diameters of all measurable lesions.	Results	4
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+increase	BAO:0001251	41-49
+Progressive disease (PD): A 20% or greater increase in a single lesion, OR reappearance of any lesion which has disappeared, OR clear worsening of any evaluable disease OR appearance of any new lesion/site.	Results	5
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+disease	DOID:4,OGMS:0000031	161-168
+increase	BAO:0001251	43-51
+Time frame: 1 year	Results	6
+time	PATO:0000165	0-4
+year	UO:0000036	14-18
+Results 1:	Results	7
+Arm/Group Title: Arm A:Sequential Therapy	Results	8
+Arm/Group Description: Docetaxel will be given at 100mg/m^2 intravenously Day1 every 3 weeks for 4 cycles followed by capecitabine 1000 mg/m^2 twice a day by mouth D1-14 every 3 weeks for 4 cycles (total 8 cycles) (total 24 weeks).	Results	9
+capecitabine	CHEBI:31348	118-130
+day	UO:0000033	74-77
+day	UO:0000033	151-154
+mouth	UBERON:0000165	158-163
+Overall Number of Participants Analyzed: 25	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: participants  Pathologic Complete Response-Overall population: 2	Results	12
+Overall Clinical Response: 15	Results	13
+Stable disease: 3	Results	14
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 7	Results	15
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Results 2:	Results	16
+Arm/Group Title: Arm B:Concurrent Therapy	Results	17
+Arm/Group Description: Docetaxel will be given at 50mg/m^2 intravenously Day 1 concomitantly with capecitabine 1000 mg/m^2 twice a day by mouth Day 1-7 every 2 weeks for 8 cycles (total 16 weeks).	Results	18
+day	UO:0000033	73-76
+day	UO:0000033	131-134
+day	UO:0000033	144-147
+capecitabine	CHEBI:31348	98-110
+mouth	UBERON:0000165	138-143
+Overall Number of Participants Analyzed: 26	Results	19
+Measure Type: Number	Results	20
+Unit of Measure: participants  Pathologic Complete Response-Overall population: 3	Results	21
+Overall Clinical Response: 23	Results	22
+Stable disease: 1	Results	23
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 2	Results	24
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Adverse Events 1:	Adverse Events	0
+Total: 6/25 (24.00%)	Adverse Events	1
+Neutropenia *3/25 (12.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Anemia *0/25 (0.00%)	Adverse Events	3
+anemia	HP:0001903,DOID:2355	0-6
+Febrile Neutropenia *0/25 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Chest Pain *0/25 (0.00%)	Adverse Events	5
+chest pain	HP:0100749	0-10
+Diarrhea *1/25 (4.00%)	Adverse Events	6
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue *1/25 (4.00%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+Liver Tests *0/25 (0.00%)	Adverse Events	8
+liver	UBERON:0002107	0-5
+Neuropathy *0/25 (0.00%)	Adverse Events	9
+neuropathy	DOID:870	0-10
+Syncope *0/25 (0.00%)	Adverse Events	10
+syncope	HP:0001279	0-7
+Hand and Foot Syndrome *1/25 (4.00%)	Adverse Events	11
+syndrome	DOID:225	14-22
+Adverse Events 2:	Adverse Events	12
+Total: 11/26 (42.31%)	Adverse Events	13
+Neutropenia *3/26 (11.54%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	0-11
+Anemia *1/26 (3.85%)	Adverse Events	15
+anemia	HP:0001903,DOID:2355	0-6
+Febrile Neutropenia *1/26 (3.85%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Chest Pain *1/26 (3.85%)	Adverse Events	17
+chest pain	HP:0100749	0-10
+Diarrhea *1/26 (3.85%)	Adverse Events	18
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue *0/26 (0.00%)	Adverse Events	19
+fatigue	HP:0012378	0-7
+Liver Tests *1/26 (3.85%)	Adverse Events	20
+liver	UBERON:0002107	0-5
+Neuropathy *1/26 (3.85%)	Adverse Events	21
+neuropathy	DOID:870	0-10
+Syncope *1/26 (3.85%)	Adverse Events	22
+syncope	HP:0001279	0-7
+Hand and Foot Syndrome *1/26 (3.85%)	Adverse Events	23
+syndrome	DOID:225	14-22

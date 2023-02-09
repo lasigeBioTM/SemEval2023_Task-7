@@ -1,0 +1,54 @@
+INTERVENTION 1:	Intervention	0
+Standard of Care	Intervention	1
+As standard care, the biopsy team attempted to comfort patients in their usual way: they warned of upcoming stimuli, asked patients about their experience, commiserated with them about discomfort, and generally expressed sympathy.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Empathic Attention	Intervention	4
+The Empathy condition was defined by a set of structured attentive behaviors engaged in by a research assistant. These behaviors were standardized according to a manual and proven suitable for invasive procedures in radiology (Lang and Berbaum 1997; Lang et al. 1999)	Intervention	5
+condition	PDRO:0000129	12-21
+Inclusion Criteria:	Eligibility	0
+Patients presenting for large core breast biopsy in the Radiology Department at the Beth Israel Deaconess Medical Center Boston.	Eligibility	1
+breast	UBERON:0000310	35-41
+Exclusion Criteria:	Eligibility	2
+Patients are excluded if :	Eligibility	3
+excluded	HP:0040285	13-21
+They are unable to give informed consent, or pass screening for impaired mental function or psychosis.	Eligibility	4
+function	BAO:0003117,BFO:0000034	80-88
+psychosis	HP:0000709	92-101
+They are unable to hear or understand English.	Eligibility	5
+Outcome Measurement:	Results	0
+Anxiety Ratings at Specified Time Point During the Procedure	Results	1
+anxiety	HP:0000739,DOID:2030	0-7
+time	PATO:0000165	29-33
+Self-reported anxiety on a scale of 0-10 with 0=no anxiety to 10=worst possible anxiety. Patients self-reported anxiety at the beginning (time 0), every 10 minutes, and at the end of their biopsy procedure on a 0-10 numeric verbal anxiety scale (0=no anxiety at all, 10=worst possible anxiety). Participants were followed for the duration of the biopsy procedure, an average of 43 min.	Results	2
+anxiety	HP:0000739,DOID:2030	14-21
+anxiety	HP:0000739,DOID:2030	51-58
+anxiety	HP:0000739,DOID:2030	80-87
+anxiety	HP:0000739,DOID:2030	112-119
+anxiety	HP:0000739,DOID:2030	231-238
+anxiety	HP:0000739,DOID:2030	251-258
+anxiety	HP:0000739,DOID:2030	285-292
+time	PATO:0000165	138-142
+duration	PATO:0001309	330-338
+Time frame: 0 min	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Standard of Care	Results	5
+Arm/Group Description: As standard care, the biopsy team attempted to comfort patients in their usual way: they warned of upcoming stimuli, asked patients about their experience, commiserated with them about discomfort, and generally expressed sympathy.	Results	6
+Overall Number of Participants Analyzed: 76	Results	7
+Median (Inter-Quartile Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: units on a scale  4.5        (2 to 6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Empathic Attention	Results	11
+Arm/Group Description: The Empathy condition was defined by a set of structured attentive behaviors engaged in by a research assistant. These behaviors were standardized according to a manual and proven suitable for invasive procedures in radiology (Lang and Berbaum 1997; Lang et al. 1999)	Results	12
+condition	PDRO:0000129	35-44
+Overall Number of Participants Analyzed: 82	Results	13
+Median (Inter-Quartile Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: units on a scale  5        (3 to 7)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/76 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

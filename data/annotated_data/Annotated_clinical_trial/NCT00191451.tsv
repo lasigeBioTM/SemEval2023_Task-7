@@ -1,0 +1,199 @@
+INTERVENTION 1:	Intervention	0
+HER2+	Intervention	1
+Human Epidermal growth factor Receptor 2 positive: Gemcitabine + Carboplatin + Herceptin.	Intervention	2
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+gemcitabine	CHEBI:175901	51-62
+carboplatin	CHEBI:31355	65-76
+Gemcitabine: Day 1 of 14 day cycle (Cycles 1-9):1500 milligram per square meter (mg/m2) intravenous (IV) (30 minute infusion); Carboplatin: Day 1 of 14 day cycle (Cycles 1-9): Carboplatin area under the curve (AUC)=2.5 intravenous (IV) (30-60 minute infusion); Herceptin: Day 1 of 14 day cycle (Cycle 1): 8 milligrams per kilogram (mg/kg) intravenous (IV) (90 minute infusion). Day 1 of 14 day cycle (Cycles 2-9): 4 mg/kg IV (30 minute infusion). Day 1 of 21 day cycle (Cycles 10+): 6 mg/kg IV (30 minute infusion).	Intervention	3
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	13-16
+day	UO:0000033	25-28
+day	UO:0000033	140-143
+day	UO:0000033	152-155
+day	UO:0000033	272-275
+day	UO:0000033	284-287
+day	UO:0000033	378-381
+day	UO:0000033	390-393
+day	UO:0000033	447-450
+day	UO:0000033	459-462
+meter	UO:0000008	74-79
+minute	UO:0000031	109-115
+minute	UO:0000031	243-249
+minute	UO:0000031	360-366
+minute	UO:0000031	429-435
+minute	UO:0000031	498-504
+carboplatin	CHEBI:31355	127-138
+carboplatin	CHEBI:31355	176-187
+area	PATO:0001323	188-192
+auc	BAO:0002120	210-213
+INTERVENTION 2:	Intervention	4
+HER2- (Taxane-)	Intervention	5
+Human Epidermal growth factor Receptor 2 negative: Gemcitabine + Carboplatin. (Taxane-naive patients).	Intervention	6
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+gemcitabine	CHEBI:175901	51-62
+carboplatin	CHEBI:31355	65-76
+Gemcitabine: Day 1 of 14 day cycle (Cycles 1-9):1500 milligram per square meter (mg/m2) intravenous (IV) (30 minute infusion); Carboplatin: Day 1 of 14 day cycle (Cycles 1-9): Carboplatin area under the curve (AUC)=2.5 intravenous (IV) (30-60 minute infusion).	Intervention	7
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	13-16
+day	UO:0000033	25-28
+day	UO:0000033	140-143
+day	UO:0000033	152-155
+meter	UO:0000008	74-79
+minute	UO:0000031	109-115
+minute	UO:0000031	243-249
+carboplatin	CHEBI:31355	127-138
+carboplatin	CHEBI:31355	176-187
+area	PATO:0001323	188-192
+auc	BAO:0002120	210-213
+Inclusion Criteria:	Eligibility	0
+Diagnosis of metastatic breast cancer	Eligibility	1
+breast cancer	DOID:1612	24-37
+Able to visit the doctor's office at least every 14 days during the actual treatment	Eligibility	2
+Able to care for yourself, even if you cannot work or participate in other normal activities	Eligibility	3
+Your blood results must be adequate for therapy.	Eligibility	4
+blood	UBERON:0000178	5-10
+If you are a female of childbearing potential and test negative for pregnancy, use a reliable method of birth control during and for three months following the last dose of study drug.	Eligibility	5
+female	PATO:0000383	13-19
+drug	CHEBI:23888	179-183
+Exclusion Criteria:	Eligibility	6
+Have received gemcitabine, paraplatin, or trastuzumab for your cancer.	Eligibility	7
+gemcitabine	CHEBI:175901	14-25
+cancer	DOID:162	63-69
+Be pregnant or breastfeeding	Eligibility	8
+Have cancer to the brain and has not been treated	Eligibility	9
+cancer	DOID:162	5-11
+brain	UBERON:0000955	19-24
+Have another active cancer besides breast cancer	Eligibility	10
+active	PATO:0002354	13-19
+cancer	DOID:162	20-26
+cancer	DOID:162	42-48
+breast cancer	DOID:1612	35-48
+Have received stem cell or bone marrow transplant for hematologic (blood type) cancer	Eligibility	11
+bone marrow	UBERON:0002371	27-38
+blood	UBERON:0000178	67-72
+cancer	DOID:162	79-85
+Outcome Measurement:	Results	0
+Overall Tumor Response	Results	1
+Response using Response Evaluation Criteria In Solid Tumors (RECIST) criteria. Complete Response=disappearance of all target lesions; Partial Response=30% decrease in sum of longest diameter of target lesions; Progressive Disease=20% increase in sum of longest diameter of target lesions; Stable Disease=small changes that do not meet above criteria.	Results	2
+target	BAO:0003064	118-124
+target	BAO:0003064	194-200
+target	BAO:0003064	273-279
+diameter	PATO:0001334	182-190
+diameter	PATO:0001334	261-269
+progressive	HP:0003676	210-221
+increase	BAO:0001251	234-242
+stable	HP:0031915	289-295
+Time frame: baseline to disease progression/recurrence (up to 3.5 years)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	24-31
+Results 1:	Results	4
+Arm/Group Title: HER2+	Results	5
+Arm/Group Description: Human Epidermal growth factor Receptor 2 positive: Gemcitabine + Carboplatin + Herceptin.	Results	6
+growth factor	BAO:0002024	39-52
+receptor	BAO:0000281	53-61
+gemcitabine	CHEBI:175901	74-85
+carboplatin	CHEBI:31355	88-99
+Gemcitabine: Day 1 of 14 day cycle (Cycles 1-9):1500 milligram per square meter (mg/m2) intravenous (IV) (30 minute infusion); Carboplatin: Day 1 of 14 day cycle (Cycles 1-9): Carboplatin area under the curve (AUC)=2.5 intravenous (IV) (30-60 minute infusion); Herceptin: Day 1 of 14 day cycle (Cycle 1): 8 milligrams per kilogram (mg/kg) intravenous (IV) (90 minute infusion). Day 1 of 14 day cycle (Cycles 2-9): 4 mg/kg IV (30 minute infusion). Day 1 of 21 day cycle (Cycles 10+): 6 mg/kg IV (30 minute infusion).	Results	7
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	13-16
+day	UO:0000033	25-28
+day	UO:0000033	140-143
+day	UO:0000033	152-155
+day	UO:0000033	272-275
+day	UO:0000033	284-287
+day	UO:0000033	378-381
+day	UO:0000033	390-393
+day	UO:0000033	447-450
+day	UO:0000033	459-462
+meter	UO:0000008	74-79
+minute	UO:0000031	109-115
+minute	UO:0000031	243-249
+minute	UO:0000031	360-366
+minute	UO:0000031	429-435
+minute	UO:0000031	498-504
+carboplatin	CHEBI:31355	127-138
+carboplatin	CHEBI:31355	176-187
+area	PATO:0001323	188-192
+auc	BAO:0002120	210-213
+Overall Number of Participants Analyzed: 50	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  Complete Response (CR): 6	Results	10
+Partial Response (PR): 26	Results	11
+Stable Disease (SD): 12	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease (PD): 4	Results	13
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not Evaluable (NE): 2	Results	14
+Results 2:	Results	15
+Arm/Group Title: HER2- (Taxane-)	Results	16
+Arm/Group Description: Human Epidermal growth factor Receptor 2 negative: Gemcitabine + Carboplatin. (Taxane-naive patients).	Results	17
+growth factor	BAO:0002024	39-52
+receptor	BAO:0000281	53-61
+gemcitabine	CHEBI:175901	74-85
+carboplatin	CHEBI:31355	88-99
+Gemcitabine: Day 1 of 14 day cycle (Cycles 1-9):1500 milligram per square meter (mg/m2) intravenous (IV) (30 minute infusion); Carboplatin: Day 1 of 14 day cycle (Cycles 1-9): Carboplatin area under the curve (AUC)=2.5 intravenous (IV) (30-60 minute infusion).	Results	18
+gemcitabine	CHEBI:175901	0-11
+day	UO:0000033	13-16
+day	UO:0000033	25-28
+day	UO:0000033	140-143
+day	UO:0000033	152-155
+meter	UO:0000008	74-79
+minute	UO:0000031	109-115
+minute	UO:0000031	243-249
+carboplatin	CHEBI:31355	127-138
+carboplatin	CHEBI:31355	176-187
+area	PATO:0001323	188-192
+auc	BAO:0002120	210-213
+Overall Number of Participants Analyzed: 47	Results	19
+Measure Type: Number	Results	20
+Unit of Measure: participants  Complete Response (CR): 0	Results	21
+Partial Response (PR): 13	Results	22
+Stable Disease (SD): 20	Results	23
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease (PD): 12	Results	24
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not Evaluable (NE): 2	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 10/50 (20.00%)	Adverse Events	1
+Anaemia 0/50 (0.00%)	Adverse Events	2
+Febrile neutropenia 0/50 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 0/50 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/50 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Diastolic dysfunction 0/50 (0.00%)	Adverse Events	6
+Tachycardia 0/50 (0.00%)	Adverse Events	7
+tachycardia	HP:0001649	0-11
+Intestinal obstruction 0/50 (0.00%)	Adverse Events	8
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea 1/50 (2.00%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Oesophageal spasm 0/50 (0.00%)	Adverse Events	10
+Oesophagitis 0/50 (0.00%)	Adverse Events	11
+Retching 0/50 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 11/48 (22.92%)	Adverse Events	14
+Anaemia 4/48 (8.33%)	Adverse Events	15
+Febrile neutropenia 0/48 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 2/48 (4.17%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 2/48 (4.17%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Diastolic dysfunction 1/48 (2.08%)	Adverse Events	19
+Tachycardia 1/48 (2.08%)	Adverse Events	20
+tachycardia	HP:0001649	0-11
+Intestinal obstruction 0/48 (0.00%)	Adverse Events	21
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea 0/48 (0.00%)	Adverse Events	22
+nausea	HP:0002018	0-6
+Oesophageal spasm 1/48 (2.08%)	Adverse Events	23
+Oesophagitis 0/48 (0.00%)	Adverse Events	24
+Retching 1/48 (2.08%)	Adverse Events	25

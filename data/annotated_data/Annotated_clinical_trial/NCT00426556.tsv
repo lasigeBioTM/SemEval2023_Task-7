@@ -1,0 +1,124 @@
+INTERVENTION 1:	Intervention	0
+Phase I - RAD001 5mg + PT, Daily	Intervention	1
+Daily dosing schedule of Everolimus 5mg plus Paclitaxel plus Trastuzumab. PT = Paclitaxel & Trastuzumab	Intervention	2
+everolimus	CHEBI:68478	25-35
+paclitaxel	CHEBI:45863	45-55
+paclitaxel	CHEBI:45863	79-89
+INTERVENTION 2:	Intervention	3
+Phase I - RAD001 10mg + PT, Daily	Intervention	4
+Daily dosing schedule of Everolimus 10mg plus Paclitaxel plus Trastuzumab. PT = Paclitaxel & Trastuzumab	Intervention	5
+everolimus	CHEBI:68478	25-35
+paclitaxel	CHEBI:45863	46-56
+paclitaxel	CHEBI:45863	80-90
+Inclusion Criteria:	Eligibility	0
+Female or male patients  18 years old with WHO performance status  1	Eligibility	1
+female	PATO:0000383	0-6
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	10-14
+HER-2 over-expressing metastatic breast cancer cells confirmed by histology	Eligibility	2
+breast cancer	DOID:1612	33-46
+histology	NCIT:C16681	66-75
+Progressive disease on prior trastuzumab alone/or in combination with other anticancer agents, or relapsed any time after completion of this therapy (phase l)	Eligibility	3
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+time	PATO:0000165	111-115
+Patient resistance to trastuzumab and taxanes (Phase ll)	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+Measurable disease according to RECIST (Phase ll)	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+Patients neurologically stable with adequate bone marrow, liver and renal function	Eligibility	6
+stable	HP:0031915	24-30
+bone marrow	UBERON:0002371	45-56
+liver	UBERON:0002107	58-63
+function	BAO:0003117,BFO:0000034	74-82
+Exclusion Criteria:	Eligibility	7
+Patients receiving endocrine therapy for breast cancer  2 weeks prior to study treatment start	Eligibility	8
+breast cancer	DOID:1612	41-54
+Patients currently receiving chemotherapy, immunotherapy or radiotherapy or who have received these  4 weeks prior to study treatment start or patients who have received lapatinib  2 weeks prior to study treatment start	Eligibility	9
+radiotherapy	OAE:0000235	60-72
+lapatinib	CHEBI:49603	170-179
+Patients who have previously received mTOR inhibitors	Eligibility	10
+Other protocol-defined inclusion/exclusion criteria may apply	Eligibility	11
+Outcome Measurement:	Results	0
+Phase II: Overall Response Rate	Results	1
+rate	BAO:0080019	27-31
+The primary objective of this phase II study was to evaluate the efficacy of the dose level/regimen of everolimus recommended from the Phase I with trastuzumab and paclitaxel (PT) therapy in patients with HER2-overexpressing metastatic breast cancer whose disease progressed on/after trastuzumab mono-and/or combination therapy based on the evaluation of objective response rate (ORR) according to Response Evaluation Criteria in Solid Tumors (RECIST). Objective response rate (ORR) was defined as the proportion of patients with a best overall response (BOR) of complete response (CR) or partial response (PR). Only patients with measurable disease (the presence of at least one measurable lesion) at baseline were included in the study. CR = Disappearance of all target lesions; PR = At least a 30% decrease in the sum of the longest diameter of all target lesions, taking as reference the baseline sum of the longest diameters.	Results	2
+efficacy	BAO:0000656	65-73
+everolimus	CHEBI:68478	103-113
+paclitaxel	CHEBI:45863	164-174
+breast cancer	DOID:1612	236-249
+disease	DOID:4,OGMS:0000031	256-263
+disease	DOID:4,OGMS:0000031	642-649
+rate	BAO:0080019	374-378
+rate	BAO:0080019	472-476
+target	BAO:0003064	765-771
+target	BAO:0003064	852-858
+diameter	PATO:0001334	836-844
+diameter	PATO:0001334	920-928
+Time frame: every 8 - 9 weeks until disease progression or a new lesion is identified	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	36-43
+Results 1:	Results	4
+Arm/Group Title: Phase I - RAD001 5mg + PT, Daily	Results	5
+Arm/Group Description: Daily dosing schedule of Everolimus 5mg plus Paclitaxel plus Trastuzumab. PT = Paclitaxel & Trastuzumab	Results	6
+everolimus	CHEBI:68478	48-58
+paclitaxel	CHEBI:45863	68-78
+paclitaxel	CHEBI:45863	102-112
+Overall Number of Participants Analyzed: 0	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of Participants	Results	9
+Results 2:	Results	10
+Arm/Group Title: Phase I - RAD001 10mg + PT, Daily	Results	11
+Arm/Group Description: Daily dosing schedule of Everolimus 10mg plus Paclitaxel plus Trastuzumab. PT = Paclitaxel & Trastuzumab	Results	12
+everolimus	CHEBI:68478	48-58
+paclitaxel	CHEBI:45863	69-79
+paclitaxel	CHEBI:45863	103-113
+Overall Number of Participants Analyzed: 0	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of Participants	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 3/6 (50.00%)	Adverse Events	1
+Febrile neutropenia 0/6 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/6 (0.00%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/6 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/6 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardio-respiratory arrest 0/6 (0.00%)	Adverse Events	6
+Cardiopulmonary failure 0/6 (0.00%)	Adverse Events	7
+Vertigo 0/6 (0.00%)	Adverse Events	8
+vertigo	HP:0002321	0-7
+Visual impairment 0/6 (0.00%)	Adverse Events	9
+visual impairment	HP:0000505,DOID:1432	0-17
+Abdominal pain 0/6 (0.00%)	Adverse Events	10
+abdominal pain	HP:0002027	0-14
+Diarrhoea 0/6 (0.00%)	Adverse Events	11
+Dysphagia 0/6 (0.00%)	Adverse Events	12
+dysphagia	HP:0002015	0-9
+Gastric ulcer 0/6 (0.00%)	Adverse Events	13
+gastric ulcer	HP:0002592,DOID:10808	0-13
+Adverse Events 2:	Adverse Events	14
+Total: 6/17 (35.29%)	Adverse Events	15
+Febrile neutropenia 0/17 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/17 (0.00%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/17 (0.00%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/17 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardio-respiratory arrest 1/17 (5.88%)	Adverse Events	20
+Cardiopulmonary failure 0/17 (0.00%)	Adverse Events	21
+Vertigo 0/17 (0.00%)	Adverse Events	22
+vertigo	HP:0002321	0-7
+Visual impairment 0/17 (0.00%)	Adverse Events	23
+visual impairment	HP:0000505,DOID:1432	0-17
+Abdominal pain 0/17 (0.00%)	Adverse Events	24
+abdominal pain	HP:0002027	0-14
+Diarrhoea 1/17 (5.88%)	Adverse Events	25
+Dysphagia 0/17 (0.00%)	Adverse Events	26
+dysphagia	HP:0002015	0-9
+Gastric ulcer 1/17 (5.88%)	Adverse Events	27
+gastric ulcer	HP:0002592,DOID:10808	0-13

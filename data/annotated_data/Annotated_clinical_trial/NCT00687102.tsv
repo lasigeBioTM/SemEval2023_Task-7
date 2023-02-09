@@ -1,0 +1,92 @@
+INTERVENTION 1:	Intervention	0
+Star Participants Assigned to Tamoxifen	Intervention	1
+tamoxifen	CHEBI:41774	30-39
+Participants in the parent study, STAR assigned to Tamoxifen who were 65 or older at time of enrollment.	Intervention	2
+tamoxifen	CHEBI:41774	51-60
+time	PATO:0000165	85-89
+tamoxifen: oral tamoxifen plus placebo daily for 5 years	Intervention	3
+tamoxifen	CHEBI:41774	0-9
+tamoxifen	CHEBI:41774	16-25
+INTERVENTION 2:	Intervention	4
+Star Participants Assigned to Raloxifene	Intervention	5
+raloxifene	CHEBI:8772	30-40
+Participants in the parent study, STAR assigned to Raloxifene who were 65 or older at time of enrollment.	Intervention	6
+raloxifene	CHEBI:8772	51-61
+time	PATO:0000165	86-90
+raloxifene: oral raloxifene plus placebo daily for 5 years	Intervention	7
+raloxifene	CHEBI:8772	0-10
+raloxifene	CHEBI:8772	17-27
+Inclusion Criteria:	Eligibility	0
+Women enrolled in STAR trial at a site participating in Co-STAR	Eligibility	1
+site	BFO:0000029	34-38
+65 years of age or older	Eligibility	2
+age	PATO:0000011	12-15
+Have been randomized into STAR but have not started taking the study drug OR enrolled in STAR for a minimum of one year	Eligibility	3
+drug	CHEBI:23888	69-73
+year	UO:0000036	115-119
+Have not been diagnosed with dementia	Eligibility	4
+dementia	HP:0000726,DOID:1307	29-37
+Have signed a separate consent document for the Co-STAR Study	Eligibility	5
+document	IAO:0000310	31-39
+Previous diagnoses of chronic neurologic disease (Parkinson's disease, stroke, epilepsy, multiple sclerosis), history of head injury, depression, alcohol addiction, drug addiction, and other neurologic or psychiatric conditions will be recorded but will not serve as exclusion factors for this study	Eligibility	6
+chronic	HP:0011010	22-29
+disease	DOID:4,OGMS:0000031	41-48
+disease	DOID:4,OGMS:0000031	62-69
+stroke	HP:0001297,DOID:6713	71-77
+epilepsy	DOID:1826	79-87
+multiple sclerosis	DOID:2377	89-107
+history	BFO:0000182	110-117
+head	UBERON:0000033	121-125
+depression	HP:0000716	134-144
+alcohol	CHEBI:16236	146-153
+drug addiction	HP:0033511	165-179
+Exclusion Criteria:	Eligibility	7
+Not enrolled in the STAR Trial	Eligibility	8
+Younger than 65 years of age	Eligibility	9
+age	PATO:0000011	25-28
+Diagnosed with dementia	Eligibility	10
+dementia	HP:0000726,DOID:1307	15-23
+Outcome Measurement:	Results	0
+Mean Change From Baseline on the the Benton Visual Retention Test Scores by Treatment Group	Results	1
+mean	BAO:0002173	0-4
+group	CHEBI:24433	86-91
+Mean Change From Baseline on the Benton Visual Retention (BVRT) Test scores. Adjusted for age, ethnicity, education, and baseline measure, for participants with true baseline measures.	Results	2
+mean	BAO:0002173	0-4
+age	PATO:0000011	90-93
+The BVRT measures short term visual memory and visuo-constructional abilities. Each of 10 designs was presented one at a time for 10 seconds, and immediately after the design was withdrawn, the participant was instructed to draw it from memory on a blank sheet of paper. The score on the BVRT is the total number of errors, 0-26 represents the total number of theoretically possible errors. Lower score denotes better outcomes.	Results	3
+memory	GO:0007613	36-42
+memory	GO:0007613	237-243
+time	PATO:0000165	121-125
+denotes	IAO:0000219	403-410
+Time frame: Baseline and 3 Years	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Star Participants Assigned to Tamoxifen	Results	6
+tamoxifen	CHEBI:41774	47-56
+Arm/Group Description: Participants in the parent study, STAR assigned to Tamoxifen who were 65 or older at time of enrollment.	Results	7
+tamoxifen	CHEBI:41774	74-83
+time	PATO:0000165	108-112
+tamoxifen: oral tamoxifen plus placebo daily for 5 years	Results	8
+tamoxifen	CHEBI:41774	0-9
+tamoxifen	CHEBI:41774	16-25
+Overall Number of Participants Analyzed: 83	Results	9
+Mean (Standard Error)	Results	10
+mean	BAO:0002173	0-4
+Unit of Measure: Number of errors  -0.73         (0.34)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Star Participants Assigned to Raloxifene	Results	13
+raloxifene	CHEBI:8772	47-57
+Arm/Group Description: Participants in the parent study, STAR assigned to Raloxifene who were 65 or older at time of enrollment.	Results	14
+raloxifene	CHEBI:8772	74-84
+time	PATO:0000165	109-113
+raloxifene: oral raloxifene plus placebo daily for 5 years	Results	15
+raloxifene	CHEBI:8772	0-10
+raloxifene	CHEBI:8772	17-27
+Overall Number of Participants Analyzed: 93	Results	16
+Mean (Standard Error)	Results	17
+mean	BAO:0002173	0-4
+Unit of Measure: Number of errors  -1.41         (0.32)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 0/733 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/765 (0.00%)	Adverse Events	3

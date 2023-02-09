@@ -1,0 +1,197 @@
+INTERVENTION 1:	Intervention	0
+Pertuzumab + Trastuzumab + Vinorelbine: Separate Infusion	Intervention	1
+vinorelbine	CHEBI:480999	27-38
+Pertuzumab IV infusion at a loading dose of 840 mg on Day 1 of Cycle 1 (cycle length = 21 days), followed by 420 mg on Day 1 of each subsequent cycle. Trastuzumab IV infusion at a loading dose of 8 mg/kg on Day 2 of Cycle 1, followed by 6 mg/kg on Day 2 of each subsequent cycle. Vinorelbine IV infusion (administered after trastuzumab) at a dose of 25 mg/m^2 on Day 2 and Day 9 of Cycle 1, followed by 30-35 mg/m^2 on Day 2 and Day 9 of each subsequent cycle. Pertuzumab and trastuzumab were administered sequentially in separate infusion bags, followed by vinorelbine until disease progression, unacceptable toxicity, withdrawal of consent, death, or predefined study end (up to 47 cycles).	Intervention	2
+day	UO:0000033	54-57
+day	UO:0000033	90-93
+day	UO:0000033	119-122
+day	UO:0000033	207-210
+day	UO:0000033	248-251
+day	UO:0000033	363-366
+day	UO:0000033	373-376
+day	UO:0000033	419-422
+day	UO:0000033	429-432
+length	PATO:0000122	78-84
+vinorelbine	CHEBI:480999	280-291
+vinorelbine	CHEBI:480999	558-569
+disease	DOID:4,OGMS:0000031	576-583
+death	OAE:0000632	643-648
+INTERVENTION 2:	Intervention	3
+Pertuzumab + Trastuzumab + Vinorelbine: Single Infusion	Intervention	4
+vinorelbine	CHEBI:480999	27-38
+Pertuzumab IV infusion at a loading dose of 840 mg on Day 1 of Cycle 1 (cycle length = 21 days), followed by 420 mg on Day 1 of each subsequent cycle. Trastuzumab IV infusion at a loading dose of 8 mg/kg on Day 2 of Cycle 1, followed by 6 mg/kg on Day 1 of each subsequent cycle. Vinorelbine IV infusion at a dose of 25 mg/m^2 on Day 2 and Day 9 of Cycle 1, followed by 30-35 mg/m^2 on Day 1 and Day 8 of each subsequent cycle. If administration of all 3 drugs was well tolerated in Cycle 1, then on Day 1 of each subsequent cycle, pertuzumab 420 mg and trastuzumab 6 mg/kg was administered in a single infusion bag, followed by vinorelbine until disease progression, unacceptable toxicity, withdrawal of consent, death, or predefined study end (up to 47 cycles).	Intervention	5
+day	UO:0000033	54-57
+day	UO:0000033	90-93
+day	UO:0000033	119-122
+day	UO:0000033	207-210
+day	UO:0000033	248-251
+day	UO:0000033	330-333
+day	UO:0000033	340-343
+day	UO:0000033	386-389
+day	UO:0000033	396-399
+day	UO:0000033	500-503
+length	PATO:0000122	78-84
+vinorelbine	CHEBI:480999	280-291
+vinorelbine	CHEBI:480999	629-640
+disease	DOID:4,OGMS:0000031	647-654
+death	OAE:0000632	714-719
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed and documented adenocarcinoma of the breast with metastatic or locally advanced disease not amenable to curative resection	Eligibility	1
+adenocarcinoma	DOID:299	57-71
+breast	UBERON:0000310	79-85
+disease	DOID:4,OGMS:0000031	122-129
+HER2-positive as assessed by local laboratory on primary or metastatic tumor	Eligibility	2
+At least one measurable lesion and/or non-measurable disease evaluable according to RECIST v1.1 criteria	Eligibility	3
+disease	DOID:4,OGMS:0000031	53-60
+Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1	Eligibility	4
+group	CHEBI:24433	29-34
+Left ventricular ejection fraction (LVEF) of at least 55%	Eligibility	5
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Life expectancy of at least 12 weeks	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Previous systemic non-hormonal anti-cancer therapy in the metastatic or locally advanced breast cancer setting	Eligibility	8
+breast cancer	DOID:1612	89-102
+Previous approved or investigative anti-HER2 agents in any breast cancer treatment setting, except trastuzumab and/or lapatinib in the adjuvant or neoadjuvant setting	Eligibility	9
+breast cancer	DOID:1612	59-72
+lapatinib	CHEBI:49603	118-127
+adjuvant	CHEBI:60809	135-143
+adjuvant	CHEBI:60809	150-158
+Disease progression while receiving trastuzumab and/or lapatinib in the adjuvant or neoadjuvant setting	Eligibility	10
+disease	DOID:4,OGMS:0000031	0-7
+lapatinib	CHEBI:49603	55-64
+adjuvant	CHEBI:60809	72-80
+adjuvant	CHEBI:60809	87-95
+Disease-free interval from completion of adjuvant or neoadjuvant systemic non-hormonal treatment to recurrent disease of less than 6 months	Eligibility	11
+adjuvant	CHEBI:60809	41-49
+adjuvant	CHEBI:60809	56-64
+recurrent	HP:0031796	100-109
+disease	DOID:4,OGMS:0000031	0-7
+disease	DOID:4,OGMS:0000031	110-117
+History of persistent Grade 2 or higher (National Cancer Institute Common Terminology Criteria [NCI-CTC], Version 4.0) hematological toxicity resulting from previous adjuvant or neoadjuvant therapy	Eligibility	12
+history	BFO:0000182	0-7
+cancer	DOID:162	50-56
+adjuvant	CHEBI:60809	166-174
+adjuvant	CHEBI:60809	181-189
+Radiographic evidence of central nervous system metastases that are not well controlled with local therapy (irradiation or surgery)	Eligibility	13
+central nervous system	UBERON:0001017	25-47
+surgery	OAE:0000067	123-130
+Current peripheral neuropathy of NCI-CTC, version 4.0 Grade 3 or greater	Eligibility	14
+peripheral neuropathy	HP:0009830,DOID:870	8-29
+History of other malignancy within the last 5 years, except for carcinoma in situ of the cervix, non-melanoma skin carcinoma, Stage 1 uterine cancer, or cancers with a similar curative outcome as those mentioned above	Eligibility	15
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	64-73
+carcinoma	HP:0030731,DOID:305	115-124
+skin carcinoma	DOID:3451	110-124
+uterine cancer	DOID:363	134-148
+Serious uncontrolled concomitant disease that would contraindicate the use of any of the investigational drugs used in this study or would put the participants at high risk for treatment-related complications	Eligibility	16
+disease	DOID:4,OGMS:0000031	33-40
+Inadequate hematologic, liver, or renal function	Eligibility	17
+liver	UBERON:0002107	24-29
+function	BAO:0003117,BFO:0000034	40-48
+Uncontrolled hypertension or clinically significant cardiovascular disease	Eligibility	18
+hypertension	HP:0000822,DOID:10763	13-25
+disease	DOID:4,OGMS:0000031	67-74
+Hepatitis B, hepatitis C, or human immunodeficiency virus (HIV) infection	Eligibility	19
+hepatitis b	DOID:2043	0-11
+hepatitis c	DOID:1883	13-24
+immunodeficiency	HP:0002721	35-51
+virus	BAO:0000232	52-57
+Current chronic daily treatment with corticosteroids (>/= 10 mg/day methylprednisolone or equivalent), excluding inhaled steroids	Eligibility	20
+chronic	HP:0011010	8-15
+Outcome Measurement:	Results	0
+Percentage of Participants With Best Overall Response (BOR) as Assessed by Investigator According to Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)	Results	1
+Tumor response was assessed by investigator according to RECIST v1.1. BOR was defined as percentage of participants with a confirmed complete response (CR) or partial response (PR). All measurable lesions up to a maximum of 2 lesions per organ and 5 lesions in total or pathological nodes (with short axis [SA] of at least (>/=) 15 millimeter [mm]) were identified as target lesions (TLs) and measured and recorded at baseline. A sum of diameters (longest for non-nodal lesions, SA for nodal lesions) for all TLs was calculated and reported as baseline sum of diameters (SD). All other lesions (or sites of disease) were identified as non-TLs. CR: disappearance of all TLs and SA reduction to less than (<) 10 mm for nodal TLs/ non-TLs. PR: >/=30 percent (%) decrease in SD of TLs, taking as reference baseline SD. Confirmation of response at 2 consecutive tumor assessments >/=4 weeks apart was required. The 95% confidence interval (CI) was computed using Clopper-Pearson approach.	Results	2
+organ	UBERON:0000062	238-243
+millimeter	UO:0000016	332-342
+target	BAO:0003064	368-374
+disease	DOID:4,OGMS:0000031	607-614
+percent	UO:0000187	89-96
+percent	UO:0000187	747-754
+Time frame: Baseline, every 3 cycles up to 36 months, and every 6 cycles thereafter if progression free after 36 months, 28 days after end of treatment, every 3 months thereafter (maximum up to approximately 3.5 years)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Pertuzumab + Trastuzumab + Vinorelbine: Separate Infusion	Results	5
+vinorelbine	CHEBI:480999	44-55
+Arm/Group Description: Pertuzumab IV infusion at a loading dose of 840 mg on Day 1 of Cycle 1 (cycle length = 21 days), followed by 420 mg on Day 1 of each subsequent cycle. Trastuzumab IV infusion at a loading dose of 8 mg/kg on Day 2 of Cycle 1, followed by 6 mg/kg on Day 2 of each subsequent cycle. Vinorelbine IV infusion (administered after trastuzumab) at a dose of 25 mg/m^2 on Day 2 and Day 9 of Cycle 1, followed by 30-35 mg/m^2 on Day 2 and Day 9 of each subsequent cycle. Pertuzumab and trastuzumab were administered sequentially in separate infusion bags, followed by vinorelbine until disease progression, unacceptable toxicity, withdrawal of consent, death, or predefined study end (up to 47 cycles).	Results	6
+day	UO:0000033	77-80
+day	UO:0000033	113-116
+day	UO:0000033	142-145
+day	UO:0000033	230-233
+day	UO:0000033	271-274
+day	UO:0000033	386-389
+day	UO:0000033	396-399
+day	UO:0000033	442-445
+day	UO:0000033	452-455
+length	PATO:0000122	101-107
+vinorelbine	CHEBI:480999	303-314
+vinorelbine	CHEBI:480999	581-592
+disease	DOID:4,OGMS:0000031	599-606
+death	OAE:0000632	666-671
+Overall Number of Participants Analyzed: 89	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  74.2        (63.8 to 82.9)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Pertuzumab + Trastuzumab + Vinorelbine: Single Infusion	Results	11
+vinorelbine	CHEBI:480999	44-55
+Arm/Group Description: Pertuzumab IV infusion at a loading dose of 840 mg on Day 1 of Cycle 1 (cycle length = 21 days), followed by 420 mg on Day 1 of each subsequent cycle. Trastuzumab IV infusion at a loading dose of 8 mg/kg on Day 2 of Cycle 1, followed by 6 mg/kg on Day 1 of each subsequent cycle. Vinorelbine IV infusion at a dose of 25 mg/m^2 on Day 2 and Day 9 of Cycle 1, followed by 30-35 mg/m^2 on Day 1 and Day 8 of each subsequent cycle. If administration of all 3 drugs was well tolerated in Cycle 1, then on Day 1 of each subsequent cycle, pertuzumab 420 mg and trastuzumab 6 mg/kg was administered in a single infusion bag, followed by vinorelbine until disease progression, unacceptable toxicity, withdrawal of consent, death, or predefined study end (up to 47 cycles).	Results	12
+day	UO:0000033	77-80
+day	UO:0000033	113-116
+day	UO:0000033	142-145
+day	UO:0000033	230-233
+day	UO:0000033	271-274
+day	UO:0000033	353-356
+day	UO:0000033	363-366
+day	UO:0000033	409-412
+day	UO:0000033	419-422
+day	UO:0000033	523-526
+length	PATO:0000122	101-107
+vinorelbine	CHEBI:480999	303-314
+vinorelbine	CHEBI:480999	652-663
+disease	DOID:4,OGMS:0000031	670-677
+death	OAE:0000632	737-742
+Overall Number of Participants Analyzed: 91	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  63.7        (53.0 to 73.6)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 32/106 (30.19%)	Adverse Events	1
+Febrile neutropenia * 6/106 (5.66%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 1/106 (0.94%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 1/106 (0.94%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Arrhythmia * 1/106 (0.94%)	Adverse Events	5
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation * 0/106 (0.00%)	Adverse Events	6
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure * 0/106 (0.00%)	Adverse Events	7
+Left ventricular dysfunction * 1/106 (0.94%)	Adverse Events	8
+left	HP:0012835	0-4
+Myocardial infarction * 1/106 (0.94%)	Adverse Events	9
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Supraventricular tachycardia * 0/106 (0.00%)	Adverse Events	10
+supraventricular tachycardia	HP:0004755	0-28
+Tachycardia * 0/106 (0.00%)	Adverse Events	11
+tachycardia	HP:0001649	0-11
+Adverse Events 2:	Adverse Events	12
+Total: 44/107 (41.12%)	Adverse Events	13
+Febrile neutropenia * 3/107 (2.80%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia * 0/107 (0.00%)	Adverse Events	15
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia * 3/107 (2.80%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Arrhythmia * 0/107 (0.00%)	Adverse Events	17
+arrhythmia	HP:0011675	0-10
+Atrial fibrillation * 1/107 (0.93%)	Adverse Events	18
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure * 1/107 (0.93%)	Adverse Events	19
+Left ventricular dysfunction * 0/107 (0.00%)	Adverse Events	20
+left	HP:0012835	0-4
+Myocardial infarction * 0/107 (0.00%)	Adverse Events	21
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Supraventricular tachycardia * 1/107 (0.93%)	Adverse Events	22
+supraventricular tachycardia	HP:0004755	0-28
+Tachycardia * 1/107 (0.93%)	Adverse Events	23
+tachycardia	HP:0001649	0-11

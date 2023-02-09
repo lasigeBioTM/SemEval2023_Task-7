@@ -1,0 +1,233 @@
+INTERVENTION 1:	Intervention	0
+Arm 1 (Paclitaxel, Carboplatin)	Intervention	1
+paclitaxel	CHEBI:45863	7-17
+carboplatin	CHEBI:31355	19-30
+Patients receive paclitaxel IV and carboplatin IV on day 1 (course 1 only) or day 2 (courses 2-12). Treatment repeats every 7 days for 12 courses in the absence of disease progression or unacceptable toxicity. Beginning 21 days after the last course, patients receive doxorubicin hydrochloride IV and cyclophosphamide IV on day 1. Treatment repeats every 21 days for 4 courses in the absence of disease progression or unacceptable toxicity.	Intervention	2
+paclitaxel	CHEBI:45863	17-27
+carboplatin	CHEBI:31355	35-46
+day	UO:0000033	53-56
+day	UO:0000033	78-81
+day	UO:0000033	126-129
+day	UO:0000033	223-226
+day	UO:0000033	324-327
+day	UO:0000033	358-361
+disease	DOID:4,OGMS:0000031	164-171
+disease	DOID:4,OGMS:0000031	395-402
+doxorubicin hydrochloride	CHEBI:31522	268-293
+cyclophosphamide	CHEBI:4026	301-317
+Paclitaxel: Given IV	Intervention	3
+paclitaxel	CHEBI:45863	0-10
+Carboplatin: Given IV	Intervention	4
+carboplatin	CHEBI:31355	0-11
+Doxorubicin: Given IV	Intervention	5
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide: Given IV	Intervention	6
+cyclophosphamide	CHEBI:4026	0-16
+INTERVENTION 2:	Intervention	7
+Arm 2 (Veliparib, Paclitaxel, Carboplatin)	Intervention	8
+veliparib	CHEBI:62880	7-16
+paclitaxel	CHEBI:45863	18-28
+carboplatin	CHEBI:31355	30-41
+Patients receive veliparib PO BID on days 1-5. Patients also receive paclitaxel IV and carboplatin IV on day 3 (course 1 only) or day 4 (courses 2-12). Treatment repeats every 7 days for 12 courses in the absence of disease progression or unacceptable toxicity. Beginning 21 days after the last course, patients receive doxorubicin hydrochloride IV and cyclophosphamide IV on day 1. Treatment repeats every 21 days for 4 courses in the absence of disease progression or unacceptable toxicity.	Intervention	9
+veliparib	CHEBI:62880	17-26
+paclitaxel	CHEBI:45863	69-79
+carboplatin	CHEBI:31355	87-98
+day	UO:0000033	37-40
+day	UO:0000033	105-108
+day	UO:0000033	130-133
+day	UO:0000033	178-181
+day	UO:0000033	275-278
+day	UO:0000033	376-379
+day	UO:0000033	410-413
+disease	DOID:4,OGMS:0000031	216-223
+disease	DOID:4,OGMS:0000031	447-454
+doxorubicin hydrochloride	CHEBI:31522	320-345
+cyclophosphamide	CHEBI:4026	353-369
+Paclitaxel: Given IV	Intervention	10
+paclitaxel	CHEBI:45863	0-10
+Carboplatin: Given IV	Intervention	11
+carboplatin	CHEBI:31355	0-11
+Doxorubicin: Given IV	Intervention	12
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide: Given IV	Intervention	13
+cyclophosphamide	CHEBI:4026	0-16
+Veliparib: Given PO	Intervention	14
+veliparib	CHEBI:62880	0-9
+Inclusion Criteria:	Eligibility	0
+Written informed consent must be obtained prior to any study-related procedures.	Eligibility	1
+Histologically confirmed adenocarcinoma of the breast with the following markers: Estrogen receptor negative (<1%), progesterone receptor negative (<1%), and Her-2/neu negative (Her-2/neu 0-1+ IHC or FISH ratio <1.8 or average HER2 gene copy number of <four signal/nucleus for test systems without internal control probe).	Eligibility	2
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+estrogen	CHEBI:50114,BAO:0000760	82-90
+receptor	BAO:0000281	91-99
+receptor	BAO:0000281	129-137
+progesterone	CHEBI:17026	116-128
+ratio	UO:0000190	205-210
+gene	BAO:0000582	232-236
+probe	CHEBI:50406	315-320
+Female  18 years old.	Eligibility	3
+female	PATO:0000383	0-6
+Clinical stage IIA (T2N0), IIB (T2N1, T3N0) or stage IIIA (T1N2, T2N2, T3N1, T3N2), IIIB, or IIIC breast cancer with no prior treatment.	Eligibility	4
+breast cancer	DOID:1612	98-111
+Complete radiology or tumor assessment within 28 days prior to enrollment	Eligibility	5
+Breast MRI	Eligibility	6
+breast	UBERON:0000310	0-6
+Unilateral Breast Ultrasound	Eligibility	7
+unilateral	HP:0012833	0-10
+breast	UBERON:0000310	11-17
+Distant metastatic work-up completed with PET/CT.	Eligibility	8
+If enlarged axillary lymph nodes are found during staging scans, FNA must be performed to determine whether the node is involved with cancer.	Eligibility	9
+lymph	UBERON:0002391	21-26
+cancer	DOID:162	134-140
+If axillary lymph nodes are clinically negative during initial work-up, sentinel node biopsy will be performed prior to initiation of chemotherapy.	Eligibility	10
+lymph	UBERON:0002391	12-17
+ECOG Performance Status of 0 or 1	Eligibility	11
+Adequate organ and hematologic function as evidenced by the following laboratory studies within 4 weeks of study enrollment:	Eligibility	12
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	31-39
+Cardiac Ejection Fraction >/= lower limit of normal as determined by 2-D echo or MUGA scan according to institutional standards.	Eligibility	13
+ejection fraction	CMO:0000180	8-25
+Hematologic function, as follows: Absolute neutrophil count  1.5 x 109/L, Platelet count  100 x 109/L and  850 x 109/L, Hemoglobin  9 g/dL, PTT and INR < 1.5 x ULN.	Eligibility	14
+function	BAO:0003117,BFO:0000034	12-20
+x	LABO:0000148	65-66
+x	LABO:0000148	94-95
+x	LABO:0000148	111-112
+x	LABO:0000148	158-159
+platelet count	CMO:0000029	74-88
+hemoglobin	CHEBI:35143	120-130
+Renal function, as follows: Serum creatinine </= 1.4 mg/dL).	Eligibility	15
+function	BAO:0003117,BFO:0000034	6-14
+creatinine	CHEBI:16737	34-44
+Hepatic function, as follows:Aspartate aminotransferase (AST)  2.5 x ULN, Alanine aminotransferase (ALT)  2.5 x ULN , Total bilirubin  2 x ULN (except for patients with UGT1A1 promoter polymorphism, i.e. Gilbert syndrome, confirmed by genotyping or Invader UGT1A1 molecular assay prior to study enrollment. Patients enrolled with Gilbert syndrome must have total bilirubin < 3 ULN).	Eligibility	16
+function	BAO:0003117,BFO:0000034	8-16
+aspartate	CHEBI:29995	29-38
+x	LABO:0000148	67-68
+x	LABO:0000148	110-111
+x	LABO:0000148	137-138
+x	LABO:0000148	145-146
+alanine	CHEBI:16449	74-81
+gilbert syndrome	DOID:2739	204-220
+gilbert syndrome	DOID:2739	330-346
+Patient must be willing and able to undergo MRI as outlined in protocol.	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	18
+Known hypersensitivity to doxorubicin, cyclophosphamide, paclitaxel, cremophor or medications containing cremophor(miconazole, docetaxel, sandimmune, nelfinavir mesylate, propofol, diazepam injection, vitamin K injection, ixabepilone, aci-jel) or carboplatin.	Eligibility	19
+hypersensitivity	GO:0002524,DOID:1205	6-22
+doxorubicin	CHEBI:28748,BAO:0000639	26-37
+cyclophosphamide	CHEBI:4026	39-55
+paclitaxel	CHEBI:45863	57-67
+miconazole	CHEBI:6923	115-125
+nelfinavir mesylate	CHEBI:7497	150-169
+propofol	CHEBI:44915	171-179
+diazepam	CHEBI:49575	181-189
+vitamin k	CHEBI:28384	201-210
+ixabepilone	CHEBI:63605	222-233
+carboplatin	CHEBI:31355	247-258
+Known HIV or active Hepatitis B or C infection.	Eligibility	20
+active	PATO:0002354	13-19
+hepatitis b	DOID:2043	20-31
+Prior treatment for the currently diagnosed breast cancer.	Eligibility	21
+breast cancer	DOID:1612	44-57
+Prior treatment with doxorubicin up to 400 mg/m2.	Eligibility	22
+doxorubicin	CHEBI:28748,BAO:0000639	21-32
+Pre-existing Grade 3 or 4 sensory neuropathy.	Eligibility	23
+sensory neuropathy	HP:0000763,DOID:2491	26-44
+History of bleeding diathesis or extensive bleeding requiring blood transfusion within 14 days of enrollment.	Eligibility	24
+history	BFO:0000182	0-7
+blood	UBERON:0000178	62-67
+Major surgical procedure within 4 weeks (28 days) prior to enrollment (port placement is not considered a major surgical procedure).	Eligibility	25
+Clinically significant cardiac disease within 12 months of study enrollment, including myocardial infarction, unstable angina, congestive heart failure, or ongoing arrhythmias requiring medication or pacemaker.	Eligibility	26
+disease	DOID:4,OGMS:0000031	31-38
+myocardial infarction	HP:0001658,DOID:5844	87-108
+congestive heart failure	HP:0001635,DOID:6000	127-151
+Non-healing wound, ulcer or fracture.	Eligibility	27
+ulcer	OAE:0004372	19-24
+Ongoing or active infection.	Eligibility	28
+active	PATO:0002354	11-17
+Pregnant (i.e., positive beta-human chorionic gonadotropin test) or lactating	Eligibility	29
+chorionic gonadotropin	CHEBI:81570	36-58
+Not willing to use a highly effective method of birth control (i.e. those which result in low failure rates, less than 1% per year), defined as intrauterine devices, barrier methods (condoms, contraceptive sponges, diaphragms, vaginal rings used with spermicidal jellies or creams), oral contraceptive pills, or sexual abstinence. Contraception must be used during the study.	Eligibility	30
+result	BAO:0000179	80-86
+year	UO:0000036	126-130
+oral contraceptive	CHEBI:49325	283-301
+T0 tumors	Eligibility	31
+Active dental infection	Eligibility	32
+active	PATO:0002354	0-6
+Outcome Measurement:	Results	0
+Count of Participants That Achieve Pathologic Complete Response (PCR)	Results	1
+PCR is defined as the absence of any residual invasive cancer on hematoxylin and eosin (H&E) evaluation of the resected breast specimen and all sampled ipsilateral lymph nodes.	Results	2
+cancer	DOID:162	55-61
+breast	UBERON:0000310	120-126
+lymph	UBERON:0002391	164-169
+Time frame: 36 months following surgery	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	32-39
+Results 1:	Results	4
+Arm/Group Title: Arm 1 (Paclitaxel, Carboplatin)	Results	5
+paclitaxel	CHEBI:45863	24-34
+carboplatin	CHEBI:31355	36-47
+Arm/Group Description: Patients receive paclitaxel IV and carboplatin IV on day 1 (course 1 only) or day 2 (courses 2-12). Treatment repeats every 7 days for 12 courses in the absence of disease progression or unacceptable toxicity. Beginning 21 days after the last course, patients receive doxorubicin hydrochloride IV and cyclophosphamide IV on day 1. Treatment repeats every 21 days for 4 courses in the absence of disease progression or unacceptable toxicity.	Results	6
+paclitaxel	CHEBI:45863	40-50
+carboplatin	CHEBI:31355	58-69
+day	UO:0000033	76-79
+day	UO:0000033	101-104
+day	UO:0000033	149-152
+day	UO:0000033	246-249
+day	UO:0000033	347-350
+day	UO:0000033	381-384
+disease	DOID:4,OGMS:0000031	187-194
+disease	DOID:4,OGMS:0000031	418-425
+doxorubicin hydrochloride	CHEBI:31522	291-316
+cyclophosphamide	CHEBI:4026	324-340
+Paclitaxel: Given IV	Results	7
+paclitaxel	CHEBI:45863	0-10
+Carboplatin: Given IV	Results	8
+carboplatin	CHEBI:31355	0-11
+Doxorubicin: Given IV	Results	9
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide: Given IV	Results	10
+cyclophosphamide	CHEBI:4026	0-16
+Overall Number of Participants Analyzed: 5	Results	11
+Measure Type: Count of Participants	Results	12
+Unit of Measure: Participants  3  60.0%	Results	13
+Results 2:	Results	14
+Arm/Group Title: Arm 2 (Veliparib, Paclitaxel, Carboplatin)	Results	15
+veliparib	CHEBI:62880	24-33
+paclitaxel	CHEBI:45863	35-45
+carboplatin	CHEBI:31355	47-58
+Arm/Group Description: Patients receive veliparib PO BID on days 1-5. Patients also receive paclitaxel IV and carboplatin IV on day 3 (course 1 only) or day 4 (courses 2-12). Treatment repeats every 7 days for 12 courses in the absence of disease progression or unacceptable toxicity. Beginning 21 days after the last course, patients receive doxorubicin hydrochloride IV and cyclophosphamide IV on day 1. Treatment repeats every 21 days for 4 courses in the absence of disease progression or unacceptable toxicity.	Results	16
+veliparib	CHEBI:62880	40-49
+paclitaxel	CHEBI:45863	92-102
+carboplatin	CHEBI:31355	110-121
+day	UO:0000033	60-63
+day	UO:0000033	128-131
+day	UO:0000033	153-156
+day	UO:0000033	201-204
+day	UO:0000033	298-301
+day	UO:0000033	399-402
+day	UO:0000033	433-436
+disease	DOID:4,OGMS:0000031	239-246
+disease	DOID:4,OGMS:0000031	470-477
+doxorubicin hydrochloride	CHEBI:31522	343-368
+cyclophosphamide	CHEBI:4026	376-392
+Paclitaxel: Given IV	Results	17
+paclitaxel	CHEBI:45863	0-10
+Carboplatin: Given IV	Results	18
+carboplatin	CHEBI:31355	0-11
+Doxorubicin: Given IV	Results	19
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+Cyclophosphamide: Given IV	Results	20
+cyclophosphamide	CHEBI:4026	0-16
+Veliparib: Given PO	Results	21
+veliparib	CHEBI:62880	0-9
+Overall Number of Participants Analyzed: 4	Results	22
+Measure Type: Count of Participants	Results	23
+Unit of Measure: Participants  3  75.0%	Results	24
+Adverse Events 1:	Adverse Events	0
+Total: 1/5 (20.00%)	Adverse Events	1
+Viral Meningitis *1/5 (20.00%)	Adverse Events	2
+viral meningitis	DOID:10310	0-16
+Adverse Events 2:	Adverse Events	3
+Total: 0/4 (0.00%)	Adverse Events	4
+Viral Meningitis *0/4 (0.00%)	Adverse Events	5
+viral meningitis	DOID:10310	0-16

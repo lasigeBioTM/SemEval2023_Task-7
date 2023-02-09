@@ -1,0 +1,93 @@
+INTERVENTION 1:	Intervention	0
+Fulvestrant	Intervention	1
+fulvestrant	CHEBI:31638	0-11
+Fulvestrant 500 mg once monthly injection	Intervention	2
+fulvestrant	CHEBI:31638	0-11
+INTERVENTION 2:	Intervention	3
+Fulvestrant + Anastrozole	Intervention	4
+fulvestrant	CHEBI:31638	0-11
+anastrozole	CHEBI:2704	14-25
+Fulvestrant 500 mg once monthly injection + Anastrozole 1 mg once daily tablet	Intervention	5
+fulvestrant	CHEBI:31638	0-11
+anastrozole	CHEBI:2704	44-55
+Inclusion Criteria:	Eligibility	0
+Postmenopausal women.	Eligibility	1
+Biopsy confirmation of primary breast cancer.	Eligibility	2
+breast cancer	DOID:1612	31-44
+Oestrogen receptor positive tumour.	Eligibility	3
+receptor	BAO:0000281	10-18
+Fit for surgery within one month.	Eligibility	4
+surgery	OAE:0000067	8-15
+month	UO:0000035	27-32
+Written informed consent to participate in the study	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Previous treatment with any anti-hormonal therapy for breast cancer.	Eligibility	7
+breast cancer	DOID:1612	54-67
+Previous radiotherapy to the primary tumour.	Eligibility	8
+radiotherapy	OAE:0000235	9-21
+Previous chemotherapy for the primary tumour.	Eligibility	9
+Outcome Measurement:	Results	0
+Percentage Change From Baseline to Time of Surgery in Oestrogen Receptor (ER) H-score: Antitumour Effects of Fulvestrant, Anastrozole and a Combination of Both as Measured by the ER H-score.	Results	1
+time	PATO:0000165	35-39
+surgery	OAE:0000067	43-50
+receptor	BAO:0000281	64-72
+fulvestrant	CHEBI:31638	109-120
+anastrozole	CHEBI:2704	122-133
+For each sample, the ER H-score is calculated from the percentage of cells staining very weak (+/-); weak (+); moderate (++); or strong (+++) as follows: H-score = [(0.5 x percent +/-) + (1 x percent +) + (2 x percent ++) + (3 x percent +++)]. Range 0-300. The greater the change from baseline (randomization) in ER H-score, the greater the blockage of ER expression and the greater the potential anti-tumour activity. Percentage change from baseline=[(SRG - BL)/BL]x100	Results	2
+moderate	HP:0012826	111-119
+x	LABO:0000148	170-171
+x	LABO:0000148	190-191
+x	LABO:0000148	208-209
+x	LABO:0000148	227-228
+x	LABO:0000148	357-358
+x	LABO:0000148	466-467
+percent	UO:0000187	55-62
+percent	UO:0000187	172-179
+percent	UO:0000187	192-199
+percent	UO:0000187	210-217
+percent	UO:0000187	229-236
+percent	UO:0000187	419-426
+range	LABO:0000114	244-249
+Time frame: Surgery (SRG) was to be performed between days 15 and 22 after baseline (BL)	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	12-19
+Results 1:	Results	4
+Arm/Group Title: Fulvestrant	Results	5
+fulvestrant	CHEBI:31638	17-28
+Arm/Group Description: Fulvestrant 500 mg once monthly injection	Results	6
+fulvestrant	CHEBI:31638	23-34
+Overall Number of Participants Analyzed: 35	Results	7
+Mean (Standard Error)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: Percentage change from baseline  -37         (4)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Fulvestrant + Anastrozole	Results	11
+fulvestrant	CHEBI:31638	17-28
+anastrozole	CHEBI:2704	31-42
+Arm/Group Description: Fulvestrant 500 mg once monthly injection + Anastrozole 1 mg once daily tablet	Results	12
+fulvestrant	CHEBI:31638	23-34
+anastrozole	CHEBI:2704	67-78
+Overall Number of Participants Analyzed: 31	Results	13
+Mean (Standard Error)	Results	14
+mean	BAO:0002173	0-4
+Unit of Measure: Percentage change from baseline  -38         (5)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/40 (0.00%)	Adverse Events	1
+Pancytopenia 0/40 (0.00%)	Adverse Events	2
+pancytopenia	HP:0001876,DOID:12450	0-12
+Atrial Fibrillation 0/40 (0.00%)	Adverse Events	3
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Unevaluable Event 0/40 (0.00%)	Adverse Events	4
+Subcutaneous Abscess 0/40 (0.00%)	Adverse Events	5
+abscess	HP:0025615	13-20
+Procedural Complication 0/40 (0.00%)	Adverse Events	6
+Adverse Events 2:	Adverse Events	7
+Total: 3/40 (7.50%)	Adverse Events	8
+Pancytopenia 0/40 (0.00%)	Adverse Events	9
+pancytopenia	HP:0001876,DOID:12450	0-12
+Atrial Fibrillation 1/40 (2.50%)	Adverse Events	10
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Unevaluable Event 1/40 (2.50%)	Adverse Events	11
+Subcutaneous Abscess 0/40 (0.00%)	Adverse Events	12
+abscess	HP:0025615	13-20
+Procedural Complication 1/40 (2.50%)	Adverse Events	13

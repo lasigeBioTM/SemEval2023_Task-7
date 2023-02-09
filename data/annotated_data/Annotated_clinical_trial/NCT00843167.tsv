@@ -1,0 +1,81 @@
+INTERVENTION 1:	Intervention	0
+Sulforaphane Supplement	Intervention	1
+sulforaphane	CHEBI:47807	0-12
+Patients receive oral broccoli sprout extract supplementation three times daily for 2-8 weeks in the absence of unacceptable toxicity.	Intervention	2
+extract	BAO:0003070	38-45
+broccoli sprout extract: Given orally	Intervention	3
+extract	BAO:0003070	16-23
+INTERVENTION 2:	Intervention	4
+Placebo	Intervention	5
+Patients receive oral placebo supplementation three times daily for 2-8 weeks in the absence of unacceptable toxicity.	Intervention	6
+placebo: Given orally	Intervention	7
+INCLUSION CRITERIA:	Eligibility	0
+Diagnostic mammogram	Eligibility	1
+English speaking	Eligibility	2
+EXCLUSION CRITERIA:	Eligibility	3
+Pregnancy (as determined by urine human chorionic gonadotropin (hCG) test)	Eligibility	4
+urine	UBERON:0001088	28-33
+chorionic gonadotropin	CHEBI:81570	40-62
+No biopsy referral after diagnostic mammogram	Eligibility	5
+Patient reported breast feeding	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	17-23
+Significant active medical illness which in the opinion of the investigator would preclude protocol treatment	Eligibility	7
+active	PATO:0002354	12-18
+History of or active liver disease or baseline total bilirubin greater than institutional upper limit of normal	Eligibility	8
+history	BFO:0000182	0-7
+active	PATO:0002354	14-20
+liver disease	DOID:409	21-34
+Patient reported allergy or sensitivity to cruciferous vegetables	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+allergy	HP:0012393	17-24
+Use of oral antibiotics within three months prior to randomization	Eligibility	10
+Oral steroid therapy at enrollment	Eligibility	11
+steroid	CHEBI:35341	5-12
+Current therapy with valproate acid or SAHA	Eligibility	12
+valproate	CHEBI:60654	21-30
+acid	CHEBI:37527	31-35
+Current use of nutrient supplements or herbal remedies containing sulforaphane and unwillingness or inability to quit 72 hours prior to randomization and for the duration of the trial	Eligibility	13
+nutrient	CHEBI:33284	15-23
+sulforaphane	CHEBI:47807	66-78
+duration	PATO:0001309	162-170
+Radiation for currently-diagnosed disease prior to or during study supplementation	Eligibility	14
+disease	DOID:4,OGMS:0000031	34-41
+Chemotherapy for currently-diagnosed disease prior to or during study supplementation	Eligibility	15
+disease	DOID:4,OGMS:0000031	37-44
+Outcome Measurement:	Results	0
+Change in Isothiocyanate in Urine Samples as Assessed at Baseline and After Completion of Study Therapy	Results	1
+isothiocyanate	CHEBI:52221	10-24
+urine	UBERON:0001088	28-33
+Isothiocyante including sulforaphane in micromolar (µM) concentration was measured following standard chemical measurement procedures and divided by the creatinine values in millimolar (mM) concentration.	Results	2
+sulforaphane	CHEBI:47807	24-36
+micromolar	UO:0000064	40-50
+creatinine	CHEBI:16737	153-163
+millimolar	UO:0000063	174-184
+Time frame: Baseline and end of study (up to 8 weeks)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Sulforaphane Supplement	Results	5
+sulforaphane	CHEBI:47807	17-29
+Arm/Group Description: Patients receive oral broccoli sprout extract supplementation three times daily for 2-8 weeks in the absence of unacceptable toxicity.	Results	6
+extract	BAO:0003070	61-68
+broccoli sprout extract: Given orally	Results	7
+extract	BAO:0003070	16-23
+Overall Number of Participants Analyzed: 27	Results	8
+Mean (Standard Error)	Results	9
+mean	BAO:0002173	0-4
+Unit of Measure:  M/mM creatinine  1.00         (0.334)	Results	10
+creatinine	CHEBI:16737	23-33
+Results 2:	Results	11
+Arm/Group Title: Placebo	Results	12
+Arm/Group Description: Patients receive oral placebo supplementation three times daily for 2-8 weeks in the absence of unacceptable toxicity.	Results	13
+placebo: Given orally	Results	14
+Overall Number of Participants Analyzed: 27	Results	15
+Mean (Standard Error)	Results	16
+mean	BAO:0002173	0-4
+Unit of Measure:  M/mM creatinine  -0.05         (0.02)	Results	17
+creatinine	CHEBI:16737	23-33
+Adverse Events 1:	Adverse Events	0
+Total: 0/27 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/27 (0.00%)	Adverse Events	3

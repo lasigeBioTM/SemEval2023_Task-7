@@ -1,0 +1,104 @@
+INTERVENTION 1:	Intervention	0
+Everolimus 10 mg + Exemestane 25 mg	Intervention	1
+everolimus	CHEBI:68478	0-10
+exemestane	CHEBI:4953	19-29
+Everolimus (10 mg daily) with Exemestane (25 mg daily) (control arm).	Intervention	2
+everolimus	CHEBI:68478	0-10
+exemestane	CHEBI:4953	30-40
+INTERVENTION 2:	Intervention	3
+Everolimus 10 mg	Intervention	4
+everolimus	CHEBI:68478	0-10
+Everolimus (10 mg daily) (investigational arm).	Intervention	5
+everolimus	CHEBI:68478	0-10
+Key Inclusion Criteria:	Eligibility	0
+- Women with locally advanced, recurrent, or metastatic breast cancer along with confirmation of estrogen-receptor positive (ER+). Measurable disease defined as at least one lesion  10 mm by CT or MRI that can be accurately measured in at least one dimension (CT scan slice thickness  5 mm) OR  Bone lesions: lytic or mixed (lytic + blastic) in the absence of measurable disease as defined above.	Eligibility	1
+recurrent	HP:0031796	31-40
+breast cancer	DOID:1612	56-69
+disease	DOID:4,OGMS:0000031	142-149
+disease	DOID:4,OGMS:0000031	371-378
+ct	BAO:0002125	191-193
+ct	BAO:0002125	260-262
+mixed	BAO:0002107	318-323
+Key Exclusion Criteria:	Eligibility	2
+- Patients who received more than one chemotherapy line. Patients with only non-measurable lesions other than lytic or mixed (lytic and blastic) bone metastasis.Previous treatment with exemestane, mTOR inhibitors, PI3K inhibitors or AKT inhibitors.	Eligibility	3
+mixed	BAO:0002107	119-124
+exemestane	CHEBI:4953	185-195
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS) - Everolimus Plus Exemestane Versus Everolimus Alone	Results	1
+everolimus	CHEBI:68478	34-44
+everolimus	CHEBI:68478	68-78
+exemestane	CHEBI:4953	50-60
+Progression Free Survival (PFS) is defined as the time from date of randomization to the date of first radiologically documented progression or death due to any cause. If a patient did not have an event, PFS was censored at the date of the last adequate tumor assessment. PFS was compared between the everolimus + exemestane combination therapy with the everolimus monotherapy.	Results	2
+time	PATO:0000165	50-54
+death	OAE:0000632	144-149
+patient	HADO:0000008,OAE:0001817	173-180
+everolimus	CHEBI:68478	301-311
+everolimus	CHEBI:68478	354-364
+exemestane	CHEBI:4953	314-324
+Time frame: Date of randomization to the date of first documented tumor progression or death from any cause, whichever occurs first, reported between day of first patient randomized up to 39 months	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	87-92
+day	UO:0000033	150-153
+patient	HADO:0000008,OAE:0001817	163-170
+Results 1:	Results	4
+Arm/Group Title: Everolimus 10 mg + Exemestane 25 mg	Results	5
+everolimus	CHEBI:68478	17-27
+exemestane	CHEBI:4953	36-46
+Arm/Group Description: Everolimus (10 mg daily) with Exemestane (25 mg daily) (control arm).	Results	6
+everolimus	CHEBI:68478	23-33
+exemestane	CHEBI:4953	53-63
+Overall Number of Participants Analyzed: 104	Results	7
+Median (90% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  8.41        (6.60 to 9.72)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Everolimus 10 mg	Results	11
+everolimus	CHEBI:68478	17-27
+Arm/Group Description: Everolimus (10 mg daily) (investigational arm).	Results	12
+everolimus	CHEBI:68478	23-33
+Overall Number of Participants Analyzed: 103	Results	13
+Median (90% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  6.77        (5.52 to 7.20)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 37/104 (35.58%)	Adverse Events	1
+Anaemia 1/104 (0.96%)	Adverse Events	2
+Febrile neutropenia 0/104 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/104 (0.00%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/104 (0.00%)	Adverse Events	5
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/104 (0.00%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/104 (0.00%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 1/104 (0.96%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 1/104 (0.96%)	Adverse Events	9
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 1/104 (0.96%)	Adverse Events	10
+Cardiac failure acute 1/104 (0.96%)	Adverse Events	11
+acute	HP:0011009,PATO:0000389	16-21
+Cardiac failure congestive 0/104 (0.00%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 30/103 (29.13%)	Adverse Events	14
+Anaemia 3/103 (2.91%)	Adverse Events	15
+Febrile neutropenia 0/103 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 0/103 (0.00%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+Neutropenia 0/103 (0.00%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/103 (0.00%)	Adverse Events	19
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/103 (0.00%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Atrial fibrillation 0/103 (0.00%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 0/103 (0.00%)	Adverse Events	22
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 0/103 (0.00%)	Adverse Events	23
+Cardiac failure acute 0/103 (0.00%)	Adverse Events	24
+acute	HP:0011009,PATO:0000389	16-21
+Cardiac failure congestive 1/103 (0.97%)	Adverse Events	25

@@ -1,0 +1,73 @@
+INTERVENTION 1:	Intervention	0
+ZOLADEX 10.8 mg	Intervention	1
+ZOLADEX (goserelin acetate) 10.8 mg intramuscular depot for injection every 12 weeks	Intervention	2
+goserelin	CHEBI:5523	9-18
+acetate	CHEBI:47622	19-26
+INTERVENTION 2:	Intervention	3
+ZOLADEX 3.6 mg	Intervention	4
+ZOLADEX (goserelin acetate) 3.6 mg intramuscular depot for injection every 4 weeks	Intervention	5
+goserelin	CHEBI:5523	9-18
+acetate	CHEBI:47622	19-26
+Inclusion Criteria:	Eligibility	0
+Pre-menopausal women aged 18 years or over with histologically/cytologically-confirmed oestrogen receptor positive (ER +ve) breast cancer	Eligibility	1
+receptor	BAO:0000281	97-105
+breast cancer	DOID:1612	124-137
+World Health Organization (WHO) performance status of 0, 1, or 2	Eligibility	2
+Provided written informed consent	Eligibility	3
+Exclusion Criteria:	Eligibility	4
+Treatment with tamoxifen or other hormonal therapies as early breast cancer (EBC) adjuvant in the previous 24 weeks	Eligibility	5
+tamoxifen	CHEBI:41774	15-24
+breast cancer	DOID:1612	62-75
+adjuvant	CHEBI:60809	82-90
+Received radiotherapy within the past 4 weeks	Eligibility	6
+radiotherapy	OAE:0000235	9-21
+History of systemic malignancy other than breast cancer within the previous 3 years	Eligibility	7
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	42-55
+Estimated survival less than 24 weeks	Eligibility	8
+Outcome Measurement:	Results	0
+Percentage of Participants With Progression Free Survival (PFS) at Week 24	Results	1
+week	UO:0000034	67-71
+The number of participants for whom neither objective disease progression or death (due to any cause) has been observed at Week 24 over the number of randomised participants x 100.	Results	2
+disease	DOID:4,OGMS:0000031	54-61
+death	OAE:0000632	77-82
+week	UO:0000034	123-127
+x	LABO:0000148	174-175
+Time frame: Objective tumour assessments carried out every 12 weeks (+/- 7 days) until Week 24, and then every 24 weeks (+/- 14 days) until Week 96 or objective progression is confirmed according to Response Evaluation Criteria in Solid Tumours (RECIST).	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	62-66
+week	UO:0000034	87-91
+week	UO:0000034	114-118
+week	UO:0000034	140-144
+Results 1:	Results	4
+Arm/Group Title: ZOLADEX 10.8 mg	Results	5
+Arm/Group Description: ZOLADEX (goserelin acetate) 10.8 mg intramuscular depot for injection every 12 weeks	Results	6
+goserelin	CHEBI:5523	32-41
+acetate	CHEBI:47622	42-49
+Overall Number of Participants Analyzed: 49	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  69.4	Results	9
+Results 2:	Results	10
+Arm/Group Title: ZOLADEX 3.6 mg	Results	11
+Arm/Group Description: ZOLADEX (goserelin acetate) 3.6 mg intramuscular depot for injection every 4 weeks	Results	12
+goserelin	CHEBI:5523	32-41
+acetate	CHEBI:47622	42-49
+Overall Number of Participants Analyzed: 49	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Percentage of participants  73.5	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 2/50 (4.00%)	Adverse Events	1
+Peritonsillar Abscess 0/50 (0.00%)	Adverse Events	2
+abscess	HP:0025615	14-21
+Humerus Fracture 1/50 (2.00%)	Adverse Events	3
+Endometrial Hyperplasia 1/50 (2.00%)	Adverse Events	4
+endometrial hyperplasia	DOID:0080365	0-23
+Haematoma 0/50 (0.00%)	Adverse Events	5
+Adverse Events 2:	Adverse Events	6
+Total: 3/48 (6.25%)	Adverse Events	7
+Peritonsillar Abscess 1/48 (2.08%)	Adverse Events	8
+abscess	HP:0025615	14-21
+Humerus Fracture 0/48 (0.00%)	Adverse Events	9
+Endometrial Hyperplasia 1/48 (2.08%)	Adverse Events	10
+endometrial hyperplasia	DOID:0080365	0-23
+Haematoma 1/48 (2.08%)	Adverse Events	11

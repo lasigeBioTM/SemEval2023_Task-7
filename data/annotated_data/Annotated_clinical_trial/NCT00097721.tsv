@@ -1,0 +1,188 @@
+INTERVENTION 1:	Intervention	0
+E7389 28 Day Schedule	Intervention	1
+day	UO:0000033	9-12
+E7389 1.4 mg/m^2 intravenous bolus on Days 1, 8 and 15 of a 28 day cycle.	Intervention	2
+day	UO:0000033	38-41
+day	UO:0000033	63-66
+INTERVENTION 2:	Intervention	3
+E7389 21 Day Schedule	Intervention	4
+day	UO:0000033	9-12
+E7389 1.4 mg/m^2 intravenous bolus on Days 1 and 8 of a 21 day cycle.	Intervention	5
+day	UO:0000033	38-41
+day	UO:0000033	59-62
+Inclusion Criteria:	Eligibility	0
+Female patients with histologically or cytologically confirmed carcinoma of the breast	Eligibility	1
+female	PATO:0000383	0-6
+carcinoma	HP:0030731,DOID:305	63-72
+breast	UBERON:0000310	80-86
+Patients with advanced/metastatic disease that is not amenable to curative therapy (either surgery or radiation therapy)	Eligibility	2
+disease	DOID:4,OGMS:0000031	34-41
+surgery	OAE:0000067	91-98
+Patients must have measurable disease by the RECIST criteria, defined as at least one lesion that can be accurately measured in at least one diameter (at least 10 mm in longest diameter (LD) by spiral computer tomography (CT) scan, or at least 20 mm by standard techniques; If the only measurable lesion is a lymph node, it must measure at least 20 mm in LD. If a single lesion is identified as the target lesion, a cytological or histological confirmation of breast carcinoma is required.	Eligibility	3
+disease	DOID:4,OGMS:0000031	30-37
+diameter	PATO:0001334	141-149
+diameter	PATO:0001334	177-185
+tomography	BAO:0002525	210-220
+ct	BAO:0002125	222-224
+lymph	UBERON:0002391	309-314
+target	BAO:0003064	399-405
+breast carcinoma	HP:0003002,DOID:3459	460-476
+Patients must have had prior treatment with an anthracycline and a taxane (either sequential or in combination) and may have had prior treatment with other agents as well.	Eligibility	4
+anthracycline	CHEBI:48120	47-60
+taxane	CHEBI:36064	67-73
+Patients must have progressed within six months of the last dose of chemotherapy, or experienced disease progression while receiving chemotherapy for advanced/metastatic disease.	Eligibility	5
+disease	DOID:4,OGMS:0000031	97-104
+disease	DOID:4,OGMS:0000031	170-177
+Resolution of all chemotherapy or radiation-related toxicities to less than grade 1 severity	Eligibility	6
+severity	HP:0012824	84-92
+Age  18 years	Eligibility	7
+age	PATO:0000011	0-3
+Eastern Cooperative Oncology Group (ECOG) Performance Status (APPENDIX 4) of 0 or 1	Eligibility	8
+group	CHEBI:24433	29-34
+Life expectancy of  3 months	Eligibility	9
+Adequate renal function as evidenced by serum creatinine  1.5 mg/dL or calculated creatinine clearance  50 mL/minute (min) per the Cockcroft and Gault formula	Eligibility	10
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	46-56
+creatinine	CHEBI:16737	82-92
+creatinine clearance	CMO:0000765	82-102
+Adequate bone marrow function as evidenced by absolute neutrophil count (ANC)  1.5 x 10^9/L, hemoglobin  10.0 g/dL (a hemoglobin <10.0 g/dL would be acceptable if it can be corrected by growth factor or transfusion), and platelet count  100 x 10^9/L	Eligibility	11
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+x	LABO:0000148	83-84
+x	LABO:0000148	241-242
+hemoglobin	CHEBI:35143	93-103
+hemoglobin	CHEBI:35143	118-128
+growth factor	BAO:0002024	186-199
+platelet count	CMO:0000029	221-235
+Adequate liver function as evidenced by bilirubin  1.5 mg/dL and alkaline phosphatase, alanine transaminase (ALT), and aspartate transaminase (AST)  3 times the upper limits of normal (ULN) (in the case of liver metastases  5 x ULN)	Eligibility	12
+liver	UBERON:0002107	9-14
+liver	UBERON:0002107	206-211
+function	BAO:0003117,BFO:0000034	15-23
+phosphatase	GO:0016791,BAO:0000295	74-85
+alanine	CHEBI:16449	87-94
+aspartate	CHEBI:29995	119-128
+x	LABO:0000148	226-227
+Patients willing and able to complete the FACT-B questionnaire, Analgesic Diary, Pain VAS, and the tumor-related symptomatic assessment	Eligibility	13
+analgesic	CHEBI:35480	64-73
+pain	HP:0012531	81-85
+Patients willing and able to comply with the study protocol for the duration of the study	Eligibility	14
+duration	PATO:0001309	68-76
+A sample from the diagnostic biopsy (paraffin block) must be available	Eligibility	15
+Written informed consent prior to any study-specific screening procedures with the understanding that the patient may withdraw consent at any time without prejudice	Eligibility	16
+patient	HADO:0000008,OAE:0001817	106-113
+time	PATO:0000165	142-146
+Exclusion Criteria:	Eligibility	17
+Patients who have received chemotherapy, radiation, hormonal therapy, or Herceptin within 2 weeks of E7389 treatment start	Eligibility	18
+Radiation therapy encompassing > 10% of marrow	Eligibility	19
+Failure to recover from any chemotherapy related or other therapy related toxicity at study entry that is deemed to be clinically significant by the study investigator	Eligibility	20
+Prior treatment with Mitomycin C or nitrosoureas	Eligibility	21
+mitomycin c	CHEBI:27504	21-32
+Prior high dose chemotherapy with hematopoietic stem cell rescue in the past two years	Eligibility	22
+Pulmonary lymphangitic involvement that results in pulmonary dysfunction requiring active treatment, including the use of oxygen	Eligibility	23
+active	PATO:0002354	83-89
+Active symptomatic brain metastasis; Patients with central Nervous System (CNS) metastasis are considered eligible if they have completed local therapy and discontinued from corticosteroids for at least two weeks before starting treatment with E7389	Eligibility	24
+active	PATO:0002354	0-6
+brain	UBERON:0000955	19-24
+central nervous system	UBERON:0001017	51-73
+Patients with meningeal carcinomatosis	Eligibility	25
+Patients who require therapeutic anti-coagulant therapy with Warfarin or related compounds; Mini dose warfarin for catheter related thrombosis prophylaxis is permitted	Eligibility	26
+warfarin	CHEBI:10033	61-69
+warfarin	CHEBI:10033	102-110
+thrombosis	DOID:0060903	132-142
+Women who are pregnant or breast-feeding; Women of childbearing potential with either a positive pregnancy test at Screening or no pregnancy test. Women of childbearing potential unless (1) surgically sterile or (2) using adequate measures of contraception in the opinion of the Investigator. Postmenopausal women must be amenorrheic for at least 12 months to be considered of non-childbearing potential.	Eligibility	27
+Severe /uncontrolled intercurrent illness/infection	Eligibility	28
+severe	HP:0012828	0-6
+Significant cardiovascular impairment (history of congestive heart failure > NYHA grade II, unstable angina or myocardial infarction within the past six months, or serious cardiac arrhythmia)	Eligibility	29
+history	BFO:0000182	39-46
+congestive heart failure	HP:0001635,DOID:6000	50-74
+myocardial infarction	HP:0001658,DOID:5844	111-132
+arrhythmia	HP:0011675	180-190
+Patients with organ allografts	Eligibility	30
+organ	UBERON:0000062	14-19
+Patients with known positive HIV status	Eligibility	31
+Patients who have had a prior malignancy, other than carcinoma in situ of the cervix, or non-melanoma skin cancer, unless the prior malignancy was diagnosed and definitively treated  5 years previously with no subsequent evidence of recurrence	Eligibility	32
+carcinoma	HP:0030731,DOID:305	53-62
+skin cancer	DOID:4159	102-113
+Patients with pre-existing neuropathy > Grade 1	Eligibility	33
+neuropathy	DOID:870	27-37
+Patients with a hypersensitivity to halichondrin B and/or halichondrin B chemical derivative	Eligibility	34
+hypersensitivity	GO:0002524,DOID:1205	16-32
+halichondrin b	CHEBI:80731	36-50
+halichondrin b	CHEBI:80731	58-72
+Patients who participated in a prior E7389 clinical trial	Eligibility	35
+Patients with other significant disease or disorders that, in the Investigator's opinion, would exclude the patient from the study	Eligibility	36
+disease	DOID:4,OGMS:0000031	32-39
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	108-115
+Outcome Measurement:	Results	0
+Overall Response Rate Based on Response Evaluation Criteria in Solid Tumors (RECIST)	Results	1
+rate	BAO:0080019	17-21
+Defined as the percentage of subjects with CR or PR from the start of treatment until disease progression or recurrence. Lesions measured by computed tomography (CT) scan and magnetic resonance imaging (MRI). Objective response rate: complete response (CR-disappearance of all lesions)+ partial response (PR-30% decrease in lesion diameter), Progressive Disease (PD-20% increase in lesion diameter), stable disease (SD-neither shrinkage nor increase of lesions).	Results	2
+disease	DOID:4,OGMS:0000031	86-93
+disease	DOID:4,OGMS:0000031	354-361
+disease	DOID:4,OGMS:0000031	407-414
+tomography	BAO:0002525	150-160
+ct	BAO:0002125	34-36
+ct	BAO:0002125	162-164
+ct	BAO:0002125	213-215
+rate	BAO:0080019	228-232
+diameter	PATO:0001334	331-339
+diameter	PATO:0001334	389-397
+progressive	HP:0003676	342-353
+increase	BAO:0001251	370-378
+increase	BAO:0001251	441-449
+stable	HP:0031915	400-406
+Time frame: Confirmed 4 to 8 weeks after first observed	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: E7389 28 Day Schedule	Results	5
+day	UO:0000033	26-29
+Arm/Group Description: E7389 1.4 mg/m^2 intravenous bolus on Days 1, 8 and 15 of a 28 day cycle.	Results	6
+day	UO:0000033	61-64
+day	UO:0000033	86-89
+Overall Number of Participants Analyzed: 59	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  Complete Response:: 0	Results	9
+Partial Response: 10.2	Results	10
+Results 2:	Results	11
+Arm/Group Title: E7389 21 Day Schedule	Results	12
+day	UO:0000033	26-29
+Arm/Group Description: E7389 1.4 mg/m^2 intravenous bolus on Days 1 and 8 of a 21 day cycle.	Results	13
+day	UO:0000033	61-64
+day	UO:0000033	82-85
+Overall Number of Participants Analyzed: 28	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: percentage of participants  Complete Response:: 0	Results	16
+Partial Response: 14.3	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 23/70 (32.86%)	Adverse Events	1
+Febrile Neutropenia2/70 (2.86%)	Adverse Events	2
+Neutropenia1/70 (1.43%)	Adverse Events	3
+Thrombocytopenia1/70 (1.43%)	Adverse Events	4
+Inner Ear Disorder1/70 (1.43%)	Adverse Events	5
+ear	UBERON:0001690	6-9
+Abdominal Pain1/70 (1.43%)	Adverse Events	6
+Abdominal Pain Upper1/70 (1.43%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Ascites1/70 (1.43%)	Adverse Events	8
+Diarrhea1/70 (1.43%)	Adverse Events	9
+Gastrointestinal Hemorrhage0/70 (0.00%)	Adverse Events	10
+Nausea1/70 (1.43%)	Adverse Events	11
+Small Intestinal Obstruction1/70 (1.43%)	Adverse Events	12
+Vomiting1/70 (1.43%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 18/33 (54.55%)	Adverse Events	15
+Febrile Neutropenia1/33 (3.03%)	Adverse Events	16
+Neutropenia0/33 (0.00%)	Adverse Events	17
+Thrombocytopenia0/33 (0.00%)	Adverse Events	18
+Inner Ear Disorder0/33 (0.00%)	Adverse Events	19
+ear	UBERON:0001690	6-9
+Abdominal Pain1/33 (3.03%)	Adverse Events	20
+Abdominal Pain Upper0/33 (0.00%)	Adverse Events	21
+abdominal pain	HP:0002027	0-14
+Ascites0/33 (0.00%)	Adverse Events	22
+Diarrhea0/33 (0.00%)	Adverse Events	23
+Gastrointestinal Hemorrhage1/33 (3.03%)	Adverse Events	24
+Nausea0/33 (0.00%)	Adverse Events	25
+Small Intestinal Obstruction0/33 (0.00%)	Adverse Events	26
+Vomiting0/33 (0.00%)	Adverse Events	27

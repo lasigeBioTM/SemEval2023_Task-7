@@ -1,0 +1,111 @@
+INTERVENTION 1:	Intervention	0
+Five Days of Mammosite Therapy	Intervention	1
+[Not Specified]	Intervention	2
+Inclusion Criteria:	Eligibility	0
+The patient must consent to be in the study and must have a signed an approved consent form conforming with institutional guidelines.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	4-11
+Patient must be > 50 years old.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+The patient should have a life expectancy of at least two years.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	4-11
+The patient must have stage 0 , I , or II breast cancer. If stage IIA, the tumor size must be 3 cm or less and the patients must be node negative.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	115-122
+breast cancer	DOID:1612	42-55
+size	PATO:0000117	81-85
+On histological examination, the tumor must be DCIS or invasive adenocarcinoma of the breast.	Eligibility	5
+adenocarcinoma	DOID:299	64-78
+breast	UBERON:0000310	86-92
+Surgical treatment of the breast must have been lumpectomy. The margins of the resected specimen must be histologically free of tumor (>2mm, DCIS and invasive). Re-excision of surgical margins is permitted.	Eligibility	6
+breast	UBERON:0000310	26-32
+Gross disease must be unifocal with pathologic (invasive and/or DCIS) tumor size 3 cm or less. (Patients with microscopic multifocality are eligible as long as total pathologic tumor size is 3 cm or less.)	Eligibility	7
+disease	DOID:4,OGMS:0000031	6-13
+size	PATO:0000117	76-80
+size	PATO:0000117	183-187
+Patients with invasive breast cancer are required to have axillary staging which can include sentinel node biopsy alone (if negative), sentinel node biopsy followed by axillary dissection or sampling with a minimum total of 6 axillary nodes or axillary dissection alone (with a minimum of 6 axillary nodes). (Axillary staging is NOT required for patients with DCIS.)	Eligibility	8
+breast cancer	DOID:1612	23-36
+The patient must have the MammoSite catheter placed within 4 weeks or 28 days of the final surgery for their breast cancer (lumpectomy, re-excision of margins, or axillary staging procedure). Placement of a spacer for the MammoSite catheter is permitted at their final surgery.	Eligibility	9
+patient	HADO:0000008,OAE:0001817	4-11
+surgery	OAE:0000067	91-98
+surgery	OAE:0000067	269-276
+breast cancer	DOID:1612	109-122
+Patients with a history of non-ipsilateral breast malignancies are eligible if they have been disease-free for 2 or more years prior to randomization. Patients with the following cancers are eligible even if diagnosed and treated within the past 2 years: carcinoma in situ of the cervix, colon, melanoma in situ, and basal cell and squamous cell carcinoma of the skin. Patients with a prior diagnosis of ipsilateral breast cancer are ineligible.	Eligibility	10
+history	BFO:0000182	16-23
+breast	UBERON:0000310	43-49
+breast	UBERON:0000310	416-422
+carcinoma	HP:0030731,DOID:305	255-264
+carcinoma	HP:0030731,DOID:305	346-355
+colon	UBERON:0001155	288-293
+melanoma	HP:0002861,DOID:1909	295-303
+squamous cell carcinoma of the skin	HP:0006739	332-367
+breast cancer	DOID:1612	416-429
+Chemotherapy is permitted if planned for >2 weeks after removal of Mammosite catheter.	Eligibility	11
+Patient must be ineligible or have refused enrollment on the randomized trial RTOG (Radiation Therapy Oncology Group) 0413.	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+group	CHEBI:24433	111-116
+Exclusion Criteria:	Eligibility	13
+Men are not eligible for this study.	Eligibility	14
+T2 (>3.0 cm), T3, node positive, stage III or IV breast cancer.	Eligibility	15
+breast cancer	DOID:1612	49-62
+Any positive axillary nodes.	Eligibility	16
+Palpable or radiographically suspicious ipsilateral or contralateral axillary, supraclavicular, infraclavicular or internal mammary nodes, unless biopsy proven to be negative for tumor.	Eligibility	17
+Suspicious microcalcifications, densities or palpable abnormalities in either breast unless biopsy proven to be benign.	Eligibility	18
+breast	UBERON:0000310	78-84
+Non-epithelial breast malignancies such as sarcoma or lymphoma.	Eligibility	19
+breast	UBERON:0000310	15-21
+sarcoma	HP:0100242,DOID:1115	43-50
+lymphoma	HP:0002665,DOID:0060058	54-62
+Proven multicentric carcinoma in more than one quadrant or separated by more than 3 centimeters.	Eligibility	20
+carcinoma	HP:0030731,DOID:305	20-29
+Paget's disease of the nipple.	Eligibility	21
+disease	DOID:4,OGMS:0000031	8-15
+History of invasive breast cancer or DCIS in the same breast.	Eligibility	22
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	20-33
+breast	UBERON:0000310	20-26
+breast	UBERON:0000310	54-60
+Surgical margins that cannot be microscopically assessed or are less then 2 mm.	Eligibility	23
+Collagen vascular disease, specifically dermatomyositis with a creatine phosphokinase (CPK) level above normal or with an active skin rash, systemic lupus erythematosis or scleroderma.	Eligibility	24
+collagen	CHEBI:3815	0-8
+vascular disease	DOID:178	9-25
+dermatomyositis	DOID:10223	40-55
+creatine	CHEBI:57947	63-71
+active	PATO:0002354	122-128
+skin rash	HP:0000988	129-138
+scleroderma	HP:0100324,DOID:419,DOID:418	172-183
+Pregnancy or lactation at the time of proposed radiation. Women of reproductive potential must agree to use an effective non-hormonal method of contraception during therapy.	Eligibility	25
+lactation	GO:0007595	13-22
+time	PATO:0000165	30-34
+Psychiatric or addictive disorders or other conditions that, in the opinion of the investigator, would preclude the patient from meeting the study requirements.	Eligibility	26
+patient	HADO:0000008,OAE:0001817	116-123
+Patients with coexisting medical conditions in whom life expectancy is < 2 years.	Eligibility	27
+Patients with skin involvement, regardless of tumor size.	Eligibility	28
+size	PATO:0000117	52-56
+Patients for whom treatment with the MammoSite catheter is not feasible, such as those with too little breast tissue between the skin and the catheter (as determined by distance of dose calculations).	Eligibility	29
+breast	UBERON:0000310	103-109
+tissue	UBERON:0000479	110-116
+Outcome Measurement:	Results	0
+Skin Toxicity the First Year Following Treatment With the Multiple Dwell Mammosite Delivery Method.	Results	1
+year	UO:0000036	24-28
+delivery method	BAO:0002198	83-98
+Evaluation of skin toxicity the first year following treatment with the multiple dwell Mammosite delivery method. The number of participants with a grade 2 skin toxicity (or higher) at 1 year follow up are reported. Radiation Therapy Oncology Group (RTOG) and the European organization for research and treatment of cancer (EORTC) Late Radiation Morbidity Scoring Schema were used to assess toxicity.	Results	2
+year	UO:0000036	38-42
+year	UO:0000036	187-191
+delivery method	BAO:0002198	97-112
+group	CHEBI:24433	243-248
+cancer	DOID:162	316-322
+Time frame: one year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	16-20
+Results 1:	Results	4
+Arm/Group Title: Five Days of Mammosite Therapy	Results	5
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 26	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Grade 2 Toxicity: 2   7.7%	Results	9
+Grade 3 Toxicity: 0   0.0%	Results	10
+Grade 4 Toxicity: 0   0.0%	Results	11
+Grade 5 Toxicity: 0   0.0%	Results	12
+Did not experience >= Grade 2 Toxicity: 24  92.3%	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 0/28 (0.00%)	Adverse Events	1

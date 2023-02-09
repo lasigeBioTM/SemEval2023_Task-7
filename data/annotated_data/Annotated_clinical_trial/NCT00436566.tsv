@@ -1,0 +1,266 @@
+INTERVENTION 1:	Intervention	0
+AC/PTL	Intervention	1
+Standard doxorubicin and cyclophosphamide (AC) followed by weekly paclitaxel (80 mg/m^2) x 12 with concurrent standard dose trastuzumab (weekly x 12, then repeat 3 weeks for an additional 9 months) plus daily lapatinib (modified to 750 mg during Paclitaxel + Trastuzumab + Lapatinib (PTL) and 1000 mg during trastuzumab + lapatinib (TL)) for a total of 12 months.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	9-20
+cyclophosphamide	CHEBI:4026	25-41
+paclitaxel	CHEBI:45863	66-76
+paclitaxel	CHEBI:45863	246-256
+x	LABO:0000148	11-12
+x	LABO:0000148	73-74
+x	LABO:0000148	89-90
+x	LABO:0000148	144-145
+x	LABO:0000148	253-254
+lapatinib	CHEBI:49603	209-218
+lapatinib	CHEBI:49603	273-282
+lapatinib	CHEBI:49603	322-331
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed diagnosis of early-stage breast cancer	Eligibility	1
+breast cancer	DOID:1612	50-63
+HER2 positive by immunohistochemistry (IHC) (3+) or fluorescent in situ hybridization (FISH)	Eligibility	2
+immunohistochemistry	BAO:0000415	17-37
+Ductal carcinoma in situ (DCIS) components should not be counted in the determination of degree of IHC staining or FISH amplification	Eligibility	3
+ductal carcinoma in situ	HP:0030075,DOID:0060074	0-24
+No locally advanced tumors (i.e., T4) at diagnosis, including the following:	Eligibility	4
+Tumors fixed to chest wall	Eligibility	5
+chest	UBERON:0001443	16-21
+Peau d'orange	Eligibility	6
+peau d'orange	HP:0025533	0-13
+Skin ulcerations or nodules	Eligibility	7
+Clinical inflammatory changes (e.g., diffuse brawny cutaneous induration with an erysipeloid edge)	Eligibility	8
+diffuse	HP:0020034	37-44
+erysipeloid	DOID:0050061	81-92
+Has undergone mastectomy or lumpectomy with axillary node or sentinel node dissection within the past 84 days	Eligibility	9
+Patients who have undergone a mastectomy must meet the following criteria:	Eligibility	10
+No evidence of gross or microscopic tumor (i.e., invasive DCIS) at the surgical resection margins noted in final surgery or pathology reports	Eligibility	11
+surgery	OAE:0000067	113-120
+Patients with close margins are eligible	Eligibility	12
+Radiation therapy is required for 4 or more positive lymph nodes and must be started after completion of chemotherapy	Eligibility	13
+lymph	UBERON:0002391	53-58
+Patients who have undergone a lumpectomy with axillary node or sentinel node dissection must meet the following criteria:	Eligibility	14
+No evidence of invasive cancer or DCIS at the surgical resection margins	Eligibility	15
+cancer	DOID:162	24-30
+No gross residual adenopathy	Eligibility	16
+Planning to undergo radiation therapy to the breast with or without regional lymphatics after completion of chemotherapy	Eligibility	17
+breast	UBERON:0000310	45-51
+No active hepatic or biliary disease	Eligibility	18
+active	PATO:0002354	3-9
+disease	DOID:4,OGMS:0000031	29-36
+Patients with liver metastases, stable chronic liver disease, Gilbert's syndrome, or asymptomatic gallstones are eligible	Eligibility	19
+liver	UBERON:0002107	14-19
+liver	UBERON:0002107	47-52
+stable	HP:0031915	32-38
+chronic	HP:0011010	39-46
+liver disease	DOID:409	47-60
+syndrome	DOID:225	72-80
+Hormone receptor status:	Eligibility	20
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen receptor and progesterone receptor status known	Eligibility	21
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	35-43
+progesterone	CHEBI:17026	22-34
+PATIENT CHARACTERISTICS:	Eligibility	22
+patient	HADO:0000008,OAE:0001817	0-7
+Male or female	Eligibility	23
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status not specified	Eligibility	24
+ECOG performance status 0-2	Eligibility	25
+Absolute neutrophil count  1,500/mm³	Eligibility	26
+Platelet count  100,000/mm³	Eligibility	27
+platelet count	CMO:0000029	0-14
+Hemoglobin  10.0 g/dL	Eligibility	28
+hemoglobin	CHEBI:35143	0-10
+Bilirubin  1.5 times upper limit of normal (ULN)	Eligibility	29
+AST and ALT  2.5 times ULN	Eligibility	30
+Alkaline phosphatase  2.5 times ULN	Eligibility	31
+phosphatase	GO:0016791,BAO:0000295	9-20
+Creatinine normal OR creatinine clearance  60 mL/min	Eligibility	32
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	21-31
+creatinine clearance	CMO:0000765	21-41
+LVEF  50% by MUGA scan or echocardiogram	Eligibility	33
+Able to complete questionnaire(s) by themselves or with assistance	Eligibility	34
+Able and willing to provide blood and tissue samples	Eligibility	35
+blood	UBERON:0000178	28-33
+tissue	UBERON:0000479	38-44
+No known sensitivity to benzyl alcohol	Eligibility	36
+benzyl alcohol	CHEBI:17987	24-38
+No sensory neuropathy  grade 2	Eligibility	37
+sensory neuropathy	HP:0000763,DOID:2491	3-21
+No active cardiac disease, including any of the following:	Eligibility	38
+active	PATO:0002354	3-9
+disease	DOID:4,OGMS:0000031	18-25
+Myocardial infarction within the past 6 months	Eligibility	39
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Prior or concurrent congestive heart failure	Eligibility	40
+congestive heart failure	HP:0001635,DOID:6000	20-44
+Prior or concurrent arrhythmia or cardiac valvular disease requiring medications or that is clinically significant	Eligibility	41
+arrhythmia	HP:0011675	20-30
+disease	DOID:4,OGMS:0000031	51-58
+Uncontrolled hypertension, defined as diastolic blood pressure (BP) >100 mm Hg or systolic BP > 200 mm Hg on 2 separate occasions  14 days apart	Eligibility	42
+hypertension	HP:0000822,DOID:10763	13-25
+diastolic blood pressure	CMO:0000005	38-62
+Clinically significant pericardial effusion	Eligibility	43
+pericardial effusion	HP:0001698,DOID:118	23-43
+Prior or concurrent uncontrolled or symptomatic angina	Eligibility	44
+Other cardiac condition that, in the opinion of the treating physician, would put the patient at hazardous risk	Eligibility	45
+condition	PDRO:0000129	14-23
+patient	HADO:0000008,OAE:0001817	86-93
+No history of allergic reactions attributed to compounds of similar chemical or biologic composition as lapatinib ditosylate	Eligibility	46
+history	BFO:0000182	3-10
+lapatinib	CHEBI:49603	104-113
+No uncontrolled intercurrent illness including, but not limited to, the following:	Eligibility	47
+Ongoing or active infection	Eligibility	48
+active	PATO:0002354	11-17
+Psychiatric illness or social situations that would preclude study compliance	Eligibility	49
+Able to swallow and retain oral medication	Eligibility	50
+No history of gastrointestinal (GI) disease resulting in an inability to take oral medication, including any of the following:	Eligibility	51
+history	BFO:0000182	3-10
+disease	DOID:4,OGMS:0000031	36-43
+Malabsorption syndrome	Eligibility	52
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+Requirement for IV alimentation	Eligibility	53
+Prior surgical procedures affecting absorption	Eligibility	54
+Uncontrolled inflammatory GI disease (e.g., Crohn's disease or ulcerative colitis)	Eligibility	55
+disease	DOID:4,OGMS:0000031	29-36
+disease	DOID:4,OGMS:0000031	52-59
+ulcerative colitis	HP:0100279,DOID:8577	63-81
+Not pregnant or nursing	Eligibility	56
+Negative pregnancy test	Eligibility	57
+Fertile patients must use effective contraception during and for 6 months after completion of study treatment	Eligibility	58
+PRIOR CONCURRENT THERAPY:	Eligibility	59
+See Disease Characteristics	Eligibility	60
+disease	DOID:4,OGMS:0000031	4-11
+No prior chemotherapy, radiation therapy, immunotherapy, or biotherapy for breast cancer	Eligibility	61
+breast cancer	DOID:1612	75-88
+No primary breast radiation therapy as part of breast-conserving treatment	Eligibility	62
+breast	UBERON:0000310	11-17
+breast	UBERON:0000310	47-53
+part of	BAO:0090002,BFO:0000050	39-46
+No prior anthracycline or taxane therapy for any malignancy	Eligibility	63
+anthracycline	CHEBI:48120	9-22
+taxane	CHEBI:36064	26-32
+No prior epidermal growth factor receptor-targeting therapies (e.g., gefitinib, cetuximab, erlotinib hydrochloride, rituximab, trastuzumab [Herceptin®], lapatinib ditosylate, panitumumab, or nimotuzumab)	Eligibility	64
+growth factor	BAO:0002024	19-32
+gefitinib	CHEBI:49668	69-78
+erlotinib hydrochloride	CHEBI:53509	91-114
+lapatinib	CHEBI:49603	153-162
+At least 14 days since prior and no concurrent CYP3A4 inducers, including the following:	Eligibility	65
+Rifamycin-class antibiotics (e.g., rifampin, rifabutin, or rifapentine)	Eligibility	66
+rifabutin	CHEBI:45367	45-54
+rifapentine	CHEBI:45304	59-70
+Anticonvulsants (e.g., phenytoin, carbamazepine, or barbiturates [e.g., phenobarbital])	Eligibility	67
+phenytoin	CHEBI:8107	23-32
+carbamazepine	CHEBI:3387	34-47
+barbiturates	CHEBI:22693	52-64
+phenobarbital	CHEBI:8069	72-85
+Antiretrovirals (e.g., efavirenz or nevirapine)	Eligibility	68
+efavirenz	CHEBI:119486	23-32
+nevirapine	CHEBI:63613	36-46
+Glucocorticoids (e.g., oral cortisone, hydrocortisone, prednisone, methylprednisolone, or dexamethasone)	Eligibility	69
+cortisone	CHEBI:16962	28-37
+cortisone	CHEBI:16962	44-53
+prednisone	CHEBI:8382	55-65
+dexamethasone	CHEBI:41879	90-103
+Daily oral dexamethasone  1.5 mg (or equivalent) allowed	Eligibility	70
+dexamethasone	CHEBI:41879	11-24
+Modafinil	Eligibility	71
+modafinil	CHEBI:31859	0-9
+Hypericum perforatum (St. John's wort)	Eligibility	72
+At least 7 days since prior and no concurrent CYP3A4 inhibitors, including the following:	Eligibility	73
+Antibiotics (e.g., clarithromycin, erythromycin, or troleandomycin)	Eligibility	74
+clarithromycin	CHEBI:3732	19-33
+erythromycin	CHEBI:42355	35-47
+troleandomycin	CHEBI:45735	52-66
+Antifungals (e.g., itraconazole, ketoconazole, fluconazole [> 150 mg daily], or voriconazole)	Eligibility	75
+itraconazole	CHEBI:6076	19-31
+ketoconazole	CHEBI:47519,BAO:0000796	33-45
+fluconazole	CHEBI:46081	47-58
+voriconazole	CHEBI:10023	80-92
+Antiretrovirals and protease inhibitors (e.g., delaviridine, nelfinavir, amprenavir, ritonavir, indinavir, saquinavir, or lopinavir)	Eligibility	76
+protease	BAO:0000652	20-28
+nelfinavir	CHEBI:7496	61-71
+amprenavir	CHEBI:40050	73-83
+ritonavir	CHEBI:45409	85-94
+indinavir	CHEBI:44032	96-105
+saquinavir	CHEBI:63621	107-117
+lopinavir	CHEBI:31781	122-131
+Calcium channel blockers (e.g., verapamil or diltiazem)	Eligibility	77
+calcium	CHEBI:22984,BAO:0000874	0-7
+verapamil	CHEBI:9948	32-41
+diltiazem	CHEBI:101278	45-54
+Antidepressants (e.g., nefazodone or fluvoxamine)	Eligibility	78
+nefazodone	CHEBI:7494	23-33
+fluvoxamine	CHEBI:5138	37-48
+Gastrointestinal agents (e.g., cimetidine or aprepitant)	Eligibility	79
+cimetidine	CHEBI:3699	31-41
+aprepitant	CHEBI:499361	45-55
+Grapefruit and grapefruit juice	Eligibility	80
+At least 6 months since prior and no concurrent amiodarone	Eligibility	81
+amiodarone	CHEBI:2663	48-58
+No herbal or alternative medicines or supplements  14 days before, during, and for 30 days after completion of study treatment	Eligibility	82
+No concurrent hormonal agents (e.g., birth control pills, ovarian hormonal replacement therapy, or raloxifene)	Eligibility	83
+raloxifene	CHEBI:8772	99-109
+Adjuvant hormonal agents (e.g., tamoxifen, aromatase inhibitors) allowed after completion of chemotherapy as part of treatment for breast cancer	Eligibility	84
+adjuvant	CHEBI:60809	0-8
+tamoxifen	CHEBI:41774	32-41
+part of	BAO:0090002,BFO:0000050	109-116
+breast cancer	DOID:1612	131-144
+No concurrent antiretroviral therapy for HIV-positive patients	Eligibility	85
+No concurrent digitalis or beta-blockers for congestive heart failure	Eligibility	86
+congestive heart failure	HP:0001635,DOID:6000	45-69
+No concurrent arrhythmia or angina pectoris medication	Eligibility	87
+arrhythmia	HP:0011675	14-24
+angina pectoris	HP:0001681	28-43
+No other concurrent investigational agents or anticancer therapies, including cytotoxic agents or immunotherapy	Eligibility	88
+Outcome Measurement:	Results	0
+Number of Patients With Congestive Heart Failure (CHF) While on Active Treatment	Results	1
+congestive heart failure	HP:0001635,DOID:6000	24-48
+active	PATO:0002354	64-70
+[Not Specified]	Results	2
+Time frame: 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: AC/PTL	Results	5
+Arm/Group Description: Standard doxorubicin and cyclophosphamide (AC) followed by weekly paclitaxel (80 mg/m^2) x 12 with concurrent standard dose trastuzumab (weekly x 12, then repeat 3 weeks for an additional 9 months) plus daily lapatinib (modified to 750 mg during Paclitaxel + Trastuzumab + Lapatinib (PTL) and 1000 mg during trastuzumab + lapatinib (TL)) for a total of 12 months.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	32-43
+cyclophosphamide	CHEBI:4026	48-64
+paclitaxel	CHEBI:45863	89-99
+paclitaxel	CHEBI:45863	269-279
+x	LABO:0000148	34-35
+x	LABO:0000148	96-97
+x	LABO:0000148	112-113
+x	LABO:0000148	167-168
+x	LABO:0000148	276-277
+lapatinib	CHEBI:49603	232-241
+lapatinib	CHEBI:49603	296-305
+lapatinib	CHEBI:49603	345-354
+Overall Number of Participants Analyzed: 109	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  0	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 17/108 (15.74%)	Adverse Events	1
+Febrile neutropenia 1/108 (0.93%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Left ventricular failure 1/108 (0.93%)	Adverse Events	3
+left	HP:0012835	0-4
+Diarrhea 6/108 (5.56%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 1/108 (0.93%)	Adverse Events	5
+fatigue	HP:0012378	0-7
+Pneumonia 1/108 (0.93%)	Adverse Events	6
+pneumonia	HP:0002090,DOID:552	0-9
+Skin infection 1/108 (0.93%)	Adverse Events	7
+Urinary tract infection 1/108 (0.93%)	Adverse Events	8
+urinary tract infection	DOID:0080784	0-23
+Alanine aminotransferase increased 1/108 (0.93%)	Adverse Events	9
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased 1/108 (0.93%)	Adverse Events	10
+aspartate	CHEBI:29995	0-9
+Leukopenia 2/108 (1.85%)	Adverse Events	11
+leukopenia	HP:0001882,DOID:615	0-10

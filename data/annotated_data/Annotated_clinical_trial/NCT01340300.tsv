@@ -1,0 +1,103 @@
+INTERVENTION 1:	Intervention	0
+Exercise Training With Metformin	Intervention	1
+metformin	CHEBI:6801	23-32
+Exercise training with exercise physiologist with oral metformin	Intervention	2
+metformin	CHEBI:6801	55-64
+Exercise training plus metformin: Two supervised exercise sessions per week. Oral metformin QD for 2 weeks, then BID	Intervention	3
+metformin	CHEBI:6801	23-32
+metformin	CHEBI:6801	82-91
+week	UO:0000034	71-75
+week	UO:0000034	101-105
+INTERVENTION 2:	Intervention	4
+Exercise Training	Intervention	5
+Exercise training with exercise physiologist	Intervention	6
+Exercise training: Two supervised exercise sessions per week	Intervention	7
+week	UO:0000034	56-60
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed stage I-III colorectal or breast cancer	Eligibility	1
+breast cancer	DOID:1612	51-64
+Undergone curative-intent complete surgical resection and completed all adjuvant therapy (if indicated) at least 2 months prior to enrollment	Eligibility	2
+adjuvant	CHEBI:60809	72-80
+Note: Breast cancer subjects on hormonal therapy or trastuzumab only therapy and colorectal cancer subjects on adjunctive therapies not considered cytotoxic chemotherapy (including those participating in CALGB 80702 receiving only celecoxib/placebo) are eligible.	Eligibility	3
+breast cancer	DOID:1612	6-19
+colorectal cancer	DOID:9256	81-98
+Participants will be allowed to receive concomitant adjuvant endocrine therapy for breast cancer; however, all endocrine agents must be initiated at least 1 month prior to enrollment in the study and continued throughout the duration of study participation.	Eligibility	4
+adjuvant	CHEBI:60809	52-60
+breast cancer	DOID:1612	83-96
+month	UO:0000035	157-162
+duration	PATO:0001309	225-233
+Less than 120 minutes of exercise per week	Eligibility	5
+week	UO:0000034	38-42
+Approval by oncologist or surgeon	Eligibility	6
+English speaking and able to read English	Eligibility	7
+No planned surgery anticipated in the 3 month intervention period	Eligibility	8
+surgery	OAE:0000067	11-18
+month	UO:0000035	40-45
+At least one month from any major surgery to start of intervention including colostomy reversal	Eligibility	9
+month	UO:0000035	13-18
+surgery	OAE:0000067	34-41
+Exclusion Criteria:	Eligibility	10
+Concurrent other malignancy or history of other malignancy treated within the past 3 years (other than non-melanoma skin cancer or in-situ cervical cancer)	Eligibility	11
+history	BFO:0000182	31-38
+skin cancer	DOID:4159	116-127
+cervical cancer	DOID:4362	139-154
+Metastatic disease	Eligibility	12
+disease	DOID:4,OGMS:0000031	11-18
+Scheduled to receive any form of further adjuvant cancer therapy	Eligibility	13
+adjuvant	CHEBI:60809	41-49
+cancer	DOID:162	50-56
+Currently on medication for diabetes treatment	Eligibility	14
+Pregnant or breast-feeding	Eligibility	15
+Any condition associated with increased risk of metformin-associated lactic acidosis (prior renal failure or liver failure, history of acidosis of any type; habitual intake of 3 or more alcoholic beverages per day)	Eligibility	16
+condition	PDRO:0000129	4-13
+lactic acidosis	HP:0003128,DOID:3650	69-84
+liver	UBERON:0002107	109-114
+history	BFO:0000182	124-131
+acidosis	HP:0001941	76-84
+acidosis	HP:0001941	135-143
+day	UO:0000033	210-213
+Known hypersensitivity or intolerance to metformin	Eligibility	17
+hypersensitivity	GO:0002524,DOID:1205	6-22
+metformin	CHEBI:6801	41-50
+Outcome Measurement:	Results	0
+Change in Fasting Insulin Level	Results	1
+insulin	CHEBI:145810	18-25
+Determine whether supervised exercise training alone and metformin, either alone or in combination can decrease fasting insulin level from baseline to 3 months in patients who completed standard therapy for stage I-III colorectal or breast cancer. Fasting insulin levels in blood will be drawn at baseline, 3 months and 6 months. Negative least square means indicate a decrease at 3 month comparing to baseline value.	Results	2
+metformin	CHEBI:6801	57-66
+insulin	CHEBI:145810	120-127
+insulin	CHEBI:145810	256-263
+breast cancer	DOID:1612	233-246
+blood	UBERON:0000178	274-279
+month	UO:0000035	153-158
+month	UO:0000035	309-314
+month	UO:0000035	322-327
+month	UO:0000035	383-388
+Time frame: 0 and 3 months (change between 0 and 3 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Exercise Training With Metformin	Results	5
+metformin	CHEBI:6801	40-49
+Arm/Group Description: Exercise training with exercise physiologist with oral metformin	Results	6
+metformin	CHEBI:6801	78-87
+Exercise training plus metformin: Two supervised exercise sessions per week. Oral metformin QD for 2 weeks, then BID	Results	7
+metformin	CHEBI:6801	23-32
+metformin	CHEBI:6801	82-91
+week	UO:0000034	71-75
+week	UO:0000034	101-105
+Overall Number of Participants Analyzed: 33	Results	8
+Least Squares Mean (Standard Error)	Results	9
+mean	BAO:0002173	14-18
+Unit of Measure: mU/L  -2.47         (1.07)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Exercise Training	Results	12
+Arm/Group Description: Exercise training with exercise physiologist	Results	13
+Exercise training: Two supervised exercise sessions per week	Results	14
+week	UO:0000034	56-60
+Overall Number of Participants Analyzed: 34	Results	15
+Least Squares Mean (Standard Error)	Results	16
+mean	BAO:0002173	14-18
+Unit of Measure: mU/L  -0.08         (1.06)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/35 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/35 (0.00%)	Adverse Events	3

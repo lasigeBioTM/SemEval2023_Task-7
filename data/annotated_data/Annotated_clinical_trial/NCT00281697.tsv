@@ -1,0 +1,189 @@
+INTERVENTION 1:	Intervention	0
+Standard Chemotherapy + Bevacizumab	Intervention	1
+Patients received one of several standard chemotherapies for metastatic breast cancer plus bevacizumab in a dose of either 10 mg/kg intravenously (IV) every 2 weeks or 15 mg/kg IV every 3 weeks depending upon the schedule of chemotherapy chosen.	Intervention	2
+breast cancer	DOID:1612	72-85
+INTERVENTION 2:	Intervention	3
+Standard Chemotherapy + Placebo	Intervention	4
+Patients received one of several standard chemotherapies for metastatic breast cancer plus placebo to bevacizumab administered IV either every 2 weeks or every 3 weeks depending upon the schedule of chemotherapy chosen.	Intervention	5
+breast cancer	DOID:1612	72-85
+Inclusion Criteria:	Eligibility	0
+Signed informed consent form.	Eligibility	1
+18 years of age.	Eligibility	2
+age	PATO:0000011	12-15
+Histologically confirmed carcinoma of the breast with measurable or non-measurable metastatic disease that has progressed (patients with a history of brain metastasis are eligible for study participation [USA only], as long as their brain metastases have been treated and they have no evidence of progression or hemorrhage after treatment and no ongoing requirement for dexamethasone).	Eligibility	3
+carcinoma	HP:0030731,DOID:305	25-34
+breast	UBERON:0000310	42-48
+disease	DOID:4,OGMS:0000031	94-101
+history	BFO:0000182	139-146
+brain	UBERON:0000955	150-155
+brain	UBERON:0000955	233-238
+dexamethasone	CHEBI:41879	370-383
+Progression of disease during or following administration of one (non-investigational) chemotherapy regimen administered in the first-line setting.	Eligibility	4
+disease	DOID:4,OGMS:0000031	15-22
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.	Eligibility	5
+group	CHEBI:24433	29-34
+For women of childbearing potential, use of an effective means of non-hormonal contraception.	Eligibility	6
+Life expectancy  3 months.	Eligibility	7
+Willingness and capacity to comply with study and follow-up procedures.	Eligibility	8
+Exclusion Criteria:	Eligibility	9
+Prior hormonal therapy only as treatment for metastatic disease without chemotherapy. Patients must have received chemotherapy for their metastatic disease in the first-line setting. Hormone therapy alone is not allowed.	Eligibility	10
+disease	DOID:4,OGMS:0000031	56-63
+disease	DOID:4,OGMS:0000031	148-155
+hormone	CHEBI:24621	183-190
+For subjects who have received prior anthracycline-based therapy, documentation of left ventricular ejection fraction < 50% by either multiple gated acquisition (MUGA) or echocardiogram (ECHO).	Eligibility	11
+left	HP:0012835	83-87
+ejection fraction	CMO:0000180	100-117
+Treatment with more than one prior cytotoxic regimen for metastatic breast cancer (MBC).	Eligibility	12
+breast cancer	DOID:1612	68-81
+HER2-positive status (patients who have unknown HER2 status, and for whom determination of HER2 status is not possible, are eligible for this study).	Eligibility	13
+Unknown estrogen receptor (ER) and progesterone receptor (PR) status.	Eligibility	14
+estrogen	CHEBI:50114,BAO:0000760	8-16
+receptor	BAO:0000281	17-25
+receptor	BAO:0000281	48-56
+progesterone	CHEBI:17026	35-47
+Radiation therapy other than for palliation or brain metastasis, biologic therapy, or chemotherapy for MBC within 21 days prior to Day 0 (Day 1 of Cycle 1 of treatment).	Eligibility	15
+brain	UBERON:0000955	47-52
+day	UO:0000033	117-120
+day	UO:0000033	131-134
+day	UO:0000033	138-141
+Prior therapy with bevacizumab or other vascular endothelial growth factor (VEGF) pathway-targeted therapy.	Eligibility	16
+growth factor	BAO:0002024	61-74
+Untreated brain metastasis.	Eligibility	17
+brain	UBERON:0000955	10-15
+Inadequately controlled hypertension.	Eligibility	18
+hypertension	HP:0000822,DOID:10763	24-36
+Unstable angina.	Eligibility	19
+New York Heart Association Grade II or greater congestive heart failure (CHF).	Eligibility	20
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	58-63
+congestive heart failure	HP:0001635,DOID:6000	47-71
+History of myocardial infarction within 6 months prior to Day 0 (the day of the first bevacizumab/placebo infusion).	Eligibility	21
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+day	UO:0000033	58-61
+day	UO:0000033	69-72
+History of stroke or transient ischemic attack within 6 months prior to Day 0.	Eligibility	22
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+transient ischemic attack	HP:0002326,DOID:224	21-46
+day	UO:0000033	72-75
+Clinically significant peripheral vascular disease.	Eligibility	23
+peripheral vascular disease	DOID:341	23-50
+Evidence of bleeding diathesis or coagulopathy.	Eligibility	24
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to Day 0; anticipation of need for major elective surgical procedure during the study.	Eligibility	25
+day	UO:0000033	81-84
+day	UO:0000033	95-98
+Minor surgical procedures, fine-needle aspirations, or core biopsies within 7 days prior to Day 0.	Eligibility	26
+day	UO:0000033	78-81
+day	UO:0000033	92-95
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to Day 0.	Eligibility	27
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+day	UO:0000033	112-115
+Serious, non-healing wound, ulcer, or bone fracture.	Eligibility	28
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+History of anaphylactic reaction to monoclonal antibody therapy not controlled with treatment premedication.	Eligibility	29
+history	BFO:0000182	0-7
+monoclonal	BAO:0000503	36-46
+antibody	GO:0042571,BAO:0000502	47-55
+History of other malignancies within 5 years of Day 0, except for tumors with a negligible risk for metastasis or death, such as adequately controlled basal cell carcinoma or squamous cell carcinoma of the skin or carcinoma in situ of the cervix.	Eligibility	30
+history	BFO:0000182	0-7
+day	UO:0000033	48-51
+death	OAE:0000632	114-119
+basal cell carcinoma	HP:0002671,DOID:2513	151-171
+squamous cell carcinoma of the skin	HP:0006739	175-210
+carcinoma	HP:0030731,DOID:305	162-171
+carcinoma	HP:0030731,DOID:305	189-198
+carcinoma	HP:0030731,DOID:305	214-223
+inadequate organ function.	Eligibility	31
+organ	UBERON:0000062	11-16
+function	BAO:0003117,BFO:0000034	17-25
+Pregnancy (positive serum pregnancy test) or lactation.	Eligibility	32
+lactation	GO:0007595	45-54
+Any other diseases, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug or that may affect the interpretation of the results or renders the subject at high risk from treatment complications.	Eligibility	33
+physical examination	OAE:0004232	43-63
+laboratory finding	OGMS:0000018	85-103
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	137-144
+condition	PDRO:0000129	148-157
+drug	CHEBI:23888	209-213
+Outcome Measurement:	Results	0
+Progression-free Survival	Results	1
+PFS was defined as the time from randomization to first documented disease progression (PD) as determined by the investigator using Response Evaluation Criteria in Solid Tumors (RECIST) or death due to any cause, whichever occurred first. For target lesions, PD was defined as at least a 20% increase in the sum of the longest diameter of target lesions, taking as reference the smallest sum of the longest diameter recorded since treatment started or the appearance of 1 or more new lesions. For non-target lesions, PD was defined as the appearance of 1 or more new lesions and/or unequivocal progression of existing non-target lesions. Target lesions should be selected on the basis of their size (those with the longest diameter) and their suitability for accurate repeated measurements by imaging techniques or clinically. All measurable lesions up to a maximum of 5 lesions per organ and 10 lesions in total, representative of all involved organs, should be identified as target lesions.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	67-74
+death	OAE:0000632	189-194
+target	BAO:0003064	243-249
+target	BAO:0003064	339-345
+target	BAO:0003064	501-507
+target	BAO:0003064	622-628
+target	BAO:0003064	638-644
+target	BAO:0003064	977-983
+increase	BAO:0001251	292-300
+diameter	PATO:0001334	327-335
+diameter	PATO:0001334	407-415
+diameter	PATO:0001334	723-731
+size	PATO:0000117	694-698
+organ	UBERON:0000062	883-888
+organ	UBERON:0000062	945-950
+Time frame: Baseline to data cut-off for analysis of the primary Outcome Measure (up to 3 years, 2 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Standard Chemotherapy + Bevacizumab	Results	5
+Arm/Group Description: Patients received one of several standard chemotherapies for metastatic breast cancer plus bevacizumab in a dose of either 10 mg/kg intravenously (IV) every 2 weeks or 15 mg/kg IV every 3 weeks depending upon the schedule of chemotherapy chosen.	Results	6
+breast cancer	DOID:1612	95-108
+Overall Number of Participants Analyzed: 459	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  7.2        (6.5 to 7.6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Standard Chemotherapy + Placebo	Results	11
+Arm/Group Description: Patients received one of several standard chemotherapies for metastatic breast cancer plus placebo to bevacizumab administered IV either every 2 weeks or every 3 weeks depending upon the schedule of chemotherapy chosen.	Results	12
+breast cancer	DOID:1612	95-108
+Overall Number of Participants Analyzed: 225	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  5.1        (4.1 to 6.0)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 112/458 (24.45%)	Adverse Events	1
+Febrile neutropenia 8/458 (1.75%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 6/458 (1.31%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 3/458 (0.66%)	Adverse Events	4
+Thrombocytopenia 3/458 (0.66%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia 2/458 (0.44%)	Adverse Events	6
+pancytopenia	HP:0001876,DOID:12450	0-12
+Myocardial infarction 0/458 (0.00%)	Adverse Events	7
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericardial effusion 0/458 (0.00%)	Adverse Events	8
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia 0/458 (0.00%)	Adverse Events	9
+tachycardia	HP:0001649	0-11
+Acute myocardial infarction 1/458 (0.22%)	Adverse Events	10
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 0/458 (0.00%)	Adverse Events	11
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Adverse Events 2:	Adverse Events	12
+Total: 39/221 (17.65%)	Adverse Events	13
+Febrile neutropenia 5/221 (2.26%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/221 (0.45%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia 2/221 (0.90%)	Adverse Events	16
+Thrombocytopenia 0/221 (0.00%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pancytopenia 0/221 (0.00%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Myocardial infarction 2/221 (0.90%)	Adverse Events	19
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Pericardial effusion 2/221 (0.90%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Tachycardia 2/221 (0.90%)	Adverse Events	21
+tachycardia	HP:0001649	0-11
+Acute myocardial infarction 0/221 (0.00%)	Adverse Events	22
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 1/221 (0.45%)	Adverse Events	23
+atrial fibrillation	HP:0005110,DOID:0060224	0-19

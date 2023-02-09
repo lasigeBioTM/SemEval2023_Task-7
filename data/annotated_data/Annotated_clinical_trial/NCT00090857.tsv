@@ -1,0 +1,220 @@
+INTERVENTION 1:	Intervention	0
+Letrozole	Intervention	1
+letrozole	CHEBI:6413	0-9
+Participants in this arm received 2.5 mg of letrozole per day for a duration of 12 months; followed by an optional 4 years. Treatment continued in the absence of unacceptable toxicity or diagnosis of invasive breast cancer, ductal carcinoma in situ, or any non-breast primary cancer.	Intervention	2
+letrozole	CHEBI:6413	44-53
+day	UO:0000033	58-61
+duration	PATO:0001309	68-76
+breast cancer	DOID:1612	209-222
+ductal carcinoma in situ	HP:0030075,DOID:0060074	224-248
+cancer	DOID:162	216-222
+cancer	DOID:162	276-282
+INTERVENTION 2:	Intervention	3
+Placebo	Intervention	4
+Participants in this arm received 1 tablet per day which contained the inert ingredients from the letrozole tablet, for a duration of 12 months; followed by an optional 5 years of letrozole.Treatment continued in the absence of unacceptable toxicity or diagnosis of invasive breast cancer, ductal carcinoma in situ, or any non-breast primary cancer.	Intervention	5
+day	UO:0000033	47-50
+letrozole	CHEBI:6413	98-107
+letrozole	CHEBI:6413	180-189
+duration	PATO:0001309	122-130
+breast cancer	DOID:1612	275-288
+ductal carcinoma in situ	HP:0030075,DOID:0060074	290-314
+cancer	DOID:162	282-288
+cancer	DOID:162	342-348
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+At increased risk for the development or recurrence of breast cancer, defined as an estradiol level  9 pg/mL	Eligibility	1
+breast cancer	DOID:1612	55-68
+estradiol	CHEBI:23965	84-93
+No evidence of suspicious or malignant disease, based on the following examinations:	Eligibility	2
+disease	DOID:4,OGMS:0000031	39-46
+Clinical bilateral breast examination within the past 6 months	Eligibility	3
+bilateral	HP:0012832	9-18
+breast	UBERON:0000310	19-25
+Bilateral* mammogram within 3 months before randomization OR within 30 days after randomization	Eligibility	4
+bilateral	HP:0012832	0-9
+Pelvic exam normal within the past 5 years	Eligibility	5
+General physical exam within the past 6 months NOTE: *Unilateral mammogram of the uninvolved breast for patients with prior invasive breast cancer or ductal carcinoma in situ (DCIS)	Eligibility	6
+unilateral	HP:0012833	54-64
+breast	UBERON:0000310	93-99
+breast	UBERON:0000310	133-139
+breast cancer	DOID:1612	133-146
+ductal carcinoma in situ	HP:0030075,DOID:0060074	150-174
+Bone density scan within 2 standard deviations from normal within the past 30 days	Eligibility	7
+Bone density scan  2 standard deviations below normal allowed if approved by the study physician	Eligibility	8
+At least 1 breast that has not been previously treated with radiotherapy or surgery (for patients with prior invasive breast cancer or DCIS)	Eligibility	9
+breast	UBERON:0000310	11-17
+breast	UBERON:0000310	118-124
+radiotherapy	OAE:0000235	60-72
+surgery	OAE:0000067	76-83
+breast cancer	DOID:1612	118-131
+Hormone receptor status:	Eligibility	10
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	11
+PATIENT CHARACTERISTICS:	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	13
+age	PATO:0000011	0-3
+35 and over	Eligibility	14
+Sex	Eligibility	15
+Female	Eligibility	16
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	17
+Postmenopausal, defined by any of the following criteria:	Eligibility	18
+At least 12 months without spontaneous menstrual bleeding	Eligibility	19
+Prior hysterectomy and bilateral salpingo-oophorectomy	Eligibility	20
+bilateral	HP:0012832	23-32
+55 years of age with a prior hysterectomy with or without oophorectomy	Eligibility	21
+age	PATO:0000011	12-15
+< 55 years of age with a prior hysterectomy without oophorectomy OR the status of the ovaries is unknown AND follicle-stimulating hormone (FSH) level is in the postmenopausal range	Eligibility	22
+age	PATO:0000011	14-17
+hormone	CHEBI:24621	130-137
+range	LABO:0000114	175-180
+Performance status	Eligibility	23
+Normal activity must not be restricted for a significant portion of the day	Eligibility	24
+day	UO:0000033	72-75
+Life expectancy	Eligibility	25
+At least 10 years	Eligibility	26
+Hematopoietic	Eligibility	27
+Complete blood count with differential normal	Eligibility	28
+blood	UBERON:0000178	9-14
+Prior benign neutropenia allowed provided the granulocyte count is  1,500/mm^3	Eligibility	29
+neutropenia	HP:0001875,DOID:1227	13-24
+Hepatic	Eligibility	30
+Bilirubin normal	Eligibility	31
+Alkaline phosphatase normal	Eligibility	32
+phosphatase	GO:0016791,BAO:0000295	9-20
+SGOT and SGPT normal	Eligibility	33
+Renal	Eligibility	34
+Creatinine normal	Eligibility	35
+creatinine	CHEBI:16737	0-10
+Cardiovascular	Eligibility	36
+No uncontrolled cardiovascular disease	Eligibility	37
+disease	DOID:4,OGMS:0000031	31-38
+Other	Eligibility	38
+Not pregnant	Eligibility	39
+No other malignancy within the past 5 years except basal cell or squamous cell skin cancer or carcinoma in situ of the cervix	Eligibility	40
+skin cancer	DOID:4159	79-90
+carcinoma	HP:0030731,DOID:305	94-103
+No osteoporosis	Eligibility	41
+osteoporosis	HP:0000939,DOID:11476	3-15
+No hyperlipidemia	Eligibility	42
+hyperlipidemia	HP:0003077	3-17
+No mental health status resulting in cognitive or emotional impairment that would preclude study participation	Eligibility	43
+health status	HP:0032319	10-23
+PRIOR CONCURRENT THERAPY:	Eligibility	44
+Biologic therapy	Eligibility	45
+Not specified	Eligibility	46
+Chemotherapy	Eligibility	47
+Not specified	Eligibility	48
+Endocrine therapy	Eligibility	49
+More than 30 days since prior AND no concurrent use of any of the following hormonal agents:	Eligibility	50
+Estrogen or progesterone replacement therapy	Eligibility	51
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	12-24
+Oral contraceptives	Eligibility	52
+Raloxifene or other plasma estrogen receptor modulators (SERMs)	Eligibility	53
+raloxifene	CHEBI:8772	0-10
+estrogen	CHEBI:50114,BAO:0000760	27-35
+receptor	BAO:0000281	36-44
+Androgens (e.g., danazol)	Eligibility	54
+danazol	CHEBI:4315	17-24
+Luteinizing hormone-releasing hormone (LHRH) analogs (e.g., goserelin or leuprolide)	Eligibility	55
+hormone	CHEBI:24621	12-19
+hormone	CHEBI:24621	30-37
+goserelin	CHEBI:5523	60-69
+leuprolide	CHEBI:6427	73-83
+Prolactin inhibitors (e.g., bromocriptine)	Eligibility	56
+prolactin	CHEBI:81580,GO:0005148	0-9
+bromocriptine	CHEBI:3181	28-41
+Antiandrogens (e.g., cyproterone)	Eligibility	57
+cyproterone	CHEBI:50742	21-32
+More than 60 days since prior AND no concurrent tamoxifen	Eligibility	58
+tamoxifen	CHEBI:41774	48-57
+No prior aromatase inhibitors (for patients with prior invasive breast cancer or DCIS)	Eligibility	59
+breast cancer	DOID:1612	64-77
+No concurrent phytoestrogenic dietary supplements (e.g., soy, ginseng, or other natural products)	Eligibility	60
+Dietary soy allowed	Eligibility	61
+Radiotherapy	Eligibility	62
+radiotherapy	OAE:0000235	0-12
+See Disease Characteristics	Eligibility	63
+disease	DOID:4,OGMS:0000031	4-11
+Surgery	Eligibility	64
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	65
+disease	DOID:4,OGMS:0000031	4-11
+No prior bilateral mastectomy	Eligibility	66
+bilateral	HP:0012832	9-18
+Other	Eligibility	67
+More than 60 days since prior treatment for invasive breast cancer or DCIS	Eligibility	68
+breast cancer	DOID:1612	53-66
+More than 30 days since prior bisphosphonates or calcitonin	Eligibility	69
+calcitonin	CHEBI:3306	49-59
+No prior or concurrent participation on a treatment study for invasive breast cancer or DCIS	Eligibility	70
+breast cancer	DOID:1612	71-84
+No concurrent participation in any other cancer prevention study or osteoporosis prevention study involving pharmacologic agents	Eligibility	71
+cancer	DOID:162	41-47
+osteoporosis	HP:0000939,DOID:11476	68-80
+No concurrent calcitonin	Eligibility	72
+calcitonin	CHEBI:3306	14-24
+No concurrent bisphosphonate therapy	Eligibility	73
+Concurrent cholecalciferol (vitamin D) and calcium to augment bone mineral density allowed	Eligibility	74
+vitamin d	CHEBI:27300	28-37
+calcium	CHEBI:22984,BAO:0000874	43-50
+bone mineral density	CMO:0001226	62-82
+Outcome Measurement:	Results	0
+Change in Lumbar Density From Baseline to 12 Months	Results	1
+The bone mineral density (BMD) test was comprised of the following 4 measurements [total density (g/cm^2)]: lumbar, femoral neck, trochanter, hip.	Results	2
+bone mineral density	CMO:0001226	4-24
+neck	GO:0044326,UBERON:0000974	124-128
+hip	UBERON:0001464	142-145
+Time frame: Evaluation occurred at treatment initiation (BL) and after 12-months of treatment.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Letrozole	Results	5
+letrozole	CHEBI:6413	17-26
+Arm/Group Description: Participants in this arm received 2.5 mg of letrozole per day for a duration of 12 months; followed by an optional 4 years. Treatment continued in the absence of unacceptable toxicity or diagnosis of invasive breast cancer, ductal carcinoma in situ, or any non-breast primary cancer.	Results	6
+letrozole	CHEBI:6413	67-76
+day	UO:0000033	81-84
+duration	PATO:0001309	91-99
+breast cancer	DOID:1612	232-245
+ductal carcinoma in situ	HP:0030075,DOID:0060074	247-271
+cancer	DOID:162	239-245
+cancer	DOID:162	299-305
+Overall Number of Participants Analyzed: 29	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: g/cm^2  -0.036        (-0.092 to 0.272)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo	Results	11
+Arm/Group Description: Participants in this arm received 1 tablet per day which contained the inert ingredients from the letrozole tablet, for a duration of 12 months; followed by an optional 5 years of letrozole.Treatment continued in the absence of unacceptable toxicity or diagnosis of invasive breast cancer, ductal carcinoma in situ, or any non-breast primary cancer.	Results	12
+day	UO:0000033	70-73
+letrozole	CHEBI:6413	121-130
+letrozole	CHEBI:6413	203-212
+duration	PATO:0001309	145-153
+breast cancer	DOID:1612	298-311
+ductal carcinoma in situ	HP:0030075,DOID:0060074	313-337
+cancer	DOID:162	305-311
+cancer	DOID:162	365-371
+Overall Number of Participants Analyzed: 13	Results	13
+Median (Full Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: g/cm^2  -0.021        (-0.180 to 0.064)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/33 (3.03%)	Adverse Events	1
+Pain - Head/Headache 1/33 (3.03%)	Adverse Events	2
+pain	HP:0012531	0-4
+Urticaria (hives, welts, wheals) 1/33 (3.03%)	Adverse Events	3
+urticaria	HP:0001025,DOID:1555	0-9
+Pruritus / Itching 1/33 (3.03%)	Adverse Events	4
+pruritus	HP:0000989,GO:0160025	0-8
+Adverse Events 2:	Adverse Events	5
+Total: 0/16 (0.00%)	Adverse Events	6
+Pain - Head/Headache 0/16 (0.00%)	Adverse Events	7
+pain	HP:0012531	0-4
+Urticaria (hives, welts, wheals) 0/16 (0.00%)	Adverse Events	8
+urticaria	HP:0001025,DOID:1555	0-9
+Pruritus / Itching 0/16 (0.00%)	Adverse Events	9
+pruritus	HP:0000989,GO:0160025	0-8

@@ -1,0 +1,155 @@
+INTERVENTION 1:	Intervention	0
+NKTR-102	Intervention	1
+NKTR-102: 145 mg/m2 NKTR-102 will be delivered q21day as a 90 minute intravenous (IV) infusion on day 1 of each treatment cycle.	Intervention	2
+minute	UO:0000031	62-68
+day	UO:0000033	50-53
+day	UO:0000033	98-101
+INTERVENTION 2:	Intervention	3
+Physician's Treatment of Choice	Intervention	4
+Treatment of Physician's Choice (TPC): One of the following Treatment of Physician Choice will be administered per standard of care:	Intervention	5
+eribulin ixabepilone vinorelbine gemcitabine paclitaxel docetaxel or nab-paclitaxel	Intervention	6
+eribulin	CHEBI:63587	0-8
+ixabepilone	CHEBI:63605	9-20
+vinorelbine	CHEBI:480999	21-32
+gemcitabine	CHEBI:175901	33-44
+paclitaxel	CHEBI:45863	45-55
+paclitaxel	CHEBI:45863	73-83
+Inclusion Criteria (major highlights):	Eligibility	0
+Patient is an adult female with histologically or cytologically confirmed carcinoma of the breast for whom single-agent cytotoxic chemotherapy is indicated	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+adult	EFO:0001272	14-19
+female	PATO:0000383	20-26
+carcinoma	HP:0030731,DOID:305	74-83
+breast	UBERON:0000310	91-97
+Patient can have either measurable or non-measurable disease by RECIST.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+disease	DOID:4,OGMS:0000031	53-60
+Patient has received prior therapy (administered in the neoadjuvant, adjuvant and/or metastatic setting) with an anthracycline, a taxane and capecitabine	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+adjuvant	CHEBI:60809	59-67
+adjuvant	CHEBI:60809	69-77
+anthracycline	CHEBI:48120	113-126
+taxane	CHEBI:36064	130-136
+capecitabine	CHEBI:31348	141-153
+Patient has minimum of 2 and a maximum of 5 prior cytotoxic chemotherapy regimens with the last dose administered within 6 months. A minimum of two chemotherapy regimens had to be for locally recurrent and/or metastatic disease. All therapy received prior to a diagnosis of metastatic disease (eg, neoadjuvant, adjuvant or repeated adjuvant therapy following a second resection) is counted as one regimen.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+recurrent	HP:0031796	192-201
+disease	DOID:4,OGMS:0000031	220-227
+disease	DOID:4,OGMS:0000031	285-292
+adjuvant	CHEBI:60809	301-309
+adjuvant	CHEBI:60809	311-319
+adjuvant	CHEBI:60809	332-340
+second	UO:0000010	361-367
+Patient has Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+group	CHEBI:24433	41-46
+Adequate hematopoietic, liver and kidney functions.	Eligibility	6
+liver	UBERON:0002107	24-29
+kidney	UBERON:0002113	34-40
+Exclusion Criteria (major highlights):	Eligibility	7
+Patient with chemotherapy within 21 days, radiotherapy within 14 days, biological therapy with 14 days, hormonal therapy within 7 days and investigational therapy within 21 days prior to randomization.	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+radiotherapy	OAE:0000235	42-54
+Patient with any major surgery within 28 days prior to randomization.	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+surgery	OAE:0000067	23-30
+Patient with concurrent use of biologic agents for the treatment of cancer including antibodies or any investigational agent(s).	Eligibility	10
+patient	HADO:0000008,OAE:0001817	0-7
+cancer	DOID:162	68-74
+Patient with prior treatment for cancer with a camptothecin derivative.	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+cancer	DOID:162	33-39
+camptothecin	CHEBI:27656	47-59
+Patient with chronic or acute GI disorders resulting in diarrhea of any severity grade; patients who are using chronic anti-diarrheal supportive care to control diarrhea in the 28 days prior to randomization.	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	88-95
+chronic	HP:0011010	13-20
+chronic	HP:0011010	111-118
+acute	HP:0011009,PATO:0000389	24-29
+diarrhea	HP:0002014,DOID:13250	56-64
+diarrhea	HP:0002014,DOID:13250	124-132
+diarrhea	HP:0002014,DOID:13250	161-169
+severity	HP:0012824	72-80
+Patient received pharmacotherapy for hepatitis B or C, tuberculosis or HIV.	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+hepatitis b	DOID:2043	37-48
+tuberculosis	DOID:399	55-67
+Patient with known cirrhosis diagnosed with Child-PUGH Class A or higher liver disease.	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+cirrhosis	HP:0001394	19-28
+liver disease	DOID:409	73-86
+Patient with prior malignancy (other than breast cancer) except for non-melanoma skin cancer and carcinoma in situ (of the cervix or bladder), unless diagnosed and definitively treated more than 5 years prior to randomization.	Eligibility	15
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	42-55
+skin cancer	DOID:4159	81-92
+carcinoma	HP:0030731,DOID:305	97-106
+Patient requiring daily use of oxygen supplementation in the 28 days prior to randomization.	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+Patients with significant cardiovascular impairment.	Eligibility	17
+Outcome Measurement:	Results	0
+Kaplan-Meier Estimate of Overall Survival: Intention to Treat (ITT) Population	Results	1
+Duration of OS was defined as the time from the date of randomisation to the date of death due to any cause. Subjects were followed until their date of death, loss to follow-up, withdrawal of consent for further follow-up for survival, or final database closure. OS was determined using the ITT population which included all subjects randomized into 1 of the 2 treatment arms. Subjects who were lost-to-follow-up or were not known to have died were censored at last date they were shown to be alive. Subjects who did not have any follow-up since the date of randomization were censored at the date of randomization.	Results	2
+duration	PATO:0001309	0-8
+time	PATO:0000165	34-38
+death	OAE:0000632	85-90
+death	OAE:0000632	152-157
+Time frame: 36 Months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: NKTR-102	Results	5
+Arm/Group Description: NKTR-102: 145 mg/m2 NKTR-102 will be delivered q21day as a 90 minute intravenous (IV) infusion on day 1 of each treatment cycle.	Results	6
+minute	UO:0000031	85-91
+day	UO:0000033	73-76
+day	UO:0000033	121-124
+Overall Number of Participants Analyzed: 429	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  12.4        (11.0 to 13.6)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Physician's Treatment of Choice	Results	11
+Arm/Group Description: Treatment of Physician's Choice (TPC): One of the following Treatment of Physician Choice will be administered per standard of care:	Results	12
+eribulin ixabepilone vinorelbine gemcitabine paclitaxel docetaxel or nab-paclitaxel	Results	13
+eribulin	CHEBI:63587	0-8
+ixabepilone	CHEBI:63605	9-20
+vinorelbine	CHEBI:480999	21-32
+gemcitabine	CHEBI:175901	33-44
+paclitaxel	CHEBI:45863	45-55
+paclitaxel	CHEBI:45863	73-83
+Overall Number of Participants Analyzed: 423	Results	14
+Median (95% Confidence Interval)	Results	15
+median	BAO:0002174	0-6
+Unit of Measure: Months  10.3        (9.0 to 11.3)	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 128/425 (30.12%)	Adverse Events	1
+Febrile neutropenia *2/425 (0.47%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia *2/425 (0.47%)	Adverse Events	3
+Pancytopenia *2/425 (0.47%)	Adverse Events	4
+pancytopenia	HP:0001876,DOID:12450	0-12
+Coagulopathy *1/425 (0.24%)	Adverse Events	5
+Idiopathic thrombocytopenic purpura *0/425 (0.00%)	Adverse Events	6
+purpura	HP:0000979,DOID:3326	28-35
+Microangiopathic haemolytic anaemia *1/425 (0.24%)	Adverse Events	7
+Neutropenia *0/425 (0.00%)	Adverse Events	8
+neutropenia	HP:0001875,DOID:1227	0-11
+Pericardial effusion *1/425 (0.24%)	Adverse Events	9
+pericardial effusion	HP:0001698,DOID:118	0-20
+Acute coronary syndrome *1/425 (0.24%)	Adverse Events	10
+acute coronary syndrome	HP:0033678	0-23
+Adverse Events 2:	Adverse Events	11
+Total: 129/406 (31.77%)	Adverse Events	12
+Febrile neutropenia *6/406 (1.48%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	8-19
+Anaemia *0/406 (0.00%)	Adverse Events	14
+Pancytopenia *0/406 (0.00%)	Adverse Events	15
+pancytopenia	HP:0001876,DOID:12450	0-12
+Coagulopathy *0/406 (0.00%)	Adverse Events	16
+Idiopathic thrombocytopenic purpura *1/406 (0.25%)	Adverse Events	17
+purpura	HP:0000979,DOID:3326	28-35
+Microangiopathic haemolytic anaemia *0/406 (0.00%)	Adverse Events	18
+Neutropenia *1/406 (0.25%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	0-11
+Pericardial effusion *1/406 (0.25%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Acute coronary syndrome *0/406 (0.00%)	Adverse Events	21
+acute coronary syndrome	HP:0033678	0-23

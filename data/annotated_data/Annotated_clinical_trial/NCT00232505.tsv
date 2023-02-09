@@ -1,0 +1,202 @@
+INTERVENTION 1:	Intervention	0
+Cetuximab	Intervention	1
+Patients receive cetuximab IV over 60-120 minutes once a week. Treatment repeats every 28 days in the absence of disease progression or unacceptable toxicity. Patients not responding to treatment may cross over to arm II.	Intervention	2
+week	UO:0000034	57-61
+disease	DOID:4,OGMS:0000031	113-120
+cetuximab: Given IV	Intervention	3
+INTERVENTION 2:	Intervention	4
+Cetuximab and Carboplatin After Cetuximab Alone	Intervention	5
+carboplatin	CHEBI:31355	14-25
+Patients from Arm 1 who progressed on cetuximab alone who went on to receive cetuximab + carboplatin	Intervention	6
+carboplatin	CHEBI:31355	89-100
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed breast cancer	Eligibility	1
+breast cancer	DOID:1612	25-38
+Metastatic (stage IV) disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	22-29
+Measurable disease by RECIST criteria	Eligibility	3
+disease	DOID:4,OGMS:0000031	11-18
+Irradiated lesions are not considered measurable disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	49-56
+Central nervous system (CNS) metastases allowed if disease is stable (no evidence of progression)  3 months after local therapy	Eligibility	5
+central nervous system	UBERON:0001017	0-22
+disease	DOID:4,OGMS:0000031	51-58
+stable	HP:0031915	62-68
+No lesions identifiable only by positron emission tomography (PET) scan	Eligibility	6
+positron	CHEBI:30225	32-40
+tomography	BAO:0002525	50-60
+HER2 nonoverexpressing disease by IHC (0 or 1) or non-gene amplified by Fluorescence In Situ Hybridization (FISH)	Eligibility	7
+disease	DOID:4,OGMS:0000031	23-30
+HER2 2+ by IHC allowed	Eligibility	8
+Hormone receptor status:	Eligibility	9
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen receptor-negative and progesterone receptor-negative tumor	Eligibility	10
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	31-43
+Inclusion Criteria	Eligibility	11
+At least 18 years of age	Eligibility	12
+age	PATO:0000011	21-24
+Metastatic breast cancer (Stage IV) with measurable disease by RECIST criteria	Eligibility	13
+breast cancer	DOID:1612	11-24
+disease	DOID:4,OGMS:0000031	52-59
+No more than three prior chemotherapy regimens either in the adjuvant or metastatic setting.	Eligibility	14
+adjuvant	CHEBI:60809	61-69
+Histologically documented (either primary or metastatic site) breast cancer that is estrogen receptor- (ER-) negative, PR-negative, and HER-2 nonoverexpressing by immunohistochemistry (0,1) or non-gene amplified by FISH performed upon the primary tumor or metastatic lesion. HER-2 2+ by immunohistochemistry is usually negative by FISH, and this confirmatory test should be performed when possible, however may participate if fulfill other criteria.	Eligibility	15
+site	BFO:0000029	56-60
+breast cancer	DOID:1612	62-75
+estrogen	CHEBI:50114,BAO:0000760	84-92
+immunohistochemistry	BAO:0000415	163-183
+immunohistochemistry	BAO:0000415	287-307
+Completion of prior chemotherapy at least 3 weeks prior to study entry.	Eligibility	16
+Patients may have received therapy (ies) in the adjuvant or metastatic setting, however must have discontinued prior to entry. Patients may receive concurrent bisphosphonates, however if taking bisphosphonates, bone lesions may not be used for progression or response.	Eligibility	17
+adjuvant	CHEBI:60809	48-56
+Radiation therapy must be completed at least 2 weeks prior to study entry, and radiated lesions may not serve as measurable disease.	Eligibility	18
+disease	DOID:4,OGMS:0000031	124-131
+Patients may have CNS metastases if stable (no evidence of progression) > 3 months after local therapy.	Eligibility	19
+stable	HP:0031915	36-42
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2 and life expectancy of at least 6 months.	Eligibility	20
+group	CHEBI:24433	29-34
+Adequate organ function defined as:absolute neutrophil count (ANC) > 1500/mm3, plts > 100,000/mm3, creatinine clearance >50 mL/min, alanine aminotransferase (ALT) and aspartate aminotransferase (AST) 2.5 x upper limit of normal (ULN) (or 5 x ULN in case of liver metastases); total bilirubin 1.5 mg/dL.	Eligibility	21
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+creatinine clearance	CMO:0000765	99-119
+alanine	CHEBI:16449	132-139
+aspartate	CHEBI:29995	167-176
+x	LABO:0000148	204-205
+x	LABO:0000148	240-241
+liver	UBERON:0002107	257-262
+Tissue block available for EGFR studies is recommended, although will not exclude patients from participating.	Eligibility	22
+tissue	UBERON:0000479	0-6
+Pregnant or lactating women will be excluded. Women of child bearing potential must have documented negative pregnancy test within two weeks of study entry and agree to acceptable birth control during the duration of the study therapy.	Eligibility	23
+excluded	HP:0040285	36-44
+duration	PATO:0001309	205-213
+Signed written informed consent.	Eligibility	24
+Exclusion Criteria	Eligibility	25
+Lesions identifiable only by PET.	Eligibility	26
+More than three prior chemotherapy regimens (including adjuvant). Sequential regimens such as doxorubicin and cyclophosphamide followed by paclitaxel (AC-paclitaxel) are considered one regimen.	Eligibility	27
+adjuvant	CHEBI:60809	55-63
+doxorubicin	CHEBI:28748,BAO:0000639	94-105
+cyclophosphamide	CHEBI:4026	110-126
+paclitaxel	CHEBI:45863	139-149
+paclitaxel	CHEBI:45863	154-164
+Prior therapy which specifically and directly targets the EGFR pathway with therapeutic intent.	Eligibility	28
+Prior platinum agent for metastatic disease. If platinum agent was used adjuvantly, the patient must have had at least 12 months disease-free interval prior to relapse.	Eligibility	29
+platinum	CHEBI:33364	6-14
+platinum	CHEBI:33364	48-56
+disease	DOID:4,OGMS:0000031	36-43
+disease	DOID:4,OGMS:0000031	129-136
+patient	HADO:0000008,OAE:0001817	88-95
+Prior severe infusion reaction to a monoclonal antibody.	Eligibility	30
+severe	HP:0012828	6-12
+monoclonal	BAO:0000503	36-46
+antibody	GO:0042571,BAO:0000502	47-55
+Major medical conditions that might affect study participation (uncontrolled pulmonary, renal, or hepatic dysfunction, uncontrolled infection).	Eligibility	31
+Significant history of uncontrolled cardiac disease; i.e., uncontrolled hypertension, unstable angina, recent myocardial infarction (within prior 6 months), uncontrolled congestive heart failure, and cardiomyopathy that is either symptomatic or asymptomatic but with decreased ejection fraction <45%	Eligibility	32
+history	BFO:0000182	12-19
+disease	DOID:4,OGMS:0000031	44-51
+hypertension	HP:0000822,DOID:10763	72-84
+myocardial infarction	HP:0001658,DOID:5844	110-131
+congestive heart failure	HP:0001635,DOID:6000	170-194
+cardiomyopathy	HP:0001638,DOID:0050700	200-214
+ejection fraction	CMO:0000180	277-294
+Other significant comorbid condition which the investigator feels might compromise effective and safe participation in the study.	Eligibility	33
+condition	PDRO:0000129	27-36
+Inability to comply with the requirements of the study.	Eligibility	34
+Outcome Measurement:	Results	0
+Overall Disease Response Rate	Results	1
+disease	DOID:4,OGMS:0000031	8-15
+rate	BAO:0080019	25-29
+Overall response rate of single agent cetuximab and cetuximab + carboplatin will be measured by radiographic response using Response Evaluation Criteria In Solid Tumors (RECIST) criteria every 8 weeks until subject experiences disease progression. Overall response will be measured as complete response (CR), partial response (PR), stable disease (SD) or progressive disease (PD).Per RECIST v1.0 for target lesions and assessed by CT (spiral): Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Progression, as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions; Stable Disease (SD), neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for disease progression	Results	2
+rate	BAO:0080019	17-21
+carboplatin	CHEBI:31355	64-75
+disease	DOID:4,OGMS:0000031	227-234
+disease	DOID:4,OGMS:0000031	339-346
+disease	DOID:4,OGMS:0000031	367-374
+disease	DOID:4,OGMS:0000031	772-779
+disease	DOID:4,OGMS:0000031	872-879
+stable	HP:0031915	332-338
+stable	HP:0031915	765-771
+progressive	HP:0003676	355-366
+target	BAO:0003064	400-406
+target	BAO:0003064	489-495
+target	BAO:0003064	581-587
+target	BAO:0003064	666-672
+target	BAO:0003064	716-722
+ct	BAO:0002125	212-214
+ct	BAO:0002125	431-433
+diameter	PATO:0001334	569-577
+diameter	PATO:0001334	654-662
+increase	BAO:0001251	619-627
+increase	BAO:0001251	698-706
+increase	BAO:0001251	848-856
+Time frame: 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cetuximab	Results	5
+Arm/Group Description: Patients receive cetuximab IV over 60-120 minutes once a week. Treatment repeats every 28 days in the absence of disease progression or unacceptable toxicity. Patients not responding to treatment may cross over to arm II.	Results	6
+week	UO:0000034	80-84
+disease	DOID:4,OGMS:0000031	136-143
+cetuximab: Given IV	Results	7
+Overall Number of Participants Analyzed: 31	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  Complete response: 0   0.0%	Results	10
+Partial response: 2   6.5%	Results	11
+Stable disease: 3   9.7%	Results	12
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Stable disease > 6 months: 1   3.2%	Results	13
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive disease: 26  83.9%	Results	14
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not evaluable: 0   0.0%	Results	15
+Results 2:	Results	16
+Arm/Group Title: Cetuximab and Carboplatin After Cetuximab Alone	Results	17
+carboplatin	CHEBI:31355	31-42
+Arm/Group Description: Patients from Arm 1 who progressed on cetuximab alone who went on to receive cetuximab + carboplatin	Results	18
+carboplatin	CHEBI:31355	112-123
+Overall Number of Participants Analyzed: 25	Results	19
+Measure Type: Count of Participants	Results	20
+Unit of Measure: Participants  Complete response: 0   0.0%	Results	21
+Partial response: 4  16.0%	Results	22
+Stable disease: 7  28.0%	Results	23
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Stable disease > 6 months: 3  12.0%	Results	24
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive disease: 12  48.0%	Results	25
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Not evaluable: 2   8.0%	Results	26
+Adverse Events 1:	Adverse Events	0
+Total: 3/31 (9.68%)	Adverse Events	1
+Edema: limb * 2/31 (6.45%)	Adverse Events	2
+edema	HP:0000969	0-5
+limb	UBERON:0002101	7-11
+Neutrophils/granulocytes (ANC/AGC) * 0/31 (0.00%)	Adverse Events	3
+Cardiac General - Other (Specify, __) *  [1]0/31 (0.00%)	Adverse Events	4
+Cardiac General - Other (Specify, __) *  [2]0/31 (0.00%)	Adverse Events	5
+Left ventricular diastolic dysfunction * 0/31 (0.00%)	Adverse Events	6
+left ventricular diastolic dysfunction	HP:0025168	0-38
+Supraventricular and nodal arrhythmia - Atrial tachycardia/Paroxysmal Atrial Tachycardia * 0/31 (0.00%)	Adverse Events	7
+arrhythmia	HP:0011675	27-37
+tachycardia	HP:0001649	47-58
+tachycardia	HP:0001649	77-88
+Adverse Events 2:	Adverse Events	8
+Total: 8/25 (32.00%)	Adverse Events	9
+Edema: limb * 1/25 (4.00%)	Adverse Events	10
+edema	HP:0000969	0-5
+limb	UBERON:0002101	7-11
+Neutrophils/granulocytes (ANC/AGC) * 0/25 (0.00%)	Adverse Events	11
+Cardiac General - Other (Specify, __) *  [1]1/25 (4.00%)	Adverse Events	12
+Cardiac General - Other (Specify, __) *  [2]0/25 (0.00%)	Adverse Events	13
+Left ventricular diastolic dysfunction * 1/25 (4.00%)	Adverse Events	14
+left ventricular diastolic dysfunction	HP:0025168	0-38
+Supraventricular and nodal arrhythmia - Atrial tachycardia/Paroxysmal Atrial Tachycardia * 0/25 (0.00%)	Adverse Events	15
+arrhythmia	HP:0011675	27-37
+tachycardia	HP:0001649	47-58
+tachycardia	HP:0001649	77-88

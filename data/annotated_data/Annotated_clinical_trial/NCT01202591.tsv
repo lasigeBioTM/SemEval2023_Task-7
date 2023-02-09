@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+AZD4547 80mg bd Cont + Ex 25mg	Intervention	1
+azd4547	CHEBI:63453	0-7
+80 mg AZD4547 BD continuous + 25 mg exemestane	Intervention	2
+azd4547	CHEBI:63453	6-13
+exemestane	CHEBI:4953	36-46
+INTERVENTION 2:	Intervention	3
+AZD4547 40mg Cont + Ex 25mg	Intervention	4
+azd4547	CHEBI:63453	0-7
+40 mg AZD4547 BD continuous + 25 mg exemestane	Intervention	5
+azd4547	CHEBI:63453	6-13
+exemestane	CHEBI:4953	36-46
+Inclusion Criteria:	Eligibility	0
+Post-menopausal women (either through bilateral oophorectomy or amenorrhoeic for 24 months)	Eligibility	1
+bilateral	HP:0012832	38-47
+Histological confirmation of Breast Cancer with documented ER+ receptor status	Eligibility	2
+breast cancer	DOID:1612	29-42
+receptor	BAO:0000281	63-71
+Safety run-in: Relapsing during/within 12 months of completion of a single regimen of adjuvant endocrine therapy with non-steroidal AI and/ tamoxifen or progression following 1st line endocrine therapy with non-steroidal AL	Eligibility	3
+adjuvant	CHEBI:60809	86-94
+tamoxifen	CHEBI:41774	140-149
+Rand phase IIa: Received at least 1 prior endocrine therapy in the metastatic setting or have relapsed during/ within 6 months of completion of adjuvant endocrine therapy (either non-steroidal AI or tamoxifen or a combination of both). Chemotherapy administered in the adjuvant setting is permitted.	Eligibility	4
+adjuvant	CHEBI:60809	144-152
+adjuvant	CHEBI:60809	269-277
+tamoxifen	CHEBI:41774	199-208
+Rand phase IIa: Mandatory provision of tumour sample to confirm FGFR1 polysomy or gene amplification. At least one measurable lesion that can be accurately assessed by CT/MRI/x-ray at baseline and follow up visits	Eligibility	5
+gene	BAO:0000582	82-86
+Exclusion Criteria:	Eligibility	6
+Prior exposure to exemestane (safety run-in) / fulvestrant (randomized phase IIa), or any agent known to inhibit FGFRs.	Eligibility	7
+exemestane	CHEBI:4953	18-28
+fulvestrant	CHEBI:31638	47-58
+More than 1 prior regimen of chemotherapy for breast cancer	Eligibility	8
+breast cancer	DOID:1612	46-59
+ECG recordings that demonstrate significant abnormalities in cardiac rate, rhythm or conduction	Eligibility	9
+rate	BAO:0080019	27-31
+rate	BAO:0080019	69-73
+History of hypersensitivity to active or inactive excipients of AZD4547 or exemestane (safety run-in ) or fulvestrant (Randomized phase), including castor oil, or drugs with a similar chemical structure or class to AZD4547 or exemestane or fulvestrant.	Eligibility	10
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+active	PATO:0002354	31-37
+active	PATO:0002354	43-49
+inactive	PATO:0002355	41-49
+azd4547	CHEBI:63453	64-71
+azd4547	CHEBI:63453	215-222
+exemestane	CHEBI:4953	75-85
+exemestane	CHEBI:4953	226-236
+fulvestrant	CHEBI:31638	106-117
+fulvestrant	CHEBI:31638	240-251
+castor oil	CHEBI:140618	148-158
+structure	PATO:0000141	193-202
+Randomized phase IIa: bleeding/blood clotting conditions that would prevent the administration of the fulvestrant injection into the buttocks	Eligibility	11
+fulvestrant	CHEBI:31638	102-113
+Outcome Measurement:	Results	0
+Safety and Tolerability in Terms of Number of Patients With Adverse Events (Serious and Non-serious)	Results	1
+[Not Specified]	Results	2
+Time frame: 3 years, 10 months (Adverse events recorded from patient screening to discontinuation plus 28 days safety follow-up).	Results	3
+time	PATO:0000165	0-4
+patient	HADO:0000008,OAE:0001817	61-68
+Results 1:	Results	4
+Arm/Group Title: AZD4547 80mg bd Cont + Ex 25mg	Results	5
+azd4547	CHEBI:63453	17-24
+Arm/Group Description: 80 mg AZD4547 BD continuous + 25 mg exemestane	Results	6
+azd4547	CHEBI:63453	29-36
+exemestane	CHEBI:4953	59-69
+Overall Number of Participants Analyzed: 5	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  5	Results	9
+Results 2:	Results	10
+Arm/Group Title: AZD4547 40mg Cont + Ex 25mg	Results	11
+azd4547	CHEBI:63453	17-24
+Arm/Group Description: 40 mg AZD4547 BD continuous + 25 mg exemestane	Results	12
+azd4547	CHEBI:63453	29-36
+exemestane	CHEBI:4953	59-69
+Overall Number of Participants Analyzed: 5	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: Participants  5	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 2/5 (40.00%)	Adverse Events	1
+ANAEMIA 0/5 (0.00%)	Adverse Events	2
+DIARRHOEA 0/5 (0.00%)	Adverse Events	3
+OESOPHAGEAL ACHALASIA 0/5 (0.00%)	Adverse Events	4
+achalasia	HP:0002571,DOID:9164	12-21
+STOMATITIS 0/5 (0.00%)	Adverse Events	5
+stomatitis	HP:0010280,DOID:9637	0-10
+DEVICE DEPOSIT ISSUE 0/5 (0.00%)	Adverse Events	6
+INFLAMMATION 0/5 (0.00%)	Adverse Events	7
+GAIT DISTURBANCE 0/5 (0.00%)	Adverse Events	8
+gait disturbance	HP:0001288	0-16
+LOWER RESPIRATORY TRACT INFECTION VIRAL 0/5 (0.00%)	Adverse Events	9
+lower respiratory tract	UBERON:0001558	0-23
+respiratory tract infection	HP:0011947	6-33
+NEUTROPENIC SEPSIS 1/5 (20.00%)	Adverse Events	10
+sepsis	HP:0100806	12-18
+PLEURAL INFECTION 1/5 (20.00%)	Adverse Events	11
+PYELONEPHRITIS 0/5 (0.00%)	Adverse Events	12
+pyelonephritis	HP:0012330,DOID:11400	0-14
+Adverse Events 2:	Adverse Events	13
+Total: 2/5 (40.00%)	Adverse Events	14
+ANAEMIA 1/5 (20.00%)	Adverse Events	15
+DIARRHOEA 0/5 (0.00%)	Adverse Events	16
+OESOPHAGEAL ACHALASIA 0/5 (0.00%)	Adverse Events	17
+achalasia	HP:0002571,DOID:9164	12-21
+STOMATITIS 0/5 (0.00%)	Adverse Events	18
+stomatitis	HP:0010280,DOID:9637	0-10
+DEVICE DEPOSIT ISSUE 0/5 (0.00%)	Adverse Events	19
+INFLAMMATION 0/5 (0.00%)	Adverse Events	20
+GAIT DISTURBANCE 0/5 (0.00%)	Adverse Events	21
+gait disturbance	HP:0001288	0-16
+LOWER RESPIRATORY TRACT INFECTION VIRAL 0/5 (0.00%)	Adverse Events	22
+lower respiratory tract	UBERON:0001558	0-23
+respiratory tract infection	HP:0011947	6-33
+NEUTROPENIC SEPSIS 0/5 (0.00%)	Adverse Events	23
+sepsis	HP:0100806	12-18
+PLEURAL INFECTION 0/5 (0.00%)	Adverse Events	24
+PYELONEPHRITIS 0/5 (0.00%)	Adverse Events	25
+pyelonephritis	HP:0012330,DOID:11400	0-14

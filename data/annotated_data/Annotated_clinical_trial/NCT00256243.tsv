@@ -1,0 +1,79 @@
+INTERVENTION 1:	Intervention	0
+Chemotherapy With GM-CSF	Intervention	1
+Doxorubicin and Cyclophosphamide (AC) Followed by Weekly Carboplatin/Paclitaxel with GM-CSF (day 2-6) This regimen consists of intravenous administration of doxorubicin (Adriamycin) followed by cyclophosphamide (Cytoxan) every 14 days for a total of four cycles, unless stable disease or clinical progression is documented. Two weeks after completion of the last dose of AC, weekly Carboplatin/paclitaxel will be given for 3 weeks, followed by 1 week of rest, for a total of 12. Each clinic visit will last approximately 1 hour.	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+doxorubicin	CHEBI:28748,BAO:0000639	157-168
+cyclophosphamide	CHEBI:4026	16-32
+cyclophosphamide	CHEBI:4026	194-210
+day	UO:0000033	93-96
+day	UO:0000033	230-233
+stable	HP:0031915	270-276
+disease	DOID:4,OGMS:0000031	277-284
+week	UO:0000034	50-54
+week	UO:0000034	328-332
+week	UO:0000034	375-379
+week	UO:0000034	425-429
+week	UO:0000034	446-450
+hour	UO:0000032	523-527
+Eligibility Criteria:	Eligibility	0
+Patients must be women with a histologically confirmed diagnosis of locally advanced or inflammatory breast carcinoma. Histologic confirmation shall be by either core needle biopsy or incisional biopsy. Punch biopsy is allowed if invasive breast cancer is documented.	Eligibility	1
+inflammatory breast carcinoma	DOID:6263	88-117
+breast cancer	DOID:1612	239-252
+Patients must meet one of the criteria defined below (indicate one):	Eligibility	2
+a .Selected Stage IIB (T3, N0, M0) or IIIA (T3, N1-2, M0) disease judged primarily unresectable by an experienced breast surgeon; or otherwise deemed appropriate candidates for neoadjuvant treatment.	Eligibility	3
+disease	DOID:4,OGMS:0000031	58-65
+breast	UBERON:0000310	114-120
+b. Stage IIIB (T4, Any N, M0) or (Any T, N3, M0) disease.	Eligibility	4
+t	CHEBI:36371,BAO:0001260	4-5
+t	CHEBI:36371,BAO:0001260	15-16
+t	CHEBI:36371,BAO:0001260	38-39
+disease	DOID:4,OGMS:0000031	49-56
+Physical examination, chest x-ray and any x-rays or scans needed for tumor assessment must be performed within 90 days prior to registration.	Eligibility	5
+physical examination	OAE:0004232	0-20
+chest	UBERON:0001443	22-27
+Patients with the clinical diagnosis of congestive heart failure or angina pectoris are NOT eligible. Patients with hypertension or age > 60 years must have a Multiple Gated Acquisition (MUGA) or echocardiogram scan performed within 90 days prior to registration (indicate not applicable (NA) if no MUGA required) and Left Ventricular Ejection Fraction (LVEF) % must be greater than the institutional lower limit of normal.	Eligibility	6
+congestive heart failure	HP:0001635,DOID:6000	40-64
+angina pectoris	HP:0001681	68-83
+hypertension	HP:0000822,DOID:10763	116-128
+age	PATO:0000011	132-135
+left	HP:0012835	318-322
+ejection fraction	CMO:0000180	335-352
+Patients must have a serum creatinine and bilirubin  the institutional upper limit of normal, and an Serum glutamic oxaloacetic transaminase (SGOT) or Serum glutamic pyruvic transaminase (SGPT)  2x the institutional upper limit of normal. These tests must have been performed within 90 days prior to registration.	Eligibility	7
+creatinine	CHEBI:16737	27-37
+Patients must have an Absolute neutrophil count (ANC) of  1,500/μl and a platelet count of  100,000/μl. These tests must have been performed within 90 days prior to registration.	Eligibility	8
+platelet count	CMO:0000029	73-87
+Patients must have a performance status of 0-2 by Zubrod criteria	Eligibility	9
+Pregnant or nursing women may not participate due to the possibility of fetal harm or of harm to nursing infants from this treatment regimen. Women of reproductive potential may not participate unless they have agreed to use an effective contraceptive method. A urine pregnancy test is required for women of childbearing potential.	Eligibility	10
+urine	UBERON:0001088	262-267
+All patients must be informed of the investigational nature of this study and must sign and give written informed consent in accordance with institutional and federal guidelines.	Eligibility	11
+Outcome Measurement:	Results	0
+Clinical Response Rate	Results	1
+rate	BAO:0080019	18-22
+Clinical response (CR): Normal breast on physical exam. No mass, no thickening, no erythema, no peau d'orange.	Results	2
+breast	UBERON:0000310	31-37
+erythema	HP:0010783	83-91
+peau d'orange	HP:0025533	96-109
+Time frame: 5 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Chemotherapy With GM-CSF	Results	5
+Arm/Group Description: Doxorubicin and Cyclophosphamide (AC) Followed by Weekly Carboplatin/Paclitaxel with GM-CSF (day 2-6) This regimen consists of intravenous administration of doxorubicin (Adriamycin) followed by cyclophosphamide (Cytoxan) every 14 days for a total of four cycles, unless stable disease or clinical progression is documented. Two weeks after completion of the last dose of AC, weekly Carboplatin/paclitaxel will be given for 3 weeks, followed by 1 week of rest, for a total of 12. Each clinic visit will last approximately 1 hour.	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+doxorubicin	CHEBI:28748,BAO:0000639	180-191
+cyclophosphamide	CHEBI:4026	39-55
+cyclophosphamide	CHEBI:4026	217-233
+day	UO:0000033	116-119
+day	UO:0000033	253-256
+stable	HP:0031915	293-299
+disease	DOID:4,OGMS:0000031	300-307
+week	UO:0000034	73-77
+week	UO:0000034	351-355
+week	UO:0000034	398-402
+week	UO:0000034	448-452
+week	UO:0000034	469-473
+hour	UO:0000032	546-550
+Overall Number of Participants Analyzed: 47	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  47 100.0%	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 0/38 (0.00%)	Adverse Events	1

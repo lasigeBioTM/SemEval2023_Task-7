@@ -1,0 +1,179 @@
+INTERVENTION 1:	Intervention	0
+Cyclophosphamide and Capecitabine	Intervention	1
+cyclophosphamide	CHEBI:4026	0-16
+capecitabine	CHEBI:31348	21-33
+cyclophosphamide orally days 1-14 and capecitabine orally days 15-21 for 8 cycles of 21 days each	Intervention	2
+cyclophosphamide	CHEBI:4026	0-16
+capecitabine	CHEBI:31348	38-50
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed stage IV breast cancer	Eligibility	1
+breast cancer	DOID:1612	51-64
+Metastatic disease (M1) OR multiple sites of new disease that is clinically obvious metastatic disease (i.e., multiple sites of new osseous disease)	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	49-56
+disease	DOID:4,OGMS:0000031	95-102
+disease	DOID:4,OGMS:0000031	140-147
+m1	CHEBI:34826	20-22
+Meets 1 of the following criteria:	Eligibility	3
+Measurable disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+Non-measurable disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	15-22
+MUC-1 antigen level > 2 times upper limit of normal AND level has increased by 1.5 times	Eligibility	6
+antigen	CHEBI:59132	6-13
+Must have documented MUC-1 antigen level	Eligibility	7
+antigen	CHEBI:59132	27-34
+Either cancer antigen (CA) 15-3 or CA 27-29 allowed	Eligibility	8
+cancer	DOID:162	7-13
+antigen	CHEBI:59132	14-21
+Must have received at least 1 prior hormonal therapy for metastatic disease (estogen receptor-positive patients only)	Eligibility	9
+disease	DOID:4,OGMS:0000031	68-75
+No symptomatic brain or CNS metastases	Eligibility	10
+brain	UBERON:0000955	15-20
+Previously treated brain or CNS metastasis allowed provided radiotherapy was completed  8 weeks before study entry	Eligibility	11
+brain	UBERON:0000955	19-24
+radiotherapy	OAE:0000235	60-72
+Hormone receptor status:	Eligibility	12
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	13
+PATIENT CHARACTERISTICS:	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	15
+age	PATO:0000011	0-3
+18 and over	Eligibility	16
+Sex	Eligibility	17
+Female	Eligibility	18
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	19
+Not specified	Eligibility	20
+Performance status	Eligibility	21
+Zubrod 0-2	Eligibility	22
+Life expectancy	Eligibility	23
+Not specified	Eligibility	24
+Hematopoietic	Eligibility	25
+No known existing uncontrolled coagulopathy	Eligibility	26
+Hepatic	Eligibility	27
+Not specified	Eligibility	28
+Renal	Eligibility	29
+Creatinine clearance > 40 mL/min	Eligibility	30
+creatinine clearance	CMO:0000765	0-20
+Cardiovascular	Eligibility	31
+No congestive heart failure	Eligibility	32
+congestive heart failure	HP:0001635,DOID:6000	3-27
+No symptomatic coronary artery disease	Eligibility	33
+coronary artery disease	DOID:3393	15-38
+No cardiac arrhythmia not well controlled with medication	Eligibility	34
+arrhythmia	HP:0011675	11-21
+No myocardial infarction within the past 12 months	Eligibility	35
+myocardial infarction	HP:0001658,DOID:5844	3-24
+No other clinically significant cardiac disease	Eligibility	36
+disease	DOID:4,OGMS:0000031	40-47
+Gastrointestinal	Eligibility	37
+Able to take oral medication	Eligibility	38
+No uncontrolled nausea, vomiting, or diarrhea	Eligibility	39
+nausea	HP:0002018	16-22
+vomiting	HP:0002013	24-32
+diarrhea	HP:0002014,DOID:13250	37-45
+No lack of physical integrity of the upper gastrointestinal tract	Eligibility	40
+No malabsorption syndrome	Eligibility	41
+malabsorption	HP:0002024	3-16
+syndrome	DOID:225	17-25
+Other	Eligibility	42
+Not pregnant or nursing	Eligibility	43
+Fertile patients must use effective contraception	Eligibility	44
+No active infection requiring systemic therapy	Eligibility	45
+active	PATO:0002354	3-9
+No prior severe reaction to fluoropyrimidines	Eligibility	46
+severe	HP:0012828	9-15
+No known sensitivity to fluorouracil	Eligibility	47
+No known dihydropyrimidine dehydrogenase deficiency	Eligibility	48
+dihydropyrimidine dehydrogenase deficiency	DOID:14218	9-51
+No other malignancy within the past 5 years except adequately treated basal cell or squamous cell skin cancer or carcinoma in situ of the cervix	Eligibility	49
+skin cancer	DOID:4159	98-109
+carcinoma	HP:0030731,DOID:305	113-122
+PRIOR CONCURRENT THERAPY:	Eligibility	50
+Biologic therapy	Eligibility	51
+No concurrent immunotherapy or biologic therapy for breast cancer	Eligibility	52
+breast cancer	DOID:1612	52-65
+No concurrent gene therapy for breast cancer	Eligibility	53
+gene	BAO:0000582	14-18
+breast cancer	DOID:1612	31-44
+No concurrent filgrastim (G-CSF)	Eligibility	54
+Chemotherapy	Eligibility	55
+At least 14 days since prior chemotherapy and recovered	Eligibility	56
+No more than 2 prior chemotherapy regimens for metastatic disease	Eligibility	57
+disease	DOID:4,OGMS:0000031	58-65
+No prior capecitabine for metastatic disease	Eligibility	58
+capecitabine	CHEBI:31348	9-21
+disease	DOID:4,OGMS:0000031	37-44
+No prior oral cyclophosphamide for metastatic disease	Eligibility	59
+cyclophosphamide	CHEBI:4026	14-30
+disease	DOID:4,OGMS:0000031	46-53
+Prior IV cyclophosphamide allowed	Eligibility	60
+cyclophosphamide	CHEBI:4026	9-25
+No other concurrent chemotherapy for breast cancer	Eligibility	61
+breast cancer	DOID:1612	37-50
+Endocrine therapy	Eligibility	62
+See Disease Characteristics	Eligibility	63
+disease	DOID:4,OGMS:0000031	4-11
+No concurrent hormonal therapy for breast cancer	Eligibility	64
+breast cancer	DOID:1612	35-48
+Radiotherapy	Eligibility	65
+radiotherapy	OAE:0000235	0-12
+See Disease Characteristics	Eligibility	66
+disease	DOID:4,OGMS:0000031	4-11
+At least 14 days since prior radiotherapy to non-CNS disease sites and recovered	Eligibility	67
+radiotherapy	OAE:0000235	29-41
+disease	DOID:4,OGMS:0000031	53-60
+No concurrent radiotherapy for breast cancer	Eligibility	68
+radiotherapy	OAE:0000235	14-26
+breast cancer	DOID:1612	31-44
+Surgery	Eligibility	69
+surgery	OAE:0000067	0-7
+Not specified	Eligibility	70
+Other	Eligibility	71
+Concurrent bisphosphonates allowed	Eligibility	72
+No concurrent full-dose warfarin	Eligibility	73
+warfarin	CHEBI:10033	24-32
+Concurrent prophylactic warfarin ( 1 mg/day) to maintain port patency allowed	Eligibility	74
+warfarin	CHEBI:10033	24-32
+No other concurrent antineoplastic therapy for breast cancer	Eligibility	75
+breast cancer	DOID:1612	47-60
+Outcome Measurement:	Results	0
+Response Rate (Complete and Partial, Confirmed and Unconfirmed)	Results	1
+rate	BAO:0080019	9-13
+Complete Response (CR) is complete disappearance of all measurable and non-measurable disease. No new lesions, no disease related symptoms. Normalization of markers and other abnormal lab values. Partial Response (PR) is greater than or equal to 30% decrease under baseline of the sum of longest diameters of all target measurable lesions. No unequivocal progression of non-measurable disease. No new lesions. Confirmation of CR or PR means a repeat scan at least 4 weeks apart documented before progression or symptomatic deterioration. Progression is 20% increase in sum of longest diameters of target measurable lesions over smallest sum observed and/or unequivocal progression of non-measurable disease and/or appearance of new lesion/site or death due to disease without prior documentation of progression and without symptomatic deterioration. Symptomatic deterioration is global deterioration of health status requiring discontinuation of treatment without objective evidence of progression.	Results	2
+disease	DOID:4,OGMS:0000031	86-93
+disease	DOID:4,OGMS:0000031	114-121
+disease	DOID:4,OGMS:0000031	385-392
+disease	DOID:4,OGMS:0000031	699-706
+disease	DOID:4,OGMS:0000031	760-767
+target	BAO:0003064	313-319
+target	BAO:0003064	597-603
+increase	BAO:0001251	557-565
+death	OAE:0000632	747-752
+health status	HP:0032319	903-916
+Time frame: Patients assessed at least every six weeks while on protocol treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Cyclophosphamide and Capecitabine	Results	5
+cyclophosphamide	CHEBI:4026	17-33
+capecitabine	CHEBI:31348	38-50
+Arm/Group Description: cyclophosphamide orally days 1-14 and capecitabine orally days 15-21 for 8 cycles of 21 days each	Results	6
+cyclophosphamide	CHEBI:4026	23-39
+capecitabine	CHEBI:31348	61-73
+Overall Number of Participants Analyzed: 80	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  29	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 4/95 (4.21%)	Adverse Events	1
+Death not associated with CTCAE term - Death NOS 1/95 (1.05%)	Adverse Events	2
+death	OAE:0000632	0-5
+death	OAE:0000632	39-44
+Death - Disease progression NOS 2/95 (2.11%)	Adverse Events	3
+death	OAE:0000632	0-5
+disease	DOID:4,OGMS:0000031	8-15
+CNS cerebrovascular ischemia 1/95 (1.05%)	Adverse Events	4
+ischemia	DOID:326	20-28

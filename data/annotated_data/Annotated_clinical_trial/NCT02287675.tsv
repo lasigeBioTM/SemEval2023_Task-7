@@ -1,0 +1,101 @@
+INTERVENTION 1:	Intervention	0
+Lymphoseek	Intervention	1
+Lymphoseek (technetium Tc 99m tilmanocept) Injection is indicated for lymphatic mapping with a hand-held gamma counter to assist in the localization of lymph nodes draining a primary tumor site in patients with breast cancer or melanoma and guiding sentinel lymph node biopsy using a hand-held gamma counter in patients with clinically node negative squamous cell carcinoma of the oral cavity.	Intervention	2
+localization	GO:0051179	136-148
+lymph	UBERON:0002391	0-5
+lymph	UBERON:0002391	70-75
+lymph	UBERON:0002391	152-157
+lymph	UBERON:0002391	258-263
+site	BFO:0000029	189-193
+breast cancer	DOID:1612	211-224
+melanoma	HP:0002861,DOID:1909	228-236
+squamous cell carcinoma	HP:0002860,DOID:1749	350-373
+oral cavity	UBERON:0000167	381-392
+INTERVENTION 2:	Intervention	3
+Sulfur Colloid	Intervention	4
+Technetium Tc 99m Sulfur Colloid Injection is a radioactive diagnostic agent indicated for use as follows:	Intervention	5
+diagnostic agent	CHEBI:33295	60-76
+In adults, to assist in the:	Intervention	6
+localization of lymph nodes draining a primary tumor in patients with	Intervention	7
+localization	GO:0051179	0-12
+lymph	UBERON:0002391	16-21
+breast cancer or malignant melanoma when used with a hand-held gamma counter.	Intervention	8
+breast cancer	DOID:1612	0-13
+melanoma	HP:0002861,DOID:1909	27-35
+evaluation of peritoneovenous (LeVeen) shunt patency in adults.	Intervention	9
+Inclusion Criteria:	Eligibility	0
+The subject must be female and 18 years of age or older.	Eligibility	1
+female	PATO:0000383	20-26
+age	PATO:0000011	43-46
+The subject must be a preoperative clinical Tis, T1, T2, T3, T4, as well as clinical N0 and clinical M0 breast cancer	Eligibility	2
+breast cancer	DOID:1612	104-117
+The subject must have a diagnosis of primary breast cancer.	Eligibility	3
+breast cancer	DOID:1612	45-58
+The subject must be a candidate for surgical intervention, either with lumpectomy and SLNB or with mastectomy and SLNB, as the treatment of her breast cancer.	Eligibility	4
+breast cancer	DOID:1612	144-157
+The subject must have an Eastern Cooperative Oncology Group (ECOG) performance status of Grade 0 - 2	Eligibility	5
+group	CHEBI:24433	54-59
+The subject must provide written informed consent with Health Insurance Portability and Accountability Act (HIPAA) authorization before participating in the study	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+The subject has clinical or radiological or pathologic evidence of metastatic cancer, including any abnormal or enlarged clinical palpable lymph nodes or core biopsy/surgical biopsy/fine-needle-aspiration evidence of malignant cell within any lymph nodes.	Eligibility	8
+cancer	DOID:162	78-84
+lymph	UBERON:0002391	139-144
+lymph	UBERON:0002391	243-248
+The subject has a known hypersensitivity to vital blue dye (VBD) in a case where vital blue dye was planned for use during SLNB.	Eligibility	9
+hypersensitivity	GO:0002524,DOID:1205	24-40
+dye	CHEBI:37958	55-58
+dye	CHEBI:37958	92-95
+The subject has a positive pregnancy test or is lactating.	Eligibility	10
+The subject has had prior surgery to the indicated breast or axilla.	Eligibility	11
+surgery	OAE:0000067	26-33
+breast	UBERON:0000310	51-57
+Outcome Measurement:	Results	0
+Injection Site Clearance for Lymphoseek and 99mTc-Sulfur Colloid (SC).	Results	1
+injection site	VO:0000300	0-14
+The rate of injection site clearance is the time from radiotracer injection to peak SLN radioactive level. Injection clearance rates will be determined by planar SPECT imaging and by SPECT/CT. Subjects will undergo standard sequential planar imaging at 30 to 60 seconds intervals until the sentinel lymph node is seen. Once a sentinel node is located, a SPECT/CT will be performed for higher resolution imaging in transaxial, coronal, and sagittal planes.	Results	2
+rate	BAO:0080019	4-8
+rate	BAO:0080019	127-131
+injection site	VO:0000300	12-26
+time	PATO:0000165	44-48
+lymph	UBERON:0002391	299-304
+Time frame: 2 hours	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Lymphoseek	Results	5
+Arm/Group Description: Lymphoseek (technetium Tc 99m tilmanocept) Injection is indicated for lymphatic mapping with a hand-held gamma counter to assist in the localization of lymph nodes draining a primary tumor site in patients with breast cancer or melanoma and guiding sentinel lymph node biopsy using a hand-held gamma counter in patients with clinically node negative squamous cell carcinoma of the oral cavity.	Results	6
+localization	GO:0051179	159-171
+lymph	UBERON:0002391	23-28
+lymph	UBERON:0002391	93-98
+lymph	UBERON:0002391	175-180
+lymph	UBERON:0002391	281-286
+site	BFO:0000029	212-216
+breast cancer	DOID:1612	234-247
+melanoma	HP:0002861,DOID:1909	251-259
+squamous cell carcinoma	HP:0002860,DOID:1749	373-396
+oral cavity	UBERON:0000167	404-415
+Overall Number of Participants Analyzed: 18	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: minutes  1.78         (0.85)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Sulfur Colloid	Results	11
+Arm/Group Description: Technetium Tc 99m Sulfur Colloid Injection is a radioactive diagnostic agent indicated for use as follows:	Results	12
+diagnostic agent	CHEBI:33295	83-99
+In adults, to assist in the:	Results	13
+localization of lymph nodes draining a primary tumor in patients with	Results	14
+localization	GO:0051179	0-12
+lymph	UBERON:0002391	16-21
+breast cancer or malignant melanoma when used with a hand-held gamma counter.	Results	15
+breast cancer	DOID:1612	0-13
+melanoma	HP:0002861,DOID:1909	27-35
+evaluation of peritoneovenous (LeVeen) shunt patency in adults.	Results	16
+Overall Number of Participants Analyzed: 22	Results	17
+Mean (Standard Deviation)	Results	18
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: minutes  0.045         (0.18)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/18 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

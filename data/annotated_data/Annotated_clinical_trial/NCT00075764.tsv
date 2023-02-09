@@ -1,0 +1,203 @@
+INTERVENTION 1:	Intervention	0
+Arm I Anastrozole	Intervention	1
+anastrozole	CHEBI:2704	6-17
+Patients receive oral anastrozole once daily on days 1-28.	Intervention	2
+anastrozole	CHEBI:2704	22-33
+anastrozole: Given orally	Intervention	3
+anastrozole	CHEBI:2704	0-11
+INTERVENTION 2:	Intervention	4
+Arm II Anastrozole and Fulvestrant	Intervention	5
+anastrozole	CHEBI:2704	7-18
+fulvestrant	CHEBI:31638	23-34
+Patients receive oral anastrozole as in arm I. Patients also receive fulvestrant intramuscularly on days 1, 14, and 28 during course 1 and then on day 28 of the subsequent courses.	Intervention	6
+anastrozole	CHEBI:2704	22-33
+fulvestrant	CHEBI:31638	69-80
+day	UO:0000033	100-103
+day	UO:0000033	147-150
+anastrozole: Given orally	Intervention	7
+anastrozole	CHEBI:2704	0-11
+fulvestrant: Given intramuscularly	Intervention	8
+fulvestrant	CHEBI:31638	0-11
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed breast cancer meeting 1 of the following criteria:	Eligibility	1
+breast cancer	DOID:1612	25-38
+Metastatic disease (M1)	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+m1	CHEBI:34826	20-22
+Multiple sites of new disease that is clinically obvious metastatic disease (e.g., multiple sites of new osseous disease)	Eligibility	3
+disease	DOID:4,OGMS:0000031	22-29
+disease	DOID:4,OGMS:0000031	68-75
+disease	DOID:4,OGMS:0000031	113-120
+Measurable or nonmeasurable disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	28-35
+No known brain or CNS metastases	Eligibility	5
+brain	UBERON:0000955	9-14
+Hormone receptor status:	Eligibility	6
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen-receptor positive* AND/OR	Eligibility	7
+Progesterone-receptor positive* NOTE: *Positivity defined as estrogen binding of > 10 fmol/mg cytosol protein by ligand binding assay or positive by immunohistochemistry	Eligibility	8
+estrogen binding	GO:0099130	61-77
+cytosol	GO:0005829	94-101
+protein	CHEBI:36080,BAO:0000175	102-109
+ligand	CHEBI:52214,GO:0005488	113-119
+binding assay	BAO:0002989	120-133
+immunohistochemistry	BAO:0000415	149-169
+PATIENT CHARACTERISTICS:	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	10
+age	PATO:0000011	0-3
+Not specified	Eligibility	11
+Sex	Eligibility	12
+Female	Eligibility	13
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	14
+Postmenopausal, as defined by 1 of the following:	Eligibility	15
+Prior bilateral oophorectomy	Eligibility	16
+bilateral	HP:0012832	6-15
+More than 12 months since last menstrual period with no prior hysterectomy	Eligibility	17
+At least 55 years of age with prior hysterectomy	Eligibility	18
+age	PATO:0000011	21-24
+Under 55 years of age with a prior hysterectomy without oophorectomy and with estradiol and follicle-stimulating hormone levels consistent with menopause	Eligibility	19
+age	PATO:0000011	18-21
+estradiol	CHEBI:23965	78-87
+hormone	CHEBI:24621	113-120
+menopause	GO:0042697	144-153
+Performance status	Eligibility	20
+Zubrod 0-2	Eligibility	21
+Life expectancy	Eligibility	22
+Not specified	Eligibility	23
+Hematopoietic	Eligibility	24
+No bleeding diathesis (e.g., disseminated intravascular coagulation or clotting factor deficiency)	Eligibility	25
+disseminated intravascular coagulation	HP:0005521,DOID:11247	29-67
+Hepatic	Eligibility	26
+INR  1.6	Eligibility	27
+Renal	Eligibility	28
+Not specified	Eligibility	29
+Other	Eligibility	30
+HIV negative	Eligibility	31
+No other malignancy within the past 5 years except adequately treated basal cell or squamous cell skin cancer, carcinoma in situ of the cervix, or adequately treated stage I or II cancer currently in complete remission	Eligibility	32
+skin cancer	DOID:4159	98-109
+carcinoma	HP:0030731,DOID:305	111-120
+cancer	DOID:162	103-109
+cancer	DOID:162	180-186
+PRIOR CONCURRENT THERAPY:	Eligibility	33
+Biologic therapy	Eligibility	34
+No prior immunotherapy for recurrent or metastatic disease	Eligibility	35
+recurrent	HP:0031796	27-36
+disease	DOID:4,OGMS:0000031	51-58
+Chemotherapy	Eligibility	36
+No prior chemotherapy for recurrent or metastatic disease	Eligibility	37
+recurrent	HP:0031796	26-35
+disease	DOID:4,OGMS:0000031	50-57
+More than 12 months since prior adjuvant or neoadjuvant chemotherapy	Eligibility	38
+adjuvant	CHEBI:60809	32-40
+adjuvant	CHEBI:60809	47-55
+No concurrent chemotherapy for malignancy	Eligibility	39
+Endocrine therapy	Eligibility	40
+Prior adjuvant hormonal therapy allowed	Eligibility	41
+adjuvant	CHEBI:60809	6-14
+At least 12 months since prior adjuvant luteinizing hormone-releasing hormone (LHRH) analogues	Eligibility	42
+adjuvant	CHEBI:60809	31-39
+hormone	CHEBI:24621	52-59
+hormone	CHEBI:24621	70-77
+Menstrual periods must not have resumed since LHRH therapy	Eligibility	43
+More than 12 months since prior adjuvant or neoadjuvant aromatase inhibitors (e.g., anastrozole, letrozole, or exemestane)	Eligibility	44
+adjuvant	CHEBI:60809	32-40
+adjuvant	CHEBI:60809	47-55
+anastrozole	CHEBI:2704	84-95
+letrozole	CHEBI:6413	97-106
+exemestane	CHEBI:4953	111-121
+More than 12 months since prior fulvestrant	Eligibility	45
+fulvestrant	CHEBI:31638	32-43
+No prior hormonal therapy for recurrent or metastatic disease	Eligibility	46
+recurrent	HP:0031796	30-39
+disease	DOID:4,OGMS:0000031	54-61
+No other concurrent hormonal therapy for malignancy	Eligibility	47
+No concurrent hormone replacement therapy	Eligibility	48
+hormone	CHEBI:24621	14-21
+Radiotherapy	Eligibility	49
+radiotherapy	OAE:0000235	0-12
+Not specified	Eligibility	50
+Surgery	Eligibility	51
+surgery	OAE:0000067	0-7
+Not specified	Eligibility	52
+Other	Eligibility	53
+No long-term anticoagulant therapy (except antiplatelet therapy)	Eligibility	54
+anticoagulant	CHEBI:50249	13-26
+Outcome Measurement:	Results	0
+Time to Tumor Progression	Results	1
+time	PATO:0000165	0-4
+Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target measurable lesions over the smallest sum observed (over baseline if no decrease during therapy) using the same techniques as baseline. Unequivocal progression of non-measurable disease in the opinion of the treating physician. Appearance of any new lesion/site. Death due to disease without prior documentation of progression and without symptomatic deterioration. From date of randomization to time of first documentation of progression, symptomatic deterioration or death due to any cause. Patients last known to be alive and progression free are considered at last date of contact.	Results	2
+increase	BAO:0001251	107-115
+diameter	PATO:0001334	142-150
+target	BAO:0003064	154-160
+disease	DOID:4,OGMS:0000031	338-345
+disease	DOID:4,OGMS:0000031	436-443
+death	OAE:0000632	423-428
+death	OAE:0000632	629-634
+time	PATO:0000165	556-560
+Time frame: Every 4 weeks while on treatment. Then every 3 months until progression, then six months for two years then annually until four years or until death, which ever occurs first.	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	155-160
+Results 1:	Results	4
+Arm/Group Title: Arm I Anastrozole	Results	5
+anastrozole	CHEBI:2704	23-34
+Arm/Group Description: Patients receive oral anastrozole once daily on days 1-28.	Results	6
+anastrozole	CHEBI:2704	45-56
+anastrozole: Given orally	Results	7
+anastrozole	CHEBI:2704	0-11
+Overall Number of Participants Analyzed: 345	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: months  13.5        (12.1 to 15.1)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm II Anastrozole and Fulvestrant	Results	12
+anastrozole	CHEBI:2704	24-35
+fulvestrant	CHEBI:31638	40-51
+Arm/Group Description: Patients receive oral anastrozole as in arm I. Patients also receive fulvestrant intramuscularly on days 1, 14, and 28 during course 1 and then on day 28 of the subsequent courses.	Results	13
+anastrozole	CHEBI:2704	45-56
+fulvestrant	CHEBI:31638	92-103
+day	UO:0000033	123-126
+day	UO:0000033	170-173
+anastrozole: Given orally	Results	14
+anastrozole	CHEBI:2704	0-11
+fulvestrant: Given intramuscularly	Results	15
+fulvestrant	CHEBI:31638	0-11
+Overall Number of Participants Analyzed: 349	Results	16
+Median (95% Confidence Interval)	Results	17
+median	BAO:0002174	0-6
+Unit of Measure: months  15.0        (13.2 to 18.4)	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 21/337 (6.23%)	Adverse Events	1
+Blood/Bone Marrow-Other 0/337 (0.00%)	Adverse Events	2
+Febrile neutropenia 0/337 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Hemoglobin 2/337 (0.59%)	Adverse Events	4
+hemoglobin	CHEBI:35143	0-10
+Atrioventricular block - 2nd degree Mobitz Type II 0/337 (0.00%)	Adverse Events	5
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Cardiac-ischemia/infarction 1/337 (0.30%)	Adverse Events	6
+Left ventricular diastolic dysfunction 0/337 (0.00%)	Adverse Events	7
+left ventricular diastolic dysfunction	HP:0025168	0-38
+Left ventricular systolic dysfunction 1/337 (0.30%)	Adverse Events	8
+left ventricular systolic dysfunction	HP:0025169	0-37
+Restrictive cardiomyopathy 1/337 (0.30%)	Adverse Events	9
+restrictive cardiomyopathy	HP:0001723,DOID:397	0-26
+Adverse Events 2:	Adverse Events	10
+Total: 48/348 (13.79%)	Adverse Events	11
+Blood/Bone Marrow-Other 1/348 (0.29%)	Adverse Events	12
+Febrile neutropenia 1/348 (0.29%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	8-19
+Hemoglobin 1/348 (0.29%)	Adverse Events	14
+hemoglobin	CHEBI:35143	0-10
+Atrioventricular block - 2nd degree Mobitz Type II 1/348 (0.29%)	Adverse Events	15
+atrioventricular block	HP:0001678,DOID:0050820	0-22
+Cardiac-ischemia/infarction 2/348 (0.57%)	Adverse Events	16
+Left ventricular diastolic dysfunction 1/348 (0.29%)	Adverse Events	17
+left ventricular diastolic dysfunction	HP:0025168	0-38
+Left ventricular systolic dysfunction 0/348 (0.00%)	Adverse Events	18
+left ventricular systolic dysfunction	HP:0025169	0-37
+Restrictive cardiomyopathy 0/348 (0.00%)	Adverse Events	19
+restrictive cardiomyopathy	HP:0001723,DOID:397	0-26

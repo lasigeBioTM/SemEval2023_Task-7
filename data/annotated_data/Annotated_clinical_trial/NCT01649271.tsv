@@ -1,0 +1,78 @@
+INTERVENTION 1:	Intervention	0
+Phase Ia: Afatinib +Trastuzumab 8 mg/kg	Intervention	1
+afatinib	CHEBI:61390	10-18
+In each 21 day treatment cycle, patients were administered orally afatinib tablet from Day 2 continuous daily administration in combination with trastuzumab. An initial loading dose of trastuzumab 8 mg/kg was administered via intravenous infusion at Day1 Cycle1, followed by trastuzumab 6 mg/kg every 3 weeks. Trastuzumab intravenous infusion, 90 minutes, infusion duration could be reduced to 30 minutes if well tolerated.	Intervention	2
+day	UO:0000033	11-14
+day	UO:0000033	87-90
+day	UO:0000033	250-253
+afatinib	CHEBI:61390	66-74
+duration	PATO:0001309	365-373
+Inclusion criteria:	Eligibility	0
+Patients aged 18 years and older	Eligibility	1
+Patients with cancers overexpressing HER2 by Immunohistochemistry test( IHC) 3+ and/or IHC 2+ with positive gene amplification by FISH (confirmation on archived tissue needed)	Eligibility	2
+immunohistochemistry	BAO:0000415	45-65
+gene	BAO:0000582	108-112
+tissue	UBERON:0000479	161-167
+Written informed consent that is consistent with ICH-GCP guidelines.	Eligibility	3
+Patients must be eligible for treatment with trastuzumab.	Eligibility	4
+Patients must have adequate organ function (kidney, liver, bone marrow, cardiac)	Eligibility	5
+organ	UBERON:0000062	28-33
+function	BAO:0003117,BFO:0000034	34-42
+kidney	UBERON:0002113	44-50
+liver	UBERON:0002107	52-57
+bone marrow	UBERON:0002371	59-70
+Eastern Cooperative Oncology Group (ECOG) = 0 or 1.	Eligibility	6
+group	CHEBI:24433	29-34
+Measurable disease according to RECIST 1.1 (Phase Ib).	Eligibility	7
+disease	DOID:4,OGMS:0000031	11-18
+Exclusion criteria:	Eligibility	8
+Active brain metastases.	Eligibility	9
+active	PATO:0002354	0-6
+brain	UBERON:0000955	7-12
+Prior treatment with erbB family targeting therapies within the past four weeks before start of therapy or concomitantly with the trial other than trastuzumab and/or lapatinib.	Eligibility	10
+lapatinib	CHEBI:49603	166-175
+Patients having more than 2 lines of chemotherapy for the treatment of metastatic breast cancer (Phase Ib).	Eligibility	11
+breast cancer	DOID:1612	82-95
+Outcome Measurement:	Results	0
+MTD of Afatinib in Combination With Trastuzumab Based on the Number of Patients With DLTs During the First Treatment Cycle (Afatinib).	Results	1
+mtd	BAO:0001248	0-3
+afatinib	CHEBI:61390	7-15
+afatinib	CHEBI:61390	124-132
+Maximum Tolerated Dose (MTD) of Afatinib in combination with trastuzumab based on the number of patients with dose limiting toxicity (DLT) during the first treatment cycle (Dose escalation part). The MTD was defined as the highest dose studied at which the incidence of a DLT was less than 17% (i.e. 1/6 patients) during the first cycle.	Results	2
+mtd	BAO:0001248	24-27
+mtd	BAO:0001248	200-203
+afatinib	CHEBI:61390	32-40
+One patient in the Afa30+Trast8 cohort developed tumour lysis syndrome during the first course of treatment and was therefore not evaluable for the primary endpoint.	Results	3
+patient	HADO:0000008,OAE:0001817	4-11
+syndrome	DOID:225	62-70
+Time frame: First 21 days treatment cycle	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Phase Ia: Afatinib +Trastuzumab 8 mg/kg	Results	6
+afatinib	CHEBI:61390	27-35
+Arm/Group Description: In each 21 day treatment cycle, patients were administered orally afatinib tablet from Day 2 continuous daily administration in combination with trastuzumab. An initial loading dose of trastuzumab 8 mg/kg was administered via intravenous infusion at Day1 Cycle1, followed by trastuzumab 6 mg/kg every 3 weeks. Trastuzumab intravenous infusion, 90 minutes, infusion duration could be reduced to 30 minutes if well tolerated.	Results	7
+day	UO:0000033	34-37
+day	UO:0000033	110-113
+day	UO:0000033	273-276
+afatinib	CHEBI:61390	89-97
+duration	PATO:0001309	388-396
+Overall Number of Participants Analyzed: 12	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: mg  20	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 4/6 (66.67%)	Adverse Events	1
+Diarrhoea 1/6 (16.67%)	Adverse Events	2
+Chest pain 1/6 (16.67%)	Adverse Events	3
+chest pain	HP:0100749	0-10
+General physical health deterioration 0/6 (0.00%)	Adverse Events	4
+Biliary colic 1/6 (16.67%)	Adverse Events	5
+Clostridium difficile colitis 0/6 (0.00%)	Adverse Events	6
+clostridium difficile colitis	HP:0032168,DOID:0060185	0-29
+Infusion related reaction 1/6 (16.67%)	Adverse Events	7
+Hypokalaemia 0/6 (0.00%)	Adverse Events	8
+Tumour lysis syndrome 0/6 (0.00%)	Adverse Events	9
+syndrome	DOID:225	13-21
+Spinal cord compression 0/6 (0.00%)	Adverse Events	10
+spinal cord compression	HP:0002176	0-23
+Acute kidney injury 0/6 (0.00%)	Adverse Events	11
+acute kidney injury	HP:0001919	0-19

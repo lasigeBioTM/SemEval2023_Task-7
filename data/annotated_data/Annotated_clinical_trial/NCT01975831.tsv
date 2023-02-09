@@ -1,0 +1,256 @@
+INTERVENTION 1:	Intervention	0
+Escalation: 0.3 mg/kg Durva + 3 mg/kg Treme	Intervention	1
+Subjects received durvalumab (0.3 mg/kg Q2W for 13 cycles) and tremelimumab (3 mg/kg Q4W for 6 cycles, then Q12W). Optional extended treatment comprised durvalumab monotherapy administered at the recommended fixed dose of 1500 mg Q4W.	Intervention	2
+Durvalumab and tremelimumab were administered as IV infusions over 60 (± 5) minutes, with durvalumab infusions started at least 60 minutes after the end of the tremelimumab infusion on dual dosing days.	Intervention	3
+INTERVENTION 2:	Intervention	4
+Escalation: 1 mg/kg Durva + 3 mg/kg Treme	Intervention	5
+Subjects received durvalumab (1 mg/kg Q2W for 13 cycles) and tremelimumab (3 mg/kg Q4W for 6 cycles, then Q12W). Optional extended treatment comprised durvalumab monotherapy administered at the recommended fixed dose of 1500 mg Q4W.	Intervention	6
+Durvalumab and tremelimumab were administered as IV infusions over 60 (± 5) minutes, with durvalumab infusions started at least 60 minutes after the end of the tremelimumab infusion on dual dosing days.	Intervention	7
+Inclusion Criteria	Eligibility	0
+Histologically- or cytologically-confirmed ovarian cancer, colorectal cancer, non-triple negative breast cancer, renal cell carcinoma and cervical cancer, with at least one lesion measurable by the immune-related Response Criteria (irRC) not previously irradiated. NOTE: Per Amendment 5, the disease states of non-small cell lung cancer and head and neck cancer were removed from the study and were replaced by non-triple negative breast cancer.	Eligibility	1
+ovarian cancer	DOID:2394	43-57
+colorectal cancer	DOID:9256	59-76
+breast cancer	DOID:1612	98-111
+breast cancer	DOID:1612	431-444
+renal cell carcinoma	HP:0005584,DOID:4450	113-133
+cervical cancer	DOID:4362	138-153
+disease	DOID:4,OGMS:0000031	292-299
+lung cancer	DOID:1324	325-336
+head and neck cancer	DOID:11934	341-361
+Failed to respond to or relapsed following standard treatment or declined or was not eligible for standard treatment.	Eligibility	2
+Eastern Cooperative Oncology Group (ECOG) Performance Status of 0-2.	Eligibility	3
+group	CHEBI:24433	29-34
+Anticipated lifespan greater than 6 months.	Eligibility	4
+At the time of Day 1 of the study, subjects with brain metastases must have been asymptomatic for at least 4 weeks and:	Eligibility	5
+time	PATO:0000165	7-11
+day	UO:0000033	15-18
+brain	UBERON:0000955	49-54
+at least 8 weeks without tumor progression after any whole brain radiotherapy;	Eligibility	6
+brain	UBERON:0000955	59-64
+radiotherapy	OAE:0000235	65-77
+at least 4 weeks since craniotomy and resection or stereotactic radiosurgery;	Eligibility	7
+at least 3 weeks without new brain metastases as evidenced by magnetic resonance imaging (MRI)/computed tomography (CT).	Eligibility	8
+brain	UBERON:0000955	29-34
+tomography	BAO:0002525	104-114
+ct	BAO:0002125	116-118
+Adequate organ and marrow function, as defined below:	Eligibility	9
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	26-34
+hemoglobin  9 g/dL	Eligibility	10
+hemoglobin	CHEBI:35143	0-10
+absolute neutrophil count  1500/mm^3	Eligibility	11
+platelet count  100,000/mm^3	Eligibility	12
+platelet count	CMO:0000029	0-14
+total bilirubin within normal ranges unless associated with hepatobiliary metastases or Gilbert syndrome, then total bilirubin  2 × the upper limit of normal (ULN)	Eligibility	13
+gilbert syndrome	DOID:2739	88-104
+alanine aminotransferase (ALT) and aspartate aminotransferase (AST)  2.5 × ULN unless associated with hepatic metastases, then ALT and AST  5 × ULN	Eligibility	14
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	35-44
+creatinine  2.0 mg/dL	Eligibility	15
+creatinine	CHEBI:16737	0-10
+Have been informed of other treatment options.	Eligibility	16
+Age  18 years.	Eligibility	17
+age	PATO:0000011	0-3
+Able and willing to give valid written informed consent.	Eligibility	18
+Able and willing to give valid written consent for archival tumor samples.	Eligibility	19
+Able and willing to give valid written consent for biopsy samples (subjects with biopsiable tumors, and if clinically appropriate, in the expansion phase only).	Eligibility	20
+Exclusion Criteria	Eligibility	21
+Prior exposure to tremelimumab or durvalumab or other anti-cytotoxic T-lymphocyte-associated antigen-4 (CTLA-4), anti-programmed cell death-1 (PD-1), anti-programmed cell death ligand-1 (PD-L1) antibodies.	Eligibility	22
+cell death	GO:0008219	129-139
+cell death	GO:0008219	166-176
+History of severe allergic reactions to any unknown allergens or any components of the study drugs.	Eligibility	23
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+Active or prior autoimmune disease except for autoimmune thyroiditis or vitiligo.	Eligibility	24
+active	PATO:0002354	0-6
+autoimmune disease	DOID:417	16-34
+autoimmune thyroiditis	DOID:7188	46-68
+vitiligo	HP:0001045,DOID:12306	72-80
+Any prior Grade  3 immune-related adverse event (irAE) or any prior corticosteroid-refractory irAE.	Eligibility	25
+adverse event	OAE:0000001	34-47
+Known active or chronic viral hepatitis or history of any type of hepatitis within the last 6 months.	Eligibility	26
+active	PATO:0002354	6-12
+chronic	HP:0011010	16-23
+viral hepatitis	HP:0006562,DOID:1884	24-39
+history	BFO:0000182	43-50
+hepatitis	HP:0012115,DOID:2237	30-39
+hepatitis	HP:0012115,DOID:2237	66-75
+History of sarcoidosis syndrome.	Eligibility	27
+history	BFO:0000182	0-7
+sarcoidosis	DOID:11335	11-22
+syndrome	DOID:225	23-31
+Active or history of inflammatory bowel disease (colitis, Crohn's), diverticulitis, irritable bowel disease, celiac disease, or other serious, chronic, gastrointestinal conditions associated with diarrhea. Active or history of systemic lupus erythematosus or Wegener's granulomatosis.	Eligibility	28
+active	PATO:0002354	0-6
+active	PATO:0002354	206-212
+history	BFO:0000182	10-17
+history	BFO:0000182	216-223
+inflammatory bowel disease	DOID:0050589	21-47
+colitis	HP:0002583,DOID:0060180	49-56
+diverticulitis	DOID:7475	68-82
+disease	DOID:4,OGMS:0000031	40-47
+disease	DOID:4,OGMS:0000031	100-107
+disease	DOID:4,OGMS:0000031	116-123
+celiac disease	HP:0002608,DOID:10608	109-123
+chronic	HP:0011010	143-150
+diarrhea	HP:0002014,DOID:13250	196-204
+systemic lupus erythematosus	HP:0002725,DOID:9074	227-255
+granulomatosis	HP:0002955	269-283
+Metastatic disease to the central nervous system for which other therapeutic options, including radiotherapy, may have been available.	Eligibility	29
+disease	DOID:4,OGMS:0000031	11-18
+central nervous system	UBERON:0001017	26-48
+radiotherapy	OAE:0000235	96-108
+Known immunodeficiency or active human immunodeficiency virus (HIV).	Eligibility	30
+immunodeficiency	HP:0002721	6-22
+immunodeficiency	HP:0002721	39-55
+active	PATO:0002354	26-32
+virus	BAO:0000232	56-61
+Other active serious illnesses (e.g., serious infections requiring antibiotics).	Eligibility	31
+active	PATO:0002354	6-12
+If a subject previously received investigational treatment, the last dose of investigational treatment was administered within 4 weeks of Day 1 of the study or AE(s) attributable to investigational treatment had not resolved to Grade 1 or better.	Eligibility	32
+day	UO:0000033	138-141
+Major surgical procedure (as defined by the Investigator) within 30 days prior to Day 1 or still recovering from prior surgery.	Eligibility	33
+day	UO:0000033	68-71
+day	UO:0000033	82-85
+surgery	OAE:0000067	119-126
+Mental impairment that may have compromised the ability to give informed consent and comply with the requirements of the study.	Eligibility	34
+Lack of availability for immunological and clinical follow-up assessments.	Eligibility	35
+Women who were breast feeding or pregnant as evidenced by positive serum pregnancy test (minimum sensitivity 25 IU/L or equivalent units of human chorionic gonadotropin [HCG]).	Eligibility	36
+breast	UBERON:0000310	15-21
+chorionic gonadotropin	CHEBI:81570	146-168
+Female subjects of childbearing potential who were sexually active with a non-sterilized male partner must have used at least one highly effective method of contraception from the time of screening and must have agreed to continue using such precautions for 90 days after the last dose of durvalumab or for 6 months after the final dose of durvalumab + tremelimumab (whichever was longer). Non-sterilized male partners of a female subject must have used male condoms plus spermicide throughout this period. Cessation of birth control after this point should have been discussed with a responsible physician. Not engaging in sexual activity for the total duration of the trial and the drug washout period was an acceptable practice; however, periodic abstinence, the rhythm method, and the withdrawal method were not acceptable methods of birth control.	Eligibility	37
+female	PATO:0000383	0-6
+female	PATO:0000383	424-430
+active	PATO:0002354	60-66
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	89-93
+male	CHEBI:30780,PATO:0000384	405-409
+male	CHEBI:30780,PATO:0000384	426-430
+male	CHEBI:30780,PATO:0000384	454-458
+time	PATO:0000165	180-184
+duration	PATO:0001309	654-662
+drug	CHEBI:23888	684-688
+periodic	HP:0025304	741-749
+Female subjects should have also refrained from breastfeeding throughout the period described above.	Eligibility	38
+female	PATO:0000383	0-6
+Females of childbearing potential were defined as those who were not surgically sterile (i.e., bilateral tubal ligation, bilateral oophorectomy, or complete hysterectomy) or post-menopausal.	Eligibility	39
+bilateral	HP:0012832	95-104
+bilateral	HP:0012832	121-130
+Females were considered post-menopausal if they had been amenorrheic for 12 months without an alternative medical cause. The following age-specific requirements applied:	Eligibility	40
+Females <50 years of age were considered post-menopausal if they had been amenorrheic for 12 months or more following cessation of exogenous hormonal treatments and if they had luteinizing hormone and follicle-stimulating hormone levels in the post-menopausal range for the institution or underwent surgical sterilization (bilateral oophorectomy or hysterectomy).	Eligibility	41
+age	PATO:0000011	21-24
+luteinizing hormone	CHEBI:81568	177-196
+hormone	CHEBI:24621	189-196
+hormone	CHEBI:24621	222-229
+range	LABO:0000114	260-265
+bilateral	HP:0012832	323-332
+Females  50 years of age were considered post-menopausal if they had been amenorrheic for 12 months or more following cessation of all exogenous hormonal treatments, had radiation-induced menopause with last menses >1 year ago, had chemotherapy-induced menopause with last menses >1 year ago, or underwent surgical sterilization (bilateral oophorectomy, bilateral salpingectomy or hysterectomy).	Eligibility	42
+age	PATO:0000011	21-24
+menopause	GO:0042697	188-197
+menopause	GO:0042697	253-262
+year	UO:0000036	12-16
+year	UO:0000036	218-222
+year	UO:0000036	283-287
+bilateral	HP:0012832	330-339
+bilateral	HP:0012832	354-363
+Non-sterilized male subjects who were sexually active with a female partner of childbearing potential must have used male condoms plus spermicide from screening through 90 days after the last dose of durvalumab or through 6 months after receipt of the final dose of durvalumab + tremelimumab (whichever was longer). Female partners (of childbearing potential) of a male subject must have used a highly effective method of contraception throughout this period. Cessation of birth control after this point should have been discussed with a responsible physician. Not engaging in sexual activity for the total duration of the trial and the drug washout period was an acceptable practice; however, periodic abstinence, the rhythm method, and the withdrawal method were not acceptable methods of contraception.	Eligibility	43
+male	CHEBI:30780,PATO:0000384	15-19
+male	CHEBI:30780,PATO:0000384	63-67
+male	CHEBI:30780,PATO:0000384	117-121
+male	CHEBI:30780,PATO:0000384	318-322
+male	CHEBI:30780,PATO:0000384	365-369
+active	PATO:0002354	47-53
+female	PATO:0000383	61-67
+female	PATO:0000383	316-322
+duration	PATO:0001309	607-615
+drug	CHEBI:23888	637-641
+periodic	HP:0025304	694-702
+Male subjects should have refrained from sperm donation throughout the period described above.	Eligibility	44
+male	CHEBI:30780,PATO:0000384	0-4
+A highly effective method of contraception was defined as one that resulted in a low failure rate (i.e. less than 1% per year) when used consistently and correctly. Note that some contraception methods were not considered highly effective (e.g., male or female condom with or without spermicide; female cap, diaphragm, or sponge with or without spermicide; non-copper containing intrauterine device; progestogen-only oral hormonal contraceptive pills where inhibition of ovulation is not the primary mode of action [excluding Cerazette/desogestrel which was considered highly effective]; and triphasic combined oral contraceptive pills).	Eligibility	45
+rate	BAO:0080019	93-97
+year	UO:0000036	121-125
+male	CHEBI:30780,PATO:0000384	246-250
+male	CHEBI:30780,PATO:0000384	256-260
+male	CHEBI:30780,PATO:0000384	298-302
+female	PATO:0000383	254-260
+female	PATO:0000383	296-302
+diaphragm	UBERON:0001103	308-317
+inhibition	BAO:0000091	457-467
+ovulation	GO:0030728	471-480
+mode of action	BAO:0000074	500-514
+oral contraceptive	CHEBI:49325	611-629
+Any condition that, in the clinical judgment of the treating physician, was likely to prevent the subject from complying with any aspect of the protocol or that may have put the subject at unacceptable risk.	Eligibility	46
+condition	PDRO:0000129	4-13
+Subjects must not have donated blood while on study and for at least 90 days following the last durvalumab treatment or 6 months after the last tremelimumab treatment, whichever was longer.	Eligibility	47
+blood	UBERON:0000178	31-36
+Outcome Measurement:	Results	0
+Number of Subjects With Treatment-emergent Adverse Events (TEAEs)	Results	1
+Toxicity was graded in accordance with the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE), version 4.03. Adverse events (AEs) were reported based on clinical laboratory tests, vital sign and weight measurements, physical examinations, performance status evaluations, electrocardiograms, magnetic resonance imaging, and any other medically indicated assessments, including subject interviews, from the time informed consent is signed through 90 days after the last dose of study treatment. AEs were considered to be treatment emergent (TEAE) if they occurred or worsened in severity after the first dose of study treatment.	Results	2
+cancer	DOID:162	52-58
+time	PATO:0000165	441-445
+severity	HP:0012824	613-621
+Time frame: Up to 36 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Escalation: 0.3 mg/kg Durva + 3 mg/kg Treme	Results	5
+Arm/Group Description: Subjects received durvalumab (0.3 mg/kg Q2W for 13 cycles) and tremelimumab (3 mg/kg Q4W for 6 cycles, then Q12W). Optional extended treatment comprised durvalumab monotherapy administered at the recommended fixed dose of 1500 mg Q4W.	Results	6
+Durvalumab and tremelimumab were administered as IV infusions over 60 (  5) minutes, with durvalumab infusions started at least 60 minutes after the end of the tremelimumab infusion on dual dosing days.	Results	7
+Overall Number of Participants Analyzed: 3	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  Any TEAE: 3 100.0%	Results	10
+Serious TEAE: 2  66.7%	Results	11
+TEAE leading to treatment discontinuation: 1  33.3%	Results	12
+Results 2:	Results	13
+Arm/Group Title: Escalation: 1 mg/kg Durva + 3 mg/kg Treme	Results	14
+Arm/Group Description: Subjects received durvalumab (1 mg/kg Q2W for 13 cycles) and tremelimumab (3 mg/kg Q4W for 6 cycles, then Q12W). Optional extended treatment comprised durvalumab monotherapy administered at the recommended fixed dose of 1500 mg Q4W.	Results	15
+Durvalumab and tremelimumab were administered as IV infusions over 60 (  5) minutes, with durvalumab infusions started at least 60 minutes after the end of the tremelimumab infusion on dual dosing days.	Results	16
+Overall Number of Participants Analyzed: 11	Results	17
+Measure Type: Count of Participants	Results	18
+Unit of Measure: Participants  Any TEAE: 11 100.0%	Results	19
+Serious TEAE: 5  45.5%	Results	20
+TEAE leading to treatment discontinuation: 4  36.4%	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 2/3 (66.67%)	Adverse Events	1
+Anaemia 0/3 (0.00%)	Adverse Events	2
+Cardiac disorder 0/3 (0.00%)	Adverse Events	3
+disorder	OGMS:0000045	8-16
+Pericardial effusion 0/3 (0.00%)	Adverse Events	4
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus tachycardia 0/3 (0.00%)	Adverse Events	5
+sinus tachycardia	HP:0011703	0-17
+Hypothalamo-pituitary disorder 0/3 (0.00%)	Adverse Events	6
+disorder	OGMS:0000045	22-30
+Nausea 1/3 (33.33%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Abdominal pain 1/3 (33.33%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Small intestinal obstruction 0/3 (0.00%)	Adverse Events	9
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Ascites 0/3 (0.00%)	Adverse Events	10
+ascites	HP:0001541	0-7
+Diarrhoea 1/3 (33.33%)	Adverse Events	11
+Colitis 0/3 (0.00%)	Adverse Events	12
+colitis	HP:0002583,DOID:0060180	0-7
+Abdominal distension 0/3 (0.00%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 5/11 (45.45%)	Adverse Events	15
+Anaemia 0/11 (0.00%)	Adverse Events	16
+Cardiac disorder 0/11 (0.00%)	Adverse Events	17
+disorder	OGMS:0000045	8-16
+Pericardial effusion 0/11 (0.00%)	Adverse Events	18
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus tachycardia 0/11 (0.00%)	Adverse Events	19
+sinus tachycardia	HP:0011703	0-17
+Hypothalamo-pituitary disorder 0/11 (0.00%)	Adverse Events	20
+disorder	OGMS:0000045	22-30
+Nausea 1/11 (9.09%)	Adverse Events	21
+nausea	HP:0002018	0-6
+Abdominal pain 1/11 (9.09%)	Adverse Events	22
+abdominal pain	HP:0002027	0-14
+Small intestinal obstruction 0/11 (0.00%)	Adverse Events	23
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Ascites 0/11 (0.00%)	Adverse Events	24
+ascites	HP:0001541	0-7
+Diarrhoea 0/11 (0.00%)	Adverse Events	25
+Colitis 1/11 (9.09%)	Adverse Events	26
+colitis	HP:0002583,DOID:0060180	0-7

@@ -1,0 +1,158 @@
+INTERVENTION 1:	Intervention	0
+Asian Everolimus + Exemestane	Intervention	1
+everolimus	CHEBI:68478	6-16
+exemestane	CHEBI:4953	19-29
+Everolimus (10 mg) and exemestane (25 mg) tablets taken orally in combination once daily. Participants in Asian countries: Indonesia, India, Vietnam, Turkey, South Korea, Thailand, Malaysia, Taiwan or Jordan.	Intervention	2
+everolimus	CHEBI:68478	0-10
+exemestane	CHEBI:4953	23-33
+INTERVENTION 2:	Intervention	3
+Non-Asian Everolimus + Exemestane	Intervention	4
+everolimus	CHEBI:68478	10-20
+exemestane	CHEBI:4953	23-33
+Everolimus (10 mg) and exemestane (25 mg) tablets taken orally in combination once daily. Participants in Non-Asian countries: Australia, Morocco, South Africa or Tunisia.	Intervention	5
+everolimus	CHEBI:68478	0-10
+exemestane	CHEBI:4953	23-33
+Inclusion Criteria:	Eligibility	0
+Postmenopausal women with metastatic, recurrent or locally advanced breast cancer not amenable to curative treatment by surgery or radiotherapy.	Eligibility	1
+recurrent	HP:0031796	38-47
+breast cancer	DOID:1612	68-81
+surgery	OAE:0000067	120-127
+radiotherapy	OAE:0000235	131-143
+Histological or cytological confirmation of hormone-receptor positive (HR+) breast cancer.	Eligibility	2
+breast cancer	DOID:1612	76-89
+Disease refractory to non-steroidal aromatase inhibitors, defined as:	Eligibility	3
+disease	DOID:4,OGMS:0000031	0-7
+refractory	HP:0031375	8-18
+Recurrence while on, or within 12 months (365 days) of completion of adjuvant therapy with letrozole or anastrozole, or	Eligibility	4
+adjuvant	CHEBI:60809	69-77
+letrozole	CHEBI:6413	91-100
+anastrozole	CHEBI:2704	104-115
+Progression while on, or within one month (30 days) of completion of letrozole or anastrozole treatment for locally advanced or metastatic breast cancer (ABC).	Eligibility	5
+month	UO:0000035	36-41
+letrozole	CHEBI:6413	69-78
+anastrozole	CHEBI:2704	82-93
+breast cancer	DOID:1612	139-152
+Radiological or objective evidence of recurrence or progression on or after the last systemic therapy prior to enrolment.	Eligibility	6
+Patients must have had:	Eligibility	7
+At least one lesion that could have been accurately measured in at least one dimension	Eligibility	8
+20 mm with conventional imaging techniques or  10 mm with spiral CT or MRI, or	Eligibility	9
+ct	BAO:0002125	65-67
+Bone lesions: lytic or mixed (lytic + blastic) in the absence of measurable disease as defined above.	Eligibility	10
+mixed	BAO:0002107	23-28
+disease	DOID:4,OGMS:0000031	76-83
+Adequate bone marrow, coagulation, liver and renal function.	Eligibility	11
+bone marrow	UBERON:0002371	9-20
+coagulation	GO:0050817	22-33
+liver	UBERON:0002107	35-40
+function	BAO:0003117,BFO:0000034	51-59
+ECOG performance status  2.	Eligibility	12
+Exclusion Criteria:	Eligibility	13
+Patients overexpressing HER2 by local laboratory testing (IHC 3+ staining or in situ hybridization positive). Patients with IHC 2+ must have a negative in situ hybridization test.	Eligibility	14
+Patients with only non-measurable lesions other than bone metastasis (e.g. pleural effusion, ascites).	Eligibility	15
+pleural effusion	HP:0002202	75-91
+ascites	HP:0001541	93-100
+Patients with more than one prior chemotherapy line for ABC. A chemotherapy line is an anticancer regimen(s) that contained at least 1 cytotoxic chemotherapy agent, given for a minimum of 21 days.	Eligibility	16
+Previous treatment with mTOR inhibitors.	Eligibility	17
+Known hypersensitivity to mTOR inhibitors, e.g. Sirolimus (rapamycin).	Eligibility	18
+hypersensitivity	GO:0002524,DOID:1205	6-22
+sirolimus	CHEBI:9168	48-57
+Patients with a known history of HIV seropositivity. Screening for HIV infection at baseline was not required.	Eligibility	19
+history	BFO:0000182	22-29
+Patient who were being treated with drugs recognized as being strong inhibitors or inducers of the isoenzyme CYP3A	Eligibility	20
+patient	HADO:0000008,OAE:0001817	0-7
+History of brain or other CNS metastases, including leptomeningeal metastasis.	Eligibility	21
+history	BFO:0000182	0-7
+brain	UBERON:0000955	11-16
+Outcome Measurement:	Results	0
+Summary of Number of Participants With Treatment Emergent Adverse Events (TEAE) - All Grades	Results	1
+Adverse events (AEs), serious adverse events (SAEs), changes from baseline in vital signs and laboratory results (hematology, blood chemistry, lipid profile) qualifying and reported as AEs. Although a patient might had two or more adverse events the patient is only counted once in a category. The same patient might appear in different categories. AESI: Adverse events of special interest.	Results	2
+blood	UBERON:0000178	126-131
+lipid	CHEBI:18059,BAO:0000171	143-148
+patient	HADO:0000008,OAE:0001817	201-208
+patient	HADO:0000008,OAE:0001817	250-257
+patient	HADO:0000008,OAE:0001817	303-310
+Time frame: Baseline up to approximately 43 weeks for Asian countires and 32 weeks for Non-Asian countries including a 30 day post treatment follow up period	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	122-125
+Results 1:	Results	4
+Arm/Group Title: Asian Everolimus + Exemestane	Results	5
+everolimus	CHEBI:68478	23-33
+exemestane	CHEBI:4953	36-46
+Arm/Group Description: Everolimus (10 mg) and exemestane (25 mg) tablets taken orally in combination once daily. Participants in Asian countries: Indonesia, India, Vietnam, Turkey, South Korea, Thailand, Malaysia, Taiwan or Jordan.	Results	6
+everolimus	CHEBI:68478	23-33
+exemestane	CHEBI:4953	46-56
+Overall Number of Participants Analyzed: 199	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  no TEAE: 4   2.0%	Results	9
+at least 1 TEAE: 195  98.0%	Results	10
+at least 1 drug-related TEAE: 185  93.0%	Results	11
+at least 1 serious TEAE (STEAE): 59  29.6%	Results	12
+STEAE leading to death: 6   3.0%	Results	13
+death	OAE:0000632	17-22
+Non-fatal STEAE: 53  26.6%	Results	14
+at least 1 drug-related STEAE: 28  14.1%	Results	15
+at least 1 drug-related STEAE - death: 2   1.0%	Results	16
+death	OAE:0000632	32-37
+at least 1 drug-related non-fatal STEAE: 26  13.1%	Results	17
+TEAE leading to permanent tx discontinuation: 25  12.6%	Results	18
+1 TE AESI: 172  86.4%	Results	19
+Results 2:	Results	20
+Arm/Group Title: Non-Asian Everolimus + Exemestane	Results	21
+everolimus	CHEBI:68478	27-37
+exemestane	CHEBI:4953	40-50
+Arm/Group Description: Everolimus (10 mg) and exemestane (25 mg) tablets taken orally in combination once daily. Participants in Non-Asian countries: Australia, Morocco, South Africa or Tunisia.	Results	22
+everolimus	CHEBI:68478	23-33
+exemestane	CHEBI:4953	46-56
+Overall Number of Participants Analyzed: 36	Results	23
+Measure Type: Count of Participants	Results	24
+Unit of Measure: Participants  no TEAE: 0   0.0%	Results	25
+at least 1 TEAE: 36 100.0%	Results	26
+at least 1 drug-related TEAE: 33  91.7%	Results	27
+at least 1 serious TEAE (STEAE): 16  44.4%	Results	28
+STEAE leading to death: 4  11.1%	Results	29
+death	OAE:0000632	17-22
+Non-fatal STEAE: 12  33.3%	Results	30
+at least 1 drug-related STEAE: 8  22.2%	Results	31
+at least 1 drug-related STEAE - death: 1   2.8%	Results	32
+death	OAE:0000632	32-37
+at least 1 drug-related non-fatal STEAE: 7  19.4%	Results	33
+TEAE leading to permanent tx discontinuation: 11  30.6%	Results	34
+1 TE AESI: 34  94.4%	Results	35
+Adverse Events 1:	Adverse Events	0
+Total: 59/199 (29.65%)	Adverse Events	1
+Anaemia 7/199 (3.52%)	Adverse Events	2
+Thrombocytopenia 2/199 (1.01%)	Adverse Events	3
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 0/199 (0.00%)	Adverse Events	4
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 1/199 (0.50%)	Adverse Events	5
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 1/199 (0.50%)	Adverse Events	6
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 1/199 (0.50%)	Adverse Events	7
+Cardiopulmonary failure 1/199 (0.50%)	Adverse Events	8
+Left ventricular failure 1/199 (0.50%)	Adverse Events	9
+left	HP:0012835	0-4
+Supraventricular tachycardia 0/199 (0.00%)	Adverse Events	10
+supraventricular tachycardia	HP:0004755	0-28
+Ventricular tachycardia 1/199 (0.50%)	Adverse Events	11
+ventricular tachycardia	HP:0004756	0-23
+Adverse Events 2:	Adverse Events	12
+Total: 16/36 (44.44%)	Adverse Events	13
+Anaemia 2/36 (5.56%)	Adverse Events	14
+Thrombocytopenia 1/36 (2.78%)	Adverse Events	15
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 1/36 (2.78%)	Adverse Events	16
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 0/36 (0.00%)	Adverse Events	17
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest 0/36 (0.00%)	Adverse Events	18
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 0/36 (0.00%)	Adverse Events	19
+Cardiopulmonary failure 0/36 (0.00%)	Adverse Events	20
+Left ventricular failure 0/36 (0.00%)	Adverse Events	21
+left	HP:0012835	0-4
+Supraventricular tachycardia 1/36 (2.78%)	Adverse Events	22
+supraventricular tachycardia	HP:0004755	0-28
+Ventricular tachycardia 0/36 (0.00%)	Adverse Events	23
+ventricular tachycardia	HP:0004756	0-23

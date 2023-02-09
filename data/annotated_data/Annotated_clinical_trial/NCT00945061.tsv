@@ -1,0 +1,86 @@
+INTERVENTION 1:	Intervention	0
+Intraoperative Radiation Therapy	Intervention	1
+Patients undergo partial breast irradiation delivered as a single intra-operative radiation dose to the tumor bed.	Intervention	2
+breast	UBERON:0000310	25-31
+INTERVENTION 2:	Intervention	3
+Intracavitary Balloon Brachytherapy	Intervention	4
+Patients undergo partial breast irradiation delivered as MammoSite® brachytherapy consisting of 10 fractions over 5 days.	Intervention	5
+breast	UBERON:0000310	25-31
+Inclusion Criteria:	Eligibility	0
+Patients' recurrences must have histologically confirmed ductal carcinoma in-situ, invasive ductal, medullary, papillary, colloid (mucinous), or tubular histologies.	Eligibility	1
+carcinoma	HP:0030731,DOID:305	64-73
+Lesion size  3 cm treated with a tylectomy and whole breast irradiation (with or without tumor bed boost)	Eligibility	2
+size	PATO:0000117	7-11
+breast	UBERON:0000310	53-59
+Unifocal breast cancer recurrence	Eligibility	3
+breast cancer	DOID:1612	9-22
+Negative resection margins with at least a 2 mm margin from invasive and in situ cancer or a negative re-excision	Eligibility	4
+cancer	DOID:162	81-87
+Hormonal therapy is allowed. If chemotherapy is planned, the radiation is delivered first and chemotherapy must begin no earlier than two weeks following completion of radiation.	Eligibility	5
+Signed study-specific informed consent prior to study entry.	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Patients with distant metastatic disease	Eligibility	8
+disease	DOID:4,OGMS:0000031	33-40
+Patients with invasive lobular carcinoma, extensive lobular carcinoma in-situ, extensive ductal carcinoma in-situ (spanning more than 3 cm), or nonepithelial breast malignancies such as lymphoma or sarcoma.	Eligibility	9
+invasive lobular carcinoma	DOID:3457	14-40
+carcinoma	HP:0030731,DOID:305	31-40
+carcinoma	HP:0030731,DOID:305	60-69
+carcinoma	HP:0030731,DOID:305	96-105
+breast	UBERON:0000310	158-164
+lymphoma	HP:0002665,DOID:0060058	186-194
+sarcoma	HP:0100242,DOID:1115	198-205
+Patients with multicentric carcinoma (tumors in different quadrants of the breast or tumors separated by at least 4 cm). Palpable or radiographically suspicious contralateral axillary, ipsilateral or contralateral supraclavicular, infraclavicular, or internal mammary lymph nodes unless these are histologically or cytologically confirmed negative.	Eligibility	10
+carcinoma	HP:0030731,DOID:305	27-36
+breast	UBERON:0000310	75-81
+lymph	UBERON:0002391	268-273
+Extensive intraductal component (EIC) by the Harvard definition, i.e. 1) more than 25% of the invasive tumor is Ductal carcinoma in situ (DCIS) and DCIS present in adjacent breast tissue. Presence of an EIC increases the chance of local recurrence, and as such, one might not be a candidate for repeat breast conservation.	Eligibility	11
+ductal carcinoma in situ	HP:0030075,DOID:0060074	112-136
+present	PATO:0000467	153-160
+breast	UBERON:0000310	173-179
+breast	UBERON:0000310	302-308
+tissue	UBERON:0000479	180-186
+Patients with Paget's disease of the nipple.	Eligibility	12
+disease	DOID:4,OGMS:0000031	22-29
+Patients with skin involvement.	Eligibility	13
+Patients with collagen vascular disorders, specifically systemic lupus erythematosis, scleroderma, or dermatomyositis.	Eligibility	14
+collagen	CHEBI:3815	14-22
+scleroderma	HP:0100324,DOID:419,DOID:418	86-97
+dermatomyositis	DOID:10223	102-117
+Patients with psychiatric, neurologic, or addictive disorders that would preclude obtaining informed consent.	Eligibility	15
+Other malignancy, except non-melanomatous skin cancer, < 5 years prior to participation in this study.	Eligibility	16
+skin cancer	DOID:4159	42-53
+Patients who are pregnant or lactating due to potential fetal exposure to radiation and unknown effects of radiation on lactating females.	Eligibility	17
+Patients with known BReast CAncer gene (BRCA)1/BRCA 2 mutations.	Eligibility	18
+breast cancer	DOID:1612	20-33
+gene	BAO:0000582	34-38
+Outcome Measurement:	Results	0
+Ipsilateral Breast Tumor Recurrence Rates	Results	1
+breast	UBERON:0000310	12-18
+Percent of participants with Ipsilateral breast tumor recurrence (IBTR). IBTR includes: true recurrence (TR) thought to occur when residual cancer cells grow gradually to detectable size and new primary (NP) thought to be new cancer independently arising in the preserved breast.	Results	2
+percent	UO:0000187	0-7
+breast	UBERON:0000310	41-47
+breast	UBERON:0000310	272-278
+cancer	DOID:162	140-146
+cancer	DOID:162	226-232
+size	PATO:0000117	182-186
+Time frame: 1 month after radiation therapy (RT)	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	14-19
+Results 1:	Results	4
+Arm/Group Title: Intraoperative Radiation Therapy	Results	5
+Arm/Group Description: Patients undergo partial breast irradiation delivered as a single intra-operative radiation dose to the tumor bed.	Results	6
+breast	UBERON:0000310	48-54
+Overall Number of Participants Analyzed: 12	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Intracavitary Balloon Brachytherapy	Results	11
+Arm/Group Description: Patients undergo partial breast irradiation delivered as MammoSite   brachytherapy consisting of 10 fractions over 5 days.	Results	12
+breast	UBERON:0000310	48-54
+Overall Number of Participants Analyzed: 1	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/12 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

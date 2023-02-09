@@ -1,0 +1,308 @@
+INTERVENTION 1:	Intervention	0
+Stratum 1: Eribulin Mesylate + Pembrolizumab	Intervention	1
+eribulin mesylate	CHEBI:70710	11-28
+Participants with mTNBC who were never treated with systemic anticancer therapy in the metastatic setting received eribulin mesylate 1.4 mg/m^2, intravenous infusion on Days 1 and 8 and pembrolizumab 200 mg, intravenous infusion on Day 1 in Treatment Cycle 1 (safety run-in, Phase 1b) and then continued in each 21-days Treatment Cycles in the presence of clinical benefit until confirmed disease progression, development of unacceptable toxicity, participant request, withdrawal of consent, or study termination by the sponsor in Phase 2 in the Stratum 1.	Intervention	2
+eribulin mesylate	CHEBI:70710	115-132
+day	UO:0000033	169-172
+day	UO:0000033	232-235
+day	UO:0000033	315-318
+disease	DOID:4,OGMS:0000031	389-396
+INTERVENTION 2:	Intervention	3
+Stratum 2: Eribulin Mesylate + Pembrolizumab	Intervention	4
+eribulin mesylate	CHEBI:70710	11-28
+Participants with mTNBC previously treated with 1 to 2 lines of systemic anticancer therapy in the metastatic setting received eribulin mesylate 1.4 mg/m^2, intravenous infusion on Days 1 and 8 and pembrolizumab 200 mg, intravenous infusion on Day 1 in Treatment Cycle 1 (safety run-in, Phase 1b) and then continued in each 21-days Treatment Cycles in the presence of clinical benefit until confirmed disease progression, development of unacceptable toxicity, participant request, withdrawal of consent, or study termination by the sponsor in Phase 2 in the Stratum 2.	Intervention	5
+eribulin mesylate	CHEBI:70710	127-144
+day	UO:0000033	181-184
+day	UO:0000033	244-247
+day	UO:0000033	327-330
+disease	DOID:4,OGMS:0000031	401-408
+Inclusion Criteria:	Eligibility	0
+Females or males, aged >=18 years at the time of signing the informed consent form (ICF).	Eligibility	1
+time	PATO:0000165	41-45
+mTNBC (confirmed from most recent tissue sample) meeting the following criteria:	Eligibility	2
+tissue	UBERON:0000479	34-40
+Estrogen receptor (ER) and progesterone receptor negative (a tumor is ER and/or progesterone receptor positive if at least 1 percent (%) of the cells examined have estrogen and/or progesterone receptors) and human epidermal growth factor receptor 2 (HER2) negative (defined as immunohistochemistry [IHC] less than (<) 2+ or fluorescence in situ hybridization [FISH] negative).	Eligibility	3
+estrogen	CHEBI:50114,BAO:0000760	0-8
+estrogen	CHEBI:50114,BAO:0000760	164-172
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	40-48
+receptor	BAO:0000281	93-101
+receptor	BAO:0000281	193-201
+receptor	BAO:0000281	238-246
+progesterone	CHEBI:17026	27-39
+progesterone	CHEBI:17026	80-92
+progesterone	CHEBI:17026	180-192
+percent	UO:0000187	125-132
+growth factor	BAO:0002024	224-237
+immunohistochemistry	BAO:0000415	277-297
+Previously treated with 0 to 2 lines of systemic anticancer therapy (cytotoxic or targeted anticancer agents) in the metastatic setting. Hormonal therapy and bone metastases treatment (example, bisphosphonates, denosumab, etc) are not considered forms of systemic anticancer therapy.	Eligibility	4
+Presence of measurable disease meeting the following criteria:	Eligibility	5
+disease	DOID:4,OGMS:0000031	23-30
+At least 1 lesion of >=10 millimeter (mm) in long axis diameter for nonlymph nodes or >=15 mm in short axis diameter for lymph nodes that is serially measurable according to Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST 1.1) using computerized tomography (CT) or magnetic resonance imaging (MRI) or panoramic and close-up color photography.	Eligibility	6
+millimeter	UO:0000016	26-36
+diameter	PATO:0001334	55-63
+diameter	PATO:0001334	108-116
+lymph	UBERON:0002391	71-76
+lymph	UBERON:0002391	121-126
+tomography	BAO:0002525	263-273
+ct	BAO:0002125	275-277
+color	PATO:0000014	341-346
+Lesions that have had radiotherapy must show subsequent radiographic evidence of increased size to be deemed a target lesion.	Eligibility	7
+radiotherapy	OAE:0000235	22-34
+size	PATO:0000117	91-95
+target	BAO:0003064	111-117
+Life expectancy of >=3 months.	Eligibility	8
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) of 0 or 1.	Eligibility	9
+group	CHEBI:24433	29-34
+Adequate renal function as evidenced by serum creatinine less than or equal to (<=) 1.5 milligram per deciliter (mg/dL) or calculated creatinine clearance >=50 millimeter per minute (mL/min) according to the Cockcroft and Gault formula.	Eligibility	10
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	46-56
+creatinine	CHEBI:16737	134-144
+creatinine clearance	CMO:0000765	134-154
+millimeter	UO:0000016	160-170
+minute	UO:0000031	175-181
+Adequate bone marrow function, defined as:	Eligibility	11
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Absolute neutrophil count (ANC) >=1.5*10^9/L.	Eligibility	12
+Hemoglobin (Hb) >=10.0 gram per deciliter (g/dL) (can be corrected by growth factor or transfusion).	Eligibility	13
+hemoglobin	CHEBI:35143	0-10
+growth factor	BAO:0002024	70-83
+Platelet count >=100*10^9/L.	Eligibility	14
+platelet count	CMO:0000029	0-14
+Adequate liver function, defined as:	Eligibility	15
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Total bilirubin <=1.5*upper limit of normal (ULN).	Eligibility	16
+Alkaline phosphatase (ALP), alanine aminotransferase (ALT), and aspartate aminotransferase (AST) <=3*ULN unless there are bone metastases, in which case liver specific alkaline phosphatase must be separated from the total and used to assess the liver function instead of the total alkaline phosphatase. ALT and AST <= 5*ULN if participant has liver metastases.	Eligibility	17
+phosphatase	GO:0016791,BAO:0000295	9-20
+phosphatase	GO:0016791,BAO:0000295	177-188
+phosphatase	GO:0016791,BAO:0000295	290-301
+alanine	CHEBI:16449	28-35
+aspartate	CHEBI:29995	64-73
+liver	UBERON:0002107	153-158
+liver	UBERON:0002107	245-250
+liver	UBERON:0002107	343-348
+function	BAO:0003117,BFO:0000034	251-259
+Resolution of all chemotherapy-related or radiation-related toxicities to Grade 1 severity or lower, except for stable sensory neuropathy (<= Grade 2) and alopecia.	Eligibility	18
+severity	HP:0012824	82-90
+stable	HP:0031915	112-118
+sensory neuropathy	HP:0000763,DOID:2491	119-137
+alopecia	HP:0001596,DOID:987	155-163
+Archived tissue sample or new biopsy sample.	Eligibility	19
+tissue	UBERON:0000479	9-15
+Females must not be lactating or pregnant at Screening or Baseline (as documented by a negative beta-human chorionic gonadotropin [B-hCG] (or human chorionic gonadotropin [hCG]) test with a minimum sensitivity of 25 International units per litre (IU/L) or equivalent units of B-hCG [or hCG]). A separate baseline assessment is required if a negative screening pregnancy test was obtained more than 72 hours before the first dose of study drug.	Eligibility	20
+chorionic gonadotropin	CHEBI:81570	107-129
+chorionic gonadotropin	CHEBI:81570	148-170
+drug	CHEBI:23888	438-442
+All females will be considered to be of childbearing potential unless they are postmenopausal (amenorrheic for at least 12 consecutive months, in the appropriate age group, and without other known or suspected cause) or have been sterilized surgically (that is, bilateral tubal ligation, total hysterectomy or bilateral oophorectomy, all with surgery at least 1 month before dosing).	Eligibility	21
+age	PATO:0000011	162-165
+group	CHEBI:24433	166-171
+bilateral	HP:0012832	262-271
+bilateral	HP:0012832	310-319
+surgery	OAE:0000067	343-350
+month	UO:0000035	135-140
+month	UO:0000035	362-367
+Females of childbearing potential must not have had unprotected sexual intercourse within 30 days before study entry and must agree to use a highly effective method of contraception (example, total abstinence, an intrauterine device, a double-barrier method [such as condom plus diaphragm with spermicide], a contraceptive implant, a combination oral contraceptive (estrogen/progesterone), or have a vasectomized partner with confirmed azoospermia) throughout the entire study period and for 120 days after study drug discontinuation. If currently abstinent, the participant must agree to use a double barrier method as described above if she becomes sexually active during the study period or for 120 days after study drug discontinuation. Females who are using hormonal contraceptives must have been on a stable dose of the same hormonal contraceptive product for at least 28 days before dosing and must continue to use the same contraceptive during the study and for 120 days after study drug discontinuation.	Eligibility	22
+diaphragm	UBERON:0001103	279-288
+oral contraceptive	CHEBI:49325	346-364
+azoospermia	HP:0000027,DOID:14227	436-447
+drug	CHEBI:23888	513-517
+drug	CHEBI:23888	719-723
+drug	CHEBI:23888	991-995
+active	PATO:0002354	660-666
+stable	HP:0031915	807-813
+product	BAO:0003067	854-861
+Males who have had a successful vasectomy (confirmed azoospermia) or they and their female partners meet the criteria above (that is, not of childbearing potential or practicing highly effective contraception throughout the study period or for 120 days after study drug discontinuation). No sperm donation is allowed during the study period or for 120 days after study drug discontinuation.	Eligibility	23
+azoospermia	HP:0000027,DOID:14227	53-64
+female	PATO:0000383	84-90
+drug	CHEBI:23888	265-269
+drug	CHEBI:23888	369-373
+Willing and able to comply with all aspects of the treatment protocol.	Eligibility	24
+Provide written informed consent.	Eligibility	25
+Exclusion Criteria:	Eligibility	26
+Previous treatment with eribulin mesylate or any anti-programmed death receptor-1 (anti-PD-1), programmed death receptor ligand-1 (PD-L1), or PD-L2 agent.	Eligibility	27
+eribulin mesylate	CHEBI:70710	24-41
+death	OAE:0000632	65-70
+death	OAE:0000632	106-111
+receptor	BAO:0000281	71-79
+receptor	BAO:0000281	112-120
+Active autoimmune disease that has required systemic treatment in the past 2 years (that is, with use of disease modifying agents, corticosteroids, or immunosuppresive drugs). Replacement therapy (example, thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc) is not considered a form of systemic treatment.	Eligibility	28
+active	PATO:0002354	0-6
+autoimmune disease	DOID:417	7-25
+disease	DOID:4,OGMS:0000031	18-25
+disease	DOID:4,OGMS:0000031	105-112
+thyroxine	CHEBI:305790	206-215
+insulin	CHEBI:145810	217-224
+corticosteroid	CHEBI:50858	131-145
+corticosteroid	CHEBI:50858	241-255
+Less than 6 months since prior adjuvant chemotherapy.	Eligibility	29
+adjuvant	CHEBI:60809	31-39
+Current enrollment in another interventional clinical study or used any investigational drug or device within the past 28 days preceding informed consent.	Eligibility	30
+drug	CHEBI:23888	88-92
+Treatment with chemotherapy or biological therapy within the previous 3 weeks, radiation or small molecule targeted therapy within the previous 2 weeks.	Eligibility	31
+small molecule	BAO:0000176	92-106
+Known central nervous system (CNS) disease, except for those participants with treated brain metastasis who are stable for at least 1 month, having no evidence of progression or hemorrhage after treatment and no ongoing requirement for corticosteroids, as ascertained by clinical examination and brain imaging (MRI or CT) during the screening period.	Eligibility	32
+central nervous system	UBERON:0001017	6-28
+disease	DOID:4,OGMS:0000031	35-42
+brain	UBERON:0000955	87-92
+brain	UBERON:0000955	296-301
+stable	HP:0031915	112-118
+month	UO:0000035	134-139
+ct	BAO:0002125	318-320
+Known history of human immunodeficiency virus (HIV) positive.	Eligibility	33
+history	BFO:0000182	6-13
+immunodeficiency	HP:0002721	23-39
+virus	BAO:0000232	40-45
+Known active hepatitis B (example, HBsAg reactive) or hepatitis C (example, hepatitis C virus ribonucleic acid (HCV RNA) detected).	Eligibility	34
+active	PATO:0002354	6-12
+active	PATO:0002354	43-49
+hepatitis b	DOID:2043	13-24
+hepatitis c	DOID:1883	54-65
+hepatitis c	DOID:1883	76-87
+virus	BAO:0000232	88-93
+ribonucleic acid	CHEBI:33697	94-110
+rna	BAO:0000270	116-119
+Existing anticancer treatment-related toxicities of Grades >= 2 (except for alopecia and Grade 2 sensory neuropathy) according to Common Terminology Criteria for Adverse Events (CTCAE v4.03).	Eligibility	35
+alopecia	HP:0001596,DOID:987	76-84
+sensory neuropathy	HP:0000763,DOID:2491	97-115
+Any other malignancy that required treatment or has shown evidence of recurrence (except for nonmelanoma skin cancer, or histologically confirmed complete excision of carcinoma in situ) during the 5 years prior to enrollment in this study.	Eligibility	36
+skin cancer	DOID:4159	105-116
+carcinoma	HP:0030731,DOID:305	167-176
+History of significant cardiovascular disease, defined as:	Eligibility	37
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	38-45
+congestive heart failure greater than New York Heart Association (NYHA) Class II according to the NYHA Functional Classification.	Eligibility	38
+congestive heart failure	HP:0001635,DOID:6000	0-24
+heart	UBERON:0000948	11-16
+heart	UBERON:0000948	47-52
+functional	BAO:0000010	103-113
+unstable angina or myocardial infarction within 6 months of enrollment.	Eligibility	39
+myocardial infarction	HP:0001658,DOID:5844	19-40
+serious cardiac arrhythmia.	Eligibility	40
+arrhythmia	HP:0011675	16-26
+Clinically significant electrocardiogram (ECG) abnormality, including a marked Baseline prolonged QT interval/corrected QT interval ([QT/QTc], example, a repeated demonstration of a QTc interval >500 millisecond [ms]).	Eligibility	41
+prolonged	HP:0025297	88-97
+qt interval	CMO:0000235	98-109
+qt interval	CMO:0000235	120-131
+qtc interval	CMO:0000269	182-194
+millisecond	UO:0000028	200-211
+History of concomitant medical conditions or infectious diseases that, in the opinion of the investigator, would compromise the participant's ability to safely complete the study.	Eligibility	42
+history	BFO:0000182	0-7
+Hypersensitivity to the active substance or any other excipients of the eribulin mesylate drug product, or severe hypersensitivity (>=Grade 3) to pembrolizumab and/or any of its excipients.	Eligibility	43
+hypersensitivity	GO:0002524,DOID:1205	0-16
+hypersensitivity	GO:0002524,DOID:1205	114-130
+active	PATO:0002354	24-30
+eribulin mesylate	CHEBI:70710	72-89
+drug	CHEBI:23888	90-94
+product	BAO:0003067	95-102
+severe	HP:0012828	107-113
+Scheduled for major surgery during the study.	Eligibility	44
+surgery	OAE:0000067	20-27
+Has a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy (in dosing exceeding 10 mg daily of prednisone equivalent) or any other form of immunosuppressive therapy within 7 days prior to the first dose of trial treatment. The use of physiologic doses of corticosteroids may be approved after consultation with the sponsor.	Eligibility	45
+immunodeficiency	HP:0002721	19-35
+chronic	HP:0011010	52-59
+steroid	CHEBI:35341	69-76
+steroid	CHEBI:35341	288-295
+prednisone	CHEBI:8382	121-131
+Has a history of (non-infectious) pneumonitis that required steroids or current pneumonitis.	Eligibility	46
+history	BFO:0000182	6-13
+Has a history of interstitial lung disease.	Eligibility	47
+history	BFO:0000182	6-13
+interstitial lung disease	DOID:3082	17-42
+Has an active infection requiring systemic therapy.	Eligibility	48
+active	PATO:0002354	7-13
+Has received a live-virus vaccination within 30 days of planned start of study therapy. Seasonal flu vaccines that do not contain live virus are permitted.	Eligibility	49
+vaccination	VO:0000002	26-37
+virus	BAO:0000232	20-25
+virus	BAO:0000232	135-140
+The investigator's belief that the participant is medically unfit to receive eribulin mesylate and pembrolizumab or unsuitable for any other reason.	Eligibility	50
+eribulin mesylate	CHEBI:70710	77-94
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR)	Results	1
+rate	BAO:0080019	19-23
+ORR was defined as percentage of participants with confirmed best overall response (BOR) of complete response (CR) or partial response (PR) using independent imaging review (IIR) based on Response Evaluation Criteria in Solid Tumors (RECIST) 1.1. BOR of CR and PR was confirmed by a subsequent CR assessment and CR or PR assessment, respectively at least 4 weeks later. CR: disappearance of all measurable, non-measurable lesions and no unequivocal new lesions. Any pathological lymph nodes (target or non-target) had to be reduced in short axis to less than (<) 10 millimeter (mm). PR: at least a 30 percent (%) decrease in sum of diameters (SOD) of target lesions, taking as reference the baseline SOD and there are no unequivocal new lesions, and no progression of non-target disease. The 2-sided 95% confidence interval (CI) calculated by Clopper-Pearson method. As planned, data up to the primary completion date only were analyzed.	Results	2
+lymph	UBERON:0002391	479-484
+target	BAO:0003064	492-498
+target	BAO:0003064	506-512
+target	BAO:0003064	651-657
+target	BAO:0003064	772-778
+millimeter	UO:0000016	566-576
+percent	UO:0000187	19-26
+percent	UO:0000187	601-608
+disease	DOID:4,OGMS:0000031	779-786
+Time frame: From date of first dose of study drug administration to date of first documentation of disease progression or death, whichever occurred first (up to 3 years 11 months)	Results	3
+time	PATO:0000165	0-4
+drug administration	OAE:0000011	45-64
+disease	DOID:4,OGMS:0000031	99-106
+death	OAE:0000632	122-127
+Results 1:	Results	4
+Arm/Group Title: Stratum 1: Eribulin Mesylate + Pembrolizumab	Results	5
+eribulin mesylate	CHEBI:70710	28-45
+Arm/Group Description: Participants with mTNBC who were never treated with systemic anticancer therapy in the metastatic setting received eribulin mesylate 1.4 mg/m^2, intravenous infusion on Days 1 and 8 and pembrolizumab 200 mg, intravenous infusion on Day 1 in Treatment Cycle 1 (safety run-in, Phase 1b) and then continued in each 21-days Treatment Cycles in the presence of clinical benefit until confirmed disease progression, development of unacceptable toxicity, participant request, withdrawal of consent, or study termination by the sponsor in Phase 2 in the Stratum 1.	Results	6
+eribulin mesylate	CHEBI:70710	138-155
+day	UO:0000033	192-195
+day	UO:0000033	255-258
+day	UO:0000033	338-341
+disease	DOID:4,OGMS:0000031	412-419
+Overall Number of Participants Analyzed: 66	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participant  25.8        (15.8 to 38.0)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Stratum 2: Eribulin Mesylate + Pembrolizumab	Results	11
+eribulin mesylate	CHEBI:70710	28-45
+Arm/Group Description: Participants with mTNBC previously treated with 1 to 2 lines of systemic anticancer therapy in the metastatic setting received eribulin mesylate 1.4 mg/m^2, intravenous infusion on Days 1 and 8 and pembrolizumab 200 mg, intravenous infusion on Day 1 in Treatment Cycle 1 (safety run-in, Phase 1b) and then continued in each 21-days Treatment Cycles in the presence of clinical benefit until confirmed disease progression, development of unacceptable toxicity, participant request, withdrawal of consent, or study termination by the sponsor in Phase 2 in the Stratum 2.	Results	12
+eribulin mesylate	CHEBI:70710	150-167
+day	UO:0000033	204-207
+day	UO:0000033	267-270
+day	UO:0000033	350-353
+disease	DOID:4,OGMS:0000031	424-431
+Overall Number of Participants Analyzed: 101	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participant  21.8        (14.2 to 31.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 30/66 (45.45%)	Adverse Events	1
+Anaemia 1/66 (1.52%)	Adverse Events	2
+Febrile neutropenia 1/66 (1.52%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 2/66 (3.03%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Cardiac arrest 1/66 (1.52%)	Adverse Events	5
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Pericardial effusion 0/66 (0.00%)	Adverse Events	6
+pericardial effusion	HP:0001698,DOID:118	0-20
+Adrenal insufficiency 1/66 (1.52%)	Adverse Events	7
+adrenal insufficiency	HP:0000846	0-21
+Retinal detachment 0/66 (0.00%)	Adverse Events	8
+retinal detachment	HP:0000541,DOID:5327	0-18
+Abdominal pain upper 1/66 (1.52%)	Adverse Events	9
+abdominal pain	HP:0002027	0-14
+Colitis 1/66 (1.52%)	Adverse Events	10
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 0/66 (0.00%)	Adverse Events	11
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 1/66 (1.52%)	Adverse Events	12
+Duodenal ulcer 0/66 (0.00%)	Adverse Events	13
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Adverse Events 2:	Adverse Events	14
+Total: 57/101 (56.44%)	Adverse Events	15
+Anaemia 1/101 (0.99%)	Adverse Events	16
+Febrile neutropenia 3/101 (2.97%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 3/101 (2.97%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Cardiac arrest 0/101 (0.00%)	Adverse Events	19
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Pericardial effusion 1/101 (0.99%)	Adverse Events	20
+pericardial effusion	HP:0001698,DOID:118	0-20
+Adrenal insufficiency 1/101 (0.99%)	Adverse Events	21
+adrenal insufficiency	HP:0000846	0-21
+Retinal detachment 1/101 (0.99%)	Adverse Events	22
+retinal detachment	HP:0000541,DOID:5327	0-18
+Abdominal pain upper 0/101 (0.00%)	Adverse Events	23
+abdominal pain	HP:0002027	0-14
+Colitis 1/101 (0.99%)	Adverse Events	24
+colitis	HP:0002583,DOID:0060180	0-7
+Constipation 1/101 (0.99%)	Adverse Events	25
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhoea 0/101 (0.00%)	Adverse Events	26

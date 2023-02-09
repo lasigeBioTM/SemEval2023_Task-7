@@ -1,0 +1,106 @@
+INTERVENTION 1:	Intervention	0
+Arm 1: Option Grid	Intervention	1
+Patients in this arm will receive the Option Grid for breast cancer surgery, an encounter decision aid, when they first meet with the breast surgeon to discuss their surgical options for breast cancer treatment.	Intervention	2
+breast cancer	DOID:1612	54-67
+breast cancer	DOID:1612	187-200
+surgery	OAE:0000067	68-75
+breast	UBERON:0000310	54-60
+breast	UBERON:0000310	134-140
+breast	UBERON:0000310	187-193
+Option Grid: The Option Grid(TM) encounter decision aid for early stage breast cancer surgery is a one-page, evidence-based summary of available options presented in a tabular format.	Intervention	3
+tm	CHEBI:19226,BAO:0000581	29-31
+breast cancer	DOID:1612	72-85
+surgery	OAE:0000067	86-93
+INTERVENTION 2:	Intervention	4
+Arm 2: Picture Option Grid	Intervention	5
+Patients in this arm will receive the Picture Option Grid for breast cancer surgery, an encounter decision aid, when they first meet with the breast surgeon to discuss their surgical options for breast cancer treatment.	Intervention	6
+breast cancer	DOID:1612	62-75
+breast cancer	DOID:1612	195-208
+surgery	OAE:0000067	76-83
+breast	UBERON:0000310	62-68
+breast	UBERON:0000310	142-148
+breast	UBERON:0000310	195-201
+Picture Option Grid: The Picture Option Grid was derived from the Option Grid for early stage breast cancer. It uses the same evidence and integrates images and simpler text, thus exploiting pictorial superiority. The Picture Option Grid has been specifically designed for women of lower SES and low health literacy.	Intervention	7
+breast cancer	DOID:1612	94-107
+Inclusion Criteria:	Eligibility	0
+Assigned female at birth;	Eligibility	1
+female	PATO:0000383	9-15
+18 years and older;	Eligibility	2
+Confirmed diagnosis (via biopsy) of early stage breast cancer (stages I-IIIA);	Eligibility	3
+breast cancer	DOID:1612	48-61
+Eligible for both breast-conserving surgery and mastectomy based on medical records and clinician's opinion before surgery;	Eligibility	4
+surgery	OAE:0000067	36-43
+surgery	OAE:0000067	115-122
+Spoken English, Spanish, or Mandarin Chinese.	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Transgender men and women;	Eligibility	7
+Women who have undergone prophylactic mastectomy;	Eligibility	8
+Women with visual impairment;	Eligibility	9
+visual impairment	HP:0000505,DOID:1432	11-28
+Women with a diagnosis of severe mental illness or severe dementia;	Eligibility	10
+severe	HP:0012828	26-32
+severe	HP:0012828	51-57
+dementia	HP:0000726,DOID:1307	58-66
+Women with inflammatory breast carcinoma.	Eligibility	11
+inflammatory breast carcinoma	DOID:6263	11-40
+Outcome Measurement:	Results	0
+Change in Decision Quality: Knowledge Subscale	Results	1
+quality	BAO:0002928,BFO:0000019	19-26
+Change in decision quality, measured using the validated 16-item Decision Quality Worksheet for Breast Cancer Surgery. Decision quality is measured through three constructs: knowledge, decision process, and concordance. Knowledge is five questions that results in a score from 0 to 5 with higher numbers indicating higher knowledge. Decision process is a measure how much shared decision making process occurred, based on patient-report. It is a seven-item scale with higher numbers indicating higher shared decision process. For the concordance score, patients rated their goals and concerns on an 11-point importance scale from 0 (not important at all) to 10 (extremely important). They also indicated which surgery they intended to have at T2. A concordance summary score (0-100%) indicated the percentage of patients who received a treatment that matched their stated preference.	Results	2
+quality	BAO:0002928,BFO:0000019	19-26
+quality	BAO:0002928,BFO:0000019	74-81
+quality	BAO:0002928,BFO:0000019	128-135
+breast cancer	DOID:1612	96-109
+surgery	OAE:0000067	110-117
+surgery	OAE:0000067	710-717
+process	BFO:0000015	194-201
+process	BFO:0000015	342-349
+process	BFO:0000015	395-402
+process	BFO:0000015	517-524
+Time frame: Immediately before the index surgical consultation visit, immediately after the index surgical consultation visit and at one week post-surgery	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	137-141
+Results 1:	Results	4
+Arm/Group Title: Arm 1: Option Grid	Results	5
+Arm/Group Description: Patients in this arm will receive the Option Grid for breast cancer surgery, an encounter decision aid, when they first meet with the breast surgeon to discuss their surgical options for breast cancer treatment.	Results	6
+breast cancer	DOID:1612	77-90
+breast cancer	DOID:1612	210-223
+surgery	OAE:0000067	91-98
+breast	UBERON:0000310	77-83
+breast	UBERON:0000310	157-163
+breast	UBERON:0000310	210-216
+Option Grid: The Option Grid(TM) encounter decision aid for early stage breast cancer surgery is a one-page, evidence-based summary of available options presented in a tabular format.	Results	7
+tm	CHEBI:19226,BAO:0000581	29-31
+breast cancer	DOID:1612	72-85
+surgery	OAE:0000067	86-93
+Overall Number of Participants Analyzed: 66	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: score on a scale  Immediately before the index surgical consultation visit: 2.83         (1.29)	Results	10
+Immediately after the index surgical consultation visit: 2.82         (1.13)	Results	11
+One week post-surgery: 3.00         (1.11)	Results	12
+week	UO:0000034	4-8
+Results 2:	Results	13
+Arm/Group Title: Arm 2: Picture Option Grid	Results	14
+Arm/Group Description: Patients in this arm will receive the Picture Option Grid for breast cancer surgery, an encounter decision aid, when they first meet with the breast surgeon to discuss their surgical options for breast cancer treatment.	Results	15
+breast cancer	DOID:1612	85-98
+breast cancer	DOID:1612	218-231
+surgery	OAE:0000067	99-106
+breast	UBERON:0000310	85-91
+breast	UBERON:0000310	165-171
+breast	UBERON:0000310	218-224
+Picture Option Grid: The Picture Option Grid was derived from the Option Grid for early stage breast cancer. It uses the same evidence and integrates images and simpler text, thus exploiting pictorial superiority. The Picture Option Grid has been specifically designed for women of lower SES and low health literacy.	Results	16
+breast cancer	DOID:1612	94-107
+Overall Number of Participants Analyzed: 248	Results	17
+Mean (Standard Deviation)	Results	18
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: score on a scale  Immediately before the index surgical consultation visit: 2.95         (1.22)	Results	19
+Immediately after the index surgical consultation visit: 2.90         (1.07)	Results	20
+One week post-surgery: 2.88         (1.05)	Results	21
+week	UO:0000034	4-8
+Adverse Events 1:	Adverse Events	0
+Total: 0/66 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/248 (0.00%)	Adverse Events	3

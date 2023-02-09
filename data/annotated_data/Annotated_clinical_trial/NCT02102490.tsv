@@ -1,0 +1,84 @@
+INTERVENTION 1:	Intervention	0
+Abemaciclib	Intervention	1
+200 mg abemaciclib given orally once every 12 hours for 28 days (1 cycle). Participants may continue to receive treatment until discontinuation criteria are met.	Intervention	2
+Inclusion Criteria.	Eligibility	0
+Have a diagnosis of Hormone Receptor Positive (HR+), Human Epidermal Growth Factor Receptor 2 Negative (HER2-) breast cancer.	Eligibility	1
+hormone	CHEBI:24621	20-27
+receptor	BAO:0000281	28-36
+receptor	BAO:0000281	83-91
+growth factor	BAO:0002024	69-82
+breast cancer	DOID:1612	111-124
+Recurrent, locally advanced, unresectable or metastatic breast cancer with disease progression following anti-estrogen therapy.	Eligibility	2
+recurrent	HP:0031796	0-9
+breast cancer	DOID:1612	56-69
+disease	DOID:4,OGMS:0000031	75-82
+anti-estrogen	CHEBI:50751	105-118
+Prior treatment with at least 2 chemotherapy regimens:	Eligibility	3
+At least 1 of these regimens must have been administered in the metastatic setting.	Eligibility	4
+At least 1 of these regimens must have contained a taxane.	Eligibility	5
+taxane	CHEBI:36064	51-57
+No more than 2 prior chemotherapy regimens in the metastatic setting.	Eligibility	6
+Have a performance status (PS) of 0 to 1 on the Eastern Cooperative Oncology Group scale.	Eligibility	7
+group	CHEBI:24433	77-82
+Have discontinued all previous therapies for cancer.	Eligibility	8
+cancer	DOID:162	45-51
+Have the presence of measureable disease as defined by Response Evaluation Criteria in Solid Tumors Version 1.1.	Eligibility	9
+disease	DOID:4,OGMS:0000031	33-40
+Exclusion Criteria:	Eligibility	10
+Have either a history of central nervous system (CNS) metastasis or evidence of CNS metastasis on the magnetic resonance image of brain obtained at baseline.	Eligibility	11
+history	BFO:0000182	14-21
+central nervous system	UBERON:0001017	25-47
+brain	UBERON:0000955	130-135
+Received prior therapy with another cyclin-dependent kinases 4 and 6 (CDK4/6) inhibitor.	Eligibility	12
+inhibitor	CHEBI:35222	78-87
+Have received treatment with a drug that has not received regulatory approval for any indication within 14 or 21 days of the initial dose of study drug.	Eligibility	13
+drug	CHEBI:23888	31-35
+drug	CHEBI:23888	147-151
+Have had major surgery within 14 days of the initial dose of study drug.	Eligibility	14
+surgery	OAE:0000067	15-22
+drug	CHEBI:23888	67-71
+Have a history of any other cancer (except non-melanoma skin cancer or carcinoma in-situ of the cervix).	Eligibility	15
+history	BFO:0000182	7-14
+cancer	DOID:162	28-34
+cancer	DOID:162	61-67
+skin cancer	DOID:4159	56-67
+carcinoma	HP:0030731,DOID:305	71-80
+Outcome Measurement:	Results	0
+Percentage of Participants With Complete Response (CR) or Partial Response (PR) (Objective Response Rate [ORR])	Results	1
+rate	BAO:0080019	100-104
+ORR was the percentage of participants achieving a best overall response (BOR) of complete response (CR) or partial response (PR) as per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1. CR defined as the disappearance of all target and non-target lesions and no appearance of new lesions. PR defined as at least a 30% decrease in the sum of the longest diameters (LD) of target lesions (taking as reference the baseline sum LD), no progression of non-target lesions, and no appearance of new lesions.	Results	2
+target	BAO:0003064	236-242
+target	BAO:0003064	251-257
+target	BAO:0003064	382-388
+target	BAO:0003064	462-468
+Time frame: From Date of First Dose until Disease Progression or Death Due to Any Cause (Up To 14 Months)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	42-49
+death	OAE:0000632	65-70
+Results 1:	Results	4
+Arm/Group Title: Abemaciclib	Results	5
+Arm/Group Description: 200 mg abemaciclib given orally once every 12 hours for 28 days (1 cycle). Participants may continue to receive treatment until discontinuation criteria are met.	Results	6
+Overall Number of Participants Analyzed: 132	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  19.7        (13.3 to 27.5)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 33/132 (25.00%)	Adverse Events	1
+Febrile neutropenia 1/132 (0.76%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Haematotoxicity 1/132 (0.76%)	Adverse Events	3
+Neutropenia 1/132 (0.76%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Sinus bradycardia 1/132 (0.76%)	Adverse Events	5
+sinus bradycardia	HP:0001688	0-17
+Tachycardia 1/132 (0.76%)	Adverse Events	6
+tachycardia	HP:0001649	0-11
+Abdominal pain 2/132 (1.52%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+Abdominal pain upper 1/132 (0.76%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Constipation 1/132 (0.76%)	Adverse Events	9
+constipation	HP:0002019,DOID:2089	0-12
+Large intestinal obstruction 1/132 (0.76%)	Adverse Events	10
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Nausea 3/132 (2.27%)	Adverse Events	11
+nausea	HP:0002018	0-6

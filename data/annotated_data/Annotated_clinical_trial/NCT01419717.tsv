@@ -1,0 +1,69 @@
+INTERVENTION 1:	Intervention	0
+Denosumab	Intervention	1
+Participants received 120 milligrams of denosumab injected subcutaneously every 4 weeks until denosumab was approved and available for sale.	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Subject was previously enrolled in a denosumab phase 3 study and participated in the Open-label Extension portion of that study.	Eligibility	1
+Subject or subject's legally acceptable representative has provided informed consent.	Eligibility	2
+Exclusion Criteria:	Eligibility	3
+Subject is of child bearing potential and planning to become pregnant within 7 months after the end of treatment.	Eligibility	4
+Subject is of child bearing potential and is not willing to use, in combination with her partner, two highly effective methods of contraception during treatment and for 7 months after the end of treatment.	Eligibility	5
+Subject has known sensitivity to any of the products to be administered during dosing.	Eligibility	6
+Subject will not be available for protocol required study visits or procedures, to the best of the subject and investigator's knowledge.	Eligibility	7
+Subject has any kind of disorder that, in the opinion of the investigator, may compromise the ability of the subject to give written informed consent and/or to comply with all required study procedures.	Eligibility	8
+disorder	OGMS:0000045	24-32
+Outcome Measurement:	Results	0
+Number of Participants With Adverse Events	Results	1
+An adverse event (AE) is defined as any untoward medical occurrence in a clinical trial participant. The event does not necessarily have a causal relationship with study treatment.	Results	2
+adverse event	OAE:0000001	3-16
+Each AE was graded for severity according to the Common Terminology Criteria for Adverse Events (CTCAE) version 3.0, where Grade 1 = Mild AE Grade 2 = Moderate AE Grade 3 = Severe AE Grade 4 = Life-threatening or disabling AE Grade 5 = Death related to AE. Treatment-related adverse events (TRAEs) includes events for which the investigator indicated there was a reasonable possibility they may have been caused by investigational product.	Results	3
+severity	HP:0012824	23-31
+mild	HP:0012825	133-137
+moderate	HP:0012826	151-159
+severe	HP:0012828	173-179
+death	OAE:0000632	236-241
+product	BAO:0003067	431-438
+Time frame: From first dose of denosumab in Study 20110113 to end of study; median (minimum, maximum) time on study was 13.93 (0.0, 74.7) months.	Results	4
+time	PATO:0000165	0-4
+time	PATO:0000165	102-106
+median	BAO:0002174	76-82
+Results 1:	Results	5
+Arm/Group Title: Denosumab	Results	6
+Arm/Group Description: Participants received 120 milligrams of denosumab injected subcutaneously every 4 weeks until denosumab was approved and available for sale.	Results	7
+Overall Number of Participants Analyzed: 128	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  All adverse events: 98  76.6%	Results	10
+Serious adverse events: 45  35.2%	Results	11
+AE leading to discontinuation of denosumab: 28  21.9%	Results	12
+AE leading to discontinuation from study: 22  17.2%	Results	13
+Fatal adverse events: 18  14.1%	Results	14
+AE grade 3, 4, or 5: 46  35.9%	Results	15
+Treatment-related adverse event: 26  20.3%	Results	16
+adverse event	OAE:0000001	18-31
+Treatment-related serious adverse event: 10   7.8%	Results	17
+serious adverse event	OAE:0000631	18-39
+TRAE leading to discontinuation of denosumab: 18  14.1%	Results	18
+TRAE leading to discontinuation from study: 16  12.5%	Results	19
+Treatment-related fatal adverse events: 0   0.0%	Results	20
+Treatment-related AE grade 3, 4, or 5: 8   6.3%	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 45/128 (35.16%)	Adverse Events	1
+Anaemia 3/128 (2.34%)	Adverse Events	2
+Febrile neutropenia 2/128 (1.56%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Arrhythmia 1/128 (0.78%)	Adverse Events	4
+arrhythmia	HP:0011675	0-10
+Cardiac arrest 1/128 (0.78%)	Adverse Events	5
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardiac failure 1/128 (0.78%)	Adverse Events	6
+Cardiopulmonary failure 1/128 (0.78%)	Adverse Events	7
+Abdominal pain 2/128 (1.56%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Ascites 2/128 (1.56%)	Adverse Events	9
+ascites	HP:0001541	0-7
+Intestinal obstruction 2/128 (1.56%)	Adverse Events	10
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Melaena 1/128 (0.78%)	Adverse Events	11
+Nausea 1/128 (0.78%)	Adverse Events	12
+nausea	HP:0002018	0-6
+Vomiting 2/128 (1.56%)	Adverse Events	13
+vomiting	HP:0002013	0-8

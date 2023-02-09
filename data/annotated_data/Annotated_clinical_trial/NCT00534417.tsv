@@ -1,0 +1,234 @@
+INTERVENTION 1:	Intervention	0
+Capecitabine and Fulvestrant	Intervention	1
+capecitabine	CHEBI:31348	0-12
+fulvestrant	CHEBI:31638	17-28
+Capecitabine will be given on a continuous basis at a total dose of 1500 mg, given as 1000 mg po AM and 500 mg po PM in patients of body weight < 80 kg, and at a total dose of 2000 mg given as 1000 mg po bid in patients with a body weight of 80 kg.	Intervention	2
+capecitabine	CHEBI:31348	0-12
+body weight	CMO:0000012	132-143
+body weight	CMO:0000012	227-238
+Fulvestrant will be given at 500 mg on Day 1 followed by 250 mg on Days 15 and 29, then 250 mg every 28 days.	Intervention	3
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	39-42
+day	UO:0000033	67-70
+day	UO:0000033	104-107
+Inclusion Criteria:	Eligibility	0
+Provide written informed consent prior to study-specific screening procedures, with the understanding that the patient has the right to withdraw from the study at any time, without prejudice.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	111-118
+right	HP:0012834	127-132
+time	PATO:0000165	167-171
+At least 18 years of age.	Eligibility	2
+age	PATO:0000011	21-24
+Post-menopausal female (ie, amenorrheic for at least 12 months prior to study entry). Post-menopausal status will be confirmed by drawing follicle stimulating hormone (FSH) and estradiol levels if < 2 years since last menses.	Eligibility	3
+female	PATO:0000383	16-22
+follicle stimulating hormone	CHEBI:81569	138-166
+estradiol	CHEBI:23965	177-186
+Ambulatory outpatient with Eastern Cooperative Oncology Group (ECOG)performance status of 0 to 2 at study entry.	Eligibility	4
+group	CHEBI:24433	56-61
+Primary tumor human epidermal growth factor receptor 2 (HER-2) negative at study entry.(Investigator discretion will be used in instances of immuno-histochemistry [IHC] 2+.)	Eligibility	5
+growth factor	BAO:0002024	30-43
+receptor	BAO:0000281	44-52
+Histologically or cytologically confirmed MBC.	Eligibility	6
+Primary tumor and/or metastatic lesion estrogen receptor + and/or progesterone receptor + by IHC.	Eligibility	7
+estrogen	CHEBI:50114,BAO:0000760	39-47
+receptor	BAO:0000281	48-56
+receptor	BAO:0000281	79-87
+progesterone	CHEBI:17026	66-78
+At least one measurable or evaluable(non-measurable) lesion according to Response Evaluation Criteria in Solid Tumors (RECIST) criteria (see Appendix 11.6) which has not been irradiated (i.e., newly arising lesions in previously irradiated areas are accepted). Ascites, pleural effusion, and bone metastases are not considered measurable but are considered evaluable (non-measurable). Minimum indicator lesion size for measurable disease: 10 mm measured by spiral computed tomography (CT) or 20 mm measured by conventional techniques.	Eligibility	8
+ascites	HP:0001541	261-268
+pleural effusion	HP:0002202	270-286
+indicator	CHEBI:47867	393-402
+size	PATO:0000117	410-414
+disease	DOID:4,OGMS:0000031	430-437
+tomography	BAO:0002525	473-483
+ct	BAO:0002125	485-487
+Adequate hematologic, renal, and hepatic function.	Eligibility	9
+function	BAO:0003117,BFO:0000034	41-49
+Hematologic values: Neutrophils (ANC) > 1.5 x 109/L; Platelet count > 100 x 109/L.	Eligibility	10
+x	LABO:0000148	44-45
+x	LABO:0000148	74-75
+platelet count	CMO:0000029	53-67
+Renal function: estimated creatinine clearance > 30 mL/min as calculated with Cockcroft-Gault equation.	Eligibility	11
+function	BAO:0003117,BFO:0000034	6-14
+creatinine clearance	CMO:0000765	26-46
+Note: In patients with moderate renal impairment (calculated creatinine clearance 30 to 50 mL/min) at baseline, a dose reduction to (-1) of the capecitabine starting dose is required.	Eligibility	12
+moderate	HP:0012826	23-31
+creatinine clearance	CMO:0000765	61-81
+capecitabine	CHEBI:31348	144-156
+Serum bilirubin < 1.5 x upper limit normal (ULN).	Eligibility	13
+x	LABO:0000148	22-23
+Alanine transaminase (ALT) or aspartate transaminase (AST) < 2.5 x ULN (or < 5 x ULN in the case of liver metastases).	Eligibility	14
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	30-39
+x	LABO:0000148	65-66
+x	LABO:0000148	79-80
+liver	UBERON:0002107	100-105
+Alkaline phosphatase < 2.5 x ULN (or < 5 x ULN in the case of liver metastases or < 10 x ULN in the case of bone disease).	Eligibility	15
+phosphatase	GO:0016791,BAO:0000295	9-20
+x	LABO:0000148	27-28
+x	LABO:0000148	41-42
+x	LABO:0000148	87-88
+liver	UBERON:0002107	62-67
+bone disease	DOID:0080001	108-120
+International normalization ratio (INR) < 1.6.	Eligibility	16
+ratio	UO:0000190	28-33
+Must have  1 prior regimen of endocrine therapy for metastatic breast cancer. This would include patients who have a recurrence while on adjuvant hormone therapy OR have first recurrence after adjuvant hormone therapy OR progressed after first line hormone therapy for metastatic breast cancer OR treatment naïve patients who present with metastatic breast cancer.	Eligibility	17
+breast cancer	DOID:1612	63-76
+breast cancer	DOID:1612	280-293
+breast cancer	DOID:1612	350-363
+adjuvant	CHEBI:60809	137-145
+adjuvant	CHEBI:60809	193-201
+hormone	CHEBI:24621	146-153
+hormone	CHEBI:24621	202-209
+hormone	CHEBI:24621	249-256
+present	PATO:0000467	326-333
+Exclusion Criteria:	Eligibility	18
+Prior administration of capecitabine.	Eligibility	19
+capecitabine	CHEBI:31348	24-36
+Prior administration of fulvestrant.	Eligibility	20
+fulvestrant	CHEBI:31638	24-35
+Prior chemotherapy for metastatic breast cancer.	Eligibility	21
+breast cancer	DOID:1612	34-47
+Radiotherapy  2 weeks prior to registration, except if to a non-target lesion only or single-dose radiation for palliation. NOTE: Prior radiation to a target lesion(s) is permitted only if there has been clear progression of the lesion since radiation was completed.	Eligibility	22
+radiotherapy	OAE:0000235	0-12
+target	BAO:0003064	64-70
+target	BAO:0003064	151-157
+Life expectancy <3 months.	Eligibility	23
+Serious, uncontrolled, concurrent infection(s).	Eligibility	24
+Prior unanticipated severe reaction to fluoropyrimidine therapy, or known hypersensitivity to 5-fluorouracil or known dihydropyrimidine dehydrogenase (DPD) deficiency.	Eligibility	25
+severe	HP:0012828	20-26
+hypersensitivity	GO:0002524,DOID:1205	74-90
+5-fluorouracil	CHEBI:46345	94-108
+Treatment for other carcinomas within the last 5 years, except cured non-melanoma skin and treated in-situ cervical cancer or superficial bladder tumors (stage Ta or Tis).	Eligibility	26
+cervical cancer	DOID:4362	107-122
+Participation in any investigational drug study within 4 weeks preceding the start of study treatment.	Eligibility	27
+drug	CHEBI:23888	37-41
+Clinically significant cardiac disease (e.g., congestive heart failure, symptomatic coronary artery disease and cardiac arrhythmias not well controlled with medication)or myocardial infarction within the last 12 months prior to study entry.	Eligibility	28
+disease	DOID:4,OGMS:0000031	31-38
+disease	DOID:4,OGMS:0000031	100-107
+congestive heart failure	HP:0001635,DOID:6000	46-70
+coronary artery disease	DOID:3393	84-107
+myocardial infarction	HP:0001658,DOID:5844	171-192
+Active brain metastases. Patients with neurological symptoms must undergo a CT scan or magnetic resonance imaging (MRI) of the brain to exclude active brain metastasis. NOTE: Patients with treated brain metastases are eligible provided they have no evidence of disease and are off definitive therapy (including steroids)  3 months prior to study entry.	Eligibility	29
+active	PATO:0002354	0-6
+active	PATO:0002354	144-150
+brain	UBERON:0000955	7-12
+brain	UBERON:0000955	127-132
+brain	UBERON:0000955	151-156
+brain	UBERON:0000955	197-202
+ct	BAO:0002125	1-3
+ct	BAO:0002125	76-78
+ct	BAO:0002125	145-147
+disease	DOID:4,OGMS:0000031	261-268
+Central nervous system (CNS) disorders or psychiatric disability judged by the investigator to be clinically significant, precluding informed consent, or interfering with compliance of oral drug intake.	Eligibility	30
+central nervous system	UBERON:0001017	0-22
+drug	CHEBI:23888	190-194
+Known human immunodeficiency virus or chronic hepatitis B or C.	Eligibility	31
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+chronic hepatitis	HP:0200123,DOID:2237	38-55
+hepatitis b	DOID:2043	46-57
+Other serious uncontrolled medical conditions that the investigator feels might compromise study participation.	Eligibility	32
+Major surgery within 4 weeks of the start of study treatment, without complete recovery.	Eligibility	33
+surgery	OAE:0000067	6-13
+Lack of physical integrity of the upper GI tract or malabsorption syndrome.	Eligibility	34
+malabsorption	HP:0002024	52-65
+syndrome	DOID:225	66-74
+Known, existing uncontrolled coagulopathy.	Eligibility	35
+Any of the following laboratory values:	Eligibility	36
+Abnormal hematologic values (neutrophils [ANC]: <1.5 × 109/L, platelet count: <100 × 109/L)	Eligibility	37
+platelet count	CMO:0000029	62-76
+Impaired renal function (estimated creatinine clearance: <30 mL/min as calculated with Cockcroft-Gault equation). Note: In patients with moderate renal impairment (calculated creatinine clearance: 30 to 50 mL/min) at baseline, a dose reduction to (-1) of the capecitabine starting dose is required.	Eligibility	38
+function	BAO:0003117,BFO:0000034	15-23
+creatinine clearance	CMO:0000765	35-55
+creatinine clearance	CMO:0000765	175-195
+moderate	HP:0012826	137-145
+capecitabine	CHEBI:31348	259-271
+Serum bilirubin >1.5 × upper normal limit (ULN).	Eligibility	39
+Alanine transaminase (ALT) or aspartate transaminase (AST) >2.5 × ULN (or >5 × ULN in the case of liver metastases).	Eligibility	40
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	30-39
+liver	UBERON:0002107	98-103
+Alkaline phosphatase > 2.5 × ULN (or >5 × ULN in the case of liver metastases or >10 × ULN in the case of bone disease).	Eligibility	41
+phosphatase	GO:0016791,BAO:0000295	9-20
+liver	UBERON:0002107	61-66
+bone disease	DOID:0080001	106-118
+International normalization ratio (INR) >1.6.	Eligibility	42
+ratio	UO:0000190	28-33
+History of:	Eligibility	43
+history	BFO:0000182	0-7
+Bleeding diathesis,(ie, disseminated intravascular coagulation [DIC], clotting factor deficiency) or	Eligibility	44
+disseminated intravascular coagulation	HP:0005521,DOID:11247	24-62
+Long-term anticoagulant therapy,(other than antiplatelet therapy and warfarin 1 mg qd for port prophylaxis).	Eligibility	45
+anticoagulant	CHEBI:50249	10-23
+warfarin	CHEBI:10033	69-77
+History of hypersensitivity to active or inactive excipients of fulvestrant (ie, castor oil or Mannitol).	Eligibility	46
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	11-27
+active	PATO:0002354	31-37
+active	PATO:0002354	43-49
+inactive	PATO:0002355	41-49
+fulvestrant	CHEBI:31638	64-75
+castor oil	CHEBI:140618	81-91
+mannitol	CHEBI:16899	95-103
+Unwillingness to give written informed consent.	Eligibility	47
+Unwillingness to participate or inability to comply with the protocol for the duration of the study.	Eligibility	48
+duration	PATO:0001309	78-86
+Outcome Measurement:	Results	0
+Time to Progression (TTP)	Results	1
+time	PATO:0000165	0-4
+ttp	CHEBI:63550	21-24
+Time to progression is defined as the time from treatment start until objective tumor progression. Progression is defined per Response Evaluation Criteria in Solid Tumors (RECIST)v1.0 guidelines as a measurable increase in the smallest diameter of any target lesion, progression of existing non-target lesions, or the appearance of 1 or more new lesions. The median time to progression is the parameter used to describe TTP.	Results	2
+time	PATO:0000165	0-4
+time	PATO:0000165	38-42
+time	PATO:0000165	366-370
+increase	BAO:0001251	211-219
+diameter	PATO:0001334	236-244
+target	BAO:0003064	252-258
+target	BAO:0003064	295-301
+median	BAO:0002174	359-365
+ttp	CHEBI:63550	420-423
+Time frame: TTP was measured from day 1 of treatment until time of progression (assessed every 8 weeks), up to 29 months.	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	59-63
+ttp	CHEBI:63550	12-15
+day	UO:0000033	34-37
+Results 1:	Results	4
+Arm/Group Title: Capecitabine and Fulvestrant	Results	5
+capecitabine	CHEBI:31348	17-29
+fulvestrant	CHEBI:31638	34-45
+Arm/Group Description: Capecitabine will be given on a continuous basis at a total dose of 1500 mg, given as 1000 mg po AM and 500 mg po PM in patients of body weight < 80 kg, and at a total dose of 2000 mg given as 1000 mg po bid in patients with a body weight of   80 kg.	Results	6
+capecitabine	CHEBI:31348	23-35
+body weight	CMO:0000012	155-166
+body weight	CMO:0000012	250-261
+Fulvestrant will be given at 500 mg on Day 1 followed by 250 mg on Days 15 and 29, then 250 mg every 28 days.	Results	7
+fulvestrant	CHEBI:31638	0-11
+day	UO:0000033	39-42
+day	UO:0000033	67-70
+day	UO:0000033	104-107
+Overall Number of Participants Analyzed: 41	Results	8
+Median (95% Confidence Interval)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: Months  26.94  [1]    (7.26 to NA)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 9/41 (21.95%)	Adverse Events	1
+Neutropenia * 1/41 (2.44%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Cardiac Tamponade * 1/41 (2.44%)	Adverse Events	3
+cardiac tamponade	HP:0033415,DOID:115	0-17
+Pericardial Effusion * 1/41 (2.44%)	Adverse Events	4
+pericardial effusion	HP:0001698,DOID:118	0-20
+Abdominal Pain Upper * 1/41 (2.44%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Colitis * 1/41 (2.44%)	Adverse Events	6
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhoea * 1/41 (2.44%)	Adverse Events	7
+Enteritis * 1/41 (2.44%)	Adverse Events	8
+Nausea * 1/41 (2.44%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Vomiting * 1/41 (2.44%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Adverse Drug Reaction * 1/41 (2.44%)	Adverse Events	11
+drug	CHEBI:23888	8-12
+Pneumonia * 2/41 (4.88%)	Adverse Events	12
+pneumonia	HP:0002090,DOID:552	0-9
+Overdose * 1/41 (2.44%)	Adverse Events	13

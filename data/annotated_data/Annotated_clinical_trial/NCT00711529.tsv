@@ -1,0 +1,133 @@
+INTERVENTION 1:	Intervention	0
+Hypnotherapy	Intervention	1
+Patients randomized to the hypnosis arm of the study will undergo individually three one-hour sessions with a certified hypnotherapist. These sessions will be one week apart. Patients will also be instructed on the use of self-hypnosis techniques to use at home.	Intervention	2
+week	UO:0000034	163-167
+home	CHEBI:75830	257-261
+INTERVENTION 2:	Intervention	3
+Gabapentin	Intervention	4
+gabapentin	CHEBI:42797	0-10
+Patients randomized to the gabapentin arm will be prescribed 900mg of the drug daily (300 mg by mouth three times daily).	Intervention	5
+gabapentin	CHEBI:42797	27-37
+drug	CHEBI:23888	74-78
+mouth	UBERON:0000165	96-101
+Inclusion criteria:	Eligibility	0
+Women with histologic confirmation of a diagnosis of infiltrating carcinoma of the breast are eligible for participation.	Eligibility	1
+carcinoma	HP:0030731,DOID:305	66-75
+breast	UBERON:0000310	83-89
+Women with non-invasive or pre-invasive lesions of the breast, including but not limited to ductal carcinoma in situ (DCIS), atypical ductal hyperplasia (ADH) or lobular carcinoma in situ (LCIS) are eligible for participation.	Eligibility	2
+breast	UBERON:0000310	55-61
+ductal carcinoma in situ	HP:0030075,DOID:0060074	92-116
+lobular carcinoma in situ	HP:0030076,DOID:3010	162-187
+Women with a known breast cancer susceptibility gene (eg, BRCA) mutation or strong family history of breast cancer are eligible.	Eligibility	3
+breast cancer	DOID:1612	19-32
+breast cancer	DOID:1612	101-114
+gene	BAO:0000582	48-52
+family history	HP:0032316	83-97
+Any woman age 60 years or more who cannot take estrogen therapy because of a real or perceived risk of developing breast cancer are eligible.	Eligibility	4
+age	PATO:0000011	10-13
+estrogen	CHEBI:50114,BAO:0000760	47-55
+breast cancer	DOID:1612	114-127
+Women under the age of 60 with a Gail model score of 1.6% or more are eligible.	Eligibility	5
+age	PATO:0000011	16-19
+Subjective report of at least one daily hot flash.	Eligibility	6
+Able to provide voluntary informed consent.	Eligibility	7
+18 years-old. There will be no upper limit for age inclusion.	Eligibility	8
+age	PATO:0000011	47-50
+Karnofsky performance status > 70%.	Eligibility	9
+Women with a history of breast cancer must have undergone treatment with curative intent.	Eligibility	10
+history	BFO:0000182	13-20
+breast cancer	DOID:1612	24-37
+4 weeks from completion of chemotherapy or radiation therapy, where appropriate.	Eligibility	11
+adequate hematopoietic function (ANC  1500/mm3; Platelets  100,000/mm3; Hemoglobin  8 g/dL)	Eligibility	12
+function	BAO:0003117,BFO:0000034	23-31
+hemoglobin	CHEBI:35143	72-82
+adequate renal and hepatic function [Bilirubin  1.5 times upper limit of normal (ULN), serum glutamic-oxaloacetic transaminase (SGOT)  2.5x ULN, Alkaline phosphatase  2.5x ULN, and Creatinine  2x ULN].	Eligibility	13
+function	BAO:0003117,BFO:0000034	27-35
+phosphatase	GO:0016791,BAO:0000295	154-165
+creatinine	CHEBI:16737	181-191
+No clinical evidence of disease (complete remission).	Eligibility	14
+disease	DOID:4,OGMS:0000031	24-31
+Patients receiving neoadjuvant therapy will be eligible following completion of all adjuvant chemotherapy if indicated.	Eligibility	15
+adjuvant	CHEBI:60809	22-30
+adjuvant	CHEBI:60809	84-92
+Patients receiving hormonal therapy in lieu of or following chemotherapy will be eligible to participate.	Eligibility	16
+Patients must have access to a compact disk player.	Eligibility	17
+Exclusion criteria:	Eligibility	18
+History or active secondary cancer within the last 5 years (except for superficial basal cell skin cancers).	Eligibility	19
+history	BFO:0000182	0-7
+active	PATO:0002354	11-17
+cancer	DOID:162	28-34
+cancer	DOID:162	99-105
+Any residual chemotherapy-induced CTCv3.0 Grade 2 or greater non-hematological toxicity.	Eligibility	20
+Unable to give informed consent or unable to adhere to protocol.	Eligibility	21
+Any serious medical or psychiatric illness likely to interfere with participation in this clinical study, concurrent uncontrolled illness, or ongoing or active infection will be excluded.	Eligibility	22
+active	PATO:0002354	153-159
+excluded	HP:0040285	178-186
+Any history of alcohol or drug abuse.	Eligibility	23
+history	BFO:0000182	4-11
+alcohol	CHEBI:16236	15-22
+drug	CHEBI:23888	26-30
+Allergy to gabapentin.	Eligibility	24
+allergy	HP:0012393	0-7
+gabapentin	CHEBI:42797	11-21
+History of seizure disorder.	Eligibility	25
+history	BFO:0000182	0-7
+seizure	HP:0001250	11-18
+disorder	OGMS:0000045	19-27
+Outcome Measurement:	Results	0
+Number of Daily Hot Flashes	Results	1
+hot flashes	HP:0031217	16-27
+Patients kept daily diaries of their hot flashes. The absolute number of hot flashes in a 24 hour period is "number of daily hot flashes." The median number was calculated for each week of data. The median number of daily hot flashes for the first week (7 days) of participation is used as baseline. The median number of daily hot flashes for the fourth week (over 7 day interval) is reported for the week four time point. The median number of daily hot flashes for the eighth week (over 7 day interval) is reported for the week eight time point (study completion). Of the 13 women randomized to the hypnotherapy arm, 2 women were ineligible and therefore not included in analysis. Two women were unable to initiate treatment and did not submit diaries. An additional two women completed treatment but lost their diaries, leaving 7 diaries for analysis at baseline. Of the 14 randomized to receive gabapentin, 6 dropped out of the study and did not submit diaries.	Results	2
+hot flashes	HP:0031217	37-48
+hot flashes	HP:0031217	73-84
+hot flashes	HP:0031217	125-136
+hot flashes	HP:0031217	222-233
+hot flashes	HP:0031217	327-338
+hot flashes	HP:0031217	450-461
+hour	UO:0000032	93-97
+median	BAO:0002174	143-149
+median	BAO:0002174	199-205
+median	BAO:0002174	304-310
+median	BAO:0002174	427-433
+week	UO:0000034	181-185
+week	UO:0000034	248-252
+week	UO:0000034	354-358
+week	UO:0000034	401-405
+week	UO:0000034	477-481
+week	UO:0000034	524-528
+day	UO:0000033	256-259
+day	UO:0000033	367-370
+day	UO:0000033	490-493
+time	PATO:0000165	411-415
+time	PATO:0000165	535-539
+gabapentin	CHEBI:42797	898-908
+Time frame: Baseline	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Hypnotherapy	Results	5
+Arm/Group Description: Patients randomized to the hypnosis arm of the study will undergo individually three one-hour sessions with a certified hypnotherapist. These sessions will be one week apart. Patients will also be instructed on the use of self-hypnosis techniques to use at home.	Results	6
+week	UO:0000034	186-190
+home	CHEBI:75830	280-284
+Overall Number of Participants Analyzed: 7	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: daily hot flashes  5        (2 to 11)	Results	9
+hot flashes	HP:0031217	23-34
+Results 2:	Results	10
+Arm/Group Title: Gabapentin	Results	11
+gabapentin	CHEBI:42797	17-27
+Arm/Group Description: Patients randomized to the gabapentin arm will be prescribed 900mg of the drug daily (300 mg by mouth three times daily).	Results	12
+gabapentin	CHEBI:42797	50-60
+drug	CHEBI:23888	97-101
+mouth	UBERON:0000165	119-124
+Overall Number of Participants Analyzed: 8	Results	13
+Median (Full Range)	Results	14
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: daily hot flashes  4.5        (2 to 9)	Results	15
+hot flashes	HP:0031217	23-34
+Adverse Events 1:	Adverse Events	0
+Total: 0/13 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/14 (0.00%)	Adverse Events	3

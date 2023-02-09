@@ -1,0 +1,129 @@
+INTERVENTION 1:	Intervention	0
+MM-121 + Exemestane	Intervention	1
+exemestane	CHEBI:4953	9-19
+MM-121 (40mg/kg loading dose week 1, then 20 mg/kg weekly) administered over 60 minutes as an intravenous infusion once per week, plus exemestane (25 mg) administered orally once per day	Intervention	2
+week	UO:0000034	29-33
+week	UO:0000034	51-55
+week	UO:0000034	124-128
+exemestane	CHEBI:4953	135-145
+day	UO:0000033	183-186
+INTERVENTION 2:	Intervention	3
+Placebo + Exemestane	Intervention	4
+exemestane	CHEBI:4953	10-20
+Placebo and Exemestane: Placebo (histidine solution) administered over 60 minutes as an intravenous infusion once per week plus exemestane (25 mg) administered orally once per day	Intervention	5
+exemestane	CHEBI:4953	12-22
+exemestane	CHEBI:4953	128-138
+histidine	CHEBI:27570	33-42
+solution	CHEBI:75958	43-51
+week	UO:0000034	118-122
+day	UO:0000033	176-179
+Inclusion Criteria:	Eligibility	0
+Locally advanced or metastatic breast cancer	Eligibility	1
+breast cancer	DOID:1612	31-44
+Histologically or cytologically confirmed ER+ and/or PgR+ and Her2 negative breast cancer	Eligibility	2
+breast cancer	DOID:1612	76-89
+18 years of age	Eligibility	3
+age	PATO:0000011	12-15
+Exclusion Criteria:	Eligibility	4
+Received prior treatment with exemestane	Eligibility	5
+exemestane	CHEBI:4953	30-40
+Extensive visceral disease (rapidly progressive, life-threatening metastases, including symptomatic lymphangitic metastases)	Eligibility	6
+disease	DOID:4,OGMS:0000031	19-26
+rapidly progressive	HP:0003678	28-47
+Symptomatic CNS disease	Eligibility	7
+disease	DOID:4,OGMS:0000031	16-23
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS)	Results	1
+To determine whether MM-121 + exemestane was more effective than placebo + exemestane in prolonging progression-free survival. PFS was a time to event measure, and progression of disease is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1), "as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions". Progression free survival was defined as the number of months from the date of randomization to the date of death or progression. If neither death nor progression was observed during the study, PFS data was censored at the last non-progressive disease valid tumor assessment unless the patient was discontinued due to symptomatic deterioration. If this occurred, the patient was counted as having progressive disease (PD).	Results	2
+exemestane	CHEBI:4953	30-40
+exemestane	CHEBI:4953	75-85
+time	PATO:0000165	137-141
+disease	DOID:4,OGMS:0000031	179-186
+disease	DOID:4,OGMS:0000031	674-681
+disease	DOID:4,OGMS:0000031	839-846
+increase	BAO:0001251	283-291
+increase	BAO:0001251	362-370
+diameter	PATO:0001334	318-326
+target	BAO:0003064	330-336
+target	BAO:0003064	380-386
+death	OAE:0000632	538-543
+death	OAE:0000632	571-576
+patient	HADO:0000008,OAE:0001817	716-723
+patient	HADO:0000008,OAE:0001817	797-804
+progressive	HP:0003676	662-673
+progressive	HP:0003676	827-838
+Time frame: Time from first dose to date of progression, the longest time frame of 79.1 weeks	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	12-16
+time	PATO:0000165	69-73
+Results 1:	Results	4
+Arm/Group Title: MM-121 + Exemestane	Results	5
+exemestane	CHEBI:4953	26-36
+Arm/Group Description: MM-121 (40mg/kg loading dose week 1, then 20 mg/kg weekly) administered over 60 minutes as an intravenous infusion once per week, plus exemestane (25 mg) administered orally once per day	Results	6
+week	UO:0000034	52-56
+week	UO:0000034	74-78
+week	UO:0000034	147-151
+exemestane	CHEBI:4953	158-168
+day	UO:0000033	206-209
+Overall Number of Participants Analyzed: 56	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: weeks  15.9        (9.3 to 30.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo + Exemestane	Results	11
+exemestane	CHEBI:4953	27-37
+Arm/Group Description: Placebo and Exemestane: Placebo (histidine solution) administered over 60 minutes as an intravenous infusion once per week plus exemestane (25 mg) administered orally once per day	Results	12
+exemestane	CHEBI:4953	35-45
+exemestane	CHEBI:4953	151-161
+histidine	CHEBI:27570	56-65
+solution	CHEBI:75958	66-74
+week	UO:0000034	141-145
+day	UO:0000033	199-202
+Overall Number of Participants Analyzed: 59	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: weeks  10.7        (8.1 to 16.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 7/56 (12.50%)	Adverse Events	1
+Febrile Neutropenia * 1/56 (1.79%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiovascular insufficiency * 1/56 (1.79%)	Adverse Events	3
+Tacchycardia * 0/56 (0.00%)	Adverse Events	4
+Abdominal Pain (Upper) * 0/56 (0.00%)	Adverse Events	5
+abdominal pain	HP:0002027	0-14
+Gastritis * 0/56 (0.00%)	Adverse Events	6
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea * 2/56 (3.57%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Vomiting * 1/56 (1.79%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Chest Pain * 1/56 (1.79%)	Adverse Events	9
+chest pain	HP:0100749	0-10
+Disease Progression * 1/56 (1.79%)	Adverse Events	10
+disease	DOID:4,OGMS:0000031	0-7
+Pneumonia * 0/56 (0.00%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	0-9
+Hepatic Failure * 2/56 (3.57%)	Adverse Events	12
+hepatic failure	HP:0001399	0-15
+Adverse Events 2:	Adverse Events	13
+Total: 11/59 (18.64%)	Adverse Events	14
+Febrile Neutropenia * 0/59 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiovascular insufficiency * 0/59 (0.00%)	Adverse Events	16
+Tacchycardia * 1/59 (1.69%)	Adverse Events	17
+Abdominal Pain (Upper) * 1/59 (1.69%)	Adverse Events	18
+abdominal pain	HP:0002027	0-14
+Gastritis * 1/59 (1.69%)	Adverse Events	19
+gastritis	HP:0005263,DOID:4029	0-9
+Nausea * 0/59 (0.00%)	Adverse Events	20
+nausea	HP:0002018	0-6
+Vomiting * 0/59 (0.00%)	Adverse Events	21
+vomiting	HP:0002013	0-8
+Chest Pain * 0/59 (0.00%)	Adverse Events	22
+chest pain	HP:0100749	0-10
+Disease Progression * 1/59 (1.69%)	Adverse Events	23
+disease	DOID:4,OGMS:0000031	0-7
+Pneumonia * 1/59 (1.69%)	Adverse Events	24
+pneumonia	HP:0002090,DOID:552	0-9
+Hepatic Failure * 0/59 (0.00%)	Adverse Events	25
+hepatic failure	HP:0001399	0-15

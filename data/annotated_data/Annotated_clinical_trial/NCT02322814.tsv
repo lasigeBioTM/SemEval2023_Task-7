@@ -1,0 +1,227 @@
+INTERVENTION 1:	Intervention	0
+Cohort I: Cobimetinib, Paclitaxel	Intervention	1
+cobimetinib	CHEBI:90851	10-21
+paclitaxel	CHEBI:45863	23-33
+Participants received a combination of cobimetinib plus paclitaxel in 28-day cycles until disease progression, unacceptable toxicity, investigator decision, death, withdrawal of consent, or completion of study.	Intervention	2
+cobimetinib	CHEBI:90851	39-50
+paclitaxel	CHEBI:45863	56-66
+disease	DOID:4,OGMS:0000031	90-97
+death	OAE:0000632	157-162
+INTERVENTION 2:	Intervention	3
+Cohort I: Placebo, Paclitaxel	Intervention	4
+paclitaxel	CHEBI:45863	19-29
+Participants received a combination of cobimetinib placebo plus paclitaxel in 28-day cycles until disease progression, unacceptable toxicity, investigator decision, death, withdrawal of consent, or completion of study.	Intervention	5
+cobimetinib	CHEBI:90851	39-50
+paclitaxel	CHEBI:45863	64-74
+disease	DOID:4,OGMS:0000031	98-105
+death	OAE:0000632	165-170
+Inclusion Criteria:	Eligibility	0
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	1
+group	CHEBI:24433	29-34
+Histologically confirmed estrogen receptor (ER)-negative, progesterone receptor (PR)-negative, and human epidermal growth factor 2 (HER2)-negative adenocarcinoma of the breast with measurable metastatic or locally advanced disease	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	25-33
+receptor	BAO:0000281	34-42
+receptor	BAO:0000281	71-79
+progesterone	CHEBI:17026	58-70
+growth factor	BAO:0002024	115-128
+adenocarcinoma	DOID:299	147-161
+breast	UBERON:0000310	169-175
+disease	DOID:4,OGMS:0000031	223-230
+Locally advanced disease must not be amenable to resection with curative intent	Eligibility	3
+disease	DOID:4,OGMS:0000031	17-24
+Measurable disease, according to RECIST, v1.1	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+Adequate hematologic and end organ function	Eligibility	5
+organ	UBERON:0000062	29-34
+function	BAO:0003117,BFO:0000034	35-43
+Agreement to use highly effective contraceptive methods as stated in protocol	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Disease-Specific Exclusion Criteria	Eligibility	8
+Known HER2-, ER-positive, or PR-positive breast cancer by local laboratory assessment	Eligibility	9
+breast cancer	DOID:1612	41-54
+Any prior chemotherapy, hormonal, or targeted therapy, for inoperable locally advanced or metastatic triple-negative breast cancer (mTNBC)	Eligibility	10
+breast cancer	DOID:1612	117-130
+Any systemic anticancer therapy within 3 weeks prior to Cycle 1, Day 1	Eligibility	11
+day	UO:0000033	65-68
+Any radiation treatment to metastatic site within 28 days of Cycle 1, Day 1	Eligibility	12
+site	BFO:0000029	38-42
+day	UO:0000033	53-56
+day	UO:0000033	70-73
+Major surgical procedure, open biopsy, or significant traumatic injury within 30 days prior to Cycle 1, Day 1 or anticipation of need for major surgical procedure during the course of the study	Eligibility	13
+day	UO:0000033	81-84
+day	UO:0000033	104-107
+Prior exposure to experimental treatment targeting rapidly accelerated fibrosarcoma (Raf), MAP kinase/ERK kinase (MEK), or the mitogen-activated protein kinase (MAPK) pathway	Eligibility	14
+fibrosarcoma	HP:0100244,DOID:3355	71-83
+kinase	BAO:0000294	95-101
+kinase	BAO:0000294	106-112
+kinase	BAO:0000294	153-159
+protein	CHEBI:36080,BAO:0000175	145-152
+Brain metastases (symptomatic or nonsymptomatic) that have not been treated previously, are progressive, or require any type of therapy (e.g., radiation, surgery, or steroids) to control symptoms from brain metastases within 30 days prior to first study treatment dose	Eligibility	15
+brain	UBERON:0000955	0-5
+brain	UBERON:0000955	201-206
+progressive	HP:0003676	92-103
+surgery	OAE:0000067	154-161
+Cobimetinib-Specific Exclusion Criteria	Eligibility	16
+History of or evidence of retinal pathology on ophthalmologic examination that is considered a risk factor for neurosensory retinal detachment/central serous chorioretinopathy (CSCR), retinal vein occlusion (RVO), or neovascular macular degeneration	Eligibility	17
+history	BFO:0000182	0-7
+retinal	CHEBI:17898	26-33
+retinal	CHEBI:17898	124-131
+retinal	CHEBI:17898	184-191
+retinal vein occlusion	HP:0012636,DOID:1727	184-206
+macular degeneration	HP:0000608,DOID:4448	229-249
+Cobimetinib is metabolized by the hepatic cytochrome P3A4 (CYP3A4) enzyme. Drugs CYP3A4/5 inhibitors and inducers should be avoided	Eligibility	18
+cobimetinib	CHEBI:90851	0-11
+cytochrome	CHEBI:4056,GO:0045158	42-52
+enzyme	BAO:0000279	67-73
+Atezolizumab-Specific Exclusion Criteria (Cohorts II and III Only)	Eligibility	19
+History of severe allergic, anaphylactic, or other hypersensitivity reactions to chimeric or humanized antibodies or fusion proteins	Eligibility	20
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+hypersensitivity	GO:0002524,DOID:1205	51-67
+Known hypersensitivity or allergy to biopharmaceuticals produced in Chinese hamster ovary cells or any component of the atezolizumab formulation	Eligibility	21
+hypersensitivity	GO:0002524,DOID:1205	6-22
+allergy	HP:0012393	26-33
+ovary	UBERON:0000992	84-89
+History of autoimmune disease	Eligibility	22
+history	BFO:0000182	0-7
+autoimmune disease	DOID:417	11-29
+Prior allogenic stem cell or solid organ transplantation	Eligibility	23
+organ	UBERON:0000062	35-40
+History of idiopathic pulmonary fibrosis (including pneumonitis), drug induced pneumonitis, organizing pneumonia (i.e., bronchiolitis obliterans, cryptogenic organizing pneumonia), or evidence of active pneumonitis on screening chest computed tomography (CT) scan	Eligibility	24
+history	BFO:0000182	0-7
+idiopathic pulmonary fibrosis	DOID:0050156	11-40
+drug	CHEBI:23888	66-70
+organizing pneumonia	HP:0033670	92-112
+organizing pneumonia	HP:0033670	158-178
+bronchiolitis obliterans	HP:0011946,DOID:2799	120-144
+cryptogenic organizing pneumonia	DOID:0050157	146-178
+active	PATO:0002354	196-202
+chest	UBERON:0001443	228-233
+tomography	BAO:0002525	243-253
+ct	BAO:0002125	197-199
+ct	BAO:0002125	255-257
+Positive test for Human Immunodeficiency Virus (HIV)	Eligibility	25
+immunodeficiency	HP:0002721	24-40
+virus	BAO:0000232	41-46
+Active hepatitis B (defined as having a positive hepatitis B surface antigen [HBsAg] or positive hepatitis B virus [HBV] deoxyribonucleic acid [DNA] test at screening) or hepatitis C	Eligibility	26
+active	PATO:0002354	0-6
+hepatitis b	DOID:2043	7-18
+hepatitis b	DOID:2043	49-60
+hepatitis b	DOID:2043	97-108
+antigen	CHEBI:59132	69-76
+virus	BAO:0000232	109-114
+deoxyribonucleic acid	CHEBI:16991	121-142
+dna	BAO:0000269	144-147
+hepatitis c	DOID:1883	171-182
+Active tuberculosis	Eligibility	27
+active	PATO:0002354	0-6
+tuberculosis	DOID:399	7-19
+Receipt of a live, attenuated vaccine within 4 weeks prior to randomization or anticipation that such a live, attenuated vaccine will be required during the study	Eligibility	28
+vaccine	VO:0000001	30-37
+vaccine	VO:0000001	121-128
+Prior treatment with cluster of differentiation (CD) 137 (CD137) agonists or immune checkpoint blockade therapies, including anti-cytotoxic T-lymphocyte-associated protein 4 (anti-CTLA-4), anti-programmed death-1 (anti-PD-1), or anti-programmed death ligand-1 (anti-PD-L1) therapeutic antibodies	Eligibility	29
+cluster	CHEBI:33731	21-28
+protein	CHEBI:36080,BAO:0000175	164-171
+death	OAE:0000632	205-210
+death	OAE:0000632	245-250
+Treatment with systemic immunostimulatory agents (including but not limited to interferons or Interlukin-2 [IL-2]) within 4 weeks or five half-lives of the drug (whichever is shorter) prior to randomization	Eligibility	30
+drug	CHEBI:23888	156-160
+Treatment with systemic corticosteroids or other systemic immunosuppressive medications within 2 weeks prior to randomization, or anticipated requirement for systemic immunosuppressive medications during the trial	Eligibility	31
+Cardiac Exclusion Criteria	Eligibility	32
+History of clinically significant cardiac dysfunction	Eligibility	33
+history	BFO:0000182	0-7
+Corrected QT interval at screening greater than (>) 480 milliseconds (ms) (average of triplicate screening measurements)	Eligibility	34
+qt interval	CMO:0000235	10-21
+Left ventricular ejection fraction (LVEF) below the institutional lower limit of normal or below 50 percent (%), whichever is lower	Eligibility	35
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+percent	UO:0000187	100-107
+General Exclusion Criteria	Eligibility	36
+No other history of or ongoing malignancy that would potentially interfere with the interpretation of the pharmacodynamic or efficacy assay	Eligibility	37
+history	BFO:0000182	9-16
+efficacy	BAO:0000656	125-133
+Pregnancy (positive serum pregnancy test) or lactation	Eligibility	38
+lactation	GO:0007595	45-54
+Uncontrolled serious medical or psychiatric illness	Eligibility	39
+Active infection requiring IV antibiotics on Cycle 1, Day 1	Eligibility	40
+active	PATO:0002354	0-6
+day	UO:0000033	54-57
+Participants who have a history of hypersensitivity reactions to paclitaxel or other drugs formulated in Cremophor® EL (polyoxyethylated castor oil) or to nab-paclitaxel and any of the excipients	Eligibility	41
+history	BFO:0000182	24-31
+hypersensitivity	GO:0002524,DOID:1205	35-51
+paclitaxel	CHEBI:45863	65-75
+paclitaxel	CHEBI:45863	159-169
+castor oil	CHEBI:140618	137-147
+Outcome Measurement:	Results	0
+Cohort I: Progression-Free Survival, as Determined by Investigator Using Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)	Results	1
+PFS was defined as the time from randomization to the first occurrence of disease progression or relapse, as determined by the investigator, using RECIST v1.1.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	74-81
+Time frame: Randomization up to disease progression or relapse, whichever occurs first (up to approximately 3.5 years)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	32-39
+Results 1:	Results	4
+Arm/Group Title: Cohort I: Cobimetinib, Paclitaxel	Results	5
+cobimetinib	CHEBI:90851	27-38
+paclitaxel	CHEBI:45863	40-50
+Arm/Group Description: Participants received a combination of cobimetinib plus paclitaxel in 28-day cycles until disease progression, unacceptable toxicity, investigator decision, death, withdrawal of consent, or completion of study.	Results	6
+cobimetinib	CHEBI:90851	62-73
+paclitaxel	CHEBI:45863	79-89
+disease	DOID:4,OGMS:0000031	113-120
+death	OAE:0000632	180-185
+Overall Number of Participants Analyzed: 43	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Weeks  16.43        (8.14 to 31.14)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort I: Placebo, Paclitaxel	Results	11
+paclitaxel	CHEBI:45863	36-46
+Arm/Group Description: Participants received a combination of cobimetinib placebo plus paclitaxel in 28-day cycles until disease progression, unacceptable toxicity, investigator decision, death, withdrawal of consent, or completion of study.	Results	12
+cobimetinib	CHEBI:90851	62-73
+paclitaxel	CHEBI:45863	87-97
+disease	DOID:4,OGMS:0000031	121-128
+death	OAE:0000632	188-193
+Overall Number of Participants Analyzed: 47	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Weeks  23.71        (18.14 to 32.14)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 6/16 (37.50%)	Adverse Events	1
+Febrile neutropenia * 0/16 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/16 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Mitral valve incompetence * 1/16 (6.25%)	Adverse Events	4
+mitral valve	UBERON:0002135	0-12
+Cardiac failure * 0/16 (0.00%)	Adverse Events	5
+Cardiac Arrest * 0/16 (0.00%)	Adverse Events	6
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Papilloedema * 0/16 (0.00%)	Adverse Events	7
+Diarrhoea * 0/16 (0.00%)	Adverse Events	8
+Intestinal obstruction * 0/16 (0.00%)	Adverse Events	9
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea * 0/16 (0.00%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Vomiting * 0/16 (0.00%)	Adverse Events	11
+vomiting	HP:0002013	0-8
+Pyrexia * 2/16 (12.50%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 9/43 (20.93%)	Adverse Events	14
+Febrile neutropenia * 1/43 (2.33%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 0/43 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Mitral valve incompetence * 0/43 (0.00%)	Adverse Events	17
+mitral valve	UBERON:0002135	0-12
+Cardiac failure * 1/43 (2.33%)	Adverse Events	18
+Cardiac Arrest * 0/43 (0.00%)	Adverse Events	19
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Papilloedema * 0/43 (0.00%)	Adverse Events	20
+Diarrhoea * 0/43 (0.00%)	Adverse Events	21
+Intestinal obstruction * 0/43 (0.00%)	Adverse Events	22
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea * 0/43 (0.00%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Vomiting * 0/43 (0.00%)	Adverse Events	24
+vomiting	HP:0002013	0-8
+Pyrexia * 0/43 (0.00%)	Adverse Events	25

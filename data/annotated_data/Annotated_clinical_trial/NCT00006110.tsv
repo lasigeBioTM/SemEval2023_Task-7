@@ -1,0 +1,146 @@
+INTERVENTION 1:	Intervention	0
+Herceptin Regimen After AC	Intervention	1
+Patients in the adjuvant and neoadjuvant groups after receiving [AC-TP] Chemotherapy (doxorubicin & cyclophosphamide).	Intervention	2
+adjuvant	CHEBI:60809	16-24
+adjuvant	CHEBI:60809	32-40
+doxorubicin	CHEBI:28748,BAO:0000639	86-97
+cyclophosphamide	CHEBI:4026	100-116
+INTERVENTION 2:	Intervention	3
+Herceptin Regimen After TP	Intervention	4
+Patients in the adjuvant and neoadjuvant groups after receiving chemotherapy and Taxol + Herceptin.	Intervention	5
+adjuvant	CHEBI:60809	16-24
+adjuvant	CHEBI:60809	32-40
+Inclusion Criteria	Eligibility	0
+Histologically confirmed stage IIB, IIIA, IIIB, IIIC, or previously untreated stage IV primary carcinoma of the breast	Eligibility	1
+carcinoma	HP:0030731,DOID:305	95-104
+breast	UBERON:0000310	112-118
+Fine needle aspiration, core needle biopsy, or incisional biopsy allowed	Eligibility	2
+aspiration	HP:0002835	12-22
+No excisional biopsy	Eligibility	3
+Any of the following:	Eligibility	4
+Tumor size 2, Nodes 1 (T2N1) or tumor size 3 nodes 0 (T3N0)	Eligibility	5
+size	PATO:0000117	6-10
+size	PATO:0000117	38-42
+Any T with N2 (including axillary lymph nodes matted to one another) or N3	Eligibility	6
+t	CHEBI:36371,BAO:0001260	4-5
+t	CHEBI:36371,BAO:0001260	8-9
+t	CHEBI:36371,BAO:0001260	48-49
+t	CHEBI:36371,BAO:0001260	49-50
+t	CHEBI:36371,BAO:0001260	53-54
+t	CHEBI:36371,BAO:0001260	63-64
+lymph	UBERON:0002391	34-39
+Any T4, including inflammatory breast cancer	Eligibility	7
+breast cancer	DOID:1612	31-44
+Adjuvant patients with at least 4 positive lymph nodes and HER-2 overexpressing tumor	Eligibility	8
+adjuvant	CHEBI:60809	0-8
+lymph	UBERON:0002391	43-48
+Supraclavicular or infraclavicular positive lymph nodes without distant metastases	Eligibility	9
+lymph	UBERON:0002391	44-49
+Distant metastases with measurable disease in breast or lymph nodes	Eligibility	10
+disease	DOID:4,OGMS:0000031	35-42
+breast	UBERON:0000310	46-52
+lymph	UBERON:0002391	56-61
+Synchronous bilateral primary breast cancer allowed if the more serious cancer meets entry criteria	Eligibility	11
+bilateral	HP:0012832	12-21
+breast cancer	DOID:1612	30-43
+cancer	DOID:162	37-43
+cancer	DOID:162	72-78
+Measurable or evaluable disease	Eligibility	12
+disease	DOID:4,OGMS:0000031	24-31
+PATIENT CHARACTERISTICS:	Eligibility	13
+patient	HADO:0000008,OAE:0001817	0-7
+Age: Not specified	Eligibility	14
+age	PATO:0000011	0-3
+Sex: Female	Eligibility	15
+female	PATO:0000383	5-11
+Menopausal status: Not specified	Eligibility	16
+Performance status: Not specified	Eligibility	17
+Life expectancy: Not specified	Eligibility	18
+Hematopoietic:	Eligibility	19
+White cell count > 3000 / mm3 Platelet count > 100,000 / mm3	Eligibility	20
+cell count	BAO:0080041	6-16
+platelet count	CMO:0000029	30-44
+Hemoglobin > 9 mg / dl Bilirubin < 1.5 x normal Creatinine < 1.5 x normal left ventricular ejection fraction (LVEF) normal by resting nuclear ventriculogram Not pregnant or nursing Negative pregnancy test Fertile patients must use effective contraception	Eligibility	21
+hemoglobin	CHEBI:35143	0-10
+x	LABO:0000148	39-40
+x	LABO:0000148	65-66
+creatinine	CHEBI:16737	48-58
+left	HP:0012835	74-78
+ejection fraction	CMO:0000180	91-108
+Exclusions	Eligibility	22
+Prior malignancies except:	Eligibility	23
+Effectively treated squamous cell or basal cell skin cancer Carcinoma in situ of the cervix that has been curatively treated by surgery alone Nonbreast malignancy from which patient has been disease-free for 5 years and is at low risk of recurrence	Eligibility	24
+skin cancer	DOID:4159	48-59
+carcinoma	HP:0030731,DOID:305	60-69
+surgery	OAE:0000067	128-135
+patient	HADO:0000008,OAE:0001817	174-181
+Outcome Measurement:	Results	0
+Cardiac Toxicity of Weekly Taxol Given With Weekly Herceptin When Delivered Immediately Following Four Cycles of Standard Dose AC.	Results	1
+Doxorubicin + cyclophosphamide in combination with paclitaxel and trastuzumab (AC-TP) Associated Systolic Dysfunction. Systolic function was measured by the ventricular ejection fraction (LVEF). LVEF is a measurement in determining how well your heart is pumping out blood and in diagnosing and tracking heart failure.	Results	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	14-30
+paclitaxel	CHEBI:45863	51-61
+function	BAO:0003117,BFO:0000034	109-117
+function	BAO:0003117,BFO:0000034	128-136
+ejection fraction	CMO:0000180	169-186
+heart	UBERON:0000948	246-251
+heart	UBERON:0000948	304-309
+blood	UBERON:0000178	267-272
+Time frame: 78 weeks (1.5 years)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Herceptin Regimen After AC	Results	5
+Arm/Group Description: Patients in the adjuvant and neoadjuvant groups after receiving [AC-TP] Chemotherapy (doxorubicin & cyclophosphamide).	Results	6
+adjuvant	CHEBI:60809	39-47
+adjuvant	CHEBI:60809	55-63
+doxorubicin	CHEBI:28748,BAO:0000639	109-120
+cyclophosphamide	CHEBI:4026	123-139
+Overall Number of Participants Analyzed: 52	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Asymptomatic LVEF < 50%: 1   1.9%	Results	9
+Congestive Heart Failure: 0   0.0%	Results	10
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Results 2:	Results	11
+Arm/Group Title: Herceptin Regimen After TP	Results	12
+Arm/Group Description: Patients in the adjuvant and neoadjuvant groups after receiving chemotherapy and Taxol + Herceptin.	Results	13
+adjuvant	CHEBI:60809	39-47
+adjuvant	CHEBI:60809	55-63
+Overall Number of Participants Analyzed: 50	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  Asymptomatic LVEF < 50%: 8  16.0%	Results	16
+Congestive Heart Failure: 1   2.0%	Results	17
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Adverse Events 1:	Adverse Events	0
+Total: 7/52 (13.46%)	Adverse Events	1
+Febrile neutropenia (fever of unknown origin without clinically or microbiologically documented infe * 0/52 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+fever	HP:0001945	21-26
+Atrial Fibrillation * 1/52 (1.92%)	Adverse Events	3
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Sepsis * 1/52 (1.92%)	Adverse Events	4
+sepsis	HP:0100806	0-6
+Muscle weakness upper limb * 1/52 (1.92%)	Adverse Events	5
+muscle weakness	HP:0001324	0-15
+limb	UBERON:0002101	22-26
+Dizziness * 1/52 (1.92%)	Adverse Events	6
+Seizure * 1/52 (1.92%)	Adverse Events	7
+seizure	HP:0001250	0-7
+Nervous system disorders - Other, specify *  [1]1/52 (1.92%)	Adverse Events	8
+nervous system	UBERON:0001016	0-14
+Adverse Events 2:	Adverse Events	9
+Total: 1/30 (3.33%)	Adverse Events	10
+Febrile neutropenia (fever of unknown origin without clinically or microbiologically documented infe * 1/30 (3.33%)	Adverse Events	11
+neutropenia	HP:0001875,DOID:1227	8-19
+fever	HP:0001945	21-26
+Atrial Fibrillation * 0/30 (0.00%)	Adverse Events	12
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Sepsis * 0/30 (0.00%)	Adverse Events	13
+sepsis	HP:0100806	0-6
+Muscle weakness upper limb * 0/30 (0.00%)	Adverse Events	14
+muscle weakness	HP:0001324	0-15
+limb	UBERON:0002101	22-26
+Dizziness * 0/30 (0.00%)	Adverse Events	15
+Seizure * 0/30 (0.00%)	Adverse Events	16
+seizure	HP:0001250	0-7
+Nervous system disorders - Other, specify *  [1]0/30 (0.00%)	Adverse Events	17
+nervous system	UBERON:0001016	0-14

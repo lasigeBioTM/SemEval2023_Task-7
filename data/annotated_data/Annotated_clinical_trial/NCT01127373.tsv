@@ -1,0 +1,135 @@
+INTERVENTION 1:	Intervention	0
+Radiation Therapy Via Multi-beam IMRT	Intervention	1
+This is a single-arm feasibility study of multi-beam IMRT with daily set-up verification in the treatment of women with node-positive breast cancer who will receive radiation to the breast/chest wall and regional lymph nodes, including the internal mammary lymph nodes.	Intervention	2
+breast cancer	DOID:1612	134-147
+lymph	UBERON:0002391	213-218
+lymph	UBERON:0002391	257-262
+Multi-Beam Intensity-Modulated Radiation Therapy: IMRT with multiple beams will be utilized to treat the breast or chest wall and axillary, supraclavicular and internal mammary lymph nodes. Treatment will be delivered once a day, 5 days a week for approximately 5 weeks. All missed radiation treatment visits will be made up. Daily set-up error will be checked prior to the delivery of every treatment.	Intervention	3
+breast	UBERON:0000310	105-111
+chest	UBERON:0001443	115-120
+lymph	UBERON:0002391	177-182
+day	UO:0000033	225-228
+day	UO:0000033	232-235
+week	UO:0000034	239-243
+week	UO:0000034	264-268
+BreastQ questionnaire-: MSKCC Department of Surgery. For patients who received a mastectomy with or without reconstruction, the questionnaire will be administered at baseline and 5-7 months after treatment.	Intervention	4
+surgery	OAE:0000067	44-51
+Inclusion Criteria:	Eligibility	0
+Female gender	Eligibility	1
+female	PATO:0000383	0-6
+Age 18 years	Eligibility	2
+age	PATO:0000011	0-3
+An invasive primary breast cancer of any histology arising from breast parenchyma	Eligibility	3
+breast cancer	DOID:1612	20-33
+histology	NCIT:C16681	41-50
+breast	UBERON:0000310	20-26
+breast	UBERON:0000310	64-70
+parenchyma	UBERON:0000353	71-81
+Patient must be status post mastectomy or partial mastectomy with an assessment of axillary nodes via sentinel lymph node biopsy and/or axillary lymph node dissection	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+lymph	UBERON:0002391	111-116
+lymph	UBERON:0002391	145-150
+Pathologic confirmation of metastatic disease in at least one regional lymph node. Regional lymph nodes are defined as the ipsilateral axillary lymph nodes, ipsilateral supraclavicular lymph nodes, and ipsilateral internal mammary lymph nodes. Thus, any T stage is allowed as long as the N stage is 1 and M stage is 0.	Eligibility	5
+disease	DOID:4,OGMS:0000031	38-45
+lymph	UBERON:0002391	71-76
+lymph	UBERON:0002391	92-97
+lymph	UBERON:0002391	144-149
+lymph	UBERON:0002391	185-190
+lymph	UBERON:0002391	231-236
+t	CHEBI:36371,BAO:0001260	2-3
+t	CHEBI:36371,BAO:0001260	19-20
+t	CHEBI:36371,BAO:0001260	29-30
+t	CHEBI:36371,BAO:0001260	32-33
+t	CHEBI:36371,BAO:0001260	34-35
+t	CHEBI:36371,BAO:0001260	50-51
+t	CHEBI:36371,BAO:0001260	56-57
+t	CHEBI:36371,BAO:0001260	119-120
+t	CHEBI:36371,BAO:0001260	129-130
+t	CHEBI:36371,BAO:0001260	163-164
+t	CHEBI:36371,BAO:0001260	208-209
+t	CHEBI:36371,BAO:0001260	216-217
+t	CHEBI:36371,BAO:0001260	244-245
+t	CHEBI:36371,BAO:0001260	254-255
+t	CHEBI:36371,BAO:0001260	257-258
+t	CHEBI:36371,BAO:0001260	284-285
+t	CHEBI:36371,BAO:0001260	291-292
+t	CHEBI:36371,BAO:0001260	308-309
+Patient signed study-specific consent form.	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	7
+Patients with distant metastasis.	Eligibility	8
+Patients who are pregnant or breastfeeding.	Eligibility	9
+Patients with psychiatric or addictive disorders that would preclude obtaining informed consent.	Eligibility	10
+Time between initial diagnosis of breast cancer and start of radiation therapy exceeds 13 months.	Eligibility	11
+time	PATO:0000165	0-4
+breast cancer	DOID:1612	34-47
+Estimated life expectancy judged to be less than one year by patient's treating radiation oncologist.	Eligibility	12
+year	UO:0000036	53-57
+patient	HADO:0000008,OAE:0001817	61-68
+Prior radiation therapy to the ipsilateral or contralateral breast or thorax.	Eligibility	13
+breast	UBERON:0000310	60-66
+Primary breast cancer is a lymphoma or sarcoma histology.	Eligibility	14
+breast cancer	DOID:1612	8-21
+lymphoma	HP:0002665,DOID:0060058	27-35
+sarcoma	HP:0100242,DOID:1115	39-46
+histology	NCIT:C16681	47-56
+Patients with a history of non-skin malignancy <5 years prior to the diagnosis of breast cancer.	Eligibility	15
+history	BFO:0000182	16-23
+breast cancer	DOID:1612	82-95
+Patients requiring radiation to the bilateral breasts.	Eligibility	16
+bilateral	HP:0012832	36-45
+Outcome Measurement:	Results	0
+Count of Participants Receiving Adjuvant Radiation Therapy Via Multi-beam IMRT Using Daily 3D Position Verification	Results	1
+adjuvant	CHEBI:60809	32-40
+position	HP:0012830	94-102
+The purpose of this pilot study is to assess the feasibility of utilizing multi-beam IMRT in the adjuvant treatment of the breast and regional lymph nodes of women with node-positive breast cancer requiring coverage of the internal mammary lymph nodes. A feasibility rate of at least 90% is required, ie, treatment can be successfully planned and delivered for at least 90% of the patients.	Results	2
+adjuvant	CHEBI:60809	97-105
+breast	UBERON:0000310	123-129
+breast	UBERON:0000310	183-189
+lymph	UBERON:0002391	143-148
+lymph	UBERON:0002391	240-245
+breast cancer	DOID:1612	183-196
+rate	BAO:0080019	267-271
+Time frame: 5 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Radiation Therapy Via Multi-beam IMRT	Results	5
+Arm/Group Description: This is a single-arm feasibility study of multi-beam IMRT with daily set-up verification in the treatment of women with node-positive breast cancer who will receive radiation to the breast/chest wall and regional lymph nodes, including the internal mammary lymph nodes.	Results	6
+breast cancer	DOID:1612	157-170
+lymph	UBERON:0002391	236-241
+lymph	UBERON:0002391	280-285
+Multi-Beam Intensity-Modulated Radiation Therapy: IMRT with multiple beams will be utilized to treat the breast or chest wall and axillary, supraclavicular and internal mammary lymph nodes. Treatment will be delivered once a day, 5 days a week for approximately 5 weeks. All missed radiation treatment visits will be made up. Daily set-up error will be checked prior to the delivery of every treatment.	Results	7
+breast	UBERON:0000310	105-111
+chest	UBERON:0001443	115-120
+lymph	UBERON:0002391	177-182
+day	UO:0000033	225-228
+day	UO:0000033	232-235
+week	UO:0000034	239-243
+week	UO:0000034	264-268
+BreastQ questionnaire-: MSKCC Department of Surgery. For patients who received a mastectomy with or without reconstruction, the questionnaire will be administered at baseline and 5-7 months after treatment.	Results	8
+surgery	OAE:0000067	44-51
+Overall Number of Participants Analyzed: 116	Results	9
+Measure Type: Count of Participants	Results	10
+Unit of Measure: Participants  Discontinued IMRT due to disease progression: 1   0.9%	Results	11
+disease	DOID:4,OGMS:0000031	56-63
+Completed IMRT: 111  95.7%	Results	12
+Ineligible: 4   3.4%	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 10/116 (8.62%)	Adverse Events	1
+Death not assoc w CTCAE term-Disease prog NOS  1/116 (0.86%)	Adverse Events	2
+death	OAE:0000632	0-5
+Fever (in the absence of neutropenia)  1/116 (0.86%)	Adverse Events	3
+fever	HP:0001945	0-5
+neutropenia	HP:0001875,DOID:1227	25-36
+Pain - Chest/thorax NOS  1/116 (0.86%)	Adverse Events	4
+pain	HP:0012531	0-4
+Breast Infection  1/116 (0.86%)	Adverse Events	5
+breast	UBERON:0000310	0-6
+Back Pain  1/116 (0.86%)	Adverse Events	6
+back pain	HP:0003418	0-9
+Muscle weakness - Whole body/general  1/116 (0.86%)	Adverse Events	7
+muscle weakness	HP:0001324	0-15
+Pain - Back  1/116 (0.86%)	Adverse Events	8
+pain	HP:0012531	0-4
+Dysarthria  1/116 (0.86%)	Adverse Events	9
+dysarthria	HP:0001260	0-10

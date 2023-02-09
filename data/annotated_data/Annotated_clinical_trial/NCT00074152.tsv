@@ -1,0 +1,191 @@
+INTERVENTION 1:	Intervention	0
+Arm I	Intervention	1
+Observation (+/- Radiation). Patients receive radiotherapy* within 6 months after surgery.	Intervention	2
+radiotherapy	OAE:0000235	46-58
+surgery	OAE:0000067	82-89
+radiation therapy: Given within 6 months after surgery	Intervention	3
+surgery	OAE:0000067	47-54
+INTERVENTION 2:	Intervention	4
+Arm II	Intervention	5
+Chemotherapy (+/- Radiation). Within 10 weeks after surgery, patients receive at least 3 courses of an adjuvant chemotherapy regimen as determined by the investigator. Patients may receive radiotherapy within 6 months after surgery and after the completion of chemotherapy OR integrated with chemotherapy.	Intervention	6
+surgery	OAE:0000067	52-59
+surgery	OAE:0000067	224-231
+adjuvant	CHEBI:60809	103-111
+radiotherapy	OAE:0000235	189-201
+chemotherapy: Given within 10 weeks after surgery.	Intervention	7
+surgery	OAE:0000067	42-49
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed invasive breast cancer	Eligibility	1
+breast cancer	DOID:1612	34-47
+First local and/or regional (i.e., ipsilateral axillary or internal mammary lymph node region) recurrence after primary treatment with mastectomy or lumpectomy/quadrantectomy with clear surgical margins	Eligibility	2
+lymph	UBERON:0002391	76-81
+Local failure is defined as a tumor recurrence in any soft tissue of the ipsilateral conserved breast or the chest wall, mastectomy scar, and/or skin	Eligibility	3
+tissue	UBERON:0000479	59-65
+breast	UBERON:0000310	95-101
+chest	UBERON:0001443	109-114
+Regional failure is defined as a tumor recurrence in the ipsilateral axillary lymph nodes, extranodal soft tissue of the ipsilateral axilla, and/or ipsilateral internal mammary. Regional failure does not include supraclavicular lymph nodes or tumor in the opposite breast	Eligibility	4
+lymph	UBERON:0002391	78-83
+lymph	UBERON:0002391	228-233
+tissue	UBERON:0000479	107-113
+breast	UBERON:0000310	265-271
+No other prior recurrence in any site, including local	Eligibility	5
+site	BFO:0000029	33-37
+Surgical resection of the recurrence meeting 1 of the following criteria:	Eligibility	6
+Uninvolved ("clear") margins and planned radiotherapy with at least 40 Gy for patients who had no prior adjuvant radiotherapy	Eligibility	7
+radiotherapy	OAE:0000235	41-53
+radiotherapy	OAE:0000235	113-125
+adjuvant	CHEBI:60809	104-112
+Mastectomy of the recurrence with uninvolved ("clear") margins after lumpectomy/quadrantectomy alone for the primary	Eligibility	8
+Adjuvant trastuzumab (Herceptin®) therapy or other HER-2 directed therapies are allowed for patients with HER-2 positive tumors and must be declared prior to randomization	Eligibility	9
+adjuvant	CHEBI:60809	0-8
+No evidence of distant metastasis, including ipsilateral supraclavicular lymph nodes, by x-ray or CT scan of the chest, ultrasound or CT scan of the abdomen and pelvis, or bone scintigraphy only if alkaline phosphatase is > 2 times normal or if medically indicated (e.g., bone pain)	Eligibility	10
+lymph	UBERON:0002391	73-78
+ct	BAO:0002125	98-100
+ct	BAO:0002125	134-136
+chest	UBERON:0001443	113-118
+abdomen	UBERON:0000916	149-156
+phosphatase	GO:0016791,BAO:0000295	207-218
+bone pain	HP:0002653	272-281
+No macroscopically incomplete surgery	Eligibility	11
+surgery	OAE:0000067	30-37
+No bilateral malignancy except carcinoma in situ	Eligibility	12
+bilateral	HP:0012832	3-12
+carcinoma	HP:0030731,DOID:305	31-40
+No suspicious mass in the opposite breast unless that mass has been proven by biopsy to be benign	Eligibility	13
+breast	UBERON:0000310	35-41
+No skeletal pain of unknown cause	Eligibility	14
+pain	HP:0012531	12-16
+No hot spots on bone scan for which metastases cannot be ruled out by x-ray, MRI, and/or CT scan	Eligibility	15
+ct	BAO:0002125	89-91
+Hormone receptor status:	Eligibility	16
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Determined in the recurrent tumor by immunohistochemistry and/or ligand-binding assay	Eligibility	17
+recurrent	HP:0031796	18-27
+immunohistochemistry	BAO:0000415	37-57
+Estrogen receptor positive or negative	Eligibility	18
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+Progesterone receptor positive or negative	Eligibility	19
+progesterone	CHEBI:17026	0-12
+receptor	BAO:0000281	13-21
+PATIENT CHARACTERISTICS:	Eligibility	20
+patient	HADO:0000008,OAE:0001817	0-7
+Age	Eligibility	21
+age	PATO:0000011	0-3
+Minimum 18 years	Eligibility	22
+Sex	Eligibility	23
+Female	Eligibility	24
+female	PATO:0000383	0-6
+Menopausal status	Eligibility	25
+Not specified	Eligibility	26
+Performance status	Eligibility	27
+Not specified	Eligibility	28
+Life expectancy	Eligibility	29
+Not specified	Eligibility	30
+Hematopoietic	Eligibility	31
+Not specified	Eligibility	32
+Hepatic	Eligibility	33
+No elevated alkaline phosphatase	Eligibility	34
+phosphatase	GO:0016791,BAO:0000295	21-32
+Renal	Eligibility	35
+Not specified	Eligibility	36
+Other	Eligibility	37
+Fertile patients must use effective non-hormonal contraception	Eligibility	38
+Medically suitable for chemotherapy of 3-6 months duration	Eligibility	39
+duration	PATO:0001309	50-58
+No other primary malignant tumors except adequately treated carcinoma in situ of the cervix or nonmelanoma skin cancer	Eligibility	40
+carcinoma	HP:0030731,DOID:305	60-69
+skin cancer	DOID:4159	107-118
+No non-malignant systemic disease that would preclude study treatment or prolong follow-up	Eligibility	41
+disease	DOID:4,OGMS:0000031	26-33
+No psychiatric or addictive disorder that would preclude giving informed consent	Eligibility	42
+disorder	OGMS:0000045	28-36
+No history of noncompliance to medical regimens or potential for being unreliable	Eligibility	43
+history	BFO:0000182	3-10
+PRIOR CONCURRENT THERAPY:	Eligibility	44
+Biologic therapy	Eligibility	45
+Not specified	Eligibility	46
+Chemotherapy	Eligibility	47
+See Disease Characteristics	Eligibility	48
+disease	DOID:4,OGMS:0000031	4-11
+Endocrine therapy	Eligibility	49
+Not specified	Eligibility	50
+Radiotherapy	Eligibility	51
+radiotherapy	OAE:0000235	0-12
+See Disease Characteristics	Eligibility	52
+disease	DOID:4,OGMS:0000031	4-11
+Surgery	Eligibility	53
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	54
+disease	DOID:4,OGMS:0000031	4-11
+Outcome Measurement:	Results	0
+Disease-free Survival	Results	1
+[Not Specified]	Results	2
+Time frame: 5 years after randomization	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I	Results	5
+Arm/Group Description: Observation (+/- Radiation). Patients receive radiotherapy* within 6 months after surgery.	Results	6
+radiotherapy	OAE:0000235	69-81
+surgery	OAE:0000067	105-112
+radiation therapy: Given within 6 months after surgery	Results	7
+surgery	OAE:0000067	47-54
+Overall Number of Participants Analyzed: 77	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  57        (44 to 67)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Arm II	Results	12
+Arm/Group Description: Chemotherapy (+/- Radiation). Within 10 weeks after surgery, patients receive at least 3 courses of an adjuvant chemotherapy regimen as determined by the investigator. Patients may receive radiotherapy within 6 months after surgery and after the completion of chemotherapy OR integrated with chemotherapy.	Results	13
+surgery	OAE:0000067	75-82
+surgery	OAE:0000067	247-254
+adjuvant	CHEBI:60809	126-134
+radiotherapy	OAE:0000235	212-224
+chemotherapy: Given within 10 weeks after surgery.	Results	14
+surgery	OAE:0000067	42-49
+Overall Number of Participants Analyzed: 85	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of participants  69        (56 to 79)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/77 (0.00%)	Adverse Events	1
+Neutropenia  [1]0/77 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Left ventricular dysfunction 0/77 (0.00%)	Adverse Events	3
+left	HP:0012835	0-4
+Cardiac ischemia 0/77 (0.00%)	Adverse Events	4
+ischemia	DOID:326	8-16
+Gastrointestinal pain 0/77 (0.00%)	Adverse Events	5
+pain	HP:0012531	17-21
+Colitis 0/77 (0.00%)	Adverse Events	6
+colitis	HP:0002583,DOID:0060180	0-7
+Febrile neutropenia 0/77 (0.00%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	8-19
+Pulmonary/upper respiratory infection 0/77 (0.00%)	Adverse Events	8
+Diverticulitis 0/77 (0.00%)	Adverse Events	9
+diverticulitis	DOID:7475	0-14
+Motor neuropathy 0/77 (0.00%)	Adverse Events	10
+neuropathy	DOID:870	6-16
+Endometrial mucosa thinkening 0/77 (0.00%)	Adverse Events	11
+mucosa	UBERON:0000344	12-18
+Adverse Events 2:	Adverse Events	12
+Total: 12/85 (14.12%)	Adverse Events	13
+Neutropenia  [1]1/85 (1.18%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	0-11
+Left ventricular dysfunction 1/85 (1.18%)	Adverse Events	15
+left	HP:0012835	0-4
+Cardiac ischemia 2/85 (2.35%)	Adverse Events	16
+ischemia	DOID:326	8-16
+Gastrointestinal pain 1/85 (1.18%)	Adverse Events	17
+pain	HP:0012531	17-21
+Colitis 1/85 (1.18%)	Adverse Events	18
+colitis	HP:0002583,DOID:0060180	0-7
+Febrile neutropenia 3/85 (3.53%)	Adverse Events	19
+neutropenia	HP:0001875,DOID:1227	8-19
+Pulmonary/upper respiratory infection 1/85 (1.18%)	Adverse Events	20
+Diverticulitis 1/85 (1.18%)	Adverse Events	21
+diverticulitis	DOID:7475	0-14
+Motor neuropathy 1/85 (1.18%)	Adverse Events	22
+neuropathy	DOID:870	6-16
+Endometrial mucosa thinkening 1/85 (1.18%)	Adverse Events	23
+mucosa	UBERON:0000344	12-18

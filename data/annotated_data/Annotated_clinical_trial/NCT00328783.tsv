@@ -1,0 +1,74 @@
+INTERVENTION 1:	Intervention	0
+Active Breathing Coordinator	Intervention	1
+active	PATO:0002354	0-6
+Patients breathe through the ABC device	Intervention	2
+Active Breathing Coordinator (ABC) : The generated dose distributions from the free-breathing versus ABC plans will be compared to assess the volume of normal tissue, as well as target volume irradiated, utilizing dose-volume histograms.	Intervention	3
+active	PATO:0002354	0-6
+volume	PATO:0000918	142-148
+volume	PATO:0000918	185-191
+volume	PATO:0000918	219-225
+tissue	UBERON:0000479	159-165
+target	BAO:0003064	178-184
+Inclusion Criteria:	Eligibility	0
+Requiring adjuvant or post mastectomy radiation therapy with tangential fields or 3-fields	Eligibility	1
+adjuvant	CHEBI:60809	10-18
+Adequate pulmonary function	Eligibility	2
+function	BAO:0003117,BFO:0000034	19-27
+Presence of 5 cc of the heart or liver with the simulation fields	Eligibility	3
+heart	UBERON:0000948	24-29
+liver	UBERON:0002107	33-38
+Karnofsky Performance Status (KPS) equal to or greater than 70	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+Pregnant women	Eligibility	6
+Patients who have had previous ipsilateral breast or thoracic radiation therapy	Eligibility	7
+breast	UBERON:0000310	43-49
+Outcome Measurement:	Results	0
+Dosimetric Evaluation Magnitude of Reduction in Irradiated Normal Tissues	Results	1
+To evaluate the magnitude of reduction in irradiated normal tissues (heart and lung) when using the Active Breathing Coordinator (ABC) in breast patients, as compared to standard, free-breathing.	Results	2
+heart	UBERON:0000948	69-74
+lung	UBERON:0002048	79-83
+active	PATO:0002354	100-106
+breast	UBERON:0000310	138-144
+The generated dose distributions from the free-breathing vs. ABC plans will be compared to assess the volume of normal tissue, as well as target volume irradiated, utilizing dose-volume histograms. Specifically, for the heart, the volume receiving 55 and 40 Gy will be evaluated; for the liver the volume receiving 50 and 36 Gy, and for the lung, the volume receiving 20 Gy. For the contralateral breast the volume receiving 20 Gy, 30 Gy and 50 Gy will be evaluated. Patients will be treated with the ABC device if there is at least 5 % relative reduction in the volume of a normal tissue irradiated to prescription dose.	Results	3
+volume	PATO:0000918	102-108
+volume	PATO:0000918	145-151
+volume	PATO:0000918	179-185
+volume	PATO:0000918	231-237
+volume	PATO:0000918	298-304
+volume	PATO:0000918	351-357
+volume	PATO:0000918	408-414
+volume	PATO:0000918	563-569
+tissue	UBERON:0000479	119-125
+tissue	UBERON:0000479	582-588
+target	BAO:0003064	138-144
+heart	UBERON:0000948	220-225
+liver	UBERON:0002107	288-293
+lung	UBERON:0002048	341-345
+breast	UBERON:0000310	397-403
+Time frame: At time of radiation	Results	4
+time	PATO:0000165	0-4
+time	PATO:0000165	15-19
+Results 1:	Results	5
+Arm/Group Title: Active Breathing Coordinator	Results	6
+active	PATO:0002354	17-23
+Arm/Group Description: Patients breathe through the ABC device	Results	7
+Active Breathing Coordinator (ABC) : The generated dose distributions from the free-breathing versus ABC plans will be compared to assess the volume of normal tissue, as well as target volume irradiated, utilizing dose-volume histograms.	Results	8
+active	PATO:0002354	0-6
+volume	PATO:0000918	142-148
+volume	PATO:0000918	185-191
+volume	PATO:0000918	219-225
+tissue	UBERON:0000479	159-165
+target	BAO:0003064	178-184
+Overall Number of Participants Analyzed: 86	Results	9
+Mean (95% Confidence Interval)	Results	10
+mean	BAO:0002173	0-4
+Unit of Measure: Gy  Free breathing (heart): 3.0        (2.6 to 3.3)	Results	11
+heart	UBERON:0000948	37-42
+ABC (heart): 1.1        (0.9 to 1.3)	Results	12
+heart	UBERON:0000948	5-10
+Free breathing (lung): 6.0        (5.3 to 6.8)	Results	13
+lung	UBERON:0002048	16-20
+ABC (lung): 5.4        (4.9 to 5.9)	Results	14
+lung	UBERON:0002048	5-9
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1

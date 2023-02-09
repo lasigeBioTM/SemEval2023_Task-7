@@ -1,0 +1,91 @@
+INTERVENTION 1:	Intervention	0
+Placebo	Intervention	1
+Placebo	Intervention	2
+Placebo: daily placebo for 6 weeks	Intervention	3
+INTERVENTION 2:	Intervention	4
+Curcumin	Intervention	5
+curcumin	CHEBI:3962	0-8
+500 mg BID	Intervention	6
+Curcumin: 500 mg BID	Intervention	7
+curcumin	CHEBI:3962	0-8
+Inclusion Criteria:	Eligibility	0
+Female breast cancer patients over the age of 18 will be recruited for this study. Patients enrolled in the study will meet standard criteria for whole breast XRT.	Eligibility	1
+female breast cancer	DOID:0050671	0-20
+age	PATO:0000011	39-42
+breast	UBERON:0000310	7-13
+breast	UBERON:0000310	152-158
+Exclusion Criteria:	Eligibility	2
+Subjects will be excluded for a number of medical conditions that are contraindications to XRT and/or might confound the relationship among fatigue, and inflammation, including pregnancy, major psychiatric disorders, autoimmune or inflammatory disorders, chronic infectious diseases (e.g. HIV, hepatitis B or C), neurologic disorders and uncontrolled cardiovascular, metabolic, pulmonary or renal disease (as determined by medical history, physical examination and laboratory testing). Subjects with a history of a major psychiatric disorder including Schizophrenia or Bipolar Disorder or a diagnosis of Substance Abuse or Dependence within the past 1 year (as determined by standardized psychiatric interview) will be excluded. Subjects taking drugs known to affect the immune system (e.g. glucocorticoids, methotrexate) will also be excluded. Subjects using supplements or other natural products with one week of starting medications, excluding vitamins and calcium supplementation or at the discretion of the attending physician, will be excluded. Patients who have evidence of infection as determined by history, physical exam or laboratory testing (complete blood count and urinalysis) at baseline will be excluded. In addition, patients who develop evidence of infection (as determined by history, physical exam or laboratory testing) during the study will be discontinued from the study.	Eligibility	3
+excluded	HP:0040285	17-25
+excluded	HP:0040285	719-727
+excluded	HP:0040285	835-843
+excluded	HP:0040285	1041-1049
+excluded	HP:0040285	1211-1219
+fatigue	HP:0012378	140-147
+chronic	HP:0011010	255-262
+hepatitis b	DOID:2043	294-305
+disease	DOID:4,OGMS:0000031	274-281
+disease	DOID:4,OGMS:0000031	397-404
+history	BFO:0000182	431-438
+history	BFO:0000182	502-509
+history	BFO:0000182	1108-1115
+history	BFO:0000182	1295-1302
+physical examination	OAE:0004232	440-460
+disorder	OGMS:0000045	206-214
+disorder	OGMS:0000045	244-252
+disorder	OGMS:0000045	324-332
+disorder	OGMS:0000045	533-541
+disorder	OGMS:0000045	577-585
+schizophrenia	HP:0100753,DOID:5419	552-565
+bipolar disorder	DOID:3312	569-585
+substance abuse	DOID:302	604-619
+year	UO:0000036	652-656
+immune system	UBERON:0002405	771-784
+methotrexate	CHEBI:44185	808-820
+week	UO:0000034	907-911
+calcium	CHEBI:22984,BAO:0000874	960-967
+blood	UBERON:0000178	1163-1168
+Outcome Measurement:	Results	0
+PBMC NF-kB DNA Binding Measured in ng/Well	Results	1
+dna binding	GO:0003677	11-22
+The primary outcome to be measured will be the change in NF-kB DNA binding (measured in peripheral blood mononuclear cells as ng/well) after six weeks of treatment with daily placebo or Meriva. NF-kB DNA binding and has been associated with fatigue in breast cancer patients.	Results	2
+dna binding	GO:0003677	63-74
+dna binding	GO:0003677	200-211
+peripheral	HP:0030646	88-98
+blood	UBERON:0000178	99-104
+fatigue	HP:0012378	241-248
+breast cancer	DOID:1612	252-265
+Time frame: Baseline, 6 weeks following completion of XRT	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Placebo	Results	5
+Arm/Group Description: Placebo	Results	6
+Placebo: daily placebo for 6 weeks	Results	7
+Overall Number of Participants Analyzed: 13	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ng/well  Baseline: 9.01         (14.70)	Results	10
+6 weeks post-treatment: 17.54         (9.24)	Results	11
+Results 2:	Results	12
+Arm/Group Title: Curcumin	Results	13
+curcumin	CHEBI:3962	17-25
+Arm/Group Description: 500 mg BID	Results	14
+Curcumin: 500 mg BID	Results	15
+curcumin	CHEBI:3962	0-8
+Overall Number of Participants Analyzed: 15	Results	16
+Mean (Standard Deviation)	Results	17
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: ng/well  Baseline: 9.56         (5.63)	Results	18
+6 weeks post-treatment: 16.04         (16.13)	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/15 (0.00%)	Adverse Events	1
+Chest Pain *0/15 (0.00%)	Adverse Events	2
+chest pain	HP:0100749	0-10
+Motor vehicle accident *0/15 (0.00%)	Adverse Events	3
+Adverse Events 2:	Adverse Events	4
+Total: 2/15 (13.33%)	Adverse Events	5
+Chest Pain *1/15 (6.67%)	Adverse Events	6
+chest pain	HP:0100749	0-10
+Motor vehicle accident *1/15 (6.67%)	Adverse Events	7

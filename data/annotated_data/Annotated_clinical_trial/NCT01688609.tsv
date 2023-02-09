@@ -1,0 +1,152 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Lapatinib, Trastuzumab, Paclitaxel, Surgery)	Intervention	1
+lapatinib	CHEBI:49603	11-20
+paclitaxel	CHEBI:45863	35-45
+surgery	OAE:0000067	47-54
+Drug exposure: Patients receive lapatinib ditosylate PO QD and trastuzumab IV over 30-90 minutes once weekly for 6 weeks in the absence of disease progression or unacceptable toxicity.	Intervention	2
+drug	CHEBI:23888	0-4
+lapatinib	CHEBI:49603	32-41
+disease	DOID:4,OGMS:0000031	139-146
+Preoperative therapy: Patients receive lapatinib ditosylate PO QD, trastuzumab IV over 30 minutes once weekly, and paclitaxel IV over 90 minutes once weekly for 12 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo lumpectomy or mastectomy.	Intervention	3
+lapatinib	CHEBI:49603	39-48
+paclitaxel	CHEBI:45863	115-125
+disease	DOID:4,OGMS:0000031	188-195
+lapatinib ditosylate: Given PO	Intervention	4
+lapatinib	CHEBI:49603	0-9
+paclitaxel: Given IV	Intervention	5
+paclitaxel	CHEBI:45863	0-10
+trastuzumab: Given IV	Intervention	6
+therapeutic conventional surgery: Undergo lumpectomy or mastectomy	Intervention	7
+surgery	OAE:0000067	25-32
+pharmacological study: Correlative studies	Intervention	8
+laboratory biomarker analysis: Correlative studies	Intervention	9
+biomarker	CHEBI:59163	11-20
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed primary invasive breast cancer	Eligibility	1
+breast cancer	DOID:1612	78-91
+Primary tumor is larger than 2 cm in diameter (T2) as measured by caliper or ultrasound	Eligibility	2
+diameter	PATO:0001334	37-45
+Overexpression and/or amplification of HER2 is confirmed by immunohistochemistry (IHC) 3+ or fluorescence in situ hybridization (FISH) + when IHC 2+	Eligibility	3
+immunohistochemistry	BAO:0000415	60-80
+Patients have not received prior therapies for breast cancer	Eligibility	4
+breast cancer	DOID:1612	47-60
+Patients have Karnofsky >= 70%	Eligibility	5
+Leukocytes >= 3,000/mcL	Eligibility	6
+Absolute neutrophil count >= 1,500/mcL	Eligibility	7
+Hemoglobin >= 9.0 g/dL	Eligibility	8
+hemoglobin	CHEBI:35143	0-10
+Platelets >= 75,000/mcL	Eligibility	9
+Total bilirubin =< 1.5 times institutional upper limit of normal	Eligibility	10
+Aspartate aminotransferase (AST)(serum glutamic oxaloacetic transaminase [SGOT])/alanine aminotransferase (ALT)(serum glutamic pyruvate transaminase[SGPT]) =< 2.5 times institutional ULN	Eligibility	11
+aspartate	CHEBI:29995	0-9
+pyruvate	CHEBI:15361	127-135
+Creatinine =< 1.5 times institutional upper limit of normal (ULN)	Eligibility	12
+creatinine	CHEBI:16737	0-10
+Patients must have left ventricular ejection fraction (LVEF) >= 50% by multi-gated acquisition (MUGA) or echocardiography	Eligibility	13
+left	HP:0012835	19-23
+ejection fraction	CMO:0000180	36-53
+Patients must be able to take oral medications (i.e., no uncontrolled vomiting, inability to swallow, or diagnosis of chronic malabsorption)	Eligibility	14
+vomiting	HP:0002013	70-78
+chronic	HP:0011010	118-125
+malabsorption	HP:0002024	126-139
+Women of childbearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation as well as for at least 6 months after the last dose of trastuzumab	Eligibility	15
+duration	PATO:0001309	164-172
+Ability to understand and willingness not only for treatment but also for undergoing serial biopsies and sign a written informed consent document	Eligibility	16
+document	IAO:0000310	137-145
+Only Japanese women are eligible for the trial	Eligibility	17
+Exclusion Criteria:	Eligibility	18
+Patients who have had chemotherapy or radiotherapy	Eligibility	19
+radiotherapy	OAE:0000235	38-50
+Patients who are receiving any other investigational agents	Eligibility	20
+Patients have distal metastasis (stage IV disease)	Eligibility	21
+distal	HP:0012839	14-20
+disease	DOID:4,OGMS:0000031	42-49
+Patients with previous (within 10 years) or current history of malignant neoplasm except for curatively treated basal and squamous cell carcinoma of the skin or carcinoma in situ of the cervix	Eligibility	22
+history	BFO:0000182	52-59
+neoplasm	HP:0002664,DOID:14566	73-81
+squamous cell carcinoma of the skin	HP:0006739	122-157
+carcinoma	HP:0030731,DOID:305	136-145
+carcinoma	HP:0030731,DOID:305	161-170
+Patients with a history of allergic reactions attributed to compounds of similar chemical or biologic composition to lapatinib or other agents used in study	Eligibility	23
+history	BFO:0000182	16-23
+lapatinib	CHEBI:49603	117-126
+Patients receiving any medications or substances that are inhibitors or inducers of cytochrome P450 3A4 (CYP3A4) are ineligible	Eligibility	24
+cytochrome p450	CHEBI:38559	84-99
+Patients who have uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	25
+active	PATO:0002354	94-100
+congestive heart failure	HP:0001635,DOID:6000	124-148
+angina pectoris	HP:0001681	159-174
+arrhythmia	HP:0011675	184-194
+Pregnant women	Eligibility	26
+Patients who have family or personal history of congenital long or short QT syndrome, Brugada syndrome, QT/QTc prolongation, or torsade de pointes	Eligibility	27
+history	BFO:0000182	37-44
+short qt syndrome	DOID:0050793	67-84
+brugada syndrome	DOID:0050451	86-102
+torsade de pointes	HP:0001664	128-146
+Patients who have chronic gastrointestinal disease presenting with diarrhea (inflammatory bowel disease, malabsorption, or >= grade 2 diarrhea of any etiology at baseline)	Eligibility	28
+chronic	HP:0011010	18-25
+disease	DOID:4,OGMS:0000031	43-50
+disease	DOID:4,OGMS:0000031	96-103
+diarrhea	HP:0002014,DOID:13250	67-75
+diarrhea	HP:0002014,DOID:13250	134-142
+inflammatory bowel disease	DOID:0050589	77-103
+malabsorption	HP:0002024	105-118
+Patients who have neuropathy >= grade 2 of any cause	Eligibility	29
+neuropathy	DOID:870	18-28
+Patients are diagnosed with inflammatory breast cancer or bilateral breast cancer	Eligibility	30
+breast cancer	DOID:1612	41-54
+breast cancer	DOID:1612	68-81
+bilateral breast cancer	DOID:6741	58-81
+Outcome Measurement:	Results	0
+Expression of ALDH1 and CD44v Change in the Binary Biomarkers From Baseline to 6 Weeks and 18 Weeks	Results	1
+For biomarkers ALDH1 and CD44v, the change in the proportions of CD44v-positive (CD44v+) tumor cells and ALDH1-positive (ALDH1+) tumor cells in tumor tissue from baseline to 6 weeks and 18 weeks time points were determined for each patient. For biomarker change, changes in the binary biomarkers between time points were assessed using McNemar's test in all patients and separately in patients with and without pCR.	Results	2
+tissue	UBERON:0000479	150-156
+time	PATO:0000165	195-199
+time	PATO:0000165	304-308
+patient	HADO:0000008,OAE:0001817	232-239
+patient	HADO:0000008,OAE:0001817	358-365
+patient	HADO:0000008,OAE:0001817	385-392
+biomarker	CHEBI:59163	4-13
+biomarker	CHEBI:59163	245-254
+biomarker	CHEBI:59163	285-294
+Time frame: From baseline to 18 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment (Lapatinib, Trastuzumab, Paclitaxel, Surgery)	Results	5
+lapatinib	CHEBI:49603	28-37
+paclitaxel	CHEBI:45863	52-62
+surgery	OAE:0000067	64-71
+Arm/Group Description: Drug exposure: Patients receive lapatinib ditosylate PO QD and trastuzumab IV over 30-90 minutes once weekly for 6 weeks in the absence of disease progression or unacceptable toxicity.	Results	6
+drug	CHEBI:23888	23-27
+lapatinib	CHEBI:49603	55-64
+disease	DOID:4,OGMS:0000031	162-169
+Preoperative therapy: Patients receive lapatinib ditosylate PO QD, trastuzumab IV over 30 minutes once weekly, and paclitaxel IV over 90 minutes once weekly for 12 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo lumpectomy or mastectomy.	Results	7
+lapatinib	CHEBI:49603	39-48
+paclitaxel	CHEBI:45863	115-125
+disease	DOID:4,OGMS:0000031	188-195
+lapatinib ditosylate: Given PO	Results	8
+lapatinib	CHEBI:49603	0-9
+paclitaxel: Given IV	Results	9
+paclitaxel	CHEBI:45863	0-10
+trastuzumab: Given IV	Results	10
+therapeutic conventional surgery: Undergo lumpectomy or mastectomy	Results	11
+surgery	OAE:0000067	25-32
+pharmacological study: Correlative studies	Results	12
+laboratory biomarker analysis: Correlative studies	Results	13
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 18	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  baseline CD44v expression : pCR: 5  27.8%	Results	16
+baseline CD44v expression : non-pCR: 3  16.7%	Results	17
+CD44v expression at 6 weeks : pCR: 0   0.0%	Results	18
+CD44v expression at 6 weeks : non-pCR: 4  22.2%	Results	19
+CD44v expression at 18 weeks : pCR: 0   0.0%	Results	20
+CD44v expression at 18 weeks : non-pCR: 5  27.8%	Results	21
+baseline ALDH1 expression : pCR: 8  44.4%	Results	22
+baseline ALDH1 expression : non-pCR: 10  55.6%	Results	23
+ALDH1 expression at 6 weeks : pCR: 7  38.9%	Results	24
+ALDH1 expression at 6 weeks : non-pCR: 10  55.6%	Results	25
+ALDH1 expression at 18 weeks : pCR: 8  44.4%	Results	26
+ALDH1 expression at 18 weeks : non-pCR: 9  50.0%	Results	27
+Adverse Events 1:	Adverse Events	0
+Total: 0/18 (0.00%)	Adverse Events	1

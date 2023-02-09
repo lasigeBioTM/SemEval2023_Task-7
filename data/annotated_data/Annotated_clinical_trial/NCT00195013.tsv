@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+Glutamine	Intervention	1
+glutamine	CHEBI:28300	0-9
+10 grams three times a day (orally) for four days and then stop	Intervention	2
+day	UO:0000033	23-26
+day	UO:0000033	45-48
+glutamine: 10 grams three times a day (orally) for four days and then stop	Intervention	3
+glutamine	CHEBI:28300	0-9
+day	UO:0000033	34-37
+day	UO:0000033	56-59
+INTERVENTION 2:	Intervention	4
+Placebo	Intervention	5
+10 grams three times a day (orally) for four days and then stop	Intervention	6
+day	UO:0000033	23-26
+day	UO:0000033	45-48
+Placebo: 10 grams three times a day (orally) for four days and then stop	Intervention	7
+day	UO:0000033	32-35
+day	UO:0000033	54-57
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed breast cancer, Stage I, II, III or IV or other solid tumors.	Eligibility	1
+breast cancer	DOID:1612	61-74
+Patients must be receiving weekly paclitaxel or nab-paclitaxel chemotherapy or have recently completed paclitaxel or nab-paclitaxel chemotherapy and have at least a Grade I peripheral neuropathy (see Appendix A) because of therapy.	Eligibility	2
+paclitaxel	CHEBI:45863	34-44
+paclitaxel	CHEBI:45863	52-62
+paclitaxel	CHEBI:45863	103-113
+paclitaxel	CHEBI:45863	121-131
+peripheral neuropathy	HP:0009830,DOID:870	173-194
+Because no dosing or adverse event data are currently available on the use of glutamine in patients <18 years of age, children are excluded from this study but will be eligible for future pediatric phase 1 single-agent trials.	Eligibility	3
+adverse event	OAE:0000001	21-34
+glutamine	CHEBI:28300	78-87
+age	PATO:0000011	113-116
+age	PATO:0000011	213-216
+excluded	HP:0040285	131-139
+ECOG performance status <1 (Karnofsky >90%).	Eligibility	4
+Life expectancy of greater than 3 months.	Eligibility	5
+Patients must have sufficient organ and marrow function so that paclitaxel treatment can be administered.	Eligibility	6
+organ	UBERON:0000062	30-35
+function	BAO:0003117,BFO:0000034	47-55
+paclitaxel	CHEBI:45863	64-74
+The effects of glutamine on the developing human fetus are unknown. For this reason, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.	Eligibility	7
+glutamine	CHEBI:28300	15-24
+duration	PATO:0001309	258-266
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	8
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	9
+Patients who have experienced prior neuropathies not associated with chemotherapy	Eligibility	10
+Patients may not be receiving any other investigational agents.	Eligibility	11
+Patients with known brain metastases should be excluded from this clinical trial because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events.	Eligibility	12
+brain	UBERON:0000955	20-25
+excluded	HP:0040285	47-55
+progressive	HP:0003676	144-155
+There are no known allergies associated with glutamine.	Eligibility	13
+glutamine	CHEBI:28300	45-54
+Uncontrolled intercurrent illness that render the patient ineligible to receive paclitaxel chemotherapy.	Eligibility	14
+patient	HADO:0000008,OAE:0001817	50-57
+paclitaxel	CHEBI:45863	80-90
+Pregnant women are excluded from this study because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with glutamine. Breastfeeding should also be discontinued if the mother is treated with glutamine.	Eligibility	15
+excluded	HP:0040285	19-27
+glutamine	CHEBI:28300	171-180
+glutamine	CHEBI:28300	254-263
+Because patients with immune deficiency are at increased risk of lethal infections when treated with marrow-suppressive therapy, HIV-positive patients receiving combination anti-retroviral therapy are excluded from the study because of possible pharmacokinetic interactions with glutamine. Appropriate studies will be undertaken in patients receiving combination anti-retroviral therapy when indicated.	Eligibility	16
+excluded	HP:0040285	201-209
+glutamine	CHEBI:28300	279-288
+Concurrent chemotherapy with another drug known to cause neuropathy (CDDP or CBDCA or oxaliplatin) are excluded.	Eligibility	17
+drug	CHEBI:23888	37-41
+neuropathy	DOID:870	57-67
+oxaliplatin	CHEBI:31941	86-97
+excluded	HP:0040285	103-111
+Outcome Measurement:	Results	0
+Change in Peripheral Neuropathy Score	Results	1
+peripheral neuropathy	HP:0009830,DOID:870	10-31
+Used the clinical total neuropathy score scale (TNSc). The presence of sensory, motor, pin sensibility, vibration sensibility, DTR, autonomic symptoms was assessed. For each item, the possible score ranged between 0 (normal) and 4 (worst possible result).	Results	2
+neuropathy	DOID:870	24-34
+result	BAO:0000179	247-253
+Outcomes calculated as neuropathy score value at 10 Weeks minus neuropathy score value at Baseline. Increased score value indicates increased neuropathy severity.	Results	3
+neuropathy	DOID:870	23-33
+neuropathy	DOID:870	64-74
+neuropathy	DOID:870	142-152
+severity	HP:0012824	153-161
+Time frame: Duration of study, approximately 10 weeks per subject	Results	4
+time	PATO:0000165	0-4
+duration	PATO:0001309	12-20
+Results 1:	Results	5
+Arm/Group Title: Glutamine	Results	6
+glutamine	CHEBI:28300	17-26
+Arm/Group Description: 10 grams three times a day (orally) for four days and then stop	Results	7
+day	UO:0000033	46-49
+day	UO:0000033	68-71
+glutamine: 10 grams three times a day (orally) for four days and then stop	Results	8
+glutamine	CHEBI:28300	0-9
+day	UO:0000033	34-37
+day	UO:0000033	56-59
+Overall Number of Participants Analyzed: 14	Results	9
+Mean (Full Range)	Results	10
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: Change in Total Neuropathy Score  0.3        (-5 to 3)	Results	11
+neuropathy	DOID:870	33-43
+Results 2:	Results	12
+Arm/Group Title: Placebo	Results	13
+Arm/Group Description: 10 grams three times a day (orally) for four days and then stop	Results	14
+day	UO:0000033	46-49
+day	UO:0000033	68-71
+Placebo: 10 grams three times a day (orally) for four days and then stop	Results	15
+day	UO:0000033	32-35
+day	UO:0000033	54-57
+Overall Number of Participants Analyzed: 16	Results	16
+Mean (Full Range)	Results	17
+mean	BAO:0002173	0-4
+range	LABO:0000114	11-16
+Unit of Measure: Change in Total Neuropathy Score  0.9        (-6 to 7)	Results	18
+neuropathy	DOID:870	33-43
+Adverse Events 1:	Adverse Events	0
+Total: 0/14 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/16 (0.00%)	Adverse Events	3

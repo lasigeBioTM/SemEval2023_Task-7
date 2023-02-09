@@ -1,0 +1,139 @@
+INTERVENTION 1:	Intervention	0
+Collective Placebo	Intervention	1
+Patients receive 1 capsule of placebo 2 times per day for 6 weeks and; patients receive 1 capsule of placebo 4 times per day for 6 weeks.	Intervention	2
+capsule	GO:0042603	19-26
+capsule	GO:0042603	90-97
+day	UO:0000033	50-53
+day	UO:0000033	121-124
+INTERVENTION 2:	Intervention	3
+Pilocarpine 2 Times Per Day	Intervention	4
+pilocarpine	CHEBI:39462	0-11
+day	UO:0000033	24-27
+Patients receive 5mg of Pilocarpine 2 times per day for 6 weeks.	Intervention	5
+pilocarpine	CHEBI:39462	24-35
+day	UO:0000033	48-51
+Required Characteristics:	Eligibility	0
+Adult post menopausal women or women with no childbearing potential ( 18 years) with a history of breast cancer (currently no evidence of disease) or women who do not want to take vaginal estrogen for a fear of an increased risk of breast cancer. Postmenopausal status will be determined by the primary physician.	Eligibility	1
+adult	EFO:0001272	0-5
+history	BFO:0000182	87-94
+breast cancer	DOID:1612	98-111
+breast cancer	DOID:1612	232-245
+disease	DOID:4,OGMS:0000031	138-145
+estrogen	CHEBI:50114,BAO:0000760	188-196
+Significant vaginal complaints defined as persistent vaginal dryness and/or itching of sufficient severity to make a patient desire therapeutic intervention. Symptoms should have been present  2 months prior to randomization.	Eligibility	2
+vaginal dryness	HP:0031088	53-68
+severity	HP:0012824	98-106
+patient	HADO:0000008,OAE:0001817	117-124
+therapeutic intervention	OAE:0000094	132-156
+present	PATO:0000467	184-191
+Life expectancy > 6 months	Eligibility	3
+Ability to complete questionnaire(s) by themselves or with assistance.	Eligibility	4
+Contraindications:	Eligibility	5
+Initiation or discontinuation of tamoxifen or aromatase inhibitors 2 months prior to randomization or plans to initiate or discontinue any of these medications during the 6-week study.	Eligibility	6
+tamoxifen	CHEBI:41774	33-42
+Active vaginal infection	Eligibility	7
+active	PATO:0002354	0-6
+Concurrent chemotherapy	Eligibility	8
+Acute iritis	Eligibility	9
+acute	HP:0011009,PATO:0000389	0-5
+iritis	HP:0001101,DOID:1406	6-12
+Current or past use of pilocarpine (regardless of purpose)	Eligibility	10
+pilocarpine	CHEBI:39462	23-34
+Planned use of any vaginal preparations during the study period (including any over the counter or herbal preparations). Note: Lubricants used during sexual intercourse are permitted.	Eligibility	11
+Use of any vaginal preparations  1 week prior to study entry (Exception: If patient has used vaginal preparations during the previous week but will stop, then they can be placed on study with plans to start with pretreatment questionnaire one week later). Note: Lubricants used during sexual intercourse are permitted.	Eligibility	12
+week	UO:0000034	35-39
+week	UO:0000034	134-138
+week	UO:0000034	243-247
+patient	HADO:0000008,OAE:0001817	76-83
+Current ( 4weeks prior to randomization), or planned during the study period, use of any estrogen product.	Eligibility	13
+estrogen	CHEBI:50114,BAO:0000760	89-97
+product	BAO:0003067	98-105
+A diagnosis of asthma, COPD, CAD or narrow angle glaucoma, or known cholelithiasis.	Eligibility	14
+asthma	HP:0002099,DOID:2841	15-21
+narrow angle glaucoma	HP:0032119	36-57
+cholelithiasis	HP:0001081,DOID:10211	68-82
+Hepatic or renal insufficiency defined as a history of an elevation of SGOT 1.5 x ULN or creatinine  1.5 x ULN within the past year.	Eligibility	15
+renal insufficiency	HP:0000083	11-30
+history	BFO:0000182	44-51
+x	LABO:0000148	80-81
+x	LABO:0000148	105-106
+creatinine	CHEBI:16737	89-99
+year	UO:0000036	127-131
+Concurrent use of other anticholinergics	Eligibility	16
+Use of pharmacologic soy preparations	Eligibility	17
+Known history of cardiac arrhythmia. (Patients with occasional PVC's or PAC's that do not require treatment are eligible.)	Eligibility	18
+history	BFO:0000182	6-13
+arrhythmia	HP:0011675	25-35
+occasional	HP:0040283	52-62
+Prior or concurrent pelvic radiation therapy	Eligibility	19
+Prior radical pelvic surgery (TAH/BSO is allowed)	Eligibility	20
+radical	CHEBI:26519	6-13
+surgery	OAE:0000067	21-28
+Use of beta adrenergic antagonists	Eligibility	21
+Diagnosis of any of the following conditions:	Eligibility	22
+Vulvar and vaginal dysplasia	Eligibility	23
+Essential vulvodynia	Eligibility	24
+vulvodynia	HP:0030943	10-20
+Vulvar vestibulitis	Eligibility	25
+Vaginal prolapse	Eligibility	26
+Bartholin cyst/abscess	Eligibility	27
+History of Bartholin gland surgery	Eligibility	28
+history	BFO:0000182	0-7
+gland	UBERON:0002530	21-26
+surgery	OAE:0000067	27-34
+Lichen sclerosis	Eligibility	29
+Lichen planus of the vulvovaginal region	Eligibility	30
+lichen planus	DOID:9201	0-13
+Desquamative vaginitis	Eligibility	31
+vaginitis	HP:0030683,DOID:2170	13-22
+Outcome Measurement:	Results	0
+Average Vaginal Dryness Scores Via Area Under the Curve (AUC) Summary Statistics	Results	1
+vaginal dryness	HP:0031088	8-23
+area	PATO:0001323	35-39
+auc	BAO:0002120	57-60
+Vaginal dryness was measured by the numerical analogue scale at baseline and through the six weeks of treatment. The item scores was transformed into 0 to 100 scales with 0=poor quality of life (QOL) and 100=best possible QOL. The average AUC values were calculated by dividing 6 from AUC values for participants who completed item on all 6 weeks. If a participant completed the item at baseline, week 1, 2 and 3 but did not complete the item at week 4 to week 6, the AUC values of the item was prorated, which is (((AUC values * 6) / 3) / 6). The average pro-rated AUC for vaginal dryness scores was compared in each of the Pilocarpine arms against the collective placebo arm.	Results	2
+vaginal dryness	HP:0031088	0-15
+vaginal dryness	HP:0031088	574-589
+quality	BAO:0002928,BFO:0000019	178-185
+auc	BAO:0002120	239-242
+auc	BAO:0002120	285-288
+auc	BAO:0002120	468-471
+auc	BAO:0002120	517-520
+auc	BAO:0002120	566-569
+week	UO:0000034	93-97
+week	UO:0000034	341-345
+week	UO:0000034	397-401
+week	UO:0000034	446-450
+week	UO:0000034	456-460
+pilocarpine	CHEBI:39462	625-636
+Time frame: Baseline to Week 6	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	24-28
+Results 1:	Results	4
+Arm/Group Title: Collective Placebo	Results	5
+Arm/Group Description: Patients receive 1 capsule of placebo 2 times per day for 6 weeks and; patients receive 1 capsule of placebo 4 times per day for 6 weeks.	Results	6
+capsule	GO:0042603	42-49
+capsule	GO:0042603	113-120
+day	UO:0000033	73-76
+day	UO:0000033	144-147
+Overall Number of Participants Analyzed: 61	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  63.6         (24.04)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Pilocarpine 2 Times Per Day	Results	11
+pilocarpine	CHEBI:39462	17-28
+day	UO:0000033	41-44
+Arm/Group Description: Patients receive 5mg of Pilocarpine 2 times per day for 6 weeks.	Results	12
+pilocarpine	CHEBI:39462	47-58
+day	UO:0000033	71-74
+Overall Number of Participants Analyzed: 61	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  55.8         (27.69)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/65 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

@@ -1,0 +1,160 @@
+INTERVENTION 1:	Intervention	0
+Arm 1	Intervention	1
+Patients receive oral lapatinib and oral tamoxifen once daily on days 1-28.	Intervention	2
+lapatinib	CHEBI:49603	22-31
+tamoxifen	CHEBI:41774	41-50
+lapatinib ditosylate: Given orally	Intervention	3
+lapatinib	CHEBI:49603	0-9
+tamoxifen citrate: Given orally	Intervention	4
+tamoxifen citrate	CHEBI:9397	0-17
+Inclusion Criteria:	Eligibility	0
+Primary adenocarcinoma of the breast confirmed by histology or cytology	Eligibility	1
+adenocarcinoma	DOID:299	8-22
+breast	UBERON:0000310	30-36
+histology	NCIT:C16681	50-59
+Locally advanced or metastatic disease not amenable to surgery or radiation therapy with curative intent	Eligibility	2
+disease	DOID:4,OGMS:0000031	31-38
+surgery	OAE:0000067	55-62
+Estrogen and/or progesterone receptor positive cancer	Eligibility	3
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	16-28
+receptor	BAO:0000281	29-37
+cancer	DOID:162	47-53
+Patients have failed hormonal manipulation with tamoxifen, either showing no response (primary resistance) to initial therapy or relapse/progression after showing initial response (secondary failure)	Eligibility	4
+tamoxifen	CHEBI:41774	48-57
+At least 1 measurable (target) lesion (i.e. any malignant tumor mass that can be accurately measured in at least 1 dimension, >= 20 mm with conventional radiographic techniques or >= 10 mm with magnetic resonance imaging [MRI] or spiral computerized tomography [CT] scans), in a previously un-irradiated area	Eligibility	5
+target	BAO:0003064	23-29
+tomography	BAO:0002525	250-260
+ct	BAO:0002125	262-264
+area	PATO:0001323	304-308
+No more than 450 mg/m^2 of prior doxorubicin	Eligibility	6
+doxorubicin	CHEBI:28748,BAO:0000639	33-44
+Life expectancy >= 3 months	Eligibility	7
+Eastern Cooperative Oncology Group (ECOG) performance status =< 2 (Karnofsky >= 60%)	Eligibility	8
+group	CHEBI:24433	29-34
+Absolute neutrophil count (ANC) >= 1500/mm^3	Eligibility	9
+Platelets >= 100,000/mm^3	Eligibility	10
+Hemoglobin >= 9.0 g/dL	Eligibility	11
+hemoglobin	CHEBI:35143	0-10
+Creatinine (Cr) =< upper limit of normal (ULN) or Cr clearance > 60 mL/min/m^2	Eligibility	12
+creatinine	CHEBI:16737	0-10
+Total bilirubin =< 1.5 x ULN	Eligibility	13
+x	LABO:0000148	23-24
+Alanine aminotransferase (ALT) =< 1.5 x ULN or =< 3 x ULN with liver metastases	Eligibility	14
+alanine	CHEBI:16449	0-7
+x	LABO:0000148	38-39
+x	LABO:0000148	52-53
+liver	UBERON:0002107	63-68
+Aspartate aminotransferase (AST) =< 5 x ULN or =< 3 x ULN with liver metastases	Eligibility	15
+aspartate	CHEBI:29995	0-9
+x	LABO:0000148	38-39
+x	LABO:0000148	52-53
+liver	UBERON:0002107	63-68
+Cardiac ejection fraction within the institutional range of normal as measured by echocardiogram or multi gated acquisition scan (MUGA) scan; (note that baseline and on-treatment scans should be performed using the same modality and preferably at the same institution)	Eligibility	16
+ejection fraction	CMO:0000180	8-25
+range	LABO:0000114	51-56
+Patients on oral anticoagulants (Coumadin, warfarin) should either be switched to low molecular weight heparin or have a very close monitoring of international normalized ratio (INR), if continued on Coumadin	Eligibility	17
+warfarin	CHEBI:10033	43-51
+heparin	CHEBI:28304	103-110
+ratio	UO:0000190	171-176
+Negative serum pregnancy test within 7 days of enrollment for pre-menopausal women and women within 6 months of menopause; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately; both men and women should be counseled in contraceptive use due to unknown effects of the drug on the fetus and breast feeding should be avoided	Eligibility	18
+menopause	GO:0042697	112-121
+drug	CHEBI:23888	360-364
+breast	UBERON:0000310	382-388
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	19
+document	IAO:0000310	77-85
+Ability to swallow and retain oral medication	Eligibility	20
+Exclusion Criteria:	Eligibility	21
+Patients who have had prior treatment with EGFR and or Her-2 targeting therapies (prior trastuzumab combined with chemotherapy in the adjuvant setting only is allowed, but the combination of trastuzumab with hormonal therapy is not allowed)	Eligibility	22
+adjuvant	CHEBI:60809	134-142
+Current treatment with any other anti-neoplastic agent, including trastuzumab; patients may continue to receive zoledronic acid for bone metastases or hypercalcemia	Eligibility	23
+zoledronic acid	CHEBI:46557	112-127
+hypercalcemia	HP:0003072,DOID:12678	151-164
+Radiation therapy within 2 weeks of enrollment or surgery within 4 weeks	Eligibility	24
+surgery	OAE:0000067	50-57
+Rapidly progressive disease in major organs (i.e. lymphangitic spread, bulky liver metastasis) or known brain/leptomeningeal metastatic disease requiring active therapy; (patients with asymptomatic, stable previously treated metastases to the central nervous system and surrounding tissues are eligible; however patients must not have a requirement for corticosteroids due to central nervous system metastases at the time of study entry)	Eligibility	25
+rapidly progressive	HP:0003678	0-19
+disease	DOID:4,OGMS:0000031	20-27
+disease	DOID:4,OGMS:0000031	136-143
+liver	UBERON:0002107	77-82
+active	PATO:0002354	154-160
+stable	HP:0031915	199-205
+central nervous system	UBERON:0001017	243-265
+central nervous system	UBERON:0001017	376-398
+time	PATO:0000165	417-421
+Any of the following conditions within 6 months of enrollment: myocardial infarction, severe/unstable angina, symptomatic congestive heart failure, cerebrovascular accident or transient ischemic attack, coronary/peripheral artery bypass grafting; patients who have experienced a pulmonary embolus, deep venous thrombosis or other clinically significant thromboembolic event within 6 months of enrollment are eligible if they are clinically stable on anticoagulation therapy	Eligibility	26
+myocardial infarction	HP:0001658,DOID:5844	63-84
+congestive heart failure	HP:0001635,DOID:6000	122-146
+transient ischemic attack	HP:0002326,DOID:224	176-201
+artery	UBERON:0001637	223-229
+deep venous thrombosis	HP:0002625	298-320
+stable	HP:0031915	95-101
+stable	HP:0031915	440-446
+Pregnancy or breast feeding; breastfeeding should be discontinued if the mother is treated with GW572016; female patients must agree to use effective contraception during the study period, be surgically sterile, or be post-menopausal; in addition, male patients will be required to use effective contraception during the study period or be surgically sterile; the definition of effective contraception will be based on the judgment of the investigator	Eligibility	27
+breast	UBERON:0000310	13-19
+breast	UBERON:0000310	29-35
+female	PATO:0000383	106-112
+male	CHEBI:30780,PATO:0000384	108-112
+male	CHEBI:30780,PATO:0000384	248-252
+Human immunodeficiency virus (HIV)-positive patients receiving combination anti-retroviral therapy are excluded from the study	Eligibility	28
+immunodeficiency	HP:0002721	6-22
+virus	BAO:0000232	23-28
+excluded	HP:0040285	103-111
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to GW572016	Eligibility	29
+history	BFO:0000182	0-7
+Patients with gastrointestinal (GI) tract disease resulting in an inability to take oral medication, malabsorption syndrome, a requirement for intravenous (IV) alimentation, prior surgical procedures affecting absorption, or uncontrolled inflammatory GI disease (e.g., Crohn's, ulcerative colitis)	Eligibility	30
+disease	DOID:4,OGMS:0000031	42-49
+disease	DOID:4,OGMS:0000031	254-261
+malabsorption	HP:0002024	101-114
+syndrome	DOID:225	115-123
+ulcerative colitis	HP:0100279,DOID:8577	278-296
+Treatment with any agents that interact with cytochrome P450 3A should be avoided and used with caution, if necessary; when possible, patients should be switched to alternative medications; patients requiring anticoagulation should either be switched to a low molecular weight heparin injection or have a very close monitoring of INR, if continued on Coumadin	Eligibility	31
+cytochrome p450	CHEBI:38559	45-60
+heparin	CHEBI:28304	277-284
+Previous (within 5 years of enrollment) or current malignancies at other sites, except adequately treated basal cell or squamous cell skin cancers and carcinoma in situ of the cervix	Eligibility	32
+carcinoma	HP:0030731,DOID:305	151-160
+Other severe acute or chronic medical or psychiatric conditions or laboratory abnormality that may increase the risk associated with study participation or study drug administration or may interfere with interpretation of study results and, in the judgment of the investigator, would make the patient inappropriate for study entry	Eligibility	33
+severe	HP:0012828	6-12
+acute	HP:0011009,PATO:0000389	13-18
+chronic	HP:0011010	22-29
+increase	BAO:0001251	99-107
+drug administration	OAE:0000011	162-181
+patient	HADO:0000008,OAE:0001817	293-300
+Outcome Measurement:	Results	0
+Tumor Response Rate (Complete and Partial) Assessed by Response Evaluation Criteria in Solid Tumors (RECIST)	Results	1
+rate	BAO:0080019	15-19
+[Not Specified]	Results	2
+Time frame: 4 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1	Results	5
+Arm/Group Description: Patients receive oral lapatinib and oral tamoxifen once daily on days 1-28.	Results	6
+lapatinib	CHEBI:49603	45-54
+tamoxifen	CHEBI:41774	64-73
+lapatinib ditosylate: Given orally	Results	7
+lapatinib	CHEBI:49603	0-9
+tamoxifen citrate: Given orally	Results	8
+tamoxifen citrate	CHEBI:9397	0-17
+Overall Number of Participants Analyzed: 17	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: participants  1        (1 to 27)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 19/19 (100.00%)	Adverse Events	1
+Hemolysis 3/19 (15.79%)	Adverse Events	2
+Pericardial effusion 1/19 (5.26%)	Adverse Events	3
+pericardial effusion	HP:0001698,DOID:118	0-20
+Supraventricular tachycardia 1/19 (5.26%)	Adverse Events	4
+supraventricular tachycardia	HP:0004755	0-28
+Cardiac disorders - Other, specify 4/19 (21.05%)	Adverse Events	5
+Chest pain - cardiac 1/19 (5.26%)	Adverse Events	6
+chest pain	HP:0100749	0-10
+Diarrhea 19/19 (100.00%)	Adverse Events	7
+diarrhea	HP:0002014,DOID:13250	0-8
+Death NOS 10/19 (52.63%)	Adverse Events	8
+death	OAE:0000632	0-5
+Fatigue 13/19 (68.42%)	Adverse Events	9
+fatigue	HP:0012378	0-7
+White blood cell decreased 3/19 (15.79%)	Adverse Events	10
+blood	UBERON:0000178	6-11
+Dehydration 1/19 (5.26%)	Adverse Events	11
+dehydration	HP:0001944	0-11

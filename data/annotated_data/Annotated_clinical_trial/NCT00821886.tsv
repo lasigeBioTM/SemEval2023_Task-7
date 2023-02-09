@@ -1,0 +1,260 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone/Trastuzumab/Carboplatin	Intervention	1
+Neoadjuvant treatment with Ixabepilone, Trastuzumab and Carboplatin, followed by surgery, peri-operative treatment and post-operative (adjuvant) treatment if patient deemed to be a surgical candidate	Intervention	2
+ixabepilone	CHEBI:63605	27-38
+carboplatin	CHEBI:31355	56-67
+surgery	OAE:0000067	81-88
+adjuvant	CHEBI:60809	3-11
+adjuvant	CHEBI:60809	135-143
+patient	HADO:0000008,OAE:0001817	158-165
+Ixabepilone: Ixabepilone 40mg/m2 IV infusion over 3 hours on day 1 of cycles 1-6 (all treatment cycles are 21 days in length)	Intervention	3
+ixabepilone	CHEBI:63605	0-11
+ixabepilone	CHEBI:63605	13-24
+day	UO:0000033	61-64
+day	UO:0000033	110-113
+length	PATO:0000122	118-124
+Trastuzumab: Trastuzumab 8mg/kg IV over 90 minutes for the first infusion (Cycle 1, Day 1) with a 60 minute post-infusion observation period. Subsequent infusions (Day 1 of Cycles 2-6 with all cycles being 21 days in length) 6mg/kg over 30 minutes if the previous dose was well tolerated; peri-operative trastuzumab 6mg/kg IV every 3-4 weeks; post-operative trastuzumab 6mg/kg IV day 1 every 3 weeks until week 52	Intervention	4
+day	UO:0000033	84-87
+day	UO:0000033	164-167
+day	UO:0000033	209-212
+day	UO:0000033	380-383
+minute	UO:0000031	43-49
+minute	UO:0000031	101-107
+minute	UO:0000031	240-246
+length	PATO:0000122	217-223
+week	UO:0000034	336-340
+week	UO:0000034	394-398
+week	UO:0000034	406-410
+Carboplatin: Carboplatin AUC=6 IV per institutional guidelines on Day 1 of Cycles 1-6 (all treatment cycles are 21 days in length)	Intervention	5
+carboplatin	CHEBI:31355	0-11
+carboplatin	CHEBI:31355	13-24
+day	UO:0000033	66-69
+day	UO:0000033	115-118
+length	PATO:0000122	123-129
+Inclusion Criteria:	Eligibility	0
+Female and male patients 18 years of age.	Eligibility	1
+female	PATO:0000383	0-6
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	11-15
+age	PATO:0000011	37-40
+Histologically confirmed adenocarcinoma of the breast.	Eligibility	2
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+Primary palpable disease confined to a breast and axilla on physical examination. For patients without clinically suspicious axillary adenopathy, the primary tumor must be larger than 2 cm in diameter (clinical T2-T3, N0-N1, M0). For patients with clinically suspicious axillary adenopathy, the primary breast tumor can be any size (clinical T1-T3, N1-N2, M0). (T1N0M0 lesions are excluded.)	Eligibility	3
+disease	DOID:4,OGMS:0000031	17-24
+breast	UBERON:0000310	39-45
+breast	UBERON:0000310	303-309
+physical examination	OAE:0004232	60-80
+diameter	PATO:0001334	192-200
+size	PATO:0000117	327-331
+excluded	HP:0040285	381-389
+Patients who have no clearly defined palpable breast mass or axillary lymph nodes but are radiographically measurable are eligible. Accepted procedures for measuring breast disease are mammography, MRI, and breast ultrasound. In these patients, radiographic tumor measurements need to be repeated after 3 cycles and prior to surgery.	Eligibility	4
+breast mass	HP:0032408	46-57
+lymph	UBERON:0002391	70-75
+breast disease	DOID:3463	166-180
+breast	UBERON:0000310	46-52
+breast	UBERON:0000310	166-172
+breast	UBERON:0000310	207-213
+surgery	OAE:0000067	325-332
+Positive HER2 status (overexpression and/or amplification of HER2 in the primary tumor) as defined by: IHC 3+ or fluorescence in situ hybridization (FISH) positive (ratio >2.2) testing. Documentation of the HER2 results must be available at the time of study enrollment.	Eligibility	5
+ratio	UO:0000190	165-170
+time	PATO:0000165	245-249
+An ECOG (Eastern Cooperative Oncology Group) performance score of 2	Eligibility	6
+group	CHEBI:24433	38-43
+Normal bone marrow function as defined by:	Eligibility	7
+bone marrow	UBERON:0002371	7-18
+function	BAO:0003117,BFO:0000034	19-27
+absolute neutrophil count (ANC) >1,500/µL;	Eligibility	8
+platelets >100,000/µL;	Eligibility	9
+hemoglobin >10 g/dL.	Eligibility	10
+hemoglobin	CHEBI:35143	0-10
+Normal hepatic and renal function.	Eligibility	11
+function	BAO:0003117,BFO:0000034	25-33
+Left ventricular ejection fraction (LVEF) within the institutional limits of normal, whichever is lower, as measured by multi-gated acquisition (MUGA) scan or echocardiogram (ECHO).	Eligibility	12
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Life expectancy > 12 weeks.	Eligibility	13
+Estrogen and progesterone (or estrogen alone) receptor status in the primary tumor known or pending at the time of study enrollment.	Eligibility	14
+estrogen	CHEBI:50114,BAO:0000760	0-8
+estrogen	CHEBI:50114,BAO:0000760	30-38
+progesterone	CHEBI:17026	13-25
+receptor	BAO:0000281	46-54
+time	PATO:0000165	107-111
+For women of childbearing potential, negative serum pregnancy test within 7 days prior to starting treatment.	Eligibility	15
+For women of childbearing potential, agreement to use a method of contraception that is acceptable to their physician from time of first signing the informed consent until at least 3 months after the last dose of study drug. If a woman becomes pregnant or suspects she is pregnant while participating in this study, she must agree to inform her treating physician immediately. Patient agreement to discontinue breast-feeding, if applicable, during study treatment. Men enrolled in the study must also agree to use a method of contraception that is acceptable to their physician during their study participation.	Eligibility	16
+time	PATO:0000165	123-127
+drug	CHEBI:23888	219-223
+patient	HADO:0000008,OAE:0001817	377-384
+For patients with previous invasive cancers (including breast cancer) treated with curative intent, completion of chemotherapy or radiation therapy more than 5 years prior to enrollment for this study and no evidence of recurrent disease. Patients may be receiving anti-estrogen hormonal therapy prescribed for previous invasive breast cancer as long as the diagnosis of invasive cancer was made more than 5 years prior to study enrollment. Patients may be using anti-estrogen hormonal therapy at the time of current diagnosis but must discontinue this therapy before beginning study treatment.	Eligibility	17
+breast cancer	DOID:1612	55-68
+breast cancer	DOID:1612	329-342
+recurrent	HP:0031796	220-229
+disease	DOID:4,OGMS:0000031	230-237
+anti-estrogen	CHEBI:50751	265-278
+anti-estrogen	CHEBI:50751	463-476
+cancer	DOID:162	36-42
+cancer	DOID:162	62-68
+cancer	DOID:162	336-342
+cancer	DOID:162	380-386
+time	PATO:0000165	501-505
+For patients who had, or will have sentinel lymph node and/or axillary dissection prior to initiation of study treatment, completion at least 4 weeks prior to starting study treatment and well-healed wound.	Eligibility	18
+lymph	UBERON:0002391	44-49
+Ability to understand and willingness to sign a written informed consent document.	Eligibility	19
+document	IAO:0000310	73-81
+Exclusion Criteria:	Eligibility	20
+Previous treatment for this breast cancer.	Eligibility	21
+breast cancer	DOID:1612	28-41
+Evidence of metastatic disease.	Eligibility	22
+disease	DOID:4,OGMS:0000031	23-30
+Prior radiation that included 30% of major bone marrow-containing areas.	Eligibility	23
+Women who are pregnant or breastfeeding.	Eligibility	24
+Neuropathy (motor or sensory) grade 1 at study entry.	Eligibility	25
+neuropathy	DOID:870	0-10
+History of significant cardiac disease or cardiac risk factors or the following:	Eligibility	26
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	31-38
+uncontrolled arrhythmias	Eligibility	27
+poorly controlled hypertension (e.g., systolic blood pressure [BP]> 150 mmHg or diastolic BP >100 mmHg) in spite of optimal medical management	Eligibility	28
+hypertension	HP:0000822,DOID:10763	18-30
+systolic blood pressure	CMO:0000004	38-61
+angina pectoris requiring antianginal medication or unstable angina within the previous 6 months	Eligibility	29
+angina pectoris	HP:0001681	0-15
+history of documented congestive heart failure (CHF)	Eligibility	30
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	22-46
+any documented myocardial infarction within the previous 6 months	Eligibility	31
+myocardial infarction	HP:0001658,DOID:5844	15-36
+clinically significant valvular heart disease	Eligibility	32
+heart disease	DOID:114	32-45
+current use of medications (e.g., digitalis, beta-blockers, calcium channel-blockers) that alter cardiac conduction, if these medications are administered for the management of cardiac arrhythmia, angina, or CHF. If these medications are administered for other reasons (e.g., hypertension), the patient may be eligible.	Eligibility	33
+calcium	CHEBI:22984,BAO:0000874	60-67
+cardiac conduction	GO:0061337	97-115
+arrhythmia	HP:0011675	185-195
+hypertension	HP:0000822,DOID:10763	276-288
+patient	HADO:0000008,OAE:0001817	295-302
+patients with cardiomegaly on chest x-ray or ventricular hypertrophy on ECG unless ECHO or MUGA scan within the last 3 months demonstrates that the LVEF is  institutional lower limit of normal.	Eligibility	34
+cardiomegaly	HP:0001640	14-26
+chest	UBERON:0001443	30-35
+ventricular hypertrophy	HP:0001714	45-68
+Symptomatic intrinsic lung disease.	Eligibility	35
+lung disease	DOID:850	22-34
+Active malignancy, other than superficial basal cell carcinoma, superficial squamous (skin) cell carcinoma, carcinoma in situ, or non-invasive breast cancer, within the past 5 years.	Eligibility	36
+active	PATO:0002354	0-6
+superficial basal cell carcinoma	DOID:4300	30-62
+carcinoma	HP:0030731,DOID:305	53-62
+carcinoma	HP:0030731,DOID:305	97-106
+carcinoma	HP:0030731,DOID:305	108-117
+breast cancer	DOID:1612	143-156
+Uncontrolled intercurrent illness including (but not limited to) ongoing or active infection >grade 2.	Eligibility	37
+active	PATO:0002354	76-82
+Mental condition or psychiatric disorder rendering the subject unable to understand the nature, scope, and possible consequences of the study or that would limit compliance with study requirements.	Eligibility	38
+condition	PDRO:0000129	7-16
+disorder	OGMS:0000045	32-40
+Any other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving a reasonable suspicion of a disease or condition that contraindicates the use of a study agent or that may affect the interpretation of the results or renders the subjects at high risk from treatment complications.	Eligibility	39
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	138-145
+physical examination	OAE:0004232	42-62
+laboratory finding	OGMS:0000018	84-102
+condition	PDRO:0000129	149-158
+Chronic use of CYP3A4 inhibitors and use of the following strong CYP3A4 inhibitors: ketoconazole, itraconazole, clarithromycin, atazanavir, nefazodone, saquinavir, telithromycin, ritonavir, amprenavir, indinavir, nelfinavir, delavirdine, and voriconazole. Use of these agents must be discontinued at least 72 hours prior to initiation of study treatment.	Eligibility	40
+chronic	HP:0011010	0-7
+ketoconazole	CHEBI:47519,BAO:0000796	84-96
+itraconazole	CHEBI:6076	98-110
+clarithromycin	CHEBI:3732	112-126
+atazanavir	CHEBI:37924	128-138
+nefazodone	CHEBI:7494	140-150
+saquinavir	CHEBI:63621	152-162
+telithromycin	CHEBI:29688	164-177
+ritonavir	CHEBI:45409	179-188
+amprenavir	CHEBI:40050	190-200
+indinavir	CHEBI:44032	202-211
+nelfinavir	CHEBI:7496	213-223
+delavirdine	CHEBI:119573	225-236
+voriconazole	CHEBI:10023	242-254
+Received chemotherapy for any indication within the 5 years preceding study enrollment.	Eligibility	41
+Prior treatment with trastuzumab or any other anti-HER2 agent for any indication.	Eligibility	42
+Concurrent treatment with any other anti-cancer therapy.	Eligibility	43
+Concurrent radiation therapy during neoadjuvant study treatment.	Eligibility	44
+Concurrent treatment with ovarian hormonal replacement therapy. Prior treatment must be stopped prior to study enrollment.	Eligibility	45
+Current therapy with any hormonal agent such as raloxifene, tamoxifen, or other selective estrogen receptor modulators (SERMs), either for osteoporosis or prevention of breast cancer. These agents must be discontinued prior to study enrollment.	Eligibility	46
+raloxifene	CHEBI:8772	48-58
+tamoxifen	CHEBI:41774	60-69
+estrogen	CHEBI:50114,BAO:0000760	90-98
+receptor	BAO:0000281	99-107
+osteoporosis	HP:0000939,DOID:11476	139-151
+breast cancer	DOID:1612	169-182
+Participation within the previous 30 days in a study with an experimental drug.	Eligibility	47
+drug	CHEBI:23888	74-78
+Known or suspected allergy to Cremophor EL (polyoxyethylated castor oil), a drug formulated in Cremophor EL such as paclitaxel, or any other agent given in the course of this trial.	Eligibility	48
+allergy	HP:0012393	19-26
+castor oil	CHEBI:140618	61-71
+drug	CHEBI:23888	76-80
+paclitaxel	CHEBI:45863	116-126
+Inability or unwillingness to comply with study procedures including those for follow-up.	Eligibility	49
+Outcome Measurement:	Results	0
+Pathologic Complete Response (pCR)	Results	1
+Proportion of patients who do not exhibit residual invasive breast cancer in breast or axillary lymph nodes at time of surgery	Results	2
+breast cancer	DOID:1612	60-73
+breast	UBERON:0000310	60-66
+breast	UBERON:0000310	77-83
+lymph	UBERON:0002391	96-101
+time	PATO:0000165	111-115
+surgery	OAE:0000067	119-126
+Time frame: average18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ixabepilone/Trastuzumab/Carboplatin	Results	5
+Arm/Group Description: Neoadjuvant treatment with Ixabepilone, Trastuzumab and Carboplatin, followed by surgery, peri-operative treatment and post-operative (adjuvant) treatment if patient deemed to be a surgical candidate	Results	6
+ixabepilone	CHEBI:63605	50-61
+carboplatin	CHEBI:31355	79-90
+surgery	OAE:0000067	104-111
+adjuvant	CHEBI:60809	26-34
+adjuvant	CHEBI:60809	158-166
+patient	HADO:0000008,OAE:0001817	181-188
+Ixabepilone: Ixabepilone 40mg/m2 IV infusion over 3 hours on day 1 of cycles 1-6 (all treatment cycles are 21 days in length)	Results	7
+ixabepilone	CHEBI:63605	0-11
+ixabepilone	CHEBI:63605	13-24
+day	UO:0000033	61-64
+day	UO:0000033	110-113
+length	PATO:0000122	118-124
+Trastuzumab: Trastuzumab 8mg/kg IV over 90 minutes for the first infusion (Cycle 1, Day 1) with a 60 minute post-infusion observation period. Subsequent infusions (Day 1 of Cycles 2-6 with all cycles being 21 days in length) 6mg/kg over 30 minutes if the previous dose was well tolerated; peri-operative trastuzumab 6mg/kg IV every 3-4 weeks; post-operative trastuzumab 6mg/kg IV day 1 every 3 weeks until week 52	Results	8
+day	UO:0000033	84-87
+day	UO:0000033	164-167
+day	UO:0000033	209-212
+day	UO:0000033	380-383
+minute	UO:0000031	43-49
+minute	UO:0000031	101-107
+minute	UO:0000031	240-246
+length	PATO:0000122	217-223
+week	UO:0000034	336-340
+week	UO:0000034	394-398
+week	UO:0000034	406-410
+Carboplatin: Carboplatin AUC=6 IV per institutional guidelines on Day 1 of Cycles 1-6 (all treatment cycles are 21 days in length)	Results	9
+carboplatin	CHEBI:31355	0-11
+carboplatin	CHEBI:31355	13-24
+day	UO:0000033	66-69
+day	UO:0000033	115-118
+length	PATO:0000122	123-129
+Overall Number of Participants Analyzed: 52	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: participants  27	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 17/58 (29.31%)	Adverse Events	1
+Febrile Neutropenia 4/58 (6.90%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Constipation 1/58 (1.72%)	Adverse Events	3
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea 1/58 (1.72%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Duodenal ulcer 1/58 (1.72%)	Adverse Events	5
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Fever 1/58 (1.72%)	Adverse Events	6
+fever	HP:0001945	0-5
+Non-cardiac chest pain 1/58 (1.72%)	Adverse Events	7
+chest pain	HP:0100749	12-22
+Cholecystitis 1/58 (1.72%)	Adverse Events	8
+cholecystitis	HP:0001082,DOID:1949	0-13
+Infections and infestations - Other, MRSA 2/58 (3.45%)	Adverse Events	9
+Bronchial infection 1/58 (1.72%)	Adverse Events	10
+Infections and infestations - Other, pneumonia 1/58 (1.72%)	Adverse Events	11
+pneumonia	HP:0002090,DOID:552	37-46

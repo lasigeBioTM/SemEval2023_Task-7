@@ -1,0 +1,147 @@
+INTERVENTION 1:	Intervention	0
+Fulvestrant 250 mg + Tipifarnib 300 mg	Intervention	1
+fulvestrant	CHEBI:31638	0-11
+tipifarnib	CHEBI:141969	21-31
+Patients receive fulvestrant 250 mg intramuscularly on day 1 and oral tipifarnib 300 mg twice daily on days 1-21. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity	Intervention	2
+fulvestrant	CHEBI:31638	17-28
+day	UO:0000033	55-58
+day	UO:0000033	103-106
+day	UO:0000033	138-141
+tipifarnib	CHEBI:141969	70-80
+disease	DOID:4,OGMS:0000031	161-168
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	61-75
+breast	UBERON:0000310	83-89
+Patients must be postmenopausal	Eligibility	2
+Patients must have stage IV disease or inoperable locally advanced disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	28-35
+disease	DOID:4,OGMS:0000031	67-74
+Patients must have ER- and/or PR-positive disease as determined by their local pathology laboratory	Eligibility	4
+disease	DOID:4,OGMS:0000031	42-49
+Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >= 20 mm with conventional techniques or as >= 10 mm with spiral CT scan; all sites of disease should be noted and followed	Eligibility	5
+disease	DOID:4,OGMS:0000031	30-37
+disease	DOID:4,OGMS:0000031	252-259
+diameter	PATO:0001334	137-145
+ct	BAO:0002125	230-232
+Prior hormonal therapy as adjuvant therapy and/or for metastatic disease is permitted; patients previously treated with two or more prior doses of fulvestrant are not eligible; patients who have received one prior dose of fulvestrant within 28 days are eligible so long as they meet other eligibility criteria	Eligibility	6
+adjuvant	CHEBI:60809	26-34
+disease	DOID:4,OGMS:0000031	65-72
+fulvestrant	CHEBI:31638	147-158
+fulvestrant	CHEBI:31638	222-233
+Patients must have ECOG performance status 0-2 (Karnofsky >= 60%)	Eligibility	7
+Patients must have life expectancy of greater than 3 months	Eligibility	8
+Leukocytes >= 3,000/uL	Eligibility	9
+Absolute neutrophil count >= 1,500/uL	Eligibility	10
+Platelets >= 100,000/uL	Eligibility	11
+Total bilirubin =< 2 mg/dL	Eligibility	12
+AST(SGOT)/ALT(SGPT) =< 2.5 x institutional upper limit of normal	Eligibility	13
+x	LABO:0000148	27-28
+Creatinine less than or equal to 1.5 times the institutional upper limits of normal	Eligibility	14
+creatinine	CHEBI:16737	0-10
+Patients must be disease-free of prior invasive malignancies for >= 5 years with the exception of: curatively-treated basal cell or squamous cell carcinoma of the skin, carcinoma in situ of the cervix	Eligibility	15
+squamous cell carcinoma of the skin	HP:0006739	132-167
+carcinoma	HP:0030731,DOID:305	146-155
+carcinoma	HP:0030731,DOID:305	169-178
+Patients must have the ability to understand and the willingness to sign a written informed consent document	Eligibility	16
+document	IAO:0000310	100-108
+Patients who have had previous therapy with farnesyltransferase inhibitor	Eligibility	17
+inhibitor	CHEBI:35222	64-73
+Exclusion Criteria:	Eligibility	18
+Patients who have had radiotherapy within 4 weeks prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier; patients who have had prior chemotherapy for metastatic disease are not eligible; prior adjuvant or neoadjuvant chemotherapy is allowed	Eligibility	19
+radiotherapy	OAE:0000235	22-34
+disease	DOID:4,OGMS:0000031	240-247
+adjuvant	CHEBI:60809	272-280
+adjuvant	CHEBI:60809	287-295
+Patients may not be receiving any other investigational agents	Eligibility	20
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to tipifarnib (R115777, Zarnestra™) or other agents used in the study (e.g., imidazoles, quinolones)	Eligibility	21
+history	BFO:0000182	0-7
+tipifarnib	CHEBI:141969	101-111
+imidazoles	CHEBI:24780	175-185
+Presence of rapidly progressive, life-threatening metastases; this includes patients with extensive hepatic involvement (> 50% of the liver involved), symptomatic lymphangitic metastases, or brain or leptomeningeal involvement	Eligibility	22
+rapidly progressive	HP:0003678	12-31
+liver	UBERON:0002107	134-139
+brain	UBERON:0000955	191-196
+Concomitant anticancer treatment with the following exceptions: (1) bisphosphonates for bone metastases, (2) a GnRH analog is permitted if the patient had progressive disease on a GnRH analog plus a SERM or an AI; the GnRH analog may continue but the SERM or AI must be discontinued	Eligibility	23
+patient	HADO:0000008,OAE:0001817	143-150
+progressive	HP:0003676	155-166
+disease	DOID:4,OGMS:0000031	167-174
+Grade 2 or more peripheral neuropathy	Eligibility	24
+peripheral neuropathy	HP:0009830,DOID:870	16-37
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	25
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+HIV-positive patients receiving combination anti-retroviral therapy are excluded from the study because of possible pharmacokinetic interactions with tipifarnib or other agents administered during the study.; appropriate studies will be undertaken in patients receiving combination anti-retroviral therapy when indicated	Eligibility	26
+excluded	HP:0040285	72-80
+tipifarnib	CHEBI:141969	150-160
+Outcome Measurement:	Results	0
+Clinical Benefit Rate (CBR) (CR Rate, PR Rate, and SD)	Results	1
+rate	BAO:0080019	17-21
+rate	BAO:0080019	32-36
+rate	BAO:0080019	41-45
+Number of participants met the definition of Clinical Benefit Rate.Tumor response was assessed every three cycles by CT using RECIST (Response Evaluation Criteria In Solid Tumors) criteria. Per Response Evaluation Criteria in Solid Tumors (RECIST 1.0) for target lesions: Complete Response (CR): Disappearance of all target lesions; Partial Response (PR): At least a 30% decrease in the sum of the longest diameter (LD) of target lesions, taking as reference the baseline sum LD; Progressive Disease (PD): At least a 20% increase in the sum of the longest diameter of target lesions, taking as reference the smallest sum longest diameter since the treatment started or the appearance of one or more new lesions; Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum LD since the treatment started.	Results	2
+ct	BAO:0002125	117-119
+target	BAO:0003064	256-262
+target	BAO:0003064	317-323
+target	BAO:0003064	423-429
+target	BAO:0003064	568-574
+diameter	PATO:0001334	406-414
+diameter	PATO:0001334	556-564
+diameter	PATO:0001334	629-637
+progressive	HP:0003676	480-491
+disease	DOID:4,OGMS:0000031	492-499
+disease	DOID:4,OGMS:0000031	719-726
+increase	BAO:0001251	521-529
+increase	BAO:0001251	795-803
+stable	HP:0031915	712-718
+Time frame: Up to 24 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Fulvestrant 250 mg + Tipifarnib 300 mg	Results	5
+fulvestrant	CHEBI:31638	17-28
+tipifarnib	CHEBI:141969	38-48
+Arm/Group Description: Patients receive fulvestrant 250 mg intramuscularly on day 1 and oral tipifarnib 300 mg twice daily on days 1-21. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity	Results	6
+fulvestrant	CHEBI:31638	40-51
+day	UO:0000033	78-81
+day	UO:0000033	126-129
+day	UO:0000033	161-164
+tipifarnib	CHEBI:141969	93-103
+disease	DOID:4,OGMS:0000031	184-191
+Overall Number of Participants Analyzed: 31	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Partial response: 11	Results	9
+Stable disease: 5	Results	10
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Complete response: 0	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 20/33 (60.61%)	Adverse Events	1
+Neutropenia 4/33 (12.12%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Anemia 2/33 (6.06%)	Adverse Events	3
+anemia	HP:0001903,DOID:2355	0-6
+Cardiac Ischemia 1/33 (3.03%)	Adverse Events	4
+ischemia	DOID:326	8-16
+Nausea 3/33 (9.09%)	Adverse Events	5
+nausea	HP:0002018	0-6
+Vomiting 2/33 (6.06%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Diarrhea 1/33 (3.03%)	Adverse Events	7
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 1/33 (3.03%)	Adverse Events	8
+fatigue	HP:0012378	0-7
+Infection 1/33 (3.03%)	Adverse Events	9
+Anorexia 1/33 (3.03%)	Adverse Events	10
+anorexia	HP:0002039	0-8
+Hyperglycemia 1/33 (3.03%)	Adverse Events	11
+hyperglycemia	HP:0003074,DOID:4195	0-13
+Hypocalcemia 2/33 (6.06%)	Adverse Events	12
+hypocalcemia	HP:0002901	0-12
+Hypokalemia 1/33 (3.03%)	Adverse Events	13
+hypokalemia	HP:0002900,DOID:4500	0-11
+Ataxia 1/33 (3.03%)	Adverse Events	14
+ataxia	HP:0001251	0-6
+Insomnia 1/33 (3.03%)	Adverse Events	15
+insomnia	HP:0100785	0-8

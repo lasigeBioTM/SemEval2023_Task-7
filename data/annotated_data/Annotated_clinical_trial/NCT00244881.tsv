@@ -1,0 +1,142 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Cediranib Maleate)	Intervention	1
+maleate	CHEBI:30780	21-28
+Patients receive oral AZD2171 once daily for 42 days. Courses repeat every 42 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+disease	DOID:4,OGMS:0000031	101-108
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed Breast Cancer, stage IV, including:	Eligibility	1
+breast cancer	DOID:1612	61-74
+"Breast neoplasms malignant and unspecified (incl nipple)","Breast and nipple neoplasms malignant","Breast cancer stage IV","10006202"	Eligibility	2
+breast	UBERON:0000310	1-7
+breast	UBERON:0000310	60-66
+breast	UBERON:0000310	100-106
+breast cancer	DOID:1612	100-113
+Breast neoplasms malignant and unspecified (incl nipple)","Breast and nipple neoplasms malignant","Breast cancer recurrent","10006198"	Eligibility	3
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	59-65
+breast	UBERON:0000310	99-105
+breast cancer	DOID:1612	99-112
+recurrent	HP:0031796	113-122
+"Breast neoplasms malignant and unspecified (incl nipple)","Breast and nipple neoplasms malignant","Inflammatory carcinoma of breast stage IV","10021979"	Eligibility	4
+breast	UBERON:0000310	1-7
+breast	UBERON:0000310	60-66
+breast	UBERON:0000310	126-132
+carcinoma	HP:0030731,DOID:305	113-122
+Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >= 20 mm with conventional techniques or as >= 10 mm with spiral CT scan	Eligibility	5
+disease	DOID:4,OGMS:0000031	30-37
+diameter	PATO:0001334	137-145
+ct	BAO:0002125	230-232
+Patients must have refractory breast cancer, defined as overt clinical tumor progression on most recent treatment with either hormonal therapy, chemotherapy, and/or trastuzumab therapy; patients with up to 3 prior chemotherapy regimens and with any number of biological (hormonal, trastuzumab) regimens for metastatic breast cancer will be eligible	Eligibility	6
+refractory	HP:0031375	19-29
+breast cancer	DOID:1612	30-43
+breast cancer	DOID:1612	318-331
+Life expectancy of greater than 3 months as assessed by the patient's primary oncologist	Eligibility	7
+patient	HADO:0000008,OAE:0001817	60-67
+Absolute neutrophil count > 1,500/mcL	Eligibility	8
+Platelets > 100,000/mcL	Eligibility	9
+Hemoglobin >= 8 g/dL	Eligibility	10
+hemoglobin	CHEBI:35143	0-10
+Prothrombin time < institutional upper limit of normal (ULN)	Eligibility	11
+prothrombin time	CMO:0000211	0-16
+Total bilirubin =< 1.5 x ULN	Eligibility	12
+x	LABO:0000148	23-24
+AST(SGOT)/ALT(SGPT) =< 2.5 × ULN	Eligibility	13
+Creatinine within normal institutional limits	Eligibility	14
+creatinine	CHEBI:16737	0-10
+Urinalysis with < 1+ proteinuria	Eligibility	15
+proteinuria	HP:0000093,DOID:576	21-32
+Troponin T or I within normal institutional limits	Eligibility	16
+t	CHEBI:36371,BAO:0001260	0-1
+t	CHEBI:36371,BAO:0001260	9-10
+t	CHEBI:36371,BAO:0001260	18-19
+t	CHEBI:36371,BAO:0001260	33-34
+t	CHEBI:36371,BAO:0001260	35-36
+t	CHEBI:36371,BAO:0001260	37-38
+t	CHEBI:36371,BAO:0001260	48-49
+LVEF >= 45%, as assessed by echocardiogram or nuclear medicine gated study, within 30 days prior to initiating protocol-based treatment	Eligibility	17
+At present, the potential of AZD2171 for clinically significant drug interactions involving the CYP isozymes is unknown; however, studies of the agent in rats indicated possible suppression of CYP1A that may be of biological significance; eligibility of patients receiving any medications or substances known to affect or with the potential to affect the activity or PK of AZD2171 will be determined following review of their case by the Principal Investigator.	Eligibility	18
+present	PATO:0000467	3-10
+drug	CHEBI:23888	64-68
+AZD2171 has been shown to terminate fetal development in the rat, as expected for a process dependent on VEGF signaling; for this reason, women of child-bearing potential must have a negative pregnancy test prior to study entry; women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately	Eligibility	19
+process	BFO:0000015	84-91
+signaling	GO:0023052	110-119
+duration	PATO:0001309	402-410
+No therapeutic anti-coagulation; the use of low dose warfarin (1-2 mg/day), intermittent doses of TPA (2 mg x 1), or heparin flushes to prophylax against central venous catheter-associated clots is acceptable	Eligibility	20
+warfarin	CHEBI:10033	53-61
+x	LABO:0000148	108-109
+x	LABO:0000148	144-145
+heparin	CHEBI:28304	117-124
+central	HP:0030645	154-161
+Ability to understand and the willingness to sign a written informed consent document	Eligibility	21
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	22
+Patients who have had chemotherapy, radiotherapy, or major surgery within 4 weeks (6 weeks for nitrosoureas or mitomycin C) prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier	Eligibility	23
+radiotherapy	OAE:0000235	36-48
+surgery	OAE:0000067	59-66
+mitomycin c	CHEBI:27504	111-122
+Patients may not be receiving any other investigational agents nor have participated in an investigational trial within the past 30 days	Eligibility	24
+Patients may not have been previously treated with an anti-angiogenesis agent	Eligibility	25
+\Patients may not be receiving any medication that may markedly affect renal function (e.g., vancomycin, amphotericin, pentamidine); these medications will also not be permitted after the start of the study	Eligibility	26
+function	BAO:0003117,BFO:0000034	77-85
+vancomycin	CHEBI:28001	93-103
+pentamidine	CHEBI:45081	119-130
+Patients with known brain metastases should be excluded from this clinical trial because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events; a head CT or MRI must be performed at baseline	Eligibility	27
+brain	UBERON:0000955	20-25
+excluded	HP:0040285	47-55
+progressive	HP:0003676	144-155
+head	UBERON:0000033	256-260
+ct	BAO:0002125	173-175
+ct	BAO:0002125	261-263
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to AZD2171	Eligibility	28
+history	BFO:0000182	0-7
+Any contraindications/barrier to oral medication	Eligibility	29
+EKG abnormalities of known clinical significance, such as prolonged QT (mean QTc > 470 msec, with Bazett's correction, in screening electrocardiogram or history of familial long QT syndrome); an EKG is required for study entry	Eligibility	30
+prolonged	HP:0025297	58-67
+mean	BAO:0002173	72-76
+history	BFO:0000182	153-160
+long qt syndrome	DOID:2843	173-189
+Uncontrolled intercurrent illness including, but not limited to hypertension, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	31
+hypertension	HP:0000822,DOID:10763	64-76
+active	PATO:0002354	89-95
+congestive heart failure	HP:0001635,DOID:6000	119-143
+angina pectoris	HP:0001681	154-169
+arrhythmia	HP:0011675	179-189
+Pregnant women are excluded from this study because AZD2171 is a VEGF inhibitor with known abortifacient effects; because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with AZD2171, breastfeeding should be discontinued if the mother is treated with AZD2171	Eligibility	32
+excluded	HP:0040285	19-27
+inhibitor	CHEBI:35222	70-79
+abortifacient	CHEBI:50691	91-104
+HIV-positive patients on combination antiretroviral therapy are ineligible because of the potential for pharmacokinetic interactions with AZD2171; appropriate studies will be undertaken in patients receiving combination antiretroviral therapy when indicated	Eligibility	33
+Patients at increased risk for compromised LVEF requiring concurrent use of drugs or biologics with proarrythmic potential; these drugs are prohibited during studies with AZD2171 (refer to Appendix J for a listing of these agents)	Eligibility	34
+Patients with a New York Heart Association classification of III or IV are excluded (NOTE: patients classified as class II are eligible if controlled on medication and stable with increased monitoring)	Eligibility	35
+heart	UBERON:0000948	25-30
+excluded	HP:0040285	75-83
+stable	HP:0031915	168-174
+Outcome Measurement:	Results	0
+Fraction of Patients With Increased Levels of Circulating Endothelial Cells	Results	1
+An exact 95% confidence interval (CI) will be calculated for the CEC response rate. With 26 patients, this CI will be no wider than 40% (e.g., if 13 of 26 patients respond, the CI is 30% to 70%).	Results	2
+rate	BAO:0080019	78-82
+Time frame: After 3 weeks of treatment	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment (Cediranib Maleate)	Results	5
+maleate	CHEBI:30780	38-45
+Arm/Group Description: Patients receive oral AZD2171 once daily for 42 days. Courses repeat every 42 days in the absence of disease progression or unacceptable toxicity.	Results	6
+disease	DOID:4,OGMS:0000031	124-131
+Overall Number of Participants Analyzed: 26	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  30	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 7/26 (26.92%)	Adverse Events	1
+Left Ventricular Systolic Dysfunction 1/26 (3.85%)	Adverse Events	2
+left ventricular systolic dysfunction	HP:0025169	0-37
+Hypertension 1/26 (3.85%)	Adverse Events	3
+hypertension	HP:0000822,DOID:10763	0-12
+Vomiting 1/26 (3.85%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Esophagitis 1/26 (3.85%)	Adverse Events	5
+esophagitis	HP:0100633,DOID:11963	0-11
+Gallbladder Abnormality 1/26 (3.85%)	Adverse Events	6
+Diarrhea 1/26 (3.85%)	Adverse Events	7
+diarrhea	HP:0002014,DOID:13250	0-8
+Dyspnea 1/26 (3.85%)	Adverse Events	8
+dyspnea	HP:0002094	0-7

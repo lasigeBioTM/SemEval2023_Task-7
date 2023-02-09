@@ -1,0 +1,51 @@
+INTERVENTION 1:	Intervention	0
+Sentimark Device Placement	Intervention	1
+Sentimark device placed in women having mastectomy surgery	Intervention	2
+surgery	OAE:0000067	51-58
+Sentimark: Placement of a metallic clip with paramagnetic properties for tumour localisation	Intervention	3
+Inclusion Criteria:	Eligibility	0
+Participant is willing and able to give informed consent for participation in the study;	Eligibility	1
+Female, aged 18 years or above;	Eligibility	2
+female	PATO:0000383	0-6
+Diagnosed with breast cancer (invasive or dcis);	Eligibility	3
+breast cancer	DOID:1612	15-28
+Willing to allow his or her General Practitioner and consultant, if appropriate, to be notified of participation in the study;	Eligibility	4
+Undergoing mastectomy breast surgery.	Eligibility	5
+breast	UBERON:0000310	22-28
+surgery	OAE:0000067	29-36
+Exclusion Criteria:	Eligibility	6
+Patients with a Pacemaker or implanted device;	Eligibility	7
+Patients requiring an MRI scan prior to surgery;	Eligibility	8
+surgery	OAE:0000067	40-47
+Patients with known coagulopathy or receiving anticoagulant medication including warfarin, heparin, clopidogrel or rivaroxaban;	Eligibility	9
+anticoagulant	CHEBI:50249	46-59
+warfarin	CHEBI:10033	81-89
+heparin	CHEBI:28304	91-98
+clopidogrel	CHEBI:37941	100-111
+rivaroxaban	CHEBI:68579	115-126
+Patients receiving Neoadjuvant chemotherapy;	Eligibility	10
+Patients who are pregnant or lactating;	Eligibility	11
+Patients scheduled for immediate breast reconstruction;	Eligibility	12
+breast	UBERON:0000310	33-39
+Patients who have received Sienna (iron oxide) injection in the previous six months;	Eligibility	13
+iron oxide	CHEBI:50820	35-45
+Patients with an existing breast haematoma close to the target lesion.	Eligibility	14
+breast	UBERON:0000310	26-32
+target	BAO:0003064	56-62
+Outcome Measurement:	Results	0
+Migration of Sentimark Device	Results	1
+Migration of the device>10mm between mammograms, clip position >40mm from target lesion	Results	2
+position	HP:0012830	54-62
+target	BAO:0003064	74-80
+Time frame: 1-4 weeks from placement	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Sentimark Device Placement	Results	5
+Arm/Group Description: Sentimark device placed in women having mastectomy surgery	Results	6
+surgery	OAE:0000067	74-81
+Sentimark: Placement of a metallic clip with paramagnetic properties for tumour localisation	Results	7
+Overall Number of Participants Analyzed: 28	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of Magseed migrating >10mm  100	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/29 (0.00%)	Adverse Events	1

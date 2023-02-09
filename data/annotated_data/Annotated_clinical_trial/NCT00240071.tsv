@@ -1,0 +1,164 @@
+INTERVENTION 1:	Intervention	0
+Avastin (Bevacizumab) Plus Hormone	Intervention	1
+hormone	CHEBI:24621	27-34
+All patients received Avastin (Bevacizumab) 15 mg/kg IV every three weeks as well as continuing with hormonal therapy they previously were taking.	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Patients must have cytologically or histologically proven breast cancer which is estrogen receptor or progesterone receptor positive and is locally advanced and /or metastatic.	Eligibility	1
+breast cancer	DOID:1612	58-71
+estrogen	CHEBI:50114,BAO:0000760	81-89
+receptor	BAO:0000281	90-98
+receptor	BAO:0000281	115-123
+progesterone	CHEBI:17026	102-114
+Give written informed consent prior to study specific screening procedures, with the understanding that the patient has the right to withdraw from the study at any time, without prejudice (Appendix E).	Eligibility	2
+patient	HADO:0000008,OAE:0001817	108-115
+right	HP:0012834	124-129
+time	PATO:0000165	164-168
+Be female and greater than or equal to 19 years of age (age limit required by the State of Alabama). Women of childbearing potential must have a negative pregnancy test and must be willing to consent to using effective contraception while on treatment and for a reasonable period thereafter. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.	Eligibility	3
+female	PATO:0000383	3-9
+age	PATO:0000011	51-54
+age	PATO:0000011	56-59
+Be ambulatory (outpatient) and have an Eastern Cooperative Oncology Group (ECOG) PS <2 (Appendix B).	Eligibility	4
+group	CHEBI:24433	68-73
+Previous treatment: Patients must have responded to first or second line hormonal therapy (Partial and complete response greater than 6 months using RECIST criteria. Patients with stable disease for more than 6 months will be eligible) and became resistant to the hormonal agent. They must remain on the current hormone therapy to which they initially responded but now are resistant.	Eligibility	5
+second	UO:0000010	61-67
+stable	HP:0031915	180-186
+disease	DOID:4,OGMS:0000031	187-194
+hormone	CHEBI:24621	312-319
+Clear documentation of acquired hormonal resistance.	Eligibility	6
+Evaluable disease will be considered eligible, but measurable disease according to RECIST criteria will be preferable (Appendix C). The target lesion(s) must not have been previously irradiated (newly arising lesions in previously irradiated areas are acceptable).	Eligibility	7
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	62-69
+target	BAO:0003064	136-142
+Patients must have adequate organ and marrow function as defined as follows: absolute neutrophil count > 1,500/mm3, hemoglobin > 8.0 g/dl, platelets > 75,000/mm3, total bilirubin < 2 mg/dl, serum creatinine < 2 mg/dl, transaminases (AST, ALT) may be up to 2.5 x institutional upper limit of normal for patients with no liver metastases and up to 5 x institutional upper normal limit for patients with documented liver metastases. In addition < 1 gr of protein in 24 hr urine collection and urine protein/creatinine ratio < 1.0	Eligibility	8
+organ	UBERON:0000062	28-33
+function	BAO:0003117,BFO:0000034	45-53
+hemoglobin	CHEBI:35143	116-126
+creatinine	CHEBI:16737	196-206
+creatinine	CHEBI:16737	504-514
+x	LABO:0000148	260-261
+x	LABO:0000148	348-349
+liver	UBERON:0002107	319-324
+liver	UBERON:0002107	412-417
+protein	CHEBI:36080,BAO:0000175	452-459
+protein	CHEBI:36080,BAO:0000175	496-503
+urine	UBERON:0001088	469-474
+urine	UBERON:0001088	490-495
+ratio	UO:0000190	515-520
+Prior chemotherapy does not exclude patients from study as long as the current therapy was hormonal therapy alone.	Eligibility	9
+Patients with de novo hormone therapy resistance will not be eligible.	Eligibility	10
+hormone	CHEBI:24621	22-29
+No life threatening parenchymal disease or rapidly progressing disease warranting cytotoxic chemotherapy.	Eligibility	11
+disease	DOID:4,OGMS:0000031	32-39
+disease	DOID:4,OGMS:0000031	63-70
+No history of brain metastases.	Eligibility	12
+history	BFO:0000182	3-10
+brain	UBERON:0000955	14-19
+No history of thrombosis during the previous year, including transient ischemic attack.	Eligibility	13
+history	BFO:0000182	3-10
+thrombosis	DOID:0060903	14-24
+year	UO:0000036	45-49
+transient ischemic attack	HP:0002326,DOID:224	61-86
+Hypertension must be controlled (< 150/100 mmHg).	Eligibility	14
+hypertension	HP:0000822,DOID:10763	0-12
+Ejection Fraction > 50%.	Eligibility	15
+ejection fraction	CMO:0000180	0-17
+Exclusion Criteria:	Eligibility	16
+Patients who are "de novo" resistant to hormone therapy.	Eligibility	17
+hormone	CHEBI:24621	40-47
+Current, recent (within 4 weeks of the first infusion of this study), or planned participation in an experimental drug study other than this Genentech-sponsored bevacizumab cancer study.	Eligibility	18
+drug	CHEBI:23888	114-118
+cancer	DOID:162	173-179
+Blood pressure of >150/100 mmHg	Eligibility	19
+blood	UBERON:0000178	0-5
+Unstable angina	Eligibility	20
+New York Heart Association (NYHA) Grade II or greater congestive heart failure	Eligibility	21
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	65-70
+congestive heart failure	HP:0001635,DOID:6000	54-78
+History of myocardial infarction within 6 months	Eligibility	22
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+History of stroke within 6 months	Eligibility	23
+history	BFO:0000182	0-7
+stroke	HP:0001297,DOID:6713	11-17
+Clinically significant peripheral vascular disease	Eligibility	24
+peripheral vascular disease	DOID:341	23-50
+History of a bleeding disorder	Eligibility	25
+history	BFO:0000182	0-7
+disorder	OGMS:0000045	22-30
+Presence of central nervous system or brain metastases	Eligibility	26
+central nervous system	UBERON:0001017	12-34
+brain	UBERON:0000955	38-43
+Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to Day 0, anticipation of need for major surgical procedure during the course of the study	Eligibility	27
+day	UO:0000033	81-84
+day	UO:0000033	95-98
+Minor surgical procedures, fine needle aspirations or core biopsies within 7 days prior to Day 0	Eligibility	28
+day	UO:0000033	77-80
+day	UO:0000033	91-94
+Pregnant (positive pregnancy test) or lactating	Eligibility	29
+Urine protein: creatinine ratio greater than or equal to 1.0 at screening. Patients demonstrating > 1 gr of protein in 24 hr urine collection within 4 weeks prior to study entry will not participate in the trial.	Eligibility	30
+urine	UBERON:0001088	0-5
+urine	UBERON:0001088	125-130
+protein	CHEBI:36080,BAO:0000175	6-13
+protein	CHEBI:36080,BAO:0000175	108-115
+creatinine	CHEBI:16737	15-25
+ratio	UO:0000190	26-31
+History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to Day 0	Eligibility	31
+history	BFO:0000182	0-7
+abscess	HP:0025615	79-86
+day	UO:0000033	112-115
+Serious, non-healing wound, ulcer, or bone fracture	Eligibility	32
+ulcer	OAE:0004372	28-33
+bone fracture	HP:0020110	38-51
+Unwilling or unable to comply with the protocol for the duration of the study.	Eligibility	33
+duration	PATO:0001309	56-64
+Psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	34
+Previously radiated area(s) must not be the only site of disease.	Eligibility	35
+area	PATO:0001323	20-24
+site	BFO:0000029	49-53
+disease	DOID:4,OGMS:0000031	57-64
+History of another malignancy within the last five years except cured basal cell carcinoma of skin and carcinoma in-situ of uterine cervix.	Eligibility	36
+history	BFO:0000182	0-7
+basal cell carcinoma	HP:0002671,DOID:2513	70-90
+carcinoma	HP:0030731,DOID:305	81-90
+carcinoma	HP:0030731,DOID:305	103-112
+uterine cervix	UBERON:0000002	124-138
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS)	Results	1
+Progression free survival is defined as time from date of registration until the date of first documented disease progression or date of death from any cause, whichever occurs first.	Results	2
+time	PATO:0000165	40-44
+disease	DOID:4,OGMS:0000031	106-113
+death	OAE:0000632	137-142
+Time frame: From date of registration until disease progression or death, whichever occurs first	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	44-51
+death	OAE:0000632	67-72
+Results 1:	Results	4
+Arm/Group Title: Avastin (Bevacizumab) Plus Hormone	Results	5
+hormone	CHEBI:24621	44-51
+Arm/Group Description: All patients received Avastin (Bevacizumab) 15 mg/kg IV every three weeks as well as continuing with hormonal therapy they previously were taking.	Results	6
+Overall Number of Participants Analyzed: 30	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: days  125.5        (90 to 256)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 7/30 (23.33%)	Adverse Events	1
+Grade III diarrhea *1/30 (3.33%)	Adverse Events	2
+diarrhea	HP:0002014,DOID:13250	10-18
+Grade III fatigue *2/30 (6.67%)	Adverse Events	3
+fatigue	HP:0012378	10-17
+Grade III syncope *2/30 (6.67%)	Adverse Events	4
+syncope	HP:0001279	10-17
+Hyperkalemia *1/30 (3.33%)	Adverse Events	5
+hyperkalemia	HP:0002153	0-12
+Knee and foot pain *1/30 (3.33%)	Adverse Events	6
+foot pain	HP:0025238	9-18
+Grade III neuropathy *1/30 (3.33%)	Adverse Events	7
+neuropathy	DOID:870	10-20
+Grade III dyspnea on exertion *2/30 (6.67%)	Adverse Events	8
+dyspnea	HP:0002094	10-17
+Grade III leg ulcer  1/30 (3.33%)	Adverse Events	9
+leg	UBERON:0000978	10-13
+ulcer	OAE:0004372	14-19
+Grade III hypertension  4/30 (13.33%)	Adverse Events	10
+hypertension	HP:0000822,DOID:10763	10-22

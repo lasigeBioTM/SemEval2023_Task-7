@@ -1,0 +1,171 @@
+INTERVENTION 1:	Intervention	0
+Herceptin (Trastuzumab)	Intervention	1
+Intravenous administration	Intervention	2
+Herceptin (trastuzuamb): Intravenous administration	Intervention	3
+INTERVENTION 2:	Intervention	4
+SB3 (Proposed Trastuzumab Biosimilar)	Intervention	5
+Intravenous administration	Intervention	6
+SB3 (proposed trastuzumab biosimilar): Intravenous administration	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Female aged 18-65 years	Eligibility	1
+female	PATO:0000383	0-6
+Eastern Cooperative Oncology Group (ECOG) performance status of 0-1	Eligibility	2
+group	CHEBI:24433	29-34
+Non-metastatic, unilateral newly diagnosed primary breast cancer of clinical stage II to III including inflammatory breast cancer with:	Eligibility	3
+unilateral	HP:0012833	16-26
+breast cancer	DOID:1612	51-64
+breast cancer	DOID:1612	116-129
+tumour size  2 cm	Eligibility	4
+size	PATO:0000117	7-11
+histologically confirmed primary invasive carcinoma of the breast	Eligibility	5
+carcinoma	HP:0030731,DOID:305	42-51
+breast	UBERON:0000310	59-65
+HER2-positivity confirmed by a central laboratory or an accredited local laboratory and defined as immunohistochemistry (IHC) 3+ or fluorescence in situ hybridisation (FISH)+	Eligibility	6
+central	HP:0030645	31-38
+immunohistochemistry	BAO:0000415	99-119
+Known hormone receptor (oestrogen receptor and progesterone receptor) status	Eligibility	7
+hormone	CHEBI:24621	6-13
+receptor	BAO:0000281	14-22
+receptor	BAO:0000281	34-42
+receptor	BAO:0000281	60-68
+progesterone	CHEBI:17026	47-59
+Baseline left ventricular ejection fraction (LVEF)  55% measured by echocardiography or multiple gated acquisition (MUGA) scan	Eligibility	8
+left	HP:0012835	9-13
+ejection fraction	CMO:0000180	26-43
+Subjects must be able to provide informed consent, which must be obtained prior to any study related procedures	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+Metastatic (stage IV) or bilateral or multifocal/multicentric breast cancer	Eligibility	11
+bilateral	HP:0012832	25-34
+breast cancer	DOID:1612	62-75
+History of any prior invasive breast carcinoma, except for subjects with a past history of ductal carcinoma in situ (DCIS) and/or lobular carcinoma in situ (LCIS) treated with surgery only	Eligibility	12
+history	BFO:0000182	0-7
+history	BFO:0000182	80-87
+breast carcinoma	HP:0003002,DOID:3459	30-46
+ductal carcinoma in situ	HP:0030075,DOID:0060074	91-115
+lobular carcinoma in situ	HP:0030076,DOID:3010	130-155
+surgery	OAE:0000067	176-183
+Past or current history of malignant neoplasms within 5 years prior to Randomisation, except for curatively treated carcinoma in situ of uterine cervix, basal cell carcinoma of the skin or squamous cell carcinoma of the skin (malignant neoplasms occurring more than 5 years prior to Randomisation are permitted if curatively treated with surgery only)	Eligibility	13
+history	BFO:0000182	16-23
+carcinoma	HP:0030731,DOID:305	116-125
+carcinoma	HP:0030731,DOID:305	164-173
+carcinoma	HP:0030731,DOID:305	203-212
+uterine cervix	UBERON:0000002	137-151
+basal cell carcinoma	HP:0002671,DOID:2513	153-173
+squamous cell carcinoma of the skin	HP:0006739	189-224
+surgery	OAE:0000067	338-345
+Previous history of radiation therapy, immunotherapy, chemotherapy or biotherapy (including prior HER2 directed therapy) Major surgery within 4 weeks prior to Randomisation and minor surgery within 2 weeks prior to Randomisation (major surgery is defined as surgery which requires general anaesthesia)	Eligibility	14
+history	BFO:0000182	9-16
+surgery	OAE:0000067	127-134
+surgery	OAE:0000067	183-190
+surgery	OAE:0000067	236-243
+surgery	OAE:0000067	258-265
+Serious cardiac illness that would preclude the use of trastuzumab such as:	Eligibility	15
+history of documented congestive heart failure (CHF) (New York Heart Association, NYHA, class II or greater heart disease)	Eligibility	16
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	22-46
+heart	UBERON:0000948	33-38
+heart	UBERON:0000948	63-68
+heart	UBERON:0000948	108-113
+heart disease	DOID:114	108-121
+LVEF < 55% by echocardiography or MUGA scan	Eligibility	17
+angina pectoris requiring anti-anginal medication	Eligibility	18
+angina pectoris	HP:0001681	0-15
+evidence of transmural infarction on electrocardiogram (ECG)	Eligibility	19
+uncontrolled hypertension (systolic > 180 mmHg and/or diastolic > 100 mmHg)	Eligibility	20
+hypertension	HP:0000822,DOID:10763	13-25
+clinically significant valvular heart disease	Eligibility	21
+heart disease	DOID:114	32-45
+high risk uncontrolled arrhythmias	Eligibility	22
+Serious pulmonary illness enough to cause dyspnoea at rest or requiring supplementary oxygen therapy	Eligibility	23
+Known history of hepatitis B virus (HBV), hepatitis C virus (HCV) or human immunodeficiency virus (HIV) infection	Eligibility	24
+history	BFO:0000182	6-13
+hepatitis b	DOID:2043	17-28
+virus	BAO:0000232	29-34
+virus	BAO:0000232	54-59
+virus	BAO:0000232	92-97
+hepatitis c	DOID:1883	42-53
+immunodeficiency	HP:0002721	75-91
+Other concurrent serious illnesses that may interfere with planned therapy including severe cardiovascular, pulmonary, metabolic or infectious conditions	Eligibility	25
+severe	HP:0012828	85-91
+Known hypersensitivity to the investigational product (IPs), non-IPs or any of the ingredients or excipients of the IPs or non-IPs	Eligibility	26
+hypersensitivity	GO:0002524,DOID:1205	6-22
+product	BAO:0003067	46-53
+Known hypersensitivity to murine proteins	Eligibility	27
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Known history of dihydropyrimidine dehydrogenase (DPD) deficiency	Eligibility	28
+history	BFO:0000182	6-13
+Pre-existing peripheral sensory or motor neuropathy  grade 2, defined by National Cancer Institute-Common Terminology Criteria for Adverse Events (NCI-CTCAE) v4.0	Eligibility	29
+peripheral	HP:0030646	13-23
+neuropathy	DOID:870	41-51
+cancer	DOID:162	82-88
+Pregnant or lactating women. A pregnancy test result is required for all women of childbearing potential including women who had menopause onset within 2 years prior to Randomisation. Women of childbearing potential must agree to use contraceptive methods (see section 7.4.2) during the study and 6 months after the last dose of IP	Eligibility	30
+result	BAO:0000179	46-52
+menopause	GO:0042697	129-138
+onset	HP:0003674	139-144
+Concurrent hormonal therapy including birth control pills, ovarian hormone replacement for menopause, selective oestrogen receptor modulator (SERM) either for osteoporosis or breast cancer prevention	Eligibility	31
+hormone	CHEBI:24621	67-74
+menopause	GO:0042697	91-100
+receptor modulator	CHEBI:90710	122-140
+osteoporosis	HP:0000939,DOID:11476	159-171
+breast cancer	DOID:1612	175-188
+Subjects unwilling to follow the study requirements	Eligibility	32
+Outcome Measurement:	Results	0
+The Pathologic Complete Response (pCR) Rate of the Primary Breast Tumour	Results	1
+rate	BAO:0080019	39-43
+breast	UBERON:0000310	59-65
+[Not Specified]	Results	2
+Time frame: Week 24	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	12-16
+Results 1:	Results	4
+Arm/Group Title: Herceptin (Trastuzumab)	Results	5
+Arm/Group Description: Intravenous administration	Results	6
+Herceptin (trastuzuamb): Intravenous administration	Results	7
+Overall Number of Participants Analyzed: 398	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of responders  42.0	Results	10
+Results 2:	Results	11
+Arm/Group Title: SB3 (Proposed Trastuzumab Biosimilar)	Results	12
+Arm/Group Description: Intravenous administration	Results	13
+SB3 (proposed trastuzumab biosimilar): Intravenous administration	Results	14
+Overall Number of Participants Analyzed: 402	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: percentage of responders  51.7	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 58/438 (13.24%)	Adverse Events	1
+Febrile neutropenia  13/438 (2.97%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia  5/438 (1.14%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia  0/438 (0.00%)	Adverse Events	4
+Thrombocytopenia  0/438 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Haemolytic anaemia  1/438 (0.23%)	Adverse Events	6
+Leukopenia  1/438 (0.23%)	Adverse Events	7
+leukopenia	HP:0001882,DOID:615	0-10
+Cardiac failure congestive  0/438 (0.00%)	Adverse Events	8
+Supraventricular tachycardia  0/438 (0.00%)	Adverse Events	9
+supraventricular tachycardia	HP:0004755	0-28
+Myocardial infarction  1/438 (0.23%)	Adverse Events	10
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Vertigo  0/438 (0.00%)	Adverse Events	11
+vertigo	HP:0002321	0-7
+Adverse Events 2:	Adverse Events	12
+Total: 56/437 (12.81%)	Adverse Events	13
+Febrile neutropenia  10/437 (2.29%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia  7/437 (1.60%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Anaemia  2/437 (0.46%)	Adverse Events	16
+Thrombocytopenia  1/437 (0.23%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Haemolytic anaemia  0/437 (0.00%)	Adverse Events	18
+Leukopenia  0/437 (0.00%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+Cardiac failure congestive  3/437 (0.69%)	Adverse Events	20
+Supraventricular tachycardia  1/437 (0.23%)	Adverse Events	21
+supraventricular tachycardia	HP:0004755	0-28
+Myocardial infarction  0/437 (0.00%)	Adverse Events	22
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Vertigo  1/437 (0.23%)	Adverse Events	23
+vertigo	HP:0002321	0-7

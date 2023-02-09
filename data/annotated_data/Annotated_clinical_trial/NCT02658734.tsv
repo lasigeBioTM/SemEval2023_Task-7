@@ -1,0 +1,143 @@
+INTERVENTION 1:	Intervention	0
+Trastuzumab Emtansine	Intervention	1
+3.6 mg/kg of trastuzumab emtansine was administered to participants intravenously (IV) over 30-90 minutes on day 1 of 21 day cycle and was repeated every 3 weeks.	Intervention	2
+day	UO:0000033	109-112
+day	UO:0000033	121-124
+Inclusion Criteria:	Eligibility	0
+Prospectively confirmed HER2-positive (i.e., IHC 3+ or IHC 2+ and gene amplified by fluorescence in situ hybridization [FISH] positive) as assessed on primary tumor and/or metastatic site	Eligibility	1
+gene	BAO:0000582	66-70
+site	BFO:0000029	183-187
+Documented progression of unresectable, locally advanced, or mBC, determined by the investigator	Eligibility	2
+Left ventricular ejection fraction (LVEF) >/= 50% by echocardiogram (ECHO)	Eligibility	3
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1	Eligibility	4
+group	CHEBI:24433	29-34
+A negative serum Beta-Human Chorionic Gonadotropin (Beta-HCG) test for women of childbearing potential (premenopausal or not meeting the definition of postmenopausal i.e. >/= 12 months of amenorrhea), and women who have not undergone surgical sterilization (i.e., absence of ovaries and/or uterus)	Eligibility	5
+chorionic gonadotropin	CHEBI:81570	28-50
+amenorrhea	HP:0000141,DOID:13938	188-198
+uterus	UBERON:0000995	290-296
+For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use two adequate non-hormonal methods of contraception, including at least one method with a failure rate of <1% per year, during the treatment period and for at least 7 months after the last dose of study drug	Eligibility	6
+rate	BAO:0080019	211-215
+year	UO:0000036	227-231
+drug	CHEBI:23888	316-320
+For men: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive measures and agreement to refrain from donating sperm. With female partners of childbearing potential, men must remain abstinent or use a condom plus an additional contraceptive method that together result in a failure rate of <1% per year during the treatment period and for at least 7 months plus 90 days (a spermatogenesis cycle) after the last dose of study drug. Men must refrain from donating sperm during this same period. With pregnant female partners, men must remain abstinent or use a condom during the treatment period and for at least 7 months after the last dose of study drug.	Eligibility	7
+female	PATO:0000383	160-166
+female	PATO:0000383	544-550
+result	BAO:0000179	299-305
+rate	BAO:0080019	319-323
+year	UO:0000036	335-339
+spermatogenesis	GO:0007283	410-425
+drug	CHEBI:23888	462-466
+drug	CHEBI:23888	686-690
+Exclusion Criteria:	Eligibility	8
+Prior treatment with trastuzumab emtansine	Eligibility	9
+Prior treatment with lapatinib or lapatinib with capecitabine or non-comparable biologic or biosimilar of trastuzumab	Eligibility	10
+lapatinib	CHEBI:49603	21-30
+lapatinib	CHEBI:49603	34-43
+capecitabine	CHEBI:31348	49-61
+Peripheral neuropathy of Grade >/= 3 per the National Cancer Institute's Common Terminology Criteria for Adverse Events (NCI CTCAE [version 4.03])	Eligibility	11
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+cancer	DOID:162	54-60
+History of other malignancy within the previous 5 years, except for appropriately treated carcinoma in situ of the cervix, non-melanoma skin carcinoma, Stage 1 uterine cancer, synchronous or previously diagnosed HER2-positive breast cancer, or cancers with a similar curative outcome as those mentioned above	Eligibility	12
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	90-99
+carcinoma	HP:0030731,DOID:305	141-150
+skin carcinoma	DOID:3451	136-150
+uterine cancer	DOID:363	160-174
+breast cancer	DOID:1612	226-239
+History of receiving any anti-cancer drug/biologic or investigational treatment within 21 days prior to enrollment except hormone therapy, which can be given up to 7 days prior to enrollment; recovery of treatment-related toxicity consistent with other eligibility criteria	Eligibility	13
+history	BFO:0000182	0-7
+hormone	CHEBI:24621	122-129
+History of exposure to cumulative doses of anthracyclines, as defined in the protocol	Eligibility	14
+history	BFO:0000182	0-7
+History of radiation therapy within 14 days of enrollment	Eligibility	15
+history	BFO:0000182	0-7
+Brain metastases that are untreated, symptomatic, or require therapy to control symptoms, as well as a history of radiation, surgery, or other therapy, including steroids, to control symptoms from brain metastases within 2 months (60 days) before enrollment	Eligibility	16
+brain	UBERON:0000955	0-5
+brain	UBERON:0000955	197-202
+history	BFO:0000182	103-110
+surgery	OAE:0000067	125-132
+CNS only disease	Eligibility	17
+disease	DOID:4,OGMS:0000031	9-16
+History of a decrease in LVEF to < 40% or symptomatic congestive heart failure (CHF) with previous trastuzumab treatment	Eligibility	18
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	54-78
+History of symptomatic chronic heart failure (New York Heart Association [NYHA] Classes II-IV) or serious cardiac arrhythmia requiring treatment	Eligibility	19
+history	BFO:0000182	0-7
+chronic	HP:0011010	23-30
+heart	UBERON:0000948	31-36
+heart	UBERON:0000948	55-60
+arrhythmia	HP:0011675	114-124
+History of myocardial infarction or unstable angina within 6 months of enrollment	Eligibility	20
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	11-32
+Current dyspnea at rest due to complications of advanced malignancy or requirement for continuous oxygen therapy	Eligibility	21
+dyspnea	HP:0002094	8-15
+Current severe, uncontrolled systemic disease	Eligibility	22
+severe	HP:0012828	8-14
+disease	DOID:4,OGMS:0000031	38-45
+Pregnancy or lactation	Eligibility	23
+lactation	GO:0007595	13-22
+Concurrent, serious, uncontrolled infections or current known infection with human immunodeficiency virus (HIV) or active hepatitis B and/or hepatitis C. For patients who are known carriers of hepatitis B virus (HBV), active hepatitis B infection must be ruled out, based on negative serologic testing and/or determination of HBV DNA viral load per local guidelines	Eligibility	24
+immunodeficiency	HP:0002721	83-99
+virus	BAO:0000232	100-105
+virus	BAO:0000232	205-210
+active	PATO:0002354	115-121
+active	PATO:0002354	218-224
+hepatitis b	DOID:2043	122-133
+hepatitis b	DOID:2043	193-204
+hepatitis b	DOID:2043	225-236
+hepatitis	HP:0012115,DOID:2237	122-131
+hepatitis	HP:0012115,DOID:2237	141-150
+hepatitis	HP:0012115,DOID:2237	193-202
+hepatitis	HP:0012115,DOID:2237	225-234
+dna	BAO:0000269	330-333
+Presence of conditions that could affect gastrointestinal absorption: malabsorption syndrome, resection of the small bowel or stomach, and ulcerative colitis	Eligibility	25
+malabsorption	HP:0002024	70-83
+syndrome	DOID:225	84-92
+stomach	UBERON:0000945	126-133
+ulcerative colitis	HP:0100279,DOID:8577	139-157
+History of intolerance (such as Grade 3-4 infusion reaction) or known hypersensitivity to trastuzumab or murine proteins or any component of the product	Eligibility	26
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	70-86
+product	BAO:0003067	145-152
+Assessed by the investigator to be unable or unwilling to comply with the requirements of the protocol	Eligibility	27
+Outcome Measurement:	Results	0
+Severity of Adverse Events	Results	1
+severity	HP:0012824	0-8
+Adverse events (AEs) grading was completed according to the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE), version 4.03.	Results	2
+cancer	DOID:162	69-75
+Time frame: From cycle 1 up to approximately 3 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Trastuzumab Emtansine	Results	5
+Arm/Group Description: 3.6 mg/kg of trastuzumab emtansine was administered to participants intravenously (IV) over 30-90 minutes on day 1 of 21 day cycle and was repeated every 3 weeks.	Results	6
+day	UO:0000033	132-135
+day	UO:0000033	144-147
+Overall Number of Participants Analyzed: 70	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Grade 1: 53  75.7%	Results	9
+Grade 2: 40  57.1%	Results	10
+Grade 3: 18  25.7%	Results	11
+Grade 4: 2   2.9%	Results	12
+Grade 5: 12  17.1%	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 28/70 (40.00%)	Adverse Events	1
+THROMBOCYTOPENIA 4/70 (5.71%)	Adverse Events	2
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+CARDIAC ARREST 1/70 (1.43%)	Adverse Events	3
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+CARDIO-RESPIRATORY ARREST 1/70 (1.43%)	Adverse Events	4
+CATARACT 1/70 (1.43%)	Adverse Events	5
+cataract	HP:0000518,DOID:83	0-8
+VISION BLURRED 1/70 (1.43%)	Adverse Events	6
+ABDOMINAL PAIN 1/70 (1.43%)	Adverse Events	7
+abdominal pain	HP:0002027	0-14
+DEATH 4/70 (5.71%)	Adverse Events	8
+death	OAE:0000632	0-5
+PYREXIA 1/70 (1.43%)	Adverse Events	9
+URINARY TRACT INFECTION 1/70 (1.43%)	Adverse Events	10
+urinary tract infection	DOID:0080784	0-23
+FRACTURE DISPLACEMENT 1/70 (1.43%)	Adverse Events	11
+SUBDURAL HAEMATOMA 1/70 (1.43%)	Adverse Events	12

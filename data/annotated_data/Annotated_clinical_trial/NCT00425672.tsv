@@ -1,0 +1,100 @@
+INTERVENTION 1:	Intervention	0
+Arm I	Intervention	1
+Patients receive ONTAK IV over 1 hour on days 1-5. Treatment repeats every 21 days for up to 6 courses in the absence of disease progression or unacceptable toxicity.	Intervention	2
+hour	UO:0000032	33-37
+disease	DOID:4,OGMS:0000031	121-128
+ONTAK: Given IV	Intervention	3
+flow cytometry: Correlative studies	Intervention	4
+flow cytometry	BAO:0000005	0-14
+immunohistochemistry staining method: Correlative studies	Intervention	5
+immunohistochemistry	BAO:0000415	0-20
+enzyme-linked immunosorbent assay: Correlative studies	Intervention	6
+laboratory biomarker analysis: Correlative studies	Intervention	7
+biomarker	CHEBI:59163	11-20
+protein expression analysis: Correlative studies	Intervention	8
+protein	CHEBI:36080,BAO:0000175	0-7
+Inclusion Criteria:	Eligibility	0
+Patients with advanced stage refractory breast cancer	Eligibility	1
+refractory	HP:0031375	29-39
+breast cancer	DOID:1612	40-53
+Progressive or relapsed disease following standard therapy	Eligibility	2
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	24-31
+Patients must have measurable disease that can include, but is not limited to bone; specifically, patients must have measurable extraskeletal disease that can be accurately measured in at least one dimension as >= 20 mm with conventional CT techniques or >= 10 mm with spiral CT scan; measurable (bi-dimensional) chest wall disease will also be allowed	Eligibility	3
+disease	DOID:4,OGMS:0000031	30-37
+disease	DOID:4,OGMS:0000031	142-149
+disease	DOID:4,OGMS:0000031	324-331
+ct	BAO:0002125	238-240
+ct	BAO:0002125	276-278
+chest	UBERON:0001443	313-318
+Patients must be at least 14 days out from last cytotoxic chemotherapy; patients on bisphosphonates are eligible	Eligibility	4
+White blood cell count (WBC) > 3.0 THOU/ul	Eligibility	5
+white blood cell count	CMO:0000027	0-22
+ANC > 1.0 THOU/ul	Eligibility	6
+Platelets >= 100 THOU/ul	Eligibility	7
+Serum creatinine =< 2.0 mg/dL or creatinine clearance (calculated) >= 60 ml/min	Eligibility	8
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	33-43
+creatinine clearance	CMO:0000765	33-53
+ALT/AST =< 2.0 x upper limit of normal	Eligibility	9
+x	LABO:0000148	15-16
+Total bilirubin =< 1.5 x upper limit of normal	Eligibility	10
+x	LABO:0000148	23-24
+Albumin >= 3.0 g/dL	Eligibility	11
+Subjects must have a Performance Status Score (ECOG Scale) =< 2	Eligibility	12
+Subjects must have recovered from major infections and/or surgical procedures and, in the opinion of the investigator, not have a significant active concurrent medical illness precluding protocol treatment	Eligibility	13
+active	PATO:0002354	142-148
+Men and women of reproductive ability must agree to contraceptive use during the study and for 1month after ONTAK treatment is discontinued	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Prior treatment with ONTAK (DAB389 IL-2) or DAB486 IL-2	Eligibility	16
+Known history of hypersensitivity to diphtheria toxin or IL-2	Eligibility	17
+history	BFO:0000182	6-13
+hypersensitivity	GO:0002524,DOID:1205	17-33
+diphtheria	DOID:11405	37-47
+toxin	CHEBI:27026	48-53
+Active autoimmune disease	Eligibility	18
+active	PATO:0002354	0-6
+autoimmune disease	DOID:417	7-25
+Known history of pulmonary disease except controlled asthma	Eligibility	19
+history	BFO:0000182	6-13
+disease	DOID:4,OGMS:0000031	27-34
+asthma	HP:0002099,DOID:2841	53-59
+History of or pre-existing, cardiovascular disease as defined by New York Heart Association (NYHA) Class III-IV categorization	Eligibility	20
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	43-50
+heart	UBERON:0000948	74-79
+Pregnant or breast-feeding women	Eligibility	21
+Outcome Measurement:	Results	0
+Safety Evaluated by Collecting Study Related Toxicity as Assessed by CTCAE v3.0	Results	1
+Subjects are monitored for the development of end organ damage by assessing adverse events with serum chemistries, liver function studies, serum albumin, complete blood counts, symptom assessment, and physical exams performed at every cycle until 3 weeks after the final dose of ONTAK. All adverse events for all systems are graded on a scale of 1-5 using CTCAE v3.0.	Results	2
+organ	UBERON:0000062	50-55
+liver	UBERON:0002107	115-120
+function	BAO:0003117,BFO:0000034	121-129
+serum albumin	BAO:0002066	139-152
+blood	UBERON:0000178	163-168
+symptom	OGMS:0000020	177-184
+Time frame: 7 Days after last dose of ONTAK	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I	Results	5
+Arm/Group Description: Patients receive ONTAK IV over 1 hour on days 1-5. Treatment repeats every 21 days for up to 6 courses in the absence of disease progression or unacceptable toxicity.	Results	6
+hour	UO:0000032	56-60
+disease	DOID:4,OGMS:0000031	144-151
+ONTAK: Given IV	Results	7
+flow cytometry: Correlative studies	Results	8
+flow cytometry	BAO:0000005	0-14
+immunohistochemistry staining method: Correlative studies	Results	9
+immunohistochemistry	BAO:0000415	0-20
+enzyme-linked immunosorbent assay: Correlative studies	Results	10
+laboratory biomarker analysis: Correlative studies	Results	11
+biomarker	CHEBI:59163	11-20
+protein expression analysis: Correlative studies	Results	12
+protein	CHEBI:36080,BAO:0000175	0-7
+Overall Number of Participants Analyzed: 15	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  15 100.0%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 1/15 (6.67%)	Adverse Events	1
+Severe Nausea and Vomiting 1/15 (6.67%)	Adverse Events	2
+severe	HP:0012828	0-6
+nausea and vomiting	HP:0002017	7-26

@@ -1,0 +1,158 @@
+INTERVENTION 1:	Intervention	0
+Letrozole and Imatinib Mesylate	Intervention	1
+letrozole	CHEBI:6413	0-9
+imatinib	CHEBI:45783	14-22
+Imatinib mesylate 400 mg by mouth twice a day daily for 28 days and Letrozole 2.5 mg once a day daily for 28 days cycle.	Intervention	2
+imatinib	CHEBI:45783	0-8
+mouth	UBERON:0000165	28-33
+day	UO:0000033	42-45
+day	UO:0000033	59-62
+day	UO:0000033	92-95
+day	UO:0000033	109-112
+letrozole	CHEBI:6413	68-77
+Inclusion Criteria:	Eligibility	0
+Postmenopausal women able to comply with the protocol requirements with metastatic breast cancer, whose tumors are estrogen (ER) and/or progesterone (PgR) positive, defined by core biopsy immunohistochemistry with greater than 10% positive malignant epithelial cells	Eligibility	1
+breast cancer	DOID:1612	83-96
+estrogen	CHEBI:50114,BAO:0000760	115-123
+progesterone	CHEBI:17026	136-148
+immunohistochemistry	BAO:0000415	188-208
+Patients must have documented expression of either PDGFR or CD117 (c-kit) by immunohistochemistry	Eligibility	2
+immunohistochemistry	BAO:0000415	77-97
+Patients may have received tamoxifen in the adjuvant/neoadjuvant or setting. Patients may have previously received chemotherapy in the adjuvant/ neoadjuvant setting, though this is not required. Prior chemotherapy for metastatic breast cancer is allowed. Concomitant bisphosphonates are allowed for patients with bone metastases and who have another site of measurable disease	Eligibility	3
+tamoxifen	CHEBI:41774	27-36
+breast cancer	DOID:1612	229-242
+site	BFO:0000029	350-354
+disease	DOID:4,OGMS:0000031	369-376
+Post menopausal status defined by one of the following: no spontaneous menses for at least 1 year, in women greater than or equal to 55 years spontaneous menses within the past 1 year in women greater than or equal to 55 years with postmenopausal gonadotrophin levels (luteinizing hormone [LH] and follicle stimulating hormone [FSH] levels greater than 40 IU/L ) or postmenopausal estradiol levels (less than 5 mg/dl) or according to the definition of "postmenopausal range" for the laboratory involved bilateral oophorectomy	Eligibility	4
+year	UO:0000036	93-97
+year	UO:0000036	136-140
+year	UO:0000036	179-183
+year	UO:0000036	221-225
+luteinizing hormone	CHEBI:81568	269-288
+follicle stimulating hormone	CHEBI:81569	298-326
+estradiol	CHEBI:23965	381-390
+range	LABO:0000114	468-473
+bilateral	HP:0012832	503-512
+Performance status, Eastern Cooperative Oncology Group (ECOG) greater than or equal to 2	Eligibility	5
+group	CHEBI:24433	49-54
+Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as greater than or equal to 10 mm with conventional techniques. Bone disease only will not be accepted as measurable disease. Pleural or peritoneal effusions will not be accepted as measurable disease	Eligibility	6
+disease	DOID:4,OGMS:0000031	30-37
+disease	DOID:4,OGMS:0000031	231-238
+disease	DOID:4,OGMS:0000031	279-286
+disease	DOID:4,OGMS:0000031	355-362
+diameter	PATO:0001334	137-145
+bone disease	DOID:0080001	226-238
+Absolute neutrophil count (ANC) = 1.5 x 10 to the 9th power/L	Eligibility	7
+x	LABO:0000148	38-39
+Platelets greater than or equal to 100.0 x 10 to the 9th power/L	Eligibility	8
+x	LABO:0000148	41-42
+Hemoglobin greater than 10.0 g/dL	Eligibility	9
+hemoglobin	CHEBI:35143	0-10
+Creatinine less than 1.5 mg/dl	Eligibility	10
+creatinine	CHEBI:16737	0-10
+Total (T.) bilirubin less than 1.5 x normal	Eligibility	11
+x	LABO:0000148	35-36
+Aspartate aminotransferase (AST) less than 2.5 x normal	Eligibility	12
+aspartate	CHEBI:29995	0-9
+x	LABO:0000148	47-48
+A life expectancy of at least 6 months	Eligibility	13
+Localized radiotherapy, which does not influence the signal of evaluable lesion, is allowed prior to the initiation of imatinib mesylate. Patients must have recovered from the myelosuppressive effects of previous radiotherapy (at least 2-4 weeks)	Eligibility	14
+localized	HP:0012838,PATO:0000627	0-9
+radiotherapy	OAE:0000235	10-22
+radiotherapy	OAE:0000235	213-225
+imatinib	CHEBI:45783	119-127
+Ability to understand and the willingness to sign a written informed consent	Eligibility	15
+Exclusion Criteria:	Eligibility	16
+Prior treatment with Femara or Gleevec	Eligibility	17
+Uncontrolled endocrine disorders such as diabetes mellitus, confirmed hypo- or hyperthyroidism, Cushing's syndrome, Addison's disease (treated or untreated)	Eligibility	18
+diabetes mellitus	HP:0000819,DOID:9351	41-58
+hyperthyroidism	HP:0000836,DOID:7998	79-94
+syndrome	DOID:225	106-114
+disease	DOID:4,OGMS:0000031	126-133
+Patients with unstable angina, or uncontrolled cardiac disease (e.g. class III or IV New York Heart Association's functional classification)	Eligibility	19
+disease	DOID:4,OGMS:0000031	55-62
+heart	UBERON:0000948	94-99
+functional	BAO:0000010	114-124
+Other concurrent malignant disease with the exception of cone-biopsied in situ carcinoma of the cervix uteri, or adequately treated basal or squamous cell carcinoma of the skin, or other curable cancers e.g. Hodgkin's disease or non-Hodgkin lymphoma (NHL), provided 5 years have elapsed from completion of therapy, and there has been no recurrence	Eligibility	20
+disease	DOID:4,OGMS:0000031	27-34
+disease	DOID:4,OGMS:0000031	218-225
+in situ carcinoma	DOID:8719	71-88
+squamous cell carcinoma of the skin	HP:0006739	141-176
+non-hodgkin lymphoma	HP:0012539,DOID:0060060	229-249
+Concomitant treatment with steroids, e.g. glucocorticoids for indications other than cancer, except aerosol for obstructive airways diseases and steroid injection to the joints for treatment of inflammation	Eligibility	21
+cancer	DOID:162	85-91
+steroid	CHEBI:35341	27-34
+steroid	CHEBI:35341	145-152
+Other investigational drugs within the past 3 weeks and the concomitant use of investigational drugs	Eligibility	22
+History of non-compliance to medical regimens and patients who are considered potentially unreliable	Eligibility	23
+history	BFO:0000182	0-7
+Patients with known brain metastasis	Eligibility	24
+brain	UBERON:0000955	20-25
+Patients with known chronic liver disease (i.e., chronic active hepatitis, and cirrhosis)	Eligibility	25
+chronic	HP:0011010	20-27
+chronic	HP:0011010	49-56
+liver disease	DOID:409	28-41
+chronic active hepatitis	HP:0200120	49-73
+cirrhosis	HP:0001394	79-88
+Patients with known diagnosis of human immunodeficiency virus (HIV) infection	Eligibility	26
+immunodeficiency	HP:0002721	39-55
+virus	BAO:0000232	56-61
+Patients who received chemotherapy within 4 weeks (6 weeks for nitrosourea or mitomycin-C) prior to study entry, unless the disease is rapidly progressing	Eligibility	27
+disease	DOID:4,OGMS:0000031	124-131
+Patients who previously received radiotherapy to greater than or equal to 25% of the bone marrow	Eligibility	28
+radiotherapy	OAE:0000235	33-45
+bone marrow	UBERON:0002371	85-96
+Patients who had a major surgery within 2 weeks prior to study entry	Eligibility	29
+surgery	OAE:0000067	25-32
+Outcome Measurement:	Results	0
+Objective Response Rate (ORR)	Results	1
+rate	BAO:0080019	19-23
+Among participants with CR or PR as the best overall response, duration of response (DOR) was defined as the time from which measurement criteria were met for CR or PR until the date of progression. Progression-free survival (PFS) was defined as the time from study enrollment to disease progression or death from any cause, whichever occurred first. PFS data were censored at the time of removal from study. Overall survival (OS) was defined as the time from study registration to death from any cause. Information on vital status was collected following study completion through July 23, 2018 and was used in the determination of OS. Among patients with SD as the best overall response, duration of SD was defined as the time from study enrollment to disease progression or removal from study.	Results	2
+duration	PATO:0001309	63-71
+duration	PATO:0001309	689-697
+time	PATO:0000165	109-113
+time	PATO:0000165	250-254
+time	PATO:0000165	381-385
+time	PATO:0000165	450-454
+time	PATO:0000165	723-727
+disease	DOID:4,OGMS:0000031	280-287
+disease	DOID:4,OGMS:0000031	753-760
+death	OAE:0000632	303-308
+death	OAE:0000632	482-487
+Time frame: From the registration until disease progression, death, unacceptable toxicity, or withdraw of study consent, whichever occurred first assessed up to 182 months	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	40-47
+death	OAE:0000632	61-66
+Results 1:	Results	4
+Arm/Group Title: Letrozole and Imatinib Mesylate	Results	5
+letrozole	CHEBI:6413	17-26
+imatinib	CHEBI:45783	31-39
+Arm/Group Description: Imatinib mesylate 400 mg by mouth twice a day daily for 28 days and Letrozole 2.5 mg once a day daily for 28 days cycle.	Results	6
+imatinib	CHEBI:45783	23-31
+mouth	UBERON:0000165	51-56
+day	UO:0000033	65-68
+day	UO:0000033	82-85
+day	UO:0000033	115-118
+day	UO:0000033	132-135
+letrozole	CHEBI:6413	91-100
+Overall Number of Participants Analyzed: 45	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  Complete Response (CR): 0   0.0%	Results	9
+Partial Response (PR): 5  11.1%	Results	10
+SD (including non-CR/Non-PD)>/=24 weeks: 16  35.6%	Results	11
+SD (including non-CR/Non-PD)</=24 weeks: 8  17.8%	Results	12
+Progressive Disease: 11  24.4%	Results	13
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Non-Evaluable: 5  11.1%	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 14/45 (31.11%)	Adverse Events	1
+Neutropenia 22/45 (4.44%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Diarrhea 7/45 (15.56%)	Adverse Events	3
+diarrhea	HP:0002014,DOID:13250	0-8
+Fatigue 23/45 (6.67%)	Adverse Events	4
+fatigue	HP:0012378	0-7
+Elevated bilirubin 21/45 (2.22%)	Adverse Events	5
+Myalgia 21/45 (2.22%)	Adverse Events	6
+myalgia	HP:0003326	0-7

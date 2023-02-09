@@ -1,0 +1,133 @@
+INTERVENTION 1:	Intervention	0
+All Phase I Participants	Intervention	1
+Paclitaxel 80 mg/m2 IV weekly + Ruxolitinib orally twice daily according to the established dose escalation schedule for 4 cycles	Intervention	2
+paclitaxel	CHEBI:45863	0-10
+ruxolitinib	CHEBI:66919	32-43
+1 cycle = 21 days Participants with stable disease or better will have the opportunity to continue on single agent Ruxolitinib at the established dose until disease progression, unacceptable toxicity or patient withdrawal.	Intervention	3
+stable	HP:0031915	36-42
+disease	DOID:4,OGMS:0000031	43-50
+disease	DOID:4,OGMS:0000031	157-164
+ruxolitinib	CHEBI:66919	115-126
+patient	HADO:0000008,OAE:0001817	203-210
+Inclusion Criteria:	Eligibility	0
+Phase I	Eligibility	1
+Participants must meet the following criteria on screening examination to be eligible to participate in the study:	Eligibility	2
+Participants must have histologically confirmed breast cancer that is metastatic or unresectable and for which standard curative or palliative measures do not exist or are no longer effective.	Eligibility	3
+breast cancer	DOID:1612	48-61
+Patients may not have received > 2 prior chemotherapies for advanced disease.	Eligibility	4
+disease	DOID:4,OGMS:0000031	69-76
+Either measurable or evaluable disease is allowed.	Eligibility	5
+disease	DOID:4,OGMS:0000031	31-38
+Age 18 years. Because no dosing or adverse event data are currently available on the use of ruxolitinib in participants <18 years of age, children are excluded from this study.	Eligibility	6
+age	PATO:0000011	0-3
+age	PATO:0000011	133-136
+adverse event	OAE:0000001	35-48
+ruxolitinib	CHEBI:66919	92-103
+excluded	HP:0040285	151-159
+Life expectancy of greater than 3 months.	Eligibility	7
+ECOG performance status  2 (see Appendix A).	Eligibility	8
+Participants must have normal organ and marrow function as defined below:	Eligibility	9
+organ	UBERON:0000062	30-35
+function	BAO:0003117,BFO:0000034	47-55
+Leukocytes 3,000/mcL	Eligibility	10
+Absolute neutrophil count 1,500/mcL	Eligibility	11
+Platelets 100,000/mcL	Eligibility	12
+Total bilirubin within normal institutional limits	Eligibility	13
+AST (SGOT)/ALT (SGPT)  2.5 X institutional upper limit of normal	Eligibility	14
+x	LABO:0000148	27-28
+Creatinine within normal institutional limits or creatinine clearance  60 mL/min/1.73 m2 for subjects with creatinine levels about institutional normal	Eligibility	15
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	49-59
+creatinine	CHEBI:16737	107-117
+creatinine clearance	CMO:0000765	49-69
+m2	CHEBI:34827	86-88
+Both men and women are allowed.	Eligibility	16
+The effects of ruxolitinib on the developing human fetus are unknown. For this reason women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.	Eligibility	17
+ruxolitinib	CHEBI:66919	15-26
+duration	PATO:0001309	259-267
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	18
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	19
+Phase I	Eligibility	20
+Participants who exhibit any of the following conditions at screening will not be eligible for admission into the study.	Eligibility	21
+Participants may not be receiving any other study agents within 2 weeks of initiating treatment.	Eligibility	22
+Participants with untreated or uncontrolled brain metastases are excluded from this clinical trial. Patients with treated and stable (> 4 weeks) brain metastasis are allowed.	Eligibility	23
+brain	UBERON:0000955	44-49
+brain	UBERON:0000955	145-150
+excluded	HP:0040285	65-73
+stable	HP:0031915	126-132
+History of allergic reactions attributed to compounds of similar chemical or biologic composition to ruxolitinib.	Eligibility	24
+history	BFO:0000182	0-7
+ruxolitinib	CHEBI:66919	101-112
+Participants receiving any medications or substances that are strong inhibitors of CYP3A4 are ineligible. (Please refer to Appendix B for list and washout periods).	Eligibility	25
+Chronic corticosteroid use in excess of the equivalent of prednisone 10 mg once daily.	Eligibility	26
+chronic	HP:0011010	0-7
+corticosteroid	CHEBI:50858	8-22
+prednisone	CHEBI:8382	58-68
+Uncontrolled intercurrent illness including, but not limited to ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	27
+active	PATO:0002354	75-81
+congestive heart failure	HP:0001635,DOID:6000	105-129
+angina pectoris	HP:0001681	140-155
+arrhythmia	HP:0011675	165-175
+Pregnant women are excluded from this study because ruxolitinib is a JAK inhibitor with the potential for teratogenic or abortifacient effects. Because there is an unknown but potential risk of adverse events in nursing infants secondary to treatment of the mother with ruxolitinib, breastfeeding should be discontinued if the mother is treated with ruxolitinib. These potential risks may also apply to other agents used in this study.	Eligibility	28
+excluded	HP:0040285	19-27
+ruxolitinib	CHEBI:66919	52-63
+ruxolitinib	CHEBI:66919	270-281
+ruxolitinib	CHEBI:66919	350-361
+inhibitor	CHEBI:35222	73-82
+abortifacient	CHEBI:50691	121-134
+Individuals with a history of a different malignancy are ineligible except for the following circumstances. Individuals with a history of other malignancies are eligible if they have been disease-free for at least 3 years and are deemed by the investigator to be at low risk for recurrence of that malignancy. Individuals with the following cancers are eligible if diagnosed and treated within the past 3 years: cervical cancer in situ, and basal cell or squamous cell carcinoma of the skin.	Eligibility	29
+history	BFO:0000182	19-26
+history	BFO:0000182	127-134
+cervical cancer	DOID:4362	412-427
+squamous cell carcinoma of the skin	HP:0006739	455-490
+Clinically significant malabsorption syndrome.	Eligibility	30
+malabsorption	HP:0002024	23-36
+syndrome	DOID:225	37-45
+Prior chemotherapy or radiation administered within 2 weeks from initiating study treatment.	Eligibility	31
+Outcome Measurement:	Results	0
+Ruxolitinib Maximum Tolerated Dose (MTD) [Phase I]	Results	1
+ruxolitinib	CHEBI:66919	0-11
+mtd	BAO:0001248	36-39
+Ruxolitinib MTD in combination with paclitaxel 80 mg/m2 intravenously (IV) weekly is determined by the number of patients who have dose limiting toxicity (DLT). See DLT primary outcome measure for definition	Results	2
+ruxolitinib	CHEBI:66919	0-11
+mtd	BAO:0001248	12-15
+paclitaxel	CHEBI:45863	36-46
+If a DLT was observed in 0 of 3 patients in a cohort, then 3 patients were enrolled to the next cohort using a 5mg higher dose of ruxolitinib.	Results	3
+ruxolitinib	CHEBI:66919	130-141
+If a DLT was observed in 1 of 3 patients in a cohort, then 3 additional patients were added, and then if no further DLTs were observed, 3 patients were enrolled to the next cohort using a 5mg higher dose of ruxolitinib.	Results	4
+ruxolitinib	CHEBI:66919	207-218
+The MTD is identified as the level BELOW the cohort where DLT occurred in less than one third of patients within the cohort.	Results	5
+mtd	BAO:0001248	4-7
+If no DLT's are observed, the MTD is not reached.	Results	6
+mtd	BAO:0001248	30-33
+Time frame: Participants were assessed prior to each dose of paclitaxel with ruxolitinib; The observation period for MTD evaluation was the first 2 cycles of treatment. (Up to 8 weeks).	Results	7
+time	PATO:0000165	0-4
+paclitaxel	CHEBI:45863	61-71
+ruxolitinib	CHEBI:66919	77-88
+mtd	BAO:0001248	117-120
+Results 1:	Results	8
+Arm/Group Title: All Phase I Participants	Results	9
+Arm/Group Description: Paclitaxel 80 mg/m2 IV weekly + Ruxolitinib orally twice daily according to the established dose escalation schedule for 4 cycles	Results	10
+paclitaxel	CHEBI:45863	23-33
+ruxolitinib	CHEBI:66919	55-66
+1 cycle = 21 days Participants with stable disease or better will have the opportunity to continue on single agent Ruxolitinib at the established dose until disease progression, unacceptable toxicity or patient withdrawal.	Results	11
+stable	HP:0031915	36-42
+disease	DOID:4,OGMS:0000031	43-50
+disease	DOID:4,OGMS:0000031	157-164
+ruxolitinib	CHEBI:66919	115-126
+patient	HADO:0000008,OAE:0001817	203-210
+Overall Number of Participants Analyzed: 18	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: mg  15	Results	14
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1
+Anemia 0/3 (0.00%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Anemia 0/3 (0.00%)	Adverse Events	3
+anemia	HP:0001903,DOID:2355	0-6
+Fatigue 0/3 (0.00%)	Adverse Events	4
+fatigue	HP:0012378	0-7
+Neutrophil count decreased 0/3 (0.00%)	Adverse Events	5
+Lymphedema 0/3 (0.00%)	Adverse Events	6
+lymphedema	HP:0001004,DOID:4977	0-10

@@ -1,0 +1,221 @@
+INTERVENTION 1:	Intervention	0
+Cohort 1	Intervention	1
+Avastin 10 mg/kg IV over 90 minutes day -14 Abraxane 100 mg/m2 IV over 30 minutes weekly x 12 weeks with Carboplatin at AUC 6 over 30 min IV and Avastin 15 mg/kg IV over 30-90 minutes weeks 1,4,7, and 10 Avastin 10 mg/kg IV over 30-60 minutes cycles 1-3 (omit dose with cycle 4) Doxorubicin 60 mg/m2* and Cyclophosphamide 600 mg/m2 IV q2weeks x 4 cycles Definitive surgery Avastin 10 mg/kg IV over 30-60 minutes q2weeks x 34 weeks	Intervention	2
+day	UO:0000033	36-39
+x	LABO:0000148	48-49
+x	LABO:0000148	89-90
+x	LABO:0000148	281-282
+x	LABO:0000148	343-344
+x	LABO:0000148	420-421
+carboplatin	CHEBI:31355	105-116
+auc	BAO:0002120	120-123
+doxorubicin	CHEBI:28748,BAO:0000639	279-290
+cyclophosphamide	CHEBI:4026	305-321
+surgery	OAE:0000067	365-372
+Cohort 1 and Cohort 2: Abraxane 100 mg/m2 IV over 30 minutes weekly x 12 weeks with Carboplatin at AUC 6 over 30 min IV and Avastin 15 mg/kg IV over 30-90 minutes weeks 1,4,7, and 10 (in Cohort 2, omit dose of Avastin on week 10)	Intervention	3
+x	LABO:0000148	27-28
+x	LABO:0000148	68-69
+carboplatin	CHEBI:31355	84-95
+auc	BAO:0002120	99-102
+week	UO:0000034	61-65
+week	UO:0000034	73-77
+week	UO:0000034	163-167
+week	UO:0000034	221-225
+INTERVENTION 2:	Intervention	4
+Cohort 2	Intervention	5
+Abraxane 100 mg/m2 IV over 30 minutes days -14 and -7 Abraxane 100 mg/m2 IV over 30 minutes weekly x 12 weeks with Carboplatin at AUC 6 over 30 min IV and Avastin 15 mg/kg IV over 30-90 minutes weeks 1,4,7, and 10 (in Cohort 2, omit dose of Avastin on week 10) Definitive surgery Avastin 10 mg/kg IV over 30-60 minutes and Doxorubicin 60 mg/m2* and Cyclophosphamide 600 mg/m2 IV q2weeks x 4 cycles followed by Avastin 10 mg/kg IV over 30-60 minutes q2weeks x 34 weeks OR Avastin 10 mg/kg IV over 30-60 minutes q2weeks x 42 weeks	Intervention	6
+x	LABO:0000148	4-5
+x	LABO:0000148	58-59
+x	LABO:0000148	99-100
+x	LABO:0000148	325-326
+x	LABO:0000148	387-388
+x	LABO:0000148	457-458
+x	LABO:0000148	518-519
+carboplatin	CHEBI:31355	115-126
+auc	BAO:0002120	130-133
+week	UO:0000034	92-96
+week	UO:0000034	104-108
+week	UO:0000034	194-198
+week	UO:0000034	252-256
+week	UO:0000034	381-385
+week	UO:0000034	451-455
+week	UO:0000034	462-466
+week	UO:0000034	512-516
+week	UO:0000034	523-527
+surgery	OAE:0000067	272-279
+doxorubicin	CHEBI:28748,BAO:0000639	323-334
+cyclophosphamide	CHEBI:4026	349-365
+Cohort 1 and Cohort 2: Abraxane 100 mg/m2 IV over 30 minutes weekly x 12 weeks with Carboplatin at AUC 6 over 30 min IV and Avastin 15 mg/kg IV over 30-90 minutes weeks 1,4,7, and 10 (in Cohort 2, omit dose of Avastin on week 10)	Intervention	7
+x	LABO:0000148	27-28
+x	LABO:0000148	68-69
+carboplatin	CHEBI:31355	84-95
+auc	BAO:0002120	99-102
+week	UO:0000034	61-65
+week	UO:0000034	73-77
+week	UO:0000034	163-167
+week	UO:0000034	221-225
+Eligibility criteria	Eligibility	0
+Inclusion criteria:	Eligibility	1
+Histologically documented adenocarcinoma of the breast	Eligibility	2
+adenocarcinoma	DOID:299	26-40
+breast	UBERON:0000310	48-54
+ANC > 1000 cells	Eligibility	3
+Female; age > 18	Eligibility	4
+female	PATO:0000383	0-6
+age	PATO:0000011	8-11
+Zubrod PS 0-1	Eligibility	5
+Platelets > 100,000	Eligibility	6
+Stage IIA-IIIB disease	Eligibility	7
+disease	DOID:4,OGMS:0000031	15-22
+Total bilirubin < 1.5 ULN	Eligibility	8
+No evidence of any metastatic disease	Eligibility	9
+disease	DOID:4,OGMS:0000031	30-37
+Serum Creatinine < 1.5 gm/dl	Eligibility	10
+creatinine	CHEBI:16737	6-16
+No prior systemic therapy for breast cancer or Creat Cl > 30 ml/min	Eligibility	11
+breast cancer	DOID:1612	30-43
+cl	BAO:0002759	53-55
+Not pregnant or lactating	Eligibility	12
+Serum ALT < 2.0 ULN	Eligibility	13
+ER, PR and HER2 status required	Eligibility	14
+LVEF (MUGA/echo WNL)	Eligibility	15
+No baseline > 2 neuropathy	Eligibility	16
+neuropathy	DOID:870	16-26
+Urine protein: creat ratio < 1.0	Eligibility	17
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+ratio	UO:0000190	21-26
+HER2-negative - either IHC 0-1+ or FISH ratio < 2.0	Eligibility	18
+ratio	UO:0000190	40-45
+Hemoglobin > 9 gm/dl	Eligibility	19
+hemoglobin	CHEBI:35143	0-10
+(FISH testing is required for all HER2 2-3+ tumors by IHC)	Eligibility	20
+Exclusion criteria:	Eligibility	21
+No Histologically documented adenocarcinoma of the breast	Eligibility	22
+adenocarcinoma	DOID:299	29-43
+breast	UBERON:0000310	51-57
+No-ANC > 1000 cells	Eligibility	23
+Female; age < 18	Eligibility	24
+female	PATO:0000383	0-6
+age	PATO:0000011	8-11
+Zubrod PS > 0-1	Eligibility	25
+Platelets < 100,000	Eligibility	26
+Stage IV disease	Eligibility	27
+disease	DOID:4,OGMS:0000031	9-16
+Total bilirubin > 1.5 ULN	Eligibility	28
+metastatic disease	Eligibility	29
+disease	DOID:4,OGMS:0000031	11-18
+Serum Creatinine > 1.5 gm/dl	Eligibility	30
+creatinine	CHEBI:16737	6-16
+prior systemic therapy for breast cancer or Creat Cl > 30 ml/min	Eligibility	31
+breast cancer	DOID:1612	27-40
+cl	BAO:0002759	50-52
+pregnant or lactating	Eligibility	32
+Serum ALT > 2.0 ULN baseline > 2 neuropathy	Eligibility	33
+neuropathy	DOID:870	33-43
+Urine protein: creat ratio >1.0	Eligibility	34
+urine	UBERON:0001088	0-5
+protein	CHEBI:36080,BAO:0000175	6-13
+ratio	UO:0000190	21-26
+HER2-positive	Eligibility	35
+Hemoglobin < 9 gm/dl	Eligibility	36
+hemoglobin	CHEBI:35143	0-10
+Outcome Measurement:	Results	0
+Pathological Complete Response Rates at Surgery	Results	1
+surgery	OAE:0000067	40-47
+[Not Specified]	Results	2
+Time frame: at surgery approximately 5 months after initial treatment	Results	3
+time	PATO:0000165	0-4
+surgery	OAE:0000067	15-22
+Results 1:	Results	4
+Arm/Group Title: Cohort 1	Results	5
+Arm/Group Description: Avastin 10 mg/kg IV over 90 minutes day -14 Abraxane 100 mg/m2 IV over 30 minutes weekly x 12 weeks with Carboplatin at AUC 6 over 30 min IV and Avastin 15 mg/kg IV over 30-90 minutes weeks 1,4,7, and 10 Avastin 10 mg/kg IV over 30-60 minutes cycles 1-3 (omit dose with cycle 4) Doxorubicin 60 mg/m2* and Cyclophosphamide 600 mg/m2 IV q2weeks x 4 cycles Definitive surgery Avastin 10 mg/kg IV over 30-60 minutes q2weeks x 34 weeks	Results	6
+day	UO:0000033	59-62
+x	LABO:0000148	71-72
+x	LABO:0000148	112-113
+x	LABO:0000148	304-305
+x	LABO:0000148	366-367
+x	LABO:0000148	443-444
+carboplatin	CHEBI:31355	128-139
+auc	BAO:0002120	143-146
+doxorubicin	CHEBI:28748,BAO:0000639	302-313
+cyclophosphamide	CHEBI:4026	328-344
+surgery	OAE:0000067	388-395
+Cohort 1 and Cohort 2: Abraxane 100 mg/m2 IV over 30 minutes weekly x 12 weeks with Carboplatin at AUC 6 over 30 min IV and Avastin 15 mg/kg IV over 30-90 minutes weeks 1,4,7, and 10 (in Cohort 2, omit dose of Avastin on week 10)	Results	7
+x	LABO:0000148	27-28
+x	LABO:0000148	68-69
+carboplatin	CHEBI:31355	84-95
+auc	BAO:0002120	99-102
+week	UO:0000034	61-65
+week	UO:0000034	73-77
+week	UO:0000034	163-167
+week	UO:0000034	221-225
+Overall Number of Participants Analyzed: 28	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  16	Results	10
+Results 2:	Results	11
+Arm/Group Title: Cohort 2	Results	12
+Arm/Group Description: Abraxane 100 mg/m2 IV over 30 minutes days -14 and -7 Abraxane 100 mg/m2 IV over 30 minutes weekly x 12 weeks with Carboplatin at AUC 6 over 30 min IV and Avastin 15 mg/kg IV over 30-90 minutes weeks 1,4,7, and 10 (in Cohort 2, omit dose of Avastin on week 10) Definitive surgery Avastin 10 mg/kg IV over 30-60 minutes and Doxorubicin 60 mg/m2* and Cyclophosphamide 600 mg/m2 IV q2weeks x 4 cycles followed by Avastin 10 mg/kg IV over 30-60 minutes q2weeks x 34 weeks OR Avastin 10 mg/kg IV over 30-60 minutes q2weeks x 42 weeks	Results	13
+x	LABO:0000148	27-28
+x	LABO:0000148	81-82
+x	LABO:0000148	122-123
+x	LABO:0000148	348-349
+x	LABO:0000148	410-411
+x	LABO:0000148	480-481
+x	LABO:0000148	541-542
+carboplatin	CHEBI:31355	138-149
+auc	BAO:0002120	153-156
+week	UO:0000034	115-119
+week	UO:0000034	127-131
+week	UO:0000034	217-221
+week	UO:0000034	275-279
+week	UO:0000034	404-408
+week	UO:0000034	474-478
+week	UO:0000034	485-489
+week	UO:0000034	535-539
+week	UO:0000034	546-550
+surgery	OAE:0000067	295-302
+doxorubicin	CHEBI:28748,BAO:0000639	346-357
+cyclophosphamide	CHEBI:4026	372-388
+Cohort 1 and Cohort 2: Abraxane 100 mg/m2 IV over 30 minutes weekly x 12 weeks with Carboplatin at AUC 6 over 30 min IV and Avastin 15 mg/kg IV over 30-90 minutes weeks 1,4,7, and 10 (in Cohort 2, omit dose of Avastin on week 10)	Results	14
+x	LABO:0000148	27-28
+x	LABO:0000148	68-69
+carboplatin	CHEBI:31355	84-95
+auc	BAO:0002120	99-102
+week	UO:0000034	61-65
+week	UO:0000034	73-77
+week	UO:0000034	163-167
+week	UO:0000034	221-225
+Overall Number of Participants Analyzed: 27	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: participants  2	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 5/28 (17.86%)	Adverse Events	1
+gr 3 Nausea, gr 3 vomiting  1/28 (3.57%)	Adverse Events	2
+nausea	HP:0002018	5-11
+vomiting	HP:0002013	18-26
+gr 3 nausea, gr 2 infection with noraml ANC, gr 2 HGB, gr 1 glucose  1/28 (3.57%)	Adverse Events	3
+nausea	HP:0002018	5-11
+glucose	CHEBI:4167,BAO:0000924	60-67
+gr 2 non-cardiac chest pain, gr 2 anemia  1/28 (3.57%)	Adverse Events	4
+chest pain	HP:0100749	17-27
+anemia	HP:0001903,DOID:2355	34-40
+gr 3 infection (normal ANC) (cellulitis & pain in buttock - RT infection), gr 1 epistaxis  1/28 (3.57%)	Adverse Events	5
+cellulitis	HP:0100658,DOID:3488	29-39
+pain	HP:0012531	42-46
+epistaxis	HP:0000421	80-89
+Adverse Events 2:	Adverse Events	6
+Total: 8/27 (29.63%)	Adverse Events	7
+gr 3 Nausea, gr 3 vomiting  0/27 (0.00%)	Adverse Events	8
+nausea	HP:0002018	5-11
+vomiting	HP:0002013	18-26
+gr 3 nausea, gr 2 infection with noraml ANC, gr 2 HGB, gr 1 glucose  0/27 (0.00%)	Adverse Events	9
+nausea	HP:0002018	5-11
+glucose	CHEBI:4167,BAO:0000924	60-67
+gr 2 non-cardiac chest pain, gr 2 anemia  0/27 (0.00%)	Adverse Events	10
+chest pain	HP:0100749	17-27
+anemia	HP:0001903,DOID:2355	34-40
+gr 3 infection (normal ANC) (cellulitis & pain in buttock - RT infection), gr 1 epistaxis  0/27 (0.00%)	Adverse Events	11
+cellulitis	HP:0100658,DOID:3488	29-39
+pain	HP:0012531	42-46
+epistaxis	HP:0000421	80-89

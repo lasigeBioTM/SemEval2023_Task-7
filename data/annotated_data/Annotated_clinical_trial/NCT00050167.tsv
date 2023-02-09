@@ -1,0 +1,194 @@
+INTERVENTION 1:	Intervention	0
+Weekly Paclitaxel (WP)	Intervention	1
+paclitaxel	CHEBI:45863	7-17
+Weekly Paclitaxel for 12 weeks followed by Fluorouracil + Epirubicin + Cyclophosphamide (FEC) every 3 weeks for 4 cycles	Intervention	2
+paclitaxel	CHEBI:45863	7-17
+cyclophosphamide	CHEBI:4026	71-87
+INTERVENTION 2:	Intervention	3
+Docetaxel and Capecitabine (DX)	Intervention	4
+capecitabine	CHEBI:31348	14-26
+Docetaxel + Capecitabine days 1-14 every 3 weeks for 4 cycles followed by FEC for 4 cycles.	Intervention	5
+capecitabine	CHEBI:31348	12-24
+Inclusion Criteria:	Eligibility	0
+Patients with histologic confirmation of invasive, but non-inflammatory carcinoma of the breast.	Eligibility	1
+carcinoma	HP:0030731,DOID:305	72-81
+breast	UBERON:0000310	89-95
+Stage I (T1N0) are not eligible for the neo-adjuvant portion of the protocol.	Eligibility	2
+High-risk patients (patients with any of the following: high proliferation rate - Ki67 >35% or poorly differentiated tumors (black's modified grade 3); ER/PR negative; lymphovascular invasion) with stage I disease are eligible for adjuvant therapy.	Eligibility	3
+rate	BAO:0080019	75-79
+disease	DOID:4,OGMS:0000031	206-213
+adjuvant	CHEBI:60809	231-239
+Patients with pure mucinous carcinomas, tubular carcinomas or pure medullary carcinomas are eligible if the patient's tumor is larger than 3 cm in size or if the patient has tumor involvement of the lymph nodes (>2mm).	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	108-115
+patient	HADO:0000008,OAE:0001817	162-169
+size	PATO:0000117	147-151
+lymph	UBERON:0002391	199-204
+Patients with bilateral breast cancers are eligible.	Eligibility	5
+bilateral	HP:0012832	14-23
+breast	UBERON:0000310	24-30
+Patients with pN2a (metastasis in four to nine axillary lymph nodes) are eligible as are patients with pN3a (ten or more axillary lymph nodes). Patients with infraclavicular lymph node involvement are NOT eligible.	Eligibility	6
+lymph	UBERON:0002391	56-61
+lymph	UBERON:0002391	130-135
+lymph	UBERON:0002391	174-179
+Patients must have clinically measurable disease to be treated in the neoadjuvant setting. This includes patients with a non-palpable primary who have histologically proven lymph node (LN) involvement that is clinically palpable and measurable by ultrasound	Eligibility	7
+disease	DOID:4,OGMS:0000031	41-48
+lymph	UBERON:0002391	173-178
+ln	BAO:0002171	185-187
+Histologic confirmation of invasive tumor will be done by core needle biopsy for patients with intact primary tumors. If patients have undergone adequate core biopsy prior to evaluation at MDACC, repeat core biopsy is optional.	Eligibility	8
+Patients must sign an informed consent indicating that they are aware of the investigational nature of the study, in keeping with institutional policy.	Eligibility	9
+Patients with a prior history of breast cancer are eligible if the current primary breast cancer is of a higher stage than the original breast cancer and the patient has not received any of the current study medications including past doxorubicin.	Eligibility	10
+history	BFO:0000182	22-29
+breast cancer	DOID:1612	33-46
+breast cancer	DOID:1612	83-96
+breast cancer	DOID:1612	136-149
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	158-165
+doxorubicin	CHEBI:28748,BAO:0000639	235-246
+Patients should have adequate bone marrow function, as defined by peripheral granulocyte count of > 1,500/mm3, and platelet count > 100,000/mm3. Patients must have adequate liver function with a bilirubin within normal laboratory values. Transaminases (SGPT) may be up to 2.5x upper limit of normal (ULN) if alkaline phosphatase is < ULN or alkaline phosphatase may be up to 4 x ULN if transaminases are < ULN.	Eligibility	11
+bone marrow	UBERON:0002371	30-41
+function	BAO:0003117,BFO:0000034	42-50
+function	BAO:0003117,BFO:0000034	179-187
+peripheral	HP:0030646	66-76
+platelet count	CMO:0000029	115-129
+liver	UBERON:0002107	173-178
+phosphatase	GO:0016791,BAO:0000295	317-328
+phosphatase	GO:0016791,BAO:0000295	350-361
+x	LABO:0000148	275-276
+x	LABO:0000148	377-378
+In addition, patients should have adequate renal function, defined as a serum creatinine < 2.5 mg% and/or creatinine clearance greater than 51 ml/min as calculated by Cockcroft and Gault Equation: Cockcroft and Gault Equation: Creatinine clearance for males = {(140 - age [yrs])(body weight [kg])}/{(72) (serum creatinine [mg/dL])}. Creatinine clearance for females = 0.85 x male value	Eligibility	12
+function	BAO:0003117,BFO:0000034	49-57
+creatinine	CHEBI:16737	78-88
+creatinine	CHEBI:16737	106-116
+creatinine	CHEBI:16737	227-237
+creatinine	CHEBI:16737	311-321
+creatinine	CHEBI:16737	333-343
+creatinine clearance	CMO:0000765	106-126
+creatinine clearance	CMO:0000765	227-247
+creatinine clearance	CMO:0000765	333-353
+age	PATO:0000011	268-271
+body weight	CMO:0000012	279-290
+x	LABO:0000148	373-374
+male	CHEBI:30780,PATO:0000384	252-256
+male	CHEBI:30780,PATO:0000384	360-364
+male	CHEBI:30780,PATO:0000384	375-379
+Patients who had surgical therapy prior to referral will be eligible for randomization to systemic chemotherapy administered in the adjuvant setting.	Eligibility	13
+adjuvant	CHEBI:60809	132-140
+Patients who have overexpression of the her-2/neu oncogene are eligible for the study.	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Patients with N2 (clinical staging) or N3 (clinical staging) nodal disease, inflammatory breast cancer, or metastatic disease are not eligible. This includes patients with infraclavicular and/or supraclavicular lymph node involvement. Patients with pN2a (metastasis in four to nine axillary lymph nodes) are eligible.	Eligibility	16
+disease	DOID:4,OGMS:0000031	67-74
+disease	DOID:4,OGMS:0000031	118-125
+breast cancer	DOID:1612	89-102
+lymph	UBERON:0002391	211-216
+lymph	UBERON:0002391	291-296
+Patients with pN2b (metastasis in clinically apparent internal mammary lymph nodes in the absence of axillary lymph node metastasis) are not eligible. Patients with T4 lesions in the neoadjuvant setting are not eligible. Patients with limited T4 lesions in the adjuvant setting (for example, focal extension into the skin with negative margins) are eligible.	Eligibility	17
+lymph	UBERON:0002391	71-76
+lymph	UBERON:0002391	110-115
+adjuvant	CHEBI:60809	186-194
+adjuvant	CHEBI:60809	261-269
+focal	HP:0030650	292-297
+Severe hypersensitivity reactions to agents formulated in either cremophor or polysorbate 80 must be excluded. Patients with hypersensitivity reactions to any of the study medications must be excluded.	Eligibility	18
+severe	HP:0012828	0-6
+hypersensitivity	GO:0002524,DOID:1205	7-23
+hypersensitivity	GO:0002524,DOID:1205	125-141
+polysorbate 80	CHEBI:53426	78-92
+excluded	HP:0040285	101-109
+excluded	HP:0040285	192-200
+Those patients with history of other malignancies will be excluded, except non-melanoma skin cancer and non-invasive cervical cancer.	Eligibility	19
+history	BFO:0000182	20-27
+excluded	HP:0040285	58-66
+skin cancer	DOID:4159	88-99
+cervical cancer	DOID:4362	117-132
+Patients with uncompensated congestive heart failure are not eligible. Patients with myocardial infarction within the past 12 months are ineligible.	Eligibility	20
+congestive heart failure	HP:0001635,DOID:6000	28-52
+myocardial infarction	HP:0001658,DOID:5844	85-106
+Patients who are pregnant or lactating are not eligible. Women of childbearing potential must have a negative pregnancy test prior to initiation of chemotherapy. Women of childbearing potential who will not use a reliable and appropriate contraceptive method during the study are not eligible.	Eligibility	21
+Patients who have had an organ allograft are ineligible.	Eligibility	22
+organ	UBERON:0000062	25-30
+Patients with serious concurrent infections are ineligible.	Eligibility	23
+Sexually active male patients unwilling to practice contraception during the study are ineligible.	Eligibility	24
+active	PATO:0002354	9-15
+male	CHEBI:30780,PATO:0000384	16-20
+Patients with pre-existing peripheral neuropathy > grade 1.	Eligibility	25
+peripheral neuropathy	HP:0009830,DOID:870	27-48
+Outcome Measurement:	Results	0
+Percentage of Participants With Reoccurrence	Results	1
+Percentage of participants where number with local recurrence, distant metastasis, or death of any cause at 50 months is divided by total number of participants and used as primary efficacy end point to compare paclitaxel to combination docetaxel and capecitabine in breast cancer treatment for preventing recurrence (return of cancer).	Results	2
+death	OAE:0000632	86-91
+efficacy	BAO:0000656	181-189
+paclitaxel	CHEBI:45863	211-221
+capecitabine	CHEBI:31348	251-263
+breast cancer	DOID:1612	267-280
+cancer	DOID:162	274-280
+cancer	DOID:162	328-334
+Time frame: Median of 50 months	Results	3
+time	PATO:0000165	0-4
+median	BAO:0002174	12-18
+Results 1:	Results	4
+Arm/Group Title: Weekly Paclitaxel (WP)	Results	5
+paclitaxel	CHEBI:45863	24-34
+Arm/Group Description: Weekly Paclitaxel for 12 weeks followed by Fluorouracil + Epirubicin + Cyclophosphamide (FEC) every 3 weeks for 4 cycles	Results	6
+paclitaxel	CHEBI:45863	30-40
+cyclophosphamide	CHEBI:4026	94-110
+Overall Number of Participants Analyzed: 301	Results	7
+Log Mean (95% Confidence Interval)	Results	8
+log	BAO:0002172	0-3
+mean	BAO:0002173	4-8
+Unit of Measure: participants  90.7        (86.4 to 93.7)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Docetaxel and Capecitabine (DX)	Results	11
+capecitabine	CHEBI:31348	31-43
+Arm/Group Description: Docetaxel + Capecitabine days 1-14 every 3 weeks for 4 cycles followed by FEC for 4 cycles.	Results	12
+capecitabine	CHEBI:31348	35-47
+Overall Number of Participants Analyzed: 300	Results	13
+Log Mean (95% Confidence Interval)	Results	14
+log	BAO:0002172	0-3
+mean	BAO:0002173	4-8
+Unit of Measure: participants  87.5        (82.7 to 91.1)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 81/301 (26.91%)	Adverse Events	1
+Neutropenia 2/297 (0.67%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Fluid retention 1/297 (0.34%)	Adverse Events	3
+Nausea 5/297 (1.68%)	Adverse Events	4
+nausea	HP:0002018	0-6
+Vomiting 0/297 (0.00%)	Adverse Events	5
+vomiting	HP:0002013	0-8
+Diarrhea 12/297 (4.04%)	Adverse Events	6
+diarrhea	HP:0002014,DOID:13250	0-8
+Constipation 2/297 (0.67%)	Adverse Events	7
+constipation	HP:0002019,DOID:2089	0-12
+Fatigue 25/297 (8.42%)	Adverse Events	8
+fatigue	HP:0012378	0-7
+Alopecia 0/297 (0.00%)	Adverse Events	9
+alopecia	HP:0001596,DOID:987	0-8
+Allergic reaction 2/297 (0.67%)	Adverse Events	10
+Stomatitis 0/297 (0.00%)	Adverse Events	11
+stomatitis	HP:0010280,DOID:9637	0-10
+Neutropenic Infection 2/297 (0.67%)	Adverse Events	12
+Neutropenic Fever 0/297 (0.00%)	Adverse Events	13
+fever	HP:0001945	12-17
+Adverse Events 2:	Adverse Events	14
+Total: 293/300 (97.67%)	Adverse Events	15
+Neutropenia 45/293 (15.36%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Fluid retention 0/293 (0.00%)	Adverse Events	17
+Nausea 12/293 (4.10%)	Adverse Events	18
+nausea	HP:0002018	0-6
+Vomiting 5/293 (1.71%)	Adverse Events	19
+vomiting	HP:0002013	0-8
+Diarrhea 17/293 (5.80%)	Adverse Events	20
+diarrhea	HP:0002014,DOID:13250	0-8
+Constipation 6/293 (2.05%)	Adverse Events	21
+constipation	HP:0002019,DOID:2089	0-12
+Fatigue 66/293 (22.53%)	Adverse Events	22
+fatigue	HP:0012378	0-7
+Alopecia 0/293 (0.00%)	Adverse Events	23
+alopecia	HP:0001596,DOID:987	0-8
+Allergic reaction 4/293 (1.37%)	Adverse Events	24
+Stomatitis 5/293 (1.71%)	Adverse Events	25
+stomatitis	HP:0010280,DOID:9637	0-10
+Neutropenic Infection 20/293 (6.83%)	Adverse Events	26
+Neutropenic Fever 13/293 (4.44%)	Adverse Events	27
+fever	HP:0001945	12-17

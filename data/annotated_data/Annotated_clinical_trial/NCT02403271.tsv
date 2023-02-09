@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+Phase 1b	Intervention	1
+In the Phase 1b (safety portion) of the study, a starting dose of 560 mg of ibrutinib and 10 mg/kg of MEDI4736 will be explored and will follow a 6 + 3 dose de-escalation design and will include a sentinel participant which will have a 3-day observation period prior to dosing of subsequent participants. Participants with one of the following three tumor types will be eligible for enrollment: NSCLC (adenocarcinoma and squamous-cell carcinoma), breast cancer (triple-negative and HER2-positive cancer), and Pancreatic cancer (adenocarcinoma).	Intervention	2
+ibrutinib	CHEBI:76612	76-85
+adenocarcinoma	DOID:299	402-416
+adenocarcinoma	DOID:299	528-542
+carcinoma	HP:0030731,DOID:305	407-416
+carcinoma	HP:0030731,DOID:305	435-444
+carcinoma	HP:0030731,DOID:305	533-542
+breast cancer	DOID:1612	447-460
+cancer	DOID:162	454-460
+cancer	DOID:162	496-502
+cancer	DOID:162	520-526
+pancreatic cancer	DOID:1793	509-526
+Inclusion Criteria:	Eligibility	0
+Pathologically confirmed: Non-small cell lung cancer (NSCLC, adenocarcinoma or squamous-cell carcinoma), Breast Cancer (HER2 positive or triple negative), Pancreatic Cancer (adenocarcinoma)	Eligibility	1
+lung cancer	DOID:1324	41-52
+adenocarcinoma	DOID:299	61-75
+adenocarcinoma	DOID:299	174-188
+carcinoma	HP:0030731,DOID:305	66-75
+carcinoma	HP:0030731,DOID:305	93-102
+carcinoma	HP:0030731,DOID:305	179-188
+breast cancer	DOID:1612	105-118
+pancreatic cancer	DOID:1793	155-172
+Relapsed or refractory disease (Stage III or IV): NSCLC or pancreatic cancer must have failed at least 1 prior treatment. Breast cancer must have failed at least 2 prior treatments.	Eligibility	2
+refractory	HP:0031375	12-22
+disease	DOID:4,OGMS:0000031	23-30
+pancreatic cancer	DOID:1793	59-76
+breast cancer	DOID:1612	122-135
+Measurable lesion by RECIST 1.1	Eligibility	3
+Adequate hematologic function:	Eligibility	4
+function	BAO:0003117,BFO:0000034	21-29
+ANC >1500 cells/mm3	Eligibility	5
+Platelet count >100,000 cells/mm3	Eligibility	6
+platelet count	CMO:0000029	0-14
+HGB >9.0 g/dL	Eligibility	7
+Adequate hepatic and renal function:	Eligibility	8
+function	BAO:0003117,BFO:0000034	27-35
+AST and ALT 2.5 x ULN for subjects without liver metastases and 3.5 x ULN for subjects with liver metastases	Eligibility	9
+x	LABO:0000148	16-17
+x	LABO:0000148	68-69
+liver	UBERON:0002107	43-48
+liver	UBERON:0002107	92-97
+Bilirubin 1.5 x ULN (unless bilirubin rise is due to Gilbert's syndrome or of non-hepatic origin)	Eligibility	10
+x	LABO:0000148	14-15
+syndrome	DOID:225	63-71
+Creatinine 2.0 x ULN and Creatinine Clearance 40 mL/min (Cockcroft-Gault or 24-hour creatinine clearance collection)	Eligibility	11
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	25-35
+creatinine	CHEBI:16737	84-94
+x	LABO:0000148	15-16
+creatinine clearance	CMO:0000765	25-45
+creatinine clearance	CMO:0000765	84-104
+PT/INR <1.5 x ULN and PTT/ aPTT <1.5 x ULN	Eligibility	12
+x	LABO:0000148	12-13
+x	LABO:0000148	37-38
+Exclusion Criteria:	Eligibility	13
+Mixed small cell and NSCLC histology	Eligibility	14
+mixed	BAO:0002107	0-5
+histology	NCIT:C16681	27-36
+A history of CNS involvement except as follows: Subjects with previously treated CNS metastases that are adequately treated with whole brain radiotherapy, that are neurologically stable, and do not require corticosteroids for symptomatic management for at least 14 days prior to first dose of study drug. There must be no clear evidence of radiographically active disease for at least 90 days prior to enrollment.	Eligibility	15
+history	BFO:0000182	2-9
+brain	UBERON:0000955	135-140
+radiotherapy	OAE:0000235	141-153
+stable	HP:0031915	179-185
+drug	CHEBI:23888	299-303
+active	PATO:0002354	357-363
+disease	DOID:4,OGMS:0000031	364-371
+Anti-tumor therapy within 21 days of study Day 1	Eligibility	16
+day	UO:0000033	29-32
+day	UO:0000033	43-46
+Prior treatment with ibrutinib or other BTK inhibitor anti-CD137 or CTLA-4 antibody. The following are exceptions to this criterion: Subjects previously treated with an anti-PD1, anti-PD-L1, or anti-PD-L2 antibody.	Eligibility	17
+ibrutinib	CHEBI:76612	21-30
+inhibitor	CHEBI:35222	44-53
+antibody	GO:0042571,BAO:0000502	75-83
+antibody	GO:0042571,BAO:0000502	205-213
+History of allogeneic organ transplant	Eligibility	18
+history	BFO:0000182	0-7
+organ	UBERON:0000062	22-27
+Treatment with a strong cytochrome P450 (CYP) 3A inhibitor	Eligibility	19
+cytochrome p450	CHEBI:38559	24-39
+inhibitor	CHEBI:35222	49-58
+Outcome Measurement:	Results	0
+Phase 1b: Number of Participants With Adverse Events as a Measure of Safety and Tolerability of Ibrutinib and Durvalumab (MEDI4736) and to Find the Recommended Phase II Dose.	Results	1
+ibrutinib	CHEBI:76612	96-105
+[Not Specified]	Results	2
+Time frame: From the date of first study treatment until DLT or disease progression per RECIST 1.1.	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	64-71
+Results 1:	Results	4
+Arm/Group Title: Phase 1b	Results	5
+Arm/Group Description: In the Phase 1b (safety portion) of the study, a starting dose of 560 mg of ibrutinib and 10 mg/kg of MEDI4736 will be explored and will follow a 6 + 3 dose de-escalation design and will include a sentinel participant which will have a 3-day observation period prior to dosing of subsequent participants. Participants with one of the following three tumor types will be eligible for enrollment: NSCLC (adenocarcinoma and squamous-cell carcinoma), breast cancer (triple-negative and HER2-positive cancer), and Pancreatic cancer (adenocarcinoma).	Results	6
+ibrutinib	CHEBI:76612	99-108
+adenocarcinoma	DOID:299	425-439
+adenocarcinoma	DOID:299	551-565
+carcinoma	HP:0030731,DOID:305	430-439
+carcinoma	HP:0030731,DOID:305	458-467
+carcinoma	HP:0030731,DOID:305	556-565
+breast cancer	DOID:1612	470-483
+cancer	DOID:162	477-483
+cancer	DOID:162	519-525
+cancer	DOID:162	543-549
+pancreatic cancer	DOID:1793	532-549
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  6	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 77/122 (63.11%)	Adverse Events	1
+Anaemia 1/122 (0.82%)	Adverse Events	2
+Thrombocytopenia 1/122 (0.82%)	Adverse Events	3
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Pericardial effusion 3/122 (2.46%)	Adverse Events	4
+pericardial effusion	HP:0001698,DOID:118	0-20
+Supraventricular tachycardia 2/122 (1.64%)	Adverse Events	5
+supraventricular tachycardia	HP:0004755	0-28
+Acute myocardial infarction 1/122 (0.82%)	Adverse Events	6
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 1/122 (0.82%)	Adverse Events	7
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Sinus tachycardia 1/122 (0.82%)	Adverse Events	8
+sinus tachycardia	HP:0011703	0-17
+Ventricular tachycardia 1/122 (0.82%)	Adverse Events	9
+ventricular tachycardia	HP:0004756	0-23
+Hypothyroidism 1/122 (0.82%)	Adverse Events	10
+hypothyroidism	HP:0000821,DOID:1459	0-14
+Abdominal pain 4/122 (3.28%)	Adverse Events	11
+abdominal pain	HP:0002027	0-14

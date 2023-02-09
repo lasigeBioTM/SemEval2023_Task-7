@@ -1,0 +1,60 @@
+INTERVENTION 1:	Intervention	0
+Allogeneic Transplantation	Intervention	1
+Intravenous Fludarabine 30 mg/m^2 daily on days 1-5, and Melphalan 70 mg/m^2 on days 4 and 5 followed by blood stem cell transplant on day 7.	Intervention	2
+melphalan	CHEBI:28876	57-66
+blood	UBERON:0000178	105-110
+stem cell transplant	OAE:0001532	111-131
+day	UO:0000033	43-46
+day	UO:0000033	80-83
+day	UO:0000033	135-138
+Inclusion Criteria:	Eligibility	0
+Recurrent or residual metastatic breast carcinoma	Eligibility	1
+recurrent	HP:0031796	0-9
+breast carcinoma	HP:0003002,DOID:3459	33-49
+Zubrod performance status less than 2	Eligibility	2
+18-60 years old	Eligibility	3
+Related donor human leukocyte antigen (HLA)-compatible for allogeneic transplantation or unrelated HLA-compatible donor.	Eligibility	4
+donor	CHEBI:17891	8-13
+donor	CHEBI:17891	114-119
+antigen	CHEBI:59132	30-37
+No major organ dysfunction or active infection	Eligibility	5
+organ	UBERON:0000062	9-14
+active	PATO:0002354	30-36
+Exclusion Criteria: None	Eligibility	6
+Outcome Measurement:	Results	0
+Number of Participants With Tumor Response	Results	1
+Best response recorded from start of treatment until disease progression/recurrence using World Health Organization (WHO) criteria of Complete Response: disappearance of all disease/symptoms > 4 weeks; Partial response, > 50% reduction in sum of products of diameters of each measurable lesion for more than 4 weeks; Stable Disease, no change in tumor size; and Progressive Disease, appearance of new lesions or > 25% increase in sum of products of diameters of any measurable lesions.	Results	2
+disease	DOID:4,OGMS:0000031	53-60
+disease	DOID:4,OGMS:0000031	174-181
+disease	DOID:4,OGMS:0000031	324-331
+disease	DOID:4,OGMS:0000031	374-381
+stable	HP:0031915	317-323
+size	PATO:0000117	352-356
+progressive	HP:0003676	362-373
+increase	BAO:0001251	418-426
+Time frame: Baseline to measured progressive disease (post study follow-up period 24 months starting from the date of the last drug administration). Data collected every 4 months.	Results	3
+time	PATO:0000165	0-4
+progressive	HP:0003676	33-44
+disease	DOID:4,OGMS:0000031	45-52
+drug administration	OAE:0000011	127-146
+Results 1:	Results	4
+Arm/Group Title: Allogeneic Transplantation	Results	5
+Arm/Group Description: Intravenous Fludarabine 30 mg/m^2 daily on days 1-5, and Melphalan 70 mg/m^2 on days 4 and 5 followed by blood stem cell transplant on day 7.	Results	6
+melphalan	CHEBI:28876	80-89
+blood	UBERON:0000178	128-133
+stem cell transplant	OAE:0001532	134-154
+day	UO:0000033	66-69
+day	UO:0000033	103-106
+day	UO:0000033	158-161
+Overall Number of Participants Analyzed: 18	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Complete Response: 5	Results	9
+Stable Disease: 9	Results	10
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Partial Response: 1	Results	11
+Progressive Disease: 3	Results	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Adverse Events 1:	Adverse Events	0
+Total: 0/19 (0.00%)	Adverse Events	1

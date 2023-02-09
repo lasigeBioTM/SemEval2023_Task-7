@@ -1,0 +1,64 @@
+INTERVENTION 1:	Intervention	0
+Usual Care	Intervention	1
+Usual Care is the comparison Clinic Patients, where there is no change in their standard or usual care.	Intervention	2
+INTERVENTION 2:	Intervention	3
+BreastCARE Intervention	Intervention	4
+Intervention Clinic Patients: The participants will answer questions on the tablet-PC to calculate their breast cancer risk.	Intervention	5
+breast cancer	DOID:1612	105-118
+Intervention Patient Report. Once the patient completes the BreastCare Computer survey, the program will immediately generate a personal feedback report containing information about her risk factors and recommendations to reduce her risk. This report will be printed and given to the patients before she meets with her doctor.	Intervention	6
+patient	HADO:0000008,OAE:0001817	13-20
+patient	HADO:0000008,OAE:0001817	38-45
+patient	HADO:0000008,OAE:0001817	284-291
+BreastCARE : The physician will receive a physician report that contains information similar to the patient report.	Intervention	7
+patient	HADO:0000008,OAE:0001817	100-107
+Inclusion Criteria:	Eligibility	0
+Patient component:	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+Women who visit the General Internal Medicine (GIM) practices at SFGH and UCSF during the study period	Eligibility	2
+Between the ages of 40 and 74	Eligibility	3
+Self-identify as Asian American, Spanish- and English-speaking Latinas, African American, or White	Eligibility	4
+Have no history of breast cancer are eligible to participate.	Eligibility	5
+history	BFO:0000182	8-15
+breast cancer	DOID:1612	19-32
+Physician component: Primary care physicians currently practicing at the GIM clinics at SFGH and UCSF	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Patient component: Women whose physicians object to their participation in the study	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+object	BFO:0000030	42-48
+Physician component: No exclusion criteria for physicians	Eligibility	9
+Outcome Measurement:	Results	0
+Knowledge of Breast Cancer Risk Factors	Results	1
+breast cancer	DOID:1612	13-26
+Risk knowledge was assessed using a post-survey. Participants could have scored 0-100 (with 0 meaning no correct answers, and 100 is all correct answers). This outcome was measured through a survey. Breast cancer risk knowledge was based on a series of eight questions in the survey. O	Results	2
+breast cancer	DOID:1612	199-212
+Time frame: one week post-initial visit (approximately one week)	Results	3
+time	PATO:0000165	0-4
+week	UO:0000034	16-20
+week	UO:0000034	59-63
+Results 1:	Results	4
+Arm/Group Title: Usual Care	Results	5
+Arm/Group Description: Usual Care is the comparison Clinic Patients, where there is no change in their standard or usual care.	Results	6
+Overall Number of Participants Analyzed: 655	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  48.9         (24.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: BreastCARE Intervention	Results	11
+Arm/Group Description: Intervention Clinic Patients: The participants will answer questions on the tablet-PC to calculate their breast cancer risk.	Results	12
+breast cancer	DOID:1612	128-141
+Intervention Patient Report. Once the patient completes the BreastCare Computer survey, the program will immediately generate a personal feedback report containing information about her risk factors and recommendations to reduce her risk. This report will be printed and given to the patients before she meets with her doctor.	Results	13
+patient	HADO:0000008,OAE:0001817	13-20
+patient	HADO:0000008,OAE:0001817	38-45
+patient	HADO:0000008,OAE:0001817	284-291
+BreastCARE : The physician will receive a physician report that contains information similar to the patient report.	Results	14
+patient	HADO:0000008,OAE:0001817	100-107
+Overall Number of Participants Analyzed: 580	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  56.4         (24.3)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/655 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/580 (0.00%)	Adverse Events	3

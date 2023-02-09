@@ -1,0 +1,275 @@
+INTERVENTION 1:	Intervention	0
+Arm A: Nab-Paclitaxel + Gemcitabine	Intervention	1
+gemcitabine	CHEBI:175901	24-35
+Participants received nab-Paclitaxel 125 mg/m^2 on Days 1 and 8 by intravenous (IV) administration followed by gemcitabine 1000 mg/m^2 on Days 1 and 8 by IV administration of each 21-day treatment cycle. Participants continued treatment until progressive disease (PD), unacceptable toxicity, required palliative radiotherapy or surgical intervention of lesion(s), withdrawal from study treatment, withdrawal of study consent, participant refusal or the investigator felt it was no longer in the best interest of the participant to continue on treatment	Intervention	2
+gemcitabine	CHEBI:175901	111-122
+progressive	HP:0003676	243-254
+disease	DOID:4,OGMS:0000031	255-262
+radiotherapy	OAE:0000235	312-324
+INTERVENTION 2:	Intervention	3
+Arm B: Nab-Paclitaxel + Carboplatin	Intervention	4
+carboplatin	CHEBI:31355	24-35
+Participants received nab-Paclitaxel 125 mg/m^2 on Days 1 and 8 by IV administration followed by carboplatin area under the curve 2 (AUC 2) on Days 1 and 8 in each 21-day treatment cycle. Participants continued treatment until progressive disease (PD), unacceptable toxicity, required palliative radiotherapy or surgical intervention of lesion(s), withdrawal from study treatment, withdrawal of study consent, participant refusal or the investigator felt it was no longer in the best interest of the participant to continue on treatment.	Intervention	5
+carboplatin	CHEBI:31355	97-108
+area	PATO:0001323	109-113
+auc	BAO:0002120	133-136
+progressive	HP:0003676	227-238
+disease	DOID:4,OGMS:0000031	239-246
+radiotherapy	OAE:0000235	296-308
+Inclusion Criteria: A subject will be eligible for inclusion in this study only if all of the following criteria are met:	Eligibility	0
+Female subjects, age  18 years at the time informed consent is signed	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	17-20
+time	PATO:0000165	38-42
+Pathologically confirmed adenocarcinoma of the breast	Eligibility	2
+adenocarcinoma	DOID:299	25-39
+breast	UBERON:0000310	47-53
+Pathologically confirmed as triple negative, source documented, defined as both of the following	Eligibility	3
+Estrogen Receptor (ER) and Progesterone Receptor (PgR) negative: < 1% of tumor cell nuclei are immunoreactive in the presence of evidence that the sample can express ER or PgR (positive intrinsic controls)	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	40-48
+progesterone	CHEBI:17026	27-39
+Human Epidermal Growth Factor Receptor 2 (HER2) negative as per American Society of Clinical Oncology - College of American Pathologists (ASCO/CAP) guidelines i. Immunohistochemistry (IHC) 0 or 1 Fluorescence In Situ Hybridization (FISH) negative (or equivalent negative test). Subjects with IHC 2 must have a negative by Fluorescence In Situ Hybridization (FISH),, (or equivalent negative test).	Eligibility	5
+growth factor	BAO:0002024	16-29
+receptor	BAO:0000281	30-38
+immunohistochemistry	BAO:0000415	162-182
+Subjects with prior breast cancer history of different phenotypes (ie, ER/PgR/HER2 positive) must have pathologic confirmation of triple negative disease in at least one of the current sites of metastasis	Eligibility	6
+breast cancer	DOID:1612	20-33
+history	BFO:0000182	34-41
+disease	DOID:4,OGMS:0000031	146-153
+Subjects must have received prior adjuvant or neoadjuvant anthracycline therapy; unless (a) anthracycline treatment was not indicated or was not the best treatment option for the subject in the opinion of the treating physician; and (b) anthracycline treatment remains not indicated or, in the opinion of the treating physician, is not the best treatment option for the subject's metastatic disease.	Eligibility	7
+adjuvant	CHEBI:60809	34-42
+adjuvant	CHEBI:60809	49-57
+anthracycline	CHEBI:48120	58-71
+anthracycline	CHEBI:48120	92-105
+anthracycline	CHEBI:48120	237-250
+disease	DOID:4,OGMS:0000031	391-398
+a. Newly diagnosed subjects presenting with TNMBC are eligible for the study if anthracycline treatment is not indicated or is not the best treatment option for the subject in the opinion of the treating physician.	Eligibility	8
+anthracycline	CHEBI:48120	80-93
+Subjects with measurable metastatic disease, defined by Response Evaluation Criteria in Solid Tumors 1.1 (RECIST 1.1) guidelines	Eligibility	9
+disease	DOID:4,OGMS:0000031	36-43
+Life expectancy  16 weeks from randomization	Eligibility	10
+No prior cytotoxic chemotherapy for metastatic breast cancer. Prior immunotherapy and/or monoclonal antibody therapy are acceptable. Prior treatments must have been discontinued at least 30 days prior to start of study treatment and all related toxicities must have resolved to Grade 1 or less.	Eligibility	11
+breast cancer	DOID:1612	47-60
+monoclonal	BAO:0000503	89-99
+antibody	GO:0042571,BAO:0000502	100-108
+Prior neoadjuvant or adjuvant chemotherapy, if given, must have been completed at least 6 months before randomization with all related toxicities resolved, and documented evidence of disease progression per RECIST 1.1 guidelines is required.	Eligibility	12
+adjuvant	CHEBI:60809	9-17
+adjuvant	CHEBI:60809	21-29
+disease	DOID:4,OGMS:0000031	183-190
+a. If prior neoadjuvant or adjuvant chemotherapy contained taxane, gemcitabine, or platinum agents, the treatment must have completed at least 12 months before randomization	Eligibility	13
+adjuvant	CHEBI:60809	15-23
+adjuvant	CHEBI:60809	27-35
+taxane	CHEBI:36064	59-65
+gemcitabine	CHEBI:175901	67-78
+platinum	CHEBI:33364	83-91
+Prior radiotherapy must have completed before randomization, with full recovery from acute radiation side effects. At least one measurable lesion must be completely outside the radiation portal or there must be unequivocal radiologic or clinical exam proof of progressive disease within the radiation portal, in accordance with RECIST 1.1 guidelines	Eligibility	14
+radiotherapy	OAE:0000235	6-18
+acute	HP:0011009,PATO:0000389	85-90
+progressive	HP:0003676	260-271
+disease	DOID:4,OGMS:0000031	272-279
+At least 30 days from major surgery before randomization, with full recovery	Eligibility	15
+surgery	OAE:0000067	28-35
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1	Eligibility	16
+group	CHEBI:24433	29-34
+Subject has the following blood counts at screening:	Eligibility	17
+blood	UBERON:0000178	26-31
+Absolute Neutrophil Count (ANC)  1500/mm^2 ;	Eligibility	18
+Platelets  100,000/mm^2 ;	Eligibility	19
+Hemoglobin (Hgb)  9 g/dL	Eligibility	20
+hemoglobin	CHEBI:35143	0-10
+Subject has the following blood chemistry levels at screening:	Eligibility	21
+blood	UBERON:0000178	26-31
+Aspartate aminotransferase (AST) Serum glutamic-oxaloacetic transaminase (SGOT), Alanine Aminotransferase (ALT ) Serum Glutamic Pyruvate Transaminase (SGPT)  2.5 x upper limit of normal range (ULN); if hepatic metastases present  5.0 x ULN	Eligibility	22
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	81-88
+pyruvate	CHEBI:15361	128-136
+x	LABO:0000148	49-50
+x	LABO:0000148	162-163
+x	LABO:0000148	234-235
+range	LABO:0000114	186-191
+present	PATO:0000467	221-228
+Total serum bilirubin  ULN; or total bilirubin  3.0 × ULN with direct bilirubin within normal range in subjects with documented Gilbert's Syndrome	Eligibility	23
+range	LABO:0000114	94-99
+syndrome	DOID:225	138-146
+Creatinine clearance > 60 mL/min (by Cockcroft-Gault)	Eligibility	24
+creatinine clearance	CMO:0000765	0-20
+Females of child-bearing potential [defined as a sexually mature women who (1) have not undergone hysterectomy (the surgical removal of the uterus) or bilateral oophorectomy (the surgical removal of both ovaries) or (2) have not been naturally postmenopausal for at least 24 consecutive months (i.e., has had menses at any time during the preceding 24 consecutive months)] must:	Eligibility	25
+uterus	UBERON:0000995	140-146
+bilateral	HP:0012832	151-160
+time	PATO:0000165	323-327
+Demonstrate a negative serum pregnancy test result at screening (performed by central lab) confirmed by local negative urine pregnancy dipstick within 72 hours prior to the first dose of IP); pregnancy test with sensitivity of at least 25 mIU/mL; and	Eligibility	26
+result	BAO:0000179	44-50
+central	HP:0030645	78-85
+urine	UBERON:0001088	119-124
+Either commit to true abstinence* from heterosexual contact (which must be reviewed on a monthly basis) or agree to use, and be able to comply with, two physician approved effective contraception methods (oral, injectable, or implantable hormonal contraceptive; tubal ligation; intra-uterine device; barrier contraceptive with spermicide; or vasectomized partner) without interruption for 28 days or longer as required by local guidelines, prior to starting study drug, during the study therapy (including dose interruptions), and for 28 days after discontinuation of the study or longer as required by local guidelines	Eligibility	27
+drug	CHEBI:23888	464-468
+Females must abstain from breastfeeding starting at randomization, during study participation and for 28 days or longer as required by local guidelines, after IP discontinuation	Eligibility	28
+Understand and voluntarily sign an informed consent document prior to any study related assessments/procedures are conducted	Eligibility	29
+document	IAO:0000310	52-60
+Able to adhere to the study visit schedule and other protocol requirements	Eligibility	30
+Exclusion Criteria:	Eligibility	31
+A subject will not be eligible for inclusion in this study if any of the following criteria apply:	Eligibility	32
+Male subjects	Eligibility	33
+male	CHEBI:30780,PATO:0000384	0-4
+Concurrent chemotherapy or any other anti tumor therapy for breast cancer. Prior immunotherapy & monoclonal antibody therapy are acceptable.	Eligibility	34
+breast cancer	DOID:1612	60-73
+monoclonal	BAO:0000503	97-107
+antibody	GO:0042571,BAO:0000502	108-116
+Subjects who received prior cytotoxic chemotherapy after incomplete resection of locoregional recurrent disease	Eligibility	35
+recurrent	HP:0031796	94-103
+disease	DOID:4,OGMS:0000031	104-111
+History of, or known current evidence of brain metastasis, including leptomeningeal involvement.	Eligibility	36
+history	BFO:0000182	0-7
+brain	UBERON:0000955	41-46
+Subjects with bone as the only site of metastatic disease	Eligibility	37
+site	BFO:0000029	31-35
+disease	DOID:4,OGMS:0000031	50-57
+Subjects with regional lymph node as the only site of metastatic disease	Eligibility	38
+lymph	UBERON:0002391	23-28
+site	BFO:0000029	46-50
+disease	DOID:4,OGMS:0000031	65-72
+Serious intercurrent medical or psychiatric illness, including serious active infection	Eligibility	39
+active	PATO:0002354	71-77
+History of class II-IV congestive heart failure or myocardial infarction within 6 months of randomization	Eligibility	40
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	23-47
+myocardial infarction	HP:0001658,DOID:5844	51-72
+History of other primary malignancy in the last 5 years prior to randomization. Subjects with prior breast cancer history are eligible, however, the most recently obtained biopsy must demonstrate triple negative disease (source documented). Subjects with prior history of in situ cancer or basal or localized squamous cell skin cancer are eligible.	Eligibility	41
+history	BFO:0000182	0-7
+history	BFO:0000182	114-121
+history	BFO:0000182	261-268
+breast cancer	DOID:1612	100-113
+disease	DOID:4,OGMS:0000031	212-219
+cancer	DOID:162	107-113
+cancer	DOID:162	280-286
+cancer	DOID:162	328-334
+localized	HP:0012838,PATO:0000627	299-308
+skin cancer	DOID:4159	323-334
+Subjects with a history of interstitial lung disease, history of slowly progressive dyspnea and unproductive cough, sarcoidosis, silicosis, idiopathic pulmonary fibrosis, pulmonary hypersensitivity pneumonitis or multiple uncontrolled or unstable allergies which, in the opinion of the investigator, may lead to serious complications	Eligibility	42
+history	BFO:0000182	16-23
+history	BFO:0000182	54-61
+interstitial lung disease	DOID:3082	27-52
+slowly progressive	HP:0003677	65-83
+dyspnea	HP:0002094	84-91
+cough	HP:0012735	109-114
+sarcoidosis	DOID:11335	116-127
+silicosis	DOID:10325	129-138
+idiopathic pulmonary fibrosis	DOID:0050156	140-169
+hypersensitivity pneumonitis	HP:0006516,DOID:841	181-209
+Peripheral neuropathy Grade  2 by National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) v4.0	Eligibility	43
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+cancer	DOID:162	43-49
+Subjects who have received an investigational product within the previous 4 weeks prior to randomization	Eligibility	44
+product	BAO:0003067	46-53
+Subject is currently enrolled, or will enroll in a different clinical study in which investigational therapeutic procedures are performed or investigational therapies are administered while participating in this study	Eligibility	45
+Pregnant or nursing women	Eligibility	46
+Subjects with prior hypersensitivity to nab-paclitaxel, gemcitabine, carboplatin or any other platin, or nucleoside analogue agents	Eligibility	47
+hypersensitivity	GO:0002524,DOID:1205	20-36
+gemcitabine	CHEBI:175901	56-67
+carboplatin	CHEBI:31355	69-80
+nucleoside analogue	CHEBI:60783	105-124
+Any significant medical condition, laboratory abnormality, or psychiatric illness that would prevent the subject from participating in the study	Eligibility	48
+condition	PDRO:0000129	24-33
+Any condition including the presence of laboratory abnormalities, which places the subject at unacceptable risk if she were to participate in the study	Eligibility	49
+condition	PDRO:0000129	4-13
+Any condition that confounds the ability to interpret data from the study	Eligibility	50
+condition	PDRO:0000129	4-13
+History of seropositive human immunodeficiency virus (HIV)	Eligibility	51
+history	BFO:0000182	0-7
+immunodeficiency	HP:0002721	30-46
+virus	BAO:0000232	47-52
+Subjects who are receiving immunosuppressive or myelosuppressive medications that would, in the opinion of the investigator, increase the risk of serious neutropenic complications	Eligibility	52
+increase	BAO:0001251	125-133
+Outcome Measurement:	Results	0
+Kaplan-Meier Estimates of Progression-Free Survival (PFS) Based on Investigator Assessment.	Results	1
+PFS was defined as the time from the date of randomization to the date of disease progression or death from any cause on or prior to the data cutoff date for the statistical analysis, whichever occurred earlier. Tumor responses were assessed every 6 weeks using, Response Evaluation Criteria in Solid Tumors (RECIST 1.1) and defined as: Complete response (CR) is the disappearance of all target lesions; Partial response (PR) occurs when at least a 30% decrease in the sum of diameters of target lesions from baseline; Stable disease is neither sufficient shrinkage to qualify for a PR nor sufficient increase of lesions to qualify for Progressive disease (PD); Progressive Disease- is at least a 20% increase in the sum of diameters of target lesions from nadir.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	74-81
+disease	DOID:4,OGMS:0000031	526-533
+disease	DOID:4,OGMS:0000031	648-655
+disease	DOID:4,OGMS:0000031	674-681
+death	OAE:0000632	97-102
+target	BAO:0003064	388-394
+target	BAO:0003064	489-495
+target	BAO:0003064	737-743
+stable	HP:0031915	519-525
+increase	BAO:0001251	601-609
+increase	BAO:0001251	701-709
+progressive	HP:0003676	636-647
+progressive	HP:0003676	662-673
+Time frame: From date of randomization to data cut-off date of 16 December 2016; total length of time on study was 31 months for Arm A, 34 months for Arm B and 35 months for Arm C	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	97-101
+length	PATO:0000122	87-93
+Results 1:	Results	4
+Arm/Group Title: Arm A: Nab-Paclitaxel + Gemcitabine	Results	5
+gemcitabine	CHEBI:175901	41-52
+Arm/Group Description: Participants received nab-Paclitaxel 125 mg/m^2 on Days 1 and 8 by intravenous (IV) administration followed by gemcitabine 1000 mg/m^2 on Days 1 and 8 by IV administration of each 21-day treatment cycle. Participants continued treatment until progressive disease (PD), unacceptable toxicity, required palliative radiotherapy or surgical intervention of lesion(s), withdrawal from study treatment, withdrawal of study consent, participant refusal or the investigator felt it was no longer in the best interest of the participant to continue on treatment	Results	6
+gemcitabine	CHEBI:175901	134-145
+progressive	HP:0003676	266-277
+disease	DOID:4,OGMS:0000031	278-285
+radiotherapy	OAE:0000235	335-347
+Overall Number of Participants Analyzed: 61	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  5.5        (4.1 to 7.0)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm B: Nab-Paclitaxel + Carboplatin	Results	11
+carboplatin	CHEBI:31355	41-52
+Arm/Group Description: Participants received nab-Paclitaxel 125 mg/m^2 on Days 1 and 8 by IV administration followed by carboplatin area under the curve 2 (AUC 2) on Days 1 and 8 in each 21-day treatment cycle. Participants continued treatment until progressive disease (PD), unacceptable toxicity, required palliative radiotherapy or surgical intervention of lesion(s), withdrawal from study treatment, withdrawal of study consent, participant refusal or the investigator felt it was no longer in the best interest of the participant to continue on treatment.	Results	12
+carboplatin	CHEBI:31355	120-131
+area	PATO:0001323	132-136
+auc	BAO:0002120	156-159
+progressive	HP:0003676	250-261
+disease	DOID:4,OGMS:0000031	262-269
+radiotherapy	OAE:0000235	319-331
+Overall Number of Participants Analyzed: 64	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  8.3        (5.7 to 10.6)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 22/60 (36.67%)	Adverse Events	1
+Anaemia 2/60 (3.33%)	Adverse Events	2
+Febrile neutropenia 1/60 (1.67%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/60 (1.67%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/60 (0.00%)	Adverse Events	5
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/60 (0.00%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 0/60 (0.00%)	Adverse Events	7
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 1/60 (1.67%)	Adverse Events	8
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 1/60 (1.67%)	Adverse Events	9
+Myocardial infarction 0/60 (0.00%)	Adverse Events	10
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Palpitations 1/60 (1.67%)	Adverse Events	11
+palpitations	HP:0001962	0-12
+Pericardial effusion 0/60 (0.00%)	Adverse Events	12
+pericardial effusion	HP:0001698,DOID:118	0-20
+Adverse Events 2:	Adverse Events	13
+Total: 20/64 (31.25%)	Adverse Events	14
+Anaemia 2/64 (3.13%)	Adverse Events	15
+Febrile neutropenia 3/64 (4.69%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 2/64 (3.13%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/64 (0.00%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/64 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 0/64 (0.00%)	Adverse Events	20
+acute myocardial infarction	DOID:9408	0-27
+Atrial fibrillation 0/64 (0.00%)	Adverse Events	21
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac failure 0/64 (0.00%)	Adverse Events	22
+Myocardial infarction 1/64 (1.56%)	Adverse Events	23
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Palpitations 0/64 (0.00%)	Adverse Events	24
+palpitations	HP:0001962	0-12
+Pericardial effusion 0/64 (0.00%)	Adverse Events	25
+pericardial effusion	HP:0001698,DOID:118	0-20

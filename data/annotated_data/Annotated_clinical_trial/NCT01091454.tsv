@@ -1,0 +1,188 @@
+INTERVENTION 1:	Intervention	0
+Treatment (Cisplatin and Brostallicin)	Intervention	1
+cisplatin	CHEBI:27899	11-20
+Patients receive 50 mg/m^2 cisplatin IV over 2 hours on day 1 and 10 mg/m^2 brostallicin IV over 10 minutes on day 2. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+cisplatin	CHEBI:27899	27-36
+day	UO:0000033	56-59
+day	UO:0000033	111-114
+day	UO:0000033	142-145
+disease	DOID:4,OGMS:0000031	165-172
+Inclusion Criteria	Eligibility	0
+Histologically or cytologically confirmed adenocarcinoma of the breast with clinical evidence of metastatic disease	Eligibility	1
+adenocarcinoma	DOID:299	42-56
+breast	UBERON:0000310	64-70
+disease	DOID:4,OGMS:0000031	108-115
+Triple negative breast cancer defined as HER2-(according to current American Society of Clinical Oncology [ASCO] College of American Pathologists [CAP] guidelines), ER- (defined as =< 1% by IHC) and PgR- (defined as =< 1% by IHC)	Eligibility	2
+breast cancer	DOID:1612	16-29
+0 to 4 prior chemotherapy regimens in the metastatic setting	Eligibility	3
+Measurable disease according to Response Evaluation Criteria in Solid Tumors (RECIST) criteria	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+Negative pregnancy test done =< 7 days prior to registration, for women of childbearing potential only	Eligibility	5
+Hemoglobin >= 10.0 g/dL	Eligibility	6
+hemoglobin	CHEBI:35143	0-10
+Absolute neutrophil count (ANC) >= 1500/mm^3	Eligibility	7
+Platelet count >= 100,000/mL	Eligibility	8
+platelet count	CMO:0000029	0-14
+Total bilirubin =< 1.5 x upper limit of normal (ULN)	Eligibility	9
+x	LABO:0000148	23-24
+Serum creatinine =< 1.5 mg/dL	Eligibility	10
+creatinine	CHEBI:16737	6-16
+Serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase [AST]) and serum glutamate pyruvate transaminase (SGPT) (alanine aminotransferase [ALT]) =< 3 x ULN or SGOT (AST) and SGPT (ALT) =< 5 x ULN if elevations are due to liver metastases	Eligibility	11
+aspartate	CHEBI:29995	48-57
+glutamate	CHEBI:14321,BAO:0000926	92-101
+pyruvate	CHEBI:15361	102-110
+alanine	CHEBI:16449	132-139
+x	LABO:0000148	16-17
+x	LABO:0000148	169-170
+x	LABO:0000148	209-210
+liver	UBERON:0002107	240-245
+Alkaline phosphatase =< 2.5 x ULN or alkaline phosphatase =< 5 x ULN if elevations are due to liver metastases	Eligibility	12
+phosphatase	GO:0016791,BAO:0000295	9-20
+phosphatase	GO:0016791,BAO:0000295	46-57
+x	LABO:0000148	28-29
+x	LABO:0000148	63-64
+liver	UBERON:0002107	94-99
+Electrocardiogram (EKG) completed =< 15 days prior to registration	Eligibility	13
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) of 0, 1 or 2	Eligibility	14
+group	CHEBI:24433	29-34
+Life expectancy > 3 months	Eligibility	15
+Has written informed consent	Eligibility	16
+Willingness to return to NCCTG enrolling institution for treatment and follow-up	Eligibility	17
+Patient willing to provide blood samples for research purposes	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+blood	UBERON:0000178	27-32
+Exclusion Criteria	Eligibility	19
+HER2 positive (3+ by IHC or fluorescence in situ hybridization [FISH] amplified) breast cancer by ASCO/CAP guidelines	Eligibility	20
+breast cancer	DOID:1612	81-94
+Estrogen receptor (ER) and/or progesterone receptor (PR/PgR) positive breast cancer (defined as > 1% of either receptor by IHC)	Eligibility	21
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	43-51
+receptor	BAO:0000281	111-119
+progesterone	CHEBI:17026	30-42
+breast cancer	DOID:1612	70-83
+Any of the following	Eligibility	22
+Pregnant women	Eligibility	23
+Nursing women	Eligibility	24
+Men or women of childbearing potential who are unwilling to employ adequate contraception (as determined by the treating physician) while on this study and for 30 days after end of treatment with the study drugs	Eligibility	25
+Stage III or IV invasive non-breast malignancy in =< 5 years prior to registration	Eligibility	26
+Pre-existing peripheral neuropathy of grade >= 2 (using the CTEP active version of the CTCAE)	Eligibility	27
+peripheral neuropathy	HP:0009830,DOID:870	13-34
+active	PATO:0002354	65-71
+Major surgery =< 4 weeks prior to registration	Eligibility	28
+surgery	OAE:0000067	6-13
+Chemotherapy or immunologic therapy =< 3 weeks prior to registration	Eligibility	29
+Radiotherapy =< 2 weeks prior to registration, except if to a non-target lesion only	Eligibility	30
+radiotherapy	OAE:0000235	0-12
+* NOTES:	Eligibility	31
+Prior radiation to a target lesion is permitted only if there has been clear progression of the lesion since radiation was completed	Eligibility	32
+target	BAO:0003064	21-27
+If patient receives single dose radiation for palliation or radiation to non-target lesion, they may immediately proceed to registration without waiting 2 weeks	Eligibility	33
+patient	HADO:0000008,OAE:0001817	3-10
+Acute adverse events from radiation must have resolved to =< grade 1 (according to the CTEP active version of the CTCAE)	Eligibility	34
+acute	HP:0011009,PATO:0000389	0-5
+active	PATO:0002354	92-98
+Evidence of active brain metastasis including leptomeningeal involvement	Eligibility	35
+active	PATO:0002354	12-18
+brain	UBERON:0000955	19-24
+* NOTE: Central nervous system (CNS) metastasis controlled by prior surgery and/or radiotherapy is allowed; to be considered controlled, there must be at least 2 months of no symptoms or evidence of progression prior to study entry and corticosteroid therapy given to control brain edema must have been discontinued	Eligibility	36
+central nervous system	UBERON:0001017	8-30
+surgery	OAE:0000067	68-75
+radiotherapy	OAE:0000235	83-95
+corticosteroid	CHEBI:50858	236-250
+brain edema	DOID:4724	276-287
+History of allergy or hypersensitivity to the drugs used in this study (or their excipients) including platinum compounds (cisplatin, carboplatin)	Eligibility	37
+history	BFO:0000182	0-7
+allergy	HP:0012393	11-18
+hypersensitivity	GO:0002524,DOID:1205	22-38
+platinum	CHEBI:33364	103-111
+cisplatin	CHEBI:27899	123-132
+carboplatin	CHEBI:31355	134-145
+Active, unresolved infection	Eligibility	38
+active	PATO:0002354	0-6
+Uncontrolled intercurrent illness including, but not limited to psychiatric illness/social situations or co-morbid systemic illnesses or other severe concurrent disease which, in the judgment of the investigator, would make the patient inappropriate for entry into this study or would interfere significantly with the proper assessment of safety of the prescribed regimens or would limit compliance with study requirements or would make it undesirable for patient to participate in the trial	Eligibility	39
+severe	HP:0012828	143-149
+disease	DOID:4,OGMS:0000031	161-168
+patient	HADO:0000008,OAE:0001817	228-235
+patient	HADO:0000008,OAE:0001817	456-463
+Clinically significant cardiovascular or cerebrovascular disease, including any history of the following =< 6 months prior to registration:	Eligibility	40
+cerebrovascular disease	DOID:6713	41-64
+history	BFO:0000182	80-87
+Myocardial infarction	Eligibility	41
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Unstable angina	Eligibility	42
+New York Heart Association (NYHA) class II or greater congestive heart failure	Eligibility	43
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	65-70
+congestive heart failure	HP:0001635,DOID:6000	54-78
+Uncontrolled or clinically significant cardiac arrhythmia (patients with controlled atrial fibrillation are eligible)	Eligibility	44
+arrhythmia	HP:0011675	47-57
+atrial fibrillation	HP:0005110,DOID:0060224	84-103
+Currently receiving treatment in a different clinical study in which investigational procedures are performed or investigational therapies are administered	Eligibility	45
+* NOTE: Patient may not enroll in such clinical trials while participating in this study; exception may be granted for trials related to symptom management (cancer control) which do not employ hormonal treatments or treatments that may block the path of the targeted agents used in this trial	Eligibility	46
+patient	HADO:0000008,OAE:0001817	8-15
+symptom	OGMS:0000020	137-144
+cancer	DOID:162	157-163
+Immunocompromised patients (other than that related to the use of corticosteroids) including patients known to be human immunodeficiency virus (HIV) positive with an acquired immune deficiency syndrome (AIDS)-defining illness; HIV positive patients with cluster of differentiation (CD)4 count within institutional normal range and no history of an AIDS-defining illness are eligible	Eligibility	47
+immunodeficiency	HP:0002721	120-136
+virus	BAO:0000232	137-142
+syndrome	DOID:225	193-201
+cluster	CHEBI:33731	254-261
+range	LABO:0000114	321-326
+history	BFO:0000182	334-341
+Outcome Measurement:	Results	0
+3-month Progression-free Survival (3-mo PFS) Rate	Results	1
+rate	BAO:0080019	45-49
+A patient is considered to be a 3-month progression-free survivor if the patient is on study treatment 3 months from registration without a documentation of disease progression. The proportion of successes will be estimated by the number of successes divided by the total number of evaluable patients and 95% confidence intervals for the true success proportion will be calculated according to the approach of Duffy and Santner. If some patients are lost to follow-up not having been observed for at least 3 months, an estimate and confidence interval for the 3-month PFS rate incorporating censoring will be computed using the method of Kaplan-Meier. Progression is defined using the revised RECIST guideline (v1.1) as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions. In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm.	Results	2
+patient	HADO:0000008,OAE:0001817	2-9
+patient	HADO:0000008,OAE:0001817	73-80
+patient	HADO:0000008,OAE:0001817	292-299
+patient	HADO:0000008,OAE:0001817	437-444
+disease	DOID:4,OGMS:0000031	157-164
+rate	BAO:0080019	572-576
+rate	BAO:0080019	942-946
+increase	BAO:0001251	726-734
+increase	BAO:0001251	805-813
+increase	BAO:0001251	900-908
+increase	BAO:0001251	959-967
+diameter	PATO:0001334	761-769
+target	BAO:0003064	773-779
+target	BAO:0003064	823-829
+Time frame: 3 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Treatment (Cisplatin and Brostallicin)	Results	5
+cisplatin	CHEBI:27899	28-37
+Arm/Group Description: Patients receive 50 mg/m^2 cisplatin IV over 2 hours on day 1 and 10 mg/m^2 brostallicin IV over 10 minutes on day 2. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Results	6
+cisplatin	CHEBI:27899	50-59
+day	UO:0000033	79-82
+day	UO:0000033	134-137
+day	UO:0000033	165-168
+disease	DOID:4,OGMS:0000031	188-195
+Overall Number of Participants Analyzed: 47	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: proportion of participants  0.511        (0.386 to 0.676)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 29/48 (60.42%)	Adverse Events	1
+Anemia 4/48 (8.33%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Febrile neutropenia 7/48 (14.58%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation 1/48 (2.08%)	Adverse Events	4
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Pericardial effusion 1/48 (2.08%)	Adverse Events	5
+pericardial effusion	HP:0001698,DOID:118	0-20
+Sinus bradycardia 1/48 (2.08%)	Adverse Events	6
+sinus bradycardia	HP:0001688	0-17
+Nausea 2/48 (4.17%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Vomiting 2/48 (4.17%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Death NOS 1/48 (2.08%)	Adverse Events	9
+death	OAE:0000632	0-5
+Fatigue 3/48 (6.25%)	Adverse Events	10
+fatigue	HP:0012378	0-7
+Allergic reaction 1/48 (2.08%)	Adverse Events	11
+Lung infection 1/48 (2.08%)	Adverse Events	12
+lung	UBERON:0002048	0-4
+Mucosal infection 1/48 (2.08%)	Adverse Events	13

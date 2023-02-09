@@ -1,0 +1,100 @@
+INTERVENTION 1:	Intervention	0
+Diagnostic (FLT PET)	Intervention	1
+Patients with early stage, ER positive primary breast cancer undergo FLT PET scan at baseline and 1-6 weeks after the start of standard endocrine treatment. The surgery follows 1-7 days after the second FLT PET scan.	Intervention	2
+breast cancer	DOID:1612	47-60
+surgery	OAE:0000067	161-168
+second	UO:0000010	196-202
+Tracer used in the FLT PET (positron emission tomography) scanning procedure: [F18] fluorothymidine.	Intervention	3
+tracer	CHEBI:35204	0-6
+positron	CHEBI:30225	28-36
+tomography	BAO:0002525	46-56
+Positron Emission Tomography: Undergo FLT PET	Intervention	4
+positron	CHEBI:30225	0-8
+tomography	BAO:0002525	18-28
+Laboratory Biomarker Analysis: Correlative studies - Ki67 staining of the tumor tissue in the biopsy and surgical specimen.	Intervention	5
+biomarker	CHEBI:59163	11-20
+tissue	UBERON:0000479	80-86
+Inclusion Criteria:	Eligibility	0
+A new diagnosis of invasive breast cancer > 1.0 cm in size, ER+ clinical stage I-III	Eligibility	1
+breast cancer	DOID:1612	28-41
+size	PATO:0000117	54-58
+Patient must have surgical resection followed by systemic adjuvant therapy with an aromatase inhibitor (AIs) as part of planned treatment; any approved AI at standard clinical dosing may be used; in pre-menopausal patients, ovarian suppression with a gonadotropin-releasing hormone (GnRH) agonist will be started prior to initiation of the AI on a separate clinical trial in parallel with the imaging study	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	214-221
+adjuvant	CHEBI:60809	58-66
+inhibitor	CHEBI:35222	93-102
+part of	BAO:0090002,BFO:0000050	112-119
+hormone	CHEBI:24621	274-281
+agonist	CHEBI:48705	289-296
+Have tissue block available from core biopsy for correlative biomarkers and genomic assay	Eligibility	3
+tissue	UBERON:0000479	5-11
+Have menopausal status determined prior to study enrollment; for study purposes, postmenopausal is defined as	Eligibility	4
+A prior documented bilateral oophorectomy, or	Eligibility	5
+bilateral	HP:0012832	19-28
+A history of at least 12 months without spontaneous menstrual bleeding, or	Eligibility	6
+history	BFO:0000182	2-9
+Age 60 or older with a prior hysterectomy without oophorectomy, or	Eligibility	7
+age	PATO:0000011	0-3
+Age less than 60 with a prior hysterectomy without oophorectomy (or in whom the status of the ovaries is unknown) with a documented follicle-stimulating hormone (FSH) level demonstrating confirmatory elevation in the postmenopausal range for the lab	Eligibility	8
+age	PATO:0000011	0-3
+hormone	CHEBI:24621	153-160
+range	LABO:0000114	232-237
+Negative pregnancy test within 7 days of baseline positron emission tomography (PET) scan for pre-menopausal patients	Eligibility	9
+positron	CHEBI:30225	50-58
+tomography	BAO:0002525	68-78
+Tumor HER2/neu expression must be determined (as part of standard clinical care) prior to study enrollment; HER2 may be tested by any Food and Drug Administration (FDA) approved HER2 testing method; if determination is intermediate by immunohistochemistry (IHC), fluorescent in situ hybridization (FISH) or another alternate HER2 test must be performed	Eligibility	10
+part of	BAO:0090002,BFO:0000050	49-56
+food	CHEBI:33290	134-138
+drug administration	OAE:0000011	143-162
+immunohistochemistry	BAO:0000415	235-255
+Be a candidate for [18F]FLT PET imaging	Eligibility	11
+Be informed of the investigational nature of this study and provide written informed consent in accordance with institutional and federal guidelines prior to study-specific screening procedures	Eligibility	12
+Be willing and able to comply with scheduled visits and other trial procedures	Eligibility	13
+Exclusion Criteria:	Eligibility	14
+Current use of aromatase inhibitor as prevention or treatment for breast cancer	Eligibility	15
+inhibitor	CHEBI:35222	25-34
+breast cancer	DOID:1612	66-79
+Life expectancy of less than two months	Eligibility	16
+HER2/neu positive by IHC and/or another FDA approved HER2 testing method	Eligibility	17
+Inability to tolerate scanning (e.g. - claustrophobia, severe pain)	Eligibility	18
+claustrophobia	HP:0025253	39-53
+severe	HP:0012828	55-61
+pain	HP:0012531	62-66
+Weight exceeding capacity of imaging table	Eligibility	19
+Outcome Measurement:	Results	0
+Percent Change in Net Influx Constant (Ki) by FLT PET	Results	1
+percent change	BAO:0001252	0-14
+ki	BAO:0000192	39-41
+Percent change between pre-treatment (baseline) and post-therapy PET measurements in breast tumors will be computed.	Results	2
+percent change	BAO:0001252	0-14
+breast	UBERON:0000310	85-91
+Association between Ki-67 and Ki by FLT (KFLT) decline will be analyzed using the mid-P adjustment to Fisher's exact test to evaluate the potential clinical utility of change in FLT as a biomarker for early response, using Ki-67 as the standard for early response.	Results	3
+ki	BAO:0000192	20-22
+ki	BAO:0000192	30-32
+ki	BAO:0000192	223-225
+biomarker	CHEBI:59163	187-196
+Time frame: Baseline to up to 6 weeks	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Diagnostic (FLT PET)	Results	6
+Arm/Group Description: Patients with early stage, ER positive primary breast cancer undergo FLT PET scan at baseline and 1-6 weeks after the start of standard endocrine treatment. The surgery follows 1-7 days after the second FLT PET scan.	Results	7
+breast cancer	DOID:1612	70-83
+surgery	OAE:0000067	184-191
+second	UO:0000010	219-225
+Tracer used in the FLT PET (positron emission tomography) scanning procedure: [F18] fluorothymidine.	Results	8
+tracer	CHEBI:35204	0-6
+positron	CHEBI:30225	28-36
+tomography	BAO:0002525	46-56
+Positron Emission Tomography: Undergo FLT PET	Results	9
+positron	CHEBI:30225	0-8
+tomography	BAO:0002525	18-28
+Laboratory Biomarker Analysis: Correlative studies - Ki67 staining of the tumor tissue in the biopsy and surgical specimen.	Results	10
+biomarker	CHEBI:59163	11-20
+tissue	UBERON:0000479	80-86
+Overall Number of Participants Analyzed: 28	Results	11
+Median (Full Range)	Results	12
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: % change  -32.0        (-82.4 to 3953.7)	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 0/28 (0.00%)	Adverse Events	1

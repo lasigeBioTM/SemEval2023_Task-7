@@ -1,0 +1,105 @@
+INTERVENTION 1:	Intervention	0
+Palbociclib + Letrozole or Fulvestrant	Intervention	1
+palbociclib	CHEBI:85993	0-11
+letrozole	CHEBI:6413	14-23
+fulvestrant	CHEBI:31638	27-38
+Palbociclib + Letrozole or Fulvestrant: Palbociclib x 21 days with a 7 day rest plus 2.5 mg Letrozole QD (no break) or Fulvestrant 500mg IM every 2 weeks for 3 doses and then every 4 weeks until progression or maximum of 12 months	Intervention	2
+palbociclib	CHEBI:85993	0-11
+palbociclib	CHEBI:85993	40-51
+letrozole	CHEBI:6413	14-23
+letrozole	CHEBI:6413	92-101
+fulvestrant	CHEBI:31638	27-38
+fulvestrant	CHEBI:31638	119-130
+x	LABO:0000148	52-53
+x	LABO:0000148	212-213
+day	UO:0000033	57-60
+day	UO:0000033	71-74
+Inclusion Criteria:	Eligibility	0
+Self-identified Black, African or African American women of  18 years of age with proven diagnosis of advanced adenocarcinoma of the breast (locoregionally recurrent or metastatic disease)	Eligibility	1
+age	PATO:0000011	73-76
+adenocarcinoma	DOID:299	111-125
+breast	UBERON:0000310	133-139
+recurrent	HP:0031796	156-165
+disease	DOID:4,OGMS:0000031	180-187
+ER-positive and/or PgR-positive tumor based on local laboratory results	Eligibility	2
+HER2-negative breast cancer based on local laboratory results (test to be used as per local practice)	Eligibility	3
+breast cancer	DOID:1612	14-27
+Patients must be appropriate candidates for letrozole or fulvestrant therapy	Eligibility	4
+letrozole	CHEBI:6413	44-53
+fulvestrant	CHEBI:31638	57-68
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2	Eligibility	5
+group	CHEBI:24433	29-34
+Adequate bone marrow function:	Eligibility	6
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Absolute Neutrophil Count (ANC)  1,000/mm3 (1.0 x 109/L);	Eligibility	7
+x	LABO:0000148	48-49
+Platelets 100,000/mm3 (100 x 109/L);	Eligibility	8
+x	LABO:0000148	27-28
+Hemoglobin 9 g/dL (90 g/L).	Eligibility	9
+hemoglobin	CHEBI:35143	0-10
+Exclusion Criteria:	Eligibility	10
+Current use of food or drugs known to be potent inhibitors or inducers of CYP3A4	Eligibility	11
+food	CHEBI:33290	15-19
+Active uncontrolled or symptomatic brain metastases. Previously treated and clinically stable, as per Investigator's judgment, brain metastases are permitted.	Eligibility	12
+active	PATO:0002354	0-6
+brain	UBERON:0000955	35-40
+brain	UBERON:0000955	127-132
+stable	HP:0031915	87-93
+Previous CDK4/6 inhibitor	Eligibility	13
+inhibitor	CHEBI:35222	16-25
+-	Eligibility	14
+Outcome Measurement:	Results	0
+Number of Patients Who Complete Planned Oncologic Therapy Without the Development of a Hematological Event	Results	1
+For study purpose febrile neutropenia will be defined according to the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) v4.0: "ANC less than 1000/mm3 with a single temperature of >38.3 degrees Celsius (101 degrees Fahrenheit) or a sustained temperature of 38 degrees Celsius (100.4 degrees Fahrenheit) for more than one hour."	Results	2
+neutropenia	HP:0001875,DOID:1227	26-37
+cancer	DOID:162	80-86
+hour	UO:0000032	358-362
+Planned oncology therapy is defined as completion of one year of therapy for advanced breast cancer in the absence of disease progression or cessation of study drug due to progressive disease or non-hematological toxicity.	Results	3
+year	UO:0000036	57-61
+breast cancer	DOID:1612	86-99
+disease	DOID:4,OGMS:0000031	118-125
+disease	DOID:4,OGMS:0000031	184-191
+drug	CHEBI:23888	160-164
+progressive	HP:0003676	172-183
+Time frame: 12 months	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Palbociclib + Letrozole or Fulvestrant	Results	6
+palbociclib	CHEBI:85993	17-28
+letrozole	CHEBI:6413	31-40
+fulvestrant	CHEBI:31638	44-55
+Arm/Group Description: Palbociclib + Letrozole or Fulvestrant: Palbociclib x 21 days with a 7 day rest plus 2.5 mg Letrozole QD (no break) or Fulvestrant 500mg IM every 2 weeks for 3 doses and then every 4 weeks until progression or maximum of 12 months	Results	7
+palbociclib	CHEBI:85993	23-34
+palbociclib	CHEBI:85993	63-74
+letrozole	CHEBI:6413	37-46
+letrozole	CHEBI:6413	115-124
+fulvestrant	CHEBI:31638	50-61
+fulvestrant	CHEBI:31638	142-153
+x	LABO:0000148	75-76
+x	LABO:0000148	235-236
+day	UO:0000033	80-83
+day	UO:0000033	94-97
+Overall Number of Participants Analyzed: 35	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  35 100.0%	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 8/35 (22.86%)	Adverse Events	1
+Heart failure 1/35 (2.86%)	Adverse Events	2
+heart	UBERON:0000948	0-5
+Colitis 1/35 (2.86%)	Adverse Events	3
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhea 1/35 (2.86%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Fever 1/35 (2.86%)	Adverse Events	5
+fever	HP:0001945	0-5
+Upper respiratory infection 1/35 (2.86%)	Adverse Events	6
+Urinary tract infection 1/35 (2.86%)	Adverse Events	7
+urinary tract infection	DOID:0080784	0-23
+Neutrophil count decreased 1/35 (2.86%)	Adverse Events	8
+Anorexia 1/35 (2.86%)	Adverse Events	9
+anorexia	HP:0002039	0-8
+Suicidal ideation 1/35 (2.86%)	Adverse Events	10
+suicidal ideation	HP:0031589	0-17
+Acute kidney injury 1/35 (2.86%)	Adverse Events	11
+acute kidney injury	HP:0001919	0-19

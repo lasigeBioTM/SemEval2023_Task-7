@@ -1,0 +1,244 @@
+INTERVENTION 1:	Intervention	0
+dHER2 + AS15 ASCI + Lapatinib	Intervention	1
+lapatinib	CHEBI:49603	20-29
+Patients will receive dHER2 ASCI injections IM every 2 weeks for 2 cycles . In between cycles there is 4 weeks without vaccine. The daily dose of lapatinib is 5 tablets (1250 mg of lapatinib) taken orally at approximately the same time each day for 43 weeks while on study.	Intervention	2
+vaccine	VO:0000001	119-126
+lapatinib	CHEBI:49603	146-155
+lapatinib	CHEBI:49603	181-190
+time	PATO:0000165	231-235
+day	UO:0000033	241-244
+Inclusion Criteria:	Eligibility	0
+The following criteria are to be checked at the time of study entry. The patients may only be included in the study if ALL of the following statements are FULLFILLED:	Eligibility	1
+time	PATO:0000165	48-52
+The patient (male or female) is at least 18 years old at the time of signature of the informed consent form.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	4-11
+male	CHEBI:30780,PATO:0000384	13-17
+male	CHEBI:30780,PATO:0000384	23-27
+female	PATO:0000383	21-27
+time	PATO:0000165	61-65
+Written informed consent has been obtained from the patient prior to the performance of any protocol-specific procedure.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	52-59
+The patient is diagnosed with confirmed invasive breast cancer with stage IV disease.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	4-11
+breast cancer	DOID:1612	49-62
+disease	DOID:4,OGMS:0000031	77-84
+Note: If the metastatic disease is restricted to a solitary lesion, its neoplastic nature should be confirmed by cytology or histology.	Eligibility	5
+disease	DOID:4,OGMS:0000031	24-31
+histology	NCIT:C16681	125-134
+The patient has documented disease progression or relapse following at least one prior standard therapy with trastuzumab (alone or in combination with chemotherapy).	Eligibility	6
+patient	HADO:0000008,OAE:0001817	4-11
+disease	DOID:4,OGMS:0000031	27-34
+Patients with prior lapatinib use are eligible. Furthermore,	Eligibility	7
+lapatinib	CHEBI:49603	20-29
+The administration of the chemotherapeutic agent(s) should have been stopped for at least 28 days by the time of the first ASCI administration.	Eligibility	8
+time	PATO:0000165	105-109
+The administration of trastuzumab alone could be maintained after chemotherapy, but the last dose of trastuzumab should not have been given less than three weeks before the first ASCI administration.	Eligibility	9
+The patient will not be given trastuzumab during the trial.	Eligibility	10
+patient	HADO:0000008,OAE:0001817	4-11
+For metastatic patients whose disease is ER+ and/or PR+ the following criteria should be met:	Eligibility	11
+disease	DOID:4,OGMS:0000031	30-37
+Patients with visceral disease that requires chemotherapy (eg., patients with liver or lung metastases).	Eligibility	12
+disease	DOID:4,OGMS:0000031	23-30
+liver	UBERON:0002107	78-83
+lung	UBERON:0002048	87-91
+Rapidly progressing or life threatening disease, as determined by the investigator.	Eligibility	13
+disease	DOID:4,OGMS:0000031	40-47
+Patients who received hormonal therapy and are no longer benefiting from this therapy.	Eligibility	14
+A tumor lesion from the patient biopsied before or during screening shows either:	Eligibility	15
+patient	HADO:0000008,OAE:0001817	24-31
+Overexpression of the HER2 protein, as determined by immunohistochemistry (IHC, with result IHC 3+) or	Eligibility	16
+protein	CHEBI:36080,BAO:0000175	27-34
+immunohistochemistry	BAO:0000415	53-73
+result	BAO:0000179	85-91
+Amplification of the HER2 gene as determined by FISH (at least 4 fold i.e. at least 8 copies).	Eligibility	17
+gene	BAO:0000582	26-30
+Note: Overexpression/amplification measurements must be performed on a metastatic lesion in all cases where such a lesion is sufficiently easily accessible. If however such a biopsy is not possible, then these measurements can be performed on the primary tumor. Use of the primary tumor is to be documented and justified.	Eligibility	18
+Ten FFPE tissue sections of the tumor on which the HER2 overexpression/amplification has been done -if available-may be requested. These may be used to retrospectively carry out part of the translational research (i.e. analysis of EGF receptor activity and of the presence of immune effector cells, refer to Section 7).	Eligibility	19
+tissue	UBERON:0000479	9-15
+part of	BAO:0090002,BFO:0000050	178-185
+receptor	BAO:0000281	235-243
+effector	CHEBI:35224	283-291
+The patient has at least one measurable lesion according to RECIST criteria.	Eligibility	20
+patient	HADO:0000008,OAE:0001817	4-11
+The patient has ECOG status of 0 or 1.	Eligibility	21
+patient	HADO:0000008,OAE:0001817	4-11
+The patient has adequate bone marrow reserve as indicated by:	Eligibility	22
+patient	HADO:0000008,OAE:0001817	4-11
+bone marrow	UBERON:0002371	25-36
+White blood cell count >/= 3,000/mm3.	Eligibility	23
+white blood cell count	CMO:0000027	0-22
+Neutrophil count >/= 1,500/mm3.	Eligibility	24
+Platelet count >/= 100,000/mm3.	Eligibility	25
+platelet count	CMO:0000029	0-14
+Hemoglobin levels >/= 10.0 g/dl.	Eligibility	26
+hemoglobin	CHEBI:35143	0-10
+The patient has adequate renal function as shown by the creatinine levels (i.e. within the normal range).	Eligibility	27
+patient	HADO:0000008,OAE:0001817	4-11
+function	BAO:0003117,BFO:0000034	31-39
+creatinine	CHEBI:16737	56-66
+range	LABO:0000114	98-103
+The patient has adequate hepatic function as shown by serum bilirubin levels i.e:	Eligibility	28
+patient	HADO:0000008,OAE:0001817	4-11
+function	BAO:0003117,BFO:0000034	33-41
+Serum bilirubin levels within the normal limits.	Eligibility	29
+Both AST and ALT levels <1.5 times the ULN. Note: However, for patients with liver metastasis, a serum bilirubin level <1.5 times the ULN and both AST and ALT levels <3 times the ULN will be accepted.	Eligibility	30
+liver	UBERON:0002107	77-82
+The patient has a baseline Left Ventricular Ejection Fraction (LVEF) measured by MUGA scan equal to or greater than the LLN for the radiology facility.	Eligibility	31
+patient	HADO:0000008,OAE:0001817	4-11
+left	HP:0012835	27-31
+ejection fraction	CMO:0000180	44-61
+If the patient is female, she must be of non-childbearing potential, i.e. have a current tubal ligation, hysterectomy, ovariectomy or be post-menopausal, or if she is of childbearing potential, she must practice adequate contraception for 30 days prior to treatment, have a negative pregnancy test and continue such precautions for two months after completion of the study treatment.	Eligibility	32
+patient	HADO:0000008,OAE:0001817	7-14
+female	PATO:0000383	18-24
+Adequate contraception is defined as a contraceptive method with failure rate of less than 1% per year when used consistently and correctly (when applicable, as mentioned in the product label) for example abstinence, combined or progestogen oral contraceptives, injectable progestogen, implants of levonorgestrel, oestrogenic vaginal ring, percutaneous contraceptive patches or intrauterine device (IUD) or intrauterine system (IUS), vasectomy with documented azoospermia of the sole male partner or double barrier method (condom or occlusive cap plus spermicidal agent).	Eligibility	33
+rate	BAO:0080019	73-77
+year	UO:0000036	98-102
+product	BAO:0003067	178-185
+label	CHEBI:35209,label	186-191
+progestogen	CHEBI:50745	229-240
+progestogen	CHEBI:50745	273-284
+levonorgestrel	CHEBI:6443	298-312
+azoospermia	HP:0000027,DOID:14227	460-471
+male	CHEBI:30780,PATO:0000384	484-488
+For azoospermia, "documented" refers to the outcome of the investigator's/ designee's medical examination of the subject or review of the subject's medical history for study eligibility, as obtained via a verbal interview with the subject or from the subject's medical records.	Eligibility	34
+azoospermia	HP:0000027,DOID:14227	4-15
+history	BFO:0000182	156-163
+Post-menopause: Menopause is the age associated with complete cessation of menstrual cycles, menses, and implies the loss of reproductive potential by ovarian failure. A practical definition accepts menopause after 1 year without menses with an appropriate clinical profile at the appropriate age e.g. > 45 years.	Eligibility	35
+menopause	GO:0042697	5-14
+menopause	GO:0042697	16-25
+menopause	GO:0042697	199-208
+age	PATO:0000011	33-36
+age	PATO:0000011	293-296
+year	UO:0000036	217-221
+year	UO:0000036	307-311
+Able to swallow and retain oral medication.	Eligibility	36
+In the view of the investigator, the patient can and will comply with the requirements of the protocol.	Eligibility	37
+patient	HADO:0000008,OAE:0001817	37-44
+Exclusion Criteria:	Eligibility	38
+The following criteria should be checked at the time of study entry. If any apply, the patient must not be included in the study:	Eligibility	39
+time	PATO:0000165	48-52
+patient	HADO:0000008,OAE:0001817	87-94
+The patient has received > 300 mg/m2 doxorubicin (cumulative dose) or > 600 mg/m2 epirubicin (cumulative dose).	Eligibility	40
+patient	HADO:0000008,OAE:0001817	4-11
+doxorubicin	CHEBI:28748,BAO:0000639	37-48
+The patient is receiving treatment with bisphosphonate UNLESS the biphosphonate treatment was initiated more than three weeks before the first ASCI administration. (See also section 5.3.2.).	Eligibility	41
+patient	HADO:0000008,OAE:0001817	4-11
+The patient has received any investigational or non-registered product (drug or vaccine) other than the study treatment(s) within 30 days preceding the first dose of study treatment, or planned use during the study period.	Eligibility	42
+patient	HADO:0000008,OAE:0001817	4-11
+product	BAO:0003067	63-70
+drug	CHEBI:23888	72-76
+vaccine	VO:0000001	80-87
+The patient is currently receiving amiodarone or has received amiodarone in the 6 months prior to screening.	Eligibility	43
+patient	HADO:0000008,OAE:0001817	4-11
+amiodarone	CHEBI:2663	35-45
+amiodarone	CHEBI:2663	62-72
+The patient requires concomitant treatment with systemic corticosteroids or any immunosuppressive agents. The use of prednisone, or equivalent, <0.5 mg/kg/day (absolute maximum 40 mg/day), or inhaled corticosteroids or topical steroids is permitted.	Eligibility	44
+patient	HADO:0000008,OAE:0001817	4-11
+prednisone	CHEBI:8382	117-127
+The patient has a malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel.	Eligibility	45
+patient	HADO:0000008,OAE:0001817	4-11
+malabsorption	HP:0002024	18-31
+syndrome	DOID:225	32-40
+disease	DOID:4,OGMS:0000031	42-49
+function	BAO:0003117,BFO:0000034	91-99
+stomach	UBERON:0000945	121-128
+Patients with ulcerative colitis.	Eligibility	46
+ulcerative colitis	HP:0100279,DOID:8577	14-32
+The patient has known coronary artery disease, arrhythmia requiring treatment, clinically significant valvular disease, cardiomegaly on chest X-ray, ventricular hypertrophy (found by ECG) or previous myocardial infarction.	Eligibility	47
+patient	HADO:0000008,OAE:0001817	4-11
+coronary artery disease	DOID:3393	22-45
+arrhythmia	HP:0011675	47-57
+disease	DOID:4,OGMS:0000031	38-45
+disease	DOID:4,OGMS:0000031	111-118
+cardiomegaly	HP:0001640	120-132
+chest	UBERON:0001443	136-141
+ventricular hypertrophy	HP:0001714	149-172
+myocardial infarction	HP:0001658,DOID:5844	200-221
+The patient has any acute or chronic, clinically significant pulmonary, cardiovascular, hepatic or renal functional abnormality, as determined by physical examination or laboratory screening tests.	Eligibility	48
+patient	HADO:0000008,OAE:0001817	4-11
+acute	HP:0011009,PATO:0000389	20-25
+chronic	HP:0011010	29-36
+functional	BAO:0000010	105-115
+physical examination	OAE:0004232	146-166
+The patient has current active hepatic or biliary's disease (with exception of patients with Gilbert's syndrome, asymptomatic gallstones, liver metastases or stable chronic liver disease per investigator assessment).	Eligibility	49
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	79-86
+active	PATO:0002354	24-30
+disease	DOID:4,OGMS:0000031	52-59
+disease	DOID:4,OGMS:0000031	179-186
+syndrome	DOID:225	103-111
+liver	UBERON:0002107	138-143
+liver	UBERON:0002107	173-178
+stable	HP:0031915	158-164
+chronic	HP:0011010	165-172
+liver disease	DOID:409	173-186
+The patient presents with autoimmune disease (vitiligo and autoimmune thyroid disease is not an exclusion criterion).	Eligibility	50
+patient	HADO:0000008,OAE:0001817	4-11
+autoimmune disease	DOID:417	26-44
+vitiligo	HP:0001045,DOID:12306	46-54
+disease	DOID:4,OGMS:0000031	37-44
+disease	DOID:4,OGMS:0000031	78-85
+The patient has a known family history of congenital or hereditary immunodeficiency.	Eligibility	51
+patient	HADO:0000008,OAE:0001817	4-11
+family history	HP:0032316	24-38
+immunodeficiency	HP:0002721	67-83
+The patient has any uncontrolled bleeding disorder or coagulation disorder or thrombocytopenia or pro-thrombotic disorder.	Eligibility	52
+patient	HADO:0000008,OAE:0001817	4-11
+disorder	OGMS:0000045	42-50
+disorder	OGMS:0000045	66-74
+disorder	OGMS:0000045	113-121
+coagulation	GO:0050817	54-65
+thrombocytopenia	HP:0001873,DOID:1588	78-94
+The patient has a history of anaphylaxis or severe allergic reaction to vaccines or unknown allergens.	Eligibility	53
+patient	HADO:0000008,OAE:0001817	4-11
+history	BFO:0000182	18-25
+severe	HP:0012828	44-50
+The patient has a known immediate or delayed hypersensitivity reaction or idiosyncrasy to drugs chemically related to Lapatinib. These include other anilinoquinazolines, such as gefitinib (Iressa), erlotinib (Tarceva), or other chemically related compounds or excipients.	Eligibility	54
+patient	HADO:0000008,OAE:0001817	4-11
+hypersensitivity	GO:0002524,DOID:1205	45-61
+lapatinib	CHEBI:49603	118-127
+gefitinib	CHEBI:49668	178-187
+erlotinib	CHEBI:114785	198-207
+The patient is known to be positive for the Human Immunodeficiency Virus (HIV).	Eligibility	55
+patient	HADO:0000008,OAE:0001817	4-11
+immunodeficiency	HP:0002721	50-66
+virus	BAO:0000232	67-72
+The patient has (or has had) previous or concomitant malignancies at other sites except effectively treated:	Eligibility	56
+patient	HADO:0000008,OAE:0001817	4-11
+Non-melanoma skin cancers or carcinoma in situ of the cervix	Eligibility	57
+carcinoma	HP:0030731,DOID:305	29-38
+Malignancy that has been in remission for > 2 years and is considered highly likely to have been cured.	Eligibility	58
+The patient has any psychiatric or addictive disorder that may compromise her ability to give informed consent, or to comply with the trial procedures.	Eligibility	59
+patient	HADO:0000008,OAE:0001817	4-11
+disorder	OGMS:0000045	45-53
+The patient has any other condition that in the opinion of the investigator might jeopardize the patient's safety or ability to comply with the requirements of the study.	Eligibility	60
+patient	HADO:0000008,OAE:0001817	4-11
+patient	HADO:0000008,OAE:0001817	97-104
+condition	PDRO:0000129	26-35
+The patient is pregnant or lactating.	Eligibility	61
+patient	HADO:0000008,OAE:0001817	4-11
+Outcome Measurement:	Results	0
+The Safety of dHER2+AS15 ASCI When Administered in Combination With Lapatinib Measured by Occurrence of Severe Toxicities (According to CTCAE, Version 3.0)	Results	1
+lapatinib	CHEBI:49603	68-77
+severe	HP:0012828	104-110
+[Not Specified]	Results	2
+Time frame: 26 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: dHER2 + AS15 ASCI + Lapatinib	Results	5
+lapatinib	CHEBI:49603	37-46
+Arm/Group Description: Patients will receive dHER2 ASCI injections IM every 2 weeks for 2 cycles . In between cycles there is 4 weeks without vaccine. The daily dose of lapatinib is 5 tablets (1250 mg of lapatinib) taken orally at approximately the same time each day for 43 weeks while on study.	Results	6
+vaccine	VO:0000001	142-149
+lapatinib	CHEBI:49603	169-178
+lapatinib	CHEBI:49603	204-213
+time	PATO:0000165	254-258
+day	UO:0000033	264-267
+Overall Number of Participants Analyzed: 12	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  0   0.0%	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 2/12 (16.67%)	Adverse Events	1
+pulmonary embolism  1/12 (8.33%)	Adverse Events	2
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+chest pain  1/12 (8.33%)	Adverse Events	3
+chest pain	HP:0100749	0-10

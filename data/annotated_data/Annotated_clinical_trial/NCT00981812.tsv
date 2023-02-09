@@ -1,0 +1,53 @@
+INTERVENTION 1:	Intervention	0
+Lesions Visualized Using Positron Emission Mammography (PEM)	Intervention	1
+positron	CHEBI:30225	25-33
+Total lesions visualized using positron emission mammography.	Intervention	2
+positron	CHEBI:30225	31-39
+Inclusion Criteria:	Eligibility	0
+female	Eligibility	1
+female	PATO:0000383	0-6
+subject is 25-100 years of age	Eligibility	2
+age	PATO:0000011	27-30
+subjects has at least one breast imaging finding on mammography and/or ultrasound which is assessed as highly suggestive of malignancy and recommended to biopsy	Eligibility	3
+breast	UBERON:0000310	26-32
+subject is able to provide informed consent	Eligibility	4
+Exclusion Criteria:	Eligibility	5
+subject is pregnant	Eligibility	6
+subject is actively lactating or discontinued breastfeeding less than 2 months ago	Eligibility	7
+subject has breast implants	Eligibility	8
+breast	UBERON:0000310	12-18
+subject is scheduled for sentinel node procedure using radioactive Tc-99m within 24 hours of the PEM study	Eligibility	9
+subject has contraindications for core biopsy and other invasive procedures	Eligibility	10
+subject has Type I diabetes mellitus or poorly controlled Type II diabetes mellitus	Eligibility	11
+type i diabetes mellitus	HP:0100651	12-36
+type ii diabetes mellitus	HP:0005978	58-83
+subject has had surgery or radiation therapy on the study breast or has had chemotherapy within the past 12 months	Eligibility	12
+surgery	OAE:0000067	16-23
+breast	UBERON:0000310	58-64
+subject has not fasted for 4-6 hours prior to the procedure and/or have a fasting blood glucose level greater than 140 mg/dl on day of PEM imaging	Eligibility	13
+blood glucose level	CMO:0000046	82-101
+day	UO:0000033	128-131
+Outcome Measurement:	Results	0
+Feasibility That Breast Biopsy Can be Performed Using PEM and Stereo Navigator Software After Diagnostic PEM on the Same Day.	Results	1
+breast	UBERON:0000310	17-23
+software	BAO:0003119	79-87
+day	UO:0000033	121-124
+[Not Specified]	Results	2
+Time frame: At time of biopsy	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	15-19
+Results 1:	Results	4
+Arm/Group Title: Lesions Visualized Using Positron Emission Mammography (PEM)	Results	5
+positron	CHEBI:30225	42-50
+Arm/Group Description: Total lesions visualized using positron emission mammography.	Results	6
+positron	CHEBI:30225	54-62
+Overall Number of Participants Analyzed: 20	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Breast Lesions  Index Lesioins: 22	Results	9
+breast	UBERON:0000310	17-23
+Index Lesions Visualized at PEM: 21	Results	10
+Additional Lesions seen only at PEM: 6	Results	11
+Lesions technically adequate for targeting: 26	Results	12
+Number of Lesions Biopsied: 24	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 0/20 (0.00%)	Adverse Events	1

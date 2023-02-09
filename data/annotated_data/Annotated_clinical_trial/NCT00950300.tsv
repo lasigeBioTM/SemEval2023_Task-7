@@ -1,0 +1,157 @@
+INTERVENTION 1:	Intervention	0
+Herceptin IV + Chemotherapy	Intervention	1
+Participants received eight cycles of Herceptin IV plus chemotherapy prior to surgery and ten cycles of Herceptin IV after surgery. Chemotherapy consisted of docetaxel 75 mg/m^2 every 21 days for four cycles followed by FEC every 21 days for four cycles. Herceptin was administered as 8 mg/kg on Day 1 and then as 6 mg/kg on Day 22 and every 21 days thereafter. The first eight cycles prior to surgery comprised the Neoadjuvant Treatment Period, and the ten cycles of Herceptin IV after surgery comprised the Adjuvant Treatment Period. Thereafter, participants entered the TFFU Period. Participants who were withdrawn from the Neoadjuvant Treatment Period for any reason, or who experienced disease recurrence during either the Adjuvant Treatment Period or TFFU Period, could be entered into the SFU Period.	Intervention	2
+surgery	OAE:0000067	78-85
+surgery	OAE:0000067	123-130
+surgery	OAE:0000067	394-401
+surgery	OAE:0000067	487-494
+day	UO:0000033	187-190
+day	UO:0000033	233-236
+day	UO:0000033	296-299
+day	UO:0000033	325-328
+day	UO:0000033	345-348
+adjuvant	CHEBI:60809	419-427
+adjuvant	CHEBI:60809	509-517
+adjuvant	CHEBI:60809	630-638
+adjuvant	CHEBI:60809	728-736
+disease	DOID:4,OGMS:0000031	691-698
+INTERVENTION 2:	Intervention	3
+Herceptin SC + Chemotherapy	Intervention	4
+Participants received eight cycles of Herceptin SC plus chemotherapy prior to surgery and ten cycles of Herceptin SC after surgery. Chemotherapy consisted of docetaxel 75 mg/m^2 every 21 days for four cycles followed by FEC every 21 days for four cycles. Herceptin was administered as a 600-mg fixed dose given every 21 days. The first eight cycles prior to surgery comprised the Neoadjuvant Treatment Period, and the ten cycles of Herceptin IV after surgery comprised the Adjuvant Treatment Period. Thereafter, participants entered the TFFU Period. Participants who were withdrawn from the Neoadjuvant Treatment Period for any reason, or who experienced disease recurrence during either the Adjuvant Treatment Period or TFFU Period, could be entered into the SFU Period.	Intervention	5
+surgery	OAE:0000067	78-85
+surgery	OAE:0000067	123-130
+surgery	OAE:0000067	358-365
+surgery	OAE:0000067	451-458
+adjuvant	CHEBI:60809	383-391
+adjuvant	CHEBI:60809	473-481
+adjuvant	CHEBI:60809	594-602
+adjuvant	CHEBI:60809	692-700
+disease	DOID:4,OGMS:0000031	655-662
+Inclusion Criteria:	Eligibility	0
+Adult women greater than or equal to (  ) 18 years of age	Eligibility	1
+adult	EFO:0001272	0-5
+age	PATO:0000011	54-57
+Non-metastatic primary invasive adenocarcinoma of the breast clinical stage I to IIIC, including inflammatory and multicentric/multifocal breast cancer, with tumor size 1 centimeter (cm) by ultrasound or 2 cm by palpation, centrally confirmed HER2-positive (immunohistochemical score [IHC] 3+ or in situ hybridization [ISH]-positive)	Eligibility	2
+adenocarcinoma	DOID:299	32-46
+breast	UBERON:0000310	54-60
+breast	UBERON:0000310	138-144
+breast cancer	DOID:1612	138-151
+size	PATO:0000117	164-168
+centimeter	UO:0000015	171-181
+At least 1 measurable lesion in breast or lymph nodes (  1 cm by ultrasound or 2 cm by palpation), except for inflammatory carcinoma (T4d)	Eligibility	3
+breast	UBERON:0000310	32-38
+lymph	UBERON:0002391	42-47
+carcinoma	HP:0030731,DOID:305	123-132
+Baseline left ventricular ejection fraction (LVEF) 55%	Eligibility	4
+left	HP:0012835	9-13
+ejection fraction	CMO:0000180	26-43
+Eastern Cooperative Oncology Group (ECOG) status of 0 or 1	Eligibility	5
+group	CHEBI:24433	29-34
+Adequate organ function at Baseline	Eligibility	6
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	7
+History of any prior (ipsilateral and/or contralateral) invasive breast carcinoma	Eligibility	8
+history	BFO:0000182	0-7
+breast carcinoma	HP:0003002,DOID:3459	65-81
+Past or current history of malignant neoplasms, except for curatively treated basal and squamous cell carcinoma of the skin and in situ carcinoma of the cervix	Eligibility	9
+history	BFO:0000182	16-23
+squamous cell carcinoma of the skin	HP:0006739	88-123
+in situ carcinoma	DOID:8719	128-145
+Metastatic disease	Eligibility	10
+disease	DOID:4,OGMS:0000031	11-18
+Any prior therapy with anthracyclines	Eligibility	11
+Prior anti-HER2 therapy or biologic or immunotherapy	Eligibility	12
+Serious cardiac illness	Eligibility	13
+Pregnant or lactating women	Eligibility	14
+Outcome Measurement:	Results	0
+Observed Serum Trough Concentration (Ctrough) of Trastuzumab Prior to Surgery	Results	1
+surgery	OAE:0000067	70-77
+Pre-dose samples were obtained prior to surgery (Cycle 8). The observed Ctrough was recorded, averaged among all participants, and expressed in micrograms per milliliter (μg/mL).	Results	2
+surgery	OAE:0000067	40-47
+Time frame: Pre-dose (0 hours) on Day 1 of Cycle 8 (cycle length of 21 days)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	34-37
+day	UO:0000033	71-74
+length	PATO:0000122	58-64
+Results 1:	Results	4
+Arm/Group Title: Herceptin IV + Chemotherapy	Results	5
+Arm/Group Description: Participants received eight cycles of Herceptin IV plus chemotherapy prior to surgery and ten cycles of Herceptin IV after surgery. Chemotherapy consisted of docetaxel 75 mg/m^2 every 21 days for four cycles followed by FEC every 21 days for four cycles. Herceptin was administered as 8 mg/kg on Day 1 and then as 6 mg/kg on Day 22 and every 21 days thereafter. The first eight cycles prior to surgery comprised the Neoadjuvant Treatment Period, and the ten cycles of Herceptin IV after surgery comprised the Adjuvant Treatment Period. Thereafter, participants entered the TFFU Period. Participants who were withdrawn from the Neoadjuvant Treatment Period for any reason, or who experienced disease recurrence during either the Adjuvant Treatment Period or TFFU Period, could be entered into the SFU Period.	Results	6
+surgery	OAE:0000067	101-108
+surgery	OAE:0000067	146-153
+surgery	OAE:0000067	417-424
+surgery	OAE:0000067	510-517
+day	UO:0000033	210-213
+day	UO:0000033	256-259
+day	UO:0000033	319-322
+day	UO:0000033	348-351
+day	UO:0000033	368-371
+adjuvant	CHEBI:60809	442-450
+adjuvant	CHEBI:60809	532-540
+adjuvant	CHEBI:60809	653-661
+adjuvant	CHEBI:60809	751-759
+disease	DOID:4,OGMS:0000031	714-721
+Overall Number of Participants Analyzed: 235	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: μg/mL  57.8         (30.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Herceptin SC + Chemotherapy	Results	11
+Arm/Group Description: Participants received eight cycles of Herceptin SC plus chemotherapy prior to surgery and ten cycles of Herceptin SC after surgery. Chemotherapy consisted of docetaxel 75 mg/m^2 every 21 days for four cycles followed by FEC every 21 days for four cycles. Herceptin was administered as a 600-mg fixed dose given every 21 days. The first eight cycles prior to surgery comprised the Neoadjuvant Treatment Period, and the ten cycles of Herceptin IV after surgery comprised the Adjuvant Treatment Period. Thereafter, participants entered the TFFU Period. Participants who were withdrawn from the Neoadjuvant Treatment Period for any reason, or who experienced disease recurrence during either the Adjuvant Treatment Period or TFFU Period, could be entered into the SFU Period.	Results	12
+surgery	OAE:0000067	101-108
+surgery	OAE:0000067	146-153
+surgery	OAE:0000067	381-388
+surgery	OAE:0000067	474-481
+adjuvant	CHEBI:60809	406-414
+adjuvant	CHEBI:60809	496-504
+adjuvant	CHEBI:60809	617-625
+adjuvant	CHEBI:60809	715-723
+disease	DOID:4,OGMS:0000031	678-685
+Overall Number of Participants Analyzed: 234	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: μg/mL  78.7         (43.9)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 45/298 (15.10%)	Adverse Events	1
+Febrile neutropenia * 10/298 (3.36%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 9/298 (3.02%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia * 0/298 (0.00%)	Adverse Events	4
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia * 0/298 (0.00%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Lymphadenopathy * 1/298 (0.34%)	Adverse Events	6
+lymphadenopathy	HP:0002716	0-15
+Cardiac failure congestive * 0/298 (0.00%)	Adverse Events	7
+Arrhythmia * 0/298 (0.00%)	Adverse Events	8
+arrhythmia	HP:0011675	0-10
+Myocardial infarction * 1/298 (0.34%)	Adverse Events	9
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Angina pectoris * 1/298 (0.34%)	Adverse Events	10
+angina pectoris	HP:0001681	0-15
+Atrial fibrillation * 0/298 (0.00%)	Adverse Events	11
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Adverse Events 2:	Adverse Events	12
+Total: 65/297 (21.89%)	Adverse Events	13
+Febrile neutropenia * 13/297 (4.38%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 7/297 (2.36%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia * 1/297 (0.34%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia * 1/297 (0.34%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Lymphadenopathy * 0/297 (0.00%)	Adverse Events	18
+lymphadenopathy	HP:0002716	0-15
+Cardiac failure congestive * 2/297 (0.67%)	Adverse Events	19
+Arrhythmia * 1/297 (0.34%)	Adverse Events	20
+arrhythmia	HP:0011675	0-10
+Myocardial infarction * 1/297 (0.34%)	Adverse Events	21
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Angina pectoris * 0/297 (0.00%)	Adverse Events	22
+angina pectoris	HP:0001681	0-15
+Atrial fibrillation * 1/297 (0.34%)	Adverse Events	23
+atrial fibrillation	HP:0005110,DOID:0060224	0-19

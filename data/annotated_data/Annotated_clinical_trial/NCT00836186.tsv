@@ -1,0 +1,77 @@
+INTERVENTION 1:	Intervention	0
+Radiation Therapy	Intervention	1
+Women with any non-metastatic breast cancer status post lumpectomy to negative margins and who are receiving whole breast irradiation as per standard treatment plan.	Intervention	2
+breast cancer	DOID:1612	30-43
+breast	UBERON:0000310	30-36
+breast	UBERON:0000310	115-121
+Radiation therapy: Patients will receive whole breast radiation therapy at a dose of 180-200 cGy per fraction for 23-27 fractions to a total dose of 4600 - 4860 cGy. Additional radiation to the lumpectomy bed (Boost) is at the discretion of the treating physician. The total dose to the tumor bed cannot exceed 6600 cGy.	Intervention	3
+breast	UBERON:0000310	47-53
+INCLUSION CRITERIA:	Eligibility	0
+Patient must be 18 years of age or older	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+age	PATO:0000011	28-31
+Patients must have histologically confirmed (by routine H&E staining) adenocarcinoma of the breast any T, any N, M0 disease	Eligibility	2
+adenocarcinoma	DOID:299	70-84
+breast	UBERON:0000310	92-98
+t	CHEBI:36371,BAO:0001260	2-3
+t	CHEBI:36371,BAO:0001260	6-7
+t	CHEBI:36371,BAO:0001260	12-13
+t	CHEBI:36371,BAO:0001260	22-23
+t	CHEBI:36371,BAO:0001260	51-52
+t	CHEBI:36371,BAO:0001260	61-62
+t	CHEBI:36371,BAO:0001260	88-89
+t	CHEBI:36371,BAO:0001260	97-98
+t	CHEBI:36371,BAO:0001260	103-104
+disease	DOID:4,OGMS:0000031	116-123
+Patients must have undergone a segmental mastectomy (SM) with a level I and ll axillary dissection or sentinel lymph node biopsy. Surgical margins at time of local surgery must be negative greater or equal to 2mm for both invasive carcinoma and for non-invasive ductal carcinoma Patients who have post-operative margins which are negative but less than 2mm will be considered eligible if the surgeon states that the margin in question cannot be improved.	Eligibility	3
+lymph	UBERON:0002391	111-116
+time	PATO:0000165	150-154
+surgery	OAE:0000067	164-171
+carcinoma	HP:0030731,DOID:305	231-240
+carcinoma	HP:0030731,DOID:305	269-278
+Patients must be registered such that radiation therapy begins within 10 weeks of last surgery	Eligibility	4
+surgery	OAE:0000067	87-94
+Patients must have a performance status 0 or 1 by Eastern Cooperative Oncology Group (ECOG) criteria or a 80-100 Karnofsky Performance Scale at time of consult	Eligibility	5
+group	CHEBI:24433	79-84
+time	PATO:0000165	144-148
+Women of all races and ethnic groups are eligible for this trial	Eligibility	6
+EXCLUSION CRITERIA:	Eligibility	7
+Patients must not have received prior radiation therapy to the breast at any time for any reason	Eligibility	8
+breast	UBERON:0000310	63-69
+time	PATO:0000165	77-81
+Patients with squamous carcinomas or sarcomas of the breast cancer are not eligible	Eligibility	9
+breast cancer	DOID:1612	53-66
+Patients treated with a mastectomy are NOT eligible	Eligibility	10
+Any patient with active local-regional disease prior to registration is not eligible	Eligibility	11
+patient	HADO:0000008,OAE:0001817	4-11
+active	PATO:0002354	17-23
+disease	DOID:4,OGMS:0000031	39-46
+No other prior malignancy is allowed except for adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, or any other cancer from which the patient has been disease-free for at least 5 years	Eligibility	12
+skin cancer	DOID:4159	95-106
+cervical cancer	DOID:4362	116-131
+cancer	DOID:162	100-106
+cancer	DOID:162	125-131
+cancer	DOID:162	146-152
+patient	HADO:0000008,OAE:0001817	168-175
+Patients must not be pregnant due to the potential for fetal harm as a result of this treatment regimen. Women of child-bearing potential must use effective non hormonal contraception while undergoing radiation therapy	Eligibility	13
+result	BAO:0000179	71-77
+Patients must not have a serious medical or psychiatric illness which prevents informed consent or compliance with treatment	Eligibility	14
+Outcome Measurement:	Results	0
+Number of Proteins Expressed Differently in Response to Receiving Radiation Therapy	Results	1
+Number of proteins that are expressed differently in response to receiving radiation therapy for breast cancer. The data reflect the total number of proteins pooled across all participants.	Results	2
+breast cancer	DOID:1612	97-110
+Time frame: 2 - 4 weeks post radiation therapy	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Radiation Therapy	Results	5
+Arm/Group Description: Women with any non-metastatic breast cancer status post lumpectomy to negative margins and who are receiving whole breast irradiation as per standard treatment plan.	Results	6
+breast cancer	DOID:1612	53-66
+breast	UBERON:0000310	53-59
+breast	UBERON:0000310	138-144
+Radiation therapy: Patients will receive whole breast radiation therapy at a dose of 180-200 cGy per fraction for 23-27 fractions to a total dose of 4600 - 4860 cGy. Additional radiation to the lumpectomy bed (Boost) is at the discretion of the treating physician. The total dose to the tumor bed cannot exceed 6600 cGy.	Results	7
+breast	UBERON:0000310	47-53
+Overall Number of Participants Analyzed: 65	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: Proteins  31	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1

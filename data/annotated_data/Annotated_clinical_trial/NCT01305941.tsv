@@ -1,0 +1,316 @@
+INTERVENTION 1:	Intervention	0
+Everolimus +Vinorelbine + Trastuzumab	Intervention	1
+everolimus	CHEBI:68478	0-10
+daily everolimus plus weekly (Days 1, 8, and 15) vinorelbine and trastuzumab	Intervention	2
+everolimus	CHEBI:68478	6-16
+vinorelbine	CHEBI:480999	49-60
+Everolimus: everolimus 5 mg PO daily as two 2.5-mg tablets	Intervention	3
+everolimus	CHEBI:68478	0-10
+everolimus	CHEBI:68478	12-22
+Vinorelbine: vinorelbine 25 mg/m2 will be administered via IV infusion over 6-10 minutes weekly.	Intervention	4
+vinorelbine	CHEBI:480999	0-11
+vinorelbine	CHEBI:480999	13-24
+Trastuzumab: 2 mg/kg IV administered over 30 minutes weekly	Intervention	5
+Inclusion Criteria	Eligibility	0
+Histologically-confirmed HER2-positive (IHC 3+ or fluorescence in situ hybridization (FISH) amplified; by clinical assay on either primary or metastatic tumor) adenocarcinoma of the breast with at least one progressive and/or new metastatic brain lesion (>/=5 mm on radiographic imaging) after receipt of intracranial radiation therapy (whole brain radiation therapy, stereotactic radiosurgery, gamma knife, or equivalent). Patients in whom brain metastases (BM) are asymptomatic and detected during routine brain MRI screening per institutional protocols are eligible.	Eligibility	1
+adenocarcinoma	DOID:299	160-174
+breast	UBERON:0000310	182-188
+progressive	HP:0003676	207-218
+brain	UBERON:0000955	241-246
+brain	UBERON:0000955	343-348
+brain	UBERON:0000955	441-446
+brain	UBERON:0000955	508-513
+Prior intracranial radiation therapy (whole brain radiation therapy, stereotactic radiosurgery, gamma knife or equivalent) is allowed but not required.	Eligibility	2
+brain	UBERON:0000955	44-49
+Patients with no prior treatment with intracranial Response (ICR) may be included unless ICR is emergently indicated (in consultation with a local therapist, ie neurosurgeon or radiation oncologist)	Eligibility	3
+Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.	Eligibility	4
+group	CHEBI:24433	29-34
+Life expectancy >12 weeks.	Eligibility	5
+At least 21 years of age.	Eligibility	6
+age	PATO:0000011	21-24
+No prior mTOR inhibitors	Eligibility	7
+Prior navelbine allowed provided navelbine therapy discontinued >/= 12 months from Day 1 of treatment under this protocol.	Eligibility	8
+day	UO:0000033	83-86
+Last anti-cancer treatment (including any investigational drug) >/= 2 weeks from initiation of protocol based therapy, provided all adverse events (AEs) (other than alopecia) have resolved to grade 1 at baseline.	Eligibility	9
+drug	CHEBI:23888	58-62
+alopecia	HP:0001596,DOID:987	165-173
+No active serious infection or other comorbid illness which would impair ability to participate in the trial.	Eligibility	10
+active	PATO:0002354	3-9
+Left ventricular ejection fraction assessment (echocardiogram or multigated acquisition scan (MUGA) scan) performed within 4 weeks prior to study initiation, showing a Left ventricular ejection fraction (LVEF) value  lower limit of normal (LLN).	Eligibility	11
+left	HP:0012835	0-4
+left	HP:0012835	168-172
+ejection fraction	CMO:0000180	17-34
+ejection fraction	CMO:0000180	185-202
+If patient is on dexamethasone, must be on stable or decreasing dose of dexamethasone for 7 days. If patient is on different glucocorticoid e.g., prednisone, must be converted to dexamethasone prior to enrollment. Refer to dose modification of everolimus for patients taking dexamethasone.	Eligibility	12
+patient	HADO:0000008,OAE:0001817	3-10
+patient	HADO:0000008,OAE:0001817	101-108
+patient	HADO:0000008,OAE:0001817	259-266
+dexamethasone	CHEBI:41879	17-30
+dexamethasone	CHEBI:41879	72-85
+dexamethasone	CHEBI:41879	179-192
+dexamethasone	CHEBI:41879	275-288
+stable	HP:0031915	43-49
+glucocorticoid	CHEBI:24261	125-139
+prednisone	CHEBI:8382	146-156
+everolimus	CHEBI:68478	244-254
+Interval 4 weeks between open brain biopsy and initiation of protocol-based therapy.	Eligibility	13
+brain	UBERON:0000955	30-35
+international normalized ratio (INR) 2.0. Anticoagulation is allowed if target INR 2.0 on a stable dose of warfarin or if patient on a stable dose of Low-molecular-weight (LMW) heparin for >1 weeks at time of enrollment.	Eligibility	14
+ratio	UO:0000190	25-30
+target	BAO:0003064	72-78
+stable	HP:0031915	92-98
+stable	HP:0031915	135-141
+warfarin	CHEBI:10033	107-115
+patient	HADO:0000008,OAE:0001817	122-129
+heparin	CHEBI:28304	177-184
+time	PATO:0000165	201-205
+Fasting serum cholesterol 300 mg/dL OR 7.75 mmol/L AND fasting triglycerides 2.5 x ULN. Note: In case one or both of these thresholds are exceeded, the patient can only be included after initiation of appropriate lipid lowering medication.	Eligibility	15
+cholesterol	CHEBI:16113	14-25
+x	LABO:0000148	81-82
+x	LABO:0000148	139-140
+patient	HADO:0000008,OAE:0001817	152-159
+lipid	CHEBI:18059,BAO:0000171	213-218
+Patients must have adequate organ function as evidenced by:	Eligibility	16
+organ	UBERON:0000062	28-33
+function	BAO:0003117,BFO:0000034	34-42
+Absolute neutrophil count 1.5/µL	Eligibility	17
+Platelet count 100,000/µL	Eligibility	18
+platelet count	CMO:0000029	0-14
+Hg 9 g/dL	Eligibility	19
+Bilirubin 1.5 x upper limit of normal (ULN)	Eligibility	20
+x	LABO:0000148	14-15
+aspartate aminotransferase (AST) or Alanine transaminase (ALT) 2.5 x ULN (  5 x ULN if liver metastases are present)	Eligibility	21
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	36-43
+x	LABO:0000148	67-68
+x	LABO:0000148	78-79
+liver	UBERON:0002107	87-92
+present	PATO:0000467	108-115
+Serum creatinine 1.5 x ULN	Eligibility	22
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	21-22
+Archived, paraffin-embedded tissue block (primary or metastatic) available for genomic studies is required.	Eligibility	23
+tissue	UBERON:0000479	28-34
+Signed, institutional review board (IRB)-approved written informed consent.	Eligibility	24
+Exclusion Criteria	Eligibility	25
+Patients who have received prior treatment with an mTOR inhibitor (e.g., sirolimus, temsirolimus, everolimus); patients who have received prior treatment with navelbine within prior 12 months.	Eligibility	26
+mtor inhibitor	CHEBI:68481	51-65
+sirolimus	CHEBI:9168	73-82
+sirolimus	CHEBI:9168	87-96
+temsirolimus	CHEBI:79699	84-96
+everolimus	CHEBI:68478	98-108
+patients with a known hypersensitivity to everolimus or other rapamycins (e.g. sirolimus, temsirolimus) or to its excipients.	Eligibility	27
+hypersensitivity	GO:0002524,DOID:1205	22-38
+everolimus	CHEBI:68478	42-52
+sirolimus	CHEBI:9168	79-88
+sirolimus	CHEBI:9168	93-102
+temsirolimus	CHEBI:79699	90-102
+Patients requiring treatment with any other systemic glucocorticoid. Note: This restriction regarding choice of glucocorticoid does not apply should patient need <2 week course of glucocorticoid for treatment of non-infectious pneumonitis during study (see section 4.5.2).	Eligibility	28
+glucocorticoid	CHEBI:24261	53-67
+glucocorticoid	CHEBI:24261	112-126
+glucocorticoid	CHEBI:24261	180-194
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	149-156
+week	UO:0000034	165-169
+Patients with a known hypersensitivity to vinorelbine or to its excipients.	Eligibility	29
+hypersensitivity	GO:0002524,DOID:1205	22-38
+vinorelbine	CHEBI:480999	42-53
+Prior allergic reaction to trastuzumab for the treatment of metastatic breast cancer.	Eligibility	30
+breast cancer	DOID:1612	71-84
+Concurrent or planned radiation, hormonal, chemotherapeutic, experimental or targeted biologic therapy.	Eligibility	31
+Peripheral neuropathy grade 3.	Eligibility	32
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Evidence of frank hemorrhage or impending herniation on baseline brain imaging. Note: asymptomatic micro-hemorrhage is allowed.	Eligibility	33
+brain	UBERON:0000955	65-70
+Evidence of diffuse leptomeningeal disease on brain MRI or by previously documented Cerebrospinal fluid (CSF) cytology. Note: discrete dural metastases are permitted.	Eligibility	34
+diffuse	HP:0020034	12-19
+disease	DOID:4,OGMS:0000031	35-42
+brain	UBERON:0000955	46-51
+cerebrospinal fluid	UBERON:0001359	84-103
+Active cardiac disease including any of the following:	Eligibility	35
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	15-22
+Angina pectoris that requires the use of anti-anginal medication;	Eligibility	36
+angina pectoris	HP:0001681	0-15
+Ventricular arrhythmias except for benign premature ventricular contractions;	Eligibility	37
+Supraventricular and nodal arrhythmias requiring a pacemaker or not controlled with medication;	Eligibility	38
+Conduction abnormality requiring a pacemaker;	Eligibility	39
+Valvular disease with documented compromise in cardiac function;	Eligibility	40
+disease	DOID:4,OGMS:0000031	9-16
+function	BAO:0003117,BFO:0000034	55-63
+Symptomatic pericarditis	Eligibility	41
+pericarditis	HP:0001701,DOID:1787	12-24
+History of cardiac dysfunction including any one of the following:	Eligibility	42
+history	BFO:0000182	0-7
+Myocardial infarction documented by elevated cardiac enzymes or persistent regional wall abnormalities on assessment of left ventricular (LV) function;	Eligibility	43
+myocardial infarction	HP:0001658,DOID:5844	0-21
+left	HP:0012835	120-124
+function	BAO:0003117,BFO:0000034	142-150
+History of documented congestive heart failure (New York Heart Association functional classification III-IV);	Eligibility	44
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	22-46
+heart	UBERON:0000948	33-38
+heart	UBERON:0000948	57-62
+functional	BAO:0000010	75-85
+Documented cardiomyopathy	Eligibility	45
+cardiomyopathy	HP:0001638,DOID:0050700	11-25
+Patients who have had a major surgery or significant traumatic injury within 4 weeks of start of study drug, patients who have not recovered from the side effects of any major surgery (defined as requiring general anesthesia), or patients that may require major surgery during the course of the study.	Eligibility	46
+surgery	OAE:0000067	30-37
+surgery	OAE:0000067	176-183
+surgery	OAE:0000067	262-269
+drug	CHEBI:23888	103-107
+Patients should not receive immunization with attenuated live vaccines within 1 week of study entry or during study period. Close contact with those who have received attenuated live vaccines should be avoided during treatment with everolimus. Examples of live vaccines include intranasal influenza, measles, mumps, rubella, oral polio, Bacillus Calmette-Guérin (BCG), yellow fever, varicella, and Typhoid Vaccine Live Oral (TY21a) typhoid vaccines.	Eligibility	47
+week	UO:0000034	80-84
+everolimus	CHEBI:68478	232-242
+influenza	DOID:8469	289-298
+measles	DOID:8622	300-307
+mumps	DOID:10264	309-314
+rubella	DOID:8781	316-323
+yellow fever	DOID:9682	369-381
+vaccine	VO:0000001	62-69
+vaccine	VO:0000001	183-190
+vaccine	VO:0000001	261-268
+vaccine	VO:0000001	406-413
+vaccine	VO:0000001	440-447
+Other malignancies within the past 3 years except for adequately treated carcinoma of the cervix or basal or squamous cell carcinomas of the skin.	Eligibility	48
+carcinoma	HP:0030731,DOID:305	73-82
+carcinoma	HP:0030731,DOID:305	123-132
+Patients who have any severe and/or uncontrolled medical conditions or other conditions that could affect their participation in the study such as:	Eligibility	49
+severe	HP:0012828	22-28
+severely impaired lung function, defined as spirometry and diffusion lung capacity for carbon monoxide (DLCO) that is 50% of the normal predicted value and/or 02 saturation that is 88% at rest on room air	Eligibility	50
+lung	UBERON:0002048	18-22
+lung	UBERON:0002048	69-73
+function	BAO:0003117,BFO:0000034	23-31
+carbon monoxide	CHEBI:17245	87-102
+uncontrolled diabetes, defined as fasting serum glucose >1.5 x ULN (Note: Optimal glycemic control should be achieved before starting trial therapy)	Eligibility	51
+glucose	CHEBI:4167,BAO:0000924	48-55
+x	LABO:0000148	61-62
+active (acute or chronic) or uncontrolled severe infections	Eligibility	52
+active	PATO:0002354	0-6
+acute	HP:0011009,PATO:0000389	8-13
+chronic	HP:0011010	17-24
+severe	HP:0012828	42-48
+liver disease such as cirrhosis or severe hepatic impairment (Child-Pugh class C).	Eligibility	53
+liver disease	DOID:409	0-13
+cirrhosis	HP:0001394	22-31
+severe	HP:0012828	35-41
+Note: A detailed assessment of Hepatitis B/C medical history and risk factors must be done at screening for all patients. Hepatitis B Virus (HBV) DNA and hepatitis C Virus (HCV) RNA polymerase chain reaction (PCR) testing are required at screening for all patients with a positive medical history based on risk factors and/or confirmation of prior HBV/HCV infection.	Eligibility	54
+hepatitis	HP:0012115,DOID:2237	31-40
+hepatitis	HP:0012115,DOID:2237	122-131
+hepatitis	HP:0012115,DOID:2237	154-163
+history	BFO:0000182	53-60
+history	BFO:0000182	289-296
+hepatitis b	DOID:2043	31-42
+hepatitis b	DOID:2043	122-133
+virus	BAO:0000232	134-139
+virus	BAO:0000232	166-171
+dna	BAO:0000269	146-149
+hepatitis c	DOID:1883	154-165
+rna	BAO:0000270	178-181
+polymerase chain reaction	BAO:0002080	182-207
+A known history of HIV seropositivity.	Eligibility	55
+history	BFO:0000182	8-15
+Impairment of gastrointestinal function or gastrointestinal disease that may significantly alter the absorption of everolimus (e.g., ulcerative disease, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome, or small bowel resection).	Eligibility	56
+function	BAO:0003117,BFO:0000034	31-39
+disease	DOID:4,OGMS:0000031	60-67
+disease	DOID:4,OGMS:0000031	144-151
+everolimus	CHEBI:68478	115-125
+nausea	HP:0002018	166-172
+vomiting	HP:0002013	174-182
+diarrhea	HP:0002014,DOID:13250	184-192
+malabsorption	HP:0002024	194-207
+syndrome	DOID:225	208-216
+Patients with an active, bleeding diathesis or on oral anti-vitamin K medication (except low-dose warfarin and aspirin or equivalent, as long as the INR 2.0).	Eligibility	57
+active	PATO:0002354	17-23
+warfarin	CHEBI:10033	98-106
+Unable or unwilling to discontinue use of prohibited fruit (or its juices) and prohibited medications listed in Appendices II and III for at least 14 days or 5 half-lives of a drug (whichever is longer) prior to the first dose of study drug and for the duration of the study.	Eligibility	58
+drug	CHEBI:23888	176-180
+drug	CHEBI:23888	236-240
+duration	PATO:0001309	253-261
+Female patients who are pregnant or breastfeeding, or adults of reproductive potential who are not using effective birth control methods. Adequate contraception must be used throughout the trial and for 8 weeks after the last dose of study drug, by both sexes. Women of childbearing potential (WOCBP) must have a negative urine or serum pregnancy test within 7 days prior to everolimus initiation.	Eligibility	59
+female	PATO:0000383	0-6
+drug	CHEBI:23888	240-244
+urine	UBERON:0001088	322-327
+everolimus	CHEBI:68478	375-385
+Male patients whose sexual partner(s) are WOCBP who are not willing to use adequate contraception, during the study and for 8 weeks after the end of treatment	Eligibility	60
+male	CHEBI:30780,PATO:0000384	0-4
+Contraindication to gadolinium-enhanced MRI imaging.	Eligibility	61
+contraindication	OAE:0000055	0-16
+Inability to comply with study and/or follow-up procedures.	Eligibility	62
+History of noncompliance to medical regimens.	Eligibility	63
+history	BFO:0000182	0-7
+Outcome Measurement:	Results	0
+Intracranial Objective Response Rate- Modified RECIST Criteria	Results	1
+response will be evaluated via gadolinium-enhanced brain MRI using modified RECIST criteria.	Results	2
+brain	UBERON:0000955	51-56
+Complete Response (CR) - Disappearance of all target and nontarget lesions	Results	3
+target	BAO:0003064	46-52
+target	BAO:0003064	60-66
+Partial Response (PR) - at least a 30% decrease in the sum of the longest diameter (LD) of target lesions, taking as reference the baseline sum longest diameter AND an absolute decrease of at least 5mm in at least one target lesion.	Results	4
+diameter	PATO:0001334	74-82
+diameter	PATO:0001334	152-160
+target	BAO:0003064	91-97
+target	BAO:0003064	218-224
+Stable Disease (SD) - neither sufficient shrinkage to qualify for partial response nor sufficient increase to qualify for progressive disease, taking as reference the smallest sum of the longest diameter since the treatment started.	Results	5
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+disease	DOID:4,OGMS:0000031	134-141
+increase	BAO:0001251	98-106
+progressive	HP:0003676	122-133
+diameter	PATO:0001334	195-203
+Progressive Disease (PD) - at least a 20% increase in the sum LD of target lesions, taking as reference the smallest sum of the longest diameter recorded since the treatment started AND an absolute increase in size of at least 5 mm in at least one target lesion OR the appearance of one or more new lesions of at least 6 mm in size.	Results	6
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+increase	BAO:0001251	42-50
+increase	BAO:0001251	198-206
+target	BAO:0003064	68-74
+target	BAO:0003064	248-254
+diameter	PATO:0001334	136-144
+size	PATO:0000117	210-214
+size	PATO:0000117	327-331
+Time frame: 3 years	Results	7
+time	PATO:0000165	0-4
+Results 1:	Results	8
+Arm/Group Title: Everolimus +Vinorelbine + Trastuzumab	Results	9
+everolimus	CHEBI:68478	17-27
+Arm/Group Description: daily everolimus plus weekly (Days 1, 8, and 15) vinorelbine and trastuzumab	Results	10
+everolimus	CHEBI:68478	29-39
+vinorelbine	CHEBI:480999	72-83
+Everolimus: everolimus 5 mg PO daily as two 2.5-mg tablets	Results	11
+everolimus	CHEBI:68478	0-10
+everolimus	CHEBI:68478	12-22
+Vinorelbine: vinorelbine 25 mg/m2 will be administered via IV infusion over 6-10 minutes weekly.	Results	12
+vinorelbine	CHEBI:480999	0-11
+vinorelbine	CHEBI:480999	13-24
+Trastuzumab: 2 mg/kg IV administered over 30 minutes weekly	Results	13
+Overall Number of Participants Analyzed: 26	Results	14
+Measure Type: Count of Participants	Results	15
+Unit of Measure: Participants  Complete Response: 0   0.0%	Results	16
+Partial Response: 1   3.8%	Results	17
+Stable Disease: 17  65.4%	Results	18
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 8  30.8%	Results	19
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Adverse Events 1:	Adverse Events	0
+Total: 13/32 (40.63%)	Adverse Events	1
+Anemia * 1/32 (3.13%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+Adrenal Insufficiency * 1/32 (3.13%)	Adverse Events	3
+adrenal insufficiency	HP:0000846	0-21
+Vomiting * 1/32 (3.13%)	Adverse Events	4
+vomiting	HP:0002013	0-8
+Fever * 2/32 (6.25%)	Adverse Events	5
+fever	HP:0001945	0-5
+Infusion related reaction * 1/32 (3.13%)	Adverse Events	6
+Pain * 1/32 (3.13%)	Adverse Events	7
+pain	HP:0012531	0-4
+Anaphylaxis * 1/32 (3.13%)	Adverse Events	8
+Lung Infection * 1/32 (3.13%)	Adverse Events	9
+lung	UBERON:0002048	0-4
+Sepsis * 3/32 (9.38%)	Adverse Events	10
+sepsis	HP:0100806	0-6
+Upper Respiratory Infection * 1/32 (3.13%)	Adverse Events	11
+Creatinine Increased * 2/32 (6.25%)	Adverse Events	12
+creatinine	CHEBI:16737	0-10

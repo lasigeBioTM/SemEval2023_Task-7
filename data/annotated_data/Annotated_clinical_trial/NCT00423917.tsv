@@ -1,0 +1,210 @@
+INTERVENTION 1:	Intervention	0
+Fulvestrant + Bevacizumab	Intervention	1
+fulvestrant	CHEBI:31638	0-11
+Patients receive Fulvestrant 250 mg intramuscularly every 28 days and Bevacizumab 10mg/kg intravenously with a rate-regulating device on days 1 and 15. Loading dose of fulvestrant for the first cycle will consist of an extra 250 mg on day 1 (for total of 500 mg Cycle 1, Day 1). The initial bevacizumab dose will be delivered over 90 minutes. If the first infusion is tolerated without infusion-associated adverse events (fever and/or chills), the second infusion may be delivered over 60 minutes. If the 60-minute infusion is well-tolerated, all subsequent infusions may be delivered over 30 minutes.Courses repeat every 4 weeks in the absence of disease progression or unacceptable toxicity.	Intervention	2
+fulvestrant	CHEBI:31638	17-28
+fulvestrant	CHEBI:31638	168-179
+day	UO:0000033	61-64
+day	UO:0000033	137-140
+day	UO:0000033	235-238
+day	UO:0000033	271-274
+fever	HP:0001945	422-427
+chills	HP:0025143	435-441
+second	UO:0000010	448-454
+disease	DOID:4,OGMS:0000031	648-655
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically or cytologically confirmed breast cancer	Eligibility	1
+breast cancer	DOID:1612	42-55
+Metastatic disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+Must have received an aromatase inhibitor (e.g., letrozole, anastrozole, or exemestane) in an adjuvant or metastatic setting	Eligibility	3
+inhibitor	CHEBI:35222	32-41
+letrozole	CHEBI:6413	49-58
+anastrozole	CHEBI:2704	60-71
+exemestane	CHEBI:4953	76-86
+adjuvant	CHEBI:60809	94-102
+If tumor is HER2 positive (3+ by immunohistochemistry or amplified by fluorescent in situ hybridization) the patient must have received  1 prior trastuzumab (Herceptin®)-containing regimen unless there is a contraindication to trastuzumab	Eligibility	4
+immunohistochemistry	BAO:0000415	33-53
+patient	HADO:0000008,OAE:0001817	109-116
+contraindication	OAE:0000055	207-223
+Measurable or nonmeasurable disease, including any of the following :	Eligibility	5
+disease	DOID:4,OGMS:0000031	28-35
+Bone metastasis	Eligibility	6
+Pleural/pericardial effusion	Eligibility	7
+Ascites	Eligibility	8
+ascites	HP:0001541	0-7
+Inflammatory skin changes	Eligibility	9
+No microscopic residual disease only	Eligibility	10
+disease	DOID:4,OGMS:0000031	24-31
+Enrolled on or refused enrollment on clinical trial NCCTG-N0392	Eligibility	11
+No evidence of active brain metastasis including leptomeningeal involvement	Eligibility	12
+active	PATO:0002354	15-21
+brain	UBERON:0000955	22-27
+CNS metastasis controlled (i.e., at least 2 months of no symptoms or evidence of progression) by prior surgery and/or raditherapy are allowed	Eligibility	13
+surgery	OAE:0000067	103-110
+Hormone receptor status:	Eligibility	14
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen and/or progesterone receptor-positive tumor	Eligibility	15
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	16-28
+PATIENT CHARACTERISTICS:	Eligibility	16
+patient	HADO:0000008,OAE:0001817	0-7
+Male or female	Eligibility	17
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Female patients must be post-menopausal based on any 1 of the following criteria:	Eligibility	18
+female	PATO:0000383	0-6
+Age  60 years	Eligibility	19
+age	PATO:0000011	0-3
+Age  45 years with last menstrual period  12 months prior to study entry	Eligibility	20
+age	PATO:0000011	0-3
+Estradiol and follicle-stimulating hormone levels in postmenopausal range	Eligibility	21
+estradiol	CHEBI:23965	0-9
+hormone	CHEBI:24621	35-42
+range	LABO:0000114	68-73
+History of bilateral oophorectomy	Eligibility	22
+history	BFO:0000182	0-7
+bilateral	HP:0012832	11-20
+ECOG performance status 0-2	Eligibility	23
+Life expectancy > 3 months	Eligibility	24
+Fertile patients must use effective contraception during and for 30 days after completion of study treatment	Eligibility	25
+WBC  3,000 mg/dL	Eligibility	26
+Hemoglobin > 8 g/dL	Eligibility	27
+hemoglobin	CHEBI:35143	0-10
+Absolute neutrophil count > 1,000/mm³	Eligibility	28
+Platelet count  100,000/mm³	Eligibility	29
+platelet count	CMO:0000029	0-14
+Bilirubin  1.5 times upper limit of normal (ULN)	Eligibility	30
+Alkaline phosphatase  2.5 times ULN	Eligibility	31
+phosphatase	GO:0016791,BAO:0000295	9-20
+AST and ALT  2.5 times ULN	Eligibility	32
+Creatinine  1.5 times ULN	Eligibility	33
+creatinine	CHEBI:16737	0-10
+Urine protein < 1+ OR < 1 g of protein by 24-hour urine collection	Eligibility	34
+urine	UBERON:0001088	0-5
+urine	UBERON:0001088	50-55
+protein	CHEBI:36080,BAO:0000175	6-13
+protein	CHEBI:36080,BAO:0000175	31-38
+No nephrotic syndrome	Eligibility	35
+nephrotic syndrome	HP:0000100,DOID:1184	3-21
+No uncontrolled hypertension (i.e., blood pressure [BP] > 160/90 mm Hg on  2 occasions at least 5 minutes apart)	Eligibility	36
+hypertension	HP:0000822,DOID:10763	16-28
+blood	UBERON:0000178	36-41
+Patients who have recently started or adjusted antihypertensive medications are eligible provided BP is < 140/90 mm Hg on any new regimen for  3 different observations in  14 days	Eligibility	37
+No clinically significant cardiac disease, including any of the following:	Eligibility	38
+disease	DOID:4,OGMS:0000031	34-41
+Congestive heart failure	Eligibility	39
+congestive heart failure	HP:0001635,DOID:6000	0-24
+Symptomatic coronary artery disease	Eligibility	40
+coronary artery disease	DOID:3393	12-35
+Unstable angina	Eligibility	41
+Cardiac arrhythmias not well controlled with medication	Eligibility	42
+Myocardial infarction within the past 12 months	Eligibility	43
+myocardial infarction	HP:0001658,DOID:5844	0-21
+No arterial or venous thrombosis within the past 12 months	Eligibility	44
+venous thrombosis	HP:0004936	15-32
+No hemoptysis or gastrointestinal hemorrhage within the past 6 months	Eligibility	45
+hemoptysis	HP:0002105	3-13
+gastrointestinal hemorrhage	HP:0002239	17-44
+No abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within the past 4 weeks	Eligibility	46
+abscess	HP:0025615	71-78
+No significant traumatic injury within the past 4 weeks	Eligibility	47
+No active, unresolved infection	Eligibility	48
+active	PATO:0002354	3-9
+No history of hypertensive crisis or hypertensive encephalopathy	Eligibility	49
+history	BFO:0000182	3-10
+hypertensive crisis	HP:0100735	14-33
+hypertensive encephalopathy	DOID:9427	37-64
+No history of bleeding diathesis or uncontrolled coagulopathy	Eligibility	50
+history	BFO:0000182	3-10
+No history of cerebrovascular accident, hemorrhage, or stroke	Eligibility	51
+history	BFO:0000182	3-10
+stroke	HP:0001297,DOID:6713	55-61
+No allergy or hypersensitivity to drug product excipients, murine antibodies, or agents chemically similar to study drugs	Eligibility	52
+allergy	HP:0012393	3-10
+hypersensitivity	GO:0002524,DOID:1205	14-30
+drug	CHEBI:23888	34-38
+drug	CHEBI:23888	116-120
+product	BAO:0003067	39-46
+No other malignancy within the past 3 years except for basal cell or squamous cell skin cancer or carcinoma in situ of the cervix	Eligibility	53
+skin cancer	DOID:4159	83-94
+carcinoma	HP:0030731,DOID:305	98-107
+No other serious medical condition that would preclude study therapy or compliance	Eligibility	54
+condition	PDRO:0000129	25-34
+PRIOR CONCURRENT THERAPY:	Eligibility	55
+See Disease Characteristics	Eligibility	56
+disease	DOID:4,OGMS:0000031	4-11
+Prior radiotherapy to a target lesion allowed provided there has been clear progression since radiotherapy was completed	Eligibility	57
+radiotherapy	OAE:0000235	6-18
+radiotherapy	OAE:0000235	94-106
+target	BAO:0003064	24-30
+At least 4 weeks since prior radiotherapy	Eligibility	58
+radiotherapy	OAE:0000235	29-41
+Single-dose radiation for palliation or to a nontarget lesion only allowed within the past 4 weeks	Eligibility	59
+No more than 1 prior chemotherapy regimen for metastatic disease	Eligibility	60
+disease	DOID:4,OGMS:0000031	57-64
+No more than 2 prior endocrine (hormonal) therapy regimens in the neoadjuvant, adjuvant, or metastatic setting	Eligibility	61
+adjuvant	CHEBI:60809	69-77
+adjuvant	CHEBI:60809	79-87
+At least 4 weeks since prior major surgery or open biopsy	Eligibility	62
+surgery	OAE:0000067	35-42
+At least 4 weeks since prior chemotherapy or immunologic therapy	Eligibility	63
+At least 2 weeks since prior and no concurrent use of any of the following agents:	Eligibility	64
+Aspirin (daily low-dose [81 mg] aspirin allowed])	Eligibility	65
+Thrombolytic agents	Eligibility	66
+Anticoagulants (low-dose anticoagulation therapy to maintain patency of a vascular access device is allowed)	Eligibility	67
+No concurrent treatment in another clinical study with investigational procedures or investigational therapies	Eligibility	68
+No other concurrent anticancer therapy, including chemotherapy, biologic agents, or radiotherapy	Eligibility	69
+radiotherapy	OAE:0000235	84-96
+No routine use of granulocyte colony-stimulating factors during course 1	Eligibility	70
+No concurrent oprelvekin	Eligibility	71
+Outcome Measurement:	Results	0
+Six-month Progression-free Survival (PFS) Rate at 6 Months	Results	1
+rate	BAO:0080019	42-46
+The primary endpoint of this trial is the 6-month progression-free survival rate. A patient is considered to be a 6-month progression-free survivor if the patient is on study treatment 6 months from registration without a documentation of disease progression. The proportion of successes will be estimated by the number of successes divided by the total number of evaluable patients. Additionally, if some patients are lost to follow-up not having been observed for at least 6 months, an estimate and 95% confidence interval for the 6-month progression-free survival rate incorporating censoring will be computed using the method of Kaplan-Meier. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.	Results	2
+rate	BAO:0080019	76-80
+rate	BAO:0080019	567-571
+patient	HADO:0000008,OAE:0001817	84-91
+patient	HADO:0000008,OAE:0001817	155-162
+patient	HADO:0000008,OAE:0001817	374-381
+patient	HADO:0000008,OAE:0001817	406-413
+disease	DOID:4,OGMS:0000031	239-246
+increase	BAO:0001251	754-762
+increase	BAO:0001251	833-841
+diameter	PATO:0001334	789-797
+target	BAO:0003064	801-807
+target	BAO:0003064	851-857
+Time frame: at 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Fulvestrant + Bevacizumab	Results	5
+fulvestrant	CHEBI:31638	17-28
+Arm/Group Description: Patients receive Fulvestrant 250 mg intramuscularly every 28 days and Bevacizumab 10mg/kg intravenously with a rate-regulating device on days 1 and 15. Loading dose of fulvestrant for the first cycle will consist of an extra 250 mg on day 1 (for total of 500 mg Cycle 1, Day 1). The initial bevacizumab dose will be delivered over 90 minutes. If the first infusion is tolerated without infusion-associated adverse events (fever and/or chills), the second infusion may be delivered over 60 minutes. If the 60-minute infusion is well-tolerated, all subsequent infusions may be delivered over 30 minutes.Courses repeat every 4 weeks in the absence of disease progression or unacceptable toxicity.	Results	6
+fulvestrant	CHEBI:31638	40-51
+fulvestrant	CHEBI:31638	191-202
+day	UO:0000033	84-87
+day	UO:0000033	160-163
+day	UO:0000033	258-261
+day	UO:0000033	294-297
+fever	HP:0001945	445-450
+chills	HP:0025143	458-464
+second	UO:0000010	471-477
+disease	DOID:4,OGMS:0000031	671-678
+Overall Number of Participants Analyzed: 33	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of patients  39        (23 to 58)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 4/33 (12.12%)	Adverse Events	1
+Diarrhea 1/33 (3.03%)	Adverse Events	2
+diarrhea	HP:0002014,DOID:13250	0-8
+Intracranial hemorrhage 1/33 (3.03%)	Adverse Events	3
+intracranial hemorrhage	HP:0002170	0-23
+Ischemia cerebrovascular 1/33 (3.03%)	Adverse Events	4
+ischemia	DOID:326	0-8
+Confusion 1/33 (3.03%)	Adverse Events	5
+confusion	HP:0001289	0-9
+Skin disorder 1/33 (3.03%)	Adverse Events	6
+disorder	OGMS:0000045	5-13

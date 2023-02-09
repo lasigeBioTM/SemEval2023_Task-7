@@ -1,0 +1,130 @@
+INTERVENTION 1:	Intervention	0
+Vaccine	Intervention	1
+vaccine	VO:0000001	0-7
+Patients receive Globo-H-GM2-Lewis-y-MUC1-32(aa)-sTn(c)-TF(c)-Tn(c)-KLH conjugate vaccine with QS21 adjuvant subcutaneously weekly on weeks 1, 2, 3, 7, and 19.	Intervention	2
+vaccine	VO:0000001	82-89
+adjuvant	CHEBI:60809	100-108
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Diagnosis of breast cancer at high risk for recurrence, defined by one of the following:	Eligibility	1
+breast cancer	DOID:1612	13-26
+Stage IV that is free of all known disease after eradication by surgery, radiotherapy, or chemotherapy	Eligibility	2
+disease	DOID:4,OGMS:0000031	35-42
+surgery	OAE:0000067	64-71
+radiotherapy	OAE:0000235	73-85
+May or may not have elevated CA 15-3 or CEA levels	Eligibility	3
+Stage I, II, or III previously treated with adjuvant chemotherapy and clinically free of identifiable disease, but have rising CA 15-3 or CEA levels	Eligibility	4
+adjuvant	CHEBI:60809	44-52
+disease	DOID:4,OGMS:0000031	102-109
+Rising CA 15-3 and CEA defined as a prior normal level increased on 2 consecutive occasions at least 2 weeks apart	Eligibility	5
+For patients with a significant history of smoking who have a chronically elevated CEA (less than 15), CEA must be increased at least 1.5 times the uppermost chronic value on 2 consecutive occasions at least 2 weeks apart	Eligibility	6
+history	BFO:0000182	32-39
+chronic	HP:0011010	62-69
+chronic	HP:0011010	158-165
+Stage III and completed adjuvant therapy no more than 24 months ago	Eligibility	7
+adjuvant	CHEBI:60809	24-32
+Recurrence in the ipsilateral axilla after lumpectomy and/or axillary dissection or modified radical mastectomy	Eligibility	8
+radical	CHEBI:26519	93-100
+Recurrence in the ipsilateral breast after lumpectomy and/or axillary dissection	Eligibility	9
+breast	UBERON:0000310	30-36
+Stage II with at least 4 positive axillary nodes and completed adjuvant therapy no more than 24 months ago	Eligibility	10
+adjuvant	CHEBI:60809	63-71
+Stage IV that is stable on hormonal therapy	Eligibility	11
+stable	HP:0031915	17-23
+Hormone receptor status:	Eligibility	12
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Not specified	Eligibility	13
+PATIENT CHARACTERISTICS:	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+Age:	Eligibility	15
+age	PATO:0000011	0-3
+18 and over	Eligibility	16
+Sex:	Eligibility	17
+Male or female	Eligibility	18
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Menopausal status:	Eligibility	19
+Not specified	Eligibility	20
+Performance status:	Eligibility	21
+Karnofsky 80-100%	Eligibility	22
+Life expectancy:	Eligibility	23
+Not specified	Eligibility	24
+Hematopoietic:	Eligibility	25
+Lymphocyte count at least 500/mm^3	Eligibility	26
+WBC at least 3,000/mm^3	Eligibility	27
+Hepatic:	Eligibility	28
+AST no greater than 1.5 times upper limit of normal (ULN)	Eligibility	29
+Alkaline phosphatase no greater than 1.5 times ULN	Eligibility	30
+phosphatase	GO:0016791,BAO:0000295	9-20
+Renal:	Eligibility	31
+Creatinine no greater than 1.5 times ULN	Eligibility	32
+creatinine	CHEBI:16737	0-10
+Cardiovascular:	Eligibility	33
+No clinically significant New York Heart Association class III or IV cardiac disease	Eligibility	34
+heart	UBERON:0000948	35-40
+disease	DOID:4,OGMS:0000031	77-84
+Other:	Eligibility	35
+Not pregnant	Eligibility	36
+Negative pregnancy test	Eligibility	37
+Fertile patients must use effective contraception	Eligibility	38
+No prior seafood allergy	Eligibility	39
+seafood allergy	HP:0410333	9-24
+No known prior immunodeficiency or autoimmune disease	Eligibility	40
+immunodeficiency	HP:0002721	15-31
+autoimmune disease	DOID:417	35-53
+No other active cancer except basal cell or squamous cell skin cancer	Eligibility	41
+active	PATO:0002354	9-15
+cancer	DOID:162	16-22
+cancer	DOID:162	63-69
+skin cancer	DOID:4159	58-69
+PRIOR CONCURRENT THERAPY:	Eligibility	42
+Biologic therapy:	Eligibility	43
+At least 6 weeks since prior immunotherapy	Eligibility	44
+No prior vaccine with any of the antigens in this study	Eligibility	45
+vaccine	VO:0000001	9-16
+Chemotherapy:	Eligibility	46
+See Disease Characteristics	Eligibility	47
+disease	DOID:4,OGMS:0000031	4-11
+At least 4 weeks since prior chemotherapy	Eligibility	48
+No concurrent chemotherapy	Eligibility	49
+Endocrine therapy:	Eligibility	50
+See Disease Characteristics	Eligibility	51
+disease	DOID:4,OGMS:0000031	4-11
+Radiotherapy:	Eligibility	52
+radiotherapy	OAE:0000235	0-12
+See Disease Characteristics	Eligibility	53
+disease	DOID:4,OGMS:0000031	4-11
+At least 4 weeks since prior radiotherapy	Eligibility	54
+radiotherapy	OAE:0000235	29-41
+No concurrent radiotherapy	Eligibility	55
+radiotherapy	OAE:0000235	14-26
+Surgery:	Eligibility	56
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	57
+disease	DOID:4,OGMS:0000031	4-11
+At least 4 weeks since prior surgery	Eligibility	58
+surgery	OAE:0000067	29-36
+Concurrent surgery for local recurrence allowed if patient remains disease free	Eligibility	59
+surgery	OAE:0000067	11-18
+patient	HADO:0000008,OAE:0001817	51-58
+disease	DOID:4,OGMS:0000031	67-74
+Outcome Measurement:	Results	0
+Safety	Results	1
+By assessing the toxicity and will be graded following immunization with polyvalent vaccine in accordance with the NCI Common Toxicity Criteria 2.0.	Results	2
+vaccine	VO:0000001	84-91
+Time frame: 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Vaccine	Results	5
+vaccine	VO:0000001	17-24
+Arm/Group Description: Patients receive Globo-H-GM2-Lewis-y-MUC1-32(aa)-sTn(c)-TF(c)-Tn(c)-KLH conjugate vaccine with QS21 adjuvant subcutaneously weekly on weeks 1, 2, 3, 7, and 19.	Results	6
+vaccine	VO:0000001	105-112
+adjuvant	CHEBI:60809	123-131
+Overall Number of Participants Analyzed: 13	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  13	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 1/13 (7.69%)	Adverse Events	1
+SGPT (ALT) 1/13 (7.69%)	Adverse Events	2

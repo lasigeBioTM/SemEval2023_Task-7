@@ -1,0 +1,135 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Cranial Microcurrent Electrical Stimulation [CES])	Intervention	1
+stimulation	BAO:0000093	39-50
+Patients receive a CES unit (Alpha-Stim® 100 Microcurrent Stimulator) that passes microcurrent levels of biphasic electrical stimulation via ear-lobe electrodes. The CES unit is preset to provide 1 hour of 100 μA (sub-sensory level), modified square-wave biphasic stimulation on a 50% duty cycle at .05 Hz, and to automatically turn off at the end of 1 hour. Patients use their CES unit once daily in weeks 1-18.	Intervention	2
+stimulation	BAO:0000093	125-136
+stimulation	BAO:0000093	264-275
+hour	UO:0000032	198-202
+hour	UO:0000032	353-357
+energy-based therapy: Given once a day for 18 weeks	Intervention	3
+day	UO:0000033	35-38
+INTERVENTION 2:	Intervention	4
+Arm II (Sham CES)	Intervention	5
+Patients receive a CES unit as in arm I, but the ear-lobe electrodes do not pass electrical current. Patients use their CES unit once daily in weeks 1-18.	Intervention	6
+sham intervention: Given once a day for 18 weeks	Intervention	7
+day	UO:0000033	32-35
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Diagnosis of stage I-IIIA breast cancer	Eligibility	1
+breast cancer	DOID:1612	26-39
+Scheduled to receive adjuvant chemotherapy	Eligibility	2
+adjuvant	CHEBI:60809	21-29
+Hormone receptor status not specified	Eligibility	3
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+Pre, peri, or post-menopausal	Eligibility	5
+ECOG performance status 0-1	Eligibility	6
+No dementia	Eligibility	7
+dementia	HP:0000726,DOID:1307	3-11
+No active psychosis	Eligibility	8
+active	PATO:0002354	3-9
+psychosis	HP:0000709	10-19
+No history of seizure disorder	Eligibility	9
+history	BFO:0000182	3-10
+seizure	HP:0001250	14-21
+disorder	OGMS:0000045	22-30
+No implanted electrical device	Eligibility	10
+PRIOR CONCURRENT THERAPY:	Eligibility	11
+See Disease Characteristics	Eligibility	12
+disease	DOID:4,OGMS:0000031	4-11
+No prior chemotherapy	Eligibility	13
+No initiation of a medication regimen for depression or other psychiatric condition within the past 30 days	Eligibility	14
+depression	HP:0000716	42-52
+condition	PDRO:0000129	74-83
+Outcome Measurement:	Results	0
+Effects of CES as Compared to Sham CES on Symptoms of Depression, Anxiety, Fatigue, Pain and Sleep Disturbances in Women Receiving Adjuvant Chemotherapy for Early-stage Breast Cancer	Results	1
+depression	HP:0000716	54-64
+anxiety	HP:0000739,DOID:2030	66-73
+fatigue	HP:0012378	75-82
+pain	HP:0012531	84-88
+sleep	GO:0030431	93-98
+adjuvant	CHEBI:60809	131-139
+breast cancer	DOID:1612	169-182
+Using Hospital Anxiety and Depression Scale (HADS) a 14 item scale, 7 relate to anxiety, 7 to depression; each item is scored from 0-3, a person can score 0 to 21 for either anxiety or depression (0 is best and 21 is worst), Brief Pain Inventory (BPI) short-form measures the intensity and interference of pain in the patient's life; 12 questions with 0 (does not interfere) to 10 (completely interferes); mean will be used as the measure of pain; Brief Fatigue Inventory (BFI) assess the severity and impact of cancer-related fatigue. Has 9 questions with 0 (does not interfere) to 10 (completely interferes), the total mean score is the mean of the 9 questions; severe fatigue can be defined as a score of 7 or higher, General Sleep Disturbance Scale (GSDS) 21 items to evaluate sleep issues (0=never to 7=every day); the 21 items are summed to produce a total score of 9=no sleep disturbance to 137=extreme sleep disturbance . Used standard questionnaire	Results	2
+anxiety	HP:0000739,DOID:2030	15-22
+anxiety	HP:0000739,DOID:2030	80-87
+anxiety	HP:0000739,DOID:2030	174-181
+depression	HP:0000716	27-37
+depression	HP:0000716	94-104
+depression	HP:0000716	185-195
+pain	HP:0012531	231-235
+pain	HP:0012531	306-310
+pain	HP:0012531	442-446
+intensity	PATO:0000049	276-285
+patient	HADO:0000008,OAE:0001817	318-325
+mean	BAO:0002173	406-410
+mean	BAO:0002173	621-625
+mean	BAO:0002173	639-643
+fatigue	HP:0012378	454-461
+fatigue	HP:0012378	527-534
+fatigue	HP:0012378	671-678
+severity	HP:0012824	489-497
+severe	HP:0012828	664-670
+sleep disturbance	HP:0002360	729-746
+sleep disturbance	HP:0002360	877-894
+sleep disturbance	HP:0002360	910-927
+sleep	GO:0030431	729-734
+sleep	GO:0030431	781-786
+sleep	GO:0030431	877-882
+sleep	GO:0030431	910-915
+day	UO:0000033	814-817
+Time frame: Up to 2 weeks afer completion of study treatment, for up to 8 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I (Cranial Microcurrent Electrical Stimulation [CES])	Results	5
+stimulation	BAO:0000093	56-67
+Arm/Group Description: Patients receive a CES unit (Alpha-Stim   100 Microcurrent Stimulator) that passes microcurrent levels of biphasic electrical stimulation via ear-lobe electrodes. The CES unit is preset to provide 1 hour of 100 μA (sub-sensory level), modified square-wave biphasic stimulation on a 50% duty cycle at .05 Hz, and to automatically turn off at the end of 1 hour. Patients use their CES unit once daily in weeks 1-18.	Results	6
+stimulation	BAO:0000093	149-160
+stimulation	BAO:0000093	288-299
+hour	UO:0000032	222-226
+hour	UO:0000032	377-381
+energy-based therapy: Given once a day for 18 weeks	Results	7
+day	UO:0000033	35-38
+Overall Number of Participants Analyzed: 77	Results	8
+Least Squares Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	14-18
+standard deviation	BAO:0002176	20-38
+Unit of Measure: units on a scale  Anxiety: 4.040         (0.419)	Results	10
+anxiety	HP:0000739,DOID:2030	35-42
+Depression: 4.520         (0.398)	Results	11
+depression	HP:0000716	0-10
+Fatigue: 3.349         (0.294)	Results	12
+fatigue	HP:0012378	0-7
+Pain: 1.174         (0.197)	Results	13
+pain	HP:0012531	0-4
+Sleep: 38.235         (2.376)	Results	14
+sleep	GO:0030431	0-5
+Results 2:	Results	15
+Arm/Group Title: Arm II (Sham CES)	Results	16
+Arm/Group Description: Patients receive a CES unit as in arm I, but the ear-lobe electrodes do not pass electrical current. Patients use their CES unit once daily in weeks 1-18.	Results	17
+sham intervention: Given once a day for 18 weeks	Results	18
+day	UO:0000033	32-35
+Overall Number of Participants Analyzed: 75	Results	19
+Least Squares Mean (Standard Deviation)	Results	20
+mean	BAO:0002173	14-18
+standard deviation	BAO:0002176	20-38
+Unit of Measure: units on a scale  Anxiety: 4.529         (0.431)	Results	21
+anxiety	HP:0000739,DOID:2030	35-42
+Depression: 4.565         (0.407)	Results	22
+depression	HP:0000716	0-10
+Fatigue: 3.191         (0.301)	Results	23
+fatigue	HP:0012378	0-7
+Pain: 1.272         (0.202)	Results	24
+pain	HP:0012531	0-4
+Sleep: 40.474         (2.443)	Results	25
+sleep	GO:0030431	0-5
+Adverse Events 1:	Adverse Events	0
+Total: 1/77 (1.30%)	Adverse Events	1
+Seizure *  [1]1/77 (1.30%)	Adverse Events	2
+seizure	HP:0001250	0-7
+Adverse Events 2:	Adverse Events	3
+Total: 0/75 (0.00%)	Adverse Events	4
+Seizure *  [1]0/75 (0.00%)	Adverse Events	5
+seizure	HP:0001250	0-7

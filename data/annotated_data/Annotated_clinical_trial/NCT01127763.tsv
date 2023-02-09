@@ -1,0 +1,215 @@
+INTERVENTION 1:	Intervention	0
+RAD001+Carboplatin	Intervention	1
+Carboplatin (starting dose was initially AUC 6, later decreased to AUC 5, then AUC 4) every 3 weeks as IV infusion and RAD001 as 5 mg pill each day until disease progression or unacceptable toxicity.	Intervention	2
+carboplatin	CHEBI:31355	0-11
+auc	BAO:0002120	41-44
+auc	BAO:0002120	67-70
+auc	BAO:0002120	79-82
+day	UO:0000033	144-147
+disease	DOID:4,OGMS:0000031	154-161
+RAD001	Intervention	3
+Carboplatin	Intervention	4
+carboplatin	CHEBI:31355	0-11
+Inclusion Criteria:	Eligibility	0
+Women with metastatic breast cancer (measurable or evaluable including bone metastases only)	Eligibility	1
+breast cancer	DOID:1612	22-35
+Histologically confirmed triple negative breast cancer (estrogen receptor (ER)< 10%, progesterone receptor (PR) < 10 %, Her2neu IHC 0 or 1 or FISH negative)	Eligibility	2
+breast cancer	DOID:1612	41-54
+estrogen	CHEBI:50114,BAO:0000760	56-64
+receptor	BAO:0000281	65-73
+receptor	BAO:0000281	98-106
+progesterone	CHEBI:17026	85-97
+Age >= 18 years	Eligibility	3
+age	PATO:0000011	0-3
+World Health Organization performance status <= 2	Eligibility	4
+Adequate bone marrow function as shown by: absolute neutrophil count  1.5 x 10^9/L, Platelets  100 x 10^9/L, Hb >9 g/dL	Eligibility	5
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+x	LABO:0000148	74-75
+x	LABO:0000148	99-100
+Adequate liver function as shown by:	Eligibility	6
+liver	UBERON:0002107	9-14
+function	BAO:0003117,BFO:0000034	15-23
+serum bilirubin  1.5 x upper limit of normal (ULN)	Eligibility	7
+x	LABO:0000148	21-22
+international normalized ratio (INR): Patients not on warfarin INR 1.5; Patients on warfarin INR 3; Patient on stable dose of low molecular weight heparin for >2 weeks at time of treatment is allowed.	Eligibility	8
+ratio	UO:0000190	25-30
+warfarin	CHEBI:10033	54-62
+warfarin	CHEBI:10033	84-92
+patient	HADO:0000008,OAE:0001817	38-45
+patient	HADO:0000008,OAE:0001817	72-79
+patient	HADO:0000008,OAE:0001817	100-107
+stable	HP:0031915	111-117
+heparin	CHEBI:28304	147-154
+time	PATO:0000165	171-175
+alanine aminotransferase and aspartate aminotransferase  2.5x ULN ( 5x ULN in patients with liver metastases)	Eligibility	9
+alanine	CHEBI:16449	0-7
+aspartate	CHEBI:29995	29-38
+liver	UBERON:0002107	92-97
+Adequate renal function: serum creatinine  1.5 x ULN	Eligibility	10
+function	BAO:0003117,BFO:0000034	15-23
+creatinine	CHEBI:16737	31-41
+x	LABO:0000148	47-48
+Fasting serum cholesterol 300 mg/dL OR 7.75 mmol/L AND fasting triglycerides  2.5 x ULN. NOTE: In case one or both of these thresholds are exceeded, the patient can only be included after initiation of appropriate lipid lowering medication.	Eligibility	11
+cholesterol	CHEBI:16113	14-25
+x	LABO:0000148	82-83
+x	LABO:0000148	140-141
+patient	HADO:0000008,OAE:0001817	153-160
+lipid	CHEBI:18059,BAO:0000171	214-219
+Signed informed consent	Eligibility	12
+Patients may have had 0-3 prior regimens for metastatic disease and prior bevacizumab (avastin) is allowed.	Eligibility	13
+disease	DOID:4,OGMS:0000031	56-63
+A baseline lung CT (or PET/CT)	Eligibility	14
+lung	UBERON:0002048	11-15
+ct	BAO:0002125	16-18
+ct	BAO:0002125	27-29
+O2 sat >= 90% in room air (if <90%, spirometry and diffusion capacity of lung for carbon monoxide (DLCO) above 50% of the normal predicted value of pulmonary function tests)	Eligibility	15
+lung	UBERON:0002048	73-77
+carbon monoxide	CHEBI:17245	82-97
+function	BAO:0003117,BFO:0000034	158-166
+Negative serum pregnancy test within 7 days prior to starting treatment	Eligibility	16
+Exclusion Criteria:	Eligibility	17
+Patients currently receiving anticancer therapies or who have received anticancer therapies within 2 weeks of the start of study drug (including chemotherapy, radiation therapy, and biologics)	Eligibility	18
+drug	CHEBI:23888	129-133
+Patients, who have had a major surgery or significant traumatic injury within 4 weeks of start of study drug, patients who have not recovered from the side effects of any major surgery (defined as requiring general anesthesia) or patients that may require major surgery during the course of the study	Eligibility	19
+surgery	OAE:0000067	31-38
+surgery	OAE:0000067	177-184
+surgery	OAE:0000067	262-269
+drug	CHEBI:23888	104-108
+Prior treatment with any investigational drug within the preceding 2 weeks	Eligibility	20
+drug	CHEBI:23888	41-45
+Patients receiving chronic, systemic treatment with corticosteroids or another immunosuppressive agent, except corticosteroids with a daily dosage equivalent to prednisone  20 mg. However, patients receiving corticosteroids must have been on a stable dosage regimen for a minimum of 4 weeks prior to the first treatment with RAD001. Topical or inhaled corticosteroids are allowed.	Eligibility	21
+chronic	HP:0011010	19-26
+immunosuppressive agent	CHEBI:35705	79-102
+prednisone	CHEBI:8382	161-171
+stable	HP:0031915	244-250
+Patients should not receive immunization with attenuated live vaccines within one week of study entry or during study period	Eligibility	22
+week	UO:0000034	82-86
+Uncontrolled brain or leptomeningeal metastases, including patients who continue to require glucocorticoids for brain or leptomeningeal metastases	Eligibility	23
+brain	UBERON:0000955	13-18
+brain	UBERON:0000955	112-117
+Other malignancies within the past 3 years except for adequately treated carcinoma of the cervix or basal or squamous cell carcinomas of the skin.	Eligibility	24
+carcinoma	HP:0030731,DOID:305	73-82
+carcinoma	HP:0030731,DOID:305	123-132
+Patients who have any severe and/or uncontrolled medical conditions or other conditions that could affect their participation in the study such as:	Eligibility	25
+severe	HP:0012828	22-28
+Symptomatic congestive heart failure of New York heart Association Class III or IV	Eligibility	26
+congestive heart failure	HP:0001635,DOID:6000	12-36
+heart	UBERON:0000948	23-28
+heart	UBERON:0000948	49-54
+unstable angina pectoris, symptomatic congestive heart failure, myocardial infarction within 6 months of start of study drug, serious uncontrolled cardiac arrhythmia or any other clinically significant cardiac disease	Eligibility	27
+angina pectoris	HP:0001681	9-24
+congestive heart failure	HP:0001635,DOID:6000	38-62
+myocardial infarction	HP:0001658,DOID:5844	64-85
+drug	CHEBI:23888	120-124
+arrhythmia	HP:0011675	155-165
+disease	DOID:4,OGMS:0000031	210-217
+severely impaired lung function as defined as spirometry and DLCO that is 50% of the normal predicted value and/or 02 saturation that is 88% or less at rest on room air	Eligibility	28
+lung	UBERON:0002048	18-22
+function	BAO:0003117,BFO:0000034	23-31
+uncontrolled diabetes as defined by fasting serum glucose >1.5 x ULN	Eligibility	29
+glucose	CHEBI:4167,BAO:0000924	50-57
+x	LABO:0000148	63-64
+active (acute or chronic) or uncontrolled severe infections	Eligibility	30
+active	PATO:0002354	0-6
+acute	HP:0011009,PATO:0000389	8-13
+chronic	HP:0011010	17-24
+severe	HP:0012828	42-48
+liver disease such as cirrhosis, chronic active hepatitis or chronic persistent hepatitis. Note: A detailed assessment of Hepatitis B/C medical history and risk factors must be done at screening for all patients. HBV DNA and HCV RNA polymerase chain reaction testing are required at screening for all patients with a positive medical history based on risk factors and/or confirmation of prior HBV/HCV infection.	Eligibility	31
+liver disease	DOID:409	0-13
+cirrhosis	HP:0001394	22-31
+chronic active hepatitis	HP:0200120	33-57
+chronic	HP:0011010	33-40
+chronic	HP:0011010	61-68
+hepatitis	HP:0012115,DOID:2237	48-57
+hepatitis	HP:0012115,DOID:2237	80-89
+hepatitis	HP:0012115,DOID:2237	122-131
+history	BFO:0000182	144-151
+history	BFO:0000182	334-341
+dna	BAO:0000269	217-220
+rna	BAO:0000270	229-232
+polymerase chain reaction	BAO:0002080	233-258
+A known history of HIV seropositivity	Eligibility	32
+history	BFO:0000182	8-15
+Impairment of gastrointestinal function or gastrointestinal disease that may significantly alter the absorption of RAD001 (e.g., ulcerative disease, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome or small bowel resection)	Eligibility	33
+function	BAO:0003117,BFO:0000034	31-39
+disease	DOID:4,OGMS:0000031	60-67
+disease	DOID:4,OGMS:0000031	140-147
+nausea	HP:0002018	162-168
+vomiting	HP:0002013	170-178
+diarrhea	HP:0002014,DOID:13250	180-188
+malabsorption	HP:0002024	190-203
+syndrome	DOID:225	204-212
+Patients with an active, bleeding diathesis	Eligibility	34
+active	PATO:0002354	17-23
+Female patients who are pregnant or breast feeding, or adults of reproductive potential who are not using effective birth control methods. If barrier contraceptives are being used, these must be continued throughout the trial by both sexes. Hormonal contraceptives are not acceptable as a sole method of contraception. (Women of childbearing potential must have a negative urine or serum pregnancy test within 7 days prior to administration of RAD001)	Eligibility	35
+female	PATO:0000383	0-6
+breast	UBERON:0000310	36-42
+urine	UBERON:0001088	373-378
+Patients who have received prior treatment with an mTOR inhibitor (sirolimus, temsirolimus, everolimus).	Eligibility	36
+mtor inhibitor	CHEBI:68481	51-65
+sirolimus	CHEBI:9168	67-76
+sirolimus	CHEBI:9168	81-90
+temsirolimus	CHEBI:79699	78-90
+everolimus	CHEBI:68478	92-102
+Patients with a known hypersensitivity to RAD001 (everolimus) or other rapamycins (sirolimus, temsirolimus) or to its excipients	Eligibility	37
+hypersensitivity	GO:0002524,DOID:1205	22-38
+everolimus	CHEBI:68478	50-60
+sirolimus	CHEBI:9168	83-92
+sirolimus	CHEBI:9168	97-106
+temsirolimus	CHEBI:79699	94-106
+History of noncompliance to medical regimens	Eligibility	38
+history	BFO:0000182	0-7
+Patients unwilling to or unable to comply with the protocol	Eligibility	39
+Ongoing alcohol or drug addiction	Eligibility	40
+alcohol	CHEBI:16236	8-15
+drug addiction	HP:0033511	19-33
+Outcome Measurement:	Results	0
+Clinical Benefit Rate (Complete Response, Partial Response, and Stable Disease That Lasts More Than 6 Months)	Results	1
+rate	BAO:0080019	17-21
+stable	HP:0031915	64-70
+disease	DOID:4,OGMS:0000031	71-78
+Clinical benefit rate is defined as the number of patients with complete response (CR), partial response (PR), or stable disease (SD) that lasts at least 6 months. Response was assessed every 2 cycles of treatment (6 weeks) by computed tomography (CT), CT/positron emission tomography (PET), or magnetic resonance imaging (MRI). Overall response evaluation is based on Response Evaluation Criteria In Solid Tumors 1.0 (RECIST 1.0). Per RECIST 1.0 for target lesions: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >=30% decrease in the sum of the longest diameter of target lesions; Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD.	Results	2
+rate	BAO:0080019	17-21
+stable	HP:0031915	114-120
+stable	HP:0031915	620-626
+disease	DOID:4,OGMS:0000031	121-128
+disease	DOID:4,OGMS:0000031	627-634
+tomography	BAO:0002525	236-246
+tomography	BAO:0002525	274-284
+ct	BAO:0002125	248-250
+ct	BAO:0002125	253-255
+target	BAO:0003064	451-457
+target	BAO:0003064	512-518
+target	BAO:0003064	604-610
+diameter	PATO:0001334	592-600
+increase	BAO:0001251	703-711
+Time frame: up to 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	20-24
+Results 1:	Results	4
+Arm/Group Title: RAD001+Carboplatin	Results	5
+Arm/Group Description: Carboplatin (starting dose was initially AUC 6, later decreased to AUC 5, then AUC 4) every 3 weeks as IV infusion and RAD001 as 5 mg pill each day until disease progression or unacceptable toxicity.	Results	6
+carboplatin	CHEBI:31355	23-34
+auc	BAO:0002120	64-67
+auc	BAO:0002120	90-93
+auc	BAO:0002120	102-105
+day	UO:0000033	167-170
+disease	DOID:4,OGMS:0000031	177-184
+RAD001	Results	7
+Carboplatin	Results	8
+carboplatin	CHEBI:31355	0-11
+Overall Number of Participants Analyzed: 25	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: percentage of patients  36        (21 to 57)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 5/25 (20.00%)	Adverse Events	1
+Hypertension 1/25 (4.00%)	Adverse Events	2
+hypertension	HP:0000822,DOID:10763	0-12
+Dehydration 1/25 (4.00%)	Adverse Events	3
+dehydration	HP:0001944	0-11
+Infection With Normal Anc Or Grade 1 Or 2 Neutrophils 2/25 (8.00%)	Adverse Events	4
+Pain 1/25 (4.00%)	Adverse Events	5
+pain	HP:0012531	0-4
+Dyspnea (Shortness Of Breath) 2/25 (8.00%)	Adverse Events	6
+dyspnea	HP:0002094	0-7

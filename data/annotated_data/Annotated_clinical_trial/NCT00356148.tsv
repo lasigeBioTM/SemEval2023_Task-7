@@ -1,0 +1,59 @@
+INTERVENTION 1:	Intervention	0
+Prophylaxis Group	Intervention	1
+group	CHEBI:24433	12-17
+patients who are BMI over 25 and receiving ampicillin/sulbactam prophylaxis	Intervention	2
+INTERVENTION 2:	Intervention	3
+No Prophylaxis Group	Intervention	4
+group	CHEBI:24433	15-20
+Patients who are BMI over 25 and not receive antibiotic prophylaxis	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Women at any age with early stage breast cancer (stage I-II) and American Society of Anesthesiologists (ASA) score of I-II.	Eligibility	1
+age	PATO:0000011	13-16
+age	PATO:0000011	30-33
+age	PATO:0000011	51-54
+breast cancer	DOID:1612	34-47
+Exclusion Criteria:	Eligibility	2
+Ductal carcinoma in situ (DCIS; stage 0 cancer),	Eligibility	3
+ductal carcinoma in situ	HP:0030075,DOID:0060074	0-24
+cancer	DOID:162	40-46
+Advanced or distant metastatic stage,	Eligibility	4
+Receiving any neoadjuvant therapy,	Eligibility	5
+History of receiving any antibiotics within prior 3 months,	Eligibility	6
+history	BFO:0000182	0-7
+History of immunodeficiency,	Eligibility	7
+history	BFO:0000182	0-7
+immunodeficiency	HP:0002721	11-27
+Having a remote infection,	Eligibility	8
+History of reaction to study antibiotics,	Eligibility	9
+history	BFO:0000182	0-7
+Denial of signing the consent form.	Eligibility	10
+Outcome Measurement:	Results	0
+Number of Patients With Body Mass Index (BMI) Over 25 Who Developed Surgical Site Infection (SSI) in Groups Who Received Antibiotic Prophylaxis (Prophylaxis Group) and no Prophylaxis (No Prophylaxis Group).	Results	1
+site	BFO:0000029	77-81
+group	CHEBI:24433	101-106
+group	CHEBI:24433	157-162
+group	CHEBI:24433	199-204
+[Not Specified]	Results	2
+Time frame: 1 month	Results	3
+time	PATO:0000165	0-4
+month	UO:0000035	14-19
+Results 1:	Results	4
+Arm/Group Title: Prophylaxis Group	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	29-34
+Arm/Group Description: patients who are BMI over 25 and receiving ampicillin/sulbactam prophylaxis	Results	6
+Overall Number of Participants Analyzed: 187	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  9	Results	9
+Results 2:	Results	10
+Arm/Group Title: No Prophylaxis Group	Results	11
+group	CHEBI:24433	4-9
+group	CHEBI:24433	32-37
+Arm/Group Description: Patients who are BMI over 25 and not receive antibiotic prophylaxis	Results	12
+Overall Number of Participants Analyzed: 182	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  25	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/189 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/183 (0.00%)	Adverse Events	3

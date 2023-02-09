@@ -1,0 +1,135 @@
+INTERVENTION 1:	Intervention	0
+Phase Ib Regimen 1	Intervention	1
+Participants received T-DM1 Q3W + paclitaxel QW intravenously.	Intervention	2
+paclitaxel	CHEBI:45863	34-44
+INTERVENTION 2:	Intervention	3
+Phase Ib Regimen 2	Intervention	4
+Participants received T-DM1 Q3W + paclitaxel QW + pertuzumab Q3W intravenously.	Intervention	5
+paclitaxel	CHEBI:45863	34-44
+Inclusion Criteria:	Eligibility	0
+Histologically documented HER2-positive locally advanced or metastatic breast cancer	Eligibility	1
+breast cancer	DOID:1612	71-84
+Tumor tissue blocks or 15-20 unstained tissue slides for confirmatory central laboratory HER2 status testing and other exploratory assessments	Eligibility	2
+tissue	UBERON:0000479	6-12
+tissue	UBERON:0000479	39-45
+central	HP:0030645	70-77
+Prior trastuzumab in any line of therapy (Phase Ib patients only)	Eligibility	3
+No prior T-DM1 or pertuzumab therapy	Eligibility	4
+Measurable or evaluable disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	24-31
+Cardiac ejection fraction >=50% by either echocardiogram or multigated acquisition scan	Eligibility	6
+ejection fraction	CMO:0000180	8-25
+Life expectancy >= 90 days as assessed by the investigator	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Fewer than 21 days since the last anti-tumor therapy, including chemotherapy, biologic, experimental, immune, hormonal or radiotherapy for the treatment of breast cancer, with the following exceptions: hormone-replacement therapy or oral contraceptives are allowed; palliative radiation therapy involving <=25% of marrow-bearing bone is allowed if completed within >= 14 days prior to first study treatment	Eligibility	9
+radiotherapy	OAE:0000235	122-134
+breast cancer	DOID:1612	156-169
+History of intolerance or hypersensitivity to trastuzumab and/or adverse events related to trastuzumab, murine proteins, or any of the excipients that resulted in trastuzumab being permanently discontinued	Eligibility	10
+history	BFO:0000182	0-7
+hypersensitivity	GO:0002524,DOID:1205	26-42
+Peripheral neuropathy of Grade >= 2 per NCI CTCAE, Version 3.0, at the time of, or within 3 weeks prior to, the first study therapy (Phase Ib patients)	Eligibility	11
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+time	PATO:0000165	71-75
+Peripheral neuropathy of Grade >/=1 per NCI CTCAE, Version 3.0, at the time of, or within 3 weeks prior to, the first study therapy (Phase IIa patients)	Eligibility	12
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+time	PATO:0000165	71-75
+History of exposure to the following cumulative doses of anthracyclines: Doxorubicin > 500 mg/m^2; Liposomal doxorubicin > 900 mg/m^2; Epirubicin > 720 mg/m^2	Eligibility	13
+history	BFO:0000182	0-7
+doxorubicin	CHEBI:28748,BAO:0000639	73-84
+doxorubicin	CHEBI:28748,BAO:0000639	109-120
+History of clinically significant cardiac dysfunction	Eligibility	14
+history	BFO:0000182	0-7
+Brain metastases that are untreated, or progressive, or have required any type of therapy (including radiation, surgery, or steroids) to control symptoms from brain metastases within 60 days prior to the first study treatment.	Eligibility	15
+brain	UBERON:0000955	0-5
+brain	UBERON:0000955	159-164
+progressive	HP:0003676	40-51
+surgery	OAE:0000067	112-119
+History of other malignancy within the last 5 years, except for appropriately treated carcinoma in situ of the cervix, basal cell carcinoma, or synchronous or subsequent HER2-positive breast cancer or other malignancy with a similar expected curative outcome	Eligibility	16
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	86-95
+carcinoma	HP:0030731,DOID:305	130-139
+basal cell carcinoma	HP:0002671,DOID:2513	119-139
+breast cancer	DOID:1612	184-197
+Outcome Measurement:	Results	0
+Number of Participants With Any Adverse Events (AEs), Serious Adverse Events (SAEs), AEs of Grades 3/4, and Death	Results	1
+death	OAE:0000632	108-113
+An AE is defined as any untoward medical occurrence in a participant or clinical investigation participant, temporally associated with the use of a medicinal product, whether or not considered to be related to the medicinal product. An SAE is any untoward medical occurrence that, at any dose, results in death, is life threatening, requires hospitalization or prolongation of existing hospitalization, results in disability/incapacity, or results in a congenital anomaly/birth defect.	Results	2
+product	BAO:0003067	158-165
+product	BAO:0003067	224-231
+death	OAE:0000632	305-310
+Time frame: Up to 30 days after the last dose of study treatment or study discontinuation/termination, whichever is later	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase Ib Regimen 1	Results	5
+Arm/Group Description: Participants received T-DM1 Q3W + paclitaxel QW intravenously.	Results	6
+paclitaxel	CHEBI:45863	57-67
+Overall Number of Participants Analyzed: 26	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Any AEs: 26	Results	9
+Any SAEs: 7	Results	10
+Death: 1	Results	11
+death	OAE:0000632	0-5
+Any AEs Grade 3: 19	Results	12
+Any AEs Grade 4: 0	Results	13
+AEs leading to T-DM1 discontinuation: 3	Results	14
+AEs leading to paclitaxel discontinuation: 20	Results	15
+paclitaxel	CHEBI:45863	15-25
+AEs leading to pertuzumab discontinuation: NA  [1]	Results	16
+Results 2:	Results	17
+Arm/Group Title: Phase Ib Regimen 2	Results	18
+Arm/Group Description: Participants received T-DM1 Q3W + paclitaxel QW + pertuzumab Q3W intravenously.	Results	19
+paclitaxel	CHEBI:45863	57-67
+Overall Number of Participants Analyzed: 10	Results	20
+Measure Type: Number	Results	21
+Unit of Measure: participants  Any AEs: 10	Results	22
+Any SAEs: 5	Results	23
+Death: 0	Results	24
+death	OAE:0000632	0-5
+Any AEs Grade 3: 5	Results	25
+Any AEs Grade 4: 2	Results	26
+AEs leading to T-DM1 discontinuation: 1	Results	27
+AEs leading to paclitaxel discontinuation: 7	Results	28
+paclitaxel	CHEBI:45863	15-25
+AEs leading to pertuzumab discontinuation: 1	Results	29
+Adverse Events 1:	Adverse Events	0
+Total: 7/26 (26.92%)	Adverse Events	1
+Febrile neutropenia 1/26 (3.85%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 0/26 (0.00%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/26 (0.00%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure congestive 0/26 (0.00%)	Adverse Events	5
+Extrasystoles 0/26 (0.00%)	Adverse Events	6
+Nausea 1/26 (3.85%)	Adverse Events	7
+nausea	HP:0002018	0-6
+Abdominal pain 0/26 (0.00%)	Adverse Events	8
+abdominal pain	HP:0002027	0-14
+Constipation 0/26 (0.00%)	Adverse Events	9
+constipation	HP:0002019,DOID:2089	0-12
+Gastrointestinal haemorrhage 0/26 (0.00%)	Adverse Events	10
+Death - unknown cause 1/26 (3.85%)	Adverse Events	11
+death	OAE:0000632	0-5
+Thrombosis in device 0/26 (0.00%)	Adverse Events	12
+thrombosis	DOID:0060903	0-10
+Adverse Events 2:	Adverse Events	13
+Total: 5/10 (50.00%)	Adverse Events	14
+Febrile neutropenia 0/10 (0.00%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 0/10 (0.00%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 1/10 (10.00%)	Adverse Events	17
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac failure congestive 0/10 (0.00%)	Adverse Events	18
+Extrasystoles 0/10 (0.00%)	Adverse Events	19
+Nausea 0/10 (0.00%)	Adverse Events	20
+nausea	HP:0002018	0-6
+Abdominal pain 0/10 (0.00%)	Adverse Events	21
+abdominal pain	HP:0002027	0-14
+Constipation 0/10 (0.00%)	Adverse Events	22
+constipation	HP:0002019,DOID:2089	0-12
+Gastrointestinal haemorrhage 0/10 (0.00%)	Adverse Events	23
+Death - unknown cause 0/10 (0.00%)	Adverse Events	24
+death	OAE:0000632	0-5
+Thrombosis in device 0/10 (0.00%)	Adverse Events	25
+thrombosis	DOID:0060903	0-10

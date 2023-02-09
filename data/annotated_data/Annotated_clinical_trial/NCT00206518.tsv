@@ -1,0 +1,208 @@
+INTERVENTION 1:	Intervention	0
+A: Taxotere/Docetaxel	Intervention	1
+Chemotherapy In Arm A, patients will receive single agent Taxotere (100 mg/m2) every 3 weeks for 4 cycles before surgery. Primary surgery will then be conducted, if operable, following completion of neoadjuvant treatment. This will be followed by standard adjuvant AC (doxorubicin 60 mg/m2 and cyclophosphamide 600 mg/m2, every 3 weeks) for 4 cycles. For patients whose BSA is greater than 2.0 m2, the Adriamycin dosage will be calculated using BSA = 2.0 m2. This is done in order to minimize Adriamycin-induced cardiotoxicity.	Intervention	2
+taxotere	CHEBI:46058	58-66
+surgery	OAE:0000067	113-120
+surgery	OAE:0000067	130-137
+adjuvant	CHEBI:60809	202-210
+adjuvant	CHEBI:60809	256-264
+doxorubicin	CHEBI:28748,BAO:0000639	269-280
+cyclophosphamide	CHEBI:4026	294-310
+m2	CHEBI:34827	75-77
+m2	CHEBI:34827	287-289
+m2	CHEBI:34827	318-320
+m2	CHEBI:34827	394-396
+m2	CHEBI:34827	455-457
+Taxotere/Docetaxel: Taxotere	Intervention	3
+taxotere	CHEBI:46058	0-8
+taxotere	CHEBI:46058	20-28
+doxorubicin: AC (doxorubicin 60 mg/m2 and cyclophosphamide 600 mg/m2, every 3 weeks) for 4 cycles before surgery.	Intervention	4
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+doxorubicin	CHEBI:28748,BAO:0000639	17-28
+cyclophosphamide	CHEBI:4026	42-58
+surgery	OAE:0000067	105-112
+INTERVENTION 2:	Intervention	5
+B: AC Adriamycin/Cytoxan	Intervention	6
+In Arm B, patients will receive AC (doxorubicin 60 mg/m2 and cyclophosphamide 600 mg/m2, every 3 weeks) for 4 cycles before surgery. For patients whose BSA is greater than 2.0 m2, the Adriamycin dosage will be calculated using BSA = 2.0 m2. Primary surgery will then be conducted, if operable, following completion of neoadjuvant treatment. This will be followed by 4 cycles of single agent Taxotere (100 mg/m2) every 3 weeks.	Intervention	7
+doxorubicin	CHEBI:28748,BAO:0000639	36-47
+cyclophosphamide	CHEBI:4026	61-77
+surgery	OAE:0000067	124-131
+surgery	OAE:0000067	249-256
+m2	CHEBI:34827	54-56
+m2	CHEBI:34827	85-87
+m2	CHEBI:34827	176-178
+m2	CHEBI:34827	237-239
+m2	CHEBI:34827	408-410
+taxotere	CHEBI:46058	391-399
+Adriamycin/Cytoxan: Adriamycin/Cytoxan	Intervention	8
+Inclusion Criteria:	Eligibility	0
+All patients must be female.	Eligibility	1
+female	PATO:0000383	21-27
+Signed informed consent.	Eligibility	2
+Primary breast cancers must be of clinical and/or radiologic size >3 cm, and deemed surgically operable.	Eligibility	3
+breast	UBERON:0000310	8-14
+size	PATO:0000117	61-65
+Negative serum pregnancy test (bHCG) within 7 days of starting study, if of child-bearing potential.	Eligibility	4
+Adequate bone marrow function:	Eligibility	5
+bone marrow	UBERON:0002371	9-20
+function	BAO:0003117,BFO:0000034	21-29
+Hematocrit of greater than 30%,	Eligibility	6
+hematocrit	CMO:0000037	0-10
+total neutrophil count must be >1.5 x 10^9/L and	Eligibility	7
+x	LABO:0000148	36-37
+platelets of > 100 x 10^9/L prior to the start of any cycle.	Eligibility	8
+x	LABO:0000148	19-20
+Renal function tests:	Eligibility	9
+function	BAO:0003117,BFO:0000034	6-14
+creatinine within 1.5 times of the institution's upper limit of normal (ULN).	Eligibility	10
+creatinine	CHEBI:16737	0-10
+Liver function tests:	Eligibility	11
+liver	UBERON:0002107	0-5
+function	BAO:0003117,BFO:0000034	6-14
+Total serum bilirubin within ULN, and	Eligibility	12
+liver transaminases within 2.5 times ULN, and	Eligibility	13
+liver	UBERON:0002107	0-5
+alkaline phosphatase within 5 times ULN.	Eligibility	14
+phosphatase	GO:0016791,BAO:0000295	9-20
+Electrocardiogram showing no acute ischemic changes.	Eligibility	15
+acute	HP:0011009,PATO:0000389	29-34
+Performance status (World Health Organization [WHO] scale) <2.	Eligibility	16
+Age > 18 years.	Eligibility	17
+age	PATO:0000011	0-3
+Patients older than 70 years of age should have left ventricular ejection fraction within ULN by multigated acquisition scan (MUGA) or 2D echocardiogram.	Eligibility	18
+age	PATO:0000011	32-35
+left	HP:0012835	48-52
+ejection fraction	CMO:0000180	65-82
+Exclusion Criteria:	Eligibility	19
+Patients with metastatic breast cancer.	Eligibility	20
+breast cancer	DOID:1612	25-38
+Pregnancy or unwillingness to use a reliable contraceptive method in women of child-bearing potential.	Eligibility	21
+Women who are lactating or breastfeeding.	Eligibility	22
+Severe underlying chronic illness or disease.	Eligibility	23
+severe	HP:0012828	0-6
+chronic	HP:0011010	18-25
+disease	DOID:4,OGMS:0000031	37-44
+Peripheral neuropathy - grade 2 or greater.	Eligibility	24
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Patients on other investigational drugs while on study will be excluded.	Eligibility	25
+excluded	HP:0040285	63-71
+Severe or uncontrolled hypertension, history of congestive heart failure, acute myocardial infarction, or severe coronary arterial disease.	Eligibility	26
+severe	HP:0012828	0-6
+severe	HP:0012828	106-112
+hypertension	HP:0000822,DOID:10763	23-35
+history	BFO:0000182	37-44
+congestive heart failure	HP:0001635,DOID:6000	48-72
+acute myocardial infarction	DOID:9408	74-101
+disease	DOID:4,OGMS:0000031	131-138
+Prior taxane or anthracycline chemotherapy for malignancy.	Eligibility	27
+taxane	CHEBI:36064	6-12
+anthracycline	CHEBI:48120	16-29
+Patients with a history of severe hypersensitivity reaction to Taxotere or other drugs formulated with polysorbate 80.	Eligibility	28
+history	BFO:0000182	16-23
+severe	HP:0012828	27-33
+hypersensitivity	GO:0002524,DOID:1205	34-50
+taxotere	CHEBI:46058	63-71
+polysorbate 80	CHEBI:53426	103-117
+No previous or current malignancies at other sites within the last 5 years, with exception of adequately treated cone-biopsied in situ carcinoma of the cervix uteri and basal or squamous cell carcinoma of the skin.	Eligibility	29
+in situ carcinoma	DOID:8719	127-144
+squamous cell carcinoma of the skin	HP:0006739	178-213
+Outcome Measurement:	Results	0
+Pathological Tumor Response to Neoadjuvant Chemotherapy (Taxotere and AC)	Results	1
+taxotere	CHEBI:46058	57-65
+The patients' pathological response were assessed using Chevalier's system which graded the responses into Chevalier 1, 2, 3A, 3B, 3C, 3D, and 4, defined as:	Results	2
+Disappearance of all tumor either on macroscopic or microscopic assessment in both the breast and LN (pCR)	Results	3
+breast	UBERON:0000310	87-93
+ln	BAO:0002171	98-100
+Presence of in situ carcinoma in the breast. No invasive tumor in breast and no tumor in LN (pCR)	Results	4
+in situ carcinoma	DOID:8719	12-29
+breast	UBERON:0000310	37-43
+breast	UBERON:0000310	66-72
+ln	BAO:0002171	89-91
+Presence of invasive cancer with stromal alteration such as sclerosis or fibrosis (pPR) 3A: Subjectively > 75% therapeutic effect 3B: Subjectively between 50% - 75% therapeutic effect 3C: Subjectively between 25% - 50% therapeutic effect 3D: Subjectively < 25% therapeutic effect OR Grade 4	Results	5
+cancer	DOID:162	21-27
+No or few modification of tumoral appearance (pNR).	Results	6
+Time frame: 10 years	Results	7
+time	PATO:0000165	0-4
+Results 1:	Results	8
+Arm/Group Title: A: Taxotere/Docetaxel	Results	9
+Arm/Group Description: Chemotherapy In Arm A, patients will receive single agent Taxotere (100 mg/m2) every 3 weeks for 4 cycles before surgery. Primary surgery will then be conducted, if operable, following completion of neoadjuvant treatment. This will be followed by standard adjuvant AC (doxorubicin 60 mg/m2 and cyclophosphamide 600 mg/m2, every 3 weeks) for 4 cycles. For patients whose BSA is greater than 2.0 m2, the Adriamycin dosage will be calculated using BSA = 2.0 m2. This is done in order to minimize Adriamycin-induced cardiotoxicity.	Results	10
+taxotere	CHEBI:46058	81-89
+surgery	OAE:0000067	136-143
+surgery	OAE:0000067	153-160
+adjuvant	CHEBI:60809	225-233
+adjuvant	CHEBI:60809	279-287
+doxorubicin	CHEBI:28748,BAO:0000639	292-303
+cyclophosphamide	CHEBI:4026	317-333
+m2	CHEBI:34827	98-100
+m2	CHEBI:34827	310-312
+m2	CHEBI:34827	341-343
+m2	CHEBI:34827	417-419
+m2	CHEBI:34827	478-480
+Taxotere/Docetaxel: Taxotere	Results	11
+taxotere	CHEBI:46058	0-8
+taxotere	CHEBI:46058	20-28
+doxorubicin: AC (doxorubicin 60 mg/m2 and cyclophosphamide 600 mg/m2, every 3 weeks) for 4 cycles before surgery.	Results	12
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+doxorubicin	CHEBI:28748,BAO:0000639	17-28
+cyclophosphamide	CHEBI:4026	42-58
+surgery	OAE:0000067	105-112
+Overall Number of Participants Analyzed: 83	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  1: 3	Results	15
+2: 2	Results	16
+3A: 18	Results	17
+3B: 15	Results	18
+3C: 18	Results	19
+3D: 10	Results	20
+4: 3	Results	21
+N/A: 14	Results	22
+Results 2:	Results	23
+Arm/Group Title: B: AC Adriamycin/Cytoxan	Results	24
+Arm/Group Description: In Arm B, patients will receive AC (doxorubicin 60 mg/m2 and cyclophosphamide 600 mg/m2, every 3 weeks) for 4 cycles before surgery. For patients whose BSA is greater than 2.0 m2, the Adriamycin dosage will be calculated using BSA = 2.0 m2. Primary surgery will then be conducted, if operable, following completion of neoadjuvant treatment. This will be followed by 4 cycles of single agent Taxotere (100 mg/m2) every 3 weeks.	Results	25
+doxorubicin	CHEBI:28748,BAO:0000639	59-70
+cyclophosphamide	CHEBI:4026	84-100
+surgery	OAE:0000067	147-154
+surgery	OAE:0000067	272-279
+m2	CHEBI:34827	77-79
+m2	CHEBI:34827	108-110
+m2	CHEBI:34827	199-201
+m2	CHEBI:34827	260-262
+m2	CHEBI:34827	431-433
+taxotere	CHEBI:46058	414-422
+Adriamycin/Cytoxan: Adriamycin/Cytoxan	Results	26
+Overall Number of Participants Analyzed: 84	Results	27
+Measure Type: Number	Results	28
+Unit of Measure: participants  1: 9	Results	29
+2: 1	Results	30
+3A: 15	Results	31
+3B: 18	Results	32
+3C: 15	Results	33
+3D: 8	Results	34
+4: 0	Results	35
+N/A: 18	Results	36
+Adverse Events 1:	Adverse Events	0
+Total: 12/83 (14.46%)	Adverse Events	1
+NEUTROPENIA *8/83 (9.64%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+ABDOMINAL PAIN *0/83 (0.00%)	Adverse Events	3
+abdominal pain	HP:0002027	0-14
+GASTRITIS *0/83 (0.00%)	Adverse Events	4
+gastritis	HP:0005263,DOID:4029	0-9
+FEVER *2/83 (2.41%)	Adverse Events	5
+fever	HP:0001945	0-5
+ALLERGIC/REACTION *1/83 (1.20%)	Adverse Events	6
+INFECTION *4/83 (4.82%)	Adverse Events	7
+RENAL FAILURE *0/83 (0.00%)	Adverse Events	8
+Adverse Events 2:	Adverse Events	9
+Total: 5/84 (5.95%)	Adverse Events	10
+NEUTROPENIA *3/84 (3.57%)	Adverse Events	11
+neutropenia	HP:0001875,DOID:1227	0-11
+ABDOMINAL PAIN *1/84 (1.19%)	Adverse Events	12
+abdominal pain	HP:0002027	0-14
+GASTRITIS *1/84 (1.19%)	Adverse Events	13
+gastritis	HP:0005263,DOID:4029	0-9
+FEVER *1/84 (1.19%)	Adverse Events	14
+fever	HP:0001945	0-5
+ALLERGIC/REACTION *0/84 (0.00%)	Adverse Events	15
+INFECTION *1/84 (1.19%)	Adverse Events	16
+RENAL FAILURE *1/84 (1.19%)	Adverse Events	17

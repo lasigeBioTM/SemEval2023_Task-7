@@ -1,0 +1,102 @@
+INTERVENTION 1:	Intervention	0
+SUNITINIB+CAPECITABINE	Intervention	1
+Sunitinib was administered orally from Day 1 at the starting dose of 37.5 mg/day on a continuous daily dosing schedule in 21-day cycles. Capecitabine was administered orally from Days 1 to 14 every 21 days at a starting dose of 2,000 mg/m^2/day. Participants were monitored for toxicity, and sunitinib and/or capecitabine dosing could be interrupted or reduced according to individual tolerance. Participants with progressive disease (PD) or intolerable toxicity were considered for discontinuation from the study.	Intervention	2
+sunitinib	CHEBI:38940	0-9
+sunitinib	CHEBI:38940	292-301
+day	UO:0000033	39-42
+day	UO:0000033	77-80
+day	UO:0000033	125-128
+day	UO:0000033	179-182
+day	UO:0000033	201-204
+day	UO:0000033	241-244
+capecitabine	CHEBI:31348	137-149
+capecitabine	CHEBI:31348	309-321
+progressive	HP:0003676	414-425
+disease	DOID:4,OGMS:0000031	426-433
+Inclusion Criteria:	Eligibility	0
+Histologically- or cytologically-proven diagnosis of breast adenocarcinoma that is not amenable to surgery, radiation, or combined modality therapy with curative intent	Eligibility	1
+breast adenocarcinoma	DOID:3458	53-74
+surgery	OAE:0000067	99-106
+Measurable disease as per RECIST. Measurable lesions that have been previously irradiated will not be considered target lesions unless increase in size has been observed following completion of radiation therapy.	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+target	BAO:0003064	113-119
+increase	BAO:0001251	135-143
+size	PATO:0000117	147-151
+Prior treatment with an anthracycline and a taxane in the neoadjuvant, adjuvant or metastatic disease settings.	Eligibility	3
+anthracycline	CHEBI:48120	24-37
+taxane	CHEBI:36064	44-50
+adjuvant	CHEBI:60809	61-69
+adjuvant	CHEBI:60809	71-79
+disease	DOID:4,OGMS:0000031	94-101
+Exclusion Criteria:	Eligibility	4
+Histology of inflammatory carcinoma with no other measurable disease. Patients with histology of inflammatory carcinoma are allowed on study if they have measurable disease.	Eligibility	5
+histology	NCIT:C16681	0-9
+histology	NCIT:C16681	84-93
+carcinoma	HP:0030731,DOID:305	26-35
+carcinoma	HP:0030731,DOID:305	110-119
+disease	DOID:4,OGMS:0000031	61-68
+disease	DOID:4,OGMS:0000031	165-172
+Brain metastases, spinal cord compression, or carcinomatous meningitis, or leptomeningeal disease.	Eligibility	6
+brain	UBERON:0000955	0-5
+spinal cord compression	HP:0002176	18-41
+meningitis	HP:0001287,DOID:9471	60-70
+disease	DOID:4,OGMS:0000031	90-97
+Prior treatment with 5-fluorouracil (5-FU) and 5-FU derivatives such as Furtulon (5'-DFUR), Futraful/ Sunfural (tegafur), UFT/UFT-E (tegafur/uracil), TS-1 (tegafur/gimeracil/oteracil) or Mifurol (carmofur) in metastatic disease setting	Eligibility	7
+5-fluorouracil	CHEBI:46345	21-35
+tegafur	CHEBI:32188	112-119
+tegafur	CHEBI:32188	133-140
+tegafur	CHEBI:32188	156-163
+carmofur	CHEBI:31360	196-204
+disease	DOID:4,OGMS:0000031	220-227
+Outcome Measurement:	Results	0
+Number of Participants With Objective Response Based on Data Review Committee's Assessment	Results	1
+Number of participants with objective response based on assessment of confirmed complete response (CR) or confirmed partial response (PR) according to Response Evaluation Criteria in Solid Tumors version 1.0 (RECIST). CR is defined as disappearance of all target and non-target lesions. PR is defined as 30% decrease in sum of the longest dimensions (LDs) of the target lesions taking as reference the baseline sum LD according to RECIST. Confirmed responses are those that persist on repeat evaluation 4 weeks after initial documentation of response.	Results	2
+target	BAO:0003064	256-262
+target	BAO:0003064	271-277
+target	BAO:0003064	363-369
+Time frame: Day 1 of Cycle 2, every 6 weeks after Cycle 2, and at the end of Cycle 8.	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	12-15
+Results 1:	Results	4
+Arm/Group Title: SUNITINIB+CAPECITABINE	Results	5
+Arm/Group Description: Sunitinib was administered orally from Day 1 at the starting dose of 37.5 mg/day on a continuous daily dosing schedule in 21-day cycles. Capecitabine was administered orally from Days 1 to 14 every 21 days at a starting dose of 2,000 mg/m^2/day. Participants were monitored for toxicity, and sunitinib and/or capecitabine dosing could be interrupted or reduced according to individual tolerance. Participants with progressive disease (PD) or intolerable toxicity were considered for discontinuation from the study.	Results	6
+sunitinib	CHEBI:38940	23-32
+sunitinib	CHEBI:38940	315-324
+day	UO:0000033	62-65
+day	UO:0000033	100-103
+day	UO:0000033	148-151
+day	UO:0000033	202-205
+day	UO:0000033	224-227
+day	UO:0000033	264-267
+capecitabine	CHEBI:31348	160-172
+capecitabine	CHEBI:31348	332-344
+progressive	HP:0003676	437-448
+disease	DOID:4,OGMS:0000031	449-456
+Overall Number of Participants Analyzed: 63	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  Total Number of Participants with CR+PR: 19	Results	9
+Complete Response (CR): 0	Results	10
+Partial Response (PR): 19	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 17/63 (26.98%)	Adverse Events	1
+Febrile neutropenia 1/63 (1.59%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Leukopenia 1/63 (1.59%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+Thrombocytopenia 3/63 (4.76%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anemia 1/63 (1.59%)	Adverse Events	5
+anemia	HP:0001903,DOID:2355	0-6
+Ascites 1/63 (1.59%)	Adverse Events	6
+ascites	HP:0001541	0-7
+Diarrhoea 1/63 (1.59%)	Adverse Events	7
+Gingival bleeding 1/63 (1.59%)	Adverse Events	8
+gingival bleeding	HP:0000225	0-17
+Vomiting 1/63 (1.59%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Gastrointestinal haemorrhage 1/63 (1.59%)	Adverse Events	10
+Fatigue 2/63 (3.17%)	Adverse Events	11
+fatigue	HP:0012378	0-7
+Malaise 2/63 (3.17%)	Adverse Events	12
+malaise	HP:0033834	0-7
+Pyrexia 2/63 (3.17%)	Adverse Events	13

@@ -1,0 +1,73 @@
+INTERVENTION 1:	Intervention	0
+Radiotherapy/Supportive Care (A)	Intervention	1
+Patients receive radiotherapy and healing touch therapy from a healing-touch therapist once a week for the duration of their radiotherapy	Intervention	2
+radiotherapy	OAE:0000235	17-29
+radiotherapy	OAE:0000235	125-137
+week	UO:0000034	94-98
+duration	PATO:0001309	107-115
+INTERVENTION 2:	Intervention	3
+Control ARM (B)	Intervention	4
+Patients receive radiotherapy and sham healing touch therapy from a sham healing-touch therapist once a week for the duration of their radiotherapy	Intervention	5
+radiotherapy	OAE:0000235	17-29
+radiotherapy	OAE:0000235	135-147
+week	UO:0000034	104-108
+duration	PATO:0001309	117-125
+Inclusion Criteria:	Eligibility	0
+Histologically proven breast cancer	Eligibility	1
+breast cancer	DOID:1612	22-35
+Receiving post lumpectomy or post mastectomy radiation therapy (RT)	Eligibility	2
+Eastern Cooperative Oncology Group performance status of 0, 1 or 2	Eligibility	3
+group	CHEBI:24433	29-34
+Prescribed a minimum of 5 weeks of RT	Eligibility	4
+Between the ages of 21 and 75	Eligibility	5
+Able to speak English.	Eligibility	6
+Provides written informed consent	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Documented active psychiatric illness	Eligibility	9
+active	PATO:0002354	11-17
+Documented cognitive impairment that would preclude the ability to provide informed consent.	Eligibility	10
+cognitive impairment	HP:0100543	11-31
+Stage IV breast cancer	Eligibility	11
+breast cancer	DOID:1612	9-22
+Receiving concurrent chemotherapy and RT	Eligibility	12
+Outcome Measurement:	Results	0
+Fatigue Using the Brief Fatigue Inventory (BFI)	Results	1
+fatigue	HP:0012378	0-7
+fatigue	HP:0012378	24-31
+9-items with an 11-point rating scale measures intensity of fatigue (3 items, 0 = no fatigue to 10 = fatigue as bad as you can imagine) and interference of fatigue on daily life (6 items, 0 = does not interfere to 10 = completely interferes. Each participant's score is summed with a possible minimum score of 0 and a possible maximum score of 90. A mean score was then determined.	Results	2
+intensity	PATO:0000049	47-56
+fatigue	HP:0012378	60-67
+fatigue	HP:0012378	85-92
+fatigue	HP:0012378	101-108
+fatigue	HP:0012378	156-163
+mean	BAO:0002173	350-354
+Time frame: 6 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Radiotherapy/Supportive Care (A)	Results	5
+Arm/Group Description: Patients receive radiotherapy and healing touch therapy from a healing-touch therapist once a week for the duration of their radiotherapy	Results	6
+radiotherapy	OAE:0000235	40-52
+radiotherapy	OAE:0000235	148-160
+week	UO:0000034	117-121
+duration	PATO:0001309	130-138
+Overall Number of Participants Analyzed: 20	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  2.786         (0.1963)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Control ARM (B)	Results	11
+Arm/Group Description: Patients receive radiotherapy and sham healing touch therapy from a sham healing-touch therapist once a week for the duration of their radiotherapy	Results	12
+radiotherapy	OAE:0000235	40-52
+radiotherapy	OAE:0000235	158-170
+week	UO:0000034	127-131
+duration	PATO:0001309	140-148
+Overall Number of Participants Analyzed: 21	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  1.356         (0.1413)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/22 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/22 (0.00%)	Adverse Events	3

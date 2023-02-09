@@ -1,0 +1,124 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Low-dose Omega-3 Fatty Acid)	Intervention	1
+omega-3 fatty acid	CHEBI:25681	16-34
+Patients receive low-dose omega-3 fatty acid supplementation PO BID and placebo PO BID for 6 weeks.	Intervention	2
+omega-3 fatty acid	CHEBI:25681	26-44
+Omega-3 Fatty Acid: Given PO	Intervention	3
+omega-3 fatty acid	CHEBI:25681	0-18
+Placebo: Given PO	Intervention	4
+Questionnaire Administration: Ancillary studies	Intervention	5
+Laboratory Biomarker Analysis: Correlative studies	Intervention	6
+biomarker	CHEBI:59163	11-20
+INTERVENTION 2:	Intervention	7
+Arm II (High-dose Omega-3 Fatty Acid)	Intervention	8
+omega-3 fatty acid	CHEBI:25681	18-36
+Patients receive high-dose omega-3 fatty acid supplementation PO BID for 6 weeks.	Intervention	9
+omega-3 fatty acid	CHEBI:25681	27-45
+Omega-3 Fatty Acid: Given PO	Intervention	10
+omega-3 fatty acid	CHEBI:25681	0-18
+Questionnaire Administration: Ancillary studies	Intervention	11
+Laboratory Biomarker Analysis: Correlative studies	Intervention	12
+biomarker	CHEBI:59163	11-20
+Inclusion Criteria:	Eligibility	0
+Have a confirmed diagnosis of breast cancer; participants can have had more than one primary cancer diagnosis in the past	Eligibility	1
+breast cancer	DOID:1612	30-43
+cancer	DOID:162	37-43
+cancer	DOID:162	93-99
+Have undergone some type or combination of standard adjuvant treatment (surgery, chemotherapy, radiation therapy) for breast cancer	Eligibility	2
+adjuvant	CHEBI:60809	52-60
+surgery	OAE:0000067	72-79
+breast cancer	DOID:1612	118-131
+Have completed all forms of standard adjuvant treatment (surgery, chemotherapy, radiation therapy) for breast cancer between 4 and 36 months prior to enrollment in the study; participants can be currently taking hormones (such as tamoxifen) or monoclonal antibodies (such as Herceptin)	Eligibility	3
+adjuvant	CHEBI:60809	37-45
+surgery	OAE:0000067	57-64
+breast cancer	DOID:1612	103-116
+tamoxifen	CHEBI:41774	230-239
+monoclonal	BAO:0000503	244-254
+Must have cancer-related fatigue, as indicated by a response of 4 or greater when asked to rate their level of fatigue at its worst in the past week on an 11-point scale anchored by "0" = no fatigue and "10" = as bad as you can imagine	Eligibility	4
+fatigue	HP:0012378	25-32
+fatigue	HP:0012378	111-118
+fatigue	HP:0012378	191-198
+rate	BAO:0080019	91-95
+week	UO:0000034	144-148
+Be able to read English	Eligibility	5
+Able to swallow medication	Eligibility	6
+Give written informed consent	Eligibility	7
+Exclusion Criteria:	Eligibility	8
+Have used marine omega-3 supplements at any time within previous 3 months (this includes prescription omega-3 drugs such as Lovaza®)	Eligibility	9
+time	PATO:0000165	44-48
+Be taking anticoagulant medication (does not include aspirin)	Eligibility	10
+anticoagulant	CHEBI:50249	10-23
+Have sensitivity or allergy to fish and/or shellfish	Eligibility	11
+allergy	HP:0012393	20-27
+Have sensitivity or allergy to soy and/or soybeans	Eligibility	12
+allergy	HP:0012393	20-27
+Have confirmed diagnosis of chronic fatigue syndrome or other diagnosis known to cause severe fatigue	Eligibility	13
+chronic fatigue syndrome	DOID:8544	28-52
+severe	HP:0012828	87-93
+fatigue	HP:0012378	36-43
+fatigue	HP:0012378	94-101
+Outcome Measurement:	Results	0
+Mean Change (6 Weeks - Baseline) and Standard Deviation in Cancer-related Fatigue, Using the Brief Fatigue Inventory-Short Form (BFI-SF) and Multidimensional Fatigue Symptom Inventory-Short Form (MFSI-SF). 81 Subjects Had Both a Baseline and 6 Week Value	Results	1
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	37-55
+fatigue	HP:0012378	74-81
+fatigue	HP:0012378	99-106
+fatigue	HP:0012378	158-165
+symptom	OGMS:0000020	166-173
+week	UO:0000034	15-19
+week	UO:0000034	244-248
+BFI-SF is a 4 item questionnaire to assess the severity of fatigue, ranging from 0 (No Fatigue) to 10 (As bad as you can imagine).	Results	2
+severity	HP:0012824	47-55
+fatigue	HP:0012378	59-66
+fatigue	HP:0012378	87-94
+MFSI-SF is a 30 item questionnaire to assess the level of fatigue in terms of general fatigue, physical fatigue, emotional fatigue, mental fatigue, and vigor). First four subscales (general, physical, emotional, and mental) are summed and the vigor scale is subtracted to create fatigue total score with a range of -32 (low fatigue) to 96 (high fatigue).	Results	3
+fatigue	HP:0012378	58-65
+fatigue	HP:0012378	86-93
+fatigue	HP:0012378	104-111
+fatigue	HP:0012378	123-130
+fatigue	HP:0012378	139-146
+fatigue	HP:0012378	279-286
+fatigue	HP:0012378	324-331
+fatigue	HP:0012378	345-352
+range	LABO:0000114	306-311
+Time frame: Baseline to 6 weeks	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Arm I (Low-dose Omega-3 Fatty Acid)	Results	6
+omega-3 fatty acid	CHEBI:25681	33-51
+Arm/Group Description: Patients receive low-dose omega-3 fatty acid supplementation PO BID and placebo PO BID for 6 weeks.	Results	7
+omega-3 fatty acid	CHEBI:25681	49-67
+Omega-3 Fatty Acid: Given PO	Results	8
+omega-3 fatty acid	CHEBI:25681	0-18
+Placebo: Given PO	Results	9
+Questionnaire Administration: Ancillary studies	Results	10
+Laboratory Biomarker Analysis: Correlative studies	Results	11
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 24	Results	12
+Least Squares Mean (95% Confidence Interval)	Results	13
+mean	BAO:0002173	14-18
+Unit of Measure: units on a scale  BFI-SF Mean Post - Pre: -3.66        (-4.37 to -2.96)	Results	14
+mean	BAO:0002173	42-46
+MFSI-SF Mean Post - Pre: -11.03        (-16.55 to -5.50)	Results	15
+mean	BAO:0002173	8-12
+Results 2:	Results	16
+Arm/Group Title: Arm II (High-dose Omega-3 Fatty Acid)	Results	17
+omega-3 fatty acid	CHEBI:25681	35-53
+Arm/Group Description: Patients receive high-dose omega-3 fatty acid supplementation PO BID for 6 weeks.	Results	18
+omega-3 fatty acid	CHEBI:25681	50-68
+Omega-3 Fatty Acid: Given PO	Results	19
+omega-3 fatty acid	CHEBI:25681	0-18
+Questionnaire Administration: Ancillary studies	Results	20
+Laboratory Biomarker Analysis: Correlative studies	Results	21
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 30	Results	22
+Least Squares Mean (95% Confidence Interval)	Results	23
+mean	BAO:0002173	14-18
+Unit of Measure: units on a scale  BFI-SF Mean Post - Pre: -3.68        (-4.31 to -3.05)	Results	24
+mean	BAO:0002173	42-46
+MFSI-SF Mean Post - Pre: -13.93        (-18.82 to -9.05)	Results	25
+mean	BAO:0002173	8-12
+Adverse Events 1:	Adverse Events	0
+Total: 0/29 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

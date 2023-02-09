@@ -1,0 +1,165 @@
+INTERVENTION 1:	Intervention	0
+ABP 980	Intervention	1
+Participants received ABP 980 at an initial dose of 8 mg/kg over a 90-minute intravenous (IV) infusion, then 6 mg/kg IV infusion every 3 weeks (Q3W) for 3 additional cycles plus 175 mg/m² paclitaxel Q3W for 4 cycles.	Intervention	2
+paclitaxel	CHEBI:45863	188-198
+INTERVENTION 2:	Intervention	3
+Trastuzumab	Intervention	4
+Participants received trastuzumab at an initial dose of 8 mg/kg over a 90-minute IV infusion, then 6 mg/kg IV infusion Q3W for 3 additional cycles plus 175 mg/m² paclitaxel Q3W for 4 cycles.	Intervention	5
+paclitaxel	CHEBI:45863	162-172
+Inclusion Criteria:	Eligibility	0
+Females  18 years of age	Eligibility	1
+age	PATO:0000011	21-24
+Histologically confirmed invasive breast cancer	Eligibility	2
+breast cancer	DOID:1612	34-47
+Planning for surgical resection of breast tumor and sentinel node or axillary lymph node resection	Eligibility	3
+breast	UBERON:0000310	35-41
+lymph	UBERON:0002391	78-83
+Planning neoadjuvant chemotherapy	Eligibility	4
+HER2 positive disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	14-21
+Measurable disease in the breast after diagnostic biopsy, defined as longest diameter  2.0 cm	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+breast	UBERON:0000310	26-32
+diameter	PATO:0001334	77-85
+Known estrogen receptor (ER) and progesterone receptor (PR) hormone receptor status at study entry	Eligibility	7
+estrogen	CHEBI:50114,BAO:0000760	6-14
+receptor	BAO:0000281	15-23
+receptor	BAO:0000281	46-54
+receptor	BAO:0000281	68-76
+progesterone	CHEBI:17026	33-45
+hormone	CHEBI:24621	60-67
+Normal bone marrow function	Eligibility	8
+bone marrow	UBERON:0002371	7-18
+function	BAO:0003117,BFO:0000034	19-27
+Normal hepatic function	Eligibility	9
+function	BAO:0003117,BFO:0000034	15-23
+Normal renal function	Eligibility	10
+function	BAO:0003117,BFO:0000034	13-21
+Subjects must sign an Institutional Review Board/Ethics Committee (IRB/EC)-approved informed consent form before any study specific procedures	Eligibility	11
+Inclusion Criteria for Randomization:	Eligibility	12
+Left ventricular ejection fraction (LVEF) of 55% by 2D echocardiogram	Eligibility	13
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Complete all 4 cycles of run-in chemotherapy	Eligibility	14
+Exclusion Criteria:	Eligibility	15
+Bilateral breast cancer	Eligibility	16
+bilateral breast cancer	DOID:6741	0-23
+Presence of known metastases	Eligibility	17
+Received prior treatment, including chemotherapy, biologic therapy, radiation or surgery with the exception of diagnostic biopsy for primary breast cancer	Eligibility	18
+surgery	OAE:0000067	81-88
+breast cancer	DOID:1612	141-154
+Other concomitant active malignancy or history of malignancy in the past 5 years except treated basal cell carcinoma of the skin or carcinoma in situ of the cervix	Eligibility	19
+active	PATO:0002354	18-24
+history	BFO:0000182	39-46
+basal cell carcinoma	HP:0002671,DOID:2513	96-116
+carcinoma	HP:0030731,DOID:305	107-116
+carcinoma	HP:0030731,DOID:305	132-141
+Pre-existing clinically significant ( grade 2) peripheral neuropathy	Eligibility	20
+peripheral neuropathy	HP:0009830,DOID:870	47-68
+Any history of documented or current congestive heart failure, current high-risk uncontrolled arrhythmias, current angina pectoris requiring a medicinal product, current clinically significant valvular disease, current evidence of transmural infarction on electrocardiogram (ECG), or current poorly controlled hypertension	Eligibility	21
+history	BFO:0000182	4-11
+congestive heart failure	HP:0001635,DOID:6000	37-61
+angina pectoris	HP:0001681	115-130
+product	BAO:0003067	153-160
+disease	DOID:4,OGMS:0000031	202-209
+hypertension	HP:0000822,DOID:10763	310-322
+Severe dyspnea at rest requiring supplementary oxygen therapy	Eligibility	22
+severe	HP:0012828	0-6
+dyspnea	HP:0002094	7-14
+History of positivity for hepatitis B surface antigen, hepatitis C virus, or human immunodeficiency virus (HIV)	Eligibility	23
+history	BFO:0000182	0-7
+hepatitis b	DOID:2043	26-37
+antigen	CHEBI:59132	46-53
+hepatitis c	DOID:1883	55-66
+virus	BAO:0000232	67-72
+virus	BAO:0000232	100-105
+immunodeficiency	HP:0002721	83-99
+Recent infection requiring a course of systemic anti-infectives that were completed  14 days before enrollment (with the exception of uncomplicated urinary tract infection)	Eligibility	24
+urinary tract infection	DOID:0080784	148-171
+Woman of childbearing potential who is pregnant or is breast feeding	Eligibility	25
+breast	UBERON:0000310	54-60
+Woman of childbearing potential who is not consenting to use highly effective methods of birth control (eg, true abstinence [periodic abstinence (eg calendar ovulation, symptothermal, post-ovulation methods) and withdrawal are not acceptable methods of contraception], sterilization, or other non-hormonal forms of contraception) during treatment and for at least 7 months after the last administration of the protocol specified treatment	Eligibility	26
+periodic	HP:0025304	125-133
+ovulation	GO:0030728	158-167
+ovulation	GO:0030728	189-198
+Currently receiving treatment in another investigational device or drug study, or less than 30 days since ending treatment on another investigational device or drug study	Eligibility	27
+drug	CHEBI:23888	67-71
+drug	CHEBI:23888	160-164
+Other investigational procedures while participating in this study are excluded	Eligibility	28
+excluded	HP:0040285	71-79
+Subject has known sensitivity to any of the products to be administered during the study, including mammalian cell derived drug products, trastuzumab, murine proteins, or to any of the excipients	Eligibility	29
+mammalian	BAO:0000362	100-109
+drug	CHEBI:23888	123-127
+Subject previously has enrolled and/or has been randomized in this study	Eligibility	30
+Subject likely to not be available to complete all protocol required study visits or procedures	Eligibility	31
+History or evidence of any other clinically significant disorder, condition or disease (with the exception of those outlined above) that, in the opinion of the Investigator or Amgen physician, if consulted, would pose a risk to subject safety or interfere with the study evaluation, procedures or completion	Eligibility	32
+history	BFO:0000182	0-7
+disorder	OGMS:0000045	56-64
+condition	PDRO:0000129	66-75
+disease	DOID:4,OGMS:0000031	79-86
+Outcome Measurement:	Results	0
+Percentage of Participants With a Pathologic Complete Response	Results	1
+Pathologic complete response (pCR) was defined as the absence of invasive tumor cells in the breast tissue and in axillary lymph nodes, regardless of residual ductal carcinoma in situ (DCIS).	Results	2
+breast	UBERON:0000310	93-99
+tissue	UBERON:0000479	100-106
+lymph	UBERON:0002391	123-128
+ductal carcinoma in situ	HP:0030075,DOID:0060074	159-183
+Participants underwent a lumpectomy or mastectomy with sentinel lymph node dissection (SLND) or axillary lymph node dissection (ALND) within 3 to 7 weeks after the last dose of study drug in the neoadjuvant phase. The pathology evaluation of surgical specimens for pCR analysis was conducted by local laboratories at the study sites.	Results	3
+lymph	UBERON:0002391	64-69
+lymph	UBERON:0002391	105-110
+drug	CHEBI:23888	183-187
+Time frame: 3 to 7 weeks after the last dose of study drug in the neoadjuvant phase	Results	4
+time	PATO:0000165	0-4
+drug	CHEBI:23888	54-58
+Results 1:	Results	5
+Arm/Group Title: ABP 980	Results	6
+Arm/Group Description: Participants received ABP 980 at an initial dose of 8 mg/kg over a 90-minute intravenous (IV) infusion, then 6 mg/kg IV infusion every 3 weeks (Q3W) for 3 additional cycles plus 175 mg/m  paclitaxel Q3W for 4 cycles.	Results	7
+paclitaxel	CHEBI:45863	211-221
+Overall Number of Participants Analyzed: 358	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: percentage of participants  48.0	Results	10
+Results 2:	Results	11
+Arm/Group Title: Trastuzumab	Results	12
+Arm/Group Description: Participants received trastuzumab at an initial dose of 8 mg/kg over a 90-minute IV infusion, then 6 mg/kg IV infusion Q3W for 3 additional cycles plus 175 mg/m  paclitaxel Q3W for 4 cycles.	Results	13
+paclitaxel	CHEBI:45863	185-195
+Overall Number of Participants Analyzed: 338	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: percentage of participants  40.5	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 18/364 (4.95%)	Adverse Events	1
+Febrile neutropenia 3/364 (0.82%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation 1/364 (0.27%)	Adverse Events	3
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardio-respiratory arrest 1/364 (0.27%)	Adverse Events	4
+Sinus bradycardia 1/364 (0.27%)	Adverse Events	5
+sinus bradycardia	HP:0001688	0-17
+Ventricular extrasystoles 0/364 (0.00%)	Adverse Events	6
+Enterocolitis 0/364 (0.00%)	Adverse Events	7
+enterocolitis	HP:0004387	0-13
+Faecaloma 0/364 (0.00%)	Adverse Events	8
+Gastric ulcer perforation 0/364 (0.00%)	Adverse Events	9
+gastric ulcer	HP:0002592,DOID:10808	0-13
+Gastrointestinal toxicity 0/364 (0.00%)	Adverse Events	10
+Pancreatitis acute 0/364 (0.00%)	Adverse Events	11
+pancreatitis	HP:0001733,DOID:4989	0-12
+acute	HP:0011009,PATO:0000389	13-18
+Adverse Events 2:	Adverse Events	12
+Total: 5/361 (1.39%)	Adverse Events	13
+Febrile neutropenia 0/361 (0.00%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation 0/361 (0.00%)	Adverse Events	15
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardio-respiratory arrest 0/361 (0.00%)	Adverse Events	16
+Sinus bradycardia 0/361 (0.00%)	Adverse Events	17
+sinus bradycardia	HP:0001688	0-17
+Ventricular extrasystoles 0/361 (0.00%)	Adverse Events	18
+Enterocolitis 0/361 (0.00%)	Adverse Events	19
+enterocolitis	HP:0004387	0-13
+Faecaloma 0/361 (0.00%)	Adverse Events	20
+Gastric ulcer perforation 0/361 (0.00%)	Adverse Events	21
+gastric ulcer	HP:0002592,DOID:10808	0-13
+Gastrointestinal toxicity 1/361 (0.28%)	Adverse Events	22
+Pancreatitis acute 0/361 (0.00%)	Adverse Events	23
+pancreatitis	HP:0001733,DOID:4989	0-12
+acute	HP:0011009,PATO:0000389	13-18

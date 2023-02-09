@@ -1,0 +1,167 @@
+INTERVENTION 1:	Intervention	0
+Patients With Ovarian Cancer	Intervention	1
+ovarian cancer	DOID:2394	14-28
+Participants with ovarian cancer who received all 24 doses of 852A.	Intervention	2
+ovarian cancer	DOID:2394	18-32
+Inclusion Criteria:	Eligibility	0
+Adequate performance status:	Eligibility	1
+Breast - Karnofsky score > 50;	Eligibility	2
+breast	UBERON:0000310	0-6
+Ovarian, endometrial or cervical - Gynecologic Oncology Group (GOG) performance score 2	Eligibility	3
+group	CHEBI:24433	56-61
+If female and of childbearing potential, are willing to use adequate contraception (hormonal, barrier method, abstinence) prior to study entry and for the duration of study participation.	Eligibility	4
+female	PATO:0000383	3-9
+duration	PATO:0001309	155-163
+Normal organ function within 14 days of study entry	Eligibility	5
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	13-21
+Diagnosis of one of the following malignancies:	Eligibility	6
+Metastatic breast cancer (BR)	Eligibility	7
+breast cancer	DOID:1612	11-24
+Metastatic ovarian cancer (OV)	Eligibility	8
+ovarian cancer	DOID:2394	11-25
+Metastatic endometrial cancer (EM)	Eligibility	9
+endometrial cancer	DOID:1380	11-29
+Metastatic cervical cancer (CX)	Eligibility	10
+cervical cancer	DOID:4362	11-26
+Breast Cancer Inclusion Criteria:	Eligibility	11
+breast cancer	DOID:1612	0-13
+Measurable metastatic disease (>1cm) in at least one site other than bone-only	Eligibility	12
+disease	DOID:4,OGMS:0000031	22-29
+site	BFO:0000029	53-57
+Progression on or failure to respond to at least one previous chemotherapy regimen for metastatic disease	Eligibility	13
+disease	DOID:4,OGMS:0000031	98-105
+Progression on prior therapy with a hormonal agent if estrogen receptor or progesterone receptor positive, and/or with trastuzumab if HER2-neu positive. If patient has progressed through hormone or trastuzumab therapy only, must have received one chemotherapy regimen.	Eligibility	14
+estrogen	CHEBI:50114,BAO:0000760	54-62
+receptor	BAO:0000281	63-71
+receptor	BAO:0000281	88-96
+progesterone	CHEBI:17026	75-87
+patient	HADO:0000008,OAE:0001817	156-163
+hormone	CHEBI:24621	187-194
+Ovarian Cancer Inclusion Criteria:	Eligibility	15
+ovarian cancer	DOID:2394	0-14
+Measurable metastatic disease as defined by Response Evaluation Criteria in Solid Tumors (RECIST)	Eligibility	16
+disease	DOID:4,OGMS:0000031	22-29
+Primary tumor must have been diagnosed histologically as either epithelial ovarian cancer, fallopian tube cancer, or primary peritoneal cancer (not borderline or low malignant potential epithelial carcinoma).	Eligibility	17
+ovarian cancer	DOID:2394	75-89
+fallopian tube cancer	DOID:1964	91-112
+cancer	DOID:162	83-89
+cancer	DOID:162	106-112
+cancer	DOID:162	136-142
+borderline	HP:0012827	148-158
+carcinoma	HP:0030731,DOID:305	197-206
+Subjects must have failed at least two previous chemotherapy regimens. Paclitaxel must have been a component of one or both regimens and cisplatin or carboplatin must have been a component of one or both regimens.	Eligibility	18
+paclitaxel	CHEBI:45863	71-81
+cisplatin	CHEBI:27899	137-146
+carboplatin	CHEBI:31355	150-161
+Endometrial Cancer Inclusion Criteria:	Eligibility	19
+endometrial cancer	DOID:1380	0-18
+Measurable metastatic disease	Eligibility	20
+disease	DOID:4,OGMS:0000031	22-29
+Histologically proven recurrent or persistent endometrial cancer that is not amenable to curative treatment with surgery and/or radiation therapy AND has failed 2 previous treatment regimens	Eligibility	21
+recurrent	HP:0031796	22-31
+endometrial cancer	DOID:1380	46-64
+surgery	OAE:0000067	113-120
+Cervical Cancer Inclusion Criteria:	Eligibility	22
+cervical cancer	DOID:4362	0-15
+Measurable metastatic disease	Eligibility	23
+disease	DOID:4,OGMS:0000031	22-29
+Histologically proven recurrent or persistent squamous cell carcinoma, adenosquamous carcinoma, or adenocarcinoma of the cervix that is not amenable to curative treatment with surgery and/or radiation therapy AND has failed 2 previous treatment regimens.	Eligibility	24
+recurrent	HP:0031796	22-31
+squamous cell carcinoma	HP:0002860,DOID:1749	46-69
+adenosquamous carcinoma	DOID:4830	71-94
+adenocarcinoma	DOID:299	99-113
+surgery	OAE:0000067	176-183
+Exclusion Criteria:	Eligibility	25
+Had/have the following prior/concurrent therapy:	Eligibility	26
+Systemic corticosteroids (oral or injectable) within 7 days of first dose of 852A (topical or inhaled steroids are allowed)	Eligibility	27
+Investigational drugs/agents within 14 days of first dose of 852A	Eligibility	28
+Immunosuppressive therapy, including cytotoxic agents within 14 days of first dose of 852A (nitrosoureas within 30 days of first dose)	Eligibility	29
+Drugs known to induce QT interval prolongation and/or induce Torsades de pointes unless best available drug required to treat life-threatening conditions	Eligibility	30
+qt interval	CMO:0000235	22-33
+drug	CHEBI:23888	0-4
+drug	CHEBI:23888	103-107
+Radiotherapy within 3 weeks of the first dose of 852A	Eligibility	31
+radiotherapy	OAE:0000235	0-12
+Hematopoietic cell transplantation within 4 weeks of first dose of 852A	Eligibility	32
+Evidence of active infection within 3 days of first dose of 852A	Eligibility	33
+active	PATO:0002354	12-18
+Active fungal infection or pulmonary infiltrates (prior treated disease stable for 2 weeks is allowable)	Eligibility	34
+active	PATO:0002354	0-6
+pulmonary infiltrates	HP:0002113	27-48
+disease	DOID:4,OGMS:0000031	64-71
+stable	HP:0031915	72-78
+Cardiac ischemia, cardiac arrhythmias or congestive heart failure uncontrolled by medication	Eligibility	35
+ischemia	DOID:326	8-16
+congestive heart failure	HP:0001635,DOID:6000	41-65
+History of, or clinical evidence of, a condition which, in the opinion of the investigator, could confound the results of the study or put the subject at undue risk	Eligibility	36
+history	BFO:0000182	0-7
+condition	PDRO:0000129	39-48
+Uncontrolled intercurrent or chronic illness	Eligibility	37
+chronic	HP:0011010	29-36
+Active autoimmune disease requiring immunosuppressive therapy within 30 days	Eligibility	38
+active	PATO:0002354	0-6
+autoimmune disease	DOID:417	7-25
+Active coagulation disorder not controlled with medication	Eligibility	39
+active	PATO:0002354	0-6
+coagulation	GO:0050817	7-18
+disorder	OGMS:0000045	19-27
+Pregnant or lactating	Eligibility	40
+Concurrent malignancy (if in remission, at least 5 years disease free) except for localized (in-situ) disease, basal carcinomas and cutaneous squamous cell carcinomas that have been adequately treated	Eligibility	41
+disease	DOID:4,OGMS:0000031	57-64
+disease	DOID:4,OGMS:0000031	102-109
+localized	HP:0012838,PATO:0000627	82-91
+Any history of brain metastases or any other active central nervous system (CNS) disease	Eligibility	42
+history	BFO:0000182	4-11
+brain	UBERON:0000955	15-20
+active	PATO:0002354	45-51
+central nervous system	UBERON:0001017	52-74
+disease	DOID:4,OGMS:0000031	81-88
+Outcome Measurement:	Results	0
+Patients With Tumor Response (Response Evaluation Criteria in Solid Tumors) Who Received All 24 Doses of 852A.	Results	1
+Assessment of anti-tumor activity of 852A using Response Evaluation Criteria in Solid Tumors (RECIST) criteria to evaluate tumor response after 24 doses. Complete Response (CR)= disappearance of all target lesions, Partial Response (PR) = at least 30% decrease in sum of longest diameter of target lesions, Progressive Disease (PD) = at least 25% increase in sum of longest diameter of target lesions, Stable Disease = neither PR or PD.	Results	2
+target	BAO:0003064	199-205
+target	BAO:0003064	291-297
+target	BAO:0003064	386-392
+diameter	PATO:0001334	279-287
+diameter	PATO:0001334	374-382
+progressive	HP:0003676	307-318
+disease	DOID:4,OGMS:0000031	319-326
+disease	DOID:4,OGMS:0000031	409-416
+increase	BAO:0001251	347-355
+stable	HP:0031915	402-408
+Time frame: after 12 weeks (24 doses of 852A)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Patients With Ovarian Cancer	Results	5
+ovarian cancer	DOID:2394	31-45
+Arm/Group Description: Participants with ovarian cancer who received all 24 doses of 852A.	Results	6
+ovarian cancer	DOID:2394	41-55
+Overall Number of Participants Analyzed: 3	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  Complete Response: 0	Results	9
+Partial Response: 0	Results	10
+Stable Disease: 1	Results	11
+stable	HP:0031915	0-6
+disease	DOID:4,OGMS:0000031	7-14
+Progressive Disease: 2	Results	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+Adverse Events 1:	Adverse Events	0
+Total: 9/13 (69.23%)	Adverse Events	1
+Infection/Febrile Neutropenia  [1]3/13 (23.08%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	18-29
+Acute idiopathic cardiomyopathy  [1]1/13 (7.69%)	Adverse Events	3
+acute	HP:0011009,PATO:0000389	0-5
+cardiomyopathy	HP:0001638,DOID:0050700	17-31
+Cardiac left ventricular function  [2]1/13 (7.69%)	Adverse Events	4
+left	HP:0012835	8-12
+function	BAO:0003117,BFO:0000034	25-33
+Cardiac troponin levels increased  [3]1/13 (7.69%)	Adverse Events	5
+Abdominal pain  [1]1/13 (7.69%)	Adverse Events	6
+abdominal pain	HP:0002027	0-14
+Anorexia  [1]1/13 (7.69%)	Adverse Events	7
+anorexia	HP:0002039	0-8
+Dehydration  [1]3/13 (23.08%)	Adverse Events	8
+dehydration	HP:0001944	0-11
+Gastrointestinal symptoms  [1]1/13 (7.69%)	Adverse Events	9

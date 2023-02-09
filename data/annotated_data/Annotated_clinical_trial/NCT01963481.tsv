@@ -1,0 +1,123 @@
+INTERVENTION 1:	Intervention	0
+Exemestane and Cyclophosphamide	Intervention	1
+exemestane	CHEBI:4953	0-10
+cyclophosphamide	CHEBI:4026	15-31
+A treatment cycle is defined as 4 weeks:	Intervention	2
+One tablet (25 mg) of exemestane and one tablet (50 mg) of cyclophosphamide given daily by mouth until disease progression or unacceptable adverse events.	Intervention	3
+exemestane	CHEBI:4953	22-32
+cyclophosphamide	CHEBI:4026	59-75
+mouth	UBERON:0000165	91-96
+disease	DOID:4,OGMS:0000031	103-110
+Exemestane	Intervention	4
+exemestane	CHEBI:4953	0-10
+Cyclophosphamide	Intervention	5
+cyclophosphamide	CHEBI:4026	0-16
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically confirmed breast cancer that is ER positive and/or PR positive, and HER2/neu negative and have disease that is metastatic (stage IV)	Eligibility	1
+breast cancer	DOID:1612	44-57
+disease	DOID:4,OGMS:0000031	129-136
+HER2/neu negative disease determined using commercially available/approved assay in local institutional or reference laboratory, according to American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) guidelines (IHC 0-1+ or 2+ with HER2/17 ratio on FISH <= 1.8).	Eligibility	2
+disease	DOID:4,OGMS:0000031	18-25
+ratio	UO:0000190	266-271
+ER/PR expression performed by standard immunohistochemical assay and classified as ER and/or PR-positive according to ASCO/CAP guidelines (1-100% expression)	Eligibility	3
+Histologic and/or cytologic confirmation of metastatic disease is encouraged whenever feasible, furthermore, if feasible, the biopsy should confirm that the metastatic tumor is ER and/or PR positive and HER2/neu negative. For patients in whom histologic biopsy confirmation and/or assessment of ER/PR/HER2 of metastatic disease is not feasible, it is required that the primary tumor be ER and/or PR-positive and HER2/neu negative.	Eligibility	4
+disease	DOID:4,OGMS:0000031	55-62
+disease	DOID:4,OGMS:0000031	320-327
+Measurable disease (RECIST 1.1) or non-measurable (assessable) disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+disease	DOID:4,OGMS:0000031	63-70
+Patients must have had progressive disease during at least one line of endocrine therapy for metastatic disease or have recurrent disease while or within 12 months of receiving adjuvant endocrine therapy. Prior treatments accepted include a non-steroidal aromatase inhibitor, tamoxifen, fulvestrant or combinations.	Eligibility	6
+progressive	HP:0003676	23-34
+disease	DOID:4,OGMS:0000031	35-42
+disease	DOID:4,OGMS:0000031	104-111
+disease	DOID:4,OGMS:0000031	130-137
+recurrent	HP:0031796	120-129
+adjuvant	CHEBI:60809	177-185
+inhibitor	CHEBI:35222	265-274
+tamoxifen	CHEBI:41774	276-285
+fulvestrant	CHEBI:31638	287-298
+Patients taking bisphosphonates for bone disease are permitted to enter the trial, but their bone lesions are not considered to be assessable for response, although they are assessable for progression.	Eligibility	7
+bone disease	DOID:0080001	36-48
+Female or male subjects age >= 18 years.	Eligibility	8
+female	PATO:0000383	0-6
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	10-14
+age	PATO:0000011	24-27
+Eastern Cooperative Oncology Group (ECOG) performance status 0, 1, or 2.	Eligibility	9
+group	CHEBI:24433	29-34
+Patients must have normal organ and marrow function as defined below:	Eligibility	10
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+absolute neutrophil count >= 1,200/mcL	Eligibility	11
+platelets >= 100,000/mcL	Eligibility	12
+hemoglobin >= 9g/dl	Eligibility	13
+hemoglobin	CHEBI:35143	0-10
+total bilirubin <= 2 X upper limit of normal (ULN) [unless due to Gilbert's disease]	Eligibility	14
+x	LABO:0000148	21-22
+disease	DOID:4,OGMS:0000031	76-83
+AST(SGOT) <= 2.5 X ULN	Eligibility	15
+x	LABO:0000148	17-18
+ALT(SGPT) <= 2.5 X ULN	Eligibility	16
+x	LABO:0000148	17-18
+creatinine <= 1.5 X ULN	Eligibility	17
+creatinine	CHEBI:16737	0-10
+x	LABO:0000148	18-19
+Patients must be able to swallow and tolerate oral medications.	Eligibility	18
+Postmenopausal status, defined as 60 years and older, being 45 years and older and having amenorrhea x 12 months or follicle stimulating hormone levels within postmenopausal range, OR having undergone a bilateral oophorectomy.	Eligibility	19
+amenorrhea	HP:0000141,DOID:13938	90-100
+x	LABO:0000148	101-102
+follicle stimulating hormone	CHEBI:81569	116-144
+range	LABO:0000114	174-179
+bilateral	HP:0012832	203-212
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	20
+document	IAO:0000310	77-85
+Exclusion Criteria:	Eligibility	21
+Patients may not be receiving any other investigational agents.	Eligibility	22
+Prior treatment for breast cancer with a steroidal aromatase inhibitor; with the exception of patients who were started on the combination of exemestane with everolimus less than 4 weeks prior to study entry and discontinued everolimus due to poor tolerability.	Eligibility	23
+breast cancer	DOID:1612	20-33
+inhibitor	CHEBI:35222	61-70
+exemestane	CHEBI:4953	142-152
+everolimus	CHEBI:68478	158-168
+everolimus	CHEBI:68478	225-235
+Presence of life threatening metastatic visceral disease (defined as extensive hepatic involvement or symptomatic pulmonary lymphangitic spread) or uncontrolled brain metastases.	Eligibility	24
+disease	DOID:4,OGMS:0000031	49-56
+brain	UBERON:0000955	161-166
+Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	25
+active	PATO:0002354	76-82
+congestive heart failure	HP:0001635,DOID:6000	106-130
+angina pectoris	HP:0001681	141-156
+arrhythmia	HP:0011675	166-176
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS) Rate at 3 Months	Results	1
+rate	BAO:0080019	32-36
+PFS is defined as the time from first treatment day until objective disease progression or death from any cause. Assessment of disease progression based on Response Evaluation Criteria in Solid Tumor (RESIST) guideline version 1.1 is performed every 12 weeks on study. The percent of participants with PFS at 3 months will be reported.	Results	2
+time	PATO:0000165	22-26
+day	UO:0000033	48-51
+disease	DOID:4,OGMS:0000031	68-75
+disease	DOID:4,OGMS:0000031	127-134
+death	OAE:0000632	91-96
+percent	UO:0000187	273-280
+Time frame: 3 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Exemestane and Cyclophosphamide	Results	5
+exemestane	CHEBI:4953	17-27
+cyclophosphamide	CHEBI:4026	32-48
+Arm/Group Description: A treatment cycle is defined as 4 weeks:	Results	6
+One tablet (25 mg) of exemestane and one tablet (50 mg) of cyclophosphamide given daily by mouth until disease progression or unacceptable adverse events.	Results	7
+exemestane	CHEBI:4953	22-32
+cyclophosphamide	CHEBI:4026	59-75
+mouth	UBERON:0000165	91-96
+disease	DOID:4,OGMS:0000031	103-110
+Exemestane	Results	8
+exemestane	CHEBI:4953	0-10
+Cyclophosphamide	Results	9
+cyclophosphamide	CHEBI:4026	0-16
+Overall Number of Participants Analyzed: 23	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: percent of participants  50.1        (33.0 to 76.0)	Results	12
+percent	UO:0000187	17-24
+Adverse Events 1:	Adverse Events	0
+Total: 10/23 (43.48%)	Adverse Events	1
+pulmonary embolism  10/23 (43.48%)	Adverse Events	2
+pulmonary embolism	HP:0002204,DOID:9477	0-18

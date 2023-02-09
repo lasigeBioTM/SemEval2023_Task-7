@@ -1,0 +1,83 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Lymphedema Education)	Intervention	1
+lymphedema	HP:0001004,DOID:4977	7-17
+Six weeks after surgery, patients receive a brief initial post-operative care session describing lymphedema risk and prevention through oral instruction and written materials. Patients complete physical assessments and questionnaires at 6 weeks and at 6, 12, and 18 months. Patients are also contacted by telephone at 9 and 15 months.	Intervention	2
+surgery	OAE:0000067	16-23
+lymphedema	HP:0001004,DOID:4977	97-107
+INTERVENTION 2:	Intervention	3
+Arm II (Lymphedema Education, Physical Therapy)	Intervention	4
+lymphedema	HP:0001004,DOID:4977	8-18
+Patients receive lymphedema education and complete physical assessments and questionnaires as in Arm I. Patients also complete a personalized physical therapy intervention, receive a refrigerator magnet, and a 15-minute video that reinforces information and exercises.	Intervention	5
+lymphedema	HP:0001004,DOID:4977	17-27
+Eligibility Criteria:	Eligibility	0
+Newly diagnosed with stage I-III cancer of the female breast	Eligibility	1
+cancer	DOID:162	33-39
+female	PATO:0000383	47-53
+breast	UBERON:0000310	54-60
+No prior history of carcinoma in situ, lobular carcinoma in situ (LCIS), ductal carcinoma in situ (DCIS), or invasive breast cancer	Eligibility	2
+history	BFO:0000182	9-16
+carcinoma	HP:0030731,DOID:305	20-29
+carcinoma	HP:0030731,DOID:305	47-56
+carcinoma	HP:0030731,DOID:305	80-89
+lobular carcinoma in situ	HP:0030076,DOID:3010	39-64
+ductal carcinoma in situ	HP:0030075,DOID:0060074	73-97
+breast cancer	DOID:1612	118-131
+* Patients with a history of other invasive malignancies are eligible as long as they have completed treatment and are 5 years post-diagnosis; patients with basal cell and squamous cell cancer of the skin are eligible	Eligibility	3
+history	BFO:0000182	18-25
+cancer	DOID:162	186-192
+Neoadjuvant therapy	Eligibility	4
+Patients scheduled to receive any type of radiation therapy to the breast or axilla are eligible; however, they must be registered to this study with pre-surgery measures taken prior to receiving neoadjuvant therapy	Eligibility	5
+breast	UBERON:0000310	67-73
+Patients scheduled to receive neoadjuvant chemotherapy are also eligible; however, they must be registered to this study with pre-surgery measurements taken prior to receiving neoadjuvant therapy	Eligibility	6
+Patients receiving no neoadjuvant therapy are eligible	Eligibility	7
+May be enrolled on other treatment trials; however, patients enrolled on surgery trials where only one treatment arm is full axillary node dissection are not eligible; NOTE: Patients enrolled on American College of Surgeons Oncology Group (ACOSOG)-Z1071 are eligible to participate in this study; patients concurrently enrolled on this study and ACOSOG-Z1071, may not also be enrolled on the ACOSOG-Z1071 lymphedema sub-study	Eligibility	8
+surgery	OAE:0000067	73-80
+group	CHEBI:24433	233-238
+lymphedema	HP:0001004,DOID:4977	405-415
+No documented cardiac conduction disturbances, unstable angina, dementia, or any other chronic disease which, in the opinion of the treating physician, significantly increases mortality over the next 2 years	Eligibility	9
+cardiac conduction	GO:0061337	14-32
+dementia	HP:0000726,DOID:1307	64-72
+chronic	HP:0011010	87-94
+disease	DOID:4,OGMS:0000031	95-102
+No diagnosed lymphedema	Eligibility	10
+lymphedema	HP:0001004,DOID:4977	13-23
+In order to be properly fitted for the elastic sleeve, eligible patients must have arm measurements for axilla, elbow, and wrist that fall within the ranges for one of the six sleeve sizes	Eligibility	11
+Not currently homebound or dependent upon a walker or wheelchair for mobility	Eligibility	12
+Able to participate in a mild exercise program	Eligibility	13
+mild	HP:0012825	25-29
+Willing to return to the study site for the duration of the study (18 months)	Eligibility	14
+site	BFO:0000029	31-35
+duration	PATO:0001309	44-52
+Sentinel (SND) or full axillary node dissection (AND) (no minimum number of nodes required)	Eligibility	15
+Patients with double mastectomy, axillary node dissection and/or radiation on both arms are ineligible; patients who undergo these treatments (i.e., surgery and/or radiation) on the contralateral arm after registration to Step 2 are still eligible to remain in the study; however, it should be documented appropriately on form C-1628 at the conclusion of study participation	Eligibility	16
+surgery	OAE:0000067	149-156
+Outcome Measurement:	Results	0
+Number of Participants Who Were Lymphedema-free 18 Months After Randomization	Results	1
+To test, in a group randomized controlled trial, the efficacy of this program versus education only in reducing the incidence of lymphedema. Reported here is the proportion of patients who are lymphedema-free 18 months after randomization between the two arms	Results	2
+group	CHEBI:24433	14-19
+efficacy	BAO:0000656	53-61
+lymphedema	HP:0001004,DOID:4977	129-139
+lymphedema	HP:0001004,DOID:4977	193-203
+Time frame: 18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm I (Lymphedema Education)	Results	5
+lymphedema	HP:0001004,DOID:4977	24-34
+Arm/Group Description: Six weeks after surgery, patients receive a brief initial post-operative care session describing lymphedema risk and prevention through oral instruction and written materials. Patients complete physical assessments and questionnaires at 6 weeks and at 6, 12, and 18 months. Patients are also contacted by telephone at 9 and 15 months.	Results	6
+surgery	OAE:0000067	39-46
+lymphedema	HP:0001004,DOID:4977	120-130
+Overall Number of Participants Analyzed: 242	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  114  47.1%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm II (Lymphedema Education, Physical Therapy)	Results	11
+lymphedema	HP:0001004,DOID:4977	25-35
+Arm/Group Description: Patients receive lymphedema education and complete physical assessments and questionnaires as in Arm I. Patients also complete a personalized physical therapy intervention, receive a refrigerator magnet, and a 15-minute video that reinforces information and exercises.	Results	12
+lymphedema	HP:0001004,DOID:4977	40-50
+Overall Number of Participants Analyzed: 312	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  135  43.3%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/0	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/0	Adverse Events	3

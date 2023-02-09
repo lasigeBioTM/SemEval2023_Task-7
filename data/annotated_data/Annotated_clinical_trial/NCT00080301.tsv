@@ -1,0 +1,122 @@
+INTERVENTION 1:	Intervention	0
+Ixabepilone + Capecitabine	Intervention	1
+ixabepilone	CHEBI:63605	0-11
+capecitabine	CHEBI:31348	14-26
+Ixabepilone 40 mg/m2 administered as a 3-hour intravenous (IV) infusion on Day 1 of each 21-day cycle, plus oral capecitabine 1000 mg/m2 twice a day (BID) x 14 days	Intervention	2
+ixabepilone	CHEBI:63605	0-11
+day	UO:0000033	75-78
+day	UO:0000033	92-95
+day	UO:0000033	145-148
+day	UO:0000033	160-163
+capecitabine	CHEBI:31348	113-125
+x	LABO:0000148	1-2
+x	LABO:0000148	155-156
+INTERVENTION 2:	Intervention	3
+Capecitabine	Intervention	4
+capecitabine	CHEBI:31348	0-12
+Capecitabine 1250 mg/m2 BID x 14 days	Intervention	5
+capecitabine	CHEBI:31348	0-12
+x	LABO:0000148	28-29
+Patients must have received either 2 or 3 prior chemotherapy regimens including adjuvant or neoadjuvant therapy.	Eligibility	0
+adjuvant	CHEBI:60809	80-88
+adjuvant	CHEBI:60809	95-103
+Prior treatment must have included both an anthracycline (i.e., doxorubicin or epirubicin) and a taxane (i.e., paclitaxel or docetaxel).	Eligibility	1
+anthracycline	CHEBI:48120	43-56
+doxorubicin	CHEBI:28748,BAO:0000639	64-75
+taxane	CHEBI:36064	97-103
+paclitaxel	CHEBI:45863	111-121
+Patients must have received a minimum cumulative dose of anthracycline or must be resistant to an anthracycline.	Eligibility	2
+anthracycline	CHEBI:48120	57-70
+anthracycline	CHEBI:48120	98-111
+Patients must be resistant to taxane therapy.	Eligibility	3
+taxane	CHEBI:36064	30-36
+Patients may not have any history of brain and/or leptomeningeal metastases.	Eligibility	4
+history	BFO:0000182	26-33
+brain	UBERON:0000955	37-42
+Patients may not have CTC Grade 2 or greater neuropathy (motor or sensory).	Eligibility	5
+neuropathy	DOID:870	45-55
+Patients may have not have had prior treatment with an epothilone and/or capecitabine (i.e., Xeloda)	Eligibility	6
+epothilone	CHEBI:60831	55-65
+capecitabine	CHEBI:31348	73-85
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS) Per Independent Radiology Review Committee (IRRC)	Results	1
+PFS defined as the time in months from randomization to date of progression. Patients who died without a reported prior progression were considered to have progressed on date of death; those who didn't progress or die were censored on date of last tumor assessment. Median PFS time with 95% CI estimated using the Kaplan Meier product limit method.	Results	2
+time	PATO:0000165	19-23
+time	PATO:0000165	277-281
+death	OAE:0000632	178-183
+median	BAO:0002174	266-272
+product	BAO:0003067	327-334
+Time frame: based on assessments every 6 weeks while on treatment until documented disease progression/unacceptable toxicity	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	83-90
+Results 1:	Results	4
+Arm/Group Title: Ixabepilone + Capecitabine	Results	5
+ixabepilone	CHEBI:63605	17-28
+capecitabine	CHEBI:31348	31-43
+Arm/Group Description: Ixabepilone 40 mg/m2 administered as a 3-hour intravenous (IV) infusion on Day 1 of each 21-day cycle, plus oral capecitabine 1000 mg/m2 twice a day (BID) x 14 days	Results	6
+ixabepilone	CHEBI:63605	23-34
+day	UO:0000033	98-101
+day	UO:0000033	115-118
+day	UO:0000033	168-171
+day	UO:0000033	183-186
+capecitabine	CHEBI:31348	136-148
+x	LABO:0000148	24-25
+x	LABO:0000148	178-179
+Overall Number of Participants Analyzed: 375	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  5.85        (5.45 to 6.97)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Capecitabine	Results	11
+capecitabine	CHEBI:31348	17-29
+Arm/Group Description: Capecitabine 1250 mg/m2 BID x 14 days	Results	12
+capecitabine	CHEBI:31348	23-35
+x	LABO:0000148	51-52
+Overall Number of Participants Analyzed: 377	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  4.17        (3.81 to 4.50)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 127/368 (34.51%)	Adverse Events	1
+ANAEMIA 3/368 (0.82%)	Adverse Events	2
+LEUKOPENIA 0/368 (0.00%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 0/368 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+COAGULOPATHY 3/368 (0.82%)	Adverse Events	5
+LYMPHADENOPATHY 0/368 (0.00%)	Adverse Events	6
+lymphadenopathy	HP:0002716	0-15
+THROMBOCYTOPENIA 2/368 (0.54%)	Adverse Events	7
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+BONE MARROW FAILURE 0/368 (0.00%)	Adverse Events	8
+bone marrow	UBERON:0002371	0-11
+FEBRILE NEUTROPENIA 4/368 (1.09%)	Adverse Events	9
+neutropenia	HP:0001875,DOID:1227	8-19
+DISSEMINATED INTRAVASCULAR COAGULATION 0/368 (0.00%)	Adverse Events	10
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+ATRIAL FLUTTER 0/368 (0.00%)	Adverse Events	11
+atrial flutter	HP:0004749	0-14
+CARDIAC ARREST 0/368 (0.00%)	Adverse Events	12
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Adverse Events 2:	Adverse Events	13
+Total: 151/369 (40.92%)	Adverse Events	14
+ANAEMIA 11/369 (2.98%)	Adverse Events	15
+LEUKOPENIA 6/369 (1.63%)	Adverse Events	16
+leukopenia	HP:0001882,DOID:615	0-10
+NEUTROPENIA 18/369 (4.88%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	0-11
+COAGULOPATHY 0/369 (0.00%)	Adverse Events	18
+LYMPHADENOPATHY 1/369 (0.27%)	Adverse Events	19
+lymphadenopathy	HP:0002716	0-15
+THROMBOCYTOPENIA 7/369 (1.90%)	Adverse Events	20
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+BONE MARROW FAILURE 1/369 (0.27%)	Adverse Events	21
+bone marrow	UBERON:0002371	0-11
+FEBRILE NEUTROPENIA 15/369 (4.07%)	Adverse Events	22
+neutropenia	HP:0001875,DOID:1227	8-19
+DISSEMINATED INTRAVASCULAR COAGULATION 1/369 (0.27%)	Adverse Events	23
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+ATRIAL FLUTTER 1/369 (0.27%)	Adverse Events	24
+atrial flutter	HP:0004749	0-14
+CARDIAC ARREST 1/369 (0.27%)	Adverse Events	25
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14

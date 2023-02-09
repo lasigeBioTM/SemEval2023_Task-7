@@ -1,0 +1,96 @@
+INTERVENTION 1:	Intervention	0
+Zoledronic Acid	Intervention	1
+zoledronic acid	CHEBI:46557	0-15
+Patients who had greater than 4 disseminated tumor cells (DTCs)/mL present following neoadjuvant or adjuvant chemotherapy for early stage breast cancer were treated with 4mg zoledronic acid each month for 24 months.	Intervention	2
+present	PATO:0000467	67-74
+adjuvant	CHEBI:60809	88-96
+adjuvant	CHEBI:60809	100-108
+breast cancer	DOID:1612	138-151
+zoledronic acid	CHEBI:46557	174-189
+month	UO:0000035	195-200
+month	UO:0000035	208-213
+Inclusion Criteria	Eligibility	0
+Women > 18 years of age with histologically or cytologically confirmed stage I, II or III breast cancer.	Eligibility	1
+age	PATO:0000011	20-23
+age	PATO:0000011	73-76
+breast cancer	DOID:1612	90-103
+If adjuvant chemotherapy is recommended, it must be completed before study start.	Eligibility	2
+adjuvant	CHEBI:60809	3-11
+Bone marrow aspirate positive by IC/FC assay	Eligibility	3
+bone marrow	UBERON:0002371	0-11
+a. Definition of positive: > 4 MM/ml b. Timing of bone marrow aspiration to determine study eligibility: i. If patient is to receive either no adjuvant therapy or hormonal therapy alone, the aspiration may be performed at diagnosis as part of the large MM study at University of California, San Francisco, or following diagnosis if the patient received initial surgery elsewhere. This is also true for patients who have surgery following neoadjuvant therapy for breast cancer.	Eligibility	4
+bone marrow	UBERON:0002371	50-61
+aspiration	HP:0002835	62-72
+aspiration	HP:0002835	191-201
+patient	HADO:0000008,OAE:0001817	111-118
+patient	HADO:0000008,OAE:0001817	336-343
+patient	HADO:0000008,OAE:0001817	402-409
+adjuvant	CHEBI:60809	143-151
+adjuvant	CHEBI:60809	441-449
+part of	BAO:0090002,BFO:0000050	235-242
+surgery	OAE:0000067	361-368
+surgery	OAE:0000067	420-427
+breast cancer	DOID:1612	462-475
+ii. If the patient is to receive adjuvant chemotherapy, the aspiration will be performed at least three weeks after chemotherapy has been completed.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	11-18
+adjuvant	CHEBI:60809	33-41
+aspiration	HP:0002835	60-70
+Adequate renal function as defined by:	Eligibility	6
+function	BAO:0003117,BFO:0000034	15-23
+a. Creatinine must be < upper limit of normal	Eligibility	7
+creatinine	CHEBI:16737	3-13
+Normal liver function tests including total bilirubin, alkaline phosphatase, and aspartate aminotransferase (AST) / serum glutamic-oxaloacetic transaminase (SGOT)	Eligibility	8
+liver	UBERON:0002107	7-12
+function	BAO:0003117,BFO:0000034	13-21
+phosphatase	GO:0016791,BAO:0000295	64-75
+aspartate	CHEBI:29995	81-90
+Ability to understand and sign informed consent.	Eligibility	9
+Concomitant hormonal therapy is allowed	Eligibility	10
+Concomitant radiation therapy is allowed	Eligibility	11
+Patients who have had surgery following neoadjuvant chemotherapy or hormonal therapy are eligible to participate in this trial	Eligibility	12
+surgery	OAE:0000067	22-29
+Exclusion Criteria	Eligibility	13
+History of allergy to bisphosphonates. Acute phase reactions occur in up to 24% of patients and disappear with subsequent dosing. An acute phase reaction does not qualify as an allergic reaction.	Eligibility	14
+history	BFO:0000182	0-7
+allergy	HP:0012393	11-18
+acute	HP:0011009,PATO:0000389	39-44
+acute	HP:0011009,PATO:0000389	133-138
+History of renal insufficiency. Renal insufficiency is defined by a serum creatinine greater than the upper limit of normal or a creatinine clearance < 50 mL/min due to any underlying cause.	Eligibility	15
+history	BFO:0000182	0-7
+renal insufficiency	HP:0000083	11-30
+renal insufficiency	HP:0000083	32-51
+creatinine	CHEBI:16737	74-84
+creatinine	CHEBI:16737	129-139
+creatinine clearance	CMO:0000765	129-149
+Karnofsky Performance status < 90%.	Eligibility	16
+Any significant medical condition that might interfere with treatment.	Eligibility	17
+condition	PDRO:0000129	24-33
+Women participating in this study are not allowed to receive other bisphosphonate therapy during the study period, either oral or intravenous.	Eligibility	18
+Patients who are pregnant	Eligibility	19
+Outcome Measurement:	Results	0
+Response of Bone Marrow Micrometastases	Results	1
+bone marrow	UBERON:0002371	12-23
+Median change in disseminated tumor cells (DTCs)/mL from baseline after 24 months	Results	2
+median	BAO:0002174	0-6
+Time frame: up to 2 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Zoledronic Acid	Results	5
+zoledronic acid	CHEBI:46557	17-32
+Arm/Group Description: Patients who had greater than 4 disseminated tumor cells (DTCs)/mL present following neoadjuvant or adjuvant chemotherapy for early stage breast cancer were treated with 4mg zoledronic acid each month for 24 months.	Results	6
+present	PATO:0000467	90-97
+adjuvant	CHEBI:60809	111-119
+adjuvant	CHEBI:60809	123-131
+breast cancer	DOID:1612	161-174
+zoledronic acid	CHEBI:46557	197-212
+month	UO:0000035	218-223
+month	UO:0000035	231-236
+Overall Number of Participants Analyzed: 34	Results	7
+Median (Full Range)	Results	8
+median	BAO:0002174	0-6
+range	LABO:0000114	13-18
+Unit of Measure: DTCs/mL  -4.5        (-5.9 to 43.1)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 1/45 (2.22%)	Adverse Events	1
+appendicitis 1/45 (2.22%)	Adverse Events	2
+appendicitis	DOID:8337	0-12

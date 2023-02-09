@@ -1,0 +1,109 @@
+INTERVENTION 1:	Intervention	0
+A - Scheduled Surgery	Intervention	1
+surgery	OAE:0000067	14-21
+Patient scheduled for mid-luteal phase surgical oophorectomy/mastectomy plus Tamoxifen	Intervention	2
+patient	HADO:0000008,OAE:0001817	0-7
+tamoxifen	CHEBI:41774	77-86
+Tamoxifen: 20 mg po daily x 5 years	Intervention	3
+tamoxifen	CHEBI:41774	0-9
+x	LABO:0000148	4-5
+x	LABO:0000148	26-27
+Surgery: Oophorectomy: Group A-Surgical oophorectomy and mastectomy in estimated 5 days in mid-luteal phase of menstrual cycle (b, c) Group B-Surgical oophorectomy and mastectomy (1-6 days from randomization)(b, c) Group C-Surgical oophorectomy and mastectomy(1-6 days from registration)(c)	Intervention	4
+surgery	OAE:0000067	0-7
+group	CHEBI:24433	23-28
+group	CHEBI:24433	134-139
+group	CHEBI:24433	215-220
+menstrual cycle	GO:0044850	111-126
+INTERVENTION 2:	Intervention	5
+B - Immediate Surgery	Intervention	6
+surgery	OAE:0000067	14-21
+Patient assigned to immediate surgical oophorectomy/mastectomy and Tamoxifen	Intervention	7
+patient	HADO:0000008,OAE:0001817	0-7
+tamoxifen	CHEBI:41774	67-76
+Tamoxifen: 20 mg po daily x 5 years	Intervention	8
+tamoxifen	CHEBI:41774	0-9
+x	LABO:0000148	4-5
+x	LABO:0000148	26-27
+Surgery: Oophorectomy: Group A-Surgical oophorectomy and mastectomy in estimated 5 days in mid-luteal phase of menstrual cycle (b, c) Group B-Surgical oophorectomy and mastectomy (1-6 days from randomization)(b, c) Group C-Surgical oophorectomy and mastectomy(1-6 days from registration)(c)	Intervention	9
+surgery	OAE:0000067	0-7
+group	CHEBI:24433	23-28
+group	CHEBI:24433	134-139
+group	CHEBI:24433	215-220
+menstrual cycle	GO:0044850	111-126
+Inclusion Criteria:	Eligibility	0
+Open for accrual in Asia only	Eligibility	1
+Female age 18-50,	Eligibility	2
+female	PATO:0000383	0-6
+age	PATO:0000011	7-10
+premenopausal with regular cycles (>25-35 in length)	Eligibility	3
+length	PATO:0000122	45-51
+fine-needle aspiration diagnosis	Eligibility	4
+aspiration	HP:0002835	12-22
+Stage II-IIIA hormone receptor positive invasive breast cancer	Eligibility	5
+hormone	CHEBI:24621	14-21
+receptor	BAO:0000281	22-30
+breast cancer	DOID:1612	49-62
+No prior radiation or chemotherapy	Eligibility	6
+Must be surgical candidate for bilateral oophorectomy	Eligibility	7
+bilateral	HP:0012832	31-40
+Outcome Measurement:	Results	0
+Disease-free Survival	Results	1
+5-year disease-free survival	Results	2
+Time frame: two- to three-year accrual and initial two or more years of follow-up period	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: A - Scheduled Surgery	Results	5
+surgery	OAE:0000067	31-38
+Arm/Group Description: Patient scheduled for mid-luteal phase surgical oophorectomy/mastectomy plus Tamoxifen	Results	6
+patient	HADO:0000008,OAE:0001817	23-30
+tamoxifen	CHEBI:41774	100-109
+Tamoxifen: 20 mg po daily x 5 years	Results	7
+tamoxifen	CHEBI:41774	0-9
+x	LABO:0000148	4-5
+x	LABO:0000148	26-27
+Surgery: Oophorectomy: Group A-Surgical oophorectomy and mastectomy in estimated 5 days in mid-luteal phase of menstrual cycle (b, c) Group B-Surgical oophorectomy and mastectomy (1-6 days from randomization)(b, c) Group C-Surgical oophorectomy and mastectomy(1-6 days from registration)(c)	Results	8
+surgery	OAE:0000067	0-7
+group	CHEBI:24433	23-28
+group	CHEBI:24433	134-139
+group	CHEBI:24433	215-220
+menstrual cycle	GO:0044850	111-126
+Overall Number of Participants Analyzed: 244	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: percentage of participants  64	Results	11
+Results 2:	Results	12
+Arm/Group Title: B - Immediate Surgery	Results	13
+surgery	OAE:0000067	31-38
+Arm/Group Description: Patient assigned to immediate surgical oophorectomy/mastectomy and Tamoxifen	Results	14
+patient	HADO:0000008,OAE:0001817	23-30
+tamoxifen	CHEBI:41774	90-99
+Tamoxifen: 20 mg po daily x 5 years	Results	15
+tamoxifen	CHEBI:41774	0-9
+x	LABO:0000148	4-5
+x	LABO:0000148	26-27
+Surgery: Oophorectomy: Group A-Surgical oophorectomy and mastectomy in estimated 5 days in mid-luteal phase of menstrual cycle (b, c) Group B-Surgical oophorectomy and mastectomy (1-6 days from randomization)(b, c) Group C-Surgical oophorectomy and mastectomy(1-6 days from registration)(c)	Results	16
+surgery	OAE:0000067	0-7
+group	CHEBI:24433	23-28
+group	CHEBI:24433	134-139
+group	CHEBI:24433	215-220
+menstrual cycle	GO:0044850	111-126
+Overall Number of Participants Analyzed: 255	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: percentage of participants  71	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 0/244 (0.00%)	Adverse Events	1
+Pregnancy *0/244 (0.00%)	Adverse Events	2
+Endocervical cancer *0/244 (0.00%)	Adverse Events	3
+cancer	DOID:162	13-19
+Nosocomial pneumonia *0/244 (0.00%)	Adverse Events	4
+pneumonia	HP:0002090,DOID:552	11-20
+Venous thrombosis *0/244 (0.00%)	Adverse Events	5
+venous thrombosis	HP:0004936	0-17
+Adverse Events 2:	Adverse Events	6
+Total: 5/255 (1.96%)	Adverse Events	7
+Pregnancy *1/255 (0.39%)	Adverse Events	8
+Endocervical cancer *1/255 (0.39%)	Adverse Events	9
+cancer	DOID:162	13-19
+Nosocomial pneumonia *2/255 (0.78%)	Adverse Events	10
+pneumonia	HP:0002090,DOID:552	11-20
+Venous thrombosis *1/255 (0.39%)	Adverse Events	11
+venous thrombosis	HP:0004936	0-17

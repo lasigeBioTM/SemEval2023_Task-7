@@ -1,0 +1,158 @@
+INTERVENTION 1:	Intervention	0
+Bevacizumab/Anastrozole	Intervention	1
+Bevacizumab 10mg/kg IV every 2 weeks [patients who are also receiving trastuzumab have the option to receive their bevacizumab at 15 mg/kg every 3 weeks instead of 10 mg/kg every 2 weeks (see Trastuzumab section below)] and anastrozole (1 mg orally daily). Treatment will be given in 4-week cycles.	Intervention	2
+anastrozole	CHEBI:2704	224-235
+INTERVENTION 2:	Intervention	3
+Bevacizumab/Fulvestrant	Intervention	4
+Bevacizumab/fulvestrant (with trastuzumab in HER2+ patients). Bevacizumab 10mg/kg IV every 2 weeks [patients who are also receiving trastuzumab have the option to receive their bevacizumab at 15 mg/kg every 3 weeks instead of 10 mg/kg every 2 weeks (see Trastuzumab section below)] fulvestrant (500 mg intramuscular on Day 1 of Cycle 1, followed by 250 mg intramuscular of fulvestrant on Day 15 of Cycle 1. On Day 1 of Cycle 2 and the first day of all subsequent cycles thereafter, patients in this treatment arm will receive 250 mg intramuscular of fulvestrant). Treatment will be given in 4-week cycles.	Intervention	5
+fulvestrant	CHEBI:31638	12-23
+fulvestrant	CHEBI:31638	282-293
+fulvestrant	CHEBI:31638	373-384
+fulvestrant	CHEBI:31638	550-561
+day	UO:0000033	319-322
+day	UO:0000033	388-391
+day	UO:0000033	410-413
+day	UO:0000033	441-444
+Inclusion Criteria:	Eligibility	0
+Postmenopausal breast cancer (adenocarcinoma) estrogen (ER)and/or progesterone (PR) receptor positive that is locally advanced or locally recurrent and not able to be surgically removed OR with measurable and/or disease that is able to be assessed including isolated bone metastasis	Eligibility	1
+breast cancer	DOID:1612	15-28
+adenocarcinoma	DOID:299	30-44
+estrogen	CHEBI:50114,BAO:0000760	46-54
+progesterone	CHEBI:17026	66-78
+receptor	BAO:0000281	84-92
+recurrent	HP:0031796	138-147
+disease	DOID:4,OGMS:0000031	212-219
+Female patients 18 years or older	Eligibility	2
+female	PATO:0000383	0-6
+Documentation of ER+ and/or PR+	Eligibility	3
+No prior chemotherapy or hormone therapy for metastatic breast cancer or inoperable breast cancer that is locally recurrent or locally advanced	Eligibility	4
+hormone	CHEBI:24621	25-32
+breast cancer	DOID:1612	56-69
+breast cancer	DOID:1612	84-97
+recurrent	HP:0031796	114-123
+Measurable or evaluable disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	24-31
+Radiation therapy to painful bone lesions or impending fractures is allowed as long as there is measurable or evaluable disease outside the radiated area.	Eligibility	6
+disease	DOID:4,OGMS:0000031	120-127
+area	PATO:0001323	149-153
+Must have adequate bone marrow, renal and liver function	Eligibility	7
+bone marrow	UBERON:0002371	19-30
+liver	UBERON:0002107	42-47
+function	BAO:0003117,BFO:0000034	48-56
+Patients receiving prior treatment with an anthracycline based chemotherapy must have a normal left ventricle ejection fraction	Eligibility	8
+anthracycline	CHEBI:48120	43-56
+left	HP:0012835	95-99
+ejection fraction	CMO:0000180	110-127
+Exclusion Criteria:	Eligibility	9
+No metastatic disease to the Central Nervous System	Eligibility	10
+disease	DOID:4,OGMS:0000031	14-21
+central nervous system	UBERON:0001017	29-51
+No history of myocardial infarction (MI), stroke or transient ischemic attacks in the last 6 months	Eligibility	11
+history	BFO:0000182	3-10
+myocardial infarction	HP:0001658,DOID:5844	14-35
+stroke	HP:0001297,DOID:6713	42-48
+transient	HP:0025153	52-61
+No symptoms of peripheral vascular disease	Eligibility	12
+peripheral vascular disease	DOID:341	15-42
+No history of abdominal fistula, gastrointestinal perforation or intrabdominal abscess in the past 6 months	Eligibility	13
+history	BFO:0000182	3-10
+abscess	HP:0025615	79-86
+No known hypersensitivity to phosphate, trehalose or polysorbate	Eligibility	14
+hypersensitivity	GO:0002524,DOID:1205	9-25
+phosphate	CHEBI:43474	29-38
+trehalose	CHEBI:27082	40-49
+polysorbate	CHEBI:53426	53-64
+No serious non-healing wound, ulcer or bone fracture	Eligibility	15
+ulcer	OAE:0004372	30-35
+bone fracture	HP:0020110	39-52
+No uncontrolled high blood pressure or history of hypertensive crisis	Eligibility	16
+blood	UBERON:0000178	21-26
+history	BFO:0000182	39-46
+hypertensive crisis	HP:0100735	50-69
+No New York Hear Association class II congestive heart failure	Eligibility	17
+congestive heart failure	HP:0001635,DOID:6000	38-62
+No extensive cancer involvement of the liver or lungs	Eligibility	18
+cancer	DOID:162	13-19
+liver	UBERON:0002107	39-44
+No history of significant psychiatric disorders	Eligibility	19
+history	BFO:0000182	3-10
+No significant vascular disease	Eligibility	20
+vascular disease	DOID:178	15-31
+There are additional inclusion/exclusion criteria. The study center will determine if you meet all of the criteria. If you do not qualify for the trial, study personnel will explain the reasons. If you do qualify, study personnel will explain the trial in detail and answer any questions you may have. You can then decide if you wish to participate.	Eligibility	21
+Outcome Measurement:	Results	0
+Progression Free Survival (PFS), the Length of Time, in Months, That Patients Were Alive From Their First Date of Protocol Treatment Until Worsening of Their Disease	Results	1
+length	PATO:0000122	37-43
+time	PATO:0000165	47-51
+disease	DOID:4,OGMS:0000031	158-165
+Progression Free Survival (PFS) is defined as the interval, in months, from the date of first treatment to the date of disease progression or death, whichever occurred first.	Results	2
+disease	DOID:4,OGMS:0000031	119-126
+death	OAE:0000632	142-147
+Time frame: 18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Bevacizumab/Anastrozole	Results	5
+Arm/Group Description: Bevacizumab 10mg/kg IV every 2 weeks [patients who are also receiving trastuzumab have the option to receive their bevacizumab at 15 mg/kg every 3 weeks instead of 10 mg/kg every 2 weeks (see Trastuzumab section below)] and anastrozole (1 mg orally daily). Treatment will be given in 4-week cycles.	Results	6
+anastrozole	CHEBI:2704	247-258
+Overall Number of Participants Analyzed: 38	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  21  [1]    (14 to NA)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Bevacizumab/Fulvestrant	Results	11
+Arm/Group Description: Bevacizumab/fulvestrant (with trastuzumab in HER2+ patients). Bevacizumab 10mg/kg IV every 2 weeks [patients who are also receiving trastuzumab have the option to receive their bevacizumab at 15 mg/kg every 3 weeks instead of 10 mg/kg every 2 weeks (see Trastuzumab section below)] fulvestrant (500 mg intramuscular on Day 1 of Cycle 1, followed by 250 mg intramuscular of fulvestrant on Day 15 of Cycle 1. On Day 1 of Cycle 2 and the first day of all subsequent cycles thereafter, patients in this treatment arm will receive 250 mg intramuscular of fulvestrant). Treatment will be given in 4-week cycles.	Results	12
+fulvestrant	CHEBI:31638	35-46
+fulvestrant	CHEBI:31638	305-316
+fulvestrant	CHEBI:31638	396-407
+fulvestrant	CHEBI:31638	573-584
+day	UO:0000033	342-345
+day	UO:0000033	411-414
+day	UO:0000033	433-436
+day	UO:0000033	464-467
+Overall Number of Participants Analyzed: 41	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  9        (5 to 13)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 10/38 (26.32%)	Adverse Events	1
+cTnI  [1]0/38 (0.00%)	Adverse Events	2
+Superventricular Arrhythmia - Sinus Bradycardia 1/38 (2.63%)	Adverse Events	3
+arrhythmia	HP:0011675	17-27
+sinus bradycardia	HP:0001688	30-47
+Pain - Cardiac 0/38 (0.00%)	Adverse Events	4
+pain	HP:0012531	0-4
+Cardiac Ischemia/Infarction 0/38 (0.00%)	Adverse Events	5
+Restrictive Cardiomyopathy 1/38 (2.63%)	Adverse Events	6
+restrictive cardiomyopathy	HP:0001723,DOID:397	0-26
+Dehydration 0/38 (0.00%)	Adverse Events	7
+dehydration	HP:0001944	0-11
+Diarrhea 1/38 (2.63%)	Adverse Events	8
+diarrhea	HP:0002014,DOID:13250	0-8
+Vomiting 1/38 (2.63%)	Adverse Events	9
+vomiting	HP:0002013	0-8
+Nausea 1/38 (2.63%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Death 0/38 (0.00%)	Adverse Events	11
+death	OAE:0000632	0-5
+Weakness 1/38 (2.63%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 12/41 (29.27%)	Adverse Events	14
+cTnI  [1]1/41 (2.44%)	Adverse Events	15
+Superventricular Arrhythmia - Sinus Bradycardia 0/41 (0.00%)	Adverse Events	16
+arrhythmia	HP:0011675	17-27
+sinus bradycardia	HP:0001688	30-47
+Pain - Cardiac 1/41 (2.44%)	Adverse Events	17
+pain	HP:0012531	0-4
+Cardiac Ischemia/Infarction 1/41 (2.44%)	Adverse Events	18
+Restrictive Cardiomyopathy 0/41 (0.00%)	Adverse Events	19
+restrictive cardiomyopathy	HP:0001723,DOID:397	0-26
+Dehydration 1/41 (2.44%)	Adverse Events	20
+dehydration	HP:0001944	0-11
+Diarrhea 0/41 (0.00%)	Adverse Events	21
+diarrhea	HP:0002014,DOID:13250	0-8
+Vomiting 0/41 (0.00%)	Adverse Events	22
+vomiting	HP:0002013	0-8
+Nausea 0/41 (0.00%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Death 1/41 (2.44%)	Adverse Events	24
+death	OAE:0000632	0-5
+Weakness 0/41 (0.00%)	Adverse Events	25

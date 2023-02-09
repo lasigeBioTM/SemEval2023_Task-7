@@ -1,0 +1,354 @@
+INTERVENTION 1:	Intervention	0
+Test Group	Intervention	1
+group	CHEBI:24433	5-10
+intravenous fosnetupitant/ palonosetron (260 mg/0.25 mg) fixed-dose combination, administered as a 30-minute infusion of a 50 mL solution, on Day 1 of each cycle.	Intervention	2
+palonosetron	CHEBI:85161	27-39
+solution	CHEBI:75958	129-137
+day	UO:0000033	142-145
+Oral dexamethasone will be administered on Day 1 of each cycle (12 mg)	Intervention	3
+dexamethasone	CHEBI:41879	5-18
+day	UO:0000033	43-46
+fosnetupitant/ palonosetron: intravenous fosnetupitant/ palonosetron (260 mg/0.25 mg) fixed-dose combination	Intervention	4
+palonosetron	CHEBI:85161	15-27
+palonosetron	CHEBI:85161	56-68
+dexamethasone: Oral dexamethasone (12 mg)	Intervention	5
+dexamethasone	CHEBI:41879	0-13
+dexamethasone	CHEBI:41879	20-33
+INTERVENTION 2:	Intervention	6
+Control Group	Intervention	7
+group	CHEBI:24433	8-13
+oral netupitant/palonosetron (300 mg/0.50 mg) fixed-dose combination on Day 1 of each cycle.	Intervention	8
+day	UO:0000033	72-75
+Oral dexamethasone will be administered on Day 1 of each cycle (12 mg)	Intervention	9
+dexamethasone	CHEBI:41879	5-18
+day	UO:0000033	43-46
+netupitant/palonosetron: oral netupitant/palonosetron (300 mg/0.50 mg) fixed-dose combination	Intervention	10
+dexamethasone: Oral dexamethasone (12 mg)	Intervention	11
+dexamethasone	CHEBI:41879	0-13
+dexamethasone	CHEBI:41879	20-33
+Inclusion Criteria:	Eligibility	0
+Cycle 1:	Eligibility	1
+The following inclusion criteria must be checked prior to inclusion at Cycle 1:	Eligibility	2
+Patient read, understood and signed the written informed consent before any study related activity, agreeing to participate in the study and to comply with study requirements.	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+Female patient of at least 8 years of age.	Eligibility	4
+female	PATO:0000383	0-6
+patient	HADO:0000008,OAE:0001817	7-14
+age	PATO:0000011	38-41
+Histologically or cytologically confirmed breast cancer, including recurrent or metastatic.	Eligibility	5
+breast cancer	DOID:1612	42-55
+recurrent	HP:0031796	67-76
+Naïve to moderately or highly emetogenic antineoplastic agents.	Eligibility	6
+Scheduled to receive at least 4 consecutive cycles of an AC combination regimen.	Eligibility	7
+Notes:	Eligibility	8
+additional not emetogenic, minimally or low emetogenic antineoplastic agents are permitted at any time after start of AC combination on Day 1.	Eligibility	9
+time	PATO:0000165	98-102
+day	UO:0000033	136-139
+additional highly or moderately emetogenic antineoplastic agents are only allowed on Day 1 after the start of AC combination, provided their administration is completed within 6 hours from the start of the AC combination administration.	Eligibility	10
+day	UO:0000033	85-88
+ECOG Performance Status of 0 or 1.	Eligibility	11
+Patient shall be: a) of non-childbearing potential or b) of childbearing potential using reliable contraceptive measures and having a negative urine pregnancy test within 24 hours prior to dose of investigational product.	Eligibility	12
+patient	HADO:0000008,OAE:0001817	0-7
+urine	UBERON:0001088	143-148
+product	BAO:0003067	213-220
+Notes:	Eligibility	13
+Female patients of non-childberaring potential are defined as being in post-menopausal state since at least 1 year; or having documented surgical sterilization or hysterectomy at least 3 months before study participation.	Eligibility	14
+female	PATO:0000383	0-6
+year	UO:0000036	110-114
+Reliable contraceptive measures include implants, injectables, combined oral contraceptives, intrauterine devices, vasectomized partner or complete (long term) sexual abstinence;	Eligibility	15
+Hematologic and metabolic status adequate for receiving a cycle of AC chemotherapy based on investigator's assessment.	Eligibility	16
+If the patient has a known hepatic or renal impairment, she may be enrolled in the study at the discretion of the Investigator.	Eligibility	17
+patient	HADO:0000008,OAE:0001817	7-14
+Able to read, understand, follow the study procedure and complete the patient diary.	Eligibility	18
+patient	HADO:0000008,OAE:0001817	70-77
+All inclusion criteria will be checked at screening visit (Visit 1 of Cycle 1); inclusion criteria 7 will be re-checked at Day 1 (Visit 2).	Eligibility	19
+day	UO:0000033	123-126
+Cycles 2 to 4:	Eligibility	20
+The following inclusion criteria must be checked prior to inclusion at each repeated cycle:	Eligibility	21
+Participation in the study during the next cycle of chemotherapy is considered appropriate by the Investigator and does not pose unwarranted risk to the patient.	Eligibility	22
+patient	HADO:0000008,OAE:0001817	153-160
+Scheduled to receive an AC chemotherapy regimen or AC chemotherapy together with other chemotherapies as defined in Inclusion criterion #5 for Cycle 1.	Eligibility	23
+Patient shall be: a) of non-childbearing potential or b) of childbearing potential using reliable contraceptive measures and having a negative urine pregnancy test within 24 hours prior to dosing of investigational product.	Eligibility	24
+patient	HADO:0000008,OAE:0001817	0-7
+urine	UBERON:0001088	143-148
+product	BAO:0003067	215-222
+Adequate hematologic and metabolic status for receiving a cycle of AC chemotherapy according to the Investigator's opinion.	Eligibility	25
+All inclusion criteria will be checked at screening visit (Visit 1); inclusion criterion #3 will be re-checked at Day 1 (Visit 2).	Eligibility	26
+day	UO:0000033	114-117
+Exclusion Criteria:	Eligibility	27
+Cycle 1:	Eligibility	28
+The following exclusion criteria must be checked prior to inclusion at Cycle 1:	Eligibility	29
+Lactating patient.	Eligibility	30
+patient	HADO:0000008,OAE:0001817	10-17
+Current use of illicit drugs or current evidence of alcohol abuse.	Eligibility	31
+alcohol	CHEBI:16236	52-59
+Scheduled to receive moderately or highly emetogenic antineoplastic agent in addition to the AC regimen, from 6 hours after the start of the AC chemotherapy on Day 1 and up to Day 1 of Cycle 2.	Eligibility	32
+antineoplastic agent	CHEBI:35610	53-73
+day	UO:0000033	160-163
+day	UO:0000033	176-179
+Received or is scheduled to receive radiation therapy to the abdomen or the pelvis within 1 week prior to the start of AC chemotherapy administration on Day 1 or between Days 1 to 5, inclusive.	Eligibility	33
+abdomen	UBERON:0000916	61-68
+week	UO:0000034	92-96
+day	UO:0000033	153-156
+day	UO:0000033	170-173
+Any vomiting, retching, or nausea (grade 1 as defined by National Cancer Institute) within 24 hours prior to the start of AC chemotherapy administration on Day 1.	Eligibility	34
+vomiting	HP:0002013	4-12
+nausea	HP:0002018	27-33
+cancer	DOID:162	66-72
+day	UO:0000033	156-159
+Symptomatic primary or metastatic central nervous system (CNS) malignancy.	Eligibility	35
+central nervous system	UBERON:0001017	34-56
+Active peptic ulcer disease, gastrointestinal obstruction, increased intracranial pressure, hypercalcemia, an active infection or any illness or medical conditions (other than malignancy) that, in the opinion of the Investigator, may confound the results of the study, represent another potential etiology for emesis and nausea (other than chemotherapy-induced nausea and vomiting [CINV]) or pose unwarranted risks in administering the study drugs to the patient.	Eligibility	36
+active peptic ulcer disease	DOID:749	0-27
+gastrointestinal obstruction	HP:0004796	29-57
+increased intracranial pressure	HP:0002516	59-90
+hypercalcemia	HP:0003072,DOID:12678	92-105
+active	PATO:0002354	0-6
+active	PATO:0002354	110-116
+nausea	HP:0002018	321-327
+nausea	HP:0002018	361-367
+nausea and vomiting	HP:0002017	361-380
+patient	HADO:0000008,OAE:0001817	455-462
+Known hypersensitivity or contraindication to 5 hydroxytryptamine type 3 (5-HT3) receptor antagonists (e.g., palonosetron, ondansetron, granisetron, dolasetron, tropisetron, ramosetron), to dexamethasone, or to neurokinin-1 (NK1) receptor antagonists (e.g., aprepitant, rolapitant).	Eligibility	37
+hypersensitivity	GO:0002524,DOID:1205	6-22
+contraindication	OAE:0000055	26-42
+receptor	BAO:0000281	81-89
+receptor	BAO:0000281	230-238
+palonosetron	CHEBI:85161	109-121
+ondansetron	CHEBI:7773	123-134
+granisetron	CHEBI:5537	136-147
+dolasetron	CHEBI:4682	149-159
+tropisetron	CHEBI:32269	161-172
+ramosetron	CHEBI:135156	174-184
+dexamethasone	CHEBI:41879	190-203
+aprepitant	CHEBI:499361	258-268
+rolapitant	CHEBI:90908	270-280
+Known contraindication to the IV administration of 50 mL 5% glucose solution.	Eligibility	38
+contraindication	OAE:0000055	6-22
+glucose	CHEBI:4167,BAO:0000924	60-67
+solution	CHEBI:75958	68-76
+Participation in a previous clinical trial involving IV fosnetupitant or oral netupitant administered alone or in combination with palonosetron.	Eligibility	39
+netupitant	CHEBI:85155	59-69
+netupitant	CHEBI:85155	78-88
+palonosetron	CHEBI:85161	131-143
+Any investigational drugs taken within 4 weeks prior to Day 1, and/or is scheduled to receive any investigational drug (other than those planned by the study protocol) during the present study.	Eligibility	40
+day	UO:0000033	56-59
+drug	CHEBI:23888	20-24
+drug	CHEBI:23888	114-118
+present	PATO:0000467	179-186
+Systemic corticosteroid therapy within 72 hours prior to the start of AC chemotherapy administration on Day 1, except the dexamethasone provided as additional study drug. However, topical and inhaled corticosteroids are permitted.	Eligibility	41
+corticosteroid	CHEBI:50858	9-23
+corticosteroid	CHEBI:50858	200-214
+day	UO:0000033	104-107
+dexamethasone	CHEBI:41879	122-135
+drug	CHEBI:23888	165-169
+Scheduled to receive bone marrow transplantation and/or stem cell rescue therapy during the study participation.	Eligibility	42
+bone marrow	UBERON:0002371	21-32
+Other than as administered as part of the study protocol, any medication with known or potential antiemetic activity within 24 hours prior to the start of AC chemotherapy administration on Day 1, including:	Eligibility	43
+part of	BAO:0090002,BFO:0000050	30-37
+antiemetic	CHEBI:50919	97-107
+day	UO:0000033	189-192
+5-HT3 receptor antagonists (e.g., ondansetron, granisetron, dolasetron, tropisetron, ramosetron, palonosetron)	Eligibility	44
+receptor	BAO:0000281	6-14
+ondansetron	CHEBI:7773	34-45
+granisetron	CHEBI:5537	47-58
+dolasetron	CHEBI:4682	60-70
+tropisetron	CHEBI:32269	72-83
+ramosetron	CHEBI:135156	85-95
+palonosetron	CHEBI:85161	97-109
+NK1 receptor antagonists (e.g., aprepitant, fosaprepitant, rolapitant or any other new drug of this class)	Eligibility	45
+receptor	BAO:0000281	4-12
+aprepitant	CHEBI:499361	32-42
+aprepitant	CHEBI:499361	47-57
+fosaprepitant	CHEBI:64321	44-57
+rolapitant	CHEBI:90908	59-69
+drug	CHEBI:23888	87-91
+benzamides (e.g., metoclopramide, alizapride)	Eligibility	46
+benzamides	CHEBI:22702	0-10
+metoclopramide	CHEBI:107736	18-32
+phenothiazines (e.g., prochlorperazine, promethazine, fluphenazine, perphenazine, thiethylperazine, chlorpromazine)	Eligibility	47
+phenothiazines	CHEBI:38093	0-14
+prochlorperazine	CHEBI:8435	22-38
+promethazine	CHEBI:8461	40-52
+fluphenazine	CHEBI:5123	54-66
+perphenazine	CHEBI:8028	68-80
+thiethylperazine	CHEBI:9544	82-98
+chlorpromazine	CHEBI:3647	100-114
+benzodiazepines (except if the subject is receiving such medication for sleep or anxiety and has been on a stable dose for at least seven days prior to Day 1).	Eligibility	48
+sleep	GO:0030431	72-77
+anxiety	HP:0000739,DOID:2030	81-88
+stable	HP:0031915	107-113
+day	UO:0000033	138-141
+day	UO:0000033	152-155
+butyrophenones (e.g., haloperidol, droperidol)	Eligibility	49
+haloperidol	CHEBI:5613	22-33
+droperidol	CHEBI:4717	35-45
+anticholinergics (e.g., scopolamine, with the exception of inhaled anticholinergics for respiratory disorders, e.g., ipratropium bromide)	Eligibility	50
+scopolamine	CHEBI:16794	24-35
+ipratropium bromide	CHEBI:5957	117-136
+antihistamines (e.g., cyclizine, hydroxyzine, diphenhydramine, chlorpheniramine)	Eligibility	51
+cyclizine	CHEBI:3994	22-31
+hydroxyzine	CHEBI:5818	33-44
+diphenhydramine	CHEBI:4636	46-61
+domperidone	Eligibility	52
+domperidone	CHEBI:31515	0-11
+mirtazapine	Eligibility	53
+mirtazapine	CHEBI:6950	0-11
+olanzapine	Eligibility	54
+olanzapine	CHEBI:7735	0-10
+prescribed cannabinoids (e.g., tetrahydrocannabinol or nabilone)	Eligibility	55
+nabilone	CHEBI:135574	55-63
+Over The Counter (OTC) antiemetics, OTC cold or OTC allergy medications.	Eligibility	56
+allergy	HP:0012393	52-59
+Scheduled to receive any strong or moderate inhibitor of CYP3A4 during the efficacy assessment period (Day 1 to Day 5, inclusive) or its intake within 1 week prior to Day 1.	Eligibility	57
+moderate	HP:0012826	35-43
+inhibitor	CHEBI:35222	44-53
+efficacy	BAO:0000656	75-83
+day	UO:0000033	103-106
+day	UO:0000033	112-115
+day	UO:0000033	167-170
+week	UO:0000034	153-157
+Scheduled to receive any CYP3A4 inducer during the efficacy assessment period (Day 1 to Day 5, inclusive) or its intake within 4 weeks prior to Day 1, with the exception of corticosteroids (for which exclusion criterion #12 applies).	Eligibility	58
+inducer	BAO:0003058	32-39
+efficacy	BAO:0000656	51-59
+day	UO:0000033	79-82
+day	UO:0000033	88-91
+day	UO:0000033	144-147
+History or predisposition to cardiac conduction abnormalities, except for incomplete right bundle branch block.	Eligibility	59
+history	BFO:0000182	0-7
+cardiac conduction	GO:0061337	29-47
+right bundle branch block	HP:0011712,DOID:13209	85-110
+History of risk factors for Torsades de Pointes (heart failure, hypokalemia, family history of Long QT Syndrome).	Eligibility	60
+history	BFO:0000182	0-7
+history	BFO:0000182	84-91
+heart	UBERON:0000948	49-54
+hypokalemia	HP:0002900,DOID:4500	64-75
+family history	HP:0032316	77-91
+long qt syndrome	DOID:2843	95-111
+Severe or uncontrolled cardiovascular diseases, including myocardial infarction within 3 months prior to Day 1, unstable angina pectoris, significant valvular or pericardial disease, history of ventricular tachycardia, symptomatic Congestive Heart Failure (CHF) New York Heart Association (NYHA) class III-IV, and severe uncontrolled arterial hypertension.	Eligibility	61
+severe	HP:0012828	0-6
+severe	HP:0012828	314-320
+myocardial infarction	HP:0001658,DOID:5844	58-79
+day	UO:0000033	105-108
+angina pectoris	HP:0001681	121-136
+disease	DOID:4,OGMS:0000031	38-45
+disease	DOID:4,OGMS:0000031	174-181
+history	BFO:0000182	183-190
+ventricular tachycardia	HP:0004756	194-217
+congestive heart failure	HP:0001635,DOID:6000	231-255
+heart	UBERON:0000948	242-247
+heart	UBERON:0000948	271-276
+hypertension	HP:0000822,DOID:10763	343-355
+All exclusion criteria with the exception of criteria #5, #12, and #14 will be checked at screening visit (Visit 1). Exclusion criteria #5, #12, and #14 will be checked at Day 1 (Visit 2) only.	Eligibility	62
+day	UO:0000033	172-175
+Exclusion criteria #3, #4, #7, #11, #13, #15, and #16 need to be re-checked at Day 1 (Visit 2).	Eligibility	63
+day	UO:0000033	79-82
+Cycles 2 to 4:	Eligibility	64
+The following exclusion criteria must be checked prior to inclusion at each repeated cycle:	Eligibility	65
+Scheduled to receive moderately or highly emetogenic antineoplastic agent in addition to the AC regimen, from 6 hours after the start of the AC chemotherapy on Day 1 of current cycle and up to Day 1 of the next cycle.	Eligibility	66
+antineoplastic agent	CHEBI:35610	53-73
+day	UO:0000033	160-163
+day	UO:0000033	193-196
+Active infection or uncontrolled disease that may pose unwarranted risks in administering the study drugs to the patient.	Eligibility	67
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	33-40
+patient	HADO:0000008,OAE:0001817	113-120
+Started any of the prohibited medications.	Eligibility	68
+Any vomiting, retching, or nausea (grade ≥ 1 as defined by National Cancer Institute) within 24 hours prior to the start of AC chemotherapy administration on Day 1.	Eligibility	69
+vomiting	HP:0002013	4-12
+nausea	HP:0002018	27-33
+cancer	DOID:162	68-74
+day	UO:0000033	158-161
+Received or is scheduled to receive radiation therapy to the abdomen or the pelvis within 1 week prior to the start of AC chemotherapy administration on Day 1 or between Days 1 to 5.	Eligibility	70
+abdomen	UBERON:0000916	61-68
+week	UO:0000034	92-96
+day	UO:0000033	153-156
+day	UO:0000033	170-173
+Symptomatic primary or metastatic CNS malignancy.	Eligibility	71
+Any illness or medical condition that, in the opinion of the investigator, may confound the results of the study or pose unwarranted risks in administering the investigational product or dexamethasone to the patient.	Eligibility	72
+condition	PDRO:0000129	23-32
+product	BAO:0003067	176-183
+dexamethasone	CHEBI:41879	187-200
+patient	HADO:0000008,OAE:0001817	208-215
+All exclusion criteria, with exception of criterion #4, will be checked at screening visit (Visit 1). Exclusion criterion #4 will be checked at Day 1 (Visit 2) only. Exclusion criteria #2, #3 and #5 need to be re-checked at Day 1 (Visit 2).	Eligibility	73
+day	UO:0000033	144-147
+day	UO:0000033	224-227
+Outcome Measurement:	Results	0
+Number of Participants With Treatment-emergent AEs at Cycle 1	Results	1
+[Not Specified]	Results	2
+Time frame: At the end of Cycle 1 (each cycle is 21 days)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Test Group	Results	5
+group	CHEBI:24433	4-9
+group	CHEBI:24433	22-27
+Arm/Group Description: intravenous fosnetupitant/ palonosetron (260 mg/0.25 mg) fixed-dose combination, administered as a 30-minute infusion of a 50 mL solution, on Day 1 of each cycle.	Results	6
+palonosetron	CHEBI:85161	50-62
+solution	CHEBI:75958	152-160
+day	UO:0000033	165-168
+Oral dexamethasone will be administered on Day 1 of each cycle (12 mg)	Results	7
+dexamethasone	CHEBI:41879	5-18
+day	UO:0000033	43-46
+fosnetupitant/ palonosetron: intravenous fosnetupitant/ palonosetron (260 mg/0.25 mg) fixed-dose combination	Results	8
+palonosetron	CHEBI:85161	15-27
+palonosetron	CHEBI:85161	56-68
+dexamethasone: Oral dexamethasone (12 mg)	Results	9
+dexamethasone	CHEBI:41879	0-13
+dexamethasone	CHEBI:41879	20-33
+Overall Number of Participants Analyzed: 200	Results	10
+Measure Type: Count of Participants	Results	11
+Unit of Measure: Participants  121  60.5%	Results	12
+Results 2:	Results	13
+Arm/Group Title: Control Group	Results	14
+group	CHEBI:24433	4-9
+group	CHEBI:24433	25-30
+Arm/Group Description: oral netupitant/palonosetron (300 mg/0.50 mg) fixed-dose combination on Day 1 of each cycle.	Results	15
+day	UO:0000033	95-98
+Oral dexamethasone will be administered on Day 1 of each cycle (12 mg)	Results	16
+dexamethasone	CHEBI:41879	5-18
+day	UO:0000033	43-46
+netupitant/palonosetron: oral netupitant/palonosetron (300 mg/0.50 mg) fixed-dose combination	Results	17
+dexamethasone: Oral dexamethasone (12 mg)	Results	18
+dexamethasone	CHEBI:41879	0-13
+dexamethasone	CHEBI:41879	20-33
+Overall Number of Participants Analyzed: 202	Results	19
+Measure Type: Count of Participants	Results	20
+Unit of Measure: Participants  122  60.4%	Results	21
+Adverse Events 1:	Adverse Events	0
+Total: 5/200 (2.50%)	Adverse Events	1
+Anaemia * 1/200 (0.50%)	Adverse Events	2
+Neutropenia * 1/200 (0.50%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile neutropenia * 0/200 (0.00%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation * 0/200 (0.00%)	Adverse Events	5
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Vomiting * 1/200 (0.50%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Pyrexia * 1/200 (0.50%)	Adverse Events	7
+Biliary colic * 1/200 (0.50%)	Adverse Events	8
+Urinary tract infection * 1/200 (0.50%)	Adverse Events	9
+urinary tract infection	DOID:0080784	0-23
+Clostridium difficile colitis * 0/200 (0.00%)	Adverse Events	10
+clostridium difficile colitis	HP:0032168,DOID:0060185	0-29
+Erysipelas * 1/200 (0.50%)	Adverse Events	11
+erysipelas	HP:0001055,DOID:11330	0-10
+Adverse Events 2:	Adverse Events	12
+Total: 4/202 (1.98%)	Adverse Events	13
+Anaemia * 1/202 (0.50%)	Adverse Events	14
+Neutropenia * 1/202 (0.50%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile neutropenia * 1/202 (0.50%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	8-19
+Atrial fibrillation * 1/202 (0.50%)	Adverse Events	17
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Vomiting * 0/202 (0.00%)	Adverse Events	18
+vomiting	HP:0002013	0-8
+Pyrexia * 0/202 (0.00%)	Adverse Events	19
+Biliary colic * 0/202 (0.00%)	Adverse Events	20
+Urinary tract infection * 1/202 (0.50%)	Adverse Events	21
+urinary tract infection	DOID:0080784	0-23
+Clostridium difficile colitis * 1/202 (0.50%)	Adverse Events	22
+clostridium difficile colitis	HP:0032168,DOID:0060185	0-29
+Erysipelas * 0/202 (0.00%)	Adverse Events	23
+erysipelas	HP:0001055,DOID:11330	0-10

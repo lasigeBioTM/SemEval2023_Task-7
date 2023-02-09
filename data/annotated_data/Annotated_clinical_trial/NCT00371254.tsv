@@ -1,0 +1,94 @@
+INTERVENTION 1:	Intervention	0
+Dasatinib 100 mg BID	Intervention	1
+Participants were administered an oral dose of 100 mg dasatinib tablet twice daily for a total daily dose (TDD) of 200 mg. Study treatment continued for as long as it was tolerated, or until progressive disease (PD), defined as appearance of new lesion/s, or >=20% increase in the sum of the longest diameter (LD) of target lesions, relative to the smallest sum LD recorded since treatment start, or unequivocal progression of existing non-target lesions.	Intervention	2
+progressive	HP:0003676	191-202
+disease	DOID:4,OGMS:0000031	203-210
+increase	BAO:0001251	265-273
+diameter	PATO:0001334	300-308
+target	BAO:0003064	317-323
+target	BAO:0003064	440-446
+INTERVENTION 2:	Intervention	3
+Dasatinib 70 mg BID	Intervention	4
+Participants were administered an oral dose of 70 mg dasatinib tablet twice daily for a TDD of 140 mg. Study treatment continued for as long as it was tolerated, or until PD, defined as appearance of new lesion/s, or >=20% increase in the sum of the LD of target lesions, relative to the smallest sum LD recorded since treatment start, or unequivocal progression of existing non-target lesions.	Intervention	5
+increase	BAO:0001251	223-231
+target	BAO:0003064	256-262
+target	BAO:0003064	379-385
+Inclusion Criteria:	Eligibility	0
+females, 18 or older	Eligibility	1
+recurrent or progressive locally advanced, or 'triple negative' metastatic breast cancer	Eligibility	2
+recurrent	HP:0031796	0-9
+progressive	HP:0003676	13-24
+breast cancer	DOID:1612	75-88
+paraffin-embedded tissue block must be available	Eligibility	3
+tissue	UBERON:0000479	18-24
+measurable disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+prior chemotherapy with an anthracycline, a taxane, or both (neoadjuvant, adjuvant, or metastatic setting)	Eligibility	5
+anthracycline	CHEBI:48120	27-40
+taxane	CHEBI:36064	44-50
+adjuvant	CHEBI:60809	64-72
+adjuvant	CHEBI:60809	74-82
+0, 1 or 2 chemotherapies in the metastatic setting	Eligibility	6
+adequate organ function	Eligibility	7
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	8
+Metastatic disease confined to bone only	Eligibility	9
+disease	DOID:4,OGMS:0000031	11-18
+Symptomatic CNS metastasis	Eligibility	10
+Concurrent medical condition which may increase the risk of toxicity	Eligibility	11
+condition	PDRO:0000129	19-28
+increase	BAO:0001251	39-47
+Unable to take oral medication	Eligibility	12
+Outcome Measurement:	Results	0
+Number of Participants With Complete Response (CR) or Partial Response (PR)	Results	1
+Tumor response was defined as the number of participants whose best response was CR or PR, per the Response Evaluation Criteria in Solid Tumor (RECIST): CR: disappearance of all target/non-target lesions; PR: >= 30% decrease in the sum of the LDs of target lesions relative to the baseline sum LD.	Results	2
+target	BAO:0003064	178-184
+target	BAO:0003064	189-195
+target	BAO:0003064	250-256
+Time frame: Baseline to end of study drug therapy (up to 65 weeks).	Results	3
+time	PATO:0000165	0-4
+drug	CHEBI:23888	37-41
+Results 1:	Results	4
+Arm/Group Title: Dasatinib 100 mg BID	Results	5
+Arm/Group Description: Participants were administered an oral dose of 100 mg dasatinib tablet twice daily for a total daily dose (TDD) of 200 mg. Study treatment continued for as long as it was tolerated, or until progressive disease (PD), defined as appearance of new lesion/s, or >=20% increase in the sum of the longest diameter (LD) of target lesions, relative to the smallest sum LD recorded since treatment start, or unequivocal progression of existing non-target lesions.	Results	6
+progressive	HP:0003676	214-225
+disease	DOID:4,OGMS:0000031	226-233
+increase	BAO:0001251	288-296
+diameter	PATO:0001334	323-331
+target	BAO:0003064	340-346
+target	BAO:0003064	463-469
+Overall Number of Participants Analyzed: 23	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  2	Results	9
+Results 2:	Results	10
+Arm/Group Title: Dasatinib 70 mg BID	Results	11
+Arm/Group Description: Participants were administered an oral dose of 70 mg dasatinib tablet twice daily for a TDD of 140 mg. Study treatment continued for as long as it was tolerated, or until PD, defined as appearance of new lesion/s, or >=20% increase in the sum of the LD of target lesions, relative to the smallest sum LD recorded since treatment start, or unequivocal progression of existing non-target lesions.	Results	12
+increase	BAO:0001251	246-254
+target	BAO:0003064	279-285
+target	BAO:0003064	402-408
+Overall Number of Participants Analyzed: 20	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 14/44 (31.82%)	Adverse Events	1
+MYOPERICARDITIS 1/44 (2.27%)	Adverse Events	2
+PERICARDIAL EFFUSION 2/44 (4.55%)	Adverse Events	3
+pericardial effusion	HP:0001698,DOID:118	0-20
+NAUSEA 1/44 (2.27%)	Adverse Events	4
+nausea	HP:0002018	0-6
+ASCITES 1/44 (2.27%)	Adverse Events	5
+ascites	HP:0001541	0-7
+VOMITING 2/44 (4.55%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+DYSPHAGIA 1/44 (2.27%)	Adverse Events	7
+dysphagia	HP:0002015	0-9
+CONSTIPATION 1/44 (2.27%)	Adverse Events	8
+constipation	HP:0002019,DOID:2089	0-12
+ABDOMINAL PAIN 1/44 (2.27%)	Adverse Events	9
+abdominal pain	HP:0002027	0-14
+PYREXIA 2/44 (4.55%)	Adverse Events	10
+GENERALISED OEDEMA 1/44 (2.27%)	Adverse Events	11
+GENERAL PHYSICAL HEALTH DETERIORATION 1/44 (2.27%)	Adverse Events	12
+INFECTION 1/44 (2.27%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14

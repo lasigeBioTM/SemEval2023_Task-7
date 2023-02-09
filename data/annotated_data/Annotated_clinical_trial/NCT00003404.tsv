@@ -1,0 +1,83 @@
+INTERVENTION 1:	Intervention	0
+Adjuvant Radiotherapy	Intervention	1
+adjuvant	CHEBI:60809	0-8
+radiotherapy	OAE:0000235	9-21
+Adjuvant radiation was started within 12 weeks of local excision or breast re-excision.	Intervention	2
+adjuvant	CHEBI:60809	0-8
+breast	UBERON:0000310	68-74
+Adjuvant Radiotherapy: Adjuvant radiation therapy	Intervention	3
+adjuvant	CHEBI:60809	0-8
+adjuvant	CHEBI:60809	23-31
+radiotherapy	OAE:0000235	9-21
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically proven phyllodes tumors of the breast with borderline or malignant grade, defined as 1 of the following:	Eligibility	1
+breast	UBERON:0000310	46-52
+borderline	HP:0012827	58-68
+Borderline, defined as 5-9 mitoses/10 high power fields (HPF), pushing or infiltrating margins, 2+ atypia	Eligibility	2
+borderline	HP:0012827	0-10
+hpf	CHEBI:190100	57-60
+Malignant, defined as 10 or more mitoses/10 HPF, predominantly infiltrating margins, usually 3+ atypia with occasional 2+ atypia	Eligibility	3
+hpf	CHEBI:190100	44-47
+occasional	HP:0040283	108-118
+Must have been excised with breast-conserving resection and no positive margins	Eligibility	4
+Local recurrence of a previously excised phyllodes tumor allowed if the recurrence is in the area of the prior excision	Eligibility	5
+area	PATO:0001323	93-97
+No prior breast carcinoma or ductal carcinoma in situ in the ipsilateral breast	Eligibility	6
+breast carcinoma	HP:0003002,DOID:3459	9-25
+ductal carcinoma in situ	HP:0030075,DOID:0060074	29-53
+breast	UBERON:0000310	9-15
+breast	UBERON:0000310	73-79
+Hormone receptor status: Not specified	Eligibility	7
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	8
+patient	HADO:0000008,OAE:0001817	0-7
+Age: 18 and over	Eligibility	9
+age	PATO:0000011	0-3
+Sex: Female	Eligibility	10
+female	PATO:0000383	5-11
+Menopausal status: Not specified	Eligibility	11
+Performance status: Not specified	Eligibility	12
+Life expectancy: Not specified	Eligibility	13
+Hematopoietic: Not specified	Eligibility	14
+Hepatic: Not specified	Eligibility	15
+Renal: Not specified	Eligibility	16
+Other:	Eligibility	17
+Not pregnant	Eligibility	18
+Negative pregnancy test	Eligibility	19
+Fertile patients must use effective contraception	Eligibility	20
+PRIOR CONCURRENT THERAPY:	Eligibility	21
+Biologic therapy: Not specified	Eligibility	22
+Chemotherapy: Not specified	Eligibility	23
+Endocrine therapy: Not specified	Eligibility	24
+Radiotherapy: No prior radiotherapy to the ipsilateral breast	Eligibility	25
+radiotherapy	OAE:0000235	0-12
+radiotherapy	OAE:0000235	23-35
+breast	UBERON:0000310	55-61
+Surgery: See Disease Characteristics	Eligibility	26
+surgery	OAE:0000067	0-7
+disease	DOID:4,OGMS:0000031	13-20
+Outcome Measurement:	Results	0
+Local Recurrence Rate	Results	1
+rate	BAO:0080019	17-21
+Local recurrence rate of phyllodes tumors	Results	2
+rate	BAO:0080019	17-21
+Time frame: 36 months after initial excision	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Adjuvant Radiotherapy	Results	5
+adjuvant	CHEBI:60809	17-25
+radiotherapy	OAE:0000235	26-38
+Arm/Group Description: Adjuvant radiation was started within 12 weeks of local excision or breast re-excision.	Results	6
+adjuvant	CHEBI:60809	23-31
+breast	UBERON:0000310	91-97
+Adjuvant Radiotherapy: Adjuvant radiation therapy	Results	7
+adjuvant	CHEBI:60809	0-8
+adjuvant	CHEBI:60809	23-31
+radiotherapy	OAE:0000235	9-21
+Overall Number of Participants Analyzed: 46	Results	8
+Measure Type: Count of Participants	Results	9
+Unit of Measure: Participants  0   0.0%	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 0/46 (0.00%)	Adverse Events	1

@@ -1,0 +1,279 @@
+INTERVENTION 1:	Intervention	0
+Cohort -1 (250mg BYL719, 3.6mg/kg T-DM1)	Intervention	1
+Patients receive 250 mg PO daily PI3K inhibitor BYL719 on days 1-21 and 3.6mg/kg IV over 30-90 minutes on day 1 ado-trastuzumab emtansine (T-DM1). Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Intervention	2
+inhibitor	CHEBI:35222	38-47
+day	UO:0000033	58-61
+day	UO:0000033	106-109
+day	UO:0000033	171-174
+disease	DOID:4,OGMS:0000031	194-201
+PI3K inhibitor BYL719: Given PO	Intervention	3
+inhibitor	CHEBI:35222	5-14
+Ado-trastuzumab emtansine: Given IV	Intervention	4
+Pharmacological study: Correlative studies	Intervention	5
+Laboratory biomarker analysis: Optional correlative studies	Intervention	6
+biomarker	CHEBI:59163	11-20
+INTERVENTION 2:	Intervention	7
+Cohort 1 (300mg BYL719, 3.6mg/kg T-DM1)	Intervention	8
+Patients receive 300 mg PO daily PI3K inhibitor BYL719 on days 1-21 and 3.6mg/kg IV over 30-90 minutes on day 1 ado-trastuzumab emtansine (T-DM1). Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Intervention	9
+inhibitor	CHEBI:35222	38-47
+day	UO:0000033	58-61
+day	UO:0000033	106-109
+day	UO:0000033	171-174
+disease	DOID:4,OGMS:0000031	194-201
+PI3K inhibitor BYL719: Given PO	Intervention	10
+inhibitor	CHEBI:35222	5-14
+Ado-trastuzumab emtansine: Given IV	Intervention	11
+Pharmacological study: Correlative studies	Intervention	12
+Laboratory biomarker analysis: Optional correlative studies	Intervention	13
+biomarker	CHEBI:59163	11-20
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically-confirmed HER2-positive breast cancer that is locally advanced or metastatic (stage 4); ideally this should be from biopsy of the metastatic disease; however if this is not available, histologic confirmation from the primary tumor is acceptable	Eligibility	1
+breast cancer	DOID:1612	58-71
+disease	DOID:4,OGMS:0000031	175-182
+Patients must have had progression on a trastuzumab and taxane-based chemotherapy regimen during or after treatment for locally advanced or metastatic disease or within 6 months after treatment for early-stage HER2-positive disease documented by one of the following results using Food and Drug Administration (FDA)-approved testing methods:	Eligibility	2
+disease	DOID:4,OGMS:0000031	151-158
+disease	DOID:4,OGMS:0000031	224-231
+food	CHEBI:33290	281-285
+drug administration	OAE:0000011	290-309
+Fluorescence in situ hybridization (FISH)-positive (with an amplification ratio >= 2.0 indicating positive status) and/or	Eligibility	3
+ratio	UO:0000190	74-79
+Immunohistochemistry (IHC) 3 + by local laboratory assessment	Eligibility	4
+immunohistochemistry	BAO:0000415	0-20
+Patients must have an Eastern Cooperative Oncology Group (ECOG) performance status =< 2	Eligibility	5
+group	CHEBI:24433	51-56
+Patients must have a life expectancy >= 90 days	Eligibility	6
+Patients must have baseline laboratory tests within the following parameters at least 4 weeks (28 days) prior to registration:	Eligibility	7
+Hemoglobin > 8 g/dL (which may be reached by transfusion)	Eligibility	8
+hemoglobin	CHEBI:35143	0-10
+Platelet count >= 100 x 10^9/L (no transfusion allowed within 2 weeks)	Eligibility	9
+platelet count	CMO:0000029	0-14
+x	LABO:0000148	22-23
+Absolute neutrophil count (ANC) >= 1.5 x 10^9/L without growth factor support	Eligibility	10
+x	LABO:0000148	39-40
+growth factor	BAO:0002024	56-69
+Serum bilirubin =< 1.5 x upper limit of normal (ULN)	Eligibility	11
+x	LABO:0000148	23-24
+Aspartate aminotransferase (AST)/serum glutamic oxaloacetic transaminase (SGOT) and/or alanine aminotransferase (ALT)/serum glutamate pyruvate transaminase (SGPT) =< 2.5 x upper limit of normal (ULN) or =< 5 x ULN if liver metastases are present	Eligibility	12
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	87-94
+glutamate	CHEBI:14321,BAO:0000926	124-133
+pyruvate	CHEBI:15361	134-142
+x	LABO:0000148	49-50
+x	LABO:0000148	170-171
+x	LABO:0000148	208-209
+liver	UBERON:0002107	217-222
+present	PATO:0000467	238-245
+Serum creatinine =< 1.5 x ULN or calculated or directly measured creatinine clearance (CrCl) >= 50% LLN (lower limit of normal)	Eligibility	13
+creatinine	CHEBI:16737	6-16
+creatinine	CHEBI:16737	65-75
+x	LABO:0000148	24-25
+creatinine clearance	CMO:0000765	65-85
+Fasting plasma glucose (FPG) < 140 mg/dL/7.8 mmol/L	Eligibility	14
+glucose	CHEBI:4167,BAO:0000924	15-22
+Patients with child-bearing potential must have a negative urine pregnancy test within 7 days prior to registration	Eligibility	15
+urine	UBERON:0001088	59-64
+Patients must have a baseline electrocardiogram (ECG) showing QT interval =< 460 msec within 14 days prior to registration	Eligibility	16
+qt interval	CMO:0000235	62-73
+Patients must provide written informed consent prior to any registration on study	Eligibility	17
+Patients must be willing and able to comply with scheduled visits, treatment plan and laboratory tests	Eligibility	18
+Patient must be able to swallow and retain oral medication	Eligibility	19
+patient	HADO:0000008,OAE:0001817	0-7
+Exclusion Criteria:	Eligibility	20
+Patients with prior sensitivity or intolerance to PI3K inhibitors are not eligible for participation	Eligibility	21
+Patients with a history of grade >= 3 hypersensitivity reaction to trastuzumab, OR grade >= 1 with the most recent trastuzumab infusion before study entry, OR continued requirement for prolonged trastuzumab infusions to prevent hypersensitivity reactions are not eligible for participation	Eligibility	22
+history	BFO:0000182	16-23
+hypersensitivity	GO:0002524,DOID:1205	38-54
+hypersensitivity	GO:0002524,DOID:1205	228-244
+prolonged	HP:0025297	185-194
+Patients with a history of intolerance to trastuzumab and/or adverse events related to trastuzumab that resulted in trastuzumab being permanently discontinued are not eligible for participation	Eligibility	23
+history	BFO:0000182	16-23
+Patients who have received prior treatment with T-DM1 are not eligible for participation	Eligibility	24
+Patients who have received prior anti-cancer therapy (e.g., biologic or other targeted therapy, chemotherapy, hormonal therapy) within 2 weeks prior to registration are not eligible for participation	Eligibility	25
+Patients with central nervous system (CNS) involvement may participate if the patient meets all of the following criteria:	Eligibility	26
+central nervous system	UBERON:0001017	14-36
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	78-85
+At least 4 weeks from prior therapy completion (including radiation and/or surgery) to starting the study treatment	Eligibility	27
+surgery	OAE:0000067	75-82
+Clinically stable with respect to the CNS tumor at the time of screening	Eligibility	28
+stable	HP:0031915	11-17
+time	PATO:0000165	55-59
+Not receiving steroid therapy	Eligibility	29
+steroid	CHEBI:35341	14-21
+Not receiving enzyme inducing anti-epileptic medications that were started for brain metastases	Eligibility	30
+enzyme	BAO:0000279	14-20
+brain	UBERON:0000955	79-84
+Patients who have received radiotherapy =< 4 weeks prior to registration, with the exception of palliative radiotherapy, who have not recovered from side effects of such therapy to baseline or grade =< 1 and/or from whom >= 30% of the bone marrow was irradiated are not eligible for participation	Eligibility	31
+radiotherapy	OAE:0000235	27-39
+radiotherapy	OAE:0000235	107-119
+bone marrow	UBERON:0002371	235-246
+Patients who have undergone major surgery =< 4 weeks prior to registration or who have not recovered from side effects of such procedure are not eligible for participation	Eligibility	32
+surgery	OAE:0000067	34-41
+Patients with clinically significant cardiac disease or impaired cardiac function are not eligible for participation; this includes patients with:	Eligibility	33
+disease	DOID:4,OGMS:0000031	45-52
+function	BAO:0003117,BFO:0000034	73-81
+Congestive heart failure (CHF) requiring treatment (New York Heart Association [NYHA] grade >= 2)	Eligibility	34
+congestive heart failure	HP:0001635,DOID:6000	0-24
+heart	UBERON:0000948	11-16
+heart	UBERON:0000948	61-66
+Left ventricular ejection fraction (LVEF) < 50% as determined by multi-gated acquisition (MUGA) scan or echocardiogram (ECHO)	Eligibility	35
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Uncontrolled arterial hypertension defined by blood pressure > 140/100 mm Hg at rest (average of 3 consecutive readings)	Eligibility	36
+hypertension	HP:0000822,DOID:10763	22-34
+blood	UBERON:0000178	46-51
+History or current evidence of unstable, clinically significant cardiac arrhythmias or patients that require medications with a narrow therapeutic window, atrial fibrillation and/or conduction abnormality (e.g. congenital long QT syndrome, high-grade/complete atrioventricular [AV]-blockage)	Eligibility	37
+history	BFO:0000182	0-7
+atrial fibrillation	HP:0005110,DOID:0060224	155-174
+long qt syndrome	DOID:2843	222-238
+Acute coronary syndromes (including myocardial infarction, unstable angina, coronary artery bypass graft [CABG], coronary angioplasty, or stenting), < 3 months prior to screening	Eligibility	38
+acute	HP:0011009,PATO:0000389	0-5
+myocardial infarction	HP:0001658,DOID:5844	36-57
+coronary artery	UBERON:0001621	76-91
+QT interval adjusted according to Fridericia (QTcF) > 460 msec on screening ECG	Eligibility	39
+qt interval	CMO:0000235	0-11
+Patients with diabetes mellitus requiring insulin treatment and/or with clinical signs or with fasting plasma glucose (FPG) >= 140 mg/dL/7.8 mmol/L, or history of documented steroid-induced diabetes mellitus are not eligible for participation	Eligibility	40
+diabetes mellitus	HP:0000819,DOID:9351	14-31
+diabetes mellitus	HP:0000819,DOID:9351	190-207
+insulin	CHEBI:145810	42-49
+glucose	CHEBI:4167,BAO:0000924	110-117
+history	BFO:0000182	152-159
+Patients exhibiting any other condition that would, in the Investigator's judgment, preclude patient's participation in the clinical study due to safety concerns or compliance with clinical study procedures are not eligible for participation; this might include, but is not limited to, infection/inflammation, intestinal obstruction, and/or social/psychological complications	Eligibility	41
+condition	PDRO:0000129	30-39
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	93-100
+intestinal obstruction	HP:0005214,DOID:8437	310-332
+Patients with impaired gastrointestinal (GI) function or GI disease that may significantly alter the absorption of oral BYL719 (e.g. ulcerative disease, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome, or small bowel resection) are not eligible for participation	Eligibility	42
+function	BAO:0003117,BFO:0000034	45-53
+disease	DOID:4,OGMS:0000031	60-67
+disease	DOID:4,OGMS:0000031	144-151
+nausea	HP:0002018	166-172
+vomiting	HP:0002013	174-182
+diarrhea	HP:0002014,DOID:13250	184-192
+malabsorption	HP:0002024	194-207
+syndrome	DOID:225	208-216
+Patients who are currently receiving medication with a known risk of prolonging the QT interval or inducing Torsades de Pointes (TdP) AND are unable to discontinue this medication or switch to a different medication prior to beginning study treatment are not eligible for participation	Eligibility	43
+qt interval	CMO:0000235	84-95
+tdp	CHEBI:61377	129-132
+Patients with a history of another malignancy within 2 years prior to registration are not eligible for participation; NOTE: the exceptions to this include cured basal cell carcinoma of the skin or excised carcinoma in situ of the cervix	Eligibility	44
+history	BFO:0000182	16-23
+basal cell carcinoma	HP:0002671,DOID:2513	162-182
+carcinoma	HP:0030731,DOID:305	173-182
+carcinoma	HP:0030731,DOID:305	206-215
+Patients receiving therapeutic doses of warfarin are not eligible for participation; NOTE: Patients with a need for therapeutic anticoagulation should be given low molecular weight heparin or other non-warfarin product	Eligibility	45
+warfarin	CHEBI:10033	40-48
+warfarin	CHEBI:10033	202-210
+heparin	CHEBI:28304	181-188
+product	BAO:0003067	211-218
+Pregnant or nursing (lactating) women are not eligible for participation; NOTE: Pregnancy is defined as the state of a female after conception and until the termination of gestation, confirmed by a positive human chorionic gonadotropin (hCG) laboratory test (> 5 mIU/mL)	Eligibility	46
+female	PATO:0000383	119-125
+chorionic gonadotropin	CHEBI:81570	213-235
+laboratory test	OGMS:0000056	242-257
+Women of child-bearing potential, defined as all women physiologically capable of becoming pregnant, are not eligible for participation UNLESS they agree to use highly effective methods of contraception during dosing and for 5 weeks after study drugs discontinuation; highly effective contraception methods include:	Eligibility	47
+Total abstinence (when this is in line with the preferred and usual lifestyle of the subject); periodic abstinence (e.g. calendar, ovulation, symptothermal, post-ovulation methods) and withdrawal are not acceptable methods of contraception	Eligibility	48
+periodic	HP:0025304	95-103
+ovulation	GO:0030728	131-140
+ovulation	GO:0030728	162-171
+Female sterilization (have had surgical bilateral oophorectomy with or without hysterectomy) or tubal ligation at least 5 weeks before receiving study treatment. In case of oophorectomy alone, the reproductive status of the woman must have been confirmed by follow up hormone level assessment	Eligibility	49
+female	PATO:0000383	0-6
+bilateral	HP:0012832	40-49
+hormone	CHEBI:24621	268-275
+Male sterilization (at least 6 months prior to screening); for female subjects on the study the vasectomized male partner should be the sole partner for that subject	Eligibility	50
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	65-69
+male	CHEBI:30780,PATO:0000384	109-113
+female	PATO:0000383	63-69
+Combination of the following:	Eligibility	51
+Placement of an intrauterine device (IUD) or intrauterine system (IUS)	Eligibility	52
+Barrier methods of contraception: condom or occlusive cap (diaphragm or cervical/vault caps) with spermicidal foam/gel/film/cream/vaginal suppository	Eligibility	53
+diaphragm	UBERON:0001103	59-68
+NOTE: Oral contraceptives (OC), injected or implanted hormonal methods are not allowed as the sole method of contraception, as BYL719 has not been characterized with respect to its potential to interfere with the PK and/or the effectiveness of OCs	Eligibility	54
+Outcome Measurement:	Results	0
+Dose Limiting Toxicity (DLT) of Dose-escalating BYL719 in Combination With T-DM1	Results	1
+DLTs of BYL719 in combination with T-DM1 will be assessed using National Cancer Institute's Common Toxicity Criteria for adverse events version 4.0 (except for hyperglycemia). A DLT is described any grade 3 or higher, clinically significant toxicity (excluding alopecia) experienced during the first 21 days following first dose of BYL719 that is determined to be at least possibly related to study medication. Lower grades may also be considered DLTs if they lead to a dose interruption of more than 7 consecutive days of BYL719. In general adverse events (AEs) will be graded according to the following:	Results	2
+cancer	DOID:162	73-79
+hyperglycemia	HP:0003074,DOID:4195	160-173
+alopecia	HP:0001596,DOID:987	261-269
+Grade 1 Mild AE Grade 2 Moderate AE Grade 3 Severe AE Grade 4 Life-threatening or disabling AE Grade 5 Death related to AE	Results	3
+mild	HP:0012825	8-12
+moderate	HP:0012826	24-32
+severe	HP:0012828	44-50
+death	OAE:0000632	103-108
+Time frame: The 1st 21 days (Cycle 1) of treatment	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Cohort -1 (250mg BYL719, 3.6mg/kg T-DM1)	Results	6
+Arm/Group Description: Patients receive 250 mg PO daily PI3K inhibitor BYL719 on days 1-21 and 3.6mg/kg IV over 30-90 minutes on day 1 ado-trastuzumab emtansine (T-DM1). Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Results	7
+inhibitor	CHEBI:35222	61-70
+day	UO:0000033	81-84
+day	UO:0000033	129-132
+day	UO:0000033	194-197
+disease	DOID:4,OGMS:0000031	217-224
+PI3K inhibitor BYL719: Given PO	Results	8
+inhibitor	CHEBI:35222	5-14
+Ado-trastuzumab emtansine: Given IV	Results	9
+Pharmacological study: Correlative studies	Results	10
+Laboratory biomarker analysis: Optional correlative studies	Results	11
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 3	Results	12
+Measure Type: Count of Participants	Results	13
+Unit of Measure: Participants  Thrombocytopenia: 0   0.0%	Results	14
+thrombocytopenia	HP:0001873,DOID:1588	31-47
+Rash Maculopapular: 0   0.0%	Results	15
+Results 2:	Results	16
+Arm/Group Title: Cohort 1 (300mg BYL719, 3.6mg/kg T-DM1)	Results	17
+Arm/Group Description: Patients receive 300 mg PO daily PI3K inhibitor BYL719 on days 1-21 and 3.6mg/kg IV over 30-90 minutes on day 1 ado-trastuzumab emtansine (T-DM1). Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity.	Results	18
+inhibitor	CHEBI:35222	61-70
+day	UO:0000033	81-84
+day	UO:0000033	129-132
+day	UO:0000033	194-197
+disease	DOID:4,OGMS:0000031	217-224
+PI3K inhibitor BYL719: Given PO	Results	19
+inhibitor	CHEBI:35222	5-14
+Ado-trastuzumab emtansine: Given IV	Results	20
+Pharmacological study: Correlative studies	Results	21
+Laboratory biomarker analysis: Optional correlative studies	Results	22
+biomarker	CHEBI:59163	11-20
+Overall Number of Participants Analyzed: 5	Results	23
+Measure Type: Count of Participants	Results	24
+Unit of Measure: Participants  Thrombocytopenia: 1  20.0%	Results	25
+thrombocytopenia	HP:0001873,DOID:1588	31-47
+Rash Maculopapular: 2  40.0%	Results	26
+Adverse Events 1:	Adverse Events	0
+Total: 3/11 (27.27%)	Adverse Events	1
+Acute pancreatitis  [1]1/11 (9.09%)	Adverse Events	2
+acute pancreatitis	HP:0001735,DOID:2913	0-18
+Wound Infection 0/11 (0.00%)	Adverse Events	3
+Elevated Fasting Plasma 1/11 (9.09%)	Adverse Events	4
+Tumor pain 0/11 (0.00%)	Adverse Events	5
+pain	HP:0012531	6-10
+Delirium 0/11 (0.00%)	Adverse Events	6
+delirium	HP:0031258	0-8
+Death due to Respiratory Failure 0/11 (0.00%)	Adverse Events	7
+death	OAE:0000632	0-5
+respiratory failure	HP:0002878,DOID:11162	13-32
+Epistaxis 1/11 (9.09%)	Adverse Events	8
+epistaxis	HP:0000421	0-9
+Hypoxemia 1/11 (9.09%)	Adverse Events	9
+hypoxemia	HP:0012418	0-9
+Pain of skin 0/11 (0.00%)	Adverse Events	10
+pain	HP:0012531	0-4
+Adverse Events 2:	Adverse Events	11
+Total: 3/6 (50.00%)	Adverse Events	12
+Acute pancreatitis  [1]0/6 (0.00%)	Adverse Events	13
+acute pancreatitis	HP:0001735,DOID:2913	0-18
+Wound Infection 1/6 (16.67%)	Adverse Events	14
+Elevated Fasting Plasma 0/6 (0.00%)	Adverse Events	15
+Tumor pain 1/6 (16.67%)	Adverse Events	16
+pain	HP:0012531	6-10
+Delirium 1/6 (16.67%)	Adverse Events	17
+delirium	HP:0031258	0-8
+Death due to Respiratory Failure 1/6 (16.67%)	Adverse Events	18
+death	OAE:0000632	0-5
+respiratory failure	HP:0002878,DOID:11162	13-32
+Epistaxis 0/6 (0.00%)	Adverse Events	19
+epistaxis	HP:0000421	0-9
+Hypoxemia 0/6 (0.00%)	Adverse Events	20
+hypoxemia	HP:0012418	0-9
+Pain of skin 1/6 (16.67%)	Adverse Events	21
+pain	HP:0012531	0-4

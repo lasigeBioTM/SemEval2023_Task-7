@@ -1,0 +1,116 @@
+INTERVENTION 1:	Intervention	0
+Pembrolizumab	Intervention	1
+Participants received pembrolizumab 200 mg IV every Q3W for up to 35 administrations (up to ~2 years).	Intervention	2
+INTERVENTION 2:	Intervention	3
+Chemotherapy	Intervention	4
+Participants received capecitabine, eribulin, gemcitabine, or vinorelbine as single agent chemotherapy chosen by the treating physician (Treatment of Physician's Choice, TPC) in accordance with local regulations and guidelines.	Intervention	5
+capecitabine	CHEBI:31348	22-34
+eribulin	CHEBI:63587	36-44
+gemcitabine	CHEBI:175901	46-57
+vinorelbine	CHEBI:480999	62-73
+Inclusion Criteria:	Eligibility	0
+Centrally confirmed Stage IV/M1 mTNBC	Eligibility	1
+Newly obtained tumor biopsy from metastatic site	Eligibility	2
+site	BFO:0000029	44-48
+Central determination of programmed cell death ligand 1 (PD-L1) tumor status	Eligibility	3
+central	HP:0030645	0-7
+programmed cell death	GO:0012501	25-46
+ligand	CHEBI:52214,GO:0005488	47-53
+Received either one or two prior systemic treatments for metastatic breast cancer and have documented disease progression on or after the most recent therapy	Eligibility	4
+breast cancer	DOID:1612	68-81
+disease	DOID:4,OGMS:0000031	102-109
+Previously treated with an anthracycline and/or taxane in the neoadjuvant/adjuvant or metastatic setting	Eligibility	5
+anthracycline	CHEBI:48120	27-40
+taxane	CHEBI:36064	48-54
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1 within 10 days prior to study start	Eligibility	6
+group	CHEBI:24433	29-34
+Adequate organ function	Eligibility	7
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	8
+Participation in another clinical trial within 4 weeks	Eligibility	9
+Monoclonal antibody (mAb) for direct anti-neoplastic treatment within 4 weeks	Eligibility	10
+monoclonal	BAO:0000503	0-10
+antibody	GO:0042571,BAO:0000502	11-19
+Chemotherapy, targeted small molecule therapy, or radiation therapy within at least 2 weeks	Eligibility	11
+small molecule	BAO:0000176	23-37
+Active autoimmune disease that required systemic treatment in the past 2 years	Eligibility	12
+active	PATO:0002354	0-6
+autoimmune disease	DOID:417	7-25
+Diagnosed with immunodeficiency or receiving systemic steroid therapy or another form of immunosuppressive therapy within 7 days	Eligibility	13
+immunodeficiency	HP:0002721	15-31
+steroid	CHEBI:35341	54-61
+Known additional malignancy that required treatment or progressed in last 5 years	Eligibility	14
+Known active brain metastases and/or carcinomatous meningitis	Eligibility	15
+active	PATO:0002354	6-12
+brain	UBERON:0000955	13-18
+meningitis	HP:0001287,DOID:9471	51-61
+Prior therapy with an anti-programmed cell death (PD)-1, anti-PD-ligand-1 (anti-PD-L1), anti-PD-L2 agent or with an agent directed to another co-inhibitory T-cell receptor (e.g. cytotoxic T-lymphocyte associated protein 4 [CTLA-4], OX-40, CD137) or previously participated in any pembrolizumab (MK-3475) clinical studies	Eligibility	16
+cell death	GO:0008219	38-48
+receptor	BAO:0000281	163-171
+protein	CHEBI:36080,BAO:0000175	212-219
+Outcome Measurement:	Results	0
+Overall Survival in Participants With Programmed Cell Death Ligand 1 (PD-L1) With Combined Positive Score (CPS) 10	Results	1
+programmed cell death	GO:0012501	38-59
+ligand	CHEBI:52214,GO:0005488	60-66
+Overall survival (OS) was defined as the time from randomization to death due to any cause.	Results	2
+time	PATO:0000165	41-45
+death	OAE:0000632	68-73
+Time frame: Up to approximately 36 months (through Final Analysis database cutoff date of 11-April-2019)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Pembrolizumab	Results	5
+Arm/Group Description: Participants received pembrolizumab 200 mg IV every Q3W for up to 35 administrations (up to ~2 years).	Results	6
+Overall Number of Participants Analyzed: 96	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  12.7        (9.9 to 16.3)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Chemotherapy	Results	11
+Arm/Group Description: Participants received capecitabine, eribulin, gemcitabine, or vinorelbine as single agent chemotherapy chosen by the treating physician (Treatment of Physician's Choice, TPC) in accordance with local regulations and guidelines.	Results	12
+capecitabine	CHEBI:31348	45-57
+eribulin	CHEBI:63587	59-67
+gemcitabine	CHEBI:175901	69-80
+vinorelbine	CHEBI:480999	85-96
+Overall Number of Participants Analyzed: 98	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Months  11.6        (8.3 to 13.7)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 65/309 (21.04%)	Adverse Events	1
+Anaemia 2/309 (0.65%)	Adverse Events	2
+Febrile neutropenia 1/309 (0.32%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 1/309 (0.32%)	Adverse Events	4
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 0/309 (0.00%)	Adverse Events	5
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/309 (0.00%)	Adverse Events	6
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac arrest 1/309 (0.32%)	Adverse Events	7
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardio-respiratory arrest 2/309 (0.65%)	Adverse Events	8
+Cardiogenic shock 1/309 (0.32%)	Adverse Events	9
+cardiogenic shock	HP:0030149	0-17
+Sinus tachycardia 1/309 (0.32%)	Adverse Events	10
+sinus tachycardia	HP:0011703	0-17
+Secondary adrenocortical insufficiency 1/309 (0.32%)	Adverse Events	11
+Adverse Events 2:	Adverse Events	12
+Total: 60/292 (20.55%)	Adverse Events	13
+Anaemia 2/292 (0.68%)	Adverse Events	14
+Febrile neutropenia 5/292 (1.71%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia 4/292 (1.37%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia 1/292 (0.34%)	Adverse Events	17
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 1/292 (0.34%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Cardiac arrest 0/292 (0.00%)	Adverse Events	19
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardio-respiratory arrest 0/292 (0.00%)	Adverse Events	20
+Cardiogenic shock 0/292 (0.00%)	Adverse Events	21
+cardiogenic shock	HP:0030149	0-17
+Sinus tachycardia 0/292 (0.00%)	Adverse Events	22
+sinus tachycardia	HP:0011703	0-17
+Secondary adrenocortical insufficiency 0/292 (0.00%)	Adverse Events	23

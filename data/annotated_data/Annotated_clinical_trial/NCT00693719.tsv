@@ -1,0 +1,127 @@
+INTERVENTION 1:	Intervention	0
+Etoposide/Irinotecan	Intervention	1
+Irinotecan hydrochloride : Irinotecan 100 mg/m2 IV days 1 and 15, 28 day/Cycle	Intervention	2
+irinotecan	CHEBI:80630	0-10
+irinotecan	CHEBI:80630	27-37
+hydrochloride	CHEBI:36807	11-24
+Etoposide : 50 mg PO x14 days followed by 2 weeks off, 28 day/Cycle	Intervention	3
+etoposide	CHEBI:4911	0-9
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Diagnosis of locally advanced or metastatic breast cancer	Eligibility	1
+breast cancer	DOID:1612	44-57
+Recurrent, refractory or progressive disease after receiving prior anthracycline, taxane, and capecitabine therapy	Eligibility	2
+recurrent	HP:0031796	0-9
+refractory	HP:0031375	11-21
+progressive	HP:0003676	25-36
+disease	DOID:4,OGMS:0000031	37-44
+anthracycline	CHEBI:48120	67-80
+taxane	CHEBI:36064	82-88
+capecitabine	CHEBI:31348	94-106
+Prior anthracycline and taxane therapy may have been as neoadjuvant, or adjuvant therapy if disease progression is documented within a year of completing that agent	Eligibility	3
+anthracycline	CHEBI:48120	6-19
+taxane	CHEBI:36064	24-30
+adjuvant	CHEBI:60809	59-67
+adjuvant	CHEBI:60809	72-80
+disease	DOID:4,OGMS:0000031	92-99
+year	UO:0000036	135-139
+Received prior capecitabine therapy for metastatic or recurrent disease	Eligibility	4
+capecitabine	CHEBI:31348	15-27
+recurrent	HP:0031796	54-63
+disease	DOID:4,OGMS:0000031	64-71
+Measurable disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+Bone metastases requires other disease present that can be measured	Eligibility	6
+disease	DOID:4,OGMS:0000031	31-38
+present	PATO:0000467	39-46
+No brain metastases, unless documented to be controlled post-completion of local therapy (surgery and/or radiation therapy) for at least 4 weeks	Eligibility	7
+brain	UBERON:0000955	3-8
+surgery	OAE:0000067	90-97
+No meningeal carcinomatosis	Eligibility	8
+No malignant effusion as the only site of disease recurrence	Eligibility	9
+site	BFO:0000029	34-38
+disease	DOID:4,OGMS:0000031	42-49
+Hormone receptor status not specified	Eligibility	10
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	11
+patient	HADO:0000008,OAE:0001817	0-7
+Menopausal status not specified	Eligibility	12
+Performance status of 0-2	Eligibility	13
+Creatinine  1.5 mg/dL OR creatinine clearance  40 mL/min	Eligibility	14
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	25-35
+creatinine clearance	CMO:0000765	25-45
+Hemoglobin  10 g/dL	Eligibility	15
+hemoglobin	CHEBI:35143	0-10
+ANC  1,500/mm^3	Eligibility	16
+Platelet count  100,000/mm^3	Eligibility	17
+platelet count	CMO:0000029	0-14
+Bilirubin normal or hyperbilirubinemia < grade 1 (unless due to Gilbert syndrome with elevated total but normal levels of conjugated bilirubin)	Eligibility	18
+hyperbilirubinemia	HP:0002904,DOID:2741	20-38
+gilbert syndrome	DOID:2739	64-80
+Not pregnant or nursing	Eligibility	19
+Fertile patients must use effective contraception	Eligibility	20
+No other non-breast malignancy, except nonmelanoma skin cancer	Eligibility	21
+skin cancer	DOID:4159	51-62
+No other serious underlying medical condition, that in the opinion of the treating physician, would make study protocol unreasonably hazardous for the patient or would preclude the patient's ability to comply with the study protocol	Eligibility	22
+condition	PDRO:0000129	36-45
+patient	HADO:0000008,OAE:0001817	151-158
+patient	HADO:0000008,OAE:0001817	181-188
+PRIOR CONCURRENT THERAPY:	Eligibility	23
+See Disease Characteristic	Eligibility	24
+disease	DOID:4,OGMS:0000031	4-11
+Recovered from all prior chemotherapy or radiotherapy to NCI CTC grade  1	Eligibility	25
+radiotherapy	OAE:0000235	41-53
+Unlimited documented prior chemotherapy regimens allowed	Eligibility	26
+No prior irinotecan hydrochloride or etoposide	Eligibility	27
+irinotecan	CHEBI:80630	9-19
+hydrochloride	CHEBI:36807	20-33
+etoposide	CHEBI:4911	37-46
+No Hypericum perforatum (St. John's wort) 14 days prior to, during, or 7 days after completion of study therapy	Eligibility	28
+At least 7 days since prior and no concurrent phenytoin, carbamazepine, phenobarbital, or any other enzyme-inducing anticonvulsant drug (EIACD)	Eligibility	29
+phenytoin	CHEBI:8107	46-55
+carbamazepine	CHEBI:3387	57-70
+phenobarbital	CHEBI:8069	72-85
+anticonvulsant	CHEBI:35623	116-130
+drug	CHEBI:23888	131-135
+No concurrent aprepitant	Eligibility	30
+aprepitant	CHEBI:499361	14-24
+Outcome Measurement:	Results	0
+Median Time to Progression	Results	1
+median	BAO:0002174	0-6
+time	PATO:0000165	7-11
+Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions	Results	2
+increase	BAO:0001251	107-115
+increase	BAO:0001251	186-194
+diameter	PATO:0001334	142-150
+target	BAO:0003064	154-160
+target	BAO:0003064	204-210
+Time frame: Measured time from the start of treatment to the time the patient is first recorded as having disease progression or dies. If no progression or death while being followed via tumor assessment, censored at last date known alive, assesed up to 13 months	Results	3
+time	PATO:0000165	0-4
+time	PATO:0000165	21-25
+time	PATO:0000165	61-65
+patient	HADO:0000008,OAE:0001817	70-77
+disease	DOID:4,OGMS:0000031	106-113
+death	OAE:0000632	156-161
+Results 1:	Results	4
+Arm/Group Title: Etoposide/Irinotecan	Results	5
+Arm/Group Description: Irinotecan hydrochloride : Irinotecan 100 mg/m2 IV days 1 and 15, 28 day/Cycle	Results	6
+irinotecan	CHEBI:80630	23-33
+irinotecan	CHEBI:80630	50-60
+hydrochloride	CHEBI:36807	34-47
+Etoposide : 50 mg PO x14 days followed by 2 weeks off, 28 day/Cycle	Results	7
+etoposide	CHEBI:4911	0-9
+Overall Number of Participants Analyzed: 31	Results	8
+Median (Standard Error)	Results	9
+median	BAO:0002174	0-6
+Unit of Measure: Days  149         (33.83)	Results	10
+Adverse Events 1:	Adverse Events	0
+Total: 4/31 (12.90%)	Adverse Events	1
+Bleeding  1/31 (3.23%)	Adverse Events	2
+Pain  2/31 (6.45%)	Adverse Events	3
+pain	HP:0012531	0-4
+Dehydration  1/31 (3.23%)	Adverse Events	4
+dehydration	HP:0001944	0-11
+Dyspnea  1/31 (3.23%)	Adverse Events	5
+dyspnea	HP:0002094	0-7

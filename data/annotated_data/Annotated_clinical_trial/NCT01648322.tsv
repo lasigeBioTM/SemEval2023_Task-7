@@ -1,0 +1,167 @@
+INTERVENTION 1:	Intervention	0
+80 µg/kg/Dose of F-627(TC)	Intervention	1
+This dose of F-627 given only to subjects that are to have TC chemotherapy.	Intervention	2
+F-627: subcutaneous injection given 1 per chemotherapy.	Intervention	3
+INTERVENTION 2:	Intervention	4
+240 µg/kg/Dose of F-627 (TC)	Intervention	5
+This dose of F-627 given to subjects receiving TC or TAC chemotherapy.	Intervention	6
+F-627: subcutaneous injection given 1 per chemotherapy.	Intervention	7
+Inclusion Criteria:	Eligibility	0
+Show evidence of a signed (personally or by a legally acceptable representative) and dated informed consent document indicating that the patient has been informed of all pertinent aspects of the trial.	Eligibility	1
+document	IAO:0000310	108-116
+patient	HADO:0000008,OAE:0001817	137-144
+Females  18 years of age.	Eligibility	2
+age	PATO:0000011	21-24
+Diagnosed with Stage I-IV breast cancer.	Eligibility	3
+breast cancer	DOID:1612	26-39
+Subject is scheduled to undergo 4 cycles of TC or TAC chemotherapy (Taxotere®, doxorubicin and cyclophosphamide, 75, 50 and 600 mg/m2, respectively).	Eligibility	4
+doxorubicin	CHEBI:28748,BAO:0000639	79-90
+cyclophosphamide	CHEBI:4026	95-111
+ECOG Performance status of  2.	Eligibility	5
+White Blood Cell count (WBC)  4.0 × 109/L, hemoglobin  11.5 g/dL and a platelet count  150 × 109/L.	Eligibility	6
+white blood cell count	CMO:0000027	0-22
+hemoglobin	CHEBI:35143	43-53
+platelet count	CMO:0000029	71-85
+Demonstrate adequate renal, hepatic function (Liver function tests (ALT, AST, alkaline phosphatase and total bilirubin)) should be less than 2.5x upper limits of normal (ULN). Serum creatinine should be less than 1.7x ULN.	Eligibility	7
+function	BAO:0003117,BFO:0000034	36-44
+function	BAO:0003117,BFO:0000034	52-60
+liver	UBERON:0002107	46-51
+phosphatase	GO:0016791,BAO:0000295	87-98
+creatinine	CHEBI:16737	182-192
+All subjects must agree to use at least one of the following types of contraception: intrauterine device, implantable progesterone device, progesterone intramuscular injection, or oral contraceptive, which has been started at least one month prior to visit one and will continue for the duration of the trial. The contraceptive patch or condom use with spermicide are also acceptable forms of contraception as long as they will be used continually throughout the duration of the trial.	Eligibility	8
+progesterone	CHEBI:17026	118-130
+progesterone	CHEBI:17026	139-151
+oral contraceptive	CHEBI:49325	180-198
+month	UO:0000035	236-241
+duration	PATO:0001309	287-295
+duration	PATO:0001309	463-471
+Exclusion Criteria:	Eligibility	9
+Subject is <18 or  75 years of age.	Eligibility	10
+age	PATO:0000011	31-34
+Disease progression has occurred while receiving a taxane regimen.	Eligibility	11
+disease	DOID:4,OGMS:0000031	0-7
+taxane	CHEBI:36064	51-57
+Subject has undergone radiation therapy within 4 weeks of enrollment.	Eligibility	12
+Subject has undergone bone marrow or stem-cell transplantation.	Eligibility	13
+bone marrow	UBERON:0002371	22-33
+Subject has a history of prior malignancy other than breast cancer.	Eligibility	14
+history	BFO:0000182	14-21
+breast cancer	DOID:1612	53-66
+Subjects that have used G-CSF within 6 weeks of the screening period are also excluded	Eligibility	15
+excluded	HP:0040285	78-86
+Subject has had chemotherapy within 365 days of screening	Eligibility	16
+Subject has documented congestive heart failure, cardiomyopathy or myocardial infarction by clinical diagnosis, ECG test, or any other relevant test.	Eligibility	17
+congestive heart failure	HP:0001635,DOID:6000	23-47
+cardiomyopathy	HP:0001638,DOID:0050700	49-63
+myocardial infarction	HP:0001658,DOID:5844	67-88
+History of alcohol or drug abuse that would interfere with the ability to be compliant with the study procedure.	Eligibility	18
+history	BFO:0000182	0-7
+alcohol	CHEBI:16236	11-18
+drug	CHEBI:23888	22-26
+Unwillingness to participate in the study.	Eligibility	19
+Any underlying medical condition that, in the Investigator's opinion, would make the administration of study drug hazardous to the patient or that would obscure the interpretation of adverse events.	Eligibility	20
+condition	PDRO:0000129	23-32
+drug	CHEBI:23888	109-113
+patient	HADO:0000008,OAE:0001817	131-138
+Receiving other investigational drugs or biologics within 1 month or five half lives of enrollment.	Eligibility	21
+month	UO:0000035	60-65
+Any condition, which can cause splenomegaly.	Eligibility	22
+condition	PDRO:0000129	4-13
+splenomegaly	HP:0001744	31-43
+Chronic constipation or diarrhea, irritable bowel syndrome, inflammatory bowel disease.	Eligibility	23
+chronic constipation	HP:0012450	0-20
+diarrhea	HP:0002014,DOID:13250	24-32
+irritable bowel syndrome	DOID:9778	34-58
+inflammatory bowel disease	DOID:0050589	60-86
+ALT, AST, alkaline phosphatase > 2.5 upper limit of normal.	Eligibility	24
+phosphatase	GO:0016791,BAO:0000295	19-30
+Patients with active infection, or known to be infected with chronic active Hepatitis B within the last 1 year (unless shown at the time of study entry to be Hepatitis B antigen negative), or having any history of Hepatitis C.	Eligibility	25
+active	PATO:0002354	14-20
+active	PATO:0002354	69-75
+chronic active hepatitis	HP:0200120	61-85
+hepatitis b	DOID:2043	76-87
+hepatitis b	DOID:2043	158-169
+year	UO:0000036	106-110
+time	PATO:0000165	132-136
+antigen	CHEBI:59132	170-177
+history	BFO:0000182	203-210
+hepatitis c	DOID:1883	214-225
+Women who are pregnant or breast-feeding.	Eligibility	26
+Patients known to be seropositive for HIV, or who have had an AIDS defining illness or a known immunodeficiency disorder.	Eligibility	27
+immunodeficiency	HP:0002721	95-111
+disorder	OGMS:0000045	112-120
+Patients with a history of tuberculosis or exposure to tuberculosis. Patients that have received a prior chest X-ray for suspicion of tuberculosis are also excluded unless they have been confirmed to be PPD negative or they had latent tuberculosis that has been previously treated.	Eligibility	28
+history	BFO:0000182	16-23
+tuberculosis	DOID:399	27-39
+tuberculosis	DOID:399	55-67
+tuberculosis	DOID:399	134-146
+tuberculosis	DOID:399	235-247
+chest	UBERON:0001443	105-110
+excluded	HP:0040285	156-164
+Subjects with Sickle Cell disease	Eligibility	29
+disease	DOID:4,OGMS:0000031	26-33
+Subjects with known hypersensitivity to E.coli derived proteins' pegfilgrastim' filgrastim, or any other component of the study drug.	Eligibility	30
+hypersensitivity	GO:0002524,DOID:1205	20-36
+drug	CHEBI:23888	128-132
+Outcome Measurement:	Results	0
+Duration of Moderate Neurtopenia Post First Chemotherapy Administration	Results	1
+duration	PATO:0001309	0-8
+moderate	HP:0012826	12-20
+Number of days In which the patient has had an absolute neutrophil count (ANC) Level < 2.0 x 10^9/L after first cycle of chemotherapy	Results	2
+patient	HADO:0000008,OAE:0001817	28-35
+x	LABO:0000148	91-92
+Time frame: The first of 4, 21 Day Chemotherapy Cycles	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	31-34
+Results 1:	Results	4
+Arm/Group Title: 80  g/kg/Dose of F-627(TC)	Results	5
+Arm/Group Description: This dose of F-627 given only to subjects that are to have TC chemotherapy.	Results	6
+F-627: subcutaneous injection given 1 per chemotherapy.	Results	7
+Overall Number of Participants Analyzed: 35	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: days  0.6         (1.26)	Results	10
+Results 2:	Results	11
+Arm/Group Title: 240  g/kg/Dose of F-627 (TC)	Results	12
+Arm/Group Description: This dose of F-627 given to subjects receiving TC or TAC chemotherapy.	Results	13
+F-627: subcutaneous injection given 1 per chemotherapy.	Results	14
+Overall Number of Participants Analyzed: 37	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: days  0.6         (1.01)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/35 (0.00%)	Adverse Events	1
+Febrile neutropenia * 0/35 (0.00%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Pancreatitis * 0/35 (0.00%)	Adverse Events	3
+pancreatitis	HP:0001733,DOID:4989	0-12
+Hepatitis Toxic * 0/35 (0.00%)	Adverse Events	4
+hepatitis	HP:0012115,DOID:2237	0-9
+Cholecystitis acute * 0/35 (0.00%)	Adverse Events	5
+cholecystitis	HP:0001082,DOID:1949	0-13
+acute	HP:0011009,PATO:0000389	14-19
+Pneumonia * 0/35 (0.00%)	Adverse Events	6
+pneumonia	HP:0002090,DOID:552	0-9
+Gastroenteritis * 0/35 (0.00%)	Adverse Events	7
+gastroenteritis	DOID:2326	0-15
+Hypersensitivity vasculitis * 0/35 (0.00%)	Adverse Events	8
+hypersensitivity vasculitis	DOID:9809	0-27
+Adverse Events 2:	Adverse Events	9
+Total: 1/67 (1.49%)	Adverse Events	10
+Febrile neutropenia * 0/67 (0.00%)	Adverse Events	11
+neutropenia	HP:0001875,DOID:1227	8-19
+Pancreatitis * 0/67 (0.00%)	Adverse Events	12
+pancreatitis	HP:0001733,DOID:4989	0-12
+Hepatitis Toxic * 0/67 (0.00%)	Adverse Events	13
+hepatitis	HP:0012115,DOID:2237	0-9
+Cholecystitis acute * 0/67 (0.00%)	Adverse Events	14
+cholecystitis	HP:0001082,DOID:1949	0-13
+acute	HP:0011009,PATO:0000389	14-19
+Pneumonia * 1/67 (1.49%)	Adverse Events	15
+pneumonia	HP:0002090,DOID:552	0-9
+Gastroenteritis * 0/67 (0.00%)	Adverse Events	16
+gastroenteritis	DOID:2326	0-15
+Hypersensitivity vasculitis * 0/67 (0.00%)	Adverse Events	17
+hypersensitivity vasculitis	DOID:9809	0-27

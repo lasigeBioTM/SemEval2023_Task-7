@@ -1,0 +1,130 @@
+INTERVENTION 1:	Intervention	0
+No Exercise	Intervention	1
+Multivitamin Arm + Calcitriol Arm:Calcitriol pill taken once per week	Intervention	2
+calcitriol	CHEBI:17823	19-29
+calcitriol	CHEBI:17823	34-44
+week	UO:0000034	65-69
+INTERVENTION 2:	Intervention	3
+Exercise	Intervention	4
+Exercise Arm: Exercise consisting of progressive walking and resistance band training	Intervention	5
+progressive	HP:0003676	37-48
+Calcitriol+ Exercise Arm: Calcitriol pill taken once per week + Exercise	Intervention	6
+calcitriol	CHEBI:17823	0-10
+calcitriol	CHEBI:17823	26-36
+week	UO:0000034	57-61
+Inclusion Criteria:	Eligibility	0
+Must be female.	Eligibility	1
+female	PATO:0000383	8-14
+Women of child-bearing potential (i.e. women who are pre-menopausal or not surgically sterile) must use acceptable contraceptive methods (abstinence, intrauterine device (IUD), or double barrier device) and must have a negative serum or urine pregnancy test within 1 week prior to beginning treatment on this trial. Contraceptive use needs to be continued at least 1 month after the trial has ended.	Eligibility	2
+urine	UBERON:0001088	237-242
+week	UO:0000034	267-271
+month	UO:0000035	367-372
+Must provide informed consent.	Eligibility	3
+Must be willing to discontinue use of calcium and/or vitamin D supplements.	Eligibility	4
+calcium	CHEBI:22984,BAO:0000874	38-45
+vitamin d	CHEBI:27300	53-62
+Participants must have an ionized serum calcium level within normal limits (1.19-1.29mmol/L) and a total corrected serum calcium of < 10.2mg/dl.	Eligibility	5
+serum calcium level	CMO:0000503	34-53
+calcium	CHEBI:22984,BAO:0000874	40-47
+calcium	CHEBI:22984,BAO:0000874	121-128
+Must have a functional capacity rating of  2 on the Eastern Cooperative Oncology Group (ECOG) performance status when assessed at baseline.	Eligibility	6
+functional	BAO:0000010	12-22
+group	CHEBI:24433	81-86
+Must have the approval of their treating physician (or physician's nurse practitioner or physician's assistant) to participate in sub-maximal physiological fitness testing and a low to moderate home-based walking and progressive resistance exercise program and to receive the 12-week supplementation of calcitriol 45 μg. Participants assigned to either of the calcitriol treatment arms will be instructed to stop taking calcium and/or vitamin D supplements.	Eligibility	7
+moderate	HP:0012826	185-193
+progressive	HP:0003676	217-228
+calcitriol	CHEBI:17823	303-313
+calcitriol	CHEBI:17823	360-370
+calcium	CHEBI:22984,BAO:0000874	420-427
+vitamin d	CHEBI:27300	435-444
+Must be less than five years from the diagnosis of breast cancer and have received chemotherapy, radiation therapy, and/or hormonal therapy. Chemotherapy and radiation therapy, if received, must have been completed prior to study enrollment. Hormonal therapy may be ongoing.	Eligibility	8
+breast cancer	DOID:1612	51-64
+Exclusion Criteria:	Eligibility	9
+Subjects with life-threatening conditions that would preclude them from breast cancer treatment including chronic cardiac failure, which is unstable despite medication use, uncontrolled hypertension, uncontrolled diabetes mellitus, or unstable coronary artery disease.	Eligibility	10
+breast cancer	DOID:1612	72-85
+chronic	HP:0011010	106-113
+hypertension	HP:0000822,DOID:10763	186-198
+diabetes mellitus	HP:0000819,DOID:9351	213-230
+coronary artery disease	DOID:3393	244-267
+Patients who had a myocardial infarction within the past year.	Eligibility	11
+myocardial infarction	HP:0001658,DOID:5844	19-40
+year	UO:0000036	57-61
+Patients with severe metabolic disorders, which includes phenylketonuria (PKU), homocystinuria, and Fabry's disease, that would preclude them from taking calcitriol.	Eligibility	12
+severe	HP:0012828	14-20
+phenylketonuria	DOID:9281	57-72
+homocystinuria	HP:0002156,DOID:9263	80-94
+disease	DOID:4,OGMS:0000031	108-115
+calcitriol	CHEBI:17823	154-164
+Patients with impaired renal function (CRCL < 60 mL/min) or who had kidney stones (calcium salt) within the past 5 years.	Eligibility	13
+function	BAO:0003117,BFO:0000034	29-37
+kidney	UBERON:0002113	68-74
+calcium salt	CHEBI:35156	83-95
+Patients with hypercalcemia (corrected serum Ca > 10.2 mg/dl) or a history of hypercalcemia or vitamin D toxicity.	Eligibility	14
+hypercalcemia	HP:0003072,DOID:12678	14-27
+hypercalcemia	HP:0003072,DOID:12678	78-91
+history	BFO:0000182	67-74
+vitamin d	CHEBI:27300	95-104
+Patients currently taking calcium supplements or aluminum-based antacids must be willing to discontinue their use if they are to enroll in the study.	Eligibility	15
+calcium	CHEBI:22984,BAO:0000874	26-33
+Patients currently taking vitamin D supplements must immediately discontinue their use if they are to enroll in the study.	Eligibility	16
+vitamin d	CHEBI:27300	26-35
+Patients with a known sensitivity to calcitriol.	Eligibility	17
+calcitriol	CHEBI:17823	37-47
+Women who are pregnant or lactating.	Eligibility	18
+Previously verified diagnosed of osteoporosis.	Eligibility	19
+osteoporosis	HP:0000939,DOID:11476	33-45
+Women on antiresorptive drugs (e.g. bisphosphonates) within the past year.	Eligibility	20
+year	UO:0000036	69-73
+Patients not capable of participating in an exercise intervention due to severe knee arthrosis or ligament/cartilage injuries of the lower extremities.	Eligibility	21
+severe	HP:0012828	73-79
+Women currently using oral contraception.	Eligibility	22
+Women with malabsorptive syndromes (i.e. cystic fibrosis, chronic pancreatitis) or taking medications that decrease the absorption of fat soluble vitamins (i.e. Orlistat, Questran).	Eligibility	23
+cystic fibrosis	DOID:1485	41-56
+chronic pancreatitis	HP:0006280	58-78
+orlistat	CHEBI:94686	161-169
+Participants assigned to calcitriol who are routinely taking a multivitamin supplement may continue the supplement as long as the amount of vitamin D in the supplement is not in excess of the RDA (recommended daily allowance) of 400 IU or 10 μg. If they are not taking a multivitamin supplement, they will be asked to not start supplementation while on study.	Eligibility	24
+calcitriol	CHEBI:17823	25-35
+vitamin d	CHEBI:27300	140-149
+Outcome Measurement:	Results	0
+Bone Resorption (Exercise)	Results	1
+bone resorption	GO:0045453	0-15
+Bone Resorption using Serum NTx (Exercise comparison)	Results	2
+bone resorption	GO:0045453	0-15
+Serum NTx level is used to aid in predicting skeletal response (bone mineral density) to antiresorptive therapy and in monitoring bone resorption changes following initiation of antiresorptive therapy. Elevated levels of serum NTx indicate elevated bone resorption. Elevated bone resorption is the primary cause of agerelated bone loss and that low bone mass often results in osteopenia and is the major cause of osteoporosis. The measurement range is in nanoMoles (NM) Bone Collagen Equivalents (BCE).	Results	3
+bone mineral density	CMO:0001226	64-84
+bone resorption	GO:0045453	130-145
+bone resorption	GO:0045453	249-264
+bone resorption	GO:0045453	275-290
+osteopenia	HP:0000938	376-386
+osteoporosis	HP:0000939,DOID:11476	413-425
+range	LABO:0000114	443-448
+collagen	CHEBI:3815	475-483
+Time frame: Week 12	Results	4
+time	PATO:0000165	0-4
+week	UO:0000034	12-16
+Results 1:	Results	5
+Arm/Group Title: No Exercise	Results	6
+Arm/Group Description: Multivitamin Arm + Calcitriol Arm:Calcitriol pill taken once per week	Results	7
+calcitriol	CHEBI:17823	42-52
+calcitriol	CHEBI:17823	57-67
+week	UO:0000034	88-92
+Overall Number of Participants Analyzed: 20	Results	8
+Least Squares Mean (Standard Error)	Results	9
+mean	BAO:0002173	14-18
+Unit of Measure: nm BCE  13.8         (1.656)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Exercise	Results	12
+Arm/Group Description: Exercise Arm: Exercise consisting of progressive walking and resistance band training	Results	13
+progressive	HP:0003676	60-71
+Calcitriol+ Exercise Arm: Calcitriol pill taken once per week + Exercise	Results	14
+calcitriol	CHEBI:17823	0-10
+calcitriol	CHEBI:17823	26-36
+week	UO:0000034	57-61
+Overall Number of Participants Analyzed: 19	Results	15
+Least Squares Mean (Standard Error)	Results	16
+mean	BAO:0002173	14-18
+Unit of Measure: nm BCE  14.7         (1.033)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/10 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/10 (0.00%)	Adverse Events	3

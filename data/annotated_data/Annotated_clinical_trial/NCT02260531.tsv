@@ -1,0 +1,225 @@
+INTERVENTION 1:	Intervention	0
+Cohort 1 - Cabozantinib, Trastuzumab for HER2+	Intervention	1
+cabozantinib	CHEBI:72317	11-23
+HER2-positive	Intervention	2
+Cabozantinib- orally administered daily per treatment cycle	Intervention	3
+Trastuzumab- IV administered once per cycle	Intervention	4
+MRI- Baseline, Cycle 2 Day 1, and every 2 cycles	Intervention	5
+day	UO:0000033	23-26
+Magnetic Resonance Angiography (MRA ), Baseline, Cycle 2 Day 1,	Intervention	6
+day	UO:0000033	57-60
+Cabozantinib: One, 60 mg tablet daily of each 21 day cycle. Number of Cycles: until progression or unacceptable toxicity develops.	Intervention	7
+cabozantinib	CHEBI:72317	0-12
+day	UO:0000033	49-52
+Trastuzumab: For HER2-Positive participants only. Administered by IV on day 1 of each 21 day cycle. Number of Cycles: until progression or unacceptable toxicity develops.	Intervention	8
+day	UO:0000033	72-75
+day	UO:0000033	89-92
+INTERVENTION 2:	Intervention	9
+Cohort 2 - Cabozantinib for ER+ and/or PR+	Intervention	10
+cabozantinib	CHEBI:72317	11-23
+Hormone receptor-positive (ER+ and/or PR+)	Intervention	11
+hormone	CHEBI:24621	0-7
+Cabozantinib- orally administered daily per treatment cycle	Intervention	12
+MRI- Baseline, Cycle 2 Day 1, and every 2 cycles	Intervention	13
+day	UO:0000033	23-26
+Magnetic Resonance Angiography (MRA ), Baseline, Cycle 2 Day 1,	Intervention	14
+day	UO:0000033	57-60
+Cabozantinib: One, 60 mg tablet daily of each 21 day cycle. Number of Cycles: until progression or unacceptable toxicity develops.	Intervention	15
+cabozantinib	CHEBI:72317	0-12
+day	UO:0000033	49-52
+Inclusion Criteria:	Eligibility	0
+Patients must have histologically or cytologically confirmed invasive breast cancer, with stage IV disease.	Eligibility	1
+breast cancer	DOID:1612	70-83
+disease	DOID:4,OGMS:0000031	99-106
+New or progressive CNS lesions, as assessed by the patient's treating physician.	Eligibility	2
+progressive	HP:0003676	7-18
+patient	HADO:0000008,OAE:0001817	51-58
+For patients who have received prior cranial radiation, no increase in corticosteroid dose in the week prior to the baseline brain MRI	Eligibility	3
+increase	BAO:0001251	59-67
+corticosteroid	CHEBI:50858	71-85
+week	UO:0000034	98-102
+brain	UBERON:0000955	125-130
+Discontinued prior therapy (with the exception of trastuzumab for patients with HER2+ breast cancer)	Eligibility	4
+breast cancer	DOID:1612	86-99
+Recovery to baseline or  Grade 1 CTCAE v.4.0 from toxicities related to any prior treatments, unless AE(s) are clinically nonsignificant and/or stable on supportive therapy;	Eligibility	5
+stable	HP:0031915	144-150
+The subject has an ECOG performance status of 0 or 1	Eligibility	6
+Patients must have normal organ and marrow function and laboratory values as follows within 14 days before the first dose of cabozantinib	Eligibility	7
+organ	UBERON:0000062	26-31
+function	BAO:0003117,BFO:0000034	43-51
+cabozantinib	CHEBI:72317	125-137
+Sexually active subjects (men and women) must agree to use medically accepted barrier methods of contraception (e.g., male or female condom) during the course of the study and for 4 months after the last dose of study drug(s)	Eligibility	8
+active	PATO:0002354	9-15
+male	CHEBI:30780,PATO:0000384	118-122
+male	CHEBI:30780,PATO:0000384	128-132
+female	PATO:0000383	126-132
+drug	CHEBI:23888	218-222
+Subjects of childbearing potential must not be pregnant at screening.	Eligibility	9
+Patients on bisphosphonates may continue receiving bisphosphonate therapy during study. Patients wanting to initiate bisphosphonate therapy may do so.	Eligibility	10
+The subject has had an assessment of all known disease sites eg, by computerized tomography (CT) scan, magnetic resonance imaging (MRI), bone scan as appropriate, within 28 days before the first dose of cabozantinib	Eligibility	11
+disease	DOID:4,OGMS:0000031	47-54
+tomography	BAO:0002525	81-91
+ct	BAO:0002125	9-11
+ct	BAO:0002125	93-95
+cabozantinib	CHEBI:72317	203-215
+Exclusion Criteria:	Eligibility	12
+The subject has received cabozantinib or another c-Met inhibitor (please note ARQ 197 is not considered a MET inhibitor for purposes of this study given data to suggest it inhibits tubulin)	Eligibility	13
+cabozantinib	CHEBI:72317	25-37
+inhibitor	CHEBI:35222	55-64
+inhibitor	CHEBI:35222	110-119
+The subject has uncontrolled, significant intercurrent or recent illness	Eligibility	14
+Leptomeningeal disease as the only site of CNS involvement	Eligibility	15
+disease	DOID:4,OGMS:0000031	15-22
+site	BFO:0000029	35-39
+Known contraindication to MRI with gadolinium contrast, such as cardiac pacemaker, shrapnel, or ocular foreign body	Eligibility	16
+contraindication	OAE:0000055	6-22
+More than 2 seizures over the last 4 weeks prior to study entry	Eligibility	17
+Grade 1 or higher CNS hemorrhage on baseline brain MRI, or history of grade 2 or higher CNS hemorrhage within 12 months	Eligibility	18
+brain	UBERON:0000955	45-50
+history	BFO:0000182	59-66
+Has experienced clinically-significant GI bleeding within 6 months before first dose of cabozantinib; hemoptysis of  0.5 teaspoon (2.5ml) of red blood within 3 months before the first dose of cabozantinib; any other signs indicative of pulmonary hemorrhage within 3 months before the first dose of cabozantinib	Eligibility	19
+cabozantinib	CHEBI:72317	88-100
+cabozantinib	CHEBI:72317	192-204
+cabozantinib	CHEBI:72317	298-310
+hemoptysis	HP:0002105	102-112
+blood	UBERON:0000178	145-150
+pulmonary hemorrhage	HP:0040223	236-256
+The subject has tumor in contact with, invading or encasing any major blood vessels	Eligibility	20
+blood	UBERON:0000178	70-75
+The subject has evidence of tumor invading the GI tract (esophagus, stomach, small or large bowel, rectum or anus), or any evidence of endotracheal or endobronchial tumor within 28 days before the first dose of cabozantinib	Eligibility	21
+esophagus	UBERON:0001043	57-66
+stomach	UBERON:0000945	68-75
+rectum	UBERON:0001052	99-105
+anus	UBERON:0001245	109-113
+cabozantinib	CHEBI:72317	211-223
+The subject requires concomitant treatment, in therapeutic doses, with anticoagulants. Low dose aspirin ( 81 mg/day), low-dose warfarin ( 1 mg/day), and prophylactic LMWH are permitted.	Eligibility	22
+warfarin	CHEBI:10033	127-135
+The subject has prothrombin time (PT)/INR or partial thromboplastin time (PTT) test 1.3 × the laboratory ULN within 7 days before the first dose of cabozantinib.	Eligibility	23
+prothrombin time	CMO:0000211	16-32
+time	PATO:0000165	28-32
+time	PATO:0000165	68-72
+cabozantinib	CHEBI:72317	148-160
+Inability to swallow intact tablets	Eligibility	24
+Pregnant or lactating females	Eligibility	25
+Diagnosis of another malignancy within 2 years before the first dose of cabozantinib, except for superficial skin cancers, or localized, low grade tumors deemed cured and not treated with systemic therapy	Eligibility	26
+cabozantinib	CHEBI:72317	72-84
+localized	HP:0012838,PATO:0000627	126-135
+Subjects with clinically relevant ongoing complications from prior radiation therapy are not eligible	Eligibility	27
+The subject is known to be positive for the human immunodeficiency virus (HIV)	Eligibility	28
+immunodeficiency	HP:0002721	50-66
+virus	BAO:0000232	67-72
+Subjects with clinically relevant ongoing complications from prior surgery are not eligible	Eligibility	29
+surgery	OAE:0000067	67-74
+QTcF > 500 msec on average of screening EKGs performed within 28 days of first dose of cabozantinib. Three EKGs must be performed at screening. If the average of these three consecutive results for QTcF is > 500 msec, the subject is ineligible.	Eligibility	30
+cabozantinib	CHEBI:72317	87-99
+Active infection requiring IV antibiotics at Day 1 of cycle 1	Eligibility	31
+active	PATO:0002354	0-6
+day	UO:0000033	45-48
+No prior lapatinib within 7 days prior to initiation of protocol treatment	Eligibility	32
+lapatinib	CHEBI:49603	9-18
+Receive concurrent investigational agents while on study	Eligibility	33
+Receive any concurrent chemotherapy, radiotherapy, or hormonal therapy while on study	Eligibility	34
+radiotherapy	OAE:0000235	37-49
+Previously identified allergy or hypersensitivity to components of the cabozantinib formulations	Eligibility	35
+allergy	HP:0012393	22-29
+hypersensitivity	GO:0002524,DOID:1205	33-49
+cabozantinib	CHEBI:72317	71-83
+The subject requires chronic concomitant treatment with strong CYP3A4 inducers	Eligibility	36
+chronic	HP:0011010	21-28
+Outcome Measurement:	Results	0
+CNS Objective Response Rate (ORR)	Results	1
+rate	BAO:0080019	23-27
+The central nervous system (CNS) ORR was defined as the percentage of participants achieving complete response (CR) or partial response (PR) based on RECIST 1.1 criteria in the evaluation CNS lesions on treatment: CR is complete disappearance of all target lesions and PR is at least a 30% decrease in the sum of longest diameter (LD) of target lesions, taking as reference baseline sum LD. PR or better overall response assumes at a minimum incomplete response/stable disease (SD) for the evaluation of non-target lesions and absence of new lesions.	Results	2
+central nervous system	UBERON:0001017	4-26
+target	BAO:0003064	250-256
+target	BAO:0003064	338-344
+target	BAO:0003064	508-514
+diameter	PATO:0001334	321-329
+disease	DOID:4,OGMS:0000031	469-476
+Time frame: Disease assessments occurred every 6 cycles. Patients with stable or responsive disease after completion of 6 cycles could reduce frequency of assessments to every 3 cycles. Response was evaluated up to 25 months.	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	12-19
+disease	DOID:4,OGMS:0000031	92-99
+stable	HP:0031915	71-77
+frequency	HP:0040279	142-151
+Results 1:	Results	4
+Arm/Group Title: Cohort 1 - Cabozantinib, Trastuzumab for HER2+	Results	5
+cabozantinib	CHEBI:72317	28-40
+Arm/Group Description: HER2-positive	Results	6
+Cabozantinib- orally administered daily per treatment cycle	Results	7
+Trastuzumab- IV administered once per cycle	Results	8
+MRI- Baseline, Cycle 2 Day 1, and every 2 cycles	Results	9
+day	UO:0000033	23-26
+Magnetic Resonance Angiography (MRA ), Baseline, Cycle 2 Day 1,	Results	10
+day	UO:0000033	57-60
+Cabozantinib: One, 60 mg tablet daily of each 21 day cycle. Number of Cycles: until progression or unacceptable toxicity develops.	Results	11
+cabozantinib	CHEBI:72317	0-12
+day	UO:0000033	49-52
+Trastuzumab: For HER2-Positive participants only. Administered by IV on day 1 of each 21 day cycle. Number of Cycles: until progression or unacceptable toxicity develops.	Results	12
+day	UO:0000033	72-75
+day	UO:0000033	89-92
+Overall Number of Participants Analyzed: 21	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  5        (.2 to 24)	Results	15
+Results 2:	Results	16
+Arm/Group Title: Cohort 2 - Cabozantinib for ER+ and/or PR+	Results	17
+cabozantinib	CHEBI:72317	28-40
+Arm/Group Description: Hormone receptor-positive (ER+ and/or PR+)	Results	18
+hormone	CHEBI:24621	23-30
+Cabozantinib- orally administered daily per treatment cycle	Results	19
+MRI- Baseline, Cycle 2 Day 1, and every 2 cycles	Results	20
+day	UO:0000033	23-26
+Magnetic Resonance Angiography (MRA ), Baseline, Cycle 2 Day 1,	Results	21
+day	UO:0000033	57-60
+Cabozantinib: One, 60 mg tablet daily of each 21 day cycle. Number of Cycles: until progression or unacceptable toxicity develops.	Results	22
+cabozantinib	CHEBI:72317	0-12
+day	UO:0000033	49-52
+Overall Number of Participants Analyzed: 7	Results	23
+Measure Type: Number	Results	24
+Unit of Measure: percentage of participants  14        (.4 to 58)	Results	25
+Adverse Events 1:	Adverse Events	0
+Total: 6/21 (28.57%)	Adverse Events	1
+Diarrhea 1/21 (4.76%)	Adverse Events	2
+diarrhea	HP:0002014,DOID:13250	0-8
+Dyspepsia 0/21 (0.00%)	Adverse Events	3
+dyspepsia	HP:0410281	0-9
+Mucositis oral 0/21 (0.00%)	Adverse Events	4
+mucositis	DOID:0080178	0-9
+Nausea 0/21 (0.00%)	Adverse Events	5
+nausea	HP:0002018	0-6
+Vomiting 1/21 (4.76%)	Adverse Events	6
+vomiting	HP:0002013	0-8
+Fatigue 1/21 (4.76%)	Adverse Events	7
+fatigue	HP:0012378	0-7
+Portal vein thrombosis 0/21 (0.00%)	Adverse Events	8
+portal vein thrombosis	HP:0030242,DOID:11695	0-22
+Ejection fraction decreased 1/21 (4.76%)	Adverse Events	9
+ejection fraction	CMO:0000180	0-17
+Alanine aminotransferase increased 0/21 (0.00%)	Adverse Events	10
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased 0/21 (0.00%)	Adverse Events	11
+aspartate	CHEBI:29995	0-9
+Lipase increased 3/21 (14.29%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 4/7 (57.14%)	Adverse Events	14
+Diarrhea 0/7 (0.00%)	Adverse Events	15
+diarrhea	HP:0002014,DOID:13250	0-8
+Dyspepsia 1/7 (14.29%)	Adverse Events	16
+dyspepsia	HP:0410281	0-9
+Mucositis oral 1/7 (14.29%)	Adverse Events	17
+mucositis	DOID:0080178	0-9
+Nausea 0/7 (0.00%)	Adverse Events	18
+nausea	HP:0002018	0-6
+Vomiting 0/7 (0.00%)	Adverse Events	19
+vomiting	HP:0002013	0-8
+Fatigue 1/7 (14.29%)	Adverse Events	20
+fatigue	HP:0012378	0-7
+Portal vein thrombosis 1/7 (14.29%)	Adverse Events	21
+portal vein thrombosis	HP:0030242,DOID:11695	0-22
+Ejection fraction decreased 0/7 (0.00%)	Adverse Events	22
+ejection fraction	CMO:0000180	0-17
+Alanine aminotransferase increased 1/7 (14.29%)	Adverse Events	23
+alanine	CHEBI:16449	0-7
+Aspartate aminotransferase increased 2/7 (28.57%)	Adverse Events	24
+aspartate	CHEBI:29995	0-9
+Lipase increased 0/7 (0.00%)	Adverse Events	25

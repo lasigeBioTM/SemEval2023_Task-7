@@ -1,0 +1,103 @@
+INTERVENTION 1:	Intervention	0
+Rosuvastatin 20mg	Intervention	1
+rosuvastatin	CHEBI:38545	0-12
+Rosuvastatin 20mg taken orally once a day for 4 weeks	Intervention	2
+rosuvastatin	CHEBI:38545	0-12
+day	UO:0000033	38-41
+rosuvastatin: Taken orally once a day for 4 weeks	Intervention	3
+rosuvastatin	CHEBI:38545	0-12
+day	UO:0000033	34-37
+INTERVENTION 2:	Intervention	4
+Rosuvastatin 40mg	Intervention	5
+rosuvastatin	CHEBI:38545	0-12
+Rosuvastatin 40mg taken orally once a day for 4 weeks	Intervention	6
+rosuvastatin	CHEBI:38545	0-12
+day	UO:0000033	38-41
+rosuvastatin: Taken orally once a day for 4 weeks	Intervention	7
+rosuvastatin	CHEBI:38545	0-12
+day	UO:0000033	34-37
+Inclusion Criteria:	Eligibility	0
+Metastatic adenocarcinoma of the breast (Stage IV)	Eligibility	1
+adenocarcinoma	DOID:299	11-25
+breast	UBERON:0000310	33-39
+Actively receiving endocrine therapy for at least 6 weeks (with or without HER2 therapy)	Eligibility	2
+Minimum age 18 years	Eligibility	3
+age	PATO:0000011	8-11
+ECOG Performance status of 0, 1 or 2	Eligibility	4
+Normal organ and marrow function as defined in the protocol	Eligibility	5
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	24-32
+Exclusion Criteria:	Eligibility	6
+Participants may not be receiving any other study agents	Eligibility	7
+Actively receiving chemotherapy (exclusive of hormonal or HER2 therapy ) within last 5 weeks	Eligibility	8
+Any statin therapy within the last 3 weeks	Eligibility	9
+statin	CHEBI:87631	4-10
+Asian decent (including Filipino, Chinese, Japanese, Korean, Vietnamese or Asian-Indian origin)	Eligibility	10
+Concomitant use of the following drugs: cyclosporine, fibrates, niacin, gemfibrozil, ketaconazole, spironolactone, cimetidine, warfarin, erythromycin, or protease inhibitors	Eligibility	11
+gemfibrozil	CHEBI:5296	72-83
+spironolactone	CHEBI:9241	99-113
+cimetidine	CHEBI:3699	115-125
+warfarin	CHEBI:10033	127-135
+erythromycin	CHEBI:42355	137-149
+protease	BAO:0000652	154-162
+Conditions predisposing to renal failure secondary to rhabdomyolysis	Eligibility	12
+rhabdomyolysis	HP:0003201	54-68
+Recent history of heavy alcohol use as judged by the treating physician	Eligibility	13
+history	BFO:0000182	7-14
+alcohol	CHEBI:16236	24-31
+Known to be pregnant (testing not required) or nursing	Eligibility	14
+History of rhabdomyolysis on statin therapy	Eligibility	15
+history	BFO:0000182	0-7
+rhabdomyolysis	HP:0003201	11-25
+statin	CHEBI:87631	29-35
+Known history of Hepatitis C or active hepatitis B infection (baseline testing not required)	Eligibility	16
+history	BFO:0000182	6-13
+hepatitis c	DOID:1883	17-28
+active	PATO:0002354	32-38
+hepatitis b	DOID:2043	39-50
+Uncontrolled intercurrent illness including, but not limited to ongoing or active infection, hepatitis, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	17
+active	PATO:0002354	75-81
+hepatitis	HP:0012115,DOID:2237	93-102
+congestive heart failure	HP:0001635,DOID:6000	116-140
+angina pectoris	HP:0001681	151-166
+arrhythmia	HP:0011675	176-186
+Outcome Measurement:	Results	0
+Mean Change of Tissue Factor Bearing Microparticles	Results	1
+mean	BAO:0002173	0-4
+tissue	UBERON:0000479	15-21
+Comparison of plasma microparticle concentration between baseline and week 4	Results	2
+week	UO:0000034	70-74
+Time frame: 4 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Rosuvastatin 20mg	Results	5
+rosuvastatin	CHEBI:38545	17-29
+Arm/Group Description: Rosuvastatin 20mg taken orally once a day for 4 weeks	Results	6
+rosuvastatin	CHEBI:38545	23-35
+day	UO:0000033	61-64
+rosuvastatin: Taken orally once a day for 4 weeks	Results	7
+rosuvastatin	CHEBI:38545	0-12
+day	UO:0000033	34-37
+Overall Number of Participants Analyzed: 8	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: microparticles per microliter  102         (586)	Results	10
+Results 2:	Results	11
+Arm/Group Title: Rosuvastatin 40mg	Results	12
+rosuvastatin	CHEBI:38545	17-29
+Arm/Group Description: Rosuvastatin 40mg taken orally once a day for 4 weeks	Results	13
+rosuvastatin	CHEBI:38545	23-35
+day	UO:0000033	61-64
+rosuvastatin: Taken orally once a day for 4 weeks	Results	14
+rosuvastatin	CHEBI:38545	0-12
+day	UO:0000033	34-37
+Overall Number of Participants Analyzed: 7	Results	15
+Mean (Standard Deviation)	Results	16
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: microparticles per microliter  -618         (624)	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/9 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/10 (0.00%)	Adverse Events	3

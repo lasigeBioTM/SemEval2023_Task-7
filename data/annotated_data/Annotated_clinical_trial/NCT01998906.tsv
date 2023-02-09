@@ -1,0 +1,145 @@
+INTERVENTION 1:	Intervention	0
+HER2+ TC	Intervention	1
+Participants with HER2+ breast cancer received treatment as follows:	Intervention	2
+breast cancer	DOID:1612	24-37
+Cycles 1-3 (3-week cycles): trastuzumab 8 mg/kg, IV on Day 1 (Cycle 1 only; 6 mg/kg in Cycles 2 and 3), doxorubicin 60 mg/m^2, IV, and paclitaxel 150 mg/m^2, IV, on Day 1 followed by 2 weeks off.	Intervention	3
+day	UO:0000033	55-58
+day	UO:0000033	165-168
+doxorubicin	CHEBI:28748,BAO:0000639	104-115
+paclitaxel	CHEBI:45863	135-145
+Cycles 4-7 (3-week cycles): trastuzumab 6 mg/kg, IV, paclitaxel 175 mg/m^2, IV, on Day 1, followed by 2 weeks off.	Intervention	4
+paclitaxel	CHEBI:45863	53-63
+day	UO:0000033	83-86
+Cycles 8-10 (3-week cycles): trastuzumab 6 mg/kg, IV, on Day 1 and cyclophosphamide 600 mg/m^2, IV, methotrexate 40 mg/m^2, IV, and 5-fluorouracil 600 mg/m^2, IV, (collectively CMF) on Days 1 and 8, followed by 2 weeks off.	Intervention	5
+day	UO:0000033	57-60
+day	UO:0000033	185-188
+cyclophosphamide	CHEBI:4026	67-83
+methotrexate	CHEBI:44185	100-112
+5-fluorouracil	CHEBI:46345	132-146
+Cycles 11-17 (3-week cycles): postoperatively, participants received trastuzumab 6 mg/kg IV on Day 1, followed by 2 weeks off for maximum of 17 overall cycles with trastuzumab. Adjuvant tamoxifen, 20 mg/day was administered for up to 5 years.	Intervention	6
+day	UO:0000033	95-98
+day	UO:0000033	203-206
+adjuvant	CHEBI:60809	177-185
+tamoxifen	CHEBI:41774	186-195
+INTERVENTION 2:	Intervention	7
+HER2+ C	Intervention	8
+Participants with HER2+ breast cancer received treatment as follows:	Intervention	9
+breast cancer	DOID:1612	24-37
+Cycles 1-3 (3-week cycles): doxorubicin 60 mg/m^2, IV and paclitaxel 150 mg/m^2, IV, on Day 1 followed by 2 weeks off.	Intervention	10
+doxorubicin	CHEBI:28748,BAO:0000639	28-39
+paclitaxel	CHEBI:45863	58-68
+day	UO:0000033	88-91
+Cycles 4-7 (3-week cycles): paclitaxel 175 mg/m^2, IV, on Day 1, followed by 2 weeks off.	Intervention	11
+paclitaxel	CHEBI:45863	28-38
+day	UO:0000033	58-61
+Cycles 8-10 (3-week cycles): cyclophosphamide 600 mg/m^2, IV, methotrexate 40 mg/m^2, IV, and 5-fluorouracil 600 mg/m^2, IV, on Days 1 and 8, followed by 1 week off.	Intervention	12
+cyclophosphamide	CHEBI:4026	29-45
+methotrexate	CHEBI:44185	62-74
+5-fluorouracil	CHEBI:46345	94-108
+week	UO:0000034	15-19
+week	UO:0000034	156-160
+Inclusion Criteria:	Eligibility	0
+female patients, >=18 years of age, with locally advanced breast cancer.	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	31-34
+breast cancer	DOID:1612	58-71
+Exclusion Criteria:	Eligibility	2
+previous therapy for any invasive malignancy.	Eligibility	3
+Outcome Measurement:	Results	0
+Event-Free Survival (EFS) - Percentage of Participants With an Event	Results	1
+EFS was defined as the time between randomization and date of documented occurrence of disease recurrence or progression (local, regional, distant or contralateral) or death due to any cause.	Results	2
+time	PATO:0000165	23-27
+disease	DOID:4,OGMS:0000031	87-94
+death	OAE:0000632	168-173
+Time frame: Baseline (BL), Presurgery: Day 1 (Cycles 1-7) and Days 1 and 8 (Cycles 8-10); Postsurgery: Day 1 (Cycles 1-17); every 6 months up to 60 months after last dose of study drug; yearly thereafter	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	39-42
+day	UO:0000033	62-65
+day	UO:0000033	103-106
+drug	CHEBI:23888	180-184
+Results 1:	Results	4
+Arm/Group Title: HER2+ TC	Results	5
+Arm/Group Description: Participants with HER2+ breast cancer received treatment as follows:	Results	6
+breast cancer	DOID:1612	47-60
+Cycles 1-3 (3-week cycles): trastuzumab 8 mg/kg, IV on Day 1 (Cycle 1 only; 6 mg/kg in Cycles 2 and 3), doxorubicin 60 mg/m^2, IV, and paclitaxel 150 mg/m^2, IV, on Day 1 followed by 2 weeks off.	Results	7
+day	UO:0000033	55-58
+day	UO:0000033	165-168
+doxorubicin	CHEBI:28748,BAO:0000639	104-115
+paclitaxel	CHEBI:45863	135-145
+Cycles 4-7 (3-week cycles): trastuzumab 6 mg/kg, IV, paclitaxel 175 mg/m^2, IV, on Day 1, followed by 2 weeks off.	Results	8
+paclitaxel	CHEBI:45863	53-63
+day	UO:0000033	83-86
+Cycles 8-10 (3-week cycles): trastuzumab 6 mg/kg, IV, on Day 1 and cyclophosphamide 600 mg/m^2, IV, methotrexate 40 mg/m^2, IV, and 5-fluorouracil 600 mg/m^2, IV, (collectively CMF) on Days 1 and 8, followed by 2 weeks off.	Results	9
+day	UO:0000033	57-60
+day	UO:0000033	185-188
+cyclophosphamide	CHEBI:4026	67-83
+methotrexate	CHEBI:44185	100-112
+5-fluorouracil	CHEBI:46345	132-146
+Cycles 11-17 (3-week cycles): postoperatively, participants received trastuzumab 6 mg/kg IV on Day 1, followed by 2 weeks off for maximum of 17 overall cycles with trastuzumab. Adjuvant tamoxifen, 20 mg/day was administered for up to 5 years.	Results	10
+day	UO:0000033	95-98
+day	UO:0000033	203-206
+adjuvant	CHEBI:60809	177-185
+tamoxifen	CHEBI:41774	186-195
+Overall Number of Participants Analyzed: 115	Results	11
+Measure Type: Number	Results	12
+Unit of Measure: percentage of participants  40.0	Results	13
+Results 2:	Results	14
+Arm/Group Title: HER2+ C	Results	15
+Arm/Group Description: Participants with HER2+ breast cancer received treatment as follows:	Results	16
+breast cancer	DOID:1612	47-60
+Cycles 1-3 (3-week cycles): doxorubicin 60 mg/m^2, IV and paclitaxel 150 mg/m^2, IV, on Day 1 followed by 2 weeks off.	Results	17
+doxorubicin	CHEBI:28748,BAO:0000639	28-39
+paclitaxel	CHEBI:45863	58-68
+day	UO:0000033	88-91
+Cycles 4-7 (3-week cycles): paclitaxel 175 mg/m^2, IV, on Day 1, followed by 2 weeks off.	Results	18
+paclitaxel	CHEBI:45863	28-38
+day	UO:0000033	58-61
+Cycles 8-10 (3-week cycles): cyclophosphamide 600 mg/m^2, IV, methotrexate 40 mg/m^2, IV, and 5-fluorouracil 600 mg/m^2, IV, on Days 1 and 8, followed by 1 week off.	Results	19
+cyclophosphamide	CHEBI:4026	29-45
+methotrexate	CHEBI:44185	62-74
+5-fluorouracil	CHEBI:46345	94-108
+week	UO:0000034	15-19
+week	UO:0000034	156-160
+Overall Number of Participants Analyzed: 116	Results	20
+Measure Type: Number	Results	21
+Unit of Measure: percentage of participants  50.9	Results	22
+Adverse Events 1:	Adverse Events	0
+Total: 18/115 (15.65%)	Adverse Events	1
+Febrile neutropenia * 7/115 (6.09%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 1/115 (0.87%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia * 1/115 (0.87%)	Adverse Events	4
+pancytopenia	HP:0001876,DOID:12450	0-12
+Diarrhoea * 0/115 (0.00%)	Adverse Events	5
+Nausea * 0/115 (0.00%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Stomatitis * 0/115 (0.00%)	Adverse Events	7
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting * 1/115 (0.87%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+Asthenia * 1/115 (0.87%)	Adverse Events	9
+asthenia	HP:0025406	0-8
+Mucosal inflammation * 0/115 (0.00%)	Adverse Events	10
+Pyrexia * 3/115 (2.61%)	Adverse Events	11
+Gastrointestinal infection * 1/115 (0.87%)	Adverse Events	12
+Adverse Events 2:	Adverse Events	13
+Total: 8/112 (7.14%)	Adverse Events	14
+Febrile neutropenia * 3/112 (2.68%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 2/112 (1.79%)	Adverse Events	16
+neutropenia	HP:0001875,DOID:1227	0-11
+Pancytopenia * 0/112 (0.00%)	Adverse Events	17
+pancytopenia	HP:0001876,DOID:12450	0-12
+Diarrhoea * 2/112 (1.79%)	Adverse Events	18
+Nausea * 2/112 (1.79%)	Adverse Events	19
+nausea	HP:0002018	0-6
+Stomatitis * 1/112 (0.89%)	Adverse Events	20
+stomatitis	HP:0010280,DOID:9637	0-10
+Vomiting * 1/112 (0.89%)	Adverse Events	21
+vomiting	HP:0002013	0-8
+Asthenia * 0/112 (0.00%)	Adverse Events	22
+asthenia	HP:0025406	0-8
+Mucosal inflammation * 1/112 (0.89%)	Adverse Events	23
+Pyrexia * 0/112 (0.00%)	Adverse Events	24
+Gastrointestinal infection * 0/112 (0.00%)	Adverse Events	25

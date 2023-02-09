@@ -1,0 +1,258 @@
+INTERVENTION 1:	Intervention	0
+LBH589 With Capecitabine	Intervention	1
+capecitabine	CHEBI:31348	12-24
+MTD, LBH589 with Capecitabine	Intervention	2
+mtd	BAO:0001248	0-3
+capecitabine	CHEBI:31348	17-29
+LBH589: LBH589 will be evaluated when administered twice weekly at the following possible dose levels: 20 mg, 30 mg, 45 mg, and 60 mg. Capecitabine will be paired with LBH589 and will range in dose from 825 mg/m2 to 1250 mg/m2 orally BID 14 of every 21 days. Treatment cycles will be 21 days in length. Once determined safe, 10 additional patients will be treated at the determined MTD to further assess safety.	Intervention	3
+capecitabine	CHEBI:31348	135-147
+range	LABO:0000114	184-189
+length	PATO:0000122	295-301
+mtd	BAO:0001248	382-385
+Capecitabine: Capecitabine will be administered orally twice daily for 14 days out of every 21 days.	Intervention	4
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	14-26
+INTERVENTION 2:	Intervention	5
+LBH589 and Lapatinib	Intervention	6
+lapatinib	CHEBI:49603	11-20
+LBH589 and Lapatinib	Intervention	7
+lapatinib	CHEBI:49603	11-20
+LBH589: LBH589 will be evaluated when administered twice weekly at the following possible dose levels: 20 mg, 30 mg, 45 mg, and 60 mg. Capecitabine will be paired with LBH589 and will range in dose from 825 mg/m2 to 1250 mg/m2 orally BID 14 of every 21 days. Treatment cycles will be 21 days in length. Once determined safe, 10 additional patients will be treated at the determined MTD to further assess safety.	Intervention	8
+capecitabine	CHEBI:31348	135-147
+range	LABO:0000114	184-189
+length	PATO:0000122	295-301
+mtd	BAO:0001248	382-385
+Lapatinib: Lapatinib, 1000 mg PO daily will be added to this combination.	Intervention	9
+lapatinib	CHEBI:49603	0-9
+lapatinib	CHEBI:49603	11-20
+Inclusion Criteria:	Eligibility	0
+Histologically documented metastatic or locally unresectable, incurable malignancy for which capecitabine is clinically appropriate.	Eligibility	1
+capecitabine	CHEBI:31348	93-105
+Male or female patients aged  18 years old.	Eligibility	2
+male	CHEBI:30780,PATO:0000384	0-4
+male	CHEBI:30780,PATO:0000384	10-14
+female	PATO:0000383	8-14
+Maximum of 3 prior regimens in a metastatic setting allowed and may include other targeted agents, immunotherapy and chemotherapy.	Eligibility	3
+Measurable disease by Response Evaluation Criteria in Solid Tumors (RECIST) criteria.	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+Eastern Cooperative Oncology Group performance status (ECOG PS) 0 or 1.	Eligibility	5
+group	CHEBI:24433	29-34
+Baseline MUGA or ECHO must demonstrate LVEF > than the lower limits of the institutional normal.	Eligibility	6
+Laboratory values as follows:	Eligibility	7
+ANC > 1500/μL	Eligibility	8
+Hgb > 9 g/dL	Eligibility	9
+Platelets > 100,000/uL	Eligibility	10
+Bilirubin < 1.5 mg/dL	Eligibility	11
+AST/SGOT < 2.5 x ULN or < 5.0 x ULN and ALT/SGPT in patients with liver metastases	Eligibility	12
+x	LABO:0000148	15-16
+x	LABO:0000148	30-31
+liver	UBERON:0002107	66-71
+Creatinine < 1.5 mg/dL or calculated creatinine clearance > 50 ml/min	Eligibility	13
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	37-47
+creatinine clearance	CMO:0000765	37-57
+Albumin > 3 g/dL	Eligibility	14
+Potassium > lower limit of normal (LLN)	Eligibility	15
+Phosphorous > LLN	Eligibility	16
+Calcium > LLN	Eligibility	17
+calcium	CHEBI:22984,BAO:0000874	0-7
+Magnesium > LLN	Eligibility	18
+Women of childbearing potential must have a negative serum or urine pregnancy test performed within 7 days prior to start of treatment and must commit to begin two acceptable methods of birth control, one highly effective method of birth control and one additional effective method at the same time before starting treatment.	Eligibility	19
+urine	UBERON:0001088	62-67
+time	PATO:0000165	294-298
+Life expectancy > 12 weeks.	Eligibility	20
+Accessible for treatment and follow-up.	Eligibility	21
+All patients must be able to understand the nature of the study and give written informed consent prior to study entry.	Eligibility	22
+Additional Breast Cancer Patient Subset (Part 2 and Part 3) Inclusion Criteria:	Eligibility	23
+breast cancer	DOID:1612	11-24
+patient	HADO:0000008,OAE:0001817	25-32
+Incurable carcinoma of the breast, with measurable locally recurrent or metastatic disease.	Eligibility	24
+carcinoma	HP:0030731,DOID:305	10-19
+breast	UBERON:0000310	27-33
+recurrent	HP:0031796	59-68
+disease	DOID:4,OGMS:0000031	83-90
+ICH 3+ overexpression or FISH amplification documented by a local laboratory in primary or metastatic tumor tissue.	Eligibility	25
+tissue	UBERON:0000479	108-114
+Prior treatment with an anthracycline, taxane, and trastuzumab or not a candidate for such treatment. Patient may have received these drugs in combination or in sequence for the treatment of locally advanced or metastatic disease and/or adjuvant therapy.	Eligibility	26
+anthracycline	CHEBI:48120	24-37
+taxane	CHEBI:36064	39-45
+patient	HADO:0000008,OAE:0001817	102-109
+disease	DOID:4,OGMS:0000031	222-229
+adjuvant	CHEBI:60809	237-245
+Exclusion Criteria:	Eligibility	27
+Prior treatment with an HDAC inhibitor or current treatment with valproic acid.	Eligibility	28
+inhibitor	CHEBI:35222	29-38
+valproic acid	CHEBI:39867	65-78
+Previous treatment with capecitabine.	Eligibility	29
+capecitabine	CHEBI:31348	24-36
+Impaired cardiac function including any of the following:	Eligibility	30
+function	BAO:0003117,BFO:0000034	17-25
+Screening ECG with a QTc > 450 msec.	Eligibility	31
+Congenital long QT syndrome.	Eligibility	32
+long qt syndrome	DOID:2843	11-27
+History of sustained ventricular tachycardia.	Eligibility	33
+history	BFO:0000182	0-7
+ventricular tachycardia	HP:0004756	21-44
+Any history of ventricular fibrillation or torsades de pointes.	Eligibility	34
+history	BFO:0000182	4-11
+ventricular fibrillation	HP:0001663	15-39
+Bradycardia defined as heart rate < 50 beats per minute. Patients with a pacemaker and heart rate > 50 beats per minute are eligible.	Eligibility	35
+bradycardia	HP:0001662	0-11
+heart rate	CMO:0000002	23-33
+heart rate	CMO:0000002	87-97
+minute	UO:0000031	49-55
+minute	UO:0000031	113-119
+Myocardial infarction or unstable angina within 6 months of study entry.	Eligibility	36
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Congestive heart failure (NY Heart Association class III or IV).	Eligibility	37
+congestive heart failure	HP:0001635,DOID:6000	0-24
+heart	UBERON:0000948	11-16
+heart	UBERON:0000948	29-34
+Right bundle branch block and left anterior hemiblock (bifascicular block).	Eligibility	38
+right bundle branch block	HP:0011712,DOID:13209	0-25
+left	HP:0012835	30-34
+Atrial fibrillation or flutter.	Eligibility	39
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Ongoing therapy with antiarrhythmics or other medications associated with QTc prolongation.	Eligibility	40
+Uncorrected hypokalemia or hypomagnesaemia.	Eligibility	41
+hypokalemia	HP:0002900,DOID:4500	12-23
+Uncontrolled hypertension (systolic blood pressure [BP] 180 or diastolic BP > 100 mm Hg) or uncontrolled cardiac arrhythmias.	Eligibility	42
+hypertension	HP:0000822,DOID:10763	13-25
+systolic blood pressure	CMO:0000004	27-50
+Active CNS disease, including meningeal metastases.	Eligibility	43
+active	PATO:0002354	0-6
+disease	DOID:4,OGMS:0000031	11-18
+Known diagnosis of human immunodeficiency virus (HIV) infection.	Eligibility	44
+immunodeficiency	HP:0002721	25-41
+virus	BAO:0000232	42-47
+Unresolved diarrhea > CTCAE grade 1.	Eligibility	45
+diarrhea	HP:0002014,DOID:13250	11-19
+Concomitant requirement for medication classified as CYP3A4 inducers or inhibitors.	Eligibility	46
+Patients with a history of allergic reactions attributed to compounds of similar chemical or biologic composition to lapatinib.	Eligibility	47
+history	BFO:0000182	16-23
+lapatinib	CHEBI:49603	117-126
+Patients with known hypersensitivity to 5-fluorouracil chemotherapy, investigational drug therapy, major surgery < 4 weeks prior to starting study drug or patients that have not recovered from side effects of previous therapy.	Eligibility	48
+hypersensitivity	GO:0002524,DOID:1205	20-36
+5-fluorouracil	CHEBI:46345	40-54
+drug	CHEBI:23888	85-89
+drug	CHEBI:23888	147-151
+surgery	OAE:0000067	105-112
+Patient is < 5 years free of another primary malignancy except if the other primary malignancy is not currently clinically significant or requiring active intervention, or if other primary malignancy is a basal cell skin cancer or a cervical carcinoma in situ. Existence of any other malignant disease is not allowed.	Eligibility	49
+patient	HADO:0000008,OAE:0001817	0-7
+active	PATO:0002354	148-154
+skin cancer	DOID:4159	216-227
+carcinoma	HP:0030731,DOID:305	242-251
+disease	DOID:4,OGMS:0000031	294-301
+Concomitant use of any anti-cancer therapy or radiation therapy.	Eligibility	50
+Pregnant or breast feeding or female of reproductive potential not using two effective methods of birth control.	Eligibility	51
+breast	UBERON:0000310	12-18
+female	PATO:0000383	30-36
+Male patients whose sexual partners are women of childbearing potential not using effective birth control.	Eligibility	52
+male	CHEBI:30780,PATO:0000384	0-4
+Patients with gastrointestinal (GI) tract disease, causing the inability to take oral medication, malabsorption syndrome, a requirement for intravenous (IV) alimentation, prior surgical procedures affecting absorption, uncontrolled inflammatory GI disease (e.g., Crohn's disease, ulcerative colitis).	Eligibility	53
+disease	DOID:4,OGMS:0000031	42-49
+disease	DOID:4,OGMS:0000031	248-255
+disease	DOID:4,OGMS:0000031	271-278
+malabsorption	HP:0002024	98-111
+syndrome	DOID:225	112-120
+ulcerative colitis	HP:0100279,DOID:8577	280-298
+Other concurrent severe, uncontrolled infection or intercurrent illness, including but not limited to ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	54
+severe	HP:0012828	17-23
+active	PATO:0002354	113-119
+congestive heart failure	HP:0001635,DOID:6000	143-167
+angina pectoris	HP:0001681	178-193
+arrhythmia	HP:0011675	203-213
+Patients taking any medications listed in "Prohibited Medications" for both capecitabine and lapatinib .	Eligibility	55
+capecitabine	CHEBI:31348	76-88
+lapatinib	CHEBI:49603	93-102
+Patients with uncontrolled coagulopathy (PT and/or PTT > 1.2 x ULN; patient must also be on stable dose of anticoagulant for a defined medical indication).	Eligibility	56
+x	LABO:0000148	61-62
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	68-75
+stable	HP:0031915	92-98
+anticoagulant	CHEBI:50249	107-120
+Abnormal thyroid function (TSH or free T4) detected at screening. Patients with known hypothyroidism who are stable on thyroid replacement are eligible.	Eligibility	57
+function	BAO:0003117,BFO:0000034	17-25
+hypothyroidism	HP:0000821,DOID:1459	86-100
+stable	HP:0031915	109-115
+Additional Breast Cancer Patient Subset (Part 2 and Part 3) Exclusion Criteria:	Eligibility	58
+breast cancer	DOID:1612	11-24
+patient	HADO:0000008,OAE:0001817	25-32
+1. Prior treatment with lapatinib	Eligibility	59
+lapatinib	CHEBI:49603	24-33
+Outcome Measurement:	Results	0
+To Determine the Maximum Tolerated Doses (MTD) and Dose-limiting Toxicities (DLT) of LBH589 in Combination With Capecitabine When Administered to Patients With Refractory and Advanced Tumor Types That Are Sensitive to 5-fluorouracil	Results	1
+mtd	BAO:0001248	42-45
+capecitabine	CHEBI:31348	112-124
+refractory	HP:0031375	160-170
+5-fluorouracil	CHEBI:46345	218-232
+MTD for Capecitabine, BID	Results	2
+mtd	BAO:0001248	0-3
+capecitabine	CHEBI:31348	8-20
+Time frame: 18 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: LBH589 With Capecitabine	Results	5
+capecitabine	CHEBI:31348	29-41
+Arm/Group Description: MTD, LBH589 with Capecitabine	Results	6
+mtd	BAO:0001248	23-26
+capecitabine	CHEBI:31348	40-52
+LBH589: LBH589 will be evaluated when administered twice weekly at the following possible dose levels: 20 mg, 30 mg, 45 mg, and 60 mg. Capecitabine will be paired with LBH589 and will range in dose from 825 mg/m2 to 1250 mg/m2 orally BID 14 of every 21 days. Treatment cycles will be 21 days in length. Once determined safe, 10 additional patients will be treated at the determined MTD to further assess safety.	Results	7
+capecitabine	CHEBI:31348	135-147
+range	LABO:0000114	184-189
+length	PATO:0000122	295-301
+mtd	BAO:0001248	382-385
+Capecitabine: Capecitabine will be administered orally twice daily for 14 days out of every 21 days.	Results	8
+capecitabine	CHEBI:31348	0-12
+capecitabine	CHEBI:31348	14-26
+Overall Number of Participants Analyzed: 15	Results	9
+Measure Type: Number	Results	10
+Unit of Measure: mg/m2  100	Results	11
+Results 2:	Results	12
+Arm/Group Title: LBH589 and Lapatinib	Results	13
+lapatinib	CHEBI:49603	28-37
+Arm/Group Description: LBH589 and Lapatinib	Results	14
+lapatinib	CHEBI:49603	34-43
+LBH589: LBH589 will be evaluated when administered twice weekly at the following possible dose levels: 20 mg, 30 mg, 45 mg, and 60 mg. Capecitabine will be paired with LBH589 and will range in dose from 825 mg/m2 to 1250 mg/m2 orally BID 14 of every 21 days. Treatment cycles will be 21 days in length. Once determined safe, 10 additional patients will be treated at the determined MTD to further assess safety.	Results	15
+capecitabine	CHEBI:31348	135-147
+range	LABO:0000114	184-189
+length	PATO:0000122	295-301
+mtd	BAO:0001248	382-385
+Lapatinib: Lapatinib, 1000 mg PO daily will be added to this combination.	Results	16
+lapatinib	CHEBI:49603	0-9
+lapatinib	CHEBI:49603	11-20
+Overall Number of Participants Analyzed: 0	Results	17
+Measure Type: Number	Results	18
+Unit of Measure: mg/m2	Results	19
+Adverse Events 1:	Adverse Events	0
+Total: 6/15 (40.00%)	Adverse Events	1
+Constipation 1/15 (6.67%)	Adverse Events	2
+constipation	HP:0002019,DOID:2089	0-12
+General disorders and administration site conditions - Other, disease progression 2/15 (13.33%)	Adverse Events	3
+site	BFO:0000029	37-41
+disease	DOID:4,OGMS:0000031	62-69
+General disorders and administration site conditions - Other, failure to thrive 0/15 (0.00%)	Adverse Events	4
+site	BFO:0000029	37-41
+failure to thrive	HP:0001508	62-79
+Infections and infestations - Other, unspecified 1/15 (6.67%)	Adverse Events	5
+Platelet count decreased 1/15 (6.67%)	Adverse Events	6
+platelet count	CMO:0000029	0-14
+Dehydration 0/15 (0.00%)	Adverse Events	7
+dehydration	HP:0001944	0-11
+Adverse Events 2:	Adverse Events	8
+Total: 3/5 (60.00%)	Adverse Events	9
+Constipation 0/5 (0.00%)	Adverse Events	10
+constipation	HP:0002019,DOID:2089	0-12
+General disorders and administration site conditions - Other, disease progression 1/5 (20.00%)	Adverse Events	11
+site	BFO:0000029	37-41
+disease	DOID:4,OGMS:0000031	62-69
+General disorders and administration site conditions - Other, failure to thrive 1/5 (20.00%)	Adverse Events	12
+site	BFO:0000029	37-41
+failure to thrive	HP:0001508	62-79
+Infections and infestations - Other, unspecified 0/5 (0.00%)	Adverse Events	13
+Platelet count decreased 0/5 (0.00%)	Adverse Events	14
+platelet count	CMO:0000029	0-14
+Dehydration 1/5 (20.00%)	Adverse Events	15
+dehydration	HP:0001944	0-11
+Dysarthria 0/5 (0.00%)	Adverse Events	16
+dysarthria	HP:0001260	0-10

@@ -1,0 +1,55 @@
+INTERVENTION 1:	Intervention	0
+Aromatase Inhibitor Therapy	Intervention	1
+inhibitor	CHEBI:35222	10-19
+[Not Specified]	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Women at least 5 years past menopause, defined as date of last menses or bilateral oophorectomy	Eligibility	1
+menopause	GO:0042697	28-37
+bilateral	HP:0012832	73-82
+Newly diagnosed breast cancer and starting an AI as initial adjuvant therapy	Eligibility	2
+breast cancer	DOID:1612	16-29
+adjuvant	CHEBI:60809	60-68
+Exclusion Criteria	Eligibility	3
+Recent, current or planned chemotherapy for breast cancer, as this may have independent effects on intestinal health, calcium homeostasis and bone turnover	Eligibility	4
+breast cancer	DOID:1612	44-57
+calcium	CHEBI:22984,BAO:0000874	118-125
+Allergy or intolerance to orange juice, as one isotope is given with orange juice	Eligibility	5
+allergy	HP:0012393	0-7
+Current use of over-the-counter or prescription antacids, as they may influence Ca-Ab	Eligibility	6
+Intestinal conditions associated with malabsorption or low gastric acid levels including Crohn's disease, ulcerative colitis, pernicious anemia, bacterial overgrowth, celiac sprue, chronic diarrhea or use of antibiotics within the past month	Eligibility	7
+malabsorption	HP:0002024	38-51
+acid	CHEBI:37527	67-71
+disease	DOID:4,OGMS:0000031	97-104
+ulcerative colitis	HP:0100279,DOID:8577	106-124
+pernicious anemia	DOID:13381	126-143
+overgrowth	HP:0001548	155-165
+chronic diarrhea	HP:0002028	181-197
+month	UO:0000035	236-241
+Known Stage 4 or 5 Chronic Kidney Disease, defined as an estimated GFR <30 cc/minute	Eligibility	8
+chronic kidney disease	HP:0012622,DOID:784	19-41
+Use of medications known to interfere with calcium or vitamin D metabolism, including oral steroids or anticonvulsants	Eligibility	9
+calcium	CHEBI:22984,BAO:0000874	43-50
+vitamin d	CHEBI:27300	54-63
+Significant lymphedema precluding adequate intravenous access	Eligibility	10
+lymphedema	HP:0001004,DOID:4977	12-22
+Outcome Measurement:	Results	0
+Change in Intestinal Calcium Absorption Related to Aromatase Inhibitor Therapy	Results	1
+calcium	CHEBI:22984,BAO:0000874	21-28
+inhibitor	CHEBI:35222	61-70
+intestinal calcium absorption	Results	2
+calcium	CHEBI:22984,BAO:0000874	11-18
+Time frame: baseline and 6 weeks later	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Aromatase Inhibitor Therapy	Results	5
+inhibitor	CHEBI:35222	27-36
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 10	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percent calcium absorption  16         (6)	Results	9
+percent	UO:0000187	17-24
+calcium	CHEBI:22984,BAO:0000874	25-32
+Adverse Events 1:	Adverse Events	0
+Total: 0/10 (0.00%)	Adverse Events	1

@@ -1,0 +1,121 @@
+INTERVENTION 1:	Intervention	0
+Inframammary Fold Incision Cohort	Intervention	1
+Inframammary fold incision which is in the crease under the breast.	Intervention	2
+breast	UBERON:0000310	60-66
+Perfusion of the involved breast will be monitored at three separate time points using laser-assisted fluorescence angiography (Spy Elite, LifeCell)	Intervention	3
+breast	UBERON:0000310	26-32
+time	PATO:0000165	69-73
+Intraoperatively prior to mastectomy	Intervention	4
+At the conclusion of NASSM (following completion of mastectomy procedure and prior to implant insertion during reconstruction) - (ie. Mastectomy done, implant not in yet)	Intervention	5
+Following the conclusion of reconstruction with an immediate implant and skin closure with either temporary staples or final suture placement (ie. Mastectomy done and implant in)	Intervention	6
+INTERVENTION 2:	Intervention	7
+Lateral Radial Incision Cohort	Intervention	8
+lateral	HP:0025275	0-7
+Lateral radial incision	Intervention	9
+lateral	HP:0025275	0-7
+Perfusion of the involved breast will be monitored at three separate time points using laser-assisted fluorescence angiography (Spy Elite, LifeCell)	Intervention	10
+breast	UBERON:0000310	26-32
+time	PATO:0000165	69-73
+Intraoperatively prior to mastectomy	Intervention	11
+At the conclusion of NASSM (following completion of mastectomy procedure and prior to implant insertion during reconstruction) - (ie. Mastectomy done, implant not in yet)	Intervention	12
+Following the conclusion of reconstruction with an immediate implant and skin closure with either temporary staples or final suture placement (ie. Mastectomy done and implant in)	Intervention	13
+Inclusion Criteria:	Eligibility	0
+Patient must be scheduled to undergo either a single or bilateral elective nipple-areola skin sparing mastectomy (NASSM) procedure with planned immediate reconstruction.	Eligibility	1
+patient	HADO:0000008,OAE:0001817	0-7
+bilateral	HP:0012832	56-65
+Patient must be 18 years of age or older.	Eligibility	2
+patient	HADO:0000008,OAE:0001817	0-7
+age	PATO:0000011	28-31
+Karnofsky Performance Scale of at least 80%.	Eligibility	3
+Patient must be able to understand and willing to sign a written informed consent document.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+document	IAO:0000310	82-90
+Exclusion Criteria:	Eligibility	5
+Cognitive impairment.	Eligibility	6
+cognitive impairment	HP:0100543	0-20
+BMI < 18 or > 35	Eligibility	7
+Breast >800 grams or <100 grams in predicted weight. "Breast" includes the breast tissue and in cases where the patient already has cosmetic breast implants, the additional breast implant mass. The sum total must be >100 g and <800 g.	Eligibility	8
+breast	UBERON:0000310	0-6
+breast	UBERON:0000310	54-60
+breast	UBERON:0000310	75-81
+breast	UBERON:0000310	141-147
+breast	UBERON:0000310	173-179
+tissue	UBERON:0000479	82-88
+patient	HADO:0000008,OAE:0001817	112-119
+cosmetic	CHEBI:64857	132-140
+History of radiation to the chest wall or breast being studied	Eligibility	9
+history	BFO:0000182	0-7
+chest	UBERON:0001443	28-33
+breast	UBERON:0000310	42-48
+Patients who have a history of allergy to iodides or iodinated contrast agents	Eligibility	10
+history	BFO:0000182	20-27
+allergy	HP:0012393	31-38
+Surgeon's opinion at the time of surgery that the subject's well-being would be compromised (e.g. significant comorbidities, intraoperative findings of a higher stage cancer or other independent acute health problems). If the contralateral breast is undergoing a nipple-sparing mastectomy with reconstruction as well, then the contralateral breast can be studied so long as there is no compromise to any element of their care.	Eligibility	11
+time	PATO:0000165	25-29
+surgery	OAE:0000067	33-40
+cancer	DOID:162	167-173
+acute	HP:0011009,PATO:0000389	195-200
+breast	UBERON:0000310	240-246
+breast	UBERON:0000310	341-347
+Outcome Measurement:	Results	0
+Percentage of Original Preoperative Blood Supply (Perfusion) Post Nipple Sparing Mastectomy	Results	1
+blood	UBERON:0000178	36-41
+Laser-assisted fluorescent angiography via the Spy Elite imaging device will be utilized to capture this data during mastectomy and immediate breast reconstruction. Standard postoperative patient follow up will assess for perfusion.	Results	2
+breast	UBERON:0000310	142-148
+patient	HADO:0000008,OAE:0001817	188-195
+The Spy device quantifies perfusion by measuring relative fluorescence of indocyanine green bound to plasma proteins. This produces an intensity value of 0-255 based on an 8-bit greyscale. The investigators measured this value preoperatively when measured and compared to the post-intervention measurement. The device can calculate the cumulative intensity of a defined region of interest which the investigators categorized as the lateral, lower, medial, or nipple-areola region of the breast. The investigators also evaluated the cumulative value of these areas in total. Rate of perfusion was simply this value over time (90 seconds).	Results	3
+indocyanine green	CHEBI:31696	74-91
+intensity	PATO:0000049	135-144
+intensity	PATO:0000049	347-356
+lateral	HP:0025275	432-439
+breast	UBERON:0000310	487-493
+rate	BAO:0080019	574-578
+time	PATO:0000165	619-623
+Time frame: At the time of surgery (day 1)	Results	4
+time	PATO:0000165	0-4
+time	PATO:0000165	19-23
+surgery	OAE:0000067	27-34
+day	UO:0000033	36-39
+Results 1:	Results	5
+Arm/Group Title: Inframammary Fold Incision Cohort	Results	6
+Arm/Group Description: Inframammary fold incision which is in the crease under the breast.	Results	7
+breast	UBERON:0000310	83-89
+Perfusion of the involved breast will be monitored at three separate time points using laser-assisted fluorescence angiography (Spy Elite, LifeCell)	Results	8
+breast	UBERON:0000310	26-32
+time	PATO:0000165	69-73
+Intraoperatively prior to mastectomy	Results	9
+At the conclusion of NASSM (following completion of mastectomy procedure and prior to implant insertion during reconstruction) - (ie. Mastectomy done, implant not in yet)	Results	10
+Following the conclusion of reconstruction with an immediate implant and skin closure with either temporary staples or final suture placement (ie. Mastectomy done and implant in)	Results	11
+Overall Number of Participants Analyzed: 55	Results	12
+Measure Type: Number	Results	13
+Unit of Measure: percentage of original preop perfusion  Overall breast: 63.9	Results	14
+breast	UBERON:0000310	65-71
+Nipple: 29.9	Results	15
+Inferior: 54.6	Results	16
+Lateral: 73.5	Results	17
+lateral	HP:0025275	0-7
+Medial: 62.5	Results	18
+Results 2:	Results	19
+Arm/Group Title: Lateral Radial Incision Cohort	Results	20
+lateral	HP:0025275	17-24
+Arm/Group Description: Lateral radial incision	Results	21
+lateral	HP:0025275	23-30
+Perfusion of the involved breast will be monitored at three separate time points using laser-assisted fluorescence angiography (Spy Elite, LifeCell)	Results	22
+breast	UBERON:0000310	26-32
+time	PATO:0000165	69-73
+Intraoperatively prior to mastectomy	Results	23
+At the conclusion of NASSM (following completion of mastectomy procedure and prior to implant insertion during reconstruction) - (ie. Mastectomy done, implant not in yet)	Results	24
+Following the conclusion of reconstruction with an immediate implant and skin closure with either temporary staples or final suture placement (ie. Mastectomy done and implant in)	Results	25
+Overall Number of Participants Analyzed: 24	Results	26
+Measure Type: Number	Results	27
+Unit of Measure: percentage of original preop perfusion  Overall breast: 60.8	Results	28
+breast	UBERON:0000310	65-71
+Nipple: 40.0	Results	29
+Inferior: 72.0	Results	30
+Lateral: 76.5	Results	31
+lateral	HP:0025275	0-7
+Medial: 65.2	Results	32
+Adverse Events 1:	Adverse Events	0
+Total: 0/55 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/24 (0.00%)	Adverse Events	3

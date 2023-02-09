@@ -1,0 +1,93 @@
+INTERVENTION 1:	Intervention	0
+CMRM Versus UMRM	Intervention	1
+[Not Specified]	Intervention	2
+Inclusion Criteria:	Eligibility	0
+Recent histologically proven diagnosis of breast cancer after having obtained X-Ray Mammography (XRM) of both breasts (according to American College of Radiology [ACR] and performed no longer than 6 weeks prior to enrollment into the study) and has been referred for a contrast-enhanced Magnetic Resonance Mammography (MRM) prior to surgery of the breast.	Eligibility	1
+breast cancer	DOID:1612	42-55
+surgery	OAE:0000067	333-340
+breast	UBERON:0000310	42-48
+breast	UBERON:0000310	110-116
+breast	UBERON:0000310	348-354
+if female, a digital XRM is required if any of the following criteria is met:	Eligibility	2
+female	PATO:0000383	3-9
+a. patient is younger than 50 years;	Eligibility	3
+patient	HADO:0000008,OAE:0001817	3-10
+b. patient has heterogeneously or extremely dense breasts;	Eligibility	4
+patient	HADO:0000008,OAE:0001817	3-10
+c. is not post-menopausal (post-menopause defined as at least 12 months prior to inclusion without menstruation).	Eligibility	5
+menstruation	GO:0042703	99-111
+if female of childbearing potential, MRM should be performed on the 7-14th day of the menstrual cycle.	Eligibility	6
+female	PATO:0000383	3-9
+day	UO:0000033	75-78
+menstrual cycle	GO:0044850	86-101
+has an estimated glomerular filtration rate (eGFR) value >/= 60 mL/min/1.73m^2 derived from a serum creatinine result within 2 weeks prior to study enrollment.	Eligibility	7
+glomerular filtration	GO:0003094	17-38
+rate	BAO:0080019	39-43
+creatinine	CHEBI:16737	100-110
+result	BAO:0000179	111-117
+Exclusion Criteria:	Eligibility	8
+is a female patient who is pregnant or lactating	Eligibility	9
+female	PATO:0000383	5-11
+patient	HADO:0000008,OAE:0001817	12-19
+has any contraindication to the MRM examination (e.g. metal implants, phobia) or the use of gadolinium-containing contrast agents.	Eligibility	10
+contraindication	OAE:0000055	8-24
+has received any contrast agent within 24 hours prior to the study MRM, or is scheduled to receive any contrast agent within 24 hours after the study MRM.	Eligibility	11
+has severe cardiovascular disease (e.g., known long QT syndrome, acute myocardial infarction [< 14 days], unstable angina, congestive heart failure New York Heart Association class IV) or acute stroke (< 48 hours)).	Eligibility	12
+severe	HP:0012828	4-10
+disease	DOID:4,OGMS:0000031	26-33
+long qt syndrome	DOID:2843	47-63
+acute myocardial infarction	DOID:9408	65-92
+congestive heart failure	HP:0001635,DOID:6000	123-147
+heart	UBERON:0000948	134-139
+heart	UBERON:0000948	157-162
+acute	HP:0011009,PATO:0000389	65-70
+acute	HP:0011009,PATO:0000389	188-193
+stroke	HP:0001297,DOID:6713	194-200
+has acute renal insufficiency of any severity due to hepato-renal syndrome or in the peri-operative liver transplantation period or who has acute or chronic moderate or severe renal insufficiency (glomerular filtration rate < 60 mL/min/1.73m^2).	Eligibility	13
+acute	HP:0011009,PATO:0000389	4-9
+acute	HP:0011009,PATO:0000389	140-145
+renal insufficiency	HP:0000083	10-29
+renal insufficiency	HP:0000083	176-195
+severity	HP:0012824	37-45
+syndrome	DOID:225	66-74
+liver	UBERON:0002107	100-105
+chronic	HP:0011010	149-156
+moderate	HP:0012826	157-165
+severe	HP:0012828	169-175
+glomerular filtration	GO:0003094	197-218
+rate	BAO:0080019	161-165
+rate	BAO:0080019	219-223
+has received chemotherapy or hormonal therapy for breast cancer within 6 months.	Eligibility	14
+breast cancer	DOID:1612	50-63
+has received hormone replacement therapy within 4 weeks prior to study drug administration.	Eligibility	15
+hormone	CHEBI:24621	13-20
+drug administration	OAE:0000011	71-90
+is scheduled or likely to require a surgery and/or biopsy in the time period up to 24 hours following study drug application	Eligibility	16
+surgery	OAE:0000067	36-43
+time	PATO:0000165	65-69
+drug	CHEBI:23888	108-112
+application	CHEBI:33232,BAO:0110001	113-124
+has prior excisional biopsy or breast surgery less than 6 months before enrollment and between XRM and study MRM	Eligibility	17
+breast	UBERON:0000310	31-37
+surgery	OAE:0000067	38-45
+Outcome Measurement:	Results	0
+Difference of Sensitivity for Detection of Full Extent of Malignant Breast Disease Using CMRM vs UMRM Per Reader	Results	1
+breast disease	DOID:3463	68-82
+For a single participant the sensitivity was defined as the proportion of malignant breast regions that were recognized by the clinical investigators and the 3 blinded readers using the respective imaging modality as malignant. Subsequently the sensitivity percentage was calculated based on the mean of the sensitivities across all participants. The difference was calculated as CMRM value minus UMRM value. For ease of expression, the following abbreviations will be used: Magnetic Resonance Mammography (MRM), Unenhanced MRM (UMRM), combined unenhanced and contrast (gadobutrol)-enhanced MRM (CMRM), X-ray mammography (XRM).	Results	2
+breast	UBERON:0000310	84-90
+mean	BAO:0002173	296-300
+gadobutrol	CHEBI:68841	570-580
+Time frame: Immediately before injection and after injection	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: CMRM Versus UMRM	Results	5
+Arm/Group Description: [Not Specified]	Results	6
+Overall Number of Participants Analyzed: 390	Results	7
+Mean (95% Confidence Interval)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: difference in sensitivity (%)  Reader 1: 15.2        (11.8 to 18.7)	Results	9
+Reader 2: 31.9        (27.3 to 36.6)	Results	10
+Reader 3: 30.4        (25.8 to 34.9)	Results	11
+Investigator: 15.9        (12.4 to 19.4)	Results	12
+Adverse Events 1:	Adverse Events	0
+Total: 0/439 (0.00%)	Adverse Events	1

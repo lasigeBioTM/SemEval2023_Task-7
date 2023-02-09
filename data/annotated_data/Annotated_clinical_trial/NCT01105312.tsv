@@ -1,0 +1,207 @@
+INTERVENTION 1:	Intervention	0
+Phase I: Dose Level One	Intervention	1
+Each patient will receive panobinostat (LBH589) and letrozole. Patients will be administered 20 mg LBH589 PO, 3 days per week for a total of 4 weeks. Patients will also be administered letrozole 2.5 mg PO Days 1-28 every 4 weeks.	Intervention	2
+patient	HADO:0000008,OAE:0001817	5-12
+patient	HADO:0000008,OAE:0001817	63-70
+patient	HADO:0000008,OAE:0001817	150-157
+panobinostat	CHEBI:85990	26-38
+letrozole	CHEBI:6413	52-61
+letrozole	CHEBI:6413	185-194
+week	UO:0000034	121-125
+week	UO:0000034	143-147
+week	UO:0000034	223-227
+INTERVENTION 2:	Intervention	3
+Phase I: Dose Level Two	Intervention	4
+Each patient will receive panobinostat (LBH589) and letrozole. Patients will be administered 30 mg LBH589 PO, 3 days per week for a total of 4 weeks. Patients will also be administered letrozole 2.5 mg PO Days 1-28 every 4 weeks.	Intervention	5
+patient	HADO:0000008,OAE:0001817	5-12
+patient	HADO:0000008,OAE:0001817	63-70
+patient	HADO:0000008,OAE:0001817	150-157
+panobinostat	CHEBI:85990	26-38
+letrozole	CHEBI:6413	52-61
+letrozole	CHEBI:6413	185-194
+week	UO:0000034	121-125
+week	UO:0000034	143-147
+week	UO:0000034	223-227
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed breast cancer	Eligibility	1
+breast cancer	DOID:1612	25-38
+Metastatic disease amenable to biopsy	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+Unresected tumor with no intention to undergo resection during study	Eligibility	3
+Archival tissue from the primary diagnosis or fresh biopsy from metastatic cancer site required	Eligibility	4
+tissue	UBERON:0000479	9-15
+cancer	DOID:162	75-81
+site	BFO:0000029	82-86
+Measurable or non-measurable disease for phase I study (The Phase I portion of this study closed and the Phase II portion of the study opened as per NCCTG Addendum 6, effective January 23, 2012.)	Eligibility	5
+disease	DOID:4,OGMS:0000031	29-36
+Measurable disease only for phase II study	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+Available tumor estrogen (ER), progesterone (PR), and HER2 status from metastatic site tested by IHC or FISH OR results from the original tumor diagnosis	Eligibility	7
+estrogen	CHEBI:50114,BAO:0000760	16-24
+progesterone	CHEBI:17026	31-43
+site	BFO:0000029	82-86
+Any ER, PR, or HER2 level (positive or negative) acceptable (phase I)	Eligibility	8
+Triple-negative disease only (phase II)	Eligibility	9
+disease	DOID:4,OGMS:0000031	16-23
+ER and PR negative defined as  1% by IHC	Eligibility	10
+HER2 negative	Eligibility	11
+Patients with triple-negative breast cancer allowed provided there is clinical or radiographic evidence of tumor progression in the adjuvant or metastatic setting	Eligibility	12
+breast cancer	DOID:1612	30-43
+adjuvant	CHEBI:60809	132-140
+No patients whose disease can be treated with known standard therapy that is potentially curative or definitely capable of extending life expectancy	Eligibility	13
+disease	DOID:4,OGMS:0000031	18-25
+No known CNS metastasis	Eligibility	14
+Hormone-receptor status:	Eligibility	15
+ER and PR positive or negative (phase I)	Eligibility	16
+ER and PR negative (phase II)	Eligibility	17
+PATIENT CHARACTERISTICS:	Eligibility	18
+patient	HADO:0000008,OAE:0001817	0-7
+ECOG performance status 0-1 (phase I) or 0-2 (phase II)	Eligibility	19
+Postmenopausal defined by 1 of the following:	Eligibility	20
+60 years of age	Eligibility	21
+age	PATO:0000011	12-15
+45 years of age with last menstrual period  12 months prior and estradiol and follicle-stimulating hormone levels in postmenopausal range	Eligibility	22
+age	PATO:0000011	12-15
+estradiol	CHEBI:23965	64-73
+hormone	CHEBI:24621	99-106
+range	LABO:0000114	132-137
+Bilateral oophorectomy	Eligibility	23
+bilateral	HP:0012832	0-9
+Life expectancy  12 weeks	Eligibility	24
+ANC  1,500/mm^3	Eligibility	25
+Platelet count  100,000/mm^3	Eligibility	26
+platelet count	CMO:0000029	0-14
+Total bilirubin normal	Eligibility	27
+ALT and AST  3 times upper limit of normal (ULN) ( 5 times ULN if due to liver metastasis)	Eligibility	28
+liver	UBERON:0002107	73-78
+Serum creatinine  1.5 times ULN	Eligibility	29
+creatinine	CHEBI:16737	6-16
+TSH normal (thyroid hormone supplements allowed for patients with hypothyroidism)	Eligibility	30
+thyroid hormone	CHEBI:60311	12-27
+hypothyroidism	HP:0000821,DOID:1459	66-80
+Not pregnant or nursing	Eligibility	31
+Fertile patients must use effective contraception	Eligibility	32
+Willing to return to Mayo Clinic or NCCTG institution (phase II) for follow-up	Eligibility	33
+Willing to provide blood samples for correlative research purposes	Eligibility	34
+blood	UBERON:0000178	19-24
+No uncontrolled or intercurrent illness including, but not limited to, any of the following:	Eligibility	35
+Ongoing or active infection	Eligibility	36
+active	PATO:0002354	11-17
+Symptomatic congestive heart failure	Eligibility	37
+congestive heart failure	HP:0001635,DOID:6000	12-36
+Unstable angina pectoris	Eligibility	38
+angina pectoris	HP:0001681	9-24
+Cardiac arrhythmia	Eligibility	39
+arrhythmia	HP:0011675	8-18
+Psychiatric illness and/or social situations that would limit compliance with study requirements	Eligibility	40
+No NYHA class III or IV cardiovascular disease	Eligibility	41
+disease	DOID:4,OGMS:0000031	39-46
+No known seizure disorder	Eligibility	42
+seizure	HP:0001250	9-16
+disorder	OGMS:0000045	17-25
+No co-morbid systemic illnesses or other severe concurrent disease that, in the judgment of the investigator, would make the patient inappropriate for entry into this study or interfere significantly with the proper assessment of safety and toxicity of the prescribed regimens	Eligibility	43
+severe	HP:0012828	41-47
+disease	DOID:4,OGMS:0000031	59-66
+patient	HADO:0000008,OAE:0001817	125-132
+No immunocompromised patients, including patients known to be HIV positive	Eligibility	44
+Immunocompromised patients due to the use of corticosteroids allowed	Eligibility	45
+No malignancy within the past 5 years except for nonmelanoma skin cancer or carcinoma in situ of the cervix	Eligibility	46
+skin cancer	DOID:4159	61-72
+carcinoma	HP:0030731,DOID:305	76-85
+No history of myocardial infarction  6 months	Eligibility	47
+history	BFO:0000182	3-10
+myocardial infarction	HP:0001658,DOID:5844	14-35
+No congenital long QT syndrome or QTcF>450 msec, including:	Eligibility	48
+long qt syndrome	DOID:2843	14-30
+Complete left bundle block or use of a permanent cardiac pacemaker, history or presence of ventricular tachyarrhythmias, clinically significant resting bradycardia (<50 beats per minute)	Eligibility	49
+left	HP:0012835	9-13
+history	BFO:0000182	68-75
+bradycardia	HP:0001662	152-163
+minute	UO:0000031	179-185
+Right bundle branch block + left anterior hemiblock (bifascicular block)	Eligibility	50
+right bundle branch block	HP:0011712,DOID:13209	0-25
+left	HP:0012835	28-32
+No congestive heart failure requiring use of maintenance therapy for life-threatening ventricular arrhythmias	Eligibility	51
+congestive heart failure	HP:0001635,DOID:6000	3-27
+PRIOR CONCURRENT THERAPY:	Eligibility	52
+See Disease Characteristics	Eligibility	53
+disease	DOID:4,OGMS:0000031	4-11
+More than 4 weeks since prior chemotherapy or radiotherapy and fully recovered	Eligibility	54
+radiotherapy	OAE:0000235	46-58
+No radiotherapy to > 25 % of bone marrow	Eligibility	55
+radiotherapy	OAE:0000235	3-15
+bone marrow	UBERON:0002371	29-40
+Prior treatments allowed (phase II):	Eligibility	56
+0 or 1 prior chemotherapy regimens for breast cancer	Eligibility	57
+breast cancer	DOID:1612	39-52
+2 prior aromatase-inhibitor regimens (including letrozole)	Eligibility	58
+letrozole	CHEBI:6413	48-57
+Not currently receiving treatment in a different clinical study in which investigational procedures are performed or investigational therapies are administered	Eligibility	59
+No other concurrent investigational agent for the primary neoplasm	Eligibility	60
+neoplasm	HP:0002664,DOID:14566	58-66
+No concurrent CYP3A4 inhibitors or inducers	Eligibility	61
+Outcome Measurement:	Results	0
+Maximum-tolerated Dose (Phase I)	Results	1
+MTD is defined as the dose level below the lowest dose that induces dose limiting toxicity in at least one-third of patients (at least 2 of a maximum of 6> new patients). If dose-limiting toxicity (DLT) is not seen in any of the 3 patients, 3 new patients will be accrued and treated at the next higher dose level. If DLT are seen in 2 or 3 of 3 patients treated at a given dose level, then the next 3 patients will be treated at the next lower dose level, if only 3 patients were enrolled and treated at this lower dose level. The number of DLT's will be reported here.	Results	2
+mtd	BAO:0001248	0-3
+Time frame: Up to 2.5 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Phase I: Dose Level One	Results	5
+Arm/Group Description: Each patient will receive panobinostat (LBH589) and letrozole. Patients will be administered 20 mg LBH589 PO, 3 days per week for a total of 4 weeks. Patients will also be administered letrozole 2.5 mg PO Days 1-28 every 4 weeks.	Results	6
+patient	HADO:0000008,OAE:0001817	28-35
+patient	HADO:0000008,OAE:0001817	86-93
+patient	HADO:0000008,OAE:0001817	173-180
+panobinostat	CHEBI:85990	49-61
+letrozole	CHEBI:6413	75-84
+letrozole	CHEBI:6413	208-217
+week	UO:0000034	144-148
+week	UO:0000034	166-170
+week	UO:0000034	246-250
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Count of Participants	Results	8
+Unit of Measure: Participants  1  16.7%	Results	9
+Results 2:	Results	10
+Arm/Group Title: Phase I: Dose Level Two	Results	11
+Arm/Group Description: Each patient will receive panobinostat (LBH589) and letrozole. Patients will be administered 30 mg LBH589 PO, 3 days per week for a total of 4 weeks. Patients will also be administered letrozole 2.5 mg PO Days 1-28 every 4 weeks.	Results	12
+patient	HADO:0000008,OAE:0001817	28-35
+patient	HADO:0000008,OAE:0001817	86-93
+patient	HADO:0000008,OAE:0001817	173-180
+panobinostat	CHEBI:85990	49-61
+letrozole	CHEBI:6413	75-84
+letrozole	CHEBI:6413	208-217
+week	UO:0000034	144-148
+week	UO:0000034	166-170
+week	UO:0000034	246-250
+Overall Number of Participants Analyzed: 6	Results	13
+Measure Type: Count of Participants	Results	14
+Unit of Measure: Participants  3  50.0%	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 4/16 (25.00%)	Adverse Events	1
+Bladder infection 0/16 (0.00%)	Adverse Events	2
+Lung infection 1/16 (6.25%)	Adverse Events	3
+lung	UBERON:0002048	0-4
+Fracture 1/16 (6.25%)	Adverse Events	4
+Platelet count decreased 3/16 (18.75%)	Adverse Events	5
+platelet count	CMO:0000029	0-14
+White blood cell decreased 1/16 (6.25%)	Adverse Events	6
+blood	UBERON:0000178	6-11
+Hypokalemia 0/16 (0.00%)	Adverse Events	7
+hypokalemia	HP:0002900,DOID:4500	0-11
+Hyponatremia 0/16 (0.00%)	Adverse Events	8
+hyponatremia	HP:0002902	0-12
+Adverse Events 2:	Adverse Events	9
+Total: 1/6 (16.67%)	Adverse Events	10
+Bladder infection 1/6 (16.67%)	Adverse Events	11
+Lung infection 0/6 (0.00%)	Adverse Events	12
+lung	UBERON:0002048	0-4
+Fracture 0/6 (0.00%)	Adverse Events	13
+Platelet count decreased 0/6 (0.00%)	Adverse Events	14
+platelet count	CMO:0000029	0-14
+White blood cell decreased 0/6 (0.00%)	Adverse Events	15
+blood	UBERON:0000178	6-11
+Hypokalemia 0/6 (0.00%)	Adverse Events	16
+hypokalemia	HP:0002900,DOID:4500	0-11
+Hyponatremia 0/6 (0.00%)	Adverse Events	17
+hyponatremia	HP:0002902	0-12

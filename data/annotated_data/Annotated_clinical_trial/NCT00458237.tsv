@@ -1,0 +1,152 @@
+INTERVENTION 1:	Intervention	0
+Phase I: Everolimus (Dose Level 1) and Trastuzumab	Intervention	1
+everolimus	CHEBI:68478	9-19
+Cycle duration is 21 days. Participants receive trastuzumab 6 mg/kg [8 mg/kg loading dose] IV once every three weeks and take everolimus 5 mg by mouth daily on days 1-21. Participants are treated until disease progression or unacceptable toxicity.	Intervention	2
+duration	PATO:0001309	6-14
+everolimus	CHEBI:68478	126-136
+mouth	UBERON:0000165	145-150
+disease	DOID:4,OGMS:0000031	202-209
+INTERVENTION 2:	Intervention	3
+Phase I: Everolimus (Dose Level 2) and Trastuzumab	Intervention	4
+everolimus	CHEBI:68478	9-19
+Cycle duration is 21 days. Participants receive trastuzumab 6 mg/kg [8 mg/kg loading dose] IV once every three weeks and take everolimus 10 mg by mouth daily on days 1-21. Participants are treated until disease progression or unacceptable toxicity.	Intervention	5
+duration	PATO:0001309	6-14
+everolimus	CHEBI:68478	126-136
+mouth	UBERON:0000165	146-151
+disease	DOID:4,OGMS:0000031	203-210
+Inclusion Criteria:	Eligibility	0
+Histologically or cytologically confirmed invasive breast cancer, with stage IV disease	Eligibility	1
+breast cancer	DOID:1612	51-64
+disease	DOID:4,OGMS:0000031	80-87
+Measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension as greater than or equal to 20mm with conventional techniques or as greater than or equal to 10mm with spiral CT scan.	Eligibility	2
+disease	DOID:4,OGMS:0000031	11-18
+ct	BAO:0002125	219-221
+Primary tumor or metastasis must overexpress HER2	Eligibility	3
+Patient must have received 1-2 prior chemotherapeutic regiments for metastatic breast cancer and must have been off treatment for at least three weeks.	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+breast cancer	DOID:1612	79-92
+Patient must have received and progressed on at least 1 prior trastuzumab-containing regimen, but not more than 2, in the metastatic setting.	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+Patients may have received prior radiation therapy	Eligibility	6
+Patients may have received hormonal therapy in the adjuvant or metastatic setting	Eligibility	7
+adjuvant	CHEBI:60809	51-59
+18 years of age or older	Eligibility	8
+age	PATO:0000011	12-15
+Life expectancy of greater than 6 months	Eligibility	9
+Normal organ and marrow function as defined in the protocol	Eligibility	10
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	24-32
+Left ventricular ejection fraction (LVEF) greater than or equal to the institutional lower limit of normal	Eligibility	11
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Exclusion Criteria:	Eligibility	12
+Treatment with any investigational drug within 4 weeks	Eligibility	13
+drug	CHEBI:23888	35-39
+Long-term treatment, over 3 months, with a systemic steroid or another immunosuppressive agent	Eligibility	14
+steroid	CHEBI:35341	52-59
+immunosuppressive agent	CHEBI:35705	71-94
+Other malignancies within the past 3 years, except for adequately treated carcinoma of teh cervix or basal-or squamous-cell carcinoma of the skin	Eligibility	15
+carcinoma	HP:0030731,DOID:305	74-83
+carcinoma	HP:0030731,DOID:305	124-133
+Impairment of gastrointestinal function or gastrointestinal disease that may significantly alter the absorption of RAD001	Eligibility	16
+function	BAO:0003117,BFO:0000034	31-39
+disease	DOID:4,OGMS:0000031	60-67
+An active, bleeding diathesis or an oral anti-vitamin K medication	Eligibility	17
+active	PATO:0002354	3-9
+Prior treatment with an mTOR inhibitor	Eligibility	18
+mtor inhibitor	CHEBI:68481	24-38
+History of non-compliance with medical regimens	Eligibility	19
+history	BFO:0000182	0-7
+Unwillingness or inability to comply with the protocol	Eligibility	20
+Major surgery within 2 weeks before study entry	Eligibility	21
+surgery	OAE:0000067	6-13
+Patients with active brain metastases or leptomeningeal carcinomatosis	Eligibility	22
+active	PATO:0002354	14-20
+brain	UBERON:0000955	21-26
+Patients who have experienced grade 1 or grade 2 hypersensitivity reactions to prior trastuzumab therapy are eligible ONLY IF these reactions did not prevent further administration	Eligibility	23
+hypersensitivity	GO:0002524,DOID:1205	49-65
+Severe and/or uncontrolled intercurrent medical condition, psychiatric illness or a social situation that could limit their ability to comply with the study requirements.	Eligibility	24
+severe	HP:0012828	0-6
+condition	PDRO:0000129	48-57
+Pregnant or breast-feeding women	Eligibility	25
+HIV positive patients	Eligibility	26
+Known hypersensitivity to RAD001 (everolimus) or other rapamycins	Eligibility	27
+hypersensitivity	GO:0002524,DOID:1205	6-22
+everolimus	CHEBI:68478	34-44
+Outcome Measurement:	Results	0
+Maximum Tolerated Dose (MTD)	Results	1
+mtd	BAO:0001248	24-27
+The MTD is determined by the number of patients who experience a dose limiting toxicity (DLT). The MTD is defined as the highest dose at which fewer than one-third of patients experience a DLT. If no DLTs are observed, the MTD is not reached. Dose Limiting Toxicities (DLTs) were defined as follows (CTCAE v4.0):	Results	2
+mtd	BAO:0001248	4-7
+mtd	BAO:0001248	99-102
+mtd	BAO:0001248	223-226
+Any grade 4 hematologic toxicity, excluding anemia.	Results	3
+anemia	HP:0001903,DOID:2355	44-50
+Any grade 3 or 4 nonhematologic toxicity, except for nausea, vomiting, diarrhea, or hyperlipidemia that responds promptly (within 24 hours for nausea, vomiting, and diarrhea and within 1 week for hyperlipidemia) to appropriate treatment, and except for cardiac toxicity which will be assessed after 12 weeks of treatment.	Results	4
+nausea	HP:0002018	53-59
+nausea	HP:0002018	143-149
+vomiting	HP:0002013	61-69
+vomiting	HP:0002013	151-159
+diarrhea	HP:0002014,DOID:13250	71-79
+diarrhea	HP:0002014,DOID:13250	165-173
+hyperlipidemia	HP:0003077	84-98
+hyperlipidemia	HP:0003077	196-210
+week	UO:0000034	187-191
+week	UO:0000034	302-306
+Need to hold >1 dose of trastuzumab or > 7 doses of RAD001 within the first 3 weeks because of the presence of toxicity.	Results	5
+Time frame: Cycle One (first 21 days of treatment)	Results	6
+time	PATO:0000165	0-4
+Results 1:	Results	7
+Arm/Group Title: Phase I: Everolimus (Dose Level 1) and Trastuzumab	Results	8
+everolimus	CHEBI:68478	26-36
+Arm/Group Description: Cycle duration is 21 days. Participants receive trastuzumab 6 mg/kg [8 mg/kg loading dose] IV once every three weeks and take everolimus 5 mg by mouth daily on days 1-21. Participants are treated until disease progression or unacceptable toxicity.	Results	9
+duration	PATO:0001309	29-37
+everolimus	CHEBI:68478	149-159
+mouth	UBERON:0000165	168-173
+disease	DOID:4,OGMS:0000031	225-232
+Overall Number of Participants Analyzed: 3	Results	10
+Measure Type: Number	Results	11
+Unit of Measure: participants with DLT  0	Results	12
+Results 2:	Results	13
+Arm/Group Title: Phase I: Everolimus (Dose Level 2) and Trastuzumab	Results	14
+everolimus	CHEBI:68478	26-36
+Arm/Group Description: Cycle duration is 21 days. Participants receive trastuzumab 6 mg/kg [8 mg/kg loading dose] IV once every three weeks and take everolimus 10 mg by mouth daily on days 1-21. Participants are treated until disease progression or unacceptable toxicity.	Results	15
+duration	PATO:0001309	29-37
+everolimus	CHEBI:68478	149-159
+mouth	UBERON:0000165	169-174
+disease	DOID:4,OGMS:0000031	226-233
+Overall Number of Participants Analyzed: 3	Results	16
+Measure Type: Number	Results	17
+Unit of Measure: participants with DLT  0	Results	18
+Adverse Events 1:	Adverse Events	0
+Total: 0/3 (0.00%)	Adverse Events	1
+Muco/stomatitis (symptom) oral cavity 0/3 (0.00%)	Adverse Events	2
+symptom	OGMS:0000020	17-24
+oral cavity	UBERON:0000167	26-37
+Fatigue 0/3 (0.00%)	Adverse Events	3
+fatigue	HP:0012378	0-7
+Vascular access-Thrombosis/embolism  [1]0/3 (0.00%)	Adverse Events	4
+Leukocytes 0/3 (0.00%)	Adverse Events	5
+Lymphopenia 0/3 (0.00%)	Adverse Events	6
+lymphopenia	HP:0001888,DOID:614	0-11
+Neutrophils 0/3 (0.00%)	Adverse Events	7
+Platelets 0/3 (0.00%)	Adverse Events	8
+Hypokalemia 0/3 (0.00%)	Adverse Events	9
+hypokalemia	HP:0002900,DOID:4500	0-11
+Thrombosis/thrombus/embolism  [2]0/3 (0.00%)	Adverse Events	10
+Adverse Events 2:	Adverse Events	11
+Total: 1/3 (33.33%)	Adverse Events	12
+Muco/stomatitis (symptom) oral cavity 0/3 (0.00%)	Adverse Events	13
+symptom	OGMS:0000020	17-24
+oral cavity	UBERON:0000167	26-37
+Fatigue 0/3 (0.00%)	Adverse Events	14
+fatigue	HP:0012378	0-7
+Vascular access-Thrombosis/embolism  [1]0/3 (0.00%)	Adverse Events	15
+Leukocytes 0/3 (0.00%)	Adverse Events	16
+Lymphopenia 1/3 (33.33%)	Adverse Events	17
+lymphopenia	HP:0001888,DOID:614	0-11
+Neutrophils 0/3 (0.00%)	Adverse Events	18
+Platelets 0/3 (0.00%)	Adverse Events	19
+Hypokalemia 0/3 (0.00%)	Adverse Events	20
+hypokalemia	HP:0002900,DOID:4500	0-11
+Thrombosis/thrombus/embolism  [2]0/3 (0.00%)	Adverse Events	21

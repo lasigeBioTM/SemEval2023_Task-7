@@ -1,0 +1,110 @@
+INTERVENTION 1:	Intervention	0
+LA-EP2006	Intervention	1
+During each chemotherapy cycle eligible patients receive LA-EP2006 s.c. post chemotherapy application.	Intervention	2
+application	CHEBI:33232,BAO:0110001	90-101
+LA-EP2006: Eligible patients are scheduled to receive six cycles of chemotherapy every three weeks. During each chemotherapy cycle LA-EP2006 is injected s.c. post chemotherapy application.	Intervention	3
+application	CHEBI:33232,BAO:0110001	176-187
+INTERVENTION 2:	Intervention	4
+Neulasta®	Intervention	5
+During each chemotherapy cycle eligible patients receive Neulasta® s.c. post chemotherapy application.	Intervention	6
+application	CHEBI:33232,BAO:0110001	90-101
+Neulasta®: Eligible patients are scheduled to receive six cycles of chemotherapy every three weeks. During each chemotherapy cycle pegfilgrastim is injected s.c. post chemotherapy application.	Intervention	7
+application	CHEBI:33232,BAO:0110001	180-191
+Inclusion Criteria:	Eligibility	0
+histologically proven breast cancer	Eligibility	1
+breast cancer	DOID:1612	22-35
+eligible for six cycles of neoadjuvant or adjuvant chemotherapy	Eligibility	2
+adjuvant	CHEBI:60809	30-38
+adjuvant	CHEBI:60809	42-50
+Exclusion Criteria:	Eligibility	3
+concurrent or prior chemotherapy for breast cancer	Eligibility	4
+breast cancer	DOID:1612	37-50
+concurrent or prior anti-cancer treatment for breast cancer such as endocrine therapy, immunotherapy, monoclonal antibodies, and/or biological therapy	Eligibility	5
+breast cancer	DOID:1612	46-59
+monoclonal	BAO:0000503	102-112
+concurrent prophylactic antibiotics	Eligibility	6
+previous therapy with any G-CSF (granulocyte-colony stimulating factor) product	Eligibility	7
+product	BAO:0003067	72-79
+Other protocol-defined inclusion/exclusion criteria may apply.	Eligibility	8
+Outcome Measurement:	Results	0
+Mean Duration of Severe Neutropenia (DSN) During Cycle 1 of Chemotherapy	Results	1
+mean	BAO:0002173	0-4
+duration	PATO:0001309	5-13
+severe	HP:0012828	17-23
+neutropenia	HP:0001875,DOID:1227	24-35
+Mean duration of severe neutropenia, defined as number of consecutive days with ANC <0.5 × 10^9/l (grade 4 neutropenia).	Results	2
+mean	BAO:0002173	0-4
+duration	PATO:0001309	5-13
+severe	HP:0012828	17-23
+neutropenia	HP:0001875,DOID:1227	24-35
+neutropenia	HP:0001875,DOID:1227	107-118
+Time frame: 21 days (Cycle 1 of chemotherapy treatment)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: LA-EP2006	Results	5
+Arm/Group Description: During each chemotherapy cycle eligible patients receive LA-EP2006 s.c. post chemotherapy application.	Results	6
+application	CHEBI:33232,BAO:0110001	113-124
+LA-EP2006: Eligible patients are scheduled to receive six cycles of chemotherapy every three weeks. During each chemotherapy cycle LA-EP2006 is injected s.c. post chemotherapy application.	Results	7
+application	CHEBI:33232,BAO:0110001	176-187
+Overall Number of Participants Analyzed: 155	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: days  FAS: 151 participants	Results	10
+1.36         (1.133)	Results	11
+PP: 148 participants	Results	12
+1.34         (1.141)	Results	13
+Results 2:	Results	14
+Arm/Group Title: Neulasta	Results	15
+Arm/Group Description: During each chemotherapy cycle eligible patients receive Neulasta   s.c. post chemotherapy application.	Results	16
+application	CHEBI:33232,BAO:0110001	114-125
+Neulasta  : Eligible patients are scheduled to receive six cycles of chemotherapy every three weeks. During each chemotherapy cycle pegfilgrastim is injected s.c. post chemotherapy application.	Results	17
+application	CHEBI:33232,BAO:0110001	181-192
+Overall Number of Participants Analyzed: 153	Results	18
+Mean (Standard Deviation)	Results	19
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: days  FAS: 149 participants	Results	20
+1.19         (0.984)	Results	21
+PP: 144 participants	Results	22
+1.19         (0.991)	Results	23
+Adverse Events 1:	Adverse Events	0
+Total: 29/155 (18.71%)	Adverse Events	1
+Febrile neutropenia  16/155 (10.32%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia  4/155 (2.58%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia  1/155 (0.65%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anemia  1/155 (0.65%)	Adverse Events	5
+anemia	HP:0001903,DOID:2355	0-6
+Atrial fibrillation  0/155 (0.00%)	Adverse Events	6
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest  1/155 (0.65%)	Adverse Events	7
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardio-respiratory arrest  1/155 (0.65%)	Adverse Events	8
+Pericardial hemorrhage  1/155 (0.65%)	Adverse Events	9
+Eye irritation  0/155 (0.00%)	Adverse Events	10
+eye	UBERON:0000970	0-3
+Abdominal pain  3/155 (1.94%)	Adverse Events	11
+abdominal pain	HP:0002027	0-14
+Adverse Events 2:	Adverse Events	12
+Total: 32/153 (20.92%)	Adverse Events	13
+Febrile neutropenia  19/153 (12.42%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia  6/153 (3.92%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia  1/153 (0.65%)	Adverse Events	16
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Anemia  0/153 (0.00%)	Adverse Events	17
+anemia	HP:0001903,DOID:2355	0-6
+Atrial fibrillation  1/153 (0.65%)	Adverse Events	18
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+Cardiac arrest  0/153 (0.00%)	Adverse Events	19
+cardiac arrest	HP:0001695,DOID:0060319,OAE:0000461	0-14
+Cardio-respiratory arrest  0/153 (0.00%)	Adverse Events	20
+Pericardial hemorrhage  0/153 (0.00%)	Adverse Events	21
+Eye irritation  1/153 (0.65%)	Adverse Events	22
+eye	UBERON:0000970	0-3
+Abdominal pain  5/153 (3.27%)	Adverse Events	23
+abdominal pain	HP:0002027	0-14

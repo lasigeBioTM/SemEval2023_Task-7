@@ -1,0 +1,115 @@
+INTERVENTION 1:	Intervention	0
+Cohort A: SC Herceptin by Needle/Syringe	Intervention	1
+Participants received SC Herceptin by an assisted administration as 600 mg every 3 weeks for a total of 18 doses/cycles. Each dose of SC Herceptin was taken from a single-use vial and injected by needle/syringe.	Intervention	2
+vial	BAO:0000577	175-179
+INTERVENTION 2:	Intervention	3
+Cohort B: SC Herceptin by SID	Intervention	4
+Participants received SC Herceptin as 600 mg every 3 weeks for a total of 18 doses/cycles. Each dose of SC Herceptin was administered from a pre-filled SID. The first administration was performed by an HCP. Subsequent doses were self-administered by participants who were willing and judged competent by the HCP.	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed early invasive HER2-positive carcinoma of the breast with no evidence of residual, locally recurrent, or metastatic disease and defined as clinical Stage I to IIIC that is eligible for treatment with Herceptin	Eligibility	1
+carcinoma	HP:0030731,DOID:305	54-63
+breast	UBERON:0000310	71-77
+recurrent	HP:0031796	116-125
+disease	DOID:4,OGMS:0000031	141-148
+Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1	Eligibility	2
+group	CHEBI:24433	29-34
+Screening left ventricular ejection fraction (LVEF) greater than or equal to (  ) 55%	Eligibility	3
+left	HP:0012835	10-14
+ejection fraction	CMO:0000180	27-44
+Exclusion Criteria:	Eligibility	4
+Previous neoadjuvant or adjuvant breast cancer treatment with an approved or investigational anti-HER2 agent	Eligibility	5
+adjuvant	CHEBI:60809	12-20
+adjuvant	CHEBI:60809	24-32
+breast cancer	DOID:1612	33-46
+History of other malignancy except for curatively treated carcinoma in situ of the cervix, basal cell carcinoma, or curatively treated malignancies (other than breast cancer) where the participant has been disease-free for at least 5 years	Eligibility	6
+history	BFO:0000182	0-7
+carcinoma	HP:0030731,DOID:305	58-67
+carcinoma	HP:0030731,DOID:305	102-111
+basal cell carcinoma	HP:0002671,DOID:2513	91-111
+breast cancer	DOID:1612	160-173
+Past history of ductal carcinoma in situ treated with any systemic therapy or with radiation therapy to the ipsilateral breast where invasive cancer subsequently developed	Eligibility	7
+history	BFO:0000182	5-12
+ductal carcinoma in situ	HP:0030075,DOID:0060074	16-40
+breast	UBERON:0000310	120-126
+cancer	DOID:162	142-148
+Metastatic disease	Eligibility	8
+disease	DOID:4,OGMS:0000031	11-18
+Inadequate bone marrow, hepatic, or renal function	Eligibility	9
+bone marrow	UBERON:0002371	11-22
+function	BAO:0003117,BFO:0000034	42-50
+Serious cardiac or cardiovascular disease including uncontrolled hypertension or history of hypertensive crisis or hypertensive encephalopathy	Eligibility	10
+disease	DOID:4,OGMS:0000031	34-41
+hypertension	HP:0000822,DOID:10763	65-77
+history	BFO:0000182	81-88
+hypertensive crisis	HP:0100735	92-111
+hypertensive encephalopathy	DOID:9427	115-142
+History of severe allergic or immunological reactions, such as difficult-to-control asthma	Eligibility	11
+history	BFO:0000182	0-7
+severe	HP:0012828	11-17
+asthma	HP:0002099,DOID:2841	84-90
+Pregnant or lactating women	Eligibility	12
+Outcome Measurement:	Results	0
+Percentage of Participants With At Least 1 Adverse Event (AE) During the Treatment Period	Results	1
+adverse event	OAE:0000001	43-56
+Participants were planned to receive a total of 18 cycles of SC Herceptin. An AE was defined as any untoward medical occurrence in a participant administered SC Herceptin. Examples included unfavorable/unintended signs and symptoms, new or exacerbated disease, recurrence of intermittent condition, deterioration in laboratory value or other clinical test, or adverse procedure-related events. The percentage of participants with at least 1 AE during the treatment period (regardless of severity or seriousness) was reported.	Results	2
+disease	DOID:4,OGMS:0000031	252-259
+condition	PDRO:0000129	288-297
+severity	HP:0012824	487-495
+Time frame: From Day 1 up to 19 cycles (cycle length 3 weeks) (approximately 1 year)	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	17-20
+length	PATO:0000122	46-52
+year	UO:0000036	79-83
+Results 1:	Results	4
+Arm/Group Title: Cohort A: SC Herceptin by Needle/Syringe	Results	5
+Arm/Group Description: Participants received SC Herceptin by an assisted administration as 600 mg every 3 weeks for a total of 18 doses/cycles. Each dose of SC Herceptin was taken from a single-use vial and injected by needle/syringe.	Results	6
+vial	BAO:0000577	198-202
+Overall Number of Participants Analyzed: 1864	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  88.6	Results	9
+Results 2:	Results	10
+Arm/Group Title: Cohort B: SC Herceptin by SID	Results	11
+Arm/Group Description: Participants received SC Herceptin as 600 mg every 3 weeks for a total of 18 doses/cycles. Each dose of SC Herceptin was administered from a pre-filled SID. The first administration was performed by an HCP. Subsequent doses were self-administered by participants who were willing and judged competent by the HCP.	Results	12
+Overall Number of Participants Analyzed: 709	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  89.0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 242/1864 (12.98%)	Adverse Events	1
+Febrile neutropenia * 39/1864 (2.09%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 9/1864 (0.48%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile bone marrow aplasia * 2/1864 (0.11%)	Adverse Events	4
+bone marrow	UBERON:0002371	8-19
+Anaemia * 3/1864 (0.16%)	Adverse Events	5
+Leukocytosis * 2/1864 (0.11%)	Adverse Events	6
+leukocytosis	HP:0001974	0-12
+Leukopenia * 2/1864 (0.11%)	Adverse Events	7
+leukopenia	HP:0001882,DOID:615	0-10
+Pancytopenia * 1/1864 (0.05%)	Adverse Events	8
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thymus enlargement * 1/1864 (0.05%)	Adverse Events	9
+Lymphadenopathy * 0/1864 (0.00%)	Adverse Events	10
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia * 0/1864 (0.00%)	Adverse Events	11
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Adverse Events 2:	Adverse Events	12
+Total: 84/709 (11.85%)	Adverse Events	13
+Febrile neutropenia * 14/709 (1.97%)	Adverse Events	14
+neutropenia	HP:0001875,DOID:1227	8-19
+Neutropenia * 6/709 (0.85%)	Adverse Events	15
+neutropenia	HP:0001875,DOID:1227	0-11
+Febrile bone marrow aplasia * 2/709 (0.28%)	Adverse Events	16
+bone marrow	UBERON:0002371	8-19
+Anaemia * 0/709 (0.00%)	Adverse Events	17
+Leukocytosis * 0/709 (0.00%)	Adverse Events	18
+leukocytosis	HP:0001974	0-12
+Leukopenia * 0/709 (0.00%)	Adverse Events	19
+leukopenia	HP:0001882,DOID:615	0-10
+Pancytopenia * 0/709 (0.00%)	Adverse Events	20
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thymus enlargement * 0/709 (0.00%)	Adverse Events	21
+Lymphadenopathy * 0/709 (0.00%)	Adverse Events	22
+lymphadenopathy	HP:0002716	0-15
+Thrombocytopenia * 0/709 (0.00%)	Adverse Events	23
+thrombocytopenia	HP:0001873,DOID:1588	0-16

@@ -1,0 +1,124 @@
+INTERVENTION 1:	Intervention	0
+HR+, HER2-	Intervention	1
+Patients with Hormone Receptor Positive, HER2 negative Breast Cancer. A single dose of Bevacizumab 10mg/kg, followed two weeks later by Adriamycin60 mg/m2 and Cyclophosphamide 600 mg/m2 with Bevacizumab 10mg/kg every 2 weeks x4, followed by Taxol 175 mg/m2 with Bevacizumab 10 mg/kg every 2 weeks x3, followed by Taxol 175 mg/m2 x1.	Intervention	2
+hormone	CHEBI:24621	14-21
+receptor	BAO:0000281	22-30
+breast cancer	DOID:1612	55-68
+cyclophosphamide	CHEBI:4026	159-175
+INTERVENTION 2:	Intervention	3
+Triple Negative Breast Cancer Cohort	Intervention	4
+breast cancer	DOID:1612	16-29
+Hormone receptor negative, HER2 negative Cohort. Receive same drug protocol as Arm A.	Intervention	5
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+drug	CHEBI:23888	62-66
+Inclusion Criteria:	Eligibility	0
+Documented primary invasive breast cancer by histologic assessment	Eligibility	1
+breast cancer	DOID:1612	28-41
+Tumors must express estrogen (ER) and/or progesterone receptors (PR) by standard immunohistochemical methods. Tumors must be negative for HER2. There must be sufficient sample for further protocol-specified immunohistochemical analysis	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	20-28
+progesterone	CHEBI:17026	41-53
+Patients must have high risk ER+ or PR+ breast cancer as defined by criteria listed in protocol	Eligibility	3
+breast cancer	DOID:1612	40-53
+18 year of age or older	Eligibility	4
+year	UO:0000036	3-7
+age	PATO:0000011	11-14
+Performance status of 0 or 1 by ECOG criteria	Eligibility	5
+Use of an effective means of contraception in subjects of childbearing potential	Eligibility	6
+Women of childbearing potential must have a negative serum pregnancy test within 14 days prior to starting therapy.	Eligibility	7
+Patients taking exogenous sex-steroid hormone treatments for any reason at the time of diagnosis must discontinue all hormonal treatments at least 2 weeks prior to enrollment	Eligibility	8
+hormone	CHEBI:24621	38-45
+time	PATO:0000165	79-83
+Patients must have preoperative treatment within 60 days of initial diagnosis of breast cancer	Eligibility	9
+breast cancer	DOID:1612	81-94
+No other malignancy that requires on-going treatment	Eligibility	10
+Normal organ function as outlined in the protocol	Eligibility	11
+organ	UBERON:0000062	7-12
+function	BAO:0003117,BFO:0000034	13-21
+Exclusion Criteria:	Eligibility	12
+Prior cytotoxic chemotherapy or radiation for the current breast cancer	Eligibility	13
+breast cancer	DOID:1612	58-71
+Patients with inflammatory breast cancer	Eligibility	14
+breast cancer	DOID:1612	27-40
+HER2 positive disease defined as HER2-amplified by FISH or IHC 3+. HER2 2+ must be negative by FISH	Eligibility	15
+disease	DOID:4,OGMS:0000031	14-21
+Known metastatic (Stage IV) disease	Eligibility	16
+disease	DOID:4,OGMS:0000031	28-35
+Other investigational agents within 4 weeks prior to the start of study treatment	Eligibility	17
+Life expectancy of less than 6 months	Eligibility	18
+Peripheral neuropathy greater than or equal to grade 2	Eligibility	19
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Inadequately controlled hypertension	Eligibility	20
+hypertension	HP:0000822,DOID:10763	24-36
+Any prior history of hypertensive crisis or hypertensive encephalopathy	Eligibility	21
+history	BFO:0000182	10-17
+hypertensive crisis	HP:0100735	21-40
+hypertensive encephalopathy	DOID:9427	44-71
+NYHA grade II or greater congestive heart failure	Eligibility	22
+congestive heart failure	HP:0001635,DOID:6000	25-49
+History of prior myocardial infarction	Eligibility	23
+history	BFO:0000182	0-7
+myocardial infarction	HP:0001658,DOID:5844	17-38
+History of unstable angina within 12 months prior to study enrollment	Eligibility	24
+history	BFO:0000182	0-7
+Any history of stroke or transient ischemic attack at any time	Eligibility	25
+history	BFO:0000182	4-11
+stroke	HP:0001297,DOID:6713	15-21
+transient ischemic attack	HP:0002326,DOID:224	25-50
+time	PATO:0000165	58-62
+Known CNS disease	Eligibility	26
+disease	DOID:4,OGMS:0000031	10-17
+Significant vascular disease	Eligibility	27
+vascular disease	DOID:178	12-28
+Symptomatic peripheral vascular disease	Eligibility	28
+peripheral vascular disease	DOID:341	12-39
+Evidence of significant bleeding within 6 months of study; any serious non-healing wound, skin ulcers, or bone fracture; any abdominal fistula, gastrointestinal perforation or intra-abdominal abscess within the past 6 months; any major surgical procedure within 28 days prior to randomization or anticipation of need for major surgery during course of study.	Eligibility	29
+bone fracture	HP:0020110	106-119
+abscess	HP:0025615	192-199
+surgery	OAE:0000067	327-334
+Known HIV positive	Eligibility	30
+Unwilling to undergo pretreatment biopsy and consent to acquisition of archival tissue	Eligibility	31
+tissue	UBERON:0000479	80-86
+Pregnant of lactating	Eligibility	32
+Known hypersensitivity to any component of bevacizumab	Eligibility	33
+hypersensitivity	GO:0002524,DOID:1205	6-22
+Outcome Measurement:	Results	0
+Pathologic Complete Response Rate After Preoperative Therapy in This Patient Population.	Results	1
+rate	BAO:0080019	29-33
+patient	HADO:0000008,OAE:0001817	69-76
+Pathological Complete response is defined as complete disappearance of invasive tumor in the breast at the time of surgery	Results	2
+breast	UBERON:0000310	93-99
+time	PATO:0000165	107-111
+surgery	OAE:0000067	115-122
+Time frame: 3 Years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: HR+, HER2-	Results	5
+Arm/Group Description: Patients with Hormone Receptor Positive, HER2 negative Breast Cancer. A single dose of Bevacizumab 10mg/kg, followed two weeks later by Adriamycin60 mg/m2 and Cyclophosphamide 600 mg/m2 with Bevacizumab 10mg/kg every 2 weeks x4, followed by Taxol 175 mg/m2 with Bevacizumab 10 mg/kg every 2 weeks x3, followed by Taxol 175 mg/m2 x1.	Results	6
+hormone	CHEBI:24621	37-44
+receptor	BAO:0000281	45-53
+breast cancer	DOID:1612	78-91
+cyclophosphamide	CHEBI:4026	182-198
+Overall Number of Participants Analyzed: 84	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  8	Results	9
+Results 2:	Results	10
+Arm/Group Title: Triple Negative Breast Cancer Cohort	Results	11
+breast cancer	DOID:1612	33-46
+Arm/Group Description: Hormone receptor negative, HER2 negative Cohort. Receive same drug protocol as Arm A.	Results	12
+hormone	CHEBI:24621	23-30
+receptor	BAO:0000281	31-39
+drug	CHEBI:23888	85-89
+Overall Number of Participants Analyzed: 20	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  44	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 4/104 (3.85%)	Adverse Events	1
+Neutropenia 1/104 (0.96%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	0-11
+Leukopenia 2/104 (1.92%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+paranasal sinus reaction 1/104 (0.96%)	Adverse Events	4
+cellulitis 1/104 (0.96%)	Adverse Events	5
+cellulitis	HP:0100658,DOID:3488	0-10
+Adverse Events 2:	Adverse Events	6

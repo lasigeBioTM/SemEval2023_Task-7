@@ -1,0 +1,115 @@
+INTERVENTION 1:	Intervention	0
+Arm C1 (Baseline CTCs >= 5, Day 22 CTCs >= 5, High Risk)	Intervention	1
+day	UO:0000033	28-31
+Patients had increased CTCs at baseline (defined as five or more CTCs per 7.5 mL WB) and >= 5 CTCs at first follow-up (Day 22). Patients would be randomized to maintain current therapy.	Intervention	2
+day	UO:0000033	119-122
+INTERVENTION 2:	Intervention	3
+Arm C2 (Baseline CTCs >= 5, Day 22 CTCs >= 5, High Risk)	Intervention	4
+day	UO:0000033	28-31
+Patients had increased CTCs at baseline (defined as five or more CTCs per 7.5mL WB) and >= 5CTCs at first follow-up (Day22). Patients would be randomized to change therapy to a different drug or combination of drugs.	Intervention	5
+drug	CHEBI:23888	187-191
+drug	CHEBI:23888	210-214
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed breast cancer	Eligibility	1
+breast cancer	DOID:1612	25-38
+Clinical evidence of metastatic disease (stage IV disease)	Eligibility	2
+disease	DOID:4,OGMS:0000031	32-39
+disease	DOID:4,OGMS:0000031	50-57
+Newly metastatic disease OR progressive metastatic disease while on hormonal therapy	Eligibility	3
+disease	DOID:4,OGMS:0000031	17-24
+disease	DOID:4,OGMS:0000031	51-58
+progressive	HP:0003676	28-39
+Meets 1 of the following criteria:	Eligibility	4
+Measurable disease	Eligibility	5
+disease	DOID:4,OGMS:0000031	11-18
+Bone-only disease* NOTE: *Patients with nonmeasurable disease that does not include bone are not eligible	Eligibility	6
+disease	DOID:4,OGMS:0000031	10-17
+disease	DOID:4,OGMS:0000031	54-61
+HER-2 status determined by immunohistochemistry (IHC) or fluorescent in situ hybridization (FISH) assay	Eligibility	7
+immunohistochemistry	BAO:0000415	27-47
+HER-2 positivity is defined as IHC 3+ or FISH+	Eligibility	8
+If IHC is indeterminate (2+), FISH must be performed to classify disease	Eligibility	9
+disease	DOID:4,OGMS:0000031	65-72
+Planning to undergo first-line chemotherapy for metastatic disease	Eligibility	10
+disease	DOID:4,OGMS:0000031	59-66
+Patients with brain metastases must have stable disease for > 90 days after completion of prior radiotherapy to the brain	Eligibility	11
+brain	UBERON:0000955	14-19
+brain	UBERON:0000955	116-121
+stable	HP:0031915	41-47
+disease	DOID:4,OGMS:0000031	48-55
+radiotherapy	OAE:0000235	96-108
+No leptomeningeal disease	Eligibility	12
+disease	DOID:4,OGMS:0000031	18-25
+Hormone receptor status not specified	Eligibility	13
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	14
+patient	HADO:0000008,OAE:0001817	0-7
+Female	Eligibility	15
+female	PATO:0000383	0-6
+Menopausal status not specified	Eligibility	16
+Zubrod performance status 0-2	Eligibility	17
+Not pregnant or nursing	Eligibility	18
+Negative pregnancy test	Eligibility	19
+No other malignancy within the past 5 years except adequately treated basal cell or squamous cell skin cancer or stage I or II cancer currently in complete remission	Eligibility	20
+skin cancer	DOID:4159	98-109
+cancer	DOID:162	103-109
+cancer	DOID:162	127-133
+PRIOR CONCURRENT THERAPY:	Eligibility	21
+See Disease Characteristics	Eligibility	22
+disease	DOID:4,OGMS:0000031	4-11
+Prior hormonal therapy, bisphosphonate therapy, trastuzumab (Herceptin®), and/or bevacizumab for metastatic disease allowed	Eligibility	23
+disease	DOID:4,OGMS:0000031	108-115
+Any number of exogenous hormonal therapies for metastatic disease and/or as adjuvant therapy allowed	Eligibility	24
+disease	DOID:4,OGMS:0000031	58-65
+adjuvant	CHEBI:60809	76-84
+At least 1 year since prior adjuvant chemotherapy	Eligibility	25
+year	UO:0000036	11-15
+adjuvant	CHEBI:60809	28-36
+At least 2 weeks since prior minor surgery and recovered	Eligibility	26
+surgery	OAE:0000067	35-42
+At least 4 weeks since prior major surgery and recovered	Eligibility	27
+surgery	OAE:0000067	35-42
+No prior chemotherapy for metastatic disease	Eligibility	28
+disease	DOID:4,OGMS:0000031	37-44
+Concurrent hormonal therapy and/or bisphosphonate therapy allowed	Eligibility	29
+Concurrent trastuzumab and/or bevacizumab allowed	Eligibility	30
+Outcome Measurement:	Results	0
+Overall Survival	Results	1
+From date of registration to date of death due to any cause. Patients last known to be alive are censored at date of last contact.	Results	2
+death	OAE:0000632	37-42
+Time frame: Every 3 months until progression then every 6 months for 5 years or until death	Results	3
+time	PATO:0000165	0-4
+death	OAE:0000632	86-91
+Results 1:	Results	4
+Arm/Group Title: Arm C1 (Baseline CTCs >= 5, Day 22 CTCs >= 5, High Risk)	Results	5
+day	UO:0000033	45-48
+Arm/Group Description: Patients had increased CTCs at baseline (defined as five or more CTCs per 7.5 mL WB) and >= 5 CTCs at first follow-up (Day 22). Patients would be randomized to maintain current therapy.	Results	6
+day	UO:0000033	142-145
+Overall Number of Participants Analyzed: 64	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  10.7        (9.1 to 14.8)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm C2 (Baseline CTCs >= 5, Day 22 CTCs >= 5, High Risk)	Results	11
+day	UO:0000033	45-48
+Arm/Group Description: Patients had increased CTCs at baseline (defined as five or more CTCs per 7.5mL WB) and >= 5CTCs at first follow-up (Day22). Patients would be randomized to change therapy to a different drug or combination of drugs.	Results	12
+drug	CHEBI:23888	210-214
+drug	CHEBI:23888	233-237
+Overall Number of Participants Analyzed: 59	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  12.5        (8.4 to 16.3)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/161 (0.00%)	Adverse Events	1
+Gastrointestinal-Other 0/161 (0.00%)	Adverse Events	2
+Dehydration 0/161 (0.00%)	Adverse Events	3
+dehydration	HP:0001944	0-11
+Renal/Genitourinary-Other 0/161 (0.00%)	Adverse Events	4
+Adverse Events 2:	Adverse Events	5
+Total: 1/64 (1.56%)	Adverse Events	6
+Gastrointestinal-Other 1/64 (1.56%)	Adverse Events	7
+Dehydration 1/64 (1.56%)	Adverse Events	8
+dehydration	HP:0001944	0-11
+Renal/Genitourinary-Other 1/64 (1.56%)	Adverse Events	9

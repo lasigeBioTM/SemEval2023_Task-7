@@ -1,0 +1,138 @@
+INTERVENTION 1:	Intervention	0
+Lapatinib 1500 mg + Paclitaxel 80 mg/m^2	Intervention	1
+lapatinib	CHEBI:49603	0-9
+paclitaxel	CHEBI:45863	20-30
+Participants received lapatinib 1500 mg QD in combination with IV paclitaxel 80 mg/m^2 weekly on Day 1, Day 8, and Day 15 of a 4-week cycle until disease progression or withdrawal from study treatment due to unacceptable toxicity or withdrawal of consent.	Intervention	2
+lapatinib	CHEBI:49603	22-31
+paclitaxel	CHEBI:45863	66-76
+day	UO:0000033	97-100
+day	UO:0000033	104-107
+day	UO:0000033	115-118
+disease	DOID:4,OGMS:0000031	146-153
+Inclusion Criteria:	Eligibility	0
+Prior written consent in participating in the study by the subject or his/her private attorney.	Eligibility	1
+Japanese female >=18 years of age.	Eligibility	2
+female	PATO:0000383	9-15
+age	PATO:0000011	30-33
+Invasive breast cancer with stage IV disease.	Eligibility	3
+breast cancer	DOID:1612	9-22
+disease	DOID:4,OGMS:0000031	37-44
+Documentation by local laboratory of ErbB2 status by immunohistochemistry (IHC) or amplification by fluorescence in situ hybridization (FISH).	Eligibility	4
+immunohistochemistry	BAO:0000415	53-73
+If a taxane had been administered in the neoadjuvant or adjuvant setting, progression must have occurred >12 months after completion of this treatment and the patients recovered from all associated toxicities.	Eligibility	5
+taxane	CHEBI:36064	5-11
+adjuvant	CHEBI:60809	44-52
+adjuvant	CHEBI:60809	56-64
+Measurable lesion(s) according to RECIST criteria.	Eligibility	6
+Radiotherapy as palliative treatment for painful metastatic disease is permitted but must have been stopped within 2 weeks prior to initiation of any investigational treatment.	Eligibility	7
+radiotherapy	OAE:0000235	0-12
+disease	DOID:4,OGMS:0000031	60-67
+For those patients whose disease is ER+ and/or PR+ one of the following criteria should be met:	Eligibility	8
+disease	DOID:4,OGMS:0000031	25-32
+Patient with visceral disease that requires chemotherapy (e.g., patients with liver or lung metastases).	Eligibility	9
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	64-71
+disease	DOID:4,OGMS:0000031	22-29
+liver	UBERON:0002107	78-83
+lung	UBERON:0002048	87-91
+Rapidly progressing or life threatening disease that are considered to be inapplicable to hormonal therapy, as determined by the investigator.	Eligibility	10
+disease	DOID:4,OGMS:0000031	40-47
+Patients who received hormonal therapy and are no longer benefiting from this therapy and the hormonal treatment must have been stopped before the first dose of investigational treatment.	Eligibility	11
+Subjects recovered from all the associated toxicities by prior endocrine therapy.	Eligibility	12
+Eastern cooperative oncology group (ECOG) Performance status (PS) of 0 or 1.	Eligibility	13
+group	CHEBI:24433	29-34
+Able to swallow and retain oral medication.	Eligibility	14
+Cardiac ejection fraction within institutional range of normal as measured by echocardiogram. MUGA scan is accepted in cases where an echocardiogram cannot be performed or is inconclusive.	Eligibility	15
+ejection fraction	CMO:0000180	8-25
+range	LABO:0000114	47-52
+Adequate organ function.	Eligibility	16
+organ	UBERON:0000062	9-14
+function	BAO:0003117,BFO:0000034	15-23
+Exclusion Criteria:	Eligibility	17
+Pregnant or lactating females at anytime during the study.	Eligibility	18
+Received prior chemotherapy, immunotherapy, biologic therapy or anti-ErbB1/ErbB2 therapy for metastatic disease.	Eligibility	19
+disease	DOID:4,OGMS:0000031	104-111
+History of other malignancy.	Eligibility	20
+history	BFO:0000182	0-7
+Prior therapy with an ErbB1 and/or ErbB2 inhibitor, other than trastuzumab, in the adjuvant setting.	Eligibility	21
+inhibitor	CHEBI:35222	41-50
+adjuvant	CHEBI:60809	83-91
+Planned concurrent anti-cancer therapy (chemotherapy, radiation therapy, immunotherapy, biologic therapy, hormonal therapy) while taking investigational treatment.	Eligibility	22
+Used an investigational drug within 30 days or five half-lives, whichever is longer, preceding the first dose of investigational treatment.	Eligibility	23
+drug	CHEBI:23888	24-28
+Unresolved or unstable, serious toxicity from prior administration of another investigational drug and/or of prior anti-cancer treatment.	Eligibility	24
+drug	CHEBI:23888	94-98
+Uncontrolled infection.	Eligibility	25
+Patients having at least positive antibody either to HBs or HBc.	Eligibility	26
+antibody	GO:0042571,BAO:0000502	34-42
+Patients who have had a positive HCV antibody.	Eligibility	27
+antibody	GO:0042571,BAO:0000502	37-45
+Peripheral neuropathy grade 2 or greater.	Eligibility	28
+peripheral neuropathy	HP:0009830,DOID:870	0-21
+Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel. Subjects with ulcerative colitis are also excluded.	Eligibility	29
+malabsorption	HP:0002024	0-13
+syndrome	DOID:225	14-22
+disease	DOID:4,OGMS:0000031	24-31
+function	BAO:0003117,BFO:0000034	73-81
+stomach	UBERON:0000945	103-110
+ulcerative colitis	HP:0100279,DOID:8577	141-159
+excluded	HP:0040285	169-177
+Dementia, altered mental status, or any psychiatric condition that would prohibit the understanding or rendering of informed consent.	Eligibility	30
+dementia	HP:0000726,DOID:1307	0-8
+condition	PDRO:0000129	52-61
+Known history or clinical evidence of central nervous system (CNS) metastases or leptomeningeal carcinomatosis.	Eligibility	31
+history	BFO:0000182	6-13
+central nervous system	UBERON:0001017	38-60
+Concurrent disease or condition that would make the subject inappropriate for study participation or any serious medical disorder that would interfere with the subject's safety.	Eligibility	32
+disease	DOID:4,OGMS:0000031	11-18
+condition	PDRO:0000129	22-31
+disorder	OGMS:0000045	121-129
+Known history or concurrent condition of uncontrolled or symptomatic angina, arrhythmias, or congestive heart failure.	Eligibility	33
+history	BFO:0000182	6-13
+condition	PDRO:0000129	28-37
+congestive heart failure	HP:0001635,DOID:6000	93-117
+Concurrent treatment with prohibited medications.	Eligibility	34
+Known immediate or delayed hypersensitivity reaction or idiosyncrasy to drugs chemically related to paclitaxel or lapatinib or their excipients.	Eligibility	35
+hypersensitivity	GO:0002524,DOID:1205	27-43
+paclitaxel	CHEBI:45863	100-110
+lapatinib	CHEBI:49603	114-123
+Have current active hepatic or biliary disease (with exception of patients with Gilbert's syndrome, asymptomatic gallstones, liver metastases or stable chronic liver disease per investigator assessment).	Eligibility	36
+active	PATO:0002354	13-19
+disease	DOID:4,OGMS:0000031	39-46
+disease	DOID:4,OGMS:0000031	166-173
+syndrome	DOID:225	90-98
+liver	UBERON:0002107	125-130
+liver	UBERON:0002107	160-165
+stable	HP:0031915	145-151
+chronic	HP:0011010	152-159
+liver disease	DOID:409	160-173
+Outcome Measurement:	Results	0
+Number of Participants With Intolerable Toxicities in Phase I of the Study	Results	1
+Investigational treatment was considered tolerable if one or more of the tolerability criteria were met by none or one of the 6 participants in the first cycle of Phase I. If one or more tolerability criteria were met by two or more participants, the issue was referred to the safety committee. Tolerability criteria for toxicities related to investigational treatment included grade 4 neutropenia persisting for 7 or more days, thrombocytopenia with a platelet count of less than or equal to 25,000/millimeter (mm)^3 , clinically significant Grade 3 or 4 non-haematologic toxicities (excluding nausea) and inability to start cycle 2 within 2 weeks of scheduled dosing due to unresolved toxicity.	Results	2
+neutropenia	HP:0001875,DOID:1227	386-397
+thrombocytopenia	HP:0001873,DOID:1588	429-445
+platelet count	CMO:0000029	453-467
+nausea	HP:0002018	595-601
+Time frame: 28 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Lapatinib 1500 mg + Paclitaxel 80 mg/m^2	Results	5
+lapatinib	CHEBI:49603	17-26
+paclitaxel	CHEBI:45863	37-47
+Arm/Group Description: Participants received lapatinib 1500 mg QD in combination with IV paclitaxel 80 mg/m^2 weekly on Day 1, Day 8, and Day 15 of a 4-week cycle until disease progression or withdrawal from study treatment due to unacceptable toxicity or withdrawal of consent.	Results	6
+lapatinib	CHEBI:49603	45-54
+paclitaxel	CHEBI:45863	89-99
+day	UO:0000033	120-123
+day	UO:0000033	127-130
+day	UO:0000033	138-141
+disease	DOID:4,OGMS:0000031	169-176
+Overall Number of Participants Analyzed: 6	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  1	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 3/12 (25.00%)	Adverse Events	1
+Left ventricular dysfunction 1/12 (8.33%)	Adverse Events	2
+left	HP:0012835	0-4
+Pneumonia 1/12 (8.33%)	Adverse Events	3
+pneumonia	HP:0002090,DOID:552	0-9
+Neutrophil count decreased 2/12 (16.67%)	Adverse Events	4

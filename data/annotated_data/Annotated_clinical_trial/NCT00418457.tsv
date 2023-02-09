@@ -1,0 +1,80 @@
+INTERVENTION 1:	Intervention	0
+General Anesthesia and Opioid	Intervention	1
+General anesthesia followed by opioid administration	Intervention	2
+General anesthesia and opioids: General anesthesia, usually with sevoflurane, and opioid analgesia	Intervention	3
+sevoflurane	CHEBI:9130	65-76
+INTERVENTION 2:	Intervention	4
+Regional Analgesia and Propofol	Intervention	5
+propofol	CHEBI:44915	23-31
+Regional anesthesia and analgesia (either epidural or paravertebral) combined with propofol	Intervention	6
+propofol	CHEBI:44915	83-91
+Regional analgesia and propofol: Regional anesthesia and analgesia (either epidural or paravertebral), combined with deep sedation or general anesthesia	Intervention	7
+propofol	CHEBI:44915	23-31
+Inclusion Criteria:	Eligibility	0
+Primary breast cancer without known extension beyond the breast and axillary nodes (i.e. believed to be Tumor Stage 1-3, Nodes 0-2)	Eligibility	1
+breast cancer	DOID:1612	8-21
+breast	UBERON:0000310	8-14
+breast	UBERON:0000310	57-63
+Scheduled for unilateral or bilateral mastectomy with or without implant (isolated "lumpectomy" will not qualify)	Eligibility	2
+unilateral	HP:0012833	14-24
+bilateral	HP:0012832	28-37
+Isolated "lumpectomy" with axillary node dissection (anticipated removal of at least five nodes)	Eligibility	3
+Written informed consent, including willingness to be randomized to morphine or regional analgesia	Eligibility	4
+morphine	CHEBI:58097	68-76
+Exclusion Criteria:	Eligibility	5
+Previous surgery for breast cancer (except diagnostic biopsies)	Eligibility	6
+surgery	OAE:0000067	9-16
+breast cancer	DOID:1612	21-34
+Inflammatory breast cancer	Eligibility	7
+breast cancer	DOID:1612	13-26
+Age < 18 or > 85 years old	Eligibility	8
+age	PATO:0000011	0-3
+Scheduled free flap reconstruction	Eligibility	9
+ASA Physical Status  4	Eligibility	10
+Any contraindication to epidural or paravertebral anesthesia and analgesia (including coagulopathy, abnormal anatomy)	Eligibility	11
+contraindication	OAE:0000055	4-20
+Any contraindication to midazolam, propofol, sevoflurane, fentanyl, or morphine	Eligibility	12
+contraindication	OAE:0000055	4-20
+midazolam	CHEBI:6931	24-33
+propofol	CHEBI:44915	35-43
+sevoflurane	CHEBI:9130	45-56
+fentanyl	CHEBI:119915	58-66
+morphine	CHEBI:58097	71-79
+Other cancer not believed by the attending surgeon to be in long-term remission	Eligibility	13
+cancer	DOID:162	6-12
+Systemic disease believed by the attending surgeon to present  25% two-year mortality	Eligibility	14
+disease	DOID:4,OGMS:0000031	9-16
+present	PATO:0000467	54-61
+Outcome Measurement:	Results	0
+Number of Participants Who Had Breast Cancer Recurrence After Breast Cancer Surgery	Results	1
+breast cancer	DOID:1612	31-44
+breast cancer	DOID:1612	62-75
+surgery	OAE:0000067	76-83
+time to breast cancer recurrence from the end of surgery.	Results	2
+time	PATO:0000165	0-4
+breast cancer	DOID:1612	8-21
+surgery	OAE:0000067	49-56
+Time frame: up to 10 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: General Anesthesia and Opioid	Results	5
+Arm/Group Description: General anesthesia followed by opioid administration	Results	6
+General anesthesia and opioids: General anesthesia, usually with sevoflurane, and opioid analgesia	Results	7
+sevoflurane	CHEBI:9130	65-76
+Overall Number of Participants Analyzed: 1065	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: participants  111	Results	10
+Results 2:	Results	11
+Arm/Group Title: Regional Analgesia and Propofol	Results	12
+propofol	CHEBI:44915	40-48
+Arm/Group Description: Regional anesthesia and analgesia (either epidural or paravertebral) combined with propofol	Results	13
+propofol	CHEBI:44915	106-114
+Regional analgesia and propofol: Regional anesthesia and analgesia (either epidural or paravertebral), combined with deep sedation or general anesthesia	Results	14
+propofol	CHEBI:44915	23-31
+Overall Number of Participants Analyzed: 1043	Results	15
+Measure Type: Number	Results	16
+Unit of Measure: participants  102	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 0/1065 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/1043 (0.00%)	Adverse Events	3

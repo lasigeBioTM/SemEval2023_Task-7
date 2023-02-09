@@ -1,0 +1,158 @@
+INTERVENTION 1:	Intervention	0
+Ribociclib + Adjuvant Endocrine Therapy (ET)	Intervention	1
+adjuvant	CHEBI:60809	13-21
+Patients in this arm took Ribociclib in combination with standard adjuvant endocrine therapy. ET was one of these 4: Letrozole, Anastrozole, Exemestane, Tamoxifen (Tamoxifen no longer permitted after protocol amendment 2)	Intervention	2
+adjuvant	CHEBI:60809	66-74
+letrozole	CHEBI:6413	117-126
+anastrozole	CHEBI:2704	128-139
+exemestane	CHEBI:4953	141-151
+tamoxifen	CHEBI:41774	153-162
+tamoxifen	CHEBI:41774	164-173
+INTERVENTION 2:	Intervention	3
+Placebo + Adjuvant Endocrine Therapy (ET)	Intervention	4
+adjuvant	CHEBI:60809	10-18
+Patients in this arm took Placebo in combination with standard adjuvant endocrine therapy. ET was one of these 4: Letrozole, Anastrozole, Exemestane, Tamoxifen	Intervention	5
+adjuvant	CHEBI:60809	63-71
+letrozole	CHEBI:6413	114-123
+anastrozole	CHEBI:2704	125-136
+exemestane	CHEBI:4953	138-148
+tamoxifen	CHEBI:41774	150-159
+Key Inclusion Criteria:	Eligibility	0
+Histologically confirmed unilateral primary invasive adenocarcinoma of the breast	Eligibility	1
+unilateral	HP:0012833	25-35
+adenocarcinoma	DOID:299	53-67
+breast	UBERON:0000310	75-81
+Estrogen receptor-positive and/or progesterone receptor-positive, HER2-negative breast cancer	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	34-46
+breast cancer	DOID:1612	80-93
+Patient is after surgical resection of the tumor where tumor was removed completely, with the final surgical specimen microscopic margins free from tumor and with available archival tumor tissue from the surgical specimen	Eligibility	3
+patient	HADO:0000008,OAE:0001817	0-7
+tissue	UBERON:0000479	188-194
+Patient who received adjuvant chemotherapy and have AJCC 8th edition Prognostic Stage Group III tumor; or patient who received neoadjuvant chemotherapy and have 1 or more ipsilateral axillary lymph nodes with residual tumor metastases greater than 2.0 mm in lymph node(-s) and residual tumor greater than 10.0 mm in breast tissue	Eligibility	4
+patient	HADO:0000008,OAE:0001817	0-7
+patient	HADO:0000008,OAE:0001817	106-113
+adjuvant	CHEBI:60809	21-29
+adjuvant	CHEBI:60809	130-138
+group	CHEBI:24433	86-91
+lymph	UBERON:0002391	192-197
+lymph	UBERON:0002391	258-263
+breast	UBERON:0000310	316-322
+tissue	UBERON:0000479	323-329
+Patient has completed multi-agent adjuvant or neoadjuvant chemotherapy of  4 cycles or  12 weeks which included taxanes prior to screening	Eligibility	5
+patient	HADO:0000008,OAE:0001817	0-7
+adjuvant	CHEBI:60809	34-42
+adjuvant	CHEBI:60809	49-57
+Patient has completed adjuvant radiotherapy (if indicated) prior to screening	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+adjuvant	CHEBI:60809	22-30
+radiotherapy	OAE:0000235	31-43
+Patient may already have initiated adjuvant endocrine therapy (ET) at the time of randomization, but randomization must take place within 52 weeks of date of initial histological diagnosis of breast cancer and within 12 weeks of initiating ET	Eligibility	7
+patient	HADO:0000008,OAE:0001817	0-7
+adjuvant	CHEBI:60809	35-43
+time	PATO:0000165	74-78
+breast cancer	DOID:1612	192-205
+ECOG Performance Status 0 or 1	Eligibility	8
+Adequate bone marrow and organ function	Eligibility	9
+bone marrow	UBERON:0002371	9-20
+organ	UBERON:0000062	25-30
+function	BAO:0003117,BFO:0000034	31-39
+Sodium, potassium, phosphorus, magnesium and total calcium laboratory values within normal limits	Eligibility	10
+calcium	CHEBI:22984,BAO:0000874	51-58
+QTcF interval < 450 msec and mean resting heart rate 50-90 bpm	Eligibility	11
+mean	BAO:0002173	29-33
+heart rate	CMO:0000002	42-52
+Key Exclusion Criteria:	Eligibility	12
+Prior treatment with CDK4/6 inhibitor	Eligibility	13
+inhibitor	CHEBI:35222	28-37
+Prior treatment with tamoxifen, raloxifen or aromatase inhibitors for reduction in risk (chemoprevention) of breast cancer and/or treatment for osteoporosis within last 2 years	Eligibility	14
+tamoxifen	CHEBI:41774	21-30
+breast cancer	DOID:1612	109-122
+osteoporosis	HP:0000939,DOID:11476	144-156
+Prior treatment with anthracyclines at cumulative doses of 450 mg/m² or more for doxorubicin or 900 mg/m² or more for epirubicin	Eligibility	15
+doxorubicin	CHEBI:28748,BAO:0000639	81-92
+Distant metastases of breast cancer beyond regional lymph nodes	Eligibility	16
+breast cancer	DOID:1612	22-35
+lymph	UBERON:0002391	52-57
+Patient has not recovered from clinical and laboratory acute toxicities of chemotherapy, radiotherapy and surgery	Eligibility	17
+patient	HADO:0000008,OAE:0001817	0-7
+acute	HP:0011009,PATO:0000389	55-60
+radiotherapy	OAE:0000235	89-101
+surgery	OAE:0000067	106-113
+Clinically significant, uncontrolled heart disease and/or cardiac repolarization abnormality, or clinically significant cardiac arrhythmias	Eligibility	18
+heart disease	DOID:114	37-50
+Uncontrolled hypertension with systolic blood pressure >160 mmHg	Eligibility	19
+hypertension	HP:0000822,DOID:10763	13-25
+systolic blood pressure	CMO:0000004	31-54
+Patient is currently receiving any of the prohibited substances that cannot be discontinued 7 days prior to Cycle 1 Day 1: concomitant medications, herbal supplements, and/or fruits and their juices that are known as strong inhibitors or inducers of CYP3A4/5; medications that have a narrow therapeutic window and are predominantly metabolized through CYP3A4/5; systemic corticosteroids  2 weeks prior to starting study drug, or who have not fully recovered from side effects of such treatment; concomitant medications with a known risk to prolong the QT interval and/or known to cause torsades de points that cannot be discontinued or replaced by safe alternative medication.	Eligibility	20
+patient	HADO:0000008,OAE:0001817	0-7
+day	UO:0000033	94-97
+day	UO:0000033	116-119
+drug	CHEBI:23888	420-424
+qt interval	CMO:0000235	552-563
+Pregnant or breast-feeding (lactating) women or women who plan to become pregnant or breast-feed during the study	Eligibility	21
+Women of child-bearing potential unless they are using highly effective methods of contraception during the study treatment and for 21 days after stopping the study treatment.	Eligibility	22
+Outcome Measurement:	Results	0
+Number of Participants With Adverse Events and Serious Adverse Events	Results	1
+These are the number of participants who had adverse events or serious adverse events regardless of whether is was suspected to be drug-related or not	Results	2
+Time frame: Up to 26 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Ribociclib + Adjuvant Endocrine Therapy (ET)	Results	5
+adjuvant	CHEBI:60809	30-38
+Arm/Group Description: Patients in this arm took Ribociclib in combination with standard adjuvant endocrine therapy. ET was one of these 4: Letrozole, Anastrozole, Exemestane, Tamoxifen (Tamoxifen no longer permitted after protocol amendment 2)	Results	6
+adjuvant	CHEBI:60809	89-97
+letrozole	CHEBI:6413	140-149
+anastrozole	CHEBI:2704	151-162
+exemestane	CHEBI:4953	164-174
+tamoxifen	CHEBI:41774	176-185
+tamoxifen	CHEBI:41774	187-196
+Overall Number of Participants Analyzed: 26	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Participants  Adverse Events: 25	Results	9
+Serious Adverse Events: 4	Results	10
+Results 2:	Results	11
+Arm/Group Title: Placebo + Adjuvant Endocrine Therapy (ET)	Results	12
+adjuvant	CHEBI:60809	27-35
+Arm/Group Description: Patients in this arm took Placebo in combination with standard adjuvant endocrine therapy. ET was one of these 4: Letrozole, Anastrozole, Exemestane, Tamoxifen	Results	13
+adjuvant	CHEBI:60809	86-94
+letrozole	CHEBI:6413	137-146
+anastrozole	CHEBI:2704	148-159
+exemestane	CHEBI:4953	161-171
+tamoxifen	CHEBI:41774	173-182
+Overall Number of Participants Analyzed: 24	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: Participants  Adverse Events: 21	Results	16
+Serious Adverse Events: 2	Results	17
+Adverse Events 1:	Adverse Events	0
+Total: 4/26 (15.38%)	Adverse Events	1
+Disseminated intravascular coagulation 1/26 (3.85%)	Adverse Events	2
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Cardiac failure congestive 1/26 (3.85%)	Adverse Events	3
+Breast cellulitis 1/26 (3.85%)	Adverse Events	4
+breast	UBERON:0000310	0-6
+cellulitis	HP:0100658,DOID:3488	7-17
+Cellulitis 1/26 (3.85%)	Adverse Events	5
+cellulitis	HP:0100658,DOID:3488	0-10
+Acute myeloid leukaemia 1/26 (3.85%)	Adverse Events	6
+acute	HP:0011009,PATO:0000389	0-5
+Seizure 0/26 (0.00%)	Adverse Events	7
+seizure	HP:0001250	0-7
+Pulmonary embolism 1/26 (3.85%)	Adverse Events	8
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+Adverse Events 2:	Adverse Events	9
+Total: 2/24 (8.33%)	Adverse Events	10
+Disseminated intravascular coagulation 0/24 (0.00%)	Adverse Events	11
+disseminated intravascular coagulation	HP:0005521,DOID:11247	0-38
+Cardiac failure congestive 0/24 (0.00%)	Adverse Events	12
+Breast cellulitis 0/24 (0.00%)	Adverse Events	13
+breast	UBERON:0000310	0-6
+cellulitis	HP:0100658,DOID:3488	7-17
+Cellulitis 1/24 (4.17%)	Adverse Events	14
+cellulitis	HP:0100658,DOID:3488	0-10
+Acute myeloid leukaemia 0/24 (0.00%)	Adverse Events	15
+acute	HP:0011009,PATO:0000389	0-5
+Seizure 1/24 (4.17%)	Adverse Events	16
+seizure	HP:0001250	0-7
+Pulmonary embolism 0/24 (0.00%)	Adverse Events	17
+pulmonary embolism	HP:0002204,DOID:9477	0-18

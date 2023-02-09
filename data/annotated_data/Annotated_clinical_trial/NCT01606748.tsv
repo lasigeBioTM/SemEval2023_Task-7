@@ -1,0 +1,159 @@
+INTERVENTION 1:	Intervention	0
+Necitumumab Cohort 1 Day 3 Run-in	Intervention	1
+day	UO:0000033	21-24
+Necitumumab administered on Day 3 of the 3-week PK run-in period as an IV infusion at an absolute dose of 800 mg. Participants in Cohort 1 received necitumumab Process C drug product.	Intervention	2
+day	UO:0000033	28-31
+process	BFO:0000015	160-167
+drug	CHEBI:23888	170-174
+product	BAO:0003067	175-182
+INTERVENTION 2:	Intervention	3
+Necitumumab Cohort 1 Day 1, Cycle 1, Combination	Intervention	4
+day	UO:0000033	21-24
+Necitumumab administered on Days 1 and 8 of every 3-week cycle as an IV infusion at an absolute dose of 800 mg. Participants in Cohort 1 received necitumumab Process C drug product.	Intervention	5
+process	BFO:0000015	158-165
+drug	CHEBI:23888	168-172
+product	BAO:0003067	173-180
+Inclusion Criteria:	Eligibility	0
+Have documented advanced or metastatic malignant solid tumors (except for colorectal tumors with KRAS mutation) that are resistant to standard therapy or for which no standard therapy is available	Eligibility	1
+May have measurable or non-measurable disease	Eligibility	2
+disease	DOID:4,OGMS:0000031	38-45
+Have resolution to Grade 0 or 1 by the National Cancer Institute Common Terminology Criteria for Adverse Events, Version 4.0 (NCI-CTCAE 4.0) of all clinically significant toxic effects (other than alopecia) of prior chemotherapy, surgery, radiotherapy, or hormonal therapy	Eligibility	3
+cancer	DOID:162	48-54
+alopecia	HP:0001596,DOID:987	197-205
+surgery	OAE:0000067	230-237
+radiotherapy	OAE:0000235	239-251
+Have an Eastern Cooperative Oncology Group performance status (ECOG PS) score of 0 or 1	Eligibility	4
+group	CHEBI:24433	37-42
+Have adequate hepatic, hematologic and renal function	Eligibility	5
+function	BAO:0003117,BFO:0000034	45-53
+If female, are surgically sterile, postmenopausal, or agree to be compliant with a highly effective contraceptive method during and for 6 months after the treatment period. If male, are surgically sterile or agree to be compliant with a highly effective contraceptive regimen during and for 6 months after the treatment period	Eligibility	6
+female	PATO:0000383	3-9
+male	CHEBI:30780,PATO:0000384	5-9
+male	CHEBI:30780,PATO:0000384	176-180
+Female participants of childbearing potential have a negative serum pregnancy test within 7 days prior to the first dose of study therapy	Eligibility	7
+female	PATO:0000383	0-6
+Exclusion Criteria:	Eligibility	8
+Have received a systemic anticancer agent (including EGFR tyrosine kinase inhibitors) or device within 28 days prior to first dose of study therapy	Eligibility	9
+tyrosine	CHEBI:18186	58-66
+kinase	BAO:0000294	67-73
+The most recent anticancer therapy received by the participant included either gemcitabine or cisplatin (or both)	Eligibility	10
+gemcitabine	CHEBI:175901	79-90
+cisplatin	CHEBI:27899	94-103
+Have received radiotherapy within 14 days prior to first dose of study therapy	Eligibility	11
+radiotherapy	OAE:0000235	14-26
+Have received cytotoxic chemotherapy within 21 days prior to first dose of study therapy	Eligibility	12
+Are receiving concurrent treatment with another anticancer therapy, including chemotherapy, immunotherapy, hormonal therapy, radiation therapy, chemoembolization, or targeted therapy	Eligibility	13
+Are considered surgical candidates (with resectable disease)	Eligibility	14
+disease	DOID:4,OGMS:0000031	52-59
+Have brain metastases that are symptomatic or require ongoing treatment with steroids or anticonvulsants	Eligibility	15
+brain	UBERON:0000955	5-10
+Have narrowing of or blockage in large veins	Eligibility	16
+Have coronary artery disease or uncontrolled congestive heart failure	Eligibility	17
+coronary artery disease	DOID:3393	5-28
+congestive heart failure	HP:0001635,DOID:6000	45-69
+Have uncontrolled angina pectoris, or experienced myocardial infarction within 6 months prior to first dose of study therapy	Eligibility	18
+angina pectoris	HP:0001681	18-33
+myocardial infarction	HP:0001658,DOID:5844	50-71
+Have an ongoing or active infection (requiring treatment), including active tuberculosis or known infection with the human immunodeficiency virus	Eligibility	19
+active	PATO:0002354	19-25
+active	PATO:0002354	69-75
+tuberculosis	DOID:399	76-88
+immunodeficiency	HP:0002721	123-139
+virus	BAO:0000232	140-145
+Have a history of significant neurological or psychiatric disorders, including dementia, seizures, or bipolar disorder	Eligibility	20
+history	BFO:0000182	7-14
+dementia	HP:0000726,DOID:1307	79-87
+bipolar disorder	DOID:3312	102-118
+Have known drug or alcohol abuse	Eligibility	21
+drug	CHEBI:23888	11-15
+alcohol	CHEBI:16236	19-26
+If female, are pregnant or breastfeeding	Eligibility	22
+female	PATO:0000383	3-9
+Have had major surgery within 28 days prior to first dose of study medication or subcutaneous venous access device implantation within 7 days prior to first dose of study therapy	Eligibility	23
+surgery	OAE:0000067	15-22
+Are currently enrolled in, or discontinued within the 30 days prior to first dose of study therapy from a clinical trial involving an investigational product or nonapproved use of a drug or device, or concurrently enrolled in any other type of medical research judged not to be scientifically or medically compatible with this study	Eligibility	24
+product	BAO:0003067	150-157
+drug	CHEBI:23888	182-186
+Outcome Measurement:	Results	0
+Pharmacokinetics (PK): Maximum Observed Drug Concentration (Cmax) of Necitumumab	Results	1
+drug	CHEBI:23888	40-44
+cmax	BAO:0002119	60-64
+[Not Specified]	Results	2
+Time frame: Run-In Period Day 3 Cohort 1: 0, 0.83, 1.33, 1.83, 3.83, 7.5, 24.83, 72 and 168 Hour (h) Post Start of Infusion; Cycle 1, Day 1: 0, 0.83, 1.33, 1.83, 3.83, 7.5, 24.83, 72 and 168 h Post Start of Infusion	Results	3
+time	PATO:0000165	0-4
+day	UO:0000033	26-29
+day	UO:0000033	134-137
+hour	UO:0000032	92-96
+Results 1:	Results	4
+Arm/Group Title: Necitumumab Cohort 1 Day 3 Run-in	Results	5
+day	UO:0000033	38-41
+Arm/Group Description: Necitumumab administered on Day 3 of the 3-week PK run-in period as an IV infusion at an absolute dose of 800 mg. Participants in Cohort 1 received necitumumab Process C drug product.	Results	6
+day	UO:0000033	51-54
+process	BFO:0000015	183-190
+drug	CHEBI:23888	193-197
+product	BAO:0003067	198-205
+Overall Number of Participants Analyzed: 18	Results	7
+Geometric Mean (Geometric Coefficient of Variation)	Results	8
+mean	BAO:0002173	10-14
+coefficient of variation	BAO:0000531	26-50
+Unit of Measure: microgram/milliliter (ug/mL)  277        (22%)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Necitumumab Cohort 1 Day 1, Cycle 1, Combination	Results	11
+day	UO:0000033	38-41
+Arm/Group Description: Necitumumab administered on Days 1 and 8 of every 3-week cycle as an IV infusion at an absolute dose of 800 mg. Participants in Cohort 1 received necitumumab Process C drug product.	Results	12
+process	BFO:0000015	181-188
+drug	CHEBI:23888	191-195
+product	BAO:0003067	196-203
+Overall Number of Participants Analyzed: 12	Results	13
+Geometric Mean (Geometric Coefficient of Variation)	Results	14
+mean	BAO:0002173	10-14
+coefficient of variation	BAO:0000531	26-50
+Unit of Measure: microgram/milliliter (ug/mL)  315        (23%)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 5/18 (27.78%)	Adverse Events	1
+Anaemia 1/18 (5.56%)	Adverse Events	2
+Febrile neutropenia 1/18 (5.56%)	Adverse Events	3
+neutropenia	HP:0001875,DOID:1227	8-19
+Pancytopenia 0/18 (0.00%)	Adverse Events	4
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 1/18 (5.56%)	Adverse Events	5
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 1/18 (5.56%)	Adverse Events	6
+acute myocardial infarction	DOID:9408	0-27
+Eye pain 1/18 (5.56%)	Adverse Events	7
+eye	UBERON:0000970	0-3
+pain	HP:0012531	4-8
+Diarrhoea 1/18 (5.56%)	Adverse Events	8
+Intestinal obstruction 1/18 (5.56%)	Adverse Events	9
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea 0/18 (0.00%)	Adverse Events	10
+nausea	HP:0002018	0-6
+Small intestinal obstruction 0/18 (0.00%)	Adverse Events	11
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Asthenia 0/18 (0.00%)	Adverse Events	12
+asthenia	HP:0025406	0-8
+Pyrexia 1/18 (5.56%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 8/17 (47.06%)	Adverse Events	15
+Anaemia 0/17 (0.00%)	Adverse Events	16
+Febrile neutropenia 0/17 (0.00%)	Adverse Events	17
+neutropenia	HP:0001875,DOID:1227	8-19
+Pancytopenia 1/17 (5.88%)	Adverse Events	18
+pancytopenia	HP:0001876,DOID:12450	0-12
+Thrombocytopenia 0/17 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Acute myocardial infarction 0/17 (0.00%)	Adverse Events	20
+acute myocardial infarction	DOID:9408	0-27
+Eye pain 0/17 (0.00%)	Adverse Events	21
+eye	UBERON:0000970	0-3
+pain	HP:0012531	4-8
+Diarrhoea 0/17 (0.00%)	Adverse Events	22
+Intestinal obstruction 0/17 (0.00%)	Adverse Events	23
+intestinal obstruction	HP:0005214,DOID:8437	0-22
+Nausea 1/17 (5.88%)	Adverse Events	24
+nausea	HP:0002018	0-6
+Small intestinal obstruction 1/17 (5.88%)	Adverse Events	25
+intestinal obstruction	HP:0005214,DOID:8437	6-28
+Asthenia 1/17 (5.88%)	Adverse Events	26
+asthenia	HP:0025406	0-8
+Pyrexia 0/17 (0.00%)	Adverse Events	27

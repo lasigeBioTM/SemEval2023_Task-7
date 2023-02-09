@@ -1,0 +1,102 @@
+INTERVENTION 1:	Intervention	0
+Normal Vitamin D Levels	Intervention	1
+vitamin d	CHEBI:27300	7-16
+No additional Vitamin D administered	Intervention	2
+vitamin d	CHEBI:27300	14-23
+INTERVENTION 2:	Intervention	3
+Low-normal Vitamin D Levels	Intervention	4
+vitamin d	CHEBI:27300	11-20
+2000 IU dose of Vitamin D per day administered orally	Intervention	5
+vitamin d	CHEBI:27300	16-25
+day	UO:0000033	30-33
+INCLUSION CRITERIA:	Eligibility	0
+Undergoing core needle biopsy for a breast abnormality suspicious for breast cancer.	Eligibility	1
+breast	UBERON:0000310	36-42
+breast	UBERON:0000310	70-76
+breast cancer	DOID:1612	70-83
+Has undergone a core needle biopsy demonstrating breast cancer and has not yet had any further therapy, provided the core needle biopsy is available for analysis.	Eligibility	2
+breast cancer	DOID:1612	49-62
+No prior therapy for breast cancer within the past 5 years.	Eligibility	3
+breast cancer	DOID:1612	21-34
+18 years of age or older.	Eligibility	4
+age	PATO:0000011	12-15
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	5
+document	IAO:0000310	77-85
+EXCLUSION CRITERIA:	Eligibility	6
+History of parathyroid disease, hypercalcemia, or kidney stones.	Eligibility	7
+history	BFO:0000182	0-7
+disease	DOID:4,OGMS:0000031	23-30
+hypercalcemia	HP:0003072,DOID:12678	32-45
+kidney	UBERON:0002113	50-56
+Supplemental vitamin D other than from a standard multiple vitamin or from standard formulations of calcium and vitamin D (eg, calcium citrate with vitamin D) within the prior 6 months.	Eligibility	8
+vitamin d	CHEBI:27300	13-22
+vitamin d	CHEBI:27300	112-121
+vitamin d	CHEBI:27300	148-157
+vitamin	CHEBI:33229	13-20
+vitamin	CHEBI:33229	59-66
+vitamin	CHEBI:33229	112-119
+vitamin	CHEBI:33229	148-155
+calcium	CHEBI:22984,BAO:0000874	100-107
+calcium	CHEBI:22984,BAO:0000874	127-134
+History of renal failure requiring dialysis or kidney transplantation.	Eligibility	9
+history	BFO:0000182	0-7
+dialysis	OAE:0002495	35-43
+kidney	UBERON:0002113	47-53
+Pregnant or nursing	Eligibility	10
+Receiving supplemental calcium > 1200 mg calcium per day during study.	Eligibility	11
+calcium	CHEBI:22984,BAO:0000874	23-30
+calcium	CHEBI:22984,BAO:0000874	41-48
+day	UO:0000033	53-56
+Initial treatment of breast cancer will not be with breast-conserving surgery or mastectomy.	Eligibility	12
+breast cancer	DOID:1612	21-34
+surgery	OAE:0000067	70-77
+Locally-advanced breast cancer	Eligibility	13
+breast cancer	DOID:1612	17-30
+Plans for neoadjuvant chemotherapy, hormonal therapy, or other systemic therapy	Eligibility	14
+Plans for preoperative radiation therapy	Eligibility	15
+Plans for breast cancer surgery, and does not allow for at least 10 days of vitamin D intervention.	Eligibility	16
+breast cancer	DOID:1612	10-23
+surgery	OAE:0000067	24-31
+vitamin d	CHEBI:27300	76-85
+Any condition potentially interfering with subjects ability to comply with taking study medication.	Eligibility	17
+condition	PDRO:0000129	4-13
+Any medical condition that would potentially interfere with vitamin D absorption, such as celiac sprue, ulcerative colitis.	Eligibility	18
+condition	PDRO:0000129	12-21
+vitamin d	CHEBI:27300	60-69
+ulcerative colitis	HP:0100279,DOID:8577	104-122
+Current participation in another research study that would increase risk to subject, in the opinion of the investigators	Eligibility	19
+increase	BAO:0001251	59-67
+Outcome Measurement:	Results	0
+Correlation of Vitamin D Levels, Prognostic Factors, and Gene Expression Profile in Patients With Breast Cancer	Results	1
+vitamin d	CHEBI:27300	15-24
+gene expression	GO:0010467	57-72
+breast cancer	DOID:1612	98-111
+Vitamin D levels in serum were correlated to classic prognostic and predictive factors for breast cancer, and the gene expression profile of breast core biopsy specimens. The outcome is reported as the proportion of subjects with a discernible pattern for expression of the set of 40 evaluated genes	Results	2
+vitamin d	CHEBI:27300	0-9
+breast cancer	DOID:1612	91-104
+gene expression	GO:0010467	114-129
+breast	UBERON:0000310	91-97
+breast	UBERON:0000310	141-147
+Time frame: 10 days to 4 weeks post diagnosis.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Normal Vitamin D Levels	Results	5
+vitamin d	CHEBI:27300	24-33
+Arm/Group Description: No additional Vitamin D administered	Results	6
+vitamin d	CHEBI:27300	37-46
+Overall Number of Participants Analyzed: 15	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  0	Results	9
+Results 2:	Results	10
+Arm/Group Title: Low-normal Vitamin D Levels	Results	11
+vitamin d	CHEBI:27300	28-37
+Arm/Group Description: 2000 IU dose of Vitamin D per day administered orally	Results	12
+vitamin d	CHEBI:27300	39-48
+day	UO:0000033	53-56
+Overall Number of Participants Analyzed: 18	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  0	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 0/29 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total: 0/19 (0.00%)	Adverse Events	3

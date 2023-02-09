@@ -1,0 +1,129 @@
+INTERVENTION 1:	Intervention	0
+Albumin-bound Paclitaxel, Carboplatin + Herceptin	Intervention	1
+paclitaxel	CHEBI:45863	14-24
+carboplatin	CHEBI:31355	26-37
+Participants received albumin-bound paclitaxel, 100 mg/m^2 weekly every 3 out of 4 weeks, carboplatin at an area under the curve (AUC) = 6 every 4 weeks and Herceptin weekly, 4 mg/kg the first week and 2 mg/kg on all subsequent weeks by intravenous (IV) infusion for up to 6 cycles in the absence of disease progression or intolerable toxicity. Participants could continue treatment with chemotherapy beyond 6 cycles at the discretion of the investigator, but Herceptin therapy was to continue to be administered weekly (2 mg/kg) until intercurrent illness, disease progression, unacceptable toxicity, patient withdrawal or administration of any non-protocol anti-cancer treatment.	Intervention	2
+paclitaxel	CHEBI:45863	36-46
+carboplatin	CHEBI:31355	90-101
+area	PATO:0001323	108-112
+auc	BAO:0002120	130-133
+week	UO:0000034	59-63
+week	UO:0000034	83-87
+week	UO:0000034	147-151
+week	UO:0000034	167-171
+week	UO:0000034	193-197
+week	UO:0000034	228-232
+week	UO:0000034	513-517
+disease	DOID:4,OGMS:0000031	300-307
+disease	DOID:4,OGMS:0000031	558-565
+patient	HADO:0000008,OAE:0001817	602-609
+Inclusion Criteria:	Eligibility	0
+Confirmed adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	10-24
+breast	UBERON:0000310	32-38
+Tumor shows 3+ overexpression of the human epidermal growth factor receptor 2 (HER-2)/proto-oncogene by immunohistochemistry assay, or is fluorescence in situ hybridization (FISH)+	Eligibility	2
+growth factor	BAO:0002024	53-66
+receptor	BAO:0000281	67-75
+immunohistochemistry	BAO:0000415	104-124
+Stage IV disease	Eligibility	3
+disease	DOID:4,OGMS:0000031	9-16
+Measurable disease	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+At least 3 weeks since prior cytotoxic chemotherapy	Eligibility	5
+At least 4 weeks since radiotherapy with full recovery	Eligibility	6
+radiotherapy	OAE:0000235	23-35
+At least 4 weeks since major surgery with full recovery	Eligibility	7
+surgery	OAE:0000067	29-36
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2	Eligibility	8
+group	CHEBI:24433	29-34
+At least 18 years old	Eligibility	9
+Absolute neutrophil count (ANC) at least 1.5 x 10^9 cells/L	Eligibility	10
+x	LABO:0000148	45-46
+Platelets at least 100 x 10^9 cells/L	Eligibility	11
+x	LABO:0000148	23-24
+Hemoglobin at least 9 g/dL	Eligibility	12
+hemoglobin	CHEBI:35143	0-10
+Aspartame aminotransferase (AST), alanine aminotransferase (ALT) less than 2.5X upper limit normal	Eligibility	13
+aspartame	CHEBI:2877	0-9
+alanine	CHEBI:16449	34-41
+Alkaline Phosphatase less than 1.5X upper limit normal	Eligibility	14
+phosphatase	GO:0016791,BAO:0000295	9-20
+Creatinine less than 1.5 gm/dL	Eligibility	15
+creatinine	CHEBI:16737	0-10
+Normal left ventricular ejection fraction	Eligibility	16
+left	HP:0012835	7-11
+ejection fraction	CMO:0000180	24-41
+Negative pregnancy test	Eligibility	17
+Agree to use method to avoid pregnancy	Eligibility	18
+Informed Consent is obtained	Eligibility	19
+Exclusion Criteria:	Eligibility	20
+Up to one regimen of prior neo-adjuvant or adjuvant chemotherapy is allowed. One year since Taxane and Herceptin treatment.	Eligibility	21
+adjuvant	CHEBI:60809	31-39
+adjuvant	CHEBI:60809	43-51
+year	UO:0000036	81-85
+taxane	CHEBI:36064	92-98
+Cumulative life-time dose of doxorubicin is greater than 360 mg/m^2	Eligibility	22
+doxorubicin	CHEBI:28748,BAO:0000639	29-40
+Concurrent immunotherapy or hormonal therapy	Eligibility	23
+Parenchymal brain metastases, if present, must be documented to be clinically and radiographically stable for at least 6 months after treatment	Eligibility	24
+brain	UBERON:0000955	12-17
+present	PATO:0000467	33-40
+stable	HP:0031915	99-105
+Serious intercurrent medical or psychiatric illness, including serious active infection	Eligibility	25
+active	PATO:0002354	71-77
+History of congestive heart failure	Eligibility	26
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	11-35
+History of other malignancy within the last 5 years which could affect the diagnosis or assessment of breast cancer	Eligibility	27
+history	BFO:0000182	0-7
+breast cancer	DOID:1612	102-115
+Patients who have received an investigational drug within the previous 3 weeks	Eligibility	28
+drug	CHEBI:23888	46-50
+Patient is currently enrolled in another clinical study receiving investigational therapies	Eligibility	29
+patient	HADO:0000008,OAE:0001817	0-7
+Pregnant or nursing women	Eligibility	30
+Outcome Measurement:	Results	0
+Percentage of Participants Who Achieved an Objective Confirmed Complete or Partial Overall Response	Results	1
+Percentage of participants who achieved an objective confirmed complete or partial overall response based on Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0. A complete response (CR) is the disappearance of all known disease and no new sites or disease related symptoms confirmed at least 4 weeks after initial documentation. A partial response (PR) is at least a 30% decrease in the sum of the longest diameters of target lesions, taking as a reference the baseline sum of the longest diameters confirmed at least 4 weeks after initial documentation. PR is also recorded when all measurable disease has completely disappeared, but a non-measurable component (i.e., ascites) is still present but not progressing, or with the persistence of one or more non-target lesions and/or the maintenance of tumor marker level above the normal limits.	Results	2
+disease	DOID:4,OGMS:0000031	235-242
+disease	DOID:4,OGMS:0000031	263-270
+disease	DOID:4,OGMS:0000031	610-617
+target	BAO:0003064	434-440
+target	BAO:0003064	774-780
+ascites	HP:0001541	684-691
+present	PATO:0000467	702-709
+Time frame: Objective response was evaluated every 2 cycles, up to a maximum of 39 cycles (approximately 39 months)	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Albumin-bound Paclitaxel, Carboplatin + Herceptin	Results	5
+paclitaxel	CHEBI:45863	31-41
+carboplatin	CHEBI:31355	43-54
+Arm/Group Description: Participants received albumin-bound paclitaxel, 100 mg/m^2 weekly every 3 out of 4 weeks, carboplatin at an area under the curve (AUC) = 6 every 4 weeks and Herceptin weekly, 4 mg/kg the first week and 2 mg/kg on all subsequent weeks by intravenous (IV) infusion for up to 6 cycles in the absence of disease progression or intolerable toxicity. Participants could continue treatment with chemotherapy beyond 6 cycles at the discretion of the investigator, but Herceptin therapy was to continue to be administered weekly (2 mg/kg) until intercurrent illness, disease progression, unacceptable toxicity, patient withdrawal or administration of any non-protocol anti-cancer treatment.	Results	6
+paclitaxel	CHEBI:45863	59-69
+carboplatin	CHEBI:31355	113-124
+area	PATO:0001323	131-135
+auc	BAO:0002120	153-156
+week	UO:0000034	82-86
+week	UO:0000034	106-110
+week	UO:0000034	170-174
+week	UO:0000034	190-194
+week	UO:0000034	216-220
+week	UO:0000034	251-255
+week	UO:0000034	536-540
+disease	DOID:4,OGMS:0000031	323-330
+disease	DOID:4,OGMS:0000031	581-588
+patient	HADO:0000008,OAE:0001817	625-632
+Overall Number of Participants Analyzed: 32	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: Percentage of participants  62.5        (45.7 to 79.3)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 5/32 (15.63%)	Adverse Events	1
+Febrile neutropenia 1/32 (3.13%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Supraventricular tachycardia 1/32 (3.13%)	Adverse Events	3
+supraventricular tachycardia	HP:0004755	0-28
+Hypersensitivity 2/32 (6.25%)	Adverse Events	4
+hypersensitivity	GO:0002524,DOID:1205	0-16
+Catheter site infection 1/32 (3.13%)	Adverse Events	5
+site	BFO:0000029	9-13
+Confusional state 1/32 (3.13%)	Adverse Events	6

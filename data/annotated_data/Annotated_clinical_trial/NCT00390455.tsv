@@ -1,0 +1,274 @@
+INTERVENTION 1:	Intervention	0
+Arm I (Lapatinib)	Intervention	1
+lapatinib	CHEBI:49603	7-16
+Patients receive 1500 mg lapatinib ditosylate PO QD on days 1-28 and fulvestrant IM on days 1 (500 mg) and 15 (250 mg) of course 1 and on day 1 (250 mg)of each subsequent course.	Intervention	2
+lapatinib	CHEBI:49603	25-34
+fulvestrant	CHEBI:31638	69-80
+day	UO:0000033	55-58
+day	UO:0000033	87-90
+day	UO:0000033	138-141
+INTERVENTION 2:	Intervention	3
+Arm II (Placebo)	Intervention	4
+Patients receive placebo PO QD on days 1-28 and fulvestrant IM on days 1 (500 mg) and 15 (250 mg) of course 1 and on day 1 (250 mg) of each subsequent course.	Intervention	5
+fulvestrant	CHEBI:31638	48-59
+day	UO:0000033	34-37
+day	UO:0000033	66-69
+day	UO:0000033	117-120
+Inclusion Criteria:	Eligibility	0
+Histologic, pathologic or cytologic diagnosis of cancer of the female breast in either primary or metastatic setting; histological documentation of metastatic/recurrent disease is not required if there is unequivocal clinical evidence for recurrence	Eligibility	1
+cancer	DOID:162	49-55
+female	PATO:0000383	63-69
+breast	UBERON:0000310	70-76
+disease	DOID:4,OGMS:0000031	169-176
+Stage IV breast cancer (using American Joint Committee on Cancer [AJCC] criteria, 6th edition), or locally advanced (stage III) breast cancer not considered amenable to curative therapy	Eligibility	2
+breast cancer	DOID:1612	9-22
+breast cancer	DOID:1612	128-141
+cancer	DOID:162	16-22
+cancer	DOID:162	58-64
+cancer	DOID:162	135-141
+Patients with symptomatic brain metastases or other symptomatic central nervous system (CNS) metastases are not eligible for the study; no screening studies are required among asymptomatic patients; patients with previously treated brain metastases, who are free of symptoms referable to CNS disease and who are > 3 months from treatment for brain metastases are eligible	Eligibility	3
+brain	UBERON:0000955	26-31
+brain	UBERON:0000955	232-237
+brain	UBERON:0000955	342-347
+central nervous system	UBERON:0001017	64-86
+disease	DOID:4,OGMS:0000031	292-299
+Tumors (as determined on pathology from either primary or metastatic sites) must be potentially sensitive to endocrine therapy, defined as expressing estrogen receptor (ER) and/or progesterone receptor (PgR) as determined immunohistochemical methods according to the local institution's standard protocol, >= 1% cells will be considered to be positive	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	150-158
+receptor	BAO:0000281	159-167
+receptor	BAO:0000281	193-201
+progesterone	CHEBI:17026	180-192
+The protocol has been amended to permit tumors with any HER2 status, though a determination of HER2 status must have been made; patients will be considered to be eligible if HER2 expression is documented by one of the following methods:	Eligibility	5
+Immunohistochemistry (IHC) 0 (i.e., negative), 1+, 2+, or 3+ levels of expression, or	Eligibility	6
+immunohistochemistry	BAO:0000415	0-20
+Gene amplification (fluorescent in situ hybridization [FISH]) positive or negative	Eligibility	7
+gene	BAO:0000582	0-4
+Patients must have at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >= 2.0 cm with conventional techniques or as >= 1.0 cm with spiral computed tomography (CT) scan	Eligibility	8
+diameter	PATO:0001334	106-114
+tomography	BAO:0002525	210-220
+ct	BAO:0002125	222-224
+Exception: Patients with lytic or blastic bone metastases as their only site of disease will be eligible for the study even though these patients are not considered to have measurable disease by Response Evaluation Criteria in Solid Tumors (RECIST) criteria; these patients will be evaluable for time to progression, but not response	Eligibility	9
+site	BFO:0000029	72-76
+disease	DOID:4,OGMS:0000031	80-87
+disease	DOID:4,OGMS:0000031	184-191
+time	PATO:0000165	296-300
+Patients with all other lesions, including small lesions (longest diameter < 2.0 cm with conventional techniques or < 1.0 cm with spiral CT scan) and truly non-measurable lesions including those listed below are not eligible	Eligibility	10
+diameter	PATO:0001334	66-74
+ct	BAO:0002125	137-139
+Lesions that are considered non-measurable include the following:	Eligibility	11
+Bone lesions (women with bone lesions will be eligible as described above)	Eligibility	12
+Leptomeningeal disease	Eligibility	13
+disease	DOID:4,OGMS:0000031	15-22
+Ascites	Eligibility	14
+ascites	HP:0001541	0-7
+Pleural/pericardial effusion	Eligibility	15
+Inflammatory breast cancer	Eligibility	16
+breast cancer	DOID:1612	13-26
+Lymphangitis cutis/pulmonitis	Eligibility	17
+lymphangitis	DOID:9317	0-12
+Abdominal masses that are not confirmed and followed by imaging techniques	Eligibility	18
+Cystic lesions	Eligibility	19
+Patients must have had one or two prior endocrine treatments for breast cancer in either the adjuvant or metastatic setting, exclusive of treatment-related amenorrhea or ovarian suppression; sequential use of two different third-generation aromatase inhibitors is considered "one" treatment; it is not required that tumors be resistant to such treatments; for example:	Eligibility	20
+breast cancer	DOID:1612	65-78
+adjuvant	CHEBI:60809	93-101
+amenorrhea	HP:0000141,DOID:13938	156-166
+A patient with de novo metastatic breast cancer who had never received endocrine therapy is not eligible;	Eligibility	21
+patient	HADO:0000008,OAE:0001817	2-9
+breast cancer	DOID:1612	34-47
+A patient who received adjuvant tamoxifen and subsequent therapy with an aromatase inhibitor (adjuvant or metastatic) is eligible;	Eligibility	22
+patient	HADO:0000008,OAE:0001817	2-9
+adjuvant	CHEBI:60809	23-31
+adjuvant	CHEBI:60809	94-102
+tamoxifen	CHEBI:41774	32-41
+inhibitor	CHEBI:35222	83-92
+A patient who received an aromatase inhibitor in either the adjuvant or metastatic setting, and who discontinued therapy after several months because of side effects, is eligible;	Eligibility	23
+patient	HADO:0000008,OAE:0001817	2-9
+inhibitor	CHEBI:35222	36-45
+adjuvant	CHEBI:60809	60-68
+A patient who received an aromatase inhibitor in the adjuvant setting is eligible, regardless of whether they did or did not receive tamoxifen at some point;	Eligibility	24
+patient	HADO:0000008,OAE:0001817	2-9
+inhibitor	CHEBI:35222	36-45
+adjuvant	CHEBI:60809	53-61
+tamoxifen	CHEBI:41774	133-142
+A patient who received adjuvant tamoxifen, and subsequently a nonsteroidal aromatase inhibitor and a steroidal aromatase inhibitor for advanced breast cancer in the adjuvant or metastatic setting is eligible;	Eligibility	25
+patient	HADO:0000008,OAE:0001817	2-9
+adjuvant	CHEBI:60809	23-31
+adjuvant	CHEBI:60809	165-173
+tamoxifen	CHEBI:41774	32-41
+inhibitor	CHEBI:35222	85-94
+inhibitor	CHEBI:35222	121-130
+breast cancer	DOID:1612	144-157
+A patient who received adjuvant tamoxifen, and then a nonsteroidal aromatase inhibitor and subsequently megesterol acetate for advanced breast cancer is not eligible	Eligibility	26
+patient	HADO:0000008,OAE:0001817	2-9
+adjuvant	CHEBI:60809	23-31
+tamoxifen	CHEBI:41774	32-41
+inhibitor	CHEBI:35222	77-86
+acetate	CHEBI:47622	115-122
+breast cancer	DOID:1612	136-149
+Tumors potentially sensitive to endocrine therapy, defined as >= 3 months of prior endocrine therapy without disease progression in the adjuvant or metastatic setting	Eligibility	27
+disease	DOID:4,OGMS:0000031	109-116
+adjuvant	CHEBI:60809	136-144
+Patients must have had prior treatment in either the adjuvant or metastatic setting with a commercially available third-generation aromatase inhibitor (i.e. anastrozole, exemestane, or letrozole); it is not required that tumors be resistant to such therapies	Eligibility	28
+adjuvant	CHEBI:60809	53-61
+inhibitor	CHEBI:35222	141-150
+anastrozole	CHEBI:2704	157-168
+exemestane	CHEBI:4953	170-180
+letrozole	CHEBI:6413	185-194
+Patients may have received up to one prior chemotherapy regimen for stage IV breast cancer; prior chemotherapy in the adjuvant and/or neoadjuvant setting is permitted; patients must have finished chemotherapy at least 1 week prior to starting protocol based treatment	Eligibility	29
+breast cancer	DOID:1612	77-90
+adjuvant	CHEBI:60809	118-126
+adjuvant	CHEBI:60809	137-145
+week	UO:0000034	220-224
+Patients may have received prior trastuzumab therapy for stage IV breast cancer, in combination with up to one chemotherapy and/or endocrine therapy regimen, but that must have concluded at least 3 weeks prior to starting protocol-based therapy; prior trastuzumab therapy in the adjuvant and/or neoadjuvant setting is permitted, but must have concluded at least 3 weeks prior to starting protocol-based therapy	Eligibility	30
+breast cancer	DOID:1612	66-79
+adjuvant	CHEBI:60809	279-287
+adjuvant	CHEBI:60809	298-306
+Prior therapy with commercially available inhibitor of EGFR (including but not limited to gefitinib, erlotinib, lapatinib or cetuximab) or experimental inhibitors of EGFR is prohibited	Eligibility	31
+inhibitor	CHEBI:35222	42-51
+inhibitor	CHEBI:35222	152-161
+gefitinib	CHEBI:49668	90-99
+erlotinib	CHEBI:114785	101-110
+lapatinib	CHEBI:49603	112-121
+Patients may have initiated bisphosphonate therapy prior to study entry; such patients will have bone lesions considered evaluable for progression but not for response	Eligibility	32
+Prior fulvestrant therapy is prohibited	Eligibility	33
+fulvestrant	CHEBI:31638	6-17
+Patients receiving a gonadotropin-releasing hormone (GnRH) agonist for ovarian suppression must remain on such therapy throughout the course of protocol treatment; patients must discontinue other endocrine treatments, including systemic hormone-replacement therapy and intravaginal estrogens prior to study entry; patients must have concluded radiation therapy prior to study entry; patients must be at least 1 week from prior chemotherapy or 3 weeks from prior trastuzumab therapy, with adequate recovery of bone marrow function and performance status	Eligibility	34
+hormone	CHEBI:24621	44-51
+hormone	CHEBI:24621	237-244
+agonist	CHEBI:48705	59-66
+week	UO:0000034	411-415
+week	UO:0000034	445-449
+bone marrow	UBERON:0002371	509-520
+function	BAO:0003117,BFO:0000034	521-529
+Patients must be postmenopausal women, defined as a woman fulfilling any of the following criteria:	Eligibility	35
+Age >= 60 years; or	Eligibility	36
+age	PATO:0000011	0-3
+Age >= 45 years with an intact uterus and amenorrhea for 12 months or more; or	Eligibility	37
+age	PATO:0000011	0-3
+uterus	UBERON:0000995	31-37
+amenorrhea	HP:0000141,DOID:13938	42-52
+History of bilateral oophorectomy; or	Eligibility	38
+history	BFO:0000182	0-7
+bilateral	HP:0012832	11-20
+Follicle stimulating hormone (FSH) levels within postmenopausal range according to the ranges established by the testing facility; or	Eligibility	39
+follicle stimulating hormone	CHEBI:81569	0-28
+range	LABO:0000114	64-69
+range	LABO:0000114	87-92
+Treatment with a GnRH agonist for ovarian suppression for at least 3 consecutive months prior to study registration, and remaining on such therapy throughout the course of protocol treatment	Eligibility	40
+agonist	CHEBI:48705	22-29
+Women who are pregnant or nursing are not eligible for the study; clinicians should advise patients that there are no data for the safety of lapatinib or fulvestrant among pregnant patients, nor data on the impact of these agents on fertility or pregnancy	Eligibility	41
+lapatinib	CHEBI:49603	141-150
+fulvestrant	CHEBI:31638	154-165
+Eastern Cooperative Oncology Group (ECOG) (Zubrod) performance status 0-2	Eligibility	42
+group	CHEBI:24433	29-34
+Absence of pending visceral crisis, in the opinion of the treating physician	Eligibility	43
+Absence of acquired or inherited bleeding disorder	Eligibility	44
+disorder	OGMS:0000045	42-50
+Absence of need for therapeutic systemic anticoagulation (defined as maintaining international normalized ratio [INR] > 1.6); patients may take low-dose warfarin or aspirin (or equivalent) for maintenance of central venous catheter patency	Eligibility	45
+ratio	UO:0000190	106-111
+warfarin	CHEBI:10033	153-161
+central	HP:0030645	208-215
+Granulocytes >= 1,000/μl	Eligibility	46
+Platelet count >= 100,000/μl	Eligibility	47
+platelet count	CMO:0000029	0-14
+Creatinine =< 2 mg/dl	Eligibility	48
+creatinine	CHEBI:16737	0-10
+Total bilirubin =< 1.5 x upper limits of normal (ULN) unless due to Gilbert's syndrome	Eligibility	49
+x	LABO:0000148	23-24
+syndrome	DOID:225	78-86
+Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) =< 2.5 x ULN without liver metastases; =< 5 x ULN with liver metastases	Eligibility	50
+aspartate	CHEBI:29995	0-9
+alanine	CHEBI:16449	37-44
+x	LABO:0000148	75-76
+x	LABO:0000148	112-113
+liver	UBERON:0002107	89-94
+liver	UBERON:0002107	123-128
+INR =< 1.6	Eligibility	51
+Left ventricular ejection fraction (LVEF) within institutional limits of normal	Eligibility	52
+left	HP:0012835	0-4
+ejection fraction	CMO:0000180	17-34
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS)	Results	1
+PFS was defined as the interval from study entry until disease progression or death resulting from any cause, which ever occurred first. Progression is defined as a 20% increase in the sum of longest diameter of target lesions (per RECIST criteria).	Results	2
+disease	DOID:4,OGMS:0000031	55-62
+death	OAE:0000632	78-83
+increase	BAO:0001251	169-177
+diameter	PATO:0001334	200-208
+target	BAO:0003064	212-218
+Time frame: Interval from randomization until disease progression or death, whichever occurs first, assessed up to 5 years	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	46-53
+death	OAE:0000632	69-74
+Results 1:	Results	4
+Arm/Group Title: Arm I (Lapatinib)	Results	5
+lapatinib	CHEBI:49603	24-33
+Arm/Group Description: Patients receive 1500 mg lapatinib ditosylate PO QD on days 1-28 and fulvestrant IM on days 1 (500 mg) and 15 (250 mg) of course 1 and on day 1 (250 mg)of each subsequent course.	Results	6
+lapatinib	CHEBI:49603	48-57
+fulvestrant	CHEBI:31638	92-103
+day	UO:0000033	78-81
+day	UO:0000033	110-113
+day	UO:0000033	161-164
+Overall Number of Participants Analyzed: 146	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  4.7        (3.7 to 5.7)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm II (Placebo)	Results	11
+Arm/Group Description: Patients receive placebo PO QD on days 1-28 and fulvestrant IM on days 1 (500 mg) and 15 (250 mg) of course 1 and on day 1 (250 mg) of each subsequent course.	Results	12
+fulvestrant	CHEBI:31638	71-82
+day	UO:0000033	57-60
+day	UO:0000033	89-92
+day	UO:0000033	140-143
+Overall Number of Participants Analyzed: 145	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  3.8        (3.8 to 5.6)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 12/141 (8.51%)	Adverse Events	1
+Cardiac pain 1/141 (0.71%)	Adverse Events	2
+pain	HP:0012531	8-12
+Constipation 1/141 (0.71%)	Adverse Events	3
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea 7/141 (4.96%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Gastrointestinal disorder 0/141 (0.00%)	Adverse Events	5
+disorder	OGMS:0000045	17-25
+Nausea 5/141 (3.55%)	Adverse Events	6
+nausea	HP:0002018	0-6
+Vomiting 2/141 (1.42%)	Adverse Events	7
+vomiting	HP:0002013	0-8
+Chest pain 1/141 (0.71%)	Adverse Events	8
+chest pain	HP:0100749	0-10
+Disease progression 1/141 (0.71%)	Adverse Events	9
+disease	DOID:4,OGMS:0000031	0-7
+Fatigue 8/141 (5.67%)	Adverse Events	10
+fatigue	HP:0012378	0-7
+Gait abnormal 0/141 (0.00%)	Adverse Events	11
+Injection site reaction 1/141 (0.71%)	Adverse Events	12
+injection site	VO:0000300	0-14
+Pain 1/141 (0.71%)	Adverse Events	13
+pain	HP:0012531	0-4
+Adverse Events 2:	Adverse Events	14
+Total: 14/137 (10.22%)	Adverse Events	15
+Cardiac pain 1/137 (0.73%)	Adverse Events	16
+pain	HP:0012531	8-12
+Constipation 2/137 (1.46%)	Adverse Events	17
+constipation	HP:0002019,DOID:2089	0-12
+Diarrhea 4/137 (2.92%)	Adverse Events	18
+diarrhea	HP:0002014,DOID:13250	0-8
+Gastrointestinal disorder 1/137 (0.73%)	Adverse Events	19
+disorder	OGMS:0000045	17-25
+Nausea 3/137 (2.19%)	Adverse Events	20
+nausea	HP:0002018	0-6
+Vomiting 1/137 (0.73%)	Adverse Events	21
+vomiting	HP:0002013	0-8
+Chest pain 1/137 (0.73%)	Adverse Events	22
+chest pain	HP:0100749	0-10
+Disease progression 0/137 (0.00%)	Adverse Events	23
+disease	DOID:4,OGMS:0000031	0-7
+Fatigue 5/137 (3.65%)	Adverse Events	24
+fatigue	HP:0012378	0-7
+Gait abnormal 1/137 (0.73%)	Adverse Events	25
+Injection site reaction 0/137 (0.00%)	Adverse Events	26
+injection site	VO:0000300	0-14
+Pain 2/137 (1.46%)	Adverse Events	27
+pain	HP:0012531	0-4

@@ -1,0 +1,215 @@
+INTERVENTION 1:	Intervention	0
+Low Dose Magnesium Oxide (800 mg/Day)	Intervention	1
+magnesium oxide	CHEBI:31794	9-24
+Week 2:	Intervention	2
+week	UO:0000034	0-4
+Patients take one 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Intervention	3
+magnesium oxide	CHEBI:31794	35-50
+Week 3:	Intervention	4
+week	UO:0000034	0-4
+Patients take two 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Intervention	5
+magnesium oxide	CHEBI:31794	35-50
+Weeks 4-9:	Intervention	6
+Patients take two 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Intervention	7
+magnesium oxide	CHEBI:31794	35-50
+INTERVENTION 2:	Intervention	8
+High Dose Magnesium Oxide (1200 mg/Day)	Intervention	9
+magnesium oxide	CHEBI:31794	10-25
+Week 2:	Intervention	10
+week	UO:0000034	0-4
+Patients take one 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Intervention	11
+magnesium oxide	CHEBI:31794	35-50
+Week 3:	Intervention	12
+week	UO:0000034	0-4
+Patients take two 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Intervention	13
+magnesium oxide	CHEBI:31794	35-50
+Weeks 4-9:	Intervention	14
+Patients take three 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Intervention	15
+magnesium oxide	CHEBI:31794	37-52
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Women with a history of breast cancer (currently without malignant disease)	Eligibility	1
+history	BFO:0000182	13-20
+breast cancer	DOID:1612	24-37
+disease	DOID:4,OGMS:0000031	67-74
+Bothersome hot flashes (defined by their occurrence  28 times per week and of sufficient severity to make the patient desire therapeutic intervention)	Eligibility	2
+hot flashes	HP:0031217	11-22
+week	UO:0000034	66-70
+severity	HP:0012824	89-97
+patient	HADO:0000008,OAE:0001817	110-117
+therapeutic intervention	OAE:0000094	125-149
+Presence of hot flashes for  30 days prior to study registration	Eligibility	3
+hot flashes	HP:0031217	12-23
+Willingness to provide the biologic specimens as required by the protocol	Eligibility	4
+Hormone receptor status not specified	Eligibility	5
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+PATIENT CHARACTERISTICS:	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+Women who are postmenopausal as defined by absence of a period in the past 12 months or bilateral oophorectomy	Eligibility	7
+bilateral	HP:0012832	88-97
+Women with at least one ovary but without a uterus should be deemed postmenopausal by either age over 55 or a combination of estrogen within a postmenopausal range (per local lab) and FSH over 40 mIU/mL	Eligibility	8
+ovary	UBERON:0000992	24-29
+uterus	UBERON:0000995	44-50
+age	PATO:0000011	93-96
+estrogen	CHEBI:50114,BAO:0000760	125-133
+range	LABO:0000114	158-163
+No women of childbearing potential or who are premenopausal	Eligibility	9
+Creatinine clearance > 30 mL/min	Eligibility	10
+creatinine clearance	CMO:0000765	0-20
+Ability to complete questionnaire(s) by themselves or with assistance	Eligibility	11
+ECOG performance status 0 or 1	Eligibility	12
+No history of allergic or other adverse reaction to magnesium	Eligibility	13
+history	BFO:0000182	3-10
+No diabetes	Eligibility	14
+No patients with conditions that are implicated in decreased absorption of magnesium (e.g., Crohn disease, ETOH abuse)	Eligibility	15
+disease	DOID:4,OGMS:0000031	98-105
+No patients who have diarrhea where magnesium might make it worse (per provider discretion)	Eligibility	16
+diarrhea	HP:0002014,DOID:13250	21-29
+PRIOR CONCURRENT THERAPY:	Eligibility	17
+None of the following current ( 28 days prior to registration) or planned therapies (tamoxifen, raloxifene, or aromatase inhibitors are allowed, but the patient must have been on a constant dose for  28 days and must not be expected to stop the medication during the study period):	Eligibility	18
+tamoxifen	CHEBI:41774	85-94
+raloxifene	CHEBI:8772	96-106
+patient	HADO:0000008,OAE:0001817	153-160
+Antineoplastic chemotherapy (trastuzumab or lapatinib are allowed)	Eligibility	19
+lapatinib	CHEBI:49603	44-53
+Androgens	Eligibility	20
+Estrogens (any delivery route)	Eligibility	21
+Progestational agents	Eligibility	22
+No prior use of magnesium for hot flashes	Eligibility	23
+hot flashes	HP:0031217	30-41
+No current or planned use of gabapentin (for any reasons) or antidepressants (for any reasons) or other agents for treating hot flashes (except stable dose of vitamin E is allowed as long as it was started > 30 days prior to study registration and are to be continued through the study period; soy is allowed, if it is planned to be continued at the same dose during the study period)	Eligibility	24
+gabapentin	CHEBI:42797	29-39
+hot flashes	HP:0031217	124-135
+stable	HP:0031915	144-150
+vitamin e	CHEBI:33234	159-168
+No current use of magnesium for any indication (except one standard multiple vitamin dose is allowed per day)	Eligibility	25
+vitamin	CHEBI:33229	77-84
+day	UO:0000033	105-108
+Not taking diuretics, corticosteroids, bile acid sequestrants, and other prescription and over-the-counter medications that may affect magnesium levels	Eligibility	26
+bile acid	CHEBI:3098	39-48
+No current ( 7 days prior to registration) or planned use of other non-drug therapies for managing hot flashes, such as acupuncture or yoga (use of these therapies for other reasons is allowed)	Eligibility	27
+hot flashes	HP:0031217	99-110
+acupuncture	OAE:0002430	120-131
+Outcome Measurement:	Results	0
+The Intra-patient Changes of Weekly Hot Flash Activity From Baseline During the Treatment Period.	Results	1
+The primary endpoint is the intra-patient changes of weekly hot flash activity from baseline during the treatment period. The hot flash activity will be measured by the weekly average hot flash score, which is a composite entity of both frequency and severity of hot flashes.	Results	2
+frequency	HP:0040279	237-246
+severity	HP:0012824	251-259
+hot flashes	HP:0031217	263-274
+The hot flash severity is graded from 1 to 4 (1=mild, 2=moderate, 3=severe, and 4=very severe). The daily hot flash score is computed by multiplying the mean grade of severity by the frequency during every 24 hour period. Therefore, a score of zero is the lowest possible score and can be interpreted as having no hot flashes. The weekly hot flash score was calculated by adding all scores for the week.	Results	3
+severity	HP:0012824	14-22
+severity	HP:0012824	167-175
+severe	HP:0012828	68-74
+severe	HP:0012828	87-93
+mean	BAO:0002173	153-157
+frequency	HP:0040279	183-192
+hour	UO:0000032	209-213
+hot flashes	HP:0031217	314-325
+week	UO:0000034	331-335
+week	UO:0000034	398-402
+The mean Hot Flash Score for each week for each group is reported and a repeated measures analysis is reported comparing each dose level group to the Placebo group.	Results	4
+mean	BAO:0002173	4-8
+week	UO:0000034	34-38
+group	CHEBI:24433	48-53
+group	CHEBI:24433	137-142
+group	CHEBI:24433	158-163
+Time frame: Baseline to Week 8	Results	5
+time	PATO:0000165	0-4
+week	UO:0000034	24-28
+Results 1:	Results	6
+Arm/Group Title: Low Dose Magnesium Oxide (800 mg/Day)	Results	7
+magnesium oxide	CHEBI:31794	26-41
+Arm/Group Description: Week 2:	Results	8
+week	UO:0000034	23-27
+Patients take one 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Results	9
+magnesium oxide	CHEBI:31794	35-50
+Week 3:	Results	10
+week	UO:0000034	0-4
+Patients take two 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Results	11
+magnesium oxide	CHEBI:31794	35-50
+Weeks 4-9:	Results	12
+Patients take two 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Results	13
+magnesium oxide	CHEBI:31794	35-50
+Overall Number of Participants Analyzed: 88	Results	14
+Mean (Standard Deviation)	Results	15
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Baseline: 81 participants	Results	16
+16.02         (9.62)	Results	17
+Week 1: 81 participants	Results	18
+week	UO:0000034	0-4
+14.28         (9.26)	Results	19
+Week 2: 79 participants	Results	20
+week	UO:0000034	0-4
+12.68         (8.87)	Results	21
+Week 3: 78 participants	Results	22
+week	UO:0000034	0-4
+12.29         (9.79)	Results	23
+Week 4: 78 participants	Results	24
+week	UO:0000034	0-4
+11.73         (10.35)	Results	25
+Week 5: 75 participants	Results	26
+week	UO:0000034	0-4
+11.77         (10.86)	Results	27
+Week 6: 71 participants	Results	28
+week	UO:0000034	0-4
+11.61         (10.46)	Results	29
+Week 7: 71 participants	Results	30
+week	UO:0000034	0-4
+11.92         (11.26)	Results	31
+Week 8: 69 participants	Results	32
+week	UO:0000034	0-4
+12.17         (10.88)	Results	33
+Results 2:	Results	34
+Arm/Group Title: High Dose Magnesium Oxide (1200 mg/Day)	Results	35
+magnesium oxide	CHEBI:31794	27-42
+Arm/Group Description: Week 2:	Results	36
+week	UO:0000034	23-27
+Patients take one 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Results	37
+magnesium oxide	CHEBI:31794	35-50
+Week 3:	Results	38
+week	UO:0000034	0-4
+Patients take two 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Results	39
+magnesium oxide	CHEBI:31794	35-50
+Weeks 4-9:	Results	40
+Patients take three 400 mg tablet of magnesium oxide orally (PO) daily (QD).	Results	41
+magnesium oxide	CHEBI:31794	37-52
+Overall Number of Participants Analyzed: 88	Results	42
+Mean (Standard Deviation)	Results	43
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: units on a scale  Baseline: 81 participants	Results	44
+15.35         (10.53)	Results	45
+Week 1: 78 participants	Results	46
+week	UO:0000034	0-4
+14.47         (11.10)	Results	47
+Week 2: 78 participants	Results	48
+week	UO:0000034	0-4
+12.59         (10.01)	Results	49
+Week 3: 76 participants	Results	50
+week	UO:0000034	0-4
+11.32         (10.72)	Results	51
+Week 4: 73 participants	Results	52
+week	UO:0000034	0-4
+10.14         (8.61)	Results	53
+Week 5: 67 participants	Results	54
+week	UO:0000034	0-4
+9.73         (9.19)	Results	55
+Week 6: 67 participants	Results	56
+week	UO:0000034	0-4
+9.44         (8.99)	Results	57
+Week 7: 67 participants	Results	58
+week	UO:0000034	0-4
+9.37         (9.24)	Results	59
+Week 8: 66 participants	Results	60
+week	UO:0000034	0-4
+9.06         (8.87)	Results	61
+Adverse Events 1:	Adverse Events	0
+Total: 0/92 (0.00%)	Adverse Events	1
+Diarrhea 0/92 (0.00%)	Adverse Events	2
+diarrhea	HP:0002014,DOID:13250	0-8
+Adverse Events 2:	Adverse Events	3
+Total: 1/93 (1.08%)	Adverse Events	4
+Diarrhea 1/93 (1.08%)	Adverse Events	5
+diarrhea	HP:0002014,DOID:13250	0-8

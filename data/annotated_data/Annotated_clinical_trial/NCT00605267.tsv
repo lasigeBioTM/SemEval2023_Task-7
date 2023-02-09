@@ -1,0 +1,78 @@
+INTERVENTION 1:	Intervention	0
+Anastrozole 1 mg	Intervention	1
+anastrozole	CHEBI:2704	0-11
+Anastrozole (investigational product) 1mg tablet given once a day orally and goserelin acetate 3.6 mg/ month depot injection	Intervention	2
+anastrozole	CHEBI:2704	0-11
+product	BAO:0003067	29-36
+day	UO:0000033	62-65
+goserelin	CHEBI:5523	77-86
+acetate	CHEBI:47622	87-94
+month	UO:0000035	103-108
+INTERVENTION 2:	Intervention	3
+Tamoxifen 20 mg	Intervention	4
+tamoxifen	CHEBI:41774	0-9
+Tamoxifen (comparator) 20mg tablet given once a day orally and goserelin acetate 3.6 mg/ month depot injection	Intervention	5
+tamoxifen	CHEBI:41774	0-9
+day	UO:0000033	48-51
+goserelin	CHEBI:5523	63-72
+acetate	CHEBI:47622	73-80
+month	UO:0000035	89-94
+Inclusion Criteria:	Eligibility	0
+Premenopausal, estrogen receptor positive women, aged 20 years and over, with operable and measurable breast cancer who have provided written informed consent	Eligibility	1
+estrogen	CHEBI:50114,BAO:0000760	15-23
+receptor	BAO:0000281	24-32
+breast cancer	DOID:1612	102-115
+Exclusion Criteria:	Eligibility	2
+Medical history of chemotherapy or endocrine therapy for breast cancer, or with treatment history of radiotherapy. Unwillingness to stop taking any drug known to affect sex hormone status (including hormone replacement therapy (HRT).	Eligibility	3
+history	BFO:0000182	8-15
+history	BFO:0000182	90-97
+breast cancer	DOID:1612	57-70
+radiotherapy	OAE:0000235	101-113
+drug	CHEBI:23888	148-152
+sex hormone	CHEBI:50112	169-180
+hormone	CHEBI:24621	173-180
+hormone	CHEBI:24621	199-206
+Outcome Measurement:	Results	0
+Best Overall Response Rate (BORR) (Calliper)	Results	1
+rate	BAO:0080019	22-26
+The BORR were defined as the percentage of patients with confirmed CR or PR in the ITT population during 24 weeks pre-operative treatment period (based on the data from calliper measurement).	Results	2
+CR (or PR) criteria are met at 2 or more time in points every 4 weeks. Per RECIST Criteria (V1.0) and assessed by Calliper: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), >= 30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.	Results	3
+time	PATO:0000165	41-45
+target	BAO:0003064	169-175
+target	BAO:0003064	262-268
+diameter	PATO:0001334	250-258
+Time frame: 24 weeks	Results	4
+time	PATO:0000165	0-4
+Results 1:	Results	5
+Arm/Group Title: Anastrozole 1 mg	Results	6
+anastrozole	CHEBI:2704	17-28
+Arm/Group Description: Anastrozole (investigational product) 1mg tablet given once a day orally and goserelin acetate 3.6 mg/ month depot injection	Results	7
+anastrozole	CHEBI:2704	23-34
+product	BAO:0003067	52-59
+day	UO:0000033	85-88
+goserelin	CHEBI:5523	100-109
+acetate	CHEBI:47622	110-117
+month	UO:0000035	126-131
+Overall Number of Participants Analyzed: 98	Results	8
+Measure Type: Number	Results	9
+Unit of Measure: Percentage of Participants  70.4	Results	10
+Results 2:	Results	11
+Arm/Group Title: Tamoxifen 20 mg	Results	12
+tamoxifen	CHEBI:41774	17-26
+Arm/Group Description: Tamoxifen (comparator) 20mg tablet given once a day orally and goserelin acetate 3.6 mg/ month depot injection	Results	13
+tamoxifen	CHEBI:41774	23-32
+day	UO:0000033	71-74
+goserelin	CHEBI:5523	86-95
+acetate	CHEBI:47622	96-103
+month	UO:0000035	112-117
+Overall Number of Participants Analyzed: 99	Results	14
+Measure Type: Number	Results	15
+Unit of Measure: Percentage of Participants  50.5	Results	16
+Adverse Events 1:	Adverse Events	0
+Total: 1/98 (1.02%)	Adverse Events	1
+Benign Neoplasm 1/98 (1.02%)	Adverse Events	2
+benign neoplasm	DOID:0060072	0-15
+Adverse Events 2:	Adverse Events	3
+Total: 0/98 (0.00%)	Adverse Events	4
+Benign Neoplasm 0/98 (0.00%)	Adverse Events	5
+benign neoplasm	DOID:0060072	0-15

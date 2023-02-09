@@ -1,0 +1,110 @@
+INTERVENTION 1:	Intervention	0
+Active Medicine Group	Intervention	1
+active	PATO:0002354	0-6
+group	CHEBI:24433	16-21
+risedronate 35 mg weekly	Intervention	2
+INTERVENTION 2:	Intervention	3
+Placebo Group	Intervention	4
+group	CHEBI:24433	8-13
+Received placebo medication once weekly	Intervention	5
+Inclusion Criteria:	Eligibility	0
+elderly postmenopausal women (ages 55 and older)	Eligibility	1
+osteopenic (DXA T-score -1.0 to -2.5 SD). However, after full counseling about the risks, benefits, and options regarding therapy for osteoporosis and discussion with her PCP, an osteoporotic woman may enroll in the study.	Eligibility	2
+osteoporosis	HP:0000939,DOID:11476	134-146
+with breast cancer on aromatase inhibitor therapy	Eligibility	3
+breast cancer	DOID:1612	5-18
+inhibitor	CHEBI:35222	32-41
+with no evidence of distant metastatic disease or osteoporosis (by BMD or clinical history)	Eligibility	4
+disease	DOID:4,OGMS:0000031	39-46
+osteoporosis	HP:0000939,DOID:11476	50-62
+history	BFO:0000182	83-90
+type of surgical procedure or addition of radiation therapy prior to this aromatase inhibitor therapy will not exclude patients	Eligibility	5
+inhibitor	CHEBI:35222	84-93
+Participants must provide voluntary, written informed consent to participate in the study, which includes understanding of the procedures, medications, and risks and benefits	Eligibility	6
+Exclusion Criteria:	Eligibility	7
+Women with stage 4 breast cancer (presence of distant metastases)	Eligibility	8
+breast cancer	DOID:1612	19-32
+Women with normal bone density by DXA (T-score > -1.0 SD)bone density by DXA, except in the instance of a fragility fracture.	Eligibility	9
+Women with history of any illness known to affect bone and mineral metabolism, such as renal failure (estimated GFR <30), hepatic failure, malignancy (excluding breast cancer, treated superficial basal and squamous cell carcinoma and malignancies where the diagnosis itself or its treatment would not adversely affect bone metabolism), untreated primary hyperparathyroidism, and malabsorption.	Eligibility	10
+history	BFO:0000182	11-18
+mineral	CHEBI:46662	59-66
+hepatic failure	HP:0001399	122-137
+breast cancer	DOID:1612	161-174
+squamous cell carcinoma	HP:0002860,DOID:1749	206-229
+primary hyperparathyroidism	HP:0008200,DOID:11202	346-373
+malabsorption	HP:0002024	379-392
+Women being treated with oral glucocorticoid therapy >3 months for suppression therapy, and certain anti-seizure medications which may adversely affect bone metabolism (phenobarbital, phenytoin, carbamazepine).	Eligibility	11
+glucocorticoid	CHEBI:24261	30-44
+phenobarbital	CHEBI:8069	169-182
+phenytoin	CHEBI:8107	184-193
+carbamazepine	CHEBI:3387	195-208
+Those with untreated active peptic ulcer disease	Eligibility	12
+active peptic ulcer disease	DOID:749	21-48
+Those with osteoporosis by BMD (T-score -2.5 SD at the spine or total hip) or a history of fragility fracture as an adult. However, as discussed above, osteoporotic women may elect to enroll in the study.	Eligibility	13
+osteoporosis	HP:0000939,DOID:11476	11-23
+hip	UBERON:0001464	70-73
+history	BFO:0000182	80-87
+adult	EFO:0001272	116-121
+Women treated with oral bisphosphonates or calcitonin for 3 months within the last year (3 month washout period)	Eligibility	14
+calcitonin	CHEBI:3306	43-53
+year	UO:0000036	83-87
+month	UO:0000035	60-65
+month	UO:0000035	91-96
+Men and children will be excluded because they do not get postmenopausal osteoporosis following treatment with an aromatase inhibitor	Eligibility	15
+excluded	HP:0040285	25-33
+osteoporosis	HP:0000939,DOID:11476	73-85
+inhibitor	CHEBI:35222	124-133
+Women with very poor dental hygiene (as assessed by the baseline dental exam) in need of dental extraction during the study	Eligibility	16
+Use of fluoride for more than 1 month ever (except for dental treatment)	Eligibility	17
+fluoride	CHEBI:17051	7-15
+month	UO:0000035	32-37
+Less than 2 evaluable vertebrae	Eligibility	18
+Distant metastatic disease	Eligibility	19
+disease	DOID:4,OGMS:0000031	19-26
+Outcome Measurement:	Results	0
+BMD of Spine by DXA	Results	1
+BMD is the bone mineral density of the lumbar spine measured using the dual-energy x-ray absorptometry (DXA) scan.	Results	2
+bone mineral density	CMO:0001226	11-31
+Time frame: at 24 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Active Medicine Group	Results	5
+active	PATO:0002354	17-23
+group	CHEBI:24433	4-9
+group	CHEBI:24433	33-38
+Arm/Group Description: risedronate 35 mg weekly	Results	6
+Overall Number of Participants Analyzed: 55	Results	7
+Mean (Standard Error)	Results	8
+mean	BAO:0002173	0-4
+Unit of Measure: percentage change  2.269         (0.583)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Placebo Group	Results	11
+group	CHEBI:24433	4-9
+group	CHEBI:24433	25-30
+Arm/Group Description: Received placebo medication once weekly	Results	12
+Overall Number of Participants Analyzed: 54	Results	13
+Mean (Standard Error)	Results	14
+mean	BAO:0002173	0-4
+Unit of Measure: percentage change  -1.735         (0.611)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 10/55 (18.18%)	Adverse Events	1
+Cardiovascular related events5/55 (9.09%)	Adverse Events	2
+Gastrointestinal Events0/55 (0.00%)	Adverse Events	3
+Other events0/55 (0.00%)	Adverse Events	4
+Infection related events2/55 (3.64%)	Adverse Events	5
+Musculoskeletal related events2/55 (3.64%)	Adverse Events	6
+Other cancers0/55 (0.00%)	Adverse Events	7
+Urogenital related events0/55 (0.00%)	Adverse Events	8
+Breast related events1/55 (1.82%)	Adverse Events	9
+breast	UBERON:0000310	0-6
+Adverse Events 2:	Adverse Events	10
+Total: 16/54 (29.63%)	Adverse Events	11
+Cardiovascular related events2/54 (3.70%)	Adverse Events	12
+Gastrointestinal Events1/54 (1.85%)	Adverse Events	13
+Other events4/54 (7.41%)	Adverse Events	14
+Infection related events3/54 (5.56%)	Adverse Events	15
+Musculoskeletal related events5/54 (9.26%)	Adverse Events	16
+Other cancers2/54 (3.70%)	Adverse Events	17
+Urogenital related events1/54 (1.85%)	Adverse Events	18
+Breast related events2/54 (3.70%)	Adverse Events	19
+breast	UBERON:0000310	0-6

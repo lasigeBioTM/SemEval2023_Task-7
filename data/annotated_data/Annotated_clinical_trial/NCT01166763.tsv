@@ -1,0 +1,114 @@
+INTERVENTION 1:	Intervention	0
+High Dose Vitamin D3 (10,000 IU Weekly)	Intervention	1
+vitamin	CHEBI:33229	10-17
+Group/Cohort Label vitamin D3	Intervention	2
+label	CHEBI:35209,label	13-18
+vitamin	CHEBI:33229	19-26
+vitamin D3: oral capsules, 10,000 IU per week for 6 months	Intervention	3
+vitamin	CHEBI:33229	0-7
+week	UO:0000034	41-45
+Inclusion Criteria:	Eligibility	0
+Subjects must be premenopausal women age 55 or younger, and actively menstruating with 4 or more periods per year.	Eligibility	1
+age	PATO:0000011	37-40
+year	UO:0000036	109-113
+Subjects may be using barrier contraceptive, an intrauterine device, a Nuvaring, or similar non-oral contraceptive; or oral contraceptives.	Eligibility	2
+Subjects must be at increased risk for breast cancer on the basis of at least one of the following criteria:	Eligibility	3
+breast cancer	DOID:1612	39-52
+five-year Gail risk of 3X the average risk of the age group;	Eligibility	4
+age	PATO:0000011	34-37
+age	PATO:0000011	50-53
+group	CHEBI:24433	54-59
+a first degree relative with breast cancer under the age of 60 or multiple second degree relatives with breast cancer;	Eligibility	5
+breast cancer	DOID:1612	29-42
+breast cancer	DOID:1612	104-117
+age	PATO:0000011	53-56
+second	UO:0000010	75-81
+prior biopsy exhibiting atypical hyperplasia (AH), LCIS, DCIS, RPFNA evidence of hyperplasia with atypia within the last three years;	Eligibility	6
+Chest or neck radiation before age 30;	Eligibility	7
+chest	UBERON:0001443	0-5
+neck	GO:0044326,UBERON:0000974	9-13
+age	PATO:0000011	31-34
+Breast density equals or exceeds 50 percent.	Eligibility	8
+breast	UBERON:0000310	0-6
+percent	UO:0000187	36-43
+If previously on a chemoprevention agent or prevention trial, subjects must have completed study participation at least 6 months prior to baseline biomarker assessment.	Eligibility	9
+biomarker	CHEBI:59163	147-156
+If subject has a history of AH, LCIS, or ER-positive DCIS by diagnostic biopsy, must have been counseled about appropriate standard prevention therapies such as tamoxifen and is either not eligible or is not interested in standard prevention therapies. Women with DCIS must have had appropriate local therapy (lumpectomy plus radiation or mastectomy).	Eligibility	10
+history	BFO:0000182	17-24
+tamoxifen	CHEBI:41774	161-170
+Subject must have had a mammogram performed at the University of Kansas Breast Imaging Center with estimated visual breast density of greater than 10 percent.	Eligibility	11
+breast	UBERON:0000310	72-78
+breast	UBERON:0000310	116-122
+percent	UO:0000187	150-157
+Subject must have had within six months prior to entering the study, an RPFNA during the follicular portion (day 1-10) of the menstrual cycle with material for cytomorphology, Ki-67 and qRT-PCR; in addition to serum obtained and banked.	Eligibility	12
+day	UO:0000033	109-112
+menstrual cycle	GO:0044850	126-141
+Subjects must have 25(OH)D level < 30 ng/ml as measured within 8 weeks of starting intervention. Subjects may have been identified as having low vitamin D levels through participation in HSC 11313, Osteopenia/Osteoporosis in Pre-menopausal Women at High Risk for Development of Breast Cancer, but low level must be confirmed within 8 weeks prior to starting study agent Subject must be willing to continue the same hormonal milieu present at baseline throughout trial.	Eligibility	13
+vitamin d	CHEBI:27300	145-154
+breast cancer	DOID:1612	278-291
+present	PATO:0000467	431-438
+Subjects must be willing to undergo measurement of height, weight, and BMI at initiation of intervention.	Eligibility	14
+Subjects must have participated in HSC 11313, and have had a DEXA scan for bone density and body fat analysis on the GE Lunar Prodigy Advance research unit in the Breast Cancer Survivorship Center.	Eligibility	15
+breast cancer	DOID:1612	163-176
+Subjects must be willing to sign an informed consent for the entire study and separate consent for repeat RPFNA.	Eligibility	16
+Exclusion Criteria:	Eligibility	17
+Women that have had a metastatic malignancy of any kind.	Eligibility	18
+Women that have had prior invasive breast cancer If subject has had a DCIS, at least two months must have elapsed from surgery and/or radiation therapy to the involved breast. Only the contra-lateral (uninvolved breast) will be studied by FNA. The subject may not have had any radiation therapy to the contra-lateral breast to be studied.	Eligibility	19
+breast cancer	DOID:1612	35-48
+surgery	OAE:0000067	119-126
+breast	UBERON:0000310	35-41
+breast	UBERON:0000310	168-174
+breast	UBERON:0000310	212-218
+breast	UBERON:0000310	317-323
+Women who are pregnant or nursing.	Eligibility	20
+Women who have taken a SERM, aromatase inhibitor or participated in a chemoprevention or other investigational drug study within six months prior to baseline FNA.	Eligibility	21
+inhibitor	CHEBI:35222	39-48
+drug	CHEBI:23888	111-115
+Women who have used fertility drugs within six months prior to baseline aspiration.	Eligibility	22
+aspiration	HP:0002835	72-82
+Women with a history of sarcoidosis, hypercalcemia, hyperparathyroidism, or renal stones.	Eligibility	23
+history	BFO:0000182	13-20
+sarcoidosis	DOID:11335	24-35
+hypercalcemia	HP:0003072,DOID:12678	37-50
+hyperparathyroidism	HP:0000843,DOID:13543	52-71
+Women who are receiving treatment for rheumatoid arthritis or other connective tissue diseases.	Eligibility	24
+rheumatoid arthritis	HP:0001370,DOID:7148	38-58
+connective tissue	UBERON:0002384	68-85
+Women who have an elevated blood calcium level at baseline; defined as any elevation above the institutional normal range.	Eligibility	25
+blood calcium level	CMO:0000502	27-46
+range	LABO:0000114	116-121
+Outcome Measurement:	Results	0
+Change in Mammographic Breast Density Over Course of Study	Results	1
+breast	UBERON:0000310	23-29
+Change in the percent of the breast area that is considered to be at higher density on mammogram.	Results	2
+percent	UO:0000187	14-21
+breast	UBERON:0000310	29-35
+area	PATO:0001323	36-40
+Time frame: baseline and 6 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: High Dose Vitamin D3 (10,000 IU Weekly)	Results	5
+vitamin	CHEBI:33229	27-34
+Arm/Group Description: Group/Cohort Label vitamin D3	Results	6
+label	CHEBI:35209,label	36-41
+vitamin	CHEBI:33229	42-49
+vitamin D3: oral capsules, 10,000 IU per week for 6 months	Results	7
+vitamin	CHEBI:33229	0-7
+week	UO:0000034	41-45
+Overall Number of Participants Analyzed: 27	Results	8
+Mean (Standard Deviation)	Results	9
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: Change in percent dense breast area  -0.5         (5.8)	Results	10
+percent	UO:0000187	27-34
+breast	UBERON:0000310	41-47
+area	PATO:0001323	48-52
+Adverse Events 1:	Adverse Events	0
+Total: 3/30 (10.00%)	Adverse Events	1
+Cholecystitis *  [1]1/30 (3.33%)	Adverse Events	2
+cholecystitis	HP:0001082,DOID:1949	0-13
+Increase in diarrhea *  [2]1/30 (3.33%)	Adverse Events	3
+increase	BAO:0001251	0-8
+diarrhea	HP:0002014,DOID:13250	12-20
+Flank pain *  [3]1/30 (3.33%)	Adverse Events	4
+flank pain	HP:0030157	0-10

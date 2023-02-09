@@ -1,0 +1,103 @@
+INTERVENTION 1:	Intervention	0
+Tamoxifen Pre and Post Breast Surgery	Intervention	1
+tamoxifen	CHEBI:41774	0-9
+breast	UBERON:0000310	23-29
+surgery	OAE:0000067	30-37
+All patients enrolled in the study.	Intervention	2
+Tamoxifen: All patients will take tamoxifen 20 mg po daily for 7 days prior to surgery and for 14 days after surgery.	Intervention	3
+tamoxifen	CHEBI:41774	0-9
+tamoxifen	CHEBI:41774	34-43
+surgery	OAE:0000067	79-86
+surgery	OAE:0000067	109-116
+Breast cancer surgery: Breast cancer surgery	Intervention	4
+breast cancer	DOID:1612	0-13
+breast cancer	DOID:1612	23-36
+surgery	OAE:0000067	14-21
+surgery	OAE:0000067	37-44
+Inclusion Criteria:	Eligibility	0
+Age > 18 years old	Eligibility	1
+age	PATO:0000011	0-3
+Diagnosed with hormone receptor positive invasive breast cancer (estrogen receptor (ER) or progesterone receptor (PR) or both >1%) by core needle biopsy	Eligibility	2
+hormone	CHEBI:24621	15-22
+receptor	BAO:0000281	23-31
+receptor	BAO:0000281	74-82
+receptor	BAO:0000281	104-112
+breast cancer	DOID:1612	50-63
+estrogen	CHEBI:50114,BAO:0000760	65-73
+progesterone	CHEBI:17026	91-103
+Clinical American Joint Committee on Cancer (AJCC) 7th edition Stage 1 or 2	Eligibility	3
+cancer	DOID:162	37-43
+Candidate for surgical therapy	Eligibility	4
+Eastern Cooperative Oncology Group (ECOG) performance status 0,1, or 2	Eligibility	5
+group	CHEBI:24433	29-34
+No chemotherapy or endocrine therapy for breast cancer in last 5 years	Eligibility	6
+breast cancer	DOID:1612	41-54
+Paraffin fixed core needle tissue block, or biopsy punch available for central analysis for proliferative markers	Eligibility	7
+tissue	UBERON:0000479	27-33
+central	HP:0030645	71-78
+Not pregnant or lactating and practicing adequate birth control if premenopausal	Eligibility	8
+Able and willing to provide informed consent	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+Prior personal history of uterine cancer	Eligibility	11
+history	BFO:0000182	15-22
+uterine cancer	DOID:363	26-40
+Prior personal history of stroke or deep vein thrombosis (DVT)	Eligibility	12
+history	BFO:0000182	15-22
+stroke	HP:0001297,DOID:6713	26-32
+vein	UBERON:0001638	41-45
+thrombosis	DOID:0060903	46-56
+Current therapy with strong CYP2D6 inhibitors The following medications should not be administered with tamoxifen (21 day treatment period) and will need to be stopped for the designated period of time prior to starting the study tamoxifen.	Eligibility	13
+tamoxifen	CHEBI:41774	104-113
+tamoxifen	CHEBI:41774	230-239
+day	UO:0000033	118-121
+time	PATO:0000165	197-201
+No other prior malignancy is allowed except for the following: adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, adequately treated Stage 0, I or II cancer from which the patient is currently in complete remission, or any other cancer from which the patient has been disease-free for 5 years	Eligibility	14
+skin cancer	DOID:4159	110-121
+cervical cancer	DOID:4362	131-146
+cancer	DOID:162	115-121
+cancer	DOID:162	140-146
+cancer	DOID:162	184-190
+cancer	DOID:162	263-269
+patient	HADO:0000008,OAE:0001817	206-213
+patient	HADO:0000008,OAE:0001817	285-292
+Fluoxetine - should be discontinued 30 days prior to starting tamoxifen Paroxetine - should be discontinued 5 days prior to starting tamoxifen Sertraline - should be discontinued 5 days prior to starting tamoxifen Bupropion - should be discontinued 5 days prior to starting tamoxifen	Eligibility	15
+fluoxetine	CHEBI:5118	0-10
+tamoxifen	CHEBI:41774	62-71
+tamoxifen	CHEBI:41774	133-142
+tamoxifen	CHEBI:41774	204-213
+tamoxifen	CHEBI:41774	274-283
+paroxetine	CHEBI:7936	72-82
+sertraline	CHEBI:9123	143-153
+bupropion	CHEBI:3219	214-223
+Concurrent coumarin-type anticoagulation therapy	Eligibility	16
+Any other contraindications to tamoxifen therapy	Eligibility	17
+tamoxifen	CHEBI:41774	31-40
+Outcome Measurement:	Results	0
+Change in Ki67 Expression in Tumors	Results	1
+Demonstrate a significant change in Ki67 expression in tumors with 7 days of pre-surgical tamoxifen.	Results	2
+tamoxifen	CHEBI:41774	90-99
+Time frame: 7 days	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Tamoxifen Pre and Post Breast Surgery	Results	5
+tamoxifen	CHEBI:41774	17-26
+breast	UBERON:0000310	40-46
+surgery	OAE:0000067	47-54
+Arm/Group Description: All patients enrolled in the study.	Results	6
+Tamoxifen: All patients will take tamoxifen 20 mg po daily for 7 days prior to surgery and for 14 days after surgery.	Results	7
+tamoxifen	CHEBI:41774	0-9
+tamoxifen	CHEBI:41774	34-43
+surgery	OAE:0000067	79-86
+surgery	OAE:0000067	109-116
+Breast cancer surgery: Breast cancer surgery	Results	8
+breast cancer	DOID:1612	0-13
+breast cancer	DOID:1612	23-36
+surgery	OAE:0000067	14-21
+surgery	OAE:0000067	37-44
+Overall Number of Participants Analyzed: 44	Results	9
+Mean (95% Confidence Interval)	Results	10
+mean	BAO:0002173	0-4
+Unit of Measure: percentage change in Ki67  -40        (-63 to -29)	Results	11
+Adverse Events 1:	Adverse Events	0
+Total: 1/52 (1.92%)	Adverse Events	1
+Thromboembolic Event  1/52 (1.92%)	Adverse Events	2

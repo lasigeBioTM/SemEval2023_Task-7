@@ -1,0 +1,89 @@
+INTERVENTION 1:	Intervention	0
+Placebo	Intervention	1
+Patients receive oral placebo once daily for 12 months.	Intervention	2
+INTERVENTION 2:	Intervention	3
+Vitamin D	Intervention	4
+vitamin d	CHEBI:27300	0-9
+Patients receive oral vitamin D (2000 IU) once daily for 12 months.	Intervention	5
+vitamin d	CHEBI:27300	22-31
+Premenopausal women 55 years of age or younger with regular menstrual cycles (at least four cycles in the last six months). Women with fewer than 4 menses in the last 6 months or who have had a hysterectomy with ovaries intact will be considered premenopausal if FSH level < 20.	Eligibility	0
+age	PATO:0000011	32-35
+Women with breast density  25% (scattered fibroglandular densities or greater) are eligible.	Eligibility	1
+breast	UBERON:0000310	11-17
+Prior Treatment	Eligibility	2
+Patients who are currently receiving hormone replacement therapy (estrogen or progesterone); or are taking tamoxifen or raloxifene are not eligible. Women who have taken these medications must have stopped for at least 4 months prior to study entry.	Eligibility	3
+hormone	CHEBI:24621	37-44
+estrogen	CHEBI:50114,BAO:0000760	66-74
+progesterone	CHEBI:17026	78-90
+tamoxifen	CHEBI:41774	107-116
+raloxifene	CHEBI:8772	120-130
+Topical estrogen (eg, transdermal patches and vaginal estrogens) is allowed.	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	8-16
+estrogen	CHEBI:50114,BAO:0000760	54-62
+Patients who are currently using hormonal contraception, should be taking it for at least 4 months prior to study entry.	Eligibility	5
+Vitamin D Use	Eligibility	6
+vitamin d	CHEBI:27300	0-9
+Patients who are taking regular vitamin D supplementation (above 400 IUs daily) and refuse or are unable to stop use are not eligible. Women who agree to stop will need to do so for at least 6 months prior to registration.	Eligibility	7
+vitamin d	CHEBI:27300	32-41
+Patients may not start vitamin D supplementation after registration (regardless of results of vitamin D testing) but they may continue vitamin D if they are already taking 400 IUs daily or less and have been taking vitamin D for at least 6 months prior to baseline mammogram.	Eligibility	8
+vitamin d	CHEBI:27300	23-32
+vitamin d	CHEBI:27300	94-103
+vitamin d	CHEBI:27300	135-144
+vitamin d	CHEBI:27300	215-224
+Patients with a history of breast cancer (including DCIS) or ovarian cancer are not eligible.	Eligibility	9
+history	BFO:0000182	16-23
+breast cancer	DOID:1612	27-40
+ovarian cancer	DOID:2394	61-75
+Patients with a history of breast implants or breast reduction are not eligible.	Eligibility	10
+history	BFO:0000182	16-23
+breast	UBERON:0000310	27-33
+breast	UBERON:0000310	46-52
+Patients with two or more bone fractures in the past five years are not eligible.	Eligibility	11
+Patients with a diagnosis of osteoporosis with physician recommendation for treatment of low bone mass are not eligible.	Eligibility	12
+osteoporosis	HP:0000939,DOID:11476	29-41
+Patients known to have hyperparathyroid disease or other serious disturbances of calcium metabolism requiring intervention in the past 5 years are not eligible.	Eligibility	13
+disease	DOID:4,OGMS:0000031	40-47
+calcium	CHEBI:22984,BAO:0000874	81-88
+Patients with a history of kidney stones (unless documented not to have been a calcium stone) are not eligible.	Eligibility	14
+history	BFO:0000182	16-23
+kidney	UBERON:0002113	27-33
+calcium	CHEBI:22984,BAO:0000874	79-86
+Patients participating in a concurrent breast cancer chemoprevention trial are not eligible.	Eligibility	15
+breast cancer	DOID:1612	39-52
+Required initial laboratory values - Calcium < 10.5 mg/dL	Eligibility	16
+calcium	CHEBI:22984,BAO:0000874	37-44
+Outcome Measurement:	Results	0
+Percent Change (Between Baseline and Month 12) in Mammographic Density by the Boyd Method Compared Between Arms	Results	1
+percent change	BAO:0001252	0-14
+month	UO:0000035	37-42
+To evaluate change in mammographic density using the Boyd method after one year of vitamin D supplementation compared to placebo in premenopausal women. The percent change in breast density will be reported here.	Results	2
+year	UO:0000036	75-79
+vitamin d	CHEBI:27300	83-92
+percent change	BAO:0001252	157-171
+breast	UBERON:0000310	175-181
+Time frame: 12 months	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Placebo	Results	5
+Arm/Group Description: Patients receive oral placebo once daily for 12 months.	Results	6
+Overall Number of Participants Analyzed: 46	Results	7
+Mean (Standard Deviation)	Results	8
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percent change  -3.4         (7.1)	Results	9
+percent change	BAO:0001252	17-31
+Results 2:	Results	10
+Arm/Group Title: Vitamin D	Results	11
+vitamin d	CHEBI:27300	17-26
+Arm/Group Description: Patients receive oral vitamin D (2000 IU) once daily for 12 months.	Results	12
+vitamin d	CHEBI:27300	45-54
+Overall Number of Participants Analyzed: 40	Results	13
+Mean (Standard Deviation)	Results	14
+mean	BAO:0002173	0-4
+standard deviation	BAO:0002176	6-24
+Unit of Measure: percent change  -1.4         (11.9)	Results	15
+percent change	BAO:0001252	17-31
+Adverse Events 1:	Adverse Events	0
+Total: 0/150 (0.00%)	Adverse Events	1
+Adverse Events 2:	Adverse Events	2
+Total:	Adverse Events	3

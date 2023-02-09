@@ -1,0 +1,179 @@
+INTERVENTION 1:	Intervention	0
+Exemestane 25 mg + Placebo	Intervention	1
+exemestane	CHEBI:4953	0-10
+Exemestane (Aromasin®) 25 mg tablets orally once daily plus a placebo-matching entinostat tablet orally once per week on Days 1, 8, 15 and 22 of each 28-day treatment cycle until development of progressive disease (PD) or unacceptable toxicity or closure of the study by the Sponsor, whichever occurred first.	Intervention	2
+exemestane	CHEBI:4953	0-10
+entinostat	CHEBI:132082	79-89
+week	UO:0000034	113-117
+progressive	HP:0003676	194-205
+disease	DOID:4,OGMS:0000031	206-213
+INTERVENTION 2:	Intervention	3
+Exemestane 25 mg + Entinostat 5 mg	Intervention	4
+exemestane	CHEBI:4953	0-10
+entinostat	CHEBI:132082	19-29
+Exemestane (Aromasin®) 25 mg tablets orally once daily plus an entinostat 5 mg tablet orally once per week on Days 1, 8, 15 and 22 of each 28-day treatment cycle until development of progressive disease (PD) or unacceptable toxicity or closure of the study by the Sponsor, whichever occurred first.	Intervention	5
+exemestane	CHEBI:4953	0-10
+entinostat	CHEBI:132082	63-73
+week	UO:0000034	102-106
+progressive	HP:0003676	183-194
+disease	DOID:4,OGMS:0000031	195-202
+Inclusion Criteria:	Eligibility	0
+Postmenopausal female patients	Eligibility	1
+female	PATO:0000383	15-21
+Histologically or cytologically confirmed estrogen receptor positive (ER+) breast cancer	Eligibility	2
+estrogen	CHEBI:50114,BAO:0000760	42-50
+receptor	BAO:0000281	51-59
+breast cancer	DOID:1612	75-88
+Relapsed or progressed on prior treatment with aromatase inhibitor (AI)	Eligibility	3
+inhibitor	CHEBI:35222	57-66
+Metastatic disease must be measurable	Eligibility	4
+disease	DOID:4,OGMS:0000031	11-18
+Patients receiving palliative radiation at the non-target lesions must have a 2 week wash out period following completion of the treatment prior to enrollment	Eligibility	5
+week	UO:0000034	80-84
+Patient may have had one prior chemotherapy as part of first line therapy as long as it was received before initiation of prior AI	Eligibility	6
+patient	HADO:0000008,OAE:0001817	0-7
+part of	BAO:0090002,BFO:0000050	47-54
+Eastern Cooperative Oncology Group (ECOG) performance status: 0 to 1	Eligibility	7
+group	CHEBI:24433	29-34
+Laboratory parameters: a)Hemoglobin  9.0 g/dL; platelets  100.0 x 10^9/L; Absolute Neutrophil Count (ANC ) 1.5 x 10^9/L without the use of hematopoietic growth factors b)Creatinine less than 2.5 times the upper limit of normal for the institution c)Aspartate transaminase (AST) and alanine transaminase (ALT) less than 2.5 times the upper limit of normal for the institution	Eligibility	8
+hemoglobin	CHEBI:35143	25-35
+x	LABO:0000148	64-65
+x	LABO:0000148	111-112
+growth	GO:0040007	153-159
+creatinine	CHEBI:16737	170-180
+aspartate	CHEBI:29995	249-258
+alanine	CHEBI:16449	282-289
+Able to understand and give written informed consent and comply with study procedures	Eligibility	9
+Exclusion Criteria:	Eligibility	10
+Relapse on treatment with non-steroidal AI after less than 12 months for patients in the adjuvant setting	Eligibility	11
+adjuvant	CHEBI:60809	89-97
+Progressive disease after less than 3 months treatment with most recent AI for patients with metastatic disease	Eligibility	12
+progressive	HP:0003676	0-11
+disease	DOID:4,OGMS:0000031	12-19
+disease	DOID:4,OGMS:0000031	104-111
+Rapidly progressive, life-threatening metastases	Eligibility	13
+rapidly progressive	HP:0003678	0-19
+Any palliative radiotherapy to the measurable lesion	Eligibility	14
+radiotherapy	OAE:0000235	15-27
+Previous treatment with SNDX-275 or any other histone deacetylase (HDAC) inhibitor including valproic acid	Eligibility	15
+histone	CHEBI:15358	46-53
+inhibitor	CHEBI:35222	73-82
+valproic acid	CHEBI:39867	93-106
+Allergy to benzamides or inactive components of the study drug	Eligibility	16
+allergy	HP:0012393	0-7
+benzamides	CHEBI:22702	11-21
+inactive	PATO:0002355	25-33
+drug	CHEBI:23888	58-62
+A history of allergies to any active or inactive ingredients of exemestane	Eligibility	17
+history	BFO:0000182	2-9
+active	PATO:0002354	30-36
+active	PATO:0002354	42-48
+inactive	PATO:0002355	40-48
+exemestane	CHEBI:4953	64-74
+Any concomitant medical condition that precludes adequate study treatment compliance	Eligibility	18
+condition	PDRO:0000129	24-33
+Patient is currently enrolled in (or completed within 30 days before study drug administration) another investigational drug study	Eligibility	19
+patient	HADO:0000008,OAE:0001817	0-7
+drug administration	OAE:0000011	75-94
+drug	CHEBI:23888	75-79
+drug	CHEBI:23888	120-124
+Patient is currently receiving treatment with valproic acid, Zolinza (vorinostat) or any other HDAC inhibitor or deoxyribonucleic acid (DNA) methyltransferase inhibitor or any systemic anticancer treatment (with the exception of Lupron)	Eligibility	20
+patient	HADO:0000008,OAE:0001817	0-7
+valproic acid	CHEBI:39867	46-59
+vorinostat	CHEBI:45716	70-80
+inhibitor	CHEBI:35222	100-109
+inhibitor	CHEBI:35222	159-168
+deoxyribonucleic acid	CHEBI:16991	113-134
+dna	BAO:0000269	136-139
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS)	Results	1
+PFS is defined as the number of months from the date of randomization to the earlier of progressive disease (PD) or death due to any cause.	Results	2
+progressive	HP:0003676	88-99
+disease	DOID:4,OGMS:0000031	100-107
+death	OAE:0000632	116-121
+Time frame: From date of randomization to discontinuation due to disease progression or death up to primary completion date (Median follow-up 6 months)	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	65-72
+death	OAE:0000632	88-93
+median	BAO:0002174	125-131
+Results 1:	Results	4
+Arm/Group Title: Exemestane 25 mg + Placebo	Results	5
+exemestane	CHEBI:4953	17-27
+Arm/Group Description: Exemestane (Aromasin  ) 25 mg tablets orally once daily plus a placebo-matching entinostat tablet orally once per week on Days 1, 8, 15 and 22 of each 28-day treatment cycle until development of progressive disease (PD) or unacceptable toxicity or closure of the study by the Sponsor, whichever occurred first.	Results	6
+exemestane	CHEBI:4953	23-33
+entinostat	CHEBI:132082	103-113
+week	UO:0000034	137-141
+progressive	HP:0003676	218-229
+disease	DOID:4,OGMS:0000031	230-237
+Overall Number of Participants Analyzed: 66	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: months  2.27        (1.81 to 3.68)	Results	9
+Results 2:	Results	10
+Arm/Group Title: Exemestane 25 mg + Entinostat 5 mg	Results	11
+exemestane	CHEBI:4953	17-27
+entinostat	CHEBI:132082	36-46
+Arm/Group Description: Exemestane (Aromasin  ) 25 mg tablets orally once daily plus an entinostat 5 mg tablet orally once per week on Days 1, 8, 15 and 22 of each 28-day treatment cycle until development of progressive disease (PD) or unacceptable toxicity or closure of the study by the Sponsor, whichever occurred first.	Results	12
+exemestane	CHEBI:4953	23-33
+entinostat	CHEBI:132082	87-97
+week	UO:0000034	126-130
+progressive	HP:0003676	207-218
+disease	DOID:4,OGMS:0000031	219-226
+Overall Number of Participants Analyzed: 64	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: months  4.28        (3.26 to 5.36)	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 8/66 (12.12%)	Adverse Events	1
+Anemia group 1/66 (1.52%)	Adverse Events	2
+anemia	HP:0001903,DOID:2355	0-6
+group	CHEBI:24433	7-12
+Leukopenia group 1/66 (1.52%)	Adverse Events	3
+leukopenia	HP:0001882,DOID:615	0-10
+group	CHEBI:24433	11-16
+Thrombocytopenia group 1/66 (1.52%)	Adverse Events	4
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+group	CHEBI:24433	17-22
+Atrial tachycardia 0/66 (0.00%)	Adverse Events	5
+tachycardia	HP:0001649	7-18
+Constipation 1/66 (1.52%)	Adverse Events	6
+constipation	HP:0002019,DOID:2089	0-12
+Enterocutaneous fistula 1/66 (1.52%)	Adverse Events	7
+enterocutaneous fistula	HP:0033279	0-23
+Ileus 0/66 (0.00%)	Adverse Events	8
+ileus	HP:0002595,DOID:8440	0-5
+Oesophagitis 0/66 (0.00%)	Adverse Events	9
+Pancreatic mass 1/66 (1.52%)	Adverse Events	10
+Pancreatitis acute 0/66 (0.00%)	Adverse Events	11
+pancreatitis	HP:0001733,DOID:4989	0-12
+acute	HP:0011009,PATO:0000389	13-18
+Asthenia 1/66 (1.52%)	Adverse Events	12
+asthenia	HP:0025406	0-8
+Pyrexia 1/66 (1.52%)	Adverse Events	13
+Adverse Events 2:	Adverse Events	14
+Total: 10/63 (15.87%)	Adverse Events	15
+Anemia group 1/63 (1.59%)	Adverse Events	16
+anemia	HP:0001903,DOID:2355	0-6
+group	CHEBI:24433	7-12
+Leukopenia group 0/63 (0.00%)	Adverse Events	17
+leukopenia	HP:0001882,DOID:615	0-10
+group	CHEBI:24433	11-16
+Thrombocytopenia group 0/63 (0.00%)	Adverse Events	18
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+group	CHEBI:24433	17-22
+Atrial tachycardia 1/63 (1.59%)	Adverse Events	19
+tachycardia	HP:0001649	7-18
+Constipation 0/63 (0.00%)	Adverse Events	20
+constipation	HP:0002019,DOID:2089	0-12
+Enterocutaneous fistula 0/63 (0.00%)	Adverse Events	21
+enterocutaneous fistula	HP:0033279	0-23
+Ileus 1/63 (1.59%)	Adverse Events	22
+ileus	HP:0002595,DOID:8440	0-5
+Oesophagitis 1/63 (1.59%)	Adverse Events	23
+Pancreatic mass 0/63 (0.00%)	Adverse Events	24
+Pancreatitis acute 1/63 (1.59%)	Adverse Events	25
+pancreatitis	HP:0001733,DOID:4989	0-12
+acute	HP:0011009,PATO:0000389	13-18
+Asthenia 0/63 (0.00%)	Adverse Events	26
+asthenia	HP:0025406	0-8
+Pyrexia 0/63 (0.00%)	Adverse Events	27

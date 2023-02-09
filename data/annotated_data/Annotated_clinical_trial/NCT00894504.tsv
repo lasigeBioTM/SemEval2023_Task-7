@@ -1,0 +1,172 @@
+INTERVENTION 1:	Intervention	0
+Panitumumab/Gemcitabine/Carboplatin	Intervention	1
+Panitumumab - 6 mg/kg IV on Day 1 of each 2-week treatment cycle for 3 cycles (6 weeks) Carboplatin - AUC=2.5 IV, Day 1 of each 2-week treatment cycle for 3 cycles (6 weeks) Gemcitabine - 1500 mg/m2 IV, Day 1 of each 2-week treatment cycle for 3 cycles (6 weeks)	Intervention	2
+day	UO:0000033	28-31
+day	UO:0000033	114-117
+day	UO:0000033	203-206
+carboplatin	CHEBI:31355	88-99
+gemcitabine	CHEBI:175901	174-185
+Inclusion Criteria:	Eligibility	0
+Female patients >=18 years of age.	Eligibility	1
+female	PATO:0000383	0-6
+age	PATO:0000011	30-33
+Histologically or cytologically confirmed diagnosis of unresectable locally advanced or stage IV breast cancer.	Eligibility	2
+breast cancer	DOID:1612	97-110
+No more than 1 prior treatment regimen for metastatic breast cancer.	Eligibility	3
+breast cancer	DOID:1612	54-67
+Estrogen receptor and progesterone receptor negative (defined as <10% staining by IHC).	Eligibility	4
+estrogen	CHEBI:50114,BAO:0000760	0-8
+receptor	BAO:0000281	9-17
+receptor	BAO:0000281	35-43
+progesterone	CHEBI:17026	22-34
+Paraffin-embedded tumor tissue (from the primary tumor or metastasis) for biomarker testing. (In the absence of paraffinembedded tissue, unstained paraffin-embedded tumor slides are acceptable).	Eligibility	5
+tissue	UBERON:0000479	24-30
+tissue	UBERON:0000479	129-135
+biomarker	CHEBI:59163	74-83
+Measurable disease, as defined by the Response Evaluation Criteria in Solid Tumors (RECIST version 1.1) guidelines	Eligibility	6
+disease	DOID:4,OGMS:0000031	11-18
+HER2 negative tumors. HER2 negativity must be confirmed by one of the following:	Eligibility	7
+FISH-negative (FISH ratio <2.2), or	Eligibility	8
+ratio	UO:0000190	20-25
+IHC 0-1+, or	Eligibility	9
+IHC 2-3+ AND FISH-negative (FISH ratio <2.2)	Eligibility	10
+ratio	UO:0000190	33-38
+Eastern Cooperative Oncology Group Performance Status (ECOG PS) of 0-1.	Eligibility	11
+group	CHEBI:24433	29-34
+Absolute neutrophil count (ANC) >=1.5 × 109/L; platelet count >=100 × 109/L; hemoglobin >=9.0 g/dL.	Eligibility	12
+platelet count	CMO:0000029	47-61
+hemoglobin	CHEBI:35143	77-87
+Creatinine <=1.5 mg/dL, or creatinine clearance >=40 mL/min (as calculated by the Cockcroft-Gault method, as follows: Female creatinine clearance = (140 - age) × (weight in kg) × 0.85 (serum creatinine × 72)	Eligibility	13
+creatinine	CHEBI:16737	0-10
+creatinine	CHEBI:16737	27-37
+creatinine	CHEBI:16737	125-135
+creatinine	CHEBI:16737	191-201
+creatinine clearance	CMO:0000765	27-47
+creatinine clearance	CMO:0000765	125-145
+female	PATO:0000383	118-124
+age	PATO:0000011	155-158
+Adequate hepatic function, defined as follows: total bilirubin <=1.5 x ULN; aspartate aminotransferase (AST) <=3 × ULN (or <= 5 x ULN if liver metastases); alanine aminotransferase (ALT) <=3 x ULN (or <=5 x ULN if liver metastases).	Eligibility	14
+function	BAO:0003117,BFO:0000034	17-25
+x	LABO:0000148	69-70
+x	LABO:0000148	128-129
+x	LABO:0000148	191-192
+x	LABO:0000148	205-206
+aspartate	CHEBI:29995	76-85
+liver	UBERON:0002107	137-142
+liver	UBERON:0002107	214-219
+alanine	CHEBI:16449	156-163
+Magnesium level >= the institutional lower limit of normal (LLN).	Eligibility	15
+Women of childbearing potential must agree to use adequate contraception (per institutional standard of care) during treatment and until 6 months after the last administration of investigational products.	Eligibility	16
+Exclusion Criteria:	Eligibility	17
+Patients with brain metastases are not eligible.	Eligibility	18
+brain	UBERON:0000955	14-19
+History of another primary cancer, with the exception of the following:	Eligibility	19
+history	BFO:0000182	0-7
+cancer	DOID:162	27-33
+Curatively treated in situ cervical cancer;	Eligibility	20
+cervical cancer	DOID:4362	27-42
+Curatively resected non-melanoma skin cancer;	Eligibility	21
+skin cancer	DOID:4159	33-44
+Other primary solid tumor curatively treated with no known active disease present and no treatment administered for >=5 years prior to study enrollment.	Eligibility	22
+active	PATO:0002354	59-65
+disease	DOID:4,OGMS:0000031	66-73
+present	PATO:0000467	74-81
+History of interstitial lung disease (e.g., pneumonitis, pulmonary fibrosis), or any evidence of interstitial lung disease on the CT scan of the chest performed at the baseline visit.	Eligibility	23
+history	BFO:0000182	0-7
+interstitial lung disease	DOID:3082	11-36
+interstitial lung disease	DOID:3082	97-122
+pulmonary fibrosis	HP:0002206,DOID:3770	57-75
+ct	BAO:0002125	130-132
+chest	UBERON:0001443	145-150
+Prior anti-EGFR antibody therapy (e.g., cetuximab), or treatment with small-molecule EGFR inhibitors (e.g., gefitinib, erlotinib, lapatinib).	Eligibility	24
+antibody	GO:0042571,BAO:0000502	16-24
+gefitinib	CHEBI:49668	108-117
+erlotinib	CHEBI:114785	119-128
+lapatinib	CHEBI:49603	130-139
+Radiotherapy <=14 days prior to study enrollment. Any acute effects of radiotherapy must be resolved prior to the administration of study drugs.	Eligibility	25
+radiotherapy	OAE:0000235	0-12
+radiotherapy	OAE:0000235	71-83
+acute	HP:0011009,PATO:0000389	54-59
+Systemic chemotherapy, hormonal therapy, immunotherapy, or experimental or approved proteins/antibodies (e.g., bevacizumab) <=21 days prior to study enrollment.	Eligibility	26
+Prior therapy with gemcitabine or carboplatin in the metastatic setting is not permitted. Patients who received gemcitabine or carboplatin as part of adjuvant therapy are eligible, as long as recurrence was first documented >12 months after the last exposure to the drug(s).	Eligibility	27
+gemcitabine	CHEBI:175901	19-30
+gemcitabine	CHEBI:175901	112-123
+carboplatin	CHEBI:31355	34-45
+carboplatin	CHEBI:31355	127-138
+part of	BAO:0090002,BFO:0000050	142-149
+adjuvant	CHEBI:60809	150-158
+drug	CHEBI:23888	266-270
+Major surgery within 28 days or minor surgery within 14 days of study enrollment.	Eligibility	28
+surgery	OAE:0000067	6-13
+surgery	OAE:0000067	38-45
+Requirement of chronic use of immunosuppressive agents (e.g., methotrexate, cyclosporine).	Eligibility	29
+chronic	HP:0011010	15-22
+methotrexate	CHEBI:44185	62-74
+Any investigational agent or therapy <=30 days prior to study enrollment.	Eligibility	30
+Uncontrolled or intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, or cardiac arrhythmia.	Eligibility	31
+active	PATO:0002354	79-85
+congestive heart failure	HP:0001635,DOID:6000	109-133
+angina pectoris	HP:0001681	144-159
+arrhythmia	HP:0011675	172-182
+History of any medical or psychiatric condition or laboratory abnormality that, in the opinion of the investigator, may increase the risks associated with the study participation or administration of the investigational products, or that may interfere with the interpretation of the results.	Eligibility	32
+history	BFO:0000182	0-7
+condition	PDRO:0000129	38-47
+increase	BAO:0001251	120-128
+Unwillingness or inability to comply with study requirements.	Eligibility	33
+Women who are pregnant or breastfeeding.	Eligibility	34
+Patients with known human immunodeficiency virus (HIV), hepatitis C virus, and/or acute or chronic hepatitis B virus infection.	Eligibility	35
+immunodeficiency	HP:0002721	26-42
+virus	BAO:0000232	43-48
+virus	BAO:0000232	68-73
+virus	BAO:0000232	111-116
+hepatitis c	DOID:1883	56-67
+acute	HP:0011009,PATO:0000389	82-87
+chronic hepatitis	HP:0200123,DOID:2237	91-108
+hepatitis b	DOID:2043	99-110
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS)	Results	1
+Measured from Day 1 of study drug administration to disease progression - defined by Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 as a 20% increase in the sum of the longest diameter of target lesions and/or appearance of one or more new lesions and/or unequivocal progression of existing non-target lesions	Results	2
+day	UO:0000033	14-17
+drug administration	OAE:0000011	29-48
+disease	DOID:4,OGMS:0000031	52-59
+increase	BAO:0001251	153-161
+diameter	PATO:0001334	188-196
+target	BAO:0003064	200-206
+target	BAO:0003064	307-313
+Time frame: every 6 weeks until treatment discontinuation	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Panitumumab/Gemcitabine/Carboplatin	Results	5
+Arm/Group Description: Panitumumab - 6 mg/kg IV on Day 1 of each 2-week treatment cycle for 3 cycles (6 weeks) Carboplatin - AUC=2.5 IV, Day 1 of each 2-week treatment cycle for 3 cycles (6 weeks) Gemcitabine - 1500 mg/m2 IV, Day 1 of each 2-week treatment cycle for 3 cycles (6 weeks)	Results	6
+day	UO:0000033	51-54
+day	UO:0000033	137-140
+day	UO:0000033	226-229
+carboplatin	CHEBI:31355	111-122
+gemcitabine	CHEBI:175901	197-208
+Overall Number of Participants Analyzed: 71	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Months  4.4        (3.2 to 5.5)	Results	9
+Adverse Events 1:	Adverse Events	0
+Total: 10/71 (14.08%)	Adverse Events	1
+ATRIAL FIBRILLATION 1/71 (1.41%)	Adverse Events	2
+atrial fibrillation	HP:0005110,DOID:0060224	0-19
+CARDIAC TAMPONADE 1/71 (1.41%)	Adverse Events	3
+cardiac tamponade	HP:0033415,DOID:115	0-17
+PERICARDIAL EFFUSION 1/71 (1.41%)	Adverse Events	4
+pericardial effusion	HP:0001698,DOID:118	0-20
+SUPRAVENTRICULAR TACHYCARDIA 1/71 (1.41%)	Adverse Events	5
+supraventricular tachycardia	HP:0004755	0-28
+DIARRHOEA 1/71 (1.41%)	Adverse Events	6
+NAUSEA 1/71 (1.41%)	Adverse Events	7
+nausea	HP:0002018	0-6
+VOMITING 1/71 (1.41%)	Adverse Events	8
+vomiting	HP:0002013	0-8
+CHEST PAIN 1/71 (1.41%)	Adverse Events	9
+chest pain	HP:0100749	0-10
+PNEUMONIA 1/71 (1.41%)	Adverse Events	10
+pneumonia	HP:0002090,DOID:552	0-9
+MALIGNANT PLEURAL EFFUSION 1/71 (1.41%)	Adverse Events	11
+pleural effusion	HP:0002202	10-26
+HEPATIC ENCEPHALOPATHY 1/71 (1.41%)	Adverse Events	12
+hepatic encephalopathy	HP:0002480,DOID:13413	0-22

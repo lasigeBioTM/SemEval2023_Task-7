@@ -1,0 +1,225 @@
+INTERVENTION 1:	Intervention	0
+TAK-228 Plus Tamoxifen	Intervention	1
+tamoxifen	CHEBI:41774	13-22
+TAK-228 will be orally administered at 30 mg weekly for 16 weeks.	Intervention	2
+Tamoxifen will be orally administered at 20 mg daily for 16 weeks.	Intervention	3
+tamoxifen	CHEBI:41774	0-9
+TAK-228: MTORC1/2 inhibitor	Intervention	4
+inhibitor	CHEBI:35222	18-27
+Tamoxifen: Non-steroidal anti-estrogen	Intervention	5
+tamoxifen	CHEBI:41774	0-9
+anti-estrogen	CHEBI:50751	25-38
+Inclusion Criteria:	Eligibility	0
+Female or male  18 years of age.	Eligibility	1
+female	PATO:0000383	0-6
+male	CHEBI:30780,PATO:0000384	2-6
+male	CHEBI:30780,PATO:0000384	10-14
+age	PATO:0000011	28-31
+Newly diagnosed ER-positive, HER2-negative breast cancer. ER-positive is defined as  1% immunohistochemical (IHC) staining of any intensity. HER2 test result is negative if a single test (or both tests) performed show:	Eligibility	2
+breast cancer	DOID:1612	43-56
+intensity	PATO:0000049	130-139
+result	BAO:0000179	151-157
+IHC 1+ or 0	Eligibility	3
+In situ hybridization negative based on:	Eligibility	4
+Single-probe average HER2 copy number < 4.0 signals/cell	Eligibility	5
+Dual-probe HER2/CEP17 ratio < 2 with an average HER2 copy number < 4.0 signals/cell.	Eligibility	6
+ratio	UO:0000190	22-27
+Patients with stage II-III breast cancer are eligible if they are deemed appropriate for neoadjuvant endocrine therapy by the referring or treating medical oncologist. Patients with stage I disease are eligible if they are deemed borderline candidates for breast conservation and the treating surgeon recommends preoperative therapy to increase the chances of breast conservation.	Eligibility	7
+breast cancer	DOID:1612	27-40
+disease	DOID:4,OGMS:0000031	190-197
+borderline	HP:0012827	230-240
+breast	UBERON:0000310	27-33
+breast	UBERON:0000310	256-262
+breast	UBERON:0000310	360-366
+increase	BAO:0001251	336-344
+Eastern Cooperative Oncology Group performance status and/or other performance status of  1.	Eligibility	8
+group	CHEBI:24433	29-34
+Female patients who:	Eligibility	9
+female	PATO:0000383	0-6
+Are postmenopausal for at least 1 year before the screening visit, OR	Eligibility	10
+year	UO:0000036	34-38
+Are surgically sterile, OR	Eligibility	11
+If they are of childbearing potential, agree to practice 1 effective method of contraception and 1 additional effective (barrier) method, at the same time, from the time of signing the ICF through 90 days (or longer, as mandated by local labeling [e.g., United Surgical Partners International, summary of product characteristics, etc.] after the last dose of the study drugs, OR	Eligibility	12
+time	PATO:0000165	150-154
+time	PATO:0000165	165-169
+product	BAO:0003067	305-312
+Agree to practice true abstinence, when this is in line with the preferred and usual lifestyle of the patient (periodic abstinence [e.g., calendar, ovulation, symptothermal, postovulation methods] and withdrawal, spermicides only, and lactational amenorrhea are not acceptable methods of contraception. Female and male condom should not be used together).	Eligibility	13
+patient	HADO:0000008,OAE:0001817	102-109
+periodic	HP:0025304	111-119
+ovulation	GO:0030728	148-157
+ovulation	GO:0030728	178-187
+amenorrhea	HP:0000141,DOID:13938	247-257
+female	PATO:0000383	303-309
+male	CHEBI:30780,PATO:0000384	305-309
+male	CHEBI:30780,PATO:0000384	314-318
+Male patients, even if surgically sterilized (i.e., status post-vasectomy), who:	Eligibility	14
+male	CHEBI:30780,PATO:0000384	0-4
+Agree to practice highly effective barrier contraception during the entire study treatment period and through 120 days after the last dose of the study drugs, OR	Eligibility	15
+Agree to practice true abstinence, when this is in line with the preferred and usual lifestyle of the patient	Eligibility	16
+patient	HADO:0000008,OAE:0001817	102-109
+Agree not to donate sperm during the course of this study or within 120 days after receiving their last dose of the study drugs.	Eligibility	17
+Screening clinical laboratory values as specified below:	Eligibility	18
+Bone marrow reserve consistent with: absolute neutrophil count  1.5 x 109/L, platelet count  100 x 109/L, and hemoglobin  9 g/dL (without transfusion) within 1 week preceding the administration of the study drugs;	Eligibility	19
+bone marrow	UBERON:0002371	0-11
+x	LABO:0000148	68-69
+x	LABO:0000148	97-98
+platelet count	CMO:0000029	77-91
+hemoglobin	CHEBI:35143	110-120
+week	UO:0000034	160-164
+Hepatic status: Serum total bilirubin  1 x upper limit of normal (ULN; in the case of known Gilbert's syndrome, a higher serum total bilirubin [< 1.5 x ULN] is allowed), aspartate aminotransferase and alanine aminotransferase  1.5 x ULN, and alkaline phosphatase  1.5 x ULN;	Eligibility	20
+x	LABO:0000148	41-42
+x	LABO:0000148	150-151
+x	LABO:0000148	231-232
+x	LABO:0000148	268-269
+syndrome	DOID:225	102-110
+aspartate	CHEBI:29995	170-179
+alanine	CHEBI:16449	201-208
+phosphatase	GO:0016791,BAO:0000295	251-262
+Renal status: Creatinine clearance 50 mL/min based on Cockcroft-Gault estimate or based on urine collection (12 or 24 hour);	Eligibility	21
+creatinine clearance	CMO:0000765	14-34
+urine	UBERON:0001088	91-96
+hour	UO:0000032	118-122
+Metabolic status: HbA1c < 7.0%, fasting serum glucose  130 mg/dL, and fasting triglycerides  300 mg/dL.	Eligibility	22
+glucose	CHEBI:4167,BAO:0000924	46-53
+Ability to swallow oral medications.	Eligibility	23
+Voluntary written consent must be given before performance of any study-related procedure not part of standard medical care, with the understanding that consent may be withdrawn by the patient at any time without prejudice to future medical care.	Eligibility	24
+part of	BAO:0090002,BFO:0000050	94-101
+patient	HADO:0000008,OAE:0001817	185-192
+time	PATO:0000165	200-204
+Negative serum pregnancy test within 7 days prior to the administration of the study drugs for female patients of childbearing potential.	Eligibility	25
+female	PATO:0000383	95-101
+Patient must be accessible for treatment and follow-up.	Eligibility	26
+patient	HADO:0000008,OAE:0001817	0-7
+Patient must be willing to undergo breast biopsies as required by the study protocol.	Eligibility	27
+patient	HADO:0000008,OAE:0001817	0-7
+breast	UBERON:0000310	35-41
+Exclusion Criteria:	Eligibility	28
+Any patient with metastatic disease.	Eligibility	29
+patient	HADO:0000008,OAE:0001817	4-11
+disease	DOID:4,OGMS:0000031	28-35
+Other clinically significant comorbidities, such as uncontrolled pulmonary disease, active central nervous system disease, active infection, or any other condition that could compromise the patient's participation in the study.	Eligibility	30
+disease	DOID:4,OGMS:0000031	75-82
+disease	DOID:4,OGMS:0000031	114-121
+active	PATO:0002354	84-90
+active	PATO:0002354	123-129
+central nervous system disease	DOID:331	91-121
+condition	PDRO:0000129	154-163
+patient	HADO:0000008,OAE:0001817	190-197
+Known human immunodeficiency virus infection.	Eligibility	31
+immunodeficiency	HP:0002721	12-28
+virus	BAO:0000232	29-34
+Known hepatitis B surface antigen-positive or known or suspected active hepatitis C infection.	Eligibility	32
+hepatitis b	DOID:2043	6-17
+active	PATO:0002354	65-71
+hepatitis c	DOID:1883	72-83
+Any serious medical or psychiatric illness that could, in the investigator's opinion, potentially interfere with the completion of the protocol-specified treatment.	Eligibility	33
+Diagnosed or treated for another malignancy within 2 years before administration of the first dose of the study drugs or previously diagnosed with another malignancy and have any evidence of residual disease. Patients with non-melanoma skin cancer or carcinoma in situ of any type are not excluded if they have undergone complete resection.	Eligibility	34
+disease	DOID:4,OGMS:0000031	200-207
+skin cancer	DOID:4159	236-247
+carcinoma	HP:0030731,DOID:305	251-260
+excluded	HP:0040285	289-297
+Breastfeeding or pregnant.	Eligibility	35
+Manifestations of malabsorption due to prior gastrointestinal surgery, gastrointestinal disease, or an unknown reason that may alter the absorption of TAK-228. Patients with enteric stomata are also excluded.	Eligibility	36
+malabsorption	HP:0002024	18-31
+surgery	OAE:0000067	62-69
+disease	DOID:4,OGMS:0000031	88-95
+excluded	HP:0040285	199-207
+Treatment with any investigational products within 2 weeks before administration of the first dose of the study drugs.	Eligibility	37
+Poorly controlled diabetes mellitus (defined as HbA1c > 7%). Patients with a history of transient glucose intolerance due to corticosteroid administration may be enrolled in the study if all other inclusion criteria and none of the other exclusion criteria are met.	Eligibility	38
+diabetes mellitus	HP:0000819,DOID:9351	18-35
+history	BFO:0000182	77-84
+transient	HP:0025153	88-97
+glucose intolerance	HP:0001952,DOID:10603	98-117
+corticosteroid	CHEBI:50858	125-139
+History of any of the following within the last 6 months before administration of the first dose of the study drugs:	Eligibility	39
+history	BFO:0000182	0-7
+Ischemic myocardial event, including angina requiring therapy and artery revascularization procedures	Eligibility	40
+artery	UBERON:0001637	66-72
+Ischemic cerebrovascular event, including transient ischemic attack and artery revascularization procedures	Eligibility	41
+transient ischemic attack	HP:0002326,DOID:224	42-67
+artery	UBERON:0001637	72-78
+Requirement for inotropic support (excluding digoxin) or serious (uncontrolled) cardiac arrhythmia (including atrial flutter/fibrillation, ventricular fibrillation, and ventricular tachycardia)	Eligibility	42
+digoxin	CHEBI:4551	45-52
+arrhythmia	HP:0011675	88-98
+ventricular fibrillation	HP:0001663	139-163
+ventricular tachycardia	HP:0004756	169-192
+Placement of a pacemaker for control of rhythm	Eligibility	43
+New York Heart Association Class III or IV heart failure	Eligibility	44
+heart	UBERON:0000948	9-14
+heart	UBERON:0000948	43-48
+Pulmonary embolism	Eligibility	45
+pulmonary embolism	HP:0002204,DOID:9477	0-18
+Significant active cardiovascular or pulmonary disease including:	Eligibility	46
+active	PATO:0002354	12-18
+disease	DOID:4,OGMS:0000031	47-54
+Uncontrolled hypertension (i.e., systolic blood pressure > 180 mm Hg, diastolic blood pressure > 95 mm Hg). Use of antihypertensive agents to control hypertension before week 1, day 1 is allowed.	Eligibility	47
+hypertension	HP:0000822,DOID:10763	13-25
+hypertension	HP:0000822,DOID:10763	150-162
+systolic blood pressure	CMO:0000004	33-56
+diastolic blood pressure	CMO:0000005	70-94
+week	UO:0000034	170-174
+day	UO:0000033	178-181
+Pulmonary hypertension	Eligibility	48
+pulmonary hypertension	DOID:6432	0-22
+Uncontrolled asthma or O2 saturation < 90% by arterial blood gas analysis or pulse oximetry on room air	Eligibility	49
+asthma	HP:0002099,DOID:2841	13-19
+blood	UBERON:0000178	55-60
+pulse	CMO:0000294	77-82
+Significant valvular disease, severe regurgitation, or stenosis by imaging independent of symptom control with medical intervention or history of valve replacement	Eligibility	50
+disease	DOID:4,OGMS:0000031	21-28
+severe	HP:0012828	30-36
+symptom	OGMS:0000020	90-97
+medical intervention	OAE:0000002	111-131
+history	BFO:0000182	135-142
+valve	UBERON:0003978	146-151
+Medically significant (symptomatic) bradycardia	Eligibility	51
+bradycardia	HP:0001662	36-47
+History of arrhythmia requiring an implantable cardiac defibrillator	Eligibility	52
+history	BFO:0000182	0-7
+arrhythmia	HP:0011675	11-21
+Baseline QTc prolongation (e.g., repeated demonstration of QTc interval > 480 milliseconds or history of congenital long QT syndrome or torsades de pointes)	Eligibility	53
+qtc interval	CMO:0000269	59-71
+history	BFO:0000182	94-101
+long qt syndrome	DOID:2843	116-132
+Treatment with strong inhibitors and/or inducers of CYP3A4, CYP2C9, or CYP2C19 within 7 days preceding the first dose of the study drugs.	Eligibility	54
+Patients receiving systemic corticosteroids (either IV or oral steroids, excluding inhalers or low-dose hormone replacement therapy) within 1 week before administration of the first dose of the study drugs.	Eligibility	55
+hormone	CHEBI:24621	104-111
+week	UO:0000034	142-146
+Daily or chronic use of a proton pump inhibitor (PPI) and/or having taken a PPI within 7 days before receiving the first dose of the study drugs.	Eligibility	56
+chronic	HP:0011010	9-16
+proton	CHEBI:24636	26-32
+inhibitor	CHEBI:35222	38-47
+Patients unwilling or unable to comply with the study protocol.	Eligibility	57
+Patients previously treated with hormonal therapy (tamoxifen, AI) or PI3K, AKT, dual PI3K/mTOR, TORC1/2, or mTORC1 inhibitors.	Eligibility	58
+tamoxifen	CHEBI:41774	51-60
+Patients who are currently being treated with cancer therapy (chemotherapy, radiation therapy, immunotherapy, or biologic therapy) other than the trial therapy.	Eligibility	59
+cancer	DOID:162	46-52
+Patients with hypersensitivity to mTOR inhibitors or tamoxifen.	Eligibility	60
+hypersensitivity	GO:0002524,DOID:1205	14-30
+tamoxifen	CHEBI:41774	53-62
+Outcome Measurement:	Results	0
+Ki67 Expression	Results	1
+Ki67 expression change from baseline to 6 weeks	Results	2
+Time frame: Baseline to 6 weeks	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: TAK-228 Plus Tamoxifen	Results	5
+tamoxifen	CHEBI:41774	30-39
+Arm/Group Description: TAK-228 will be orally administered at 30 mg weekly for 16 weeks.	Results	6
+Tamoxifen will be orally administered at 20 mg daily for 16 weeks.	Results	7
+tamoxifen	CHEBI:41774	0-9
+TAK-228: MTORC1/2 inhibitor	Results	8
+inhibitor	CHEBI:35222	18-27
+Tamoxifen: Non-steroidal anti-estrogen	Results	9
+tamoxifen	CHEBI:41774	0-9
+anti-estrogen	CHEBI:50751	25-38
+Overall Number of Participants Analyzed: 23	Results	10
+Median (Inter-Quartile Range)	Results	11
+median	BAO:0002174	0-6
+range	LABO:0000114	23-28
+Unit of Measure: Percentage of cells with Ki67 expression  Ki67 expression at baseline: 15        (10 to 25)	Results	12
+Ki67 expression at 6 weeks: 10        (2 to 38)	Results	13
+Adverse Events 1:	Adverse Events	0
+Total: 1/28 (3.57%)	Adverse Events	1
+hyperglycemia  1/28 (3.57%)	Adverse Events	2
+hyperglycemia	HP:0003074,DOID:4195	0-13

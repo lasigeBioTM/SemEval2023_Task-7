@@ -1,0 +1,207 @@
+INTERVENTION 1:	Intervention	0
+Triple-negative Breast Cancer: ABT-888 + Cyclophosphamide	Intervention	1
+breast cancer	DOID:1612	16-29
+cyclophosphamide	CHEBI:4026	41-57
+Oral cyclophosphamide 50mg by mouth (PO) for 21 days and oral ABT-888 60mg by mouth (PO) on a continuous schedule.	Intervention	2
+cyclophosphamide	CHEBI:4026	5-21
+mouth	UBERON:0000165	30-35
+mouth	UBERON:0000165	78-83
+INTERVENTION 2:	Intervention	3
+Triple-negative Breast Cancer: Cyclophosphamide Alone	Intervention	4
+breast cancer	DOID:1612	16-29
+cyclophosphamide	CHEBI:4026	31-47
+Oral cyclophosphamide 50mg by mouth (PO) for 21 days.	Intervention	5
+cyclophosphamide	CHEBI:4026	5-21
+mouth	UBERON:0000165	30-35
+INCLUSION CRITERIA:	Eligibility	0
+Patients with histologically documented:	Eligibility	1
+BRCA-positive ovarian cancer (documented deleterious BRCA1/2 mutation or a BRCAPRO score of greater than or equal to 30%)	Eligibility	2
+ovarian cancer	DOID:2394	14-28
+primary peritoneal or ovarian high-grade serous carcinoma or fallopian tube cancer (no requirement for BRCA status)	Eligibility	3
+carcinoma	HP:0030731,DOID:305	48-57
+fallopian tube cancer	DOID:1964	61-82
+triple-negative breast cancer (documented estrogen receptor (ER) negative, progesterone receptor (PR) negative, and human epidermal growth factor receptor 2 (Her2/neu) negative from the original pathology report if considered adequate, or per The American Society of Clinical Oncology/College of American Pathologists (ASCO/CAP) guidelines (47, 48)) with metastasis to distant sites	Eligibility	4
+breast cancer	DOID:1612	16-29
+estrogen	CHEBI:50114,BAO:0000760	42-50
+receptor	BAO:0000281	51-59
+receptor	BAO:0000281	88-96
+receptor	BAO:0000281	146-154
+progesterone	CHEBI:17026	75-87
+growth factor	BAO:0002024	132-145
+Low-grade lymphoid malignancies (NHL), as described below, whose disease has progressed following at least one line of standard therapy:	Eligibility	5
+disease	DOID:4,OGMS:0000031	65-72
+Follicle center lymphoma, follicular or diffuse-recurrent/refractory	Eligibility	6
+lymphoma	HP:0002665,DOID:0060058	16-24
+Marginal zone B-cell lymphoma: splenic, nodal, extranodal (this includes mucosa-associated lymphoid tissue (MALT)) - recurrent/refractory	Eligibility	7
+marginal zone b-cell lymphoma	DOID:0050748	0-29
+mucosa-associated lymphoid tissue	UBERON:0001961	73-106
+Lymphoplasmacytic lymphoma - recurrent/refractory	Eligibility	8
+lymphoplasmacytic lymphoma	DOID:0050747	0-26
+Small lymphocytic lymphoma (SLL) (absolute lymphocytes count below 5,000)	Eligibility	9
+lymphoma	HP:0002665,DOID:0060058	18-26
+Pathology must be confirmed by the registering institution. For patients who are eligible for the study due to a history of BRCA1/2 mutation, documented evidence of their mutation status must be provided prior to enrolling on the study.	Eligibility	10
+history	BFO:0000182	113-120
+Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as greater than or equal to 20 mm with conventional techniques or as greater than or equal to 10 mm with spiral computed tomography (CT) scan.	Eligibility	11
+disease	DOID:4,OGMS:0000031	30-37
+diameter	PATO:0001334	137-145
+tomography	BAO:0002525	283-293
+ct	BAO:0002125	295-297
+Any prior therapy or radiotherapy must have been completed greater than or equal to 4 weeks (greater than 6 weeks for nitrosoureas or mitomycin C) prior to enrollment on protocol, and the participant must have recovered to eligibility levels from prior toxicity. Patients must be greater than or equal to 2 weeks since any investigational agent administered as part of a Phase 0 study, and should have recovered to eligibility levels from any toxicities.	Eligibility	12
+radiotherapy	OAE:0000235	21-33
+mitomycin c	CHEBI:27504	134-145
+part of	BAO:0090002,BFO:0000050	361-368
+Patients who have had prior treatment with any PARP inhibitors are eligible unless the PARP inhibitor was administered in combination with cyclophosphamide.	Eligibility	13
+inhibitor	CHEBI:35222	52-61
+inhibitor	CHEBI:35222	92-101
+cyclophosphamide	CHEBI:4026	139-155
+Patients with bone metastases or hypercalcemia on bisphosphonate treatment are eligible to participate	Eligibility	14
+hypercalcemia	HP:0003072,DOID:12678	33-46
+Age greater than or equal to 18 years. Because no dosing or adverse event data are currently available on the use of ABT-888 in patients less than 18 years of age, children are excluded from this study, but may be eligible for future pediatric Phase I combination trials.	Eligibility	15
+age	PATO:0000011	0-3
+age	PATO:0000011	159-162
+adverse event	OAE:0000001	60-73
+excluded	HP:0040285	177-185
+Karnofsky performance status greater than or equal to 70%.	Eligibility	16
+Life expectancy greater than 3 months.	Eligibility	17
+Patients must have adequate organ and marrow function as defined below:	Eligibility	18
+organ	UBERON:0000062	28-33
+function	BAO:0003117,BFO:0000034	45-53
+absolute neutrophil count greater than or equal to 1,500/microL (mcL)	Eligibility	19
+platelets greater than or equal to 100,000/microL (mcL)	Eligibility	20
+total bilirubin less than 1.5 times institutional upper limit of normal	Eligibility	21
+Aspartate aminotransaminase (AST) serum glutamic oxaloacetic transaminase (SGOT)/alanine aminotransaminase (ALT) serum glutamic pyruvic transaminase (SGPT) less than or equal to 2.5 times institutional upper limit of normal	Eligibility	22
+aspartate	CHEBI:29995	0-9
+creatinine less than 1.5 times institutional upper limit of normal	Eligibility	23
+creatinine	CHEBI:16737	0-10
+OR	Eligibility	24
+--creatinine clearance greater than or equal to 60 mL/min for patients with creatinine	Eligibility	25
+creatinine clearance	CMO:0000765	2-22
+creatinine	CHEBI:16737	2-12
+creatinine	CHEBI:16737	76-86
+levels greater than or equal to 1.5 times institutional upper limit of normal.	Eligibility	26
+The effects of ABT-888 on the developing human fetus are unknown. For this reason and because cyclophosphamide hydrochloride is known to be teratogenic, women of childbearing potential and men must agree to use adequate contraception (abstinence; female use of hormonal methods, or barrier methods of birth control; male use of a condom) prior to study entry, for the duration of study participation, and for 3 months after completion of study. Because there is a risk for adverse events in nursing infants secondary to treatment of the mother with cyclophosphamide, breastfeeding should be discontinued while the patient is on this trial and for 30 days after completion of treatment on this trial. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.	Eligibility	27
+cyclophosphamide	CHEBI:4026	94-110
+cyclophosphamide	CHEBI:4026	549-565
+hydrochloride	CHEBI:36807	111-124
+female	PATO:0000383	247-253
+male	CHEBI:30780,PATO:0000384	249-253
+male	CHEBI:30780,PATO:0000384	316-320
+duration	PATO:0001309	368-376
+patient	HADO:0000008,OAE:0001817	614-621
+Ability to understand and the willingness to sign a written informed consent document.	Eligibility	28
+document	IAO:0000310	77-85
+EXCLUSION CRITERIA:	Eligibility	29
+Women who are pregnant or breastfeeding.	Eligibility	30
+Patients with uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.	Eligibility	31
+active	PATO:0002354	90-96
+congestive heart failure	HP:0001635,DOID:6000	120-144
+angina pectoris	HP:0001681	155-170
+arrhythmia	HP:0011675	180-190
+Patients with germ cell and borderline ovarian epithelial tumors.	Eligibility	32
+borderline	HP:0012827	28-38
+Patients who have received prior cyclophosphamide should not be excluded solely because of receiving prior cyclophosphamide.	Eligibility	33
+cyclophosphamide	CHEBI:4026	33-49
+cyclophosphamide	CHEBI:4026	107-123
+excluded	HP:0040285	64-72
+Patients with history of central nervous system (CNS) metastases who have received treatment and who have been on stable doses of anti-seizure medicine and had no seizures x 3 months will be eligible.	Eligibility	34
+history	BFO:0000182	14-21
+central nervous system	UBERON:0001017	25-47
+stable	HP:0031915	114-120
+x	LABO:0000148	172-173
+Patients with gastrointestinal conditions that might predispose for drug intolerability or poor drug absorption (e.g., inability to take oral medication or a requirement for intravenous (IV) alimentation, prior surgical procedures affecting absorption, malabsorption syndrome, and active peptic ulcer disease) are excluded. Subjects with ulcerative colitis, inflammatory bowel disease, or a partial or complete small bowel obstruction are also excluded, as are any patients who cannot swallow the capsule whole. Capsules must not be crushed or chewed; nasogastric or gastrostomy tube (G-tube) administration is not allowed.	Eligibility	35
+drug	CHEBI:23888	68-72
+drug	CHEBI:23888	96-100
+malabsorption	HP:0002024	253-266
+syndrome	DOID:225	267-275
+active peptic ulcer disease	DOID:749	281-308
+excluded	HP:0040285	314-322
+excluded	HP:0040285	444-452
+ulcerative colitis	HP:0100279,DOID:8577	338-356
+inflammatory bowel disease	DOID:0050589	358-384
+capsule	GO:0042603	497-504
+capsule	GO:0042603	512-519
+tube	BAO:0010014,UBERON:0000025	579-583
+tube	BAO:0010014,UBERON:0000025	587-591
+INCLUSION OF WOMEN AND MINORITIES:	Eligibility	36
+-Men and women of all races and ethnic groups are eligible for this trial.	Eligibility	37
+Outcome Measurement:	Results	0
+Percentage of Participants With an Overall Response Rate	Results	1
+rate	BAO:0080019	52-56
+Complete response (CR) + partial response (PR)) of the combination of ABT-888 with metronomic oral cyclophosphamide to the response rate (CR+PR) of metronomic oral cyclophosphamide in patients with deleterious BRCA mutations and refractory ovarian cancer or patients with primary peritoneal or ovarian high-grade serous carcinoma or fallopian tube cancer. CR + PR was determined by the Response Evaluation Criteria in Solid Tumors (RECIST). CR is disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to <10 mm). Partial response is at least a 30% decrease in the sum of the diameters of target lesions, taking as reference the baseline sum diameters.	Results	2
+cyclophosphamide	CHEBI:4026	99-115
+cyclophosphamide	CHEBI:4026	164-180
+rate	BAO:0080019	132-136
+refractory	HP:0031375	229-239
+ovarian cancer	DOID:2394	240-254
+carcinoma	HP:0030731,DOID:305	320-329
+fallopian tube cancer	DOID:1964	333-354
+target	BAO:0003064	468-474
+target	BAO:0003064	522-528
+target	BAO:0003064	536-542
+target	BAO:0003064	665-671
+lymph	UBERON:0002391	501-506
+Time frame: an average of 126 days for ovarian; 71 days for TNBC; for crossover intervention, pts stayed on study for an avg of 134 days for ovarian; 50 days for TNBC.	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Triple-negative Breast Cancer: ABT-888 + Cyclophosphamide	Results	5
+breast cancer	DOID:1612	33-46
+cyclophosphamide	CHEBI:4026	58-74
+Arm/Group Description: Oral cyclophosphamide 50mg by mouth (PO) for 21 days and oral ABT-888 60mg by mouth (PO) on a continuous schedule.	Results	6
+cyclophosphamide	CHEBI:4026	28-44
+mouth	UBERON:0000165	53-58
+mouth	UBERON:0000165	101-106
+Overall Number of Participants Analyzed: 21	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of participants  9.5	Results	9
+Results 2:	Results	10
+Arm/Group Title: Triple-negative Breast Cancer: Cyclophosphamide Alone	Results	11
+breast cancer	DOID:1612	33-46
+cyclophosphamide	CHEBI:4026	48-64
+Arm/Group Description: Oral cyclophosphamide 50mg by mouth (PO) for 21 days.	Results	12
+cyclophosphamide	CHEBI:4026	28-44
+mouth	UBERON:0000165	53-58
+Overall Number of Participants Analyzed: 18	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of participants  5.6	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 3/37 (8.11%)	Adverse Events	1
+Sinus tachycardia 0/37 (0.00%)	Adverse Events	2
+sinus tachycardia	HP:0011703	0-17
+Heart failure 0/37 (0.00%)	Adverse Events	3
+heart	UBERON:0000948	0-5
+Dehydration 1/37 (2.70%)	Adverse Events	4
+dehydration	HP:0001944	0-11
+Death Not Associated with CTCAE: Death NOS 1/37 (2.70%)	Adverse Events	5
+death	OAE:0000632	0-5
+death	OAE:0000632	33-38
+Lymphopenia 1/37 (2.70%)	Adverse Events	6
+lymphopenia	HP:0001888,DOID:614	0-11
+Neutropenia 1/37 (2.70%)	Adverse Events	7
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/37 (0.00%)	Adverse Events	8
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Hyponatremia 1/37 (2.70%)	Adverse Events	9
+hyponatremia	HP:0002902	0-12
+Weight loss 0/37 (0.00%)	Adverse Events	10
+weight loss	HP:0001824	0-11
+Adverse Events 2:	Adverse Events	11
+Total: 0/38 (0.00%)	Adverse Events	12
+Sinus tachycardia 0/38 (0.00%)	Adverse Events	13
+sinus tachycardia	HP:0011703	0-17
+Heart failure 0/38 (0.00%)	Adverse Events	14
+heart	UBERON:0000948	0-5
+Dehydration 0/38 (0.00%)	Adverse Events	15
+dehydration	HP:0001944	0-11
+Death Not Associated with CTCAE: Death NOS 0/38 (0.00%)	Adverse Events	16
+death	OAE:0000632	0-5
+death	OAE:0000632	33-38
+Lymphopenia 0/38 (0.00%)	Adverse Events	17
+lymphopenia	HP:0001888,DOID:614	0-11
+Neutropenia 0/38 (0.00%)	Adverse Events	18
+neutropenia	HP:0001875,DOID:1227	0-11
+Thrombocytopenia 0/38 (0.00%)	Adverse Events	19
+thrombocytopenia	HP:0001873,DOID:1588	0-16
+Hyponatremia 0/38 (0.00%)	Adverse Events	20
+hyponatremia	HP:0002902	0-12
+Weight loss 0/38 (0.00%)	Adverse Events	21
+weight loss	HP:0001824	0-11

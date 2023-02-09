@@ -1,0 +1,68 @@
+INTERVENTION 1:	Intervention	0
+Arm 1	Intervention	1
+Surgimend	Intervention	2
+INTERVENTION 2:	Intervention	3
+Arm 2	Intervention	4
+Alloderm	Intervention	5
+Inclusion Criteria:	Eligibility	0
+Patients undergoing immediate tissue expander reconstruction following mastectomy by any of the surgeon co-investigators are eligible for the study.	Eligibility	1
+tissue	UBERON:0000479	30-36
+Patients 18 years of age or older are eligible for the study.	Eligibility	2
+age	PATO:0000011	21-24
+Patients undergoing skin-sparing mastectomy utilizing bioprosthetic mesh are eligible for the study.	Eligibility	3
+Patients who have not undergone autologous tissue breast reconstruction and intend to undergo implant only breast reconstruction.	Eligibility	4
+tissue	UBERON:0000479	43-49
+breast	UBERON:0000310	50-56
+breast	UBERON:0000310	107-113
+Patients who intend to remain under the MDACC surgeon's care until completion of the reconstruction.	Eligibility	5
+Exclusion Criteria:	Eligibility	6
+Patients with prior radiation to the breast/chest wall of the ipsilateral breast .	Eligibility	7
+breast	UBERON:0000310	37-43
+breast	UBERON:0000310	74-80
+Patients who cannot be effectively reconstructed without the use of bioprosthetic mesh.	Eligibility	8
+Patients who are current smokers.	Eligibility	9
+Patients requiring additional intra-operative skin resections of greater than 1cm beyond the skin edge as a result of mastectomy flap devascularization.	Eligibility	10
+result	BAO:0000179	108-114
+Patients who have a history of breast tissue expander or implant placement.	Eligibility	11
+history	BFO:0000182	20-27
+breast	UBERON:0000310	31-37
+tissue	UBERON:0000479	38-44
+Outcome Measurement:	Results	0
+Number of Participants With Complications After Tissue Expander Replacement With Implant	Results	1
+tissue	UBERON:0000479	48-54
+[Not Specified]	Results	2
+Time frame: through study completion, an average of 1 year	Results	3
+time	PATO:0000165	0-4
+year	UO:0000036	54-58
+Results 1:	Results	4
+Arm/Group Title: Arm 1	Results	5
+Arm/Group Description: Surgimend	Results	6
+Overall Number of Participants Analyzed: 31	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: participants  10	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm 2	Results	11
+Arm/Group Description: Alloderm	Results	12
+Overall Number of Participants Analyzed: 35	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: participants  10	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 3/31 (9.68%)	Adverse Events	1
+Pain 1/31 (3.23%)	Adverse Events	2
+pain	HP:0012531	0-4
+Infection 1/31 (3.23%)	Adverse Events	3
+Hypophosphatemia 0/31 (0.00%)	Adverse Events	4
+hypophosphatemia	HP:0002148,DOID:0050336	0-16
+Muscle spasms 0/31 (0.00%)	Adverse Events	5
+Delayed wound healing 1/31 (3.23%)	Adverse Events	6
+wound healing	GO:0042060	8-21
+Adverse Events 2:	Adverse Events	7
+Total: 2/35 (5.71%)	Adverse Events	8
+Pain 0/35 (0.00%)	Adverse Events	9
+pain	HP:0012531	0-4
+Infection 0/35 (0.00%)	Adverse Events	10
+Hypophosphatemia 1/35 (2.86%)	Adverse Events	11
+hypophosphatemia	HP:0002148,DOID:0050336	0-16
+Muscle spasms 1/35 (2.86%)	Adverse Events	12
+Delayed wound healing 0/35 (0.00%)	Adverse Events	13
+wound healing	GO:0042060	8-21

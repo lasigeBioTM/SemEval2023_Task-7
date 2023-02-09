@@ -1,0 +1,250 @@
+INTERVENTION 1:	Intervention	0
+Arm 1: Doxorubicin + Cyclophosphamide, Then Docetaxel	Intervention	1
+doxorubicin	CHEBI:28748,BAO:0000639	7-18
+cyclophosphamide	CHEBI:4026	21-37
+Doxorubicin + Cyclophosphamide, then Docetaxel	Intervention	2
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+cyclophosphamide	CHEBI:4026	14-30
+INTERVENTION 2:	Intervention	3
+Arm 2: Doxorubicin + Docetaxel	Intervention	4
+doxorubicin	CHEBI:28748,BAO:0000639	7-18
+Doxorubicin + Docetaxel	Intervention	5
+doxorubicin	CHEBI:28748,BAO:0000639	0-11
+DISEASE CHARACTERISTICS:	Eligibility	0
+disease	DOID:4,OGMS:0000031	0-7
+Histologically confirmed invasive adenocarcinoma of the breast	Eligibility	1
+adenocarcinoma	DOID:299	34-48
+breast	UBERON:0000310	56-62
+Confined to the breast and ipsilateral axilla on clinical exam	Eligibility	2
+breast	UBERON:0000310	16-22
+Stage I, II, or IIIA (cT1-3, N0-1, M0)	Eligibility	3
+At least one axillary lymph node with evidence of tumor on histologic exam	Eligibility	4
+lymph	UBERON:0002391	22-27
+Sentinel node biopsy allowed if followed by axillary dissection	Eligibility	5
+No suspicious palpable nodes in the contralateral axilla or palpable supraclavicular or infraclavicular nodes, unless proven on biopsy to not be involved with tumor	Eligibility	6
+No bilateral malignancy or mass in the opposite breast, unless mass is histologically proven to be benign	Eligibility	7
+bilateral	HP:0012832	3-12
+breast	UBERON:0000310	48-54
+Must have undergone either a prior total mastectomy and axillary dissection (modified radical mastectomy) OR	Eligibility	8
+radical	CHEBI:26519	86-93
+Prior lumpectomy and axillary dissection	Eligibility	9
+Patients must receive radiotherapy after randomization (not before) AND after chemotherapy	Eligibility	10
+radiotherapy	OAE:0000235	22-34
+Margins must be clear	Eligibility	11
+No ipsilateral lymph nodes that are fixed to one another or to other structures (N2 disease) and/or any positive nonaxillary lymph nodes (intramammary nodes are considered axillary nodes)	Eligibility	12
+lymph	UBERON:0002391	15-20
+lymph	UBERON:0002391	125-130
+disease	DOID:4,OGMS:0000031	84-91
+No histologically evident invasive tumor or ductal carcinoma in situ	Eligibility	13
+ductal carcinoma in situ	HP:0030075,DOID:0060074	44-68
+No diffuse tumors by mammography that would not be surgically amenable to lumpectomy	Eligibility	14
+diffuse	HP:0020034	3-10
+No other dominant mass in the ipsilateral breast remnant unless one of the following is true:	Eligibility	15
+breast	UBERON:0000310	42-48
+Histologically benign	Eligibility	16
+Surgically removed with clear margins if malignant	Eligibility	17
+No ulceration, erythema, infiltration of the skin or underlying chest wall (complete fixation), peau d'orange, or skin edema of any magnitude	Eligibility	18
+erythema	HP:0010783	15-23
+chest	UBERON:0001443	64-69
+peau d'orange	HP:0025533	96-109
+edema	HP:0000969	119-124
+Tethering or dimpling of the skin or nipple inversion allowed	Eligibility	19
+No metastatic disease	Eligibility	20
+disease	DOID:4,OGMS:0000031	14-21
+Skeletal pain allowed if bone scan negative for metastases	Eligibility	21
+pain	HP:0012531	9-13
+Hormone receptor status:	Eligibility	22
+hormone	CHEBI:24621	0-7
+receptor	BAO:0000281	8-16
+Estrogen and progesterone status determined	Eligibility	23
+estrogen	CHEBI:50114,BAO:0000760	0-8
+progesterone	CHEBI:17026	13-25
+PATIENT CHARACTERISTICS:	Eligibility	24
+patient	HADO:0000008,OAE:0001817	0-7
+Age:	Eligibility	25
+age	PATO:0000011	0-3
+greater than or equal to 18 years	Eligibility	26
+Sex:	Eligibility	27
+Female	Eligibility	28
+female	PATO:0000383	0-6
+Menopausal status:	Eligibility	29
+Not specified	Eligibility	30
+Performance status:	Eligibility	31
+Not specified	Eligibility	32
+Life expectancy:	Eligibility	33
+At least 10 years, excluding diagnosis of cancer	Eligibility	34
+cancer	DOID:162	42-48
+Hematopoietic:	Eligibility	35
+Absolute neutrophil count at least 1,500/mm^3 (may be less, if in the opinion of the investigator, this represents an ethnic or racial variation)	Eligibility	36
+Platelet count at least 100,000/mm^3* NOTE: *If platelet count is above the upper limit of normal (ULN), significant underlying hematologic disorders must be excluded	Eligibility	37
+platelet count	CMO:0000029	0-14
+platelet count	CMO:0000029	48-62
+excluded	HP:0040285	158-166
+Hepatic:	Eligibility	38
+Bilirubin no greater than ULN	Eligibility	39
+Alkaline phosphatase less than 2.5 times ULN*	Eligibility	40
+phosphatase	GO:0016791,BAO:0000295	9-20
+SGOT less than 1.5 times ULN*	Eligibility	41
+No nonmalignant systemic hepatic disease that would preclude study participation NOTE: *Alkaline phosphatase and SGOT cannot both be greater than ULN	Eligibility	42
+disease	DOID:4,OGMS:0000031	33-40
+phosphatase	GO:0016791,BAO:0000295	97-108
+Renal:	Eligibility	43
+Creatinine no greater than normal	Eligibility	44
+creatinine	CHEBI:16737	0-10
+No nonmalignant systemic renal disease that would preclude study participation	Eligibility	45
+disease	DOID:4,OGMS:0000031	31-38
+Cardiovascular:	Eligibility	46
+No nonmalignant systemic cardiovascular disease that would preclude study participation	Eligibility	47
+disease	DOID:4,OGMS:0000031	40-47
+LVEF at least lower limit of normal (LLN) by MUGA or echocardiogram	Eligibility	48
+No active cardiac disease that would preclude use of doxorubicin or docetaxel, including the following:	Eligibility	49
+active	PATO:0002354	3-9
+disease	DOID:4,OGMS:0000031	18-25
+doxorubicin	CHEBI:28748,BAO:0000639	53-64
+Any prior myocardial infarction	Eligibility	50
+myocardial infarction	HP:0001658,DOID:5844	10-31
+Angina pectoris requiring anti-anginal medication	Eligibility	51
+angina pectoris	HP:0001681	0-15
+History of congestive heart failure	Eligibility	52
+history	BFO:0000182	0-7
+congestive heart failure	HP:0001635,DOID:6000	11-35
+Cardiac arrhythmia requiring medication	Eligibility	53
+arrhythmia	HP:0011675	8-18
+Severe conduction abnormality	Eligibility	54
+severe	HP:0012828	0-6
+Valvular disease with documented cardiac function compromise	Eligibility	55
+disease	DOID:4,OGMS:0000031	9-16
+function	BAO:0003117,BFO:0000034	41-49
+Cardiomegaly on chest x-ray or ventricular hypertrophy on EKG, unless LVEF at least LLN	Eligibility	56
+cardiomegaly	HP:0001640	0-12
+chest	UBERON:0001443	16-21
+ventricular hypertrophy	HP:0001714	31-54
+Poorly controlled hypertension (diastolic greater than 100 mm/Hg)	Eligibility	57
+hypertension	HP:0000822,DOID:10763	18-30
+Hypertension well controlled by medication allowed	Eligibility	58
+hypertension	HP:0000822,DOID:10763	0-12
+Other:	Eligibility	59
+No grade 2 or greater peripheral neuropathy	Eligibility	60
+peripheral neuropathy	HP:0009830,DOID:870	22-43
+No other prior malignancy within the past 5 years except:	Eligibility	61
+Effectively treated squamous cell or basal cell skin cancer	Eligibility	62
+skin cancer	DOID:4159	48-59
+Surgically treated carcinoma in situ of the cervix	Eligibility	63
+carcinoma	HP:0030731,DOID:305	19-28
+Segmentally resected lobular carcinoma in situ of the ipsilateral or contralateral breast	Eligibility	64
+lobular carcinoma in situ	HP:0030076,DOID:3010	21-46
+breast	UBERON:0000310	83-89
+Not pregnant or nursing	Eligibility	65
+Negative pregnancy test	Eligibility	66
+Fertile patients must use effective barrier contraception	Eligibility	67
+No nonmalignant systemic disease that would preclude study participation	Eligibility	68
+disease	DOID:4,OGMS:0000031	25-32
+No diabetes with morning fasting blood glucose of 200 mg/dL or greater	Eligibility	69
+blood	UBERON:0000178	33-38
+glucose	CHEBI:4167,BAO:0000924	39-46
+No psychiatric or addictive disorders that would preclude informed consent	Eligibility	70
+No contraindication to corticosteroids that would preclude study participation	Eligibility	71
+contraindication	OAE:0000055	3-19
+PRIOR CONCURRENT THERAPY:	Eligibility	72
+Biologic therapy:	Eligibility	73
+No prior immunotherapy for breast cancer	Eligibility	74
+breast cancer	DOID:1612	27-40
+Chemotherapy:	Eligibility	75
+No prior chemotherapy for breast cancer	Eligibility	76
+breast cancer	DOID:1612	26-39
+No prior anthracyclines or taxanes	Eligibility	77
+No other concurrent investigational chemotherapy	Eligibility	78
+Endocrine therapy:	Eligibility	79
+No prior hormonal therapy for breast cancer	Eligibility	80
+breast cancer	DOID:1612	30-43
+No concurrent hormonal birth control methods or other hormonal therapy	Eligibility	81
+No concurrent raloxifene, including for osteoporosis	Eligibility	82
+raloxifene	CHEBI:8772	14-24
+osteoporosis	HP:0000939,DOID:11476	40-52
+Concurrent low-dose topical estrogen in the form of conjugated estrogen ring or conjugated estrogen vaginal cream (dose no more than 0.3 mg or 1/8 of an applicator applied vaginally 3 times a week) allowed	Eligibility	83
+estrogen	CHEBI:50114,BAO:0000760	28-36
+estrogen	CHEBI:50114,BAO:0000760	63-71
+estrogen	CHEBI:50114,BAO:0000760	91-99
+week	UO:0000034	192-196
+Radiotherapy:	Eligibility	84
+radiotherapy	OAE:0000235	0-12
+See Disease Characteristics	Eligibility	85
+disease	DOID:4,OGMS:0000031	4-11
+No prior radiotherapy for this malignancy	Eligibility	86
+radiotherapy	OAE:0000235	9-21
+Surgery:	Eligibility	87
+surgery	OAE:0000067	0-7
+See Disease Characteristics	Eligibility	88
+disease	DOID:4,OGMS:0000031	4-11
+No more than 84 days since prior surgery for breast cancer (e.g., lumpectomy, mastectomy, sentinel node biopsy, axillary dissection, or re-excision of lumpectomy margins)	Eligibility	89
+surgery	OAE:0000067	33-40
+breast cancer	DOID:1612	45-58
+Other:	Eligibility	90
+No prior systemic therapy for this malignancy	Eligibility	91
+No concurrent medications that alter cardiac conduction (e.g., digitalis, beta blockers, or calcium-channel blockers) for cardiac arrhythmia, angina, or congestive heart failure (allowed if administered for other reasons [e.g., hypertension])	Eligibility	92
+cardiac conduction	GO:0061337	37-55
+arrhythmia	HP:0011675	130-140
+congestive heart failure	HP:0001635,DOID:6000	153-177
+hypertension	HP:0000822,DOID:10763	228-240
+Concurrent bisphosphonates allowed	Eligibility	93
+Outcome Measurement:	Results	0
+Overall Survival	Results	1
+[Not Specified]	Results	2
+Time frame: 8 years	Results	3
+time	PATO:0000165	0-4
+Results 1:	Results	4
+Arm/Group Title: Arm 1: Doxorubicin + Cyclophosphamide, Then Docetaxel	Results	5
+doxorubicin	CHEBI:28748,BAO:0000639	24-35
+cyclophosphamide	CHEBI:4026	38-54
+Arm/Group Description: Doxorubicin + Cyclophosphamide, then Docetaxel	Results	6
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+cyclophosphamide	CHEBI:4026	37-53
+Overall Number of Participants Analyzed: 1753	Results	7
+Measure Type: Number	Results	8
+Unit of Measure: percentage of patients alive  83	Results	9
+Results 2:	Results	10
+Arm/Group Title: Arm 2: Doxorubicin + Docetaxel	Results	11
+doxorubicin	CHEBI:28748,BAO:0000639	24-35
+Arm/Group Description: Doxorubicin + Docetaxel	Results	12
+doxorubicin	CHEBI:28748,BAO:0000639	23-34
+Overall Number of Participants Analyzed: 1753	Results	13
+Measure Type: Number	Results	14
+Unit of Measure: percentage of patients alive  79	Results	15
+Adverse Events 1:	Adverse Events	0
+Total: 66/1748 (3.78%)	Adverse Events	1
+Febrile neutropenia 2/1748 (0.11%)	Adverse Events	2
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac disorders - Other, specify 3/1748 (0.17%)	Adverse Events	3
+Conduction disorder 0/1748 (0.00%)	Adverse Events	4
+disorder	OGMS:0000045	11-19
+Myocardial infarction 0/1748 (0.00%)	Adverse Events	5
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Ventricular arrhythmia 1/1748 (0.06%)	Adverse Events	6
+ventricular arrhythmia	HP:0004308	0-22
+Left ventricular systolic dysfunction 0/1748 (0.00%)	Adverse Events	7
+left ventricular systolic dysfunction	HP:0025169	0-37
+Colitis 1/1748 (0.06%)	Adverse Events	8
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhea 0/1748 (0.00%)	Adverse Events	9
+diarrhea	HP:0002014,DOID:13250	0-8
+Duodenal ulcer 0/1748 (0.00%)	Adverse Events	10
+duodenal ulcer	HP:0002588,DOID:1724	0-14
+Adverse Events 2:	Adverse Events	11
+Total: 43/1748 (2.46%)	Adverse Events	12
+Febrile neutropenia 1/1748 (0.06%)	Adverse Events	13
+neutropenia	HP:0001875,DOID:1227	8-19
+Cardiac disorders - Other, specify 1/1748 (0.06%)	Adverse Events	14
+Conduction disorder 0/1748 (0.00%)	Adverse Events	15
+disorder	OGMS:0000045	11-19
+Myocardial infarction 1/1748 (0.06%)	Adverse Events	16
+myocardial infarction	HP:0001658,DOID:5844	0-21
+Ventricular arrhythmia 0/1748 (0.00%)	Adverse Events	17
+ventricular arrhythmia	HP:0004308	0-22
+Left ventricular systolic dysfunction 1/1748 (0.06%)	Adverse Events	18
+left ventricular systolic dysfunction	HP:0025169	0-37
+Colitis 1/1748 (0.06%)	Adverse Events	19
+colitis	HP:0002583,DOID:0060180	0-7
+Diarrhea 1/1748 (0.06%)	Adverse Events	20
+diarrhea	HP:0002014,DOID:13250	0-8
+Duodenal ulcer 1/1748 (0.06%)	Adverse Events	21
+duodenal ulcer	HP:0002588,DOID:1724	0-14

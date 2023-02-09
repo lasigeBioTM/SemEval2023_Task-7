@@ -1,0 +1,304 @@
+INTERVENTION 1:	Intervention	0
+Arm A	Intervention	1
+Patients receive oral capecitabine twice daily on days 1-14 and oral lapatinib ditosylate once daily on days 1-21. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity. lapatinib ditosylate: Given PO and capecitabine: Given PO	Intervention	2
+capecitabine	CHEBI:31348	22-34
+capecitabine	CHEBI:31348	243-255
+lapatinib	CHEBI:49603	69-78
+lapatinib	CHEBI:49603	208-217
+disease	DOID:4,OGMS:0000031	162-169
+INTERVENTION 2:	Intervention	3
+Arm B	Intervention	4
+Patients receive capecitabine and lapatinib ditosylate as in arm I. Patients also receive cixutumumab IV over 1-1½ hours on days 1, 8, and 15. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity. cixutumumab: Given IV, lapatinib ditosylate: Given PO and capecitabine: Given PO	Intervention	5
+capecitabine	CHEBI:31348	17-29
+capecitabine	CHEBI:31348	294-306
+lapatinib	CHEBI:49603	34-43
+lapatinib	CHEBI:49603	259-268
+disease	DOID:4,OGMS:0000031	190-197
+Inclusion Criteria:	Eligibility	0
+Histologically confirmed, locally advanced: (a T4 primary tumor and stage IIIB or IIIC disease) or metastatic breast cancer that has progressed after treatment with regimens that included trastuzumab and either an anthracycline or a taxane or both	Eligibility	1
+disease	DOID:4,OGMS:0000031	87-94
+breast cancer	DOID:1612	110-123
+anthracycline	CHEBI:48120	214-227
+taxane	CHEBI:36064	233-239
+NOTE: Agents need not have been given concurrently, nor in the same regimen	Eligibility	2
+NOTE: Prior treatment with trastuzumab is required unless there is a contraindication for trastuzumab treatment	Eligibility	3
+contraindication	OAE:0000055	69-85
+Pre-treatment requirements:	Eligibility	4
+Prior treatment with trastuzumab in the neo-adjuvant, adjuvant or metastatic setting is required	Eligibility	5
+adjuvant	CHEBI:60809	44-52
+adjuvant	CHEBI:60809	54-62
+NOTE: Prior treatment with trastuzumab is required unless there is a contraindication for trastuzumab treatment	Eligibility	6
+contraindication	OAE:0000055	69-85
+NOTE: Concomitant use of trastuzumab is not allowed in this study	Eligibility	7
+Prior chemotherapy allowed in the neo-adjuvant, adjuvant, or metastatic setting; unlimited prior chemotherapy is allowed	Eligibility	8
+adjuvant	CHEBI:60809	38-46
+adjuvant	CHEBI:60809	48-56
+Prior hormonal therapy allowed in the neo-adjuvant, adjuvant, or metastatic setting; unlimited prior hormonal therapy is allowed	Eligibility	9
+adjuvant	CHEBI:60809	42-50
+adjuvant	CHEBI:60809	52-60
+HER2 positive, defined as:	Eligibility	10
+Validated immunohistochemistry (IHC) assay score of 3+ (defined as uniform, intense staining of > 30% of invasive tumor cells)	Eligibility	11
+immunohistochemistry	BAO:0000415	10-30
+-OR- Average HER2 gene copy number of > 6	Eligibility	12
+gene	BAO:0000582	18-22
+-OR- Gene amplified (HER2:D17Z1 ratio > 2.20)	Eligibility	13
+gene	BAO:0000582	5-9
+ratio	UO:0000190	32-37
+Must have measurable disease according to Response Evaluation Criteria in Solid Tumors (RECIST) criteria	Eligibility	14
+disease	DOID:4,OGMS:0000031	21-28
+Negative pregnancy test done =< 7 days prior to registration, for women of childbearing potential only	Eligibility	15
+Hemoglobin > 9.0 g/dL (obtained =< 7 days prior to registration)	Eligibility	16
+hemoglobin	CHEBI:35143	0-10
+White blood cells (WBC) >= 3,000/mL (obtained =< 7 days prior to registration)	Eligibility	17
+blood	UBERON:0000178	6-11
+Absolute neutrophil count (ANC) >= 1500/mL (obtained =< 7 days prior to registration)	Eligibility	18
+Platelet count >= 75,000/mL (obtained =< 7 days prior to registration)	Eligibility	19
+platelet count	CMO:0000029	0-14
+Total bilirubin =< 1.5 x upper limit of normal (ULN) (obtained =< 7 days prior to registration)	Eligibility	20
+x	LABO:0000148	23-24
+Serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase [AST]) and serum glutamate pyruvate transaminase (SGPT) (alanine aminotransferase [ALT]) =< 2.5 x ULN or SGOT (AST) and SGPT (ALT) =< 5 x ULN if elevations are due to liver metastases (obtained =< 7 days prior to registration)	Eligibility	21
+aspartate	CHEBI:29995	48-57
+glutamate	CHEBI:14321,BAO:0000926	92-101
+pyruvate	CHEBI:15361	102-110
+alanine	CHEBI:16449	132-139
+x	LABO:0000148	16-17
+x	LABO:0000148	171-172
+x	LABO:0000148	211-212
+liver	UBERON:0002107	242-247
+Serum creatinine =< 1.5 x ULN (obtained =< 7 days prior to registration)	Eligibility	22
+creatinine	CHEBI:16737	6-16
+x	LABO:0000148	24-25
+Creatinine clearance >= 30 mL/min (calculated according to Cockcroft and Gault) (obtained =< 7 days prior to registration)	Eligibility	23
+creatinine clearance	CMO:0000765	0-20
+NOTE: In patients with moderate renal impairment (calculated creatinine clearance 30-50 mL/min) at baseline, a dose reduction of the capecitabine starting dose is required	Eligibility	24
+moderate	HP:0012826	23-31
+creatinine clearance	CMO:0000765	61-81
+capecitabine	CHEBI:31348	133-145
+Fasting glucose < 120 mg/dL (obtained =< 7 days prior to registration)	Eligibility	25
+glucose	CHEBI:4167,BAO:0000924	8-15
+NOTE: Patients with diabetes are allowed to participate, provided that their blood glucose is within the guidelines above upon enrollment	Eligibility	26
+blood	UBERON:0000178	77-82
+glucose	CHEBI:4167,BAO:0000924	83-90
+International normalization ratio (INR) =< 1.5 x ULN (obtained =< 7 days prior to registration)	Eligibility	27
+ratio	UO:0000190	28-33
+ratio	UO:0000190	88-93
+x	LABO:0000148	47-48
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) of 0, 1 or 2	Eligibility	28
+group	CHEBI:24433	29-34
+Adequate cardiac function defined as an ejection fraction >= 50% as determined by multi gated acquisition scan (MUGA) or echocardiogram	Eligibility	29
+function	BAO:0003117,BFO:0000034	17-25
+ejection fraction	CMO:0000180	40-57
+Life expectancy > 3 months	Eligibility	30
+Has written informed consent been obtained?	Eligibility	31
+Willingness to return to a North Central Cancer Treatment Group (NCCTG) or other participating cooperative group institution for treatment and follow-up	Eligibility	32
+central	HP:0030645	33-40
+cancer	DOID:162	41-47
+group	CHEBI:24433	58-63
+group	CHEBI:24433	107-112
+Patient willing to provide tissue and blood samples for research purposes	Eligibility	33
+patient	HADO:0000008,OAE:0001817	0-7
+tissue	UBERON:0000479	27-33
+blood	UBERON:0000178	38-43
+Availability of diagnostic material (i.e., diagnostic slides confirming locally advanced/metastatic disease and HER2 stained slides) and operative and pathology reports from diagnosis of locally advanced or metastatic breast cancer	Eligibility	34
+disease	DOID:4,OGMS:0000031	100-107
+breast cancer	DOID:1612	218-231
+NOTE: Biopsy of recurrent disease and submission of these materials is not required if materials available from initial diagnosis of locally advanced/metastatic disease	Eligibility	35
+recurrent	HP:0031796	16-25
+disease	DOID:4,OGMS:0000031	26-33
+disease	DOID:4,OGMS:0000031	161-168
+Ability to complete questionnaire(s) by themselves or with assistance	Eligibility	36
+Exclusion Criteria:	Eligibility	37
+Any of the following because this study involves an investigational agent whose genotoxic, mutagenic and teratogenic effects on the developing fetus and newborn are unknown:	Eligibility	38
+Pregnant women	Eligibility	39
+Nursing women	Eligibility	40
+Men or women of childbearing potential who are unwilling to employ adequate contraception (as determined by the treating physician)	Eligibility	41
+Stage III or IV invasive cancer, other than breast cancer, in =< 5 years prior to registration	Eligibility	42
+cancer	DOID:162	25-31
+cancer	DOID:162	51-57
+breast cancer	DOID:1612	44-57
+Actively being treated for other malignancy, excepting non-melanotic skin cancer or carcinoma-in-situ of the cervix; if there is a history of prior malignancy, patient must not be receiving other specific treatment for their cancer	Eligibility	43
+skin cancer	DOID:4159	69-80
+history	BFO:0000182	131-138
+patient	HADO:0000008,OAE:0001817	160-167
+cancer	DOID:162	74-80
+cancer	DOID:162	225-231
+New York Heart Association class III or IV cardiovascular disease	Eligibility	44
+heart	UBERON:0000948	9-14
+disease	DOID:4,OGMS:0000031	58-65
+Current, active hepatic or biliary disease except Gilbert's syndrome or asymptomatic gallstones	Eligibility	45
+active	PATO:0002354	9-15
+disease	DOID:4,OGMS:0000031	35-42
+syndrome	DOID:225	60-68
+Evidence of active brain metastasis including leptomeningeal involvement; central nervous system (CNS) metastasis controlled by prior surgery and/or radiotherapy is allowed	Eligibility	46
+active	PATO:0002354	12-18
+brain	UBERON:0000955	19-24
+central nervous system	UBERON:0001017	74-96
+surgery	OAE:0000067	134-141
+radiotherapy	OAE:0000235	149-161
+NOTE: To be considered controlled, there must be at least 2 months of no symptoms or evidence of progression prior to study entry and corticosteroid therapy must have been discontinued	Eligibility	47
+corticosteroid	CHEBI:50858	134-148
+Major surgery, chemotherapy, or immunologic therapy =< 4 weeks prior to registration	Eligibility	48
+surgery	OAE:0000067	6-13
+Radiotherapy =< 4 weeks prior to registration, except if to a non-target lesion only; prior radiation to a target lesion is permitted only if there has been clear progression of the lesion since radiation was completed; if patient receives single dose radiation for palliation or radiation to non-target lesion, they may immediately proceed to registration without waiting; acute adverse events from radiation must have resolved to =< Common Terminology Criteria for Adverse Events (CTCAE) version (v) 3.0 grade 1	Eligibility	49
+radiotherapy	OAE:0000235	0-12
+target	BAO:0003064	66-72
+target	BAO:0003064	107-113
+target	BAO:0003064	297-303
+patient	HADO:0000008,OAE:0001817	223-230
+acute	HP:0011009,PATO:0000389	374-379
+Prior treatment with any therapy targeting IGF-I, IGF-II or its receptors (either monoclonal antibody or tyrosine kinase inhibitor), including but not limited to any of the following (which would have been received on a previous clinical trial):	Eligibility	50
+monoclonal	BAO:0000503	82-92
+antibody	GO:0042571,BAO:0000502	93-101
+tyrosine kinase inhibitor	CHEBI:38637	105-130
+IMC-A12 (cixutumumab)	Eligibility	51
+CP-751,871 (figitumumab)	Eligibility	52
+AMG-479	Eligibility	53
+INSM-18	Eligibility	54
+MK0646 (h7C10)	Eligibility	55
+SCH717454 (19D12, robatumumab)	Eligibility	56
+R1507	Eligibility	57
+OSI-906	Eligibility	58
+BMS-754807	Eligibility	59
+bms-754807	CHEBI:88339	0-10
+PPP	Eligibility	60
+NVP-AEW541	Eligibility	61
+AVE-1642	Eligibility	62
+MEDI-573	Eligibility	63
+Prior therapy with any therapy targeting HER1 (EGFR) and/or HER2 (either monoclonal antibody or tyrosine kinase) other than trastuzumab, including but not limited to any of the following:	Eligibility	64
+monoclonal	BAO:0000503	73-83
+antibody	GO:0042571,BAO:0000502	84-92
+tyrosine	CHEBI:18186	96-104
+kinase	BAO:0000294	105-111
+Lapatinib (Tykerb)	Eligibility	65
+lapatinib	CHEBI:49603	0-9
+Gefitinib (Iressa)	Eligibility	66
+gefitinib	CHEBI:49668	0-9
+Erlotinib (Tarceva)	Eligibility	67
+erlotinib	CHEBI:114785	0-9
+Cetuximab (Erbitux)	Eligibility	68
+Panitumumab (Vectibix)	Eligibility	69
+Currently receiving treatment with any agents that are contraindicated by study therapies:	Eligibility	70
+IMC-A12 - none identified to date	Eligibility	71
+Lapatinib - CYP3A4 inhibitors and inducers, including grapefruit and grapefruit juice	Eligibility	72
+lapatinib	CHEBI:49603	0-9
+Capecitabine - warfarin (Coumadin), cimetidine (Tagamet), allopurinol (Lopurin), sorivudine (Usevir) or brivudine (Brivex), ketoconazole (Nizoral), itraconazole (Sporanox), ritonavir (Norvir), amprenavir (Agenerase) or indinavir (Crixivan)	Eligibility	73
+capecitabine	CHEBI:31348	0-12
+warfarin	CHEBI:10033	15-23
+cimetidine	CHEBI:3699	36-46
+allopurinol	CHEBI:40279	58-69
+sorivudine	CHEBI:32152	81-91
+ketoconazole	CHEBI:47519,BAO:0000796	124-136
+itraconazole	CHEBI:6076	148-160
+ritonavir	CHEBI:45409	173-182
+amprenavir	CHEBI:40050	193-203
+indinavir	CHEBI:44032	219-228
+Uncontrolled intercurrent illness including, but not limited to:	Eligibility	74
+Poorly controlled diabetes	Eligibility	75
+Ongoing or active infection	Eligibility	76
+active	PATO:0002354	11-17
+Symptomatic congestive heart failure	Eligibility	77
+congestive heart failure	HP:0001635,DOID:6000	12-36
+Unstable angina pectoris	Eligibility	78
+angina pectoris	HP:0001681	9-24
+Cardiac arrhythmia	Eligibility	79
+arrhythmia	HP:0011675	8-18
+Psychiatric illness/social situations that would limit compliance with study requirements	Eligibility	80
+Co-morbid systemic illnesses or other severe concurrent disease which, in the judgment of the investigator, would make the patient inappropriate for entry into this study or interfere significantly with the proper assessment of the safety of the prescribed regimens	Eligibility	81
+severe	HP:0012828	38-44
+disease	DOID:4,OGMS:0000031	56-63
+patient	HADO:0000008,OAE:0001817	123-130
+Currently receiving treatment in a different clinical study in which investigational procedures are performed or investigational therapies are administered	Eligibility	82
+Immunocompromised patients (other than that related to the use of corticosteroids) including patients known to be human immunodeficiency virus (HIV) positive with an acquired immune deficiency syndrome (AIDS)-defining illness; HIV positive patients with cluster of differentiation (CD) 4 count within institutional normal range and no history of an AIDS-defining illness are eligible; however, some antiviral/antiretroviral medications which have CYP3A4 interactions are prohibited on this study	Eligibility	83
+immunodeficiency	HP:0002721	120-136
+virus	BAO:0000232	137-142
+syndrome	DOID:225	193-201
+cluster	CHEBI:33731	254-261
+range	LABO:0000114	322-327
+history	BFO:0000182	335-342
+Outcome Measurement:	Results	0
+Progression-free Survival (PFS)	Results	1
+Analysis of the primary endpoint, PFS, will be performed using Cox regression with treatment group as a single covariate.	Results	2
+group	CHEBI:24433	93-98
+Time frame: From randomization to the earliest date of documentation of disease progression, up to 5 years	Results	3
+time	PATO:0000165	0-4
+disease	DOID:4,OGMS:0000031	72-79
+Results 1:	Results	4
+Arm/Group Title: Arm A	Results	5
+Arm/Group Description: Patients receive oral capecitabine twice daily on days 1-14 and oral lapatinib ditosylate once daily on days 1-21. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity. lapatinib ditosylate: Given PO and capecitabine: Given PO	Results	6
+capecitabine	CHEBI:31348	45-57
+capecitabine	CHEBI:31348	266-278
+lapatinib	CHEBI:49603	92-101
+lapatinib	CHEBI:49603	231-240
+disease	DOID:4,OGMS:0000031	185-192
+Overall Number of Participants Analyzed: 19	Results	7
+Median (95% Confidence Interval)	Results	8
+median	BAO:0002174	0-6
+Unit of Measure: Median survival and CI in months  6.0        (4.3 to 8.6)	Results	9
+median	BAO:0002174	17-23
+Results 2:	Results	10
+Arm/Group Title: Arm B	Results	11
+Arm/Group Description: Patients receive capecitabine and lapatinib ditosylate as in arm I. Patients also receive cixutumumab IV over 1-1  hours on days 1, 8, and 15. Courses repeat every 21 days in the absence of disease progression or unacceptable toxicity. cixutumumab: Given IV, lapatinib ditosylate: Given PO and capecitabine: Given PO	Results	12
+capecitabine	CHEBI:31348	40-52
+capecitabine	CHEBI:31348	317-329
+lapatinib	CHEBI:49603	57-66
+lapatinib	CHEBI:49603	282-291
+disease	DOID:4,OGMS:0000031	213-220
+Overall Number of Participants Analyzed: 37	Results	13
+Median (95% Confidence Interval)	Results	14
+median	BAO:0002174	0-6
+Unit of Measure: Median survival and CI in months  4.9        (2.9 to 8.5)	Results	15
+median	BAO:0002174	17-23
+Adverse Events 1:	Adverse Events	0
+Total: 4/19 (21.05%)	Adverse Events	1
+Hemoglobin decreased 0/19 (0.00%)	Adverse Events	2
+hemoglobin	CHEBI:35143	0-10
+Hemolysis 0/19 (0.00%)	Adverse Events	3
+Diarrhea 2/19 (10.53%)	Adverse Events	4
+diarrhea	HP:0002014,DOID:13250	0-8
+Ear, nose and throat examination abnormal 0/19 (0.00%)	Adverse Events	5
+ear	UBERON:0001690	0-3
+nose	UBERON:0000004	5-9
+throat	UBERON:0000341	14-20
+Esophageal ulcer 0/19 (0.00%)	Adverse Events	6
+ulcer	OAE:0004372	11-16
+Gastritis 1/19 (5.26%)	Adverse Events	7
+gastritis	HP:0005263,DOID:4029	0-9
+Mucositis oral 0/19 (0.00%)	Adverse Events	8
+mucositis	DOID:0080178	0-9
+Nausea 1/19 (5.26%)	Adverse Events	9
+nausea	HP:0002018	0-6
+Vomiting 1/19 (5.26%)	Adverse Events	10
+vomiting	HP:0002013	0-8
+Chest pain 0/19 (0.00%)	Adverse Events	11
+chest pain	HP:0100749	0-10
+Chills 0/19 (0.00%)	Adverse Events	12
+chills	HP:0025143	0-6
+Disease progression 1/19 (5.26%)	Adverse Events	13
+disease	DOID:4,OGMS:0000031	0-7
+Adverse Events 2:	Adverse Events	14
+Total: 14/45 (31.11%)	Adverse Events	15
+Hemoglobin decreased 1/45 (2.22%)	Adverse Events	16
+hemoglobin	CHEBI:35143	0-10
+Hemolysis 1/45 (2.22%)	Adverse Events	17
+Diarrhea 1/45 (2.22%)	Adverse Events	18
+diarrhea	HP:0002014,DOID:13250	0-8
+Ear, nose and throat examination abnormal 1/45 (2.22%)	Adverse Events	19
+ear	UBERON:0001690	0-3
+nose	UBERON:0000004	5-9
+throat	UBERON:0000341	14-20
+Esophageal ulcer 1/45 (2.22%)	Adverse Events	20
+ulcer	OAE:0004372	11-16
+Gastritis 1/45 (2.22%)	Adverse Events	21
+gastritis	HP:0005263,DOID:4029	0-9
+Mucositis oral 1/45 (2.22%)	Adverse Events	22
+mucositis	DOID:0080178	0-9
+Nausea 1/45 (2.22%)	Adverse Events	23
+nausea	HP:0002018	0-6
+Vomiting 1/45 (2.22%)	Adverse Events	24
+vomiting	HP:0002013	0-8
+Chest pain 1/45 (2.22%)	Adverse Events	25
+chest pain	HP:0100749	0-10
+Chills 1/45 (2.22%)	Adverse Events	26
+chills	HP:0025143	0-6
+Disease progression 0/45 (0.00%)	Adverse Events	27
+disease	DOID:4,OGMS:0000031	0-7
