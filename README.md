@@ -2,7 +2,7 @@
 
 The present repository contains the data used for our participation at the SemEval 2023 Task 7 Subtask 1.
 
-The academic paper describing our participation (user *dpavot*) in SemEval 2023 Task 7 will be available [here](TODO).
+The academic paper describing our participation (user *dpavot*) in SemEval 2023 Task 7 will be available [here](https://aclanthology.org/2023.semeval-1.2/).
 
 
 ## Dependencies
